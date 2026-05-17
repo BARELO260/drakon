@@ -881,8 +881,18 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
       signInGoogle:  () => auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(c => c.user),
       resetPassword: (email)       => auth.sendPasswordResetEmail(email),
       signOut:       ()            => auth.signOut(),
-      saveData:      (data)        => window._fbUser && db.collection('users').doc(window._fbUser.uid).set(data, {merge:true}),
-      loadData:      ()            => window._cloudData,
+      // saveData usa merge:true — nunca borra campos no incluidos
+      saveData: (data) => {
+        if(!window._fbUser) return Promise.resolve();
+        return db.collection('users').doc(window._fbUser.uid).set(data, {merge:true});
+      },
+      // loadData SIEMPRE va a Firestore (no usa caché en memoria)
+      loadData: () => {
+        if(!window._fbUser) return Promise.resolve(null);
+        return db.collection('users').doc(window._fbUser.uid).get()
+          .then(snap => snap.exists ? snap.data() : null)
+          .catch(() => null);
+      },
     };
   } catch(e){
     console.error('Firebase init failed:', e);
@@ -998,7 +1008,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
 
 <!-- LOGIN / REGISTER -->
 <div class="screen" id="screen-login">
-  <div class="login-logo">🐲</div>
+  <div class="login-logo"><img src="drakon.png" style="width:72px;height:72px;object-fit:contain;filter:drop-shadow(0 0 20px rgba(251,146,6,.6))"></div>
   <div class="login-title">Drakón</div>
   <div class="login-sub">Sistema de aprendizaje IA</div>
   <div class="login-ver-badge">DRAKON v5.0 · SISTEMA ACTIVO</div>
@@ -1056,7 +1066,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
   <div class="hud-corner hud-bl"></div>
   <div class="hud-corner hud-br"></div>
   <div class="intro-badge">// SISTEMA ACTIVO //</div>
-  <div class="logo">🐲 Drakón</div>
+  <div class="logo">Drakón</div>
   <div class="tagline">Tutor de idiomas · Inteligencia Artificial</div>
   <div class="mascot-intro" id="introEmoji" onclick="introMascotTap()" style="font-size:0"></div>
   <div class="intro-select-lbl">— Elige tu compañero —</div>
@@ -1332,7 +1342,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
     <span class="chat-title">Mi perfil</span>
   </div>
   <div class="profile-hero">
-    <div class="profile-char" id="profileChar" onclick="switchTab('chars');navTo('home')">🐲</div>
+    <div class="profile-char" id="profileChar" onclick="switchTab('chars');navTo('home')" style="font-size:0;width:90px;height:90px;display:flex;align-items:center;justify-content:center"></div>
     <div class="profile-name" id="profileName">Jugador</div>
     <div class="profile-lang" id="profileLangSub">Selecciona un idioma</div>
     <div class="plan-pill plan-free" id="planPill" onclick="showPremModal()">🐾 Plan Gratis · Mejorar</div>
@@ -1358,7 +1368,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
 <div id="premModal" style="display:none" class="modal-ov" onclick="closePremOv(event)">
   <div class="modal-sheet">
     <div class="modal-handle" onclick="closePrem()"></div>
-    <div class="modal-title">🐲 Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Pro</span></div>
+    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Pro</span></div>
     <div class="modal-sub">Desbloquea el poder total del dragón</div>
     <div class="plan-cards">
       <div class="plan-card">
@@ -1410,7 +1420,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--f
 <div id="groqModal">
   <div class="groq-sheet">
     <div class="groq-handle"></div>
-    <div style="font-size:48px;text-align:center;margin-bottom:8px">🤖</div>
+    <div style="font-size:48px;text-align:center;margin-bottom:8px">⚙️</div>
     <div class="groq-title">Configura la IA</div>
     <div class="groq-sub">Necesitas una API key gratuita de Groq.<br>Sin tarjeta de crédito. Listo en 1 minuto.</div>
 
@@ -3684,23 +3694,34 @@ function firebaseErrMsg(code){
 
 // Called when Firebase confirms user is logged in
 window.onFirebaseUserReady = async function(user){
-  // Load cloud data into state
-  const cloudData = window._firebase.loadData();
-  if(cloudData && Object.keys(cloudData).length > 0){
-    // Merge cloud data (cloud takes priority over local)
-    const keysToMerge = ['xp','streak','totalMessages','lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme','nativeLang','groqKey','quizDone','missions','achievements','lessonsCompleted','userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled','savedChats','isPremium'];
-    for(const k of keysToMerge){
-      if(cloudData[k] !== undefined) state[k] = cloudData[k];
+  // Mostrar pantalla de carga mientras traemos datos de la nube
+  showLoadingOverlay('Cargando tu cuenta...');
+  try {
+    // SIEMPRE leer fresco desde Firestore (no usar caché local)
+    const cloudData = await window._firebase.loadData();
+    if(cloudData && Object.keys(cloudData).length > 0){
+      // La nube tiene prioridad absoluta sobre localStorage
+      const keysToMerge = ['xp','streak','totalMessages','lastActiveDate','lastMsgDate',
+        'msgsToday','charId','lang','theme','nativeLang','groqKey','quizDone','missions',
+        'achievements','lessonsCompleted','userLevel','correctionsToday','situationsToday',
+        'notifs','sounds','ttsEnabled','savedChats','isPremium'];
+      for(const k of keysToMerge){
+        if(cloudData[k] !== undefined) state[k] = cloudData[k];
+      }
+      // También sincronizar localStorage con los datos de la nube
+      try{ localStorage.setItem('drakon_pwa', JSON.stringify(state)); }catch(e){}
+      loadGroqKey();
     }
-    loadGroqKey();
-  }
+  } catch(e){ console.warn('Error cargando datos de la nube:', e); }
 
+  hideLoadingOverlay();
   applyTheme(state.theme||'dark');
   applyNativeLanguageUI();
+  updateAllUI();
 
   if(!state.nativeLang){
     goTo('screen-native');
-  } else if(state.lang && (state.quizDone || state.xp>0 || state.totalMessages>0 || state.lessonsCompleted?.length>0 || (state.userLevel && state.userLevel!=='A1'))){
+  } else if(state.lang && (state.quizDone || state.xp>0 || state.totalMessages>0 || (state.lessonsCompleted&&state.lessonsCompleted.length>0) || (state.userLevel && state.userLevel!=='A1'))){
     goToMain();
   } else if(state.lang){
     goToMain();
@@ -3765,32 +3786,27 @@ function saveFbConfig(){
   }
 }
 
-/* ── Override save() to also sync to cloud ── */
-const _originalSave = typeof save === 'function' ? save.bind({}) : null;
+/* ── save() — localStorage inmediato + Firestore con debounce 1.5s ── */
+let _saveCloudTimer = null;
 function save(){
-  // Save to localStorage (original logic inlined to avoid recursion)
-  try{localStorage.setItem('drakon_pwa',JSON.stringify({
-    xp:state.xp,streak:state.streak,totalMessages:state.totalMessages,
-    lastActiveDate:state.lastActiveDate,lastMsgDate:state.lastMsgDate,msgsToday:state.msgsToday,
-    isPremium:state.isPremium,charId:state.charId,lang:state.lang,theme:state.theme,
-    nativeLang:state.nativeLang,groqKey:state.groqKey,quizDone:state.quizDone,
-    missions:state.missions,achievements:state.achievements,lessonsCompleted:state.lessonsCompleted,
-    userLevel:state.userLevel,correctionsToday:state.correctionsToday,situationsToday:state.situationsToday,
-    notifs:state.notifs,sounds:state.sounds,ttsEnabled:state.ttsEnabled,savedChats:state.savedChats,
-  }));}catch(e){}
-  // Sync to Firestore if logged in
+  // 1. Guardar en localStorage de inmediato (sin importar si hay sesión)
+  const data = {
+    xp:state.xp, streak:state.streak, totalMessages:state.totalMessages,
+    lastActiveDate:state.lastActiveDate, lastMsgDate:state.lastMsgDate, msgsToday:state.msgsToday,
+    isPremium:state.isPremium, charId:state.charId, lang:state.lang, theme:state.theme,
+    nativeLang:state.nativeLang, groqKey:state.groqKey, quizDone:state.quizDone,
+    missions:state.missions, achievements:state.achievements, lessonsCompleted:state.lessonsCompleted,
+    userLevel:state.userLevel, correctionsToday:state.correctionsToday, situationsToday:state.situationsToday,
+    notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
+  };
+  try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
+
+  // 2. Sincronizar con Firestore — debounce 1.5s para no spammear escrituras
   if(window._fbReady && window._fbUser && window._firebase){
-    const data = {
-      xp:state.xp,streak:state.streak,totalMessages:state.totalMessages,
-      lastActiveDate:state.lastActiveDate,lastMsgDate:state.lastMsgDate,msgsToday:state.msgsToday,
-      isPremium:state.isPremium,charId:state.charId,lang:state.lang,theme:state.theme,
-      nativeLang:state.nativeLang,groqKey:state.groqKey,quizDone:state.quizDone,
-      missions:state.missions,achievements:state.achievements,lessonsCompleted:state.lessonsCompleted,
-      userLevel:state.userLevel,correctionsToday:state.correctionsToday,situationsToday:state.situationsToday,
-      notifs:state.notifs,sounds:state.sounds,ttsEnabled:state.ttsEnabled,savedChats:state.savedChats,
-      updatedAt: Date.now(),
-    };
-    window._firebase.saveData(data);
+    clearTimeout(_saveCloudTimer);
+    _saveCloudTimer = setTimeout(() => {
+      window._firebase.saveData({ ...data, updatedAt: Date.now() });
+    }, 1500);
   }
 }
 
@@ -4308,7 +4324,7 @@ window.addEventListener('beforeinstallprompt',e=>{
 });
 function showInstallBanner(){
   const banner=document.createElement('div'); banner.className='install-banner'; banner.id='installBanner';
-  banner.innerHTML=`<span class="ib-icon">🐲</span><div class="ib-text"><div class="ib-title">Instala Drakón</div><div class="ib-sub">Úsala como app en tu dispositivo</div></div><button class="ib-btn" onclick="installPWA()">Instalar</button><button class="ib-close" onclick="dismissInstall()">✕</button>`;
+  banner.innerHTML='<span class="ib-icon"><img src="drakon.png" style="width:32px;height:32px;object-fit:contain"></span><div class="ib-text"><div class="ib-title">Instala Drakón</div><div class="ib-sub">Úsala como app en tu dispositivo</div></div><button class="ib-btn" onclick="installPWA()">Instalar</button><button class="ib-close" onclick="dismissInstall()">✕</button>';
   document.body.appendChild(banner);
 }
 async function installPWA(){
@@ -4363,6 +4379,17 @@ document.addEventListener('keydown',e=>{
 /* ═══════════════════════════════════════
    INIT
 ═══════════════════════════════════════ */
+
+function showLoadingOverlay(msg){
+  const o=document.getElementById('loadingOverlay');
+  const m=document.getElementById('loadingMsg');
+  if(o){ o.style.display='flex'; }
+  if(m && msg) m.textContent=msg;
+}
+function hideLoadingOverlay(){
+  const o=document.getElementById('loadingOverlay');
+  if(o) o.style.display='none';
+}
 function init(){
   load();
   loadGroqKey();
@@ -4380,5 +4407,13 @@ function init(){
 if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
 else init();
 </script>
+
+<div id="loadingOverlay" style="display:none;position:fixed;inset:0;background:rgba(12,8,0,.92);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:16px;backdrop-filter:blur(8px)">
+  <img src="drakon.png" style="width:80px;height:80px;object-fit:contain;animation:pulse 1.5s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,146,6,.7))">
+  <div style="font-family:var(--fh);font-size:13px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase" id="loadingMsg">Cargando...</div>
+  <div style="width:120px;height:2px;background:rgba(251,146,6,.15);border-radius:1px;overflow:hidden">
+    <div style="height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));border-radius:1px;animation:shimmer 1.2s linear infinite"></div>
+  </div>
+</div>
 </body>
 </html>
