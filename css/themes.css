@@ -1,0 +1,230 @@
+/* ── themes.css: all :root and [data-theme] variables ── */
+/* ── THEMES ── */
+:root{
+  /* ── DARK (default) ── */
+  --bg:#0c0a1a;--surface:#131028;--card:#1e1838;--card2:#261f48;
+  --border:rgba(251,146,6,.35);--text:#fff8ee;--muted:#a080c0;
+  --accent:#f59200;--gold:#fbbf24;--mint:#00f5c4;--coral:#ff4060;--sky:#38d0f8;
+  --neon:#f59200;--neon2:#fbbf24;
+  --radius:16px;--ff:'Exo 2',sans-serif;--fb:'Exo 2',sans-serif;--fh:'Orbitron',monospace;
+  --shadow:rgba(0,0,0,.7);
+  --glow-gold:rgba(251,146,6,.45);--glow-accent:rgba(245,146,0,.5);
+  --glow-mint:rgba(0,245,196,.4);
+  --grid-color:rgba(251,146,6,.08);
+  --topbar-bg:rgba(13,10,26,.92);--card-bg:rgba(30,24,56,.88);--input-bg:rgba(18,14,36,.9);
+  /* Card accent colors for differentiation */
+  --card-mission:rgba(255,120,0,.12);--card-lesson:rgba(0,200,255,.1);
+  --card-ai:rgba(180,80,255,.12);--card-streak:rgba(255,60,100,.1);
+  --card-border-mission:rgba(255,120,0,.4);--card-border-lesson:rgba(0,200,255,.35);
+  --card-border-ai:rgba(180,80,255,.4);--card-border-streak:rgba(255,60,100,.35);
+}
+[data-theme="light"]{
+  --bg:#f0eaff;--surface:#e8e0ff;--card:#ffffff;--card2:#f5f0ff;
+  --border:rgba(120,60,220,.3);--text:#1a0840;--muted:#6040a0;
+  --accent:#7030d0;--gold:#9020f0;--mint:#00a870;--coral:#e0002e;
+  --neon:#7030d0;--neon2:#9020f0;
+  --shadow:rgba(80,0,180,.15);--grid-color:rgba(120,60,220,.07);
+  --glow-gold:rgba(120,60,220,.3);--glow-accent:rgba(120,60,220,.3);--glow-mint:rgba(0,168,112,.25);
+  --topbar-bg:rgba(240,234,255,.95);--card-bg:rgba(255,255,255,.95);--input-bg:rgba(248,244,255,.95);
+  --card-mission:rgba(255,120,0,.1);--card-lesson:rgba(0,140,255,.08);
+  --card-ai:rgba(160,0,255,.1);--card-streak:rgba(255,40,80,.08);
+  --card-border-mission:rgba(255,120,0,.4);--card-border-lesson:rgba(0,140,255,.35);
+  --card-border-ai:rgba(160,0,255,.4);--card-border-streak:rgba(255,40,80,.35);
+}
+[data-theme="amoled"]{
+  --bg:#000;--surface:#080810;--card:#0e0e1e;--card2:#16162e;
+  --border:rgba(251,146,6,.25);--text:#fff;--muted:#7070a0;
+  --accent:#f59200;--gold:#fbbf24;--mint:#00f5c4;--coral:#ff4060;
+  --neon:#f59200;--neon2:#fbbf24;
+  --shadow:rgba(0,0,0,.95);--grid-color:rgba(251,146,6,.05);
+  --glow-gold:rgba(251,146,6,.4);--glow-accent:rgba(245,146,0,.4);--glow-mint:rgba(0,245,196,.35);
+  --topbar-bg:rgba(0,0,0,.98);--card-bg:rgba(14,14,30,.92);--input-bg:rgba(6,6,14,.95);
+  --card-mission:rgba(255,120,0,.15);--card-lesson:rgba(0,200,255,.12);
+  --card-ai:rgba(180,80,255,.15);--card-streak:rgba(255,60,100,.12);
+  --card-border-mission:rgba(255,120,0,.45);--card-border-lesson:rgba(0,200,255,.4);
+  --card-border-ai:rgba(180,80,255,.45);--card-border-streak:rgba(255,60,100,.4);
+}
+[data-theme="forest"]{
+  --bg:#021209;--surface:#051c0e;--card:#082816;--card2:#0d3820;
+  --border:rgba(0,230,110,.4);--text:#d0ffe8;--muted:#40c080;
+  --accent:#00e870;--gold:#00ff90;--mint:#60ffb0;--coral:#ff4455;
+  --neon:#00e870;--neon2:#00ff90;
+  --shadow:rgba(0,0,0,.65);--grid-color:rgba(0,230,110,.12);
+  --glow-gold:rgba(0,230,110,.55);--glow-accent:rgba(0,232,112,.55);--glow-mint:rgba(96,255,176,.4);
+  --topbar-bg:rgba(2,18,9,.95);--card-bg:rgba(8,40,22,.9);--input-bg:rgba(3,16,9,.92);
+  --card-mission:rgba(255,180,0,.12);--card-lesson:rgba(0,200,150,.12);
+  --card-ai:rgba(100,255,150,.1);--card-streak:rgba(255,70,80,.12);
+  --card-border-mission:rgba(255,180,0,.4);--card-border-lesson:rgba(0,220,150,.4);
+  --card-border-ai:rgba(100,255,150,.4);--card-border-streak:rgba(255,70,80,.4);
+}
+[data-theme="ocean"]{
+  --bg:#010d1e;--surface:#02152e;--card:#041e42;--card2:#062856;
+  --border:rgba(0,190,255,.4);--text:#c0f0ff;--muted:#3080c0;
+  --accent:#00c8ff;--gold:#40e0ff;--mint:#00ffee;--coral:#ff3060;
+  --neon:#00c8ff;--neon2:#40e0ff;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(0,190,255,.12);
+  --glow-gold:rgba(0,190,255,.55);--glow-accent:rgba(0,200,255,.55);--glow-mint:rgba(0,255,238,.4);
+  --topbar-bg:rgba(1,12,30,.96);--card-bg:rgba(4,30,66,.9);--input-bg:rgba(1,12,28,.93);
+  --card-mission:rgba(255,150,0,.12);--card-lesson:rgba(0,220,255,.12);
+  --card-ai:rgba(80,120,255,.12);--card-streak:rgba(255,50,80,.12);
+  --card-border-mission:rgba(255,150,0,.42);--card-border-lesson:rgba(0,220,255,.42);
+  --card-border-ai:rgba(80,120,255,.42);--card-border-streak:rgba(255,50,80,.42);
+}
+[data-theme="purple"]{
+  --bg:#08021c;--surface:#0e0428;--card:#160838;--card2:#1e0e4a;
+  --border:rgba(170,80,255,.42);--text:#f0d8ff;--muted:#8040d0;
+  --accent:#b050ff;--gold:#d890ff;--mint:#80ffcc;--coral:#ff3080;
+  --neon:#b050ff;--neon2:#d890ff;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(170,80,255,.12);
+  --glow-gold:rgba(170,80,255,.6);--glow-accent:rgba(176,64,255,.6);--glow-mint:rgba(128,255,204,.35);
+  --topbar-bg:rgba(8,2,28,.96);--card-bg:rgba(22,8,56,.9);--input-bg:rgba(10,3,26,.93);
+  --card-mission:rgba(255,120,0,.14);--card-lesson:rgba(80,200,255,.12);
+  --card-ai:rgba(200,100,255,.14);--card-streak:rgba(255,40,100,.12);
+  --card-border-mission:rgba(255,120,0,.45);--card-border-lesson:rgba(80,200,255,.4);
+  --card-border-ai:rgba(200,100,255,.48);--card-border-streak:rgba(255,40,100,.42);
+}
+[data-theme="ruby"]{
+  --bg:#160108;--surface:#200210;--card:#2e0318;--card2:#3c0422;
+  --border:rgba(255,30,80,.45);--text:#ffc8d8;--muted:#c03050;
+  --accent:#ff1040;--gold:#ff5070;--mint:#ff90a0;--coral:#ff1040;
+  --neon:#ff1040;--neon2:#ff5070;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(255,30,80,.12);
+  --glow-gold:rgba(255,20,70,.6);--glow-accent:rgba(255,16,64,.6);--glow-mint:rgba(255,144,160,.3);
+  --topbar-bg:rgba(22,1,8,.96);--card-bg:rgba(46,3,24,.9);--input-bg:rgba(18,1,8,.93);
+  --card-mission:rgba(255,120,0,.14);--card-lesson:rgba(255,200,60,.1);
+  --card-ai:rgba(255,60,100,.14);--card-streak:rgba(255,20,60,.14);
+  --card-border-mission:rgba(255,120,0,.45);--card-border-lesson:rgba(255,200,60,.4);
+  --card-border-ai:rgba(255,60,100,.48);--card-border-streak:rgba(255,20,60,.5);
+}
+[data-theme="matrix"]{
+  --bg:#000a02;--surface:#001005;--card:#001c08;--card2:#002810;
+  --border:rgba(0,255,65,.38);--text:#c0ffcc;--muted:#20a040;
+  --accent:#00ff41;--gold:#00dd35;--mint:#66ff88;--coral:#ff3030;
+  --neon:#00ff41;--neon2:#00dd35;
+  --shadow:rgba(0,0,0,.8);--grid-color:rgba(0,255,65,.12);
+  --glow-gold:rgba(0,255,65,.65);--glow-accent:rgba(0,255,65,.65);--glow-mint:rgba(102,255,136,.42);
+  --topbar-bg:rgba(0,10,3,.97);--card-bg:rgba(0,28,8,.92);--input-bg:rgba(0,10,3,.95);
+  --card-mission:rgba(0,255,80,.1);--card-lesson:rgba(60,255,100,.08);
+  --card-ai:rgba(0,200,80,.12);--card-streak:rgba(255,50,50,.12);
+  --card-border-mission:rgba(0,255,80,.42);--card-border-lesson:rgba(60,255,100,.38);
+  --card-border-ai:rgba(0,200,80,.45);--card-border-streak:rgba(255,50,50,.42);
+}
+[data-theme="sunset"]{
+  --bg:#160400;--surface:#200700;--card:#2e1000;--card2:#3c1400;
+  --border:rgba(255,110,0,.42);--text:#fff0e0;--muted:#d06020;
+  --accent:#ff5500;--gold:#ff8800;--mint:#ffcc00;--coral:#ff2030;
+  --neon:#ff5500;--neon2:#ff8800;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(255,110,0,.12);
+  --glow-gold:rgba(255,110,0,.6);--glow-accent:rgba(255,85,0,.6);--glow-mint:rgba(255,204,0,.4);
+  --topbar-bg:rgba(22,4,0,.96);--card-bg:rgba(46,16,0,.9);--input-bg:rgba(18,5,0,.93);
+  --card-mission:rgba(255,150,0,.14);--card-lesson:rgba(255,220,0,.1);
+  --card-ai:rgba(255,80,0,.14);--card-streak:rgba(255,30,20,.14);
+  --card-border-mission:rgba(255,150,0,.48);--card-border-lesson:rgba(255,220,0,.4);
+  --card-border-ai:rgba(255,80,0,.48);--card-border-streak:rgba(255,30,20,.5);
+}
+[data-theme="rose"]{
+  --bg:#120010;--surface:#1c0018;--card:#280024;--card2:#360030;
+  --border:rgba(255,50,180,.42);--text:#ffd8f8;--muted:#c020a0;
+  --accent:#ff10a0;--gold:#ff60d0;--mint:#ff80e8;--coral:#ff1050;
+  --neon:#ff10a0;--neon2:#ff60d0;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(255,50,180,.12);
+  --glow-gold:rgba(255,16,160,.6);--glow-accent:rgba(255,16,160,.6);--glow-mint:rgba(255,128,232,.38);
+  --topbar-bg:rgba(18,0,16,.96);--card-bg:rgba(40,0,36,.9);--input-bg:rgba(15,0,14,.93);
+  --card-mission:rgba(255,100,200,.12);--card-lesson:rgba(255,200,255,.08);
+  --card-ai:rgba(255,20,140,.14);--card-streak:rgba(255,10,80,.14);
+  --card-border-mission:rgba(255,100,200,.45);--card-border-lesson:rgba(255,200,255,.38);
+  --card-border-ai:rgba(255,20,140,.5);--card-border-streak:rgba(255,10,80,.5);
+}
+[data-theme="ice"]{
+  --bg:#010c1a;--surface:#02142a;--card:#031c3e;--card2:#052650;
+  --border:rgba(120,210,255,.42);--text:#d8f4ff;--muted:#3090c0;
+  --accent:#30d0ff;--gold:#88e8ff;--mint:#00fff0;--coral:#ff3080;
+  --neon:#30d0ff;--neon2:#88e8ff;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(120,210,255,.12);
+  --glow-gold:rgba(48,208,255,.55);--glow-accent:rgba(48,208,255,.55);--glow-mint:rgba(0,255,240,.42);
+  --topbar-bg:rgba(1,12,26,.96);--card-bg:rgba(3,28,62,.9);--input-bg:rgba(1,12,24,.93);
+  --card-mission:rgba(0,200,255,.12);--card-lesson:rgba(100,240,255,.1);
+  --card-ai:rgba(0,150,255,.14);--card-streak:rgba(255,50,100,.12);
+  --card-border-mission:rgba(0,200,255,.45);--card-border-lesson:rgba(100,240,255,.4);
+  --card-border-ai:rgba(0,150,255,.48);--card-border-streak:rgba(255,50,100,.42);
+}
+[data-theme="lava"]{
+  --bg:#100100;--surface:#180200;--card:#240300;--card2:#300400;
+  --border:rgba(255,60,0,.45);--text:#ffd8b0;--muted:#c04010;
+  --accent:#ff3300;--gold:#ff6600;--mint:#ff9900;--coral:#ff1500;
+  --neon:#ff3300;--neon2:#ff6600;
+  --shadow:rgba(0,0,0,.75);--grid-color:rgba(255,60,0,.12);
+  --glow-gold:rgba(255,51,0,.65);--glow-accent:rgba(255,51,0,.65);--glow-mint:rgba(255,153,0,.4);
+  --topbar-bg:rgba(16,1,0,.97);--card-bg:rgba(36,3,0,.92);--input-bg:rgba(14,1,0,.95);
+  --card-mission:rgba(255,100,0,.15);--card-lesson:rgba(255,200,0,.1);
+  --card-ai:rgba(255,50,0,.15);--card-streak:rgba(255,20,0,.15);
+  --card-border-mission:rgba(255,100,0,.5);--card-border-lesson:rgba(255,200,0,.42);
+  --card-border-ai:rgba(255,50,0,.55);--card-border-streak:rgba(255,20,0,.55);
+}
+[data-theme="mint"]{
+  --bg:#d8f8ec;--surface:#c4f4e0;--card:#ffffff;--card2:#eafaf4;
+  --border:rgba(0,160,90,.4);--text:#001a0e;--muted:#108050;
+  --accent:#009060;--gold:#00b870;--mint:#00e888;--coral:#e03050;
+  --neon:#009060;--neon2:#00b870;
+  --shadow:rgba(0,80,40,.15);--grid-color:rgba(0,160,90,.1);
+  --glow-gold:rgba(0,144,96,.4);--glow-accent:rgba(0,144,96,.4);--glow-mint:rgba(0,232,136,.3);
+  --topbar-bg:rgba(216,248,236,.97);--card-bg:rgba(255,255,255,.97);--input-bg:rgba(220,250,238,.97);
+  --card-mission:rgba(255,120,0,.1);--card-lesson:rgba(0,180,255,.08);
+  --card-ai:rgba(100,0,220,.08);--card-streak:rgba(255,40,80,.08);
+  --card-border-mission:rgba(255,120,0,.42);--card-border-lesson:rgba(0,180,255,.38);
+  --card-border-ai:rgba(100,0,220,.38);--card-border-streak:rgba(255,40,80,.38);
+}
+[data-theme="sand"]{
+  --bg:#120e00;--surface:#1c1600;--card:#2a2000;--card2:#382a00;
+  --border:rgba(220,170,30,.45);--text:#fff8c0;--muted:#c09020;
+  --accent:#e0a800;--gold:#ffd000;--mint:#ffe860;--coral:#ff5030;
+  --neon:#e0a800;--neon2:#ffd000;
+  --shadow:rgba(0,0,0,.75);--grid-color:rgba(220,170,30,.12);
+  --glow-gold:rgba(224,168,0,.6);--glow-accent:rgba(224,168,0,.6);--glow-mint:rgba(255,232,96,.4);
+  --topbar-bg:rgba(18,14,0,.96);--card-bg:rgba(42,32,0,.9);--input-bg:rgba(16,12,0,.93);
+  --card-mission:rgba(255,180,0,.14);--card-lesson:rgba(255,230,0,.1);
+  --card-ai:rgba(255,120,0,.12);--card-streak:rgba(255,60,30,.14);
+  --card-border-mission:rgba(255,180,0,.48);--card-border-lesson:rgba(255,230,0,.42);
+  --card-border-ai:rgba(255,120,0,.45);--card-border-streak:rgba(255,60,30,.5);
+}
+[data-theme="neon"]{
+  --bg:#080012;--surface:#0c0018;--card:#140022;--card2:#1e002e;
+  --border:rgba(255,0,255,.42);--text:#ffd0ff;--muted:#a000b0;
+  --accent:#ff00ff;--gold:#ff60ff;--mint:#00ffff;--coral:#ff0060;
+  --neon:#ff00ff;--neon2:#ff60ff;
+  --shadow:rgba(0,0,0,.8);--grid-color:rgba(255,0,255,.12);
+  --glow-gold:rgba(255,0,255,.65);--glow-accent:rgba(255,0,255,.65);--glow-mint:rgba(0,255,255,.55);
+  --topbar-bg:rgba(8,0,18,.97);--card-bg:rgba(20,0,34,.92);--input-bg:rgba(8,0,16,.95);
+  --card-mission:rgba(255,0,200,.14);--card-lesson:rgba(0,255,255,.1);
+  --card-ai:rgba(200,0,255,.15);--card-streak:rgba(255,0,80,.14);
+  --card-border-mission:rgba(255,0,200,.5);--card-border-lesson:rgba(0,255,255,.45);
+  --card-border-ai:rgba(200,0,255,.55);--card-border-streak:rgba(255,0,80,.5);
+}
+[data-theme="earth"]{
+  --bg:#140e00;--surface:#1c1400;--card:#261c00;--card2:#322600;
+  --border:rgba(180,130,40,.32);--text:#f5ecd0;--muted:#7a5a28;
+  --accent:#c09040;--gold:#deb060;--mint:#a0cc60;--coral:#e04820;
+  --neon:#c09040;--neon2:#deb060;
+  --shadow:rgba(0,0,0,.65);--grid-color:rgba(180,130,40,.1);
+  --glow-gold:rgba(192,144,64,.4);--glow-accent:rgba(192,144,64,.4);--glow-mint:rgba(160,204,96,.25);
+  --topbar-bg:rgba(20,14,0,.93);--card-bg:rgba(38,28,0,.84);--input-bg:rgba(18,12,0,.88);
+}
+[data-theme="cherry"]{
+  --bg:#f5e8ec;--surface:#ead4db;--card:#dbbec8;--card2:#cca6b4;
+  --border:rgba(180,20,60,.28);--text:#160004;--muted:#801838;
+  --accent:#c01040;--gold:#e03060;--mint:#e06080;--coral:#e81020;
+  --neon:#c01040;--neon2:#e03060;
+  --shadow:rgba(0,0,0,.14);--grid-color:rgba(180,20,60,.1);
+  --glow-gold:rgba(192,16,64,.3);--glow-accent:rgba(192,16,64,.3);--glow-mint:rgba(224,96,128,.22);
+  --topbar-bg:rgba(245,232,236,.95);--card-bg:rgba(219,190,200,.9);--input-bg:rgba(242,228,234,.94);
+}
+[data-theme="slate"]{
+  --bg:#0a0e1a;--surface:#101620;--card:#16202e;--card2:#1e2c3e;
+  --border:rgba(80,140,240,.32);--text:#c8daff;--muted:#304888;
+  --accent:#4080f0;--gold:#80b0ff;--mint:#40e0d0;--coral:#ff5070;
+  --neon:#4080f0;--neon2:#80b0ff;
+  --shadow:rgba(0,0,0,.7);--grid-color:rgba(80,140,240,.1);
+  --glow-gold:rgba(64,128,240,.45);--glow-accent:rgba(64,128,240,.45);--glow-mint:rgba(64,224,208,.28);
+  --topbar-bg:rgba(10,14,26,.93);--card-bg:rgba(22,32,46,.84);--input-bg:rgba(10,14,24,.88);
+}
+
