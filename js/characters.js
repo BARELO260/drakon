@@ -31,17 +31,18 @@ function renderChars(){
     const clickFn=locked?'showPremModal()':'selectChar(\''+c.id+'\')';
     // Media element: video for chars with animation, img otherwise
     const mediaEl = c.anim
-      ? `<div class="cc-media-wrap" style="width:56px;height:56px;margin:0 auto 7px;position:relative">
+      ? `<div class="cc-media-wrap" style="width:56px;height:56px;margin:0 auto 7px;position:relative;display:block;">
            <img  class="cc-face" src="${c.img}" alt="${c.name}"
-                 style="width:56px;height:56px;object-fit:contain;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5));transition:opacity .18s">
-           <video class="cc-anim" src="${c.anim}" loop muted playsinline preload="none"
-                  style="width:56px;height:56px;object-fit:contain;position:absolute;inset:0;opacity:0;transition:opacity .18s;pointer-events:none"></video>
+                 style="width:56px;height:56px;object-fit:contain;display:block;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5));transition:opacity .18s;position:relative;z-index:1;">
+           <video class="cc-anim" src="${c.anim}" loop muted playsinline preload="auto"
+                  style="width:56px;height:56px;object-fit:contain;position:absolute;top:0;left:0;opacity:0;transition:opacity .18s;z-index:2;display:block;"></video>
          </div>`
       : `<img src="${c.img}" alt="${c.name}" style="width:56px;height:56px;object-fit:contain;margin-bottom:7px;display:block;margin-left:auto;margin-right:auto;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))">`;
     return `<div class="char-card ${active?'active-c':''} ${locked?'locked-c':''}"
                  onclick="${clickFn}"
                  ${c.anim?`onmouseenter="charAnimOn(this)" onmouseleave="charAnimOff(this)"
-                           ontouchstart="charAnimOn(this)" ontouchend="charAnimOff(this)"`:''}
+                           ontouchstart="charAnimOn(this);event.preventDefault();" ontouchend="charAnimOff(this)"
+                           ontouchcancel="charAnimOff(this)"`:''}
             >
       ${mediaEl}
       <div class="cc-n">${c.name}</div>
@@ -57,10 +58,18 @@ function charAnimOn(card){
   const img   = card.querySelector('.cc-face');
   const video = card.querySelector('.cc-anim');
   if(!video) return;
-  video.currentTime = 0;
-  video.play().catch(()=>{});
-  if(img)   img.style.opacity   = '0';
+  // Mostrar video primero para que aparezca en cuanto empiece
+  if(img) img.style.opacity = '0';
   video.style.opacity = '1';
+  video.currentTime = 0;
+  const p = video.play();
+  if(p && typeof p.catch === 'function'){
+    p.catch(() => {
+      // Si falla la reproducción, volver a mostrar la imagen
+      if(img) img.style.opacity = '1';
+      video.style.opacity = '0';
+    });
+  }
 }
 function charAnimOff(card){
   const img   = card.querySelector('.cc-face');
@@ -68,7 +77,7 @@ function charAnimOff(card){
   if(!video) return;
   video.pause();
   video.currentTime = 0;
-  if(img)   img.style.opacity   = '1';
+  if(img) img.style.opacity = '1';
   video.style.opacity = '0';
 }
 function selectChar(id){
