@@ -537,3 +537,19 @@ function addTyping(){
   return div;
 }
 
+
+/* ═══════════════════════════════════════
+   PICKUP DE EVENTOS FIREBASE PENDIENTES
+   Firebase puede disparar onAuthStateChanged antes de que auth.js cargue.
+   Al terminar de cargar este módulo, procesamos cualquier evento que quedó en cola.
+═══════════════════════════════════════ */
+(function pickupPendingAuthEvents(){
+  if(window._pendingAuthUser){
+    const user = window._pendingAuthUser;
+    window._pendingAuthUser = null;
+    window.onFirebaseUserReady(user);
+  } else if(window._pendingSignOut){
+    window._pendingSignOut = false;
+    window.onFirebaseSignOut();
+  }
+})();
