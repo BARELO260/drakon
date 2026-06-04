@@ -1,0 +1,78 @@
+/* ═══════════════════════════════════════════════════════════
+   char-intro.css — Overlay cinemático de intro de personaje
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Overlay contenedor ────────────────────────────────── */
+#charIntroOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  /* Fondo: negro con blur sobre la app */
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+#charIntroOverlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#charIntroOverlay.hiding {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+
+/* ── Video ─────────────────────────────────────────────── */
+#charIntroVideo {
+  /* En móvil: llena toda la pantalla verticalmente */
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+
+  object-fit: contain;
+  object-position: center center;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  /* Sombra para que el video flote sobre el fondo */
+  filter: drop-shadow(0 0 40px rgba(0, 0, 0, 0.8));
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Desktop: limitar ancho para que no se vea gigante ── */
+@media (min-width: 600px) {
+  #charIntroVideo {
+    height: 100vh;
+    max-height: 100vh;
+    width: auto;
+    max-width: 480px;
+  }
+}
+
+/* ── Viñeta lateral (solo en desktop, suaviza los bordes) */
+#charIntroVignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: radial-gradient(
+    ellipse 70% 100% at 50% 50%,
+    transparent 60%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
