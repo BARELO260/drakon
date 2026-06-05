@@ -1,0 +1,53 @@
+/* ═══════════════════════════════════════════════════════════
+   char-intro.css — Overlay cinemático de intro de personaje
+   ═══════════════════════════════════════════════════════════ */
+
+#charIntroOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+#charIntroOverlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#charIntroOverlay.hiding {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+
+#charIntroVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  will-change: transform;
+}
+
+#charIntroVignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(
+    ellipse 80% 100% at 50% 50%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
