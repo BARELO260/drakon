@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+<meta name="theme-color" content="#d97706"/>
+<title>Drakón — Aprende Idiomas con IA</title>
+<link rel="manifest" href="./manifest.json"/>
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%23d97706'/><text y='140' x='30' font-size='130'>🐲</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+<!-- ── CSS MODULES ── -->
+<link rel="stylesheet" href="css/themes.css"/>
+<link rel="stylesheet" href="css/animations.css"/>
+<link rel="stylesheet" href="css/main.css"/>
+<link rel="stylesheet" href="css/char-intro.css"/>
+<link rel="preload" href="assets/characters/faces/drakona.webm" as="video" type="video/webm">
+<link rel="preload" href="assets/characters/faces/zorreka.webm" as="video" type="video/webm">
+</head>
+<body>
+
+<!-- ── EXTERNAL SCRIPTS (must load before app JS) ── -->
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=FREE"></script>
+<!-- Firebase compat — works on ALL devices including iOS Safari, no ES modules needed -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+<!-- ── FIREBASE INIT (inline — hardcoded config must stay here) ── -->
+<script>
+(function(){
+  const DRAKON_FIREBASE_CONFIG = {
+    apiKey: "AIzaSyDqC69aLrXL3HIk6hnb0dmyorDMfk4wAko",
+    authDomain: "drakon-a30c8.firebaseapp.com",
+    projectId: "drakon-a30c8",
+    storageBucket: "drakon-a30c8.firebasestorage.app",
+    messagingSenderId: "678263401240",
+    appId: "1:678263401240:web:ffd6a0b18c446b90668c6d",
+    measurementId: "G-JZET3T7CCJ"
+  };
+
+  // Dynamic config override support
+  window._getFirebaseConfig = function(){
+    try{ const s=localStorage.getItem('drakon_fb_cfg'); return s?JSON.parse(s):DRAKON_FIREBASE_CONFIG; }catch(e){ return DRAKON_FIREBASE_CONFIG; }
+  };
+  window._setFirebaseConfig = function(cfg){
+    if(!cfg||!cfg.apiKey) return false;
+    try{ localStorage.setItem('drakon_fb_cfg',JSON.stringify(cfg)); return true; }catch(e){ return false; }
+  };
+
+  try {
+    const config = window._getFirebaseConfig();
+    const app  = firebase.initializeApp(config);
+    const auth = firebase.auth();
+    const db   = firebase.firestore();
+
+    window._fbInit  = true;
+    window._fbReady = false;
+    window._fbAuth  = auth;
+    window._fbDb    = db;
+
+    auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(()=>{});
+
+    window._firebase = {
+      signIn:   (e,p) => auth.signInWithEmailAndPassword(e,p),
+      signUp:   (e,p) => auth.createUserWithEmailAndPassword(e,p),
+      signInGoogle: () => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider()),
+      signOut:  ()    => auth.signOut(),
+      resetPassword: (e) => auth.sendPasswordResetEmail(e),
+      saveData: (data, fullOverwrite=false) => {
+        const u = auth.currentUser;
+        if(!u) return;
+        // fullOverwrite=true: set limpio (primer guardado de cuenta nueva o logout/login)
+        // fullOverwrite=false (default): merge para updates incrementales
+        const opts = fullOverwrite ? undefined : {merge:true};
+        return opts
+          ? db.collection('users').doc(u.uid).set(data, opts)
+          : db.collection('users').doc(u.uid).set(data);
+      },
+      loadData: async (uid) => {
+        try{
+          const snap = await db.collection('users').doc(uid).get();
+          return snap.exists ? snap.data() : null;
+        } catch(e){ console.warn('[FB] loadData failed:', e.message); return null; }
+      },
+    };
+
+    // Con signInWithRedirect, el resultado (o error) del login con Google
+    // llega aquí cuando la página vuelve a cargar tras la redirección.
+    auth.getRedirectResult().catch(e=>{
+      if(e && e.code !== 'auth/popup-closed-by-user'){
+        window._pendingGoogleErr = e.code || 'auth/network-request-failed';
+      }
+    });
+
+    auth.onAuthStateChanged(async user => {
+      if(user){
+        window._fbUser  = user;
+        window._fbReady = true;
+        // Wait for auth.js to be ready before calling the handler
+        if(typeof window.onFirebaseUserReady === 'function'){
+          window.onFirebaseUserReady(user);
+        } else {
+          window._pendingAuthUser = user;
+        }
+      } else {
+        // A veces Firebase dispara este evento con null de forma espuria
+        // (hipo al refrescar el token, red inestable) aunque el usuario
+        // siga realmente autenticado. Antes de forzar el logout y perder
+        // la sesión visible, esperamos un instante y re-confirmamos.
+        setTimeout(()=>{
+          if(auth.currentUser){
+            // Falsa alarma: seguimos autenticados, no hacemos nada.
+            return;
+          }
+          window._fbUser  = null;
+          window._fbReady = false;
+          window._pendingAuthUser = null;
+          if(typeof window.onFirebaseSignOut === 'function'){
+            window.onFirebaseSignOut();
+          } else {
+            window._pendingSignOut = true;
+          }
+        }, 500);
+      }
+    });
+  } catch(e){
+    console.error('Firebase init failed:', e);
+    window._fbInit  = false;
+    window._fbReady = false;
+  }
+})();
+</script>
+
+<!-- Fondo plano: gestionado en su totalidad por CSS (ver themes.css / main.css) -->
+
+<!-- ════════════════════════════════════════
+     APP HTML — screens and UI templates
+     ════════════════════════════════════════ -->
+<div id="app">
+
+<!-- FIREBASE SETUP MODAL -->
+<div id="fbSetupModal">
+  <div class="fb-sheet">
+    <div style="width:38px;height:4px;background:var(--border);border-radius:99px;margin:0 auto 18px"></div>
+    <h3>⚙️ Configura Firebase</h3>
+    <p>Para que el inicio de sesión funcione necesitas crear un proyecto gratuito en Firebase y pegar tu configuración aquí.</p>
+    <div class="fb-steps">
+      1. Ve a <strong>console.firebase.google.com</strong><br>
+      2. Crea un proyecto → activa <strong>Authentication</strong><br>
+      3. Habilita <strong>Email/Password</strong> y <strong>Google</strong> en Sign-in methods<br>
+      4. Crea una base de datos <strong>Firestore</strong><br>
+      5. Ve a Configuración del proyecto → <strong>Tu app</strong> → copia el objeto <code>firebaseConfig</code>
+    </div>
+    <textarea id="fbConfigInput" placeholder='{"apiKey":"AIza...","authDomain":"...","projectId":"...","storageBucket":"...","messagingSenderId":"...","appId":"..."}'></textarea>
+    <div class="login-err" id="fbConfigErr"></div>
+    <button class="login-btn" onclick="saveFbConfig()" style="margin-top:10px">Guardar configuración</button>
+    <button onclick="closeFbSetup()" style="background:none;border:none;color:var(--muted);font-size:13px;font-weight:700;width:100%;text-align:center;cursor:pointer;padding:10px;margin-top:4px">Cancelar</button>
+  </div>
+</div>
+
+<!-- BOOT SPLASH — pantalla de inicio con progreso de carga real -->
+<div class="screen active" id="screen-boot">
+  <img class="boot-bg boot-bg-land" src="assets/loadingscreens/start209.png" alt="">
+  <img class="boot-bg boot-bg-port" src="assets/loadingscreens/start920.png" alt="">
+  <div class="boot-scrim"></div>
+  <div class="boot-content">
+    <div class="boot-bar-wrap">
+      <div class="boot-bar-bg"><div class="boot-bar-fill" id="bootBarFill"></div></div>
+      <div class="boot-pct" id="bootPct">Cargando... 0%</div>
+    </div>
+  </div>
+</div>
+
+<!-- LOGIN / REGISTER -->
+<div class="screen" id="screen-login">
+  <div class="login-logo">
+    <!-- #drakonFloat envuelve imagen+SVG para que floten como una sola pieza -->
+    <div id="drakonFloat" style="display:inline-block;animation:drakonFloat 3.2s ease-in-out infinite;animation-delay:.3s;will-change:transform;isolation:isolate;">
+      <div id="drakonEyes" style="position:relative;width:120px;height:120px;display:inline-block;filter:drop-shadow(0 0 20px rgba(251,146,6,.6));flex-shrink:0;">
+        <img src="assets/characters/faces/drakonwithout.png" style="width:120px;height:120px;object-fit:contain;display:block;">
+        <!--
+          SVG overlay con pupilas.
+          viewBox = 500x500 (tamaño nativo de drakonwithout.png, medido con Python).
+          Ojo izquierdo: centro (195.0, 238.0), radio (44.5, 47.5)
+          Ojo derecho:   centro (301.7, 238.0), radio (44.0, 48.0)
+          El SVG escala con width/height:100%, perfecto en cualquier tamaño.
+        -->
+        <svg id="drakonPupilsSVG" viewBox="0 0 500 500"
+             style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:hidden;">
+          <defs>
+            <clipPath id="clipL">
+              <ellipse cx="195.0" cy="238.0" rx="39.2" ry="41.8"/>
+            </clipPath>
+            <clipPath id="clipR">
+              <ellipse cx="301.7" cy="238.0" rx="38.7" ry="42.2"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clipL)">
+            <circle id="pupilLeft"      cx="195.0" cy="238.0" r="23.2" fill="#111111"/>
+            <circle id="highlightLeft"  cx="203.8" cy="229.2" r="8.1"  fill="white"/>
+          </g>
+          <g clip-path="url(#clipR)">
+            <circle id="pupilRight"     cx="301.7" cy="238.0" r="22.9" fill="#111111"/>
+            <circle id="highlightRight" cx="310.4" cy="229.3" r="8.0"  fill="white"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="login-title">Drakón</div>
+  <div class="login-sub">Sistema de aprendizaje IA</div>
+  <div class="login-card">
+    <div style="display:flex;background:var(--bg);border-radius:10px;padding:3px;gap:3px">
+      <button id="loginTabBtn" onclick="setLoginMode('login')" style="flex:1;background:var(--gold);color:#fff;border:none;border-radius:8px;padding:8px;font-family:var(--ff);font-size:13px;font-weight:800;cursor:pointer">Iniciar sesión</button>
+      <button id="registerTabBtn" onclick="setLoginMode('register')" style="flex:1;background:none;color:var(--muted);border:none;border-radius:8px;padding:8px;font-family:var(--ff);font-size:13px;font-weight:800;cursor:pointer">Registrarse</button>
+    </div>
+    <div class="login-field">
+      <label>Correo electrónico</label>
+      <input id="loginEmail" type="email" placeholder="tu@correo.com" autocomplete="email" oninput="clearLoginErr()"/>
+    </div>
+    <div class="login-field">
+      <label>Contraseña</label>
+      <input id="loginPass" type="password" placeholder="Mínimo 6 caracteres" autocomplete="current-password" oninput="clearLoginErr()"/>
+    </div>
+    <div id="loginForgot" class="login-forgot" onclick="showForgotPassword()">¿Olvidaste tu contraseña?</div>
+    <div class="login-err" id="loginErr"></div>
+    <div class="login-ok" id="loginOk"></div>
+    <button class="login-btn" id="loginSubmitBtn" onclick="submitLogin()">Iniciar sesión</button>
+    <div class="login-divider">o</div>
+    <button class="login-google" onclick="loginWithGoogle()">
+      <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.08 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-3.59-13.46-8.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+      Continuar con Google
+    </button>
+    <div class="fb-config-note" id="fbConfigNote" style="display:none">⚙️ Firebase integrado</div>
+  </div>
+</div>
+
+<!-- NATIVE LANGUAGE SELECTION -->
+<div class="screen" id="screen-native" style="display:flex;flex-direction:column;overflow-y:auto">
+  <div class="native-hdr">
+    <div style="font-size:60px;margin-bottom:10px">🌍</div>
+    <div class="native-title" id="nativeTitleText">What's your language?</div>
+    <div class="native-sub" id="nativeSubText">Choose the language you speak natively</div>
+  </div>
+  <div class="native-grid" id="nativeGrid"></div>
+  <button class="native-next" id="nativeNextBtn" onclick="confirmNativeLang()">Continue →</button>
+</div>
+
+<!-- INTRO -->
+<div class="screen" id="screen-intro">
+  <div class="hud-corner hud-tl"></div>
+  <div class="hud-corner hud-tr"></div>
+  <div class="hud-corner hud-bl"></div>
+  <div class="hud-corner hud-br"></div>
+  <div class="logo">Drakón</div>
+  <div class="tagline">Tutor de idiomas · Inteligencia Artificial</div>
+  <div class="mascot-intro" id="introEmoji" onclick="introMascotTap()" style="font-size:0"></div>
+  <div class="intro-select-lbl">— Elige tu compañero —</div>
+  <div class="char-pick" id="charPickRow"></div>
+  <button class="intro-btn" onclick="goTo('screen-lang')">Iniciar protocolo 🚀</button>
+</div>
+
+<!-- LANG SELECTION -->
+<div class="screen" id="screen-lang">
+  <div class="lang-hdr"><h2>¿Qué idioma quieres aprender?</h2><p>Elige tu aventura lingüística 🌍</p></div>
+  <div class="lang-search"><input type="text" placeholder="Buscar idioma..." id="langSearch" oninput="filterLangs()"/></div>
+  <div class="lang-grid" id="langGrid"></div>
+  <button class="lang-next" id="langNextBtn" onclick="afterLangSelect()">Continuar →</button>
+</div>
+
+<!-- QUIZ -->
+<div class="screen" id="screen-quiz">
+  <div class="quiz-hdr"><h2>¿Cuál es tu nivel?</h2><p style="font-size:11px;color:var(--muted);margin-top:3px">5 preguntas para personalizar tu camino 🐲</p></div>
+  <div class="quiz-wrap">
+    <div class="quiz-step" id="quizStep">Pregunta 1 de 5</div>
+    <div class="bar-bg" style="margin-bottom:12px"><div class="bar-fill" id="quizProgFill" style="width:20%"></div></div>
+    <div id="quizContent"></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="screen" id="screen-main">
+  <div class="topbar">
+    <div class="tb-left" onclick="navTo('profile')">
+      <div class="tb-char" id="tbChar" style="overflow:hidden"></div>
+      <div class="tb-name" id="tbName">Jugador</div>
+    </div>
+    <div class="tb-center">
+      <div class="streak-pill" id="streakPill" onclick="showStreakInfo()">
+        <span class="fire">🔥</span><span id="streakNum">0</span>
+      </div>
+      <div class="xp-pill"><span style="font-size:10px">⭐</span><span id="xpNum">0</span><span style="font-size:8px;opacity:.5"> XP</span></div>
+    </div>
+    <div class="lang-pill" onclick="goTo('screen-lang')">🌍 <span id="langDisplay">EN</span></div>
+  </div>
+  <div class="main-tabs">
+    <div class="mtab active" id="mtab-home" onclick="switchTab('home')"><span class="ti">🏠</span>Inicio</div>
+    <div class="mtab" id="mtab-lessons" onclick="switchTab('lessons')"><span class="ti">📚</span>Lecciones</div>
+    <div class="mtab" id="mtab-ai" onclick="switchTab('ai')"><span class="ti">🤖</span>IA Chat</div>
+  </div>
+
+  <!-- HOME -->
+  <div id="tab-home">
+    <div class="home-hero">
+      <div class="hero-char" id="heroChar" onclick="mascotTap()" style="font-size:0;width:90px;height:90px"></div>
+      <div class="speech" id="homeSpeech" onclick="mascotTap()">
+        <div class="speech-signal"><span></span><span></span><span></span></div>
+        ¡Hola! ¿Listo para aprender? 🔥 Tócame para motivarte.
+      </div>
+    </div>
+    <div class="xp-wrap">
+      <div class="xp-row"><span id="xpLevel">Nivel A1</span><span id="xpBarLbl">0 / 150 XP</span></div>
+      <div class="bar-bg"><div class="bar-fill" id="xpBarFill" style="width:0%"></div></div>
+    </div>
+    <div class="streak-info-card" onclick="showStreakInfo()">
+      <span class="streak-fire-big" id="streakFireBig">🔥</span>
+      <div class="streak-details">
+        <div class="streak-count"><span id="streakCountBig">0</span> días</div>
+        <div class="streak-sub" id="streakSubText">Empieza tu racha hoy</div>
+        <div class="streak-countdown" id="streakCountdown"></div>
+      </div>
+      <div style="font-size:20px">›</div>
+    </div>
+    <div class="sec-title">Misiones del día</div>
+    <div class="prog-wrap">
+      <div class="prog-row"><span>Progreso diario</span><span id="missionProg">0 / 4</span></div>
+      <div class="bar-bg"><div class="bar-fill" id="missionBar" style="width:0%"></div></div>
+    </div>
+    <div class="mission-list" id="missionList"></div>
+    <div class="prem-banner" onclick="showPremModal()">
+      <span style="font-size:26px;flex-shrink:0">⚡</span>
+      <div class="prem-text"><div class="pt">Desbloquea Drakón Pro</div><div class="ps">IA ilimitada · 200 lecciones · Todas las funciones</div></div>
+      <span class="pc">Ver planes</span>
+    </div>
+  </div>
+
+  <!-- LESSONS -->
+  <div id="tab-lessons" style="display:none">
+    <div class="lessons-wrap" id="lessonsContent"></div>
+  </div>
+
+  <!-- AI -->
+  <div id="tab-ai" style="display:none">
+    <div class="ai-tab-wrap">
+      <div class="ai-hero">
+        <div class="ai-hero-ic">🤖</div>
+        <div class="ai-hero-text">
+          <div class="ai-hero-t">Practica con IA</div>
+          <div class="ai-hero-s">Conversaciones reales, corrección al instante</div>
+        </div>
+      </div>
+      <div class="ai-mode-grid">
+        <div class="amc amc--big" style="--cc:var(--mint)" onclick="goToChat('free')"><div class="amc-ic">💬</div><div class="amc-t">Conversación libre</div><div class="amc-s">Habla de lo que quieras</div></div>
+        <div class="amc" style="--cc:var(--sky)" onclick="goToChat('pronunciation')"><div class="amc-ic">🎙️</div><div class="amc-t">Pronunciación IA</div><div class="amc-s">La IA evalúa cómo suenas</div></div>
+        <div class="amc" style="--cc:var(--gold)" onclick="goToChat('grammar')"><div class="amc-ic">📖</div><div class="amc-t">Gramática</div><div class="amc-s">Corrige tus errores</div></div>
+        <div class="amc" style="--cc:var(--coral)" onclick="checkPrem('vocab')"><div class="amc-ic">🔤</div><div class="amc-t">Vocabulario</div><div class="amc-s">Palabras nuevas con contexto</div><div class="lock-ov" id="vocabLock">🔒</div></div>
+        <div class="amc" style="--cc:var(--accent)" onclick="checkPrem('debate')"><div class="amc-ic">🏆</div><div class="amc-t">Debate avanzado</div><div class="amc-s">Argumenta en otro idioma</div><div class="lock-ov" id="debateLock">🔒</div></div>
+        <div class="amc" style="--cc:var(--mint)" onclick="checkPrem('story')"><div class="amc-ic">📖</div><div class="amc-t">Crea una historia</div><div class="amc-s">Narra en el idioma</div><div class="lock-ov" id="storyLock">🔒</div></div>
+        <div class="amc" style="--cc:var(--sky)" onclick="checkPrem('roleplay')"><div class="amc-ic">🎬</div><div class="amc-t">Roleplay libre</div><div class="amc-s">Cualquier escenario</div><div class="lock-ov" id="roleplayLock">🔒</div></div>
+      </div>
+      <div class="ai-status">
+        <div class="ai-signal"><div class="ai-dot"></div><div class="ai-rings"></div></div>
+        <div style="flex:1">
+          <div style="font-family:var(--fh);font-size:10px;font-weight:700;color:var(--mint)">● Claude AI · En línea</div>
+          <div class="ai-usage-lbl" id="aiUsageLbl">0 de 25 mensajes usados hoy</div>
+          <div class="bar-bg" style="height:6px"><div class="bar-fill" id="aiUsageBar" style="width:0%;background:linear-gradient(90deg,var(--mint),var(--gold))"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- (Personajes ahora vive en su propia pantalla inmersiva: screen-charselect) -->
+  <!-- (Ajustes ahora vive en su propia pantalla, accesible desde el Perfil: screen-settings) -->
+</div>
+
+<!-- EXERCISE -->
+<div class="screen" id="screen-exercise">
+  <div class="ex-topbar">
+    <button class="back-btn" onclick="exitEx()">✕</button>
+    <div class="ex-prog-bar"><div class="ex-prog-fill" id="exFill" style="width:0%"></div></div>
+    <div class="lives" id="livesEl">❤️❤️❤️</div>
+  </div>
+  <div id="exArea"></div>
+</div>
+
+<!-- CHAT -->
+<div class="screen" id="screen-chat">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <span class="chat-title" id="chatTitle">Conversación libre</span>
+    <button class="tts-btn" id="ttsBtn" onclick="toggleTTS()" title="Voz IA">🔇</button>
+    <button class="tts-btn" id="saveChatBtn" onclick="saveCurrentChat()" title="Guardar chat" style="font-size:13px">💾</button>
+    <span class="chat-lp" id="chatLangP">EN</span>
+  </div>
+  <div class="chat-messages" id="chatMsgs"></div>
+  <div id="noKeyBanner" style="display:none;margin:8px 11px;background:rgba(245,158,11,.12);border:1.5px solid var(--gold);border-radius:12px;padding:11px 13px;font-size:12px;color:var(--text);line-height:1.6">
+    ⚡ <strong>Configura tu IA gratis:</strong> Ve a <strong>Ajustes → API Key de IA</strong> y pega tu key de <a href="https://console.groq.com/keys" target="_blank" style="color:var(--gold)">console.groq.com</a> (gratis, sin tarjeta).
+  </div>
+  <div class="err-bar" id="chatErr"></div>
+  <div class="chat-bar">
+    <div class="chat-row">
+      <input class="chat-in" id="chatIn" placeholder="Escribe aquí..." autocomplete="off"/>
+      <button class="mic-btn" id="micBtn" onclick="toggleMic()" title="Micrófono">🎙️</button>
+      <button class="send-btn" id="sendBtn" onclick="sendChat()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- SAVED CHATS HUB -->
+<div class="screen" id="screen-saved-chats" style="overflow-y:auto;padding-bottom:72px">
+  <div class="chat-topbar">
+    <span class="chat-title" style="flex:1">💬 Tus conversaciones</span>
+  </div>
+  <div style="padding:10px 11px 4px;display:flex;align-items:center;justify-content:space-between">
+    <div style="font-family:var(--ff);font-size:13px;font-weight:800;color:var(--gold)">📂 Chats guardados</div>
+    <button onclick="clearAllChats()" style="background:none;border:none;color:var(--muted);font-size:11px;font-weight:700;cursor:pointer;padding:4px 8px">Limpiar todo</button>
+  </div>
+  <div class="saved-chats-list" id="savedChatsList"></div>
+</div>
+
+<!-- CHAT HISTORY VIEW -->
+<div class="screen" id="screen-chat-history" style="display:flex;flex-direction:column;overflow:hidden;padding-bottom:0">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-saved-chats');renderSavedChats()">←</button>
+    <span class="chat-title" id="chatHistoryTitle">Chat</span>
+    <button onclick="continueFromHistory()" style="background:linear-gradient(135deg,#ea580c,var(--gold));color:#fff;border:none;border-radius:99px;padding:6px 13px;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap">Continuar ›</button>
+  </div>
+  <div class="ch-messages" id="chatHistoryMsgs" style="flex:1;overflow-y:auto;padding:12px 11px;display:flex;flex-direction:column;gap:9px"></div>
+  <div class="chat-input-bar" style="flex-shrink:0">
+    <textarea id="histChatInput" class="chat-input" placeholder="Continúa la conversación…" rows="1"
+      oninput="autoResize(this)" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendHistoryMsg()}"></textarea>
+    <button class="send-btn" onclick="sendHistoryMsg()">➤</button>
+  </div>
+  <div class="err-bar" id="histChatErr"></div>
+</div>
+
+<!-- SITUATIONS -->
+<div class="screen" id="screen-situations">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <span class="chat-title">Situaciones reales</span>
+  </div>
+  <div style="padding:10px 11px 8px;font-size:11px;color:var(--muted)">Practica en contextos del mundo real 🌍</div>
+  <div class="sit-grid" id="sitGrid"></div>
+</div>
+
+<!-- PROFILE -->
+<div class="screen" id="screen-profile">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <span class="chat-title">Mi perfil</span>
+  </div>
+  <div class="profile-hero">
+    <div class="profile-char" id="profileChar" onclick="openCharSelect()" style="font-size:0;width:90px;height:90px;display:flex;align-items:center;justify-content:center"></div>
+    <div class="profile-name" id="profileName">Jugador</div>
+    <div class="profile-lang" id="profileLangSub">Selecciona un idioma</div>
+    <div class="plan-pill plan-free" id="planPill" onclick="showPremModal()">🐾 Plan Gratis · Mejorar</div>
+  </div>
+  <div class="profile-quicklinks">
+    <div class="pql-btn" onclick="openCharSelect()"><span class="pql-ic">🧙</span>Cambiar personaje</div>
+    <div class="pql-btn" onclick="openSettings()"><span class="pql-ic">⚙️</span>Ajustes</div>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="sv" id="statDays">0</div><div class="sl">Días racha</div></div>
+    <div class="stat-card"><div class="sv" id="statXP">0</div><div class="sl">XP total</div></div>
+    <div class="stat-card"><div class="sv" id="statMsgs">0</div><div class="sl">Mensajes</div></div>
+  </div>
+  <div style="font-family:var(--ff);font-size:13px;font-weight:800;color:var(--muted);padding:0 10px 7px">Logros</div>
+  <div class="ach-list" id="achList"></div>
+</div>
+
+<!-- AJUSTES — pantalla propia, accesible desde el Perfil -->
+<div class="screen" id="screen-settings">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <span class="chat-title">Ajustes</span>
+  </div>
+  <div class="settings-wrap">
+    <div class="settings-section">
+      <div class="ss-title">Tema visual</div>
+      <div class="theme-grid" id="themeGrid"></div>
+    </div>
+    <div class="settings-section">
+      <div class="ss-title">Configuración</div>
+      <div class="setting-row" onclick="toggleNotifs()">
+        <div class="sr-left"><span class="sr-icon">🔔</span><div><div class="sr-title">Recordatorio diario</div><div class="sr-sub">Te avisamos para mantener la racha</div></div></div>
+        <div class="toggle" id="notifToggle"></div>
+      </div>
+      <div class="setting-row" onclick="toggleSounds()">
+        <div class="sr-left"><span class="sr-icon">🔊</span><div><div class="sr-title">Sonidos</div><div class="sr-sub">Efectos al responder ejercicios</div></div></div>
+        <div class="toggle" id="soundToggle"></div>
+      </div>
+      <div class="setting-row" onclick="toggleMusic()">
+        <div class="sr-left"><span class="sr-icon">🎵</span><div><div class="sr-title">Música de fondo</div><div class="sr-sub">Música ambiental en el menú</div></div></div>
+        <div class="toggle" id="musicToggle"></div>
+      </div>
+      <div class="setting-row" onclick="showPremModal()">
+        <div class="sr-left"><span class="sr-icon">⚡</span><div><div class="sr-title">Plan actual: <span id="planLbl">Gratis</span></div><div class="sr-sub">Toca para ver planes premium</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--gold)">›</div>
+      </div>
+      <div class="setting-row" onclick="resetProgress()">
+        <div class="sr-left"><span class="sr-icon">🗑️</span><div><div class="sr-title">Reiniciar progreso</div><div class="sr-sub">Borra todo y empieza de cero</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--coral)">›</div>
+      </div>
+      <div class="setting-row" onclick="logOut()">
+        <div class="sr-left"><span class="sr-icon">🚪</span><div><div class="sr-title">Cerrar sesión</div><div class="sr-sub" id="sessionUserEmail">Salir de tu cuenta</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--coral)">›</div>
+      </div>
+      <div class="setting-row" onclick="openFbSetup()" style="display:none">
+        <div class="sr-left"><span class="sr-icon">⚙️</span><div><div class="sr-title">Configurar Firebase</div><div class="sr-sub">Editar configuración de base de datos</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--muted)">›</div>
+      </div>
+    </div>
+    <div class="settings-section" id="apiKeySection">
+      <div class="ss-title">API Key de IA</div>
+      <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:10px">
+        Groq es <strong style="color:var(--mint)">gratis</strong>, sin tarjeta de crédito, y da acceso a modelos Llama ultra-rápidos.<br>
+        <strong style="color:var(--text)">Cómo obtener tu key gratuita (1 minuto):</strong><br>
+        1. Ve a <a href="https://console.groq.com/keys" target="_blank" style="color:var(--gold)">console.groq.com/keys</a><br>
+        2. Crea una cuenta gratis (sólo email)<br>
+        3. Copia tu API key y pégala abajo
+      </div>
+      <div style="display:flex;gap:7px;align-items:center">
+        <input id="groqKeyInput" type="password" placeholder="gsk_..." autocomplete="off"
+          style="flex:1;background:var(--card);border:1.5px solid var(--border);border-radius:10px;padding:10px 12px;color:var(--text);font-size:13px;outline:none;font-family:monospace"
+          oninput="onGroqKeyInput(this.value)"/>
+        <button onclick="saveGroqKey()" style="background:linear-gradient(135deg,#ea580c,var(--gold));color:#fff;border:none;border-radius:10px;padding:10px 14px;font-family:var(--ff);font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap">Guardar</button>
+      </div>
+      <div id="groqKeyStatus" style="font-size:11px;margin-top:7px;font-weight:700;color:var(--muted)"></div>
+    </div>
+    <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:12px 14px;font-size:12px;color:var(--muted);line-height:1.7">
+      <strong style="color:var(--text)">Drakón v5.0 PWA</strong><br>
+      Aprende idiomas con Inteligencia Artificial.<br>
+      IA: Claude (Anthropic) · Pronunciación: Web Speech API<br>
+      <span style="color:var(--gold)">Instala la app: toca "Agregar a pantalla de inicio" en tu navegador.</span>
+    </div>
+  </div>
+</div>
+
+<!-- SELECCIÓN DE PERSONAJES — pantalla inmersiva estilo videojuego -->
+<div class="screen" id="screen-charselect">
+  <video id="csBgVideo" class="cs-bg-video" autoplay muted loop playsinline></video>
+  <div class="cs-scrim"></div>
+
+  <button class="cs-back" onclick="closeCharSelect()">←</button>
+
+  <button class="cs-arrow cs-arrow-l" onclick="csPrev()" aria-label="Personaje anterior">‹</button>
+  <button class="cs-arrow cs-arrow-r" onclick="csNext()" aria-label="Personaje siguiente">›</button>
+
+  <div class="cs-stage">
+    <div class="cs-glow"></div>
+    <video id="csCharVideo" class="cs-char-video" autoplay muted loop playsinline></video>
+    <div class="cs-lock" id="csLock" style="display:none">🔒</div>
+  </div>
+
+  <div class="cs-caption">
+    <div class="cs-dots" id="csDots"></div>
+    <div class="cs-name" id="csName">—</div>
+    <div class="cs-desc" id="csDesc">—</div>
+    <button class="cs-select-btn" id="csSelectBtn" onclick="csConfirmSelect()">Seleccionar</button>
+  </div>
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav" id="bottomNav" style="display:none">
+  <div class="bn active" onclick="navTo('home')" id="bn-home"><span class="bni">🏠</span><span class="bnl">Inicio</span></div>
+  <div class="bn" onclick="navTo('situations')" id="bn-situations"><span class="bni">🎭</span><span class="bnl">Situaciones</span></div>
+  <div class="bn" onclick="navTo('chat')" id="bn-chat"><span class="bni">💬</span><span class="bnl">Chats</span></div>
+  <div class="bn" onclick="navTo('profile')" id="bn-profile"><span class="bni">👤</span><span class="bnl">Perfil</span></div>
+</div>
+
+<!-- PREMIUM MODAL -->
+<div id="premModal" style="display:none" class="modal-ov" onclick="closePremOv(event)">
+  <div class="modal-sheet">
+    <div class="modal-handle" onclick="closePrem()"></div>
+    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Pro</span></div>
+    <div class="modal-sub">Desbloquea el poder total del dragón</div>
+    <div class="plan-cards">
+      <div class="plan-card">
+        <div class="plan-n">🐾 Plan Gratis</div>
+        <div class="plan-p">$0 <span>/siempre</span></div>
+        <ul class="plan-feats">
+          <li>25 mensajes de IA por día</li>
+          <li>Lecciones A1–A2 (65 lecciones)</li>
+          <li>3 personajes disponibles</li>
+          <li>Pronunciación básica con micrófono</li>
+          <li>3 temas de fondo</li>
+        </ul>
+        <button class="plan-btn outline" onclick="closePrem()">Tu plan actual</button>
+      </div>
+      <div class="plan-card pop">
+        <div class="pop-tag">⭐ MÁS POPULAR</div>
+        <div class="plan-n">🔥 Drakón Pro</div>
+        <div class="plan-p">$4.99 <span>/mes</span></div>
+        <ul class="plan-feats">
+          <li>IA ilimitada cada día</li>
+          <li>200 lecciones completas (A1→C2)</li>
+          <li>10 personajes únicos desbloqueados</li>
+          <li>Pronunciación avanzada con análisis IA</li>
+          <li>Modos: Vocabulario, Debate, Historia, Roleplay</li>
+          <li>6 temas de fondo exclusivos</li>
+          <li>Estadísticas avanzadas de progreso</li>
+          <li>Streak Shield — protege tu racha 1 vez/semana</li>
+          <li>Modo sin distracciones (pantalla limpia)</li>
+          <li>Exportar progreso a PDF</li>
+        </ul>
+        <button class="plan-btn" onclick="activatePrem()">Activar Drakón Pro 🚀</button>
+      </div>
+      <div class="plan-card">
+        <div class="plan-n">👨‍👩‍👧 Familia</div>
+        <div class="plan-p">$9.99 <span>/mes</span></div>
+        <ul class="plan-feats">
+          <li>Todo lo de Pro</li>
+          <li>Hasta 5 perfiles</li>
+          <li>Panel familiar de progreso</li>
+          <li>Retos familiares semanales</li>
+        </ul>
+        <button class="plan-btn" onclick="activatePrem()">Activar Familia</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GROQ SETUP MODAL -->
+<div id="groqModal">
+  <div class="groq-sheet">
+    <div class="groq-handle"></div>
+    <div style="font-size:48px;text-align:center;margin-bottom:8px">⚙️</div>
+    <div class="groq-title">Configura la IA</div>
+    <div class="groq-sub">Necesitas una API key gratuita de Groq.<br>Sin tarjeta de crédito. Listo en 1 minuto.</div>
+    <div class="groq-steps">
+      <div class="groq-step"><div class="groq-step-n">1</div><div class="groq-step-txt">Abre <strong>console.groq.com/keys</strong> en tu navegador</div></div>
+      <div class="groq-step"><div class="groq-step-n">2</div><div class="groq-step-txt">Crea una cuenta con tu email — <strong>es gratis</strong>, sin datos de pago</div></div>
+      <div class="groq-step"><div class="groq-step-n">3</div><div class="groq-step-txt">Toca <strong>"Create API key"</strong>, copia la key y pégala abajo</div></div>
+    </div>
+    <a href="https://console.groq.com/keys" target="_blank" class="groq-link-btn">🌐 Ir a console.groq.com/keys</a>
+    <div class="groq-key-row">
+      <input id="groqModalInput" type="password" placeholder="Pega tu API key aquí (gsk_...)"
+        autocomplete="off" oninput="onGroqModalInput(this.value)"/>
+      <button class="groq-save-btn" onclick="saveGroqKeyFromModal()">Guardar</button>
+    </div>
+    <div class="groq-modal-status" id="groqModalStatus"></div>
+    <button class="groq-skip" onclick="closeGroqModal()">Hacerlo más tarde</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="xp-burst" id="xpBurst"></div>
+</div><!-- /app -->
+
+<!-- LOADING OVERLAY -->
+<div id="loadingOverlay" style="display:none;position:fixed;inset:0;background:rgba(12,8,0,.92);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:16px;backdrop-filter:blur(8px)">
+  <img src="assets/characters/faces/drakon.png" style="width:80px;height:80px;object-fit:contain;animation:pulse 1.5s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,146,6,.7))">
+  <div style="font-family:var(--fh);font-size:13px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase" id="loadingMsg">Cargando...</div>
+  <div style="width:120px;height:2px;background:rgba(251,146,6,.15);border-radius:1px;overflow:hidden">
+    <div style="height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));border-radius:1px;animation:shimmer 1.2s linear infinite"></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     JS MODULES — load order matters!
+     ════════════════════════════════════════ -->
+<!-- 1. Data: all constants (LANGS, CHARS, LESSON_TEMPLATES, exercises) -->
+<script src="js/data.js"></script>
+<!-- 2. State: app state object, save/load -->
+<script src="js/state.js"></script>
+<!-- 3. UI: themes, navigation, toasts, particles, updateAllUI -->
+<script src="js/ui.js"></script>
+<!-- 4. Characters: CHARS definitions, selectChar, renderChars -->
+<script src="js/characters.js"></script>
+<!-- 4b. Char intro: cinematic animation overlay on character select -->
+<script src="js/char-intro.js"></script>
+<!-- 5. Menu: native lang, lang picker, quiz, onboarding -->
+<script src="js/menu.js"></script>
+<!-- 6. Lessons: lesson rendering, exercise engine -->
+<script src="js/lessons.js"></script>
+<!-- 7. Audio: mic, Web Speech API, Whisper, TTS, ResponsiveVoice -->
+<script src="js/audio.js"></script>
+<!-- 8. Chat: AI chat engine, saved chats, Groq API calls -->
+<script src="js/chat.js"></script>
+<!-- 9. Auth: Firebase login/register, Groq key management -->
+<script src="js/auth.js"></script>
+<!-- 10. Gamification: XP, missions, achievements, premium -->
+<script src="js/gamification.js"></script>
+<!-- 11. App: settings, sounds, profile, PWA install, SW, init() -->
+<script src="js/app.js"></script>
+
+
+<script>
+/* ── Drakón eye tracking (login screen) — SVG overlay ── */
+(function(){
+  // Coordenadas nativas de drakonwithout.png (500×500 px)
+  const EYES = {
+    left:  { id:'pupilLeft',  hlId:'highlightLeft',  cx:195.0, cy:238.0, rx:39.2, ry:41.8 },
+    right: { id:'pupilRight', hlId:'highlightRight', cx:301.7, cy:238.0, rx:38.7, ry:42.2 },
+  };
+  const IMG_SIZE       = 500;
+  const MOVE_FACTOR    = 0.42; // fracción del radio disponible
+  const PUPIL_R        = 23.0; // radio pupila en unidades SVG
+  const HL_OFFSET_X    =  8.8; // offset brillo X desde centro pupila
+  const HL_OFFSET_Y    = -8.8; // offset brillo Y
+
+  function trackEyes(clientX, clientY) {
+    const wrap = document.getElementById('drakonEyes');
+    if (!wrap) return;
+    const rect  = wrap.getBoundingClientRect();
+    const scale = IMG_SIZE / rect.width;
+    const lx    = (clientX - rect.left)  * scale;
+    const ly    = (clientY - rect.top)   * scale;
+
+    Object.values(EYES).forEach(eye => {
+      const pupil = document.getElementById(eye.id);
+      const hl    = document.getElementById(eye.hlId);
+      if (!pupil || !hl) return;
+
+      const dx   = lx - eye.cx;
+      const dy   = ly - eye.cy;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const maxMove = Math.min(eye.rx, eye.ry) * MOVE_FACTOR;
+
+      let ox = 0, oy = 0;
+      if (dist > 0) {
+        const ratio = Math.min(dist / (maxMove * 6), 1);
+        ox = (dx / dist) * maxMove * ratio;
+        oy = (dy / dist) * maxMove * ratio;
+      }
+
+      const nx = eye.cx + ox;
+      const ny = eye.cy + oy;
+      pupil.setAttribute('cx', nx);
+      pupil.setAttribute('cy', ny);
+      hl.setAttribute('cx', nx + HL_OFFSET_X);
+      hl.setAttribute('cy', ny + HL_OFFSET_Y);
+    });
+  }
+
+  function resetEyes() {
+    Object.values(EYES).forEach(eye => {
+      const pupil = document.getElementById(eye.id);
+      const hl    = document.getElementById(eye.hlId);
+      if (!pupil || !hl) return;
+      pupil.setAttribute('cx', eye.cx);
+      pupil.setAttribute('cy', eye.cy);
+      hl.setAttribute('cx', eye.cx + HL_OFFSET_X);
+      hl.setAttribute('cy', eye.cy + HL_OFFSET_Y);
+    });
+  }
+
+  // Mouse
+  document.addEventListener('mousemove', e => trackEyes(e.clientX, e.clientY));
+  document.addEventListener('mouseleave', resetEyes);
+
+  // Touch (móvil/tablet)
+  document.addEventListener('touchmove', e => {
+    if (e.touches.length > 0) trackEyes(e.touches[0].clientX, e.touches[0].clientY);
+  }, { passive: true });
+
+  // En móvil sin cursor: animación automática suave de lado a lado
+  let autoAngle = 0;
+  let autoTimer = null;
+  function startAutoAnim() {
+    if (autoTimer) return;
+    autoTimer = setInterval(() => {
+      autoAngle += 0.04;
+      const wrap = document.getElementById('drakonEyes');
+      if (!wrap) { clearInterval(autoTimer); autoTimer = null; return; }
+      const rect = wrap.getBoundingClientRect();
+      const cx   = rect.left + rect.width  / 2;
+      const cy   = rect.top  + rect.height / 2;
+      const r    = rect.width * 0.18;
+      trackEyes(cx + Math.cos(autoAngle) * r, cy + Math.sin(autoAngle * 0.7) * r * 0.5);
+    }, 30);
+  }
+  if (!window.matchMedia('(hover:hover)').matches) startAutoAnim();
+
+  document.addEventListener('mousemove', () => { clearInterval(autoTimer); autoTimer = null; }, { once: true });
+  document.addEventListener('touchmove', () => { clearInterval(autoTimer); autoTimer = null; }, { once: true, passive: true });
+})();
+</script>
+
+<!-- Música de menú -->
+<audio id="menuMusic" src="assets/music/menu.mp3" loop preload="auto"></audio>
+
+<script>
+/* ── Música de menú ── */
+(function(){
+  const SCREENS_WITH_MUSIC = ['screen-main'];
+
+  function getAudio(){ return document.getElementById('menuMusic'); }
+
+  function applyMusicState(){
+    const audio = getAudio();
+    if(!audio) return;
+    const on = state.musicEnabled !== false; // default true
+    if(on){
+      audio.volume = 0;
+      audio.play().then(()=>{ fadeMusic(audio, 0, 0.35, 1200); }).catch(()=>{});
+    } else {
+      fadeMusic(audio, audio.volume, 0, 600, ()=>{ audio.pause(); audio.currentTime=0; });
+    }
+    const el = document.getElementById('musicToggle');
+    if(el) el.classList.toggle('on', on);
+  }
+
+  function fadeMusic(audio, from, to, ms, cb){
+    const steps = 30;
+    const interval = ms / steps;
+    const delta = (to - from) / steps;
+    let step = 0;
+    clearInterval(audio._fadeTimer);
+    audio._fadeTimer = setInterval(()=>{
+      step++;
+      audio.volume = Math.max(0, Math.min(1, from + delta * step));
+      if(step >= steps){ clearInterval(audio._fadeTimer); if(cb) cb(); }
+    }, interval);
+  }
+
+  // Escuchar cambios de pantalla para pausar fuera de las pantallas con música
+  const _origGoTo = window.goTo;
+  window.goTo = function(screen){
+    if(_origGoTo) _origGoTo(screen);
+    const audio = getAudio();
+    if(!audio) return;
+    const on = state.musicEnabled !== false;
+    if(on && SCREENS_WITH_MUSIC.includes(screen)){
+      audio.play().then(()=>{ fadeMusic(audio, audio.volume, 0.35, 800); }).catch(()=>{});
+    } else {
+      fadeMusic(audio, audio.volume, 0, 600, ()=>{ audio.pause(); });
+    }
+  };
+
+  // Intentar reproducir al primer toque (política autoplay)
+  document.addEventListener('click', function startOnInteraction(){
+    if(state.musicEnabled !== false){
+      const audio = getAudio();
+      if(audio && audio.paused && SCREENS_WITH_MUSIC.includes(state.screen)){
+        audio.play().then(()=>{ fadeMusic(audio, 0, 0.35, 1200); }).catch(()=>{});
+      }
+    }
+    document.removeEventListener('click', startOnInteraction);
+  }, {once:true});
+
+  window.toggleMusic = function(){
+    state.musicEnabled = !state.musicEnabled;
+    applyMusicState();
+    save();
+    showToast(state.musicEnabled ? '🎵 Música activada' : '🔇 Música desactivada');
+  };
+
+  // Inicializar toggle UI cuando se cargue settings
+  window.updateMusicToggleUI = function(){
+    const el = document.getElementById('musicToggle');
+    if(el) el.classList.toggle('on', state.musicEnabled !== false);
+  };
+
+  // Hook en updateAllUI si existe
+  const _origUpdateAllUI = window.updateAllUI;
+  window.updateAllUI = function(){
+    if(_origUpdateAllUI) _origUpdateAllUI();
+    window.updateMusicToggleUI();
+  };
+})();
+</script>
+
+</body>
+</html>
