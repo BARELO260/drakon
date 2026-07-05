@@ -1,0 +1,101 @@
+/* ── themes.css: tokens de diseño — plano, moderno, minimalista ── */
+
+:root{
+  /* Tipografía: display redondeado y amistoso + texto limpio y legible */
+  --ff:'Inter',system-ui,-apple-system,sans-serif;
+  --fb:'Inter',system-ui,-apple-system,sans-serif;
+  --fh:'Baloo 2','Inter',system-ui,sans-serif;
+
+  /* Escala de radios: formas suaves y redondeadas en toda la app */
+  --radius-sm:10px;--radius-md:14px;--radius-lg:20px;--radius-full:999px;
+  --radius:14px;
+
+  /* Semántica compartida (modo oscuro) */
+  --gold:#ffc069;--mint:#3ddc97;--coral:#ff6b6b;--sky:#4fc3f7;
+  --shadow:rgba(0,0,0,.35);
+  --card-elev:0 4px 14px rgba(0,0,0,.28);
+  --card-hl:rgba(255,255,255,.05);
+
+  /* ── DARK (por defecto) - calidez de dragón, sin ruido ── */
+  --bg:#17151d;--bg-glow:color-mix(in srgb, var(--accent) 16%, transparent);
+  --surface:#1f1c28;--card:#2b2737;--card2:#342f43;
+  --border:rgba(255,255,255,.08);--text:#f6f2ea;--muted:#a89bc0;
+  --accent:#ff9d3d;
+  --topbar-bg:rgba(23,21,29,.9);--card-bg:rgba(43,39,55,.88);--input-bg:rgba(31,28,40,.92);
+}
+
+[data-theme="light"]{
+  --card-elev:0 4px 14px rgba(30,20,50,.08);--card-hl:rgba(20,10,30,.03);
+  --gold:#d97706;--mint:#059669;--coral:#e11d48;--sky:#0284c7;
+  --shadow:rgba(30,20,50,.1);
+  --bg:#faf8ff;--bg-glow:color-mix(in srgb, var(--accent) 8%, transparent);
+  --surface:#f1ebff;--card:#ffffff;--card2:#fefeff;
+  --border:rgba(30,20,50,.08);--text:#241a3d;--muted:#6b5c8f;
+  --accent:#7c5cff;
+  --topbar-bg:rgba(250,248,255,.92);--card-bg:rgba(255,255,255,.95);--input-bg:rgba(241,235,255,.95);
+}
+
+[data-theme="amoled"]{
+  --gold:#e8e8e8;--mint:#3ddc97;--coral:#ff6b6b;--sky:#4fc3f7;
+  --shadow:rgba(0,0,0,.5);
+  --bg:#000000;--bg-glow:color-mix(in srgb, var(--accent) 10%, transparent);
+  --surface:#090909;--card:#161515;--card2:#211f1f;
+  --border:rgba(255,255,255,.1);--text:#ffffff;--muted:#8a8a8a;
+  --accent:#e5e5e5;
+  --topbar-bg:rgba(0,0,0,.95);--card-bg:rgba(22,21,21,.92);--input-bg:rgba(9,9,9,.95);
+}
+
+[data-theme="forest"]{
+  --bg:#11170f;--surface:#192216;--card:#243220;--card2:#2d3f27;
+  --border:rgba(255,255,255,.08);--text:#eef6ea;--muted:#93ab8c;
+  --accent:#34c77b;
+}
+
+[data-theme="ocean"]{
+  --bg:#0d161d;--surface:#121f2a;--card:#1a2d3c;--card2:#20384a;
+  --border:rgba(255,255,255,.08);--text:#eaf6fb;--muted:#84a6b6;
+  --accent:#2bb0e6;
+}
+
+[data-theme="purple"]{
+  --bg:#150f1f;--surface:#1d152b;--card:#291c3d;--card2:#32234b;
+  --border:rgba(255,255,255,.08);--text:#f2edfb;--muted:#a394c2;
+  --accent:#a06bff;
+}
+
+[data-theme="ruby"]{
+  --bg:#1c1013;--surface:#28161b;--card:#381f25;--card2:#46262e;
+  --border:rgba(255,255,255,.08);--text:#fbeeee;--muted:#c08e95;
+  --accent:#ef4a5f;
+}
+
+
+
+
+[data-theme="ice"]{
+  --card-elev:0 4px 14px rgba(10,40,60,.08);--card-hl:rgba(20,10,30,.03);
+  --gold:#c2740d;--mint:#0d9488;--coral:#dc2626;--sky:#0369a1;
+  --shadow:rgba(10,40,60,.1);
+  --bg:#f2fafd;--bg-glow:color-mix(in srgb, var(--accent) 8%, transparent);
+  --surface:#e7f6fb;--card:#ffffff;--card2:#f7fcfe;
+  --border:rgba(10,40,60,.08);--text:#0c2b38;--muted:#5c8497;
+  --accent:#2ba7d1;
+  --topbar-bg:rgba(242,250,253,.92);--card-bg:rgba(255,255,255,.95);--input-bg:rgba(231,246,251,.95);
+}
+
+
+
+[data-theme="sand"]{
+  --card-elev:0 4px 14px rgba(50,35,10,.1);--card-hl:rgba(20,10,30,.03);
+  --gold:#a85b00;--mint:#0e8f6e;--coral:#c8382c;--sky:#0d7ea3;
+  --shadow:rgba(50,35,10,.1);
+  --bg:#faf4e6;--bg-glow:color-mix(in srgb, var(--accent) 8%, transparent);
+  --surface:#f8efdb;--card:#ffffff;--card2:#fbf6eb;
+  --border:rgba(50,35,10,.1);--text:#2e2107;--muted:#8a7350;
+  --accent:#c4831a;
+  --topbar-bg:rgba(250,244,230,.92);--card-bg:rgba(255,255,255,.95);--input-bg:rgba(248,239,219,.95);
+}
+
+
+
+
