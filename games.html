@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>Drakón — Zona de Juegos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/games.css">
+</head>
+<body>
+
+<!-- Voz para Listening Probe (misma fuente que usa el resto de la app) -->
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=FREE"></script>
+
+<div id="toastEl" class="g-toast"></div>
+
+<div id="gApp">
+
+  <!-- ═══════════ MENÚ PRINCIPAL ═══════════ -->
+  <div id="screen-menu" class="g-screen active">
+    <div class="g-topbar">
+      <div class="g-topbar__back" onclick="goBackToApp()">←</div>
+      <div class="g-topbar__mid">
+        <div class="g-topbar__label">🎮 Entretenimiento</div>
+        <div class="g-topbar__title">Zona de Juegos</div>
+      </div>
+    </div>
+
+    <div class="g-main" id="menuScroll">
+
+      <div class="g-hero">
+        <div class="g-hero__label" id="gHeroLangLabel">🌐 Entrenamiento</div>
+        <div class="g-hero__title">Selecciona tu Misión</div>
+        <div class="g-hero__sub">Aprende mientras combates, construyes y escuchas. Cada juego suma XP real a tu perfil.</div>
+      </div>
+
+      <!-- Sección combate -->
+      <div class="g-section-label">
+        <div class="g-section-dot"></div>Combate espacial
+      </div>
+
+      <!-- Card Space Invaders (featured) -->
+      <div class="g-card-featured" onclick="GamesCore.chooseDifficulty('invaders')">
+        <div class="g-card-featured__bar"></div>
+        <div class="g-cf-inner">
+          <div class="g-cf-icon-col">
+            <div class="g-cf-icon">🚀</div>
+            <div class="g-cf-levels">
+              <div class="g-cfl on"></div><div class="g-cfl on"></div>
+              <div class="g-cfl on"></div><div class="g-cfl"></div><div class="g-cfl"></div>
+            </div>
+          </div>
+          <div class="g-cf-body">
+            <div class="g-cf-badge"><span class="g-cf-dot"></span>Acción · 10 niveles</div>
+            <div class="g-cf-name">Invasión Galáctica</div>
+            <div class="g-cf-desc">Defiende la galaxia a bordo de tu nave personalizada. Cada nivel trae más invasores y más caos.</div>
+            <div class="g-cf-ships">
+              <span class="g-cf-ships-label">Naves:</span>
+              <span class="g-cf-chip">Drakón</span>
+              <span class="g-cf-chip">Zorrek</span>
+              <span class="g-cf-chip">Merlingo</span>
+              <span class="g-cf-chip g-cf-chip--more">+7 →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección educativa -->
+      <div class="g-section-label">
+        <div class="g-section-dot g-section-dot--gold"></div>Juegos educativos
+      </div>
+
+      <div class="g-edu-list">
+
+        <div class="g-edu-card" style="--cc:var(--coral)" onclick="GamesCore.chooseDifficulty('hangman')">
+          <div class="g-edu-card__bar"></div><div class="g-edu-icon">🎯</div><div class="g-edu-body"><div class="g-edu-tag">Vocabulario · Letras</div><div class="g-edu-name">Ahorcado</div><div class="g-edu-desc">Descubre palabras reales de tus lecciones antes de quedarte sin intentos.</div><div class="g-edu-meta"><span class="g-edu-chip">Idioma actual</span><span class="g-edu-chip">6 intentos</span></div></div><div class="g-edu-arrow">›</div>
+        </div>
+
+        <div class="g-edu-card" style="--cc:var(--sky)" onclick="GamesCore.chooseDifficulty('wordsearch')">
+          <div class="g-edu-card__bar"></div><div class="g-edu-icon">🔎</div><div class="g-edu-body"><div class="g-edu-tag">Vocabulario · Exploración</div><div class="g-edu-name">Buscador de palabras</div><div class="g-edu-desc">Encuentra en la cuadrícula palabras tomadas de tus lecciones.</div><div class="g-edu-meta"><span class="g-edu-chip">Cuadrícula 10×10</span><span class="g-edu-chip">Táctil</span></div></div><div class="g-edu-arrow">›</div>
+        </div>
+
+        <div class="g-edu-card" style="--cc:var(--gold)" onclick="GamesCore.chooseDifficulty('wordblaster')">
+          <div class="g-edu-card__bar"></div>
+          <div class="g-edu-icon">⚡</div>
+          <div class="g-edu-body">
+            <div class="g-edu-tag">Vocabulario · Velocidad</div>
+            <div class="g-edu-name">Word Blaster</div>
+            <div class="g-edu-desc">Repasa a contrarreloj lo que ya aprendiste en tus lecciones. Las rachas multiplican tu XP.</div>
+            <div class="g-edu-meta">
+              <span class="g-edu-chip">Hasta 15 rondas</span>
+              <span class="g-edu-chip">Contrarreloj</span>
+              <div class="g-diff"><div class="g-diff-dot on"></div><div class="g-diff-dot on"></div><div class="g-diff-dot"></div></div>
+            </div>
+          </div>
+          <div class="g-edu-arrow">›</div>
+        </div>
+
+        <div class="g-edu-card" style="--cc:var(--mint)" onclick="GamesCore.chooseDifficulty('phrasebuilder')">
+          <div class="g-edu-card__bar"></div>
+          <div class="g-edu-icon">🧩</div>
+          <div class="g-edu-body">
+            <div class="g-edu-tag">Gramática · Construcción</div>
+            <div class="g-edu-name">Phrase Builder</div>
+            <div class="g-edu-desc">Ordena las palabras para armar la frase correcta. Practicas produciendo, no solo reconociendo.</div>
+            <div class="g-edu-meta">
+              <span class="g-edu-chip">Hasta 10 frases</span>
+              <span class="g-edu-chip">Gramática real</span>
+              <div class="g-diff"><div class="g-diff-dot on" style="--dc:var(--mint)"></div><div class="g-diff-dot on" style="--dc:var(--mint)"></div><div class="g-diff-dot on" style="--dc:var(--mint)"></div></div>
+            </div>
+          </div>
+          <div class="g-edu-arrow">›</div>
+        </div>
+
+        <div class="g-edu-card" style="--cc:var(--sky)" onclick="GamesCore.chooseDifficulty('listening')">
+          <div class="g-edu-card__bar"></div>
+          <div class="g-edu-icon">🎧</div>
+          <div class="g-edu-body">
+            <div class="g-edu-tag">Comprensión · Audio</div>
+            <div class="g-edu-name">Listening Probe</div>
+            <div class="g-edu-desc">Escucha frases reales del idioma que aprendes y responde. El único lugar de la app que entrena tu oído.</div>
+            <div class="g-edu-meta">
+              <span class="g-edu-chip">Hasta 8 audios</span>
+              <span class="g-edu-chip">Voz sintética</span>
+              <div class="g-diff"><div class="g-diff-dot on" style="--dc:var(--sky)"></div><div class="g-diff-dot on" style="--dc:var(--sky)"></div><div class="g-diff-dot"></div></div>
+            </div>
+          </div>
+          <div class="g-edu-arrow">›</div>
+        </div>
+
+        <div class="g-section-label"><div class="g-section-dot g-section-dot--gold"></div>Clásicos de lógica</div>
+
+        <div class="g-edu-card" style="--cc:#9b7bff" onclick="GamesCore.chooseDifficulty('sudoku')"><div class="g-edu-card__bar"></div><div class="g-edu-icon">🔢</div><div class="g-edu-body"><div class="g-edu-tag">Lógica · Números</div><div class="g-edu-name">Sudoku</div><div class="g-edu-desc">Completa una cuadrícula válida de 9×9 y verifica tu solución.</div><div class="g-edu-meta"><span class="g-edu-chip">Puzzle nuevo</span><span class="g-edu-chip">Validador</span></div></div><div class="g-edu-arrow">›</div></div>
+        <div class="g-edu-card" style="--cc:#e0528d" onclick="GamesCore.chooseDifficulty('solitaire')"><div class="g-edu-card__bar"></div><div class="g-edu-icon">🃏</div><div class="g-edu-body"><div class="g-edu-tag">Cartas · Estrategia</div><div class="g-edu-name">Solitario</div><div class="g-edu-desc">Klondike: ordena cartas alternando colores y completa los cuatro palos.</div><div class="g-edu-meta"><span class="g-edu-chip">Klondike</span><span class="g-edu-chip">Toque para mover</span></div></div><div class="g-edu-arrow">›</div></div>
+        <div class="g-edu-card" style="--cc:#25a18e" onclick="GamesCore.chooseDifficulty('kakuro')"><div class="g-edu-card__bar"></div><div class="g-edu-icon">➕</div><div class="g-edu-body"><div class="g-edu-tag">Lógica · Sumas</div><div class="g-edu-name">Cross Sums</div><div class="g-edu-desc">Resuelve sumas cruzadas sin repetir cifras dentro de cada grupo.</div><div class="g-edu-meta"><span class="g-edu-chip">Kakuro</span><span class="g-edu-chip">Validador</span></div></div><div class="g-edu-arrow">›</div></div>
+        <div class="g-edu-card" style="--cc:#c68b3c" onclick="GamesCore.chooseDifficulty('chess')"><div class="g-edu-card__bar"></div><div class="g-edu-icon">♟️</div><div class="g-edu-body"><div class="g-edu-tag">Estrategia · IA o 2 jugadores</div><div class="g-edu-name">Ajedrez</div><div class="g-edu-desc">Juega una partida local o desafía a la computadora.</div><div class="g-edu-meta"><span class="g-edu-chip">Tablero 8×8</span><span class="g-edu-chip">IA adaptativa</span></div></div><div class="g-edu-arrow">›</div></div>
+
+      </div>
+
+      <div class="g-menu-footer">
+        <span>🎯 Todos los juegos suman XP a tu perfil principal</span>
+      </div>
+
+    </div><!-- /g-main -->
+  </div><!-- /screen-menu -->
+
+
+  <!-- ═══════════ SELECTOR DE PERSONAJE ═══════════ -->
+  <div id="screen-char-select" class="g-screen">
+    <div class="g-topbar">
+      <div class="g-topbar__back" onclick="GamesCore.showScreen('screen-menu')">←</div>
+      <div class="g-topbar__mid">
+        <div class="g-topbar__label">🛸 Invasión Galáctica</div>
+        <div class="g-topbar__title">Elige tu Piloto</div>
+      </div>
+    </div>
+
+    <div class="g-charsel-intro">
+      <div class="g-charsel-intro__icon">🛸</div>
+      <div>
+        <div class="g-charsel-intro__title">¿Quién defenderá la galaxia?</div>
+        <div class="g-charsel-intro__sub">Cada nave pertenece a un piloto legendario.</div>
+      </div>
+    </div>
+
+    <div class="g-charsel-scroll">
+      <div class="g-charsel-grid" id="charSelGrid"></div>
+      <div style="height:90px"></div><!-- espacio para el footer -->
+    </div>
+
+    <div class="g-charsel-footer">
+      <div class="g-charsel-info" id="charselInfo">
+        <span class="g-charsel-info__placeholder">Ningún piloto seleccionado</span>
+      </div>
+      <button class="g-charsel-btn" id="charSelBtn" disabled onclick="Invaders.start()">
+        🚀 LANZAR MISIÓN
+      </button>
+    </div>
+  </div>
+
+  <div id="screen-difficulty" class="g-screen">
+    <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.showScreen('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title">Elige el desafío</div><div class="g-game-sub" id="difficultyGameName">Ajusta tu partida</div></div></div>
+    <div class="g-screen-scroll"><div class="difficulty-wrap"><div class="difficulty-intro">Cada nivel cambia el ritmo, las pistas y la complejidad.</div><div id="difficultyOptions" class="difficulty-options"></div></div></div>
+  </div>
+
+
+  <!-- ═══════════ SPACE INVADERS ═══════════ -->
+  <div id="screen-invaders" class="g-screen g-screen--black">
+    <div class="g-inv-hud">
+      <div class="g-inv-stat">
+        <div class="g-inv-stat__val" id="invScore">0</div>
+        <div class="g-inv-stat__lbl">PUNTOS</div>
+      </div>
+      <div class="g-inv-center">
+        <div class="g-inv-ship-wrap" id="invHudShipWrap">
+          <!-- video o emoji inyectado por JS -->
+        </div>
+        <div class="g-inv-level-info">
+          <div class="g-inv-level-name" id="invLevelName">EXPLORADOR</div>
+          <div class="g-inv-level-num">NIV <span id="invLevel">1</span>/10</div>
+        </div>
+      </div>
+      <div class="g-inv-stat" style="text-align:right">
+        <div class="g-inv-lives" id="invLives"></div>
+        <div class="g-inv-stat__lbl">VIDAS</div>
+      </div>
+    </div>
+
+    <canvas id="invCanvas"></canvas>
+
+    <div class="g-inv-controls">
+      <button class="g-inv-btn g-inv-btn--move" id="btnLeft"
+        ontouchstart="Invaders.setKey('left',true)" ontouchend="Invaders.setKey('left',false)"
+        onmousedown="Invaders.setKey('left',true)" onmouseup="Invaders.setKey('left',false)">◀</button>
+      <button class="g-inv-btn g-inv-btn--fire" id="btnFire"
+        ontouchstart="Invaders.setKey('fire',true)" ontouchend="Invaders.setKey('fire',false)"
+        onmousedown="Invaders.setKey('fire',true)" onmouseup="Invaders.setKey('fire',false)">
+        <span>💥</span> FUEGO
+      </button>
+      <button class="g-inv-btn g-inv-btn--move" id="btnRight"
+        ontouchstart="Invaders.setKey('right',true)" ontouchend="Invaders.setKey('right',false)"
+        onmousedown="Invaders.setKey('right',true)" onmouseup="Invaders.setKey('right',false)">▶</button>
+    </div>
+
+    <div class="g-inv-overlay" id="invOverlay">
+      <div class="g-inv-overlay__title" id="invOvTitle">INVASIÓN GALÁCTICA</div>
+      <div class="g-inv-overlay__badge" id="invOvBadge">NIVEL 1 — EXPLORADOR</div>
+      <div class="g-inv-overlay__sub" id="invOvSub">Prepara tus cañones.</div>
+      <div class="g-inv-overlay__btns">
+        <button class="g-inv-ov-btn" id="invOvMainBtn" onclick="Invaders.resume()">▶ COMENZAR</button>
+        <button class="g-inv-ov-btn g-inv-ov-btn--ghost" id="invOvSecBtn" onclick="GamesCore.showScreen('screen-char-select')">← CAMBIAR NAVE</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════ WORD BLASTER ═══════════ -->
+  <div id="screen-wordblaster" class="g-screen">
+    <div class="g-game-topbar">
+      <button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button>
+      <div class="g-game-info">
+        <div class="g-game-title">⚡ Word Blaster</div>
+        <div class="g-game-sub" id="wbProgressTxt">1 / 15</div>
+      </div>
+      <div class="g-game-score">
+        <div class="g-game-score__val" id="wbScore">0</div>
+        <div class="g-game-score__lbl">PTS</div>
+      </div>
+    </div>
+    <div class="g-wb-timer"><div class="g-wb-timer__fill" id="wbTimerFill"></div></div>
+    <div class="g-screen-scroll">
+      <div class="g-wb-meta">
+        <div class="g-wb-streak">
+          <span class="g-wb-streak__fire">🔥</span>
+          <div class="g-wb-streak__val" id="wbStreak">0</div>
+          <div class="g-wb-streak__lbl">RACHA</div>
+        </div>
+        <div class="g-wb-dots" id="wbDots"></div>
+      </div>
+      <div class="g-wb-card">
+        <div class="g-wb-card__label" id="wbCardLabel">RESPONDE RÁPIDO</div>
+        <div class="g-wb-card__word" id="wbWord">—</div>
+        <div class="g-wb-card__hint" id="wbHint"></div>
+      </div>
+      <div class="g-wb-opts" id="wbOptions"></div>
+      <div class="g-wb-bonus" id="wbBonusInfo"></div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════ PHRASE BUILDER ═══════════ -->
+  <div id="screen-phrasebuilder" class="g-screen">
+    <div class="g-game-topbar">
+      <button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button>
+      <div class="g-game-info">
+        <div class="g-game-title">🧩 Phrase Builder</div>
+        <div class="g-game-sub" id="pbProgressTxt">1 / 10</div>
+      </div>
+      <div class="g-game-score">
+        <div class="g-game-score__val" id="pbScore">0</div>
+        <div class="g-game-score__lbl">PTS</div>
+      </div>
+    </div>
+    <div class="g-screen-scroll">
+      <div class="g-pb-wrap">
+        <div class="g-pb-ref" id="pbHintBox" onclick="PhraseBuilder.toggleHint()" style="cursor:pointer">
+          <div class="g-pb-ref__label" id="pbHintLabel">💡 TOCA PARA VER UNA PISTA</div>
+          <div class="g-pb-ref__text" id="pbTarget">Ordena las palabras para formar la frase correcta.</div>
+        </div>
+        <div class="g-pb-zone-label" id="pbAnswerLabel">TU RESPUESTA</div>
+        <div class="g-pb-answer" id="pbAnswerZone">
+          <div class="g-pb-placeholder" id="pbPlaceholder">Toca las palabras para colocarlas aquí…</div>
+        </div>
+        <div class="g-pb-zone-label">PALABRAS DISPONIBLES</div>
+        <div class="g-pb-pool" id="pbWordPool"></div>
+        <div class="g-pb-actions">
+          <button class="g-pb-btn g-pb-btn--clear" onclick="PhraseBuilder.clearAnswer()">✕ LIMPIAR</button>
+          <button class="g-pb-btn g-pb-btn--check" onclick="PhraseBuilder.check()">✓ VERIFICAR</button>
+        </div>
+        <div class="g-pb-feedback" id="pbFeedback"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════ LISTENING PROBE ═══════════ -->
+  <div id="screen-listening" class="g-screen">
+    <div class="g-game-topbar">
+      <button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button>
+      <div class="g-game-info">
+        <div class="g-game-title">🎧 Listening Probe</div>
+        <div class="g-game-sub" id="lpProgressTxt">1 / 8</div>
+      </div>
+      <div class="g-game-score">
+        <div class="g-game-score__val" id="lpScore">0</div>
+        <div class="g-game-score__lbl">PTS</div>
+      </div>
+    </div>
+    <div class="g-screen-scroll">
+      <div class="g-lp-wrap">
+        <div class="g-lp-stats">
+          <div class="g-lp-stat"><div class="g-lp-stat__val" id="lpCorrect">0</div><div class="g-lp-stat__lbl">CORRECTAS</div></div>
+          <div class="g-lp-stat"><div class="g-lp-stat__val" id="lpStreak">0</div><div class="g-lp-stat__lbl">RACHA</div></div>
+          <div class="g-lp-stat"><div class="g-lp-stat__val" id="lpCombo">×1</div><div class="g-lp-stat__lbl">COMBO</div></div>
+        </div>
+        <div class="g-lp-viz" id="lpVisualizer"></div>
+        <button class="g-lp-play" id="lpPlayBtn" onclick="ListeningProbe.play()">
+          <span id="lpPlayIcon">▶</span>
+          <span id="lpPlayLabel">REPRODUCIR AUDIO</span>
+        </button>
+        <div class="g-lp-card">
+          <div class="g-lp-question" id="lpQuestion">Escucha y selecciona la respuesta correcta</div>
+          <div class="g-lp-opts" id="lpOptions"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="screen-classic" class="g-screen">
+    <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title" id="classicTitle">Juego</div><div class="g-game-sub" id="classicSub">Pon a prueba tu mente</div></div><div class="g-game-score"><div class="g-game-score__val" id="classicScore">0</div><div class="g-game-score__lbl">PTS</div></div></div>
+    <div class="g-screen-scroll"><div id="classicGame" class="g-classic-wrap"></div></div>
+  </div>
+
+
+  <!-- ═══════════ RESULTADO ═══════════ -->
+  <div id="screen-result" class="g-screen">
+    <div class="g-game-topbar">
+      <button class="g-game-back" onclick="GamesCore.showScreen('screen-menu')">←</button>
+      <div class="g-game-info">
+        <div class="g-game-title">RESULTADO FINAL</div>
+      </div>
+    </div>
+    <div class="g-result-wrap" id="resultWrap"></div>
+  </div>
+
+</div><!-- /gApp -->
+
+<!-- Misma barra inferior que index.html — se mantiene al entrar a Juegos -->
+<div class="bottom-nav" id="bottomNav">
+  <div class="bn" onclick="GamesCore.goToApp('home')" id="bn-home"><span class="bni">🏠</span><span class="bnl">Inicio</span></div>
+  <div class="bn" onclick="GamesCore.goToApp('situations')" id="bn-situations"><span class="bni">🎭</span><span class="bnl">Situaciones</span></div>
+  <div class="bn active" onclick="GamesCore.showScreen('screen-menu')" id="bn-games"><span class="bni">🎮</span><span class="bnl">Juegos</span></div>
+  <div class="bn" onclick="GamesCore.goToApp('chat')" id="bn-chat"><span class="bni">💬</span><span class="bnl">Chats</span></div>
+  <div class="bn" onclick="GamesCore.goToApp('profile')" id="bn-profile"><span class="bni">👤</span><span class="bnl">Perfil</span></div>
+</div>
+
+<!-- Datos: idiomas/personajes + banco de lecciones por idioma.
+     Exactamente los mismos archivos que carga index.html — así los
+     juegos usan el contenido REAL del idioma que se está aprendiendo,
+     nunca una copia ni un banco fijo en inglés. -->
+<script src="js/data.js"></script>
+<script src="js/lessons-data/en.js"></script>
+<script src="js/lessons-data/es.js"></script>
+<script src="js/lessons-data/fr.js"></script>
+<script src="js/lessons-data/de.js"></script>
+<script src="js/lessons-data/it.js"></script>
+<script src="js/lessons-data/pt.js"></script>
+<script src="js/lessons-data/ru.js"></script>
+<script src="js/lessons-data/jp.js"></script>
+<script src="js/lessons-data/zh.js"></script>
+<script src="js/lessons-data/ko.js"></script>
+
+<!-- Puente con el estado real de la app (tema, idioma, personaje, XP) -->
+<script src="js/games-bridge.js"></script>
+
+<script src="js/games-core.js"></script>
+<script src="js/invaders.js"></script>
+<script src="js/wordblaster.js"></script>
+<script src="js/phrasebuilder.js"></script>
+<script src="js/listening.js"></script>
+<script src="js/classic-games.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => GamesCore.init());
+  function goBackToApp() {
+    if (window.history.length > 1) window.history.back();
+    else window.location.href = 'index.html';
+  }
+</script>
+</body>
+</html>
