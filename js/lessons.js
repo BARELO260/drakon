@@ -347,8 +347,10 @@ const LessonEngine = {
    y el glosario de estudio (renderStudyList), para que ambos usen SIEMPRE
    la misma lógica de desbloqueo y nunca queden desincronizados.
    ═══════════════════════════════════════════════════════════ */
-const LEVELS = ['A1', 'A2', 'B1', 'B2'];
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const LEVEL_META = {
+  C1: { label: 'Avanzado', emoji: 'Advanced', cc: 'var(--sky)' },
+  C2: { label: 'Dominio', emoji: 'Mastery', cc: 'var(--gold)' },
   A1: { label: 'Principiante',       emoji: '🌱', cc: 'var(--mint)' },
   A2: { label: 'Básico',             emoji: '📗', cc: 'var(--sky)'  },
   B1: { label: 'Intermedio',         emoji: '📘', cc: 'var(--gold)' },
