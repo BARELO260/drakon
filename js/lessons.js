@@ -128,6 +128,23 @@ const LessonEngine = {
     const ex = this.exercises[this.currentIdx];
     const progress = `${this.currentIdx + 1} / ${this.exercises.length}`;
 
+    if (ex.type === 'writing' || ex.type === 'speaking') {
+      const isSpeaking = ex.type === 'speaking';
+      area.innerHTML = `
+        <div class="ex-card ex-production-card">
+          <div class="ex-progress-label">${progress} · ${isSpeaking ? 'EXPRESIÓN ORAL' : 'EXPRESIÓN ESCRITA'}</div>
+          ${ex.context ? `<div class="ex-context">${ex.context}</div>` : ''}
+          <div class="ex-question">${ex.question}</div>
+          <div class="ex-production-tip">Usa al menos ${ex.minWords || 25} palabras. Recibirás una revisión orientativa de los criterios de la tarea.</div>
+          <textarea id="exProductionInput" class="ex-production-input" rows="6" placeholder="${isSpeaking ? 'Habla con el micrófono o escribe tu respuesta aquí…' : 'Escribe tu respuesta aquí…'}"></textarea>
+          ${isSpeaking ? '<button class="ex-production-mic" onclick="LessonEngine.captureSpeech()">🎙️ GRABAR RESPUESTA</button>' : ''}
+          <button class="ex-next-btn" id="exSubmitProduction" onclick="LessonEngine.submitProduction()">REVISAR RESPUESTA</button>
+          <div class="ex-feedback" id="exFeedback" style="display:none"></div>
+          <button class="ex-next-btn" id="exNextBtn" style="display:none" onclick="LessonEngine.nextExercise()">Siguiente ejercicio →</button>
+        </div>`;
+      return;
+    }
+
     let html = `
       <div class="ex-card">
         <div class="ex-progress-label">${progress}</div>
@@ -156,6 +173,47 @@ const LessonEngine = {
     `;
 
     area.innerHTML = html;
+  },
+
+  submitProduction() {
+    if (this.answered) return;
+    const input = document.getElementById('exProductionInput');
+    const response = (input?.value || '').trim();
+    const ex = this.exercises[this.currentIdx];
+    const words = response ? response.split(/\s+/).length : 0;
+    const criteria = Array.isArray(ex.correct) ? ex.correct : [];
+    const normalized = response.toLowerCase();
+    const covered = criteria.filter(item => normalized.includes(String(item).toLowerCase()));
+    const enoughLength = words >= (ex.minWords || 25);
+    const meetsTask = enoughLength && (criteria.length === 0 || covered.length >= Math.ceil(criteria.length / 2));
+    this.answered = true;
+    if (input) input.disabled = true;
+    const submit = document.getElementById('exSubmitProduction');
+    if (submit) submit.disabled = true;
+    const feedback = document.getElementById('exFeedback');
+    if (feedback) {
+      feedback.style.display = 'block';
+      feedback.className = `ex-feedback ${meetsTask ? 'correct' : 'wrong'}`;
+      feedback.innerHTML = `<div class="ex-fb-header">${meetsTask ? '¡Buen trabajo de producción! 🎙️' : 'Revisa la consigna y vuelve a intentarlo'}</div><div class="ex-fb-explanation">${ex.explanation}</div><div class="ex-fb-correct">Criterios de autoevaluación: ${criteria.map(item => `${covered.includes(item) ? '✓' : '○'} ${item}`).join(' · ') || 'claridad, coherencia y precisión'}</div>`;
+    }
+    if (meetsTask) { this.correctCount++; this.xpEarned += Math.floor(this.lesson.xp / this.exercises.length); if (typeof gainXP === 'function') gainXP(3, false); }
+    else this.lives--;
+    this._updateTopBar();
+    const next = document.getElementById('exNextBtn');
+    if (next) { next.style.display = 'block'; if (this.currentIdx === this.exercises.length - 1) next.textContent = 'Ver resultados 🏆'; }
+  },
+
+  captureSpeech() {
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Recognition) { alert('El reconocimiento de voz no está disponible en este navegador. Puedes escribir tu respuesta.'); return; }
+    const recognition = new Recognition();
+    recognition.lang = (typeof state !== 'undefined' && state.lang?.lang) || 'en-US';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    const input = document.getElementById('exProductionInput');
+    recognition.onresult = event => { if (input) input.value = event.results[0][0].transcript; };
+    recognition.onerror = () => { if (input) input.placeholder = 'No se detectó voz. Escribe tu respuesta para continuar.'; };
+    recognition.start();
   },
 
   /* ── Responder ──────────────────────── */
