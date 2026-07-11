@@ -1,5 +1,5 @@
 // ── CAMBIA BUILD EN CADA DEPLOY ──────────────────────────────
-const BUILD = '20260710-v22';
+const BUILD = '20260710-v23';
 // ─────────────────────────────────────────────────────────────
 const CACHE = 'drakon-' + BUILD;
 
