@@ -24,6 +24,9 @@ const PhraseBuilder = (() => {
       pool:      [],       // [{ word, used }]
       answered:  false,
       hintShown: false,
+      hintsLeft: Infinity,
+      hintsMax:  Infinity,
+      decoyCount: 0,
     };
   }
 
@@ -59,10 +62,23 @@ const PhraseBuilder = (() => {
     }
 
     const diff = ({beginner:0,medium:1,pro:2,legendary:3}[GameSession.difficulty] || 0);
-    st.phrases = [...pool]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, Math.min(5 + diff * 2, pool.length))
-      .map(_toPhrase);
+    /* Antes la dificultad solo cambiaba cuántas frases se jugaban.
+       Ahora también decide QUÉ frases: Principiante recibe las más
+       cortas y sencillas del banco; Legendario, las más largas. */
+    const allPhrases = pool.map(_toPhrase).sort((a,b)=>a.words.length-b.words.length);
+    const n = allPhrases.length;
+    const bandBounds = [[0,.5],[.2,.8],[.5,1],[.65,1]][diff];
+    let band = allPhrases.slice(Math.floor(n*bandBounds[0]), Math.ceil(n*bandBounds[1]));
+    const wanted = Math.min(5 + diff * 2, n);
+    if (band.length < wanted) band = allPhrases;
+    st.phrases = [...band].sort(() => Math.random() - 0.5).slice(0, wanted);
+
+    /* Pistas limitadas y palabras señuelo mezcladas en el banco de
+       piezas: así "Profesional" y "Legendario" son notablemente más
+       difíciles que "Medio", no solo por tener más frases. */
+    st.hintsMax  = [Infinity, 6, 2, 0][diff];
+    st.hintsLeft = st.hintsMax;
+    st.decoyCount = [0, 0, 1, 2][diff];
 
     GamesCore.showScreen('screen-phrasebuilder');
     _load();
@@ -79,14 +95,22 @@ const PhraseBuilder = (() => {
     _set('pbProgressTxt', `${st.idx+1} / ${st.phrases.length}`);
     _set('pbScore', st.score);
     _set('pbTarget', 'Ordena las palabras para formar la frase correcta.');
-    _set('pbHintLabel', '💡 TOCA PARA VER UNA PISTA');
+    _set('pbHintLabel', st.hintsMax === Infinity ? '💡 TOCA PARA VER UNA PISTA' : st.hintsMax === 0 ? '🚫 SIN PISTAS EN ESTE NIVEL' : `💡 PISTA (${st.hintsLeft} disponibles)`);
 
     /* Feedback oculto */
     const fb = _el('pbFeedback');
     if (fb) { fb.style.display='none'; fb.className='g-pb-feedback'; }
 
-    /* Pool: las palabras de la frase correcta, barajadas */
-    st.pool = [...p.words]
+    /* Pool: las palabras de la frase correcta, barajadas — y, en
+       niveles altos, algunas palabras señuelo de otras frases que no
+       pertenecen a esta oración, para obligar a pensar mejor el orden. */
+    let decoys = [];
+    if (st.decoyCount > 0) {
+      const bank = st.phrases.flatMap((ph, i) => i === st.idx ? [] : ph.words);
+      const candidates = [...new Set(bank)].filter(w => !p.words.includes(w));
+      decoys = candidates.sort(() => Math.random() - 0.5).slice(0, st.decoyCount);
+    }
+    st.pool = [...p.words, ...decoys]
       .sort(()=>Math.random()-.5)
       .map(w => ({word:w, used:false}));
 
@@ -97,6 +121,16 @@ const PhraseBuilder = (() => {
   /* ── Pista ───────────────────────────────────────────── */
   function toggleHint() {
     if (st.answered) return;
+    /* Antes las pistas eran ilimitadas siempre. Ahora Medio tiene un
+       puñado, Profesional casi ninguna y Legendario ninguna — así la
+       dificultad se nota jugando, no solo en la cantidad de frases. */
+    if (!st.hintShown) {
+      if (st.hintsLeft <= 0) {
+        GamesCore.toast(st.hintsMax === 0 ? '🚫 Este nivel no permite pistas.' : '🚫 Ya usaste todas tus pistas.');
+        return;
+      }
+      st.hintsLeft--;
+    }
     st.hintShown = !st.hintShown;
     const p = st.phrases[st.idx];
     if (st.hintShown) {
@@ -104,7 +138,7 @@ const PhraseBuilder = (() => {
       _set('pbHintLabel', '💡 TOCA PARA OCULTAR');
     } else {
       _set('pbTarget', 'Ordena las palabras para formar la frase correcta.');
-      _set('pbHintLabel', '💡 TOCA PARA VER UNA PISTA');
+      _set('pbHintLabel', st.hintsMax === Infinity ? '💡 TOCA PARA VER UNA PISTA' : st.hintsMax === 0 ? '🚫 SIN PISTAS EN ESTE NIVEL' : `💡 PISTA (${st.hintsLeft} disponibles)`);
     }
   }
 

@@ -33,6 +33,7 @@ const ListeningProbe = (() => {
       idx:0, score:0, correct:0,
       streak:0, maxStreak:0,
       played:false, answered:false,
+      maxPlays: Infinity, rate: 0.9, playsUsed: 0,
     };
   }
 
@@ -79,8 +80,15 @@ const ListeningProbe = (() => {
     const diff = ({beginner:0,medium:1,pro:2,legendary:3}[GameSession.difficulty] || 0);
     st.questions = [...pool]
       .sort(() => Math.random() - 0.5)
-      .slice(0, Math.min(4 + diff * 2, pool.length))
+      .slice(0, Math.min(4 + diff * 3, pool.length))
       .map(_toListening);
+    /* Antes la dificultad solo cambiaba cuántas preguntas había. Ahora
+       también limita cuántas veces puedes repetir el audio y acelera
+       la voz — así "Legendario" exige escuchar con mucha más atención
+       que "Profesional", que a su vez es notoriamente más exigente que
+       "Medio". */
+    st.maxPlays = [Infinity, 3, 2, 1][diff];
+    st.rate = [0.82, 0.9, 1.0, 1.15][diff];
 
     GamesCore.showScreen('screen-listening');
     _buildViz();
@@ -127,7 +135,7 @@ const ListeningProbe = (() => {
   function _load() {
     if (st.idx >= st.questions.length) { _finish(); return; }
     const q=st.questions[st.idx];
-    st.played=false; st.answered=false;
+    st.played=false; st.answered=false; st.playsUsed=0;
 
     _set('lpProgressTxt', `${st.idx+1} / ${st.questions.length}`);
     _set('lpScore',   st.score);
@@ -138,7 +146,7 @@ const ListeningProbe = (() => {
     const pb=_el('lpPlayBtn');
     if (pb) { pb.disabled=false; }
     _set('lpPlayIcon',  '▶');
-    _set('lpPlayLabel', 'REPRODUCIR AUDIO');
+    _set('lpPlayLabel', st.maxPlays===Infinity ? 'REPRODUCIR AUDIO' : `REPRODUCIR AUDIO (${st.maxPlays}x)`);
     _set('lpQuestion',  q.question);
 
     _vizStop();
@@ -159,6 +167,11 @@ const ListeningProbe = (() => {
   /* ── Reproducir audio (pública para onclick del HTML) ── */
   function play() {
     const q=st.questions[st.idx]; if (!q) return;
+    if (st.playsUsed >= st.maxPlays) {
+      GamesCore.toast('🚫 Sin repeticiones restantes en este nivel de dificultad.', 2200);
+      return;
+    }
+    st.playsUsed++;
     const pb=_el('lpPlayBtn'); if (pb) pb.disabled=true;
     _vizStart();
     _set('lpPlayIcon','⏸');
@@ -167,12 +180,12 @@ const ListeningProbe = (() => {
     const rvVoice = RV_VOICES[st.langTag];
     if (window.responsiveVoice && responsiveVoice.voiceSupport() && rvVoice) {
       responsiveVoice.cancel();
-      responsiveVoice.speak(q.audio, rvVoice, { rate:0.9, onend:_audioEnd, onerror:_audioEnd });
+      responsiveVoice.speak(q.audio, rvVoice, { rate:st.rate, onend:_audioEnd, onerror:_audioEnd });
       st.played=true;
     } else if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       const utt=new SpeechSynthesisUtterance(q.audio);
-      utt.lang=st.langTag; utt.rate=0.88; utt.pitch=1; utt.volume=1;
+      utt.lang=st.langTag; utt.rate=st.rate; utt.pitch=1; utt.volume=1;
 
       /* Usar voz nativa si existe para este idioma */
       const voices=window.speechSynthesis.getVoices();
@@ -194,9 +207,11 @@ const ListeningProbe = (() => {
 
   function _audioEnd() {
     _vizStop();
-    const pb=_el('lpPlayBtn'); if (pb) pb.disabled=false;
+    const pb=_el('lpPlayBtn');
+    const playsLeft = st.maxPlays===Infinity ? Infinity : st.maxPlays - st.playsUsed;
+    if (pb) pb.disabled = playsLeft <= 0;
     _set('lpPlayIcon','↺');
-    _set('lpPlayLabel','ESCUCHAR DE NUEVO');
+    _set('lpPlayLabel', playsLeft<=0 ? 'SIN REPETICIONES' : (st.maxPlays===Infinity ? 'ESCUCHAR DE NUEVO' : `ESCUCHAR DE NUEVO (${playsLeft}x)`));
   }
 
   /* ── Seleccionar respuesta (pública para onclick) ─────── */

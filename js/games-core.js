@@ -73,6 +73,19 @@ const GameSession = {
   },
 };
 
+/* ── Dificultad ─────────────────────────────────────────
+   Antes la dificultad elegida solo se veía en la pantalla previa
+   de selección; una vez dentro del juego desaparecía por completo
+   y era fácil olvidar en qué nivel se estaba jugando. Ahora se
+   pinta una insignia visible (icono + color + nombre) en la barra
+   superior de cada juego mientras se juega. */
+const DIFF_META = {
+  beginner:  { icon:'🌱', label:'Principiante' },
+  medium:    { icon:'⚡', label:'Medio' },
+  pro:       { icon:'🔥', label:'Profesional' },
+  legendary: { icon:'👑', label:'Legendario' },
+};
+
 const GAME_STORE = [
   {id:'skin-neon',kind:'skin',icon:'🌌',name:'Casco neón',desc:'Brillo azul para tu nave.',price:80},
   {id:'skin-flame',kind:'skin',icon:'🔥',name:'Motor ígneo',desc:'Estela naranja de combate.',price:140},
@@ -141,7 +154,6 @@ const GamesCore = {
   showScreen(id) {
     /* Pausar juego activo si se abandona */
     if (GameSession.currentGame === 'invaders') Invaders.pause();
-    if (GameSession.currentGame === 'wordblaster') WordBlaster.stop();
 
     document.querySelectorAll('.g-screen').forEach(s => s.classList.remove('active'));
     const target = _el(id);
@@ -150,6 +162,9 @@ const GamesCore = {
       const ms = _el('menuScroll');
       if (ms) ms.scrollTop = 0;
     }
+    this._paintDifficultyBadges();
+    const themeOverlay = _el('chessThemeOverlay');
+    if (themeOverlay) themeOverlay.remove();
 
     /* La barra inferior (Inicio/Situaciones/Juegos/Chats/Perfil) se
        mantiene visible en el menú de juegos, igual que en index.html.
@@ -175,7 +190,7 @@ const GamesCore = {
   },
 
   chooseDifficulty(game) {
-    const names = { invaders:'Invasión Galáctica', wordblaster:'Word Blaster', phrasebuilder:'Phrase Builder', listening:'Listening Probe', hangman:'Ahorcado', wordsearch:'Buscador de palabras', sudoku:'Sudoku', solitaire:'Solitario', kakuro:'Cross Sums', chess:'Ajedrez' };
+    const names = { invaders:'Invasión Galáctica', phrasebuilder:'Phrase Builder', listening:'Listening Probe', hangman:'Ahorcado', wordsearch:'Buscador de palabras', sudoku:'Sudoku', solitaire:'Solitario', kakuro:'Cross Sums', chess:'Ajedrez' };
     const options = [
       ['beginner','🌱','Principiante','Más tiempo, pistas y una entrada amable.'],
       ['medium','⚡','Medio','El equilibrio ideal entre ayuda y reto.'],
@@ -191,7 +206,7 @@ const GamesCore = {
     GameSession.difficulty = difficulty;
     if (game === 'invaders') return this.showCharSelect();
     if (game === 'chess') return ClassicGames.chooseChessMode();
-    const starters = { wordblaster:()=>WordBlaster.start(), phrasebuilder:()=>PhraseBuilder.start(), listening:()=>ListeningProbe.start(), hangman:()=>ClassicGames.start('hangman'), wordsearch:()=>ClassicGames.start('wordsearch'), sudoku:()=>ClassicGames.start('sudoku'), solitaire:()=>ClassicGames.start('solitaire'), kakuro:()=>ClassicGames.start('kakuro') };
+    const starters = { phrasebuilder:()=>PhraseBuilder.start(), listening:()=>ListeningProbe.start(), hangman:()=>ClassicGames.start('hangman'), wordsearch:()=>ClassicGames.start('wordsearch'), sudoku:()=>ClassicGames.start('sudoku'), solitaire:()=>ClassicGames.start('solitaire'), kakuro:()=>ClassicGames.start('kakuro') };
     starters[game]?.();
   },
 
@@ -311,7 +326,6 @@ const GamesCore = {
 
     const retryMap = {
       invaders:     () => GamesCore.showCharSelect(),
-      wordblaster:  () => WordBlaster.start(),
       phrasebuilder:() => PhraseBuilder.start(),
       listening:    () => ListeningProbe.start(),
       classic:      () => (typeof ClassicGames !== 'undefined' && ClassicGames.replay()),
@@ -346,6 +360,16 @@ const GamesCore = {
         <div class="g-empty-state__sub">${sub}</div>
         <button class="g-empty-state__btn" onclick="GamesCore.showScreen('screen-menu')">← Volver al menú</button>
       </div>`;
+  },
+
+  /* ── Insignia de dificultad ── */
+  _paintDifficultyBadges() {
+    const d = (typeof GameSession !== 'undefined' && GameSession.difficulty) || 'beginner';
+    const meta = DIFF_META[d] || DIFF_META.beginner;
+    document.querySelectorAll('.g-diff-badge').forEach(el => {
+      el.className = `g-diff-badge g-diff-badge--${d}`;
+      el.textContent = `${meta.icon} ${meta.label}`;
+    });
   },
 
   /* ── Toast ── */

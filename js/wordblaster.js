@@ -53,7 +53,7 @@ const WordBlaster = (() => {
     }
 
     const diff = ({beginner:0,medium:1,pro:2,legendary:3}[GameSession.difficulty] || 0);
-    st.questions = [...pool].sort(() => Math.random() - 0.5).slice(0, Math.min(8 + diff * 3, pool.length));
+    st.questions = [...pool].sort(() => Math.random() - 0.5).slice(0, Math.min(8 + diff * 4, pool.length));
     GamesCore.showScreen('screen-wordblaster');
     _renderDots();
     _load();
@@ -114,9 +114,13 @@ const WordBlaster = (() => {
       `).join('');
     }
 
-    /* Timer */
+    /* Antes solo restaba 2s por nivel (apenas se notaba); ahora el
+       tiempo cae con fuerza: Legendario deja bastante menos margen
+       que Profesional, que a su vez es notoriamente más ajustado que
+       Medio. */
     const diff = ({beginner:0,medium:1,pro:2,legendary:3}[GameSession.difficulty] || 0);
-    _startTimer(Math.max(5, TIMES[Math.min(st.idx, TIMES.length-1)] - diff * 2));
+    const penalty = [0,3,6,10][diff];
+    _startTimer(Math.max(4, TIMES[Math.min(st.idx, TIMES.length-1)] - penalty));
   }
 
   /* ── Timer ───────────────────────────────────────────── */

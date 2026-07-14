@@ -42,29 +42,9 @@
         <div class="g-section-dot"></div>Combate espacial
       </div>
 
-      <!-- Card Space Invaders (featured) -->
-      <div class="g-card-featured" onclick="GamesCore.chooseDifficulty('invaders')">
-        <div class="g-card-featured__bar"></div>
-        <div class="g-cf-inner">
-          <div class="g-cf-icon-col">
-            <div class="g-cf-icon">🚀</div>
-            <div class="g-cf-levels">
-              <div class="g-cfl on"></div><div class="g-cfl on"></div>
-              <div class="g-cfl on"></div><div class="g-cfl"></div><div class="g-cfl"></div>
-            </div>
-          </div>
-          <div class="g-cf-body">
-            <div class="g-cf-badge"><span class="g-cf-dot"></span>Acción · 10 niveles</div>
-            <div class="g-cf-name">Invasión Galáctica</div>
-            <div class="g-cf-desc">Defiende la galaxia a bordo de tu nave personalizada. Cada nivel trae más invasores y más caos.</div>
-            <div class="g-cf-ships">
-              <span class="g-cf-ships-label">Naves:</span>
-              <span class="g-cf-chip">Drakón</span>
-              <span class="g-cf-chip">Zorrek</span>
-              <span class="g-cf-chip">Merlingo</span>
-              <span class="g-cf-chip g-cf-chip--more">+7 →</span>
-            </div>
-          </div>
+      <div class="g-edu-list">
+        <div class="g-edu-card g-edu-card--wide" style="--cc:#4d5bf5" onclick="GamesCore.chooseDifficulty('invaders')">
+          <div class="g-edu-card__bar"></div><div class="g-edu-icon">🚀</div><div class="g-edu-body"><div class="g-edu-tag">Acción · 10 niveles</div><div class="g-edu-name">Invasión Galáctica</div><div class="g-edu-desc">Defiende la galaxia a bordo de tu nave personalizada. Cada nivel trae más invasores y más caos.</div><div class="g-edu-meta"><span class="g-edu-chip">10 naves</span><span class="g-edu-chip">IA adaptativa</span></div></div><div class="g-edu-arrow">›</div>
         </div>
       </div>
 
@@ -79,24 +59,8 @@
           <div class="g-edu-card__bar"></div><div class="g-edu-icon">🎯</div><div class="g-edu-body"><div class="g-edu-tag">Vocabulario · Letras</div><div class="g-edu-name">Ahorcado</div><div class="g-edu-desc">Descubre palabras reales de tus lecciones antes de quedarte sin intentos.</div><div class="g-edu-meta"><span class="g-edu-chip">Idioma actual</span><span class="g-edu-chip">6 intentos</span></div></div><div class="g-edu-arrow">›</div>
         </div>
 
-        <div class="g-edu-card" style="--cc:var(--sky)" onclick="GamesCore.chooseDifficulty('wordsearch')">
+        <div class="g-edu-card" style="--cc:var(--gold)" onclick="GamesCore.chooseDifficulty('wordsearch')">
           <div class="g-edu-card__bar"></div><div class="g-edu-icon">🔎</div><div class="g-edu-body"><div class="g-edu-tag">Vocabulario · Exploración</div><div class="g-edu-name">Buscador de palabras</div><div class="g-edu-desc">Encuentra en la cuadrícula palabras tomadas de tus lecciones.</div><div class="g-edu-meta"><span class="g-edu-chip">Cuadrícula 10×10</span><span class="g-edu-chip">Táctil</span></div></div><div class="g-edu-arrow">›</div>
-        </div>
-
-        <div class="g-edu-card" style="--cc:var(--gold)" onclick="GamesCore.chooseDifficulty('wordblaster')">
-          <div class="g-edu-card__bar"></div>
-          <div class="g-edu-icon">⚡</div>
-          <div class="g-edu-body">
-            <div class="g-edu-tag">Vocabulario · Velocidad</div>
-            <div class="g-edu-name">Word Blaster</div>
-            <div class="g-edu-desc">Repasa a contrarreloj lo que ya aprendiste en tus lecciones. Las rachas multiplican tu XP.</div>
-            <div class="g-edu-meta">
-              <span class="g-edu-chip">Hasta 15 rondas</span>
-              <span class="g-edu-chip">Contrarreloj</span>
-              <div class="g-diff"><div class="g-diff-dot on"></div><div class="g-diff-dot on"></div><div class="g-diff-dot"></div></div>
-            </div>
-          </div>
-          <div class="g-edu-arrow">›</div>
         </div>
 
         <div class="g-edu-card" style="--cc:var(--mint)" onclick="GamesCore.chooseDifficulty('phrasebuilder')">
@@ -242,40 +206,6 @@
   </div>
 
 
-  <!-- ═══════════ WORD BLASTER ═══════════ -->
-  <div id="screen-wordblaster" class="g-screen">
-    <div class="g-game-topbar">
-      <button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button>
-      <div class="g-game-info">
-        <div class="g-game-title">⚡ Word Blaster</div>
-        <div class="g-game-sub" id="wbProgressTxt">1 / 15</div>
-      </div>
-      <div class="g-game-score">
-        <div class="g-game-score__val" id="wbScore">0</div>
-        <div class="g-game-score__lbl">PTS</div>
-      </div>
-    </div>
-    <div class="g-wb-timer"><div class="g-wb-timer__fill" id="wbTimerFill"></div></div>
-    <div class="g-screen-scroll">
-      <div class="g-wb-meta">
-        <div class="g-wb-streak">
-          <span class="g-wb-streak__fire">🔥</span>
-          <div class="g-wb-streak__val" id="wbStreak">0</div>
-          <div class="g-wb-streak__lbl">RACHA</div>
-        </div>
-        <div class="g-wb-dots" id="wbDots"></div>
-      </div>
-      <div class="g-wb-card">
-        <div class="g-wb-card__label" id="wbCardLabel">RESPONDE RÁPIDO</div>
-        <div class="g-wb-card__word" id="wbWord">—</div>
-        <div class="g-wb-card__hint" id="wbHint"></div>
-      </div>
-      <div class="g-wb-opts" id="wbOptions"></div>
-      <div class="g-wb-bonus" id="wbBonusInfo"></div>
-    </div>
-  </div>
-
-
   <!-- ═══════════ PHRASE BUILDER ═══════════ -->
   <div id="screen-phrasebuilder" class="g-screen">
     <div class="g-game-topbar">
@@ -283,6 +213,7 @@
       <div class="g-game-info">
         <div class="g-game-title">🧩 Phrase Builder</div>
         <div class="g-game-sub" id="pbProgressTxt">1 / 10</div>
+        <span class="g-diff-badge"></span>
       </div>
       <div class="g-game-score">
         <div class="g-game-score__val" id="pbScore">0</div>
@@ -318,6 +249,7 @@
       <div class="g-game-info">
         <div class="g-game-title">🎧 Listening Probe</div>
         <div class="g-game-sub" id="lpProgressTxt">1 / 8</div>
+        <span class="g-diff-badge"></span>
       </div>
       <div class="g-game-score">
         <div class="g-game-score__val" id="lpScore">0</div>
@@ -345,7 +277,7 @@
   </div>
 
   <div id="screen-classic" class="g-screen">
-    <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title" id="classicTitle">Juego</div><div class="g-game-sub" id="classicSub">Pon a prueba tu mente</div></div><div class="g-game-score"><div class="g-game-score__val" id="classicScore">0</div><div class="g-game-score__lbl">PTS</div></div></div>
+    <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.confirmBack('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title" id="classicTitle">Juego</div><div class="g-game-sub" id="classicSub">Pon a prueba tu mente</div><span class="g-diff-badge"></span></div><button class="g-chess-theme-btn" id="classicThemeBtn" style="display:none" onclick="ClassicGames.openThemePicker()" title="Cambiar diseño del tablero">🎨</button><div class="g-game-score"><div class="g-game-score__val" id="classicScore">0</div><div class="g-game-score__lbl">PTS</div></div></div>
     <div class="g-screen-scroll"><div id="classicGame" class="g-classic-wrap"></div></div>
   </div>
 
@@ -397,7 +329,6 @@
 
 <script src="js/games-core.js"></script>
 <script src="js/invaders.js"></script>
-<script src="js/wordblaster.js"></script>
 <script src="js/phrasebuilder.js"></script>
 <script src="js/listening.js"></script>
 <script src="js/classic-games.js"></script>

@@ -145,7 +145,7 @@ const Invaders = (() => {
 
   /* ── Nivel ─────────────────────────────────────────────── */
   function _initLevel() {
-    const cfg = LVL[Math.min(st.level-1, LVL.length-1)], diffMult=[.72,1,1.28,1.65][st.diff]||1;
+    const cfg = LVL[Math.min(st.level-1, LVL.length-1)], diffMult=[.68,1,1.35,1.85][st.diff]||1;
     bullets=[]; explosions=[]; particles=[];
     enemies=[];
     enemyDir=1; moveTimer=0;
@@ -182,10 +182,12 @@ const Invaders = (() => {
 
   /* ── Update ─────────────────────────────────────────────── */
   function _update(dt) {
-    const cfg = LVL[Math.min(st.level-1, LVL.length-1)], diffMult=[.72,1,1.28,1.65][st.diff]||1;
+    const cfg = LVL[Math.min(st.level-1, LVL.length-1)], diffMult=[.68,1,1.35,1.85][st.diff]||1;
 
     /* Player */
-    const ps = player.spd * cfg.spd * (st.diff>=2?.48:.62) * dt;
+    /* Antes solo había 2 velocidades (beginner=medium, pro=legendary).
+       Ahora las 4 dificultades son distintas entre sí. */
+    const ps = player.spd * cfg.spd * [.70,.62,.54,.44][st.diff] * dt;
     if (keys.left)  player.x = Math.max(0, player.x - ps);
     if (keys.right) player.x = Math.min(canvas.width - player.w, player.x + ps);
 
@@ -196,7 +198,7 @@ const Invaders = (() => {
     fireTimer -= dt;
     if (keys.fire && fireTimer <= 0) {
       bullets.push({ x:player.x+player.w/2-2, y:player.y-4, w:4, h:16, vy:-14, player:true });
-      fireTimer = [4,6,8,10][st.diff] || 6;
+      fireTimer = [3,6,10,15][st.diff] || 6;
     }
 
     /* Mover balas */
@@ -495,7 +497,7 @@ const Invaders = (() => {
     GameSession.currentGame='invaders';
     st.running=false; st.paused=true;
     const diff = ({beginner:0,medium:1,pro:2,legendary:3}[GameSession.difficulty] || 0);
-    st.level=1; st.score=0; st.lives=Math.max(1, 5-diff); st.diff=diff;
+    st.level=1; st.score=0; st.lives=[5,4,3,1][diff]; st.diff=diff;
     try { st.hiScore=+localStorage.getItem('dkInvHi')||0; } catch(_){}
     _loadShipVideo(GameSession.selectedChar);
 
@@ -506,7 +508,7 @@ const Invaders = (() => {
     _showOverlay({
       title:   'INVASIÓN GALÁCTICA',
       badge:   `NIVEL 1 — ${LEVEL_NAMES[0]}`,
-      sub:     `Piloto: ${GameSession.selectedChar.name}\nPrepara tus cañones.`,
+      sub:     `Piloto: ${GameSession.selectedChar.name}\nDificultad: ${(DIFF_META[GameSession.difficulty]||DIFF_META.beginner).icon} ${(DIFF_META[GameSession.difficulty]||DIFF_META.beginner).label}\nPrepara tus cañones.`,
       mainTxt: '▶ COMENZAR',    mainFn: resume,
       secTxt:  '← CAMBIAR NAVE', secFn: ()=>GamesCore.showScreen('screen-char-select'),
     });
