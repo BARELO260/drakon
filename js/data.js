@@ -13,12 +13,8 @@ const LANGS = [
   {flag:'🇪🇸',name:'Español',   native:'Español',    code:'ES',lang:'es-ES'},
   {flag:'🇫🇷',name:'Francés',   native:'Français',   code:'FR',lang:'fr-FR'},
   {flag:'🇩🇪',name:'Alemán',    native:'Deutsch',    code:'DE',lang:'de-DE'},
-  {flag:'🇯🇵',name:'Japonés',   native:'日本語',      code:'JP',lang:'ja-JP'},
-  {flag:'🇨🇳',name:'Chino',     native:'普通话',      code:'ZH',lang:'zh-CN'},
-  {flag:'🇰🇷',name:'Coreano',   native:'한국어',      code:'KO',lang:'ko-KR'},
   {flag:'🇮🇹',name:'Italiano',  native:'Italiano',   code:'IT',lang:'it-IT'},
   {flag:'🇧🇷',name:'Portugués', native:'Português',  code:'PT',lang:'pt-BR'},
-  {flag:'🇷🇺',name:'Ruso',      native:'Русский',    code:'RU',lang:'ru-RU'},
 ];
 
 const CHARS = [
