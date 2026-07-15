@@ -14,10 +14,6 @@ const NATIVE_LANGS = [
   {code:'fr', flag:'🇫🇷', uiName:'French',    selfName:'Français',   title:'Quelle est votre langue ?',     sub:'Choisissez votre langue natale', btn:'Continuer →'},
   {code:'de', flag:'🇩🇪', uiName:'German',    selfName:'Deutsch',    title:'Was ist deine Sprache?',        sub:'Wähle deine Muttersprache', btn:'Weiter →'},
   {code:'it', flag:'🇮🇹', uiName:'Italian',   selfName:'Italiano',   title:'Qual è la tua lingua?',         sub:'Scegli la lingua che parli nativamente', btn:'Continua →'},
-  {code:'zh', flag:'🇨🇳', uiName:'Chinese',   selfName:'中文',        title:'你的语言是什么？',                    sub:'选择你的母语', btn:'继续 →'},
-  {code:'ja', flag:'🇯🇵', uiName:'Japanese',  selfName:'日本語',      title:'あなたの言語は？',                  sub:'母語を選んでください', btn:'続ける →'},
-  {code:'ko', flag:'🇰🇷', uiName:'Korean',    selfName:'한국어',      title:'당신의 언어는 무엇입니까?',            sub:'모국어를 선택하세요', btn:'계속 →'},
-  {code:'ru', flag:'🇷🇺', uiName:'Russian',   selfName:'Русский',    title:'Какой ваш язык?',               sub:'Выберите ваш родной язык', btn:'Продолжить →'},
   {code:'ar', flag:'🇸🇦', uiName:'Arabic',    selfName:'العربية',    title:'ما هي لغتك؟',                   sub:'اختر لغتك الأم', btn:'متابعة →'},
   {code:'tr', flag:'🇹🇷', uiName:'Turkish',   selfName:'Türkçe',     title:'Diliniz nedir?',                sub:'Ana dilinizi seçin', btn:'Devam Et →'},
   {code:'nl', flag:'🇳🇱', uiName:'Dutch',     selfName:'Nederlands', title:'Wat is uw taal?',               sub:'Kies de taal die je moedertaal is', btn:'Doorgaan →'},
@@ -32,10 +28,6 @@ const UI_STRINGS = {
   fr: { learnQ:'Quelle langue voulez-vous apprendre ?', learnSub:'Choisissez votre aventure linguistique 🌍', start:'Commencer maintenant ! 🚀', companion:'Choisissez votre compagnon', levelQ:'Quel est votre niveau ?', levelSub:'5 questions pour personnaliser votre parcours 🐲' },
   de: { learnQ:'Welche Sprache möchtest du lernen?', learnSub:'Wähle dein sprachliches Abenteuer 🌍', start:'Jetzt starten! 🚀', companion:'Wähle deinen Begleiter', levelQ:'Was ist dein Niveau?', levelSub:'5 Fragen, um deinen Weg zu personalisieren 🐲' },
   it: { learnQ:'Quale lingua vuoi imparare?', learnSub:'Scegli la tua avventura linguistica 🌍', start:'Inizia ora! 🚀', companion:'Scegli il tuo compagno', levelQ:'Qual è il tuo livello?', levelSub:'5 domande per personalizzare il tuo percorso 🐲' },
-  zh: { learnQ:'你想学哪种语言？', learnSub:'选择你的语言冒险 🌍', start:'现在开始！🚀', companion:'选择你的伙伴', levelQ:'你的水平如何？', levelSub:'5个问题来个性化你的旅程 🐲' },
-  ja: { learnQ:'どの言語を学びたいですか？', learnSub:'あなたの言語の冒険を選んでください 🌍', start:'今すぐ始める！🚀', companion:'コンパニオンを選ぶ', levelQ:'あなたのレベルは？', levelSub:'あなたの旅をカスタマイズする5つの質問 🐲' },
-  ko: { learnQ:'어떤 언어를 배우고 싶으세요?', learnSub:'언어 모험을 선택하세요 🌍', start:'지금 시작! 🚀', companion:'동반자 선택', levelQ:'당신의 수준은?', levelSub:'여정을 맞춤화하는 5가지 질문 🐲' },
-  ru: { learnQ:'Какой язык хочешь выучить?', learnSub:'Выбери своё языковое приключение 🌍', start:'Начать сейчас! 🚀', companion:'Выбери своего компаньона', levelQ:'Каков твой уровень?', levelSub:'5 вопросов для персонализации твоего пути 🐲' },
   ar: { learnQ:'ما اللغة التي تريد تعلمها؟', learnSub:'اختر مغامرتك اللغوية 🌍', start:'ابدأ الآن! 🚀', companion:'اختر رفيقك', levelQ:'ما هو مستواك؟', levelSub:'٥ أسئلة لتخصيص رحلتك 🐲' },
   tr: { learnQ:'Hangi dili öğrenmek istiyorsunuz?', learnSub:'Dil maceranızı seçin 🌍', start:'Şimdi başla! 🚀', companion:'Arkadaşını seç', levelQ:'Seviyeniz nedir?', levelSub:'Yolculuğunuzu kişiselleştirmek için 5 soru 🐲' },
   nl: { learnQ:'Welke taal wil je leren?', learnSub:'Kies jouw taalavontuur 🌍', start:'Nu beginnen! 🚀', companion:'Kies je metgezel', levelQ:'Wat is jouw niveau?', levelSub:'5 vragen om jouw reis te personaliseren 🐲' },
@@ -97,7 +89,7 @@ function applyNativeLanguageUI(){
   // Update search placeholder
   const srch = document.getElementById('langSearch');
   if(srch){
-    const placeholders = {es:'Buscar idioma...',en:'Search language...',pt:'Buscar idioma...',fr:'Rechercher une langue...',de:'Sprache suchen...',it:'Cerca lingua...',zh:'搜索语言...',ja:'言語を検索...',ko:'언어 검색...',ru:'Поиск языка...',ar:'البحث عن لغة...',tr:'Dil ara...',nl:'Taal zoeken...',pl:'Szukaj języka...'};
+    const placeholders = {es:'Buscar idioma...',en:'Search language...',pt:'Buscar idioma...',fr:'Rechercher une langue...',de:'Sprache suchen...',it:'Cerca lingua...',ar:'البحث عن لغة...',tr:'Dil ara...',nl:'Taal zoeken...',pl:'Szukaj języka...'};
     srch.placeholder = placeholders[state.nativeLang] || placeholders.en;
   }
 }
