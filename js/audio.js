@@ -490,12 +490,8 @@ const TARGET_RV_VOICES = {
   'es-MX': 'Spanish Latin American Female',
   'fr-FR': 'French Female',
   'de-DE': 'Deutsch Female',
-  'ja-JP': 'Japanese Female',
-  'zh-CN': 'Chinese Female',
-  'ko-KR': 'Korean Female',
   'it-IT': 'Italian Female',
   'pt-BR': 'Brazilian Portuguese Female',
-  'ru-RU': 'Russian Female',
 };
 
 // Translate text to the target language using Groq, then speak it
@@ -535,7 +531,7 @@ async function translateAndSpeak(cleanText){
 
 function speak(text, langCode){
   const targetLang = langCode || state.lang?.lang || 'en-US';
-  const bcp47Map   = {'en-US':'en-US','en-GB':'en-GB','es-ES':'es-ES','es-MX':'es-MX','fr-FR':'fr-FR','de-DE':'de-DE','ja-JP':'ja-JP','zh-CN':'zh-CN','ko-KR':'ko-KR','it-IT':'it-IT','pt-BR':'pt-BR','ru-RU':'ru-RU'};
+  const bcp47Map   = {'en-US':'en-US','en-GB':'en-GB','es-ES':'es-ES','es-MX':'es-MX','fr-FR':'fr-FR','de-DE':'de-DE','it-IT':'it-IT','pt-BR':'pt-BR'};
 
   // Obtener personalidad de voz del personaje actual
   const cv = CHAR_VOICE[state.charId] || { gender:'F', rate:0.9, pitch:1, volume:1 };
@@ -609,7 +605,6 @@ function toggleTTS(){
         'es-ES': '¡Levántate, guerrero! El fuego del idioma te espera. ¡Forjemos tu poder!',
         'fr-FR': 'Lève-toi, guerrier! Le feu du langage t\'attend. Forgeons ta puissance!',
         'de-DE': 'Steh auf, Krieger! Das Feuer der Sprache wartet auf dich. Lass uns deine Kraft schmieden!',
-        'ja-JP': '立ち上がれ、戦士よ！言語の炎があなたを待っている。',
         'default': 'Rise, warrior! The fire of language awaits you!'
       },
       wizard: {
@@ -617,7 +612,6 @@ function toggleTTS(){
         'es-ES': 'Paciencia, joven aprendiz... pues la sabiduría no se apresura. Comencemos.',
         'fr-FR': 'Patience, jeune apprenti... car la sagesse ne se presse point. Commençons.',
         'de-DE': 'Geduld, junger Lehrling... denn Weisheit lässt sich nicht hetzen. Beginnen wir.',
-        'ja-JP': '焦るな、若き弟子よ。知恵とは急ぐものではない。さあ、始めよう。',
         'default': 'Patience, young apprentice... wisdom is not rushed. Let us begin.'
       },
       fox: {
@@ -625,7 +619,6 @@ function toggleTTS(){
         'es-ES': '¡Ja! ¿Crees que puedes con el idioma? ¡Veamos si eres suficientemente rápido!',
         'fr-FR': "Ha! Tu crois pouvoir maîtriser le langage? Voyons si tu es assez rapide!",
         'de-DE': 'Ha! Du glaubst, du kannst die Sprache überlisten? Mal sehen, ob du schnell genug bist!',
-        'ja-JP': 'ははは！言語に勝てると思ってる？さあ、ついてこられるかな！',
         'default': "Ha! Think you can outsmart a language? Let's see how quick you are!"
       },
       robot: {
@@ -633,7 +626,6 @@ function toggleTTS(){
         'es-ES': 'Sistema inicializado. Protocolo de idioma activo. Iniciando secuencia de aprendizaje óptima.',
         'fr-FR': 'Système initialisé. Protocole linguistique actif. Début de la séquence optimale.',
         'de-DE': 'System initialisiert. Sprachprotokoll aktiv. Optimale Lernsequenz beginnt.',
-        'ja-JP': 'システム初期化完了。言語プロトコル起動。最適学習シーケンスを開始します。',
         'default': 'System initialized. Language protocol active. Commencing optimal learning sequence.'
       },
       alien: {
@@ -641,7 +633,6 @@ function toggleTTS(){
         'es-ES': '¡Saludos, unidad de carbono! ¡Tus patrones lingüísticos son... fascinantes! ¡Empecemos!',
         'fr-FR': 'Salutations, unité carbonée! Vos structures langagières sont... fascinantes! Commençons!',
         'de-DE': 'Grüße, Kohlenstoffeinheit! Deine Sprachmuster sind... faszinierend! Beginnen wir!',
-        'ja-JP': 'こんにちは、炭素ベースの生命体！あなたの言語パターンは実に興味深い！',
         'default': 'Greetings, carbon unit! Your language patterns are fascinating. Let us begin!'
       },
       phoenix: {
@@ -649,7 +640,6 @@ function toggleTTS(){
         'es-ES': 'Cada palabra es un nuevo comienzo. ¡Resurge de tus errores y vuela conmigo!',
         'fr-FR': 'Chaque mot est un nouveau départ. Renais de tes erreurs et envole-toi avec moi!',
         'de-DE': 'Jedes Wort ist ein neuer Anfang. Erhebe dich aus deinen Fehlern und flieg mit mir!',
-        'ja-JP': '一つ一つの言葉が新しい始まりです。間違いから立ち上がり、共に羽ばたきましょう！',
         'default': 'Every word is a new beginning. Rise from your mistakes and soar!'
       },
       ninja: {
@@ -657,7 +647,6 @@ function toggleTTS(){
         'es-ES': 'Concéntrate. Respira. Un idioma se domina paso a paso. Comienza.',
         'fr-FR': 'Concentre-toi. Respire. Une langue se maîtrise pas à pas. Commence.',
         'de-DE': 'Fokus. Atme. Eine Sprache wird Schritt für Schritt gemeistert. Beginne.',
-        'ja-JP': '集中しろ。呼吸しろ。言語は一歩一歩習得するものだ。始めよ。',
         'default': 'Focus. Breathe. A language is mastered one step at a time. Begin.'
       },
       panda: {
@@ -665,7 +654,6 @@ function toggleTTS(){
         'es-ES': 'Hmm... sin prisa. Aprendemos suavemente, como el bambú que crece al sol de la mañana.',
         'fr-FR': 'Hmm... rien ne presse. On apprend doucement, comme le bambou qui pousse au soleil.',
         'de-DE': 'Hmm... keine Eile. Wir lernen sanft, wie Bambus, der in der Morgensonne wächst.',
-        'ja-JP': 'ふむ…急がなくていいよ。竹が朝日の中でゆっくり育つように、丁寧に学ぼう。',
         'default': 'Hmmm... no rush. We learn gently, like bamboo in the morning sun.'
       },
       triton: {
@@ -673,7 +661,6 @@ function toggleTTS(){
         'es-ES': 'Por mi honor, noble estudiante, te guiaré a través del arte del idioma. ¿Comenzamos?',
         'fr-FR': "Par mon honneur, noble étudiant, je te guiderai dans l'art du langage. Commençons?",
         'de-DE': 'Bei meiner Ehre, edler Schüler, ich werde dich durch die Kunst der Sprache führen. Sollen wir beginnen?',
-        'ja-JP': '我が名誉にかけて、高貴なる学徒よ、言語の術へと導こう。始めようではないか。',
         'default': 'By my honour, noble student, I shall guide thee through the art of language!'
       },
       axonic: {
@@ -681,7 +668,6 @@ function toggleTTS(){
         'es-ES': '¡Yooo! ¡Suelta el beat, suelta las palabras — vamos! ¡El idioma es una vibra!',
         'fr-FR': "Yooo! Lâche le beat, lâche les mots — go! Le langage c'est une VIBE!",
         'de-DE': 'Yooo! Drop den Beat, drop die Wörter — los! Sprache ist eine VIBE!',
-        'ja-JP': 'いえーい！ビートを刻め、言葉を刻め！言語はバイブだ！レッツゴー！',
         'default': "Yo yo yo! Drop the beat, drop the words — let's GO! Language is a VIBE!"
       }
     };
