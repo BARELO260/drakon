@@ -18,9 +18,7 @@ const ListeningProbe = (() => {
      js/audio.js para el resto de la app) */
   const RV_VOICES = {
     'en-US':'US English Female', 'es-ES':'Spanish Female', 'fr-FR':'French Female',
-    'de-DE':'Deutsch Female', 'ja-JP':'Japanese Female', 'zh-CN':'Chinese Female',
-    'ko-KR':'Korean Female', 'it-IT':'Italian Female', 'pt-BR':'Brazilian Portuguese Female',
-    'ru-RU':'Russian Female',
+    'de-DE':'Deutsch Female', 'it-IT':'Italian Female', 'pt-BR':'Brazilian Portuguese Female',
   };
 
   /* ── Estado ─────────────────────────────────────────── */
