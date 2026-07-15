@@ -10,10 +10,6 @@ js/lessons-data/
   de.js   → window.LESSON_BANKS.DE
   it.js   → window.LESSON_BANKS.IT
   pt.js   → window.LESSON_BANKS.PT
-  ru.js   → window.LESSON_BANKS.RU
-  jp.js   → window.LESSON_BANKS.JP   (código de idioma: JP)
-  zh.js   → window.LESSON_BANKS.ZH
-  ko.js   → window.LESSON_BANKS.KO
 ```
 
 El motor (`js/lessons.js`) es **100% genérico**: no contiene contenido de
@@ -124,12 +120,8 @@ cualquier problema antes de integrarlos.
 | Alemán     | DE | 6  | Mismos 6 temas, adaptados al alemán (sein vs. haben, verbos separables). |
 | Italiano   | IT | 6  | Mismos 6 temas, adaptados al italiano (essere vs. avere). |
 | Portugués  | PT | 6  | Mismos 6 temas, adaptados al portugués (ser vs. estar). |
-| Ruso       | RU | 6  | Mismos 6 temas, adaptados al ruso (verbo "ser" implícito, género de adjetivos). |
-| Japonés    | JP | 6  | Mismos 6 temas, adaptados al japonés (partícula は, です, orden SOV). |
-| Chino      | ZH | 6  | Mismos 6 temas, adaptados al chino (verbo 是, orden de la hora en la oración). |
-| Coreano    | KO | 6  | Mismos 6 temas, adaptados al coreano (partículas 은/는, honoríficos de familia). |
 
-**Total actual: 69 lecciones / 485 ejercicios**, todas con su glosario de
+**Total actual: 45 lecciones / ejercicios correspondientes**, todas con su glosario de
 estudio (`study`) correspondiente.
 
 **Objetivo:** ~500 lecciones por idioma, progresión A1→C1 (vocabulario,
