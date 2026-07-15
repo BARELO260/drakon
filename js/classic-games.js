@@ -48,6 +48,49 @@ const ClassicGames = (() => {
   }
   function closeThemePicker(){ $('chessThemeOverlay')?.remove(); }
 
+  /* ── Reverso de cartas del solitario ──────────────────────
+     Dos diseños disponibles (assets/games/solitaire/{blue,red}card.png),
+     elegibles desde el mismo botón de "estilo" que usa el ajedrez.
+     Se guarda en localStorage para recordarse entre partidas. */
+  const CARD_BACKS = [
+    {id:'blue', label:'Azul', file:'bluecard.png'},
+    {id:'red',  label:'Rojo', file:'redcard.png'},
+  ];
+  let cardBack = 'blue';
+  try { cardBack = (typeof localStorage!=='undefined' && localStorage.getItem('drakon_card_back')) || 'blue'; } catch(e) {}
+  if (!CARD_BACKS.some(b=>b.id===cardBack)) cardBack = 'blue';
+  const cardBackSrc = () => `assets/games/solitaire/${CARD_BACKS.find(b=>b.id===cardBack).file}`;
+
+  function setCardBack(id){
+    if (!CARD_BACKS.some(b=>b.id===id)) return;
+    cardBack = id;
+    try { localStorage.setItem('drakon_card_back', id); } catch(e) {}
+    closeThemePicker();
+    if (type === 'solitaire') drawSolitaire();
+  }
+  function openCardBackPicker(){
+    if ($('chessThemeOverlay')) return;
+    const wrap = document.createElement('div');
+    wrap.id = 'chessThemeOverlay';
+    wrap.className = 'chess-theme-overlay';
+    wrap.onclick = (e) => { if (e.target === wrap) closeThemePicker(); };
+    wrap.innerHTML = `<div class="chess-theme-sheet">
+      <div class="chess-theme-sheet__title">🎴 Reverso de las cartas</div>
+      <div class="chess-theme-sheet__sub">Elige el diseño con el que quieres jugar.</div>
+      <div class="chess-theme-grid grid-2">${CARD_BACKS.map(b=>`
+        <button class="chess-theme-card ${b.id===cardBack?'active':''}" onclick="ClassicGames.setCardBack('${b.id}')">
+          <div class="chess-theme-swatch sol-back-swatch"><img src="assets/games/solitaire/${b.file}" alt=""></div>
+          <div class="chess-theme-card__label">${b.label}</div>
+          <div class="chess-theme-card__check">${b.id===cardBack?'✓ Actual':''}</div>
+        </button>`).join('')}</div>
+      <button class="chess-theme-close" onclick="ClassicGames.closeThemePicker()">Cerrar</button>
+    </div>`;
+    document.body.appendChild(wrap);
+  }
+  /* El botón de estilo en la barra superior es compartido: abre el
+     selector correspondiente según el juego activo. */
+  function openStylePicker(){ return type === 'solitaire' ? openCardBackPicker() : openThemePicker(); }
+
   const clean = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z]/g, '').toUpperCase();
   const difficulty = () => (typeof GameSession !== 'undefined' && GameSession.difficulty) || 'beginner';
   const level = () => ({beginner:0,medium:1,pro:2,legendary:3}[difficulty()] || 0);
@@ -60,7 +103,7 @@ const ClassicGames = (() => {
     host().classList.toggle('is-chess', kind === 'chess');
     const meta = {hangman:['🎯 Ahorcado','Vocabulario de tus lecciones'],wordsearch:['🔎 Buscador de palabras','Encuentra todas las palabras'],sudoku:['🔢 Sudoku','Completa cada fila, columna y bloque'],solitaire:['🃏 Solitario','Klondike · toca origen y destino'],kakuro:['➕ Cross Sums','Cada grupo suma 6 sin repetir'],chess:['♟️ Ajedrez','Partida local: blancas contra negras']}[kind];
     $('classicTitle').textContent = meta[0]; $('classicSub').textContent = meta[1]; $('classicScore').textContent = '0';
-    const themeBtn = $('classicThemeBtn'); if (themeBtn) themeBtn.style.display = kind==='chess' ? 'flex' : 'none';
+    const themeBtn = $('classicThemeBtn'); if (themeBtn) themeBtn.style.display = (kind==='chess'||kind==='solitaire') ? 'flex' : 'none';
     GamesCore.showScreen('screen-classic');
     ({hangman,wordsearch,sudoku,solitaire,kakuro,chess})[kind]();
   }
@@ -181,13 +224,13 @@ const ClassicGames = (() => {
     state={stock:deck, waste:[], tabs:Array.from({length:7},()=>[]), foundation:[[],[],[],[]],pick:null,drawCount,redealsMax,redealsUsed:0};
     for(let i=0;i<7;i++)for(let j=0;j<=i;j++){let c=state.stock.pop();c.up=j===i;state.tabs[i].push(c)}drawSolitaire();
   }
-  function card(c,loc){return `<button class="play-card ${red(c)?'red':''} ${c.up?'':'down'} ${state.pick===loc?'picked':''}" data-card="${c.s}${c.r}" onclick="ClassicGames.move('${loc}')">${c.up?c.r+c.s:'🂠'}</button>`}
+  function card(c,loc){return `<button class="play-card ${red(c)?'red':''} ${c.up?'':'down'} ${state.pick===loc?'picked':''}" data-card="${c.s}${c.r}" onclick="ClassicGames.move('${loc}')">${c.up?c.r+c.s:`<img class="card-back-img" src="${cardBackSrc()}" alt="">`}</button>`}
   /* Casillas vacías (base sin cartas / columna vaciada) — antes se
      dibujaban como texto plano ('♢' o nada) sin botón, así que nunca
      se podía tocar ahí para soltar un As o un Rey. Ahora son un botón
      real y el destino funciona. */
   function emptySlot(loc,symbol){return `<button class="play-card empty-slot ${state.pick===loc?'picked':''}" onclick="ClassicGames.move('${loc}')">${symbol}</button>`}
-  function drawSolitaire(){const redealsLeft=state.redealsMax===Infinity?'∞':Math.max(0,state.redealsMax-state.redealsUsed);host().innerHTML=`<div class="solitaire"><div class="sol-top"><button class="stock" onclick="ClassicGames.stock()">${state.stock.length?'🂠':'↻'}</button><div class="waste">${state.waste.at(-1)?card(state.waste.at(-1),'w'):''}</div>${state.foundation.map((f,i)=>`<div class="foundation">${f.at(-1)?card(f.at(-1),'f'+i):emptySlot('f'+i,'♢')}</div>`).join('')}</div><div class="tableau">${state.tabs.map((t,i)=>`<div class="pile">${t.length?t.map((c,j)=>card(c,'t'+i+'-'+j)).join(''):emptySlot('t'+i+'-0','')}</div>`).join('')}</div><p class="classic-help">Selecciona una carta y luego su destino. Las bases se construyen por palo, de As a Rey.<br><small>Robas ${state.drawCount} carta(s) a la vez · Repartos restantes: ${redealsLeft}</small></p></div>`;}
+  function drawSolitaire(){const redealsLeft=state.redealsMax===Infinity?'∞':Math.max(0,state.redealsMax-state.redealsUsed);host().innerHTML=`<div class="solitaire"><div class="sol-top"><button class="stock" onclick="ClassicGames.stock()">${state.stock.length?`<img class="card-back-img" src="${cardBackSrc()}" alt="">`:'↻'}</button><div class="waste">${state.waste.at(-1)?card(state.waste.at(-1),'w'):''}</div>${state.foundation.map((f,i)=>`<div class="foundation">${f.at(-1)?card(f.at(-1),'f'+i):emptySlot('f'+i,'♢')}</div>`).join('')}</div><div class="tableau">${state.tabs.map((t,i)=>`<div class="pile">${t.length?t.map((c,j)=>card(c,'t'+i+'-'+j)).join(''):emptySlot('t'+i+'-0','')}</div>`).join('')}</div><p class="classic-help">Selecciona una carta y luego su destino. Las bases se construyen por palo, de As a Rey.<br><small>Robas ${state.drawCount} carta(s) a la vez · Repartos restantes: ${redealsLeft}</small></p></div>`;}
   function stock(){
     const prev=captureCardRects();
     if(!state.stock.length){
@@ -309,7 +352,19 @@ const ClassicGames = (() => {
     '♙':'whitepawn.png', '♖':'whiterook.png', '♘':'whitehorse.png', '♗':'whitebishop.png', '♕':'whitequeen.png', '♔':'whiteking.png',
     '♟':'blackpawn.png', '♜':'blackrook.png', '♞':'blackhorse.png', '♝':'blackbishop.png', '♛':'blackqueen.png', '♚':'blackking.png',
   };
-  function pieceImgTag(p){ if(!p) return ''; const isWhite='♙♖♘♗♕♔'.includes(p); return `<img class="chess-piece-img ${isWhite?'cp-white':'cp-black'}" src="${PIECE_IMG_DIR}${PIECE_IMG[p]}" alt="" draggable="false">`; }
+  /* Contraparte de cada pieza, usada para "recolorear" el set completo
+     cuando el usuario elige jugar con piezas negras: en vez de voltear
+     el tablero, mostramos las imágenes del set negro donde antes había
+     blancas y viceversa, así el jugador siempre ve SUS piezas con el
+     color que eligió. */
+  const OPPOSITE_PIECE = {'♙':'♟','♖':'♜','♘':'♞','♗':'♝','♕':'♛','♔':'♚','♟':'♙','♜':'♖','♞':'♘','♝':'♗','♛':'♕','♚':'♔'};
+  function pieceImgTag(p){
+    if(!p) return '';
+    const swap = state.mode==='cpu' && state.userColor==='black';
+    const displayChar = swap ? OPPOSITE_PIECE[p] : p;
+    const isWhite = '♙♖♘♗♕♔'.includes(displayChar);
+    return `<span class="chess-piece-wrap ${isWhite?'cp-white':'cp-black'}"><img class="chess-piece-img" src="${PIECE_IMG_DIR}${PIECE_IMG[displayChar]}" alt="" draggable="false"></span>`;
+  }
 
   function drawChess(){
     const banner = state.over ? `<div class="chess-over-banner">🏁 Partida finalizada</div>` : '';
@@ -507,5 +562,5 @@ const ClassicGames = (() => {
   }
   function empty(){host().innerHTML='<div class="g-empty-state"><div class="g-empty-state__icon">🌱</div><div class="g-empty-state__title">Aún no hay vocabulario suficiente</div><button class="g-empty-state__btn" onclick="GamesCore.showScreen(\'screen-menu\')">Volver al menú</button></div>'}
   function replay(){ if(type) start(type); }
-  return {start,replay,chooseChessMode,chooseChessColor,startChess,letter,hint,cell,clearSelection,checkSudoku,stock,move,checkKakuro,chessMove,openThemePicker,closeThemePicker,setChessTheme};
+  return {start,replay,chooseChessMode,chooseChessColor,startChess,letter,hint,cell,clearSelection,checkSudoku,stock,move,checkKakuro,chessMove,openThemePicker,closeThemePicker,setChessTheme,openCardBackPicker,setCardBack,openStylePicker};
 })();
