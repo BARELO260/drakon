@@ -1,6 +1,6 @@
 /* Juegos clásicos: todos funcionan sin servicios externos. */
 const ClassicGames = (() => {
-  let type = '', score = 0, state = {}, chessMode = 'local';
+  let type = '', score = 0, state = {}, chessMode = 'local', chessColor = 'white';
   const $ = id => document.getElementById(id);
   const host = () => $('classicGame');
   const shuffle = a => [...a].sort(() => Math.random() - .5);
@@ -57,6 +57,7 @@ const ClassicGames = (() => {
   }
   function start(kind) {
     type = kind; score = 0; state = {}; GameSession.currentGame = 'classic';
+    host().classList.toggle('is-chess', kind === 'chess');
     const meta = {hangman:['🎯 Ahorcado','Vocabulario de tus lecciones'],wordsearch:['🔎 Buscador de palabras','Encuentra todas las palabras'],sudoku:['🔢 Sudoku','Completa cada fila, columna y bloque'],solitaire:['🃏 Solitario','Klondike · toca origen y destino'],kakuro:['➕ Cross Sums','Cada grupo suma 6 sin repetir'],chess:['♟️ Ajedrez','Partida local: blancas contra negras']}[kind];
     $('classicTitle').textContent = meta[0]; $('classicSub').textContent = meta[1]; $('classicScore').textContent = '0';
     const themeBtn = $('classicThemeBtn'); if (themeBtn) themeBtn.style.display = kind==='chess' ? 'flex' : 'none';
@@ -280,9 +281,20 @@ const ClassicGames = (() => {
     else GamesCore.toast(level()>=3 ? `Cada fila, columna y diagonal debe sumar ${state.target}, sin repetir ninguna cifra.` : level()>=2 ? `Cada línea debe sumar ${state.target} y las 9 cifras deben ser distintas.` : `Cada línea debe sumar ${state.target} y no repetir números.`);
   }
 
-  function chooseChessMode(){ $('difficultyGameName').textContent='¿Cómo quieres jugar?'; $('difficultyOptions').innerHTML=`<button class="difficulty-card difficulty-card--medium" onclick="ClassicGames.startChess('cpu')"><span class="difficulty-icon">🤖</span><span><b>Contra la computadora</b><small>Juegas con blancas; la IA adapta su elección al nivel.</small></span><span class="difficulty-arrow">›</span></button><button class="difficulty-card difficulty-card--beginner" onclick="ClassicGames.startChess('local')"><span class="difficulty-icon">👥</span><span><b>Dos jugadores</b><small>Turnos locales en el mismo dispositivo.</small></span><span class="difficulty-arrow">›</span></button>`; GamesCore.showScreen('screen-difficulty'); }
-  function startChess(mode){ chessMode=mode; start('chess'); }
-  function chess(){const back='♜♞♝♛♚♝♞♜'.split('');state={board:[back,['♟','♟','♟','♟','♟','♟','♟','♟'],...Array.from({length:4},()=>Array(8).fill('')),['♙','♙','♙','♙','♙','♙','♙','♙'],'♖♘♗♕♔♗♘♖'.split('')],turn:'white',pick:null,mode:chessMode,over:false,animating:false,lastMove:null};drawChess();}
+  function chooseChessMode(){ $('difficultyGameName').textContent='¿Cómo quieres jugar?'; $('difficultyOptions').innerHTML=`<button class="difficulty-card difficulty-card--medium" onclick="ClassicGames.chooseChessColor('cpu')"><span class="difficulty-icon">🤖</span><span><b>Contra la computadora</b><small>Elige con qué color jugar; la IA adapta su elección al nivel.</small></span><span class="difficulty-arrow">›</span></button><button class="difficulty-card difficulty-card--beginner" onclick="ClassicGames.startChess('local','white')"><span class="difficulty-icon">👥</span><span><b>Dos jugadores</b><small>Turnos locales en el mismo dispositivo.</small></span><span class="difficulty-arrow">›</span></button>`; GamesCore.showScreen('screen-difficulty'); }
+  function chooseChessColor(mode){
+    $('difficultyGameName').textContent='¿Con qué piezas quieres jugar?';
+    $('difficultyOptions').innerHTML=`<button class="difficulty-card difficulty-card--beginner" onclick="ClassicGames.startChess('${mode}','white')"><span class="difficulty-icon">⚪</span><span><b>Piezas blancas</b><small>Mueves tú primero.</small></span><span class="difficulty-arrow">›</span></button><button class="difficulty-card difficulty-card--medium" onclick="ClassicGames.startChess('${mode}','black')"><span class="difficulty-icon">⚫</span><span><b>Piezas negras</b><small>La IA mueve primero.</small></span><span class="difficulty-arrow">›</span></button>`;
+    GamesCore.showScreen('screen-difficulty');
+  }
+  function startChess(mode,color){ chessMode=mode; chessColor=(color==='black')?'black':'white'; start('chess'); }
+  function chess(){
+    const back='♜♞♝♛♚♝♞♜'.split('');
+    state={board:[back,['♟','♟','♟','♟','♟','♟','♟','♟'],...Array.from({length:4},()=>Array(8).fill('')),['♙','♙','♙','♙','♙','♙','♙','♙'],'♖♘♗♕♔♗♘♖'.split('')],turn:'white',pick:null,mode:chessMode,userColor:chessColor,over:false,animating:false,lastMove:null};
+    drawChess();
+    // Si el usuario eligió jugar con negras contra la IA, las blancas (IA) mueven primero.
+    if(state.mode==='cpu' && state.userColor==='black') setTimeout(computerMove,500);
+  }
 
   /* Dibuja el tablero. Si la partida ya terminó (rey capturado), se
      muestra un aviso y se deshabilita el tablero para que no se pueda
@@ -297,18 +309,18 @@ const ClassicGames = (() => {
     '♙':'whitepawn.png', '♖':'whiterook.png', '♘':'whitehorse.png', '♗':'whitebishop.png', '♕':'whitequeen.png', '♔':'whiteking.png',
     '♟':'blackpawn.png', '♜':'blackrook.png', '♞':'blackhorse.png', '♝':'blackbishop.png', '♛':'blackqueen.png', '♚':'blackking.png',
   };
-  function pieceImgTag(p){ return p ? `<img class="chess-piece-img" src="${PIECE_IMG_DIR}${PIECE_IMG[p]}" alt="" draggable="false">` : ''; }
+  function pieceImgTag(p){ if(!p) return ''; const isWhite='♙♖♘♗♕♔'.includes(p); return `<img class="chess-piece-img ${isWhite?'cp-white':'cp-black'}" src="${PIECE_IMG_DIR}${PIECE_IMG[p]}" alt="" draggable="false">`; }
 
   function drawChess(){
     const banner = state.over ? `<div class="chess-over-banner">🏁 Partida finalizada</div>` : '';
     const lm = state.lastMove || [];
     const isLast = (i,j) => lm.some(([lr,lc])=>lr===i&&lc===j);
-    host().innerHTML = `<div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn==='white'?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${state.board.flatMap((r,i)=>r.map((p,j)=>`<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`)).join('')}</div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p>`;
+    host().innerHTML = `<div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${state.board.flatMap((r,i)=>r.map((p,j)=>`<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`)).join('')}</div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p>`;
   }
 
   function chessMove(r,c){
     if(state.over||state.animating) return;
-    if(state.mode==='cpu'&&state.turn==='black')return;
+    if(state.mode==='cpu'&&state.turn!==state.userColor)return;
     const p=state.board[r][c],white=p&&'♙♖♘♗♕♔'.includes(p),want=state.turn==='white';
     if(!state.pick){if(p&&white===want)state.pick=[r,c];return drawChess()}
     const [sr,sc]=state.pick, piece=state.board[sr][sc];
@@ -325,7 +337,7 @@ const ClassicGames = (() => {
       state.lastMove = [[sr,sc],[r,c]];
       drawChess();
       if(capturedPiece==='♔'||capturedPiece==='♚'){ endChess(capturedPiece==='♔' ? 'black' : 'white'); return; }
-      if(state.mode==='cpu'&&state.turn==='black') setTimeout(computerMove,350);
+      if(state.mode==='cpu'&&state.turn!==state.userColor) setTimeout(computerMove,350);
     });
   }
 
@@ -352,21 +364,22 @@ const ClassicGames = (() => {
     if(piece==='♟'&&mv.r===7) nb[mv.r][mv.c]='♛';
     return nb;
   }
-  /* Balance de material visto desde las negras (la IA): positivo = bien para la IA. */
-  function materialScore(board){
+  /* Balance de material visto desde la perspectiva de la IA (cpuIsWhite):
+     positivo = bien para la IA, sin importar con qué color juegue. */
+  function materialScore(board, cpuIsWhite){
     let s=0;
-    board.forEach(row=>row.forEach(p=>{ if(!p) return; const v=PIECE_VALUE[p]; s += '♙♖♘♗♕♔'.includes(p) ? -v : v; }));
+    board.forEach(row=>row.forEach(p=>{ if(!p) return; const v=PIECE_VALUE[p]; const pieceIsWhite='♙♖♘♗♕♔'.includes(p); s += (pieceIsWhite===cpuIsWhite) ? v : -v; }));
     return s;
   }
   /* Profesional: valora capturas por el valor de la pieza comida y evita
      dejar la pieza movida "regalada" si el rival puede comerla gratis
      en su siguiente turno (mirada a 1 jugada). */
-  function bestMoveGreedy(moves, board){
+  function bestMoveGreedy(moves, board, cpuIsWhite){
     let best=[], bestScore=-Infinity;
     moves.forEach(m=>{
       const nb=applyMove(board,m);
       let sc = m.capValue*10;
-      const replies = movesFor(nb, true).filter(w=>w.r===m.r&&w.c===m.c);
+      const replies = movesFor(nb, !cpuIsWhite).filter(w=>w.r===m.r&&w.c===m.c);
       if(replies.length) sc -= PIECE_VALUE[nb[m.r][m.c]]||0;
       if(sc>bestScore){ bestScore=sc; best=[m]; } else if(sc===bestScore) best.push(m);
     });
@@ -375,15 +388,15 @@ const ClassicGames = (() => {
   /* Legendario: minimax a 2 jugadas — para cada jugada propia, asume
      que las blancas responderán con SU mejor jugada, y elige la que
      deje el mejor balance de material posible en el peor de los casos. */
-  function bestMoveMinimax(moves, board){
+  function bestMoveMinimax(moves, board, cpuIsWhite){
     let best=[], bestScore=-Infinity;
     moves.forEach(m=>{
       const nb=applyMove(board,m);
-      const whiteMoves=movesFor(nb, true);
-      let worst = materialScore(nb);
-      whiteMoves.forEach(wm=>{
-        const nb2=applyMove(nb, wm);
-        const sc2=materialScore(nb2);
+      const oppMoves=movesFor(nb, !cpuIsWhite);
+      let worst = materialScore(nb, cpuIsWhite);
+      oppMoves.forEach(om=>{
+        const nb2=applyMove(nb, om);
+        const sc2=materialScore(nb2, cpuIsWhite);
         if(sc2<worst) worst=sc2;
       });
       const sc = worst + m.capValue*0.1;
@@ -393,8 +406,10 @@ const ClassicGames = (() => {
   }
 
   function computerMove(){
-    if(state.mode!=='cpu'||state.turn!=='black'||state.over) return;
-    const moves = movesFor(state.board, false);
+    if(state.mode!=='cpu'||state.over) return;
+    const cpuIsWhite = state.userColor === 'black';
+    if(state.turn !== (cpuIsWhite ? 'white' : 'black')) return;
+    const moves = movesFor(state.board, cpuIsWhite);
     if(!moves.length) return;
     /* Fuerza de la IA claramente escalonada:
        🌱 Principiante — mueve casi al azar y con frecuencia EVITA
@@ -404,7 +419,7 @@ const ClassicGames = (() => {
        🔥 Profesional — valora qué pieza captura y evita dejar sus
           piezas regaladas al alcance del rival.
        👑 Legendario — piensa una jugada más adelante (mini-max a 2
-          plies), anticipando la mejor respuesta de las blancas. */
+          plies), anticipando la mejor respuesta del rival. */
     const lvl = level();
     let pick;
     if (lvl===0){
@@ -416,15 +431,15 @@ const ClassicGames = (() => {
       const pool = captures.length && Math.random()<0.8 ? captures : moves;
       pick = pool[Math.floor(Math.random()*pool.length)];
     } else if (lvl===2){
-      pick = bestMoveGreedy(moves, state.board);
+      pick = bestMoveGreedy(moves, state.board, cpuIsWhite);
     } else {
-      pick = bestMoveMinimax(moves, state.board);
+      pick = bestMoveMinimax(moves, state.board, cpuIsWhite);
     }
     const piece = state.board[pick.sr][pick.sc], capturedPiece = state.board[pick.r][pick.c];
     state.animating = true;
     animatePieceMove(pick.sr,pick.sc,pick.r,pick.c,piece, () => {
       makeChessMove(pick.sr,pick.sc,pick.r,pick.c);
-      state.turn='white';
+      state.turn = state.userColor;
       state.animating = false;
       state.lastMove = [[pick.sr,pick.sc],[pick.r,pick.c]];
       drawChess();
@@ -439,7 +454,7 @@ const ClassicGames = (() => {
     state.over = true;
     let label, pct;
     if (state.mode === 'cpu') {
-      if (winner === 'white') { label = '👑 ¡Capturaste al rey negro! Ganaste la partida.'; pct = 100; }
+      if (winner === state.userColor) { label = '👑 ¡Capturaste al rey rival! Ganaste la partida.'; pct = 100; }
       else { label = '💀 La computadora capturó tu rey. Partida perdida.'; pct = 25; }
     } else {
       label = winner === 'white' ? '👑 ¡Ganan las blancas! Rey negro capturado.' : '👑 ¡Ganan las negras! Rey blanco capturado.';
@@ -492,5 +507,5 @@ const ClassicGames = (() => {
   }
   function empty(){host().innerHTML='<div class="g-empty-state"><div class="g-empty-state__icon">🌱</div><div class="g-empty-state__title">Aún no hay vocabulario suficiente</div><button class="g-empty-state__btn" onclick="GamesCore.showScreen(\'screen-menu\')">Volver al menú</button></div>'}
   function replay(){ if(type) start(type); }
-  return {start,replay,chooseChessMode,startChess,letter,hint,cell,clearSelection,checkSudoku,stock,move,checkKakuro,chessMove,openThemePicker,closeThemePicker,setChessTheme};
+  return {start,replay,chooseChessMode,chooseChessColor,startChess,letter,hint,cell,clearSelection,checkSudoku,stock,move,checkKakuro,chessMove,openThemePicker,closeThemePicker,setChessTheme};
 })();
