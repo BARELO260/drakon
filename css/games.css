@@ -795,7 +795,7 @@ html, body {
 
 /* JUEGOS CLÁSICOS */
 .g-classic-wrap { padding:14px; max-width:520px; margin:auto; }
-.g-classic-wrap.is-chess { max-width:620px; }
+.g-classic-wrap.is-chess { max-width:860px; }
 .classic-center { text-align:center; }
 .hang-svg { width:150px; height:auto; margin:6px auto 4px; display:block; }
 .hang-svg line,.hang-svg circle { fill:none; stroke:var(--muted); stroke-width:4; stroke-linecap:round; }
@@ -854,13 +854,42 @@ html, body {
 .cb-theme-ocean{--cb-frame1:#053446;--cb-frame2:#01141c;--cb-light-bg:linear-gradient(155deg,#e2f7f4,#b9e8e0);--cb-dark-bg:linear-gradient(155deg,#0f6478,#083446)}
 .cb-theme-neon{--cb-frame1:#1a1a2e;--cb-frame2:#050508;--cb-light-bg:linear-gradient(155deg,#2c2c44,#1c1c30);--cb-dark-bg:linear-gradient(155deg,#120c1e,#050308)}
 
+/* Tema "Reino Dragón": usa la escena completa (guardianes, banderines,
+   bosque) como fondo del marco. La cuadrícula interactiva es 100%
+   transparente y se posiciona con porcentajes exactos sobre la zona
+   de casillas verde/crema que ya trae la propia imagen, así que las
+   piezas caen justo encima del tablero pintado.
+   Hay dos versiones de la imagen (misma escena, distinto encuadre):
+   una ancha para escritorio y una alta para teléfono; cada una
+   define sus propios porcentajes porque el recorte del tablero
+   dentro de la imagen no ocupa el mismo % de lienzo en ambas. */
+.chess-board-frame.cb-theme-dragon{
+  padding:0; box-shadow:0 14px 34px var(--shadow); border-radius:20px; overflow:hidden;
+  aspect-ratio:1500/675;
+  background-image:url('../assets/games/chess/backgrounds/dragonkingdom-desktop.jpg');
+  background-size:100% 100%; background-repeat:no-repeat;
+}
+.chess-board-frame.cb-theme-dragon .chess-board{
+  position:absolute; left:30.75%; top:6.7%; width:38.75%; height:87.2%;
+  border-radius:0; box-shadow:none; background:none;
+}
+@media (max-width:640px){
+  .chess-board-frame.cb-theme-dragon{
+    aspect-ratio:631/1402;
+    background-image:url('../assets/games/chess/backgrounds/dragonkingdom-mobile.jpg');
+  }
+  .chess-board-frame.cb-theme-dragon .chess-board{ left:5.35%; top:36.1%; width:89.2%; height:40.6%; }
+}
+.chess-board-frame.cb-theme-dragon .chess-board button{ background:transparent; }
+.chess-theme-swatch.cb-theme-dragon{ background-image:url('../assets/games/chess/backgrounds/dragonkingdom-desktop.jpg'); background-size:cover; background-position:center 35%; }
+
 .chess-toolbar{display:flex;align-items:center;justify-content:center;margin-bottom:10px}
 .chess-turn-pill{display:inline-flex;align-items:center;gap:7px;font:800 12px var(--fh);letter-spacing:.02em;color:var(--gold);background:color-mix(in srgb,var(--gold) 14%,var(--card));border:1px solid color-mix(in srgb,var(--gold) 40%,var(--border));border-radius:999px;padding:6px 15px}
 .chess-turn-pill .dot{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 8px currentColor;animation:cbPulse 1.6s ease-in-out infinite}
 .chess-turn-pill.turn-black{color:var(--sky);background:color-mix(in srgb,var(--sky) 14%,var(--card));border-color:color-mix(in srgb,var(--sky) 40%,var(--border))}
 @keyframes cbPulse{0%,100%{opacity:1}50%{opacity:.35}}
 
-.chess-board-frame{position:relative;max-width:580px;width:100%;box-sizing:border-box;margin:0 auto;padding:12px;border-radius:22px;background:linear-gradient(155deg,var(--cb-frame1,#3a2417),var(--cb-frame2,#1c120a));box-shadow:0 14px 30px var(--shadow),inset 0 1px 0 rgba(255,255,255,.08)}
+.chess-board-frame{position:relative;max-width:820px;width:100%;box-sizing:border-box;margin:0 auto;padding:12px;border-radius:22px;background:linear-gradient(155deg,var(--cb-frame1,#3a2417),var(--cb-frame2,#1c120a));box-shadow:0 14px 30px var(--shadow),inset 0 1px 0 rgba(255,255,255,.08)}
 .chess-board{position:relative;display:grid;grid-template-columns:repeat(8,1fr);border-radius:14px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(0,0,0,.35)}
 .chess-board button{position:relative;aspect-ratio:1;border:0;cursor:pointer;display:flex;align-items:center;justify-content:center;background:var(--cb-light-bg,#eadfc4);transition:filter .15s}
 .chess-board button.dark{background:var(--cb-dark-bg,#8a5a37)}
