@@ -10,15 +10,16 @@ const ClassicGames = (() => {
      Cada tema define las variables --cb-* que usa el CSS (ver
      games.css, bloque "AJEDREZ"). */
   const CHESS_THEMES = [
+    {id:'dragon',  label:'Reino Dragón', emoji:'🐉'},
     {id:'wood',   label:'Madera',  emoji:'🪵'},
     {id:'fire',   label:'Fuego',   emoji:'🔥'},
     {id:'galaxy', label:'Galaxia', emoji:'🌌'},
     {id:'ocean',  label:'Océano',  emoji:'🌊'},
     {id:'neon',   label:'Neón',    emoji:'💠'},
   ];
-  let boardTheme = 'wood';
-  try { boardTheme = (typeof localStorage!=='undefined' && localStorage.getItem('drakon_chess_theme')) || 'wood'; } catch(e) {}
-  if (!CHESS_THEMES.some(t=>t.id===boardTheme)) boardTheme = 'wood';
+  let boardTheme = 'dragon';
+  try { boardTheme = (typeof localStorage!=='undefined' && localStorage.getItem('drakon_chess_theme')) || 'dragon'; } catch(e) {}
+  if (!CHESS_THEMES.some(t=>t.id===boardTheme)) boardTheme = 'dragon';
 
   function setChessTheme(id){
     if (!CHESS_THEMES.some(t=>t.id===id)) return;
@@ -352,25 +353,30 @@ const ClassicGames = (() => {
     '♙':'whitepawn.png', '♖':'whiterook.png', '♘':'whitehorse.png', '♗':'whitebishop.png', '♕':'whitequeen.png', '♔':'whiteking.png',
     '♟':'blackpawn.png', '♜':'blackrook.png', '♞':'blackhorse.png', '♝':'blackbishop.png', '♛':'blackqueen.png', '♚':'blackking.png',
   };
-  /* Contraparte de cada pieza, usada para "recolorear" el set completo
-     cuando el usuario elige jugar con piezas negras: en vez de voltear
-     el tablero, mostramos las imágenes del set negro donde antes había
-     blancas y viceversa, así el jugador siempre ve SUS piezas con el
-     color que eligió. */
-  const OPPOSITE_PIECE = {'♙':'♟','♖':'♜','♘':'♞','♗':'♝','♕':'♛','♔':'♚','♟':'♙','♜':'♖','♞':'♘','♝':'♗','♛':'♕','♚':'♔'};
   function pieceImgTag(p){
     if(!p) return '';
-    const swap = state.mode==='cpu' && state.userColor==='black';
-    const displayChar = swap ? OPPOSITE_PIECE[p] : p;
-    const isWhite = '♙♖♘♗♕♔'.includes(displayChar);
-    return `<span class="chess-piece-wrap ${isWhite?'cp-white':'cp-black'}"><img class="chess-piece-img" src="${PIECE_IMG_DIR}${PIECE_IMG[displayChar]}" alt="" draggable="false"></span>`;
+    const isWhite = '♙♖♘♗♕♔'.includes(p);
+    return `<span class="chess-piece-wrap ${isWhite?'cp-white':'cp-black'}"><img class="chess-piece-img" src="${PIECE_IMG_DIR}${PIECE_IMG[p]}" alt="" draggable="false"></span>`;
   }
 
   function drawChess(){
     const banner = state.over ? `<div class="chess-over-banner">🏁 Partida finalizada</div>` : '';
     const lm = state.lastMove || [];
     const isLast = (i,j) => lm.some(([lr,lc])=>lr===i&&lc===j);
-    host().innerHTML = `<div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${state.board.flatMap((r,i)=>r.map((p,j)=>`<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`)).join('')}</div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p>`;
+    /* Cuando el usuario juega con negras, en vez de intercambiar las
+       imágenes de las piezas (lo cual confundía qué bando controla
+       realmente el jugador), volteamos la ORIENTACIÓN del tablero
+       180° para que sus piezas negras queden abajo, como en un
+       tablero físico visto desde el lado de las negras. Las
+       coordenadas reales (i,j) que usan el clic y la lógica del
+       juego no cambian: solo se reordena el dibujado. */
+    const flip = state.mode==='cpu' && state.userColor==='black';
+    const order = flip ? [7,6,5,4,3,2,1,0] : [0,1,2,3,4,5,6,7];
+    const squaresHtml = order.map(i => order.map(j => {
+      const p = state.board[i][j];
+      return `<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`;
+    }).join('')).join('');
+    host().innerHTML = `<div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${squaresHtml}</div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p>`;
   }
 
   function chessMove(r,c){
