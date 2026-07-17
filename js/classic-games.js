@@ -102,6 +102,8 @@ const ClassicGames = (() => {
   function start(kind) {
     type = kind; score = 0; state = {}; GameSession.currentGame = 'classic';
     host().classList.toggle('is-chess', kind === 'chess');
+    const scrollHost = host().parentElement;
+    if (scrollHost) scrollHost.classList.toggle('no-scroll', kind === 'chess');
     const meta = {hangman:['🎯 Ahorcado','Vocabulario de tus lecciones'],wordsearch:['🔎 Buscador de palabras','Encuentra todas las palabras'],sudoku:['🔢 Sudoku','Completa cada fila, columna y bloque'],solitaire:['🃏 Solitario','Klondike · toca origen y destino'],kakuro:['➕ Cross Sums','Cada grupo suma 6 sin repetir'],chess:['♟️ Ajedrez','Partida local: blancas contra negras']}[kind];
     $('classicTitle').textContent = meta[0]; $('classicSub').textContent = meta[1]; $('classicScore').textContent = '0';
     const themeBtn = $('classicThemeBtn'); if (themeBtn) themeBtn.style.display = (kind==='chess'||kind==='solitaire') ? 'flex' : 'none';
@@ -376,7 +378,7 @@ const ClassicGames = (() => {
       const p = state.board[i][j];
       return `<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`;
     }).join('')).join('');
-    host().innerHTML = `<div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${squaresHtml}</div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p>`;
+    host().innerHTML = `<div class="chess-stage"><div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-area"><div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${squaresHtml}</div></div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p></div>`;
   }
 
   function chessMove(r,c){
