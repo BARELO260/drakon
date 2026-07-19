@@ -407,8 +407,8 @@ const LessonEngine = {
    ═══════════════════════════════════════════════════════════ */
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const LEVEL_META = {
-  C1: { label: 'Avanzado', emoji: 'Advanced', cc: 'var(--sky)' },
-  C2: { label: 'Dominio', emoji: 'Mastery', cc: 'var(--gold)' },
+  C1: { label: 'Avanzado', emoji: '🚀', cc: 'var(--sky)' },
+  C2: { label: 'Dominio', emoji: '🏆', cc: 'var(--gold)' },
   A1: { label: 'Principiante',       emoji: '🌱', cc: 'var(--mint)' },
   A2: { label: 'Básico',             emoji: '📗', cc: 'var(--sky)'  },
   B1: { label: 'Intermedio',         emoji: '📘', cc: 'var(--gold)' },
