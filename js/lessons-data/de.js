@@ -145,4 +145,78 @@ window.LESSON_BANKS.DE = [
       ["arrange", "Ordena: [Uhr / ich / zehn / schlafe / um]", ["Ich schlafe um zehn Uhr","Um zehn Uhr ich schlafe","Zehn Uhr ich schlafe um","Ich um zehn Uhr schlafe"], 0, "\"Ich schlafe um zehn Uhr.\" = I sleep at ten. Sujeto (ich) + verbo (schlafe) + preposición + hora."],
     ]
   },
+  {
+    id:"de_a2_shopping_clothes", level:"A2", title:"Einkaufen und Kleidung", emoji:"🛍️", xp:40,
+    description:"Aprende a comprar ropa, preguntar precios y tallas en alemán.",
+    study: {
+      vocab: [
+        ["das Hemd, das T-Shirt", "shirt, t-shirt"],
+        ["die Hose, der Rock", "pants, skirt"],
+        ["die Schuhe", "shoes"],
+        ["Wie viel kostet das?", "How much does it cost?"],
+        ["die Größe", "size"],
+        ["anprobieren", "to try on (something)"]
+      ],
+      grammar: [
+        ["Komparativ: ...er als", "Se forma añadiendo \"-er\" al adjetivo, seguido de \"als\".", "Dieses Hemd ist billiger als das da."],
+        ["El verbo \"passen\"", "\"Passen\" describe cómo le queda la ropa a alguien.", "Diese Schuhe passen mir nicht (sind zu klein)."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"How much does it cost?\" en alemán?", ["Wie viel kostet das?","Welche Größe hast du?","Wo ist das?","Gefällt dir das?"], 0, "\"Wie viel kostet das?\" se usa para preguntar el precio de algo."],
+      ["fill", "Completa: \"Dieser Rock ist ___ teuer ___ jener.\" (more...than)", ["teurer / als","weniger / als","so / wie","sehr / als"], 0, "El comparativo alemán añade \"-er\" al adjetivo y usa \"als\": teurer als = more expensive than."],
+      ["mcq", "¿Qué significa \"anprobieren\"?", ["To try on clothes","To buy clothes","To wash clothes","To fold clothes"], 0, "\"Anprobieren\" = to try on. Se usa antes de comprar, para ver si la talla es correcta."],
+      ["translate", "Traduce al alemán: \"These shoes are too small for me.\"", ["Diese Schuhe sind mir zu klein","Diese Schuhe sind groß","Diese Kleidung ist teuer","Diese Schuhe kosten viel"], 0, "\"Mir zu klein\" describe cómo le sienta la prenda a la persona (dativo: mir)."],
+      ["mcq", "¿Cómo se dice \"shirt\" en alemán?", ["Hemd","Hose","Rock","Schuh"], 0, "Hemd = shirt. Hose = pants, Rock = skirt, Schuh = shoe."],
+      ["arrange", "Ordena: [meine / das / Größe / ist]", ["Das ist meine Größe","Meine Größe ist das","Ist das meine Größe","Größe ist das meine"], 0, "\"Das ist meine Größe.\" = This is my size."],
+    ]
+  },
+  {
+    id:"de_a2_weather_seasons", level:"A2", title:"Wetter und Jahreszeiten", emoji:"🌦️", xp:40,
+    description:"Habla del clima y las estaciones del año en alemán.",
+    study: {
+      vocab: [
+        ["es ist heiß / kalt", "it's hot / cold"],
+        ["es regnet, es schneit", "it rains, it snows"],
+        ["der Sommer, der Winter, der Frühling, der Herbst", "summer, winter, spring, autumn"],
+        ["es ist bewölkt / sonnig", "it's cloudy / sunny"]
+      ],
+      grammar: [
+        ["Unpersönliches \"es\" beim Wetter", "\"Es\" funciona como sujeto impersonal con los verbos del clima.", "Es regnet heute. Es ist sehr kalt."],
+        ["Präsens für aktuelle Handlungen", "El alemán usa el presente simple para acciones en curso (no existe un tiempo continuo).", "Es regnet gerade jetzt."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"it's cold\" en alemán?", ["Es ist kalt","Es ist heiß","Es ist sonnig","Es regnet"], 0, "Es ist kalt = it's cold. Es ist heiß = it's hot."],
+      ["fill", "Completa: \"Im Winter ___ es manchmal.\" (it snows)", ["schneit","regnet","ist heiß","ist sonnig"], 0, "Es schneit = it snows, del verbo \"schneien\", típico del invierno."],
+      ["mcq", "¿Qué estación sigue a la primavera (der Frühling)?", ["Der Sommer","Der Winter","Der Herbst","Der Frühling"], 0, "El orden de las estaciones es: der Frühling, der Sommer, der Herbst, der Winter."],
+      ["translate", "Traduce al alemán: \"It's raining right now.\"", ["Es regnet gerade jetzt","Es regnet morgen","Es ist jetzt kalt","Es hat geregnet"], 0, "El alemán usa el presente simple (\"es regnet\") con \"gerade jetzt\" para expresar una acción en curso."],
+      ["mcq", "¿Cómo se dice \"sunny\" en alemán?", ["Sonnig","Bewölkt","Regnerisch","Verschneit"], 0, "Sonnig = sunny. Bewölkt = cloudy, regnerisch = rainy, verschneit = snowy."],
+      ["arrange", "Ordena: [heute / ist / kalt / sehr / es]", ["Es ist heute sehr kalt","Heute ist es sehr kalt","Kalt ist es sehr heute","Sehr es ist kalt heute"], 0, "\"Es ist heute sehr kalt.\" = It's very cold today."],
+    ]
+  },
+  {
+    id:"de_a2_perfekt_gestern", level:"A2", title:"Gestern: das Perfekt", emoji:"📅", xp:45,
+    description:"Aprende a hablar de acciones terminadas en el pasado con el Perfekt.",
+    study: {
+      vocab: [
+        ["gestern, gestern Abend, letzte Woche", "yesterday, last night, last week"],
+        ["ich habe gegessen, du hast gegessen", "I ate, you ate"],
+        ["ich bin gegangen, du bist gegangen", "I went, you went"],
+        ["Was hast du gemacht?", "What did you do?"]
+      ],
+      grammar: [
+        ["Perfekt mit \"haben\"", "Sujeto + haben (conjugado) + participio II.", "Ich habe einen Apfel gegessen."],
+        ["Perfekt mit \"sein\"", "Los verbos de movimiento (gehen, fahren...) usan \"sein\".", "Ich bin gestern ins Kino gegangen."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"I ate\" en alemán?", ["Ich habe gegessen","Ich esse","Ich werde essen","Beim Essen"], 0, "Ich habe gegessen = I ate (Perfekt). Ich esse = I eat (presente)."],
+      ["fill", "Completa: \"Gestern bin ich ins Kino ___.\" (went)", ["gegangen","gehe","werde gehen","ging"], 0, "\"Gehen\" es un verbo de movimiento, por eso el Perfekt se forma con \"sein\": bin + gegangen."],
+      ["mcq", "¿Qué auxiliar se usa con \"essen\" en el Perfekt?", ["Haben","Sein","Werden","Können"], 0, "La mayoría de los verbos, incluido \"essen\", usan \"haben\" como auxiliar en el Perfekt."],
+      ["translate", "Traduce al alemán: \"What did you do last night?\"", ["Was hast du gestern Abend gemacht?","Was machst du jetzt?","Was wirst du morgen machen?","Was machst du immer?"], 0, "\"Was hast du gemacht\" usa el Perfekt de \"machen\" para preguntar por una acción terminada."],
+      ["mcq", "¿Cómo se dice \"last week\" en alemán?", ["Letzte Woche","Diese Woche","Nächste Woche","Jeden Tag"], 0, "Letzte Woche = last week. Diese Woche = this week."],
+      ["arrange", "Ordena: [einen / ich / gegessen / habe / Apfel]", ["Ich habe einen Apfel gegessen","Einen ich habe Apfel gegessen","Apfel einen ich habe gegessen","Ich einen habe Apfel gegessen"], 0, "\"Ich habe einen Apfel gegessen.\" = I ate an apple."],
+    ]
+  },
 ];
