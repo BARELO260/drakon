@@ -345,4 +345,130 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreib eine Beschwerde-E-Mail (50-70 Wörter) über eine unvollständige Bestellung. Benutze höfliche Konjunktivformen.",[],["ich hätte gern","könnten Sie","ich bedaure"],"Erkläre das Problem, formuliere eine klare Bitte und schließe höflich.","Eine Online-Bestellung kam mit zwei fehlenden Artikeln an."]
     ]
   },
+  {
+    id:"de_b2_hypotheticals", level:"B2", title:"Hypothesen und irreale Bedingungen", emoji:"🌀", xp:75,
+    description:"Drücke unwahrscheinliche oder irreale Hypothesen mit dem Konjunktiv II aus.",
+    study:{
+      vocab:[
+        ["wenn ich hätte","if I had"],
+        ["falls","in case"],
+        ["es sei denn","unless"],
+        ["angenommen, dass","assuming that"]
+      ],
+      grammar:[
+        ["Irrealer Konditionalsatz (Typ 2)","Für unwahrscheinliche oder irreale Hypothesen in der Gegenwart: wenn + Konjunktiv II, Hauptsatz mit würde + Infinitiv (oder Konjunktiv II bei häufigen Verben).","Wenn ich mehr Zeit hätte, würde ich öfter reisen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt eine unwahrscheinliche Hypothese korrekt aus?",["Wenn ich mehr Geld hätte, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld habe, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld hätte, kaufe ich ein größeres Haus.","Wenn ich mehr Geld würde haben, kaufte ich ein Haus."],0,"Typ 2 verlangt Konjunktiv II im wenn-Satz und würde + Infinitiv (oder Konjunktiv II) im Hauptsatz."],
+      ["fill","Ergänze: \"Es sei denn, wir ___ einen Sondereinsatz, schaffen wir es nicht rechtzeitig.\"",["machen","machten","würden machen","gemacht"],0,"Nach der festen Wendung 'es sei denn' folgt ein Nebensatz im Indikativ: 'wir machen'."],
+      ["mcq","Was ist die beste Umschreibung von \"Wenn ich du wäre, würde ich das Angebot nicht annehmen\"?",["Ein hypothetischer Rat: der Sprecher würde das Angebot an der Stelle des Hörers nicht annehmen.","Ein direkter Befehl.","Eine Beschreibung einer vergangenen Tatsache.","Ein Versprechen für die Zukunft."],0,"Die hypothetische Struktur drückt einen Rat aus, keine Tatsache und keinen Befehl."],
+      ["writing","Schreib 60-80 Wörter: beschreibe, was du anders machen würdest, wenn du ein Jahr deines Lebens wiederholen könntest. Benutze mindestens zwei Hypothesen mit 'wenn'.",[],["wenn ich hätte","es sei denn","angenommen"],"Achte darauf, dass jede Hypothese Konjunktiv II korrekt mit würde/Konjunktiv II kombiniert.","Persönliche Reflexion für einen Blog."]
+    ]
+  },
+  {
+    id:"de_b2_reported_speech", level:"B2", title:"Indirekte Rede", emoji:"💬", xp:78,
+    description:"Gib wieder, was andere gesagt haben, mit dem passenden Modus und Zeitangaben.",
+    study:{
+      vocab:[
+        ["er sagte, dass","he said that"],
+        ["sie erklärte, dass","she explained that"],
+        ["er fragte, ob","he asked whether"],
+        ["sie fügte hinzu, dass","she added that"]
+      ],
+      grammar:[
+        ["Indirekte Rede mit Konjunktiv I","In formeller indirekter Rede wird oft der Konjunktiv I verwendet, besonders wenn er sich vom Indikativ unterscheidet.","Sie sagte: 'Ich komme später.' → Sie sagte, sie komme später."]
+      ]
+    },
+    ex:[
+      ["mcq","Direkte Rede: \"Ich werde den Bericht morgen fertigstellen.\" Was ist die korrekte indirekte Rede?",["Er sagte, er werde den Bericht am nächsten Tag fertigstellen.","Er sagte, er wird den Bericht morgen fertigstellen.","Er sagte, er würde den Bericht morgen fertigstellen gestern.","Er sagte, er fertigstellt den Bericht morgen."],0,"Konjunktiv I ('werde') und die Zeitangabe ändern sich zu 'am nächsten Tag'."],
+      ["fill","Ergänze: \"Sie fragte, ob ich am Montag für das Treffen ___.\"",["verfügbar sei","verfügbar bin","verfügbar werde sein","verfügbar war"],0,"Im indirekten Fragesatz mit 'ob' steht oft der Konjunktiv I der Gegenwart: 'sei'."],
+      ["mcq","Was ändert sich normalerweise beim Wechsel von direkter zu indirekter Rede in der Vergangenheit?",["Der Modus (oft Konjunktiv I) und manchmal Zeitangaben (morgen → am nächsten Tag).","Nur das Subjekt des Satzes.","Nichts ändert sich jemals.","Nur die Wortstellung."],0,"Der Modus wechselt oft zum Konjunktiv I und manche Zeitangaben passen sich an."],
+      ["writing","Berichte in indirekter Rede (50-70 Wörter) ein kürzliches Gespräch, in dem dir jemand seine Pläne erzählt hat.",[],["er sagte, dass","sie erklärte","sie fügte hinzu"],"Passe Modus und Zeitangaben korrekt an.","Du erzählst einem Freund, was dir ein Kollege gesagt hat."]
+    ]
+  },
+  {
+    id:"de_b2_passive_impersonal", level:"B2", title:"Passiv und man-Konstruktion", emoji:"⚙️", xp:76,
+    description:"Beschreibe Prozesse und Fakten, ohne zu betonen, wer sie ausführt.",
+    study:{
+      vocab:[
+        ["werden + Partizip II","to be + past participle (passive)"],
+        ["man + Verb","impersonal 'one' construction"],
+        ["durchgeführt werden","to be carried out"],
+        ["zuständig sein für","to be in charge of"]
+      ],
+      grammar:[
+        ["Passiv und man-Konstruktion","Das Passiv mit 'werden' betont den Vorgang; 'man' ist eine natürliche informelle Alternative, wenn der Handelnde unwichtig ist.","Das Projekt wurde vom Ausschuss genehmigt. / Man genehmigte das Projekt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz verwendet das Passiv korrekt?",["Die Verträge wurden gestern Nachmittag unterschrieben.","Die Verträge wurde gestern Nachmittag unterschrieben.","Die Verträge werden gestern Nachmittag unterschrieben.","Die Verträge sind gestern Nachmittag unterschreiben."],0,"Präteritum Passiv Plural: 'wurden' + Partizip II ('unterschrieben')."],
+      ["fill","Ergänze: \"Das neue Gebäude ___ von einem internationalen Unternehmen entworfen.\"",["wurde","wird","hat","ist"],0,"Präteritum Passiv: 'wurde' + Partizip II ('entworfen')."],
+      ["mcq","Wann wird die man-Konstruktion oft als natürliche Alternative zum Passiv verwendet?",["Wenn der Handelnde nicht wichtig oder unbekannt ist, besonders in gesprochener Sprache.","Wenn man den Handelnden immer nennen möchte.","Nie im natürlichen Deutsch.","Nur in alten literarischen Texten."],0,"'Man' ist im gesprochenen Deutsch sehr häufig, wenn der Handelnde unwichtig ist."],
+      ["writing","Beschreibe in 50-70 Wörtern einen Prozess (zum Beispiel, wie eine Veranstaltung organisiert wird) und benutze mindestens zwei Passiv- oder man-Konstruktionen.",[],["man + Verb","wurde + Partizip","durchgeführt"],"Benutze mindestens zwei verschiedene Konstruktionen stimmig.","Du erklärst einem neuen Teammitglied einen Ablauf."]
+    ]
+  },
+  {
+    id:"de_b2_probability", level:"B2", title:"Vermutung und Wahrscheinlichkeit", emoji:"❓", xp:78,
+    description:"Drücke Vermutungen mit Modalverben und passenden Adverbien aus.",
+    study:{
+      vocab:[
+        ["wahrscheinlich","probably"],
+        ["es könnte sein, dass","it could be that"],
+        ["vermutlich","presumably"],
+        ["das kann nicht stimmen","that can't be right"]
+      ],
+      grammar:[
+        ["Vermutungen mit Modalverben","Deutsch drückt Vermutung oft mit Modalverben (könnte, dürfte, muss) statt mit einem eigenen Modus.","Er könnte schon zu Hause sein. / Sie muss den Zug verpasst haben."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt eine höfliche, unsichere Vermutung aus?",["Der Vorschlag könnte machbar sein, aber wir brauchen mehr Daten.","Der Vorschlag ist absolut machbar, ohne Zweifel.","Der Vorschlag ist niemals machbar.","Der Vorschlag machbar sein könnte vielleicht."],0,"'Könnte' + Infinitiv drückt eine vorsichtige, unsichere Vermutung aus."],
+      ["fill","Ergänze: \"Sie ___ die Entscheidung schon getroffen haben, als wir ankommen.\"",["dürfte","darf","durfte","dürfen"],0,"'Dürfte' + Infinitiv Perfekt drückt eine vorsichtige Vermutung über die Vergangenheit aus."],
+      ["mcq","Welcher Ausdruck zeigt Sicherheit, keine Vermutung?",["Ich bin sicher, dass...","Es könnte sein, dass...","Vermutlich...","Wahrscheinlich..."],0,"'Ich bin sicher, dass' drückt Gewissheit aus, keine Vermutung."],
+      ["speaking","Sprich 60-80 Wörter: äußere deine Meinung dazu, ob Homeoffice zur Norm wird. Benutze mindestens einen Ausdruck der Vermutung und einen der Sicherheit.",[],["könnte sein","wahrscheinlich","ich bin sicher"],"Wechsle passend zwischen vorsichtiger Vermutung und Sicherheit.","Informelle Diskussion über die Zukunft der Arbeit."]
+    ]
+  },
+  {
+    id:"de_b2_contrast_connectors", level:"B2", title:"Kontrastive Konnektoren", emoji:"⚖️", xp:76,
+    description:"Nutze 'obwohl' und andere Konnektoren, um Ideen zu differenzieren und Fakten zu kontrastieren.",
+    study:{
+      vocab:[
+        ["obwohl","although"],
+        ["trotzdem","nevertheless"],
+        ["dennoch","yet / still"],
+        ["jedoch","however"]
+      ],
+      grammar:[
+        ["Kontrastive Konnektoren","'Obwohl' leitet einen Nebensatz ein (Verb am Ende); 'trotzdem', 'dennoch' und 'jedoch' stehen typischerweise in einem eigenen Hauptsatz.","Obwohl der Flug sich verspätete, kamen wir pünktlich zum Meeting."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz verwendet 'obwohl' korrekt (Verbstellung)?",["Obwohl der Bericht unvollständig war, haben wir ihn rechtzeitig geschickt.","Obwohl der Bericht war unvollständig, haben wir ihn geschickt.","Obwohl unvollständig war der Bericht, wir haben ihn geschickt.","Obwohl der Bericht unvollständig, war er geschickt."],0,"Nach 'obwohl' steht das konjugierte Verb am Satzende."],
+      ["fill","Ergänze: \"Der Bericht war unvollständig; wir haben ihn ___ rechtzeitig geschickt.\"",["trotzdem","obwohl","es sei denn","damit"],0,"'Trotzdem' steht in einem eigenen Hauptsatz mit normaler Verb-Zweit-Stellung."],
+      ["mcq","Welcher Konnektor braucht KEINEN eigenen Nebensatz mit Verb am Ende (im Gegensatz zu 'obwohl')?",["Jedoch","Obwohl","Weil","Damit"],0,"'Jedoch' steht meist in einem eigenständigen Hauptsatz, nicht in einem Nebensatz."],
+      ["writing","Schreib einen Absatz von 60-80 Wörtern: präsentiere eine Meinung und relativiere sie mit mindestens zwei verschiedenen Kontrastkonnektoren.",[],["obwohl","trotzdem","jedoch"],"Kombiniere korrekt Nebensatz- und Hauptsatzkonnektoren.","Meinung zu einem aktuellen Thema für ein Forum."]
+    ]
+  },
+  {
+    id:"de_b2_debate_nuance", level:"B2", title:"Differenziert argumentieren", emoji:"🗣️", xp:80,
+    description:"Baue Argumente auf, die den Gegenpunkt anerkennen, bevor sie eine Position verteidigen.",
+    study:{
+      vocab:[
+        ["einerseits / andererseits","on one hand / on the other hand"],
+        ["es lässt sich nicht leugnen, dass","it can't be denied that"],
+        ["es ist erwähnenswert, dass","it's worth noting that"],
+        ["letztendlich","ultimately"]
+      ],
+      grammar:[
+        ["Differenzierte Argumentation","Ein gutes B2-Argument erkennt den Gegenpunkt an, bevor es die eigene Position verteidigt.","Es lässt sich nicht leugnen, dass der Plan Kosten senkt, aber es ist erwähnenswert, dass er auch Risiken birgt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Struktur zeigt ein gut differenziertes Argument?",["Es lässt sich nicht leugnen, dass das Projekt teuer ist, aber langfristig könnte es Ressourcen sparen.","Das Projekt ist teuer, Punkt.","Das Projekt kostet offensichtlich nichts.","Es gibt kein einziges Gegenargument zum Projekt."],0,"Erkennt einen Gegenpunkt an und relativiert ihn mit einem langfristigen Vorteil."],
+      ["fill","Ergänze: \"___ hat der Vorschlag mehr Vor- als Nachteile.\"",["Letztendlich","Obwohl","Es sei denn","Ich bezweifle"],0,"'Letztendlich' wird benutzt, um ein Argument mit einer allgemeinen Schlussfolgerung zu schließen."],
+      ["mcq","Welche Funktion hat 'es ist erwähnenswert, dass' in einem Argument?",["Es hebt einen Punkt hervor, den der Sprecher für besonders relevant hält.","Es führt eine irreale Hypothese ein.","Es drückt völligen Zweifel am Thema aus.","Es beendet das Gespräch abrupt."],0,"Es ist eine Formel, um einen relevanten Punkt im Argument hervorzuheben."],
+      ["writing","Schreib einen argumentativen Absatz von 70-90 Wörtern zu einem umstrittenen Thema (z. B. Homeoffice). Erkenne einen Gegenpunkt an, bevor du deine Position verteidigst.",[],["einerseits","es lässt sich nicht leugnen","letztendlich"],"Struktur: Anerkennung des Gegenpunkts, eigene Position, Schlussfolgerung.","Beitrag zu einer schriftlichen Diskussion im Unterricht."]
+    ]
+  },
 ];
