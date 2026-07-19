@@ -361,6 +361,27 @@ const ClassicGames = (() => {
     return `<span class="chess-piece-wrap ${isWhite?'cp-white':'cp-black'}"><img class="chess-piece-img" src="${PIECE_IMG_DIR}${PIECE_IMG[p]}" alt="" draggable="false"></span>`;
   }
 
+  /* El tablero debe caber siempre completo en el espacio disponible
+     (sin cortarse ni generar scroll) manteniendo su proporción real.
+     Depender solo de CSS (aspect-ratio + flex + max-height:100%) es
+     frágil entre navegadores cuando la altura del contenedor viene de
+     una cadena de flex anidados, así que calculamos el tamaño exacto
+     en píxeles aquí y lo aplicamos directamente al marco. */
+  function sizeChessFrame(){
+    const area = host().querySelector('.chess-board-area');
+    const frame = host().querySelector('.chess-board-frame');
+    if (!area || !frame) return;
+    const areaW = area.clientWidth, areaH = area.clientHeight;
+    if (!areaW || !areaH) return;
+    const isMobile = window.matchMedia('(max-width:640px)').matches;
+    const aspect = boardTheme === 'dragon' ? (isMobile ? 631/1402 : 1500/675) : 1;
+    let w = areaW, h = w / aspect;
+    if (h > areaH) { h = areaH; w = h * aspect; }
+    frame.style.width = Math.floor(w) + 'px';
+    frame.style.height = Math.floor(h) + 'px';
+  }
+  window.addEventListener('resize', () => { if (type === 'chess') sizeChessFrame(); });
+
   function drawChess(){
     const banner = state.over ? `<div class="chess-over-banner">🏁 Partida finalizada</div>` : '';
     const lm = state.lastMove || [];
@@ -379,6 +400,8 @@ const ClassicGames = (() => {
       return `<button class="${(i+j)%2?'dark':''} ${state.pick&&state.pick[0]===i&&state.pick[1]===j?'chosen':''} ${isLast(i,j)?'last-move':''}" data-sq="${i}-${j}" onclick="ClassicGames.chessMove(${i},${j})" ${state.over?'disabled':''}>${pieceImgTag(p)}</button>`;
     }).join('')).join('');
     host().innerHTML = `<div class="chess-stage"><div class="chess-toolbar"><div class="chess-turn-pill ${state.turn==='black'?'turn-black':''}"><span class="dot"></span>${state.mode==='cpu'?(state.turn===state.userColor?'Tu turno':'🤖 Pensando…'):(state.turn==='white'?'Turno: blancas':'Turno: negras')}</div></div>${banner}<div class="chess-board-area"><div class="chess-board-frame cb-theme-${boardTheme}"><div class="chess-board cb-theme-${boardTheme} ${state.over?'is-over':''}">${squaresHtml}</div></div></div><p class="classic-help">${state.over?'Toca «Jugar de nuevo» para revancha.':'Toca una pieza y luego la casilla de destino.'}</p></div>`;
+    sizeChessFrame();
+    requestAnimationFrame(sizeChessFrame);
   }
 
   function chessMove(r,c){
