@@ -114,18 +114,21 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 15 | Contenido original de la app, migrado sin cambios de contenido. Niveles A1–B2. |
-| Español    | ES | 6  | Saludos, números/colores, ser vs. estar, familia/hogar, comida/restaurantes, rutina diaria. |
-| Francés    | FR | 6  | Mismos 6 temas que español, adaptados al francés (être vs. avoir, etc.) |
-| Alemán     | DE | 6  | Mismos 6 temas, adaptados al alemán (sein vs. haben, verbos separables). |
-| Italiano   | IT | 6  | Mismos 6 temas, adaptados al italiano (essere vs. avere). |
-| Portugués  | PT | 6  | Mismos 6 temas, adaptados al portugués (ser vs. estar). |
+| Inglés     | EN | 25 | Progresión real A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica). Se corrigió un bug de sintaxis en `en-b1-skills.js` que impedía que esas 4 lecciones B1 cargaran. |
+| Español    | ES | 9  | A1 (6): saludos, números/colores, ser vs. estar, familia/hogar, comida/restaurantes, rutina diaria. A2 (3): compras/ropa, clima/estaciones, pretérito (pasado). |
+| Francés    | FR | 9  | Mismos temas que español, adaptados al francés (être vs. avoir, passé composé, etc.) |
+| Alemán     | DE | 9  | Mismos temas, adaptados al alemán (sein vs. haben, Perfekt, verbos separables). |
+| Italiano   | IT | 9  | Mismos temas, adaptados al italiano (essere vs. avere, passato prossimo). |
+| Portugués  | PT | 9  | Mismos temas, adaptados al portugués (ser vs. estar, pretérito perfeito). |
 
-**Total actual: 45 lecciones / ejercicios correspondientes**, todas con su glosario de
-estudio (`study`) correspondiente.
+**Total actual: 70 lecciones**, todas con su glosario de estudio (`study`)
+correspondiente y validadas automáticamente (4 opciones por ejercicio, índice
+correcto en rango, sin opciones duplicadas, sin IDs repetidos).
 
 **Objetivo:** ~500 lecciones por idioma, progresión A1→C1 (vocabulario,
 gramática, tiempos verbales, conversación, comprensión, estructuras
 avanzadas). La arquitectura ya soporta esa escala sin cambios de código;
 lo que falta es seguir agregando lecciones a cada archivo, lote por lote,
-en próximas sesiones.
+en próximas sesiones. El inglés ya tiene el recorrido completo A1→C2 como
+referencia de profundidad; el resto de idiomas van A1→A2 y necesitan B1,
+B2, C1 y C2 en próximos lotes.
