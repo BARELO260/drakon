@@ -220,255 +220,75 @@ window.LESSON_BANKS.FR = [
     ]
   },
   {
-    id:"fr_b1_reading_notices", level:"B1", title:"Lecture et décisions", emoji:"📌", xp:55,
-    description:"Extrais des informations pratiques d'avis et de messages courants.",
-    study:{
-      vocab:[
-        ["disponible sur demande","available on request"],
-        ["sous réserve de modification","subject to change"],
-        ["remplir les conditions","to be eligible"],
-        ["la date limite","deadline"]
+    id:"fr_b1_future_plans", level:"B1", title:"Le futur : projets et prédictions", emoji:"🔮", xp:50,
+    description:"Habla de planes futuros y predicciones usando el futuro simple en francés.",
+    study: {
+      vocab: [
+        ["demain, la semaine prochaine, l'année prochaine", "tomorrow, next week, next year"],
+        ["je voyagerai, tu étudieras, il/elle vivra", "I will travel, you will study, he/she will live"],
+        ["aller + infinitif (futur proche)", "going to + infinitive"],
+        ["probablement, sûrement", "probably, surely"]
       ],
-      grammar:[
-        ["Lecture sélective","Cherche d'abord le but du texte, la condition et l'action requise.","Les réservations ne sont confirmées qu'après réception du paiement."]
+      grammar: [
+        ["Futur simple régulier", "Infinitivo + terminaciones -ai, -as, -a, -ons, -ez, -ont (los verbos -re pierden la e final).", "Je voyagerai au Japon l'année prochaine."],
+        ["Aller + infinitif (futur proche)", "Para planes ya decididos y cercanos.", "Je vais étudier ce soir."]
       ]
     },
     ex:[
-      ["mcq","Avis : \"Les places de l'atelier sont réservées aux membres jusqu'à vendredi ; les places restantes seront ensuite libérées.\" Que doit faire une personne non membre ?",["Attendre jusqu'à vendredi pour savoir s'il reste des places.","Réserver aujourd'hui car elle est prioritaire.","Payer une cotisation obligatoire avant vendredi.","Supposer que l'atelier est annulé."],0,"L'avis indique une priorité temporaire pour les membres, pas une exclusivité permanente."],
-      ["mcq","Message : \"Envoyez le formulaire avant 17h jeudi. Les candidatures tardives ne seront examinées que s'il reste des places.\" Quelle est l'action la plus sûre ?",["Envoyer le formulaire avant 17h jeudi.","Attendre la confirmation qu'il reste des places.","Envoyer vendredi car les candidatures tardives sont toujours acceptées.","Appeler pour annuler la candidature."],0,"\"Avant\" marque une échéance claire ; \"seulement si\" ne garantit pas l'acceptation tardive."],
-      ["fill","Complète : \"Les candidats doivent ___ pour le programme avant de demander une bourse.\"",["être éligibles","être disponibles","être soumis","être limités"],0,"\"Éligible\" signifie qu'on remplit les conditions nécessaires."],
-      ["writing","Écris un e-mail de 45-60 mots pour demander si tu peux encore t'inscrire après la date limite.",[],["tardive","candidature","disponible"],"Inclus une salutation, une demande claire et une formule de politesse.","Tu écris au coordinateur d'un cours qui a fermé hier."]
+      ["mcq", "¿Cómo se dice \"I will travel\" en francés?", ["Je voyagerai","Je voyage","Je voyageais","En voyageant"], 0, "Je voyagerai = I will travel (futur simple). Je voyage = I travel (presente)."],
+      ["fill", "Completa: \"L'année prochaine, je ___ en Espagne.\" (I will travel)", ["voyagerai","voyage","voyageais","voyager"], 0, "\"Voyagerai\" es la primera persona del futur simple: voyager + ai."],
+      ["mcq", "¿Cuál es la diferencia entre \"je voyagerai\" y \"je vais voyager\"?", ["Ambos son futuro, pero \"je vais\" indica un plan ya decidido","\"Je voyagerai\" es pasado","\"Je vais voyager\" es presente","No hay diferencia"], 0, "El futur simple expresa predicciones o planes generales; \"aller + infinitif\" indica algo más inmediato."],
+      ["translate", "Traduce al francés: \"She will study medicine next year.\"", ["Elle étudiera la médecine l'année prochaine","Elle étudie la médecine","Elle a étudié la médecine","Elle étudie la médecine maintenant"], 0, "\"Étudiera\" es tercera persona del futur simple de \"étudier\"."],
+      ["mcq", "¿Cómo se dice \"next week\" en francés?", ["La semaine prochaine","La semaine dernière","Cette semaine","Tous les jours"], 0, "La semaine prochaine = next week. La semaine dernière = last week."],
+      ["arrange", "Ordena: [demain / travaillerai / je]", ["Je travaillerai demain","Demain je travaillerai","Travaillerai je demain","Je demain travaillerai"], 0, "\"Je travaillerai demain.\" = I will work tomorrow. Sujeto + verbo + tiempo."],
     ]
   },
   {
-    id:"fr_b1_opinions", level:"B1", title:"Opinions et points de vue", emoji:"🎧", xp:58,
-    description:"Distingue faits, préférences et raisons dans des conversations courantes.",
-    study:{
-      vocab:[
-        ["je préférerais","I would rather"],
-        ["il s'avère que","it turns out"],
-        ["ça vaut le coup","it's worth it"],
-        ["décourager quelqu'un","to put someone off"]
+    id:"fr_b1_travel_directions", level:"B1", title:"Voyages et directions", emoji:"🧭", xp:52,
+    description:"Pide y da indicaciones para llegar a un lugar en francés.",
+    study: {
+      vocab: [
+        ["l'aéroport, la gare", "airport, train station"],
+        ["Comment puis-je aller à... ?", "How do I get to...?"],
+        ["tournez à droite/gauche, continuez tout droit", "turn right/left, go straight"],
+        ["réserver un vol/un hôtel", "to book a flight/hotel"]
       ],
-      grammar:[
-        ["Opinion justifiée","Une réponse B1 doit inclure une opinion et une raison.","Je préférerais voyager en train parce que je peux travailler pendant le trajet."]
+      grammar: [
+        ["Impératif formel (vous)", "Se usa para dar indicaciones formales: tournez, continuez, prenez.", "Tournez à droite au coin."],
+        ["Prépositions de lieu", "près de, loin de, à côté de, en face de.", "L'hôtel est près de la gare."]
       ]
     },
     ex:[
-      ["mcq","Lis : \"Maya pensait que le cours serait difficile, mais il s'avère que le feedback hebdomadaire le rend gérable.\" Que pense Maya ?",["Le cours est exigeant, mais le soutien l'aide à suivre.","Le cours est trop facile.","Le feedback rend le cours plus difficile.","Elle a abandonné le cours par manque de soutien."],0,"Le contraste entre l'attente initiale et le bilan final est plus positif."],
-      ["mcq","Quelle réponse exprime une préférence et une raison ?",["Je préférerais me réunir en ligne parce que ça économise du temps de trajet.","Je me réunis en ligne hier.","Les réunions en ligne sont un temps de trajet.","Je préfère parce que réunions."],0,"La structure inclut préférence, option et justification."],
-      ["fill","Complète : \"Le prix était élevé, mais l'expérience ___ le coup.\"",["valait","préférait","s'avérait","décourageait"],0,"L'expression fixe est \"valoir le coup\"."],
-      ["speaking","Parle pendant 45-60 mots : compare étudier seul et étudier à plusieurs. Donne une préférence, une raison et un inconvénient.",[],["je préfère","parce que","cependant"],"Organise ta réponse : comparaison, préférence, raison et réserve.","Conversation avec un camarade de classe."]
+      ["mcq", "¿Cómo se dice \"How do I get to the airport?\" en francés?", ["Comment puis-je aller à l'aéroport ?","Où habitez-vous ?","Quelle heure est-il ?","Combien ça coûte ?"], 0, "\"Comment puis-je aller à...?\" se usa para pedir indicaciones de cómo llegar a un lugar."],
+      ["fill", "Completa: \"___ à droite au feu rouge.\" (turn, imperativo formal)", ["Tournez","Tourner","Tournant","A tourné"], 0, "\"Tournez\" es el imperativo formal (vous) del verbo \"tourner\"."],
+      ["mcq", "¿Qué significa \"continuer tout droit\"?", ["To go straight ahead","To turn right","To turn left","To stop"], 0, "Continuer tout droit = to go straight ahead."],
+      ["translate", "Traduce al francés: \"The hotel is next to the train station.\"", ["L'hôtel est à côté de la gare","L'hôtel est loin de la gare","L'hôtel est dans la gare","La gare est dans l'hôtel"], 0, "\"À côté de\" = next to, describe la ubicación relativa entre dos lugares."],
+      ["mcq", "¿Cómo se dice \"to book a flight\" en francés?", ["Réserver un vol","Rater un vol","Annuler un vol","Payer un vol"], 0, "Réserver un vol = to book a flight. Rater = to miss, annuler = to cancel."],
+      ["arrange", "Ordena: [droite / à / tournez]", ["Tournez à droite","À droite tournez","Droite tournez à","Tournez droite à"], 0, "\"Tournez à droite.\" = Turn right. Verbo (imperativo) + preposición + sustantivo."],
     ]
   },
   {
-    id:"fr_b1_storytelling", level:"B1", title:"Raconter une expérience", emoji:"🗺️", xp:60,
-    description:"Raconte des expériences passées en combinant passé composé et imparfait.",
-    study:{
-      vocab:[
-        ["au début","at first"],
-        ["finalement","eventually"],
-        ["de façon inattendue","unexpectedly"],
-        ["se rendre compte","to realise"]
+    id:"fr_b1_advice_recommendations", level:"B1", title:"Donner des conseils et des recommandations", emoji:"💡", xp:54,
+    description:"Aprende a dar consejos y recomendaciones en francés.",
+    study: {
+      vocab: [
+        ["tu devrais", "you should"],
+        ["je te recommande de", "I recommend that you"],
+        ["il est important que", "it's important that"],
+        ["à ta place", "if I were you (in your place)"]
       ],
-      grammar:[
-        ["Passé composé vs. imparfait","L'imparfait décrit le contexte ou une action en cours ; le passé composé raconte des actions terminées.","Pendant que nous attendions le bus, il a commencé à pleuvoir."]
+      grammar: [
+        ["\"Devoir\" au conditionnel pour donner des conseils", "\"Tu devrais\" + infinitivo expresa un consejo directo.", "Tu devrais te reposer plus."],
+        ["\"À ta place\" + conditionnel", "Estructura fija para dar consejos hipotéticos.", "À ta place, je parlerais avec elle."]
       ]
     },
     ex:[
-      ["mcq","Quelle phrase utilise correctement le passé composé et l'imparfait ?",["Pendant que nous marchions dans le parc, nous avons vu un accident.","Pendant que nous avons marché dans le parc, nous voyions un accident.","Pendant que nous marchions dans le parc, nous voyions un accident hier.","Nous avons marché dans le parc pendant que nous avons vu."],0,"Le contexte (marchions) va à l'imparfait ; l'action ponctuelle (avons vu) va au passé composé."],
-      ["fill","Complète : \"Je ne ___ pas compte de l'heure qu'il était jusqu'à ce que j'ai regardé mon téléphone.\"",["me suis rendu","me rendais","me rends","rendais"],0,"\"Se rendre compte\" au passé composé pour une action ponctuelle : \"je me suis rendu compte\"."],
-      ["translate","Traduis : \"At first I was nervous, but eventually I enjoyed the experience.\"",["Au début j'étais nerveux, mais finalement j'ai apprécié l'expérience.","Au début j'ai été nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'ai apprécié de l'expérience."],0,"L'état d'esprit de fond va à l'imparfait (\"j'étais\") ; l'action complète va au passé composé (\"j'ai apprécié\")."],
-      ["writing","Écris une histoire de 80-100 mots sur un projet qui a changé de façon inattendue.",[],["au début","mais","finalement"],"Vérifie que chaque partie fait avancer l'histoire et que les temps sont cohérents.","Un court voyage qui ne s'est pas passé comme prévu."]
-    ]
-  },
-  {
-    id:"fr_b1_agreement", level:"B1", title:"Discuter et trouver un accord", emoji:"🤝", xp:62,
-    description:"Propose des options, réagis aux idées des autres et négocie une décision.",
-    study:{
-      vocab:[
-        ["et si...?","shall we...?"],
-        ["je comprends ton point de vue","I see your point"],
-        ["et pourquoi pas...?","how about...?"],
-        ["un compromis","a compromise"]
-      ],
-      grammar:[
-        ["Langage de collaboration","Pour négocier : proposer, répondre et chercher une alternative partagée.","Je comprends ton point de vue sur le coût ; et pourquoi pas choisir l'option la moins chère ?"]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle réponse construit un accord ?",["Je comprends ton point de vue sur le coût ; et pourquoi pas inviter moins de monde ?","Ton idée est mauvaise, donc c'est la mienne qui gagne.","Je ne comprends aucun point de vue.","L'option la moins chère, c'est les gens."],0,"Reconnaît une idée et propose un compromis concret."],
-      ["fill","Complète : \"___ nous nous retrouvons à la bibliothèque après les cours ?\"",["Et si","Serait","A fait","A"],0,"\"Et si...?\" est une façon courante de proposer quelque chose."],
-      ["mcq","Quelle phrase exprime un désaccord poli ?",["Je ne suis pas sûr que ça marche, car le lieu ferme tôt.","Ça ne marchera jamais.","Ton lieu est nul.","Non, évidemment pas."],0,"Le désaccord est adouci et justifié par une raison."],
-      ["speaking","Parle pendant 45-60 mots : propose un plan pour le week-end, réponds à une objection et propose un compromis.",[],["je propose","parce que","compromis"],"Inclus une proposition concrète, une raison et une réponse collaborative.","Tu organises une activité avec un ami qui a peu de budget."]
-    ]
-  },
-  {
-    id:"fr_b1_future_plans", level:"B1", title:"Projets et futur", emoji:"🗓️", xp:60,
-    description:"Parle de projets, d'intentions et de prévisions avec différentes formes de futur.",
-    study:{
-      vocab:[
-        ["j'ai l'intention de","I intend to"],
-        ["bientôt","soon"],
-        ["dès que je peux","as soon as I can"],
-        ["il est possible que","it's possible that"]
-      ],
-      grammar:[
-        ["Futur proche vs. futur simple","\"Aller + infinitif\" exprime un projet déjà décidé ; le futur simple exprime une prédiction ou une décision spontanée.","Je vais déménager le mois prochain. / Je pense qu'il pleuvra demain."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase exprime un projet déjà décidé ?",["Je vais commencer un cours d'italien en septembre.","Je commencerai un cours si j'ai le temps.","Je pense que je commencerai un cours.","Je commençais un cours l'année dernière."],0,"\"Aller + infinitif\" s'utilise pour les projets déjà décidés."],
-      ["fill","Complète : \"Dès que je ___ le rapport, je te l'envoie.\"",["termine","termines","terminerai","terminais"],0,"Après \"dès que\" pour une action future proche, le présent est courant en français."],
-      ["translate","Traduis : \"As soon as I finish the project, I'll call you.\"",["Dès que je finis le projet, je t'appellerai.","Quand je finissais le projet, je t'appelle.","Dès que je finirai le projet, je t'appelais.","Si je finis le projet, je t'appellerai peut-être."],0,"\"Dès que\" + présent introduit une condition future proche."],
-      ["writing","Écris 45-60 mots sur tes projets pour l'année prochaine. Utilise au moins deux expressions de futur.",[],["j'ai l'intention","dès que","il est possible"],"Combine au moins deux façons de parler du futur et justifie un projet.","Tu racontes tes projets à un ami."]
-    ]
-  },
-  {
-    id:"fr_b1_complaints_requests", level:"B1", title:"Plaintes et demandes polies", emoji:"✉️", xp:60,
-    description:"Formule des plaintes et des demandes formelles avec le conditionnel de politesse.",
-    study:{
-      vocab:[
-        ["je voudrais","I would like"],
-        ["pourriez-vous...?","could you...?"],
-        ["je regrette de vous informer","I regret to inform you"],
-        ["déposer une plainte","to file a complaint"]
-      ],
-      grammar:[
-        ["Conditionnel de politesse","\"Voudrais\" et \"pourriez\" adoucissent les demandes et les plaintes formelles.","Je voudrais savoir pourquoi la commande est arrivée en retard."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase est une plainte formelle et polie ?",["Je voudrais savoir pourquoi le colis est arrivé avec une semaine de retard.","C'est un désastre total !","Votre entreprise ne fait jamais rien de bien.","Je ne compte rien payer."],0,"Formule la plainte de façon indirecte et respectueuse, sans perdre en clarté."],
-      ["fill","Complète : \"___-vous m'envoyer une copie de la facture, s'il vous plaît ?\"",["Pourriez","Pouvez","A pu","Peux"],0,"\"Pourriez\" au conditionnel adoucit la demande et la rend plus formelle."],
-      ["translate","Traduis : \"I would like to file a complaint about the service.\"",["Je voudrais déposer une plainte concernant le service.","Je veux plaindre le service.","J'aime déposer une plainte du service.","Je déposerais une plainte le service."],0,"\"Je voudrais\" + infinitif est la formule standard de politesse."],
-      ["writing","Écris un e-mail de plainte de 50-70 mots sur une commande arrivée incomplète. Utilise le conditionnel de politesse.",[],["je voudrais","pourriez-vous","je regrette"],"Explique le problème, formule une demande claire et termine poliment.","Une commande en ligne est arrivée avec deux articles manquants."]
-    ]
-  },
-  {
-    id:"fr_b2_hypotheticals", level:"B2", title:"Hypothèses et conditions improbables", emoji:"🌀", xp:75,
-    description:"Exprime des hypothèses peu probables ou irréelles avec si + imparfait.",
-    study:{
-      vocab:[
-        ["si j'avais","if I had"],
-        ["au cas où","in case"],
-        ["à moins que","unless"],
-        ["en supposant que","assuming that"]
-      ],
-      grammar:[
-        ["Hypothèse irréelle (type 2)","Pour des hypothèses peu probables au présent : si + imparfait, conditionnel présent dans la principale.","Si j'avais plus de temps, je voyagerais plus souvent."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase exprime correctement une hypothèse peu probable ?",["Si j'avais plus d'argent, j'achèterais une maison plus grande.","Si j'ai plus d'argent, j'achèterais une maison plus grande.","Si j'avais plus d'argent, j'achète une maison plus grande.","Si j'aurais plus d'argent, j'achèterais une maison."],0,"Le type 2 exige l'imparfait dans la condition et le conditionnel présent dans la conséquence."],
-      ["fill","Complète : \"À moins que nous ne ___ un effort supplémentaire, nous ne finirons pas à temps.\"",["fassions","faisons","ferions","avons fait"],0,"\"À moins que\" est toujours suivi du subjonctif."],
-      ["mcq","Quelle est la meilleure paraphrase de « Si j'étais toi, je n'accepterais pas cette offre » ?",["Un conseil hypothétique : le locuteur n'accepterait pas l'offre à la place de l'auditeur.","Un ordre direct.","La description d'un fait passé.","Une promesse pour l'avenir."],0,"La structure hypothétique exprime un conseil, pas un fait ni un ordre."],
-      ["writing","Écris 60-80 mots : décris ce que tu ferais différemment si tu pouvais revivre une année de ta vie. Utilise au moins deux hypothèses avec 'si'.",[],["si j'avais","à moins que","en supposant"],"Vérifie que chaque hypothèse combine correctement l'imparfait et le conditionnel.","Réflexion personnelle pour un blog."]
-    ]
-  },
-  {
-    id:"fr_b2_reported_speech", level:"B2", title:"Discours indirect", emoji:"💬", xp:78,
-    description:"Rapporte ce que d'autres ont dit en adaptant temps verbaux et marqueurs temporels.",
-    study:{
-      vocab:[
-        ["il a dit que","he said that"],
-        ["elle a expliqué que","she explained that"],
-        ["il a demandé si","he asked whether"],
-        ["elle a ajouté que","she added that"]
-      ],
-      grammar:[
-        ["Discours indirect","Au passé, le futur devient conditionnel et le présent devient souvent imparfait.","Elle a dit : « J'arriverai en retard. » → Elle a dit qu'elle arriverait en retard."]
-      ]
-    },
-    ex:[
-      ["mcq","Citation directe : « Je finirai le rapport demain. » Quel est le discours indirect correct ?",["Il a dit qu'il finirait le rapport le lendemain.","Il a dit qu'il finira le rapport demain.","Il a dit qu'il finissait le rapport demain.","Il a dit qu'il finisse le rapport le lendemain."],0,"Le futur de la citation originale devient conditionnel ; 'demain' devient 'le lendemain'."],
-      ["fill","Complète : \"Elle m'a demandé si j'___ disponible pour la réunion de lundi.\"",["étais","suis","serai","sois"],0,"Le présent de la citation originale devient imparfait dans le discours indirect au passé."],
-      ["mcq","Qu'est-ce qui change généralement en passant du discours direct à l'indirect au passé ?",["Le temps verbal et parfois les marqueurs temporels (demain → le lendemain).","Seulement le sujet de la phrase.","Rien ne change jamais.","Seulement l'ordre des mots."],0,"Le temps verbal recule dans le passé et certains marqueurs temporels changent."],
-      ["writing","Rapporte au discours indirect (50-70 mots) une conversation récente où quelqu'un t'a raconté ses projets.",[],["il a dit que","elle a expliqué","elle a ajouté"],"Adapte correctement les temps verbaux et les marqueurs temporels.","Tu racontes à un ami ce qu'un collègue t'a dit."]
-    ]
-  },
-  {
-    id:"fr_b2_passive_impersonal", level:"B2", title:"Voix passive et construction avec 'on'", emoji:"⚙️", xp:76,
-    description:"Décris des processus et des faits sans insister sur qui les réalise.",
-    study:{
-      vocab:[
-        ["être + participe passé","to be + past participle (passive)"],
-        ["on + verbe","impersonal 'one' construction"],
-        ["être mené à bien","to be carried out"],
-        ["être chargé de","to be in charge of"]
-      ],
-      grammar:[
-        ["Voix passive et construction avec 'on'","La voix passive met l'accent sur l'action ou le résultat ; 'on' est une alternative naturelle et informelle quand l'agent n'est pas important.","Le projet a été approuvé par le comité. / On a approuvé le projet."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase utilise correctement la voix passive ?",["Les contrats ont été signés hier après-midi.","Les contrats ont été signé hier après-midi.","Les contrats sont signés hier après-midi.","Les contrats ont été signer hier."],0,"Le participe passé s'accorde au pluriel avec 'les contrats' : 'signés'."],
-      ["fill","Complète : \"Le nouveau bâtiment ___ conçu par une entreprise internationale.\"",["a été","est","a","était en train d'être"],0,"Passé composé passif : 'a été' + participe passé ('conçu')."],
-      ["mcq","Quand utilise-t-on souvent 'on' comme alternative naturelle à la voix passive ?",["Quand l'agent n'est pas important ou inconnu, surtout à l'oral.","Quand on veut toujours nommer l'agent.","Jamais en français naturel.","Seulement dans les textes littéraires anciens."],0,"'On' est très fréquent à l'oral quand l'agent importe peu."],
-      ["writing","Décris en 50-70 mots un processus (par exemple, comment on organise un événement) en utilisant au moins deux constructions passives ou avec 'on'.",[],["on + verbe","a été + participe","mené à bien"],"Utilise au moins deux constructions différentes de façon cohérente.","Tu expliques une procédure à un nouveau collègue."]
-    ]
-  },
-  {
-    id:"fr_b2_doubt_probability", level:"B2", title:"Doute, probabilité et certitude", emoji:"❓", xp:78,
-    description:"Distingue quand utiliser le subjonctif ou l'indicatif selon le degré de certitude.",
-    study:{
-      vocab:[
-        ["je doute que","I doubt that"],
-        ["je ne pense pas que","I don't think that"],
-        ["il est probable que","it's likely that"],
-        ["il se peut que","it might be that"]
-      ],
-      grammar:[
-        ["Subjonctif avec le doute et la probabilité","Les verbes et expressions de doute ou de négation de certitude demandent le subjonctif dans la subordonnée.","Je doute que le projet soit prêt pour vendredi."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase est grammaticalement correcte ?",["Je ne pense pas que la proposition soit viable à court terme.","Je ne pense pas que la proposition est viable à court terme.","Je ne pense pas que la proposition sera viable à court terme.","Je ne pense pas que la proposition viable à court terme."],0,"\"Je ne pense pas que\" nie la certitude, donc exige le subjonctif : \"soit\"."],
-      ["fill","Complète : \"Il se peut qu'ils ___ déjà pris la décision quand nous arriverons.\"",["aient","ont","prendront","prenaient"],0,"\"Il se peut que\" + subjonctif (ici, subjonctif passé pour une action antérieure)."],
-      ["mcq","Quelle expression n'exige PAS le subjonctif dans la proposition suivante ?",["Je suis sûr que...","Je doute que...","Je ne pense pas que...","Il est possible que..."],0,"\"Je suis sûr que\" exprime une certitude, donc l'indicatif est utilisé, pas le subjonctif."],
-      ["speaking","Parle pendant 60-80 mots : donne ton avis sur le fait que le télétravail devienne la norme. Utilise au moins une expression de doute et une de certitude.",[],["je doute que","il est probable","je suis sûr"],"Alterne correctement le subjonctif et l'indicatif selon le degré de certitude.","Débat informel sur l'avenir du travail."]
-    ]
-  },
-  {
-    id:"fr_b2_contrast_connectors", level:"B2", title:"Connecteurs de contraste", emoji:"⚖️", xp:76,
-    description:"Utilise 'bien que' et d'autres connecteurs pour nuancer des idées et contraster des faits.",
-    study:{
-      vocab:[
-        ["bien que","although"],
-        ["malgré","despite"],
-        ["cependant","however"],
-        ["néanmoins","nevertheless"]
-      ],
-      grammar:[
-        ["Connecteurs de contraste","'Bien que' est toujours suivi du subjonctif, même pour un fait réel.","Bien qu'il ait plu, nous sommes sortis marcher."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle phrase utilise correctement 'bien que' ?",["Bien que le vol ait été retardé, nous sommes arrivés à l'heure à la réunion.","Bien que le vol a été retardé, nous sommes arrivés à l'heure.","Bien que le vol était retardé, nous sommes arrivés.","Bien que le vol sera retardé, nous arrivons à l'heure."],0,"'Bien que' est toujours suivi du subjonctif, même pour un fait avéré."],
-      ["fill","Complète : \"___ le rapport était incomplet, nous l'avons envoyé avant la date limite.\"",["Malgré le fait que","Cependant","Néanmoins","Il se peut que"],0,"\"Malgré le fait que\" introduit une subordonnée de contraste avec un fait réel."],
-      ["mcq","Quel connecteur introduit typiquement une nouvelle phrase plutôt qu'une subordonnée dans la même phrase ?",["Cependant","Bien que","Malgré","Parce que"],0,"'Cependant' fonctionne comme connecteur entre phrases, pas comme subordonnant."],
-      ["writing","Écris un paragraphe de 60-80 mots présentant une opinion et la nuançant avec au moins deux connecteurs de contraste différents.",[],["bien que","cependant","néanmoins"],"Combine correctement les connecteurs subordonnants et ceux qui relient des phrases.","Opinion sur un sujet d'actualité pour un forum."]
-    ]
-  },
-  {
-    id:"fr_b2_debate_nuance", level:"B2", title:"Argumenter avec nuance", emoji:"🗣️", xp:80,
-    description:"Construis des arguments qui reconnaissent le point contraire avant de défendre une position.",
-    study:{
-      vocab:[
-        ["d'un côté / de l'autre","on one hand / on the other hand"],
-        ["il est indéniable que","it's undeniable that"],
-        ["il convient de noter que","it's worth noting that"],
-        ["en définitive","ultimately"]
-      ],
-      grammar:[
-        ["Argumentation nuancée","Un bon argument B2 reconnaît le point contraire avant de défendre une position.","Il est indéniable que le plan réduit les coûts, mais il convient de noter qu'il comporte aussi des risques."]
-      ]
-    },
-    ex:[
-      ["mcq","Quelle structure montre un argument bien nuancé ?",["Il est indéniable que le projet est coûteux, mais à long terme il pourrait économiser des ressources.","Le projet est coûteux, point final.","Le projet ne coûte évidemment rien.","Il n'y a aucun argument contre le projet."],0,"Reconnaît un point contraire avant de le nuancer avec un avantage à long terme."],
-      ["fill","Complète : \"___, la proposition a plus d'avantages que d'inconvénients.\"",["En définitive","Bien que","À moins que","Je doute que"],0,"\"En définitive\" sert à conclure un argument par une conclusion générale."],
-      ["mcq","Quelle fonction a « il convient de noter que » dans un argument ?",["Il met en avant un point que le locuteur juge particulièrement pertinent.","Il introduit une hypothèse irréelle.","Il exprime un doute total sur le sujet.","Il termine la conversation abruptement."],0,"C'est une formule pour souligner un point pertinent dans l'argument."],
-      ["writing","Écris un paragraphe argumentatif de 70-90 mots sur un sujet débattu (par exemple, le télétravail). Reconnais un point contraire avant de défendre ta position.",[],["d'un côté","il est indéniable","en définitive"],"Structure : reconnaissance du point contraire, ta position et une conclusion.","Contribution à un débat écrit en classe."]
+      ["mcq", "¿Cómo se dice \"You should rest more\" en francés?", ["Tu devrais te reposer plus","Tu te reposes plus","Tu t'es reposé plus","Se reposant plus"], 0, "\"Tu devrais\" (condicional de devoir) + infinitivo es la forma estándar de dar un consejo."],
+      ["fill", "Completa: \"___, je parlerais avec le patron.\" (If I were you)", ["À ta place","À ma place","Ta place","Je suis toi"], 0, "\"À ta place\" es la expresión fija para dar un consejo hipotético en francés."],
+      ["mcq", "¿Qué significa \"je te recommande d'étudier\"?", ["I recommend that you study","I studied with you","You recommend I study","I will study with you"], 0, "\"Je te recommande de\" + infinitivo expresa una recomendación dirigida a otra persona."],
+      ["translate", "Traduce al francés: \"It's important that you arrive early.\"", ["Il est important que tu arrives tôt","Il est important d'arriver tard","Tu es arrivé tôt important","Il est important que tu es arrivé tôt"], 0, "\"Il est important que\" requiere subjonctif: \"tu arrives\"."],
+      ["mcq", "¿Cómo se dice \"if I were you\" en francés?", ["À ta place","À ma place","Si je suis toi","Si tu es moi"], 0, "\"À ta place\" es la expresión fija para dar un consejo hipotético."],
+      ["arrange", "Ordena: [plus / devrais / dormir / tu]", ["Tu devrais dormir plus","Plus tu devrais dormir","Dormir tu devrais plus","Tu devrais plus dormir"], 0, "\"Tu devrais dormir plus.\" = You should sleep more."],
     ]
   },
 ];
