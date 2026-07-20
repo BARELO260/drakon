@@ -223,75 +223,381 @@ window.LESSON_BANKS.ES = [
     ]
   },
   {
-    id:"es_b1_future_plans", level:"B1", title:"El futuro: planes y predicciones", emoji:"🔮", xp:50,
-    description:"Habla de planes futuros y predicciones usando el futuro simple.",
-    study: {
-      vocab: [
-        ["mañana, la próxima semana, el año que viene", "tomorrow, next week, next year"],
-        ["viajaré, estudiarás, vivirá", "I will travel, you will study, he/she will live"],
-        ["voy a + infinitivo", "going to + infinitive (near future)"],
-        ["probablemente, seguramente", "probably, surely"]
+    id:"es_b1_reading_notices", level:"B1", title:"Lectura y decisiones", emoji:"📌", xp:55,
+    description:"Extrae información práctica de avisos y mensajes cotidianos.",
+    study:{
+      vocab:[
+        ["disponible bajo petición","available on request"],
+        ["sujeto a cambios","subject to change"],
+        ["cumplir los requisitos","to be eligible"],
+        ["fecha límite","deadline"]
       ],
-      grammar: [
-        ["Futuro simple regular", "Se forma con el infinitivo + terminaciones: -é, -ás, -á, -emos, -éis, -án.", "Viajaré a Japón el próximo año."],
-        ["\"Ir a\" + infinitivo (futuro próximo)", "Para planes ya decididos, más cercanos que el futuro simple.", "Voy a estudiar esta noche."]
+      grammar:[
+        ["Lectura selectiva","Busca primero el propósito del texto, la condición y la acción requerida.","Las reservas se confirman solo después de recibir el pago."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"I will travel\" en español?", ["Viajaré","Viajo","Viajaba","Viajando"], 0, "Viajaré = I will travel (futuro simple). Viajo = I travel (presente), viajaba = I used to travel (imperfecto)."],
-      ["fill", "Completa: \"El año que viene, ___ a España.\" (I will travel)", ["viajaré","viajo","viajaba","viajar"], 0, "\"Viajaré\" es la primera persona del futuro simple: viajar + é."],
-      ["mcq", "¿Cuál es la diferencia entre \"viajaré\" y \"voy a viajar\"?", ["Ambos son futuro, pero \"voy a\" indica un plan ya decidido","\"Viajaré\" es pasado","\"Voy a viajar\" es presente","No hay diferencia"], 0, "El futuro simple expresa predicciones o planes generales; \"ir a + infinitivo\" indica algo más inmediato o ya decidido."],
-      ["translate", "Traduce: \"She will study medicine next year.\"", ["Ella estudiará medicina el año que viene","Ella estudia medicina","Ella estudió medicina","Ella está estudiando medicina"], 0, "\"Estudiará\" es tercera persona del futuro simple de \"estudiar\"."],
-      ["mcq", "¿Cómo se dice \"next week\" en español?", ["La próxima semana","La semana pasada","Esta semana","Todos los días"], 0, "La próxima semana = next week. La semana pasada = last week."],
-      ["arrange", "Ordena: [no / mañana / trabajaré]", ["Mañana no trabajaré","No trabajaré mañana","Trabajaré no mañana","Mañana trabajaré no"], 0, "\"Mañana no trabajaré.\" = Tomorrow I will not work. Tiempo + negación + verbo."],
+      ["mcq","Aviso: \"Las plazas del taller están reservadas para socios hasta el viernes; después se liberarán las que queden.\" ¿Qué debe hacer una persona que no es socia?",["Esperar hasta el viernes para saber si quedan plazas.","Reservar hoy porque tiene prioridad.","Pagar una cuota obligatoria antes del viernes.","Asumir que el taller está cancelado."],0,"El aviso indica prioridad temporal para socios, no exclusividad permanente."],
+      ["mcq","Mensaje: \"Envíe el formulario antes de las 17:00 del jueves. Las solicitudes tardías solo se considerarán si quedan plazas.\" ¿Cuál es la acción más segura?",["Enviar el formulario antes de las 17:00 del jueves.","Esperar a que confirmen que quedan plazas.","Enviar el viernes porque siempre se aceptan solicitudes tardías.","Llamar para cancelar la solicitud."],0,"\"Antes de\" marca una fecha límite clara; \"solo si\" no garantiza la aceptación tardía."],
+      ["fill","Completa: \"Los candidatos deben ser ___ para el programa antes de solicitar la beca.\"",["elegibles","disponibles","sujetos","límites"],0,"\"Elegible\" significa que cumple los requisitos necesarios."],
+      ["writing","Escribe un correo de 45-60 palabras preguntando si todavía puedes solicitar una plaza después de la fecha límite.",[],["tardía","solicitud","disponible"],"Incluye saludo, petición clara y cierre apropiado.","Escribes al coordinador de un curso que cerró ayer."]
     ]
   },
   {
-    id:"es_b1_travel_directions", level:"B1", title:"Viajes y direcciones", emoji:"🧭", xp:52,
-    description:"Pide y da indicaciones para llegar a un lugar en español.",
-    study: {
-      vocab: [
-        ["el aeropuerto, la estación de tren", "airport, train station"],
-        ["¿Cómo llego a...?", "How do I get to...?"],
-        ["gire a la derecha/izquierda, siga recto", "turn right/left, go straight"],
-        ["reservar un vuelo/hotel", "to book a flight/hotel"]
+    id:"es_b1_opinions", level:"B1", title:"Opiniones y puntos de vista", emoji:"🎧", xp:58,
+    description:"Distingue hechos, preferencias y razones en conversaciones cotidianas.",
+    study:{
+      vocab:[
+        ["preferiría","I would rather"],
+        ["resulta que","it turns out"],
+        ["vale la pena","it's worth it"],
+        ["desanimar a alguien","to put someone off"]
       ],
-      grammar: [
-        ["Imperativo formal (usted)", "Se usa para dar indicaciones formales: gire, siga, tome.", "Gire a la derecha en la esquina."],
-        ["Preposiciones de lugar", "cerca de, lejos de, al lado de, enfrente de.", "El hotel está cerca de la estación."]
+      grammar:[
+        ["Opinión con justificación","Una respuesta B1 debe incluir una opinión y una razón.","Preferiría viajar en tren porque puedo trabajar durante el viaje."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"How do I get to the airport?\" en español?", ["¿Cómo llego al aeropuerto?","¿Dónde vives?","¿Qué hora es?","¿Cuánto cuesta?"], 0, "\"¿Cómo llego a...?\" se usa para pedir indicaciones de cómo llegar a un lugar."],
-      ["fill", "Completa: \"___ a la derecha en el semáforo.\" (turn, imperativo formal)", ["Gire","Girar","Girando","Giró"], 0, "\"Gire\" es el imperativo formal (usted) del verbo \"girar\"."],
-      ["mcq", "¿Qué significa \"seguir recto\"?", ["To go straight ahead","To turn right","To turn left","To stop"], 0, "Seguir recto = to go straight ahead. Es una indicación muy común al pedir direcciones."],
-      ["translate", "Traduce: \"The hotel is next to the train station.\"", ["El hotel está al lado de la estación de tren","El hotel está lejos de la estación","El hotel está en la estación","La estación está en el hotel"], 0, "\"Al lado de\" = next to, describe la ubicación relativa entre dos lugares."],
-      ["mcq", "¿Cómo se dice \"to book a flight\" en español?", ["Reservar un vuelo","Perder un vuelo","Cancelar un vuelo","Pagar un vuelo"], 0, "Reservar un vuelo = to book a flight. Perder = to miss, cancelar = to cancel."],
-      ["arrange", "Ordena: [derecha / la / gire / a]", ["Gire a la derecha","La derecha gire a","A la derecha gire","Gire la a derecha"], 0, "\"Gire a la derecha.\" = Turn right. Verbo (imperativo) + preposición + artículo + sustantivo."],
+      ["mcq","Lee: \"Maya esperaba que el curso fuera difícil, pero resulta que el feedback semanal lo hace manejable.\" ¿Qué opina Maya?",["El curso es exigente, pero el apoyo le ayuda a seguirlo.","El curso es demasiado fácil.","El feedback hace que el curso sea más difícil.","Dejó el curso por falta de apoyo."],0,"Contrasta una expectativa inicial con una evaluación final más positiva."],
+      ["mcq","¿Qué respuesta expresa preferencia y motivo?",["Preferiría reunirme en línea porque ahorra tiempo de viaje.","Me reúno en línea ayer.","Las reuniones en línea son un tiempo de viaje.","Prefiero porque reuniones."],0,"La estructura incluye preferencia, opción y justificación."],
+      ["fill","Completa: \"El precio era alto, pero la experiencia ___ la pena.\"",["valió","prefirió","resultó","desanimó"],0,"La expresión fija es \"valer la pena\"; en pasado: \"valió la pena\"."],
+      ["speaking","Habla durante 45-60 palabras: compara estudiar solo y estudiar con otras personas. Da una preferencia, una razón y una posible desventaja.",[],["prefiero","porque","sin embargo"],"Organiza tu respuesta: comparación, preferencia, razón y reserva.","Conversación con un compañero de clase."]
     ]
   },
   {
-    id:"es_b1_advice_recommendations", level:"B1", title:"Dar consejos y recomendaciones", emoji:"💡", xp:54,
-    description:"Aprende a dar consejos y recomendaciones en español.",
-    study: {
-      vocab: [
-        ["deberías", "you should"],
-        ["te recomiendo que", "I recommend that you"],
-        ["es importante que", "it's important that"],
-        ["si yo fuera tú", "if I were you"]
+    id:"es_b1_storytelling", level:"B1", title:"Contar una experiencia", emoji:"🗺️", xp:60,
+    description:"Narra experiencias pasadas combinando pretérito e imperfecto.",
+    study:{
+      vocab:[
+        ["al principio","at first"],
+        ["finalmente","eventually"],
+        ["inesperadamente","unexpectedly"],
+        ["darse cuenta","to realise"]
       ],
-      grammar: [
-        ["\"Deber\" + infinitivo para consejos", "\"Deberías\" + infinitivo expresa un consejo directo.", "Deberías descansar más."],
-        ["\"Si yo fuera tú\" + condicional", "Estructura fija para dar consejos hipotéticos.", "Si yo fuera tú, hablaría con ella."]
+      grammar:[
+        ["Pretérito vs. imperfecto","El imperfecto describe el fondo o una acción en curso; el pretérito narra acciones completadas.","Mientras esperábamos el autobús, empezó a llover."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"You should rest more\" en español?", ["Deberías descansar más","Descansas más","Descansaste más","Descansando más"], 0, "\"Deberías\" (condicional de deber) + infinitivo es la forma estándar de dar un consejo."],
-      ["fill", "Completa: \"___ tú, yo hablaría con el jefe.\" (If I were you)", ["Si yo fuera","Si yo soy","Si yo era","Si yo sería"], 0, "\"Si yo fuera tú\" usa el subjuntivo imperfecto de \"ser\" en la cláusula condicional."],
-      ["mcq", "¿Qué significa \"te recomiendo que estudies\"?", ["I recommend that you study","I studied with you","You recommend I study","I will study with you"], 0, "\"Te recomiendo que\" + subjuntivo expresa una recomendación dirigida a otra persona."],
-      ["translate", "Traduce: \"It's important that you arrive early.\"", ["Es importante que llegues temprano","Es importante llegar tarde","Llegaste temprano importante","Es importante que llegaste temprano"], 0, "\"Es importante que\" requiere subjuntivo: \"llegues\" (no \"llegas\")."],
-      ["mcq", "¿Cómo se dice \"if I were you\" en español?", ["Si yo fuera tú","Si tú fueras yo","Si yo soy tú","Si tú eres yo"], 0, "\"Si yo fuera tú\" es la expresión fija para dar un consejo hipotético."],
-      ["arrange", "Ordena: [más / deberías / dormir]", ["Deberías dormir más","Más deberías dormir","Dormir deberías más","Deberías más dormir"], 0, "\"Deberías dormir más.\" = You should sleep more. Verbo modal + infinitivo + cantidad."],
+      ["mcq","¿Qué oración usa correctamente pretérito e imperfecto?",["Mientras caminábamos por el parque, vimos un accidente.","Mientras caminamos por el parque, veíamos un accidente.","Mientras caminábamos por el parque, veíamos un accidente ayer.","Caminamos por el parque mientras vimos."],0,"El fondo (caminábamos) va en imperfecto; la acción puntual (vimos) va en pretérito."],
+      ["fill","Completa: \"No ___ cuenta de lo tarde que era hasta que miré el móvil.\"",["me di","me daba","doy","daba"],0,"\"Darse cuenta\" en pretérito para una acción puntual: \"me di cuenta\"."],
+      ["translate","Traduce: \"At first I was nervous, but eventually I enjoyed the experience.\"",["Al principio estaba nervioso, pero al final disfruté la experiencia.","Al principio estuve nervioso, pero al final disfrutaba la experiencia.","Al principio era nervioso, pero al final disfruté la experiencia.","Al principio estaba nervioso, pero al final disfrutaba de experiencia."],0,"El estado de ánimo de fondo va en imperfecto (\"estaba\"); la acción completa va en pretérito (\"disfruté\")."],
+      ["writing","Escribe una historia de 80-100 palabras sobre un plan que cambió inesperadamente.",[],["al principio","pero","finalmente"],"Revisa que cada parte avance la historia y que uses los tiempos verbales de forma consistente.","Un viaje corto que no salió como esperabas."]
+    ]
+  },
+  {
+    id:"es_b1_agreement", level:"B1", title:"Discutir y llegar a un acuerdo", emoji:"🤝", xp:62,
+    description:"Propón opciones, responde a ideas ajenas y negocia una decisión.",
+    study:{
+      vocab:[
+        ["¿y si...?","shall we...?"],
+        ["entiendo tu punto","I see your point"],
+        ["¿qué tal si...?","how about...?"],
+        ["un término medio","a compromise"]
+      ],
+      grammar:[
+        ["Lenguaje de colaboración","Para negociar: propone, responde y busca una alternativa compartida.","Entiendo tu punto sobre el coste; ¿qué tal si elegimos la opción más barata?"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué respuesta construye un acuerdo?",["Entiendo tu punto sobre el coste; ¿qué tal si invitamos a menos gente?","Tu idea es mala, así que gana la mía.","No entiendo ningún punto.","La opción barata es la gente."],0,"Reconoce una idea y propone un compromiso concreto."],
+      ["fill","Completa: \"¿___ nos vemos en la biblioteca después de clase?\"",["Y si","Sería","Hizo","Ha"],0,"\"¿Y si...?\" es una forma común de proponer algo."],
+      ["mcq","¿Qué frase expresa desacuerdo cortés?",["No estoy seguro de que funcione, porque el lugar cierra temprano.","Eso nunca va a funcionar.","Tu plan es terrible.","No, obviamente no."],0,"El desacuerdo se suaviza y se justifica con una razón."],
+      ["speaking","Habla durante 45-60 palabras: propón un plan de fin de semana, responde a una posible objeción y ofrece un compromiso.",[],["propongo","porque","término medio"],"Incluye una propuesta concreta, una razón y una respuesta colaborativa.","Organizas una actividad con un amigo con poco presupuesto."]
+    ]
+  },
+  {
+    id:"es_b1_future_plans", level:"B1", title:"Planes y futuro", emoji:"🗓️", xp:60,
+    description:"Habla de planes, intenciones y predicciones usando distintas formas de futuro.",
+    study:{
+      vocab:[
+        ["tengo pensado","I'm planning to"],
+        ["dentro de poco","soon"],
+        ["en cuanto pueda","as soon as I can"],
+        ["es posible que","it's possible that"]
+      ],
+      grammar:[
+        ["Futuro simple vs. ir a + infinitivo","\"Ir a + infinitivo\" expresa planes ya decididos; el futuro simple expresa predicciones o decisiones espontáneas.","Voy a mudarme el mes que viene. / Creo que lloverá mañana."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración expresa un plan ya decidido?",["Voy a empezar un curso de italiano en septiembre.","Empezaré un curso si tengo tiempo.","Creo que empezaré algún curso.","Empezaba un curso el año pasado."],0,"\"Ir a + infinitivo\" se usa para planes ya decididos."],
+      ["fill","Completa: \"En cuanto ___ el informe, te lo envío.\"",["termine","termino","terminaré","terminaba"],0,"Tras \"en cuanto\" referido al futuro se usa el subjuntivo presente: \"termine\"."],
+      ["translate","Traduce: \"As soon as I finish the project, I'll call you.\"",["En cuanto termine el proyecto, te llamaré.","Cuando terminaba el proyecto, te llamo.","En cuanto termino el proyecto, te llamaba.","Si termino el proyecto, te llamaré."],0,"\"En cuanto\" + subjuntivo presente expresa una condición futura."],
+      ["writing","Escribe 45-60 palabras sobre tus planes para el próximo año. Usa al menos dos expresiones de futuro.",[],["tengo pensado","en cuanto","es posible"],"Combina al menos dos formas de hablar del futuro y justifica un plan.","Le cuentas tus planes a un amigo."]
+    ]
+  },
+  {
+    id:"es_b1_complaints_requests", level:"B1", title:"Quejas y peticiones corteses", emoji:"✉️", xp:60,
+    description:"Formula quejas y peticiones formales usando el condicional de cortesía.",
+    study:{
+      vocab:[
+        ["me gustaría","I would like"],
+        ["¿podría...?","could you...?"],
+        ["lamento informarle","I regret to inform you"],
+        ["presentar una queja","to file a complaint"]
+      ],
+      grammar:[
+        ["Condicional de cortesía","\"Gustaría\" y \"podría\" suavizan peticiones y quejas formales.","Me gustaría saber por qué el pedido llegó tarde."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase es una queja formal y cortés?",["Me gustaría saber por qué el paquete llegó con una semana de retraso.","¡Esto es un desastre total!","Su empresa nunca hace nada bien.","No pienso pagar nada."],0,"Formula la queja de forma indirecta y respetuosa, sin perder claridad."],
+      ["fill","Completa: \"¿___ enviarme una copia de la factura, por favor?\"",["Podría","Puede","Pudo","Puedo"],0,"\"Podría\" en condicional suaviza la petición y resulta más formal."],
+      ["translate","Traduce: \"I would like to file a complaint about the service.\"",["Me gustaría presentar una queja sobre el servicio.","Quiero quejar sobre el servicio.","Me gusta presentar una queja del servicio.","Presentaría una queja el servicio."],0,"\"Me gustaría\" + infinitivo es la fórmula estándar de cortesía."],
+      ["writing","Escribe un correo de queja de 50-70 palabras sobre un pedido que llegó incompleto. Usa el condicional de cortesía.",[],["me gustaría","podría","lamento"],"Explica el problema, formula una petición clara y cierra de forma cortés.","Un pedido online llegó con dos artículos faltantes."]
+    ]
+  },
+  {
+    id:"es_b2_hypotheticals", level:"B2", title:"Hipótesis y condiciones improbables", emoji:"🌀", xp:75,
+    description:"Expresa hipótesis poco probables o irreales con si + imperfecto de subjuntivo.",
+    study:{
+      vocab:[
+        ["si tuviera","if I had"],
+        ["ojalá","I wish / hopefully"],
+        ["en caso de que","in case"],
+        ["a menos que","unless"]
+      ],
+      grammar:[
+        ["Condicional hipotético (tipo 2)","Para hipótesis poco probables o irreales en el presente: si + imperfecto de subjuntivo + condicional simple.","Si tuviera más tiempo, viajaría más a menudo."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración expresa una hipótesis poco probable correctamente?",["Si tuviera más dinero, compraría una casa más grande.","Si tengo más dinero, compraría una casa más grande.","Si tuviera más dinero, compro una casa más grande.","Si tendría más dinero, compraría una casa más grande."],0,"El tipo 2 exige imperfecto de subjuntivo en la condición y condicional simple en la consecuencia."],
+      ["fill","Completa: \"A menos que ___ un esfuerzo extra, no terminaremos a tiempo.\"",["hagamos","hacemos","haríamos","hicimos"],0,"\"A menos que\" siempre va seguido de subjuntivo."],
+      ["mcq","¿Cuál es la mejor paráfrasis de \"Si yo fuera tú, no aceptaría esa oferta\"?",["Es un consejo hipotético: el hablante no aceptaría la oferta en el lugar del oyente.","Es una orden directa.","Es una descripción de un hecho pasado.","Es una promesa para el futuro."],0,"La estructura hipotética expresa un consejo, no un hecho ni una orden."],
+      ["writing","Escribe 60-80 palabras: describe qué harías de forma diferente si pudieras repetir un año de tu vida. Usa al menos dos hipótesis con \"si\".",[],["si tuviera","en caso de que","a menos que"],"Revisa que cada hipótesis combine correctamente imperfecto de subjuntivo y condicional.","Reflexión personal para un blog."]
+    ]
+  },
+  {
+    id:"es_b2_reported_speech", level:"B2", title:"Estilo indirecto", emoji:"💬", xp:78,
+    description:"Reporta lo que otros dijeron adaptando tiempos verbales y marcadores temporales.",
+    study:{
+      vocab:[
+        ["dijo que","he/she said that"],
+        ["explicó que","he/she explained that"],
+        ["preguntó si","he/she asked whether"],
+        ["añadió que","he/she added that"]
+      ],
+      grammar:[
+        ["Estilo indirecto","Al reportar en pasado, el futuro se convierte en condicional y el presente suele pasar a imperfecto.","Ella dijo: 'Llegaré tarde' → Ella dijo que llegaría tarde."]
+      ]
+    },
+    ex:[
+      ["mcq","Cita directa: \"Terminaré el informe mañana.\" ¿Cuál es el estilo indirecto correcto?",["Dijo que terminaría el informe al día siguiente.","Dijo que terminará el informe mañana.","Dijo que terminaba el informe mañana.","Dijo que termine el informe al día siguiente."],0,"El futuro de la cita original pasa a condicional; \"mañana\" cambia a \"al día siguiente\"."],
+      ["fill","Completa: \"Me preguntó si ___ disponible para la reunión del lunes.\"",["estaba","estoy","estaré","esté"],0,"El presente de la cita original ('estás') pasa a imperfecto en estilo indirecto: 'estaba'."],
+      ["mcq","¿Qué cambia normalmente al pasar del estilo directo al indirecto en pasado?",["El tiempo verbal y a veces los marcadores temporales (mañana → al día siguiente).","Solo el sujeto de la oración.","Nada cambia nunca.","Solo el orden de las palabras."],0,"El tiempo verbal se desplaza hacia el pasado y algunos marcadores temporales cambian."],
+      ["writing","Reporta en estilo indirecto (50-70 palabras) una conversación reciente en la que alguien te contó sus planes.",[],["dijo que","explicó que","añadió que"],"Adapta correctamente los tiempos verbales y los marcadores temporales.","Le cuentas a un amigo lo que te dijo un compañero de trabajo."]
+    ]
+  },
+  {
+    id:"es_b2_passive_impersonal", level:"B2", title:"Voz pasiva y pasiva refleja", emoji:"⚙️", xp:76,
+    description:"Describe procesos y hechos sin enfatizar quién los realiza.",
+    study:{
+      vocab:[
+        ["ser + participio","to be + past participle (passive)"],
+        ["se + verbo","impersonal/passive 'se' construction"],
+        ["llevarse a cabo","to be carried out"],
+        ["encargarse de","to be in charge of"]
+      ],
+      grammar:[
+        ["Voz pasiva y pasiva refleja","La pasiva con 'ser' destaca el agente; la pasiva refleja con 'se' es más natural cuando el agente no importa.","El proyecto fue aprobado por el comité. / Se aprobó el proyecto."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración usa correctamente la pasiva refleja?",["Se firmaron los contratos ayer por la tarde.","Se firmó los contratos ayer por la tarde.","Fue firmado los contratos ayer.","Se firmaba los contratos por alguien."],0,"El verbo concuerda en plural con 'los contratos': 'se firmaron'."],
+      ["fill","Completa: \"El nuevo edificio ___ por una empresa internacional.\"",["fue diseñado","se diseñó","diseñó","diseñaba"],0,"Cuando el agente es explícito ('por una empresa'), se prefiere la pasiva con 'ser'."],
+      ["mcq","¿Cuándo se prefiere la pasiva refleja sobre la pasiva con 'ser'?",["Cuando el agente no es relevante o no se conoce.","Cuando se quiere nombrar siempre al agente.","Nunca se usa en español natural.","Solo en textos literarios antiguos."],0,"La pasiva refleja es la forma natural cuando el agente no importa."],
+      ["writing","Describe en 50-70 palabras un proceso (por ejemplo, cómo se organiza un evento) usando al menos dos construcciones pasivas o impersonales.",[],["se + verbo","fue + participio","llevarse a cabo"],"Usa al menos dos construcciones distintas de forma coherente.","Explicas un procedimiento a alguien nuevo en el equipo."]
+    ]
+  },
+  {
+    id:"es_b2_doubt_probability", level:"B2", title:"Duda, probabilidad y certeza", emoji:"❓", xp:78,
+    description:"Distingue cuándo usar subjuntivo o indicativo según el grado de certeza.",
+    study:{
+      vocab:[
+        ["dudo que","I doubt that"],
+        ["no creo que","I don't think that"],
+        ["es probable que","it's likely that"],
+        ["puede que","it might be that"]
+      ],
+      grammar:[
+        ["Subjuntivo con duda y probabilidad","Los verbos y expresiones de duda o negación de certeza requieren subjuntivo en la subordinada.","Dudo que el proyecto esté listo para el viernes."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración es gramaticalmente correcta?",["No creo que la propuesta sea viable a corto plazo.","No creo que la propuesta es viable a corto plazo.","No creo que la propuesta será viable a corto plazo.","No creo que la propuesta viable a corto plazo."],0,"\"No creo que\" niega certeza, por lo que exige subjuntivo: \"sea\"."],
+      ["fill","Completa: \"Puede que ya ___ la decisión cuando lleguemos.\"",["hayan tomado","han tomado","tomarán","tomaron"],0,"\"Puede que\" + subjuntivo (aquí, perfecto de subjuntivo para una acción anterior)."],
+      ["mcq","¿Qué expresión NO requiere subjuntivo en la cláusula siguiente?",["Estoy seguro de que...","Dudo que...","No creo que...","Es posible que..."],0,"\"Estoy seguro de que\" expresa certeza, por lo que se usa indicativo, no subjuntivo."],
+      ["speaking","Habla 60-80 palabras: da tu opinión sobre si el teletrabajo será la norma en el futuro. Usa al menos una expresión de duda y una de certeza.",[],["dudo que","es probable que","estoy seguro de que"],"Alterna correctamente subjuntivo e indicativo según el grado de certeza.","Debate informal sobre el futuro del trabajo."]
+    ]
+  },
+  {
+    id:"es_b2_contrast_connectors", level:"B2", title:"Conectores de contraste", emoji:"⚖️", xp:76,
+    description:"Usa 'aunque' y otros conectores para matizar ideas y contrastar hechos.",
+    study:{
+      vocab:[
+        ["aunque","although / even though"],
+        ["a pesar de que","despite the fact that"],
+        ["sin embargo","however"],
+        ["no obstante","nevertheless"]
+      ],
+      grammar:[
+        ["Conectores de contraste","'Aunque' va con indicativo si el hecho es real y conocido, y con subjuntivo si es hipotético o no confirmado.","Aunque llovió, salimos a caminar. / Aunque llueva mañana, saldremos a caminar."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración usa correctamente 'aunque' para un hecho ya confirmado?",["Aunque el vuelo se retrasó, llegamos a tiempo a la reunión.","Aunque el vuelo se retrase, llegamos a tiempo a la reunión.","Aunque el vuelo retrasara, llegamos a tiempo.","Aunque el vuelo se retrasa mañana, llegamos ayer."],0,"Para un hecho ya confirmado, 'aunque' va con indicativo: 'se retrasó'."],
+      ["fill","Completa: \"___ el informe estaba incompleto, lo enviamos antes de la fecha límite.\"",["A pesar de que","Sin embargo","No obstante","Es probable que"],0,"\"A pesar de que\" introduce una cláusula subordinada de contraste con un hecho real."],
+      ["mcq","¿Qué conector suele iniciar una oración nueva en vez de una cláusula subordinada dentro de la misma oración?",["Sin embargo","Aunque","A pesar de que","Puesto que"],0,"'Sin embargo' funciona como conector entre oraciones, no como subordinante."],
+      ["writing","Escribe un párrafo de 60-80 palabras presentando una opinión y matizándola con al menos dos conectores de contraste distintos.",[],["aunque","sin embargo","no obstante"],"Combina correctamente los conectores subordinantes y los que unen oraciones.","Opinión sobre un tema de actualidad para un foro."]
+    ]
+  },
+  {
+    id:"es_b2_debate_nuance", level:"B2", title:"Argumentar con matices", emoji:"🗣️", xp:80,
+    description:"Construye argumentos que reconocen puntos contrarios antes de defender una postura.",
+    study:{
+      vocab:[
+        ["por un lado / por otro lado","on one hand / on the other hand"],
+        ["si bien es cierto que","while it's true that"],
+        ["cabe destacar que","it's worth noting that"],
+        ["en definitiva","ultimately / in short"]
+      ],
+      grammar:[
+        ["Argumentación matizada","Un buen argumento B2 reconoce el punto contrario antes de defender una postura.","Si bien es cierto que el plan reduce costes, cabe destacar que también implica riesgos."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura muestra un argumento bien matizado?",["Si bien es cierto que el proyecto es caro, a largo plazo podría ahorrar recursos.","El proyecto es caro y punto.","El proyecto no cuesta nada, obviamente.","No hay ningún argumento en contra del proyecto."],0,"Reconoce un punto en contra antes de matizarlo con una ventaja a largo plazo."],
+      ["fill","Completa: \"___, la propuesta tiene más ventajas que inconvenientes.\"",["En definitiva","Aunque","A menos que","Dudo que"],0,"\"En definitiva\" se usa para cerrar un argumento con una conclusión general."],
+      ["mcq","¿Qué función cumple 'cabe destacar que' en un argumento?",["Señala un punto que el hablante considera especialmente relevante.","Introduce una hipótesis irreal.","Expresa duda total sobre el tema.","Cierra la conversación abruptamente."],0,"Es una fórmula para resaltar un punto relevante dentro del argumento."],
+      ["writing","Escribe un párrafo argumentativo de 70-90 palabras sobre un tema debatible (por ejemplo, el trabajo remoto). Reconoce un punto en contra antes de defender tu postura.",[],["por un lado","si bien es cierto","en definitiva"],"Estructura: reconocimiento del punto contrario, tu postura y una conclusión.","Contribución a un debate escrito en clase."]
+    ]
+  },
+  {
+    id:"es_c1_register_nuance", level:"C1", title:"Registro y matiz en textos formales", emoji:"🎩", xp:88,
+    description:"Usa atenuación (hedging) para expresar afirmaciones prudentes en registro formal.",
+    study:{
+      vocab:[
+        ["cabría señalar que","it would be worth pointing out that"],
+        ["convendría matizar que","it would be worth clarifying that"],
+        ["tender a pensar que","to be inclined to think that"],
+        ["en términos generales","broadly speaking"]
+      ],
+      grammar:[
+        ["Atenuación (hedging) en registro formal","El condicional atenúa afirmaciones y las hace más prudentes y formales que el presente de indicativo.","Cabría argumentar que la medida es prematura, aunque los datos aún son limitados."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración suena más apropiada en un informe formal?",["Cabría señalar que los resultados, aunque prometedores, requieren más análisis.","Los resultados son geniales, punto.","Esto está clarísimo para cualquiera.","No hay nada más que decir sobre esto."],0,"El registro formal favorece la atenuación y la prudencia argumentativa."],
+      ["fill","Completa: \"___ matizar que el estudio se basa en una muestra reducida.\"",["Convendría","Es obvio","Nunca","Siempre"],0,"\"Convendría\" introduce una recomendación atenuada, propia del registro formal."],
+      ["mcq","¿Qué efecto produce usar el condicional en vez del presente en un informe? (\"Cabría concluir que...\" vs. \"Concluimos que...\")",["Suaviza la afirmación y deja espacio a la duda razonable.","Hace la afirmación más categórica y segura.","Cambia el significado por completo.","No tiene ningún efecto estilístico."],0,"El condicional atenúa la afirmación sin negarla."],
+      ["writing","Redacta 60-80 palabras de un informe breve que evalúe una propuesta, usando al menos dos expresiones de atenuación (hedging).",[],["cabría señalar","convendría","tendería a pensar"],"El registro formal prioriza la prudencia argumentativa sobre la certeza absoluta.","Informe interno para un comité directivo."]
+    ]
+  },
+  {
+    id:"es_c1_subjunctive_past", level:"C1", title:"Subjuntivo pluscuamperfecto", emoji:"⏳", xp:90,
+    description:"Expresa hipótesis irreales en el pasado con concordancia temporal compleja.",
+    study:{
+      vocab:[
+        ["si hubiera sabido","if I had known"],
+        ["era imposible que","it was impossible that"],
+        ["habría bastado con","it would have sufficed to"],
+        ["no fue hasta que","it wasn't until that"]
+      ],
+      grammar:[
+        ["Subjuntivo pluscuamperfecto y concordancia temporal","Para hipótesis irreales en el pasado: si + pluscuamperfecto de subjuntivo + condicional compuesto.","Si hubiera sabido el riesgo, habría actuado de otra manera."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración expresa correctamente una hipótesis irreal en el pasado?",["Si hubiéramos revisado el contrato a tiempo, habríamos evitado el problema.","Si revisamos el contrato a tiempo, habríamos evitado el problema.","Si hubiéramos revisado el contrato a tiempo, evitamos el problema.","Si habríamos revisado el contrato, habríamos evitado el problema."],0,"Se necesita pluscuamperfecto de subjuntivo en la condición y condicional compuesto en la consecuencia."],
+      ["fill","Completa: \"Era imposible que el equipo ___ el proyecto sin más recursos.\"",["hubiera terminado","había terminado","terminaría","terminara ya"],0,"Tras 'era imposible que' (pasado + duda) se usa subjuntivo; para una acción anterior, pluscuamperfecto de subjuntivo."],
+      ["mcq","¿Qué distingue al pluscuamperfecto de subjuntivo del imperfecto de subjuntivo?",["El pluscuamperfecto sitúa la hipótesis en un momento anterior a otro punto del pasado.","No hay ninguna diferencia real entre ambos.","El pluscuamperfecto solo se usa en el futuro.","El imperfecto de subjuntivo no existe en español."],0,"El pluscuamperfecto añade una capa temporal anterior dentro del pasado."],
+      ["writing","Escribe 70-90 palabras sobre una decisión pasada que cambiarías. Usa al menos dos estructuras con pluscuamperfecto de subjuntivo.",[],["si hubiera","habría bastado","no fue hasta que"],"Revisa que las estructuras combinen correctamente pluscuamperfecto de subjuntivo y condicional compuesto.","Reflexión retrospectiva sobre una decisión profesional."]
+    ]
+  },
+  {
+    id:"es_c1_nominalization", level:"C1", title:"Nominalización y estilo formal", emoji:"📑", xp:86,
+    description:"Convierte verbos en sustantivos para lograr un registro académico y técnico.",
+    study:{
+      vocab:[
+        ["la implementación de","the implementation of"],
+        ["la ausencia de","the absence of"],
+        ["dar lugar a","to give rise to"],
+        ["conllevar","to entail"]
+      ],
+      grammar:[
+        ["Nominalización para un registro formal","Convertir verbos en sustantivos (implementar → la implementación) es típico de textos académicos y técnicos, y permite mayor precisión y densidad informativa.","La implementación tardía de la medida dio lugar a retrasos generalizados."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué reformulación es más propia de un informe técnico?",["La ausencia de coordinación entre los equipos dio lugar a duplicidad de tareas.","No coordinaron y por eso hicieron cosas repetidas.","Los equipos no se coordinaron, así que hubo un lío.","Fue un desastre porque nadie habló con nadie."],0,"La nominalización condensa la información en un tono más objetivo."],
+      ["fill","Completa: \"La ___ de nuevas tecnologías conlleva costes iniciales elevados.\"",["adopción","adoptar","adoptando","adoptado"],0,"El sustantivo 'adopción' (nominalización de 'adoptar') encaja en la estructura formal con artículo."],
+      ["mcq","¿Qué ventaja aporta la nominalización en un texto técnico?",["Permite condensar información y adoptar un tono más objetivo e impersonal.","Hace el texto más informal y cercano.","Elimina toda posibilidad de precisión.","No aporta ninguna ventaja real."],0,"La nominalización es clave para la densidad y objetividad del registro técnico."],
+      ["writing","Reescribe en 60-80 palabras un párrafo informal sobre un problema laboral, transformándolo en un fragmento de informe formal usando al menos tres nominalizaciones.",[],["la implementación","la ausencia de","dar lugar a"],"Identifica los verbos clave y conviértelos en sustantivos para un tono más formal.","Convertir una queja informal en un informe interno."]
+    ]
+  },
+  {
+    id:"es_c1_causal_connectors", level:"C1", title:"Conectores complejos de causa-consecuencia", emoji:"🔗", xp:88,
+    description:"Encadena causas y consecuencias con precisión usando conectores avanzados.",
+    study:{
+      vocab:[
+        ["dado que","given that"],
+        ["en la medida en que","insofar as"],
+        ["de ahí que","hence / which is why"],
+        ["so pena de","under penalty of / at the risk of"]
+      ],
+      grammar:[
+        ["Conectores complejos de causa-consecuencia","'De ahí que' introduce una consecuencia lógica y requiere subjuntivo; 'dado que' y 'en la medida en que' introducen causas con indicativo.","Dado que los costes aumentaron, de ahí que se revisara el presupuesto."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración usa correctamente 'de ahí que'?",["Los datos eran contradictorios, de ahí que se retrasara la publicación del informe.","Los datos eran contradictorios, de ahí que se retrasó la publicación.","De ahí que los datos eran contradictorios, se retrasó el informe.","Los datos, de ahí que contradictorios, retrasaron el informe."],0,"'De ahí que' introduce una consecuencia lógica y exige subjuntivo: 'se retrasara'."],
+      ["fill","Completa: \"___ los recursos disponibles, el proyecto avanzará más lentamente de lo previsto.\"",["Dado que","De ahí que","So pena de","Cabría señalar que"],0,"'Dado que' introduce una causa con indicativo de forma directa."],
+      ["mcq","¿Qué significa aproximadamente 'en la medida en que'?",["En la proporción o grado en que algo ocurre; equivalente a 'en tanto que'.","Significa exactamente lo mismo que 'a pesar de que'.","Introduce siempre una hipótesis irreal.","Se usa solo para hablar de medidas físicas."],0,"Expresa proporcionalidad entre dos hechos relacionados."],
+      ["writing","Escribe un párrafo de 70-90 palabras explicando la causa y consecuencia de una decisión empresarial, usando al menos dos conectores de esta lección.",[],["dado que","de ahí que","en la medida en que"],"Distingue con cuidado los conectores que piden indicativo de los que piden subjuntivo.","Análisis causal para un informe de gestión."]
+    ]
+  },
+  {
+    id:"es_c1_mediation_summary", level:"C1", title:"Mediación: sintetizar con precisión", emoji:"🗂️", xp:90,
+    description:"Resume información compleja conservando las relaciones lógicas entre ideas.",
+    study:{
+      vocab:[
+        ["en síntesis","in summary"],
+        ["el punto central es que","the key point is that"],
+        ["conviene destacar","it's worth highlighting"],
+        ["a grandes rasgos","broadly / roughly speaking"]
+      ],
+      grammar:[
+        ["Mediación: sintetizar con precisión","Un buen resumen C1 conserva la relación lógica entre ideas (causa, contraste, condición), no solo las palabras clave.","A grandes rasgos, el informe concluye que el plan es viable, aunque conviene destacar los riesgos de financiación."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el mejor resumen para una audiencia con poco tiempo?",["A grandes rasgos, el informe recomienda una expansión gradual, condicionada a la obtención de financiación externa.","El informe tiene muchas páginas sobre expansión y financiación y otras cosas.","La expansión será perfecta si todos se esfuerzan.","Hay financiación, expansión y un informe involucrados."],0,"Un buen resumen prioriza la decisión, la condición y el riesgo principal."],
+      ["fill","Completa: \"___, el estudio muestra una mejora moderada pero constante en los resultados.\"",["En síntesis","So pena de","De ahí que","Cabría"],0,"\"En síntesis\" introduce una conclusión general que cierra el resumen."],
+      ["mcq","¿Qué distingue una buena mediación (resumen) de una simple lista de palabras clave?",["Conserva las relaciones lógicas (causa, contraste, condición) entre las ideas originales.","Elimina toda relación lógica y deja solo términos sueltos.","Debe ser siempre más larga que el texto original.","No debe incluir ninguna conclusión."],0,"La mediación exige preservar el sentido y las conexiones, no solo el vocabulario."],
+      ["writing","Resume en 60-80 palabras un informe imaginario que evalúa dos opciones estratégicas, indicando la recomendación principal y una condición o riesgo.",[],["en síntesis","el punto central","conviene destacar"],"Prioriza la decisión, la razón y una condición o riesgo relevante.","Resumen ejecutivo para la dirección."]
+    ]
+  },
+  {
+    id:"es_c1_concession_refutation", level:"C1", title:"Concesión avanzada y refutación", emoji:"⚔️", xp:92,
+    description:"Reconoce argumentos contrarios con fuerza retórica antes de refutarlos con precisión.",
+    study:{
+      vocab:[
+        ["si bien... no es menos cierto que","while... it's no less true that"],
+        ["lejos de","far from"],
+        ["ello no obsta para que","that doesn't prevent"],
+        ["en última instancia","ultimately / in the last resort"]
+      ],
+      grammar:[
+        ["Concesión avanzada y refutación","Estas estructuras reconocen un argumento contrario con fuerza retórica antes de refutarlo o matizarlo con precisión.","Si bien el plan reduce costes, no es menos cierto que introduce riesgos considerables."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué oración refuta un argumento con más precisión retórica?",["Lejos de resolver el problema, la medida podría agravarlo a largo plazo.","La medida es mala, ya está.","No sirve para nada, obviamente.","Todo el mundo sabe que está mal."],0,"'Lejos de' introduce una refutación matizada y argumentada, no una simple negación."],
+      ["fill","Completa: \"El proyecto generó beneficios; ___, no cubrió los costes iniciales.\"",["ello no obsta para que se reconozca que","dado que","de ahí que","en la medida en que"],0,"'Ello no obsta para que + subjuntivo' introduce una concesión seguida de matización."],
+      ["mcq","¿Qué función retórica cumple 'si bien... no es menos cierto que'?",["Reconoce un punto válido antes de introducir una objeción igualmente sólida.","Niega por completo el primer punto.","Expresa duda total sobre ambos puntos.","Es una fórmula puramente informal."],0,"Es una estructura de concesión-refutación característica del registro argumentativo culto."],
+      ["writing","Escribe un párrafo de 80-100 palabras que refute con matices una postura sobre un tema controvertido (por ejemplo, la automatización del empleo), usando al menos dos estructuras de concesión-refutación.",[],["si bien","lejos de","en última instancia"],"Reconoce primero el punto contrario y luego matízalo o refútalo con precisión.","Artículo de opinión para una revista especializada."]
     ]
   },
 ];
