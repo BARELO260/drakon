@@ -220,255 +220,75 @@ window.LESSON_BANKS.IT = [
     ]
   },
   {
-    id:"it_b1_reading_notices", level:"B1", title:"Lettura e decisioni", emoji:"📌", xp:55,
-    description:"Estrai informazioni pratiche da avvisi e messaggi quotidiani.",
-    study:{
-      vocab:[
-        ["disponibile su richiesta","available on request"],
-        ["soggetto a modifiche","subject to change"],
-        ["avere i requisiti","to be eligible"],
-        ["la scadenza","deadline"]
+    id:"it_b1_future_plans", level:"B1", title:"Il futuro: progetti e previsioni", emoji:"🔮", xp:50,
+    description:"Habla de planes futuros y predicciones usando el futuro semplice en italiano.",
+    study: {
+      vocab: [
+        ["domani, la settimana prossima, l'anno prossimo", "tomorrow, next week, next year"],
+        ["viaggerò, studierai, vivrà", "I will travel, you will study, he/she will live"],
+        ["stare per + infinito (futuro prossimo)", "going to + infinitive"],
+        ["probabilmente, sicuramente", "probably, surely"]
       ],
-      grammar:[
-        ["Lettura selettiva","Cerca prima lo scopo, la condizione e l'azione richiesta.","Le prenotazioni si confermano solo dopo il pagamento."]
+      grammar: [
+        ["Futuro semplice regolare", "Terminaciones: -erò/-irò, -erai/-irai, -erà/-irà...", "Viaggerò in Giappone l'anno prossimo."],
+        ["Stare per + infinito (futuro prossimo)", "Para planes muy cercanos o inminentes.", "Sto per partire."]
       ]
     },
     ex:[
-      ["mcq","Avviso: \"I posti del workshop sono riservati ai soci fino a venerdì; poi i posti restanti saranno liberati.\" Cosa deve fare una persona non socia?",["Aspettare fino a venerdì per sapere se restano posti.","Prenotare oggi perché ha la priorità.","Pagare una quota obbligatoria prima di venerdì.","Supporre che il workshop sia annullato."],0,"L'avviso indica una priorità temporanea per i soci, non un'esclusività permanente."],
-      ["mcq","Messaggio: \"Invia il modulo entro le 17 di giovedì. Le domande tardive saranno considerate solo se restano posti.\" Qual è l'azione più sicura?",["Inviare il modulo prima delle 17 di giovedì.","Aspettare la conferma che restano posti.","Inviare venerdì perché le domande tardive sono sempre accettate.","Chiamare per annullare la domanda."],0,"\"Entro\" segna una scadenza chiara; \"solo se\" non garantisce l'accettazione tardiva."],
-      ["fill","Completa: \"I candidati devono essere ___ per il programma prima di richiedere il finanziamento.\"",["idonei","disponibili","soggetti","scaduti"],0,"\"Idoneo\" significa che soddisfa i requisiti necessari."],
-      ["writing","Scrivi un'email di 45-60 parole per chiedere se puoi ancora fare domanda dopo la scadenza.",[],["tardiva","domanda","disponibile"],"Includi un saluto, una richiesta chiara e una chiusura adatta.","Scrivi al coordinatore di un corso che si è chiuso ieri."]
+      ["mcq", "¿Cómo se dice \"I will travel\" en italiano?", ["Viaggerò","Viaggio","Viaggiavo","Viaggiando"], 0, "Viaggerò = I will travel (futuro semplice). Viaggio = I travel (presente)."],
+      ["fill", "Completa: \"L'anno prossimo, ___ in Spagna.\" (I will travel)", ["viaggerò","viaggio","viaggiavo","viaggiare"], 0, "\"Viaggerò\" es la primera persona del futuro semplice: viaggiare + ò."],
+      ["mcq", "¿Cuál es la diferencia entre \"viaggerò\" y \"sto per viaggiare\"?", ["Ambos son futuro, pero \"sto per\" indica algo inminente","\"Viaggerò\" es pasado","\"Sto per viaggiare\" es presente","No hay diferencia"], 0, "El futuro semplice expresa predicciones o planes generales; \"stare per + infinito\" indica algo a punto de suceder."],
+      ["translate", "Traduce al italiano: \"She will study medicine next year.\"", ["Studierà medicina l'anno prossimo","Studia medicina","Ha studiato medicina","Sta studiando medicina"], 0, "\"Studierà\" es tercera persona del futuro semplice de \"studiare\"."],
+      ["mcq", "¿Cómo se dice \"next week\" en italiano?", ["La settimana prossima","La settimana scorsa","Questa settimana","Tutti i giorni"], 0, "La settimana prossima = next week. La settimana scorsa = last week."],
+      ["arrange", "Ordena: [domani / lavorerò / non]", ["Domani non lavorerò","Non lavorerò domani","Lavorerò non domani","Domani lavorerò non"], 0, "\"Domani non lavorerò.\" = Tomorrow I will not work."],
     ]
   },
   {
-    id:"it_b1_opinions", level:"B1", title:"Opinioni e punti di vista", emoji:"🎧", xp:58,
-    description:"Distingui fatti, preferenze e ragioni in conversazioni quotidiane.",
-    study:{
-      vocab:[
-        ["preferirei","I would rather"],
-        ["si scopre che","it turns out"],
-        ["vale la pena","it's worth it"],
-        ["scoraggiare qualcuno","to put someone off"]
+    id:"it_b1_travel_directions", level:"B1", title:"Viaggi e indicazioni stradali", emoji:"🧭", xp:52,
+    description:"Pide y da indicaciones para llegar a un lugar en italiano.",
+    study: {
+      vocab: [
+        ["l'aeroporto, la stazione", "airport, train station"],
+        ["Come arrivo a... ?", "How do I get to...?"],
+        ["giri a destra/sinistra, vada dritto", "turn right/left, go straight"],
+        ["prenotare un volo/un albergo", "to book a flight/hotel"]
       ],
-      grammar:[
-        ["Opinione con giustificazione","Una risposta B1 deve includere un'opinione e una ragione.","Preferirei viaggiare in treno perché posso lavorare durante il viaggio."]
+      grammar: [
+        ["Imperativo formale (Lei)", "Se usa para dar indicaciones formales: giri, vada, prenda.", "Giri a destra all'angolo."],
+        ["Preposizioni di luogo", "vicino a, lontano da, accanto a, di fronte a.", "L'albergo è vicino alla stazione."]
       ]
     },
     ex:[
-      ["mcq","Leggi: \"Maya si aspettava che il corso fosse difficile, ma si scopre che il feedback settimanale lo rende gestibile.\" Cosa pensa Maya?",["Il corso è impegnativo, ma il supporto la aiuta a seguirlo.","Il corso è troppo facile.","Il feedback rende il corso più difficile.","Ha lasciato il corso per mancanza di supporto."],0,"L'aspettativa iniziale viene contrastata da un bilancio finale più positivo."],
-      ["mcq","Quale risposta esprime preferenza e motivo?",["Preferirei incontrarci online perché fa risparmiare tempo di viaggio.","Mi incontro online ieri.","Gli incontri online sono un tempo di viaggio.","Preferisco perché incontri."],0,"La struttura include preferenza, opzione e giustificazione."],
-      ["fill","Completa: \"Il prezzo era alto, ma l'esperienza ne ___ la pena.\"",["valeva","preferiva","scopriva","scoraggiava"],0,"L'espressione fissa è \"valerne la pena\"."],
-      ["speaking","Parla per 45-60 parole: confronta studiare da solo e studiare con altri. Dai una preferenza, una ragione e uno svantaggio.",[],["preferisco","perché","tuttavia"],"Organizza la risposta: confronto, preferenza, ragione e riserva.","Conversazione con un compagno di classe."]
+      ["mcq", "¿Cómo se dice \"How do I get to the airport?\" en italiano?", ["Come arrivo all'aeroporto?","Dove abiti?","Che ore sono?","Quanto costa?"], 0, "\"Come arrivo a...?\" se usa para pedir indicaciones de cómo llegar a un lugar."],
+      ["fill", "Completa: \"___ a destra al semaforo.\" (turn, imperativo formale)", ["Giri","Girare","Girando","Ha girato"], 0, "\"Giri\" es el imperativo formal (Lei) del verbo \"girare\"."],
+      ["mcq", "¿Qué significa \"andare dritto\"?", ["To go straight ahead","To turn right","To turn left","To stop"], 0, "Andare dritto = to go straight ahead."],
+      ["translate", "Traduce al italiano: \"The hotel is next to the train station.\"", ["L'albergo è accanto alla stazione","L'albergo è lontano dalla stazione","L'albergo è nella stazione","La stazione è nell'albergo"], 0, "\"Accanto a\" = next to, describe la ubicación relativa entre dos lugares."],
+      ["mcq", "¿Cómo se dice \"to book a flight\" en italiano?", ["Prenotare un volo","Perdere un volo","Cancellare un volo","Pagare un volo"], 0, "Prenotare un volo = to book a flight. Perdere = to miss, cancellare = to cancel."],
+      ["arrange", "Ordena: [destra / a / giri]", ["Giri a destra","A destra giri","Destra giri a","Giri destra a"], 0, "\"Giri a destra.\" = Turn right. Verbo (imperativo) + preposición + sustantivo."],
     ]
   },
   {
-    id:"it_b1_storytelling", level:"B1", title:"Raccontare un'esperienza", emoji:"🗺️", xp:60,
-    description:"Racconta esperienze passate combinando passato prossimo e imperfetto.",
-    study:{
-      vocab:[
-        ["all'inizio","at first"],
-        ["alla fine","eventually"],
-        ["inaspettatamente","unexpectedly"],
-        ["rendersi conto","to realise"]
+    id:"it_b1_advice_recommendations", level:"B1", title:"Dare consigli e raccomandazioni", emoji:"💡", xp:54,
+    description:"Aprende a dar consejos y recomendaciones en italiano.",
+    study: {
+      vocab: [
+        ["dovresti", "you should"],
+        ["ti consiglio di", "I recommend that you"],
+        ["è importante che", "it's important that"],
+        ["al tuo posto", "if I were you (in your place)"]
       ],
-      grammar:[
-        ["Passato prossimo vs. imperfetto","L'imperfetto descrive lo sfondo o un'azione in corso; il passato prossimo racconta azioni concluse.","Mentre aspettavamo l'autobus, ha iniziato a piovere."]
+      grammar: [
+        ["\"Dovere\" al condizionale per dare consigli", "\"Dovresti\" + infinito expresa un consejo directo.", "Dovresti riposarti di più."],
+        ["\"Al tuo posto\" + condizionale", "Estructura fija para dar consejos hipotéticos.", "Al tuo posto, parlerei con lei."]
       ]
     },
     ex:[
-      ["mcq","Quale frase usa correttamente passato prossimo e imperfetto?",["Mentre camminavamo nel parco, abbiamo visto un incidente.","Mentre abbiamo camminato nel parco, vedevamo un incidente.","Mentre camminavamo nel parco, vedevamo un incidente ieri.","Abbiamo camminato nel parco mentre abbiamo visto."],0,"Lo sfondo (camminavamo) va all'imperfetto; l'azione puntuale (abbiamo visto) va al passato prossimo."],
-      ["fill","Completa: \"Non mi ___ conto di quanto fosse tardi finché non ho guardato il telefono.\"",["sono reso","rendevo","rendo","rendevo conto"],0,"\"Rendersi conto\" al passato prossimo per un'azione puntuale: \"mi sono reso conto\"."],
-      ["translate","Traduci: \"At first I was nervous, but eventually I enjoyed the experience.\"",["All'inizio ero nervoso, ma alla fine ho apprezzato l'esperienza.","All'inizio sono stato nervoso, ma alla fine apprezzavo l'esperienza.","All'inizio ero nervoso, ma alla fine apprezzavo molto l'esperienza.","All'inizio ero nervoso, ma alla fine ho apprezzato dell'esperienza."],0,"Lo stato d'animo di sfondo va all'imperfetto (\"ero\"); l'azione completa va al passato prossimo (\"ho apprezzato\")."],
-      ["writing","Scrivi una storia di 80-100 parole su un piano che è cambiato inaspettatamente.",[],["all'inizio","ma","alla fine"],"Controlla che ogni parte faccia avanzare la storia e che i tempi verbali siano coerenti.","Un breve viaggio che non è andato come previsto."]
-    ]
-  },
-  {
-    id:"it_b1_agreement", level:"B1", title:"Discutere e trovare un accordo", emoji:"🤝", xp:62,
-    description:"Proponi opzioni, rispondi alle idee altrui e negozia una decisione.",
-    study:{
-      vocab:[
-        ["e se...?","shall we...?"],
-        ["capisco il tuo punto","I see your point"],
-        ["che ne dici di...?","how about...?"],
-        ["un compromesso","a compromise"]
-      ],
-      grammar:[
-        ["Linguaggio collaborativo","Per negoziare: proporre, rispondere e cercare un'alternativa condivisa.","Capisco il tuo punto sul costo; che ne dici di scegliere l'opzione più economica?"]
-      ]
-    },
-    ex:[
-      ["mcq","Quale risposta costruisce un accordo?",["Capisco il tuo punto sul costo; che ne dici di invitare meno persone?","La tua idea è brutta, quindi vince la mia.","Non capisco nessun punto.","L'opzione economica sono le persone."],0,"Riconosce un'idea e propone un compromesso concreto."],
-      ["fill","Completa: \"___ ci vediamo in biblioteca dopo lezione?\"",["E se","Sarebbe","Ha fatto","Ha"],0,"\"E se...?\" è un modo comune per proporre qualcosa."],
-      ["mcq","Quale frase esprime un disaccordo cortese?",["Non sono sicuro che funzioni, perché il locale chiude presto.","Non funzionerà mai.","Il tuo locale è terribile.","No, ovviamente no."],0,"Il disaccordo viene attenuato e motivato con una ragione."],
-      ["speaking","Parla per 45-60 parole: proponi un piano per il weekend, rispondi a un'obiezione e offri un compromesso.",[],["propongo","perché","compromesso"],"Includi una proposta concreta, una ragione e una risposta collaborativa.","Organizzi un'attività con un amico con poco budget."]
-    ]
-  },
-  {
-    id:"it_b1_future_plans", level:"B1", title:"Piani e futuro", emoji:"🗓️", xp:60,
-    description:"Parla di piani, intenzioni e previsioni usando diverse forme di futuro.",
-    study:{
-      vocab:[
-        ["ho intenzione di","I intend to"],
-        ["tra poco","soon"],
-        ["appena posso","as soon as I can"],
-        ["è possibile che","it's possible that"]
-      ],
-      grammar:[
-        ["Futuro semplice vs. pensare di + infinito","\"Pensare di + infinito\" esprime un progetto già deciso; il futuro semplice esprime previsioni o decisioni spontanee.","Penso di trasferirmi il mese prossimo. / Credo che domani pioverà."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase esprime un piano già deciso?",["Penso di iniziare un corso di italiano a settembre.","Inizierò un corso se avrò tempo.","Credo che inizierò qualche corso.","Iniziavo un corso l'anno scorso."],0,"\"Pensare di + infinito\" esprime un progetto già deciso."],
-      ["fill","Completa: \"Appena ___ il rapporto, te lo mando.\"",["finisco","finivo","finirò","finivo il"],0,"Dopo \"appena\" per un'azione futura vicina si usa spesso il presente."],
-      ["translate","Traduci: \"As soon as I finish the project, I'll call you.\"",["Appena finisco il progetto, ti chiamo.","Quando finivo il progetto, ti chiamo.","Appena finirò il progetto, ti chiamavo.","Se finisco il progetto, ti chiamerò forse."],0,"\"Appena\" + presente introduce una condizione futura vicina."],
-      ["writing","Scrivi 45-60 parole sui tuoi piani per il prossimo anno. Usa almeno due espressioni di futuro.",[],["ho intenzione","appena","è possibile"],"Combina almeno due modi di parlare del futuro e giustifica un piano.","Racconti i tuoi piani a un amico."]
-    ]
-  },
-  {
-    id:"it_b1_complaints_requests", level:"B1", title:"Reclami e richieste cortesi", emoji:"✉️", xp:60,
-    description:"Formula reclami e richieste formali usando il condizionale di cortesia.",
-    study:{
-      vocab:[
-        ["vorrei","I would like"],
-        ["potrebbe...?","could you...?"],
-        ["mi dispiace informarla","I regret to inform you"],
-        ["presentare un reclamo","to file a complaint"]
-      ],
-      grammar:[
-        ["Condizionale di cortesia","\"Vorrei\" e \"potrebbe\" rendono più gentili richieste e reclami formali.","Vorrei sapere perché l'ordine è arrivato in ritardo."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase è un reclamo formale e cortese?",["Vorrei sapere perché il pacco è arrivato con una settimana di ritardo.","Questo è un disastro totale!","La vostra azienda non fa mai niente bene.","Non intendo pagare nulla."],0,"Formula il reclamo in modo indiretto e rispettoso, senza perdere chiarezza."],
-      ["fill","Completa: \"___ mandarmi una copia della fattura, per favore?\"",["Potrebbe","Può","Ha potuto","Posso"],0,"\"Potrebbe\" al condizionale rende la richiesta più gentile e formale."],
-      ["translate","Traduci: \"I would like to file a complaint about the service.\"",["Vorrei presentare un reclamo sul servizio.","Voglio lamentare il servizio.","Mi piace presentare un reclamo del servizio.","Presenterei un reclamo il servizio."],0,"\"Vorrei\" + infinito è la formula standard di cortesia."],
-      ["writing","Scrivi un'email di reclamo di 50-70 parole su un ordine arrivato incompleto. Usa il condizionale di cortesia.",[],["vorrei","potrebbe","mi dispiace"],"Spiega il problema, formula una richiesta chiara e chiudi in modo cortese.","Un ordine online è arrivato con due articoli mancanti."]
-    ]
-  },
-  {
-    id:"it_b2_hypotheticals", level:"B2", title:"Ipotesi e condizioni improbabili", emoji:"🌀", xp:75,
-    description:"Esprimi ipotesi poco probabili o irreali con se + congiuntivo imperfetto.",
-    study:{
-      vocab:[
-        ["se avessi","if I had"],
-        ["nel caso in cui","in case"],
-        ["a meno che","unless"],
-        ["supponendo che","assuming that"]
-      ],
-      grammar:[
-        ["Periodo ipotetico della possibilità (secondo tipo)","Per ipotesi poco probabili al presente: se + congiuntivo imperfetto, condizionale presente nella principale.","Se avessi più tempo, viaggerei più spesso."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase esprime correttamente un'ipotesi poco probabile?",["Se avessi più soldi, comprerei una casa più grande.","Se ho più soldi, comprerei una casa più grande.","Se avessi più soldi, compro una casa più grande.","Se avrei più soldi, comprerei una casa."],0,"Il secondo tipo richiede il congiuntivo imperfetto nella condizione e il condizionale presente nella conseguenza."],
-      ["fill","Completa: \"A meno che non ___ uno sforzo extra, non finiremo in tempo.\"",["facciamo","facessimo","faremmo","abbiamo fatto"],0,"'A meno che' richiede il congiuntivo; nel registro standard si usa qui il congiuntivo presente 'facciamo'."],
-      ["mcq","Qual è la migliore parafrasi di \"Se fossi in te, non accetterei quell'offerta\"?",["Un consiglio ipotetico: chi parla non accetterebbe l'offerta al posto dell'ascoltatore.","Un ordine diretto.","La descrizione di un fatto passato.","Una promessa per il futuro."],0,"La struttura ipotetica esprime un consiglio, non un fatto né un ordine."],
-      ["writing","Scrivi 60-80 parole: descrivi cosa faresti diversamente se potessi rivivere un anno della tua vita. Usa almeno due ipotesi con 'se'.",[],["se avessi","a meno che","supponendo"],"Controlla che ogni ipotesi combini correttamente congiuntivo imperfetto e condizionale.","Riflessione personale per un blog."]
-    ]
-  },
-  {
-    id:"it_b2_reported_speech", level:"B2", title:"Discorso indiretto", emoji:"💬", xp:78,
-    description:"Riporta ciò che altri hanno detto adattando tempi verbali e indicatori temporali.",
-    study:{
-      vocab:[
-        ["ha detto che","he/she said that"],
-        ["ha spiegato che","he/she explained that"],
-        ["ha chiesto se","he/she asked whether"],
-        ["ha aggiunto che","he/she added that"]
-      ],
-      grammar:[
-        ["Discorso indiretto","Al passato, il futuro diventa condizionale passato e il presente spesso diventa imperfetto.","Ha detto: 'Arriverò in ritardo.' → Ha detto che sarebbe arrivato in ritardo."]
-      ]
-    },
-    ex:[
-      ["mcq","Citazione diretta: \"Finirò il rapporto domani.\" Qual è il discorso indiretto corretto?",["Ha detto che avrebbe finito il rapporto il giorno dopo.","Ha detto che finirà il rapporto domani.","Ha detto che finiva il rapporto domani.","Ha detto che finisca il rapporto il giorno dopo."],0,"Il futuro della citazione originale diventa condizionale passato; 'domani' diventa 'il giorno dopo'."],
-      ["fill","Completa: \"Mi ha chiesto se ___ disponibile per la riunione di lunedì.\"",["fossi","sono","sarò","sia"],0,"Il presente della citazione originale diventa imperfetto nel discorso indiretto al passato."],
-      ["mcq","Cosa cambia di solito passando dal discorso diretto a quello indiretto al passato?",["Il tempo verbale e a volte i marcatori temporali (domani → il giorno dopo).","Solo il soggetto della frase.","Niente cambia mai.","Solo l'ordine delle parole."],0,"Il tempo verbale si sposta indietro nel passato e alcuni marcatori temporali cambiano."],
-      ["writing","Riporta al discorso indiretto (50-70 parole) una conversazione recente in cui qualcuno ti ha raccontato i suoi piani.",[],["ha detto che","ha spiegato","ha aggiunto"],"Adatta correttamente tempi verbali e marcatori temporali.","Racconti a un amico cosa ti ha detto un collega."]
-    ]
-  },
-  {
-    id:"it_b2_passive_impersonal", level:"B2", title:"Passivo e si passivante", emoji:"⚙️", xp:76,
-    description:"Descrivi processi e fatti senza mettere in evidenza chi li compie.",
-    study:{
-      vocab:[
-        ["essere + participio passato","to be + past participle (passive)"],
-        ["si + verbo","impersonal/passive 'si' construction"],
-        ["essere portato a termine","to be carried out"],
-        ["occuparsi di","to be in charge of"]
-      ],
-      grammar:[
-        ["Passivo e si passivante","Il passivo con 'essere' mette in evidenza l'azione; il 'si' passivante è più naturale quando l'agente non è importante.","Il progetto è stato approvato dal comitato. / Si è approvato il progetto."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase usa correttamente il 'si' passivante?",["Si sono firmati i contratti ieri pomeriggio.","Si è firmato i contratti ieri pomeriggio.","È stato firmato i contratti ieri.","Si firmava i contratti da qualcuno."],0,"Il verbo concorda al plurale con 'i contratti': 'si sono firmati'."],
-      ["fill","Completa: \"Il nuovo edificio ___ progettato da un'azienda internazionale.\"",["è stato","si è","ha","era in via di essere"],0,"Con un agente esplicito ('da un'azienda'), si preferisce il passivo con 'essere'."],
-      ["mcq","Quando si preferisce il 'si' passivante rispetto al passivo con 'essere'?",["Quando l'agente non è rilevante o non è noto.","Quando si vuole sempre nominare l'agente.","Mai nell'italiano naturale.","Solo nei testi letterari antichi."],0,"Il 'si' passivante è la forma naturale quando l'agente non è rilevante."],
-      ["writing","Descrivi in 50-70 parole un processo (per esempio, come si organizza un evento) usando almeno due costruzioni passive o impersonali.",[],["si + verbo","è stato + participio","portato a termine"],"Usa almeno due costruzioni diverse in modo coerente.","Spieghi una procedura a un nuovo membro del team."]
-    ]
-  },
-  {
-    id:"it_b2_doubt_probability", level:"B2", title:"Dubbio, probabilità e certezza", emoji:"❓", xp:78,
-    description:"Distingui quando usare il congiuntivo o l'indicativo secondo il grado di certezza.",
-    study:{
-      vocab:[
-        ["dubito che","I doubt that"],
-        ["non credo che","I don't think that"],
-        ["è probabile che","it's likely that"],
-        ["può darsi che","it might be that"]
-      ],
-      grammar:[
-        ["Congiuntivo con dubbio e probabilità","I verbi ed espressioni di dubbio o negazione di certezza richiedono il congiuntivo nella subordinata.","Dubito che il progetto sia pronto per venerdì."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase è grammaticalmente corretta?",["Non credo che la proposta sia fattibile a breve termine.","Non credo che la proposta è fattibile a breve termine.","Non credo che la proposta sarà fattibile a breve termine.","Non credo che la proposta fattibile a breve termine."],0,"\"Non credo che\" nega la certezza, quindi richiede il congiuntivo: \"sia\"."],
-      ["fill","Completa: \"Può darsi che ___ già preso la decisione quando arriveremo.\"",["abbiano","hanno","prenderanno","prendevano"],0,"'Può darsi che' + congiuntivo (qui, congiuntivo passato per un'azione precedente)."],
-      ["mcq","Quale espressione NON richiede il congiuntivo nella proposizione seguente?",["Sono sicuro che...","Dubito che...","Non credo che...","È possibile che..."],0,"'Sono sicuro che' esprime certezza, quindi si usa l'indicativo, non il congiuntivo."],
-      ["speaking","Parla per 60-80 parole: dai la tua opinione sul fatto che il telelavoro diventi la norma. Usa almeno un'espressione di dubbio e una di certezza.",[],["dubito che","è probabile","sono sicuro"],"Alterna correttamente congiuntivo e indicativo secondo il grado di certezza.","Dibattito informale sul futuro del lavoro."]
-    ]
-  },
-  {
-    id:"it_b2_contrast_connectors", level:"B2", title:"Connettivi di contrasto", emoji:"⚖️", xp:76,
-    description:"Usa 'sebbene' e altri connettivi per sfumare idee e contrastare fatti.",
-    study:{
-      vocab:[
-        ["sebbene","although"],
-        ["nonostante","despite"],
-        ["tuttavia","however"],
-        ["però","but / however"]
-      ],
-      grammar:[
-        ["Connettivi di contrasto","'Sebbene' e 'nonostante' richiedono il congiuntivo, anche per un fatto reale.","Sebbene abbia piovuto, siamo usciti a camminare."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale frase usa correttamente 'sebbene'?",["Sebbene il volo abbia subito un ritardo, siamo arrivati in orario alla riunione.","Sebbene il volo ha subito un ritardo, siamo arrivati in orario.","Sebbene il volo subiva un ritardo, siamo arrivati.","Sebbene il volo subirà un ritardo, arriviamo in orario."],0,"'Sebbene' richiede sempre il congiuntivo, anche per un fatto accertato."],
-      ["fill","Completa: \"___ il rapporto fosse incompleto, lo abbiamo inviato prima della scadenza.\"",["Nonostante","Tuttavia","Però","Può darsi che"],0,"'Nonostante' introduce una subordinata di contrasto con un fatto reale."],
-      ["mcq","Quale connettivo introduce tipicamente una nuova frase invece di una subordinata nella stessa frase?",["Tuttavia","Sebbene","Nonostante","Perché"],0,"'Tuttavia' funziona come connettivo tra frasi, non come subordinante."],
-      ["writing","Scrivi un paragrafo di 60-80 parole presentando un'opinione e sfumandola con almeno due connettivi di contrasto diversi.",[],["sebbene","tuttavia","però"],"Combina correttamente i connettivi subordinanti e quelli che uniscono frasi.","Opinione su un tema d'attualità per un forum."]
-    ]
-  },
-  {
-    id:"it_b2_debate_nuance", level:"B2", title:"Argomentare con sfumature", emoji:"🗣️", xp:80,
-    description:"Costruisci argomenti che riconoscono il punto contrario prima di difendere una posizione.",
-    study:{
-      vocab:[
-        ["da un lato / dall'altro","on one hand / on the other hand"],
-        ["è innegabile che","it's undeniable that"],
-        ["vale la pena notare che","it's worth noting that"],
-        ["in definitiva","ultimately"]
-      ],
-      grammar:[
-        ["Argomentazione sfumata","Un buon argomento B2 riconosce il punto contrario prima di difendere una posizione.","È innegabile che il piano riduca i costi, ma vale la pena notare che comporta anche dei rischi."]
-      ]
-    },
-    ex:[
-      ["mcq","Quale struttura mostra un argomento ben sfumato?",["È innegabile che il progetto sia costoso, ma a lungo termine potrebbe risparmiare risorse.","Il progetto è costoso, punto.","Il progetto ovviamente non costa nulla.","Non c'è nessun argomento contro il progetto."],0,"Riconosce un punto contrario prima di sfumarlo con un vantaggio a lungo termine."],
-      ["fill","Completa: \"___, la proposta ha più vantaggi che svantaggi.\"",["In definitiva","Sebbene","A meno che","Dubito che"],0,"'In definitiva' si usa per chiudere un argomento con una conclusione generale."],
-      ["mcq","Che funzione ha \"vale la pena notare che\" in un argomento?",["Evidenzia un punto che chi parla considera particolarmente rilevante.","Introduce un'ipotesi irreale.","Esprime dubbio totale sul tema.","Chiude la conversazione bruscamente."],0,"È una formula per mettere in risalto un punto rilevante nell'argomento."],
-      ["writing","Scrivi un paragrafo argomentativo di 70-90 parole su un tema dibattuto (per esempio, il lavoro da remoto). Riconosci un punto contrario prima di difendere la tua posizione.",[],["da un lato","è innegabile","in definitiva"],"Struttura: riconoscimento del punto contrario, la tua posizione e una conclusione.","Contributo a un dibattito scritto in classe."]
+      ["mcq", "¿Cómo se dice \"You should rest more\" en italiano?", ["Dovresti riposarti di più","Ti riposi di più","Ti sei riposato di più","Riposandoti di più"], 0, "\"Dovresti\" (condizionale di dovere) + infinito es la forma estándar de dar un consejo."],
+      ["fill", "Completa: \"___, parlerei con il capo.\" (If I were you)", ["Al tuo posto","Al mio posto","Il tuo posto","Sono te"], 0, "\"Al tuo posto\" es la expresión fija para dar un consejo hipotético en italiano."],
+      ["mcq", "¿Qué significa \"ti consiglio di studiare\"?", ["I recommend that you study","I studied with you","You recommend I study","I will study with you"], 0, "\"Ti consiglio di\" + infinito expresa una recomendación dirigida a otra persona."],
+      ["translate", "Traduce al italiano: \"It's important that you arrive early.\"", ["È importante che tu arrivi presto","È importante arrivare tardi","Sei arrivato presto importante","È importante che sei arrivato presto"], 0, "\"È importante che\" requiere congiuntivo: \"tu arrivi\" (no \"arrivi\" indicativo)."],
+      ["mcq", "¿Cómo se dice \"if I were you\" en italiano?", ["Al tuo posto","Al mio posto","Se sono te","Se sei me"], 0, "\"Al tuo posto\" es la expresión fija para dar un consejo hipotético."],
+      ["arrange", "Ordena: [di più / dovresti / dormire]", ["Dovresti dormire di più","Di più dovresti dormire","Dormire dovresti di più","Dovresti di più dormire"], 0, "\"Dovresti dormire di più.\" = You should sleep more."],
     ]
   },
 ];
