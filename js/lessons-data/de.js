@@ -220,75 +220,381 @@ window.LESSON_BANKS.DE = [
     ]
   },
   {
-    id:"de_b1_future_plans", level:"B1", title:"Die Zukunft: Pläne und Vorhersagen", emoji:"🔮", xp:50,
-    description:"Habla de planes futuros y predicciones usando el Futur I en alemán.",
-    study: {
-      vocab: [
-        ["morgen, nächste Woche, nächstes Jahr", "tomorrow, next week, next year"],
-        ["ich werde reisen, du wirst studieren, er/sie wird leben", "I will travel, you will study, he/she will live"],
-        ["werden + Infinitiv (Futur I)", "will + infinitive"],
-        ["wahrscheinlich, sicherlich", "probably, surely"]
+    id:"de_b1_reading_notices", level:"B1", title:"Lesen und Entscheidungen", emoji:"📌", xp:55,
+    description:"Entnimm praktische Informationen aus Hinweisen und Nachrichten des Alltags.",
+    study:{
+      vocab:[
+        ["auf Anfrage erhältlich","available on request"],
+        ["Änderungen vorbehalten","subject to change"],
+        ["die Voraussetzungen erfüllen","to be eligible"],
+        ["die Frist","deadline"]
       ],
-      grammar: [
-        ["Futur I: werden + Infinitiv", "Sujeto + werden (conjugado) + infinitivo al final de la frase.", "Ich werde nächstes Jahr nach Japan reisen."],
-        ["Präsens für geplante Zukunft", "El alemán también usa el presente + expresión temporal para planes cercanos.", "Ich studiere heute Abend."]
+      grammar:[
+        ["Selektives Lesen","Suche zuerst nach Zweck, Bedingung und geforderter Handlung.","Buchungen werden erst nach Zahlungseingang bestätigt."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"I will travel\" en alemán?", ["Ich werde reisen","Ich reise","Ich reiste","Beim Reisen"], 0, "Ich werde reisen = I will travel (Futur I). Ich reise = I travel (presente)."],
-      ["fill", "Completa: \"Nächstes Jahr ___ ich nach Spanien ___.\" (I will travel)", ["werde / reisen","reise / -","reiste / -","würde / reisen"], 0, "El Futur I se forma con \"werden\" conjugado y el infinitivo al final: werde ... reisen."],
-      ["mcq", "¿Cuál es la estructura del Futur I?", ["werden (conjugado) + infinitivo al final","haben + participio","sein + Adjektiv","Modalverb + Infinitiv"], 0, "El Futur I siempre usa \"werden\" conjugado, con el infinitivo del verbo principal al final de la frase."],
-      ["translate", "Traduce al alemán: \"She will study medicine next year.\"", ["Sie wird nächstes Jahr Medizin studieren","Sie studiert Medizin","Sie hat Medizin studiert","Sie studiert gerade Medizin"], 0, "\"Wird ... studieren\" es el Futur I en tercera persona."],
-      ["mcq", "¿Cómo se dice \"next week\" en alemán?", ["Nächste Woche","Letzte Woche","Diese Woche","Jeden Tag"], 0, "Nächste Woche = next week. Letzte Woche = last week."],
-      ["arrange", "Ordena: [morgen / werde / arbeiten / ich]", ["Ich werde morgen arbeiten","Morgen werde ich arbeiten","Arbeiten werde ich morgen","Ich morgen werde arbeiten"], 0, "\"Ich werde morgen arbeiten.\" = I will work tomorrow."],
+      ["mcq","Hinweis: \"Die Workshop-Plätze sind bis Freitag für Mitglieder reserviert; danach werden die restlichen Plätze freigegeben.\" Was sollte eine Person tun, die kein Mitglied ist?",["Bis Freitag warten, um zu erfahren, ob noch Plätze frei sind.","Heute buchen, weil sie Priorität hat.","Vor Freitag eine Pflichtgebühr zahlen.","Annehmen, dass der Workshop abgesagt ist."],0,"Der Hinweis zeigt eine zeitlich begrenzte Priorität für Mitglieder, keine dauerhafte Exklusivität."],
+      ["mcq","Nachricht: \"Bitte reichen Sie das Formular bis Donnerstag 17 Uhr ein. Verspätete Bewerbungen werden nur berücksichtigt, wenn noch Plätze frei sind.\" Was ist die sicherste Handlung?",["Das Formular vor Donnerstag 17 Uhr einreichen.","Warten, bis bestätigt wird, dass Plätze frei sind.","Am Freitag einreichen, weil verspätete Bewerbungen immer akzeptiert werden.","Anrufen, um die Bewerbung zu stornieren."],0,"\"Bis\" markiert eine klare Frist; \"nur wenn\" garantiert keine verspätete Annahme."],
+      ["fill","Ergänze: \"Bewerber müssen für das Programm ___ sein, bevor sie eine Förderung beantragen können.\"",["berechtigt","verfügbar","vorbehalten","begrenzt"],0,"\"Berechtigt\" bedeutet, dass jemand die nötigen Voraussetzungen erfüllt."],
+      ["writing","Schreib eine E-Mail (45-60 Wörter) und frag, ob du dich noch nach der Frist bewerben kannst.",[],["verspätet","Bewerbung","verfügbar"],"Nutze eine Anrede, eine klare Bitte und einen passenden Schluss.","Du schreibst an den Kursleiter eines Kurses, der gestern geschlossen hat."]
     ]
   },
   {
-    id:"de_b1_travel_directions", level:"B1", title:"Reisen und Wegbeschreibungen", emoji:"🧭", xp:52,
-    description:"Pide y da indicaciones para llegar a un lugar en alemán.",
-    study: {
-      vocab: [
-        ["der Flughafen, der Bahnhof", "airport, train station"],
-        ["Wie komme ich zu... ?", "How do I get to...?"],
-        ["biegen Sie rechts/links ab, gehen Sie geradeaus", "turn right/left, go straight"],
-        ["einen Flug/ein Hotel buchen", "to book a flight/hotel"]
+    id:"de_b1_opinions", level:"B1", title:"Meinungen und Standpunkte", emoji:"🎧", xp:58,
+    description:"Unterscheide Fakten, Vorlieben und Gründe in alltäglichen Gesprächen.",
+    study:{
+      vocab:[
+        ["ich würde lieber","I would rather"],
+        ["es stellt sich heraus","it turns out"],
+        ["es lohnt sich","it's worth it"],
+        ["jemanden abschrecken","to put someone off"]
       ],
-      grammar: [
-        ["Formeller Imperativ (Sie)", "Se usa para dar indicaciones formales: biegen Sie ab, gehen Sie, nehmen Sie.", "Biegen Sie rechts an der Ecke ab."],
-        ["Präpositionen des Ortes", "in der Nähe von, weit von, neben, gegenüber.", "Das Hotel ist in der Nähe vom Bahnhof."]
+      grammar:[
+        ["Begründete Meinung","Eine B1-Antwort sollte eine Meinung und einen Grund enthalten.","Ich würde lieber mit dem Zug reisen, weil ich unterwegs arbeiten kann."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"How do I get to the airport?\" en alemán?", ["Wie komme ich zum Flughafen?","Wo wohnen Sie?","Wie spät ist es?","Wie viel kostet das?"], 0, "\"Wie komme ich zu...?\" se usa para pedir indicaciones de cómo llegar a un lugar."],
-      ["fill", "Completa: \"___ Sie rechts an der Ampel ___.\" (turn)", ["Biegen / ab","Gehen / -","Kommen / -","Fahren / ab"], 0, "\"Abbiegen\" es un verbo separable: Biegen Sie ... ab."],
-      ["mcq", "¿Qué significa \"geradeaus gehen\"?", ["To go straight ahead","To turn right","To turn left","To stop"], 0, "Geradeaus gehen = to go straight ahead."],
-      ["translate", "Traduce al alemán: \"The hotel is next to the train station.\"", ["Das Hotel ist neben dem Bahnhof","Das Hotel ist weit vom Bahnhof","Das Hotel ist im Bahnhof","Der Bahnhof ist im Hotel"], 0, "\"Neben\" = next to, describe la ubicación relativa entre dos lugares (con dativo aquí)."],
-      ["mcq", "¿Cómo se dice \"to book a flight\" en alemán?", ["Einen Flug buchen","Einen Flug verpassen","Einen Flug stornieren","Einen Flug bezahlen"], 0, "Einen Flug buchen = to book a flight. Verpassen = to miss, stornieren = to cancel."],
-      ["arrange", "Ordena: [rechts / Sie / biegen / ab]", ["Biegen Sie rechts ab","Rechts biegen Sie ab","Ab biegen Sie rechts","Biegen ab Sie rechts"], 0, "\"Biegen Sie rechts ab.\" = Turn right. Verbo separable: Biegen...ab."],
+      ["mcq","Lies: \"Maya erwartete, dass der Kurs schwierig sein würde, aber es stellt sich heraus, dass das wöchentliche Feedback ihn machbar macht.\" Was denkt Maya?",["Der Kurs ist anspruchsvoll, aber die Unterstützung hilft ihr.","Der Kurs ist zu einfach.","Das Feedback macht den Kurs schwieriger.","Sie hat den Kurs wegen fehlender Unterstützung abgebrochen."],0,"Die anfängliche Erwartung wird durch eine positivere Erfahrung kontrastiert."],
+      ["mcq","Welche Antwort drückt Präferenz und Grund aus?",["Ich würde lieber online treffen, weil es Reisezeit spart.","Ich treffe online gestern.","Online-Treffen sind eine Reisezeit.","Ich bevorzuge weil Treffen."],0,"Die Struktur enthält Präferenz, Option und Begründung."],
+      ["fill","Ergänze: \"Der Preis war hoch, aber die Erfahrung war es ___.\"",["wert","lieber","heraus","abschreckend"],0,"Der feste Ausdruck ist \"es wert sein\"."],
+      ["speaking","Sprich 45-60 Wörter: vergleiche allein lernen und mit anderen lernen. Nenne eine Präferenz, einen Grund und einen Nachteil.",[],["ich bevorzuge","weil","allerdings"],"Strukturiere deine Antwort: Vergleich, Präferenz, Grund und Einschränkung.","Gespräch mit einem Klassenkameraden."]
     ]
   },
   {
-    id:"de_b1_advice_recommendations", level:"B1", title:"Ratschläge und Empfehlungen geben", emoji:"💡", xp:54,
-    description:"Aprende a dar consejos y recomendaciones en alemán.",
-    study: {
-      vocab: [
-        ["du solltest", "you should"],
-        ["ich empfehle dir, ... zu ...", "I recommend that you"],
-        ["es ist wichtig, dass", "it's important that"],
-        ["an deiner Stelle", "if I were you (in your place)"]
+    id:"de_b1_storytelling", level:"B1", title:"Eine Erfahrung erzählen", emoji:"🗺️", xp:60,
+    description:"Erzähle vergangene Erfahrungen mit Perfekt und Präteritum.",
+    study:{
+      vocab:[
+        ["zuerst","at first"],
+        ["schließlich","eventually"],
+        ["unerwartet","unexpectedly"],
+        ["bemerken","to realise"]
       ],
-      grammar: [
-        ["\"Sollen\" im Konjunktiv II für Ratschläge", "\"Du solltest\" + infinitivo expresa un consejo directo.", "Du solltest dich mehr ausruhen."],
-        ["\"An deiner Stelle\" + Konjunktiv II", "Estructura fija para dar consejos hipotéticos.", "An deiner Stelle würde ich mit ihr sprechen."]
+      grammar:[
+        ["Perfekt vs. Präteritum im Erzählen","Präteritum beschreibt oft den Hintergrund (besonders bei \"sein\", \"haben\", Modalverben); das Perfekt erzählt abgeschlossene Handlungen in der gesprochenen Sprache.","Während wir auf den Bus warteten, fing es an zu regnen."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"You should rest more\" en alemán?", ["Du solltest dich mehr ausruhen","Du ruhst dich mehr aus","Du hast dich mehr ausgeruht","Sich mehr ausruhend"], 0, "\"Du solltest\" (Konjunktiv II de sollen) + infinitivo es la forma estándar de dar un consejo."],
-      ["fill", "Completa: \"___ würde ich mit dem Chef sprechen.\" (If I were you)", ["An deiner Stelle","An meiner Stelle","Deine Stelle","Ich bin du"], 0, "\"An deiner Stelle\" es la expresión fija para dar un consejo hipotético en alemán."],
-      ["mcq", "¿Qué significa \"ich empfehle dir zu studieren\"?", ["I recommend that you study","I studied with you","You recommend I study","I will study with you"], 0, "\"Ich empfehle dir zu\" + infinitivo expresa una recomendación dirigida a otra persona."],
-      ["translate", "Traduce al alemán: \"It's important that you arrive early.\"", ["Es ist wichtig, dass du früh ankommst","Es ist wichtig, spät anzukommen","Du bist früh wichtig angekommen","Es ist wichtig, dass du früh angekommen bist"], 0, "\"Es ist wichtig, dass\" + presente expresa una condición actual importante."],
-      ["mcq", "¿Cómo se dice \"if I were you\" en alemán?", ["An deiner Stelle","An meiner Stelle","Wenn ich du bin","Wenn du ich bist"], 0, "\"An deiner Stelle\" es la expresión fija para dar un consejo hipotético."],
-      ["arrange", "Ordena: [mehr / solltest / schlafen / du]", ["Du solltest mehr schlafen","Mehr solltest du schlafen","Schlafen solltest du mehr","Du solltest schlafen mehr"], 0, "\"Du solltest mehr schlafen.\" = You should sleep more."],
+      ["mcq","Welcher Satz verwendet Hintergrund und Handlung korrekt?",["Während wir im Park spazierten, sahen wir einen Unfall.","Während wir im Park spazierten sind, haben wir einen Unfall gesehen.","Während wir im Park spazieren, sahen wir einen Unfall gestern.","Wir spazierten im Park, während wir einen Unfall sahen."],0,"Der Hintergrund (spazierten) steht im Präteritum; die punktuelle Handlung (sahen) ebenfalls, da beide im selben Erzählregister stehen."],
+      ["fill","Ergänze: \"Ich ___ nicht, wie spät es war, bis ich auf mein Handy schaute.\"",["bemerkte","bemerke","habe bemerkt gewesen","bemerken"],0,"Präteritum \"bemerkte\" passt zum erzählenden Hintergrund."],
+      ["translate","Übersetze: \"At first I was nervous, but eventually I enjoyed the experience.\"",["Zuerst war ich nervös, aber schließlich habe ich die Erfahrung genossen.","Zuerst bin ich nervös gewesen, aber schließlich genoss ich die Erfahrung.","Zuerst war ich nervös, aber schließlich genoss ich die Erfahrung sehr.","Zuerst war ich nervös, aber schließlich habe ich genossen die Erfahrung."],0,"Der Hintergrundzustand steht im Präteritum (\"war\"), die abgeschlossene Handlung im Perfekt (\"habe genossen\")."],
+      ["writing","Schreib eine Geschichte (80-100 Wörter) über einen Plan, der sich unerwartet änderte.",[],["zuerst","aber","schließlich"],"Achte darauf, dass jeder Teil die Geschichte voranbringt und die Zeitformen konsistent sind.","Eine kurze Reise, die nicht wie geplant verlief."]
+    ]
+  },
+  {
+    id:"de_b1_agreement", level:"B1", title:"Diskutieren und sich einigen", emoji:"🤝", xp:62,
+    description:"Schlage Optionen vor, reagiere auf fremde Ideen und verhandle eine Entscheidung.",
+    study:{
+      vocab:[
+        ["wollen wir...?","shall we...?"],
+        ["ich verstehe deinen Punkt","I see your point"],
+        ["wie wäre es mit...?","how about...?"],
+        ["ein Kompromiss","a compromise"]
+      ],
+      grammar:[
+        ["Kooperative Sprache","Beim Verhandeln: vorschlagen, reagieren und eine gemeinsame Alternative suchen.","Ich verstehe deinen Punkt zu den Kosten; wie wäre es, die günstigere Option zu wählen?"]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Antwort baut Einigung auf?",["Ich verstehe deinen Punkt zu den Kosten; wie wäre es, weniger Leute einzuladen?","Deine Idee ist schlecht, also gewinnt meine.","Ich verstehe keinen Punkt.","Die günstigere Option sind die Leute."],0,"Erkennt eine Idee an und schlägt einen konkreten Kompromiss vor."],
+      ["fill","Ergänze: \"___ wir uns nach dem Unterricht in der Bibliothek?\"",["Treffen","Würden","Trafen","Haben"],0,"\"Treffen wir uns...?\" ist eine übliche Vorschlagsform im Präsens."],
+      ["mcq","Welcher Satz drückt höflichen Widerspruch aus?",["Ich bin nicht sicher, ob das klappt, weil der Ort früh schließt.","Das wird nie funktionieren.","Dein Ort ist furchtbar.","Nein, natürlich nicht."],0,"Der Widerspruch wird abgemildert und mit einem Grund begründet."],
+      ["speaking","Sprich 45-60 Wörter: schlage einen Plan fürs Wochenende vor, reagiere auf einen Einwand und biete einen Kompromiss an.",[],["ich schlage vor","weil","Kompromiss"],"Nutze einen konkreten Vorschlag, einen Grund und eine kooperative Antwort.","Du organisierst eine Aktivität mit einem Freund mit wenig Budget."]
+    ]
+  },
+  {
+    id:"de_b1_future_plans", level:"B1", title:"Pläne und Zukunft", emoji:"🗓️", xp:60,
+    description:"Sprich über Pläne, Absichten und Vermutungen mit verschiedenen Zukunftsformen.",
+    study:{
+      vocab:[
+        ["ich habe vor","I intend to"],
+        ["bald","soon"],
+        ["sobald ich kann","as soon as I can"],
+        ["es ist möglich, dass","it's possible that"]
+      ],
+      grammar:[
+        ["Präsens für Pläne vs. werden-Futur","Im Deutschen drückt oft das Präsens mit Zeitangabe geplante Handlungen aus; \"werden\" + Infinitiv drückt Vermutungen aus.","Ich ziehe nächsten Monat um. / Ich glaube, es wird morgen regnen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt einen bereits entschiedenen Plan aus?",["Ich beginne im September einen Italienischkurs.","Ich werde einen Kurs beginnen, wenn ich Zeit habe.","Ich glaube, ich werde irgendeinen Kurs beginnen.","Ich begann letztes Jahr einen Kurs."],0,"Das Präsens mit Zeitangabe drückt hier einen bereits entschiedenen Plan aus."],
+      ["fill","Ergänze: \"Sobald ich den Bericht ___, schicke ich ihn dir.\"",["fertig habe","fertig hatte","fertig haben werde","fertig hätte"],0,"Nach \"sobald\" für eine nahe Zukunft steht im Deutschen oft das Präsens."],
+      ["translate","Übersetze: \"As soon as I finish the project, I'll call you.\"",["Sobald ich das Projekt fertig habe, rufe ich dich an.","Als ich das Projekt fertig hatte, rufe ich an.","Sobald ich das Projekt fertig hatte, werde ich anrufen.","Wenn ich das Projekt fertig habe, rief ich an."],0,"\"Sobald\" + Präsens drückt eine nahe zukünftige Bedingung aus."],
+      ["writing","Schreib 45-60 Wörter über deine Pläne für nächstes Jahr. Benutze mindestens zwei Zukunftsausdrücke.",[],["ich habe vor","sobald","es ist möglich"],"Kombiniere mindestens zwei Arten, über die Zukunft zu sprechen, und begründe einen Plan.","Du erzählst einem Freund von deinen Plänen."]
+    ]
+  },
+  {
+    id:"de_b1_complaints_requests", level:"B1", title:"Beschwerden und höfliche Bitten", emoji:"✉️", xp:60,
+    description:"Formuliere Beschwerden und formelle Bitten mit dem Konjunktiv II der Höflichkeit.",
+    study:{
+      vocab:[
+        ["ich hätte gern","I would like"],
+        ["könnten Sie...?","could you...?"],
+        ["ich bedaure, Ihnen mitteilen zu müssen","I regret to inform you"],
+        ["eine Beschwerde einreichen","to file a complaint"]
+      ],
+      grammar:[
+        ["Konjunktiv II der Höflichkeit","\"Hätte gern\" und \"könnten\" machen Bitten und formelle Beschwerden höflicher.","Ich hätte gern gewusst, warum die Bestellung sich verspätet hat."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz ist eine höfliche, formelle Beschwerde?",["Ich hätte gern gewusst, warum das Paket eine Woche zu spät angekommen ist.","Das ist eine totale Katastrophe!","Ihre Firma macht nie etwas richtig.","Ich zahle gar nichts."],0,"Formuliert die Beschwerde indirekt und respektvoll, ohne an Klarheit zu verlieren."],
+      ["fill","Ergänze: \"___ Sie mir bitte eine Kopie der Rechnung schicken?\"",["Könnten","Können","Konnten","Kann"],0,"\"Könnten\" im Konjunktiv II macht die Bitte höflicher und formeller."],
+      ["translate","Übersetze: \"I would like to file a complaint about the service.\"",["Ich möchte mich über den Service beschweren.","Ich will beschweren über den Service.","Ich mag eine Beschwerde des Service einreichen.","Ich würde eine Beschwerde den Service einreichen."],0,"\"Ich möchte\" + Infinitiv ist die Standardformel für höfliche Beschwerden."],
+      ["writing","Schreib eine Beschwerde-E-Mail (50-70 Wörter) über eine unvollständige Bestellung. Benutze höfliche Konjunktivformen.",[],["ich hätte gern","könnten Sie","ich bedaure"],"Erkläre das Problem, formuliere eine klare Bitte und schließe höflich.","Eine Online-Bestellung kam mit zwei fehlenden Artikeln an."]
+    ]
+  },
+  {
+    id:"de_b2_hypotheticals", level:"B2", title:"Hypothesen und irreale Bedingungen", emoji:"🌀", xp:75,
+    description:"Drücke unwahrscheinliche oder irreale Hypothesen mit dem Konjunktiv II aus.",
+    study:{
+      vocab:[
+        ["wenn ich hätte","if I had"],
+        ["falls","in case"],
+        ["es sei denn","unless"],
+        ["angenommen, dass","assuming that"]
+      ],
+      grammar:[
+        ["Irrealer Konditionalsatz (Typ 2)","Für unwahrscheinliche oder irreale Hypothesen in der Gegenwart: wenn + Konjunktiv II, Hauptsatz mit würde + Infinitiv (oder Konjunktiv II bei häufigen Verben).","Wenn ich mehr Zeit hätte, würde ich öfter reisen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt eine unwahrscheinliche Hypothese korrekt aus?",["Wenn ich mehr Geld hätte, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld habe, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld hätte, kaufe ich ein größeres Haus.","Wenn ich mehr Geld würde haben, kaufte ich ein Haus."],0,"Typ 2 verlangt Konjunktiv II im wenn-Satz und würde + Infinitiv (oder Konjunktiv II) im Hauptsatz."],
+      ["fill","Ergänze: \"Es sei denn, wir ___ einen Sondereinsatz, schaffen wir es nicht rechtzeitig.\"",["machen","machten","würden machen","gemacht"],0,"Nach der festen Wendung 'es sei denn' folgt ein Nebensatz im Indikativ: 'wir machen'."],
+      ["mcq","Was ist die beste Umschreibung von \"Wenn ich du wäre, würde ich das Angebot nicht annehmen\"?",["Ein hypothetischer Rat: der Sprecher würde das Angebot an der Stelle des Hörers nicht annehmen.","Ein direkter Befehl.","Eine Beschreibung einer vergangenen Tatsache.","Ein Versprechen für die Zukunft."],0,"Die hypothetische Struktur drückt einen Rat aus, keine Tatsache und keinen Befehl."],
+      ["writing","Schreib 60-80 Wörter: beschreibe, was du anders machen würdest, wenn du ein Jahr deines Lebens wiederholen könntest. Benutze mindestens zwei Hypothesen mit 'wenn'.",[],["wenn ich hätte","es sei denn","angenommen"],"Achte darauf, dass jede Hypothese Konjunktiv II korrekt mit würde/Konjunktiv II kombiniert.","Persönliche Reflexion für einen Blog."]
+    ]
+  },
+  {
+    id:"de_b2_reported_speech", level:"B2", title:"Indirekte Rede", emoji:"💬", xp:78,
+    description:"Gib wieder, was andere gesagt haben, mit dem passenden Modus und Zeitangaben.",
+    study:{
+      vocab:[
+        ["er sagte, dass","he said that"],
+        ["sie erklärte, dass","she explained that"],
+        ["er fragte, ob","he asked whether"],
+        ["sie fügte hinzu, dass","she added that"]
+      ],
+      grammar:[
+        ["Indirekte Rede mit Konjunktiv I","In formeller indirekter Rede wird oft der Konjunktiv I verwendet, besonders wenn er sich vom Indikativ unterscheidet.","Sie sagte: 'Ich komme später.' → Sie sagte, sie komme später."]
+      ]
+    },
+    ex:[
+      ["mcq","Direkte Rede: \"Ich werde den Bericht morgen fertigstellen.\" Was ist die korrekte indirekte Rede?",["Er sagte, er werde den Bericht am nächsten Tag fertigstellen.","Er sagte, er wird den Bericht morgen fertigstellen.","Er sagte, er würde den Bericht morgen fertigstellen gestern.","Er sagte, er fertigstellt den Bericht morgen."],0,"Konjunktiv I ('werde') und die Zeitangabe ändern sich zu 'am nächsten Tag'."],
+      ["fill","Ergänze: \"Sie fragte, ob ich am Montag für das Treffen ___.\"",["verfügbar sei","verfügbar bin","verfügbar werde sein","verfügbar war"],0,"Im indirekten Fragesatz mit 'ob' steht oft der Konjunktiv I der Gegenwart: 'sei'."],
+      ["mcq","Was ändert sich normalerweise beim Wechsel von direkter zu indirekter Rede in der Vergangenheit?",["Der Modus (oft Konjunktiv I) und manchmal Zeitangaben (morgen → am nächsten Tag).","Nur das Subjekt des Satzes.","Nichts ändert sich jemals.","Nur die Wortstellung."],0,"Der Modus wechselt oft zum Konjunktiv I und manche Zeitangaben passen sich an."],
+      ["writing","Berichte in indirekter Rede (50-70 Wörter) ein kürzliches Gespräch, in dem dir jemand seine Pläne erzählt hat.",[],["er sagte, dass","sie erklärte","sie fügte hinzu"],"Passe Modus und Zeitangaben korrekt an.","Du erzählst einem Freund, was dir ein Kollege gesagt hat."]
+    ]
+  },
+  {
+    id:"de_b2_passive_impersonal", level:"B2", title:"Passiv und man-Konstruktion", emoji:"⚙️", xp:76,
+    description:"Beschreibe Prozesse und Fakten, ohne zu betonen, wer sie ausführt.",
+    study:{
+      vocab:[
+        ["werden + Partizip II","to be + past participle (passive)"],
+        ["man + Verb","impersonal 'one' construction"],
+        ["durchgeführt werden","to be carried out"],
+        ["zuständig sein für","to be in charge of"]
+      ],
+      grammar:[
+        ["Passiv und man-Konstruktion","Das Passiv mit 'werden' betont den Vorgang; 'man' ist eine natürliche informelle Alternative, wenn der Handelnde unwichtig ist.","Das Projekt wurde vom Ausschuss genehmigt. / Man genehmigte das Projekt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz verwendet das Passiv korrekt?",["Die Verträge wurden gestern Nachmittag unterschrieben.","Die Verträge wurde gestern Nachmittag unterschrieben.","Die Verträge werden gestern Nachmittag unterschrieben.","Die Verträge sind gestern Nachmittag unterschreiben."],0,"Präteritum Passiv Plural: 'wurden' + Partizip II ('unterschrieben')."],
+      ["fill","Ergänze: \"Das neue Gebäude ___ von einem internationalen Unternehmen entworfen.\"",["wurde","wird","hat","ist"],0,"Präteritum Passiv: 'wurde' + Partizip II ('entworfen')."],
+      ["mcq","Wann wird die man-Konstruktion oft als natürliche Alternative zum Passiv verwendet?",["Wenn der Handelnde nicht wichtig oder unbekannt ist, besonders in gesprochener Sprache.","Wenn man den Handelnden immer nennen möchte.","Nie im natürlichen Deutsch.","Nur in alten literarischen Texten."],0,"'Man' ist im gesprochenen Deutsch sehr häufig, wenn der Handelnde unwichtig ist."],
+      ["writing","Beschreibe in 50-70 Wörtern einen Prozess (zum Beispiel, wie eine Veranstaltung organisiert wird) und benutze mindestens zwei Passiv- oder man-Konstruktionen.",[],["man + Verb","wurde + Partizip","durchgeführt"],"Benutze mindestens zwei verschiedene Konstruktionen stimmig.","Du erklärst einem neuen Teammitglied einen Ablauf."]
+    ]
+  },
+  {
+    id:"de_b2_probability", level:"B2", title:"Vermutung und Wahrscheinlichkeit", emoji:"❓", xp:78,
+    description:"Drücke Vermutungen mit Modalverben und passenden Adverbien aus.",
+    study:{
+      vocab:[
+        ["wahrscheinlich","probably"],
+        ["es könnte sein, dass","it could be that"],
+        ["vermutlich","presumably"],
+        ["das kann nicht stimmen","that can't be right"]
+      ],
+      grammar:[
+        ["Vermutungen mit Modalverben","Deutsch drückt Vermutung oft mit Modalverben (könnte, dürfte, muss) statt mit einem eigenen Modus.","Er könnte schon zu Hause sein. / Sie muss den Zug verpasst haben."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt eine höfliche, unsichere Vermutung aus?",["Der Vorschlag könnte machbar sein, aber wir brauchen mehr Daten.","Der Vorschlag ist absolut machbar, ohne Zweifel.","Der Vorschlag ist niemals machbar.","Der Vorschlag machbar sein könnte vielleicht."],0,"'Könnte' + Infinitiv drückt eine vorsichtige, unsichere Vermutung aus."],
+      ["fill","Ergänze: \"Sie ___ die Entscheidung schon getroffen haben, als wir ankommen.\"",["dürfte","darf","durfte","dürfen"],0,"'Dürfte' + Infinitiv Perfekt drückt eine vorsichtige Vermutung über die Vergangenheit aus."],
+      ["mcq","Welcher Ausdruck zeigt Sicherheit, keine Vermutung?",["Ich bin sicher, dass...","Es könnte sein, dass...","Vermutlich...","Wahrscheinlich..."],0,"'Ich bin sicher, dass' drückt Gewissheit aus, keine Vermutung."],
+      ["speaking","Sprich 60-80 Wörter: äußere deine Meinung dazu, ob Homeoffice zur Norm wird. Benutze mindestens einen Ausdruck der Vermutung und einen der Sicherheit.",[],["könnte sein","wahrscheinlich","ich bin sicher"],"Wechsle passend zwischen vorsichtiger Vermutung und Sicherheit.","Informelle Diskussion über die Zukunft der Arbeit."]
+    ]
+  },
+  {
+    id:"de_b2_contrast_connectors", level:"B2", title:"Kontrastive Konnektoren", emoji:"⚖️", xp:76,
+    description:"Nutze 'obwohl' und andere Konnektoren, um Ideen zu differenzieren und Fakten zu kontrastieren.",
+    study:{
+      vocab:[
+        ["obwohl","although"],
+        ["trotzdem","nevertheless"],
+        ["dennoch","yet / still"],
+        ["jedoch","however"]
+      ],
+      grammar:[
+        ["Kontrastive Konnektoren","'Obwohl' leitet einen Nebensatz ein (Verb am Ende); 'trotzdem', 'dennoch' und 'jedoch' stehen typischerweise in einem eigenen Hauptsatz.","Obwohl der Flug sich verspätete, kamen wir pünktlich zum Meeting."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz verwendet 'obwohl' korrekt (Verbstellung)?",["Obwohl der Bericht unvollständig war, haben wir ihn rechtzeitig geschickt.","Obwohl der Bericht war unvollständig, haben wir ihn geschickt.","Obwohl unvollständig war der Bericht, wir haben ihn geschickt.","Obwohl der Bericht unvollständig, war er geschickt."],0,"Nach 'obwohl' steht das konjugierte Verb am Satzende."],
+      ["fill","Ergänze: \"Der Bericht war unvollständig; wir haben ihn ___ rechtzeitig geschickt.\"",["trotzdem","obwohl","es sei denn","damit"],0,"'Trotzdem' steht in einem eigenen Hauptsatz mit normaler Verb-Zweit-Stellung."],
+      ["mcq","Welcher Konnektor braucht KEINEN eigenen Nebensatz mit Verb am Ende (im Gegensatz zu 'obwohl')?",["Jedoch","Obwohl","Weil","Damit"],0,"'Jedoch' steht meist in einem eigenständigen Hauptsatz, nicht in einem Nebensatz."],
+      ["writing","Schreib einen Absatz von 60-80 Wörtern: präsentiere eine Meinung und relativiere sie mit mindestens zwei verschiedenen Kontrastkonnektoren.",[],["obwohl","trotzdem","jedoch"],"Kombiniere korrekt Nebensatz- und Hauptsatzkonnektoren.","Meinung zu einem aktuellen Thema für ein Forum."]
+    ]
+  },
+  {
+    id:"de_b2_debate_nuance", level:"B2", title:"Differenziert argumentieren", emoji:"🗣️", xp:80,
+    description:"Baue Argumente auf, die den Gegenpunkt anerkennen, bevor sie eine Position verteidigen.",
+    study:{
+      vocab:[
+        ["einerseits / andererseits","on one hand / on the other hand"],
+        ["es lässt sich nicht leugnen, dass","it can't be denied that"],
+        ["es ist erwähnenswert, dass","it's worth noting that"],
+        ["letztendlich","ultimately"]
+      ],
+      grammar:[
+        ["Differenzierte Argumentation","Ein gutes B2-Argument erkennt den Gegenpunkt an, bevor es die eigene Position verteidigt.","Es lässt sich nicht leugnen, dass der Plan Kosten senkt, aber es ist erwähnenswert, dass er auch Risiken birgt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Struktur zeigt ein gut differenziertes Argument?",["Es lässt sich nicht leugnen, dass das Projekt teuer ist, aber langfristig könnte es Ressourcen sparen.","Das Projekt ist teuer, Punkt.","Das Projekt kostet offensichtlich nichts.","Es gibt kein einziges Gegenargument zum Projekt."],0,"Erkennt einen Gegenpunkt an und relativiert ihn mit einem langfristigen Vorteil."],
+      ["fill","Ergänze: \"___ hat der Vorschlag mehr Vor- als Nachteile.\"",["Letztendlich","Obwohl","Es sei denn","Ich bezweifle"],0,"'Letztendlich' wird benutzt, um ein Argument mit einer allgemeinen Schlussfolgerung zu schließen."],
+      ["mcq","Welche Funktion hat 'es ist erwähnenswert, dass' in einem Argument?",["Es hebt einen Punkt hervor, den der Sprecher für besonders relevant hält.","Es führt eine irreale Hypothese ein.","Es drückt völligen Zweifel am Thema aus.","Es beendet das Gespräch abrupt."],0,"Es ist eine Formel, um einen relevanten Punkt im Argument hervorzuheben."],
+      ["writing","Schreib einen argumentativen Absatz von 70-90 Wörtern zu einem umstrittenen Thema (z. B. Homeoffice). Erkenne einen Gegenpunkt an, bevor du deine Position verteidigst.",[],["einerseits","es lässt sich nicht leugnen","letztendlich"],"Struktur: Anerkennung des Gegenpunkts, eigene Position, Schlussfolgerung.","Beitrag zu einer schriftlichen Diskussion im Unterricht."]
+    ]
+  },
+  {
+    id:"de_c1_register_nuance", level:"C1", title:"Register und Nuance in formellen Texten", emoji:"🎩", xp:88,
+    description:"Nutze Abschwächung (Hedging), um vorsichtige Aussagen im gehobenen Register zu formulieren.",
+    study:{
+      vocab:[
+        ["es wäre angebracht zu betonen, dass","it would be worth pointing out that"],
+        ["es wäre sinnvoll zu differenzieren, dass","it would be worth clarifying that"],
+        ["dazu neigen zu glauben, dass","to be inclined to think that"],
+        ["im Großen und Ganzen","broadly speaking"]
+      ],
+      grammar:[
+        ["Abschwächung (Hedging) im gehobenen Register","Der Konjunktiv II schwächt Aussagen ab und macht sie vorsichtiger und formeller als der Indikativ Präsens.","Es wäre angebracht zu argumentieren, dass die Maßnahme verfrüht ist, auch wenn die Datenlage noch begrenzt ist."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz passt am besten zu einem formellen Bericht?",["Es wäre angebracht zu betonen, dass die Ergebnisse, obwohl vielversprechend, weiterer Analyse bedürfen.","Die Ergebnisse sind super, Punkt.","Das ist doch für jeden klar.","Dazu gibt es nichts weiter zu sagen."],0,"Das formelle Register bevorzugt Abschwächung und argumentative Vorsicht."],
+      ["fill","Ergänze: \"___ zu differenzieren, dass die Studie auf einer kleinen Stichprobe basiert.\"",["Es wäre sinnvoll","Es ist offensichtlich","Niemals","Immer"],0,"'Es wäre sinnvoll' leitet eine abgeschwächte Empfehlung ein, typisch für das formelle Register."],
+      ["mcq","Welchen Effekt hat der Konjunktiv II statt des Indikativs Präsens in einem Bericht?",["Er schwächt die Aussage ab und lässt Raum für begründeten Zweifel.","Er macht die Aussage kategorischer und sicherer.","Er ändert die Bedeutung völlig.","Er hat keinerlei stilistischen Effekt."],0,"Der Konjunktiv II mildert die Aussage, ohne sie zu verneinen."],
+      ["writing","Schreib 60-80 Wörter eines kurzen Berichts, der einen Vorschlag bewertet, und benutze mindestens zwei abschwächende Ausdrücke.",[],["es wäre angebracht","es wäre sinnvoll","im Großen und Ganzen"],"Das formelle Register bevorzugt argumentative Vorsicht gegenüber absoluter Gewissheit.","Interner Bericht für ein Führungsgremium."]
+    ]
+  },
+  {
+    id:"de_c1_subjunctive_past", level:"C1", title:"Konjunktiv II der Vergangenheit", emoji:"⏳", xp:90,
+    description:"Drücke irreale Hypothesen in der Vergangenheit mit komplexer Zeitabstimmung aus.",
+    study:{
+      vocab:[
+        ["wenn ich es gewusst hätte","if I had known"],
+        ["es war unmöglich, dass","it was impossible that"],
+        ["es hätte genügt","it would have sufficed"],
+        ["erst als","it wasn't until that"]
+      ],
+      grammar:[
+        ["Konjunktiv II der Vergangenheit","Für irreale Hypothesen in der Vergangenheit: wenn + Konjunktiv II Plusquamperfekt (hätte/wäre + Partizip II) in beiden Satzteilen.","Wenn ich das Risiko gekannt hätte, hätte ich anders gehandelt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz drückt eine irreale Hypothese in der Vergangenheit korrekt aus?",["Wenn wir den Vertrag rechtzeitig geprüft hätten, hätten wir das Problem vermieden.","Wenn wir den Vertrag rechtzeitig prüfen, hätten wir das Problem vermieden.","Wenn wir den Vertrag rechtzeitig geprüft hätten, vermeiden wir das Problem.","Wenn wir den Vertrag geprüft haben würden, hätten wir es vermieden."],0,"Beide Satzteile brauchen den Konjunktiv II der Vergangenheit (hätten + Partizip II)."],
+      ["fill","Ergänze: \"Es war unmöglich, dass das Team das Projekt ohne mehr Ressourcen ___.\"",["hätte beenden können","beendet hatte","beenden würde","schon beendet"],0,"Nach 'es war unmöglich, dass' (Zweifel in der Vergangenheit) steht der Konjunktiv II der Vergangenheit."],
+      ["mcq","Was unterscheidet den Konjunktiv II der Vergangenheit vom Konjunktiv II der Gegenwart?",["Der Konjunktiv II der Vergangenheit versetzt die Hypothese in einen früheren Zeitpunkt.","Es gibt keinen wirklichen Unterschied.","Der Konjunktiv II der Vergangenheit wird nur für die Zukunft verwendet.","Der Konjunktiv II der Gegenwart existiert im Deutschen nicht."],0,"Er fügt eine zusätzliche zeitliche Ebene innerhalb der Vergangenheit hinzu."],
+      ["writing","Schreib 70-90 Wörter über eine vergangene Entscheidung, die du ändern würdest. Benutze mindestens zwei Strukturen mit Konjunktiv II der Vergangenheit.",[],["wenn ich gewusst hätte","es hätte genügt","erst als"],"Achte darauf, dass beide Satzteile korrekt im Konjunktiv II der Vergangenheit stehen.","Rückblickende Reflexion über eine berufliche Entscheidung."]
+    ]
+  },
+  {
+    id:"de_c1_nominalization", level:"C1", title:"Nominalisierung und formeller Stil", emoji:"📑", xp:86,
+    description:"Verwandle Verben in Substantive, um ein akademisches und technisches Register zu erreichen.",
+    study:{
+      vocab:[
+        ["die Umsetzung von","the implementation of"],
+        ["das Fehlen von","the absence of"],
+        ["führen zu","to give rise to"],
+        ["mit sich bringen","to entail"]
+      ],
+      grammar:[
+        ["Nominalisierung für ein formelles Register","Verben in Substantive umzuwandeln (umsetzen → die Umsetzung) ist typisch für akademische und technische Texte.","Die späte Umsetzung der Maßnahme führte zu weitverbreiteten Verzögerungen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Umformulierung passt am besten zu einem technischen Bericht?",["Das Fehlen von Koordination zwischen den Teams führte zu doppelter Arbeit.","Sie haben sich nicht abgesprochen, deshalb haben sie Sachen doppelt gemacht.","Die Teams haben nicht miteinander geredet, also war es chaotisch.","Es war eine Katastrophe, weil niemand kommuniziert hat."],0,"Die Nominalisierung verdichtet die Information in einem objektiveren Ton."],
+      ["fill","Ergänze: \"Die ___ neuer Technologien bringt hohe Anfangskosten mit sich.\"",["Einführung","Einführen","Eingeführt","Einzuführen"],0,"Das Substantiv 'Einführung' (Nominalisierung von 'einführen') passt zur formellen Struktur mit Artikel."],
+      ["mcq","Welchen Vorteil bietet die Nominalisierung in einem technischen Text?",["Sie ermöglicht es, Informationen zu verdichten und einen objektiveren, unpersönlicheren Ton anzunehmen.","Sie macht den Text informeller und persönlicher.","Sie schließt jede Präzision aus.","Sie bringt keinen wirklichen Vorteil."],0,"Nominalisierung ist zentral für Dichte und Objektivität im technischen Register."],
+      ["writing","Schreib 60-80 Wörter: forme einen informellen Absatz über ein Arbeitsproblem in einen formellen Berichtsauszug mit mindestens drei Nominalisierungen um.",[],["die Umsetzung","das Fehlen von","führen zu"],"Erkenne die Schlüsselverben und wandle sie in Substantive für einen formelleren Ton um.","Eine informelle Beschwerde in einen internen Bericht umwandeln."]
+    ]
+  },
+  {
+    id:"de_c1_causal_connectors", level:"C1", title:"Komplexe Kausal- und Folgekonnektoren", emoji:"🔗", xp:88,
+    description:"Verknüpfe Ursachen und Folgen präzise mit fortgeschrittenen Konnektoren.",
+    study:{
+      vocab:[
+        ["angesichts der Tatsache, dass","given the fact that"],
+        ["insofern als","insofar as"],
+        ["weshalb","which is why"],
+        ["unter Androhung von","under penalty of"]
+      ],
+      grammar:[
+        ["Komplexe Kausal- und Folgekonnektoren","'Weshalb' leitet eine logische Folge ein; 'angesichts der Tatsache, dass' und 'insofern als' leiten eine Ursache ein.","Angesichts der Tatsache, dass die Kosten gestiegen sind, wurde das Budget überarbeitet, weshalb Einsparungen nötig wurden."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz verwendet 'weshalb' korrekt?",["Die Daten waren widersprüchlich, weshalb sich die Veröffentlichung des Berichts verzögerte.","Weshalb die Daten widersprüchlich waren, verzögerte sich der Bericht.","Die Daten, weshalb widersprüchlich, verzögerten den Bericht.","Weshalb dass die Daten widersprüchlich sind, Verzögerung des Berichts."],0,"'Weshalb' leitet direkt eine logische Folge im Hauptsatz ein."],
+      ["fill","Ergänze: \"___ der verfügbaren Ressourcen wird das Projekt langsamer voranschreiten als geplant.\"",["Angesichts","Weshalb","Unter Androhung von","Es wäre angebracht"],0,"'Angesichts' leitet direkt eine Ursache ein."],
+      ["mcq","Was bedeutet 'insofern als' ungefähr?",["In dem Maße oder Grad, in dem etwas zutrifft; ähnlich wie 'in dem Ausmaß, in dem'.","Genau dasselbe wie 'obwohl'.","Leitet immer eine irreale Hypothese ein.","Wird nur für physische Maße verwendet."],0,"Drückt eine Proportionalität zwischen zwei verbundenen Tatsachen aus."],
+      ["writing","Schreib einen Absatz von 70-90 Wörtern, der Ursache und Folge einer unternehmerischen Entscheidung erklärt, und benutze mindestens zwei Konnektoren dieser Lektion.",[],["angesichts der Tatsache","weshalb","insofern als"],"Unterscheide sorgfältig zwischen Ursachen- und Folgekonnektoren.","Ursachenanalyse für einen Managementbericht."]
+    ]
+  },
+  {
+    id:"de_c1_mediation_summary", level:"C1", title:"Mediation: präzise zusammenfassen", emoji:"🗂️", xp:90,
+    description:"Fasse komplexe Informationen zusammen und bewahre dabei die logischen Beziehungen zwischen Ideen.",
+    study:{
+      vocab:[
+        ["zusammenfassend","in summary"],
+        ["der zentrale Punkt ist, dass","the key point is that"],
+        ["es ist hervorzuheben, dass","it's worth highlighting that"],
+        ["grob gesagt","broadly / roughly speaking"]
+      ],
+      grammar:[
+        ["Mediation: präzise zusammenfassen","Eine gute C1-Zusammenfassung bewahrt die logische Beziehung zwischen Ideen (Ursache, Kontrast, Bedingung), nicht nur Schlüsselwörter.","Grob gesagt kommt der Bericht zu dem Schluss, dass der Plan machbar ist, wobei die Finanzierungsrisiken hervorzuheben sind."]
+      ]
+    },
+    ex:[
+      ["mcq","Was ist die beste Zusammenfassung für ein Publikum mit wenig Zeit?",["Grob gesagt empfiehlt der Bericht eine schrittweise Expansion, abhängig von externer Finanzierung.","Der Bericht hat viele Seiten über Expansion, Finanzierung und andere Dinge.","Die Expansion wird perfekt sein, wenn sich alle anstrengen.","Es gibt Finanzierung, Expansion und einen Bericht."],0,"Eine gute Zusammenfassung priorisiert Entscheidung, Bedingung und Hauptrisiko."],
+      ["fill","Ergänze: \"___ zeigt die Studie eine moderate, aber stetige Verbesserung der Ergebnisse.\"",["Zusammenfassend","Unter Androhung von","Weshalb","Es wäre angebracht"],0,"'Zusammenfassend' leitet eine allgemeine Schlussfolgerung ein, die die Zusammenfassung abschließt."],
+      ["mcq","Was unterscheidet eine gute Mediation (Zusammenfassung) von einer bloßen Liste von Schlüsselwörtern?",["Sie bewahrt die logischen Beziehungen (Ursache, Kontrast, Bedingung) zwischen den ursprünglichen Ideen.","Sie beseitigt jede logische Beziehung und lässt nur isolierte Begriffe übrig.","Sie muss immer länger sein als der Originaltext.","Sie darf keinerlei Schlussfolgerung enthalten."],0,"Mediation verlangt, Sinn und Verbindungen zu bewahren, nicht nur Vokabeln."],
+      ["writing","Fasse in 60-80 Wörtern einen fiktiven Bericht zusammen, der zwei strategische Optionen bewertet, und nenne die Hauptempfehlung sowie eine Bedingung oder ein Risiko.",[],["zusammenfassend","der zentrale Punkt","es ist hervorzuheben"],"Priorisiere Entscheidung, Grund und eine relevante Bedingung oder Risiko.","Executive Summary für die Geschäftsleitung."]
+    ]
+  },
+  {
+    id:"de_c1_concession_refutation", level:"C1", title:"Fortgeschrittene Konzession und Widerlegung", emoji:"⚔️", xp:92,
+    description:"Erkenne Gegenargumente rhetorisch an, bevor du sie präzise widerlegst.",
+    study:{
+      vocab:[
+        ["zwar... aber","admittedly... but"],
+        ["keineswegs","by no means"],
+        ["das schließt nicht aus, dass","that doesn't rule out that"],
+        ["letztlich","ultimately"]
+      ],
+      grammar:[
+        ["Fortgeschrittene Konzession und Widerlegung","Diese Strukturen erkennen ein Gegenargument rhetorisch an, bevor sie es präzise widerlegen oder differenzieren.","Zwar senkt der Plan die Kosten, aber das schließt nicht aus, dass er erhebliche Risiken birgt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz widerlegt ein Argument mit größerer rhetorischer Präzision?",["Die Maßnahme ist keineswegs eine Lösung des Problems, sondern könnte es langfristig verschärfen.","Die Maßnahme ist einfach schlecht.","Das bringt offensichtlich nichts.","Jeder weiß, dass das schlecht ist."],0,"'Keineswegs' leitet eine differenzierte, argumentierte Widerlegung ein, keine bloße Verneinung."],
+      ["fill","Ergänze: \"Das Projekt erzielte Gewinne; ___ deckte es nicht die Anfangskosten.\"",["das schließt jedoch nicht aus, dass es","angesichts der Tatsache, dass","weshalb","insofern als"],0,"'Das schließt jedoch nicht aus, dass' leitet eine Konzession gefolgt von einer Differenzierung ein."],
+      ["mcq","Welche rhetorische Funktion erfüllt 'zwar... aber'?",["Es erkennt einen gültigen Punkt an, bevor es einen ebenso soliden Einwand einführt.","Es verneint den ersten Punkt vollständig.","Es drückt völligen Zweifel an beiden Punkten aus.","Es ist eine rein informelle Formel."],0,"Es ist eine typische Konzessions-Widerlegungs-Struktur im gehobenen argumentativen Register."],
+      ["writing","Schreib einen Absatz von 80-100 Wörtern, der differenziert eine Position zu einem kontroversen Thema widerlegt (z. B. die Automatisierung von Arbeitsplätzen), und benutze mindestens zwei Konzessions-Widerlegungs-Strukturen.",[],["zwar... aber","keineswegs","letztlich"],"Erkenne zuerst den Gegenpunkt an und differenziere oder widerlege ihn dann präzise.","Meinungsartikel für eine Fachzeitschrift."]
     ]
   },
 ];
