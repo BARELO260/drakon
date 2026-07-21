@@ -601,7 +601,6 @@ async function sendChatInternal(){
 function addAIMsg(text){
   const area=document.getElementById('chatMsgs'); if(!area) return;
   if(typeof mascotReactToMessage==='function') mascotReactToMessage(text);
-  const ch=getChar();
   const div=document.createElement('div'); div.className='msg';
   // Strip [L] tags from display (legacy cleanup)
   const displayText = text.replace(/\[\/?(L)\]/g,'');
@@ -609,23 +608,20 @@ function addAIMsg(text){
     .replace(/✏️ CORRECCIÓN:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECCIÓN:$1</div>')
     .replace(/✏️ CORRECTION:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECTION:$1</div>')
     .replace(/\n/g,'<br>');
-  div.innerHTML='<div class="av"><img src="'+ch.img+'" style="width:26px;height:26px;object-fit:contain"></div><div class="bubble ai">'+html+'</div>';
+  div.innerHTML='<div class="bubble ai">'+html+'</div>';
   area.appendChild(div); area.scrollTop=area.scrollHeight;
+  if(typeof mascotSetBubbleHTML==='function') mascotSetBubbleHTML(html);
   if(state.ttsEnabled) speakText(text);
 }
 function addUserMsg(text){
   const area=document.getElementById('chatMsgs'); if(!area) return;
   const div=document.createElement('div'); div.className='msg user';
-  div.innerHTML=`<div class="bubble user">${text}</div><div class="av av-u">YO</div>`;
+  div.innerHTML=`<div class="bubble user">${text}</div>`;
   area.appendChild(div); area.scrollTop=area.scrollHeight;
 }
 function addTyping(){
-  const area=document.getElementById('chatMsgs'); if(!area) return {remove:()=>{}};
-  const ch=getChar();
-  const div=document.createElement('div'); div.className='msg'; div.id='typingMsg';
-  div.innerHTML='<div class="av"><img src="'+ch.img+'" style="width:26px;height:26px;object-fit:contain"></div><div class="typing"><span></span><span></span><span></span></div>';
-  area.appendChild(div); area.scrollTop=area.scrollHeight;
-  return div;
+  if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(true);
+  return { remove(){ if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false); } };
 }
 
 
