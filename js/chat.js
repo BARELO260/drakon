@@ -111,10 +111,10 @@ function viewSavedChat(i){
 
 function renderHistoryMsgs(messages){
   const area = document.getElementById('chatHistoryMsgs'); if(!area) return;
-  const ch = getChar();
+  let lastAIHtml = '';
   area.innerHTML = messages.map(m => {
     if(m.role==='user'){
-      return `<div class="msg user"><div class="av av-u">YO</div><div class="bubble user">${m.content.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div></div>`;
+      return `<div class="msg user"><div class="bubble user">${m.content.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div></div>`;
     } else {
       let html = m.content
         .replace(/\[\/?(L)\]/g,'')
@@ -123,9 +123,11 @@ function renderHistoryMsgs(messages){
         .replace(/✏️ CORRECCIÓN:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECCIÓN:$1</div>')
         .replace(/✏️ CORRECTION:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECTION:$1</div>')
         .replace(/\n/g,'<br>');
-      return '<div class="msg"><div class="av"><img src="'+ch.img+'" style="width:26px;height:26px;object-fit:contain"></div><div class="bubble ai">'+html+'</div></div>';
+      lastAIHtml = html;
+      return '<div class="msg"><div class="bubble ai">'+html+'</div></div>';
     }
   }).join('');
+  if(lastAIHtml && typeof mascotSetBubbleHTML==='function') mascotSetBubbleHTML(lastAIHtml);
 }
 
 function continueFromHistory(){
@@ -143,11 +145,11 @@ function continueFromHistory(){
   if(typeof mascotReset==='function') mascotReset();
   const area = document.getElementById('chatMsgs'); if(!area) return;
   area.innerHTML = '';
-  const ch = getChar();
+  let lastAIHtml = '';
   for(const m of state.chatHistory){
     if(m.role==='user'){
       const d = document.createElement('div'); d.className='msg user';
-      d.innerHTML=`<div class="av av-u">YO</div><div class="bubble user">${m.content.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>`;
+      d.innerHTML=`<div class="bubble user">${m.content.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>`;
       area.appendChild(d);
     } else {
       const displayText = m.content.replace(/\[\/?(L)\]/g,'');
@@ -155,11 +157,13 @@ function continueFromHistory(){
         .replace(/✏️ CORRECCIÓN:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECCIÓN:$1</div>')
         .replace(/✏️ CORRECTION:(.*?)(?=\n|$)/g,'<div class="corr-block">✏️ CORRECTION:$1</div>')
         .replace(/\n/g,'<br>');
+      lastAIHtml = html;
       const d=document.createElement('div'); d.className='msg';
-      d.innerHTML='<div class="av"><img src="'+ch.img+'" style="width:26px;height:26px;object-fit:contain"></div><div class="bubble ai">'+html+'</div>';
+      d.innerHTML='<div class="bubble ai">'+html+'</div>';
       area.appendChild(d);
     }
   }
+  if(lastAIHtml && typeof mascotSetBubbleHTML==='function') mascotSetBubbleHTML(lastAIHtml);
   setTimeout(()=>{ area.scrollTop=area.scrollHeight; }, 120);
   updateNoKeyBanner();
 }
@@ -196,11 +200,8 @@ async function sendHistoryMsg(){
     return;
   }
 
-  // Show typing indicator
-  const typingDiv = document.createElement('div');
-  typingDiv.className='msg'; typingDiv.id='histTyping';
-  typingDiv.innerHTML='<div class="av"><img src="'+getChar().img+'" style="width:26px;height:26px;object-fit:contain"></div><div class="bubble ai typing-dots"><span></span><span></span><span></span></div>';
-  if(area){ area.appendChild(typingDiv); area.scrollTop=area.scrollHeight; }
+  // Show typing indicator (in the mouth bubble, not the log)
+  if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(true);
 
   const prompt = buildPrompt();
   const messages = [{role:'system',content:prompt}];
@@ -225,7 +226,7 @@ async function sendHistoryMsg(){
       if(aiText) break;
     }
   } catch(e){
-    document.getElementById('histTyping')?.remove();
+    if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false);
     if(errBar){ errBar.textContent=e.message==='auth'?'🔑 API key inválida':'⚠️ Error al conectar con la IA. Intenta de nuevo.'; errBar.style.display='block'; }
     c.messages.pop();
     state.chatHistory=prevHistory; state.chatMode=prevMode;
@@ -234,7 +235,7 @@ async function sendHistoryMsg(){
     return;
   }
 
-  document.getElementById('histTyping')?.remove();
+  if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false);
   state.chatHistory=prevHistory; state.chatMode=prevMode;
 
   if(!aiText){ if(errBar){ errBar.textContent='⚠️ Sin respuesta. Intenta de nuevo.'; errBar.style.display='block'; } c.messages.pop(); renderHistoryMsgs(c.messages); if(typeof mascotIdle==='function') mascotIdle(); return; }
