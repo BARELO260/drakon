@@ -597,4 +597,72 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreib einen Absatz von 80-100 Wörtern, der differenziert eine Position zu einem kontroversen Thema widerlegt (z. B. die Automatisierung von Arbeitsplätzen), und benutze mindestens zwei Konzessions-Widerlegungs-Strukturen.",[],["zwar... aber","keineswegs","letztlich"],"Erkenne zuerst den Gegenpunkt an und differenziere oder widerlege ihn dann präzise.","Meinungsartikel für eine Fachzeitschrift."]
     ]
   },
+  {
+    id:"de_c2_style_implication", level:"C2", title:"Stil, Implikation und Nuance", emoji:"🔎", xp:92,
+    description:"Interpretiere Subtext und formuliere komplexe Ideen mit emphatischer Inversion und Litotes um.",
+    study:{
+      vocab:[
+        ["keinesfalls","by no means","Emphatische Verneinung, die die Verb-Subjekt-Stellung umkehrt."],
+        ["hinter etwas zurückbleiben","to fall short of"],
+        ["eine stillschweigende Annahme","a tacit assumption"],
+        ["eine Aussage relativieren","to qualify a claim"]
+      ],
+      grammar:[
+        ["Inversion nach emphatischer Verneinung","Steht eine emphatische Verneinung ('keinesfalls', 'unter keinen Umständen', 'auf keinen Fall') am Satzanfang, folgt im gehobenen Stil die Inversion von Verb und Subjekt.","Keinesfalls sollten diese Ergebnisse als endgültig betrachtet werden."],
+        ["Litotes: durch doppelte Verneinung bestätigen","Das Gegenteil einer Idee zu verneinen ist ein gehobenes Mittel, um sie vorsichtig und nuanciert zu bestätigen.","Der Vorschlag ist nicht ohne Risiko, auch wenn seine Vorteile offensichtlich sind."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Umformulierung bewahrt den Sinn von „Die Daten sind hinweisend, nicht schlüssig“ am besten?",["Die Daten deuten in eine Richtung, reichen aber nicht für eine endgültige Schlussfolgerung.","Die Daten beweisen die Schlussfolgerung zweifelsfrei.","Es liegen überhaupt keine Daten vor.","Die Schlussfolgerung ist hinweisend, aber die Daten sind endgültig."],0,"Bewahrt den Unterschied zwischen Hinweis und schlüssigem Beweis."],
+      ["fill","Vervollständige die Inversion: „Keinesfalls ___ diese Ergebnisse als endgültig betrachtet werden.“",["sollten","sollte","würden","werden"],0,"Das Verb stimmt mit dem Plural-Subjekt 'diese Ergebnisse' überein: sollten betrachtet werden."],
+      ["mcq","Welche Funktion hat die Litotes in „Der Vorschlag ist nicht ohne Risiko“?",["Sie bestätigt nuanciert, dass der Vorschlag tatsächlich ein Risiko birgt.","Sie verneint vollständig, dass ein Risiko besteht.","Sie behauptet, der Vorschlag sei völlig sicher.","Sie fügt keine zusätzliche Bedeutung hinzu."],0,"'Nicht ohne' verneint das Gegenteil, um etwas vorsichtig zu bestätigen."],
+      ["translate","Übersetze: „By no means should this decision be treated as final.“",["Keinesfalls sollte diese Entscheidung als endgültig betrachtet werden.","Diese Entscheidung ist keinesfalls endgültig behandelt.","Sollte keinesfalls diese Entscheidung als endgültig gelten.","Diese Entscheidung keinesfalls endgültig sollte betrachtet werden."],0,"„Keinesfalls“ + Inversion ist die gehobene Entsprechung von „by no means“."],
+      ["writing","Schreibe 60-80 Wörter über eine umstrittene Unternehmensentscheidung: Verwende mindestens eine emphatische Inversion ('keinesfalls'/'unter keinen Umständen') und eine Litotes.",[],["keinesfalls","nicht ohne","unter keinen Umständen"],"Das C2-Niveau verbindet argumentative Präzision mit rhetorischen Mitteln der Nuancierung.","Meinungskolumne für eine Fachzeitschrift."]
+    ]
+  },
+  {
+    id:"de_c2_rhetoric_tone", level:"C2", title:"Rhetorik, Ton und stilistische Wirkung", emoji:"🎭", xp:94,
+    description:"Wähle rhetorische Mittel und passe den Ton an Publikum, Zweck und gewünschte Wirkung an.",
+    study:{
+      vocab:[
+        ["ein Gleichgewicht finden","to strike a balance"],
+        ["eine rhetorische Frage","a rhetorical question"],
+        ["hervorrufen","to evoke"],
+        ["Verantwortung angemessen übernehmen","to acknowledge responsibility proportionately"]
+      ],
+      grammar:[
+        ["Stilistische Wirkung und Wortwahl","Die Wahl einer Struktur oder eines Wortes kann Nähe, Distanz, Dringlichkeit oder Ironie erzeugen, ohne den wörtlichen Inhalt zu verändern.","Das ist nicht ganz unbegründet, auch wenn es sicherlich verbessert werden könnte."],
+        ["Umformulierung für ein formelles öffentliches Register","Eine öffentliche Mitteilung erkennt die Auswirkung an, übernimmt angemessen Verantwortung und schlägt eine überprüfbare Maßnahme vor, ohne übermäßige Kälte oder Dramatisierung.","Wir bedauern die entstandenen Unannehmlichkeiten und ergreifen bereits Maßnahmen, damit sich das nicht wiederholt."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche Wirkung erzeugt der Satz „das ist nicht ganz unbegründet“ meist?",["Eine vorsichtige, bewusst abgeschwächte Zustimmung.","Eine begeisterte, vorbehaltlose Zustimmung.","Eine völlige Ablehnung der Idee.","Eine technische Anweisung ohne Bewertung."],0,"Die doppelte Abschwächung erzeugt eine zurückhaltende Bewertung, typisch für den gehobenen Stil."],
+      ["mcq","Welche Version passt am besten zu einer formellen öffentlichen Entschuldigung?",["Wir bedauern die entstandenen Unannehmlichkeiten und ergreifen sofort Maßnahmen, damit sich das nicht wiederholt.","Na ja, das war peinlich, wird schon wieder.","Das war überhaupt nicht unsere Schuld.","Jeder macht Fehler, das muss man nicht weiter kommentieren."],0,"Das formelle Register erkennt die Auswirkung an, übernimmt Verantwortung und schlägt eine konkrete Maßnahme vor."],
+      ["fill","Vervollständige: „Die Rede versucht, ein Gefühl gemeinsamer Verantwortung ___.“",["hervorzurufen","herbeizurufen","hervorzubringen","zurückzurufen"],0,"'Hervorrufen' bedeutet, ein Gefühl oder eine Vorstellung beim Zuhörer zu wecken."],
+      ["mcq","Was ist der Hauptzweck einer rhetorischen Frage in einer überzeugenden Rede?",["Das Publikum einzubeziehen und eine Antwort nahezulegen, ohne sie ausdrücklich zu formulieren.","Eine Information zu erfragen, die der Redner tatsächlich nicht kennt.","Das Publikum absichtlich zu verwirren.","Unauffällig das Thema zu wechseln."],0,"Die rhetorische Frage lenkt den Zuhörer zu einer Schlussfolgerung, ohne sie direkt auszusprechen."],
+      ["writing","Formuliere diese schroffe interne Nachricht in eine öffentliche Mitteilung von 50-70 Wörtern um: „Das Team hat versagt, das muss sofort repariert werden.“ Erkenne das Problem an, dramatisiere es nicht und schlage eine überprüfbare Maßnahme vor.",[],["wir bedauern","Maßnahmen","damit sich das nicht wiederholt"],"Bewerte Verhältnismäßigkeit und Ton: weder übermäßige Kälte noch unnötige Dramatisierung.","Mitteilung: Ein digitaler Dienst war zwei Stunden lang ausgefallen."]
+    ]
+  },
+  {
+    id:"de_c2_critical_reading", level:"C2", title:"Kritisches Lesen und Implikaturen", emoji:"🧩", xp:96,
+    description:"Interpretiere Präsuppositionen, wertende Sprache und implizite Schlussfolgerungen in Meinungstexten.",
+    study:{
+      vocab:[
+        ["andeuten","to imply"],
+        ["ein Vorbehalt","a caveat"],
+        ["wertende Sprache","loaded language"],
+        ["eine Schlussfolgerung ziehen","to draw an inference"]
+      ],
+      grammar:[
+        ["Präsupposition","Ein Satz kann eine Idee als bereits akzeptiert darstellen, ohne sie ausdrücklich zu belegen.","Sogar die verbliebenen Kritiker akzeptierten den überarbeiteten Plan."]
+      ]
+    },
+    ex:[
+      ["mcq","Was setzt der Satz „Sogar die verbliebenen Kritiker akzeptierten den überarbeiteten Plan“ voraus?",["Dass es Kritiker gab und einige sich schon vorher überzeugen ließen.","Dass niemand den Plan jemals kritisiert hat.","Dass der Plan vollständig abgelehnt wurde.","Dass es keinen überarbeiteten Plan gibt."],0,"'Sogar' und 'verbliebenen' präsentieren Information als bereits geteilt und lenken die Schlussfolgerung."],
+      ["mcq","Was ist eine angemessene kritische Lesart von „eine mutige Lösung für ein veraltetes System“?",["Das Adjektiv 'veraltet' bewertet das System und stimmt den Leser positiv für die Lösung.","Der Satz ist völlig neutral und enthält keine Wertung.","Die Lösung hat sich bereits als wirksam erwiesen.","Er enthält keinerlei implizite Bewertung."],0,"'Veraltet' ist wertende Sprache, kein objektiv nachgewiesener Fakt."],
+      ["fill","Vervollständige: „Der Artikel enthält einen wichtigen ___: Die Ergebnisse wurden nicht reproduziert.“",["Vorbehalt","Gedanken","Folge","Vergleich"],0,"Ein 'Vorbehalt' schränkt die Reichweite einer Aussage ein."],
+      ["mcq","Beim Satz „Es ist Zeit, der öffentlichen Politik wieder gesunden Menschenverstand zu geben“ – was impliziert 'wieder geben'?",["Es deutet an, dass gesunder Menschenverstand vorher existierte und verloren ging, ohne dies zu belegen.","Es behauptet mit Daten, dass der aktuellen Politik der Menschenverstand fehlt.","Es ist eine neutrale Beschreibung ohne jede Wertung.","Es schlägt eine konkrete, überprüfbare Politik vor."],0,"'Wieder geben' setzt einen früheren Verlust voraus – eine gängige rhetorische Strategie ohne Beleg."],
+      ["speaking","Analysiere in 50-70 Wörtern einen überzeugenden Satz deiner Wahl: identifiziere eine Präsupposition, ein wertendes Wort und eine angemessene Schlussfolgerung.",[],["setzt voraus","Sprache","Schlussfolgerung"],"Es reicht nicht, zuzustimmen oder abzulehnen: erkläre, wie die Sprache die Interpretation lenkt.","Beispielsatz: „Es ist Zeit, dieser veralteten Praxis ein Ende zu setzen.“"]
+    ]
+  },
 ];
