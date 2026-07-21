@@ -49,6 +49,25 @@ function _mascotStages(){ return document.querySelectorAll('.ai-scene'); }
 function _mascotBubbleTexts(){ return document.querySelectorAll('.ai-scene-bubble-text'); }
 function _mascotBubbles(){ return document.querySelectorAll('.ai-scene-bubble'); }
 
+// Aplica una fuente de video de forma confiable: solo toca el <video> cuando
+// realmente cambia (usando un marcador propio en vez de comparar currentSrc,
+// que no es fiable) y siempre llama a load() antes de reproducir. Sin el
+// load() explícito, algunos navegadores/WebViews se quedan con el frame
+// anterior en pantalla y el clip nuevo (p.ej. laugh.mp4) nunca llega a pintar.
+function _setMascotVideoSrc(video, src){
+  if(!src) return;
+  if(video.dataset.mascotSrc !== src){
+    video.dataset.mascotSrc = src;
+    video.loop = true;
+    video.muted = true;
+    video.playsInline = true;
+    video.src = src;
+    video.load();
+  }
+  const p = video.play();
+  if(p && p.catch) p.catch(()=>{});
+}
+
 const MASCOT_STATUS_TEXT = {
   idle:  '',
   laugh: '😄 Detecté un error…',
@@ -65,15 +84,7 @@ function _mascotApplyState(newState){
   });
 
   setTimeout(()=>{
-    _mascotVideos().forEach(video=>{
-      if(!src) return;
-      const abs = new URL(src, window.location.href).href;
-      if(video.currentSrc !== abs && video.getAttribute('src') !== src){
-        video.src = src;
-      }
-      const p = video.play();
-      if(p && p.catch) p.catch(()=>{});
-    });
+    _mascotVideos().forEach(video=>_setMascotVideoSrc(video, src));
     _mascotStages().forEach(el=>{
       el.classList.remove('is-swapping');
       el.classList.add('is-'+newState);
@@ -100,7 +111,9 @@ function mascotIdle(){
   _mascotApplyState('idle');
 }
 
-// El personaje está hablando (idle → speak). Vuelve solo a idle al terminar.
+// El personaje está hablando (idle → speak). El clip de hablar se repite en
+// loop (atributo loop del <video>) mientras dura la respuesta; solo al
+// terminar ese tiempo se vuelve a idle.
 function mascotSpeak(durationMs){
   clearTimeout(_mascotErrorTimer);
   _mascotApplyState('speak');
@@ -144,11 +157,7 @@ function mascotReset(){
     el.classList.remove('is-laugh','is-speak','is-swapping');
     el.classList.add('is-idle');
   });
-  _mascotVideos().forEach(video=>{
-    if(assets.idle) video.src = assets.idle;
-    const p = video.play();
-    if(p && p.catch) p.catch(()=>{});
-  });
+  _mascotVideos().forEach(video=>_setMascotVideoSrc(video, assets.idle));
   document.querySelectorAll('.mascot-status').forEach(el=>{ el.textContent=''; el.style.opacity='0'; });
   mascotClearBubble();
 }
@@ -165,20 +174,14 @@ function mascotSetBubbleTyping(on){
   }
 }
 
-// Vuelca el HTML (ya formateado) del último mensaje de la IA en la burbuja
-// y dispara la animación de entrada.
+// Vuelca el HTML (ya formateado) del último mensaje de la IA en la burbuja.
 function mascotSetBubbleHTML(html){
   _mascotBubbles().forEach(b=>b.classList.remove('is-typing'));
   _mascotBubbleTexts().forEach(t=>{ t.innerHTML = html; });
-  _mascotBubbles().forEach(b=>{
-    b.classList.remove('bubble-pop');
-    void b.offsetWidth; // reinicia la animación
-    b.classList.add('bubble-pop');
-  });
 }
 
 function mascotClearBubble(){
-  _mascotBubbles().forEach(b=>b.classList.remove('is-typing','bubble-pop'));
+  _mascotBubbles().forEach(b=>b.classList.remove('is-typing'));
   _mascotBubbleTexts().forEach(t=>{ t.innerHTML=''; });
 }
 
