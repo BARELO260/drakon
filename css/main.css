@@ -402,12 +402,9 @@ box-shadow:var(--card-elev);}
 .ai-scene-glow{position:absolute;top:30%;left:50%;width:70%;height:70%;border-radius:50%;
   background:radial-gradient(circle, color-mix(in srgb, var(--gold) 60%, transparent), transparent 70%);
   filter:blur(12px);transform:translate(-50%,-50%);pointer-events:none;animation:mascotGlowPulse 3.4s ease-in-out infinite;z-index:0}
-.mascot-video-zoom{position:absolute;inset:0;overflow:hidden;z-index:1;
-  transform:scale(1.55);transform-origin:50% 22%}
-.mascot-video{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:top center;display:block;
-  transition:opacity .16s ease;
-  mask-image:linear-gradient(to bottom, #000 88%, transparent 100%);
-  -webkit-mask-image:linear-gradient(to bottom, #000 88%, transparent 100%)}
+.mascot-video-zoom{position:absolute;inset:0;overflow:hidden;z-index:1}
+.mascot-video{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:bottom center;display:block;
+  transition:opacity .16s ease}
 .ai-scene.is-swapping .mascot-video{opacity:0}
 .ai-scene.is-laugh .mascot-video{animation:mascotLaughShake .55s ease-in-out 2}
 .ai-scene.is-laugh .ai-scene-glow{background:radial-gradient(circle, color-mix(in srgb, var(--coral) 60%, transparent), transparent 70%)}
