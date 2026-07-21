@@ -600,4 +600,72 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe un párrafo de 80-100 palabras que refute con matices una postura sobre un tema controvertido (por ejemplo, la automatización del empleo), usando al menos dos estructuras de concesión-refutación.",[],["si bien","lejos de","en última instancia"],"Reconoce primero el punto contrario y luego matízalo o refútalo con precisión.","Artículo de opinión para una revista especializada."]
     ]
   },
+  {
+    id:"es_c2_style_implication", level:"C2", title:"Estilo, implicación y matiz", emoji:"🔎", xp:92,
+    description:"Interpreta el subtexto y reformula ideas complejas usando inversión enfática y litotes.",
+    study:{
+      vocab:[
+        ["de ningún modo","by no means","Negación enfática que antepone el verbo."],
+        ["quedarse corto de","to fall short of"],
+        ["un supuesto tácito","a tacit assumption"],
+        ["matizar una afirmación","to qualify a claim"]
+      ],
+      grammar:[
+        ["Inversión tras negación enfática","Con expresiones negativas enfáticas ('de ningún modo', 'bajo ningún concepto', 'en ningún caso') el verbo suele anteponerse al sujeto en registro culto.","Bajo ningún concepto deberían tomarse estos datos como concluyentes."],
+        ["Litotes: afirmar negando lo contrario","Negar el contrario de una idea es un recurso culto para afirmarla con prudencia y matiz.","La propuesta no deja de ser arriesgada, aunque sus beneficios son evidentes."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué reformulación conserva mejor el sentido de \"Los datos son sugerentes, no concluyentes\"?",["Los datos apuntan en una dirección, pero no bastan para una conclusión definitiva.","Los datos demuestran la conclusión sin lugar a dudas.","No existe ningún dato disponible sobre el tema.","La conclusión es sugerente, pero los datos son definitivos."],0,"Mantiene la diferencia entre indicio y prueba concluyente."],
+      ["fill","Completa la inversión: \"Bajo ningún concepto ___ tomarse estos resultados como definitivos.\"",["deberían","debería","deberíamos","deberías"],0,"El verbo concuerda con el sujeto plural 'estos resultados': deberían tomarse."],
+      ["mcq","En \"La propuesta no deja de ser arriesgada\", ¿qué función cumple la litote?",["Afirma con matiz que la propuesta sí es arriesgada, de forma prudente.","Niega por completo que la propuesta sea arriesgada.","Afirma que la propuesta es completamente segura.","No aporta ningún significado adicional."],0,"'No deja de ser' niega el contrario para afirmar algo con matiz."],
+      ["translate","Traduce: \"By no means should this decision be treated as final.\"",["Bajo ningún concepto debería tratarse esta decisión como definitiva.","Esta decisión es definitiva de ningún modo.","Debería tratarse bajo ningún concepto esta decisión.","Esta decisión bajo ningún concepto es definitiva tratada."],0,"'Bajo ningún concepto' + inversión verbo-sujeto es el equivalente formal de 'by no means'."],
+      ["writing","Redacta 60-80 palabras sobre una decisión empresarial polémica: usa al menos una inversión enfática ('bajo ningún concepto'/'de ningún modo') y una litote.",[],["bajo ningún concepto","no deja de ser","de ningún modo"],"El registro C2 combina precisión argumentativa con recursos retóricos de matización.","Columna de opinión para una revista especializada."]
+    ]
+  },
+  {
+    id:"es_c2_rhetoric_tone", level:"C2", title:"Retórica, tono y efecto estilístico", emoji:"🎭", xp:94,
+    description:"Elige recursos retóricos y ajusta el tono según la audiencia, el propósito y el efecto deseado.",
+    study:{
+      vocab:[
+        ["lograr un equilibrio","to strike a balance"],
+        ["una pregunta retórica","a rhetorical question"],
+        ["evocar","to evoke"],
+        ["asumir responsabilidad de forma proporcionada","to acknowledge responsibility proportionately"]
+      ],
+      grammar:[
+        ["Efecto estilístico y elección léxica","La elección de una estructura o palabra puede crear cercanía, distancia, urgencia o ironía, incluso sin cambiar el contenido literal.","No es del todo desacertado, aunque sin duda podría mejorarse."],
+        ["Reformulación para un registro público formal","Un comunicado público reconoce el impacto, asume responsabilidad de forma proporcionada y propone una acción verificable, evitando tanto la frialdad como la dramatización.","Reconocemos las molestias causadas y ya estamos aplicando medidas para evitar que se repitan."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué efecto suele producir la frase \"no es del todo desacertado\"?",["Una aprobación cauta y deliberadamente atenuada.","Una aprobación entusiasta y sin reservas.","Un rechazo total de la idea.","Una instrucción técnica sin valoración."],0,"La doble atenuación crea una valoración reservada, típica del registro culto."],
+      ["mcq","¿Qué versión se adapta mejor a una disculpa pública formal?",["Reconocemos las molestias causadas y estamos tomando medidas inmediatas para evitar que se repitan.","Vaya, qué momento más incómodo, ya se nos pasará.","Eso no fue culpa nuestra en absoluto.","Todo el mundo comete errores, no hay que darle más vueltas."],0,"El registro formal reconoce el impacto, asume responsabilidad y propone una acción concreta."],
+      ["fill","Completa: \"El discurso busca ___ un sentido de responsabilidad compartida.\"",["evocar","invocar","provocar","revocar"],0,"'Evocar' significa suscitar un sentimiento o una idea en quien escucha."],
+      ["mcq","¿Cuál es el propósito principal de una pregunta retórica en un discurso persuasivo?",["Involucrar a la audiencia y sugerir una respuesta sin formularla explícitamente.","Pedir información que el orador desconoce.","Confundir deliberadamente a la audiencia.","Cambiar de tema sin que se note."],0,"La pregunta retórica orienta al oyente hacia una conclusión sin declararla directamente."],
+      ["writing","Reformula este mensaje interno brusco como un comunicado público de 50-70 palabras: \"El equipo falló, hay que arreglarlo ya.\" Reconoce el problema, evita dramatizarlo y propone una acción verificable.",[],["reconocemos","medidas","evitar que se repita"],"Evalúa proporción y tono: ni frialdad excesiva ni dramatismo innecesario.","Comunicado: un servicio digital estuvo caído dos horas."]
+    ]
+  },
+  {
+    id:"es_c2_critical_reading", level:"C2", title:"Lectura crítica e implicaturas", emoji:"🧩", xp:96,
+    description:"Interpreta presuposiciones, lenguaje cargado de valoración y conclusiones implícitas en textos de opinión.",
+    study:{
+      vocab:[
+        ["dar a entender","to imply"],
+        ["una salvedad","a caveat"],
+        ["lenguaje cargado","loaded language"],
+        ["inferir","to draw an inference"]
+      ],
+      grammar:[
+        ["Presuposición","Una frase puede presentar una idea como ya aceptada, sin demostrarla explícitamente.","Incluso los críticos que quedaban aceptaron el plan revisado."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué presupone la frase \"Incluso los críticos que quedaban aceptaron el plan revisado\"?",["Que hubo críticos y que algunos ya habían dejado de oponerse antes.","Que nadie criticó nunca el plan.","Que el plan fue rechazado por completo.","Que no existe ningún plan revisado."],0,"'Incluso' y 'que quedaban' presentan información como ya compartida y orientan la inferencia."],
+      ["mcq","¿Cuál es una lectura crítica apropiada de \"una solución audaz para un sistema obsoleto\"?",["El adjetivo 'obsoleto' valora el sistema y predispone al lector a favor de la solución.","La frase es completamente neutral y no valora nada.","La solución ya demostró ser eficaz.","No contiene ninguna valoración implícita."],0,"'Obsoleto' es lenguaje cargado, no un hecho comprobado objetivamente."],
+      ["fill","Completa: \"El artículo incluye una ___ importante: los resultados no se han replicado.\"",["salvedad","idea","consecuencia","comparación"],0,"Una 'salvedad' es una reserva que limita el alcance de una afirmación."],
+      ["mcq","Ante la frase \"Es hora de devolver el sentido común a la política pública\", ¿qué implica el uso de 'devolver'?",["Da a entender que el sentido común existía antes y se ha perdido, sin demostrarlo.","Afirma con datos que la política actual carece de sentido.","Es una descripción neutral sin ninguna carga valorativa.","Propone una política concreta y verificable."],0,"'Devolver' presupone una pérdida previa, una estrategia retórica habitual sin base demostrada."],
+      ["speaking","Analiza en 50-70 palabras una frase persuasiva de tu elección: identifica una presuposición, una palabra cargada de valoración y una inferencia razonable.",[],["presupone","lenguaje","inferencia"],"No basta con estar de acuerdo o en desacuerdo: explica cómo el lenguaje orienta la interpretación.","Frase de ejemplo: \"Ya es hora de poner fin a esta práctica anticuada.\""]
+    ]
+  },
 ];
