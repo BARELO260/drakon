@@ -597,4 +597,72 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi un paragrafo di 80-100 parole che confuti con sfumature una posizione su un tema controverso (per esempio, l'automazione del lavoro), usando almeno due strutture di concessione-confutazione.",[],["se è vero che","lungi dal","in ultima analisi"],"Riconosci prima il punto contrario, poi sfumalo o confutalo con precisione.","Articolo di opinione per una rivista specializzata."]
     ]
   },
+  {
+    id:"it_c2_style_implication", level:"C2", title:"Stile, implicazione e sfumatura", emoji:"🔎", xp:92,
+    description:"Interpreta il sottotesto e riformula idee complesse usando l'inversione enfatica e la litote.",
+    study:{
+      vocab:[
+        ["in nessun caso","by no means","Negazione enfatica che anticipa il verbo."],
+        ["non essere all'altezza di","to fall short of"],
+        ["un presupposto tacito","a tacit assumption"],
+        ["sfumare un'affermazione","to qualify a claim"]
+      ],
+      grammar:[
+        ["Inversione dopo una negazione enfatica","Con espressioni negative enfatiche in apertura di frase ('in nessun caso', 'in alcun modo', 'sotto nessun aspetto'), nel registro colto il verbo precede spesso il soggetto.","In nessun caso questi risultati dovrebbero essere considerati definitivi."],
+        ["Litote: affermare negando il contrario","Negare il contrario di un'idea è un espediente colto per affermarla con prudenza e sfumatura.","La proposta non è priva di rischi, anche se i suoi benefici sono evidenti."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale riformulazione mantiene meglio il senso di «I dati sono suggestivi, non conclusivi»?",["I dati indicano una direzione, ma non bastano per una conclusione definitiva.","I dati dimostrano la conclusione senza alcun dubbio.","Non esiste alcun dato disponibile sull'argomento.","La conclusione è suggestiva, ma i dati sono definitivi."],0,"Mantiene la differenza tra indizio e prova conclusiva."],
+      ["fill","Completa l'inversione: «In nessun caso ___ essere considerati definitivi questi risultati.»",["dovrebbero","dovrebbe","dovremmo","dovresti"],0,"Il verbo concorda con il soggetto plurale 'questi risultati': dovrebbero essere considerati."],
+      ["mcq","In «La proposta non è priva di rischi», che funzione ha la litote?",["Afferma con sfumatura che la proposta comporta effettivamente un rischio.","Nega completamente che ci sia un rischio.","Afferma che la proposta è totalmente sicura.","Non aggiunge alcun significato."],0,"'Non è priva di' nega il contrario per affermare qualcosa con prudenza."],
+      ["translate","Traduci: «By no means should this decision be treated as final.»",["In nessun caso questa decisione dovrebbe essere considerata definitiva.","Questa decisione è definitiva in nessun caso.","Dovrebbe essere considerata in nessun caso questa decisione.","Questa decisione in nessun caso definitiva dovrebbe essere."],0,"'In nessun caso' + inversione è l'equivalente colto di 'by no means'."],
+      ["writing","Scrivi 60-80 parole su una decisione aziendale controversa: usa almeno un'inversione enfatica ('in nessun caso'/'in alcun modo') e una litote.",[],["in nessun caso","non è priva di","in alcun modo"],"Il livello C2 unisce precisione argomentativa e strumenti retorici di sfumatura.","Rubrica di opinione per una rivista specializzata."]
+    ]
+  },
+  {
+    id:"it_c2_rhetoric_tone", level:"C2", title:"Retorica, tono ed effetto stilistico", emoji:"🎭", xp:94,
+    description:"Scegli strumenti retorici e adatta il tono a pubblico, scopo ed effetto desiderato.",
+    study:{
+      vocab:[
+        ["trovare un equilibrio","to strike a balance"],
+        ["una domanda retorica","a rhetorical question"],
+        ["evocare","to evoke"],
+        ["assumersi una responsabilità in modo proporzionato","to acknowledge responsibility proportionately"]
+      ],
+      grammar:[
+        ["Effetto stilistico e scelta lessicale","La scelta di una struttura o di una parola può creare vicinanza, distanza, urgenza o ironia, senza cambiare il contenuto letterale.","Non è del tutto infondato, anche se potrebbe senz'altro essere migliorato."],
+        ["Riformulazione per un registro pubblico formale","Un comunicato pubblico riconosce l'impatto, assume una responsabilità proporzionata e propone un'azione verificabile, evitando sia la freddezza che la drammatizzazione.","Riconosciamo il disagio causato e stiamo già adottando misure per evitare che si ripeta."]
+      ]
+    },
+    ex:[
+      ["mcq","Che effetto produce di solito la frase «non è del tutto infondato»?",["Un'approvazione cauta e deliberatamente attenuata.","Un'approvazione entusiasta e senza riserve.","Un rifiuto totale dell'idea.","Un'istruzione tecnica priva di giudizio."],0,"La doppia attenuazione crea una valutazione riservata, tipica del registro colto."],
+      ["mcq","Quale versione è più adatta a delle scuse pubbliche formali?",["Riconosciamo il disagio causato e stiamo adottando misure immediate per evitare che si ripeta.","Beh, che momento imbarazzante, passerà.","Non è stata affatto colpa nostra.","Tutti commettono errori, non serve insistere."],0,"Il registro formale riconosce l'impatto, assume responsabilità e propone un'azione concreta."],
+      ["fill","Completa: «Il discorso cerca di ___ un senso di responsabilità condivisa.»",["evocare","invocare","provocare","revocare"],0,"'Evocare' significa suscitare un sentimento o un'idea in chi ascolta."],
+      ["mcq","Qual è lo scopo principale di una domanda retorica in un discorso persuasivo?",["Coinvolgere il pubblico e suggerire una risposta senza formularla esplicitamente.","Chiedere un'informazione che l'oratore realmente non conosce.","Confondere deliberatamente il pubblico.","Cambiare argomento senza farsi notare."],0,"La domanda retorica orienta l'ascoltatore verso una conclusione senza dichiararla direttamente."],
+      ["writing","Riformula questo messaggio interno brusco in un comunicato pubblico di 50-70 parole: «La squadra ha fallito, bisogna sistemarlo subito.» Riconosci il problema, evita di drammatizzarlo e proponi un'azione verificabile.",[],["riconosciamo","misure","evitare che si ripeta"],"Valuta proporzione e tono: né eccessiva freddezza né drammatizzazione inutile.","Comunicato: un servizio digitale è rimasto fuori uso per due ore."]
+    ]
+  },
+  {
+    id:"it_c2_critical_reading", level:"C2", title:"Lettura critica e implicature", emoji:"🧩", xp:96,
+    description:"Interpreta presupposizioni, linguaggio valutativo e conclusioni implicite in testi di opinione.",
+    study:{
+      vocab:[
+        ["lasciar intendere","to imply"],
+        ["una riserva","a caveat"],
+        ["linguaggio valutativo","loaded language"],
+        ["trarre un'inferenza","to draw an inference"]
+      ],
+      grammar:[
+        ["Presupposizione","Una frase può presentare un'idea come già accettata, senza dimostrarla esplicitamente.","Perfino i critici rimasti hanno accettato il piano rivisto."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa presuppone la frase «Perfino i critici rimasti hanno accettato il piano rivisto»?",["Che ci sono stati critici e che alcuni si erano già convinti prima.","Che nessuno ha mai criticato il piano.","Che il piano è stato completamente respinto.","Che non esiste alcun piano rivisto."],0,"'Perfino' e 'rimasti' presentano l'informazione come già condivisa e orientano l'inferenza."],
+      ["mcq","Qual è una lettura critica appropriata di «una soluzione audace per un sistema obsoleto»?",["L'aggettivo 'obsoleto' valuta il sistema e predispone il lettore a favore della soluzione.","La frase è completamente neutra e non contiene valutazioni.","La soluzione ha già dimostrato di essere efficace.","Non contiene alcuna valutazione implicita."],0,"'Obsoleto' è linguaggio valutativo, non un fatto dimostrato oggettivamente."],
+      ["fill","Completa: «L'articolo include una ___ importante: i risultati non sono stati replicati.»",["riserva","idea","conseguenza","comparazione"],0,"Una 'riserva' limita la portata di un'affermazione."],
+      ["mcq","Nella frase «È ora di restituire il buon senso alla politica pubblica», cosa implica il verbo 'restituire'?",["Lascia intendere che il buon senso esisteva prima ed è andato perduto, senza dimostrarlo.","Afferma con dati che la politica attuale manca di buon senso.","È una descrizione neutra, priva di ogni carica valutativa.","Propone una politica concreta e verificabile."],0,"'Restituire' presuppone una perdita precedente, una strategia retorica comune priva di prove."],
+      ["speaking","Analizza in 50-70 parole una frase persuasiva a tua scelta: individua una presupposizione, una parola valutativa e un'inferenza ragionevole.",[],["presuppone","linguaggio","inferenza"],"Non basta essere d'accordo o in disaccordo: spiega come il linguaggio orienta l'interpretazione.","Frase di esempio: «È ora di porre fine a questa pratica superata.»"]
+    ]
+  },
 ];
