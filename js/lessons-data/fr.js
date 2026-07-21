@@ -597,4 +597,72 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris un paragraphe de 80-100 mots qui réfute avec nuance une position sur un sujet controversé (par exemple, l'automatisation de l'emploi), en utilisant au moins deux structures de concession-réfutation.",[],["certes","loin de","en dernière instance"],"Reconnais d'abord le point contraire, puis nuance-le ou réfute-le avec précision.","Article d'opinion pour une revue spécialisée."]
     ]
   },
+  {
+    id:"fr_c2_style_implication", level:"C2", title:"Style, implication et nuance", emoji:"🔎", xp:92,
+    description:"Interprète le sous-entendu et reformule des idées complexes grâce à l'inversion emphatique et à la litote.",
+    study:{
+      vocab:[
+        ["en aucun cas","by no means","Négation emphatique qui inverse le sujet et le verbe."],
+        ["être en deçà de","to fall short of"],
+        ["un présupposé tacite","a tacit assumption"],
+        ["nuancer une affirmation","to qualify a claim"]
+      ],
+      grammar:[
+        ["Inversion après une négation emphatique","Après une expression négative emphatique en tête de phrase ('en aucun cas', 'à aucun moment', 'nulle part'), le sujet et le verbe s'inversent en registre soutenu.","En aucun cas ces résultats ne sauraient être considérés comme définitifs."],
+        ["La litote : affirmer en niant le contraire","Nier le contraire d'une idée est un procédé soutenu pour l'affirmer avec prudence et nuance.","Cette proposition n'est pas sans risque, même si ses bénéfices sont évidents."]
+      ]
+    },
+    ex:[
+      ["mcq","Quelle reformulation garde le mieux le sens de « Les données sont suggestives, non concluantes » ?",["Les données vont dans un sens, mais ne suffisent pas pour conclure définitivement.","Les données prouvent la conclusion sans aucun doute.","Aucune donnée n'est disponible sur le sujet.","La conclusion est suggestive, mais les données sont définitives."],0,"Conserve la distinction entre indice et preuve concluante."],
+      ["fill","Complète l'inversion : « En aucun cas ces résultats ne ___ être considérés comme définitifs. »",["sauraient","sauraient-ils","saurait","sauront"],0,"Le verbe s'accorde avec le sujet pluriel 'ces résultats' : ne sauraient être."],
+      ["mcq","Dans « Cette proposition n'est pas sans risque », quelle est la fonction de la litote ?",["Affirmer avec nuance que la proposition comporte bien un risque.","Nier totalement que la proposition comporte un risque.","Affirmer que la proposition est totalement sûre.","N'apporter aucun sens supplémentaire."],0,"« N'est pas sans » nie le contraire pour affirmer quelque chose avec prudence."],
+      ["translate","Traduis : « By no means should this decision be treated as final. »",["En aucun cas cette décision ne devrait être considérée comme définitive.","Cette décision est définitive en aucun cas.","Devrait être considérée en aucun cas cette décision.","Cette décision en aucun cas définitive devrait être."],0,"« En aucun cas » + inversion est l'équivalent soutenu de « by no means »."],
+      ["writing","Rédige 60-80 mots sur une décision d'entreprise controversée : utilise au moins une inversion emphatique ('en aucun cas'/'à aucun moment') et une litote.",[],["en aucun cas","n'est pas sans","à aucun moment"],"Le niveau C2 combine précision argumentative et procédés rhétoriques de nuance.","Chronique d'opinion pour une revue spécialisée."]
+    ]
+  },
+  {
+    id:"fr_c2_rhetoric_tone", level:"C2", title:"Rhétorique, ton et effet stylistique", emoji:"🎭", xp:94,
+    description:"Choisis des procédés rhétoriques et ajuste le ton selon l'auditoire, l'intention et l'effet recherché.",
+    study:{
+      vocab:[
+        ["trouver un équilibre","to strike a balance"],
+        ["une question rhétorique","a rhetorical question"],
+        ["évoquer","to evoke"],
+        ["assumer une responsabilité de façon proportionnée","to acknowledge responsibility proportionately"]
+      ],
+      grammar:[
+        ["Effet stylistique et choix lexical","Le choix d'une structure ou d'un mot peut créer de la proximité, de la distance, de l'urgence ou de l'ironie, sans changer le contenu littéral.","Ce n'est pas entièrement infondé, même si cela pourrait sans doute être amélioré."],
+        ["Reformulation pour un registre public formel","Un communiqué public reconnaît l'impact, assume une responsabilité proportionnée et propose une action vérifiable, sans froideur excessive ni dramatisation.","Nous reconnaissons la gêne occasionnée et mettons déjà en place des mesures pour éviter que cela se reproduise."]
+      ]
+    },
+    ex:[
+      ["mcq","Quel effet produit généralement la phrase « ce n'est pas entièrement infondé » ?",["Une approbation prudente et délibérément atténuée.","Une approbation enthousiaste et sans réserve.","Un rejet total de l'idée.","Une instruction technique sans jugement."],0,"La double atténuation crée une appréciation réservée, typique du registre soutenu."],
+      ["mcq","Quelle version convient le mieux à des excuses publiques formelles ?",["Nous reconnaissons la gêne occasionnée et prenons des mesures immédiates pour éviter que cela se reproduise.","Bon, ce moment était gênant, ça passera.","Ce n'était absolument pas de notre faute.","Tout le monde fait des erreurs, inutile d'insister."],0,"Le registre formel reconnaît l'impact, assume une responsabilité et propose une action concrète."],
+      ["fill","Complète : « Le discours cherche à ___ un sentiment de responsabilité partagée. »",["évoquer","invoquer","provoquer","révoquer"],0,"'Évoquer' signifie susciter un sentiment ou une idée chez l'auditeur."],
+      ["mcq","Quel est le principal objectif d'une question rhétorique dans un discours persuasif ?",["Impliquer l'auditoire et suggérer une réponse sans la formuler explicitement.","Demander une information que l'orateur ignore réellement.","Semer volontairement la confusion dans l'auditoire.","Changer de sujet discrètement."],0,"La question rhétorique oriente l'auditeur vers une conclusion sans l'énoncer directement."],
+      ["writing","Reformule ce message interne brusque en communiqué public de 50-70 mots : « L'équipe a échoué, il faut réparer ça tout de suite. » Reconnais le problème, évite de le dramatiser et propose une action vérifiable.",[],["nous reconnaissons","mesures","éviter que cela se reproduise"],"Évalue la proportion et le ton : ni froideur excessive ni dramatisation inutile.","Communiqué : un service numérique a été interrompu pendant deux heures."]
+    ]
+  },
+  {
+    id:"fr_c2_critical_reading", level:"C2", title:"Lecture critique et sous-entendus", emoji:"🧩", xp:96,
+    description:"Interprète les présupposés, le langage orienté et les conclusions implicites dans des textes d'opinion.",
+    study:{
+      vocab:[
+        ["laisser entendre","to imply"],
+        ["une réserve","a caveat"],
+        ["un langage orienté","loaded language"],
+        ["tirer une inférence","to draw an inference"]
+      ],
+      grammar:[
+        ["Présupposition","Une phrase peut présenter une idée comme déjà admise, sans la démontrer explicitement.","Même les critiques restants ont accepté le plan révisé."]
+      ]
+    },
+    ex:[
+      ["mcq","Que présuppose la phrase « Même les critiques restants ont accepté le plan révisé » ?",["Qu'il y a eu des critiques et que certains s'étaient déjà ralliés avant.","Que personne n'a jamais critiqué le plan.","Que le plan a été entièrement rejeté.","Qu'aucun plan révisé n'existe."],0,"« Même » et « restants » présentent l'information comme déjà partagée et orientent l'inférence."],
+      ["mcq","Quelle est une lecture critique appropriée de « une solution audacieuse à un système dépassé » ?",["L'adjectif 'dépassé' évalue le système et prédispose le lecteur en faveur de la solution.","La phrase est totalement neutre et ne comporte aucun jugement.","La solution a déjà prouvé son efficacité.","Elle ne contient aucune évaluation implicite."],0,"'Dépassé' est un langage orienté, pas un fait démontré objectivement."],
+      ["fill","Complète : « L'article comporte une ___ importante : les résultats n'ont pas été reproduits. »",["réserve","idée","conséquence","comparaison"],0,"Une 'réserve' limite la portée d'une affirmation."],
+      ["mcq","Dans « Il est temps de redonner du bon sens à la politique publique », qu'implique le verbe 'redonner' ?",["Il laisse entendre que le bon sens existait avant et a été perdu, sans le démontrer.","Il affirme avec des données que la politique actuelle manque de bon sens.","C'est une description neutre, sans aucune charge évaluative.","Il propose une politique concrète et vérifiable."],0,"'Redonner' présuppose une perte antérieure, une stratégie rhétorique courante sans preuve."],
+      ["speaking","Analyse en 50-70 mots une phrase persuasive de ton choix : identifie un présupposé, un mot orienté et une inférence raisonnable.",[],["présuppose","langage","inférence"],"Il ne suffit pas d'être d'accord ou en désaccord : explique comment le langage oriente l'interprétation.","Phrase d'exemple : « Il est temps de mettre fin à cette pratique dépassée. »"]
+    ]
+  },
 ];
