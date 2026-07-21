@@ -392,6 +392,31 @@ box-shadow:var(--card-elev);}
 .back-btn:hover{text-shadow:none}
 .chat-title{font-family:var(--fh);font-size:12px;font-weight:700;flex:1;color:var(--text)}
 .chat-lp{background:color-mix(in srgb, var(--accent) 12%, transparent);color:var(--gold);font-size:9px;font-weight:700;padding:3px 10px;border-radius:10px;flex-shrink:0;border:1px solid color-mix(in srgb, var(--accent) 30%, transparent);font-family:var(--fh)}
+.mascot-stage{position:relative;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:8px 0 4px;overflow:hidden;background:
+    radial-gradient(ellipse 60% 70% at 50% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 75%),
+    var(--topbar-bg);
+  border-bottom:1px solid var(--border)}
+.mascot-glow{position:absolute;top:38%;left:50%;width:120px;height:120px;border-radius:50%;
+  background:radial-gradient(circle, color-mix(in srgb, var(--gold) 55%, transparent), transparent 70%);
+  filter:blur(6px);transform:translate(-50%,-50%);pointer-events:none;animation:mascotGlowPulse 3.4s ease-in-out infinite}
+.mascot-frame{position:relative;width:132px;height:132px;display:flex;align-items:flex-end;justify-content:center;z-index:1}
+.mascot-img{width:100%;height:100%;object-fit:contain;object-position:bottom;display:block;
+  filter:drop-shadow(0 6px 14px var(--shadow));
+  transition:opacity .18s ease, transform .18s ease;
+  animation:mascotBreathe 3.6s ease-in-out infinite}
+.mascot-stage.is-swapping .mascot-img{opacity:0;transform:scale(.94) translateY(4px);animation:none}
+.mascot-stage.is-idle .mascot-img{animation:mascotBreathe 3.6s ease-in-out infinite}
+.mascot-stage.is-laugh .mascot-img{animation:mascotLaughShake .55s ease-in-out 2}
+.mascot-stage.is-laugh .mascot-glow{background:radial-gradient(circle, color-mix(in srgb, var(--coral) 55%, transparent), transparent 70%)}
+.mascot-stage.is-speak .mascot-img{animation:mascotSpeakBob .48s ease-in-out infinite}
+.mascot-stage.is-speak .mascot-glow{background:radial-gradient(circle, color-mix(in srgb, var(--mint) 55%, transparent), transparent 70%)}
+.mascot-status{position:relative;z-index:1;font-family:var(--fh);font-size:10.5px;font-weight:700;color:var(--gold);
+  min-height:14px;opacity:0;transition:opacity .22s ease;animation:mascotStatusFade .3s ease both}
+.mascot-stage-sm{padding:4px 0 2px}
+.mascot-stage-sm .mascot-frame{width:76px;height:76px}
+.mascot-stage-sm .mascot-glow{width:70px;height:70px;top:34%}
+.mascot-stage-sm .mascot-status{font-size:9px}
+
 .chat-messages{padding:12px 11px 10px;display:flex;flex-direction:column;gap:10px;flex:1;overflow-y:auto;min-height:0}
 .msg{display:flex;gap:7px;align-items:flex-end;animation:fadeUp .28s both}
 .msg.user{flex-direction:row-reverse}
