@@ -507,6 +507,7 @@ async function sendChatInternal(){
 
   if(!state.groqKey){
     typing.remove();
+    if(typeof mascotIdle==='function') mascotIdle();
     if(errBar){ errBar.textContent = em.nokey; errBar.style.display = 'block'; }
     return;
   }
@@ -546,6 +547,7 @@ async function sendChatInternal(){
       if(resp.status === 401){
         // Bad API key
         typing.remove();
+        if(typeof mascotIdle==='function') mascotIdle();
         if(errBar){ errBar.textContent = '🔑 API key inválida o expirada. Ve a Ajustes para actualizarla.'; errBar.style.display = 'block'; }
         return;
       }
@@ -569,6 +571,7 @@ async function sendChatInternal(){
       }
       // Network error
       typing.remove();
+      if(typeof mascotIdle==='function') mascotIdle();
       let userMsg = em.def;
       if(msg.includes('timeout')) userMsg = em.timeout;
       else if(msg.includes('failed to fetch') || msg.includes('network')) userMsg = em.net;
@@ -579,6 +582,7 @@ async function sendChatInternal(){
 
   if(!text){
     typing.remove();
+    if(typeof mascotIdle==='function') mascotIdle();
     if(errBar){ errBar.textContent = em.def; errBar.style.display = 'block'; }
     return;
   }
@@ -596,6 +600,7 @@ async function sendChatInternal(){
 
 function addAIMsg(text){
   const area=document.getElementById('chatMsgs'); if(!area) return;
+  if(typeof mascotReactToMessage==='function') mascotReactToMessage(text);
   const ch=getChar();
   const div=document.createElement('div'); div.className='msg';
   // Strip [L] tags from display (legacy cleanup)
