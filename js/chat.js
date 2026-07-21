@@ -102,6 +102,7 @@ function viewSavedChat(i){
   const tEl = document.getElementById('chatHistoryTitle'); if(tEl) tEl.textContent = c.name||'Chat';
   renderHistoryMsgs(c.messages);
   goTo('screen-chat-history');
+  if(typeof mascotReset==='function') mascotReset();
   setTimeout(()=>{
     const area = document.getElementById('chatHistoryMsgs');
     if(area) area.scrollTop = area.scrollHeight;
@@ -139,6 +140,7 @@ function continueFromHistory(){
     if(langObj) state.lang = langObj;
   }
   goTo('screen-chat');
+  if(typeof mascotReset==='function') mascotReset();
   const area = document.getElementById('chatMsgs'); if(!area) return;
   area.innerHTML = '';
   const ch = getChar();
@@ -190,6 +192,7 @@ async function sendHistoryMsg(){
     c.messages.pop();
     state.chatHistory = prevHistory; state.chatMode = prevMode;
     renderHistoryMsgs(c.messages);
+    if(typeof mascotIdle==='function') mascotIdle();
     return;
   }
 
@@ -227,13 +230,14 @@ async function sendHistoryMsg(){
     c.messages.pop();
     state.chatHistory=prevHistory; state.chatMode=prevMode;
     renderHistoryMsgs(c.messages);
+    if(typeof mascotIdle==='function') mascotIdle();
     return;
   }
 
   document.getElementById('histTyping')?.remove();
   state.chatHistory=prevHistory; state.chatMode=prevMode;
 
-  if(!aiText){ if(errBar){ errBar.textContent='⚠️ Sin respuesta. Intenta de nuevo.'; errBar.style.display='block'; } c.messages.pop(); renderHistoryMsgs(c.messages); return; }
+  if(!aiText){ if(errBar){ errBar.textContent='⚠️ Sin respuesta. Intenta de nuevo.'; errBar.style.display='block'; } c.messages.pop(); renderHistoryMsgs(c.messages); if(typeof mascotIdle==='function') mascotIdle(); return; }
 
   c.messages.push({role:'assistant',content:aiText});
   c.date = new Date().toISOString();
@@ -241,6 +245,7 @@ async function sendHistoryMsg(){
   save();
   renderHistoryMsgs(c.messages);
   if(area) setTimeout(()=>{ area.scrollTop=area.scrollHeight; },80);
+  if(typeof mascotReactToMessage==='function') mascotReactToMessage(aiText);
   if(state.ttsEnabled) speakText(aiText);
 }
 
@@ -377,6 +382,7 @@ function _launchChat(mode,sit){
   const ct=document.getElementById('chatTitle'); if(ct) ct.textContent=titles[mode]||'Chat';
   const lp=document.getElementById('chatLangP'); if(lp) lp.textContent=state.lang?.code||'EN';
   goTo('screen-chat');
+  if(typeof mascotReset==='function') mascotReset();
   const ch=getChar(); const lang=state.lang?.name||'inglés';
   const welcomes={
     free:`¡Hola! Soy ${ch.name}. ¿Cuéntame algo en ${lang}? Te ayudo a mejorar.`,
