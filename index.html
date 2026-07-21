@@ -385,6 +385,13 @@
     <button class="tts-btn" id="saveChatBtn" onclick="saveCurrentChat()" title="Guardar chat" style="font-size:13px">💾</button>
     <span class="chat-lp" id="chatLangP">EN</span>
   </div>
+  <div class="mascot-stage is-idle" id="mascotStage">
+    <div class="mascot-glow"></div>
+    <div class="mascot-frame">
+      <img class="mascot-img" id="mascotImg" src="assets/characters/animations/ia/drakon/idle.svg" alt="" draggable="false">
+    </div>
+    <div class="mascot-status" id="mascotStatus"></div>
+  </div>
   <div class="chat-messages" id="chatMsgs"></div>
   <div id="noKeyBanner" style="display:none;margin:8px 11px;background:rgba(245,158,11,.12);border:1.5px solid var(--gold);border-radius:12px;padding:11px 13px;font-size:12px;color:var(--text);line-height:1.6">
     ⚡ <strong>Configura tu IA gratis:</strong> Ve a <strong>Ajustes → API Key de IA</strong> y pega tu key de <a href="https://console.groq.com/keys" target="_blank" style="color:var(--gold)">console.groq.com</a> (gratis, sin tarjeta).
@@ -419,6 +426,13 @@
     <button class="back-btn" onclick="goTo('screen-saved-chats');renderSavedChats()">←</button>
     <span class="chat-title" id="chatHistoryTitle">Chat</span>
     <button onclick="continueFromHistory()" style="background:linear-gradient(135deg,#ea580c,var(--gold));color:#fff;border:none;border-radius:99px;padding:6px 13px;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap">Continuar ›</button>
+  </div>
+  <div class="mascot-stage mascot-stage-sm is-idle" id="mascotStageHist">
+    <div class="mascot-glow"></div>
+    <div class="mascot-frame">
+      <img class="mascot-img" src="assets/characters/animations/ia/drakon/idle.svg" alt="" draggable="false">
+    </div>
+    <div class="mascot-status"></div>
   </div>
   <div class="ch-messages" id="chatHistoryMsgs" style="flex:1;overflow-y:auto;padding:12px 11px;display:flex;flex-direction:column;gap:9px"></div>
   <div class="chat-input-bar" style="flex-shrink:0">
@@ -672,6 +686,8 @@
 <script src="js/ui.js"></script>
 <!-- 4. Characters: CHARS definitions, selectChar, renderChars -->
 <script src="js/characters.js"></script>
+
+<script src="js/mascot.js"></script>
 <!-- 4b. Char intro: cinematic animation overlay on character select -->
 <script src="js/char-intro.js"></script>
 <!-- 5. Menu: native lang, lang picker, quiz, onboarding -->
