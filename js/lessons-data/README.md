@@ -110,25 +110,53 @@ Hay un script de validación de referencia (ver notas de la sesión de
 desarrollo) que recorre todos los archivos de `js/lessons-data/` y reporta
 cualquier problema antes de integrarlos.
 
-## Estado actual del contenido (ver también SESSION_NOTES.md)
+## Estado actual del contenido
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 25 | Progresión real A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica). Se corrigió un bug de sintaxis en `en-b1-skills.js` que impedía que esas 4 lecciones B1 cargaran. |
-| Español    | ES | 12 | A1 (6): saludos, números/colores, ser vs. estar, familia/hogar, comida/restaurantes, rutina diaria. A2 (3): compras/ropa, clima/estaciones, pretérito (pasado). B1 (3): futuro simple, direcciones/viajes, consejos y recomendaciones. |
-| Francés    | FR | 12 | Mismos temas que español, adaptados al francés (être vs. avoir, passé composé, futur simple, etc.) |
-| Alemán     | DE | 12 | Mismos temas, adaptados al alemán (sein vs. haben, Perfekt, Futur I, verbos separables). |
-| Italiano   | IT | 12 | Mismos temas, adaptados al italiano (essere vs. avere, passato prossimo, futuro semplice). |
-| Portugués  | PT | 12 | Mismos temas, adaptados al portugués (ser vs. estar, pretérito perfeito, futuro simples). |
+| Inglés     | EN | 25 | Progresión A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica). |
+| Español    | ES | 30 | Progresión completa A1→C2: A1 (6), A2 (3), B1 (6), B2 (6), C1 (6), C2 (3): inversión enfática/litotes, retórica y tono, lectura crítica e implicaturas. |
+| Francés    | FR | 30 | Misma progresión y temas que español, adaptados al francés (être vs. avoir, passé composé, futur simple, subjonctif, nominalisation, inversion emphatique...). |
+| Alemán     | DE | 30 | Misma progresión, adaptada al alemán (sein vs. haben, Perfekt, Futur I, Konjunktiv II, Nominalstil, Inversion nach Verneinung...). |
+| Italiano   | IT | 30 | Misma progresión, adaptada al italiano (essere vs. avere, passato prossimo, futuro semplice, congiuntivo, nominalizzazione, inversione enfatica...). |
+| Portugués  | PT | 30 | Misma progresión, adaptada al portugués (ser vs. estar, pretérito perfeito, futuro simples, subjuntivo, nominalização, inversão enfática...). |
 
-**Total actual: 85 lecciones**, todas con su glosario de estudio (`study`)
-correspondiente y validadas automáticamente (4 opciones por ejercicio, índice
-correcto en rango, sin opciones duplicadas, sin IDs repetidos).
+**Total actual: 175 lecciones.** Los 6 idiomas ya cubren el recorrido completo
+**A1 → C2**, cada lección con su glosario de estudio (`study`) correspondiente,
+validadas automáticamente (4 opciones por ejercicio en mcq/fill/translate,
+índice correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
+ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
+índice — ver más abajo).
 
-**Objetivo:** ~500 lecciones por idioma, progresión A1→C1 (vocabulario,
-gramática, tiempos verbales, conversación, comprensión, estructuras
-avanzadas). La arquitectura ya soporta esa escala sin cambios de código;
-lo que falta es seguir agregando lecciones a cada archivo, lote por lote,
-en próximas sesiones. El inglés ya tiene el recorrido completo A1→C2 como
-referencia de profundidad; el resto de idiomas van A1→B1 y necesitan B2,
-C1 y C2 en próximos lotes.
+### Tipos de ejercicio: dos formatos distintos
+
+El motor (`js/lessons.js`) soporta dos formatos de ejercicio según el `tipo`:
+
+**`mcq` / `translate` / `fill` / `arrange` / `listen_mcq`** (selección):
+```
+[tipo, pregunta, [op1,op2,op3,op4], índiceCorrecto, explicación, contexto?]
+```
+
+**`writing` / `speaking`** (producción libre, sin opciones):
+```
+[tipo, consigna, [], ['palabra1','palabra2','palabra3'], explicación, contexto?]
+```
+El tercer elemento va **vacío** (`[]`); el cuarto es un array de palabras o
+frases clave que el motor busca en la respuesta del usuario para dar una
+autoevaluación orientativa (no es una corrección estricta). El texto de la
+consigna debe indicar cuántas palabras escribir (ej. "60-80 palabras"); el
+motor usa 25 como mínimo por defecto si no se especifica `minWords`.
+
+### Convención de `translate`
+
+Todos los bancos que NO son inglés (ES/FR/ES/DE/IT/PT) enseñan un idioma
+distinto del español de la interfaz, así que `translate` siempre traduce
+**del inglés hacia el idioma que se está aprendiendo** (pregunta en inglés,
+opciones en el idioma meta). Mantén esta dirección al agregar contenido
+nuevo — es la que ya usan todas las lecciones existentes.
+
+**Próximo objetivo:** seguir ampliando cada nivel (más lecciones A1-B1 para
+mayor práctica antes de saltar a niveles avanzados) y, más adelante, sumar
+nuevos idiomas completos. La arquitectura ya soporta cientos de lecciones
+por idioma sin cambios de código — solo hace falta seguir añadiendo lotes
+a cada archivo.
