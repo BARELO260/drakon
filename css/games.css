@@ -57,11 +57,6 @@ html, body {
   transform: none;
   z-index: 1;
 }
-/* Space Invaders: fondo negro puro */
-.g-screen--black {
-  background-color: #000 !important;
-  color: #ffffff !important;
-}
 
 /* Scroll interno de pantallas educativas */
 .g-screen-scroll {
@@ -260,244 +255,6 @@ html, body {
   padding: 14px 16px 22px;
   font-size: 10px; color: var(--muted); opacity: .55;
 }
-
-/* ────────────────────────────────────────
-   SELECTOR DE PERSONAJE
-──────────────────────────────────────── */
-.g-charsel-intro {
-  display: flex; align-items: center; gap: 12px;
-  padding: 12px 16px;
-  background: linear-gradient(90deg, color-mix(in srgb, var(--sky) 7%, transparent), transparent);
-  border-bottom: 1px solid color-mix(in srgb, var(--sky) 14%, transparent);
-  flex-shrink: 0;
-}
-.g-charsel-intro__icon { font-size: 26px; filter: drop-shadow(0 4px 10px rgba(0,0,0,.18)); }
-.g-charsel-intro__title {
-  font-family: var(--fh); font-size: 12px; font-weight: 700;
-  color: var(--text);  
-}
-.g-charsel-intro__sub { font-size: 10px; color: var(--muted); margin-top: 1px; }
-
-.g-charsel-scroll { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
-.g-charsel-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  padding: 12px;
-}
-
-/* Tarjeta de personaje */
-.g-char-card {
-  border-radius:14px;
-  border: none;
-  background-color: var(--card);
-  padding: 9px 6px;
-  cursor: pointer;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  transition: all .18s;
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
- box-shadow:var(--card-elev);}
-.g-char-card:hover,
-.g-char-card:active {
-  background: linear-gradient(160deg, color-mix(in srgb, var(--sky) 7%, transparent), transparent);
-  transform: translateY(-2px);
-}
-.g-char-card.selected {
-  background: linear-gradient(160deg, color-mix(in srgb, var(--sky) 20%, transparent), color-mix(in srgb, var(--sky) 6%, transparent));
-  box-shadow: 0 0 0 2px var(--sky);
-}
-.g-char-card.selected::after {
-  content: '✓';
-  position: absolute; top: 5px; right: 6px;
-  font-family: var(--fh); font-size: 10px; font-weight: 900;
-  color: var(--sky);
-}
-
-/* Contenedor del archivo .webm de la nave */
-.g-char-ship {
-  width: 100%;
-  height: 58px;
-  display: flex; align-items: center; justify-content: center;
-  position: relative; overflow: hidden;
-}
-.g-char-ship video {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  filter: drop-shadow(0 4px 10px rgba(0,0,0,.18)) brightness(1.05);
-  display: block;
-}
-/* Si el video falla → mostrar emoji */
-.g-char-ship video.failed { display: none !important; }
-.g-char-emoji { display: none; font-size: 30px; filter: drop-shadow(0 4px 10px rgba(0,0,0,.18)); }
-.g-char-ship video.failed + .g-char-emoji { display: flex; }
-
-.g-char-name {
-  font-family: var(--fh); font-size:10.5px; font-weight: 700;
-  color: var(--text);   line-height: 1.3;
-}
-.g-char-role { font-size:10.5px; color: var(--muted); line-height: 1.3; }
-
-/* Footer fijo del selector */
-.g-charsel-footer {
-  flex-shrink: 0;
-  padding: 10px 12px 12px;
-  border-top: 1px solid var(--border);
-  background-color: var(--topbar-bg);
-  backdrop-filter: blur(16px);
-  display: flex; gap: 10px; align-items: center;
-  position: relative; z-index: 5;
-}
-.g-charsel-info {
-  flex: 1; min-width: 0; overflow: hidden;
-  font-family: var(--fh); font-size: 9px; 
-   color: var(--muted);
-  white-space: nowrap; text-overflow: ellipsis;
-}
-.g-charsel-info__placeholder { opacity: .4; }
-.g-charsel-info__name { color: var(--sky); }
-.g-charsel-btn {
-  padding: 13px 22px; flex-shrink: 0;
-  background: var(--gold); color: #1a1408;
-  border: none; border-radius: var(--radius-full);
-  font-family: var(--fh); font-size: 12px; font-weight: 800;
-  cursor: pointer;
-  box-shadow: 0 4px 0 color-mix(in srgb, var(--gold) 55%, black);
-  transition: transform .12s ease, box-shadow .12s ease;
-  white-space: nowrap;
-}
-.g-charsel-btn:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 2px 0 color-mix(in srgb, var(--gold) 55%, black); }
-.g-charsel-btn:disabled { opacity: .3; cursor: not-allowed; box-shadow: none; }
-
-/* ────────────────────────────────────────
-   SPACE INVADERS
-   El área de juego (canvas) sigue siendo negra —
-   tiene sentido temático para un shooter espacial —
-   pero el HUD, controles y overlay ahora usan los
-   MISMOS tokens de color que el resto de la app
-   (var(--gold)/var(--card)) en vez de un cian fijo
-   en hex que ignoraba el tema elegido.
-──────────────────────────────────────── */
-.g-inv-hud {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 10px 14px;
-  background-color: #000;
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  flex-shrink: 0; position: relative; z-index: 5;
-}
-.g-inv-stat { min-width: 60px; }
-.g-inv-stat__val {
-  font-family: var(--fh); font-size: 19px; font-weight: 900;
-  color: var(--gold); line-height: 1;
-}
-.g-inv-stat__lbl {
-  font-family: var(--fh); font-size:9.5px; font-weight: 700;
-  color: rgba(255,255,255,.45); margin-top: 2px;
-}
-.g-inv-center { display: flex; flex-direction: column; align-items: center; gap: 2px; }
-
-/* La nave en el HUD (video pequeño) */
-.g-inv-ship-wrap {
-  width: 40px; height: 30px;
-  display: flex; align-items: center; justify-content: center;
-}
-.g-inv-ship-wrap video {
-  width: 100%; height: 100%; object-fit: contain;
-  filter: drop-shadow(0 4px 10px rgba(0,0,0,.35));
-}
-.g-inv-ship-wrap video.failed { display: none; }
-.g-inv-ship-emoji { display: none; font-size: 22px; line-height: 1; color: #fff; }
-.g-inv-ship-wrap video.failed + .g-inv-ship-emoji { display: block; }
-
-.g-inv-level-name {
-  font-family: var(--fh); font-size:10.5px; font-weight: 800;
-  color: var(--gold);
-}
-.g-inv-level-num {
-  font-family: var(--fh); font-size:9.5px; font-weight: 600;
-  color: rgba(255,255,255,.45);
-}
-.g-inv-lives { display: flex; gap: 3px; justify-content: flex-end; flex-wrap: wrap; min-height: 20px; }
-/* Miniaturas de vidas: cada una es un video pequeño */
-.g-inv-life-video {
-  width: 18px; height: 14px; object-fit: contain;
-  filter: drop-shadow(0 4px 10px rgba(0,0,0,.18));
-}
-.g-inv-life-emoji { font-size: 13px; color: #fff; }
-
-#invCanvas {
-  flex: 1; display: block; width: 100%;
-  cursor: none; touch-action: none; background: #000;
-}
-
-.g-inv-controls {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 10px; padding: 10px 14px 16px;
-  background-color: #000;
-  border-top: 1px solid rgba(255,255,255,.08);
-  flex-shrink: 0;
-}
-.g-inv-btn {
-  border-radius: var(--radius-md); border: none; font-family: var(--fh); font-weight: 700;
-  cursor: pointer; user-select: none; -webkit-user-select: none;
-  transition: all .1s; touch-action: none;
-  -webkit-tap-highlight-color: transparent;
-}
-.g-inv-btn--move {
-  width: 66px; height: 48px;
-  background: rgba(255,255,255,.08);
-  color: #fff; font-size: 18px;
-}
-.g-inv-btn--move:active { background: rgba(255,255,255,.18); transform: scale(.93); }
-.g-inv-btn--fire {
-  flex: 1; height: 48px;
-  background: var(--coral);
-  color: #fff; font-size: 13px;
-  box-shadow: 0 4px 0 color-mix(in srgb, var(--coral) 55%, black);
-  display: flex; align-items: center; justify-content: center; gap: 6px;
-}
-.g-inv-btn--fire:active { transform: translateY(2px); box-shadow: 0 2px 0 color-mix(in srgb, var(--coral) 55%, black); }
-
-/* Overlay de Invaders — mismo look que un bottom-sheet/modal de la app */
-.g-inv-overlay {
-  position: absolute; inset: 0;
-  background: rgba(0,0,0,.88);
-  backdrop-filter: blur(6px);
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
-  gap: 14px; padding: 24px 20px; z-index: 20;
-  color: #ffffff;
-}
-.g-inv-overlay.hidden { display: none; }
-.g-inv-overlay__title {
-  font-family: var(--fh); font-size: 22px; font-weight: 900;
-  color: var(--gold); text-align: center;
-}
-.g-inv-overlay__badge {
-  font-family: var(--fh); font-size: 11px; font-weight: 700; color: var(--gold);
-  padding: 6px 16px; border-radius: var(--radius-full);
-  background: color-mix(in srgb, var(--gold) 14%, transparent);
-}
-.g-inv-overlay__sub {
-  font-size: 12.5px; color: rgba(255,255,255,.7);
-  text-align: center; line-height: 1.65; max-width: 280px; white-space: pre-line;
-}
-.g-inv-overlay__btns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-.g-inv-ov-btn {
-  padding: 13px 26px; background: var(--gold); color: #1a1408;
-  border: none; border-radius: var(--radius-full);
-  font-family: var(--fh); font-size: 13px; font-weight: 800; cursor: pointer;
-  box-shadow: 0 4px 0 color-mix(in srgb, var(--gold) 55%, black);
-  transition: transform .12s ease;
-}
-.g-inv-ov-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 color-mix(in srgb, var(--gold) 55%, black); }
-.g-inv-ov-btn--ghost {
-  background: rgba(255,255,255,.08); color: rgba(255,255,255,.75);
-  box-shadow: none; border: 1px solid rgba(255,255,255,.14);
-}
-.g-inv-ov-btn--ghost:active { transform: translateY(1px); }
 
 /* ────────────────────────────────────────
    TOPBAR COMPARTIDA (juegos educativos)
@@ -736,9 +493,6 @@ html, body {
 [data-theme="light"]  .g-edu-card,
 [data-theme="ice"]   .g-edu-card,
 [data-theme="sand"] .g-edu-card,
-[data-theme="light"]  .g-char-card,
-[data-theme="ice"]   .g-char-card,
-[data-theme="sand"] .g-char-card,
 [data-theme="light"]  .g-pb-ref,
 [data-theme="ice"]   .g-pb-ref,
 [data-theme="sand"] .g-pb-ref,
@@ -757,27 +511,10 @@ html, body {
 
 /* En temas claros el grid es menos agresivo */
 
-
-/* El Space Invaders siempre negro sin importar el tema */
-[data-theme="light"]  #screen-invaders,
-[data-theme="ice"]   #screen-invaders,
-[data-theme="sand"] #screen-invaders { background-color: #000 !important; color: #fff !important; }
-
 /* ────────────────────────────────────────
    AÑADIDO: conexión real con el idioma que
    se está aprendiendo (games-bridge.js)
 ──────────────────────────────────────── */
-
-/* Personaje bloqueado (premium) en el selector de piloto */
-.g-char-card.locked { opacity: .38; filter: grayscale(.6); }
-.g-char-card.locked:hover,
-.g-char-card.locked:active { transform: none; }
-.g-char-card__lock {
-  position: absolute; top: 8px; right: 8px;
-  font-size: 14px; background: rgba(0,0,0,.55); border-radius: 99px;
-  width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;
-  z-index: 2;
-}
 
 /* Estado vacío: idioma sin suficiente contenido todavía para este juego */
 .g-empty-state {
@@ -961,19 +698,17 @@ html, body {
 .difficulty-card span:nth-child(2) { display:flex; flex:1; flex-direction:column; gap:3px; }.difficulty-card b { font:800 15px var(--fh); }.difficulty-card small { color:var(--muted); font:12px Inter,sans-serif; line-height:1.35; }.difficulty-icon { width:44px; height:44px; display:grid; place-items:center; border-radius:13px; background:color-mix(in srgb,var(--gold) 14%,transparent); font-size:23px; }.difficulty-arrow { font:28px/1 var(--fh); color:var(--muted); }
 .difficulty-card--beginner { border-color:color-mix(in srgb,var(--mint) 38%,var(--border)); }.difficulty-card--medium { border-color:color-mix(in srgb,var(--sky) 38%,var(--border)); }.difficulty-card--pro { border-color:color-mix(in srgb,var(--coral) 38%,var(--border)); }.difficulty-card--legendary { border-color:color-mix(in srgb,var(--gold) 55%,var(--border)); background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 12%,var(--card)),var(--card)); }
 
-/* Arcade, moneda y hangar */
+/* Arcade */
 .g-main { background:radial-gradient(circle at 85% 5%,color-mix(in srgb,var(--sky) 15%,transparent),transparent 28%),radial-gradient(circle at 5% 30%,color-mix(in srgb,var(--coral) 12%,transparent),transparent 30%); }
-.g-hero-head{display:flex;justify-content:space-between;align-items:center;gap:8px}.coin-bank{border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);background:color-mix(in srgb,var(--gold) 12%,var(--card));color:var(--gold);border-radius:99px;padding:7px 10px;font:800 10px var(--fh);white-space:nowrap;cursor:pointer}.coin-bank--static{cursor:default}.g-edu-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px var(--shadow)}
-.store-intro{margin:16px 14px 8px;padding:14px;border:1px solid var(--border);border-radius:14px;background:var(--card);color:var(--muted);font-size:13px;line-height:1.5}.store-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px 14px 90px}.store-item{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:13px;text-align:left;color:var(--text)}.store-item__icon{font-size:32px}.store-item__name{font:800 14px var(--fh);margin-top:8px}.store-item__desc{font-size:11px;color:var(--muted);min-height:30px;margin:4px 0 10px}.store-item button{width:100%;border-radius:10px;padding:9px;border:1px solid var(--gold);background:transparent;color:var(--gold);font:800 11px var(--fh);cursor:pointer}.store-item button.equipped{border-color:var(--mint);color:var(--mint)}
+.g-hero-head{display:flex;justify-content:space-between;align-items:center;gap:8px}.g-edu-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px var(--shadow)}
 .kakuro-grid{grid-template-columns:repeat(3,minmax(54px,1fr))!important;padding:8px;background:color-mix(in srgb,var(--mint) 12%,var(--card));border:1px solid color-mix(in srgb,var(--mint) 45%,transparent);border-radius:16px}.kakuro-grid input{display:block!important;min-width:0!important;height:auto!important;opacity:1!important;box-sizing:border-box;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--mint) 25%,transparent)}
 .kakuro-header{display:flex;justify-content:space-between;align-items:center;margin:4px auto 10px;max-width:280px;color:var(--mint);font:800 12px var(--fh)}.kakuro-input{font-size:28px!important;font-weight:900!important;min-height:64px!important;caret-color:var(--gold)}
 
 /* ────────────────────────────────────────
    BARRA INFERIOR — misma que index.html
    (Inicio · Situaciones · Juegos · Chats · Perfil)
-   Se muestra en el menú de juegos y el selector de
-   piloto; se oculta durante el juego en sí para no
-   estorbar los controles.
+   Se muestra en el menú de juegos; se oculta durante
+   una partida en sí para no estorbar los controles.
 ──────────────────────────────────────── */
 .bottom-nav{
   position:fixed;bottom:12px;left:12px;right:12px;
