@@ -90,9 +90,6 @@ const DrakonBridge = (() => {
   /* Monedas exclusivas de la zona de juegos. Persisten junto al perfil. */
   function getCoins() { return _read().gameCoins || 0; }
   function addCoins(amount) { const s=_read(); s.gameCoins=Math.max(0,(s.gameCoins||0)+Math.floor(amount||0)); _write(s); return s.gameCoins; }
-  function getInventory() { const s=_read(); return s.gameInventory || { owned:[], equipped:{} }; }
-  function buyItem(item) { const s=_read(), inv=s.gameInventory||{owned:[],equipped:{}}; if(inv.owned.includes(item.id)) return { ok:true, owned:true, coins:s.gameCoins||0 }; if((s.gameCoins||0)<item.price) return { ok:false, coins:s.gameCoins||0 }; s.gameCoins-=item.price; inv.owned.push(item.id); s.gameInventory=inv; _write(s); return {ok:true,coins:s.gameCoins}; }
-  function equipItem(item) { const s=_read(), inv=s.gameInventory||{owned:[],equipped:{}}; if(!inv.owned.includes(item.id)) return false; inv.equipped[item.kind]=item.id; s.gameInventory=inv; _write(s); return true; }
 
   function _localDate(offsetDays = 0) {
     const d = new Date();
@@ -128,6 +125,6 @@ const DrakonBridge = (() => {
     return pool;
   }
 
-  return { getLang, getLangCode, getCharId, isPremium, applyTheme, addXP, getCoins, addCoins, getInventory, buyItem, equipItem, getLessonBank, getExercisePool };
+  return { getLang, getLangCode, getCharId, isPremium, applyTheme, addXP, getCoins, addCoins, getLessonBank, getExercisePool };
 
 })();
