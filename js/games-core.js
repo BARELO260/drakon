@@ -3,51 +3,8 @@
    Ruta: drakón/js/games-core.js
    ═══════════════════════════════════════════════════════════ */
 
-/* ── Personajes ─────────────────────────────────────────────
-   Antes esta lista estaba duplicada aquí con sus propios ids
-   ("drakon","zorrek"...) sin relación con los personajes reales
-   de la app (CHARS en js/data.js, ids "dragon","fox"...). Eso
-   significaba que el personaje elegido en Ajustes/Perfil no era
-   el mismo que aparecía en los juegos, y que un personaje premium
-   bloqueado en la app era jugable aquí sin restricción.
-
-   Ahora se construye a partir de CHARS (mismo archivo que usa
-   toda la app) + su nave correspondiente, y respeta si el
-   personaje es gratuito o requiere Drakón Pro. */
-const SHIP_BY_CHAR_ID = {
-  dragon:  'assets/ships/navedrakon.webm',
-  wizard:  'assets/ships/navemerlingo.webm',
-  fox:     'assets/ships/navezorrek.webm',
-  robot:   'assets/ships/navesyntinator.webm',
-  alien:   'assets/ships/navemarshal.webm',
-  phoenix: 'assets/ships/naveazhar.webm',
-  ninja:   'assets/ships/navekenjiro.webm',
-  panda:   'assets/ships/navebao.webm',
-  triton:  'assets/ships/navetriton.webm',
-  axonic:  'assets/ships/naveaxonic.webm',
-};
-const EMOJI_BY_CHAR_ID = {
-  dragon:'🐲', wizard:'🧙', fox:'🦊', robot:'🤖', alien:'🛸',
-  phoenix:'🔥', ninja:'🥷', panda:'🐼', triton:'⚔️', axonic:'🎧',
-};
-
-function _buildCharacters() {
-  // CHARS viene de js/data.js (cargado antes que este archivo en games.html)
-  if (typeof CHARS === 'undefined') return [];
-  return CHARS.map(c => ({
-    id:     c.id,
-    name:   c.name,
-    role:   c.desc,
-    ship:   SHIP_BY_CHAR_ID[c.id] || '',
-    emoji:  EMOJI_BY_CHAR_ID[c.id] || '🚀',
-    locked: !c.free,
-  }));
-}
-const CHARACTERS = _buildCharacters();
-
 /* ── Estado global de sesión ───────────────────────────── */
 const GameSession = {
-  selectedChar: null,
   currentGame:  null,
   totalXP:      0,
   gamesPlayed:  0,
@@ -56,7 +13,6 @@ const GameSession = {
   save() {
     try {
       sessionStorage.setItem('dkGS', JSON.stringify({
-        charId:      this.selectedChar?.id ?? null,
         totalXP:     this.totalXP,
         gamesPlayed: this.gamesPlayed,
       }));
@@ -66,7 +22,6 @@ const GameSession = {
   load() {
     try {
       const d = JSON.parse(sessionStorage.getItem('dkGS') || '{}');
-      if (d.charId) this.selectedChar = CHARACTERS.find(c => c.id === d.charId) ?? null;
       this.totalXP     = d.totalXP     ?? 0;
       this.gamesPlayed = d.gamesPlayed ?? 0;
     } catch(_) {}
@@ -86,15 +41,6 @@ const DIFF_META = {
   legendary: { icon:'👑', label:'Legendario' },
 };
 
-const GAME_STORE = [
-  {id:'skin-neon',kind:'skin',icon:'🌌',name:'Casco neón',desc:'Brillo azul para tu nave.',price:80},
-  {id:'skin-flame',kind:'skin',icon:'🔥',name:'Motor ígneo',desc:'Estela naranja de combate.',price:140},
-  {id:'trail-comet',kind:'trail',icon:'☄️',name:'Estela cometa',desc:'Partículas al disparar.',price:110},
-  {id:'accessory-crown',kind:'accessory',icon:'👑',name:'Corona galáctica',desc:'Distintivo para el hangar.',price:220},
-  {id:'ship-aurora',kind:'ship',icon:'🛸',name:'Nave Aurora',desc:'Diseño violeta exclusivo.',price:350},
-  {id:'skin-legend',kind:'skin',icon:'⚡',name:'Modo leyenda',desc:'Aspecto dorado de élite.',price:500},
-];
-
 /* ── GamesCore ─────────────────────────────────────────── */
 const GamesCore = {
 
@@ -103,25 +49,8 @@ const GamesCore = {
     GameSession.load();
     this._applyTheme();
     this._renderLangBadge();
-    this._renderCoins();
-    this._renderCharGrid();
     const nav = _el('bottomNav');
     if (nav) nav.classList.add('visible'); // arrancamos en screen-menu
-
-    // Si todavía no hay personaje elegido en esta sesión de juegos,
-    // usar el mismo que el jugador tiene seleccionado en la app real.
-    if (!GameSession.selectedChar && typeof DrakonBridge !== 'undefined') {
-      const realCharId = DrakonBridge.getCharId();
-      const match = CHARACTERS.find(c => c.id === realCharId && !c.locked);
-      if (match) GameSession.selectedChar = match;
-    }
-
-    if (GameSession.selectedChar) {
-      this._markSelected(GameSession.selectedChar.id);
-      this._updateFooter(GameSession.selectedChar);
-      const btn = _el('charSelBtn');
-      if (btn) btn.disabled = false;
-    }
   },
 
   /* ── Tema ── */
@@ -141,20 +70,8 @@ const GamesCore = {
     if (el) el.textContent = `${lang.flag} Aprendiendo ${lang.name}`;
   },
 
-  _renderCoins() {
-    const coins = typeof DrakonBridge !== 'undefined' ? DrakonBridge.getCoins() : 0;
-    ['gameCoins','storeCoins'].forEach(id=>{ const e=_el(id); if(e) e.textContent=coins; });
-  },
-
-  showStore() { this._renderCoins(); const inv=DrakonBridge.getInventory(); const grid=_el('storeGrid'); if(grid) grid.innerHTML=GAME_STORE.map(item=>{ const owned=inv.owned.includes(item.id), equipped=inv.equipped[item.kind]===item.id; return `<div class="store-item"><div class="store-item__icon">${item.icon}</div><div class="store-item__name">${item.name}</div><div class="store-item__desc">${item.desc}</div><button class="${equipped?'equipped':''}" onclick="GamesCore.buyOrEquip('${item.id}')">${equipped?'✓ EQUIPADO':owned?'EQUIPAR':`🪙 ${item.price}`}</button></div>`; }).join(''); this.showScreen('screen-store'); },
-
-  buyOrEquip(id) { const item=GAME_STORE.find(x=>x.id===id); if(!item) return; const inv=DrakonBridge.getInventory(); if(inv.owned.includes(id)) { DrakonBridge.equipItem(item); this.toast(`${item.icon} equipado`); } else { const r=DrakonBridge.buyItem(item); if(!r.ok) return this.toast('Te faltan monedas para este objeto'); this.toast(`${item.icon} desbloqueado`); DrakonBridge.equipItem(item); } this.showStore(); },
-
   /* ── Navegación ── */
   showScreen(id) {
-    /* Pausar juego activo si se abandona */
-    if (GameSession.currentGame === 'invaders') Invaders.pause();
-
     document.querySelectorAll('.g-screen').forEach(s => s.classList.remove('active'));
     const target = _el(id);
     if (target) target.classList.add('active');
@@ -168,10 +85,9 @@ const GamesCore = {
 
     /* La barra inferior (Inicio/Situaciones/Juegos/Chats/Perfil) se
        mantiene visible en el menú de juegos, igual que en index.html.
-       Se oculta en el resto de pantallas: el selector de piloto ya
-       tiene su propio botón fijo "LANZAR MISIÓN" abajo, y durante una
-       partida taparía los controles (mismo criterio que index.html,
-       que oculta su barra durante una lección o un chat activo). */
+       Se oculta en el resto de pantallas, ya que durante una partida
+       taparía los controles (mismo criterio que index.html, que
+       oculta su barra durante una lección o un chat activo). */
     const showNav = (id === 'screen-menu');
     const nav = _el('bottomNav');
     if (nav) nav.classList.toggle('visible', showNav);
@@ -185,12 +101,8 @@ const GamesCore = {
     window.location.href = tab === 'home' ? 'index.html' : `index.html?tab=${tab}`;
   },
 
-  showCharSelect() {
-    this.showScreen('screen-char-select');
-  },
-
   chooseDifficulty(game) {
-    const names = { invaders:'Invasión Galáctica', phrasebuilder:'Phrase Builder', listening:'Listening Probe', hangman:'Ahorcado', wordsearch:'Buscador de palabras', sudoku:'Sudoku', solitaire:'Solitario', kakuro:'Cross Sums', chess:'Ajedrez' };
+    const names = { phrasebuilder:'Phrase Builder', listening:'Listening Probe', hangman:'Ahorcado', wordsearch:'Buscador de palabras', sudoku:'Sudoku', solitaire:'Solitario', kakuro:'Cross Sums', chess:'Ajedrez' };
     const options = [
       ['beginner','🌱','Principiante','Más tiempo, pistas y una entrada amable.'],
       ['medium','⚡','Medio','El equilibrio ideal entre ayuda y reto.'],
@@ -204,7 +116,6 @@ const GamesCore = {
 
   startWithDifficulty(game, difficulty) {
     GameSession.difficulty = difficulty;
-    if (game === 'invaders') return this.showCharSelect();
     if (game === 'chess') return ClassicGames.chooseChessMode();
     const starters = { phrasebuilder:()=>PhraseBuilder.start(), listening:()=>ListeningProbe.start(), hangman:()=>ClassicGames.start('hangman'), wordsearch:()=>ClassicGames.start('wordsearch'), sudoku:()=>ClassicGames.start('sudoku'), solitaire:()=>ClassicGames.start('solitaire'), kakuro:()=>ClassicGames.start('kakuro') };
     starters[game]?.();
@@ -212,69 +123,11 @@ const GamesCore = {
 
   confirmBack(to) {
     const game = GameSession.currentGame;
-    if (game === 'invaders' && Invaders.isRunning()) {
-      if (!confirm('¿Abandonar la partida? Se perderá el progreso del nivel.')) return;
-    } else if (game && game !== 'invaders') {
+    if (game) {
       if (!confirm('¿Salir del juego? Se perderá el progreso de esta sesión.')) return;
     }
     GameSession.currentGame = null;
     this.showScreen(to);
-  },
-
-  /* ── Grid de personajes ── */
-  _renderCharGrid() {
-    const grid = _el('charSelGrid');
-    if (!grid) return;
-
-    const premium = typeof DrakonBridge !== 'undefined' && DrakonBridge.isPremium();
-
-    grid.innerHTML = CHARACTERS.map(c => {
-      const isLocked = c.locked && !premium;
-      return `
-      <div class="g-char-card${isLocked ? ' locked' : ''}" id="ccard-${c.id}"
-           onclick="GamesCore.selectCharacter('${c.id}')">
-        ${isLocked ? '<span class="g-char-card__lock">🔒</span>' : ''}
-        <div class="g-char-ship">
-          <video
-            src="${c.ship}"
-            autoplay loop muted playsinline
-            onerror="this.classList.add('failed')"
-          ></video>
-          <span class="g-char-emoji">${c.emoji}</span>
-        </div>
-        <div class="g-char-name">${c.name}</div>
-        <div class="g-char-role">${c.role}</div>
-      </div>
-    `;
-    }).join('');
-  },
-
-  selectCharacter(id) {
-    const char = CHARACTERS.find(c => c.id === id);
-    if (!char) return;
-    const premium = typeof DrakonBridge !== 'undefined' && DrakonBridge.isPremium();
-    if (char.locked && !premium) {
-      this.toast('🔒 Personaje Pro — desbloquéalo en Ajustes › Drakón Pro');
-      return;
-    }
-    GameSession.selectedChar = char;
-    GameSession.save();
-    this._markSelected(id);
-    this._updateFooter(char);
-    const btn = _el('charSelBtn');
-    if (btn) btn.disabled = false;
-    this.toast(`${char.emoji} ${char.name} listo para la batalla`);
-  },
-
-  _markSelected(id) {
-    document.querySelectorAll('.g-char-card').forEach(c => c.classList.remove('selected'));
-    const card = _el('ccard-' + id);
-    if (card) card.classList.add('selected');
-  },
-
-  _updateFooter(char) {
-    const el = _el('charselInfo');
-    if (el) el.innerHTML = `<span class="g-charsel-info__name">${char.emoji} ${char.name} — ${char.role}</span>`;
   },
 
   /* ── Pantalla de resultado ── */
@@ -325,7 +178,6 @@ const GamesCore = {
     `;
 
     const retryMap = {
-      invaders:     () => GamesCore.showCharSelect(),
       phrasebuilder:() => PhraseBuilder.start(),
       listening:    () => ListeningProbe.start(),
       classic:      () => (typeof ClassicGames !== 'undefined' && ClassicGames.replay()),
