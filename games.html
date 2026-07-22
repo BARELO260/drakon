@@ -32,20 +32,9 @@
     <div class="g-main" id="menuScroll">
 
       <div class="g-hero">
-        <div class="g-hero-head"><div class="g-hero__label" id="gHeroLangLabel">🌐 Entrenamiento</div><button class="coin-bank" onclick="GamesCore.showStore()">🪙 <span id="gameCoins">0</span> · TIENDA</button></div>
+        <div class="g-hero-head"><div class="g-hero__label" id="gHeroLangLabel">🌐 Entrenamiento</div></div>
         <div class="g-hero__title">Selecciona tu Misión</div>
-        <div class="g-hero__sub">Aprende mientras combates, construyes y escuchas. Cada juego suma XP real a tu perfil.</div>
-      </div>
-
-      <!-- Sección combate -->
-      <div class="g-section-label">
-        <div class="g-section-dot"></div>Combate espacial
-      </div>
-
-      <div class="g-edu-list">
-        <div class="g-edu-card g-edu-card--wide" style="--cc:#4d5bf5" onclick="GamesCore.chooseDifficulty('invaders')">
-          <div class="g-edu-card__bar"></div><div class="g-edu-icon">🚀</div><div class="g-edu-body"><div class="g-edu-tag">Acción · 10 niveles</div><div class="g-edu-name">Invasión Galáctica</div><div class="g-edu-desc">Defiende la galaxia a bordo de tu nave personalizada. Cada nivel trae más invasores y más caos.</div><div class="g-edu-meta"><span class="g-edu-chip">10 naves</span><span class="g-edu-chip">IA adaptativa</span></div></div><div class="g-edu-arrow">›</div>
-        </div>
+        <div class="g-hero__sub">Aprende mientras construyes y escuchas. Cada juego suma XP real a tu perfil.</div>
       </div>
 
       <!-- Sección educativa -->
@@ -112,97 +101,9 @@
   </div><!-- /screen-menu -->
 
 
-  <!-- ═══════════ SELECTOR DE PERSONAJE ═══════════ -->
-  <div id="screen-char-select" class="g-screen">
-    <div class="g-topbar">
-      <div class="g-topbar__back" onclick="GamesCore.showScreen('screen-menu')">←</div>
-      <div class="g-topbar__mid">
-        <div class="g-topbar__label">🛸 Invasión Galáctica</div>
-        <div class="g-topbar__title">Elige tu Piloto</div>
-      </div>
-    </div>
-
-    <div class="g-charsel-intro">
-      <div class="g-charsel-intro__icon">🛸</div>
-      <div>
-        <div class="g-charsel-intro__title">¿Quién defenderá la galaxia?</div>
-        <div class="g-charsel-intro__sub">Cada nave pertenece a un piloto legendario.</div>
-      </div>
-    </div>
-
-    <div class="g-charsel-scroll">
-      <div class="g-charsel-grid" id="charSelGrid"></div>
-      <div style="height:90px"></div><!-- espacio para el footer -->
-    </div>
-
-    <div class="g-charsel-footer">
-      <div class="g-charsel-info" id="charselInfo">
-        <span class="g-charsel-info__placeholder">Ningún piloto seleccionado</span>
-      </div>
-      <button class="g-charsel-btn" id="charSelBtn" disabled onclick="Invaders.start()">
-        🚀 LANZAR MISIÓN
-      </button>
-    </div>
-  </div>
-
   <div id="screen-difficulty" class="g-screen">
     <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.showScreen('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title">Elige el desafío</div><div class="g-game-sub" id="difficultyGameName">Ajusta tu partida</div></div></div>
     <div class="g-screen-scroll"><div class="difficulty-wrap"><div class="difficulty-intro">Cada nivel cambia el ritmo, las pistas y la complejidad.</div><div id="difficultyOptions" class="difficulty-options"></div></div></div>
-  </div>
-
-  <div id="screen-store" class="g-screen">
-    <div class="g-game-topbar"><button class="g-game-back" onclick="GamesCore.showScreen('screen-menu')">←</button><div class="g-game-info"><div class="g-game-title">🛸 Hangar & Tienda</div><div class="g-game-sub">Personaliza tu misión</div></div><div class="coin-bank coin-bank--static">🪙 <span id="storeCoins">0</span></div></div>
-    <div class="g-screen-scroll"><div class="store-intro">Gana monedas al jugar y desbloquea estilos para tu nave.</div><div id="storeGrid" class="store-grid"></div></div>
-  </div>
-
-
-  <!-- ═══════════ SPACE INVADERS ═══════════ -->
-  <div id="screen-invaders" class="g-screen g-screen--black">
-    <div class="g-inv-hud">
-      <div class="g-inv-stat">
-        <div class="g-inv-stat__val" id="invScore">0</div>
-        <div class="g-inv-stat__lbl">PUNTOS</div>
-      </div>
-      <div class="g-inv-center">
-        <div class="g-inv-ship-wrap" id="invHudShipWrap">
-          <!-- video o emoji inyectado por JS -->
-        </div>
-        <div class="g-inv-level-info">
-          <div class="g-inv-level-name" id="invLevelName">EXPLORADOR</div>
-          <div class="g-inv-level-num">NIV <span id="invLevel">1</span>/10</div>
-        </div>
-      </div>
-      <div class="g-inv-stat" style="text-align:right">
-        <div class="g-inv-lives" id="invLives"></div>
-        <div class="g-inv-stat__lbl">VIDAS</div>
-      </div>
-    </div>
-
-    <canvas id="invCanvas"></canvas>
-
-    <div class="g-inv-controls">
-      <button class="g-inv-btn g-inv-btn--move" id="btnLeft"
-        ontouchstart="Invaders.setKey('left',true)" ontouchend="Invaders.setKey('left',false)"
-        onmousedown="Invaders.setKey('left',true)" onmouseup="Invaders.setKey('left',false)">◀</button>
-      <button class="g-inv-btn g-inv-btn--fire" id="btnFire"
-        ontouchstart="Invaders.setKey('fire',true)" ontouchend="Invaders.setKey('fire',false)"
-        onmousedown="Invaders.setKey('fire',true)" onmouseup="Invaders.setKey('fire',false)">
-        <span>💥</span> FUEGO
-      </button>
-      <button class="g-inv-btn g-inv-btn--move" id="btnRight"
-        ontouchstart="Invaders.setKey('right',true)" ontouchend="Invaders.setKey('right',false)"
-        onmousedown="Invaders.setKey('right',true)" onmouseup="Invaders.setKey('right',false)">▶</button>
-    </div>
-
-    <div class="g-inv-overlay" id="invOverlay">
-      <div class="g-inv-overlay__title" id="invOvTitle">INVASIÓN GALÁCTICA</div>
-      <div class="g-inv-overlay__badge" id="invOvBadge">NIVEL 1 — EXPLORADOR</div>
-      <div class="g-inv-overlay__sub" id="invOvSub">Prepara tus cañones.</div>
-      <div class="g-inv-overlay__btns">
-        <button class="g-inv-ov-btn" id="invOvMainBtn" onclick="Invaders.resume()">▶ COMENZAR</button>
-        <button class="g-inv-ov-btn g-inv-ov-btn--ghost" id="invOvSecBtn" onclick="GamesCore.showScreen('screen-char-select')">← CAMBIAR NAVE</button>
-      </div>
-    </div>
   </div>
 
 
@@ -323,8 +224,7 @@
 <!-- Puente con el estado real de la app (tema, idioma, personaje, XP) -->
 <script src="js/games-bridge.js"></script>
 
-<script src="js/games-core.js"></script>
-<script src="js/invaders.js"></script>
+<script src="js/games-core.js"></script>
 <script src="js/phrasebuilder.js"></script>
 <script src="js/listening.js"></script>
 <script src="js/classic-games.js"></script>
