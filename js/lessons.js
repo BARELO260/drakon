@@ -58,6 +58,15 @@ const LessonEngine = {
   answered:     false,   // bloquea respuesta hasta pulsar "Siguiente"
   xpEarned:     0,
 
+  // Estado auxiliar de los ejercicios interactivos (Phrase Builder,
+  // Listening Probe y sopa de letras) integrados como tipos de ejercicio
+  // más — se reinician en cada _renderExercise() que los use.
+  _arrange:    null,
+  _listen:     null,
+  _wordsearch: null,
+  _listenVizBars: [],
+  _listenVizAnim: null,
+
   /* ── Iniciar lección ────────────────── */
   start(lessonId) {
     const lessons = getLessonsForLang(_activeLessonLangCode());
@@ -70,15 +79,63 @@ const LessonEngine = {
     // equilibradas) sin depender de cómo se haya escrito el contenido, y
     // repetir la lección no vuelve predecible el orden.
     this.exercises    = lesson.exercises.map(ex => this._shuffleOptions(ex));
+
+    // Sopa de letras: aparece como un ejercicio más, pero con MUCHA menor
+    // frecuencia que los demás (solo en algunas lecciones) y siempre con
+    // el vocabulario propio de esa lección — así mantiene la temática.
+    const wsBonus = this._buildWordsearchExercise(lesson);
+    if (wsBonus) {
+      const insertAt = Math.min(this.exercises.length, Math.floor(this.exercises.length * 0.6) + 1);
+      this.exercises.splice(insertAt, 0, wsBonus);
+    }
+
     this.currentIdx   = 0;
     this.lives        = this.maxLives;
     this.correctCount = 0;
     this.answered     = false;
     this.xpEarned     = 0;
+    this._arrange     = null;
+    this._listen      = null;
+    this._wordsearch  = null;
+    this._listenVizStop();
 
     goTo('screen-exercise');
     this._updateTopBar();
     this._renderExercise();
+  },
+
+  /* ── Sopa de letras: construir el ejercicio bonus de una lección ──
+     Frecuencia baja y estable (no cambia entre intentos de la misma
+     lección): decidida por un hash del id de la lección, ~1 de cada 3.
+     Las palabras salen SIEMPRE del propio contenido de la lección
+     (glosario de estudio + opciones de sus ejercicios), nunca de un
+     banco genérico, para que el tema coincida con el de la lección. */
+  _buildWordsearchExercise(lesson) {
+    let hash = 0;
+    for (let i = 0; i < lesson.id.length; i++) hash = (hash * 31 + lesson.id.charCodeAt(i)) >>> 0;
+    if (hash % 3 !== 0) return null;
+
+    const clean = s => String(s || '')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-zA-Z]/g, '').toUpperCase();
+
+    const raw = [];
+    (lesson.study && lesson.study.vocab || []).forEach(v => raw.push(v[0]));
+    lesson.exercises.forEach(ex => {
+      if (Array.isArray(ex.options)) ex.options.forEach(o => raw.push(o));
+    });
+
+    const words = [...new Set(
+      raw.flatMap(s => String(s).split(/\s+/)).map(clean).filter(w => w.length >= 3 && w.length <= 8)
+    )];
+    if (words.length < 6) return null;
+
+    return {
+      type: 'wordsearch',
+      question: 'Encuentra en la cuadrícula palabras de esta lección.',
+      wordBank: words,
+      explanation: '¡Buen repaso del vocabulario de esta lección!',
+    };
   },
 
   /* ── Barajar opciones (Fisher-Yates) sin mutar el banco original ── */
@@ -145,6 +202,25 @@ const LessonEngine = {
       return;
     }
 
+    // Sopa de letras (buscador de palabras) — ejercicio bonus de baja
+    // frecuencia, con las palabras propias de esta lección.
+    if (ex.type === 'wordsearch') {
+      this._renderWordsearch(progress, ex);
+      return;
+    }
+
+    // Phrase Builder — ordenar palabras (ejercicios tipo "arrange").
+    if (ex.type === 'arrange') {
+      this._renderArrange(progress, ex);
+      return;
+    }
+
+    // Listening Probe — escuchar y elegir (ejercicios tipo "translate").
+    if (ex.type === 'translate') {
+      this._renderListen(progress, ex);
+      return;
+    }
+
     let html = `
       <div class="ex-card">
         <div class="ex-progress-label">${progress}</div>
@@ -173,6 +249,389 @@ const LessonEngine = {
     `;
 
     area.innerHTML = html;
+  },
+
+  /* ════════════════════════════════════════════════════════════
+     PHRASE BUILDER — ejercicios tipo "arrange" integrados como
+     un ejercicio más de la lección (antes vivía en la Zona de
+     Juegos aparte). La frase objetivo es siempre options[correct],
+     tal como ya la escribió el contenido de ESTA lección, así que
+     la temática coincide siempre con la lección en curso.
+     ════════════════════════════════════════════════════════════ */
+  _renderArrange(progress, ex) {
+    const area = document.getElementById('exArea');
+    const target = String(ex.options[ex.correct]).trim().split(/\s+/);
+
+    // Un par de palabras señuelo, tomadas de otras frases "arrange" de
+    // esta misma lección (si existen) — mantiene el mismo tema y da algo
+    // más de reto sin inventar vocabulario ajeno a la lección.
+    const others = this.exercises.filter(e => e.type === 'arrange' && e !== ex);
+    let decoys = [];
+    if (others.length) {
+      const bank = others.flatMap(o => String(o.options[o.correct]).split(/\s+/));
+      const candidates = [...new Set(bank)].filter(w => !target.includes(w));
+      decoys = candidates.sort(() => Math.random() - 0.5).slice(0, 1);
+    }
+    const pool = [...target, ...decoys].sort(() => Math.random() - 0.5).map(w => ({ word: w, used: false }));
+    this._arrange = { target, pool, placed: [] };
+
+    area.innerHTML = `
+      <div class="ex-card">
+        <div class="ex-progress-label">${progress} · ORDENA LAS PALABRAS</div>
+        ${ex.context ? `<div class="ex-context">${ex.context}</div>` : ''}
+        <div class="ex-question">${ex.question}</div>
+        <div class="ex-arrange-wrap">
+          <div class="ex-arrange-zone-label">TU RESPUESTA</div>
+          <div class="ex-arrange-answer" id="exArrAnswer">
+            <div class="ex-arrange-placeholder" id="exArrPlaceholder">Toca las palabras para colocarlas aquí…</div>
+          </div>
+          <div class="ex-arrange-zone-label">PALABRAS DISPONIBLES</div>
+          <div class="ex-arrange-pool" id="exArrPool"></div>
+          <div class="ex-arrange-actions">
+            <button class="ex-arrange-btn ex-arrange-btn--clear" onclick="LessonEngine.arrangeClear()">✕ Limpiar</button>
+            <button class="ex-arrange-btn ex-arrange-btn--check" onclick="LessonEngine.arrangeCheck()">✓ Verificar</button>
+          </div>
+        </div>
+        <div class="ex-feedback" id="exFeedback" style="display:none"></div>
+        <button class="ex-next-btn" id="exNextBtn" style="display:none" onclick="LessonEngine.nextExercise()">Siguiente ejercicio →</button>
+      </div>
+    `;
+
+    this._renderArrangeAnswer();
+    this._renderArrangePool();
+  },
+
+  _renderArrangeAnswer() {
+    const zone = document.getElementById('exArrAnswer');
+    const ph = document.getElementById('exArrPlaceholder');
+    if (!zone || !this._arrange) return;
+    zone.querySelectorAll('.ex-arrange-chip--placed').forEach(c => c.remove());
+    if (this._arrange.placed.length === 0) {
+      if (ph) ph.style.display = 'block';
+      zone.classList.remove('has-words');
+    } else {
+      if (ph) ph.style.display = 'none';
+      zone.classList.add('has-words');
+      this._arrange.placed.forEach((w, i) => {
+        const chip = document.createElement('div');
+        chip.className = 'ex-arrange-chip ex-arrange-chip--placed';
+        chip.textContent = w;
+        chip.title = 'Toca para quitar';
+        chip.onclick = () => this.arrangeRemove(i);
+        zone.appendChild(chip);
+      });
+    }
+  },
+
+  _renderArrangePool() {
+    const pool = document.getElementById('exArrPool');
+    if (!pool || !this._arrange) return;
+    pool.innerHTML = '';
+    this._arrange.pool.forEach((item, i) => {
+      const chip = document.createElement('div');
+      chip.className = 'ex-arrange-chip' + (item.used ? ' ex-arrange-chip--used' : '');
+      chip.textContent = item.word;
+      if (!item.used && !this.answered) chip.onclick = () => this.arrangePick(i);
+      pool.appendChild(chip);
+    });
+  },
+
+  arrangePick(i) {
+    const st = this._arrange;
+    if (!st || this.answered || st.pool[i].used) return;
+    st.pool[i].used = true;
+    st.placed.push(st.pool[i].word);
+    this._renderArrangeAnswer();
+    this._renderArrangePool();
+  },
+
+  arrangeRemove(idx) {
+    const st = this._arrange;
+    if (!st || this.answered) return;
+    const word = st.placed.splice(idx, 1)[0];
+    const item = st.pool.find(it => it.word === word && it.used);
+    if (item) item.used = false;
+    this._renderArrangeAnswer();
+    this._renderArrangePool();
+  },
+
+  arrangeClear() {
+    const st = this._arrange;
+    if (!st || this.answered) return;
+    st.placed = [];
+    st.pool.forEach(it => it.used = false);
+    this._renderArrangeAnswer();
+    this._renderArrangePool();
+  },
+
+  arrangeCheck() {
+    const st = this._arrange;
+    if (!st || this.answered) return;
+    if (st.placed.length === 0) {
+      if (typeof showToast === 'function') showToast('⚠️ Coloca al menos una palabra');
+      return;
+    }
+    const given = st.placed.join(' ');
+    const correct = st.target.join(' ');
+    const ok = given === correct;
+    document.querySelectorAll('#exArrPool .ex-arrange-chip').forEach(c => c.onclick = null);
+    this._settle(ok, ok ? null : correct);
+  },
+
+  /* ════════════════════════════════════════════════════════════
+     LISTENING PROBE — ejercicios tipo "translate" integrados como
+     un ejercicio más. Se reproduce en voz alta la respuesta
+     correcta real de la lección (options[correct]) y se responde
+     con las mismas 4 opciones ya validadas del banco de la lección.
+     ════════════════════════════════════════════════════════════ */
+  _renderListen(progress, ex) {
+    const area = document.getElementById('exArea');
+    const audioText = String(ex.options[ex.correct]).replace(/\s*\([^)]*\)/g, '').trim();
+    this._listen = { audio: audioText, played: false };
+
+    let html = `
+      <div class="ex-card">
+        <div class="ex-progress-label">${progress} · ESCUCHA Y ELIGE</div>
+        ${ex.context ? `<div class="ex-context">${ex.context}</div>` : ''}
+        <div class="ex-question">${ex.question}</div>
+        <div class="ex-listen-note">🎧 Reproduce el audio con la pronunciación de la respuesta correcta antes de elegir.</div>
+        <div class="ex-listen-wrap">
+          <div class="ex-listen-viz" id="exListenViz"></div>
+          <button class="ex-listen-play" id="exListenPlayBtn" onclick="LessonEngine.listenPlay()">
+            <span id="exListenIcon">▶</span>
+            <span id="exListenLabel">REPRODUCIR AUDIO</span>
+          </button>
+        </div>
+        <div class="ex-options" id="exOptions">
+    `;
+    ex.options.forEach((opt, i) => {
+      html += `
+        <button class="ex-option" id="exOpt-${i}" onclick="LessonEngine.answer(${i})">
+          <span class="ex-opt-letter">${['A','B','C','D'][i]}</span>
+          <span class="ex-opt-text">${opt}</span>
+        </button>
+      `;
+    });
+    html += `
+        </div>
+        <div class="ex-feedback" id="exFeedback" style="display:none"></div>
+        <button class="ex-next-btn" id="exNextBtn" style="display:none" onclick="LessonEngine.nextExercise()">Siguiente ejercicio →</button>
+      </div>
+    `;
+    area.innerHTML = html;
+    this._listenVizBuild();
+  },
+
+  _listenVizBuild() {
+    const viz = document.getElementById('exListenViz');
+    this._listenVizStop();
+    if (!viz) return;
+    viz.innerHTML = '';
+    this._listenVizBars = [];
+    for (let i = 0; i < 24; i++) {
+      const b = document.createElement('div');
+      b.className = 'ex-listen-vbar';
+      viz.appendChild(b);
+      this._listenVizBars.push({ el: b, ph: Math.random() * Math.PI * 2, fr: 0.8 + Math.random() * 2.2 });
+    }
+  },
+
+  _listenVizStart() {
+    let t = 0;
+    const tick = () => {
+      t += 0.07;
+      this._listenVizBars.forEach(b => {
+        const h = 4 + Math.abs(Math.sin(t * b.fr + b.ph)) * 34;
+        b.el.style.height = h + 'px';
+        b.el.style.opacity = (0.4 + 0.6 * (h / 38)).toFixed(2);
+      });
+      this._listenVizAnim = requestAnimationFrame(tick);
+    };
+    if (this._listenVizAnim) cancelAnimationFrame(this._listenVizAnim);
+    this._listenVizAnim = requestAnimationFrame(tick);
+  },
+
+  _listenVizStop() {
+    if (this._listenVizAnim) { cancelAnimationFrame(this._listenVizAnim); this._listenVizAnim = null; }
+    (this._listenVizBars || []).forEach(b => { b.el.style.height = '4px'; b.el.style.opacity = '.3'; });
+  },
+
+  listenPlay() {
+    const st = this._listen;
+    if (!st) return;
+    const btn = document.getElementById('exListenPlayBtn');
+    if (btn) btn.disabled = true;
+    this._listenVizStart();
+    const icon = document.getElementById('exListenIcon'); if (icon) icon.textContent = '⏸';
+    const label = document.getElementById('exListenLabel'); if (label) label.textContent = 'REPRODUCIENDO…';
+
+    const langTag = (typeof state !== 'undefined' && state.lang && state.lang.lang) || 'en-US';
+    const RV_VOICES = {
+      'en-US': 'US English Female', 'es-ES': 'Spanish Female', 'fr-FR': 'French Female',
+      'de-DE': 'Deutsch Female', 'it-IT': 'Italian Female', 'pt-BR': 'Brazilian Portuguese Female',
+    };
+    const onEnd = () => this._listenAudioEnd();
+
+    if (window.responsiveVoice && responsiveVoice.voiceSupport() && RV_VOICES[langTag]) {
+      responsiveVoice.cancel();
+      responsiveVoice.speak(st.audio, RV_VOICES[langTag], { rate: 0.92, onend: onEnd, onerror: onEnd });
+    } else if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utt = new SpeechSynthesisUtterance(st.audio);
+      utt.lang = langTag; utt.rate = 0.92;
+      const voices = window.speechSynthesis.getVoices();
+      const prefix = langTag.split('-')[0];
+      const voice = voices.find(v => v.lang === langTag && !v.localService)
+                 || voices.find(v => v.lang.startsWith(prefix) && !v.localService)
+                 || voices.find(v => v.lang.startsWith(prefix));
+      if (voice) utt.voice = voice;
+      utt.onend = utt.onerror = onEnd;
+      window.speechSynthesis.speak(utt);
+    } else {
+      if (typeof showToast === 'function') showToast('⚠️ Tu navegador no soporta síntesis de voz');
+      setTimeout(onEnd, 1200);
+    }
+    st.played = true;
+  },
+
+  _listenAudioEnd() {
+    this._listenVizStop();
+    const btn = document.getElementById('exListenPlayBtn');
+    if (btn) btn.disabled = false;
+    const icon = document.getElementById('exListenIcon'); if (icon) icon.textContent = '↺';
+    const label = document.getElementById('exListenLabel'); if (label) label.textContent = 'ESCUCHAR DE NUEVO';
+  },
+
+  /* ════════════════════════════════════════════════════════════
+     SOPA DE LETRAS — ejercicio bonus de baja frecuencia, con las
+     palabras del glosario/ejercicios de la lección en curso.
+     ════════════════════════════════════════════════════════════ */
+  _renderWordsearch(progress, ex) {
+    const area = document.getElementById('exArea');
+    const n = 8;
+    const candidates = [...ex.wordBank].sort(() => Math.random() - 0.5).filter(w => w.length <= n);
+    const grid = Array.from({ length: n }, () => Array(n).fill(''));
+    const list = [];
+    for (const word of candidates) {
+      if (list.length >= 5) break;
+      let placed = false;
+      for (let k = 0; k < 60 && !placed; k++) {
+        const dirs = [[0,1],[1,0],[1,1],[-1,1]];
+        const [dr, dc] = dirs[Math.floor(Math.random() * dirs.length)];
+        const rMin = dr < 0 ? word.length - 1 : 0, rMax = dr > 0 ? n - word.length : n - 1;
+        const cMax = dc > 0 ? n - word.length : n - 1;
+        if (rMax < rMin || cMax < 0) continue;
+        const r = rMin + Math.floor(Math.random() * (rMax - rMin + 1));
+        const c = Math.floor(Math.random() * (cMax + 1));
+        if (word.split('').every((ch, j) => !grid[r + dr*j][c + dc*j] || grid[r + dr*j][c + dc*j] === ch)) {
+          word.split('').forEach((ch, j) => grid[r + dr*j][c + dc*j] = ch);
+          list.push(word);
+          placed = true;
+        }
+      }
+    }
+    if (list.length < 3) {
+      // No se pudo armar un tablero decente: se cuenta como completado
+      // automáticamente para no bloquear la lección por esto.
+      this._settle(true, null);
+      return;
+    }
+    grid.forEach(row => row.forEach((x, i) => { if (!x) row[i] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'[Math.floor(Math.random()*26)]; }));
+    this._wordsearch = { grid, list, found: [], selected: [] };
+
+    area.innerHTML = `
+      <div class="ex-card">
+        <div class="ex-progress-label">${progress} · SOPA DE LETRAS</div>
+        <div class="ex-question">${ex.question}</div>
+        <div id="exWsArea"></div>
+        <div class="ex-feedback" id="exFeedback" style="display:none"></div>
+        <button class="ex-next-btn" id="exNextBtn" style="display:none" onclick="LessonEngine.nextExercise()">Siguiente ejercicio →</button>
+      </div>
+    `;
+    this._renderWordsearchArea();
+  },
+
+  _renderWordsearchArea() {
+    const host = document.getElementById('exWsArea');
+    const st = this._wordsearch;
+    if (!host || !st) return;
+    host.innerHTML = `
+      <div class="ex-ws-words">${st.list.map(w => `<span class="${st.found.includes(w) ? 'found' : ''}">${w}</span>`).join('')}</div>
+      <p class="ex-ws-help">Toca las letras en orden para formar cada palabra.</p>
+      <div class="ex-ws-grid" style="grid-template-columns:repeat(${st.grid.length},1fr)">
+        ${st.grid.flatMap((row, i) => row.map((ch, j) => `<button class="${st.selected.some(p => p[0]===i && p[1]===j) ? 'selected' : ''}" onclick="LessonEngine.wordsearchCell(${i},${j})">${ch}</button>`)).join('')}
+      </div>
+      <button class="ex-ws-clear" onclick="LessonEngine.wordsearchClear()">Limpiar selección</button>
+    `;
+  },
+
+  wordsearchCell(r, c) {
+    const st = this._wordsearch;
+    if (!st || this.answered) return;
+    const prev = st.selected.at(-1);
+    if (prev && Math.max(Math.abs(prev[0]-r), Math.abs(prev[1]-c)) !== 1) st.selected = [];
+    st.selected.push([r, c]);
+    const word = st.selected.map(p => st.grid[p[0]][p[1]]).join('');
+    if (st.list.includes(word) && !st.found.includes(word)) {
+      st.found.push(word);
+      st.selected = [];
+      if (typeof playSound === 'function') playSound('correct');
+      if (st.found.length === st.list.length) {
+        this._renderWordsearchArea();
+        this._settle(true, null);
+        return;
+      }
+    } else if (!st.list.some(w => w.startsWith(word))) {
+      st.selected = [[r, c]];
+    }
+    this._renderWordsearchArea();
+  },
+
+  wordsearchClear() {
+    if (this._wordsearch) { this._wordsearch.selected = []; this._renderWordsearchArea(); }
+  },
+
+  /* ── Resolver un ejercicio (usado por mcq/arrange/listen/wordsearch) ──
+     Centraliza vidas, XP, sonido y el feedback final para que los
+     ejercicios integrados (Phrase Builder, Listening Probe, sopa de
+     letras) se comporten exactamente igual que un ejercicio normal. ── */
+  _settle(isCorrect, correctText) {
+    const ex = this.exercises[this.currentIdx];
+    this.answered = true;
+    const feedback = document.getElementById('exFeedback');
+    if (feedback) {
+      feedback.style.display = 'block';
+      if (isCorrect) {
+        this.correctCount++;
+        this.xpEarned += Math.floor(this.lesson.xp / this.exercises.length);
+        feedback.className = 'ex-feedback correct';
+        const msgs = ['¡Correcto! 🎉', '¡Excelente! ⭐', '¡Perfecto! 🔥', '¡Muy bien! 💪', '¡Genial! ✨'];
+        feedback.innerHTML = `
+          <div class="ex-fb-header">${msgs[Math.floor(Math.random() * msgs.length)]}</div>
+          <div class="ex-fb-explanation">${ex.explanation || ''}</div>
+        `;
+      } else {
+        this.lives--;
+        feedback.className = 'ex-feedback wrong';
+        feedback.innerHTML = `
+          <div class="ex-fb-header">Respuesta incorrecta 😕</div>
+          ${correctText ? `<div class="ex-fb-correct">✅ La respuesta correcta es: <strong>${correctText}</strong></div>` : ''}
+          <div class="ex-fb-explanation">${ex.explanation || ''}</div>
+        `;
+      }
+    }
+    const nextBtn = document.getElementById('exNextBtn');
+    if (nextBtn) {
+      if (this.currentIdx === this.exercises.length - 1) nextBtn.textContent = 'Ver resultados 🏆';
+      nextBtn.style.display = 'block';
+    }
+    this._updateTopBar();
+    if (this.lives <= 0 && nextBtn) {
+      nextBtn.textContent = 'Ver resultados 💔';
+      nextBtn.classList.add('ex-next-btn--danger');
+    }
+    if (typeof playSound === 'function') playSound(isCorrect ? 'correct' : 'wrong');
+    if (isCorrect && typeof gainXP === 'function') gainXP(3, false);
   },
 
   submitProduction() {
@@ -219,9 +678,18 @@ const LessonEngine = {
   /* ── Responder ──────────────────────── */
   answer(selectedIdx) {
     if (this.answered) return;
-    this.answered = true;
 
     const ex = this.exercises[this.currentIdx];
+
+    // Listening Probe: hay que reproducir el audio al menos una vez
+    // antes de poder elegir una respuesta.
+    if (ex.type === 'translate' && this._listen && !this._listen.played) {
+      if (typeof showToast === 'function') showToast('🔊 Primero reproduce el audio');
+      const pb = document.getElementById('exListenPlayBtn');
+      if (pb) { pb.style.animation = 'none'; void pb.offsetWidth; pb.style.animation = 'exListenPulse .5s ease 2'; }
+      return;
+    }
+
     const isCorrect = selectedIdx === ex.correct;
 
     // Colorear opciones
@@ -236,65 +704,15 @@ const LessonEngine = {
       }
     }
 
-    // Feedback
-    const feedback = document.getElementById('exFeedback');
-    if (feedback) {
-      feedback.style.display = 'block';
-      if (isCorrect) {
-        this.correctCount++;
-        this.xpEarned += Math.floor((this.lesson.xp / this.exercises.length));
-        feedback.className = 'ex-feedback correct';
-        const msgs = ['¡Correcto! 🎉', '¡Excelente! ⭐', '¡Perfecto! 🔥', '¡Muy bien! 💪', '¡Genial! ✨'];
-        feedback.innerHTML = `
-          <div class="ex-fb-header">${msgs[Math.floor(Math.random() * msgs.length)]}</div>
-          <div class="ex-fb-explanation">${ex.explanation}</div>
-        `;
-      } else {
-        this.lives--;
-        feedback.className = 'ex-feedback wrong';
-        feedback.innerHTML = `
-          <div class="ex-fb-header">Respuesta incorrecta 😕</div>
-          <div class="ex-fb-correct">✅ La respuesta correcta es: <strong>${ex.options[ex.correct]}</strong></div>
-          <div class="ex-fb-explanation">${ex.explanation}</div>
-        `;
-      }
-    }
-
-    // Mostrar botón siguiente
-    const nextBtn = document.getElementById('exNextBtn');
-    if (nextBtn) {
-      // Si es el último ejercicio, cambia el texto
-      if (this.currentIdx === this.exercises.length - 1) {
-        nextBtn.textContent = 'Ver resultados 🏆';
-      }
-      nextBtn.style.display = 'block';
-    }
-
-    // Actualizar barra superior
-    this._updateTopBar();
-
-    // Si no quedan vidas → mostrar resultado al pulsar "siguiente"
-    // (No interrumpimos para que el usuario lea la explicación)
-    if (this.lives <= 0) {
-      if (nextBtn) {
-        nextBtn.textContent = 'Ver resultados 💔';
-        nextBtn.classList.add('ex-next-btn--danger');
-      }
-    }
-
-    // Sonido
-    if (typeof playSound === 'function') {
-      playSound(isCorrect ? 'correct' : 'wrong');
-    }
-
-    // XP parcial (solo si correcto)
-    if (isCorrect && typeof gainXP === 'function') {
-      gainXP(3, false);
-    }
+    this._settle(isCorrect, isCorrect ? null : ex.options[ex.correct]);
   },
 
   /* ── Siguiente ejercicio ────────────── */
   nextExercise() {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    if (window.responsiveVoice) responsiveVoice.cancel();
+    this._listenVizStop();
+
     if (this.lives <= 0) {
       this._showFinalResult();
       return;
@@ -531,6 +949,9 @@ function exitEx() {
   if (LessonEngine.currentIdx > 0 && LessonEngine.currentIdx < LessonEngine.exercises.length) {
     if (!confirm('¿Salir de la lección? Perderás el progreso de esta sesión.')) return;
   }
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  if (window.responsiveVoice) responsiveVoice.cancel();
+  LessonEngine._listenVizStop();
   goTo('screen-main');
   switchTab('lessons');
 }
