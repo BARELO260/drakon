@@ -70,12 +70,6 @@ function navTo(tab){
   else if(tab==='chat'){ goTo('screen-saved-chats'); renderSavedChats(); }
   else if(tab==='situations'){ goTo('screen-situations'); }
   else if(tab==='profile'){ goTo('screen-profile'); renderProfile(); }
-  else if(tab==='games'){
-    // Asegurar que el idioma/tema/XP actuales queden guardados en
-    // localStorage ANTES de salir, para que games.html los lea al vuelo.
-    if(typeof save==='function') save();
-    window.location.href='games.html';
-  }
 }
 function switchTab(tab){
   ['home','lessons','ai','chars','settings'].forEach(t=>{
