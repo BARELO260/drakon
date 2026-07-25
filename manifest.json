@@ -10,7 +10,7 @@
   "orientation": "portrait-primary",
   "lang": "es",
   "dir": "ltr",
-  "categories": ["education", "games"],
+  "categories": ["education"],
   "icons": [
     {
       "src": "assets/icons/icon-192.png",
