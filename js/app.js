@@ -91,12 +91,6 @@ function navTo(tab){
   else if(tab==='chat'){ goTo('screen-saved-chats'); renderSavedChats(); }
   else if(tab==='situations'){ goTo('screen-situations'); }
   else if(tab==='profile'){ goTo('screen-profile'); renderProfile(); }
-  else if(tab==='games'){
-    // Guardar el estado actual (idioma/tema/XP) antes de salir de la
-    // SPA, para que games.html lo lea desde localStorage al entrar.
-    if(typeof save==='function') save();
-    window.location.href='games.html';
-  }
 }
 function switchTab(tab){
   ['home','lessons','ai'].forEach(t=>{
