@@ -129,9 +129,8 @@ function goToMain(){
   document.getElementById('bottomNav').style.display='flex';
   updateAllUI();
 
-  // Si venimos de games.html con un tab pedido (p.ej. index.html?tab=situations),
-  // aterrizamos ahí en vez de siempre en Inicio — así la barra inferior se
-  // siente continua entre la app y la Zona de Juegos.
+  // Si llegamos con un tab pedido por URL (p.ej. index.html?tab=situations),
+  // aterrizamos ahí en vez de siempre en Inicio.
   const wantedTab = new URLSearchParams(window.location.search).get('tab');
   if(wantedTab && ['home','situations','chat','profile'].includes(wantedTab)){
     navTo(wantedTab);
