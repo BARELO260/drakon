@@ -113,12 +113,18 @@ function _saveVoiceMap(map){
   try{ localStorage.setItem(_VOICE_MAP_LS_KEY, JSON.stringify(map)); }catch(e){}
 }
 // No guardamos la key completa en el mapa (solo un fragmento), por si cambia de cuenta.
-function _voiceMapCacheKey(apiKey, charKey){ return apiKey.slice(-6) + ':' + charKey; }
+// Incluimos voice.name en la clave: si en el código se reasigna la voz de un
+// personaje (p.ej. al intercambiar voces entre dos personajes), la caché
+// vieja en localStorage queda automáticamente obsoleta y se recalcula, en
+// vez de seguir devolviendo la voz que tenía antes del cambio.
+function _voiceMapCacheKey(apiKey, charKey, voiceName){
+  return apiKey.slice(-6) + ':' + charKey + ':' + (voiceName || '').toLowerCase();
+}
 
 async function _resolveVoiceId(charKey, voice, forceRefresh){
   const apiKey = getElevenKey();
   if(!apiKey) return voice.voiceId;
-  const cacheKey = _voiceMapCacheKey(apiKey, charKey);
+  const cacheKey = _voiceMapCacheKey(apiKey, charKey, voice.name);
   const map = _loadVoiceMap();
   if(!forceRefresh && map[cacheKey]) return map[cacheKey];
 
