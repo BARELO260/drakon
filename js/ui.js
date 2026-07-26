@@ -78,7 +78,7 @@ function switchTab(tab){
   });
   if(tab==='lessons') renderLessons();
   if(tab==='chars') renderChars();
-  if(tab==='settings'){ renderThemeGrid(); updateToggleUI(); loadGroqKeyUI(); }
+  if(tab==='settings'){ renderThemeGrid(); updateToggleUI(); loadGroqKeyUI(); loadElevenKeyUI(); }
 }
 
 /* ═══════════════════════════════════════
