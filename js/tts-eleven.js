@@ -43,7 +43,7 @@ const TTS_BCP47_MAP = {
 
 // Voz "narradora" neutra para frases sueltas de ejercicios (Escuchar /
 // Listening Probe), que no están ligadas a ningún personaje concreto.
-const NARRATOR_VOICE = { voiceId:'21m00Tcm4TlvDq8ikWAM', stability:0.55, style:0.25, speed:1.0 };
+const NARRATOR_VOICE = { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.55, style:0.25, speed:1.0 };
 
 let _ttsAudioEl = null; // <audio> actualmente reproduciendo un TTS de ElevenLabs
 
@@ -78,56 +78,145 @@ function _warnElevenFailure(detail){
   }
 }
 
-async function _elevenSpeak(text, voice, onend){
+/* ── Resolución dinámica de voces contra la cuenta real del usuario ────
+   Los voiceId de arriba son voces "premade" clásicas de ElevenLabs, pero
+   ElevenLabs ha ido deprecando/retirando varias de ellas y no todas las
+   cuentas (sobre todo las nuevas) las tienen disponibles. Si el voiceId
+   hardcodeado devuelve 404, en vez de rendirnos, pedimos la lista real de
+   voces de la cuenta (GET /v1/voices), buscamos una con el mismo nombre
+   ("Arnold", "Rachel"...), y si tampoco existe, asignamos una voz libre
+   de la cuenta a ese personaje. La asignación se recuerda en localStorage
+   para no tener que resolverla en cada frase. */
+let _accountVoicesPromise = null;
+let _accountVoicesForKey  = null;
+async function _getAccountVoices(){
+  const key = getElevenKey();
+  if(!key) return [];
+  if(_accountVoicesPromise && _accountVoicesForKey === key) return _accountVoicesPromise;
+  _accountVoicesForKey = key;
+  _accountVoicesPromise = (async () => {
+    try{
+      const r = await fetch('https://api.elevenlabs.io/v1/voices', { headers:{ 'xi-api-key': key } });
+      if(!r.ok) return [];
+      const data = await r.json();
+      return Array.isArray(data.voices) ? data.voices : [];
+    }catch(e){ return []; }
+  })();
+  return _accountVoicesPromise;
+}
+
+const _VOICE_MAP_LS_KEY = 'drakon_eleven_voice_map_v1';
+function _loadVoiceMap(){
+  try{ return JSON.parse(localStorage.getItem(_VOICE_MAP_LS_KEY) || '{}'); }catch(e){ return {}; }
+}
+function _saveVoiceMap(map){
+  try{ localStorage.setItem(_VOICE_MAP_LS_KEY, JSON.stringify(map)); }catch(e){}
+}
+// No guardamos la key completa en el mapa (solo un fragmento), por si cambia de cuenta.
+function _voiceMapCacheKey(apiKey, charKey){ return apiKey.slice(-6) + ':' + charKey; }
+
+async function _resolveVoiceId(charKey, voice, forceRefresh){
+  const apiKey = getElevenKey();
+  if(!apiKey) return voice.voiceId;
+  const cacheKey = _voiceMapCacheKey(apiKey, charKey);
+  const map = _loadVoiceMap();
+  if(!forceRefresh && map[cacheKey]) return map[cacheKey];
+
+  const voices = await _getAccountVoices();
+  if(voices.length === 0) return voice.voiceId; // no se pudo listar: probamos con el id original
+
+  // 1) coincidencia exacta por nombre (p.ej. "Arnold")
+  let match = voice.name ? voices.find(v => v.name && v.name.toLowerCase() === voice.name.toLowerCase()) : null;
+  // 2) el voiceId original sigue existiendo en esta cuenta
+  if(!match) match = voices.find(v => v.voice_id === voice.voiceId);
+  // 3) primera voz de la cuenta aún no asignada a otro personaje, priorizando el mismo género
+  if(!match){
+    const used = new Set(Object.values(map));
+    const wantGender = voice.gender === 'F' ? 'female' : 'male';
+    match = voices.find(v => !used.has(v.voice_id) && v.labels && v.labels.gender === wantGender)
+         || voices.find(v => !used.has(v.voice_id))
+         || voices[0];
+  }
+
+  const id = match.voice_id;
+  map[cacheKey] = id;
+  _saveVoiceMap(map);
+  return id;
+}
+
+async function _elevenSpeak(text, voice, onend, charKey){
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
+  const resolveKey = charKey || voice.name || voice.voiceId;
   try{
-    const r = await fetch(`${ELEVEN_API_URL}/${voice.voiceId}`, {
-      method:'POST',
-      headers:{
-        'Content-Type':'application/json',
-        'xi-api-key': key,
-        'Accept':'audio/mpeg',
-      },
-      body: JSON.stringify({
-        text,
-        model_id: ELEVEN_MODEL,
-        voice_settings:{
-          stability: voice.stability,
-          similarity_boost: 0.8,
-          style: voice.style,
-          use_speaker_boost: true,
-          speed: voice.speed,
-        },
-      }),
-      signal: AbortSignal.timeout(20000),
-    });
-    if(!r.ok){
-      // Sí había key configurada pero la petición falló: esto es lo que hace
-      // que "las voces no cambien" (cae siempre a la voz nativa del navegador,
-      // que es la misma para todos los personajes). Lo hacemos visible en vez
-      // de fallar en silencio, para poder diagnosticar (401 = key inválida,
-      // 404 = voice_id no existe en esta cuenta, 429 = sin cuota, etc.)
-      let bodyText = '';
-      try{ bodyText = await r.text(); }catch(e){}
-      _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voice.voiceId}) — ${bodyText.slice(0,300)}`);
-      return false;
-    }
+    const voiceId = await _resolveVoiceId(resolveKey, voice);
+    const r = await _elevenRequest(text, voice, voiceId, key);
+    if(r.ok) return _elevenPlay(r, onend);
 
-    const blob = await r.blob();
-    const url  = URL.createObjectURL(blob);
-    if(_ttsAudioEl){ try{ _ttsAudioEl.pause(); }catch(e){} }
-    const audioEl = new Audio(url);
-    _ttsAudioEl = audioEl;
-    const cleanup = () => { URL.revokeObjectURL(url); if(onend) onend(); };
-    audioEl.onended = cleanup;
-    audioEl.onerror  = cleanup;
-    await audioEl.play();
-    return true;
+    // Si da 404, la voz asignada tampoco existe (o cambió) — invalidamos la
+    // caché y forzamos una re-resolución fresca antes de rendirnos.
+    if(r.status === 404){
+      const r2id = await _resolveVoiceId(resolveKey, voice, true);
+      if(r2id !== voiceId){
+        const r2 = await _elevenRequest(text, voice, r2id, key);
+        if(r2.ok) return _elevenPlay(r2, onend);
+        await _reportFailure(r2, r2id);
+        return false;
+      }
+    }
+    await _reportFailure(r, voiceId);
+    return false;
   } catch(e){
     _warnElevenFailure(e && e.message ? e.message : e);
     return false;
   }
+}
+
+function _elevenRequest(text, voice, voiceId, key){
+  return fetch(`${ELEVEN_API_URL}/${voiceId}`, {
+    method:'POST',
+    headers:{
+      'Content-Type':'application/json',
+      'xi-api-key': key,
+      'Accept':'audio/mpeg',
+    },
+    body: JSON.stringify({
+      text,
+      model_id: ELEVEN_MODEL,
+      voice_settings:{
+        stability: voice.stability,
+        similarity_boost: 0.8,
+        style: voice.style,
+        use_speaker_boost: true,
+        speed: voice.speed,
+      },
+    }),
+    signal: AbortSignal.timeout(20000),
+  });
+}
+
+async function _elevenPlay(r, onend){
+  const blob = await r.blob();
+  const url  = URL.createObjectURL(blob);
+  if(_ttsAudioEl){ try{ _ttsAudioEl.pause(); }catch(e){} }
+  const audioEl = new Audio(url);
+  _ttsAudioEl = audioEl;
+  const cleanup = () => { URL.revokeObjectURL(url); if(onend) onend(); };
+  audioEl.onended = cleanup;
+  audioEl.onerror  = cleanup;
+  await audioEl.play();
+  return true;
+}
+
+async function _reportFailure(r, voiceId){
+  // Sí había key configurada pero la petición falló: esto es lo que hace
+  // que "las voces no cambien" (cae siempre a la voz nativa del navegador,
+  // que es la misma para todos los personajes). Lo hacemos visible en vez
+  // de fallar en silencio, para poder diagnosticar (401 = key inválida,
+  // 404 = voice_id no existe en esta cuenta, 429 = sin cuota, etc.)
+  let bodyText = '';
+  try{ bodyText = await r.text(); }catch(e){}
+  _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voiceId}) — ${bodyText.slice(0,300)}`);
 }
 
 /* ── Fallback: síntesis nativa del navegador (Web Speech API) ────────── */
@@ -150,10 +239,12 @@ function _webSpeechSpeak(text, langTag, rate, pitch, onend){
 }
 
 /* ── API pública: hablar con la voz de un personaje ────────────────────
-   `voice` es una entrada de CHAR_VOICE (js/audio.js): {voiceId, stability,
-   style, speed, gender}. `langTag` se usa solo si hace falta el fallback. */
-function ttsSpeakChar(text, voice, langTag, onend){
-  _elevenSpeak(text, voice, onend).then(ok=>{
+   `voice` es una entrada de CHAR_VOICE (js/audio.js): {voiceId, name,
+   stability, style, speed, gender}. `langTag` se usa solo si hace falta
+   el fallback. `charKey` (p.ej. 'dragon') identifica al personaje para
+   poder recordar qué voz real de la cuenta le corresponde. */
+function ttsSpeakChar(text, voice, langTag, onend, charKey){
+  _elevenSpeak(text, voice, onend, charKey || voice.name).then(ok=>{
     if(!ok) _webSpeechSpeak(text, langTag, voice.speed*0.95, voice.gender==='M'?0.85:1.12, onend);
   });
 }
@@ -162,7 +253,7 @@ function ttsSpeakChar(text, voice, langTag, onend){
    `rate` es la velocidad deseada (0.7–1.2 aprox, viene de la dificultad). */
 function ttsSpeakPhrase(text, langTag, rate, onend){
   const voice = Object.assign({}, NARRATOR_VOICE, { speed: rate || NARRATOR_VOICE.speed });
-  _elevenSpeak(text, voice, onend).then(ok=>{
+  _elevenSpeak(text, voice, onend, 'narrator').then(ok=>{
     if(!ok) _webSpeechSpeak(text, langTag, rate || 0.9, 1, onend);
   });
 }
