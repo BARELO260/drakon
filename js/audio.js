@@ -477,13 +477,13 @@ const CHAR_VOICE = {
   phoenix:{ voiceId:'EXAVITQu4vr4xnSDxMaL', gender:'F', stability:0.45, style:0.55, speed:0.98 }, // Bella
 
   // 🥷 Kenjiro — ninja: sereno y preciso, habla con control y claridad.
-  ninja:  { voiceId:'VR6AEwLTigWG4xSOukaG', gender:'M', stability:0.85, style:0.08, speed:0.90 }, // Arnold (más contenido)
+  ninja:  { voiceId:'N2lVS1w4EtoT3dr4eOWO', gender:'M', stability:0.82, style:0.10, speed:0.90 }, // Callum
 
   // 🐼 Bao — panda zen: suave y tranquilo, ritmo pausado.
   panda:  { voiceId:'21m00Tcm4TlvDq8ikWAM', gender:'F', stability:0.80, style:0.10, speed:0.85 }, // Rachel
 
   // 🦈 Barón Tritón — caballero: resonante y formal, pero legible.
-  triton: { voiceId:'ErXwobaYiN019PkySvjV', gender:'M', stability:0.78, style:0.15, speed:0.88 }, // Antoni (más formal)
+  triton: { voiceId:'JBFqnCBsd6RMkjVDRZzb', gender:'M', stability:0.75, style:0.15, speed:0.88 }, // George
 
   // 🎵 Axónic — DJ ajolote: energético y chispeante, rápido pero claro.
   axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', gender:'F', stability:0.30, style:0.70, speed:1.15 }, // Domi
