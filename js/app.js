@@ -100,7 +100,7 @@ function switchTab(tab){
   if(tab==='lessons') renderLessons();
 }
 function openSettings(){
-  renderThemeGrid(); updateToggleUI(); loadGroqKeyUI();
+  renderThemeGrid(); updateToggleUI(); loadGroqKeyUI(); loadElevenKeyUI();
   goTo('screen-settings');
 }
 
