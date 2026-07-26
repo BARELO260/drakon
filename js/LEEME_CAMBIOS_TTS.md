@@ -24,9 +24,10 @@ Polly, PlayHT...), ElevenLabs ofrece la mejor combinación para este proyecto:
 - **Multi-idioma real**: el modelo `eleven_multilingual_v2` cubre más de 25
   idiomas con la MISMA voz — incluye perfectamente los 6 idiomas del curso
   (inglés, español, francés, alemán, italiano, portugués).
-- **Voces masculinas y femeninas**: se usan 7 voces predeterminadas
-  distintas (Rachel, Domi, Bella, Antoni, Josh, Arnold, Adam, Sam) que vienen
-  ya disponibles en cualquier cuenta nueva, sin coste.
+- **Voces masculinas y femeninas**: se usan **10 voces predeterminadas
+  distintas y sin repetir**, una por personaje (Arnold, Antoni, Josh, Adam,
+  Sam, Bella, Callum, Rachel, George, Domi) — todas vienen ya disponibles en
+  cualquier cuenta nueva, sin coste.
 - **API bien documentada y estable**: REST simple (`POST
   /v1/text-to-speech/{voice_id}`), con SDKs oficiales y muchísima
   documentación.
@@ -68,20 +69,22 @@ de voz, Whisper, chat con IA, lecciones, gamificación, autenticación, etc.).
 
 ## Nota sobre las voces asignadas
 
-Los `voiceId` usados son voces predeterminadas ("premade") de ElevenLabs que
-vienen disponibles en cualquier cuenta nueva sin coste. Si en tu cuenta no
-existieran (por ejemplo, si las borraste de tu biblioteca de voces), puedes
-sustituirlas por cualquier otro `voiceId` de tu cuenta — la lista completa se
-obtiene con:
+Cada uno de los 10 personajes tiene su propio `voiceId` único de ElevenLabs
+— ninguno se repite. Son voces predeterminadas ("premade") que suelen venir
+disponibles en cualquier cuenta nueva sin coste (Arnold, Antoni, Josh, Adam,
+Sam, Bella, Callum, Rachel, George y Domi). Aun así, la disponibilidad exacta
+puede variar según tu cuenta/plan, así que antes de lanzar a producción te
+recomiendo verificar que las 10 existan en tu biblioteca con:
 
 ```
 GET https://api.elevenlabs.io/v1/voices
 Header: xi-api-key: TU_API_KEY
 ```
 
-Los `voiceId` a reemplazar están todos en un único lugar: el objeto
-`CHAR_VOICE` en `js/audio.js` (y `NARRATOR_VOICE` en `js/tts-eleven.js` para
-las frases sueltas de los ejercicios de escucha).
+Si alguna no apareciera, puedes sustituirla por cualquier otro `voiceId` de
+tu cuenta. Todos están en un único lugar: el objeto `CHAR_VOICE` en
+`js/audio.js` (y `NARRATOR_VOICE` en `js/tts-eleven.js` para las frases
+sueltas de los ejercicios de escucha).
 
 ## Cómo aplicar este cambio a tu proyecto
 
