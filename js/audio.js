@@ -459,13 +459,15 @@ let ttsActive = false;
 // el voiceId correspondiente.
 const CHAR_VOICE = {
   // 🐲 Drakón — dragón poderoso: grave y majestuoso, cadencia lenta pero clara.
-  dragon: { voiceId:'VR6AEwLTigWG4xSOukaG', name:'Arnold', gender:'M', stability:0.75, style:0.30, speed:0.88 },
+  // Intercambiada con Azhar (ahora usa Bella), a petición del usuario.
+  dragon: { voiceId:'EXAVITQu4vr4xnSDxMaL', name:'Bella', gender:'F', stability:0.75, style:0.30, speed:0.88 },
 
   // 🧙 Merlingo — mago sabio: solemne y pausado, cada palabra suena con peso.
   wizard: { voiceId:'ErXwobaYiN019PkySvjV', name:'Antoni', gender:'M', stability:0.72, style:0.18, speed:0.85 },
 
   // 🦊 Zorrek — zorro pícaro: ágil y animado, energético pero inteligible.
-  fox:    { voiceId:'TxGEqnHWrfWFTfGW9XjX', name:'Josh', gender:'M', stability:0.32, style:0.60, speed:1.12 },
+  // Intercambiada con Bao (ahora usa Rachel), a petición del usuario.
+  fox:    { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.32, style:0.60, speed:1.12 },
 
   // 🤖 Syntinator — robot analítico: ritmo uniforme y tono metálico neutro.
   robot:  { voiceId:'pNInz6obpgDQGcFmaJgB', name:'Adam', gender:'M', stability:0.88, style:0.02, speed:0.95 },
@@ -474,13 +476,15 @@ const CHAR_VOICE = {
   alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', name:'Sam', gender:'M', stability:0.28, style:0.70, speed:1.15 },
 
   // 🔥 Azhar — fénix inspirador: cálido, fluido y con lift natural.
-  phoenix:{ voiceId:'EXAVITQu4vr4xnSDxMaL', name:'Bella', gender:'F', stability:0.45, style:0.55, speed:0.98 },
+  // Usa la misma voz que Drakón tenía antes (Arnold), a petición del usuario.
+  phoenix:{ voiceId:'VR6AEwLTigWG4xSOukaG', name:'Arnold', gender:'M', stability:0.45, style:0.55, speed:0.98 },
 
   // 🥷 Kenjiro — ninja: sereno y preciso, habla con control y claridad.
   ninja:  { voiceId:'N2lVS1w4EtoT3dr4eOWO', name:'Callum', gender:'M', stability:0.82, style:0.10, speed:0.90 },
 
   // 🐼 Bao — panda zen: suave y tranquilo, ritmo pausado.
-  panda:  { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.80, style:0.10, speed:0.85 },
+  // Usa la misma voz que Zorrek tenía antes (Josh), a petición del usuario.
+  panda:  { voiceId:'TxGEqnHWrfWFTfGW9XjX', name:'Josh', gender:'M', stability:0.80, style:0.10, speed:0.85 },
 
   // 🦈 Barón Tritón — caballero: resonante y formal, pero legible.
   triton: { voiceId:'JBFqnCBsd6RMkjVDRZzb', name:'George', gender:'M', stability:0.75, style:0.15, speed:0.88 },
