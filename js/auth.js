@@ -182,7 +182,7 @@ window.onFirebaseUserReady = async function(user){
     // Todos los campos: la nube gana (incluye theme, groqKey, isPremium, etc.)
     const OVERWRITE_KEYS = [
       'lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme',
-      'nativeLang','groqKey','quizDone','missions','achievements','lessonsCompleted',
+      'nativeLang','groqKey','elevenKey','quizDone','missions','achievements','lessonsCompleted',
       'userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled',
       'savedChats','isPremium',
     ];
@@ -198,6 +198,7 @@ window.onFirebaseUserReady = async function(user){
     // Persistir estado fusionado en localStorage
     try{ localStorage.setItem('drakon_pwa', JSON.stringify(state)); }catch(e){}
     loadGroqKey();
+    loadElevenKey();
 
     // Si el local tenía más progreso, subir la versión fusionada a la nube
     const fbUser = window._fbUser || (window._fbAuth && window._fbAuth.currentUser);
@@ -261,7 +262,7 @@ window.onFirebaseSignOut = function(){
   // Solo resetear los campos de cuenta para que no "contaminen" otro usuario.
   const RESET_ON_LOGOUT = [
     'xp','streak','totalMessages','lastActiveDate','lastMsgDate','msgsToday',
-    'charId','lang','theme','nativeLang','groqKey','quizDone','missions',
+    'charId','lang','theme','nativeLang','groqKey','elevenKey','quizDone','missions',
     'achievements','lessonsCompleted','userLevel','correctionsToday',
     'situationsToday','notifs','sounds','ttsEnabled','savedChats','isPremium',
     'chatHistory','savedChats',
@@ -269,7 +270,7 @@ window.onFirebaseSignOut = function(){
   const defaults = {
     xp:0, streak:0, totalMessages:0, lastActiveDate:null, lastMsgDate:null,
     msgsToday:0, charId:'dragon', lang:null, theme:'dark', nativeLang:null,
-    groqKey:null, quizDone:false, missions:DEF_MISSIONS(), achievements:[
+    groqKey:null, elevenKey:null, quizDone:false, missions:DEF_MISSIONS(), achievements:[
       {icon:'🔥',name:'Primera llama',desc:'Envía tu primer mensaje',badge:'bg-gold',earned:false},
       {icon:'💬',name:'Conversador',desc:'20 mensajes enviados',badge:'bg-silver',earned:false},
       {icon:'⭐',name:'Estrella',desc:'Alcanza 500 XP',badge:'bg-gold',earned:false},
@@ -354,7 +355,7 @@ function save(){
     xp:state.xp, streak:state.streak, totalMessages:state.totalMessages,
     lastActiveDate:state.lastActiveDate, lastMsgDate:state.lastMsgDate, msgsToday:state.msgsToday,
     isPremium:state.isPremium, charId:state.charId, lang:state.lang, theme:state.theme,
-    nativeLang:state.nativeLang, groqKey:state.groqKey, quizDone:state.quizDone,
+    nativeLang:state.nativeLang, groqKey:state.groqKey, elevenKey:state.elevenKey, quizDone:state.quizDone,
     missions:state.missions, achievements:state.achievements, lessonsCompleted:state.lessonsCompleted,
     userLevel:state.userLevel, correctionsToday:state.correctionsToday, situationsToday:state.situationsToday,
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
@@ -458,6 +459,59 @@ function onGroqModalInput(val){
     st.textContent = '⚠️ Debe empezar con gsk_...'; st.style.color = 'var(--coral)';
   } else {
     st.textContent = '';
+  }
+}
+
+/* ═══════════════════════════════════════
+   ELEVENLABS API KEY HELPERS (voces TTS de alta calidad)
+   Mismo patrón de doble persistencia que GROQ_LS_KEY arriba.
+═══════════════════════════════════════ */
+const ELEVEN_LS_KEY = 'drakon_eleven_key';
+
+function loadElevenKey(){
+  if(!state.elevenKey){
+    const k = localStorage.getItem(ELEVEN_LS_KEY);
+    if(k) state.elevenKey = k;
+  }
+}
+
+function persistElevenKey(key){
+  state.elevenKey = key;
+  try{ localStorage.setItem(ELEVEN_LS_KEY, key); }catch(e){}
+  save();
+}
+
+function onElevenKeyInput(val){
+  const st = document.getElementById('elevenKeyStatus');
+  if(!st) return;
+  if(val.length > 20){
+    st.textContent = '✅ Key válida'; st.style.color = 'var(--mint)';
+  } else if(val.length > 0){
+    st.textContent = '⚠️ La key parece demasiado corta'; st.style.color = 'var(--coral)';
+  } else {
+    st.textContent = '';
+  }
+}
+
+function saveElevenKey(){
+  const inp = document.getElementById('elevenKeyInput');
+  if(!inp) return;
+  const val = inp.value.trim();
+  if(val.length < 20){
+    showToast('❌ API key inválida. Cópiala desde elevenlabs.io'); return;
+  }
+  persistElevenKey(val);
+  showToast('✅ API key guardada. ¡Voces con personalidad activadas!');
+  const st = document.getElementById('elevenKeyStatus');
+  if(st){ st.textContent = '✅ Guardada correctamente'; st.style.color = 'var(--mint)'; }
+}
+
+function loadElevenKeyUI(){
+  const inp = document.getElementById('elevenKeyInput');
+  if(inp){
+    inp.value = state.elevenKey || '';
+    const st = document.getElementById('elevenKeyStatus');
+    if(st && state.elevenKey){ st.textContent = '✅ Key guardada'; st.style.color = 'var(--mint)'; }
   }
 }
 
