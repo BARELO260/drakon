@@ -459,34 +459,34 @@ let ttsActive = false;
 // el voiceId correspondiente.
 const CHAR_VOICE = {
   // 🐲 Drakón — dragón poderoso: grave y majestuoso, cadencia lenta pero clara.
-  dragon: { voiceId:'VR6AEwLTigWG4xSOukaG', gender:'M', stability:0.75, style:0.30, speed:0.88 }, // Arnold
+  dragon: { voiceId:'VR6AEwLTigWG4xSOukaG', name:'Arnold', gender:'M', stability:0.75, style:0.30, speed:0.88 },
 
   // 🧙 Merlingo — mago sabio: solemne y pausado, cada palabra suena con peso.
-  wizard: { voiceId:'ErXwobaYiN019PkySvjV', gender:'M', stability:0.72, style:0.18, speed:0.85 }, // Antoni
+  wizard: { voiceId:'ErXwobaYiN019PkySvjV', name:'Antoni', gender:'M', stability:0.72, style:0.18, speed:0.85 },
 
   // 🦊 Zorrek — zorro pícaro: ágil y animado, energético pero inteligible.
-  fox:    { voiceId:'TxGEqnHWrfWFTfGW9XjX', gender:'M', stability:0.32, style:0.60, speed:1.12 }, // Josh
+  fox:    { voiceId:'TxGEqnHWrfWFTfGW9XjX', name:'Josh', gender:'M', stability:0.32, style:0.60, speed:1.12 },
 
   // 🤖 Syntinator — robot analítico: ritmo uniforme y tono metálico neutro.
-  robot:  { voiceId:'pNInz6obpgDQGcFmaJgB', gender:'M', stability:0.88, style:0.02, speed:0.95 }, // Adam
+  robot:  { voiceId:'pNInz6obpgDQGcFmaJgB', name:'Adam', gender:'M', stability:0.88, style:0.02, speed:0.95 },
 
   // 👽 Marshal — alienígena: vivo y agudo, extraño pero comprensible.
-  alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', gender:'M', stability:0.28, style:0.70, speed:1.15 }, // Sam
+  alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', name:'Sam', gender:'M', stability:0.28, style:0.70, speed:1.15 },
 
   // 🔥 Azhar — fénix inspirador: cálido, fluido y con lift natural.
-  phoenix:{ voiceId:'EXAVITQu4vr4xnSDxMaL', gender:'F', stability:0.45, style:0.55, speed:0.98 }, // Bella
+  phoenix:{ voiceId:'EXAVITQu4vr4xnSDxMaL', name:'Bella', gender:'F', stability:0.45, style:0.55, speed:0.98 },
 
   // 🥷 Kenjiro — ninja: sereno y preciso, habla con control y claridad.
-  ninja:  { voiceId:'N2lVS1w4EtoT3dr4eOWO', gender:'M', stability:0.82, style:0.10, speed:0.90 }, // Callum
+  ninja:  { voiceId:'N2lVS1w4EtoT3dr4eOWO', name:'Callum', gender:'M', stability:0.82, style:0.10, speed:0.90 },
 
   // 🐼 Bao — panda zen: suave y tranquilo, ritmo pausado.
-  panda:  { voiceId:'21m00Tcm4TlvDq8ikWAM', gender:'F', stability:0.80, style:0.10, speed:0.85 }, // Rachel
+  panda:  { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.80, style:0.10, speed:0.85 },
 
   // 🦈 Barón Tritón — caballero: resonante y formal, pero legible.
-  triton: { voiceId:'JBFqnCBsd6RMkjVDRZzb', gender:'M', stability:0.75, style:0.15, speed:0.88 }, // George
+  triton: { voiceId:'JBFqnCBsd6RMkjVDRZzb', name:'George', gender:'M', stability:0.75, style:0.15, speed:0.88 },
 
   // 🎵 Axónic — DJ ajolote: energético y chispeante, rápido pero claro.
-  axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', gender:'F', stability:0.30, style:0.70, speed:1.15 }, // Domi
+  axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', name:'Domi', gender:'F', stability:0.30, style:0.70, speed:1.15 },
 };
 
 // Translate text to the target language using Groq, then speak it
@@ -533,7 +533,10 @@ function speak(text, langCode){
 
   // Motor real (ElevenLabs con fallback a Web Speech API) vive en
   // js/tts-eleven.js — aquí solo le pasamos texto + personalidad + idioma.
-  ttsSpeakChar(text, cv, bcp47, null);
+  // El 5º argumento (charId) permite resolver dinámicamente la voz real
+  // disponible en la cuenta de ElevenLabs del usuario, por si el voiceId
+  // hardcodeado ya no existe (404).
+  ttsSpeakChar(text, cv, bcp47, null, state.charId || 'dragon');
 }
 
 async function speakText(rawText){
