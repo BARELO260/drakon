@@ -424,4 +424,195 @@ window.LESSON_BANKS.EN = [
       ["translate", "Traduce: \"Estamos dispuestos a negociar los términos.\"", ["We are willing to negotiate the terms.","We want negotiate terms.","We negotiate are willing terms.","Terms we are negotiate willing."], 0, "\"Willing to\" = dispuesto a. \"Negotiate the terms\" = negociar los términos."],
     ]
   },
+  {
+    id:"a1_dates_time", level:"A1", title:"Fechas, días y meses", emoji:"📅", xp:35,
+    description:"Aprende los días de la semana, los meses y cómo hablar de fechas en inglés.",
+    study: {
+      vocab: [
+        ["Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday", "lunes, martes, miércoles, jueves, viernes, sábado, domingo"],
+        ["January, February, March... December", "enero, febrero, marzo... diciembre"],
+        ["What day is it today?", "¿Qué día es hoy?"],
+        ["Today is May 5th.", "Hoy es 5 de mayo.", "En inglés se dice \"the fifth of May\" o \"May fifth\", con el ordinal."],
+        ["When is your birthday?", "¿Cuándo es tu cumpleaños?"]
+      ],
+      grammar: [
+        ["Preposiciones de tiempo: on / in / at", "\"On\" con días, \"in\" con meses o años, \"at\" con horas.", "I have a meeting on Monday, in May, at 3 p.m."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice \"miércoles\" en inglés?",["Wednesday","Tuesday","Thursday","Friday"],0,"\"Wednesday\" es el tercer día de la semana en inglés (la semana empieza en Sunday o Monday según el país)."],
+      ["mcq","¿Cuál es la forma correcta de preguntar qué día es hoy?",["What day is it today?","What time is it today?","How old is today?","Where is today?"],0,"\"What day is it today?\" pregunta por el día de la semana o la fecha."],
+      ["fill","Completa: \"My birthday is ___ March.\"",["in","on","at","to"],0,"Se usa \"in\" con meses: \"in March\"."],
+      ["translate","Traduce: \"Hoy es lunes.\"",["Today is Monday.","Today is Tuesday.","Yesterday was Monday.","Today is a Monday."],0,"\"Hoy es lunes\" = \"Today is Monday\", sin artículo antes del día."],
+      ["arrange","Ordena: [gym / I / Mondays / the / go to / on]",["I go to the gym on Mondays","On Mondays I the gym go to","I the gym go to on Mondays","Go I to the gym on Mondays"],0,"Sujeto + verbo + complemento + \"on Mondays\": \"I go to the gym on Mondays.\""],
+      ["writing","Escribe 3 oraciones (20-30 palabras) en inglés sobre tu semana: qué día es hoy, cuándo es tu cumpleaños y qué haces un día concreto.",[],["today","birthday","on"],"Incluye al menos un día de la semana y un mes. Revisa el uso de \"on\" e \"in\"."]
+    ]
+  },
+  {
+    id:"a2_directions_transport", level:"A2", title:"En la ciudad: direcciones y transporte", emoji:"🧭", xp:42,
+    description:"Pide y da indicaciones, y habla sobre medios de transporte en inglés.",
+    study: {
+      vocab: [
+        ["How do I get to...?", "¿Cómo llego a...?"],
+        ["Go straight ahead / Turn left / right", "Sigue todo recto / Gira a la izquierda / a la derecha"],
+        ["the bus stop, the train station", "la parada de autobús, la estación de tren"],
+        ["It's two blocks from here.", "Está a dos cuadras de aquí."],
+        ["How long does it take to get there?", "¿Cuánto tarda en llegar?"]
+      ],
+      grammar: [
+        ["El imperativo para dar indicaciones", "En inglés las instrucciones usan el verbo base, sin sujeto.", "Go straight ahead and turn right at the light."]
+      ]
+    },
+    ex:[
+      ["mcq","Quieres llegar al museo. ¿Qué preguntas en inglés?",["How do I get to the museum?","What time is the museum?","Whose museum is it?","How much is the bus?"],0,"\"How do I get to...?\" es la pregunta estándar para pedir indicaciones."],
+      ["mcq","Alguien te dice: \"Go straight ahead and turn left at the square.\" ¿Qué debes hacer primero?",["Walk in a straight line.","Turn right.","Take the bus.","Ask again."],0,"\"Go straight ahead\" es la primera instrucción; el giro viene después."],
+      ["fill","Completa: \"The station ___ two blocks from here.\"",["is","are","has","do"],0,"\"Is\" concuerda con el sujeto singular \"the station\": \"The station is two blocks from here.\""],
+      ["translate","Traduce: \"Gira a la derecha en el semáforo.\"",["Turn right at the traffic light.","Turn left at the square.","Go straight at the light.","Stop at the light."],0,"\"Gira a la derecha\" = \"Turn right\"; \"en el semáforo\" = \"at the traffic light\"."],
+      ["arrange","Ordena: [bus / take / stop / the / at / the]",["Take the bus at the stop","The stop take the bus at","At the bus take the stop","Take at the stop the bus"],0,"Verbo + objeto + complemento de lugar: \"Take the bus at the stop.\""],
+      ["speaking","Explica en inglés, en 40-60 palabras, cómo llegar de tu casa a un lugar cercano. Usa al menos dos indicaciones y un medio de transporte.",[],["turn","straight","minutes"],"Organiza la explicación en orden: first, then, finally."]
+    ]
+  },
+  {
+    id:"b1_job_interview", level:"B1", title:"El trabajo: entrevistas y rutina laboral", emoji:"💼", xp:60,
+    description:"Habla sobre tu experiencia laboral y responde preguntas de entrevista en inglés.",
+    study: {
+      vocab: [
+        ["What do you do for a living?", "¿A qué te dedicas?"],
+        ["I have experience in...", "tengo experiencia en..."],
+        ["my strengths / weaknesses", "mis puntos fuertes / débiles"],
+        ["to work as a team, to meet deadlines", "trabajar en equipo, cumplir con los plazos"],
+        ["a full-time / part-time contract", "un contrato de tiempo completo / parcial"]
+      ],
+      grammar: [
+        ["Present perfect para experiencia", "Se usa \"have/has + participio\" para hablar de experiencia sin decir exactamente cuándo.", "I have worked in customer service for three years."],
+        ["Conectores para estructurar una respuesta", "\"On the one hand... on the other hand\" ayuda a organizar ventajas y desventajas.", "On the one hand I enjoy teamwork; on the other, I value some autonomy."]
+      ]
+    },
+    ex:[
+      ["mcq","En una entrevista te preguntan: \"What do you do for a living?\". ¿Cuál es una respuesta apropiada?",["I work as a graphic designer at an agency.","Yes, thank you, very well.","I am twenty-five years old.","I live downtown."],0,"\"What do you do for a living?\" pregunta por tu profesión u ocupación."],
+      ["mcq","¿Qué respuesta describe mejor un punto fuerte de forma profesional?",["I'm good at organising projects and meeting deadlines.","I'm the best of everyone, no doubt.","I don't have any weaknesses.","I work whenever I feel like it."],0,"Una buena respuesta es específica y verificable, sin exagerar."],
+      ["fill","Completa: \"I ___ worked in sales for two years.\"",["have","am","is","do"],0,"\"I have worked\" (present perfect) describe experiencia pasada relevante hoy."],
+      ["translate","Traduce: \"Tengo experiencia trabajando en equipo.\"",["I have experience working in a team.","I have experience work team.","I team experience have working.","I have working experience in a team is."],0,"\"Tengo experiencia + gerundio\" = \"I have experience + -ing\": \"I have experience working in a team.\""],
+      ["arrange","Ordena: [like / working / I / team / a / in]",["I like working in a team","Like I working in a team","In a team I like working","Working I like in a team"],0,"\"I like\" + gerundio: \"I like working in a team.\""],
+      ["writing","Escribe en inglés una respuesta de entrevista de 45-65 palabras a la pregunta \"Why do you want this job?\". Menciona tu experiencia, un punto fuerte y tu motivación.",[],["experience","because","I would like"],"Estructura: experiencia relevante + punto fuerte + motivación concreta.","Entrevista para un puesto de atención al cliente."]
+    ]
+  },
+  {
+    id:"b2_media_literacy", level:"B2", title:"Medios de comunicación: analizar noticias", emoji:"📰", xp:78,
+    description:"Distingue hechos de opiniones y evalúa la fiabilidad de una noticia en inglés.",
+    study: {
+      vocab: [
+        ["a reliable / unreliable source", "una fuente fiable / poco fiable"],
+        ["according to sources close to the case", "según fuentes cercanas al caso"],
+        ["a sensationalist headline", "un titular sensacionalista"],
+        ["to cross-check information", "contrastar la información"],
+        ["a verified fact, an opinion", "un dato verificado, una opinión"]
+      ],
+      grammar: [
+        ["Verbos de atribución", "\"According to\", \"claims that\", \"points out that\" indican de dónde viene una afirmación y cuánta certeza tiene.", "According to the report, sales increased by 10%."],
+        ["Distinguir hecho de opinión", "Un hecho se puede verificar; una opinión expresa un juicio de valor.", "The article claims (opinion) the policy will 'definitely' fail, though the data (fact) is still preliminary."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases es un hecho verificable, no una opinión?",["The report shows that unemployment fell by 2% this quarter.","This policy is clearly a disaster.","Everyone knows this measure won't work.","It's obvious the government is wrong."],0,"Un hecho verificable cita una fuente y un dato concreto, sin juicio de valor."],
+      ["mcq","Titular: \"Total chaos! City on the brink after new rule.\" ¿Qué sugiere el estilo del titular?",["It aims for emotional impact rather than precise information.","It is a neutral, objective summary of the facts.","It cites a verifiable official source.","It contains no value judgement at all."],0,"El lenguaje exagerado (\"total chaos\", \"on the brink\") es típico del sensacionalismo."],
+      ["fill","Completa: \"___ sources close to the project, the launch will be delayed by a month.\"",["According to","Although","Because","However"],0,"\"According to\" introduce la fuente de una información, indicando que no es un hecho confirmado por el propio medio."],
+      ["translate","Traduce: \"Es importante contrastar la información antes de compartirla.\"",["It is important to cross-check information before sharing it.","It is important to share information before checking it.","It is important information sharing important.","Cross-checking is sharing information important before."],0,"\"Contrastar la información\" = \"cross-check information\"; \"antes de compartirla\" = \"before sharing it\"."],
+      ["mcq","Un artículo dice: \"Experts warn the figure could be overestimated.\" ¿Qué nivel de certeza transmite?",["A reasonable possibility, not an absolute certainty.","A total, verified certainty.","A personal opinion of the journalist with no source.","A fact already proven with final data."],0,"\"Could be\" indica probabilidad, no una afirmación categórica."],
+      ["writing","Escribe en inglés un análisis de 55-75 palabras sobre una noticia (real o inventada): identifica un hecho verificable, una opinión y evalúa qué tan fiable te parece la fuente.",[],["according to","fact","opinion"],"Separa claramente qué es un dato citado y qué es una valoración del autor."]
+    ]
+  },
+  {
+    id:"c1_figurative_language", level:"C1", title:"Lenguaje figurado y modismos", emoji:"🗯️", xp:88,
+    description:"Interpreta modismos, metáforas y expresiones idiomáticas comunes en inglés.",
+    study: {
+      vocab: [
+        ["to cost an arm and a leg", "costar un ojo de la cara"],
+        ["to be between a rock and a hard place", "estar entre la espada y la pared"],
+        ["to pull someone's leg", "tomar el pelo a alguien"],
+        ["to not mince words", "no tener pelos en la lengua"],
+        ["to get one's act together", "ponerse las pilas"]
+      ],
+      grammar: [
+        ["Interpretar modismos en contexto", "El significado de un modismo casi nunca es literal; hay que inferirlo del contexto comunicativo.", "\"This trip cost me an arm and a leg\" no habla de partes del cuerpo reales, sino de un gasto muy alto."]
+      ]
+    },
+    ex:[
+      ["mcq","\"This car cost me an arm and a leg.\" ¿Qué significa la expresión?",["It was very expensive.","It was very cheap.","The car got damaged.","It had an accident."],0,"\"To cost an arm and a leg\" significa que algo tuvo un precio muy alto."],
+      ["mcq","Alguien dice: \"I'm between a rock and a hard place with this decision.\" ¿Qué transmite?",["They face two difficult options, with no comfortable way out.","They feel completely calm about their decision.","They have no options to consider at all.","They already made the decision without any doubt."],0,"La expresión describe una situación sin una opción claramente buena."],
+      ["fill","Completa: \"Stop pulling my ___, I know it's not true.\"",["leg","foot","arm","eye"],0,"\"To pull someone's leg\" significa bromear o engañar de forma ligera."],
+      ["translate","Traduce de forma natural (no literal): \"No tiene pelos en la lengua.\"",["She doesn't mince her words.","She doesn't have hairs on her tongue.","Her tongue has no hairs.","She never mince words her."],0,"\"No tener pelos en la lengua\" equivale a \"to not mince words\" en inglés."],
+      ["mcq","¿En qué contexto encajaría mejor \"get your act together\"?",["Encouraging someone to become more organised and focused.","Explaining how to charge an electronic device.","Describing the weather in a city.","Apologising formally."],0,"\"Get your act together\" es una expresión coloquial para animar a alguien a organizarse."],
+      ["speaking","Elige un modismo en inglés de esta lección y explica en 45-65 palabras en qué situación lo usarías y qué significa literalmente frente a su sentido real.",[],["means","situation","literally"],"Distingue claramente el sentido literal (a veces absurdo) del sentido idiomático real."]
+    ]
+  },
+  {
+    id:"c2_irony_humor", level:"C2", title:"Ironía, humor y ambigüedad deliberada", emoji:"😏", xp:94,
+    description:"Reconoce ironía, sarcasmo y ambigüedad intencional en el inglés de nivel avanzado.",
+    study: {
+      vocab: [
+        ["Just my luck!", "¡Qué suerte la mía! (irónico)"],
+        ["with the best of intentions (ironic)", "con la mejor de las intenciones (irónico)"],
+        ["a double meaning", "un doble sentido"],
+        ["to say something with a sarcastic tone", "decir algo con retintín"],
+        ["to understate something", "quedarse corto al describir algo (ironía)"]
+      ],
+      grammar: [
+        ["Marcadores de ironía", "La ironía suele señalarse con el contexto, la entonación o un contraste evidente entre lo dicho y la realidad, no con palabras explícitas.", "\"How punctual of you!\" said to someone an hour late is ironic because of the contrast."],
+        ["Ambigüedad deliberada", "A veces se elige una expresión ambigua a propósito para no comprometerse del todo con una postura.", "\"You could say the project had... interesting results.\""]
+      ]
+    },
+    ex:[
+      ["mcq","Alguien llega una hora tarde y otra persona dice: \"How punctual of you!\". ¿Qué comunica realmente?",["The opposite of what is said: the person was very late.","A sincere compliment about punctuality.","A question about the time.","An apology for their own lateness."],0,"El contraste entre lo dicho y la realidad evidente es la marca típica de la ironía."],
+      ["mcq","\"With the best of intentions, he cancelled the meeting without telling anyone.\" ¿Qué matiz aporta \"with the best of intentions\" aquí?",["An ironic tone: it signals the action wasn't really well considered.","A sincere compliment towards the person.","A literal, neutral explanation of the event.","A formal apology from the narrator."],0,"El contraste entre la frase y la acción (cancelar sin avisar) genera un efecto irónico."],
+      ["fill","\"You could say the project had... ___ results.\" (ambigüedad deliberada, sin comprometerse)",["interesting","excellent","catastrophic","perfect"],0,"\"Interesting\" es deliberadamente ambiguo: no confirma ni niega el éxito del proyecto."],
+      ["translate","Traduce con el mismo matiz irónico: \"Genial, otro lunes.\" (dicho con fastidio)",["Great, another Monday.","Monday is a great day.","What joy, it's Friday.","I totally hate Mondays."],0,"El tono irónico se mantiene con \"Great\" seguido de algo objetivamente poco emocionante."],
+      ["mcq","¿Qué función cumple el understatement en \"The earthquake caused... some minor damage\" cuando en realidad fue devastador?",["It deliberately softens the severity to create an ironic or critical effect.","It describes the situation in a completely literal and precise way.","It exaggerates the magnitude of the event.","It removes any possible ironic interpretation."],0,"El understatement contrasta la magnitud real con una descripción minimizada, generando ironía."],
+      ["writing","Escribe en inglés un breve comentario (50-70 palabras) con ironía sutil sobre una situación cotidiana molesta (el tráfico, una fila larga, etc.), sin usar insultos ni lenguaje explícito.",[],["just my luck","great","of course"],"La ironía debe notarse por el contraste entre el tono positivo y la situación negativa, no por afirmarlo directamente."]
+    ]
+  },
+  {
+    id:"b2_passive_formal", level:"B2", title:"Voz pasiva y estilo formal", emoji:"⚙️", xp:76,
+    description:"Usa la voz pasiva en inglés para describir procesos e informes de manera formal.",
+    study: {
+      vocab: [
+        ["to be carried out", "llevarse a cabo"],
+        ["to be approved / rejected", "ser aprobado / rechazado"],
+        ["it is estimated that...", "se estima que..."],
+        ["to be scheduled for", "estar programado para"]
+      ],
+      grammar: [
+        ["La voz pasiva: be + participio", "Se usa cuando el agente de la acción es irrelevante o desconocido, típico en informes formales.", "The survey was conducted last month. (no importa exactamente quién lo hizo)"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué versión es más apropiada para un informe formal?",["The new policy was approved by the board last week.","The board approved the new policy, they did it last week.","Someone approved the policy I think.","The board, it approved the policy last week yes."],0,"La voz pasiva enfoca la acción y el resultado, típico del registro formal de informes."],
+      ["fill","Completa: \"The results ___ published next month.\"",["will be","will","are being do","have"],0,"Futuro en pasiva: \"will be + participio\": \"The results will be published next month.\""],
+      ["mcq","\"It is estimated that costs will rise by 5%.\" ¿Qué función cumple \"it is estimated that\"?",["Presenta una cifra como una proyección, no como un hecho certero.","Confirma la cifra como un hecho ya verificado.","Elimina toda duda sobre la cifra.","Indica que la cifra es opinión personal del autor."],0,"\"It is estimated that\" atenúa la certeza de una cifra, marcándola como proyección."],
+      ["translate","Traduce: \"La reunión está programada para el viernes.\"",["The meeting is scheduled for Friday.","The meeting schedules for Friday.","Friday is scheduled the meeting.","The meeting is schedule on Friday."],0,"\"Estar programado para\" = \"to be scheduled for\": \"The meeting is scheduled for Friday.\""],
+      ["writing","Escribe en inglés un breve párrafo de informe (45-65 palabras) usando voz pasiva para describir un proceso (una investigación, un lanzamiento, una decisión).",[],["was","is scheduled","it is estimated"],"Usa al menos dos construcciones en voz pasiva y mantén un tono formal e impersonal."]
+    ]
+  },
+  {
+    id:"c1_concession_hedging", level:"C1", title:"Concesión avanzada y matización", emoji:"⚔️", xp:90,
+    description:"Reconoce un punto válido del argumento contrario antes de matizar tu propia postura, con precisión.",
+    study: {
+      vocab: [
+        ["granted that / while it is true that", "si bien es cierto que"],
+        ["that said / that being said", "dicho esto"],
+        ["to a certain extent", "hasta cierto punto"],
+        ["this does not necessarily mean that", "esto no significa necesariamente que"]
+      ],
+      grammar: [
+        ["Concesión seguida de matización", "Reconocer un punto válido antes de introducir una reserva da credibilidad al argumento.", "While it is true that the plan reduces costs, that does not necessarily mean it is the best option."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué opción concede un punto y luego lo matiza con precisión?",["While it is true that sales increased, this does not necessarily mean the strategy was effective.","Sales increased, so the strategy was clearly the best one.","The strategy failed completely, no doubt about it.","Sales increased because of luck, obviously."],0,"Reconoce el hecho (ventas subieron) y matiza la conclusión que se puede extraer de él."],
+      ["fill","Completa: \"___ that the report is thorough, it fails to address the main risk.\"",["Granted","Because","So","Then"],0,"\"Granted that\" introduce una concesión formal antes de una crítica."],
+      ["mcq","\"To a certain extent, the criticism is fair.\" ¿Qué matiz aporta \"to a certain extent\"?",["Acepta parcialmente el punto, sin comprometerse del todo con él.","Rechaza por completo la crítica.","Acepta la crítica de forma absoluta y total.","No tiene relación con el grado de acuerdo."],0,"\"To a certain extent\" limita el alcance de la concesión, aceptando solo una parte."],
+      ["translate","Traduce: \"Esto no significa necesariamente que la propuesta sea la mejor.\"",["This does not necessarily mean that the proposal is the best one.","This means necessarily that the proposal is not the best.","The proposal necessarily means this is not the best.","Necessarily, this proposal does not mean the best."],0,"\"Esto no significa necesariamente que\" = \"This does not necessarily mean that\", seguido de subjuntivo/indicativo según el registro."],
+      ["speaking","Elige una postura con la que estés parcialmente de acuerdo y explica en 45-70 palabras: concede un punto válido del lado contrario, y luego matiza tu propia posición con una reserva concreta.",[],["granted","that said","to a certain extent"],"Estructura: concesión clara + matización específica, evitando el \"sí, pero\" simplista."]
+    ]
+  },
 ];
