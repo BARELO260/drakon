@@ -665,4 +665,151 @@ window.LESSON_BANKS.IT = [
       ["speaking","Analizza in 50-70 parole una frase persuasiva a tua scelta: individua una presupposizione, una parola valutativa e un'inferenza ragionevole.",[],["presuppone","linguaggio","inferenza"],"Non basta essere d'accordo o in disaccordo: spiega come il linguaggio orienta l'interpretazione.","Frase di esempio: «È ora di porre fine a questa pratica superata.»"]
     ]
   },
+  {
+    id:"it_a1_dates_time", level:"A1", title:"Date, giorni e mesi", emoji:"📅", xp:35,
+    description:"Impara i giorni della settimana, i mesi e come parlare di date in italiano.",
+    study: {
+      vocab: [
+        ["lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
+        ["gennaio, febbraio, marzo... dicembre", "January, February, March... December"],
+        ["Che giorno è oggi?", "What day is it today?"],
+        ["Oggi è il 5 maggio.", "Today is May 5th.", "In italiano: \"il\" + numero + mese, senza \"di\"."],
+        ["Quando è il tuo compleanno?", "When is your birthday?"]
+      ],
+      grammar: [
+        ["L'articolo con i giorni", "I giorni della settimana si scrivono in minuscolo e usano \"il\" per un'abitudine.", "Vado in palestra il lunedì. (ogni lunedì)"]
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice \"Wednesday\" in italiano?",["Mercoledì","Martedì","Giovedì","Venerdì"],0,"\"Mercoledì\" è il terzo giorno della settimana in italiano."],
+      ["mcq","Qual è il modo corretto di chiedere la data di oggi?",["Che giorno è oggi?","Che ora è oggi?","Quanti anni hai?","Dove vivi?"],0,"\"Che giorno è oggi?\" chiede il giorno della settimana o la data."],
+      ["fill","Completa: \"Il mio compleanno è ___ 10 marzo.\"",["il","la","in","i"],0,"Con una data precisa si usa \"il\": \"il 10 marzo\"."],
+      ["translate","Traduci: \"Today is Monday.\"",["Oggi è lunedì.","Oggi è martedì.","Ieri era lunedì.","Oggi è un lunedì."],0,"\"Today is Monday\" = \"Oggi è lunedì\", senza articolo prima del giorno."],
+      ["arrange","Metti in ordine: [palestra / vado / lunedì / in / il]",["Vado in palestra il lunedì","Il lunedì vado in palestra","In palestra vado il lunedì","Vado il lunedì in palestra"],0,"Soggetto + verbo + complemento + \"il lunedì\": \"Vado in palestra il lunedì.\""],
+      ["writing","Scrivi 3 frasi (20-30 parole) in italiano sulla tua settimana: che giorno è oggi, quando è il tuo compleanno e cosa fai un giorno specifico.",[],["oggi","compleanno","il"],"Includi almeno un giorno della settimana e un mese. Controlla l'uso dell'articolo \"il\"."]
+    ]
+  },
+  {
+    id:"it_a2_directions_transport", level:"A2", title:"In città: indicazioni e trasporti", emoji:"🧭", xp:42,
+    description:"Chiedi e dai indicazioni, e parla dei mezzi di trasporto in italiano.",
+    study: {
+      vocab: [
+        ["Come arrivo a...?", "How do I get to...?"],
+        ["Vada sempre dritto / Giri a sinistra / a destra", "Go straight ahead / Turn left / right"],
+        ["la fermata dell'autobus, la stazione", "the bus stop, the train station"],
+        ["È a due isolati da qui.", "It's two blocks from here."],
+        ["Quanto tempo ci vuole per arrivare?", "How long does it take to get there?"]
+      ],
+      grammar: [
+        ["L'imperativo per dare indicazioni", "Per dare istruzioni si usa l'imperativo (tu/Lei).", "Vada sempre dritto e giri a destra al semaforo."]
+      ]
+    },
+    ex:[
+      ["mcq","Vuoi arrivare al museo. Cosa chiedi?",["Come arrivo al museo?","Che ora è il museo?","Di chi è il museo?","Quanto costa l'autobus?"],0,"\"Come arrivo a...?\" è la domanda standard per chiedere indicazioni."],
+      ["mcq","Qualcuno ti dice: \"Vada sempre dritto e giri a sinistra in piazza.\" Cosa devi fare prima?",["Camminare dritto.","Girare a destra.","Prendere l'autobus.","Chiedere di nuovo."],0,"\"Vada sempre dritto\" è la prima istruzione; la svolta viene dopo."],
+      ["fill","Completa: \"La stazione ___ a due isolati da qui.\"",["è","sono","ha","fa"],0,"\"È\" concorda con il soggetto singolare \"la stazione\": \"La stazione è a due isolati da qui.\""],
+      ["translate","Traduci: \"Turn right at the traffic light.\"",["Giri a destra al semaforo.","Giri a sinistra in piazza.","Vada dritto al semaforo.","Si fermi al semaforo."],0,"\"Turn right\" = \"Giri a destra\"; \"at the traffic light\" = \"al semaforo\"."],
+      ["arrange","Metti in ordine: [autobus / prenda / fermata / l' / alla]",["Prenda l'autobus alla fermata","L'autobus prenda alla fermata","Alla fermata prenda l'autobus","Prenda alla fermata l'autobus"],0,"Verbo + oggetto + complemento di luogo: \"Prenda l'autobus alla fermata.\""],
+      ["speaking","Spiega in italiano, in 40-60 parole, come arrivare da casa tua a un posto vicino. Usa almeno due indicazioni e un mezzo di trasporto.",[],["giri","dritto","minuti"],"Organizza la spiegazione in ordine: prima, poi, infine."]
+    ]
+  },
+  {
+    id:"it_b1_job_interview", level:"B1", title:"Il lavoro: colloqui e routine professionale", emoji:"💼", xp:60,
+    description:"Parla della tua esperienza lavorativa e rispondi a domande di colloquio in italiano.",
+    study: {
+      vocab: [
+        ["Di cosa ti occupi?", "What do you do for a living?"],
+        ["ho esperienza in...", "I have experience in..."],
+        ["i miei punti di forza / di debolezza", "my strengths / weaknesses"],
+        ["lavorare in team, rispettare le scadenze", "to work as a team, to meet deadlines"],
+        ["un contratto a tempo pieno / parziale", "a full-time / part-time contract"]
+      ],
+      grammar: [
+        ["Il passato prossimo per l'esperienza", "Si usa il passato prossimo per parlare di esperienza lavorativa senza dire esattamente quando.", "Ho lavorato nel servizio clienti per tre anni."],
+        ["Connettori per strutturare una risposta", "\"Da un lato... dall'altro\" aiuta a organizzare vantaggi e svantaggi.", "Da un lato mi piace lavorare in team, dall'altro apprezzo un po' di autonomia."]
+      ]
+    },
+    ex:[
+      ["mcq","In un colloquio ti chiedono: \"Di cosa ti occupi?\". Qual è una risposta appropriata?",["Lavoro come grafico in un'agenzia.","Sì, grazie, molto bene.","Ho venticinque anni.","Vivo in centro."],0,"\"Di cosa ti occupi?\" chiede la tua professione."],
+      ["mcq","Quale risposta descrive meglio un punto di forza in modo professionale?",["Sono bravo a organizzare progetti e rispettare le scadenze.","Sono il migliore di tutti, senza dubbio.","Non ho nessun punto debole.","Lavoro quando ne ho voglia."],0,"Una buona risposta è specifica e verificabile, senza esagerare."],
+      ["fill","Completa: \"___ lavorato nelle vendite per due anni.\"",["Ho","Sono","È","Hai"],0,"\"Ho lavorato\" (passato prossimo) descrive un'esperienza passata rilevante oggi."],
+      ["translate","Traduci: \"I have experience working in a team.\"",["Ho esperienza nel lavoro di squadra.","Ho esperienza lavoro squadra.","Squadra ho esperienza lavoro.","Ho esperienza lavorando squadra è."],0,"\"I have experience working in a team\" = \"Ho esperienza nel lavoro di squadra.\""],
+      ["arrange","Metti in ordine: [piace / lavorare / mi / squadra / in]",["Mi piace lavorare in squadra","Piace mi lavorare in squadra","In squadra mi piace lavorare","Lavorare mi piace in squadra"],0,"\"Mi piace\" + infinito: \"Mi piace lavorare in squadra.\""],
+      ["writing","Scrivi in italiano una risposta di colloquio di 45-65 parole alla domanda \"Perché vuoi questo lavoro?\". Menziona la tua esperienza, un punto di forza e la tua motivazione.",[],["esperienza","perché","mi piacerebbe"],"Struttura: esperienza rilevante + punto di forza + motivazione concreta.","Colloquio per un ruolo nel servizio clienti."]
+    ]
+  },
+  {
+    id:"it_b2_media_literacy", level:"B2", title:"Media: analizzare le notizie", emoji:"📰", xp:78,
+    description:"Distingui fatti da opinioni e valuta l'affidabilità di una notizia in italiano.",
+    study: {
+      vocab: [
+        ["una fonte affidabile / inaffidabile", "a reliable / unreliable source"],
+        ["secondo fonti vicine al caso", "according to sources close to the case"],
+        ["un titolo sensazionalistico", "a sensationalist headline"],
+        ["verificare incrociando le informazioni", "to cross-check information"],
+        ["un fatto verificato, un'opinione", "a verified fact, an opinion"]
+      ],
+      grammar: [
+        ["Verbi di attribuzione", "\"Secondo\", \"afferma che\", \"sottolinea che\" indicano da dove proviene un'affermazione e quanta certezza ha.", "Secondo il rapporto, le vendite sono aumentate del 10%."],
+        ["Distinguere fatto e opinione", "Un fatto può essere verificato; un'opinione esprime un giudizio di valore.", "L'articolo afferma (opinione) che la misura 'sicuramente' fallirà, anche se i dati (fatto) sono ancora preliminari."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi è un fatto verificabile, non un'opinione?",["Il rapporto mostra che la disoccupazione è scesa del 2% questo trimestre.","Questa politica è chiaramente un disastro.","Tutti sanno che questa misura non funzionerà.","È ovvio che il governo si sbaglia."],0,"Un fatto verificabile cita una fonte e un dato concreto, senza giudizio di valore."],
+      ["mcq","Titolo: \"Caos totale! Città sull'orlo della crisi dopo la nuova norma.\" Cosa suggerisce lo stile del titolo?",["Punta a un impatto emotivo più che a un'informazione precisa.","È un riassunto neutrale e oggettivo dei fatti.","Cita una fonte ufficiale verificabile.","Non contiene alcun giudizio di valore."],0,"Il linguaggio esagerato (\"caos totale\", \"sull'orlo della crisi\") è tipico del sensazionalismo."],
+      ["fill","Completa: \"___ fonti vicine al progetto, il lancio sarà rinviato di un mese.\"",["Secondo","Sebbene","Perché","Tuttavia"],0,"\"Secondo\" introduce la fonte di un'informazione, indicando che non è un fatto confermato dal media stesso."],
+      ["translate","Traduci: \"It is important to cross-check information before sharing it.\"",["È importante verificare incrociando le informazioni prima di condividerle.","È importante condividere le informazioni prima di verificarle.","È importante informazione condividere importante.","Verificare è condividere informazioni importanti prima."],0,"\"Cross-check information\" = \"verificare incrociando le informazioni\"; \"before sharing it\" = \"prima di condividerle\"."],
+      ["mcq","Un articolo dice: \"Gli esperti avvertono che la cifra potrebbe essere sovrastimata.\" Che livello di certezza trasmette?",["Una possibilità ragionevole, non una certezza assoluta.","Una certezza totale e verificata.","Un'opinione personale del giornalista senza alcuna fonte.","Un fatto già dimostrato con dati definitivi."],0,"\"Potrebbe essere\" indica probabilità, non un'affermazione categorica."],
+      ["writing","Scrivi in italiano un'analisi di 55-75 parole su una notizia (reale o inventata): identifica un fatto verificabile, un'opinione e valuta quanto ti sembra affidabile la fonte.",[],["secondo","fatto","opinione"],"Separa chiaramente cosa è un dato citato e cosa è una valutazione dell'autore."]
+    ]
+  },
+  {
+    id:"it_c1_figurative_language", level:"C1", title:"Linguaggio figurato e modi di dire", emoji:"🗯️", xp:88,
+    description:"Interpreta modi di dire, metafore ed espressioni idiomatiche comuni in italiano.",
+    study: {
+      vocab: [
+        ["costare un occhio della testa", "to cost an arm and a leg"],
+        ["essere tra l'incudine e il martello", "to be between a rock and a hard place"],
+        ["prendere in giro qualcuno", "to pull someone's leg"],
+        ["non avere peli sulla lingua", "to not mince words"],
+        ["darsi una mossa", "to get one's act together"]
+      ],
+      grammar: [
+        ["Interpretare i modi di dire nel contesto", "Il significato di un modo di dire non è quasi mai letterale; va dedotto dal contesto comunicativo.", "\"Questo viaggio mi è costato un occhio della testa\" non parla di un occhio reale, ma di una spesa molto alta."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Questa macchina mi è costata un occhio della testa.\" Cosa significa l'espressione?",["È stata molto costosa.","È stata molto economica.","La macchina si è danneggiata.","Ha avuto un incidente."],0,"\"Costare un occhio della testa\" significa che qualcosa ha avuto un prezzo molto alto."],
+      ["mcq","Qualcuno dice: \"Sono tra l'incudine e il martello con questa decisione.\" Cosa comunica?",["Si trova davanti a due opzioni difficili, senza una via d'uscita comoda.","Si sente completamente tranquillo riguardo alla sua decisione.","Non ha nessuna opzione da considerare.","Ha già preso la decisione senza alcun dubbio."],0,"L'espressione descrive una situazione senza un'opzione chiaramente buona."],
+      ["fill","Completa: \"Smettila di prendermi in ___, so che non è vero.\"",["giro","testa","piede","mano"],0,"\"Prendere in giro qualcuno\" significa scherzare o ingannare in modo leggero."],
+      ["translate","Traduci in modo naturale (non letterale): \"No tiene pelos en la lengua.\"",["Non ha peli sulla lingua.","Non ha pelo sulla lingua.","La sua lingua non ha peli.","Lei mai peli lingua avere."],0,"\"No tener pelos en la lengua\" equivale a \"non avere peli sulla lingua\" in italiano."],
+      ["mcq","In quale contesto si adatterebbe meglio \"darsi una mossa\"?",["Incoraggiare qualcuno a organizzarsi e agire con più energia.","Spiegare come caricare un dispositivo elettronico.","Descrivere il meteo di una città.","Scusarsi formalmente."],0,"\"Darsi una mossa\" è un'espressione colloquiale per incoraggiare qualcuno ad agire."],
+      ["speaking","Scegli un modo di dire di questa lezione e spiega in 45-65 parole in quale situazione lo useresti e cosa significa letteralmente rispetto al suo senso reale.",[],["significa","situazione","letteralmente"],"Distingui chiaramente il senso letterale (a volte assurdo) dal senso idiomatico reale."]
+    ]
+  },
+  {
+    id:"it_c2_irony_humor", level:"C2", title:"Ironia, umorismo e ambiguità deliberata", emoji:"😏", xp:94,
+    description:"Riconosci ironia, sarcasmo e ambiguità intenzionale nell'italiano di livello avanzato.",
+    study: {
+      vocab: [
+        ["Che fortuna la mia!", "Just my luck! (ironico)"],
+        ["con le migliori intenzioni (ironico)", "with the best of intentions (ironic)"],
+        ["un doppio senso", "a double meaning"],
+        ["dire qualcosa con tono sarcastico", "to say something with a sarcastic tone"],
+        ["minimizzare deliberatamente qualcosa", "to understate something"]
+      ],
+      grammar: [
+        ["Marcatori dell'ironia", "L'ironia si segnala di solito con il contesto, l'intonazione o un contrasto evidente tra ciò che si dice e la realtà, non con parole esplicite.", "\"Come sei puntuale!\" detto a chi arriva un'ora tardi è ironico per il contrasto."],
+        ["Ambiguità deliberata", "A volte si sceglie un'espressione ambigua apposta per non impegnarsi del tutto su una posizione.", "\"Si potrebbe dire che il progetto ha avuto... risultati interessanti.\""]
+      ]
+    },
+    ex:[
+      ["mcq","Qualcuno arriva con un'ora di ritardo e un'altra persona dice: \"Come sei puntuale!\". Cosa comunica davvero?",["Il contrario di ciò che dice: la persona era molto in ritardo.","Un complimento sincero sulla puntualità.","Una domanda sull'ora.","Una scusa per il proprio ritardo."],0,"Il contrasto tra ciò che si dice e la realtà evidente è il segno tipico dell'ironia."],
+      ["mcq","\"Con le migliori intenzioni, ha annullato la riunione senza avvisare nessuno.\" Che sfumatura porta \"con le migliori intenzioni\" qui?",["Un tono ironico: segnala che l'azione non è stata davvero ponderata.","Un elogio sincero verso la persona.","Una spiegazione letterale e neutra del fatto.","Una scusa formale da parte del narratore."],0,"Il contrasto tra la frase e l'azione (annullare senza avvisare) genera un effetto ironico."],
+      ["fill","\"Si potrebbe dire che il progetto ha avuto... risultati ___.\" (ambiguità deliberata, senza esporsi)",["interessanti","eccellenti","catastrofici","perfetti"],0,"\"Interessanti\" è deliberatamente ambiguo: non conferma né nega il successo del progetto."],
+      ["translate","Traduci con la stessa sfumatura ironica: \"Genial, otro lunes.\" (detto con fastidio)",["Fantastico, un altro lunedì.","Il lunedì è un gran giorno.","Che gioia, è venerdì.","Odio totalmente i lunedì."],0,"Il tono ironico si mantiene con \"Fantastico\" seguito da qualcosa di oggettivamente poco entusiasmante."],
+      ["mcq","Che funzione ha la minimizzazione in \"Il terremoto ha causato... alcuni danni minori\" quando in realtà è stato devastante?",["Attenua deliberatamente la gravità per creare un effetto ironico o critico.","Descrive la situazione in modo completamente letterale e preciso.","Esagera la portata dell'evento.","Elimina ogni possibile interpretazione ironica."],0,"La minimizzazione contrasta la reale portata con una descrizione ridotta, generando ironia."],
+      ["writing","Scrivi in italiano un breve commento (50-70 parole) con ironia sottile su una situazione quotidiana fastidiosa (il traffico, una lunga fila, ecc.), senza insulti né linguaggio esplicito.",[],["che fortuna","fantastico","certo"],"L'ironia deve notarsi dal contrasto tra il tono positivo e la situazione negativa, non affermandolo direttamente."]
+    ]
+  },
 ];
