@@ -67,9 +67,20 @@ function getElevenKey(){
    false si no hay key o la petición falló (para que el llamador use el
    fallback de Web Speech API). `onend` se llama cuando el audio termina
    (o falla a mitad de reproducción, para no dejar la UI colgada). */
+// Evita spamear al usuario: solo un aviso de fallo por sesión de página.
+let _elevenWarnedThisSession = false;
+function _warnElevenFailure(detail){
+  console.error('[Drakón][ElevenLabs] Falló la síntesis de voz, usando fallback nativo:', detail);
+  if(_elevenWarnedThisSession) return;
+  _elevenWarnedThisSession = true;
+  if(typeof showToast === 'function'){
+    showToast('⚠️ La voz de ElevenLabs falló (revisa tu API key/cuota/voice_id). Usando voz del navegador.');
+  }
+}
+
 async function _elevenSpeak(text, voice, onend){
   const key = getElevenKey();
-  if(!key || !text) return false;
+  if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
   try{
     const r = await fetch(`${ELEVEN_API_URL}/${voice.voiceId}`, {
       method:'POST',
@@ -91,7 +102,17 @@ async function _elevenSpeak(text, voice, onend){
       }),
       signal: AbortSignal.timeout(20000),
     });
-    if(!r.ok) return false; // key inválida, sin cuota, voice_id inexistente, etc.
+    if(!r.ok){
+      // Sí había key configurada pero la petición falló: esto es lo que hace
+      // que "las voces no cambien" (cae siempre a la voz nativa del navegador,
+      // que es la misma para todos los personajes). Lo hacemos visible en vez
+      // de fallar en silencio, para poder diagnosticar (401 = key inválida,
+      // 404 = voice_id no existe en esta cuenta, 429 = sin cuota, etc.)
+      let bodyText = '';
+      try{ bodyText = await r.text(); }catch(e){}
+      _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voice.voiceId}) — ${bodyText.slice(0,300)}`);
+      return false;
+    }
 
     const blob = await r.blob();
     const url  = URL.createObjectURL(blob);
@@ -104,6 +125,7 @@ async function _elevenSpeak(text, voice, onend){
     await audioEl.play();
     return true;
   } catch(e){
+    _warnElevenFailure(e && e.message ? e.message : e);
     return false;
   }
 }
