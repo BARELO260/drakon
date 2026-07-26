@@ -466,27 +466,12 @@ const LessonEngine = {
     const label = document.getElementById('exListenLabel'); if (label) label.textContent = 'REPRODUCIENDO…';
 
     const langTag = (typeof state !== 'undefined' && state.lang && state.lang.lang) || 'en-US';
-    const RV_VOICES = {
-      'en-US': 'US English Female', 'es-ES': 'Spanish Female', 'fr-FR': 'French Female',
-      'de-DE': 'Deutsch Female', 'it-IT': 'Italian Female', 'pt-BR': 'Brazilian Portuguese Female',
-    };
     const onEnd = () => this._listenAudioEnd();
 
-    if (window.responsiveVoice && responsiveVoice.voiceSupport() && RV_VOICES[langTag]) {
-      responsiveVoice.cancel();
-      responsiveVoice.speak(st.audio, RV_VOICES[langTag], { rate: 0.92, onend: onEnd, onerror: onEnd });
-    } else if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utt = new SpeechSynthesisUtterance(st.audio);
-      utt.lang = langTag; utt.rate = 0.92;
-      const voices = window.speechSynthesis.getVoices();
-      const prefix = langTag.split('-')[0];
-      const voice = voices.find(v => v.lang === langTag && !v.localService)
-                 || voices.find(v => v.lang.startsWith(prefix) && !v.localService)
-                 || voices.find(v => v.lang.startsWith(prefix));
-      if (voice) utt.voice = voice;
-      utt.onend = utt.onerror = onEnd;
-      window.speechSynthesis.speak(utt);
+    // Motor de voz compartido (js/tts-eleven.js): ElevenLabs con fallback
+    // automático a Web Speech API si no hay API key configurada o falla.
+    if (typeof ttsSpeakPhrase === 'function') {
+      ttsSpeakPhrase(st.audio, langTag, 0.92, onEnd);
     } else {
       if (typeof showToast === 'function') showToast('⚠️ Tu navegador no soporta síntesis de voz');
       setTimeout(onEnd, 1200);
@@ -709,8 +694,7 @@ const LessonEngine = {
 
   /* ── Siguiente ejercicio ────────────── */
   nextExercise() {
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
-    if (window.responsiveVoice) responsiveVoice.cancel();
+    if (typeof ttsStopAll === 'function') ttsStopAll();
     this._listenVizStop();
 
     if (this.lives <= 0) {
@@ -949,8 +933,7 @@ function exitEx() {
   if (LessonEngine.currentIdx > 0 && LessonEngine.currentIdx < LessonEngine.exercises.length) {
     if (!confirm('¿Salir de la lección? Perderás el progreso de esta sesión.')) return;
   }
-  if (window.speechSynthesis) window.speechSynthesis.cancel();
-  if (window.responsiveVoice) responsiveVoice.cancel();
+  if (typeof ttsStopAll === 'function') ttsStopAll();
   LessonEngine._listenVizStop();
   goTo('screen-main');
   switchTab('lessons');
