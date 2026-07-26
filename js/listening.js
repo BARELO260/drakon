@@ -14,12 +14,8 @@ const ListeningProbe = (() => {
 
   const ROUNDS = 8;
 
-  /* Voces de ResponsiveVoice por idioma (mismo mapa que usa
-     js/audio.js para el resto de la app) */
-  const RV_VOICES = {
-    'en-US':'US English Female', 'es-ES':'Spanish Female', 'fr-FR':'French Female',
-    'de-DE':'Deutsch Female', 'it-IT':'Italian Female', 'pt-BR':'Brazilian Portuguese Female',
-  };
+  /* Motor de voz: ElevenLabs (neuronal, con fallback nativo) — ver
+     js/tts-eleven.js, compartido con index.html. */
 
   /* ── Estado ─────────────────────────────────────────── */
   let st = {};
@@ -56,8 +52,7 @@ const ListeningProbe = (() => {
   function start() {
     GameSession.currentGame = 'listening';
     _reset();
-    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-    if (window.responsiveVoice) responsiveVoice.cancel();
+    if (typeof ttsStopAll === 'function') ttsStopAll();
 
     const langMeta = DrakonBridge.getLang();
     st.langCode = langMeta.code;
@@ -175,31 +170,15 @@ const ListeningProbe = (() => {
     _set('lpPlayIcon','⏸');
     _set('lpPlayLabel','REPRODUCIENDO…');
 
-    const rvVoice = RV_VOICES[st.langTag];
-    if (window.responsiveVoice && responsiveVoice.voiceSupport() && rvVoice) {
-      responsiveVoice.cancel();
-      responsiveVoice.speak(q.audio, rvVoice, { rate:st.rate, onend:_audioEnd, onerror:_audioEnd });
-      st.played=true;
-    } else if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utt=new SpeechSynthesisUtterance(q.audio);
-      utt.lang=st.langTag; utt.rate=st.rate; utt.pitch=1; utt.volume=1;
-
-      /* Usar voz nativa si existe para este idioma */
-      const voices=window.speechSynthesis.getVoices();
-      const prefix=st.langTag.split('-')[0];
-      const voice=voices.find(v=>v.lang===st.langTag && !v.localService)
-                ||voices.find(v=>v.lang.startsWith(prefix)&&!v.localService)
-                ||voices.find(v=>v.lang.startsWith(prefix));
-      if (voice) utt.voice=voice;
-
-      utt.onend=utt.onerror=_audioEnd;
-      window.speechSynthesis.speak(utt);
-      st.played=true;
+    // Motor de voz compartido (js/tts-eleven.js): ElevenLabs con fallback
+    // automático a Web Speech API si no hay API key configurada o falla.
+    if (typeof ttsSpeakPhrase === 'function') {
+      ttsSpeakPhrase(q.audio, st.langTag, st.rate, _audioEnd);
+      st.played = true;
     } else {
       GamesCore.toast('⚠️ Tu navegador no soporta síntesis de voz', 3000);
       setTimeout(_audioEnd, 2200);
-      st.played=true;
+      st.played = true;
     }
   }
 
@@ -222,8 +201,7 @@ const ListeningProbe = (() => {
       return;
     }
     _vizStop();
-    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-    if (window.responsiveVoice) responsiveVoice.cancel();
+    if (typeof ttsStopAll === 'function') ttsStopAll();
     st.answered=true;
 
     const q=st.questions[st.idx];
@@ -257,8 +235,7 @@ const ListeningProbe = (() => {
 
   /* ── Fin ─────────────────────────────────────────────── */
   function _finish() {
-    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-    if (window.responsiveVoice) responsiveVoice.cancel();
+    if (typeof ttsStopAll === 'function') ttsStopAll();
     _vizStop();
     GameSession.currentGame=null;
     const pct=Math.round((st.correct/st.questions.length)*100);
