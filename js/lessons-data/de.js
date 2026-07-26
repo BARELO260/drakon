@@ -665,4 +665,151 @@ window.LESSON_BANKS.DE = [
       ["speaking","Analysiere in 50-70 Wörtern einen überzeugenden Satz deiner Wahl: identifiziere eine Präsupposition, ein wertendes Wort und eine angemessene Schlussfolgerung.",[],["setzt voraus","Sprache","Schlussfolgerung"],"Es reicht nicht, zuzustimmen oder abzulehnen: erkläre, wie die Sprache die Interpretation lenkt.","Beispielsatz: „Es ist Zeit, dieser veralteten Praxis ein Ende zu setzen.“"]
     ]
   },
+  {
+    id:"de_a1_dates_time", level:"A1", title:"Daten, Wochentage und Monate", emoji:"📅", xp:35,
+    description:"Lerne die Wochentage, die Monate und wie man auf Deutsch über Daten spricht.",
+    study: {
+      vocab: [
+        ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
+        ["Januar, Februar, März... Dezember", "January, February, March... December"],
+        ["Welcher Tag ist heute?", "What day is it today?"],
+        ["Heute ist der 5. Mai.", "Today is May 5th.", "Auf Deutsch: \"der\" + Ordnungszahl + Monat."],
+        ["Wann hast du Geburtstag?", "When is your birthday?"]
+      ],
+      grammar: [
+        ["Präposition \"am\" mit Wochentagen", "Mit Wochentagen und Daten benutzt man \"am\".", "Am Montag habe ich einen Termin. Ich gehe am Montag ins Fitnessstudio."]
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man \"Wednesday\" auf Deutsch?",["Mittwoch","Dienstag","Donnerstag","Freitag"],0,"\"Mittwoch\" ist der dritte Tag der Woche auf Deutsch."],
+      ["mcq","Wie fragt man richtig, welcher Tag heute ist?",["Welcher Tag ist heute?","Wie spät ist heute?","Wie alt bist du heute?","Wo wohnst du heute?"],0,"\"Welcher Tag ist heute?\" fragt nach dem Wochentag oder Datum."],
+      ["fill","Ergänze: \"Mein Geburtstag ist ___ 10. März.\"",["am","im","um","an"],0,"Mit einem genauen Datum benutzt man \"am\": \"am 10. März\"."],
+      ["translate","Übersetze: \"Today is Monday.\"",["Heute ist Montag.","Heute ist Dienstag.","Gestern war Montag.","Heute ist ein Montag."],0,"\"Today is Monday\" = \"Heute ist Montag\", ohne Artikel vor dem Wochentag."],
+      ["arrange","Bringe in die richtige Reihenfolge: [gehe / Montag / ich / Fitnessstudio / am / ins]",["Ich gehe am Montag ins Fitnessstudio","Am Montag gehe ich ins Fitnessstudio","Ins Fitnessstudio gehe ich am Montag","Ich am Montag gehe ins Fitnessstudio"],0,"Subjekt + Verb + Zeitangabe + Ort: \"Ich gehe am Montag ins Fitnessstudio.\" oder \"Am Montag gehe ich ins Fitnessstudio.\" (beide korrekt, hier wählen wir Variante mit Subjekt zuerst)."],
+      ["writing","Schreibe 3 Sätze (20-30 Wörter) auf Deutsch über deine Woche: welcher Tag heute ist, wann dein Geburtstag ist, und was du an einem bestimmten Tag machst.",[],["heute","Geburtstag","am"],"Verwende mindestens einen Wochentag und einen Monat. Achte auf die Präposition \"am\"."]
+    ]
+  },
+  {
+    id:"de_a2_directions_transport", level:"A2", title:"In der Stadt: Wegbeschreibung und Verkehrsmittel", emoji:"🧭", xp:42,
+    description:"Frage nach dem Weg, gib Wegbeschreibungen und sprich über Verkehrsmittel auf Deutsch.",
+    study: {
+      vocab: [
+        ["Wie komme ich zu...?", "How do I get to...?"],
+        ["Gehen Sie geradeaus / Biegen Sie links / rechts ab", "Go straight ahead / Turn left / right"],
+        ["die Bushaltestelle, der Bahnhof", "the bus stop, the train station"],
+        ["Es ist zwei Straßen von hier entfernt.", "It's two blocks from here."],
+        ["Wie lange dauert es, dorthin zu kommen?", "How long does it take to get there?"]
+      ],
+      grammar: [
+        ["Der Imperativ für Wegbeschreibungen", "Für Anweisungen benutzt man den Imperativ (Sie/du).", "Gehen Sie geradeaus und biegen Sie an der Ampel rechts ab."]
+      ]
+    },
+    ex:[
+      ["mcq","Du möchtest zum Museum. Was fragst du?",["Wie komme ich zum Museum?","Wie spät ist das Museum?","Wem gehört das Museum?","Wie viel kostet der Bus?"],0,"\"Wie komme ich zu...?\" ist die Standardfrage, um nach dem Weg zu fragen."],
+      ["mcq","Jemand sagt dir: \"Gehen Sie geradeaus und biegen Sie am Platz links ab.\" Was machst du zuerst?",["Geradeaus gehen.","Rechts abbiegen.","Den Bus nehmen.","Noch einmal fragen."],0,"\"Gehen Sie geradeaus\" ist die erste Anweisung; das Abbiegen kommt danach."],
+      ["fill","Ergänze: \"Der Bahnhof ___ zwei Straßen von hier entfernt.\"",["ist","sind","hat","macht"],0,"\"Ist\" stimmt mit dem Singular \"der Bahnhof\" überein: \"Der Bahnhof ist zwei Straßen von hier entfernt.\""],
+      ["translate","Übersetze: \"Turn right at the traffic light.\"",["Biegen Sie an der Ampel rechts ab.","Biegen Sie am Platz links ab.","Gehen Sie an der Ampel geradeaus.","Halten Sie an der Ampel."],0,"\"Turn right\" = \"rechts abbiegen\"; \"at the traffic light\" = \"an der Ampel\"."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Bus / nehmen / Haltestelle / den / an / der / Sie]",["Nehmen Sie den Bus an der Haltestelle","Der Bus nehmen Sie an der Haltestelle","An der Haltestelle nehmen Sie den Bus","Nehmen an der Haltestelle Sie den Bus"],0,"Verb + Objekt + Ortsangabe: \"Nehmen Sie den Bus an der Haltestelle.\""],
+      ["speaking","Erkläre auf Deutsch in 40-60 Wörtern, wie man von deinem Zuhause zu einem nahegelegenen Ort kommt. Benutze mindestens zwei Anweisungen und ein Verkehrsmittel.",[],["biegen","geradeaus","Minuten"],"Ordne die Erklärung: zuerst, dann, schließlich."]
+    ]
+  },
+  {
+    id:"de_b1_job_interview", level:"B1", title:"Arbeit: Vorstellungsgespräche und Berufsalltag", emoji:"💼", xp:60,
+    description:"Sprich über deine Berufserfahrung und beantworte Fragen im Vorstellungsgespräch auf Deutsch.",
+    study: {
+      vocab: [
+        ["Was machen Sie beruflich?", "What do you do for a living?"],
+        ["ich habe Erfahrung in...", "I have experience in..."],
+        ["meine Stärken / Schwächen", "my strengths / weaknesses"],
+        ["im Team arbeiten, Fristen einhalten", "to work as a team, to meet deadlines"],
+        ["ein Vollzeit- / Teilzeitvertrag", "a full-time / part-time contract"]
+      ],
+      grammar: [
+        ["Perfekt für Erfahrung", "Man benutzt das Perfekt, um über berufliche Erfahrung zu sprechen, ohne den genauen Zeitpunkt zu nennen.", "Ich habe drei Jahre im Kundenservice gearbeitet."],
+        ["Konnektoren zum Strukturieren einer Antwort", "\"Einerseits... andererseits\" hilft, Vor- und Nachteile zu ordnen.", "Einerseits mag ich Teamarbeit, andererseits schätze ich etwas Autonomie."]
+      ]
+    },
+    ex:[
+      ["mcq","Im Vorstellungsgespräch wirst du gefragt: \"Was machen Sie beruflich?\". Was ist eine passende Antwort?",["Ich arbeite als Grafikdesigner in einer Agentur.","Ja, danke, sehr gut.","Ich bin fünfundzwanzig Jahre alt.","Ich wohne in der Innenstadt."],0,"\"Was machen Sie beruflich?\" fragt nach deinem Beruf."],
+      ["mcq","Welche Antwort beschreibt eine Stärke am professionellsten?",["Ich bin gut darin, Projekte zu organisieren und Fristen einzuhalten.","Ich bin zweifellos der Beste von allen.","Ich habe keine Schwächen.","Ich arbeite, wann ich Lust habe."],0,"Eine gute Antwort ist konkret und überprüfbar, ohne zu übertreiben."],
+      ["fill","Ergänze: \"Ich ___ zwei Jahre im Verkauf gearbeitet.\"",["habe","bin","ist","sind"],0,"\"Ich habe gearbeitet\" (Perfekt) beschreibt relevante Berufserfahrung."],
+      ["translate","Übersetze: \"I have experience working in a team.\"",["Ich habe Erfahrung in der Teamarbeit.","Ich habe Erfahrung Team arbeiten.","Team ich habe Erfahrung Arbeit.","Ich habe Erfahrung arbeiten Team ist."],0,"\"I have experience working in a team\" = \"Ich habe Erfahrung in der Teamarbeit.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [arbeite / gern / im / ich / Team]",["Ich arbeite gern im Team","Gern arbeite ich im Team","Im Team arbeite ich gern","Arbeite ich gern im Team"],0,"Subjekt + Verb + \"gern\" + Ort: \"Ich arbeite gern im Team.\""],
+      ["writing","Schreibe auf Deutsch eine Antwort von 45-65 Wörtern auf die Frage \"Warum möchten Sie diese Stelle?\". Erwähne deine Erfahrung, eine Stärke und deine Motivation.",[],["Erfahrung","weil","ich möchte"],"Struktur: relevante Erfahrung + Stärke + konkrete Motivation.","Vorstellungsgespräch für eine Stelle im Kundenservice."]
+    ]
+  },
+  {
+    id:"de_b2_media_literacy", level:"B2", title:"Medien: Nachrichten analysieren", emoji:"📰", xp:78,
+    description:"Unterscheide Fakten von Meinungen und bewerte die Glaubwürdigkeit einer Nachricht auf Deutsch.",
+    study: {
+      vocab: [
+        ["eine zuverlässige / unzuverlässige Quelle", "a reliable / unreliable source"],
+        ["laut Quellen, die dem Fall nahestehen", "according to sources close to the case"],
+        ["eine reißerische Schlagzeile", "a sensationalist headline"],
+        ["Informationen gegenprüfen", "to cross-check information"],
+        ["eine überprüfte Tatsache, eine Meinung", "a verified fact, an opinion"]
+      ],
+      grammar: [
+        ["Zuschreibungsverben", "\"Laut\", \"behauptet, dass\", \"weist darauf hin, dass\" zeigen, woher eine Aussage stammt und wie sicher sie ist.", "Laut dem Bericht stiegen die Verkäufe um 10 %."],
+        ["Fakt und Meinung unterscheiden", "Ein Fakt lässt sich überprüfen; eine Meinung drückt ein Werturteil aus.", "Der Artikel behauptet (Meinung), die Maßnahme werde 'zweifellos' scheitern, obwohl die Daten (Fakt) noch vorläufig sind."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze ist eine überprüfbare Tatsache, keine Meinung?",["Der Bericht zeigt, dass die Arbeitslosigkeit in diesem Quartal um 2 % gesunken ist.","Diese Politik ist eindeutig eine Katastrophe.","Jeder weiß, dass diese Maßnahme nicht funktionieren wird.","Es ist offensichtlich, dass die Regierung falsch liegt."],0,"Eine überprüfbare Tatsache zitiert eine Quelle und konkrete Daten, ohne Werturteil."],
+      ["mcq","Schlagzeile: „Totales Chaos! Stadt am Rande des Zusammenbruchs nach neuer Regel.“ Was legt der Stil der Schlagzeile nahe?",["Sie zielt auf emotionale Wirkung statt präzise Information ab.","Es ist eine neutrale, objektive Zusammenfassung der Fakten.","Sie zitiert eine überprüfbare offizielle Quelle.","Sie enthält kein Werturteil."],0,"Die übertriebene Sprache (\"totales Chaos\", \"am Rande des Zusammenbruchs\") ist typisch für Sensationsjournalismus."],
+      ["fill","Ergänze: \"___ Quellen, die dem Projekt nahestehen, wird die Einführung um einen Monat verzögert.\"",["Laut","Obwohl","Weil","Jedoch"],0,"\"Laut\" führt die Quelle einer Information ein und zeigt, dass sie nicht vom Medium selbst bestätigt wurde."],
+      ["translate","Übersetze: \"It is important to cross-check information before sharing it.\"",["Es ist wichtig, Informationen gegenzuprüfen, bevor man sie teilt.","Es ist wichtig, Informationen zu teilen, bevor man sie prüft.","Es ist wichtig Information teilen wichtig.","Gegenprüfen ist Informationen wichtig teilen davor."],0,"\"Cross-check information\" = \"Informationen gegenprüfen\"; \"before sharing it\" = \"bevor man sie teilt\"."],
+      ["mcq","Ein Artikel sagt: „Experten warnen, dass die Zahl überschätzt sein könnte.“ Welchen Grad an Sicherheit vermittelt das?",["Eine begründete Möglichkeit, keine absolute Gewissheit.","Eine vollständige, bestätigte Gewissheit.","Eine persönliche Meinung des Journalisten ohne jede Quelle.","Eine bereits mit endgültigen Daten bewiesene Tatsache."],0,"\"Könnte sein\" zeigt Wahrscheinlichkeit an, keine kategorische Behauptung."],
+      ["writing","Schreibe auf Deutsch eine Analyse von 55-75 Wörtern über eine Nachricht (real oder erfunden): identifiziere eine überprüfbare Tatsache, eine Meinung und bewerte, wie glaubwürdig dir die Quelle erscheint.",[],["laut","Tatsache","Meinung"],"Trenne klar, was ein zitiertes Datum ist und was eine Wertung des Autors."]
+    ]
+  },
+  {
+    id:"de_c1_figurative_language", level:"C1", title:"Bildliche Sprache und Redewendungen", emoji:"🗯️", xp:88,
+    description:"Interpretiere gängige Redewendungen und Metaphern im Deutschen.",
+    study: {
+      vocab: [
+        ["ein Vermögen kosten", "to cost an arm and a leg"],
+        ["zwischen Baum und Borke stecken", "to be between a rock and a hard place"],
+        ["jemanden auf den Arm nehmen", "to pull someone's leg"],
+        ["kein Blatt vor den Mund nehmen", "to not mince words"],
+        ["sich am Riemen reißen", "to get one's act together"]
+      ],
+      grammar: [
+        ["Redewendungen im Kontext interpretieren", "Die Bedeutung einer Redewendung ist fast nie wörtlich; man muss sie aus dem Kontext erschließen.", "\"Diese Reise hat ein Vermögen gekostet\" spricht nicht von echtem Vermögen, sondern von sehr hohen Kosten."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Dieses Auto hat ein Vermögen gekostet.\" Was bedeutet der Ausdruck?",["Es war sehr teuer.","Es war sehr billig.","Das Auto wurde beschädigt.","Es hatte einen Unfall."],0,"\"Ein Vermögen kosten\" bedeutet, dass etwas sehr teuer war."],
+      ["mcq","Jemand sagt: \"Ich stecke bei dieser Entscheidung zwischen Baum und Borke.\" Was drückt das aus?",["Die Person steht vor zwei schwierigen Optionen ohne bequemen Ausweg.","Die Person fühlt sich völlig ruhig bei ihrer Entscheidung.","Die Person hat keine Optionen zu bedenken.","Die Person hat die Entscheidung bereits ohne Zweifel getroffen."],0,"Der Ausdruck beschreibt eine Situation ohne eindeutig gute Option."],
+      ["fill","Ergänze: \"Hör auf, mich auf den ___ zu nehmen, ich weiß, dass es nicht wahr ist.\"",["Arm","Fuß","Kopf","Rücken"],0,"\"Jemanden auf den Arm nehmen\" bedeutet, jemanden auf harmlose Weise zu necken oder zu täuschen."],
+      ["translate","Übersetze natürlich (nicht wörtlich): \"She doesn't mince her words.\"",["Sie nimmt kein Blatt vor den Mund.","Sie hat kein Blatt vor dem Mund.","Ihr Mund hat kein Blatt.","Sie niemals Blatt Mund nehmen."],0,"\"To not mince words\" entspricht \"kein Blatt vor den Mund nehmen\" im Deutschen."],
+      ["mcq","In welchem Kontext passt \"sich am Riemen reißen\" am besten?",["Jemanden ermutigen, sich zusammenzureißen und fokussierter zu handeln.","Erklären, wie man ein elektronisches Gerät auflädt.","Das Wetter einer Stadt beschreiben.","Sich formell entschuldigen."],0,"\"Sich am Riemen reißen\" ist ein umgangssprachlicher Ausdruck, um jemanden zur Disziplin zu ermutigen."],
+      ["speaking","Wähle eine Redewendung aus dieser Lektion und erkläre in 45-65 Wörtern, in welcher Situation du sie benutzen würdest, und was sie wörtlich gegenüber ihrer wirklichen Bedeutung heißt.",[],["bedeutet","Situation","wörtlich"],"Unterscheide klar zwischen der wörtlichen Bedeutung (manchmal absurd) und der tatsächlichen idiomatischen Bedeutung."]
+    ]
+  },
+  {
+    id:"de_c2_irony_humor", level:"C2", title:"Ironie, Humor und bewusste Mehrdeutigkeit", emoji:"😏", xp:94,
+    description:"Erkenne Ironie, Sarkasmus und beabsichtigte Mehrdeutigkeit im fortgeschrittenen Deutsch.",
+    study: {
+      vocab: [
+        ["Na, so ein Glück!", "Just my luck! (ironisch)"],
+        ["in bester Absicht (ironisch)", "with the best of intentions (ironic)"],
+        ["ein Doppelsinn", "a double meaning"],
+        ["etwas mit spöttischem Unterton sagen", "to say something with a sarcastic tone"],
+        ["etwas bewusst untertreiben", "to understate something"]
+      ],
+      grammar: [
+        ["Marker der Ironie", "Ironie zeigt sich meist durch Kontext, Betonung oder einen klaren Gegensatz zwischen Gesagtem und Realität, nicht durch explizite Worte.", "\"Wie pünktlich du bist!\" zu jemandem gesagt, der eine Stunde zu spät kommt, ist wegen des Kontrasts ironisch."],
+        ["Bewusste Mehrdeutigkeit", "Manchmal wählt man absichtlich eine mehrdeutige Formulierung, um sich nicht ganz festzulegen.", "\"Man könnte sagen, das Projekt hatte... interessante Ergebnisse.\""]
+      ]
+    },
+    ex:[
+      ["mcq","Jemand kommt eine Stunde zu spät, und eine andere Person sagt: \"Wie pünktlich du bist!\". Was wird wirklich ausgedrückt?",["Das Gegenteil dessen, was gesagt wird: die Person war sehr spät.","Ein aufrichtiges Kompliment zur Pünktlichkeit.","Eine Frage nach der Uhrzeit.","Eine Entschuldigung für die eigene Verspätung."],0,"Der Kontrast zwischen dem Gesagten und der offensichtlichen Realität ist das typische Merkmal von Ironie."],
+      ["mcq","\"In bester Absicht sagte er das Treffen ab, ohne jemanden zu informieren.\" Welche Nuance bringt \"in bester Absicht\" hier?",["Einen ironischen Ton: er zeigt, dass die Handlung nicht wirklich durchdacht war.","Ein aufrichtiges Lob für die Person.","Eine wörtliche, neutrale Erklärung des Ereignisses.","Eine formelle Entschuldigung des Erzählers."],0,"Der Kontrast zwischen der Aussage und der Handlung (absagen ohne zu informieren) erzeugt einen ironischen Effekt."],
+      ["fill","\"Man könnte sagen, das Projekt hatte... ___ Ergebnisse.\" (bewusste Mehrdeutigkeit, ohne sich festzulegen)",["interessante","exzellente","katastrophale","perfekte"],0,"\"Interessante\" ist bewusst mehrdeutig: es bestätigt oder verneint den Erfolg des Projekts nicht."],
+      ["translate","Übersetze mit derselben ironischen Nuance: \"Genial, otro lunes.\" (mit Verdruss gesagt)",["Toll, schon wieder Montag.","Montag ist ein toller Tag.","Was für eine Freude, es ist Freitag.","Ich hasse Montage total."],0,"Der ironische Ton bleibt erhalten mit \"Toll\", gefolgt von etwas objektiv wenig Aufregendem."],
+      ["mcq","Welche Funktion hat die Untertreibung in „Das Erdbeben verursachte... einige kleinere Schäden“, wenn es in Wirklichkeit verheerend war?",["Sie mildert bewusst den Ernst, um einen ironischen oder kritischen Effekt zu erzeugen.","Sie beschreibt die Situation völlig wörtlich und präzise.","Sie übertreibt das Ausmaß des Ereignisses.","Sie schließt jede ironische Interpretation aus."],0,"Die Untertreibung kontrastiert das reale Ausmaß mit einer minimierten Beschreibung und erzeugt so Ironie."],
+      ["writing","Schreibe auf Deutsch einen kurzen Kommentar (50-70 Wörter) mit feiner Ironie über eine lästige Alltagssituation (Stau, lange Warteschlange usw.), ohne Beleidigungen oder explizite Sprache.",[],["so ein glück","toll","natürlich"],"Die Ironie sollte durch den Kontrast zwischen positivem Ton und negativer Situation erkennbar sein, nicht durch direkte Aussage."]
+    ]
+  },
 ];
