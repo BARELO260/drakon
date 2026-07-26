@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════
-   audio.js — mic, Web Speech API, Whisper, TTS, ResponsiveVoice
-   Dependencias: state.js, data.js
+   audio.js — mic, Web Speech API, Whisper, TTS (ElevenLabs)
+   Dependencias: state.js, data.js, js/tts-eleven.js (motor de voz)
    Usado por: ai.js, lessons.js
    NOTA: No modificar los prompts internos de voz sin revisar CHAR_VOICE
 ═══════════════════════════════════════ */
@@ -442,56 +442,51 @@ function resetMicUI(){
 }
 
 /* ═══════════════════════════════════════
-   TTS — ResponsiveVoice (proper accents) + Web Speech fallback
+   TTS — ElevenLabs (voces neuronales con personalidad) + Web Speech fallback
+   El motor real vive en js/tts-eleven.js (compartido con games.html);
+   aquí solo definimos QUÉ voz y personalidad usa cada personaje.
 ═══════════════════════════════════════ */
 let ttsActive = false;
 
-// ResponsiveVoice names per language code
-// Native language voice mapping for ResponsiveVoice
-// Personalidad de voz por personaje: {gender, rate, pitch, volume}
-// gender 'M' = Male voice, 'F' = Female voice
-// Cada personaje suena distinto usando los parámetros del sintetizador
+// Personalidad de voz por personaje: voiceId real de ElevenLabs + parámetros
+// de expresividad. `stability` baja = más emocional/variable, alta = más
+// consistente/monótono. `style` alto = más exagerado/caracterizado.
+// `speed` = velocidad relativa (0.7–1.2 aprox., recomendado por ElevenLabs).
+// gender 'M'/'F' solo se usa para afinar el fallback de Web Speech API.
+//
+// Para usar voces distintas de tu propia cuenta de ElevenLabs, consulta
+// GET https://api.elevenlabs.io/v1/voices (con tu API key) y sustituye
+// el voiceId correspondiente.
 const CHAR_VOICE = {
   // 🐲 Drakón — dragón poderoso: grave y majestuoso, cadencia lenta pero clara.
-  dragon: { gender:'M', rate:0.82, pitch:0.72, volume:1    },
+  dragon: { voiceId:'VR6AEwLTigWG4xSOukaG', gender:'M', stability:0.75, style:0.30, speed:0.88 }, // Arnold
 
   // 🧙 Merlingo — mago sabio: solemne y pausado, cada palabra suena con peso.
-  wizard: { gender:'M', rate:0.78, pitch:0.82, volume:0.92 },
+  wizard: { voiceId:'ErXwobaYiN019PkySvjV', gender:'M', stability:0.72, style:0.18, speed:0.85 }, // Antoni
 
   // 🦊 Zorrek — zorro pícaro: ágil y animado, energético pero inteligible.
-  fox:    { gender:'M', rate:1.10, pitch:1.20, volume:1    },
+  fox:    { voiceId:'TxGEqnHWrfWFTfGW9XjX', gender:'M', stability:0.32, style:0.60, speed:1.12 }, // Josh
 
   // 🤖 Syntinator — robot analítico: ritmo uniforme y tono metálico neutro.
-  robot:  { gender:'M', rate:0.90, pitch:0.70, volume:1    },
+  robot:  { voiceId:'pNInz6obpgDQGcFmaJgB', gender:'M', stability:0.88, style:0.02, speed:0.95 }, // Adam
 
   // 👽 Marshal — alienígena: vivo y agudo, extraño pero comprensible.
-  alien:  { gender:'M', rate:1.10, pitch:1.35, volume:1    },
+  alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', gender:'M', stability:0.28, style:0.70, speed:1.15 }, // Sam
 
   // 🔥 Azhar — fénix inspirador: cálido, fluido y con lift natural.
-  phoenix:{ gender:'F', rate:0.95, pitch:1.20, volume:1    },
+  phoenix:{ voiceId:'EXAVITQu4vr4xnSDxMaL', gender:'F', stability:0.45, style:0.55, speed:0.98 }, // Bella
 
   // 🥷 Kenjiro — ninja: sereno y preciso, habla con control y claridad.
-  ninja:  { gender:'M', rate:0.85, pitch:0.88, volume:0.88 },
+  ninja:  { voiceId:'VR6AEwLTigWG4xSOukaG', gender:'M', stability:0.85, style:0.08, speed:0.90 }, // Arnold (más contenido)
 
-  // 🐼 Bao — panda zen: suave y tranquilo, volumen más bajo pero audible.
-  panda:  { gender:'F', rate:0.80, pitch:1.05, volume:0.82 },
+  // 🐼 Bao — panda zen: suave y tranquilo, ritmo pausado.
+  panda:  { voiceId:'21m00Tcm4TlvDq8ikWAM', gender:'F', stability:0.80, style:0.10, speed:0.85 }, // Rachel
 
-  // 🦈 Barón Tritón — caballero: resonante y formal, pitch bajo pero legible.
-  triton: { gender:'M', rate:0.82, pitch:0.75, volume:1    },
+  // 🦈 Barón Tritón — caballero: resonante y formal, pero legible.
+  triton: { voiceId:'ErXwobaYiN019PkySvjV', gender:'M', stability:0.78, style:0.15, speed:0.88 }, // Antoni (más formal)
 
   // 🎵 Axónic — DJ ajolote: energético y chispeante, rápido pero claro.
-  axonic: { gender:'F', rate:1.15, pitch:1.30, volume:1    },
-};
-
-const TARGET_RV_VOICES = {
-  'en-US': 'US English Female',
-  'en-GB': 'UK English Female',
-  'es-ES': 'Spanish Female',
-  'es-MX': 'Spanish Latin American Female',
-  'fr-FR': 'French Female',
-  'de-DE': 'Deutsch Female',
-  'it-IT': 'Italian Female',
-  'pt-BR': 'Brazilian Portuguese Female',
+  axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', gender:'F', stability:0.30, style:0.70, speed:1.15 }, // Domi
 };
 
 // Translate text to the target language using Groq, then speak it
@@ -531,39 +526,19 @@ async function translateAndSpeak(cleanText){
 
 function speak(text, langCode){
   const targetLang = langCode || state.lang?.lang || 'en-US';
-  const bcp47Map   = {'en-US':'en-US','en-GB':'en-GB','es-ES':'es-ES','es-MX':'es-MX','fr-FR':'fr-FR','de-DE':'de-DE','it-IT':'it-IT','pt-BR':'pt-BR'};
+  const bcp47      = TTS_BCP47_MAP[targetLang] || targetLang;
 
   // Obtener personalidad de voz del personaje actual
-  const cv = CHAR_VOICE[state.charId] || { gender:'F', rate:0.9, pitch:1, volume:1 };
+  const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
 
-  // Construir nombre de voz ResponsiveVoice según género del personaje
-  const baseVoice  = TARGET_RV_VOICES[targetLang] || 'US English Female';
-  // Cambiar Female→Male o Male→Female según el personaje
-  const charVoice  = cv.gender === 'M'
-    ? baseVoice.replace('Female','Male')
-    : baseVoice.replace('Male','Female');
-
-  if(window.responsiveVoice && responsiveVoice.voiceSupport()){
-    responsiveVoice.cancel();
-    responsiveVoice.speak(text, charVoice, {
-      rate:   cv.rate,
-      pitch:  cv.pitch,
-      volume: cv.volume
-    });
-  } else if(window.speechSynthesis){
-    window.speechSynthesis.cancel();
-    const utt = new SpeechSynthesisUtterance(text);
-    utt.lang   = bcp47Map[targetLang] || targetLang;
-    utt.rate   = cv.rate * 0.95;
-    utt.pitch  = cv.pitch;
-    utt.volume = cv.volume;
-    window.speechSynthesis.speak(utt);
-  }
+  // Motor real (ElevenLabs con fallback a Web Speech API) vive en
+  // js/tts-eleven.js — aquí solo le pasamos texto + personalidad + idioma.
+  ttsSpeakChar(text, cv, bcp47, null);
 }
 
 async function speakText(rawText){
   if(!state.ttsEnabled) return;
-  if(!window.responsiveVoice && !window.speechSynthesis) return;
+  if(!getElevenKey() && !window.speechSynthesis) return;
 
   // Clean text: strip correction lines, markdown, HTML, emojis, brackets, underscores
   const text = rawText
@@ -587,8 +562,7 @@ async function speakText(rawText){
 }
 
 function stopTTS(){
-  if(window.responsiveVoice) responsiveVoice.cancel();
-  if(window.speechSynthesis) window.speechSynthesis.cancel();
+  ttsStopAll();
 }
 
 function toggleTTS(){
