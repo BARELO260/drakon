@@ -28,6 +28,7 @@ const state = {
   lang:null, charId:'dragon', theme:'dark',
   nativeLang: null,
   groqKey: null,
+  elevenKey: null,
   quizDone: false,
   xp:0, streak:0, totalMessages:0,
   lastActiveDate:null,   // 'YYYY-MM-DD' local date
@@ -63,6 +64,7 @@ function load(){
     if(s.xp===undefined) return;
     Object.assign(state,s);
     loadGroqKey(); // double-layer: also check dedicated localStorage key
+    loadElevenKey(); // idem, para la key de ElevenLabs (TTS)
     const today=getLocalDate();
     // Streak: reset if last active was not yesterday or today
     if(state.lastActiveDate && state.lastActiveDate!==today && state.lastActiveDate!==getYesterday()){
