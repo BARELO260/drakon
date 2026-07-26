@@ -665,4 +665,151 @@ window.LESSON_BANKS.FR = [
       ["speaking","Analyse en 50-70 mots une phrase persuasive de ton choix : identifie un présupposé, un mot orienté et une inférence raisonnable.",[],["présuppose","langage","inférence"],"Il ne suffit pas d'être d'accord ou en désaccord : explique comment le langage oriente l'interprétation.","Phrase d'exemple : « Il est temps de mettre fin à cette pratique dépassée. »"]
     ]
   },
+  {
+    id:"fr_a1_dates_time", level:"A1", title:"Dates, jours et mois", emoji:"📅", xp:35,
+    description:"Apprends les jours de la semaine, les mois et comment parler des dates en français.",
+    study: {
+      vocab: [
+        ["lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
+        ["janvier, février, mars... décembre", "January, February, March... December"],
+        ["Quel jour sommes-nous aujourd'hui ?", "What day is it today?"],
+        ["Aujourd'hui, c'est le 5 mai.", "Today is May 5th.", "En français: \"le\" + numéro + mois, sans \"de\"."],
+        ["C'est quand, ton anniversaire ?", "When is your birthday?"]
+      ],
+      grammar: [
+        ["L'article avec les jours", "Les jours de la semaine s'écrivent en minuscule et utilisent \"le\" pour une habitude.", "Je vais à la salle de sport le lundi. (chaque lundi)"]
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on \"Wednesday\" en français ?",["Mercredi","Mardi","Jeudi","Vendredi"],0,"\"Mercredi\" est le troisième jour de la semaine en français."],
+      ["mcq","Quelle est la bonne façon de demander la date d'aujourd'hui ?",["Quel jour sommes-nous aujourd'hui ?","Quelle heure est-il ?","Quel âge as-tu ?","Où habites-tu ?"],0,"\"Quel jour sommes-nous ?\" sert à demander le jour ou la date."],
+      ["fill","Complète : \"Mon anniversaire est ___ 10 mars.\"",["le","la","en","les"],0,"Avec une date précise, on utilise \"le\" : \"le 10 mars\"."],
+      ["translate","Traduis : \"Today is Monday.\"",["Aujourd'hui, c'est lundi.","Aujourd'hui, c'est mardi.","Hier, c'était lundi.","Aujourd'hui, c'est un lundi."],0,"\"Today is Monday\" = \"Aujourd'hui, c'est lundi\", sans article devant le jour."],
+      ["arrange","Remets dans l'ordre : [salle / vais / je / lundi / la / à / de sport / le]",["Je vais à la salle de sport le lundi","Le lundi vais je à la salle de sport","À la salle de sport je vais le lundi","Je le lundi vais à la salle de sport"],0,"Sujet + verbe + complément + \"le lundi\" : \"Je vais à la salle de sport le lundi.\""],
+      ["writing","Écris 3 phrases (20-30 mots) en français sur ta semaine : quel jour on est, quand est ton anniversaire, et ce que tu fais un jour précis.",[],["aujourd'hui","anniversaire","le"],"Inclus au moins un jour de la semaine et un mois. Vérifie l'usage de \"le\"."]
+    ]
+  },
+  {
+    id:"fr_a2_directions_transport", level:"A2", title:"En ville : indications et transports", emoji:"🧭", xp:42,
+    description:"Demande et donne des indications, et parle des moyens de transport en français.",
+    study: {
+      vocab: [
+        ["Comment est-ce que je vais à... ?", "How do I get to...?"],
+        ["Continuez tout droit / Tournez à gauche / à droite", "Go straight ahead / Turn left / right"],
+        ["l'arrêt de bus, la gare", "the bus stop, the train station"],
+        ["C'est à deux rues d'ici.", "It's two blocks from here."],
+        ["Combien de temps ça prend pour y aller ?", "How long does it take to get there?"]
+      ],
+      grammar: [
+        ["L'impératif pour donner des indications", "Pour donner des instructions, on utilise l'impératif (vous/tu).", "Continuez tout droit et tournez à droite au feu."]
+      ]
+    },
+    ex:[
+      ["mcq","Tu veux aller au musée. Que demandes-tu ?",["Comment est-ce que je vais au musée ?","Quelle heure est le musée ?","À qui est le musée ?","Combien coûte le bus ?"],0,"\"Comment est-ce que je vais à...?\" est la question standard pour demander son chemin."],
+      ["mcq","Quelqu'un te dit : \"Continuez tout droit et tournez à gauche sur la place.\" Que dois-tu faire en premier ?",["Marcher tout droit.","Tourner à droite.","Prendre le bus.","Redemander."],0,"\"Continuez tout droit\" est la première instruction ; le virage vient après."],
+      ["fill","Complète : \"La gare ___ à deux rues d'ici.\"",["est","es","a","fait"],0,"\"Est\" s'accorde avec le sujet singulier \"la gare\" : \"La gare est à deux rues d'ici.\""],
+      ["translate","Traduis : \"Turn right at the traffic light.\"",["Tournez à droite au feu.","Tournez à gauche sur la place.","Continuez tout droit au feu.","Arrêtez-vous au feu."],0,"\"Turn right\" = \"Tournez à droite\" ; \"at the traffic light\" = \"au feu\"."],
+      ["arrange","Remets dans l'ordre : [bus / prenez / arrêt / le / à / l']",["Prenez le bus à l'arrêt","Le bus prenez à l'arrêt","À l'arrêt prenez le bus","Prenez à l'arrêt le bus"],0,"Verbe + objet + complément de lieu : \"Prenez le bus à l'arrêt.\""],
+      ["speaking","Explique en français, en 40-60 mots, comment aller de chez toi à un endroit proche. Utilise au moins deux indications et un moyen de transport.",[],["tournez","tout droit","minutes"],"Organise l'explication dans l'ordre : d'abord, ensuite, enfin."]
+    ]
+  },
+  {
+    id:"fr_b1_job_interview", level:"B1", title:"Le travail : entretiens et routine professionnelle", emoji:"💼", xp:60,
+    description:"Parle de ton expérience professionnelle et réponds à des questions d'entretien en français.",
+    study: {
+      vocab: [
+        ["Que faites-vous dans la vie ?", "What do you do for a living?"],
+        ["j'ai de l'expérience en...", "I have experience in..."],
+        ["mes points forts / faibles", "my strengths / weaknesses"],
+        ["travailler en équipe, respecter les délais", "to work as a team, to meet deadlines"],
+        ["un contrat à temps plein / partiel", "a full-time / part-time contract"]
+      ],
+      grammar: [
+        ["Le passé composé pour l'expérience", "On utilise le passé composé pour parler d'une expérience professionnelle passée.", "J'ai travaillé dans le service client pendant trois ans."],
+        ["Connecteurs pour structurer une réponse", "\"D'un côté... de l'autre\" aide à organiser avantages et inconvénients.", "D'un côté j'aime le travail d'équipe ; de l'autre, j'apprécie une certaine autonomie."]
+      ]
+    },
+    ex:[
+      ["mcq","En entretien, on te demande : \"Que faites-vous dans la vie ?\". Quelle est une réponse appropriée ?",["Je travaille comme graphiste dans une agence.","Oui, merci, très bien.","J'ai vingt-cinq ans.","J'habite au centre-ville."],0,"\"Que faites-vous dans la vie ?\" demande ta profession ou ton métier."],
+      ["mcq","Quelle réponse décrit le mieux un point fort de façon professionnelle ?",["Je suis doué pour organiser des projets et respecter les délais.","Je suis le meilleur de tous, sans aucun doute.","Je n'ai aucun point faible.","Je travaille quand j'en ai envie."],0,"Une bonne réponse est précise et vérifiable, sans exagération."],
+      ["fill","Complète : \"J'___ travaillé dans la vente pendant deux ans.\"",["ai","es","est","suis"],0,"\"J'ai travaillé\" (passé composé) décrit une expérience passée pertinente aujourd'hui."],
+      ["translate","Traduis : \"I have experience working in a team.\"",["J'ai de l'expérience en travail d'équipe.","J'ai expérience travail équipe.","Équipe j'ai de l'expérience travail.","J'ai de l'expérience travailler équipe est."],0,"\"I have experience working in a team\" = \"J'ai de l'expérience en travail d'équipe.\""],
+      ["arrange","Remets dans l'ordre : [aime / travailler / équipe / j' / en]",["J'aime travailler en équipe","Aime j'travailler en équipe","En équipe j'aime travailler","Travailler j'aime en équipe"],0,"\"J'aime\" + infinitif : \"J'aime travailler en équipe.\""],
+      ["writing","Écris en français une réponse d'entretien de 45-65 mots à la question \"Pourquoi voulez-vous ce poste ?\". Mentionne ton expérience, un point fort et ta motivation.",[],["expérience","parce que","j'aimerais"],"Structure : expérience pertinente + point fort + motivation concrète.","Entretien pour un poste dans le service client."]
+    ]
+  },
+  {
+    id:"fr_b2_media_literacy", level:"B2", title:"Médias : analyser les informations", emoji:"📰", xp:78,
+    description:"Distingue les faits des opinions et évalue la fiabilité d'une nouvelle en français.",
+    study: {
+      vocab: [
+        ["une source fiable / peu fiable", "a reliable / unreliable source"],
+        ["selon des sources proches du dossier", "according to sources close to the case"],
+        ["un titre sensationnaliste", "a sensationalist headline"],
+        ["recouper les informations", "to cross-check information"],
+        ["un fait vérifié, une opinion", "a verified fact, an opinion"]
+      ],
+      grammar: [
+        ["Verbes d'attribution", "\"Selon\", \"affirme que\", \"souligne que\" indiquent d'où vient une affirmation et son degré de certitude.", "Selon le rapport, les ventes ont augmenté de 10 %."],
+        ["Distinguer fait et opinion", "Un fait peut être vérifié ; une opinion exprime un jugement de valeur.", "L'article affirme (opinion) que la mesure va 'sans doute' échouer, alors que les données (fait) restent préliminaires."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases est un fait vérifiable, et non une opinion ?",["Le rapport montre que le chômage a baissé de 2 % ce trimestre.","Cette politique est clairement un désastre.","Tout le monde sait que cette mesure ne marchera pas.","Il est évident que le gouvernement a tort."],0,"Un fait vérifiable cite une source et une donnée concrète, sans jugement de valeur."],
+      ["mcq","Titre : « Chaos total ! La ville au bord de la crise après une nouvelle règle. » Que suggère le style du titre ?",["Il vise un impact émotionnel plutôt qu'une information précise.","C'est un résumé neutre et objectif des faits.","Il cite une source officielle vérifiable.","Il ne contient aucun jugement de valeur."],0,"Le langage exagéré (\"chaos total\", \"au bord de la crise\") est typique du sensationnalisme."],
+      ["fill","Complète : \"___ des sources proches du projet, le lancement sera retardé d'un mois.\"",["Selon","Bien que","Parce que","Cependant"],0,"\"Selon\" introduit la source d'une information, signalant qu'elle n'est pas confirmée par le média lui-même."],
+      ["translate","Traduis : \"It is important to cross-check information before sharing it.\"",["Il est important de recouper les informations avant de les partager.","Il est important de partager les informations avant de les vérifier.","Il est important information partager important.","Recouper c'est partager des informations importantes avant."],0,"\"Cross-check information\" = \"recouper les informations\" ; \"before sharing it\" = \"avant de les partager.\""],
+      ["mcq","Un article dit : « Les experts avertissent que le chiffre pourrait être surestimé. » Quel degré de certitude cela transmet-il ?",["Une possibilité raisonnable, pas une certitude absolue.","Une certitude totale et vérifiée.","Une opinion personnelle du journaliste sans aucune source.","Un fait déjà prouvé avec des données définitives."],0,"\"Pourrait être\" indique une probabilité, pas une affirmation catégorique."],
+      ["writing","Écris en français une analyse de 55-75 mots sur une nouvelle (réelle ou inventée) : identifie un fait vérifiable, une opinion, et évalue la fiabilité de la source.",[],["selon","fait","opinion"],"Sépare clairement ce qui est une donnée citée et ce qui est un jugement de l'auteur."]
+    ]
+  },
+  {
+    id:"fr_c1_figurative_language", level:"C1", title:"Langage figuré et expressions idiomatiques", emoji:"🗯️", xp:88,
+    description:"Interprète des expressions idiomatiques et des métaphores courantes en français.",
+    study: {
+      vocab: [
+        ["coûter les yeux de la tête", "to cost an arm and a leg"],
+        ["être entre le marteau et l'enclume", "to be between a rock and a hard place"],
+        ["se moquer de quelqu'un", "to pull someone's leg"],
+        ["ne pas mâcher ses mots", "to not mince words"],
+        ["se prendre en main", "to get one's act together"]
+      ],
+      grammar: [
+        ["Interpréter les expressions en contexte", "Le sens d'une expression idiomatique n'est presque jamais littéral ; il faut le déduire du contexte.", "\"Ce voyage m'a coûté les yeux de la tête\" ne parle pas d'yeux réels, mais d'une dépense très élevée."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Cette voiture m'a coûté les yeux de la tête.\" Que signifie l'expression ?",["Elle était très chère.","Elle était très bon marché.","La voiture a été endommagée.","Elle a eu un accident."],0,"\"Coûter les yeux de la tête\" signifie qu'une chose avait un prix très élevé."],
+      ["mcq","Quelqu'un dit : \"Je suis entre le marteau et l'enclume avec cette décision.\" Que transmet cette phrase ?",["La personne fait face à deux options difficiles, sans issue confortable.","La personne se sent totalement sereine à propos de sa décision.","La personne n'a aucune option à considérer.","La personne a déjà pris sa décision sans aucun doute."],0,"L'expression décrit une situation sans option clairement bonne."],
+      ["fill","Complète : \"Arrête de te ___ de moi, je sais que ce n'est pas vrai.\"",["moquer","rire","jouer","amuser"],0,"\"Se moquer de quelqu'un\" (dans ce sens léger) équivaut à \"to pull someone's leg\"."],
+      ["translate","Traduis de façon naturelle (pas littérale) : \"No tiene pelos en la lengua.\"",["Elle ne mâche pas ses mots.","Elle n'a pas de poils sur la langue.","Sa langue n'a pas de poils.","Elle jamais mâche mots pas."],0,"\"No tener pelos en la lengua\" équivaut à \"ne pas mâcher ses mots\" en français."],
+      ["mcq","Dans quel contexte \"se prendre en main\" conviendrait-il le mieux ?",["Encourager quelqu'un à devenir plus organisé et déterminé.","Expliquer comment charger un appareil électronique.","Décrire la météo d'une ville.","S'excuser formellement."],0,"\"Se prendre en main\" est une expression familière pour encourager quelqu'un à s'organiser."],
+      ["speaking","Choisis une expression française de cette leçon et explique en 45-65 mots dans quelle situation tu l'utiliserais, et son sens littéral face à son sens réel.",[],["signifie","situation","littéralement"],"Distingue clairement le sens littéral (parfois absurde) du sens idiomatique réel."]
+    ]
+  },
+  {
+    id:"fr_c2_irony_humor", level:"C2", title:"Ironie, humour et ambiguïté délibérée", emoji:"😏", xp:94,
+    description:"Reconnaît l'ironie, le sarcasme et l'ambiguïté intentionnelle dans un français de niveau avancé.",
+    study: {
+      vocab: [
+        ["Quelle chance, tiens !", "Just my luck! (ironique)"],
+        ["avec les meilleures intentions du monde (ironique)", "with the best of intentions (ironic)"],
+        ["un double sens", "a double meaning"],
+        ["dire quelque chose sur un ton sarcastique", "to say something with a sarcastic tone"],
+        ["minimiser volontairement quelque chose (litote)", "to understate something"]
+      ],
+      grammar: [
+        ["Marqueurs de l'ironie", "L'ironie se signale souvent par le contexte, l'intonation ou un contraste évident entre ce qui est dit et la réalité, plutôt que par des mots explicites.", "\"Comme tu es ponctuel !\" dit à quelqu'un arrivé en retard est ironique à cause du contraste."],
+        ["Ambiguïté délibérée", "On choisit parfois une expression ambiguë exprès pour ne pas s'engager pleinement sur une position.", "\"On pourrait dire que le projet a eu... des résultats intéressants.\""]
+      ]
+    },
+    ex:[
+      ["mcq","Quelqu'un arrive en retard d'une heure et une autre personne dit : \"Comme tu es ponctuel !\". Que communique vraiment cette phrase ?",["Le contraire de ce qui est dit : la personne était très en retard.","Un compliment sincère sur la ponctualité.","Une question sur l'heure.","Des excuses pour son propre retard."],0,"Le contraste entre ce qui est dit et la réalité évidente est la marque typique de l'ironie."],
+      ["mcq","\"Avec les meilleures intentions du monde, il a annulé la réunion sans prévenir personne.\" Quelle nuance apporte cette expression ici ?",["Un ton ironique : elle signale que l'action n'a pas été vraiment réfléchie.","Un compliment sincère envers la personne.","Une explication littérale et neutre du fait.","Des excuses formelles de la part du narrateur."],0,"Le contraste entre la phrase et l'action (annuler sans prévenir) crée un effet ironique."],
+      ["fill","\"On pourrait dire que le projet a eu... des résultats ___.\" (ambiguïté délibérée, sans s'engager)",["intéressants","excellents","catastrophiques","parfaits"],0,"\"Intéressants\" est délibérément ambigu : cela ne confirme ni ne nie le succès du projet."],
+      ["translate","Traduis avec la même nuance ironique : \"Genial, otro lunes.\" (dit avec agacement)",["Super, encore un lundi.","Le lundi est un jour formidable.","Quelle joie, c'est vendredi.","Je déteste totalement les lundis."],0,"Le ton ironique se maintient avec \"Super\" suivi de quelque chose d'objectivement peu enthousiasmant."],
+      ["mcq","Quelle fonction remplit la litote dans \"Le séisme a causé... quelques dégâts mineurs\" alors qu'il fut en réalité dévastateur ?",["Elle minimise délibérément la gravité pour créer un effet ironique ou critique.","Elle décrit la situation de façon totalement littérale et précise.","Elle exagère l'ampleur de l'événement.","Elle élimine toute interprétation ironique possible."],0,"La litote contraste l'ampleur réelle avec une description minimisée, créant un effet ironique."],
+      ["writing","Écris en français un court commentaire (50-70 mots) avec une ironie subtile sur une situation quotidienne agaçante (les embouteillages, une longue file d'attente...), sans insultes ni langage explicite.",[],["quelle chance","super","bien sûr"],"L'ironie doit se percevoir par le contraste entre le ton positif et la situation négative, pas en l'affirmant directement."]
+    ]
+  },
 ];
