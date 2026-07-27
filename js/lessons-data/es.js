@@ -815,4 +815,149 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe un breve comentario (50-70 palabras) con ironía sutil sobre una situación cotidiana molesta (el tráfico, una fila larga, etc.), sin usar insultos ni lenguaje explícito.",[],["qué suerte","genial","por supuesto"],"La ironía debe notarse por el contraste entre el tono positivo y la situación negativa, no por afirmarlo directamente."]
     ]
   },
+  {
+    id:"es_a1_house_rooms", level:"A1", title:"La casa: habitaciones y muebles", emoji:"🏠", xp:35,
+    description:"Aprende el vocabulario de las habitaciones, los muebles y los objetos de una casa.",
+    study: {
+      vocab: [
+        ["la cocina, el baño, el dormitorio, el salón", "the kitchen, the bathroom, the bedroom, the living room"],
+        ["la cama, la mesa, la silla, el sofá", "the bed, the table, the chair, the sofa"],
+        ["¿Dónde está la cocina?", "Where is the kitchen?"],
+        ["La cama está en el dormitorio.", "The bed is in the bedroom."],
+        ["encima de, debajo de, al lado de", "on top of, under, next to"]
+      ],
+      grammar: [
+        ["Estar + preposiciones de lugar", "\"Estar\" se usa para ubicar cosas, junto a preposiciones como \"encima de\" o \"al lado de\".", "El sofá está al lado de la ventana."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde duermes normalmente?",["En el dormitorio.","En la cocina.","En el baño.","En el salón."],0,"El dormitorio es la habitación donde se duerme."],
+      ["mcq","¿Cuál es la pregunta correcta para saber dónde está algo?",["¿Dónde está la cocina?","¿Qué es la cocina?","¿Cuándo está la cocina?","¿Quién está la cocina?"],0,"\"¿Dónde está...?\" pregunta por la ubicación de algo."],
+      ["fill","Completa: \"El sofá está ___ de la ventana.\"",["al lado","encima","debajo","detrás"],0,"\"Al lado de\" indica que dos cosas están juntas, una junto a la otra."],
+      ["translate","Traduce: \"The bed is in the bedroom.\"",["La cama está en el dormitorio.","La cama está en la cocina.","La silla está en el dormitorio.","La cama es el dormitorio."],0,"\"The bed is in the bedroom\" = \"La cama está en el dormitorio\", con \"estar\" para ubicación."],
+      ["arrange","Ordena: [cocina / mesa / hay / la / en / una]",["En la cocina hay una mesa","Hay una mesa en la cocina","La cocina hay una mesa en","Una mesa en la cocina hay"],0,"\"Hay\" + objeto + \"en\" + lugar, o \"En\" + lugar + \"hay\" + objeto: ambas formas son naturales; elegimos \"En la cocina hay una mesa.\""],
+      ["writing","Describe en 20-30 palabras tu casa o apartamento: qué habitaciones tiene y qué muebles hay en una de ellas.",[],["dormitorio","hay","está"],"Menciona al menos dos habitaciones y dos muebles."]
+    ]
+  },
+  {
+    id:"es_a2_health_pharmacy", level:"A2", title:"La salud: síntomas y la farmacia", emoji:"💊", xp:44,
+    description:"Describe síntomas comunes y pide ayuda en la farmacia o con el médico en español.",
+    study: {
+      vocab: [
+        ["Me duele la cabeza / el estómago / la garganta.", "My head / stomach / throat hurts."],
+        ["Tengo fiebre, tos, náuseas.", "I have a fever, a cough, nausea."],
+        ["¿Tiene algo para el dolor de cabeza?", "Do you have something for a headache?"],
+        ["Tómese una pastilla cada ocho horas.", "Take one pill every eight hours."],
+        ["pedir cita con el médico", "to make a doctor's appointment"]
+      ],
+      grammar: [
+        ["\"Doler\" como \"gustar\"", "\"Doler\" funciona igual que \"gustar\": concuerda con lo que duele, no con la persona.", "Me duele la cabeza. / Me duelen los pies."]
+      ]
+    },
+    ex:[
+      ["mcq","Tienes dolor de cabeza. ¿Qué dices?",["Me duele la cabeza.","Me gusta la cabeza.","Tengo la cabeza.","Soy la cabeza."],0,"\"Me duele la cabeza\" describe el síntoma con el verbo \"doler\"."],
+      ["mcq","En la farmacia, ¿qué preguntas para pedir un medicamento?",["¿Tiene algo para el dolor de cabeza?","¿Dónde está el dolor de cabeza?","¿Cuándo es el dolor de cabeza?","¿Por qué tiene dolor de cabeza?"],0,"\"¿Tiene algo para...?\" es la forma natural de pedir un medicamento en la farmacia."],
+      ["fill","Completa: \"Me ___ los pies después de correr.\"",["duelen","duele","dolor","doloroso"],0,"\"Doler\" concuerda en plural con \"los pies\": \"me duelen los pies\"."],
+      ["translate","Traduce: \"I have a fever and a cough.\"",["Tengo fiebre y tos.","Tengo fiebre y tosa.","Soy fiebre y tos.","Me duele fiebre y tos."],0,"\"I have a fever and a cough\" = \"Tengo fiebre y tos\", con el verbo \"tener\"."],
+      ["arrange","Ordena: [ocho / cada / pastilla / horas / tómese / una]",["Tómese una pastilla cada ocho horas","Cada ocho horas tómese una pastilla","Una pastilla tómese cada ocho horas","Tómese cada ocho horas una pastilla"],0,"Imperativo + objeto + frecuencia: \"Tómese una pastilla cada ocho horas.\" (también válida la variante con \"Cada ocho horas\" al inicio)."],
+      ["speaking","Describe en 40-60 palabras una vez que te sentiste mal: qué síntomas tenías y qué hiciste (fuiste al médico, tomaste una pastilla, etc.).",[],["me dolía","tenía","fui"],"Usa al menos dos síntomas y una acción que tomaste para sentirte mejor."]
+    ]
+  },
+  {
+    id:"es_b1_tech_social_media", level:"B1", title:"Tecnología y redes sociales", emoji:"📱", xp:58,
+    description:"Habla sobre el uso de la tecnología y las redes sociales, sus ventajas y sus riesgos.",
+    study: {
+      vocab: [
+        ["publicar, compartir, comentar", "to post, to share, to comment"],
+        ["estar conectado / desconectarse", "to be online / to log off"],
+        ["la privacidad, los datos personales", "privacy, personal data"],
+        ["depender del teléfono", "to be dependent on your phone"],
+        ["mantenerse en contacto con", "to keep in touch with"]
+      ],
+      grammar: [
+        ["Comparar ventajas y desventajas", "\"Por un lado... por otro lado\" y \"mientras que\" ayudan a comparar dos ideas.", "Por un lado, las redes ayudan a mantenerse en contacto; por otro, pueden quitar mucho tiempo."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es una ventaja real de las redes sociales?",["Ayudan a mantenerse en contacto con amigos lejanos.","Siempre dicen la verdad sobre todo.","Nunca afectan la privacidad.","No necesitan conexión a internet."],0,"Mantenerse en contacto con personas lejanas es una ventaja concreta y verificable."],
+      ["mcq","¿Qué frase expresa preocupación por la privacidad?",["Me preocupa cómo usan mis datos personales.","Me encanta compartir todo sin pensar.","No uso internet nunca.","Publico fotos cada cinco minutos."],0,"La preocupación por los datos personales es un tema central de privacidad digital."],
+      ["fill","Completa: \"___ un lado me gusta estar conectado, por otro necesito desconectarme a veces.\"",["Por","En","De","A"],0,"\"Por un lado... por otro\" es la estructura para comparar dos ideas."],
+      ["translate","Traduce: \"I try not to depend on my phone too much.\"",["Intento no depender demasiado de mi teléfono.","Intento no depender mucho de teléfono.","No intento depender mi teléfono.","Depender de mi teléfono intento no."],0,"\"Depender de\" + sustantivo: \"depender de mi teléfono\"."],
+      ["arrange","Ordena: [contacto / mantenerme / me / ayuda / en / a / con amigos]",["Me ayuda a mantenerme en contacto con amigos","Mantenerme me ayuda a en contacto con amigos","A mantenerme me ayuda en contacto con amigos","Me ayuda en contacto a mantenerme con amigos"],0,"\"Me ayuda a\" + infinitivo: \"Me ayuda a mantenerme en contacto con amigos.\""],
+      ["writing","Escribe 45-65 palabras sobre tu relación con las redes sociales: una ventaja, un riesgo y qué haces para equilibrarlo.",[],["por un lado","por otro","privacidad"],"Estructura: ventaja + riesgo + una acción concreta para equilibrar ambos."]
+    ]
+  },
+  {
+    id:"es_b2_ethical_dilemmas", level:"B2", title:"Dilemas éticos: argumentar a favor y en contra", emoji:"⚖️", xp:80,
+    description:"Presenta y contrapesa argumentos sobre dilemas éticos comunes en español.",
+    study: {
+      vocab: [
+        ["a favor de / en contra de", "in favor of / against"],
+        ["desde un punto de vista ético", "from an ethical point of view"],
+        ["el bien común, el interés individual", "the common good, individual interest"],
+        ["justificar una decisión", "to justify a decision"],
+        ["no hay una respuesta única", "there is no single answer"]
+      ],
+      grammar: [
+        ["Estructurar un argumento equilibrado", "Presentar primero un argumento, luego el contrario, y cerrar con una postura matizada evita el sesgo.", "Algunos argumentan que..., mientras que otros sostienen que... En mi opinión, ambas posturas tienen algo de razón."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase presenta un argumento de forma equilibrada?",["Algunos argumentan que..., mientras que otros sostienen que...","Todo el mundo sabe que tengo razón.","Es obvio que la otra postura está mal.","No hay ningún argumento en contra."],0,"Presentar ambos lados antes de opinar es propio de un argumento equilibrado en B2."],
+      ["mcq","Un dilema ético típico es \"el bien común frente al interés individual\". ¿Qué significa esto?",["Un conflicto entre lo que beneficia a todos y lo que beneficia a una sola persona.","Una decisión que no afecta a nadie.","Un tema sin ninguna importancia social.","Una elección puramente económica sin ética involucrada."],0,"El dilema surge cuando lo mejor para la comunidad no coincide con lo mejor para un individuo."],
+      ["fill","Completa: \"___ un punto de vista ético, la decisión es discutible.\"",["Desde","Para","Por","Con"],0,"\"Desde un punto de vista ético\" es la expresión estándar para introducir una perspectiva."],
+      ["translate","Traduce: \"There is no single answer to this dilemma.\"",["No hay una respuesta única para este dilema.","No hay una respuesta única este dilema.","Este dilema no hay respuesta única para.","Una respuesta única no hay para este dilema."],0,"\"There is no single answer\" = \"No hay una respuesta única\"."],
+      ["mcq","¿Cuál de estas frases justifica una decisión de forma razonada, no emocional?",["Se decidió así porque los beneficios superaban los riesgos a largo plazo.","Se decidió así porque sí, y punto.","Se decidió así porque todos lo querían sin pensar.","Se decidió así porque es lo que siempre se ha hecho."],0,"Una justificación razonada compara beneficios y riesgos de forma explícita."],
+      ["writing","Elige un dilema ético cotidiano (por ejemplo, decir una mentira piadosa) y escribe 55-75 palabras presentando un argumento a favor, uno en contra y tu conclusión matizada.",[],["a favor","en contra","sin embargo"],"Estructura: argumento a favor + argumento en contra + conclusión matizada, no absoluta."]
+    ]
+  },
+  {
+    id:"es_c1_academic_citing", level:"C1", title:"Discurso académico: citar y parafrasear", emoji:"🎓", xp:90,
+    description:"Aprende a citar fuentes, parafrasear ideas y evitar el plagio en un registro académico.",
+    study: {
+      vocab: [
+        ["según (autor, año)", "according to (author, year)"],
+        ["como señala/sostiene el autor", "as the author points out/argues"],
+        ["parafrasear una idea", "to paraphrase an idea"],
+        ["citar textualmente", "to quote directly"],
+        ["el plagio, las fuentes fiables", "plagiarism, reliable sources"]
+      ],
+      grammar: [
+        ["Verbos para introducir citas ajenas", "\"Sostiene que\", \"afirma que\", \"señala que\" varían el matiz: no todos implican el mismo grado de certeza.", "El autor sostiene que la política fue un error; otros investigadores, en cambio, señalan matices importantes."],
+        ["Parafrasear sin copiar la estructura", "Parafrasear implica cambiar tanto las palabras como el orden de las ideas, no solo sinónimos sueltos.", "Original: 'El estudio demuestra que el ejercicio reduce el estrés.' Paráfrasis: 'Según la investigación, practicar actividad física ayuda a disminuir los niveles de estrés.'"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas opciones es una paráfrasis correcta, no una copia disimulada?",["Según la investigación, practicar actividad física ayuda a disminuir los niveles de estrés.","El estudio demuestra que el ejercicio reduce el estrés totalmente.","El estudio demuestra que el ejercicio, en efecto, reduce el estrés.","Demuestra el estudio que reduce el estrés el ejercicio."],0,"Una buena paráfrasis cambia estructura y vocabulario, no solo una o dos palabras."],
+      ["mcq","¿Qué verbo transmite mayor distancia crítica del autor citado?",["El autor sugiere que...","El autor demuestra categóricamente que...","El autor prueba sin duda que...","El autor confirma definitivamente que..."],0,"\"Sugiere\" indica una afirmación más cautelosa, propia de un análisis crítico riguroso."],
+      ["fill","Completa: \"___ señala el informe, la medida tuvo un impacto limitado.\"",["Como","Porque","Aunque","Sin embargo"],0,"\"Como señala el informe\" introduce una idea atribuida a una fuente de forma fluida."],
+      ["translate","Traduce: \"According to the author, the results are inconclusive.\"",["Según el autor, los resultados son poco concluyentes.","Según el autor, los resultados son concluyente.","El autor según resultados poco concluyentes.","Los resultados según el autor son concluyentes no."],0,"\"According to the author\" = \"Según el autor\"; \"inconclusive\" = \"poco concluyentes\"."],
+      ["mcq","¿Cuál de estas prácticas constituye plagio académico?",["Copiar una frase textual sin comillas ni referencia a la fuente.","Citar textualmente entre comillas con su referencia.","Parafrasear una idea y citar la fuente original.","Resumir un artículo mencionando de dónde proviene."],0,"Copiar sin comillas ni referencia, aunque sea una sola frase, se considera plagio."],
+      ["writing","Escribe un párrafo académico de 55-75 palabras que parafrasee (sin copiar) esta idea: 'El acceso a internet ha cambiado profundamente la forma en que las personas se informan.' Cita la fuente como (Autor, 2023).",[],["según","sostiene","(Autor, 2023)"],"No copies la frase original: cambia estructura y vocabulario mientras conservas la idea."]
+    ]
+  },
+  {
+    id:"es_c2_logical_fallacies", level:"C2", title:"Falacias lógicas y persuasión", emoji:"🧠", xp:96,
+    description:"Detecta falacias lógicas y estrategias de persuasión en argumentos de alto nivel.",
+    study: {
+      vocab: [
+        ["el ataque personal (ad hominem)", "ad hominem attack"],
+        ["la falsa dicotomía", "false dichotomy"],
+        ["la pendiente resbaladiza", "slippery slope"],
+        ["generalizar a partir de un solo caso", "to generalize from a single case"],
+        ["apelar a la emoción en vez de a los hechos", "to appeal to emotion instead of facts"]
+      ],
+      grammar: [
+        ["Identificar falacias en el discurso", "Una falacia parece un argumento válido pero su estructura lógica es defectuosa, aunque suene persuasiva.", "\"Si permitimos esto, pronto todo se descontrolará\" es una pendiente resbaladiza: asume una cadena de consecuencias sin evidencia."]
+      ]
+    },
+    ex:[
+      ["mcq","\"No deberías escuchar su argumento económico: además, es una persona desagradable.\" ¿Qué falacia es esta?",["Ataque personal (ad hominem): descalifica a la persona, no el argumento.","Falsa dicotomía: reduce las opciones a solo dos.","Pendiente resbaladiza: predice una cadena de consecuencias.","Generalización apresurada a partir de un caso."],0,"El ad hominem ataca al emisor del argumento en vez de refutar el argumento mismo."],
+      ["mcq","\"O apoyas esta ley exactamente como está, o no te importa la seguridad de nadie.\" ¿Qué falacia es esta?",["Falsa dicotomía: presenta solo dos opciones cuando hay más matices posibles.","Ataque personal contra el interlocutor.","Apelación a la emoción sin ningún argumento lógico.","Generalización basada en un solo caso aislado."],0,"La falsa dicotomía oculta opciones intermedias válidas, presentando solo dos extremos."],
+      ["fill","\"Si permitimos esta excepción, pronto todo el sistema se derrumbará.\" Esta frase es un ejemplo de ___.",["pendiente resbaladiza","ataque personal","falsa dicotomía","apelación a la autoridad"],0,"La pendiente resbaladiza asume, sin evidencia suficiente, una cadena inevitable de consecuencias negativas."],
+      ["translate","Traduce con precisión técnica: \"This is a classic false dichotomy.\"",["Esta es una falsa dicotomía clásica.","Esta es una dicotomía falsa clásica es.","Clásica esta falsa dicotomía es.","Esta falsa es dicotomía clásica."],0,"\"False dichotomy\" se traduce técnicamente como \"falsa dicotomía\"."],
+      ["mcq","Un anuncio muestra imágenes de niños llorando para vender un producto de caridad sin dar datos concretos sobre su impacto. ¿Qué estrategia usa principalmente?",["Apelación a la emoción en lugar de a los hechos verificables.","Un argumento lógico riguroso basado en datos.","Una generalización estadística precisa.","Una cita de una fuente académica fiable."],0,"Usar imágenes emotivas sin datos concretos es apelar a la emoción en vez de a la evidencia."],
+      ["writing","Identifica y explica en 55-75 palabras una falacia lógica que hayas escuchado en un debate, anuncio o discusión reciente (real o inventada). Nombra la falacia y explica por qué el argumento es engañoso pese a sonar convincente.",[],["falacia","porque","aunque parece"],"Nombra explícitamente el tipo de falacia (ad hominem, falsa dicotomía, pendiente resbaladiza, etc.) y justifica tu identificación."]
+    ]
+  },
 ];
