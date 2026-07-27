@@ -812,4 +812,149 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano un breve commento (50-70 parole) con ironia sottile su una situazione quotidiana fastidiosa (il traffico, una lunga fila, ecc.), senza insulti né linguaggio esplicito.",[],["che fortuna","fantastico","certo"],"L'ironia deve notarsi dal contrasto tra il tono positivo e la situazione negativa, non affermandolo direttamente."]
     ]
   },
+  {
+    id:"it_a1_house_rooms", level:"A1", title:"La casa: stanze e mobili", emoji:"🏠", xp:35,
+    description:"Impara il vocabolario delle stanze, dei mobili e degli oggetti di una casa in italiano.",
+    study: {
+      vocab: [
+        ["la cucina, il bagno, la camera da letto, il soggiorno", "the kitchen, the bathroom, the bedroom, the living room"],
+        ["il letto, il tavolo, la sedia, il divano", "the bed, the table, the chair, the sofa"],
+        ["Dov'è la cucina?", "Where is the kitchen?"],
+        ["Il letto è in camera da letto.", "The bed is in the bedroom."],
+        ["sopra, sotto, accanto a", "on top of, under, next to"]
+      ],
+      grammar: [
+        ["\"C'è / Ci sono\" per situare oggetti", "\"C'è\" (singolare) e \"ci sono\" (plurale) indicano cosa si trova in un luogo.", "C'è un tavolo in cucina. Ci sono due sedie accanto."]
+      ]
+    },
+    ex:[
+      ["mcq","Dove dormi di solito?",["In camera da letto.","In cucina.","In bagno.","In soggiorno."],0,"\"La camera da letto\" è la stanza dove si dorme."],
+      ["mcq","Qual è il modo corretto di chiedere dove si trova qualcosa?",["Dov'è la cucina?","Cos'è la cucina?","Quando è la cucina?","Chi è la cucina?"],0,"\"Dov'è...?\" chiede dove si trova qualcosa."],
+      ["fill","Completa: \"Il divano è ___ alla finestra.\"",["accanto","sopra","sotto","dietro"],0,"\"Accanto a\" indica che due cose sono una vicino all'altra."],
+      ["translate","Traduci: \"The bed is in the bedroom.\"",["Il letto è in camera da letto.","Il letto è in cucina.","La sedia è in camera da letto.","Il letto è la camera da letto."],0,"\"The bed is in the bedroom\" = \"Il letto è in camera da letto.\""],
+      ["arrange","Metti in ordine: [cucina / tavolo / c'è / in / un]",["C'è un tavolo in cucina","In cucina c'è un tavolo","Un tavolo c'è in cucina","C'è in cucina un tavolo"],0,"\"C'è\" + oggetto + \"in\" + luogo: \"C'è un tavolo in cucina.\""],
+      ["writing","Descrivi in 20-30 parole la tua casa o il tuo appartamento in italiano: quali stanze ci sono e quali mobili si trovano in una di esse.",[],["camera da letto","c'è","ci sono"],"Menziona almeno due stanze e due mobili."]
+    ]
+  },
+  {
+    id:"it_a2_health_pharmacy", level:"A2", title:"La salute: sintomi e la farmacia", emoji:"💊", xp:44,
+    description:"Descrivi sintomi comuni e chiedi aiuto in farmacia o dal medico in italiano.",
+    study: {
+      vocab: [
+        ["Mi fa male la testa / lo stomaco / la gola.", "My head / stomach / throat hurts."],
+        ["Ho la febbre, la tosse, la nausea.", "I have a fever, a cough, nausea."],
+        ["Ha qualcosa per il mal di testa?", "Do you have something for a headache?"],
+        ["Prenda una pastiglia ogni otto ore.", "Take one pill every eight hours."],
+        ["prendere appuntamento dal medico", "to make a doctor's appointment"]
+      ],
+      grammar: [
+        ["\"Fare male\" come \"piacere\"", "\"Fare male\" funziona come \"piacere\": concorda con la parte del corpo, non con la persona.", "Mi fa male la testa. / Mi fanno male i piedi."]
+      ]
+    },
+    ex:[
+      ["mcq","Hai mal di testa. Cosa dici?",["Mi fa male la testa.","Mi piace la testa.","Ho la testa.","Sono la testa."],0,"\"Mi fa male la testa\" descrive il sintomo con \"fare male\"."],
+      ["mcq","In farmacia, cosa chiedi per avere un medicinale?",["Ha qualcosa per il mal di testa?","Dov'è il mal di testa?","Quando è il mal di testa?","Perché ha mal di testa?"],0,"\"Ha qualcosa per...?\" è il modo naturale di chiedere un medicinale."],
+      ["fill","Completa: \"Mi ___ i piedi dopo aver corso.\"",["fanno male","fa male","dolore","doloroso"],0,"\"Fare male\" concorda al plurale con \"i piedi\": \"mi fanno male i piedi\"."],
+      ["translate","Traduci: \"I have a fever and a cough.\"",["Ho la febbre e la tosse.","Ho febbre e tossa.","Sono febbre e tosse.","Mi fa male febbre e tosse."],0,"\"I have a fever and a cough\" = \"Ho la febbre e la tosse\", con il verbo \"avere\"."],
+      ["arrange","Metti in ordine: [otto / ore / pastiglia / ogni / una / prenda]",["Prenda una pastiglia ogni otto ore","Ogni otto ore prenda una pastiglia","Una pastiglia prenda ogni otto ore","Prenda ogni otto ore una pastiglia"],0,"Imperativo + oggetto + frequenza: \"Prenda una pastiglia ogni otto ore.\""],
+      ["speaking","Descrivi in italiano, in 40-60 parole, una volta in cui ti sei sentito/a male: quali sintomi avevi e cosa hai fatto.",[],["mi faceva male","avevo","sono andato/a"],"Usa almeno due sintomi e un'azione che hai intrapreso per sentirti meglio."]
+    ]
+  },
+  {
+    id:"it_b1_tech_social_media", level:"B1", title:"Tecnologia e social media", emoji:"📱", xp:58,
+    description:"Parla dell'uso della tecnologia e dei social media, dei loro vantaggi e rischi, in italiano.",
+    study: {
+      vocab: [
+        ["pubblicare, condividere, commentare", "to post, to share, to comment"],
+        ["essere connesso / disconnettersi", "to be online / to log off"],
+        ["la privacy, i dati personali", "privacy, personal data"],
+        ["dipendere dal telefono", "to be dependent on your phone"],
+        ["restare in contatto con", "to keep in touch with"]
+      ],
+      grammar: [
+        ["Confrontare vantaggi e svantaggi", "\"Da un lato... dall'altro\" e \"mentre\" aiutano a confrontare due idee.", "Da un lato i social aiutano a restare in contatto; dall'altro possono portare via molto tempo."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual è un vantaggio reale dei social media?",["Aiutano a restare in contatto con amici lontani.","Dicono sempre tutta la verità.","Non influenzano mai la privacy.","Non hanno bisogno di connessione internet."],0,"Restare in contatto con persone lontane è un vantaggio concreto e verificabile."],
+      ["mcq","Quale frase esprime preoccupazione per la privacy?",["Mi preoccupa come usano i miei dati personali.","Adoro condividere tutto senza pensarci.","Non uso mai internet.","Pubblico foto ogni cinque minuti."],0,"La preoccupazione per i dati personali è un tema centrale della privacy digitale."],
+      ["fill","Completa: \"___ un lato mi piace essere connesso, dall'altro ho bisogno di disconnettermi a volte.\"",["Da","In","Di","A"],0,"\"Da un lato... dall'altro\" è la struttura per confrontare due idee."],
+      ["translate","Traduci: \"I try not to depend on my phone too much.\"",["Cerco di non dipendere troppo dal mio telefono.","Cerco di non dipendere molto mio telefono.","Non cerco di dipendere dal mio telefono.","Dipendere dal mio telefono cerco di non."],0,"\"Dipendere da\" + sostantivo: \"dipendere dal mio telefono\"."],
+      ["arrange","Metti in ordine: [aiuta / contatto / mi / restare / a / in / con gli amici]",["Mi aiuta a restare in contatto con gli amici","Aiuta mi a restare in contatto con gli amici","In contatto mi aiuta a restare con gli amici","Mi aiuta in contatto a restare con gli amici"],0,"\"Mi aiuta a\" + infinito: \"Mi aiuta a restare in contatto con gli amici.\""],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con i social media: un vantaggio, un rischio e cosa fai per equilibrarli.",[],["da un lato","dall'altro","privacy"],"Struttura: vantaggio + rischio + un'azione concreta per equilibrare entrambi."]
+    ]
+  },
+  {
+    id:"it_b2_ethical_dilemmas", level:"B2", title:"Dilemmi etici: argomentare a favore e contro", emoji:"⚖️", xp:80,
+    description:"Presenta e soppesa argomenti su dilemmi etici comuni in italiano.",
+    study: {
+      vocab: [
+        ["a favore di / contro", "in favor of / against"],
+        ["da un punto di vista etico", "from an ethical point of view"],
+        ["il bene comune, l'interesse individuale", "the common good, individual interest"],
+        ["giustificare una decisione", "to justify a decision"],
+        ["non c'è una risposta unica", "there is no single answer"]
+      ],
+      grammar: [
+        ["Strutturare un argomento equilibrato", "Presentare prima un argomento, poi quello opposto, e chiudere con una posizione sfumata evita il pregiudizio.", "Alcuni sostengono che..., mentre altri affermano che... A mio parere, entrambe le posizioni hanno un senso."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase presenta un argomento in modo equilibrato?",["Alcuni sostengono che..., mentre altri affermano che...","Tutti sanno che ho ragione.","È ovvio che l'altra posizione è sbagliata.","Non c'è nessun argomento contrario."],0,"Presentare entrambi i lati prima di dare la propria opinione è tipico di un argomento equilibrato a livello B2."],
+      ["mcq","Un dilemma etico tipico è \"il bene comune contro l'interesse individuale\". Cosa significa?",["Un conflitto tra ciò che avvantaggia tutti e ciò che avvantaggia una sola persona.","Una decisione che non riguarda nessuno.","Un argomento senza alcuna importanza sociale.","Una scelta puramente economica senza etica coinvolta."],0,"Il dilemma nasce quando il meglio per la comunità non coincide con il meglio per un individuo."],
+      ["fill","Completa: \"___ un punto di vista etico, la decisione è discutibile.\"",["Da","Per","Con","A"],0,"\"Da un punto di vista etico\" è l'espressione standard per introdurre una prospettiva."],
+      ["translate","Traduci: \"There is no single answer to this dilemma.\"",["Non c'è una risposta unica a questo dilemma.","Non c'è una risposta unica questo dilemma.","Questo dilemma non c'è una risposta unica.","Una risposta unica non c'è per questo dilemma."],0,"\"There is no single answer\" = \"Non c'è una risposta unica.\""],
+      ["mcq","Quale di queste frasi giustifica una decisione in modo ragionato, non emotivo?",["Si è deciso così perché i benefici superavano i rischi a lungo termine.","Si è deciso così e basta.","Si è deciso così perché tutti lo volevano senza pensarci.","Si è deciso così perché è sempre stato fatto così."],0,"Una giustificazione ragionata confronta esplicitamente benefici e rischi."],
+      ["writing","Scegli un dilemma etico quotidiano (ad esempio, dire una bugia pietosa) e scrivi in italiano 55-75 parole presentando un argomento a favore, uno contro e la tua conclusione sfumata.",[],["a favore","contro","tuttavia"],"Struttura: argomento a favore + argomento contro + conclusione sfumata, non assoluta."]
+    ]
+  },
+  {
+    id:"it_c1_academic_citing", level:"C1", title:"Discorso accademico: citare e parafrasare", emoji:"🎓", xp:90,
+    description:"Impara a citare fonti, parafrasare idee ed evitare il plagio in un registro accademico in italiano.",
+    study: {
+      vocab: [
+        ["secondo (autore, anno)", "according to (author, year)"],
+        ["come sottolinea/sostiene l'autore", "as the author points out/argues"],
+        ["parafrasare un'idea", "to paraphrase an idea"],
+        ["citare testualmente", "to quote directly"],
+        ["il plagio, le fonti affidabili", "plagiarism, reliable sources"]
+      ],
+      grammar: [
+        ["Verbi per introdurre citazioni altrui", "\"Sostiene che\", \"afferma che\", \"sottolinea che\" variano la sfumatura: non tutti implicano lo stesso grado di certezza.", "L'autore sostiene che la politica sia stata un errore; altri ricercatori, invece, sottolineano sfumature importanti."],
+        ["Parafrasare senza copiare la struttura", "Parafrasare implica cambiare sia le parole sia l'ordine delle idee, non solo qualche sinonimo.", "Originale: 'Lo studio dimostra che l'esercizio riduce lo stress.' Parafrasi: 'Secondo la ricerca, l'attività fisica aiuta a diminuire i livelli di stress.'"]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste opzioni è una parafrasi corretta, non una copia mascherata?",["Secondo la ricerca, l'attività fisica aiuta a diminuire i livelli di stress.","Lo studio dimostra che l'esercizio riduce totalmente lo stress.","Lo studio dimostra in effetti che l'esercizio riduce lo stress.","Dimostra lo studio che riduce lo stress l'esercizio."],0,"Una buona parafrasi cambia struttura e vocabolario, non solo una o due parole."],
+      ["mcq","Quale verbo trasmette maggiore distanza critica dall'autore citato?",["L'autore suggerisce che...","L'autore dimostra categoricamente che...","L'autore prova senza dubbio che...","L'autore conferma definitivamente che..."],0,"\"Suggerisce\" indica un'affermazione più cauta, tipica di un'analisi critica rigorosa."],
+      ["fill","Completa: \"___ sottolinea il rapporto, la misura ha avuto un impatto limitato.\"",["Come","Perché","Sebbene","Tuttavia"],0,"\"Come sottolinea il rapporto\" introduce un'idea attribuita a una fonte in modo fluido."],
+      ["translate","Traduci: \"According to the author, the results are inconclusive.\"",["Secondo l'autore, i risultati sono poco conclusivi.","Secondo l'autore, i risultati sono conclusivi.","L'autore secondo risultati poco conclusivi.","I risultati secondo l'autore sono conclusivi non."],0,"\"According to the author\" = \"Secondo l'autore\"; \"inconclusive\" = \"poco conclusivi\"."],
+      ["mcq","Quale di queste pratiche costituisce plagio accademico?",["Copiare una frase testuale senza virgolette né riferimento alla fonte.","Citare testualmente tra virgolette con il relativo riferimento.","Parafrasare un'idea e citare la fonte originale.","Riassumere un articolo menzionando da dove proviene."],0,"Copiare senza virgolette né riferimento, anche una sola frase, è considerato plagio."],
+      ["writing","Scrivi in italiano un paragrafo accademico di 55-75 parole che parafrasi (senza copiare) questa idea: 'L'accesso a internet ha cambiato profondamente il modo in cui le persone si informano.' Cita la fonte come (Autore, 2023).",[],["secondo","sostiene","(Autore, 2023)"],"Non copiare la frase originale: cambia struttura e vocabolario mantenendo l'idea."]
+    ]
+  },
+  {
+    id:"it_c2_logical_fallacies", level:"C2", title:"Fallacie logiche e persuasione", emoji:"🧠", xp:96,
+    description:"Individua fallacie logiche e strategie di persuasione in argomentazioni di alto livello in italiano.",
+    study: {
+      vocab: [
+        ["l'attacco personale (ad hominem)", "ad hominem attack"],
+        ["la falsa dicotomia", "false dichotomy"],
+        ["la china scivolosa", "slippery slope"],
+        ["generalizzare da un solo caso", "to generalize from a single case"],
+        ["fare appello all'emozione invece che ai fatti", "to appeal to emotion instead of facts"]
+      ],
+      grammar: [
+        ["Identificare le fallacie nel discorso", "Una fallacia sembra un argomento valido ma la sua struttura logica è difettosa, anche se suona persuasiva.", "\"Se permettiamo questo, presto tutto sfuggirà al controllo\" è una china scivolosa: presuppone una catena di conseguenze senza prove."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Non dovresti ascoltare il suo argomento economico: tra l'altro, è una persona sgradevole.\" Che fallacia è questa?",["Attacco personale (ad hominem): screditare la persona, non l'argomento.","Falsa dicotomia: riduce le opzioni a solo due.","China scivolosa: predice una catena di conseguenze.","Generalizzazione affrettata da un solo caso."],0,"L'ad hominem attacca chi propone l'argomento invece di confutare l'argomento stesso."],
+      ["mcq","\"O sostieni questa legge esattamente com'è, o non ti importa della sicurezza di nessuno.\" Che fallacia è questa?",["Falsa dicotomia: presenta solo due opzioni quando sono possibili più sfumature.","Un attacco personale contro l'interlocutore.","Un appello all'emozione senza alcun argomento logico.","Una generalizzazione basata su un singolo caso isolato."],0,"La falsa dicotomia nasconde opzioni intermedie valide, presentando solo due estremi."],
+      ["fill","\"Se permettiamo questa eccezione, presto crollerà tutto il sistema.\" Questa frase è un esempio di ___.",["china scivolosa","attacco personale","falsa dicotomia","appello all'autorità"],0,"La china scivolosa presuppone, senza prove sufficienti, una catena inevitabile di conseguenze negative."],
+      ["translate","Traduci con precisione tecnica: \"This is a classic false dichotomy.\"",["Questa è una classica falsa dicotomia.","Questa è una falsa dicotomia classica è.","Classica questa falsa dicotomia è.","Questa falsa è dicotomia classica."],0,"\"False dichotomy\" si traduce tecnicamente come \"falsa dicotomia\"."],
+      ["mcq","Una pubblicità mostra immagini di bambini che piangono per vendere un prodotto di beneficenza senza fornire dati concreti sul suo impatto. Quale strategia usa principalmente?",["Un appello all'emozione invece che ai fatti verificabili.","Un argomento logico rigoroso basato su dati.","Una generalizzazione statistica precisa.","Una citazione da una fonte accademica affidabile."],0,"Usare immagini emotive senza dati concreti significa fare appello all'emozione invece che alla prova."],
+      ["writing","Individua e spiega in italiano, in 55-75 parole, una fallacia logica che hai sentito in un dibattito, in una pubblicità o in una discussione recente (reale o inventata). Nomina la fallacia e spiega perché l'argomento è fuorviante nonostante suoni convincente.",[],["fallacia","perché","anche se sembra"],"Nomina esplicitamente il tipo di fallacia (ad hominem, falsa dicotomia, china scivolosa, ecc.) e giustifica la tua identificazione."]
+    ]
+  },
 ];
