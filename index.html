@@ -86,11 +86,34 @@
       },
     };
 
+    // ── Despachador con reintentos ──────────────────────────────────
+    // js/auth.js (donde viven onFirebaseUserReady, onFirebaseSignOut y
+    // showLoginErr) carga varios <script> después de este bloque inline.
+    // Si Firebase resuelve el login (o un error de Google) ANTES de que
+    // auth.js termine de cargar —muy común en móvil, con red más lenta y
+    // más scripts por descargar—, hay que reintentar la entrega en vez
+    // de comprobarlo una sola vez, o el evento se pierde en silencio y
+    // la app se queda "atascada" en la pantalla de login sin explicar por qué.
+    window._fbCallWhenReady = function(fnName, arg){
+      if(typeof window[fnName] === 'function'){ window[fnName](arg); return; }
+      let tries = 0;
+      const iv = setInterval(()=>{
+        tries++;
+        if(typeof window[fnName] === 'function'){
+          clearInterval(iv);
+          window[fnName](arg);
+        } else if(tries > 150){ // ~15s de margen para conexiones lentas
+          clearInterval(iv);
+          console.error('[Drakón] '+fnName+' nunca se definió a tiempo, evento de auth perdido:', arg);
+        }
+      }, 100);
+    };
+
     // Con signInWithRedirect, el resultado (o error) del login con Google
     // llega aquí cuando la página vuelve a cargar tras la redirección.
     auth.getRedirectResult().catch(e=>{
       if(e && e.code !== 'auth/popup-closed-by-user'){
-        window._pendingGoogleErr = e.code || 'auth/network-request-failed';
+        window._fbCallWhenReady('_showGoogleRedirectError', e.code || 'auth/network-request-failed');
       }
     });
 
@@ -99,20 +122,11 @@
       if(user){
         window._fbUser  = user;
         window._fbReady = true;
-        if(typeof window.onFirebaseUserReady === 'function'){
-          window.onFirebaseUserReady(user);
-        } else {
-          window._pendingAuthUser = user;
-        }
+        window._fbCallWhenReady('onFirebaseUserReady', user);
       } else {
         window._fbUser  = null;
         window._fbReady = false;
-        window._pendingAuthUser = null;
-        if(typeof window.onFirebaseSignOut === 'function'){
-          window.onFirebaseSignOut();
-        } else {
-          window._pendingSignOut = true;
-        }
+        window._fbCallWhenReady('onFirebaseSignOut');
       }
     });
   } catch(e){
