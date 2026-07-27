@@ -812,4 +812,149 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris en français un court commentaire (50-70 mots) avec une ironie subtile sur une situation quotidienne agaçante (les embouteillages, une longue file d'attente...), sans insultes ni langage explicite.",[],["quelle chance","super","bien sûr"],"L'ironie doit se percevoir par le contraste entre le ton positif et la situation négative, pas en l'affirmant directement."]
     ]
   },
+  {
+    id:"fr_a1_house_rooms", level:"A1", title:"La maison : pièces et meubles", emoji:"🏠", xp:35,
+    description:"Apprends le vocabulaire des pièces, des meubles et des objets d'une maison en français.",
+    study: {
+      vocab: [
+        ["la cuisine, la salle de bain, la chambre, le salon", "the kitchen, the bathroom, the bedroom, the living room"],
+        ["le lit, la table, la chaise, le canapé", "the bed, the table, the chair, the sofa"],
+        ["Où est la cuisine ?", "Where is the kitchen?"],
+        ["Le lit est dans la chambre.", "The bed is in the bedroom."],
+        ["sur, sous, à côté de", "on top of, under, next to"]
+      ],
+      grammar: [
+        ["\"Il y a\" pour situer des objets", "\"Il y a\" s'utilise pour dire ce qui se trouve dans un lieu, au singulier comme au pluriel.", "Il y a une table dans la cuisine. Il y a deux chaises à côté."]
+      ]
+    },
+    ex:[
+      ["mcq","Où dors-tu normalement ?",["Dans la chambre.","Dans la cuisine.","Dans la salle de bain.","Dans le salon."],0,"\"La chambre\" est la pièce où l'on dort."],
+      ["mcq","Quelle est la bonne façon de demander où se trouve quelque chose ?",["Où est la cuisine ?","Qu'est-ce que la cuisine ?","Quand est la cuisine ?","Qui est la cuisine ?"],0,"\"Où est... ?\" sert à demander où se trouve quelque chose."],
+      ["fill","Complète : \"Le canapé est ___ la fenêtre.\"",["à côté de","sur","sous","derrière"],0,"\"À côté de\" indique que deux choses sont l'une près de l'autre."],
+      ["translate","Traduis : \"The bed is in the bedroom.\"",["Le lit est dans la chambre.","Le lit est dans la cuisine.","La chaise est dans la chambre.","Le lit est la chambre."],0,"\"The bed is in the bedroom\" = \"Le lit est dans la chambre.\""],
+      ["arrange","Remets dans l'ordre : [cuisine / table / a / la / une / dans / il / y]",["Il y a une table dans la cuisine","Dans la cuisine il y a une table","La cuisine il y a une table dans","Une table il y a dans la cuisine"],0,"\"Il y a\" + objet + \"dans\" + lieu : \"Il y a une table dans la cuisine.\""],
+      ["writing","Décris en 20-30 mots ta maison ou ton appartement en français : quelles pièces il y a et quels meubles se trouvent dans l'une d'elles.",[],["chambre","il y a"],"Mentionne au moins deux pièces et deux meubles."]
+    ]
+  },
+  {
+    id:"fr_a2_health_pharmacy", level:"A2", title:"La santé : symptômes et la pharmacie", emoji:"💊", xp:44,
+    description:"Décris des symptômes courants et demande de l'aide à la pharmacie ou chez le médecin en français.",
+    study: {
+      vocab: [
+        ["J'ai mal à la tête / au ventre / à la gorge.", "My head / stomach / throat hurts."],
+        ["J'ai de la fièvre, je tousse, j'ai des nausées.", "I have a fever, a cough, nausea."],
+        ["Avez-vous quelque chose contre le mal de tête ?", "Do you have something for a headache?"],
+        ["Prenez un comprimé toutes les huit heures.", "Take one pill every eight hours."],
+        ["prendre rendez-vous chez le médecin", "to make a doctor's appointment"]
+      ],
+      grammar: [
+        ["\"Avoir mal à\" pour décrire la douleur", "\"Avoir mal à\" + article contracté (au/à la/à l') exprime une douleur.", "J'ai mal à la tête. / J'ai mal aux pieds."]
+      ]
+    },
+    ex:[
+      ["mcq","Tu as mal à la tête. Que dis-tu ?",["J'ai mal à la tête.","J'aime ma tête.","J'ai ma tête.","Je suis ma tête."],0,"\"J'ai mal à la tête\" décrit le symptôme avec \"avoir mal à\"."],
+      ["mcq","À la pharmacie, que demandes-tu pour obtenir un médicament ?",["Avez-vous quelque chose contre le mal de tête ?","Où est le mal de tête ?","Quand est le mal de tête ?","Pourquoi avez-vous mal à la tête ?"],0,"\"Avez-vous quelque chose contre... ?\" est la façon naturelle de demander un médicament."],
+      ["fill","Complète : \"J'ai mal ___ pieds après avoir couru.\"",["aux","au","à la","à l'"],0,"\"Pieds\" est pluriel, donc on utilise \"aux\" : \"J'ai mal aux pieds.\""],
+      ["translate","Traduis : \"I have a fever and a cough.\"",["J'ai de la fièvre et je tousse.","J'ai fièvre et tousse.","Je suis fièvre et je tousse.","J'ai mal fièvre et tousse."],0,"\"I have a fever and a cough\" = \"J'ai de la fièvre et je tousse.\""],
+      ["arrange","Remets dans l'ordre : [huit / heures / comprimé / toutes / un / prenez / les]",["Prenez un comprimé toutes les huit heures","Toutes les huit heures prenez un comprimé","Un comprimé prenez toutes les huit heures","Prenez toutes les huit heures un comprimé"],0,"Impératif + objet + fréquence : \"Prenez un comprimé toutes les huit heures.\""],
+      ["speaking","Décris en français, en 40-60 mots, une fois où tu t'es senti(e) mal : quels symptômes tu avais et ce que tu as fait.",[],["j'avais mal","j'avais","je suis allé(e)"],"Utilise au moins deux symptômes et une action que tu as prise pour te sentir mieux."]
+    ]
+  },
+  {
+    id:"fr_b1_tech_social_media", level:"B1", title:"Technologie et réseaux sociaux", emoji:"📱", xp:58,
+    description:"Parle de l'usage de la technologie et des réseaux sociaux, de leurs avantages et de leurs risques.",
+    study: {
+      vocab: [
+        ["publier, partager, commenter", "to post, to share, to comment"],
+        ["être connecté / se déconnecter", "to be online / to log off"],
+        ["la vie privée, les données personnelles", "privacy, personal data"],
+        ["dépendre de son téléphone", "to be dependent on your phone"],
+        ["rester en contact avec", "to keep in touch with"]
+      ],
+      grammar: [
+        ["Comparer avantages et inconvénients", "\"D'un côté... de l'autre\" et \"alors que\" aident à comparer deux idées.", "D'un côté les réseaux aident à rester en contact ; de l'autre, ils peuvent prendre beaucoup de temps."]
+      ]
+    },
+    ex:[
+      ["mcq","Quel est un avantage réel des réseaux sociaux ?",["Ils aident à rester en contact avec des amis éloignés.","Ils disent toujours toute la vérité.","Ils n'affectent jamais la vie privée.","Ils ne nécessitent aucune connexion internet."],0,"Rester en contact avec des personnes éloignées est un avantage concret et vérifiable."],
+      ["mcq","Quelle phrase exprime une préoccupation pour la vie privée ?",["Je m'inquiète de la façon dont ils utilisent mes données personnelles.","J'adore tout partager sans réfléchir.","Je n'utilise jamais internet.","Je publie des photos toutes les cinq minutes."],0,"La préoccupation pour les données personnelles est un thème central de la vie privée numérique."],
+      ["fill","Complète : \"___ un côté j'aime être connecté, de l'autre j'ai besoin de me déconnecter parfois.\"",["D'","En","De","À"],0,"\"D'un côté... de l'autre\" est la structure pour comparer deux idées."],
+      ["translate","Traduis : \"I try not to depend on my phone too much.\"",["J'essaie de ne pas trop dépendre de mon téléphone.","J'essaie de ne pas dépendre beaucoup mon téléphone.","Je n'essaie pas dépendre de mon téléphone.","Dépendre de mon téléphone j'essaie de ne pas."],0,"\"Dépendre de\" + nom : \"dépendre de mon téléphone\"."],
+      ["arrange","Remets dans l'ordre : [contact / m'aide / rester / à / en / avec des amis]",["Ça m'aide à rester en contact avec des amis","M'aide ça à rester en contact avec des amis","À rester m'aide ça en contact avec des amis","Ça m'aide en contact à rester avec des amis"],0,"\"Ça m'aide à\" + infinitif : \"Ça m'aide à rester en contact avec des amis.\""],
+      ["writing","Écris en français 45-65 mots sur ta relation avec les réseaux sociaux : un avantage, un risque et ce que tu fais pour équilibrer les deux.",[],["d'un côté","de l'autre","vie privée"],"Structure : avantage + risque + une action concrète pour équilibrer les deux."]
+    ]
+  },
+  {
+    id:"fr_b2_ethical_dilemmas", level:"B2", title:"Dilemmes éthiques : argumenter pour et contre", emoji:"⚖️", xp:80,
+    description:"Présente et pèse des arguments sur des dilemmes éthiques courants en français.",
+    study: {
+      vocab: [
+        ["pour / contre", "in favor of / against"],
+        ["d'un point de vue éthique", "from an ethical point of view"],
+        ["le bien commun, l'intérêt individuel", "the common good, individual interest"],
+        ["justifier une décision", "to justify a decision"],
+        ["il n'y a pas de réponse unique", "there is no single answer"]
+      ],
+      grammar: [
+        ["Structurer un argument équilibré", "Présenter d'abord un argument, puis le contraire, et conclure avec une position nuancée évite le parti pris.", "Certains soutiennent que..., alors que d'autres affirment que... À mon avis, les deux positions ont du sens."]
+      ]
+    },
+    ex:[
+      ["mcq","Quelle phrase présente un argument de façon équilibrée ?",["Certains soutiennent que..., alors que d'autres affirment que...","Tout le monde sait que j'ai raison.","Il est évident que l'autre position a tort.","Il n'y a aucun argument contraire."],0,"Présenter les deux côtés avant de donner son avis est propre à un argument équilibré au niveau B2."],
+      ["mcq","Un dilemme éthique typique est « le bien commun face à l'intérêt individuel ». Que signifie cela ?",["Un conflit entre ce qui profite à tous et ce qui profite à une seule personne.","Une décision qui n'affecte personne.","Un sujet sans aucune importance sociale.","Un choix purement économique sans aucune éthique."],0,"Le dilemme surgit quand le meilleur pour la communauté ne coïncide pas avec le meilleur pour un individu."],
+      ["fill","Complète : \"___ un point de vue éthique, la décision est discutable.\"",["D'","Pour","Par","Avec"],0,"\"D'un point de vue éthique\" est l'expression standard pour introduire une perspective."],
+      ["translate","Traduis : \"There is no single answer to this dilemma.\"",["Il n'y a pas de réponse unique à ce dilemme.","Il n'y a pas une réponse unique ce dilemme.","Ce dilemme il n'y a pas de réponse unique.","Une réponse unique il n'y a pas pour ce dilemme."],0,"\"There is no single answer\" = \"Il n'y a pas de réponse unique.\""],
+      ["mcq","Laquelle de ces phrases justifie une décision de façon raisonnée, non émotionnelle ?",["Cette décision a été prise parce que les bénéfices dépassaient les risques à long terme.","Cette décision a été prise comme ça, un point c'est tout.","Cette décision a été prise parce que tout le monde le voulait sans réfléchir.","Cette décision a été prise parce que c'est ce qu'on a toujours fait."],0,"Une justification raisonnée compare explicitement bénéfices et risques."],
+      ["writing","Choisis un dilemme éthique quotidien (par exemple, dire un pieux mensonge) et écris en français 55-75 mots présentant un argument pour, un argument contre et ta conclusion nuancée.",[],["pour","contre","cependant"],"Structure : argument pour + argument contre + conclusion nuancée, non absolue."]
+    ]
+  },
+  {
+    id:"fr_c1_academic_citing", level:"C1", title:"Discours académique : citer et paraphraser", emoji:"🎓", xp:90,
+    description:"Apprends à citer des sources, paraphraser des idées et éviter le plagiat dans un registre académique.",
+    study: {
+      vocab: [
+        ["selon (auteur, année)", "according to (author, year)"],
+        ["comme le souligne/soutient l'auteur", "as the author points out/argues"],
+        ["paraphraser une idée", "to paraphrase an idea"],
+        ["citer textuellement", "to quote directly"],
+        ["le plagiat, les sources fiables", "plagiarism, reliable sources"]
+      ],
+      grammar: [
+        ["Verbes pour introduire des citations", "\"Soutient que\", \"affirme que\", \"souligne que\" varient la nuance : tous n'impliquent pas le même degré de certitude.", "L'auteur soutient que la politique fut une erreur ; d'autres chercheurs, cependant, soulignent des nuances importantes."],
+        ["Paraphraser sans copier la structure", "Paraphraser implique de changer à la fois les mots et l'ordre des idées, pas seulement quelques synonymes.", "Original : « L'étude montre que l'exercice réduit le stress. » Paraphrase : « Selon la recherche, l'activité physique aide à diminuer les niveaux de stress. »"]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces options est une paraphrase correcte, pas une copie déguisée ?",["Selon la recherche, l'activité physique aide à diminuer les niveaux de stress.","L'étude montre que l'exercice réduit totalement le stress.","L'étude montre en effet que l'exercice réduit le stress.","Montre l'étude que réduit le stress l'exercice."],0,"Une bonne paraphrase change la structure et le vocabulaire, pas seulement un ou deux mots."],
+      ["mcq","Quel verbe transmet la plus grande distance critique vis-à-vis de l'auteur cité ?",["L'auteur suggère que...","L'auteur prouve catégoriquement que...","L'auteur démontre sans aucun doute que...","L'auteur confirme définitivement que..."],0,"\"Suggère\" indique une affirmation plus prudente, propre à une analyse critique rigoureuse."],
+      ["fill","Complète : \"___ le souligne le rapport, la mesure a eu un impact limité.\"",["Comme","Parce que","Bien que","Cependant"],0,"\"Comme le souligne le rapport\" introduit une idée attribuée à une source de façon fluide."],
+      ["translate","Traduis : \"According to the author, the results are inconclusive.\"",["Selon l'auteur, les résultats sont peu concluants.","Selon l'auteur, les résultats sont concluants.","L'auteur selon résultats peu concluants.","Les résultats selon l'auteur sont concluants pas."],0,"\"According to the author\" = \"Selon l'auteur\" ; \"inconclusive\" = \"peu concluants\"."],
+      ["mcq","Laquelle de ces pratiques constitue un plagiat académique ?",["Copier une phrase textuelle sans guillemets ni référence à la source.","Citer textuellement entre guillemets avec sa référence.","Paraphraser une idée et citer la source originale.","Résumer un article en mentionnant d'où il provient."],0,"Copier sans guillemets ni référence, même une seule phrase, est considéré comme du plagiat."],
+      ["writing","Écris un paragraphe académique de 55-75 mots en français qui paraphrase (sans copier) cette idée : « L'accès à internet a profondément changé la façon dont les gens s'informent. » Cite la source comme (Auteur, 2023).",[],["selon","soutient","(Auteur, 2023)"],"Ne copie pas la phrase originale : change la structure et le vocabulaire tout en conservant l'idée."]
+    ]
+  },
+  {
+    id:"fr_c2_logical_fallacies", level:"C2", title:"Sophismes logiques et persuasion", emoji:"🧠", xp:96,
+    description:"Détecte les sophismes logiques et les stratégies de persuasion dans des arguments de haut niveau.",
+    study: {
+      vocab: [
+        ["l'attaque personnelle (ad hominem)", "ad hominem attack"],
+        ["la fausse dichotomie", "false dichotomy"],
+        ["la pente glissante", "slippery slope"],
+        ["généraliser à partir d'un seul cas", "to generalize from a single case"],
+        ["faire appel à l'émotion plutôt qu'aux faits", "to appeal to emotion instead of facts"]
+      ],
+      grammar: [
+        ["Identifier les sophismes dans le discours", "Un sophisme ressemble à un argument valide mais sa structure logique est défectueuse, même s'il sonne persuasif.", "\"Si nous permettons cela, tout deviendra bientôt incontrôlable\" est une pente glissante : cela suppose une chaîne de conséquences sans preuve."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Tu ne devrais pas écouter son argument économique : de toute façon, c'est quelqu'un de désagréable.\" Quel sophisme est-ce ?",["Attaque personnelle (ad hominem) : elle discrédite la personne, pas l'argument.","Fausse dichotomie : elle réduit les options à seulement deux.","Pente glissante : elle prédit une chaîne de conséquences.","Généralisation hâtive à partir d'un seul cas."],0,"L'ad hominem attaque l'émetteur de l'argument plutôt que de réfuter l'argument lui-même."],
+      ["mcq","\"Soit tu soutiens cette loi exactement telle quelle, soit la sécurité de personne ne t'importe.\" Quel sophisme est-ce ?",["Fausse dichotomie : elle présente seulement deux options alors que plus de nuances sont possibles.","Une attaque personnelle contre l'interlocuteur.","Un appel à l'émotion sans aucun argument logique.","Une généralisation basée sur un seul cas isolé."],0,"La fausse dichotomie cache des options intermédiaires valides, en présentant seulement deux extrêmes."],
+      ["fill","\"Si nous permettons cette exception, tout le système s'effondrera bientôt.\" Cette phrase est un exemple de ___.",["pente glissante","attaque personnelle","fausse dichotomie","appel à l'autorité"],0,"La pente glissante suppose, sans preuve suffisante, une chaîne inévitable de conséquences négatives."],
+      ["translate","Traduis avec précision technique : \"This is a classic false dichotomy.\"",["C'est une fausse dichotomie classique.","C'est une dichotomie fausse classique est.","Classique cette fausse dichotomie est.","Cette fausse est dichotomie classique."],0,"\"False dichotomy\" se traduit techniquement par \"fausse dichotomie\"."],
+      ["mcq","Une publicité montre des images d'enfants qui pleurent pour vendre un produit de charité sans donner de données concrètes sur son impact. Quelle stratégie utilise-t-elle principalement ?",["Un appel à l'émotion plutôt qu'aux faits vérifiables.","Un argument logique rigoureux basé sur des données.","Une généralisation statistique précise.","Une citation d'une source académique fiable."],0,"Utiliser des images émotionnelles sans données concrètes, c'est faire appel à l'émotion plutôt qu'à la preuve."],
+      ["writing","Identifie et explique en français, en 55-75 mots, un sophisme logique que tu as entendu dans un débat, une publicité ou une discussion récente (réelle ou inventée). Nomme le sophisme et explique pourquoi l'argument est trompeur malgré son apparence convaincante.",[],["sophisme","parce que","bien que cela semble"],"Nomme explicitement le type de sophisme (ad hominem, fausse dichotomie, pente glissante, etc.) et justifie ton identification."]
+    ]
+  },
 ];
