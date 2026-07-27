@@ -812,4 +812,149 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch einen kurzen Kommentar (50-70 Wörter) mit feiner Ironie über eine lästige Alltagssituation (Stau, lange Warteschlange usw.), ohne Beleidigungen oder explizite Sprache.",[],["so ein glück","toll","natürlich"],"Die Ironie sollte durch den Kontrast zwischen positivem Ton und negativer Situation erkennbar sein, nicht durch direkte Aussage."]
     ]
   },
+  {
+    id:"de_a1_house_rooms", level:"A1", title:"Das Haus: Zimmer und Möbel", emoji:"🏠", xp:35,
+    description:"Lerne den Wortschatz für Zimmer, Möbel und Gegenstände in einem Haus auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Küche, das Badezimmer, das Schlafzimmer, das Wohnzimmer", "the kitchen, the bathroom, the bedroom, the living room"],
+        ["das Bett, der Tisch, der Stuhl, das Sofa", "the bed, the table, the chair, the sofa"],
+        ["Wo ist die Küche?", "Where is the kitchen?"],
+        ["Das Bett ist im Schlafzimmer.", "The bed is in the bedroom."],
+        ["auf, unter, neben", "on top of, under, next to"]
+      ],
+      grammar: [
+        ["\"Es gibt\" für Gegenstände in einem Raum", "\"Es gibt\" + Akkusativ beschreibt, was sich in einem Raum befindet.", "Es gibt einen Tisch in der Küche. Es gibt zwei Stühle daneben."]
+      ]
+    },
+    ex:[
+      ["mcq","Wo schläfst du normalerweise?",["Im Schlafzimmer.","In der Küche.","Im Badezimmer.","Im Wohnzimmer."],0,"\"Das Schlafzimmer\" ist der Raum, in dem man schläft."],
+      ["mcq","Wie fragt man richtig, wo sich etwas befindet?",["Wo ist die Küche?","Was ist die Küche?","Wann ist die Küche?","Wer ist die Küche?"],0,"\"Wo ist...?\" fragt nach dem Ort von etwas."],
+      ["fill","Ergänze: \"Das Sofa ist ___ dem Fenster.\"",["neben","auf","unter","hinter"],0,"\"Neben\" zeigt an, dass zwei Dinge nebeneinander sind."],
+      ["translate","Übersetze: \"The bed is in the bedroom.\"",["Das Bett ist im Schlafzimmer.","Das Bett ist in der Küche.","Der Stuhl ist im Schlafzimmer.","Das Bett ist das Schlafzimmer."],0,"\"The bed is in the bedroom\" = \"Das Bett ist im Schlafzimmer.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [Küche / einen / gibt / es / Tisch / der / in]",["Es gibt einen Tisch in der Küche","In der Küche gibt es einen Tisch","Einen Tisch es gibt in der Küche","Es einen Tisch gibt in der Küche"],0,"\"Es gibt\" + Objekt + \"in\" + Ort: \"Es gibt einen Tisch in der Küche.\""],
+      ["writing","Beschreibe auf Deutsch in 20-30 Wörtern deine Wohnung oder dein Haus: welche Zimmer es gibt und welche Möbel in einem davon stehen.",[],["Schlafzimmer","es gibt"],"Erwähne mindestens zwei Zimmer und zwei Möbelstücke."]
+    ]
+  },
+  {
+    id:"de_a2_health_pharmacy", level:"A2", title:"Gesundheit: Symptome und die Apotheke", emoji:"💊", xp:44,
+    description:"Beschreibe häufige Symptome und bitte auf Deutsch in der Apotheke oder beim Arzt um Hilfe.",
+    study: {
+      vocab: [
+        ["Mein Kopf / Bauch / Hals tut weh.", "My head / stomach / throat hurts."],
+        ["Ich habe Fieber, Husten, Übelkeit.", "I have a fever, a cough, nausea."],
+        ["Haben Sie etwas gegen Kopfschmerzen?", "Do you have something for a headache?"],
+        ["Nehmen Sie alle acht Stunden eine Tablette.", "Take one pill every eight hours."],
+        ["einen Arzttermin vereinbaren", "to make a doctor's appointment"]
+      ],
+      grammar: [
+        ["\"Weh tun\" für Schmerzen", "\"[Körperteil] tut/tun mir weh\" ist die natürliche Form, um Schmerzen auszudrücken.", "Mein Kopf tut mir weh. / Meine Füße tun mir weh."]
+      ]
+    },
+    ex:[
+      ["mcq","Du hast Kopfschmerzen. Was sagst du?",["Mein Kopf tut mir weh.","Ich mag meinen Kopf.","Ich habe meinen Kopf.","Ich bin mein Kopf."],0,"\"Mein Kopf tut mir weh\" beschreibt das Symptom mit \"weh tun\"."],
+      ["mcq","In der Apotheke: Wie fragst du nach einem Medikament?",["Haben Sie etwas gegen Kopfschmerzen?","Wo sind die Kopfschmerzen?","Wann sind die Kopfschmerzen?","Warum haben Sie Kopfschmerzen?"],0,"\"Haben Sie etwas gegen...?\" ist die natürliche Art, ein Medikament zu erfragen."],
+      ["fill","Ergänze: \"Meine Füße ___ nach dem Laufen weh.\"",["tun","tut","tue","tuen"],0,"\"Füße\" ist Plural, deshalb \"tun\": \"Meine Füße tun weh.\""],
+      ["translate","Übersetze: \"I have a fever and a cough.\"",["Ich habe Fieber und Husten.","Ich bin Fieber und Husten.","Ich mag Fieber und Husten.","Mein Fieber und Husten tut weh."],0,"\"I have a fever and a cough\" = \"Ich habe Fieber und Husten\", mit dem Verb \"haben\"."],
+      ["arrange","Bringe in die richtige Reihenfolge: [acht / Stunden / Tablette / eine / nehmen / Sie / alle]",["Nehmen Sie alle acht Stunden eine Tablette","Alle acht Stunden nehmen Sie eine Tablette","Eine Tablette nehmen Sie alle acht Stunden","Nehmen Sie eine Tablette alle acht Stunden"],0,"Imperativ + Häufigkeit + Objekt: \"Nehmen Sie alle acht Stunden eine Tablette.\""],
+      ["speaking","Beschreibe auf Deutsch in 40-60 Wörtern, wann du dich einmal krank gefühlt hast: welche Symptome du hattest und was du getan hast.",[],["tat weh","hatte","ging"],"Benutze mindestens zwei Symptome und eine Handlung, die du unternommen hast, um dich besser zu fühlen."]
+    ]
+  },
+  {
+    id:"de_b1_tech_social_media", level:"B1", title:"Technologie und soziale Medien", emoji:"📱", xp:58,
+    description:"Sprich über die Nutzung von Technologie und sozialen Medien, ihre Vorteile und Risiken, auf Deutsch.",
+    study: {
+      vocab: [
+        ["posten, teilen, kommentieren", "to post, to share, to comment"],
+        ["online sein / sich abmelden", "to be online / to log off"],
+        ["die Privatsphäre, persönliche Daten", "privacy, personal data"],
+        ["vom Handy abhängig sein", "to be dependent on your phone"],
+        ["mit jemandem in Kontakt bleiben", "to keep in touch with"]
+      ],
+      grammar: [
+        ["Vor- und Nachteile vergleichen", "\"Einerseits... andererseits\" und \"während\" helfen, zwei Ideen zu vergleichen.", "Einerseits helfen soziale Medien, in Kontakt zu bleiben; andererseits können sie viel Zeit kosten."]
+      ]
+    },
+    ex:[
+      ["mcq","Was ist ein echter Vorteil sozialer Medien?",["Sie helfen, mit weit entfernten Freunden in Kontakt zu bleiben.","Sie sagen immer die ganze Wahrheit über alles.","Sie beeinträchtigen nie die Privatsphäre.","Sie brauchen keine Internetverbindung."],0,"Mit weit entfernten Personen in Kontakt zu bleiben ist ein konkreter, überprüfbarer Vorteil."],
+      ["mcq","Welcher Satz drückt Sorge um die Privatsphäre aus?",["Mich beunruhigt, wie sie meine persönlichen Daten nutzen.","Ich liebe es, alles ohne nachzudenken zu teilen.","Ich benutze nie das Internet.","Ich poste alle fünf Minuten Fotos."],0,"Die Sorge um persönliche Daten ist ein zentrales Thema der digitalen Privatsphäre."],
+      ["fill","Ergänze: \"___ ist es toll, online zu sein, andererseits muss ich mich manchmal abmelden.\"",["Einerseits","Innerhalb","Davon","Daran"],0,"\"Einerseits... andererseits\" ist die Struktur, um zwei Ideen zu vergleichen."],
+      ["translate","Übersetze: \"Ich versuche, nicht zu sehr von meinem Handy abhängig zu sein.\"",["I try not to depend on my phone too much.","I try not depend too much my phone.","Not I try to depend on my phone.","Depend on my phone I try not too much."],0,"\"Abhängig sein von\" = \"to depend on\": \"I try not to depend on my phone too much.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [hilft / Kontakt / mir / es / im / zu / bleiben / mit Freunden]",["Es hilft mir im Kontakt mit Freunden zu bleiben","Hilft es mir im Kontakt mit Freunden zu bleiben","Im Kontakt hilft es mir mit Freunden zu bleiben","Es mir hilft im Kontakt mit Freunden zu bleiben"],0,"\"Es hilft mir\" + zu-Infinitiv: \"Es hilft mir, im Kontakt mit Freunden zu bleiben.\""],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über deine Beziehung zu sozialen Medien: ein Vorteil, ein Risiko und was du tust, um beides auszugleichen.",[],["einerseits","andererseits","Privatsphäre"],"Struktur: Vorteil + Risiko + eine konkrete Handlung, um beides auszugleichen."]
+    ]
+  },
+  {
+    id:"de_b2_ethical_dilemmas", level:"B2", title:"Ethische Dilemmata: dafür und dagegen argumentieren", emoji:"⚖️", xp:80,
+    description:"Präsentiere und wäge Argumente zu ethischen Alltagsdilemmata auf Deutsch ab.",
+    study: {
+      vocab: [
+        ["dafür / dagegen", "in favor of / against"],
+        ["aus ethischer Sicht", "from an ethical point of view"],
+        ["das Gemeinwohl, das individuelle Interesse", "the common good, individual interest"],
+        ["eine Entscheidung rechtfertigen", "to justify a decision"],
+        ["es gibt keine eindeutige Antwort", "there is no single answer"]
+      ],
+      grammar: [
+        ["Ein ausgewogenes Argument strukturieren", "Zuerst ein Argument präsentieren, dann das gegenteilige, und mit einer differenzierten Position abschließen, vermeidet Voreingenommenheit.", "Manche argumentieren, dass..., während andere behaupten, dass... Meiner Meinung nach haben beide Positionen etwas für sich."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz präsentiert ein Argument ausgewogen?",["Manche argumentieren, dass..., während andere behaupten, dass...","Jeder weiß, dass ich recht habe.","Es ist offensichtlich, dass die andere Position falsch ist.","Es gibt überhaupt kein Gegenargument."],0,"Beide Seiten vor der eigenen Meinung darzustellen ist typisch für ein ausgewogenes Argument auf B2-Niveau."],
+      ["mcq","Ein typisches ethisches Dilemma ist „das Gemeinwohl gegenüber dem individuellen Interesse“. Was bedeutet das?",["Ein Konflikt zwischen dem, was allen nützt, und dem, was einer einzelnen Person nützt.","Eine Entscheidung, die niemanden betrifft.","Ein Thema ohne jede soziale Bedeutung.","Eine rein wirtschaftliche Wahl ohne jede Ethik."],0,"Das Dilemma entsteht, wenn das Beste für die Gemeinschaft nicht mit dem Besten für eine Einzelperson übereinstimmt."],
+      ["fill","Ergänze: \"___ ethischer Sicht ist die Entscheidung diskutabel.\"",["Aus","Für","Durch","Mit"],0,"\"Aus ethischer Sicht\" ist der Standardausdruck, um eine Perspektive einzuführen."],
+      ["translate","Übersetze: \"There is no single answer to this dilemma.\"",["Es gibt keine eindeutige Antwort auf dieses Dilemma.","Es gibt keine eindeutige Antwort dieses Dilemma.","Dieses Dilemma es gibt keine eindeutige Antwort.","Eine eindeutige Antwort gibt es nicht für dieses Dilemma."],0,"\"There is no single answer\" = \"Es gibt keine eindeutige Antwort.\""],
+      ["mcq","Welcher dieser Sätze rechtfertigt eine Entscheidung auf begründete, nicht emotionale Weise?",["Man entschied sich so, weil die Vorteile die langfristigen Risiken überwogen.","Man entschied sich einfach so, Punkt.","Man entschied sich so, weil alle es wollten, ohne nachzudenken.","Man entschied sich so, weil man es schon immer so gemacht hat."],0,"Eine begründete Rechtfertigung vergleicht explizit Nutzen und Risiken."],
+      ["writing","Wähle ein alltägliches ethisches Dilemma (zum Beispiel eine Notlüge) und schreibe auf Deutsch 55-75 Wörter mit einem Argument dafür, einem dagegen und deiner differenzierten Schlussfolgerung.",[],["dafür","dagegen","jedoch"],"Struktur: Argument dafür + Argument dagegen + differenzierte, nicht absolute Schlussfolgerung."]
+    ]
+  },
+  {
+    id:"de_c1_academic_citing", level:"C1", title:"Akademischer Diskurs: zitieren und paraphrasieren", emoji:"🎓", xp:90,
+    description:"Lerne, Quellen zu zitieren, Ideen zu paraphrasieren und Plagiate in einem akademischen Register zu vermeiden.",
+    study: {
+      vocab: [
+        ["laut (Autor, Jahr)", "according to (author, year)"],
+        ["wie der Autor betont/argumentiert", "as the author points out/argues"],
+        ["eine Idee paraphrasieren", "to paraphrase an idea"],
+        ["wörtlich zitieren", "to quote directly"],
+        ["das Plagiat, zuverlässige Quellen", "plagiarism, reliable sources"]
+      ],
+      grammar: [
+        ["Verben zur Einführung fremder Zitate", "\"Argumentiert, dass\", \"behauptet, dass\", \"weist darauf hin, dass\" variieren die Nuance: nicht alle implizieren denselben Grad an Sicherheit.", "Der Autor argumentiert, die Politik sei ein Fehler gewesen; andere Forscher weisen jedoch auf wichtige Nuancen hin."],
+        ["Paraphrasieren ohne die Struktur zu kopieren", "Paraphrasieren bedeutet, sowohl die Wörter als auch die Reihenfolge der Ideen zu ändern, nicht nur einzelne Synonyme.", "Original: 'Die Studie zeigt, dass Sport Stress reduziert.' Paraphrase: 'Laut der Forschung hilft körperliche Aktivität, das Stressniveau zu senken.'"]
+      ]
+    },
+    ex:[
+      ["mcq","Welche dieser Optionen ist eine korrekte Paraphrase, keine getarnte Kopie?",["Laut der Forschung hilft körperliche Aktivität, das Stressniveau zu senken.","Die Studie zeigt, dass Sport den Stress vollständig reduziert.","Die Studie zeigt tatsächlich, dass Sport den Stress reduziert.","Zeigt die Studie, dass reduziert Stress den Sport."],0,"Eine gute Paraphrase ändert Struktur und Wortschatz, nicht nur ein oder zwei Wörter."],
+      ["mcq","Welches Verb vermittelt die größte kritische Distanz zum zitierten Autor?",["Der Autor deutet an, dass...","Der Autor beweist kategorisch, dass...","Der Autor zeigt zweifelsfrei, dass...","Der Autor bestätigt endgültig, dass..."],0,"\"Deutet an\" zeigt eine vorsichtigere Aussage, typisch für eine rigorose kritische Analyse."],
+      ["fill","Ergänze: \"___ der Bericht betont, hatte die Maßnahme eine begrenzte Wirkung.\"",["Wie","Weil","Obwohl","Jedoch"],0,"\"Wie der Bericht betont\" führt eine einer Quelle zugeschriebene Idee flüssig ein."],
+      ["translate","Übersetze: \"Laut dem Autor sind die Ergebnisse wenig aussagekräftig.\"",["According to the author, the results are inconclusive.","According to the author, the results are conclusive.","The author according results inconclusive is.","The results according to the author are conclusive not."],0,"\"Laut dem Autor\" = \"According to the author\"; \"wenig aussagekräftig\" = \"inconclusive\"."],
+      ["mcq","Welche dieser Praktiken stellt ein akademisches Plagiat dar?",["Einen wörtlichen Satz ohne Anführungszeichen oder Quellenangabe kopieren.","Wörtlich mit Anführungszeichen und Quellenangabe zitieren.","Eine Idee paraphrasieren und die Originalquelle nennen.","Einen Artikel zusammenfassen und die Herkunft nennen."],0,"Etwas ohne Anführungszeichen oder Quellenangabe zu kopieren, selbst nur einen Satz, gilt als Plagiat."],
+      ["writing","Schreibe auf Deutsch einen akademischen Absatz von 55-75 Wörtern, der diese Idee paraphrasiert (ohne zu kopieren): 'Der Internetzugang hat die Art, wie Menschen sich informieren, tiefgreifend verändert.' Zitiere die Quelle als (Autor, 2023).",[],["laut","argumentiert","(Autor, 2023)"],"Kopiere nicht den Originalsatz: ändere Struktur und Wortschatz, während du die Idee bewahrst."]
+    ]
+  },
+  {
+    id:"de_c2_logical_fallacies", level:"C2", title:"Logische Fehlschlüsse und Überzeugungskraft", emoji:"🧠", xp:96,
+    description:"Erkenne logische Fehlschlüsse und Überzeugungsstrategien in anspruchsvollen Argumenten auf Deutsch.",
+    study: {
+      vocab: [
+        ["der persönliche Angriff (ad hominem)", "ad hominem attack"],
+        ["die falsche Dichotomie", "false dichotomy"],
+        ["die abschüssige Bahn (Dammbruchargument)", "slippery slope"],
+        ["von einem einzelnen Fall aus verallgemeinern", "to generalize from a single case"],
+        ["an die Emotion statt an Fakten appellieren", "to appeal to emotion instead of facts"]
+      ],
+      grammar: [
+        ["Fehlschlüsse im Diskurs erkennen", "Ein Fehlschluss wirkt wie ein gültiges Argument, aber seine logische Struktur ist fehlerhaft, auch wenn er überzeugend klingt.", "\"Wenn wir das erlauben, wird bald alles außer Kontrolle geraten\" ist ein Dammbruchargument: es nimmt eine Kette von Konsequenzen ohne Beweise an."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Du solltest sein wirtschaftliches Argument nicht anhören — außerdem ist er ein unangenehmer Mensch.\" Welcher Fehlschluss ist das?",["Ad-hominem-Angriff: er diskreditiert die Person, nicht das Argument.","Falsche Dichotomie: reduziert die Optionen auf nur zwei.","Dammbruchargument: sagt eine Kette von Konsequenzen voraus.","Voreilige Verallgemeinerung von einem einzelnen Fall."],0,"Der Ad-hominem-Angriff greift den Urheber des Arguments an, statt das Argument selbst zu widerlegen."],
+      ["mcq","\"Entweder du unterstützt dieses Gesetz genau so, wie es ist, oder dir ist niemandes Sicherheit wichtig.\" Welcher Fehlschluss ist das?",["Falsche Dichotomie: sie präsentiert nur zwei Optionen, obwohl mehr Nuancen möglich sind.","Ein persönlicher Angriff gegen den Zuhörer.","Ein Appell an die Emotion ohne jedes logische Argument.","Eine Verallgemeinerung auf Basis eines einzelnen isolierten Falls."],0,"Die falsche Dichotomie verbirgt gültige Zwischenoptionen und präsentiert nur zwei Extreme."],
+      ["fill","\"Wenn wir diese Ausnahme zulassen, wird bald das ganze System zusammenbrechen.\" Dieser Satz ist ein Beispiel für ___.",["ein Dammbruchargument","einen Ad-hominem-Angriff","eine falsche Dichotomie","einen Autoritätsappell"],0,"Das Dammbruchargument nimmt ohne ausreichenden Beweis eine unvermeidliche Kette negativer Konsequenzen an."],
+      ["translate","Übersetze mit technischer Präzision: \"This is a classic false dichotomy.\"",["Das ist eine klassische falsche Dichotomie.","Das ist eine falsche klassische Dichotomie ist.","Klassisch ist diese falsche Dichotomie.","Diese falsche ist klassische Dichotomie."],0,"\"False dichotomy\" wird technisch als \"falsche Dichotomie\" übersetzt."],
+      ["mcq","Eine Werbung zeigt Bilder weinender Kinder, um ein Wohltätigkeitsprodukt zu verkaufen, ohne konkrete Daten über dessen Wirkung zu geben. Welche Strategie nutzt sie hauptsächlich?",["Einen Appell an die Emotion statt an überprüfbare Fakten.","Ein rigoroses logisches Argument auf Datenbasis.","Eine präzise statistische Verallgemeinerung.","Ein Zitat aus einer zuverlässigen akademischen Quelle."],0,"Emotionale Bilder ohne konkrete Daten zu nutzen bedeutet, an die Emotion statt an die Beweise zu appellieren."],
+      ["writing","Identifiziere und erkläre auf Deutsch in 55-75 Wörtern einen logischen Fehlschluss, den du kürzlich in einer Debatte, Werbung oder Diskussion gehört hast (real oder erfunden). Benenne den Fehlschluss und erkläre, warum das Argument trotz seiner Überzeugungskraft irreführend ist.",[],["Fehlschluss","weil","obwohl es scheint"],"Benenne explizit die Art des Fehlschlusses (Ad hominem, falsche Dichotomie, Dammbruchargument usw.) und begründe deine Einordnung."]
+    ]
+  },
 ];
