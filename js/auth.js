@@ -680,22 +680,14 @@ function addTyping(){
 
 
 /* ═══════════════════════════════════════
-   PICKUP DE EVENTOS FIREBASE PENDIENTES
-   Firebase puede disparar onAuthStateChanged antes de que auth.js cargue.
-   Al terminar de cargar este módulo, procesamos cualquier evento que quedó en cola.
+   EVENTOS DE FIREBASE QUE LLEGAN ANTES DE CARGAR ESTE MÓDULO
+   El bloque inline en index.html usa window._fbCallWhenReady(...) para
+   entregar estos eventos con reintentos (hasta ~15s) por si Firebase
+   resuelve el login antes de que este archivo termine de cargar — esto
+   pasa sobre todo en móvil, con red más lenta. Aquí solo definimos el
+   handler del error de Google; onFirebaseUserReady/onFirebaseSignOut
+   ya están definidos arriba en este mismo archivo.
 ═══════════════════════════════════════ */
-(function pickupPendingAuthEvents(){
-  if(window._pendingAuthUser){
-    const user = window._pendingAuthUser;
-    window._pendingAuthUser = null;
-    window.onFirebaseUserReady(user);
-  } else if(window._pendingSignOut){
-    window._pendingSignOut = false;
-    window.onFirebaseSignOut();
-  }
-  if(window._pendingGoogleErr){
-    const code = window._pendingGoogleErr;
-    window._pendingGoogleErr = null;
-    showLoginErr(firebaseErrMsg(code));
-  }
-})();
+window._showGoogleRedirectError = function(code){
+  showLoginErr(firebaseErrMsg(code));
+};
