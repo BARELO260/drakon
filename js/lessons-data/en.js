@@ -615,4 +615,221 @@ window.LESSON_BANKS.EN = [
       ["speaking","Elige una postura con la que estés parcialmente de acuerdo y explica en 45-70 palabras: concede un punto válido del lado contrario, y luego matiza tu propia posición con una reserva concreta.",[],["granted","that said","to a certain extent"],"Estructura: concesión clara + matización específica, evitando el \"sí, pero\" simplista."]
     ]
   },
+  {
+    id:"a1_house_rooms", level:"A1", title:"La casa: habitaciones y muebles", emoji:"🏠", xp:35,
+    description:"Aprende el vocabulario de las habitaciones, los muebles y los objetos de una casa en inglés.",
+    study: {
+      vocab: [
+        ["the kitchen, the bathroom, the bedroom, the living room", "la cocina, el baño, el dormitorio, el salón"],
+        ["the bed, the table, the chair, the sofa", "la cama, la mesa, la silla, el sofá"],
+        ["Where is the kitchen?", "¿Dónde está la cocina?"],
+        ["The bed is in the bedroom.", "La cama está en el dormitorio."],
+        ["on top of, under, next to", "encima de, debajo de, al lado de"]
+      ],
+      grammar: [
+        ["\"There is / There are\" para ubicar objetos", "Se usa \"there is\" (singular) y \"there are\" (plural) para decir qué hay en un lugar.", "There is a table in the kitchen. There are two chairs next to it."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde duermes normalmente?",["In the bedroom.","In the kitchen.","In the bathroom.","In the living room."],0,"\"The bedroom\" es la habitación donde se duerme."],
+      ["mcq","¿Cuál es la pregunta correcta para saber dónde está algo?",["Where is the kitchen?","What is the kitchen?","When is the kitchen?","Who is the kitchen?"],0,"\"Where is...?\" pregunta por la ubicación de algo."],
+      ["fill","Completa: \"The sofa is ___ the window.\"",["next to","on","under","behind"],0,"\"Next to\" indica que dos cosas están juntas, una al lado de la otra."],
+      ["translate","Traduce: \"La cama está en el dormitorio.\"",["The bed is in the bedroom.","The bed is in the kitchen.","The chair is in the bedroom.","The bed is the bedroom."],0,"\"La cama está en el dormitorio\" = \"The bed is in the bedroom.\""],
+      ["arrange","Ordena: [kitchen / a / table / there / in / is / the]",["There is a table in the kitchen","In the kitchen there is a table","A table there is in the kitchen","There a table is in the kitchen"],0,"\"There is\" + objeto + \"in\" + lugar: \"There is a table in the kitchen.\""],
+      ["writing","Describe en inglés, en 20-30 palabras, tu casa o apartamento: qué habitaciones tiene y qué muebles hay en una de ellas.",[],["bedroom","there is","there are"],"Menciona al menos dos habitaciones y dos muebles."]
+    ]
+  },
+  {
+    id:"a2_health_pharmacy", level:"A2", title:"La salud: síntomas y la farmacia", emoji:"💊", xp:44,
+    description:"Describe síntomas comunes y pide ayuda en la farmacia o con el médico en inglés.",
+    study: {
+      vocab: [
+        ["My head / stomach / throat hurts.", "Me duele la cabeza / el estómago / la garganta."],
+        ["I have a fever, a cough, nausea.", "Tengo fiebre, tos, náuseas."],
+        ["Do you have something for a headache?", "¿Tiene algo para el dolor de cabeza?"],
+        ["Take one pill every eight hours.", "Tómese una pastilla cada ocho horas."],
+        ["to make a doctor's appointment", "pedir cita con el médico"]
+      ],
+      grammar: [
+        ["\"Hurt\" para describir dolor", "\"My + parte del cuerpo + hurts/hurt\" es la forma natural de expresar dolor en inglés.", "My head hurts. / My feet hurt."]
+      ]
+    },
+    ex:[
+      ["mcq","Tienes dolor de cabeza. ¿Qué dices en inglés?",["My head hurts.","I like my head.","I have my head.","I am my head."],0,"\"My head hurts\" describe el síntoma con el verbo \"hurt\"."],
+      ["mcq","En la farmacia, ¿qué preguntas para pedir un medicamento?",["Do you have something for a headache?","Where is the headache?","When is the headache?","Why do you have a headache?"],0,"\"Do you have something for...?\" es la forma natural de pedir un medicamento."],
+      ["fill","Completa: \"My feet ___ after running.\"",["hurt","hurts","pain","painful"],0,"\"Feet\" es plural, así que el verbo es \"hurt\" sin \"-s\"."],
+      ["translate","Traduce: \"Tengo fiebre y tos.\"",["I have a fever and a cough.","I have fever and cough.","I am fever and cough.","My fever and cough hurt."],0,"\"Tengo fiebre y tos\" = \"I have a fever and a cough\", con el verbo \"have\"."],
+      ["arrange","Ordena: [eight / take / pill / hours / one / every]",["Take one pill every eight hours","Every eight hours take one pill","One pill take every eight hours","Take every eight hours one pill"],0,"Imperativo + objeto + frecuencia: \"Take one pill every eight hours.\""],
+      ["speaking","Describe en inglés, en 40-60 palabras, una vez que te sentiste mal: qué síntomas tenías y qué hiciste.",[],["hurt","had","went"],"Usa al menos dos síntomas y una acción que tomaste para sentirte mejor."]
+    ]
+  },
+  {
+    id:"b1_tech_social_media", level:"B1", title:"Tecnología y redes sociales", emoji:"📱", xp:58,
+    description:"Habla sobre el uso de la tecnología y las redes sociales, sus ventajas y sus riesgos, en inglés.",
+    study: {
+      vocab: [
+        ["to post, to share, to comment", "publicar, compartir, comentar"],
+        ["to be online / to log off", "estar conectado / desconectarse"],
+        ["privacy, personal data", "la privacidad, los datos personales"],
+        ["to be dependent on your phone", "depender del teléfono"],
+        ["to keep in touch with", "mantenerse en contacto con"]
+      ],
+      grammar: [
+        ["Comparar ventajas y desventajas", "\"On the one hand... on the other hand\" y \"whereas\" ayudan a comparar dos ideas.", "On the one hand, social media helps you keep in touch; on the other, it can take up a lot of time."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es una ventaja real de las redes sociales?",["They help you keep in touch with friends far away.","They always tell the whole truth.","They never affect your privacy.","They don't need an internet connection."],0,"Mantenerse en contacto con personas lejanas es una ventaja concreta y verificable."],
+      ["mcq","¿Qué frase expresa preocupación por la privacidad?",["I'm worried about how they use my personal data.","I love sharing everything without thinking.","I never use the internet.","I post photos every five minutes."],0,"La preocupación por los datos personales es un tema central de privacidad digital."],
+      ["fill","Completa: \"___ the one hand I like being online, on the other I need to log off sometimes.\"",["On","In","At","For"],0,"\"On the one hand... on the other\" es la estructura para comparar dos ideas."],
+      ["translate","Traduce: \"Intento no depender demasiado de mi teléfono.\"",["I try not to depend on my phone too much.","I try not depend too much my phone.","Not I try to depend on my phone.","Depend on my phone I try not too much."],0,"\"Depender de\" = \"to depend on\": \"I try not to depend on my phone too much.\""],
+      ["arrange","Ordena: [keep / helps / touch / me / in / it / with friends]",["It helps me keep in touch with friends","Helps it me keep in touch with friends","In touch it helps me keep with friends","It keep helps me in touch with friends"],0,"\"It helps me\" + infinitivo: \"It helps me keep in touch with friends.\""],
+      ["writing","Escribe en inglés 45-65 palabras sobre tu relación con las redes sociales: una ventaja, un riesgo y qué haces para equilibrarlo.",[],["on the one hand","on the other hand","privacy"],"Estructura: ventaja + riesgo + una acción concreta para equilibrar ambos."]
+    ]
+  },
+  {
+    id:"b2_ethical_dilemmas", level:"B2", title:"Dilemas éticos: argumentar a favor y en contra", emoji:"⚖️", xp:80,
+    description:"Presenta y contrapesa argumentos sobre dilemas éticos comunes en inglés.",
+    study: {
+      vocab: [
+        ["in favor of / against", "a favor de / en contra de"],
+        ["from an ethical point of view", "desde un punto de vista ético"],
+        ["the common good, individual interest", "el bien común, el interés individual"],
+        ["to justify a decision", "justificar una decisión"],
+        ["there is no single answer", "no hay una respuesta única"]
+      ],
+      grammar: [
+        ["Estructurar un argumento equilibrado", "Presentar primero un argumento, luego el contrario, y cerrar con una postura matizada evita el sesgo.", "Some argue that..., while others maintain that... In my opinion, both sides have a point."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase presenta un argumento de forma equilibrada?",["Some argue that..., while others maintain that...","Everyone knows I'm right.","It's obvious the other side is wrong.","There's no argument against it at all."],0,"Presentar ambos lados antes de opinar es propio de un argumento equilibrado en B2."],
+      ["mcq","Un dilema ético típico es \"el bien común frente al interés individual\". ¿Qué significa esto?",["A conflict between what benefits everyone and what benefits one person.","A decision that affects no one.","A topic with no social importance at all.","A purely economic choice with no ethics involved."],0,"El dilema surge cuando lo mejor para la comunidad no coincide con lo mejor para un individuo."],
+      ["fill","Completa: \"___ an ethical point of view, the decision is debatable.\"",["From","For","By","With"],0,"\"From an ethical point of view\" es la expresión estándar para introducir una perspectiva."],
+      ["translate","Traduce: \"No hay una respuesta única para este dilema.\"",["There is no single answer to this dilemma.","There is no single answer this dilemma.","This dilemma there is no single answer.","A single answer there is no for this dilemma."],0,"\"No hay una respuesta única\" = \"There is no single answer\"."],
+      ["mcq","¿Cuál de estas frases justifica una decisión de forma razonada, no emocional?",["It was decided that way because the benefits outweighed the long-term risks.","It was decided that way just because.","It was decided that way because everyone wanted it without thinking.","It was decided that way because that's how it's always been done."],0,"Una justificación razonada compara beneficios y riesgos de forma explícita."],
+      ["writing","Elige un dilema ético cotidiano (por ejemplo, decir una mentira piadosa) y escribe en inglés 55-75 palabras presentando un argumento a favor, uno en contra y tu conclusión matizada.",[],["in favor of","against","however"],"Estructura: argumento a favor + argumento en contra + conclusión matizada, no absoluta."]
+    ]
+  },
+  {
+    id:"c1_academic_citing", level:"C1", title:"Discurso académico: citar y parafrasear", emoji:"🎓", xp:90,
+    description:"Aprende a citar fuentes, parafrasear ideas y evitar el plagio en un registro académico en inglés.",
+    study: {
+      vocab: [
+        ["according to (author, year)", "según (autor, año)"],
+        ["as the author points out/argues", "como señala/sostiene el autor"],
+        ["to paraphrase an idea", "parafrasear una idea"],
+        ["to quote directly", "citar textualmente"],
+        ["plagiarism, reliable sources", "el plagio, las fuentes fiables"]
+      ],
+      grammar: [
+        ["Verbos para introducir citas ajenas", "\"Argues that\", \"claims that\", \"points out that\" varían el matiz: no todos implican el mismo grado de certeza.", "The author argues that the policy was a mistake; other researchers, however, point out important nuances."],
+        ["Parafrasear sin copiar la estructura", "Parafrasear implica cambiar tanto las palabras como el orden de las ideas, no solo sinónimos sueltos.", "Original: 'The study shows that exercise reduces stress.' Paraphrase: 'According to the research, physical activity helps lower stress levels.'"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas opciones es una paráfrasis correcta, no una copia disimulada?",["According to the research, physical activity helps lower stress levels.","The study shows that exercise totally reduces stress.","The study clearly shows that exercise reduces stress.","Shows the study that reduces stress the exercise."],0,"Una buena paráfrasis cambia estructura y vocabulario, no solo una o dos palabras."],
+      ["mcq","¿Qué verbo transmite mayor distancia crítica del autor citado?",["The author suggests that...","The author categorically proves that...","The author undeniably demonstrates that...","The author definitively confirms that..."],0,"\"Suggests\" indica una afirmación más cautelosa, propia de un análisis crítico riguroso."],
+      ["fill","Completa: \"___ the report points out, the measure had a limited impact.\"",["As","Because","Although","However"],0,"\"As the report points out\" introduce una idea atribuida a una fuente de forma fluida."],
+      ["translate","Traduce: \"Según el autor, los resultados son poco concluyentes.\"",["According to the author, the results are inconclusive.","According to the author, the results are conclusive.","The author according results inconclusive is.","The results according to the author are conclusive not."],0,"\"Según el autor\" = \"According to the author\"; \"poco concluyentes\" = \"inconclusive\"."],
+      ["mcq","¿Cuál de estas prácticas constituye plagio académico?",["Copying a direct sentence without quotation marks or a source reference.","Quoting directly with quotation marks and a reference.","Paraphrasing an idea and citing the original source.","Summarising an article while mentioning where it comes from."],0,"Copiar sin comillas ni referencia, aunque sea una sola frase, se considera plagio."],
+      ["writing","Escribe en inglés un párrafo académico de 55-75 palabras que parafrasee (sin copiar) esta idea: 'Internet access has profoundly changed how people get informed.' Cita la fuente como (Author, 2023).",[],["according to","argues","(Author, 2023)"],"No copies la frase original: cambia estructura y vocabulario mientras conservas la idea."]
+    ]
+  },
+  {
+    id:"c2_logical_fallacies", level:"C2", title:"Falacias lógicas y persuasión", emoji:"🧠", xp:96,
+    description:"Detecta falacias lógicas y estrategias de persuasión en argumentos de alto nivel en inglés.",
+    study: {
+      vocab: [
+        ["ad hominem attack", "el ataque personal (ad hominem)"],
+        ["false dichotomy", "la falsa dicotomía"],
+        ["slippery slope", "la pendiente resbaladiza"],
+        ["to generalize from a single case", "generalizar a partir de un solo caso"],
+        ["to appeal to emotion instead of facts", "apelar a la emoción en vez de a los hechos"]
+      ],
+      grammar: [
+        ["Identificar falacias en el discurso", "Una falacia parece un argumento válido pero su estructura lógica es defectuosa, aunque suene persuasiva.", "\"If we allow this, everything will soon spiral out of control\" is a slippery slope: it assumes a chain of consequences without evidence."]
+      ]
+    },
+    ex:[
+      ["mcq","\"You shouldn't listen to his economic argument — besides, he's an unpleasant person.\" ¿Qué falacia es esta?",["Ad hominem attack: it discredits the person, not the argument.","False dichotomy: it reduces the options to only two.","Slippery slope: it predicts a chain of consequences.","Hasty generalization from a single case."],0,"El ad hominem ataca al emisor del argumento en vez de refutar el argumento mismo."],
+      ["mcq","\"Either you support this law exactly as it is, or you don't care about anyone's safety.\" ¿Qué falacia es esta?",["False dichotomy: it presents only two options when more nuance is possible.","A personal attack against the listener.","An appeal to emotion with no logical argument.","A generalization based on a single isolated case."],0,"La falsa dicotomía oculta opciones intermedias válidas, presentando solo dos extremos."],
+      ["fill","\"If we allow this exception, the whole system will soon collapse.\" This sentence is an example of ___.",["a slippery slope","an ad hominem attack","a false dichotomy","an appeal to authority"],0,"El \"slippery slope\" asume, sin evidencia suficiente, una cadena inevitable de consecuencias negativas."],
+      ["translate","Traduce con precisión técnica: \"Esta es una falsa dicotomía clásica.\"",["This is a classic false dichotomy.","This is a false classic dichotomy is.","Classic this false dichotomy is.","This false is classic dichotomy."],0,"\"Falsa dicotomía\" se traduce técnicamente como \"false dichotomy\"."],
+      ["mcq","Un anuncio muestra imágenes de niños llorando para vender un producto de caridad sin dar datos concretos sobre su impacto. ¿Qué estrategia usa principalmente?",["An appeal to emotion rather than verifiable facts.","A rigorous logical argument based on data.","A precise statistical generalization.","A citation from a reliable academic source."],0,"Usar imágenes emotivas sin datos concretos es apelar a la emoción en vez de a la evidencia."],
+      ["writing","Identifica y explica en inglés, en 55-75 palabras, una falacia lógica que hayas escuchado en un debate, anuncio o discusión reciente (real o inventada). Nombra la falacia y explica por qué el argumento es engañoso pese a sonar convincente.",[],["fallacy","because","although it seems"],"Nombra explícitamente el tipo de falacia (ad hominem, false dichotomy, slippery slope, etc.) y justifica tu identificación."]
+    ]
+  },
+  {
+    id:"b1_complaints_requests", level:"B1", title:"Quejas y peticiones corteses", emoji:"🙏", xp:56,
+    description:"Aprende a quejarte y a pedir cosas de forma educada en inglés, en distintos registros.",
+    study: {
+      vocab: [
+        ["I'm afraid there's a problem with...", "Me temo que hay un problema con..."],
+        ["Would you mind + gerundio...?", "¿Te importaría + infinitivo...?"],
+        ["Could you possibly...?", "¿Podrías por casualidad...?"],
+        ["I'd like to make a complaint about...", "Me gustaría presentar una queja sobre..."],
+        ["Thank you for your understanding.", "Gracias por su comprensión."]
+      ],
+      grammar: [
+        ["Peticiones corteses con \"could\" y \"would you mind\"", "\"Could you...?\" y \"Would you mind + -ing?\" suavizan una petición directa.", "Would you mind closing the window? / Could you send me the invoice, please?"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la forma más cortés de pedir algo?",["Would you mind closing the window?","Close the window now.","Window. Close it.","You must close the window."],0,"\"Would you mind + -ing?\" es una de las formas más corteses de pedir algo en inglés."],
+      ["mcq","Quieres quejarte formalmente de un servicio. ¿Qué frase usas?",["I'd like to make a complaint about the service.","The service is terrible, obviously.","I hate this service.","Your service, it's bad."],0,"\"I'd like to make a complaint about...\" es la forma estándar y formal de presentar una queja."],
+      ["fill","Completa: \"___ you possibly send me the invoice today?\"",["Could","Would","Should","Must"],0,"\"Could you possibly...?\" es una petición cortés y ligeramente más enfática que \"could you...?\"."],
+      ["translate","Traduce: \"Me temo que hay un problema con su pedido.\"",["I'm afraid there's a problem with your order.","I afraid there's a problem your order.","There's a problem I'm afraid with order.","Your order I'm afraid problem there's."],0,"\"Me temo que\" = \"I'm afraid that\", una forma cortés de introducir malas noticias."],
+      ["arrange","Ordena: [mind / window / would / closing / the / you]",["Would you mind closing the window","You would mind closing the window","Closing the window would you mind","Mind would you closing the window"],0,"\"Would you mind\" + gerundio: \"Would you mind closing the window?\""],
+      ["writing","Escribe en inglés un correo breve (45-65 palabras) quejándote educadamente de un problema con un pedido y pidiendo una solución.",[],["I'm afraid","would you mind","thank you for your understanding"],"Mantén un tono cortés incluso al quejarte: explica el problema, pide una solución concreta y agradece."]
+    ]
+  },
+  {
+    id:"b2_reported_speech", level:"B2", title:"Estilo indirecto: informar lo que otros dijeron", emoji:"🗣️", xp:78,
+    description:"Transforma preguntas, órdenes y afirmaciones al estilo indirecto en inglés.",
+    study: {
+      vocab: [
+        ["She said (that) she was tired.", "Dijo que estaba cansada."],
+        ["He told me to wait.", "Me dijo que esperara."],
+        ["They asked if I had finished.", "Preguntaron si había terminado."],
+        ["reporting verbs: say, tell, ask, explain", "verbos de reporte: decir, contar, preguntar, explicar"]
+      ],
+      grammar: [
+        ["El retroceso de tiempos verbales (backshift)", "En estilo indirecto, los tiempos verbales suelen retroceder un paso: presente → pasado, pasado → pluscuamperfecto.", "Direct: \"I am tired.\" → Reported: She said she was tired."],
+        ["\"Say\" vs \"tell\"", "\"Tell\" necesita un objeto directo (a quién se le dice algo); \"say\" no lo necesita.", "She told me the news. / She said the news was good."]
+      ]
+    },
+    ex:[
+      ["mcq","Estilo directo: \"I am tired,\" she said. ¿Cuál es la versión correcta en estilo indirecto?",["She said (that) she was tired.","She said (that) she is tired.","She said (that) I was tired.","She say she was tired."],0,"El presente \"am\" retrocede a pasado \"was\" en estilo indirecto (backshift)."],
+      ["mcq","¿Cuál es la diferencia principal entre \"say\" y \"tell\"?",["\"Tell\" necesita un objeto directo (a quién); \"say\" no lo necesita.","\"Say\" siempre necesita un objeto directo y \"tell\" nunca.","No hay ninguna diferencia entre ambos verbos.","\"Tell\" solo se usa en preguntas."],0,"\"Tell\" requiere a quién se dice algo (tell me, tell him); \"say\" no lo requiere necesariamente."],
+      ["fill","Estilo directo: \"Wait here,\" he said to me. Estilo indirecto: \"He told me ___ wait there.\"",["to","that","if","for"],0,"Las órdenes en estilo indirecto usan \"tell someone to + infinitivo\": \"He told me to wait there.\""],
+      ["translate","Traduce al estilo indirecto en inglés: \"Preguntaron si yo había terminado.\"",["They asked if I had finished.","They asked if I have finished.","They ask if I had finished.","They asked if I finished had."],0,"Preguntas indirectas con \"if\" + sujeto + verbo; el pasado simple retrocede a pluscuamperfecto: \"had finished\"."],
+      ["mcq","Estilo directo: \"Don't touch that,\" she said. ¿Cuál es la versión correcta en estilo indirecto?",["She told me not to touch that.","She said me not touch that.","She told not touch that.","She said to not touching that."],0,"Las órdenes negativas usan \"tell someone not to + infinitivo\": \"She told me not to touch that.\""],
+      ["writing","Escribe en inglés 45-65 palabras contando (en estilo indirecto) una conversación real o inventada: qué dijo alguien, qué preguntó y qué te pidió que hicieras.",[],["said that","asked if","told me to"],"Usa al menos las tres estructuras: afirmación, pregunta y orden, todas en estilo indirecto."]
+    ]
+  },
+  {
+    id:"c1_causal_connectors", level:"C1", title:"Conectores complejos de causa-consecuencia", emoji:"🔗", xp:88,
+    description:"Usa conectores avanzados de causa y consecuencia para dar cohesión a un texto formal en inglés.",
+    study: {
+      vocab: [
+        ["given that / on the grounds that", "dado que / por el hecho de que"],
+        ["as a result / consequently", "como resultado / en consecuencia"],
+        ["this, in turn, leads to...", "esto, a su vez, lleva a..."],
+        ["due to the fact that", "debido al hecho de que"]
+      ],
+      grammar: [
+        ["Conectores causales formales", "\"Given that\" y \"on the grounds that\" introducen una causa en un registro formal, más elaborado que \"because\".", "The proposal was rejected on the grounds that it lacked sufficient funding."],
+        ["Cadenas de consecuencia", "\"This, in turn, leads to...\" conecta una consecuencia con la siguiente, mostrando una cadena causal.", "Prices rose, which, in turn, led to lower consumer spending."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector es más apropiado en un informe formal para introducir una causa?",["Given that funding was limited, the project was postponed.","Because money, the project was postponed.","The project, so it was postponed because money.","Postponed the project was because of money reasons."],0,"\"Given that\" es un conector causal formal apropiado para informes."],
+      ["mcq","\"Prices rose, which, in turn, led to lower consumer spending.\" ¿Qué función cumple \"in turn\"?",["Muestra que un efecto se convierte en la causa del siguiente, en una cadena.","Contradice la idea anterior por completo.","Introduce una opinión personal del autor.","Elimina cualquier relación causal entre las ideas."],0,"\"In turn\" señala que un resultado se convierte en la causa de otro efecto posterior."],
+      ["fill","Completa: \"The measure was criticized ___ the grounds that it disproportionately affected small businesses.\"",["on","in","for","with"],0,"\"On the grounds that\" es la colocación fija correcta."],
+      ["translate","Traduce: \"Como resultado, las ventas cayeron un 15% ese trimestre.\"",["As a result, sales fell by 15% that quarter.","As a result, sales fell 15% that quarter is.","Result as, sales fell by 15% that quarter.","Sales as a result fell by 15% that quarter is."],0,"\"Como resultado\" = \"As a result\", seguido de la consecuencia."],
+      ["mcq","¿Cuál de estas frases muestra una cadena de consecuencias, no una sola causa aislada?",["Costs increased, which, in turn, led to layoffs, which further reduced morale.","Costs increased because of inflation.","The company had high costs last year.","Inflation caused costs to increase this year."],0,"Una cadena causal conecta varios efectos sucesivos, no solo una relación causa-efecto simple."],
+      ["writing","Escribe en inglés un párrafo formal de 55-75 palabras que explique una cadena de causa-consecuencia (por ejemplo: un cambio de política y sus efectos en cadena). Usa al menos dos conectores causales avanzados.",[],["given that","as a result","in turn"],"Muestra una cadena: causa inicial → efecto → segundo efecto derivado del primero."]
+    ]
+  },
 ];
