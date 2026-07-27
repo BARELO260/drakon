@@ -114,26 +114,29 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 33 | Progresión A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica, voz pasiva, concesión avanzada). |
-| Español    | ES | 36 | Progresión completa A1→C2: A1 (7), A2 (4), B1 (7), B2 (7), C1 (7), C2 (4): inversión enfática/litotes, retórica y tono, lectura crítica e implicaturas, lenguaje figurado, ironía. |
-| Francés    | FR | 36 | Misma progresión y temas que español, adaptados al francés (être vs. avoir, passé composé, futur simple, subjonctif, nominalisation, inversion emphatique...). |
-| Alemán     | DE | 36 | Misma progresión, adaptada al alemán (sein vs. haben, Perfekt, Futur I, Konjunktiv II, Nominalstil, Inversion nach Verneinung...). |
-| Italiano   | IT | 36 | Misma progresión, adaptada al italiano (essere vs. avere, passato prossimo, futuro semplice, congiuntivo, nominalizzazione, inversione enfatica...). |
-| Portugués  | PT | 36 | Misma progresión, adaptada al portugués (ser vs. estar, pretérito perfeito, futuro simples, subjuntivo, nominalização, inversão enfática...). |
+| Inglés     | EN | 42 | Progresión A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica, voz pasiva, concesión avanzada, estilo indirecto, conectores causales, falacias lógicas). |
+| Español    | ES | 42 | Progresión completa A1→C2: A1 (8), A2 (5), B1 (8), B2 (8), C1 (8), C2 (5): inversión enfática/litotes, retórica y tono, lectura crítica e implicaturas, lenguaje figurado, ironía, dilemas éticos, discurso académico, falacias lógicas. |
+| Francés    | FR | 42 | Misma progresión y temas que español, adaptados al francés. |
+| Alemán     | DE | 42 | Misma progresión, adaptada al alemán. |
+| Italiano   | IT | 42 | Misma progresión, adaptada al italiano. |
+| Portugués  | PT | 42 | Misma progresión, adaptada al portugués. |
 
-**Total actual: 213 lecciones.** Los 6 idiomas cubren el recorrido completo
-**A1 → C2**, cada lección con su glosario de estudio (`study`) correspondiente,
-validadas automáticamente (4 opciones por ejercicio en mcq/fill/translate,
-índice correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
+**Total actual: 252 lecciones.** Los 6 idiomas cubren el recorrido completo
+**A1 → C2** con exactamente el mismo número de lecciones (42 cada uno),
+cada una con su glosario de estudio (`study`) correspondiente, validadas
+automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
+correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
 ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
 índice — ver más abajo).
 
 Último lote agregado (uno por nivel, en los 6 idiomas, mismo tema para
-mantener coherencia y progresión): A1 fechas/días/meses, A2 indicaciones y
-transporte, B1 entrevistas de trabajo, B2 análisis de medios/noticias, C1
-lenguaje figurado y modismos, C2 ironía/humor/ambigüedad deliberada. Inglés
-recibió además dos lecciones extra (B2 voz pasiva, C1 concesión avanzada)
-para acercar su cobertura a la de los demás idiomas.
+mantener coherencia y progresión): A1 la casa (habitaciones/muebles), A2
+salud y farmacia, B1 tecnología y redes sociales, B2 dilemas éticos
+(argumentar a favor/en contra), C1 discurso académico (citar/parafrasear),
+C2 falacias lógicas y persuasión. Inglés recibió además tres lecciones
+extra (B1 quejas/peticiones corteses, B2 estilo indirecto, C1 conectores
+causales complejos) para igualar exactamente su cobertura a la de los
+demás idiomas (42/42).
 
 ### Tipos de ejercicio: dos formatos distintos
 
