@@ -957,4 +957,149 @@ window.LESSON_BANKS.FR = [
       ["writing","Identifie et explique en français, en 55-75 mots, un sophisme logique que tu as entendu dans un débat, une publicité ou une discussion récente (réelle ou inventée). Nomme le sophisme et explique pourquoi l'argument est trompeur malgré son apparence convaincante.",[],["sophisme","parce que","bien que cela semble"],"Nomme explicitement le type de sophisme (ad hominem, fausse dichotomie, pente glissante, etc.) et justifie ton identification."]
     ]
   },
+  {
+    id:"fr_a1_emotions_feelings", level:"A1", title:"Les émotions : comment tu te sens", emoji:"😊", xp:35,
+    description:"Apprends à exprimer des émotions et des sentiments de base en français.",
+    study: {
+      vocab: [
+        ["être content, triste, fatigué, en colère", "to be happy, sad, tired, angry"],
+        ["Comment tu te sens ?", "How do you feel?"],
+        ["Je suis un peu nerveux/nerveuse.", "I'm a bit nervous."],
+        ["avoir peur, avoir sommeil, avoir faim", "to be afraid, to be sleepy, to be hungry"],
+        ["Pourquoi es-tu triste ?", "Why are you sad?"]
+      ],
+      grammar: [
+        ["\"Être\" avec les émotions", "Les émotions s'expriment avec \"être\" + adjectif.", "Je suis content aujourd'hui. / Elle est fatiguée après le travail."]
+      ]
+    },
+    ex:[
+      ["mcq","Comment demandes-tu à quelqu'un comment il se sent ?",["Comment tu te sens ?","Comment tu t'appelles ?","Où habites-tu ?","Quel âge as-tu ?"],0,"\"Comment tu te sens ?\" demande l'état émotionnel de quelqu'un."],
+      ["mcq","Tu as beaucoup de travail et peu de repos. Comment te sens-tu ?",["Je suis fatigué(e).","Je suis content(e).","J'ai faim.","J'ai froid."],0,"Beaucoup de travail et peu de repos mènent typiquement à se sentir \"fatigué(e)\"."],
+      ["fill","Complète : \"Je ___ un peu nerveux avant l'examen.\"",["suis","es","ai","fais"],0,"Les émotions s'expriment avec \"être\" : \"Je suis un peu nerveux.\""],
+      ["translate","Traduis : \"Why are you sad?\"",["Pourquoi es-tu triste ?","Pourquoi être tu triste ?","Pourquoi tu as triste ?","Pourquoi fais-tu triste ?"],0,"\"Why are you sad?\" = \"Pourquoi es-tu triste ?\", avec \"être\" pour un état émotionnel."],
+      ["arrange","Remets dans l'ordre : [travail / fatiguée / après / je / suis / le]",["Je suis fatiguée après le travail","Après le travail je suis fatiguée","Fatiguée je suis après le travail","Je suis après le travail fatiguée"],0,"Sujet + \"suis\" + adjectif + complément de temps : \"Je suis fatiguée après le travail.\""],
+      ["writing","Écris en français 20-30 mots décrivant comment tu te sens aujourd'hui et pourquoi. Utilise au moins deux émotions différentes.",[],["je suis","parce que","je me sens"],"Mentionne une raison concrète pour chaque émotion que tu décris."]
+    ]
+  },
+  {
+    id:"fr_a2_hobbies_weekend", level:"A2", title:"Les loisirs : passe-temps et plans du week-end", emoji:"🎨", xp:44,
+    description:"Parle de tes loisirs et de tes plans pour le week-end en français.",
+    study: {
+      vocab: [
+        ["Qu'est-ce que tu aimes faire pendant ton temps libre ?", "What do you like to do in your free time?"],
+        ["peindre, jouer d'un instrument, faire de la randonnée", "to paint, to play an instrument, to go hiking"],
+        ["Quels sont tes plans pour le week-end ?", "What plans do you have for the weekend?"],
+        ["je vais + infinitif", "I'm going to + infinitive"],
+        ["retrouver des amis", "to meet up with friends"]
+      ],
+      grammar: [
+        ["\"Aller\" + infinitif pour les projets", "On utilise \"aller\" + infinitif pour parler de projets proches dans le futur.", "Samedi je vais retrouver des amis."]
+      ]
+    },
+    ex:[
+      ["mcq","Comment demandes-tu les loisirs de quelqu'un ?",["Qu'est-ce que tu aimes faire pendant ton temps libre ?","Quelle heure est-il ?","Où travailles-tu ?","Combien de frères et sœurs as-tu ?"],0,"\"Qu'est-ce que tu aimes faire pendant ton temps libre ?\" demande spécifiquement les loisirs."],
+      ["mcq","Laquelle de ces phrases décrit un projet futur proche ?",["Samedi je vais retrouver des amis.","Samedi j'ai retrouvé des amis.","Samedi je retrouve toujours des amis.","Samedi je retrouvais des amis."],0,"\"Aller\" + infinitif exprime un projet futur concret et proche."],
+      ["fill","Complète : \"Ce week-end je ___ faire de la randonnée.\"",["vais","suis","ai","fais"],0,"\"Aller\" + infinitif : \"je vais faire de la randonnée\"."],
+      ["translate","Traduis : \"What plans do you have for the weekend?\"",["Quels sont tes plans pour le week-end ?","Quels sont tes plans es le week-end ?","Quels plans tu fais le week-end as ?","Pour le week-end quels plans es-tu ?"],0,"\"What plans do you have for the weekend?\" = \"Quels sont tes plans pour le week-end ?\""],
+      ["arrange","Remets dans l'ordre : [instrument / jouer / d'un / j'aime]",["J'aime jouer d'un instrument","Aime j'jouer d'un instrument","D'un instrument j'aime jouer","Jouer j'aime d'un instrument"],0,"\"J'aime\" + infinitif : \"J'aime jouer d'un instrument.\""],
+      ["speaking","Explique en français, en 40-60 mots, tes loisirs préférés et tes plans pour le prochain week-end.",[],["j'aime","je vais","retrouver"],"Mentionne au moins deux loisirs et un projet concret en utilisant \"je vais\"."]
+    ]
+  },
+  {
+    id:"fr_b1_environment_sustainability", level:"B1", title:"L'environnement : habitudes durables", emoji:"🌱", xp:60,
+    description:"Parle de la protection de l'environnement et des habitudes durables en français.",
+    study: {
+      vocab: [
+        ["recycler, réutiliser, réduire la consommation", "to recycle, to reuse, to reduce consumption"],
+        ["le changement climatique, l'empreinte carbone", "climate change, carbon footprint"],
+        ["les produits à usage unique", "single-use products"],
+        ["économiser l'énergie / l'eau", "to save energy / water"],
+        ["prendre des mesures pour protéger la planète", "to take steps to protect the planet"]
+      ],
+      grammar: [
+        ["Le futur simple pour les conséquences", "Le futur simple décrit des conséquences probables d'actions actuelles.", "Si nous ne réduisons pas le plastique, la pollution augmentera."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces actions aide à réduire l'empreinte carbone ?",["Utiliser les transports en commun au lieu de la voiture.","Acheter plus de produits à usage unique.","Laisser les lumières allumées toute la journée.","Utiliser la voiture pour de très courts trajets."],0,"Les transports en commun réduisent les émissions individuelles de carbone."],
+      ["mcq","Quelle phrase décrit correctement une conséquence future probable ?",["Si nous ne réduisons pas le plastique, la pollution augmentera.","Si nous ne réduisons pas le plastique, la pollution a augmenté.","Si nous ne réduisons pas le plastique, la pollution augmente hier.","Si nous ne réduisons pas le plastique, pollution augmenter."],0,"Le futur simple (\"augmentera\") exprime une conséquence probable d'une condition actuelle."],
+      ["fill","Complète : \"Il est important d'___ l'eau, surtout en été.\"",["économiser","dépenser","jeter","acheter"],0,"\"Économiser l'eau\" est l'expression correcte pour réduire sa consommation."],
+      ["translate","Traduis : \"We should reduce the use of single-use products.\"",["Nous devrions réduire l'utilisation de produits à usage unique.","Nous devrions réduire l'utilisation de produit à usage unique.","Réduire nous devrions produits à usage unique l'utilisation.","Nous devrions utiliser produits à usage unique réduire."],0,"\"Single-use products\" = \"produits à usage unique\" ; \"we should reduce\" = \"nous devrions réduire\"."],
+      ["arrange","Remets dans l'ordre : [recycler / important / est / le verre / il]",["Il est important de recycler le verre","Le verre il est important de recycler","Important il est de recycler le verre","Il est de recycler important le verre"],0,"\"Il est important de\" + infinitif + objet : \"Il est important de recycler le verre.\""],
+      ["writing","Écris en français 45-65 mots sur trois habitudes durables que tu pratiques ou aimerais commencer à pratiquer, et pourquoi elles sont importantes.",[],["recycler","économiser","empreinte carbone"],"Mentionne au moins trois habitudes concrètes et une raison pour chacune."]
+    ]
+  },
+  {
+    id:"fr_b2_ai_future_work", level:"B2", title:"L'intelligence artificielle et l'avenir du travail", emoji:"🤖", xp:80,
+    description:"Discute de l'impact de l'intelligence artificielle sur le travail, avec des arguments nuancés en français.",
+    study: {
+      vocab: [
+        ["automatiser des tâches répétitives", "to automate repetitive tasks"],
+        ["remplacer des postes de travail", "to replace jobs"],
+        ["s'adapter à de nouveaux outils", "to adapt to new tools"],
+        ["générer de nouvelles opportunités professionnelles", "to generate new job opportunities"],
+        ["ça dépend de la façon dont c'est mis en œuvre", "it depends on how it's implemented"]
+      ],
+      grammar: [
+        ["Le futur antérieur pour la spéculation", "\"Aura\" + participe passé spécule sur ce qui se sera probablement produit à un moment futur donné.", "D'ici 2030, l'IA aura changé de nombreux secteurs."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases présente une position nuancée sur l'IA et l'emploi ?",["Ça dépend de la façon dont c'est mis en œuvre : ça peut automatiser des tâches mais aussi créer des emplois.","L'IA va détruire tous les emplois, sans exception.","L'IA n'affecte absolument pas l'emploi.","Il n'y a aucun doute sur l'avenir du travail."],0,"Une position nuancée reconnaît les deux effets possibles, sans absolus."],
+      ["mcq","Que signifie \"automatiser des tâches répétitives\" ?",["Faire qu'une machine effectue des tâches qu'une personne faisait auparavant manuellement et de façon répétée.","Embaucher plus de personnes pour des tâches répétitives.","Éliminer complètement toutes les tâches d'une entreprise.","Augmenter le salaire de ceux qui font des tâches répétitives."],0,"Automatiser signifie qu'un système effectue la tâche à la place d'une personne."],
+      ["fill","Complète : \"D'ici 2030, l'intelligence artificielle ___ changé de nombreux secteurs.\"",["aura","avait","a","aurait"],0,"Le futur antérieur (\"aura changé\") spécule sur quelque chose qui se sera probablement produit d'ici une date future."],
+      ["translate","Traduis : \"Some jobs will be automated, but new ones will also be created.\"",["Certains emplois seront automatisés, mais de nouveaux seront aussi créés.","Certains emplois automatiseront, mais nouveaux créeront aussi.","Seront automatisés certains emplois, mais nouveaux créeront.","Certains emplois seront automatisés, mais aussi nouveaux créés."],0,"Les deux propositions sont au futur simple : \"seront automatisés\" et \"seront créés\"."],
+      ["mcq","Laquelle de ces affirmations montre une pensée critique, et non une opinion sans fondement ?",["L'impact de l'IA sur l'emploi dépendra du secteur et de la façon dont la transition est gérée.","L'IA est toujours bonne pour tout le monde, sans exception.","L'IA est toujours mauvaise pour tout le monde, sans exception.","Ça ne vaut pas la peine de penser à l'avenir du travail."],0,"Reconnaître que l'impact dépend de facteurs concrets (secteur, gestion) relève d'une pensée critique et nuancée."],
+      ["writing","Écris en français 55-75 mots sur la façon dont tu penses que l'intelligence artificielle changera ton domaine de travail ou d'études dans les prochaines années. Inclus un aspect positif et un préoccupant.",[],["automatiser","dépend de","cependant"],"Évite les absolus : reconnais à la fois les avantages et les risques concrets."]
+    ]
+  },
+  {
+    id:"fr_c1_advertising_persuasion", level:"C1", title:"Le langage publicitaire : persuasion et connotation", emoji:"📢", xp:88,
+    description:"Analyse comment le langage publicitaire utilise la connotation et les techniques de persuasion.",
+    study: {
+      vocab: [
+        ["une connotation positive / négative", "a positive / negative connotation"],
+        ["faire appel au désir d'appartenance", "to appeal to the desire to belong"],
+        ["un slogan accrocheur", "a catchy slogan"],
+        ["créer un sentiment d'urgence", "to create a sense of urgency"],
+        ["le public cible", "the target audience"]
+      ],
+      grammar: [
+        ["Connotation face à dénotation", "La dénotation est le sens littéral d'un mot ; la connotation est la charge émotionnelle ou culturelle associée.", "\"Maison\" (dénotation : bâtiment) face à \"foyer\" (connotation : chaleur, appartenance)."]
+      ]
+    },
+    ex:[
+      ["mcq","Une publicité utilise le mot \"foyer\" au lieu de \"maison\". Qu'obtient-elle ainsi ?",["Elle ajoute une connotation émotionnelle de chaleur et d'appartenance.","Elle change complètement le sens littéral.","Elle élimine toute interprétation émotionnelle.","Elle n'a aucun effet sur le message."],0,"\"Foyer\" a des connotations émotionnelles que \"maison\" ne transmet pas de la même façon."],
+      ["mcq","« Plus que 3 en stock, achetez maintenant ! » Quelle technique de persuasion utilise cette phrase ?",["Créer un sentiment d'urgence pour motiver une décision rapide.","Faire appel exclusivement à des données techniques objectives.","Offrir une comparaison neutre avec d'autres produits.","Décrire le produit sans aucune pression."],0,"Mentionner un stock limité et l'urgence pousse à décider sans trop réfléchir."],
+      ["fill","Complète : \"Cette publicité s'adresse à un public ___ très spécifique : les jeunes professionnels.\"",["cible","texte","auteur","lecteur"],0,"\"Public cible\" est l'expression standard pour désigner l'audience visée par un message."],
+      ["translate","Traduis : \"The slogan appeals to the desire to belong.\"",["Le slogan fait appel au désir d'appartenance.","Le slogan appel au désir d'appartenance.","Le désir d'appartenance fait appel au slogan.","Le slogan faire appel au désir d'appartenance."],0,"\"Appeals to\" = \"fait appel à\" ; \"the desire to belong\" = \"le désir d'appartenance\"."],
+      ["mcq","Laquelle de ces expressions a une connotation plus positive que son synonyme plus neutre ?",["\"Exclusif\" face à \"limité\".","\"Produit\" face à \"article\".","\"Acheter\" face à \"acquérir\".","\"Publicité\" face à \"annonce\"."],0,"\"Exclusif\" ajoute une connotation de prestige et de distinction que \"limité\" ne transmet pas de la même façon."],
+      ["writing","Choisis une publicité réelle ou inventée et écris en français 55-75 mots analysant : quelles connotations elle utilise, à quel public cible elle s'adresse et quelle technique de persuasion elle emploie.",[],["connotation","public cible","urgence"],"Identifie au moins un mot avec une connotation spécifique et une technique de persuasion concrète."]
+    ]
+  },
+  {
+    id:"fr_c2_political_discourse", level:"C2", title:"Le discours politique : ambiguïté stratégique et euphémisme", emoji:"🎙️", xp:96,
+    description:"Analyse l'ambiguïté stratégique et l'euphémisme dans le discours politique de haut niveau.",
+    study: {
+      vocab: [
+        ["un euphémisme", "a euphemism"],
+        ["l'ambiguïté stratégique", "strategic ambiguity"],
+        ["éluder une question directe", "to dodge a direct question"],
+        ["un ajustement budgétaire (euphémisme pour une coupe)", "a budget adjustment (euphemism for a cut)"],
+        ["s'engager sans vraiment s'engager", "to commit without fully committing"]
+      ],
+      grammar: [
+        ["Reconnaître l'euphémisme politique", "Un euphémisme remplace une expression directe par une autre plus douce, souvent pour adoucir une réalité inconfortable.", "\"Ajustement budgétaire\" sonne plus neutre que \"coupe budgétaire\", bien que ça décrive la même chose."],
+        ["Ambiguïté stratégique", "Les politiciens choisissent parfois délibérément des phrases vagues pour éviter de s'engager sur une position claire.", "\"Nous évaluons toutes les options\" ne dit pas quelle option sera réellement retenue."]
+      ]
+    },
+    ex:[
+      ["mcq","Un politicien dit « ajustement budgétaire » au lieu de « coupe budgétaire ». Qu'obtient-il ainsi ?",["Il adoucit l'impact négatif de la mesure grâce à un euphémisme.","Il change complètement le sens de la mesure.","Il rend la mesure plus transparente et directe.","Il élimine toute interprétation négative possible."],0,"L'euphémisme adoucit la perception sans changer la réalité de la mesure."],
+      ["mcq","« Nous évaluons toutes les options » dit face à une question directe. Quelle fonction remplit cette phrase ?",["Elle élude un engagement clair grâce à une ambiguïté stratégique.","Elle donne une réponse totalement transparente et spécifique.","Elle confirme exactement quelle décision sera prise.","Elle nie catégoriquement toute décision possible."],0,"Cette phrase évite de s'engager sur une position concrète, en gardant en apparence toutes les options ouvertes."],
+      ["fill","Complète : \"Le gouvernement a annoncé un ___ budgétaire qui impliquait en réalité des coupes importantes.\"",["ajustement","aumentation","cadeau","prix"],0,"\"Ajustement budgétaire\" est l'euphémisme typique pour \"coupe\"."],
+      ["translate","Traduis avec précision : \"Politicians sometimes commit without fully committing.\"",["Les politiciens s'engagent parfois sans vraiment s'engager.","Les politiciens engagent parfois sans engager vraiment.","Parfois les politiciens vraiment s'engagent sans engager.","Les politiciens s'engagent parfois vraiment sans s'engager."],0,"\"Commit without fully committing\" = \"s'engager sans vraiment s'engager\", capturant l'ambiguïté intentionnelle."],
+      ["mcq","Laquelle de ces phrases est un exemple clair d'ambiguïté stratégique ?",["Nous n'excluons aucune possibilité pour le moment.","Le budget sera réduit exactement de 12 % cette année.","La loi entrera en vigueur le 1er janvier, sans exception.","Je démissionnerai de mon poste la semaine prochaine."],0,"\"Nous n'excluons aucune possibilité\" n'engage à rien de concret, laissant toutes les portes ouvertes."],
+      ["writing","Écris en français 55-75 mots analysant un euphémisme ou un cas d'ambiguïté stratégique que tu as observé dans un discours politique réel ou inventé. Explique quelle phrase directe il évite et pourquoi.",[],["euphémisme","au lieu de","évite de s'engager"],"Identifie la phrase exacte, le sens plus direct qu'elle remplace, et l'effet recherché sur l'audience."]
+    ]
+  },
 ];
