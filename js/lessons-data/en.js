@@ -832,4 +832,149 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés un párrafo formal de 55-75 palabras que explique una cadena de causa-consecuencia (por ejemplo: un cambio de política y sus efectos en cadena). Usa al menos dos conectores causales avanzados.",[],["given that","as a result","in turn"],"Muestra una cadena: causa inicial → efecto → segundo efecto derivado del primero."]
     ]
   },
+  {
+    id:"a1_emotions_feelings", level:"A1", title:"Las emociones: cómo te sientes", emoji:"😊", xp:35,
+    description:"Aprende a expresar emociones y sentimientos básicos en inglés.",
+    study: {
+      vocab: [
+        ["to be happy, sad, tired, angry", "estar feliz, triste, cansado, enfadado"],
+        ["How do you feel?", "¿Cómo te sientes?"],
+        ["I'm a bit nervous.", "Estoy un poco nervioso/a."],
+        ["to be afraid, to be sleepy, to be hungry", "tener miedo, tener sueño, tener hambre"],
+        ["Why are you sad?", "¿Por qué estás triste?"]
+      ],
+      grammar: [
+        ["\"To be\" con emociones", "En inglés, las emociones se expresan con \"to be\" + adjetivo.", "I am happy today. / She is tired after work."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas a alguien cómo se siente en inglés?",["How do you feel?","What's your name?","Where do you live?","How old are you?"],0,"\"How do you feel?\" pregunta por el estado emocional de alguien."],
+      ["mcq","Tienes mucho trabajo y poco descanso. ¿Cómo te sientes?",["I'm tired.","I'm happy.","I'm hungry.","I'm cold."],0,"Mucho trabajo y poco descanso llevan típicamente a sentirse \"tired\"."],
+      ["fill","Completa: \"I ___ a bit nervous before the exam.\"",["am","is","have","do"],0,"\"I am\" concuerda con el sujeto \"I\": \"I am a bit nervous.\""],
+      ["translate","Traduce: \"¿Por qué estás triste?\"",["Why are you sad?","Why are you sadly?","Why you are sad?","Why is you sad?"],0,"\"¿Por qué estás triste?\" = \"Why are you sad?\", con \"are\" para el sujeto \"you\"."],
+      ["arrange","Ordena: [tired / work / after / I'm]",["I'm tired after work","After work I'm tired","Tired I'm after work","I'm after work tired"],0,"Sujeto + \"am\" + adjetivo + complemento de tiempo: \"I'm tired after work.\""],
+      ["writing","Escribe en inglés 20-30 palabras describiendo cómo te sientes hoy y por qué. Usa al menos dos emociones distintas.",[],["I am","because","I feel"],"Menciona una razón concreta para cada emoción que describas."]
+    ]
+  },
+  {
+    id:"a2_hobbies_weekend", level:"A2", title:"El ocio: aficiones y planes de fin de semana", emoji:"🎨", xp:44,
+    description:"Habla de tus aficiones y de tus planes para el fin de semana en inglés.",
+    study: {
+      vocab: [
+        ["What do you like to do in your free time?", "¿Qué te gusta hacer en tu tiempo libre?"],
+        ["to paint, to play an instrument, to go hiking", "pintar, tocar un instrumento, hacer senderismo"],
+        ["What plans do you have for the weekend?", "¿Qué planes tienes para el fin de semana?"],
+        ["I'm going to + infinitivo", "voy a + infinitivo"],
+        ["to meet up with friends", "quedar con amigos"]
+      ],
+      grammar: [
+        ["\"Be going to\" para planes", "Se usa \"be going to\" + infinitivo para hablar de planes futuros cercanos.", "On Saturday I'm going to meet up with friends."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas por las aficiones de alguien en inglés?",["What do you like to do in your free time?","What time is it?","Where do you work?","How many siblings do you have?"],0,"\"What do you like to do in your free time?\" pregunta específicamente por las aficiones."],
+      ["mcq","¿Cuál de estas frases describe un plan futuro cercano?",["On Saturday I'm going to meet up with friends.","On Saturday I met up with friends.","On Saturday I always meet up with friends.","On Saturday I was meeting up with friends."],0,"\"Be going to\" + infinitivo expresa un plan futuro concreto y cercano."],
+      ["fill","Completa: \"This weekend I ___ going to go hiking.\"",["am","is","do","have"],0,"\"I am going to\" es la forma correcta para el sujeto \"I\"."],
+      ["translate","Traduce: \"¿Qué planes tienes para el fin de semana?\"",["What plans do you have for the weekend?","What plans are you for the weekend?","What plans you have the weekend for?","For the weekend what plans are you?"],0,"\"¿Qué planes tienes para el fin de semana?\" = \"What plans do you have for the weekend?\""],
+      ["arrange","Ordena: [instrument / play / an / I / like / to]",["I like to play an instrument","Like I to play an instrument","An instrument I like to play","I to play like an instrument"],0,"\"I like\" + infinitivo: \"I like to play an instrument.\""],
+      ["speaking","Explica en inglés, en 40-60 palabras, tus aficiones favoritas y tus planes para el próximo fin de semana.",[],["I like","I'm going to","meet up"],"Menciona al menos dos aficiones y un plan concreto usando \"going to\"."]
+    ]
+  },
+  {
+    id:"b1_environment_sustainability", level:"B1", title:"El medio ambiente: hábitos sostenibles", emoji:"🌱", xp:60,
+    description:"Habla sobre el cuidado del medio ambiente y los hábitos sostenibles en inglés.",
+    study: {
+      vocab: [
+        ["to recycle, to reuse, to reduce consumption", "reciclar, reutilizar, reducir el consumo"],
+        ["climate change, carbon footprint", "el cambio climático, la huella de carbono"],
+        ["single-use products", "los productos de un solo uso"],
+        ["to save energy / water", "ahorrar energía / agua"],
+        ["to take steps to protect the planet", "tomar medidas para proteger el planeta"]
+      ],
+      grammar: [
+        ["El futuro simple para consecuencias", "El futuro simple con \"will\" describe consecuencias probables de acciones actuales.", "If we don't reduce plastic, pollution will increase."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas acciones ayuda a reducir la huella de carbono?",["Using public transport instead of a car.","Buying more single-use products.","Leaving the lights on all day.","Using the car for very short trips."],0,"El transporte público reduce las emisiones individuales de carbono."],
+      ["mcq","¿Qué frase describe correctamente una consecuencia futura probable?",["If we don't reduce plastic, pollution will increase.","If we don't reduce plastic, pollution increased.","If we don't reduce plastic, pollution increases yesterday.","If we don't reduce plastic, pollution to increase."],0,"El futuro simple (\"will increase\") expresa una consecuencia probable de una condición actual."],
+      ["fill","Completa: \"It's important to ___ water, especially in summer.\"",["save","spend","waste","buy"],0,"\"Save water\" es la expresión correcta para reducir su consumo."],
+      ["translate","Traduce: \"Deberíamos reducir el uso de productos de un solo uso.\"",["We should reduce the use of single-use products.","We should reduce the use single-use products of.","Reduce we should the use of single-use products.","We should use single-use products reduce."],0,"\"Productos de un solo uso\" = \"single-use products\"; \"deberíamos reducir\" = \"we should reduce\"."],
+      ["arrange","Ordena: [important / recycle / glass / it's / to]",["It's important to recycle glass","Glass it's important to recycle","Important it's to recycle glass","It's to recycle important glass"],0,"\"It's important to\" + infinitivo + objeto: \"It's important to recycle glass.\""],
+      ["writing","Escribe en inglés 45-65 palabras sobre tres hábitos sostenibles que practicas o te gustaría empezar a practicar, y por qué son importantes.",[],["recycle","save","carbon footprint"],"Menciona al menos tres hábitos concretos y una razón para cada uno."]
+    ]
+  },
+  {
+    id:"b2_ai_future_work", level:"B2", title:"Inteligencia artificial y el futuro del trabajo", emoji:"🤖", xp:80,
+    description:"Discute el impacto de la inteligencia artificial en el trabajo, con argumentos matizados en inglés.",
+    study: {
+      vocab: [
+        ["to automate repetitive tasks", "automatizar tareas repetitivas"],
+        ["to replace jobs", "sustituir puestos de trabajo"],
+        ["to adapt to new tools", "adaptarse a nuevas herramientas"],
+        ["to generate new job opportunities", "generar nuevas oportunidades laborales"],
+        ["it depends on how it's implemented", "depende de cómo se implemente"]
+      ],
+      grammar: [
+        ["El futuro perfecto para especulación", "\"Will have\" + participio especula sobre lo que probablemente haya ocurrido para cierto momento futuro.", "By 2030, AI will have changed many industries."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases presenta una postura matizada sobre la IA y el empleo?",["It depends on how it's implemented: it can automate tasks but also create new jobs.","AI is going to destroy all jobs, no exceptions.","AI doesn't affect employment at all.","There's no doubt about the future of work."],0,"Una postura matizada reconoce ambos efectos posibles, sin absolutos."],
+      ["mcq","¿Qué significa \"to automate repetitive tasks\"?",["To make a machine do tasks a person used to do manually and repeatedly.","To hire more people for repetitive tasks.","To completely eliminate all tasks in a company.","To increase the salary of people doing repetitive tasks."],0,"Automatizar significa que un sistema realiza la tarea en lugar de una persona."],
+      ["fill","Completa: \"By 2030, artificial intelligence ___ have changed many industries.\"",["will","had","has","would"],0,"El futuro perfecto (\"will have changed\") especula sobre algo que probablemente habrá ocurrido para una fecha futura."],
+      ["translate","Traduce: \"Algunos empleos se automatizarán, pero también se crearán otros nuevos.\"",["Some jobs will be automated, but new ones will also be created.","Some jobs will automate, but new ones will also create.","Jobs some will be automated, but new ones will create.","Some jobs will be automated, but also new ones created."],0,"Ambas cláusulas van con \"will\": \"will be automated\" y \"will be created\"."],
+      ["mcq","¿Cuál de estas afirmaciones muestra pensamiento crítico, no una opinión sin fundamento?",["The impact of AI on jobs will depend on the sector and how the transition is managed.","AI is always good for everyone, no exceptions.","AI is always bad for everyone, no exceptions.","It's not worth thinking about the future of work."],0,"Reconocer que el impacto depende de factores concretos (sector, gestión) es pensamiento crítico y matizado."],
+      ["writing","Escribe en inglés 55-75 palabras sobre cómo crees que la inteligencia artificial cambiará tu campo de trabajo o estudio en los próximos años. Incluye un aspecto positivo y uno preocupante.",[],["automate","depends on","however"],"Evita los absolutos: reconoce tanto ventajas como riesgos concretos."]
+    ]
+  },
+  {
+    id:"c1_advertising_persuasion", level:"C1", title:"El lenguaje publicitario: persuasión y connotación", emoji:"📢", xp:88,
+    description:"Analiza cómo el lenguaje publicitario en inglés usa la connotación y las técnicas de persuasión.",
+    study: {
+      vocab: [
+        ["a positive / negative connotation", "una connotación positiva / negativa"],
+        ["to appeal to the desire to belong", "apelar al deseo de pertenencia"],
+        ["a catchy slogan", "un eslogan pegadizo"],
+        ["to create a sense of urgency", "crear una sensación de urgencia"],
+        ["the target audience", "el público objetivo"]
+      ],
+      grammar: [
+        ["Connotación frente a denotación", "La denotación es el significado literal de una palabra; la connotación es la carga emocional o cultural asociada.", "\"House\" (denotación: edificio) frente a \"home\" (connotación: calidez, pertenencia)."]
+      ]
+    },
+    ex:[
+      ["mcq","Un anuncio usa la palabra \"home\" en vez de \"house\". ¿Qué logra con esto?",["Añade una connotación emocional de calidez y pertenencia.","Cambia completamente el significado literal.","Elimina cualquier interpretación emocional.","No tiene ningún efecto en el mensaje."],0,"\"Home\" tiene connotaciones emocionales que \"house\" no transmite, aunque el significado literal sea similar."],
+      ["mcq","\"Only 3 left in stock, buy now!\" ¿Qué técnica de persuasión usa esta frase?",["Create a sense of urgency to prompt a quick decision.","Appeal exclusively to objective technical data.","Offer a neutral comparison with other products.","Describe the product without any pressure."],0,"Mencionar unidades limitadas y urgencia empuja a decidir sin pensarlo demasiado."],
+      ["fill","Completa: \"This ad targets a very specific ___ audience: young professionals.\"",["target","text","author","reader"],0,"\"Target audience\" es la expresión estándar para referirse a la audiencia a la que se dirige un mensaje."],
+      ["translate","Traduce: \"El eslogan apela al deseo de pertenencia.\"",["The slogan appeals to the desire to belong.","The slogan appeal to the desire to belong.","The desire to belong appeals to the slogan.","The slogan appeals the desire to belong."],0,"\"Apela a\" = \"appeals to\"; \"el deseo de pertenencia\" = \"the desire to belong\"."],
+      ["mcq","¿Cuál de estas palabras tiene una connotación más positiva que su sinónimo más neutral?",["\"Exclusive\" versus \"limited\".","\"Product\" versus \"item\".","\"Buy\" versus \"purchase\".","\"Ad\" versus \"advertisement\"."],0,"\"Exclusive\" añade una connotación de prestigio y distinción que \"limited\" no transmite igual."],
+      ["writing","Elige un anuncio real o inventado y escribe en inglés 55-75 palabras analizando: qué connotaciones usa, a qué público objetivo se dirige y qué técnica de persuasión emplea.",[],["connotation","target audience","urgency"],"Identifica al menos una palabra con connotación específica y una técnica de persuasión concreta."]
+    ]
+  },
+  {
+    id:"c2_political_discourse", level:"C2", title:"El discurso político: ambigüedad estratégica y eufemismo", emoji:"🎙️", xp:96,
+    description:"Analiza la ambigüedad estratégica y el eufemismo en el discurso político de alto nivel en inglés.",
+    study: {
+      vocab: [
+        ["a euphemism", "un eufemismo"],
+        ["strategic ambiguity", "la ambigüedad estratégica"],
+        ["to dodge a direct question", "evadir una pregunta directa"],
+        ["a budget adjustment (euphemism for a cut)", "un ajuste presupuestario (eufemismo por recorte)"],
+        ["to commit without fully committing", "comprometerse sin comprometerse del todo"]
+      ],
+      grammar: [
+        ["Reconocer el eufemismo político", "Un eufemismo sustituye una expresión directa por otra más suave, a menudo para suavizar una realidad incómoda.", "\"Budget adjustment\" suena más neutral que \"spending cut\", aunque describa lo mismo."],
+        ["Ambigüedad estratégica", "Los políticos a veces eligen deliberadamente frases vagas para evitar comprometerse con una postura clara.", "\"We are evaluating all options\" no dice qué opción se tomará realmente."]
+      ]
+    },
+    ex:[
+      ["mcq","Un político dice \"budget adjustment\" en vez de \"spending cut\". ¿Qué logra con esto?",["It softens the negative impact of the measure through a euphemism.","It completely changes the meaning of the measure.","It makes the measure more transparent and direct.","It removes any possible negative interpretation."],0,"El eufemismo suaviza la percepción sin cambiar la realidad de la medida."],
+      ["mcq","\"We are evaluating all options\" said in response to a direct question. ¿Qué función cumple esta frase?",["It dodges a clear commitment through strategic ambiguity.","It gives a completely transparent and specific answer.","It confirms exactly which decision will be made.","It flatly denies any possible decision."],0,"Esta frase evita comprometerse con una postura concreta, manteniendo todas las opciones abiertas en apariencia."],
+      ["fill","Completa: \"The government announced a budget ___ that actually meant significant cuts.\"",["adjustment","increase","gift","prize"],0,"\"Budget adjustment\" es el eufemismo típico para \"spending cut\"."],
+      ["translate","Traduce con precisión: \"Los políticos a veces se comprometen sin comprometerse del todo.\"",["Politicians sometimes commit without fully committing.","Politicians sometimes commit without commit fully.","Sometimes politicians fully commit without committing.","Politicians commit sometimes without fully commit."],0,"\"Comprometerse sin comprometerse del todo\" = \"to commit without fully committing\", capturando la ambigüedad intencional."],
+      ["mcq","¿Cuál de estas frases es un ejemplo claro de ambigüedad estratégica?",["We're not ruling out any possibility at this time.","The budget will be cut by exactly 12% this year.","The law will take effect on January 1st, with no exceptions.","I will resign from my position next week."],0,"\"We're not ruling out any possibility\" no compromete a nada concreto, dejando todas las puertas abiertas."],
+      ["writing","Escribe en inglés 55-75 palabras analizando un eufemismo o un caso de ambigüedad estratégica que hayas visto en un discurso político real o inventado. Explica qué frase directa estaría evitando y por qué.",[],["euphemism","instead of","avoids committing"],"Identifica la frase exacta, el significado más directo que sustituye, y el efecto que busca en la audiencia."]
+    ]
+  },
 ];
