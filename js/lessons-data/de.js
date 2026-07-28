@@ -957,4 +957,149 @@ window.LESSON_BANKS.DE = [
       ["writing","Identifiziere und erkläre auf Deutsch in 55-75 Wörtern einen logischen Fehlschluss, den du kürzlich in einer Debatte, Werbung oder Diskussion gehört hast (real oder erfunden). Benenne den Fehlschluss und erkläre, warum das Argument trotz seiner Überzeugungskraft irreführend ist.",[],["Fehlschluss","weil","obwohl es scheint"],"Benenne explizit die Art des Fehlschlusses (Ad hominem, falsche Dichotomie, Dammbruchargument usw.) und begründe deine Einordnung."]
     ]
   },
+  {
+    id:"de_a1_emotions_feelings", level:"A1", title:"Gefühle: wie du dich fühlst", emoji:"😊", xp:35,
+    description:"Lerne, grundlegende Emotionen und Gefühle auf Deutsch auszudrücken.",
+    study: {
+      vocab: [
+        ["glücklich, traurig, müde, wütend sein", "to be happy, sad, tired, angry"],
+        ["Wie fühlst du dich?", "How do you feel?"],
+        ["Ich bin ein bisschen nervös.", "I'm a bit nervous."],
+        ["Angst haben, müde sein, Hunger haben", "to be afraid, to be sleepy, to be hungry"],
+        ["Warum bist du traurig?", "Why are you sad?"]
+      ],
+      grammar: [
+        ["\"Sein\" mit Emotionen", "Emotionen werden mit \"sein\" + Adjektiv ausgedrückt.", "Ich bin heute glücklich. / Sie ist nach der Arbeit müde."]
+      ]
+    },
+    ex:[
+      ["mcq","Wie fragst du jemanden, wie er sich fühlt?",["Wie fühlst du dich?","Wie heißt du?","Wo wohnst du?","Wie alt bist du?"],0,"\"Wie fühlst du dich?\" fragt nach dem emotionalen Zustand von jemandem."],
+      ["mcq","Du hast viel Arbeit und wenig Erholung. Wie fühlst du dich?",["Ich bin müde.","Ich bin glücklich.","Ich habe Hunger.","Mir ist kalt."],0,"Viel Arbeit und wenig Erholung führen typischerweise dazu, sich \"müde\" zu fühlen."],
+      ["fill","Ergänze: \"Ich ___ ein bisschen nervös vor der Prüfung.\"",["bin","bist","habe","mache"],0,"Emotionen werden mit \"sein\" ausgedrückt: \"Ich bin ein bisschen nervös.\""],
+      ["translate","Übersetze: \"Why are you sad?\"",["Warum bist du traurig?","Warum bist du trauriges?","Warum du bist traurig?","Warum hast du traurig?"],0,"\"Why are you sad?\" = \"Warum bist du traurig?\", mit \"sein\" für einen emotionalen Zustand."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Arbeit / müde / nach / ich / bin / der]",["Ich bin müde nach der Arbeit","Nach der Arbeit bin ich müde","Müde bin ich nach der Arbeit","Ich bin nach der Arbeit müde"],0,"Subjekt + \"bin\" + Adjektiv + Zeitangabe, oder Zeitangabe zuerst: \"Nach der Arbeit bin ich müde.\""],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter darüber, wie du dich heute fühlst und warum. Benutze mindestens zwei verschiedene Emotionen.",[],["ich bin","weil","ich fühle mich"],"Nenne einen konkreten Grund für jede beschriebene Emotion."]
+    ]
+  },
+  {
+    id:"de_a2_hobbies_weekend", level:"A2", title:"Freizeit: Hobbys und Wochenendpläne", emoji:"🎨", xp:44,
+    description:"Sprich über deine Hobbys und deine Pläne für das Wochenende auf Deutsch.",
+    study: {
+      vocab: [
+        ["Was machst du gern in deiner Freizeit?", "What do you like to do in your free time?"],
+        ["malen, ein Instrument spielen, wandern", "to paint, to play an instrument, to go hiking"],
+        ["Was hast du für das Wochenende geplant?", "What plans do you have for the weekend?"],
+        ["ich werde... / ich habe vor zu...", "I'm going to + infinitive"],
+        ["sich mit Freunden treffen", "to meet up with friends"]
+      ],
+      grammar: [
+        ["Präsens mit Zeitangabe für Pläne", "Im Deutschen wird oft das Präsens mit einer Zeitangabe benutzt, um nahe Zukunftspläne auszudrücken.", "Am Samstag treffe ich mich mit Freunden."]
+      ]
+    },
+    ex:[
+      ["mcq","Wie fragst du nach den Hobbys von jemandem?",["Was machst du gern in deiner Freizeit?","Wie spät ist es?","Wo arbeitest du?","Wie viele Geschwister hast du?"],0,"\"Was machst du gern in deiner Freizeit?\" fragt konkret nach Hobbys."],
+      ["mcq","Welcher Satz beschreibt einen nahen Zukunftsplan?",["Am Samstag treffe ich mich mit Freunden.","Am Samstag habe ich mich mit Freunden getroffen.","Am Samstag treffe ich mich immer mit Freunden.","Am Samstag traf ich mich mit Freunden."],0,"Präsens + Zeitangabe (\"am Samstag\") drückt einen konkreten, nahen Zukunftsplan aus."],
+      ["fill","Ergänze: \"Dieses Wochenende ___ ich wandern.\"",["gehe","bin","habe","mache"],0,"Präsens für Pläne: \"Dieses Wochenende gehe ich wandern.\""],
+      ["translate","Übersetze: \"What plans do you have for the weekend?\"",["Was hast du für das Wochenende geplant?","Was hast du für das Wochenende sein?","Was du für das Wochenende geplant hast?","Für das Wochenende was hast du geplant sein?"],0,"\"What plans do you have for the weekend?\" = \"Was hast du für das Wochenende geplant?\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [Instrument / spiele / gern / ich / ein]",["Ich spiele gern ein Instrument","Gern spiele ich ein Instrument","Ein Instrument spiele ich gern","Ich gern spiele ein Instrument"],0,"Subjekt + Verb + \"gern\" + Objekt: \"Ich spiele gern ein Instrument.\""],
+      ["speaking","Erkläre auf Deutsch, in 40-60 Wörtern, deine liebsten Hobbys und deine Pläne für das nächste Wochenende.",[],["ich mag","ich werde","treffen"],"Erwähne mindestens zwei Hobbys und einen konkreten Plan."]
+    ]
+  },
+  {
+    id:"de_b1_environment_sustainability", level:"B1", title:"Umwelt: nachhaltige Gewohnheiten", emoji:"🌱", xp:60,
+    description:"Sprich über Umweltschutz und nachhaltige Gewohnheiten auf Deutsch.",
+    study: {
+      vocab: [
+        ["recyceln, wiederverwenden, den Konsum reduzieren", "to recycle, to reuse, to reduce consumption"],
+        ["der Klimawandel, der CO2-Fußabdruck", "climate change, carbon footprint"],
+        ["Einwegprodukte", "single-use products"],
+        ["Energie / Wasser sparen", "to save energy / water"],
+        ["Maßnahmen ergreifen, um den Planeten zu schützen", "to take steps to protect the planet"]
+      ],
+      grammar: [
+        ["Futur I für Konsequenzen", "Futur I mit \"werden\" beschreibt wahrscheinliche Folgen aktueller Handlungen.", "Wenn wir den Plastikverbrauch nicht reduzieren, wird die Verschmutzung zunehmen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welche dieser Handlungen hilft, den CO2-Fußabdruck zu reduzieren?",["Öffentliche Verkehrsmittel statt Auto nutzen.","Mehr Einwegprodukte kaufen.","Das Licht den ganzen Tag anlassen.","Das Auto für sehr kurze Strecken benutzen."],0,"Öffentliche Verkehrsmittel reduzieren die individuellen CO2-Emissionen."],
+      ["mcq","Welcher Satz beschreibt korrekt eine wahrscheinliche Zukunftsfolge?",["Wenn wir den Plastikverbrauch nicht reduzieren, wird die Verschmutzung zunehmen.","Wenn wir den Plastikverbrauch nicht reduzieren, nahm die Verschmutzung zu.","Wenn wir den Plastikverbrauch nicht reduzieren, nimmt die Verschmutzung gestern zu.","Wenn wir den Plastikverbrauch nicht reduzieren, Verschmutzung zunehmen."],0,"Futur I (\"wird zunehmen\") drückt eine wahrscheinliche Konsequenz einer aktuellen Bedingung aus."],
+      ["fill","Ergänze: \"Es ist wichtig, Wasser zu ___, besonders im Sommer.\"",["sparen","ausgeben","wegwerfen","kaufen"],0,"\"Wasser sparen\" ist der korrekte Ausdruck, um den Verbrauch zu reduzieren."],
+      ["translate","Übersetze: \"We should reduce the use of single-use products.\"",["Wir sollten den Gebrauch von Einwegprodukten reduzieren.","Wir sollten den Gebrauch Einwegprodukte reduzieren.","Reduzieren wir sollten Einwegprodukte den Gebrauch.","Wir sollten Einwegprodukte den Gebrauch reduzieren."],0,"\"Single-use products\" = \"Einwegprodukte\"; \"we should reduce\" = \"wir sollten reduzieren\"."],
+      ["arrange","Bringe in die richtige Reihenfolge: [wichtig / recyceln / ist / Glas / zu / es]",["Es ist wichtig, Glas zu recyceln","Glas ist es wichtig zu recyceln","Wichtig ist es, Glas zu recyceln","Es ist zu recyceln wichtig Glas"],0,"\"Es ist wichtig, ... zu\" + Objekt + Infinitiv: \"Es ist wichtig, Glas zu recyceln.\""],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über drei nachhaltige Gewohnheiten, die du praktizierst oder gerne beginnen würdest, und warum sie wichtig sind.",[],["recyceln","sparen","CO2-Fußabdruck"],"Nenne mindestens drei konkrete Gewohnheiten und je einen Grund dafür."]
+    ]
+  },
+  {
+    id:"de_b2_ai_future_work", level:"B2", title:"Künstliche Intelligenz und die Zukunft der Arbeit", emoji:"🤖", xp:80,
+    description:"Diskutiere die Auswirkungen künstlicher Intelligenz auf die Arbeit mit differenzierten Argumenten auf Deutsch.",
+    study: {
+      vocab: [
+        ["repetitive Aufgaben automatisieren", "to automate repetitive tasks"],
+        ["Arbeitsplätze ersetzen", "to replace jobs"],
+        ["sich an neue Werkzeuge anpassen", "to adapt to new tools"],
+        ["neue Arbeitsmöglichkeiten schaffen", "to generate new job opportunities"],
+        ["es kommt darauf an, wie es umgesetzt wird", "it depends on how it's implemented"]
+      ],
+      grammar: [
+        ["Futur II für Spekulation", "\"Wird ... haben\" spekuliert darüber, was bis zu einem bestimmten Zeitpunkt wahrscheinlich geschehen sein wird.", "Bis 2030 wird KI viele Branchen verändert haben."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher Satz präsentiert eine differenzierte Position zu KI und Beschäftigung?",["Es kommt darauf an, wie sie umgesetzt wird: sie kann Aufgaben automatisieren, aber auch neue Arbeitsplätze schaffen.","KI wird alle Arbeitsplätze zerstören, ohne Ausnahme.","KI beeinflusst die Beschäftigung überhaupt nicht.","Es gibt keinen Zweifel an der Zukunft der Arbeit."],0,"Eine differenzierte Position erkennt beide möglichen Effekte an, ohne Absolutheiten."],
+      ["mcq","Was bedeutet \"repetitive Aufgaben automatisieren\"?",["Eine Maschine Aufgaben erledigen lassen, die früher manuell und wiederholt von einer Person erledigt wurden.","Mehr Leute für repetitive Aufgaben einstellen.","Alle Aufgaben eines Unternehmens vollständig eliminieren.","Das Gehalt derer erhöhen, die repetitive Aufgaben erledigen."],0,"Automatisieren bedeutet, dass ein System die Aufgabe anstelle einer Person übernimmt."],
+      ["fill","Ergänze: \"Bis 2030 ___ künstliche Intelligenz viele Branchen verändert haben.\"",["wird","hatte","hat","würde"],0,"Futur II (\"wird ... verändert haben\") spekuliert über etwas, das bis zu einem zukünftigen Zeitpunkt wahrscheinlich geschehen sein wird."],
+      ["translate","Übersetze: \"Algunos empleos se automatizarán, pero también se crearán otros nuevos.\"",["Some jobs will be automated, but new ones will also be created.","Some jobs will automate, but new ones will also create.","Jobs some will be automated, but new ones will create.","Some jobs will be automated, but also new ones created."],0,"Beide Sätze verwenden \"will\": \"will be automated\" und \"will be created\"."],
+      ["mcq","Welche dieser Aussagen zeigt kritisches Denken, keine unbegründete Meinung?",["Die Auswirkung von KI auf die Beschäftigung wird von der Branche und dem Umgang mit dem Wandel abhängen.","KI ist immer gut für alle, ohne Ausnahme.","KI ist immer schlecht für alle, ohne Ausnahme.","Es lohnt sich nicht, über die Zukunft der Arbeit nachzudenken."],0,"Zu erkennen, dass die Auswirkung von konkreten Faktoren (Branche, Umgang) abhängt, ist kritisches und differenziertes Denken."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter darüber, wie künstliche Intelligenz deiner Meinung nach dein Arbeits- oder Studienfeld in den nächsten Jahren verändern wird. Nenne einen positiven und einen besorgniserregenden Aspekt.",[],["automatisieren","hängt ab von","jedoch"],"Vermeide Absolutheiten: erkenne sowohl konkrete Vorteile als auch Risiken an."]
+    ]
+  },
+  {
+    id:"de_c1_advertising_persuasion", level:"C1", title:"Werbesprache: Überzeugung und Konnotation", emoji:"📢", xp:88,
+    description:"Analysiere, wie Werbesprache Konnotation und Überzeugungstechniken auf Deutsch nutzt.",
+    study: {
+      vocab: [
+        ["eine positive / negative Konnotation", "a positive / negative connotation"],
+        ["an das Zugehörigkeitsgefühl appellieren", "to appeal to the desire to belong"],
+        ["ein eingängiger Slogan", "a catchy slogan"],
+        ["ein Gefühl der Dringlichkeit erzeugen", "to create a sense of urgency"],
+        ["die Zielgruppe", "the target audience"]
+      ],
+      grammar: [
+        ["Konnotation versus Denotation", "Die Denotation ist die wörtliche Bedeutung eines Wortes; die Konnotation ist die damit verbundene emotionale oder kulturelle Aufladung.", "\"Haus\" (Denotation: Gebäude) versus \"Zuhause\" (Konnotation: Wärme, Zugehörigkeit)."]
+      ]
+    },
+    ex:[
+      ["mcq","Eine Werbung benutzt das Wort \"Zuhause\" statt \"Haus\". Was erreicht sie damit?",["Sie fügt eine emotionale Konnotation von Wärme und Zugehörigkeit hinzu.","Sie ändert die wörtliche Bedeutung vollständig.","Sie eliminiert jede emotionale Interpretation.","Sie hat keinerlei Wirkung auf die Botschaft."],0,"\"Zuhause\" hat emotionale Konnotationen, die \"Haus\" nicht in gleicher Weise vermittelt."],
+      ["mcq","„Nur noch 3 Stück auf Lager, jetzt kaufen!“ Welche Überzeugungstechnik nutzt dieser Satz?",["Ein Gefühl der Dringlichkeit erzeugen, um eine schnelle Entscheidung zu fördern.","Ausschließlich an objektive technische Daten appellieren.","Einen neutralen Vergleich mit anderen Produkten anbieten.","Das Produkt ohne jeden Druck beschreiben."],0,"Begrenzte Stückzahl und Dringlichkeit zu erwähnen drängt zu einer schnellen Entscheidung."],
+      ["fill","Ergänze: \"Diese Werbung richtet sich an eine sehr spezifische Ziel___: junge Berufstätige.\"",["gruppe","text","autor","leser"],0,"\"Zielgruppe\" ist der Standardausdruck für die Adressaten einer Botschaft."],
+      ["translate","Übersetze: \"The slogan appeals to the desire to belong.\"",["Der Slogan appelliert an das Zugehörigkeitsgefühl.","Der Slogan appelliert das Zugehörigkeitsgefühl.","Das Zugehörigkeitsgefühl appelliert an den Slogan.","Der Slogan appellieren an das Zugehörigkeitsgefühl."],0,"\"Appeals to\" = \"appelliert an\"; \"the desire to belong\" = \"das Zugehörigkeitsgefühl\"."],
+      ["mcq","Welches dieser Wörter hat eine positivere Konnotation als sein neutraleres Synonym?",["\"Exklusiv\" versus \"begrenzt\".","\"Produkt\" versus \"Artikel\".","\"Kaufen\" versus \"erwerben\".","\"Werbung\" versus \"Anzeige\"."],0,"\"Exklusiv\" fügt eine Konnotation von Prestige und Distinktion hinzu, die \"begrenzt\" nicht in gleicher Weise vermittelt."],
+      ["writing","Wähle eine reale oder erfundene Werbung und schreibe auf Deutsch 55-75 Wörter über: welche Konnotationen sie nutzt, an welche Zielgruppe sie sich richtet und welche Überzeugungstechnik sie einsetzt.",[],["Konnotation","Zielgruppe","Dringlichkeit"],"Identifiziere mindestens ein Wort mit spezifischer Konnotation und eine konkrete Überzeugungstechnik."]
+    ]
+  },
+  {
+    id:"de_c2_political_discourse", level:"C2", title:"Politischer Diskurs: strategische Mehrdeutigkeit und Euphemismus", emoji:"🎙️", xp:96,
+    description:"Analysiere strategische Mehrdeutigkeit und Euphemismus im anspruchsvollen politischen Diskurs auf Deutsch.",
+    study: {
+      vocab: [
+        ["ein Euphemismus", "a euphemism"],
+        ["strategische Mehrdeutigkeit", "strategic ambiguity"],
+        ["einer direkten Frage ausweichen", "to dodge a direct question"],
+        ["eine Haushaltsanpassung (Euphemismus für Kürzung)", "a budget adjustment (euphemism for a cut)"],
+        ["sich festlegen, ohne sich ganz festzulegen", "to commit without fully committing"]
+      ],
+      grammar: [
+        ["Politischen Euphemismus erkennen", "Ein Euphemismus ersetzt einen direkten Ausdruck durch einen milderen, oft um eine unangenehme Realität abzumildern.", "\"Haushaltsanpassung\" klingt neutraler als \"Ausgabenkürzung\", obwohl es dasselbe beschreibt."],
+        ["Strategische Mehrdeutigkeit", "Politiker wählen manchmal absichtlich vage Formulierungen, um sich nicht auf eine klare Position festzulegen.", "\"Wir prüfen alle Optionen\" sagt nicht, welche Option tatsächlich gewählt wird."]
+      ]
+    },
+    ex:[
+      ["mcq","Ein Politiker sagt \"Haushaltsanpassung\" statt \"Ausgabenkürzung\". Was erreicht er damit?",["Er mildert die negative Wirkung der Maßnahme durch einen Euphemismus.","Er ändert die Bedeutung der Maßnahme vollständig.","Er macht die Maßnahme transparenter und direkter.","Er beseitigt jede mögliche negative Interpretation."],0,"Der Euphemismus mildert die Wahrnehmung, ohne die Realität der Maßnahme zu ändern."],
+      ["mcq","„Wir prüfen alle Optionen“, gesagt auf eine direkte Frage. Welche Funktion erfüllt dieser Satz?",["Er weicht einer klaren Festlegung durch strategische Mehrdeutigkeit aus.","Er gibt eine vollständig transparente und spezifische Antwort.","Er bestätigt genau, welche Entscheidung getroffen wird.","Er verneint jede mögliche Entscheidung kategorisch."],0,"Dieser Satz vermeidet eine konkrete Festlegung und hält scheinbar alle Optionen offen."],
+      ["fill","Ergänze: \"Die Regierung kündigte eine Haushalts___ an, die in Wirklichkeit erhebliche Kürzungen bedeutete.\"",["anpassung","erhöhung","geschenk","preis"],0,"\"Haushaltsanpassung\" ist der typische Euphemismus für \"Kürzung\"."],
+      ["translate","Übersetze mit Präzision: \"Politicians sometimes commit without fully committing.\"",["Politiker legen sich manchmal fest, ohne sich ganz festzulegen.","Politiker legen manchmal fest ohne ganz festlegen.","Manchmal Politiker sich ganz festlegen ohne festlegen.","Politiker legen sich manchmal ganz fest ohne festlegen."],0,"\"Commit without fully committing\" = \"sich festlegen, ohne sich ganz festzulegen\", was die beabsichtigte Mehrdeutigkeit einfängt."],
+      ["mcq","Welcher dieser Sätze ist ein klares Beispiel für strategische Mehrdeutigkeit?",["Wir schließen derzeit keine Möglichkeit aus.","Das Budget wird dieses Jahr um genau 12 % gekürzt.","Das Gesetz tritt am 1. Januar ohne Ausnahmen in Kraft.","Ich werde nächste Woche von meinem Amt zurücktreten."],0,"\"Wir schließen keine Möglichkeit aus\" legt sich auf nichts Konkretes fest und lässt scheinbar alle Türen offen."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter über einen Euphemismus oder einen Fall strategischer Mehrdeutigkeit, den du in einer realen oder erfundenen politischen Rede beobachtet hast. Erkläre, welchen direkteren Ausdruck er vermeidet und warum.",[],["Euphemismus","anstatt","vermeidet Festlegung"],"Identifiziere den genauen Ausdruck, die direktere Bedeutung, die er ersetzt, und die beabsichtigte Wirkung auf das Publikum."]
+    ]
+  },
 ];
