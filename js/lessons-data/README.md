@@ -114,15 +114,15 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 42 | Progresión A1→C2 (vocabulario, gramática, tiempos verbales, mediación, registro, retórica, voz pasiva, concesión avanzada, estilo indirecto, conectores causales, falacias lógicas). |
-| Español    | ES | 42 | Progresión completa A1→C2: A1 (8), A2 (5), B1 (8), B2 (8), C1 (8), C2 (5): inversión enfática/litotes, retórica y tono, lectura crítica e implicaturas, lenguaje figurado, ironía, dilemas éticos, discurso académico, falacias lógicas. |
-| Francés    | FR | 42 | Misma progresión y temas que español, adaptados al francés. |
-| Alemán     | DE | 42 | Misma progresión, adaptada al alemán. |
-| Italiano   | IT | 42 | Misma progresión, adaptada al italiano. |
-| Portugués  | PT | 42 | Misma progresión, adaptada al portugués. |
+| Inglés     | EN | 48 | Progresión A1→C2 completa: vocabulario, gramática, tiempos verbales, mediación, registro, retórica, voz pasiva, concesión, estilo indirecto, conectores causales, falacias lógicas, IA y trabajo, publicidad, discurso político. |
+| Español    | ES | 48 | Progresión completa A1→C2: A1 (9), A2 (6), B1 (9), B2 (9), C1 (9), C2 (6). |
+| Francés    | FR | 48 | Misma progresión y temas que español, adaptados al francés. |
+| Alemán     | DE | 48 | Misma progresión, adaptada al alemán. |
+| Italiano   | IT | 48 | Misma progresión, adaptada al italiano. |
+| Portugués  | PT | 48 | Misma progresión, adaptada al portugués. |
 
-**Total actual: 252 lecciones.** Los 6 idiomas cubren el recorrido completo
-**A1 → C2** con exactamente el mismo número de lecciones (42 cada uno),
+**Total actual: 288 lecciones.** Los 6 idiomas cubren el recorrido completo
+**A1 → C2** con exactamente el mismo número de lecciones (48 cada uno),
 cada una con su glosario de estudio (`study`) correspondiente, validadas
 automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
 correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
@@ -130,13 +130,14 @@ ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
 índice — ver más abajo).
 
 Último lote agregado (uno por nivel, en los 6 idiomas, mismo tema para
-mantener coherencia y progresión): A1 la casa (habitaciones/muebles), A2
-salud y farmacia, B1 tecnología y redes sociales, B2 dilemas éticos
-(argumentar a favor/en contra), C1 discurso académico (citar/parafrasear),
-C2 falacias lógicas y persuasión. Inglés recibió además tres lecciones
-extra (B1 quejas/peticiones corteses, B2 estilo indirecto, C1 conectores
-causales complejos) para igualar exactamente su cobertura a la de los
-demás idiomas (42/42).
+mantener coherencia y progresión): A1 emociones y sentimientos, A2 ocio y
+planes de fin de semana, B1 medio ambiente y hábitos sostenibles, B2
+inteligencia artificial y el futuro del trabajo, C1 lenguaje publicitario
+(persuasión/connotación), C2 discurso político (ambigüedad estratégica y
+eufemismo). B2 (IA/trabajo) conecta con B1 (tecnología, lote anterior) y
+con C1 (publicidad), que a su vez conecta con C2 (persuasión política),
+manteniendo un hilo temático de comunicación persuasiva y pensamiento
+crítico a través de los niveles superiores.
 
 ### Tipos de ejercicio: dos formatos distintos
 
