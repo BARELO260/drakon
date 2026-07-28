@@ -957,4 +957,149 @@ window.LESSON_BANKS.IT = [
       ["writing","Individua e spiega in italiano, in 55-75 parole, una fallacia logica che hai sentito in un dibattito, in una pubblicità o in una discussione recente (reale o inventata). Nomina la fallacia e spiega perché l'argomento è fuorviante nonostante suoni convincente.",[],["fallacia","perché","anche se sembra"],"Nomina esplicitamente il tipo di fallacia (ad hominem, falsa dicotomia, china scivolosa, ecc.) e giustifica la tua identificazione."]
     ]
   },
+  {
+    id:"it_a1_emotions_feelings", level:"A1", title:"Le emozioni: come ti senti", emoji:"😊", xp:35,
+    description:"Impara a esprimere emozioni e sentimenti di base in italiano.",
+    study: {
+      vocab: [
+        ["essere felice, triste, stanco, arrabbiato", "to be happy, sad, tired, angry"],
+        ["Come ti senti?", "How do you feel?"],
+        ["Sono un po' nervoso/a.", "I'm a bit nervous."],
+        ["avere paura, avere sonno, avere fame", "to be afraid, to be sleepy, to be hungry"],
+        ["Perché sei triste?", "Why are you sad?"]
+      ],
+      grammar: [
+        ["\"Essere\" con le emozioni", "Le emozioni si esprimono con \"essere\" + aggettivo.", "Sono felice oggi. / È stanca dopo il lavoro."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi a qualcuno come si sente?",["Come ti senti?","Come ti chiami?","Dove vivi?","Quanti anni hai?"],0,"\"Come ti senti?\" chiede lo stato emotivo di qualcuno."],
+      ["mcq","Hai molto lavoro e poco riposo. Come ti senti?",["Sono stanco/a.","Sono felice.","Ho fame.","Ho freddo."],0,"Molto lavoro e poco riposo portano tipicamente a sentirsi \"stanco/a\"."],
+      ["fill","Completa: \"___ un po' nervoso prima dell'esame.\"",["Sono","Sei","Ho","Faccio"],0,"Le emozioni si esprimono con \"essere\": \"Sono un po' nervoso.\""],
+      ["translate","Traduci: \"Why are you sad?\"",["Perché sei triste?","Perché essere triste?","Perché tu hai triste?","Perché fai triste?"],0,"\"Why are you sad?\" = \"Perché sei triste?\", con \"essere\" per uno stato emotivo."],
+      ["arrange","Metti in ordine: [lavoro / stanca / dopo / sono / il]",["Sono stanca dopo il lavoro","Dopo il lavoro sono stanca","Stanca sono dopo il lavoro","Sono dopo il lavoro stanca"],0,"Soggetto + \"sono\" + aggettivo + complemento di tempo: \"Sono stanca dopo il lavoro.\""],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo come ti senti oggi e perché. Usa almeno due emozioni diverse.",[],["sono","perché","mi sento"],"Menziona una ragione concreta per ogni emozione che descrivi."]
+    ]
+  },
+  {
+    id:"it_a2_hobbies_weekend", level:"A2", title:"Il tempo libero: hobby e piani per il weekend", emoji:"🎨", xp:44,
+    description:"Parla dei tuoi hobby e dei tuoi piani per il fine settimana in italiano.",
+    study: {
+      vocab: [
+        ["Cosa ti piace fare nel tempo libero?", "What do you like to do in your free time?"],
+        ["dipingere, suonare uno strumento, fare escursioni", "to paint, to play an instrument, to go hiking"],
+        ["Che piani hai per il weekend?", "What plans do you have for the weekend?"],
+        ["sto per + infinito / vado a + infinito", "I'm going to + infinitive"],
+        ["vedersi con gli amici", "to meet up with friends"]
+      ],
+      grammar: [
+        ["\"Andare a\" + infinito per i piani", "Si usa \"andare a\" + infinito per parlare di piani futuri vicini.", "Sabato vado a vedermi con gli amici."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi gli hobby di qualcuno?",["Cosa ti piace fare nel tempo libero?","Che ore sono?","Dove lavori?","Quanti fratelli hai?"],0,"\"Cosa ti piace fare nel tempo libero?\" chiede specificamente gli hobby."],
+      ["mcq","Quale di queste frasi descrive un piano futuro vicino?",["Sabato vado a vedermi con gli amici.","Sabato mi sono visto con gli amici.","Sabato mi vedo sempre con gli amici.","Sabato mi vedevo con gli amici."],0,"\"Andare a\" + infinito esprime un piano futuro concreto e vicino."],
+      ["fill","Completa: \"Questo weekend ___ a fare escursioni.\"",["vado","sono","ho","faccio"],0,"\"Andare a\" + infinito: \"vado a fare escursioni\"."],
+      ["translate","Traduci: \"What plans do you have for the weekend?\"",["Che piani hai per il weekend?","Che piani sei per il weekend?","Che piani fai il weekend hai?","Per il weekend che piani sei?"],0,"\"What plans do you have for the weekend?\" = \"Che piani hai per il weekend?\""],
+      ["arrange","Metti in ordine: [strumento / suonare / mi / uno / piace]",["Mi piace suonare uno strumento","Piace mi suonare uno strumento","Uno strumento mi piace suonare","Suonare mi piace uno strumento"],0,"\"Mi piace\" + infinito: \"Mi piace suonare uno strumento.\""],
+      ["speaking","Spiega in italiano, in 40-60 parole, i tuoi hobby preferiti e i tuoi piani per il prossimo weekend.",[],["mi piace","vado a","vedermi"],"Menziona almeno due hobby e un piano concreto usando \"vado a\"."]
+    ]
+  },
+  {
+    id:"it_b1_environment_sustainability", level:"B1", title:"L'ambiente: abitudini sostenibili", emoji:"🌱", xp:60,
+    description:"Parla della tutela dell'ambiente e delle abitudini sostenibili in italiano.",
+    study: {
+      vocab: [
+        ["riciclare, riutilizzare, ridurre i consumi", "to recycle, to reuse, to reduce consumption"],
+        ["il cambiamento climatico, l'impronta di carbonio", "climate change, carbon footprint"],
+        ["i prodotti monouso", "single-use products"],
+        ["risparmiare energia / acqua", "to save energy / water"],
+        ["prendere provvedimenti per proteggere il pianeta", "to take steps to protect the planet"]
+      ],
+      grammar: [
+        ["Il futuro semplice per le conseguenze", "Il futuro semplice descrive conseguenze probabili di azioni attuali.", "Se non riduciamo la plastica, l'inquinamento aumenterà."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste azioni aiuta a ridurre l'impronta di carbonio?",["Usare i mezzi pubblici invece dell'auto.","Comprare più prodotti monouso.","Lasciare le luci accese tutto il giorno.","Usare l'auto per tragitti molto brevi."],0,"I mezzi pubblici riducono le emissioni individuali di carbonio."],
+      ["mcq","Quale frase descrive correttamente una conseguenza futura probabile?",["Se non riduciamo la plastica, l'inquinamento aumenterà.","Se non riduciamo la plastica, l'inquinamento è aumentato.","Se non riduciamo la plastica, l'inquinamento aumenta ieri.","Se non riduciamo la plastica, inquinamento aumentare."],0,"Il futuro semplice (\"aumenterà\") esprime una conseguenza probabile di una condizione attuale."],
+      ["fill","Completa: \"È importante ___ acqua, soprattutto in estate.\"",["risparmiare","spendere","buttare","comprare"],0,"\"Risparmiare acqua\" è l'espressione corretta per ridurne il consumo."],
+      ["translate","Traduci: \"We should reduce the use of single-use products.\"",["Dovremmo ridurre l'uso di prodotti monouso.","Dovremmo ridurre l'uso di prodotto monouso.","Ridurre dovremmo prodotti monouso l'uso.","Dovremmo usare prodotti monouso ridurre."],0,"\"Single-use products\" = \"prodotti monouso\"; \"we should reduce\" = \"dovremmo ridurre\"."],
+      ["arrange","Metti in ordine: [riciclare / importante / è / vetro / il]",["È importante riciclare il vetro","Il vetro è importante riciclare","Importante è riciclare il vetro","È riciclare importante il vetro"],0,"\"È importante\" + infinito + oggetto: \"È importante riciclare il vetro.\""],
+      ["writing","Scrivi in italiano 45-65 parole su tre abitudini sostenibili che pratichi o vorresti iniziare a praticare, e perché sono importanti.",[],["riciclare","risparmiare","impronta di carbonio"],"Menziona almeno tre abitudini concrete e una ragione per ciascuna."]
+    ]
+  },
+  {
+    id:"it_b2_ai_future_work", level:"B2", title:"Intelligenza artificiale e il futuro del lavoro", emoji:"🤖", xp:80,
+    description:"Discuti l'impatto dell'intelligenza artificiale sul lavoro, con argomenti sfumati in italiano.",
+    study: {
+      vocab: [
+        ["automatizzare compiti ripetitivi", "to automate repetitive tasks"],
+        ["sostituire posti di lavoro", "to replace jobs"],
+        ["adattarsi a nuovi strumenti", "to adapt to new tools"],
+        ["generare nuove opportunità di lavoro", "to generate new job opportunities"],
+        ["dipende da come viene implementata", "it depends on how it's implemented"]
+      ],
+      grammar: [
+        ["Il futuro anteriore per la speculazione", "\"Avrà\" + participio passato specula su ciò che probabilmente sarà accaduto entro un certo momento futuro.", "Entro il 2030, l'IA avrà cambiato molti settori."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi presenta una posizione sfumata sull'IA e l'occupazione?",["Dipende da come viene implementata: può automatizzare compiti ma anche creare nuovi posti di lavoro.","L'IA distruggerà tutti i lavori, senza eccezioni.","L'IA non influisce affatto sull'occupazione.","Non c'è alcun dubbio sul futuro del lavoro."],0,"Una posizione sfumata riconosce entrambi gli effetti possibili, senza assoluti."],
+      ["mcq","Cosa significa \"automatizzare compiti ripetitivi\"?",["Far svolgere a una macchina compiti che prima venivano fatti manualmente e ripetutamente da una persona.","Assumere più persone per compiti ripetitivi.","Eliminare completamente tutti i compiti di un'azienda.","Aumentare lo stipendio di chi svolge compiti ripetitivi."],0,"Automatizzare significa che un sistema svolge il compito al posto di una persona."],
+      ["fill","Completa: \"Entro il 2030, l'intelligenza artificiale ___ cambiato molti settori.\"",["avrà","aveva","ha","avrebbe"],0,"Il futuro anteriore (\"avrà cambiato\") specula su qualcosa che probabilmente sarà accaduto entro una data futura."],
+      ["translate","Traduci: \"Algunos empleos se automatizarán, pero también se crearán otros nuevos.\"",["Some jobs will be automated, but new ones will also be created.","Some jobs will automate, but new ones will also create.","Jobs some will be automated, but new ones will create.","Some jobs will be automated, but also new ones created."],0,"Entrambe le frasi usano \"will\": \"will be automated\" e \"will be created\"."],
+      ["mcq","Quale di queste affermazioni mostra pensiero critico, non un'opinione senza fondamento?",["L'impatto dell'IA sui posti di lavoro dipenderà dal settore e da come viene gestita la transizione.","L'IA è sempre buona per tutti, senza eccezioni.","L'IA è sempre negativa per tutti, senza eccezioni.","Non vale la pena pensare al futuro del lavoro."],0,"Riconoscere che l'impatto dipende da fattori concreti (settore, gestione) è pensiero critico e sfumato."],
+      ["writing","Scrivi in italiano 55-75 parole su come pensi che l'intelligenza artificiale cambierà il tuo campo di lavoro o studio nei prossimi anni. Includi un aspetto positivo e uno preoccupante.",[],["automatizzare","dipende da","tuttavia"],"Evita gli assoluti: riconosci sia vantaggi che rischi concreti."]
+    ]
+  },
+  {
+    id:"it_c1_advertising_persuasion", level:"C1", title:"Il linguaggio pubblicitario: persuasione e connotazione", emoji:"📢", xp:88,
+    description:"Analizza come il linguaggio pubblicitario usa la connotazione e le tecniche di persuasione.",
+    study: {
+      vocab: [
+        ["una connotazione positiva / negativa", "a positive / negative connotation"],
+        ["fare appello al desiderio di appartenenza", "to appeal to the desire to belong"],
+        ["uno slogan orecchiabile", "a catchy slogan"],
+        ["creare un senso di urgenza", "to create a sense of urgency"],
+        ["il pubblico di riferimento", "the target audience"]
+      ],
+      grammar: [
+        ["Connotazione contro denotazione", "La denotazione è il significato letterale di una parola; la connotazione è la carica emotiva o culturale associata.", "\"Casa\" (denotazione: edificio) contro \"focolare\" (connotazione: calore, appartenenza)."]
+      ]
+    },
+    ex:[
+      ["mcq","Una pubblicità usa la parola \"focolare\" invece di \"casa\". Cosa ottiene con questo?",["Aggiunge una connotazione emotiva di calore e appartenenza.","Cambia completamente il significato letterale.","Elimina qualsiasi interpretazione emotiva.","Non ha alcun effetto sul messaggio."],0,"\"Focolare\" ha connotazioni emotive che \"casa\" non trasmette allo stesso modo."],
+      ["mcq","\"Solo 3 pezzi rimasti, acquista ora!\" Quale tecnica di persuasione usa questa frase?",["Creare un senso di urgenza per motivare una decisione rapida.","Fare appello esclusivamente a dati tecnici oggettivi.","Offrire un confronto neutrale con altri prodotti.","Descrivere il prodotto senza alcuna pressione."],0,"Menzionare unità limitate e urgenza spinge a decidere senza pensarci troppo."],
+      ["fill","Completa: \"Questa pubblicità è rivolta a un pubblico di ___ molto specifico: giovani professionisti.\"",["riferimento","testo","autore","lettore"],0,"\"Pubblico di riferimento\" è l'espressione standard per indicare l'audience a cui si rivolge un messaggio."],
+      ["translate","Traduci: \"The slogan appeals to the desire to belong.\"",["Lo slogan fa appello al desiderio di appartenenza.","Lo slogan appello al desiderio di appartenenza.","Il desiderio di appartenenza fa appello allo slogan.","Lo slogan fare appello al desiderio di appartenenza."],0,"\"Appeals to\" = \"fa appello a\"; \"the desire to belong\" = \"il desiderio di appartenenza\"."],
+      ["mcq","Quale di queste parole ha una connotazione più positiva del suo sinonimo più neutro?",["\"Esclusivo\" contro \"limitato\".","\"Prodotto\" contro \"articolo\".","\"Comprare\" contro \"acquisire\".","\"Pubblicità\" contro \"annuncio\"."],0,"\"Esclusivo\" aggiunge una connotazione di prestigio e distinzione che \"limitato\" non trasmette allo stesso modo."],
+      ["writing","Scegli una pubblicità reale o inventata e scrivi in italiano 55-75 parole analizzando: quali connotazioni usa, a quale pubblico di riferimento si rivolge e quale tecnica di persuasione impiega.",[],["connotazione","pubblico di riferimento","urgenza"],"Identifica almeno una parola con connotazione specifica e una tecnica di persuasione concreta."]
+    ]
+  },
+  {
+    id:"it_c2_political_discourse", level:"C2", title:"Il discorso politico: ambiguità strategica ed eufemismo", emoji:"🎙️", xp:96,
+    description:"Analizza l'ambiguità strategica e l'eufemismo nel discorso politico di alto livello in italiano.",
+    study: {
+      vocab: [
+        ["un eufemismo", "a euphemism"],
+        ["l'ambiguità strategica", "strategic ambiguity"],
+        ["eludere una domanda diretta", "to dodge a direct question"],
+        ["un aggiustamento di bilancio (eufemismo per taglio)", "a budget adjustment (euphemism for a cut)"],
+        ["impegnarsi senza impegnarsi del tutto", "to commit without fully committing"]
+      ],
+      grammar: [
+        ["Riconoscere l'eufemismo politico", "Un eufemismo sostituisce un'espressione diretta con una più morbida, spesso per attenuare una realtà scomoda.", "\"Aggiustamento di bilancio\" suona più neutrale di \"taglio di spesa\", anche se descrive la stessa cosa."],
+        ["Ambiguità strategica", "I politici a volte scelgono deliberatamente frasi vaghe per evitare di impegnarsi su una posizione chiara.", "\"Stiamo valutando tutte le opzioni\" non dice quale opzione verrà effettivamente scelta."]
+      ]
+    },
+    ex:[
+      ["mcq","Un politico dice \"aggiustamento di bilancio\" invece di \"taglio di spesa\". Cosa ottiene con questo?",["Attenua l'impatto negativo della misura tramite un eufemismo.","Cambia completamente il significato della misura.","Rende la misura più trasparente e diretta.","Elimina qualsiasi interpretazione negativa possibile."],0,"L'eufemismo attenua la percezione senza cambiare la realtà della misura."],
+      ["mcq","\"Stiamo valutando tutte le opzioni\" detto di fronte a una domanda diretta. Che funzione svolge questa frase?",["Elude un impegno chiaro tramite ambiguità strategica.","Dà una risposta completamente trasparente e specifica.","Conferma esattamente quale decisione verrà presa.","Nega categoricamente ogni possibile decisione."],0,"Questa frase evita di impegnarsi su una posizione concreta, mantenendo apparentemente tutte le opzioni aperte."],
+      ["fill","Completa: \"Il governo ha annunciato un ___ di bilancio che in realtà comportava tagli importanti.\"",["aggiustamento","aumento","regalo","premio"],0,"\"Aggiustamento di bilancio\" è l'eufemismo tipico per \"taglio\"."],
+      ["translate","Traduci con precisione: \"Politicians sometimes commit without fully committing.\"",["I politici a volte si impegnano senza impegnarsi del tutto.","I politici a volte impegnano senza impegnare del tutto.","A volte i politici del tutto si impegnano senza impegnare.","I politici si impegnano a volte del tutto senza impegnarsi."],0,"\"Commit without fully committing\" = \"impegnarsi senza impegnarsi del tutto\", catturando l'ambiguità intenzionale."],
+      ["mcq","Quale di queste frasi è un chiaro esempio di ambiguità strategica?",["Non escludiamo nessuna possibilità in questo momento.","Il bilancio sarà ridotto esattamente del 12% quest'anno.","La legge entrerà in vigore il 1° gennaio, senza eccezioni.","Mi dimetterò dal mio incarico la prossima settimana."],0,"\"Non escludiamo nessuna possibilità\" non si impegna a nulla di concreto, lasciando apparentemente tutte le porte aperte."],
+      ["writing","Scrivi in italiano 55-75 parole analizzando un eufemismo o un caso di ambiguità strategica che hai osservato in un discorso politico reale o inventato. Spiega quale frase diretta sta evitando e perché.",[],["eufemismo","invece di","evita di impegnarsi"],"Identifica la frase esatta, il significato più diretto che sostituisce, e l'effetto che cerca sul pubblico."]
+    ]
+  },
 ];
