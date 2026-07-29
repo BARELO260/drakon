@@ -1102,4 +1102,149 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreve em português 55-75 palavras analisando um eufemismo ou um caso de ambiguidade estratégica que tenhas visto num discurso político real ou inventado. Explica que frase direta está a evitar e porquê.",[],["eufemismo","em vez de","evita comprometer-se"],"Identifica a frase exata, o significado mais direto que substitui, e o efeito que procura na audiência."]
     ]
   },
+  {
+    id:"pt_a1_money_prices", level:"A1", title:"Números ordinais, dinheiro e preços", emoji:"💰", xp:36,
+    description:"Aprende a falar de preços, dinheiro e números ordinais em português.",
+    study: {
+      vocab: [
+        ["primeiro, segundo, terceiro...", "first, second, third..."],
+        ["Quanto custa isto?", "How much does this cost?"],
+        ["Custa dez euros.", "It costs ten euros."],
+        ["barato, caro", "cheap, expensive"],
+        ["pagar em dinheiro / com cartão", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Custa / Custam\" para preços", "\"Custa\" (singular) e \"custam\" (plural) concordam com o que se compra.", "O livro custa dez euros. Os livros custam vinte euros."]
+      ]
+    },
+    ex:[
+      ["mcq","Como perguntas o preço de algo?",["Quanto custa isto?","O que é isto?","Onde está isto?","Quando é isto?"],0,"\"Quanto custa isto?\" é a pergunta padrão para pedir um preço."],
+      ["mcq","Um produto de 5 euros é mais barato do que um de 50 euros. Que palavra descreve o de 5 euros?",["Barato.","Caro.","Grátis.","Grande."],0,"\"Barato\" descreve algo de preço baixo em comparação com outra coisa."],
+      ["fill","Completa: \"Os sapatos ___ quarenta euros.\"",["custam","custa","é","são"],0,"\"Custam\" concorda no plural com \"os sapatos\"."],
+      ["translate","Traduz: \"It costs ten euros.\"",["Custa dez euros.","Custam dez euros.","É dez euros.","Tem dez euros."],0,"\"It costs ten euros\" (singular) = \"Custa dez euros.\""],
+      ["arrange","Ordena: [cartão / pago / com / sempre]",["Pago sempre com cartão","Sempre pago com cartão","Com cartão sempre pago","Pago com cartão sempre"],0,"Sujeito + verbo + advérbio + complemento: \"Pago sempre com cartão.\""],
+      ["writing","Escreve em português 20-30 palavras sobre os teus hábitos de compra: o que compras normalmente, se preferes pagar em dinheiro ou com cartão, e se procuras coisas baratas.",[],["custa","barato","pago"],"Usa pelo menos um número ordinal ou um preço concreto na tua resposta."]
+    ]
+  },
+  {
+    id:"pt_a2_restaurant_ordering", level:"A2", title:"No restaurante: pedir e pagar a conta", emoji:"🍽️", xp:45,
+    description:"Aprende a pedir comida, fazer perguntas ao empregado e pagar a conta num restaurante.",
+    study: {
+      vocab: [
+        ["Gostava de pedir...", "I would like to order..."],
+        ["O que me recomenda?", "What do you recommend?"],
+        ["Pode trazer a conta, por favor?", "Could you bring me the bill, please?"],
+        ["O serviço está incluído?", "Is the tip included?"],
+        ["Para mim, o prato do dia.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Gostava de\" para pedir com cortesia", "\"Gostava de\" (condicional de \"gostar\") é mais formal e cortês do que \"quero\" ao pedir algo.", "Gostava de pedir a sopa e o frango, por favor."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual é a forma mais cortês de pedir comida num restaurante?",["Gostava de pedir a sopa, por favor.","Quero a sopa já.","Dá-me a sopa.","Sopa, agora."],0,"\"Gostava de\" é a forma cortês e formal de pedir algo."],
+      ["mcq","Acabaste de comer e queres pagar. O que dizes?",["Pode trazer a conta, por favor?","Pode trazer o menu, por favor?","O que me recomenda?","Esta mesa está livre?"],0,"\"Pode trazer a conta, por favor?\" é a frase padrão para pedir para pagar."],
+      ["fill","Completa: \"___ pedir o peixe com salada, por favor.\"",["Gostava de","Quero já","Dá-me","Tenho"],0,"\"Gostava de pedir\" é a forma cortês padrão para fazer um pedido."],
+      ["translate","Traduz: \"Is the tip included?\"",["O serviço está incluído?","O serviço está incluir?","O serviço incluído está?","Incluído está o serviço em?"],0,"\"Is the tip included?\" = \"O serviço está incluído?\""],
+      ["arrange","Ordena: [recomenda / me / que / o]",["O que me recomenda","Me o que recomenda","Recomenda o que me","Me recomenda o que"],0,"Pergunta com \"o que\" no início: \"O que me recomenda?\""],
+      ["speaking","Representa em português, em 40-60 palavras, uma conversa breve num restaurante: pede um prato, pergunta por uma recomendação e pede a conta no final.",[],["gostava de","recomenda","a conta"],"Inclui as três partes: pedido, pergunta ao empregado e pedido da conta."]
+    ]
+  },
+  {
+    id:"pt_b1_personal_finance", level:"B1", title:"Finanças pessoais: o banco e o orçamento", emoji:"🏦", xp:62,
+    description:"Fala sobre contas bancárias, poupança e orçamento pessoal em português.",
+    study: {
+      vocab: [
+        ["abrir uma conta bancária", "to open a bank account"],
+        ["fazer um orçamento mensal", "to make a monthly budget"],
+        ["poupar para um objetivo", "to save up for a goal"],
+        ["as despesas fixas e as despesas variáveis", "fixed expenses and variable expenses"],
+        ["pedir um empréstimo, pagar em prestações", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["O condicional para conselhos financeiros", "\"Devias\" + infinitivo dá um conselho sem soar demasiado direto.", "Devias poupar pelo menos 10% do teu salário todos os meses."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual destas frases dá um conselho financeiro de forma adequada?",["Devias poupar um pouco todos os meses, mesmo que seja pouco.","Poupa já, não há outra opção.","Poupar não serve para nada.","Nunca vais conseguir poupar nada."],0,"\"Devias\" + infinitivo dá um conselho de forma cortês e razoável."],
+      ["mcq","Qual é a diferença entre despesas fixas e variáveis?",["As fixas repetem-se todos os meses pelo mesmo valor; as variáveis mudam.","As fixas mudam todos os meses; as variáveis são sempre iguais.","Não há nenhuma diferença real entre elas.","As variáveis só existem em empresas, não em pessoas."],0,"As despesas fixas (a renda, por exemplo) mantêm-se estáveis; as variáveis (lazer, comida) mudam de mês para mês."],
+      ["fill","Completa: \"Vou ___ uma conta bancária nova este mês.\"",["abrir","fechar","gastar","perder"],0,"\"Abrir uma conta bancária\" é a colocação correta para criar uma conta nova."],
+      ["translate","Traduz: \"You should make a monthly budget.\"",["Devias fazer um orçamento mensal.","Devias fazer orçamento mensal um.","Um orçamento mensal devias fazer.","Devias um orçamento mensal fazer."],0,"\"You should make a monthly budget\" = \"Devias fazer um orçamento mensal.\""],
+      ["arrange","Ordena: [poupar / objetivo / para / um / quero]",["Quero poupar para um objetivo","Para um objetivo quero poupar","Poupar quero para um objetivo","Quero para um objetivo poupar"],0,"Sujeito + \"quero\" + infinitivo + complemento: \"Quero poupar para um objetivo.\""],
+      ["writing","Escreve em português 45-65 palavras sobre a tua relação com o dinheiro: como organizas o teu orçamento, se poupas para algo concreto e um hábito financeiro que gostarias de melhorar.",[],["orçamento","poupar","despesas"],"Menciona pelo menos uma despesa fixa, uma despesa variável e uma meta de poupança."]
+    ]
+  },
+  {
+    id:"pt_b2_mental_wellbeing", level:"B2", title:"Bem-estar e saúde mental: falar com nuance", emoji:"🧘", xp:82,
+    description:"Fala sobre o bem-estar emocional e a saúde mental com um vocabulário mais matizado em português.",
+    study: {
+      vocab: [
+        ["sentir-se sobrecarregado/a", "to feel overwhelmed"],
+        ["estabelecer limites, cuidar de si próprio", "to set boundaries, to take care of yourself"],
+        ["o esgotamento (burnout)", "burnout"],
+        ["pedir ajuda não é sinal de fraqueza", "asking for help is not a sign of weakness"],
+        ["processar as emoções", "to process one's emotions"]
+      ],
+      grammar: [
+        ["O conjuntivo com expressões de recomendação", "\"É importante que\" + conjuntivo recomenda uma ação relacionada com o bem-estar.", "É importante que fales do que sentes com alguém de confiança."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual destas frases usa corretamente o conjuntivo para dar uma recomendação?",["É importante que descanses quando precisares.","É importante que descansas quando precisas.","É importante descansares quando precisas.","É importante que descansar quando precisares."],0,"\"É importante que\" exige o conjuntivo: \"que descanses\"."],
+      ["mcq","O que significa \"sentir-se sobrecarregado/a\"?",["Sentir que há demasiadas coisas para gerir ao mesmo tempo.","Sentir-se extremamente feliz e tranquilo.","Não sentir absolutamente nada.","Sentir curiosidade por algo novo."],0,"\"Sobrecarregado\" descreve uma sensação de excesso de tarefas ou emoções difíceis de gerir."],
+      ["fill","Completa: \"Estabelecer ___ é importante para cuidar do teu bem-estar.\"",["limites","dinheiro","roupa","comida"],0,"\"Estabelecer limites\" é a expressão correta para proteger o próprio bem-estar emocional."],
+      ["translate","Traduz: \"Asking for help is not a sign of weakness.\"",["Pedir ajuda não é sinal de fraqueza.","Pedir ajuda não é uma fraca sinal.","Pedir ajuda não é sinal de fraqueza não.","Não pedir ajuda é um sinal de fraqueza."],0,"\"Asking for help is not a sign of weakness\" = \"Pedir ajuda não é sinal de fraqueza.\""],
+      ["mcq","Qual destas frases reflete processar uma emoção de forma saudável, não evitá-la?",["Reconheço que estou triste e dou-me tempo para entender porquê.","Finjo que não se passa nada e ignoro como me sinto.","Distraio-me constantemente para não sentir nada.","Digo a todos que estou perfeitamente bem, mesmo não estando."],0,"Reconhecer e explorar uma emoção, em vez de a evitar, é um processamento emocional saudável."],
+      ["writing","Escreve em português 55-75 palavras sobre uma estratégia que uses (ou gostarias de usar) para cuidar do teu bem-estar emocional quando te sentes sobrecarregado/a.",[],["sobrecarregado","limites","processar"],"Usa pelo menos uma estrutura de recomendação com conjuntivo (\"é importante que...\")."]
+    ]
+  },
+  {
+    id:"pt_c1_legal_language", level:"C1", title:"Linguagem jurídica básica: contratos e cláusulas", emoji:"📜", xp:90,
+    description:"Compreende o vocabulário e as estruturas básicas da linguagem jurídica em contratos.",
+    study: {
+      vocab: [
+        ["as partes contratantes", "the contracting parties"],
+        ["uma cláusula, um anexo", "a clause, an appendix"],
+        ["rescindir um contrato", "to terminate a contract"],
+        ["estar sujeito aos termos e condições", "to be subject to the terms and conditions"],
+        ["em caso de incumprimento", "in the event of a breach"]
+      ],
+      grammar: [
+        ["A linguagem formal impessoal em contratos", "Os contratos usam estruturas impessoais e passivas para soar objetivos e evitar ambiguidade sobre quem age.", "O presente contrato poderá ser rescindido por qualquer uma das partes mediante um pré-aviso de 30 dias."],
+        ["\"Caso\" + conjuntivo para condições legais", "Esta estrutura formal introduz condições legais hipotéticas.", "Caso uma das partes não cumpra o acordado, será aplicada uma penalização."]
+      ]
+    },
+    ex:[
+      ["mcq","O que significa \"rescindir um contrato\"?",["Terminar ou anular um contrato antes do previsto.","Assinar um contrato novo.","Modificar apenas uma cláusula do contrato.","Renovar um contrato automaticamente."],0,"\"Rescindir\" significa pôr fim a um contrato, geralmente antes do seu término natural."],
+      ["mcq","Qual destas frases usa corretamente a linguagem formal impessoal típica de um contrato?",["O presente contrato poderá ser rescindido por qualquer uma das partes.","Qualquer pessoa pode quebrar este contrato se quiser.","Alguém pode cancelar isto quando lhe apetecer.","Pode-se cancelar o contrato assim, sem mais."],0,"A linguagem contratual formal usa construções passivas e impessoais, evitando um tom coloquial."],
+      ["fill","Completa: \"___ uma das partes não cumpra o acordado, será aplicada uma penalização.\"",["Caso","Porque","Embora","No entanto"],0,"\"Caso\" + conjuntivo introduz uma condição legal hipotética."],
+      ["translate","Traduz: \"The contract is subject to the terms and conditions described in Appendix A.\"",["O contrato está sujeito aos termos e condições descritos no Anexo A.","O contrato está sujeito os termos e condições descritos no Anexo A.","O contrato está sujeito aos termos e condições no Anexo A descritos.","Sujeito o contrato está aos termos do Anexo A."],0,"\"Subject to\" = \"sujeito a\"; \"described in Appendix A\" = \"descritos no Anexo A\"."],
+      ["mcq","O que são \"as partes contratantes\"?",["As pessoas ou entidades que assinam e se comprometem num contrato.","Apenas a pessoa que redige o contrato.","As secções ou capítulos de um contrato.","As testemunhas que não assinam o contrato."],0,"\"As partes contratantes\" refere-se a quem assina o contrato e assume obrigações nele."],
+      ["writing","Escreve em português 55-75 palavras redigindo uma cláusula simples de um contrato fictício (por exemplo, sobre prazos de entrega ou condições de cancelamento), usando um registo formal e impessoal.",[],["as partes","caso","rescindir"],"Usa pelo menos uma construção passiva ou impessoal, própria do registo jurídico formal."]
+    ]
+  },
+  {
+    id:"pt_c2_literary_criticism", level:"C2", title:"Crítica literária: voz narrativa e estilo", emoji:"📖", xp:97,
+    description:"Analisa a voz narrativa, o estilo e as decisões formais de um texto literário em português.",
+    study: {
+      vocab: [
+        ["a voz narrativa", "the narrative voice"],
+        ["um narrador fiável / pouco fiável", "a reliable / unreliable narrator"],
+        ["o ponto de vista (primeira, terceira pessoa)", "point of view (first, third person)"],
+        ["o tom e o registo de um texto", "the tone and register of a text"],
+        ["uma técnica narrativa (flashback, elipse)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Analisar decisões formais do autor", "A análise literária avançada liga uma escolha formal (ponto de vista, tempo verbal) ao seu efeito no leitor.", "O uso da primeira pessoa gera proximidade, mas também limita a perspetiva ao que o narrador pode saber ou perceber."]
+      ]
+    },
+    ex:[
+      ["mcq","O que caracteriza um \"narrador pouco fiável\"?",["A sua versão dos factos pode estar enviesada, incompleta ou ser enganadora.","Diz sempre a verdade absoluta sobre tudo o que acontece.","Nunca tem opinião sobre os factos que narra.","Só aparece em textos científicos, nunca em ficção."],0,"Um narrador pouco fiável oferece uma perspetiva que o leitor deve questionar, por enviesamento, ignorância ou engano."],
+      ["mcq","Que efeito costuma produzir a narração em primeira pessoa?",["Gera proximidade com o narrador, mas limita a perspetiva ao que ele sabe.","Elimina qualquer ligação emocional com o leitor.","Garante sempre uma visão objetiva dos factos.","Só se usa em textos não literários."],0,"A primeira pessoa aproxima o leitor do narrador, à custa de uma visão necessariamente parcial dos factos."],
+      ["fill","Completa: \"O uso de um ___ interrompe a cronologia para mostrar um evento do passado.\"",["flashback","epílogo","prólogo","índice"],0,"Um \"flashback\" é a técnica narrativa que interrompe a cronologia linear para mostrar o passado."],
+      ["translate","Traduz com precisão técnica: \"A falta de fiabilidade do narrador obriga o leitor a questionar cada afirmação.\"",["The narrator's unreliability forces the reader to question every claim.","The narrator unreliability force the reader question every claim.","The unreliable narrator force to question reader every claim is.","Question every claim forces the narrator's unreliability the reader."],0,"\"Falta de fiabilidade\" traduz-se tecnicamente como \"unreliability\"."],
+      ["mcq","Qual destas análises liga corretamente uma decisão formal ao seu efeito no leitor?",["O tempo presente narrativo cria uma sensação de imediatismo, como se os factos estivessem a acontecer agora mesmo.","O autor usou o presente porque é mais fácil de escrever.","O presente não tem qualquer efeito sobre como a história é percecionada.","O presente só se usa em poesia, nunca em narrativa."],0,"Uma boa análise literária liga a escolha formal (tempo verbal) a um efeito concreto na experiência de leitura."],
+      ["writing","Escolhe um conto, romance ou relato que conheças (ou inventa um breve) e escreve em português 55-75 palavras analisando a sua voz narrativa: ponto de vista, fiabilidade do narrador e um efeito que isto produz no leitor.",[],["voz narrativa","ponto de vista","efeito"],"Liga explicitamente uma decisão formal do autor a um efeito concreto na leitura, não te limites a descrever o enredo."]
+    ]
+  },
 ];
