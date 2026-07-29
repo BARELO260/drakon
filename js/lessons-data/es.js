@@ -1105,4 +1105,149 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe 55-75 palabras analizando un eufemismo o un caso de ambigüedad estratégica que hayas visto en un discurso político real o inventado. Explica qué frase directa estaría evitando y por qué.",[],["eufemismo","en lugar de","evita comprometerse"],"Identifica la frase exacta, el significado más directo que sustituye, y el efecto que busca en la audiencia."]
     ]
   },
+  {
+    id:"es_a1_money_prices", level:"A1", title:"Números ordinales, dinero y precios", emoji:"💰", xp:36,
+    description:"Aprende a hablar de precios, dinero y números ordinales en español.",
+    study: {
+      vocab: [
+        ["primero, segundo, tercero...", "first, second, third..."],
+        ["¿Cuánto cuesta esto?", "How much does this cost?"],
+        ["Cuesta diez euros.", "It costs ten euros."],
+        ["barato, caro", "cheap, expensive"],
+        ["pagar en efectivo / con tarjeta", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Cuesta / Cuestan\" para precios", "\"Cuesta\" (singular) y \"cuestan\" (plural) concuerdan con lo que se compra.", "El libro cuesta diez euros. Los libros cuestan veinte euros."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas el precio de algo?",["¿Cuánto cuesta esto?","¿Qué es esto?","¿Dónde está esto?","¿Cuándo es esto?"],0,"\"¿Cuánto cuesta esto?\" es la pregunta estándar para pedir un precio."],
+      ["mcq","Un producto de 5 euros es más barato que uno de 50 euros. ¿Qué palabra describe el de 5 euros?",["Barato.","Caro.","Gratis.","Grande."],0,"\"Barato\" describe algo de precio bajo en comparación con otra cosa."],
+      ["fill","Completa: \"Los zapatos ___ cuarenta euros.\"",["cuestan","cuesta","es","son"],0,"\"Cuestan\" concuerda en plural con \"los zapatos\"."],
+      ["translate","Traduce: \"It costs ten euros.\"",["Cuesta diez euros.","Cuestan diez euros.","Es diez euros.","Tiene diez euros."],0,"\"It costs ten euros\" (singular) = \"Cuesta diez euros.\""],
+      ["arrange","Ordena: [tarjeta / pago / con / siempre]",["Siempre pago con tarjeta","Pago siempre con tarjeta","Con tarjeta siempre pago","Pago con tarjeta siempre"],0,"Ambas primeras opciones son naturales; elegimos \"Siempre pago con tarjeta.\" como la más estándar."],
+      ["writing","Escribe 20-30 palabras sobre tus hábitos de compra: qué cosas compras normalmente, si prefieres pagar en efectivo o con tarjeta, y si buscas cosas baratas o no te importa el precio.",[],["cuesta","barato","pago"],"Usa al menos un número ordinal o un precio concreto en tu respuesta."]
+    ]
+  },
+  {
+    id:"es_a2_restaurant_ordering", level:"A2", title:"En el restaurante: pedir y pagar la cuenta", emoji:"🍽️", xp:45,
+    description:"Aprende a pedir comida, hacer preguntas al camarero y pagar la cuenta en un restaurante.",
+    study: {
+      vocab: [
+        ["Quisiera pedir...", "I would like to order..."],
+        ["¿Qué me recomienda?", "What do you recommend?"],
+        ["¿Me trae la cuenta, por favor?", "Could you bring me the bill, please?"],
+        ["¿Está incluida la propina?", "Is the tip included?"],
+        ["Para mí, el menú del día.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Quisiera\" para pedir con cortesía", "\"Quisiera\" (condicional de \"querer\") es más formal y cortés que \"quiero\" al pedir algo.", "Quisiera pedir la sopa y el pollo, por favor."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la forma más cortés de pedir comida en un restaurante?",["Quisiera pedir la sopa, por favor.","Quiero la sopa ya.","Dame la sopa.","Sopa, ahora."],0,"\"Quisiera\" es la forma cortés y formal de pedir algo."],
+      ["mcq","Terminaste de comer y quieres pagar. ¿Qué dices?",["¿Me trae la cuenta, por favor?","¿Me trae el menú, por favor?","¿Qué me recomienda?","¿Está libre esta mesa?"],0,"\"¿Me trae la cuenta, por favor?\" es la frase estándar para pedir pagar."],
+      ["fill","Completa: \"___ pedir el pescado con ensalada, por favor.\"",["Quisiera","Quiero ya","Dame","Tengo"],0,"\"Quisiera pedir\" es la forma cortés estándar para hacer un pedido."],
+      ["translate","Traduce: \"Is the tip included?\"",["¿Está incluida la propina?","¿Está incluido la propina?","¿La propina está incluir?","¿Incluida está la propina en?"],0,"\"Is the tip included?\" = \"¿Está incluida la propina?\", con concordancia femenina (\"incluida\")."],
+      ["arrange","Ordena: [recomienda / me / qué]",["Qué me recomienda","Me qué recomienda","Recomienda qué me","Me recomienda qué"],0,"Pregunta con \"qué\" al inicio: \"¿Qué me recomienda?\""],
+      ["speaking","Representa en 40-60 palabras una conversación breve en un restaurante: pide un plato, pregunta por una recomendación y pide la cuenta al final.",[],["quisiera","me recomienda","la cuenta"],"Incluye las tres partes: pedido, pregunta al camarero y solicitud de la cuenta."]
+    ]
+  },
+  {
+    id:"es_b1_personal_finance", level:"B1", title:"Finanzas personales: el banco y el presupuesto", emoji:"🏦", xp:62,
+    description:"Habla sobre cuentas bancarias, ahorro y presupuesto personal en español.",
+    study: {
+      vocab: [
+        ["abrir una cuenta bancaria", "to open a bank account"],
+        ["hacer un presupuesto mensual", "to make a monthly budget"],
+        ["ahorrar para un objetivo", "to save up for a goal"],
+        ["los gastos fijos y los gastos variables", "fixed expenses and variable expenses"],
+        ["pedir un préstamo, pagar a plazos", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["El condicional para consejos financieros", "\"Deberías\" + infinitivo da un consejo sin sonar demasiado directo.", "Deberías ahorrar al menos un 10% de tu sueldo cada mes."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases da un consejo financiero de forma adecuada?",["Deberías ahorrar un poco cada mes, aunque sea poco.","Ahorra ahora mismo, no hay otra opción.","El ahorro no sirve para nada.","Nunca vas a poder ahorrar nada."],0,"\"Deberías\" + infinitivo da un consejo de forma cortés y razonable."],
+      ["mcq","¿Qué diferencia hay entre gastos fijos y variables?",["Los fijos se repiten cada mes por el mismo monto; los variables cambian.","Los fijos cambian cada mes; los variables son siempre iguales.","No hay ninguna diferencia real entre ellos.","Los variables solo existen en negocios, no en personas."],0,"Los gastos fijos (alquiler, por ejemplo) se mantienen estables; los variables (ocio, comida) cambian mes a mes."],
+      ["fill","Completa: \"Voy a ___ una cuenta bancaria nueva este mes.\"",["abrir","cerrar","gastar","perder"],0,"\"Abrir una cuenta bancaria\" es la colocación correcta para crear una cuenta nueva."],
+      ["translate","Traduce: \"You should make a monthly budget.\"",["Deberías hacer un presupuesto mensual.","Deberías hacer presupuesto mensual un.","Un presupuesto mensual deberías hacer.","Deberías un presupuesto mensual hacer."],0,"\"You should make a monthly budget\" = \"Deberías hacer un presupuesto mensual.\""],
+      ["arrange","Ordena: [ahorrar / objetivo / para / un / quiero]",["Quiero ahorrar para un objetivo","Para un objetivo quiero ahorrar","Ahorrar quiero para un objetivo","Quiero para un objetivo ahorrar"],0,"Sujeto + \"quiero\" + infinitivo + complemento: \"Quiero ahorrar para un objetivo.\""],
+      ["writing","Escribe 45-65 palabras sobre tu relación con el dinero: cómo organizas tu presupuesto, si ahorras para algo concreto y algún hábito financiero que te gustaría mejorar.",[],["presupuesto","ahorrar","gastos"],"Menciona al menos un gasto fijo, un gasto variable y una meta de ahorro."]
+    ]
+  },
+  {
+    id:"es_b2_mental_wellbeing", level:"B2", title:"Bienestar y salud mental: hablar con matices", emoji:"🧘", xp:82,
+    description:"Habla sobre el bienestar emocional y la salud mental con un vocabulario más matizado.",
+    study: {
+      vocab: [
+        ["sentirse abrumado/a", "to feel overwhelmed"],
+        ["poner límites, cuidar de uno mismo", "to set boundaries, to take care of yourself"],
+        ["el agotamiento (burnout)", "burnout"],
+        ["pedir ayuda no es un signo de debilidad", "asking for help is not a sign of weakness"],
+        ["procesar las emociones", "to process one's emotions"]
+      ],
+      grammar: [
+        ["El subjuntivo con expresiones de recomendación", "\"Es importante que\" + subjuntivo recomienda una acción relacionada con el bienestar.", "Es importante que hables de lo que sientes con alguien de confianza."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases usa el subjuntivo correctamente para dar una recomendación?",["Es importante que descanses cuando lo necesites.","Es importante que descansas cuando lo necesitas.","Es importante descansas cuando necesitas.","Es importante que descansar cuando necesites."],0,"\"Es importante que\" exige subjuntivo: \"que descanses\"."],
+      ["mcq","¿Qué significa \"sentirse abrumado/a\"?",["Sentir que hay demasiadas cosas que gestionar a la vez.","Sentirse extremadamente feliz y tranquilo.","No sentir absolutamente nada.","Sentir curiosidad sobre algo nuevo."],0,"\"Abrumado\" describe una sensación de exceso de tareas o emociones difíciles de manejar."],
+      ["fill","Completa: \"Poner ___ es importante para cuidar tu bienestar.\"",["límites","dinero","ropa","comida"],0,"\"Poner límites\" es la expresión correcta para proteger el propio bienestar emocional."],
+      ["translate","Traduce: \"Asking for help is not a sign of weakness.\"",["Pedir ayuda no es un signo de debilidad.","Pedir ayuda no es una señal débil.","Pedir ayuda no es signo de debilidad no.","No pedir ayuda es un signo de debilidad."],0,"\"Asking for help is not a sign of weakness\" = \"Pedir ayuda no es un signo de debilidad.\""],
+      ["mcq","¿Cuál de estas frases refleja procesar una emoción de forma saludable, no evitarla?",["Reconozco que estoy triste y me doy tiempo para entender por qué.","Finjo que no pasa nada e ignoro cómo me siento.","Me distraigo constantemente para no sentir nada.","Le digo a todos que estoy perfectamente, aunque no sea así."],0,"Reconocer y explorar una emoción, en vez de evitarla, es un procesamiento emocional saludable."],
+      ["writing","Escribe 55-75 palabras sobre una estrategia que uses (o te gustaría usar) para cuidar tu bienestar emocional cuando te sientes abrumado/a.",[],["abrumado","límites","procesar"],"Usa al menos una expresión con subjuntivo de recomendación (\"es importante que...\")."]
+    ]
+  },
+  {
+    id:"es_c1_legal_language", level:"C1", title:"Lenguaje jurídico básico: contratos y cláusulas", emoji:"📜", xp:90,
+    description:"Comprende el vocabulario y las estructuras básicas del lenguaje jurídico en contratos.",
+    study: {
+      vocab: [
+        ["las partes contratantes", "the contracting parties"],
+        ["una cláusula, un anexo", "a clause, an appendix"],
+        ["rescindir un contrato", "to terminate a contract"],
+        ["estar sujeto a los términos y condiciones", "to be subject to the terms and conditions"],
+        ["en caso de incumplimiento", "in the event of a breach"]
+      ],
+      grammar: [
+        ["El lenguaje formal impersonal en contratos", "Los contratos usan estructuras impersonales y pasivas para sonar objetivos y evitar ambigüedad sobre quién actúa.", "El presente contrato podrá ser rescindido por cualquiera de las partes con un preaviso de 30 días."],
+        ["\"En caso de que\" + subjuntivo", "Esta estructura formal introduce condiciones legales hipotéticas.", "En caso de que una de las partes incumpla lo acordado, se aplicará una penalización."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué significa \"rescindir un contrato\"?",["Terminar o anular un contrato antes de lo previsto.","Firmar un contrato nuevo.","Modificar solo una cláusula del contrato.","Renovar un contrato automáticamente."],0,"\"Rescindir\" significa poner fin a un contrato, generalmente antes de su vencimiento natural."],
+      ["mcq","¿Cuál de estas frases usa correctamente el lenguaje formal impersonal típico de un contrato?",["El presente contrato podrá ser rescindido por cualquiera de las partes.","Cualquiera puede romper este contrato si quiere.","Alguien puede cancelar esto cuando le dé la gana.","Se puede cancelar el contrato porque sí."],0,"El lenguaje contractual formal usa construcciones pasivas e impersonales, evitando un tono coloquial."],
+      ["fill","Completa: \"___ de que una de las partes incumpla lo acordado, se aplicará una penalización.\"",["En caso","Porque","Aunque","Sin embargo"],0,"\"En caso de que\" + subjuntivo introduce una condición legal hipotética."],
+      ["translate","Traduce: \"The contract is subject to the terms and conditions described in Appendix A.\"",["El contrato está sujeto a los términos y condiciones descritos en el Anexo A.","El contrato está sujeto los términos y condiciones descritos en el Anexo A.","El contrato es sujeto a los términos y condiciones en el Anexo A descritos.","Sujeto el contrato está a los términos del Anexo A."],0,"\"Subject to\" = \"sujeto a\"; \"described in Appendix A\" = \"descritos en el Anexo A\"."],
+      ["mcq","¿Qué son \"las partes contratantes\"?",["Las personas o entidades que firman y se comprometen en un contrato.","Solo la persona que redacta el contrato.","Las secciones o capítulos de un contrato.","Los testigos que no firman el contrato."],0,"\"Las partes contratantes\" se refiere a quienes firman el contrato y asumen obligaciones en él."],
+      ["writing","Escribe 55-75 palabras redactando una cláusula sencilla de un contrato ficticio (por ejemplo, sobre plazos de entrega o condiciones de cancelación), usando un registro formal e impersonal.",[],["las partes","en caso de que","rescindir"],"Usa al menos una construcción pasiva o impersonal, propia del registro jurídico formal."]
+    ]
+  },
+  {
+    id:"es_c2_literary_criticism", level:"C2", title:"Crítica literaria: voz narrativa y estilo", emoji:"📖", xp:97,
+    description:"Analiza la voz narrativa, el estilo y las decisiones formales de un texto literario en español.",
+    study: {
+      vocab: [
+        ["la voz narrativa", "the narrative voice"],
+        ["un narrador fiable / poco fiable", "a reliable / unreliable narrator"],
+        ["el punto de vista (primera, tercera persona)", "point of view (first, third person)"],
+        ["el tono y el registro de un texto", "the tone and register of a text"],
+        ["una técnica narrativa (flashback, elipsis)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Analizar decisiones formales del autor", "El análisis literario avanzado conecta una elección formal (punto de vista, tiempo verbal) con su efecto en el lector.", "El uso de la primera persona genera cercanía, pero también limita la perspectiva a lo que el narrador puede saber o percibir."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué caracteriza a un \"narrador poco fiable\"?",["Su versión de los hechos puede estar sesgada, incompleta o ser engañosa.","Siempre dice la verdad absoluta sobre todo lo que ocurre.","Nunca tiene opinión sobre los hechos que narra.","Solo aparece en textos científicos, nunca en ficción."],0,"Un narrador poco fiable ofrece una perspectiva que el lector debe cuestionar, por sesgo, ignorancia o engaño."],
+      ["mcq","¿Qué efecto suele producir la narración en primera persona?",["Genera cercanía con el narrador, pero limita la perspectiva a lo que este sabe.","Elimina cualquier conexión emocional con el lector.","Garantiza siempre una visión objetiva de los hechos.","Solo se usa en textos no literarios."],0,"La primera persona acerca al lector al narrador, a costa de una visión necesariamente parcial de los hechos."],
+      ["fill","Completa: \"El uso de un ___ interrumpe la cronología para mostrar un evento del pasado.\"",["flashback","epílogo","prólogo","índice"],0,"Un \"flashback\" es la técnica narrativa que interrumpe la cronología lineal para mostrar el pasado."],
+      ["translate","Traduce con precisión técnica: \"The narrator's unreliability forces the reader to question every claim.\"",["La falta de fiabilidad del narrador obliga al lector a cuestionar cada afirmación.","La no fiabilidad narrador obliga al lector cuestionar afirmación.","El narrador no fiable obliga cuestionar al lector cada afirmación es.","Cuestionar cada afirmación obliga la fiabilidad del narrador al lector."],0,"\"Unreliability\" se traduce como \"falta de fiabilidad\"; la estructura debe sonar natural en español académico."],
+      ["mcq","¿Cuál de estos análisis conecta correctamente una decisión formal con su efecto en el lector?",["El tiempo presente narrativo crea una sensación de inmediatez, como si los hechos ocurrieran ahora mismo.","El autor usó el tiempo presente porque es más fácil de escribir.","El tiempo presente no tiene ningún efecto sobre cómo se percibe la historia.","El tiempo presente solo se usa en poesía, nunca en narrativa."],0,"Un buen análisis literario vincula la elección formal (tiempo verbal) con un efecto concreto en la experiencia de lectura."],
+      ["writing","Elige un cuento, novela o relato que conozcas (o inventa uno breve) y escribe 55-75 palabras analizando su voz narrativa: punto de vista, fiabilidad del narrador y un efecto que esto produce en el lector.",[],["voz narrativa","punto de vista","efecto"],"Conecta explícitamente una decisión formal del autor con un efecto concreto en la lectura, no solo describas la trama."]
+    ]
+  },
 ];
