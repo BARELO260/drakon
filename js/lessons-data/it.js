@@ -1102,4 +1102,149 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano 55-75 parole analizzando un eufemismo o un caso di ambiguità strategica che hai osservato in un discorso politico reale o inventato. Spiega quale frase diretta sta evitando e perché.",[],["eufemismo","invece di","evita di impegnarsi"],"Identifica la frase esatta, il significato più diretto che sostituisce, e l'effetto che cerca sul pubblico."]
     ]
   },
+  {
+    id:"it_a1_money_prices", level:"A1", title:"Numeri ordinali, denaro e prezzi", emoji:"💰", xp:36,
+    description:"Impara a parlare di prezzi, denaro e numeri ordinali in italiano.",
+    study: {
+      vocab: [
+        ["primo, secondo, terzo...", "first, second, third..."],
+        ["Quanto costa questo?", "How much does this cost?"],
+        ["Costa dieci euro.", "It costs ten euros."],
+        ["economico, caro", "cheap, expensive"],
+        ["pagare in contanti / con carta", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Costa / Costano\" per i prezzi", "\"Costa\" (singolare) e \"costano\" (plurale) concordano con ciò che si compra.", "Il libro costa dieci euro. I libri costano venti euro."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi il prezzo di qualcosa?",["Quanto costa questo?","Cos'è questo?","Dov'è questo?","Quando è questo?"],0,"\"Quanto costa questo?\" è la domanda standard per chiedere un prezzo."],
+      ["mcq","Un prodotto da 5 euro è più economico di uno da 50 euro. Quale parola descrive quello da 5 euro?",["Economico.","Caro.","Gratis.","Grande."],0,"\"Economico\" descrive qualcosa di prezzo basso rispetto a un'altra cosa."],
+      ["fill","Completa: \"Le scarpe ___ quaranta euro.\"",["costano","costa","è","sono"],0,"\"Costano\" concorda al plurale con \"le scarpe\"."],
+      ["translate","Traduci: \"It costs ten euros.\"",["Costa dieci euro.","Costano dieci euro.","È dieci euro.","Ha dieci euro."],0,"\"It costs ten euros\" (singolare) = \"Costa dieci euro.\""],
+      ["arrange","Metti in ordine: [carta / pago / con / sempre]",["Pago sempre con carta","Sempre pago con carta","Con carta sempre pago","Pago con carta sempre"],0,"Soggetto + verbo + avverbio + complemento: \"Pago sempre con carta.\""],
+      ["writing","Scrivi in italiano 20-30 parole sulle tue abitudini di acquisto: cosa compri normalmente, se preferisci pagare in contanti o con carta, e se cerchi cose economiche.",[],["costa","economico","pago"],"Usa almeno un numero ordinale o un prezzo concreto nella tua risposta."]
+    ]
+  },
+  {
+    id:"it_a2_restaurant_ordering", level:"A2", title:"Al ristorante: ordinare e pagare il conto", emoji:"🍽️", xp:45,
+    description:"Impara a ordinare cibo, fare domande al cameriere e pagare il conto in un ristorante.",
+    study: {
+      vocab: [
+        ["Vorrei ordinare...", "I would like to order..."],
+        ["Cosa mi consiglia?", "What do you recommend?"],
+        ["Mi porta il conto, per favore?", "Could you bring me the bill, please?"],
+        ["Il servizio è incluso?", "Is the tip included?"],
+        ["Per me, il menù del giorno.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Vorrei\" per ordinare con cortesia", "\"Vorrei\" (condizionale di \"volere\") è più formale e cortese di \"voglio\" quando si ordina.", "Vorrei ordinare la zuppa e il pollo, per favore."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual è il modo più cortese di ordinare cibo in un ristorante?",["Vorrei ordinare la zuppa, per favore.","Voglio la zuppa subito.","Dammi la zuppa.","Zuppa, ora."],0,"\"Vorrei\" è la forma cortese e formale per ordinare qualcosa."],
+      ["mcq","Hai finito di mangiare e vuoi pagare. Cosa dici?",["Mi porta il conto, per favore?","Mi porta il menù, per favore?","Cosa mi consiglia?","Questo tavolo è libero?"],0,"\"Mi porta il conto, per favore?\" è la frase standard per chiedere di pagare."],
+      ["fill","Completa: \"___ ordinare il pesce con insalata, per favore.\"",["Vorrei","Voglio subito","Dammi","Ho"],0,"\"Vorrei ordinare\" è la forma cortese standard per fare un ordine."],
+      ["translate","Traduci: \"Is the tip included?\"",["Il servizio è incluso?","Il servizio è includere?","Il servizio incluso è?","Incluso è il servizio in?"],0,"\"Is the tip included?\" = \"Il servizio è incluso?\""],
+      ["arrange","Metti in ordine: [consiglia / mi / cosa]",["Cosa mi consiglia","Mi cosa consiglia","Consiglia cosa mi","Mi consiglia cosa"],0,"Domanda con \"cosa\" all'inizio: \"Cosa mi consiglia?\""],
+      ["speaking","Rappresenta in italiano, in 40-60 parole, una breve conversazione in un ristorante: ordina un piatto, chiedi un consiglio e chiedi il conto alla fine.",[],["vorrei","consiglia","il conto"],"Includi le tre parti: ordine, domanda al cameriere e richiesta del conto."]
+    ]
+  },
+  {
+    id:"it_b1_personal_finance", level:"B1", title:"Finanze personali: la banca e il budget", emoji:"🏦", xp:62,
+    description:"Parla di conti bancari, risparmio e budget personale in italiano.",
+    study: {
+      vocab: [
+        ["aprire un conto bancario", "to open a bank account"],
+        ["fare un budget mensile", "to make a monthly budget"],
+        ["risparmiare per un obiettivo", "to save up for a goal"],
+        ["le spese fisse e le spese variabili", "fixed expenses and variable expenses"],
+        ["chiedere un prestito, pagare a rate", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["Il condizionale per i consigli finanziari", "\"Dovresti\" + infinito dà un consiglio senza suonare troppo diretto.", "Dovresti risparmiare almeno il 10% del tuo stipendio ogni mese."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi dà un consiglio finanziario in modo adeguato?",["Dovresti risparmiare un po' ogni mese, anche se poco.","Risparmia subito, non c'è altra opzione.","Il risparmio non serve a niente.","Non riuscirai mai a risparmiare nulla."],0,"\"Dovresti\" + infinito dà un consiglio in modo cortese e ragionevole."],
+      ["mcq","Che differenza c'è tra spese fisse e variabili?",["Le fisse si ripetono ogni mese allo stesso importo; le variabili cambiano.","Le fisse cambiano ogni mese; le variabili sono sempre uguali.","Non c'è nessuna differenza reale tra loro.","Le variabili esistono solo per le aziende, non per le persone."],0,"Le spese fisse (l'affitto, per esempio) restano stabili; le variabili (svago, cibo) cambiano ogni mese."],
+      ["fill","Completa: \"Sto per ___ un nuovo conto bancario questo mese.\"",["aprire","chiudere","spendere","perdere"],0,"\"Aprire un conto bancario\" è la collocazione corretta per creare un nuovo conto."],
+      ["translate","Traduci: \"You should make a monthly budget.\"",["Dovresti fare un budget mensile.","Dovresti fare budget mensile un.","Un budget mensile dovresti fare.","Dovresti un budget mensile fare."],0,"\"You should make a monthly budget\" = \"Dovresti fare un budget mensile.\""],
+      ["arrange","Metti in ordine: [risparmiare / obiettivo / per / un / voglio]",["Voglio risparmiare per un obiettivo","Per un obiettivo voglio risparmiare","Risparmiare voglio per un obiettivo","Voglio per un obiettivo risparmiare"],0,"Soggetto + \"voglio\" + infinito + complemento: \"Voglio risparmiare per un obiettivo.\""],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con il denaro: come organizzi il tuo budget, se risparmi per qualcosa di concreto e un'abitudine finanziaria che vorresti migliorare.",[],["budget","risparmiare","spese"],"Menziona almeno una spesa fissa, una spesa variabile e un obiettivo di risparmio."]
+    ]
+  },
+  {
+    id:"it_b2_mental_wellbeing", level:"B2", title:"Benessere e salute mentale: parlarne con sfumature", emoji:"🧘", xp:82,
+    description:"Parla del benessere emotivo e della salute mentale con un vocabolario più sfumato in italiano.",
+    study: {
+      vocab: [
+        ["sentirsi sopraffatto/a", "to feel overwhelmed"],
+        ["porre dei limiti, prendersi cura di sé", "to set boundaries, to take care of yourself"],
+        ["il burnout (esaurimento)", "burnout"],
+        ["chiedere aiuto non è un segno di debolezza", "asking for help is not a sign of weakness"],
+        ["elaborare le proprie emozioni", "to process one's emotions"]
+      ],
+      grammar: [
+        ["Il congiuntivo con espressioni di raccomandazione", "\"È importante che\" + congiuntivo raccomanda un'azione legata al benessere.", "È importante che tu parli di come ti senti con qualcuno di cui ti fidi."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi usa correttamente il congiuntivo per dare una raccomandazione?",["È importante che tu ti riposi quando ne hai bisogno.","È importante che tu ti riposi quando ne hai bisogno è.","È importante tu ti riposare quando bisogno.","È importante che riposi quando hai bisogno tu."],0,"\"È importante che\" richiede il congiuntivo: \"che tu ti riposi\"."],
+      ["mcq","Cosa significa \"sentirsi sopraffatto/a\"?",["Sentire che ci sono troppe cose da gestire allo stesso tempo.","Sentirsi estremamente felice e tranquillo.","Non sentire assolutamente nulla.","Sentire curiosità per qualcosa di nuovo."],0,"\"Sopraffatto\" descrive una sensazione di eccesso di compiti o emozioni difficili da gestire."],
+      ["fill","Completa: \"Porre dei ___ è importante per prendersi cura del proprio benessere.\"",["limiti","soldi","vestiti","cibo"],0,"\"Porre dei limiti\" è l'espressione corretta per proteggere il proprio benessere emotivo."],
+      ["translate","Traduci: \"Asking for help is not a sign of weakness.\"",["Chiedere aiuto non è un segno di debolezza.","Chiedere aiuto non è una debole segno.","Chiedere aiuto non è segno di debolezza non.","Non chiedere aiuto è un segno di debolezza."],0,"\"Asking for help is not a sign of weakness\" = \"Chiedere aiuto non è un segno di debolezza.\""],
+      ["mcq","Quale di queste frasi riflette un'elaborazione sana di un'emozione, non la sua evitazione?",["Riconosco di essere triste e mi do il tempo di capire perché.","Faccio finta che non sia successo nulla e ignoro come mi sento.","Mi distraggo costantemente per non sentire nulla.","Dico a tutti che sto benissimo, anche se non è vero."],0,"Riconoscere ed esplorare un'emozione, invece di evitarla, è un'elaborazione emotiva sana."],
+      ["writing","Scrivi in italiano 55-75 parole su una strategia che usi (o vorresti usare) per prenderti cura del tuo benessere emotivo quando ti senti sopraffatto/a.",[],["sopraffatto","limiti","elaborare"],"Usa almeno una struttura di raccomandazione con il congiuntivo (\"è importante che...\")."]
+    ]
+  },
+  {
+    id:"it_c1_legal_language", level:"C1", title:"Linguaggio giuridico di base: contratti e clausole", emoji:"📜", xp:90,
+    description:"Comprendi il vocabolario e le strutture di base del linguaggio giuridico nei contratti.",
+    study: {
+      vocab: [
+        ["le parti contraenti", "the contracting parties"],
+        ["una clausola, un allegato", "a clause, an appendix"],
+        ["recedere da un contratto", "to terminate a contract"],
+        ["essere soggetto ai termini e condizioni", "to be subject to the terms and conditions"],
+        ["in caso di inadempimento", "in the event of a breach"]
+      ],
+      grammar: [
+        ["Il linguaggio formale impersonale nei contratti", "I contratti usano strutture impersonali e passive per suonare oggettivi ed evitare ambiguità su chi agisce.", "Il presente contratto potrà essere risolto da ciascuna delle parti con un preavviso di 30 giorni."],
+        ["\"Nel caso in cui\" + congiuntivo", "Questa struttura formale introduce condizioni giuridiche ipotetiche.", "Nel caso in cui una delle parti non rispetti quanto concordato, si applicherà una penale."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa significa \"recedere da un contratto\"?",["Terminare o annullare un contratto prima del previsto.","Firmare un nuovo contratto.","Modificare solo una clausola del contratto.","Rinnovare automaticamente un contratto."],0,"\"Recedere\" significa porre fine a un contratto, generalmente prima della sua scadenza naturale."],
+      ["mcq","Quale di queste frasi usa correttamente il linguaggio formale impersonale tipico di un contratto?",["Il presente contratto potrà essere risolto da ciascuna delle parti.","Chiunque può rompere questo contratto se vuole.","Qualcuno può cancellarlo quando ne ha voglia.","Si può cancellare il contratto così, senza motivo."],0,"Il linguaggio contrattuale formale usa costruzioni passive e impersonali, evitando un tono colloquiale."],
+      ["fill","Completa: \"___ caso in cui una delle parti non rispetti quanto concordato, si applicherà una penale.\"",["Nel","Perché","Sebbene","Tuttavia"],0,"\"Nel caso in cui\" + congiuntivo introduce una condizione giuridica ipotetica."],
+      ["translate","Traduci: \"The contract is subject to the terms and conditions described in Appendix A.\"",["Il contratto è soggetto ai termini e condizioni descritti nell'Allegato A.","Il contratto è soggetto i termini e condizioni descritti nell'Allegato A.","Il contratto è soggetto ai termini e condizioni nell'Allegato A descritti.","Soggetto il contratto è ai termini dell'Allegato A."],0,"\"Subject to\" = \"soggetto a\"; \"described in Appendix A\" = \"descritti nell'Allegato A\"."],
+      ["mcq","Cosa sono \"le parti contraenti\"?",["Le persone o entità che firmano e si impegnano in un contratto.","Solo la persona che redige il contratto.","Le sezioni o i capitoli di un contratto.","I testimoni che non firmano il contratto."],0,"\"Le parti contraenti\" si riferisce a chi firma il contratto e assume obblighi in esso."],
+      ["writing","Scrivi in italiano 55-75 parole redigendo una clausola semplice di un contratto fittizio (per esempio, sui termini di consegna o le condizioni di cancellazione), usando un registro formale e impersonale.",[],["le parti","nel caso in cui","recedere"],"Usa almeno una costruzione passiva o impersonale, propria del registro giuridico formale."]
+    ]
+  },
+  {
+    id:"it_c2_literary_criticism", level:"C2", title:"Critica letteraria: voce narrativa e stile", emoji:"📖", xp:97,
+    description:"Analizza la voce narrativa, lo stile e le scelte formali di un testo letterario in italiano.",
+    study: {
+      vocab: [
+        ["la voce narrativa", "the narrative voice"],
+        ["un narratore affidabile / inaffidabile", "a reliable / unreliable narrator"],
+        ["il punto di vista (prima, terza persona)", "point of view (first, third person)"],
+        ["il tono e il registro di un testo", "the tone and register of a text"],
+        ["una tecnica narrativa (flashback, ellissi)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Analizzare le scelte formali dell'autore", "L'analisi letteraria avanzata collega una scelta formale (punto di vista, tempo verbale) al suo effetto sul lettore.", "L'uso della prima persona crea vicinanza, ma limita anche la prospettiva a ciò che il narratore può sapere o percepire."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa caratterizza un \"narratore inaffidabile\"?",["La sua versione dei fatti può essere di parte, incompleta o fuorviante.","Dice sempre la verità assoluta su tutto ciò che accade.","Non ha mai un'opinione sui fatti che narra.","Compare solo in testi scientifici, mai nella narrativa."],0,"Un narratore inaffidabile offre una prospettiva che il lettore deve mettere in dubbio, per parzialità, ignoranza o inganno."],
+      ["mcq","Che effetto produce solitamente la narrazione in prima persona?",["Crea vicinanza con il narratore, ma limita la prospettiva a ciò che sa.","Elimina qualsiasi connessione emotiva con il lettore.","Garantisce sempre una visione oggettiva dei fatti.","Si usa solo in testi non letterari."],0,"La prima persona avvicina il lettore al narratore, a costo di una visione necessariamente parziale dei fatti."],
+      ["fill","Completa: \"L'uso di un ___ interrompe la cronologia per mostrare un evento del passato.\"",["flashback","epilogo","prologo","indice"],0,"Un \"flashback\" è la tecnica narrativa che interrompe la cronologia lineare per mostrare il passato."],
+      ["translate","Traduci con precisione tecnica: \"La mancanza di affidabilità del narratore costringe il lettore a mettere in dubbio ogni affermazione.\"",["The narrator's unreliability forces the reader to question every claim.","The narrator unreliability force the reader question every claim.","The unreliable narrator force to question reader every claim is.","Question every claim forces the narrator's unreliability the reader."],0,"\"Mancanza di affidabilità\" si traduce tecnicamente come \"unreliability\"."],
+      ["mcq","Quale di queste analisi collega correttamente una scelta formale al suo effetto sul lettore?",["Il presente narrativo crea una sensazione di immediatezza, come se i fatti accadessero proprio ora.","L'autore ha usato il presente perché è più facile da scrivere.","Il presente non ha alcun effetto su come viene percepita la storia.","Il presente si usa solo in poesia, mai nella narrativa."],0,"Una buona analisi letteraria collega la scelta formale (tempo verbale) a un effetto concreto sull'esperienza di lettura."],
+      ["writing","Scegli un racconto, un romanzo o una storia che conosci (o inventane uno breve) e scrivi in italiano 55-75 parole analizzando la sua voce narrativa: punto di vista, affidabilità del narratore e un effetto che questo produce sul lettore.",[],["voce narrativa","punto di vista","effetto"],"Collega esplicitamente una scelta formale dell'autore a un effetto concreto sulla lettura, non limitarti a descrivere la trama."]
+    ]
+  },
 ];
