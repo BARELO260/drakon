@@ -1102,4 +1102,149 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch 55-75 Wörter über einen Euphemismus oder einen Fall strategischer Mehrdeutigkeit, den du in einer realen oder erfundenen politischen Rede beobachtet hast. Erkläre, welchen direkteren Ausdruck er vermeidet und warum.",[],["Euphemismus","anstatt","vermeidet Festlegung"],"Identifiziere den genauen Ausdruck, die direktere Bedeutung, die er ersetzt, und die beabsichtigte Wirkung auf das Publikum."]
     ]
   },
+  {
+    id:"de_a1_money_prices", level:"A1", title:"Ordnungszahlen, Geld und Preise", emoji:"💰", xp:36,
+    description:"Lerne, auf Deutsch über Preise, Geld und Ordnungszahlen zu sprechen.",
+    study: {
+      vocab: [
+        ["erste, zweite, dritte...", "first, second, third..."],
+        ["Wie viel kostet das?", "How much does this cost?"],
+        ["Das kostet zehn Euro.", "It costs ten euros."],
+        ["billig, teuer", "cheap, expensive"],
+        ["bar bezahlen / mit Karte bezahlen", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Kosten\" für Preise", "\"Kostet\" (Singular) und \"kosten\" (Plural) stimmen mit dem Gekauften überein.", "Das Buch kostet zehn Euro. Die Bücher kosten zwanzig Euro."]
+      ]
+    },
+    ex:[
+      ["mcq","Wie fragst du nach dem Preis von etwas?",["Wie viel kostet das?","Was ist das?","Wo ist das?","Wann ist das?"],0,"\"Wie viel kostet das?\" ist die Standardfrage, um nach einem Preis zu fragen."],
+      ["mcq","Ein Produkt für 5 Euro ist günstiger als eines für 50 Euro. Welches Wort beschreibt das für 5 Euro?",["Billig.","Teuer.","Kostenlos.","Groß."],0,"\"Billig\" beschreibt etwas mit niedrigem Preis im Vergleich zu etwas anderem."],
+      ["fill","Ergänze: \"Die Schuhe ___ vierzig Euro.\"",["kosten","kostet","ist","sind"],0,"\"Kosten\" stimmt im Plural mit \"die Schuhe\" überein."],
+      ["translate","Übersetze: \"It costs ten euros.\"",["Das kostet zehn Euro.","Das kosten zehn Euro.","Es ist zehn Euro kostet.","Das hat zehn Euro."],0,"\"It costs ten euros\" (Singular) = \"Das kostet zehn Euro.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [Karte / immer / ich / mit / zahle]",["Ich zahle immer mit Karte","Immer zahle ich mit Karte","Mit Karte zahle ich immer","Ich zahle mit Karte immer"],0,"Subjekt + Verb + Adverb + Ergänzung: \"Ich zahle immer mit Karte.\""],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über deine Einkaufsgewohnheiten: was du normalerweise kaufst, ob du lieber bar oder mit Karte zahlst, und ob du günstige Dinge suchst.",[],["kostet","billig","zahle"],"Benutze mindestens eine Ordnungszahl oder einen konkreten Preis in deiner Antwort."]
+    ]
+  },
+  {
+    id:"de_a2_restaurant_ordering", level:"A2", title:"Im Restaurant: bestellen und bezahlen", emoji:"🍽️", xp:45,
+    description:"Lerne, Essen zu bestellen, dem Kellner Fragen zu stellen und die Rechnung zu bezahlen.",
+    study: {
+      vocab: [
+        ["Ich möchte gerne bestellen...", "I would like to order..."],
+        ["Was empfehlen Sie?", "What do you recommend?"],
+        ["Könnten wir die Rechnung bekommen, bitte?", "Could you bring me the bill, please?"],
+        ["Ist das Trinkgeld inbegriffen?", "Is the tip included?"],
+        ["Für mich das Tagesmenü.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Möchte\" für höfliche Bestellungen", "\"Möchte\" ist höflicher als \"will\" beim Bestellen.", "Ich möchte gerne die Suppe und das Hähnchen bestellen, bitte."]
+      ]
+    },
+    ex:[
+      ["mcq","Was ist die höflichste Art, in einem Restaurant zu bestellen?",["Ich möchte gerne die Suppe bestellen, bitte.","Ich will die Suppe jetzt.","Geben Sie mir die Suppe.","Suppe, sofort."],0,"\"Ich möchte\" ist die höfliche und formelle Art, etwas zu bestellen."],
+      ["mcq","Du bist fertig mit dem Essen und möchtest zahlen. Was sagst du?",["Könnten wir die Rechnung bekommen, bitte?","Könnten wir die Speisekarte bekommen, bitte?","Was empfehlen Sie?","Ist dieser Tisch frei?"],0,"\"Könnten wir die Rechnung bekommen, bitte?\" ist der Standardsatz, um zu bezahlen."],
+      ["fill","Ergänze: \"Ich ___ gerne den Fisch mit Salat bestellen, bitte.\"",["möchte","will jetzt","gebe","habe"],0,"\"Ich möchte gerne bestellen\" ist die höfliche Standardform, um zu bestellen."],
+      ["translate","Übersetze: \"Ist das Trinkgeld inbegriffen?\"",["Is the tip included?","Is the tip include?","The tip is included is?","Included is the tip in?"],0,"\"Ist das Trinkgeld inbegriffen?\" = \"Is the tip included?\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [empfehlen / Sie / was]",["Was empfehlen Sie","Sie was empfehlen","Empfehlen was Sie","Sie empfehlen was"],0,"Frage mit \"was\" am Anfang: \"Was empfehlen Sie?\""],
+      ["speaking","Stelle auf Deutsch, in 40-60 Wörtern, ein kurzes Gespräch in einem Restaurant dar: bestelle ein Gericht, frage nach einer Empfehlung und bitte am Ende um die Rechnung.",[],["möchte","empfehlen","die Rechnung"],"Enthält alle drei Teile: Bestellung, Frage an den Kellner und Bitte um die Rechnung."]
+    ]
+  },
+  {
+    id:"de_b1_personal_finance", level:"B1", title:"Persönliche Finanzen: die Bank und das Budget", emoji:"🏦", xp:62,
+    description:"Sprich über Bankkonten, Sparen und persönliches Budget auf Deutsch.",
+    study: {
+      vocab: [
+        ["ein Bankkonto eröffnen", "to open a bank account"],
+        ["ein monatliches Budget erstellen", "to make a monthly budget"],
+        ["für ein Ziel sparen", "to save up for a goal"],
+        ["feste Ausgaben und variable Ausgaben", "fixed expenses and variable expenses"],
+        ["einen Kredit aufnehmen, in Raten zahlen", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["\"Sollte\" für finanzielle Ratschläge", "\"Sollte\" + Infinitiv gibt einen Rat, ohne zu direkt zu klingen.", "Du solltest mindestens 10% deines Gehalts jeden Monat sparen."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze gibt einen finanziellen Rat auf angemessene Weise?",["Du solltest jeden Monat ein bisschen sparen, auch wenn es wenig ist.","Spare sofort, es gibt keine andere Option.","Sparen bringt überhaupt nichts.","Du wirst nie etwas sparen können."],0,"\"Solltest\" + Infinitiv gibt einen Rat auf höfliche und vernünftige Weise."],
+      ["mcq","Was ist der Unterschied zwischen festen und variablen Ausgaben?",["Feste wiederholen sich jeden Monat mit dem gleichen Betrag; variable ändern sich.","Feste ändern sich jeden Monat; variable sind immer gleich.","Es gibt keinen wirklichen Unterschied zwischen ihnen.","Variable gibt es nur bei Unternehmen, nicht bei Privatpersonen."],0,"Feste Ausgaben (zum Beispiel Miete) bleiben stabil; variable (Freizeit, Essen) ändern sich von Monat zu Monat."],
+      ["fill","Ergänze: \"Ich werde diesen Monat ein neues Bankkonto ___.\"",["eröffnen","schließen","ausgeben","verlieren"],0,"\"Ein Bankkonto eröffnen\" ist die korrekte Kollokation, um ein neues Konto zu erstellen."],
+      ["translate","Übersetze: \"You should make a monthly budget.\"",["Du solltest ein monatliches Budget erstellen.","Du solltest monatliches Budget ein erstellen.","Ein monatliches Budget du solltest erstellen.","Du solltest ein monatliches Budget erstellst."],0,"\"You should make a monthly budget\" = \"Du solltest ein monatliches Budget erstellen.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [sparen / Ziel / für / ein / möchte / ich]",["Ich möchte für ein Ziel sparen","Für ein Ziel möchte ich sparen","Sparen möchte ich für ein Ziel","Ich möchte sparen für ein Ziel"],0,"Subjekt + \"möchte\" + Ergänzung + Infinitiv: \"Ich möchte für ein Ziel sparen.\" oder \"Für ein Ziel möchte ich sparen.\""],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über deine Beziehung zu Geld: wie du dein Budget organisierst, ob du für etwas Konkretes sparst und eine finanzielle Gewohnheit, die du gerne verbessern würdest.",[],["Budget","sparen","Ausgaben"],"Nenne mindestens eine feste Ausgabe, eine variable Ausgabe und ein Sparziel."]
+    ]
+  },
+  {
+    id:"de_b2_mental_wellbeing", level:"B2", title:"Wohlbefinden und mentale Gesundheit: differenziert sprechen", emoji:"🧘", xp:82,
+    description:"Sprich über emotionales Wohlbefinden und mentale Gesundheit mit differenziertem Wortschatz auf Deutsch.",
+    study: {
+      vocab: [
+        ["sich überfordert fühlen", "to feel overwhelmed"],
+        ["Grenzen setzen, für sich selbst sorgen", "to set boundaries, to take care of yourself"],
+        ["das Burnout", "burnout"],
+        ["um Hilfe zu bitten ist kein Zeichen von Schwäche", "asking for help is not a sign of weakness"],
+        ["seine Emotionen verarbeiten", "to process one's emotions"]
+      ],
+      grammar: [
+        ["\"Es ist wichtig, dass\" + Konjunktiv/Präsens", "\"Es ist wichtig, dass\" leitet eine Empfehlung im Zusammenhang mit Wohlbefinden ein.", "Es ist wichtig, dass du mit jemandem, dem du vertraust, darüber sprichst, wie du dich fühlst."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze gibt eine Empfehlung klar und natürlich wieder?",["Es ist wichtig, dass du dich ausruhst, wenn du es brauchst.","Wichtig ist, dass du dich ausruhen wenn brauchen.","Es wichtig ist dass du ausruhst wenn brauchst.","Ist wichtig du dich ausruhst wenn du brauchst."],0,"\"Es ist wichtig, dass du dich ausruhst\" ist die natürliche Struktur, um eine Empfehlung zu geben."],
+      ["mcq","Was bedeutet \"sich überfordert fühlen\"?",["Das Gefühl haben, dass es zu viele Dinge gleichzeitig zu bewältigen gibt.","Sich extrem glücklich und ruhig fühlen.","Absolut nichts fühlen.","Neugier auf etwas Neues empfinden."],0,"\"Überfordert\" beschreibt ein Gefühl von zu vielen Aufgaben oder schwer zu bewältigenden Emotionen."],
+      ["fill","Ergänze: \"___ setzen ist wichtig, um dein Wohlbefinden zu schützen.\"",["Grenzen","Geld","Kleidung","Essen"],0,"\"Grenzen setzen\" ist der korrekte Ausdruck, um das eigene emotionale Wohlbefinden zu schützen."],
+      ["translate","Übersetze: \"Um Hilfe zu bitten ist kein Zeichen von Schwäche.\"",["Asking for help is not a sign of weakness.","Ask for help is not sign of weakness.","Asking help for is not a weakness sign.","Not asking for help is a sign of weakness."],0,"\"Um Hilfe zu bitten ist kein Zeichen von Schwäche\" = \"Asking for help is not a sign of weakness.\""],
+      ["mcq","Welcher dieser Sätze spiegelt eine gesunde Verarbeitung einer Emotion wider, nicht deren Vermeidung?",["Ich erkenne an, dass ich traurig bin, und gebe mir Zeit zu verstehen, warum.","Ich tue so, als wäre nichts, und ignoriere, wie ich mich fühle.","Ich lenke mich ständig ab, um nichts zu fühlen.","Ich sage allen, dass es mir bestens geht, auch wenn das nicht stimmt."],0,"Eine Emotion anzuerkennen und zu erforschen, statt sie zu vermeiden, ist eine gesunde emotionale Verarbeitung."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter über eine Strategie, die du nutzt (oder gerne nutzen würdest), um dein emotionales Wohlbefinden zu pflegen, wenn du dich überfordert fühlst.",[],["überfordert","Grenzen","verarbeiten"],"Benutze mindestens eine Empfehlungsstruktur (\"es ist wichtig, dass...\")."]
+    ]
+  },
+  {
+    id:"de_c1_legal_language", level:"C1", title:"Grundlegende Rechtssprache: Verträge und Klauseln", emoji:"📜", xp:90,
+    description:"Verstehe den Wortschatz und die Grundstrukturen der Rechtssprache in Verträgen auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Vertragsparteien", "the contracting parties"],
+        ["eine Klausel, ein Anhang", "a clause, an appendix"],
+        ["einen Vertrag kündigen", "to terminate a contract"],
+        ["den Allgemeinen Geschäftsbedingungen unterliegen", "to be subject to the terms and conditions"],
+        ["im Falle eines Verstoßes", "in the event of a breach"]
+      ],
+      grammar: [
+        ["Das formelle unpersönliche Sprache in Verträgen", "Verträge nutzen unpersönliche und passive Strukturen, um objektiv zu klingen und Mehrdeutigkeit darüber zu vermeiden, wer handelt.", "Dieser Vertrag kann von jeder der Parteien mit einer Frist von 30 Tagen gekündigt werden."],
+        ["\"Für den Fall, dass\" für Rechtsbedingungen", "Diese formelle Struktur leitet hypothetische rechtliche Bedingungen ein.", "Für den Fall, dass eine der Parteien gegen diese Vereinbarung verstößt, wird eine Vertragsstrafe fällig."]
+      ]
+    },
+    ex:[
+      ["mcq","Was bedeutet \"einen Vertrag kündigen\"?",["Einen Vertrag vor dem erwarteten Ende beenden oder aufheben.","Einen neuen Vertrag unterschreiben.","Nur eine Klausel des Vertrags ändern.","Einen Vertrag automatisch verlängern."],0,"\"Kündigen\" bedeutet, einen Vertrag zu beenden, in der Regel vor seinem natürlichen Ablauf."],
+      ["mcq","Welcher dieser Sätze verwendet korrekt die formelle unpersönliche Sprache, die typisch für einen Vertrag ist?",["Dieser Vertrag kann von jeder der Parteien gekündigt werden.","Jeder kann diesen Vertrag einfach brechen, wenn er will.","Jemand kann das kündigen, wann immer er Lust hat.","Man kann den Vertrag einfach so kündigen."],0,"Die formelle Vertragssprache verwendet passive und unpersönliche Konstruktionen und vermeidet einen umgangssprachlichen Ton."],
+      ["fill","Ergänze: \"___ den Fall, dass eine der Parteien gegen diese Vereinbarung verstößt, wird eine Vertragsstrafe fällig.\"",["Für","Wegen","Obwohl","Jedoch"],0,"\"Für den Fall, dass\" leitet eine hypothetische rechtliche Bedingung ein."],
+      ["translate","Übersetze: \"Der Vertrag unterliegt den in Anhang A beschriebenen Bedingungen.\"",["The contract is subject to the terms and conditions described in Appendix A.","The contract is subject the terms and conditions described in Appendix A.","The contract is subject to terms and conditions in Appendix A described.","Subject the contract is to the terms of Appendix A."],0,"\"Unterliegt\" = \"is subject to\"; \"in Anhang A beschrieben\" = \"described in Appendix A\"."],
+      ["mcq","Was sind \"die Vertragsparteien\"?",["Die Personen oder Einheiten, die einen Vertrag unterzeichnen und sich verpflichten.","Nur die Person, die den Vertrag verfasst.","Die Abschnitte oder Kapitel eines Vertrags.","Die Zeugen, die den Vertrag nicht unterzeichnen."],0,"\"Die Vertragsparteien\" bezieht sich auf diejenigen, die den Vertrag unterzeichnen und Verpflichtungen darin übernehmen."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter und verfasse eine einfache Klausel eines fiktiven Vertrags (zum Beispiel über Lieferfristen oder Stornierungsbedingungen), in einem formellen, unpersönlichen Register.",[],["die Parteien","für den Fall, dass","kündigen"],"Benutze mindestens eine passive oder unpersönliche Konstruktion, typisch für das formelle Rechtsregister."]
+    ]
+  },
+  {
+    id:"de_c2_literary_criticism", level:"C2", title:"Literaturkritik: Erzählstimme und Stil", emoji:"📖", xp:97,
+    description:"Analysiere die Erzählstimme, den Stil und die formalen Entscheidungen eines literarischen Textes auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Erzählstimme", "the narrative voice"],
+        ["ein zuverlässiger / unzuverlässiger Erzähler", "a reliable / unreliable narrator"],
+        ["die Erzählperspektive (Ich-Form, dritte Person)", "point of view (first, third person)"],
+        ["der Ton und das Register eines Textes", "the tone and register of a text"],
+        ["eine Erzähltechnik (Rückblende, Ellipse)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Formale Entscheidungen des Autors analysieren", "Fortgeschrittene Literaturanalyse verbindet eine formale Entscheidung (Perspektive, Zeitform) mit ihrer Wirkung auf den Leser.", "Der Gebrauch der Ich-Perspektive schafft Nähe, begrenzt aber auch die Perspektive auf das, was der Erzähler wissen oder wahrnehmen kann."]
+      ]
+    },
+    ex:[
+      ["mcq","Was zeichnet einen \"unzuverlässigen Erzähler\" aus?",["Seine Darstellung der Ereignisse kann verzerrt, unvollständig oder irreführend sein.","Er sagt immer die absolute Wahrheit über alles.","Er hat nie eine Meinung zu den Ereignissen, die er erzählt.","Er kommt nur in wissenschaftlichen Texten vor, nie in Fiktion."],0,"Ein unzuverlässiger Erzähler bietet eine Perspektive, die der Leser hinterfragen muss, wegen Verzerrung, Unwissen oder Täuschung."],
+      ["mcq","Welche Wirkung erzeugt die Ich-Perspektive normalerweise?",["Sie schafft Nähe zum Erzähler, begrenzt aber die Perspektive auf das, was er weiß.","Sie beseitigt jede emotionale Verbindung zum Leser.","Sie garantiert immer eine objektive Sicht der Ereignisse.","Sie wird nur in nicht-literarischen Texten verwendet."],0,"Die Ich-Perspektive bringt den Leser dem Erzähler näher, auf Kosten einer notwendigerweise partiellen Sicht der Ereignisse."],
+      ["fill","Ergänze: \"Der Gebrauch einer ___ unterbricht die Chronologie, um ein vergangenes Ereignis zu zeigen.\"",["Rückblende","Nachwort","Vorwort","Inhaltsverzeichnis"],0,"Eine \"Rückblende\" (Flashback) ist die Erzähltechnik, die die lineare Chronologie unterbricht, um die Vergangenheit zu zeigen."],
+      ["translate","Übersetze mit technischer Präzision: \"Die Unzuverlässigkeit des Erzählers zwingt den Leser, jede Behauptung zu hinterfragen.\"",["The narrator's unreliability forces the reader to question every claim.","The narrator unreliability force the reader question every claim.","The unreliable narrator force to question reader every claim is.","Question every claim forces the narrator's unreliability the reader."],0,"\"Unzuverlässigkeit\" wird technisch als \"unreliability\" übersetzt."],
+      ["mcq","Welche dieser Analysen verbindet korrekt eine formale Entscheidung mit ihrer Wirkung auf den Leser?",["Das erzählerische Präsens erzeugt ein Gefühl der Unmittelbarkeit, als würden die Ereignisse gerade jetzt geschehen.","Der Autor benutzte das Präsens, weil es leichter zu schreiben ist.","Das Präsens hat keinerlei Wirkung darauf, wie die Geschichte wahrgenommen wird.","Das Präsens wird nur in der Lyrik verwendet, nie in der Erzählung."],0,"Eine gute Literaturanalyse verknüpft die formale Entscheidung (Zeitform) mit einer konkreten Wirkung auf das Leseerlebnis."],
+      ["writing","Wähle eine Erzählung, einen Roman oder eine Geschichte, die du kennst (oder erfinde eine kurze) und schreibe auf Deutsch 55-75 Wörter über ihre Erzählstimme: Perspektive, Zuverlässigkeit des Erzählers und eine Wirkung, die dies beim Leser erzeugt.",[],["Erzählstimme","Perspektive","Wirkung"],"Verbinde explizit eine formale Entscheidung des Autors mit einer konkreten Wirkung auf die Lektüre, beschreibe nicht nur die Handlung."]
+    ]
+  },
 ];
