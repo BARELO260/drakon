@@ -1102,4 +1102,149 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris en français 55-75 mots analysant un euphémisme ou un cas d'ambiguïté stratégique que tu as observé dans un discours politique réel ou inventé. Explique quelle phrase directe il évite et pourquoi.",[],["euphémisme","au lieu de","évite de s'engager"],"Identifie la phrase exacte, le sens plus direct qu'elle remplace, et l'effet recherché sur l'audience."]
     ]
   },
+  {
+    id:"fr_a1_money_prices", level:"A1", title:"Nombres ordinaux, argent et prix", emoji:"💰", xp:36,
+    description:"Apprends à parler de prix, d'argent et de nombres ordinaux en français.",
+    study: {
+      vocab: [
+        ["premier, deuxième, troisième...", "first, second, third..."],
+        ["Combien ça coûte ?", "How much does this cost?"],
+        ["Ça coûte dix euros.", "It costs ten euros."],
+        ["bon marché, cher", "cheap, expensive"],
+        ["payer en espèces / par carte", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Coûter\" pour les prix", "\"Coûte\" (singulier) et \"coûtent\" (pluriel) s'accordent avec ce qui est acheté.", "Le livre coûte dix euros. Les livres coûtent vingt euros."]
+      ]
+    },
+    ex:[
+      ["mcq","Comment demandes-tu le prix de quelque chose ?",["Combien ça coûte ?","Qu'est-ce que c'est ?","Où est-ce ?","Quand est-ce ?"],0,"\"Combien ça coûte ?\" est la question standard pour demander un prix."],
+      ["mcq","Un produit à 5 euros est moins cher qu'un à 50 euros. Quel mot décrit celui à 5 euros ?",["Bon marché.","Cher.","Gratuit.","Grand."],0,"\"Bon marché\" décrit quelque chose de prix bas par rapport à autre chose."],
+      ["fill","Complète : \"Les chaussures ___ quarante euros.\"",["coûtent","coûte","est","sont"],0,"\"Coûtent\" s'accorde au pluriel avec \"les chaussures\"."],
+      ["translate","Traduis : \"It costs ten euros.\"",["Ça coûte dix euros.","Ça coûtent dix euros.","C'est dix euros coûte.","Ça a dix euros."],0,"\"It costs ten euros\" (singulier) = \"Ça coûte dix euros.\""],
+      ["arrange","Remets dans l'ordre : [carte / je / toujours / par / paie]",["Je paie toujours par carte","Toujours je paie par carte","Par carte toujours je paie","Je paie par carte toujours"],0,"Sujet + verbe + adverbe + complément : \"Je paie toujours par carte.\""],
+      ["writing","Écris en français 20-30 mots sur tes habitudes d'achat : ce que tu achètes normalement, si tu préfères payer en espèces ou par carte, et si tu cherches des choses bon marché.",[],["coûte","bon marché","paie"],"Utilise au moins un nombre ordinal ou un prix concret dans ta réponse."]
+    ]
+  },
+  {
+    id:"fr_a2_restaurant_ordering", level:"A2", title:"Au restaurant : commander et payer l'addition", emoji:"🍽️", xp:45,
+    description:"Apprends à commander, poser des questions au serveur et payer l'addition dans un restaurant.",
+    study: {
+      vocab: [
+        ["Je voudrais commander...", "I would like to order..."],
+        ["Qu'est-ce que vous me conseillez ?", "What do you recommend?"],
+        ["L'addition, s'il vous plaît ?", "Could you bring me the bill, please?"],
+        ["Le service est-il compris ?", "Is the tip included?"],
+        ["Pour moi, le menu du jour.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Je voudrais\" pour commander poliment", "\"Je voudrais\" (conditionnel de \"vouloir\") est plus poli que \"je veux\" pour commander.", "Je voudrais commander la soupe et le poulet, s'il vous plaît."]
+      ]
+    },
+    ex:[
+      ["mcq","Quelle est la façon la plus polie de commander dans un restaurant ?",["Je voudrais commander la soupe, s'il vous plaît.","Je veux la soupe maintenant.","Donnez-moi la soupe.","Soupe, maintenant."],0,"\"Je voudrais\" est la forme polie et formelle pour commander quelque chose."],
+      ["mcq","Tu as fini de manger et tu veux payer. Que dis-tu ?",["L'addition, s'il vous plaît ?","Le menu, s'il vous plaît ?","Qu'est-ce que vous me conseillez ?","Cette table est-elle libre ?"],0,"\"L'addition, s'il vous plaît ?\" est la phrase standard pour demander à payer."],
+      ["fill","Complète : \"Je ___ commander le poisson avec de la salade, s'il vous plaît.\"",["voudrais","veux maintenant","donne","ai"],0,"\"Je voudrais commander\" est la forme polie standard pour passer une commande."],
+      ["translate","Traduis : \"Is the tip included?\"",["Le service est-il compris ?","Le service est compris ?","Est le service compris-il ?","Compris est-il le service ?"],0,"\"Is the tip included?\" = \"Le service est-il compris ?\""],
+      ["arrange","Remets dans l'ordre : [conseillez / vous / que / me / qu'est-ce]",["Qu'est-ce que vous me conseillez","Vous qu'est-ce que me conseillez","Me conseillez qu'est-ce que vous","Que vous me conseillez qu'est-ce"],0,"Question avec \"qu'est-ce que\" au début : \"Qu'est-ce que vous me conseillez ?\""],
+      ["speaking","Représente en français, en 40-60 mots, une conversation brève dans un restaurant : commande un plat, demande une recommandation et demande l'addition à la fin.",[],["je voudrais","conseillez","l'addition"],"Inclus les trois parties : commande, question au serveur et demande de l'addition."]
+    ]
+  },
+  {
+    id:"fr_b1_personal_finance", level:"B1", title:"Finances personnelles : la banque et le budget", emoji:"🏦", xp:62,
+    description:"Parle de comptes bancaires, d'épargne et de budget personnel en français.",
+    study: {
+      vocab: [
+        ["ouvrir un compte bancaire", "to open a bank account"],
+        ["faire un budget mensuel", "to make a monthly budget"],
+        ["économiser pour un objectif", "to save up for a goal"],
+        ["les dépenses fixes et les dépenses variables", "fixed expenses and variable expenses"],
+        ["contracter un prêt, payer en plusieurs fois", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["Le conditionnel pour des conseils financiers", "\"Tu devrais\" + infinitif donne un conseil sans paraître trop direct.", "Tu devrais économiser au moins 10 % de ton salaire chaque mois."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases donne un conseil financier de façon appropriée ?",["Tu devrais économiser un peu chaque mois, même si c'est peu.","Économise maintenant, il n'y a pas d'autre option.","Épargner ne sert à rien.","Tu ne pourras jamais rien économiser."],0,"\"Tu devrais\" + infinitif donne un conseil de façon polie et raisonnable."],
+      ["mcq","Quelle est la différence entre dépenses fixes et variables ?",["Les fixes se répètent chaque mois au même montant ; les variables changent.","Les fixes changent chaque mois ; les variables sont toujours identiques.","Il n'y a aucune différence réelle entre elles.","Les variables n'existent que pour les entreprises, pas pour les particuliers."],0,"Les dépenses fixes (le loyer, par exemple) restent stables ; les variables (loisirs, nourriture) changent chaque mois."],
+      ["fill","Complète : \"Je vais ___ un nouveau compte bancaire ce mois-ci.\"",["ouvrir","fermer","dépenser","perdre"],0,"\"Ouvrir un compte bancaire\" est la collocation correcte pour créer un nouveau compte."],
+      ["translate","Traduis : \"You should make a monthly budget.\"",["Tu devrais faire un budget mensuel.","Tu devrais faire budget mensuel un.","Un budget mensuel tu devrais faire.","Tu devrais un budget mensuel faire."],0,"\"You should make a monthly budget\" = \"Tu devrais faire un budget mensuel.\""],
+      ["arrange","Remets dans l'ordre : [économiser / objectif / pour / un / veux / je]",["Je veux économiser pour un objectif","Pour un objectif je veux économiser","Économiser je veux pour un objectif","Je veux pour un objectif économiser"],0,"Sujet + \"veux\" + infinitif + complément : \"Je veux économiser pour un objectif.\""],
+      ["writing","Écris en français 45-65 mots sur ta relation avec l'argent : comment tu organises ton budget, si tu économises pour quelque chose de concret et une habitude financière que tu aimerais améliorer.",[],["budget","économiser","dépenses"],"Mentionne au moins une dépense fixe, une dépense variable et un objectif d'épargne."]
+    ]
+  },
+  {
+    id:"fr_b2_mental_wellbeing", level:"B2", title:"Bien-être et santé mentale : parler avec nuance", emoji:"🧘", xp:82,
+    description:"Parle du bien-être émotionnel et de la santé mentale avec un vocabulaire plus nuancé en français.",
+    study: {
+      vocab: [
+        ["se sentir dépassé(e)", "to feel overwhelmed"],
+        ["poser des limites, prendre soin de soi", "to set boundaries, to take care of yourself"],
+        ["l'épuisement professionnel (burn-out)", "burnout"],
+        ["demander de l'aide n'est pas un signe de faiblesse", "asking for help is not a sign of weakness"],
+        ["traiter ses émotions", "to process one's emotions"]
+      ],
+      grammar: [
+        ["Le subjonctif avec les expressions de recommandation", "\"Il est important que\" + subjonctif recommande une action liée au bien-être.", "Il est important que tu parles de ce que tu ressens à quelqu'un de confiance."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases utilise correctement le subjonctif pour donner une recommandation ?",["Il est important que tu te reposes quand tu en as besoin.","Il est important que tu te reposes quand tu as besoin de.","Il important que tu te reposer quand besoin.","Il est important tu te reposes quand as besoin."],0,"\"Il est important que\" exige le subjonctif : \"que tu te reposes\"."],
+      ["mcq","Que signifie \"se sentir dépassé(e)\" ?",["Sentir qu'il y a trop de choses à gérer à la fois.","Se sentir extrêmement heureux et calme.","Ne rien ressentir du tout.","Ressentir de la curiosité pour quelque chose de nouveau."],0,"\"Dépassé\" décrit une sensation de trop-plein de tâches ou d'émotions difficiles à gérer."],
+      ["fill","Complète : \"Poser des ___ est important pour prendre soin de ton bien-être.\"",["limites","argent","vêtements","nourriture"],0,"\"Poser des limites\" est l'expression correcte pour protéger son propre bien-être émotionnel."],
+      ["translate","Traduis : \"Asking for help is not a sign of weakness.\"",["Demander de l'aide n'est pas un signe de faiblesse.","Demander de l'aide n'est pas une faible signe.","Demander de l'aide n'est signe de faiblesse pas.","Ne pas demander de l'aide est un signe de faiblesse."],0,"\"Asking for help is not a sign of weakness\" = \"Demander de l'aide n'est pas un signe de faiblesse.\""],
+      ["mcq","Laquelle de ces phrases reflète un traitement sain d'une émotion, et non son évitement ?",["Je reconnais que je suis triste et je me donne du temps pour comprendre pourquoi.","Je fais comme si de rien n'était et j'ignore ce que je ressens.","Je me distrais constamment pour ne rien ressentir.","Je dis à tout le monde que je vais parfaitement bien, même si ce n'est pas vrai."],0,"Reconnaître et explorer une émotion, plutôt que de l'éviter, est un traitement émotionnel sain."],
+      ["writing","Écris en français 55-75 mots sur une stratégie que tu utilises (ou aimerais utiliser) pour prendre soin de ton bien-être émotionnel quand tu te sens dépassé(e).",[],["dépassé","limites","traiter"],"Utilise au moins une structure de recommandation avec le subjonctif (\"il est important que...\")."]
+    ]
+  },
+  {
+    id:"fr_c1_legal_language", level:"C1", title:"Langage juridique de base : contrats et clauses", emoji:"📜", xp:90,
+    description:"Comprends le vocabulaire et les structures de base du langage juridique dans les contrats.",
+    study: {
+      vocab: [
+        ["les parties contractantes", "the contracting parties"],
+        ["une clause, une annexe", "a clause, an appendix"],
+        ["résilier un contrat", "to terminate a contract"],
+        ["être soumis aux termes et conditions", "to be subject to the terms and conditions"],
+        ["en cas de manquement", "in the event of a breach"]
+      ],
+      grammar: [
+        ["Le langage formel impersonnel dans les contrats", "Les contrats utilisent des structures impersonnelles et passives pour paraître objectifs et éviter l'ambiguïté sur qui agit.", "Le présent contrat pourra être résilié par l'une ou l'autre des parties moyennant un préavis de 30 jours."],
+        ["\"Dans le cas où\" + conditionnel", "Cette structure formelle introduit des conditions juridiques hypothétiques.", "Dans le cas où l'une des parties manquerait à ses obligations, une pénalité s'appliquerait."]
+      ]
+    },
+    ex:[
+      ["mcq","Que signifie \"résilier un contrat\" ?",["Mettre fin ou annuler un contrat avant son terme prévu.","Signer un nouveau contrat.","Modifier seulement une clause du contrat.","Renouveler automatiquement un contrat."],0,"\"Résilier\" signifie mettre fin à un contrat, généralement avant son échéance naturelle."],
+      ["mcq","Laquelle de ces phrases utilise correctement le langage formel impersonnel typique d'un contrat ?",["Le présent contrat pourra être résilié par l'une ou l'autre des parties.","N'importe qui peut casser ce contrat s'il le veut.","Quelqu'un peut annuler ça quand il en a envie.","On peut annuler le contrat comme ça, sans raison."],0,"Le langage contractuel formel utilise des constructions passives et impersonnelles, en évitant un ton familier."],
+      ["fill","Complète : \"___ le cas où l'une des parties manquerait à ses obligations, une pénalité s'appliquerait.\"",["Dans","Parce que","Bien que","Cependant"],0,"\"Dans le cas où\" + conditionnel introduit une condition juridique hypothétique."],
+      ["translate","Traduis : \"The contract is subject to the terms and conditions described in Appendix A.\"",["Le contrat est soumis aux termes et conditions décrits dans l'Annexe A.","Le contrat est soumis les termes et conditions décrits dans l'Annexe A.","Le contrat est soumis aux termes et conditions dans l'Annexe A décrits.","Soumis le contrat est aux termes de l'Annexe A."],0,"\"Subject to\" = \"soumis à\" ; \"described in Appendix A\" = \"décrits dans l'Annexe A\"."],
+      ["mcq","Que sont \"les parties contractantes\" ?",["Les personnes ou entités qui signent et s'engagent dans un contrat.","Seulement la personne qui rédige le contrat.","Les sections ou chapitres d'un contrat.","Les témoins qui ne signent pas le contrat."],0,"\"Les parties contractantes\" désigne ceux qui signent le contrat et en assument les obligations."],
+      ["writing","Écris en français 55-75 mots en rédigeant une clause simple d'un contrat fictif (par exemple, sur les délais de livraison ou les conditions d'annulation), en utilisant un registre formel et impersonnel.",[],["les parties","dans le cas où","résilier"],"Utilise au moins une construction passive ou impersonnelle, propre au registre juridique formel."]
+    ]
+  },
+  {
+    id:"fr_c2_literary_criticism", level:"C2", title:"Critique littéraire : voix narrative et style", emoji:"📖", xp:97,
+    description:"Analyse la voix narrative, le style et les choix formels d'un texte littéraire en français.",
+    study: {
+      vocab: [
+        ["la voix narrative", "the narrative voice"],
+        ["un narrateur fiable / peu fiable", "a reliable / unreliable narrator"],
+        ["le point de vue (première, troisième personne)", "point of view (first, third person)"],
+        ["le ton et le registre d'un texte", "the tone and register of a text"],
+        ["une technique narrative (analepse, ellipse)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Analyser les choix formels de l'auteur", "L'analyse littéraire avancée relie un choix formel (point de vue, temps verbal) à son effet sur le lecteur.", "L'usage de la première personne crée de la proximité, mais limite aussi la perspective à ce que le narrateur peut savoir ou percevoir."]
+      ]
+    },
+    ex:[
+      ["mcq","Qu'est-ce qui caractérise un \"narrateur peu fiable\" ?",["Sa version des faits peut être biaisée, incomplète ou trompeuse.","Il dit toujours la vérité absolue sur tout ce qui se passe.","Il n'a jamais d'opinion sur les faits qu'il raconte.","Il n'apparaît que dans des textes scientifiques, jamais en fiction."],0,"Un narrateur peu fiable offre une perspective que le lecteur doit questionner, par biais, ignorance ou tromperie."],
+      ["mcq","Quel effet produit généralement la narration à la première personne ?",["Elle crée une proximité avec le narrateur, mais limite la perspective à ce qu'il sait.","Elle supprime toute connexion émotionnelle avec le lecteur.","Elle garantit toujours une vision objective des faits.","Elle n'est utilisée que dans les textes non littéraires."],0,"La première personne rapproche le lecteur du narrateur, au prix d'une vision nécessairement partielle des faits."],
+      ["fill","Complète : \"L'utilisation d'une ___ interrompt la chronologie pour montrer un événement passé.\"",["analepse","postface","préface","table des matières"],0,"Une \"analepse\" (flashback) est la technique narrative qui interrompt la chronologie linéaire pour montrer le passé."],
+      ["translate","Traduis avec précision technique : \"The narrator's unreliability forces the reader to question every claim.\"",["Le manque de fiabilité du narrateur oblige le lecteur à questionner chaque affirmation.","Le manque fiabilité narrateur oblige lecteur questionner affirmation.","Le narrateur peu fiable oblige questionner au lecteur chaque affirmation est.","Questionner chaque affirmation oblige le manque de fiabilité du narrateur au lecteur."],0,"\"Unreliability\" se traduit par \"manque de fiabilité\"; la structure doit sonner naturelle en français académique."],
+      ["mcq","Laquelle de ces analyses relie correctement un choix formel à son effet sur le lecteur ?",["Le présent narratif crée une sensation d'immédiateté, comme si les faits se déroulaient maintenant.","L'auteur a utilisé le présent parce que c'est plus facile à écrire.","Le présent n'a aucun effet sur la perception de l'histoire.","Le présent n'est utilisé qu'en poésie, jamais dans le récit."],0,"Une bonne analyse littéraire relie le choix formel (temps verbal) à un effet concret sur l'expérience de lecture."],
+      ["writing","Choisis un conte, un roman ou un récit que tu connais (ou invente-en un bref) et écris en français 55-75 mots analysant sa voix narrative : point de vue, fiabilité du narrateur et un effet que cela produit sur le lecteur.",[],["voix narrative","point de vue","effet"],"Relie explicitement un choix formel de l'auteur à un effet concret sur la lecture, ne te contente pas de décrire l'intrigue."]
+    ]
+  },
 ];
