@@ -1247,4 +1247,148 @@ window.LESSON_BANKS.PT = [
       ["writing","Escolhe um conto, romance ou relato que conheças (ou inventa um breve) e escreve em português 55-75 palavras analisando a sua voz narrativa: ponto de vista, fiabilidade do narrador e um efeito que isto produz no leitor.",[],["voz narrativa","ponto de vista","efeito"],"Liga explicitamente uma decisão formal do autor a um efeito concreto na leitura, não te limites a descrever o enredo."]
     ]
   },
+  {
+    id:"pt_a1_professions_jobs", level:"A1", title:"As profissões: o que fazes na vida?", emoji:"👩‍⚕️", xp:36,
+    description:"Aprende o vocabulário básico das profissões e a falar do teu trabalho em português.",
+    study: {
+      vocab: [
+        ["médico/a, professor/a, engenheiro/a, empregado/a de mesa", "doctor, teacher, engineer, waiter/waitress"],
+        ["O que fazes na vida?", "What do you do for a living?"],
+        ["Sou estudante / Trabalho num escritório.", "I'm a student / I work in an office."],
+        ["Onde trabalhas?", "Where do you work?"],
+        ["trabalhar como + profissão", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Ser\" com profissões (sem artigo)", "Com profissões, \"ser\" não leva artigo indefinido, ao contrário do inglês.", "Sou professor. (não \"Sou um professor\")"]
+      ]
+    },
+    ex:[
+      ["mcq","Como perguntas a profissão de alguém?",["O que fazes na vida?","Como te chamas?","Onde vives?","Quantos anos tens?"],0,"\"O que fazes na vida?\" pergunta especificamente pela profissão."],
+      ["mcq","Qual é a forma correta de dizer a tua profissão em português?",["Sou professor.","Sou um professor.","Tenho professor.","Faço professor."],0,"Em português, \"ser\" + profissão não leva artigo: \"Sou professor.\""],
+      ["fill","Completa: \"A minha irmã ___ médica num hospital.\"",["é","está","tem","faz"],0,"\"Ser\" usa-se para profissões: \"A minha irmã é médica.\""],
+      ["translate","Traduz: \"I work in an office.\"",["Trabalho num escritório.","Trabalho um escritório.","Estou trabalho num escritório.","Trabalho de um escritório."],0,"\"I work in an office\" = \"Trabalho num escritório.\""],
+      ["arrange","Ordena: [empregado / trabalho / restaurante / de / mesa / num / como]",["Trabalho como empregado de mesa num restaurante","Como empregado de mesa trabalho num restaurante","Trabalho num restaurante como empregado de mesa","Num restaurante trabalho como empregado de mesa"],0,"\"Trabalho como\" + profissão + \"num\" + lugar: \"Trabalho como empregado de mesa num restaurante.\""],
+      ["writing","Escreve em português 20-30 palavras sobre a tua profissão (real ou imaginada) e onde trabalhas. Menciona pelo menos duas tarefas que fazes no trabalho.",[],["sou","trabalho","como"],"Usa \"ser\" para a profissão e \"trabalhar em/como\" para o lugar ou papel."]
+    ]
+  },
+  {
+    id:"pt_a2_describing_people", level:"A2", title:"Descrever pessoas: aparência e personalidade", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Aprende a descrever o aspeto físico e a personalidade de outras pessoas em português.",
+    study: {
+      vocab: [
+        ["alto/a, baixo/a, magro/a", "tall, short, slim"],
+        ["tem o cabelo comprido/curto, usa óculos", "has long/short hair, wears glasses"],
+        ["é simpático/a, tímido/a, divertido/a", "is nice, shy, funny"],
+        ["parece-se com a mãe/o pai", "looks like his/her mother/father"],
+        ["Como é o teu melhor amigo / a tua melhor amiga?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Ser\" para características, \"ter\" e \"usar\" para traços físicos", "\"Ser\" descreve personalidade e traços estáveis; \"ter\" e \"usar\" descrevem partes do corpo ou acessórios.", "É muito simpática, tem o cabelo comprido e usa óculos."]
+      ]
+    },
+    ex:[
+      ["mcq","Como perguntas como é a personalidade de alguém?",["Como é o teu melhor amigo?","Como estás?","Que horas são?","De onde és?"],0,"\"Como é...?\" pergunta pelas características ou personalidade de alguém."],
+      ["mcq","Qual destas frases descreve corretamente o aspeto físico de alguém?",["Tem o cabelo curto e usa óculos.","É o cabelo curto e usa óculos.","Tem simpático e alto.","É tem óculos."],0,"\"Ter\" usa-se para partes do corpo (\"tem o cabelo curto\") e \"usar\" para acessórios (\"usa óculos\")."],
+      ["fill","Completa: \"O meu irmão ___ muito divertido e faz sempre piadas.\"",["é","tem","usa","faz"],0,"\"Ser\" descreve um traço de personalidade estável: \"é muito divertido\"."],
+      ["translate","Traduz: \"She has long hair and wears glasses.\"",["Tem o cabelo comprido e usa óculos.","É o cabelo comprido e usa óculos.","Tem cabelo comprido e é óculos.","Usa o cabelo comprido e tem óculos postos."],0,"\"Has long hair\" = \"tem o cabelo comprido\"; \"wears glasses\" = \"usa óculos\"."],
+      ["arrange","Ordena: [mãe / parece-se / a / com]",["Parece-se com a mãe","Com a mãe parece-se","A mãe parece-se com","Parece-se a com mãe"],0,"\"Parece-se com\" + pessoa: \"Parece-se com a mãe.\""],
+      ["speaking","Descreve em português, em 40-60 palavras, uma pessoa que conheces bem: o seu aspeto físico e três traços da sua personalidade.",[],["tem","é","usa"],"Inclui pelo menos dois traços físicos e dois de personalidade."]
+    ]
+  },
+  {
+    id:"pt_b1_education_learning", level:"B1", title:"A educação: sistemas escolares e hábitos de estudo", emoji:"🎒", xp:60,
+    description:"Fala sobre sistemas educativos, métodos de estudo e experiências escolares em português.",
+    study: {
+      vocab: [
+        ["a educação obrigatória / superior", "compulsory / higher education"],
+        ["passar/chumbar num exame", "to pass/fail an exam"],
+        ["memorizar face a compreender", "to memorize versus to understand"],
+        ["um plano de estudos, uma disciplina", "a curriculum, a school subject"],
+        ["aprender ao teu próprio ritmo", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["Comparativos para comparar sistemas", "\"Mais... do que\", \"menos... do que\" e \"tão... como\" servem para comparar métodos ou sistemas educativos.", "Este sistema é mais prático do que o tradicional, embora não seja tão estruturado como aquele."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual destas frases compara corretamente dois sistemas educativos?",["Este sistema é mais prático do que o tradicional.","Este sistema é prático mais o tradicional.","Este sistema é tão prático o tradicional.","Este sistema mais prático é do que tradicional."],0,"\"Mais... do que\" é a estrutura comparativa correta em português."],
+      ["mcq","Que diferença há entre memorizar e compreender?",["Memorizar é repetir informação; compreender implica entender o seu significado e aplicá-lo.","São exatamente a mesma coisa, sem nenhuma diferença.","Memorizar é sempre melhor do que compreender.","Compreender é mais rápido do que memorizar."],0,"Memorizar é reter dados; compreender implica um processamento mais profundo do significado."],
+      ["fill","Completa: \"Estudei muito, mas mesmo assim ___ o exame.\"",["chumbei","passei","memorizei","compreendi"],0,"O contexto (\"mas mesmo assim\") sugere um resultado negativo: \"chumbei o exame\"."],
+      ["translate","Traduz: \"I prefer to learn at my own pace.\"",["Prefiro aprender ao meu próprio ritmo.","Prefiro aprender meu próprio ritmo.","Prefiro a aprender meu próprio ritmo.","Prefiro meu próprio ritmo aprender a."],0,"\"To learn at your own pace\" = \"aprender ao teu/meu próprio ritmo\"."],
+      ["arrange","Ordena: [favorita / disciplina / é / matemática / a minha]",["A minha disciplina favorita é matemática","É a minha disciplina favorita matemática","Matemática é a minha disciplina favorita","A minha favorita disciplina é matemática"],0,"Sujeito + \"é\" + complemento: \"A minha disciplina favorita é matemática.\""],
+      ["writing","Escreve em português 45-65 palavras comparando duas formas de estudar ou dois sistemas educativos que conheças (por exemplo, aulas presenciais face a online), e diz qual preferes e porquê.",[],["mais...do que","compreender","ao meu próprio ritmo"],"Usa pelo menos uma estrutura comparativa explícita."]
+    ]
+  },
+  {
+    id:"pt_b2_sustainable_cities", level:"B2", title:"Cidades sustentáveis: urbanismo e mobilidade", emoji:"🚲", xp:82,
+    description:"Discute propostas de urbanismo e mobilidade sustentável nas cidades, com argumentos matizados em português.",
+    study: {
+      vocab: [
+        ["os transportes públicos, a ciclovia", "public transport, the bike lane"],
+        ["pedonalizar o centro da cidade", "to pedestrianize the city center"],
+        ["reduzir o trânsito e a poluição", "to reduce traffic and pollution"],
+        ["um espaço verde, uma zona pedonal", "a green space, a pedestrian zone"],
+        ["investir em infraestrutura sustentável", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["O conjuntivo com expressões de dúvida ou opinião", "\"Não acho que\" e \"é possível que\" exigem conjuntivo ao expressar dúvida ou opinião sobre propostas urbanas.", "Não acho que pedonalizar todo o centro seja a única solução possível."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual destas frases usa corretamente o conjuntivo para expressar dúvida?",["Não acho que esta medida seja suficiente por si só.","Não acho que esta medida é suficiente por si só.","Não acho esta medida seja suficiente.","Não acho que esta medida ser suficiente."],0,"\"Não acho que\" exige conjuntivo: \"que...seja\"."],
+      ["mcq","O que significa \"pedonalizar o centro da cidade\"?",["Restringir ou eliminar o trânsito de veículos para dar prioridade a quem caminha.","Construir mais estradas no centro.","Aumentar o número de carros permitidos no centro.","Eliminar todas as lojas do centro."],0,"\"Pedonalizar\" significa transformar um espaço para uso prioritário de peões, limitando veículos."],
+      ["fill","Completa: \"É possível que a ciclovia ___ o trânsito nessa zona.\"",["reduza","reduz","reduzirá","reduziu"],0,"\"É possível que\" exige conjuntivo: \"que reduza\"."],
+      ["translate","Traduz: \"Investing in public transport reduces pollution in the long term.\"",["Investir nos transportes públicos reduz a poluição a longo prazo.","Investir nos transportes públicos reduzir a poluição a longo prazo.","Investir transportes públicos em reduz a poluição longo prazo.","Reduz investir nos transportes públicos a poluição a longo prazo."],0,"\"Investing in public transport reduces pollution\" = \"Investir nos transportes públicos reduz a poluição.\""],
+      ["mcq","Qual destas frases apresenta uma posição matizada sobre a mobilidade urbana?",["Depende do contexto: em algumas cidades o carro ainda é necessário, noutras não.","O carro devia ser proibido em todo o lado sem exceção.","Os transportes públicos nunca funcionam bem em nenhuma cidade.","Não há nenhuma solução possível para o trânsito urbano."],0,"Uma posição matizada reconhece que a solução depende do contexto específico de cada cidade."],
+      ["writing","Escreve em português 55-75 palavras propondo uma melhoria de mobilidade sustentável para uma cidade que conheças, explicando um benefício e uma possível dificuldade de a implementar.",[],["é possível que","pedonal","transportes públicos"],"Usa pelo menos uma estrutura com conjuntivo de dúvida ou opinião."]
+    ]
+  },
+  {
+    id:"pt_c1_science_communication", level:"C1", title:"Divulgação científica: comunicar com precisão", emoji:"🔬", xp:90,
+    description:"Aprende a comunicar informação científica complexa de forma clara e precisa em português, sem perder rigor.",
+    study: {
+      vocab: [
+        ["simplificar sem distorcer", "to simplify without distorting"],
+        ["um resultado preliminar face a um confirmado", "a preliminary finding versus a confirmed one"],
+        ["a evidência científica sugere que...", "scientific evidence suggests that..."],
+        ["uma analogia útil para explicar algo complexo", "a useful analogy to explain something complex"],
+        ["evitar o sensacionalismo científico", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Verbos matizados para comunicar incerteza científica", "\"Sugere\", \"indica\", \"poderia explicar\" transmitem diferentes graus de certeza científica, mais precisos do que \"prova\" ou \"demonstra\".", "O estudo sugere uma possível relação, mas não demonstra causalidade."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual destas frases comunica um resultado científico com o matiz correto?",["O estudo sugere uma possível relação, mas não demonstra causalidade.","O estudo prova de forma definitiva que isto causa aquilo.","Os cientistas já sabem tudo sobre este tema.","Este resultado é cem por cento certo, sem qualquer dúvida."],0,"\"Sugere\" e \"não demonstra causalidade\" refletem com precisão o nível real de certeza de um resultado preliminar."],
+      ["mcq","Porque é importante \"simplificar sem distorcer\" na divulgação científica?",["Porque simplificar demasiado pode mudar o significado real do resultado.","Porque a ciência nunca devia ser explicada a não especialistas.","Porque os detalhes técnicos não importam nada.","Porque toda a simplificação é automaticamente incorreta."],0,"Simplificar é necessário para chegar a mais público, mas distorcer o significado original é um erro grave de divulgação."],
+      ["fill","Completa: \"Este é um resultado ___: são precisos mais estudos para o confirmar.\"",["preliminar","confirmado","definitivo","absoluto"],0,"\"Preliminar\" indica que o resultado ainda não está confirmado de forma conclusiva."],
+      ["translate","Traduz: \"Scientific evidence suggests that this treatment could be effective.\"",["A evidência científica sugere que este tratamento poderia ser eficaz.","A evidência científica sugere este tratamento poderia eficaz.","Sugere a evidência científica que tratamento poderia ser eficaz.","A evidência científica sugere que este tratamento ser eficaz poderia."],0,"\"Scientific evidence suggests that\" = \"A evidência científica sugere que\", seguido de \"poderia ser\" para expressar possibilidade."],
+      ["mcq","Uma manchete diz \"A ciência confirma: esta fruta cura o cancro!\" baseando-se num único estudo preliminar em ratos. Qual é o problema desta manchete?",["Exagera um resultado preliminar e limitado como se fosse uma certeza absoluta aplicável a humanos.","É um exemplo perfeito de divulgação científica rigorosa.","Não contém nenhum sensacionalismo.","Reflete com precisão o nível de evidência disponível."],0,"A manchete transforma um resultado preliminar em ratos numa afirmação absoluta sobre humanos, um caso claro de sensacionalismo."],
+      ["writing","Escolhe uma descoberta científica (real ou inventada) e escreve em português 55-75 palavras explicando-a de forma clara e acessível, usando uma analogia e mantendo o matiz correto de certeza (evita palavras como \"prova\" se o resultado for preliminar).",[],["sugere","preliminar","é como"],"Inclui pelo menos uma analogia e um verbo matizado que reflita corretamente o nível de certeza."]
+    ]
+  },
+  {
+    id:"pt_c2_speech_acts_pragmatics", level:"C2", title:"Pragmática: o que fazemos ao dizer algo", emoji:"💭", xp:98,
+    description:"Analisa os atos de fala e a pragmática em português: a diferença entre o que se diz e o que se faz ao dizê-lo.",
+    study: {
+      vocab: [
+        ["um ato de fala (pedido, promessa, ordem)", "a speech act (request, promise, order)"],
+        ["o significado literal face ao significado pretendido", "literal meaning versus intended meaning"],
+        ["um ato de fala indireto", "an indirect speech act"],
+        ["as condições de felicidade de um ato de fala", "the felicity conditions of a speech act"],
+        ["implicar algo sem o dizer explicitamente", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Atos de fala diretos face a indiretos", "Um ato de fala indireto usa uma forma gramatical (como uma pergunta) para desempenhar outra função (como um pedido).", "\"Podias fechar a janela?\" tem forma de pergunta, mas a sua função real é um pedido, não perguntar sobre capacidade."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Podias passar-me o sal?\" durante um jantar. Que ato de fala é este, na realidade?",["Um pedido indireto, embora tenha forma de pergunta.","Uma pergunta genuína sobre a capacidade da outra pessoa.","Uma ordem direta e explícita.","Uma promessa sobre o futuro."],0,"Embora tenha forma gramatical de pergunta sobre capacidade, a sua função real é pedir que alguém passe o sal: é um pedido indireto."],
+      ["mcq","Um chefe diz a um funcionário: \"Está um pouco frio aqui, não está?\" perto de uma janela aberta. O que está provavelmente a fazer com este enunciado?",["Está a pedir indiretamente que alguém feche a janela.","Está simplesmente a comentar o tempo sem qualquer outra intenção.","Está a perguntar pela temperatura exata da sala.","Está a ordenar explicitamente que se desligue o aquecimento."],0,"O comentário funciona como um pedido indireto para que alguém feche a janela, sem o dizer explicitamente."],
+      ["fill","Completa: \"Dizer 'prometo' em voz alta não basta; também devem cumprir-se certas ___ para que a promessa seja válida.\"",["condições de felicidade","regras gramaticais","normas ortográficas","perguntas retóricas"],0,"As \"condições de felicidade\" são os requisitos contextuais (sinceridade, capacidade, etc.) para que um ato de fala funcione corretamente."],
+      ["translate","Traduz com precisão técnica: \"Este é um ato de fala indireto: a sua forma literal não corresponde à sua função pretendida.\"",["This is an indirect speech act: its literal form doesn't match its intended function.","This is indirect speech act literal form doesn't match function.","It's a speech act this indirect that doesn't match literal function.","This speech act is indirect its form doesn't function match."],0,"\"Ato de fala indireto\" = \"indirect speech act\"; \"forma literal\" = \"literal form\"; \"função pretendida\" = \"intended function\"."],
+      ["mcq","Qual destes enunciados implica algo sem o dizer explicitamente?",["\"Alguns estudantes passaram no exame.\" (implica que nem todos passaram)","\"Todos os estudantes passaram no exame.\"","\"O exame foi na segunda-feira às nove.\"","\"Há trinta estudantes na turma.\""],0,"\"Alguns\" implica pragmaticamente \"nem todos\", embora não o afirme literalmente; é uma implicatura conversacional clássica."],
+      ["writing","Escreve em português 55-75 palavras analisando um ato de fala indireto de uma conversa quotidiana (real ou inventada): o que foi dito literalmente, que função pragmática cumpria na realidade, e como o percebeste pelo contexto.",[],["ato de fala","literalmente","na realidade"],"Distingue explicitamente entre a forma gramatical literal do enunciado e a sua função pragmática real."]
+    ]
+  },
 ];
