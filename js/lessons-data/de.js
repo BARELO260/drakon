@@ -1391,4 +1391,154 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch 55-75 Wörter, die einen indirekten Sprechakt aus einem alltäglichen Gespräch (real oder erfunden) analysieren: was wörtlich gesagt wurde, welche pragmatische Funktion es eigentlich erfüllte, und wie du das aus dem Kontext erkannt hast.",[],["Sprechakt","wörtlich","in Wirklichkeit"],"Unterscheide explizit zwischen der wörtlichen grammatischen Form der Aussage und ihrer tatsächlichen pragmatischen Funktion."]
     ]
   },
+  {
+    id:"de_a1_animals_nature", level:"A1", title:"Tiere und die Natur", emoji:"🐾", xp:36,
+    description:"Lerne den Wortschatz für gängige Tiere und die Natur auf Deutsch.",
+    study: {
+      vocab: [
+        ["der Hund", "the dog"],
+        ["die Katze", "the cat"],
+        ["der Vogel", "the bird"],
+        ["das Pferd", "the horse"],
+        ["der Fisch", "the fish"],
+        ["die Kuh", "the cow"],
+        ["der Wald, der Berg, der Fluss", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Das grammatische Geschlecht bei Tieren", "Tiernamen haben ein festes grammatisches Geschlecht (der/die/das), das nicht immer dem biologischen Geschlecht entspricht.", "der Hund, die Katze, das Pferd — unabhängig vom biologischen Geschlecht des Tieres."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „das Pferd“ auf Englisch?",["the horse", "the cat", "the bird", "the dog"],0,"„Pferd“ heißt „horse“ auf Englisch."],
+      ["mcq","Wie sagt man „der Vogel“ auf Englisch?",["the dog", "the cow", "the fish", "the bird"],3,"„Vogel“ heißt „bird“ auf Englisch."],
+      ["fill","Completa: “Ich gehe sonntags gern im ___ spazieren.”",["Katze", "Fisch", "Kuh", "Wald"],3,"„Im Wald spazieren gehen“ ist eine typische Aktivität in der Natur."],
+      ["translate","Übersetze: „The dog is very friendly.“",["Die Katze ist sehr freundlich.", "Der Vogel ist sehr freundlich.", "Der Hund ist sehr freundlich.", "Das Pferd ist sehr freundlich."],2,"„The dog“ = „der Hund“; „friendly“ = „freundlich“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [schwarze / eine / habe / Katze / ich]",["Ich habe eine schwarze Katze", "Katze habe Ich schwarze eine", "schwarze habe eine Katze Ich", "habe schwarze Katze eine Ich"],0,"Subjekt + Verb + Artikel + Adjektiv + Substantiv."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über ein Tier, das du magst, und einen Ort in der Natur, den du gerne besuchst.",[],["ich mag", "der Wald", "das Tier"]],
+    ]
+  },
+  {
+    id:"de_a2_body_parts", level:"A2", title:"Der menschliche Körper: Körperteile", emoji:"🦴", xp:46,
+    description:"Lerne die Körperteile und wie man Schmerzen oder körperliche Merkmale beschreibt.",
+    study: {
+      vocab: [
+        ["der Kopf", "the head"],
+        ["der Arm", "the arm"],
+        ["das Bein", "the leg"],
+        ["die Hand", "the hand"],
+        ["der Fuß", "the foot"],
+        ["der Rücken", "the back"],
+      ],
+      grammar: [
+        ["„Weh tun“ mit Dativpronomen", "„[Körperteil] tut mir weh“ ist die natürliche Struktur, um Schmerzen auszudrücken.", "Der Rücken tut mir weh. / Die Füße tun mir weh."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „der Rücken“ auf Englisch?",["the back", "the hand", "the head", "the leg"],0,"„Rücken“ heißt „back“ auf Englisch."],
+      ["mcq","Wie sagt man „der Fuß“ auf Englisch?",["the head", "the hand", "the arm", "the foot"],3,"„Fuß“ heißt „foot“ auf Englisch."],
+      ["fill","Completa: “Der ___ tut mir nach dem Laufen sehr weh.”",["Hand", "Bein", "Rücken", "Kopf"],2,"Laufen verursacht oft Rückenschmerzen, wenn man sich nicht gut aufwärmt."],
+      ["translate","Übersetze: „My hand hurts.“",["Mein Bein tut mir weh.", "Mein Arm tut mir weh.", "Mein Fuß tut mir weh.", "Meine Hand tut mir weh."],3,"„My hand hurts“ = „Meine Hand tut mir weh.“"],
+      ["arrange","Bringe in die richtige Reihenfolge: [weh / Bein / mir / tut / mein]",["Bein tut Mein mir weh", "tut mir weh Bein Mein", "Bein weh Mein tut mir", "Mein Bein tut mir weh"],3,"Subjekt (Körperteil) + „tut mir weh“."],
+      ["speaking","Beschreibe auf Deutsch, in 40-60 Wörtern, einen Schmerz, den du einmal hattest: welcher Körperteil wehtat und was du getan hast.",[],["tat weh", "mein Bein", "ich ging zum Arzt"]],
+    ]
+  },
+  {
+    id:"de_b1_sports_fitness", level:"B1", title:"Sport und körperliche Aktivität", emoji:"🏃", xp:60,
+    description:"Sprich über Sport, Trainingsroutinen und Fitnessgewohnheiten auf Deutsch.",
+    study: {
+      vocab: [
+        ["Fußball", "soccer/football"],
+        ["das Schwimmen", "swimming"],
+        ["Tennis", "tennis"],
+        ["laufen", "to run"],
+        ["Gewichte heben", "to lift weights"],
+        ["Yoga machen", "to do yoga"],
+      ],
+      grammar: [
+        ["„Normalerweise“ + Präsens für Gewohnheiten", "„Normalerweise“ mit dem Präsens drückt eine gewohnheitsmäßige Handlung aus.", "Ich laufe normalerweise dreimal pro Woche."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „Gewichte heben“ auf Englisch?",["to run", "to do yoga", "swimming", "to lift weights"],3,"„Gewichte heben“ heißt „to lift weights“."],
+      ["mcq","Wie sagt man „das Schwimmen“ auf Englisch?",["swimming", "to run", "tennis", "soccer/football"],0,"„Schwimmen“ heißt „swimming“."],
+      ["fill","Completa: “Ich ___ normalerweise dreimal pro Woche, um fit zu bleiben.”",["Tennis", "Fußball", "Schwimmen", "laufe"],3,"„Normalerweise“ + Präsens („laufe“) beschreibt eine Gewohnheit."],
+      ["translate","Übersetze: „Suelo hacer yoga los domingos.“",["I usually play tennis on Sundays.", "I usually do yoga on Sundays.", "I usually lift weights on Sundays.", "I usually do yoga on Saturdays."],1,"„Suelo hacer yoga“ = „I usually do yoga“; „los domingos“ = “on Sundays“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [fit / bleiben / um / laufe / ich]",["fit bleiben Ich zu laufe, um", "bleiben um laufe, fit Ich zu", "Ich laufe, um fit zu bleiben", "laufe, Ich zu fit bleiben um"],2,"Subjekt + Verb + „um ... zu“ + Adjektiv."],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über deine Beziehung zum Sport: welche Aktivität du machst, wie oft und warum du sie magst (oder nicht).",[],["normalerweise", "fit bleiben", "ich mache"]],
+    ]
+  },
+  {
+    id:"de_b2_smart_home_tech", level:"B2", title:"Das intelligente Zuhause: Hausautomation und Geräte", emoji:"💡", xp:82,
+    description:"Sprich über smarte Geräte und Hausautomation mit differenzierten Meinungen auf Deutsch.",
+    study: {
+      vocab: [
+        ["ein smarter Lautsprecher", "a smart speaker"],
+        ["ein programmierbares Thermostat", "a programmable thermostat"],
+        ["eine Sicherheitskamera", "a security camera"],
+        ["per Sprache steuern", "to control by voice"],
+        ["Hausaufgaben automatisieren", "to automate household tasks"],
+        ["ein Datenschutzrisiko", "a privacy risk"],
+      ],
+      grammar: [
+        ["Futur I für technologische Vorhersagen", "„Werden“ + Infinitiv beschreibt vernünftige Vorhersagen darüber, wie sich Technologie entwickeln wird.", "In ein paar Jahren werden mehr Haushalte vernetzte Geräte haben."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „ein Datenschutzrisiko“ auf Englisch?",["a privacy risk", "a smart speaker", "a security camera", "a thermostat"],0,"„Datenschutzrisiko“ heißt „privacy risk“."],
+      ["mcq","Wie sagt man „Hausaufgaben automatisieren“ auf Englisch?",["a smart speaker", "to control by voice", "a privacy risk", "to automate household tasks"],3,"„Hausaufgaben automatisieren“ heißt „to automate household tasks“."],
+      ["fill","Completa: “Ein programmierbares Thermostat kann Energie ___, wenn es gut eingestellt ist.”",["kaputtmachen", "verlieren", "sparen", "verschwenden"],2,"Ein gut eingestelltes Thermostat hilft, Energie zu sparen, nicht zu verschwenden."],
+      ["translate","Übersetze: „Smart speakers can be controlled by voice.“",["Smarte Lautsprecher können per Sprache gesteuert werden.", "Thermostate können per Text gesteuert werden.", "Sicherheitskameras können per Sprache gesteuert werden.", "Smarte Lautsprecher können per Text gesteuert werden."],0,"„Controlled by voice“ = „per Sprache gesteuert“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [ein / kann / darstellen / Datenschutzrisiko / es]",["ein Es darstellen Datenschutzrisiko kann", "Es kann ein Datenschutzrisiko darstellen", "Datenschutzrisiko darstellen Es kann ein", "Es ein Datenschutzrisiko darstellen kann"],1,"Subjekt + „kann“ + Objekt + „darstellen“: „Es kann ein Datenschutzrisiko darstellen.“"],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter über ein smartes Gerät, das du zu Hause nutzen würdest (oder bereits nutzt): welchen Vorteil es bietet und welches Datenschutzrisiko es haben könnte.",[],["automatisieren", "Datenschutzrisiko", "per Sprache"]],
+    ]
+  },
+  {
+    id:"de_c1_workplace_communication", level:"C1", title:"Die Arbeitswelt: Besprechungen und Korrespondenz", emoji:"🤝", xp:90,
+    description:"Beherrsche den Wortschatz und die typischen Formeln für Besprechungen und formelle E-Mails auf Deutsch.",
+    study: {
+      vocab: [
+        ["eine Besprechung einberufen", "to call a meeting"],
+        ["ein Dokument anhängen", "to attach a document"],
+        ["wir freuen uns auf Ihre Antwort", "we look forward to your response"],
+        ["einen offenen Punkt wieder aufgreifen", "to follow up on a pending item"],
+        ["eine Einigung erzielen", "to reach an agreement"],
+        ["eine Besprechung verschieben", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Höflichkeitsformeln in formellen E-Mails", "Feste Formeln wie „Wir freuen uns auf Ihre Antwort“ geben einen professionellen Abschluss, ohne abrupt zu klingen.", "Anbei finden Sie den angeforderten Bericht. Wir freuen uns auf Ihre Antwort."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine Einigung erzielen“ auf Englisch?",["to call a meeting", "to reach an agreement", "to attach a document", "to postpone a meeting"],1,"„Eine Einigung erzielen“ heißt „to reach an agreement“."],
+      ["mcq","Wie sagt man „eine Besprechung verschieben“ auf Englisch?",["to attach a document", "to reach an agreement", "to call a meeting", "to postpone a meeting"],3,"„Eine Besprechung verschieben“ heißt „to postpone a meeting“."],
+      ["fill","Completa: “Bevor wir die Besprechung beenden, möchte ich gern einen offenen Punkt von letzter Woche ___.”",["verschieben", "anhängen", "einberufen", "aufgreifen"],3,"„Einen offenen Punkt wieder aufgreifen“ bedeutet, darauf zurückzukommen."],
+      ["translate","Übersetze: „Ich habe den angeforderten Bericht angehängt.“",["I'm calling the requested report.", "I'm postponing the requested report.", "I'm attaching the requested report.", "I'm attaching the requested email."],2,"„Ich habe angehängt“ = „I'm attaching“; „den angeforderten Bericht“ = „the requested report“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Antwort / auf / freuen / Ihre / wir / uns]",["Wir freuen auf Ihre uns Antwort", "Ihre Wir Antwort uns freuen auf", "Antwort Wir auf uns Ihre freuen", "Wir freuen uns auf Ihre Antwort"],3,"Feste Formel zum Abschluss einer formellen E-Mail."],
+      ["writing","Schreibe auf Deutsch eine kurze formelle E-Mail (55-75 Wörter), in der du eine Besprechung einberufst, einen offenen Punkt erwähnst und mit einer formellen Höflichkeitsformel schließt.",[],["ich berufe ein", "offener Punkt", "wir freuen uns auf"]],
+    ]
+  },
+  {
+    id:"de_c2_register_synonyms", level:"C2", title:"Register und Stil: Synonyme je nach Kontext", emoji:"🔤", xp:98,
+    description:"Wähle das passende Synonym je nach Register (formell, neutral, umgangssprachlich) auf Deutsch.",
+    study: {
+      vocab: [
+        ["erlangen (formell) / bekommen (neutral)", "to obtain / to get"],
+        ["versterben (formell) / sterben (neutral) / abkratzen (umgangssprachlich)", "to pass away / to die / to kick the bucket"],
+        ["ersuchen (formell) / bitten (neutral)", "to request / to ask for"],
+        ["residieren (formell) / wohnen (neutral)", "to reside / to live"],
+        ["dennoch (formell) / aber (neutral)", "however / but"],
+      ],
+      grammar: [
+        ["Register je nach kommunikativem Kontext wählen", "Dieselbe Idee kann mit sehr unterschiedlichen Wörtern ausgedrückt werden, je nachdem, ob der Kontext formell, neutral oder umgangssprachlich ist; das falsche Wort zu wählen bricht die Kohärenz des Textes.", "In einem Bericht: „Die Information wurde erlangt.“ Im Gespräch unter Freunden: „Ich hab's bekommen.“"],
+      ]
+    },
+    ex:[
+      ["mcq","In einem offiziellen Bericht: Welches Wort ist für „Informationen erlangen“ am passendsten?",["Erlangen", "Schnappen", "Ergattern", "Kriegen"],0,"„Erlangen“ ist das formelle Register, das für einen offiziellen Bericht passt."],
+      ["mcq","In einem informellen Gespräch unter Freunden: Welches Verb klingt für „sterben“ am natürlichsten?",["Abkratzen", "Versterben", "Dahinscheiden", "Verscheiden"],0,"„Abkratzen“ ist umgangssprachlich und würde in ein informelles Gespräch passen; die anderen sind zu formell oder gehoben."],
+      ["fill","Completa: “In einem formellen Brief sagt man „___ setzen wir das Projekt fort“, nicht „aber“.”",["dennoch", "jedoch aber", "trotzdem", "aber"],0,"„Dennoch“ ist der formelle Konnektor, der „aber“ entspricht."],
+      ["translate","Übersetze mit dem korrekten formellen Register: „We reside in Madrid.“",["Wir wohnen in Madrid.", "Wir bleiben in Madrid.", "Wir residieren in Madrid.", "Wir sind aus Madrid."],2,"„Reside“ wird im formellen Register mit „residieren“ übersetzt, nicht mit dem neutralen „wohnen“."],
+      ["arrange","Bringe in die richtige Reihenfolge (formelles Register): [wurde / die Information / erbeten]",["Information wurde Die erbeten", "Die Information wurde erbeten", "erbeten wurde Information Die", "Die wurde erbeten Information"],1,"Passivkonstruktion, typisch für das formelle/administrative Register."],
+      ["writing","Schreibe auf Deutsch dieselbe kurze Nachricht („ich brauche, dass du mir die Datei schickst“) in zwei verschiedenen Registern: einem formellen (für einen Chef) und einem umgangssprachlichen (für einen Freund), in insgesamt 55-75 Wörtern.",[],["formell", "umgangssprachlich", "ich ersuche"]],
+    ]
+  },
 ];
