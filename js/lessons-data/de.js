@@ -1247,4 +1247,148 @@ window.LESSON_BANKS.DE = [
       ["writing","Wähle eine Erzählung, einen Roman oder eine Geschichte, die du kennst (oder erfinde eine kurze) und schreibe auf Deutsch 55-75 Wörter über ihre Erzählstimme: Perspektive, Zuverlässigkeit des Erzählers und eine Wirkung, die dies beim Leser erzeugt.",[],["Erzählstimme","Perspektive","Wirkung"],"Verbinde explizit eine formale Entscheidung des Autors mit einer konkreten Wirkung auf die Lektüre, beschreibe nicht nur die Handlung."]
     ]
   },
+  {
+    id:"de_a1_professions_jobs", level:"A1", title:"Berufe: Was machst du beruflich?", emoji:"👩‍⚕️", xp:36,
+    description:"Lerne den grundlegenden Wortschatz für Berufe und wie man über seinen Job spricht.",
+    study: {
+      vocab: [
+        ["Arzt/Ärztin, Lehrer/in, Ingenieur/in, Kellner/in", "doctor, teacher, engineer, waiter/waitress"],
+        ["Was machst du beruflich?", "What do you do for a living?"],
+        ["Ich bin Student(in) / Ich arbeite in einem Büro.", "I'm a student / I work in an office."],
+        ["Wo arbeitest du?", "Where do you work?"],
+        ["als + Beruf arbeiten", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Sein\" mit Berufen (ohne Artikel)", "Bei Berufen benutzt \"sein\" keinen unbestimmten Artikel, anders als im Englischen.", "Ich bin Lehrer. (nicht \"Ich bin ein Lehrer\")"]
+      ]
+    },
+    ex:[
+      ["mcq","Wie fragst du nach dem Beruf von jemandem?",["Was machst du beruflich?","Wie heißt du?","Wo wohnst du?","Wie alt bist du?"],0,"\"Was machst du beruflich?\" fragt konkret nach dem Beruf oder der Tätigkeit."],
+      ["mcq","Wie sagt man seinen Beruf korrekt auf Deutsch?",["Ich bin Lehrer.","Ich bin ein Lehrer.","Ich habe Lehrer.","Ich mache Lehrer."],0,"Auf Deutsch benutzt \"sein\" + Beruf keinen Artikel: \"Ich bin Lehrer.\""],
+      ["fill","Ergänze: \"Meine Schwester ___ Ärztin in einem Krankenhaus.\"",["ist","hat","macht","arbeitet ist"],0,"\"Sein\" wird für Berufe benutzt: \"Meine Schwester ist Ärztin.\""],
+      ["translate","Übersetze: \"I work in an office.\"",["Ich arbeite in einem Büro.","Ich arbeite ein Büro.","Ich bin Arbeit in einem Büro.","Ich arbeite von einem Büro."],0,"\"I work in an office\" = \"Ich arbeite in einem Büro.\""],
+      ["arrange","Bringe in die richtige Reihenfolge: [Kellner / arbeite / Restaurant / als / in / einem / ich]",["Ich arbeite als Kellner in einem Restaurant","Als Kellner arbeite ich in einem Restaurant","Ich arbeite in einem Restaurant als Kellner","In einem Restaurant arbeite ich als Kellner"],0,"\"Ich arbeite als\" + Beruf + \"in\" + Ort: \"Ich arbeite als Kellner in einem Restaurant.\""],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über deinen Beruf (echt oder erfunden) und wo du arbeitest. Nenne mindestens zwei Aufgaben, die du bei der Arbeit erledigst.",[],["ich bin","ich arbeite","als"],"Benutze \"sein\" für den Beruf und \"arbeiten in/als\" für den Ort oder die Rolle."]
+    ]
+  },
+  {
+    id:"de_a2_describing_people", level:"A2", title:"Personen beschreiben: Aussehen und Persönlichkeit", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Lerne, das äußere Erscheinungsbild und die Persönlichkeit anderer Personen auf Deutsch zu beschreiben.",
+    study: {
+      vocab: [
+        ["groß, klein, schlank", "tall, short, slim"],
+        ["hat lange/kurze Haare, trägt eine Brille", "has long/short hair, wears glasses"],
+        ["ist nett, schüchtern, lustig", "is nice, shy, funny"],
+        ["sieht seiner Mutter/seinem Vater ähnlich", "looks like his/her mother/father"],
+        ["Wie ist dein bester Freund / deine beste Freundin?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Sein\" für Eigenschaften, \"haben\" und \"tragen\" für körperliche Merkmale", "\"Sein\" beschreibt Persönlichkeit und stabile Eigenschaften; \"haben\" und \"tragen\" beschreiben Körperteile oder Accessoires.", "Sie ist sehr nett, hat lange Haare und trägt eine Brille."]
+      ]
+    },
+    ex:[
+      ["mcq","Wie fragst du nach der Persönlichkeit von jemandem?",["Wie ist dein bester Freund?","Wie geht es dir?","Wie spät ist es?","Woher kommst du?"],0,"\"Wie ist...?\" fragt nach den Eigenschaften oder der Persönlichkeit von jemandem."],
+      ["mcq","Welcher dieser Sätze beschreibt korrekt das äußere Erscheinungsbild von jemandem?",["Er hat kurze Haare und trägt eine Brille.","Er ist kurze Haare und trägt eine Brille.","Er hat nett und groß.","Er ist hat Brille."],0,"\"Haben\" wird für Körperteile (\"hat kurze Haare\") und \"tragen\" für Accessoires (\"trägt eine Brille\") benutzt."],
+      ["fill","Ergänze: \"Mein Bruder ___ sehr lustig und macht immer Witze.\"",["ist","hat","trägt","macht"],0,"\"Ist\" beschreibt ein stabiles Persönlichkeitsmerkmal: \"ist sehr lustig\"."],
+      ["translate","Übersetze: \"Sie hat lange Haare und trägt eine Brille.\"",["She has long hair and wears glasses.","She is long hair and wears glasses.","She has long hair and is glasses.","She wears long hair and has glasses on."],0,"\"Hat lange Haare\" = \"has long hair\"; \"trägt eine Brille\" = \"wears glasses\"."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Mutter / ähnlich / sieht / ihrer / sie]",["Sie sieht ihrer Mutter ähnlich","Ihrer Mutter sieht sie ähnlich","Ähnlich sieht sie ihrer Mutter","Sie ihrer Mutter sieht ähnlich"],0,"\"Sieht ... ähnlich\" + Person im Dativ: \"Sie sieht ihrer Mutter ähnlich.\""],
+      ["speaking","Beschreibe auf Deutsch, in 40-60 Wörtern, eine Person, die du gut kennst: ihr äußeres Erscheinungsbild und drei Persönlichkeitsmerkmale.",[],["hat","ist","trägt"],"Erwähne mindestens zwei körperliche Merkmale und zwei Persönlichkeitsmerkmale."]
+    ]
+  },
+  {
+    id:"de_b1_education_learning", level:"B1", title:"Bildung: Schulsysteme und Lerngewohnheiten", emoji:"🎒", xp:60,
+    description:"Sprich über Bildungssysteme, Lernmethoden und Schulerfahrungen auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Schulpflicht / Hochschulbildung", "compulsory / higher education"],
+        ["eine Prüfung bestehen/nicht bestehen", "to pass/fail an exam"],
+        ["auswendig lernen im Vergleich zu verstehen", "to memorize versus to understand"],
+        ["ein Lehrplan, ein Schulfach", "a curriculum, a school subject"],
+        ["in deinem eigenen Tempo lernen", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["Komparative zum Vergleichen von Systemen", "\"Mehr... als\", \"weniger... als\" und \"so... wie\" dienen dazu, Lernmethoden oder Bildungssysteme zu vergleichen.", "Dieses System ist praktischer als das traditionelle, obwohl es nicht so strukturiert ist wie jenes."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze vergleicht korrekt zwei Bildungssysteme?",["Dieses System ist praktischer als das traditionelle.","Dieses System ist praktisch mehr als traditionell.","Dieses System ist so praktisch das traditionelle.","Dieses System praktischer ist als traditionell."],0,"\"Praktischer als\" ist die korrekte Komparativstruktur im Deutschen."],
+      ["mcq","Was ist der Unterschied zwischen Auswendiglernen und Verstehen?",["Auswendiglernen bedeutet, Informationen zu wiederholen; Verstehen bedeutet, ihre Bedeutung zu erfassen und anzuwenden.","Sie sind genau dasselbe, ohne jeden Unterschied.","Auswendiglernen ist immer besser als Verstehen.","Verstehen ist schneller als Auswendiglernen."],0,"Auswendiglernen ist das Behalten von Daten; Verstehen erfordert eine tiefere Verarbeitung der Bedeutung."],
+      ["fill","Ergänze: \"Ich habe viel gelernt, aber trotzdem die Prüfung ___.\"",["nicht bestanden","bestanden","auswendig gelernt","verstanden"],0,"Der Kontext (\"aber trotzdem\") deutet auf ein negatives Ergebnis hin: \"nicht bestanden\"."],
+      ["translate","Übersetze: \"Ich lerne lieber in meinem eigenen Tempo.\"",["I prefer to learn at my own pace.","I prefer learn my own pace.","I prefer to learning my own pace.","I prefer my own pace to learn at."],0,"\"In meinem eigenen Tempo lernen\" = \"to learn at my own pace\"."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Lieblingsfach / ist / Mathematik / mein]",["Mein Lieblingsfach ist Mathematik","Ist mein Lieblingsfach Mathematik","Mathematik ist mein Lieblingsfach","Mein ist Lieblingsfach Mathematik"],0,"Subjekt + \"ist\" + Ergänzung: \"Mein Lieblingsfach ist Mathematik.\""],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über zwei Lernmethoden oder zwei Bildungssysteme, die du kennst (zum Beispiel Präsenzunterricht versus Online-Unterricht), und sage, welche du bevorzugst und warum.",[],["praktischer als","verstehen","in meinem eigenen Tempo"],"Benutze mindestens eine explizite Vergleichsstruktur."]
+    ]
+  },
+  {
+    id:"de_b2_sustainable_cities", level:"B2", title:"Nachhaltige Städte: Stadtplanung und Mobilität", emoji:"🚲", xp:82,
+    description:"Diskutiere Vorschläge zu Stadtplanung und nachhaltiger Mobilität in Städten mit differenzierten Argumenten.",
+    study: {
+      vocab: [
+        ["der öffentliche Nahverkehr, der Radweg", "public transport, the bike lane"],
+        ["das Stadtzentrum zur Fußgängerzone machen", "to pedestrianize the city center"],
+        ["Verkehr und Umweltverschmutzung reduzieren", "to reduce traffic and pollution"],
+        ["eine Grünfläche, eine Fußgängerzone", "a green space, a pedestrian zone"],
+        ["in nachhaltige Infrastruktur investieren", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["Konjunktiv II mit \"es wäre wichtig, dass\"", "\"Es wäre wichtig, dass\" + Konjunktiv II drückt eine differenzierte Empfehlung aus.", "Es wäre wichtig, dass Städte in zuverlässigen öffentlichen Nahverkehr investierten."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze präsentiert ein formell gut strukturiertes Argument?",["Es wäre wichtig, dass Städte in zuverlässigen öffentlichen Nahverkehr investieren.","Städte investieren wichtig öffentlichen Nahverkehr.","Es wichtig Städte investieren öffentlichen Nahverkehr.","Wichtig ist dass Städte öffentlichen Nahverkehr investieren."],0,"\"Es wäre wichtig, dass\" gefolgt vom Verb ist die korrekte formelle Struktur."],
+      ["mcq","Was bedeutet \"das Stadtzentrum zur Fußgängerzone machen\"?",["Den Fahrzeugverkehr einschränken oder entfernen, um Fußgänger zu priorisieren.","Mehr Straßen im Zentrum bauen.","Die Anzahl der im Zentrum erlaubten Autos erhöhen.","Alle Geschäfte aus dem Zentrum entfernen."],0,"\"Zur Fußgängerzone machen\" bedeutet, einen Raum für die vorrangige Nutzung durch Fußgänger umzuwandeln, wobei Fahrzeuge eingeschränkt werden."],
+      ["fill","Ergänze: \"Der Radweg könnte den Verkehr in diesem Gebiet ___.\"",["reduzieren","reduziert","reduzierend","reduziert haben"],0,"Nach \"könnte\" folgt der Infinitiv: \"könnte ... reduzieren\"."],
+      ["translate","Übersetze: \"Investitionen in den öffentlichen Nahverkehr reduzieren langfristig die Umweltverschmutzung.\"",["Investing in public transport reduces pollution in the long term.","Investing in public transport reduce pollution in the long term.","Invest in public transport reduces pollution long term.","Reduces investing in public transport pollution long term."],0,"\"Investitionen in den öffentlichen Nahverkehr reduzieren die Umweltverschmutzung\" = \"Investing in public transport reduces pollution.\""],
+      ["mcq","Welcher dieser Sätze präsentiert eine differenzierte Position zur urbanen Mobilität?",["Es hängt vom Kontext ab: In manchen Städten ist das Auto noch notwendig, in anderen nicht.","Autos sollten überall ohne Ausnahme verboten werden.","Öffentlicher Nahverkehr funktioniert in keiner Stadt gut.","Es gibt keine mögliche Lösung für den städtischen Verkehr."],0,"Eine differenzierte Position erkennt an, dass die Lösung vom spezifischen Kontext jeder Stadt abhängt."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter mit einem Vorschlag zur nachhaltigen Mobilität für eine Stadt, die du kennst, und erkläre einen Vorteil und eine mögliche Schwierigkeit bei der Umsetzung.",[],["es wäre wichtig, dass","Fußgänger","öffentlicher Nahverkehr"],"Benutze mindestens eine formelle Empfehlungsstruktur."]
+    ]
+  },
+  {
+    id:"de_c1_science_communication", level:"C1", title:"Wissenschaftskommunikation: präzise vermitteln", emoji:"🔬", xp:90,
+    description:"Lerne, komplexe wissenschaftliche Informationen auf Deutsch klar und präzise zu vermitteln, ohne an Genauigkeit zu verlieren.",
+    study: {
+      vocab: [
+        ["vereinfachen, ohne zu verzerren", "to simplify without distorting"],
+        ["ein vorläufiges Ergebnis im Vergleich zu einem bestätigten", "a preliminary finding versus a confirmed one"],
+        ["wissenschaftliche Belege deuten darauf hin, dass...", "scientific evidence suggests that..."],
+        ["eine nützliche Analogie, um etwas Komplexes zu erklären", "a useful analogy to explain something complex"],
+        ["wissenschaftlichen Sensationalismus vermeiden", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Abstufende Verben zur Vermittlung wissenschaftlicher Unsicherheit", "\"Deutet darauf hin\", \"weist darauf hin\", \"könnte erklären\" vermitteln unterschiedliche Grade wissenschaftlicher Gewissheit, präziser als \"beweist\" oder \"zeigt eindeutig\".", "Die Studie deutet auf einen möglichen Zusammenhang hin, beweist aber keine Kausalität."]
+      ]
+    },
+    ex:[
+      ["mcq","Welcher dieser Sätze vermittelt ein wissenschaftliches Ergebnis mit der richtigen Nuance?",["Die Studie deutet auf einen möglichen Zusammenhang hin, beweist aber keine Kausalität.","Die Studie beweist definitiv, dass dies jenes verursacht.","Wissenschaftler wissen bereits alles über dieses Thema.","Dieses Ergebnis ist hundertprozentig sicher, ohne jeden Zweifel."],0,"\"Deutet auf einen möglichen Zusammenhang hin\" und \"beweist keine Kausalität\" spiegeln präzise das reale Sicherheitsniveau eines vorläufigen Ergebnisses wider."],
+      ["mcq","Warum ist es wichtig, in der Wissenschaftskommunikation \"zu vereinfachen, ohne zu verzerren\"?",["Weil übermäßige Vereinfachung die reale Bedeutung des Ergebnisses verändern kann.","Weil Wissenschaft niemals Laien erklärt werden sollte.","Weil technische Details überhaupt keine Rolle spielen.","Weil jede Vereinfachung automatisch falsch ist."],0,"Vereinfachen ist nötig, um mehr Menschen zu erreichen, aber die ursprüngliche Bedeutung zu verzerren ist ein schwerer Fehler in der Wissenschaftskommunikation."],
+      ["fill","Ergänze: \"Dies ist ein ___ Ergebnis: weitere Studien sind nötig, um es zu bestätigen.\"",["vorläufiges","bestätigtes","endgültiges","absolutes"],0,"\"Vorläufig\" zeigt an, dass das Ergebnis noch nicht abschließend bestätigt ist."],
+      ["translate","Übersetze: \"Scientific evidence suggests that this treatment could be effective.\"",["Wissenschaftliche Belege deuten darauf hin, dass diese Behandlung wirksam sein könnte.","Wissenschaftliche Belege deuten darauf hin diese Behandlung wirksam sein könnte.","Deuten wissenschaftliche Belege darauf hin dass Behandlung wirksam sein könnte.","Wissenschaftliche Belege deuten darauf hin, dass diese Behandlung sein könnte wirksam."],0,"\"Scientific evidence suggests that\" = \"Wissenschaftliche Belege deuten darauf hin, dass\", gefolgt von \"könnte sein\", um Möglichkeit auszudrücken."],
+      ["mcq","Eine Schlagzeile sagt „Die Wissenschaft bestätigt es: Diese Frucht heilt Krebs!“ basierend auf nur einer vorläufigen Studie an Mäusen. Was ist das Problem mit dieser Schlagzeile?",["Sie übertreibt ein begrenztes, vorläufiges Ergebnis, als wäre es eine absolute, auf Menschen anwendbare Gewissheit.","Es ist ein perfektes Beispiel für rigorose Wissenschaftskommunikation.","Sie enthält überhaupt keinen Sensationalismus.","Sie spiegelt genau das verfügbare Evidenzniveau wider."],0,"Die Schlagzeile verwandelt ein vorläufiges Ergebnis an Mäusen in eine absolute Aussage über Menschen — ein klarer Fall von Sensationalismus."],
+      ["writing","Wähle eine wissenschaftliche Entdeckung (real oder erfunden) und schreibe auf Deutsch 55-75 Wörter, die sie klar und zugänglich erklären, mithilfe einer Analogie und unter Beibehaltung der richtigen Sicherheitsnuance (vermeide Wörter wie \"beweist\", wenn das Ergebnis vorläufig ist).",[],["deutet darauf hin","vorläufig","ist wie"],"Enthält mindestens eine Analogie und ein abstufendes Verb, das das Sicherheitsniveau korrekt widerspiegelt."]
+    ]
+  },
+  {
+    id:"de_c2_speech_acts_pragmatics", level:"C2", title:"Pragmatik: was wir tun, indem wir etwas sagen", emoji:"💭", xp:98,
+    description:"Analysiere Sprechakte und Pragmatik auf Deutsch: den Unterschied zwischen dem, was gesagt wird, und dem, was durch das Sagen getan wird.",
+    study: {
+      vocab: [
+        ["ein Sprechakt (Bitte, Versprechen, Befehl)", "a speech act (request, promise, order)"],
+        ["die wörtliche Bedeutung im Vergleich zur beabsichtigten Bedeutung", "literal meaning versus intended meaning"],
+        ["ein indirekter Sprechakt", "an indirect speech act"],
+        ["die Gelingensbedingungen eines Sprechakts", "the felicity conditions of a speech act"],
+        ["etwas implizieren, ohne es explizit zu sagen", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Direkte versus indirekte Sprechakte", "Ein indirekter Sprechakt nutzt eine grammatische Form (wie eine Frage), um eine andere Funktion (wie eine Bitte) zu erfüllen.", "\"Könntest du das Fenster schließen?\" hat die Form einer Frage, aber ihre eigentliche Funktion ist eine Bitte, nicht die Frage nach einer Fähigkeit."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Könntest du mir das Salz reichen?\" bei einem Abendessen. Was für ein Sprechakt ist das eigentlich?",["Eine indirekte Bitte, auch wenn sie die Form einer Frage hat.","Eine echte Frage nach der Fähigkeit der anderen Person.","Ein direkter, expliziter Befehl.","Ein Versprechen für die Zukunft."],0,"Obwohl sie grammatisch die Form einer Frage nach einer Fähigkeit hat, ist ihre eigentliche Funktion, jemanden zu bitten, das Salz zu reichen: es ist eine indirekte Bitte."],
+      ["mcq","Ein Chef sagt zu einem Angestellten: „Es ist hier etwas kalt, oder?“ in der Nähe eines offenen Fensters. Was tut er damit wahrscheinlich?",["Er bittet indirekt jemanden, das Fenster zu schließen.","Er kommentiert einfach das Wetter ohne weitere Absicht.","Er fragt nach der genauen Temperatur des Raumes.","Er befiehlt explizit, die Heizung auszuschalten."],0,"Der Kommentar fungiert als indirekte Bitte, dass jemand das Fenster schließt, ohne es explizit zu sagen."],
+      ["fill","Ergänze: \"'Ich verspreche es' laut zu sagen reicht nicht aus; auch bestimmte ___ müssen erfüllt sein, damit das Versprechen gültig ist.\"",["Gelingensbedingungen","Grammatikregeln","Rechtschreibregeln","rhetorische Fragen"],0,"Die \"Gelingensbedingungen\" sind die kontextuellen Voraussetzungen (Aufrichtigkeit, Fähigkeit usw.), damit ein Sprechakt korrekt funktioniert."],
+      ["translate","Übersetze mit technischer Präzision: \"Dies ist ein indirekter Sprechakt: seine wörtliche Form entspricht nicht seiner beabsichtigten Funktion.\"",["This is an indirect speech act: its literal form doesn't match its intended function.","This is indirect speech act literal form doesn't match function.","It's a speech act this indirect that doesn't match literal function.","This speech act is indirect its form doesn't function match."],0,"\"Indirekter Sprechakt\" = \"indirect speech act\"; \"wörtliche Form\" = \"literal form\"; \"beabsichtigte Funktion\" = \"intended function\"."],
+      ["mcq","Welche dieser Aussagen impliziert etwas, ohne es explizit zu sagen?",["\"Einige Studenten haben die Prüfung bestanden.\" (impliziert, dass nicht alle bestanden haben)","\"Alle Studenten haben die Prüfung bestanden.\"","\"Die Prüfung war am Montag um neun Uhr.\"","\"Es gibt dreißig Studenten in der Klasse.\""],0,"\"Einige\" impliziert pragmatisch \"nicht alle\", obwohl es das nicht wörtlich behauptet; das ist eine klassische konversationelle Implikatur."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter, die einen indirekten Sprechakt aus einem alltäglichen Gespräch (real oder erfunden) analysieren: was wörtlich gesagt wurde, welche pragmatische Funktion es eigentlich erfüllte, und wie du das aus dem Kontext erkannt hast.",[],["Sprechakt","wörtlich","in Wirklichkeit"],"Unterscheide explizit zwischen der wörtlichen grammatischen Form der Aussage und ihrer tatsächlichen pragmatischen Funktion."]
+    ]
+  },
 ];
