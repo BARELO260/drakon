@@ -1391,4 +1391,154 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano 55-75 parole analizzando un atto linguistico indiretto di una conversazione quotidiana (reale o inventata): cosa è stato detto letteralmente, quale funzione pragmatica svolgeva in realtà, e come l'hai capito dal contesto.",[],["atto linguistico","letteralmente","in realtà"],"Distingui esplicitamente tra la forma grammaticale letterale dell'enunciato e la sua funzione pragmatica reale."]
     ]
   },
+  {
+    id:"it_a1_animals_nature", level:"A1", title:"Gli animali e la natura", emoji:"🐾", xp:36,
+    description:"Impara il vocabolario degli animali comuni e della natura in italiano.",
+    study: {
+      vocab: [
+        ["il cane", "the dog"],
+        ["il gatto", "the cat"],
+        ["l'uccello", "the bird"],
+        ["il cavallo", "the horse"],
+        ["il pesce", "the fish"],
+        ["la mucca", "the cow"],
+        ["il bosco, la montagna, il fiume", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Il genere degli animali", "Molti nomi di animali cambiano forma secondo il genere, ma altri sono invariabili.", "Il gatto è bianco. / La gatta è bianca. / Il pesce è piccolo (invariabile)."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il cavallo” in inglese?",["the bird", "the horse", "the dog", "the cat"],1,"“Cavallo” si dice “horse” in inglese."],
+      ["mcq","Come si dice “l'uccello” in inglese?",["the fish", "the cow", "the bird", "the dog"],2,"“Uccello” si dice “bird” in inglese."],
+      ["fill","Completa: “Mi piace fare una passeggiata nel ___ la domenica.”",["pesce", "bosco", "gatto", "mucca"],1,"“Fare una passeggiata nel bosco” è un'attività tipica nella natura."],
+      ["translate","Traduci: “The dog is very friendly.”",["Il cavallo è molto simpatico.", "L'uccello è molto simpatico.", "Il gatto è molto simpatico.", "Il cane è molto simpatico."],3,"“The dog” = “il cane”; “friendly” = “simpatico”."],
+      ["arrange","Metti in ordine: [nero / ho / gatto / un]",["nero un Ho gatto", "un Ho gatto nero", "un gatto nero Ho", "Ho un gatto nero"],3,"Soggetto implicito + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi in italiano 20-30 parole su un animale che ti piace e un posto nella natura che ti piace visitare.",[],["mi piace", "il bosco", "l'animale"]],
+    ]
+  },
+  {
+    id:"it_a2_body_parts", level:"A2", title:"Il corpo umano: le parti del corpo", emoji:"🦴", xp:46,
+    description:"Impara le parti del corpo e a descrivere dolori o caratteristiche fisiche in italiano.",
+    study: {
+      vocab: [
+        ["la testa", "the head"],
+        ["il braccio", "the arm"],
+        ["la gamba", "the leg"],
+        ["la mano", "the hand"],
+        ["il piede", "the foot"],
+        ["la schiena", "the back"],
+      ],
+      grammar: [
+        ["L'articolo determinativo con le parti del corpo", "Con le parti del corpo si usa l'articolo determinativo, non il possessivo, quando è chiaro di chi si parla.", "Mi fa male la testa. (non “Mi fa male la mia testa”)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la schiena” in inglese?",["the head", "the leg", "the hand", "the back"],3,"“Schiena” si dice “back” in inglese."],
+      ["mcq","Come si dice “il piede” in inglese?",["the arm", "the head", "the foot", "the hand"],2,"“Piede” si dice “foot” in inglese."],
+      ["fill","Completa: “Mi fa molto male la ___ dopo aver corso.”",["gamba", "mano", "schiena", "testa"],2,"Correre causa spesso mal di schiena se non ci si scalda bene."],
+      ["translate","Traduci: “My hand hurts.”",["Mi fa male la gamba.", "Mi fa male il braccio.", "Mi fa male il piede.", "Mi fa male la mano."],3,"“My hand hurts” = “Mi fa male la mano”, con l'articolo determinativo."],
+      ["arrange","Metti in ordine: [gamba / fa / la / mi / male]",["Mi fa male la gamba", "gamba la fa male Mi", "fa Mi male gamba la", "la fa gamba Mi male"],0,"“Mi fa male” + articolo + parte del corpo."],
+      ["speaking","Descrivi in italiano, in 40-60 parole, un dolore che hai avuto: quale parte del corpo ti faceva male e cosa hai fatto.",[],["mi faceva male", "la gamba", "sono andato/a dal medico"]],
+    ]
+  },
+  {
+    id:"it_b1_sports_fitness", level:"B1", title:"Lo sport e l'attività fisica", emoji:"🏃", xp:60,
+    description:"Parla di sport, routine di esercizio e abitudini di attività fisica in italiano.",
+    study: {
+      vocab: [
+        ["il calcio", "soccer/football"],
+        ["il nuoto", "swimming"],
+        ["il tennis", "tennis"],
+        ["correre", "to run"],
+        ["sollevare pesi", "to lift weights"],
+        ["fare yoga", "to do yoga"],
+      ],
+      grammar: [
+        ["“Solitamente” + presente per le abitudini", "“Solitamente” con il presente esprime un'azione abituale.", "Corro solitamente tre volte a settimana."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “sollevare pesi” in inglese?",["to lift weights", "to do yoga", "swimming", "to run"],0,"“Sollevare pesi” si dice “to lift weights”."],
+      ["mcq","Come si dice “il nuoto” in inglese?",["to run", "swimming", "soccer/football", "tennis"],1,"“Nuoto” si dice “swimming”."],
+      ["fill","Completa: “___ solitamente tre volte a settimana per rimanere in forma.”",["Nuoto", "Tennis", "Calcio", "Corro"],3,"“Solitamente” + presente (“corro”) descrive un'abitudine."],
+      ["translate","Traduci: “I usually do yoga on Sundays.”",["Faccio solitamente yoga il sabato.", "Sollevo solitamente pesi la domenica.", "Gioco solitamente a tennis la domenica.", "Faccio solitamente yoga la domenica."],3,"“I usually do yoga” = “Faccio solitamente yoga”; “on Sundays” = “la domenica”."],
+      ["arrange","Metti in ordine: [forma / rimanere / in / per / corro]",["forma in rimanere per Corro", "rimanere Corro in forma per", "Corro per rimanere in forma", "per forma Corro rimanere in"],2,"Soggetto + verbo + “per” + infinito + complemento."],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con lo sport: quale attività pratichi, con che frequenza e perché ti piace (o no).",[],["solitamente", "rimanere in forma", "pratico"]],
+    ]
+  },
+  {
+    id:"it_b2_smart_home_tech", level:"B2", title:"La casa intelligente: domotica e dispositivi", emoji:"💡", xp:82,
+    description:"Parla di dispositivi intelligenti e domotica, con opinioni sfumate in italiano.",
+    study: {
+      vocab: [
+        ["un altoparlante intelligente", "a smart speaker"],
+        ["un termostato programmabile", "a programmable thermostat"],
+        ["una telecamera di sicurezza", "a security camera"],
+        ["controllare con la voce", "to control by voice"],
+        ["automatizzare le faccende domestiche", "to automate household tasks"],
+        ["un rischio per la privacy", "a privacy risk"],
+      ],
+      grammar: [
+        ["Il futuro semplice per le previsioni tecnologiche", "Il futuro semplice descrive previsioni ragionevoli su come si evolverà la tecnologia.", "Tra qualche anno, più case avranno dispositivi connessi."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un rischio per la privacy” in inglese?",["a privacy risk", "a security camera", "a thermostat", "a smart speaker"],0,"“Rischio per la privacy” si dice “privacy risk”."],
+      ["mcq","Come si dice “automatizzare le faccende domestiche” in inglese?",["to automate household tasks", "a privacy risk", "to control by voice", "a smart speaker"],0,"“Automatizzare le faccende domestiche” si dice “to automate household tasks”."],
+      ["fill","Completa: “Un termostato programmabile può ___ energia se è configurato bene.”",["perdere", "rompere", "risparmiare", "sprecare"],2,"Un termostato ben configurato aiuta a risparmiare energia, non a sprecarla."],
+      ["translate","Traduci: “Gli altoparlanti intelligenti si possono controllare con la voce.”",["Thermostats can be controlled by text.", "Security cameras can be controlled by voice.", "Smart speakers can be controlled by voice.", "Smart speakers can be controlled by text."],2,"“Controllare con la voce” = “controlled by voice”."],
+      ["arrange","Metti in ordine: [privacy / può / rischio / rappresentare / un / per la]",["rappresentare la Può per un privacy rischio", "Può rappresentare un rischio per la privacy", "Può la un rappresentare privacy rischio per", "per la rappresentare Può un rischio privacy"],1,"Verbo + “rappresentare” + oggetto: “Può rappresentare un rischio per la privacy.”"],
+      ["writing","Scrivi in italiano 55-75 parole su un dispositivo intelligente che useresti (o usi già) in casa: quale vantaggio ti offre e quale rischio per la privacy potrebbe avere.",[],["automatizzare", "rischio per la privacy", "con la voce"]],
+    ]
+  },
+  {
+    id:"it_c1_workplace_communication", level:"C1", title:"Il mondo del lavoro: riunioni e corrispondenza", emoji:"🤝", xp:90,
+    description:"Padroneggia il vocabolario e le formule tipiche di riunioni ed email professionali in italiano.",
+    study: {
+      vocab: [
+        ["convocare una riunione", "to call a meeting"],
+        ["allegare un documento", "to attach a document"],
+        ["restiamo in attesa di un suo riscontro", "we look forward to your response"],
+        ["riprendere un punto in sospeso", "to follow up on a pending item"],
+        ["raggiungere un accordo", "to reach an agreement"],
+        ["rinviare una riunione", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Formule di cortesia nelle email formali", "Formule fisse come “Restiamo in attesa di un suo riscontro” danno una chiusura professionale senza suonare brusche.", "In allegato trova la relazione richiesta. Restiamo in attesa di un suo riscontro."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “raggiungere un accordo” in inglese?",["to call a meeting", "to postpone a meeting", "to attach a document", "to reach an agreement"],3,"“Raggiungere un accordo” si dice “to reach an agreement”."],
+      ["mcq","Come si dice “rinviare una riunione” in inglese?",["to call a meeting", "to reach an agreement", "to attach a document", "to postpone a meeting"],3,"“Rinviare una riunione” si dice “to postpone a meeting”."],
+      ["fill","Completa: “Prima di chiudere la riunione, vorrei ___ un punto in sospeso della settimana scorsa.”",["allegare", "riprendere", "convocare", "rinviare"],1,"“Riprendere un punto in sospeso” significa tornare a trattarlo."],
+      ["translate","Traduci: “Ho allegato la relazione richiesta.”",["I'm attaching the requested email.", "I'm calling the requested report.", "I'm postponing the requested report.", "I'm attaching the requested report."],3,"“Ho allegato” = “I'm attaching”; “la relazione richiesta” = “the requested report”."],
+      ["arrange","Metti in ordine: [riscontro / attesa / restiamo / suo / di / un / in]",["un di Restiamo riscontro attesa in suo", "di in attesa un riscontro suo Restiamo", "di riscontro Restiamo un in attesa suo", "Restiamo in attesa di un suo riscontro"],3,"Formula fissa di chiusura di un'email professionale."],
+      ["writing","Scrivi in italiano una breve email professionale (55-75 parole) convocando una riunione, menzionando un punto in sospeso e chiudendo con una formula di cortesia formale.",[],["convoco", "punto in sospeso", "restiamo in attesa"]],
+    ]
+  },
+  {
+    id:"it_c2_register_synonyms", level:"C2", title:"Registro e stile: sinonimi secondo il contesto", emoji:"🔤", xp:98,
+    description:"Scegli il sinonimo adeguato secondo il registro (formale, neutro, colloquiale) in italiano.",
+    study: {
+      vocab: [
+        ["ottenere (formale) / prendere (neutro)", "to obtain / to get"],
+        ["decedere (formale) / morire (neutro) / tirare le cuoia (colloquiale)", "to pass away / to die / to kick the bucket"],
+        ["richiedere (formale) / chiedere (neutro)", "to request / to ask for"],
+        ["risiedere (formale) / vivere / abitare (neutro)", "to reside / to live"],
+        ["tuttavia (formale) / ma (neutro)", "however / but"],
+      ],
+      grammar: [
+        ["Scegliere il registro secondo il contesto comunicativo", "La stessa idea può esprimersi con parole molto diverse a seconda del contesto formale, neutro o colloquiale; usare la parola sbagliata rompe la coerenza del testo.", "In un rapporto: “L'informazione è stata ottenuta.” Tra amici: “L'ho presa.”"],
+      ]
+    },
+    ex:[
+      ["mcq","In un rapporto ufficiale, quale parola è più appropriata per “ottenere informazioni”?",["Ottenere", "Beccare", "Rimediare", "Pescare"],0,"“Ottenere” è il registro formale appropriato per un rapporto ufficiale."],
+      ["mcq","In una conversazione informale tra amici, quale verbo suona più naturale per “morire”?",["Tirare le cuoia", "Decedere", "Perire", "Spirare"],0,"“Tirare le cuoia” è colloquiale e si adatterebbe a una conversazione informale; gli altri sono troppo formali o tecnici."],
+      ["fill","Completa: “In una lettera formale si dice “___, proseguiamo con il progetto”, non “ma”.”",["però", "tuttavia", "comunque", "ma"],1,"“Tuttavia” è il connettivo formale equivalente a “ma”."],
+      ["translate","Traduci con il registro formale corretto: “We reside in Madrid.”",["Stiamo a Madrid.", "Siamo di Madrid.", "Risediamo a Madrid.", "Viviamo a Madrid."],2,"“Reside” in un registro formale si traduce come “risiedere”, non il neutro “vivere”."],
+      ["arrange","Metti in ordine (registro formale): [stata / richiesta / è / l'informazione]",["L'informazione è stata richiesta", "è L'informazione richiesta stata", "è richiesta L'informazione stata", "richiesta L'informazione è stata"],0,"Costruzione passiva, tipica del registro formale/amministrativo."],
+      ["writing","Scrivi in italiano lo stesso messaggio breve (“ho bisogno che tu mi invii il file”) in due registri diversi: uno formale (per un capo) e uno colloquiale (per un amico), in 55-75 parole in totale.",[],["formale", "colloquiale", "richiedo"]],
+    ]
+  },
 ];
