@@ -1122,4 +1122,148 @@ window.LESSON_BANKS.EN = [
       ["writing","Elige un cuento, novela o relato que conozcas (o inventa uno breve) y escribe en inglés 55-75 palabras analizando su voz narrativa: punto de vista, fiabilidad del narrador y un efecto que esto produce en el lector.",[],["narrative voice","point of view","effect"],"Conecta explícitamente una decisión formal del autor con un efecto concreto en la lectura, no solo describas la trama."]
     ]
   },
+  {
+    id:"a1_professions_jobs", level:"A1", title:"Las profesiones: ¿a qué te dedicas?", emoji:"👩‍⚕️", xp:36,
+    description:"Aprende el vocabulario básico de las profesiones y a hablar de tu trabajo en inglés.",
+    study: {
+      vocab: [
+        ["doctor, teacher, engineer, waiter/waitress", "médico/a, profesor/a, ingeniero/a, camarero/a"],
+        ["What do you do for a living?", "¿A qué te dedicas?"],
+        ["I'm a student / I work in an office.", "Soy estudiante / Trabajo en una oficina."],
+        ["Where do you work?", "¿Dónde trabajas?"],
+        ["to work as + profession", "trabajar de/como + profesión"]
+      ],
+      grammar: [
+        ["\"To be\" con profesiones (con artículo)", "En inglés, \"to be\" + profesión SÍ lleva artículo indefinido \"a/an\", a diferencia del español.", "I am a teacher. (no \"I am teacher\")"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas la profesión de alguien en inglés?",["What do you do for a living?","What's your name?","Where do you live?","How old are you?"],0,"\"What do you do for a living?\" pregunta específicamente por la profesión u ocupación."],
+      ["mcq","¿Cuál es la forma correcta de decir tu profesión en inglés?",["I am a teacher.","I am teacher.","I have teacher.","I do teacher."],0,"En inglés, \"to be\" + profesión lleva artículo: \"I am a teacher.\""],
+      ["fill","Completa: \"My sister ___ a doctor at a hospital.\"",["is","has","does","are"],0,"\"Is\" concuerda con \"my sister\": \"My sister is a doctor.\""],
+      ["translate","Traduce: \"Trabajo en una oficina.\"",["I work in an office.","I work an office.","I am work in an office.","I work of an office."],0,"\"Trabajo en una oficina\" = \"I work in an office.\""],
+      ["arrange","Ordena: [waiter / work / restaurant / a / as / a / I / in]",["I work as a waiter in a restaurant","As a waiter I work in a restaurant","I work in a restaurant as a waiter","In a restaurant I work as a waiter"],0,"\"I work as\" + profesión + \"in\" + lugar: \"I work as a waiter in a restaurant.\""],
+      ["writing","Escribe en inglés 20-30 palabras sobre tu profesión (real o imaginada) y dónde trabajas. Menciona al menos dos tareas que haces en tu trabajo.",[],["I am a","I work","I work as"],"Usa \"to be a\" para la profesión y \"work in/as\" para el lugar o rol."]
+    ]
+  },
+  {
+    id:"a2_describing_people", level:"A2", title:"Describir personas: apariencia y personalidad", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Aprende a describir el aspecto físico y la personalidad de otras personas en inglés.",
+    study: {
+      vocab: [
+        ["tall, short, slim", "alto/a, bajo/a, delgado/a"],
+        ["has long/short hair, wears glasses", "tiene el pelo largo/corto, lleva gafas"],
+        ["is nice, shy, funny", "es simpático/a, tímido/a, divertido/a"],
+        ["looks like his/her mother/father", "se parece a su madre/padre"],
+        ["What is your best friend like?", "¿Cómo es tu mejor amigo/a?"]
+      ],
+      grammar: [
+        ["\"To be\" para características, \"to have\" y \"to wear\" para rasgos físicos", "\"To be\" describe personalidad y rasgos estables; \"to have\" y \"to wear\" describen partes del cuerpo o accesorios.", "She is very nice, has long hair, and wears glasses."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas cómo es la personalidad de alguien en inglés?",["What is your best friend like?","How are you?","What time is it?","Where are you from?"],0,"\"What is... like?\" pregunta por las características o la personalidad de alguien."],
+      ["mcq","¿Cuál de estas frases describe correctamente el aspecto físico de alguien?",["He has short hair and wears glasses.","He is short hair and wears glasses.","He has nice and tall.","He is has glasses."],0,"\"Have\" se usa para partes del cuerpo (\"has short hair\") y \"wear\" para accesorios (\"wears glasses\")."],
+      ["fill","Completa: \"My brother ___ very funny and always makes jokes.\"",["is","has","wears","does"],0,"\"Is\" describe un rasgo de personalidad estable: \"is very funny\"."],
+      ["translate","Traduce: \"Tiene el pelo largo y lleva gafas.\"",["She has long hair and wears glasses.","She is long hair and wears glasses.","She has long hair and is glasses.","She wears long hair and has glasses on."],0,"\"Tiene el pelo largo\" = \"has long hair\"; \"lleva gafas\" = \"wears glasses\"."],
+      ["arrange","Ordena: [mother / looks / like / her / she]",["She looks like her mother","Like her mother she looks","Looks she like her mother","She her mother looks like"],0,"\"Looks like\" + persona: \"She looks like her mother.\""],
+      ["speaking","Describe en inglés, en 40-60 palabras, a una persona que conoces bien: su aspecto físico y tres rasgos de su personalidad.",[],["has","is","wears"],"Incluye al menos dos rasgos físicos y dos de personalidad."]
+    ]
+  },
+  {
+    id:"b1_education_learning", level:"B1", title:"La educación: sistemas escolares y hábitos de estudio", emoji:"🎒", xp:60,
+    description:"Habla sobre sistemas educativos, métodos de estudio y experiencias escolares en inglés.",
+    study: {
+      vocab: [
+        ["compulsory / higher education", "la educación obligatoria / superior"],
+        ["to pass/fail an exam", "aprobar/suspender un examen"],
+        ["to memorize versus to understand", "memorizar frente a comprender"],
+        ["a curriculum, a school subject", "un plan de estudios, una asignatura"],
+        ["to learn at your own pace", "aprender a tu propio ritmo"]
+      ],
+      grammar: [
+        ["Comparativos para comparar sistemas", "\"More... than\", \"less... than\" y \"as... as\" sirven para comparar métodos o sistemas educativos.", "This system is more practical than the traditional one, although it's not as structured as that one."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases compara correctamente dos sistemas educativos?",["This system is more practical than the traditional one.","This system is practical more than traditional.","This system is as practical the traditional.","This system more practical is than traditional."],0,"\"More... than\" es la estructura comparativa correcta en inglés."],
+      ["mcq","¿Qué diferencia hay entre memorizar y comprender?",["Memorizing is repeating information; understanding means grasping its meaning and applying it.","They are exactly the same, with no difference.","Memorizing is always better than understanding.","Understanding is faster than memorizing."],0,"Memorizar es retener datos; comprender implica un procesamiento más profundo del significado."],
+      ["fill","Completa: \"I studied a lot, but I still ___ the exam.\"",["failed","passed","memorized","understood"],0,"El contexto (\"but I still\") sugiere un resultado negativo: \"failed the exam\"."],
+      ["translate","Traduce: \"Prefiero aprender a mi propio ritmo.\"",["I prefer to learn at my own pace.","I prefer learn my own pace.","I prefer to learning my own pace.","I prefer my own pace to learn at."],0,"\"Aprender a mi propio ritmo\" = \"to learn at my own pace\"."],
+      ["arrange","Ordena: [favorite / subject / is / mathematics / my]",["My favorite subject is mathematics","Is my favorite subject mathematics","Mathematics is my favorite subject","My subject favorite is mathematics"],0,"Sujeto + \"is\" + complemento: \"My favorite subject is mathematics.\""],
+      ["writing","Escribe en inglés 45-65 palabras comparando dos formas de estudiar o dos sistemas educativos que conozcas (por ejemplo, clases presenciales frente a online), y di cuál prefieres y por qué.",[],["more...than","understand","at my own pace"],"Usa al menos una estructura comparativa explícita."]
+    ]
+  },
+  {
+    id:"b2_sustainable_cities", level:"B2", title:"Ciudades sostenibles: urbanismo y movilidad", emoji:"🚲", xp:82,
+    description:"Discute propuestas de urbanismo y movilidad sostenible en las ciudades, con argumentos matizados en inglés.",
+    study: {
+      vocab: [
+        ["public transport, the bike lane", "el transporte público, el carril bici"],
+        ["to pedestrianize the city center", "peatonalizar el centro de la ciudad"],
+        ["to reduce traffic and pollution", "reducir el tráfico y la contaminación"],
+        ["a green space, a pedestrian zone", "un espacio verde, una zona peatonal"],
+        ["to invest in sustainable infrastructure", "invertir en infraestructura sostenible"]
+      ],
+      grammar: [
+        ["El subjuntivo con \"it's important that\"", "Aunque el inglés usa poco el subjuntivo, expresiones como \"it's crucial that\" pueden ir seguidas de la forma base del verbo en registro formal.", "It's crucial that cities invest in reliable public transport."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases presenta un argumento formal y bien estructurado?",["It's crucial that cities invest in reliable public transport.","Cities invest important that public transport.","It important cities invest public transport.","Crucial is that cities public transport invest."],0,"\"It's crucial that\" seguido del verbo es la estructura formal correcta."],
+      ["mcq","¿Qué significa \"to pedestrianize the city center\"?",["To restrict or remove vehicle traffic to prioritize people walking.","To build more roads in the center.","To increase the number of cars allowed in the center.","To remove all shops from the center."],0,"\"Pedestrianize\" significa convertir un espacio para uso prioritario de peatones, limitando vehículos."],
+      ["fill","Completa: \"The bike lane might ___ traffic in that area.\"",["reduce","reduces","reducing","reduced"],0,"Después de \"might\" se usa el infinitivo sin \"to\": \"might reduce\"."],
+      ["translate","Traduce: \"Invertir en transporte público reduce la contaminación a largo plazo.\"",["Investing in public transport reduces pollution in the long term.","Investing in public transport reduce pollution in the long term.","Invest in public transport reduces pollution long term.","Reduces investing in public transport pollution long term."],0,"\"Invertir en transporte público reduce la contaminación\" = \"Investing in public transport reduces pollution.\""],
+      ["mcq","¿Cuál de estas frases presenta una postura matizada sobre la movilidad urbana?",["It depends on the context: in some cities cars are still necessary, in others they aren't.","Cars should be banned everywhere without exception.","Public transport never works well in any city.","There's no possible solution for urban traffic."],0,"Una postura matizada reconoce que la solución depende del contexto específico de cada ciudad."],
+      ["writing","Escribe en inglés 55-75 palabras proponiendo una mejora de movilidad sostenible para una ciudad que conozcas, explicando un beneficio y una posible dificultad de implementarla.",[],["it's crucial that","pedestrian","public transport"],"Usa al menos una estructura formal de recomendación."]
+    ]
+  },
+  {
+    id:"c1_science_communication", level:"C1", title:"Divulgación científica: comunicar con precisión", emoji:"🔬", xp:90,
+    description:"Aprende a comunicar información científica compleja de forma clara y precisa en inglés, sin perder rigor.",
+    study: {
+      vocab: [
+        ["to simplify without distorting", "simplificar sin distorsionar"],
+        ["a preliminary finding versus a confirmed one", "un hallazgo preliminar frente a uno confirmado"],
+        ["scientific evidence suggests that...", "la evidencia científica sugiere que..."],
+        ["a useful analogy to explain something complex", "una analogía útil para explicar algo complejo"],
+        ["to avoid scientific sensationalism", "evitar el sensacionalismo científico"]
+      ],
+      grammar: [
+        ["Verbos de matiz para comunicar incertidumbre científica", "\"Suggests\", \"indicates\", \"could explain\" transmiten distintos grados de certeza científica, más precisos que \"proves\" o \"demonstrates\".", "The study suggests a possible link, but it doesn't prove causation."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases comunica un hallazgo científico con el matiz correcto?",["The study suggests a possible link, but doesn't prove causation.","The study definitively proves this causes that.","Scientists already know everything about this topic.","This finding is one hundred percent certain, no doubt at all."],0,"\"Suggests\" y \"doesn't prove causation\" reflejan con precisión el nivel real de certeza de un hallazgo preliminar."],
+      ["mcq","¿Por qué es importante \"simplificar sin distorsionar\" en la divulgación científica?",["Because oversimplifying can change the real meaning of the finding.","Because science should never be explained to non-experts.","Because technical details don't matter at all.","Because any simplification is automatically incorrect."],0,"Simplificar es necesario para llegar a más público, pero distorsionar el significado original es un error grave de divulgación."],
+      ["fill","Completa: \"This is a ___ finding: more studies are needed to confirm it.\"",["preliminary","confirmed","definitive","absolute"],0,"\"Preliminary\" indica que el hallazgo aún no está confirmado de forma concluyente."],
+      ["translate","Traduce: \"La evidencia científica sugiere que este tratamiento podría ser eficaz.\"",["Scientific evidence suggests that this treatment could be effective.","Scientific evidence suggests this treatment could effective.","Suggests scientific evidence that treatment could be effective.","Scientific evidence suggests that this treatment be effective could."],0,"\"La evidencia científica sugiere que\" = \"Scientific evidence suggests that\", seguido de \"could be\" para expresar posibilidad."],
+      ["mcq","Un titular dice \"Science confirms it: this fruit cures cancer!\" basándose en un solo estudio preliminar en ratones. ¿Qué problema tiene este titular?",["It exaggerates a limited, preliminary finding as if it were an absolute certainty applicable to humans.","It's a perfect example of rigorous science communication.","It contains no sensationalism whatsoever.","It accurately reflects the level of evidence available."],0,"El titular convierte un hallazgo preliminar en ratones en una afirmación absoluta sobre humanos, un caso claro de sensacionalismo."],
+      ["writing","Elige un descubrimiento científico (real o inventado) y escribe en inglés 55-75 palabras explicándolo de forma clara y accesible, usando una analogía y manteniendo el matiz correcto de certeza (evita palabras como \"proves\" si el hallazgo es preliminar).",[],["suggests","preliminary","is like"],"Incluye al menos una analogía y un verbo de matiz que refleje correctamente el nivel de certeza."]
+    ]
+  },
+  {
+    id:"c2_speech_acts_pragmatics", level:"C2", title:"Pragmática: lo que hacemos al decir algo", emoji:"💭", xp:98,
+    description:"Analiza los actos de habla y la pragmática en inglés: la diferencia entre lo que se dice y lo que se hace al decirlo.",
+    study: {
+      vocab: [
+        ["a speech act (request, promise, order)", "un acto de habla (petición, promesa, orden)"],
+        ["literal meaning versus intended meaning", "el significado literal frente al significado pretendido"],
+        ["an indirect speech act", "un acto de habla indirecto"],
+        ["the felicity conditions of a speech act", "las condiciones de felicidad de un acto de habla"],
+        ["to imply something without saying it explicitly", "implicar algo sin decirlo explícitamente"]
+      ],
+      grammar: [
+        ["Actos de habla directos frente a indirectos", "Un acto de habla indirecto usa una forma gramatical (como una pregunta) para realizar otra función (como una petición).", "\"Could you close the window?\" has the form of a question, but its real function is a request, not asking for information."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Could you pass the salt?\" en una cena. ¿Qué acto de habla es esto, en realidad?",["An indirect request, even though it has the form of a question.","A genuine question about the other person's ability.","A direct, explicit order.","A promise about the future."],0,"Aunque tiene forma gramatical de pregunta sobre capacidad, su función real es pedir que alguien pase la sal: es una petición indirecta."],
+      ["mcq","Un jefe dice a un empleado: \"It's a bit cold in here, isn't it?\" cerca de una ventana abierta. ¿Qué probablemente está haciendo con este enunciado?",["Indirectly asking someone to close the window.","Simply commenting on the weather with no other intention.","Asking about the exact temperature of the room.","Explicitly ordering the heating to be turned off."],0,"El comentario funciona como una petición indirecta para que alguien cierre la ventana, sin decirlo explícitamente."],
+      ["fill","Completa: \"Saying 'I promise' out loud isn't enough; certain ___ must also be met for the promise to be valid.\"",["felicity conditions","grammar rules","spelling rules","rhetorical questions"],0,"Las \"felicity conditions\" son los requisitos contextuales (sinceridad, capacidad, etc.) para que un acto de habla funcione correctamente."],
+      ["translate","Traduce con precisión técnica: \"Este es un acto de habla indirecto: su forma literal no coincide con su función pretendida.\"",["This is an indirect speech act: its literal form doesn't match its intended function.","This is indirect speech act literal form doesn't match function.","It's a speech act this indirect that doesn't match literal function.","This speech act is indirect its form doesn't function match."],0,"\"Acto de habla indirecto\" = \"indirect speech act\"; \"forma literal\" = \"literal form\"; \"función pretendida\" = \"intended function\"."],
+      ["mcq","¿Cuál de estos enunciados implica algo sin decirlo explícitamente?",["\"Some students passed the exam.\" (implies not all did)","\"All students passed the exam.\"","\"The exam was on Monday at nine.\"","\"There are thirty students in the class.\""],0,"\"Some\" implica pragmáticamente \"not all\", aunque no lo afirme literalmente; es una implicatura conversacional clásica."],
+      ["writing","Escribe en inglés 55-75 palabras analizando un acto de habla indirecto de una conversación cotidiana (real o inventada): qué se dijo literalmente, qué función pragmática cumplía en realidad, y cómo lo supiste por el contexto.",[],["speech act","literally","in reality"],"Distingue explícitamente entre la forma gramatical literal del enunciado y su función pragmática real."]
+    ]
+  },
 ];
