@@ -1250,4 +1250,148 @@ window.LESSON_BANKS.ES = [
       ["writing","Elige un cuento, novela o relato que conozcas (o inventa uno breve) y escribe 55-75 palabras analizando su voz narrativa: punto de vista, fiabilidad del narrador y un efecto que esto produce en el lector.",[],["voz narrativa","punto de vista","efecto"],"Conecta explícitamente una decisión formal del autor con un efecto concreto en la lectura, no solo describas la trama."]
     ]
   },
+  {
+    id:"es_a1_professions_jobs", level:"A1", title:"Las profesiones: ¿a qué te dedicas?", emoji:"👩‍⚕️", xp:36,
+    description:"Aprende el vocabulario básico de las profesiones y a hablar de tu trabajo en español.",
+    study: {
+      vocab: [
+        ["médico/a, profesor/a, ingeniero/a, camarero/a", "doctor, teacher, engineer, waiter/waitress"],
+        ["¿A qué te dedicas?", "What do you do for a living?"],
+        ["Soy estudiante / Trabajo en una oficina.", "I'm a student / I work in an office."],
+        ["¿Dónde trabajas?", "Where do you work?"],
+        ["trabajar de/como + profesión", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Ser\" con profesiones (sin artículo)", "Con profesiones, \"ser\" no lleva artículo indefinido, a diferencia del inglés.", "Soy profesor. (no \"Soy un profesor\")"]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas la profesión de alguien?",["¿A qué te dedicas?","¿Cómo te llamas?","¿Dónde vives?","¿Cuántos años tienes?"],0,"\"¿A qué te dedicas?\" pregunta específicamente por la profesión u ocupación."],
+      ["mcq","¿Cuál es la forma correcta de decir tu profesión en español?",["Soy profesor.","Soy un profesor.","Tengo profesor.","Estoy profesor."],0,"En español, \"ser\" + profesión no lleva artículo: \"Soy profesor.\""],
+      ["fill","Completa: \"Mi hermana ___ médica en un hospital.\"",["es","está","tiene","hace"],0,"\"Ser\" se usa para profesiones: \"Mi hermana es médica.\""],
+      ["translate","Traduce: \"I work in an office.\"",["Trabajo en una oficina.","Trabajo una oficina.","Estoy trabajo en una oficina.","Trabajo de una oficina."],0,"\"I work in an office\" = \"Trabajo en una oficina.\""],
+      ["arrange","Ordena: [camarero / trabajo / restaurante / de / en / un]",["Trabajo de camarero en un restaurante","De camarero trabajo en un restaurante","Trabajo en un restaurante de camarero","En un restaurante trabajo de camarero"],0,"\"Trabajo de\" + profesión + \"en\" + lugar: \"Trabajo de camarero en un restaurante.\""],
+      ["writing","Escribe 20-30 palabras sobre tu profesión (real o imaginada) y dónde trabajas. Menciona al menos dos tareas que haces en tu trabajo.",[],["soy","trabajo","me dedico a"],"Usa \"ser\" para la profesión y \"trabajar en/de\" para el lugar o rol."]
+    ]
+  },
+  {
+    id:"es_a2_describing_people", level:"A2", title:"Describir personas: apariencia y personalidad", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Aprende a describir el aspecto físico y la personalidad de otras personas en español.",
+    study: {
+      vocab: [
+        ["alto/a, bajo/a, delgado/a", "tall, short, slim"],
+        ["tiene el pelo largo/corto, lleva gafas", "has long/short hair, wears glasses"],
+        ["es simpático/a, tímido/a, divertido/a", "is nice, shy, funny"],
+        ["se parece a su madre/padre", "looks like his/her mother/father"],
+        ["¿Cómo es tu mejor amigo/a?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Ser\" para características permanentes, \"tener\" y \"llevar\" para rasgos físicos", "\"Ser\" describe personalidad y rasgos estables; \"tener\" y \"llevar\" describen partes del cuerpo o accesorios.", "Es muy simpática, tiene el pelo largo y lleva gafas."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo preguntas cómo es la personalidad de alguien?",["¿Cómo es tu mejor amigo/a?","¿Cómo estás?","¿Qué hora es?","¿De dónde eres?"],0,"\"¿Cómo es...?\" pregunta por las características o la personalidad de alguien."],
+      ["mcq","¿Cuál de estas frases describe correctamente el aspecto físico de alguien?",["Tiene el pelo corto y lleva gafas.","Es el pelo corto y lleva gafas.","Tiene simpático y alto.","Es tiene gafas."],0,"\"Tener\" se usa para partes del cuerpo (\"tiene el pelo corto\") y \"llevar\" para accesorios (\"lleva gafas\")."],
+      ["fill","Completa: \"Mi hermano ___ muy divertido y siempre hace bromas.\"",["es","tiene","lleva","está"],0,"\"Ser\" describe un rasgo de personalidad estable: \"es muy divertido\"."],
+      ["translate","Traduce: \"She has long hair and wears glasses.\"",["Tiene el pelo largo y lleva gafas.","Es el pelo largo y lleva gafas.","Tiene pelo largo y es gafas.","Lleva el pelo largo y tiene gafas puestas."],0,"\"Has long hair\" = \"tiene el pelo largo\"; \"wears glasses\" = \"lleva gafas\"."],
+      ["arrange","Ordena: [madre / se / a / su / parece]",["Se parece a su madre","A su madre se parece","Parece se a su madre","Se a su madre parece"],0,"\"Se parece a\" + persona: \"Se parece a su madre.\""],
+      ["speaking","Describe en 40-60 palabras a una persona que conoces bien: su aspecto físico y tres rasgos de su personalidad.",[],["tiene","es","lleva"],"Incluye al menos dos rasgos físicos y dos de personalidad."]
+    ]
+  },
+  {
+    id:"es_b1_education_learning", level:"B1", title:"La educación: sistemas escolares y hábitos de estudio", emoji:"🎒", xp:60,
+    description:"Habla sobre sistemas educativos, métodos de estudio y experiencias escolares en español.",
+    study: {
+      vocab: [
+        ["la educación obligatoria / superior", "compulsory / higher education"],
+        ["aprobar/suspender un examen", "to pass/fail an exam"],
+        ["memorizar frente a comprender", "to memorize versus to understand"],
+        ["un plan de estudios, una asignatura", "a curriculum, a school subject"],
+        ["aprender a tu propio ritmo", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["Comparativos para comparar sistemas", "\"Más... que\", \"menos... que\" y \"tan... como\" sirven para comparar métodos o sistemas educativos.", "Este sistema es más práctico que el tradicional, aunque no es tan estructurado como aquel."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases compara correctamente dos sistemas educativos?",["Este sistema es más práctico que el tradicional.","Este sistema es práctico más el tradicional.","Este sistema es tan práctico el tradicional.","Este sistema más práctico es que tradicional."],0,"\"Más... que\" es la estructura comparativa correcta en español."],
+      ["mcq","¿Qué diferencia hay entre memorizar y comprender?",["Memorizar es repetir información; comprender implica entender su significado y aplicarlo.","Son exactamente lo mismo, sin ninguna diferencia.","Memorizar siempre es mejor que comprender.","Comprender es más rápido que memorizar."],0,"Memorizar es retener datos; comprender implica un procesamiento más profundo del significado."],
+      ["fill","Completa: \"Estudié mucho, pero aun así ___ el examen.\"",["suspendí","aprobé","memoricé","comprendí"],0,"El contexto (\"pero aun así\") sugiere un resultado negativo: \"suspendí el examen\"."],
+      ["translate","Traduce: \"I prefer to learn at my own pace.\"",["Prefiero aprender a mi propio ritmo.","Prefiero aprender mi propio ritmo.","Prefiero a aprender mi propio ritmo.","Prefiero mi propio ritmo aprender a."],0,"\"To learn at your own pace\" = \"aprender a tu/mi propio ritmo\"."],
+      ["arrange","Ordena: [asignatura / favorita / es / matemáticas / mi]",["Mi asignatura favorita es matemáticas","Es mi asignatura favorita matemáticas","Matemáticas es mi asignatura favorita","Mi favorita asignatura es matemáticas"],0,"Sujeto + \"es\" + complemento: \"Mi asignatura favorita es matemáticas.\""],
+      ["writing","Escribe 45-65 palabras comparando dos formas de estudiar o dos sistemas educativos que conozcas (por ejemplo, clases presenciales frente a online), y di cuál prefieres y por qué.",[],["más...que","comprender","a mi propio ritmo"],"Usa al menos una estructura comparativa explícita."]
+    ]
+  },
+  {
+    id:"es_b2_sustainable_cities", level:"B2", title:"Ciudades sostenibles: urbanismo y movilidad", emoji:"🚲", xp:82,
+    description:"Discute propuestas de urbanismo y movilidad sostenible en las ciudades, con argumentos matizados.",
+    study: {
+      vocab: [
+        ["el transporte público, el carril bici", "public transport, the bike lane"],
+        ["peatonalizar el centro de la ciudad", "to pedestrianize the city center"],
+        ["reducir el tráfico y la contaminación", "to reduce traffic and pollution"],
+        ["un espacio verde, una zona peatonal", "a green space, a pedestrian zone"],
+        ["invertir en infraestructura sostenible", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["El subjuntivo con expresiones de duda u opinión", "\"No creo que\" y \"es posible que\" exigen subjuntivo al expresar duda u opinión sobre propuestas urbanas.", "No creo que peatonalizar todo el centro sea la única solución posible."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases usa correctamente el subjuntivo para expresar duda?",["No creo que esta medida sea suficiente por sí sola.","No creo que esta medida es suficiente por sí sola.","No creo esta medida sea suficiente.","No creo que esta medida ser suficiente."],0,"\"No creo que\" exige subjuntivo: \"que...sea\"."],
+      ["mcq","¿Qué significa \"peatonalizar el centro de la ciudad\"?",["Restringir o eliminar el tráfico de vehículos para priorizar a las personas que caminan.","Construir más carreteras en el centro.","Aumentar el número de coches permitidos en el centro.","Eliminar todas las tiendas del centro."],0,"\"Peatonalizar\" significa convertir un espacio para uso prioritario de peatones, limitando vehículos."],
+      ["fill","Completa: \"Es posible que el carril bici ___ el tráfico en esa zona.\"",["reduzca","reduce","reducirá","redujo"],0,"\"Es posible que\" exige subjuntivo: \"que reduzca\"."],
+      ["translate","Traduce: \"Investing in public transport reduces pollution in the long term.\"",["Invertir en transporte público reduce la contaminación a largo plazo.","Invertir en transporte público reducir la contaminación a largo plazo.","Invertir transporte público en reduce la contaminación largo plazo.","Reduce invertir en transporte público la contaminación a largo plazo."],0,"\"Investing in public transport reduces pollution\" = \"Invertir en transporte público reduce la contaminación.\""],
+      ["mcq","¿Cuál de estas frases presenta una postura matizada sobre la movilidad urbana?",["Depende del contexto: en algunas ciudades el coche sigue siendo necesario, en otras no.","El coche debería prohibirse en todas partes sin excepción.","El transporte público nunca funciona bien en ninguna ciudad.","No hay ninguna solución posible para el tráfico urbano."],0,"Una postura matizada reconoce que la solución depende del contexto específico de cada ciudad."],
+      ["writing","Escribe 55-75 palabras proponiendo una mejora de movilidad sostenible para una ciudad que conozcas, explicando un beneficio y una posible dificultad de implementarla.",[],["es posible que","peatonal","transporte público"],"Usa al menos una estructura con subjuntivo de duda u opinión."]
+    ]
+  },
+  {
+    id:"es_c1_science_communication", level:"C1", title:"Divulgación científica: comunicar con precisión", emoji:"🔬", xp:90,
+    description:"Aprende a comunicar información científica compleja de forma clara y precisa, sin perder rigor.",
+    study: {
+      vocab: [
+        ["simplificar sin distorsionar", "to simplify without distorting"],
+        ["un hallazgo preliminar frente a uno confirmado", "a preliminary finding versus a confirmed one"],
+        ["la evidencia científica sugiere que...", "scientific evidence suggests that..."],
+        ["una analogía útil para explicar algo complejo", "a useful analogy to explain something complex"],
+        ["evitar el sensacionalismo científico", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Verbos de matiz para comunicar incertidumbre científica", "\"Sugiere\", \"indica\", \"podría explicar\" transmiten distintos grados de certeza científica, más precisos que \"prueba\" o \"demuestra\".", "El estudio sugiere una posible relación, pero no demuestra causalidad."]
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál de estas frases comunica un hallazgo científico con el matiz correcto?",["El estudio sugiere una posible relación, pero no demuestra causalidad.","El estudio prueba de forma definitiva que esto causa aquello.","Los científicos ya lo saben todo sobre este tema.","Este hallazgo es cien por cien seguro, sin ninguna duda."],0,"\"Sugiere\" y \"no demuestra causalidad\" reflejan con precisión el nivel real de certeza de un hallazgo preliminar."],
+      ["mcq","¿Por qué es importante \"simplificar sin distorsionar\" en la divulgación científica?",["Porque simplificar demasiado puede cambiar el significado real del hallazgo.","Porque la ciencia nunca debería explicarse a personas no expertas.","Porque los detalles técnicos no importan en absoluto.","Porque toda simplificación es automáticamente incorrecta."],0,"Simplificar es necesario para llegar a más público, pero distorsionar el significado original es un error grave de divulgación."],
+      ["fill","Completa: \"Este es un hallazgo ___: hacen falta más estudios para confirmarlo.\"",["preliminar","confirmado","definitivo","absoluto"],0,"\"Preliminar\" indica que el hallazgo aún no está confirmado de forma concluyente."],
+      ["translate","Traduce: \"Scientific evidence suggests that this treatment could be effective.\"",["La evidencia científica sugiere que este tratamiento podría ser eficaz.","La evidencia científica sugiere este tratamiento podría eficaz.","Sugiere la evidencia científica que tratamiento podría ser eficaz.","La evidencia científica sugiere que este tratamiento ser eficaz podría."],0,"\"Scientific evidence suggests that\" = \"La evidencia científica sugiere que\", seguido de \"podría ser\" para expresar posibilidad."],
+      ["mcq","Un titular dice \"¡La ciencia lo confirma: esta fruta cura el cáncer!\" basándose en un solo estudio preliminar en ratones. ¿Qué problema tiene este titular?",["Exagera un hallazgo preliminar y limitado como si fuera una certeza absoluta y aplicable a humanos.","Es un ejemplo perfecto de divulgación científica rigurosa.","No contiene ningún tipo de sensacionalismo.","Refleja con precisión el nivel de evidencia disponible."],0,"El titular convierte un hallazgo preliminar en ratones en una afirmación absoluta sobre humanos, un caso claro de sensacionalismo."],
+      ["writing","Elige un descubrimiento científico (real o inventado) y escribe 55-75 palabras explicándolo de forma clara y accesible, usando una analogía y manteniendo el matiz correcto de certeza (evita palabras como \"prueba\" si el hallazgo es preliminar).",[],["sugiere","preliminar","es como"],"Incluye al menos una analogía y un verbo de matiz que refleje correctamente el nivel de certeza."]
+    ]
+  },
+  {
+    id:"es_c2_speech_acts_pragmatics", level:"C2", title:"Pragmática: lo que hacemos al decir algo", emoji:"💭", xp:98,
+    description:"Analiza los actos de habla y la pragmática: la diferencia entre lo que se dice y lo que se hace al decirlo.",
+    study: {
+      vocab: [
+        ["un acto de habla (petición, promesa, orden)", "a speech act (request, promise, order)"],
+        ["el significado literal frente al significado pretendido", "literal meaning versus intended meaning"],
+        ["un acto de habla indirecto", "an indirect speech act"],
+        ["las condiciones de felicidad de un acto de habla", "the felicity conditions of a speech act"],
+        ["implicar algo sin decirlo explícitamente", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Actos de habla directos frente a indirectos", "Un acto de habla indirecto usa una forma gramatical (como una pregunta) para realizar otra función (como una petición).", "\"¿Podrías cerrar la ventana?\" tiene forma de pregunta, pero su función real es una petición, no pedir información."]
+      ]
+    },
+    ex:[
+      ["mcq","\"¿Podrías pasarme la sal?\" en una cena. ¿Qué acto de habla es esto, en realidad?",["Una petición indirecta, aunque tenga forma de pregunta.","Una pregunta genuina sobre la capacidad de la otra persona.","Una orden directa y explícita.","Una promesa sobre el futuro."],0,"Aunque tiene forma gramatical de pregunta sobre capacidad, su función real es pedir que alguien pase la sal: es una petición indirecta."],
+      ["mcq","Un jefe dice a un empleado: \"Hace un poco de frío aquí, ¿no?\" cerca de una ventana abierta. ¿Qué probablemente está haciendo con este enunciado?",["Pidiendo indirectamente que alguien cierre la ventana.","Simplemente comentando el clima sin ninguna otra intención.","Preguntando sobre la temperatura exacta de la habitación.","Ordenando explícitamente que se apague la calefacción."],0,"El comentario funciona como una petición indirecta para que alguien cierre la ventana, sin decirlo explícitamente."],
+      ["fill","Completa: \"Decir 'prometo' en voz alta no basta; también deben cumplirse ciertas ___ para que la promesa sea válida.\"",["condiciones de felicidad","reglas gramaticales","normas ortográficas","preguntas retóricas"],0,"Las \"condiciones de felicidad\" son los requisitos contextuales (sinceridad, capacidad, etc.) para que un acto de habla funcione correctamente."],
+      ["translate","Traduce con precisión técnica: \"This is an indirect speech act: its literal form doesn't match its intended function.\"",["Este es un acto de habla indirecto: su forma literal no coincide con su función pretendida.","Este es acto de habla indirecto forma literal no coincide función.","Es un acto de habla este indirecto que no coincide con función literal.","Este acto de habla es indirecto su forma no función coincide."],0,"\"Indirect speech act\" = \"acto de habla indirecto\"; \"literal form\" = \"forma literal\"; \"intended function\" = \"función pretendida\"."],
+      ["mcq","¿Cuál de estos enunciados implica algo sin decirlo explícitamente?",["\"Algunos estudiantes aprobaron el examen.\" (implica que no todos aprobaron)","\"Todos los estudiantes aprobaron el examen.\"","\"El examen fue el lunes a las nueve.\"","\"Hay treinta estudiantes en la clase.\""],0,"\"Algunos\" implica pragmáticamente \"no todos\", aunque no lo afirme literalmente; es una implicatura conversacional clásica."],
+      ["writing","Escribe 55-75 palabras analizando un acto de habla indirecto de una conversación cotidiana (real o inventada): qué se dijo literalmente, qué función pragmática cumplía en realidad, y cómo lo supiste por el contexto.",[],["acto de habla","literalmente","en realidad"],"Distingue explícitamente entre la forma gramatical literal del enunciado y su función pragmática real."]
+    ]
+  },
 ];
