@@ -1391,4 +1391,154 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris en français 55-75 mots analysant un acte de langage indirect d'une conversation quotidienne (réelle ou inventée) : ce qui a été dit littéralement, quelle fonction pragmatique il remplissait en réalité, et comment tu l'as compris grâce au contexte.",[],["acte de langage","littéralement","en réalité"],"Distingue explicitement entre la forme grammaticale littérale de l'énoncé et sa fonction pragmatique réelle."]
     ]
   },
+  {
+    id:"fr_a1_animals_nature", level:"A1", title:"Les animaux et la nature", emoji:"🐾", xp:36,
+    description:"Apprends le vocabulaire des animaux courants et de la nature en français.",
+    study: {
+      vocab: [
+        ["le chien", "the dog"],
+        ["le chat", "the cat"],
+        ["l'oiseau", "the bird"],
+        ["le cheval", "the horse"],
+        ["le poisson", "the fish"],
+        ["la vache", "the cow"],
+        ["la forêt, la montagne, la rivière", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Le genre des animaux", "Beaucoup de noms d'animaux changent de forme selon le genre, mais d'autres sont invariables.", "Le chat est blanc. / La chatte est blanche. / Le poisson est petit (invariable côté sens)."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «le cheval» en anglais ?",["the dog", "the horse", "the cat", "the bird"],1,"«Cheval» se dit «horse» en anglais."],
+      ["mcq","Comment dit-on «l'oiseau» en anglais ?",["the dog", "the fish", "the cow", "the bird"],3,"«Oiseau» se dit «bird» en anglais."],
+      ["fill","Completa: “J'aime me promener dans la ___ le dimanche.”",["vache", "forêt", "chat", "poisson"],1,"«Se promener dans la forêt» est une activité typique dans la nature."],
+      ["translate","Traduis : «The dog is very friendly.»",["Le chien est très gentil.", "L'oiseau est très gentil.", "Le chat est très gentil.", "Le cheval est très gentil."],0,"«The dog» = «le chien» ; «friendly» = «gentil»."],
+      ["arrange","Remets dans l'ordre : [noir / ai / chat / j' / un]",["J'ai un chat noir", "un noir chat J'ai", "noir un chat J'ai", "noir un J'ai chat"],0,"Sujet + verbe + article + nom + adjectif."],
+      ["writing","Écris en français 20-30 mots sur un animal que tu aimes et un endroit dans la nature que tu aimes visiter.",[],["j'aime", "la forêt", "l'animal"]],
+    ]
+  },
+  {
+    id:"fr_a2_body_parts", level:"A2", title:"Le corps humain : les parties du corps", emoji:"🦴", xp:46,
+    description:"Apprends les parties du corps et à décrire des douleurs ou des caractéristiques physiques.",
+    study: {
+      vocab: [
+        ["la tête", "the head"],
+        ["le bras", "the arm"],
+        ["la jambe", "the leg"],
+        ["la main", "the hand"],
+        ["le pied", "the foot"],
+        ["le dos", "the back"],
+      ],
+      grammar: [
+        ["L'article défini avec les parties du corps", "Avec les parties du corps, on utilise l'article défini, pas le possessif, quand on sait clairement de qui on parle.", "J'ai mal à la tête. (pas «J'ai mal à ma tête»)"],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «le dos» en anglais ?",["the leg", "the back", "the head", "the hand"],1,"«Dos» se dit «back» en anglais."],
+      ["mcq","Comment dit-on «le pied» en anglais ?",["the hand", "the arm", "the foot", "the head"],2,"«Pied» se dit «foot» en anglais."],
+      ["fill","Completa: “J'ai très mal au ___ après avoir couru.”",["jambe", "tête", "dos", "main"],2,"Courir cause souvent des douleurs au dos si on ne s'échauffe pas bien."],
+      ["translate","Traduis : «My hand hurts.»",["J'ai mal au pied.", "J'ai mal au bras.", "J'ai mal à la main.", "J'ai mal à la jambe."],2,"«My hand hurts» = «J'ai mal à la main», avec l'article défini."],
+      ["arrange","Remets dans l'ordre : [jambe / mal / la / à / j'ai]",["mal jambe J'ai la à", "jambe la J'ai mal à", "J'ai mal à la jambe", "la jambe à mal J'ai"],2,"«J'ai mal à» + article + partie du corps."],
+      ["speaking","Décris en français, en 40-60 mots, une douleur que tu as eue : quelle partie du corps te faisait mal et ce que tu as fait.",[],["j'avais mal", "la jambe", "je suis allé(e) chez le médecin"]],
+    ]
+  },
+  {
+    id:"fr_b1_sports_fitness", level:"B1", title:"Le sport et l'activité physique", emoji:"🏃", xp:60,
+    description:"Parle de sports, de routines d'exercice et d'habitudes d'activité physique en français.",
+    study: {
+      vocab: [
+        ["le football", "soccer/football"],
+        ["la natation", "swimming"],
+        ["le tennis", "tennis"],
+        ["courir", "to run"],
+        ["soulever des poids", "to lift weights"],
+        ["faire du yoga", "to do yoga"],
+      ],
+      grammar: [
+        ["«Avoir l'habitude de» + infinitif pour les habitudes", "«Avoir l'habitude de» + infinitif exprime une action habituelle.", "J'ai l'habitude de courir trois fois par semaine."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «soulever des poids» en anglais ?",["swimming", "to run", "to do yoga", "to lift weights"],3,"«Soulever des poids» se dit «to lift weights»."],
+      ["mcq","Comment dit-on «la natation» en anglais ?",["soccer/football", "tennis", "swimming", "to run"],2,"«Natation» se dit «swimming»."],
+      ["fill","Completa: “J'ai l'habitude de ___ trois fois par semaine pour rester en forme.”",["football", "tennis", "natation", "courir"],3,"«Avoir l'habitude de» + infinitif («courir») décrit une habitude."],
+      ["translate","Traduis : «I usually do yoga on Sundays.»",["J'ai l'habitude de faire du yoga le dimanche.", "J'ai l'habitude de soulever des poids le dimanche.", "J'ai l'habitude de jouer au tennis le dimanche.", "J'ai l'habitude de faire du yoga le samedi."],0,"«I usually do yoga» = «J'ai l'habitude de faire du yoga» ; «on Sundays» = «le dimanche»."],
+      ["arrange","Remets dans l'ordre : [forme / rester / en / pour / je cours]",["Je forme cours pour en rester", "rester forme pour Je en cours", "rester Je en forme pour cours", "Je cours pour rester en forme"],3,"Sujet + verbe + «pour» + infinitif + complément."],
+      ["writing","Écris en français 45-65 mots sur ta relation avec le sport : quelle activité tu pratiques, à quelle fréquence et pourquoi tu l'aimes (ou pas).",[],["j'ai l'habitude de", "rester en forme", "je pratique"]],
+    ]
+  },
+  {
+    id:"fr_b2_smart_home_tech", level:"B2", title:"La maison intelligente : domotique et appareils", emoji:"💡", xp:82,
+    description:"Parle des appareils intelligents et de la domotique, avec des arguments nuancés en français.",
+    study: {
+      vocab: [
+        ["une enceinte connectée", "a smart speaker"],
+        ["un thermostat programmable", "a programmable thermostat"],
+        ["une caméra de sécurité", "a security camera"],
+        ["contrôler par la voix", "to control by voice"],
+        ["automatiser les tâches domestiques", "to automate household tasks"],
+        ["un risque pour la vie privée", "a privacy risk"],
+      ],
+      grammar: [
+        ["Le futur simple pour les prédictions technologiques", "Le futur simple décrit des prédictions raisonnables sur l'évolution de la technologie.", "Dans quelques années, plus de foyers auront des appareils connectés."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «un risque pour la vie privée» en anglais ?",["a smart speaker", "a thermostat", "a security camera", "a privacy risk"],3,"«Risque pour la vie privée» se dit «privacy risk»."],
+      ["mcq","Comment dit-on «automatiser les tâches domestiques» en anglais ?",["to control by voice", "to automate household tasks", "a privacy risk", "a smart speaker"],1,"«Automatiser les tâches domestiques» se dit «to automate household tasks»."],
+      ["fill","Completa: “Un thermostat programmable peut ___ de l'énergie s'il est bien réglé.”",["économiser", "perdre", "casser", "gaspiller"],0,"Un thermostat bien réglé aide à économiser de l'énergie, pas à la gaspiller."],
+      ["translate","Traduis : «Les enceintes connectées peuvent être contrôlées par la voix.»",["Smart speakers can be controlled by text.", "Security cameras can be controlled by voice.", "Smart speakers can be controlled by voice.", "Thermostats can be controlled by text."],2,"«Contrôler par la voix» = «controlled by voice»."],
+      ["arrange","Remets dans l'ordre : [vie / risque / peut / un / privée / pour / présenter / la]",["Peut présenter un risque pour la vie privée", "la privée Peut présenter pour un risque vie", "vie pour risque la Peut privée présenter un", "la présenter un vie pour risque privée Peut"],0,"Verbe + «présenter» + objet : «Peut présenter un risque pour la vie privée.»"],
+      ["writing","Écris en français 55-75 mots sur un appareil intelligent que tu utiliserais (ou utilises déjà) chez toi : quel avantage il t'offre et quel risque pour la vie privée il pourrait poser.",[],["automatiser", "risque pour la vie privée", "par la voix"]],
+    ]
+  },
+  {
+    id:"fr_c1_workplace_communication", level:"C1", title:"Le monde professionnel : réunions et correspondance", emoji:"🤝", xp:90,
+    description:"Maîtrise le vocabulaire et les formules typiques des réunions et des e-mails professionnels.",
+    study: {
+      vocab: [
+        ["convoquer une réunion", "to call a meeting"],
+        ["joindre un document", "to attach a document"],
+        ["dans l'attente de votre réponse", "we look forward to your response"],
+        ["reprendre un point en suspens", "to follow up on a pending item"],
+        ["parvenir à un accord", "to reach an agreement"],
+        ["reporter une réunion", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Formules de politesse dans les e-mails formels", "Des formules fixes comme «Dans l'attente de votre réponse» donnent une clôture professionnelle sans paraître brusque.", "Veuillez trouver le rapport demandé en pièce jointe. Dans l'attente de votre réponse."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «parvenir à un accord» en anglais ?",["to call a meeting", "to postpone a meeting", "to attach a document", "to reach an agreement"],3,"«Parvenir à un accord» se dit «to reach an agreement»."],
+      ["mcq","Comment dit-on «reporter une réunion» en anglais ?",["to call a meeting", "to attach a document", "to reach an agreement", "to postpone a meeting"],3,"«Reporter une réunion» se dit «to postpone a meeting»."],
+      ["fill","Completa: “Avant de clore la réunion, j'aimerais ___ un point en suspens de la semaine dernière.”",["joindre", "convoquer", "reprendre", "reporter"],2,"«Reprendre un point en suspens» signifie y revenir."],
+      ["translate","Traduis : «J'ai joint le rapport demandé.»",["I'm attaching the requested email.", "I'm attaching the requested report.", "I'm calling the requested report.", "I'm postponing the requested report."],1,"«J'ai joint» = «I'm attaching» ; «le rapport demandé» = «the requested report»."],
+      ["arrange","Remets dans l'ordre : [réponse / l'attente / dans / votre / de]",["votre réponse l'attente de Dans", "Dans l'attente de votre réponse", "l'attente de Dans votre réponse", "de l'attente réponse Dans votre"],1,"Formule fixe de clôture d'e-mail professionnel."],
+      ["writing","Écris en français un e-mail professionnel bref (55-75 mots) convoquant une réunion, mentionnant un point en suspens et se terminant par une formule de politesse formelle.",[],["je convoque", "point en suspens", "dans l'attente de"]],
+    ]
+  },
+  {
+    id:"fr_c2_register_synonyms", level:"C2", title:"Registre et style : synonymes selon le contexte", emoji:"🔤", xp:98,
+    description:"Choisis le synonyme adéquat selon le registre (soutenu, courant, familier) en français.",
+    study: {
+      vocab: [
+        ["obtenir (soutenu) / avoir (courant)", "to obtain / to get"],
+        ["décéder (soutenu) / mourir (courant) / claquer (familier)", "to pass away / to die / to kick the bucket"],
+        ["solliciter (soutenu) / demander (courant)", "to request / to ask for"],
+        ["résider (soutenu) / vivre / habiter (courant)", "to reside / to live"],
+        ["néanmoins (soutenu) / mais (courant)", "however / but"],
+      ],
+      grammar: [
+        ["Choisir le registre selon le contexte", "La même idée peut s'exprimer avec des mots très différents selon un contexte soutenu, courant ou familier ; utiliser le mauvais mot casse la cohérence du texte.", "Dans un rapport : «L'information a été obtenue.» Entre amis : «Je l'ai eu.»"],
+      ]
+    },
+    ex:[
+      ["mcq","Dans un rapport officiel, quel mot est le plus approprié pour «obtenir une information» ?",["Obtenir", "Choper", "Récupérer", "Chiper"],0,"«Obtenir» est le registre soutenu approprié pour un rapport officiel."],
+      ["mcq","Dans une conversation informelle entre amis, quel verbe sonne le plus naturel pour «mourir» ?",["Claquer", "Décéder", "Périr", "Expirer"],0,"«Claquer» est familier et conviendrait à une conversation informelle ; les autres sont trop soutenus ou techniques."],
+      ["fill","Completa: “Dans une lettre formelle on dit «___, nous poursuivons le projet», pas «mais».”",["néanmoins", "mais", "pourtant", "quand même"],0,"«Néanmoins» est le connecteur soutenu équivalent à «mais»."],
+      ["translate","Traduis avec le registre soutenu correct : «We reside in Madrid.»",["Nous sommes de Madrid.", "Nous vivons à Madrid.", "Nous résidons à Madrid.", "Nous restons à Madrid."],2,"«Reside» dans un registre soutenu se traduit par «résider», pas le courant «vivre»."],
+      ["arrange","Remets dans l'ordre (registre soutenu) : [a / l'information / été / sollicitée]",["été a L'information sollicitée", "L'information a été sollicitée", "été L'information a sollicitée", "sollicitée a L'information été"],1,"Construction passive, typique du registre soutenu/administratif."],
+      ["writing","Écris en français le même message bref («j'ai besoin que tu m'envoies le fichier») dans deux registres différents : un soutenu (pour un patron) et un familier (pour un ami), en 55-75 mots au total.",[],["soutenu", "familier", "je sollicite"]],
+    ]
+  },
 ];
