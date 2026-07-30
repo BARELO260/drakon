@@ -1394,4 +1394,154 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe 55-75 palabras analizando un acto de habla indirecto de una conversación cotidiana (real o inventada): qué se dijo literalmente, qué función pragmática cumplía en realidad, y cómo lo supiste por el contexto.",[],["acto de habla","literalmente","en realidad"],"Distingue explícitamente entre la forma gramatical literal del enunciado y su función pragmática real."]
     ]
   },
+  {
+    id:"es_a1_animals_nature", level:"A1", title:"Los animales y la naturaleza", emoji:"🐾", xp:36,
+    description:"Aprende el vocabulario de animales comunes y la naturaleza en español.",
+    study: {
+      vocab: [
+        ["el perro", "the dog"],
+        ["el gato", "the cat"],
+        ["el pájaro", "the bird"],
+        ["el caballo", "the horse"],
+        ["el pez", "the fish"],
+        ["la vaca", "the cow"],
+        ["el bosque, la montaña, el río", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Género de los animales", "Muchos nombres de animales cambian de forma según el género (el gato/la gata), pero otros son invariables.", "El gato es blanco. / La gata es blanca. / El pez es pequeño (invariable)."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “el caballo” en inglés?",["the cow", "the dog", "the fish", "the horse"],3,"“Caballo” es “horse” en inglés."],
+      ["mcq","¿Cómo se dice “el pájaro” en inglés?",["the fish", "the cow", "the bird", "the dog"],2,"“Pájaro” es “bird” en inglés."],
+      ["fill","Completa: “Me gusta pasear por el ___ los domingos.”",["bosque", "pez", "gato", "vaca"],0,"“Pasear por el bosque” es una actividad típica en la naturaleza."],
+      ["translate","Traduce: “The dog is very friendly.”",["El perro es muy simpático.", "El pájaro es muy simpático.", "El caballo es muy simpático.", "El gato es muy simpático."],0,"“The dog” = “el perro”; “friendly” = “simpático”."],
+      ["arrange","Ordena: [gato / negro / tengo / un]",["negro un gato Tengo", "Tengo un gato negro", "Tengo gato un negro", "gato Tengo negro un"],1,"Sujeto implícito + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe 20-30 palabras sobre un animal que te guste y un lugar de la naturaleza que te guste visitar.",[],["me gusta", "el bosque", "el animal"]],
+    ]
+  },
+  {
+    id:"es_a2_body_parts", level:"A2", title:"El cuerpo humano: partes del cuerpo", emoji:"🦴", xp:46,
+    description:"Aprende las partes del cuerpo y a describir dolores o características físicas.",
+    study: {
+      vocab: [
+        ["la cabeza", "the head"],
+        ["el brazo", "the arm"],
+        ["la pierna", "the leg"],
+        ["la mano", "the hand"],
+        ["el pie", "the foot"],
+        ["la espalda", "the back"],
+      ],
+      grammar: [
+        ["Artículos con partes del cuerpo", "Con partes del cuerpo se usa el artículo definido, no el posesivo, cuando está claro de quién se habla.", "Me duele la cabeza. (no “Me duele mi cabeza”)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “la espalda” en inglés?",["the foot", "the back", "the head", "the hand"],1,"“Espalda” es “back” en inglés."],
+      ["mcq","¿Cómo se dice “el pie” en inglés?",["the arm", "the foot", "the back", "the hand"],1,"“Pie” es “foot” en inglés."],
+      ["fill","Completa: “Me duele mucho la ___ después de correr.”",["espalda", "pierna", "mano", "cabeza"],0,"Correr suele causar dolor de espalda si no se calienta bien."],
+      ["translate","Traduce: “My hand hurts.”",["Me duele la pierna.", "Me duele el pie.", "Me duele el brazo.", "Me duele la mano."],3,"“My hand hurts” = “Me duele la mano”, con artículo definido."],
+      ["arrange","Ordena: [pierna / duele / la / me]",["duele la Me pierna", "Me duele la pierna", "pierna duele Me la", "la duele pierna Me"],1,"“Me duele” + artículo + parte del cuerpo."],
+      ["speaking","Describe en 40-60 palabras un dolor que hayas tenido: qué parte del cuerpo te dolía y qué hiciste.",[],["me dolía", "la pierna", "fui al médico"]],
+    ]
+  },
+  {
+    id:"es_b1_sports_fitness", level:"B1", title:"Los deportes y la actividad física", emoji:"🏃", xp:60,
+    description:"Habla sobre deportes, rutinas de ejercicio y hábitos de actividad física en español.",
+    study: {
+      vocab: [
+        ["el fútbol", "soccer/football"],
+        ["la natación", "swimming"],
+        ["el tenis", "tennis"],
+        ["correr", "to run"],
+        ["levantar pesas", "to lift weights"],
+        ["hacer yoga", "to do yoga"],
+      ],
+      grammar: [
+        ["“Soler” + infinitivo para hábitos", "“Soler” expresa una acción habitual, algo que se hace normalmente.", "Suelo correr tres veces por semana."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “levantar pesas” en inglés?",["to lift weights", "to run", "soccer/football", "to do yoga"],0,"“Levantar pesas” es “to lift weights”."],
+      ["mcq","¿Cómo se dice “la natación” en inglés?",["soccer/football", "to run", "swimming", "tennis"],2,"“Natación” es “swimming”."],
+      ["fill","Completa: “Suelo ___ tres veces por semana para mantenerme en forma.”",["el tenis", "la natación", "el fútbol", "correr"],3,"“Soler” + infinitivo (“correr”) describe un hábito."],
+      ["translate","Traduce: “I usually do yoga on Sundays.”",["Suelo levantar pesas los domingos.", "Suelo hacer yoga los sábados.", "Suelo jugar al tenis los domingos.", "Suelo hacer yoga los domingos."],3,"“I usually do yoga” = “Suelo hacer yoga”; “on Sundays” = “los domingos”."],
+      ["arrange","Ordena: [forma / mantenerme / en / para / corro]",["para mantenerme en forma Corro", "Corro para mantenerme en forma", "mantenerme para Corro en forma", "forma mantenerme en Corro para"],1,"Verbo + “para” + infinitivo + complemento."],
+      ["writing","Escribe 45-65 palabras sobre tu relación con el deporte: qué actividad practicas, con qué frecuencia y por qué te gusta (o no).",[],["suelo", "me mantengo en forma", "practico"]],
+    ]
+  },
+  {
+    id:"es_b2_smart_home_tech", level:"B2", title:"La casa inteligente: domótica y dispositivos", emoji:"💡", xp:82,
+    description:"Habla sobre dispositivos inteligentes y domótica, con opiniones matizadas en español.",
+    study: {
+      vocab: [
+        ["un altavoz inteligente", "a smart speaker"],
+        ["un termostato programable", "a programmable thermostat"],
+        ["una cámara de seguridad", "a security camera"],
+        ["controlar por voz", "to control by voice"],
+        ["automatizar tareas del hogar", "to automate household tasks"],
+        ["un riesgo de privacidad", "a privacy risk"],
+      ],
+      grammar: [
+        ["El futuro para predicciones tecnológicas", "El futuro simple describe predicciones razonables sobre cómo evolucionará la tecnología.", "En unos años, más hogares tendrán dispositivos conectados."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “un riesgo de privacidad” en inglés?",["a security camera", "a smart speaker", "a privacy risk", "a programmable thermostat"],2,"“Riesgo de privacidad” es “privacy risk”."],
+      ["mcq","¿Cómo se dice “automatizar tareas del hogar” en inglés?",["a smart speaker", "to automate household tasks", "a security camera", "to control by voice"],1,"“Automatizar tareas del hogar” es “to automate household tasks”."],
+      ["fill","Completa: “Un termostato programable puede ___ energía si se configura bien.”",["ahorrar", "perder", "romper", "gastar"],0,"Un termostato bien configurado ayuda a ahorrar energía, no a gastarla."],
+      ["translate","Traduce: “Smart speakers can be controlled by voice.”",["Los termostatos se pueden controlar por texto.", "Los altavoces inteligentes se pueden controlar por voz.", "Los altavoces inteligentes se pueden controlar por texto.", "Las cámaras de seguridad se pueden controlar por voz."],1,"“Controlled by voice” = “controlar por voz”."],
+      ["arrange","Ordena: [privacidad / puede / un / suponer / riesgo / de]",["de privacidad riesgo Puede un suponer", "Puede privacidad de un suponer riesgo", "privacidad suponer riesgo un de Puede", "Puede suponer un riesgo de privacidad"],3,"Verbo + “suponer” + objeto: “Puede suponer un riesgo de privacidad.”"],
+      ["writing","Escribe 55-75 palabras sobre un dispositivo inteligente que usarías (o ya usas) en casa: qué ventaja te ofrece y qué riesgo de privacidad podría tener.",[],["automatizar", "riesgo de privacidad", "por voz"]],
+    ]
+  },
+  {
+    id:"es_c1_workplace_communication", level:"C1", title:"El mundo laboral: reuniones y correspondencia", emoji:"🤝", xp:90,
+    description:"Domina el vocabulario y las fórmulas típicas de reuniones y correos profesionales en español.",
+    study: {
+      vocab: [
+        ["convocar una reunión", "to call a meeting"],
+        ["adjuntar un documento", "to attach a document"],
+        ["quedamos a la espera de su respuesta", "we look forward to your response"],
+        ["retomar un punto pendiente", "to follow up on a pending item"],
+        ["llegar a un acuerdo", "to reach an agreement"],
+        ["posponer una reunión", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Fórmulas de cortesía en correos formales", "Las fórmulas fijas como “Quedamos a la espera de su respuesta” dan un cierre profesional sin sonar brusco.", "Adjunto el informe solicitado. Quedamos a la espera de su respuesta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “llegar a un acuerdo” en inglés?",["to follow up on a pending item", "to attach a document", "to call a meeting", "to reach an agreement"],3,"“Llegar a un acuerdo” es “to reach an agreement”."],
+      ["mcq","¿Cómo se dice “posponer una reunión” en inglés?",["to postpone a meeting", "we look forward to your response", "to call a meeting", "to reach an agreement"],0,"“Posponer una reunión” es “to postpone a meeting”."],
+      ["fill","Completa: “Antes de cerrar la reunión, me gustaría ___ un punto pendiente de la semana pasada.”",["retomar", "adjuntar", "convocar", "posponer"],0,"“Retomar un punto pendiente” significa volver a tratarlo."],
+      ["translate","Traduce: “I'm attaching the requested report.”",["Adjunto el correo solicitado.", "Pospongo el informe solicitado.", "Adjunto el informe solicitado.", "Convoco el informe solicitado."],2,"“I'm attaching” = “Adjunto”; “the requested report” = “el informe solicitado”."],
+      ["arrange","Ordena: [respuesta / la / espera / quedamos / de / a / su]",["de a espera respuesta Quedamos la su", "de espera respuesta a su Quedamos la", "a respuesta Quedamos espera la de su", "Quedamos a la espera de su respuesta"],3,"Fórmula fija de cierre de correo profesional."],
+      ["writing","Escribe un correo profesional breve (55-75 palabras) convocando una reunión, mencionando un punto pendiente y cerrando con una fórmula de cortesía formal.",[],["convoco", "punto pendiente", "quedamos a la espera"]],
+    ]
+  },
+  {
+    id:"es_c2_register_synonyms", level:"C2", title:"Registro y estilo: sinónimos según el contexto", emoji:"🔤", xp:98,
+    description:"Elige el sinónimo adecuado según el registro (formal, neutro, coloquial) en español.",
+    study: {
+      vocab: [
+        ["obtener (formal) / conseguir (neutro) / pillar (coloquial)", "to get / to obtain"],
+        ["fallecer (formal) / morir (neutro) / palmarla (coloquial)", "to pass away / to die"],
+        ["solicitar (formal) / pedir (neutro) / pedir prestado, informal para objetos", "to request / to ask for"],
+        ["residir (formal) / vivir (neutro)", "to reside / to live"],
+        ["no obstante (formal) / pero (neutro) / aun así (coloquial)", "however / but"],
+      ],
+      grammar: [
+        ["Elegir registro según el contexto comunicativo", "La misma idea puede expresarse con palabras muy distintas según se trate de un contexto formal, neutro o coloquial; usar la palabra equivocada rompe la coherencia del texto.", "En un informe: “Se solicita revisión.” En una charla informal: “¿Me pasas eso?”"],
+      ]
+    },
+    ex:[
+      ["mcq","En un informe oficial, ¿qué palabra es más apropiada para “obtener información”?",["Obtener", "Pillar", "Coger", "Agarrar"],0,"“Obtener” es el registro formal apropiado para un informe oficial."],
+      ["mcq","En una conversación informal entre amigos, ¿qué verbo suena más natural para “morir”?",["Palmarla", "Fallecer", "Perecer", "Expirar"],0,"“Palmarla” es coloquial y encajaría en una conversación informal; los otros son demasiado formales o técnicos."],
+      ["fill","Completa: “En una carta formal se dice “no ___, seguimos adelante con el proyecto”, no “pero”.”",["pero", "sino", "obstante", "aun así"],2,"“No obstante” es el conector formal equivalente a “pero”."],
+      ["translate","Traduce con el registro formal correcto: “We reside in Madrid.”",["Somos de Madrid.", "Residimos en Madrid.", "Vivimos en Madrid.", "Estamos en Madrid."],1,"“Reside” en un registro formal se traduce como “residir”, no como el neutro “vivir”."],
+      ["arrange","Ordena (registro formal): [solicita / revisión / se / del / documento]",["documento del Se solicita revisión", "documento solicita del revisión Se", "Se solicita revisión del documento", "documento Se del revisión solicita"],2,"Construcción pasiva refleja + objeto, típica del registro formal/administrativo."],
+      ["writing","Escribe el mismo mensaje breve (“necesito que me envíes el archivo”) en dos registros distintos: uno formal (para un jefe) y uno coloquial (para un amigo), en 55-75 palabras en total.",[],["formal", "coloquial", "solicito"]],
+    ]
+  },
 ];
