@@ -1247,4 +1247,148 @@ window.LESSON_BANKS.FR = [
       ["writing","Choisis un conte, un roman ou un récit que tu connais (ou invente-en un bref) et écris en français 55-75 mots analysant sa voix narrative : point de vue, fiabilité du narrateur et un effet que cela produit sur le lecteur.",[],["voix narrative","point de vue","effet"],"Relie explicitement un choix formel de l'auteur à un effet concret sur la lecture, ne te contente pas de décrire l'intrigue."]
     ]
   },
+  {
+    id:"fr_a1_professions_jobs", level:"A1", title:"Les métiers : qu'est-ce que tu fais dans la vie ?", emoji:"👩‍⚕️", xp:36,
+    description:"Apprends le vocabulaire de base des métiers et à parler de ton travail en français.",
+    study: {
+      vocab: [
+        ["médecin, professeur/e, ingénieur/e, serveur/serveuse", "doctor, teacher, engineer, waiter/waitress"],
+        ["Qu'est-ce que tu fais dans la vie ?", "What do you do for a living?"],
+        ["Je suis étudiant(e) / Je travaille dans un bureau.", "I'm a student / I work in an office."],
+        ["Où travailles-tu ?", "Where do you work?"],
+        ["travailler comme + métier", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Être\" avec les métiers (sans article)", "Avec les métiers, \"être\" ne prend pas d'article indéfini, contrairement à l'anglais.", "Je suis professeur. (pas \"Je suis un professeur\")"]
+      ]
+    },
+    ex:[
+      ["mcq","Comment demandes-tu la profession de quelqu'un ?",["Qu'est-ce que tu fais dans la vie ?","Comment tu t'appelles ?","Où habites-tu ?","Quel âge as-tu ?"],0,"\"Qu'est-ce que tu fais dans la vie ?\" demande spécifiquement la profession."],
+      ["mcq","Quelle est la forme correcte pour dire ta profession en français ?",["Je suis professeur.","Je suis un professeur.","J'ai professeur.","Je fais professeur."],0,"En français, \"être\" + métier ne prend pas d'article : \"Je suis professeur.\""],
+      ["fill","Complète : \"Ma sœur ___ médecin dans un hôpital.\"",["est","a","fait","travaille est"],0,"\"Être\" s'utilise pour les métiers : \"Ma sœur est médecin.\""],
+      ["translate","Traduis : \"I work in an office.\"",["Je travaille dans un bureau.","Je travaille un bureau.","Je suis travail dans un bureau.","Je travaille de bureau."],0,"\"I work in an office\" = \"Je travaille dans un bureau.\""],
+      ["arrange","Remets dans l'ordre : [serveur / travaille / restaurant / comme / dans / un]",["Je travaille comme serveur dans un restaurant","Comme serveur je travaille dans un restaurant","Je travaille dans un restaurant comme serveur","Dans un restaurant je travaille comme serveur"],0,"\"Je travaille comme\" + métier + \"dans\" + lieu : \"Je travaille comme serveur dans un restaurant.\""],
+      ["writing","Écris en français 20-30 mots sur ta profession (réelle ou imaginée) et où tu travailles. Mentionne au moins deux tâches que tu fais au travail.",[],["je suis","je travaille","comme"],"Utilise \"être\" pour la profession et \"travailler dans/comme\" pour le lieu ou le rôle."]
+    ]
+  },
+  {
+    id:"fr_a2_describing_people", level:"A2", title:"Décrire des personnes : apparence et personnalité", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Apprends à décrire l'apparence physique et la personnalité d'autres personnes en français.",
+    study: {
+      vocab: [
+        ["grand(e), petit(e), mince", "tall, short, slim"],
+        ["a les cheveux longs/courts, porte des lunettes", "has long/short hair, wears glasses"],
+        ["est sympathique, timide, drôle", "is nice, shy, funny"],
+        ["ressemble à sa mère/son père", "looks like his/her mother/father"],
+        ["Comment est ton/ta meilleur(e) ami(e) ?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Être\" pour les caractéristiques, \"avoir\" et \"porter\" pour les traits physiques", "\"Être\" décrit la personnalité et les traits stables ; \"avoir\" et \"porter\" décrivent des parties du corps ou des accessoires.", "Elle est très sympathique, a les cheveux longs et porte des lunettes."]
+      ]
+    },
+    ex:[
+      ["mcq","Comment demandes-tu la personnalité de quelqu'un ?",["Comment est ton meilleur ami ?","Comment vas-tu ?","Quelle heure est-il ?","D'où viens-tu ?"],0,"\"Comment est... ?\" demande les caractéristiques ou la personnalité de quelqu'un."],
+      ["mcq","Laquelle de ces phrases décrit correctement l'apparence physique de quelqu'un ?",["Il a les cheveux courts et porte des lunettes.","Il est les cheveux courts et porte des lunettes.","Il a sympathique et grand.","Il est a des lunettes."],0,"\"Avoir\" s'utilise pour les parties du corps (\"a les cheveux courts\") et \"porter\" pour les accessoires (\"porte des lunettes\")."],
+      ["fill","Complète : \"Mon frère ___ très drôle et fait toujours des blagues.\"",["est","a","porte","fait"],0,"\"Être\" décrit un trait de personnalité stable : \"est très drôle\"."],
+      ["translate","Traduis : \"She has long hair and wears glasses.\"",["Elle a les cheveux longs et porte des lunettes.","Elle est les cheveux longs et porte des lunettes.","Elle a cheveux longs et est lunettes.","Elle porte les cheveux longs et a des lunettes mises."],0,"\"Has long hair\" = \"a les cheveux longs\" ; \"wears glasses\" = \"porte des lunettes\"."],
+      ["arrange","Remets dans l'ordre : [mère / ressemble / sa / à / elle]",["Elle ressemble à sa mère","À sa mère elle ressemble","Ressemble elle à sa mère","Elle à sa mère ressemble"],0,"\"Ressemble à\" + personne : \"Elle ressemble à sa mère.\""],
+      ["speaking","Décris en français, en 40-60 mots, une personne que tu connais bien : son apparence physique et trois traits de sa personnalité.",[],["a","est","porte"],"Inclus au moins deux traits physiques et deux de personnalité."]
+    ]
+  },
+  {
+    id:"fr_b1_education_learning", level:"B1", title:"L'éducation : systèmes scolaires et habitudes d'étude", emoji:"🎒", xp:60,
+    description:"Parle des systèmes éducatifs, des méthodes d'étude et des expériences scolaires en français.",
+    study: {
+      vocab: [
+        ["l'éducation obligatoire / supérieure", "compulsory / higher education"],
+        ["réussir/échouer à un examen", "to pass/fail an exam"],
+        ["mémoriser face à comprendre", "to memorize versus to understand"],
+        ["un programme d'études, une matière", "a curriculum, a school subject"],
+        ["apprendre à son propre rythme", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["Les comparatifs pour comparer des systèmes", "\"Plus... que\", \"moins... que\" et \"aussi... que\" servent à comparer des méthodes ou des systèmes éducatifs.", "Ce système est plus pratique que le traditionnel, bien qu'il ne soit pas aussi structuré que celui-là."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases compare correctement deux systèmes éducatifs ?",["Ce système est plus pratique que le traditionnel.","Ce système est pratique plus le traditionnel.","Ce système est aussi pratique le traditionnel.","Ce système plus pratique est que traditionnel."],0,"\"Plus... que\" est la structure comparative correcte en français."],
+      ["mcq","Quelle est la différence entre mémoriser et comprendre ?",["Mémoriser, c'est répéter de l'information ; comprendre implique saisir son sens et l'appliquer.","C'est exactement la même chose, sans aucune différence.","Mémoriser est toujours mieux que comprendre.","Comprendre est plus rapide que mémoriser."],0,"Mémoriser consiste à retenir des données ; comprendre implique un traitement plus profond du sens."],
+      ["fill","Complète : \"J'ai beaucoup étudié, mais j'ai quand même ___ l'examen.\"",["échoué à","réussi","mémorisé","compris"],0,"Le contexte (\"mais quand même\") suggère un résultat négatif : \"échoué à l'examen\"."],
+      ["translate","Traduis : \"I prefer to learn at my own pace.\"",["Je préfère apprendre à mon propre rythme.","Je préfère apprendre mon propre rythme.","Je préfère à apprendre mon propre rythme.","Je préfère mon propre rythme apprendre à."],0,"\"To learn at your own pace\" = \"apprendre à son propre rythme\"."],
+      ["arrange","Remets dans l'ordre : [matière / préférée / est / mathématiques / ma]",["Ma matière préférée est mathématiques","Est ma matière préférée mathématiques","Mathématiques est ma matière préférée","Ma préférée matière est mathématiques"],0,"Sujet + \"est\" + complément : \"Ma matière préférée est mathématiques.\""],
+      ["writing","Écris en français 45-65 mots comparant deux façons d'étudier ou deux systèmes éducatifs que tu connais (par exemple, cours en présentiel face à en ligne), et dis lequel tu préfères et pourquoi.",[],["plus...que","comprendre","à mon propre rythme"],"Utilise au moins une structure comparative explicite."]
+    ]
+  },
+  {
+    id:"fr_b2_sustainable_cities", level:"B2", title:"Villes durables : urbanisme et mobilité", emoji:"🚲", xp:82,
+    description:"Discute de propositions d'urbanisme et de mobilité durable dans les villes, avec des arguments nuancés.",
+    study: {
+      vocab: [
+        ["les transports en commun, la piste cyclable", "public transport, the bike lane"],
+        ["piétonniser le centre-ville", "to pedestrianize the city center"],
+        ["réduire la circulation et la pollution", "to reduce traffic and pollution"],
+        ["un espace vert, une zone piétonne", "a green space, a pedestrian zone"],
+        ["investir dans des infrastructures durables", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["Le subjonctif avec des expressions de doute ou d'opinion", "\"Je ne pense pas que\" et \"il est possible que\" exigent le subjonctif pour exprimer un doute ou une opinion sur des propositions urbaines.", "Je ne pense pas que piétonniser tout le centre soit la seule solution possible."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases utilise correctement le subjonctif pour exprimer un doute ?",["Je ne pense pas que cette mesure soit suffisante à elle seule.","Je ne pense pas que cette mesure est suffisante à elle seule.","Je ne pense pas cette mesure soit suffisante.","Je ne pense pas que cette mesure être suffisante."],0,"\"Je ne pense pas que\" exige le subjonctif : \"que...soit\"."],
+      ["mcq","Que signifie \"piétonniser le centre-ville\" ?",["Restreindre ou supprimer la circulation des véhicules pour privilégier les piétons.","Construire plus de routes dans le centre.","Augmenter le nombre de voitures autorisées dans le centre.","Supprimer tous les commerces du centre."],0,"\"Piétonniser\" signifie convertir un espace pour l'usage prioritaire des piétons, en limitant les véhicules."],
+      ["fill","Complète : \"Il est possible que la piste cyclable ___ la circulation dans cette zone.\"",["réduise","réduit","réduira","a réduit"],0,"\"Il est possible que\" exige le subjonctif : \"que réduise\"."],
+      ["translate","Traduis : \"Investing in public transport reduces pollution in the long term.\"",["Investir dans les transports en commun réduit la pollution à long terme.","Investir dans les transports en commun réduire la pollution à long terme.","Investir transports en commun dans réduit la pollution long terme.","Réduit investir dans les transports en commun la pollution à long terme."],0,"\"Investing in public transport reduces pollution\" = \"Investir dans les transports en commun réduit la pollution.\""],
+      ["mcq","Laquelle de ces phrases présente une position nuancée sur la mobilité urbaine ?",["Cela dépend du contexte : dans certaines villes la voiture reste nécessaire, dans d'autres non.","La voiture devrait être interdite partout sans exception.","Les transports en commun ne fonctionnent jamais bien dans aucune ville.","Il n'y a aucune solution possible pour le trafic urbain."],0,"Une position nuancée reconnaît que la solution dépend du contexte spécifique de chaque ville."],
+      ["writing","Écris en français 55-75 mots en proposant une amélioration de mobilité durable pour une ville que tu connais, en expliquant un bénéfice et une difficulté possible à la mettre en œuvre.",[],["il est possible que","piéton","transports en commun"],"Utilise au moins une structure avec le subjonctif de doute ou d'opinion."]
+    ]
+  },
+  {
+    id:"fr_c1_science_communication", level:"C1", title:"Vulgarisation scientifique : communiquer avec précision", emoji:"🔬", xp:90,
+    description:"Apprends à communiquer des informations scientifiques complexes de façon claire et précise, sans perdre en rigueur.",
+    study: {
+      vocab: [
+        ["simplifier sans déformer", "to simplify without distorting"],
+        ["un résultat préliminaire face à un résultat confirmé", "a preliminary finding versus a confirmed one"],
+        ["les preuves scientifiques suggèrent que...", "scientific evidence suggests that..."],
+        ["une analogie utile pour expliquer quelque chose de complexe", "a useful analogy to explain something complex"],
+        ["éviter le sensationnalisme scientifique", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Verbes nuancés pour communiquer l'incertitude scientifique", "\"Suggère\", \"indique\", \"pourrait expliquer\" transmettent différents degrés de certitude scientifique, plus précis que \"prouve\" ou \"démontre\".", "L'étude suggère un lien possible, mais ne prouve pas de causalité."]
+      ]
+    },
+    ex:[
+      ["mcq","Laquelle de ces phrases communique un résultat scientifique avec la nuance correcte ?",["L'étude suggère un lien possible, mais ne prouve pas de causalité.","L'étude prouve de façon définitive que ceci cause cela.","Les scientifiques savent déjà tout sur ce sujet.","Ce résultat est certain à cent pour cent, sans aucun doute."],0,"\"Suggère\" et \"ne prouve pas de causalité\" reflètent avec précision le niveau réel de certitude d'un résultat préliminaire."],
+      ["mcq","Pourquoi est-il important de \"simplifier sans déformer\" dans la vulgarisation scientifique ?",["Parce qu'une simplification excessive peut changer le sens réel du résultat.","Parce que la science ne devrait jamais être expliquée à des non-experts.","Parce que les détails techniques n'ont aucune importance.","Parce que toute simplification est automatiquement incorrecte."],0,"Simplifier est nécessaire pour toucher davantage de public, mais déformer le sens original est une grave erreur de vulgarisation."],
+      ["fill","Complète : \"Ceci est un résultat ___ : d'autres études sont nécessaires pour le confirmer.\"",["préliminaire","confirmé","définitif","absolu"],0,"\"Préliminaire\" indique que le résultat n'est pas encore confirmé de façon concluante."],
+      ["translate","Traduis : \"Scientific evidence suggests that this treatment could be effective.\"",["Les preuves scientifiques suggèrent que ce traitement pourrait être efficace.","Les preuves scientifiques suggèrent ce traitement pourrait efficace.","Suggèrent les preuves scientifiques que traitement pourrait être efficace.","Les preuves scientifiques suggèrent que ce traitement être efficace pourrait."],0,"\"Scientific evidence suggests that\" = \"Les preuves scientifiques suggèrent que\", suivi de \"pourrait être\" pour exprimer une possibilité."],
+      ["mcq","Un titre dit \"La science le confirme : ce fruit guérit le cancer !\" en se basant sur une seule étude préliminaire chez la souris. Quel est le problème de ce titre ?",["Il exagère un résultat préliminaire et limité comme s'il s'agissait d'une certitude absolue applicable aux humains.","C'est un exemple parfait de vulgarisation scientifique rigoureuse.","Il ne contient aucun sensationnalisme.","Il reflète précisément le niveau de preuve disponible."],0,"Le titre transforme un résultat préliminaire chez la souris en une affirmation absolue sur les humains, un cas clair de sensationnalisme."],
+      ["writing","Choisis une découverte scientifique (réelle ou inventée) et écris en français 55-75 mots l'expliquant de façon claire et accessible, en utilisant une analogie et en maintenant la nuance correcte de certitude (évite des mots comme \"prouve\" si le résultat est préliminaire).",[],["suggère","préliminaire","c'est comme"],"Inclus au moins une analogie et un verbe nuancé qui reflète correctement le niveau de certitude."]
+    ]
+  },
+  {
+    id:"fr_c2_speech_acts_pragmatics", level:"C2", title:"Pragmatique : ce que nous faisons en disant quelque chose", emoji:"💭", xp:98,
+    description:"Analyse les actes de langage et la pragmatique en français : la différence entre ce qui est dit et ce qui est fait en le disant.",
+    study: {
+      vocab: [
+        ["un acte de langage (requête, promesse, ordre)", "a speech act (request, promise, order)"],
+        ["le sens littéral face au sens visé", "literal meaning versus intended meaning"],
+        ["un acte de langage indirect", "an indirect speech act"],
+        ["les conditions de félicité d'un acte de langage", "the felicity conditions of a speech act"],
+        ["impliquer quelque chose sans le dire explicitement", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Actes de langage directs face à indirects", "Un acte de langage indirect utilise une forme grammaticale (comme une question) pour remplir une autre fonction (comme une requête).", "\"Pourrais-tu fermer la fenêtre ?\" a la forme d'une question, mais sa fonction réelle est une requête, pas une demande d'information."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Pourrais-tu me passer le sel ?\" pendant un dîner. Quel acte de langage est-ce, en réalité ?",["Une requête indirecte, même si elle a la forme d'une question.","Une véritable question sur la capacité de l'autre personne.","Un ordre direct et explicite.","Une promesse concernant l'avenir."],0,"Bien qu'elle ait la forme grammaticale d'une question sur la capacité, sa fonction réelle est de demander que quelqu'un passe le sel : c'est une requête indirecte."],
+      ["mcq","Un patron dit à un employé : « Il fait un peu froid ici, non ? » près d'une fenêtre ouverte. Que fait-il probablement avec cet énoncé ?",["Il demande indirectement à quelqu'un de fermer la fenêtre.","Il commente simplement le temps sans autre intention.","Il demande la température exacte de la pièce.","Il ordonne explicitement d'éteindre le chauffage."],0,"Le commentaire fonctionne comme une requête indirecte pour que quelqu'un ferme la fenêtre, sans le dire explicitement."],
+      ["fill","Complète : \"Dire 'je promets' à voix haute ne suffit pas ; certaines ___ doivent aussi être remplies pour que la promesse soit valide.\"",["conditions de félicité","règles grammaticales","normes orthographiques","questions rhétoriques"],0,"Les \"conditions de félicité\" sont les exigences contextuelles (sincérité, capacité, etc.) pour qu'un acte de langage fonctionne correctement."],
+      ["translate","Traduis avec précision technique : \"This is an indirect speech act: its literal form doesn't match its intended function.\"",["Ceci est un acte de langage indirect : sa forme littérale ne correspond pas à sa fonction visée.","Ceci est acte de langage indirect forme littérale ne correspond fonction.","C'est un acte de langage ceci indirect qui ne correspond pas à fonction littérale.","Cet acte de langage est indirect sa forme ne fonction correspond pas."],0,"\"Indirect speech act\" = \"acte de langage indirect\" ; \"literal form\" = \"forme littérale\" ; \"intended function\" = \"fonction visée\"."],
+      ["mcq","Lequel de ces énoncés implique quelque chose sans le dire explicitement ?",["« Certains étudiants ont réussi l'examen. » (implique que tous n'ont pas réussi)","« Tous les étudiants ont réussi l'examen. »","« L'examen était lundi à neuf heures. »","« Il y a trente étudiants dans la classe. »"],0,"\"Certains\" implique pragmatiquement \"pas tous\", même si ce n'est pas affirmé littéralement ; c'est une implicature conversationnelle classique."],
+      ["writing","Écris en français 55-75 mots analysant un acte de langage indirect d'une conversation quotidienne (réelle ou inventée) : ce qui a été dit littéralement, quelle fonction pragmatique il remplissait en réalité, et comment tu l'as compris grâce au contexte.",[],["acte de langage","littéralement","en réalité"],"Distingue explicitement entre la forme grammaticale littérale de l'énoncé et sa fonction pragmatique réelle."]
+    ]
+  },
 ];
