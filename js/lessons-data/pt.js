@@ -1391,4 +1391,154 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreve em português 55-75 palavras analisando um ato de fala indireto de uma conversa quotidiana (real ou inventada): o que foi dito literalmente, que função pragmática cumpria na realidade, e como o percebeste pelo contexto.",[],["ato de fala","literalmente","na realidade"],"Distingue explicitamente entre a forma gramatical literal do enunciado e a sua função pragmática real."]
     ]
   },
+  {
+    id:"pt_a1_animals_nature", level:"A1", title:"Os animais e a natureza", emoji:"🐾", xp:36,
+    description:"Aprende o vocabulário de animais comuns e da natureza em português.",
+    study: {
+      vocab: [
+        ["o cão", "the dog"],
+        ["o gato", "the cat"],
+        ["o pássaro", "the bird"],
+        ["o cavalo", "the horse"],
+        ["o peixe", "the fish"],
+        ["a vaca", "the cow"],
+        ["a floresta, a montanha, o rio", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Género dos animais", "Muitos nomes de animais mudam de forma consoante o género, mas outros são invariáveis.", "O gato é branco. / A gata é branca. / O peixe é pequeno (invariável)."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “o cavalo” em inglês?",["the bird", "the horse", "the cat", "the dog"],1,"“Cavalo” diz-se “horse” em inglês."],
+      ["mcq","Como se diz “o pássaro” em inglês?",["the cow", "the fish", "the dog", "the bird"],3,"“Pássaro” diz-se “bird” em inglês."],
+      ["fill","Completa: “Gosto de passear na ___ aos domingos.”",["vaca", "gato", "floresta", "peixe"],2,"“Passear na floresta” é uma atividade típica na natureza."],
+      ["translate","Traduz: “The dog is very friendly.”",["O cão é muito simpático.", "O pássaro é muito simpático.", "O cavalo é muito simpático.", "O gato é muito simpático."],0,"“The dog” = “o cão”; “friendly” = “simpático”."],
+      ["arrange","Ordena: [preto / tenho / gato / um]",["preto gato Tenho um", "um Tenho gato preto", "gato um preto Tenho", "Tenho um gato preto"],3,"Sujeito implícito + verbo + artigo + substantivo + adjetivo."],
+      ["writing","Escreve em português 20-30 palavras sobre um animal de que gostas e um lugar na natureza que gostas de visitar.",[],["gosto de", "a floresta", "o animal"]],
+    ]
+  },
+  {
+    id:"pt_a2_body_parts", level:"A2", title:"O corpo humano: partes do corpo", emoji:"🦴", xp:46,
+    description:"Aprende as partes do corpo e a descrever dores ou características físicas em português.",
+    study: {
+      vocab: [
+        ["a cabeça", "the head"],
+        ["o braço", "the arm"],
+        ["a perna", "the leg"],
+        ["a mão", "the hand"],
+        ["o pé", "the foot"],
+        ["as costas", "the back"],
+      ],
+      grammar: [
+        ["Artigo definido com partes do corpo", "Com partes do corpo usa-se o artigo definido, não o possessivo, quando é claro de quem se fala.", "Dói-me a cabeça. (não “Dói-me a minha cabeça”)"],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “as costas” em inglês?",["the back", "the leg", "the head", "the hand"],0,"“Costas” diz-se “back” em inglês."],
+      ["mcq","Como se diz “o pé” em inglês?",["the hand", "the foot", "the arm", "the head"],1,"“Pé” diz-se “foot” em inglês."],
+      ["fill","Completa: “Doem-me muito as ___ depois de correr.”",["costas", "perna", "mão", "cabeça"],0,"Correr costuma causar dores nas costas se não se aquecer bem."],
+      ["translate","Traduz: “My hand hurts.”",["Dói-me a perna.", "Dói-me o pé.", "Dói-me a mão.", "Dói-me o braço."],2,"“My hand hurts” = “Dói-me a mão”, com o artigo definido."],
+      ["arrange","Ordena: [perna / dói / a / me]",["a perna Dói-me", "perna a Dói-me", "Dói-me a perna", "Dói-me perna a"],2,"“Dói-me” + artigo + parte do corpo."],
+      ["speaking","Descreve em português, em 40-60 palavras, uma dor que já tiveste: que parte do corpo te doía e o que fizeste.",[],["doía-me", "a perna", "fui ao médico"]],
+    ]
+  },
+  {
+    id:"pt_b1_sports_fitness", level:"B1", title:"O desporto e a atividade física", emoji:"🏃", xp:60,
+    description:"Fala sobre desportos, rotinas de exercício e hábitos de atividade física em português.",
+    study: {
+      vocab: [
+        ["o futebol", "soccer/football"],
+        ["a natação", "swimming"],
+        ["o ténis", "tennis"],
+        ["correr", "to run"],
+        ["levantar pesos", "to lift weights"],
+        ["fazer ioga", "to do yoga"],
+      ],
+      grammar: [
+        ["“Costumar” + infinitivo para hábitos", "“Costumar” expressa uma ação habitual.", "Costumo correr três vezes por semana."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “levantar pesos” em inglês?",["swimming", "to do yoga", "to run", "to lift weights"],3,"“Levantar pesos” diz-se “to lift weights”."],
+      ["mcq","Como se diz “a natação” em inglês?",["soccer/football", "tennis", "to run", "swimming"],3,"“Natação” diz-se “swimming”."],
+      ["fill","Completa: “Costumo ___ três vezes por semana para me manter em forma.”",["ténis", "futebol", "natação", "correr"],3,"“Costumar” + infinitivo (“correr”) descreve um hábito."],
+      ["translate","Traduz: “I usually do yoga on Sundays.”",["Costumo fazer ioga aos sábados.", "Costumo levantar pesos aos domingos.", "Costumo jogar ténis aos domingos.", "Costumo fazer ioga aos domingos."],3,"“I usually do yoga” = “Costumo fazer ioga”; “on Sundays” = “aos domingos”."],
+      ["arrange","Ordena: [forma / manter / em / para / corro]",["me forma manter Corro em para", "Corro para me manter em forma", "me Corro para forma em manter", "forma para me manter em Corro"],1,"Verbo + “para” + infinitivo + complemento."],
+      ["writing","Escreve em português 45-65 palavras sobre a tua relação com o desporto: que atividade praticas, com que frequência e porque gostas dela (ou não).",[],["costumo", "manter-me em forma", "pratico"]],
+    ]
+  },
+  {
+    id:"pt_b2_smart_home_tech", level:"B2", title:"A casa inteligente: domótica e dispositivos", emoji:"💡", xp:82,
+    description:"Fala sobre dispositivos inteligentes e domótica, com opiniões matizadas em português.",
+    study: {
+      vocab: [
+        ["uma coluna inteligente", "a smart speaker"],
+        ["um termóstato programável", "a programmable thermostat"],
+        ["uma câmara de segurança", "a security camera"],
+        ["controlar por voz", "to control by voice"],
+        ["automatizar tarefas domésticas", "to automate household tasks"],
+        ["um risco de privacidade", "a privacy risk"],
+      ],
+      grammar: [
+        ["O futuro simples para previsões tecnológicas", "O futuro simples descreve previsões razoáveis sobre como a tecnologia vai evoluir.", "Daqui a uns anos, mais casas terão dispositivos conectados."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “um risco de privacidade” em inglês?",["a thermostat", "a privacy risk", "a smart speaker", "a security camera"],1,"“Risco de privacidade” diz-se “privacy risk”."],
+      ["mcq","Como se diz “automatizar tarefas domésticas” em inglês?",["a privacy risk", "a smart speaker", "to automate household tasks", "to control by voice"],2,"“Automatizar tarefas domésticas” diz-se “to automate household tasks”."],
+      ["fill","Completa: “Um termóstato programável pode ___ energia se estiver bem configurado.”",["poupar", "perder", "estragar", "gastar"],0,"Um termóstato bem configurado ajuda a poupar energia, não a gastá-la."],
+      ["translate","Traduz: “As colunas inteligentes podem ser controladas por voz.”",["Smart speakers can be controlled by voice.", "Smart speakers can be controlled by text.", "Security cameras can be controlled by voice.", "Thermostats can be controlled by text."],0,"“Controlar por voz” = “controlled by voice”."],
+      ["arrange","Ordena: [privacidade / pode / um / representar / risco / de]",["de risco Pode representar um privacidade", "privacidade Pode de um risco representar", "Pode representar um risco de privacidade", "risco Pode privacidade representar de um"],2,"Verbo + “representar” + objeto: “Pode representar um risco de privacidade.”"],
+      ["writing","Escreve em português 55-75 palavras sobre um dispositivo inteligente que usarias (ou já usas) em casa: que vantagem te oferece e que risco de privacidade poderia ter.",[],["automatizar", "risco de privacidade", "por voz"]],
+    ]
+  },
+  {
+    id:"pt_c1_workplace_communication", level:"C1", title:"O mundo profissional: reuniões e correspondência", emoji:"🤝", xp:90,
+    description:"Domina o vocabulário e as fórmulas típicas de reuniões e e-mails profissionais em português.",
+    study: {
+      vocab: [
+        ["convocar uma reunião", "to call a meeting"],
+        ["anexar um documento", "to attach a document"],
+        ["ficamos a aguardar a sua resposta", "we look forward to your response"],
+        ["retomar um ponto pendente", "to follow up on a pending item"],
+        ["chegar a um acordo", "to reach an agreement"],
+        ["adiar uma reunião", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Fórmulas de cortesia em e-mails formais", "Fórmulas fixas como “Ficamos a aguardar a sua resposta” dão um encerramento profissional sem soar brusco.", "Segue em anexo o relatório solicitado. Ficamos a aguardar a sua resposta."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “chegar a um acordo” em inglês?",["to postpone a meeting", "to reach an agreement", "to attach a document", "to call a meeting"],1,"“Chegar a um acordo” diz-se “to reach an agreement”."],
+      ["mcq","Como se diz “adiar uma reunião” em inglês?",["to call a meeting", "to attach a document", "to reach an agreement", "to postpone a meeting"],3,"“Adiar uma reunião” diz-se “to postpone a meeting”."],
+      ["fill","Completa: “Antes de encerrar a reunião, gostaria de ___ um ponto pendente da semana passada.”",["retomar", "anexar", "convocar", "adiar"],0,"“Retomar um ponto pendente” significa voltar a tratá-lo."],
+      ["translate","Traduz: “Anexei o relatório solicitado.”",["I'm attaching the requested report.", "I'm calling the requested report.", "I'm postponing the requested report.", "I'm attaching the requested email."],0,"“Anexei” = “I'm attaching”; “o relatório solicitado” = “the requested report”."],
+      ["arrange","Ordena: [resposta / aguardar / ficamos / sua / a / a]",["Ficamos a aguardar a sua resposta", "Ficamos resposta aguardar a a sua", "Ficamos a resposta aguardar sua a", "Ficamos a resposta a sua aguardar"],0,"Fórmula fixa de encerramento de e-mail profissional."],
+      ["writing","Escreve em português um e-mail profissional breve (55-75 palavras) convocando uma reunião, mencionando um ponto pendente e terminando com uma fórmula de cortesia formal.",[],["convoco", "ponto pendente", "ficamos a aguardar"]],
+    ]
+  },
+  {
+    id:"pt_c2_register_synonyms", level:"C2", title:"Registo e estilo: sinónimos consoante o contexto", emoji:"🔤", xp:98,
+    description:"Escolhe o sinónimo adequado consoante o registo (formal, neutro, coloquial) em português.",
+    study: {
+      vocab: [
+        ["obter (formal) / arranjar (neutro)", "to obtain / to get"],
+        ["falecer (formal) / morrer (neutro) / bater a bota (coloquial)", "to pass away / to die / to kick the bucket"],
+        ["solicitar (formal) / pedir (neutro)", "to request / to ask for"],
+        ["residir (formal) / viver (neutro)", "to reside / to live"],
+        ["não obstante (formal) / mas (neutro)", "however / but"],
+      ],
+      grammar: [
+        ["Escolher o registo consoante o contexto comunicativo", "A mesma ideia pode exprimir-se com palavras muito diferentes consoante o contexto seja formal, neutro ou coloquial; usar a palavra errada quebra a coerência do texto.", "Num relatório: “A informação foi obtida.” Entre amigos: “Consegui-o.”"],
+      ]
+    },
+    ex:[
+      ["mcq","Num relatório oficial, que palavra é mais apropriada para “obter informação”?",["Obter", "Arranjar", "Apanhar", "Pescar"],0,"“Obter” é o registo formal apropriado para um relatório oficial."],
+      ["mcq","Numa conversa informal entre amigos, que verbo soa mais natural para “morrer”?",["Bater a bota", "Falecer", "Perecer", "Expirar"],0,"“Bater a bota” é coloquial e encaixaria numa conversa informal; os outros são demasiado formais ou técnicos."],
+      ["fill","Completa: “Numa carta formal diz-se “___, avançamos com o projeto”, não “mas”.”",["não obstante", "mas", "porém contudo", "ainda assim"],0,"“Não obstante” é o conector formal equivalente a “mas”."],
+      ["translate","Traduz com o registo formal correto: “We reside in Madrid.”",["Vivemos em Madrid.", "Residimos em Madrid.", "Ficamos em Madrid.", "Somos de Madrid."],1,"“Reside” num registo formal traduz-se como “residir”, não o neutro “viver”."],
+      ["arrange","Ordena (registo formal): [foi / a informação / solicitada]",["A informação foi solicitada", "informação solicitada A foi", "solicitada informação foi A", "A foi solicitada informação"],0,"Construção passiva, típica do registo formal/administrativo."],
+      ["writing","Escreve em português a mesma mensagem breve (“preciso que me envies o ficheiro”) em dois registos diferentes: um formal (para um chefe) e um coloquial (para um amigo), em 55-75 palavras no total.",[],["formal", "coloquial", "solicito"]],
+    ]
+  },
 ];
