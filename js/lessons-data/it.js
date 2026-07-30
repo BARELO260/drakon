@@ -1247,4 +1247,148 @@ window.LESSON_BANKS.IT = [
       ["writing","Scegli un racconto, un romanzo o una storia che conosci (o inventane uno breve) e scrivi in italiano 55-75 parole analizzando la sua voce narrativa: punto di vista, affidabilità del narratore e un effetto che questo produce sul lettore.",[],["voce narrativa","punto di vista","effetto"],"Collega esplicitamente una scelta formale dell'autore a un effetto concreto sulla lettura, non limitarti a descrivere la trama."]
     ]
   },
+  {
+    id:"it_a1_professions_jobs", level:"A1", title:"Le professioni: cosa fai nella vita?", emoji:"👩‍⚕️", xp:36,
+    description:"Impara il vocabolario di base delle professioni e a parlare del tuo lavoro in italiano.",
+    study: {
+      vocab: [
+        ["medico, insegnante, ingegnere, cameriere/a", "doctor, teacher, engineer, waiter/waitress"],
+        ["Cosa fai nella vita?", "What do you do for a living?"],
+        ["Sono studente/essa / Lavoro in un ufficio.", "I'm a student / I work in an office."],
+        ["Dove lavori?", "Where do you work?"],
+        ["lavorare come + professione", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Essere\" con le professioni (senza articolo)", "Con le professioni, \"essere\" non porta l'articolo indeterminativo, a differenza dell'inglese.", "Sono insegnante. (non \"Sono un insegnante\")"]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi la professione di qualcuno?",["Cosa fai nella vita?","Come ti chiami?","Dove vivi?","Quanti anni hai?"],0,"\"Cosa fai nella vita?\" chiede specificamente la professione."],
+      ["mcq","Qual è la forma corretta per dire la propria professione in italiano?",["Sono insegnante.","Sono un insegnante.","Ho insegnante.","Faccio insegnante."],0,"In italiano, \"essere\" + professione non porta l'articolo: \"Sono insegnante.\""],
+      ["fill","Completa: \"Mia sorella ___ medica in un ospedale.\"",["è","ha","fa","lavora è"],0,"\"Essere\" si usa per le professioni: \"Mia sorella è medica.\""],
+      ["translate","Traduci: \"I work in an office.\"",["Lavoro in un ufficio.","Lavoro un ufficio.","Sono lavoro in un ufficio.","Lavoro di un ufficio."],0,"\"I work in an office\" = \"Lavoro in un ufficio.\""],
+      ["arrange","Metti in ordine: [cameriere / lavoro / ristorante / come / in / un]",["Lavoro come cameriere in un ristorante","Come cameriere lavoro in un ristorante","Lavoro in un ristorante come cameriere","In un ristorante lavoro come cameriere"],0,"\"Lavoro come\" + professione + \"in\" + luogo: \"Lavoro come cameriere in un ristorante.\""],
+      ["writing","Scrivi in italiano 20-30 parole sulla tua professione (reale o immaginata) e dove lavori. Menziona almeno due compiti che svolgi sul lavoro.",[],["sono","lavoro","come"],"Usa \"essere\" per la professione e \"lavorare in/come\" per il luogo o il ruolo."]
+    ]
+  },
+  {
+    id:"it_a2_describing_people", level:"A2", title:"Descrivere persone: aspetto e personalità", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Impara a descrivere l'aspetto fisico e la personalità di altre persone in italiano.",
+    study: {
+      vocab: [
+        ["alto/a, basso/a, magro/a", "tall, short, slim"],
+        ["ha i capelli lunghi/corti, porta gli occhiali", "has long/short hair, wears glasses"],
+        ["è simpatico/a, timido/a, divertente", "is nice, shy, funny"],
+        ["assomiglia a sua madre/suo padre", "looks like his/her mother/father"],
+        ["Com'è il tuo migliore amico/la tua migliore amica?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Essere\" per le caratteristiche, \"avere\" e \"portare\" per i tratti fisici", "\"Essere\" descrive la personalità e i tratti stabili; \"avere\" e \"portare\" descrivono parti del corpo o accessori.", "È molto simpatica, ha i capelli lunghi e porta gli occhiali."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi com'è la personalità di qualcuno?",["Com'è il tuo migliore amico?","Come stai?","Che ore sono?","Di dove sei?"],0,"\"Com'è...?\" chiede le caratteristiche o la personalità di qualcuno."],
+      ["mcq","Quale di queste frasi descrive correttamente l'aspetto fisico di qualcuno?",["Ha i capelli corti e porta gli occhiali.","È i capelli corti e porta gli occhiali.","Ha simpatico e alto.","È ha gli occhiali."],0,"\"Avere\" si usa per le parti del corpo (\"ha i capelli corti\") e \"portare\" per gli accessori (\"porta gli occhiali\")."],
+      ["fill","Completa: \"Mio fratello ___ molto divertente e fa sempre scherzi.\"",["è","ha","porta","fa"],0,"\"Essere\" descrive un tratto di personalità stabile: \"è molto divertente\"."],
+      ["translate","Traduci: \"She has long hair and wears glasses.\"",["Ha i capelli lunghi e porta gli occhiali.","È i capelli lunghi e porta gli occhiali.","Ha capelli lunghi ed è occhiali.","Porta i capelli lunghi e ha gli occhiali messi."],0,"\"Has long hair\" = \"ha i capelli lunghi\"; \"wears glasses\" = \"porta gli occhiali\"."],
+      ["arrange","Metti in ordine: [madre / assomiglia / sua / a]",["Assomiglia a sua madre","A sua madre assomiglia","Sua madre assomiglia a","Assomiglia sua a madre"],0,"\"Assomiglia a\" + persona: \"Assomiglia a sua madre.\""],
+      ["speaking","Descrivi in italiano, in 40-60 parole, una persona che conosci bene: il suo aspetto fisico e tre tratti della sua personalità.",[],["ha","è","porta"],"Includi almeno due tratti fisici e due di personalità."]
+    ]
+  },
+  {
+    id:"it_b1_education_learning", level:"B1", title:"L'istruzione: sistemi scolastici e abitudini di studio", emoji:"🎒", xp:60,
+    description:"Parla di sistemi educativi, metodi di studio ed esperienze scolastiche in italiano.",
+    study: {
+      vocab: [
+        ["l'istruzione obbligatoria / superiore", "compulsory / higher education"],
+        ["superare/bocciare un esame", "to pass/fail an exam"],
+        ["memorizzare contro capire", "to memorize versus to understand"],
+        ["un piano di studi, una materia", "a curriculum, a school subject"],
+        ["imparare al proprio ritmo", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["I comparativi per confrontare sistemi", "\"Più... di/che\", \"meno... di/che\" e \"tanto... quanto\" servono per confrontare metodi o sistemi educativi.", "Questo sistema è più pratico di quello tradizionale, anche se non è tanto strutturato quanto quello."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi confronta correttamente due sistemi educativi?",["Questo sistema è più pratico di quello tradizionale.","Questo sistema è pratico più tradizionale.","Questo sistema è tanto pratico tradizionale.","Questo sistema più pratico è di tradizionale."],0,"\"Più... di\" è la struttura comparativa corretta in italiano."],
+      ["mcq","Che differenza c'è tra memorizzare e capire?",["Memorizzare significa ripetere informazioni; capire implica coglierne il significato e applicarlo.","Sono esattamente la stessa cosa, senza alcuna differenza.","Memorizzare è sempre meglio di capire.","Capire è più veloce di memorizzare."],0,"Memorizzare è trattenere dati; capire implica un'elaborazione più profonda del significato."],
+      ["fill","Completa: \"Ho studiato molto, ma comunque ___ l'esame.\"",["ho bocciato","ho superato","ho memorizzato","ho capito"],0,"Il contesto (\"ma comunque\") suggerisce un risultato negativo: \"ho bocciato l'esame\" (nel senso di essere bocciato)."],
+      ["translate","Traduci: \"I prefer to learn at my own pace.\"",["Preferisco imparare al mio ritmo.","Preferisco imparare mio ritmo.","Preferisco a imparare mio ritmo.","Preferisco mio ritmo imparare a."],0,"\"To learn at your own pace\" = \"imparare al proprio ritmo\"."],
+      ["arrange","Metti in ordine: [preferita / materia / è / matematica / la mia]",["La mia materia preferita è matematica","È la mia materia preferita matematica","Matematica è la mia materia preferita","La mia preferita materia è matematica"],0,"Soggetto + \"è\" + complemento: \"La mia materia preferita è matematica.\""],
+      ["writing","Scrivi in italiano 45-65 parole confrontando due modi di studiare o due sistemi educativi che conosci (per esempio, lezioni in presenza contro online), e di' quale preferisci e perché.",[],["più...di","capire","al mio ritmo"],"Usa almeno una struttura comparativa esplicita."]
+    ]
+  },
+  {
+    id:"it_b2_sustainable_cities", level:"B2", title:"Città sostenibili: urbanistica e mobilità", emoji:"🚲", xp:82,
+    description:"Discuti proposte di urbanistica e mobilità sostenibile nelle città, con argomenti sfumati in italiano.",
+    study: {
+      vocab: [
+        ["i mezzi pubblici, la pista ciclabile", "public transport, the bike lane"],
+        ["pedonalizzare il centro città", "to pedestrianize the city center"],
+        ["ridurre il traffico e l'inquinamento", "to reduce traffic and pollution"],
+        ["uno spazio verde, una zona pedonale", "a green space, a pedestrian zone"],
+        ["investire in infrastrutture sostenibili", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["Il congiuntivo con espressioni di dubbio o opinione", "\"Non credo che\" e \"è possibile che\" richiedono il congiuntivo per esprimere dubbio o opinione su proposte urbanistiche.", "Non credo che pedonalizzare tutto il centro sia l'unica soluzione possibile."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi usa correttamente il congiuntivo per esprimere dubbio?",["Non credo che questa misura sia sufficiente da sola.","Non credo che questa misura è sufficiente da sola.","Non credo questa misura sia sufficiente.","Non credo che questa misura essere sufficiente."],0,"\"Non credo che\" richiede il congiuntivo: \"che...sia\"."],
+      ["mcq","Cosa significa \"pedonalizzare il centro città\"?",["Limitare o eliminare il traffico veicolare per dare priorità ai pedoni.","Costruire più strade nel centro.","Aumentare il numero di auto consentite nel centro.","Eliminare tutti i negozi dal centro."],0,"\"Pedonalizzare\" significa trasformare uno spazio per l'uso prioritario dei pedoni, limitando i veicoli."],
+      ["fill","Completa: \"È possibile che la pista ciclabile ___ il traffico in quella zona.\"",["riduca","riduce","ridurrà","ha ridotto"],0,"\"È possibile che\" richiede il congiuntivo: \"che riduca\"."],
+      ["translate","Traduci: \"Investing in public transport reduces pollution in the long term.\"",["Investire nei mezzi pubblici riduce l'inquinamento a lungo termine.","Investire nei mezzi pubblici ridurre l'inquinamento a lungo termine.","Investire mezzi pubblici in riduce l'inquinamento lungo termine.","Riduce investire nei mezzi pubblici l'inquinamento a lungo termine."],0,"\"Investing in public transport reduces pollution\" = \"Investire nei mezzi pubblici riduce l'inquinamento.\""],
+      ["mcq","Quale di queste frasi presenta una posizione sfumata sulla mobilità urbana?",["Dipende dal contesto: in alcune città l'auto è ancora necessaria, in altre no.","L'auto dovrebbe essere vietata ovunque senza eccezioni.","I mezzi pubblici non funzionano mai bene in nessuna città.","Non c'è nessuna soluzione possibile per il traffico urbano."],0,"Una posizione sfumata riconosce che la soluzione dipende dal contesto specifico di ogni città."],
+      ["writing","Scrivi in italiano 55-75 parole proponendo un miglioramento di mobilità sostenibile per una città che conosci, spiegando un beneficio e una possibile difficoltà nell'implementarlo.",[],["è possibile che","pedonale","mezzi pubblici"],"Usa almeno una struttura con il congiuntivo di dubbio o opinione."]
+    ]
+  },
+  {
+    id:"it_c1_science_communication", level:"C1", title:"Divulgazione scientifica: comunicare con precisione", emoji:"🔬", xp:90,
+    description:"Impara a comunicare informazioni scientifiche complesse in modo chiaro e preciso in italiano, senza perdere rigore.",
+    study: {
+      vocab: [
+        ["semplificare senza distorcere", "to simplify without distorting"],
+        ["un risultato preliminare contro uno confermato", "a preliminary finding versus a confirmed one"],
+        ["le evidenze scientifiche suggeriscono che...", "scientific evidence suggests that..."],
+        ["un'analogia utile per spiegare qualcosa di complesso", "a useful analogy to explain something complex"],
+        ["evitare il sensazionalismo scientifico", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Verbi sfumati per comunicare l'incertezza scientifica", "\"Suggerisce\", \"indica\", \"potrebbe spiegare\" trasmettono diversi gradi di certezza scientifica, più precisi di \"prova\" o \"dimostra\".", "Lo studio suggerisce un possibile legame, ma non dimostra la causalità."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi comunica un risultato scientifico con la sfumatura corretta?",["Lo studio suggerisce un possibile legame, ma non dimostra la causalità.","Lo studio dimostra in modo definitivo che questo causa quello.","Gli scienziati sanno già tutto su questo argomento.","Questo risultato è sicuro al cento per cento, senza alcun dubbio."],0,"\"Suggerisce\" e \"non dimostra la causalità\" riflettono con precisione il livello reale di certezza di un risultato preliminare."],
+      ["mcq","Perché è importante \"semplificare senza distorcere\" nella divulgazione scientifica?",["Perché semplificare troppo può cambiare il significato reale del risultato.","Perché la scienza non dovrebbe mai essere spiegata a persone non esperte.","Perché i dettagli tecnici non contano affatto.","Perché ogni semplificazione è automaticamente sbagliata."],0,"Semplificare è necessario per raggiungere più pubblico, ma distorcere il significato originale è un grave errore di divulgazione."],
+      ["fill","Completa: \"Questo è un risultato ___: servono altri studi per confermarlo.\"",["preliminare","confermato","definitivo","assoluto"],0,"\"Preliminare\" indica che il risultato non è ancora confermato in modo conclusivo."],
+      ["translate","Traduci: \"Scientific evidence suggests that this treatment could be effective.\"",["Le evidenze scientifiche suggeriscono che questo trattamento potrebbe essere efficace.","Le evidenze scientifiche suggeriscono questo trattamento potrebbe efficace.","Suggeriscono le evidenze scientifiche che trattamento potrebbe essere efficace.","Le evidenze scientifiche suggeriscono che questo trattamento essere efficace potrebbe."],0,"\"Scientific evidence suggests that\" = \"Le evidenze scientifiche suggeriscono che\", seguito da \"potrebbe essere\" per esprimere possibilità."],
+      ["mcq","Un titolo dice \"La scienza lo conferma: questo frutto cura il cancro!\" basandosi su un solo studio preliminare sui topi. Qual è il problema di questo titolo?",["Esagera un risultato preliminare e limitato come se fosse una certezza assoluta applicabile agli esseri umani.","È un esempio perfetto di divulgazione scientifica rigorosa.","Non contiene alcun sensazionalismo.","Riflette accuratamente il livello di evidenza disponibile."],0,"Il titolo trasforma un risultato preliminare sui topi in un'affermazione assoluta sugli esseri umani, un chiaro caso di sensazionalismo."],
+      ["writing","Scegli una scoperta scientifica (reale o inventata) e scrivi in italiano 55-75 parole spiegandola in modo chiaro e accessibile, usando un'analogia e mantenendo la sfumatura corretta di certezza (evita parole come \"dimostra\" se il risultato è preliminare).",[],["suggerisce","preliminare","è come"],"Includi almeno un'analogia e un verbo sfumato che rifletta correttamente il livello di certezza."]
+    ]
+  },
+  {
+    id:"it_c2_speech_acts_pragmatics", level:"C2", title:"Pragmatica: cosa facciamo dicendo qualcosa", emoji:"💭", xp:98,
+    description:"Analizza gli atti linguistici e la pragmatica in italiano: la differenza tra ciò che si dice e ciò che si fa dicendolo.",
+    study: {
+      vocab: [
+        ["un atto linguistico (richiesta, promessa, ordine)", "a speech act (request, promise, order)"],
+        ["il significato letterale contro il significato inteso", "literal meaning versus intended meaning"],
+        ["un atto linguistico indiretto", "an indirect speech act"],
+        ["le condizioni di felicità di un atto linguistico", "the felicity conditions of a speech act"],
+        ["implicare qualcosa senza dirlo esplicitamente", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Atti linguistici diretti contro indiretti", "Un atto linguistico indiretto usa una forma grammaticale (come una domanda) per svolgere un'altra funzione (come una richiesta).", "\"Potresti chiudere la finestra?\" ha la forma di una domanda, ma la sua funzione reale è una richiesta, non chiedere informazioni."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Potresti passarmi il sale?\" durante una cena. Che atto linguistico è, in realtà?",["Una richiesta indiretta, anche se ha la forma di una domanda.","Una vera domanda sulla capacità dell'altra persona.","Un ordine diretto ed esplicito.","Una promessa riguardo al futuro."],0,"Anche se ha la forma grammaticale di una domanda sulla capacità, la sua funzione reale è chiedere che qualcuno passi il sale: è una richiesta indiretta."],
+      ["mcq","Un capo dice a un dipendente: \"Fa un po' freddo qui, no?\" vicino a una finestra aperta. Cosa sta probabilmente facendo con questo enunciato?",["Sta chiedendo indirettamente che qualcuno chiuda la finestra.","Sta semplicemente commentando il tempo senza altre intenzioni.","Sta chiedendo la temperatura esatta della stanza.","Sta ordinando esplicitamente di spegnere il riscaldamento."],0,"Il commento funziona come una richiesta indiretta affinché qualcuno chiuda la finestra, senza dirlo esplicitamente."],
+      ["fill","Completa: \"Dire 'prometto' ad alta voce non basta; devono anche essere soddisfatte certe ___ perché la promessa sia valida.\"",["condizioni di felicità","regole grammaticali","norme ortografiche","domande retoriche"],0,"Le \"condizioni di felicità\" sono i requisiti contestuali (sincerità, capacità, ecc.) perché un atto linguistico funzioni correttamente."],
+      ["translate","Traduci con precisione tecnica: \"Questo è un atto linguistico indiretto: la sua forma letterale non corrisponde alla sua funzione intesa.\"",["This is an indirect speech act: its literal form doesn't match its intended function.","This is indirect speech act literal form doesn't match function.","It's a speech act this indirect that doesn't match literal function.","This speech act is indirect its form doesn't function match."],0,"\"Atto linguistico indiretto\" = \"indirect speech act\"; \"forma letterale\" = \"literal form\"; \"funzione intesa\" = \"intended function\"."],
+      ["mcq","Quale di questi enunciati implica qualcosa senza dirlo esplicitamente?",["\"Alcuni studenti hanno superato l'esame.\" (implica che non tutti l'hanno superato)","\"Tutti gli studenti hanno superato l'esame.\"","\"L'esame era lunedì alle nove.\"","\"Ci sono trenta studenti in classe.\""],0,"\"Alcuni\" implica pragmaticamente \"non tutti\", anche se non lo afferma letteralmente; è un'implicatura conversazionale classica."],
+      ["writing","Scrivi in italiano 55-75 parole analizzando un atto linguistico indiretto di una conversazione quotidiana (reale o inventata): cosa è stato detto letteralmente, quale funzione pragmatica svolgeva in realtà, e come l'hai capito dal contesto.",[],["atto linguistico","letteralmente","in realtà"],"Distingui esplicitamente tra la forma grammaticale letterale dell'enunciato e la sua funzione pragmatica reale."]
+    ]
+  },
 ];
