@@ -1266,4 +1266,154 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés 55-75 palabras analizando un acto de habla indirecto de una conversación cotidiana (real o inventada): qué se dijo literalmente, qué función pragmática cumplía en realidad, y cómo lo supiste por el contexto.",[],["speech act","literally","in reality"],"Distingue explícitamente entre la forma gramatical literal del enunciado y su función pragmática real."]
     ]
   },
+  {
+    id:"a1_animals_nature", level:"A1", title:"Los animales y la naturaleza", emoji:"🐾", xp:36,
+    description:"Aprende el vocabulario de animales comunes y la naturaleza en inglés.",
+    study: {
+      vocab: [
+        ["the dog", "el perro"],
+        ["the cat", "el gato"],
+        ["the bird", "el pájaro"],
+        ["the horse", "el caballo"],
+        ["the fish", "el pez"],
+        ["the cow", "la vaca"],
+        ["the forest, the mountain, the river", "el bosque, la montaña, el río"],
+      ],
+      grammar: [
+        ["Plural de sustantivos de animales", "La mayoría añade “-s” en plural, pero algunos son irregulares.", "one fish, two fish (invariable) / one horse, two horses (regular)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “el caballo” en inglés?",["the horse", "the bird", "the dog", "the cat"],0,"“Caballo” es “horse” en inglés."],
+      ["mcq","¿Cómo se dice “el pájaro” en inglés?",["the dog", "the cow", "the bird", "the fish"],2,"“Pájaro” es “bird” en inglés."],
+      ["fill","Completa: “I like walking in the ___ on Sundays.”",["fish", "forest", "cat", "cow"],1,"“Walking in the forest” es una actividad típica en la naturaleza."],
+      ["translate","Traduce: “El perro es muy simpático.”",["The horse is very friendly.", "The bird is very friendly.", "The cat is very friendly.", "The dog is very friendly."],3,"“El perro” = “the dog”; “simpático” = “friendly”."],
+      ["arrange","Ordena: [black / have / cat / I / a]",["I have a black cat", "cat a I have black", "cat black a I have", "cat I black a have"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en inglés 20-30 palabras sobre un animal que te guste y un lugar de la naturaleza que te guste visitar.",[],["I like", "the forest", "animal"]],
+    ]
+  },
+  {
+    id:"a2_body_parts", level:"A2", title:"El cuerpo humano: partes del cuerpo", emoji:"🦴", xp:46,
+    description:"Aprende las partes del cuerpo y a describir dolores o características físicas en inglés.",
+    study: {
+      vocab: [
+        ["the head", "la cabeza"],
+        ["the arm", "el brazo"],
+        ["the leg", "la pierna"],
+        ["the hand", "la mano"],
+        ["the foot", "el pie"],
+        ["the back", "la espalda"],
+      ],
+      grammar: [
+        ["“My” + parte del cuerpo + “hurts”", "En inglés se usa el posesivo (“my”), no el artículo, con partes del cuerpo.", "My back hurts. (no “The back hurts me”)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “la espalda” en inglés?",["the head", "the hand", "the leg", "the back"],3,"“Espalda” es “back” en inglés."],
+      ["mcq","¿Cómo se dice “el pie” en inglés?",["the arm", "the foot", "the hand", "the head"],1,"“Pie” es “foot” en inglés."],
+      ["fill","Completa: “My ___ hurts a lot after running.”",["back", "leg", "head", "hand"],0,"Correr suele causar dolor de espalda si no se calienta bien."],
+      ["translate","Traduce: “Me duele la mano.”",["My leg hurts.", "My arm hurts.", "My foot hurts.", "My hand hurts."],3,"“Me duele la mano” = “My hand hurts”, con el posesivo “my”."],
+      ["arrange","Ordena: [leg / hurts / my]",["My hurts leg", "leg My hurts", "My leg hurts", "hurts leg My"],2,"“My” + parte del cuerpo + “hurts”."],
+      ["speaking","Describe en inglés, en 40-60 palabras, un dolor que hayas tenido: qué parte del cuerpo te dolía y qué hiciste.",[],["hurt", "my leg", "I went to the doctor"]],
+    ]
+  },
+  {
+    id:"b1_sports_fitness", level:"B1", title:"Los deportes y la actividad física", emoji:"🏃", xp:60,
+    description:"Habla sobre deportes, rutinas de ejercicio y hábitos de actividad física en inglés.",
+    study: {
+      vocab: [
+        ["soccer/football", "el fútbol"],
+        ["swimming", "la natación"],
+        ["tennis", "el tenis"],
+        ["to run", "correr"],
+        ["to lift weights", "levantar pesas"],
+        ["to do yoga", "hacer yoga"],
+      ],
+      grammar: [
+        ["“Usually” + presente simple para hábitos", "“Usually” con el presente simple expresa una acción habitual.", "I usually run three times a week."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “levantar pesas” en inglés?",["swimming", "to do yoga", "to lift weights", "to run"],2,"“Levantar pesas” es “to lift weights”."],
+      ["mcq","¿Cómo se dice “la natación” en inglés?",["swimming", "to run", "tennis", "soccer/football"],0,"“Natación” es “swimming”."],
+      ["fill","Completa: “I usually ___ three times a week to stay fit.”",["soccer", "run", "swimming", "tennis"],1,"“Usually” + presente simple (“run”) describe un hábito."],
+      ["translate","Traduce: “Suelo hacer yoga los domingos.”",["I usually do yoga on Sundays.", "I usually lift weights on Sundays.", "I usually do yoga on Saturdays.", "I usually play tennis on Sundays."],0,"“Suelo hacer yoga” = “I usually do yoga”; “los domingos” = “on Sundays”."],
+      ["arrange","Ordena: [fit / stay / to / I / run]",["I to stay fit run", "fit stay to run I", "I to run fit stay", "I run to stay fit"],3,"Sujeto + verbo + “to” + infinitivo + complemento."],
+      ["writing","Escribe en inglés 45-65 palabras sobre tu relación con el deporte: qué actividad practicas, con qué frecuencia y por qué te gusta (o no).",[],["I usually", "stay fit", "I practice"]],
+    ]
+  },
+  {
+    id:"b2_smart_home_tech", level:"B2", title:"La casa inteligente: domótica y dispositivos", emoji:"💡", xp:82,
+    description:"Habla sobre dispositivos inteligentes y domótica, con opiniones matizadas en inglés.",
+    study: {
+      vocab: [
+        ["a smart speaker", "un altavoz inteligente"],
+        ["a programmable thermostat", "un termostato programable"],
+        ["a security camera", "una cámara de seguridad"],
+        ["to control by voice", "controlar por voz"],
+        ["to automate household tasks", "automatizar tareas del hogar"],
+        ["a privacy risk", "un riesgo de privacidad"],
+      ],
+      grammar: [
+        ["El futuro simple para predicciones tecnológicas", "“Will” describe predicciones razonables sobre cómo evolucionará la tecnología.", "In a few years, more homes will have connected devices."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “un riesgo de privacidad” en inglés?",["a smart speaker", "a privacy risk", "a thermostat", "a security camera"],1,"“Riesgo de privacidad” es “privacy risk”."],
+      ["mcq","¿Cómo se dice “automatizar tareas del hogar” en inglés?",["to automate household tasks", "to control by voice", "a smart speaker", "a privacy risk"],0,"“Automatizar tareas del hogar” es “to automate household tasks”."],
+      ["fill","Completa: “A programmable thermostat can ___ energy if it's set up well.”",["break", "save", "lose", "waste"],1,"Un termostato bien configurado ayuda a ahorrar energía, no a gastarla."],
+      ["translate","Traduce: “Los altavoces inteligentes se pueden controlar por voz.”",["Thermostats can be controlled by text.", "Smart speakers can be controlled by text.", "Security cameras can be controlled by voice.", "Smart speakers can be controlled by voice."],3,"“Controlar por voz” = “controlled by voice”."],
+      ["arrange","Ordena: [pose / can / risk / it / a privacy]",["can It privacy pose risk a", "It can pose a privacy risk", "privacy can pose risk a It", "It can risk pose privacy a"],1,"Sujeto + “can” + “pose” + objeto: “It can pose a privacy risk.”"],
+      ["writing","Escribe en inglés 55-75 palabras sobre un dispositivo inteligente que usarías (o ya usas) en casa: qué ventaja te ofrece y qué riesgo de privacidad podría tener.",[],["automate", "privacy risk", "by voice"]],
+    ]
+  },
+  {
+    id:"c1_workplace_communication", level:"C1", title:"El mundo laboral: reuniones y correspondencia", emoji:"🤝", xp:90,
+    description:"Domina el vocabulario y las fórmulas típicas de reuniones y correos profesionales en inglés.",
+    study: {
+      vocab: [
+        ["to call a meeting", "convocar una reunión"],
+        ["to attach a document", "adjuntar un documento"],
+        ["we look forward to your response", "quedamos a la espera de su respuesta"],
+        ["to follow up on a pending item", "retomar un punto pendiente"],
+        ["to reach an agreement", "llegar a un acuerdo"],
+        ["to postpone a meeting", "posponer una reunión"],
+      ],
+      grammar: [
+        ["Fórmulas de cortesía en correos formales", "Frases fijas como “We look forward to your response” dan un cierre profesional sin sonar brusco.", "Please find the requested report attached. We look forward to your response."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “llegar a un acuerdo” en inglés?",["to postpone a meeting", "to attach a document", "to call a meeting", "to reach an agreement"],3,"“Llegar a un acuerdo” es “to reach an agreement”."],
+      ["mcq","¿Cómo se dice “posponer una reunión” en inglés?",["to postpone a meeting", "to call a meeting", "to attach a document", "to reach an agreement"],0,"“Posponer una reunión” es “to postpone a meeting”."],
+      ["fill","Completa: “Before we close the meeting, I'd like to ___ on a pending item from last week.”",["postpone", "call", "follow up", "attach"],2,"“To follow up on a pending item” significa volver a tratarlo."],
+      ["translate","Traduce: “Adjunto el informe solicitado.”",["I'm calling the requested report.", "I'm attaching the requested email.", "I'm attaching the requested report.", "I'm postponing the requested report."],2,"“Adjunto” = “I'm attaching”; “el informe solicitado” = “the requested report”."],
+      ["arrange","Ordena: [response / your / to / we / look forward]",["We look forward to your response", "your look forward to We response", "to look your We forward response", "to look response forward your We"],0,"Fórmula fija de cierre de correo profesional."],
+      ["writing","Escribe en inglés un correo profesional breve (55-75 palabras) convocando una reunión, mencionando un punto pendiente y cerrando con una fórmula de cortesía formal.",[],["I'm calling", "pending item", "we look forward to"]],
+    ]
+  },
+  {
+    id:"c2_register_synonyms", level:"C2", title:"Registro y estilo: sinónimos según el contexto", emoji:"🔤", xp:98,
+    description:"Elige el sinónimo adecuado según el registro (formal, neutro, coloquial) en inglés.",
+    study: {
+      vocab: [
+        ["to obtain (formal) / to get (neutral)", "obtener (formal) / conseguir (neutro)"],
+        ["to pass away (formal) / to die (neutral) / to kick the bucket (coloquial)", "fallecer / morir / palmarla"],
+        ["to request (formal) / to ask for (neutral)", "solicitar / pedir"],
+        ["to reside (formal) / to live (neutral)", "residir / vivir"],
+        ["however (formal) / but (neutral)", "no obstante / pero"],
+      ],
+      grammar: [
+        ["Elegir registro según el contexto comunicativo", "La misma idea puede expresarse con palabras muy distintas según se trate de un contexto formal, neutro o coloquial; usar la palabra equivocada rompe la coherencia del texto.", "In a report: “Information was obtained.” In casual speech: “I got it.”"],
+      ]
+    },
+    ex:[
+      ["mcq","En un informe oficial, ¿qué palabra es más apropiada para “obtener información”?",["Obtain", "Grab", "Snag", "Score"],0,"“Obtain” es el registro formal apropiado para un informe oficial."],
+      ["mcq","En una conversación informal entre amigos, ¿qué expresión suena más natural para “morir”?",["Kick the bucket", "Pass away", "Perish", "Expire"],0,"“Kick the bucket” es coloquial y encajaría en una conversación informal; los otros son demasiado formales o técnicos."],
+      ["fill","Completa: “In a formal letter you say “___, we are moving forward with the project”, not “but”.”",["but", "yet", "however", "still"],2,"“However” es el conector formal equivalente a “pero”."],
+      ["translate","Traduce con el registro formal correcto: “Residimos en Madrid.”",["We reside in Madrid.", "We stay in Madrid.", "We live in Madrid.", "We are from Madrid."],0,"“Residimos” en un registro formal se traduce como “reside”, no el neutro “live”."],
+      ["arrange","Ordena (registro formal): [was / requested / information / the]",["was requested information The", "The information was requested", "The was requested information", "was The requested information"],1,"Construcción pasiva, típica del registro formal/administrativo."],
+      ["writing","Escribe en inglés el mismo mensaje breve (“I need you to send me the file”) en dos registros distintos: uno formal (para un jefe) y uno coloquial (para un amigo), en 55-75 palabras en total.",[],["formal", "informal", "I request"]],
+    ]
+  },
 ];
