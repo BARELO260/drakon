@@ -114,15 +114,15 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 60 | Progresión A1→C2 completa: vocabulario, gramática, tiempos verbales, mediación, registro, retórica, falacias lógicas, IA, publicidad, discurso político, finanzas, bienestar mental, lenguaje jurídico, crítica literaria, divulgación científica, pragmática. |
-| Español    | ES | 60 | Progresión completa A1→C2: A1 (11), A2 (8), B1 (11), B2 (11), C1 (11), C2 (8). |
-| Francés    | FR | 60 | Misma progresión y temas que español, adaptados al francés. |
-| Alemán     | DE | 60 | Misma progresión, adaptada al alemán. |
-| Italiano   | IT | 60 | Misma progresión, adaptada al italiano. |
-| Portugués  | PT | 60 | Misma progresión, adaptada al portugués. |
+| Inglés     | EN | 66 | Progresión A1→C2 completa; incluye animales/naturaleza, cuerpo humano, deporte, domótica, mundo laboral, registro/sinónimos (generadas con el generador procedural). |
+| Español    | ES | 66 | Progresión completa A1→C2: A1 (12), A2 (9), B1 (12), B2 (12), C1 (12), C2 (9). |
+| Francés    | FR | 66 | Misma progresión y temas que español, adaptados al francés. |
+| Alemán     | DE | 66 | Misma progresión, adaptada al alemán. |
+| Italiano   | IT | 66 | Misma progresión, adaptada al italiano. |
+| Portugués  | PT | 66 | Misma progresión, adaptada al portugués. |
 
-**Total actual: 360 lecciones.** Los 6 idiomas cubren el recorrido completo
-**A1 → C2** con exactamente el mismo número de lecciones (60 cada uno),
+**Total actual: 396 lecciones.** Los 6 idiomas cubren el recorrido completo
+**A1 → C2** con exactamente el mismo número de lecciones (66 cada uno),
 cada una con su glosario de estudio (`study`) correspondiente, validadas
 automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
 correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
@@ -130,14 +130,42 @@ ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
 índice — ver más abajo).
 
 Último lote agregado (uno por nivel, en los 6 idiomas, mismo tema para
-mantener coherencia y progresión): A1 profesiones básicas, A2 describir
-personas (aspecto/personalidad), B1 educación (sistemas escolares/hábitos
-de estudio), B2 ciudades sostenibles (urbanismo/movilidad), C1 divulgación
-científica (comunicar con precisión), C2 pragmática (actos de habla). B2
-(ciudades sostenibles) conecta con B1 (medio ambiente, lote anterior); C1
-(divulgación científica) conecta con C1 (academic citing, lote anterior) y
-prepara el terreno para C2 (pragmática), que cierra el nivel más alto junto
-con crítica literaria, ironía y discurso político ya cubiertos.
+mantener coherencia y progresión): A1 animales y naturaleza, A2 el cuerpo
+humano, B1 deportes y actividad física, B2 la casa inteligente (domótica),
+C1 el mundo laboral (reuniones/correspondencia), C2 registro y estilo
+(sinónimos según el contexto).
+
+## Generador procedural (`/tools/lesson_gen.py`)
+
+Este último lote se produjo con un **generador procedural**: un script que
+sigue requiriendo que se le entregue el contenido lingüístico real
+(vocabulario, frases y sus traducciones — lo único que de verdad exige
+criterio humano/lingüístico), pero automatiza todo el ensamblado mecánico
+que antes se escribía a mano en cada ejercicio:
+
+- Elegir 3 distractores plausibles para cada mcq/fill/translate, sin
+  duplicados, en orden aleatorio pero determinista (seed = id de la
+  lección, así el resultado es reproducible).
+- Generar 3 órdenes incorrectos distintos para los ejercicios "arrange" a
+  partir de la frase correcta, en vez de inventarlos a mano.
+  Ensamblar el objeto de lección completo con el mismo formato exacto que
+  usan los demás archivos.
+- Validar en el momento (4 opciones, sin duplicados, índice en rango) para
+  no depender de una segunda pasada de `validate_lessons.js`.
+
+Uso: ver `tools/lesson_gen.py` (clase `LessonBuilder`) y los scripts
+`tools/batch6_*.py` como ejemplo de cómo definir una lección (vocabulario +
+gramática + banco de frases) y dejar que el script arme los ejercicios de
+opción múltiple, huecos, ordenar y traducir automáticamente. Los ejercicios
+`writing`/`speaking` se siguen redactando a mano (requieren creatividad).
+
+**Balance recomendado:** usar el generador para temas con vocabulario denso
+(animales, cuerpo, objetos, profesiones, tecnología...) donde el valor está
+en la cobertura léxica, y seguir escribiendo a mano las lecciones donde el
+matiz argumentativo/pragmático importa más que el vocabulario (dilemas
+éticos, pragmática, crítica literaria, discurso político...). No conviene
+generar el 100% de forma procedural: se perdería la variedad de contextos y
+matices que distingue a las lecciones redactadas directamente.
 
 ### Tipos de ejercicio: dos formatos distintos
 
