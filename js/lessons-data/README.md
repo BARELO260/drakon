@@ -114,15 +114,15 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 54 | Progresión A1→C2 completa: vocabulario, gramática, tiempos verbales, mediación, registro, retórica, voz pasiva, falacias lógicas, IA, publicidad, discurso político, finanzas, bienestar mental, lenguaje jurídico, crítica literaria. |
-| Español    | ES | 54 | Progresión completa A1→C2: A1 (10), A2 (7), B1 (10), B2 (10), C1 (10), C2 (7). |
-| Francés    | FR | 54 | Misma progresión y temas que español, adaptados al francés. |
-| Alemán     | DE | 54 | Misma progresión, adaptada al alemán. |
-| Italiano   | IT | 54 | Misma progresión, adaptada al italiano. |
-| Portugués  | PT | 54 | Misma progresión, adaptada al portugués. |
+| Inglés     | EN | 60 | Progresión A1→C2 completa: vocabulario, gramática, tiempos verbales, mediación, registro, retórica, falacias lógicas, IA, publicidad, discurso político, finanzas, bienestar mental, lenguaje jurídico, crítica literaria, divulgación científica, pragmática. |
+| Español    | ES | 60 | Progresión completa A1→C2: A1 (11), A2 (8), B1 (11), B2 (11), C1 (11), C2 (8). |
+| Francés    | FR | 60 | Misma progresión y temas que español, adaptados al francés. |
+| Alemán     | DE | 60 | Misma progresión, adaptada al alemán. |
+| Italiano   | IT | 60 | Misma progresión, adaptada al italiano. |
+| Portugués  | PT | 60 | Misma progresión, adaptada al portugués. |
 
-**Total actual: 324 lecciones.** Los 6 idiomas cubren el recorrido completo
-**A1 → C2** con exactamente el mismo número de lecciones (54 cada uno),
+**Total actual: 360 lecciones.** Los 6 idiomas cubren el recorrido completo
+**A1 → C2** con exactamente el mismo número de lecciones (60 cada uno),
 cada una con su glosario de estudio (`study`) correspondiente, validadas
 automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
 correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
@@ -130,12 +130,14 @@ ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
 índice — ver más abajo).
 
 Último lote agregado (uno por nivel, en los 6 idiomas, mismo tema para
-mantener coherencia y progresión): A1 dinero/precios/números ordinales, A2
-pedir y pagar en el restaurante, B1 finanzas personales (banco/presupuesto),
-B2 bienestar y salud mental (con matices), C1 lenguaje jurídico básico
-(contratos/cláusulas), C2 crítica literaria (voz narrativa/estilo). Dos
-hilos temáticos cruzan niveles: dinero (A1) → finanzas personales (B1), y
-emociones (A1, lote anterior) → bienestar mental con matices (B2).
+mantener coherencia y progresión): A1 profesiones básicas, A2 describir
+personas (aspecto/personalidad), B1 educación (sistemas escolares/hábitos
+de estudio), B2 ciudades sostenibles (urbanismo/movilidad), C1 divulgación
+científica (comunicar con precisión), C2 pragmática (actos de habla). B2
+(ciudades sostenibles) conecta con B1 (medio ambiente, lote anterior); C1
+(divulgación científica) conecta con C1 (academic citing, lote anterior) y
+prepara el terreno para C2 (pragmática), que cierra el nivel más alto junto
+con crítica literaria, ironía y discurso político ya cubiertos.
 
 ### Tipos de ejercicio: dos formatos distintos
 
