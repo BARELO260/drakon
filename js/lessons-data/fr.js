@@ -1541,4 +1541,155 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris en français le même message bref («j'ai besoin que tu m'envoies le fichier») dans deux registres différents : un soutenu (pour un patron) et un familier (pour un ami), en 55-75 mots au total.",[],["soutenu", "familier", "je sollicite"]],
     ]
   },
+  {
+    id:"fr_a1_clothing_colors", level:"A1", title:"Les vêtements et les couleurs", emoji:"👕", xp:37,
+    description:"Apprends le vocabulaire des vêtements et comment les associer aux couleurs en français.",
+    study: {
+      vocab: [
+        ["la chemise", "the shirt"],
+        ["le pantalon", "the pants/trousers"],
+        ["les chaussures", "the shoes"],
+        ["la robe", "the dress"],
+        ["la veste", "the jacket"],
+        ["la jupe", "the skirt"],
+        ["rouge, bleu, vert, noir, blanc", "red, blue, green, black, white"],
+      ],
+      grammar: [
+        ["Accord de genre et nombre avec les adjectifs de couleur", "Les couleurs s'accordent en genre et en nombre avec le nom qu'elles décrivent.", "la chemise rouge / les chaussures noires / la robe verte"],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «la veste» en anglais ?",["the pants/trousers", "the skirt", "the jacket", "the shirt"],2,"«Veste» se dit «jacket» en anglais."],
+      ["mcq","Comment dit-on «les chaussures» en anglais ?",["the shoes", "the shirt", "the skirt", "the dress"],0,"«Chaussures» se dit «shoes» en anglais."],
+      ["fill","Completa: “Je porte une chemise ___ et un pantalon noir.”",["bleu", "bleues", "bleus", "bleue"],3,"«Chemise» est féminin singulier, donc la couleur s'accorde : «bleue»."],
+      ["translate","Traduis : «I'm wearing a red dress.»",["Je porte des chaussures rouges.", "Je porte une chemise rouge.", "Je porte une robe rouge.", "Je porte une jupe rouge."],2,"«I'm wearing» = «Je porte» ; «a red dress» = «une robe rouge»."],
+      ["arrange","Remets dans l'ordre : [noires / chaussures / ai / des / j']",["des J'ai noires chaussures", "J'ai des chaussures noires", "des noires chaussures J'ai", "noires J'ai des chaussures"],1,"Sujet + verbe + article + nom + adjectif (accord au pluriel)."],
+      ["writing","Décris en français, en 20-30 mots, les vêtements que tu portes aujourd'hui, en mentionnant au moins trois vêtements et leurs couleurs.",[],["je porte", "de couleur", "et"]],
+    ]
+  },
+  {
+    id:"fr_a2_fruits_vegetables", level:"A2", title:"Fruits et légumes", emoji:"🥦", xp:47,
+    description:"Apprends le vocabulaire des fruits et légumes et à parler d'une alimentation saine en français.",
+    study: {
+      vocab: [
+        ["la pomme", "the apple"],
+        ["la banane", "the banana"],
+        ["la carotte", "the carrot"],
+        ["la tomate", "the tomato"],
+        ["la laitue", "the lettuce"],
+        ["l'orange", "the orange"],
+      ],
+      grammar: [
+        ["Quantificateurs : beaucoup de, peu de", "«Beaucoup de» et «peu de» sont invariables et s'utilisent aussi bien avec des noms comptables qu'incomptables.", "Je mange beaucoup de fruits et peu de viande."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «la carotte» en anglais ?",["the banana", "the apple", "the carrot", "the orange"],2,"«Carotte» se dit «carrot» en anglais."],
+      ["mcq","Comment dit-on «la banane» en anglais ?",["the carrot", "the lettuce", "the tomato", "the banana"],3,"«Banane» se dit «banana» en anglais."],
+      ["fill","Completa: “Je mange ___ de fruits chaque jour pour rester en bonne santé.”",["beaucoup", "peu", "assez", "trop"],0,"«Beaucoup de fruits» décrit une grande quantité, cohérente avec «rester en bonne santé»."],
+      ["translate","Traduis : «I eat little meat and a lot of vegetables.»",["Je mange peu de viande et beaucoup de légumes.", "Je mange peu de viande et peu de légumes.", "Je mange peu de fruits et beaucoup de légumes.", "Je mange beaucoup de viande et beaucoup de légumes."],0,"«Little meat» = «peu de viande» ; «a lot of vegetables» = «beaucoup de légumes»."],
+      ["arrange","Remets dans l'ordre : [tomate / salade / a / la / de la / et / laitue]",["la de La laitue salade a et tomate la de", "salade et a la tomate la laitue de La de", "La salade a de la tomate et de la laitue", "et salade tomate la laitue la de de a La"],2,"Sujet + verbe + objet (deux articles partitifs reliés par «et»)."],
+      ["speaking","Décris en français, en 40-60 mots, ton alimentation habituelle : quels fruits et légumes tu manges normalement et à quelle fréquence.",[],["je mange", "souvent", "légumes"]],
+    ]
+  },
+  {
+    id:"fr_b1_cooking_recipes", level:"B1", title:"La cuisine : verbes et recettes simples", emoji:"🍳", xp:61,
+    description:"Apprends des verbes de cuisine et à expliquer les étapes d'une recette simple en français.",
+    study: {
+      vocab: [
+        ["couper, éplucher", "to cut, to peel"],
+        ["faire bouillir, faire frire", "to boil, to fry"],
+        ["mélanger les ingrédients", "to mix the ingredients"],
+        ["ajouter du sel selon le goût", "to add salt to taste"],
+        ["laisser reposer la pâte", "to let the dough rest"],
+        ["préchauffer le four", "to preheat the oven"],
+      ],
+      grammar: [
+        ["L'impératif pour donner des instructions de recette", "Les recettes utilisent l'impératif pour donner des instructions étape par étape.", "Coupez les légumes, faites bouillir l'eau et ajoutez du sel selon le goût."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «mélanger les ingrédients» en anglais ?",["to mix the ingredients", "to boil, to fry", "to cut, to peel", "to preheat the oven"],0,"«Mélanger les ingrédients» se dit «to mix the ingredients»."],
+      ["mcq","Comment dit-on «préchauffer le four» en anglais ?",["to add salt to taste", "to cut, to peel", "to let the dough rest", "to preheat the oven"],3,"«Préchauffer le four» se dit «to preheat the oven»."],
+      ["fill","Completa: “Avant de cuire au four, il faut ___ le four à 180 degrés.”",["faire bouillir", "préchauffer", "faire frire", "mélanger"],1,"«Préchauffer le four» est l'étape préalable typique avant de cuire au four."],
+      ["translate","Traduis : «Laissez reposer la pâte pendant dix minutes.»",["Let the dough cut for ten minutes.", "Let the dough fry for ten minutes.", "Let the dough rest for ten minutes.", "Let the dough boil for ten minutes."],2,"«Laissez reposer la pâte» = «Let the dough rest»."],
+      ["arrange","Remets dans l'ordre : [goût / le / selon / sel / ajoutez / du]",["le selon sel goût Ajoutez du", "Ajoutez du sel selon le goût", "selon sel le goût du Ajoutez", "goût du selon sel le Ajoutez"],1,"Impératif + objet + expression fixe «selon le goût»."],
+      ["writing","Écris en français 45-65 mots expliquant les étapes d'une recette simple que tu sais faire, en utilisant au moins trois verbes de cuisine à l'impératif.",[],["coupez", "ajoutez", "laissez reposer"]],
+    ]
+  },
+  {
+    id:"fr_b2_art_world", level:"B2", title:"Le monde de l'art : peinture, musique et cinéma", emoji:"🎨", xp:83,
+    description:"Parle d'art, de musique et de cinéma en exprimant des opinions et des jugements nuancés en français.",
+    study: {
+      vocab: [
+        ["un chef-d'œuvre", "a masterpiece"],
+        ["la mise en scène", "the staging/mise-en-scène"],
+        ["une interprétation émouvante", "a moving performance"],
+        ["le style d'un artiste", "an artist's style"],
+        ["laisser une impression durable", "to leave a lasting impression"],
+        ["être surestimé/sous-estimé", "to be overrated/underrated"],
+      ],
+      grammar: [
+        ["Verbes d'opinion + subjonctif/indicatif selon la certitude", "«Je trouve que» + indicatif exprime une opinion avec une certaine assurance ; «je ne pense pas que» + subjonctif exprime le doute.", "Je trouve que ce film est un chef-d'œuvre. / Je ne pense pas qu'il soit surestimé."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «une interprétation émouvante» en anglais ?",["an artist's style", "a moving performance", "a masterpiece", "a lasting impression"],1,"«Une interprétation émouvante» se dit «a moving performance»."],
+      ["mcq","Comment dit-on «être surestimé» en anglais ?",["an artist's style", "to be overrated", "to leave an impression", "to be underrated"],1,"«Être surestimé» se dit «to be overrated»."],
+      ["fill","Completa: “Je ne pense pas que ce film ___ aussi bon qu'on le dit.”",["était", "sera", "soit", "est"],2,"«Je ne pense pas que» exige le subjonctif : «que...soit»."],
+      ["translate","Traduis : «This performance left a lasting impression on me.»",["Ce style m'a laissé une impression durable.", "Cette mise en scène m'a laissé surestimé.", "Cette interprétation m'a laissé un chef-d'œuvre.", "Cette interprétation m'a laissé une impression durable."],3,"«Left a lasting impression» = «a laissé une impression durable»."],
+      ["arrange","Remets dans l'ordre : [chef-d'œuvre / ceci / un / est]",["chef-d'œuvre un est Ceci", "Ceci est un chef-d'œuvre", "est Ceci chef-d'œuvre un", "est Ceci un chef-d'œuvre"],1,"Sujet + «est» + article + nom."],
+      ["writing","Écris en français 55-75 mots donnant ton opinion sur une œuvre d'art, un film ou une chanson (réel ou inventé) : ce que tu en as pensé et pourquoi, en nuançant ta position.",[],["je trouve que", "je ne pense pas que", "une impression"]],
+    ]
+  },
+  {
+    id:"fr_c1_giving_feedback", level:"C1", title:"La critique constructive : donner et recevoir un feedback", emoji:"🗨️", xp:91,
+    description:"Apprends à donner et recevoir des retours de façon constructive et professionnelle en français.",
+    study: {
+      vocab: [
+        ["signaler un point à améliorer", "to point out an area for improvement"],
+        ["reconnaître les points forts avant les critiques", "to acknowledge strengths before criticism"],
+        ["formuler la critique en termes concrets", "to phrase criticism in concrete terms"],
+        ["être ouvert(e) aux retours", "to be open to feedback"],
+        ["prendre la critique personnellement", "to take criticism personally"],
+        ["proposer une solution, pas seulement signaler le problème", "to propose a solution, not just point out the problem"],
+      ],
+      grammar: [
+        ["Atténuateurs pour adoucir une critique", "Des expressions comme «tu pourrais peut-être envisager» ou «une suggestion serait» adoucissent une critique sans perdre en clarté.", "Tu pourrais peut-être envisager de restructurer le rapport ; une suggestion serait de commencer par les conclusions."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «formuler la critique en termes concrets» en anglais ?",["to phrase criticism in concrete terms", "to take criticism personally", "to be open to feedback", "to point out an area for improvement"],0,"«Formuler la critique en termes concrets» se dit «to phrase criticism in concrete terms»."],
+      ["mcq","Comment dit-on «prendre la critique personnellement» en anglais ?",["to be open to feedback", "to acknowledge strengths", "to take criticism personally", "to propose a solution"],2,"«Prendre la critique personnellement» se dit «to take criticism personally»."],
+      ["fill","Completa: “Avant de donner une critique, c'est une bonne idée de ___ les points forts du travail.”",["cacher", "reconnaître", "ignorer", "critiquer"],1,"«Reconnaître les points forts avant les critiques» fait que le feedback est mieux reçu."],
+      ["translate","Traduis : «Une suggestion serait de commencer par les conclusions.»",["One suggestion would be to start with the conclusions.", "One problem would be to start with the conclusions.", "One criticism would be to start with the conclusions.", "One suggestion would be to finish with the conclusions."],0,"«Une suggestion serait de» = «One suggestion would be to»."],
+      ["arrange","Remets dans l'ordre : [problème / propose / seulement / le / une solution / ne / signale / pas]",["Ne signale pas seulement le problème, propose une solution", "propose signale une Ne le solution problème, pas seulement", "seulement propose pas problème, le Ne signale solution une", "signale problème, le solution propose seulement Ne pas une"],0,"Structure de contraste : «ne... pas seulement» + «[verbe]... une solution»."],
+      ["writing","Écris en français 55-75 mots donnant un feedback constructif sur un travail (réel ou inventé) : reconnais un point fort, signale un point à améliorer concret et propose une solution.",[],["je reconnais que", "tu pourrais peut-être", "une suggestion serait"]],
+    ]
+  },
+  {
+    id:"fr_c2_inclusive_language", level:"C2", title:"Le langage inclusif et l'évolution de la langue", emoji:"🌐", xp:99,
+    description:"Analyse le débat sur le langage inclusif et comment les langues évoluent avec la société.",
+    study: {
+      vocab: [
+        ["le langage inclusif", "inclusive language"],
+        ["une langue vivante évolue avec l'usage", "a living language evolves with use"],
+        ["prescriptivisme face à descriptivisme", "prescriptivism versus descriptivism"],
+        ["un néologisme est ajouté au dictionnaire", "a neologism is added to the dictionary"],
+        ["générer une résistance face à un changement linguistique", "to generate resistance to a linguistic change"],
+        ["un argument n'implique pas nécessairement une position politique", "an argument doesn't necessarily imply a political stance"],
+      ],
+      grammar: [
+        ["Présenter un débat linguistique sans parti pris", "Une analyse rigoureuse sépare la description du phénomène (comment la langue change) de l'appréciation personnelle (si le changement devrait être adopté ou non).", "Du point de vue descriptiviste, le changement est documenté sans jugement ; du point de vue prescriptiviste, on évalue s'il convient de le normaliser."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on «prescriptivisme face à descriptivisme» en anglais ?",["prescriptivism versus descriptivism", "inclusive language", "a neologism", "linguistic change"],0,"«Prescriptivisme face à descriptivisme» se dit «prescriptivism versus descriptivism»."],
+      ["mcq","Comment dit-on «un néologisme est ajouté au dictionnaire» en anglais ?",["a living language evolves with use", "a neologism is added to the dictionary", "inclusive language", "to generate resistance"],1,"«Un néologisme est ajouté au dictionnaire» se dit «a neologism is added to the dictionary»."],
+      ["fill","Completa: “Le descriptivisme se concentre à documenter comment les gens parlent réellement, pas à dicter comment ils ___ parler.”",["ont tendance à", "devraient", "veulent", "peuvent"],1,"Le descriptivisme décrit l'usage réel, sans dicter de normes sur comment on «devrait» parler."],
+      ["translate","Traduis avec précision : «A living language evolves with use, whether we like it or not.»",["Une langue vivante évolue avec l'usage, qu'on le veuille ou non.", "Une langue morte évolue avec l'usage, qu'on le veuille ou non.", "Une langue vivante évolue avec l'usage, même si elle ne change pas.", "Une langue vivante évolue sans usage, qu'on le veuille ou non."],0,"«Whether we like it or not» se traduit idiomatiquement par «qu'on le veuille ou non»."],
+      ["arrange","Remets dans l'ordre : [nécessairement / implique / n' / pas / une position / politique / un argument]",["Un argument n'implique pas nécessairement une position politique", "position nécessairement politique pas argument n'implique Un une", "pas une argument position politique nécessairement n'implique Un", "une position politique n'implique nécessairement Un pas argument"],0,"Sujet + négation + «implique pas nécessairement» + objet."],
+      ["writing","Écris en français 55-75 mots présentant de façon équilibrée deux positions sur un changement linguistique actuel (réel ou inventé), sans prendre parti explicitement, en distinguant description et jugement.",[],["d'un côté", "de l'autre", "sans nécessairement"]],
+    ]
+  },
 ];
