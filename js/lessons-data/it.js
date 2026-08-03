@@ -1541,4 +1541,155 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano lo stesso messaggio breve (“ho bisogno che tu mi invii il file”) in due registri diversi: uno formale (per un capo) e uno colloquiale (per un amico), in 55-75 parole in totale.",[],["formale", "colloquiale", "richiedo"]],
     ]
   },
+  {
+    id:"it_a1_clothing_colors", level:"A1", title:"I vestiti e i colori", emoji:"👕", xp:37,
+    description:"Impara il vocabolario dei vestiti e come abbinarli ai colori in italiano.",
+    study: {
+      vocab: [
+        ["la camicia", "the shirt"],
+        ["i pantaloni", "the pants/trousers"],
+        ["le scarpe", "the shoes"],
+        ["il vestito", "the dress"],
+        ["la giacca", "the jacket"],
+        ["la gonna", "the skirt"],
+        ["rosso, blu, verde, nero, bianco", "red, blue, green, black, white"],
+      ],
+      grammar: [
+        ["Accordo di genere e numero con gli aggettivi di colore", "I colori concordano in genere e numero con il sostantivo che descrivono.", "la camicia rossa / le scarpe nere / il vestito verde"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la giacca” in inglese?",["the pants/trousers", "the skirt", "the shirt", "the jacket"],3,"“Giacca” si dice “jacket” in inglese."],
+      ["mcq","Come si dice “le scarpe” in inglese?",["the shirt", "the shoes", "the skirt", "the dress"],1,"“Scarpe” si dice “shoes” in inglese."],
+      ["fill","Completa: “Indosso una camicia ___ e dei pantaloni neri.”",["bluo", "blui", "blue", "blu"],3,"“Blu” è invariabile in italiano: non cambia con genere o numero."],
+      ["translate","Traduci: “I'm wearing a red dress.”",["Indosso un vestito rosso.", "Indosso scarpe rosse.", "Indosso una camicia rossa.", "Indosso una gonna rossa."],0,"“I'm wearing” = “Indosso”; “a red dress” = “un vestito rosso”."],
+      ["arrange","Metti in ordine: [nere / ho / scarpe / delle]",["delle Ho scarpe nere", "Ho delle scarpe nere", "nere delle Ho scarpe", "delle scarpe Ho nere"],1,"Soggetto implicito + verbo + articolo partitivo + sostantivo + aggettivo."],
+      ["writing","Descrivi in italiano, in 20-30 parole, i vestiti che indossi oggi, menzionando almeno tre capi e i loro colori.",[],["indosso", "di colore", "e"]],
+    ]
+  },
+  {
+    id:"it_a2_fruits_vegetables", level:"A2", title:"Frutta e verdura", emoji:"🥦", xp:47,
+    description:"Impara il vocabolario di frutta e verdura e a parlare di alimentazione sana in italiano.",
+    study: {
+      vocab: [
+        ["la mela", "the apple"],
+        ["la banana", "the banana"],
+        ["la carota", "the carrot"],
+        ["il pomodoro", "the tomato"],
+        ["la lattuga", "the lettuce"],
+        ["l'arancia", "the orange"],
+      ],
+      grammar: [
+        ["Quantificatori: molto/a, poco/a", "Questi quantificatori concordano in genere con il sostantivo e servono per parlare di quantità in modo approssimativo.", "Mangio molta frutta e poca carne."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la carota” in inglese?",["the apple", "the carrot", "the orange", "the banana"],1,"“Carota” si dice “carrot” in inglese."],
+      ["mcq","Come si dice “la banana” in inglese?",["the carrot", "the banana", "the lettuce", "the tomato"],1,"“Banana” si dice “banana” in inglese."],
+      ["fill","Completa: “Mangio ___ frutta ogni giorno per stare in salute.”",["molti", "molte", "molto", "molta"],3,"“Frutta” è femminile singolare, quindi il quantificatore concorda: “molta frutta”."],
+      ["translate","Traduci: “I eat little meat and a lot of vegetables.”",["Mangio molta carne e molta verdura.", "Mangio poca carne e poca verdura.", "Mangio poca frutta e molta verdura.", "Mangio poca carne e molta verdura."],3,"“Little meat” = “poca carne”; “a lot of vegetables” = “molta verdura”."],
+      ["arrange","Metti in ordine: [pomodoro / L'insalata / ha / e / lattuga]",["L'insalata ha pomodoro e lattuga", "e ha L'insalata lattuga pomodoro", "lattuga L'insalata ha e pomodoro", "lattuga pomodoro ha e L'insalata"],0,"Soggetto + verbo + oggetto (due sostantivi uniti da “e”)."],
+      ["speaking","Descrivi in italiano, in 40-60 parole, la tua dieta abituale: quale frutta e verdura mangi normalmente e con che frequenza.",[],["mangio", "spesso", "verdura"]],
+    ]
+  },
+  {
+    id:"it_b1_cooking_recipes", level:"B1", title:"La cucina: verbi e ricette semplici", emoji:"🍳", xp:61,
+    description:"Impara verbi di cucina e a spiegare i passaggi di una ricetta semplice in italiano.",
+    study: {
+      vocab: [
+        ["tagliare, sbucciare", "to cut, to peel"],
+        ["bollire, friggere", "to boil, to fry"],
+        ["mescolare gli ingredienti", "to mix the ingredients"],
+        ["aggiungere sale a piacere", "to add salt to taste"],
+        ["lasciar riposare l'impasto", "to let the dough rest"],
+        ["preriscaldare il forno", "to preheat the oven"],
+      ],
+      grammar: [
+        ["L'imperativo per dare istruzioni di ricetta", "Le ricette usano l'imperativo (formale “Lei” o infinito) per dare istruzioni passo dopo passo.", "Tagli le verdure, faccia bollire l'acqua e aggiunga sale a piacere."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “mescolare gli ingredienti” in inglese?",["to preheat the oven", "to boil, to fry", "to cut, to peel", "to mix the ingredients"],3,"“Mescolare gli ingredienti” si dice “to mix the ingredients”."],
+      ["mcq","Come si dice “preriscaldare il forno” in inglese?",["to preheat the oven", "to add salt to taste", "to let the dough rest", "to cut, to peel"],0,"“Preriscaldare il forno” si dice “to preheat the oven”."],
+      ["fill","Completa: “Prima di infornare, bisogna ___ il forno a 180 gradi.”",["preriscaldare", "bollire", "mescolare", "friggere"],0,"“Preriscaldare il forno” è il passaggio tipico prima di infornare."],
+      ["translate","Traduci: “Let the dough rest for ten minutes.”",["Lasci riposare l'impasto per dieci minuti.", "Lasci friggere l'impasto per dieci minuti.", "Lasci tagliare l'impasto per dieci minuti.", "Lasci bollire l'impasto per dieci minuti."],0,"“Let the dough rest” = “Lasci riposare l'impasto”, con l'imperativo formale."],
+      ["arrange","Metti in ordine: [piacere / sale / aggiunga / a]",["piacere a Aggiunga sale", "sale a piacere Aggiunga", "sale piacere a Aggiunga", "Aggiunga sale a piacere"],3,"Imperativo + oggetto + espressione fissa “a piacere”."],
+      ["writing","Scrivi in italiano 45-65 parole spiegando i passaggi di una ricetta semplice che sai fare, usando almeno tre verbi di cucina all'imperativo.",[],["tagli", "aggiunga", "lasci riposare"]],
+    ]
+  },
+  {
+    id:"it_b2_art_world", level:"B2", title:"Il mondo dell'arte: pittura, musica e cinema", emoji:"🎨", xp:83,
+    description:"Parla di arte, musica e cinema esprimendo opinioni e giudizi sfumati in italiano.",
+    study: {
+      vocab: [
+        ["un capolavoro", "a masterpiece"],
+        ["la messa in scena", "the staging/mise-en-scène"],
+        ["un'interpretazione commovente", "a moving performance"],
+        ["lo stile di un artista", "an artist's style"],
+        ["lasciare un'impressione duratura", "to leave a lasting impression"],
+        ["essere sopravvalutato/sottovalutato", "to be overrated/underrated"],
+      ],
+      grammar: [
+        ["Verbi di opinione + congiuntivo/indicativo secondo la certezza", "“Mi sembra che” + indicativo esprime un'opinione con una certa sicurezza; “non credo che” + congiuntivo esprime dubbio.", "Mi sembra che questo film sia un capolavoro. / Non credo che sia sopravvalutato."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un'interpretazione commovente” in inglese?",["a lasting impression", "an artist's style", "a moving performance", "a masterpiece"],2,"“Un'interpretazione commovente” si dice “a moving performance”."],
+      ["mcq","Come si dice “essere sopravvalutato” in inglese?",["an artist's style", "to leave an impression", "to be overrated", "to be underrated"],2,"“Essere sopravvalutato” si dice “to be overrated”."],
+      ["fill","Completa: “Non credo che questo film ___ così buono come dicono.”",["era", "sia", "è", "sarà"],1,"“Non credo che” richiede il congiuntivo: “che sia”."],
+      ["translate","Traduci: “This performance left a lasting impression on me.”",["Questa interpretazione mi ha lasciato un'impressione duratura.", "Questa interpretazione mi ha lasciato un capolavoro.", "Questa messa in scena mi ha lasciato sopravvalutato.", "Questo stile mi ha lasciato un'impressione duratura."],0,"“Left a lasting impression” = “ha lasciato un'impressione duratura”."],
+      ["arrange","Metti in ordine: [capolavoro / questo / è / un]",["Questo è un capolavoro", "capolavoro è Questo un", "è capolavoro Questo un", "un è capolavoro Questo"],0,"Soggetto + “è” + articolo + sostantivo."],
+      ["writing","Scrivi in italiano 55-75 parole dando la tua opinione su un'opera d'arte, un film o una canzone (reale o inventata): cosa ne pensi e perché, usando almeno una struttura con il congiuntivo di opinione.",[],["mi sembra che", "non credo che", "un'impressione"]],
+    ]
+  },
+  {
+    id:"it_c1_giving_feedback", level:"C1", title:"La critica costruttiva: dare e ricevere feedback", emoji:"🗨️", xp:91,
+    description:"Impara a dare e ricevere feedback in modo costruttivo e professionale in italiano.",
+    study: {
+      vocab: [
+        ["segnalare un punto da migliorare", "to point out an area for improvement"],
+        ["riconoscere i punti di forza prima delle critiche", "to acknowledge strengths before criticism"],
+        ["formulare la critica in termini concreti", "to phrase criticism in concrete terms"],
+        ["essere aperto/a al feedback", "to be open to feedback"],
+        ["prendere la critica sul personale", "to take criticism personally"],
+        ["proporre una soluzione, non solo segnalare il problema", "to propose a solution, not just point out the problem"],
+      ],
+      grammar: [
+        ["Attenuatori per ammorbidire una critica", "Espressioni come “potresti considerare” o “un suggerimento sarebbe” ammorbidiscono una critica senza perdere chiarezza.", "Potresti considerare di ristrutturare il rapporto; un suggerimento sarebbe iniziare con le conclusioni."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “formulare la critica in termini concreti” in inglese?",["to be open to feedback", "to phrase criticism in concrete terms", "to point out an area for improvement", "to take criticism personally"],1,"“Formulare la critica in termini concreti” si dice “to phrase criticism in concrete terms”."],
+      ["mcq","Come si dice “prendere la critica sul personale” in inglese?",["to propose a solution", "to be open to feedback", "to acknowledge strengths", "to take criticism personally"],3,"“Prendere la critica sul personale” si dice “to take criticism personally”."],
+      ["fill","Completa: “Prima di dare una critica, è una buona idea ___ i punti di forza del lavoro.”",["riconoscere", "nascondere", "criticare", "ignorare"],0,"“Riconoscere i punti di forza prima delle critiche” fa sì che il feedback sia accolto meglio."],
+      ["translate","Traduci: “Un suggerimento sarebbe iniziare con le conclusioni.”",["One criticism would be to start with the conclusions.", "One suggestion would be to finish with the conclusions.", "One suggestion would be to start with the conclusions.", "One problem would be to start with the conclusions."],2,"“Un suggerimento sarebbe” = “One suggestion would be to”."],
+      ["arrange","Metti in ordine: [problema / proponi / solo / il / una soluzione / non / segnalare]",["una soluzione problema, Non solo il proponi segnalare", "Non segnalare soluzione problema, proponi una il solo", "soluzione proponi il Non segnalare solo problema, una", "Non segnalare solo il problema, proponi una soluzione"],3,"Struttura di contrasto: “non solo... [verbo]” + “[verbo]... una soluzione”."],
+      ["writing","Scrivi in italiano 55-75 parole dando feedback costruttivo su un lavoro (reale o inventato): riconosci un punto di forza, segnala un punto da migliorare concreto e proponi una soluzione.",[],["riconosco che", "potresti considerare", "un suggerimento sarebbe"]],
+    ]
+  },
+  {
+    id:"it_c2_inclusive_language", level:"C2", title:"Il linguaggio inclusivo e l'evoluzione della lingua", emoji:"🌐", xp:99,
+    description:"Analizza il dibattito sul linguaggio inclusivo e come le lingue si evolvono con la società.",
+    study: {
+      vocab: [
+        ["il linguaggio inclusivo", "inclusive language"],
+        ["una lingua viva si evolve con l'uso", "a living language evolves with use"],
+        ["prescrittivismo contro descrittivismo", "prescriptivism versus descriptivism"],
+        ["un neologismo viene aggiunto al dizionario", "a neologism is added to the dictionary"],
+        ["generare resistenza a un cambiamento linguistico", "to generate resistance to a linguistic change"],
+        ["un argomento non implica necessariamente una posizione politica", "an argument doesn't necessarily imply a political stance"],
+      ],
+      grammar: [
+        ["Presentare un dibattito linguistico senza pregiudizi", "Un'analisi rigorosa separa la descrizione del fenomeno (come cambia la lingua) dalla valutazione personale (se il cambiamento dovrebbe essere adottato o no).", "Dal punto di vista descrittivista, il cambiamento viene documentato senza giudicarlo; da quello prescrittivista, si valuta se convenga normalizzarlo."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “prescrittivismo contro descrittivismo” in inglese?",["inclusive language", "linguistic change", "a neologism", "prescriptivism versus descriptivism"],3,"“Prescrittivismo contro descrittivismo” si dice “prescriptivism versus descriptivism”."],
+      ["mcq","Come si dice “un neologismo viene aggiunto al dizionario” in inglese?",["to generate resistance", "a neologism is added to the dictionary", "a living language evolves with use", "inclusive language"],1,"“Un neologismo viene aggiunto al dizionario” si dice “a neologism is added to the dictionary”."],
+      ["fill","Completa: “Il descrittivismo si concentra sul documentare come parla davvero la gente, non sul dettare come ___ parlare.”",["vuole", "dovrebbe", "suole", "può"],1,"Il descrittivismo descrive l'uso reale, senza dettare norme su come si “dovrebbe” parlare."],
+      ["translate","Traduci con precisione: “Una lingua viva si evolve con l'uso, che ci piaccia o no.”",["A living language evolves without use, whether we like it or not.", "A living language evolves with use, whether we like it or not.", "A dead language evolves with use, whether we like it or not.", "A living language evolves with use, even if it doesn't change."],1,"“Che ci piaccia o no” si traduce idiomaticamente come “whether we like it or not”."],
+      ["arrange","Metti in ordine: [necessariamente / implica / non / una posizione / politica / un argomento]",["Un argomento non implica necessariamente una posizione politica", "necessariamente politica una implica argomento non posizione Un", "implica Un necessariamente posizione argomento politica una non", "posizione una implica argomento necessariamente Un politica non"],0,"Soggetto + negazione + “implica necessariamente” + oggetto."],
+      ["writing","Scrivi in italiano 55-75 parole presentando in modo equilibrato due posizioni su un cambiamento linguistico attuale (reale o inventato), senza schierarti esplicitamente, distinguendo descrizione e valutazione.",[],["da un lato", "dall'altro", "senza necessariamente"]],
+    ]
+  },
 ];
