@@ -114,15 +114,15 @@ cualquier problema antes de integrarlos.
 
 | Idioma | Código | Lecciones | Notas |
 |---|---|---|---|
-| Inglés     | EN | 66 | Progresión A1→C2 completa; incluye animales/naturaleza, cuerpo humano, deporte, domótica, mundo laboral, registro/sinónimos (generadas con el generador procedural). |
-| Español    | ES | 66 | Progresión completa A1→C2: A1 (12), A2 (9), B1 (12), B2 (12), C1 (12), C2 (9). |
-| Francés    | FR | 66 | Misma progresión y temas que español, adaptados al francés. |
-| Alemán     | DE | 66 | Misma progresión, adaptada al alemán. |
-| Italiano   | IT | 66 | Misma progresión, adaptada al italiano. |
-| Portugués  | PT | 66 | Misma progresión, adaptada al portugués. |
+| Inglés     | EN | 72 | Progresión A1→C2 completa; incluye ropa/colores, frutas/verduras, cocina, arte, feedback constructivo, lenguaje inclusivo (últimas generadas con el generador procedural). |
+| Español    | ES | 72 | Progresión completa A1→C2: A1 (13), A2 (10), B1 (13), B2 (13), C1 (13), C2 (10). |
+| Francés    | FR | 72 | Misma progresión y temas que español, adaptados al francés. |
+| Alemán     | DE | 72 | Misma progresión, adaptada al alemán. |
+| Italiano   | IT | 72 | Misma progresión, adaptada al italiano. |
+| Portugués  | PT | 72 | Misma progresión, adaptada al portugués. |
 
-**Total actual: 396 lecciones.** Los 6 idiomas cubren el recorrido completo
-**A1 → C2** con exactamente el mismo número de lecciones (66 cada uno),
+**Total actual: 432 lecciones.** Los 6 idiomas cubren el recorrido completo
+**A1 → C2** con exactamente el mismo número de lecciones (72 cada uno),
 cada una con su glosario de estudio (`study`) correspondiente, validadas
 automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
 correcto en rango, sin opciones duplicadas, sin IDs repetidos; los
@@ -130,10 +130,21 @@ ejercicios `writing`/`speaking` usan un array de palabras clave en vez de un
 índice — ver más abajo).
 
 Último lote agregado (uno por nivel, en los 6 idiomas, mismo tema para
-mantener coherencia y progresión): A1 animales y naturaleza, A2 el cuerpo
-humano, B1 deportes y actividad física, B2 la casa inteligente (domótica),
-C1 el mundo laboral (reuniones/correspondencia), C2 registro y estilo
-(sinónimos según el contexto).
+mantener coherencia y progresión): A1 ropa y colores, A2 frutas y verduras,
+B1 la cocina (verbos/recetas simples), B2 el mundo del arte (pintura,
+música, cine), C1 crítica constructiva (dar/recibir feedback), C2 lenguaje
+inclusivo y evolución del idioma. A1→B1 forma un hilo de vocabulario
+cotidiano denso (ropa, comida, cocina) ideal para el generador procedural;
+B2→C2 mantiene el hilo de comunicación matizada y pensamiento crítico de
+lotes anteriores.
+
+Nota de calidad de este lote: se revisaron y corrigieron a mano varios
+detalles finos que el generador no puede validar por sí solo (concordancia
+de artículo elidido en italiano, consistencia de partitivos en francés,
+colisión de una palabra usada con dos sentidos distintos en la misma frase
+en alemán) — el generador ahorra tiempo en el ensamblado mecánico, pero
+sigue haciendo falta una revisión lingüística humana antes de dar por
+buena cada frase.
 
 ## Generador procedural (`/tools/lesson_gen.py`)
 
