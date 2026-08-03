@@ -1541,4 +1541,155 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch dieselbe kurze Nachricht („ich brauche, dass du mir die Datei schickst“) in zwei verschiedenen Registern: einem formellen (für einen Chef) und einem umgangssprachlichen (für einen Freund), in insgesamt 55-75 Wörtern.",[],["formell", "umgangssprachlich", "ich ersuche"]],
     ]
   },
+  {
+    id:"de_a1_clothing_colors", level:"A1", title:"Kleidung und Farben", emoji:"👕", xp:37,
+    description:"Lerne den Wortschatz für Kleidungsstücke und wie man sie mit Farben kombiniert.",
+    study: {
+      vocab: [
+        ["das Hemd", "the shirt"],
+        ["die Hose", "the pants/trousers"],
+        ["die Schuhe", "the shoes"],
+        ["das Kleid", "the dress"],
+        ["die Jacke", "the jacket"],
+        ["der Rock", "the skirt"],
+        ["rot, blau, grün, schwarz, weiß", "red, blue, green, black, white"],
+      ],
+      grammar: [
+        ["Adjektivendungen bei Farben", "Farbadjektive bekommen im Deutschen eine Endung, die vom Artikel und vom Fall abhängt.", "ein rotes Kleid / schwarze Schuhe / das grüne Hemd"],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Jacke“ auf Englisch?",["the pants/trousers", "the shirt", "the jacket", "the skirt"],2,"„Jacke“ heißt „jacket“ auf Englisch."],
+      ["mcq","Wie sagt man „die Schuhe“ auf Englisch?",["the dress", "the shoes", "the shirt", "the skirt"],1,"„Schuhe“ heißt „shoes“ auf Englisch."],
+      ["fill","Completa: “Ich trage ein ___ Hemd und eine schwarze Hose.”",["blaue", "blauen", "blau", "blaues"],3,"„Hemd“ ist sächlich, daher die Endung: „ein blaues Hemd“."],
+      ["translate","Übersetze: „I'm wearing a red dress.“",["Ich trage rote Schuhe.", "Ich trage einen roten Rock.", "Ich trage ein rotes Hemd.", "Ich trage ein rotes Kleid."],3,"„I'm wearing“ = „Ich trage“; „a red dress“ = „ein rotes Kleid“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [schwarze / habe / ich / Schuhe]",["Ich habe schwarze Schuhe", "Ich Schuhe schwarze habe", "schwarze Ich Schuhe habe", "Ich habe Schuhe schwarze"],0,"Subjekt + Verb + Adjektiv + Substantiv (Pluralendung ohne Artikel)."],
+      ["writing","Beschreibe auf Deutsch, in 20-30 Wörtern, die Kleidung, die du heute trägst, und nenne mindestens drei Kleidungsstücke und ihre Farben.",[],["ich trage", "-farben", "und"]],
+    ]
+  },
+  {
+    id:"de_a2_fruits_vegetables", level:"A2", title:"Obst und Gemüse", emoji:"🥦", xp:47,
+    description:"Lerne den Wortschatz für Obst und Gemüse und wie man auf Deutsch über gesunde Ernährung spricht.",
+    study: {
+      vocab: [
+        ["der Apfel", "the apple"],
+        ["die Banane", "the banana"],
+        ["die Karotte", "the carrot"],
+        ["die Tomate", "the tomato"],
+        ["der Salat", "the lettuce"],
+        ["die Orange", "the orange"],
+      ],
+      grammar: [
+        ["„Viel“ und „wenig“ für Mengen", "„Viel“ und „wenig“ bleiben vor unzählbaren Substantiven im Singular unverändert.", "Ich esse viel Obst und wenig Fleisch."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Karotte“ auf Englisch?",["the carrot", "the orange", "the banana", "the apple"],0,"„Karotte“ heißt „carrot“ auf Englisch."],
+      ["mcq","Wie sagt man „die Banane“ auf Englisch?",["the carrot", "the banana", "the tomato", "the lettuce"],1,"„Banane“ heißt „banana“ auf Englisch."],
+      ["fill","Completa: “Ich esse jeden Tag ___ Obst, um gesund zu bleiben.”",["wenig", "viel", "viele", "wenige"],1,"„Obst“ ist unzählbar, daher „viel Obst“ (unveränderlich)."],
+      ["translate","Übersetze: „I eat little meat and a lot of vegetables.“",["Ich esse wenig Fleisch und viel Gemüse.", "Ich esse viel Fleisch und viel Gemüse.", "Ich esse wenig Fleisch und wenig Gemüse.", "Ich esse wenig Obst und viel Gemüse."],0,"„Little meat“ = „wenig Fleisch“; „a lot of vegetables“ = „viel Gemüse“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Apfel / Banane / mag / und / ich]",["Ich mag Apfel und Banane", "mag Ich Apfel und Banane", "Banane und Ich mag Apfel", "Ich mag Apfel Banane und"],0,"Subjekt + Verb + Objekt (zwei durch „und“ verbundene Substantive)."],
+      ["speaking","Beschreibe auf Deutsch, in 40-60 Wörtern, deine übliche Ernährung: welches Obst und Gemüse du normalerweise isst und wie oft.",[],["ich esse", "oft", "Gemüse"]],
+    ]
+  },
+  {
+    id:"de_b1_cooking_recipes", level:"B1", title:"Kochen: Verben und einfache Rezepte", emoji:"🍳", xp:61,
+    description:"Lerne Kochverben und wie man die Schritte eines einfachen Rezepts auf Deutsch erklärt.",
+    study: {
+      vocab: [
+        ["schneiden, schälen", "to cut, to peel"],
+        ["kochen, braten", "to boil, to fry"],
+        ["die Zutaten mischen", "to mix the ingredients"],
+        ["nach Geschmack Salz hinzufügen", "to add salt to taste"],
+        ["den Teig ruhen lassen", "to let the dough rest"],
+        ["den Ofen vorheizen", "to preheat the oven"],
+      ],
+      grammar: [
+        ["Der Imperativ für Rezeptanweisungen", "Rezepte benutzen den Imperativ (Sie-Form), um Schritt für Schritt Anweisungen zu geben.", "Schneiden Sie das Gemüse, kochen Sie das Wasser und fügen Sie Salz nach Geschmack hinzu."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Zutaten mischen“ auf Englisch?",["to boil, to fry", "to preheat the oven", "to mix the ingredients", "to cut, to peel"],2,"„Die Zutaten mischen“ heißt „to mix the ingredients“."],
+      ["mcq","Wie sagt man „den Ofen vorheizen“ auf Englisch?",["to cut, to peel", "to add salt to taste", "to let the dough rest", "to preheat the oven"],3,"„Den Ofen vorheizen“ heißt „to preheat the oven“."],
+      ["fill","Completa: “Vor dem Backen muss man den Ofen auf 180 Grad ___.”",["kochen", "vorheizen", "braten", "mischen"],1,"„Den Ofen vorheizen“ ist der typische vorherige Schritt vor dem Backen."],
+      ["translate","Übersetze: „Lassen Sie den Teig zehn Minuten ruhen.“",["Let the dough cut for ten minutes.", "Let the dough rest for ten minutes.", "Let the dough boil for ten minutes.", "Let the dough fry for ten minutes."],1,"„Lassen Sie den Teig ruhen“ = „Let the dough rest“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Geschmack / Salz / nach / Sie / fügen / hinzu]",["Fügen Sie hinzu Salz Geschmack nach", "Salz Sie hinzu nach Fügen Geschmack", "Geschmack nach Fügen hinzu Sie Salz", "Fügen Sie Salz nach Geschmack hinzu"],3,"Imperativ + Objekt + feste Wendung „nach Geschmack“."],
+      ["writing","Schreibe auf Deutsch 45-65 Wörter über die Schritte eines einfachen Rezepts, das du kannst, und benutze mindestens drei Kochverben im Imperativ.",[],["schneiden Sie", "fügen Sie hinzu", "lassen Sie ruhen"]],
+    ]
+  },
+  {
+    id:"de_b2_art_world", level:"B2", title:"Die Welt der Kunst: Malerei, Musik und Film", emoji:"🎨", xp:83,
+    description:"Sprich über Kunst, Musik und Film und drücke differenzierte Meinungen auf Deutsch aus.",
+    study: {
+      vocab: [
+        ["ein Meisterwerk", "a masterpiece"],
+        ["die Inszenierung", "the staging/mise-en-scène"],
+        ["eine bewegende Darbietung", "a moving performance"],
+        ["der Stil eines Künstlers", "an artist's style"],
+        ["einen bleibenden Eindruck hinterlassen", "to leave a lasting impression"],
+        ["überbewertet/unterbewertet sein", "to be overrated/underrated"],
+      ],
+      grammar: [
+        ["„Ich glaube nicht, dass“ + Konjunktiv II zur Abschwächung einer Meinung", "„Ich glaube nicht, dass“ kann mit Konjunktiv II oder Indikativ folgen, um eine differenzierte Meinung auszudrücken.", "Ich glaube nicht, dass dieser Film so gut ist, wie alle sagen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine bewegende Darbietung“ auf Englisch?",["an artist's style", "a moving performance", "a masterpiece", "a lasting impression"],1,"„Eine bewegende Darbietung“ heißt „a moving performance“."],
+      ["mcq","Wie sagt man „überbewertet sein“ auf Englisch?",["to be overrated", "to leave an impression", "to be underrated", "an artist's style"],0,"„Überbewertet sein“ heißt „to be overrated“."],
+      ["fill","Completa: “Ich glaube nicht, dass dieser Film so gut ___, wie alle sagen.”",["ist", "gewesen", "war", "sein wird"],0,"Im Indikativ Präsens: „ich glaube nicht, dass...ist“."],
+      ["translate","Übersetze: „Esta interpretación me dejó una impresión duradera.“",["This staging left me overrated.", "This performance left a lasting impression on me.", "This style left a lasting impression on me.", "This performance left a masterpiece on me."],1,"„Dejó una impresión duradera“ = „left a lasting impression“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Meisterwerk / ein / ist / das]",["Das ist ein Meisterwerk", "Das ein ist Meisterwerk", "Meisterwerk ist Das ein", "ist ein Meisterwerk Das"],0,"Subjekt + „ist“ + Artikel + Substantiv."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter über deine Meinung zu einem Kunstwerk, Film oder Lied (real oder erfunden): was du davon hältst und warum, mit einer differenzierten Position.",[],["ich finde, dass", "ich glaube nicht, dass", "einen Eindruck"]],
+    ]
+  },
+  {
+    id:"de_c1_giving_feedback", level:"C1", title:"Konstruktive Kritik: Feedback geben und erhalten", emoji:"🗨️", xp:91,
+    description:"Lerne, auf Deutsch konstruktives und professionelles Feedback zu geben und zu erhalten.",
+    study: {
+      vocab: [
+        ["einen Verbesserungspunkt ansprechen", "to point out an area for improvement"],
+        ["Stärken vor der Kritik anerkennen", "to acknowledge strengths before criticism"],
+        ["Kritik konkret formulieren", "to phrase criticism in concrete terms"],
+        ["offen für Feedback sein", "to be open to feedback"],
+        ["Kritik persönlich nehmen", "to take criticism personally"],
+        ["eine Lösung vorschlagen, nicht nur das Problem nennen", "to propose a solution, not just point out the problem"],
+      ],
+      grammar: [
+        ["Abschwächende Formulierungen für Kritik", "Ausdrücke wie „Sie könnten vielleicht in Erwägung ziehen“ oder „ein Vorschlag wäre“ mildern Kritik ab, ohne an Klarheit zu verlieren.", "Sie könnten vielleicht in Erwägung ziehen, den Bericht umzustrukturieren; ein Vorschlag wäre, mit den Schlussfolgerungen zu beginnen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „Kritik konkret formulieren“ auf Englisch?",["to take criticism personally", "to point out an area for improvement", "to phrase criticism in concrete terms", "to be open to feedback"],2,"„Kritik konkret formulieren“ heißt „to phrase criticism in concrete terms“."],
+      ["mcq","Wie sagt man „Kritik persönlich nehmen“ auf Englisch?",["to take criticism personally", "to be open to feedback", "to propose a solution", "to acknowledge strengths"],0,"„Kritik persönlich nehmen“ heißt „to take criticism personally“."],
+      ["fill","Completa: “Bevor man Kritik übt, ist es eine gute Idee, die Stärken der Arbeit ___.”",["zu kritisieren", "zu verstecken", "anzuerkennen", "zu ignorieren"],2,"„Stärken vor der Kritik anerkennen“ sorgt dafür, dass das Feedback besser angenommen wird."],
+      ["translate","Übersetze: „Ein Vorschlag wäre, mit den Schlussfolgerungen zu beginnen.“",["One criticism would be to start with the conclusions.", "One suggestion would be to finish with the conclusions.", "One problem would be to start with the conclusions.", "One suggestion would be to start with the conclusions."],3,"„Ein Vorschlag wäre“ = „One suggestion would be to“."],
+      ["arrange","Bringe in die richtige Reihenfolge: [Problem / schlage / nur / das / eine Lösung / nicht / nenne / vor]",["Nenne nicht nur das Problem, schlage eine Lösung vor", "nur eine das Nenne Lösung nicht vor Problem, schlage", "nicht Lösung schlage Problem, vor das eine nur Nenne", "nicht das Problem, Nenne Lösung eine schlage vor nur"],0,"Kontraststruktur: „nicht nur... [Verb]“ + „[Verb]... eine Lösung“."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter mit konstruktivem Feedback zu einer Arbeit (real oder erfunden): erkenne eine Stärke an, nenne einen konkreten Verbesserungspunkt und schlage eine Lösung vor.",[],["ich erkenne an, dass", "Sie könnten vielleicht", "ein Vorschlag wäre"]],
+    ]
+  },
+  {
+    id:"de_c2_inclusive_language", level:"C2", title:"Inklusive Sprache und der Wandel der Sprache", emoji:"🌐", xp:99,
+    description:"Analysiere die Debatte um inklusive Sprache und wie sich Sprachen mit der Gesellschaft entwickeln.",
+    study: {
+      vocab: [
+        ["inklusive Sprache", "inclusive language"],
+        ["eine lebendige Sprache entwickelt sich durch den Gebrauch", "a living language evolves with use"],
+        ["Präskriptivismus versus Deskriptivismus", "prescriptivism versus descriptivism"],
+        ["ein Neologismus wird ins Wörterbuch aufgenommen", "a neologism is added to the dictionary"],
+        ["Widerstand gegen einen Sprachwandel erzeugen", "to generate resistance to a linguistic change"],
+        ["ein Argument impliziert nicht zwangsläufig eine politische Haltung", "an argument doesn't necessarily imply a political stance"],
+      ],
+      grammar: [
+        ["Eine sprachliche Debatte ohne Voreingenommenheit darstellen", "Eine rigorose Analyse trennt die Beschreibung des Phänomens (wie sich die Sprache verändert) von der persönlichen Bewertung (ob der Wandel übernommen werden sollte).", "Aus deskriptivistischer Sicht wird der Wandel ohne Urteil dokumentiert; aus präskriptivistischer Sicht wird bewertet, ob er standardisiert werden sollte."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „Präskriptivismus versus Deskriptivismus“ auf Englisch?",["inclusive language", "linguistic change", "a neologism", "prescriptivism versus descriptivism"],3,"„Präskriptivismus versus Deskriptivismus“ heißt „prescriptivism versus descriptivism“."],
+      ["mcq","Wie sagt man „ein Neologismus wird ins Wörterbuch aufgenommen“ auf Englisch?",["a living language evolves with use", "inclusive language", "to generate resistance", "a neologism is added to the dictionary"],3,"„Ein Neologismus wird ins Wörterbuch aufgenommen“ heißt „a neologism is added to the dictionary“."],
+      ["fill","Completa: “Der Deskriptivismus konzentriert sich darauf zu dokumentieren, wie Menschen tatsächlich sprechen, nicht darauf, wie sie sprechen ___.”",["sollten", "können", "pflegen", "wollen"],0,"Der Deskriptivismus beschreibt den tatsächlichen Gebrauch, ohne Normen darüber zu diktieren, wie man „sollte“ sprechen."],
+      ["translate","Übersetze mit Präzision: „Eine lebendige Sprache entwickelt sich durch den Gebrauch, ob es uns gefällt oder nicht.“",["A living language evolves with use, whether we like it or not.", "A dead language evolves with use, whether we like it or not.", "A living language evolves with use, even if it doesn't change.", "A living language evolves without use, whether we like it or not."],0,"„Ob es uns gefällt oder nicht“ wird idiomatisch als „whether we like it or not“ übersetzt."],
+      ["arrange","Bringe in die richtige Reihenfolge: [zwangsläufig / impliziert / eine politische / nicht / Haltung / ein Argument]",["Ein Argument impliziert nicht zwangsläufig eine politische Haltung", "zwangsläufig impliziert Argument Haltung politische eine Ein nicht", "nicht Argument Haltung impliziert politische Ein zwangsläufig eine", "Ein eine Haltung Argument impliziert politische nicht zwangsläufig"],0,"Subjekt + Verneinung + „impliziert zwangsläufig“ + Objekt."],
+      ["writing","Schreibe auf Deutsch 55-75 Wörter, die zwei Positionen zu einem aktuellen Sprachwandel (real oder erfunden) ausgewogen darstellen, ohne explizit Partei zu ergreifen, und unterscheide dabei Beschreibung von Bewertung.",[],["einerseits", "andererseits", "ohne zwangsläufig"]],
+    ]
+  },
 ];
