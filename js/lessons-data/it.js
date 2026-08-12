@@ -1692,4 +1692,455 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano 55-75 parole presentando in modo equilibrato due posizioni su un cambiamento linguistico attuale (reale o inventato), senza schierarti esplicitamente, distinguendo descrizione e valutazione.",[],["da un lato", "dall'altro", "senza necessariamente"]],
     ]
   },
+  {
+    id:"it_a1_neighborhood_city", level:"A1", title:"Il quartiere e la città", emoji:"🏙️", xp:38,
+    description:"Impara il vocabolario dei luoghi del quartiere e come dire dove si trovano in italiano.",
+    study: {
+      vocab: [
+        ["la banca", "the bank"],
+        ["il supermercato", "the supermarket"],
+        ["il parco", "the park"],
+        ["la farmacia", "the pharmacy"],
+        ["la biblioteca", "the library"],
+        ["la fermata dell'autobus", "the bus stop"],
+        ["vicino a, lontano da, accanto a", "near, far from, next to"],
+      ],
+      grammar: [
+        ["„C'è / ci sono” + preposizioni di luogo", "„C'è” (there is) e „ci sono” (there are) indicano che qualcosa esiste in un luogo; concordano con il numero. Le preposizioni di luogo indicano dove si trova.", "C'è una farmacia vicino al parco. / La biblioteca è accanto alla banca."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la farmacia” in inglese?",["the park", "the supermarket", "the bank", "the pharmacy"],3,"“Farmacia” si dice “pharmacy” in inglese."],
+      ["mcq","Come si dice “la fermata dell'autobus” in inglese?",["the supermarket", "the library", "the pharmacy", "the bus stop"],3,"“Fermata dell'autobus” si dice “bus stop” in inglese."],
+      ["fill","Completa: “Nel mio quartiere ___ una biblioteca molto grande.”",["è", "sono", "ci sono", "c'è"],3,"“C'è” si usa con un sostantivo singolare per dire che qualcosa esiste: “c'è una biblioteca”."],
+      ["translate","Traduci: “The pharmacy is next to the park.”",["La farmacia è lontana dal parco.", "La banca è accanto al parco.", "La farmacia è vicino alla biblioteca.", "La farmacia è accanto al parco."],3,"“Next to” = “accanto a”; il soggetto e il luogo devono corrispondere all'originale."],
+      ["arrange","Ordina: [supermercato / lontano / il / non / è]",["Il è supermercato non lontano", "Il non è lontano supermercato", "supermercato è Il lontano non", "Il supermercato non è lontano"],3,"Soggetto + verbo + negazione + avverbio di luogo."],
+      ["writing","Descrivi in 20-30 parole il tuo quartiere: quali luoghi ci sono e dove si trovano (usa “c'è/ci sono”, “vicino a” e “lontano da”).",[],["c'è", "vicino a", "lontano da"]],
+    ]
+  },
+  {
+    id:"it_a2_celebrations_holidays", level:"A2", title:"Le celebrazioni e le feste", emoji:"🎉", xp:48,
+    description:"Impara il vocabolario delle feste e a parlare di abitudini con „solere”.",
+    study: {
+      vocab: [
+        ["il compleanno", "the birthday"],
+        ["il matrimonio", "the wedding"],
+        ["il Natale", "Christmas"],
+        ["il Capodanno", "New Year"],
+        ["celebrare, festeggiare", "to celebrate"],
+        ["fare un regalo", "to give a gift"],
+      ],
+      grammar: [
+        ["„Solere” + infinito per parlare di abitudini", "„Solere” + infinito esprime ciò che si fa abitualmente; si usa soprattutto al presente e all'imperfetto.", "Sogliamo riunirci con la famiglia a Natale. / Da bambino, solevo festeggiare il compleanno al parco."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “fare un regalo” in inglese?",["to give a gift", "the birthday", "to celebrate", "New Year"],0,"“Fare un regalo” si dice “to give a gift” in inglese."],
+      ["mcq","Come si dice “il matrimonio” in inglese?",["to celebrate", "Christmas", "the wedding", "New Year"],2,"“Matrimonio” si dice “wedding” in inglese."],
+      ["fill","Completa: “Ogni Capodanno, ___ festeggiare con tutta la famiglia.”",["abbiamo", "facciamo", "siamo", "sogliamo"],3,"„Solere” + infinito esprime un'abitudine: „sogliamo festeggiare”."],
+      ["translate","Traduci: “We usually give gifts at Christmas.”",["Sogliamo fare regali al compleanno.", "Sogliamo festeggiare regali a Natale.", "Sogliamo fare regali a Natale.", "Facciamo un regalo a Natale."],2,"“We usually give gifts” = “Sogliamo fare regali”, con „solere” + infinito."],
+      ["arrange","Ordina: [compleanno / festeggio / il / mio / con amici]",["amici Festeggio compleanno con mio il", "Festeggio amici compleanno il con mio", "Festeggio il mio amici con compleanno", "Festeggio il mio compleanno con amici"],3,"Verbo + oggetto possessivo + preposizione + complemento."],
+      ["speaking","Descrivi in 40-60 parole come soli festeggiare una festa importante per te (compleanno, Natale, Capodanno o altro), usando „solere”.",[],["soglio", "festeggio", "con"]],
+    ]
+  },
+  {
+    id:"it_b1_relationships_friendship", level:"B1", title:"Le relazioni personali e l'amicizia", emoji:"🤝", xp:62,
+    description:"Impara vocabolario sull'amicizia e a dare consigli con „dovere”.",
+    study: {
+      vocab: [
+        ["fidarsi di qualcuno", "to trust someone"],
+        ["andare d'accordo/male con qualcuno", "to get along well/badly with someone"],
+        ["avere qualcosa in comune", "to have something in common"],
+        ["rimanere in contatto", "to keep in touch"],
+        ["un amico/un'amica fidato/a", "a close/trustworthy friend"],
+        ["fare pace dopo una litigata", "to make up after an argument"],
+      ],
+      grammar: [
+        ["Consigli con „dovere” al condizionale e all'indicativo", "„Dovresti” (condizionale di „dovere”) dà un consiglio delicato; „devi” (indicativo) esprime un obbligo più forte.", "Dovresti rimanere in contatto con i tuoi amici. / Dovete fare pace se volete restare amici."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “andare d'accordo con qualcuno” in inglese?",["to keep in touch", "a close/trustworthy friend", "to get along well/badly with someone", "to have something in common"],2,"“Andare d'accordo con qualcuno” si dice “to get along well with someone” in inglese."],
+      ["mcq","Come si dice “fare pace dopo una litigata” in inglese?",["a close/trustworthy friend", "to make up after an argument", "to get along well/badly with someone", "to trust someone"],1,"“Fare pace dopo una litigata” si dice “to make up after an argument” in inglese."],
+      ["fill","Completa: “Se vuoi mantenere quest'amicizia, ___ rimanere in contatto.”",["dovresti", "dovrai", "dovevi", "devi di"],0,"„Dovresti” (condizionale di „dovere”) dà un consiglio delicato in seconda persona."],
+      ["translate","Traduci: “You have to trust your friends.”",["Devi fidarti della tua famiglia.", "Devi andare d'accordo con i tuoi amici.", "Devi fidarti dei tuoi amici.", "Dovresti fidarti dei tuoi amici."],2,"“You have to trust” = “Devi fidarti”, con „dovere” + infinito."],
+      ["arrange","Ordina: [comune / molto / abbiamo / in]",["in molto comune Abbiamo", "molto comune in Abbiamo", "comune in molto Abbiamo", "Abbiamo molto in comune"],3,"Verbo + quantificatore + preposizione fissa „in comune”."],
+      ["writing","Scrivi 45-65 parole su un'amicizia importante per te: cosa avete in comune e quale consiglio daresti a chi vuole mantenere un'amicizia così.",[],["abbiamo in comune", "dovresti", "fidarsi"]],
+    ]
+  },
+  {
+    id:"it_b2_remote_work_balance", level:"B2", title:"Il lavoro da remoto e l'equilibrio vita-lavoro", emoji:"💻", xp:84,
+    description:"Parla del lavoro da remoto e della conciliazione vita-lavoro usando il gerundio in italiano.",
+    study: {
+      vocab: [
+        ["lavorare da remoto", "to work remotely"],
+        ["l'orario flessibile", "flexible working hours"],
+        ["la disconnessione digitale", "digital disconnection"],
+        ["il burnout", "burnout"],
+        ["conciliare la vita lavorativa e personale", "to balance work and personal life"],
+        ["essere produttivo/a", "to be productive"],
+      ],
+      grammar: [
+        ["Il gerundio per esprimere simultaneità o causa", "Il gerundio (-ando/-endo) esprime un'azione simultanea a un'altra o la sua causa, senza bisogno di congiunzione.", "Lavorando da casa, si risparmia tempo di spostamento. / Molti soffrono di burnout lavorando senza mai disconnettersi."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la disconnessione digitale” in inglese?",["digital disconnection", "burnout", "to work remotely", "to be productive"],0,"“Disconnessione digitale” si dice “digital disconnection” in inglese."],
+      ["mcq","Come si dice “conciliare la vita lavorativa e personale” in inglese?",["flexible working hours", "to balance work and personal life", "digital disconnection", "to work remotely"],1,"“Conciliare la vita lavorativa e personale” si dice “to balance work and personal life” in inglese."],
+      ["fill","Completa: “___ da casa, molte persone riescono a conciliare meglio la vita lavorativa e personale.”",["Lavori", "Lavorato", "Lavorare", "Lavorando"],3,"Il gerundio (“lavorando”) esprime la circostanza che permette il risultato che segue."],
+      ["translate","Traduci: “Working without disconnecting can lead to burnout.”",["Disconnettendosi dal lavoro, si può arrivare al burnout.", "Lavorando con orario flessibile, si può arrivare al burnout.", "Lavorare senza disconnettersi può evitare il burnout.", "Lavorando senza disconnettersi, si può arrivare al burnout."],3,"Il gerundio “lavorando senza disconnettersi” esprime la causa del burnout."],
+      ["arrange","Ordina: [flessibile / apprezzano / un / molti / orario]",["Molti apprezzano un orario flessibile", "un apprezzano orario flessibile Molti", "Molti apprezzano orario un flessibile", "apprezzano un Molti orario flessibile"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole sui vantaggi e gli svantaggi del lavoro da remoto per l'equilibrio vita-lavoro, usando almeno un gerundio di simultaneità o causa.",[],["lavorando", "conciliare", "tuttavia"]],
+    ]
+  },
+  {
+    id:"it_c1_negotiation_conflict", level:"C1", title:"La negoziazione e la risoluzione dei conflitti", emoji:"🤝", xp:92,
+    description:"Impara a negoziare e ad ammorbidire proposte con il condizionale in un registro formale.",
+    study: {
+      vocab: [
+        ["raggiungere un accordo", "to reach an agreement"],
+        ["fare concessioni", "to give ground/make concessions"],
+        ["un punto morto", "a deadlock/stalemate"],
+        ["una posizione intransigente", "an inflexible/uncompromising stance"],
+        ["cercare un compromesso", "to look for a middle ground"],
+        ["rompere il ghiaccio", "to break the ice"],
+      ],
+      grammar: [
+        ["Il condizionale per ammorbidire le proposte", "Il condizionale semplice ammorbidisce richieste e proposte durante una negoziazione, dando un'impressione di maggiore cortesia e flessibilità.", "Sarebbe disposto a fare concessioni su questo punto? / Sarebbe preferibile cercare un compromesso prima di arrivare a un punto morto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un punto morto” in inglese?",["to look for a middle ground", "a deadlock/stalemate", "to give ground/make concessions", "to break the ice"],1,"“Un punto morto” si dice “a deadlock” o “stalemate” in inglese."],
+      ["mcq","Come si dice “una posizione intransigente” in inglese?",["to reach an agreement", "an inflexible/uncompromising stance", "to break the ice", "a deadlock/stalemate"],1,"“Una posizione intransigente” si dice “an inflexible/uncompromising stance” in inglese."],
+      ["fill","Completa: “___ preferibile cercare un compromesso prima di arrivare a un punto morto.”",["Fu", "Sarebbe", "È", "Sarà"],1,"Il condizionale “sarebbe” ammorbidisce l'affermazione, tipico del registro di negoziazione formale."],
+      ["translate","Traduci in registro formale: “Would you be willing to make concessions on this point?”",["Sarebbe disposto a raggiungere un accordo su questo punto?", "Sarebbe disposto a fare concessioni su questo punto?", "È disposto a fare concessioni su questo punto?", "Sarebbe disposto a rompere il ghiaccio su questo punto?"],1,"Il condizionale “sarebbe disposto” ammorbidisce la domanda, più formale del presente “è disposto”."],
+      ["arrange","Ordina: [accordo / difficile / raggiungere / sarà / un]",["Sarà un raggiungere accordo difficile", "raggiungere Sarà accordo un difficile", "raggiungere difficile accordo Sarà un", "Sarà difficile raggiungere un accordo"],3,"Futuro + aggettivo + infinito + complemento."],
+      ["writing","Scrivi 55-75 parole descrivendo una negoziazione (reale o inventata) in cui entrambe le parti hanno fatto concessioni per evitare un punto morto, usando almeno due condizionali di cortesia.",[],["sarebbe", "sarebbe disposto", "compromesso"]],
+    ]
+  },
+  {
+    id:"it_c2_corporate_euphemism", level:"C2", title:"Il linguaggio aziendale e l'eufemismo", emoji:"🏢", xp:100,
+    description:"Analizza l'eufemismo nel linguaggio aziendale e pratica i connettivi di riformulazione.",
+    study: {
+      vocab: [
+        ["un eufemismo", "a euphemism"],
+        ["il gergo aziendale", "corporate jargon"],
+        ["una ristrutturazione (eufemismo per licenziamenti)", "a restructuring (euphemism for layoffs)"],
+        ["attenuare l'impatto di un messaggio", "to soften the impact of a message"],
+        ["un anglicismo inutile", "an unnecessary anglicism"],
+        ["diluire la responsabilità di qualcuno", "to dilute someone's responsibility"],
+      ],
+      grammar: [
+        ["Connettivi di riformulazione e precisazione", "Espressioni come “cioè”, “in altre parole” o “detto altrimenti” riformulano un'idea, spesso per attenuarla o precisarla — fondamentali per riconoscere gli eufemismi.", "L'azienda ha annunciato una “ristrutturazione”, cioè licenziamenti. / In altre parole: ridurranno il personale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “diluire la responsabilità di qualcuno” in inglese?",["to dilute someone's responsibility", "a euphemism", "corporate jargon", "an unnecessary anglicism"],0,"“Diluire la responsabilità di qualcuno” si dice “to dilute someone's responsibility” in inglese."],
+      ["mcq","Come si dice “una ristrutturazione (eufemismo per licenziamenti)” in inglese?",["an unnecessary anglicism", "a euphemism", "a restructuring (euphemism for layoffs)", "corporate jargon"],2,"“Ristrutturazione” si dice “restructuring” in inglese, eufemismo abituale di “layoffs” (licenziamenti)."],
+      ["fill","Completa: “L'azienda parla di “ottimizzazione delle risorse”, ___ , di licenziamenti.”",["per esempio", "sebbene", "tuttavia", "cioè"],3,"“Cioè” riformula l'espressione eufemistica con il suo significato letterale."],
+      ["translate","Traduci con precisione: “Corporate jargon often softens the impact of bad news.”",["Il gergo aziendale spesso diluisce l'impatto delle cattive notizie.", "Un eufemismo spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso evita l'impatto delle cattive notizie."],2,"“Softens the impact” = “attenua l'impatto”; il soggetto deve essere “il gergo aziendale”."],
+      ["arrange","Ordina: [licenziamenti / eufemismo / ristrutturazione / un / di / è]",["Ristrutturazione è un eufemismo di licenziamenti", "un eufemismo licenziamenti di è Ristrutturazione", "un eufemismo Ristrutturazione di licenziamenti è", "licenziamenti è Ristrutturazione eufemismo di un"],0,"Soggetto + verbo + articolo + sostantivo + preposizione + complemento."],
+      ["writing","Scrivi 55-75 parole analizzando un eufemismo aziendale reale o inventato: cosa nasconde, perché si usa e come lo riformuleresti con più chiarezza, usando almeno un connettivo di riformulazione.",[],["cioè", "eufemismo", "in altre parole"]],
+    ]
+  },
+  {
+    id:"it_a1_airport_hotel", level:"A1", title:"All'aeroporto e in albergo", emoji:"✈️", xp:38,
+    description:"Impara il vocabolario di viaggio e a parlare di piani immediati con „andare a + infinito”.",
+    study: {
+      vocab: [
+        ["il passaporto", "the passport"],
+        ["la valigia", "the suitcase"],
+        ["il volo", "the flight"],
+        ["la camera", "the room"],
+        ["la prenotazione", "the booking"],
+        ["fare il check-in dei bagagli", "to check in luggage"],
+      ],
+      grammar: [
+        ["„Andare a” + infinito per il futuro prossimo", "„Andare a” + infinito esprime un piano o un'azione che sta per accadere, molto usato nel parlato quotidiano.", "Vado a fare il check-in dei bagagli. / Andiamo a prenotare una camera per venerdì."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il passaporto” in inglese?",["the suitcase", "the booking", "the passport", "to check in luggage"],2,"“Passaporto” si dice “passport” in inglese."],
+      ["mcq","Come si dice “fare il check-in dei bagagli” in inglese?",["the booking", "the flight", "to check in luggage", "the passport"],2,"“Fare il check-in dei bagagli” si dice “to check in luggage” in inglese."],
+      ["fill","Completa: “Domani ___ a fare il check-in dei bagagli molto presto.”",["sono andato", "vado a", "vado", "andrò a"],2,"„Andare a” + infinito: „vado a fare”, nello spazio va solo il verbo „andare” coniugato."],
+      ["translate","Traduci: “We are going to book a room for Friday.”",["Andiamo a fare il check-in di una camera per venerdì.", "Andiamo a prenotare una camera per venerdì.", "Andiamo a prenotare un volo per venerdì.", "Andiamo a prenotare una camera per lunedì."],1,"“We are going to book” = “Andiamo a prenotare”, con „andare a” + infinito."],
+      ["arrange","Ordina: [passaporto / vado / mio / a / cercare]",["mio Vado cercare passaporto a", "Vado a cercare mio passaporto", "a Vado passaporto mio cercare", "cercare passaporto Vado mio a"],1,"Verbo „andare a” + infinito + oggetto possessivo."],
+      ["writing","Descrivi in 20-30 parole i tuoi piani di viaggio: cosa stai per fare (check-in bagagli, prenotare camera, ecc.) usando „andare a + infinito”.",[],["vado a", "andiamo a", "prenotare"]],
+    ]
+  },
+  {
+    id:"it_a2_everyday_tech", level:"A2", title:"La tecnologia della vita quotidiana", emoji:"📱", xp:48,
+    description:"Impara il vocabolario della tecnologia quotidiana e a comparare con „tanto...quanto” e „più...di”.",
+    study: {
+      vocab: [
+        ["il wifi", "the wifi"],
+        ["la password", "the password"],
+        ["l'app", "the app"],
+        ["caricare il cellulare", "to charge the phone"],
+        ["scaricare", "to download"],
+        ["la batteria", "the battery"],
+      ],
+      grammar: [
+        ["Comparativi di uguaglianza e maggioranza", "„Tanto/così + aggettivo + quanto” compara qualità uguali; „più + aggettivo + di/che” compara una superiorità.", "Questa app è tanto veloce quanto l'altra. / La mia batteria dura più della tua."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la password” in inglese?",["the wifi", "to download", "the password", "the app"],2,"“Password” si dice “password” in inglese."],
+      ["mcq","Come si dice “scaricare” in inglese?",["the password", "the battery", "to download", "to charge the phone"],2,"“Scaricare” si dice “download” in inglese."],
+      ["fill","Completa: “Questa app è ___ veloce quanto l'altra.”",["meno", "molto", "più", "tanto"],3,"„Tanto + aggettivo + quanto” compara due cose con la stessa qualità."],
+      ["translate","Traduci: “My battery lasts longer than yours.”",["Il mio wifi dura più della tua.", "La mia batteria dura tanto quanto la tua.", "La mia batteria dura meno della tua.", "La mia batteria dura più della tua."],3,"“Lasts longer than” = “dura più di”, comparativo di maggioranza."],
+      ["arrange","Ordina: [password / bisogno / una / più / ho / sicura]",["Ho una sicura password bisogno più", "Ho sicura bisogno più una password", "una più bisogno sicura password Ho", "Ho bisogno una password più sicura"],3,"Verbo + articolo + sostantivo + comparativo + aggettivo."],
+      ["speaking","Descrivi in 40-60 parole come usi la tecnologia ogni giorno, comparando due app o dispositivi con „tanto...quanto” o „più...di”.",[],["tanto...quanto", "più...di", "app"]],
+    ]
+  },
+  {
+    id:"it_b1_digital_entertainment", level:"B1", title:"Il tempo libero digitale: serie e videogiochi", emoji:"🎮", xp:62,
+    description:"Impara il vocabolario dell'intrattenimento digitale e a esprimere la durata con „stare + gerundio + da”.",
+    study: {
+      vocab: [
+        ["la serie", "the series/show"],
+        ["il videogioco", "the video game"],
+        ["la piattaforma di streaming", "the streaming platform"],
+        ["appassionarsi a qualcosa", "to get hooked on something"],
+        ["la maratona di serie", "binge-watching"],
+        ["i sottotitoli", "the subtitles"],
+      ],
+      grammar: [
+        ["„Da” + tempo con il presente per esprimere la durata", "„Presente + da + tempo” esprime da quanto tempo un'azione continua, simile a „to have been doing something”.", "Guardo questa serie da due ore. / Giochiamo ai videogiochi da tutto il weekend."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “appassionarsi a qualcosa” in inglese?",["to get hooked on something", "the streaming platform", "the subtitles", "the video game"],0,"“Appassionarsi a qualcosa” si dice “to get hooked on something” in inglese."],
+      ["mcq","Come si dice “la maratona di serie” in inglese?",["the streaming platform", "to get hooked on something", "binge-watching", "the subtitles"],2,"“Maratona di serie” si dice “binge-watching” in inglese."],
+      ["fill","Completa: “Guardo questa serie ___ due ore senza fermarmi.”",["da", "per", "fa", "in"],0,"„Presente + da + tempo” esprime la durata di un'azione in corso: „guardo da due ore”."],
+      ["translate","Traduci: “We have been playing video games all weekend.”",["Giochiamo alle serie da tutto il weekend.", "Abbiamo giocato ai videogiochi tutto il weekend.", "Guardiamo ai videogiochi da tutto il weekend.", "Giochiamo ai videogiochi da tutto il weekend."],3,"“Have been playing all weekend” = “Giochiamo da tutto il weekend”, con „presente + da”."],
+      ["arrange","Ordina: [appassionato / mi / sono / a questa serie]",["Mi sono serie questa a appassionato", "a serie sono appassionato Mi questa", "appassionato serie a Mi sono questa", "Mi sono appassionato a questa serie"],3,"Soggetto riflessivo + verbo + preposizione + complemento."],
+      ["writing","Scrivi 45-65 parole su una serie o un videogioco a cui ti sei appassionato, usando „presente + da” per dire da quanto tempo.",[],["da", "appassionato", "piattaforma"]],
+    ]
+  },
+  {
+    id:"it_b2_cybersecurity_privacy", level:"B2", title:"La cybersicurezza e la privacy online", emoji:"🔒", xp:84,
+    description:"Parla di cybersicurezza usando le frasi relative determinative ed esplicative.",
+    study: {
+      vocab: [
+        ["la cybersicurezza", "cybersecurity"],
+        ["violare un sistema", "to hack a system"],
+        ["i dati personali", "personal data"],
+        ["una password sicura", "a strong password"],
+        ["il furto di identità", "identity theft/phishing"],
+        ["crittografare le informazioni", "to encrypt information"],
+      ],
+      grammar: [
+        ["Frasi relative determinative ed esplicative", "Le determinative (senza virgole) identificano di cosa si parla e non si possono omettere; le esplicative (tra virgole) aggiungono informazione extra e si possono omettere.", "I dati che condividiamo online possono essere violati. (determinativa) / I miei dati, che condivido poco, sono ben protetti. (esplicativa)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il furto di identità” in inglese?",["personal data", "to hack a system", "identity theft/phishing", "cybersecurity"],2,"“Furto di identità” si dice “identity theft” o “phishing” in inglese."],
+      ["mcq","Come si dice “crittografare le informazioni” in inglese?",["identity theft/phishing", "a strong password", "to encrypt information", "cybersecurity"],2,"“Crittografare le informazioni” si dice “to encrypt information” in inglese."],
+      ["fill","Completa: “I dati ___ condividiamo online possono essere violati.”",["quali", "che", "chi", "cui"],1,"La frase determinativa usa „che” senza virgole per identificare di quali dati si parla."],
+      ["translate","Traduci: “My data, which I rarely share, is well protected.”",["I miei dati che condivido poco sono ben protetti.", "I miei dati, che condivido poco, sono ben protetti.", "I miei dati, che condivido poco, sono mal protetti.", "I miei dati, che violo poco, sono ben protetti."],1,"La virgola indica un'esplicativa: „i miei dati, che condivido poco,” aggiunge informazione extra."],
+      ["arrange","Ordina: [sicura / bisogno / di / una / password / hai]",["sicura Hai di bisogno password una", "di una password bisogno sicura Hai", "Hai bisogno di una password sicura", "bisogno una password Hai di sicura"],2,"Verbo + preposizione + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su come proteggi i tuoi dati personali online, usando almeno una relativa determinativa e una esplicativa.",[],["che", "il/la quale", "dati personali"]],
+    ]
+  },
+  {
+    id:"it_c1_historical_memory_heritage", level:"C1", title:"La memoria storica e il patrimonio culturale", emoji:"🏛️", xp:92,
+    description:"Analizza la memoria storica e il patrimonio culturale con „essere + participio” per gli stati risultanti.",
+    study: {
+      vocab: [
+        ["il patrimonio culturale", "cultural heritage"],
+        ["preservare la memoria storica", "to preserve historical memory"],
+        ["un monumento commemorativo", "a memorial"],
+        ["l'eredità", "the legacy"],
+        ["riscrivere la storia", "to rewrite history"],
+        ["l'identità collettiva", "collective identity"],
+      ],
+      grammar: [
+        ["„Essere + participio” per lo stato risultante", "„Essere” + participio descrive lo stato risultante di un'azione passata, come un aggettivo, a differenza del passivo che descrive l'azione stessa.", "Il monumento è dedicato alle vittime. / La storia è segnata da conflitti interni."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “l'eredità” in inglese?",["to preserve historical memory", "a memorial", "the legacy", "cultural heritage"],2,"“Eredità” si dice “legacy” in inglese."],
+      ["mcq","Come si dice “riscrivere la storia” in inglese?",["cultural heritage", "collective identity", "the legacy", "to rewrite history"],3,"“Riscrivere la storia” si dice “to rewrite history” in inglese."],
+      ["fill","Completa: “Il monumento ___ dedicato alle vittime del conflitto.”",["sia", "era", "è", "viene"],2,"„Essere + participio” descrive lo stato risultante: „il monumento è dedicato”."],
+      ["translate","Traduci: “Collective identity is often shaped by historical memory.”",["Il patrimonio culturale è spesso segnato dalla memoria storica.", "L'identità collettiva viene spesso segnata dalla memoria storica.", "L'identità collettiva è spesso segnata dall'eredità storica.", "L'identità collettiva è spesso segnata dalla memoria storica."],3,"“Is shaped by” come stato risultante si traduce con „è segnata da”."],
+      ["arrange","Ordina: [patrimonio / preservare / il / culturale / dobbiamo]",["Dobbiamo preservare il patrimonio culturale", "patrimonio culturale Dobbiamo preservare il", "Dobbiamo il culturale preservare patrimonio", "patrimonio Dobbiamo il preservare culturale"],0,"Verbo modale + infinito + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su un monumento o una tradizione che preserva la memoria storica della tua comunità, usando almeno due costruzioni con „essere + participio”.",[],["è dedicato", "è segnato", "patrimonio culturale"]],
+    ]
+  },
+  {
+    id:"it_c2_institutional_ambiguity", level:"C2", title:"L'ambiguità calcolata nel discorso istituzionale", emoji:"🏛️", xp:100,
+    description:"Analizza l'ambiguità istituzionale e pratica i connettivi di sfumatura epistemica.",
+    study: {
+      vocab: [
+        ["l'ambiguità calcolata", "calculated ambiguity"],
+        ["un comunicato istituzionale", "an institutional statement"],
+        ["evitare di impegnarsi", "to avoid committing oneself"],
+        ["la vaghezza deliberata", "deliberate vagueness"],
+        ["leggere tra le righe", "to read between the lines"],
+        ["un linguaggio evasivo", "evasive language"],
+      ],
+      grammar: [
+        ["Connettivi di sfumatura epistemica", "Espressioni come „va sottolineato che”, „non vi è dubbio che” o „in un certo senso” sfumano il grado di certezza o rilevanza di un'affermazione, tipiche del discorso istituzionale.", "Va sottolineato che il comunicato evita di impegnarsi su date precise. / In un certo senso, la vaghezza è deliberata."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “leggere tra le righe” in inglese?",["calculated ambiguity", "to read between the lines", "evasive language", "deliberate vagueness"],1,"“Leggere tra le righe” si dice “to read between the lines” in inglese."],
+      ["mcq","Come si dice “un linguaggio evasivo” in inglese?",["calculated ambiguity", "an institutional statement", "to avoid committing oneself", "evasive language"],3,"“Un linguaggio evasivo” si dice “evasive language” in inglese."],
+      ["fill","Completa: “___ sottolineato che il comunicato evita di impegnarsi su date precise.”",["È", "Può", "Va", "C'è"],2,"„Va sottolineato che” è un connettivo fisso di sfumatura epistemica che introduce un'osservazione rilevante."],
+      ["translate","Traduci con precisione: “In a way, the vagueness is deliberate.”",["Di un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è evasiva.", "In un certo senso, l'ambiguità è calcolata."],1,"“In a way” = “in un certo senso”, connettivo fisso di sfumatura."],
+      ["arrange","Ordina: [dubbio / non / vi / è / che / il linguaggio / è evasivo]",["linguaggio Non è è dubbio vi il evasivo che", "Non vi è dubbio che il linguaggio è evasivo", "è è che il Non dubbio vi evasivo linguaggio", "dubbio che è il vi linguaggio Non è evasivo"],1,"Connettivo fisso „non vi è dubbio che” + subordinata."],
+      ["writing","Scrivi 55-75 parole analizzando un comunicato istituzionale reale o inventato che usa ambiguità calcolata, usando almeno due connettivi di sfumatura epistemica.",[],["va sottolineato che", "non vi è dubbio che", "in un certo senso"]],
+    ]
+  },
+  {
+    id:"it_a1_sports_exercise", level:"A1", title:"Gli sport e l'esercizio fisico", emoji:"⚽", xp:38,
+    description:"Impara il vocabolario dello sport e a esprimere gusti con il verbo „piacere”.",
+    study: {
+      vocab: [
+        ["il calcio", "soccer/football"],
+        ["il nuoto", "swimming"],
+        ["correre", "to run"],
+        ["la palestra", "the gym"],
+        ["fare esercizio", "to exercise"],
+        ["la squadra", "the team"],
+      ],
+      grammar: [
+        ["Il verbo „piacere” + infinito/sostantivo", "„Piacere” funziona al contrario dell'inglese: concorda con ciò che piace, non con la persona. Si usa con pronomi indiretti (mi, ti, gli/le, ci, vi, gli).", "Mi piace nuotare. / A lei piacciono gli sport di squadra."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il nuoto” in inglese?",["the gym", "to run", "swimming", "soccer/football"],2,"“Nuoto” si dice “swimming” in inglese."],
+      ["mcq","Come si dice “la squadra” in inglese?",["the gym", "to run", "the team", "swimming"],2,"“Squadra” si dice “team” in inglese."],
+      ["fill","Completa: “A me ___ piace correre la mattina.”",["ti", "mi", "gli", "io"],1,"„Piacere” usa pronomi indiretti: „a me mi piace”."],
+      ["translate","Traduci: “She likes team sports.”",["A lei piacciono gli sport individuali.", "A lei piacciono lo sport di squadra.", "A lei piacciono gli sport di squadra.", "A lei piace gli sport di squadra."],2,"„Piacciono” concorda al plurale con „gli sport”, non con „lei”."],
+      ["arrange","Ordina: [palestra / vado / esercizio / in / a / fare]",["esercizio fare a palestra in Vado", "in esercizio fare a palestra Vado", "in a palestra fare Vado esercizio", "Vado in palestra a fare esercizio"],3,"Verbo + preposizione + sostantivo + preposizione + infinito."],
+      ["writing","Descrivi in 20-30 parole quali sport ti piacciono e quanto spesso fai esercizio, usando „piacere”.",[],["mi piace", "mi piacciono", "fare esercizio"]],
+    ]
+  },
+  {
+    id:"it_a2_household_chores", level:"A2", title:"Le faccende domestiche", emoji:"🧹", xp:48,
+    description:"Impara il vocabolario delle faccende domestiche e a esprimere obbligo impersonale con „bisogna”.",
+    study: {
+      vocab: [
+        ["spazzare", "to sweep"],
+        ["lavare i piatti", "to wash the dishes"],
+        ["portare fuori la spazzatura", "to take out the trash"],
+        ["stirare i vestiti", "to iron the clothes"],
+        ["fare il letto", "to make the bed"],
+        ["passare l'aspirapolvere", "to vacuum"],
+      ],
+      grammar: [
+        ["„Bisogna” + infinito per l'obbligo impersonale", "„Bisogna” + infinito esprime un obbligo generale, senza specificare chi deve farlo, a differenza di „dovere” che ha un soggetto.", "Bisogna portare fuori la spazzatura ogni giorno. / Prima di uscire, bisogna fare il letto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “lavare i piatti” in inglese?",["to vacuum", "to iron the clothes", "to sweep", "to wash the dishes"],3,"“Lavare i piatti” si dice “to wash the dishes” in inglese."],
+      ["mcq","Come si dice “passare l'aspirapolvere” in inglese?",["to wash the dishes", "to take out the trash", "to vacuum", "to sweep"],2,"“Passare l'aspirapolvere” si dice “to vacuum” in inglese."],
+      ["fill","Completa: “Prima di uscire di casa, ___ fare il letto.”",["bisogna", "sta", "deve", "è"],0,"„Bisogna” + infinito esprime un obbligo generale senza soggetto specifico."],
+      ["translate","Traduci: “You have to take out the trash every day.”",["Bisogna portare fuori la spazzatura una volta a settimana.", "Devi portare fuori la spazzatura ogni giorno.", "Bisogna spazzare la spazzatura ogni giorno.", "Bisogna portare fuori la spazzatura ogni giorno."],3,"“You have to” qui è impersonale nel senso generale, quindi si traduce meglio con „bisogna”."],
+      ["arrange","Ordina: [piatti / lavare / bisogna / i]",["piatti Bisogna lavare i", "Bisogna lavare i piatti", "lavare Bisogna i piatti", "piatti i lavare Bisogna"],1,"„Bisogna” + infinito + complemento."],
+      ["speaking","Descrivi in 40-60 parole quali faccende domestiche bisogna fare a casa tua ogni settimana, usando „bisogna”.",[],["bisogna", "ogni settimana", "a casa"]],
+    ]
+  },
+  {
+    id:"it_b1_dating_love", level:"B1", title:"Gli appuntamenti e l'amore", emoji:"💕", xp:62,
+    description:"Impara vocabolario sugli appuntamenti e a fare promesse e previsioni con il futuro semplice.",
+    study: {
+      vocab: [
+        ["avere un appuntamento", "to go on a date"],
+        ["innamorarsi di qualcuno", "to fall in love with someone"],
+        ["lasciare qualcuno", "to break up with someone"],
+        ["il compagno/la compagna", "the partner/couple"],
+        ["sentire la mancanza di qualcuno", "to miss someone"],
+        ["fidanzarsi/impegnarsi", "to get engaged/commit"],
+      ],
+      grammar: [
+        ["Il futuro semplice per promesse e previsioni", "Il futuro semplice (-erò, -erai, -erà...) si usa per fare promesse formali o prevedere ciò che accadrà, più definitivo di „andare a + infinito”.", "Ti prometto che non ti lascerò mai. / Credo che vi fidanzerete presto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “innamorarsi di qualcuno” in inglese?",["to miss someone", "to get engaged/commit", "the partner/couple", "to fall in love with someone"],3,"“Innamorarsi di qualcuno” si dice “to fall in love with someone” in inglese."],
+      ["mcq","Come si dice “sentire la mancanza di qualcuno” in inglese?",["to miss someone", "to fall in love with someone", "to break up with someone", "to go on a date"],0,"“Sentire la mancanza di qualcuno” si dice “to miss someone” in inglese."],
+      ["fill","Completa: “Ti prometto che non ti ___ mai.”",["lasciavo", "lascio", "lascerò", "ho lasciato"],2,"Il futuro semplice „lascerò” esprime una promessa ferma su qualcosa che non accadrà."],
+      ["translate","Traduci: “I think you two will get engaged soon.”",["Credo che vi innamorerete presto.", "Credo che vi fidanzerete presto.", "Credo che vi fidanzerete domani.", "Credo che vi fidanzate presto."],1,"“Will get engaged” = “vi fidanzerete”, futuro semplice per una previsione."],
+      ["arrange","Ordina: [appuntamento / avrò / un / domani]",["Avrò appuntamento domani un", "domani Avrò un appuntamento", "Avrò domani appuntamento un", "Avrò un appuntamento domani"],3,"Futuro semplice + articolo + sostantivo + avverbio di tempo."],
+      ["writing","Scrivi 45-65 parole su una relazione (reale o inventata), usando almeno due verbi al futuro semplice per fare promesse o previsioni.",[],["prometterò/prometterà", "saremo", "compagno/a"]],
+    ]
+  },
+  {
+    id:"it_b2_sustainable_tourism", level:"B2", title:"Il turismo sostenibile e l'overtourism", emoji:"🧳", xp:84,
+    description:"Parla di turismo sostenibile usando „a meno che” e „purché” + congiuntivo.",
+    study: {
+      vocab: [
+        ["l'overtourism (turismo di massa)", "overtourism"],
+        ["saturare una destinazione turistica", "to overcrowd a tourist destination"],
+        ["il turismo sostenibile", "sustainable tourism"],
+        ["far salire gli affitti locali", "to drive up local housing costs"],
+        ["distribuire l'impatto turistico", "to spread out tourism's impact"],
+        ["rispettare la cultura locale", "to respect the local culture"],
+      ],
+      grammar: [
+        ["„A meno che” e „purché” + congiuntivo", "„A meno che” (unless) e „purché” (provided that) introducono una condizione e sono seguite dal congiuntivo.", "La destinazione resterà satura a meno che il turismo non venga regolato. / Il turismo sarà positivo purché si rispetti la cultura locale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “far salire gli affitti locali” in inglese?",["to drive up local housing costs", "to respect the local culture", "to overcrowd a tourist destination", "overtourism"],0,"“Far salire gli affitti locali” si dice “to drive up local housing costs” in inglese."],
+      ["mcq","Come si dice “distribuire l'impatto turistico” in inglese?",["sustainable tourism", "to overcrowd a tourist destination", "overtourism", "to spread out tourism's impact"],3,"“Distribuire l'impatto turistico” si dice “to spread out tourism's impact” in inglese."],
+      ["fill","Completa: “La destinazione resterà satura a meno che il turismo non ___ regolato.”",["verrebbe", "verrà", "venga", "viene"],2,"„A meno che” richiede il congiuntivo: „a meno che... non venga regolato”."],
+      ["translate","Traduci: “Tourism will be positive provided that the local culture is respected.”",["Il turismo sarà positivo purché si rispetti la cultura locale.", "Il turismo sarà positivo a meno che si rispetti la cultura locale.", "Il turismo sarà positivo purché si ignori la cultura locale.", "Il turismo sarà positivo purché si rispetta la cultura locale."],0,"“Provided that” = “purché”, seguito dal congiuntivo: „si rispetti”."],
+      ["arrange","Ordina: [sature / destinazioni / molte / turistiche / sono]",["sono sature Molte destinazioni turistiche", "turistiche sature Molte sono destinazioni", "Molte destinazioni turistiche sono sature", "turistiche sature sono destinazioni Molte"],2,"Soggetto + verbo + aggettivo."],
+      ["writing","Scrivi 55-75 parole sull'overtourism in una destinazione che conosci, usando almeno un „a meno che” e un „purché” con congiuntivo.",[],["a meno che", "purché", "sostenibile"]],
+    ]
+  },
+  {
+    id:"it_c1_gastronomy_identity", level:"C1", title:"La gastronomia e l'identità culturale", emoji:"🍽️", xp:92,
+    description:"Analizza la gastronomia come identità culturale usando strutture enfatiche con „ciò che”.",
+    study: {
+      vocab: [
+        ["la denominazione di origine protetta", "protected designation of origin"],
+        ["un piatto emblematico", "an iconic/signature dish"],
+        ["la fusione culinaria", "culinary fusion"],
+        ["preservare una ricetta tradizionale", "to preserve a traditional recipe"],
+        ["appropriarsi di una tradizione culinaria", "to appropriate a culinary tradition"],
+        ["il palato collettivo", "the collective palate"],
+      ],
+      grammar: [
+        ["Strutture enfatiche con „ciò che”", "„Ciò che” + verbo + „è” enfatizza un elemento della frase, dandogli maggiore rilievo, molto usato nel registro argomentativo.", "Ciò che definisce una cultura è la sua gastronomia. / Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un piatto emblematico” in inglese?",["culinary fusion", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],3,"“Un piatto emblematico” si dice “an iconic/signature dish” in inglese."],
+      ["mcq","Come si dice “appropriarsi di una tradizione culinaria” in inglese?",["to preserve a traditional recipe", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],2,"“Appropriarsi di una tradizione culinaria” si dice “to appropriate a culinary tradition” in inglese."],
+      ["fill","Completa: “Ciò che ___ una cultura è, in gran parte, la sua gastronomia.”",["definire", "definisce", "definiscono", "definirebbe"],1,"La struttura enfatica „ciò che + verbo + è” porta il verbo al singolare, concordando con „ciò che”."],
+      ["translate","Traduci con struttura enfatica: “What worries local chefs is the appropriation of their recipes.”",["Ciò che preoccupano gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali sono l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è la fusione delle loro ricette."],1,"Il verbo „preoccupa” concorda al singolare con „ciò che”, soggetto della frase enfatica."],
+      ["arrange","Ordina: [ricetta / preservare / questa / dobbiamo / tradizionale]",["Dobbiamo preservare questa ricetta tradizionale", "questa ricetta tradizionale preservare Dobbiamo", "Dobbiamo ricetta preservare questa tradizionale", "ricetta questa Dobbiamo preservare tradizionale"],0,"Verbo modale + infinito + oggetto dimostrativo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su un piatto che consideri parte della tua identità culturale, usando almeno due strutture enfatiche con „ciò che”.",[],["ciò che definisce", "ciò che rappresenta", "identità culturale"]],
+    ]
+  },
+  {
+    id:"it_c2_crisis_rhetoric", level:"C2", title:"La retorica della crisi e il panico morale", emoji:"📢", xp:100,
+    description:"Analizza la retorica della crisi e pratica strutture di intensificazione retorica.",
+    study: {
+      vocab: [
+        ["il panico morale", "moral panic"],
+        ["una crisi fabbricata", "a manufactured crisis"],
+        ["catastrofizzare una situazione", "to catastrophize a situation"],
+        ["un capro espiatorio", "a scapegoat"],
+        ["sproporzionare una minaccia", "to blow a threat out of proportion"],
+        ["un discorso allarmista", "alarmist rhetoric"],
+      ],
+      grammar: [
+        ["Strutture di intensificazione retorica", "„Non solo... ma anche” e „sempre più” intensificano un'affermazione accumulando gravità — recurso tipico del discorso di crisi e del panico morale.", "Non solo si esagera la minaccia, ma si cerca anche un capro espiatorio. / Il discorso allarmista è sempre più frequente nei media."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un capro espiatorio” in inglese?",["to catastrophize a situation", "moral panic", "to blow a threat out of proportion", "a scapegoat"],3,"“Un capro espiatorio” si dice “a scapegoat” in inglese."],
+      ["mcq","Come si dice “sproporzionare una minaccia” in inglese?",["to blow a threat out of proportion", "a manufactured crisis", "to catastrophize a situation", "a scapegoat"],0,"“Sproporzionare una minaccia” si dice “to blow a threat out of proportion” in inglese."],
+      ["fill","Completa: “Non solo si esagera la minaccia, ___ si cerca anche un capro espiatorio.”",["poiché", "però", "ma", "quindi"],2,"„Non solo... ma anche” intensifica un'affermazione aggiungendo un secondo elemento con verbo proprio."],
+      ["translate","Traduci con precisione: “Alarmist rhetoric is becoming increasingly common in the media.”",["Il panico morale è sempre più frequente nei media.", "Il discorso allarmista è sempre meno frequente nei media.", "Il discorso allarmista è sempre più grave nei media.", "Il discorso allarmista è sempre più frequente nei media."],3,"“Increasingly common” = “sempre più frequente”, struttura di intensificazione graduale."],
+      ["arrange","Ordina: [espiatorio / cercano / un / media / capro / i]",["I media cercano un capro espiatorio", "media capro un espiatorio I cercano", "cercano espiatorio media I capro un", "cercano capro un espiatorio media I"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole analizzando un caso reale o inventato di panico morale nei media, usando almeno una struttura „non solo... ma anche” e una con „sempre più”.",[],["non solo... ma anche", "sempre più", "panico morale"]],
+    ]
+  },
 ];

@@ -1692,4 +1692,455 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch 55-75 Wörter, die zwei Positionen zu einem aktuellen Sprachwandel (real oder erfunden) ausgewogen darstellen, ohne explizit Partei zu ergreifen, und unterscheide dabei Beschreibung von Bewertung.",[],["einerseits", "andererseits", "ohne zwangsläufig"]],
     ]
   },
+  {
+    id:"de_a1_neighborhood_city", level:"A1", title:"Das Viertel und die Stadt", emoji:"🏙️", xp:38,
+    description:"Lerne den Wortschatz für Orte im Viertel und wie man auf Deutsch sagt, wo sie sind.",
+    study: {
+      vocab: [
+        ["die Bank", "the bank"],
+        ["der Supermarkt", "the supermarket"],
+        ["der Park", "the park"],
+        ["die Apotheke", "the pharmacy"],
+        ["die Bibliothek", "the library"],
+        ["die Bushaltestelle", "the bus stop"],
+        ["in der Nähe von, weit weg von, neben", "near, far from, next to"],
+      ],
+      grammar: [
+        ["„Es gibt“ + Ortspräpositionen", "„Es gibt“ (there is/are) drückt aus, dass etwas an einem Ort existiert; es folgt immer der Akkusativ. Ortspräpositionen zeigen, wo sich etwas befindet.", "Es gibt eine Apotheke in der Nähe des Parks. / Die Bibliothek ist neben der Bank."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Apotheke“ auf Englisch?",["the supermarket", "the bank", "the pharmacy", "the park"],2,"„Apotheke“ heißt auf Englisch „pharmacy“."],
+      ["mcq","Wie sagt man „die Bushaltestelle“ auf Englisch?",["the bank", "the park", "the bus stop", "the library"],2,"„Bushaltestelle“ heißt auf Englisch „bus stop“."],
+      ["fill","Completa: “In meinem Viertel ___ es eine sehr große Bibliothek.”",["hat", "sein", "ist", "gibt"],3,"„Es gibt“ drückt aus, dass etwas existiert, mit Akkusativ: „es gibt eine Bibliothek“."],
+      ["translate","Übersetze: „The pharmacy is next to the park.“",["Die Apotheke ist weit weg vom Park.", "Die Bank ist neben dem Park.", "Die Apotheke ist in der Nähe der Bibliothek.", "Die Apotheke ist neben dem Park."],3,"„Next to“ = „neben“; Subjekt und Ort müssen dem Original entsprechen."],
+      ["arrange","Bring in die richtige Reihenfolge: [Supermarkt / weit / der / nicht / ist]",["Der Supermarkt ist nicht weit", "Supermarkt weit nicht Der ist", "Supermarkt nicht ist Der weit", "ist Supermarkt nicht weit Der"],0,"Subjekt + Verb + Negation + Ortsadverb."],
+      ["writing","Beschreibe in 20-30 Wörtern dein Viertel: welche Orte es gibt und wo sie sind (benutze „es gibt“, „in der Nähe von“ und „weit weg von“).",[],["es gibt", "in der Nähe von", "weit weg von"]],
+    ]
+  },
+  {
+    id:"de_a2_celebrations_holidays", level:"A2", title:"Feste und Feiern", emoji:"🎉", xp:48,
+    description:"Lerne Wortschatz zu Festen und wie man mit „pflegen zu“ über Gewohnheiten spricht.",
+    study: {
+      vocab: [
+        ["der Geburtstag", "the birthday"],
+        ["die Hochzeit", "the wedding"],
+        ["Weihnachten", "Christmas"],
+        ["das Neujahr", "New Year"],
+        ["feiern", "to celebrate"],
+        ["ein Geschenk machen", "to give a gift"],
+      ],
+      grammar: [
+        ["Gewohnheiten mit „normalerweise“ + Präsens ausdrücken", "Im Deutschen drückt man Gewohnheiten meist mit einem Adverb wie „normalerweise“ oder „gewöhnlich“ plus Präsens aus, statt mit einem eigenen Modalverb.", "Wir feiern Weihnachten normalerweise mit der ganzen Familie. / Als Kind habe ich meinen Geburtstag gewöhnlich im Park gefeiert."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „ein Geschenk machen“ auf Englisch?",["to give a gift", "Christmas", "New Year", "the wedding"],0,"„Ein Geschenk machen“ heißt auf Englisch „to give a gift“."],
+      ["mcq","Wie sagt man „die Hochzeit“ auf Englisch?",["New Year", "Christmas", "to celebrate", "the wedding"],3,"„Hochzeit“ heißt auf Englisch „wedding“."],
+      ["fill","Completa: “Jedes Neujahr feiern wir ___ mit der ganzen Familie.”",["kaum", "schon", "einmal", "normalerweise"],3,"„Normalerweise“ + Präsens drückt eine gewohnheitsmäßige Handlung aus."],
+      ["translate","Übersetze: „We usually give gifts at Christmas.“",["Wir machen ein Geschenk an Weihnachten.", "Wir feiern normalerweise Geschenke an Weihnachten.", "Wir machen normalerweise Geschenke am Geburtstag.", "Wir machen normalerweise Geschenke an Weihnachten."],3,"„We usually give gifts“ = „Wir machen normalerweise Geschenke“, mit Adverb + Präsens."],
+      ["arrange","Bring in die richtige Reihenfolge: [Geburtstag / ich / meinen / feiere / mit Freunden]",["feiere Geburtstag meinen mit Ich Freunden", "feiere Geburtstag Ich meinen Freunden mit", "feiere mit Ich Freunden meinen Geburtstag", "Ich feiere meinen Geburtstag mit Freunden"],3,"Subjekt + Verb + Possessivobjekt + Präposition + Ergänzung."],
+      ["speaking","Beschreibe in 40-60 Wörtern, wie du normalerweise ein wichtiges Fest feierst (Geburtstag, Weihnachten, Neujahr o.a.), und benutze „normalerweise“.",[],["normalerweise", "ich feiere", "mit"]],
+    ]
+  },
+  {
+    id:"de_b1_relationships_friendship", level:"B1", title:"Persönliche Beziehungen und Freundschaft", emoji:"🤝", xp:62,
+    description:"Lerne Wortschatz zu Freundschaft und wie man mit „sollte“ und „müssen“ Ratschläge gibt.",
+    study: {
+      vocab: [
+        ["jemandem vertrauen", "to trust someone"],
+        ["mit jemandem gut/schlecht auskommen", "to get along well/badly with someone"],
+        ["etwas gemeinsam haben", "to have something in common"],
+        ["in Kontakt bleiben", "to keep in touch"],
+        ["ein vertrauenswürdiger Freund / eine vertrauenswürdige Freundin", "a close/trustworthy friend"],
+        ["sich nach einem Streit versöhnen", "to make up after an argument"],
+      ],
+      grammar: [
+        ["Ratschläge mit „sollte“ und „müssen“", "„Sollte“ (Konjunktiv II von „sollen“) gibt einen sanften Ratschlag; „müssen“ drückt eine stärkere Verpflichtung aus.", "Du solltest mit deinen Freunden in Kontakt bleiben. / Ihr müsst euch versöhnen, wenn ihr Freunde bleiben wollt."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „mit jemandem gut auskommen“ auf Englisch?",["a close/trustworthy friend", "to make up after an argument", "to trust someone", "to get along well/badly with someone"],3,"„Mit jemandem gut auskommen“ heißt auf Englisch „to get along well with someone“."],
+      ["mcq","Wie sagt man „sich nach einem Streit versöhnen“ auf Englisch?",["to make up after an argument", "a close/trustworthy friend", "to keep in touch", "to get along well/badly with someone"],0,"„Sich nach einem Streit versöhnen“ heißt auf Englisch „to make up after an argument“."],
+      ["fill","Completa: “Wenn du diese Freundschaft behalten willst, ___ du in Kontakt bleiben.”",["musstest", "sollst", "wirst", "solltest"],3,"„Solltest“ (Konjunktiv II von „sollen“) gibt einen sanften Ratschlag in der zweiten Person."],
+      ["translate","Übersetze: „You have to trust your friends.“",["Du musst mit deinen Freunden gut auskommen.", "Du musst deiner Familie vertrauen.", "Du musst deinen Freunden vertrauen.", "Du solltest deinen Freunden vertrauen."],2,"„You have to trust“ = „Du musst vertrauen“, mit „müssen“ + Infinitiv."],
+      ["arrange","Bring in die richtige Reihenfolge: [gemeinsam / viel / wir / haben]",["Wir viel haben gemeinsam", "gemeinsam haben Wir viel", "Wir haben viel gemeinsam", "gemeinsam viel Wir haben"],2,"Subjekt + Verb + Quantifikator + Adverb „gemeinsam“."],
+      ["writing","Schreibe 45-65 Wörter über eine wichtige Freundschaft für dich: was ihr gemeinsam habt und welchen Ratschlag du jemandem geben würdest, der so eine Freundschaft bewahren möchte.",[],["wir haben gemeinsam", "du solltest", "vertrauen"]],
+    ]
+  },
+  {
+    id:"de_b2_remote_work_balance", level:"B2", title:"Homeoffice und Work-Life-Balance", emoji:"💻", xp:84,
+    description:"Sprich über Homeoffice und Work-Life-Balance mit Partizipialkonstruktionen auf Deutsch.",
+    study: {
+      vocab: [
+        ["im Homeoffice arbeiten", "to work remotely"],
+        ["flexible Arbeitszeiten", "flexible working hours"],
+        ["die digitale Abschaltung", "digital disconnection"],
+        ["das Burnout", "burnout"],
+        ["Berufs- und Privatleben vereinbaren", "to balance work and personal life"],
+        ["produktiv sein", "to be productive"],
+      ],
+      grammar: [
+        ["Das Partizip I für Gleichzeitigkeit oder Ursache", "Das Partizip I (Verbstamm + -end) kann als Adverbialkonstruktion eine gleichzeitige Handlung oder deren Ursache ausdrücken, ähnlich einem Gerundium.", "Von zu Hause arbeitend, spart man Fahrzeit. / Ständig arbeitend ohne abzuschalten, erleiden viele ein Burnout."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die digitale Abschaltung“ auf Englisch?",["burnout", "to work remotely", "to balance work and personal life", "digital disconnection"],3,"„Digitale Abschaltung“ heißt auf Englisch „digital disconnection“."],
+      ["mcq","Wie sagt man „Berufs- und Privatleben vereinbaren“ auf Englisch?",["flexible working hours", "to balance work and personal life", "burnout", "digital disconnection"],1,"„Berufs- und Privatleben vereinbaren“ heißt auf Englisch „to balance work and personal life“."],
+      ["fill","Completa: “Von zu Hause ___ , schaffen es viele Menschen, Berufs- und Privatleben besser zu vereinbaren.”",["gearbeitet", "Arbeit", "arbeiten", "arbeitend"],3,"Das Partizip I („arbeitend“) drückt den Umstand aus, der das folgende Ergebnis ermöglicht."],
+      ["translate","Übersetze: „Working without disconnecting can lead to burnout.“",["Mit flexiblen Arbeitszeiten arbeitend, kann man ein Burnout erleiden.", "Vom Arbeiten abschaltend, kann man ein Burnout erleiden.", "Ohne abzuschalten zu arbeiten kann ein Burnout vermeiden.", "Ohne abzuschalten arbeitend, kann man ein Burnout erleiden."],3,"Das Partizip I „ohne abzuschalten arbeitend“ drückt die Ursache des Burnouts aus."],
+      ["arrange","Bring in die richtige Reihenfolge: [Arbeitszeiten / schätzen / flexible / viele]",["Viele Arbeitszeiten flexible schätzen", "Viele schätzen flexible Arbeitszeiten", "schätzen flexible Viele Arbeitszeiten", "Arbeitszeiten flexible Viele schätzen"],1,"Subjekt + Verb + Adjektiv + Substantiv."],
+      ["writing","Schreibe 55-75 Wörter über die Vor- und Nachteile von Homeoffice für die Work-Life-Balance und benutze mindestens eine Partizipialkonstruktion für Gleichzeitigkeit oder Ursache.",[],["arbeitend", "vereinbaren", "jedoch"]],
+    ]
+  },
+  {
+    id:"de_c1_negotiation_conflict", level:"C1", title:"Verhandlung und Konfliktlösung", emoji:"🤝", xp:92,
+    description:"Lerne zu verhandeln und Vorschläge im formellen Register mit dem Konjunktiv II abzuschwächen.",
+    study: {
+      vocab: [
+        ["eine Einigung erzielen", "to reach an agreement"],
+        ["Zugeständnisse machen", "to give ground/make concessions"],
+        ["eine Sackgasse", "a deadlock/stalemate"],
+        ["eine kompromisslose Haltung", "an inflexible/uncompromising stance"],
+        ["einen Mittelweg suchen", "to look for a middle ground"],
+        ["das Eis brechen", "to break the ice"],
+      ],
+      grammar: [
+        ["Der Konjunktiv II zur Abschwächung von Vorschlägen", "Der Konjunktiv II (würde/wäre) schwächt Bitten und Vorschläge in Verhandlungen ab und wirkt höflicher und flexibler.", "Wären Sie bereit, an diesem Punkt Zugeständnisse zu machen? / Es wäre besser, einen Mittelweg zu suchen, bevor man in eine Sackgasse gerät."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine Sackgasse“ auf Englisch?",["to break the ice", "to give ground/make concessions", "an inflexible/uncompromising stance", "a deadlock/stalemate"],3,"„Eine Sackgasse“ heißt auf Englisch „a deadlock“ oder „stalemate“."],
+      ["mcq","Wie sagt man „eine kompromisslose Haltung“ auf Englisch?",["to reach an agreement", "a deadlock/stalemate", "an inflexible/uncompromising stance", "to give ground/make concessions"],2,"„Eine kompromisslose Haltung“ heißt auf Englisch „an inflexible/uncompromising stance“."],
+      ["fill","Completa: “Es ___ besser, einen Mittelweg zu suchen, bevor man in eine Sackgasse gerät.”",["ist", "war", "wäre", "wird"],2,"Der Konjunktiv II „wäre“ schwächt die Aussage ab, typisch für das formelle Verhandlungsregister."],
+      ["translate","Übersetze im formellen Register: „Would you be willing to make concessions on this point?“",["Wären Sie bereit, an diesem Punkt Zugeständnisse zu machen?", "Sind Sie bereit, an diesem Punkt Zugeständnisse zu machen?", "Wären Sie bereit, an diesem Punkt das Eis zu brechen?", "Wären Sie bereit, an diesem Punkt eine Einigung zu erzielen?"],0,"Der Konjunktiv II „wären Sie bereit“ schwächt die Frage ab, formeller als das Präsens „sind Sie bereit“."],
+      ["arrange","Bring in die richtige Reihenfolge: [schwierig / eine / wird / Einigung / es / sein / zu erzielen]",["eine schwierig zu sein wird erzielen Es Einigung", "wird zu erzielen Einigung schwierig sein eine Es", "Es wird schwierig sein eine Einigung zu erzielen", "erzielen Einigung eine schwierig sein zu wird Es"],2,"Futur + Adjektiv + Infinitivkonstruktion + Ergänzung."],
+      ["writing","Schreibe 55-75 Wörter über eine (reale oder erfundene) Verhandlung, bei der beide Seiten Zugeständnisse machten, um eine Sackgasse zu vermeiden, und benutze mindestens zwei höfliche Konjunktiv-II-Formen.",[],["wäre", "wären Sie bereit", "Mittelweg"]],
+    ]
+  },
+  {
+    id:"de_c2_corporate_euphemism", level:"C2", title:"Unternehmenssprache und Euphemismus", emoji:"🏢", xp:100,
+    description:"Analysiere Euphemismen in der Unternehmenssprache und übe Umformulierungskonnektoren.",
+    study: {
+      vocab: [
+        ["ein Euphemismus", "a euphemism"],
+        ["der Unternehmensjargon", "corporate jargon"],
+        ["eine Umstrukturierung (Euphemismus für Entlassungen)", "a restructuring (euphemism for layoffs)"],
+        ["die Wirkung einer Nachricht abmildern", "to soften the impact of a message"],
+        ["ein unnötiger Anglizismus", "an unnecessary anglicism"],
+        ["jemandes Verantwortung verwässern", "to dilute someone's responsibility"],
+      ],
+      grammar: [
+        ["Umformulierungskonnektoren", "Ausdrücke wie „das heißt“, „mit anderen Worten“ oder „anders gesagt“ formulieren eine Idee um, oft um sie abzumildern oder zu präzisieren — entscheidend, um Euphemismen zu erkennen.", "Das Unternehmen kündigte eine „Umstrukturierung“ an, das heißt Entlassungen. / Mit anderen Worten: Sie werden die Belegschaft verkleinern."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „jemandes Verantwortung verwässern“ auf Englisch?",["to dilute someone's responsibility", "a euphemism", "an unnecessary anglicism", "a restructuring (euphemism for layoffs)"],0,"„Jemandes Verantwortung verwässern“ heißt auf Englisch „to dilute someone's responsibility“."],
+      ["mcq","Wie sagt man „eine Umstrukturierung (Euphemismus für Entlassungen)“ auf Englisch?",["a euphemism", "a restructuring (euphemism for layoffs)", "to dilute someone's responsibility", "an unnecessary anglicism"],1,"„Umstrukturierung“ heißt auf Englisch „restructuring“, üblicher Euphemismus für „layoffs“ (Entlassungen)."],
+      ["fill","Completa: “Das Unternehmen spricht von „Ressourcenoptimierung“, ___ von Entlassungen.”",["allerdings", "zum Beispiel", "das heißt", "obwohl"],2,"„Das heißt“ formuliert den euphemistischen Ausdruck mit seiner wörtlichen Bedeutung um."],
+      ["translate","Übersetze präzise: „Corporate jargon often softens the impact of bad news.“",["Ein Euphemismus mildert oft die Wirkung schlechter Nachrichten ab.", "Unternehmensjargon vermeidet oft die Wirkung schlechter Nachrichten.", "Unternehmensjargon verwässert oft die Wirkung schlechter Nachrichten.", "Unternehmensjargon mildert oft die Wirkung schlechter Nachrichten ab."],3,"„Softens the impact“ = „mildert die Wirkung ab“; das Subjekt muss „Unternehmensjargon“ sein."],
+      ["arrange","Bring in die richtige Reihenfolge: [Entlassungen / Euphemismus / Umstrukturierung / ein / für / ist]",["Euphemismus ein Entlassungen ist für Umstrukturierung", "Umstrukturierung ist ein Euphemismus für Entlassungen", "Umstrukturierung Entlassungen ist für ein Euphemismus", "Euphemismus Umstrukturierung Entlassungen ein ist für"],1,"Subjekt + Verb + Artikel + Substantiv + Präposition + Ergänzung."],
+      ["writing","Schreibe 55-75 Wörter über einen realen oder erfundenen Unternehmenseuphemismus: was er verbirgt, warum er benutzt wird und wie du ihn klarer umformulieren würdest, mit mindestens einem Umformulierungskonnektor.",[],["das heißt", "Euphemismus", "mit anderen Worten"]],
+    ]
+  },
+  {
+    id:"de_a1_airport_hotel", level:"A1", title:"Am Flughafen und im Hotel", emoji:"✈️", xp:38,
+    description:"Lerne Reisevokabular und wie man mit „werden“ + Infinitiv über nahe Pläne spricht.",
+    study: {
+      vocab: [
+        ["der Reisepass", "the passport"],
+        ["der Koffer", "the suitcase"],
+        ["der Flug", "the flight"],
+        ["das Zimmer", "the room"],
+        ["die Reservierung", "the booking"],
+        ["das Gepäck einchecken", "to check in luggage"],
+      ],
+      grammar: [
+        ["„Werden“ + Infinitiv für nahe Zukunft", "Im Alltag drückt man nahe Pläne oft mit Präsens + Zeitangabe aus, aber „werden“ + Infinitiv betont die Absicht.", "Ich werde das Gepäck einchecken. / Wir werden für Freitag ein Zimmer reservieren."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „der Reisepass“ auf Englisch?",["the suitcase", "to check in luggage", "the flight", "the passport"],3,"„Reisepass“ heißt auf Englisch „passport“."],
+      ["mcq","Wie sagt man „das Gepäck einchecken“ auf Englisch?",["the room", "to check in luggage", "the flight", "the booking"],1,"„Das Gepäck einchecken“ heißt auf Englisch „to check in luggage“."],
+      ["fill","Completa: “Morgen ___ ich das Gepäck sehr früh einchecken.”",["werde", "wurde", "werden", "bin"],0,"„Werden“ + Infinitiv: „ich werde einchecken“, „werden“ wird nach dem Subjekt konjugiert."],
+      ["translate","Übersetze: „We are going to book a room for Friday.“",["Wir werden für Freitag ein Zimmer einchecken.", "Wir werden für Freitag ein Zimmer reservieren.", "Wir werden für Montag ein Zimmer reservieren.", "Wir werden für Freitag einen Flug reservieren."],1,"„We are going to book“ = „Wir werden reservieren“, mit „werden“ + Infinitiv."],
+      ["arrange","Bring in die richtige Reihenfolge: [Reisepass / werde / meinen / suchen / ich]",["werde meinen suchen Reisepass Ich", "Reisepass suchen Ich werde meinen", "Reisepass Ich werde meinen suchen", "Ich werde meinen Reisepass suchen"],3,"Subjekt + „werden“ + Possessivobjekt + Infinitiv."],
+      ["writing","Beschreibe in 20-30 Wörtern deine Reisepläne: was du tun wirst (Gepäck einchecken, Zimmer reservieren usw.) und benutze „werden“ + Infinitiv.",[],["ich werde", "wir werden", "reservieren"]],
+    ]
+  },
+  {
+    id:"de_a2_everyday_tech", level:"A2", title:"Die Technik des Alltags", emoji:"📱", xp:48,
+    description:"Lerne alltägliches Technik-Vokabular und wie man mit „so...wie“ und „...er als“ vergleicht.",
+    study: {
+      vocab: [
+        ["das WLAN", "the wifi"],
+        ["das Passwort", "the password"],
+        ["die App", "the app"],
+        ["das Handy aufladen", "to charge the phone"],
+        ["herunterladen", "to download"],
+        ["der Akku", "the battery"],
+      ],
+      grammar: [
+        ["Vergleiche mit „so...wie“ und dem Komparativ „...er als“", "„So + Adjektiv + wie“ vergleicht gleiche Eigenschaften; der Komparativ (Adjektiv + „-er“) + „als“ vergleicht eine Überlegenheit.", "Diese App ist so schnell wie die andere. / Mein Akku hält länger als deiner."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „das Passwort“ auf Englisch?",["the wifi", "to download", "the battery", "the password"],3,"„Passwort“ heißt auf Englisch „password“."],
+      ["mcq","Wie sagt man „herunterladen“ auf Englisch?",["to charge the phone", "to download", "the app", "the battery"],1,"„Herunterladen“ heißt auf Englisch „download“."],
+      ["fill","Completa: “Diese App ist ___ schnell wie die andere.”",["mehr", "weniger", "sehr", "so"],3,"„So + Adjektiv + wie“ vergleicht zwei Dinge mit der gleichen Eigenschaft."],
+      ["translate","Übersetze: „My battery lasts longer than yours.“",["Mein Akku hält so lang wie deiner.", "Mein WLAN hält länger als deiner.", "Mein Akku hält kürzer als deiner.", "Mein Akku hält länger als deiner."],3,"„Lasts longer than“ = „hält länger als“, Komparativ der Überlegenheit."],
+      ["arrange","Bring in die richtige Reihenfolge: [Passwort / brauche / ein / sichereres / ich]",["brauche ein Ich Passwort sichereres", "Ich brauche ein sichereres Passwort", "sichereres Ich brauche ein Passwort", "brauche Ich ein Passwort sichereres"],1,"Subjekt + Verb + Artikel + Komparativ + Substantiv."],
+      ["speaking","Beschreibe in 40-60 Wörtern, wie du Technik im Alltag nutzt, und vergleiche zwei Apps oder Geräte mit „so...wie“ oder dem Komparativ „...er als“.",[],["so...wie", "...er als", "App"]],
+    ]
+  },
+  {
+    id:"de_b1_digital_entertainment", level:"B1", title:"Digitale Unterhaltung: Serien und Videospiele", emoji:"🎮", xp:62,
+    description:"Lerne Vokabular zu digitaler Unterhaltung und wie man mit „schon seit“ Dauer ausdrückt.",
+    study: {
+      vocab: [
+        ["die Serie", "the series/show"],
+        ["das Videospiel", "the video game"],
+        ["die Streaming-Plattform", "the streaming platform"],
+        ["von etwas süchtig werden", "to get hooked on something"],
+        ["das Serienmarathon", "binge-watching"],
+        ["die Untertitel", "the subtitles"],
+      ],
+      grammar: [
+        ["„Schon seit“ + Präsens für die Dauer", "„Schon seit“ + Zeitangabe + Präsens drückt aus, wie lange eine Handlung schon andauert, ähnlich wie „to have been doing something“.", "Ich schaue diese Serie schon seit zwei Stunden. / Wir spielen schon seit dem ganzen Wochenende Videospiele."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „von etwas süchtig werden“ auf Englisch?",["the video game", "the streaming platform", "binge-watching", "to get hooked on something"],3,"„Von etwas süchtig werden“ heißt auf Englisch „to get hooked on something“."],
+      ["mcq","Wie sagt man „das Serienmarathon“ auf Englisch?",["the series/show", "the subtitles", "to get hooked on something", "binge-watching"],3,"„Serienmarathon“ heißt auf Englisch „binge-watching“."],
+      ["fill","Completa: “Ich schaue diese Serie ___ zwei Stunden ohne Pause.”",["habe seit", "vor", "schon seit", "bin seit"],2,"„Schon seit“ + Präsens drückt die Dauer einer andauernden Handlung aus: „ich schaue schon seit zwei Stunden“."],
+      ["translate","Übersetze: „We have been playing video games all weekend.“",["Wir schauen schon seit dem ganzen Wochenende Videospiele.", "Wir spielen schon seit dem ganzen Wochenende Serien.", "Wir haben das ganze Wochenende Videospiele gespielt.", "Wir spielen schon seit dem ganzen Wochenende Videospiele."],3,"„Have been playing all weekend“ = „Wir spielen schon seit dem ganzen Wochenende“, mit „schon seit“ + Präsens."],
+      ["arrange","Bring in die richtige Reihenfolge: [süchtig / bin / ich / geworden / nach dieser Serie]",["Serie dieser geworden bin süchtig Ich nach", "Ich bin süchtig geworden nach dieser Serie", "bin Ich dieser geworden süchtig Serie nach", "Serie geworden bin süchtig dieser nach Ich"],1,"Subjekt + Verb + Adjektiv + Partizip + Präposition + Ergänzung."],
+      ["writing","Schreibe 45-65 Wörter über eine Serie oder ein Videospiel, nach dem du süchtig geworden bist, und benutze „schon seit“, um zu sagen, wie lange schon.",[],["schon seit", "süchtig", "Plattform"]],
+    ]
+  },
+  {
+    id:"de_b2_cybersecurity_privacy", level:"B2", title:"Cybersicherheit und Online-Privatsphäre", emoji:"🔒", xp:84,
+    description:"Sprich über Cybersicherheit mit bestimmenden und erläuternden Relativsätzen.",
+    study: {
+      vocab: [
+        ["die Cybersicherheit", "cybersecurity"],
+        ["ein System hacken", "to hack a system"],
+        ["die personenbezogenen Daten", "personal data"],
+        ["ein sicheres Passwort", "a strong password"],
+        ["der Identitätsdiebstahl", "identity theft/phishing"],
+        ["Informationen verschlüsseln", "to encrypt information"],
+      ],
+      grammar: [
+        ["Bestimmende und erläuternde Relativsätze", "Bestimmende Relativsätze (ohne Komma-Pause im Sinn) grenzen ein und sind notwendig; erläuternde Relativsätze (mit Kommas, zusätzliche Info) fügen extra Information hinzu und können weggelassen werden.", "Die Daten, die wir online teilen, können gehackt werden. (bestimmend) / Meine Daten, die ich kaum teile, sind gut geschützt. (erläuternd)"],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „der Identitätsdiebstahl“ auf Englisch?",["to encrypt information", "to hack a system", "identity theft/phishing", "a strong password"],2,"„Identitätsdiebstahl“ heißt auf Englisch „identity theft“ oder „phishing“."],
+      ["mcq","Wie sagt man „Informationen verschlüsseln“ auf Englisch?",["cybersecurity", "to encrypt information", "a strong password", "personal data"],1,"„Informationen verschlüsseln“ heißt auf Englisch „to encrypt information“."],
+      ["fill","Completa: “Die Daten, ___ wir online teilen, können gehackt werden.”",["was", "deren", "wer", "die"],3,"Der Relativsatz benutzt „die“ (Plural, Akkusativ) um zu bestimmen, von welchen Daten die Rede ist."],
+      ["translate","Übersetze: „My data, which I rarely share, is well protected.“",["Meine Daten die ich kaum teile sind gut geschützt.", "Meine Daten, die ich kaum hacke, sind gut geschützt.", "Meine Daten, die ich kaum teile, sind gut geschützt.", "Meine Daten, die ich kaum teile, sind schlecht geschützt."],2,"Die Kommas markieren einen erläuternden Relativsatz: „meine Daten, die ich kaum teile,“ fügt zusätzliche Information hinzu."],
+      ["arrange","Bring in die richtige Reihenfolge: [Passwort / brauchst / ein / sicheres / du]",["sicheres brauchst ein Du Passwort", "Du brauchst ein sicheres Passwort", "Passwort ein sicheres brauchst Du", "Passwort Du ein sicheres brauchst"],1,"Subjekt + Verb + Artikel + Adjektiv + Substantiv."],
+      ["writing","Schreibe 55-75 Wörter darüber, wie du deine persönlichen Daten online schützt, und benutze mindestens einen bestimmenden und einen erläuternden Relativsatz.",[],["die", "der/die/das", "personenbezogene Daten"]],
+    ]
+  },
+  {
+    id:"de_c1_historical_memory_heritage", level:"C1", title:"Das kollektive Gedächtnis und das Kulturerbe", emoji:"🏛️", xp:92,
+    description:"Analysiere das kollektive Gedächtnis und Kulturerbe mit „sein“ + Partizip II für resultierende Zustände.",
+    study: {
+      vocab: [
+        ["das Kulturerbe", "cultural heritage"],
+        ["das historische Gedächtnis bewahren", "to preserve historical memory"],
+        ["ein Gedenkdenkmal", "a memorial"],
+        ["das Vermächtnis", "the legacy"],
+        ["die Geschichte umschreiben", "to rewrite history"],
+        ["die kollektive Identität", "collective identity"],
+      ],
+      grammar: [
+        ["„Sein“ + Partizip II für den resultierenden Zustand", "„Sein“ + Partizip II beschreibt den resultierenden Zustand einer vergangenen Handlung, im Unterschied zum Vorgangspassiv mit „werden“.", "Das Denkmal ist den Opfern gewidmet. / Die Geschichte ist von inneren Konflikten geprägt."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „das Vermächtnis“ auf Englisch?",["to preserve historical memory", "the legacy", "collective identity", "a memorial"],1,"„Vermächtnis“ heißt auf Englisch „legacy“."],
+      ["mcq","Wie sagt man „die Geschichte umschreiben“ auf Englisch?",["cultural heritage", "to preserve historical memory", "to rewrite history", "the legacy"],2,"„Die Geschichte umschreiben“ heißt auf Englisch „to rewrite history“."],
+      ["fill","Completa: “Das Denkmal ___ den Opfern des Konflikts gewidmet.”",["wird", "war", "sei", "ist"],3,"„Sein“ + Partizip II beschreibt den resultierenden Zustand: „das Denkmal ist gewidmet“."],
+      ["translate","Übersetze: „Collective identity is often shaped by historical memory.“",["Die kollektive Identität wird oft vom historischen Gedächtnis geprägt.", "Die kollektive Identität ist oft vom historischen Gedächtnis geprägt.", "Das Kulturerbe ist oft vom historischen Gedächtnis geprägt.", "Die kollektive Identität ist oft vom Vermächtnis geprägt."],1,"„Is shaped by“ als resultierender Zustand wird mit „ist geprägt von“ übersetzt."],
+      ["arrange","Bring in die richtige Reihenfolge: [Kulturerbe / bewahren / das / müssen / wir]",["Wir müssen das Kulturerbe bewahren", "bewahren das Kulturerbe müssen Wir", "das bewahren müssen Kulturerbe Wir", "bewahren das Wir müssen Kulturerbe"],0,"Subjekt + Modalverb + Artikel + Substantiv + Infinitiv."],
+      ["writing","Schreibe 55-75 Wörter über ein Denkmal oder eine Tradition, die das historische Gedächtnis deiner Gemeinschaft bewahrt, und benutze mindestens zwei „sein + Partizip II“-Konstruktionen.",[],["ist gewidmet", "ist geprägt", "Kulturerbe"]],
+    ]
+  },
+  {
+    id:"de_c2_institutional_ambiguity", level:"C2", title:"Kalkulierte Ambiguität im institutionellen Diskurs", emoji:"🏛️", xp:100,
+    description:"Analysiere institutionelle Ambiguität und übe epistemische Abschwächungskonnektoren.",
+    study: {
+      vocab: [
+        ["die kalkulierte Ambiguität", "calculated ambiguity"],
+        ["eine institutionelle Erklärung", "an institutional statement"],
+        ["sich nicht festlegen wollen", "to avoid committing oneself"],
+        ["die bewusste Vagheit", "deliberate vagueness"],
+        ["zwischen den Zeilen lesen", "to read between the lines"],
+        ["eine ausweichende Sprache", "evasive language"],
+      ],
+      grammar: [
+        ["Epistemische Abschwächungskonnektoren", "Ausdrücke wie „es sei betont, dass“, „es besteht kein Zweifel, dass“ oder „in gewisser Weise“ nuancieren den Grad der Gewissheit oder Relevanz einer Aussage, typisch für institutionellen Diskurs.", "Es sei betont, dass sich die Erklärung nicht auf konkrete Termine festlegt. / In gewisser Weise ist die Vagheit bewusst."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „zwischen den Zeilen lesen“ auf Englisch?",["to avoid committing oneself", "calculated ambiguity", "to read between the lines", "deliberate vagueness"],2,"„Zwischen den Zeilen lesen“ heißt auf Englisch „to read between the lines“."],
+      ["mcq","Wie sagt man „eine ausweichende Sprache“ auf Englisch?",["evasive language", "to read between the lines", "calculated ambiguity", "to avoid committing oneself"],0,"„Eine ausweichende Sprache“ heißt auf Englisch „evasive language“."],
+      ["fill","Completa: “Es ___ betont, dass sich die Erklärung nicht auf konkrete Termine festlegt.”",["war", "ist", "sei", "wird"],2,"„Es sei betont, dass“ ist ein fester epistemischer Konnektor im Konjunktiv I, der eine relevante Beobachtung einführt."],
+      ["translate","Übersetze präzise: „In a way, the vagueness is deliberate.“",["In gewisser Weise ist die Ambiguität kalkuliert.", "In gewisser Weise ist die Vagheit bewusst.", "In gewisser Weise ist die Vagheit ausweichend.", "Auf gewisser Weise ist die Vagheit bewusst."],1,"„In a way“ = „in gewisser Weise“, fester Konnektor der Abschwächung."],
+      ["arrange","Bring in die richtige Reihenfolge: [Zweifel / kein / dass / besteht / die Sprache / ausweichend ist]",["ist Zweifel Es die besteht dass ausweichend kein Sprache", "ausweichend dass die besteht ist Zweifel Sprache Es kein", "Zweifel dass ist Es besteht ausweichend kein die Sprache", "Es besteht kein Zweifel dass die Sprache ausweichend ist"],3,"Fester Konnektor „es besteht kein Zweifel, dass“ + Nebensatz."],
+      ["writing","Schreibe 55-75 Wörter über eine reale oder erfundene institutionelle Erklärung, die kalkulierte Ambiguität nutzt, und benutze mindestens zwei epistemische Abschwächungskonnektoren.",[],["es sei betont, dass", "es besteht kein Zweifel, dass", "in gewisser Weise"]],
+    ]
+  },
+  {
+    id:"de_a1_sports_exercise", level:"A1", title:"Sport und Bewegung", emoji:"⚽", xp:38,
+    description:"Lerne Sport-Vokabular und wie man mit „gern” Vorlieben ausdrückt.",
+    study: {
+      vocab: [
+        ["der Fußball", "soccer/football"],
+        ["das Schwimmen", "swimming"],
+        ["laufen", "to run"],
+        ["das Fitnessstudio", "the gym"],
+        ["Sport treiben", "to exercise"],
+        ["das Team", "the team"],
+      ],
+      grammar: [
+        ["„Gern” + Verb für Vorlieben", "Im Deutschen drückt man Vorlieben mit dem Adverb „gern” nach dem Verb aus, statt mit einem eigenen Verb wie „mögen” + Infinitiv.", "Ich schwimme gern. / Sie mag Mannschaftssport."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „das Schwimmen” auf Englisch?",["swimming", "the team", "soccer/football", "to exercise"],0,"„Schwimmen” heißt auf Englisch „swimming”."],
+      ["mcq","Wie sagt man „das Team” auf Englisch?",["the team", "to exercise", "swimming", "to run"],0,"„Team” heißt auf Englisch „team”."],
+      ["fill","Completa: “Ich laufe ___ am Morgen.”",["gute", "gern", "gerne mag", "mögen"],1,"„Gern” steht nach dem konjugierten Verb, um eine Vorliebe auszudrücken: „ich laufe gern”."],
+      ["translate","Übersetze: „She likes team sports.“",["Sie mögen Mannschaftssport.", "Er mag Mannschaftssport.", "Sie mag Mannschaftssport.", "Sie mag Einzelsport."],2,"„Sie mag” stimmt mit dem Subjekt „sie” (Singular) überein."],
+      ["arrange","Bring in die richtige Reihenfolge: [ins / gehe / ich / Fitnessstudio / Sport zu treiben]",["Sport ins Ich zu Fitnessstudio treiben gehe", "Fitnessstudio ins treiben gehe zu Sport Ich", "zu gehe Fitnessstudio treiben Ich Sport ins", "Ich gehe ins Fitnessstudio Sport zu treiben"],3,"Subjekt + Verb + Präposition + Substantiv + Infinitivkonstruktion."],
+      ["writing","Beschreibe in 20-30 Wörtern, welche Sportarten du gern machst und wie oft du Sport treibst, und benutze „gern”.",[],["ich...gern", "Sport treiben", "Fußball"]],
+    ]
+  },
+  {
+    id:"de_a2_household_chores", level:"A2", title:"Die Hausarbeit", emoji:"🧹", xp:48,
+    description:"Lerne Vokabular zur Hausarbeit und wie man mit „man muss” eine unpersönliche Pflicht ausdrückt.",
+    study: {
+      vocab: [
+        ["fegen", "to sweep"],
+        ["das Geschirr spülen", "to wash the dishes"],
+        ["den Müll rausbringen", "to take out the trash"],
+        ["die Kleidung bügeln", "to iron the clothes"],
+        ["das Bett machen", "to make the bed"],
+        ["staubsaugen", "to vacuum"],
+      ],
+      grammar: [
+        ["„Man muss” + Infinitiv für unpersönliche Pflicht", "„Man” + „müssen” + Infinitiv drückt eine allgemeine Pflicht aus, ohne eine bestimmte Person zu nennen.", "Man muss jeden Tag den Müll rausbringen. / Bevor man geht, muss man das Bett machen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „das Geschirr spülen” auf Englisch?",["to vacuum", "to make the bed", "to take out the trash", "to wash the dishes"],3,"„Das Geschirr spülen” heißt auf Englisch „to wash the dishes”."],
+      ["mcq","Wie sagt man „staubsaugen” auf Englisch?",["to sweep", "to vacuum", "to iron the clothes", "to wash the dishes"],1,"„Staubsaugen” heißt auf Englisch „to vacuum”."],
+      ["fill","Completa: “Bevor man das Haus verlässt, ___ man das Bett machen.”",["ist", "muss", "hat", "wird"],1,"„Man muss” + Infinitiv ist eine feste unpersönliche Konstruktion: „man muss machen”."],
+      ["translate","Übersetze: „You have to take out the trash every day.“",["Man muss einmal pro Woche den Müll rausbringen.", "Du musst jeden Tag den Müll rausbringen.", "Man muss jeden Tag den Müll fegen.", "Man muss jeden Tag den Müll rausbringen."],3,"„You have to” ist hier unpersönlich gemeint und wird am besten mit „man muss” übersetzt."],
+      ["arrange","Bring in die richtige Reihenfolge: [Geschirr / muss / spülen / man / das]",["Geschirr das muss spülen Man", "Geschirr das Man spülen muss", "Man spülen muss Geschirr das", "Man muss das Geschirr spülen"],3,"„Man muss” + Objekt + Infinitiv."],
+      ["speaking","Beschreibe in 40-60 Wörtern, welche Hausarbeit man bei dir zu Hause jede Woche machen muss, und benutze „man muss”.",[],["man muss", "jede Woche", "zu Hause"]],
+    ]
+  },
+  {
+    id:"de_b1_dating_love", level:"B1", title:"Verabredungen und die Liebe", emoji:"💕", xp:62,
+    description:"Lerne Vokabular zu Verabredungen und wie man mit dem Futur I Versprechen und Vorhersagen macht.",
+    study: {
+      vocab: [
+        ["ein Date haben", "to go on a date"],
+        ["sich in jemanden verlieben", "to fall in love with someone"],
+        ["mit jemandem Schluss machen", "to break up with someone"],
+        ["der Partner/die Partnerin", "the partner/couple"],
+        ["jemanden vermissen", "to miss someone"],
+        ["sich verloben/binden", "to get engaged/commit"],
+      ],
+      grammar: [
+        ["Das Futur I für Versprechen und Vorhersagen", "Das Futur I („werden” + Infinitiv) drückt formelle Versprechen oder Vorhersagen aus, endgültiger als das Präsens mit Zeitangabe.", "Ich verspreche dir, dass ich nie mit dir Schluss machen werde. / Ich glaube, ihr werdet euch bald verloben."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „sich in jemanden verlieben” auf Englisch?",["the partner/couple", "to fall in love with someone", "to break up with someone", "to get engaged/commit"],1,"„Sich in jemanden verlieben” heißt auf Englisch „to fall in love with someone”."],
+      ["mcq","Wie sagt man „jemanden vermissen” auf Englisch?",["to miss someone", "to break up with someone", "to fall in love with someone", "to go on a date"],0,"„Jemanden vermissen” heißt auf Englisch „to miss someone”."],
+      ["fill","Completa: “Ich verspreche dir, dass ich nie mit dir Schluss machen ___.”",["habe", "machte", "werde", "mache"],2,"Das Futur I „werde ... machen” drückt ein festes Versprechen über etwas Zukünftiges aus."],
+      ["translate","Übersetze: „I think you two will get engaged soon.“",["Ich glaube, ihr verlobt euch bald.", "Ich glaube, ihr werdet euch bald verloben.", "Ich glaube, ihr werdet euch bald verlieben.", "Ich glaube, ihr werdet euch morgen verloben."],1,"„Will get engaged” = „werdet euch verloben”, Futur I für eine Vorhersage."],
+      ["arrange","Bring in die richtige Reihenfolge: [Date / werde / morgen / ich / haben / ein]",["morgen haben Date werde Ich ein", "morgen haben werde Date Ich ein", "morgen Date Ich werde haben ein", "Ich werde morgen ein Date haben"],3,"Subjekt + Futur I + Zeitangabe + Artikel + Substantiv."],
+      ["writing","Schreibe 45-65 Wörter über eine Beziehung (real oder erfunden) und benutze mindestens zwei Verben im Futur I für Versprechen oder Vorhersagen.",[],["werde/wird versprechen", "werden sein", "Partner"]],
+    ]
+  },
+  {
+    id:"de_b2_sustainable_tourism", level:"B2", title:"Nachhaltiger Tourismus und Overtourism", emoji:"🧳", xp:84,
+    description:"Sprich über nachhaltigen Tourismus mit „es sei denn” und „vorausgesetzt, dass” + Konjunktiv/Indikativ.",
+    study: {
+      vocab: [
+        ["der Overtourism", "overtourism"],
+        ["ein Reiseziel überlasten", "to overcrowd a tourist destination"],
+        ["der nachhaltige Tourismus", "sustainable tourism"],
+        ["die lokalen Mieten in die Höhe treiben", "to drive up local housing costs"],
+        ["die touristischen Auswirkungen verteilen", "to spread out tourism's impact"],
+        ["die lokale Kultur respektieren", "to respect the local culture"],
+      ],
+      grammar: [
+        ["„Es sei denn” und „vorausgesetzt, dass” für Bedingungen", "„Es sei denn” (unless) und „vorausgesetzt, dass” (provided that) leiten eine Bedingung ein; nach „es sei denn” folgt oft der Konjunktiv I in formellem Stil.", "Das Reiseziel bleibt überlastet, es sei denn, der Tourismus werde reguliert. / Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur respektiert wird."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die lokalen Mieten in die Höhe treiben” auf Englisch?",["sustainable tourism", "to respect the local culture", "to spread out tourism's impact", "to drive up local housing costs"],3,"„Die lokalen Mieten in die Höhe treiben” heißt auf Englisch „to drive up local housing costs”."],
+      ["mcq","Wie sagt man „die touristischen Auswirkungen verteilen” auf Englisch?",["to drive up local housing costs", "to respect the local culture", "sustainable tourism", "to spread out tourism's impact"],3,"„Die touristischen Auswirkungen verteilen” heißt auf Englisch „to spread out tourism's impact”."],
+      ["fill","Completa: “Das Reiseziel bleibt überlastet, es sei denn, der Tourismus ___ reguliert.”",["wird", "sei", "würde", "war"],0,"„Es sei denn” leitet eine Bedingung ein, hier mit Indikativ Präsens Passiv: „es sei denn, ... wird reguliert”."],
+      ["translate","Übersetze: „Tourism will be positive provided that the local culture is respected.“",["Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur respektiert wird.", "Tourismus ist positiv, es sei denn, die lokale Kultur wird respektiert.", "Tourismus war positiv, vorausgesetzt, dass die lokale Kultur respektiert wird.", "Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur ignoriert wird."],0,"„Provided that” = „vorausgesetzt, dass”, gefolgt vom Nebensatz „respektiert wird”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Reiseziele / viele / sind / touristische / überlastet]",["touristische Reiseziele Viele sind überlastet", "Viele touristische Reiseziele sind überlastet", "Reiseziele überlastet touristische sind Viele", "Reiseziele Viele sind touristische überlastet"],1,"Subjekt + Verb + Adjektiv."],
+      ["writing","Schreibe 55-75 Wörter über Overtourism an einem Reiseziel, das du kennst, und benutze mindestens ein „es sei denn” und ein „vorausgesetzt, dass”.",[],["es sei denn", "vorausgesetzt, dass", "nachhaltig"]],
+    ]
+  },
+  {
+    id:"de_c1_gastronomy_identity", level:"C1", title:"Gastronomie und kulturelle Identität", emoji:"🍽️", xp:92,
+    description:"Analysiere Gastronomie als kulturelle Identität mit betonten Konstruktionen wie „was ... ist”.",
+    study: {
+      vocab: [
+        ["die geschützte Herkunftsbezeichnung", "protected designation of origin"],
+        ["ein emblematisches Gericht", "an iconic/signature dish"],
+        ["die kulinarische Fusion", "culinary fusion"],
+        ["ein traditionelles Rezept bewahren", "to preserve a traditional recipe"],
+        ["sich eine kulinarische Tradition aneignen", "to appropriate a culinary tradition"],
+        ["der kollektive Gaumen", "the collective palate"],
+      ],
+      grammar: [
+        ["Betonte Konstruktionen mit „was ... ist”", "„Was ... ist” hebt ein Satzelement hervor und verleiht ihm mehr Gewicht, typisch für argumentative Texte.", "Was eine Kultur definiert, ist ihre Gastronomie. / Was lokale Köche beunruhigt, ist die Aneignung ihrer Rezepte."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „ein emblematisches Gericht” auf Englisch?",["an iconic/signature dish", "to preserve a traditional recipe", "the collective palate", "to appropriate a culinary tradition"],0,"„Ein emblematisches Gericht” heißt auf Englisch „an iconic/signature dish”."],
+      ["mcq","Wie sagt man „sich eine kulinarische Tradition aneignen” auf Englisch?",["the collective palate", "culinary fusion", "protected designation of origin", "to appropriate a culinary tradition"],3,"„Sich eine kulinarische Tradition aneignen” heißt auf Englisch „to appropriate a culinary tradition”."],
+      ["fill","Completa: “Was eine Kultur ___ , ist zu großen Teilen ihre Gastronomie.”",["definierte", "definiert", "definieren", "definieren würde"],1,"Die betonte Konstruktion „was ... ist” verlangt das Verb im Singular, übereinstimmend mit „was”."],
+      ["translate","Übersetze mit betonter Konstruktion: „What worries local chefs is the appropriation of their recipes.“",["Was lokale Köche beunruhigt, ist die Aneignung ihrer Rezepte.", "Was lokale Köche beunruhigt, ist die Fusion ihrer Rezepte.", "Was lokale Köche beunruhigt, sind die Aneignung ihrer Rezepte.", "Was lokale Köche beunruhigen, ist die Aneignung ihrer Rezepte."],0,"Das Verb „beunruhigt” steht im Singular, übereinstimmend mit „was”, dem Subjekt des Satzes."],
+      ["arrange","Bring in die richtige Reihenfolge: [Rezept / bewahren / dieses / müssen / wir / traditionelle]",["traditionelle Wir Rezept müssen bewahren dieses", "bewahren traditionelle müssen dieses Rezept Wir", "müssen bewahren Wir traditionelle Rezept dieses", "Wir müssen dieses traditionelle Rezept bewahren"],3,"Subjekt + Modalverb + Objekt + Adjektiv + Substantiv + Infinitiv."],
+      ["writing","Schreibe 55-75 Wörter über ein Gericht, das du als Teil deiner kulturellen Identität betrachtest, und benutze mindestens zwei betonte Konstruktionen mit „was ... ist”.",[],["was...definiert", "was...darstellt", "kulturelle Identität"]],
+    ]
+  },
+  {
+    id:"de_c2_crisis_rhetoric", level:"C2", title:"Die Rhetorik der Krise und die moralische Panik", emoji:"📢", xp:100,
+    description:"Analysiere Krisenrhetorik und übe rhetorische Intensivierungsstrukturen.",
+    study: {
+      vocab: [
+        ["die moralische Panik", "moral panic"],
+        ["eine erfundene Krise", "a manufactured crisis"],
+        ["eine Situation dramatisieren", "to catastrophize a situation"],
+        ["ein Sündenbock", "a scapegoat"],
+        ["eine Bedrohung überzeichnen", "to blow a threat out of proportion"],
+        ["eine alarmistische Rhetorik", "alarmist rhetoric"],
+      ],
+      grammar: [
+        ["Rhetorische Intensivierungsstrukturen", "„Nicht nur ... sondern auch” und „immer mehr” intensivieren eine Aussage durch Steigerung — typisches Mittel der Krisenrhetorik und moralischen Panik.", "Die Bedrohung wird nicht nur übertrieben, sondern man sucht auch einen Sündenbock. / Alarmistische Rhetorik wird in den Medien immer häufiger."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „ein Sündenbock” auf Englisch?",["to blow a threat out of proportion", "to catastrophize a situation", "a scapegoat", "a manufactured crisis"],2,"„Ein Sündenbock” heißt auf Englisch „a scapegoat”."],
+      ["mcq","Wie sagt man „eine Bedrohung überzeichnen” auf Englisch?",["alarmist rhetoric", "to blow a threat out of proportion", "a manufactured crisis", "moral panic"],1,"„Eine Bedrohung überzeichnen” heißt auf Englisch „to blow a threat out of proportion”."],
+      ["fill","Completa: “Die Bedrohung wird nicht nur übertrieben, ___ man sucht auch einen Sündenbock.”",["also", "denn", "sondern", "aber"],2,"„Nicht nur ... sondern auch” intensiviert eine Aussage durch ein zweites Element mit eigenem Verb."],
+      ["translate","Übersetze präzise: „Alarmist rhetoric is becoming increasingly common in the media.“",["Alarmistische Rhetorik wird in den Medien immer seltener.", "Alarmistische Rhetorik wird in den Medien immer häufiger.", "Moralische Panik wird in den Medien immer häufiger.", "Alarmistische Rhetorik wird in den Medien immer ernster."],1,"„Increasingly common” = „immer häufiger”, Struktur der graduellen Intensivierung."],
+      ["arrange","Bring in die richtige Reihenfolge: [Sündenbock / suchen / einen / die Medien]",["suchen Medien einen Die Sündenbock", "Die Medien suchen einen Sündenbock", "Die suchen Sündenbock einen Medien", "suchen einen Medien Die Sündenbock"],1,"Subjekt + Verb + Artikel + Substantiv."],
+      ["writing","Schreibe 55-75 Wörter über einen realen oder erfundenen Fall moralischer Panik in den Medien, und benutze mindestens eine „nicht nur ... sondern auch”-Struktur und eine mit „immer mehr”.",[],["nicht nur...sondern auch", "immer mehr", "moralische Panik"]],
+    ]
+  },
 ];
