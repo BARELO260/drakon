@@ -2143,4 +2143,304 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe 55-75 Wörter über einen realen oder erfundenen Fall moralischer Panik in den Medien, und benutze mindestens eine „nicht nur ... sondern auch”-Struktur und eine mit „immer mehr”.",[],["nicht nur...sondern auch", "immer mehr", "moralische Panik"]],
     ]
   },
+  {
+    id:"de_a1_school_supplies_subjects", level:"A1", title:"In der Schule: Materialien und Fächer", emoji:"🎒", xp:38,
+    description:"Lerne Schulvokabular und wie man bestimmte und unbestimmte Artikel richtig benutzt.",
+    study: {
+      vocab: [
+        ["das Heft", "the notebook"],
+        ["der Bleistift", "the pencil"],
+        ["der Rucksack", "the backpack"],
+        ["die Mathematik", "math"],
+        ["die Geschichte", "history"],
+        ["der Lehrer/die Lehrerin", "the teacher"],
+      ],
+      grammar: [
+        ["Bestimmte und unbestimmte Artikel", "Bestimmte Artikel (der, die, das) bezeichnen etwas Bekanntes oder Spezifisches; unbestimmte Artikel (ein, eine) bezeichnen etwas Unspezifisches oder zum ersten Mal Erwähntes.", "Ich habe ein neues Heft. / Das Heft ist im Rucksack."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „der Bleistift” auf Englisch?",["the backpack", "history", "the pencil", "the teacher"],2,"„Bleistift” heißt auf Englisch „pencil”."],
+      ["mcq","Wie sagt man „die Mathematik” auf Englisch?",["the notebook", "history", "math", "the pencil"],2,"„Mathematik” heißt auf Englisch „math”."],
+      ["fill","Completa: “Ich habe ___ neuen Rucksack für die Schule.”",["ein", "den", "der", "einen"],3,"Der unbestimmte Artikel „einen” (Akkusativ maskulin) wird benutzt, weil es zum ersten Mal erwähnt wird."],
+      ["translate","Übersetze: „The notebook is in the backpack.“",["Der Bleistift ist im Rucksack.", "Das Heft ist im Rucksack.", "Ein Heft ist im Rucksack.", "Das Heft ist im Klassenzimmer."],1,"„The notebook” ist bereits bekannt, deshalb wird der bestimmte Artikel „das” benutzt."],
+      ["arrange","Bring in die richtige Reihenfolge: [Geschichte / sehr / ich / mag]",["sehr mag Ich Geschichte", "sehr Geschichte Ich mag", "Ich mag sehr Geschichte", "Ich mag Geschichte sehr"],3,"Subjekt + Verb + Substantiv + Adverb."],
+      ["writing","Beschreibe in 20-30 Wörtern, welche Schulsachen du hast und welches Fach dir am besten gefällt, und benutze bestimmte und unbestimmte Artikel.",[],["ein/eine", "der/die/das", "ich mag"]],
+    ]
+  },
+  {
+    id:"de_a2_post_office_packages", level:"A2", title:"Die Post und die Pakete", emoji:"📦", xp:48,
+    description:"Lerne Postvokabular und wie man Akkusativ-Objektpronomen (ihn/sie/es) benutzt.",
+    study: {
+      vocab: [
+        ["das Paket", "the package"],
+        ["der Brief", "the letter"],
+        ["die Briefmarke", "the stamp"],
+        ["mit der Post schicken", "to mail/send"],
+        ["der Briefkasten", "the mailbox"],
+        ["die Adresse", "the address"],
+      ],
+      grammar: [
+        ["Akkusativ-Objektpronomen (ihn/sie/es)", "Objektpronomen ersetzen ein bereits genanntes Substantiv im Akkusativ und stimmen in Genus und Numerus überein.", "Den Brief? Ich habe ihn gestern verschickt. / Die Pakete? Ich habe sie heute Morgen bekommen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Briefmarke” auf Englisch?",["the mailbox", "the letter", "the package", "the stamp"],3,"„Briefmarke” heißt auf Englisch „stamp”."],
+      ["mcq","Wie sagt man „der Briefkasten” auf Englisch?",["the address", "the letter", "the mailbox", "the package"],2,"„Briefkasten” heißt auf Englisch „mailbox”."],
+      ["fill","Completa: “Das Paket? Ich habe ___ heute Morgen bekommen.”",["ihn", "es", "sie", "ihm"],1,"„Das Paket” ist Neutrum Singular, deshalb wird es mit „es” ersetzt."],
+      ["translate","Übersetze: „The letters? I sent them yesterday.“",["Der Brief? Ich habe sie gestern verschickt.", "Die Briefe? Ich habe es gestern verschickt.", "Die Briefe? Ich habe sie morgen verschickt.", "Die Briefe? Ich habe sie gestern verschickt."],3,"„Die Briefe” ist Plural, deshalb wird es mit „sie” ersetzt."],
+      ["arrange","Bring in die richtige Reihenfolge: [Adresse / brauche / deine / ich]",["Ich brauche deine Adresse", "Adresse brauche deine Ich", "deine Ich Adresse brauche", "deine brauche Adresse Ich"],0,"Subjekt + Verb + Possessivobjekt + Substantiv."],
+      ["speaking","Beschreibe in 40-60 Wörtern, wann du zuletzt einen Brief oder ein Paket verschickt hast, und benutze Akkusativ-Objektpronomen (ihn/sie/es).",[],["ich habe ihn/sie/es", "Paket", "verschickt"]],
+    ]
+  },
+  {
+    id:"de_b1_movies_theater", level:"B1", title:"Ins Kino und ins Theater gehen", emoji:"🎬", xp:62,
+    description:"Lerne Kino- und Theatervokabular und wie man Zeitsätze mit „wenn”, „während” und „bevor” bildet.",
+    study: {
+      vocab: [
+        ["die Eintrittskarte", "the ticket"],
+        ["die Premiere", "the premiere"],
+        ["die Besetzung", "the cast"],
+        ["die Spezialeffekte", "special effects"],
+        ["der Sitzplatz", "the seat"],
+        ["die Pause", "the intermission"],
+      ],
+      grammar: [
+        ["Zeitsätze mit „wenn”, „während” und „bevor”", "„Wenn” und „während” + Präsens beschreiben gewohnheitsmäßige oder gleichzeitige Handlungen; „bevor” leitet eine Handlung ein, die noch nicht stattgefunden hat.", "Ich kaufe die Karten, wenn ich im Kino ankomme. / Wir reden, während wir auf die Premiere warten. / Wir kommen an, bevor der Film beginnt."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Premiere” auf Englisch?",["the seat", "the premiere", "the cast", "the ticket"],1,"„Premiere” heißt auf Englisch „premiere”."],
+      ["mcq","Wie sagt man „die Besetzung” auf Englisch?",["the seat", "the intermission", "the premiere", "the cast"],3,"„Besetzung” heißt auf Englisch „cast”."],
+      ["fill","Completa: “Wir kommen an, ___ der Film beginnt.”",["wenn", "nachdem", "bevor", "während"],2,"„Bevor” leitet eine Handlung ein, die noch nicht stattgefunden hat: „bevor der Film beginnt”."],
+      ["translate","Übersetze: „We talk while we wait for the premiere.“",["Wir reden, bevor wir auf die Premiere warten.", "Wir reden, während wir auf die Pause warten.", "Wir reden, wenn wir auf die Premiere warten.", "Wir reden, während wir auf die Premiere warten."],3,"„Während” + Präsens beschreibt gleichzeitige Handlungen: „während wir warten”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Kino / gehen / wir / oft / ins]",["Wir gehen oft ins Kino", "gehen oft Kino Wir ins", "gehen Kino ins oft Wir", "ins Wir oft Kino gehen"],0,"Subjekt + Verb + Adverb + Präposition + Substantiv."],
+      ["writing","Schreibe 45-65 Wörter über deinen letzten Besuch im Kino oder Theater und benutze mindestens zwei Zeitsätze mit „wenn”, „während” oder „bevor”.",[],["wenn", "während", "bevor"]],
+    ]
+  },
+  {
+    id:"de_b2_social_activism_protests", level:"B2", title:"Sozialer Aktivismus und Proteste", emoji:"✊", xp:84,
+    description:"Sprich über sozialen Aktivismus mit dem Konjunktiv/„dass”-Sätzen nach Verben der Einflussnahme.",
+    study: {
+      vocab: [
+        ["eine Demonstration", "a protest"],
+        ["Veränderung fordern", "to demand change"],
+        ["eine Petition unterschreiben", "to sign a petition"],
+        ["für etwas sensibilisieren", "to raise awareness about something"],
+        ["ein Kollektiv/eine Organisation", "a collective/organization"],
+        ["Menschen mobilisieren", "to mobilize people"],
+      ],
+      grammar: [
+        ["„Dass”-Sätze nach Verben der Einflussnahme", "Verben wie „fordern”, „verlangen” oder „vorschlagen” + „dass” leiten einen Nebensatz ein, der oft im Konjunktiv I steht, um formell eine Handlung von jemand anderem zu beeinflussen.", "Die Demonstranten fordern, dass die Regierung handle. / Das Kollektiv verlangt, dass die Petition unterschrieben werde."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „für etwas sensibilisieren” auf Englisch?",["a collective/organization", "to sign a petition", "to mobilize people", "to raise awareness about something"],3,"„Für etwas sensibilisieren” heißt auf Englisch „to raise awareness about something”."],
+      ["mcq","Wie sagt man „Menschen mobilisieren” auf Englisch?",["to sign a petition", "to demand change", "to mobilize people", "a collective/organization"],2,"„Menschen mobilisieren” heißt auf Englisch „to mobilize people”."],
+      ["fill","Completa: “Die Demonstranten fordern, dass die Regierung ___.”",["handelte", "wird handeln", "handle", "handelt"],2,"Nach „fordern, dass” steht formell der Konjunktiv I: „dass... handle”."],
+      ["translate","Übersetze: „The collective is asking people to sign the petition.“",["Das Kollektiv verlangt, dass die Menschen die Petition unterschreiben.", "Das Kollektiv fordert, dass die Menschen die Petition unterschreiben.", "Das Kollektiv verlangt, dass die Menschen die Demonstration unterschreiben.", "Das Kollektiv verlangt, dass die Menschen die Petition unterschrieben."],0,"„Verlangen, dass” leitet den Nebensatz mit dem geforderten Verb ein: „dass... unterschreiben”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Petition / werde / die / unterschreiben]",["Die Petition werde ich unterschreiben", "unterschreiben Petition werde Die ich", "Petition ich unterschreiben werde Die", "werde Die unterschreiben ich Petition"],0,"Objekt + Hilfsverb + Subjekt + Infinitiv."],
+      ["writing","Schreibe 55-75 Wörter über eine soziale Sache, die dir wichtig ist, und benutze mindestens zwei Verben der Einflussnahme + „dass”-Satz (fordern, dass; verlangen, dass).",[],["ich fordere, dass", "ich verlange, dass", "Demonstration"]],
+    ]
+  },
+  {
+    id:"de_c1_aging_population_pensions", level:"C1", title:"Die alternde Bevölkerung und die Renten", emoji:"👴", xp:92,
+    description:"Analysiere die alternde Bevölkerung mit Konsekutivsätzen („so...dass”, „derart...dass”).",
+    study: {
+      vocab: [
+        ["die alternde Bevölkerung", "population aging"],
+        ["das Rentensystem", "the pension system"],
+        ["die Geburtenrate", "the birth rate"],
+        ["die Lebenserwartung", "life expectancy"],
+        ["das Rentensystem aufrechterhalten", "to sustain the pension system"],
+        ["die Generationenkluft", "the generational gap"],
+      ],
+      grammar: [
+        ["Konsekutivsätze: „so...dass” und „derart...dass”", "Konsekutivsätze drücken eine Folge aus einer Intensität oder Art aus. „So + Adjektiv + dass” betont den Grad; „derart...dass” leitet das Ergebnis einer Handlung ein.", "Die Bevölkerung altert so schnell, dass das Rentensystem gefährdet ist. / Die Geburtenrate ist derart gesunken, dass junge Arbeitskräfte fehlen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Geburtenrate” auf Englisch?",["population aging", "the birth rate", "life expectancy", "the generational gap"],1,"„Geburtenrate” heißt auf Englisch „birth rate”."],
+      ["mcq","Wie sagt man „das Rentensystem aufrechterhalten” auf Englisch?",["the birth rate", "life expectancy", "to sustain the pension system", "population aging"],2,"„Das Rentensystem aufrechterhalten” heißt auf Englisch „to sustain the pension system”."],
+      ["fill","Completa: “Die Bevölkerung altert so schnell, ___ das Rentensystem gefährdet ist.”",["denn", "wie", "so", "dass"],3,"„So + Adjektiv/Adverb + dass” leitet die Konsequenz ein: „so schnell, dass gefährdet ist”."],
+      ["translate","Übersetze mit Konsekutivsatz: „The birth rate has dropped in such a way that young workers are lacking.“",["Die Lebenserwartung ist derart gesunken, dass junge Arbeitskräfte fehlen.", "Die Geburtenrate ist derart gesunken, dass zu viele junge Arbeitskräfte da sind.", "Die Geburtenrate ist derart gesunken, dass junge Arbeitskräfte fehlen.", "Die Geburtenrate ist so gesunken, dass junge Arbeitskräfte fehlen."],2,"„In such a way that” = „derart...dass”, leitet die Konsequenz ein."],
+      ["arrange","Bring in die richtige Reihenfolge: [Rentensystem / viele / beunruhigt / das]",["Das beunruhigt viele Rentensystem", "viele Das Rentensystem beunruhigt", "Das Rentensystem beunruhigt viele", "viele Rentensystem beunruhigt Das"],2,"Subjekt + Verb + Objekt."],
+      ["writing","Schreibe 55-75 Wörter über die alternde Bevölkerung in deinem Land, und benutze mindestens einen Satz mit „so...dass” und einen mit „derart...dass”.",[],["so...dass", "derart...dass", "Bevölkerung"]],
+    ]
+  },
+  {
+    id:"de_c2_rhetoric_of_silence", level:"C2", title:"Die Rhetorik des Schweigens und des Ungesagten", emoji:"🤐", xp:100,
+    description:"Analysiere die Rhetorik des Schweigens und übe die Ellipse zu rhetorischen Zwecken.",
+    study: {
+      vocab: [
+        ["das beredte Schweigen", "eloquent silence"],
+        ["etwas bewusst auslassen", "to deliberately omit something"],
+        ["das Ungesagte", "the unsaid"],
+        ["eine diskursive Leerstelle", "a discursive gap"],
+        ["etwas offenlassen", "to leave something hanging"],
+        ["die rhetorische Ellipse", "rhetorical ellipsis"],
+      ],
+      grammar: [
+        ["Die Ellipse zu rhetorischen Zwecken", "Die Ellipse lässt ein aus dem Kontext verständliches Element weg und erzeugt Nachdruck oder lässt eine Idee bewusst unvollständig — ein starkes Mittel im politischen und literarischen Diskurs.", "Manche schweigen aus Angst; andere aus Komplizenschaft. (das Verb „schweigen” wird weggelassen) / Er versprach Reformen... und Schweigen. (das erwartete Verb wird weggelassen)"],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine diskursive Leerstelle” auf Englisch?",["eloquent silence", "a discursive gap", "to leave something hanging", "rhetorical ellipsis"],1,"„Eine diskursive Leerstelle” heißt auf Englisch „a discursive gap”."],
+      ["mcq","Wie sagt man „etwas offenlassen” auf Englisch?",["eloquent silence", "to leave something hanging", "to deliberately omit something", "rhetorical ellipsis"],1,"„Etwas offenlassen” heißt auf Englisch „to leave something hanging”."],
+      ["fill","Completa: “Manche schweigen aus Angst; andere aus ___.”",["Komplizenschaft", "ist Komplizenschaft", "schweigen Komplizenschaft", "dass Komplizenschaft"],0,"Die Ellipse lässt das wiederholte Verb „schweigen” weg und behält nur die Ergänzung: „andere aus Komplizenschaft”."],
+      ["translate","Übersetze mit rhetorischer Ellipse: „He promised reforms... and silence.“",["Er versprach Reformen... und war Schweigen.", "Er versprach Reformen... und ein Schweigen.", "Er versprach Reformen... und Lärm.", "Er versprach Reformen... und Schweigen."],3,"Die rhetorische Ellipse lässt das erwartete Verb nach den Auslassungspunkten weg und behält nur „und Schweigen”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Worte / manchmal / sagt / mehr / das Schweigen / als die]",["Das Schweigen sagt manchmal mehr als die Worte", "als die sagt manchmal Worte Schweigen Das mehr", "manchmal Das als die mehr Worte Schweigen sagt", "mehr Worte sagt Das die Schweigen als manchmal"],0,"Subjekt + Verb + Adverb + Komparativ + Ergänzung."],
+      ["writing","Schreibe 55-75 Wörter über ein reales oder erfundenes Beispiel rhetorischen Schweigens in einer Rede, und benutze mindestens eine bewusste Ellipse.",[],["das Ungesagte", "beredtes Schweigen", "auslassen"]],
+    ]
+  },
+  {
+    id:"de_a1_time_parts_of_day", level:"A1", title:"Die Uhrzeit und die Tageszeiten", emoji:"🕐", xp:38,
+    description:"Lerne, die Uhrzeit und die Tageszeiten mit Zeitpräpositionen zu sagen.",
+    study: {
+      vocab: [
+        ["der Morgen", "the morning"],
+        ["der Nachmittag", "the afternoon"],
+        ["die Nacht", "the night"],
+        ["der Mittag", "noon"],
+        ["die Mitternacht", "midnight"],
+        ["Uhr/pünktlich", "o'clock/sharp"],
+      ],
+      grammar: [
+        ["„Wie spät ist es?” + Zeitpräpositionen", "Um nach der Uhrzeit zu fragen, sagt man „Wie spät ist es?”; zur Antwort „es ist ein Uhr” oder „es ist + Zahl + Uhr”, mit „morgens/nachmittags/abends” zur genaueren Angabe.", "Es ist drei Uhr nachmittags. / Es ist ein Uhr pünktlich morgens."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „die Mitternacht” auf Englisch?",["the afternoon", "midnight", "o'clock/sharp", "the morning"],1,"„Mitternacht” heißt auf Englisch „midnight”."],
+      ["mcq","Wie sagt man „Uhr/pünktlich” auf Englisch?",["the morning", "midnight", "o'clock/sharp", "the night"],2,"„Uhr/pünktlich” heißt auf Englisch „o'clock” oder „sharp”."],
+      ["fill","Completa: “___ ist drei Uhr nachmittags.”",["Sie", "Er", "Es", "Das"],2,"Für die Uhrzeit benutzt man immer „es”: „es ist drei Uhr”."],
+      ["translate","Übersetze: „It's one o'clock in the morning.“",["Es ist zwei Uhr morgens.", "Es ist ein Uhr morgens.", "Es ist eins Uhr morgens.", "Es ist ein Uhr nachmittags."],1,"Bei „ein Uhr” wird „ein” ohne Endung verwendet, nicht „eins”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Uhr / vier / es / nachmittags / ist]",["Es ist nachmittags vier Uhr", "vier ist nachmittags Es Uhr", "Es ist vier Uhr nachmittags", "ist nachmittags Es vier Uhr"],2,"Subjekt + Verb + Zahl + Substantiv + Tageszeit."],
+      ["writing","Beschreibe in 20-30 Wörtern deine tägliche Routine mit konkreten Uhrzeiten, und benutze „es ist” und „morgens/nachmittags/abends”.",[],["es ist", "morgens", "nachmittags"]],
+    ]
+  },
+  {
+    id:"de_a2_bank_open_account", level:"A2", title:"Bei der Bank: ein Konto eröffnen", emoji:"🏦", xp:48,
+    description:"Lerne grundlegendes Bankvokabular und wie man „können” für Möglichkeit und Erlaubnis benutzt.",
+    study: {
+      vocab: [
+        ["das Bankkonto", "the bank account"],
+        ["der Geldautomat", "the ATM"],
+        ["Geld abheben", "to withdraw money"],
+        ["Geld einzahlen", "to deposit money"],
+        ["die Debitkarte", "the debit card"],
+        ["der Kontostand", "the balance"],
+      ],
+      grammar: [
+        ["„Können” + Infinitiv für Möglichkeit und Erlaubnis", "„Können” + Infinitiv drückt je nach Kontext Fähigkeit, Möglichkeit oder Erlaubnis aus.", "Kann ich hier ein Konto eröffnen? / Du kannst an jedem Geldautomaten Geld abheben."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „Geld abheben” auf Englisch?",["the bank account", "the ATM", "to withdraw money", "the debit card"],2,"„Geld abheben” heißt auf Englisch „to withdraw money”."],
+      ["mcq","Wie sagt man „der Kontostand” auf Englisch?",["the bank account", "to withdraw money", "the balance", "to deposit money"],2,"„Kontostand” heißt auf Englisch „balance”."],
+      ["fill","Completa: “___ ich hier bitte ein Konto eröffnen?”",["Könnt", "Kannst", "Können", "Kann"],3,"In der ersten Person benutzt man „kann” um Erlaubnis zu erfragen: „kann ich eröffnen”."],
+      ["translate","Übersetze: „You can withdraw money at any ATM.“",["Du kannst an jeder Bank Geld abheben.", "Du kannst an jedem Geldautomaten Geld abheben.", "Du kannst an jedem Geldautomaten Geld einzahlen.", "Du musst an jedem Geldautomaten Geld abheben."],1,"„You can withdraw” = „du kannst abheben”, mit „können” + Infinitiv."],
+      ["arrange","Bring in die richtige Reihenfolge: [Kontostand / prüfen / meinen / möchte / ich]",["Ich möchte meinen Kontostand prüfen", "prüfen Ich meinen möchte Kontostand", "meinen möchte Kontostand prüfen Ich", "möchte meinen prüfen Ich Kontostand"],0,"Subjekt + Verb + Possessivobjekt + Substantiv + Infinitiv."],
+      ["speaking","Beschreibe in 40-60 Wörtern, wie du ein Bankkonto eröffnen würdest, und benutze „können” um Erlaubnis zu erfragen oder Möglichkeit auszudrücken.",[],["ich kann", "du kannst", "Konto"]],
+    ]
+  },
+  {
+    id:"de_b1_train_plane_travel", level:"B1", title:"Zug- und Flugreisen: Verspätungen und Änderungen", emoji:"🚄", xp:62,
+    description:"Lerne Vokabular für lange Reisen und wie man „obwohl” und „auch wenn” benutzt.",
+    study: {
+      vocab: [
+        ["die Verspätung", "the delay"],
+        ["den Flug/Zug verpassen", "to miss the flight/train"],
+        ["einen Zwischenstopp machen", "to make a layover/stopover"],
+        ["der Bahnsteig", "the platform"],
+        ["einen Flug stornieren", "to cancel a flight"],
+        ["der Fenster-/Gangplatz", "the window/aisle seat"],
+      ],
+      grammar: [
+        ["„Obwohl” und „auch wenn” für Zugeständnisse", "„Obwohl” leitet eine reale, bekannte Tatsache ein; „auch wenn” kann sich auf eine reale oder hypothetische Situation beziehen, beide mit Indikativ im Deutschen.", "Obwohl der Zug zu spät ankam, habe ich meinen Flug erreicht. / Auch wenn der Flug storniert wird, haben wir eine andere Option."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „einen Zwischenstopp machen” auf Englisch?",["the platform", "the window/aisle seat", "to miss the flight/train", "to make a layover/stopover"],3,"„Einen Zwischenstopp machen” heißt auf Englisch „to make a layover” oder „stopover”."],
+      ["mcq","Wie sagt man „der Bahnsteig” auf Englisch?",["the platform", "the window/aisle seat", "to miss the flight/train", "to make a layover/stopover"],0,"„Bahnsteig” heißt auf Englisch „platform”."],
+      ["fill","Completa: “Obwohl der Zug zu spät ___, habe ich meinen Flug erreicht.”",["anzukommen", "ankommen wird", "ankam", "ankommt"],2,"„Obwohl” leitet eine reale, vergangene Tatsache mit Indikativ Präteritum ein: „obwohl... ankam”."],
+      ["translate","Übersetze: „Even if the flight is cancelled, we have another option.“",["Obwohl der Flug storniert wird, haben wir eine andere Option.", "Auch wenn der Flug storniert würde, haben wir eine andere Option.", "Auch wenn der Flug storniert wird, haben wir eine andere Option.", "Auch wenn der Zug storniert wird, haben wir eine andere Option."],2,"„Even if” = „auch wenn”, mit Indikativ: „auch wenn der Flug storniert wird”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Fensterplatz / bevorzuge / den / ich]",["Ich bevorzuge Fensterplatz den", "Ich bevorzuge den Fensterplatz", "Fensterplatz bevorzuge Ich den", "bevorzuge den Fensterplatz Ich"],1,"Subjekt + Verb + Artikel + Substantiv."],
+      ["writing","Schreibe 45-65 Wörter über eine Zug- oder Flugreise mit Zwischenfällen, und benutze mindestens einmal „obwohl” und einmal „auch wenn”.",[],["obwohl", "auch wenn", "Verspätung"]],
+    ]
+  },
+  {
+    id:"de_b2_sharing_economy_conscious_consumption", level:"B2", title:"Die Sharing Economy und der bewusste Konsum", emoji:"♻️", xp:84,
+    description:"Sprich über die Sharing Economy mit Futur und Konjunktiv II der Vermutung.",
+    study: {
+      vocab: [
+        ["die Sharing Economy", "the sharing economy"],
+        ["mieten statt kaufen", "to rent instead of buying"],
+        ["der bewusste Konsum", "conscious consumption"],
+        ["Ressourcen teilen", "to share resources"],
+        ["die geplante Obsoleszenz", "planned obsolescence"],
+        ["Verschwendung reduzieren", "to reduce waste"],
+      ],
+      grammar: [
+        ["Futur und Konjunktiv II der Vermutung", "Das Futur I kann eine Vermutung über die Gegenwart ausdrücken („es wird zehn Uhr sein”); der Konjunktiv II mit „würde” drückt eine Vermutung über eine hypothetische Situation aus.", "Dieses Modell wird wohl etwa fünf Jahre geplante Obsoleszenz haben. / Bei diesem Konsum würden sie weniger Ressourcen verbrauchen als gedacht."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „mieten statt kaufen” auf Englisch?",["to share resources", "to rent instead of buying", "to reduce waste", "the sharing economy"],1,"„Mieten statt kaufen” heißt auf Englisch „to rent instead of buying”."],
+      ["mcq","Wie sagt man „die geplante Obsoleszenz” auf Englisch?",["to rent instead of buying", "planned obsolescence", "conscious consumption", "the sharing economy"],1,"„Geplante Obsoleszenz” heißt auf Englisch „planned obsolescence”."],
+      ["fill","Completa: “Dieses Modell ___ wohl etwa fünf Jahre geplante Obsoleszenz haben.”",["wird", "hat", "hatte", "würde"],0,"Das Futur der Vermutung drückt eine Annahme über die Gegenwart aus: „wird... haben”."],
+      ["translate","Übersetze mit Konjunktiv II der Vermutung: „With that consumption, they would spend fewer resources than they thought.“",["Bei diesem Konsum würden sie weniger Ressourcen verbrauchen als gedacht.", "Bei diesem Konsum würden sie mehr Ressourcen verbrauchen als gedacht.", "Bei diesem Konsum würden sie weniger Geld verbrauchen als gedacht.", "Bei diesem Konsum werden sie weniger Ressourcen verbrauchen als gedacht."],0,"Der Konjunktiv II der Vermutung „würden verbrauchen” drückt eine Annahme über eine hypothetische Situation aus."],
+      ["arrange","Bring in die richtige Reihenfolge: [Verschwendung / müssen / die / reduzieren / wir]",["Verschwendung die reduzieren Wir müssen", "Wir reduzieren müssen die Verschwendung", "Wir müssen die Verschwendung reduzieren", "reduzieren Wir die Verschwendung müssen"],2,"Subjekt + Modalverb + Artikel + Substantiv + Infinitiv."],
+      ["writing","Schreibe 55-75 Wörter über die Sharing Economy und bewussten Konsum, und benutze mindestens ein Futur und einen Konjunktiv II der Vermutung.",[],["wird...haben", "würden", "bewusster Konsum"]],
+    ]
+  },
+  {
+    id:"de_c1_nonverbal_intercultural_communication", level:"C1", title:"Nonverbale Sprache und interkulturelle Kommunikation", emoji:"🤝", xp:92,
+    description:"Analysiere nonverbale Kommunikation mit „als ob” + Konjunktiv II.",
+    study: {
+      vocab: [
+        ["die Körpersprache", "body language"],
+        ["der Augenkontakt", "eye contact"],
+        ["eine missverstandene Geste", "a misinterpreted gesture"],
+        ["die Proxemik (persönlicher Abstand)", "proxemics (personal space)"],
+        ["ein kulturelles Signal", "a cultural cue"],
+        ["das unangenehme Schweigen", "awkward silence"],
+      ],
+      grammar: [
+        ["„Als ob” + Konjunktiv II", "„Als ob” verlangt immer den Konjunktiv II, auch wenn sich der Vergleich auf die Gegenwart bezieht, weil es etwas Hypothetisches oder der Realität Widersprechendes beschreibt.", "Er handelte, als ob er die Geste verstünde, obwohl er sie nicht verstand. / Sie reagierte, als ob sie beleidigt worden wäre."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine missverstandene Geste” auf Englisch?",["awkward silence", "body language", "a cultural cue", "a misinterpreted gesture"],3,"„Eine missverstandene Geste” heißt auf Englisch „a misinterpreted gesture”."],
+      ["mcq","Wie sagt man „die Proxemik (persönlicher Abstand)” auf Englisch?",["awkward silence", "eye contact", "proxemics (personal space)", "body language"],2,"„Proxemik” heißt auf Englisch „proxemics”."],
+      ["fill","Completa: “Er handelte, als ob er die Geste ___, obwohl er sie nicht verstand.”",["verstehen wird", "verstand", "verstünde", "versteht"],2,"„Als ob” verlangt den Konjunktiv II für einen Vergleich zur Gegenwart: „als ob er verstünde”."],
+      ["translate","Übersetze: „She reacted as if she had been offended.“",["Sie reagierte, als ob sie beleidigt worden wäre.", "Sie reagierte, als ob sie beleidigt war.", "Sie reagierte, als ob sie eingeladen worden wäre.", "Sie reagierte, als ob sie beleidigt ist."],0,"„As if she had been offended” wird mit Konjunktiv II Plusquamperfekt übersetzt: „als ob sie beleidigt worden wäre”."],
+      ["arrange","Bring in die richtige Reihenfolge: [Kulturen / variiert / zwischen / der Augenkontakt]",["Der Augenkontakt Kulturen zwischen variiert", "Der Augenkontakt variiert zwischen Kulturen", "variiert Augenkontakt zwischen Kulturen Der", "variiert zwischen Augenkontakt Der Kulturen"],1,"Subjekt + Verb + Präposition + Substantiv."],
+      ["writing","Schreibe 55-75 Wörter über ein interkulturelles Missverständnis in Bezug auf nonverbale Kommunikation, und benutze mindestens zwei Konstruktionen mit „als ob”.",[],["als ob", "Körpersprache", "Geste"]],
+    ]
+  },
+  {
+    id:"de_c2_scientific_hedging_uncertainty", level:"C2", title:"Die Unsicherheit und die wissenschaftliche Sprache", emoji:"🔬", xp:100,
+    description:"Analysiere wissenschaftliche Sprache mit Ausdrücken epistemischer Abschwächung (Hedging).",
+    study: {
+      vocab: [
+        ["die statistische Unsicherheit", "statistical uncertainty"],
+        ["eine Fehlerspanne", "a margin of error"],
+        ["Korrelation impliziert keine Kausalität", "correlation does not imply causation"],
+        ["vorläufige Ergebnisse", "preliminary results"],
+        ["eine unbestätigte Hypothese", "an unconfirmed hypothesis"],
+        ["eine Aussage abschwächen", "to hedge/qualify a claim"],
+      ],
+      grammar: [
+        ["Ausdrücke epistemischer Abschwächung (Hedging)", "Ausdrücke wie „man könnte sagen, dass”, „es wäre nicht abwegig zu denken, dass” oder „die Daten deuten darauf hin, ohne zu bestätigen, dass” schwächen den Gewissheitsgrad einer wissenschaftlichen Aussage ab und vermeiden Übergeneralisierung.", "Man könnte sagen, dass es einen Trend gibt, obwohl die Daten vorläufig sind. / Die Ergebnisse deuten auf einen kausalen Zusammenhang hin, ohne ihn zu bestätigen."],
+      ]
+    },
+    ex:[
+      ["mcq","Wie sagt man „eine Fehlerspanne” auf Englisch?",["to hedge/qualify a claim", "an unconfirmed hypothesis", "correlation does not imply causation", "a margin of error"],3,"„Eine Fehlerspanne” heißt auf Englisch „a margin of error”."],
+      ["mcq","Wie sagt man „eine unbestätigte Hypothese” auf Englisch?",["statistical uncertainty", "preliminary results", "a margin of error", "an unconfirmed hypothesis"],3,"„Eine unbestätigte Hypothese” heißt auf Englisch „an unconfirmed hypothesis”."],
+      ["fill","Completa: “Man ___ sagen, dass es einen Trend gibt, obwohl die Daten vorläufig sind.”",["muss", "wird", "kann", "könnte"],3,"„Man könnte sagen, dass” ist ein fester Ausdruck epistemischer Abschwächung, der eine Aussage abmildert."],
+      ["translate","Übersetze präzise: „The results suggest, but do not confirm, a causal relationship.“",["Die Ergebnisse deuten auf einen kausalen Zusammenhang hin, ohne ihn zu bestätigen.", "Die Ergebnisse deuten auf eine statistische Korrelation hin, ohne sie zu bestätigen.", "Die Ergebnisse deuten auf einen kausalen Zusammenhang hin und bestätigen ihn.", "Die Ergebnisse bestätigen einen kausalen Zusammenhang, ohne darauf hinzudeuten."],0,"„Suggest, but do not confirm” wird mit „deuten hin, ohne zu bestätigen” übersetzt, was die Gewissheit abschwächt."],
+      ["arrange","Bring in die richtige Reihenfolge: [Kausalität / keine / impliziert / Korrelation]",["impliziert Korrelation Kausalität keine", "Korrelation impliziert Kausalität keine", "Korrelation impliziert keine Kausalität", "Kausalität impliziert keine Korrelation"],2,"Subjekt + Verb + Negation + Objekt."],
+      ["writing","Schreibe 55-75 Wörter über eine (reale oder erfundene) wissenschaftliche Studie mit vorläufigen Ergebnissen, und benutze mindestens zwei Ausdrücke epistemischer Abschwächung.",[],["man könnte sagen, dass", "die Daten deuten darauf hin", "Unsicherheit"]],
+    ]
+  },
 ];

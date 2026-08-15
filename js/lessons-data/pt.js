@@ -2143,4 +2143,304 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva 55-75 palavras analisando um caso real ou inventado de pânico moral na mídia, usando pelo menos uma estrutura “não só... mas também” e uma com “cada vez mais”.",[],["não só... mas também", "cada vez mais", "pânico moral"]],
     ]
   },
+  {
+    id:"pt_a1_school_supplies_subjects", level:"A1", title:"Na escola: material escolar e disciplinas", emoji:"🎒", xp:38,
+    description:"Aprenda vocabulário escolar e a usar corretamente os artigos definidos e indefinidos.",
+    study: {
+      vocab: [
+        ["o caderno", "the notebook"],
+        ["o lápis", "the pencil"],
+        ["a mochila", "the backpack"],
+        ["a matemática", "math"],
+        ["a história", "history"],
+        ["o professor/a professora", "the teacher"],
+      ],
+      grammar: [
+        ["Artigos definidos e indefinidos", "Os artigos definidos (o, a, os, as) indicam algo específico ou já conhecido; os indefinidos (um, uma, uns, umas) indicam algo não específico ou mencionado pela primeira vez.", "Tenho um caderno novo. / O caderno está na mochila."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “o lápis” em inglês?",["the backpack", "the pencil", "the teacher", "history"],1,"“Lápis” é “pencil” em inglês."],
+      ["mcq","Como se diz “a matemática” em inglês?",["math", "the notebook", "the pencil", "the teacher"],0,"“Matemática” é “math” em inglês."],
+      ["fill","Completa: “Tenho ___ mochila nova para a escola.”",["uma", "um", "a", "o"],0,"Usa-se o artigo indefinido “uma” porque é a primeira vez que é mencionada."],
+      ["translate","Traduza: “The notebook is in the backpack.”",["O lápis está na mochila.", "O caderno está na sala de aula.", "Um caderno está na mochila.", "O caderno está na mochila."],3,"“The notebook” já é conhecido, por isso se usa o artigo definido “o”."],
+      ["arrange","Ordene: [história / muito / eu / gosto / de]",["de gosto história Eu muito", "Eu gosto muito de história", "Eu muito história de gosto", "Eu de história gosto muito"],1,"Sujeito + verbo + advérbio + preposição + substantivo."],
+      ["writing","Descreva em 20-30 palavras que material escolar você tem e de qual disciplina você mais gosta, usando artigos definidos e indefinidos.",[],["um/uma", "o/a", "eu gosto"]],
+    ]
+  },
+  {
+    id:"pt_a2_post_office_packages", level:"A2", title:"O correio e os pacotes", emoji:"📦", xp:48,
+    description:"Aprenda vocabulário postal e a usar pronomes de objeto direto (o/a/os/as).",
+    study: {
+      vocab: [
+        ["o pacote", "the package"],
+        ["a carta", "the letter"],
+        ["o selo", "the stamp"],
+        ["enviar pelo correio", "to mail/send"],
+        ["a caixa de correio", "the mailbox"],
+        ["o endereço", "the address"],
+      ],
+      grammar: [
+        ["Pronomes de objeto direto (o/a/os/as)", "Os pronomes de objeto direto substituem um substantivo já mencionado, concordando em gênero e número, geralmente colocados antes ou ligados ao verbo.", "A carta? Eu a enviei ontem. / Os pacotes? Eu os recebi esta manhã."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “o selo” em inglês?",["to mail/send", "the stamp", "the package", "the mailbox"],1,"“Selo” é “stamp” em inglês."],
+      ["mcq","Como se diz “a caixa de correio” em inglês?",["the stamp", "the mailbox", "to mail/send", "the package"],1,"“Caixa de correio” é “mailbox” em inglês."],
+      ["fill","Completa: “O pacote? Eu ___ recebi esta manhã.”",["lhe", "os", "a", "o"],3,"“O pacote” é masculino singular, por isso se substitui com “o”."],
+      ["translate","Traduza: “The letters? I sent them yesterday.”",["As cartas? Eu a enviei ontem.", "As cartas? Eu os enviei ontem.", "As cartas? Eu as enviei ontem.", "A carta? Eu as enviei ontem."],2,"“As cartas” é feminino plural, por isso se substitui com “as”."],
+      ["arrange","Ordene: [endereço / preciso / do / seu]",["Preciso do seu endereço", "do Preciso endereço seu", "seu endereço do Preciso", "do Preciso seu endereço"],0,"Verbo + preposição + objeto possessivo + substantivo."],
+      ["speaking","Descreva em 40-60 palavras a última vez que você enviou uma carta ou um pacote, usando pronomes de objeto direto (o/a/os/as).",[],["eu o/a enviei", "eu os/as recebi", "pacote"]],
+    ]
+  },
+  {
+    id:"pt_b1_movies_theater", level:"B1", title:"Ir ao cinema e ao teatro", emoji:"🎬", xp:62,
+    description:"Aprenda vocabulário de cinema e teatro e a construir orações temporais com “quando”, “enquanto” e “antes que”.",
+    study: {
+      vocab: [
+        ["o ingresso", "the ticket"],
+        ["a estreia", "the premiere"],
+        ["o elenco", "the cast"],
+        ["os efeitos especiais", "special effects"],
+        ["a poltrona", "the seat"],
+        ["o intervalo", "the intermission"],
+      ],
+      grammar: [
+        ["Orações temporais com “quando”, “enquanto” e “antes que”", "“Quando” e “enquanto” + indicativo descrevem ações habituais ou simultâneas; “antes que” exige subjuntivo porque introduz uma ação ainda não realizada.", "Compro os ingressos quando chego ao cinema. / Conversamos enquanto esperamos a estreia. / Chegamos antes que o filme comece."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “a estreia” em inglês?",["the intermission", "the seat", "the premiere", "special effects"],2,"“Estreia” é “premiere” em inglês."],
+      ["mcq","Como se diz “o elenco” em inglês?",["the premiere", "the intermission", "the seat", "the cast"],3,"“Elenco” é “cast” em inglês."],
+      ["fill","Completa: “Chegamos antes que o filme ___.”",["começa", "começou", "começará", "comece"],3,"“Antes que” exige subjuntivo porque a ação ainda não aconteceu: “antes que comece”."],
+      ["translate","Traduza: “We talk while we wait for the premiere.”",["Conversamos quando esperamos a estreia.", "Conversamos enquanto esperamos a estreia.", "Conversamos enquanto esperamos o intervalo.", "Conversamos enquanto esperemos a estreia."],1,"“Enquanto” + indicativo descreve ações simultâneas: “enquanto esperamos”."],
+      ["arrange","Ordene: [cinema / vamos / frequentemente / ao]",["frequentemente ao Vamos cinema", "Vamos frequentemente ao cinema", "Vamos ao cinema frequentemente", "frequentemente Vamos ao cinema"],1,"Sujeito + verbo + advérbio + preposição + substantivo."],
+      ["writing","Escreva 45-65 palavras sobre sua última visita ao cinema ou ao teatro, usando pelo menos duas orações temporais com “quando”, “enquanto” ou “antes que”.",[],["quando", "enquanto", "antes que"]],
+    ]
+  },
+  {
+    id:"pt_b2_social_activism_protests", level:"B2", title:"O ativismo social e os protestos", emoji:"✊", xp:84,
+    description:"Fale sobre ativismo social usando o subjuntivo com verbos de influência (exigir, pedir que).",
+    study: {
+      vocab: [
+        ["uma manifestação/protesto", "a protest"],
+        ["exigir uma mudança", "to demand change"],
+        ["assinar uma petição", "to sign a petition"],
+        ["conscientizar sobre algo", "to raise awareness about something"],
+        ["um coletivo/organização", "a collective/organization"],
+        ["mobilizar as pessoas", "to mobilize people"],
+      ],
+      grammar: [
+        ["Subjuntivo com verbos de influência", "Verbos como “exigir”, “pedir” ou “sugerir” + “que” exigem subjuntivo na oração subordinada porque tentam influenciar a ação de outra pessoa.", "Os manifestantes exigem que o governo aja. / O coletivo pede que a petição seja assinada."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “conscientizar sobre algo” em inglês?",["to demand change", "to raise awareness about something", "to sign a petition", "to mobilize people"],1,"“Conscientizar sobre algo” é “to raise awareness about something” em inglês."],
+      ["mcq","Como se diz “mobilizar as pessoas” em inglês?",["to mobilize people", "to sign a petition", "a collective/organization", "to demand change"],0,"“Mobilizar as pessoas” é “to mobilize people” em inglês."],
+      ["fill","Completa: “Os manifestantes exigem que o governo ___.”",["aja", "agiria", "age", "agirá"],0,"“Exigir que” exige subjuntivo: “exigem que aja”."],
+      ["translate","Traduza: “The collective is asking people to sign the petition.”",["O coletivo pede que as pessoas assinem a manifestação.", "O coletivo pede que as pessoas assinam a petição.", "O coletivo pede que as pessoas assinem a petição.", "O coletivo exige que as pessoas assinem a petição."],2,"“Pedir que” exige subjuntivo: “pede que assinem”."],
+      ["arrange","Ordene: [petição / vou / assinar / a]",["petição a assinar Vou", "a petição Vou assinar", "a Vou petição assinar", "Vou assinar a petição"],3,"“Ir” + infinitivo + artigo + substantivo."],
+      ["writing","Escreva 55-75 palavras sobre uma causa social que seja importante para você, usando pelo menos dois verbos de influência + subjuntivo (exigir que, pedir que, sugerir que).",[],["eu exijo que", "eu peço que", "manifestação"]],
+    ]
+  },
+  {
+    id:"pt_c1_aging_population_pensions", level:"C1", title:"O envelhecimento populacional e as aposentadorias", emoji:"👴", xp:92,
+    description:"Analise o envelhecimento populacional usando orações consecutivas (“tão...que”, “de tal forma que”).",
+    study: {
+      vocab: [
+        ["o envelhecimento populacional", "population aging"],
+        ["o sistema de aposentadoria", "the pension system"],
+        ["a taxa de natalidade", "the birth rate"],
+        ["a expectativa de vida", "life expectancy"],
+        ["sustentar o sistema de aposentadoria", "to sustain the pension system"],
+        ["a lacuna geracional", "the generational gap"],
+      ],
+      grammar: [
+        ["Orações consecutivas: “tão...que” e “de tal forma que”", "As orações consecutivas expressam uma consequência derivada de uma intensidade ou modo. “Tão + adjetivo + que” enfatiza o grau; “de tal forma que” introduz o resultado de uma ação.", "A população envelhece tão rápido que o sistema de aposentadoria está em risco. / A natalidade caiu de tal forma que faltam trabalhadores jovens."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “a taxa de natalidade” em inglês?",["the birth rate", "the pension system", "life expectancy", "the generational gap"],0,"“Taxa de natalidade” é “birth rate” em inglês."],
+      ["mcq","Como se diz “sustentar o sistema de aposentadoria” em inglês?",["the generational gap", "life expectancy", "the birth rate", "to sustain the pension system"],3,"“Sustentar o sistema de aposentadoria” é “to sustain the pension system” em inglês."],
+      ["fill","Completa: “A população envelhece tão rápido ___ o sistema de aposentadoria está em risco.”",["como", "que", "assim", "pois"],1,"“Tão + adjetivo/advérbio + que” introduz a consequência: “tão rápido que está em risco”."],
+      ["translate","Traduza com oração consecutiva: “The birth rate has dropped in such a way that young workers are lacking.”",["A natalidade caiu de tal forma que faltam trabalhadores jovens.", "A natalidade caiu de tal forma que sobram trabalhadores jovens.", "A natalidade caiu tão forma que faltam trabalhadores jovens.", "A expectativa de vida caiu de tal forma que faltam trabalhadores jovens."],0,"“In such a way that” = “de tal forma que”, introduzindo a consequência."],
+      ["arrange","Ordene: [aposentadoria / sistema / preocupa / de / o / muitos]",["muitos aposentadoria O sistema preocupa de", "preocupa de O muitos sistema aposentadoria", "de muitos O aposentadoria preocupa sistema", "O sistema de aposentadoria preocupa muitos"],3,"Sujeito + verbo + complemento."],
+      ["writing","Escreva 55-75 palavras sobre o envelhecimento populacional no seu país, usando pelo menos uma oração com “tão...que” e outra com “de tal forma que”.",[],["tão...que", "de tal forma que", "envelhecimento"]],
+    ]
+  },
+  {
+    id:"pt_c2_rhetoric_of_silence", level:"C2", title:"A retórica do silêncio e do não dito", emoji:"🤐", xp:100,
+    description:"Analise a retórica do silêncio e pratique a elipse com fins retóricos.",
+    study: {
+      vocab: [
+        ["o silêncio eloquente", "eloquent silence"],
+        ["omitir deliberadamente algo", "to deliberately omit something"],
+        ["o não dito", "the unsaid"],
+        ["um vazio discursivo", "a discursive gap"],
+        ["deixar algo em suspenso", "to leave something hanging"],
+        ["a elipse retórica", "rhetorical ellipsis"],
+      ],
+      grammar: [
+        ["A elipse com fins retóricos", "A elipse omite um elemento subentendido pelo contexto, gerando ênfase ou deixando uma ideia deliberadamente incompleta — um recurso poderoso no discurso político e literário.", "Uns se calam por medo; outros, por cumplicidade. (omite-se “se calam”) / Prometeu reformas... e silêncio. (omite-se o verbo esperado)"],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “um vazio discursivo” em inglês?",["a discursive gap", "to leave something hanging", "rhetorical ellipsis", "the unsaid"],0,"“Um vazio discursivo” é “a discursive gap” em inglês."],
+      ["mcq","Como se diz “deixar algo em suspenso” em inglês?",["to leave something hanging", "to deliberately omit something", "the unsaid", "a discursive gap"],0,"“Deixar algo em suspenso” é “to leave something hanging” em inglês."],
+      ["fill","Completa: “Uns se calam por medo; outros, por ___.”",["que cumplicidade", "cumplicidade", "se calam cumplicidade", "é cumplicidade"],1,"A elipse omite o verbo repetido “se calam”, deixando apenas o complemento: “outros, por cumplicidade”."],
+      ["translate","Traduza com elipse retórica: “He promised reforms... and silence.”",["Prometeu reformas... e silêncio.", "Prometeu reformas... e foi silêncio.", "Prometeu reformas... e um silêncio.", "Prometeu reformas... e barulho."],0,"A elipse retórica omite o verbo esperado após as reticências, deixando apenas “e silêncio”."],
+      ["arrange","Ordene: [diz / às vezes / mais / o silêncio / que / as palavras]",["O silêncio às vezes diz mais que as palavras", "vezes O as silêncio que mais diz palavras às", "vezes palavras silêncio às as diz O mais que", "vezes silêncio palavras diz mais que as O às"],0,"Sujeito + advérbio + verbo + comparativo + complemento."],
+      ["writing","Escreva 55-75 palavras analisando um exemplo (real ou inventado) de silêncio retórico em um discurso, usando pelo menos uma elipse deliberada.",[],["o não dito", "silêncio eloquente", "omitir"]],
+    ]
+  },
+  {
+    id:"pt_a1_time_parts_of_day", level:"A1", title:"As horas e os períodos do dia", emoji:"🕐", xp:38,
+    description:"Aprenda a dizer as horas e os períodos do dia com preposições de tempo.",
+    study: {
+      vocab: [
+        ["a manhã", "the morning"],
+        ["a tarde", "the afternoon"],
+        ["a noite", "the night"],
+        ["o meio-dia", "noon"],
+        ["a meia-noite", "midnight"],
+        ["em ponto", "o'clock/sharp"],
+      ],
+      grammar: [
+        ["“Que horas são?” + preposições de tempo", "Para perguntar as horas usa-se “Que horas são?”; para responder, “é uma hora” (singular) ou “são + número + horas” (plural), com “da manhã/tarde/noite” para especificar o momento.", "São três horas da tarde. / É uma hora em ponto da madrugada."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “a meia-noite” em inglês?",["the afternoon", "o'clock/sharp", "midnight", "the morning"],2,"“Meia-noite” é “midnight” em inglês."],
+      ["mcq","Como se diz “em ponto” em inglês?",["midnight", "the night", "noon", "o'clock/sharp"],3,"“Em ponto” é “o'clock” ou “sharp” em inglês."],
+      ["fill","Completa: “___ três horas da tarde.”",["Há", "Está", "São", "É"],2,"Usa-se “são” com números plurais: “são três horas”."],
+      ["translate","Traduza: “It's one o'clock in the morning.”",["É uma hora da tarde.", "São uma hora da manhã.", "É a uma hora da manhã.", "É uma hora da manhã."],3,"Com “uma hora” (singular) se usa “é”, não “são”."],
+      ["arrange","Ordene: [tarde / horas / são / da / quatro]",["horas São da quatro tarde", "São quatro horas da tarde", "quatro da São horas tarde", "horas da tarde São quatro"],1,"Verbo + número + substantivo + preposição + período do dia."],
+      ["writing","Descreva em 20-30 palavras sua rotina diária mencionando horários específicos, usando “são” e “da manhã/tarde/noite”.",[],["são", "da manhã", "da tarde"]],
+    ]
+  },
+  {
+    id:"pt_a2_bank_open_account", level:"A2", title:"No banco: abrir uma conta", emoji:"🏦", xp:48,
+    description:"Aprenda vocabulário bancário básico e a usar “poder” para possibilidade e permissão.",
+    study: {
+      vocab: [
+        ["a conta bancária", "the bank account"],
+        ["o caixa eletrônico", "the ATM"],
+        ["sacar dinheiro", "to withdraw money"],
+        ["depositar dinheiro", "to deposit money"],
+        ["o cartão de débito", "the debit card"],
+        ["o saldo", "the balance"],
+      ],
+      grammar: [
+        ["“Poder” + infinitivo para possibilidade e permissão", "“Poder” + infinitivo expressa capacidade, possibilidade ou permissão, dependendo do contexto.", "Posso abrir uma conta aqui? / Você pode sacar dinheiro em qualquer caixa eletrônico."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “sacar dinheiro” em inglês?",["the bank account", "the debit card", "to withdraw money", "to deposit money"],2,"“Sacar dinheiro” é “to withdraw money” em inglês."],
+      ["mcq","Como se diz “o saldo” em inglês?",["the balance", "to withdraw money", "the debit card", "the bank account"],0,"“Saldo” é “balance” em inglês."],
+      ["fill","Completa: “___ abrir uma conta aqui, por favor?”",["Pode", "Podem", "Podemos", "Posso"],3,"Usa-se “posso” em primeira pessoa para pedir permissão: “posso abrir”."],
+      ["translate","Traduza: “You can withdraw money at any ATM.”",["Você deve sacar dinheiro em qualquer caixa eletrônico.", "Você pode sacar dinheiro em qualquer banco.", "Você pode depositar dinheiro em qualquer caixa eletrônico.", "Você pode sacar dinheiro em qualquer caixa eletrônico."],3,"“You can withdraw” = “você pode sacar”, com “poder” + infinitivo."],
+      ["arrange","Ordene: [saldo / consultar / meu / quero]",["consultar Quero saldo meu", "Quero consultar meu saldo", "meu saldo consultar Quero", "saldo consultar Quero meu"],1,"Verbo + infinitivo + objeto possessivo + substantivo."],
+      ["speaking","Descreva em 40-60 palavras como você abriria uma conta bancária, usando “poder” para pedir permissão ou expressar possibilidade.",[],["eu posso", "você pode", "conta"]],
+    ]
+  },
+  {
+    id:"pt_b1_train_plane_travel", level:"B1", title:"Viajar de trem e avião: atrasos e mudanças", emoji:"🚄", xp:62,
+    description:"Aprenda vocabulário de viagens longas e a usar “embora” e “mesmo que”.",
+    study: {
+      vocab: [
+        ["o atraso", "the delay"],
+        ["perder o voo/trem", "to miss the flight/train"],
+        ["fazer escala", "to make a layover/stopover"],
+        ["a plataforma", "the platform"],
+        ["cancelar um voo", "to cancel a flight"],
+        ["o assento de janela/corredor", "the window/aisle seat"],
+      ],
+      grammar: [
+        ["“Embora” + subjuntivo e “mesmo que” + subjuntivo", "“Embora” e “mesmo que” sempre exigem subjuntivo em português, mesmo quando se referem a um fato real ou já conhecido, ao contrário do espanhol.", "Embora o trem tenha chegado atrasado, eu peguei o voo. / Mesmo que o voo seja cancelado, temos outra opção."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “fazer escala” em inglês?",["the delay", "the platform", "the window/aisle seat", "to make a layover/stopover"],3,"“Fazer escala” é “to make a layover” ou “stopover” em inglês."],
+      ["mcq","Como se diz “a plataforma” em inglês?",["to miss the flight/train", "the window/aisle seat", "to make a layover/stopover", "the platform"],3,"“Plataforma” é “platform” em inglês."],
+      ["fill","Completa: “Embora o trem ___ atrasado, eu peguei o voo.”",["chegava", "chegará", "tenha chegado", "chegou"],2,"“Embora” sempre exige subjuntivo, mesmo para um fato real: “embora... tenha chegado”."],
+      ["translate","Traduza: “Even if the flight is cancelled, we have another option.”",["Embora o voo seja cancelado, temos outra opção.", "Mesmo que o voo é cancelado, temos outra opção.", "Mesmo que o voo seja cancelado, temos outra opção.", "Mesmo que o trem seja cancelado, temos outra opção."],2,"“Even if” = “mesmo que”, sempre seguido de subjuntivo em português: “mesmo que seja cancelado”."],
+      ["arrange","Ordene: [janela / prefiro / de / o assento]",["Prefiro o assento de janela", "de assento Prefiro janela o", "janela Prefiro o assento de", "Prefiro assento o janela de"],0,"Verbo + artigo + substantivo + preposição + complemento."],
+      ["writing","Escreva 45-65 palavras sobre uma viagem de trem ou avião com imprevistos, usando “embora” e “mesmo que” pelo menos uma vez cada.",[],["embora", "mesmo que", "atraso"]],
+    ]
+  },
+  {
+    id:"pt_b2_sharing_economy_conscious_consumption", level:"B2", title:"A economia colaborativa e o consumo consciente", emoji:"♻️", xp:84,
+    description:"Fale sobre economia colaborativa usando o futuro e o futuro do pretérito de probabilidade.",
+    study: {
+      vocab: [
+        ["a economia colaborativa", "the sharing economy"],
+        ["alugar em vez de comprar", "to rent instead of buying"],
+        ["o consumo consciente", "conscious consumption"],
+        ["compartilhar recursos", "to share resources"],
+        ["a obsolescência programada", "planned obsolescence"],
+        ["reduzir o desperdício", "to reduce waste"],
+      ],
+      grammar: [
+        ["Futuro e futuro do pretérito de probabilidade", "O futuro simples pode expressar uma conjectura sobre o presente (“serão dez horas”); o futuro do pretérito expressa uma conjectura sobre o passado (“seriam dez horas quando chegou”).", "Esse modelo terá uns cinco anos de obsolescência programada. / Com esse consumo, gastariam menos recursos do que pensavam."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “alugar em vez de comprar” em inglês?",["to share resources", "to rent instead of buying", "to reduce waste", "conscious consumption"],1,"“Alugar em vez de comprar” é “to rent instead of buying” em inglês."],
+      ["mcq","Como se diz “a obsolescência programada” em inglês?",["planned obsolescence", "to reduce waste", "the sharing economy", "to share resources"],0,"“Obsolescência programada” é “planned obsolescence” em inglês."],
+      ["fill","Completa: “Esse modelo ___ uns cinco anos de obsolescência programada.”",["tem", "teve", "terá", "teria"],2,"O futuro de probabilidade expressa uma conjectura sobre o presente: “terá uns cinco anos”."],
+      ["translate","Traduza com futuro do pretérito de probabilidade: “With that consumption, they would spend fewer resources than they thought.”",["Com esse consumo, gastarão menos recursos do que pensavam.", "Com esse consumo, gastariam menos recursos do que pensavam.", "Com esse consumo, gastariam menos dinheiro do que pensavam.", "Com esse consumo, gastariam mais recursos do que pensavam."],1,"O futuro do pretérito de probabilidade “gastariam” expressa uma conjectura sobre uma situação hipotética."],
+      ["arrange","Ordene: [desperdício / devemos / o / reduzir]",["Devemos reduzir o desperdício", "o reduzir desperdício Devemos", "desperdício o Devemos reduzir", "o Devemos desperdício reduzir"],0,"Verbo modal + infinitivo + artigo + substantivo."],
+      ["writing","Escreva 55-75 palavras sobre a economia colaborativa e o consumo consciente, usando pelo menos um futuro e um futuro do pretérito de probabilidade.",[],["terá", "seriam", "consumo consciente"]],
+    ]
+  },
+  {
+    id:"pt_c1_nonverbal_intercultural_communication", level:"C1", title:"A linguagem não verbal e a comunicação intercultural", emoji:"🤝", xp:92,
+    description:"Analise a comunicação não verbal usando “como se” + subjuntivo.",
+    study: {
+      vocab: [
+        ["a linguagem corporal", "body language"],
+        ["o contato visual", "eye contact"],
+        ["um gesto mal interpretado", "a misinterpreted gesture"],
+        ["a proxêmica (distância pessoal)", "proxemics (personal space)"],
+        ["um sinal cultural", "a cultural cue"],
+        ["o silêncio constrangedor", "awkward silence"],
+      ],
+      grammar: [
+        ["“Como se” + subjuntivo (pretérito imperfeito ou pretérito mais-que-perfeito)", "“Como se” sempre exige subjuntivo, mesmo quando a comparação se refere ao presente, porque descreve algo hipotético ou contrário à realidade.", "Ele agiu como se entendesse o gesto, embora não entendesse. / Ela reagiu como se tivesse sido ofendida."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “um gesto mal interpretado” em inglês?",["body language", "a cultural cue", "awkward silence", "a misinterpreted gesture"],3,"“Um gesto mal interpretado” é “a misinterpreted gesture” em inglês."],
+      ["mcq","Como se diz “a proxêmica (distância pessoal)” em inglês?",["proxemics (personal space)", "a misinterpreted gesture", "body language", "eye contact"],0,"“Proxêmica” é “proxemics” em inglês."],
+      ["fill","Completa: “Ele agiu como se ___ o gesto, embora não entendesse.”",["entendesse", "entende", "entenderá", "entendia"],0,"“Como se” exige subjuntivo imperfeito para comparações sobre o presente: “como se entendesse”."],
+      ["translate","Traduza: “She reacted as if she had been offended.”",["Ela reagiu como se tivesse sido convidada.", "Ela reagiu como se foi ofendida.", "Ela reagiu como se fosse ofendida.", "Ela reagiu como se tivesse sido ofendida."],3,"“As if she had been offended” se traduz com pretérito mais-que-perfeito do subjuntivo: “como se tivesse sido ofendida”."],
+      ["arrange","Ordene: [culturas / varia / entre / o contato visual]",["entre visual O culturas varia contato", "culturas visual contato entre O varia", "O contato visual varia entre culturas", "varia culturas visual O entre contato"],2,"Sujeito + verbo + preposição + complemento."],
+      ["writing","Escreva 55-75 palavras sobre um mal-entendido intercultural relacionado à linguagem não verbal, usando pelo menos duas estruturas com “como se”.",[],["como se", "linguagem corporal", "gesto"]],
+    ]
+  },
+  {
+    id:"pt_c2_scientific_hedging_uncertainty", level:"C2", title:"A incerteza e a linguagem científica", emoji:"🔬", xp:100,
+    description:"Analise a linguagem científica usando expressões de matização epistêmica (hedging).",
+    study: {
+      vocab: [
+        ["a incerteza estatística", "statistical uncertainty"],
+        ["uma margem de erro", "a margin of error"],
+        ["correlação não implica causalidade", "correlation does not imply causation"],
+        ["os resultados preliminares", "preliminary results"],
+        ["uma hipótese não confirmada", "an unconfirmed hypothesis"],
+        ["matizar uma afirmação", "to hedge/qualify a claim"],
+      ],
+      grammar: [
+        ["Expressões de matização epistêmica (hedging)", "Frases como “poderia se dizer que”, “não é absurdo pensar que” ou “os dados sugerem, embora não confirmem, que” matizam o grau de certeza de uma afirmação científica, evitando generalizações excessivas.", "Poderia se dizer que existe uma tendência, embora os dados sejam preliminares. / Os resultados sugerem, embora não confirmem, uma relação causal."],
+      ]
+    },
+    ex:[
+      ["mcq","Como se diz “uma margem de erro” em inglês?",["to hedge/qualify a claim", "a margin of error", "preliminary results", "an unconfirmed hypothesis"],1,"“Uma margem de erro” é “a margin of error” em inglês."],
+      ["mcq","Como se diz “uma hipótese não confirmada” em inglês?",["an unconfirmed hypothesis", "correlation does not imply causation", "preliminary results", "statistical uncertainty"],0,"“Uma hipótese não confirmada” é “an unconfirmed hypothesis” em inglês."],
+      ["fill","Completa: “___ se dizer que existe uma tendência, embora os dados sejam preliminares.”",["Vai", "Deve", "Poderia", "Pode"],2,"“Poderia se dizer que” é uma expressão fixa de matização epistêmica que suaviza uma afirmação."],
+      ["translate","Traduza com precisão: “The results suggest, but do not confirm, a causal relationship.”",["Os resultados confirmam, embora não sugiram, uma relação causal.", "Os resultados sugerem, embora não confirmem, uma relação causal.", "Os resultados sugerem, e confirmam, uma relação causal.", "Os resultados sugerem, embora não confirmem, uma correlação estatística."],1,"“Suggest, but do not confirm” se traduz com “sugerem, embora não confirmem”, matizando a certeza."],
+      ["arrange","Ordene: [implica / correlação / não / causalidade]",["causalidade implica não Correlação", "implica não causalidade Correlação", "Correlação não implica causalidade", "causalidade não Correlação implica"],2,"Sujeito + advérbio + verbo + objeto."],
+      ["writing","Escreva 55-75 palavras analisando um estudo científico (real ou inventado) com resultados preliminares, usando pelo menos duas expressões de matização epistêmica.",[],["poderia se dizer que", "os dados sugerem", "incerteza"]],
+    ]
+  },
 ];

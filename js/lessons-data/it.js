@@ -2143,4 +2143,304 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi 55-75 parole analizzando un caso reale o inventato di panico morale nei media, usando almeno una struttura „non solo... ma anche” e una con „sempre più”.",[],["non solo... ma anche", "sempre più", "panico morale"]],
     ]
   },
+  {
+    id:"it_a1_school_supplies_subjects", level:"A1", title:"A scuola: materiale scolastico e materie", emoji:"🎒", xp:38,
+    description:"Impara il vocabolario scolastico e a usare correttamente gli articoli determinativi e indeterminativi.",
+    study: {
+      vocab: [
+        ["il quaderno", "the notebook"],
+        ["la matita", "the pencil"],
+        ["lo zaino", "the backpack"],
+        ["la matematica", "math"],
+        ["la storia", "history"],
+        ["il/la professore/professoressa", "the teacher"],
+      ],
+      grammar: [
+        ["Articoli determinativi e indeterminativi", "Gli articoli determinativi (il, la, lo, i, le) indicano qualcosa di specifico o già noto; gli indeterminativi (un, una, uno) indicano qualcosa di non specifico o menzionato per la prima volta.", "Ho un quaderno nuovo. / Il quaderno è nello zaino."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la matita” in inglese?",["the pencil", "the teacher", "the backpack", "math"],0,"“Matita” si dice “pencil” in inglese."],
+      ["mcq","Come si dice “la matematica” in inglese?",["the teacher", "history", "the backpack", "math"],3,"“Matematica” si dice “math” in inglese."],
+      ["fill","Completa: “Ho ___ zaino nuovo per la scuola.”",["un", "il", "uno", "lo"],2,"Si usa l'articolo indeterminativo “uno” perché è la prima volta che viene menzionato."],
+      ["translate","Traduci: “The notebook is in the backpack.”",["Il quaderno è in classe.", "Un quaderno è nello zaino.", "Il quaderno è nello zaino.", "La matita è nello zaino."],2,"“The notebook” è già noto, quindi si usa l'articolo determinativo “il”."],
+      ["arrange","Ordina: [storia / molto / mi / piace / la]",["piace molto storia la Mi", "Mi la piace molto storia", "storia la molto Mi piace", "Mi piace molto la storia"],3,"Pronome + verbo + avverbio + articolo determinativo + sostantivo."],
+      ["writing","Descrivi in 20-30 parole quale materiale scolastico hai e quale materia ti piace di più, usando articoli determinativi e indeterminativi.",[],["un/una", "il/la", "mi piace"]],
+    ]
+  },
+  {
+    id:"it_a2_post_office_packages", level:"A2", title:"La posta e i pacchi", emoji:"📦", xp:48,
+    description:"Impara il vocabolario postale e a usare i pronomi diretti (lo/la/li/le).",
+    study: {
+      vocab: [
+        ["il pacco", "the package"],
+        ["la lettera", "the letter"],
+        ["il francobollo", "the stamp"],
+        ["spedire per posta", "to mail/send"],
+        ["la cassetta della posta", "the mailbox"],
+        ["l'indirizzo", "the address"],
+      ],
+      grammar: [
+        ["Pronomi diretti (lo/la/li/le)", "I pronomi diretti sostituiscono un sostantivo già menzionato, concordando in genere e numero, e si collocano prima del verbo coniugato.", "La lettera? L'ho spedita ieri. / I pacchi? Li ho ricevuti stamattina."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il francobollo” in inglese?",["the letter", "the stamp", "the mailbox", "the package"],1,"“Francobollo” si dice “stamp” in inglese."],
+      ["mcq","Come si dice “la cassetta della posta” in inglese?",["the address", "the stamp", "the mailbox", "the package"],2,"“Cassetta della posta” si dice “mailbox” in inglese."],
+      ["fill","Completa: “Il pacco? ___ ho ricevuto stamattina.”",["La", "Lo", "Gli", "Li"],1,"“Il pacco” è maschile singolare, quindi si sostituisce con “lo”."],
+      ["translate","Traduci: “The letters? I sent them yesterday.”",["I lettere? Le ho spedite ieri.", "Le lettere? L'ho spedite ieri.", "Le lettere? Li ho spedite ieri.", "Le lettere? Le ho spedite ieri."],3,"“Le lettere” è femminile plurale, quindi si sostituisce con “le”."],
+      ["arrange","Ordina: [indirizzo / bisogno / del / tuo / ho]",["bisogno tuo indirizzo del Ho", "tuo indirizzo del bisogno Ho", "Ho bisogno del tuo indirizzo", "Ho bisogno del indirizzo tuo"],2,"Verbo + sostantivo + preposizione + oggetto possessivo + sostantivo."],
+      ["speaking","Descrivi in 40-60 parole l'ultima volta che hai spedito una lettera o un pacco, usando i pronomi diretti (lo/la/li/le).",[],["l'ho spedito/a", "li/le ho ricevuti/e", "pacco"]],
+    ]
+  },
+  {
+    id:"it_b1_movies_theater", level:"B1", title:"Andare al cinema e a teatro", emoji:"🎬", xp:62,
+    description:"Impara il vocabolario di cinema e teatro e a costruire frasi temporali con „quando”, „mentre” e „prima che”.",
+    study: {
+      vocab: [
+        ["il biglietto", "the ticket"],
+        ["la prima", "the premiere"],
+        ["il cast", "the cast"],
+        ["gli effetti speciali", "special effects"],
+        ["la poltrona", "the seat"],
+        ["l'intervallo", "the intermission"],
+      ],
+      grammar: [
+        ["Frasi temporali con „quando”, „mentre” e „prima che”", "„Quando” e „mentre” + indicativo descrivono azioni abituali o simultanee; „prima che” richiede il congiuntivo perché introduce un'azione non ancora avvenuta.", "Compro i biglietti quando arrivo al cinema. / Parliamo mentre aspettiamo la prima. / Arriviamo prima che inizi il film."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la prima” in inglese?",["the ticket", "the premiere", "the cast", "the intermission"],1,"“Prima” si dice “premiere” in inglese."],
+      ["mcq","Come si dice “il cast” in inglese?",["the premiere", "special effects", "the cast", "the intermission"],2,"“Cast” si dice “cast” in inglese."],
+      ["fill","Completa: “Arriviamo prima che ___ il film.”",["inizi", "iniziò", "inizierà", "inizia"],0,"„Prima che” richiede il congiuntivo perché l'azione non è ancora avvenuta: „prima che inizi”."],
+      ["translate","Traduci: “We talk while we wait for the premiere.”",["Parliamo mentre aspettiamo la prima.", "Parliamo quando aspettiamo la prima.", "Parliamo mentre aspettiamo che inizi la prima.", "Parliamo mentre aspettiamo l'intervallo."],0,"„Mentre” + indicativo descrive azioni simultanee: „mentre aspettiamo”."],
+      ["arrange","Ordina: [cinema / andiamo / spesso / al]",["Andiamo spesso al cinema", "spesso Andiamo cinema al", "Andiamo al spesso cinema", "al cinema Andiamo spesso"],0,"Soggetto + verbo + avverbio + preposizione + sostantivo."],
+      ["writing","Scrivi 45-65 parole sulla tua ultima visita al cinema o a teatro, usando almeno due frasi temporali con „quando”, „mentre” o „prima che”.",[],["quando", "mentre", "prima che"]],
+    ]
+  },
+  {
+    id:"it_b2_social_activism_protests", level:"B2", title:"L'attivismo sociale e le proteste", emoji:"✊", xp:84,
+    description:"Parla di attivismo sociale usando il congiuntivo con i verbi di influenza (esigere, chiedere che).",
+    study: {
+      vocab: [
+        ["una manifestazione/protesta", "a protest"],
+        ["esigere un cambiamento", "to demand change"],
+        ["firmare una petizione", "to sign a petition"],
+        ["sensibilizzare su qualcosa", "to raise awareness about something"],
+        ["un collettivo/un'organizzazione", "a collective/organization"],
+        ["mobilitare le persone", "to mobilize people"],
+      ],
+      grammar: [
+        ["Il congiuntivo con i verbi di influenza", "Verbi come „esigere”, „chiedere” o „suggerire” + „che” richiedono il congiuntivo nella subordinata perché cercano di influenzare l'azione di un'altra persona.", "I manifestanti esigono che il governo agisca. / Il collettivo chiede che la petizione venga firmata."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “sensibilizzare su qualcosa” in inglese?",["to raise awareness about something", "to mobilize people", "a protest", "to demand change"],0,"“Sensibilizzare su qualcosa” si dice “to raise awareness about something” in inglese."],
+      ["mcq","Come si dice “mobilitare le persone” in inglese?",["to mobilize people", "a collective/organization", "a protest", "to sign a petition"],0,"“Mobilitare le persone” si dice “to mobilize people” in inglese."],
+      ["fill","Completa: “I manifestanti esigono che il governo ___.”",["agirà", "agisca", "agisce", "agirebbe"],1,"„Esigere che” richiede il congiuntivo: „esigono che agisca”."],
+      ["translate","Traduci: “The collective is asking people to sign the petition.”",["Il collettivo chiede che le persone firmino la petizione.", "Il collettivo esige che le persone firmino la petizione.", "Il collettivo chiede che le persone firmano la petizione.", "Il collettivo chiede che le persone firmino la manifestazione."],0,"„Chiedere che” richiede il congiuntivo: „chiede che firmino”."],
+      ["arrange","Ordina: [petizione / vado / firmare / a / la]",["Vado a firmare la petizione", "firmare la a Vado petizione", "Vado la a petizione firmare", "firmare a petizione la Vado"],0,"„Andare a” + infinito + articolo + sostantivo."],
+      ["writing","Scrivi 55-75 parole su una causa sociale che ti sta a cuore, usando almeno due verbi di influenza + congiuntivo (esigere che, chiedere che, suggerire che).",[],["esigo che", "chiedo che", "manifestazione"]],
+    ]
+  },
+  {
+    id:"it_c1_aging_population_pensions", level:"C1", title:"L'invecchiamento della popolazione e le pensioni", emoji:"👴", xp:92,
+    description:"Analizza l'invecchiamento della popolazione usando frasi consecutive („così...che”, „in modo tale che”).",
+    study: {
+      vocab: [
+        ["l'invecchiamento della popolazione", "population aging"],
+        ["il sistema pensionistico", "the pension system"],
+        ["il tasso di natalità", "the birth rate"],
+        ["l'aspettativa di vita", "life expectancy"],
+        ["sostenere il sistema pensionistico", "to sustain the pension system"],
+        ["il divario generazionale", "the generational gap"],
+      ],
+      grammar: [
+        ["Frasi consecutive: „così...che” e „in modo tale che”", "Le frasi consecutive esprimono una conseguenza derivata da un'intensità o modalità. „Così + aggettivo + che” enfatizza il grado; „in modo tale che” introduce il risultato di un'azione.", "La popolazione invecchia così rapidamente che il sistema pensionistico è a rischio. / La natalità è scesa in modo tale che mancano lavoratori giovani."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il tasso di natalità” in inglese?",["to sustain the pension system", "the generational gap", "the birth rate", "life expectancy"],2,"“Tasso di natalità” si dice “birth rate” in inglese."],
+      ["mcq","Come si dice “sostenere il sistema pensionistico” in inglese?",["the pension system", "to sustain the pension system", "the generational gap", "life expectancy"],1,"“Sostenere il sistema pensionistico” si dice “to sustain the pension system” in inglese."],
+      ["fill","Completa: “La popolazione invecchia così rapidamente ___ il sistema pensionistico è a rischio.”",["così", "poiché", "come", "che"],3,"„Così + aggettivo/avverbio + che” introduce la conseguenza: „così rapidamente che è a rischio”."],
+      ["translate","Traduci con frase consecutiva: “The birth rate has dropped in such a way that young workers are lacking.”",["La natalità è scesa in modo tale che mancano lavoratori giovani.", "L'aspettativa di vita è scesa in modo tale che mancano lavoratori giovani.", "La natalità è scesa così modo che mancano lavoratori giovani.", "La natalità è scesa in modo tale che avanzano lavoratori giovani."],0,"“In such a way that” = “in modo tale che”, introducendo la conseguenza."],
+      ["arrange","Ordina: [pensionistico / preoccupa / il / sistema / molti]",["pensionistico preoccupa Il sistema molti", "Il sistema pensionistico preoccupa molti", "sistema pensionistico molti Il preoccupa", "pensionistico preoccupa molti Il sistema"],1,"Soggetto + verbo + complemento."],
+      ["writing","Scrivi 55-75 parole sull'invecchiamento della popolazione nel tuo paese, usando almeno una frase con „così...che” e una con „in modo tale che”.",[],["così...che", "in modo tale che", "invecchiamento"]],
+    ]
+  },
+  {
+    id:"it_c2_rhetoric_of_silence", level:"C2", title:"La retorica del silenzio e del non detto", emoji:"🤐", xp:100,
+    description:"Analizza la retorica del silenzio e pratica l'ellissi a fini retorici.",
+    study: {
+      vocab: [
+        ["il silenzio eloquente", "eloquent silence"],
+        ["omettere deliberatamente qualcosa", "to deliberately omit something"],
+        ["il non detto", "the unsaid"],
+        ["un vuoto discorsivo", "a discursive gap"],
+        ["lasciare qualcosa in sospeso", "to leave something hanging"],
+        ["l'ellissi retorica", "rhetorical ellipsis"],
+      ],
+      grammar: [
+        ["L'ellissi a fini retorici", "L'ellissi omette un elemento sottinteso dal contesto, creando enfasi o lasciando un'idea deliberatamente incompleta — un recurso potente nel discorso politico e letterario.", "Alcuni tacciono per paura; altri, per complicità. (si omette “tacciono”) / Ha promesso riforme... e silenzio. (si omette il verbo atteso)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un vuoto discorsivo” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],1,"“Un vuoto discorsivo” si dice “a discursive gap” in inglese."],
+      ["mcq","Come si dice “lasciare qualcosa in sospeso” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],2,"“Lasciare qualcosa in sospeso” si dice “to leave something hanging” in inglese."],
+      ["fill","Completa: “Alcuni tacciono per paura; altri, per ___.”",["che complicità", "complicità", "tacciono complicità", "è complicità"],1,"L'ellissi omette il verbo ripetuto „tacciono”, lasciando solo il complemento: „altri, per complicità”."],
+      ["translate","Traduci con ellissi retorica: “He promised reforms... and silence.”",["Ha promesso riforme... e rumore.", "Ha promesso riforme... e un silenzio.", "Ha promesso riforme... e silenzio.", "Ha promesso riforme... ed era silenzio."],2,"L'ellissi retorica omette il verbo atteso dopo i puntini di sospensione, lasciando solo „e silenzio”."],
+      ["arrange","Ordina: [dice / a volte / più / il silenzio / delle parole]",["Il silenzio a volte dice più delle parole", "più Il a parole delle dice silenzio volte", "più a parole Il volte silenzio dice delle", "volte delle silenzio dice Il parole a più"],0,"Soggetto + avverbio + verbo + comparativo + complemento."],
+      ["writing","Scrivi 55-75 parole analizzando un esempio (reale o inventato) di silenzio retorico in un discorso, usando almeno un'ellissi deliberata.",[],["il non detto", "silenzio eloquente", "omettere"]],
+    ]
+  },
+  {
+    id:"it_a1_time_parts_of_day", level:"A1", title:"L'ora e i momenti della giornata", emoji:"🕐", xp:38,
+    description:"Impara a dire l'ora e i momenti della giornata con le preposizioni di tempo.",
+    study: {
+      vocab: [
+        ["la mattina", "the morning"],
+        ["il pomeriggio", "the afternoon"],
+        ["la notte", "the night"],
+        ["mezzogiorno", "noon"],
+        ["mezzanotte", "midnight"],
+        ["in punto", "o'clock/sharp"],
+      ],
+      grammar: [
+        ["„Che ore sono?” + preposizioni di tempo", "Per chiedere l'ora si usa „Che ore sono?”; per rispondere, „è l'una” (singolare) o „sono le + numero” (plurale), con „di mattina/pomeriggio/sera” per specificare il momento.", "Sono le tre del pomeriggio. / È l'una in punto di notte."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “mezzanotte” in inglese?",["o'clock/sharp", "the morning", "the night", "midnight"],3,"“Mezzanotte” si dice “midnight” in inglese."],
+      ["mcq","Come si dice “in punto” in inglese?",["the morning", "midnight", "o'clock/sharp", "the afternoon"],2,"“In punto” si dice “o'clock” o “sharp” in inglese."],
+      ["fill","Completa: “___ le tre del pomeriggio.”",["È", "Sono", "Sta", "C'è"],1,"Si usa „sono” con i numeri plurali: „sono le tre”."],
+      ["translate","Traduci: “It's one o'clock in the morning.”",["È le una di mattina.", "È l'una di mattina.", "È l'una di pomeriggio.", "Sono l'una di mattina."],1,"Con „l'una” (singolare) si usa „è”, non „sono”."],
+      ["arrange","Ordina: [pomeriggio / le / sono / quattro / del]",["le Sono del quattro pomeriggio", "Sono le quattro del pomeriggio", "del Sono pomeriggio le quattro", "pomeriggio Sono le quattro del"],1,"Verbo + articolo + numero + preposizione + momento della giornata."],
+      ["writing","Descrivi in 20-30 parole la tua routine quotidiana menzionando orari specifici, usando „sono le” e „di mattina/pomeriggio/sera”.",[],["sono le", "di mattina", "di pomeriggio"]],
+    ]
+  },
+  {
+    id:"it_a2_bank_open_account", level:"A2", title:"In banca: aprire un conto", emoji:"🏦", xp:48,
+    description:"Impara il vocabolario bancario di base e a usare „potere” per possibilità e permesso.",
+    study: {
+      vocab: [
+        ["il conto bancario", "the bank account"],
+        ["il bancomat", "the ATM"],
+        ["prelevare denaro", "to withdraw money"],
+        ["depositare denaro", "to deposit money"],
+        ["la carta di debito", "the debit card"],
+        ["il saldo", "the balance"],
+      ],
+      grammar: [
+        ["„Potere” + infinito per possibilità e permesso", "„Potere” + infinito esprime capacità, possibilità o permesso, a seconda del contesto.", "Posso aprire un conto qui? / Puoi prelevare denaro da qualsiasi bancomat."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “prelevare denaro” in inglese?",["to withdraw money", "to deposit money", "the debit card", "the bank account"],0,"“Prelevare denaro” si dice “to withdraw money” in inglese."],
+      ["mcq","Come si dice “il saldo” in inglese?",["the bank account", "the balance", "to deposit money", "the ATM"],1,"“Saldo” si dice “balance” in inglese."],
+      ["fill","Completa: “___ aprire un conto qui, per favore?”",["Posso", "Puoi", "Può", "Possiamo"],0,"Si usa „posso” in prima persona per chiedere il permesso: „posso aprire”."],
+      ["translate","Traduci: “You can withdraw money at any ATM.”",["Puoi depositare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi banca.", "Devi prelevare denaro da qualsiasi bancomat."],1,"“You can withdraw” = “puoi prelevare”, con „potere” + infinito."],
+      ["arrange","Ordina: [saldo / consultare / il mio / voglio]",["Voglio consultare il mio saldo", "saldo il Voglio mio consultare", "consultare mio il saldo Voglio", "saldo consultare mio Voglio il"],0,"Verbo + infinito + oggetto possessivo + sostantivo."],
+      ["speaking","Descrivi in 40-60 parole come apriresti un conto bancario, usando „potere” per chiedere il permesso o esprimere possibilità.",[],["posso", "puoi", "conto"]],
+    ]
+  },
+  {
+    id:"it_b1_train_plane_travel", level:"B1", title:"Viaggiare in treno e in aereo: ritardi e cambi", emoji:"🚄", xp:62,
+    description:"Impara il vocabolario dei viaggi lunghi e a usare „sebbene/anche se” con indicativo o congiuntivo.",
+    study: {
+      vocab: [
+        ["il ritardo", "the delay"],
+        ["perdere il volo/treno", "to miss the flight/train"],
+        ["fare scalo", "to make a layover/stopover"],
+        ["il binario", "the platform"],
+        ["cancellare un volo", "to cancel a flight"],
+        ["il posto finestrino/corridoio", "the window/aisle seat"],
+      ],
+      grammar: [
+        ["„Sebbene” + congiuntivo e „anche se” + indicativo", "„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale; „anche se” esprime una concessione reale o ipotetica con l'indicativo.", "Sebbene il treno sia arrivato tardi, ho preso il volo. / Anche se il volo viene cancellato, abbiamo un'altra opzione."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “fare scalo” in inglese?",["to miss the flight/train", "to cancel a flight", "to make a layover/stopover", "the platform"],2,"“Fare scalo” si dice “to make a layover” o “stopover” in inglese."],
+      ["mcq","Come si dice “il binario” in inglese?",["to cancel a flight", "the delay", "to miss the flight/train", "the platform"],3,"“Binario” si dice “platform” in inglese."],
+      ["fill","Completa: “Sebbene il treno ___ tardi, ho preso il volo.”",["arrivava", "è arrivato", "sia arrivato", "arriverà"],2,"„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale: „sebbene... sia arrivato”."],
+      ["translate","Traduci: “Even if the flight is cancelled, we have another option.”",["Anche se il volo viene cancellato, abbiamo un'altra opzione.", "Sebbene il volo viene cancellato, abbiamo un'altra opzione.", "Anche se il volo venga cancellato, abbiamo un'altra opzione.", "Anche se il treno viene cancellato, abbiamo un'altra opzione."],0,"“Even if” = “anche se”, seguito dall'indicativo: „anche se il volo viene cancellato”."],
+      ["arrange","Ordina: [finestrino / preferisco / il / posto / del]",["Preferisco il posto del finestrino", "del Preferisco finestrino posto il", "finestrino del posto Preferisco il", "del il finestrino posto Preferisco"],0,"Verbo + articolo + sostantivo + preposizione + complemento."],
+      ["writing","Scrivi 45-65 parole su un viaggio in treno o aereo con imprevisti, usando „sebbene” e „anche se” almeno una volta ciascuno.",[],["sebbene", "anche se", "ritardo"]],
+    ]
+  },
+  {
+    id:"it_b2_sharing_economy_conscious_consumption", level:"B2", title:"L'economia collaborativa e il consumo consapevole", emoji:"♻️", xp:84,
+    description:"Parla di economia collaborativa usando il futuro e il condizionale di probabilità.",
+    study: {
+      vocab: [
+        ["l'economia collaborativa", "the sharing economy"],
+        ["noleggiare invece di comprare", "to rent instead of buying"],
+        ["il consumo consapevole", "conscious consumption"],
+        ["condividere risorse", "to share resources"],
+        ["l'obsolescenza programmata", "planned obsolescence"],
+        ["ridurre lo spreco", "to reduce waste"],
+      ],
+      grammar: [
+        ["Futuro e condizionale di probabilità", "Il futuro semplice può esprimere una congettura sul presente (“saranno le dieci”); il condizionale semplice esprime una congettura sul passato (“sarebbero state le dieci quando è arrivato”).", "Quel modello avrà circa cinque anni di obsolescenza programmata. / Con quel consumo, spenderebbero meno risorse di quanto pensassero."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “noleggiare invece di comprare” in inglese?",["conscious consumption", "the sharing economy", "to rent instead of buying", "to share resources"],2,"“Noleggiare invece di comprare” si dice “to rent instead of buying” in inglese."],
+      ["mcq","Come si dice “l'obsolescenza programmata” in inglese?",["conscious consumption", "planned obsolescence", "to rent instead of buying", "the sharing economy"],1,"“Obsolescenza programmata” si dice “planned obsolescence” in inglese."],
+      ["fill","Completa: “Quel modello ___ circa cinque anni di obsolescenza programmata.”",["avrà", "ha", "avrebbe", "aveva"],0,"Il futuro di probabilità esprime una congettura sul presente: „avrà circa cinque anni”."],
+      ["translate","Traduci con condizionale di probabilità: “With that consumption, they would spend fewer resources than they thought.”",["Con quel consumo, spenderebbero meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero più risorse di quanto pensassero.", "Con quel consumo, spenderanno meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero meno denaro di quanto pensassero."],0,"Il condizionale di probabilità „spenderebbero” esprime una congettura su una situazione ipotetica."],
+      ["arrange","Ordina: [spreco / dobbiamo / lo / ridurre]",["lo ridurre Dobbiamo spreco", "lo spreco Dobbiamo ridurre", "Dobbiamo ridurre lo spreco", "ridurre spreco Dobbiamo lo"],2,"Verbo modale + infinito + articolo + sostantivo."],
+      ["writing","Scrivi 55-75 parole sull'economia collaborativa e il consumo consapevole, usando almeno un futuro e un condizionale di probabilità.",[],["avrà", "sarebbero", "consumo consapevole"]],
+    ]
+  },
+  {
+    id:"it_c1_nonverbal_intercultural_communication", level:"C1", title:"Il linguaggio non verbale e la comunicazione interculturale", emoji:"🤝", xp:92,
+    description:"Analizza la comunicazione non verbale usando „come se” + congiuntivo.",
+    study: {
+      vocab: [
+        ["il linguaggio del corpo", "body language"],
+        ["il contatto visivo", "eye contact"],
+        ["un gesto frainteso", "a misinterpreted gesture"],
+        ["la prossemica (distanza personale)", "proxemics (personal space)"],
+        ["un segnale culturale", "a cultural cue"],
+        ["il silenzio imbarazzante", "awkward silence"],
+      ],
+      grammar: [
+        ["„Come se” + congiuntivo (imperfetto o trapassato)", "„Come se” richiede sempre il congiuntivo, anche se il confronto si riferisce al presente, perché descrive qualcosa di ipotetico o contrario alla realtà.", "Ha agito come se capisse il gesto, anche se non lo capiva. / Ha reagito come se fosse stata offesa."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un gesto frainteso” in inglese?",["awkward silence", "eye contact", "a misinterpreted gesture", "proxemics (personal space)"],2,"“Un gesto frainteso” si dice “a misinterpreted gesture” in inglese."],
+      ["mcq","Come si dice “la prossemica (distanza personale)” in inglese?",["eye contact", "proxemics (personal space)", "a cultural cue", "awkward silence"],1,"“Prossemica” si dice “proxemics” in inglese."],
+      ["fill","Completa: “Ha agito come se ___ il gesto, anche se non lo capiva.”",["capisce", "capiva", "capirà", "capisse"],3,"„Come se” richiede il congiuntivo imperfetto per un confronto al presente: „come se capisse”."],
+      ["translate","Traduci: “She reacted as if she had been offended.”",["Ha reagito come se era stata offesa.", "Ha reagito come se fosse offesa.", "Ha reagito come se fosse stata invitata.", "Ha reagito come se fosse stata offesa."],3,"“As if she had been offended” si traduce con il congiuntivo trapassato: „come se fosse stata offesa”."],
+      ["arrange","Ordina: [culture / varia / tra / il contatto visivo]",["tra varia culture contatto visivo Il", "contatto visivo tra culture Il varia", "Il contatto visivo varia tra culture", "contatto tra varia culture visivo Il"],2,"Soggetto + verbo + preposizione + complemento."],
+      ["writing","Scrivi 55-75 parole su un malinteso interculturale legato al linguaggio non verbale, usando almeno due strutture con „come se”.",[],["come se", "linguaggio del corpo", "gesto"]],
+    ]
+  },
+  {
+    id:"it_c2_scientific_hedging_uncertainty", level:"C2", title:"L'incertezza e il linguaggio scientifico", emoji:"🔬", xp:100,
+    description:"Analizza il linguaggio scientifico usando espressioni di attenuazione epistemica (hedging).",
+    study: {
+      vocab: [
+        ["l'incertezza statistica", "statistical uncertainty"],
+        ["un margine di errore", "a margin of error"],
+        ["una correlazione non implica causalità", "correlation does not imply causation"],
+        ["i risultati preliminari", "preliminary results"],
+        ["un'ipotesi non confermata", "an unconfirmed hypothesis"],
+        ["attenuare un'affermazione", "to hedge/qualify a claim"],
+      ],
+      grammar: [
+        ["Espressioni di attenuazione epistemica (hedging)", "Frasi come „si potrebbe dire che”, „non è irragionevole pensare che” o „i dati suggeriscono, senza confermare, che” attenuano il grado di certezza di un'affermazione scientifica, evitando eccessive generalizzazioni.", "Si potrebbe dire che esiste una tendenza, anche se i dati sono preliminari. / I risultati suggeriscono, senza confermare, un nesso causale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un margine di errore” in inglese?",["an unconfirmed hypothesis", "to hedge/qualify a claim", "preliminary results", "a margin of error"],3,"“Un margine di errore” si dice “a margin of error” in inglese."],
+      ["mcq","Come si dice “un'ipotesi non confermata” in inglese?",["to hedge/qualify a claim", "an unconfirmed hypothesis", "preliminary results", "a margin of error"],1,"“Un'ipotesi non confermata” si dice “an unconfirmed hypothesis” in inglese."],
+      ["fill","Completa: “Si ___ dire che esiste una tendenza, anche se i dati sono preliminari.”",["deve", "può", "va", "potrebbe"],3,"„Si potrebbe dire che” è un'espressione fissa di attenuazione epistemica che ammorbidisce un'affermazione."],
+      ["translate","Traduci con precisione: “The results suggest, but do not confirm, a causal relationship.”",["I risultati suggeriscono, confermando, un nesso causale.", "I risultati confermano, senza suggerire, un nesso causale.", "I risultati suggeriscono, senza confermare, un nesso causale.", "I risultati suggeriscono, senza confermare, una correlazione statistica."],2,"“Suggest, but do not confirm” si traduce con „suggeriscono, senza confermare”, attenuando la certezza."],
+      ["arrange","Ordina: [implica / correlazione / non / causalità / una]",["Una correlazione non implica causalità", "correlazione implica causalità Una non", "implica correlazione non causalità Una", "implica correlazione Una non causalità"],0,"Articolo + sostantivo + avverbio + verbo + sostantivo."],
+      ["writing","Scrivi 55-75 parole analizzando uno studio scientifico (reale o inventato) con risultati preliminari, usando almeno due espressioni di attenuazione epistemica.",[],["si potrebbe dire che", "i dati suggeriscono", "incertezza"]],
+    ]
+  },
 ];

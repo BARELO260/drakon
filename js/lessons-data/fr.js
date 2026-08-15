@@ -2143,4 +2143,304 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris 55-75 mots analysant un cas réel ou inventé de panique morale dans les médias, en utilisant au moins une structure « non seulement... mais aussi » et une avec « de plus en plus ».",[],["non seulement... mais aussi", "de plus en plus", "panique morale"]],
     ]
   },
+  {
+    id:"fr_a1_school_supplies_subjects", level:"A1", title:"À l'école : fournitures et matières", emoji:"🎒", xp:38,
+    description:"Apprends le vocabulaire scolaire et à bien utiliser les articles définis et indéfinis.",
+    study: {
+      vocab: [
+        ["le cahier", "the notebook"],
+        ["le crayon", "the pencil"],
+        ["le sac à dos", "the backpack"],
+        ["les mathématiques", "math"],
+        ["l'histoire", "history"],
+        ["le professeur/la professeure", "the teacher"],
+      ],
+      grammar: [
+        ["Articles définis et indéfinis", "Les articles définis (le, la, les) désignent quelque chose de spécifique ou déjà connu ; les indéfinis (un, une, des) désignent quelque chose de non spécifique ou mentionné pour la première fois.", "J'ai un nouveau cahier. / Le cahier est dans le sac à dos."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « le crayon » en anglais ?",["math", "the teacher", "the pencil", "the notebook"],2,"« Crayon » se dit « pencil » en anglais."],
+      ["mcq","Comment dit-on « les mathématiques » en anglais ?",["history", "the notebook", "the pencil", "math"],3,"« Mathématiques » se dit « math » en anglais."],
+      ["fill","Completa: “J'ai ___ nouveau sac à dos pour l'école.”",["des", "une", "un", "le"],2,"On utilise l'article indéfini « un » car c'est la première fois qu'on le mentionne."],
+      ["translate","Traduis : « The notebook is in the backpack. »",["Le crayon est dans le sac à dos.", "Le cahier est dans la salle de classe.", "Un cahier est dans le sac à dos.", "Le cahier est dans le sac à dos."],3,"« The notebook » est déjà connu, donc on utilise l'article défini « le »."],
+      ["arrange","Remets dans l'ordre : [beaucoup / j'aime / l'histoire]",["l'histoire J'aime beaucoup", "beaucoup J'aime l'histoire", "J'aime l'histoire beaucoup", "J'aime beaucoup l'histoire"],3,"Sujet + verbe + adverbe + article défini + nom."],
+      ["writing","Décris en 20-30 mots quelles fournitures scolaires tu as et quelle matière tu préfères, en utilisant des articles définis et indéfinis.",[],["un/une", "le/la", "j'aime"]],
+    ]
+  },
+  {
+    id:"fr_a2_post_office_packages", level:"A2", title:"La poste et les colis", emoji:"📦", xp:48,
+    description:"Apprends le vocabulaire postal et à utiliser les pronoms objets directs (le/la/les).",
+    study: {
+      vocab: [
+        ["le colis", "the package"],
+        ["la lettre", "the letter"],
+        ["le timbre", "the stamp"],
+        ["envoyer par la poste", "to mail/send"],
+        ["la boîte aux lettres", "the mailbox"],
+        ["l'adresse", "the address"],
+      ],
+      grammar: [
+        ["Pronoms objets directs (le/la/les)", "Les pronoms objets directs remplacent un nom déjà mentionné, s'accordent en genre et en nombre, et se placent avant le verbe conjugué.", "La lettre ? Je l'ai envoyée hier. / Les colis ? Je les ai reçus ce matin."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « le timbre » en anglais ?",["the letter", "the stamp", "to mail/send", "the package"],1,"« Timbre » se dit « stamp » en anglais."],
+      ["mcq","Comment dit-on « la boîte aux lettres » en anglais ?",["the mailbox", "the package", "to mail/send", "the address"],0,"« Boîte aux lettres » se dit « mailbox » en anglais."],
+      ["fill","Completa: “Le colis ? Je ___ ai reçu ce matin.”",["l'", "le", "les", "la"],0,"« Le colis » est masculin singulier et devient « l' » devant une voyelle : « je l'ai reçu »."],
+      ["translate","Traduis : « The letters? I sent them yesterday. »",["Les lettres ? Je les ai envoyé hier.", "Les lettres ? Je l'ai envoyées hier.", "Le lettre ? Je les ai envoyées hier.", "Les lettres ? Je les ai envoyées hier."],3,"« Les lettres » est féminin pluriel, donc on le remplace par « les »."],
+      ["arrange","Remets dans l'ordre : [adresse / j'ai besoin / ton / de]",["adresse ton de J'ai besoin", "J'ai besoin de ton adresse", "ton adresse besoin de J'ai", "de besoin ton adresse J'ai"],1,"Sujet + verbe + préposition + objet possessif + nom."],
+      ["speaking","Décris en 40-60 mots la dernière fois que tu as envoyé une lettre ou un colis, en utilisant des pronoms objets directs (le/la/les).",[],["je l'ai envoyé(e)", "je les ai reçu(e)s", "colis"]],
+    ]
+  },
+  {
+    id:"fr_b1_movies_theater", level:"B1", title:"Aller au cinéma et au théâtre", emoji:"🎬", xp:62,
+    description:"Apprends le vocabulaire du cinéma et du théâtre et à construire des phrases temporelles avec « quand », « pendant que » et « avant que ».",
+    study: {
+      vocab: [
+        ["le billet", "the ticket"],
+        ["la première", "the premiere"],
+        ["le casting/la distribution", "the cast"],
+        ["les effets spéciaux", "special effects"],
+        ["le siège", "the seat"],
+        ["l'entracte", "the intermission"],
+      ],
+      grammar: [
+        ["Phrases temporelles avec « quand », « pendant que » et « avant que »", "« Quand » et « pendant que » + indicatif décrivent des actions habituelles ou simultanées ; « avant que » exige le subjonctif car il introduit une action pas encore réalisée.", "J'achète les billets quand j'arrive au cinéma. / On discute pendant qu'on attend la première. / On arrive avant que le film ne commence."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « la première » en anglais ?",["the seat", "the cast", "the premiere", "the ticket"],2,"« Première » se dit « premiere » en anglais."],
+      ["mcq","Comment dit-on « le casting/la distribution » en anglais ?",["the cast", "the seat", "the ticket", "the intermission"],0,"« Casting/distribution » se dit « cast » en anglais."],
+      ["fill","Completa: “On arrive avant que le film ne ___.”",["commence", "commencera", "commençait", "a commencé"],0,"« Avant que » exige le subjonctif car l'action n'a pas encore eu lieu : « avant que... commence »."],
+      ["translate","Traduis : « We talk while we wait for the premiere. »",["On discute pendant qu'on attende la première.", "On discute pendant qu'on attend la première.", "On discute quand on attend la première.", "On discute pendant qu'on attend l'entracte."],1,"« Pendant que » + indicatif décrit des actions simultanées : « pendant qu'on attend »."],
+      ["arrange","Remets dans l'ordre : [cinéma / allons / au / arrivant / en]",["En allons cinéma au arrivant", "En arrivant allons au cinéma", "au allons En arrivant cinéma", "cinéma arrivant En allons au"],1,"Gérondif + verbe + préposition + nom."],
+      ["writing","Écris 45-65 mots sur ta dernière visite au cinéma ou au théâtre, en utilisant au moins deux phrases temporelles avec « quand », « pendant que » ou « avant que ».",[],["quand", "pendant que", "avant que"]],
+    ]
+  },
+  {
+    id:"fr_b2_social_activism_protests", level:"B2", title:"L'activisme social et les manifestations", emoji:"✊", xp:84,
+    description:"Parle d'activisme social en utilisant le subjonctif après les verbes d'influence (exiger, demander que).",
+    study: {
+      vocab: [
+        ["une manifestation", "a protest"],
+        ["exiger un changement", "to demand change"],
+        ["signer une pétition", "to sign a petition"],
+        ["sensibiliser sur quelque chose", "to raise awareness about something"],
+        ["un collectif/une organisation", "a collective/organization"],
+        ["mobiliser les gens", "to mobilize people"],
+      ],
+      grammar: [
+        ["Le subjonctif après les verbes d'influence", "Des verbes comme « exiger », « demander » ou « suggérer » + « que » exigent le subjonctif dans la subordonnée car ils cherchent à influencer l'action d'une autre personne.", "Les manifestants exigent que le gouvernement agisse. / Le collectif demande que la pétition soit signée."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « sensibiliser sur quelque chose » en anglais ?",["to mobilize people", "to demand change", "to raise awareness about something", "a protest"],2,"« Sensibiliser sur quelque chose » se dit « to raise awareness about something » en anglais."],
+      ["mcq","Comment dit-on « mobiliser les gens » en anglais ?",["to mobilize people", "a collective/organization", "to demand change", "to raise awareness about something"],0,"« Mobiliser les gens » se dit « to mobilize people » en anglais."],
+      ["fill","Completa: “Les manifestants exigent que le gouvernement ___.”",["agit", "agira", "agirait", "agisse"],3,"« Exiger que » exige le subjonctif : « exigent que... agisse »."],
+      ["translate","Traduis : « The collective is asking people to sign the petition. »",["Le collectif exige que les gens signent la pétition.", "Le collectif demande que les gens signent la manifestation.", "Le collectif demande que les gens signent la pétition.", "Le collectif demande que les gens signeront la pétition."],2,"« Demander que » exige le subjonctif : « demande que... signent »."],
+      ["arrange","Remets dans l'ordre : [pétition / vais / signer / la]",["Je vais signer la pétition", "Je pétition signer vais la", "Je pétition la signer vais", "vais Je la signer pétition"],0,"« Aller » + infinitif + article + nom."],
+      ["writing","Écris 55-75 mots sur une cause sociale qui te tient à cœur, en utilisant au moins deux verbes d'influence + subjonctif (exiger que, demander que, suggérer que).",[],["j'exige que", "je demande que", "manifestation"]],
+    ]
+  },
+  {
+    id:"fr_c1_aging_population_pensions", level:"C1", title:"Le vieillissement démographique et les retraites", emoji:"👴", xp:92,
+    description:"Analyse le vieillissement démographique avec des propositions consécutives (« si...que », « de telle sorte que »).",
+    study: {
+      vocab: [
+        ["le vieillissement démographique", "population aging"],
+        ["le système de retraite", "the pension system"],
+        ["le taux de natalité", "the birth rate"],
+        ["l'espérance de vie", "life expectancy"],
+        ["soutenir le système de retraite", "to sustain the pension system"],
+        ["le fossé générationnel", "the generational gap"],
+      ],
+      grammar: [
+        ["Propositions consécutives : « si...que » et « de telle sorte que »", "Les propositions consécutives expriment une conséquence issue d'une intensité ou d'une manière. « Si + adjectif + que » souligne le degré ; « de telle sorte que » introduit le résultat d'une action.", "La population vieillit si vite que le système de retraite est en péril. / La natalité a baissé de telle sorte qu'il manque de jeunes travailleurs."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « le taux de natalité » en anglais ?",["the generational gap", "the birth rate", "population aging", "to sustain the pension system"],1,"« Taux de natalité » se dit « birth rate » en anglais."],
+      ["mcq","Comment dit-on « soutenir le système de retraite » en anglais ?",["the pension system", "to sustain the pension system", "the generational gap", "the birth rate"],1,"« Soutenir le système de retraite » se dit « to sustain the pension system » en anglais."],
+      ["fill","Completa: “La population vieillit si vite ___ le système de retraite est en péril.”",["que", "comme", "donc", "ainsi"],0,"« Si + adjectif/adverbe + que » introduit la conséquence : « si vite que... est en péril »."],
+      ["translate","Traduis avec une proposition consécutive : « The birth rate has dropped in such a way that young workers are lacking. »",["L'espérance de vie a baissé de telle sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé si sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il y a trop de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il manque de jeunes travailleurs."],3,"« In such a way that » = « de telle sorte que », introduisant la conséquence."],
+      ["arrange","Remets dans l'ordre : [retraite / système / préoccupe / le / de / beaucoup de gens]",["de préoccupe beaucoup gens Le retraite système de", "Le système préoccupe beaucoup retraite de de gens", "de beaucoup système de gens Le retraite préoccupe", "Le système de retraite préoccupe beaucoup de gens"],3,"Sujet + verbe + complément."],
+      ["writing","Écris 55-75 mots sur le vieillissement démographique dans ton pays, en utilisant au moins une phrase avec « si...que » et une avec « de telle sorte que ».",[],["si...que", "de telle sorte que", "vieillissement"]],
+    ]
+  },
+  {
+    id:"fr_c2_rhetoric_of_silence", level:"C2", title:"La rhétorique du silence et du non-dit", emoji:"🤐", xp:100,
+    description:"Analyse la rhétorique du silence et entraîne-toi à l'ellipse à des fins rhétoriques.",
+    study: {
+      vocab: [
+        ["le silence éloquent", "eloquent silence"],
+        ["omettre délibérément quelque chose", "to deliberately omit something"],
+        ["le non-dit", "the unsaid"],
+        ["un vide discursif", "a discursive gap"],
+        ["laisser quelque chose en suspens", "to leave something hanging"],
+        ["l'ellipse rhétorique", "rhetorical ellipsis"],
+      ],
+      grammar: [
+        ["L'ellipse à des fins rhétoriques", "L'ellipse omet un élément sous-entendu par le contexte, créant de l'emphase ou laissant une idée délibérément incomplète — un procédé puissant dans le discours politique et littéraire.", "Certains se taisent par peur ; d'autres, par complicité. (on omet « se taisent ») / Il a promis des réformes... et le silence. (on omet le verbe attendu)"],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « un vide discursif » en anglais ?",["to leave something hanging", "the unsaid", "a discursive gap", "to deliberately omit something"],2,"« Un vide discursif » se dit « a discursive gap » en anglais."],
+      ["mcq","Comment dit-on « laisser quelque chose en suspens » en anglais ?",["rhetorical ellipsis", "eloquent silence", "a discursive gap", "to leave something hanging"],3,"« Laisser quelque chose en suspens » se dit « to leave something hanging » en anglais."],
+      ["fill","Completa: “Certains se taisent par peur ; d'autres, par ___.”",["complicité", "se taisent complicité", "que complicité", "est complicité"],0,"L'ellipse omet le verbe répété « se taisent », ne laissant que le complément : « d'autres, par complicité »."],
+      ["translate","Traduis avec ellipse rhétorique : « He promised reforms... and silence. »",["Il a promis des réformes... et le silence.", "Il a promis des réformes... et un silence.", "Il a promis des réformes... et était le silence.", "Il a promis des réformes... et du bruit."],0,"L'ellipse rhétorique omet le verbe attendu après les points de suspension, ne laissant que « et le silence »."],
+      ["arrange","Remets dans l'ordre : [dit / parfois / plus / le silence / que / les mots]",["silence mots dit les que Le parfois plus", "Le silence dit parfois plus que les mots", "parfois Le dit les mots plus que silence", "parfois mots que Le dit plus silence les"],1,"Sujet + verbe + adverbe + comparatif + complément."],
+      ["writing","Écris 55-75 mots analysant un exemple (réel ou inventé) de silence rhétorique dans un discours, en utilisant au moins une ellipse délibérée.",[],["le non-dit", "silence éloquent", "omettre"]],
+    ]
+  },
+  {
+    id:"fr_a1_time_parts_of_day", level:"A1", title:"L'heure et les moments de la journée", emoji:"🕐", xp:38,
+    description:"Apprends à dire l'heure et les moments de la journée avec des prépositions de temps.",
+    study: {
+      vocab: [
+        ["le matin", "the morning"],
+        ["l'après-midi", "the afternoon"],
+        ["le soir/la nuit", "the night"],
+        ["midi", "noon"],
+        ["minuit", "midnight"],
+        ["pile", "o'clock/sharp"],
+      ],
+      grammar: [
+        ["« Quelle heure est-il ? » + prépositions de temps", "Pour demander l'heure, on dit « Quelle heure est-il ? » ; pour répondre, « il est une heure » (singulier) ou « il est + nombre + heures » (pluriel), avec « du matin/de l'après-midi/du soir » pour préciser le moment.", "Il est trois heures de l'après-midi. / Il est une heure pile du matin."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « minuit » en anglais ?",["the morning", "noon", "the night", "midnight"],3,"« Minuit » se dit « midnight » en anglais."],
+      ["mcq","Comment dit-on « pile » en anglais ?",["noon", "the night", "the afternoon", "o'clock/sharp"],3,"« Pile » se dit « o'clock » ou « sharp » en anglais."],
+      ["fill","Completa: “Il ___ trois heures de l'après-midi.”",["fait", "sont", "est", "a"],2,"On utilise toujours « il est » pour l'heure, même au pluriel : « il est trois heures »."],
+      ["translate","Traduis : « It's one o'clock in the morning. »",["Il est deux heures du matin.", "Il est une heure du matin.", "Il est une heures du matin.", "Il est une heure de l'après-midi."],1,"Avec « une heure » (singulier), on n'ajoute pas de « s » à « heure »."],
+      ["arrange","Remets dans l'ordre : [après-midi / quatre / il / heures / est / de l']",["Il est quatre heures de l'après-midi", "de heures est Il quatre l'après-midi", "l'après-midi est heures quatre de Il", "est l'après-midi Il quatre heures de"],0,"Sujet + verbe + nombre + nom + préposition + moment de la journée."],
+      ["writing","Décris en 20-30 mots ta routine quotidienne en mentionnant des heures précises, en utilisant « il est » et « du matin/de l'après-midi/du soir ».",[],["il est", "du matin", "de l'après-midi"]],
+    ]
+  },
+  {
+    id:"fr_a2_bank_open_account", level:"A2", title:"À la banque : ouvrir un compte", emoji:"🏦", xp:48,
+    description:"Apprends le vocabulaire bancaire de base et à utiliser « pouvoir » pour la possibilité et la permission.",
+    study: {
+      vocab: [
+        ["le compte bancaire", "the bank account"],
+        ["le distributeur automatique", "the ATM"],
+        ["retirer de l'argent", "to withdraw money"],
+        ["déposer de l'argent", "to deposit money"],
+        ["la carte de débit", "the debit card"],
+        ["le solde", "the balance"],
+      ],
+      grammar: [
+        ["« Pouvoir » + infinitif pour la possibilité et la permission", "« Pouvoir » + infinitif exprime la capacité, la possibilité ou la permission, selon le contexte.", "Est-ce que je peux ouvrir un compte ici ? / Tu peux retirer de l'argent à n'importe quel distributeur."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « retirer de l'argent » en anglais ?",["the balance", "to withdraw money", "the ATM", "the bank account"],1,"« Retirer de l'argent » se dit « to withdraw money » en anglais."],
+      ["mcq","Comment dit-on « le solde » en anglais ?",["the bank account", "the balance", "to withdraw money", "to deposit money"],1,"« Solde » se dit « balance » en anglais."],
+      ["fill","Completa: “Est-ce que je ___ ouvrir un compte ici, s'il vous plaît ?”",["pouvons", "peut", "peux", "pouvez"],2,"On utilise « peux » à la première personne pour demander une permission : « est-ce que je peux »."],
+      ["translate","Traduis : « You can withdraw money at any ATM. »",["Tu peux retirer de l'argent à n'importe quel distributeur.", "Tu peux déposer de l'argent à n'importe quel distributeur.", "Tu dois retirer de l'argent à n'importe quel distributeur.", "Tu peux retirer de l'argent à n'importe quelle banque."],0,"« You can withdraw » = « tu peux retirer », avec « pouvoir » + infinitif."],
+      ["arrange","Remets dans l'ordre : [solde / consulter / veux / mon / je]",["solde consulter mon Je veux", "Je veux consulter mon solde", "consulter veux Je solde mon", "Je solde mon veux consulter"],1,"Sujet + verbe + infinitif + objet possessif + nom."],
+      ["speaking","Décris en 40-60 mots comment tu ouvrirais un compte bancaire, en utilisant « pouvoir » pour demander une permission ou exprimer une possibilité.",[],["je peux", "tu peux", "compte"]],
+    ]
+  },
+  {
+    id:"fr_b1_train_plane_travel", level:"B1", title:"Voyager en train et en avion : retards et changements", emoji:"🚄", xp:62,
+    description:"Apprends le vocabulaire des longs voyages et à utiliser « bien que » et « même si ».",
+    study: {
+      vocab: [
+        ["le retard", "the delay"],
+        ["rater le vol/le train", "to miss the flight/train"],
+        ["faire une escale", "to make a layover/stopover"],
+        ["le quai", "the platform"],
+        ["annuler un vol", "to cancel a flight"],
+        ["la place côté fenêtre/couloir", "the window/aisle seat"],
+      ],
+      grammar: [
+        ["« Bien que » + subjonctif et « même si » + indicatif", "« Bien que » exige toujours le subjonctif, même pour un fait réel ; « même si » (even if) exprime une concession réelle ou hypothétique avec l'indicatif.", "Bien que le train soit arrivé en retard, j'ai eu mon vol. / Même si le vol est annulé, nous avons une autre option."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « faire une escale » en anglais ?",["to make a layover/stopover", "the delay", "to cancel a flight", "the platform"],0,"« Faire une escale » se dit « to make a layover » ou « stopover » en anglais."],
+      ["mcq","Comment dit-on « le quai » en anglais ?",["to cancel a flight", "to make a layover/stopover", "the platform", "the delay"],2,"« Quai » se dit « platform » en anglais."],
+      ["fill","Completa: “Bien que le train ___ en retard, j'ai eu mon vol.”",["arrivera", "arrivait", "soit arrivé", "est arrivé"],2,"« Bien que » exige toujours le subjonctif, même pour un fait réel : « bien que... soit arrivé »."],
+      ["translate","Traduis : « Even if the flight is cancelled, we have another option. »",["Même si le vol soit annulé, nous avons une autre option.", "Bien que le vol est annulé, nous avons une autre option.", "Même si le vol est annulé, nous avons une autre option.", "Même si le train est annulé, nous avons une autre option."],2,"« Even if » = « même si », suivi de l'indicatif : « même si le vol est annulé »."],
+      ["arrange","Remets dans l'ordre : [fenêtre / préfère / place / la / côté / je]",["préfère la place Je côté fenêtre", "préfère la côté fenêtre Je place", "Je la fenêtre préfère côté place", "Je préfère la place côté fenêtre"],3,"Sujet + verbe + article + nom + préposition + complément."],
+      ["writing","Écris 45-65 mots sur un voyage en train ou en avion avec des imprévus, en utilisant « bien que » et « même si » au moins une fois chacun.",[],["bien que", "même si", "retard"]],
+    ]
+  },
+  {
+    id:"fr_b2_sharing_economy_conscious_consumption", level:"B2", title:"L'économie collaborative et la consommation responsable", emoji:"♻️", xp:84,
+    description:"Parle d'économie collaborative en utilisant le futur et le conditionnel de probabilité.",
+    study: {
+      vocab: [
+        ["l'économie collaborative", "the sharing economy"],
+        ["louer plutôt qu'acheter", "to rent instead of buying"],
+        ["la consommation responsable", "conscious consumption"],
+        ["partager des ressources", "to share resources"],
+        ["l'obsolescence programmée", "planned obsolescence"],
+        ["réduire le gaspillage", "to reduce waste"],
+      ],
+      grammar: [
+        ["Le futur et le conditionnel de probabilité", "Le futur simple peut exprimer une conjecture sur le présent (« il sera dix heures ») ; le conditionnel simple exprime une conjecture sur le passé (« il serait dix heures quand il est arrivé »).", "Ce modèle aura environ cinq ans d'obsolescence programmée. / Avec cette consommation, ils dépenseraient moins de ressources que prévu."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « louer plutôt qu'acheter » en anglais ?",["planned obsolescence", "to rent instead of buying", "the sharing economy", "to share resources"],1,"« Louer plutôt qu'acheter » se dit « to rent instead of buying » en anglais."],
+      ["mcq","Comment dit-on « l'obsolescence programmée » en anglais ?",["to reduce waste", "planned obsolescence", "to share resources", "the sharing economy"],1,"« Obsolescence programmée » se dit « planned obsolescence » en anglais."],
+      ["fill","Completa: “Ce modèle ___ environ cinq ans d'obsolescence programmée.”",["aurait", "a", "avait", "aura"],3,"Le futur de probabilité exprime une conjecture sur le présent : « aura environ cinq ans »."],
+      ["translate","Traduis avec conditionnel de probabilité : « With that consumption, they would spend fewer resources than they thought. »",["Avec cette consommation, ils dépenseraient moins de ressources que prévu.", "Avec cette consommation, ils dépenseraient plus de ressources que prévu.", "Avec cette consommation, ils dépenseraient moins d'argent que prévu.", "Avec cette consommation, ils dépenseront moins de ressources que prévu."],0,"Le conditionnel de probabilité « dépenseraient » exprime une conjecture sur une situation hypothétique."],
+      ["arrange","Remets dans l'ordre : [gaspillage / devons / le / réduire / nous]",["Nous le devons réduire gaspillage", "le devons réduire Nous gaspillage", "réduire Nous devons le gaspillage", "Nous devons réduire le gaspillage"],3,"Sujet + verbe modal + infinitif + article + nom."],
+      ["writing","Écris 55-75 mots sur l'économie collaborative et la consommation responsable, en utilisant au moins un futur et un conditionnel de probabilité.",[],["aura", "seraient", "consommation responsable"]],
+    ]
+  },
+  {
+    id:"fr_c1_nonverbal_intercultural_communication", level:"C1", title:"Le langage non verbal et la communication interculturelle", emoji:"🤝", xp:92,
+    description:"Analyse la communication non verbale en utilisant « comme si » + subjonctif/imparfait.",
+    study: {
+      vocab: [
+        ["le langage corporel", "body language"],
+        ["le contact visuel", "eye contact"],
+        ["un geste mal interprété", "a misinterpreted gesture"],
+        ["la proxémique (distance personnelle)", "proxemics (personal space)"],
+        ["un signal culturel", "a cultural cue"],
+        ["le silence gênant", "awkward silence"],
+      ],
+      grammar: [
+        ["« Comme si » + imparfait ou plus-que-parfait", "« Comme si » est toujours suivi de l'imparfait ou du plus-que-parfait de l'indicatif (jamais du subjonctif en français), même pour une comparaison au présent, car il décrit quelque chose d'hypothétique.", "Il a agi comme s'il comprenait le geste, alors qu'il ne le comprenait pas. / Elle a réagi comme si elle avait été offensée."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « un geste mal interprété » en anglais ?",["a misinterpreted gesture", "body language", "eye contact", "proxemics (personal space)"],0,"« Un geste mal interprété » se dit « a misinterpreted gesture » en anglais."],
+      ["mcq","Comment dit-on « la proxémique (distance personnelle) » en anglais ?",["eye contact", "proxemics (personal space)", "body language", "a cultural cue"],1,"« Proxémique » se dit « proxemics » en anglais."],
+      ["fill","Completa: “Il a agi comme s'il ___ le geste, alors qu'il ne le comprenait pas.”",["comprend", "comprendra", "comprenait", "a compris"],2,"« Comme si » est suivi de l'imparfait pour une comparaison au présent : « comme s'il comprenait »."],
+      ["translate","Traduis : « She reacted as if she had been offended. »",["Elle a réagi comme si elle avait été offensée.", "Elle a réagi comme si elle était offensée.", "Elle a réagi comme si elle avait été invitée.", "Elle a réagi comme si elle a été offensée."],0,"« As if she had been offended » se traduit avec le plus-que-parfait : « comme si elle avait été offensée »."],
+      ["arrange","Remets dans l'ordre : [cultures / varie / entre / le contact visuel]",["varie contact Le visuel cultures entre", "contact entre cultures visuel varie Le", "visuel cultures varie entre Le contact", "Le contact visuel varie entre cultures"],3,"Sujet + verbe + préposition + complément."],
+      ["writing","Écris 55-75 mots sur un malentendu interculturel lié au langage non verbal, en utilisant au moins deux structures avec « comme si ».",[],["comme si", "langage corporel", "geste"]],
+    ]
+  },
+  {
+    id:"fr_c2_scientific_hedging_uncertainty", level:"C2", title:"L'incertitude et le langage scientifique", emoji:"🔬", xp:100,
+    description:"Analyse le langage scientifique en utilisant des expressions de nuance épistémique (hedging).",
+    study: {
+      vocab: [
+        ["l'incertitude statistique", "statistical uncertainty"],
+        ["une marge d'erreur", "a margin of error"],
+        ["une corrélation n'implique pas la causalité", "correlation does not imply causation"],
+        ["les résultats préliminaires", "preliminary results"],
+        ["une hypothèse non confirmée", "an unconfirmed hypothesis"],
+        ["nuancer une affirmation", "to hedge/qualify a claim"],
+      ],
+      grammar: [
+        ["Expressions de nuance épistémique (hedging)", "Des expressions comme « on pourrait dire que », « il n'est pas absurde de penser que » ou « les données suggèrent, sans confirmer, que » nuancent le degré de certitude d'une affirmation scientifique, évitant les généralisations excessives.", "On pourrait dire qu'il existe une tendance, bien que les données soient préliminaires. / Les résultats suggèrent, sans confirmer, un lien de causalité."],
+      ]
+    },
+    ex:[
+      ["mcq","Comment dit-on « une marge d'erreur » en anglais ?",["an unconfirmed hypothesis", "a margin of error", "preliminary results", "to hedge/qualify a claim"],1,"« Une marge d'erreur » se dit « a margin of error » en anglais."],
+      ["mcq","Comment dit-on « une hypothèse non confirmée » en anglais ?",["an unconfirmed hypothesis", "correlation does not imply causation", "statistical uncertainty", "preliminary results"],0,"« Une hypothèse non confirmée » se dit « an unconfirmed hypothesis » en anglais."],
+      ["fill","Completa: “On ___ dire qu'il existe une tendance, bien que les données soient préliminaires.”",["va", "peut", "doit", "pourrait"],3,"« On pourrait dire que » est une expression fixe de nuance épistémique qui adoucit une affirmation."],
+      ["translate","Traduis avec précision : « The results suggest, but do not confirm, a causal relationship. »",["Les résultats suggèrent, sans confirmer, une corrélation statistique.", "Les résultats suggèrent, sans confirmer, un lien de causalité.", "Les résultats suggèrent, en confirmant, un lien de causalité.", "Les résultats confirment, sans suggérer, un lien de causalité."],1,"« Suggest, but do not confirm » se traduit par « suggèrent, sans confirmer », nuançant la certitude."],
+      ["arrange","Remets dans l'ordre : [implique / corrélation / pas / causalité / une / ne]",["corrélation Une n'implique pas causalité", "causalité corrélation n'implique pas Une", "causalité pas Une n'implique corrélation", "Une corrélation n'implique pas causalité"],3,"Article + nom + négation + verbe + nom."],
+      ["writing","Écris 55-75 mots analysant une étude scientifique (réelle ou inventée) aux résultats préliminaires, en utilisant au moins deux expressions de nuance épistémique.",[],["on pourrait dire que", "les données suggèrent", "incertitude"]],
+    ]
+  },
 ];
