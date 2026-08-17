@@ -38,6 +38,7 @@ const state = {
   chatMode:'free', chatSituation:null, chatHistory:[],
   chatSessionId: null,
   learnerMemory:{name:'',goal:'',interests:[],strengths:[],focusAreas:[],recentLessons:[],situations:[],corrections:[],updatedAt:null},
+  accessories:{equipped:null,unlocked:['passport']},
   ttsEnabled:false, savedChats:[],
   missions:DEF_MISSIONS(),
   lessonsCompleted:[], 
