@@ -191,8 +191,9 @@ async function sendHistoryMsg(){
 
   // Call AI
   const groqKey = state.groqKey;
-  if(!groqKey){
-    if(errBar){ errBar.textContent='🔑 Configura tu API key de Groq en Ajustes'; errBar.style.display='block'; }
+  const managed = typeof hasManagedAi==='function' && hasManagedAi();
+  if(!groqKey && !managed){
+    if(errBar){ errBar.textContent='⚠️ Inicia sesión para usar la IA de Drakón.'; errBar.style.display='block'; }
     c.messages.pop();
     state.chatHistory = prevHistory; state.chatMode = prevMode;
     renderHistoryMsgs(c.messages);
@@ -209,8 +210,11 @@ async function sendHistoryMsg(){
 
   let aiText = '';
   try{
-    const models = ['llama-3.3-70b-versatile','llama-3.1-8b-instant','gemma2-9b-it'];
-    for(const model of models){
+    if(managed){
+      aiText=await managedChat(messages);
+    } else {
+      const models = ['llama-3.3-70b-versatile','llama-3.1-8b-instant','gemma2-9b-it'];
+      for(const model of models){
       const resp = await Promise.race([
         fetch('https://api.groq.com/openai/v1/chat/completions',{
           method:'POST',
@@ -224,6 +228,7 @@ async function sendHistoryMsg(){
       const data = await resp.json();
       aiText = data?.choices?.[0]?.message?.content?.trim()||'';
       if(aiText) break;
+      }
     }
   } catch(e){
     if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false);
@@ -377,7 +382,7 @@ Always end with a brief practical exercise in ${native} or a question to keep th
 }
 function goToChat(mode,sit){
   // Show Groq setup modal if key not configured yet
-  if(!state.groqKey){
+  if(!state.groqKey && !(typeof hasManagedAi==='function' && hasManagedAi())){
     // Store intended destination so we can launch it after setup
     state._pendingChatMode = mode;
     state._pendingChatSit = sit || null;
@@ -406,7 +411,7 @@ function _launchChat(mode,sit){
     pronunciation:`¡Modo pronunciación! 🎙️ Escribe o habla una palabra en ${lang} y te digo cómo se pronuncia correctamente. También puedes usar el micrófono.`,
     story:`¡Creamos una historia juntos! 📖 Tú escribes la primera frase en ${lang} y yo continúo. ¿De qué quieres que trate?`,
     roleplay:`¡Roleplay activado! 🎬 Dime qué personaje debo ser y en qué escenario. Hablaremos en ${lang}.`,
-    situation:`¡Perfecto! Seré tu interlocutor en: **${sit?.name}**. Comienza en ${lang} cuando quieras. 🎭`,
+    situation:sit?.stage==='live'?`⚡ Estoy contigo. Dime qué necesitas resolver en **${sit?.name}** y te doy la frase más útil en ${lang}.`:sit?.stage==='prepare'?`🧭 Prepararemos **${sit?.name}** paso a paso. Te enseñaré las frases clave antes de practicar.`:`¡Perfecto! Seré tu interlocutor en: **${sit?.name}**. Comienza en ${lang} cuando quieras. 🎭`,
   };
   setTimeout(()=>addAIMsg(welcomes[mode]||welcomes.free),280);
 }
