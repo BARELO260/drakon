@@ -149,6 +149,7 @@ function updateAllUI(){
   const ie=document.getElementById('introEmoji'); if(ie) ie.innerHTML='<img src="'+ch.img+'" style="width:110px;height:110px;object-fit:contain">';
   renderCharPickRow(); updateAIBar();
   if(typeof renderLearnerMemory==='function') renderLearnerMemory();
+  if(typeof renderAiServiceStatus==='function') renderAiServiceStatus();
   setInterval(updateStreakCountdown, 60000); // update countdown every minute
 }
 
