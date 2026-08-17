@@ -122,26 +122,5 @@ function updatePremUI(){
   updateAIBar();
 }
 
-/* ═══════════════════════════════════════
-   SETTINGS
-═══════════════════════════════════════ */
-function toggleNotifs(){
-  state.notifs=!state.notifs; save();
-  const t=document.getElementById('notifToggle'); if(t) t.classList.toggle('on',state.notifs);
-  showToast(state.notifs?'🔔 Recordatorios activados':'🔕 Recordatorios desactivados');
-}
-function toggleSounds(){
-  state.sounds=!state.sounds; save();
-  const t=document.getElementById('soundToggle'); if(t) t.classList.toggle('on',state.sounds);
-  showToast(state.sounds?'🔊 Sonidos activados':'🔇 Sonidos desactivados');
-}
-function resetProgress(){
-  if(!confirm('¿Seguro que quieres borrar todo tu progreso? Esta acción no se puede deshacer.')) return;
-  localStorage.removeItem('drakon_pwa');
-  location.reload();
-}
-function updateToggleUI(){
-  const nt=document.getElementById('notifToggle'); if(nt) nt.classList.toggle('on',state.notifs);
-  const st=document.getElementById('soundToggle'); if(st) st.classList.toggle('on',state.sounds);
-}
+/* Settings controls live in app.js to keep one owner for global UI handlers. */
 
