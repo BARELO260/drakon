@@ -182,7 +182,7 @@ window.onFirebaseUserReady = async function(user){
     // Todos los campos: la nube gana (incluye theme, groqKey, isPremium, etc.)
     const OVERWRITE_KEYS = [
       'lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme',
-      'nativeLang','groqKey','elevenKey','quizDone','missions','achievements','lessonsCompleted',
+      'nativeLang','quizDone','missions','achievements','lessonsCompleted',
       'userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled',
       'savedChats','isPremium','learnerMemory',
     ];
@@ -385,7 +385,8 @@ const GROQ_LS_KEY = 'drakon_groq_key';
 
 function loadGroqKey(){
   // Try state first (from main save), fallback to dedicated key
-  if(!state.groqKey){
+  const managed = typeof hasManagedAi==='function' && hasManagedAi();
+  if(!state.groqKey && !managed){
     const k = localStorage.getItem(GROQ_LS_KEY);
     if(k) state.groqKey = k;
   }
@@ -576,17 +577,27 @@ async function sendChatInternal(){
     messages.push({ role: m.role === 'user' ? 'user' : 'assistant', content: m.content });
   }
 
-  // Groq models to try in order (all free)
+  // Managed gateway is the production path: provider secrets stay on the server.
+  let text = '';
+  if(managed){
+    try{ text=await managedChat(messages); }
+    catch(e){
+      typing.remove(); if(typeof mascotIdle==='function') mascotIdle();
+      if(errBar){ errBar.textContent='⚠️ El servicio de IA no está disponible ahora. Intenta de nuevo en un momento.'; errBar.style.display='block'; }
+      return;
+    }
+  }
+
+  // Personal key is retained only as an advanced development fallback.
   const models = [
     'llama-3.3-70b-versatile',
     'llama-3.1-8b-instant',
     'gemma2-9b-it',
   ];
 
-  let text = '';
   let lastErr = null;
 
-  for(const model of models){
+  for(const model of (managed ? [] : models)){
     try{
       const resp = await Promise.race([
         fetch('https://api.groq.com/openai/v1/chat/completions', {
