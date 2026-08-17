@@ -71,12 +71,15 @@
       saveData: (data, fullOverwrite=false) => {
         const u = auth.currentUser;
         if(!u) return;
+        // Provider credentials are device-local development fallbacks only.
+        // Never replicate them to Firestore, where an old document could expose them.
+        const cloudData = {...data}; delete cloudData.groqKey; delete cloudData.elevenKey;
         // fullOverwrite=true: set limpio (primer guardado de cuenta nueva o logout/login)
         // fullOverwrite=false (default): merge para updates incrementales
         const opts = fullOverwrite ? undefined : {merge:true};
         return opts
-          ? db.collection('users').doc(u.uid).set(data, opts)
-          : db.collection('users').doc(u.uid).set(data);
+          ? db.collection('users').doc(u.uid).set({...cloudData,groqKey:firebase.firestore.FieldValue.delete(),elevenKey:firebase.firestore.FieldValue.delete()}, opts)
+          : db.collection('users').doc(u.uid).set(cloudData);
       },
       loadData: async (uid) => {
         try{
@@ -551,6 +554,8 @@
       </div>
     </div>
     <div class="settings-section" id="apiKeySection">
+      <div id="managedAiStatus" style="display:none;background:color-mix(in srgb,var(--mint) 12%,var(--card));border:1px solid color-mix(in srgb,var(--mint) 35%,var(--border));border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--text);line-height:1.6;margin-bottom:10px">✅ <strong>IA de Drakón conectada</strong><br><span style="color:var(--muted)">No necesitas una cuenta ni API key de Groq. Tu acceso está incluido con Drakón.</span></div>
+      <div data-byok>
       <div class="ss-title">API Key de IA</div>
       <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:10px">
         Groq es <strong style="color:var(--mint)">gratis</strong>, sin tarjeta de crédito, y da acceso a modelos Llama ultra-rápidos.<br>
@@ -566,8 +571,11 @@
         <button onclick="saveGroqKey()" style="background:linear-gradient(135deg,#ea580c,var(--gold));color:#fff;border:none;border-radius:10px;padding:10px 14px;font-family:var(--ff);font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap">Guardar</button>
       </div>
       <div id="groqKeyStatus" style="font-size:11px;margin-top:7px;font-weight:700;color:var(--muted)"></div>
+      </div>
     </div>
     <div class="settings-section" id="elevenKeySection">
+      <div id="managedVoiceStatus" style="display:none;background:color-mix(in srgb,var(--mint) 12%,var(--card));border:1px solid color-mix(in srgb,var(--mint) 35%,var(--border));border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--text);line-height:1.6">🔊 <strong>Voces de personajes activadas</strong><br><span style="color:var(--muted)">Las voces ElevenLabs están integradas. No necesitas iniciar sesión ni crear una API key.</span></div>
+      <div data-byok>
       <div class="ss-title">API Key de Voz (TTS)</div>
       <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:10px">
         ElevenLabs da voces neuronales <strong style="color:var(--mint)">naturales y con personalidad</strong> a cada personaje. Plan gratis, sin tarjeta.<br>
@@ -584,6 +592,7 @@
         <button onclick="saveElevenKey()" style="background:linear-gradient(135deg,#ea580c,var(--gold));color:#fff;border:none;border-radius:10px;padding:10px 14px;font-family:var(--ff);font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap">Guardar</button>
       </div>
       <div id="elevenKeyStatus" style="font-size:11px;margin-top:7px;font-weight:700;color:var(--muted)"></div>
+      </div>
     </div>
     <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:12px 14px;font-size:12px;color:var(--muted);line-height:1.7">
       <strong style="color:var(--text)">Drakón v5.0 PWA</strong><br>
@@ -736,6 +745,8 @@
 <script src="js/state.js"></script>
 <!-- 2b. Learner memory: compact, editable profile for personalized tutoring -->
 <script src="js/learner-memory.js"></script>
+<!-- 2c. Managed AI gateway: keeps provider secrets off users' devices -->
+<script src="js/ai-gateway.js"></script>
 <!-- 3. UI: themes, navigation, toasts, particles, updateAllUI -->
 <script src="js/ui.js"></script>
 <!-- 4. Characters: CHARS definitions, selectChar, renderChars -->
