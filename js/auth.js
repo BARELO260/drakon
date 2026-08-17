@@ -564,8 +564,9 @@ async function sendChatInternal(){
     ko: { nokey:'🔑 API 키가 없습니다. 설정 → AI API 키에서 설정하세요(무료).', timeout:'⏱ AI 응답이 너무 느립니다.', net:'📵 인터넷 연결이 없습니다.', def:'⚠️ AI에 연결할 수 없습니다.' },
   };
   const em = errMsgs[nativeLang] || errMsgs.en;
+  const managed = typeof hasManagedAi==='function' && hasManagedAi();
 
-  if(!state.groqKey){
+  if(!state.groqKey && !managed){
     typing.remove();
     if(typeof mascotIdle==='function') mascotIdle();
     if(errBar){ errBar.textContent = em.nokey; errBar.style.display = 'block'; }
