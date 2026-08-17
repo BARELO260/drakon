@@ -110,7 +110,8 @@ function openSettings(){
 function renderProfile(){
   const ch=getChar();
   const pc=document.getElementById('profileChar'); if(pc) pc.innerHTML='<img src="'+ch.img+'" style="width:90px;height:90px;object-fit:contain">';
-  const pn=document.getElementById('profileName'); if(pn) pn.textContent=ch.name;
+  const learnerName=state.learnerMemory?.name||ch.name;
+  const pn=document.getElementById('profileName'); if(pn) pn.textContent=learnerName;
   const pl=document.getElementById('profileLangSub'); if(pl) pl.textContent=state.lang?`Aprendiendo: ${state.lang.name} ${state.lang.flag}`:'Selecciona un idioma';
   const sm=document.getElementById('statMsgs'); if(sm) sm.textContent=state.totalMessages;
   updatePremUI();
@@ -143,10 +144,11 @@ function updateAllUI(){
       hi.innerHTML='<img src="'+ch.img+'" style="width:90px;height:90px;object-fit:contain">';
     }
   }
-  const tn=document.getElementById('tbName'); if(tn) tn.textContent=ch.name;
+  const tn=document.getElementById('tbName'); if(tn) tn.textContent=state.learnerMemory?.name||ch.name;
   if(state.lang){ const ld=document.getElementById('langDisplay'); if(ld) ld.textContent=state.lang.code; const lp=document.getElementById('chatLangP'); if(lp) lp.textContent=state.lang.code; }
   const ie=document.getElementById('introEmoji'); if(ie) ie.innerHTML='<img src="'+ch.img+'" style="width:110px;height:110px;object-fit:contain">';
   renderCharPickRow(); updateAIBar();
+  if(typeof renderLearnerMemory==='function') renderLearnerMemory();
   setInterval(updateStreakCountdown, 60000); // update countdown every minute
 }
 

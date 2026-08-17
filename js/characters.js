@@ -185,7 +185,7 @@ function selectChar(id){
   const ti = document.getElementById('tbChar');
   if(ti) ti.innerHTML = '<img src="'+ch.img+'" style="width:24px;height:24px;object-fit:contain">';
   const tn = document.getElementById('tbName');
-  if(tn) tn.textContent = ch.name;
+  if(tn) tn.textContent = state.learnerMemory?.name || ch.name;
   const hi = document.getElementById('heroChar');
   if(hi){
     hi.style.fontSize='';

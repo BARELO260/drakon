@@ -492,6 +492,17 @@
     <div class="pql-btn" onclick="openCharSelect()"><span class="pql-ic">🧙</span>Cambiar personaje</div>
     <div class="pql-btn" onclick="openSettings()"><span class="pql-ic">⚙️</span>Ajustes</div>
   </div>
+  <section class="memory-card" aria-labelledby="memoryTitle">
+    <div class="memory-card-head"><span>🧠</span><div><div class="memory-card-title" id="memoryTitle">Memoria de tu tutor</div><div class="memory-card-sub">Controla lo que la IA recuerda para acompañarte.</div></div></div>
+    <label class="memory-label" for="memoryName">Cómo quieres que te llame</label>
+    <input class="memory-input" id="memoryName" maxlength="60" placeholder="Ej. Sofía"/>
+    <label class="memory-label" for="memoryGoal">Tu objetivo</label>
+    <input class="memory-input" id="memoryGoal" maxlength="180" placeholder="Ej. Prepararme para un viaje a Canadá"/>
+    <label class="memory-label" for="memoryInterests">Intereses (separados por coma)</label>
+    <input class="memory-input" id="memoryInterests" maxlength="180" placeholder="Ej. cine, gastronomía, viajes"/>
+    <div class="memory-summary" id="memorySummary"></div>
+    <div class="memory-actions"><button class="memory-save" onclick="updateLearnerMemoryFromProfile()">Guardar memoria</button><button class="memory-clear" onclick="clearLearnerMemory()">Borrar</button></div>
+  </section>
   <div class="stats-grid">
     <div class="stat-card"><div class="sv" id="statDays">0</div><div class="sl">Días racha</div></div>
     <div class="stat-card"><div class="sv" id="statXP">0</div><div class="sl">XP total</div></div>
@@ -723,6 +734,8 @@
 <script src="js/course-expansion.js?v=20260710-courses500"></script>
 <!-- 2. State: app state object, save/load -->
 <script src="js/state.js"></script>
+<!-- 2b. Learner memory: compact, editable profile for personalized tutoring -->
+<script src="js/learner-memory.js"></script>
 <!-- 3. UI: themes, navigation, toasts, particles, updateAllUI -->
 <script src="js/ui.js"></script>
 <!-- 4. Characters: CHARS definitions, selectChar, renderChars -->

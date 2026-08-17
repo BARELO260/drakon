@@ -616,6 +616,7 @@ const LessonEngine = {
       nextBtn.classList.add('ex-next-btn--danger');
     }
     if (typeof playSound === 'function') playSound(isCorrect ? 'correct' : 'wrong');
+    if (!isCorrect && typeof rememberFocusArea === 'function') rememberFocusArea(this.lesson?.title || 'Repaso de lecciones');
     if (isCorrect && typeof gainXP === 'function') gainXP(3, false);
   },
 
@@ -730,9 +731,10 @@ const LessonEngine = {
 
     // Marcar lección como completada en el estado
     if (typeof state !== 'undefined') {
-      if (!state.lessonsCompleted.includes(this.lesson.id)) {
+      if (won && !state.lessonsCompleted.includes(this.lesson.id)) {
         state.lessonsCompleted.push(this.lesson.id);
       }
+      if (won && typeof rememberLesson === 'function') rememberLesson(this.lesson);
       // Racha diaria — hacer una lección cuenta como actividad del día,
       // igual que chatear con la IA (antes solo el chat la activaba).
       if (typeof markActivity === 'function') markActivity();

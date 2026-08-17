@@ -184,7 +184,7 @@ window.onFirebaseUserReady = async function(user){
       'lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme',
       'nativeLang','groqKey','elevenKey','quizDone','missions','achievements','lessonsCompleted',
       'userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled',
-      'savedChats','isPremium',
+      'savedChats','isPremium','learnerMemory',
     ];
     for(const k of OVERWRITE_KEYS){
       if(cloudData[k] !== undefined) state[k] = cloudData[k];
@@ -265,7 +265,7 @@ window.onFirebaseSignOut = function(){
     'charId','lang','theme','nativeLang','groqKey','elevenKey','quizDone','missions',
     'achievements','lessonsCompleted','userLevel','correctionsToday',
     'situationsToday','notifs','sounds','ttsEnabled','savedChats','isPremium',
-    'chatHistory','savedChats',
+    'chatHistory','savedChats','learnerMemory',
   ];
   const defaults = {
     xp:0, streak:0, totalMessages:0, lastActiveDate:null, lastMsgDate:null,
@@ -285,6 +285,7 @@ window.onFirebaseSignOut = function(){
     lessonsCompleted:[], userLevel:'A1', correctionsToday:0, situationsToday:0,
     notifs:false, sounds:true, ttsEnabled:false, savedChats:[], isPremium:false,
     chatHistory:[], chatSessionId:null,
+    learnerMemory:{name:'',goal:'',interests:[],strengths:[],focusAreas:[],recentLessons:[],situations:[],corrections:[],updatedAt:null},
   };
   for(const k of RESET_ON_LOGOUT){
     if(defaults[k] !== undefined) state[k] = defaults[k];
@@ -359,6 +360,7 @@ function save(){
     missions:state.missions, achievements:state.achievements, lessonsCompleted:state.lessonsCompleted,
     userLevel:state.userLevel, correctionsToday:state.correctionsToday, situationsToday:state.situationsToday,
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
+    learnerMemory:state.learnerMemory,
   };
   try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
 
@@ -644,12 +646,13 @@ async function sendChatInternal(){
   typing.remove();
   addAIMsg(text);
   state.chatHistory.push({ role: 'assistant', content: text });
+  if(typeof rememberCorrection==='function') rememberCorrection(text);
   state.totalMessages++; state.msgsToday++;
   if(!state.lastMsgDate) state.lastMsgDate = getLocalDate();
   if(text.includes('✏️')) state.correctionsToday++;
   gainXP(text.includes('✏️') ? 12 : 8);
   markActivity(); updateStreakUI(); checkMissions(); checkAchievements(); updateAIBar();
-  save();  // guarda XP/stats pero NO el chat — solo se guarda con el botón 💾
+  save();
 }
 
 function addAIMsg(text){

@@ -269,28 +269,40 @@ function levenshtein(a, b){
 ═══════════════════════════════════════ */
 const FREE_LIMIT=25;
 const SITUATIONS=[
-  {icon:'✈️',name:'En el aeropuerto',desc:'Check-in, seguridad',level:'easy',prompt:'Eres agente de aeropuerto. El usuario hace check-in. Habla en {LANG}.'},
-  {icon:'🍽️',name:'En el restaurante',desc:'Ordenar comida',level:'easy',prompt:'Eres mesero. El usuario ordena. Habla en {LANG}.'},
-  {icon:'🏨',name:'En el hotel',desc:'Check-in, solicitudes',level:'easy',prompt:'Eres recepcionista. El usuario hace check-in. Habla en {LANG}.'},
-  {icon:'🛒',name:'De compras',desc:'Precios, tallas',level:'med',prompt:'Eres vendedor. El usuario compra ropa. Habla en {LANG}.'},
-  {icon:'🏥',name:'En el médico',desc:'Describir síntomas',level:'med',prompt:'Eres médico. El usuario describe síntomas. Habla en {LANG}.'},
-  {icon:'💼',name:'Entrevista de trabajo',desc:'Preguntas profesionales',level:'hard',prompt:'Eres entrevistador serio. El usuario está en entrevista. Habla en {LANG}.'},
-  {icon:'📞',name:'Llamada telefónica',desc:'Servicio al cliente',level:'med',prompt:'Eres operador de servicio. El usuario llama con solicitud. Habla en {LANG}.'},
-  {icon:'🎓',name:'En la universidad',desc:'Matrícula, clases',level:'hard',prompt:'Eres consejero académico. El usuario pide info de cursos. Habla en {LANG}.'},
-  {icon:'🎉',name:'Evento social',desc:'Conversación casual',level:'med',prompt:'Conociste al usuario en una fiesta. Conversa naturalmente en {LANG}.'},
-  {icon:'🚇',name:'Transporte público',desc:'Rutas, horarios',level:'easy',prompt:'Eres empleado del metro. El usuario pide información. Habla en {LANG}.'},
+  {icon:'✈️',name:'En el aeropuerto',desc:'Check-in, seguridad y cambios',level:'easy',prompt:'You are an airport agent. The learner needs to check in, clear security, find a gate, or solve a flight problem. Speak in {LANG}.',steps:['Encontrar el mostrador','Hacer check-in','Pasar seguridad','Ubicar la puerta'],phrases:['I would like to check in, please.','Where is the security checkpoint?','Which gate does my flight leave from?','My flight has been delayed. What should I do?']},
+  {icon:'🍽️',name:'En el restaurante',desc:'Pedir, alergias y cuenta',level:'easy',prompt:'You are a restaurant server. Help the learner order, ask about ingredients, and pay. Speak in {LANG}.',steps:['Pedir una mesa','Preguntar por el menú','Hacer el pedido','Pedir la cuenta'],phrases:['Could I see the menu, please?','Does this contain nuts?','I would like to order this.','Could we have the bill, please?']},
+  {icon:'🏨',name:'En el hotel',desc:'Check-in y solicitudes',level:'easy',prompt:'You are a hotel receptionist. Help the learner check in and resolve practical requests. Speak in {LANG}.',steps:['Confirmar reserva','Recibir la llave','Pedir ayuda','Resolver un problema'],phrases:['I have a reservation under my name.','What time is breakfast?','Could I have an extra towel?','There is a problem with my room.']},
+  {icon:'🛒',name:'De compras',desc:'Precios, tallas y cambios',level:'med',prompt:'You are a helpful shop assistant. The learner is buying clothes or an item and may need a size or exchange. Speak in {LANG}.',steps:['Explicar qué busca','Preguntar talla o color','Probar/comparar','Pagar o cambiar'],phrases:['I am looking for this in a different size.','May I try this on?','How much does it cost?','Can I return or exchange it?']},
+  {icon:'🏥',name:'En el médico',desc:'Describir síntomas',level:'med',prompt:'You are a medical receptionist or clinician. Help the learner describe non-emergency symptoms and understand next steps. Speak in {LANG}. Do not diagnose; encourage urgent local care for emergencies.',steps:['Pedir una cita','Describir el síntoma','Decir duración','Entender indicaciones'],phrases:['I need to see a doctor.','I have had this pain for two days.','I am allergic to this medicine.','Is this an emergency?']},
+  {icon:'💼',name:'Entrevista de trabajo',desc:'Preguntas profesionales',level:'hard',prompt:'You are a professional job interviewer. Ask realistic, progressively harder questions and give brief feedback. Speak in {LANG}.',steps:['Presentarse','Explicar experiencia','Hablar de logros','Hacer preguntas'],phrases:['I have experience in this area.','One of my strengths is…','I am proud of this achievement.','Could you tell me more about the role?']},
+  {icon:'📞',name:'Llamada telefónica',desc:'Servicio al cliente',level:'med',prompt:'You are a customer-service agent on a phone call. Ask concise clarifying questions and help the learner make a request. Speak in {LANG}.',steps:['Identificarse','Explicar el problema','Dar detalles','Confirmar solución'],phrases:['I am calling about…','Could you repeat that, please?','My reference number is…','What are the next steps?']},
+  {icon:'🎓',name:'En la universidad',desc:'Matrícula y clases',level:'hard',prompt:'You are an academic advisor. Help the learner ask about enrollment, classes and requirements. Speak in {LANG}.',steps:['Explicar objetivo','Preguntar requisitos','Elegir curso','Confirmar fechas'],phrases:['I would like information about this course.','What are the entry requirements?','When does enrollment close?','Could you explain the schedule?']},
+  {icon:'🎉',name:'Evento social',desc:'Conversación casual',level:'med',prompt:'You met the learner at a social event. Have a natural, friendly conversation and introduce small talk challenges. Speak in {LANG}.',steps:['Saludar','Romper el hielo','Hablar de intereses','Despedirse'],phrases:['How do you know the host?','What do you like to do in your free time?','That sounds interesting!','It was lovely talking to you.']},
+  {icon:'🚇',name:'Transporte público',desc:'Rutas y horarios',level:'easy',prompt:'You are a public-transport employee. Help the learner find a route, ticket or platform. Speak in {LANG}.',steps:['Decir destino','Preguntar ruta','Comprar boleto','Confirmar parada'],phrases:['How can I get to…?','Which platform do I need?','Where can I buy a ticket?','Does this train stop at…?']},
 ];
 function renderSituations(){
   const g=document.getElementById('sitGrid'); if(!g) return;
   g.innerHTML=SITUATIONS.map((s,i)=>`
-    <div class="sit-card" onclick="startSit(${i})">
+    <div class="sit-card" onclick="openSituation(${i})">
       <span class="sit-lv ${s.level==='easy'?'easy':s.level==='med'?'med':'hard'}">${s.level==='easy'?'Fácil':s.level==='med'?'Medio':'Difícil'}</span>
       <span class="sit-ic">${s.icon}</span>
       <div class="sit-n">${s.name}</div>
       <div class="sit-d">${s.desc}</div>
     </div>`).join('');
 }
-function startSit(i){ state.situationsToday++; state.chatSituation=SITUATIONS[i]; goToChat('situation',SITUATIONS[i]); checkMissions(); }
+function openSituation(i){
+  const s=SITUATIONS[i]; const g=document.getElementById('sitGrid'); if(!s||!g) return;
+  g.innerHTML=`<section class="sit-planner"><button class="sit-back" onclick="renderSituations()">← Todas las situaciones</button><div class="sit-planner-hero"><span>${s.icon}</span><div><h2>${s.name}</h2><p>${s.desc}</p></div></div><div class="sit-plan-block"><h3>1. Prepárate</h3><ol>${s.steps.map(x=>`<li>${x}</li>`).join('')}</ol></div><div class="sit-plan-block"><h3>Frases para usar ahora</h3>${s.phrases.map((x,n)=>`<button class="sit-phrase" onclick="copySituationPhrase(${i},${n})"><span>${x}</span><b>Copiar</b></button>`).join('')}</div><div class="sit-plan-actions"><button class="sit-action sit-action-secondary" onclick="startSit(${i},'prepare')">🧭 Enséñame primero</button><button class="sit-action" onclick="startSit(${i},'practice')">🎭 Practicar con IA</button><button class="sit-action sit-action-urgent" onclick="startSit(${i},'live')">⚡ Estoy allí ahora</button></div></section>`;
+}
+function copySituationPhrase(i,n){
+  const phrase=SITUATIONS[i]?.phrases?.[n]; if(!phrase) return;
+  navigator.clipboard?.writeText(phrase).then(()=>showToast('📋 Frase copiada')).catch(()=>showToast(`📋 ${phrase}`));
+}
+function startSit(i,stage='practice'){
+  const sit={...SITUATIONS[i],stage}; state.situationsToday++; state.chatSituation=sit;
+  if(typeof rememberSituation==='function') rememberSituation(sit,stage);
+  goToChat('situation',sit); checkMissions(); save();
+}
 
 function checkPrem(mode){ if(state.isPremium){ goToChat(mode); return; } showPremModal(); }
 
@@ -339,7 +351,8 @@ ABSOLUTE RULES (non-negotiable):
     return `${persona} You are a ${lang} tutor in Drakón. Level: ${level}.
 ${sit.prompt.replace(/{LANG}/g,native)}
 ${coreRules}
-EXTRA FOR SITUATIONS: Play the indicated role, responding MAINLY in ${native}. After each exchange add [Useful vocab: word = translation in ${nativeLangName}]. Only correct errors in ${native}.`;
+SITUATION STAGE: ${sit.stage==='prepare'?'PREPARE: explain the four steps and model two essential phrases before roleplay.':sit.stage==='live'?'LIVE HELP: give the single most useful phrase first, then ask only one short clarifying question.': 'PRACTICE: run the interaction one step at a time; increase difficulty when the learner succeeds.'}
+EXTRA FOR SITUATIONS: Play the indicated role, responding MAINLY in ${native}. After each exchange add [Useful vocab: word = translation in ${nativeLangName}]. Only correct errors in ${native}.${typeof memoryPrompt==='function'?memoryPrompt():''}`;
   }
 
   if(state.chatMode==='pronunciation'){
@@ -357,7 +370,7 @@ PRONUNCIATION MODE: When the user writes a word in ${native}: 1) Show IPA /phone
     roleplay:`Accept ANY roleplay scenario and develop it in ${native}. Stay in character. Correct errors at the end of the turn, not mid-roleplay.`,
   };
 
-  return `${persona} You are a ${lang} tutor in Drakón. User level: ${level}.
+  return `${persona} You are a ${lang} tutor in Drakón. User level: ${level}.${typeof memoryPrompt==='function'?memoryPrompt():''}
 ${coreRules}
 CURRENT MODE — ${(state.chatMode||'free').toUpperCase()}: ${modeInstructions[state.chatMode]||modeInstructions.free}
 Always end with a brief practical exercise in ${native} or a question to keep the user practicing.`;
