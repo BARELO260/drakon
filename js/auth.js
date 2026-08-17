@@ -184,7 +184,7 @@ window.onFirebaseUserReady = async function(user){
       'lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme',
       'nativeLang','quizDone','missions','achievements','lessonsCompleted',
       'userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled',
-      'savedChats','isPremium','learnerMemory',
+      'savedChats','isPremium','learnerMemory','accessories',
     ];
     for(const k of OVERWRITE_KEYS){
       if(cloudData[k] !== undefined) state[k] = cloudData[k];
@@ -265,7 +265,7 @@ window.onFirebaseSignOut = function(){
     'charId','lang','theme','nativeLang','groqKey','elevenKey','quizDone','missions',
     'achievements','lessonsCompleted','userLevel','correctionsToday',
     'situationsToday','notifs','sounds','ttsEnabled','savedChats','isPremium',
-    'chatHistory','savedChats','learnerMemory',
+    'chatHistory','savedChats','learnerMemory','accessories',
   ];
   const defaults = {
     xp:0, streak:0, totalMessages:0, lastActiveDate:null, lastMsgDate:null,
@@ -286,6 +286,7 @@ window.onFirebaseSignOut = function(){
     notifs:false, sounds:true, ttsEnabled:false, savedChats:[], isPremium:false,
     chatHistory:[], chatSessionId:null,
     learnerMemory:{name:'',goal:'',interests:[],strengths:[],focusAreas:[],recentLessons:[],situations:[],corrections:[],updatedAt:null},
+    accessories:{equipped:null,unlocked:['passport']},
   };
   for(const k of RESET_ON_LOGOUT){
     if(defaults[k] !== undefined) state[k] = defaults[k];
@@ -361,6 +362,7 @@ function save(){
     userLevel:state.userLevel, correctionsToday:state.correctionsToday, situationsToday:state.situationsToday,
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
     learnerMemory:state.learnerMemory,
+    accessories:state.accessories,
   };
   try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
 
@@ -426,7 +428,8 @@ function saveGroqKey(){
 
 function updateNoKeyBanner(){
   const banner = document.getElementById('noKeyBanner');
-  if(banner) banner.style.display = state.groqKey ? 'none' : 'block';
+  const managed = typeof hasManagedAi==='function' && hasManagedAi();
+  if(banner) banner.style.display = (state.groqKey || managed) ? 'none' : 'block';
 }
 
 function loadGroqKeyUI(){
