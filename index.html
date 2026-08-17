@@ -415,7 +415,7 @@
   </div>
   <div class="chat-messages" id="chatMsgs"></div>
   <div id="noKeyBanner" style="display:none;margin:8px 11px;background:rgba(245,158,11,.12);border:1.5px solid var(--gold);border-radius:12px;padding:11px 13px;font-size:12px;color:var(--text);line-height:1.6">
-    ⚡ <strong>Configura tu IA gratis:</strong> Ve a <strong>Ajustes → API Key de IA</strong> y pega tu key de <a href="https://console.groq.com/keys" target="_blank" style="color:var(--gold)">console.groq.com</a> (gratis, sin tarjeta).
+    ⚡ <strong>La IA de Drakón necesita una sesión activa.</strong> Inicia sesión de nuevo y vuelve a intentarlo.
   </div>
   <div class="err-bar" id="chatErr"></div>
   <div class="chat-bar">
@@ -595,7 +595,7 @@
       </div>
     </div>
     <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:12px 14px;font-size:12px;color:var(--muted);line-height:1.7">
-      <strong style="color:var(--text)">Drakón v5.0 PWA</strong><br>
+      <strong style="color:var(--text)">Drakón v6.1 PWA</strong><br>
       Aprende idiomas con Inteligencia Artificial.<br>
       Reconocimiento y pronunciación: Web Speech API<br>
       Voces: ElevenLabs (voces neuronales) con respaldo del navegador<br>
@@ -617,6 +617,7 @@
   <div class="cs-stage">
     <div class="cs-glow"></div>
     <video id="csCharVideo" class="cs-char-video" autoplay muted loop playsinline></video>
+    <div class="cs-accessory-overlay" id="csAccessoryOverlay" aria-label="Accesorio equipado"></div>
     <div class="cs-lock" id="csLock" style="display:none">🔒</div>
   </div>
 
@@ -625,7 +626,9 @@
     <div class="cs-name" id="csName">—</div>
     <div class="cs-desc" id="csDesc">—</div>
     <button class="cs-select-btn" id="csSelectBtn" onclick="csConfirmSelect()">Seleccionar</button>
+    <button class="cs-wardrobe-btn" onclick="openWardrobe()">✨ Accesorios</button>
   </div>
+  <div class="cs-wardrobe" id="csWardrobe" style="display:none"></div>
 </div>
 
 <!-- BOTTOM NAV -->
@@ -751,6 +754,7 @@
 <script src="js/ui.js"></script>
 <!-- 4. Characters: CHARS definitions, selectChar, renderChars -->
 <script src="js/characters.js"></script>
+<script src="js/accessories.js"></script>
 
 <script src="js/mascot.js"></script>
 <!-- 4b. Char intro: cinematic animation overlay on character select -->
