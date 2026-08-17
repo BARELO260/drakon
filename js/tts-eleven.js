@@ -151,6 +151,10 @@ async function _resolveVoiceId(charKey, voice, forceRefresh){
 }
 
 async function _elevenSpeak(text, voice, onend, charKey){
+  if(typeof hasManagedAi==='function' && hasManagedAi()){
+    try{ return _elevenPlayBlob(await managedTTS(text,charKey||'narrator'),onend); }
+    catch(e){ _warnElevenFailure('managed voice service unavailable'); return false; }
+  }
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
   const resolveKey = charKey || voice.name || voice.voiceId;
@@ -202,7 +206,10 @@ function _elevenRequest(text, voice, voiceId, key){
 }
 
 async function _elevenPlay(r, onend){
-  const blob = await r.blob();
+  return _elevenPlayBlob(await r.blob(),onend);
+}
+
+async function _elevenPlayBlob(blob, onend){
   const url  = URL.createObjectURL(blob);
   if(_ttsAudioEl){ try{ _ttsAudioEl.pause(); }catch(e){} }
   const audioEl = new Audio(url);
