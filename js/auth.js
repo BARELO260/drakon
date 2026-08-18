@@ -124,9 +124,20 @@ function firebaseErrMsg(code){
     'auth/too-many-requests':'Demasiados intentos. Espera un momento.',
     'auth/network-request-failed':'Sin conexión a internet.',
     'auth/popup-blocked':'El popup fue bloqueado. Permite popups en tu navegador.',
+    'auth/unauthorized-domain':'Este dominio no está autorizado en Firebase (Authentication → Settings → Authorized domains).',
+    'auth/operation-not-supported-in-this-environment':'Google no permite iniciar sesión desde esta app instalada/navegador integrado. Abre el sitio en Chrome o Safari normal.',
+    'auth/web-storage-unsupported':'Tu navegador está bloqueando cookies o almacenamiento de terceros, necesarios para iniciar sesión con Google.',
   };
   return msgs[code] || 'Error inesperado. Intenta de nuevo.';
 }
+
+// Llamada cuando auth.getRedirectResult() devuelve un error tras volver
+// de la pantalla de Google. Sin esto, el fallo se tragaba en silencio y
+// la app simplemente regresaba a la pantalla de login sin explicar nada.
+window._showGoogleRedirectError = function(code){
+  console.error('[Drakón][auth] Error en signInWithRedirect:', code);
+  showLoginErr(firebaseErrMsg(code));
+};
 
 // Called when Firebase confirms user is logged in
 window.onFirebaseUserReady = async function(user){
