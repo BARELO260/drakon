@@ -65,7 +65,17 @@
     window._firebase = {
       signIn:   (e,p) => auth.signInWithEmailAndPassword(e,p),
       signUp:   (e,p) => auth.createUserWithEmailAndPassword(e,p),
-      signInGoogle: () => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider()),
+      signInGoogle: () => auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).catch(e=>{
+        // Con signInWithRedirect, drakon-a30c8.firebaseapp.com/__/firebase/init.json
+        // devolvía 404 y getRedirectResult() se quedaba en null sin avisar del error
+        // (problema muy conocido de Firebase Auth cuando la app NO vive en Firebase
+        // Hosting, como es el caso aquí con GitHub Pages). signInWithPopup evita ese
+        // mecanismo por completo: no hay navegación de página completa ni dependencia
+        // de ese archivo, así que es mucho más fiable para este tipo de despliegue.
+        if(e && e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request'){
+          window._fbCallWhenReady('_showGoogleRedirectError', e.code || 'auth/network-request-failed');
+        }
+      }),
       signOut:  ()    => auth.signOut(),
       resetPassword: (e) => auth.sendPasswordResetEmail(e),
       saveData: (data, fullOverwrite=false) => {
@@ -112,13 +122,9 @@
       }, 100);
     };
 
-    // Con signInWithRedirect, el resultado (o error) del login con Google
-    // llega aquí cuando la página vuelve a cargar tras la redirección.
-    auth.getRedirectResult().catch(e=>{
-      if(e && e.code !== 'auth/popup-closed-by-user'){
-        window._fbCallWhenReady('_showGoogleRedirectError', e.code || 'auth/network-request-failed');
-      }
-    });
+    // signInWithPopup entrega el resultado directamente en la promesa de
+    // signInGoogle() (arriba) — no necesita getRedirectResult() al cargar
+    // la página, así que no hay nada que hacer aquí en ese sentido.
 
     auth.onAuthStateChanged(user => {
       console.log('[Drakón][auth] onAuthStateChanged →', user ? ('user logged in: ' + user.uid) : 'no user');
