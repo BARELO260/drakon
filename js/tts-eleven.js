@@ -153,7 +153,11 @@ async function _resolveVoiceId(charKey, voice, forceRefresh){
 async function _elevenSpeak(text, voice, onend, charKey){
   if(typeof hasManagedAi==='function' && hasManagedAi()){
     try{ return _elevenPlayBlob(await managedTTS(text,charKey||'narrator'),onend); }
-    catch(e){ _warnElevenFailure('managed voice service unavailable'); return false; }
+    catch(e){
+      _warnElevenFailure('managed voice service unavailable');
+      if(!getElevenKey()) return false;
+      // Sigue abajo e intenta con la clave personal como respaldo.
+    }
   }
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
