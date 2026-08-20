@@ -22,24 +22,33 @@ function validateText(value, max, label){
   return value.trim();
 }
 
-async function limit(uid, action){
+async function consumeQuota(uid, action){
   const ref=getFirestore().collection('aiRateLimits').doc(`${uid}_${action}`);
-  const now=Date.now(), windowMs=60_000, max=action==='tts'?24:12;
+  const now=Date.now(), minuteMax=action==='tts'?24:12, dayMax=action==='tts'?80:25;
+  const today=new Date().toISOString().slice(0,10);
+  let remaining=0;
   await getFirestore().runTransaction(async tx=>{
     const old=(await tx.get(ref)).data()||{};
-    const started=old.startedAt&&now-old.startedAt<windowMs ? old.startedAt : now;
-    const count=started===old.startedAt ? (old.count||0)+1 : 1;
-    if(count>max) throw new HttpsError('resource-exhausted','Too many requests. Please wait a minute.');
-    tx.set(ref,{startedAt:started,count,updatedAt:now},{merge:true});
+    const minuteStarted=old.minuteStarted&&now-old.minuteStarted<60_000 ? old.minuteStarted : now;
+    const minuteCount=minuteStarted===old.minuteStarted ? (old.minuteCount||0)+1 : 1;
+    const dailyCount=old.day===today ? (old.dailyCount||0)+1 : 1;
+    if(minuteCount>minuteMax) throw new HttpsError('resource-exhausted','Please wait a minute before trying again.');
+    if(dailyCount>dayMax) throw new HttpsError('resource-exhausted','You reached today\'s included AI limit.');
+    remaining=dayMax-dailyCount;
+    tx.set(ref,{minuteStarted,minuteCount,day:today,dailyCount,updatedAt:now},{merge:true});
   });
+  return remaining;
 }
 
-exports.drakonAi = onCall({ region:'us-central1', timeoutSeconds:30, secrets:[GROQ_API_KEY,ELEVENLABS_API_KEY], enforceAppCheck:false }, async request=>{
+exports.drakonAi = onCall({
+  region:'us-central1', timeoutSeconds:30, concurrency:40, maxInstances:20,
+  secrets:[GROQ_API_KEY,ELEVENLABS_API_KEY], enforceAppCheck:false
+}, async request=>{
   if(!request.auth) throw new HttpsError('unauthenticated','Sign in to use Drakón AI.');
   const data=request.data||{};
   const action=data.action;
   if(action==='chat'){
-    await limit(request.auth.uid,'chat');
+    const remaining=await consumeQuota(request.auth.uid,'chat');
     const incoming=Array.isArray(data.messages)?data.messages.slice(-18):[];
     if(!incoming.length) throw new HttpsError('invalid-argument','messages are required.');
     const messages=incoming.map(m=>({
@@ -53,10 +62,10 @@ exports.drakonAi = onCall({ region:'us-central1', timeoutSeconds:30, secrets:[GR
     if(!resp.ok) throw new HttpsError('internal','The tutor is temporarily unavailable.');
     const json=await resp.json(); const text=json?.choices?.[0]?.message?.content?.trim();
     if(!text) throw new HttpsError('internal','The tutor returned an empty response.');
-    return {text};
+    return {text,remaining};
   }
   if(action==='tts'){
-    await limit(request.auth.uid,'tts');
+    const remaining=await consumeQuota(request.auth.uid,'tts');
     const text=validateText(data.text,900,'text');
     const voiceId=VOICES[data.voiceKey]||VOICES.narrator;
     const resp=await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`,{
@@ -65,7 +74,7 @@ exports.drakonAi = onCall({ region:'us-central1', timeoutSeconds:30, secrets:[GR
     });
     if(!resp.ok) throw new HttpsError('internal','Voice generation is temporarily unavailable.');
     const audio=Buffer.from(await resp.arrayBuffer()).toString('base64');
-    return {audioBase64:audio,contentType:'audio/mpeg'};
+    return {audioBase64:audio,contentType:'audio/mpeg',remaining};
   }
   throw new HttpsError('invalid-argument','Unknown action.');
 });
