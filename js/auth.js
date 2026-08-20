@@ -592,73 +592,74 @@ async function sendChatInternal(){
     messages.push({ role: m.role === 'user' ? 'user' : 'assistant', content: m.content });
   }
 
-  // Managed gateway is the production path: provider secrets stay on the server.
+  // El gateway gestionado es el camino de producción (las claves de proveedor
+  // nunca llegan al navegador), pero mientras el proyecto siga en el plan
+  // Spark (sin Cloud Functions desplegadas) o si el gateway falla por
+  // cualquier motivo, SIEMPRE debe poder caer a la clave personal (BYOK) si
+  // el usuario configuró una — nunca dejar al usuario sin ninguna opción.
   let text = '';
   if(managed){
     try{ text=await managedChat(messages); }
     catch(e){
-      typing.remove(); if(typeof mascotIdle==='function') mascotIdle();
-      if(errBar){ errBar.textContent='⚠️ El servicio de IA no está disponible ahora. Intenta de nuevo en un momento.'; errBar.style.display='block'; }
-      return;
+      if(!state.groqKey){
+        typing.remove(); if(typeof mascotIdle==='function') mascotIdle();
+        if(errBar){ errBar.textContent='⚠️ El servicio de IA no está disponible ahora. Intenta de nuevo en un momento.'; errBar.style.display='block'; }
+        return;
+      }
+      // Sigue abajo e intenta con la clave personal como respaldo.
     }
   }
 
-  // Personal key is retained only as an advanced development fallback.
-  const models = [
-    'llama-3.3-70b-versatile',
-    'llama-3.1-8b-instant',
-    'gemma2-9b-it',
-  ];
+  if(!text && state.groqKey){
+    const models = [
+      'llama-3.3-70b-versatile',
+      'llama-3.1-8b-instant',
+      'gemma2-9b-it',
+    ];
+    for(const model of models){
+      try{
+        const resp = await Promise.race([
+          fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${state.groqKey}`,
+            },
+            body: JSON.stringify({ model, messages, max_tokens: 900, temperature: 0.7 }),
+          }),
+          new Promise((_,rej) => setTimeout(()=>rej(new Error('timeout')), 28000))
+        ]);
 
-  let lastErr = null;
+        if(resp.status === 401){
+          typing.remove();
+          if(typeof mascotIdle==='function') mascotIdle();
+          if(errBar){ errBar.textContent = '🔑 API key inválida o expirada. Ve a Ajustes para actualizarla.'; errBar.style.display = 'block'; }
+          return;
+        }
+        if(resp.status === 429){
+          await new Promise(r=>setTimeout(r,600));
+          continue;
+        }
+        if(!resp.ok){ throw new Error(`HTTP ${resp.status}`); }
 
-  for(const model of (managed ? [] : models)){
-    try{
-      const resp = await Promise.race([
-        fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${state.groqKey}`,
-          },
-          body: JSON.stringify({ model, messages, max_tokens: 900, temperature: 0.7 }),
-        }),
-        new Promise((_,rej) => setTimeout(()=>rej(new Error('timeout')), 28000))
-      ]);
+        const data = await resp.json();
+        text = data?.choices?.[0]?.message?.content?.trim() || '';
+        if(text) break;
 
-      if(resp.status === 401){
-        // Bad API key
+      } catch(e){
+        const msg = (e.message||'').toLowerCase();
+        if(msg.includes('timeout') || msg.includes('500') || msg.includes('503')){
+          await new Promise(r=>setTimeout(r,500));
+          continue;
+        }
         typing.remove();
         if(typeof mascotIdle==='function') mascotIdle();
-        if(errBar){ errBar.textContent = '🔑 API key inválida o expirada. Ve a Ajustes para actualizarla.'; errBar.style.display = 'block'; }
+        let userMsg = em.def;
+        if(msg.includes('timeout')) userMsg = em.timeout;
+        else if(msg.includes('failed to fetch') || msg.includes('network')) userMsg = em.net;
+        if(errBar){ errBar.textContent = userMsg; errBar.style.display = 'block'; }
         return;
       }
-      if(resp.status === 429){
-        // Rate limited — try next model
-        await new Promise(r=>setTimeout(r,600));
-        continue;
-      }
-      if(!resp.ok){ throw new Error(`HTTP ${resp.status}`); }
-
-      const data = await resp.json();
-      text = data?.choices?.[0]?.message?.content?.trim() || '';
-      if(text) break;
-
-    } catch(e){
-      lastErr = e;
-      const msg = (e.message||'').toLowerCase();
-      if(msg.includes('timeout') || msg.includes('500') || msg.includes('503')){
-        await new Promise(r=>setTimeout(r,500));
-        continue;
-      }
-      // Network error
-      typing.remove();
-      if(typeof mascotIdle==='function') mascotIdle();
-      let userMsg = em.def;
-      if(msg.includes('timeout')) userMsg = em.timeout;
-      else if(msg.includes('failed to fetch') || msg.includes('network')) userMsg = em.net;
-      if(errBar){ errBar.textContent = userMsg; errBar.style.display = 'block'; }
-      return;
     }
   }
 
