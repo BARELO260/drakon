@@ -1,4 +1,4 @@
-/* Managed AI client. With a gateway URL configured, learners never need API keys.
+/* Managed AI client. Provider credentials never reach the browser or APK.
    NOTA: el gateway (Firebase Functions) requiere el plan de pago Blaze. Mientras
    el proyecto siga en el plan gratuito Spark, DRAKON_AI_GATEWAY_ENABLED debe
    quedar en false para que la app use siempre las claves personales (BYOK) y
@@ -12,8 +12,9 @@ function hasManagedAi(){ return Boolean(DRAKON_AI_GATEWAY_ENABLED && DRAKON_AI_G
 function renderAiServiceStatus(){
   const managed=hasManagedAi();
   // Los campos de clave personal (BYOK) se quedan siempre visibles: si el
-  // gateway gestionado llegara a fallar en tiempo real, el usuario necesita
-  // poder verlos y usarlos como respaldo, no solo cuando managed===false.
+  // gateway gestionado llegara a fallar en tiempo real (o el flag de arriba
+  // cambia sin que el backend esté listo), el usuario necesita poder verlos
+  // y usarlos como respaldo, no solo cuando managed===false.
   document.querySelectorAll('[data-byok]').forEach(el=>el.style.display='');
   const status=document.getElementById('managedAiStatus');
   if(status) status.style.display=managed?'block':'none';
@@ -32,9 +33,15 @@ async function callManagedAi(payload){
 
 async function managedChat(messages){ return (await callManagedAi({action:'chat',messages})).text; }
 
+const _managedTtsCache=new Map();
 async function managedTTS(text,voiceKey){
+  const cacheKey=`${voiceKey||'narrator'}:${text}`;
+  if(_managedTtsCache.has(cacheKey)) return _managedTtsCache.get(cacheKey).slice(0);
   const out=await callManagedAi({action:'tts',text,voiceKey});
   const binary=atob(out.audioBase64); const bytes=new Uint8Array(binary.length);
   for(let i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
-  return new Blob([bytes],{type:out.contentType||'audio/mpeg'});
+  const blob=new Blob([bytes],{type:out.contentType||'audio/mpeg'});
+  _managedTtsCache.set(cacheKey,blob);
+  if(_managedTtsCache.size>48) _managedTtsCache.delete(_managedTtsCache.keys().next().value);
+  return blob.slice(0);
 }
