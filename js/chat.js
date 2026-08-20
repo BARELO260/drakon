@@ -211,8 +211,10 @@ async function sendHistoryMsg(){
   let aiText = '';
   try{
     if(managed){
-      aiText=await managedChat(messages);
-    } else {
+      try{ aiText=await managedChat(messages); }
+      catch(e){ if(!groqKey) throw e; /* si hay groqKey, sigue abajo e intenta con ella */ }
+    }
+    if(!aiText && groqKey){
       const models = ['llama-3.3-70b-versatile','llama-3.1-8b-instant','gemma2-9b-it'];
       for(const model of models){
       const resp = await Promise.race([
@@ -381,9 +383,9 @@ CURRENT MODE — ${(state.chatMode||'free').toUpperCase()}: ${modeInstructions[s
 Always end with a brief practical exercise in ${native} or a question to keep the user practicing.`;
 }
 function goToChat(mode,sit){
-  // Show Groq setup modal if key not configured yet
+  // Muestra el modal de configuración de clave si ni el gateway gestionado
+  // ni una clave personal (BYOK) están disponibles todavía.
   if(!state.groqKey && !(typeof hasManagedAi==='function' && hasManagedAi())){
-    // Store intended destination so we can launch it after setup
     state._pendingChatMode = mode;
     state._pendingChatSit = sit || null;
     showGroqModal();
