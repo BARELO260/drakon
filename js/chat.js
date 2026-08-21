@@ -215,7 +215,7 @@ async function sendHistoryMsg(){
       catch(e){ if(!groqKey) throw e; /* si hay groqKey, sigue abajo e intenta con ella */ }
     }
     if(!aiText && groqKey){
-      const models = ['llama-3.3-70b-versatile','llama-3.1-8b-instant','gemma2-9b-it'];
+      const models = ['openai/gpt-oss-120b','openai/gpt-oss-20b','qwen/qwen3.6-27b'];
       for(const model of models){
       const resp = await Promise.race([
         fetch('https://api.groq.com/openai/v1/chat/completions',{
