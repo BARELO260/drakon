@@ -507,7 +507,7 @@ async function translateAndSpeak(cleanText){
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
         body: JSON.stringify({
-          model: 'llama-3.1-8b-instant', // fast & cheap for translation
+          model: 'openai/gpt-oss-20b', // fast & cheap for translation
           max_tokens: 400,
           temperature: 0.1,
           messages:[{
