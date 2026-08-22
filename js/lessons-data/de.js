@@ -2443,4 +2443,154 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe 55-75 Wörter über eine (reale oder erfundene) wissenschaftliche Studie mit vorläufigen Ergebnissen, und benutze mindestens zwei Ausdrücke epistemischer Abschwächung.",[],["man könnte sagen, dass", "die Daten deuten darauf hin", "Unsicherheit"]],
     ]
   },
+  {
+    id:"de_a1_weather_seasons", level:"A1", title:"Das Wetter und die Jahreszeiten", emoji:"☀️", xp:38,
+    description:"Lerne, das Wetter und die Jahreszeiten auf Deutsch mit “es ist/es regnet” zu beschreiben.",
+    study: {
+      vocab: [
+        ["sonnig", "sunny"],
+        ["regnerisch", "rainy"],
+        ["kalt", "cold"],
+        ["heiß", "hot"],
+        ["der Frühling", "spring"],
+        ["der Winter", "winter"],
+      ],
+      grammar: [
+        ["“Es ist” für das Wetter", "Für das Wetter wird das unpersönliche “es” + “ist” + Adjektiv verwendet: “es ist sonnig”, “es ist kalt”. Für Regen: “es regnet” (unpersönliches Verb).", "Heute ist es sonnig. / Im Frühling regnet es."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en alemán?",["kalt", "sunny", "hot", "rainy"],0,"“Cold” es “kalt” en alemán."],
+      ["mcq","¿Cómo se dice “rainy” en alemán?",["hot", "rainy", "regnerisch", "cold"],2,"“Rainy” es “regnerisch” en alemán."],
+      ["fill","Completa: “Heute ist es sehr ___, nimm einen Regenschirm mit.”",["sonnig", "kalt", "heiß", "regnerisch"],3,"“Regnerisch” describe un clima con lluvia: “es ist regnerisch”."],
+      ["translate","Traduce: “It's very cold in winter.”",["Im Winter ist es sehr kalt.", "Im Winter ist es sehr heiß.", "Im Winter wird es sehr kalt.", "Im Sommer ist es sehr kalt."],0,"“It's very cold” se traduce como “es ist sehr kalt”, con el pronombre impersonal “es”."],
+      ["arrange","Ordena: [sonnig / heute / ist / es]",["es ist heute sonnig", "heute ist es sonnig", "sonnig ist heute es", "heute sonnig es ist"],1,"Adverbio de tiempo + verbo + pronombre impersonal + adjetivo."],
+      ["writing","Describe en alemán, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “es ist”.",[],["es ist", "sonnig", "kalt"]],
+    ]
+  },
+  {
+    id:"de_a2_pet_care", level:"A2", title:"Die Haustierpflege", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “müssen” para obligaciones en alemán.",
+    study: {
+      vocab: [
+        ["das Haustier füttern", "to feed the pet"],
+        ["den Hund ausführen", "to walk the dog"],
+        ["der Tierarzt", "the veterinarian"],
+        ["impfen", "to vaccinate"],
+        ["die Katzentoilette", "the litter box"],
+        ["ein Haustier adoptieren", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Müssen” para obligaciones", "“Müssen” + infinitivo al final expresa una obligación o necesidad cotidiana.", "Ich muss jeden Morgen den Hund ausführen. / Sie muss die Katze zweimal am Tag füttern."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en alemán?",["to adopt a pet", "to feed the pet", "to walk the dog", "der Tierarzt"],3,"“The veterinarian” es “der Tierarzt” en alemán."],
+      ["mcq","¿Cómo se dice “to vaccinate” en alemán?",["to walk the dog", "impfen", "the veterinarian", "to vaccinate"],1,"“To vaccinate” es “impfen” en alemán."],
+      ["fill","Completa: “Ich ___ jeden Morgen den Hund ausführen.”",["musst", "müsst", "müssen", "muss"],3,"“Müssen” con “ich” se conjuga como “ich muss”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Ich muss das Haustier zweimal am Tag ausführen.", "Ich muss das Haustier zweimal am Tag füttern.", "Ich musste das Haustier zweimal am Tag füttern.", "Ich muss das Haustier einmal am Tag füttern."],1,"“I have to feed” se traduce con “ich muss füttern”, obligación en presente."],
+      ["arrange","Ordena: [muss / Hund / sie / ausführen / den]",["ausführen den sie muss hund", "muss sie ausführen hund den", "sie hund den ausführen muss", "sie muss den hund ausführen"],3,"Sujeto + “muss” + artículo + sustantivo + infinitivo."],
+      ["writing","Describe en alemán, en 20-30 palabras, tu rutina de cuidado de una mascota usando “müssen”.",[],["ich muss", "sie muss", "Haustier"]],
+    ]
+  },
+  {
+    id:"de_b1_startups_entrepreneurship", level:"B1", title:"Unternehmertum und Start-ups", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “werden” (futuro) para planes en alemán.",
+    study: {
+      vocab: [
+        ["das Start-up", "startup"],
+        ["ein Produkt auf den Markt bringen", "to launch a product"],
+        ["der Investor", "investor"],
+        ["der Geschäftsplan", "business plan"],
+        ["ein Risiko eingehen", "to take a risk"],
+        ["ein Unternehmen skalieren", "to scale a business"],
+      ],
+      grammar: [
+        ["“Werden” + Infinitiv para planes futuros", "“Werden” + infinitivo al final expresa un plan o intención decidida para el futuro.", "Wir werden das Produkt nächsten Monat auf den Markt bringen. / Sie wird nach Investoren suchen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en alemán?",["der Investor", "business plan", "to scale a business", "startup"],0,"“Investor” es “der Investor” en alemán."],
+      ["mcq","¿Cómo se dice “to take a risk” en alemán?",["to scale a business", "to launch a product", "ein Risiko eingehen", "business plan"],2,"“To take a risk” es “ein Risiko eingehen” en alemán."],
+      ["fill","Completa: “Wir ___ das Produkt nächsten Monat auf den Markt bringen.”",["würden", "wurde", "werden", "wird"],2,"“Werden” con “wir” se conjuga como “wir werden”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Wir werden das Produkt diesen Monat auf den Markt bringen.", "Wir bringen das Produkt nächsten Monat auf den Markt.", "Wir werden das Produkt nächsten Monat auf den Markt bringen.", "Wir werden das Unternehmen nächsten Monat auf den Markt bringen."],2,"“We are going to launch” se traduce con “wir werden... bringen”, futuro con “werden”."],
+      ["arrange","Ordena: [wird / Investoren / sie / suchen / nach]",["investoren suchen sie nach wird", "sie wird nach investoren suchen", "investoren sie suchen nach wird", "investoren sie wird nach suchen"],1,"Sujeto + “wird” + preposición + sustantivo + infinitivo."],
+      ["writing","Escribe en alemán, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando “werden” para tus planes.",[],["ich werde", "Start-up", "Investoren"]],
+    ]
+  },
+  {
+    id:"de_b2_space_exploration", level:"B2", title:"Die Weltraumforschung", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el Futur II en alemán.",
+    study: {
+      vocab: [
+        ["die Weltraummission", "space mission"],
+        ["der Astronaut", "astronaut"],
+        ["umkreisen", "to orbit"],
+        ["der Raketenstart", "rocket launch"],
+        ["der Weltraum", "outer space"],
+        ["die Raumstation", "space station"],
+      ],
+      grammar: [
+        ["Futur II para logros futuros", "El Futur II (“werden” + participio + “haben/sein”) describe una acción que se habrá completado antes de un momento futuro determinado.", "Bis 2030 werden Astronauten auf dem Mars gelandet sein. / Die Rakete wird die Umlaufbahn bis dahin erreicht haben."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en alemán?",["space mission", "rocket launch", "space station", "die Raumstation"],3,"“Space station” es “die Raumstation” en alemán."],
+      ["mcq","¿Cómo se dice “to orbit” en alemán?",["to orbit", "umkreisen", "outer space", "astronaut"],1,"“To orbit” es “umkreisen” en alemán."],
+      ["fill","Completa: “Bis 2030 ___ Astronauten auf dem Mars gelandet sein.”",["sind", "werden", "waren", "würden"],1,"El Futur II usa “werden” + participio + “sein/haben”: “werden... gelandet sein”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Bis 2030 würden Astronauten auf dem Mars gelandet sein.", "Bis 2030 werden Astronauten auf dem Mars gelandet sein.", "Bis 2030 sind Astronauten auf dem Mars gelandet.", "Bis 2030 werden Astronauten auf dem Mars landen."],1,"“Will have landed” se traduce con Futur II: “werden... gelandet sein”."],
+      ["arrange","Ordena: [bald / Rakete / Umlaufbahn / erreicht / die / die]",["erreicht die die umlaufbahn rakete bald", "die bald erreicht rakete umlaufbahn die", "erreicht umlaufbahn rakete bald die die", "die rakete erreicht bald die umlaufbahn"],3,"Artículo + sustantivo + verbo + adverbio + artículo + sustantivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el Futur II (“werden... gelandet sein”) al menos dos veces.",[],["werden", "Weltraummission", "Astronaut"]],
+    ]
+  },
+  {
+    id:"de_c1_ai_ethics", level:"C1", title:"Die Ethik und Regulierung der künstlichen Intelligenz", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando el Passiv en registro formal en alemán.",
+    study: {
+      vocab: [
+        ["die künstliche Intelligenz", "artificial intelligence"],
+        ["die algorithmische Verzerrung", "algorithmic bias"],
+        ["die Rechenschaftspflicht", "accountability"],
+        ["der Datenschutz", "data privacy"],
+        ["regulieren", "to regulate"],
+        ["die unbeabsichtigten Folgen", "unintended consequences"],
+      ],
+      grammar: [
+        ["Das Passiv in formellem/akademischem Register", "Das Passiv (“werden” + Partizip II) se usa en alemán formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Diese Systeme sollten reguliert werden, um Verzerrungen zu vermeiden. / Algorithmische Verzerrung wurde in mehreren Studien dokumentiert."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en alemán?",["to regulate", "unintended consequences", "algorithmic bias", "die Rechenschaftspflicht"],3,"“Accountability” es “die Rechenschaftspflicht” en alemán."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en alemán?",["die algorithmische Verzerrung", "artificial intelligence", "unintended consequences", "accountability"],0,"“Algorithmic bias” es “die algorithmische Verzerrung” en alemán."],
+      ["fill","Completa: “Diese Systeme sollten reguliert ___, um Verzerrungen zu vermeiden.”",["worden", "werden", "wird", "sein"],1,"El Passiv con modal usa “sollten” + participio + “werden”: “sollten reguliert werden”."],
+      ["translate","Traduce con Passiv: “These systems should be regulated to prevent bias.”",["Diese Systeme sollten regulieren, um Verzerrungen zu vermeiden.", "Diese Systeme sollten reguliert werden, um Verzerrungen zu vermeiden.", "Diese Systeme müssen reguliert werden, um Verzerrungen zu vermeiden.", "Diese Systeme sollten reguliert werden, um eine Verzerrung zu vermeiden."],1,"“Should be regulated” se traduce con Passiv: “sollten reguliert werden”."],
+      ["arrange","Ordena: [reguliert / Algorithmen / werden / sollten]",["sollten algorithmen reguliert werden", "sollten reguliert algorithmen werden", "algorithmen sollten reguliert werden", "reguliert werden sollten algorithmen"],2,"Sujeto + Konjunktiv II modal + participio + “werden”."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en Passiv.",[],["sollten reguliert werden", "algorithmische Verzerrung", "Rechenschaftspflicht"]],
+    ]
+  },
+  {
+    id:"de_c2_philosophy_of_mind", level:"C2", title:"Die Philosophie des Geistes und das Bewusstsein", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando Spaltsätze (estructuras enfáticas) en alemán.",
+    study: {
+      vocab: [
+        ["das Bewusstsein", "consciousness"],
+        ["die subjektive Erfahrung", "subjective experience"],
+        ["das Gedankenexperiment", "thought experiment"],
+        ["der freie Wille", "free will"],
+        ["das Selbstbewusstsein", "self-awareness"],
+        ["das Leib-Seele-Problem", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Spaltsätze (“was... ist...”) para énfasis", "Los Spaltsätze (“was... ist...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usados en discurso filosófico y académico.", "Was das Bewusstsein wirklich definiert, ist nicht nur Verhalten, sondern subjektive Erfahrung."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en alemán?",["the mind-body problem", "das Gedankenexperiment", "subjective experience", "thought experiment"],1,"“Thought experiment” es “das Gedankenexperiment” en alemán."],
+      ["mcq","¿Cómo se dice “free will” en alemán?",["thought experiment", "der freie Wille", "free will", "subjective experience"],1,"“Free will” es “der freie Wille” en alemán."],
+      ["fill","Completa: “Was das Bewusstsein wirklich definiert, ___ nicht nur Verhalten.”",["ist", "war", "sind", "sei"],0,"En Spaltsätze con sujeto singular se usa “ist”: “was definiert... ist”."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Was das Bewusstsein wirklich definiert, ist nicht nur Verhalten, sondern subjektive Erfahrung.", "Was das Bewusstsein wirklich definiert, ist nur Verhalten, nicht subjektive Erfahrung.", "Was das Bewusstsein definiert wirklich, ist nicht nur Verhalten, sondern subjektive Erfahrung.", "Was das Bewusstsein wirklich definierte, ist nicht nur Verhalten, sondern subjektive Erfahrung."],0,"El Spaltsatz mantiene “was + verbo, ist nicht nur... sondern...”, con “wirklich” antes del verbo."],
+      ["arrange","Ordena: [Willen / diskutieren / freien / immer / noch / Philosophen / den]",["philosophen diskutieren immer noch den freien willen", "immer freien philosophen willen den noch diskutieren", "freien immer noch philosophen diskutieren den willen", "philosophen den noch freien diskutieren immer willen"],0,"Sujeto + verbo + adverbio + adverbio + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos un Spaltsatz (“was... ist...”).",[],["was wirklich definiert", "Bewusstsein", "freier Wille"]],
+    ]
+  },
 ];
