@@ -2446,4 +2446,154 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe 55-75 palabras analizando un estudio científico (real o inventado) con resultados preliminares, usando al menos dos expresiones de matización epistémica.",[],["podría decirse que", "los datos sugieren", "incertidumbre"]],
     ]
   },
+  {
+    id:"es_a1_weather_seasons", level:"A1", title:"El clima y las estaciones", emoji:"☀️", xp:38,
+    description:"Aprende a describir el clima y las estaciones del año en español con “hace/está”.",
+    study: {
+      vocab: [
+        ["soleado", "sunny"],
+        ["lluvioso", "rainy"],
+        ["frío", "cold"],
+        ["caluroso", "hot"],
+        ["la primavera", "spring"],
+        ["el invierno", "winter"],
+      ],
+      grammar: [
+        ["“Hace/Está” para el clima", "Para el clima se usa “hace” + sustantivo (“hace frío”, “hace calor”) o “está” + adjetivo/gerundio (“está soleado”, “está lloviendo”).", "Hoy hace sol. / Está lloviendo en primavera."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en español?",["winter", "sunny", "cold", "frío"],3,"“Cold” es “frío” en español."],
+      ["mcq","¿Cómo se dice “rainy” en español?",["hot", "lluvioso", "spring", "winter"],1,"“Rainy” es “lluvioso” en español."],
+      ["fill","Completa: “Hoy hace mucho ___, lleva un paraguas.”",["invierno", "calor", "sol", "frío"],3,"“Frío” se usa con “hace”: “hace frío”."],
+      ["translate","Traduce: “It's very cold in winter.”",["Hace mucho frío en invierno.", "Está muy frío en invierno.", "Hace mucho calor en invierno.", "Hace mucho frío en verano."],0,"“It's very cold” se traduce como “hace mucho frío”, con “hacer” + sustantivo."],
+      ["arrange","Ordena: [sol / hoy / hace]",["hoy sol hace", "sol hoy hace", "hace sol hoy", "hoy hace sol"],2,"Verbo impersonal + sustantivo + adverbio de tiempo."],
+      ["writing","Describe en español, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “hace” y “está”.",[],["hace", "está", "frío"]],
+    ]
+  },
+  {
+    id:"es_a2_pet_care", level:"A2", title:"El cuidado de mascotas", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “tener que” para obligaciones en español.",
+    study: {
+      vocab: [
+        ["alimentar a la mascota", "to feed the pet"],
+        ["pasear al perro", "to walk the dog"],
+        ["el veterinario", "the veterinarian"],
+        ["vacunar", "to vaccinate"],
+        ["la caja de arena", "the litter box"],
+        ["adoptar una mascota", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Tener que” para obligaciones", "“Tener que” + infinitivo expresa una obligación o necesidad cotidiana.", "Tengo que pasear al perro todas las mañanas. / Ella tiene que alimentar al gato dos veces al día."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en español?",["to feed the pet", "to vaccinate", "el veterinario", "to walk the dog"],2,"“The veterinarian” es “el veterinario” en español."],
+      ["mcq","¿Cómo se dice “to vaccinate” en español?",["to feed the pet", "the litter box", "to adopt a pet", "vacunar"],3,"“To vaccinate” es “vacunar” en español."],
+      ["fill","Completa: “___ que pasear al perro todas las mañanas.”",["Tiene", "Tienes", "Tengo", "Tenemos"],2,"“Tener que” se conjuga con “yo” como “tengo que”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Tengo que alimentar a la mascota una vez al día.", "Tengo que pasear a la mascota dos veces al día.", "Tuve que alimentar a la mascota dos veces al día.", "Tengo que alimentar a la mascota dos veces al día."],3,"“I have to feed” se traduce con “tengo que alimentar”, obligación en presente."],
+      ["arrange","Ordena: [tiene / perro / ella / pasear / al / que]",["tiene al perro que pasear ella", "ella tiene que pasear al perro", "pasear tiene que perro al ella", "que tiene pasear ella perro al"],1,"Sujeto + “tiene que” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Describe en español, en 20-30 palabras, tu rutina de cuidado de una mascota usando “tener que”.",[],["tengo que", "tiene que", "mascota"]],
+    ]
+  },
+  {
+    id:"es_b1_startups_entrepreneurship", level:"B1", title:"El emprendimiento y las startups", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “ir a” para planes en español.",
+    study: {
+      vocab: [
+        ["la startup/empresa emergente", "startup"],
+        ["lanzar un producto", "to launch a product"],
+        ["el inversionista", "investor"],
+        ["el plan de negocios", "business plan"],
+        ["asumir un riesgo", "to take a risk"],
+        ["escalar un negocio", "to scale a business"],
+      ],
+      grammar: [
+        ["“Ir a” + infinitivo para planes", "“Ir a” + infinitivo expresa un plan o intención ya decidida.", "Vamos a lanzar el producto el próximo mes. / Ella va a buscar inversionistas."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en español?",["el inversionista", "to scale a business", "to launch a product", "investor"],0,"“Investor” es “el inversionista” en español."],
+      ["mcq","¿Cómo se dice “to take a risk” en español?",["asumir un riesgo", "to take a risk", "to scale a business", "to launch a product"],0,"“To take a risk” es “asumir un riesgo” en español."],
+      ["fill","Completa: “___ a lanzar el producto el próximo mes.”",["Van", "Vamos", "Va", "Vas"],1,"“Ir a” con “nosotros” se conjuga como “vamos a”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Lanzamos el producto el próximo mes.", "Vamos a lanzar el producto el próximo mes.", "Vamos a lanzar el producto este mes.", "Vamos a lanzar el negocio el próximo mes."],1,"“We are going to launch” se traduce con “vamos a lanzar”, plan futuro decidido."],
+      ["arrange","Ordena: [inversionistas / va / buscar / ella / a]",["ella va a buscar inversionistas", "inversionistas va a buscar ella", "inversionistas ella va buscar a", "a inversionistas ella va buscar"],0,"Sujeto + “va a” + verbo + sustantivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando “ir a” para tus planes.",[],["voy a", "startup", "inversionistas"]],
+    ]
+  },
+  {
+    id:"es_b2_space_exploration", level:"B2", title:"La exploración espacial", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futuro perfecto en español.",
+    study: {
+      vocab: [
+        ["la misión espacial", "space mission"],
+        ["el astronauta", "astronaut"],
+        ["orbitar", "to orbit"],
+        ["el lanzamiento de cohete", "rocket launch"],
+        ["el espacio exterior", "outer space"],
+        ["la estación espacial", "space station"],
+      ],
+      grammar: [
+        ["Futuro perfecto para logros futuros", "El futuro perfecto (“habrá” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Para 2030, los astronautas habrán aterrizado en Marte. / El cohete habrá alcanzado la órbita para entonces."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en español?",["space station", "la estación espacial", "space mission", "rocket launch"],1,"“Space station” es “la estación espacial” en español."],
+      ["mcq","¿Cómo se dice “to orbit” en español?",["rocket launch", "outer space", "orbitar", "space mission"],2,"“To orbit” es “orbitar” en español."],
+      ["fill","Completa: “Para 2030, los astronautas ___ aterrizado en Marte.”",["habrán", "habían", "habrían", "han"],0,"El futuro perfecto usa “habrán” + participio: “habrán aterrizado”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Para 2030, los astronautas habrán aterrizado en Marte.", "Para 2030, los astronautas aterrizarán en Marte.", "Para 2030, los astronautas han aterrizado en Marte.", "Para 2030, los astronautas habrían aterrizado en Marte."],0,"“Will have landed” se traduce con futuro perfecto: “habrán aterrizado”."],
+      ["arrange","Ordena: [pronto / cohete / órbita / el / la / alcanzará]",["cohete pronto órbita el la alcanzará", "pronto la cohete el órbita alcanzará", "el la alcanzará cohete pronto órbita", "el cohete alcanzará la órbita pronto"],3,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
+      ["writing","Escribe en español, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futuro perfecto (“habrá...”) al menos dos veces.",[],["habrán", "misión espacial", "astronauta"]],
+    ]
+  },
+  {
+    id:"es_c1_ai_ethics", level:"C1", title:"La ética y la regulación de la inteligencia artificial", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la pasiva refleja en registro formal en español.",
+    study: {
+      vocab: [
+        ["la inteligencia artificial", "artificial intelligence"],
+        ["el sesgo algorítmico", "algorithmic bias"],
+        ["la rendición de cuentas", "accountability"],
+        ["la privacidad de datos", "data privacy"],
+        ["regular", "to regulate"],
+        ["las consecuencias no deseadas", "unintended consequences"],
+      ],
+      grammar: [
+        ["La pasiva refleja en registro formal/académico", "La pasiva refleja (“se” + verbo en 3ª persona) es muy común en español formal para enfatizar la acción sin mencionar al agente.", "Estos sistemas deberían regularse para evitar sesgos. / El sesgo algorítmico se ha documentado en varios estudios."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en español?",["la rendición de cuentas", "accountability", "algorithmic bias", "to regulate"],0,"“Accountability” es “rendición de cuentas” en español."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en español?",["artificial intelligence", "to regulate", "data privacy", "el sesgo algorítmico"],3,"“Algorithmic bias” es “sesgo algorítmico” en español."],
+      ["fill","Completa: “Estos sistemas deberían ___ para evitar sesgos.”",["regularse", "regular", "regulados", "regulando"],0,"La pasiva refleja usa “se” + infinitivo tras un modal: “deberían regularse”."],
+      ["translate","Traduce con pasiva refleja: “These systems should be regulated to prevent bias.”",["Estos sistemas deberían regularse para evitar un sesgo.", "Estos sistemas deberían regular para evitar sesgos.", "Estos sistemas deberían regularse para evitar sesgos.", "Estos sistemas deben regularse para evitar sesgos."],2,"“Should be regulated” se traduce con pasiva refleja: “deberían regularse”."],
+      ["arrange","Ordena: [regularse / algoritmos / deberían / los]",["los regularse deberían algoritmos", "algoritmos los regularse deberían", "los algoritmos deberían regularse", "los regularse algoritmos deberían"],2,"Artículo + sustantivo + condicional + pasiva refleja."],
+      ["writing","Escribe en español, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción con pasiva refleja.",[],["deberían regularse", "sesgo algorítmico", "rendición de cuentas"]],
+    ]
+  },
+  {
+    id:"es_c2_philosophy_of_mind", level:"C2", title:"La filosofía de la mente y la conciencia", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando oraciones escindidas (estructuras enfáticas) en español.",
+    study: {
+      vocab: [
+        ["la conciencia", "consciousness"],
+        ["la experiencia subjetiva", "subjective experience"],
+        ["el experimento mental", "thought experiment"],
+        ["el libre albedrío", "free will"],
+        ["la autoconciencia", "self-awareness"],
+        ["el problema mente-cuerpo", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Oraciones escindidas (“lo que... es...”) para énfasis", "Las oraciones escindidas (“lo que... es...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en español?",["free will", "el experimento mental", "consciousness", "the mind-body problem"],1,"“Thought experiment” es “el experimento mental” en español."],
+      ["mcq","¿Cómo se dice “free will” en español?",["el libre albedrío", "thought experiment", "self-awareness", "the mind-body problem"],0,"“Free will” es “el libre albedrío” en español."],
+      ["fill","Completa: “Lo que realmente define la conciencia ___ la experiencia subjetiva, no solo el comportamiento.”",["sea", "es", "era", "son"],1,"En oraciones escindidas con sujeto singular se usa “es”: “lo que define... es”."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Lo que define realmente la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente define la conciencia es solo el comportamiento, no la experiencia subjetiva.", "Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente definió la conciencia no es solo el comportamiento, sino la experiencia subjetiva."],2,"La oración escindida mantiene “lo que + verbo + no es... sino...”, con “realmente” antes del verbo."],
+      ["arrange","Ordena: [debaten / albedrío / aún / filósofos / el / libre]",["debaten filósofos albedrío libre los aún el", "los filósofos aún debaten el libre albedrío", "libre aún debaten el los filósofos albedrío", "libre los albedrío aún debaten filósofos el"],1,"Artículo + sustantivo + adverbio + verbo + artículo + sustantivo compuesto."],
+      ["writing","Escribe en español, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una oración escindida (“lo que... es...”).",[],["lo que realmente define", "conciencia", "libre albedrío"]],
+    ]
+  },
 ];
