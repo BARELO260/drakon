@@ -62,10 +62,22 @@ function playSound(type){
 
 /* ═══════════════════════════════════════
    NAVIGATION
+   Cada goTo() empuja una entrada al historial del navegador, así el botón
+   "Atrás" físico de Android (y el gesto de atrás en iOS) navega DENTRO de
+   la app en vez de salir de ella. _navFromPopstate evita que la navegación
+   disparada por el propio botón "Atrás" vuelva a empujar una entrada nueva
+   (lo que crearía un bucle). Ver el listener de 'popstate' más abajo.
 ═══════════════════════════════════════ */
+window._navFromPopstate = false; // bandera compartida — situations.js (cargado después) también la lee
 function goTo(sid){
   const cur=document.getElementById(state.screen); state.prevScreen=state.screen;
   const next=document.getElementById(sid); if(!next) return;
+  // Si salimos de la videollamada de una Situación por cualquier vía (botón,
+  // navegación programática o el botón Atrás), siempre apagamos cámara/mic —
+  // nunca debe quedar la cámara encendida "en segundo plano".
+  if(state.screen==='screen-livecall' && sid!=='screen-livecall' && typeof LiveCall!=='undefined'){
+    LiveCall._cleanup();
+  }
   if(cur) cur.classList.remove('active');
   if(state.screen==='screen-chat' && sid!=='screen-chat'){
     if(window.speechSynthesis) window.speechSynthesis.cancel();
@@ -82,8 +94,55 @@ function goTo(sid){
     document.querySelectorAll('.bn').forEach(b=>b.classList.remove('active'));
     const el=document.getElementById('bn-'+tabMap[sid]); if(el) el.classList.add('active');
   }
+  if(!_navFromPopstate){
+    _pushNavState({sid});
+  }
 }
 function goBack(){ goTo(state.prevScreen||'screen-main'); }
+
+/* Empuja un estado de navegación al historial, evitando duplicar la misma
+   entrada si ya estamos ahí (p.ej. llamadas repetidas a la misma pantalla). */
+function _pushNavState(navState){
+  try{
+    const cur = history.state;
+    if(cur && cur.sid===navState.sid && cur.sitKey===navState.sitKey) return;
+    history.pushState(navState, '');
+  }catch(e){}
+}
+
+/* Reconstruye la UI a partir de un estado de navegación (usado tanto por
+   el botón Atrás como, potencialmente, por deep-links futuros). */
+function _dispatchNavState(ns){
+  // Si el usuario está en medio de un ejercicio, el botón Atrás debe
+  // comportarse igual que el botón ✕ (exitEx): confirmar antes de perder
+  // el progreso, y volver al lugar correcto (lecciones normales o la ruta
+  // de una Situación). Si cancela, "deshacemos" el back físico devolviendo
+  // esa misma entrada al historial, sin tocar la pantalla.
+  if(state.screen==='screen-exercise' && typeof LessonEngine!=='undefined'
+     && LessonEngine.currentIdx>0 && LessonEngine.currentIdx<LessonEngine.exercises.length){
+    if(!confirm('¿Salir de la lección? Perderás el progreso de esta sesión.')){
+      _pushNavState({sid:'screen-exercise'});
+      return;
+    }
+  }
+  _navFromPopstate = true;
+  try{
+    if(state.screen==='screen-exercise' && typeof exitEx==='function'){
+      exitEx(true); // ya confirmamos arriba si hacía falta
+    } else if(!ns || !ns.sid){
+      goTo('screen-main'); switchTab('home');
+    } else if(ns.sid==='screen-situations' && ns.sitKey && typeof getSituation==='function' && getSituation(ns.sitKey)){
+      goTo('screen-situations'); openSituation(ns.sitKey);
+    } else if(ns.sid==='screen-situations'){
+      goTo('screen-situations'); if(typeof renderSituations==='function') renderSituations();
+    } else {
+      goTo(ns.sid);
+    }
+  } finally {
+    _navFromPopstate = false;
+  }
+}
+window.addEventListener('popstate', (e)=>{ _dispatchNavState(e.state); });
 function navTo(tab){
   document.querySelectorAll('.bn').forEach(b=>b.classList.remove('active'));
   const el=document.getElementById('bn-'+tab); if(el) el.classList.add('active');
