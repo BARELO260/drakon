@@ -42,7 +42,7 @@ function openSituation(key){
   const prog = _sitLessonProgressSummary(key);
   const progLabel = prog ? `${prog.done}/${prog.total} lecciones` : 'Lecciones en camino';
   g.innerHTML=`<section class="sit-planner" style="--sit-bg:url('${s.bg}')">
-    <button class="sit-back" onclick="renderSituations()">← Todas las situaciones</button>
+    <button class="sit-back" onclick="backToSituationsGrid()">← Todas las situaciones</button>
     <div class="sit-planner-hero">
       <div class="sit-planner-hero-bg"></div>
       <div class="sit-planner-hero-fg"><span>${s.icon}</span><div><h2>${s.name}</h2><p>${s.desc}</p></div></div>
@@ -61,6 +61,19 @@ function openSituation(key){
       </button>
     </div>
   </section>`;
+  // La cuadrícula y el planificador de una situación viven en la MISMA
+  // pantalla (screen-situations) — para que el botón Atrás distinga entre
+  // ambos, empujamos aquí un sub-estado propio (ver _dispatchNavState en
+  // app.js). Si esta llamada vino del propio botón Atrás (popstate), no
+  // volvemos a empujar para no crear un bucle.
+  if(!window._navFromPopstate) _pushNavState({sid:'screen-situations', sitKey:key});
+}
+
+// Botón "← Todas las situaciones" del planificador — vuelve a la cuadrícula
+// y mantiene el historial coherente con el botón Atrás físico.
+function backToSituationsGrid(){
+  renderSituations();
+  if(!window._navFromPopstate) _pushNavState({sid:'screen-situations'});
 }
 
 function copySituationPhrase(key,n){
@@ -175,12 +188,15 @@ function renderSituationLessonPath(key){
 function applySituationChatScene(sit){
   const stage=document.getElementById('mascotStage');
   const bgLayer=document.getElementById('chatSceneBg');
+  const screen=document.getElementById('screen-chat');
   if(!stage) return;
   if(sit && sit.bg){
     stage.classList.add('in-situation');
+    if(screen) screen.classList.add('in-situation-scene');
     if(bgLayer){ bgLayer.style.backgroundImage=`url('${sit.bg}')`; bgLayer.style.display='block'; }
   } else {
     stage.classList.remove('in-situation');
+    if(screen) screen.classList.remove('in-situation-scene');
     if(bgLayer){ bgLayer.style.display='none'; }
   }
 }
@@ -196,7 +212,16 @@ function openSituationLive(key){
   goTo('screen-situation-live');
 }
 
-/* ── 4a) Escanear (OCR) ─────────────────────────────────────── */
+/* ── 4a) Escanear — detección REAL de texto y objetos ─────────────
+   Usa el modelo de visión de Groq (qwen/qwen3.6-27b — ver
+   console.groq.com/docs/vision, ya confirmado que soporta imagen+texto,
+   modo JSON y hasta 5 imágenes por petición) para analizar la foto de
+   verdad: decide si lo que ve es texto, un objeto, o ambos, y devuelve
+   una traducción real y una descripción real — nunca datos inventados.
+   Si no hay clave de Groq configurada (Ajustes → IA), se usa Tesseract.js
+   como reserva local: SOLO detecta texto (sin objetos ni traducción), y
+   se avisa claramente de la limitación en vez de simular que funciona. */
+
 let _ocrEngineReady=null;
 function _ensureTesseractLoaded(){
   if(window.Tesseract) return Promise.resolve();
@@ -211,6 +236,102 @@ function _ensureTesseractLoaded(){
   return _ocrEngineReady;
 }
 
+// Reduce cualquier imagen (object URL de un File, o un <canvas> con un
+// fotograma de video) a un data URL JPEG de tamaño razonable. Groq admite
+// hasta 20MB, pero menos peso = respuesta más rápida — importante cuando
+// el usuario está caminando en una situación real.
+function _imageSourceToDataUrl(source, maxDim=1024, quality=0.78){
+  return new Promise((resolve,reject)=>{
+    const finish=(w,h,drawFn)=>{
+      let tw=w, th=h;
+      if(Math.max(w,h)>maxDim){ const scale=maxDim/Math.max(w,h); tw=Math.round(w*scale); th=Math.round(h*scale); }
+      const canvas=document.createElement('canvas'); canvas.width=tw; canvas.height=th;
+      drawFn(canvas.getContext('2d'), tw, th);
+      resolve(canvas.toDataURL('image/jpeg', quality));
+    };
+    if(source instanceof HTMLCanvasElement){
+      finish(source.width, source.height, (ctx,tw,th)=>ctx.drawImage(source,0,0,tw,th));
+      return;
+    }
+    const img=new Image();
+    img.onload=()=>finish(img.naturalWidth, img.naturalHeight, (ctx,tw,th)=>ctx.drawImage(img,0,0,tw,th));
+    img.onerror=()=>reject(new Error('No se pudo leer la imagen.'));
+    img.src=source;
+  });
+}
+
+// Analiza una foto con el modelo de visión de Groq y devuelve SIEMPRE un
+// objeto con esta forma (o null si no hay clave / falla la petición) —
+// nunca datos inventados: si el modelo no ve texto u objetos, los campos
+// quedan vacíos en vez de rellenarse con algo genérico.
+async function analyzeSceneImage(imageDataUrl){
+  if(!state.groqKey) return null;
+  const nativeLangName=(typeof NATIVE_LANGS!=='undefined' && NATIVE_LANGS.find(l=>l.code===state.nativeLang)?.uiName) || 'Spanish';
+  const targetLangName=state.lang?.name || 'inglés';
+  const sys=`You are a real-time visual scene analyzer for a language-learning app. Look ONLY at the photo provided — never invent details you cannot actually see. Reply ONLY with a single JSON object, no markdown, no extra text, matching EXACTLY this shape:
+{"hasText": boolean, "text": string, "textTranslation": string, "objects": [{"label": string, "translation": string, "note": string}], "summary": string}
+Field rules:
+- "hasText": true only if there is real, legible text visible in the photo.
+- "text": the EXACT visible text, verbatim (empty string if hasText is false).
+- "textTranslation": that text translated into ${nativeLangName} (empty string if hasText is false).
+- "objects": up to 4 notable physical objects, items, food dishes, signs, or places relevant to a language learner in this scene (empty array if nothing clearly identifiable, or if the photo only shows text with nothing else). Each "label" in ${targetLangName}, "translation" in ${nativeLangName}, "note" = one short useful sentence in ${nativeLangName} about it.
+- "summary": ONE short, warm sentence in ${nativeLangName}, written as Drakón (a friendly dragon language-tutor companion) describing what you actually see, in first person — e.g. "Veo un menú de restaurante en inglés." Never say you cannot see the image — you can see it.`;
+  const messages=[{role:'user', content:[
+    {type:'text', text:sys},
+    {type:'image_url', image_url:{url:imageDataUrl}},
+  ]}];
+  try{
+    const resp=await Promise.race([
+      fetch('https://api.groq.com/openai/v1/chat/completions',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.25})
+      }),
+      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
+    ]);
+    if(!resp.ok) return null;
+    const data=await resp.json();
+    const raw=data?.choices?.[0]?.message?.content; if(!raw) return null;
+    const parsed=JSON.parse(raw);
+    return {
+      hasText: !!parsed.hasText,
+      text: String(parsed.text||'').trim(),
+      textTranslation: String(parsed.textTranslation||'').trim(),
+      objects: Array.isArray(parsed.objects) ? parsed.objects.slice(0,4).map(o=>({
+        label:String(o?.label||'').trim(), translation:String(o?.translation||'').trim(), note:String(o?.note||'').trim(),
+      })).filter(o=>o.label) : [],
+      summary: String(parsed.summary||'').trim(),
+    };
+  } catch(e){ return null; }
+}
+
+// Igual que analyzeSceneImage pero para preguntas libres sobre una foto
+// (usado por "Mira esto" en la videollamada): el modelo responde en texto
+// natural y hablado, no en JSON — aquí queremos conversación, no datos.
+async function askDrakonVisionOnce(systemPrompt, userText, imageDataUrl){
+  if(!state.groqKey) return '';
+  const messages=[
+    {role:'system', content:systemPrompt},
+    {role:'user', content:[
+      {type:'text', text:userText || 'What do you see? Please help me with it.'},
+      {type:'image_url', image_url:{url:imageDataUrl}},
+    ]},
+  ];
+  try{
+    const resp=await Promise.race([
+      fetch('https://api.groq.com/openai/v1/chat/completions',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, max_completion_tokens:350, temperature:0.5})
+      }),
+      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
+    ]);
+    if(!resp.ok) return '';
+    const data=await resp.json();
+    return data?.choices?.[0]?.message?.content?.trim() || '';
+  } catch(e){ return ''; }
+}
+
 function openScan(){
   goTo('screen-scan');
   const shell=document.getElementById('scanShell');
@@ -218,7 +339,8 @@ function openScan(){
     <div class="scan-intro">
       <div class="scan-intro-ic">📷</div>
       <div class="scan-intro-t">Apunta y escanea</div>
-      <div class="scan-intro-s">Un menú, un cartel, una señal, un documento... Drakón detecta el texto y te ayuda a entenderlo.</div>
+      <div class="scan-intro-s">Un menú, un cartel, un plato, una maleta... Drakón mira la foto de verdad y te dice qué es.</div>
+      ${state.groqKey?'':'<div class="scan-warn">⚠️ Configura tu clave de IA en Ajustes para traducir y reconocer objetos. Sin ella, solo se detecta el texto.</div>'}
       <label class="scan-cta">
         📸 Escanear ahora
         <input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)">
@@ -233,54 +355,95 @@ async function handleScanFile(ev){
   shell.innerHTML=`
     <div class="scan-result">
       <img class="scan-photo" src="${imgUrl}" alt="Foto escaneada">
-      <div class="scan-status" id="scanStatus">🔎 Detectando texto…</div>
+      <div class="scan-status"><span class="spinner"></span> Analizando la imagen…</div>
     </div>`;
+
+  let dataUrl=null;
+  try{ dataUrl=await _imageSourceToDataUrl(imgUrl); }catch(e){}
+
+  // Camino principal: visión real con Groq (texto Y objetos, con
+  // traducción). Camino de respaldo: Tesseract.js, solo texto, sin IA.
+  if(dataUrl && state.groqKey){
+    const analysis=await analyzeSceneImage(dataUrl);
+    if(analysis && (analysis.hasText || analysis.objects.length || analysis.summary)){
+      _renderScanResult(analysis, imgUrl, false);
+      return;
+    }
+  }
+  await _renderScanFallbackOcr(file, imgUrl);
+}
+
+async function _renderScanFallbackOcr(file, imgUrl){
+  const shell=document.getElementById('scanShell'); if(!shell) return;
+  const statusEl=shell.querySelector('.scan-status');
+  if(statusEl) statusEl.innerHTML=`<span class="spinner"></span> ${state.groqKey?'La IA no respondió, probando solo texto…':'Detectando texto (sin IA configurada)…'}`;
   try{
     await _ensureTesseractLoaded();
     const langMap={EN:'eng',ES:'spa',FR:'fra',DE:'deu',IT:'ita',PT:'por'};
     const ocrLang=langMap[state.lang?.code]||'eng';
-    const { data } = await Tesseract.recognize(file, ocrLang, { logger:()=>{} });
+    const { data }=await Tesseract.recognize(file, ocrLang, { logger:()=>{} });
     const text=(data?.text||'').trim();
-    _renderScanResult(text, imgUrl);
+    _renderScanResult(text?{hasText:true,text,textTranslation:'',objects:[],summary:''}:null, imgUrl, true);
   } catch(e){
-    const st=document.getElementById('scanStatus');
-    if(st) st.textContent='⚠️ No se pudo leer el texto. Intenta con más luz o más de cerca.';
+    _renderScanResult(null, imgUrl, true);
   }
 }
 
-function _renderScanResult(text, imgUrl){
+function _renderScanResult(analysis, imgUrl, isFallback){
   const shell=document.getElementById('scanShell'); if(!shell) return;
-  if(!text){
-    shell.innerHTML=`
-      <div class="scan-result">
-        <img class="scan-photo" src="${imgUrl}" alt="Foto escaneada">
-        <div class="scan-status">😕 No se detectó texto legible.</div>
-        <label class="scan-cta">📸 Intentar de nuevo<input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)"></label>
-      </div>`;
+  const scanAgainBtn=`<label class="scan-cta scan-cta-ghost">📸 Escanear otra cosa<input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)"></label>`;
+
+  if(!analysis || (!analysis.hasText && !analysis.objects.length && !analysis.summary)){
+    shell.innerHTML=`<div class="scan-result">
+      <img class="scan-photo" src="${imgUrl}" alt="Foto escaneada">
+      <div class="scan-status">😕 No se detectó nada claro. Acércate más o mejora la luz.</div>
+      ${scanAgainBtn}
+    </div>`;
     return;
   }
+
+  // No toda la información de golpe: primero una frase corta de Drakón
+  // ("qué ve"), y solo si el usuario quiere, se despliega el detalle
+  // completo (texto/traducción/objetos) — pensado para usarse caminando.
+  const objectsHtml=analysis.objects.length ? `
+    <div class="scan-objects">
+      ${analysis.objects.map(o=>`<div class="scan-obj-chip"><b>${o.label}</b><span>${o.translation}</span>${o.note?`<small>${o.note}</small>`:''}</div>`).join('')}
+    </div>` : '';
+
+  const textHtml=analysis.hasText ? `
+    <div class="scan-textbox">
+      <div class="scan-textbox-label">Texto detectado</div>
+      <div class="scan-textbox-body" id="scanDetectedText">${analysis.text.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>
+      ${analysis.textTranslation?`<div class="scan-textbox-translation"><b>Traducción:</b> ${analysis.textTranslation.replace(/</g,'&lt;')}</div>`:''}
+    </div>` : '';
+
+  const needsTranslateBtn = analysis.hasText && !analysis.textTranslation && state.groqKey;
+  const fallbackNote = isFallback ? `<div class="scan-warn">⚠️ Configura tu clave de IA en Ajustes para traducir y reconocer objetos automáticamente.</div>` : '';
+
   shell.innerHTML=`
     <div class="scan-result">
       <img class="scan-photo" src="${imgUrl}" alt="Foto escaneada">
-      <div class="scan-textbox">
-        <div class="scan-textbox-label">Texto detectado</div>
-        <div class="scan-textbox-body" id="scanDetectedText">${text.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>
+      ${analysis.summary?`<div class="scan-summary-card">🐉 ${analysis.summary}</div>`:''}
+      <button class="scan-details-toggle" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open')">Ver todo lo detectado <span>▾</span></button>
+      <div class="scan-details">
+        ${textHtml}
+        ${objectsHtml}
+        ${fallbackNote}
+        <div class="scan-actions">
+          ${needsTranslateBtn?'<button onclick="scanAction(\'translate\')">🌐 Traducir</button>':''}
+          ${analysis.hasText?'<button onclick="scanAction(\'listen\')">🔊 Escuchar</button>':''}
+          ${analysis.hasText?'<button onclick="scanAction(\'explain\')">💡 Explicar</button>':''}
+          ${analysis.hasText?'<button onclick="scanCopyText()">📋 Copiar</button>':''}
+        </div>
+        <div class="scan-ai-reply" id="scanAiReply" style="display:none"></div>
       </div>
-      <div class="scan-actions">
-        <button onclick="scanAction('translate')">🌐 Traducir</button>
-        <button onclick="scanAction('listen')">🔊 Escuchar</button>
-        <button onclick="scanAction('explain')">💡 Explicar</button>
-        <button onclick="scanCopyText()">📋 Copiar</button>
-      </div>
-      <div class="scan-ai-reply" id="scanAiReply" style="display:none"></div>
-      <label class="scan-cta scan-cta-ghost">📸 Escanear otra cosa<input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)"></label>
+      ${scanAgainBtn}
     </div>`;
 }
 
 function scanCopyText(){
   const el=document.getElementById('scanDetectedText'); if(!el) return;
-  const text=el.innerText;
-  navigator.clipboard?.writeText(text).then(()=>showToast('📋 Texto copiado')).catch(()=>{});
+  navigator.clipboard?.writeText(el.innerText).then(()=>showToast('📋 Texto copiado')).catch(()=>{});
 }
 
 async function scanAction(kind){
@@ -289,75 +452,114 @@ async function scanAction(kind){
   const reply=document.getElementById('scanAiReply'); if(!reply) return;
   reply.style.display='block'; reply.textContent='💭 Pensando…';
 
-  const nativeLangName = (typeof NATIVE_LANGS!=='undefined' && NATIVE_LANGS.find(l=>l.code===state.nativeLang)?.uiName) || 'Spanish';
-  const targetLangName = state.lang?.name || 'inglés';
-  let systemPrompt, userMsg;
-  if(kind==='translate'){
-    systemPrompt=`Translate the following text into ${nativeLangName}. Reply ONLY with the translation, nothing else.`;
-    userMsg=text;
-  } else if(kind==='explain'){
-    systemPrompt=`You are Drakón, a friendly language tutor. Briefly explain in ${nativeLangName} what this text means and any useful vocabulary from it, in 3 sentences max.`;
-    userMsg=text;
-  } else if(kind==='listen'){
+  if(kind==='listen'){
     state.ttsEnabled=true;
-    speakInTargetLang(text);
+    speakInTargetLang(text, ()=>{ reply.style.display='none'; });
     reply.textContent='🔊 Reproduciendo…';
     return;
   }
 
+  const nativeLangName=(typeof NATIVE_LANGS!=='undefined' && NATIVE_LANGS.find(l=>l.code===state.nativeLang)?.uiName) || 'Spanish';
+  let systemPrompt;
+  if(kind==='translate') systemPrompt=`Translate the following text into ${nativeLangName}. Reply ONLY with the translation, nothing else.`;
+  else systemPrompt=`You are Drakón, a friendly language tutor. Briefly explain in ${nativeLangName} what this text means and any useful vocabulary from it, in 3 sentences max.`;
+
   try{
-    const out=await askDrakonAIOnce(systemPrompt, userMsg);
+    const out=await askDrakonAIOnce(systemPrompt, text);
     reply.textContent = out || '⚠️ Sin respuesta. Intenta de nuevo.';
   } catch(e){
     reply.textContent='⚠️ No se pudo conectar con la IA.';
   }
 }
 
-/* ── 4b) Videollamada con Drakón (voz en tiempo real) ────────── */
+/* ── 4b) Videollamada con Drakón — conversación de voz en vivo con el
+   personaje seleccionado, animado de verdad (escuchando/pensando/hablando,
+   reutilizando el mismo sistema de mascot.js que el chat normal) y con la
+   cámara como contexto visual REAL para la IA vía el modelo de visión de
+   Groq (nunca datos simulados). ─────────────────────────────────── */
 const LiveCall = {
   active:false, stream:null, recognizer:null, situationKey:null,
-  _restartTimer:null,
+  _restartTimer:null, _speaking:false, _pendingImage:null, _visualTimeout:null, _captionTimer:null,
 
   async start(key){
     this.situationKey = key || null;
     goTo('screen-livecall');
+    if(typeof mascotReset==='function') mascotReset();
     const video=document.getElementById('liveCallVideo');
-    const statusEl=document.getElementById('liveCallStatus');
-    if(statusEl) statusEl.textContent='📷 Solicitando cámara y micrófono…';
+    const logEl=document.getElementById('liveCallLog'); if(logEl) logEl.innerHTML='';
+    const cap=document.getElementById('liveCallCaption'); if(cap){ cap.textContent=''; cap.classList.remove('show'); }
+    this._setStatus('📷 Solicitando cámara y micrófono…');
     try{
       this.stream = await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'}, audio:true});
     } catch(e){
-      if(statusEl) statusEl.textContent='⚠️ Necesitamos permiso de cámara y micrófono para la videollamada.';
+      this._setStatus('⚠️ Necesitamos permiso de cámara y micrófono para la videollamada.');
       return;
     }
     if(video){ video.srcObject=this.stream; video.play().catch(()=>{}); }
     this.active=true;
-    if(statusEl) statusEl.textContent='🎙️ Escuchando… habla cuando quieras';
+    this._greet();
+  },
+
+  async _greet(){
+    const s=getSituation(this.situationKey);
+    const lang=state.lang?.name||'inglés';
+    const line = s
+      ? `Hi! I'm right here with you at ${s.roleLabel||'this place'}. Point your camera at something and tap "Mira esto" to ask me about it, or just talk to me in ${lang}.`
+      : `Hi! I'm right here with you. Talk to me in ${lang} whenever you're ready.`;
+    this._logLine('ai', line);
+    if(typeof mascotSpeakUntilDone==='function') mascotSpeakUntilDone();
+    this._setStatus('🔊 Drakón está hablando…');
+    state.ttsEnabled=true;
+    await new Promise(resolve=>speakInTargetLang(line, resolve));
+    if(!this.active) return;
+    if(typeof mascotListening==='function') mascotListening();
+    this._setStatus('🎙️ Escuchando… habla cuando quieras');
     this._listenOnce();
   },
 
   stop(){
+    this._cleanup();
+    goTo('screen-situation-live');
+  },
+
+  // Apaga cámara/mic/voz sin navegar — la usa goTo() en app.js para
+  // garantizar que la cámara NUNCA quede encendida en segundo plano, sea
+  // cual sea la vía de salida (botón "Terminar", botón Atrás físico,
+  // cambiar de pestaña, etc.).
+  _cleanup(){
     this.active=false;
-    clearTimeout(this._restartTimer);
+    clearTimeout(this._restartTimer); clearTimeout(this._visualTimeout); clearTimeout(this._captionTimer);
+    this._pendingImage=null;
     try{ this.recognizer && this.recognizer.stop(); }catch(e){}
     if(this.stream){ this.stream.getTracks().forEach(t=>t.stop()); this.stream=null; }
     if(window.speechSynthesis) window.speechSynthesis.cancel();
     if(typeof ttsStopAll==='function') ttsStopAll();
-    goTo('screen-situation-live');
+    if(typeof mascotIdle==='function') mascotIdle();
+  },
+
+  _setStatus(txt){ const el=document.getElementById('liveCallStatus'); if(el) el.textContent=txt; },
+
+  _logLine(who, text){
+    const logEl=document.getElementById('liveCallLog');
+    if(logEl){
+      logEl.innerHTML += `<div class="lc-line ${who==='user'?'lc-user':'lc-ai'}">${who==='user'?'🗣️':'🐉'} ${text}</div>`;
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+    if(who==='ai'){
+      const cap=document.getElementById('liveCallCaption');
+      if(cap){ cap.textContent=text; cap.classList.add('show'); clearTimeout(this._captionTimer); this._captionTimer=setTimeout(()=>cap.classList.remove('show'),6000); }
+    }
   },
 
   _listenOnce(){
     if(!this.active) return;
     const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-    const statusEl=document.getElementById('liveCallStatus');
-    if(!SR){
-      if(statusEl) statusEl.textContent='⚠️ Tu navegador no soporta reconocimiento de voz. Prueba en Chrome.';
-      return;
-    }
+    if(!SR){ this._setStatus('⚠️ Tu navegador no soporta reconocimiento de voz. Prueba en Chrome.'); return; }
     const rec=new SR();
     this.recognizer=rec;
     rec.lang=state.lang?.lang||'en-US';
     rec.continuous=false; rec.interimResults=false; rec.maxAlternatives=1;
+    rec.onstart=()=>{ if(typeof mascotListening==='function') mascotListening(); };
     rec.onresult=(e)=>{
       const heard=e.results[e.results.length-1][0].transcript.trim();
       if(heard) this._handleUserSpeech(heard);
@@ -368,55 +570,68 @@ const LiveCall = {
   },
 
   async _handleUserSpeech(heard){
-    const statusEl=document.getElementById('liveCallStatus');
-    const logEl=document.getElementById('liveCallLog');
-    if(logEl) logEl.innerHTML += `<div class="lc-line lc-user">🗣️ ${heard}</div>`;
-    if(statusEl) statusEl.textContent='💭 Drakón está pensando…';
+    clearTimeout(this._visualTimeout);
+    const img=this._pendingImage; this._pendingImage=null;
+    this._logLine('user', img?`👀 ${heard}`:heard);
+    this._setStatus('💭 Drakón está pensando…');
+    if(typeof mascotThinking==='function') mascotThinking();
     this._speaking=true;
 
     const s=getSituation(this.situationKey);
     const lang=state.lang?.name||'inglés';
+    const visualNote=img?' The learner just showed you something through their camera — base your answer ONLY on what is actually visible in the photo, and never invent details you cannot see.':'';
     const sysPrompt = s
-      ? `You are Drakón, a warm live language-help voice assistant. The learner is physically AT this situation right now: ${s.role}. Give the single most useful, short, spoken-style reply in ${lang} (max 2 short sentences), then wait. If they seem stuck, offer one key phrase they can say. Context: ${s.prompt.replace(/{LANG}/g,lang)}`
-      : `You are Drakón, a warm live language-help voice assistant helping the learner right now in ${lang}. Keep replies short (max 2 sentences), natural, and spoken-style.`;
+      ? `You are Drakón, a warm live language-help voice companion, PHYSICALLY accompanying the learner right now at: ${s.role}. Give the single most useful, short, spoken-style reply in ${lang} (max 2 short sentences). If they seem stuck, offer one key phrase they can say. Context: ${s.prompt.replace(/{LANG}/g,lang)}${visualNote}`
+      : `You are Drakón, a warm live language-help voice companion helping the learner right now in ${lang}. Keep replies short (max 2 sentences), natural, and spoken-style.${visualNote}`;
 
     let out='';
-    try{ out = await askDrakonAIOnce(sysPrompt, heard); }
-    catch(e){ out = ''; }
-    if(!out) out = "Sorry, I couldn't connect. Try again in a moment.";
+    try{ out = img ? await askDrakonVisionOnce(sysPrompt, heard, img) : await askDrakonAIOnce(sysPrompt, heard); }
+    catch(e){ out=''; }
+    if(!out) out = img ? "I couldn't get a clear look at that — try again with a bit more light?" : "Sorry, I couldn't connect. Try again in a moment.";
 
-    if(logEl) logEl.innerHTML += `<div class="lc-line lc-ai">🐉 ${out}</div>`;
-    if(logEl) logEl.scrollTop = logEl.scrollHeight;
-    if(statusEl) statusEl.textContent='🔊 Drakón está hablando…';
+    this._logLine('ai', out);
+    this._setStatus('🔊 Drakón está hablando…');
+    if(typeof mascotSpeakUntilDone==='function') mascotSpeakUntilDone();
 
     state.ttsEnabled = true;
     await new Promise(resolve=>speakInTargetLang(out, resolve));
     this._speaking=false;
-    if(statusEl) statusEl.textContent='🎙️ Escuchando… habla cuando quieras';
-    if(this.active) this._restartTimer=setTimeout(()=>this._listenOnce(),500);
+    if(!this.active) return;
+    if(typeof mascotListening==='function') mascotListening();
+    this._setStatus('🎙️ Escuchando… habla cuando quieras');
+    this._restartTimer=setTimeout(()=>this._listenOnce(),500);
   },
 
-  // Toma un fotograma de la cámara, extrae su texto con OCR y lo agrega
-  // como contexto visual al próximo turno de la conversación (p.ej. "mira
-  // el menú"), sin necesitar un modelo de IA con visión.
+  // "Mira esto": toma un fotograma REAL de la cámara ahora mismo y espera
+  // a que el usuario pregunte algo sobre él (o, si no dice nada en unos
+  // segundos, lo describe). La imagen SIEMPRE se analiza con el modelo de
+  // visión de Groq — nunca se inventa ni se envía nada simulado.
   async lookAtView(){
-    const video=document.getElementById('liveCallVideo'); if(!video || !video.videoWidth) return;
-    const statusEl=document.getElementById('liveCallStatus');
-    if(statusEl) statusEl.textContent='👀 Mirando lo que ves…';
-    const canvas=document.createElement('canvas');
-    canvas.width=video.videoWidth; canvas.height=video.videoHeight;
-    canvas.getContext('2d').drawImage(video,0,0);
-    try{
-      await _ensureTesseractLoaded();
-      const langMap={EN:'eng',ES:'spa',FR:'fra',DE:'deu',IT:'ita',PT:'por'};
-      const ocrLang=langMap[state.lang?.code]||'eng';
-      const { data } = await Tesseract.recognize(canvas, ocrLang, { logger:()=>{} });
-      const text=(data?.text||'').trim();
-      if(text) this._handleUserSpeech(`(I am pointing my camera at this — please help me with it) "${text.slice(0,300)}"`);
-      else if(statusEl) statusEl.textContent='😕 No vi texto claro. Acércate un poco más.';
-    } catch(e){
-      if(statusEl) statusEl.textContent='⚠️ No se pudo analizar la imagen.';
+    if(!this.active) return;
+    if(!state.groqKey){
+      this._setStatus('⚠️ Configura tu clave de IA (Groq) en Ajustes para que Drakón pueda ver.');
+      return;
     }
+    const video=document.getElementById('liveCallVideo'); if(!video || !video.videoWidth) return;
+    const maxDim=1024, scale=Math.min(1, maxDim/Math.max(video.videoWidth, video.videoHeight));
+    const canvas=document.createElement('canvas');
+    canvas.width=Math.round(video.videoWidth*scale); canvas.height=Math.round(video.videoHeight*scale);
+    canvas.getContext('2d').drawImage(video,0,0,canvas.width,canvas.height);
+    this._pendingImage = canvas.toDataURL('image/jpeg', 0.78);
+
+    const btn=document.getElementById('lcLookBtn'); if(btn){ btn.classList.add('flash'); setTimeout(()=>btn.classList.remove('flash'),350); }
+    this._setStatus('👀 Foto tomada — pregúntame algo, o espera y te la describo');
+    clearTimeout(this._restartTimer);
+    try{ this.recognizer && this.recognizer.stop(); }catch(e){}
+    this._listenOnce();
+
+    clearTimeout(this._visualTimeout);
+    this._visualTimeout=setTimeout(()=>{
+      if(this._pendingImage){
+        try{ this.recognizer && this.recognizer.stop(); }catch(e){}
+        this._handleUserSpeech('What is this? Please describe it and help me.');
+      }
+    }, 6000);
   },
 };
 function startLiveCall(key){ LiveCall.start(key); }
