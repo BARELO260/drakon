@@ -936,9 +936,9 @@ function renderLessons() {
    FUNCIÓN GLOBAL para salir del ejercicio
    Debe existir como función global (llamada desde HTML)
 ════════════════════════════════════════════════════════════ */
-function exitEx() {
-  if (LessonEngine.currentIdx > 0 && LessonEngine.currentIdx < LessonEngine.exercises.length) {
-    if (!confirm('¿Salir de la lección? Perderás el progreso de esta sesión.')) return;
+function exitEx(skipConfirm) {
+  if (!skipConfirm && LessonEngine.currentIdx > 0 && LessonEngine.currentIdx < LessonEngine.exercises.length) {
+    if (!confirm('¿Salir de la lección? Perderás el progreso de esta sesión.')) return false;
   }
   if (typeof ttsStopAll === 'function') ttsStopAll();
   LessonEngine._listenVizStop();
@@ -950,12 +950,13 @@ function exitEx() {
     const key = String(lessonId).replace(/^sit_/, '').split('_')[0];
     if (key && typeof getSituation === 'function' && getSituation(key)) {
       openSituationLessons(key);
-      return;
+      return true;
     }
   }
 
   goTo('screen-main');
   switchTab('lessons');
+  return true;
 }
 
 /* ════════════════════════════════════════════════════════════
