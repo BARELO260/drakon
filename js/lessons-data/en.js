@@ -1587,7 +1587,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la farmacia” en inglés?",["the pharmacy", "el banco", "el supermercado", "la parada de autobús"],0,"“Farmacia” es “pharmacy” en inglés."],
       ["mcq","¿Cómo se dice “la parada de autobús” en inglés?",["the bus stop", "la parada de autobús", "la biblioteca", "el parque"],0,"“Parada de autobús” es “bus stop” en inglés."],
-      ["fill","Completa: “Completa: “There ___ a very big library in my neighborhood.””",["be", "is", "have", "are"],1,"“There is” se usa con un sustantivo singular: “there is a library”."],
+      ["fill","Completa: “There ___ a very big library in my neighborhood.”",["be", "is", "have", "are"],1,"“There is” se usa con un sustantivo singular: “there is a library”."],
       ["translate","Traduce: “La farmacia está al lado del parque.”",["The pharmacy is next to the park.", "The pharmacy is near the library.", "The bank is next to the park.", "The pharmacy is far from the park."],0,"“Al lado de” = “next to”; el sujeto y el lugar deben coincidir con el original."],
       ["arrange","Ordena: [not / the / far / supermarket / is]",["far not the supermarket is", "the far not is supermarket", "the supermarket is not far", "far the not is supermarket"],2,"Sujeto + verbo + negación + adverbio de lugar."],
       ["writing","Describe en inglés, en 20-30 palabras, tu barrio: qué lugares hay y dónde están (usa “there is/are”, “near” y “far from”).",[],["there is", "near", "far from"]],
@@ -1612,7 +1612,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “hacer un regalo” en inglés?",["to give a gift", "la Navidad", "el cumpleaños", "la boda"],0,"“Hacer un regalo” es “to give a gift” en inglés."],
       ["mcq","¿Cómo se dice “la boda” en inglés?",["el Año Nuevo", "the wedding", "hacer un regalo", "celebrar, festejar"],1,"“Boda” es “wedding” en inglés."],
-      ["fill","Completa: “Completa: “We ___ celebrate with the whole family every New Year.””",["usual", "use to", "usually", "used"],2,"“Usually” + presente simple expresa una costumbre habitual: “we usually celebrate”."],
+      ["fill","Completa: “We ___ celebrate with the whole family every New Year.”",["usual", "use to", "usually", "used"],2,"“Usually” + presente simple expresa una costumbre habitual: “we usually celebrate”."],
       ["translate","Traduce: “Solemos hacer regalos en Navidad.”",["We usually celebrate gifts at Christmas.", "We usually give gifts at the birthday.", "We usually give gifts at Christmas.", "We give a gift at Christmas."],2,"“Solemos hacer regalos” = “We usually give gifts”, con “usually” + presente simple."],
       ["arrange","Ordena: [birthday / celebrate / friends / I / my / with]",["with my birthday I friends celebrate", "friends with my celebrate birthday I", "I celebrate my birthday with friends", "friends my celebrate with birthday I"],2,"Sujeto + verbo + objeto posesivo + preposición + complemento."],
       ["speaking","Describe en inglés, en 40-60 palabras, cómo sueles celebrar una fiesta importante para ti (cumpleaños, Navidad, Año Nuevo u otra), usando “usually”.",[],["I usually", "I celebrate", "with"]],
@@ -1637,7 +1637,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “llevarse bien con alguien” en inglés?",["un amigo/a de confianza", "llevarse bien/mal con alguien", "mantener el contacto", "to get along well/badly with someone"],3,"“Llevarse bien con alguien” es “to get along well with someone” en inglés."],
       ["mcq","¿Cómo se dice “hacer las paces después de una discusión” en inglés?",["llevarse bien/mal con alguien", "tener algo en común", "confiar en alguien", "to make up after an argument"],3,"“Hacer las paces después de una discusión” es “to make up after an argument” en inglés."],
-      ["fill","Completa: “Completa: “If you want to keep that friendship, you ___ stay in touch.””",["must to", "has to", "should", "would"],2,"“Should” + infinitivo sin “to” da un consejo suave: “you should stay in touch”."],
+      ["fill","Completa: “If you want to keep that friendship, you ___ stay in touch.”",["must to", "has to", "should", "would"],2,"“Should” + infinitivo sin “to” da un consejo suave: “you should stay in touch”."],
       ["translate","Traduce: “Tienes que confiar en tus amigos.”",["You have to get along with your friends.", "You have to trust your friends.", "You should trust your friends.", "You have to trust your family."],1,"“Tienes que confiar” = “You have to trust”, con “have to” + infinitivo."],
       ["arrange","Ordena: [common / a / lot / have / in / we]",["we have a lot in common", "a have lot common we in", "lot we have a in common", "we have common lot in a"],0,"Sujeto + verbo + cuantificador + preposición fija “in common”."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre una amistad importante para ti: qué tenéis en común y qué consejo le darías a alguien que quiere mantener una amistad así.",[],["we have in common", "you should", "trust"]],
@@ -1662,7 +1662,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la desconexión digital” en inglés?",["el horario flexible", "digital disconnection", "rendir (ser productivo/a)", "la desconexión digital"],1,"“Desconexión digital” es “digital disconnection” en inglés."],
       ["mcq","¿Cómo se dice “conciliar la vida laboral y personal” en inglés?",["la desconexión digital", "to balance work and personal life", "el horario flexible", "rendir (ser productivo/a)"],1,"“Conciliar la vida laboral y personal” es “to balance work and personal life” en inglés."],
-      ["fill","Completa: “Completa: “___ from home, many people manage to balance work and personal life better.””",["Working", "Work", "Works", "Worked"],0,"El gerundio (“Working”) al inicio de la frase expresa la circunstancia que permite el resultado que sigue."],
+      ["fill","Completa: “___ from home, many people manage to balance work and personal life better.”",["Working", "Work", "Works", "Worked"],0,"El gerundio (“Working”) al inicio de la frase expresa la circunstancia que permite el resultado que sigue."],
       ["translate","Traduce: “Trabajando sin desconectar, se puede llegar al agotamiento.”",["Disconnecting from work can lead to burnout.", "Working without disconnecting can lead to burnout.", "Working with flexible hours can lead to burnout.", "Working can avoid burnout without disconnecting."],1,"El gerundio “working without disconnecting” expresa la causa del agotamiento."],
       ["arrange","Ordena: [flexible / hours / many / value / working]",["many value flexible working hours", "many flexible value working hours", "flexible many hours working value", "hours value many working flexible"],0,"Sujeto + verbo + adjetivo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre las ventajas y desventajas del teletrabajo para el equilibrio vida-trabajo, usando al menos un gerundio de simultaneidad o causa.",[],["working", "balance", "however"]],
@@ -1687,7 +1687,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un punto muerto” en inglés?",["ceder terreno", "a deadlock/stalemate", "un punto muerto", "romper el hielo"],1,"“Un punto muerto” es “a deadlock” o “stalemate” en inglés."],
       ["mcq","¿Cómo se dice “una postura intransigente” en inglés?",["buscar un término medio", "romper el hielo", "an inflexible/uncompromising stance", "llegar a un acuerdo"],2,"“Una postura intransigente” es “an inflexible/uncompromising stance” en inglés."],
-      ["fill","Completa: “Completa: “It ___ be preferable to look for a middle ground before reaching a deadlock.””",["is", "would", "will", "was"],1,"“Would” suaviza la afirmación, propio del registro de negociación formal."],
+      ["fill","Completa: “It ___ be preferable to look for a middle ground before reaching a deadlock.”",["is", "would", "will", "was"],1,"“Would” suaviza la afirmación, propio del registro de negociación formal."],
       ["translate","Traduce con registro formal: “¿Estaría dispuesto a ceder terreno en este punto?”",["Are you willing to make concessions on this point?", "Would you be willing to reach an agreement on this point?", "Would you be willing to make concessions on this point?", "Would you be willing to break the ice on this point?"],2,"“Would you be willing” suaviza la pregunta, más formal que el presente “are you willing”."],
       ["arrange","Ordena: [agreement / be / difficult / reach / an / to / will / it]",["be will agreement reach difficult to an it", "an to be it agreement reach will difficult", "difficult agreement it an to be will reach", "it will be difficult to reach an agreement"],3,"Futuro + adjetivo + infinitivo + complemento."],
       ["writing","Escribe en inglés, en 55-75 palabras, describiendo una negociación (real o inventada) en la que ambas partes cedieron terreno para evitar un punto muerto, usando al menos dos “would” de cortesía.",[],["would", "would you be willing", "middle ground"]],
@@ -1712,7 +1712,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “diluir la responsabilidad de alguien” en inglés?",["una reestructuración (eufemismo de despido)", "suavizar el impacto de un mensaje", "un anglicismo innecesario", "to dilute someone's responsibility"],3,"“Diluir la responsabilidad de alguien” es “to dilute someone's responsibility” en inglés."],
       ["mcq","¿Cómo se dice “una reestructuración (eufemismo de despido)” en inglés?",["suavizar el impacto de un mensaje", "a restructuring (euphemism for layoffs)", "la jerga corporativa", "diluir la responsabilidad de alguien"],1,"“Reestructuración” es “restructuring” en inglés, eufemismo habitual de “layoffs” (despidos)."],
-      ["fill","Completa: “Completa: “The company talks about ‘resource optimization’, that ___ , layoffs.””",["for example", "is", "however", "although"],1,"“That is” reformula la expresión eufemística con su significado literal."],
+      ["fill","Completa: “The company talks about ‘resource optimization’, that ___ , layoffs.”",["for example", "is", "however", "although"],1,"“That is” reformula la expresión eufemística con su significado literal."],
       ["translate","Traduce con precisión: “La jerga corporativa suele suavizar el impacto de las malas noticias.”",["Corporate jargon often dilutes the impact of bad news.", "Corporate jargon often avoids the impact of bad news.", "A euphemism often softens the impact of bad news.", "Corporate jargon often softens the impact of bad news."],3,"“Suaviza el impacto” = “softens the impact”; el sujeto debe ser “corporate jargon”."],
       ["arrange","Ordena: [euphemism / for / restructuring / layoffs / is / a]",["a is euphemism layoffs for restructuring", "restructuring a layoffs is euphemism for", "restructuring is a euphemism for layoffs", "layoffs euphemism a is for restructuring"],2,"Sujeto + verbo + artículo + sustantivo + preposición + complemento."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando un eufemismo corporativo real o inventado: qué esconde, por qué se usa y cómo lo reformularías con más claridad, usando al menos un conector de reformulación.",[],["that is", "euphemism", "in other words"]],
@@ -1737,7 +1737,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el pasaporte” en inglés?",["el vuelo", "la habitación", "the passport", "la reserva"],2,"“Pasaporte” es “passport” en inglés."],
       ["mcq","¿Cómo se dice “facturar el equipaje” en inglés?",["to check in luggage", "la reserva", "la habitación", "el pasaporte"],0,"“Facturar el equipaje” es “to check in luggage” en inglés."],
-      ["fill","Completa: “Completa: “Tomorrow I ___ going to check in my luggage very early.””",["is", "am", "are", "be"],1,"“I am going to” usa el verbo “to be” conjugado con “I”: “I am going to”."],
+      ["fill","Completa: “Tomorrow I ___ going to check in my luggage very early.”",["is", "am", "are", "be"],1,"“I am going to” usa el verbo “to be” conjugado con “I”: “I am going to”."],
       ["translate","Traduce: “Vamos a reservar una habitación para el viernes.”",["We are going to book a flight for Friday.", "We are going to check in a room for Friday.", "We are going to book a room for Friday.", "We are going to book a room for Monday."],2,"“Vamos a reservar” = “We are going to book”, con “going to” + infinitivo."],
       ["arrange","Ordena: [going / I / to / passport / my / am / find]",["to going my passport I find am", "I my find going to passport am", "I am going to find my passport", "I am to going passport my find"],2,"Sujeto + “to be” + “going to” + infinitivo + objeto posesivo."],
       ["writing","Describe en inglés, en 20-30 palabras, tus planes de viaje: qué vas a hacer (check in luggage, book a room, etc.) usando “going to”.",[],["I am going to", "we are going to", "book"]],
@@ -1762,7 +1762,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la contraseña” en inglés?",["cargar el móvil", "la batería", "the password", "descargar"],2,"“Contraseña” es “password” en inglés."],
       ["mcq","¿Cómo se dice “descargar” en inglés?",["el wifi", "to download", "la contraseña", "cargar el móvil"],1,"“Descargar” es “download” en inglés."],
-      ["fill","Completa: “Completa: “This app is ___ fast as the other one.””",["very", "more", "less", "as"],3,"“As + adjetivo + as” compara dos cosas con la misma cualidad."],
+      ["fill","Completa: “This app is ___ fast as the other one.”",["very", "more", "less", "as"],3,"“As + adjetivo + as” compara dos cosas con la misma cualidad."],
       ["translate","Traduce: “Mi batería dura más que la tuya.”",["My battery lasts shorter than yours.", "My battery lasts as long as yours.", "My wifi lasts longer than yours.", "My battery lasts longer than yours."],3,"“Dura más que” = “lasts longer than”, comparativo de superioridad."],
       ["arrange","Ordena: [need / a / more / password / I / secure]",["I need a more secure password", "I a secure password more need", "I more secure password need a", "need a more I password secure"],0,"Sujeto + verbo + artículo + comparativo + adjetivo + sustantivo."],
       ["speaking","Describe en inglés, en 40-60 palabras, cómo usas la tecnología cada día, comparando dos aplicaciones o dispositivos con “as...as” o “more...than”.",[],["as...as", "more...than", "app"]],
@@ -1787,7 +1787,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “engancharse a algo” en inglés?",["to get hooked on something", "engancharse a algo", "el maratón de series", "los subtítulos"],0,"“Engancharse a algo” es “to get hooked on something” en inglés."],
       ["mcq","¿Cómo se dice “el maratón de series” en inglés?",["binge-watching", "el videojuego", "el maratón de series", "engancharse a algo"],0,"“Maratón de series” es “binge-watching” en inglés."],
-      ["fill","Completa: “Completa: “I ___ been watching this series for two hours straight.””",["have", "was", "has", "am"],0,"El presente perfecto continuo con “I” usa “have been”: “I have been watching”."],
+      ["fill","Completa: “I ___ been watching this series for two hours straight.”",["have", "was", "has", "am"],0,"El presente perfecto continuo con “I” usa “have been”: “I have been watching”."],
       ["translate","Traduce: “Llevamos todo el fin de semana jugando a videojuegos.”",["We have been playing series all weekend.", "We have been playing video games all weekend.", "We played video games all weekend.", "We have been watching video games all weekend."],1,"“Llevamos jugando” = “We have been playing”, presente perfecto continuo."],
       ["arrange","Ordena: [hooked / I / on / have / this series / gotten]",["hooked series have I on this gotten", "I have gotten hooked on this series", "have on series this hooked I gotten", "series on I hooked gotten have this"],1,"Sujeto + “have” + participio + adjetivo + preposición + complemento."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre una serie o videojuego al que te hayas enganchado, usando el presente perfecto continuo para decir cuánto tiempo llevas con ello.",[],["I have been", "hooked", "platform"]],
@@ -1812,7 +1812,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la suplantación de identidad” en inglés?",["la suplantación de identidad", "hackear/vulnerar un sistema", "identity theft/phishing", "una contraseña segura"],2,"“Suplantación de identidad” es “identity theft” o “phishing” en inglés."],
       ["mcq","¿Cómo se dice “cifrar la información” en inglés?",["to encrypt information", "la suplantación de identidad", "los datos personales", "hackear/vulnerar un sistema"],0,"“Cifrar la información” es “to encrypt information” en inglés."],
-      ["fill","Completa: “Completa: “The data ___ we share online can be hacked.””",["that", "whom", "who", "whose"],0,"La oración especificativa usa “that” sin comas para identificar de qué datos hablamos."],
+      ["fill","Completa: “The data ___ we share online can be hacked.”",["that", "whom", "who", "whose"],0,"La oración especificativa usa “that” sin comas para identificar de qué datos hablamos."],
       ["translate","Traduce: “Mis datos, que comparto poco, están bien protegidos.”",["My data, which I rarely share, is well protected.", "My data, which I rarely hack, is well protected.", "My data that I rarely share is well protected.", "My data, which I rarely share, is poorly protected."],0,"La coma marca una explicativa: “my data, which I rarely share,” añade información extra."],
       ["arrange","Ordena: [need / a / you / strong / password]",["you need a strong password", "strong you password need a", "you strong password need a", "password need you strong a"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre cómo proteges tus datos personales online, usando al menos una oración de relativo especificativa y una explicativa.",[],["that", "which", "personal data"]],
@@ -1837,7 +1837,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el legado” en inglés?",["el legado", "the legacy", "preservar la memoria histórica", "reescribir la historia"],1,"“Legado” es “legacy” en inglés."],
       ["mcq","¿Cómo se dice “reescribir la historia” en inglés?",["to rewrite history", "reescribir la historia", "el legado", "el patrimonio cultural"],0,"“Reescribir la historia” es “to rewrite history” en inglés."],
-      ["fill","Completa: “Completa: “The memorial ___ dedicated to the victims of the conflict.””",["is", "has", "was", "being"],0,"“To be” + participio describe el estado resultante: “the memorial is dedicated”."],
+      ["fill","Completa: “The memorial ___ dedicated to the victims of the conflict.”",["is", "has", "was", "being"],0,"“To be” + participio describe el estado resultante: “the memorial is dedicated”."],
       ["translate","Traduce: “La identidad colectiva a menudo está marcada por la memoria histórica.”",["Collective identity is often shaped by historical memory.", "Collective identity was often shaped by historical memory.", "Collective identity is often shaped by the legacy.", "Cultural heritage is often shaped by historical memory."],0,"“Está marcada por” como estado resultante se traduce con “is shaped by”."],
       ["arrange","Ordena: [preserve / we / must / cultural heritage]",["cultural we heritage must preserve", "must we heritage cultural preserve", "we cultural preserve heritage must", "we must preserve cultural heritage"],3,"Sujeto + verbo modal + infinitivo + sustantivo + adjetivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre un monumento o tradición que preserve la memoria histórica de tu comunidad, usando al menos dos construcciones con “to be” + participio.",[],["is dedicated", "is shaped", "cultural heritage"]],
@@ -1862,7 +1862,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “leer entre líneas” en inglés?",["to read between the lines", "un lenguaje evasivo", "un comunicado institucional", "leer entre líneas"],0,"“Leer entre líneas” es “to read between the lines” en inglés."],
       ["mcq","¿Cómo se dice “un lenguaje evasivo” en inglés?",["un lenguaje evasivo", "la vaguedad deliberada", "evasive language", "la ambigüedad calculada"],2,"“Un lenguaje evasivo” es “evasive language” en inglés."],
-      ["fill","Completa: “Completa: “It is worth noting ___ the statement avoids committing to specific dates.””",["what", "that", "so", "which"],1,"“It is worth noting that” es un conector fijo de matización epistémica que introduce una observación relevante."],
+      ["fill","Completa: “It is worth noting ___ the statement avoids committing to specific dates.”",["what", "that", "so", "which"],1,"“It is worth noting that” es un conector fijo de matización epistémica que introduce una observación relevante."],
       ["translate","Traduce con precisión: “En cierto modo, la vaguedad es deliberada.”",["In one way, the vagueness is deliberate.", "In a way, the vagueness is evasive.", "In a way, the vagueness is deliberate.", "In a way, the ambiguity is calculated."],2,"“En cierto modo” = “in a way”, conector fijo de matización."],
       ["arrange","Ordena: [doubt / there / no / is / that / the language / is evasive]",["doubt the evasive is that no there language is", "that language is no evasive there doubt is the", "there is no doubt that the language is evasive", "doubt evasive there that is is the language no"],2,"Conector fijo “there is no doubt that” + subordinada."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando un comunicado institucional real o inventado que use ambigüedad calculada, usando al menos dos conectores de matización epistémica.",[],["it is worth noting that", "there is no doubt that", "in a way"]],
@@ -1887,7 +1887,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la natación” en inglés?",["correr", "el gimnasio", "swimming", "el equipo"],2,"“Natación” es “swimming” en inglés."],
       ["mcq","¿Cómo se dice “el equipo” en inglés?",["the team", "el equipo", "correr", "hacer ejercicio"],0,"“Equipo” es “team” en inglés."],
-      ["fill","Completa: “Completa: “I ___ running in the morning.””",["likes", "liking", "like", "to like"],2,"Con el sujeto “I”, el verbo es “like”: “I like running”."],
+      ["fill","Completa: “I ___ running in the morning.”",["likes", "liking", "like", "to like"],2,"Con el sujeto “I”, el verbo es “like”: “I like running”."],
       ["translate","Traduce: “A ella le gustan los deportes de equipo.”",["She likes team sports.", "She like team sports.", "They like team sports.", "She likes individual sports."],0,"“Le gustan” concuerda con el sujeto “ella” = “she likes”, con “-s” en tercera persona."],
       ["arrange","Ordena: [gym / go / to / I / the / to exercise]",["I go to the gym to exercise", "go to to I exercise the gym", "the exercise go gym I to to", "go the to exercise to gym I"],0,"Sujeto + verbo + preposición + artículo + sustantivo + infinitivo."],
       ["writing","Describe en inglés, en 20-30 palabras, qué deportes te gustan y con qué frecuencia haces ejercicio, usando “to like”.",[],["I like", "exercise", "sports"]],
@@ -1912,7 +1912,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “lavar los platos” en inglés?",["lavar los platos", "planchar la ropa", "to wash the dishes", "hacer la cama"],2,"“Lavar los platos” es “to wash the dishes” en inglés."],
       ["mcq","¿Cómo se dice “pasar la aspiradora” en inglés?",["planchar la ropa", "to vacuum", "lavar los platos", "sacar la basura"],1,"“Pasar la aspiradora” es “to vacuum” en inglés."],
-      ["fill","Completa: “Completa: “Before leaving the house, you ___ to make the bed.””",["are", "have", "is", "has"],1,"“You have to” usa “have”, no “has”, porque el sujeto es “you”."],
+      ["fill","Completa: “Before leaving the house, you ___ to make the bed.”",["are", "have", "is", "has"],1,"“You have to” usa “have”, no “has”, porque el sujeto es “you”."],
       ["translate","Traduce: “Hay que sacar la basura todos los días.”",["You have to take out the trash every week.", "There is to take out the trash every day.", "You have to sweep the trash every day.", "You have to take out the trash every day."],3,"“Hay que sacar” en sentido impersonal se traduce con “you have to take out”."],
       ["arrange","Ordena: [the dishes / have to / wash / you]",["to dishes the have wash you", "have wash to dishes you the", "have wash dishes you to the", "you have to wash the dishes"],3,"Sujeto + “have to” + infinitivo + complemento."],
       ["speaking","Describe en inglés, en 40-60 palabras, qué quehaceres domésticos hay que hacer en tu casa cada semana, usando “have to”.",[],["you have to", "every week", "at home"]],
@@ -1937,7 +1937,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “enamorarse de alguien” en inglés?",["enamorarse de alguien", "to fall in love with someone", "romper con alguien", "la pareja"],1,"“Enamorarse de alguien” es “to fall in love with someone” en inglés."],
       ["mcq","¿Cómo se dice “echar de menos a alguien” en inglés?",["echar de menos a alguien", "comprometerse", "to miss someone", "tener una cita"],2,"“Echar de menos a alguien” es “to miss someone” en inglés."],
-      ["fill","Completa: “Completa: “I promise I ___ never break up with you.””",["will", "am", "would", "have"],0,"“Will” + infinitivo sin “to” expresa una promesa firme sobre algo que no sucederá."],
+      ["fill","Completa: “I promise I ___ never break up with you.”",["will", "am", "would", "have"],0,"“Will” + infinitivo sin “to” expresa una promesa firme sobre algo que no sucederá."],
       ["translate","Traduce: “Creo que os comprometeréis pronto.”",["I think you two will fall in love soon.", "I think you two get engaged soon.", "I think you two will get engaged tomorrow.", "I think you two will get engaged soon."],3,"“Os comprometeréis” = “will get engaged”, con “will” para una predicción."],
       ["arrange","Ordena: [a date / going / tomorrow / I'm / to have]",["I'm a tomorrow to going have date", "I'm going to have a date tomorrow", "going a date tomorrow to have I'm", "going date to tomorrow have a I'm"],1,"Sujeto + “going to” + infinitivo + artículo + sustantivo + adverbio de tiempo."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre una relación (real o inventada), usando al menos dos verbos con “will” para hacer promesas o predicciones.",[],["I will", "we will", "partner"]],
@@ -1962,7 +1962,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “encarecer la vivienda local” en inglés?",["to drive up local housing costs", "repartir el impacto turístico", "respetar la cultura local", "encarecer la vivienda local"],0,"“Encarecer la vivienda local” es “to drive up local housing costs” en inglés."],
       ["mcq","¿Cómo se dice “repartir el impacto turístico” en inglés?",["encarecer la vivienda local", "to spread out tourism's impact", "respetar la cultura local", "el turismo sostenible"],1,"“Repartir el impacto turístico” es “to spread out tourism's impact” en inglés."],
-      ["fill","Completa: “Completa: “The destination will stay overcrowded ___ tourism is regulated.””",["provided", "because", "although", "unless"],3,"“Unless” introduce la condición negativa: “unless tourism is regulated”."],
+      ["fill","Completa: “The destination will stay overcrowded ___ tourism is regulated.”",["provided", "because", "although", "unless"],3,"“Unless” introduce la condición negativa: “unless tourism is regulated”."],
       ["translate","Traduce: “El turismo será positivo siempre que se respete la cultura local.”",["Tourism will be positive provided that the local culture is ignored.", "Tourism will be positive provided that the local culture is respected.", "Tourism will be positive unless the local culture is respected.", "Tourism was positive provided that the local culture is respected."],1,"“Siempre que” = “provided that”, seguido de presente simple: “is respected”."],
       ["arrange","Ordena: [tourist destinations / are / many / overcrowded]",["are many overcrowded destinations tourist", "many tourist destinations are overcrowded", "tourist overcrowded destinations many are", "destinations are tourist many overcrowded"],1,"Sujeto + verbo + adjetivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre el overtourism en un destino que conozcas, usando al menos un “unless” y un “provided that”.",[],["unless", "provided that", "sustainable"]],
@@ -1987,7 +1987,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un plato emblemático” en inglés?",["preservar una receta tradicional", "un plato emblemático", "an iconic/signature dish", "apropiarse de una tradición culinaria"],2,"“Un plato emblemático” es “an iconic/signature dish” en inglés."],
       ["mcq","¿Cómo se dice “apropiarse de una tradición culinaria” en inglés?",["to appropriate a culinary tradition", "la denominación de origen", "apropiarse de una tradición culinaria", "el paladar colectivo"],0,"“Apropiarse de una tradición culinaria” es “to appropriate a culinary tradition” en inglés."],
-      ["fill","Completa: “Completa: “What ___ a culture is, to a great extent, its cuisine.””",["define", "defined", "defines", "defining"],2,"La oración hendida “what + verbo + is” lleva el verbo en tercera persona singular: “what defines”."],
+      ["fill","Completa: “What ___ a culture is, to a great extent, its cuisine.”",["define", "defined", "defines", "defining"],2,"La oración hendida “what + verbo + is” lleva el verbo en tercera persona singular: “what defines”."],
       ["translate","Traduce con oración hendida: “Lo que preocupa a los chefs locales es la apropiación de sus recetas.”",["What worries local chefs is the appropriation of their recipes.", "What worries local chefs are the appropriation of their recipes.", "What worry local chefs is the appropriation of their recipes.", "What worries local chefs is the fusion of their recipes."],0,"El verbo “worries” lleva “-s” de tercera persona singular, concordando con “what”."],
       ["arrange","Ordena: [must / this / preserve / recipe / we / traditional]",["must recipe this we traditional preserve", "must traditional we recipe this preserve", "preserve must we traditional recipe this", "we must preserve this traditional recipe"],3,"Sujeto + verbo modal + infinitivo + objeto demostrativo + adjetivo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre un plato que consideres parte de tu identidad cultural, usando al menos dos oraciones hendidas con “what”.",[],["what defines", "what represents", "cultural identity"]],
@@ -2012,7 +2012,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un chivo expiatorio” en inglés?",["a scapegoat", "el pánico moral", "catastrofizar una situación", "una crisis fabricada"],0,"“Un chivo expiatorio” es “a scapegoat” en inglés."],
       ["mcq","¿Cómo se dice “desproporcionar una amenaza” en inglés?",["un discurso alarmista", "desproporcionar una amenaza", "to blow a threat out of proportion", "el pánico moral"],2,"“Desproporcionar una amenaza” es “to blow a threat out of proportion” en inglés."],
-      ["fill","Completa: “Completa: “Not only is the threat exaggerated, ___ a scapegoat is also sought.””",["although", "and", "so", "but"],3,"“Not only... but also” intensifica una afirmación añadiendo un segundo elemento."],
+      ["fill","Completa: “Not only is the threat exaggerated, ___ a scapegoat is also sought.”",["although", "and", "so", "but"],3,"“Not only... but also” intensifica una afirmación añadiendo un segundo elemento."],
       ["translate","Traduce con precisión: “El discurso alarmista es cada vez más frecuente en los medios.”",["Moral panic is becoming increasingly common in the media.", "Alarmist rhetoric is becoming increasingly rare in the media.", "Alarmist rhetoric is becoming increasingly severe in the media.", "Alarmist rhetoric is becoming increasingly common in the media."],3,"“Cada vez más frecuente” = “increasingly common”, estructura de intensificación gradual."],
       ["arrange","Ordena: [media / a / seek / scapegoat / the]",["seek the scapegoat media a", "seek the media scapegoat a", "the media seek a scapegoat", "media the seek scapegoat a"],2,"Sujeto + verbo + artículo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando un caso real o inventado de pánico moral en los medios, usando al menos una estructura “not only... but also” y una con “increasingly”.",[],["not only... but also", "increasingly", "moral panic"]],
@@ -2037,7 +2037,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “recaudar fondos” en inglés?",["una organización sin fines de lucro", "to raise funds", "una colecta de alimentos", "retribuir a la comunidad"],1,"“Recaudar fondos” es “to raise funds” en inglés."],
       ["mcq","¿Cómo se dice “retribuir a la comunidad” en inglés?",["una colecta de alimentos", "recaudar fondos", "hacer voluntariado", "to give back to the community"],3,"“Retribuir a la comunidad” es “to give back to the community” en inglés."],
-      ["fill","Completa: “Completa: “I ___ to volunteer at a shelter every weekend.””",["am used", "use", "was using", "used"],3,"“Used to” + infinitivo expresa un hábito pasado: “I used to volunteer”."],
+      ["fill","Completa: “I ___ to volunteer at a shelter every weekend.”",["am used", "use", "was using", "used"],3,"“Used to” + infinitivo expresa un hábito pasado: “I used to volunteer”."],
       ["translate","Traduce: “Ella solía organizar colectas de alimentos en la universidad.”",["She used to organize food drives at work.", "She used to raise food drives in college.", "She uses to organize food drives in college.", "She used to organize food drives in college."],3,"“Solía organizar” = “used to organize”, con “used to” + infinitivo."],
       ["arrange","Ordena: [funds / to / want / raise / we]",["we want to raise funds", "to funds we raise want", "raise want we funds to", "raise we to want funds"],0,"Sujeto + verbo + infinitivo + complemento."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre una experiencia de voluntariado (real o inventada), usando “used to” para describir hábitos pasados.",[],["I used to", "volunteer", "community"]],
@@ -2062,7 +2062,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el contrato de alquiler” en inglés?",["el depósito de garantía", "el inquilino/la inquilina", "firmar un contrato", "the lease/rental agreement"],3,"“Contrato de alquiler” es “lease” o “rental agreement” en inglés."],
       ["mcq","¿Cómo se dice “el depósito de garantía” en inglés?",["el contrato de alquiler", "servicios incluidos", "el depósito de garantía", "the security deposit"],3,"“Depósito de garantía” es “security deposit” en inglés."],
-      ["fill","Completa: “Completa: “The landlord ___ owns this building lives nearby.””",["who", "whose", "whom", "which"],0,"“Who” se usa para referirse a personas: “the landlord who owns”."],
+      ["fill","Completa: “The landlord ___ owns this building lives nearby.”",["who", "whose", "whom", "which"],0,"“Who” se usa para referirse a personas: “the landlord who owns”."],
       ["translate","Traduce: “El apartamento que alquilé tiene servicios incluidos.”",["The tenant that I rented has utilities included.", "The apartment that I rented has utilities excluded.", "The apartment that I rented has utilities included.", "The apartment who I rented has utilities included."],2,"“Que alquilé” se refiere a una cosa (el apartamento), por lo que se usa “that” o “which”."],
       ["arrange","Ordena: [before / sign / read / the / lease / you]",["you read the lease before you sign", "lease before you the you read sign", "sign you the before lease read you", "you read you lease the sign before"],0,"Sujeto + verbo + artículo + sustantivo + conector temporal + sujeto + verbo."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre cómo buscarías un apartamento para alquilar, usando al menos dos oraciones con “who”, “which” o “that”.",[],["that", "which", "landlord"]],
@@ -2087,7 +2087,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “hacer seguimiento del progreso” en inglés?",["la constancia", "to track progress", "un contratiempo/retroceso", "fijar una meta"],1,"“Hacer seguimiento del progreso” es “to track progress” en inglés."],
       ["mcq","¿Cómo se dice “un contratiempo/retroceso” en inglés?",["fijar una meta", "a setback", "hacer seguimiento del progreso", "un contratiempo/retroceso"],1,"“Un contratiempo/retroceso” es “a setback” en inglés."],
-      ["fill","Completa: “Completa: “She writes down her goals ___ she doesn't forget them.””",["because", "so that", "although", "in order to"],1,"“So that” introduce una cláusula con sujeto propio para expresar propósito: “so that she doesn't forget”."],
+      ["fill","Completa: “She writes down her goals ___ she doesn't forget them.”",["because", "so that", "although", "in order to"],1,"“So that” introduce una cláusula con sujeto propio para expresar propósito: “so that she doesn't forget”."],
       ["translate","Traduce: “Hago seguimiento de mi progreso para mantenerme motivado.”",["I track my progress in order to stay motivated.", "I track my progress in order to stay unmotivated.", "I track my progress so that stay motivated.", "I track my progress in order stay motivated."],0,"“Para mantenerme motivado” = “in order to stay motivated”, con “in order to” + infinitivo."],
       ["arrange","Ordena: [habit / build / takes / a / time / new]",["a new habit takes time to build", "time takes habit new a to build", "to build a new takes habit time", "build new takes time a to habit"],0,"Artículo + adjetivo + sustantivo + verbo + sustantivo + infinitivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre una meta personal que tengas, usando al menos un “in order to” y un “so that” para expresar propósito.",[],["in order to", "so that", "goal"]],
@@ -2112,7 +2112,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “captar la atención del público” en inglés?",["el miedo escénico", "hacer contacto visual", "dominar la sala/el escenario", "to engage the audience"],3,"“Captar la atención del público” es “to engage the audience” en inglés."],
       ["mcq","¿Cómo se dice “dominar la sala/el escenario” en inglés?",["un argumento convincente", "el miedo escénico", "to command the room", "una pregunta retórica"],2,"“Dominar la sala/el escenario” es “to command the room” en inglés."],
-      ["fill","Completa: “Completa: “Never ___ I seen a more compelling argument.””",["did", "do", "have", "had"],2,"La inversión con “never” requiere el auxiliar antes del sujeto: “never have I seen”."],
+      ["fill","Completa: “Never ___ I seen a more compelling argument.”",["did", "do", "have", "had"],2,"La inversión con “never” requiere el auxiliar antes del sujeto: “never have I seen”."],
       ["translate","Traduce con inversión: “Rarely does a speaker command the room like she does.”",["Rarely does a speaker command the room like she does.", "Rarely does a speaker commands the room like she does.", "Rarely a speaker does command the room like she does.", "Rarely a speaker commands the room like she does."],0,"La inversión con “rarely” lleva el auxiliar “does” antes del sujeto: “rarely does a speaker”."],
       ["arrange","Ordena: [audience / important / engage / it's / the / to]",["engage important the to audience it's", "to important the it's audience engage", "important engage to audience it's the", "it's important to engage the audience"],3,"Sujeto expletivo + verbo + adjetivo + infinitivo + artículo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre cómo prepararías una presentación importante, usando al menos una estructura de inversión (“never have I...”, “rarely does...”).",[],["never have I", "rarely does", "audience"]],
@@ -2137,7 +2137,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “desafiar una convención” en inglés?",["to challenge a convention", "ofender/causar ofensa", "una norma social", "desafiar una convención"],0,"“Desafiar una convención” es “to challenge a convention” en inglés."],
       ["mcq","¿Cómo se dice “una regla tácita” en inglés?",["un tabú cultural", "una regla tácita", "an unspoken rule", "culturalmente sensible"],2,"“Una regla tácita” es “an unspoken rule” en inglés."],
-      ["fill","Completa: “Completa: “Despite ___ the local customs, he still caused offense.””",["knowing", "known", "knows", "know"],0,"“Despite” va seguido de gerundio: “despite knowing”."],
+      ["fill","Completa: “Despite ___ the local customs, he still caused offense.”",["knowing", "known", "knows", "know"],0,"“Despite” va seguido de gerundio: “despite knowing”."],
       ["translate","Traduce: “A pesar de ser culturalmente sensible, pueden ocurrir errores.”",["Despite of being culturally sensitive, mistakes can happen.", "In spite of being culturally sensitive, mistakes can happen.", "In spite of being culturally insensitive, mistakes can happen.", "In spite of be culturally sensitive, mistakes can happen."],1,"“In spite of” + gerundio: “in spite of being”."],
       ["arrange","Ordena: [taboo / cultures / varies / by / what's]",["cultures taboo what's varies by", "what's taboo varies by cultures", "cultures what's by varies taboo", "varies cultures what's by taboo"],1,"Sujeto + verbo + preposición + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre un tabú cultural que conozcas de otro país, usando al menos un “despite” y un “in spite of” + gerundio.",[],["despite", "in spite of", "taboo"]],
@@ -2162,7 +2162,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “ser tu propio jefe” en inglés?",["ingresos irregulares", "hacer malabares con varios clientes", "ser tu propio jefe", "to be your own boss"],3,"“Ser tu propio jefe” es “to be your own boss” en inglés."],
       ["mcq","¿Cómo se dice “hacer malabares con varios clientes” en inglés?",["la economía de plataformas", "to juggle multiple clients", "hacer malabares con varios clientes", "ingresos irregulares"],1,"“Hacer malabares con varios clientes” es “to juggle multiple clients” en inglés."],
-      ["fill","Completa: “Completa: “You ___ better save money if your income is irregular.””",["would", "have", "had", "should to"],2,"“Had better” + infinitivo sin “to” da un consejo urgente: “you had better save”."],
+      ["fill","Completa: “You ___ better save money if your income is irregular.”",["would", "have", "had", "should to"],2,"“Had better” + infinitivo sin “to” da un consejo urgente: “you had better save”."],
       ["translate","Traduce: “Preferiría trabajar de forma autónoma que tener un trabajo de 9 a 5.”",["I would rather to freelance than have a 9-to-5 job.", "I would rather freelance than have a 9-to-5 job.", "I had better freelance than have a 9-to-5 job.", "I would rather freelance than having a 9-to-5 job."],1,"“Would rather” + infinitivo sin “to”: “would rather freelance”."],
       ["arrange","Ordena: [security / lacks / freelancing / job / often]",["freelancing security often job lacks", "job freelancing security lacks often", "often freelancing job lacks security", "freelancing often lacks job security"],3,"Sujeto + adverbio + verbo + sustantivo compuesto."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre las ventajas y desventajas del trabajo autónomo, usando al menos un “would rather” y un “had better”.",[],["would rather", "had better", "freelance"]],
@@ -2187,7 +2187,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “revitalizar un barrio” en inglés?",["el urbanismo/planificación urbana", "revitalizar un barrio", "una zona peatonal", "to revitalize a neighborhood"],3,"“Revitalizar un barrio” es “to revitalize a neighborhood” en inglés."],
       ["mcq","¿Cómo se dice “la expansión urbana descontrolada” en inglés?",["la red de transporte público", "revitalizar un barrio", "espacios verdes", "urban sprawl"],3,"“La expansión urbana descontrolada” es “urban sprawl” en inglés."],
-      ["fill","Completa: “Completa: “Green spaces should ___ prioritized in urban planning.””",["is", "been", "being", "be"],3,"El modal + “be” + participio forma la voz pasiva: “should be prioritized”."],
+      ["fill","Completa: “Green spaces should ___ prioritized in urban planning.”",["is", "been", "being", "be"],3,"El modal + “be” + participio forma la voz pasiva: “should be prioritized”."],
       ["translate","Traduce: “El transporte público debe mejorarse para reducir la expansión urbana.”",["Public transportation must be improving to reduce sprawl.", "Public transportation must improve to reduce sprawl.", "Public transportation must be improved to reduce sprawl.", "Public transportation must be improved to increase sprawl."],2,"“Debe mejorarse” = “must be improved”, voz pasiva con modal."],
       ["arrange","Ordena: [walkable / cities / more / becoming / are]",["more cities are becoming walkable", "becoming more walkable cities are", "becoming are cities walkable more", "cities are becoming more walkable"],3,"Sujeto + verbo + comparativo + adjetivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre cómo debería mejorarse el urbanismo en tu ciudad, usando al menos dos construcciones de voz pasiva con verbos modales.",[],["should be", "must be", "urban planning"]],
@@ -2212,7 +2212,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un placer fugaz” en inglés?",["extraer significado de algo", "la búsqueda de la felicidad", "a fleeting pleasure", "un placer fugaz"],2,"“Un placer fugaz” es “a fleeting pleasure” en inglés."],
       ["mcq","¿Cómo se dice “extraer significado de algo” en inglés?",["la plenitud/realización", "la satisfacción existencial", "to derive meaning from something", "un placer fugaz"],2,"“Extraer significado de algo” es “to derive meaning from something” en inglés."],
-      ["fill","Completa: “Completa: “It is essential that happiness ___ understood beyond fleeting pleasure.””",["was", "is", "be", "being"],2,"El subjuntivo formal usa la forma base del verbo, sin conjugar: “that happiness be understood”."],
+      ["fill","Completa: “It is essential that happiness ___ understood beyond fleeting pleasure.”",["was", "is", "be", "being"],2,"El subjuntivo formal usa la forma base del verbo, sin conjugar: “that happiness be understood”."],
       ["translate","Traduce con subjuntivo formal: “Los filósofos sugieren que uno busque significado en lugar de comodidad.”",["Philosophers suggest that one seeks meaning rather than comfort.", "Philosophers suggest that one sought meaning rather than comfort.", "Philosophers suggest that one seek comfort rather than meaning.", "Philosophers suggest that one seek meaning rather than comfort."],3,"El subjuntivo formal “that one seek” usa la forma base, sin “-s”."],
       ["arrange","Ordena: [is / than / more / happiness / possessions]",["is possessions happiness than more", "is happiness than more possessions", "happiness is more than possessions", "than is more happiness possessions"],2,"Sujeto + verbo + comparativo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre qué significa la felicidad para ti, usando al menos dos estructuras con subjuntivo formal (“it is essential that...”, “it is vital that...”).",[],["it is essential that", "it is vital that", "fulfillment"]],
@@ -2237,7 +2237,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “burlarse de algo” en inglés?",["burlarse de algo", "to poke fun at something", "una caricatura", "el ingenio mordaz"],1,"“Burlarse de algo” es “to poke fun at something” en inglés."],
       ["mcq","¿Cómo se dice “poner al descubierto la hipocresía” en inglés?",["to expose hypocrisy", "la sátira", "una caricatura", "la crítica/comentario social"],0,"“Poner al descubierto la hipocresía” es “to expose hypocrisy” en inglés."],
-      ["fill","Completa: “Completa: “If satirists ___ exposed that hypocrisy, we wouldn't see it so clearly today.””",["didn't", "haven't", "wouldn't", "hadn't"],3,"El condicional mixto usa pasado perfecto en la condición: “if satirists hadn't exposed”."],
+      ["fill","Completa: “If satirists ___ exposed that hypocrisy, we wouldn't see it so clearly today.”",["didn't", "haven't", "wouldn't", "hadn't"],3,"El condicional mixto usa pasado perfecto en la condición: “if satirists hadn't exposed”."],
       ["translate","Traduce con condicional mixto: “Si ella fuera menos ingeniosa, su sátira no habría tenido tanto impacto.”",["If she were more witty, her satire wouldn't have had such an impact.", "If she were less witty, her satire hadn't had such an impact.", "If she were less witty, her satire wouldn't have had such an impact.", "If she was less witty, her satire wouldn't have had such an impact."],2,"El condicional mixto combina “if + were” (presente irreal) con “wouldn't have had” (resultado pasado)."],
       ["arrange","Ordena: [hypocrisy / satire / exposes / often / social]",["satire hypocrisy exposes often social", "often satire exposes social hypocrisy", "satire social often hypocrisy exposes", "satire often exposes social hypocrisy"],3,"Sujeto + adverbio + verbo + adjetivo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando una obra satírica que conozcas, usando al menos una estructura de condicional mixto.",[],["if...hadn't", "wouldn't have", "satire"]],
@@ -2262,7 +2262,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “caer en desuso” en inglés?",["la brecha lingüística generacional", "una tendencia lingüística", "acuñar un término", "to fall out of use"],3,"“Caer en desuso” es “to fall out of use” en inglés."],
       ["mcq","¿Cómo se dice “acuñar un término” en inglés?",["la brecha lingüística generacional", "to coin a term", "ganar aceptación general", "el argot/jerga"],1,"“Acuñar un término” es “to coin a term” en inglés."],
-      ["fill","Completa: “Completa: “___ slang gains mainstream acceptance eventually changes meaning.””",["Whichever one", "Whatever", "That", "What"],1,"“Whatever” funciona como sujeto sin antecedente previo: “whatever slang gains acceptance”."],
+      ["fill","Completa: “___ slang gains mainstream acceptance eventually changes meaning.”",["Whichever one", "Whatever", "That", "What"],1,"“Whatever” funciona como sujeto sin antecedente previo: “whatever slang gains acceptance”."],
       ["translate","Traduce con relativo nominal: “Quien sea que acuñe un término rara vez controla cómo evoluciona.”",["Whoever coin a term rarely controls how it evolves.", "Whoever coins a term rarely controls how it evolves.", "Whoever coins a term rarely control how it evolves.", "Whatever coins a term rarely controls how it evolves."],1,"“Whoever” + verbo en tercera persona singular: “whoever coins”."],
       ["arrange","Ordena: [changes / language / constantly / generations / across]",["language changes constantly across generations", "across changes generations language constantly", "language generations across constantly changes", "across constantly changes generations language"],0,"Sujeto + verbo + adverbio + preposición + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre cómo ha cambiado el argot entre generaciones, usando al menos una oración de relativo nominal (“whatever”, “whoever”, “whichever”).",[],["whatever", "whoever", "slang"]],
@@ -2287,7 +2287,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el lápiz” en inglés?",["la mochila", "las matemáticas", "la historia", "the pencil"],3,"“Lápiz” es “pencil” en inglés."],
       ["mcq","¿Cómo se dice “las matemáticas” en inglés?",["math", "la mochila", "el/la profesor/a", "las matemáticas"],0,"“Matemáticas” es “math” en inglés."],
-      ["fill","Completa: “Completa: “I have ___ new backpack for school.””",["the", "an", "a", "some"],2,"Se usa “a” porque es la primera vez que se menciona y “backpack” empieza con consonante."],
+      ["fill","Completa: “I have ___ new backpack for school.”",["the", "an", "a", "some"],2,"Se usa “a” porque es la primera vez que se menciona y “backpack” empieza con consonante."],
       ["translate","Traduce: “El cuaderno está en la mochila.”",["The pencil is in the backpack.", "A notebook is in the backpack.", "The notebook is in the classroom.", "The notebook is in the backpack."],3,"“El cuaderno” ya es conocido, por eso se usa el artículo definido “the”."],
       ["arrange","Ordena: [history / I / a lot / like]",["a I like lot history", "history like lot a I", "lot a history I like", "I like history a lot"],3,"Sujeto + verbo + sustantivo + adverbio."],
       ["writing","Describe en inglés, en 20-30 palabras, qué útiles escolares tienes y qué asignatura te gusta más, usando “a/an” y “the”.",[],["a/an", "the", "I like"]],
@@ -2312,7 +2312,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el sello” en inglés?",["el buzón", "the stamp", "la carta", "la dirección"],1,"“Sello” es “stamp” en inglés."],
       ["mcq","¿Cómo se dice “el buzón” en inglés?",["el sello", "the mailbox", "enviar por correo", "el buzón"],1,"“Buzón” es “mailbox” en inglés."],
-      ["fill","Completa: “Completa: “The package? I received ___ this morning.””",["it", "him", "her", "them"],0,"“The package” es singular, por eso se sustituye con “it”."],
+      ["fill","Completa: “The package? I received ___ this morning.”",["it", "him", "her", "them"],0,"“The package” es singular, por eso se sustituye con “it”."],
       ["translate","Traduce: “¿Las cartas? Las envié ayer.”",["The letters? I sent it yesterday.", "The letter? I sent them yesterday.", "The letters? I sent them yesterday.", "The letters? I sent they yesterday."],2,"“Las cartas” es plural, por eso se sustituye con “them”, colocado después del verbo."],
       ["arrange","Ordena: [need / I / address / your]",["address your need I", "I need your address", "need address I your", "your need I address"],1,"Sujeto + verbo + objeto posesivo + sustantivo."],
       ["speaking","Describe en inglés, en 40-60 palabras, la última vez que enviaste una carta o un paquete, usando “it” y “them”.",[],["I sent it", "I received them", "package"]],
@@ -2337,7 +2337,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “el estreno” en inglés?",["la entrada/el boleto", "el intermedio", "el estreno", "the premiere"],3,"“Estreno” es “premiere” en inglés."],
       ["mcq","¿Cómo se dice “el reparto/elenco” en inglés?",["la entrada/el boleto", "los efectos especiales", "the cast", "el intermedio"],2,"“Reparto/elenco” es “cast” en inglés."],
-      ["fill","Completa: “Completa: “We arrive before the movie ___.””",["will start", "starts", "started", "start"],1,"Con “before” se usa presente simple aunque se refiera al futuro cercano: “before the movie starts”."],
+      ["fill","Completa: “We arrive before the movie ___.”",["will start", "starts", "started", "start"],1,"Con “before” se usa presente simple aunque se refiera al futuro cercano: “before the movie starts”."],
       ["translate","Traduce: “Hablamos mientras esperamos el estreno.”",["We talk while we wait for the premiere.", "We talk when we wait for the premiere.", "We talked while we wait for the premiere.", "We talk while we wait for the intermission."],0,"“Mientras” + presente simple describe acciones simultáneas: “while we wait”."],
       ["arrange","Ordena: [often / go / we / to the movies]",["we often go to the movies", "movies we the to often go", "go often movies the to we", "movies to go the we often"],0,"Sujeto + adverbio + verbo + preposición + sustantivo."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre tu última visita al cine o al teatro, usando al menos dos oraciones temporales con “when”, “while” o “before”.",[],["when", "while", "before"]],
@@ -2362,7 +2362,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “concienciar sobre algo” en inglés?",["to raise awareness about something", "una manifestación/protesta", "concienciar sobre algo", "movilizar a la gente"],0,"“Concienciar sobre algo” es “to raise awareness about something” en inglés."],
       ["mcq","¿Cómo se dice “movilizar a la gente” en inglés?",["exigir un cambio", "to mobilize people", "un colectivo/organización", "concienciar sobre algo"],1,"“Movilizar a la gente” es “to mobilize people” en inglés."],
-      ["fill","Completa: “Completa: “The protesters demand that the government ___.””",["act", "acted", "will act", "acts"],0,"El subjuntivo inglés usa la forma base del verbo, sin “-s”: “demand that the government act”."],
+      ["fill","Completa: “The protesters demand that the government ___.”",["act", "acted", "will act", "acts"],0,"El subjuntivo inglés usa la forma base del verbo, sin “-s”: “demand that the government act”."],
       ["translate","Traduce: “El colectivo pide que la gente firme la petición.”",["The collective asks that people sign the protest.", "The collective demands that people sign the petition.", "The collective asks that people signs the petition.", "The collective asks that people sign the petition."],3,"El subjuntivo inglés “that people sign” usa la forma base, sin “-s”."],
       ["arrange","Ordena: [petition / I'm / sign / going to / the]",["I'm going to sign the petition", "petition sign to the going I'm", "petition sign to going the I'm", "I'm petition going sign to the"],0,"Sujeto + “going to” + infinitivo + artículo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre una causa social que te importe, usando al menos dos estructuras con “demand/ask that” + subjuntivo.",[],["I demand that", "I ask that", "protest"]],
@@ -2387,7 +2387,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “la tasa de natalidad” en inglés?",["el sistema de pensiones", "la tasa de natalidad", "the birth rate", "el envejecimiento poblacional"],2,"“Tasa de natalidad” es “birth rate” en inglés."],
       ["mcq","¿Cómo se dice “sostener el sistema de pensiones” en inglés?",["la esperanza de vida", "la brecha generacional", "to sustain the pension system", "la tasa de natalidad"],2,"“Sostener el sistema de pensiones” es “to sustain the pension system” en inglés."],
-      ["fill","Completa: “Completa: “The population is aging so fast ___ the pension system is at risk.””",["for", "as", "that", "so"],2,"“So + adjetivo + that” introduce la consecuencia: “so fast that... is at risk”."],
+      ["fill","Completa: “The population is aging so fast ___ the pension system is at risk.”",["for", "as", "that", "so"],2,"“So + adjetivo + that” introduce la consecuencia: “so fast that... is at risk”."],
       ["translate","Traduce con oración consecutiva: “La natalidad ha bajado de tal manera que faltan trabajadores jóvenes.”",["It's such a drop in life expectancy that young workers are lacking.", "It's so a drop in births that young workers are lacking.", "It's such a drop in births that young workers are increasing.", "It's such a drop in births that young workers are lacking."],3,"“Such + sustantivo + that” introduce la consecuencia con un sustantivo: “such a drop... that”."],
       ["arrange","Ordena: [worries / the pension / system / many / people]",["many system people worries pension the", "the pension system worries many people", "many pension system the worries people", "pension many the system worries people"],1,"Sujeto + verbo + complemento."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre el envejecimiento poblacional en tu país, usando al menos una oración con “so...that” y una con “such...that”.",[],["so...that", "such...that", "aging population"]],
@@ -2412,7 +2412,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un vacío discursivo” en inglés?",["lo no dicho", "un vacío discursivo", "a discursive gap", "omitir deliberadamente algo"],2,"“Un vacío discursivo” es “a discursive gap” en inglés."],
       ["mcq","¿Cómo se dice “dejar algo en suspenso” en inglés?",["dejar algo en suspenso", "to leave something hanging", "un vacío discursivo", "omitir deliberadamente algo"],1,"“Dejar algo en suspenso” es “to leave something hanging” en inglés."],
-      ["fill","Completa: “Completa: “Some stay silent out of fear; others, out of ___.””",["complicity", "is complicity", "that complicity", "stay silent complicity"],0,"La elipsis omite el verbo repetido “stay silent”, dejando solo el complemento: “others, out of complicity”."],
+      ["fill","Completa: “Some stay silent out of fear; others, out of ___.”",["complicity", "is complicity", "that complicity", "stay silent complicity"],0,"La elipsis omite el verbo repetido “stay silent”, dejando solo el complemento: “others, out of complicity”."],
       ["translate","Traduce con elipsis retórica: “Prometió reformas... y silencio.”",["He promised reforms... and was silence.", "He promised reforms... and noise.", "He promised reforms... and a silence.", "He promised reforms... and silence."],3,"La elipsis retórica omite el verbo esperado tras los puntos suspensivos, dejando solo “and silence”."],
       ["arrange","Ordena: [says / silence / sometimes / more / than / words]",["words more sometimes silence says than", "sometimes words silence than says more", "silence sometimes says more than words", "words more says sometimes than silence"],2,"Sujeto + adverbio + verbo + comparativo + complemento."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando un ejemplo (real o inventado) de silencio retórico en un discurso, usando al menos una elipsis deliberada.",[],["the unsaid", "eloquent silence", "omit"]],
@@ -2435,9 +2435,9 @@ window.LESSON_BANKS.EN = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “la medianoche” en inglés?",["la medianoche", "en punto", "el mediodía", "midnight"],3,"“Medianoche” es “midnight” en inglés."],
-      ["mcq","¿Cómo se dice “en punto” en inglés?",["o'clock/sharp", "la medianoche", "la noche", "en punto"],0,"“En punto” es “o'clock” o “sharp” en inglés."],
-      ["fill","Completa: “Completa: “It's three ___ in the afternoon.””",["o'clock", "hour", "hours", "clock"],0,"“O'clock” se usa después del número para indicar la hora exacta: “three o'clock”."],
+      ["mcq","¿Cómo se dice “la medianoche” en inglés?",["midnight", "o'clock/sharp", "noon", "the night"],0,"“Medianoche” es “midnight” en inglés."],
+      ["mcq","¿Cómo se dice “en punto” en inglés?",["o'clock/sharp", "midnight", "the night", "noon"],0,"“En punto” es “o'clock” o “sharp” en inglés."],
+      ["fill","Completa: “It's three ___ in the afternoon.”",["o'clock", "hour", "hours", "clock"],0,"“O'clock” se usa después del número para indicar la hora exacta: “three o'clock”."],
       ["translate","Traduce: “Es la una de la mañana.”",["It's two o'clock in the morning.", "It's one o'clock at night.", "It's one o'clock in the morning.", "It's one o'clock in the afternoon."],2,"“De la mañana” se traduce con “in the morning”, no “at night”."],
       ["arrange","Ordena: [it's / afternoon / four / the / in / o'clock]",["four the in it's o'clock afternoon", "it's afternoon o'clock in the four", "o'clock four afternoon the in it's", "it's four o'clock in the afternoon"],3,"Sujeto + verbo + número + “o'clock” + preposición + parte del día."],
       ["writing","Describe en inglés, en 20-30 palabras, tu rutina diaria mencionando horas específicas, usando “it's” y “o'clock”.",[],["it's", "o'clock", "in the morning"]],
@@ -2462,7 +2462,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “retirar dinero” en inglés?",["la tarjeta de débito", "retirar dinero", "to withdraw money", "el cajero automático"],2,"“Retirar dinero” es “to withdraw money” en inglés."],
       ["mcq","¿Cómo se dice “el saldo” en inglés?",["depositar dinero", "the balance", "el saldo", "la cuenta bancaria"],1,"“Saldo” es “balance” en inglés."],
-      ["fill","Completa: “Completa: “___ I open an account here, please?””",["Can", "Am", "Will", "Do"],0,"Se usa “can” para pedir permiso: “can I open”."],
+      ["fill","Completa: “___ I open an account here, please?”",["Can", "Am", "Will", "Do"],0,"Se usa “can” para pedir permiso: “can I open”."],
       ["translate","Traduce: “Puedes retirar dinero en cualquier cajero automático.”",["You can deposit money at any ATM.", "You can withdraw money at any ATM.", "You can withdraw money at any bank.", "You must withdraw money at any ATM."],1,"“Puedes retirar” = “you can withdraw”, con “can” + infinitivo."],
       ["arrange","Ordena: [check / balance / want / my / to / I]",["I to my balance check want", "want to check balance I my", "I want to check my balance", "want my I check balance to"],2,"Sujeto + verbo + infinitivo + objeto posesivo + sustantivo."],
       ["speaking","Describe en inglés, en 40-60 palabras, cómo abrirías una cuenta bancaria, usando “can” para pedir permiso o expresar posibilidad.",[],["I can", "you can", "account"]],
@@ -2487,7 +2487,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “hacer escala” en inglés?",["to make a layover/stopover", "el retraso", "hacer escala", "el andén"],0,"“Hacer escala” es “to make a layover” o “stopover” en inglés."],
       ["mcq","¿Cómo se dice “el andén” en inglés?",["the platform", "hacer escala", "perder el vuelo/tren", "el retraso"],0,"“Andén” es “platform” en inglés."],
-      ["fill","Completa: “Completa: “Even if the flight ___ cancelled, we have another option.””",["will be", "would be", "is", "was"],2,"“Even if” va seguido de presente simple en inglés, incluso para una posibilidad futura: “even if it is cancelled”."],
+      ["fill","Completa: “Even if the flight ___ cancelled, we have another option.”",["will be", "would be", "is", "was"],2,"“Even if” va seguido de presente simple en inglés, incluso para una posibilidad futura: “even if it is cancelled”."],
       ["translate","Traduce: “Aunque el tren llegó tarde, alcancé el vuelo.”",["Although the train arrived late, I made the flight.", "Although the train arrived late, I missed the flight.", "Although the plane arrived late, I made the flight.", "Although the train arrives late, I made the flight."],0,"“Aunque llegó” describe un hecho real ya sucedido, con pasado simple: “although it arrived”."],
       ["arrange","Ordena: [prefer / seat / window / the / I]",["the I seat window prefer", "I prefer the window seat", "seat the prefer window I", "I seat prefer the window"],1,"Sujeto + verbo + artículo + sustantivo compuesto."],
       ["writing","Escribe en inglés, en 45-65 palabras, sobre un viaje en tren o avión con contratiempos, usando “although” y “even if” al menos una vez cada uno.",[],["although", "even if", "delay"]],
@@ -2512,7 +2512,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “alquilar en lugar de comprar” en inglés?",["compartir recursos", "la obsolescencia programada", "to rent instead of buying", "el consumo consciente"],2,"“Alquilar en lugar de comprar” es “to rent instead of buying” en inglés."],
       ["mcq","¿Cómo se dice “la obsolescencia programada” en inglés?",["compartir recursos", "reducir el desperdicio", "el consumo consciente", "planned obsolescence"],3,"“Obsolescencia programada” es “planned obsolescence” en inglés."],
-      ["fill","Completa: “Completa: “That model ___ have about five years of planned obsolescence.””",["will", "is", "would", "has"],0,"“Will” de probabilidad expresa una conjetura sobre el presente: “will have about five years”."],
+      ["fill","Completa: “That model ___ have about five years of planned obsolescence.”",["will", "is", "would", "has"],0,"“Will” de probabilidad expresa una conjetura sobre el presente: “will have about five years”."],
       ["translate","Traduce con “would” de probabilidad: “Con ese consumo, gastarían menos recursos de los que pensaban.”",["With that consumption, they would use more resources than expected.", "With that consumption, they will use fewer resources than expected.", "With that consumption, they would spend less money than expected.", "With that consumption, they would use fewer resources than expected."],3,"El “would” de probabilidad expresa una conjetura sobre una situación hipotética: “they would use”."],
       ["arrange","Ordena: [reduce / must / waste / we]",["must reduce we waste", "we must reduce waste", "reduce must waste we", "we waste must reduce"],1,"Sujeto + verbo modal + infinitivo + sustantivo."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre la economía colaborativa y el consumo consciente, usando al menos un “will” y un “would” de probabilidad.",[],["will have", "would", "conscious consumption"]],
@@ -2537,7 +2537,7 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un gesto malinterpretado” en inglés?",["a misinterpreted gesture", "el contacto visual", "el silencio incómodo", "la proxémica (distancia personal)"],0,"“Un gesto malinterpretado” es “a misinterpreted gesture” en inglés."],
       ["mcq","¿Cómo se dice “la proxémica (distancia personal)” en inglés?",["el lenguaje corporal", "la proxémica (distancia personal)", "una señal cultural", "proxemics (personal space)"],3,"“Proxémica” es “proxemics” en inglés."],
-      ["fill","Completa: “Completa: “He acted as if he ___ the gesture, although he didn't.””",["has understood", "understood", "understands", "will understand"],1,"“As if” con pasado simple compara con el presente: “as if he understood”."],
+      ["fill","Completa: “He acted as if he ___ the gesture, although he didn't.”",["has understood", "understood", "understands", "will understand"],1,"“As if” con pasado simple compara con el presente: “as if he understood”."],
       ["translate","Traduce: “Reaccionó como si hubiera sido ofendido.”",["She reacted as if she had been invited.", "She reacted as if she has been offended.", "She reacted as if she was offended.", "She reacted as if she had been offended."],3,"“Como si hubiera sido ofendido” se traduce con pasado perfecto: “as if she had been offended”."],
       ["arrange","Ordena: [varies / eye contact / across / cultures]",["contact cultures across eye varies", "eye contact varies across cultures", "cultures across eye contact varies", "cultures across contact eye varies"],1,"Sujeto + verbo + preposición + complemento."],
       ["writing","Escribe en inglés, en 55-75 palabras, sobre un malentendido intercultural relacionado con el lenguaje no verbal, usando al menos dos estructuras con “as if”.",[],["as if", "body language", "gesture"]],
@@ -2562,10 +2562,160 @@ window.LESSON_BANKS.EN = [
     ex:[
       ["mcq","¿Cómo se dice “un margen de error” en inglés?",["una hipótesis no confirmada", "a margin of error", "matizar una afirmación", "los resultados preliminares"],1,"“Un margen de error” es “a margin of error” en inglés."],
       ["mcq","¿Cómo se dice “una hipótesis no confirmada” en inglés?",["la incertidumbre estadística", "un margen de error", "an unconfirmed hypothesis", "una hipótesis no confirmada"],2,"“Una hipótesis no confirmada” es “an unconfirmed hypothesis” en inglés."],
-      ["fill","Completa: “Completa: “It could be ___ that a trend exists, although the data are preliminary.””",["argued", "argues", "argue", "arguing"],0,"“It could be argued that” es una expresión fija de matización epistémica con participio pasado."],
+      ["fill","Completa: “It could be ___ that a trend exists, although the data are preliminary.”",["argued", "argues", "argue", "arguing"],0,"“It could be argued that” es una expresión fija de matización epistémica con participio pasado."],
       ["translate","Traduce con precisión: “Los resultados sugieren, aunque no confirman, una relación causal.”",["The results suggest, but do not confirm, a causal relationship.", "The results suggest, and confirm, a causal relationship.", "The results suggest, but do not confirm, a statistical correlation.", "The results confirm, but do not suggest, a causal relationship."],0,"“Sugieren, aunque no confirman” se traduce con “suggest, but do not confirm”, matizando la certeza."],
       ["arrange","Ordena: [imply / correlation / causation / doesn't]",["doesn't imply correlation causation", "causation doesn't correlation imply", "correlation doesn't imply causation", "causation correlation doesn't imply"],2,"Sujeto + verbo negativo + objeto."],
       ["writing","Escribe en inglés, en 55-75 palabras, analizando un estudio científico (real o inventado) con resultados preliminares, usando al menos dos expresiones de matización epistémica.",[],["it could be argued that", "the data suggest", "uncertainty"]],
+    ]
+  },
+  {
+    id:"a1_weather_seasons", level:"A1", title:"El clima y las estaciones", emoji:"☀️", xp:38,
+    description:"Aprende a describir el clima y las estaciones del año en inglés con “it's”.",
+    study: {
+      vocab: [
+        ["sunny", "soleado"],
+        ["rainy", "lluvioso"],
+        ["cold", "frío"],
+        ["hot", "caluroso"],
+        ["spring", "primavera"],
+        ["winter", "invierno"],
+      ],
+      grammar: [
+        ["“It's” + adjetivo para el clima", "Para describir el clima se usa el pronombre impersonal “it” + “is”: “it's sunny”, “it's cold”. Con lluvia se usa el gerundio: “it's raining”.", "It's sunny today. / It's raining in spring."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “frío” en inglés?",["rainy", "spring", "cold", "hot"],2,"“Frío” es “cold” en inglés."],
+      ["mcq","¿Cómo se dice “lluvioso” en inglés?",["winter", "hot", "sunny", "rainy"],3,"“Lluvioso” es “rainy” en inglés."],
+      ["fill","Completa: “It's very ___ today, take an umbrella.”",["rainy", "spring", "cold", "hot"],0,"“Rainy” describe un clima con lluvia: “it's rainy”."],
+      ["translate","Traduce: “Hace mucho frío en invierno.”",["It's very hot in winter.", "It's very cold in summer.", "It's very sunny in winter.", "It's very cold in winter."],3,"“Hace frío” se traduce con “it's cold”, usando el pronombre impersonal “it”."],
+      ["arrange","Ordena: [today / sunny / it's]",["today it's sunny", "it's today sunny", "today sunny it's", "it's sunny today"],3,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
+      ["writing","Describe en inglés, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “it's” + adjetivo.",[],["it's", "sunny", "cold"]],
+    ]
+  },
+  {
+    id:"a2_pet_care", level:"A2", title:"El cuidado de mascotas", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “have to/has to” para obligaciones en inglés.",
+    study: {
+      vocab: [
+        ["to feed the pet", "alimentar a la mascota"],
+        ["to walk the dog", "pasear al perro"],
+        ["the veterinarian", "el veterinario"],
+        ["to vaccinate", "vacunar"],
+        ["the litter box", "la caja de arena"],
+        ["to adopt a pet", "adoptar una mascota"],
+      ],
+      grammar: [
+        ["“Have to/has to” para obligaciones", "“Have to” (o “has to” con él/ella) + infinitivo expresa una obligación o necesidad cotidiana.", "I have to walk the dog every morning. / She has to feed the cat twice a day."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “veterinario” en inglés?",["to vaccinate", "to walk the dog", "the veterinarian", "the litter box"],2,"“Veterinario” es “the veterinarian” en inglés."],
+      ["mcq","¿Cómo se dice “vacunar” en inglés?",["the veterinarian", "to walk the dog", "to vaccinate", "to adopt a pet"],2,"“Vacunar” es “to vaccinate” en inglés."],
+      ["fill","Completa: “I ___ to walk the dog every morning.”",["having", "had", "has", "have"],3,"“Have to” se usa con “I”: “I have to walk”."],
+      ["translate","Traduce: “Tengo que alimentar a la mascota dos veces al día.”",["I have to feed the pet once a day.", "I have to walk the pet twice a day.", "I had to feed the pet twice a day.", "I have to feed the pet twice a day."],3,"“Tengo que alimentar” se traduce con “I have to feed”, obligación en presente."],
+      ["arrange","Ordena: [has / dog / she / walk / to / the]",["walk she the has to dog", "she has to walk the dog", "to the she walk dog has", "she has to walk dog the"],1,"Sujeto + “has to” + verbo + artículo + sustantivo."],
+      ["writing","Describe en inglés, en 20-30 palabras, tu rutina de cuidado de una mascota usando “have to/has to”.",[],["have to", "has to", "pet"]],
+    ]
+  },
+  {
+    id:"b1_startups_entrepreneurship", level:"B1", title:"El emprendimiento y las startups", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “going to” para planes en inglés.",
+    study: {
+      vocab: [
+        ["startup", "startup/empresa emergente"],
+        ["to launch a product", "lanzar un producto"],
+        ["investor", "inversionista"],
+        ["business plan", "plan de negocios"],
+        ["to take a risk", "asumir un riesgo"],
+        ["to scale a business", "escalar un negocio"],
+      ],
+      grammar: [
+        ["“Going to” para planes e intenciones", "“Be going to” + infinitivo expresa un plan o intención ya decidida.", "We are going to launch the product next month. / She is going to look for investors."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “inversionista” en inglés?",["investor", "to launch a product", "to scale a business", "startup"],0,"“Inversionista” es “investor” en inglés."],
+      ["mcq","¿Cómo se dice “asumir un riesgo” en inglés?",["to scale a business", "startup", "investor", "to take a risk"],3,"“Asumir un riesgo” es “to take a risk” en inglés."],
+      ["fill","Completa: “We ___ going to launch the product next month.”",["is", "were", "was", "are"],3,"“Going to” con “we” usa “are”: “we are going to”."],
+      ["translate","Traduce: “Vamos a lanzar el producto el próximo mes.”",["We are going to launch the business next month.", "We are going to launch the product next month.", "We are launching the product next month.", "We are going to launch the product this month."],1,"“Vamos a lanzar” se traduce con “we are going to launch”, plan futuro decidido."],
+      ["arrange","Ordena: [going / investors / she / for / to / is / look]",["she going for investors is look to", "look for she investors is going to", "she is going to look for investors", "for is investors she to going look"],2,"Sujeto + “is going to” + verbo + preposición + sustantivo."],
+      ["writing","Escribe en inglés, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando “going to” para tus planes.",[],["going to", "startup", "investors"]],
+    ]
+  },
+  {
+    id:"b2_space_exploration", level:"B2", title:"La exploración espacial", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futuro perfecto en inglés.",
+    study: {
+      vocab: [
+        ["space mission", "misión espacial"],
+        ["astronaut", "astronauta"],
+        ["to orbit", "orbitar"],
+        ["rocket launch", "lanzamiento de cohete"],
+        ["outer space", "el espacio exterior"],
+        ["space station", "estación espacial"],
+      ],
+      grammar: [
+        ["Futuro perfecto para logros futuros", "El futuro perfecto (“will have” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "By 2030, astronauts will have landed on Mars. / The rocket will have reached orbit by then."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “estación espacial” en inglés?",["space station", "rocket launch", "to orbit", "astronaut"],0,"“Estación espacial” es “space station” en inglés."],
+      ["mcq","¿Cómo se dice “orbitar” en inglés?",["to orbit", "rocket launch", "astronaut", "space mission"],0,"“Orbitar” es “to orbit” en inglés."],
+      ["fill","Completa: “By 2030, astronauts ___ have landed on Mars.”",["had", "will", "would", "have"],1,"El futuro perfecto usa “will have” + participio: “will have landed”."],
+      ["translate","Traduce: “Para 2030, los astronautas habrán aterrizado en Marte.”",["By 2030, astronauts have landed on Mars.", "By 2030, astronauts would have landed on Mars.", "By 2030, astronauts will have landed on Mars.", "By 2030, astronauts will land on Mars."],2,"“Habrán aterrizado” se traduce con futuro perfecto: “will have landed”."],
+      ["arrange","Ordena: [soon / rocket / will / orbit / the / reach]",["orbit reach soon will the rocket", "orbit the soon will reach rocket", "the rocket will reach orbit soon", "the will rocket reach soon orbit"],2,"Sujeto + “will” + verbo + sustantivo + adverbio."],
+      ["writing","Escribe en inglés, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futuro perfecto (“will have...”) al menos dos veces.",[],["will have", "space mission", "astronaut"]],
+    ]
+  },
+  {
+    id:"c1_ai_ethics", level:"C1", title:"La ética y la regulación de la inteligencia artificial", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la voz pasiva en registro formal en inglés.",
+    study: {
+      vocab: [
+        ["artificial intelligence", "inteligencia artificial"],
+        ["algorithmic bias", "sesgo algorítmico"],
+        ["accountability", "rendición de cuentas"],
+        ["data privacy", "privacidad de datos"],
+        ["to regulate", "regular"],
+        ["unintended consequences", "consecuencias no deseadas"],
+      ],
+      grammar: [
+        ["Voz pasiva en registro formal/académico", "La voz pasiva (“to be” + participio) se usa en inglés formal para enfatizar la acción o el objeto en lugar de quién la realiza, común en discurso académico y ético.", "These systems should be regulated to prevent bias. / Algorithmic bias has been documented in several studies."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sesgo algorítmico” en inglés?",["accountability", "artificial intelligence", "to regulate", "algorithmic bias"],3,"“Sesgo algorítmico” es “algorithmic bias” en inglés."],
+      ["mcq","¿Cómo se dice “rendición de cuentas” en inglés?",["artificial intelligence", "accountability", "to regulate", "algorithmic bias"],1,"“Rendición de cuentas” es “accountability” en inglés."],
+      ["fill","Completa: “These systems should ___ regulated to prevent bias.”",["are", "be", "being", "been"],1,"La voz pasiva con modal usa “should be” + participio: “should be regulated”."],
+      ["translate","Traduce con voz pasiva: “Estos sistemas deberían regularse para evitar sesgos.”",["These systems should be regulated to prevent biases only.", "These systems should regulate to prevent bias.", "These systems should be regulated to prevent bias.", "These systems must be regulated to prevent bias."],2,"“Deberían regularse” se traduce con voz pasiva: “should be regulated”, no con “must” ni voz activa."],
+      ["arrange","Ordena: [regulated / algorithms / be / should]",["regulated algorithms be should", "algorithms be should regulated", "be regulated algorithms should", "algorithms should be regulated"],3,"Sujeto + modal + “be” + participio."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en voz pasiva.",[],["should be regulated", "algorithmic bias", "accountability"]],
+    ]
+  },
+  {
+    id:"c2_philosophy_of_mind", level:"C2", title:"La filosofía de la mente y la conciencia", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando oraciones hendidas (cleft sentences) en inglés.",
+    study: {
+      vocab: [
+        ["consciousness", "la conciencia"],
+        ["subjective experience", "la experiencia subjetiva"],
+        ["thought experiment", "el experimento mental"],
+        ["free will", "el libre albedrío"],
+        ["self-awareness", "la autoconciencia"],
+        ["the mind-body problem", "el problema mente-cuerpo"],
+      ],
+      grammar: [
+        ["Oraciones hendidas (cleft sentences) para énfasis", "Las cleft sentences (“What... is...”, “It is... that...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "What truly defines consciousness is not behavior alone, but subjective experience. / It is subjective experience, not behavior alone, that truly defines consciousness."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “experimento mental” en inglés?",["consciousness", "free will", "the mind-body problem", "thought experiment"],3,"“Experimento mental” es “thought experiment” en inglés."],
+      ["mcq","¿Cómo se dice “libre albedrío” en inglés?",["subjective experience", "free will", "the mind-body problem", "consciousness"],1,"“Libre albedrío” es “free will” en inglés."],
+      ["fill","Completa: “What truly defines consciousness ___ not behavior alone, but subjective experience.”",["are", "was", "is", "be"],2,"En cleft sentences con sujeto singular se usa “is”: “what defines... is”."],
+      ["translate","Traduce con estructura enfática: “Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva.”",["What truly defines consciousness is behavior alone, not subjective experience.", "What truly defined consciousness is not behavior alone, but subjective experience.", "What truly defines consciousness is not behavior alone, but subjective experience.", "What defines consciousness truly is not behavior alone, but subjective experience."],2,"La cleft sentence mantiene “what + verbo + is + complemento”, con “truly” antes del verbo."],
+      ["arrange","Ordena: [debate / free / still / philosophers / will]",["still philosophers will free debate", "will still debate philosophers free", "still philosophers debate free will", "philosophers still debate free will"],3,"Sujeto + adverbio + verbo + sustantivo compuesto."],
+      ["writing","Escribe en inglés, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una oración hendida (“what... is...” o “it is... that...”).",[],["what truly defines", "consciousness", "free will"]],
     ]
   },
 ];
