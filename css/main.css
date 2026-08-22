@@ -977,3 +977,72 @@ box-shadow:var(--card-elev);}
 @keyframes lpBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 @keyframes lpBadgeBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
 .ex-production-card{background:linear-gradient(145deg,color-mix(in srgb,var(--sky) 12%,var(--card)),var(--card));border:1px solid color-mix(in srgb,var(--sky) 30%,var(--border))}.ex-production-tip{margin:12px 0;color:var(--muted);font-size:13px;line-height:1.5}.ex-production-input{width:100%;resize:vertical;min-height:130px;border:1px solid var(--border);border-radius:14px;background:var(--card2);color:var(--text);padding:13px;font:500 14px/1.55 var(--ff);outline:none}.ex-production-input:focus{border-color:var(--sky);box-shadow:0 0 0 3px color-mix(in srgb,var(--sky) 14%,transparent)}.ex-production-mic{width:100%;margin-top:10px;border:1px solid var(--sky);border-radius:12px;background:color-mix(in srgb,var(--sky) 12%,var(--card));color:var(--sky);padding:11px;font:800 12px var(--fh);cursor:pointer}
+
+/* ═══════════════════════════════════════════════════════════
+   SITUACIONES — rediseño (fondos por situación, ruta de lecciones,
+   "Estoy allí ahora": escanear + videollamada)
+   ═══════════════════════════════════════════════════════════ */
+
+/* Miniatura de fondo en el grid de situaciones */
+.sit-card{background-image:linear-gradient(180deg,color-mix(in srgb,var(--card) 55%,transparent),var(--card) 78%),var(--sit-bg);background-size:cover;background-position:center}
+.sit-ic{background:color-mix(in srgb, var(--accent) 30%, rgba(0,0,0,.35));backdrop-filter:blur(2px)}
+
+/* Planificador con foto hero de la situación */
+.sit-planner-hero{position:relative;overflow:hidden;border-radius:14px;padding:0;border-bottom:none;min-height:118px;display:block}
+.sit-planner-hero-bg{position:absolute;inset:0;background-image:var(--sit-bg);background-size:cover;background-position:center}
+.sit-planner-hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.62))}
+.sit-planner-hero-fg{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:18px 14px;min-height:118px}
+.sit-planner-hero-fg>span{font-size:32px;width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(255,255,255,.16);backdrop-filter:blur(3px)}
+.sit-planner-hero-fg h2{margin:0;font:800 16px var(--fh);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.sit-planner-hero-fg p{margin:3px 0 0;color:rgba(255,255,255,.88);font-size:11px}
+.sit-action small,.sit-action-secondary small,.sit-action-urgent small{display:block;font:600 9.5px var(--fb);opacity:.8;margin-top:2px;text-transform:none;letter-spacing:0}
+
+/* Fondo inmersivo del chat cuando se practica una situación ("Practicar con IA") */
+.chat-scene-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
+.chat-scene-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,.28) 0%,rgba(10,10,16,.55) 55%,var(--bg) 100%)}
+.ai-scene{position:relative;z-index:1}
+.ai-scene.in-situation .ai-scene-glow{opacity:.35}
+.ai-scene.in-situation .mascot-video-zoom{filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
+.ai-scene.in-situation .ai-scene-bubble{background:color-mix(in srgb, var(--card) 78%, transparent);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.12)}
+.chat-messages{position:relative;z-index:1}
+.chat-messages .msg{backdrop-filter:blur(2px)}
+
+/* "Estoy allí ahora" */
+.sit-live-bg{position:absolute;inset:0;top:44px;height:150px;background-size:cover;background-position:center;z-index:0}
+.sit-live-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,.15),var(--bg) 92%)}
+.sit-live-body{position:relative;z-index:1;padding:110px 14px 90px;display:flex;flex-direction:column;gap:12px}
+.sit-live-intro{font-family:var(--fh);font-weight:800;font-size:15px;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5);margin-bottom:2px}
+.sit-live-card{display:flex;align-items:center;gap:12px;text-align:left;border:0;border-radius:16px;padding:15px;background:var(--card);box-shadow:var(--card-elev);cursor:pointer}
+.sit-live-card-ic{font-size:28px;width:52px;height:52px;flex-shrink:0;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb, var(--gold) 18%, var(--card2))}
+.sit-live-card-t{font:800 13px var(--fh);color:var(--text)}
+.sit-live-card-s{font:500 11px/1.4 var(--fb);color:var(--muted);margin-top:3px}
+
+/* Escanear (OCR) */
+.scan-shell{padding:16px 14px 80px}
+.scan-intro{display:flex;flex-direction:column;align-items:center;text-align:center;padding:60px 20px;gap:8px}
+.scan-intro-ic{font-size:46px;margin-bottom:4px}
+.scan-intro-t{font:800 17px var(--fh);color:var(--text)}
+.scan-intro-s{font-size:13px;color:var(--muted);max-width:280px;line-height:1.5;margin-bottom:8px}
+.scan-cta{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:13px 20px;border-radius:14px;background:var(--gold);color:#231806;font:800 13px var(--fh);cursor:pointer;box-shadow:0 4px 0 color-mix(in srgb,var(--gold) 55%,black)}
+.scan-cta-ghost{background:var(--card2);color:var(--text);box-shadow:none;border:1px solid var(--border);margin-top:6px}
+.scan-result{display:flex;flex-direction:column;gap:12px}
+.scan-photo{width:100%;max-height:230px;object-fit:cover;border-radius:14px;box-shadow:var(--card-elev)}
+.scan-status{font:700 12px var(--fh);color:var(--muted);text-align:center}
+.scan-textbox{background:var(--card);border-radius:14px;padding:13px;box-shadow:var(--card-elev)}
+.scan-textbox-label{font:800 10px var(--fh);color:var(--gold);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.scan-textbox-body{font:500 13px/1.55 var(--ff);color:var(--text);white-space:pre-wrap}
+.scan-actions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.scan-actions button{border:0;border-radius:12px;padding:11px;background:var(--card2);color:var(--text);font:800 11.5px var(--fh);cursor:pointer;box-shadow:var(--card-elev)}
+.scan-ai-reply{background:color-mix(in srgb, var(--sky) 10%, var(--card));border:1px solid color-mix(in srgb, var(--sky) 30%, var(--border));border-radius:14px;padding:12px;font:500 13px/1.5 var(--ff);color:var(--text)}
+
+/* Videollamada */
+.lc-video-wrap{position:relative;width:100%;aspect-ratio:4/3;background:#000;overflow:hidden}
+.lc-video{width:100%;height:100%;object-fit:cover}
+.lc-status{position:absolute;left:0;right:0;bottom:0;padding:10px 12px;text-align:center;font:700 12px var(--fh);color:#fff;background:linear-gradient(0deg,rgba(0,0,0,.65),transparent)}
+.lc-log{flex:1;overflow-y:auto;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.lc-line{max-width:88%;padding:9px 12px;border-radius:14px;font:500 12.5px/1.45 var(--ff)}
+.lc-line.lc-user{align-self:flex-end;background:var(--gold);color:#231806}
+.lc-line.lc-ai{align-self:flex-start;background:var(--card2);color:var(--text)}
+.lc-controls{display:flex;gap:10px;padding:12px 14px calc(env(safe-area-inset-bottom,0px) + 12px)}
+.lc-btn{flex:1;border:0;border-radius:14px;padding:13px;background:var(--card2);color:var(--text);font:800 12.5px var(--fh);cursor:pointer;box-shadow:var(--card-elev)}
+.lc-btn-end{background:var(--coral);color:#30100b;box-shadow:0 3px 0 color-mix(in srgb,var(--coral) 55%,black)}
