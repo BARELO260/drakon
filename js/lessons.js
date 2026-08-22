@@ -69,7 +69,12 @@ const LessonEngine = {
 
   /* ── Iniciar lección ────────────────── */
   start(lessonId) {
-    const lessons = getLessonsForLang(_activeLessonLangCode());
+    // Las lecciones contextuales de "Situaciones" (id con prefijo "sit_")
+    // viven en un banco aparte (js/situations-data.js) — ver
+    // getAllSituationLessonsFlat(). El motor de ejercicios es el mismo.
+    const lessons = String(lessonId).startsWith('sit_') && typeof getAllSituationLessonsFlat === 'function'
+      ? getAllSituationLessonsFlat(_activeLessonLangCode())
+      : getLessonsForLang(_activeLessonLangCode());
     const lesson = lessons.find(l => l.id === lessonId);
     if (!lesson) return;
 
@@ -937,6 +942,18 @@ function exitEx() {
   }
   if (typeof ttsStopAll === 'function') ttsStopAll();
   LessonEngine._listenVizStop();
+
+  // Si veníamos de una lección de "Enséñame primero" (id "sit_<situacion>_..."),
+  // volvemos a la ruta de esa situación en vez del tab de Lecciones normal.
+  const lessonId = LessonEngine.lesson && LessonEngine.lesson.id;
+  if (lessonId && String(lessonId).startsWith('sit_') && typeof openSituationLessons === 'function') {
+    const key = String(lessonId).replace(/^sit_/, '').split('_')[0];
+    if (key && typeof getSituation === 'function' && getSituation(key)) {
+      openSituationLessons(key);
+      return;
+    }
+  }
+
   goTo('screen-main');
   switchTab('lessons');
 }
