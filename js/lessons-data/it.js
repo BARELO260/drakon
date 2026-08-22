@@ -2443,4 +2443,154 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi 55-75 parole analizzando uno studio scientifico (reale o inventato) con risultati preliminari, usando almeno due espressioni di attenuazione epistemica.",[],["si potrebbe dire che", "i dati suggeriscono", "incertezza"]],
     ]
   },
+  {
+    id:"it_a1_weather_seasons", level:"A1", title:"Il tempo e le stagioni", emoji:"☀️", xp:38,
+    description:"Impara a descrivere il tempo e le stagioni in italiano con “fa/c'è”.",
+    study: {
+      vocab: [
+        ["soleggiato", "sunny"],
+        ["piovoso", "rainy"],
+        ["freddo", "cold"],
+        ["caldo", "hot"],
+        ["la primavera", "spring"],
+        ["l'inverno", "winter"],
+      ],
+      grammar: [
+        ["“Fa/C'è” per il tempo", "Per il tempo si usa “fa” + aggettivo (“fa freddo”, “fa caldo”) o “c'è” + sostantivo (“c'è il sole”). Per la pioggia: “piove” (verbo impersonale).", "Oggi c'è il sole. / In primavera piove spesso."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en italiano?",["freddo", "hot", "sunny", "cold"],0,"“Cold” es “freddo” en italiano."],
+      ["mcq","¿Cómo se dice “rainy” en italiano?",["piovoso", "hot", "cold", "winter"],0,"“Rainy” es “piovoso” en italiano."],
+      ["fill","Completa: “Oggi il tempo è molto ___, porta l'ombrello.”",["piovoso", "freddo", "soleggiato", "caldo"],0,"“Piovoso” describe un clima con lluvia: “è piovoso”."],
+      ["translate","Traduce: “It's very cold in winter.”",["È molto freddo in inverno.", "Fa molto freddo in inverno.", "Fa molto caldo in inverno.", "Fa molto freddo in estate."],1,"“It's very cold” se traduce como “fa molto freddo”, con el verbo impersonal “fare”."],
+      ["arrange","Ordena: [sole / oggi / c'è / il]",["c'è il oggi sole", "sole c'è il oggi", "oggi sole c'è il", "oggi c'è il sole"],3,"Adverbio de tiempo + verbo impersonal + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “fa” y “c'è”.",[],["fa", "c'è", "freddo"]],
+    ]
+  },
+  {
+    id:"it_a2_pet_care", level:"A2", title:"La cura degli animali domestici", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “dovere” para obligaciones en italiano.",
+    study: {
+      vocab: [
+        ["dar da mangiare all'animale", "to feed the pet"],
+        ["portare a spasso il cane", "to walk the dog"],
+        ["il veterinario", "the veterinarian"],
+        ["vaccinare", "to vaccinate"],
+        ["la lettiera", "the litter box"],
+        ["adottare un animale", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Dovere” para obligaciones", "“Dovere” + infinitivo expresa una obligación o necesidad cotidiana.", "Devo portare a spasso il cane ogni mattina. / Lei deve dar da mangiare al gatto due volte al giorno."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en italiano?",["il veterinario", "to feed the pet", "to adopt a pet", "to vaccinate"],0,"“The veterinarian” es “il veterinario” en italiano."],
+      ["mcq","¿Cómo se dice “to vaccinate” en italiano?",["to vaccinate", "to walk the dog", "the litter box", "vaccinare"],3,"“To vaccinate” es “vaccinare” en italiano."],
+      ["fill","Completa: “___ portare a spasso il cane ogni mattina.”",["Devi", "Dobbiamo", "Devo", "Deve"],2,"“Dovere” con “io” se conjuga como “devo”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Ho dovuto dar da mangiare all'animale due volte al giorno.", "Devo dar da mangiare all'animale una volta al giorno.", "Devo dar da mangiare all'animale due volte al giorno.", "Devo portare a spasso l'animale due volte al giorno."],2,"“I have to feed” se traduce con “devo dar da mangiare”, obligación en presente."],
+      ["arrange","Ordena: [deve / cane / lei / spasso / il / a / portare]",["lei cane il spasso deve portare a", "lei deve portare a spasso il cane", "a lei portare cane spasso deve il", "a deve portare cane spasso lei il"],1,"Sujeto + “deve” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, tu rutina de cuidado de una mascota usando “dovere”.",[],["devo", "deve", "animale"]],
+    ]
+  },
+  {
+    id:"it_b1_startups_entrepreneurship", level:"B1", title:"L'imprenditoria e le start-up", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “stare per”/futuro para planes en italiano.",
+    study: {
+      vocab: [
+        ["la start-up", "startup"],
+        ["lanciare un prodotto", "to launch a product"],
+        ["l'investitore", "investor"],
+        ["il piano aziendale", "business plan"],
+        ["correre un rischio", "to take a risk"],
+        ["far crescere un'azienda", "to scale a business"],
+      ],
+      grammar: [
+        ["Futuro semplice para planes", "El futuro semplice expresa un plan o intención decidida, similar a “going to” en inglés cuando el plan ya está claro.", "Lanceremo il prodotto il mese prossimo. / Lei cercherà investitori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en italiano?",["startup", "business plan", "to launch a product", "l'investitore"],3,"“Investor” es “l'investitore” en italiano."],
+      ["mcq","¿Cómo se dice “to take a risk” en italiano?",["startup", "correre un rischio", "business plan", "to take a risk"],1,"“To take a risk” es “correre un rischio” en italiano."],
+      ["fill","Completa: “___ il prodotto il mese prossimo.”",["Lancerò", "Lancerete", "Lanceremo", "Lanciamo"],2,"El futuro con “noi” se conjuga como “lanceremo”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Lanceremo il prodotto il mese prossimo.", "Lanciamo il prodotto il mese prossimo.", "Lanceremo il prodotto questo mese.", "Lanceremo l'azienda il mese prossimo."],0,"“We are going to launch” se traduce con el futuro semplice: “lanceremo”."],
+      ["arrange","Ordena: [cercherà / investitori / lei]",["cercherà lei investitori", "investitori cercherà lei", "lei cercherà investitori", "investitori lei cercherà"],2,"Sujeto + futuro + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando el futuro semplice para tus planes.",[],["lancerò", "start-up", "investitori"]],
+    ]
+  },
+  {
+    id:"it_b2_space_exploration", level:"B2", title:"L'esplorazione spaziale", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futuro anteriore en italiano.",
+    study: {
+      vocab: [
+        ["la missione spaziale", "space mission"],
+        ["l'astronauta", "astronaut"],
+        ["orbitare", "to orbit"],
+        ["il lancio del razzo", "rocket launch"],
+        ["lo spazio esterno", "outer space"],
+        ["la stazione spaziale", "space station"],
+      ],
+      grammar: [
+        ["Futuro anteriore para logros futuros", "El futuro anteriore (“avrà/sarà” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Entro il 2030, gli astronauti saranno atterrati su Marte. / Il razzo avrà raggiunto l'orbita entro allora."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en italiano?",["space mission", "astronaut", "rocket launch", "la stazione spaziale"],3,"“Space station” es “la stazione spaziale” en italiano."],
+      ["mcq","¿Cómo se dice “to orbit” en italiano?",["orbitare", "outer space", "to orbit", "rocket launch"],0,"“To orbit” es “orbitare” en italiano."],
+      ["fill","Completa: “Entro il 2030, gli astronauti ___ atterrati su Marte.”",["saranno", "sono", "erano", "sarebbero"],0,"El futuro anteriore usa “saranno” + participio: “saranno atterrati”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Entro il 2030, gli astronauti sarebbero atterrati su Marte.", "Entro il 2030, gli astronauti atterreranno su Marte.", "Entro il 2030, gli astronauti saranno atterrati su Marte.", "Entro il 2030, gli astronauti sono atterrati su Marte."],2,"“Will have landed” se traduce con futuro anteriore: “saranno atterrati”."],
+      ["arrange","Ordena: [presto / razzo / orbita / il / l' / raggiungerà]",["l'orbita presto il razzo raggiungerà", "il l'orbita presto razzo raggiungerà", "il razzo raggiungerà l'orbita presto", "l'orbita raggiungerà il presto razzo"],2,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futuro anteriore (“saranno...”) al menos dos veces.",[],["saranno", "missione spaziale", "astronauta"]],
+    ]
+  },
+  {
+    id:"it_c1_ai_ethics", level:"C1", title:"L'etica e la regolamentazione dell'intelligenza artificiale", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la forma passiva en registro formal en italiano.",
+    study: {
+      vocab: [
+        ["l'intelligenza artificiale", "artificial intelligence"],
+        ["il pregiudizio algoritmico", "algorithmic bias"],
+        ["la responsabilità", "accountability"],
+        ["la privacy dei dati", "data privacy"],
+        ["regolamentare", "to regulate"],
+        ["le conseguenze indesiderate", "unintended consequences"],
+      ],
+      grammar: [
+        ["La forma passiva in registro formale/accademico", "La forma passiva (“essere” + participio) se usa en italiano formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi. / Il pregiudizio algoritmico è stato documentato in diversi studi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en italiano?",["la responsabilità", "data privacy", "unintended consequences", "to regulate"],0,"“Accountability” es “la responsabilità” en italiano."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en italiano?",["algorithmic bias", "il pregiudizio algoritmico", "artificial intelligence", "unintended consequences"],1,"“Algorithmic bias” es “il pregiudizio algoritmico” en italiano."],
+      ["fill","Completa: “Questi sistemi dovrebbero essere ___ per evitare pregiudizi.”",["regolamentando", "regolamentare", "regolamenta", "regolamentati"],3,"La forma passiva con modal usa “essere” + participio: “dovrebbero essere regolamentati”."],
+      ["translate","Traduce con forma passiva: “These systems should be regulated to prevent bias.”",["Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi.", "Questi sistemi devono essere regolamentati per evitare pregiudizi.", "Questi sistemi dovrebbero essere regolamentati per evitare un pregiudizio.", "Questi sistemi dovrebbero regolamentare per evitare pregiudizi."],0,"“Should be regulated” se traduce con forma passiva: “dovrebbero essere regolamentati”."],
+      ["arrange","Ordena: [regolamentati / algoritmi / essere / dovrebbero / gli]",["regolamentati essere gli algoritmi dovrebbero", "essere dovrebbero gli algoritmi regolamentati", "dovrebbero algoritmi gli essere regolamentati", "gli algoritmi dovrebbero essere regolamentati"],3,"Artículo + sustantivo + condizionale + “essere” + participio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en forma passiva.",[],["dovrebbero essere regolamentati", "pregiudizio algoritmico", "responsabilità"]],
+    ]
+  },
+  {
+    id:"it_c2_philosophy_of_mind", level:"C2", title:"La filosofia della mente e la coscienza", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando frasi scisse (estructuras enfáticas) en italiano.",
+    study: {
+      vocab: [
+        ["la coscienza", "consciousness"],
+        ["l'esperienza soggettiva", "subjective experience"],
+        ["l'esperimento mentale", "thought experiment"],
+        ["il libero arbitrio", "free will"],
+        ["l'autoconsapevolezza", "self-awareness"],
+        ["il problema mente-corpo", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Frasi scisse (“ciò che... è...”) para énfasis", "Las frasi scisse (“ciò che... è...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en italiano?",["self-awareness", "consciousness", "subjective experience", "l'esperimento mentale"],3,"“Thought experiment” es “l'esperimento mentale” en italiano."],
+      ["mcq","¿Cómo se dice “free will” en italiano?",["self-awareness", "subjective experience", "il libero arbitrio", "consciousness"],2,"“Free will” es “il libero arbitrio” en italiano."],
+      ["fill","Completa: “Ciò che davvero definisce la coscienza non ___ solo il comportamento.”",["era", "sono", "è", "sia"],2,"En frasi scisse con sujeto singular se usa “è”: “ciò che definisce... non è”."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che davvero definisce la coscienza è solo il comportamento, non l'esperienza soggettiva.", "Ciò che davvero definì la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che definisce davvero la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],0,"La frase scissa mantiene “ciò che + verbo + non è solo... ma...”, con “davvero” justo antes del verbo."],
+      ["arrange","Ordena: [arbitrio / dibattono / ancora / filosofi / il / libero / i]",["i arbitrio libero il ancora dibattono filosofi", "arbitrio libero i dibattono filosofi il ancora", "dibattono arbitrio i filosofi ancora il libero", "i filosofi dibattono ancora il libero arbitrio"],3,"Artículo + sustantivo + verbo + adverbio + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una frase scissa (“ciò che... è...”).",[],["ciò che davvero definisce", "coscienza", "libero arbitrio"]],
+    ]
+  },
 ];
