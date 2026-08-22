@@ -538,11 +538,25 @@
   </div>
   <div class="lc-video-wrap">
     <video id="liveCallVideo" class="lc-video" autoplay playsinline muted></video>
+    <div class="lc-scrim"></div>
+    <!-- Reutiliza el MISMO sistema de mascota (idle/speak/laugh) que el chat
+         normal: mascot.js actualiza TODOS los .ai-scene del documento a la
+         vez, así que este bloque se anima solo, sin código extra. -->
+    <div class="ai-scene ai-scene-sm lc-mascot-pip" id="liveCallMascotStage">
+      <div class="ai-scene-media">
+        <div class="ai-scene-glow"></div>
+        <div class="mascot-video-zoom">
+          <video class="mascot-video" muted playsinline autoplay loop preload="auto"></video>
+        </div>
+        <div class="mascot-status"></div>
+      </div>
+    </div>
+    <div class="lc-caption" id="liveCallCaption"></div>
     <div class="lc-status" id="liveCallStatus">📷 Iniciando…</div>
   </div>
   <div class="lc-log" id="liveCallLog"></div>
   <div class="lc-controls">
-    <button class="lc-btn" onclick="liveCallLookAtView()">👀 Mira esto</button>
+    <button class="lc-btn" id="lcLookBtn" onclick="liveCallLookAtView()">👀 Mira esto</button>
     <button class="lc-btn lc-btn-end" onclick="stopLiveCall()">📴 Terminar</button>
   </div>
 </div>
