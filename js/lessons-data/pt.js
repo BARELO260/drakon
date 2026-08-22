@@ -2443,4 +2443,154 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva 55-75 palavras analisando um estudo científico (real ou inventado) com resultados preliminares, usando pelo menos duas expressões de matização epistêmica.",[],["poderia se dizer que", "os dados sugerem", "incerteza"]],
     ]
   },
+  {
+    id:"pt_a1_weather_seasons", level:"A1", title:"O clima e as estações", emoji:"☀️", xp:38,
+    description:"Aprenda a descrever o clima e as estações do ano em português com “está/faz”.",
+    study: {
+      vocab: [
+        ["ensolarado", "sunny"],
+        ["chuvoso", "rainy"],
+        ["frio", "cold"],
+        ["quente", "hot"],
+        ["a primavera", "spring"],
+        ["o inverno", "winter"],
+      ],
+      grammar: [
+        ["“Está/Faz” para o clima", "Para o clima usa-se “está” + adjetivo (“está frio”) ou “faz” + sustantivo (“faz calor”). Para chuva: “está chovendo”.", "Hoje está ensolarado. / Na primavera, está chovendo com frequência."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en portugués?",["frio", "hot", "sunny", "rainy"],0,"“Cold” es “frio” en portugués."],
+      ["mcq","¿Cómo se dice “rainy” en portugués?",["chuvoso", "cold", "sunny", "spring"],0,"“Rainy” es “chuvoso” en portugués."],
+      ["fill","Completa: “Hoje o tempo está muito ___, leve um guarda-chuva.”",["ensolarado", "frio", "quente", "chuvoso"],3,"“Chuvoso” describe un clima con lluvia: “está chuvoso”."],
+      ["translate","Traduce: “It's very cold in winter.”",["Está muito frio no inverno.", "Está muito frio no verão.", "Faz muito frio no inverno todo dia.", "Está muito quente no inverno."],0,"“It's very cold” se traduce como “está muito frio”, con “estar” + adjetivo."],
+      ["arrange","Ordena: [ensolarado / hoje / está]",["ensolarado está hoje", "está ensolarado hoje", "hoje está ensolarado", "está hoje ensolarado"],2,"Adverbio de tiempo + verbo + adjetivo."],
+      ["writing","Descreva em português, em 20-30 palavras, o clima da sua cidade nas quatro estações, usando “está” e “faz”.",[],["está", "faz", "frio"]],
+    ]
+  },
+  {
+    id:"pt_a2_pet_care", level:"A2", title:"O cuidado com animais de estimação", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario de mascotas y a usar “ter que” para obligaciones en portugués.",
+    study: {
+      vocab: [
+        ["alimentar o animal", "to feed the pet"],
+        ["passear com o cachorro", "to walk the dog"],
+        ["o veterinário", "the veterinarian"],
+        ["vacinar", "to vaccinate"],
+        ["a caixa de areia", "the litter box"],
+        ["adotar um animal", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Ter que” para obligaciones", "“Ter que” + infinitivo expresa una obligación o necesidad cotidiana.", "Eu tenho que passear com o cachorro todas as manhãs. / Ela tem que alimentar o gato duas vezes ao dia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en portugués?",["to walk the dog", "to vaccinate", "to feed the pet", "o veterinário"],3,"“The veterinarian” es “o veterinário” en portugués."],
+      ["mcq","¿Cómo se dice “to vaccinate” en portugués?",["to vaccinate", "vacinar", "the litter box", "to walk the dog"],1,"“To vaccinate” es “vacinar” en portugués."],
+      ["fill","Completa: “Eu ___ que passear com o cachorro todas as manhãs.”",["tinha", "temos", "tenho", "tem"],2,"“Ter que” con “eu” se conjuga como “tenho que”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Eu tive que alimentar o animal duas vezes ao dia.", "Eu tenho que alimentar o animal duas vezes ao dia.", "Eu tenho que alimentar o animal uma vez ao dia.", "Eu tenho que passear com o animal duas vezes ao dia."],1,"“I have to feed” se traduce con “eu tenho que alimentar”, obligación en presente."],
+      ["arrange","Ordena: [tem / cachorro / ela / passear / com / que / o]",["o passear com ela que cachorro tem", "cachorro tem passear ela o com que", "tem o que cachorro ela com passear", "ela tem que passear com o cachorro"],3,"Sujeto + “tem que” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Descreva em português, em 20-30 palavras, sua rotina de cuidado com um animal de estimação usando “ter que”.",[],["tenho que", "tem que", "animal"]],
+    ]
+  },
+  {
+    id:"pt_b1_startups_entrepreneurship", level:"B1", title:"O empreendedorismo e as startups", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “ir” (futuro próximo) para planes en portugués.",
+    study: {
+      vocab: [
+        ["a startup", "startup"],
+        ["lançar um produto", "to launch a product"],
+        ["o investidor", "investor"],
+        ["o plano de negócios", "business plan"],
+        ["assumir um risco", "to take a risk"],
+        ["escalar um negócio", "to scale a business"],
+      ],
+      grammar: [
+        ["“Ir” + infinitivo (futuro próximo) para planes", "“Ir” + infinitivo expresa un plan o intención ya decidida, el equivalente al “going to” en inglés.", "Vamos lançar o produto no mês que vem. / Ela vai procurar investidores."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en portugués?",["o investidor", "to scale a business", "to take a risk", "startup"],0,"“Investor” es “o investidor” en portugués."],
+      ["mcq","¿Cómo se dice “to take a risk” en portugués?",["assumir um risco", "business plan", "to take a risk", "investor"],0,"“To take a risk” es “assumir um risco” en portugués."],
+      ["fill","Completa: “___ lançar o produto no mês que vem.”",["Vão", "Vai", "Vou", "Vamos"],3,"“Ir” con “nós” se conjuga como “vamos”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Vamos lançar o produto no mês que vem.", "Vamos lançar o produto neste mês.", "Vamos lançar o negócio no mês que vem.", "Lançamos o produto no mês que vem."],0,"“We are going to launch” se traduce con “vamos lançar”, futuro próximo."],
+      ["arrange","Ordena: [vai / investidores / ela / procurar]",["ela vai procurar investidores", "investidores ela vai procurar", "investidores vai ela procurar", "ela vai investidores procurar"],0,"Sujeto + “vai” + verbo + sustantivo."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre uma ideia de startup que você gostaria de lançar, usando “ir” para seus planos.",[],["vou", "startup", "investidores"]],
+    ]
+  },
+  {
+    id:"pt_b2_space_exploration", level:"B2", title:"A exploração espacial", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futuro do subjuntivo composto en portugués.",
+    study: {
+      vocab: [
+        ["a missão espacial", "space mission"],
+        ["o astronauta", "astronaut"],
+        ["orbitar", "to orbit"],
+        ["o lançamento do foguete", "rocket launch"],
+        ["o espaço sideral", "outer space"],
+        ["a estação espacial", "space station"],
+      ],
+      grammar: [
+        ["Futuro do presente composto para logros futuros", "El futuro composto (“terá” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Até 2030, os astronautas terão pousado em Marte. / O foguete terá alcançado a órbita até lá."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en portugués?",["astronaut", "rocket launch", "outer space", "a estação espacial"],3,"“Space station” es “a estação espacial” en portugués."],
+      ["mcq","¿Cómo se dice “to orbit” en portugués?",["astronaut", "to orbit", "orbitar", "rocket launch"],2,"“To orbit” es “orbitar” en portugués."],
+      ["fill","Completa: “Até 2030, os astronautas ___ pousado em Marte.”",["têm", "terão", "tinham", "teriam"],1,"El futuro composto usa “terão” + participio: “terão pousado”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Até 2030, os astronautas teriam pousado em Marte.", "Até 2030, os astronautas têm pousado em Marte.", "Até 2030, os astronautas terão pousado em Marte.", "Até 2030, os astronautas vão pousar em Marte."],2,"“Will have landed” se traduce con futuro composto: “terão pousado”."],
+      ["arrange","Ordena: [em / foguete / órbita / breve / atingirá / o / a]",["o foguete a breve órbita em atingirá", "o foguete atingirá a órbita em breve", "foguete atingirá a órbita breve o em", "a foguete órbita o breve atingirá em"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + preposición + adverbio."],
+      ["writing","Escreva em português, em 55-75 palavras, uma previsão sobre o futuro da exploração espacial usando o futuro composto (“terão...”) pelo menos duas vezes.",[],["terão", "missão espacial", "astronauta"]],
+    ]
+  },
+  {
+    id:"pt_c1_ai_ethics", level:"C1", title:"A ética e a regulamentação da inteligência artificial", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la voz pasiva en registro formal en portugués.",
+    study: {
+      vocab: [
+        ["a inteligência artificial", "artificial intelligence"],
+        ["o viés algorítmico", "algorithmic bias"],
+        ["a responsabilização", "accountability"],
+        ["a privacidade de dados", "data privacy"],
+        ["regulamentar", "to regulate"],
+        ["as consequências não intencionais", "unintended consequences"],
+      ],
+      grammar: [
+        ["A voz passiva em registro formal/acadêmico", "La voz pasiva (“ser” + participio) se usa en portugués formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Esses sistemas deveriam ser regulamentados para evitar vieses. / O viés algorítmico foi documentado em vários estudos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en portugués?",["a responsabilização", "to regulate", "unintended consequences", "accountability"],0,"“Accountability” es “responsabilização” en portugués."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en portugués?",["unintended consequences", "accountability", "o viés algorítmico", "data privacy"],2,"“Algorithmic bias” es “viés algorítmico” en portugués."],
+      ["fill","Completa: “Esses sistemas deveriam ser ___ para evitar vieses.”",["regulamentados", "regulamentando", "regulamenta", "regulamentar"],0,"La voz pasiva con modal usa “ser” + participio: “deveriam ser regulamentados”."],
+      ["translate","Traduce con voz pasiva: “These systems should be regulated to prevent bias.”",["Esses sistemas deveriam ser regulamentados para evitar um viés.", "Esses sistemas deveriam regulamentar para evitar vieses.", "Esses sistemas deveriam ser regulamentados para evitar vieses.", "Esses sistemas devem ser regulamentados para evitar vieses."],2,"“Should be regulated” se traduce con voz pasiva: “deveriam ser regulamentados”."],
+      ["arrange","Ordena: [regulamentados / algoritmos / ser / deveriam / os]",["ser deveriam os algoritmos regulamentados", "os algoritmos regulamentados deveriam ser", "deveriam algoritmos ser regulamentados os", "os algoritmos deveriam ser regulamentados"],3,"Artículo + sustantivo + futuro do pretérito + “ser” + participio."],
+      ["writing","Escreva em português, em 55-75 palavras, um argumento ético sobre a inteligência artificial usando pelo menos uma construção em voz passiva.",[],["deveriam ser regulamentados", "viés algorítmico", "responsabilização"]],
+    ]
+  },
+  {
+    id:"pt_c2_philosophy_of_mind", level:"C2", title:"A filosofia da mente e a consciência", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando frases clivadas (estructuras enfáticas) en portugués.",
+    study: {
+      vocab: [
+        ["a consciência", "consciousness"],
+        ["a experiência subjetiva", "subjective experience"],
+        ["o experimento mental", "thought experiment"],
+        ["o livre-arbítrio", "free will"],
+        ["a autoconsciência", "self-awareness"],
+        ["o problema mente-corpo", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Frases clivadas (“o que... é...”) para énfasis", "Las frases clivadas (“o que... é...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "O que realmente define a consciência não é apenas o comportamento, mas a experiência subjetiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en portugués?",["o experimento mental", "subjective experience", "free will", "the mind-body problem"],0,"“Thought experiment” es “o experimento mental” en portugués."],
+      ["mcq","¿Cómo se dice “free will” en portugués?",["o livre-arbítrio", "the mind-body problem", "free will", "subjective experience"],0,"“Free will” es “o livre-arbítrio” en portugués."],
+      ["fill","Completa: “O que realmente define a consciência não ___ apenas o comportamento.”",["é", "são", "seja", "era"],0,"En frases clivadas con sujeto singular se usa “é”: “o que define... não é”."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["O que realmente define a consciência é apenas o comportamento, não a experiência subjetiva.", "O que realmente define a consciência não é apenas o comportamento, mas a experiência subjetiva.", "O que define realmente a consciência não é apenas o comportamento, mas a experiência subjetiva.", "O que realmente definiu a consciência não é apenas o comportamento, mas a experiência subjetiva."],1,"La frase clivada mantiene “o que + verbo + não é apenas... mas...”, con “realmente” antes del verbo."],
+      ["arrange","Ordena: [arbítrio / debatem / ainda / filósofos / o / livre / os]",["ainda o filósofos arbítrio livre os debatem", "os filósofos ainda debatem o livre arbítrio", "ainda debatem arbítrio os filósofos o livre", "debatem livre ainda filósofos o os arbítrio"],1,"Artículo + sustantivo + adverbio + verbo + artículo + sustantivo compuesto."],
+      ["writing","Escreva em português, em 55-75 palavras, sua própria posição sobre o livre-arbítrio ou a consciência, usando pelo menos uma frase clivada (“o que... é...”).",[],["o que realmente define", "consciência", "livre-arbítrio"]],
+    ]
+  },
 ];
