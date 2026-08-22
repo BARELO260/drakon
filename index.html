@@ -407,6 +407,7 @@
     <button class="tts-btn" id="saveChatBtn" onclick="saveCurrentChat()" title="Guardar chat" style="font-size:13px">💾</button>
     <span class="chat-lp" id="chatLangP">EN</span>
   </div>
+  <div class="chat-scene-bg" id="chatSceneBg" style="display:none"></div>
   <div class="ai-scene is-idle" id="mascotStage">
     <div class="ai-scene-media">
       <div class="ai-scene-glow"></div>
@@ -483,6 +484,67 @@
   </div>
   <div style="padding:10px 11px 8px;font-size:11px;color:var(--muted)">Practica en contextos del mundo real 🌍</div>
   <div class="sit-grid" id="sitGrid"></div>
+</div>
+
+<!-- SITUATION LESSONS ("Enséñame primero") -->
+<div class="screen" id="screen-situation-lessons">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situations')">←</button>
+    <span class="chat-title" id="sitLessonsTitle">Lecciones</span>
+  </div>
+  <div class="lessons-wrap" id="sitLessonList" style="padding-bottom:80px"></div>
+</div>
+
+<!-- SITUATION LIVE ("Estoy allí ahora") -->
+<div class="screen" id="screen-situation-live">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situations')">←</button>
+    <span class="chat-title" id="sitLiveTitle">Ahora mismo</span>
+  </div>
+  <div class="sit-live-bg" id="sitLiveBg"></div>
+  <div class="sit-live-body">
+    <div class="sit-live-intro">¿Qué necesitas ahora mismo?</div>
+    <button class="sit-live-card" onclick="openScan()">
+      <span class="sit-live-card-ic">📷</span>
+      <div class="sit-live-card-txt">
+        <div class="sit-live-card-t">Escanear</div>
+        <div class="sit-live-card-s">Apunta la cámara a un menú, cartel o documento y Drakón lo traduce.</div>
+      </div>
+    </button>
+    <button class="sit-live-card" onclick="startLiveCall(state._activeSituation)">
+      <span class="sit-live-card-ic">🎥</span>
+      <div class="sit-live-card-txt">
+        <div class="sit-live-card-t">Videollamada con Drakón</div>
+        <div class="sit-live-card-s">Habla en voz alta y Drakón te responde en tiempo real, viendo lo que ves.</div>
+      </div>
+    </button>
+  </div>
+</div>
+
+<!-- SCAN (OCR) -->
+<div class="screen" id="screen-scan">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situation-live')">←</button>
+    <span class="chat-title">📷 Escanear</span>
+  </div>
+  <div id="scanShell" class="scan-shell"></div>
+</div>
+
+<!-- LIVE CALL -->
+<div class="screen" id="screen-livecall">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="stopLiveCall()">✕</button>
+    <span class="chat-title">🎥 Videollamada con Drakón</span>
+  </div>
+  <div class="lc-video-wrap">
+    <video id="liveCallVideo" class="lc-video" autoplay playsinline muted></video>
+    <div class="lc-status" id="liveCallStatus">📷 Iniciando…</div>
+  </div>
+  <div class="lc-log" id="liveCallLog"></div>
+  <div class="lc-controls">
+    <button class="lc-btn" onclick="liveCallLookAtView()">👀 Mira esto</button>
+    <button class="lc-btn lc-btn-end" onclick="stopLiveCall()">📴 Terminar</button>
+  </div>
 </div>
 
 <!-- PROFILE -->
@@ -750,6 +812,7 @@
 <script src="js/lessons-data/it.js"></script>
 <script src="js/lessons-data/pt.js"></script>
 <script src="js/course-expansion.js?v=20260710-courses500"></script>
+<script src="js/situations-data.js"></script>
 <!-- 2. State: app state object, save/load -->
 <script src="js/state.js"></script>
 <!-- 2b. Learner memory: compact, editable profile for personalized tutoring -->
@@ -775,6 +838,7 @@
 <script src="js/audio.js"></script>
 <!-- 8. Chat: AI chat engine, saved chats, Groq API calls -->
 <script src="js/chat.js"></script>
+<script src="js/situations.js"></script>
 <!-- 9. Auth: Firebase login/register, Groq key management -->
 <script src="js/auth.js"></script>
 <!-- 10. Gamification: XP, missions, achievements, premium -->
