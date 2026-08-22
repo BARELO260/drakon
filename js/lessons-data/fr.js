@@ -2443,4 +2443,154 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris 55-75 mots analysant une étude scientifique (réelle ou inventée) aux résultats préliminaires, en utilisant au moins deux expressions de nuance épistémique.",[],["on pourrait dire que", "les données suggèrent", "incertitude"]],
     ]
   },
+  {
+    id:"fr_a1_weather_seasons", level:"A1", title:"Le temps et les saisons", emoji:"☀️", xp:38,
+    description:"Apprends à décrire la météo et les saisons en français avec “il fait/il y a”.",
+    study: {
+      vocab: [
+        ["ensoleillé", "sunny"],
+        ["pluvieux", "rainy"],
+        ["froid", "cold"],
+        ["chaud", "hot"],
+        ["le printemps", "spring"],
+        ["l'hiver", "winter"],
+      ],
+      grammar: [
+        ["“Il fait” pour la météo", "Pour parler du temps, on utilise “il fait” + adjectif (“il fait froid”) ou “il y a” + nom (“il y a du soleil”). Pour la pluie: “il pleut” (verbe impersonnel).", "Il fait beau aujourd'hui. / Il pleut au printemps."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en francés?",["spring", "sunny", "hot", "froid"],3,"“Cold” es “froid” en francés."],
+      ["mcq","¿Cómo se dice “rainy” en francés?",["spring", "pluvieux", "hot", "sunny"],1,"“Rainy” es “pluvieux” en francés."],
+      ["fill","Completa: “Il fait très ___ aujourd'hui, prends un parapluie.”",["pluvieux", "ensoleillé", "chaud", "froid"],0,"“Pluvieux” describe un clima con lluvia: “il fait pluvieux”."],
+      ["translate","Traduce: “It's very cold in winter.”",["Il fait très froid en hiver.", "Il fait très froid en été.", "Il fait très chaud en hiver.", "Il est très froid en hiver."],0,"“It's very cold” se traduce como “il fait très froid”, con el verbo impersonal “faire”."],
+      ["arrange","Ordena: [beau / aujourd'hui / fait / il]",["il fait beau aujourd'hui", "aujourd'hui fait il beau", "fait il beau aujourd'hui", "aujourd'hui il fait beau"],0,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
+      ["writing","Describe en francés, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “il fait”.",[],["il fait", "ensoleillé", "froid"]],
+    ]
+  },
+  {
+    id:"fr_a2_pet_care", level:"A2", title:"Le soin des animaux de compagnie", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “devoir” para obligaciones en francés.",
+    study: {
+      vocab: [
+        ["nourrir l'animal", "to feed the pet"],
+        ["promener le chien", "to walk the dog"],
+        ["le vétérinaire", "the veterinarian"],
+        ["vacciner", "to vaccinate"],
+        ["la litière", "the litter box"],
+        ["adopter un animal", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Devoir” para obligaciones", "“Devoir” + infinitivo expresa una obligación o necesidad cotidiana.", "Je dois promener le chien tous les matins. / Elle doit nourrir le chat deux fois par jour."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en francés?",["to feed the pet", "the veterinarian", "le vétérinaire", "to vaccinate"],2,"“The veterinarian” es “le vétérinaire” en francés."],
+      ["mcq","¿Cómo se dice “to vaccinate” en francés?",["to vaccinate", "to adopt a pet", "to walk the dog", "vacciner"],3,"“To vaccinate” es “vacciner” en francés."],
+      ["fill","Completa: “Je ___ promener le chien tous les matins.”",["doit", "dois", "devez", "devons"],1,"“Devoir” con “je” se conjuga como “je dois”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Je dois nourrir l'animal une fois par jour.", "J'ai dû nourrir l'animal deux fois par jour.", "Je dois promener l'animal deux fois par jour.", "Je dois nourrir l'animal deux fois par jour."],3,"“I have to feed” se traduce con “je dois nourrir”, obligación en presente."],
+      ["arrange","Ordena: [doit / chien / elle / promener / le]",["elle doit promener le chien", "promener elle chien doit le", "le promener elle chien doit", "doit elle le promener chien"],0,"Sujeto + “doit” + verbo + artículo + sustantivo."],
+      ["writing","Describe en francés, en 20-30 palabras, tu rutina de cuidado de una mascota usando “devoir”.",[],["je dois", "elle doit", "animal"]],
+    ]
+  },
+  {
+    id:"fr_b1_startups_entrepreneurship", level:"B1", title:"L'entrepreneuriat et les start-ups", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “aller” (futur proche) para planes en francés.",
+    study: {
+      vocab: [
+        ["la start-up", "startup"],
+        ["lancer un produit", "to launch a product"],
+        ["l'investisseur", "investor"],
+        ["le plan d'affaires", "business plan"],
+        ["prendre un risque", "to take a risk"],
+        ["faire évoluer une entreprise", "to scale a business"],
+      ],
+      grammar: [
+        ["“Aller” + infinitif (futur proche) para planes", "“Aller” + infinitivo (futur proche) expresa un plan o intención ya decidida.", "Nous allons lancer le produit le mois prochain. / Elle va chercher des investisseurs."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en francés?",["startup", "business plan", "l'investisseur", "to take a risk"],2,"“Investor” es “l'investisseur” en francés."],
+      ["mcq","¿Cómo se dice “to take a risk” en francés?",["to take a risk", "prendre un risque", "to launch a product", "investor"],1,"“To take a risk” es “prendre un risque” en francés."],
+      ["fill","Completa: “Nous ___ lancer le produit le mois prochain.”",["allez", "va", "allons", "vont"],2,"“Aller” con “nous” se conjuga como “nous allons”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Nous allons lancer le produit ce mois-ci.", "Nous allons lancer le produit le mois prochain.", "Nous lançons le produit le mois prochain.", "Nous allons lancer l'entreprise le mois prochain."],1,"“We are going to launch” se traduce con “nous allons lancer”, futur proche."],
+      ["arrange","Ordena: [va / investisseurs / elle / chercher / des]",["des elle investisseurs va chercher", "des elle va chercher investisseurs", "elle va chercher des investisseurs", "investisseurs elle va chercher des"],2,"Sujeto + “va” + verbo + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando “aller” (futur proche) para tus planes.",[],["je vais", "start-up", "investisseurs"]],
+    ]
+  },
+  {
+    id:"fr_b2_space_exploration", level:"B2", title:"L'exploration spatiale", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futur antérieur en francés.",
+    study: {
+      vocab: [
+        ["la mission spatiale", "space mission"],
+        ["l'astronaute", "astronaut"],
+        ["orbiter", "to orbit"],
+        ["le lancement de fusée", "rocket launch"],
+        ["l'espace extra-atmosphérique", "outer space"],
+        ["la station spatiale", "space station"],
+      ],
+      grammar: [
+        ["Futur antérieur para logros futuros", "El futur antérieur (“avoir/être” en futuro + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "D'ici 2030, les astronautes auront atterri sur Mars. / La fusée aura atteint l'orbite d'ici là."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en francés?",["la station spatiale", "to orbit", "rocket launch", "outer space"],0,"“Space station” es “la station spatiale” en francés."],
+      ["mcq","¿Cómo se dice “to orbit” en francés?",["orbiter", "space mission", "space station", "outer space"],0,"“To orbit” es “orbiter” en francés."],
+      ["fill","Completa: “D'ici 2030, les astronautes ___ atterri sur Mars.”",["avaient", "ont", "auront", "auraient"],2,"El futur antérieur usa “auront” + participio: “auront atterri”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["D'ici 2030, les astronautes auront atterri sur Mars.", "D'ici 2030, les astronautes ont atterri sur Mars.", "D'ici 2030, les astronautes auraient atterri sur Mars.", "D'ici 2030, les astronautes atterriront sur Mars."],0,"“Will have landed” se traduce con futur antérieur: “auront atterri”."],
+      ["arrange","Ordena: [bientôt / fusée / atteindra / la / l'orbite]",["fusée l'orbite atteindra bientôt la", "la fusée atteindra l'orbite bientôt", "bientôt atteindra l'orbite fusée la", "la bientôt atteindra l'orbite fusée"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
+      ["writing","Escribe en francés, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futur antérieur (“auront...”) al menos dos veces.",[],["auront", "mission spatiale", "astronaute"]],
+    ]
+  },
+  {
+    id:"fr_c1_ai_ethics", level:"C1", title:"L'éthique et la régulation de l'intelligence artificielle", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la voz pasiva en registro formal en francés.",
+    study: {
+      vocab: [
+        ["l'intelligence artificielle", "artificial intelligence"],
+        ["le biais algorithmique", "algorithmic bias"],
+        ["la responsabilité", "accountability"],
+        ["la confidentialité des données", "data privacy"],
+        ["réglementer", "to regulate"],
+        ["les conséquences imprévues", "unintended consequences"],
+      ],
+      grammar: [
+        ["La voix passive en registro formal/académico", "La voix passive (“être” + participio) se usa en francés formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Ces systèmes devraient être réglementés pour éviter les biais. / Le biais algorithmique a été documenté dans plusieurs études."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en francés?",["algorithmic bias", "accountability", "artificial intelligence", "la responsabilité"],3,"“Accountability” es “la responsabilité” en francés."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en francés?",["le biais algorithmique", "to regulate", "accountability", "algorithmic bias"],0,"“Algorithmic bias” es “le biais algorithmique” en francés."],
+      ["fill","Completa: “Ces systèmes devraient être ___ pour éviter les biais.”",["réglementant", "réglemente", "réglementer", "réglementés"],3,"La voz pasiva con modal usa “être” + participio: “devraient être réglementés”."],
+      ["translate","Traduce con voz pasiva: “These systems should be regulated to prevent bias.”",["Ces systèmes devraient être réglementés pour éviter un biais.", "Ces systèmes devraient être réglementés pour éviter les biais.", "Ces systèmes doivent être réglementés pour éviter les biais.", "Ces systèmes devraient réglementer pour éviter les biais."],1,"“Should be regulated” se traduce con voz pasiva: “devraient être réglementés”."],
+      ["arrange","Ordena: [réglementés / algorithmes / être / devraient / les]",["réglementés algorithmes les devraient être", "algorithmes réglementés être devraient les", "les algorithmes devraient être réglementés", "algorithmes être devraient réglementés les"],2,"Artículo + sustantivo + condicional + “être” + participio."],
+      ["writing","Escribe en francés, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en voz pasiva.",[],["devraient être réglementés", "biais algorithmique", "responsabilité"]],
+    ]
+  },
+  {
+    id:"fr_c2_philosophy_of_mind", level:"C2", title:"La philosophie de l'esprit et la conscience", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando phrases clivées (estructuras enfáticas) en francés.",
+    study: {
+      vocab: [
+        ["la conscience", "consciousness"],
+        ["l'expérience subjective", "subjective experience"],
+        ["l'expérience de pensée", "thought experiment"],
+        ["le libre arbitre", "free will"],
+        ["la conscience de soi", "self-awareness"],
+        ["le problème corps-esprit", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Phrases clivées (“ce qui... c'est...”) para énfasis", "Las phrases clivées (“ce qui... c'est...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Ce qui définit vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en francés?",["self-awareness", "l'expérience de pensée", "the mind-body problem", "subjective experience"],1,"“Thought experiment” es “l'expérience de pensée” en francés."],
+      ["mcq","¿Cómo se dice “free will” en francés?",["self-awareness", "le libre arbitre", "the mind-body problem", "subjective experience"],1,"“Free will” es “le libre arbitre” en francés."],
+      ["fill","Completa: “Ce qui définit vraiment la conscience, ___ n'est pas seulement le comportement.”",["ce", "il", "cela", "elle"],0,"La phrase clivée usa “ce qui... ce n'est pas...” como estructura fija de énfasis."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Ce qui définit la conscience vraiment, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui a défini vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, c'est seulement le comportement, pas l'expérience subjective."],2,"La phrase clivée mantiene “ce qui + verbo, ce n'est pas... mais...”, con “vraiment” justo después del verbo."],
+      ["arrange","Ordena: [le / arbitre / débattent / philosophes / libre / encore / les]",["arbitre philosophes débattent les encore libre le", "les philosophes débattent encore le libre arbitre", "philosophes le débattent arbitre encore les libre", "encore débattent le les philosophes libre arbitre"],1,"Artículo + sustantivo + verbo + adverbio + artículo + sustantivo compuesto."],
+      ["writing","Escribe en francés, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una phrase clivée (“ce qui... c'est...”).",[],["ce qui définit vraiment", "conscience", "libre arbitre"]],
+    ]
+  },
 ];
