@@ -317,8 +317,8 @@ async function analyzeSceneImage(imageDataUrl){
 {"hasText": boolean, "text": string, "textTranslation": string, "objects": [{"label": string, "translation": string, "note": string}], "summary": string}
 Field rules:
 - "hasText": true only if there is real, legible text visible in the photo.
-- "text": the EXACT visible text, verbatim (empty string if hasText is false).
-- "textTranslation": that text translated into ${nativeLangName} (empty string if hasText is false).
+- "text": transcribe the visible text EXACTLY character-for-character as printed — same spelling, punctuation, capitalization, and line breaks. Do NOT autocorrect spelling, do NOT paraphrase, do NOT translate here, and do NOT guess at characters that are blurry or cut off — if part of the text is unreadable, transcribe only the parts you are confident about and skip the rest rather than inventing letters (empty string if hasText is false).
+- "textTranslation": a translation of that exact text into ${nativeLangName} (empty string if hasText is false).
 - "objects": up to 4 notable physical objects, items, food dishes, signs, or places relevant to a language learner in this scene (empty array if nothing clearly identifiable, or if the photo only shows text with nothing else). Each "label" in ${targetLangName}, "translation" in ${nativeLangName}, "note" = one short useful sentence in ${nativeLangName} about it.
 - "summary": ONE short, warm sentence in ${nativeLangName}, written as Drakón (a friendly dragon language-tutor companion) describing what you actually see, in first person — e.g. "Veo un menú de restaurante en inglés." Never say you cannot see the image — you can see it.`;
   const messages=[{role:'user', content:[
@@ -330,7 +330,7 @@ Field rules:
       fetch('https://api.groq.com/openai/v1/chat/completions',{
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.25})
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.1})
       }),
       new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
     ]);
@@ -444,7 +444,7 @@ async function _scanAnalyze(source, imgUrl){
     </div>`;
 
   let dataUrl=null;
-  try{ dataUrl = await _imageSourceToDataUrl(source instanceof HTMLCanvasElement ? source : imgUrl); }catch(e){}
+  try{ dataUrl = await _imageSourceToDataUrl(source instanceof HTMLCanvasElement ? source : imgUrl, 1600, 0.92); }catch(e){}
 
   // Camino principal: visión real con Groq (texto Y objetos, con
   // traducción). Camino de respaldo: Tesseract.js, solo texto, sin IA.
@@ -468,12 +468,51 @@ async function _renderScanFallbackOcr(source, imgUrl){
     await _ensureTesseractLoaded();
     const langMap={EN:'eng',ES:'spa',FR:'fra',DE:'deu',IT:'ita',PT:'por'};
     const ocrLang=langMap[state.lang?.code]||'eng';
-    const { data }=await Tesseract.recognize(source, ocrLang, { logger:()=>{} });
+    // Tesseract lee muy mal fotos a color "tal cual" (letras mezcladas con
+    // el fondo, sombras, reflejos) — eso es lo que produce caracteres
+    // extraños. Convertir a escala de grises y subir el contraste antes de
+    // pasarla por OCR mejora mucho la lectura real del texto.
+    const preprocessed = await _preprocessForOcr(source);
+    const { data }=await Tesseract.recognize(preprocessed || source, ocrLang, { logger:()=>{} });
     const text=(data?.text||'').trim();
     _renderScanResult(text?{hasText:true,text,textTranslation:'',objects:[],summary:''}:null, imgUrl, true);
   } catch(e){
     _renderScanResult(null, imgUrl, true);
   }
+}
+
+// Escala de grises + estiramiento de contraste (blanco/negro más definido)
+// — mejora notablemente la precisión de Tesseract sobre fotos reales
+// tomadas con la cámara (a diferencia de escaneos planos y limpios).
+// Acepta un <canvas> (fotograma capturado) o un File/Blob (foto de galería).
+async function _preprocessForOcr(source){
+  try{
+    let drawable=source, w, h;
+    if(source instanceof HTMLCanvasElement){ w=source.width; h=source.height; }
+    else {
+      drawable = await new Promise((resolve,reject)=>{
+        const im=new Image();
+        im.onload=()=>resolve(im);
+        im.onerror=()=>reject(new Error('No se pudo leer la imagen.'));
+        im.src = source instanceof Blob ? URL.createObjectURL(source) : source;
+      });
+      w=drawable.naturalWidth; h=drawable.naturalHeight;
+    }
+    if(!w || !h) return null;
+    const canvas=document.createElement('canvas'); canvas.width=w; canvas.height=h;
+    const ctx=canvas.getContext('2d');
+    ctx.drawImage(drawable,0,0,w,h);
+    const imgData=ctx.getImageData(0,0,w,h);
+    const px=imgData.data;
+    for(let i=0;i<px.length;i+=4){
+      const gray = 0.299*px[i] + 0.587*px[i+1] + 0.114*px[i+2];
+      // Estiramiento de contraste simple centrado en el gris medio.
+      const contrasted = Math.min(255, Math.max(0, (gray-128)*1.5+128));
+      px[i]=px[i+1]=px[i+2]=contrasted;
+    }
+    ctx.putImageData(imgData,0,0);
+    return canvas;
+  } catch(e){ return null; }
 }
 
 function _renderScanResult(analysis, imgUrl, isFallback){
