@@ -2596,4 +2596,304 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe en español, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una oración escindida (“lo que... es...”).",[],["lo que realmente define", "conciencia", "libre albedrío"]],
     ]
   },
+  {
+    id:"es_a1_garden_plants", level:"A1", title:"El jardín y las plantas", emoji:"🌱", xp:38,
+    description:"Aprende vocabulario de jardinería y a dar instrucciones simples en español con el imperativo.",
+    study: {
+      vocab: [
+        ["regar las plantas", "to water the plants"],
+        ["la semilla", "the seed"],
+        ["crecer", "to grow"],
+        ["la flor", "the flower"],
+        ["la tierra", "the soil"],
+        ["la luz del sol", "sunlight"],
+      ],
+      grammar: [
+        ["El imperativo para instrucciones", "El imperativo (tú) se usa para dar órdenes o instrucciones. La forma negativa usa “no” + subjuntivo.", "Riega las plantas todos los días. / No olvides cerrar la puerta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the seed” en español?",["sunlight", "the seed", "la semilla", "the soil"],2,"“The seed” es “la semilla” en español."],
+      ["mcq","¿Cómo se dice “to grow” en español?",["the flower", "to grow", "sunlight", "crecer"],3,"“To grow” es “crecer” en español."],
+      ["fill","Completa: “___ las plantas todos los días, o se morirán.”",["Riegas", "Regar", "Regando", "Riega"],3,"El imperativo (tú) de “regar” es “riega”."],
+      ["translate","Traduce: “Water the plants every day.”",["Tú riegas las plantas todos los días.", "Riega las plantas todos los días.", "Riega las plantas todas las semanas.", "Regando las plantas todos los días."],1,"El imperativo comienza directamente con el verbo conjugado: “Riega las plantas...”."],
+      ["arrange","Ordena: [olvides / puerta / no / cerrar / la]",["no olvides cerrar la puerta", "cerrar puerta olvides no la", "no puerta la cerrar olvides", "puerta no cerrar olvides la"],0,"“No” + subjuntivo + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en español, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["riega", "no olvides", "crece"]],
+    ]
+  },
+  {
+    id:"es_a2_library_books", level:"A2", title:"La biblioteca y los libros", emoji:"📚", xp:48,
+    description:"Aprende vocabulario de biblioteca y a narrar en pretérito en español.",
+    study: {
+      vocab: [
+        ["pedir prestado un libro", "to borrow a book"],
+        ["el carné de biblioteca", "the library card"],
+        ["la fecha de devolución", "the due date"],
+        ["el estante", "the bookshelf"],
+        ["la novela", "the novel"],
+        ["devolver un libro", "to return a book"],
+      ],
+      grammar: [
+        ["Pretérito para narrar", "El pretérito describe acciones completas en el pasado, con un inicio y fin claros.", "Pedí prestada una novela la semana pasada. / Ella devolvió el libro a tiempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the library card” en español?",["the novel", "el carné de biblioteca", "the bookshelf", "the library card"],1,"“The library card” es “el carné de biblioteca” en español."],
+      ["mcq","¿Cómo se dice “the due date” en español?",["the novel", "to return a book", "the bookshelf", "la fecha de devolución"],3,"“The due date” es “la fecha de devolución” en español."],
+      ["fill","Completa: “Yo ___ una novela de la biblioteca la semana pasada.”",["pidiendo", "pedí", "pide", "pido"],1,"El pretérito de “pedir” en primera persona es “pedí”."],
+      ["translate","Traduce: “She returned the book on time.”",["Ella devolvió el libro tarde.", "Ella devolvió el libro a tiempo.", "Ella devuelve el libro a tiempo.", "Ella devolvió la novela a tiempo."],1,"“Returned” se traduce con pretérito: “devolvió”."],
+      ["arrange","Ordena: [estante / en / está / libro / el / el]",["está el libro estante en el", "el en estante el está libro", "estante en el libro está el", "el libro está en el estante"],3,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en español, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el pretérito.",[],["pedí prestado", "devolví", "biblioteca"]],
+    ]
+  },
+  {
+    id:"es_b1_parenting_childcare", level:"B1", title:"La crianza y el cuidado de bebés", emoji:"👶", xp:62,
+    description:"Aprende vocabulario de crianza y a usar el imperfecto para hábitos pasados en español.",
+    study: {
+      vocab: [
+        ["amamantar", "to breastfeed"],
+        ["la cuna", "the crib"],
+        ["hacer eructar al bebé", "to burp the baby"],
+        ["la rutina para dormir", "bedtime routine"],
+        ["cuidar niños", "to babysit"],
+        ["el pediatra", "the pediatrician"],
+      ],
+      grammar: [
+        ["Pretérito imperfecto para hábitos pasados", "El imperfecto describe hábitos o estados repetidos en el pasado, sin un final marcado.", "El bebé se despertaba cada dos horas. / Visitábamos al pediatra cada mes."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the crib” en español?",["to burp the baby", "the pediatrician", "to breastfeed", "la cuna"],3,"“The crib” es “la cuna” en español."],
+      ["mcq","¿Cómo se dice “the pediatrician” en español?",["the crib", "to babysit", "el pediatra", "to breastfeed"],2,"“The pediatrician” es “el pediatra” en español."],
+      ["fill","Completa: “El bebé ___ cada dos horas.”",["se despertaba", "se despertó", "despertándose", "se despierta"],0,"El imperfecto describe un hábito repetido en el pasado: “se despertaba”."],
+      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Visitábamos al pediatra cada mes.", "Visitamos al pediatra cada mes.", "Visitábamos al dentista cada mes.", "Visitábamos al pediatra cada semana."],0,"“Used to visit” se traduce con imperfecto: “visitábamos”."],
+      ["arrange","Ordena: [cuna / dormía / la / en / ella]",["ella en dormía cuna la", "la dormía ella cuna en", "ella dormía en la cuna", "ella dormía cuna la en"],2,"Sujeto + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando el imperfecto para hábitos pasados.",[],["se despertaba", "cuna", "pediatra"]],
+    ]
+  },
+  {
+    id:"es_b2_archaeology_discoveries", level:"B2", title:"La arqueología y los descubrimientos históricos", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando el futuro de probabilidad en español.",
+    study: {
+      vocab: [
+        ["el sitio arqueológico", "archaeological site"],
+        ["excavar", "to excavate"],
+        ["la civilización antigua", "ancient civilization"],
+        ["el artefacto", "artifact"],
+        ["datar (un hallazgo)", "to date (a find)"],
+        ["las ruinas", "ruins"],
+      ],
+      grammar: [
+        ["Futuro y condicional de probabilidad sobre el pasado", "El futuro compuesto (“habrá pertenecido”) o el condicional expresan una deducción o suposición sobre el pasado, equivalentes a “must/might have” en inglés.", "Este artefacto habrá pertenecido a un rey. / El sitio podría haber sido un templo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancient civilization” en español?",["archaeological site", "ruins", "la civilización antigua", "to excavate"],2,"“Ancient civilization” es “la civilización antigua” en español."],
+      ["mcq","¿Cómo se dice “to excavate” en español?",["to date (a find)", "archaeological site", "excavar", "ancient civilization"],2,"“To excavate” es “excavar” en español."],
+      ["fill","Completa: “Este artefacto ___ pertenecido a un rey.”",["ha", "había", "habrá", "habría"],2,"El futuro compuesto de probabilidad usa “habrá” + participio: “habrá pertenecido”."],
+      ["translate","Traduce: “The site might have been a temple.”",["El sitio podría haber sido un palacio.", "El sitio podría ser un templo.", "El sitio podría haber sido un templo.", "El sitio habrá sido un templo."],2,"“Might have been” se traduce con condicional de probabilidad: “podría haber sido”."],
+      ["arrange","Ordena: [construido / antigua / esto / civilización / habrá / una]",["una civilización antigua habrá construido esto", "civilización antigua una construido esto habrá", "esto una civilización habrá construido antigua", "esto construido una habrá antigua civilización"],0,"Artículo + adjetivo + sustantivo + futuro compuesto + pronombre."],
+      ["writing","Escribe en español, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando el futuro o condicional de probabilidad al menos dos veces.",[],["habrá sido", "podría haber sido", "artefacto"]],
+    ]
+  },
+  {
+    id:"es_c1_neuroscience_brain", level:"C1", title:"Las neurociencias y el cerebro", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando estructuras enfáticas de inversión en registro académico en español.",
+    study: {
+      vocab: [
+        ["la vía neuronal", "neural pathway"],
+        ["la sinapsis", "synapse"],
+        ["la neuroplasticidad", "neuroplasticity"],
+        ["la función cognitiva", "cognitive function"],
+        ["el neurotransmisor", "neurotransmitter"],
+        ["el escáner cerebral", "brain scan"],
+      ],
+      grammar: [
+        ["Inversión enfática con adverbios negativos", "En español formal/académico, colocar un adverbio restrictivo al inicio (“Raramente”, “Solo así”) da énfasis y a veces invierte el orden habitual sujeto-verbo.", "Raramente han encontrado los investigadores evidencia tan clara de neuroplasticidad. / Solo así se explica la función cognitiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticity” en español?",["la neuroplasticidad", "brain scan", "neural pathway", "synapse"],0,"“Neuroplasticity” es “la neuroplasticidad” en español."],
+      ["mcq","¿Cómo se dice “synapse” en español?",["neuroplasticity", "neurotransmitter", "la sinapsis", "neural pathway"],2,"“Synapse” es “la sinapsis” en español."],
+      ["fill","Completa: “Raramente ___ los investigadores evidencia tan clara.”",["han encontrado", "encuentran", "encontraron", "encontrarán"],0,"Tras “raramente” al inicio, se suele usar pretérito perfecto compuesto: “raramente han encontrado”."],
+      ["translate","Traduce con estructura enfática: “Rarely have researchers found such clear evidence.”",["Los investigadores han encontrado raramente evidencia tan clara.", "Raramente han encontrado los investigadores evidencia tan clara ahora.", "Raramente han encontrado los investigadores evidencia tan clara.", "Raramente los investigadores han encontrado evidencia tan clara."],2,"La estructura enfática coloca el adverbio primero, seguido del verbo: “raramente han encontrado los investigadores”."],
+      ["arrange","Ordena: [se / adapta / solo / así / el / cerebro]",["solo se cerebro adapta así el", "solo así se cerebro el adapta", "solo así se adapta el cerebro", "cerebro solo el se adapta así"],2,"Adverbio + adverbio + pronombre + verbo + artículo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura enfática con adverbio inicial (“raramente...” o “solo así...”).",[],["raramente han encontrado", "neuroplasticidad", "función cognitiva"]],
+    ]
+  },
+  {
+    id:"es_c2_behavioral_economics", level:"C2", title:"La economía conductual y los sesgos cognitivos", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en español.",
+    study: {
+      vocab: [
+        ["el sesgo cognitivo", "cognitive bias"],
+        ["la aversión a la pérdida", "loss aversion"],
+        ["el efecto de anclaje", "anchoring effect"],
+        ["la toma de decisiones", "decision-making"],
+        ["el comportamiento irracional", "irrational behavior"],
+        ["el empujón/incentivo sutil", "nudge"],
+      ],
+      grammar: [
+        ["Nominalización en registro académico", "La nominalización convierte verbos en sustantivos abstractos (“decidir” → “la toma de decisiones”), un rasgo típico del español académico formal.", "La persistencia del sesgo cognitivo afecta la toma de decisiones. / Los investigadores estudian la evitación de la pérdida."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “loss aversion” en español?",["nudge", "irrational behavior", "la aversión a la pérdida", "decision-making"],2,"“Loss aversion” es “la aversión a la pérdida” en español."],
+      ["mcq","¿Cómo se dice “anchoring effect” en español?",["decision-making", "el efecto de anclaje", "irrational behavior", "loss aversion"],1,"“Anchoring effect” es “el efecto de anclaje” en español."],
+      ["fill","Completa: “La persistencia del sesgo cognitivo afecta la ___.”",["decidiendo", "decisión", "decidir", "toma de decisiones"],3,"La forma nominalizada de “decidir” en este registro académico es “la toma de decisiones”."],
+      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["La aversión a la pérdida afecta decidir.", "La aversión a la pérdida afectan la toma de decisiones.", "La pérdida de aversión afecta la toma de decisiones.", "La aversión a la pérdida afecta la toma de decisiones."],3,"“Decision-making” se traduce con la forma nominalizada “la toma de decisiones”, no con el verbo “decidir”."],
+      ["arrange","Ordena: [cognitivo / estudian / investigadores / sesgo / el / los]",["los el sesgo investigadores cognitivo estudian", "los investigadores estudian el sesgo cognitivo", "estudian cognitivo investigadores sesgo el los", "el estudian los sesgo cognitivo investigadores"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “la toma de decisiones” o “la evitación”).",[],["la toma de decisiones", "sesgo cognitivo", "aversión a la pérdida"]],
+    ]
+  },
+  {
+    id:"es_a1_photography_cameras", level:"A1", title:"La fotografía y las cámaras", emoji:"📷", xp:38,
+    description:"Aprende vocabulario de fotografía y a usar “poder” para habilidad en español.",
+    study: {
+      vocab: [
+        ["la cámara", "camera"],
+        ["la foto", "photo/picture"],
+        ["el lente", "lens"],
+        ["tomar una foto", "to take a picture"],
+        ["el zoom", "zoom"],
+        ["la tarjeta de memoria", "memory card"],
+      ],
+      grammar: [
+        ["“Poder” para habilidad", "“Poder” + infinitivo expresa habilidad o capacidad; en negativo se usa “no puede/puedo”.", "Puedo tomar buenas fotos con esta cámara. / Esta cámara no puede hacer zoom muy lejos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lens” en español?",["to take a picture", "lens", "camera", "el lente"],3,"“Lens” es “el lente” en español."],
+      ["mcq","¿Cómo se dice “memory card” en español?",["lens", "la tarjeta de memoria", "zoom", "to take a picture"],1,"“Memory card” es “la tarjeta de memoria” en español."],
+      ["fill","Completa: “Esta cámara no ___ hacer zoom muy lejos.”",["puedes", "puedo", "pueden", "puede"],3,"“Poder” conjugado en tercera persona singular es “puede”."],
+      ["translate","Traduce: “I can take good photos with this camera.”",["No puedo tomar buenas fotos con esta cámara.", "Puedo tomar buenas fotos con esa cámara.", "Puedo tomar buenas fotos con esta cámara.", "Puedo tomé buenas fotos con esta cámara."],2,"“I can take” se traduce con “puedo tomar”, “poder” + infinitivo."],
+      ["arrange","Ordena: [lejos / hacer / no / puede / zoom / esta / cámara]",["zoom no puede esta cámara lejos hacer", "esta cámara no puede hacer zoom lejos", "zoom puede lejos cámara esta no hacer", "hacer cámara puede zoom no lejos esta"],1,"Pronombre + sustantivo + negación + verbo + verbo + sustantivo + adverbio."],
+      ["writing","Describe en español, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “poder”.",[],["puedo", "no puede", "cámara"]],
+    ]
+  },
+  {
+    id:"es_a2_camping_outdoors", level:"A2", title:"Acampar y las actividades al aire libre", emoji:"🏕️", xp:48,
+    description:"Aprende vocabulario de camping y a usar “algo/nada” para cantidades en español.",
+    study: {
+      vocab: [
+        ["la tienda de campaña", "tent"],
+        ["el saco de dormir", "sleeping bag"],
+        ["la fogata", "campfire"],
+        ["el sendero", "hiking trail"],
+        ["la mochila", "backpack"],
+        ["armar una tienda", "to pitch a tent"],
+      ],
+      grammar: [
+        ["“Algo de/nada de” para cantidades", "“Algo de” se usa en oraciones afirmativas para cantidades indefinidas; “nada de” se usa en negativas.", "Tenemos algo de leña para la fogata. / No nos queda nada de agua."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sleeping bag” en español?",["campfire", "sleeping bag", "to pitch a tent", "el saco de dormir"],3,"“Sleeping bag” es “el saco de dormir” en español."],
+      ["mcq","¿Cómo se dice “hiking trail” en español?",["campfire", "el sendero", "backpack", "to pitch a tent"],1,"“Hiking trail” es “el sendero” en español."],
+      ["fill","Completa: “No nos queda ___ de agua.”",["algo", "nada", "poco", "mucho"],1,"En oraciones negativas se usa “nada de”: “no nos queda nada de agua”."],
+      ["translate","Traduce: “We have some firewood for the campfire.”",["Tenemos algo de leña para la tienda.", "Tenemos nada de leña para la fogata.", "Tengo algo de leña para la fogata.", "Tenemos algo de leña para la fogata."],3,"“Some firewood” en afirmativa se traduce con “algo de leña”."],
+      ["arrange","Ordena: [largo / este / sendero / es]",["es este sendero largo", "este sendero es largo", "este es largo sendero", "es largo sendero este"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en español, en 40-60 palabras, un plan de camping usando “algo de/nada de” para lo que necesitas llevar.",[],["algo de", "nada de", "tienda"]],
+    ]
+  },
+  {
+    id:"es_b1_beekeeping_bees", level:"B1", title:"La apicultura y las abejas", emoji:"🐝", xp:62,
+    description:"Aprende vocabulario de apicultura y a usar cláusulas relativas en español.",
+    study: {
+      vocab: [
+        ["la colmena", "beehive"],
+        ["la miel", "honey"],
+        ["picar", "to sting"],
+        ["polinizar", "to pollinate"],
+        ["el apicultor", "beekeeper"],
+        ["la abeja reina", "queen bee"],
+      ],
+      grammar: [
+        ["Cláusulas relativas (que/quien)", "“Que” se usa para personas y cosas; “quien/quienes” se usa específicamente para personas, sobre todo tras coma o preposición.", "El apicultor que cuida esta colmena tiene mucha experiencia. / Las abejas, que polinizan las flores, son esenciales."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “beehive” en español?",["queen bee", "la colmena", "to pollinate", "to sting"],1,"“Beehive” es “la colmena” en español."],
+      ["mcq","¿Cómo se dice “to pollinate” en español?",["to pollinate", "beekeeper", "polinizar", "honey"],2,"“To pollinate” es “polinizar” en español."],
+      ["fill","Completa: “El apicultor ___ cuida esta colmena tiene mucha experiencia.”",["quien", "cual", "cuyo", "que"],3,"“Que” se usa como relativo general: “el apicultor que cuida”."],
+      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Las abejas, que polinizan las flores, es esencial para la agricultura.", "Las abejas, quien polinizan las flores, son esenciales para la agricultura.", "Las abejas, que polinizan las flores, son esenciales para la agricultura.", "Las abejas, que poliniza las flores, son esenciales para la agricultura."],2,"“Which” se traduce con “que” en esta cláusula explicativa: “las abejas, que polinizan...”."],
+      ["arrange","Ordena: [colmena / en / que / abejas / viven / la / las]",["las viven abejas que colmena la en", "las abejas que viven en la colmena", "las abejas que la en colmena viven", "la las viven colmena abejas que en"],1,"Artículo + sustantivo + “que” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre la importancia de las abejas usando al menos una cláusula relativa (“que/quien”).",[],["que", "quien", "colmena"]],
+    ]
+  },
+  {
+    id:"es_b2_cryptocurrency_digital_finance", level:"B2", title:"Las criptomonedas y las finanzas digitales", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el condicional compuesto en español.",
+    study: {
+      vocab: [
+        ["la criptomoneda", "cryptocurrency"],
+        ["la cadena de bloques", "blockchain"],
+        ["la billetera digital", "digital wallet"],
+        ["invertir", "to invest"],
+        ["la volatilidad", "volatility"],
+        ["descentralizado", "decentralized"],
+      ],
+      grammar: [
+        ["Pluscuamperfecto de subjuntivo + condicional compuesto", "Para hipótesis irreales sobre el pasado se usa “si” + pluscuamperfecto de subjuntivo, y “condicional compuesto” (“habría” + participio) en la consecuencia.", "Si hubiera invertido antes, habría ganado más dinero. / Si el mercado no se hubiera desplomado, los precios se habrían mantenido altos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “blockchain” en español?",["digital wallet", "cryptocurrency", "to invest", "la cadena de bloques"],3,"“Blockchain” es “la cadena de bloques” en español."],
+      ["mcq","¿Cómo se dice “volatility” en español?",["blockchain", "la volatilidad", "digital wallet", "to invest"],1,"“Volatility” es “la volatilidad” en español."],
+      ["fill","Completa: “Si ___ invertido antes, habría ganado más dinero.”",["había", "habría", "hube", "hubiera"],3,"Tras “si” hipotético sobre el pasado se usa pluscuamperfecto de subjuntivo: “si hubiera invertido”."],
+      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Si el mercado no se desplomó, los precios se habrían mantenido altos.", "Si el mercado no se hubiera desplomado, los precios se habrían mantenidos altos.", "Si el mercado no se hubiera desplomado, los precios se mantendrían altos.", "Si el mercado no se hubiera desplomado, los precios se habrían mantenido altos."],3,"“Hadn't crashed... would have stayed” se traduce con pluscuamperfecto de subjuntivo + condicional compuesto."],
+      ["arrange","Ordena: [arriesgada / es / la / criptomoneda / muy]",["la es muy criptomoneda arriesgada", "criptomoneda es muy arriesgada la", "la criptomoneda es muy arriesgada", "la criptomoneda arriesgada muy es"],2,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre una decisión financiera pasada usando “si hubiera... habría...” al menos dos veces.",[],["si hubiera", "habría", "criptomoneda"]],
+    ]
+  },
+  {
+    id:"es_c1_bioethics_gene_editing", level:"C1", title:"La bioética y la edición genética", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “tan...que/tal...que” para énfasis en español.",
+    study: {
+      vocab: [
+        ["la edición genética", "gene editing"],
+        ["el consentimiento informado", "informed consent"],
+        ["el ensayo clínico", "clinical trial"],
+        ["la modificación genética", "genetic modification"],
+        ["el dilema ético", "ethical dilemma"],
+        ["manipular el ADN", "to manipulate DNA"],
+      ],
+      grammar: [
+        ["“Tan...que/tal...que” para énfasis", "“Tan” + adjetivo/adverbio + “que” y “tal” + sustantivo + “que” expresan una consecuencia enfática.", "La edición genética es tan poderosa que plantea serias cuestiones éticas. / Es tal el dilema que los expertos aún no se ponen de acuerdo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “informed consent” en español?",["el consentimiento informado", "ethical dilemma", "to manipulate DNA", "informed consent"],0,"“Informed consent” es “el consentimiento informado” en español."],
+      ["mcq","¿Cómo se dice “clinical trial” en español?",["ethical dilemma", "el ensayo clínico", "to manipulate DNA", "informed consent"],1,"“Clinical trial” es “el ensayo clínico” en español."],
+      ["fill","Completa: “La edición genética es ___ poderosa que plantea serias cuestiones éticas.”",["tal", "tanto", "muy", "tan"],3,"“Tan” + adjetivo + “que” expresa consecuencia enfática: “tan poderosa que”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["Es un tema tan complejo que los expertos aún no están de acuerdo.", "Es un tema tan complejo que los expertos aún están de acuerdo.", "Es un tema tal complejo que los expertos aún no están de acuerdo.", "Es tan un tema complejo que los expertos aún no están de acuerdo."],0,"“Such a complex issue that” se traduce con “tan complejo que” en español."],
+      ["arrange","Ordena: [ético / real / un / esto / dilema / es]",["esto es un dilema ético real", "ético dilema un real esto es", "un real es esto ético dilema", "real esto ético dilema un es"],0,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un argumento sobre la edición genética usando “tan...que” o “tal...que” al menos dos veces.",[],["tan...que", "tal...que", "edición genética"]],
+    ]
+  },
+  {
+    id:"es_c2_geopolitics_international_relations", level:"C2", title:"La geopolítica y las relaciones internacionales", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en español.",
+    study: {
+      vocab: [
+        ["las relaciones diplomáticas", "diplomatic relations"],
+        ["la soberanía", "sovereignty"],
+        ["las sanciones", "sanctions"],
+        ["el acuerdo bilateral", "bilateral agreement"],
+        ["la tensión geopolítica", "geopolitical tension"],
+        ["negociar un tratado", "to negotiate a treaty"],
+      ],
+      grammar: [
+        ["Gerundio y participio para registro académico conciso", "El gerundio (“Analizando...”) y las construcciones absolutas con participio (“Ante las crecientes sanciones...”) permiten un estilo más conciso y formal, evitando cláusulas subordinadas completas.", "Analizando los datos, los investigadores concluyeron que las tensiones aumentarían. / Ante las crecientes sanciones, el gobierno cambió su política."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sovereignty” en español?",["la soberanía", "sovereignty", "geopolitical tension", "sanctions"],0,"“Sovereignty” es “la soberanía” en español."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en español?",["la tensión geopolítica", "geopolitical tension", "sovereignty", "to negotiate a treaty"],0,"“Geopolitical tension” es “la tensión geopolítica” en español."],
+      ["fill","Completa: “___ los datos, los investigadores concluyeron que las tensiones aumentarían.”",["Analizado", "Analizar", "Analizando", "Analizaron"],2,"El gerundio en posición inicial resume una cláusula subordinada: “analizando los datos”."],
+      ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Ante las crecientes sanciones, el gobierno cambió su política.", "Ante las crecientes sanciones, el gobierno cambia su política.", "Con las crecientes sanciones, el gobierno cambió su política.", "Ante las creciendo sanciones, el gobierno cambió su política."],0,"“Faced with mounting sanctions” se traduce de forma concisa con “ante las crecientes sanciones”."],
+      ["arrange","Ordena: [naciones / tratado / negociarán / las / el]",["naciones negociarán el las tratado", "las naciones negociarán el tratado", "negociarán naciones las tratado el", "tratado naciones el negociarán las"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gerundio o participio inicial (“Analizando...” o “Ante...”).",[],["analizando", "ante", "soberanía"]],
+    ]
+  },
 ];
