@@ -15,8 +15,53 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* ═══════════════════════════════════════
-   1) GRID DE SITUACIONES Y PLANIFICADOR
+   0) CÁMARA / MICRÓFONO — permisos reales, una sola vez
+   Un único punto de acceso a getUserMedia() para todo "Estoy allí ahora"
+   (Escanear necesita solo cámara; Videollamada necesita cámara+mic). Esto
+   dispara el diálogo NATIVO de permiso del navegador/PWA la primera vez
+   — nunca antes de que el usuario entre a una función que lo requiera — y
+   el propio navegador ya se encarga de NO volver a preguntar si el
+   usuario ya lo concedió (no hace falta guardar eso nosotros). Si el
+   usuario lo rechaza, o no hay cámara/mic, devolvemos un error real que
+   se muestra con un mensaje claro (ver _mediaAccessDeniedHtml).
 ═══════════════════════════════════════ */
+async function requestMediaStream(constraints){
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+    return { stream:null, error:{ name:'NotSupportedError' } };
+  }
+  try{
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    return { stream, error:null };
+  } catch(e){
+    return { stream:null, error:e };
+  }
+}
+
+// Tarjeta de error clara y accionable — nunca dejamos la pantalla "colgada"
+// aparentando que algo está funcionando cuando el permiso fue rechazado.
+function _mediaAccessDeniedHtml(e, needs, retryFnCall){
+  const what = needs.camera && needs.mic ? 'la cámara y el micrófono' : needs.camera ? 'la cámara' : 'el micrófono';
+  const icon = needs.camera ? '📷' : '🎙️';
+  const name = e?.name || '';
+  let detail = `Drakón necesita ${what} para esta función.`;
+  if(name==='NotAllowedError' || name==='PermissionDeniedError' || name==='SecurityError'){
+    detail = `Parece que el permiso fue rechazado antes. Ve a los ajustes de este sitio (icono 🔒 junto a la dirección, o Ajustes del sistema → Apps → Drakón → Permisos) y activa ${what}, luego vuelve a intentarlo.`;
+  } else if(name==='NotFoundError' || name==='DevicesNotFoundError'){
+    detail = `No encontramos ${needs.camera?'una cámara':'un micrófono'} disponible en este dispositivo.`;
+  } else if(name==='NotReadableError' || name==='TrackStartError'){
+    detail = `${needs.camera?'La cámara':'El micrófono'} parece estar en uso por otra aplicación. Ciérrala e inténtalo de nuevo.`;
+  } else if(name==='NotSupportedError'){
+    detail = `Este navegador no soporta acceso a ${what}. Prueba a abrir Drakón en Chrome.`;
+  }
+  return `<div class="media-denied">
+    <div class="media-denied-ic">${icon}</div>
+    <div class="media-denied-t">Necesitamos acceso a ${what}</div>
+    <div class="media-denied-s">${detail}</div>
+    <button class="scan-cta" onclick="${retryFnCall}">🔁 Reintentar</button>
+  </div>`;
+}
+
+
 function renderSituations(){
   const g=document.getElementById('sitGrid'); if(!g) return;
   g.innerHTML=SITUATIONS.map(s=>`
@@ -332,26 +377,66 @@ async function askDrakonVisionOnce(systemPrompt, userText, imageDataUrl){
   } catch(e){ return ''; }
 }
 
+const ScanCam = { stream:null };
+
 function openScan(){
   goTo('screen-scan');
-  const shell=document.getElementById('scanShell');
-  if(shell) shell.innerHTML=`
-    <div class="scan-intro">
-      <div class="scan-intro-ic">📷</div>
-      <div class="scan-intro-t">Apunta y escanea</div>
-      <div class="scan-intro-s">Un menú, un cartel, un plato, una maleta... Drakón mira la foto de verdad y te dice qué es.</div>
-      ${state.groqKey?'':'<div class="scan-warn">⚠️ Configura tu clave de IA en Ajustes para traducir y reconocer objetos. Sin ella, solo se detecta el texto.</div>'}
-      <label class="scan-cta">
-        📸 Escanear ahora
-        <input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)">
-      </label>
-    </div>`;
+  _scanShowCameraView();
 }
 
-async function handleScanFile(ev){
-  const file=ev.target.files && ev.target.files[0]; if(!file) return;
+async function _scanShowCameraView(){
   const shell=document.getElementById('scanShell'); if(!shell) return;
+  shell.innerHTML=`
+    <div class="scan-camera-wrap">
+      <video id="scanVideo" class="scan-video" autoplay playsinline muted></video>
+      <div class="scan-camera-hint">Enfoca el menú, cartel u objeto</div>
+      <div class="scan-camera-controls">
+        <label class="scan-gallery-btn" title="Elegir de la galería">
+          🖼️
+          <input type="file" accept="image/*" style="display:none" onchange="handleScanGalleryFile(event)">
+        </label>
+        <button class="scan-shutter" onclick="scanCapturePhoto()" aria-label="Capturar"></button>
+        <span class="scan-camera-controls-spacer"></span>
+      </div>
+    </div>`;
+
+  const { stream, error } = await requestMediaStream({ video:{ facingMode:'environment' } });
+  if(error){
+    shell.innerHTML = _mediaAccessDeniedHtml(error, {camera:true}, 'openScan()');
+    return;
+  }
+  ScanCam.stream = stream;
+  const video=document.getElementById('scanVideo');
+  if(video){ video.srcObject=stream; video.play().catch(()=>{}); }
+}
+
+function _scanStopCamera(){
+  if(ScanCam.stream){ ScanCam.stream.getTracks().forEach(t=>t.stop()); ScanCam.stream=null; }
+}
+
+async function scanCapturePhoto(){
+  const video=document.getElementById('scanVideo'); if(!video || !video.videoWidth) return;
+  const canvas=document.createElement('canvas');
+  canvas.width=video.videoWidth; canvas.height=video.videoHeight;
+  canvas.getContext('2d').drawImage(video,0,0);
+  const imgUrl = canvas.toDataURL('image/jpeg', 0.85);
+  _scanStopCamera();
+  await _scanAnalyze(canvas, imgUrl);
+}
+
+async function handleScanGalleryFile(ev){
+  const file=ev.target.files && ev.target.files[0]; if(!file) return;
+  _scanStopCamera();
   const imgUrl=URL.createObjectURL(file);
+  await _scanAnalyze(file, imgUrl);
+}
+
+// Punto único de análisis — recibe SIEMPRE una imagen real (un <canvas> con
+// el fotograma capturado por la cámara, o un File elegido de la galería) y
+// nunca datos simulados. `source` se usa para generar el data URL que se
+// manda a la IA; `imgUrl` es lo que se muestra en pantalla.
+async function _scanAnalyze(source, imgUrl){
+  const shell=document.getElementById('scanShell'); if(!shell) return;
   shell.innerHTML=`
     <div class="scan-result">
       <img class="scan-photo" src="${imgUrl}" alt="Foto escaneada">
@@ -359,7 +444,7 @@ async function handleScanFile(ev){
     </div>`;
 
   let dataUrl=null;
-  try{ dataUrl=await _imageSourceToDataUrl(imgUrl); }catch(e){}
+  try{ dataUrl = await _imageSourceToDataUrl(source instanceof HTMLCanvasElement ? source : imgUrl); }catch(e){}
 
   // Camino principal: visión real con Groq (texto Y objetos, con
   // traducción). Camino de respaldo: Tesseract.js, solo texto, sin IA.
@@ -370,10 +455,12 @@ async function handleScanFile(ev){
       return;
     }
   }
-  await _renderScanFallbackOcr(file, imgUrl);
+  await _renderScanFallbackOcr(source, imgUrl);
 }
 
-async function _renderScanFallbackOcr(file, imgUrl){
+
+
+async function _renderScanFallbackOcr(source, imgUrl){
   const shell=document.getElementById('scanShell'); if(!shell) return;
   const statusEl=shell.querySelector('.scan-status');
   if(statusEl) statusEl.innerHTML=`<span class="spinner"></span> ${state.groqKey?'La IA no respondió, probando solo texto…':'Detectando texto (sin IA configurada)…'}`;
@@ -381,7 +468,7 @@ async function _renderScanFallbackOcr(file, imgUrl){
     await _ensureTesseractLoaded();
     const langMap={EN:'eng',ES:'spa',FR:'fra',DE:'deu',IT:'ita',PT:'por'};
     const ocrLang=langMap[state.lang?.code]||'eng';
-    const { data }=await Tesseract.recognize(file, ocrLang, { logger:()=>{} });
+    const { data }=await Tesseract.recognize(source, ocrLang, { logger:()=>{} });
     const text=(data?.text||'').trim();
     _renderScanResult(text?{hasText:true,text,textTranslation:'',objects:[],summary:''}:null, imgUrl, true);
   } catch(e){
@@ -391,7 +478,7 @@ async function _renderScanFallbackOcr(file, imgUrl){
 
 function _renderScanResult(analysis, imgUrl, isFallback){
   const shell=document.getElementById('scanShell'); if(!shell) return;
-  const scanAgainBtn=`<label class="scan-cta scan-cta-ghost">📸 Escanear otra cosa<input type="file" accept="image/*" capture="environment" style="display:none" onchange="handleScanFile(event)"></label>`;
+  const scanAgainBtn=`<button class="scan-cta scan-cta-ghost" onclick="openScan()">📸 Escanear otra cosa</button>`;
 
   if(!analysis || (!analysis.hasText && !analysis.objects.length && !analysis.summary)){
     shell.innerHTML=`<div class="scan-result">
@@ -474,28 +561,99 @@ async function scanAction(kind){
 
 /* ── 4b) Videollamada con Drakón — conversación de voz en vivo con el
    personaje seleccionado, animado de verdad (escuchando/pensando/hablando,
-   reutilizando el mismo sistema de mascot.js que el chat normal) y con la
-   cámara como contexto visual REAL para la IA vía el modelo de visión de
-   Groq (nunca datos simulados). ─────────────────────────────────── */
+   reutilizando mascot.js) y con la cámara como contexto visual REAL para
+   la IA. El reconocimiento de voz por micrófono del navegador
+   (SpeechRecognition) es poco fiable fuera de Chrome de escritorio —
+   especialmente dentro de un WebView/PWA instalada en Android, donde
+   suele fallar en silencio — así que la voz del usuario se transcribe con
+   Whisper alojado en Groq (el MISMO proveedor de IA que ya usa toda la
+   app, vía la misma clave): se graba un clip real con MediaRecorder y se
+   envía a POST /openai/v1/audio/transcriptions. Nunca se inventa texto. */
+
+// Graba SOLO la pista de audio del stream de la videollamada (no el video,
+// para que el archivo sea pequeño y rápido de subir).
+const VoiceRecorder = {
+  mediaRecorder:null, chunks:[], recording:false,
+  start(sourceStream){
+    const audioOnly=new MediaStream(sourceStream.getAudioTracks());
+    const candidates=['audio/webm;codecs=opus','audio/webm','audio/mp4','audio/ogg;codecs=opus'];
+    const mimeType=candidates.find(m=>window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(m)) || '';
+    this.chunks=[];
+    try{ this.mediaRecorder = mimeType ? new MediaRecorder(audioOnly,{mimeType}) : new MediaRecorder(audioOnly); }
+    catch(e){ this.mediaRecorder=null; return false; }
+    this.mediaRecorder.ondataavailable=(e)=>{ if(e.data && e.data.size>0) this.chunks.push(e.data); };
+    this.mediaRecorder.start();
+    this.recording=true;
+    return true;
+  },
+  stop(){
+    return new Promise(resolve=>{
+      if(!this.mediaRecorder || !this.recording){ resolve(null); return; }
+      this.mediaRecorder.onstop=()=>{
+        this.recording=false;
+        const blob=new Blob(this.chunks, {type:this.mediaRecorder.mimeType||'audio/webm'});
+        resolve(blob.size>0?blob:null);
+      };
+      try{ this.mediaRecorder.stop(); }catch(e){ this.recording=false; resolve(null); }
+    });
+  },
+  abort(){
+    if(this.mediaRecorder && this.recording){ try{ this.mediaRecorder.onstop=null; this.mediaRecorder.stop(); }catch(e){} }
+    this.recording=false; this.chunks=[];
+  },
+};
+
+// Transcripción REAL con Whisper (Groq) — nunca texto inventado. Si el
+// clip queda vacío o falla la red, se devuelve texto vacío con un motivo,
+// y quien llama lo comunica claramente en vez de simular una respuesta.
+async function transcribeAudioWithGroq(blob){
+  if(!state.groqKey) return { text:'', error:'no-key' };
+  if(!blob || blob.size<800) return { text:'', error:'empty' };
+  const langMap={EN:'en',ES:'es',FR:'fr',DE:'de',IT:'it',PT:'pt'};
+  const lang=langMap[state.lang?.code];
+  const ext = blob.type.includes('mp4')?'mp4':blob.type.includes('ogg')?'ogg':'webm';
+  const form=new FormData();
+  form.append('file', blob, `audio.${ext}`);
+  form.append('model','whisper-large-v3-turbo');
+  if(lang) form.append('language', lang);
+  form.append('response_format','json');
+  try{
+    const resp=await Promise.race([
+      fetch('https://api.groq.com/openai/v1/audio/transcriptions',{
+        method:'POST',
+        headers:{'Authorization':`Bearer ${state.groqKey}`}, // sin Content-Type: el navegador arma el multipart/boundary
+        body:form,
+      }),
+      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),20000)),
+    ]);
+    if(!resp.ok) return { text:'', error:'http-'+resp.status };
+    const data=await resp.json();
+    return { text:(data?.text||'').trim(), error:null };
+  } catch(e){ return { text:'', error:'network' }; }
+}
+
 const LiveCall = {
-  active:false, stream:null, recognizer:null, situationKey:null,
-  _restartTimer:null, _speaking:false, _pendingImage:null, _visualTimeout:null, _captionTimer:null,
+  active:false, stream:null, situationKey:null,
+  _speaking:false, _pendingImage:null, _visualTimeout:null, _captionTimer:null, _maxRecTimer:null,
 
   async start(key){
     this.situationKey = key || null;
     goTo('screen-livecall');
     if(typeof mascotReset==='function') mascotReset();
-    const video=document.getElementById('liveCallVideo');
     const logEl=document.getElementById('liveCallLog'); if(logEl) logEl.innerHTML='';
     const cap=document.getElementById('liveCallCaption'); if(cap){ cap.textContent=''; cap.classList.remove('show'); }
     this._setStatus('📷 Solicitando cámara y micrófono…');
-    try{
-      this.stream = await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'}, audio:true});
-    } catch(e){
-      this._setStatus('⚠️ Necesitamos permiso de cámara y micrófono para la videollamada.');
+    this._setMicButton('busy');
+
+    const { stream, error } = await requestMediaStream({ video:{facingMode:'environment'}, audio:true });
+    if(error){
+      const wrap=document.getElementById('liveCallVideoWrap');
+      if(wrap) wrap.innerHTML = _mediaAccessDeniedHtml(error, {camera:true, mic:true}, `startLiveCall('${this.situationKey||''}')`);
       return;
     }
-    if(video){ video.srcObject=this.stream; video.play().catch(()=>{}); }
+    this.stream = stream;
+    const video=document.getElementById('liveCallVideo');
+    if(video){ video.srcObject=stream; video.play().catch(()=>{}); }
     this.active=true;
     this._greet();
   },
@@ -504,17 +662,17 @@ const LiveCall = {
     const s=getSituation(this.situationKey);
     const lang=state.lang?.name||'inglés';
     const line = s
-      ? `Hi! I'm right here with you at ${s.roleLabel||'this place'}. Point your camera at something and tap "Mira esto" to ask me about it, or just talk to me in ${lang}.`
-      : `Hi! I'm right here with you. Talk to me in ${lang} whenever you're ready.`;
+      ? `Hi! I'm right here with you at ${s.roleLabel||'this place'}. Tap the microphone to talk to me in ${lang}, or point your camera and tap "Mira esto".`
+      : `Hi! I'm right here with you. Tap the microphone to talk to me in ${lang} whenever you're ready.`;
     this._logLine('ai', line);
     if(typeof mascotSpeakUntilDone==='function') mascotSpeakUntilDone();
     this._setStatus('🔊 Drakón está hablando…');
     state.ttsEnabled=true;
     await new Promise(resolve=>speakInTargetLang(line, resolve));
     if(!this.active) return;
-    if(typeof mascotListening==='function') mascotListening();
-    this._setStatus('🎙️ Escuchando… habla cuando quieras');
-    this._listenOnce();
+    if(typeof mascotIdle==='function') mascotIdle();
+    this._setStatus('🎙️ Toca el micrófono para hablar');
+    this._setMicButton('idle');
   },
 
   stop(){
@@ -528,9 +686,9 @@ const LiveCall = {
   // cambiar de pestaña, etc.).
   _cleanup(){
     this.active=false;
-    clearTimeout(this._restartTimer); clearTimeout(this._visualTimeout); clearTimeout(this._captionTimer);
+    clearTimeout(this._visualTimeout); clearTimeout(this._captionTimer); clearTimeout(this._maxRecTimer);
     this._pendingImage=null;
-    try{ this.recognizer && this.recognizer.stop(); }catch(e){}
+    VoiceRecorder.abort();
     if(this.stream){ this.stream.getTracks().forEach(t=>t.stop()); this.stream=null; }
     if(window.speechSynthesis) window.speechSynthesis.cancel();
     if(typeof ttsStopAll==='function') ttsStopAll();
@@ -538,6 +696,16 @@ const LiveCall = {
   },
 
   _setStatus(txt){ const el=document.getElementById('liveCallStatus'); if(el) el.textContent=txt; },
+
+  // mode: 'idle' (listo para grabar) | 'recording' (grabando ahora mismo,
+  // toca para enviar) | 'busy' (Drakón está pensando/hablando — no se puede tocar)
+  _setMicButton(mode){
+    const btn=document.getElementById('lcMicBtn'); if(!btn) return;
+    btn.classList.remove('recording','busy');
+    if(mode==='recording'){ btn.classList.add('recording'); btn.textContent='⏹️ Enviar'; btn.disabled=false; }
+    else if(mode==='busy'){ btn.classList.add('busy'); btn.textContent='🎙️ Hablar'; btn.disabled=true; }
+    else { btn.textContent='🎙️ Hablar'; btn.disabled=false; }
+  },
 
   _logLine(who, text){
     const logEl=document.getElementById('liveCallLog');
@@ -551,22 +719,46 @@ const LiveCall = {
     }
   },
 
-  _listenOnce(){
-    if(!this.active) return;
-    const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-    if(!SR){ this._setStatus('⚠️ Tu navegador no soporta reconocimiento de voz. Prueba en Chrome.'); return; }
-    const rec=new SR();
-    this.recognizer=rec;
-    rec.lang=state.lang?.lang||'en-US';
-    rec.continuous=false; rec.interimResults=false; rec.maxAlternatives=1;
-    rec.onstart=()=>{ if(typeof mascotListening==='function') mascotListening(); };
-    rec.onresult=(e)=>{
-      const heard=e.results[e.results.length-1][0].transcript.trim();
-      if(heard) this._handleUserSpeech(heard);
-    };
-    rec.onerror=()=>{ if(this.active) this._restartTimer=setTimeout(()=>this._listenOnce(),1200); };
-    rec.onend=()=>{ if(this.active && !this._speaking) this._restartTimer=setTimeout(()=>this._listenOnce(),400); };
-    try{ rec.start(); }catch(e){}
+  // Botón de micrófono tipo "empuja para hablar": un toque empieza a
+  // grabar de verdad con MediaRecorder, otro toque termina y envía el
+  // clip a Whisper (Groq) para transcribirlo — nada se reconoce "en vivo"
+  // de forma simulada. Límite de seguridad: 15s de grabación máxima.
+  async toggleMic(){
+    if(!this.active || this._speaking) return;
+    if(VoiceRecorder.recording){ this._finishRecording(); return; }
+    const ok = VoiceRecorder.start(this.stream);
+    if(!ok){ this._setStatus('⚠️ No se pudo acceder al micrófono para grabar.'); return; }
+    if(typeof mascotListening==='function') mascotListening();
+    this._setStatus('🎙️ Grabando… toca de nuevo para enviar');
+    this._setMicButton('recording');
+    clearTimeout(this._maxRecTimer);
+    this._maxRecTimer=setTimeout(()=>{ if(VoiceRecorder.recording) this._finishRecording(); }, 15000);
+  },
+
+  async _finishRecording(){
+    clearTimeout(this._maxRecTimer);
+    this._setMicButton('busy');
+    this._setStatus('📝 Transcribiendo lo que dijiste…');
+    if(typeof mascotThinking==='function') mascotThinking();
+    const blob = await VoiceRecorder.stop();
+    if(!blob){
+      this._setMicButton('idle'); if(typeof mascotIdle==='function') mascotIdle();
+      this._setStatus('🎙️ No se grabó nada. Mantén pulsado un momento más e inténtalo de nuevo.');
+      return;
+    }
+    if(!state.groqKey){
+      this._setMicButton('idle'); if(typeof mascotIdle==='function') mascotIdle();
+      this._setStatus('⚠️ Configura tu clave de IA (Groq) en Ajustes para transcribir tu voz.');
+      this._pendingImage=null;
+      return;
+    }
+    const { text, error } = await transcribeAudioWithGroq(blob);
+    if(!text){
+      this._setMicButton('idle'); if(typeof mascotIdle==='function') mascotIdle();
+      this._setStatus(error==='network' ? '⚠️ No se pudo conectar para transcribir. Inténtalo de nuevo.' : '😕 No entendí bien lo que dijiste — inténtalo otra vez, más cerca del micrófono.');
+      return;
+    }
+    await this._handleUserSpeech(text);
   },
 
   async _handleUserSpeech(heard){
@@ -574,6 +766,7 @@ const LiveCall = {
     const img=this._pendingImage; this._pendingImage=null;
     this._logLine('user', img?`👀 ${heard}`:heard);
     this._setStatus('💭 Drakón está pensando…');
+    this._setMicButton('busy');
     if(typeof mascotThinking==='function') mascotThinking();
     this._speaking=true;
 
@@ -597,17 +790,18 @@ const LiveCall = {
     await new Promise(resolve=>speakInTargetLang(out, resolve));
     this._speaking=false;
     if(!this.active) return;
-    if(typeof mascotListening==='function') mascotListening();
-    this._setStatus('🎙️ Escuchando… habla cuando quieras');
-    this._restartTimer=setTimeout(()=>this._listenOnce(),500);
+    if(typeof mascotIdle==='function') mascotIdle();
+    this._setStatus('🎙️ Toca el micrófono para hablar');
+    this._setMicButton('idle');
   },
 
-  // "Mira esto": toma un fotograma REAL de la cámara ahora mismo y espera
-  // a que el usuario pregunte algo sobre él (o, si no dice nada en unos
-  // segundos, lo describe). La imagen SIEMPRE se analiza con el modelo de
-  // visión de Groq — nunca se inventa ni se envía nada simulado.
+  // "Mira esto": toma un fotograma REAL de la cámara ahora mismo. El
+  // usuario toca el micrófono para preguntar algo sobre lo que se ve (o,
+  // si no dice nada en unos segundos, Drakón lo describe). La imagen
+  // SIEMPRE se analiza con el modelo de visión de Groq — nunca se envía
+  // nada simulado ni desconectado de la foto real.
   async lookAtView(){
-    if(!this.active) return;
+    if(!this.active || this._speaking || VoiceRecorder.recording) return;
     if(!state.groqKey){
       this._setStatus('⚠️ Configura tu clave de IA (Groq) en Ajustes para que Drakón pueda ver.');
       return;
@@ -620,23 +814,20 @@ const LiveCall = {
     this._pendingImage = canvas.toDataURL('image/jpeg', 0.78);
 
     const btn=document.getElementById('lcLookBtn'); if(btn){ btn.classList.add('flash'); setTimeout(()=>btn.classList.remove('flash'),350); }
-    this._setStatus('👀 Foto tomada — pregúntame algo, o espera y te la describo');
-    clearTimeout(this._restartTimer);
-    try{ this.recognizer && this.recognizer.stop(); }catch(e){}
-    this._listenOnce();
+    this._setStatus('👀 Foto tomada — toca el micrófono y pregúntame sobre esto');
 
     clearTimeout(this._visualTimeout);
     this._visualTimeout=setTimeout(()=>{
-      if(this._pendingImage){
-        try{ this.recognizer && this.recognizer.stop(); }catch(e){}
+      if(this._pendingImage && !VoiceRecorder.recording){
         this._handleUserSpeech('What is this? Please describe it and help me.');
       }
-    }, 6000);
+    }, 8000);
   },
 };
 function startLiveCall(key){ LiveCall.start(key); }
 function stopLiveCall(){ LiveCall.stop(); }
 function liveCallLookAtView(){ LiveCall.lookAtView(); }
+function liveCallToggleMic(){ LiveCall.toggleMic(); }
 
 /* Habla un texto que YA está en el idioma que se está aprendiendo, sin
    pasar por la traducción automática de speakText() (esa función asume
