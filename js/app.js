@@ -78,6 +78,9 @@ function goTo(sid){
   if(state.screen==='screen-livecall' && sid!=='screen-livecall' && typeof LiveCall!=='undefined'){
     LiveCall._cleanup();
   }
+  if(state.screen==='screen-scan' && sid!=='screen-scan' && typeof _scanStopCamera==='function'){
+    _scanStopCamera();
+  }
   if(cur) cur.classList.remove('active');
   if(state.screen==='screen-chat' && sid!=='screen-chat'){
     if(window.speechSynthesis) window.speechSynthesis.cancel();
