@@ -2718,4 +2718,304 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una oración hendida (“what... is...” o “it is... that...”).",[],["what truly defines", "consciousness", "free will"]],
     ]
   },
+  {
+    id:"a1_garden_plants", level:"A1", title:"El jardín y las plantas", emoji:"🌱", xp:38,
+    description:"Aprende vocabulario de jardinería y a dar instrucciones simples en inglés con el imperativo.",
+    study: {
+      vocab: [
+        ["to water the plants", "regar las plantas"],
+        ["the seed", "la semilla"],
+        ["to grow", "crecer"],
+        ["the flower", "la flor"],
+        ["the soil", "la tierra"],
+        ["sunlight", "la luz del sol"],
+      ],
+      grammar: [
+        ["El imperativo para instrucciones", "El imperativo usa el verbo sin sujeto para dar órdenes o instrucciones. La forma negativa usa “don't” + verbo.", "Water the plants every day. / Don't forget to close the gate."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “la semilla” en inglés?",["to water the plants", "the seed", "the soil", "to grow"],1,"“La semilla” es “the seed” en inglés."],
+      ["mcq","¿Cómo se dice “crecer” en inglés?",["the soil", "to water the plants", "to grow", "sunlight"],2,"“Crecer” es “to grow” en inglés."],
+      ["fill","Completa: “___ the plants every day, or they will die.”",["Water", "Waters", "To water", "Watering"],0,"El imperativo usa el verbo base sin sujeto: “Water the plants”."],
+      ["translate","Traduce: “Riega las plantas todos los días.”",["Water the plants every week.", "You water the plants every day.", "Water the plants every day.", "Watering the plants every day."],2,"El imperativo comienza directamente con el verbo: “Water the plants...”."],
+      ["arrange","Ordena: [forget / gate / to / don't / the / close]",["gate don't forget to close the", "don't forget to close the gate", "gate close forget to the don't", "forget to close don't gate the"],1,"“Don't” + verbo + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en inglés, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["water", "don't", "grow"]],
+    ]
+  },
+  {
+    id:"a2_library_books", level:"A2", title:"La biblioteca y los libros", emoji:"📚", xp:48,
+    description:"Aprende vocabulario de biblioteca y a narrar en pasado simple en inglés.",
+    study: {
+      vocab: [
+        ["to borrow a book", "pedir prestado un libro"],
+        ["the library card", "el carné de biblioteca"],
+        ["the due date", "la fecha de devolución"],
+        ["the bookshelf", "el estante"],
+        ["the novel", "la novela"],
+        ["to return a book", "devolver un libro"],
+      ],
+      grammar: [
+        ["Pasado simple para narrar", "El pasado simple (verbos regulares + “-ed”, o formas irregulares) describe acciones completas en el pasado.", "I borrowed a novel last week. / She returned the book on time."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “el carné de biblioteca” en inglés?",["to return a book", "the library card", "the novel", "the bookshelf"],1,"“El carné de biblioteca” es “the library card” en inglés."],
+      ["mcq","¿Cómo se dice “la fecha de devolución” en inglés?",["to return a book", "the novel", "the bookshelf", "the due date"],3,"“La fecha de devolución” es “the due date” en inglés."],
+      ["fill","Completa: “I ___ a novel from the library last week.”",["borrows", "borrow", "borrowed", "borrowing"],2,"El pasado simple de “borrow” es “borrowed” (regular, +ed)."],
+      ["translate","Traduce: “Ella devolvió el libro a tiempo.”",["She returns the book on time.", "She returned the book on time.", "She returned the novel on time.", "She returned the book late."],1,"“Devolvió” se traduce con pasado simple: “returned”."],
+      ["arrange","Ordena: [shelf / on / the / is / book / the]",["the on shelf is book the", "on shelf book the is the", "the book is on the shelf", "on the shelf book is the"],2,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en inglés, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el pasado simple.",[],["borrowed", "returned", "library"]],
+    ]
+  },
+  {
+    id:"b1_parenting_childcare", level:"B1", title:"La crianza y el cuidado de bebés", emoji:"👶", xp:62,
+    description:"Aprende vocabulario de crianza y a usar “used to” para hábitos pasados en inglés.",
+    study: {
+      vocab: [
+        ["to breastfeed", "amamantar"],
+        ["the crib", "la cuna"],
+        ["to burp the baby", "hacer eructar al bebé"],
+        ["bedtime routine", "rutina para dormir"],
+        ["to babysit", "cuidar niños"],
+        ["the pediatrician", "el pediatra"],
+      ],
+      grammar: [
+        ["“Used to” para hábitos pasados", "“Used to” + infinitivo describe hábitos o estados que ya no son ciertos en el presente.", "The baby used to wake up every two hours. / We used to visit the pediatrician every month."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “la cuna” en inglés?",["to babysit", "to burp the baby", "the crib", "bedtime routine"],2,"“La cuna” es “the crib” en inglés."],
+      ["mcq","¿Cómo se dice “el pediatra” en inglés?",["the pediatrician", "to burp the baby", "the crib", "to babysit"],0,"“El pediatra” es “the pediatrician” en inglés."],
+      ["fill","Completa: “The baby ___ to wake up every two hours.”",["used", "using", "uses", "use"],0,"“Used to” se forma con “used” + “to” + infinitivo, sin cambiar según el sujeto."],
+      ["translate","Traduce: “Solíamos visitar al pediatra cada mes.”",["We used to visit the pediatrician every month.", "We used to visit the pediatrician every week.", "We used to visit the dentist every month.", "We use to visit the pediatrician every month."],0,"“Solíamos visitar” se traduce con “used to visit”, hábito pasado que ya no ocurre."],
+      ["arrange","Ordena: [used / crib / sleep / the / to / in / she]",["she used to sleep in the crib", "the sleep used to in crib she", "to used crib the sleep in she", "in crib to sleep the she used"],0,"Sujeto + “used to” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en inglés, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando “used to” para hábitos pasados.",[],["used to", "crib", "pediatrician"]],
+    ]
+  },
+  {
+    id:"b2_archaeology_discoveries", level:"B2", title:"La arqueología y los descubrimientos históricos", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando modales de deducción en inglés.",
+    study: {
+      vocab: [
+        ["archaeological site", "sitio arqueológico"],
+        ["to excavate", "excavar"],
+        ["ancient civilization", "civilización antigua"],
+        ["artifact", "artefacto"],
+        ["to date (a find)", "datar (un hallazgo)"],
+        ["ruins", "ruinas"],
+      ],
+      grammar: [
+        ["Modales de deducción sobre el pasado", "“Must have” + participio expresa una deducción fuerte sobre el pasado; “might/could have” expresa una posibilidad menos segura.", "This artifact must have belonged to a king. / The site might have been a temple."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “civilización antigua” en inglés?",["ancient civilization", "ruins", "to date (a find)", "artifact"],0,"“Civilización antigua” es “ancient civilization” en inglés."],
+      ["mcq","¿Cómo se dice “excavar” en inglés?",["ruins", "artifact", "to date (a find)", "to excavate"],3,"“Excavar” es “to excavate” en inglés."],
+      ["fill","Completa: “This artifact ___ have belonged to a king.”",["must", "will", "can", "should"],0,"“Must have” + participio expresa una deducción fuerte: “must have belonged”."],
+      ["translate","Traduce: “El sitio podría haber sido un templo.”",["The site must have been a temple.", "The site might have been a palace.", "The site might have been a temple.", "The site might be a temple."],2,"“Podría haber sido” expresa posibilidad menos segura: “might have been”."],
+      ["arrange","Ordena: [have / civilization / this / ancient / built / an]",["civilization ancient an must this built have", "an ancient civilization must have built this", "built civilization have this ancient must an", "built must this civilization an ancient have"],1,"Artículo + adjetivo + sustantivo + modal + participio + pronombre."],
+      ["writing","Escribe en inglés, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando modales de deducción (“must have...”, “might have...”) al menos dos veces.",[],["must have", "might have", "artifact"]],
+    ]
+  },
+  {
+    id:"c1_neuroscience_brain", level:"C1", title:"Las neurociencias y el cerebro", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando inversión para énfasis en registro académico en inglés.",
+    study: {
+      vocab: [
+        ["neural pathway", "vía neuronal"],
+        ["synapse", "sinapsis"],
+        ["neuroplasticity", "neuroplasticidad"],
+        ["cognitive function", "función cognitiva"],
+        ["neurotransmitter", "neurotransmisor"],
+        ["brain scan", "escáner cerebral"],
+      ],
+      grammar: [
+        ["Inversión para énfasis en registro académico", "En inglés formal/académico, ciertos adverbios negativos o restrictivos al inicio de la oración (“Rarely”, “Not only”) invierten el orden sujeto-verbo para dar énfasis.", "Rarely have researchers found such clear evidence of neuroplasticity. / Not only does the brain adapt, but it also repairs itself."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticidad” en inglés?",["cognitive function", "neuroplasticity", "neural pathway", "synapse"],1,"“Neuroplasticidad” es “neuroplasticity” en inglés."],
+      ["mcq","¿Cómo se dice “sinapsis” en inglés?",["neuroplasticity", "neurotransmitter", "synapse", "neural pathway"],2,"“Sinapsis” es “synapse” en inglés."],
+      ["fill","Completa: “Rarely ___ researchers found such clear evidence of neuroplasticity.”",["have", "had", "having", "has"],0,"Tras “Rarely” al inicio, se invierte el orden: “rarely have researchers found”."],
+      ["translate","Traduce con inversión: “Raramente los investigadores han encontrado evidencia tan clara.”",["Rarely have researchers found such clear evidence.", "Researchers have rarely found such clear evidence.", "Rarely have researchers find such clear evidence.", "Rarely researchers have found such clear evidence."],0,"La inversión coloca el auxiliar “have” antes del sujeto: “rarely have researchers found”."],
+      ["arrange","Ordena: [adapt / brain / does / only / not / the]",["not only does the brain adapt", "does only adapt the not brain", "only does not adapt the brain", "does brain not adapt the only"],0,"Adverbio + auxiliar + artículo + sustantivo + verbo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura de inversión (“Rarely...” o “Not only...”).",[],["rarely have", "not only does", "neuroplasticity"]],
+    ]
+  },
+  {
+    id:"c2_behavioral_economics", level:"C2", title:"La economía conductual y los sesgos cognitivos", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en inglés.",
+    study: {
+      vocab: [
+        ["cognitive bias", "sesgo cognitivo"],
+        ["loss aversion", "aversión a la pérdida"],
+        ["anchoring effect", "efecto de anclaje"],
+        ["decision-making", "toma de decisiones"],
+        ["irrational behavior", "comportamiento irracional"],
+        ["nudge", "empujón/incentivo sutil"],
+      ],
+      grammar: [
+        ["Nominalización en registro académico", "La nominalización convierte verbos o adjetivos en sustantivos abstractos (“decide” → “decision-making”), un rasgo típico del inglés académico formal.", "The persistence of cognitive bias affects decision-making. / Researchers study the avoidance of loss, known as loss aversion."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “aversión a la pérdida” en inglés?",["loss aversion", "cognitive bias", "anchoring effect", "nudge"],0,"“Aversión a la pérdida” es “loss aversion” en inglés."],
+      ["mcq","¿Cómo se dice “efecto de anclaje” en inglés?",["anchoring effect", "irrational behavior", "cognitive bias", "loss aversion"],0,"“Efecto de anclaje” es “anchoring effect” en inglés."],
+      ["fill","Completa: “The persistence of cognitive bias affects ___.”",["decide", "decided", "deciding", "decision-making"],3,"La forma nominalizada de “decide” en este registro académico es “decision-making”."],
+      ["translate","Traduce en registro académico: “La aversión a la pérdida afecta la toma de decisiones.”",["Loss aversion affects deciding.", "Loss aversion affect decision-making.", "Losing aversion affects decision-making.", "Loss aversion affects decision-making."],3,"“La toma de decisiones” se traduce con la forma nominalizada “decision-making”, no con el verbo “decide”."],
+      ["arrange","Ordena: [bias / study / researchers / cognitive]",["researchers study cognitive bias", "study bias cognitive researchers", "cognitive researchers bias study", "study cognitive researchers bias"],0,"Sujeto + verbo + adjetivo + sustantivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “decision-making” o “avoidance”).",[],["decision-making", "cognitive bias", "loss aversion"]],
+    ]
+  },
+  {
+    id:"a1_photography_cameras", level:"A1", title:"La fotografía y las cámaras", emoji:"📷", xp:38,
+    description:"Aprende vocabulario de fotografía y a usar “can/can't” para habilidad en inglés.",
+    study: {
+      vocab: [
+        ["camera", "cámara"],
+        ["photo/picture", "foto"],
+        ["lens", "lente"],
+        ["to take a picture", "tomar una foto"],
+        ["zoom", "zoom"],
+        ["memory card", "tarjeta de memoria"],
+      ],
+      grammar: [
+        ["“Can/can't” para habilidad", "“Can” + infinitivo sin “to” expresa habilidad o capacidad; “can't” es la forma negativa.", "I can take good photos with this camera. / This camera can't zoom very far."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lente” en inglés?",["photo/picture", "memory card", "lens", "to take a picture"],2,"“Lente” es “lens” en inglés."],
+      ["mcq","¿Cómo se dice “tarjeta de memoria” en inglés?",["camera", "memory card", "zoom", "to take a picture"],1,"“Tarjeta de memoria” es “memory card” en inglés."],
+      ["fill","Completa: “This camera ___ zoom very far.”",["won't", "isn't", "doesn't", "can't"],3,"“Can't” + infinitivo expresa incapacidad: “can't zoom”."],
+      ["translate","Traduce: “Puedo tomar buenas fotos con esta cámara.”",["I can took good photos with this camera.", "I can take good photos with that camera.", "I can take good photos with this camera.", "I can't take good photos with this camera."],2,"“Puedo tomar” se traduce con “can” + infinitivo: “can take”."],
+      ["arrange","Ordena: [zoom / camera / this / far / can't / very]",["can't far zoom camera very this", "very far zoom can't camera this", "this camera can't zoom very far", "camera far zoom very this can't"],2,"Sujeto + “can't” + verbo + adverbio + adverbio."],
+      ["writing","Describe en inglés, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “can/can't”.",[],["can", "can't", "camera"]],
+    ]
+  },
+  {
+    id:"a2_camping_outdoors", level:"A2", title:"Acampar y las actividades al aire libre", emoji:"🏕️", xp:48,
+    description:"Aprende vocabulario de camping y a usar “some/any” para cantidades en inglés.",
+    study: {
+      vocab: [
+        ["tent", "tienda de campaña"],
+        ["sleeping bag", "saco de dormir"],
+        ["campfire", "fogata"],
+        ["hiking trail", "sendero"],
+        ["backpack", "mochila"],
+        ["to pitch a tent", "armar una tienda"],
+      ],
+      grammar: [
+        ["“Some/any” para cantidades", "“Some” se usa en oraciones afirmativas para cantidades indefinidas; “any” se usa en negativas y preguntas.", "We have some firewood for the campfire. / We don't have any water left."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “saco de dormir” en inglés?",["backpack", "campfire", "hiking trail", "sleeping bag"],3,"“Saco de dormir” es “sleeping bag” en inglés."],
+      ["mcq","¿Cómo se dice “sendero” en inglés?",["tent", "sleeping bag", "hiking trail", "campfire"],2,"“Sendero” es “hiking trail” en inglés."],
+      ["fill","Completa: “We don't have ___ water left.”",["some", "much", "no", "any"],3,"En oraciones negativas se usa “any”: “don't have any water”."],
+      ["translate","Traduce: “Tenemos algo de leña para la fogata.”",["We have any firewood for the campfire.", "We has some firewood for the campfire.", "We have some firewood for the campfire.", "We have some firewood for the tent."],2,"“Algo de leña” en afirmativa se traduce con “some”: “have some firewood”."],
+      ["arrange","Ordena: [trail / this / the / hiking / long / is]",["trail this long hiking is", "this hiking trail is long", "hiking long is trail this", "this long hiking is trail"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en inglés, en 40-60 palabras, un plan de camping usando “some/any” para lo que necesitas llevar.",[],["some", "any", "tent"]],
+    ]
+  },
+  {
+    id:"b1_beekeeping_bees", level:"B1", title:"La apicultura y las abejas", emoji:"🐝", xp:62,
+    description:"Aprende vocabulario de apicultura y a usar cláusulas relativas en inglés.",
+    study: {
+      vocab: [
+        ["beehive", "colmena"],
+        ["honey", "miel"],
+        ["to sting", "picar"],
+        ["to pollinate", "polinizar"],
+        ["beekeeper", "apicultor"],
+        ["queen bee", "abeja reina"],
+      ],
+      grammar: [
+        ["Cláusulas relativas (who/which/that)", "Las cláusulas relativas añaden información sobre un sustantivo: “who” para personas, “which” para cosas, “that” para ambos en registro informal.", "The beekeeper who manages this hive is very experienced. / Bees, which pollinate flowers, are essential to farming."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “colmena” en inglés?",["beehive", "beekeeper", "to pollinate", "honey"],0,"“Colmena” es “beehive” en inglés."],
+      ["mcq","¿Cómo se dice “polinizar” en inglés?",["to pollinate", "beekeeper", "honey", "to sting"],0,"“Polinizar” es “to pollinate” en inglés."],
+      ["fill","Completa: “The beekeeper ___ manages this hive is very experienced.”",["which", "whose", "who", "where"],2,"“Who” se usa para personas: “the beekeeper who manages”."],
+      ["translate","Traduce: “Las abejas, que polinizan las flores, son esenciales para la agricultura.”",["Bees, which pollinates flowers, are essential to farming.", "Bees, which pollinate flowers, are essential to farming.", "Bees, which pollinate flowers, is essential to farming.", "Bees, who pollinate flowers, are essential to farming."],1,"“Which” se usa para cosas/animales en cláusula explicativa: “bees, which pollinate...”."],
+      ["arrange","Ordena: [hive / bees / that / live / the / in]",["the bees that live in the hive", "bees the the hive live in that", "hive the in live the bees that", "the in the live bees that hive"],0,"Artículo + sustantivo + “that” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en inglés, en 45-65 palabras, sobre la importancia de las abejas usando al menos una cláusula relativa (“who/which/that”).",[],["which", "who", "beehive"]],
+    ]
+  },
+  {
+    id:"b2_cryptocurrency_digital_finance", level:"B2", title:"Las criptomonedas y las finanzas digitales", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el tercer condicional en inglés.",
+    study: {
+      vocab: [
+        ["cryptocurrency", "criptomoneda"],
+        ["blockchain", "cadena de bloques"],
+        ["digital wallet", "billetera digital"],
+        ["to invest", "invertir"],
+        ["volatility", "volatilidad"],
+        ["decentralized", "descentralizado"],
+      ],
+      grammar: [
+        ["Tercer condicional (pasado irreal)", "El tercer condicional (“if” + pasado perfecto, “would have” + participio) describe una situación hipotética en el pasado que no ocurrió.", "If I had invested earlier, I would have made more money. / If the market hadn't crashed, prices would have stayed high."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cadena de bloques” en inglés?",["decentralized", "cryptocurrency", "blockchain", "digital wallet"],2,"“Cadena de bloques” es “blockchain” en inglés."],
+      ["mcq","¿Cómo se dice “volatilidad” en inglés?",["digital wallet", "volatility", "decentralized", "cryptocurrency"],1,"“Volatilidad” es “volatility” en inglés."],
+      ["fill","Completa: “If I ___ invested earlier, I would have made more money.”",["have", "had", "has", "would have"],1,"El tercer condicional usa “if” + “had” + participio: “if I had invested”."],
+      ["translate","Traduce: “Si el mercado no se hubiera desplomado, los precios se habrían mantenido altos.”",["If the market hadn't crashed, prices had stayed high.", "If the market hadn't crashed, prices would stay high.", "If the market didn't crash, prices would have stayed high.", "If the market hadn't crashed, prices would have stayed high."],3,"El tercer condicional usa “if” + pasado perfecto, “would have” + participio: “hadn't crashed... would have stayed”."],
+      ["arrange","Ordena: [risky / very / cryptocurrency / is]",["very risky is cryptocurrency", "risky cryptocurrency very is", "very is cryptocurrency risky", "cryptocurrency is very risky"],3,"Sujeto + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, sobre una decisión financiera pasada usando el tercer condicional (“if I had... I would have...”) al menos dos veces.",[],["if I had", "would have", "cryptocurrency"]],
+    ]
+  },
+  {
+    id:"c1_bioethics_gene_editing", level:"C1", title:"La bioética y la edición genética", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “so...that/such...that” para énfasis en inglés.",
+    study: {
+      vocab: [
+        ["gene editing", "edición genética"],
+        ["informed consent", "consentimiento informado"],
+        ["clinical trial", "ensayo clínico"],
+        ["genetic modification", "modificación genética"],
+        ["ethical dilemma", "dilema ético"],
+        ["to manipulate DNA", "manipular el ADN"],
+      ],
+      grammar: [
+        ["“So...that/such...that” para énfasis", "“So” + adjetivo/adverbio + “that” y “such” + sustantivo + “that” expresan una consecuencia enfática.", "Gene editing is so powerful that it raises serious ethical questions. / It is such a complex issue that experts still disagree."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “consentimiento informado” en inglés?",["ethical dilemma", "to manipulate DNA", "informed consent", "gene editing"],2,"“Consentimiento informado” es “informed consent” en inglés."],
+      ["mcq","¿Cómo se dice “ensayo clínico” en inglés?",["clinical trial", "genetic modification", "gene editing", "informed consent"],0,"“Ensayo clínico” es “clinical trial” en inglés."],
+      ["fill","Completa: “Gene editing is ___ powerful that it raises serious ethical questions.”",["very", "too", "such", "so"],3,"“So” + adjetivo + “that” expresa consecuencia enfática: “so powerful that”."],
+      ["translate","Traduce con estructura enfática: “Es un tema tan complejo que los expertos aún no están de acuerdo.”",["It is such a complex issue that experts still disagree.", "It is so complex issue that experts still disagree.", "It is such complex issue that experts still disagree.", "It is such a complex issue that experts still agree."],0,"“Such” + artículo + sustantivo + “that” expresa consecuencia enfática: “such a complex issue that”."],
+      ["arrange","Ordena: [dilemma / is / ethical / this / real / a]",["ethical real dilemma is a this", "dilemma ethical a real this is", "this is a real ethical dilemma", "ethical is this a dilemma real"],2,"Pronombre + verbo + artículo + adjetivo + adjetivo + sustantivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un argumento sobre la edición genética usando “so...that” o “such...that” al menos dos veces.",[],["so...that", "such...that", "gene editing"]],
+    ]
+  },
+  {
+    id:"c2_geopolitics_international_relations", level:"C2", title:"La geopolítica y las relaciones internacionales", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando cláusulas de participio en registro académico en inglés.",
+    study: {
+      vocab: [
+        ["diplomatic relations", "relaciones diplomáticas"],
+        ["sovereignty", "soberanía"],
+        ["sanctions", "sanciones"],
+        ["bilateral agreement", "acuerdo bilateral"],
+        ["geopolitical tension", "tensión geopolítica"],
+        ["to negotiate a treaty", "negociar un tratado"],
+      ],
+      grammar: [
+        ["Cláusulas de participio para registro académico conciso", "Las cláusulas de participio (“Having analyzed...”, “Faced with...”) reemplazan cláusulas subordinadas completas para un estilo más conciso y formal.", "Having analyzed the data, researchers concluded that tensions would rise. / Faced with mounting sanctions, the government changed its policy."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “soberanía” en inglés?",["bilateral agreement", "to negotiate a treaty", "diplomatic relations", "sovereignty"],3,"“Soberanía” es “sovereignty” en inglés."],
+      ["mcq","¿Cómo se dice “tensión geopolítica” en inglés?",["sanctions", "geopolitical tension", "sovereignty", "diplomatic relations"],1,"“Tensión geopolítica” es “geopolitical tension” en inglés."],
+      ["fill","Completa: “___ analyzed the data, researchers concluded that tensions would rise.”",["Had", "To have", "Having", "Have"],2,"La cláusula de participio perfecto usa “Having” + participio: “having analyzed”."],
+      ["translate","Traduce con cláusula de participio: “Ante las crecientes sanciones, el gobierno cambió su política.”",["Faced with mounting sanctions, the government changed its policy.", "Faced by mounting sanctions, the government changed its policy.", "Facing with mounting sanctions, the government changed its policy.", "Faced with mounting sanctions, the government changes its policy."],0,"La cláusula de participio pasado usa “Faced with”, no “facing with” ni “faced by” en este contexto."],
+      ["arrange","Ordena: [treaty / negotiate / nations / the / will]",["the nations will negotiate the treaty", "negotiate the nations treaty the will", "treaty will the nations negotiate the", "negotiate will the the nations treaty"],0,"Artículo + sustantivo + auxiliar + verbo + artículo + sustantivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una cláusula de participio (“Having...” o “Faced with...”).",[],["having analyzed", "faced with", "sovereignty"]],
+    ]
+  },
 ];
