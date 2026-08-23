@@ -2593,4 +2593,304 @@ window.LESSON_BANKS.IT = [
       ["writing","Escribe en italiano, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una frase scissa (“ciò che... è...”).",[],["ciò che davvero definisce", "coscienza", "libero arbitrio"]],
     ]
   },
+  {
+    id:"it_a1_garden_plants", level:"A1", title:"Il giardino e le piante", emoji:"🌱", xp:38,
+    description:"Impara il vocabolario del giardinaggio e a dare istruzioni semplici con l'imperativo in italiano.",
+    study: {
+      vocab: [
+        ["annaffiare le piante", "to water the plants"],
+        ["il seme", "the seed"],
+        ["crescere", "to grow"],
+        ["il fiore", "the flower"],
+        ["la terra", "the soil"],
+        ["la luce del sole", "sunlight"],
+      ],
+      grammar: [
+        ["L'imperativo per le istruzioni", "El imperativo (tu) se usa para dar órdenes o instrucciones. La forma negativa usa “non” + infinitivo.", "Annaffia le piante ogni giorno. / Non dimenticare di chiudere il cancello."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the seed” en italiano?",["the seed", "the soil", "the flower", "il seme"],3,"“The seed” es “il seme” en italiano."],
+      ["mcq","¿Cómo se dice “to grow” en italiano?",["the soil", "crescere", "sunlight", "to grow"],1,"“To grow” es “crescere” en italiano."],
+      ["fill","Completa: “___ le piante ogni giorno, altrimenti moriranno.”",["Annaffi", "Annaffiando", "Annaffia", "Annaffiare"],2,"El imperativo (tu) de “annaffiare” es “annaffia”."],
+      ["translate","Traduce: “Water the plants every day.”",["Annaffia le piante ogni settimana.", "Annaffiare le piante ogni giorno.", "Tu annaffi le piante ogni giorno.", "Annaffia le piante ogni giorno."],3,"El imperativo comienza directamente con el verbo conjugado: “Annaffia le piante...”."],
+      ["arrange","Ordena: [dimenticare / cancello / il / non / chiudere / di]",["non dimenticare cancello di chiudere il", "cancello di dimenticare il chiudere non", "dimenticare cancello non chiudere di il", "non dimenticare di chiudere il cancello"],3,"“Non” + infinitivo + “di” + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["annaffia", "non dimenticare", "cresce"]],
+    ]
+  },
+  {
+    id:"it_a2_library_books", level:"A2", title:"La biblioteca e i libri", emoji:"📚", xp:48,
+    description:"Impara il vocabolario della biblioteca e a raccontare al passato prossimo in italiano.",
+    study: {
+      vocab: [
+        ["prendere in prestito un libro", "to borrow a book"],
+        ["la tessera della biblioteca", "the library card"],
+        ["la data di scadenza", "the due date"],
+        ["lo scaffale", "the bookshelf"],
+        ["il romanzo", "the novel"],
+        ["restituire un libro", "to return a book"],
+      ],
+      grammar: [
+        ["Passato prossimo per raccontare", "El passato prossimo (“avere/essere” + participio) describe acciones completas en el pasado.", "Ho preso in prestito un romanzo la settimana scorsa. / Lei ha restituito il libro in tempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the library card” en italiano?",["the bookshelf", "la tessera della biblioteca", "to borrow a book", "to return a book"],1,"“The library card” es “la tessera della biblioteca” en italiano."],
+      ["mcq","¿Cómo se dice “the due date” en italiano?",["the library card", "to borrow a book", "the bookshelf", "la data di scadenza"],3,"“The due date” es “la data di scadenza” en italiano."],
+      ["fill","Completa: “___ preso in prestito un romanzo la settimana scorsa.”",["Avevo", "Ho", "Avendo", "Hai"],1,"El passato prossimo con “io” usa “ho” + participio: “ho preso”."],
+      ["translate","Traduce: “She returned the book on time.”",["Lei ha restituito il libro in ritardo.", "Lei restituisce il libro in tempo.", "Lei ha restituito il libro in tempo.", "Lei ha restituito il romanzo in tempo."],2,"“Returned” se traduce con passato prossimo: “ha restituito”."],
+      ["arrange","Ordena: [scaffale / è / libro / sullo / il]",["scaffale il sullo è libro", "sullo scaffale il libro è", "il libro è sullo scaffale", "libro sullo il scaffale è"],2,"Artículo + sustantivo + verbo + preposición articulada + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el passato prossimo.",[],["ho preso in prestito", "ho restituito", "biblioteca"]],
+    ]
+  },
+  {
+    id:"it_b1_parenting_childcare", level:"B1", title:"La genitorialità e la cura dei neonati", emoji:"👶", xp:62,
+    description:"Impara il vocabolario sulla genitorialità e a usare l'imperfetto per le abitudini passate in italiano.",
+    study: {
+      vocab: [
+        ["allattare", "to breastfeed"],
+        ["la culla", "the crib"],
+        ["far ruttare il bambino", "to burp the baby"],
+        ["la routine della nanna", "bedtime routine"],
+        ["fare da baby-sitter", "to babysit"],
+        ["il pediatra", "the pediatrician"],
+      ],
+      grammar: [
+        ["Imperfetto per le abitudini passate", "El imperfetto describe hábitos o estados repetidos en el pasado, sin un final marcado.", "Il bambino si svegliava ogni due ore. / Andavamo dal pediatra ogni mese."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the crib” en italiano?",["to babysit", "bedtime routine", "the pediatrician", "la culla"],3,"“The crib” es “la culla” en italiano."],
+      ["mcq","¿Cómo se dice “the pediatrician” en italiano?",["the pediatrician", "to burp the baby", "bedtime routine", "il pediatra"],3,"“The pediatrician” es “il pediatra” en italiano."],
+      ["fill","Completa: “Il bambino ___ ogni due ore.”",["si svegliava", "si sveglia", "si è svegliato", "svegliandosi"],0,"El imperfetto describe un hábito repetido en el pasado: “si svegliava”."],
+      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Andavamo dal pediatra ogni mese.", "Andavamo dal pediatra ogni settimana.", "Andiamo dal pediatra ogni mese.", "Andavamo dal dentista ogni mese."],0,"“Used to visit” se traduce con imperfetto: “andavamo”."],
+      ["arrange","Ordena: [culla / dormiva / nella / lei]",["lei dormiva nella culla", "culla nella lei dormiva", "nella dormiva culla lei", "nella dormiva lei culla"],0,"Sujeto + verbo + preposición articulada + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando el imperfetto para hábitos pasados.",[],["si svegliava", "culla", "pediatra"]],
+    ]
+  },
+  {
+    id:"it_b2_archaeology_discoveries", level:"B2", title:"L'archeologia e le scoperte storiche", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando el futuro anteriore de probabilidad en italiano.",
+    study: {
+      vocab: [
+        ["il sito archeologico", "archaeological site"],
+        ["scavare", "to excavate"],
+        ["l'antica civiltà", "ancient civilization"],
+        ["il manufatto", "artifact"],
+        ["datare (un reperto)", "to date (a find)"],
+        ["le rovine", "ruins"],
+      ],
+      grammar: [
+        ["Futuro anteriore di probabilità sul passato", "El futuro anteriore (“avrà/sarà” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Questo manufatto sarà appartenuto a un re. / Il sito potrebbe essere stato un tempio."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancient civilization” en italiano?",["ruins", "l'antica civiltà", "to excavate", "to date (a find)"],1,"“Ancient civilization” es “l'antica civiltà” en italiano."],
+      ["mcq","¿Cómo se dice “to excavate” en italiano?",["ancient civilization", "to excavate", "artifact", "scavare"],3,"“To excavate” es “scavare” en italiano."],
+      ["fill","Completa: “Questo manufatto ___ appartenuto a un re.”",["sarà", "sarebbe", "era", "è"],0,"El futuro anteriore de probabilidad usa “sarà” + participio: “sarà appartenuto”."],
+      ["translate","Traduce: “The site might have been a temple.”",["Il sito potrebbe essere un tempio.", "Il sito sarà stato un tempio.", "Il sito potrebbe essere stato un tempio.", "Il sito potrebbe essere stato un palazzo."],2,"“Might have been” se traduce con condicional de probabilidad: “potrebbe essere stato”."],
+      ["arrange","Ordena: [costruito / antica / questo / civiltà / avrà / una]",["questo civiltà avrà antica costruito una", "antica questo una civiltà costruito avrà", "una civiltà antica avrà costruito questo", "avrà antica questo costruito una civiltà"],2,"Artículo + sustantivo + adjetivo + futuro anteriore + pronombre."],
+      ["writing","Escribe en italiano, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando el futuro anteriore o el condicional de probabilidad al menos dos veces.",[],["sarà stato", "potrebbe essere stato", "manufatto"]],
+    ]
+  },
+  {
+    id:"it_c1_neuroscience_brain", level:"C1", title:"Le neuroscienze e il cervello", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando estructuras enfáticas en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["la via neurale", "neural pathway"],
+        ["la sinapsi", "synapse"],
+        ["la neuroplasticità", "neuroplasticity"],
+        ["la funzione cognitiva", "cognitive function"],
+        ["il neurotrasmettitore", "neurotransmitter"],
+        ["la risonanza cerebrale", "brain scan"],
+      ],
+      grammar: [
+        ["Strutture enfatiche con avverbi iniziali", "En italiano formal/académico, colocar un adverbio restrictivo al inicio (“Raramente”, “Solo così”) da énfasis a la oración, un rasgo típico del registro académico.", "Raramente i ricercatori hanno trovato prove così chiare di neuroplasticità. / Solo così si spiega la funzione cognitiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticity” en italiano?",["synapse", "brain scan", "neuroplasticity", "la neuroplasticità"],3,"“Neuroplasticity” es “la neuroplasticità” en italiano."],
+      ["mcq","¿Cómo se dice “synapse” en italiano?",["brain scan", "neuroplasticity", "neural pathway", "la sinapsi"],3,"“Synapse” es “la sinapsi” en italiano."],
+      ["fill","Completa: “Raramente i ricercatori ___ trovato prove così chiare.”",["avranno", "hanno", "ha", "avevano"],1,"El passato prossimo con “i ricercatori” usa “hanno” + participio: “hanno trovato”."],
+      ["translate","Traduce con estructura enfática: “Rarely have researchers found such clear evidence.”",["Raramente i ricercatori trovano prove così chiare.", "Raramente i ricercatori hanno trovato prove così chiare.", "I ricercatori hanno raramente trovato prove così chiare.", "Raramente i ricercatori hanno trovato prove poco chiare."],1,"La estructura enfática coloca el adverbio primero, seguido del sujeto y el verbo: “raramente i ricercatori hanno trovato”."],
+      ["arrange","Ordena: [adatta / cervello / si / bene / il]",["il cervello si adatta bene", "adatta il bene cervello si", "bene il adatta si cervello", "il bene adatta cervello si"],0,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura enfática con “raramente” o “solo così”.",[],["raramente", "neuroplasticità", "funzione cognitiva"]],
+    ]
+  },
+  {
+    id:"it_c2_behavioral_economics", level:"C2", title:"L'economia comportamentale e i bias cognitivi", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["il bias cognitivo", "cognitive bias"],
+        ["l'avversione alla perdita", "loss aversion"],
+        ["l'effetto ancoraggio", "anchoring effect"],
+        ["il processo decisionale", "decision-making"],
+        ["il comportamento irrazionale", "irrational behavior"],
+        ["la spinta gentile", "nudge"],
+      ],
+      grammar: [
+        ["Nominalizzazione nel registro accademico", "La nominalización convierte verbos en sustantivos abstractos (“decidere” → “il processo decisionale”), un rasgo típico del italiano académico formal.", "La persistenza del bias cognitivo influisce sul processo decisionale. / I ricercatori studiano l'evitamento della perdita."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “loss aversion” en italiano?",["cognitive bias", "anchoring effect", "loss aversion", "l'avversione alla perdita"],3,"“Loss aversion” es “l'avversione alla perdita” en italiano."],
+      ["mcq","¿Cómo se dice “anchoring effect” en italiano?",["anchoring effect", "nudge", "loss aversion", "l'effetto ancoraggio"],3,"“Anchoring effect” es “l'effetto ancoraggio” en italiano."],
+      ["fill","Completa: “La persistenza del bias cognitivo influisce sul ___.”",["decidendo", "processo decisionale", "decidere", "decisione"],1,"La forma nominalizada de “decidere” en este registro académico es “il processo decisionale”."],
+      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["L'avversione alla perdita influisce sul processo decisionale.", "L'avversione alla perdita influisce sul decidere.", "L'avversione alla perdita influiscono sul processo decisionale.", "La perdita di avversione influisce sul processo decisionale."],0,"“Decision-making” se traduce con la forma nominalizada “il processo decisionale”, no con el verbo “decidere”."],
+      ["arrange","Ordena: [cognitivo / studiano / ricercatori / bias / i / il]",["ricercatori cognitivo il bias studiano i", "i ricercatori studiano il bias cognitivo", "ricercatori studiano il bias i cognitivo", "il studiano cognitivo i bias ricercatori"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “il processo decisionale” o “l'evitamento”).",[],["il processo decisionale", "bias cognitivo", "avversione alla perdita"]],
+    ]
+  },
+  {
+    id:"it_a1_photography_cameras", level:"A1", title:"La fotografia e le macchine fotografiche", emoji:"📷", xp:38,
+    description:"Impara il vocabolario della fotografia e a usare “potere” per l'abilità in italiano.",
+    study: {
+      vocab: [
+        ["la macchina fotografica", "camera"],
+        ["la foto", "photo/picture"],
+        ["l'obiettivo", "lens"],
+        ["scattare una foto", "to take a picture"],
+        ["lo zoom", "zoom"],
+        ["la scheda di memoria", "memory card"],
+      ],
+      grammar: [
+        ["“Potere” per l'abilità", "“Potere” + infinitivo expresa habilidad o capacidad; en negativo se usa “non può”.", "Posso scattare belle foto con questa macchina. / Questa macchina non può zumare molto lontano."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lens” en italiano?",["camera", "l'obiettivo", "photo/picture", "to take a picture"],1,"“Lens” es “l'obiettivo” en italiano."],
+      ["mcq","¿Cómo se dice “memory card” en italiano?",["to take a picture", "la scheda di memoria", "camera", "lens"],1,"“Memory card” es “la scheda di memoria” en italiano."],
+      ["fill","Completa: “Questa macchina non ___ zumare molto lontano.”",["può", "possono", "puoi", "posso"],0,"“Potere” conjugado en tercera persona singular es “può”."],
+      ["translate","Traduce: “I can take good photos with this camera.”",["Non posso scattare belle foto con questa macchina.", "Posso scattare belle foto con quella macchina.", "Posso scatto belle foto con questa macchina.", "Posso scattare belle foto con questa macchina."],3,"“I can take” se traduce con “posso scattare”, “potere” + infinitivo."],
+      ["arrange","Ordena: [lontano / zumare / non / molto / può / questa / macchina]",["può zumare questa lontano molto macchina non", "zumare questa non macchina può molto lontano", "questa macchina non può zumare molto lontano", "questa lontano non può molto macchina zumare"],2,"Pronombre + sustantivo + negación + verbo + verbo + adverbio + adverbio."],
+      ["writing","Describe en italiano, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “potere”.",[],["posso", "non può", "macchina"]],
+    ]
+  },
+  {
+    id:"it_a2_camping_outdoors", level:"A2", title:"Il campeggio e le attività all'aperto", emoji:"🏕️", xp:48,
+    description:"Impara il vocabolario del campeggio e a usare “un po'/niente” per le quantità in italiano.",
+    study: {
+      vocab: [
+        ["la tenda", "tent"],
+        ["il sacco a pelo", "sleeping bag"],
+        ["il falò", "campfire"],
+        ["il sentiero", "hiking trail"],
+        ["lo zaino", "backpack"],
+        ["montare una tenda", "to pitch a tent"],
+      ],
+      grammar: [
+        ["“Un po' di/niente” per le quantità", "“Un po' di” se usa en afirmativas para cantidades indefinidas; “niente” se usa en negativas.", "Abbiamo un po' di legna per il falò. / Non ci resta niente acqua."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sleeping bag” en italiano?",["il sacco a pelo", "hiking trail", "to pitch a tent", "campfire"],0,"“Sleeping bag” es “il sacco a pelo” en italiano."],
+      ["mcq","¿Cómo se dice “hiking trail” en italiano?",["il sentiero", "campfire", "tent", "sleeping bag"],0,"“Hiking trail” es “il sentiero” en italiano."],
+      ["fill","Completa: “Non ci resta ___ acqua.”",["niente", "un po' di", "poco", "molto"],0,"En oraciones negativas se usa “niente”: “non ci resta niente acqua”."],
+      ["translate","Traduce: “We have some firewood for the campfire.”",["Abbiamo un po' di legna per la tenda.", "Ho un po' di legna per il falò.", "Abbiamo un po' di legna per il falò.", "Abbiamo niente legna per il falò."],2,"“Some firewood” en afirmativa se traduce con “un po' di legna”."],
+      ["arrange","Ordena: [lungo / sentiero / è / questo]",["lungo è sentiero questo", "è questo lungo sentiero", "questo sentiero è lungo", "lungo è questo sentiero"],2,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, un plan de camping usando “un po' di/niente” para lo que necesitas llevar.",[],["un po' di", "niente", "tenda"]],
+    ]
+  },
+  {
+    id:"it_b1_beekeeping_bees", level:"B1", title:"L'apicoltura e le api", emoji:"🐝", xp:62,
+    description:"Impara il vocabolario dell'apicoltura e a usare le proposizioni relative in italiano.",
+    study: {
+      vocab: [
+        ["l'alveare", "beehive"],
+        ["il miele", "honey"],
+        ["pungere", "to sting"],
+        ["impollinare", "to pollinate"],
+        ["l'apicoltore", "beekeeper"],
+        ["l'ape regina", "queen bee"],
+      ],
+      grammar: [
+        ["Proposizioni relative (che/il quale)", "“Che” es el pronombre relativo más común en italiano, usado tanto para personas como para cosas, sujeto u objeto.", "L'apicoltore che gestisce questo alveare è molto esperto. / Le api, che impollinano i fiori, sono essenziali."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “beehive” en italiano?",["l'alveare", "to sting", "honey", "queen bee"],0,"“Beehive” es “l'alveare” en italiano."],
+      ["mcq","¿Cómo se dice “to pollinate” en italiano?",["impollinare", "beekeeper", "queen bee", "honey"],0,"“To pollinate” es “impollinare” en italiano."],
+      ["fill","Completa: “L'apicoltore ___ gestisce questo alveare è molto esperto.”",["il quale", "dove", "cui", "che"],3,"“Che” se usa como relativo general: “l'apicoltore che gestisce”."],
+      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Le api, il quale impollinano i fiori, sono essenziali per l'agricoltura.", "Le api, che impollina i fiori, sono essenziali per l'agricoltura.", "Le api, che impollinano i fiori, è essenziale per l'agricoltura.", "Le api, che impollinano i fiori, sono essenziali per l'agricoltura."],3,"“Which” se traduce con “che” en esta cláusula explicativa: “le api, che impollinano...”."],
+      ["arrange","Ordena: [alveare / api / che / vivono / le / nell']",["le api che vivono nell'alveare", "vivono nell'alveare che api le", "nell'alveare api vivono le che", "vivono le api che nell'alveare"],0,"Artículo + sustantivo + “che” + verbo + preposición articulada + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre la importancia de las abejas usando al menos una proposición relativa (“che”).",[],["che", "alveare", "api"]],
+    ]
+  },
+  {
+    id:"it_b2_cryptocurrency_digital_finance", level:"B2", title:"Le criptovalute e la finanza digitale", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el periodo ipotetico del terzo tipo en italiano.",
+    study: {
+      vocab: [
+        ["la criptovaluta", "cryptocurrency"],
+        ["la blockchain", "blockchain"],
+        ["il portafoglio digitale", "digital wallet"],
+        ["investire", "to invest"],
+        ["la volatilità", "volatility"],
+        ["decentralizzato", "decentralized"],
+      ],
+      grammar: [
+        ["Periodo ipotetico del terzo tipo (passato irreale)", "El periodo ipotetico del terzo tipo (“se” + congiuntivo trapassato, condizionale passato) describe una situación hipotética en el pasado que no ocurrió.", "Se avessi investito prima, avrei guadagnato più soldi. / Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “blockchain” en italiano?",["digital wallet", "decentralized", "la blockchain", "cryptocurrency"],2,"“Blockchain” es “la blockchain” en italiano."],
+      ["mcq","¿Cómo se dice “volatility” en italiano?",["la volatilità", "cryptocurrency", "decentralized", "blockchain"],0,"“Volatility” es “la volatilità” en italiano."],
+      ["fill","Completa: “Se ___ investito prima, avrei guadagnato più soldi.”",["avevo", "ho", "avrei", "avessi"],3,"Tras “se” hipotético sobre el pasado se usa congiuntivo trapassato: “se avessi investito”."],
+      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Se il mercato non fosse crollato, i prezzi sarebbero rimasto alti.", "Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti.", "Se il mercato non fosse crollato, i prezzi rimarrebbero alti.", "Se il mercato non è crollato, i prezzi sarebbero rimasti alti."],1,"“Hadn't crashed... would have stayed” se traduce con congiuntivo trapassato + condizionale passato."],
+      ["arrange","Ordena: [rischiosa / è / criptovaluta / molto / la]",["rischiosa molto è la criptovaluta", "la criptovaluta è molto rischiosa", "criptovaluta molto la è rischiosa", "molto la criptovaluta è rischiosa"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre una decisión financiera pasada usando “se avessi... avrei...” al menos dos veces.",[],["se avessi", "avrei", "criptovaluta"]],
+    ]
+  },
+  {
+    id:"it_c1_bioethics_gene_editing", level:"C1", title:"La bioetica e l'editing genetico", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “così...che/talmente...che” para énfasis en italiano.",
+    study: {
+      vocab: [
+        ["l'editing genetico", "gene editing"],
+        ["il consenso informato", "informed consent"],
+        ["la sperimentazione clinica", "clinical trial"],
+        ["la modificazione genetica", "genetic modification"],
+        ["il dilemma etico", "ethical dilemma"],
+        ["manipolare il DNA", "to manipulate DNA"],
+      ],
+      grammar: [
+        ["“Così...che/talmente...che” para énfasis", "“Così” + adjetivo/adverbio + “che” expresa una consecuencia enfática, típica del registro formal/académico.", "L'editing genetico è così potente che solleva serie questioni etiche. / È un dilemma talmente complesso che gli esperti non sono ancora d'accordo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “informed consent” en italiano?",["gene editing", "clinical trial", "il consenso informato", "informed consent"],2,"“Informed consent” es “il consenso informato” en italiano."],
+      ["mcq","¿Cómo se dice “clinical trial” en italiano?",["genetic modification", "la sperimentazione clinica", "gene editing", "ethical dilemma"],1,"“Clinical trial” es “la sperimentazione clinica” en italiano."],
+      ["fill","Completa: “L'editing genetico è ___ potente che solleva serie questioni etiche.”",["troppo", "molto", "talmente", "così"],3,"“Così” + adjetivo + “che” expresa consecuencia enfática: “così potente che”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["È un dilemma talmente complesso che gli esperti non sono ancora d'accordo.", "È un dilemma talmente complesso che gli esperti sono ancora d'accordo.", "È un dilemma così complesso che gli esperti non sono ancora d'accordo.", "È talmente un dilemma complesso che gli esperti non sono ancora d'accordo."],0,"“Così” también funciona: “così complesso che” es equivalente a “talmente complesso che”."],
+      ["arrange","Ordena: [etico / reale / un / questo / è / dilemma]",["questo dilemma un reale è etico", "reale etico dilemma è un questo", "dilemma questo etico un è reale", "questo è un dilemma etico reale"],3,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre la edición genética usando “così...che” o “talmente...che” al menos dos veces.",[],["così...che", "talmente...che", "editing genetico"]],
+    ]
+  },
+  {
+    id:"it_c2_geopolitics_international_relations", level:"C2", title:"La geopolitica e le relazioni internazionali", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["le relazioni diplomatiche", "diplomatic relations"],
+        ["la sovranità", "sovereignty"],
+        ["le sanzioni", "sanctions"],
+        ["l'accordo bilaterale", "bilateral agreement"],
+        ["la tensione geopolitica", "geopolitical tension"],
+        ["negoziare un trattato", "to negotiate a treaty"],
+      ],
+      grammar: [
+        ["Gerundio y participio per un registro accademico conciso", "El gerundio (“Analizzando...”) y el participio pasado en construcciones absolutas (“Di fronte alle crescenti sanzioni...”) permiten un estilo más conciso y formal.", "Analizzando i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate. / Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sovereignty” en italiano?",["sovereignty", "sanctions", "la sovranità", "bilateral agreement"],2,"“Sovereignty” es “la sovranità” en italiano."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en italiano?",["diplomatic relations", "bilateral agreement", "la tensione geopolitica", "sovereignty"],2,"“Geopolitical tension” es “la tensione geopolitica” en italiano."],
+      ["fill","Completa: “___ i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate.”",["Analizzare", "Analizzando", "Analizzato", "Analizzano"],1,"El gerundio en posición inicial resume una cláusula subordinada: “analizzando i dati”."],
+      ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Di fronte alle crescenti sanzioni, il governo cambia la sua politica.", "Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Davanti alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Di fronte le crescenti sanzioni, il governo ha cambiato la sua politica."],1,"“Faced with mounting sanctions” se traduce de forma concisa con “di fronte alle crescenti sanzioni”."],
+      ["arrange","Ordena: [negozieranno / nazioni / trattato / le / il]",["le nazioni trattato il negozieranno", "le il negozieranno nazioni trattato", "le nazioni negozieranno il trattato", "negozieranno trattato il le nazioni"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gerundio o participio inicial (“Analizzando...” o “Di fronte a...”).",[],["analizzando", "di fronte a", "sovranità"]],
+    ]
+  },
 ];
