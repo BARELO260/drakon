@@ -536,7 +536,7 @@
     <button class="back-btn" onclick="stopLiveCall()">✕</button>
     <span class="chat-title">🎥 Videollamada con Drakón</span>
   </div>
-  <div class="lc-video-wrap">
+  <div class="lc-video-wrap" id="liveCallVideoWrap">
     <video id="liveCallVideo" class="lc-video" autoplay playsinline muted></video>
     <div class="lc-scrim"></div>
     <!-- Reutiliza el MISMO sistema de mascota (idle/speak/laugh) que el chat
@@ -557,6 +557,7 @@
   <div class="lc-log" id="liveCallLog"></div>
   <div class="lc-controls">
     <button class="lc-btn" id="lcLookBtn" onclick="liveCallLookAtView()">👀 Mira esto</button>
+    <button class="lc-btn lc-btn-mic" id="lcMicBtn" onclick="liveCallToggleMic()">🎙️ Hablar</button>
     <button class="lc-btn lc-btn-end" onclick="stopLiveCall()">📴 Terminar</button>
   </div>
 </div>
