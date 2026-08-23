@@ -1041,7 +1041,23 @@ box-shadow:var(--card-elev);}
 .sit-live-card-t{font:800 13px var(--fh);color:var(--text)}
 .sit-live-card-s{font:500 11px/1.4 var(--fb);color:var(--muted);margin-top:3px}
 
-/* Escanear — v2 (texto real + objetos reales vía visión de Groq) */
+/* Permiso de cámara/mic rechazado (o no disponible) — mensaje real y
+   accionable en vez de una pantalla "colgada" fingiendo que funciona. */
+.media-denied{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:20px}
+.media-denied-ic{font-size:40px;margin-bottom:2px}
+.media-denied-t{font:800 15px var(--fh);color:var(--text)}
+.media-denied-s{font-size:12.5px;color:var(--muted);line-height:1.5;max-width:300px}
+
+/* Escanear — cámara en vivo real (getUserMedia), no un hand-off al picker
+   nativo de archivos: más fiable dentro de una PWA/WebView instalada. */
+.scan-camera-wrap{position:relative;width:100%;aspect-ratio:3/4;background:#000;overflow:hidden;border-radius:0 0 20px 20px}
+.scan-video{width:100%;height:100%;object-fit:cover}
+.scan-camera-hint{position:absolute;top:14px;left:0;right:0;text-align:center;font:700 12px var(--fh);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.scan-camera-controls{position:absolute;left:0;right:0;bottom:18px;display:flex;align-items:center;justify-content:center;gap:28px}
+.scan-camera-controls-spacer{width:44px}
+.scan-shutter{width:66px;height:66px;border-radius:50%;background:#fff;border:4px solid rgba(255,255,255,.5);box-shadow:0 4px 14px rgba(0,0,0,.4);cursor:pointer;flex-shrink:0}
+.scan-shutter:active{transform:scale(.92)}
+.scan-gallery-btn{width:44px;height:44px;border-radius:12px;background:rgba(0,0,0,.45);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer;flex-shrink:0}
 .scan-shell{padding:16px 14px 80px}
 .scan-intro{display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 20px;gap:8px}
 .scan-intro-ic{font-size:46px;margin-bottom:4px}
@@ -1103,4 +1119,7 @@ box-shadow:var(--card-elev);}
 .lc-controls{display:flex;gap:10px;padding:12px 14px calc(env(safe-area-inset-bottom,0px) + 12px)}
 .lc-btn{flex:1;border:0;border-radius:14px;padding:13px;background:var(--card2);color:var(--text);font:800 12.5px var(--fh);cursor:pointer;box-shadow:var(--card-elev);transition:transform .15s ease}
 .lc-btn.flash{transform:scale(.94);background:color-mix(in srgb, var(--gold) 24%, var(--card2))}
+.lc-btn-mic.recording{background:var(--coral);color:#30100b;animation:lcRecPulse 1.1s ease-in-out infinite}
+.lc-btn-mic.busy{opacity:.5}
+@keyframes lcRecPulse{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb, var(--coral) 50%, transparent)}50%{box-shadow:0 0 0 8px transparent}}
 .lc-btn-end{background:var(--coral);color:#30100b;box-shadow:0 3px 0 color-mix(in srgb,var(--coral) 55%,black)}
