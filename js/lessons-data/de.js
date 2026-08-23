@@ -2593,4 +2593,304 @@ window.LESSON_BANKS.DE = [
       ["writing","Escribe en alemán, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos un Spaltsatz (“was... ist...”).",[],["was wirklich definiert", "Bewusstsein", "freier Wille"]],
     ]
   },
+  {
+    id:"de_a1_garden_plants", level:"A1", title:"Der Garten und die Pflanzen", emoji:"🌱", xp:38,
+    description:"Lerne Gartenvokabular und einfache Anweisungen mit dem Imperativ auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Pflanzen gießen", "to water the plants"],
+        ["der Samen", "the seed"],
+        ["wachsen", "to grow"],
+        ["die Blume", "the flower"],
+        ["die Erde", "the soil"],
+        ["das Sonnenlicht", "sunlight"],
+      ],
+      grammar: [
+        ["Der Imperativ für Anweisungen", "Der Imperativ (du-Form) wird für Befehle oder Anweisungen benutzt. Die negative Form nutzt “nicht”.", "Gieß die Pflanzen jeden Tag. / Vergiss nicht, das Tor zu schließen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the seed” en alemán?",["der Samen", "to grow", "to water the plants", "the flower"],0,"“The seed” es “der Samen” en alemán."],
+      ["mcq","¿Cómo se dice “to grow” en alemán?",["sunlight", "the seed", "wachsen", "to grow"],2,"“To grow” es “wachsen” en alemán."],
+      ["fill","Completa: “___ die Pflanzen jeden Tag, sonst sterben sie.”",["Gießen", "Gießend", "Gieß", "Gießt"],2,"El imperativo (du) de “gießen” es “gieß”."],
+      ["translate","Traduce: “Water the plants every day.”",["Du gießt die Pflanzen jeden Tag.", "Gieß die Pflanzen jede Woche.", "Gießen die Pflanzen jeden Tag.", "Gieß die Pflanzen jeden Tag."],3,"El imperativo comienza directamente con el verbo conjugado: “Gieß die Pflanzen...”."],
+      ["arrange","Ordena: [vergiss / Tor / das / nicht / schließen / zu]",["zu tor vergiss nicht das schließen", "zu das nicht schließen vergiss tor", "das vergiss tor zu schließen nicht", "vergiss nicht das tor zu schließen"],3,"“Vergiss nicht” + “zu” + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en alemán, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["gieß", "vergiss nicht", "wächst"]],
+    ]
+  },
+  {
+    id:"de_a2_library_books", level:"A2", title:"Die Bibliothek und die Bücher", emoji:"📚", xp:48,
+    description:"Lerne Bibliotheksvokabular und erzähle im Perfekt auf Deutsch.",
+    study: {
+      vocab: [
+        ["ein Buch ausleihen", "to borrow a book"],
+        ["der Bibliotheksausweis", "the library card"],
+        ["das Rückgabedatum", "the due date"],
+        ["das Bücherregal", "the bookshelf"],
+        ["der Roman", "the novel"],
+        ["ein Buch zurückgeben", "to return a book"],
+      ],
+      grammar: [
+        ["Perfekt zum Erzählen", "El Perfekt (“haben/sein” + Partizip II) describe acciones completas en el pasado.", "Ich habe letzte Woche einen Roman ausgeliehen. / Sie hat das Buch pünktlich zurückgegeben."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the library card” en alemán?",["to return a book", "the library card", "der Bibliotheksausweis", "the novel"],2,"“The library card” es “der Bibliotheksausweis” en alemán."],
+      ["mcq","¿Cómo se dice “the due date” en alemán?",["to borrow a book", "das Rückgabedatum", "the library card", "the novel"],1,"“The due date” es “das Rückgabedatum” en alemán."],
+      ["fill","Completa: “Ich ___ letzte Woche einen Roman ausgeliehen.”",["habe", "hatte", "hast", "habend"],0,"El Perfekt con “ich” usa “habe” + Partizip II: “ich habe ausgeliehen”."],
+      ["translate","Traduce: “She returned the book on time.”",["Sie hat den Roman pünktlich zurückgegeben.", "Sie gibt das Buch pünktlich zurück.", "Sie hat das Buch pünktlich zurückgegeben.", "Sie hat das Buch spät zurückgegeben."],2,"“Returned” se traduce con Perfekt: “hat zurückgegeben”."],
+      ["arrange","Ordena: [Regal / im / Buch / das / ist]",["das buch ist im regal", "ist das regal buch im", "ist buch regal das im", "im das buch regal ist"],0,"Artículo + sustantivo + verbo + preposición + sustantivo."],
+      ["speaking","Describe en alemán, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el Perfekt.",[],["ich habe ausgeliehen", "zurückgegeben", "Bibliothek"]],
+    ]
+  },
+  {
+    id:"de_b1_parenting_childcare", level:"B1", title:"Elternschaft und Kinderbetreuung", emoji:"👶", xp:62,
+    description:"Lerne Vokabular über Kinderbetreuung und benutze das Präteritum von “pflegen” für vergangene Gewohnheiten auf Deutsch.",
+    study: {
+      vocab: [
+        ["stillen", "to breastfeed"],
+        ["das Kinderbett", "the crib"],
+        ["dem Baby ein Bäuerchen machen", "to burp the baby"],
+        ["die Schlafenszeit-Routine", "bedtime routine"],
+        ["babysitten", "to babysit"],
+        ["der Kinderarzt", "the pediatrician"],
+      ],
+      grammar: [
+        ["“Früher” + Präteritum para hábitos pasados", "“Früher” + verbo en Präteritum expresa un hábito que ya no es cierto en el presente, similar a “used to” en inglés.", "Das Baby wachte früher alle zwei Stunden auf. / Wir besuchten den Kinderarzt früher jeden Monat."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the crib” en alemán?",["the crib", "to burp the baby", "das Kinderbett", "to breastfeed"],2,"“The crib” es “das Kinderbett” en alemán."],
+      ["mcq","¿Cómo se dice “the pediatrician” en alemán?",["der Kinderarzt", "to breastfeed", "to babysit", "the crib"],0,"“The pediatrician” es “der Kinderarzt” en alemán."],
+      ["fill","Completa: “Das Baby ___ früher alle zwei Stunden auf.”",["wachend", "wachte", "wacht", "gewacht"],1,"El Präteritum de “aufwachen” es “wachte... auf”."],
+      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Wir besuchten den Zahnarzt früher jeden Monat.", "Wir besuchten den Kinderarzt früher jede Woche.", "Wir besuchen den Kinderarzt jeden Monat.", "Wir besuchten den Kinderarzt früher jeden Monat."],3,"“Used to visit” se traduce con “früher” + Präteritum: “besuchten... früher”."],
+      ["arrange","Ordena: [Kinderbett / schlief / im / sie]",["sie im schlief kinderbett", "im sie kinderbett schlief", "sie schlief im kinderbett", "sie kinderbett schlief im"],2,"Sujeto + verbo + preposición + sustantivo."],
+      ["writing","Escribe en alemán, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando “früher” + Präteritum para hábitos pasados.",[],["früher", "Kinderbett", "Kinderarzt"]],
+    ]
+  },
+  {
+    id:"de_b2_archaeology_discoveries", level:"B2", title:"Die Archäologie und historische Entdeckungen", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando modales de deducción en alemán.",
+    study: {
+      vocab: [
+        ["die archäologische Stätte", "archaeological site"],
+        ["ausgraben", "to excavate"],
+        ["die alte Zivilisation", "ancient civilization"],
+        ["das Artefakt", "artifact"],
+        ["datieren (einen Fund)", "to date (a find)"],
+        ["die Ruinen", "ruins"],
+      ],
+      grammar: [
+        ["Modalverben der Vermutung über die Vergangenheit", "“Muss” + Partizip II + “haben/sein” expresa una deducción fuerte sobre el pasado; “könnte” expresa una posibilidad menos segura.", "Dieses Artefakt muss einem König gehört haben. / Die Stätte könnte ein Tempel gewesen sein."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancient civilization” en alemán?",["to excavate", "artifact", "die alte Zivilisation", "ruins"],2,"“Ancient civilization” es “die alte Zivilisation” en alemán."],
+      ["mcq","¿Cómo se dice “to excavate” en alemán?",["ruins", "ausgraben", "ancient civilization", "artifact"],1,"“To excavate” es “ausgraben” en alemán."],
+      ["fill","Completa: “Dieses Artefakt ___ einem König gehört haben.”",["kann", "wird", "muss", "soll"],2,"“Muss” + participio + “haben” expresa una deducción fuerte: “muss... gehört haben”."],
+      ["translate","Traduce: “The site might have been a temple.”",["Die Stätte könnte ein Tempel gewesen sein.", "Die Stätte könnte ein Tempel sein.", "Die Stätte muss ein Tempel gewesen sein.", "Die Stätte könnte ein Palast gewesen sein."],0,"“Might have been” se traduce con posibilidad menos segura: “könnte... gewesen sein”."],
+      ["arrange","Ordena: [gebaut / alte / diese / eine / Zivilisation / haben / muss]",["alte eine gebaut muss haben zivilisation diese", "zivilisation gebaut diese muss haben alte eine", "eine alte zivilisation muss diese gebaut haben", "haben eine muss alte diese zivilisation gebaut"],2,"Artículo + adjetivo + sustantivo + modal + pronombre + participio + “haben”."],
+      ["writing","Escribe en alemán, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando modales de deducción (“muss... gewesen sein”, “könnte... gewesen sein”) al menos dos veces.",[],["muss gewesen sein", "könnte gewesen sein", "Artefakt"]],
+    ]
+  },
+  {
+    id:"de_c1_neuroscience_brain", level:"C1", title:"Die Neurowissenschaften und das Gehirn", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando la inversión enfática en registro académico en alemán.",
+    study: {
+      vocab: [
+        ["die neuronale Bahn", "neural pathway"],
+        ["die Synapse", "synapse"],
+        ["die Neuroplastizität", "neuroplasticity"],
+        ["die kognitive Funktion", "cognitive function"],
+        ["der Neurotransmitter", "neurotransmitter"],
+        ["die Hirnscan", "brain scan"],
+      ],
+      grammar: [
+        ["Inversion nach Adverbien für die Betonung", "En alemán formal/académico, cuando un adverbio (“Selten”, “Nur so”) inicia la oración, el verbo conjugado va inmediatamente después (orden V2), invirtiendo el orden habitual.", "Selten haben Forscher so klare Beweise für Neuroplastizität gefunden. / Nur so lässt sich die kognitive Funktion erklären."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticity” en alemán?",["die Neuroplastizität", "cognitive function", "brain scan", "neuroplasticity"],0,"“Neuroplasticity” es “die Neuroplastizität” en alemán."],
+      ["mcq","¿Cómo se dice “synapse” en alemán?",["neurotransmitter", "cognitive function", "brain scan", "die Synapse"],3,"“Synapse” es “die Synapse” en alemán."],
+      ["fill","Completa: “Selten ___ Forscher so klare Beweise gefunden.”",["hatten", "hat", "haben", "habend"],2,"Tras “Selten” al inicio, el verbo conjugado va en segunda posición: “selten haben Forscher gefunden”."],
+      ["translate","Traduce con inversión: “Rarely have researchers found such clear evidence.”",["Forscher haben selten so klare Beweise gefunden.", "Selten haben Forscher so klare Beweise gefunden.", "Selten haben Forscher so unklare Beweise gefunden.", "Selten Forscher haben so klare Beweise gefunden."],1,"El orden V2 alemán coloca el verbo conjugado justo tras el adverbio inicial: “selten haben Forscher”."],
+      ["arrange","Ordena: [gut / sich / Gehirn / das / passt / an]",["passt gut an das gehirn sich", "passt gehirn gut an das sich", "das gehirn passt sich gut an", "gut das an passt sich gehirn"],2,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio + partícula."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura de inversión enfática con “selten” o “nur so”.",[],["selten haben", "Neuroplastizität", "kognitive Funktion"]],
+    ]
+  },
+  {
+    id:"de_c2_behavioral_economics", level:"C2", title:"Die Verhaltensökonomie und kognitive Verzerrungen", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en alemán.",
+    study: {
+      vocab: [
+        ["die kognitive Verzerrung", "cognitive bias"],
+        ["die Verlustaversion", "loss aversion"],
+        ["der Ankereffekt", "anchoring effect"],
+        ["die Entscheidungsfindung", "decision-making"],
+        ["das irrationale Verhalten", "irrational behavior"],
+        ["der sanfte Anstoß", "nudge"],
+      ],
+      grammar: [
+        ["Nominalisierung im akademischen Register", "La nominalización convierte verbos en sustantivos abstractos (“entscheiden” → “die Entscheidungsfindung”), un rasgo típico del alemán académico formal.", "Die Persistenz der kognitiven Verzerrung beeinflusst die Entscheidungsfindung. / Forscher untersuchen die Vermeidung von Verlusten."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “loss aversion” en alemán?",["loss aversion", "die Verlustaversion", "decision-making", "nudge"],1,"“Loss aversion” es “die Verlustaversion” en alemán."],
+      ["mcq","¿Cómo se dice “anchoring effect” en alemán?",["der Ankereffekt", "cognitive bias", "irrational behavior", "anchoring effect"],0,"“Anchoring effect” es “der Ankereffekt” en alemán."],
+      ["fill","Completa: “Die Persistenz der kognitiven Verzerrung beeinflusst die ___.”",["Entschieden", "Entscheidungsfindung", "Entscheiden", "Entscheidung"],1,"La forma nominalizada de “entscheiden” en este registro académico es “die Entscheidungsfindung”."],
+      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["Die Verlustaversion beeinflusst das Entscheiden.", "Die Verlustaversion beeinflusst die Entscheidungsfindung.", "Die Verlustaversion beeinflussen die Entscheidungsfindung.", "Die Aversion des Verlustes beeinflusst die Entscheidungsfindung."],1,"“Decision-making” se traduce con la forma nominalizada “die Entscheidungsfindung”, no con el verbo “entscheiden”."],
+      ["arrange","Ordena: [Verzerrung / untersuchen / Forscher / kognitive / die]",["forscher untersuchen die kognitive verzerrung", "kognitive untersuchen die forscher verzerrung", "die forscher kognitive untersuchen verzerrung", "forscher die kognitive verzerrung untersuchen"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “die Entscheidungsfindung” o “die Vermeidung”).",[],["die Entscheidungsfindung", "kognitive Verzerrung", "Verlustaversion"]],
+    ]
+  },
+  {
+    id:"de_a1_photography_cameras", level:"A1", title:"Die Fotografie und die Kameras", emoji:"📷", xp:38,
+    description:"Lerne Fotografie-Vokabular und benutze “können” für Fähigkeit auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Kamera", "camera"],
+        ["das Foto", "photo/picture"],
+        ["das Objektiv", "lens"],
+        ["ein Foto machen", "to take a picture"],
+        ["der Zoom", "zoom"],
+        ["die Speicherkarte", "memory card"],
+      ],
+      grammar: [
+        ["“Können” für Fähigkeit", "“Können” + infinitivo al final expresa habilidad o capacidad; en negativo se usa “kann nicht”.", "Ich kann mit dieser Kamera gute Fotos machen. / Diese Kamera kann nicht sehr weit zoomen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lens” en alemán?",["das Objektiv", "memory card", "lens", "zoom"],0,"“Lens” es “das Objektiv” en alemán."],
+      ["mcq","¿Cómo se dice “memory card” en alemán?",["die Speicherkarte", "to take a picture", "lens", "memory card"],0,"“Memory card” es “die Speicherkarte” en alemán."],
+      ["fill","Completa: “Diese Kamera ___ nicht sehr weit zoomen.”",["könnt", "kannst", "können", "kann"],3,"“Können” conjugado en tercera persona singular es “kann”."],
+      ["translate","Traduce: “I can take good photos with this camera.”",["Ich kann mit jener Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos gemacht.", "Ich kann nicht mit dieser Kamera gute Fotos machen."],1,"“I can take” se traduce con “ich kann machen”, “können” + infinitivo al final."],
+      ["arrange","Ordena: [weit / kann / nicht / kamera / diese / zoomen / sehr]",["diese kamera kann nicht sehr weit zoomen", "zoomen diese nicht kamera weit sehr kann", "kamera kann nicht sehr diese weit zoomen", "weit kann kamera diese nicht sehr zoomen"],0,"Sujeto + modal + “nicht” + adverbio + adverbio + infinitivo."],
+      ["writing","Describe en alemán, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “können”.",[],["ich kann", "kann nicht", "Kamera"]],
+    ]
+  },
+  {
+    id:"de_a2_camping_outdoors", level:"A2", title:"Camping und Outdoor-Aktivitäten", emoji:"🏕️", xp:48,
+    description:"Lerne Camping-Vokabular und benutze “etwas/kein” für Mengen auf Deutsch.",
+    study: {
+      vocab: [
+        ["das Zelt", "tent"],
+        ["der Schlafsack", "sleeping bag"],
+        ["das Lagerfeuer", "campfire"],
+        ["der Wanderweg", "hiking trail"],
+        ["der Rucksack", "backpack"],
+        ["ein Zelt aufbauen", "to pitch a tent"],
+      ],
+      grammar: [
+        ["“Etwas/kein” für Mengen", "“Etwas” se usa en afirmativas para cantidades indefinidas; “kein/keine” se usa en negativas.", "Wir haben etwas Holz für das Lagerfeuer. / Wir haben kein Wasser mehr."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sleeping bag” en alemán?",["hiking trail", "campfire", "sleeping bag", "der Schlafsack"],3,"“Sleeping bag” es “der Schlafsack” en alemán."],
+      ["mcq","¿Cómo se dice “hiking trail” en alemán?",["sleeping bag", "tent", "to pitch a tent", "der Wanderweg"],3,"“Hiking trail” es “der Wanderweg” en alemán."],
+      ["fill","Completa: “Wir haben ___ Wasser mehr.”",["wenig", "kein", "viel", "etwas"],1,"En oraciones negativas se usa “kein”: “wir haben kein Wasser mehr”."],
+      ["translate","Traduce: “We have some firewood for the campfire.”",["Wir haben etwas Holz für das Lagerfeuer.", "Wir hat etwas Holz für das Lagerfeuer.", "Wir haben etwas Holz für das Zelt.", "Wir haben kein Holz für das Lagerfeuer."],0,"“Some firewood” en afirmativa se traduce con “etwas Holz”."],
+      ["arrange","Ordena: [lang / Wanderweg / ist / dieser]",["dieser wanderweg ist lang", "ist wanderweg dieser lang", "dieser lang wanderweg ist", "dieser ist wanderweg lang"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en alemán, en 40-60 palabras, un plan de camping usando “etwas/kein” para lo que necesitas llevar.",[],["etwas", "kein", "Zelt"]],
+    ]
+  },
+  {
+    id:"de_b1_beekeeping_bees", level:"B1", title:"Die Imkerei und die Bienen", emoji:"🐝", xp:62,
+    description:"Lerne Imkerei-Vokabular und benutze Relativsätze auf Deutsch.",
+    study: {
+      vocab: [
+        ["der Bienenstock", "beehive"],
+        ["der Honig", "honey"],
+        ["stechen", "to sting"],
+        ["bestäuben", "to pollinate"],
+        ["der Imker", "beekeeper"],
+        ["die Bienenkönigin", "queen bee"],
+      ],
+      grammar: [
+        ["Relativsätze (der/die/das)", "Los pronombres relativos alemanes (“der, die, das”) concuerdan en género y número con el sustantivo al que se refieren, y su caso depende de su función en la cláusula.", "Der Imker, der diesen Bienenstock betreut, ist sehr erfahren. / Bienen, die Blumen bestäuben, sind für die Landwirtschaft wichtig."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “beehive” en alemán?",["der Bienenstock", "to pollinate", "honey", "to sting"],0,"“Beehive” es “der Bienenstock” en alemán."],
+      ["mcq","¿Cómo se dice “to pollinate” en alemán?",["queen bee", "to pollinate", "beehive", "bestäuben"],3,"“To pollinate” es “bestäuben” en alemán."],
+      ["fill","Completa: “Der Imker, ___ diesen Bienenstock betreut, ist sehr erfahren.”",["das", "den", "die", "der"],3,"El sujeto masculino “der Imker” requiere el relativo “der” en nominativo."],
+      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Bienen, der Blumen bestäuben, sind für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäubt, sind für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäuben, ist für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäuben, sind für die Landwirtschaft wichtig."],3,"“Which” con sujeto plural “Bienen” se traduce con el relativo “die”: “bienen, die bestäuben”."],
+      ["arrange","Ordena: [leben / Stock / Bienen / im / die]",["bienen leben im stock die", "die stock bienen im leben", "die bienen leben im stock", "bienen leben im die stock"],2,"Artículo + sustantivo + verbo + preposición + sustantivo."],
+      ["writing","Escribe en alemán, en 45-65 palabras, sobre la importancia de las abejas usando al menos un pronombre relativo (“der/die/das”).",[],["der", "die", "Bienenstock"]],
+    ]
+  },
+  {
+    id:"de_b2_cryptocurrency_digital_finance", level:"B2", title:"Kryptowährungen und digitale Finanzen", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el Konjunktiv II der Vergangenheit en alemán.",
+    study: {
+      vocab: [
+        ["die Kryptowährung", "cryptocurrency"],
+        ["die Blockchain", "blockchain"],
+        ["die digitale Geldbörse", "digital wallet"],
+        ["investieren", "to invest"],
+        ["die Volatilität", "volatility"],
+        ["dezentralisiert", "decentralized"],
+      ],
+      grammar: [
+        ["Konjunktiv II der Vergangenheit para hipótesis irreales", "Para hipótesis irreales sobre el pasado se usa “wenn” + Plusquamperfekt (Konjunktiv II), y “würde/hätte” en la consecuencia.", "Wenn ich früher investiert hätte, hätte ich mehr Geld verdient. / Wenn der Markt nicht eingebrochen wäre, wären die Preise hoch geblieben."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “blockchain” en alemán?",["die Blockchain", "cryptocurrency", "to invest", "volatility"],0,"“Blockchain” es “die Blockchain” en alemán."],
+      ["mcq","¿Cómo se dice “volatility” en alemán?",["cryptocurrency", "die Volatilität", "to invest", "digital wallet"],1,"“Volatility” es “die Volatilität” en alemán."],
+      ["fill","Completa: “Wenn ich früher investiert ___, hätte ich mehr Geld verdient.”",["hatte", "würde", "habe", "hätte"],3,"El Konjunktiv II de la Vergangenheit usa “hätte” + participio: “wenn ich investiert hätte”."],
+      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Wenn der Markt nicht eingebrochen wäre, waren die Preise hoch geblieben.", "Wenn der Markt nicht eingebrochen wäre, wären die Preise hoch geblieben.", "Wenn der Markt nicht einbricht, wären die Preise hoch geblieben.", "Wenn der Markt nicht eingebrochen wäre, würden die Preise hoch bleiben."],1,"“Hadn't crashed... would have stayed” se traduce con Konjunktiv II de la Vergangenheit: “wäre eingebrochen... wären geblieben”."],
+      ["arrange","Ordena: [riskant / ist / Kryptowährung / sehr / die]",["die kryptowährung ist sehr riskant", "die riskant sehr kryptowährung ist", "sehr die riskant kryptowährung ist", "kryptowährung riskant die ist sehr"],0,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, sobre una decisión financiera pasada usando “wenn ich... hätte...” al menos dos veces.",[],["wenn ich", "hätte", "Kryptowährung"]],
+    ]
+  },
+  {
+    id:"de_c1_bioethics_gene_editing", level:"C1", title:"Die Bioethik und die Genom-Editierung", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “so...dass/derart...dass” para énfasis en alemán.",
+    study: {
+      vocab: [
+        ["die Genom-Editierung", "gene editing"],
+        ["die informierte Einwilligung", "informed consent"],
+        ["die klinische Studie", "clinical trial"],
+        ["die genetische Veränderung", "genetic modification"],
+        ["das ethische Dilemma", "ethical dilemma"],
+        ["die DNA manipulieren", "to manipulate DNA"],
+      ],
+      grammar: [
+        ["“So...dass/derart...dass” para énfasis", "“So” + adjetivo/adverbio + “dass” expresa una consecuencia enfática, típica del registro formal/académico.", "Die Genom-Editierung ist so mächtig, dass sie ernste ethische Fragen aufwirft. / Es ist ein derart komplexes Dilemma, dass Experten noch uneinig sind."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “informed consent” en alemán?",["die informierte Einwilligung", "genetic modification", "ethical dilemma", "gene editing"],0,"“Informed consent” es “die informierte Einwilligung” en alemán."],
+      ["mcq","¿Cómo se dice “clinical trial” en alemán?",["die klinische Studie", "informed consent", "to manipulate DNA", "genetic modification"],0,"“Clinical trial” es “die klinische Studie” en alemán."],
+      ["fill","Completa: “Die Genom-Editierung ist ___ mächtig, dass sie ernste ethische Fragen aufwirft.”",["zu", "so", "sehr", "derart"],1,"“So” + adjetivo + “dass” expresa consecuencia enfática: “so mächtig, dass”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["Es ist ein derart komplexes Dilemma, dass Experten noch einig sind.", "Es ist ein derart komplexes Dilemma, dass Experten noch uneinig sind.", "Es ist ein so komplexes Dilemma, dass Experten noch einig sind.", "Es ist derart ein komplexes Dilemma, dass Experten noch uneinig sind."],1,"“Such a complex issue that” se traduce con “derart komplexes Dilemma, dass”."],
+      ["arrange","Ordena: [ethisches / ist / reales / dies / ein / Dilemma]",["dilemma reales ist dies ethisches ein", "dilemma ethisches ein reales dies ist", "ein ethisches dies reales dilemma ist", "dies ist ein reales ethisches dilemma"],3,"Pronombre + verbo + artículo + adjetivo + adjetivo + sustantivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un argumento sobre la edición genética usando “so...dass” o “derart...dass” al menos dos veces.",[],["so...dass", "derart...dass", "Genom-Editierung"]],
+    ]
+  },
+  {
+    id:"de_c2_geopolitics_international_relations", level:"C2", title:"Die Geopolitik und die internationalen Beziehungen", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando el Partizip I/II en registro académico en alemán.",
+    study: {
+      vocab: [
+        ["die diplomatischen Beziehungen", "diplomatic relations"],
+        ["die Souveränität", "sovereignty"],
+        ["die Sanktionen", "sanctions"],
+        ["das bilaterale Abkommen", "bilateral agreement"],
+        ["die geopolitische Spannung", "geopolitical tension"],
+        ["einen Vertrag aushandeln", "to negotiate a treaty"],
+      ],
+      grammar: [
+        ["Partizipialkonstruktionen für ein knappes akademisches Register", "Las construcciones de participio (“Nach Analyse der Daten...”, “Angesichts der zunehmenden Sanktionen...”) reemplazan cláusulas subordinadas completas para un estilo más conciso y formal.", "Nach Analyse der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden. / Angesichts der zunehmenden Sanktionen änderte die Regierung ihre Politik."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sovereignty” en alemán?",["bilateral agreement", "die Souveränität", "geopolitical tension", "sovereignty"],1,"“Sovereignty” es “die Souveränität” en alemán."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en alemán?",["geopolitical tension", "diplomatic relations", "die geopolitische Spannung", "bilateral agreement"],2,"“Geopolitical tension” es “die geopolitische Spannung” en alemán."],
+      ["fill","Completa: “___ der zunehmenden Sanktionen änderte die Regierung ihre Politik.”",["Angesichts", "Trotz", "Wegen", "Während"],0,"“Angesichts” + genitivo introduce esta construcción concisa formal: “angesichts der Sanktionen”."],
+      ["translate","Traduce con construcción concisa: “Having analyzed the data, researchers concluded that tensions would rise.”",["Nach der Analyse Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analysieren der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analyse der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analyse der Daten kommen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden."],2,"La construcción concisa formal usa “nach Analyse der Daten” (sustantivo, no infinitivo)."],
+      ["arrange","Ordena: [aushandeln / Vertrag / Nationen / werden / den / die]",["den die aushandeln werden nationen vertrag", "die nationen werden den vertrag aushandeln", "den aushandeln vertrag werden nationen die", "werden aushandeln vertrag die den nationen"],1,"Artículo + sustantivo + auxiliar + artículo + sustantivo + infinitivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción concisa con “nach...” o “angesichts...”.",[],["nach Analyse", "angesichts", "Souveränität"]],
+    ]
+  },
 ];
