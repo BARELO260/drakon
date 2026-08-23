@@ -2593,4 +2593,304 @@ window.LESSON_BANKS.FR = [
       ["writing","Escribe en francés, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una phrase clivée (“ce qui... c'est...”).",[],["ce qui définit vraiment", "conscience", "libre arbitre"]],
     ]
   },
+  {
+    id:"fr_a1_garden_plants", level:"A1", title:"Le jardin et les plantes", emoji:"🌱", xp:38,
+    description:"Aprende vocabulario de jardinería y a dar instrucciones simples en francés con el imperativo.",
+    study: {
+      vocab: [
+        ["arroser les plantes", "to water the plants"],
+        ["la graine", "the seed"],
+        ["pousser", "to grow"],
+        ["la fleur", "the flower"],
+        ["la terre", "the soil"],
+        ["la lumière du soleil", "sunlight"],
+      ],
+      grammar: [
+        ["L'impératif pour les instructions", "El imperativo (tu) se usa para dar órdenes o instrucciones. La forma negativa usa “ne... pas” alrededor del verbo.", "Arrose les plantes tous les jours. / N'oublie pas de fermer la porte."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the seed” en francés?",["the flower", "sunlight", "la graine", "to water the plants"],2,"“The seed” es “la graine” en francés."],
+      ["mcq","¿Cómo se dice “to grow” en francés?",["to water the plants", "pousser", "to grow", "the seed"],1,"“To grow” es “pousser” en francés."],
+      ["fill","Completa: “___ les plantes tous les jours, sinon elles vont mourir.”",["Arroser", "Arrosant", "Arroses", "Arrose"],3,"El imperativo (tu) de “arroser” es “arrose”."],
+      ["translate","Traduce: “Water the plants every day.”",["Arroser les plantes tous les jours.", "Arrose les plantes tous les jours.", "Tu arroses les plantes tous les jours.", "Arrose les plantes toutes les semaines."],1,"El imperativo comienza directamente con el verbo conjugado: “Arrose les plantes...”."],
+      ["arrange","Ordena: [oublie / porte / la / n' / de / fermer]",["de la porte pas n'oublie fermer", "pas n'oublie fermer la de porte", "n'oublie pas de fermer la porte", "porte n'oublie de la fermer pas"],2,"“N'oublie pas” + “de” + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en francés, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["arrose", "n'oublie pas", "pousse"]],
+    ]
+  },
+  {
+    id:"fr_a2_library_books", level:"A2", title:"La bibliothèque et les livres", emoji:"📚", xp:48,
+    description:"Aprende vocabulario de biblioteca y a narrar en passé composé en francés.",
+    study: {
+      vocab: [
+        ["emprunter un livre", "to borrow a book"],
+        ["la carte de bibliothèque", "the library card"],
+        ["la date de retour", "the due date"],
+        ["l'étagère", "the bookshelf"],
+        ["le roman", "the novel"],
+        ["rendre un livre", "to return a book"],
+      ],
+      grammar: [
+        ["Passé composé para narrar", "El passé composé (“avoir/être” + participio) describe acciones completas en el pasado.", "J'ai emprunté un roman la semaine dernière. / Elle a rendu le livre à temps."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the library card” en francés?",["to borrow a book", "the bookshelf", "the library card", "la carte de bibliothèque"],3,"“The library card” es “la carte de bibliothèque” en francés."],
+      ["mcq","¿Cómo se dice “the due date” en francés?",["la date de retour", "to return a book", "the bookshelf", "to borrow a book"],0,"“The due date” es “la date de retour” en francés."],
+      ["fill","Completa: “J'___ emprunté un roman la semaine dernière.”",["avais", "as", "a", "ai"],3,"El passé composé con “je” usa “ai” + participio: “j'ai emprunté”."],
+      ["translate","Traduce: “She returned the book on time.”",["Elle a rendu le livre en retard.", "Elle a rendu le livre à temps.", "Elle a rendu le roman à temps.", "Elle rend le livre à temps."],1,"“Returned” se traduce con passé composé: “a rendu”."],
+      ["arrange","Ordena: [étagère / est / livre / sur / le / l']",["l'étagère le livre sur est", "le livre est sur l'étagère", "le sur livre l'étagère est", "sur livre l'étagère est le"],1,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el passé composé.",[],["j'ai emprunté", "j'ai rendu", "bibliothèque"]],
+    ]
+  },
+  {
+    id:"fr_b1_parenting_childcare", level:"B1", title:"La parentalité et les soins aux bébés", emoji:"👶", xp:62,
+    description:"Aprende vocabulario de crianza y a usar el imparfait para hábitos pasados en francés.",
+    study: {
+      vocab: [
+        ["allaiter", "to breastfeed"],
+        ["le berceau", "the crib"],
+        ["faire faire un rot au bébé", "to burp the baby"],
+        ["la routine du coucher", "bedtime routine"],
+        ["faire du baby-sitting", "to babysit"],
+        ["le pédiatre", "the pediatrician"],
+      ],
+      grammar: [
+        ["Imparfait para hábitos pasados", "El imparfait describe hábitos o estados repetidos en el pasado, sin un final marcado.", "Le bébé se réveillait toutes les deux heures. / Nous rendions visite au pédiatre chaque mois."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the crib” en francés?",["le berceau", "bedtime routine", "to burp the baby", "to babysit"],0,"“The crib” es “le berceau” en francés."],
+      ["mcq","¿Cómo se dice “the pediatrician” en francés?",["le pédiatre", "to breastfeed", "the crib", "the pediatrician"],0,"“The pediatrician” es “le pédiatre” en francés."],
+      ["fill","Completa: “Le bébé ___ toutes les deux heures.”",["se réveille", "s'est réveillé", "se réveillant", "se réveillait"],3,"El imparfait describe un hábito repetido en el pasado: “se réveillait”."],
+      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Nous rendions visite au dentiste chaque mois.", "Nous rendions visite au pédiatre chaque mois.", "Nous rendions visite au pédiatre chaque semaine.", "Nous rendons visite au pédiatre chaque mois."],1,"“Used to visit” se traduce con imparfait: “rendions visite”."],
+      ["arrange","Ordena: [berceau / dormait / le / dans / elle]",["berceau elle dormait dans le", "elle dormait dans le berceau", "berceau elle le dormait dans", "elle le dans berceau dormait"],1,"Sujeto + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando el imparfait para hábitos pasados.",[],["se réveillait", "berceau", "pédiatre"]],
+    ]
+  },
+  {
+    id:"fr_b2_archaeology_discoveries", level:"B2", title:"L'archéologie et les découvertes historiques", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando el futur antérieur de probabilidad en francés.",
+    study: {
+      vocab: [
+        ["le site archéologique", "archaeological site"],
+        ["fouiller", "to excavate"],
+        ["la civilisation ancienne", "ancient civilization"],
+        ["l'artefact", "artifact"],
+        ["dater (une découverte)", "to date (a find)"],
+        ["les ruines", "ruins"],
+      ],
+      grammar: [
+        ["Devoir/Pouvoir + infinitif passé para probabilidad", "“Devoir avoir” + participio expresa una deducción fuerte sobre el pasado; “pouvoir avoir” + participio expresa una posibilidad menos segura.", "Cet artefact a dû appartenir à un roi. / Le site a pu être un temple."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancient civilization” en francés?",["la civilisation ancienne", "artifact", "ruins", "ancient civilization"],0,"“Ancient civilization” es “la civilisation ancienne” en francés."],
+      ["mcq","¿Cómo se dice “to excavate” en francés?",["archaeological site", "fouiller", "to date (a find)", "ancient civilization"],1,"“To excavate” es “fouiller” en francés."],
+      ["fill","Completa: “Cet artefact a ___ appartenir à un roi.”",["su", "dû", "pu", "voulu"],1,"“Devoir” en passé composé + infinitif expresa deducción fuerte: “a dû appartenir”."],
+      ["translate","Traduce: “The site might have been a temple.”",["Le site a pu être un palais.", "Le site a dû être un temple.", "Le site peut être un temple.", "Le site a pu être un temple."],3,"“Might have been” se traduce con posibilidad menos segura: “a pu être”."],
+      ["arrange","Ordena: [construit / civilisation / cette / une / a / ancienne]",["a une civilisation cette ancienne construit", "a civilisation ancienne une construit cette", "une cette ancienne a civilisation construit", "une civilisation ancienne a construit cette"],3,"Artículo + sustantivo + adjetivo + verbo + pronombre."],
+      ["writing","Escribe en francés, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando “a dû” o “a pu” + infinitivo al menos dos veces.",[],["a dû", "a pu", "artefact"]],
+    ]
+  },
+  {
+    id:"fr_c1_neuroscience_brain", level:"C1", title:"Les neurosciences et le cerveau", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando la inversión enfática en registro académico en francés.",
+    study: {
+      vocab: [
+        ["la voie neuronale", "neural pathway"],
+        ["la synapse", "synapse"],
+        ["la neuroplasticité", "neuroplasticity"],
+        ["la fonction cognitive", "cognitive function"],
+        ["le neurotransmetteur", "neurotransmitter"],
+        ["l'imagerie cérébrale", "brain scan"],
+      ],
+      grammar: [
+        ["Inversion sujet-verbe après un adverbe pour l'emphase", "En francés formal/académico, ciertos adverbios al inicio (“Rarement”, “À peine”) pueden provocar la inversión sujeto-verbo para dar énfasis.", "Rarement les chercheurs ont-ils trouvé une preuve aussi claire. / À peine le cerveau s'adapte-t-il qu'il se répare déjà."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticity” en francés?",["la neuroplasticité", "neuroplasticity", "brain scan", "cognitive function"],0,"“Neuroplasticity” es “la neuroplasticité” en francés."],
+      ["mcq","¿Cómo se dice “synapse” en francés?",["la synapse", "neural pathway", "neuroplasticity", "cognitive function"],0,"“Synapse” es “la synapse” en francés."],
+      ["fill","Completa: “Rarement les chercheurs ont-___ trouvé une preuve aussi claire.”",["il", "elles", "ils", "elle"],2,"La inversión con “les chercheurs” (masc. pl.) usa el pronombre de retomada “ils”: “ont-ils trouvé”."],
+      ["translate","Traduce con inversión: “Rarely have researchers found such clear evidence.”",["Rarement les chercheurs ont trouvé une preuve aussi claire.", "Rarement les chercheurs ont-ils trouvé une preuve peu claire.", "Rarement les chercheurs ont-ils trouvé une preuve aussi claire.", "Les chercheurs ont rarement trouvé une preuve aussi claire."],2,"La estructura enfática con inversión requiere el pronombre de retomada: “ont-ils trouvé”."],
+      ["arrange","Ordena: [adapte / cerveau / le / s' / bien]",["bien s'adapte le cerveau", "le cerveau s'adapte bien", "bien le cerveau s'adapte", "s'adapte bien le cerveau"],1,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio."],
+      ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura de inversión enfática con “rarement”.",[],["rarement", "neuroplasticité", "fonction cognitive"]],
+    ]
+  },
+  {
+    id:"fr_c2_behavioral_economics", level:"C2", title:"L'économie comportementale et les biais cognitifs", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en francés.",
+    study: {
+      vocab: [
+        ["le biais cognitif", "cognitive bias"],
+        ["l'aversion à la perte", "loss aversion"],
+        ["l'effet d'ancrage", "anchoring effect"],
+        ["la prise de décision", "decision-making"],
+        ["le comportement irrationnel", "irrational behavior"],
+        ["l'incitation douce", "nudge"],
+      ],
+      grammar: [
+        ["Nominalisation en registro académico", "La nominalisation convierte verbos en sustantivos abstractos (“décider” → “la prise de décision”), un rasgo típico del francés académico formal.", "La persistance du biais cognitif affecte la prise de décision. / Les chercheurs étudient l'évitement de la perte."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “loss aversion” en francés?",["cognitive bias", "anchoring effect", "l'aversion à la perte", "loss aversion"],2,"“Loss aversion” es “l'aversion à la perte” en francés."],
+      ["mcq","¿Cómo se dice “anchoring effect” en francés?",["irrational behavior", "l'effet d'ancrage", "anchoring effect", "loss aversion"],1,"“Anchoring effect” es “l'effet d'ancrage” en francés."],
+      ["fill","Completa: “La persistance du biais cognitif affecte la ___.”",["décision", "décidant", "décider", "prise de décision"],3,"La forma nominalizada de “décider” en este registro académico es “la prise de décision”."],
+      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["L'aversion à la perte affecte la prise de décision.", "La perte d'aversion affecte la prise de décision.", "L'aversion à la perte affectent la prise de décision.", "L'aversion à la perte affecte décider."],0,"“Decision-making” se traduce con la forma nominalizada “la prise de décision”, no con el verbo “décider”."],
+      ["arrange","Ordena: [cognitif / étudient / chercheurs / biais / le / les]",["chercheurs le étudient cognitif biais les", "biais le cognitif chercheurs étudient les", "les chercheurs étudient le biais cognitif", "chercheurs les biais cognitif étudient le"],2,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “la prise de décision” o “l'évitement”).",[],["la prise de décision", "biais cognitif", "aversion à la perte"]],
+    ]
+  },
+  {
+    id:"fr_a1_photography_cameras", level:"A1", title:"La photographie et les appareils photo", emoji:"📷", xp:38,
+    description:"Aprende vocabulario de fotografía y a usar “pouvoir” para habilidad en francés.",
+    study: {
+      vocab: [
+        ["l'appareil photo", "camera"],
+        ["la photo", "photo/picture"],
+        ["l'objectif", "lens"],
+        ["prendre une photo", "to take a picture"],
+        ["le zoom", "zoom"],
+        ["la carte mémoire", "memory card"],
+      ],
+      grammar: [
+        ["“Pouvoir” para habilidad", "“Pouvoir” + infinitivo expresa habilidad o capacidad; en negativo se usa “ne peut pas”.", "Je peux prendre de belles photos avec cet appareil. / Cet appareil ne peut pas zoomer très loin."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lens” en francés?",["l'objectif", "zoom", "to take a picture", "memory card"],0,"“Lens” es “l'objectif” en francés."],
+      ["mcq","¿Cómo se dice “memory card” en francés?",["photo/picture", "zoom", "la carte mémoire", "camera"],2,"“Memory card” es “la carte mémoire” en francés."],
+      ["fill","Completa: “Cet appareil ne ___ pas zoomer très loin.”",["pouvons", "peux", "peut", "pouvez"],2,"“Pouvoir” conjugado en tercera persona singular es “peut”."],
+      ["translate","Traduce: “I can take good photos with this camera.”",["Je ne peux pas prendre de belles photos avec cet appareil.", "Je peux prendre de belles photos avec cette caméra.", "Je peux prendre de belles photos avec cet appareil.", "Je peux prends de belles photos avec cet appareil."],2,"“I can take” se traduce con “je peux prendre”, “pouvoir” + infinitivo."],
+      ["arrange","Ordena: [loin / zoomer / peut / ne / cet / pas / appareil]",["ne zoomer loin cet pas peut appareil", "zoomer ne loin appareil pas cet peut", "cet appareil ne peut pas zoomer loin", "appareil cet loin pas zoomer ne peut"],2,"Sujeto + “ne” + verbo + “pas” + verbo + adverbio."],
+      ["writing","Describe en francés, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “pouvoir”.",[],["je peux", "ne peut pas", "appareil"]],
+    ]
+  },
+  {
+    id:"fr_a2_camping_outdoors", level:"A2", title:"Le camping et les activités en plein air", emoji:"🏕️", xp:48,
+    description:"Aprende vocabulario de camping y a usar “du/de la/pas de” para cantidades en francés.",
+    study: {
+      vocab: [
+        ["la tente", "tent"],
+        ["le sac de couchage", "sleeping bag"],
+        ["le feu de camp", "campfire"],
+        ["le sentier de randonnée", "hiking trail"],
+        ["le sac à dos", "backpack"],
+        ["monter une tente", "to pitch a tent"],
+      ],
+      grammar: [
+        ["Article partitif y “pas de” para cantidades", "El artículo partitivo (“du/de la”) se usa en afirmativas para cantidades indefinidas; en negativas se usa “pas de”.", "Nous avons du bois pour le feu de camp. / Il ne nous reste pas d'eau."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sleeping bag” en francés?",["to pitch a tent", "tent", "campfire", "le sac de couchage"],3,"“Sleeping bag” es “le sac de couchage” en francés."],
+      ["mcq","¿Cómo se dice “hiking trail” en francés?",["to pitch a tent", "sleeping bag", "le sentier de randonnée", "campfire"],2,"“Hiking trail” es “le sentier de randonnée” en francés."],
+      ["fill","Completa: “Il ne nous reste ___ eau.”",["pas d'", "de la", "des", "du"],0,"En oraciones negativas se usa “pas de/d'”: “il ne reste pas d'eau”."],
+      ["translate","Traduce: “We have some firewood for the campfire.”",["Nous avons de la bois pour le feu de camp.", "Nous avons pas de bois pour le feu de camp.", "Nous avons du bois pour le feu de camp.", "Nous avons du bois pour la tente."],2,"“Some firewood” (masculino) se traduce con el artículo partitivo “du bois”."],
+      ["arrange","Ordena: [long / sentier / est / ce]",["est ce long sentier", "sentier est long ce", "long sentier ce est", "ce sentier est long"],3,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, un plan de camping usando el artículo partitivo o “pas de” para lo que necesitas llevar.",[],["du", "pas de", "tente"]],
+    ]
+  },
+  {
+    id:"fr_b1_beekeeping_bees", level:"B1", title:"L'apiculture et les abeilles", emoji:"🐝", xp:62,
+    description:"Aprende vocabulario de apicultura y a usar cláusulas relativas en francés.",
+    study: {
+      vocab: [
+        ["la ruche", "beehive"],
+        ["le miel", "honey"],
+        ["piquer", "to sting"],
+        ["polliniser", "to pollinate"],
+        ["l'apiculteur", "beekeeper"],
+        ["la reine des abeilles", "queen bee"],
+      ],
+      grammar: [
+        ["Pronoms relatifs (qui/que)", "“Qui” reemplaza al sujeto de la cláusula relativa; “que” reemplaza al complemento de objeto directo.", "L'apiculteur qui gère cette ruche est très expérimenté. / Les abeilles, que nous protégeons, sont essentielles."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “beehive” en francés?",["to sting", "la ruche", "honey", "queen bee"],1,"“Beehive” es “la ruche” en francés."],
+      ["mcq","¿Cómo se dice “to pollinate” en francés?",["honey", "to sting", "polliniser", "queen bee"],2,"“To pollinate” es “polliniser” en francés."],
+      ["fill","Completa: “L'apiculteur ___ gère cette ruche est très expérimenté.”",["qui", "où", "que", "dont"],0,"“Qui” se usa como sujeto de la cláusula relativa: “l'apiculteur qui gère”."],
+      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Les abeilles, qui pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinise les fleurs, sont essentielles à l'agriculture.", "Les abeilles, que pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinisent les fleurs, est essentielle à l'agriculture."],0,"“Which” como sujeto se traduce con “qui”: “les abeilles, qui pollinisent...”."],
+      ["arrange","Ordena: [ruche / vivent / la / abeilles / qui / dans / les]",["les abeilles qui vivent dans la ruche", "abeilles les vivent ruche la dans qui", "qui vivent les ruche abeilles la dans", "ruche la vivent les abeilles dans qui"],0,"Artículo + sustantivo + “qui” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre la importancia de las abejas usando al menos un pronombre relativo (“qui/que”).",[],["qui", "que", "ruche"]],
+    ]
+  },
+  {
+    id:"fr_b2_cryptocurrency_digital_finance", level:"B2", title:"Les cryptomonnaies et la finance numérique", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el conditionnel passé en francés.",
+    study: {
+      vocab: [
+        ["la cryptomonnaie", "cryptocurrency"],
+        ["la blockchain", "blockchain"],
+        ["le portefeuille numérique", "digital wallet"],
+        ["investir", "to invest"],
+        ["la volatilité", "volatility"],
+        ["décentralisé", "decentralized"],
+      ],
+      grammar: [
+        ["Plus-que-parfait + conditionnel passé", "Para hipótesis irreales sobre el pasado se usa “si” + plus-que-parfait, y “conditionnel passé” (“aurais/aurait” + participio) en la consecuencia.", "Si j'avais investi plus tôt, j'aurais gagné plus d'argent. / Si le marché ne s'était pas effondré, les prix seraient restés élevés."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “blockchain” en francés?",["to invest", "blockchain", "la blockchain", "decentralized"],2,"“Blockchain” es “la blockchain” en francés."],
+      ["mcq","¿Cómo se dice “volatility” en francés?",["volatility", "digital wallet", "cryptocurrency", "la volatilité"],3,"“Volatility” es “la volatilité” en francés."],
+      ["fill","Completa: “Si j'___ investi plus tôt, j'aurais gagné plus d'argent.”",["avais", "aurais", "avait", "ai"],0,"Tras “si” hipotético sobre el pasado se usa plus-que-parfait: “si j'avais investi”."],
+      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Si le marché ne s'était pas effondré, les prix seraient resté élevés.", "Si le marché ne s'est pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix resteraient élevés."],2,"“Hadn't crashed... would have stayed” se traduce con plus-que-parfait + conditionnel passé."],
+      ["arrange","Ordena: [risquée / est / cryptomonnaie / très / la]",["la est risquée très cryptomonnaie", "la cryptomonnaie est très risquée", "cryptomonnaie la très est risquée", "cryptomonnaie est la risquée très"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre una decisión financiera pasada usando “si j'avais... j'aurais...” al menos dos veces.",[],["si j'avais", "j'aurais", "cryptomonnaie"]],
+    ]
+  },
+  {
+    id:"fr_c1_bioethics_gene_editing", level:"C1", title:"La bioéthique et la modification génétique", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “si...que/tellement...que” para énfasis en francés.",
+    study: {
+      vocab: [
+        ["la modification du génome", "gene editing"],
+        ["le consentement éclairé", "informed consent"],
+        ["l'essai clinique", "clinical trial"],
+        ["la modification génétique", "genetic modification"],
+        ["le dilemme éthique", "ethical dilemma"],
+        ["manipuler l'ADN", "to manipulate DNA"],
+      ],
+      grammar: [
+        ["“Si...que/tellement...que” para énfasis", "“Si” o “tellement” + adjetivo/adverbio + “que” expresan una consecuencia enfática.", "La modification du génome est si puissante qu'elle soulève de sérieuses questions éthiques. / C'est un dilemme tellement complexe que les experts ne s'accordent pas encore."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “informed consent” en francés?",["ethical dilemma", "to manipulate DNA", "le consentement éclairé", "genetic modification"],2,"“Informed consent” es “le consentement éclairé” en francés."],
+      ["mcq","¿Cómo se dice “clinical trial” en francés?",["to manipulate DNA", "l'essai clinique", "genetic modification", "clinical trial"],1,"“Clinical trial” es “l'essai clinique” en francés."],
+      ["fill","Completa: “La modification du génome est ___ puissante qu'elle soulève de sérieuses questions.”",["si", "trop", "tellement", "tel"],0,"“Si” + adjetivo + “que” expresa consecuencia enfática: “si puissante que”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["C'est tellement un dilemme complexe que les experts ne s'accordent pas encore.", "C'est un dilemme si complexe que les experts ne s'accordent pas encore.", "C'est un dilemme tellement complexe que les experts ne s'accordent pas encore.", "C'est un dilemme tellement complexe que les experts s'accordent encore."],2,"“Tellement” + adjetivo + “que” también expresa consecuencia enfática: “tellement complexe que”."],
+      ["arrange","Ordena: [dilemme / réel / un / c'est / éthique]",["dilemme c'est éthique un réel", "dilemme éthique un c'est réel", "un dilemme éthique c'est réel", "c'est un dilemme éthique réel"],3,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre la edición genética usando “si...que” o “tellement...que” al menos dos veces.",[],["si...que", "tellement...que", "modification du génome"]],
+    ]
+  },
+  {
+    id:"fr_c2_geopolitics_international_relations", level:"C2", title:"La géopolitique et les relations internationales", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en francés.",
+    study: {
+      vocab: [
+        ["les relations diplomatiques", "diplomatic relations"],
+        ["la souveraineté", "sovereignty"],
+        ["les sanctions", "sanctions"],
+        ["l'accord bilatéral", "bilateral agreement"],
+        ["la tension géopolitique", "geopolitical tension"],
+        ["négocier un traité", "to negotiate a treaty"],
+      ],
+      grammar: [
+        ["Gérondif y participe pour un registro académico conciso", "El gerundio (“En analysant...”) y el participio pasado en construcciones absolutas (“Face aux sanctions croissantes...”) permiten un estilo más conciso y formal.", "En analysant les données, les chercheurs ont conclu que les tensions augmenteraient. / Face aux sanctions croissantes, le gouvernement a changé sa politique."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sovereignty” en francés?",["to negotiate a treaty", "la souveraineté", "sanctions", "diplomatic relations"],1,"“Sovereignty” es “la souveraineté” en francés."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en francés?",["sovereignty", "geopolitical tension", "bilateral agreement", "la tension géopolitique"],3,"“Geopolitical tension” es “la tension géopolitique” en francés."],
+      ["fill","Completa: “En ___ les données, les chercheurs ont conclu que les tensions augmenteraient.”",["analysé", "analysant", "analysent", "analyser"],1,"El gérondif en posición inicial usa “en” + participio presente: “en analysant”."],
+      ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Face à les sanctions croissantes, le gouvernement a changé sa politique.", "Face aux sanctions croissantes, le gouvernement change sa politique.", "Face aux sanctions croissantes, le gouvernement a changé sa politique.", "Devant aux sanctions croissantes, le gouvernement a changé sa politique."],2,"“Faced with mounting sanctions” se traduce de forma concisa con “face aux sanctions croissantes”."],
+      ["arrange","Ordena: [négocieront / nations / traité / les / le]",["traité négocieront le nations les", "nations le les traité négocieront", "négocieront traité les nations le", "les nations négocieront le traité"],3,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gérondif o participio inicial (“En analysant...” o “Face à...”).",[],["en analysant", "face à", "souveraineté"]],
+    ]
+  },
 ];
