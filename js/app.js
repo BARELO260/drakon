@@ -84,7 +84,13 @@ function goTo(sid){
   if(cur) cur.classList.remove('active');
   if(state.screen==='screen-chat' && sid!=='screen-chat'){
     if(window.speechSynthesis) window.speechSynthesis.cancel();
-    if(isListening){ try{ if(recognition) recognition.stop(); }catch(e){} }
+    // Si el usuario navega fuera del chat mientras el micrófono está
+    // grabando (p.ej. con el botón Atrás), la grabación se detiene y
+    // libera de forma limpia en vez de quedar "colgada" en segundo plano.
+    if(typeof isListening!=='undefined' && isListening){
+      try{ if(typeof mediaRecorder!=='undefined' && mediaRecorder && mediaRecorder.state!=='inactive') mediaRecorder.stop(); }catch(e){}
+      if(typeof resetMicUI==='function') resetMicUI();
+    }
   }
   next.classList.add('active'); state.screen=sid;
   // Show bottom nav on all "tab-level" screens
