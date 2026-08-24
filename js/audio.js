@@ -12,49 +12,48 @@ let recognition=null, isListening=false, pronunTarget='', pronunPhonetic='', pro
 let audioCtx=null, analyser=null, micStream=null;
 
 /* ═══════════════════════════════════════
-   SPEECH RECOGNITION — cross-platform
-   Primary:  Web Speech API (Chrome Android/Desktop)
-   Fallback: MediaRecorder → Groq Whisper (iOS Safari, Firefox, etc.)
+   MICRÓFONO — grabación real + transcripción con Whisper (Groq)
 
-   Fixes vs previous version:
-   • Un solo getUserMedia por grabación (no doble stream)
-   • startMicVisualization reutiliza el stream ya abierto
-   • Groq Whisper como backend (más estable que HuggingFace)
-   • timeslice en MediaRecorder.start(250) → chunks seguros en iOS
-   • Timeout de seguridad de 60 s para liberar mic si algo falla
-   • Limpieza de tracks garantizada en todos los caminos de error
+   Por qué NO se usa el "Web Speech API" del navegador (SpeechRecognition):
+   esa API depende de un servicio de reconocimiento del propio navegador/SO
+   (en Chrome, un viaje de ida y vuelta a los servidores de voz de Google)
+   que, dentro de una PWA instalada o un WebView empaquetado en Android,
+   con MUCHA frecuencia no está disponible, o arranca pero nunca entrega
+   resultados ni errores — se queda "escuchando" sin hacer nada. Esa es la
+   causa más probable de que "el micrófono no detecte la voz".
+
+   En su lugar, el micrófono graba un clip de audio real con
+   MediaRecorder y se transcribe con Whisper alojado en Groq (el MISMO
+   proveedor de IA — y la misma clave — que ya usa toda la app para el
+   chat, el escaneo y la videollamada). Es un solo camino, predecible,
+   que funciona igual en cualquier navegador o dispositivo — nada de
+   "intenta con el navegador y si falla dos veces cambia a otra cosa".
+
+   Flujo: toca 🎙️ → se pide permiso de micrófono la PRIMERA vez → empieza
+   a grabar de verdad → toca otra vez para enviar → se transcribe → el
+   texto reconocido se comporta exactamente como si lo hubieras escrito.
 ═══════════════════════════════════════ */
 let mediaRecorder = null;
-let mediaChunks = [];
-let usingWhisper = false;
-let _activeStream = null;   // stream compartido para recorder + visualización
-let _safetyTimer = null;    // timeout que libera mic si el usuario olvida parar
-let _cachedStream = null;   // stream persistente reutilizable entre grabaciones
-let _wsApiFailCount = 0;    // contador de fallos consecutivos de Web Speech API
-
-// ── helpers ──────────────────────────────────────────────────
-function hasSpeechRecognition(){
-  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
-}
+let mediaChunks   = [];
+let _activeStream = null;   // stream de la grabación en curso
+let _cachedStream = null;   // stream de mic reutilizado entre grabaciones (evita repedir permiso)
+let _safetyTimer  = null;   // corta la grabación sola si el usuario se olvida de tocar "detener"
 
 function _releaseStream(stream){
   try{ if(stream) stream.getTracks().forEach(t=>t.stop()); } catch(e){}
 }
-
 function _clearSafetyTimer(){
   if(_safetyTimer){ clearTimeout(_safetyTimer); _safetyTimer=null; }
 }
 
 // Obtiene un stream de micrófono, reutilizando el cacheado si sigue activo.
-// Esto evita que el navegador muestre el diálogo de permiso más de una vez.
+// Esto es lo que hace que el navegador NO vuelva a pedir permiso cada vez
+// — solo lo pide la primera vez que de verdad se necesita.
 async function _getStream(){
-  // Reutilizar stream activo si sus tracks siguen vivos
   if(_cachedStream && _cachedStream.getTracks().every(t => t.readyState === 'live')){
     return _cachedStream;
   }
-  // Si hay un stream muerto, limpiarlo
   if(_cachedStream){ _releaseStream(_cachedStream); _cachedStream = null; }
-
   const stream = await navigator.mediaDevices.getUserMedia({
     audio:{ echoCancellation:true, noiseSuppression:true, sampleRate:16000 }
   });
@@ -62,212 +61,45 @@ async function _getStream(){
   return stream;
 }
 
-// Devuelve la extensión más adecuada para el blob grabado
 function _bestMime(){
-  const types = [
-    'audio/webm;codecs=opus',
-    'audio/webm',
-    'audio/ogg;codecs=opus',
-    'audio/mp4',
-  ];
-  for(const t of types){ if(MediaRecorder.isTypeSupported(t)) return t; }
+  const types = ['audio/webm;codecs=opus','audio/webm','audio/ogg;codecs=opus','audio/mp4'];
+  for(const t of types){ if(window.MediaRecorder && MediaRecorder.isTypeSupported(t)) return t; }
   return '';
 }
 
-// ── Web Speech API ────────────────────────────────────────────
-function initSpeech(){
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if(!SR) return false;
-  recognition = new SR();
-  recognition.continuous = false;
-  recognition.interimResults = true;
-  recognition.maxAlternatives = 1;
-  recognition.lang = state.lang?.lang || 'en-US';
-
-  recognition.onresult = e => {
-    _wsApiFailCount = 0; // reconocimiento exitoso — resetear contador de fallos
-    let interim = '', finalText = '', confidence = 0;
-    for(let i = e.resultIndex; i < e.results.length; i++){
-      if(e.results[i].isFinal){
-        finalText += e.results[i][0].transcript;
-        confidence = e.results[i][0].confidence || 0.85;
-      } else {
-        interim += e.results[i][0].transcript;
-      }
-    }
-    if(pronunContext === 'chat'){
-      const inp = document.getElementById('chatIn');
-      // Mientras se habla mostramos el texto provisional (interim); al llegar
-      // el texto final, dejamos ESE guardado en el input (no se pierde).
-      if(inp) inp.value = finalText ? finalText.trim() : interim;
-    }
-    if(finalText) handleVoiceResult(finalText.trim(), confidence);
-  };
-
-  recognition.onerror = e => {
-    _clearSafetyTimer();
-    const msgs = {
-      'not-allowed': '🎙️ Permiso denegado. Habilita el micrófono en ajustes.',
-      'audio-capture':'🎙️ No se encontró micrófono.',
-      'aborted':     null,
-    };
-    // Para no-speech y network: intentar Whisper automáticamente
-    if(e.error === 'no-speech' || e.error === 'network'){
-      _wsApiFailCount++;
-      // Si falla 2+ veces seguidas, usar Whisper como backend principal
-      if(_wsApiFailCount >= 2){
-        showToast('🔄 Cambiando a grabación alternativa...');
-        stopListening();
-        // Arrancar Whisper con el stream cacheado si sigue vivo
-        _getStream().then(stream => {
-          const btn = document.getElementById('micBtn') || document.getElementById('exMicBtn');
-          if(btn) btn.classList.add('on');
-          startMicVisualization(stream);
-          startWhisperRecording(stream).then(ok => { if(!ok) resetMicUI(); });
-        }).catch(() => { resetMicUI(); showToast('🎙️ No se pudo acceder al micrófono.'); });
-        return;
-      }
-      // Primer fallo: mostrar aviso y dejar que el usuario vuelva a intentar
-      showToast('🔇 No se detectó voz. Habla más cerca del micrófono.');
-      stopListening(); resetMicUI();
-      return;
-    }
-    stopListening(); resetMicUI();
-    const msg = msgs[e.error];
-    if(msg) showToast(msg);
-  };
-
-  recognition.onend = () => { _clearSafetyTimer(); stopListening(); resetMicUI(); };
-  return true;
-}
-
-// ── Groq Whisper transcription ────────────────────────────────
+// ── Transcripción REAL con Whisper (Groq) — nunca texto inventado ──
 async function transcribeWithWhisper(blob){
-  // Try Groq first (fast, reliable, free tier generoso)
   const groqKey = state.groqKey || localStorage.getItem('groqKey');
-  if(groqKey){
-    try{
-      const ext  = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
-      const fd   = new FormData();
-      fd.append('file', blob, `audio.${ext}`);
-      fd.append('model', 'whisper-large-v3-turbo');
-      fd.append('language', (state.lang?.lang||'en-US').split('-')[0]);
-      fd.append('response_format', 'json');
-      const r = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
-        method:'POST', headers:{'Authorization':'Bearer '+groqKey}, body:fd,
-        signal: AbortSignal.timeout(25000)
-      });
-      if(r.ok){ const j=await r.json(); if(j.text) return j.text.trim(); }
-    } catch(e){}
-  }
-
-  // Fallback: Pollinations Whisper proxy (no key needed, menos confiable)
+  if(!groqKey || !blob || blob.size < 800) return null;
   try{
-    const ext  = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
-    const fd   = new FormData();
+    const ext = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
+    const fd  = new FormData();
     fd.append('file', blob, `audio.${ext}`);
-    const r = await fetch('https://audio.api.pollinations.ai/transcriptions', {
-      method:'POST', body:fd,
+    fd.append('model', 'whisper-large-v3-turbo');
+    fd.append('language', (state.lang?.lang||'en-US').split('-')[0]);
+    fd.append('response_format', 'json');
+    const r = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
+      method:'POST', headers:{'Authorization':'Bearer '+groqKey}, body:fd,
       signal: AbortSignal.timeout(25000)
     });
-    if(r.ok){ const j=await r.json(); if(j.text) return j.text.trim(); }
+    if(r.ok){ const j = await r.json(); if(j.text) return j.text.trim(); }
   } catch(e){}
-
   return null;
 }
 
-function blobToBase64(blob){
-  return new Promise(resolve=>{
-    const r = new FileReader();
-    r.onload = ()=> resolve(r.result);
-    r.readAsDataURL(blob);
-  });
-}
-
-// ── MediaRecorder (Whisper fallback) ─────────────────────────
-// Recibe el stream ya abierto para NO pedir permiso dos veces
-async function startWhisperRecording(stream){
-  try{
-    _activeStream = stream;
-    mediaChunks   = [];
-    const mimeType = _bestMime();
-    mediaRecorder  = new MediaRecorder(stream, mimeType ? {mimeType} : {});
-
-    mediaRecorder.ondataavailable = e => {
-      if(e.data && e.data.size > 0) mediaChunks.push(e.data);
-    };
-
-    mediaRecorder.onstop = async () => {
-      _clearSafetyTimer();
-      // Solo liberamos _activeStream si es diferente al stream cacheado,
-      // para no matar el track compartido entre grabaciones.
-      if(_activeStream && _activeStream !== _cachedStream){
-        _releaseStream(_activeStream);
-      }
-      _activeStream = null;
-      stopMicVisualization();
-
-      if(mediaChunks.length === 0){
-        stopListening(); resetMicUI();
-        showToast('🔇 No se capturó audio. Intenta de nuevo.');
-        return;
-      }
-      const blob = new Blob(mediaChunks, {type: mimeType || 'audio/webm'});
-      showToast('🔄 Procesando audio...');
-      const text = await transcribeWithWhisper(blob);
-      if(text && text.trim()){
-        handleVoiceResult(text.trim(), 0.85);
-      } else {
-        stopListening(); resetMicUI();
-        showToast('🔇 No se pudo reconocer el audio. Intenta de nuevo.');
-      }
-    };
-
-    mediaRecorder.onerror = () => {
-      _clearSafetyTimer();
-      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
-      _activeStream = null;
-      stopListening(); resetMicUI();
-      showToast('🎙️ Error al grabar. Intenta de nuevo.');
-    };
-
-    // timeslice=250ms → chunks frecuentes, seguro en iOS Safari
-    mediaRecorder.start(250);
-    usingWhisper = true;
-    isListening  = true;
-
-    // Safety timeout: libera el mic después de 60 s si no se detiene manualmente
-    _safetyTimer = setTimeout(()=>{
-      if(isListening && mediaRecorder && mediaRecorder.state !== 'inactive'){
-        showToast('⏱️ Grabación detenida automáticamente (60 s)');
-        mediaRecorder.stop();
-      }
-    }, 60000);
-
-    return true;
-  } catch(e){
-    if(stream && stream !== _cachedStream) _releaseStream(stream);
-    _activeStream = null;
-    showToast('🎙️ No se pudo iniciar la grabación: ' + (e.message||e));
-    return false;
-  }
-}
-
-// ── Mic visualización (reutiliza stream activo) ───────────────
+// ── Visualización del micrófono (reutiliza el stream ya abierto) ──
 function startMicVisualization(stream){
   try{
     if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
-    // Reanudar contexto suspendido (política autoplay de iOS)
-    if(audioCtx.state === 'suspended') audioCtx.resume();
+    if(audioCtx.state === 'suspended') audioCtx.resume(); // política de autoplay en iOS/algunos WebViews
     const src = audioCtx.createMediaStreamSource(stream);
     analyser  = audioCtx.createAnalyser();
     analyser.fftSize = 256;
     src.connect(analyser);
-    micStream = stream;   // solo guardamos referencia, no somos dueños del track
+    micStream = stream;
     animateWave();
   } catch(e){}
 }
-
 function animateWave(){
   if(!isListening || !analyser) return;
   const data = new Uint8Array(analyser.frequencyBinCount);
@@ -279,76 +111,128 @@ function animateWave(){
   }
   requestAnimationFrame(animateWave);
 }
-
-// No detenemos los tracks aquí — el dueño (recorder o recognition) los libera
 function stopMicVisualization(){ micStream=null; analyser=null; }
 
-// ── toggleMic (chat) ──────────────────────────────────────────
+// ── Grabación (recibe el stream ya abierto, NO pide permiso otra vez) ──
+async function _startRecording(stream){
+  try{
+    _activeStream = stream;
+    mediaChunks   = [];
+    const mimeType = _bestMime();
+    mediaRecorder  = mimeType ? new MediaRecorder(stream,{mimeType}) : new MediaRecorder(stream);
+
+    mediaRecorder.ondataavailable = e => { if(e.data && e.data.size > 0) mediaChunks.push(e.data); };
+
+    mediaRecorder.onstop = async () => {
+      _clearSafetyTimer();
+      // Solo liberamos el stream si NO es el compartido/cacheado, para no
+      // matar el track que reutilizamos entre grabaciones.
+      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
+      _activeStream = null;
+      stopMicVisualization();
+
+      if(mediaChunks.length === 0){
+        isListening = false; resetMicUI();
+        showToast('🔇 No se capturó audio. Inténtalo de nuevo, más cerca del micrófono.');
+        return;
+      }
+      const blob = new Blob(mediaChunks, {type: (mediaRecorder && mediaRecorder.mimeType) || mimeType || 'audio/webm'});
+
+      if(!state.groqKey && !localStorage.getItem('groqKey')){
+        isListening = false; resetMicUI();
+        showToast('⚠️ Configura tu clave de IA en Ajustes para usar el micrófono.');
+        return;
+      }
+
+      _setMicProcessing(true);
+      const text = await transcribeWithWhisper(blob);
+      isListening = false;
+      _setMicProcessing(false);
+      if(text){
+        handleVoiceResult(text, 0.9);
+      } else {
+        resetMicUI();
+        showToast('😕 No se entendió el audio. Habla más cerca del micrófono e inténtalo de nuevo.');
+      }
+    };
+
+    mediaRecorder.onerror = () => {
+      _clearSafetyTimer();
+      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
+      _activeStream = null; isListening = false;
+      resetMicUI();
+      showToast('🎙️ Error al grabar. Inténtalo de nuevo.');
+    };
+
+    mediaRecorder.start(250); // timeslice corto → chunks seguros incluso si se corta abruptamente
+    isListening = true;
+
+    // Corte de seguridad: si el usuario se olvida de tocar "detener", la
+    // grabación NUNCA se queda bloqueada indefinidamente.
+    _clearSafetyTimer();
+    _safetyTimer = setTimeout(()=>{
+      if(isListening && mediaRecorder && mediaRecorder.state !== 'inactive'){
+        showToast('⏱️ Grabación detenida automáticamente (30 s máx.)');
+        mediaRecorder.stop();
+      }
+    }, 30000);
+
+    return true;
+  } catch(e){
+    if(stream && stream !== _cachedStream) _releaseStream(stream);
+    _activeStream = null;
+    showToast('🎙️ No se pudo iniciar la grabación: ' + (e.message||e));
+    return false;
+  }
+}
+
+function _setMicProcessing(on){
+  const mb = document.getElementById('micBtn');
+  if(mb){ mb.classList.remove('on'); mb.classList.toggle('processing', on); }
+  const eb = document.getElementById('exMicBtn');
+  if(eb && on){ eb.classList.remove('listening'); eb.classList.add('processing'); eb.textContent='🔄 Transcribiendo...'; }
+  const inp = document.getElementById('chatIn');
+  if(inp && on) inp.placeholder = '🔄 Transcribiendo tu voz...';
+}
+
+// ── toggleMic (micrófono del chat) ─────────────────────────────
+// Botón "empuja para hablar": un toque pide permiso (si hace falta) y
+// empieza a grabar de verdad; otro toque termina la grabación y la envía
+// a transcribir. El micrófono nunca queda "colgado": si algo falla en
+// cualquier punto, siempre se libera y se avisa con un mensaje claro.
 async function toggleMic(){
-  // —— Parar si ya está grabando ——
   if(isListening){
     _clearSafetyTimer();
-    if(usingWhisper && mediaRecorder && mediaRecorder.state !== 'inactive'){
-      mediaRecorder.stop();
-    } else if(recognition){
-      recognition.stop();
-    }
+    if(mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
     return;
   }
 
   pronunContext = 'chat'; pronunTarget = '';
 
-  // —— Obtener micrófono (reutiliza stream cacheado si ya tiene permiso) ——
   let stream;
   try{
     stream = await _getStream();
   } catch(e){
     const denied = e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError';
     showToast(denied
-      ? '🎙️ Permiso de micrófono denegado. Habilítalo en los ajustes del navegador.'
+      ? '🎙️ Drakón necesita tu micrófono para escucharte. Actívalo en los permisos de este sitio (icono 🔒 junto a la dirección) y vuelve a intentarlo.'
       : '🎙️ No se pudo acceder al micrófono: ' + (e.message||e));
     return;
   }
 
-  // —— Web Speech API: reutiliza el stream ya abierto para visualización ——
-  if(hasSpeechRecognition()){
-    recognition = null;
-    if(initSpeech()){
-      recognition.lang = state.lang?.lang || 'en-US';
-      try{
-        recognition.start();
-        isListening = true;
-        const btn = document.getElementById('micBtn'); if(btn) btn.classList.add('on');
-        const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Escuchando...';
-        startMicVisualization(stream);
-        // Safety timer para Web Speech (60 s)
-        _safetyTimer = setTimeout(()=>{
-          if(isListening && recognition){ recognition.stop(); }
-        }, 60000);
-        return;
-      } catch(e){
-        // Web Speech lanzó excepción — liberar stream y caer a Whisper
-        _releaseStream(stream);
-        recognition = null;
-      }
-    }
-  }
-
-  // —— Whisper fallback ——
-  const btn = document.getElementById('micBtn'); if(btn) btn.classList.add('on');
-  const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Grabando... toca 🎙️ para detener';
-  showToast('🎙️ Grabando... toca el micrófono para terminar');
+  const btn = document.getElementById('micBtn'); if(btn){ btn.classList.remove('processing'); btn.classList.add('on'); }
+  const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Escuchando... toca 🎙️ de nuevo para enviar';
+  showToast('🎙️ Grabando... toca el micrófono cuando termines de hablar');
   startMicVisualization(stream);
-  const ok = await startWhisperRecording(stream);
-  if(!ok){ resetMicUI(); }
+  const ok = await _startRecording(stream);
+  if(!ok) resetMicUI();
 }
 
-// ── startPronunEx (ejercicio de pronunciación) ────────────────
+// ── startPronunEx (ejercicio de pronunciación) ─────────────────
 async function startPronunEx(word, phonetic){
   if(isListening){
     _clearSafetyTimer();
-    if(usingWhisper && mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
-    else if(recognition) recognition.stop();
+    if(mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
     return;
   }
 
@@ -356,7 +240,8 @@ async function startPronunEx(word, phonetic){
   try{
     stream = await _getStream();
   } catch(e){
-    showToast('🎙️ Permiso de micrófono denegado.'); return;
+    showToast('🎙️ Drakón necesita tu micrófono para escucharte. Actívalo en los permisos de este sitio y vuelve a intentarlo.');
+    return;
   }
 
   pronunTarget = word; pronunPhonetic = phonetic; pronunContext = 'exercise';
@@ -364,34 +249,17 @@ async function startPronunEx(word, phonetic){
   const btn    = document.getElementById('exMicBtn');
   const wave   = document.getElementById('exWave');
   const status = document.getElementById('pronunStatus');
-  if(btn){ btn.classList.add('listening'); btn.textContent = '🔴 Escuchando...'; }
+  if(btn){ btn.classList.remove('processing'); btn.classList.add('listening'); btn.textContent = '🔴 Escuchando... toca para enviar'; }
   if(wave) wave.style.display = 'flex';
-  if(status) status.textContent = `Escuchando... pronuncia "${word}" ahora`;
+  if(status) status.textContent = `Escuchando... pronuncia "${word}" y toca el botón otra vez para enviar`;
 
   startMicVisualization(stream);
-
-  if(hasSpeechRecognition()){
-    recognition = null;
-    if(initSpeech()){
-      recognition.lang = state.lang?.lang || 'en-US';
-      try{
-        recognition.start(); isListening = true;
-        _safetyTimer = setTimeout(()=>{ if(isListening && recognition) recognition.stop(); }, 60000);
-        return;
-      } catch(e){
-        _releaseStream(stream);
-        recognition = null;
-      }
-    }
-  }
-
-  // Whisper fallback
-  const ok = await startWhisperRecording(stream);
-  if(!ok){ resetMicUI(); }
+  const ok = await _startRecording(stream);
+  if(!ok) resetMicUI();
 }
 
 // ── shared result handler ─────────────────────────────────────
-// Se llama cuando ya tenemos texto FINAL (Web Speech o Whisper).
+// Se llama cuando ya tenemos texto FINAL transcrito por Whisper.
 // - Contexto 'exercise' (botón "Pronunciar" de un ejercicio): se evalúa la
 //   pronunciación contra la palabra objetivo.
 // - Contexto 'chat' (micrófono del chat): el texto reconocido se comporta
@@ -429,14 +297,13 @@ function evaluatePronunEx(heard, confidence){
 }
 
 function stopListening(){
-  isListening  = false;
-  usingWhisper = false;
+  isListening = false;
   stopMicVisualization();
 }
 
 function resetMicUI(){
-  const mb = document.getElementById('micBtn');    if(mb) mb.classList.remove('on');
-  const eb = document.getElementById('exMicBtn'); if(eb){ eb.classList.remove('listening'); eb.textContent='🎙️ Pronunciar'; }
+  const mb = document.getElementById('micBtn');    if(mb) mb.classList.remove('on','processing');
+  const eb = document.getElementById('exMicBtn'); if(eb){ eb.classList.remove('listening','processing'); eb.textContent='🎙️ Pronunciar'; }
   const ew = document.getElementById('exWave');   if(ew) ew.style.display='none';
   const inp= document.getElementById('chatIn');   if(inp) inp.placeholder='Escribe aquí...';
 }
