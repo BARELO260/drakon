@@ -27,6 +27,26 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
 
+<!-- ── GLOBAL ERROR HANDLING (estabilidad / requisito de Google Play) ──
+     Captura errores no manejados y promesas rechazadas para que la app
+     nunca se quede en una "pantalla en blanco" silenciosa — se registra
+     el error para depuración y la interfaz sigue respondiendo. -->
+<script>
+(function(){
+  window.addEventListener('error', function(e){
+    console.error('[Drakón] Error no capturado:', e.error || e.message, e.filename, e.lineno);
+  });
+  window.addEventListener('unhandledrejection', function(e){
+    console.error('[Drakón] Promesa rechazada sin manejar:', e.reason);
+    // Evita que un rechazo de red/API puntual (muy común: timeouts de IA,
+    // fallos de fetch) burbujee como un error de consola alarmante o
+    // interrumpa el hilo principal — cada llamada de red ya maneja sus
+    // propios errores donde importa (mostrando un toast al usuario).
+    e.preventDefault();
+  });
+})();
+</script>
+
 <!-- ── FIREBASE INIT (inline — hardcoded config must stay here) ── -->
 <script>
 (function(){
@@ -78,6 +98,31 @@
       }),
       signOut:  ()    => auth.signOut(),
       resetPassword: (e) => auth.sendPasswordResetEmail(e),
+      // Requisito de Google Play (Data Safety / Account Deletion policy):
+      // toda app que permite crear una cuenta debe ofrecer una forma de
+      // eliminarla junto con sus datos. Borra primero el documento de
+      // Firestore y luego la cuenta de Auth. Si Firebase exige un login
+      // reciente (auth/requires-recent-login), se propaga el error tal
+      // cual para que la interfaz pida reautenticarse antes de reintentar.
+      deleteAccount: async () => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        const uid = u.uid;
+        try{ await db.collection('users').doc(uid).delete(); }
+        catch(e){ console.warn('[FB] No se pudo borrar el documento de datos:', e.message); }
+        await u.delete();
+      },
+      reauthenticate: async (password) => {
+        const u = auth.currentUser;
+        if(!u || !u.email) throw new Error('no-user');
+        const cred = firebase.auth.EmailAuthProvider.credential(u.email, password);
+        return u.reauthenticateWithCredential(cred);
+      },
+      reauthenticateGoogle: async () => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        return u.reauthenticateWithPopup(new firebase.auth.GoogleAuthProvider());
+      },
       saveData: (data, fullOverwrite=false) => {
         const u = auth.currentUser;
         if(!u) return;
@@ -634,6 +679,17 @@
       <div class="setting-row" onclick="openFbSetup()" style="display:none">
         <div class="sr-left"><span class="sr-icon">⚙️</span><div><div class="sr-title">Configurar Firebase</div><div class="sr-sub">Editar configuración de base de datos</div></div></div>
         <div style="font-size:13px;font-weight:800;color:var(--muted)">›</div>
+      </div>
+    </div>
+    <div class="settings-section">
+      <div class="ss-title">Privacidad y datos</div>
+      <div class="setting-row" onclick="window.open('privacy.html','_blank')">
+        <div class="sr-left"><span class="sr-icon">📄</span><div><div class="sr-title">Política de privacidad</div><div class="sr-sub">Qué datos guardamos y por qué</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--muted)">›</div>
+      </div>
+      <div class="setting-row" id="deleteAccountRow" onclick="deleteAccountFlow()">
+        <div class="sr-left"><span class="sr-icon">⚠️</span><div><div class="sr-title" style="color:var(--coral)">Eliminar mi cuenta</div><div class="sr-sub">Borra tu cuenta y todos tus datos de forma permanente</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--coral)">›</div>
       </div>
     </div>
     <div class="settings-section" id="apiKeySection">
