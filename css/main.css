@@ -511,6 +511,7 @@ box-shadow:var(--card-elev);}
 .send-btn:disabled{background:transparent;border-color:var(--border);cursor:not-allowed;box-shadow:none}
 .mic-btn{width:44px;height:44px;border-radius:10px;background:var(--card);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;font-size:17px}
 .mic-btn.on{background:var(--coral);color:#fff;box-shadow:0 0 0 3px color-mix(in srgb, var(--coral) 25%, transparent);animation:pulse 1s ease-in-out infinite}
+.mic-btn.processing{background:var(--gold);color:#231806;opacity:.85;animation:pulse 1.4s ease-in-out infinite}
 .err-bar{background:color-mix(in srgb, var(--coral) 7%, transparent);border:1px solid color-mix(in srgb, var(--coral) 25%, transparent);border-radius:14px;padding:9px 13px;font-size:12px;font-weight:700;color:var(--coral);margin:5px 11px;display:none;line-height:1.55}
 .tts-btn{width:34px;height:34px;border-radius:10px;background:var(--card);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px;transition:all .2s}
 .tts-btn.on{background:var(--sky);color:#08202b;box-shadow:0 0 0 3px color-mix(in srgb, var(--sky) 25%, transparent);animation:pulse 1.8s ease-in-out infinite}
