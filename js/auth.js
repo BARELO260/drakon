@@ -322,6 +322,74 @@ async function logOut(){
   }
 }
 
+/* ═══════════════════════════════════════
+   ELIMINAR CUENTA — requisito de Google Play (Data Safety / Account
+   Deletion policy): toda app que permite crear cuenta debe ofrecer una
+   forma real de eliminarla junto con sus datos, dentro de la propia app.
+═══════════════════════════════════════ */
+async function deleteAccountFlow(){
+  if(!(window._fbReady && window._fbUser)){
+    showToast('Estás en modo local, sin cuenta. Usa "Reiniciar progreso" para borrar tus datos de este dispositivo.');
+    return;
+  }
+  if(!confirm('¿Seguro que quieres eliminar tu cuenta de Drakón?\n\nSe borrarán tu progreso, tus lecciones completadas y todos tus datos de forma PERMANENTE. Esta acción no se puede deshacer.')) return;
+  if(!confirm('Última confirmación: esto elimina tu cuenta para siempre. ¿Continuar?')) return;
+
+  const row = document.getElementById('deleteAccountRow');
+  if(row) row.style.opacity = '.6';
+  showToast('🗑️ Eliminando tu cuenta…');
+
+  try{
+    await window._firebase.deleteAccount();
+    _finishAccountDeletion();
+  } catch(e){
+    if(e && e.code === 'auth/requires-recent-login'){
+      const ok = await _reauthenticateForDeletion();
+      if(!ok){ if(row) row.style.opacity=''; return; }
+      try{
+        await window._firebase.deleteAccount();
+        _finishAccountDeletion();
+      } catch(e2){
+        if(row) row.style.opacity = '';
+        showToast('⚠️ No se pudo eliminar la cuenta: ' + firebaseErrMsg(e2.code));
+      }
+    } else {
+      if(row) row.style.opacity = '';
+      showToast('⚠️ No se pudo eliminar la cuenta: ' + (e && e.code ? firebaseErrMsg(e.code) : (e.message||e)));
+    }
+  }
+}
+
+// Firebase exige un login "reciente" para operaciones sensibles como borrar
+// la cuenta. Si hace falta, pedimos reautenticación aquí mismo, sin sacar
+// al usuario del flujo de eliminación.
+async function _reauthenticateForDeletion(){
+  const u = window._fbUser;
+  const provider = u && u.providerData && u.providerData[0] && u.providerData[0].providerId;
+  try{
+    if(provider === 'google.com'){
+      showToast('🔐 Confirma tu identidad con Google para continuar…');
+      await window._firebase.reauthenticateGoogle();
+      return true;
+    }
+    const password = prompt('Por seguridad, ingresa tu contraseña para confirmar la eliminación de tu cuenta:');
+    if(!password) return false;
+    await window._firebase.reauthenticate(password);
+    return true;
+  } catch(e){
+    showToast('⚠️ No se pudo confirmar tu identidad: ' + firebaseErrMsg(e.code));
+    return false;
+  }
+}
+
+function _finishAccountDeletion(){
+  try{ localStorage.removeItem('drakon_pwa'); }catch(e){}
+  try{ localStorage.removeItem('drakon_groq_key'); }catch(e){}
+  try{ localStorage.removeItem('drakon_fb_cfg'); }catch(e){}
+  showToast('✅ Tu cuenta y tus datos fueron eliminados.');
+  setTimeout(()=>{ location.reload(); }, 1200);
+}
+
 // ── Firebase config setup modal ──
 function openFbSetup(){
   const m = document.getElementById('fbSetupModal');
