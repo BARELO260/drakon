@@ -605,31 +605,51 @@ function segmentMixedLanguageText(text, targetCode){
   return segments.filter(s => s.text.trim().length > 0);
 }
 
-// Reproduce los tramos EN ORDEN, uno detrás de otro (mismo personaje,
-// pronunciación distinta según el idioma real de cada tramo), para que
-// suene como una sola respuesta fluida. `token` identifica esta secuencia
-// concreta: si se llama a stopTTS() mientras tanto (el usuario navega,
-// para la voz, etc.), el token deja de coincidir y la cadena se corta en
-// vez de seguir hablando el siguiente tramo por su cuenta.
+// Reproduce los tramos EN ORDEN (mismo personaje, pronunciación distinta
+// según el idioma real de cada tramo). La CLAVE para que suene fluida y no
+// entrecortada: el audio de TODOS los tramos se pide en PARALELO desde el
+// principio (Promise.all de peticiones simultáneas a ElevenLabs) en vez de
+// pedir un tramo, esperar su respuesta de red, reproducirlo, y solo
+// ENTONCES pedir el siguiente — eso es lo que causaba las pausas largas
+// entre tramo y tramo. Reproducir sigue siendo estrictamente secuencial
+// (nunca se solapan dos audios), pero como ya está todo precargado, el
+// siguiente tramo normalmente ya está listo en cuanto termina el anterior.
+// `token` identifica esta secuencia: si se llama a stopTTS() mientras
+// tanto, deja de coincidir y la reproducción se corta ahí mismo.
 let _activeSpeechToken = 0;
-function _speakSegmentsSequentially(segments, cv, charId, i, token){
-  if(token !== _activeSpeechToken) return;
-  if(i >= segments.length) return;
-  const seg = segments[i];
-  const bcp47 = seg.lang === 'target'
-    ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
-    : (_NATIVE_BCP47[state.nativeLang] || 'es-ES');
-  ttsSpeakChar(seg.text, cv, bcp47, () => _speakSegmentsSequentially(segments, cv, charId, i+1, token), charId);
-}
 
-function speakMixedLanguageText(cleanText){
+async function speakMixedLanguageText(cleanText){
   const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
   const charId = state.charId || 'dragon';
   const targetCode = (state.lang?.code || 'EN').toUpperCase();
   const segments = segmentMixedLanguageText(cleanText, targetCode);
   if(!segments.length) return;
   const token = ++_activeSpeechToken;
-  _speakSegmentsSequentially(segments, cv, charId, 0, token);
+
+  const bcp47For = seg => seg.lang === 'target'
+    ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
+    : (_NATIVE_BCP47[state.nativeLang] || 'es-ES');
+
+  // Dispara TODAS las peticiones de audio a la vez (no una por una).
+  const prefetches = segments.map(seg =>
+    (typeof ttsFetchAudioBlob === 'function' ? ttsFetchAudioBlob(seg.text, cv, charId) : Promise.resolve(null))
+      .catch(() => null)
+  );
+
+  for(let i = 0; i < segments.length; i++){
+    if(token !== _activeSpeechToken) return; // se paró/canceló mientras tanto
+    const seg  = segments[i];
+    const blob = await prefetches[i]; // ya debería estar lista (o casi) gracias al paralelismo de arriba
+    if(token !== _activeSpeechToken) return;
+
+    await new Promise(resolve => {
+      if(blob && typeof _elevenPlayBlob === 'function'){
+        _elevenPlayBlob(blob, resolve);
+      } else {
+        _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, resolve);
+      }
+    });
+  }
 }
 
 function speak(text, langCode){
