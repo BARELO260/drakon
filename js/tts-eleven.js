@@ -279,4 +279,10 @@ function ttsSpeakPhrase(text, langTag, rate, onend){
 function ttsStopAll(){
   if(_ttsAudioEl){ try{ _ttsAudioEl.pause(); }catch(e){} _ttsAudioEl = null; }
   if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  // Invalida cualquier secuencia de tramos por idioma en curso (ver
+  // js/audio.js → _speakSegmentsSequentially) para que, si se para la voz
+  // a mitad de una respuesta mezclada, NO siga hablando el siguiente
+  // tramo por su cuenta — sea cual sea el sitio desde el que se llamó a
+  // ttsStopAll() (hay varios en toda la app).
+  if(typeof _activeSpeechToken !== 'undefined') _activeSpeechToken++;
 }
