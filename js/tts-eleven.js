@@ -150,6 +150,27 @@ async function _resolveVoiceId(charKey, voice, forceRefresh){
   return id;
 }
 
+async function _elevenFetchBlob(text, voice, charKey){
+  const resolveKey = charKey || voice.name || voice.voiceId;
+  const voiceId = await _resolveVoiceId(resolveKey, voice);
+  let r = await _elevenRequest(text, voice, voiceId, getElevenKey());
+  if(r.ok) return await r.blob();
+
+  // Si da 404, la voz asignada tampoco existe (o cambió) — invalidamos la
+  // caché y forzamos una re-resolución fresca antes de rendirnos.
+  if(r.status === 404){
+    const r2id = await _resolveVoiceId(resolveKey, voice, true);
+    if(r2id !== voiceId){
+      const r2 = await _elevenRequest(text, voice, r2id, getElevenKey());
+      if(r2.ok) return await r2.blob();
+      await _reportFailure(r2, r2id);
+      return null;
+    }
+  }
+  await _reportFailure(r, voiceId);
+  return null;
+}
+
 async function _elevenSpeak(text, voice, onend, charKey){
   if(typeof hasManagedAi==='function' && hasManagedAi()){
     try{ return _elevenPlayBlob(await managedTTS(text,charKey||'narrator'),onend); }
@@ -161,29 +182,31 @@ async function _elevenSpeak(text, voice, onend, charKey){
   }
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
-  const resolveKey = charKey || voice.name || voice.voiceId;
   try{
-    const voiceId = await _resolveVoiceId(resolveKey, voice);
-    const r = await _elevenRequest(text, voice, voiceId, key);
-    if(r.ok) return _elevenPlay(r, onend);
-
-    // Si da 404, la voz asignada tampoco existe (o cambió) — invalidamos la
-    // caché y forzamos una re-resolución fresca antes de rendirnos.
-    if(r.status === 404){
-      const r2id = await _resolveVoiceId(resolveKey, voice, true);
-      if(r2id !== voiceId){
-        const r2 = await _elevenRequest(text, voice, r2id, key);
-        if(r2.ok) return _elevenPlay(r2, onend);
-        await _reportFailure(r2, r2id);
-        return false;
-      }
-    }
-    await _reportFailure(r, voiceId);
-    return false;
+    const blob = await _elevenFetchBlob(text, voice, charKey);
+    if(!blob) return false;
+    return _elevenPlayBlob(blob, onend);
   } catch(e){
     _warnElevenFailure(e && e.message ? e.message : e);
     return false;
   }
+}
+
+// Pide el audio de un tramo de texto SIN reproducirlo — para poder
+// PRECARGAR varios tramos en paralelo (ver speakMixedLanguageText en
+// js/audio.js) y luego reproducirlos uno tras otro sin la pausa de red
+// entre cada uno, que es lo que hacía que la voz se sintiera entrecortada
+// cuando una respuesta mezclaba varios idiomas. Devuelve un Blob, o null
+// si no hay key configurada o la petición falla (el llamador debe usar el
+// fallback nativo para ESE tramo en concreto, sin afectar a los demás).
+async function ttsFetchAudioBlob(text, voice, charKey){
+  if(typeof hasManagedAi==='function' && hasManagedAi()){
+    try{ return await managedTTS(text, charKey||'narrator'); }
+    catch(e){ if(!getElevenKey()) return null; }
+  }
+  if(!getElevenKey() || !text) return null;
+  try{ return await _elevenFetchBlob(text, voice, charKey); }
+  catch(e){ return null; }
 }
 
 function _elevenRequest(text, voice, voiceId, key){
@@ -207,10 +230,6 @@ function _elevenRequest(text, voice, voiceId, key){
     }),
     signal: AbortSignal.timeout(20000),
   });
-}
-
-async function _elevenPlay(r, onend){
-  return _elevenPlayBlob(await r.blob(),onend);
 }
 
 async function _elevenPlayBlob(blob, onend){
