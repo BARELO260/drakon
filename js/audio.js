@@ -360,39 +360,276 @@ const CHAR_VOICE = {
   axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', name:'Domi', gender:'F', stability:0.30, style:0.70, speed:1.15 },
 };
 
-// Translate text to the target language using Groq, then speak it
-async function translateAndSpeak(cleanText){
-  if(!state.groqKey) return speak(cleanText); // no key — skip translate
+/* ═══════════════════════════════════════
+   SEGMENTACIÓN POR IDIOMA PARA LA VOZ DEL CHAT
 
-  const targetLang  = state.lang?.lang  || 'en-US';
-  const targetName  = state.lang?.name  || 'English'; // e.g. "Inglés"
-  const targetNative= state.lang?.native|| 'English'; // e.g. "English"
+   La IA (Groq) ya mezcla intencionalmente el idioma nativo del usuario y
+   el idioma que está aprendiendo dentro de una misma respuesta (para
+   explicar, traducir y dar ejemplos) — ESO no cambia aquí.
 
-  try{
-    const resp = await Promise.race([
-      fetch('https://api.groq.com/openai/v1/chat/completions',{
-        method:'POST',
-        headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body: JSON.stringify({
-          model: 'openai/gpt-oss-20b', // fast & cheap for translation
-          max_tokens: 400,
-          temperature: 0.1,
-          messages:[{
-            role:'user',
-            content:`Translate the following text to ${targetNative}. Return ONLY the translated text, no explanations, no quotes, no extra text.\n\n${cleanText}`
-          }]
-        })
-      }),
-      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),10000))
-    ]);
-    if(!resp.ok) throw new Error('translate_fail');
-    const data = await resp.json();
-    const translated = data?.choices?.[0]?.message?.content?.trim();
-    if(translated) return speak(translated, targetLang);
-  } catch(e){}
+   Lo que hacía mal el sistema de voz: `translateAndSpeak()` traducía TODA
+   la respuesta al idioma que se está aprendiendo antes de hablar (una
+   llamada aparte a Groq, distinta de la conversación), perdiendo esa
+   mezcla y leyendo todo con un único acento — por eso las palabras en el
+   idioma nativo sonaban pronunciadas "a la inglesa" (o al idioma que
+   corresponda).
 
-  // Fallback: speak original text with target voice anyway
-  speak(cleanText, targetLang);
+   Ahora, en su lugar: se detecta el idioma REAL de cada palabra del texto
+   tal cual lo escribió la IA (con listas de palabras frecuentes de cada
+   idioma — la misma técnica que usan los detectores de idioma para textos
+   cortos, sin depender de traducir nada), se agrupa en tramos consecutivos
+   por idioma, y cada tramo se reproduce con la pronunciación correcta —
+   manteniendo SIEMPRE la misma voz de personaje, para que suene como una
+   sola respuesta fluida y no como un cambio de voz.
+
+   Nota sobre ElevenLabs: el modelo `eleven_multilingual_v2` ya pronuncia
+   cada tramo automáticamente en el idioma correcto según el propio texto
+   (no existe ni hace falta un parámetro "language" en su API) — así que
+   la segmentación aquí sirve sobre todo para el fallback nativo del
+   navegador (Web Speech API), que si necesita un idioma explícito por
+   cada frase, y además evita mandarle a ElevenLabs un tramo demasiado
+   largo con code-switching interno, que es donde más falla.
+═══════════════════════════════════════ */
+
+// Palabras frecuentes por idioma (artículos, pronombres, verbos comunes,
+// preposiciones, números...) — suficientes para distinguir con buena
+// fiabilidad si una palabra pertenece al idioma que se está aprendiendo.
+// Solo hace falta cubrir los 6 idiomas que se pueden APRENDER (el nativo
+// se determina "por descarte": lo que no es claramente el idioma meta).
+const _TARGET_LANG_WORDS = {
+  EN: new Set(['the','a','an','is','are','was','were','be','been','being','have','has','had','do','does','did',
+    'will','would','can','could','should','must','may','might','shall','this','that','these','those',
+    'i','you','he','she','it','we','they','me','him','her','us','them','my','your','his','its','our','their',
+    'mine','yours','hers','ours','theirs','and','or','but','if','because','so','although','while','when',
+    'where','why','how','what','who','whom','which','whose','not','no','yes','very','too','also','just',
+    'only','still','already','again','always','never','sometimes','often','usually','here','there','now',
+    'then','today','tomorrow','yesterday','please','thank','thanks','sorry','hello','hi','hey','bye',
+    'goodbye','welcome','good','bad','big','small','new','old','first','last','next','some','any','all',
+    'many','much','more','most','less','few','little','one','two','three','four','five','six','seven',
+    'eight','nine','ten','in','on','at','to','from','with','without','about','of','for','by','up','down',
+    'out','into','over','under','between','through','try','repeat','word','words','mean','means','meaning',
+    'said','say','says','speak','listen','look','see','want','need','like','love','know','think','get','go',
+    'going','come','coming','take','make','give','tell','ask','answer','question','right','wrong','correct',
+    'great','well','okay','ok','sentence','example','practice','learn','learning',
+    // Vocabulario básico frecuente (para reconocer palabras sueltas de ejemplo, no solo
+    // palabras funcionales) — casa, comida, familia, tiempo, colores, adjetivos comunes...
+    'house','home','water','food','bread','meat','fish','chicken','rice','fruit','vegetable',
+    'apple','table','chair','door','window','bed','room','kitchen','bathroom','garden','street',
+    'road','city','country','world','mother','father','sister','brother','son','daughter','family',
+    'friend','teacher','student','doctor','work','job','money','name','number','color','red','blue',
+    'green','black','white','yellow','morning','afternoon','evening','night','breakfast','lunch',
+    'dinner','coffee','tea','milk','egg','cheese','sugar','salt','hungry','thirsty','tired','happy',
+    'sad','angry','afraid','tall','short','fast','slow','easy','hard','difficult','expensive','cheap',
+    'beautiful','pretty','ugly','clean','dirty','open','closed','near','far','left','right','front',
+    'back','inside','outside','weather','rain','sun','snow','wind','warm','cool','hot','cold','perfect',
+    'wonderful','amazing','excellent','nice','beautiful','wrong','true','false','possible','important',
+    'different','same','same','free','busy','ready','sure','together','alone','person','people','man',
+    'woman','child','children','baby','dog','cat','animal','bird','tree','flower','book','pen','pencil',
+    'phone','computer','car','bus','train','plane','airport','ticket','money','price','shop','store',
+    'market','restaurant','hotel','school','hospital','office','park','beach','mountain','river','sea',
+    'sky','moon','star','fire','ice','summer','winter','spring','autumn','fall']),
+  ES: new Set(['el','la','los','las','un','una','unos','unas','y','o','pero','si','porque','aunque','cuando',
+    'donde','como','que','cual','quien','quienes','cuyo','no','sí','muy','también','solo','sólo','todavía',
+    'ya','otro','otra','siempre','nunca','aquí','ahí','allí','ahora','entonces','hoy','mañana','ayer',
+    'favor','gracias','perdón','hola','adiós','bienvenido','bueno','malo','bien','mal','grande','pequeño',
+    'nuevo','viejo','primero','último','siguiente','algunos','alguna','todos','todas','muchos','mucho',
+    'mucha','más','menos','poco','pocas','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve',
+    'diez','en','sobre','a','hacia','desde','con','sin','entre','soy','eres','es','somos','son','era','fue',
+    'fueron','ser','estar','estoy','estás','está','estamos','están','tengo','tienes','tiene','tenemos',
+    'tienen','haber','hacer','hago','haces','hace','hacemos','hacen','puedo','puedes','puede','podemos',
+    'pueden','quiero','quieres','quiere','queremos','quieren','necesito','necesitas','necesita','significa',
+    'significar','decir','digo','dice','hablar','hablo','escuchar','mirar','ver','saber','sé','pensar','ir',
+    'voy','vamos','venir','vengo','tomar','dar','doy','preguntar','pregunta','respuesta','correcto',
+    'incorrecto','genial','vale','casa','palabra','palabras','repetir','intenta','frase','ejemplo',
+    'practica','aprender',
+    // Vocabulario básico frecuente
+    'hogar','agua','comida','pan','carne','pescado','pollo','arroz','fruta','verdura','manzana','mesa',
+    'silla','puerta','ventana','cama','cuarto','cocina','baño','jardín','calle','camino','ciudad','país',
+    'mundo','madre','padre','hermana','hermano','hijo','hija','familia','amigo','amiga','maestro',
+    'maestra','profesor','profesora','estudiante','médico','doctor','trabajo','dinero','nombre','número',
+    'color','rojo','azul','verde','negro','blanco','amarillo','mañana','tarde','noche','desayuno',
+    'almuerzo','cena','café','leche','huevo','queso','azúcar','sal','hambre','sed','cansado','feliz',
+    'triste','enojado','miedo','alto','alta','bajo','baja','rápido','lento','fácil','difícil','caro',
+    'barato','bonito','bonita','hermoso','feo','limpio','sucio','abierto','cerrado','cerca','lejos',
+    'izquierda','derecha','dentro','fuera','tiempo','lluvia','sol','nieve','viento','caliente','frío',
+    'perfecto','maravilloso','excelente','verdad','falso','posible','importante','diferente','mismo',
+    'libre','ocupado','listo','seguro','juntos','solo','persona','gente','hombre','mujer','niño','niña',
+    'bebé','perro','gato','animal','pájaro','árbol','flor','libro','lápiz','teléfono','computadora',
+    'coche','carro','autobús','tren','avión','aeropuerto','boleto','precio','tienda','mercado',
+    'restaurante','hotel','escuela','hospital','oficina','parque','playa','montaña','río','mar','cielo',
+    'luna','estrella','fuego','hielo','verano','invierno','primavera','otoño']),
+  FR: new Set(['le','la','les','un','une','des','et','ou','mais','si','parce','bien','quand','où','comment',
+    'que','qui','quoi','dont','ne','pas','non','oui','très','aussi','seulement','toujours','jamais',
+    'parfois','souvent','ici','là','maintenant','alors','aujourd\'hui','demain','hier','plaît','merci',
+    'pardon','bonjour','salut','revoir','bienvenue','bon','mauvais','bien','mal','grand','petit','nouveau',
+    'vieux','premier','dernier','suivant','quelques','tous','toutes','beaucoup','plus','moins','peu','un',
+    'deux','trois','quatre','cinq','six','sept','huit','neuf','dix','dans','sur','à','vers','depuis','avec',
+    'sans','entre','je','tu','il','elle','nous','vous','ils','elles','mon','ton','son','notre','votre',
+    'leur','suis','es','est','sommes','êtes','sont','être','avoir','ai','as','a','avons','avez','ont',
+    'faire','fais','fait','faisons','faites','font','peux','peut','pouvons','pouvez','peuvent','veux',
+    'veut','voulons','voulez','veulent','savoir','sais','sait','parler','parle','écouter','regarder','voir',
+    'penser','aller','vais','venir','viens','prendre','donner','demander','question','réponse','correct',
+    'incorrect','super','maison','mot','mots','répéter','essaie','phrase','exemple',
+    // Vocabulaire courant fréquent
+    'maison','eau','nourriture','pain','viande','poisson','poulet','riz','fruit','légume','pomme',
+    'table','chaise','porte','fenêtre','lit','chambre','cuisine','salle','jardin','rue','route','ville',
+    'pays','monde','mère','père','sœur','frère','fils','fille','famille','ami','amie','professeur',
+    'élève','médecin','travail','argent','nom','numéro','couleur','rouge','bleu','vert','noir','blanc',
+    'jaune','matin','après-midi','soir','nuit','petit-déjeuner','déjeuner','dîner','café','lait','œuf',
+    'fromage','sucre','sel','faim','soif','fatigué','heureux','triste','fâché','peur','grand','petit',
+    'rapide','lent','facile','difficile','cher','bon marché','beau','belle','laid','propre','sale',
+    'ouvert','fermé','près','loin','gauche','droite','dedans','dehors','temps','pluie','soleil','neige',
+    'vent','chaud','froid','parfait','merveilleux','excellent','vrai','faux','possible','important',
+    'différent','même','libre','occupé','prêt','sûr','ensemble','seul','personne','gens','homme','femme',
+    'enfant','bébé','chien','chat','animal','oiseau','arbre','fleur','livre','stylo','téléphone',
+    'ordinateur','voiture','bus','train','avion','aéroport','billet','prix','magasin','marché',
+    'restaurant','hôtel','école','hôpital','bureau','parc','plage','montagne','rivière','mer','ciel',
+    'lune','étoile','feu','glace','été','hiver','printemps','automne']),
+  DE: new Set(['der','die','das','ein','eine','und','oder','aber','wenn','weil','obwohl','wann','wo','wie',
+    'was','wer','welche','nicht','nein','ja','sehr','auch','nur','immer','nie','manchmal','oft','hier','da',
+    'jetzt','dann','heute','morgen','gestern','bitte','danke','entschuldigung','hallo','tschüss',
+    'willkommen','gut','schlecht','groß','klein','neu','alt','erste','letzte','nächste','einige','alle',
+    'viele','viel','mehr','weniger','wenig','eins','zwei','drei','vier','fünf','sechs','sieben','acht',
+    'neun','zehn','in','auf','zu','von','mit','ohne','zwischen','ich','du','er','sie','es','wir','ihr',
+    'mein','dein','sein','unser','euer','bin','bist','ist','sind','seid','haben','habe','hast','hat','habt',
+    'machen','mache','machst','macht','kann','kannst','können','könnt','will','willst','wollen','wollt',
+    'wissen','weiß','sprechen','spreche','hören','schauen','sehen','denken','gehen','gehe','kommen','komme',
+    'nehmen','geben','fragen','frage','antwort','richtig','falsch','super','haus','wort','wörter',
+    'wiederholen','versuch','satz','beispiel',
+    // Häufiger Grundwortschatz
+    'zuhause','wasser','essen','brot','fleisch','fisch','huhn','reis','obst','gemüse','apfel','tisch',
+    'stuhl','tür','fenster','bett','zimmer','küche','bad','garten','straße','stadt','land','welt',
+    'mutter','vater','schwester','bruder','sohn','tochter','familie','freund','freundin','lehrer',
+    'lehrerin','schüler','arzt','arbeit','geld','name','nummer','farbe','rot','blau','grün','schwarz',
+    'weiß','gelb','morgen','nachmittag','abend','nacht','frühstück','mittagessen','abendessen','kaffee',
+    'milch','ei','käse','zucker','salz','hunger','durst','müde','glücklich','traurig','wütend','angst',
+    'groß','klein','schnell','langsam','einfach','schwierig','teuer','billig','schön','hässlich','sauber',
+    'schmutzig','offen','geschlossen','nah','weit','links','rechts','drinnen','draußen','zeit','regen',
+    'sonne','schnee','wind','warm','kalt','perfekt','wunderbar','ausgezeichnet','wahr','falsch',
+    'möglich','wichtig','anders','gleich','frei','beschäftigt','bereit','sicher','zusammen','allein',
+    'person','leute','mann','frau','kind','baby','hund','katze','tier','vogel','baum','blume','buch',
+    'stift','telefon','computer','auto','bus','zug','flugzeug','flughafen','ticket','preis','geschäft',
+    'markt','restaurant','hotel','schule','krankenhaus','büro','park','strand','berg','fluss','meer',
+    'himmel','mond','stern','feuer','eis','sommer','winter','frühling','herbst']),
+  IT: new Set(['il','lo','la','i','gli','le','un','uno','una','e','o','ma','se','perché','sebbene','quando',
+    'dove','come','che','chi','cosa','quale','non','no','sì','molto','anche','solo','sempre','mai','spesso',
+    'qui','qua','lì','adesso','ora','allora','oggi','domani','ieri','favore','grazie','scusa','ciao',
+    'salve','arrivederci','benvenuto','buono','cattivo','bene','male','grande','piccolo','nuovo','vecchio',
+    'primo','ultimo','prossimo','alcuni','tutti','tutte','molti','molte','più','meno','poco','poche','uno',
+    'due','tre','quattro','cinque','sei','sette','otto','nove','dieci','in','su','a','verso','da','con',
+    'senza','tra','fra','io','tu','lui','lei','noi','voi','loro','mio','tuo','suo','nostro','vostro','sono',
+    'sei','è','siamo','siete','essere','avere','ho','hai','ha','abbiamo','avete','hanno','fare','faccio',
+    'fai','fa','facciamo','fate','fanno','posso','puoi','può','possiamo','potete','possono','voglio','vuoi',
+    'vuole','vogliamo','volete','vogliono','sapere','so','sai','parlare','parlo','ascoltare','guardare',
+    'vedere','pensare','andare','vado','venire','vengo','prendere','dare','chiedere','domanda','risposta',
+    'corretto','sbagliato','ottimo','casa','parola','parole','ripetere','prova','frase','esempio',
+    // Vocabolario di base frequente
+    'acqua','cibo','pane','carne','pesce','pollo','riso','frutta','verdura','mela','tavolo','sedia',
+    'porta','finestra','letto','stanza','cucina','bagno','giardino','strada','città','paese','mondo',
+    'madre','padre','sorella','fratello','figlio','figlia','famiglia','amico','amica','insegnante',
+    'studente','medico','lavoro','soldi','nome','numero','colore','rosso','blu','verde','nero','bianco',
+    'giallo','mattina','pomeriggio','sera','notte','colazione','pranzo','cena','caffè','latte','uovo',
+    'formaggio','zucchero','sale','fame','sete','stanco','felice','triste','arrabbiato','paura','alto',
+    'basso','veloce','lento','facile','difficile','caro','economico','bello','bella','brutto','pulito',
+    'sporco','aperto','chiuso','vicino','lontano','sinistra','destra','dentro','fuori','tempo','pioggia',
+    'sole','neve','vento','caldo','freddo','perfetto','meraviglioso','eccellente','vero','falso',
+    'possibile','importante','diverso','stesso','libero','occupato','pronto','sicuro','insieme','solo',
+    'persona','gente','uomo','donna','bambino','bambina','cane','gatto','animale','uccello','albero',
+    'fiore','libro','penna','telefono','computer','macchina','autobus','treno','aereo','aeroporto',
+    'biglietto','prezzo','negozio','mercato','ristorante','albergo','scuola','ospedale','ufficio',
+    'parco','spiaggia','montagna','fiume','mare','cielo','luna','stella','fuoco','ghiaccio','estate',
+    'inverno','primavera','autunno']),
+  PT: new Set(['o','a','os','as','um','uma','uns','umas','e','ou','mas','se','porque','embora','quando',
+    'onde','como','que','quem','qual','não','sim','muito','também','só','sempre','nunca','aqui','ali','lá',
+    'agora','então','hoje','amanhã','ontem','favor','obrigado','obrigada','desculpa','olá','oi','tchau',
+    'bem-vindo','bom','mau','bem','mal','grande','pequeno','novo','velho','primeiro','último','próximo',
+    'alguns','todos','todas','muitos','muitas','mais','menos','pouco','poucas','um','dois','três','quatro',
+    'cinco','seis','sete','oito','nove','dez','em','sobre','para','de','com','sem','entre','eu','tu','você',
+    'ele','ela','nós','vocês','eles','elas','meu','teu','seu','nosso','sou','és','é','somos','são','ser',
+    'estar','estou','está','estamos','estão','tenho','tem','temos','têm','ter','fazer','faço','faz',
+    'fazemos','fazem','posso','pode','podemos','podem','quero','quer','queremos','querem','saber','sei',
+    'sabe','falar','falo','ouvir','olhar','ver','pensar','ir','vou','vamos','vir','venho','pegar','dar',
+    'perguntar','pergunta','resposta','correto','errado','ótimo','casa','palavra','palavras','repetir',
+    'tenta','frase','exemplo',
+    // Vocabulário básico frequente
+    'água','comida','pão','carne','peixe','frango','arroz','fruta','verdura','maçã','mesa','cadeira',
+    'porta','janela','cama','quarto','cozinha','banheiro','jardim','rua','cidade','país','mundo','mãe',
+    'pai','irmã','irmão','filho','filha','família','amigo','amiga','professor','professora','aluno',
+    'médico','trabalho','dinheiro','nome','número','cor','vermelho','azul','verde','preto','branco',
+    'amarelo','manhã','tarde','noite','café da manhã','almoço','jantar','café','leite','ovo','queijo',
+    'açúcar','sal','fome','sede','cansado','feliz','triste','bravo','medo','alto','baixo','rápido',
+    'lento','fácil','difícil','caro','barato','bonito','bonita','feio','limpo','sujo','aberto',
+    'fechado','perto','longe','esquerda','direita','dentro','fora','tempo','chuva','sol','neve','vento',
+    'quente','frio','perfeito','maravilhoso','excelente','verdade','falso','possível','importante',
+    'diferente','mesmo','livre','ocupado','pronto','seguro','juntos','sozinho','pessoa','gente','homem',
+    'mulher','criança','bebê','cachorro','gato','animal','pássaro','árvore','flor','livro','caneta',
+    'telefone','computador','carro','ônibus','trem','avião','aeroporto','passagem','preço','loja',
+    'mercado','restaurante','hotel','escola','hospital','escritório','parque','praia','montanha','rio',
+    'mar','céu','lua','estrela','fogo','gelo','verão','inverno','primavera','outono']),
+};
+
+// BCP-47 para el idioma NATIVO del usuario (no solo los 6 que se pueden
+// aprender — el nativo puede ser cualquiera de los de NATIVE_LANGS) — se
+// usa como idioma del fallback nativo del navegador para los tramos que
+// NO son el idioma que se está aprendiendo.
+const _NATIVE_BCP47 = {
+  es:'es-ES', en:'en-US', pt:'pt-BR', fr:'fr-FR', de:'de-DE', it:'it-IT',
+  ar:'ar-SA', tr:'tr-TR', nl:'nl-NL', pl:'pl-PL',
+};
+
+// Divide un texto (ya mezclado por la IA) en tramos consecutivos por
+// idioma: [{text, lang:'target'|'native'}]. Puntuación, espacios y
+// números se pegan al tramo donde aparecen (no cortan la voz en cada
+// coma). Por defecto una palabra se considera del idioma NATIVO salvo que
+// aparezca claramente en la lista de palabras frecuentes del idioma que
+// se está aprendiendo — así funciona sin importar cuál sea el nativo.
+function segmentMixedLanguageText(text, targetCode){
+  const targetSet = _TARGET_LANG_WORDS[targetCode] || _TARGET_LANG_WORDS.EN;
+  const tokens = text.match(/[A-Za-zÀ-ÖØ-öø-ÿ']+|[^A-Za-zÀ-ÖØ-öø-ÿ']+/g) || [text];
+  const segments = [];
+  let current = null;
+
+  for(const tok of tokens){
+    const isWord = /[A-Za-zÀ-ÖØ-öø-ÿ]/.test(tok);
+    if(!isWord){
+      if(current) current.text += tok;
+      else current = {text:tok, lang:'native'};
+      continue;
+    }
+    const lang = targetSet.has(tok.toLowerCase()) ? 'target' : 'native';
+    if(current && current.lang === lang) current.text += tok;
+    else { if(current) segments.push(current); current = {text:tok, lang}; }
+  }
+  if(current) segments.push(current);
+
+  return segments.filter(s => s.text.trim().length > 0);
+}
+
+// Reproduce los tramos EN ORDEN, uno detrás de otro (mismo personaje,
+// pronunciación distinta según el idioma real de cada tramo), para que
+// suene como una sola respuesta fluida. `token` identifica esta secuencia
+// concreta: si se llama a stopTTS() mientras tanto (el usuario navega,
+// para la voz, etc.), el token deja de coincidir y la cadena se corta en
+// vez de seguir hablando el siguiente tramo por su cuenta.
+let _activeSpeechToken = 0;
+function _speakSegmentsSequentially(segments, cv, charId, i, token){
+  if(token !== _activeSpeechToken) return;
+  if(i >= segments.length) return;
+  const seg = segments[i];
+  const bcp47 = seg.lang === 'target'
+    ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
+    : (_NATIVE_BCP47[state.nativeLang] || 'es-ES');
+  ttsSpeakChar(seg.text, cv, bcp47, () => _speakSegmentsSequentially(segments, cv, charId, i+1, token), charId);
+}
+
+function speakMixedLanguageText(cleanText){
+  const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
+  const charId = state.charId || 'dragon';
+  const targetCode = (state.lang?.code || 'EN').toUpperCase();
+  const segments = segmentMixedLanguageText(cleanText, targetCode);
+  if(!segments.length) return;
+  const token = ++_activeSpeechToken;
+  _speakSegmentsSequentially(segments, cv, charId, 0, token);
 }
 
 function speak(text, langCode){
@@ -431,8 +668,12 @@ async function speakText(rawText){
     .trim();
   if(!text) return;
 
-  // Translate to target language then speak with target voice
-  await translateAndSpeak(text);
+  // Antes: se traducía TODA la respuesta al idioma meta y se leía entera
+  // con un único acento (perdiendo la mezcla intencional de idiomas que ya
+  // hace la IA). Ahora se detecta el idioma real de cada tramo del texto
+  // y cada uno se reproduce con su pronunciación correcta — ver
+  // segmentMixedLanguageText() más arriba.
+  speakMixedLanguageText(text);
 }
 
 function stopTTS(){
