@@ -78,6 +78,33 @@ function _warnElevenFailure(detail){
   }
 }
 
+/* ── Interruptor de emergencia (circuit breaker) ──────────────────────
+   Antes, cuando la clave de ElevenLabs era inválida o no tenía cuota,
+   CADA tramo de CADA respuesta volvía a intentar la petición completa
+   (incluyendo, en el caso de un 404, una segunda vuelta pidiendo la lista
+   de voces de la cuenta y reintentando) antes de caer al navegador — eso
+   es lo que hacía que la voz se sintiera "lentísima": el mismo fallo se
+   repetía una y otra vez, tramo tras tramo, mensaje tras mensaje.
+   Ahora, en cuanto UNA petición falla de verdad, se recuerda que
+   ElevenLabs no está disponible durante un tiempo (2 minutos) y todos los
+   tramos siguientes van DIRECTO al fallback nativo, sin esperar ni un
+   solo milisegundo de red extra. Si el usuario cambia su clave (p.ej.
+   corrige un typo en Ajustes), el interruptor se resetea al instante. */
+const ELEVEN_COOLDOWN_MS = 120000; // 2 minutos
+let _elevenBrokenKey   = null;
+let _elevenBrokenUntil = 0;
+
+function _elevenIsBroken(){
+  const key = getElevenKey();
+  if(!key) return false;                      // sin key: no es "roto", es el estado normal sin ElevenLabs
+  if(key !== _elevenBrokenKey) return false;   // la clave cambió desde el último fallo → reintentar
+  return Date.now() < _elevenBrokenUntil;
+}
+function _markElevenBroken(){
+  _elevenBrokenKey   = getElevenKey();
+  _elevenBrokenUntil = Date.now() + ELEVEN_COOLDOWN_MS;
+}
+
 /* ── Resolución dinámica de voces contra la cuenta real del usuario ────
    Los voiceId de arriba son voces "premade" clásicas de ElevenLabs, pero
    ElevenLabs ha ido deprecando/retirando varias de ellas y no todas las
@@ -164,10 +191,12 @@ async function _elevenFetchBlob(text, voice, charKey){
       const r2 = await _elevenRequest(text, voice, r2id, getElevenKey());
       if(r2.ok) return await r2.blob();
       await _reportFailure(r2, r2id);
+      _markElevenBroken();
       return null;
     }
   }
   await _reportFailure(r, voiceId);
+  _markElevenBroken();
   return null;
 }
 
@@ -182,12 +211,14 @@ async function _elevenSpeak(text, voice, onend, charKey){
   }
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
+  if(_elevenIsBroken()) return false; // ya sabemos que está caído — directo al fallback, sin red
   try{
     const blob = await _elevenFetchBlob(text, voice, charKey);
     if(!blob) return false;
     return _elevenPlayBlob(blob, onend);
   } catch(e){
     _warnElevenFailure(e && e.message ? e.message : e);
+    _markElevenBroken();
     return false;
   }
 }
@@ -197,16 +228,22 @@ async function _elevenSpeak(text, voice, onend, charKey){
 // js/audio.js) y luego reproducirlos uno tras otro sin la pausa de red
 // entre cada uno, que es lo que hacía que la voz se sintiera entrecortada
 // cuando una respuesta mezclaba varios idiomas. Devuelve un Blob, o null
-// si no hay key configurada o la petición falla (el llamador debe usar el
-// fallback nativo para ESE tramo en concreto, sin afectar a los demás).
+// si no hay key configurada, ElevenLabs está en cooldown por un fallo
+// reciente, o la petición falla (el llamador debe usar el fallback nativo
+// para ESE tramo en concreto, sin afectar a los demás).
 async function ttsFetchAudioBlob(text, voice, charKey){
   if(typeof hasManagedAi==='function' && hasManagedAi()){
     try{ return await managedTTS(text, charKey||'narrator'); }
     catch(e){ if(!getElevenKey()) return null; }
   }
   if(!getElevenKey() || !text) return null;
-  try{ return await _elevenFetchBlob(text, voice, charKey); }
-  catch(e){ return null; }
+  if(_elevenIsBroken()) return null; // circuito abierto: ni lo intentamos, directo al fallback
+  try{
+    const blob = await _elevenFetchBlob(text, voice, charKey);
+    if(!blob) return null;
+    return blob;
+  }
+  catch(e){ _markElevenBroken(); return null; }
 }
 
 function _elevenRequest(text, voice, voiceId, key){
@@ -228,7 +265,7 @@ function _elevenRequest(text, voice, voiceId, key){
         speed: voice.speed,
       },
     }),
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(8000), // antes 20s: fallaba demasiado lento cuando ElevenLabs no respondía
   });
 }
 
