@@ -642,12 +642,20 @@ async function speakMixedLanguageText(cleanText){
     const blob = await prefetches[i]; // ya debería estar lista (o casi) gracias al paralelismo de arriba
     if(token !== _activeSpeechToken) return;
 
+    // Red de seguridad: pase lo que pase reproduciendo este tramo (incluso
+    // un fallo inesperado no previsto abajo), esta promesa SIEMPRE se
+    // resuelve — nunca deja colgada la secuencia completa esperando un
+    // "fin de audio" que no llegue.
     await new Promise(resolve => {
-      if(blob && typeof _elevenPlayBlob === 'function'){
-        _elevenPlayBlob(blob, resolve);
-      } else {
-        _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, resolve);
-      }
+      let settled = false;
+      const done = () => { if(settled) return; settled = true; resolve(); };
+      try{
+        if(blob && typeof _elevenPlayBlob === 'function'){
+          _elevenPlayBlob(blob, done).catch(done);
+        } else {
+          _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, done);
+        }
+      } catch(e){ done(); }
     });
   }
 }
