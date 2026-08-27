@@ -583,6 +583,16 @@ const _NATIVE_BCP47 = {
 // coma). Por defecto una palabra se considera del idioma NATIVO salvo que
 // aparezca claramente en la lista de palabras frecuentes del idioma que
 // se está aprendiendo — así funciona sin importar cuál sea el nativo.
+//
+// LÍMITE DE TRAMOS: cada tramo es una petición de voz independiente, y
+// demasiadas peticiones seguidas por un solo mensaje es justo lo que
+// sobrecargaba el dispositivo (mucha red, mucha memoria de audio en
+// vuelo a la vez). Como máximo se generan MAX_SEGMENTS tramos: si el
+// texto cambia de idioma más veces que eso, se fusionan los cortes menos
+// importantes (los tramos más cortos) con su vecino, priorizando mantener
+// separadas las partes más largas/significativas de cada idioma.
+const MAX_TTS_SEGMENTS = 3;
+
 function segmentMixedLanguageText(text, targetCode){
   const targetSet = _TARGET_LANG_WORDS[targetCode] || _TARGET_LANG_WORDS.EN;
   const tokens = text.match(/[A-Za-zÀ-ÖØ-öø-ÿ']+|[^A-Za-zÀ-ÖØ-öø-ÿ']+/g) || [text];
@@ -602,18 +612,36 @@ function segmentMixedLanguageText(text, targetCode){
   }
   if(current) segments.push(current);
 
-  return segments.filter(s => s.text.trim().length > 0);
+  const clean = segments.filter(s => s.text.trim().length > 0);
+
+  // Fusiona el tramo más corto con un vecino hasta quedarnos dentro del
+  // límite — así una frase con muchos cambios cortos de idioma sigue
+  // siendo, como mucho, MAX_TTS_SEGMENTS peticiones de voz.
+  while(clean.length > MAX_TTS_SEGMENTS){
+    let shortestIdx = 0;
+    for(let i=1;i<clean.length;i++){ if(clean[i].text.length < clean[shortestIdx].text.length) shortestIdx = i; }
+    const mergeWithNext = shortestIdx < clean.length-1 &&
+      (shortestIdx===0 || clean[shortestIdx+1].text.length >= clean[shortestIdx-1].text.length);
+    if(mergeWithNext){
+      clean[shortestIdx+1].text = clean[shortestIdx].text + clean[shortestIdx+1].text;
+      clean[shortestIdx+1].lang = clean[shortestIdx+1].lang; // se queda con el idioma del vecino más largo
+      clean.splice(shortestIdx,1);
+    } else {
+      clean[shortestIdx-1].text += clean[shortestIdx].text;
+      clean.splice(shortestIdx,1);
+    }
+  }
+
+  return clean;
 }
 
-// Reproduce los tramos EN ORDEN (mismo personaje, pronunciación distinta
-// según el idioma real de cada tramo). La CLAVE para que suene fluida y no
-// entrecortada: el audio de TODOS los tramos se pide en PARALELO desde el
-// principio (Promise.all de peticiones simultáneas a ElevenLabs) en vez de
-// pedir un tramo, esperar su respuesta de red, reproducirlo, y solo
-// ENTONCES pedir el siguiente — eso es lo que causaba las pausas largas
-// entre tramo y tramo. Reproducir sigue siendo estrictamente secuencial
-// (nunca se solapan dos audios), pero como ya está todo precargado, el
-// siguiente tramo normalmente ya está listo en cuanto termina el anterior.
+// Reproduce los tramos EN ORDEN, de forma estrictamente SECUENCIAL y
+// simple: pide el audio de un tramo, lo reproduce, espera a que termine,
+// y SOLO ENTONCES pasa al siguiente. Nada de precargas paralelas ni colas
+// de peticiones simultáneas — eso añadía complejidad y consumo de red/
+// memoria innecesarios que sobrecargaban dispositivos más modestos. Como
+// además el texto ahora se limita a MAX_TTS_SEGMENTS tramos como mucho,
+// la pausa entre tramos es corta y el proceso completo es ligero.
 // `token` identifica esta secuencia: si se llama a stopTTS() mientras
 // tanto, deja de coincidir y la reproducción se corta ahí mismo.
 let _activeSpeechToken = 0;
@@ -630,16 +658,13 @@ async function speakMixedLanguageText(cleanText){
     ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
     : (_NATIVE_BCP47[state.nativeLang] || 'es-ES');
 
-  // Dispara TODAS las peticiones de audio a la vez (no una por una).
-  const prefetches = segments.map(seg =>
-    (typeof ttsFetchAudioBlob === 'function' ? ttsFetchAudioBlob(seg.text, cv, charId) : Promise.resolve(null))
-      .catch(() => null)
-  );
-
   for(let i = 0; i < segments.length; i++){
     if(token !== _activeSpeechToken) return; // se paró/canceló mientras tanto
-    const seg  = segments[i];
-    const blob = await prefetches[i]; // ya debería estar lista (o casi) gracias al paralelismo de arriba
+    const seg = segments[i];
+
+    const blob = typeof ttsFetchAudioBlob === 'function'
+      ? await ttsFetchAudioBlob(seg.text, cv, charId).catch(() => null)
+      : null;
     if(token !== _activeSpeechToken) return;
 
     // Red de seguridad: pase lo que pase reproduciendo este tramo (incluso
