@@ -215,7 +215,11 @@ async function _elevenSpeak(text, voice, onend, charKey){
   try{
     const blob = await _elevenFetchBlob(text, voice, charKey);
     if(!blob) return false;
-    return _elevenPlayBlob(blob, onend);
+    // OJO: "return await", no "return" a secas — si _elevenPlayBlob
+    // rechazara (ya no debería, ver su propio try/catch), un "return"
+    // sin await haría que ESTE catch nunca lo viera (el try ya habría
+    // terminado), dejando la promesa resultante rechazada sin manejar.
+    return await _elevenPlayBlob(blob, onend);
   } catch(e){
     _warnElevenFailure(e && e.message ? e.message : e);
     _markElevenBroken();
@@ -274,11 +278,24 @@ async function _elevenPlayBlob(blob, onend){
   if(_ttsAudioEl){ try{ _ttsAudioEl.pause(); }catch(e){} }
   const audioEl = new Audio(url);
   _ttsAudioEl = audioEl;
-  const cleanup = () => { URL.revokeObjectURL(url); if(onend) onend(); };
+  let done = false;
+  const cleanup = () => { if(done) return; done = true; URL.revokeObjectURL(url); if(onend) onend(); };
   audioEl.onended = cleanup;
   audioEl.onerror  = cleanup;
-  await audioEl.play();
-  return true;
+  try{
+    await audioEl.play();
+    return true;
+  } catch(e){
+    // audioEl.play() puede RECHAZAR (política de autoplay del navegador,
+    // códec no soportado, etc.) — antes esto se perdía como una promesa
+    // rechazada sin manejar y dejaba colgada la secuencia de voz entera
+    // (el `onend`/`resolve` de quien llamó nunca se ejecutaba). Ahora
+    // SIEMPRE se limpia y se avisa, para que quien llamó pueda seguir
+    // (probar el fallback nativo, o continuar con el siguiente tramo).
+    _warnElevenFailure('audioEl.play() rechazado: ' + (e && e.message ? e.message : e));
+    cleanup();
+    return false;
+  }
 }
 
 async function _reportFailure(r, voiceId){
@@ -295,20 +312,34 @@ async function _reportFailure(r, voiceId){
 /* ── Fallback: síntesis nativa del navegador (Web Speech API) ────────── */
 function _webSpeechSpeak(text, langTag, rate, pitch, onend){
   if(!('speechSynthesis' in window)){ if(onend) onend(); return false; }
-  window.speechSynthesis.cancel();
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang   = langTag || 'en-US';
-  utt.rate   = rate  || 0.95;
-  utt.pitch  = pitch !== undefined ? pitch : 1;
-  const voices = window.speechSynthesis.getVoices();
-  const prefix = (langTag||'en-US').split('-')[0];
-  const voice  = voices.find(v=>v.lang===langTag && !v.localService)
-              || voices.find(v=>v.lang.startsWith(prefix) && !v.localService)
-              || voices.find(v=>v.lang.startsWith(prefix));
-  if(voice) utt.voice = voice;
-  utt.onend = utt.onerror = () => { if(onend) onend(); };
-  window.speechSynthesis.speak(utt);
-  return true;
+  let done = false;
+  const finish = () => { if(done) return; done = true; if(onend) onend(); };
+  try{
+    window.speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(text);
+    utt.lang   = langTag || 'en-US';
+    utt.rate   = rate  || 0.95;
+    utt.pitch  = pitch !== undefined ? pitch : 1;
+    const voices = window.speechSynthesis.getVoices();
+    const prefix = (langTag||'en-US').split('-')[0];
+    const voice  = voices.find(v=>v.lang===langTag && !v.localService)
+                || voices.find(v=>v.lang.startsWith(prefix) && !v.localService)
+                || voices.find(v=>v.lang.startsWith(prefix));
+    if(voice) utt.voice = voice;
+    utt.onend = utt.onerror = finish;
+    window.speechSynthesis.speak(utt);
+    // Red de seguridad: en algunos navegadores/WebViews, speechSynthesis
+    // puede quedarse "atascado" sin disparar onend/onerror nunca (bug
+    // conocido, sobre todo tras cambiar de pestaña). Sin esto, una
+    // secuencia de voz con varios tramos podía colgarse para siempre
+    // esperando un evento que no llega.
+    const estMs = Math.min(15000, Math.max(2500, text.length*90));
+    setTimeout(finish, estMs);
+    return true;
+  } catch(e){
+    finish();
+    return false;
+  }
 }
 
 /* ── API pública: hablar con la voz de un personaje ────────────────────
