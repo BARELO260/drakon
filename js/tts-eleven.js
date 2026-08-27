@@ -90,7 +90,7 @@ function _warnElevenFailure(detail){
    tramos siguientes van DIRECTO al fallback nativo, sin esperar ni un
    solo milisegundo de red extra. Si el usuario cambia su clave (p.ej.
    corrige un typo en Ajustes), el interruptor se resetea al instante. */
-const ELEVEN_COOLDOWN_MS = 120000; // 2 minutos
+const ELEVEN_COOLDOWN_MS = 60000; // 1 minuto: tras un fallo, no se reintenta ElevenLabs hasta pasado este tiempo (evita seguir insistiendo con red)
 let _elevenBrokenKey   = null;
 let _elevenBrokenUntil = 0;
 
@@ -202,7 +202,7 @@ async function _elevenFetchBlob(text, voice, charKey){
 
 async function _elevenSpeak(text, voice, onend, charKey){
   if(typeof hasManagedAi==='function' && hasManagedAi()){
-    try{ return _elevenPlayBlob(await managedTTS(text,charKey||'narrator'),onend); }
+    try{ return await _elevenPlayBlob(await managedTTS(text,charKey||'narrator'),onend); }
     catch(e){
       _warnElevenFailure('managed voice service unavailable');
       if(!getElevenKey()) return false;
