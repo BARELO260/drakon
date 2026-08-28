@@ -78,6 +78,24 @@ function _warnElevenFailure(detail){
   }
 }
 
+/* ── Cola global de peticiones a ElevenLabs ────────────────────────────
+   Varias partes de la app pueden pedir voz casi al mismo tiempo sin
+   saber unas de otras (el chat, la mascota reaccionando, un ejercicio de
+   "Escuchar", la videollamada...). Si dos de esas peticiones coinciden,
+   pueden chocar con el límite de peticiones simultáneas de la cuenta de
+   ElevenLabs (el plan gratuito solo permite muy pocas a la vez) — eso
+   hacía que la voz "empezara bien y luego se trabara": la primera
+   petición iba bien, la segunda (que coincidía con otra en curso en
+   cualquier parte de la app) fallaba. Esta cola asegura que NUNCA haya
+   más de una petición a ElevenLabs en vuelo a la vez en TODA la app. */
+let _elevenQueue = Promise.resolve();
+function _elevenEnqueue(task){
+  const run = () => task();
+  const result = _elevenQueue.then(run, run);
+  _elevenQueue = result.then(() => {}, () => {}); // la cola sigue aunque una tarea falle
+  return result;
+}
+
 /* ── Interruptor de emergencia (circuit breaker) ──────────────────────
    Antes, cuando la clave de ElevenLabs era inválida o no tenía cuota,
    CADA tramo de CADA respuesta volvía a intentar la petición completa
@@ -178,26 +196,28 @@ async function _resolveVoiceId(charKey, voice, forceRefresh){
 }
 
 async function _elevenFetchBlob(text, voice, charKey){
-  const resolveKey = charKey || voice.name || voice.voiceId;
-  const voiceId = await _resolveVoiceId(resolveKey, voice);
-  let r = await _elevenRequest(text, voice, voiceId, getElevenKey());
-  if(r.ok) return await r.blob();
+  return _elevenEnqueue(async () => {
+    const resolveKey = charKey || voice.name || voice.voiceId;
+    const voiceId = await _resolveVoiceId(resolveKey, voice);
+    let r = await _elevenRequest(text, voice, voiceId, getElevenKey());
+    if(r.ok) return await r.blob();
 
-  // Si da 404, la voz asignada tampoco existe (o cambió) — invalidamos la
-  // caché y forzamos una re-resolución fresca antes de rendirnos.
-  if(r.status === 404){
-    const r2id = await _resolveVoiceId(resolveKey, voice, true);
-    if(r2id !== voiceId){
-      const r2 = await _elevenRequest(text, voice, r2id, getElevenKey());
-      if(r2.ok) return await r2.blob();
-      await _reportFailure(r2, r2id);
-      _markElevenBroken();
-      return null;
+    // Si da 404, la voz asignada tampoco existe (o cambió) — invalidamos la
+    // caché y forzamos una re-resolución fresca antes de rendirnos.
+    if(r.status === 404){
+      const r2id = await _resolveVoiceId(resolveKey, voice, true);
+      if(r2id !== voiceId){
+        const r2 = await _elevenRequest(text, voice, r2id, getElevenKey());
+        if(r2.ok) return await r2.blob();
+        await _reportFailure(r2, r2id);
+        _markElevenBroken();
+        return null;
+      }
     }
-  }
-  await _reportFailure(r, voiceId);
-  _markElevenBroken();
-  return null;
+    await _reportFailure(r, voiceId);
+    _markElevenBroken();
+    return null;
+  });
 }
 
 async function _elevenSpeak(text, voice, onend, charKey){
@@ -269,7 +289,7 @@ function _elevenRequest(text, voice, voiceId, key){
         speed: voice.speed,
       },
     }),
-    signal: AbortSignal.timeout(8000), // antes 20s: fallaba demasiado lento cuando ElevenLabs no respondía
+    signal: AbortSignal.timeout(5000), // corto a propósito: mejor caer rápido al navegador que dejar un silencio largo
   });
 }
 
