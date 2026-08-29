@@ -69,14 +69,16 @@ function getElevenKey(){
    (o falla a mitad de reproducción, para no dejar la UI colgada). */
 // Evita spamear al usuario: solo un aviso de fallo por sesión de página.
 let _elevenWarnedThisSession = false;
-function _warnElevenFailure(detail, isPermission){
+function _warnElevenFailure(detail, kind){
   console.error('[Drakón][ElevenLabs] Falló la síntesis de voz, usando fallback nativo:', detail);
   if(_elevenWarnedThisSession) return;
   _elevenWarnedThisSession = true;
   if(typeof showToast === 'function'){
-    showToast(isPermission
-      ? '⚠️ Tu clave de ElevenLabs no tiene activado el permiso "Text to Speech". Ve a Ajustes → edítala en elevenlabs.io y actívalo.'
-      : '⚠️ La voz de ElevenLabs falló (revisa tu API key/cuota/voice_id). Usando voz del navegador.');
+    const messages = {
+      permission: '⚠️ Tu clave de ElevenLabs no tiene activado el permiso "Text to Speech". Ve a Ajustes → edítala en elevenlabs.io y actívalo.',
+      quota:      '⚠️ Se agotó la cuota gratuita de ElevenLabs de este mes. La voz seguirá funcionando con el navegador mientras tanto.',
+    };
+    showToast(messages[kind] || '⚠️ La voz de ElevenLabs falló (revisa tu API key/cuota/voice_id). Usando voz del navegador.');
   }
 }
 
@@ -99,18 +101,22 @@ function _elevenEnqueue(task){
 }
 
 /* ── Interruptor de emergencia (circuit breaker) ──────────────────────
-   Antes, cuando la clave de ElevenLabs era inválida o no tenía cuota,
-   CADA tramo de CADA respuesta volvía a intentar la petición completa
-   (incluyendo, en el caso de un 404, una segunda vuelta pidiendo la lista
-   de voces de la cuenta y reintentando) antes de caer al navegador — eso
-   es lo que hacía que la voz se sintiera "lentísima": el mismo fallo se
-   repetía una y otra vez, tramo tras tramo, mensaje tras mensaje.
-   Ahora, en cuanto UNA petición falla de verdad, se recuerda que
-   ElevenLabs no está disponible durante un tiempo (2 minutos) y todos los
-   tramos siguientes van DIRECTO al fallback nativo, sin esperar ni un
-   solo milisegundo de red extra. Si el usuario cambia su clave (p.ej.
-   corrige un typo en Ajustes), el interruptor se resetea al instante. */
-const ELEVEN_COOLDOWN_MS = 60000; // 1 minuto: tras un fallo, no se reintenta ElevenLabs hasta pasado este tiempo (evita seguir insistiendo con red)
+   Antes (cuando cada respuesta se partía en varios tramos y cada uno era
+   su propia petición) esto evitaba repetir el mismo fallo tramo tras
+   tramo. Ahora cada mensaje es UNA sola petición, así que ese problema ya
+   no existe — pero seguía habiendo un fallo real: un solo tropiezo pasajero
+   (p.ej. un límite de peticiones por minuto, que se libera solo en
+   segundos) dejaba la voz en "modo navegador" durante un minuto entero,
+   sintiéndose como "se usa un par de veces y luego deja de funcionar".
+   Ahora el tiempo de espera depende de POR QUÉ falló:
+   - 401/403 (clave inválida o sin permiso): esto no se arregla solo,
+     así que esperamos más antes de volver a intentarlo.
+   - 429 (límite de peticiones): es pasajero, se libera en segundos.
+   - cualquier otro fallo (red, 500, timeout...): probablemente pasajero,
+     tiempo de espera corto también.
+   Si el usuario cambia su clave, el interruptor se resetea al instante. */
+const ELEVEN_COOLDOWN_AUTH_MS = 60000; // clave inválida / sin permiso — no se va a arreglar solo
+const ELEVEN_COOLDOWN_SOFT_MS = 6000;  // límite de peticiones / fallo de red — casi siempre pasajero
 let _elevenBrokenKey   = null;
 let _elevenBrokenUntil = 0;
 
@@ -120,9 +126,10 @@ function _elevenIsBroken(){
   if(key !== _elevenBrokenKey) return false;   // la clave cambió desde el último fallo → reintentar
   return Date.now() < _elevenBrokenUntil;
 }
-function _markElevenBroken(){
+function _markElevenBroken(status){
   _elevenBrokenKey   = getElevenKey();
-  _elevenBrokenUntil = Date.now() + ELEVEN_COOLDOWN_MS;
+  const persistent = status === 401 || status === 403;
+  _elevenBrokenUntil = Date.now() + (persistent ? ELEVEN_COOLDOWN_AUTH_MS : ELEVEN_COOLDOWN_SOFT_MS);
 }
 
 /* ── Resolución dinámica de voces contra la cuenta real del usuario ────
@@ -212,12 +219,12 @@ async function _elevenFetchBlob(text, voice, charKey){
         const r2 = await _elevenRequest(text, voice, r2id, getElevenKey());
         if(r2.ok) return await r2.blob();
         await _reportFailure(r2, r2id);
-        _markElevenBroken();
+        _markElevenBroken(r2.status);
         return null;
       }
     }
     await _reportFailure(r, voiceId);
-    _markElevenBroken();
+    _markElevenBroken(r.status);
     return null;
   });
 }
@@ -329,7 +336,9 @@ async function _reportFailure(r, voiceId){
   let bodyText = '';
   try{ bodyText = await r.text(); }catch(e){}
   const isPermission = /permission/i.test(bodyText) || r.status===403;
-  _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voiceId}) — ${bodyText.slice(0,300)}`, isPermission);
+  const isQuota = !isPermission && (/quota|credit/i.test(bodyText) || r.status===429);
+  const kind = isPermission ? 'permission' : isQuota ? 'quota' : undefined;
+  _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voiceId}) — ${bodyText.slice(0,300)}`, kind);
 }
 
 /* ── Validación real de la clave (al guardarla en Ajustes) ─────────────
