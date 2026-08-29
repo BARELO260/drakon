@@ -69,12 +69,14 @@ function getElevenKey(){
    (o falla a mitad de reproducción, para no dejar la UI colgada). */
 // Evita spamear al usuario: solo un aviso de fallo por sesión de página.
 let _elevenWarnedThisSession = false;
-function _warnElevenFailure(detail){
+function _warnElevenFailure(detail, isPermission){
   console.error('[Drakón][ElevenLabs] Falló la síntesis de voz, usando fallback nativo:', detail);
   if(_elevenWarnedThisSession) return;
   _elevenWarnedThisSession = true;
   if(typeof showToast === 'function'){
-    showToast('⚠️ La voz de ElevenLabs falló (revisa tu API key/cuota/voice_id). Usando voz del navegador.');
+    showToast(isPermission
+      ? '⚠️ Tu clave de ElevenLabs no tiene activado el permiso "Text to Speech". Ve a Ajustes → edítala en elevenlabs.io y actívalo.'
+      : '⚠️ La voz de ElevenLabs falló (revisa tu API key/cuota/voice_id). Usando voz del navegador.');
   }
 }
 
@@ -326,7 +328,51 @@ async function _reportFailure(r, voiceId){
   // 404 = voice_id no existe en esta cuenta, 429 = sin cuota, etc.)
   let bodyText = '';
   try{ bodyText = await r.text(); }catch(e){}
-  _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voiceId}) — ${bodyText.slice(0,300)}`);
+  const isPermission = /permission/i.test(bodyText) || r.status===403;
+  _warnElevenFailure(`HTTP ${r.status} (voiceId: ${voiceId}) — ${bodyText.slice(0,300)}`, isPermission);
+}
+
+/* ── Validación real de la clave (al guardarla en Ajustes) ─────────────
+   La causa MÁS común de que "la voz no funcione" sin que el usuario
+   entienda por qué: al crear la clave en ElevenLabs, hay que activar
+   manualmente el permiso "Text to Speech" → Access (ver el diálogo
+   "Create API Key" del propio ElevenLabs) — si se deja en "No Access", la
+   clave es válida pero cualquier síntesis de voz falla. Como esto ocurre
+   en un diálogo de ElevenLabs fuera de esta app, no se puede activar por
+   ella — pero SÍ se puede detectar al instante, en vez de que el usuario
+   lo descubra a mitad de una conversación. Se hace una síntesis mínima
+   real ("Hola", coste de cuota insignificante) justo al guardar la clave,
+   y si falla específicamente por falta de permiso, se avisa con el paso
+   exacto que falta por hacer en la web de ElevenLabs. */
+async function validateElevenKey(key){
+  if(!key) return {ok:false, reason:'empty'};
+  try{
+    const cv = (typeof CHAR_VOICE!=='undefined' && (CHAR_VOICE.dragon || Object.values(CHAR_VOICE)[0])) || {stability:.5,style:.4,speed:1,voiceId:null};
+    const voiceId = (await _resolveVoiceId('dragon', cv).catch(()=>null)) || cv.voiceId;
+    if(!voiceId) return {ok:false, reason:'no-voice'};
+    const resp = await fetch(`${ELEVEN_API_URL}/${voiceId}`, {
+      method:'POST',
+      headers:{'Content-Type':'application/json','xi-api-key':key,'Accept':'audio/mpeg'},
+      body: JSON.stringify({
+        text:'Hola',
+        model_id: ELEVEN_MODEL,
+        voice_settings:{stability:cv.stability, similarity_boost:0.8, style:cv.style, use_speaker_boost:true, speed:cv.speed},
+      }),
+      signal: AbortSignal.timeout(10000),
+    });
+    if(resp.ok){
+      // Si había quedado marcada como "rota" de un intento anterior, se
+      // limpia — la clave ya funciona, no hay razón para seguir evitándola.
+      _elevenBrokenKey = null; _elevenBrokenUntil = 0;
+      return {ok:true};
+    }
+    const bodyText = await resp.text().catch(()=>'');
+    const isPermission = /permission/i.test(bodyText) || resp.status===403;
+    const isQuota = /quota|credit/i.test(bodyText) || resp.status===429;
+    return {ok:false, status:resp.status, isPermission, isQuota, bodyText: bodyText.slice(0,300)};
+  } catch(e){
+    return {ok:false, reason:'network', error: e && e.message};
+  }
 }
 
 /* ── Fallback: síntesis nativa del navegador (Web Speech API) ────────── */
