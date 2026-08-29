@@ -613,46 +613,98 @@ function segmentMixedLanguageText(text, targetCode){
   if(current) segments.push(current);
 
   const clean = segments.filter(s => s.text.trim().length > 0);
+  const smoothed = _smoothAmbiguousSegments(clean);
 
   // Fusiona el tramo más corto con un vecino hasta quedarnos dentro del
   // límite — así una frase con muchos cambios cortos de idioma sigue
   // siendo, como mucho, MAX_TTS_SEGMENTS peticiones de voz.
-  while(clean.length > MAX_TTS_SEGMENTS){
+  while(smoothed.length > MAX_TTS_SEGMENTS){
     let shortestIdx = 0;
-    for(let i=1;i<clean.length;i++){ if(clean[i].text.length < clean[shortestIdx].text.length) shortestIdx = i; }
-    const mergeWithNext = shortestIdx < clean.length-1 &&
-      (shortestIdx===0 || clean[shortestIdx+1].text.length >= clean[shortestIdx-1].text.length);
+    for(let i=1;i<smoothed.length;i++){ if(smoothed[i].text.length < smoothed[shortestIdx].text.length) shortestIdx = i; }
+    const mergeWithNext = shortestIdx < smoothed.length-1 &&
+      (shortestIdx===0 || smoothed[shortestIdx+1].text.length >= smoothed[shortestIdx-1].text.length);
     if(mergeWithNext){
-      clean[shortestIdx+1].text = clean[shortestIdx].text + clean[shortestIdx+1].text;
-      clean[shortestIdx+1].lang = clean[shortestIdx+1].lang; // se queda con el idioma del vecino más largo
-      clean.splice(shortestIdx,1);
+      smoothed[shortestIdx+1].text = smoothed[shortestIdx].text + smoothed[shortestIdx+1].text;
+      smoothed.splice(shortestIdx,1);
     } else {
-      clean[shortestIdx-1].text += clean[shortestIdx].text;
-      clean.splice(shortestIdx,1);
+      smoothed[shortestIdx-1].text += smoothed[shortestIdx].text;
+      smoothed.splice(shortestIdx,1);
     }
   }
 
-  return clean;
+  return smoothed;
 }
 
-// Reproduce los tramos EN ORDEN, de forma estrictamente SECUENCIAL y
-// simple: pide el audio de un tramo, lo reproduce, espera a que termine,
-// y SOLO ENTONCES pasa al siguiente. Nada de precargas paralelas ni colas
-// de peticiones simultáneas — eso añadía complejidad y consumo de red/
-// memoria innecesarios que sobrecargaban dispositivos más modestos. Como
-// además el texto ahora se limita a MAX_TTS_SEGMENTS tramos como mucho,
-// la pausa entre tramos es corta y el proceso completo es ligero.
-// `token` identifica esta secuencia: si se llama a stopTTS() mientras
-// tanto, deja de coincidir y la reproducción se corta ahí mismo.
+// Palabras aisladas MUY cortas (≤3 letras) son las que más se repiten
+// entre idiomas distintos — "a", "no", "en"(*), "i"... — y por sí solas
+// NO son una señal fiable de que ahí empieza de verdad el otro idioma.
+// Ejemplo real: "Te ayudo a mejorar" es 100% español, pero "a" también es
+// el artículo indefinido en inglés — sin este suavizado, esa única
+// palabra generaba su propio tramo (y su propia petición de voz) en medio
+// de una frase completamente nativa, sonando como una pausa/corte extraño
+// justo ahí. Si un tramo del idioma meta es una palabra aislada cortísima
+// Y está rodeado de tramos nativos por los dos lados, se fusiona con el
+// idioma nativo en vez de generar un tramo aparte. Una racha de 2+
+// palabras del idioma meta seguidas SÍ se respeta (esa es una señal
+// mucho más fiable de que de verdad cambió el idioma).
+function _smoothAmbiguousSegments(segments){
+  for(let i=0;i<segments.length;i++){
+    const seg = segments[i];
+    if(seg.lang !== 'target') continue;
+    const wordOnly = seg.text.replace(/[^A-Za-zÀ-ÖØ-öø-ÿ]/g,'');
+    if(wordOnly.length > 3 || wordOnly.includes(' ')) continue; // más de una palabra o palabra larga: señal real, se respeta
+    const prevNative = i===0 || segments[i-1].lang==='native';
+    const nextNative = i===segments.length-1 || segments[i+1].lang==='native';
+    if(prevNative && nextNative) seg.lang = 'native';
+  }
+  const merged = [];
+  for(const seg of segments){
+    if(merged.length && merged[merged.length-1].lang === seg.lang) merged[merged.length-1].text += seg.text;
+    else merged.push({...seg});
+  }
+  return merged;
+}
+
+// PLAN DE VOZ PARA UNA RESPUESTA MEZCLADA:
+//  1) Camino simple y rápido (el normal): UNA sola petición a ElevenLabs
+//     con el texto COMPLETO tal cual, mezcla de idiomas incluida. Su
+//     modelo multilingüe detecta el idioma de cada parte automáticamente
+//     y la pronuncia bien, todo dentro de un mismo audio — cero pausas
+//     entre tramos porque no hay "tramos": es un solo request, un solo
+//     play(). Esto es justo lo que pedía el enunciado original: usar la
+//     capacidad de la propia tecnología de voz para cambiar de idioma
+//     dentro de una misma generación, en vez de fragmentar innecesariamente.
+//  2) Solo si ElevenLabs no está disponible (sin key, en cooldown por un
+//     fallo reciente, o esta petición puntual falla) se cae al sintetizador
+//     del navegador — que ESE sí solo admite un idioma por cada llamada, así
+//     que ahí (y SOLO ahí) se segmenta el texto por idioma real y se leen
+//     los tramos uno detrás de otro (ya limitados a máximo MAX_TTS_SEGMENTS
+//     y con el suavizado de palabras cortas ambiguas de arriba).
 let _activeSpeechToken = 0;
 
 async function speakMixedLanguageText(cleanText){
   const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
   const charId = state.charId || 'dragon';
+  const token = ++_activeSpeechToken;
+
+  if(typeof ttsFetchAudioBlob === 'function'){
+    const wholeBlob = await ttsFetchAudioBlob(cleanText, cv, charId).catch(() => null);
+    if(token !== _activeSpeechToken) return;
+    if(wholeBlob){
+      await new Promise(resolve => {
+        let settled = false;
+        const done = () => { if(settled) return; settled = true; resolve(); };
+        try{ _elevenPlayBlob(wholeBlob, done).catch(done); } catch(e){ done(); }
+      });
+      return; // un solo audio, mezcla de idiomas incluida — listo
+    }
+  }
+  if(token !== _activeSpeechToken) return;
+
+  // Reserva: navegador, que SÍ necesita los tramos por idioma.
   const targetCode = (state.lang?.code || 'EN').toUpperCase();
   const segments = segmentMixedLanguageText(cleanText, targetCode);
   if(!segments.length) return;
-  const token = ++_activeSpeechToken;
 
   const bcp47For = seg => seg.lang === 'target'
     ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
@@ -661,26 +713,11 @@ async function speakMixedLanguageText(cleanText){
   for(let i = 0; i < segments.length; i++){
     if(token !== _activeSpeechToken) return; // se paró/canceló mientras tanto
     const seg = segments[i];
-
-    const blob = typeof ttsFetchAudioBlob === 'function'
-      ? await ttsFetchAudioBlob(seg.text, cv, charId).catch(() => null)
-      : null;
-    if(token !== _activeSpeechToken) return;
-
-    // Red de seguridad: pase lo que pase reproduciendo este tramo (incluso
-    // un fallo inesperado no previsto abajo), esta promesa SIEMPRE se
-    // resuelve — nunca deja colgada la secuencia completa esperando un
-    // "fin de audio" que no llegue.
     await new Promise(resolve => {
       let settled = false;
       const done = () => { if(settled) return; settled = true; resolve(); };
-      try{
-        if(blob && typeof _elevenPlayBlob === 'function'){
-          _elevenPlayBlob(blob, done).catch(done);
-        } else {
-          _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, done);
-        }
-      } catch(e){ done(); }
+      try{ _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, done); }
+      catch(e){ done(); }
     });
   }
 }
