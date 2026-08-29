@@ -2893,4 +2893,604 @@ window.LESSON_BANKS.FR = [
       ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gérondif o participio inicial (“En analysant...” o “Face à...”).",[],["en analysant", "face à", "souveraineté"]],
     ]
   },
+  {
+    id:"fr_a1_hairdresser_personal_care", level:"A1", title:"Le coiffeur et les soins personnels", emoji:"💇", xp:38,
+    description:"Aprende vocabulario de peluquería y a usar el comparativo y superlativo en francés.",
+    study: {
+      vocab: [
+        ["la coupe de cheveux", "haircut"],
+        ["le coiffeur/la coiffeuse", "hairdresser"],
+        ["les ciseaux", "scissors"],
+        ["les cheveux courts/longs", "short/long hair"],
+        ["tailler", "to trim"],
+        ["le miroir", "mirror"],
+      ],
+      grammar: [
+        ["Comparatif et superlatif", "El comparativo se forma con “plus/moins... que”, y el superlativo con “le/la plus...”.", "Cette coupe est plus courte que la dernière. / Elle a les cheveux les plus longs de la famille."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “scissors” en francés?",["hairdresser", "to trim", "scissors", "les ciseaux"],3,"“Scissors” es “les ciseaux” en francés."],
+      ["mcq","¿Cómo se dice “to trim” en francés?",["mirror", "to trim", "scissors", "tailler"],3,"“To trim” es “tailler” en francés."],
+      ["fill","Completa: “Cette coupe est ___ courte que la dernière.”",["la plus", "plus", "aussi", "moins"],1,"El comparativo de superioridad se forma con “plus... que”: “plus courte que”."],
+      ["translate","Traduce: “She has the longest hair in the family.”",["Elle a les cheveux les plus longs de la famille.", "Elle a le cheveux les plus longs de la famille.", "Elle a les cheveux les plus longs dans la famille.", "Elle a les cheveux plus longs de la famille."],0,"“The longest... in” se traduce con “les plus longs de” en francés."],
+      ["arrange","Ordena: [meilleur / ville / est / coiffeur / cet / de / la]",["cet est ville la meilleur coiffeur de le", "la cet le de ville meilleur coiffeur est", "est meilleur de ville le coiffeur cet la", "cet coiffeur est le meilleur de la ville"],3,"Pronombre + sustantivo + verbo + superlativo + preposición + artículo + sustantivo."],
+      ["writing","Describe en francés, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["plus court", "le plus long", "coupe de cheveux"]],
+    ]
+  },
+  {
+    id:"fr_a2_car_repair_shop", level:"A2", title:"Le garage et la voiture", emoji:"🚗", xp:48,
+    description:"Aprende vocabulario del taller mecánico y a usar “beaucoup de” en francés.",
+    study: {
+      vocab: [
+        ["le mécanicien", "mechanic"],
+        ["le pneu crevé", "flat tire"],
+        ["le moteur", "engine"],
+        ["réparer la voiture", "to fix the car"],
+        ["la pièce détachée", "spare part"],
+        ["la vidange", "oil change"],
+      ],
+      grammar: [
+        ["“Beaucoup de” para cantidades", "“Beaucoup de” se usa con sustantivos contables e incontables por igual, sin artículo partitivo después.", "Cette réparation nécessite beaucoup de pièces détachées. / Il ne reste pas beaucoup de temps avant le voyage."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “flat tire” en francés?",["spare part", "to fix the car", "oil change", "le pneu crevé"],3,"“Flat tire” es “le pneu crevé” en francés."],
+      ["mcq","¿Cómo se dice “spare part” en francés?",["flat tire", "spare part", "la pièce détachée", "to fix the car"],2,"“Spare part” es “la pièce détachée” en francés."],
+      ["fill","Completa: “Il ne reste pas ___ temps avant le voyage.”",["un peu de", "beaucoup des", "beaucoup de", "beaucoup"],2,"“Beaucoup de” va sin artículo antes del sustantivo: “beaucoup de temps”."],
+      ["translate","Traduce: “This repair needs a lot of spare parts.”",["Cette réparation nécessitent beaucoup de pièces détachées.", "Cette réparation nécessite beaucoup de pièce détachée.", "Cette réparation nécessite beaucoup des pièces détachées.", "Cette réparation nécessite beaucoup de pièces détachées."],3,"“A lot of spare parts” se traduce con “beaucoup de pièces détachées”, sin artículo."],
+      ["arrange","Ordena: [réparé / a / mécanicien / le / moteur / le]",["réparé mécanicien le le moteur a", "réparé mécanicien le a le moteur", "le mécanicien a réparé le moteur", "le a le réparé moteur mécanicien"],2,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, un problema con tu carro usando “beaucoup de”.",[],["beaucoup de", "pièces détachées", "mécanicien"]],
+    ]
+  },
+  {
+    id:"fr_b1_learning_musical_instrument", level:"B1", title:"La musique et apprendre un instrument", emoji:"🎸", xp:62,
+    description:"Aprende vocabulario musical y a usar el infinitivo tras ciertos verbos en francés.",
+    study: {
+      vocab: [
+        ["faire des gammes", "to practice scales"],
+        ["la partition", "sheet music"],
+        ["accorder un instrument", "to tune an instrument"],
+        ["le rythme", "rhythm"],
+        ["le professeur de musique", "music teacher"],
+        ["se produire en public", "to perform"],
+      ],
+      grammar: [
+        ["Verbos seguidos de infinitivo", "En francés, muchos verbos van seguidos de un infinitivo, a veces directamente y a veces con “de” o “à”.", "J'aime faire des gammes chaque matin. / Elle veut se produire devant un public."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sheet music” en francés?",["to practice scales", "la partition", "music teacher", "rhythm"],1,"“Sheet music” es “la partition” en francés."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en francés?",["to perform", "accorder un instrument", "music teacher", "to tune an instrument"],1,"“To tune an instrument” es “accorder un instrument” en francés."],
+      ["fill","Completa: “J'aime ___ des gammes chaque matin.”",["faisant", "fait", "faire", "fais"],2,"“Aimer” se usa con infinitivo directo: “aime faire”."],
+      ["translate","Traduce: “She wants to perform in front of an audience.”",["Elle veulent se produire devant un public.", "Elle veut se produire devant une public.", "Elle veut se produisant devant un public.", "Elle veut se produire devant un public."],3,"“Want to perform” se traduce con infinitivo directo tras “vouloir”: “veut se produire”."],
+      ["arrange","Ordena: [instrument / besoin / cet / d' / a / accord]",["cet instrument a besoin d'accord", "d'accord a cet besoin instrument", "besoin instrument cet a d'accord", "a cet instrument d'accord besoin"],0,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre aprender un instrumento musical usando al menos dos verbos seguidos de infinitivo.",[],["aimer faire", "vouloir apprendre", "pratiquer"]],
+    ]
+  },
+  {
+    id:"fr_b2_recycling_circular_economy", level:"B2", title:"Le recyclage et l'économie circulaire", emoji:"♻️", xp:84,
+    description:"Habla del reciclaje usando el presente para verdades generales (condicional cero) en francés.",
+    study: {
+      vocab: [
+        ["recycler", "to recycle"],
+        ["l'économie circulaire", "circular economy"],
+        ["la gestion des déchets", "waste management"],
+        ["réutiliser", "to reuse"],
+        ["la décharge", "landfill"],
+        ["la matière première", "raw material"],
+      ],
+      grammar: [
+        ["Présent pour les vérités générales (conditionnel zéro)", "En francés, el condicional cero se expresa con “si” + presente en ambas cláusulas, para hechos o verdades generales.", "Si tu recycles du papier, ça économise des arbres. / Les matériaux finissent dans une décharge s'ils ne sont pas réutilisés."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “circular economy” en francés?",["l'économie circulaire", "to reuse", "waste management", "circular economy"],0,"“Circular economy” es “l'économie circulaire” en francés."],
+      ["mcq","¿Cómo se dice “landfill” en francés?",["to recycle", "waste management", "to reuse", "la décharge"],3,"“Landfill” es “la décharge” en francés."],
+      ["fill","Completa: “Si tu ___ du papier, ça économise des arbres.”",["recycles", "recyclant", "recycleras", "recyclais"],0,"El condicional cero usa presente en ambas cláusulas: “si tu recycles”."],
+      ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Les matériaux finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux finissent dans une décharge s'ils ne seront pas réutilisés.", "Le matériau finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux ont fini dans une décharge s'ils ne sont pas réutilisés."],0,"El condicional cero mantiene presente en ambas cláusulas: “finissent... s'ils ne sont pas réutilisés”."],
+      ["arrange","Ordena: [première / économise / recycler / matière]",["recycler économise matière première", "économise première matière recycler", "recycler économise première matière", "économise recycler matière première"],0,"Verbo + verbo + adjetivo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, una explicación sobre la economía circular usando “si... présent” al menos dos veces.",[],["si tu recycles", "si...", "économie circulaire"]],
+    ]
+  },
+  {
+    id:"fr_c1_political_philosophy_social_justice", level:"C1", title:"La philosophie politique et la justice sociale", emoji:"⚖️", xp:92,
+    description:"Analiza la justicia social usando “si seulement” para arrepentimiento en registro formal en francés.",
+    study: {
+      vocab: [
+        ["la justice sociale", "social justice"],
+        ["l'inégalité", "inequality"],
+        ["les droits civiques", "civil rights"],
+        ["la redistribution", "redistribution"],
+        ["l'oppression systémique", "systemic oppression"],
+        ["le bien commun", "common good"],
+      ],
+      grammar: [
+        ["“Si seulement” + plus-que-parfait para arrepentimiento", "“Si seulement” + plus-que-parfait du subjonctif (o indicatif en registro menos formal) expresa arrepentimiento sobre el pasado.", "Si seulement les réformes passées avaient traité l'oppression systémique. / Les philosophes souhaiteraient que l'inégalité puisse être résolue par la seule politique."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “inequality” en francés?",["systemic oppression", "l'inégalité", "civil rights", "inequality"],1,"“Inequality” es “l'inégalité” en francés."],
+      ["mcq","¿Cómo se dice “redistribution” en francés?",["civil rights", "redistribution", "social justice", "la redistribution"],3,"“Redistribution” es “la redistribution” en francés."],
+      ["fill","Completa: “Si seulement les réformes passées ___ traité l'oppression systémique.”",["aient", "ont", "auraient", "avaient"],3,"“Si seulement” + plus-que-parfait expresa arrepentimiento sobre el pasado: “si seulement... avaient traité”."],
+      ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Les philosophes souhaiterait que l'inégalité puisse être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse résoudre par la seule politique.", "Les philosophes souhaiteraient que l'inégalité peut être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse être résolue par la seule politique."],3,"“Wish... could be solved” se traduce con subjuntivo tras “souhaiter que”: “puisse être résolue”."],
+      ["arrange","Ordena: [débattent / commun / philosophes / bien / du / les]",["commun débattent bien philosophes du les", "commun du les bien débattent philosophes", "les philosophes débattent du bien commun", "bien commun du philosophes débattent les"],2,"Artículo + sustantivo + verbo + preposición + adjetivo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre justicia social usando “si seulement” al menos dos veces.",[],["si seulement", "avaient", "justice sociale"]],
+    ]
+  },
+  {
+    id:"fr_c2_cultural_anthropology_rituals", level:"C2", title:"L'anthropologie culturelle et les rituels", emoji:"🗿", xp:100,
+    description:"Analiza los rituales culturales usando comparativos dobles en francés.",
+    study: {
+      vocab: [
+        ["le rituel", "ritual"],
+        ["le relativisme culturel", "cultural relativism"],
+        ["le rite de passage", "rite of passage"],
+        ["la parenté", "kinship"],
+        ["l'identité collective", "collective identity"],
+        ["la tradition orale", "oral tradition"],
+      ],
+      grammar: [
+        ["Comparatifs doubles (“plus... plus...”)", "La estructura “plus/moins..., plus/moins...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Plus les anthropologues étudient les rituels, plus ils comprennent l'identité collective. / Plus une tradition est ancienne, plus son influence est forte."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cultural relativism” en francés?",["cultural relativism", "oral tradition", "le relativisme culturel", "rite of passage"],2,"“Cultural relativism” es “le relativisme culturel” en francés."],
+      ["mcq","¿Cómo se dice “rite of passage” en francés?",["le rite de passage", "kinship", "oral tradition", "rite of passage"],0,"“Rite of passage” es “le rite de passage” en francés."],
+      ["fill","Completa: “___ les anthropologues étudient les rituels, plus ils comprennent l'identité collective.”",["Autant", "Tant", "Plus", "Aussi"],2,"El comparativo doble repite “plus...plus” en ambas cláusulas."],
+      ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Plus une tradition est ancienne, plus son influence forte.", "Plus une tradition est ancienne, son influence est plus forte.", "Plus ancienne une tradition est, plus son influence est forte.", "Plus une tradition est ancienne, plus son influence est forte."],3,"El comparativo doble francés mantiene “plus... est..., plus... est...” en ambas cláusulas completas."],
+      ["arrange","Ordena: [marquent / passage / rites / adulte / de / l'âge / les]",["rites l'âge de adulte marquent passage les", "rites adulte les de marquent l'âge passage", "les rites de passage marquent l'âge adulte", "adulte les rites de l'âge passage marquent"],2,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre rituales culturales usando al menos un comparativo doble (“plus... plus...”).",[],["plus", "plus", "rituel"]],
+    ]
+  },
+  {
+    id:"fr_a1_hardware_store_tools", level:"A1", title:"À la quincaillerie : les outils de base", emoji:"🔨", xp:38,
+    description:"Aprende vocabulario de herramientas y a usar la comparación de igualdad (“aussi... que”) en francés.",
+    study: {
+      vocab: [
+        ["le marteau", "hammer"],
+        ["le tournevis", "screwdriver"],
+        ["le clou", "nail"],
+        ["la vis", "screw"],
+        ["la boîte à outils", "toolbox"],
+        ["l'échelle", "ladder"],
+      ],
+      grammar: [
+        ["Comparaison d'égalité (“aussi... que”)", "“Aussi” + adjetivo + “que” expresa que dos cosas son iguales en cierta cualidad.", "Ce marteau est aussi lourd que celui-là. / L'échelle n'est pas aussi haute que le mur."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “screwdriver” en francés?",["nail", "ladder", "le tournevis", "toolbox"],2,"“Screwdriver” es “le tournevis” en francés."],
+      ["mcq","¿Cómo se dice “ladder” en francés?",["nail", "toolbox", "hammer", "l'échelle"],3,"“Ladder” es “l'échelle” en francés."],
+      ["fill","Completa: “Ce marteau est ___ lourd que celui-là.”",["aussi", "si", "plus", "moins"],0,"La comparación de igualdad usa “aussi + adjetivo + que”: “aussi lourd que”."],
+      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["L'échelle n'est pas aussi haute que le mur.", "L'échelle n'est pas aussi haute comme le mur.", "L'échelle n'est pas plus haute que le mur.", "L'échelle est aussi haute que le mur."],0,"“Isn't as... as” se traduce con “n'est pas aussi... que”."],
+      ["arrange","Ordena: [lourde / boîte / outils / la / très / à / est]",["outils à la boîte très est lourde", "à lourde boîte outils est très la", "à outils la lourde boîte très est", "la boîte à outils est très lourde"],3,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Describe en francés, en 20-30 palabras, comparando dos herramientas usando “aussi... que”.",[],["aussi lourd que", "aussi haute que", "marteau"]],
+    ]
+  },
+  {
+    id:"fr_a2_laundry_clothing_care", level:"A2", title:"La laverie et l'entretien des vêtements", emoji:"🧺", xp:48,
+    description:"Aprende vocabulario de lavandería y a usar “quelques/un peu de” en francés.",
+    study: {
+      vocab: [
+        ["la machine à laver", "washing machine"],
+        ["la lessive", "detergent"],
+        ["étendre le linge", "to hang out clothes"],
+        ["la tache", "stain"],
+        ["le sèche-linge", "dryer"],
+        ["repasser", "to iron"],
+      ],
+      grammar: [
+        ["“Quelques/un peu de” para cantidades pequeñas", "“Quelques” se usa con sustantivos contables, “un peu de” con incontables, ambos para cantidades pequeñas pero suficientes.", "J'ai besoin d'un peu de lessive pour cette machine. / Il y a quelques taches sur cette chemise."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “washing machine” en francés?",["la machine à laver", "detergent", "to iron", "to hang out clothes"],0,"“Washing machine” es “la machine à laver” en francés."],
+      ["mcq","¿Cómo se dice “stain” en francés?",["stain", "la tache", "to hang out clothes", "detergent"],1,"“Stain” es “la tache” en francés."],
+      ["fill","Completa: “Il y a ___ taches sur cette chemise.”",["quelques", "un peu de", "peu", "beaucoup"],0,"“Taches” es contable plural, así que se usa “quelques”: “quelques taches”."],
+      ["translate","Traduce: “I need a little detergent for this load.”",["J'ai besoin de quelques lessive pour cette machine.", "J'ai besoin d'un peu de lessive pour cette machine.", "J'ai besoin d'un peu de lessives pour cette machine.", "J'ai besoin peu de lessive pour cette machine."],1,"“Lessive” es incontable, así que se usa “un peu de”: “un peu de lessive”."],
+      ["arrange","Ordena: [repasser / faut / il / chemise / cette]",["il faut repasser cette chemise", "il repasser cette faut chemise", "cette faut il repasser chemise", "chemise il cette faut repasser"],0,"Verbo impersonal + verbo + verbo + pronombre + sustantivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, tu rutina de lavandería usando “quelques/un peu de”.",[],["quelques", "un peu de", "machine à laver"]],
+    ]
+  },
+  {
+    id:"fr_b1_chess_strategy_games", level:"B1", title:"Les échecs et les jeux de société stratégiques", emoji:"♟️", xp:62,
+    description:"Aprende vocabulario de ajedrez y a usar el futur simple con “si” en francés.",
+    study: {
+      vocab: [
+        ["l'échiquier", "chessboard"],
+        ["faire échec et mat", "to checkmate"],
+        ["le pion", "pawn"],
+        ["déplacer une pièce", "to move a piece"],
+        ["la stratégie", "strategy"],
+        ["l'adversaire", "opponent"],
+      ],
+      grammar: [
+        ["“Si” + présent + futur simple", "Para consecuencias reales y probables en el futuro se usa “si” + presente, y futur simple en la consecuencia.", "Si tu déplaces cette pièce, tu perdras la partie. / Si elle planifie bien sa stratégie, elle gagnera."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to checkmate” en francés?",["strategy", "to checkmate", "faire échec et mat", "pawn"],2,"“To checkmate” es “faire échec et mat” en francés."],
+      ["mcq","¿Cómo se dice “pawn” en francés?",["strategy", "to move a piece", "le pion", "to checkmate"],2,"“Pawn” es “le pion” en francés."],
+      ["fill","Completa: “Si tu déplaces cette pièce, tu ___ la partie.”",["as perdu", "perdras", "perds", "perdrais"],1,"Tras “si” + présent, se usa futur simple en la consecuencia: “si tu déplaces... tu perdras”."],
+      ["translate","Traduce: “If she plans her strategy well, she will win.”",["Si elle planifie bien sa stratégie, elle gagnerait.", "Si elle planifiait bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagne."],2,"“If... will win” se traduce con “si” + présent + futur simple: “si elle planifie... elle gagnera”."],
+      ["arrange","Ordena: [fort / a / adversaire / un / elle]",["elle a un adversaire fort", "adversaire a elle fort un", "elle a adversaire un fort", "fort elle a adversaire un"],0,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre una partida de ajedrez usando “si... futur” al menos dos veces.",[],["si...", "gagnera", "échecs"]],
+    ]
+  },
+  {
+    id:"fr_b2_historic_building_restoration", level:"B2", title:"La restauration de bâtiments historiques", emoji:"🏛️", xp:84,
+    description:"Habla de restauración usando la construcción causativa “faire + infinitif” en francés.",
+    study: {
+      vocab: [
+        ["restaurer", "to restore"],
+        ["le site patrimonial", "heritage site"],
+        ["la façade", "facade"],
+        ["l'échafaudage", "scaffolding"],
+        ["préserver", "to preserve"],
+        ["les dommages structurels", "structural damage"],
+      ],
+      grammar: [
+        ["Construction causative (“faire + infinitif”)", "“Faire” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "La ville a fait restaurer la façade l'année dernière. / Ils font réparer le toit ce mois-ci."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “facade” en francés?",["to restore", "to preserve", "heritage site", "la façade"],3,"“Facade” es “la façade” en francés."],
+      ["mcq","¿Cómo se dice “scaffolding” en francés?",["to preserve", "scaffolding", "l'échafaudage", "facade"],2,"“Scaffolding” es “l'échafaudage” en francés."],
+      ["fill","Completa: “La ville a fait ___ la façade l'année dernière.”",["restaurant", "restaurée", "restaure", "restaurer"],3,"La construcción causativa usa “faire” + infinitivo: “a fait restaurer”."],
+      ["translate","Traduce: “They are getting the roof repaired this month.”",["Ils font réparé le toit ce mois-ci.", "Ils ont fait réparer le toit ce mois-ci déjà.", "Ils font réparer le toit ce mois-ci.", "Ils font réparer le toit par eux ce mois-ci."],2,"“Are getting... repaired” se traduce con “font réparer”, construcción causativa en presente."],
+      ["arrange","Ordena: [préserver / importants / sites / de / patrimoniaux]",["préserver sites importants de patrimoniaux", "de sites patrimoniaux importants préserver", "préserver de importants sites patrimoniaux", "importants de patrimoniaux sites préserver"],2,"Infinitivo + preposición + adjetivo + sustantivo + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre la restauración de un edificio histórico usando la construcción causativa (“faire + infinitif”) al menos dos veces.",[],["a fait restaurer", "font réparer", "site patrimonial"]],
+    ]
+  },
+  {
+    id:"fr_c1_philosophy_of_science", level:"C1", title:"La philosophie des sciences et la méthode scientifique", emoji:"🔬", xp:92,
+    description:"Analiza el método científico usando cláusulas de propósito (“afin de/pour que”) en francés.",
+    study: {
+      vocab: [
+        ["l'hypothèse", "hypothesis"],
+        ["la falsifiabilité", "falsifiability"],
+        ["les preuves empiriques", "empirical evidence"],
+        ["l'évaluation par les pairs", "peer review"],
+        ["répliquer une étude", "to replicate a study"],
+        ["le changement de paradigme", "paradigm shift"],
+      ],
+      grammar: [
+        ["Cláusulas de propósito (“afin de/pour que”)", "“Afin de” + infinitivo y “pour que” + subjonctif expresan el propósito de una acción, típicos del registro formal/académico.", "Les scientifiques répliquent des études afin de confirmer les résultats. / Les chercheurs publient des données pour que d'autres puissent les vérifier."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “falsifiability” en francés?",["hypothesis", "peer review", "paradigm shift", "la falsifiabilité"],3,"“Falsifiability” es “la falsifiabilité” en francés."],
+      ["mcq","¿Cómo se dice “peer review” en francés?",["paradigm shift", "empirical evidence", "l'évaluation par les pairs", "hypothesis"],2,"“Peer review” es “l'évaluation par les pairs” en francés."],
+      ["fill","Completa: “Les chercheurs publient des données pour ___ d'autres puissent les vérifier.”",["que", "afin", "à", "de"],0,"“Pour que” + subjonctif expresa propósito: “pour que d'autres puissent”."],
+      ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Les scientifiques réplique des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin confirmer les résultats.", "Les scientifiques répliquent des études afin de confirment les résultats."],1,"“In order to confirm” en registro formal se traduce con “afin de confirmer”."],
+      ["arrange","Ordena: [besoin / hypothèse / preuves / a / toute / empiriques / de]",["toute empiriques preuves hypothèse besoin a de", "toute hypothèse a besoin de preuves empiriques", "toute a empiriques besoin hypothèse preuves de", "preuves de hypothèse besoin a toute empiriques"],1,"Adjetivo + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre el método científico usando “afin de” o “pour que” al menos dos veces.",[],["afin de", "pour que", "hypothèse"]],
+    ]
+  },
+  {
+    id:"fr_c2_game_theory_strategic_decisions", level:"C2", title:"La théorie des jeux et la prise de décision stratégique", emoji:"🎲", xp:100,
+    description:"Analiza la teoría de juegos usando “ni... ni” y concesión con “alors que/tandis que” en francés.",
+    study: {
+      vocab: [
+        ["l'équilibre de Nash", "Nash equilibrium"],
+        ["le jeu à somme nulle", "zero-sum game"],
+        ["la matrice des gains", "payoff matrix"],
+        ["la stratégie dominante", "dominant strategy"],
+        ["l'acteur rationnel", "rational actor"],
+        ["le dilemme du prisonnier", "prisoner's dilemma"],
+      ],
+      grammar: [
+        ["“Ni... ni” y concesión con “alors que/tandis que”", "“Ni... ni” niega dos opciones a la vez; “alors que/tandis que” introducen un contraste formal entre dos ideas.", "Ni l'un ni l'autre joueur ne profite de la trahison mutuelle. / Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Nash equilibrium” en francés?",["zero-sum game", "l'équilibre de Nash", "prisoner's dilemma", "payoff matrix"],1,"“Nash equilibrium” es “l'équilibre de Nash” en francés."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en francés?",["payoff matrix", "dominant strategy", "le dilemme du prisonnier", "prisoner's dilemma"],2,"“Prisoner's dilemma” es “le dilemme du prisonnier” en francés."],
+      ["fill","Completa: “Ni l'un ___ l'autre joueur ne profite de la trahison mutuelle.”",["que", "ou", "ni", "et"],2,"La estructura “ni l'un ni l'autre” requiere “ni” en ambas partes."],
+      ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Alors que la coopération maximise le gain commun, l'intérêt personnel l'emportent souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte parfois.", "Alors la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent."],3,"“Alors que” + presente indicativo introduce el contraste formal: “la coopération maximise”."],
+      ["arrange","Ordena: [dominante / a / stratégie / aucun / joueur / de]",["a joueur de dominante aucun stratégie", "a joueur stratégie dominante de aucun", "dominante aucun de stratégie joueur a", "aucun joueur a de stratégie dominante"],3,"Pronombre negativo + sustantivo + verbo + preposición + sustantivo + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis de teoría de juegos usando “ni... ni” y “alors que/tandis que” al menos una vez cada uno.",[],["ni...ni", "alors que", "équilibre de Nash"]],
+    ]
+  },
+  {
+    id:"fr_a1_diving_water_sports", level:"A1", title:"La plongée et les sports nautiques", emoji:"🤿", xp:38,
+    description:"Aprende vocabulario de buceo y a usar preposiciones de lugar en francés.",
+    study: {
+      vocab: [
+        ["plonger", "to dive"],
+        ["le tuba", "snorkel"],
+        ["le poisson", "fish"],
+        ["le récif corallien", "coral reef"],
+        ["la combinaison de plongée", "wetsuit"],
+        ["sous l'eau", "underwater"],
+      ],
+      grammar: [
+        ["Prépositions de lieu (dans/sur/sous/à côté de)", "“Dans” indica dentro de algo, “sur” indica encima de una superficie, “sous” indica debajo, y “à côté de” indica al lado.", "Les poissons nagent dans l'eau. / Le récif corallien est sous le bateau."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “coral reef” en francés?",["le récif corallien", "fish", "to dive", "wetsuit"],0,"“Coral reef” es “le récif corallien” en francés."],
+      ["mcq","¿Cómo se dice “wetsuit” en francés?",["fish", "la combinaison de plongée", "snorkel", "to dive"],1,"“Wetsuit” es “la combinaison de plongée” en francés."],
+      ["fill","Completa: “Le récif corallien est ___ le bateau.”",["sous", "à côté", "sur", "dans"],0,"“Sous” indica una posición debajo de algo: “sous le bateau”."],
+      ["translate","Traduce: “The fish swim in the water.”",["Les poissons nagent à côté de l'eau.", "Les poissons nagent dans l'eau.", "Les poissons nagent sur l'eau.", "Les poissons nagent sous l'eau est."],1,"“In the water” se traduce con “dans l'eau”, ya que están dentro de ella."],
+      ["arrange","Ordena: [côté / bateau / du / plongeur / est / à / le]",["côté à plongeur du est bateau le", "le plongeur est à côté du bateau", "côté bateau plongeur du est le à", "du est côté à le plongeur bateau"],1,"Artículo + sustantivo + verbo + preposición + preposición + artículo + sustantivo."],
+      ["writing","Describe en francés, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (dans/sur/sous/à côté de).",[],["sous", "dans", "poissons"]],
+    ]
+  },
+  {
+    id:"fr_a2_origami_crafts", level:"A2", title:"L'origami et les loisirs créatifs", emoji:"🎨", xp:48,
+    description:"Aprende vocabulario de manualidades y a usar secuenciadores en francés.",
+    study: {
+      vocab: [
+        ["plier", "to fold"],
+        ["le papier", "paper"],
+        ["les ciseaux", "scissors"],
+        ["la colle", "glue"],
+        ["le pli", "crease"],
+        ["le loisir créatif", "craft"],
+      ],
+      grammar: [
+        ["Séquenceurs (d'abord, ensuite, puis, enfin)", "Los secuenciadores organizan los pasos de un proceso en orden: “d'abord” (primero), “ensuite/puis” (luego), “enfin” (finalmente).", "D'abord, plie le papier en deux. Ensuite, fais un pli. Enfin, plie les coins."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “crease” en francés?",["paper", "crease", "le pli", "scissors"],2,"“Crease” es “le pli” en francés."],
+      ["mcq","¿Cómo se dice “glue” en francés?",["la colle", "craft", "to fold", "paper"],0,"“Glue” es “la colle” en francés."],
+      ["fill","Completa: “D'abord, plie le papier. ___, fais un pli.”",["D'abord", "Avant", "Ensuite", "Enfin"],2,"“Ensuite” conecta el segundo paso después de “d'abord”."],
+      ["translate","Traduce: “Finally, fold the corners.”",["Enfin, plie le coin.", "Enfin, plie les coins.", "Ensuite, plie les coins.", "Enfin, pliant les coins."],1,"“Finally” se traduce con “Enfin” al inicio de la oración."],
+      ["arrange","Ordena: [ciseaux / loisir / besoin / a / ce / créatif / de]",["besoin ciseaux loisir de ce a créatif", "besoin ce ciseaux a loisir créatif de", "ce loisir créatif a besoin de ciseaux", "de loisir besoin ce créatif a ciseaux"],2,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, los pasos para hacer una manualidad usando secuenciadores (d'abord, ensuite, enfin).",[],["d'abord", "ensuite", "enfin"]],
+    ]
+  },
+  {
+    id:"fr_b1_paleontology_dinosaurs", level:"B1", title:"La paléontologie et les dinosaures", emoji:"🦴", xp:62,
+    description:"Aprende vocabulario de paleontología y a usar “déjà/encore/toujours” con el passé composé en francés.",
+    study: {
+      vocab: [
+        ["le fossile", "fossil"],
+        ["l'os de dinosaure", "dinosaur bone"],
+        ["le site de fouilles", "excavation site"],
+        ["éteint", "extinct"],
+        ["le squelette", "skeleton"],
+        ["déterrer", "to dig up"],
+      ],
+      grammar: [
+        ["“Déjà/pas encore/toujours” con el passé composé", "“Déjà” (ya) se usa en afirmativas, “pas encore” (todavía no) en negativas, y “toujours” (todavía) enfatiza una situación que continúa.", "Ils ont déjà trouvé le squelette. / Ils n'ont pas encore fini les fouilles. / Les scientifiques étudient toujours le fossile."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “fossil” en francés?",["le fossile", "excavation site", "extinct", "dinosaur bone"],0,"“Fossil” es “le fossile” en francés."],
+      ["mcq","¿Cómo se dice “skeleton” en francés?",["le squelette", "skeleton", "fossil", "to dig up"],0,"“Skeleton” es “le squelette” en francés."],
+      ["fill","Completa: “Ils n'ont ___ fini les fouilles.”",["toujours", "déjà", "jamais", "pas encore"],3,"“Pas encore” equivale a “not yet”: “n'ont pas encore fini”."],
+      ["translate","Traduce: “Scientists are still studying the fossil.”",["Les scientifiques n'étudient pas encore le fossile.", "Les scientifiques étudient déjà le fossile.", "Les scientifiques ont toujours étudié le fossile.", "Les scientifiques étudient toujours le fossile."],3,"“Are still studying” se traduce con “étudient toujours”, presente con “toujours”."],
+      ["arrange","Ordena: [squelette / déjà / ont / trouvé / le / ils]",["le ont déjà trouvé ils squelette", "ils squelette déjà ont trouvé le", "ils ont déjà trouvé le squelette", "squelette trouvé ont déjà le ils"],2,"Sujeto + “ont” + “déjà” + participio + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre un descubrimiento de dinosaurios usando “déjà/pas encore/toujours” al menos dos veces.",[],["déjà", "pas encore", "toujours"]],
+    ]
+  },
+  {
+    id:"fr_b2_street_art_graffiti", level:"B2", title:"L'art urbain et le graffiti", emoji:"🎨", xp:84,
+    description:"Habla de arte urbano usando “à moins que” en francés.",
+    study: {
+      vocab: [
+        ["la fresque murale", "mural"],
+        ["la peinture en aérosol", "spray paint"],
+        ["l'espace public", "public space"],
+        ["le vandalisme", "vandalism"],
+        ["l'artiste de rue", "street artist"],
+        ["commander une fresque", "to commission a mural"],
+      ],
+      grammar: [
+        ["“À moins que” + subjonctif", "“À moins que” + subjonctif expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "À moins que la ville ne l'approuve, la fresque sera considérée comme du vandalisme. / Elle ne peindra pas à moins d'avoir la permission."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “vandalism” en francés?",["public space", "to commission a mural", "mural", "le vandalisme"],3,"“Vandalism” es “le vandalisme” en francés."],
+      ["mcq","¿Cómo se dice “to commission a mural” en francés?",["public space", "to commission a mural", "vandalism", "commander une fresque"],3,"“To commission a mural” es “commander une fresque” en francés."],
+      ["fill","Completa: “À moins que la ville ne l'___, la fresque sera considérée comme du vandalisme.”",["approuvera", "approuve", "approuvait", "a approuvé"],1,"“À moins que” requiere subjonctif: “à moins que... n'approuve”."],
+      ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["Si la ville ne l'approuve pas, la fresque sera considérée comme du vandalisme.", "À moins que la ville l'approuvera, la fresque sera considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque est considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque sera considérée comme du vandalisme."],3,"“Unless” se traduce con “à moins que” + subjonctif (con “ne” expletivo): “à moins que... n'approuve”."],
+      ["arrange","Ordena: [talentueux / est / artiste / cet / très]",["talentueux est artiste très cet", "cet est talentueux très artiste", "cet artiste est très talentueux", "talentueux artiste cet très est"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre el arte urbano usando “à moins que” al menos dos veces.",[],["à moins que", "fresque", "artiste de rue"]],
+    ]
+  },
+  {
+    id:"fr_c1_criminology_criminal_justice", level:"C1", title:"La criminologie et la justice pénale", emoji:"🔍", xp:92,
+    description:"Analiza la criminología usando “pouvoir” para posibilidad en registro formal en francés.",
+    study: {
+      vocab: [
+        ["la preuve médico-légale", "forensic evidence"],
+        ["le suspect", "suspect"],
+        ["condamner", "to convict"],
+        ["le doute raisonnable", "reasonable doubt"],
+        ["la récidive", "recidivism"],
+        ["la réhabilitation", "rehabilitation"],
+      ],
+      grammar: [
+        ["“Pouvoir” para posibilidad formal", "“Pouvoir” + infinitivo expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "La preuve médico-légale peut désigner le suspect. / Sans réhabilitation, la récidive pourrait augmenter."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “reasonable doubt” en francés?",["le doute raisonnable", "recidivism", "suspect", "reasonable doubt"],0,"“Reasonable doubt” es “le doute raisonnable” en francés."],
+      ["mcq","¿Cómo se dice “recidivism” en francés?",["la récidive", "forensic evidence", "suspect", "reasonable doubt"],0,"“Recidivism” es “la récidive” en francés."],
+      ["fill","Completa: “La preuve médico-légale ___ désigner le suspect.”",["doit", "va", "peut", "sait"],2,"“Peut” + infinitivo expresa posibilidad formal: “peut désigner”."],
+      ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Sans réhabilitation, la récidive doit augmenter.", "Sans réhabilitation, la récidive peut augmentant.", "Sans réhabilitation, la récidive pourrait augmenté.", "Sans réhabilitation, la récidive pourrait augmenter."],3,"“Might increase” se traduce con “pourrait augmenter”, posibilidad formal en francés."],
+      ["arrange","Ordena: [condamner / ne / peut / suspect / le / pas / tribunal / le]",["le tribunal ne peut pas condamner le suspect", "le pas suspect ne tribunal peut condamner le", "peut condamner suspect tribunal le ne le pas", "suspect peut le pas tribunal ne condamner le"],0,"Artículo + sustantivo + negación + verbo modal + negación + verbo + artículo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre justicia penal usando “pouvoir” al menos dos veces.",[],["peut", "pourrait", "doute raisonnable"]],
+    ]
+  },
+  {
+    id:"fr_c2_philosophy_of_language", level:"C2", title:"La philosophie du langage", emoji:"💬", xp:100,
+    description:"Analiza la filosofía del lenguaje usando el subjonctif tras verbos de sugerencia en francés.",
+    study: {
+      vocab: [
+        ["l'acte de langage", "speech act"],
+        ["la référence", "reference"],
+        ["le sens", "meaning"],
+        ["l'ambiguïté", "ambiguity"],
+        ["la relativité linguistique", "linguistic relativity"],
+        ["la proposition", "proposition"],
+      ],
+      grammar: [
+        ["Subjonctif tras verbos de sugerencia (suggérer/insister/recommander que)", "Tras verbos como “suggérer”, “insister” o “recommander” + “que”, el verbo siguiente va en subjonctif, típico del registro formal/académico.", "Les philosophes suggèrent que le sens soit étudié à travers l'usage. / Le linguiste insiste pour que le contexte soit pris en compte."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “speech act” en francés?",["proposition", "l'acte de langage", "linguistic relativity", "ambiguity"],1,"“Speech act” es “l'acte de langage” en francés."],
+      ["mcq","¿Cómo se dice “ambiguity” en francés?",["reference", "linguistic relativity", "speech act", "l'ambiguïté"],3,"“Ambiguity” es “l'ambiguïté” en francés."],
+      ["fill","Completa: “Le linguiste insiste pour que le contexte ___ pris en compte.”",["soit", "est", "sera", "était"],0,"El subjonctif de “être” es “soit”: “insiste pour que... soit pris”."],
+      ["translate","Traduce con subjonctif: “Philosophers suggest that meaning be studied through use.”",["Les philosophes suggèrent que le sens est étudié à travers l'usage.", "Les philosophes suggère que le sens soit étudié à travers l'usage.", "Les philosophes suggèrent que le sens sera étudié à travers l'usage.", "Les philosophes suggèrent que le sens soit étudié à travers l'usage."],3,"El verbo “suggérer que” requiere subjonctif: “suggèrent que... soit étudié”."],
+      ["arrange","Ordena: [ambiguë / phrase / cette / est]",["cette phrase est ambiguë", "ambiguë phrase cette est", "ambiguë cette est phrase", "phrase est cette ambiguë"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre filosofía del lenguaje usando el subjonctif tras “suggérer/insister/recommander que” al menos dos veces.",[],["suggère que", "insiste pour que", "sens"]],
+    ]
+  },
+  {
+    id:"fr_a1_circus_shows", level:"A1", title:"Le cirque et les spectacles", emoji:"🎪", xp:38,
+    description:"Aprende vocabulario del circo y a usar exclamaciones (“quel.../comme...”) en francés.",
+    study: {
+      vocab: [
+        ["le clown", "clown"],
+        ["la corde raide", "tightrope"],
+        ["le jongleur", "juggler"],
+        ["l'acrobate", "acrobat"],
+        ["le chapiteau", "tent"],
+        ["incroyable", "amazing"],
+      ],
+      grammar: [
+        ["Exclamations (“quel.../comme...”)", "“Quel/quelle” + sustantivo y “Comme” + cláusula expresan sorpresa o admiración de forma exclamativa.", "Quel jongleur incroyable ! / Comme ce spectacle est incroyable !"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “juggler” en francés?",["tightrope", "acrobat", "clown", "le jongleur"],3,"“Juggler” es “le jongleur” en francés."],
+      ["mcq","¿Cómo se dice “acrobat” en francés?",["tightrope", "amazing", "acrobat", "l'acrobate"],3,"“Acrobat” es “l'acrobate” en francés."],
+      ["fill","Completa: “___ jongleur incroyable !”",["Comme", "Quel", "Quelle", "Que"],1,"“Quel” + sustantivo masculino expresa admiración: “quel jongleur”."],
+      ["translate","Traduce: “How amazing this show is!”",["Comme ce spectacle incroyable !", "Comme ce spectacle est incroyable !", "Comme est ce spectacle incroyable !", "Quel ce spectacle est incroyable !"],1,"“How amazing... is!” se traduce con “Comme... est incroyable !” en francés."],
+      ["arrange","Ordena: [raide / marche / la / sur / clown / corde / le]",["raide clown la sur le corde marche", "raide sur la marche le clown corde", "raide corde clown le marche la sur", "le clown marche sur la corde raide"],3,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["writing","Describe en francés, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“quel.../comme...”).",[],["quel", "comme", "incroyable"]],
+    ]
+  },
+  {
+    id:"fr_a2_flea_market_bargains", level:"A2", title:"Le marché aux puces et les bonnes affaires", emoji:"🛍️", xp:48,
+    description:"Aprende vocabulario de mercados de pulgas y a usar “trop/assez” en francés.",
+    study: {
+      vocab: [
+        ["le marché aux puces", "flea market"],
+        ["la bonne affaire", "bargain"],
+        ["marchander", "to haggle"],
+        ["d'occasion", "secondhand"],
+        ["le vendeur", "vendor"],
+        ["l'antiquité", "antique"],
+      ],
+      grammar: [
+        ["“Trop/assez”", "“Trop” + adjetivo indica exceso (“demasiado”), mientras que “assez” + adjetivo indica suficiencia (“lo suficientemente”).", "Cette antiquité est trop chère. / Je n'ai pas assez d'argent pour cette bonne affaire."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to haggle” en francés?",["vendor", "bargain", "marchander", "antique"],2,"“To haggle” es “marchander” en francés."],
+      ["mcq","¿Cómo se dice “vendor” en francés?",["le vendeur", "secondhand", "antique", "bargain"],0,"“Vendor” es “le vendeur” en francés."],
+      ["fill","Completa: “Cette antiquité est ___ chère.”",["très beaucoup", "assez", "si beaucoup", "trop"],3,"“Trop” + adjetivo expresa exceso: “trop chère”."],
+      ["translate","Traduce: “I don't have enough money for this bargain.”",["Je n'ai pas assez d'argent pour cette bonne affaire.", "Je n'ai pas assez d'argent pour ce bonne affaire.", "Je n'ai pas trop d'argent pour cette bonne affaire.", "Je n'ai pas assez argent pour cette bonne affaire."],0,"“Enough money” se traduce con “assez d'argent”."],
+      ["arrange","Ordena: [marchande / vendeur / je / avec / le]",["marchande vendeur je avec le", "avec je le marchande vendeur", "je marchande avec le vendeur", "vendeur je marchande avec le"],2,"Sujeto + verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, una visita a un mercado de pulgas usando “trop/assez”.",[],["trop", "assez", "bonne affaire"]],
+    ]
+  },
+  {
+    id:"fr_b1_genealogy_family_tree", level:"B1", title:"La généalogie et l'arbre généalogique", emoji:"🌳", xp:62,
+    description:"Aprende vocabulario de genealogía y a usar “bien que/même si” en francés.",
+    study: {
+      vocab: [
+        ["l'arbre généalogique", "family tree"],
+        ["l'ancêtre", "ancestor"],
+        ["le descendant", "descendant"],
+        ["l'acte de naissance", "birth certificate"],
+        ["l'arrière-grand-parent", "great-grandparent"],
+        ["retracer ses racines", "to trace one's roots"],
+      ],
+      grammar: [
+        ["“Bien que/même si” para concesión", "“Bien que” + subjonctif expresa una concesión formal; “même si” + indicatif expresa lo mismo de forma más neutra.", "Bien que les archives soient anciennes, nous avons retracé nos racines. / Même si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancestor” en francés?",["l'ancêtre", "birth certificate", "family tree", "descendant"],0,"“Ancestor” es “l'ancêtre” en francés."],
+      ["mcq","¿Cómo se dice “birth certificate” en francés?",["ancestor", "l'acte de naissance", "birth certificate", "great-grandparent"],1,"“Birth certificate” es “l'acte de naissance” en francés."],
+      ["fill","Completa: “Bien que les archives ___ anciennes, nous avons retracé nos racines.”",["soient", "seront", "sont", "étaient"],0,"“Bien que” requiere subjonctif: “bien que... soient anciennes”."],
+      ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Bien si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaisse l'histoire familiale.", "Même si elle n'a jamais connait son arrière-grand-mère, elle connaît l'histoire familiale."],1,"“Even though” se traduce con “même si” + indicatif, hecho conocido."],
+      ["arrange","Ordena: [arbre / grand / a / généalogique / un / elle]",["un a grand généalogique arbre elle", "elle a arbre grand un généalogique", "elle un généalogique arbre a grand", "elle a un grand arbre généalogique"],3,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre tu árbol familiar usando “bien que” o “même si” al menos dos veces.",[],["bien que", "même si", "arbre généalogique"]],
+    ]
+  },
+  {
+    id:"fr_b2_meteorology_extreme_weather", level:"B2", title:"La météorologie et les phénomènes extrêmes", emoji:"🌪️", xp:84,
+    description:"Habla de fenómenos meteorológicos extremos usando “malgré” en francés.",
+    study: {
+      vocab: [
+        ["l'ouragan", "hurricane"],
+        ["la tornade", "tornado"],
+        ["la sécheresse", "drought"],
+        ["la crue soudaine", "flash flood"],
+        ["la vitesse du vent", "wind speed"],
+        ["émettre une alerte", "to issue a warning"],
+      ],
+      grammar: [
+        ["“Malgré” + sustantivo/infinitivo", "“Malgré” + sustantivo o infinitivo (nunca cláusula conjugada completa) introduce un contraste, similar a “bien que” pero con estructura distinta.", "Malgré l'alerte, beaucoup de gens sont restés près de la côte. / Malgré avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “drought” en francés?",["flash flood", "hurricane", "la sécheresse", "drought"],2,"“Drought” es “la sécheresse” en francés."],
+      ["mcq","¿Cómo se dice “flash flood” en francés?",["la crue soudaine", "hurricane", "drought", "flash flood"],0,"“Flash flood” es “la crue soudaine” en francés."],
+      ["fill","Completa: “___ l'alerte, beaucoup de gens sont restés près de la côte.”",["Parce que", "Bien que", "Malgré que", "Malgré"],3,"“Malgré” + sustantivo (sin “que”): “malgré l'alerte”."],
+      ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Malgré d'avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités ne peuvent pas éviter les dégâts."],2,"“In spite of issuing” se traduce con “malgré avoir émis”, infinitivo pasado tras la preposición."],
+      ["arrange","Ordena: [approche / fort / ouragan / un / s']",["ouragan un fort s'approche", "un fort ouragan s'approche", "un ouragan fort s'approche", "s'approche ouragan fort un"],2,"Artículo + sustantivo + adjetivo + pronombre reflexivo + verbo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre un fenómeno meteorológico extremo usando “malgré” al menos dos veces.",[],["malgré", "ouragan", "alerte"]],
+    ]
+  },
+  {
+    id:"fr_c1_urban_sociology_gentrification", level:"C1", title:"La sociologie urbaine et la gentrification", emoji:"🏙️", xp:92,
+    description:"Analiza la gentrificación usando el conditionnel passé para crítica del pasado en francés.",
+    study: {
+      vocab: [
+        ["la gentrification", "gentrification"],
+        ["le déplacement", "displacement"],
+        ["le logement abordable", "affordable housing"],
+        ["le renouveau urbain", "urban renewal"],
+        ["le loyer croissant", "rising rent"],
+        ["la communauté locale", "local community"],
+      ],
+      grammar: [
+        ["“Aurait dû/n'aurait pas dû” para crítica del pasado", "“Aurait dû” + infinitivo expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "La ville aurait dû protéger le logement abordable. / Les autorités n'auraient pas dû ignorer la communauté locale."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “displacement” en francés?",["gentrification", "urban renewal", "local community", "le déplacement"],3,"“Displacement” es “le déplacement” en francés."],
+      ["mcq","¿Cómo se dice “affordable housing” en francés?",["local community", "urban renewal", "le logement abordable", "rising rent"],2,"“Affordable housing” es “le logement abordable” en francés."],
+      ["fill","Completa: “La ville ___ dû protéger le logement abordable.”",["aura", "aurait", "a", "avait"],1,"“Aurait dû” + infinitivo expresa crítica del pasado: “aurait dû protéger”."],
+      ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Les autorités n'auraient pas dû ignoré les préoccupations de la communauté locale.", "Les autorités auraient dû ignorer les préoccupations de la communauté locale.", "Les autorités n'auraient pas dû ignorer les préoccupations de la communauté locale.", "Les autorités ne devraient pas ignorer les préoccupations de la communauté locale."],2,"“Shouldn't have ignored” se traduce con “n'auraient pas dû ignorer”, infinitivo tras “dû”."],
+      ["arrange","Ordena: [croissant / inquiète / résidents / loyer / le]",["le croissant inquiète résidents loyer", "résidents croissant le inquiète loyer", "loyer résidents croissant inquiète le", "le loyer croissant inquiète résidents"],3,"Artículo + sustantivo + adjetivo + verbo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis crítico sobre la gentrificación usando “aurait dû/n'aurait pas dû” al menos dos veces.",[],["aurait dû", "n'aurait pas dû", "gentrification"]],
+    ]
+  },
+  {
+    id:"fr_c2_epistemology_limits_knowledge", level:"C2", title:"La philosophie de la connaissance et ses limites", emoji:"🧭", xp:100,
+    description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en francés.",
+    study: {
+      vocab: [
+        ["l'épistémologie", "epistemology"],
+        ["la croyance vraie justifiée", "justified true belief"],
+        ["le scepticisme", "skepticism"],
+        ["la certitude", "certainty"],
+        ["la connaissance a priori", "a priori knowledge"],
+        ["l'humilité épistémique", "epistemic humility"],
+      ],
+      grammar: [
+        ["“À peine... que” para secuencia inmediata", "“À peine... que” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés; en registro muy formal puede invertir sujeto-verbo.", "À peine les philosophes avaient-ils proposé une théorie que les sceptiques la contestaient. / À peine affirme-t-on savoir quelque chose que le doute surgit."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “skepticism” en francés?",["le scepticisme", "justified true belief", "epistemology", "a priori knowledge"],0,"“Skepticism” es “le scepticisme” en francés."],
+      ["mcq","¿Cómo se dice “epistemic humility” en francés?",["justified true belief", "epistemic humility", "l'humilité épistémique", "certainty"],2,"“Epistemic humility” es “l'humilité épistémique” en francés."],
+      ["fill","Completa: “À peine les philosophes avaient-ils proposé une théorie ___ les sceptiques la contestaient.”",["que", "puis", "alors", "et"],0,"“À peine... que” forma la estructura de secuencia inmediata: “à peine... que”."],
+      ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["À peine a-t-on affirmé savoir quelque chose que le doute surgit.", "À peine on affirme savoir quelque chose que le doute surgit.", "À peine affirme-t-on savoir quelque chose que le doute disparaît.", "À peine affirme-t-on savoir quelque chose que le doute surgit."],3,"“À peine” al inicio invierte con “-t-on”: “à peine affirme-t-on”."],
+      ["arrange","Ordena: [vraie / exige / connaissance / certitude / la]",["vraie exige la certitude connaissance", "vraie certitude exige connaissance la", "la connaissance exige certitude vraie", "certitude exige connaissance vraie la"],2,"Artículo + sustantivo + verbo + adjetivo + sustantivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un argumento epistemológico usando “à peine... que” al menos una vez.",[],["à peine", "que", "scepticisme"]],
+    ]
+  },
 ];
