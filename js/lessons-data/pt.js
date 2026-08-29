@@ -2893,4 +2893,604 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva em português, em 55-75 palavras, um parágrafo acadêmico sobre geopolítica usando pelo menos uma construção com gerúndio ou particípio inicial (“Analisando...” ou “Diante de...”).",[],["analisando", "diante de", "soberania"]],
     ]
   },
+  {
+    id:"pt_a1_hairdresser_personal_care", level:"A1", title:"O cabeleireiro e os cuidados pessoais", emoji:"💇", xp:38,
+    description:"Aprenda vocabulário de cabeleireiro e a usar o comparativo e superlativo em português.",
+    study: {
+      vocab: [
+        ["o corte de cabelo", "haircut"],
+        ["o cabeleireiro/a cabeleireira", "hairdresser"],
+        ["a tesoura", "scissors"],
+        ["o cabelo curto/comprido", "short/long hair"],
+        ["aparar", "to trim"],
+        ["o espelho", "mirror"],
+      ],
+      grammar: [
+        ["Comparativo e superlativo", "El comparativo se forma con “mais/menos... que”, y el superlativo con “o/a mais...”.", "Este corte é mais curto que o anterior. / Ela tem o cabelo mais comprido da família."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “scissors” en portugués?",["hairdresser", "a tesoura", "mirror", "to trim"],1,"“Scissors” es “a tesoura” en portugués."],
+      ["mcq","¿Cómo se dice “to trim” en portugués?",["to trim", "aparar", "scissors", "haircut"],1,"“To trim” es “aparar” en portugués."],
+      ["fill","Completa: “Este corte é ___ curto que o anterior.”",["o mais", "mais", "menos", "tão"],1,"El comparativo de superioridad se forma con “mais... que”: “mais curto que”."],
+      ["translate","Traduce: “She has the longest hair in the family.”",["Ela têm o cabelo mais comprido da família.", "Ela tem o cabelo mais comprido da família.", "Ela tem o cabelo mais comprido que a família.", "Ela tem o cabelo mais comprido na família."],1,"“The longest... in” se traduce con “o mais comprido da” en portugués."],
+      ["arrange","Ordena: [melhor / cidade / é / cabeleireiro / este / da]",["este melhor da o cidade cabeleireiro é", "este é o melhor cabeleireiro da cidade", "melhor é este da cidade o cabeleireiro", "é cabeleireiro o da este cidade melhor"],1,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
+      ["writing","Descreva em português, em 20-30 palavras, seu corte de cabelo ideal usando comparativos ou superlativos.",[],["mais curto", "o mais comprido", "corte de cabelo"]],
+    ]
+  },
+  {
+    id:"pt_a2_car_repair_shop", level:"A2", title:"A oficina mecânica e o carro", emoji:"🚗", xp:48,
+    description:"Aprenda vocabulário de oficina mecânica e a usar “muito/muitos” em português.",
+    study: {
+      vocab: [
+        ["o mecânico", "mechanic"],
+        ["o pneu furado", "flat tire"],
+        ["o motor", "engine"],
+        ["consertar o carro", "to fix the car"],
+        ["a peça de reposição", "spare part"],
+        ["a troca de óleo", "oil change"],
+      ],
+      grammar: [
+        ["“Muito/muitos” para cantidades", "“Muito” concuerda en género y número con el sustantivo: “muito tempo”, “muitas peças”, “muita água”.", "Este conserto precisa de muitas peças de reposição. / Não sobra muito tempo antes da viagem."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “flat tire” en portugués?",["engine", "oil change", "o pneu furado", "to fix the car"],2,"“Flat tire” es “o pneu furado” en portugués."],
+      ["mcq","¿Cómo se dice “spare part” en portugués?",["mechanic", "a peça de reposição", "spare part", "oil change"],1,"“Spare part” es “a peça de reposição” en portugués."],
+      ["fill","Completa: “Não sobra ___ tempo antes da viagem.”",["muitas", "muitos", "muito", "muita"],2,"“Tempo” es masculino singular, así que se usa “muito”: “muito tempo”."],
+      ["translate","Traduce: “This repair needs a lot of spare parts.”",["Este conserto precisa de muito peças de reposição.", "Este conserto precisam de muitas peças de reposição.", "Este conserto precisa de muitas peças de reposição.", "Este conserto precisa de muitas peça de reposição."],2,"“Peças” es femenino plural, así que se usa “muitas”: “muitas peças”."],
+      ["arrange","Ordena: [consertou / mecânico / motor / o / o]",["consertou o mecânico motor o", "o mecânico consertou o motor", "consertou o o mecânico motor", "motor o mecânico o consertou"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["speaking","Descreva em português, em 40-60 palavras, um problema com seu carro usando “muito/muitos”.",[],["muito", "muitas", "peças de reposição"]],
+    ]
+  },
+  {
+    id:"pt_b1_learning_musical_instrument", level:"B1", title:"A música e aprender um instrumento", emoji:"🎸", xp:62,
+    description:"Aprenda vocabulário musical e a usar o gerúndio e o infinitivo em português.",
+    study: {
+      vocab: [
+        ["praticar escalas", "to practice scales"],
+        ["a partitura", "sheet music"],
+        ["afinar um instrumento", "to tune an instrument"],
+        ["o ritmo", "rhythm"],
+        ["o professor de música", "music teacher"],
+        ["se apresentar", "to perform"],
+      ],
+      grammar: [
+        ["Gerúndio vs. infinitivo", "Algunos verbos van seguidos de gerundio (“gosto de praticar”, con “de”), otros de infinitivo (“quero tocar”).", "Gosto de praticar escalas toda manhã. / Ela quer se apresentar diante de uma plateia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sheet music” en portugués?",["to perform", "to practice scales", "rhythm", "a partitura"],3,"“Sheet music” es “a partitura” en portugués."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en portugués?",["to perform", "afinar um instrumento", "music teacher", "sheet music"],1,"“To tune an instrument” es “afinar um instrumento” en portugués."],
+      ["fill","Completa: “Gosto ___ praticar escalas toda manhã.”",["a", "para", "de", "em"],2,"“Gostar” se usa con “de” + infinitivo: “gosto de praticar”."],
+      ["translate","Traduce: “She wants to perform in front of an audience.”",["Ela querem se apresentar diante de uma plateia.", "Ela quer se apresentar diante de uma plateia.", "Ela quer se apresentar diante de um plateia.", "Ela quer se apresentando diante de uma plateia."],1,"“Want to perform” se traduce con infinitivo: “quer se apresentar”."],
+      ["arrange","Ordena: [afinação / precisa / instrumento / este / de]",["este instrumento precisa de afinação", "afinação precisa instrumento de este", "este afinação precisa de instrumento", "este precisa de afinação instrumento"],0,"Pronombre + sustantivo + verbo + preposición + sustantivo."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre aprender um instrumento musical usando pelo menos um verbo com gerúndio/“de” e um com infinitivo.",[],["gosto de tocar", "quero aprender", "praticar"]],
+    ]
+  },
+  {
+    id:"pt_b2_recycling_circular_economy", level:"B2", title:"A reciclagem e a economia circular", emoji:"♻️", xp:84,
+    description:"Habla del reciclaje usando el presente do indicativo para verdades generales en portugués.",
+    study: {
+      vocab: [
+        ["reciclar", "to recycle"],
+        ["a economia circular", "circular economy"],
+        ["a gestão de resíduos", "waste management"],
+        ["reutilizar", "to reuse"],
+        ["o aterro sanitário", "landfill"],
+        ["a matéria-prima", "raw material"],
+      ],
+      grammar: [
+        ["Presente do indicativo para verdades gerais (condicional zero)", "En portugués, el condicional cero se expresa con “se” + presente do indicativo en ambas cláusulas, para hechos o verdades generales.", "Se você recicla papel, isso economiza árvores. / Os materiais vão para um aterro se não forem reutilizados."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “circular economy” en portugués?",["raw material", "to reuse", "waste management", "a economia circular"],3,"“Circular economy” es “a economia circular” en portugués."],
+      ["mcq","¿Cómo se dice “landfill” en portugués?",["to reuse", "to recycle", "waste management", "o aterro sanitário"],3,"“Landfill” es “o aterro sanitário” en portugués."],
+      ["fill","Completa: “Se você ___ papel, isso economiza árvores.”",["reciclando", "recicla", "reciclará", "reciclou"],1,"El condicional cero usa presente do indicativo en ambas cláusulas: “se você recicla”."],
+      ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Os materiais vão para um aterro se não forem reutilizados.", "O material vão para um aterro se não forem reutilizados.", "Os materiais foram para um aterro se não forem reutilizados.", "Os materiais vão para um aterro se não são reutilizados."],0,"El condicional cero mantiene presente en la primera cláusula, con subjuntivo futuro tras “se”: “vão... se não forem reutilizados”."],
+      ["arrange","Ordena: [prima / economiza / reciclar / matéria]",["prima reciclar matéria economiza", "matéria prima economiza reciclar", "reciclar economiza matéria prima", "matéria prima reciclar economiza"],2,"Verbo + verbo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma explicação sobre a economia circular usando “se... presente” pelo menos duas vezes.",[],["se você recicla", "se...", "economia circular"]],
+    ]
+  },
+  {
+    id:"pt_c1_political_philosophy_social_justice", level:"C1", title:"A filosofia política e a justiça social", emoji:"⚖️", xp:92,
+    description:"Analiza la justicia social usando “tomara/quem me dera” para arrepentimiento en registro formal en portugués.",
+    study: {
+      vocab: [
+        ["a justiça social", "social justice"],
+        ["a desigualdade", "inequality"],
+        ["os direitos civis", "civil rights"],
+        ["a redistribuição", "redistribution"],
+        ["a opressão sistêmica", "systemic oppression"],
+        ["o bem comum", "common good"],
+      ],
+      grammar: [
+        ["“Tomara que” + pretérito imperfeito do subjuntivo para arrepentimiento", "“Tomara que” + pretérito imperfeito ou mais-que-perfeito do subjuntivo expresa arrepentimiento o el deseo de que algo fuera diferente.", "Tomara que as reformas passadas tivessem enfrentado a opressão sistêmica. / Os filósofos gostariam que a desigualdade pudesse ser resolvida só com políticas."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “inequality” en portugués?",["social justice", "inequality", "a desigualdade", "civil rights"],2,"“Inequality” es “a desigualdade” en portugués."],
+      ["mcq","¿Cómo se dice “redistribution” en portugués?",["common good", "social justice", "a redistribuição", "inequality"],2,"“Redistribution” es “a redistribuição” en portugués."],
+      ["fill","Completa: “Tomara que as reformas passadas ___ enfrentado a opressão sistêmica.”",["tivessem", "tenham", "tinham", "teriam"],0,"“Tomara que” + pretérito mais-que-perfeito do subjuntivo expresa arrepentimiento: “tomara que... tivessem enfrentado”."],
+      ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Os filósofos gostariam que a desigualdade pudesse resolver só com políticas.", "Os filósofo gostariam que a desigualdade pudesse ser resolvida só com políticas.", "Os filósofos gostariam que a desigualdade pudesse ser resolvida só com políticas.", "Os filósofos gostariam que a desigualdade pode ser resolvida só com políticas."],2,"“Wish... could be solved” se traduce con subjuntivo tras “gostariam que”: “pudesse ser resolvida”."],
+      ["arrange","Ordena: [comum / debatem / bem / filósofos / o / os]",["bem comum filósofos debatem o os", "os filósofos debatem o bem comum", "os debatem filósofos bem o comum", "comum debatem filósofos os bem o"],1,"Artículo + sustantivo + verbo + artículo + adjetivo + sustantivo."],
+      ["writing","Escreva em português, em 55-75 palavras, um argumento sobre justiça social usando “tomara que” pelo menos duas vezes.",[],["tomara que", "tivessem", "justiça social"]],
+    ]
+  },
+  {
+    id:"pt_c2_cultural_anthropology_rituals", level:"C2", title:"A antropologia cultural e os rituais", emoji:"🗿", xp:100,
+    description:"Analiza los rituales culturales usando comparativos dobles en portugués.",
+    study: {
+      vocab: [
+        ["o ritual", "ritual"],
+        ["o relativismo cultural", "cultural relativism"],
+        ["o rito de passagem", "rite of passage"],
+        ["o parentesco", "kinship"],
+        ["a identidade coletiva", "collective identity"],
+        ["a tradição oral", "oral tradition"],
+      ],
+      grammar: [
+        ["Comparativos duplos (“quanto mais... mais...”)", "La estructura “quanto mais/menos..., mais/menos...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Quanto mais os antropólogos estudam os rituais, mais entendem a identidade coletiva. / Quanto mais antiga a tradição, mais forte sua influência."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cultural relativism” en portugués?",["collective identity", "ritual", "o relativismo cultural", "kinship"],2,"“Cultural relativism” es “o relativismo cultural” en portugués."],
+      ["mcq","¿Cómo se dice “rite of passage” en portugués?",["o rito de passagem", "rite of passage", "oral tradition", "collective identity"],0,"“Rite of passage” es “o rito de passagem” en portugués."],
+      ["fill","Completa: “Quanto ___ os antropólogos estudam os rituais, mais entendem a identidade coletiva.”",["melhor", "mais", "muito", "menos"],1,"El comparativo doble repite “quanto mais...mais” en ambas cláusulas."],
+      ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Quanto a tradição mais antiga, mais forte sua influência.", "Quanto mais antiga a tradição, mais forte sua influência.", "Quanto mais antiga a tradição, mais forte é sua influência.", "Quanto mais antiga é a tradição, a mais forte sua influência."],1,"El comparativo doble en portugués es “quanto mais...mais...”, sin verbo obligatorio en la segunda cláusula."],
+      ["arrange","Ordena: [marcam / adulta / de / os / passagem / ritos / a / vida]",["vida adulta de os a passagem ritos marcam", "os ritos de passagem marcam a vida adulta", "de adulta marcam passagem ritos a os vida", "adulta os de passagem vida ritos a marcam"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise sobre rituais culturais usando pelo menos um comparativo duplo (“quanto mais... mais...”).",[],["quanto mais", "mais", "ritual"]],
+    ]
+  },
+  {
+    id:"pt_a1_hardware_store_tools", level:"A1", title:"Na loja de ferragens: ferramentas básicas", emoji:"🔨", xp:38,
+    description:"Aprenda vocabulário de ferramentas e a usar a comparação de igualdade (“tão... quanto”) em português.",
+    study: {
+      vocab: [
+        ["o martelo", "hammer"],
+        ["a chave de fenda", "screwdriver"],
+        ["o prego", "nail"],
+        ["o parafuso", "screw"],
+        ["a caixa de ferramentas", "toolbox"],
+        ["a escada", "ladder"],
+      ],
+      grammar: [
+        ["Comparação de igualdade (“tão... quanto”)", "“Tão” + adjetivo + “quanto” expresa que dos cosas son iguales en cierta cualidad.", "Este martelo é tão pesado quanto aquele. / A escada não é tão alta quanto a parede."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “screwdriver” en portugués?",["screwdriver", "screw", "hammer", "a chave de fenda"],3,"“Screwdriver” es “a chave de fenda” en portugués."],
+      ["mcq","¿Cómo se dice “ladder” en portugués?",["screw", "a escada", "hammer", "ladder"],1,"“Ladder” es “a escada” en portugués."],
+      ["fill","Completa: “Este martelo é ___ pesado quanto aquele.”",["tanto", "menos", "tão", "mais"],2,"La comparación de igualdad usa “tão + adjetivo + quanto”: “tão pesado quanto”."],
+      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["A escada não é tão alta quanto a parede.", "A escada não é tão alta que a parede.", "A escada é tão alta quanto a parede.", "A escada não é mais alta que a parede."],0,"“Isn't as... as” se traduce con “não é tão... quanto”."],
+      ["arrange","Ordena: [pesada / caixa / ferramentas / a / muito / de / é]",["a caixa de ferramentas é muito pesada", "muito pesada a de ferramentas caixa é", "ferramentas pesada é caixa muito a de", "é a caixa de muito ferramentas pesada"],0,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Descreva em português, em 20-30 palavras, comparando duas ferramentas usando “tão... quanto”.",[],["tão pesado quanto", "tão alta quanto", "martelo"]],
+    ]
+  },
+  {
+    id:"pt_a2_laundry_clothing_care", level:"A2", title:"A lavanderia e o cuidado com as roupas", emoji:"🧺", xp:48,
+    description:"Aprenda vocabulário de lavanderia e a usar “alguns/um pouco de” em português.",
+    study: {
+      vocab: [
+        ["a máquina de lavar", "washing machine"],
+        ["o sabão em pó", "detergent"],
+        ["estender a roupa", "to hang out clothes"],
+        ["a mancha", "stain"],
+        ["a secadora", "dryer"],
+        ["passar a ferro", "to iron"],
+      ],
+      grammar: [
+        ["“Alguns/um pouco de” para cantidades pequeñas", "“Alguns” se usa con sustantivos contables, “um pouco de” con incontables, ambos para cantidades pequeñas pero suficientes.", "Preciso de um pouco de sabão em pó para esta carga. / Há algumas manchas nesta camisa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “washing machine” en portugués?",["stain", "a máquina de lavar", "dryer", "to iron"],1,"“Washing machine” es “a máquina de lavar” en portugués."],
+      ["mcq","¿Cómo se dice “stain” en portugués?",["stain", "dryer", "washing machine", "a mancha"],3,"“Stain” es “a mancha” en portugués."],
+      ["fill","Completa: “Há ___ manchas nesta camisa.”",["muita", "pouco", "algumas", "um pouco de"],2,"“Manchas” es contable plural femenino, así que se usa “algumas”: “algumas manchas”."],
+      ["translate","Traduce: “I need a little detergent for this load.”",["Preciso de um pouco de sabões em pó para esta carga.", "Preciso de alguns sabão em pó para esta carga.", "Preciso pouco de sabão em pó para esta carga.", "Preciso de um pouco de sabão em pó para esta carga."],3,"“Sabão em pó” es incontable, así que se usa “um pouco de”: “um pouco de sabão em pó”."],
+      ["arrange","Ordena: [passar / precisa / camisa / esta / de]",["esta precisa de passar camisa", "esta de precisa camisa passar", "camisa precisa passar de esta", "esta camisa precisa de passar"],3,"Pronombre + sustantivo + verbo + preposición + infinitivo."],
+      ["speaking","Descreva em português, em 40-60 palavras, sua rotina de lavanderia usando “alguns/um pouco de”.",[],["alguns", "um pouco de", "máquina de lavar"]],
+    ]
+  },
+  {
+    id:"pt_b1_chess_strategy_games", level:"B1", title:"O xadrez e os jogos de tabuleiro estratégicos", emoji:"♟️", xp:62,
+    description:"Aprenda vocabulário de xadrez e a usar o futuro do presente com “se” em português.",
+    study: {
+      vocab: [
+        ["o tabuleiro de xadrez", "chessboard"],
+        ["dar xeque-mate", "to checkmate"],
+        ["o peão", "pawn"],
+        ["mover uma peça", "to move a piece"],
+        ["a estratégia", "strategy"],
+        ["o adversário", "opponent"],
+      ],
+      grammar: [
+        ["“Se” + presente do indicativo + futuro do presente", "Para consecuencias reales y probables en el futuro se usa “se” + presente do indicativo, y futuro do presente en la consecuencia.", "Se você mover essa peça, você vai perder a partida. / Se ela planejar bem sua estratégia, ela vencerá."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to checkmate” en portugués?",["opponent", "strategy", "to move a piece", "dar xeque-mate"],3,"“To checkmate” es “dar xeque-mate” en portugués."],
+      ["mcq","¿Cómo se dice “pawn” en portugués?",["to checkmate", "o peão", "opponent", "strategy"],1,"“Pawn” es “o peão” en portugués."],
+      ["fill","Completa: “Se você mover essa peça, você ___ perder a partida.”",["foi", "vai", "iria", "vais"],1,"El futuro perifrástico usa “vai” + infinitivo: “você vai perder”."],
+      ["translate","Traduce: “If she plans her strategy well, she will win.”",["Se ela planejasse bem sua estratégia, ela vencerá.", "Se ela planejar bem sua estratégia, ela vence.", "Se ela planeja bem sua estratégia, ela vencerá.", "Se ela planejar bem sua estratégia, ela vencerá."],3,"“If... will win” se traduce con futuro do subjuntivo tras “se” + futuro do presente: “se planejar... vencerá”."],
+      ["arrange","Ordena: [forte / tem / adversário / um / ela]",["um adversário forte ela tem", "tem ela um forte adversário", "ela tem um adversário forte", "forte um adversário ela tem"],2,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre uma partida de xadrez usando “se... futuro” pelo menos duas vezes.",[],["se...", "vencerá", "xadrez"]],
+    ]
+  },
+  {
+    id:"pt_b2_historic_building_restoration", level:"B2", title:"A restauração de edifícios históricos", emoji:"🏛️", xp:84,
+    description:"Habla de restauración usando la construcción causativa “mandar + infinitivo” en portugués.",
+    study: {
+      vocab: [
+        ["restaurar", "to restore"],
+        ["o sítio patrimonial", "heritage site"],
+        ["a fachada", "facade"],
+        ["o andaime", "scaffolding"],
+        ["preservar", "to preserve"],
+        ["o dano estrutural", "structural damage"],
+      ],
+      grammar: [
+        ["Construção causativa (“mandar + infinitivo”)", "“Mandar” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "A cidade mandou restaurar a fachada no ano passado. / Eles estão mandando consertar o telhado este mês."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “facade” en portugués?",["facade", "structural damage", "to restore", "a fachada"],3,"“Facade” es “a fachada” en portugués."],
+      ["mcq","¿Cómo se dice “scaffolding” en portugués?",["scaffolding", "structural damage", "o andaime", "facade"],2,"“Scaffolding” es “o andaime” en portugués."],
+      ["fill","Completa: “A cidade ___ restaurar a fachada no ano passado.”",["manda", "mandava", "mandará", "mandou"],3,"La construcción causativa en pasado usa “mandou” + infinitivo: “mandou restaurar”."],
+      ["translate","Traduce: “They are getting the roof repaired this month.”",["Eles mandaram consertar o telhado este mês já.", "Eles estão mandando consertado o telhado este mês.", "Eles mandam consertar o telhado por eles este mês.", "Eles estão mandando consertar o telhado este mês."],3,"“Are getting... repaired” se traduce con “estão mandando consertar”, construcción causativa en presente continuo."],
+      ["arrange","Ordena: [preservar / importantes / patrimoniais / sítios]",["preservar importantes sítios patrimoniais", "preservar sítios patrimoniais importantes", "importantes preservar sítios patrimoniais", "importantes patrimoniais sítios preservar"],1,"Infinitivo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, sobre a restauração de um edifício histórico usando a construção causativa (“mandar + infinitivo”) pelo menos duas vezes.",[],["mandou restaurar", "estão mandando consertar", "sítio patrimonial"]],
+    ]
+  },
+  {
+    id:"pt_c1_philosophy_of_science", level:"C1", title:"A filosofia da ciência e o método científico", emoji:"🔬", xp:92,
+    description:"Analiza el método científico usando cláusulas de propósito (“a fim de/para que”) en portugués.",
+    study: {
+      vocab: [
+        ["a hipótese", "hypothesis"],
+        ["a falseabilidade", "falsifiability"],
+        ["a evidência empírica", "empirical evidence"],
+        ["a revisão por pares", "peer review"],
+        ["replicar um estudo", "to replicate a study"],
+        ["a mudança de paradigma", "paradigm shift"],
+      ],
+      grammar: [
+        ["Orações de finalidade (“a fim de/para que”)", "“A fim de” + infinitivo y “para que” + subjuntivo expresan el propósito de una acción, típicos del registro formal/académico.", "Os cientistas replicam estudos a fim de confirmar os resultados. / Os pesquisadores publicam dados para que outros possam verificá-los."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “falsifiability” en portugués?",["falsifiability", "empirical evidence", "a falseabilidade", "to replicate a study"],2,"“Falsifiability” es “a falseabilidade” en portugués."],
+      ["mcq","¿Cómo se dice “peer review” en portugués?",["a revisão por pares", "to replicate a study", "peer review", "paradigm shift"],0,"“Peer review” es “a revisão por pares” en portugués."],
+      ["fill","Completa: “Os pesquisadores publicam dados para ___ outros possam verificá-los.”",["por", "de", "com", "que"],3,"“Para que” + subjuntivo expresa propósito: “para que outros possam”."],
+      ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Os cientistas replicam estudos a fim de confirmam os resultados.", "Os cientistas replicam estudos a fim de confirmar os resultados.", "Os cientistas replicam estudos a fim confirmar os resultados.", "Os cientista replicam estudos a fim de confirmar os resultados."],1,"“In order to confirm” en registro formal se traduce con “a fim de confirmar”."],
+      ["arrange","Ordena: [precisa / hipótese / empírica / toda / evidência]",["toda hipótese precisa evidência empírica", "toda evidência hipótese empírica precisa", "evidência toda precisa empírica hipótese", "precisa hipótese evidência toda empírica"],0,"Adjetivo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, sobre o método científico usando “a fim de” ou “para que” pelo menos duas vezes.",[],["a fim de", "para que", "hipótese"]],
+    ]
+  },
+  {
+    id:"pt_c2_game_theory_strategic_decisions", level:"C2", title:"A teoria dos jogos e a tomada de decisão estratégica", emoji:"🎲", xp:100,
+    description:"Analiza la teoría de juegos usando “nem... nem” y concesión con “enquanto” en portugués.",
+    study: {
+      vocab: [
+        ["o equilíbrio de Nash", "Nash equilibrium"],
+        ["o jogo de soma zero", "zero-sum game"],
+        ["a matriz de payoff", "payoff matrix"],
+        ["a estratégia dominante", "dominant strategy"],
+        ["o ator racional", "rational actor"],
+        ["o dilema do prisioneiro", "prisoner's dilemma"],
+      ],
+      grammar: [
+        ["“Nem... nem” y concesión con “enquanto”", "“Nem... nem” niega dos opciones a la vez; “enquanto” introduce un contraste formal entre dos ideas.", "Nem um jogador se beneficia da traição mútua. / Enquanto a cooperação maximiza o ganho conjunto, o interesse próprio costuma prevalecer."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Nash equilibrium” en portugués?",["prisoner's dilemma", "zero-sum game", "payoff matrix", "o equilíbrio de Nash"],3,"“Nash equilibrium” es “o equilíbrio de Nash” en portugués."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en portugués?",["dominant strategy", "Nash equilibrium", "o dilema do prisioneiro", "rational actor"],2,"“Prisoner's dilemma” es “o dilema do prisioneiro” en portugués."],
+      ["fill","Completa: “Nem um jogador ___ beneficia da traição mútua.”",["lhes", "lhe", "se", "o"],2,"El verbo pronominal “beneficiar-se” requiere “se”: “se beneficia”."],
+      ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Embora a cooperação maximiza o ganho conjunto, o interesse próprio costuma prevalecer.", "Enquanto a cooperação maximiza o ganho conjunto, o interesse próprio costuma prevalecer.", "Enquanto a cooperação maximize o ganho conjunto, o interesse próprio costuma prevalecer.", "Enquanto a cooperação maximiza o ganho conjunto, o interesse próprio costumam prevalecer."],1,"“Enquanto” + indicativo introduce el contraste formal: “a cooperação maximiza”."],
+      ["arrange","Ordena: [dominante / tem / estratégia / nenhum / jogador]",["tem nenhum jogador dominante estratégia", "estratégia dominante nenhum jogador tem", "dominante tem nenhum jogador estratégia", "nenhum jogador tem estratégia dominante"],3,"Pronombre negativo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise de teoria dos jogos usando “nem... nem” e “enquanto” pelo menos uma vez cada.",[],["nem...nem", "enquanto", "equilíbrio de Nash"]],
+    ]
+  },
+  {
+    id:"pt_a1_diving_water_sports", level:"A1", title:"O mergulho e os esportes aquáticos", emoji:"🤿", xp:38,
+    description:"Aprenda vocabulário de mergulho e a usar preposições de lugar em português.",
+    study: {
+      vocab: [
+        ["mergulhar", "to dive"],
+        ["o snorkel", "snorkel"],
+        ["o peixe", "fish"],
+        ["o recife de coral", "coral reef"],
+        ["a roupa de neoprene", "wetsuit"],
+        ["debaixo d'água", "underwater"],
+      ],
+      grammar: [
+        ["Preposições de lugar (em/sobre/debaixo de/ao lado de)", "“Em” indica dentro de algo, “sobre” indica encima de una superficie, “debaixo de” indica abajo, y “ao lado de” indica junto a.", "Os peixes nadam na água. / O recife de coral está debaixo do barco."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “coral reef” en portugués?",["coral reef", "o recife de coral", "snorkel", "to dive"],1,"“Coral reef” es “o recife de coral” en portugués."],
+      ["mcq","¿Cómo se dice “wetsuit” en portugués?",["a roupa de neoprene", "fish", "snorkel", "underwater"],0,"“Wetsuit” es “a roupa de neoprene” en portugués."],
+      ["fill","Completa: “O recife de coral está ___ do barco.”",["ao lado", "debaixo", "em", "sobre"],1,"“Debaixo de” indica una posición inferior: “debaixo do barco”."],
+      ["translate","Traduce: “The fish swim in the water.”",["Os peixes nadam na água.", "Os peixes nadam debaixo a água.", "Os peixes nadam sobre a água.", "Os peixes nadam ao lado da água."],0,"“In the water” se traduce con “na água”, ya que están dentro de ella."],
+      ["arrange","Ordena: [barco / lado / do / ao / mergulhador / está / o]",["está mergulhador lado ao do barco o", "o mergulhador está ao lado do barco", "mergulhador o lado do barco está ao", "ao barco está lado do mergulhador o"],1,"Artículo + sustantivo + verbo + preposición + preposición + artículo + sustantivo."],
+      ["writing","Descreva em português, em 20-30 palavras, o que você vê ao mergulhar usando preposições de lugar (em/sobre/debaixo de/ao lado de).",[],["debaixo de", "na", "peixes"]],
+    ]
+  },
+  {
+    id:"pt_a2_origami_crafts", level:"A2", title:"O origami e os trabalhos manuais", emoji:"🎨", xp:48,
+    description:"Aprenda vocabulário de trabalhos manuais e a usar sequenciadores em português.",
+    study: {
+      vocab: [
+        ["dobrar", "to fold"],
+        ["o papel", "paper"],
+        ["a tesoura", "scissors"],
+        ["a cola", "glue"],
+        ["a dobra", "crease"],
+        ["o trabalho manual", "craft"],
+      ],
+      grammar: [
+        ["Sequenciadores (primeiro, depois, em seguida, finalmente)", "Los secuenciadores organizan los pasos de un proceso en orden: “primeiro”, “depois/em seguida”, “finalmente”.", "Primeiro, dobre o papel ao meio. Depois, faça uma dobra. Finalmente, dobre os cantos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “crease” en portugués?",["a dobra", "glue", "to fold", "craft"],0,"“Crease” es “a dobra” en portugués."],
+      ["mcq","¿Cómo se dice “glue” en portugués?",["a cola", "glue", "paper", "scissors"],0,"“Glue” es “a cola” en portugués."],
+      ["fill","Completa: “Primeiro, dobre o papel. ___, faça uma dobra.”",["Primeiro", "Depois", "Finalmente", "Antes"],1,"“Depois” conecta el segundo paso después de “primeiro”."],
+      ["translate","Traduce: “Finally, fold the corners.”",["Finalmente, dobre o canto.", "Finalmente, dobrando os cantos.", "Depois, dobre os cantos.", "Finalmente, dobre os cantos."],3,"“Finally” se traduce con “Finalmente” al inicio de la oración."],
+      ["arrange","Ordena: [tesoura / trabalho / precisa / este / de]",["de este tesoura precisa trabalho", "trabalho precisa este de tesoura", "de trabalho tesoura precisa este", "este trabalho precisa de tesoura"],3,"Pronombre + sustantivo + verbo + preposición + sustantivo."],
+      ["speaking","Descreva em português, em 40-60 palavras, os passos para fazer um trabalho manual usando sequenciadores (primeiro, depois, finalmente).",[],["primeiro", "depois", "finalmente"]],
+    ]
+  },
+  {
+    id:"pt_b1_paleontology_dinosaurs", level:"B1", title:"A paleontologia e os dinossauros", emoji:"🦴", xp:62,
+    description:"Aprenda vocabulário de paleontologia e a usar “já/ainda não/ainda” com o pretérito perfeito em português.",
+    study: {
+      vocab: [
+        ["o fóssil", "fossil"],
+        ["o osso de dinossauro", "dinosaur bone"],
+        ["o sítio de escavação", "excavation site"],
+        ["extinto", "extinct"],
+        ["o esqueleto", "skeleton"],
+        ["desenterrar", "to dig up"],
+      ],
+      grammar: [
+        ["“Já/ainda não/ainda” com o pretérito perfeito", "“Já” (ya) se usa en afirmativas, “ainda não” (todavía no) en negativas, y “ainda” (todavía) enfatiza una situación que continúa.", "Eles já encontraram o esqueleto. / Eles ainda não terminaram a escavação. / Os cientistas ainda estão estudando o fóssil."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “fossil” en portugués?",["dinosaur bone", "excavation site", "o fóssil", "extinct"],2,"“Fossil” es “o fóssil” en portugués."],
+      ["mcq","¿Cómo se dice “skeleton” en portugués?",["fossil", "o esqueleto", "dinosaur bone", "skeleton"],1,"“Skeleton” es “o esqueleto” en portugués."],
+      ["fill","Completa: “Eles ___ não terminaram a escavação.”",["nunca", "sempre", "já", "ainda"],3,"“Ainda não” equivale a “not yet”: “ainda não terminaram”."],
+      ["translate","Traduce: “Scientists are still studying the fossil.”",["Os cientistas ainda não estão estudando o fóssil.", "Os cientistas ainda estão estudando o fóssil.", "Os cientistas estão ainda estudado o fóssil.", "Os cientistas já estão estudando o fóssil."],1,"“Are still studying” se traduce con “ainda estão estudando”, presente continuo."],
+      ["arrange","Ordena: [esqueleto / encontraram / já / o / eles]",["esqueleto encontraram já eles o", "já o eles encontraram esqueleto", "eles o já encontraram esqueleto", "eles já encontraram o esqueleto"],3,"Sujeto + adverbio + verbo + artículo + sustantivo."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre uma descoberta de dinossauros usando “já/ainda não/ainda” pelo menos duas vezes.",[],["já", "ainda não", "ainda"]],
+    ]
+  },
+  {
+    id:"pt_b2_street_art_graffiti", level:"B2", title:"A arte urbana e o grafite", emoji:"🎨", xp:84,
+    description:"Habla de arte urbano usando “a menos que” em português.",
+    study: {
+      vocab: [
+        ["o mural", "mural"],
+        ["a tinta spray", "spray paint"],
+        ["o espaço público", "public space"],
+        ["o vandalismo", "vandalism"],
+        ["o artista de rua", "street artist"],
+        ["encomendar um mural", "to commission a mural"],
+      ],
+      grammar: [
+        ["“A menos que” + subjuntivo", "“A menos que” + subjuntivo expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "A menos que a cidade o aprove, o mural será considerado vandalismo. / Ela não vai pintar a menos que tenha permissão."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “vandalism” en portugués?",["public space", "o vandalismo", "street artist", "to commission a mural"],1,"“Vandalism” es “o vandalismo” en portugués."],
+      ["mcq","¿Cómo se dice “to commission a mural” en portugués?",["encomendar um mural", "street artist", "public space", "vandalism"],0,"“To commission a mural” es “encomendar um mural” en portugués."],
+      ["fill","Completa: “Ela não vai pintar a menos que ___ permissão.”",["teria", "tem", "tenha", "terá"],2,"“A menos que” requiere subjuntivo: “a menos que tenha”."],
+      ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["A menos que a cidade o aprove, o mural será considerado vandalismo.", "A menos que a cidade o aprova, o mural será considerado vandalismo.", "A menos que a cidade o aprove, o mural é considerado vandalismo.", "Se a cidade o aprove, o mural será considerado vandalismo."],0,"“Unless” se traduce con “a menos que” + subjuntivo: “a menos que... aprove”."],
+      ["arrange","Ordena: [talentoso / muito / artista / este / é]",["é muito artista talentoso este", "este artista é muito talentoso", "muito é talentoso artista este", "este muito é artista talentoso"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, sobre a arte urbana usando “a menos que” pelo menos duas vezes.",[],["a menos que", "mural", "artista de rua"]],
+    ]
+  },
+  {
+    id:"pt_c1_criminology_criminal_justice", level:"C1", title:"A criminologia e a justiça penal", emoji:"🔍", xp:92,
+    description:"Analiza la criminología usando “poder” para posibilidad en registro formal en portugués.",
+    study: {
+      vocab: [
+        ["a evidência forense", "forensic evidence"],
+        ["o suspeito", "suspect"],
+        ["condenar", "to convict"],
+        ["a dúvida razoável", "reasonable doubt"],
+        ["a reincidência", "recidivism"],
+        ["a reabilitação", "rehabilitation"],
+      ],
+      grammar: [
+        ["“Pode/poderia” para posibilidad formal", "“Pode” y “poderia” + infinitivo expresan posibilidad; en registro formal/legal, “pode” suele sonar ligeramente más seguro que “poderia”.", "A evidência forense pode apontar para o suspeito. / Sem reabilitação, a reincidência poderia aumentar."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “reasonable doubt” en portugués?",["suspect", "a dúvida razoável", "to convict", "rehabilitation"],1,"“Reasonable doubt” es “a dúvida razoável” en portugués."],
+      ["mcq","¿Cómo se dice “recidivism” en portugués?",["forensic evidence", "a reincidência", "to convict", "reasonable doubt"],1,"“Recidivism” es “a reincidência” en portugués."],
+      ["fill","Completa: “A evidência forense ___ apontar para o suspeito.”",["sabe", "vai", "deve", "pode"],3,"“Pode” + infinitivo expresa posibilidad formal: “pode apontar”."],
+      ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Sem reabilitação, a reincidência pode aumentando.", "Sem reabilitação, a reincidência poderia aumentado.", "Sem reabilitação, a reincidência poderia aumentar.", "Sem reabilitação, a reincidência deve aumentar."],2,"“Might increase” se traduce con “poderia aumentar”, posibilidad formal en portugués."],
+      ["arrange","Ordena: [condenar / não / suspeito / tribunal / pode / o / o]",["suspeito tribunal pode condenar o o não", "o condenar o não tribunal suspeito pode", "o tribunal não pode condenar o suspeito", "não o o condenar pode suspeito tribunal"],2,"Artículo + sustantivo + negación + verbo modal + verbo + artículo + sustantivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise sobre justiça penal usando “pode/poderia” pelo menos duas vezes.",[],["pode", "poderia", "dúvida razoável"]],
+    ]
+  },
+  {
+    id:"pt_c2_philosophy_of_language", level:"C2", title:"A filosofia da linguagem", emoji:"💬", xp:100,
+    description:"Analiza la filosofía del lenguaje usando el subjuntivo tras verbos de sugerencia en portugués.",
+    study: {
+      vocab: [
+        ["o ato de fala", "speech act"],
+        ["a referência", "reference"],
+        ["o significado", "meaning"],
+        ["a ambiguidade", "ambiguity"],
+        ["a relatividade linguística", "linguistic relativity"],
+        ["a proposição", "proposition"],
+      ],
+      grammar: [
+        ["Subjuntivo tras verbos de sugerencia (sugerir/insistir/recomendar que)", "Tras verbos como “sugerir”, “insistir” o “recomendar” + “que”, el verbo siguiente va en subjuntivo, típico del registro formal/académico.", "Os filósofos sugerem que o significado seja estudado através do uso. / O linguista insiste em que o contexto seja considerado."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “speech act” en portugués?",["reference", "meaning", "speech act", "o ato de fala"],3,"“Speech act” es “o ato de fala” en portugués."],
+      ["mcq","¿Cómo se dice “ambiguity” en portugués?",["a ambiguidade", "meaning", "linguistic relativity", "speech act"],0,"“Ambiguity” es “a ambiguidade” en portugués."],
+      ["fill","Completa: “O linguista insiste em que o contexto ___ considerado.”",["seja", "será", "foi", "é"],0,"El subjuntivo presente de “ser” es “seja”: “insiste em que... seja considerado”."],
+      ["translate","Traduce con subjuntivo: “Philosophers suggest that meaning be studied through use.”",["Os filósofos sugerem que o significado será estudado através do uso.", "Os filósofo sugerem que o significado seja estudado através do uso.", "Os filósofos sugerem que o significado é estudado através do uso.", "Os filósofos sugerem que o significado seja estudado através do uso."],3,"El verbo “sugerir que” requiere subjuntivo presente: “sugerem que... seja estudado”."],
+      ["arrange","Ordena: [ambígua / esta / frase / é]",["esta ambígua frase é", "ambígua é frase esta", "esta frase é ambígua", "esta frase ambígua é"],2,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, um argumento sobre filosofia da linguagem usando o subjuntivo tras “sugerir/insistir/recomendar que” pelo menos duas vezes.",[],["sugere que", "insiste em que", "significado"]],
+    ]
+  },
+  {
+    id:"pt_a1_circus_shows", level:"A1", title:"O circo e os espetáculos", emoji:"🎪", xp:38,
+    description:"Aprenda vocabulário de circo e a usar exclamações (“que.../como...”) em português.",
+    study: {
+      vocab: [
+        ["o palhaço", "clown"],
+        ["a corda bamba", "tightrope"],
+        ["o malabarista", "juggler"],
+        ["o acrobata", "acrobat"],
+        ["a lona", "tent"],
+        ["surpreendente", "amazing"],
+      ],
+      grammar: [
+        ["Exclamações (“que.../como...”)", "“Que” + sustantivo y “Como” + verbo/adjetivo expresan sorpresa o admiración de forma exclamativa.", "Que malabarista surpreendente! / Como este espetáculo é surpreendente!"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “juggler” en portugués?",["clown", "amazing", "tent", "o malabarista"],3,"“Juggler” es “o malabarista” en portugués."],
+      ["mcq","¿Cómo se dice “acrobat” en portugués?",["o acrobata", "amazing", "tightrope", "juggler"],0,"“Acrobat” es “o acrobata” en portugués."],
+      ["fill","Completa: “___ malabarista surpreendente!”",["Como", "Quanto", "Que", "Quão"],2,"“Que” + sustantivo expresa admiración: “que malabarista”."],
+      ["translate","Traduce: “How amazing this show is!”",["Que este espetáculo é surpreendente!", "Como é este espetáculo surpreendente!", "Como este espetáculo surpreendente!", "Como este espetáculo é surpreendente!"],3,"“How amazing... is!” se traduce con “Como... é surpreendente!” en portugués."],
+      ["arrange","Ordena: [bamba / anda / corda / na / palhaço / o]",["bamba anda corda palhaço na o", "o corda na anda bamba palhaço", "o corda na palhaço anda bamba", "o palhaço anda na corda bamba"],3,"Artículo + sustantivo + verbo + preposición + sustantivo."],
+      ["writing","Descreva em português, em 20-30 palavras, um espetáculo de circo usando exclamações (“que.../como...”).",[],["que", "como", "surpreendente"]],
+    ]
+  },
+  {
+    id:"pt_a2_flea_market_bargains", level:"A2", title:"O mercado de pulgas e as pechinchas", emoji:"🛍️", xp:48,
+    description:"Aprenda vocabulário de mercados de pulgas e a usar “demais/suficiente” em português.",
+    study: {
+      vocab: [
+        ["o mercado de pulgas", "flea market"],
+        ["a pechincha", "bargain"],
+        ["pechinchar", "to haggle"],
+        ["de segunda mão", "secondhand"],
+        ["o vendedor", "vendor"],
+        ["a antiguidade", "antique"],
+      ],
+      grammar: [
+        ["“Demais/suficiente”", "“Demais” (después del adjetivo) indica exceso, mientras que “suficiente” indica una cantidad adecuada.", "Esta antiguidade é cara demais. / Não tenho dinheiro suficiente para esta pechincha."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to haggle” en portugués?",["antique", "vendor", "pechinchar", "bargain"],2,"“To haggle” es “pechinchar” en portugués."],
+      ["mcq","¿Cómo se dice “vendor” en portugués?",["o vendedor", "flea market", "to haggle", "vendor"],0,"“Vendor” es “o vendedor” en portugués."],
+      ["fill","Completa: “Esta antiguidade é cara ___.”",["suficiente", "tão muito", "muito muito", "demais"],3,"“Demais” después del adjetivo expresa exceso: “cara demais”."],
+      ["translate","Traduce: “I don't have enough money for this bargain.”",["Não tenho dinheiro demais para esta pechincha.", "Não tenho suficiente dinheiro para esta pechincha.", "Não tenho dinheiro suficiente para este pechincha.", "Não tenho dinheiro suficiente para esta pechincha."],3,"“Enough money” se traduce con “dinheiro suficiente”."],
+      ["arrange","Ordena: [vendedor / pechincho / o / com]",["o vendedor com pechincho", "pechincho com o vendedor", "vendedor com o pechincho", "com pechincho vendedor o"],1,"Verbo + preposición + artículo + sustantivo."],
+      ["speaking","Descreva em português, em 40-60 palavras, uma visita a um mercado de pulgas usando “demais/suficiente”.",[],["demais", "suficiente", "pechincha"]],
+    ]
+  },
+  {
+    id:"pt_b1_genealogy_family_tree", level:"B1", title:"A genealogia e a árvore genealógica", emoji:"🌳", xp:62,
+    description:"Aprenda vocabulário de genealogia e a usar “embora” em português.",
+    study: {
+      vocab: [
+        ["a árvore genealógica", "family tree"],
+        ["o antepassado", "ancestor"],
+        ["o descendente", "descendant"],
+        ["a certidão de nascimento", "birth certificate"],
+        ["o bisavô/a bisavó", "great-grandparent"],
+        ["rastrear as raízes", "to trace one's roots"],
+      ],
+      grammar: [
+        ["“Embora” + subjuntivo para concesión", "“Embora” + subjuntivo introduce un contraste o concesión formal, equivalente a “although/even though” en inglés.", "Embora os registros sejam antigos, rastreamos nossas raízes. / Embora nunca tenha conhecido a bisavó, ela conhece a história da família."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancestor” en portugués?",["o antepassado", "ancestor", "descendant", "birth certificate"],0,"“Ancestor” es “o antepassado” en portugués."],
+      ["mcq","¿Cómo se dice “birth certificate” en portugués?",["a certidão de nascimento", "birth certificate", "ancestor", "family tree"],0,"“Birth certificate” es “a certidão de nascimento” en portugués."],
+      ["fill","Completa: “Embora os registros ___ antigos, rastreamos nossas raízes.”",["sejam", "eram", "são", "serão"],0,"“Embora” requiere subjuntivo: “embora... sejam antigos”."],
+      ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Embora nunca tenha conhecido a bisavó, ela conheça a história da família.", "Embora nunca conheceu a bisavó, ela conhece a história da família.", "Embora nunca tenha conhecido a bisavó, ela conhece a história da família.", "Apesar nunca tenha conhecido a bisavó, ela conhece a história da família."],2,"“Even though” se traduce con “embora” + subjuntivo (pretérito perfeito composto do subjuntivo aquí): “embora... tenha conhecido”."],
+      ["arrange","Ordena: [genealógica / grande / tem / árvore / uma / ela]",["grande uma genealógica árvore ela tem", "ela tem uma grande árvore genealógica", "grande árvore tem ela genealógica uma", "uma tem ela genealógica grande árvore"],1,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre sua árvore genealógica usando “embora” pelo menos duas vezes.",[],["embora", "árvore genealógica", "antepassados"]],
+    ]
+  },
+  {
+    id:"pt_b2_meteorology_extreme_weather", level:"B2", title:"A meteorologia e os fenômenos extremos", emoji:"🌪️", xp:84,
+    description:"Habla de fenómenos meteorológicos extremos usando “apesar de” en portugués.",
+    study: {
+      vocab: [
+        ["o furacão", "hurricane"],
+        ["o tornado", "tornado"],
+        ["a seca", "drought"],
+        ["a enchente repentina", "flash flood"],
+        ["a velocidade do vento", "wind speed"],
+        ["emitir um alerta", "to issue a warning"],
+      ],
+      grammar: [
+        ["“Apesar de” + sustantivo/infinitivo", "“Apesar de” + sustantivo o infinitivo (nunca cláusula conjugada completa) introduce un contraste, similar a “embora” pero con estructura distinta.", "Apesar do alerta, muitas pessoas ficaram perto da costa. / Apesar de emitir um alerta, as autoridades não conseguiram evitar os danos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “drought” en portugués?",["wind speed", "drought", "a seca", "flash flood"],2,"“Drought” es “a seca” en portugués."],
+      ["mcq","¿Cómo se dice “flash flood” en portugués?",["tornado", "a enchente repentina", "flash flood", "hurricane"],1,"“Flash flood” es “a enchente repentina” en portugués."],
+      ["fill","Completa: “___ do alerta, muitas pessoas ficaram perto da costa.”",["Apesar", "Apesar que", "Porque", "Embora"],0,"“Apesar de” + sustantivo (con “de”, contraído en “do”): “apesar do alerta”."],
+      ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Apesar de emitir um alerta, as autoridades não conseguem evitar os danos.", "Apesar emitir um alerta, as autoridades não conseguiram evitar os danos.", "Apesar de emitindo um alerta, as autoridades não conseguiram evitar os danos.", "Apesar de emitir um alerta, as autoridades não conseguiram evitar os danos."],3,"“In spite of issuing” se traduce con “apesar de emitir”, infinitivo tras la preposición."],
+      ["arrange","Ordena: [aproximando / forte / furacão / um / está / se]",["um furacão forte está se aproximando", "furacão forte está se um aproximando", "furacão um se está aproximando forte", "se está um forte aproximando furacão"],0,"Artículo + adjetivo + sustantivo + verbo + pronombre + gerundio."],
+      ["writing","Escreva em português, em 55-75 palavras, sobre um fenômeno meteorológico extremo usando “apesar de” pelo menos duas vezes.",[],["apesar de", "furacão", "alerta"]],
+    ]
+  },
+  {
+    id:"pt_c1_urban_sociology_gentrification", level:"C1", title:"A sociologia urbana e a gentrificação", emoji:"🏙️", xp:92,
+    description:"Analiza la gentrificación usando el futuro do pretérito composto para crítica del pasado en portugués.",
+    study: {
+      vocab: [
+        ["a gentrificação", "gentrification"],
+        ["o deslocamento", "displacement"],
+        ["a moradia acessível", "affordable housing"],
+        ["a renovação urbana", "urban renewal"],
+        ["o aluguel crescente", "rising rent"],
+        ["a comunidade local", "local community"],
+      ],
+      grammar: [
+        ["“Deveria ter/não deveria ter” para crítica del pasado", "“Deveria ter” + participio expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "A cidade deveria ter protegido a moradia acessível. / As autoridades não deveriam ter ignorado a comunidade local."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “displacement” en portugués?",["o deslocamento", "local community", "affordable housing", "rising rent"],0,"“Displacement” es “o deslocamento” en portugués."],
+      ["mcq","¿Cómo se dice “affordable housing” en portugués?",["a moradia acessível", "urban renewal", "displacement", "affordable housing"],0,"“Affordable housing” es “a moradia acessível” en portugués."],
+      ["fill","Completa: “A cidade ___ ter protegido a moradia acessível.”",["deverá", "devia", "deveria", "deve"],2,"“Deveria ter” + participio expresa crítica del pasado: “deveria ter protegido”."],
+      ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["As autoridades não deveriam ignorar as preocupações da comunidade local.", "As autoridades não deveriam ter ignorado as preocupações da comunidade local.", "As autoridades deveriam ter ignorado as preocupações da comunidade local.", "As autoridades não deveriam ter ignorando as preocupações da comunidade local."],1,"“Shouldn't have ignored” se traduce con “não deveriam ter ignorado”, participio tras “ter”."],
+      ["arrange","Ordena: [crescente / preocupa / moradores / aluguel / o]",["crescente o preocupa aluguel moradores", "crescente aluguel o preocupa moradores", "preocupa aluguel o moradores crescente", "o aluguel crescente preocupa moradores"],3,"Artículo + sustantivo + adjetivo + verbo + sustantivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise crítica sobre a gentrificação usando “deveria ter/não deveria ter” pelo menos duas vezes.",[],["deveria ter", "não deveria ter", "gentrificação"]],
+    ]
+  },
+  {
+    id:"pt_c2_epistemology_limits_knowledge", level:"C2", title:"A epistemologia e os limites do conhecimento", emoji:"🧭", xp:100,
+    description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en portugués.",
+    study: {
+      vocab: [
+        ["a epistemologia", "epistemology"],
+        ["a crença verdadeira justificada", "justified true belief"],
+        ["o ceticismo", "skepticism"],
+        ["a certeza", "certainty"],
+        ["o conhecimento a priori", "a priori knowledge"],
+        ["a humildade epistêmica", "epistemic humility"],
+      ],
+      grammar: [
+        ["“Mal... quando” para secuencia inmediata", "“Mal... quando” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Mal os filósofos propuseram uma teoria da certeza, quando os céticos a contestaram. / Mal alguém afirma saber algo, quando a dúvida surge."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “skepticism” en portugués?",["epistemic humility", "a priori knowledge", "skepticism", "o ceticismo"],3,"“Skepticism” es “o ceticismo” en portugués."],
+      ["mcq","¿Cómo se dice “epistemic humility” en portugués?",["justified true belief", "skepticism", "epistemic humility", "a humildade epistêmica"],3,"“Epistemic humility” es “a humildade epistêmica” en portugués."],
+      ["fill","Completa: “Mal os filósofos propuseram uma teoria, ___ os céticos a contestaram.”",["que", "quando", "pois", "então"],1,"“Mal... quando” forma la estructura de secuencia inmediata: “mal... quando”."],
+      ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["Mal alguém afirma saber algo, a dúvida desaparece.", "Alguém mal afirma saber algo, a dúvida surge.", "Mal alguém afirma saber algo, a dúvida surge.", "Mal alguém afirmou saber algo, a dúvida surge."],2,"“No sooner... than” se traduce naturalmente con “mal...” en portugués."],
+      ["arrange","Ordena: [verdadeira / exige / certeza / o / conhecimento]",["exige conhecimento verdadeira certeza o", "certeza o verdadeira conhecimento exige", "certeza exige o verdadeira conhecimento", "o conhecimento exige certeza verdadeira"],3,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, um argumento epistemológico usando “mal... quando” pelo menos uma vez.",[],["mal", "quando", "ceticismo"]],
+    ]
+  },
 ];
