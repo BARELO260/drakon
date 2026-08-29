@@ -586,9 +586,41 @@ function saveElevenKey(){
     showToast('❌ API key inválida. Cópiala desde elevenlabs.io'); return;
   }
   persistElevenKey(val);
-  showToast('✅ API key guardada. ¡Voces con personalidad activadas!');
   const st = document.getElementById('elevenKeyStatus');
-  if(st){ st.textContent = '✅ Guardada correctamente'; st.style.color = 'var(--mint)'; }
+  if(st){ st.innerHTML = '🔎 Verificando que la clave funcione…'; st.style.color = 'var(--muted)'; }
+
+  // Prueba REAL la clave con una síntesis mínima — así, si al usuario se
+  // le olvidó activar el permiso "Text to Speech" al crear la clave en
+  // ElevenLabs (el paso más fácil de pasar por alto), se entera AHORA,
+  // con el paso exacto que falta, en vez de descubrirlo a mitad de una
+  // conversación sin saber por qué la voz no suena.
+  if(typeof validateElevenKey !== 'function'){
+    showToast('✅ API key guardada. ¡Voces con personalidad activadas!');
+    if(st){ st.textContent = '✅ Guardada correctamente'; st.style.color = 'var(--mint)'; }
+    return;
+  }
+  validateElevenKey(val).then(result => {
+    if(result.ok){
+      showToast('✅ Clave verificada — la voz funciona correctamente');
+      if(st){ st.textContent = '✅ Verificada — ¡voces con personalidad activadas!'; st.style.color = 'var(--mint)'; }
+    } else if(result.isPermission){
+      showToast('⚠️ Falta activar el permiso "Text to Speech" en tu clave');
+      if(st){
+        st.innerHTML = '⚠️ La clave se guardó, pero le falta el permiso <strong style="color:var(--coral)">"Text to Speech" → Access</strong>. Ve a tu clave en <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" style="color:var(--gold)">elevenlabs.io/app/settings/api-keys</a>, edítala, activa ese permiso y vuelve a guardar aquí.';
+        st.style.color = 'var(--coral)';
+      }
+    } else if(result.status === 401){
+      showToast('❌ Esa clave no es válida. Revísala en elevenlabs.io');
+      if(st){ st.textContent = '❌ Clave inválida — revisa que la copiaste completa'; st.style.color = 'var(--coral)'; }
+    } else if(result.isQuota){
+      showToast('⚠️ Clave válida, pero sin cuota disponible este mes');
+      if(st){ st.textContent = '⚠️ Clave válida, pero sin cuota de ElevenLabs disponible'; st.style.color = 'var(--coral)'; }
+    } else {
+      // Fallo de red, timeout, etc. — no podemos confirmar, pero no negamos que funcione
+      showToast('✅ API key guardada (no se pudo verificar ahora mismo)');
+      if(st){ st.textContent = '✅ Guardada — se probará automáticamente en tu próxima conversación'; st.style.color = 'var(--muted)'; }
+    }
+  });
 }
 
 function loadElevenKeyUI(){
