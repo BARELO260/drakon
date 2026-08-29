@@ -289,7 +289,7 @@ function _elevenRequest(text, voice, voiceId, key){
         speed: voice.speed,
       },
     }),
-    signal: AbortSignal.timeout(5000), // corto a propósito: mejor caer rápido al navegador que dejar un silencio largo
+    signal: AbortSignal.timeout(12000), // texto completo en una sola petición: necesita más margen que un tramo corto
   });
 }
 
