@@ -2896,4 +2896,604 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe en español, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gerundio o participio inicial (“Analizando...” o “Ante...”).",[],["analizando", "ante", "soberanía"]],
     ]
   },
+  {
+    id:"es_a1_hairdresser_personal_care", level:"A1", title:"La peluquería y el cuidado personal", emoji:"💇", xp:38,
+    description:"Aprende vocabulario de peluquería y a usar el comparativo y superlativo en español.",
+    study: {
+      vocab: [
+        ["el corte de pelo", "haircut"],
+        ["el peluquero/la peluquera", "hairdresser"],
+        ["las tijeras", "scissors"],
+        ["el pelo corto/largo", "short/long hair"],
+        ["recortar", "to trim"],
+        ["el espejo", "mirror"],
+      ],
+      grammar: [
+        ["Comparativo y superlativo", "El comparativo se forma con “más/menos... que”, y el superlativo con “el/la más...”.", "Este corte es más corto que el anterior. / Ella tiene el pelo más largo de la familia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “scissors” en español?",["short/long hair", "to trim", "hairdresser", "las tijeras"],3,"“Scissors” es “las tijeras” en español."],
+      ["mcq","¿Cómo se dice “to trim” en español?",["to trim", "recortar", "short/long hair", "scissors"],1,"“To trim” es “recortar” en español."],
+      ["fill","Completa: “Este corte es ___ corto que el anterior.”",["más", "menos", "el más", "tan"],0,"El comparativo de superioridad se forma con “más... que”: “más corto que”."],
+      ["translate","Traduce: “She has the longest hair in the family.”",["Ella tiene el pelo más largo en la familia.", "Ella tiene el pelo más largo de la familia.", "Ella tiene el pelo más largo que la familia.", "Ella tienen el pelo más largo de la familia."],1,"“The longest... in” se traduce con “el más largo de” en español."],
+      ["arrange","Ordena: [peluquería / mejor / ciudad / esta / la / de / es]",["mejor ciudad la es la peluquería esta de", "esta es la mejor peluquería de la ciudad", "la la de ciudad esta es mejor peluquería", "la esta de ciudad la peluquería mejor es"],1,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
+      ["writing","Describe en español, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["más corto", "el más largo", "corte de pelo"]],
+    ]
+  },
+  {
+    id:"es_a2_car_repair_shop", level:"A2", title:"El taller mecánico y el carro", emoji:"🚗", xp:48,
+    description:"Aprende vocabulario del taller mecánico y a usar “mucho/muchos” en español.",
+    study: {
+      vocab: [
+        ["el mecánico", "mechanic"],
+        ["la llanta ponchada", "flat tire"],
+        ["el motor", "engine"],
+        ["arreglar el carro", "to fix the car"],
+        ["el repuesto", "spare part"],
+        ["el cambio de aceite", "oil change"],
+      ],
+      grammar: [
+        ["“Mucho/muchos” para cantidades", "“Mucho” concuerda en género y número con el sustantivo: “mucho tiempo”, “muchos repuestos”, “mucha agua”.", "Esta reparación necesita muchos repuestos. / No queda mucho tiempo antes del viaje."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “flat tire” en español?",["mechanic", "flat tire", "oil change", "la llanta ponchada"],3,"“Flat tire” es “la llanta ponchada” en español."],
+      ["mcq","¿Cómo se dice “spare part” en español?",["oil change", "el repuesto", "mechanic", "flat tire"],1,"“Spare part” es “el repuesto” en español."],
+      ["fill","Completa: “No queda ___ tiempo antes del viaje.”",["mucho", "mucha", "muchos", "muchas"],0,"“Tiempo” es masculino singular, así que se usa “mucho”: “mucho tiempo”."],
+      ["translate","Traduce: “This repair needs a lot of spare parts.”",["Esta reparación necesita muchas repuestos.", "Esta reparación necesitan muchos repuestos.", "Esta reparación necesita muchos repuestos.", "Esta reparación necesita mucho repuestos."],2,"“Repuestos” es masculino plural, así que se usa “muchos”: “muchos repuestos”."],
+      ["arrange","Ordena: [arreglado / mecánico / el / motor / el / ha]",["el mecánico arreglado el ha motor", "el mecánico ha arreglado el motor", "el ha arreglado mecánico motor el", "ha el arreglado mecánico motor el"],1,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
+      ["speaking","Describe en español, en 40-60 palabras, un problema con tu carro usando “mucho/muchos”.",[],["mucho", "muchos", "repuestos"]],
+    ]
+  },
+  {
+    id:"es_b1_learning_musical_instrument", level:"B1", title:"La música y aprender un instrumento", emoji:"🎸", xp:62,
+    description:"Aprende vocabulario musical y a usar el gerundio y el infinitivo en español.",
+    study: {
+      vocab: [
+        ["practicar escalas", "to practice scales"],
+        ["la partitura", "sheet music"],
+        ["afinar un instrumento", "to tune an instrument"],
+        ["el ritmo", "rhythm"],
+        ["el profesor de música", "music teacher"],
+        ["actuar/tocar en público", "to perform"],
+      ],
+      grammar: [
+        ["Gerundio vs. infinitivo", "Algunos verbos van seguidos de gerundio (“disfrutar tocando”, con “de” en algunos casos), otros de infinitivo (“querer tocar”).", "Disfruto practicando escalas cada mañana. / Ella quiere tocar frente a una audiencia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sheet music” en español?",["la partitura", "to tune an instrument", "rhythm", "sheet music"],0,"“Sheet music” es “la partitura” en español."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en español?",["to practice scales", "afinar un instrumento", "sheet music", "music teacher"],1,"“To tune an instrument” es “afinar un instrumento” en español."],
+      ["fill","Completa: “Disfruto ___ escalas cada mañana.”",["practicando", "practicar", "practicado", "practico"],0,"“Disfrutar” se usa con gerundio en español: “disfruto practicando”."],
+      ["translate","Traduce: “She wants to perform in front of an audience.”",["Ella quiere tocando frente a una audiencia.", "Ella quiere tocar frente a un audiencia.", "Ella quieren tocar frente a una audiencia.", "Ella quiere tocar frente a una audiencia."],3,"“Want to perform” se traduce con infinitivo: “quiere tocar”."],
+      ["arrange","Ordena: [afinación / necesita / instrumento / este]",["necesita este afinación instrumento", "instrumento afinación este necesita", "necesita instrumento este afinación", "este instrumento necesita afinación"],3,"Pronombre + sustantivo + verbo + sustantivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre aprender un instrumento musical usando al menos un verbo con gerundio y uno con infinitivo.",[],["disfruto tocando", "quiero aprender", "practicar"]],
+    ]
+  },
+  {
+    id:"es_b2_recycling_circular_economy", level:"B2", title:"El reciclaje y la economía circular", emoji:"♻️", xp:84,
+    description:"Habla del reciclaje usando el presente de indicativo para verdades generales en español.",
+    study: {
+      vocab: [
+        ["reciclar", "to recycle"],
+        ["la economía circular", "circular economy"],
+        ["la gestión de residuos", "waste management"],
+        ["reutilizar", "to reuse"],
+        ["el vertedero", "landfill"],
+        ["la materia prima", "raw material"],
+      ],
+      grammar: [
+        ["Presente de indicativo para verdades generales (condicional cero)", "En español, el condicional cero se expresa con “si” + presente de indicativo en ambas cláusulas, para hechos o verdades generales.", "Si reciclas papel, se ahorran árboles. / Los materiales van a un vertedero si no se reutilizan."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “circular economy” en español?",["la economía circular", "raw material", "landfill", "to reuse"],0,"“Circular economy” es “la economía circular” en español."],
+      ["mcq","¿Cómo se dice “landfill” en español?",["to reuse", "raw material", "el vertedero", "to recycle"],2,"“Landfill” es “el vertedero” en español."],
+      ["fill","Completa: “Si ___ papel, se ahorran árboles.”",["reciclarás", "reciclaste", "reciclas", "reciclando"],2,"El condicional cero usa presente de indicativo en ambas cláusulas: “si reciclas”."],
+      ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Los materiales fueron a un vertedero si no se reutilizan.", "Los materiales van a un vertedero si no se reutilizaron.", "Los materiales van a un vertedero si no se reutilizan.", "El material van a un vertedero si no se reutilizan."],2,"El condicional cero mantiene presente en ambas cláusulas: “van... si no se reutilizan”."],
+      ["arrange","Ordena: [prima / ahorra / reciclar / materia]",["reciclar ahorra materia prima", "reciclar materia prima ahorra", "prima reciclar materia ahorra", "materia reciclar ahorra prima"],0,"Verbo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, una explicación sobre la economía circular usando el condicional cero (“si... presente”) al menos dos veces.",[],["si reciclas", "si...", "economía circular"]],
+    ]
+  },
+  {
+    id:"es_c1_political_philosophy_social_justice", level:"C1", title:"La filosofía política y la justicia social", emoji:"⚖️", xp:92,
+    description:"Analiza la justicia social usando el imperfecto de subjuntivo para arrepentimiento en registro formal en español.",
+    study: {
+      vocab: [
+        ["la justicia social", "social justice"],
+        ["la desigualdad", "inequality"],
+        ["los derechos civiles", "civil rights"],
+        ["la redistribución", "redistribution"],
+        ["la opresión sistémica", "systemic oppression"],
+        ["el bien común", "common good"],
+      ],
+      grammar: [
+        ["“Ojalá” + pluscuamperfecto de subjuntivo para arrepentimiento", "“Ojalá” + pluscuamperfecto de subjuntivo expresa arrepentimiento o el deseo de que algo pasado hubiera sido diferente.", "Ojalá las reformas pasadas hubieran abordado la opresión sistémica. / Ojalá la desigualdad pudiera resolverse solo con políticas."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “inequality” en español?",["inequality", "systemic oppression", "civil rights", "la desigualdad"],3,"“Inequality” es “la desigualdad” en español."],
+      ["mcq","¿Cómo se dice “redistribution” en español?",["social justice", "la redistribución", "civil rights", "common good"],1,"“Redistribution” es “la redistribución” en español."],
+      ["fill","Completa: “Ojalá las reformas pasadas ___ abordado la opresión sistémica.”",["hubieran", "habían", "hayan", "habrían"],0,"“Ojalá” + pluscuamperfecto de subjuntivo expresa arrepentimiento sobre el pasado: “ojalá... hubieran abordado”."],
+      ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Los filósofos desearían que la desigualdad pudiera resolverse solo con políticas.", "Los filósofos desearían que la desigualdad puede resolverse solo con políticas.", "Los filósofos desearía que la desigualdad pudiera resolverse solo con políticas.", "Los filósofos desearían que la desigualdad pudiera resolver solo con políticas."],0,"“Wish... could be solved” se traduce con “desearían que... pudiera resolverse”, subjuntivo tras “desear que”."],
+      ["arrange","Ordena: [común / debaten / bien / el / filósofos / los]",["común bien los el debaten filósofos", "el común filósofos bien debaten los", "los filósofos debaten el bien común", "filósofos los debaten el común bien"],2,"Artículo + sustantivo + verbo + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un argumento sobre justicia social usando “ojalá” al menos dos veces.",[],["ojalá", "hubieran", "justicia social"]],
+    ]
+  },
+  {
+    id:"es_c2_cultural_anthropology_rituals", level:"C2", title:"La antropología cultural y los rituales", emoji:"🗿", xp:100,
+    description:"Analiza los rituales culturales usando comparativos dobles en español.",
+    study: {
+      vocab: [
+        ["el ritual", "ritual"],
+        ["el relativismo cultural", "cultural relativism"],
+        ["el rito de iniciación", "rite of passage"],
+        ["el parentesco", "kinship"],
+        ["la identidad colectiva", "collective identity"],
+        ["la tradición oral", "oral tradition"],
+      ],
+      grammar: [
+        ["Comparativos dobles (“cuanto más... más...”)", "La estructura “cuanto más/menos..., más/menos...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Cuanto más estudian los antropólogos los rituales, más entienden la identidad colectiva. / Cuanto más antigua la tradición, más fuerte su influencia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cultural relativism” en español?",["kinship", "oral tradition", "cultural relativism", "el relativismo cultural"],3,"“Cultural relativism” es “el relativismo cultural” en español."],
+      ["mcq","¿Cómo se dice “rite of passage” en español?",["kinship", "collective identity", "rite of passage", "el rito de iniciación"],3,"“Rite of passage” es “el rito de iniciación” en español."],
+      ["fill","Completa: “Cuanto ___ estudian los antropólogos los rituales, más entienden la identidad colectiva.”",["más", "mucho", "mejor", "menos"],0,"El comparativo doble repite “cuanto más...más” en ambas cláusulas."],
+      ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Cuanto la tradición más antigua, más fuerte su influencia.", "Cuanto más antigua es la tradición, la más fuerte su influencia.", "Cuanto más antigua la tradición, más fuerte es su influencia.", "Cuanto más antigua la tradición, más fuerte su influencia."],3,"El comparativo doble en español es “cuanto más...más...”, sin verbo obligatorio en la segunda cláusula."],
+      ["arrange","Ordena: [marcan / adultez / la / de / los / ritos / iniciación]",["adultez marcan ritos los iniciación de la", "adultez la de ritos los iniciación marcan", "los ritos de iniciación marcan la adultez", "marcan adultez iniciación ritos la los de"],2,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis sobre rituales culturales usando al menos un comparativo doble (“cuanto más... más...”).",[],["cuanto más", "más", "ritual"]],
+    ]
+  },
+  {
+    id:"es_a1_hardware_store_tools", level:"A1", title:"En la ferretería: herramientas básicas", emoji:"🔨", xp:38,
+    description:"Aprende vocabulario de herramientas y a usar la comparación de igualdad (“tan... como”) en español.",
+    study: {
+      vocab: [
+        ["el martillo", "hammer"],
+        ["el destornillador", "screwdriver"],
+        ["el clavo", "nail"],
+        ["el tornillo", "screw"],
+        ["la caja de herramientas", "toolbox"],
+        ["la escalera", "ladder"],
+      ],
+      grammar: [
+        ["Comparación de igualdad (“tan... como”)", "“Tan” + adjetivo + “como” expresa que dos cosas son iguales en cierta cualidad.", "Este martillo es tan pesado como aquel. / La escalera no es tan alta como la pared."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “screwdriver” en español?",["hammer", "screw", "toolbox", "el destornillador"],3,"“Screwdriver” es “el destornillador” en español."],
+      ["mcq","¿Cómo se dice “ladder” en español?",["ladder", "screwdriver", "hammer", "la escalera"],3,"“Ladder” es “la escalera” en español."],
+      ["fill","Completa: “Este martillo es ___ pesado como aquel.”",["tanto", "más", "menos", "tan"],3,"La comparación de igualdad usa “tan + adjetivo + como”: “tan pesado como”."],
+      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["La escalera es tan alta como la pared.", "La escalera no es tan alta como la pared.", "La escalera no es más alta que la pared.", "La escalera no es tan alta que la pared."],1,"“Isn't as... as” se traduce con “no es tan... como”."],
+      ["arrange","Ordena: [pesada / caja / herramientas / la / muy / es / de]",["la caja herramientas es pesada muy de", "la caja de herramientas es muy pesada", "muy herramientas la pesada es caja de", "muy caja de es pesada la herramientas"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Describe en español, en 20-30 palabras, comparando dos herramientas usando “tan... como”.",[],["tan pesado como", "tan alta como", "martillo"]],
+    ]
+  },
+  {
+    id:"es_a2_laundry_clothing_care", level:"A2", title:"La lavandería y el cuidado de la ropa", emoji:"🧺", xp:48,
+    description:"Aprende vocabulario de lavandería y a usar “unos pocos/un poco de” en español.",
+    study: {
+      vocab: [
+        ["la lavadora", "washing machine"],
+        ["el detergente", "detergent"],
+        ["tender la ropa", "to hang out clothes"],
+        ["la mancha", "stain"],
+        ["la secadora", "dryer"],
+        ["planchar", "to iron"],
+      ],
+      grammar: [
+        ["“Unos pocos/un poco de” para cantidades pequeñas", "“Unos pocos” se usa con sustantivos contables, “un poco de” con incontables, ambos para cantidades pequeñas pero suficientes.", "Necesito un poco de detergente para esta carga. / Hay unas pocas manchas en esta camisa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “washing machine” en español?",["la lavadora", "stain", "detergent", "dryer"],0,"“Washing machine” es “la lavadora” en español."],
+      ["mcq","¿Cómo se dice “stain” en español?",["dryer", "to hang out clothes", "to iron", "la mancha"],3,"“Stain” es “la mancha” en español."],
+      ["fill","Completa: “Hay ___ manchas en esta camisa.”",["poco", "unas pocas", "un poco de", "mucha"],1,"“Manchas” es contable plural, así que se usa “unas pocas”: “unas pocas manchas”."],
+      ["translate","Traduce: “I need a little detergent for this load.”",["Necesito un poco de detergente para esta carga.", "Necesito unos pocos detergente para esta carga.", "Necesito poco detergente para esta carga.", "Necesito un poco de detergentes para esta carga."],0,"“Detergent” es incontable, así que se usa “un poco de”: “un poco de detergente”."],
+      ["arrange","Ordena: [planchar / camisa / hay / que / esta]",["que camisa planchar hay esta", "hay que planchar esta camisa", "que hay planchar esta camisa", "esta hay que camisa planchar"],1,"Verbo impersonal + verbo + artículo + sustantivo."],
+      ["speaking","Describe en español, en 40-60 palabras, tu rutina de lavandería usando “unos pocos/un poco de”.",[],["unos pocos", "un poco de", "lavadora"]],
+    ]
+  },
+  {
+    id:"es_b1_chess_strategy_games", level:"B1", title:"El ajedrez y los juegos de mesa estratégicos", emoji:"♟️", xp:62,
+    description:"Aprende vocabulario de ajedrez y a usar el futuro simple con “si” en español.",
+    study: {
+      vocab: [
+        ["el tablero de ajedrez", "chessboard"],
+        ["dar jaque mate", "to checkmate"],
+        ["el peón", "pawn"],
+        ["mover una pieza", "to move a piece"],
+        ["la estrategia", "strategy"],
+        ["el oponente", "opponent"],
+      ],
+      grammar: [
+        ["“Si” + presente + futuro simple", "Para consecuencias reales y probables en el futuro se usa “si” + presente de indicativo, y futuro simple en la consecuencia.", "Si mueves esa pieza, perderás la partida. / Si ella planea bien su estrategia, ganará."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to checkmate” en español?",["dar jaque mate", "pawn", "to checkmate", "to move a piece"],0,"“To checkmate” es “dar jaque mate” en español."],
+      ["mcq","¿Cómo se dice “pawn” en español?",["strategy", "pawn", "to move a piece", "el peón"],3,"“Pawn” es “el peón” en español."],
+      ["fill","Completa: “Si mueves esa pieza, ___ la partida.”",["perderías", "perdiste", "pierdes", "perderás"],3,"Tras “si” + presente, se usa futuro simple en la consecuencia: “si mueves... perderás”."],
+      ["translate","Traduce: “If she plans her strategy well, she will win.”",["Si ella planea bien su estrategia, ganará.", "Si ella planeó bien su estrategia, ganará.", "Si ella planea bien su estrategia, gana.", "Si ella planea bien su estrategia, ganaría."],0,"“If... will win” se traduce con “si” + presente + futuro simple: “si planea... ganará”."],
+      ["arrange","Ordena: [fuerte / tiene / oponente / un / ella]",["un ella tiene fuerte oponente", "fuerte oponente tiene ella un", "oponente fuerte un ella tiene", "ella tiene un oponente fuerte"],3,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre una partida de ajedrez usando “si... futuro” al menos dos veces.",[],["si...", "ganará", "ajedrez"]],
+    ]
+  },
+  {
+    id:"es_b2_historic_building_restoration", level:"B2", title:"La restauración de edificios históricos", emoji:"🏛️", xp:84,
+    description:"Habla de restauración usando la construcción causativa “mandar/hacer + infinitivo” en español.",
+    study: {
+      vocab: [
+        ["restaurar", "to restore"],
+        ["el sitio patrimonial", "heritage site"],
+        ["la fachada", "facade"],
+        ["el andamio", "scaffolding"],
+        ["preservar", "to preserve"],
+        ["el daño estructural", "structural damage"],
+      ],
+      grammar: [
+        ["Construcción causativa (“mandar/hacer + infinitivo”)", "“Mandar” o “hacer” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "La ciudad mandó restaurar la fachada el año pasado. / Están haciendo reparar el techo este mes."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “facade” en español?",["scaffolding", "la fachada", "heritage site", "to restore"],1,"“Facade” es “la fachada” en español."],
+      ["mcq","¿Cómo se dice “scaffolding” en español?",["el andamio", "heritage site", "structural damage", "facade"],0,"“Scaffolding” es “el andamio” en español."],
+      ["fill","Completa: “La ciudad ___ restaurar la fachada el año pasado.”",["mandó", "manda", "mandará", "mandaba"],0,"La construcción causativa en pasado usa “mandó” + infinitivo: “mandó restaurar”."],
+      ["translate","Traduce: “They are getting the roof repaired this month.”",["Hicieron reparar el techo este mes.", "Están haciendo reparado el techo este mes.", "Están mandando reparar el techo este mes por ellos.", "Están haciendo reparar el techo este mes."],3,"“Are getting... repaired” se traduce con “están haciendo reparar”, construcción causativa en presente continuo."],
+      ["arrange","Ordena: [preservar / importantes / sitios / patrimoniales]",["preservar sitios patrimoniales importantes", "preservar sitios importantes patrimoniales", "importantes preservar patrimoniales sitios", "sitios importantes preservar patrimoniales"],0,"Infinitivo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre la restauración de un edificio histórico usando la construcción causativa (“mandar/hacer + infinitivo”) al menos dos veces.",[],["mandó restaurar", "están haciendo reparar", "sitio patrimonial"]],
+    ]
+  },
+  {
+    id:"es_c1_philosophy_of_science", level:"C1", title:"La filosofía de la ciencia y el método científico", emoji:"🔬", xp:92,
+    description:"Analiza el método científico usando cláusulas de propósito (“para que/con el fin de”) en español.",
+    study: {
+      vocab: [
+        ["la hipótesis", "hypothesis"],
+        ["la falsabilidad", "falsifiability"],
+        ["la evidencia empírica", "empirical evidence"],
+        ["la revisión por pares", "peer review"],
+        ["replicar un estudio", "to replicate a study"],
+        ["el cambio de paradigma", "paradigm shift"],
+      ],
+      grammar: [
+        ["Cláusulas de propósito (“para que/con el fin de”)", "“Con el fin de” + infinitivo y “para que” + subjuntivo expresan el propósito de una acción, típicos del registro formal/académico.", "Los científicos replican estudios con el fin de confirmar resultados. / Los investigadores publican datos para que otros puedan verificarlos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “falsifiability” en español?",["empirical evidence", "hypothesis", "la falsabilidad", "peer review"],2,"“Falsifiability” es “la falsabilidad” en español."],
+      ["mcq","¿Cómo se dice “peer review” en español?",["to replicate a study", "hypothesis", "paradigm shift", "la revisión por pares"],3,"“Peer review” es “la revisión por pares” en español."],
+      ["fill","Completa: “Los investigadores publican datos para ___ otros puedan verificarlos.”",["con", "de", "que", "por"],2,"“Para que” + subjuntivo expresa propósito: “para que otros puedan verificarlos”."],
+      ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Los científicos replican estudios para el fin de confirmar resultados.", "Los científicos replican estudios con el fin de confirman resultados.", "Los científicos replican estudios con el fin confirmar resultados.", "Los científicos replican estudios con el fin de confirmar resultados."],3,"“In order to confirm” en registro formal se traduce con “con el fin de confirmar”."],
+      ["arrange","Ordena: [necesita / hipótesis / empírica / toda / evidencia]",["empírica evidencia hipótesis necesita toda", "toda hipótesis necesita evidencia empírica", "toda necesita hipótesis evidencia empírica", "evidencia necesita empírica toda hipótesis"],1,"Adjetivo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre el método científico usando “con el fin de” o “para que” al menos dos veces.",[],["con el fin de", "para que", "hipótesis"]],
+    ]
+  },
+  {
+    id:"es_c2_game_theory_strategic_decisions", level:"C2", title:"La teoría de juegos y la toma de decisiones estratégica", emoji:"🎲", xp:100,
+    description:"Analiza la teoría de juegos usando “ni... ni” y concesión con “mientras que” en español.",
+    study: {
+      vocab: [
+        ["el equilibrio de Nash", "Nash equilibrium"],
+        ["el juego de suma cero", "zero-sum game"],
+        ["la matriz de pagos", "payoff matrix"],
+        ["la estrategia dominante", "dominant strategy"],
+        ["el actor racional", "rational actor"],
+        ["el dilema del prisionero", "prisoner's dilemma"],
+      ],
+      grammar: [
+        ["“Ni... ni” y concesión con “mientras que”", "“Ni... ni” niega dos opciones a la vez; “mientras que” introduce un contraste formal entre dos ideas.", "Ni un jugador se beneficia de la traición mutua. / Mientras que la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalece."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Nash equilibrium” en español?",["el equilibrio de Nash", "dominant strategy", "payoff matrix", "zero-sum game"],0,"“Nash equilibrium” es “el equilibrio de Nash” en español."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en español?",["prisoner's dilemma", "rational actor", "el dilema del prisionero", "zero-sum game"],2,"“Prisoner's dilemma” es “el dilema del prisionero” en español."],
+      ["fill","Completa: “Ni un jugador ___ beneficia de la traición mutua.”",["se", "lo", "le", "les"],0,"El verbo pronominal “beneficiarse” requiere “se”: “se beneficia”."],
+      ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Mientras que la cooperación maximice la ganancia conjunta, el interés propio a menudo prevalece.", "Mientras que la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalezca.", "Mientras la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalece.", "Mientras que la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalece."],3,"“Mientras que” (con “que”) es la forma estándar para introducir contraste formal, con indicativo: “prevalece”."],
+      ["arrange","Ordena: [dominante / tiene / ningún / estrategia / jugador]",["jugador estrategia tiene dominante ningún", "dominante ningún estrategia tiene jugador", "ningún jugador tiene estrategia dominante", "tiene estrategia jugador dominante ningún"],2,"Pronombre negativo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis de teoría de juegos usando “ni... ni” y “mientras que” al menos una vez cada uno.",[],["ni...ni", "mientras que", "equilibrio de Nash"]],
+    ]
+  },
+  {
+    id:"es_a1_diving_water_sports", level:"A1", title:"El buceo y los deportes acuáticos", emoji:"🤿", xp:38,
+    description:"Aprende vocabulario de buceo y a usar preposiciones de lugar en español.",
+    study: {
+      vocab: [
+        ["bucear", "to dive"],
+        ["el esnórquel", "snorkel"],
+        ["el pez", "fish"],
+        ["el arrecife de coral", "coral reef"],
+        ["el traje de neopreno", "wetsuit"],
+        ["bajo el agua", "underwater"],
+      ],
+      grammar: [
+        ["Preposiciones de lugar (en/sobre/debajo de/al lado de)", "“En” indica dentro de algo, “sobre” indica encima de una superficie, “debajo de” indica abajo, y “al lado de” indica junto a.", "Los peces nadan en el agua. / El arrecife de coral está debajo del barco."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “coral reef” en español?",["wetsuit", "el arrecife de coral", "snorkel", "fish"],1,"“Coral reef” es “el arrecife de coral” en español."],
+      ["mcq","¿Cómo se dice “wetsuit” en español?",["el traje de neopreno", "underwater", "snorkel", "wetsuit"],0,"“Wetsuit” es “el traje de neopreno” en español."],
+      ["fill","Completa: “El arrecife de coral está ___ del barco.”",["debajo", "al lado", "sobre", "en"],0,"“Debajo de” indica una posición inferior: “debajo del barco”."],
+      ["translate","Traduce: “The fish swim in the water.”",["Los peces nadan al lado del agua.", "Los peces nadan sobre el agua.", "Los peces nadan en el agua.", "Los peces nadan debajo el agua."],2,"“In the water” se traduce con “en el agua”, ya que están dentro de ella."],
+      ["arrange","Ordena: [barco / lado / al / buzo / del / está / el]",["buzo al del lado barco está el", "el buzo está al lado del barco", "buzo al el está barco lado del", "del está el lado al barco buzo"],1,"Artículo + sustantivo + verbo + preposición + preposición + artículo + sustantivo."],
+      ["writing","Describe en español, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (en/sobre/debajo de/al lado de).",[],["debajo de", "en", "peces"]],
+    ]
+  },
+  {
+    id:"es_a2_origami_crafts", level:"A2", title:"El origami y las manualidades", emoji:"🎨", xp:48,
+    description:"Aprende vocabulario de manualidades y a usar secuenciadores en español.",
+    study: {
+      vocab: [
+        ["doblar", "to fold"],
+        ["el papel", "paper"],
+        ["las tijeras", "scissors"],
+        ["el pegamento", "glue"],
+        ["el pliegue", "crease"],
+        ["la manualidad", "craft"],
+      ],
+      grammar: [
+        ["Secuenciadores (primero, luego, después, finalmente)", "Los secuenciadores organizan los pasos de un proceso en orden: “primero”, “luego/después”, “finalmente”.", "Primero, dobla el papel por la mitad. Luego, haz un pliegue. Finalmente, dobla las esquinas."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “crease” en español?",["el pliegue", "craft", "to fold", "glue"],0,"“Crease” es “el pliegue” en español."],
+      ["mcq","¿Cómo se dice “glue” en español?",["el pegamento", "craft", "glue", "to fold"],0,"“Glue” es “el pegamento” en español."],
+      ["fill","Completa: “Primero, dobla el papel. ___, haz un pliegue.”",["Primero", "Luego", "Antes", "Finalmente"],1,"“Luego” conecta el segundo paso después de “primero”."],
+      ["translate","Traduce: “Finally, fold the corners.”",["Finalmente, doblando las esquinas.", "Finalmente, dobla la esquina.", "Luego, dobla las esquinas.", "Finalmente, dobla las esquinas."],3,"“Finally” se traduce con “Finalmente” al inicio de la oración."],
+      ["arrange","Ordena: [tijeras / manualidad / necesita / esta]",["manualidad necesita esta tijeras", "necesita esta tijeras manualidad", "necesita manualidad tijeras esta", "esta manualidad necesita tijeras"],3,"Pronombre + sustantivo + verbo + sustantivo."],
+      ["speaking","Describe en español, en 40-60 palabras, los pasos para hacer una manualidad usando secuenciadores (primero, luego, finalmente).",[],["primero", "luego", "finalmente"]],
+    ]
+  },
+  {
+    id:"es_b1_paleontology_dinosaurs", level:"B1", title:"La paleontología y los dinosaurios", emoji:"🦴", xp:62,
+    description:"Aprende vocabulario de paleontología y a usar “ya/todavía” con el pretérito perfecto en español.",
+    study: {
+      vocab: [
+        ["el fósil", "fossil"],
+        ["el hueso de dinosaurio", "dinosaur bone"],
+        ["el sitio de excavación", "excavation site"],
+        ["extinto", "extinct"],
+        ["el esqueleto", "skeleton"],
+        ["desenterrar", "to dig up"],
+      ],
+      grammar: [
+        ["“Ya/todavía” con el pretérito perfecto", "“Ya” (already) se usa en afirmativas, “todavía no” (not yet) en negativas, y “todavía” (still) enfatiza una situación que continúa.", "Ya han encontrado el esqueleto. / Todavía no han terminado la excavación. / Los científicos todavía están estudiando el fósil."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “fossil” en español?",["el fósil", "extinct", "to dig up", "excavation site"],0,"“Fossil” es “el fósil” en español."],
+      ["mcq","¿Cómo se dice “skeleton” en español?",["to dig up", "el esqueleto", "skeleton", "fossil"],1,"“Skeleton” es “el esqueleto” en español."],
+      ["fill","Completa: “___ no han terminado la excavación.”",["Ya", "Aún así", "Todavía", "Siempre"],2,"“Todavía no” equivale a “not yet”: “todavía no han terminado”."],
+      ["translate","Traduce: “Scientists are still studying the fossil.”",["Los científicos todavía están estudiando el fósil.", "Los científicos ya están estudiando el fósil.", "Los científicos todavía estudian el fósil ya.", "Los científicos todavía no están estudiando el fósil."],0,"“Are still studying” se traduce con “todavía están estudiando”, presente continuo."],
+      ["arrange","Ordena: [esqueleto / encontrado / han / el / ya]",["encontrado esqueleto han el ya", "esqueleto el han ya encontrado", "han esqueleto el ya encontrado", "ya han encontrado el esqueleto"],3,"Adverbio + “han” + participio + artículo + sustantivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre un descubrimiento de dinosaurios usando “ya/todavía” al menos dos veces.",[],["ya", "todavía no", "todavía"]],
+    ]
+  },
+  {
+    id:"es_b2_street_art_graffiti", level:"B2", title:"El arte urbano y el grafiti", emoji:"🎨", xp:84,
+    description:"Habla de arte urbano usando “a menos que” en español.",
+    study: {
+      vocab: [
+        ["el mural", "mural"],
+        ["la pintura en aerosol", "spray paint"],
+        ["el espacio público", "public space"],
+        ["el vandalismo", "vandalism"],
+        ["el artista urbano", "street artist"],
+        ["encargar un mural", "to commission a mural"],
+      ],
+      grammar: [
+        ["“A menos que” + subjuntivo", "“A menos que” + subjuntivo expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "A menos que la ciudad lo apruebe, el mural se considerará vandalismo. / Ella no pintará a menos que tenga permiso."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “vandalism” en español?",["street artist", "spray paint", "el vandalismo", "public space"],2,"“Vandalism” es “el vandalismo” en español."],
+      ["mcq","¿Cómo se dice “to commission a mural” en español?",["public space", "street artist", "encargar un mural", "spray paint"],2,"“To commission a mural” es “encargar un mural” en español."],
+      ["fill","Completa: “Ella no pintará a menos que ___ permiso.”",["tenga", "tendrá", "tendría", "tiene"],0,"“A menos que” requiere subjuntivo: “a menos que tenga”."],
+      ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["A menos que la ciudad lo apruebe, el mural se considerará vandalismo.", "Si la ciudad lo apruebe, el mural se considerará vandalismo.", "A menos que la ciudad lo apruebe, el mural se considera vandalismo.", "A menos que la ciudad lo aprueba, el mural se considerará vandalismo."],0,"“Unless” se traduce con “a menos que” + subjuntivo: “a menos que... apruebe”."],
+      ["arrange","Ordena: [talentoso / muy / artista / este / es]",["artista muy es talentoso este", "este artista es muy talentoso", "este muy es artista talentoso", "es talentoso artista muy este"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre el arte urbano usando “a menos que” al menos dos veces.",[],["a menos que", "mural", "artista urbano"]],
+    ]
+  },
+  {
+    id:"es_c1_criminology_criminal_justice", level:"C1", title:"La criminología y la justicia penal", emoji:"🔍", xp:92,
+    description:"Analiza la criminología usando el futuro/condicional de probabilidad en registro formal en español.",
+    study: {
+      vocab: [
+        ["la evidencia forense", "forensic evidence"],
+        ["el sospechoso", "suspect"],
+        ["condenar", "to convict"],
+        ["la duda razonable", "reasonable doubt"],
+        ["la reincidencia", "recidivism"],
+        ["la rehabilitación", "rehabilitation"],
+      ],
+      grammar: [
+        ["Podría/puede + infinitivo para posibilidad formal", "“Podría” y “puede” + infinitivo expresan posibilidad; en registro formal/legal, “puede” suele sonar ligeramente más seguro que “podría”.", "La evidencia forense puede apuntar al sospechoso. / Sin rehabilitación, la reincidencia podría aumentar."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “reasonable doubt” en español?",["la duda razonable", "to convict", "reasonable doubt", "recidivism"],0,"“Reasonable doubt” es “la duda razonable” en español."],
+      ["mcq","¿Cómo se dice “recidivism” en español?",["reasonable doubt", "rehabilitation", "forensic evidence", "la reincidencia"],3,"“Recidivism” es “la reincidencia” en español."],
+      ["fill","Completa: “La evidencia forense ___ apuntar al sospechoso.”",["debe", "puede de", "puede", "podría de"],2,"“Puede” + infinitivo expresa posibilidad formal: “puede apuntar”."],
+      ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Sin rehabilitación, la reincidencia podría aumentar.", "Sin rehabilitación, la reincidencia puede aumentando.", "Sin rehabilitación, la reincidencia debe aumentar.", "Sin rehabilitación, la reincidencia podría aumentado."],0,"“Might increase” se traduce con “podría aumentar”, posibilidad formal en español."],
+      ["arrange","Ordena: [condenar / no / al / tribunal / puede / sospechoso / el]",["el sospechoso puede al condenar no tribunal", "el tribunal no puede condenar al sospechoso", "tribunal no sospechoso al puede el condenar", "no al sospechoso el puede condenar tribunal"],1,"Artículo + sustantivo + negación + verbo modal + verbo + preposición + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis sobre justicia penal usando “puede/podría” al menos dos veces.",[],["puede", "podría", "duda razonable"]],
+    ]
+  },
+  {
+    id:"es_c2_philosophy_of_language", level:"C2", title:"La filosofía del lenguaje", emoji:"💬", xp:100,
+    description:"Analiza la filosofía del lenguaje usando el subjuntivo tras verbos de sugerencia en español.",
+    study: {
+      vocab: [
+        ["el acto de habla", "speech act"],
+        ["la referencia", "reference"],
+        ["el significado", "meaning"],
+        ["la ambigüedad", "ambiguity"],
+        ["la relatividad lingüística", "linguistic relativity"],
+        ["la proposición", "proposition"],
+      ],
+      grammar: [
+        ["Subjuntivo tras verbos de sugerencia (sugerir/insistir/recomendar que)", "Tras verbos como “sugerir”, “insistir” o “recomendar” + “que”, el verbo siguiente va en subjuntivo, típico del registro formal/académico.", "Los filósofos sugieren que el significado se estudie a través del uso. / El lingüista insiste en que se considere el contexto."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “speech act” en español?",["linguistic relativity", "reference", "meaning", "el acto de habla"],3,"“Speech act” es “el acto de habla” en español."],
+      ["mcq","¿Cómo se dice “ambiguity” en español?",["speech act", "linguistic relativity", "reference", "la ambigüedad"],3,"“Ambiguity” es “la ambigüedad” en español."],
+      ["fill","Completa: “El lingüista insiste en que se ___ el contexto.”",["consideró", "considerará", "considere", "considera"],2,"El subjuntivo presente sigue a “insistir en que”: “insiste en que se considere”."],
+      ["translate","Traduce con subjuntivo: “Philosophers suggest that meaning be studied through use.”",["Los filósofos sugieren que el significado se estudia a través del uso.", "Los filósofos sugieren que el significado se estudiará a través del uso.", "Los filósofos sugieren que el significado se estudie a través del uso.", "Los filósofos sugiere que el significado se estudie a través del uso."],2,"El verbo “sugerir que” requiere subjuntivo presente: “sugieren que... se estudie”."],
+      ["arrange","Ordena: [ambigua / esta / oración / es]",["esta oración es ambigua", "esta oración ambigua es", "oración ambigua esta es", "es esta ambigua oración"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un argumento sobre filosofía del lenguaje usando el subjuntivo tras “sugerir/insistir/recomendar que” al menos dos veces.",[],["sugiere que", "insiste en que", "significado"]],
+    ]
+  },
+  {
+    id:"es_a1_circus_shows", level:"A1", title:"El circo y los espectáculos", emoji:"🎪", xp:38,
+    description:"Aprende vocabulario del circo y a usar exclamaciones (“qué.../cómo...”) en español.",
+    study: {
+      vocab: [
+        ["el payaso", "clown"],
+        ["la cuerda floja", "tightrope"],
+        ["el malabarista", "juggler"],
+        ["el acróbata", "acrobat"],
+        ["la carpa", "tent"],
+        ["asombroso", "amazing"],
+      ],
+      grammar: [
+        ["Exclamaciones (“qué.../cómo...”)", "“Qué” + sustantivo/adjetivo y “Cómo” + verbo expresan sorpresa o admiración de forma exclamativa.", "¡Qué malabarista tan asombroso! / ¡Cómo me asombra este espectáculo!"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “juggler” en español?",["el malabarista", "tent", "acrobat", "tightrope"],0,"“Juggler” es “el malabarista” en español."],
+      ["mcq","¿Cómo se dice “acrobat” en español?",["juggler", "tightrope", "el acróbata", "clown"],2,"“Acrobat” es “el acróbata” en español."],
+      ["fill","Completa: “¡___ malabarista tan asombroso!”",["Cuánto", "Qué", "Cuán", "Cómo"],1,"“Qué” + sustantivo expresa admiración: “qué malabarista”."],
+      ["translate","Traduce: “How amazing this show is!”",["¡Cómo asombroso es este espectáculo!", "¡Qué es asombroso este espectáculo!", "¡Qué asombroso este espectáculo!", "¡Qué asombroso es este espectáculo!"],3,"“How amazing... is!” se traduce con “¡Qué asombroso es...!” en español."],
+      ["arrange","Ordena: [cuerda / camina / el / floja / la / payaso / en]",["en cuerda el camina la payaso floja", "cuerda en payaso la floja el camina", "el payaso camina en la cuerda floja", "en cuerda camina floja la payaso el"],2,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["writing","Describe en español, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“qué.../cómo...”).",[],["qué", "cómo", "asombroso"]],
+    ]
+  },
+  {
+    id:"es_a2_flea_market_bargains", level:"A2", title:"El mercado de pulgas y las gangas", emoji:"🛍️", xp:48,
+    description:"Aprende vocabulario de mercados de pulgas y a usar “demasiado/suficiente” en español.",
+    study: {
+      vocab: [
+        ["el mercado de pulgas", "flea market"],
+        ["la ganga", "bargain"],
+        ["regatear", "to haggle"],
+        ["de segunda mano", "secondhand"],
+        ["el vendedor", "vendor"],
+        ["la antigüedad", "antique"],
+      ],
+      grammar: [
+        ["“Demasiado/suficiente”", "“Demasiado” + adjetivo indica exceso, mientras que “suficiente” indica una cantidad adecuada.", "Esta antigüedad es demasiado cara. / No tengo suficiente dinero para esta ganga."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to haggle” en español?",["flea market", "regatear", "antique", "to haggle"],1,"“To haggle” es “regatear” en español."],
+      ["mcq","¿Cómo se dice “vendor” en español?",["to haggle", "el vendedor", "vendor", "antique"],1,"“Vendor” es “el vendedor” en español."],
+      ["fill","Completa: “Esta antigüedad es ___ cara.”",["demasiado", "muy mucho", "tan mucho", "suficiente"],0,"“Demasiado” + adjetivo expresa exceso: “demasiado cara”."],
+      ["translate","Traduce: “I don't have enough money for this bargain.”",["No tengo suficiente dinero para este ganga.", "No tengo demasiado dinero para esta ganga.", "No tengo suficiente dinero para esta ganga.", "No tengo dinero suficiente para esta bargain."],2,"“Enough money” se traduce con “suficiente dinero”."],
+      ["arrange","Ordena: [vendedor / regateo / el / con]",["el con vendedor regateo", "regateo con el vendedor", "vendedor el regateo con", "vendedor regateo con el"],1,"Verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en español, en 40-60 palabras, una visita a un mercado de pulgas usando “demasiado/suficiente”.",[],["demasiado", "suficiente", "ganga"]],
+    ]
+  },
+  {
+    id:"es_b1_genealogy_family_tree", level:"B1", title:"La genealogía y el árbol familiar", emoji:"🌳", xp:62,
+    description:"Aprende vocabulario de genealogía y a usar “aunque” en español.",
+    study: {
+      vocab: [
+        ["el árbol familiar", "family tree"],
+        ["el antepasado", "ancestor"],
+        ["el descendiente", "descendant"],
+        ["el acta de nacimiento", "birth certificate"],
+        ["el bisabuelo/la bisabuela", "great-grandparent"],
+        ["rastrear las raíces", "to trace one's roots"],
+      ],
+      grammar: [
+        ["“Aunque” para concesión", "“Aunque” + indicativo expresa un hecho real conocido; “aunque” + subjuntivo expresa una posibilidad hipotética o desconocida.", "Aunque los registros son antiguos, rastreamos nuestras raíces. / Aunque nunca conoció a su bisabuela, conoce la historia familiar."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancestor” en español?",["el antepasado", "to trace one's roots", "descendant", "great-grandparent"],0,"“Ancestor” es “el antepasado” en español."],
+      ["mcq","¿Cómo se dice “birth certificate” en español?",["el acta de nacimiento", "descendant", "ancestor", "family tree"],0,"“Birth certificate” es “el acta de nacimiento” en español."],
+      ["fill","Completa: “___ los registros son antiguos, rastreamos nuestras raíces.”",["Así que", "Aunque", "Porque", "Entonces"],1,"“Aunque” + indicativo (hecho real) introduce la concesión: “aunque los registros son”."],
+      ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["A pesar nunca conoció a su bisabuela, conoce la historia familiar.", "Aunque nunca conoce a su bisabuela, conoce la historia familiar.", "Aunque nunca conoció a su bisabuela, conoce la historia familiar.", "Aunque nunca conoció a su bisabuela, conozca la historia familiar."],2,"“Even though” se traduce con “aunque” + indicativo, ya que es un hecho conocido."],
+      ["arrange","Ordena: [árbol / grande / tiene / familiar / un / ella]",["tiene familiar grande árbol un ella", "ella tiene un árbol familiar grande", "árbol tiene grande familiar un ella", "ella grande familiar árbol tiene un"],1,"Sujeto + verbo + artículo + sustantivo compuesto + adjetivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre tu árbol familiar usando “aunque” al menos dos veces.",[],["aunque", "árbol familiar", "antepasados"]],
+    ]
+  },
+  {
+    id:"es_b2_meteorology_extreme_weather", level:"B2", title:"La meteorología y los fenómenos extremos", emoji:"🌪️", xp:84,
+    description:"Habla de fenómenos meteorológicos extremos usando “a pesar de” en español.",
+    study: {
+      vocab: [
+        ["el huracán", "hurricane"],
+        ["el tornado", "tornado"],
+        ["la sequía", "drought"],
+        ["la inundación repentina", "flash flood"],
+        ["la velocidad del viento", "wind speed"],
+        ["emitir una alerta", "to issue a warning"],
+      ],
+      grammar: [
+        ["“A pesar de” + sustantivo/infinitivo", "“A pesar de” + sustantivo o infinitivo (nunca cláusula conjugada completa) introduce un contraste, similar a “aunque” pero con estructura distinta.", "A pesar de la alerta, mucha gente se quedó cerca de la costa. / A pesar de emitir una alerta, las autoridades no pudieron evitar el daño."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “drought” en español?",["la sequía", "to issue a warning", "flash flood", "wind speed"],0,"“Drought” es “la sequía” en español."],
+      ["mcq","¿Cómo se dice “flash flood” en español?",["drought", "to issue a warning", "la inundación repentina", "flash flood"],2,"“Flash flood” es “la inundación repentina” en español."],
+      ["fill","Completa: “___ la alerta, mucha gente se quedó cerca de la costa.”",["Porque", "A pesar de", "Aunque", "A pesar"],1,"“A pesar de” + sustantivo (con “de”): “a pesar de la alerta”."],
+      ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["A pesar de emitir una alerta, las autoridades no pudieron evitar el daño.", "A pesar de emitir una alerta, las autoridades no pueden evitar el daño.", "A pesar emitir una alerta, las autoridades no pudieron evitar el daño.", "A pesar de emitiendo una alerta, las autoridades no pudieron evitar el daño."],0,"“In spite of issuing” se traduce con “a pesar de emitir”, infinitivo tras la preposición."],
+      ["arrange","Ordena: [acercándose / huracán / fuerte / un / está]",["huracán acercándose fuerte está un", "acercándose huracán un está fuerte", "un huracán fuerte está acercándose", "un acercándose está huracán fuerte"],2,"Artículo + sustantivo + adjetivo + verbo + gerundio."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre un fenómeno meteorológico extremo usando “a pesar de” al menos dos veces.",[],["a pesar de", "huracán", "alerta"]],
+    ]
+  },
+  {
+    id:"es_c1_urban_sociology_gentrification", level:"C1", title:"La sociología urbana y la gentrificación", emoji:"🏙️", xp:92,
+    description:"Analiza la gentrificación usando el condicional compuesto para crítica del pasado en español.",
+    study: {
+      vocab: [
+        ["la gentrificación", "gentrification"],
+        ["el desplazamiento", "displacement"],
+        ["la vivienda asequible", "affordable housing"],
+        ["la renovación urbana", "urban renewal"],
+        ["el alquiler creciente", "rising rent"],
+        ["la comunidad local", "local community"],
+      ],
+      grammar: [
+        ["“Debería/no debería haber” para crítica del pasado", "“Debería haber” + participio expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "La ciudad debería haber protegido la vivienda asequible. / Las autoridades no deberían haber ignorado a la comunidad local."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “displacement” en español?",["urban renewal", "affordable housing", "el desplazamiento", "local community"],2,"“Displacement” es “el desplazamiento” en español."],
+      ["mcq","¿Cómo se dice “affordable housing” en español?",["urban renewal", "la vivienda asequible", "gentrification", "rising rent"],1,"“Affordable housing” es “la vivienda asequible” en español."],
+      ["fill","Completa: “La ciudad ___ haber protegido la vivienda asequible.”",["deberá", "debe", "debería", "debía"],2,"“Debería haber” + participio expresa crítica del pasado: “debería haber protegido”."],
+      ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Las autoridades no deberían ignorar las preocupaciones de la comunidad local.", "Las autoridades no deberían haber ignorado las preocupaciones de la comunidad local.", "Las autoridades no deberían haber ignorando las preocupaciones de la comunidad local.", "Las autoridades deberían haber ignorado las preocupaciones de la comunidad local."],1,"“Shouldn't have ignored” se traduce con “no deberían haber ignorado”, participio tras “haber”."],
+      ["arrange","Ordena: [preocupa / creciente / a / residentes / el / los / alquiler]",["el alquiler creciente preocupa a los residentes", "creciente residentes los preocupa a el alquiler", "los creciente alquiler residentes a preocupa el", "residentes alquiler los preocupa a creciente el"],0,"Artículo + sustantivo + adjetivo + verbo + preposición + artículo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis crítico sobre la gentrificación usando “debería haber/no debería haber” al menos dos veces.",[],["debería haber", "no debería haber", "gentrificación"]],
+    ]
+  },
+  {
+    id:"es_c2_epistemology_limits_knowledge", level:"C2", title:"La epistemología y los límites del conocimiento", emoji:"🧭", xp:100,
+    description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en español.",
+    study: {
+      vocab: [
+        ["la epistemología", "epistemology"],
+        ["la creencia verdadera justificada", "justified true belief"],
+        ["el escepticismo", "skepticism"],
+        ["la certeza", "certainty"],
+        ["el conocimiento a priori", "a priori knowledge"],
+        ["la humildad epistémica", "epistemic humility"],
+      ],
+      grammar: [
+        ["“Apenas... cuando/en cuanto...” para secuencia inmediata", "“Apenas... cuando” o “en cuanto” expresan que una acción ocurrió inmediatamente después de otra, un recurso formal similar a “no sooner...than” en inglés.", "Apenas los filósofos propusieron una teoría de la certeza, cuando los escépticos la refutaron. / En cuanto alguien afirma saber algo, surge la duda."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “skepticism” en español?",["epistemic humility", "certainty", "el escepticismo", "epistemology"],2,"“Skepticism” es “el escepticismo” en español."],
+      ["mcq","¿Cómo se dice “epistemic humility” en español?",["skepticism", "la humildad epistémica", "certainty", "justified true belief"],1,"“Epistemic humility” es “la humildad epistémica” en español."],
+      ["fill","Completa: “Apenas los filósofos propusieron una teoría, ___ los escépticos la refutaron.”",["así", "pues", "que", "cuando"],3,"“Apenas... cuando” forma la estructura de secuencia inmediata: “apenas propusieron, cuando refutaron”."],
+      ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["En cuanto alguien afirma saber algo, surge la duda.", "En cuanto alguien afirma saber algo, desaparece la duda.", "Apenas alguien afirma saber algo y surge la duda.", "En cuanto alguien afirmó saber algo, surge la duda."],0,"“No sooner... than” se traduce naturalmente con “en cuanto...” en español."],
+      ["arrange","Ordena: [certeza / requiere / verdadera / el / conocimiento]",["el conocimiento certeza requiere verdadera", "conocimiento verdadera el requiere certeza", "requiere certeza el verdadera conocimiento", "el conocimiento requiere certeza verdadera"],3,"Artículo + sustantivo + verbo + adjetivo + sustantivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un argumento epistemológico usando “apenas... cuando” o “en cuanto” al menos una vez.",[],["apenas...cuando", "en cuanto", "escepticismo"]],
+    ]
+  },
 ];
