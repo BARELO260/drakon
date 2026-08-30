@@ -50,8 +50,8 @@ function showStreakInfo(){
   else showToast(`⏰ Practica antes de medianoche para mantener tu racha de ${state.streak} días`);
 }
 function updateAIBar(){
-  const lbl=document.getElementById('aiUsageLbl'); if(lbl) lbl.textContent=`${state.msgsToday} de ${state.isPremium?'∞':FREE_LIMIT} mensajes usados hoy`;
-  const bar=document.getElementById('aiUsageBar'); if(bar) bar.style.width=Math.min(state.msgsToday/FREE_LIMIT*100,100)+'%';
+  const lbl=document.getElementById('aiUsageLbl'); if(lbl) lbl.textContent=`${aiMessagesUsedToday()} de ${isPremiumActive()?'∞':aiMessagesLimit()} mensajes usados hoy`;
+  const bar=document.getElementById('aiUsageBar'); if(bar) bar.style.width=Math.min(aiMessagesUsedToday()/aiMessagesLimit()*100,100)+'%';
 }
 
 /* ═══════════════════════════════════════
@@ -106,19 +106,53 @@ function checkAchievements(){
 /* ═══════════════════════════════════════
    PREMIUM
 ═══════════════════════════════════════ */
-function showPremModal(){ document.getElementById('premModal').style.display='flex'; }
+function showPremModal(){ document.getElementById('premModal').style.display='flex'; renderPremModal(); }
 function closePrem(){ document.getElementById('premModal').style.display='none'; }
 function closePremOv(e){ if(e.target===document.getElementById('premModal')) closePrem(); }
-function activatePrem(){
-  state.isPremium=true; save(); closePrem(); updatePremUI();
-  showToast('🎉 ¡Drakón Pro activado! Disfruta sin límites.');
-  ['vocabLock','debateLock','storyLock','roleplayLock'].forEach(id=>{ const el=document.getElementById(id); if(el) el.style.display='none'; });
-  renderThemeGrid(); renderChars();
+
+// Refresca el precio real (si Google Play Billing está disponible) y el
+// texto del botón cada vez que se abre el modal.
+async function renderPremModal(){
+  const priceEl = document.getElementById('premPriceLbl');
+  if(priceEl && typeof DrakonBilling !== 'undefined'){
+    priceEl.textContent = await DrakonBilling.getPremiumPriceLabel();
+  }
+  const restoreBtn = document.getElementById('premRestoreBtn');
+  if(restoreBtn) restoreBtn.style.display = (typeof DrakonBilling!=='undefined' && DrakonBilling.isAvailable()) ? 'block' : 'none';
 }
+
+// Compra REAL vía Google Play Billing (Digital Goods API + verificación
+// en el servidor — ver js/monetization.js → DrakonBilling). Nunca activa
+// Premium localmente sin esa verificación: si la compra no se puede
+// verificar, el plan se queda en Gratis y se explica por qué.
+async function activatePrem(){
+  const btn = document.querySelector('#premModal .plan-btn');
+  if(btn){ btn.disabled = true; btn.dataset.origText = btn.textContent; btn.textContent = 'Procesando…'; }
+  try{
+    const result = await DrakonBilling.purchasePremium();
+    if(result.ok){
+      closePrem(); updatePremUI();
+      showToast('🎉 ¡Drakón Premium activado! Disfruta sin límites.');
+    } else if(result.reason !== 'cancelled'){
+      showToast(`⚠️ ${result.message || 'No se pudo activar Premium ahora mismo.'}`);
+    }
+  } finally {
+    if(btn){ btn.disabled = false; btn.textContent = btn.dataset.origText || 'Activar Drakón Premium 🚀'; }
+  }
+}
+
+// Restaura una suscripción ya comprada (cambio de dispositivo, reinstalo)
+// sin volver a cobrar — Google Play ya sabe qué compró esta cuenta.
+async function restorePremPurchases(){
+  showToast('🔄 Buscando compras anteriores en tu cuenta de Google Play…');
+  const result = await DrakonBilling.restorePurchases();
+  if(result.ok){ closePrem(); updatePremUI(); showToast('✅ Suscripción restaurada correctamente.'); }
+  else showToast(`⚠️ ${result.message || 'No se encontró ninguna suscripción activa.'}`);
+}
+
 function updatePremUI(){
-  const pp=document.getElementById('planPill'); if(pp){ pp.className=`plan-pill ${state.isPremium?'plan-pro':'plan-free'}`; pp.textContent=state.isPremium?'🔥 Drakón Pro · Activo':'🐾 Plan Gratis · Mejorar'; }
-  const pl=document.getElementById('planLbl'); if(pl) pl.textContent=state.isPremium?'Pro':'Gratis';
-  if(state.isPremium){ ['vocabLock','debateLock','storyLock','roleplayLock'].forEach(id=>{ const el=document.getElementById(id); if(el) el.style.display='none'; }); }
+  const pp=document.getElementById('planPill'); if(pp){ pp.className=`plan-pill ${isPremiumActive()?'plan-pro':'plan-free'}`; pp.textContent=isPremiumActive()?'🔥 Drakón Premium · Activo':'🐾 Plan Gratis · Mejorar'; }
+  const pl=document.getElementById('planLbl'); if(pl) pl.textContent=isPremiumActive()?'Premium':'Gratis';
   updateAIBar();
 }
 
