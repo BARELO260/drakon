@@ -21,7 +21,7 @@ function renderThemeGrid(){
   var grid=document.getElementById('themeGrid'); if(!grid) return;
 
   grid.innerHTML=THEMES.map(function(t){
-    var locked=t.free===false&&!state.isPremium;
+    var locked=false; // temas libres para todos — Premium ya no bloquea contenido cosmético
     var color=THEME_SWATCH[t.id]||'#7c5cff';
     var isActive=state.theme===t.id;
     var lock=locked?'<div style="position:absolute;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;font-size:15px;border-radius:inherit">&#128274;</div>':'';
