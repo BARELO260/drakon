@@ -102,7 +102,7 @@ function openSituation(key){
         🎭 Practicar con IA <small>Simulación real de ${s.name.toLowerCase()}</small>
       </button>
       <button class="sit-action sit-action-urgent" onclick="startSituationStage('${key}','live')">
-        ⚡ Estoy allí ahora <small>Escanea o llama a Drakón en vivo</small>
+        ⚡ Estoy allí ahora ${(typeof canUseFeature==='function' && !canUseFeature('situationLiveHelp')) ? '<span class="sit-prem-badge">PREMIUM</span>' : ''} <small>Escanea o llama a Drakón en vivo</small>
       </button>
     </div>
   </section>`;
@@ -131,11 +131,30 @@ function startSituationStage(key, stage){
   const s=getSituation(key); if(!s) return;
   state._activeSituation = key;
   if(stage==='prepare'){ openSituationLessons(key); return; }
-  if(stage==='live'){ openSituationLive(key); return; }
+  if(stage==='live'){
+    // "Estoy allí ahora" es la única función de Situaciones que requiere
+    // Premium (usa cámara/mic + IA en vivo) — el resto (lecciones,
+    // práctica con IA) sigue disponible para todos, solo limitado por el
+    // uso diario de IA del chat.
+    if(typeof canUseFeature==='function' && !canUseFeature('situationLiveHelp')){
+      showLiveHelpPaywall(key);
+      return;
+    }
+    openSituationLive(key);
+    return;
+  }
   // 'practice' → sigue usando el chat de IA existente, ahora con puesta en escena
   const sit={...s, stage}; state.situationsToday++; state.chatSituation=sit;
   if(typeof rememberSituation==='function') rememberSituation(sit,stage);
   goToChat('situation',sit); checkMissions(); save();
+}
+
+// Aviso claro de que "Estoy allí ahora" es Premium — nunca se abre la
+// función silenciosamente ni se simula que funciona sin serlo.
+function showLiveHelpPaywall(key){
+  const s=getSituation(key);
+  if(typeof showToast==='function') showToast('⚡ "Estoy allí ahora" es una función de Drakón Premium');
+  if(typeof showPremModal==='function') showPremModal();
 }
 
 /* ═══════════════════════════════════════
