@@ -1,0 +1,54 @@
+rules_version = '2';
+
+/* ═══════════════════════════════════════════════════════════
+   Reglas de seguridad de Firestore — Drakón
+
+   PUNTO CLAVE (requisito de suscripción real, no simulada):
+   `isPremium` y `premiumExpiresAt` en users/{uid} SOLO pueden cambiar
+   cuando la escritura NO incluye esos campos modificados por el cliente.
+   La Cloud Function `verifyPlayPurchase` (functions/index.js) usa el SDK
+   de administrador (firebase-admin), que se salta por completo estas
+   reglas — así que ella SÍ puede escribir esos campos con normalidad; el
+   cliente (con su token de usuario normal) NUNCA puede, aunque intente
+   escribir directamente vía el SDK de Firestore sin pasar por la app.
+
+   Desplegar con:
+     firebase deploy --only firestore:rules
+   ═══════════════════════════════════════════════════════════ */
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+
+      allow create: if request.auth != null && request.auth.uid == uid
+                    && !('isPremium' in request.resource.data)
+                    && !('premiumExpiresAt' in request.resource.data);
+
+      allow update: if request.auth != null && request.auth.uid == uid
+                    // El cliente puede actualizar cualquier otro campo de su
+                    // propio progreso, pero NUNCA estos dos — si intenta
+                    // tocarlos (aunque sea con el mismo valor que ya tenían),
+                    // la escritura se rechaza entera.
+                    && !request.resource.data.diff(resource.data).affectedKeys()
+                          .hasAny(['isPremium', 'premiumExpiresAt']);
+
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Contadores internos de límites de uso del gateway de IA gestionado
+    // (ver functions/index.js → consumeQuota) — de solo lectura para el
+    // cliente (para mostrar "te quedan X mensajes hoy" si se desea), nunca
+    // escribibles por él: solo la Cloud Function los actualiza.
+    match /aiRateLimits/{docId} {
+      allow read: if request.auth != null && docId.matches(request.auth.uid + '_.*');
+      allow write: if false;
+    }
+
+    // Todo lo demás, denegado por defecto.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
