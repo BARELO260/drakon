@@ -275,7 +275,11 @@ function levenshtein(a, b){
 /* ═══════════════════════════════════════
    AI CHAT
 ═══════════════════════════════════════ */
-const FREE_LIMIT=25;
+// Límite de mensajes de IA/día para el plan Gratis — leído desde la
+// configuración centralizada (js/monetization.js). Se mantiene esta
+// constante (en vez de usar MONETIZATION directamente en cada sitio) por
+// compatibilidad con el resto del código que ya la referencia.
+const FREE_LIMIT = MONETIZATION.limits.free.aiMessagesPerDay;
 /* La definición de SITUATIONS y toda la lógica de la sección "Situaciones"
    (grid, planificador, "Enséñame primero", "Estoy allí ahora") vive ahora
    en js/situations-data.js y js/situations.js — ver esos archivos.
@@ -283,7 +287,9 @@ const FREE_LIMIT=25;
    sí: construir el prompt y lanzar la conversación cuando el modo es
    'situation' (llamado desde startSituationStage() en situations.js). */
 
-function checkPrem(mode){ if(state.isPremium){ goToChat(mode); return; } showPremModal(); }
+// (Antes había aquí un checkPrem(mode) que bloqueaba modos de chat detrás
+// de Premium — ya no existe: todos los modos están disponibles para
+// todos, limitados solo por el uso diario de IA, ver MONETIZATION.)
 
 function buildPrompt(){
   const ch=getChar();
@@ -398,7 +404,7 @@ async function sendChat(){
   const inp=document.getElementById('chatIn'); if(!inp) return;
   const text=inp.value.trim(); if(!text) return;
   inp.value='';
-  if(!state.isPremium&&state.msgsToday>=FREE_LIMIT){ showPremModal(); return; }
+  if(!canUseAI()){ showPremModal(); return; }
   const sb=document.getElementById('sendBtn'); if(sb) sb.disabled=true;
   const eb=document.getElementById('chatErr'); if(eb) eb.style.display='none';
   addUserMsg(text);
