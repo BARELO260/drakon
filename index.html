@@ -123,6 +123,26 @@
         if(!u) throw new Error('no-user');
         return u.reauthenticateWithPopup(new firebase.auth.GoogleAuthProvider());
       },
+      // Verificación REAL de una compra de Google Play (ver
+      // functions/index.js → verifyPlayPurchase). Mismo patrón de llamada
+      // que callManagedAi() en js/ai-gateway.js: fetch directo a la
+      // Cloud Function callable con el token de identidad del usuario,
+      // sin depender del SDK de Firebase Functions (no está cargado).
+      verifyPlayPurchase: async ({ purchaseToken, productId }) => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        const token = await u.getIdToken();
+        const url = (window.DRAKON_AI_GATEWAY || 'https://us-central1-drakon-a30c8.cloudfunctions.net/drakonAi')
+          .replace(/\/drakonAi$/, '/verifyPlayPurchase');
+        const resp = await fetch(url, {
+          method:'POST',
+          headers:{'Content-Type':'application/json','Authorization':`Bearer ${token}`},
+          body: JSON.stringify({ data:{ purchaseToken, productId } }),
+        });
+        const body = await resp.json().catch(()=>({}));
+        if(!resp.ok) throw new Error(body?.error?.message || 'verify-purchase-error');
+        return body.result;
+      },
       saveData: (data, fullOverwrite=false) => {
         const u = auth.currentUser;
         if(!u) return;
@@ -389,7 +409,7 @@
     <div class="mission-list" id="missionList"></div>
     <div class="prem-banner" onclick="showPremModal()">
       <span style="font-size:26px;flex-shrink:0">⚡</span>
-      <div class="prem-text"><div class="pt">Desbloquea Drakón Pro</div><div class="ps">IA ilimitada · 200 lecciones · Todas las funciones</div></div>
+      <div class="prem-text"><div class="pt">Desbloquea Drakón Premium</div><div class="ps">Más IA · Más voz · Estoy allí ahora</div></div>
       <span class="pc">Ver planes</span>
     </div>
   </div>
@@ -413,10 +433,10 @@
         <div class="amc amc--big" style="--cc:var(--mint)" onclick="goToChat('free')"><div class="amc-ic">💬</div><div class="amc-t">Conversación libre</div><div class="amc-s">Habla de lo que quieras</div></div>
         <div class="amc" style="--cc:var(--sky)" onclick="goToChat('pronunciation')"><div class="amc-ic">🎙️</div><div class="amc-t">Pronunciación IA</div><div class="amc-s">La IA evalúa cómo suenas</div></div>
         <div class="amc" style="--cc:var(--gold)" onclick="goToChat('grammar')"><div class="amc-ic">📖</div><div class="amc-t">Gramática</div><div class="amc-s">Corrige tus errores</div></div>
-        <div class="amc" style="--cc:var(--coral)" onclick="checkPrem('vocab')"><div class="amc-ic">🔤</div><div class="amc-t">Vocabulario</div><div class="amc-s">Palabras nuevas con contexto</div><div class="lock-ov" id="vocabLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--accent)" onclick="checkPrem('debate')"><div class="amc-ic">🏆</div><div class="amc-t">Debate avanzado</div><div class="amc-s">Argumenta en otro idioma</div><div class="lock-ov" id="debateLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--mint)" onclick="checkPrem('story')"><div class="amc-ic">📖</div><div class="amc-t">Crea una historia</div><div class="amc-s">Narra en el idioma</div><div class="lock-ov" id="storyLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--sky)" onclick="checkPrem('roleplay')"><div class="amc-ic">🎬</div><div class="amc-t">Roleplay libre</div><div class="amc-s">Cualquier escenario</div><div class="lock-ov" id="roleplayLock">🔒</div></div>
+        <div class="amc" style="--cc:var(--coral)" onclick="goToChat('vocab')"><div class="amc-ic">🔤</div><div class="amc-t">Vocabulario</div><div class="amc-s">Palabras nuevas con contexto</div></div>
+        <div class="amc" style="--cc:var(--accent)" onclick="goToChat('debate')"><div class="amc-ic">🏆</div><div class="amc-t">Debate avanzado</div><div class="amc-s">Argumenta en otro idioma</div></div>
+        <div class="amc" style="--cc:var(--mint)" onclick="goToChat('story')"><div class="amc-ic">📖</div><div class="amc-t">Crea una historia</div><div class="amc-s">Narra en el idioma</div></div>
+        <div class="amc" style="--cc:var(--sky)" onclick="goToChat('roleplay')"><div class="amc-ic">🎬</div><div class="amc-t">Roleplay libre</div><div class="amc-s">Cualquier escenario</div></div>
       </div>
       <div class="ai-status">
         <div class="ai-signal"><div class="ai-dot"></div><div class="ai-rings"></div></div>
@@ -776,49 +796,33 @@
 <div id="premModal" style="display:none" class="modal-ov" onclick="closePremOv(event)">
   <div class="modal-sheet">
     <div class="modal-handle" onclick="closePrem()"></div>
-    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Pro</span></div>
-    <div class="modal-sub">Desbloquea el poder total del dragón</div>
+    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Premium</span></div>
+    <div class="modal-sub">Más IA, más voz, y ayuda de Drakón en tiempo real</div>
     <div class="plan-cards">
       <div class="plan-card">
         <div class="plan-n">🐾 Plan Gratis</div>
         <div class="plan-p">$0 <span>/siempre</span></div>
         <ul class="plan-feats">
+          <li>Todas las lecciones y situaciones</li>
           <li>25 mensajes de IA por día</li>
-          <li>Lecciones A1–A2 (65 lecciones)</li>
-          <li>3 personajes disponibles</li>
-          <li>Pronunciación básica con micrófono</li>
-          <li>3 temas de fondo</li>
+          <li>Uso limitado de voces TTS por día</li>
+          <li>Sin acceso a "Estoy allí ahora"</li>
         </ul>
         <button class="plan-btn outline" onclick="closePrem()">Tu plan actual</button>
       </div>
       <div class="plan-card pop">
-        <div class="pop-tag">⭐ MÁS POPULAR</div>
-        <div class="plan-n">🔥 Drakón Pro</div>
-        <div class="plan-p">$4.99 <span>/mes</span></div>
+        <div class="pop-tag">⭐ TODO INCLUIDO</div>
+        <div class="plan-n">🔥 Drakón Premium</div>
+        <div class="plan-p"><span id="premPriceLbl">$1.99</span> <span>/mes</span></div>
         <ul class="plan-feats">
-          <li>IA ilimitada cada día</li>
-          <li>200 lecciones completas (A1→C2)</li>
-          <li>10 personajes únicos desbloqueados</li>
-          <li>Pronunciación avanzada con análisis IA</li>
-          <li>Modos: Vocabulario, Debate, Historia, Roleplay</li>
-          <li>6 temas de fondo exclusivos</li>
-          <li>Estadísticas avanzadas de progreso</li>
-          <li>Streak Shield — protege tu racha 1 vez/semana</li>
-          <li>Modo sin distracciones (pantalla limpia)</li>
-          <li>Exportar progreso a PDF</li>
+          <li>Todas las lecciones y situaciones</li>
+          <li>IA del chat ampliada, prácticamente sin límite</li>
+          <li>Mucho más uso de voces TTS</li>
+          <li>Acceso a "Estoy allí ahora" (escanear + videollamada)</li>
+          <li>Todas las funciones de IA de Drakón</li>
         </ul>
-        <button class="plan-btn" onclick="activatePrem()">Activar Drakón Pro 🚀</button>
-      </div>
-      <div class="plan-card">
-        <div class="plan-n">👨‍👩‍👧 Familia</div>
-        <div class="plan-p">$9.99 <span>/mes</span></div>
-        <ul class="plan-feats">
-          <li>Todo lo de Pro</li>
-          <li>Hasta 5 perfiles</li>
-          <li>Panel familiar de progreso</li>
-          <li>Retos familiares semanales</li>
-        </ul>
-        <button class="plan-btn" onclick="activatePrem()">Activar Familia</button>
+        <button class="plan-btn" onclick="activatePrem()">Activar Drakón Premium 🚀</button>
+        <button class="plan-btn outline" id="premRestoreBtn" style="display:none;margin-top:8px" onclick="restorePremPurchases()">Restaurar compra</button>
       </div>
     </div>
   </div>
@@ -864,6 +868,7 @@
      JS MODULES — load order matters!
      ════════════════════════════════════════ -->
 <!-- 1. Data: all constants (LANGS, CHARS, THEMES) -->
+<script src="js/monetization.js"></script>
 <script src="js/data.js"></script>
 <!-- 1b. Lesson content banks — uno por idioma. Agregar un idioma nuevo =
      crear js/lessons-data/<code>.js + añadir su <script> aquí. -->
