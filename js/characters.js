@@ -123,7 +123,7 @@ function getChar(){ return CHARS.find(c=>c.id===state.charId)||CHARS[0]; }
 function renderChars(){
   const grid=document.getElementById('charsGrid'); if(!grid) return;
   grid.innerHTML=CHARS.map(c=>{
-    const locked=!c.free&&!state.isPremium;
+    const locked=false; // personajes libres para todos — Premium ya no bloquea contenido cosmético
     const active=state.charId===c.id;
     const clickFn=locked?'showPremModal()':'selectChar(\''+c.id+'\')';
     // Media element: video for chars with animation, img otherwise
@@ -262,7 +262,7 @@ function closeCharSelect(){
 function showCsChar(i, animate){
   const c = CHARS[i];
   if(!c) return;
-  const locked = !c.free && !state.isPremium;
+  const locked = false; // personajes libres para todos — Premium ya no bloquea contenido cosmético
 
   const video = document.getElementById('csCharVideo');
   if(video){
@@ -296,7 +296,7 @@ function csNext(){ csIndex=(csIndex+1)%CHARS.length; showCsChar(csIndex,true); }
 
 function csConfirmSelect(){
   const c = CHARS[csIndex]; if(!c) return;
-  const locked = !c.free && !state.isPremium;
+  const locked = false; // personajes libres para todos — Premium ya no bloquea contenido cosmético
   if(locked){ showPremModal(); return; }
   selectChar(c.id);
   showCsChar(csIndex,false);
