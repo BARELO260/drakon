@@ -241,9 +241,14 @@ async function _elevenSpeak(text, voice, onend, charKey){
   const key = getElevenKey();
   if(!key || !text) return false; // sin key configurada: fallback silencioso, es lo esperado
   if(_elevenIsBroken()) return false; // ya sabemos que está caído — directo al fallback, sin red
+  // Límite de uso de voz del plan Gratis (ver js/monetization.js): si ya
+  // se agotó, se cae directo al fallback nativo sin gastar red — la voz
+  // nunca se apaga del todo, solo deja de usar ElevenLabs por hoy.
+  if(typeof canUseElevenTTS==='function' && !canUseElevenTTS(text.length)) return false;
   try{
     const blob = await _elevenFetchBlob(text, voice, charKey);
     if(!blob) return false;
+    if(typeof recordTTSUsage==='function') recordTTSUsage(text.length);
     // OJO: "return await", no "return" a secas — si _elevenPlayBlob
     // rechazara (ya no debería, ver su propio try/catch), un "return"
     // sin await haría que ESTE catch nunca lo viera (el try ya habría
@@ -262,8 +267,12 @@ async function _elevenSpeak(text, voice, onend, charKey){
 // entre cada uno, que es lo que hacía que la voz se sintiera entrecortada
 // cuando una respuesta mezclaba varios idiomas. Devuelve un Blob, o null
 // si no hay key configurada, ElevenLabs está en cooldown por un fallo
-// reciente, o la petición falla (el llamador debe usar el fallback nativo
-// para ESE tramo en concreto, sin afectar a los demás).
+// reciente, se agotó la cuota diaria gratuita, o la petición falla (el
+// llamador debe usar el fallback nativo para ESE tramo, sin afectar a los
+// demás). Este es el ÚNICO punto real de red para síntesis de voz — por
+// eso el límite de uso y el registro de caracteres hablados viven aquí,
+// para que cuenten igual sin importar qué parte de la app pidió la voz
+// (chat, ejercicios de "Escuchar", videollamada...).
 async function ttsFetchAudioBlob(text, voice, charKey){
   if(typeof hasManagedAi==='function' && hasManagedAi()){
     try{ return await managedTTS(text, charKey||'narrator'); }
@@ -271,9 +280,11 @@ async function ttsFetchAudioBlob(text, voice, charKey){
   }
   if(!getElevenKey() || !text) return null;
   if(_elevenIsBroken()) return null; // circuito abierto: ni lo intentamos, directo al fallback
+  if(typeof canUseElevenTTS==='function' && !canUseElevenTTS(text.length)) return null;
   try{
     const blob = await _elevenFetchBlob(text, voice, charKey);
     if(!blob) return null;
+    if(typeof recordTTSUsage==='function') recordTTSUsage(text.length);
     return blob;
   }
   catch(e){ _markElevenBroken(); return null; }
@@ -350,35 +361,63 @@ async function _reportFailure(r, voiceId){
    en un diálogo de ElevenLabs fuera de esta app, no se puede activar por
    ella — pero SÍ se puede detectar al instante, en vez de que el usuario
    lo descubra a mitad de una conversación. Se hace una síntesis mínima
-   real ("Hola", coste de cuota insignificante) justo al guardar la clave,
-   y si falla específicamente por falta de permiso, se avisa con el paso
-   exacto que falta por hacer en la web de ElevenLabs. */
+   real ("Hola", coste de cuota insignificante) justo al guardar la clave.
+
+   OJO — bug corregido: el primer intento prueba con la voz por defecto
+   del personaje (un voiceId "premade" fijo en el código). ElevenLabs ha
+   ido retirando varias de esas voces con el tiempo, y una cuenta puede no
+   tener acceso a esa voz concreta — eso da un error, pero NO significa
+   que la clave sea inválida. Antes se malinterpretaba cualquier fallo con
+   status 401 como "clave inválida", incluso cuando el motivo real era la
+   voz. Ahora, si el error menciona la voz (no la clave), se reintenta con
+   una voz real de la cuenta antes de concluir nada — y solo se dice
+   "clave inválida" si el propio mensaje de error de ElevenLabs habla
+   inequívocamente de la clave/autorización, nunca por suposición. */
 async function validateElevenKey(key){
   if(!key) return {ok:false, reason:'empty'};
   try{
     const cv = (typeof CHAR_VOICE!=='undefined' && (CHAR_VOICE.dragon || Object.values(CHAR_VOICE)[0])) || {stability:.5,style:.4,speed:1,voiceId:null};
-    const voiceId = (await _resolveVoiceId('dragon', cv).catch(()=>null)) || cv.voiceId;
-    if(!voiceId) return {ok:false, reason:'no-voice'};
-    const resp = await fetch(`${ELEVEN_API_URL}/${voiceId}`, {
-      method:'POST',
-      headers:{'Content-Type':'application/json','xi-api-key':key,'Accept':'audio/mpeg'},
-      body: JSON.stringify({
-        text:'Hola',
-        model_id: ELEVEN_MODEL,
-        voice_settings:{stability:cv.stability, similarity_boost:0.8, style:cv.style, use_speaker_boost:true, speed:cv.speed},
-      }),
-      signal: AbortSignal.timeout(10000),
-    });
-    if(resp.ok){
-      // Si había quedado marcada como "rota" de un intento anterior, se
-      // limpia — la clave ya funciona, no hay razón para seguir evitándola.
-      _elevenBrokenKey = null; _elevenBrokenUntil = 0;
-      return {ok:true};
+
+    const tryVoice = async (voiceId) => {
+      const resp = await fetch(`${ELEVEN_API_URL}/${voiceId}`, {
+        method:'POST',
+        headers:{'Content-Type':'application/json','xi-api-key':key,'Accept':'audio/mpeg'},
+        body: JSON.stringify({
+          text:'Hola',
+          model_id: ELEVEN_MODEL,
+          voice_settings:{stability:cv.stability, similarity_boost:0.8, style:cv.style, use_speaker_boost:true, speed:cv.speed},
+        }),
+        signal: AbortSignal.timeout(10000),
+      });
+      if(resp.ok) return {ok:true};
+      const bodyText = await resp.text().catch(()=>'');
+      return {ok:false, status:resp.status, bodyText};
+    };
+
+    // 1er intento: la voz que le tocaría al personaje por defecto.
+    let voiceId = (await _resolveVoiceId('dragon', cv).catch(()=>null)) || cv.voiceId;
+    let result = voiceId ? await tryVoice(voiceId) : {ok:false, status:0, bodyText:''};
+    if(result.ok){ _elevenBrokenKey=null; _elevenBrokenUntil=0; return {ok:true}; }
+
+    // Si el error menciona la VOZ (no la clave), esa voz en concreto no
+    // está disponible en esta cuenta — se prueba con una voz real de la
+    // cuenta antes de culpar a la clave.
+    if(/voice/i.test(result.bodyText)){
+      const voices = await _getAccountVoices();
+      const alt = voices.find(v => v.voice_id !== voiceId);
+      if(alt){
+        const retry = await tryVoice(alt.voice_id);
+        if(retry.ok){ _elevenBrokenKey=null; _elevenBrokenUntil=0; return {ok:true}; }
+        result = retry;
+      }
     }
-    const bodyText = await resp.text().catch(()=>'');
-    const isPermission = /permission/i.test(bodyText) || resp.status===403;
-    const isQuota = /quota|credit/i.test(bodyText) || resp.status===429;
-    return {ok:false, status:resp.status, isPermission, isQuota, bodyText: bodyText.slice(0,300)};
+
+    const bodyText = result.bodyText || '';
+    const isPermission = /permission/i.test(bodyText) || result.status===403;
+    const isQuota = !isPermission && (/quota|credit/i.test(bodyText) || result.status===429);
+    // Solo se declara "clave inválida" si ElevenLabs lo dice sin ambigüedad.
+    const isKeyInvalid = !isPermission && !isQuota && result.status===401 && /api.?key|unauthoriz|invalid.?key/i.test(bodyText);
+    return {ok:false, status:result.status, isPermission, isQuota, isKeyInvalid, bodyText: bodyText.slice(0,300)};
   } catch(e){
     return {ok:false, reason:'network', error: e && e.message};
   }
