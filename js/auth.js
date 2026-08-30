@@ -140,6 +140,19 @@ window._showGoogleRedirectError = function(code){
 };
 
 // Called when Firebase confirms user is logged in
+// SEGURIDAD: nunca se debe subir `isPremium` (ni `premiumExpiresAt`, para
+// cuando exista) desde el cliente a Firestore. Ese campo solo lo escribe
+// la Cloud Function `verifyPlayPurchase`, tras confirmar una compra real
+// con la Google Play Developer API — así, aunque alguien cambie
+// `state.isPremium=true` en la consola del navegador, nunca llega a
+// persistirse en el servidor ni desbloquea nada de verdad (reforzado
+// además por firestore.rules, que rechaza esa escritura aunque alguien
+// use el SDK de Firestore directamente sin pasar por esta app).
+function _stripPremiumForCloud(obj){
+  const { isPremium, premiumExpiresAt, ...rest } = obj;
+  return rest;
+}
+
 window.onFirebaseUserReady = async function(user){
   // Cancelar cualquier ejecución anterior y arrancar fresca
   // (onAuthStateChanged puede dispararse 2 veces seguidas en móvil)
@@ -184,7 +197,7 @@ window.onFirebaseUserReady = async function(user){
     return;
   }
 
-  if(cloudData && Object.keys(cloudData).length > 0){
+if(cloudData && Object.keys(cloudData).length > 0){
     // ── Usuario existente: la nube manda, salvo en progreso acumulado ──
     const localXP     = state.xp            || 0;
     const localStreak = state.streak         || 0;
@@ -215,7 +228,7 @@ window.onFirebaseUserReady = async function(user){
     const fbUser = window._fbUser || (window._fbAuth && window._fbAuth.currentUser);
     if(localXP > (cloudData.xp||0) || localStreak > (cloudData.streak||0) || localMsgs > (cloudData.totalMessages||0)){
       if(fbUser && window._firebase){
-        window._firebase.saveData({ ...state, updatedAt: Date.now() });
+        window._firebase.saveData({ ..._stripPremiumForCloud(state), updatedAt: Date.now() });
       }
     }
 
@@ -225,7 +238,7 @@ window.onFirebaseUserReady = async function(user){
     // (no merge), asegurando que no queden datos fantasma de otro usuario.
     const fbUser = window._fbUser || (window._fbAuth && window._fbAuth.currentUser);
     if(fbUser && window._firebase){
-      window._firebase.saveData({ ...state, updatedAt: Date.now() }, true);
+      window._firebase.saveData({ ..._stripPremiumForCloud(state), updatedAt: Date.now() }, true);
     }
   }
 
@@ -442,6 +455,7 @@ function save(){
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
     learnerMemory:state.learnerMemory,
     accessories:state.accessories,
+    ttsCharsToday:state.ttsCharsToday,
   };
   try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
 
@@ -452,7 +466,7 @@ function save(){
   if(window._fbInit && fbUser && window._firebase){
     clearTimeout(_saveCloudTimer);
     _saveCloudTimer = setTimeout(() => {
-      window._firebase.saveData({ ...data, updatedAt: Date.now() });
+      window._firebase.saveData({ ..._stripPremiumForCloud(data), updatedAt: Date.now() });
     }, 1500);
   }
 }
@@ -609,15 +623,17 @@ function saveElevenKey(){
         st.innerHTML = '⚠️ La clave se guardó, pero le falta el permiso <strong style="color:var(--coral)">"Text to Speech" → Access</strong>. Ve a tu clave en <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" style="color:var(--gold)">elevenlabs.io/app/settings/api-keys</a>, edítala, activa ese permiso y vuelve a guardar aquí.';
         st.style.color = 'var(--coral)';
       }
-    } else if(result.status === 401){
+    } else if(result.isKeyInvalid){
       showToast('❌ Esa clave no es válida. Revísala en elevenlabs.io');
       if(st){ st.textContent = '❌ Clave inválida — revisa que la copiaste completa'; st.style.color = 'var(--coral)'; }
     } else if(result.isQuota){
       showToast('⚠️ Clave válida, pero sin cuota disponible este mes');
       if(st){ st.textContent = '⚠️ Clave válida, pero sin cuota de ElevenLabs disponible'; st.style.color = 'var(--coral)'; }
     } else {
-      // Fallo de red, timeout, etc. — no podemos confirmar, pero no negamos que funcione
-      showToast('✅ API key guardada (no se pudo verificar ahora mismo)');
+      // Cualquier otro caso (incluye 401/403 que no pudimos confirmar sin
+      // ambigüedad que sea "la clave", fallo de red, timeout...) — no
+      // afirmamos que la clave esté mal si no estamos seguros.
+      showToast('✅ API key guardada (no se pudo verificar del todo, pero quedó lista)');
       if(st){ st.textContent = '✅ Guardada — se probará automáticamente en tu próxima conversación'; st.style.color = 'var(--muted)'; }
     }
   });
