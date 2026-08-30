@@ -997,6 +997,7 @@ box-shadow:var(--card-elev);}
 .sit-planner-hero-fg h2{margin:0;font:800 16px var(--fh);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)}
 .sit-planner-hero-fg p{margin:3px 0 0;color:rgba(255,255,255,.88);font-size:11px}
 .sit-action small,.sit-action-secondary small,.sit-action-urgent small{display:block;font:600 9.5px var(--fb);opacity:.8;margin-top:2px;text-transform:none;letter-spacing:0}
+.sit-prem-badge{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:6px;background:rgba(0,0,0,.22);font:800 8.5px var(--fh);letter-spacing:.04em;vertical-align:middle}
 
 /* Fondo inmersivo del chat cuando se practica una situación ("Practicar
    con IA") — v2. Antes el fondo quedaba prácticamente oculto: la mascota
