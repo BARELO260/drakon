@@ -33,7 +33,7 @@ const state = {
   xp:0, streak:0, totalMessages:0,
   lastActiveDate:null,   // 'YYYY-MM-DD' local date
   lastMsgDate:null, msgsToday:0,
-  correctionsToday:0, situationsToday:0,
+  correctionsToday:0, situationsToday:0, ttsCharsToday:0,
   isPremium:false, userLevel:'A1',
   chatMode:'free', chatSituation:null, chatHistory:[],
   chatSessionId: null,
@@ -75,7 +75,7 @@ function load(){
     // Daily reset
     if(state.lastMsgDate!==today){
       state.msgsToday=0; state.lastMsgDate=today;
-      state.correctionsToday=0; state.situationsToday=0;
+      state.correctionsToday=0; state.situationsToday=0; state.ttsCharsToday=0;
       state.missions=DEF_MISSIONS();
     }
   }catch(e){}
@@ -121,7 +121,7 @@ function scheduleMidnightReset(){
       }
     }
     // Reset daily counts
-    state.msgsToday=0; state.correctionsToday=0; state.situationsToday=0;
+    state.msgsToday=0; state.correctionsToday=0; state.situationsToday=0; state.ttsCharsToday=0;
     state.lastMsgDate=today; state.missions=DEF_MISSIONS();
     renderMissions(); updateAIBar(); save();
     scheduleMidnightReset(); // schedule next day
