@@ -511,6 +511,7 @@ box-shadow:var(--card-elev);}
 .send-btn:disabled{background:transparent;border-color:var(--border);cursor:not-allowed;box-shadow:none}
 .mic-btn{width:44px;height:44px;border-radius:10px;background:var(--card);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;font-size:17px}
 .mic-btn.on{background:var(--coral);color:#fff;box-shadow:0 0 0 3px color-mix(in srgb, var(--coral) 25%, transparent);animation:pulse 1s ease-in-out infinite}
+.mic-btn.processing{background:var(--gold);color:#231806;opacity:.85;animation:pulse 1.4s ease-in-out infinite}
 .err-bar{background:color-mix(in srgb, var(--coral) 7%, transparent);border:1px solid color-mix(in srgb, var(--coral) 25%, transparent);border-radius:14px;padding:9px 13px;font-size:12px;font-weight:700;color:var(--coral);margin:5px 11px;display:none;line-height:1.55}
 .tts-btn{width:34px;height:34px;border-radius:10px;background:var(--card);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px;transition:all .2s}
 .tts-btn.on{background:var(--sky);color:#08202b;box-shadow:0 0 0 3px color-mix(in srgb, var(--sky) 25%, transparent);animation:pulse 1.8s ease-in-out infinite}
@@ -977,3 +978,150 @@ box-shadow:var(--card-elev);}
 @keyframes lpBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 @keyframes lpBadgeBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
 .ex-production-card{background:linear-gradient(145deg,color-mix(in srgb,var(--sky) 12%,var(--card)),var(--card));border:1px solid color-mix(in srgb,var(--sky) 30%,var(--border))}.ex-production-tip{margin:12px 0;color:var(--muted);font-size:13px;line-height:1.5}.ex-production-input{width:100%;resize:vertical;min-height:130px;border:1px solid var(--border);border-radius:14px;background:var(--card2);color:var(--text);padding:13px;font:500 14px/1.55 var(--ff);outline:none}.ex-production-input:focus{border-color:var(--sky);box-shadow:0 0 0 3px color-mix(in srgb,var(--sky) 14%,transparent)}.ex-production-mic{width:100%;margin-top:10px;border:1px solid var(--sky);border-radius:12px;background:color-mix(in srgb,var(--sky) 12%,var(--card));color:var(--sky);padding:11px;font:800 12px var(--fh);cursor:pointer}
+
+/* ═══════════════════════════════════════════════════════════
+   SITUACIONES — rediseño (fondos por situación, ruta de lecciones,
+   "Estoy allí ahora": escanear + videollamada)
+   ═══════════════════════════════════════════════════════════ */
+
+/* Miniatura de fondo en el grid de situaciones */
+.sit-card{background-image:linear-gradient(180deg,color-mix(in srgb,var(--card) 55%,transparent),var(--card) 78%),var(--sit-bg);background-size:cover;background-position:center}
+.sit-ic{background:color-mix(in srgb, var(--accent) 30%, rgba(0,0,0,.35));backdrop-filter:blur(2px)}
+
+/* Planificador con foto hero de la situación */
+.sit-planner-hero{position:relative;overflow:hidden;border-radius:14px;padding:0;border-bottom:none;min-height:118px;display:block}
+.sit-planner-hero-bg{position:absolute;inset:0;background-image:var(--sit-bg);background-size:cover;background-position:center}
+.sit-planner-hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.62))}
+.sit-planner-hero-fg{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:18px 14px;min-height:118px}
+.sit-planner-hero-fg>span{font-size:32px;width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(255,255,255,.16);backdrop-filter:blur(3px)}
+.sit-planner-hero-fg h2{margin:0;font:800 16px var(--fh);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.sit-planner-hero-fg p{margin:3px 0 0;color:rgba(255,255,255,.88);font-size:11px}
+.sit-action small,.sit-action-secondary small,.sit-action-urgent small{display:block;font:600 9.5px var(--fb);opacity:.8;margin-top:2px;text-transform:none;letter-spacing:0}
+.sit-prem-badge{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:6px;background:rgba(0,0,0,.22);font:800 8.5px var(--fh);letter-spacing:.04em;vertical-align:middle}
+
+/* Fondo inmersivo del chat cuando se practica una situación ("Practicar
+   con IA") — v2. Antes el fondo quedaba prácticamente oculto: la mascota
+   y la barra de chat pintaban su propio color sólido encima, y la lista
+   de mensajes se volvía opaca a mitad de pantalla. Ahora la escena se ve
+   en TODA la pantalla del chat (no solo detrás de la mascota) y la lista
+   de mensajes se convierte en un panel flotante tipo "hoja" que se apoya
+   sobre la foto en vez de taparla — nunca es solo "bajar la opacidad". */
+.chat-scene-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
+.chat-scene-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,
+    rgba(8,8,14,.06) 0%, rgba(8,8,14,.10) 28%, rgba(8,8,14,.20) 52%,
+    rgba(8,8,14,.38) 74%, rgba(8,8,14,.58) 100%)}
+.ai-scene{position:relative;z-index:1}
+#screen-chat.in-situation-scene .ai-scene{
+  background:linear-gradient(180deg,rgba(10,10,16,.02),rgba(10,10,16,.30));
+  border-bottom:none;backdrop-filter:blur(1.5px)}
+#screen-chat.in-situation-scene .ai-scene-media{box-shadow:0 12px 28px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.16) inset}
+#screen-chat.in-situation-scene .ai-scene-bubble{background:color-mix(in srgb, var(--card) 60%, transparent);backdrop-filter:blur(14px);border-color:rgba(255,255,255,.18);box-shadow:0 10px 26px rgba(0,0,0,.35)}
+#screen-chat.in-situation-scene .ai-scene-bubble::before{background:color-mix(in srgb, var(--card) 60%, transparent);border-color:rgba(255,255,255,.18)}
+.chat-messages{position:relative;z-index:2}
+/* La lista de mensajes se eleva como una "hoja" translúcida sobre la
+   escena: arriba deja ver la foto, y se vuelve legible según se baja. */
+#screen-chat.in-situation-scene .chat-messages{
+  margin-top:-16px;border-radius:22px 22px 0 0;
+  background:linear-gradient(180deg,
+    transparent 0%,
+    color-mix(in srgb, var(--bg) 45%, transparent) 12%,
+    color-mix(in srgb, var(--bg) 90%, transparent) 34%,
+    var(--bg) 64%);
+  box-shadow:0 -14px 30px rgba(0,0,0,.22)}
+#screen-chat.in-situation-scene .bubble.ai{
+  background:color-mix(in srgb, var(--card) 58%, transparent);backdrop-filter:blur(6px);
+  padding:7px 12px;border-radius:12px;border-left:2px solid color-mix(in srgb, var(--gold) 55%, transparent);color:var(--text)}
+#screen-chat.in-situation-scene .chat-bar{background:color-mix(in srgb, var(--topbar-bg) 85%, transparent);backdrop-filter:blur(22px)}
+
+/* "Estoy allí ahora" */
+.sit-live-bg{position:absolute;inset:0;top:44px;height:150px;background-size:cover;background-position:center;z-index:0}
+.sit-live-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,.15),var(--bg) 92%)}
+.sit-live-body{position:relative;z-index:1;padding:110px 14px 90px;display:flex;flex-direction:column;gap:12px}
+.sit-live-intro{font-family:var(--fh);font-weight:800;font-size:15px;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5);margin-bottom:2px}
+.sit-live-card{display:flex;align-items:center;gap:12px;text-align:left;border:0;border-radius:16px;padding:15px;background:var(--card);box-shadow:var(--card-elev);cursor:pointer}
+.sit-live-card-ic{font-size:28px;width:52px;height:52px;flex-shrink:0;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb, var(--gold) 18%, var(--card2))}
+.sit-live-card-t{font:800 13px var(--fh);color:var(--text)}
+.sit-live-card-s{font:500 11px/1.4 var(--fb);color:var(--muted);margin-top:3px}
+
+/* Permiso de cámara/mic rechazado (o no disponible) — mensaje real y
+   accionable en vez de una pantalla "colgada" fingiendo que funciona. */
+.media-denied{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:20px}
+.media-denied-ic{font-size:40px;margin-bottom:2px}
+.media-denied-t{font:800 15px var(--fh);color:var(--text)}
+.media-denied-s{font-size:12.5px;color:var(--muted);line-height:1.5;max-width:300px}
+
+/* Escanear — cámara en vivo real (getUserMedia), no un hand-off al picker
+   nativo de archivos: más fiable dentro de una PWA/WebView instalada. */
+.scan-camera-wrap{position:relative;width:100%;aspect-ratio:3/4;background:#000;overflow:hidden;border-radius:0 0 20px 20px}
+.scan-video{width:100%;height:100%;object-fit:cover}
+.scan-camera-hint{position:absolute;top:14px;left:0;right:0;text-align:center;font:700 12px var(--fh);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.scan-camera-controls{position:absolute;left:0;right:0;bottom:18px;display:flex;align-items:center;justify-content:center;gap:28px}
+.scan-camera-controls-spacer{width:44px}
+.scan-shutter{width:66px;height:66px;border-radius:50%;background:#fff;border:4px solid rgba(255,255,255,.5);box-shadow:0 4px 14px rgba(0,0,0,.4);cursor:pointer;flex-shrink:0}
+.scan-shutter:active{transform:scale(.92)}
+.scan-gallery-btn{width:44px;height:44px;border-radius:12px;background:rgba(0,0,0,.45);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer;flex-shrink:0}
+.scan-shell{padding:16px 14px 80px}
+.scan-intro{display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 20px;gap:8px}
+.scan-intro-ic{font-size:46px;margin-bottom:4px}
+.scan-intro-t{font:800 17px var(--fh);color:var(--text)}
+.scan-intro-s{font-size:13px;color:var(--muted);max-width:280px;line-height:1.5;margin-bottom:8px}
+.scan-warn{font:600 11px/1.5 var(--fb);color:var(--coral);background:color-mix(in srgb, var(--coral) 10%, transparent);border:1px solid color-mix(in srgb, var(--coral) 30%, transparent);border-radius:10px;padding:9px 12px;max-width:300px}
+.scan-cta{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:13px 20px;border-radius:14px;background:var(--gold);color:#231806;font:800 13px var(--fh);cursor:pointer;box-shadow:0 4px 0 color-mix(in srgb,var(--gold) 55%,black)}
+.scan-cta-ghost{background:var(--card2);color:var(--text);box-shadow:none;border:1px solid var(--border);margin-top:6px}
+.scan-result{display:flex;flex-direction:column;gap:10px}
+.scan-photo{width:100%;max-height:230px;object-fit:cover;border-radius:14px;box-shadow:var(--card-elev)}
+.scan-status{display:flex;align-items:center;justify-content:center;gap:8px;font:700 12px var(--fh);color:var(--muted);text-align:center}
+.spinner{width:14px;height:14px;border-radius:50%;border:2px solid color-mix(in srgb, var(--gold) 40%, transparent);border-top-color:var(--gold);animation:spin .7s linear infinite;display:inline-block;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* Primero una frase corta de Drakón describiendo lo que ve — el detalle
+   completo (texto/objetos/traducción) se despliega solo si se pide, para
+   no volcar toda la información de golpe mientras el usuario camina. */
+.scan-summary-card{background:linear-gradient(145deg,color-mix(in srgb,var(--gold) 14%,var(--card)),var(--card));border:1px solid color-mix(in srgb,var(--gold) 30%,var(--border));border-radius:14px;padding:13px 15px;font:600 13.5px/1.5 var(--fb);color:var(--text)}
+.scan-details-toggle{align-self:flex-start;border:0;background:none;color:var(--gold);font:800 12px var(--fh);cursor:pointer;padding:4px 2px;display:flex;align-items:center;gap:4px}
+.scan-details-toggle span{transition:transform .2s ease}
+.scan-details-toggle.open span{transform:rotate(180deg)}
+.scan-details{display:none;flex-direction:column;gap:10px;animation:fadeUp .22s both}
+.scan-details.open{display:flex}
+.scan-textbox{background:var(--card);border-radius:14px;padding:13px;box-shadow:var(--card-elev)}
+.scan-textbox-label{font:800 10px var(--fh);color:var(--gold);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.scan-textbox-body{font:500 13px/1.55 var(--ff);color:var(--text);white-space:pre-wrap}
+.scan-textbox-translation{margin-top:9px;padding-top:9px;border-top:1px solid var(--border);font:500 13px/1.5 var(--fb);color:var(--muted)}
+.scan-textbox-translation b{color:var(--text)}
+.scan-objects{display:flex;flex-direction:column;gap:8px}
+.scan-obj-chip{background:var(--card);border-radius:12px;padding:10px 13px;box-shadow:var(--card-elev);display:flex;flex-direction:column;gap:2px}
+.scan-obj-chip b{font:800 13px var(--fh);color:var(--text)}
+.scan-obj-chip span{font:600 11.5px var(--fb);color:var(--gold)}
+.scan-obj-chip small{font:500 11px/1.4 var(--fb);color:var(--muted);margin-top:2px}
+.scan-actions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.scan-actions button{border:0;border-radius:12px;padding:11px;background:var(--card2);color:var(--text);font:800 11.5px var(--fh);cursor:pointer;box-shadow:var(--card-elev)}
+.scan-ai-reply{background:color-mix(in srgb, var(--sky) 10%, var(--card));border:1px solid color-mix(in srgb, var(--sky) 30%, var(--border));border-radius:14px;padding:12px;font:500 13px/1.5 var(--ff);color:var(--text)}
+
+/* Videollamada — v2: el personaje seleccionado aparece animado (reutiliza
+   el mismo .ai-scene de mascot.js) como una burbuja tipo videollamada
+   sobre la cámara del entorno, con subtítulos y estados visuales reales
+   de escuchando/pensando/hablando — no un chat con una imagen al lado. */
+.lc-video-wrap{position:relative;width:100%;aspect-ratio:4/3;background:#000;overflow:hidden}
+.lc-video{width:100%;height:100%;object-fit:cover}
+.lc-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,transparent 30%,transparent 65%,rgba(0,0,0,.55) 100%);pointer-events:none}
+.lc-mascot-pip{position:absolute;top:12px;right:12px;padding:0;background:none;border:0;gap:0;pointer-events:none}
+.lc-mascot-pip .mascot-status{display:none} /* el estado ya se ve en .lc-status y en el aro de color del propio bubble */
+.lc-mascot-pip .ai-scene-media{width:88px;aspect-ratio:9/16;border-radius:16px;box-shadow:0 10px 24px rgba(0,0,0,.55),0 0 0 2px rgba(255,255,255,.25)}
+.lc-mascot-pip.is-listening .ai-scene-media{box-shadow:0 10px 24px rgba(0,0,0,.55),0 0 0 3px var(--mint)}
+.lc-mascot-pip.is-thinking .ai-scene-media{box-shadow:0 10px 24px rgba(0,0,0,.55),0 0 0 3px var(--gold)}
+.lc-mascot-pip.is-listening .ai-scene-glow{animation:mascotGlowPulse 1.1s ease-in-out infinite;background:radial-gradient(circle, color-mix(in srgb, var(--mint) 65%, transparent), transparent 70%)}
+.lc-mascot-pip.is-thinking .ai-scene-media::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,rgba(255,255,255,.06) 2px);animation:lcThinkSheen 1.4s linear infinite}
+@keyframes lcThinkSheen{0%{opacity:.4}50%{opacity:.9}100%{opacity:.4}}
+.lc-caption{position:absolute;left:12px;right:12px;bottom:40px;padding:9px 13px;border-radius:12px;background:rgba(0,0,0,.6);backdrop-filter:blur(6px);color:#fff;font:600 12.5px/1.45 var(--fb);text-align:center;opacity:0;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease;pointer-events:none}
+.lc-caption.show{opacity:1;transform:translateY(0)}
+.lc-status{position:absolute;left:0;right:0;bottom:0;padding:9px 12px;text-align:center;font:700 11.5px var(--fh);color:#fff;background:linear-gradient(0deg,rgba(0,0,0,.65),transparent)}
+.lc-log{flex:1;overflow-y:auto;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.lc-line{max-width:88%;padding:9px 12px;border-radius:14px;font:500 12.5px/1.45 var(--ff)}
+.lc-line.lc-user{align-self:flex-end;background:var(--gold);color:#231806}
+.lc-line.lc-ai{align-self:flex-start;background:var(--card2);color:var(--text)}
+.lc-controls{display:flex;gap:10px;padding:12px 14px calc(env(safe-area-inset-bottom,0px) + 12px)}
+.lc-btn{flex:1;border:0;border-radius:14px;padding:13px;background:var(--card2);color:var(--text);font:800 12.5px var(--fh);cursor:pointer;box-shadow:var(--card-elev);transition:transform .15s ease}
+.lc-btn.flash{transform:scale(.94);background:color-mix(in srgb, var(--gold) 24%, var(--card2))}
+.lc-btn-mic.recording{background:var(--coral);color:#30100b;animation:lcRecPulse 1.1s ease-in-out infinite}
+.lc-btn-mic.busy{opacity:.5}
+@keyframes lcRecPulse{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb, var(--coral) 50%, transparent)}50%{box-shadow:0 0 0 8px transparent}}
+.lc-btn-end{background:var(--coral);color:#30100b;box-shadow:0 3px 0 color-mix(in srgb,var(--coral) 55%,black)}

@@ -126,6 +126,10 @@ function goToMain(){
   // Show logged-in user email in settings
   const emailEl = document.getElementById('sessionUserEmail');
   if(emailEl && window._fbUser) emailEl.textContent = window._fbUser.email || 'Sesión activa';
+  // "Eliminar mi cuenta" solo tiene sentido si existe una cuenta de verdad
+  // (modo Firebase). En modo local no hay nada que borrar del servidor.
+  const delRow = document.getElementById('deleteAccountRow');
+  if(delRow) delRow.style.display = (window._fbReady && window._fbUser) ? '' : 'none';
   document.getElementById('bottomNav').style.display='flex';
   updateAllUI();
 

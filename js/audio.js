@@ -12,49 +12,48 @@ let recognition=null, isListening=false, pronunTarget='', pronunPhonetic='', pro
 let audioCtx=null, analyser=null, micStream=null;
 
 /* ═══════════════════════════════════════
-   SPEECH RECOGNITION — cross-platform
-   Primary:  Web Speech API (Chrome Android/Desktop)
-   Fallback: MediaRecorder → Groq Whisper (iOS Safari, Firefox, etc.)
+   MICRÓFONO — grabación real + transcripción con Whisper (Groq)
 
-   Fixes vs previous version:
-   • Un solo getUserMedia por grabación (no doble stream)
-   • startMicVisualization reutiliza el stream ya abierto
-   • Groq Whisper como backend (más estable que HuggingFace)
-   • timeslice en MediaRecorder.start(250) → chunks seguros en iOS
-   • Timeout de seguridad de 60 s para liberar mic si algo falla
-   • Limpieza de tracks garantizada en todos los caminos de error
+   Por qué NO se usa el "Web Speech API" del navegador (SpeechRecognition):
+   esa API depende de un servicio de reconocimiento del propio navegador/SO
+   (en Chrome, un viaje de ida y vuelta a los servidores de voz de Google)
+   que, dentro de una PWA instalada o un WebView empaquetado en Android,
+   con MUCHA frecuencia no está disponible, o arranca pero nunca entrega
+   resultados ni errores — se queda "escuchando" sin hacer nada. Esa es la
+   causa más probable de que "el micrófono no detecte la voz".
+
+   En su lugar, el micrófono graba un clip de audio real con
+   MediaRecorder y se transcribe con Whisper alojado en Groq (el MISMO
+   proveedor de IA — y la misma clave — que ya usa toda la app para el
+   chat, el escaneo y la videollamada). Es un solo camino, predecible,
+   que funciona igual en cualquier navegador o dispositivo — nada de
+   "intenta con el navegador y si falla dos veces cambia a otra cosa".
+
+   Flujo: toca 🎙️ → se pide permiso de micrófono la PRIMERA vez → empieza
+   a grabar de verdad → toca otra vez para enviar → se transcribe → el
+   texto reconocido se comporta exactamente como si lo hubieras escrito.
 ═══════════════════════════════════════ */
 let mediaRecorder = null;
-let mediaChunks = [];
-let usingWhisper = false;
-let _activeStream = null;   // stream compartido para recorder + visualización
-let _safetyTimer = null;    // timeout que libera mic si el usuario olvida parar
-let _cachedStream = null;   // stream persistente reutilizable entre grabaciones
-let _wsApiFailCount = 0;    // contador de fallos consecutivos de Web Speech API
-
-// ── helpers ──────────────────────────────────────────────────
-function hasSpeechRecognition(){
-  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
-}
+let mediaChunks   = [];
+let _activeStream = null;   // stream de la grabación en curso
+let _cachedStream = null;   // stream de mic reutilizado entre grabaciones (evita repedir permiso)
+let _safetyTimer  = null;   // corta la grabación sola si el usuario se olvida de tocar "detener"
 
 function _releaseStream(stream){
   try{ if(stream) stream.getTracks().forEach(t=>t.stop()); } catch(e){}
 }
-
 function _clearSafetyTimer(){
   if(_safetyTimer){ clearTimeout(_safetyTimer); _safetyTimer=null; }
 }
 
 // Obtiene un stream de micrófono, reutilizando el cacheado si sigue activo.
-// Esto evita que el navegador muestre el diálogo de permiso más de una vez.
+// Esto es lo que hace que el navegador NO vuelva a pedir permiso cada vez
+// — solo lo pide la primera vez que de verdad se necesita.
 async function _getStream(){
-  // Reutilizar stream activo si sus tracks siguen vivos
   if(_cachedStream && _cachedStream.getTracks().every(t => t.readyState === 'live')){
     return _cachedStream;
   }
-  // Si hay un stream muerto, limpiarlo
   if(_cachedStream){ _releaseStream(_cachedStream); _cachedStream = null; }
-
   const stream = await navigator.mediaDevices.getUserMedia({
     audio:{ echoCancellation:true, noiseSuppression:true, sampleRate:16000 }
   });
@@ -62,212 +61,45 @@ async function _getStream(){
   return stream;
 }
 
-// Devuelve la extensión más adecuada para el blob grabado
 function _bestMime(){
-  const types = [
-    'audio/webm;codecs=opus',
-    'audio/webm',
-    'audio/ogg;codecs=opus',
-    'audio/mp4',
-  ];
-  for(const t of types){ if(MediaRecorder.isTypeSupported(t)) return t; }
+  const types = ['audio/webm;codecs=opus','audio/webm','audio/ogg;codecs=opus','audio/mp4'];
+  for(const t of types){ if(window.MediaRecorder && MediaRecorder.isTypeSupported(t)) return t; }
   return '';
 }
 
-// ── Web Speech API ────────────────────────────────────────────
-function initSpeech(){
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if(!SR) return false;
-  recognition = new SR();
-  recognition.continuous = false;
-  recognition.interimResults = true;
-  recognition.maxAlternatives = 1;
-  recognition.lang = state.lang?.lang || 'en-US';
-
-  recognition.onresult = e => {
-    _wsApiFailCount = 0; // reconocimiento exitoso — resetear contador de fallos
-    let interim = '', finalText = '', confidence = 0;
-    for(let i = e.resultIndex; i < e.results.length; i++){
-      if(e.results[i].isFinal){
-        finalText += e.results[i][0].transcript;
-        confidence = e.results[i][0].confidence || 0.85;
-      } else {
-        interim += e.results[i][0].transcript;
-      }
-    }
-    if(pronunContext === 'chat'){
-      const inp = document.getElementById('chatIn');
-      // Mientras se habla mostramos el texto provisional (interim); al llegar
-      // el texto final, dejamos ESE guardado en el input (no se pierde).
-      if(inp) inp.value = finalText ? finalText.trim() : interim;
-    }
-    if(finalText) handleVoiceResult(finalText.trim(), confidence);
-  };
-
-  recognition.onerror = e => {
-    _clearSafetyTimer();
-    const msgs = {
-      'not-allowed': '🎙️ Permiso denegado. Habilita el micrófono en ajustes.',
-      'audio-capture':'🎙️ No se encontró micrófono.',
-      'aborted':     null,
-    };
-    // Para no-speech y network: intentar Whisper automáticamente
-    if(e.error === 'no-speech' || e.error === 'network'){
-      _wsApiFailCount++;
-      // Si falla 2+ veces seguidas, usar Whisper como backend principal
-      if(_wsApiFailCount >= 2){
-        showToast('🔄 Cambiando a grabación alternativa...');
-        stopListening();
-        // Arrancar Whisper con el stream cacheado si sigue vivo
-        _getStream().then(stream => {
-          const btn = document.getElementById('micBtn') || document.getElementById('exMicBtn');
-          if(btn) btn.classList.add('on');
-          startMicVisualization(stream);
-          startWhisperRecording(stream).then(ok => { if(!ok) resetMicUI(); });
-        }).catch(() => { resetMicUI(); showToast('🎙️ No se pudo acceder al micrófono.'); });
-        return;
-      }
-      // Primer fallo: mostrar aviso y dejar que el usuario vuelva a intentar
-      showToast('🔇 No se detectó voz. Habla más cerca del micrófono.');
-      stopListening(); resetMicUI();
-      return;
-    }
-    stopListening(); resetMicUI();
-    const msg = msgs[e.error];
-    if(msg) showToast(msg);
-  };
-
-  recognition.onend = () => { _clearSafetyTimer(); stopListening(); resetMicUI(); };
-  return true;
-}
-
-// ── Groq Whisper transcription ────────────────────────────────
+// ── Transcripción REAL con Whisper (Groq) — nunca texto inventado ──
 async function transcribeWithWhisper(blob){
-  // Try Groq first (fast, reliable, free tier generoso)
   const groqKey = state.groqKey || localStorage.getItem('groqKey');
-  if(groqKey){
-    try{
-      const ext  = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
-      const fd   = new FormData();
-      fd.append('file', blob, `audio.${ext}`);
-      fd.append('model', 'whisper-large-v3-turbo');
-      fd.append('language', (state.lang?.lang||'en-US').split('-')[0]);
-      fd.append('response_format', 'json');
-      const r = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
-        method:'POST', headers:{'Authorization':'Bearer '+groqKey}, body:fd,
-        signal: AbortSignal.timeout(25000)
-      });
-      if(r.ok){ const j=await r.json(); if(j.text) return j.text.trim(); }
-    } catch(e){}
-  }
-
-  // Fallback: Pollinations Whisper proxy (no key needed, menos confiable)
+  if(!groqKey || !blob || blob.size < 800) return null;
   try{
-    const ext  = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
-    const fd   = new FormData();
+    const ext = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm';
+    const fd  = new FormData();
     fd.append('file', blob, `audio.${ext}`);
-    const r = await fetch('https://audio.api.pollinations.ai/transcriptions', {
-      method:'POST', body:fd,
+    fd.append('model', 'whisper-large-v3-turbo');
+    fd.append('language', (state.lang?.lang||'en-US').split('-')[0]);
+    fd.append('response_format', 'json');
+    const r = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
+      method:'POST', headers:{'Authorization':'Bearer '+groqKey}, body:fd,
       signal: AbortSignal.timeout(25000)
     });
-    if(r.ok){ const j=await r.json(); if(j.text) return j.text.trim(); }
+    if(r.ok){ const j = await r.json(); if(j.text) return j.text.trim(); }
   } catch(e){}
-
   return null;
 }
 
-function blobToBase64(blob){
-  return new Promise(resolve=>{
-    const r = new FileReader();
-    r.onload = ()=> resolve(r.result);
-    r.readAsDataURL(blob);
-  });
-}
-
-// ── MediaRecorder (Whisper fallback) ─────────────────────────
-// Recibe el stream ya abierto para NO pedir permiso dos veces
-async function startWhisperRecording(stream){
-  try{
-    _activeStream = stream;
-    mediaChunks   = [];
-    const mimeType = _bestMime();
-    mediaRecorder  = new MediaRecorder(stream, mimeType ? {mimeType} : {});
-
-    mediaRecorder.ondataavailable = e => {
-      if(e.data && e.data.size > 0) mediaChunks.push(e.data);
-    };
-
-    mediaRecorder.onstop = async () => {
-      _clearSafetyTimer();
-      // Solo liberamos _activeStream si es diferente al stream cacheado,
-      // para no matar el track compartido entre grabaciones.
-      if(_activeStream && _activeStream !== _cachedStream){
-        _releaseStream(_activeStream);
-      }
-      _activeStream = null;
-      stopMicVisualization();
-
-      if(mediaChunks.length === 0){
-        stopListening(); resetMicUI();
-        showToast('🔇 No se capturó audio. Intenta de nuevo.');
-        return;
-      }
-      const blob = new Blob(mediaChunks, {type: mimeType || 'audio/webm'});
-      showToast('🔄 Procesando audio...');
-      const text = await transcribeWithWhisper(blob);
-      if(text && text.trim()){
-        handleVoiceResult(text.trim(), 0.85);
-      } else {
-        stopListening(); resetMicUI();
-        showToast('🔇 No se pudo reconocer el audio. Intenta de nuevo.');
-      }
-    };
-
-    mediaRecorder.onerror = () => {
-      _clearSafetyTimer();
-      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
-      _activeStream = null;
-      stopListening(); resetMicUI();
-      showToast('🎙️ Error al grabar. Intenta de nuevo.');
-    };
-
-    // timeslice=250ms → chunks frecuentes, seguro en iOS Safari
-    mediaRecorder.start(250);
-    usingWhisper = true;
-    isListening  = true;
-
-    // Safety timeout: libera el mic después de 60 s si no se detiene manualmente
-    _safetyTimer = setTimeout(()=>{
-      if(isListening && mediaRecorder && mediaRecorder.state !== 'inactive'){
-        showToast('⏱️ Grabación detenida automáticamente (60 s)');
-        mediaRecorder.stop();
-      }
-    }, 60000);
-
-    return true;
-  } catch(e){
-    if(stream && stream !== _cachedStream) _releaseStream(stream);
-    _activeStream = null;
-    showToast('🎙️ No se pudo iniciar la grabación: ' + (e.message||e));
-    return false;
-  }
-}
-
-// ── Mic visualización (reutiliza stream activo) ───────────────
+// ── Visualización del micrófono (reutiliza el stream ya abierto) ──
 function startMicVisualization(stream){
   try{
     if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
-    // Reanudar contexto suspendido (política autoplay de iOS)
-    if(audioCtx.state === 'suspended') audioCtx.resume();
+    if(audioCtx.state === 'suspended') audioCtx.resume(); // política de autoplay en iOS/algunos WebViews
     const src = audioCtx.createMediaStreamSource(stream);
     analyser  = audioCtx.createAnalyser();
     analyser.fftSize = 256;
     src.connect(analyser);
-    micStream = stream;   // solo guardamos referencia, no somos dueños del track
+    micStream = stream;
     animateWave();
   } catch(e){}
 }
-
 function animateWave(){
   if(!isListening || !analyser) return;
   const data = new Uint8Array(analyser.frequencyBinCount);
@@ -279,76 +111,128 @@ function animateWave(){
   }
   requestAnimationFrame(animateWave);
 }
-
-// No detenemos los tracks aquí — el dueño (recorder o recognition) los libera
 function stopMicVisualization(){ micStream=null; analyser=null; }
 
-// ── toggleMic (chat) ──────────────────────────────────────────
+// ── Grabación (recibe el stream ya abierto, NO pide permiso otra vez) ──
+async function _startRecording(stream){
+  try{
+    _activeStream = stream;
+    mediaChunks   = [];
+    const mimeType = _bestMime();
+    mediaRecorder  = mimeType ? new MediaRecorder(stream,{mimeType}) : new MediaRecorder(stream);
+
+    mediaRecorder.ondataavailable = e => { if(e.data && e.data.size > 0) mediaChunks.push(e.data); };
+
+    mediaRecorder.onstop = async () => {
+      _clearSafetyTimer();
+      // Solo liberamos el stream si NO es el compartido/cacheado, para no
+      // matar el track que reutilizamos entre grabaciones.
+      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
+      _activeStream = null;
+      stopMicVisualization();
+
+      if(mediaChunks.length === 0){
+        isListening = false; resetMicUI();
+        showToast('🔇 No se capturó audio. Inténtalo de nuevo, más cerca del micrófono.');
+        return;
+      }
+      const blob = new Blob(mediaChunks, {type: (mediaRecorder && mediaRecorder.mimeType) || mimeType || 'audio/webm'});
+
+      if(!state.groqKey && !localStorage.getItem('groqKey')){
+        isListening = false; resetMicUI();
+        showToast('⚠️ Configura tu clave de IA en Ajustes para usar el micrófono.');
+        return;
+      }
+
+      _setMicProcessing(true);
+      const text = await transcribeWithWhisper(blob);
+      isListening = false;
+      _setMicProcessing(false);
+      if(text){
+        handleVoiceResult(text, 0.9);
+      } else {
+        resetMicUI();
+        showToast('😕 No se entendió el audio. Habla más cerca del micrófono e inténtalo de nuevo.');
+      }
+    };
+
+    mediaRecorder.onerror = () => {
+      _clearSafetyTimer();
+      if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
+      _activeStream = null; isListening = false;
+      resetMicUI();
+      showToast('🎙️ Error al grabar. Inténtalo de nuevo.');
+    };
+
+    mediaRecorder.start(250); // timeslice corto → chunks seguros incluso si se corta abruptamente
+    isListening = true;
+
+    // Corte de seguridad: si el usuario se olvida de tocar "detener", la
+    // grabación NUNCA se queda bloqueada indefinidamente.
+    _clearSafetyTimer();
+    _safetyTimer = setTimeout(()=>{
+      if(isListening && mediaRecorder && mediaRecorder.state !== 'inactive'){
+        showToast('⏱️ Grabación detenida automáticamente (30 s máx.)');
+        mediaRecorder.stop();
+      }
+    }, 30000);
+
+    return true;
+  } catch(e){
+    if(stream && stream !== _cachedStream) _releaseStream(stream);
+    _activeStream = null;
+    showToast('🎙️ No se pudo iniciar la grabación: ' + (e.message||e));
+    return false;
+  }
+}
+
+function _setMicProcessing(on){
+  const mb = document.getElementById('micBtn');
+  if(mb){ mb.classList.remove('on'); mb.classList.toggle('processing', on); }
+  const eb = document.getElementById('exMicBtn');
+  if(eb && on){ eb.classList.remove('listening'); eb.classList.add('processing'); eb.textContent='🔄 Transcribiendo...'; }
+  const inp = document.getElementById('chatIn');
+  if(inp && on) inp.placeholder = '🔄 Transcribiendo tu voz...';
+}
+
+// ── toggleMic (micrófono del chat) ─────────────────────────────
+// Botón "empuja para hablar": un toque pide permiso (si hace falta) y
+// empieza a grabar de verdad; otro toque termina la grabación y la envía
+// a transcribir. El micrófono nunca queda "colgado": si algo falla en
+// cualquier punto, siempre se libera y se avisa con un mensaje claro.
 async function toggleMic(){
-  // —— Parar si ya está grabando ——
   if(isListening){
     _clearSafetyTimer();
-    if(usingWhisper && mediaRecorder && mediaRecorder.state !== 'inactive'){
-      mediaRecorder.stop();
-    } else if(recognition){
-      recognition.stop();
-    }
+    if(mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
     return;
   }
 
   pronunContext = 'chat'; pronunTarget = '';
 
-  // —— Obtener micrófono (reutiliza stream cacheado si ya tiene permiso) ——
   let stream;
   try{
     stream = await _getStream();
   } catch(e){
     const denied = e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError';
     showToast(denied
-      ? '🎙️ Permiso de micrófono denegado. Habilítalo en los ajustes del navegador.'
+      ? '🎙️ Drakón necesita tu micrófono para escucharte. Actívalo en los permisos de este sitio (icono 🔒 junto a la dirección) y vuelve a intentarlo.'
       : '🎙️ No se pudo acceder al micrófono: ' + (e.message||e));
     return;
   }
 
-  // —— Web Speech API: reutiliza el stream ya abierto para visualización ——
-  if(hasSpeechRecognition()){
-    recognition = null;
-    if(initSpeech()){
-      recognition.lang = state.lang?.lang || 'en-US';
-      try{
-        recognition.start();
-        isListening = true;
-        const btn = document.getElementById('micBtn'); if(btn) btn.classList.add('on');
-        const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Escuchando...';
-        startMicVisualization(stream);
-        // Safety timer para Web Speech (60 s)
-        _safetyTimer = setTimeout(()=>{
-          if(isListening && recognition){ recognition.stop(); }
-        }, 60000);
-        return;
-      } catch(e){
-        // Web Speech lanzó excepción — liberar stream y caer a Whisper
-        _releaseStream(stream);
-        recognition = null;
-      }
-    }
-  }
-
-  // —— Whisper fallback ——
-  const btn = document.getElementById('micBtn'); if(btn) btn.classList.add('on');
-  const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Grabando... toca 🎙️ para detener';
-  showToast('🎙️ Grabando... toca el micrófono para terminar');
+  const btn = document.getElementById('micBtn'); if(btn){ btn.classList.remove('processing'); btn.classList.add('on'); }
+  const inp = document.getElementById('chatIn'); if(inp) inp.placeholder = '🎙️ Escuchando... toca 🎙️ de nuevo para enviar';
+  showToast('🎙️ Grabando... toca el micrófono cuando termines de hablar');
   startMicVisualization(stream);
-  const ok = await startWhisperRecording(stream);
-  if(!ok){ resetMicUI(); }
+  const ok = await _startRecording(stream);
+  if(!ok) resetMicUI();
 }
 
-// ── startPronunEx (ejercicio de pronunciación) ────────────────
+// ── startPronunEx (ejercicio de pronunciación) ─────────────────
 async function startPronunEx(word, phonetic){
   if(isListening){
     _clearSafetyTimer();
-    if(usingWhisper && mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
-    else if(recognition) recognition.stop();
+    if(mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
     return;
   }
 
@@ -356,7 +240,8 @@ async function startPronunEx(word, phonetic){
   try{
     stream = await _getStream();
   } catch(e){
-    showToast('🎙️ Permiso de micrófono denegado.'); return;
+    showToast('🎙️ Drakón necesita tu micrófono para escucharte. Actívalo en los permisos de este sitio y vuelve a intentarlo.');
+    return;
   }
 
   pronunTarget = word; pronunPhonetic = phonetic; pronunContext = 'exercise';
@@ -364,34 +249,17 @@ async function startPronunEx(word, phonetic){
   const btn    = document.getElementById('exMicBtn');
   const wave   = document.getElementById('exWave');
   const status = document.getElementById('pronunStatus');
-  if(btn){ btn.classList.add('listening'); btn.textContent = '🔴 Escuchando...'; }
+  if(btn){ btn.classList.remove('processing'); btn.classList.add('listening'); btn.textContent = '🔴 Escuchando... toca para enviar'; }
   if(wave) wave.style.display = 'flex';
-  if(status) status.textContent = `Escuchando... pronuncia "${word}" ahora`;
+  if(status) status.textContent = `Escuchando... pronuncia "${word}" y toca el botón otra vez para enviar`;
 
   startMicVisualization(stream);
-
-  if(hasSpeechRecognition()){
-    recognition = null;
-    if(initSpeech()){
-      recognition.lang = state.lang?.lang || 'en-US';
-      try{
-        recognition.start(); isListening = true;
-        _safetyTimer = setTimeout(()=>{ if(isListening && recognition) recognition.stop(); }, 60000);
-        return;
-      } catch(e){
-        _releaseStream(stream);
-        recognition = null;
-      }
-    }
-  }
-
-  // Whisper fallback
-  const ok = await startWhisperRecording(stream);
-  if(!ok){ resetMicUI(); }
+  const ok = await _startRecording(stream);
+  if(!ok) resetMicUI();
 }
 
 // ── shared result handler ─────────────────────────────────────
-// Se llama cuando ya tenemos texto FINAL (Web Speech o Whisper).
+// Se llama cuando ya tenemos texto FINAL transcrito por Whisper.
 // - Contexto 'exercise' (botón "Pronunciar" de un ejercicio): se evalúa la
 //   pronunciación contra la palabra objetivo.
 // - Contexto 'chat' (micrófono del chat): el texto reconocido se comporta
@@ -429,14 +297,13 @@ function evaluatePronunEx(heard, confidence){
 }
 
 function stopListening(){
-  isListening  = false;
-  usingWhisper = false;
+  isListening = false;
   stopMicVisualization();
 }
 
 function resetMicUI(){
-  const mb = document.getElementById('micBtn');    if(mb) mb.classList.remove('on');
-  const eb = document.getElementById('exMicBtn'); if(eb){ eb.classList.remove('listening'); eb.textContent='🎙️ Pronunciar'; }
+  const mb = document.getElementById('micBtn');    if(mb) mb.classList.remove('on','processing');
+  const eb = document.getElementById('exMicBtn'); if(eb){ eb.classList.remove('listening','processing'); eb.textContent='🎙️ Pronunciar'; }
   const ew = document.getElementById('exWave');   if(ew) ew.style.display='none';
   const inp= document.getElementById('chatIn');   if(inp) inp.placeholder='Escribe aquí...';
 }
@@ -493,39 +360,379 @@ const CHAR_VOICE = {
   axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', name:'Domi', gender:'F', stability:0.30, style:0.70, speed:1.15 },
 };
 
-// Translate text to the target language using Groq, then speak it
-async function translateAndSpeak(cleanText){
-  if(!state.groqKey) return speak(cleanText); // no key — skip translate
+/* ═══════════════════════════════════════
+   SEGMENTACIÓN POR IDIOMA PARA LA VOZ DEL CHAT
 
-  const targetLang  = state.lang?.lang  || 'en-US';
-  const targetName  = state.lang?.name  || 'English'; // e.g. "Inglés"
-  const targetNative= state.lang?.native|| 'English'; // e.g. "English"
+   La IA (Groq) ya mezcla intencionalmente el idioma nativo del usuario y
+   el idioma que está aprendiendo dentro de una misma respuesta (para
+   explicar, traducir y dar ejemplos) — ESO no cambia aquí.
 
-  try{
-    const resp = await Promise.race([
-      fetch('https://api.groq.com/openai/v1/chat/completions',{
-        method:'POST',
-        headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body: JSON.stringify({
-          model: 'openai/gpt-oss-20b', // fast & cheap for translation
-          max_tokens: 400,
-          temperature: 0.1,
-          messages:[{
-            role:'user',
-            content:`Translate the following text to ${targetNative}. Return ONLY the translated text, no explanations, no quotes, no extra text.\n\n${cleanText}`
-          }]
-        })
-      }),
-      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),10000))
-    ]);
-    if(!resp.ok) throw new Error('translate_fail');
-    const data = await resp.json();
-    const translated = data?.choices?.[0]?.message?.content?.trim();
-    if(translated) return speak(translated, targetLang);
-  } catch(e){}
+   Lo que hacía mal el sistema de voz: `translateAndSpeak()` traducía TODA
+   la respuesta al idioma que se está aprendiendo antes de hablar (una
+   llamada aparte a Groq, distinta de la conversación), perdiendo esa
+   mezcla y leyendo todo con un único acento — por eso las palabras en el
+   idioma nativo sonaban pronunciadas "a la inglesa" (o al idioma que
+   corresponda).
 
-  // Fallback: speak original text with target voice anyway
-  speak(cleanText, targetLang);
+   Ahora, en su lugar: se detecta el idioma REAL de cada palabra del texto
+   tal cual lo escribió la IA (con listas de palabras frecuentes de cada
+   idioma — la misma técnica que usan los detectores de idioma para textos
+   cortos, sin depender de traducir nada), se agrupa en tramos consecutivos
+   por idioma, y cada tramo se reproduce con la pronunciación correcta —
+   manteniendo SIEMPRE la misma voz de personaje, para que suene como una
+   sola respuesta fluida y no como un cambio de voz.
+
+   Nota sobre ElevenLabs: el modelo `eleven_multilingual_v2` ya pronuncia
+   cada tramo automáticamente en el idioma correcto según el propio texto
+   (no existe ni hace falta un parámetro "language" en su API) — así que
+   la segmentación aquí sirve sobre todo para el fallback nativo del
+   navegador (Web Speech API), que si necesita un idioma explícito por
+   cada frase, y además evita mandarle a ElevenLabs un tramo demasiado
+   largo con code-switching interno, que es donde más falla.
+═══════════════════════════════════════ */
+
+// Palabras frecuentes por idioma (artículos, pronombres, verbos comunes,
+// preposiciones, números...) — suficientes para distinguir con buena
+// fiabilidad si una palabra pertenece al idioma que se está aprendiendo.
+// Solo hace falta cubrir los 6 idiomas que se pueden APRENDER (el nativo
+// se determina "por descarte": lo que no es claramente el idioma meta).
+const _TARGET_LANG_WORDS = {
+  EN: new Set(['the','a','an','is','are','was','were','be','been','being','have','has','had','do','does','did',
+    'will','would','can','could','should','must','may','might','shall','this','that','these','those',
+    'i','you','he','she','it','we','they','me','him','her','us','them','my','your','his','its','our','their',
+    'mine','yours','hers','ours','theirs','and','or','but','if','because','so','although','while','when',
+    'where','why','how','what','who','whom','which','whose','not','no','yes','very','too','also','just',
+    'only','still','already','again','always','never','sometimes','often','usually','here','there','now',
+    'then','today','tomorrow','yesterday','please','thank','thanks','sorry','hello','hi','hey','bye',
+    'goodbye','welcome','good','bad','big','small','new','old','first','last','next','some','any','all',
+    'many','much','more','most','less','few','little','one','two','three','four','five','six','seven',
+    'eight','nine','ten','in','on','at','to','from','with','without','about','of','for','by','up','down',
+    'out','into','over','under','between','through','try','repeat','word','words','mean','means','meaning',
+    'said','say','says','speak','listen','look','see','want','need','like','love','know','think','get','go',
+    'going','come','coming','take','make','give','tell','ask','answer','question','right','wrong','correct',
+    'great','well','okay','ok','sentence','example','practice','learn','learning',
+    // Vocabulario básico frecuente (para reconocer palabras sueltas de ejemplo, no solo
+    // palabras funcionales) — casa, comida, familia, tiempo, colores, adjetivos comunes...
+    'house','home','water','food','bread','meat','fish','chicken','rice','fruit','vegetable',
+    'apple','table','chair','door','window','bed','room','kitchen','bathroom','garden','street',
+    'road','city','country','world','mother','father','sister','brother','son','daughter','family',
+    'friend','teacher','student','doctor','work','job','money','name','number','color','red','blue',
+    'green','black','white','yellow','morning','afternoon','evening','night','breakfast','lunch',
+    'dinner','coffee','tea','milk','egg','cheese','sugar','salt','hungry','thirsty','tired','happy',
+    'sad','angry','afraid','tall','short','fast','slow','easy','hard','difficult','expensive','cheap',
+    'beautiful','pretty','ugly','clean','dirty','open','closed','near','far','left','right','front',
+    'back','inside','outside','weather','rain','sun','snow','wind','warm','cool','hot','cold','perfect',
+    'wonderful','amazing','excellent','nice','beautiful','wrong','true','false','possible','important',
+    'different','same','same','free','busy','ready','sure','together','alone','person','people','man',
+    'woman','child','children','baby','dog','cat','animal','bird','tree','flower','book','pen','pencil',
+    'phone','computer','car','bus','train','plane','airport','ticket','money','price','shop','store',
+    'market','restaurant','hotel','school','hospital','office','park','beach','mountain','river','sea',
+    'sky','moon','star','fire','ice','summer','winter','spring','autumn','fall']),
+  ES: new Set(['el','la','los','las','un','una','unos','unas','y','o','pero','si','porque','aunque','cuando',
+    'donde','como','que','cual','quien','quienes','cuyo','no','sí','muy','también','solo','sólo','todavía',
+    'ya','otro','otra','siempre','nunca','aquí','ahí','allí','ahora','entonces','hoy','mañana','ayer',
+    'favor','gracias','perdón','hola','adiós','bienvenido','bueno','malo','bien','mal','grande','pequeño',
+    'nuevo','viejo','primero','último','siguiente','algunos','alguna','todos','todas','muchos','mucho',
+    'mucha','más','menos','poco','pocas','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve',
+    'diez','en','sobre','a','hacia','desde','con','sin','entre','soy','eres','es','somos','son','era','fue',
+    'fueron','ser','estar','estoy','estás','está','estamos','están','tengo','tienes','tiene','tenemos',
+    'tienen','haber','hacer','hago','haces','hace','hacemos','hacen','puedo','puedes','puede','podemos',
+    'pueden','quiero','quieres','quiere','queremos','quieren','necesito','necesitas','necesita','significa',
+    'significar','decir','digo','dice','hablar','hablo','escuchar','mirar','ver','saber','sé','pensar','ir',
+    'voy','vamos','venir','vengo','tomar','dar','doy','preguntar','pregunta','respuesta','correcto',
+    'incorrecto','genial','vale','casa','palabra','palabras','repetir','intenta','frase','ejemplo',
+    'practica','aprender',
+    // Vocabulario básico frecuente
+    'hogar','agua','comida','pan','carne','pescado','pollo','arroz','fruta','verdura','manzana','mesa',
+    'silla','puerta','ventana','cama','cuarto','cocina','baño','jardín','calle','camino','ciudad','país',
+    'mundo','madre','padre','hermana','hermano','hijo','hija','familia','amigo','amiga','maestro',
+    'maestra','profesor','profesora','estudiante','médico','doctor','trabajo','dinero','nombre','número',
+    'color','rojo','azul','verde','negro','blanco','amarillo','mañana','tarde','noche','desayuno',
+    'almuerzo','cena','café','leche','huevo','queso','azúcar','sal','hambre','sed','cansado','feliz',
+    'triste','enojado','miedo','alto','alta','bajo','baja','rápido','lento','fácil','difícil','caro',
+    'barato','bonito','bonita','hermoso','feo','limpio','sucio','abierto','cerrado','cerca','lejos',
+    'izquierda','derecha','dentro','fuera','tiempo','lluvia','sol','nieve','viento','caliente','frío',
+    'perfecto','maravilloso','excelente','verdad','falso','posible','importante','diferente','mismo',
+    'libre','ocupado','listo','seguro','juntos','solo','persona','gente','hombre','mujer','niño','niña',
+    'bebé','perro','gato','animal','pájaro','árbol','flor','libro','lápiz','teléfono','computadora',
+    'coche','carro','autobús','tren','avión','aeropuerto','boleto','precio','tienda','mercado',
+    'restaurante','hotel','escuela','hospital','oficina','parque','playa','montaña','río','mar','cielo',
+    'luna','estrella','fuego','hielo','verano','invierno','primavera','otoño']),
+  FR: new Set(['le','la','les','un','une','des','et','ou','mais','si','parce','bien','quand','où','comment',
+    'que','qui','quoi','dont','ne','pas','non','oui','très','aussi','seulement','toujours','jamais',
+    'parfois','souvent','ici','là','maintenant','alors','aujourd\'hui','demain','hier','plaît','merci',
+    'pardon','bonjour','salut','revoir','bienvenue','bon','mauvais','bien','mal','grand','petit','nouveau',
+    'vieux','premier','dernier','suivant','quelques','tous','toutes','beaucoup','plus','moins','peu','un',
+    'deux','trois','quatre','cinq','six','sept','huit','neuf','dix','dans','sur','à','vers','depuis','avec',
+    'sans','entre','je','tu','il','elle','nous','vous','ils','elles','mon','ton','son','notre','votre',
+    'leur','suis','es','est','sommes','êtes','sont','être','avoir','ai','as','a','avons','avez','ont',
+    'faire','fais','fait','faisons','faites','font','peux','peut','pouvons','pouvez','peuvent','veux',
+    'veut','voulons','voulez','veulent','savoir','sais','sait','parler','parle','écouter','regarder','voir',
+    'penser','aller','vais','venir','viens','prendre','donner','demander','question','réponse','correct',
+    'incorrect','super','maison','mot','mots','répéter','essaie','phrase','exemple',
+    // Vocabulaire courant fréquent
+    'maison','eau','nourriture','pain','viande','poisson','poulet','riz','fruit','légume','pomme',
+    'table','chaise','porte','fenêtre','lit','chambre','cuisine','salle','jardin','rue','route','ville',
+    'pays','monde','mère','père','sœur','frère','fils','fille','famille','ami','amie','professeur',
+    'élève','médecin','travail','argent','nom','numéro','couleur','rouge','bleu','vert','noir','blanc',
+    'jaune','matin','après-midi','soir','nuit','petit-déjeuner','déjeuner','dîner','café','lait','œuf',
+    'fromage','sucre','sel','faim','soif','fatigué','heureux','triste','fâché','peur','grand','petit',
+    'rapide','lent','facile','difficile','cher','bon marché','beau','belle','laid','propre','sale',
+    'ouvert','fermé','près','loin','gauche','droite','dedans','dehors','temps','pluie','soleil','neige',
+    'vent','chaud','froid','parfait','merveilleux','excellent','vrai','faux','possible','important',
+    'différent','même','libre','occupé','prêt','sûr','ensemble','seul','personne','gens','homme','femme',
+    'enfant','bébé','chien','chat','animal','oiseau','arbre','fleur','livre','stylo','téléphone',
+    'ordinateur','voiture','bus','train','avion','aéroport','billet','prix','magasin','marché',
+    'restaurant','hôtel','école','hôpital','bureau','parc','plage','montagne','rivière','mer','ciel',
+    'lune','étoile','feu','glace','été','hiver','printemps','automne']),
+  DE: new Set(['der','die','das','ein','eine','und','oder','aber','wenn','weil','obwohl','wann','wo','wie',
+    'was','wer','welche','nicht','nein','ja','sehr','auch','nur','immer','nie','manchmal','oft','hier','da',
+    'jetzt','dann','heute','morgen','gestern','bitte','danke','entschuldigung','hallo','tschüss',
+    'willkommen','gut','schlecht','groß','klein','neu','alt','erste','letzte','nächste','einige','alle',
+    'viele','viel','mehr','weniger','wenig','eins','zwei','drei','vier','fünf','sechs','sieben','acht',
+    'neun','zehn','in','auf','zu','von','mit','ohne','zwischen','ich','du','er','sie','es','wir','ihr',
+    'mein','dein','sein','unser','euer','bin','bist','ist','sind','seid','haben','habe','hast','hat','habt',
+    'machen','mache','machst','macht','kann','kannst','können','könnt','will','willst','wollen','wollt',
+    'wissen','weiß','sprechen','spreche','hören','schauen','sehen','denken','gehen','gehe','kommen','komme',
+    'nehmen','geben','fragen','frage','antwort','richtig','falsch','super','haus','wort','wörter',
+    'wiederholen','versuch','satz','beispiel',
+    // Häufiger Grundwortschatz
+    'zuhause','wasser','essen','brot','fleisch','fisch','huhn','reis','obst','gemüse','apfel','tisch',
+    'stuhl','tür','fenster','bett','zimmer','küche','bad','garten','straße','stadt','land','welt',
+    'mutter','vater','schwester','bruder','sohn','tochter','familie','freund','freundin','lehrer',
+    'lehrerin','schüler','arzt','arbeit','geld','name','nummer','farbe','rot','blau','grün','schwarz',
+    'weiß','gelb','morgen','nachmittag','abend','nacht','frühstück','mittagessen','abendessen','kaffee',
+    'milch','ei','käse','zucker','salz','hunger','durst','müde','glücklich','traurig','wütend','angst',
+    'groß','klein','schnell','langsam','einfach','schwierig','teuer','billig','schön','hässlich','sauber',
+    'schmutzig','offen','geschlossen','nah','weit','links','rechts','drinnen','draußen','zeit','regen',
+    'sonne','schnee','wind','warm','kalt','perfekt','wunderbar','ausgezeichnet','wahr','falsch',
+    'möglich','wichtig','anders','gleich','frei','beschäftigt','bereit','sicher','zusammen','allein',
+    'person','leute','mann','frau','kind','baby','hund','katze','tier','vogel','baum','blume','buch',
+    'stift','telefon','computer','auto','bus','zug','flugzeug','flughafen','ticket','preis','geschäft',
+    'markt','restaurant','hotel','schule','krankenhaus','büro','park','strand','berg','fluss','meer',
+    'himmel','mond','stern','feuer','eis','sommer','winter','frühling','herbst']),
+  IT: new Set(['il','lo','la','i','gli','le','un','uno','una','e','o','ma','se','perché','sebbene','quando',
+    'dove','come','che','chi','cosa','quale','non','no','sì','molto','anche','solo','sempre','mai','spesso',
+    'qui','qua','lì','adesso','ora','allora','oggi','domani','ieri','favore','grazie','scusa','ciao',
+    'salve','arrivederci','benvenuto','buono','cattivo','bene','male','grande','piccolo','nuovo','vecchio',
+    'primo','ultimo','prossimo','alcuni','tutti','tutte','molti','molte','più','meno','poco','poche','uno',
+    'due','tre','quattro','cinque','sei','sette','otto','nove','dieci','in','su','a','verso','da','con',
+    'senza','tra','fra','io','tu','lui','lei','noi','voi','loro','mio','tuo','suo','nostro','vostro','sono',
+    'sei','è','siamo','siete','essere','avere','ho','hai','ha','abbiamo','avete','hanno','fare','faccio',
+    'fai','fa','facciamo','fate','fanno','posso','puoi','può','possiamo','potete','possono','voglio','vuoi',
+    'vuole','vogliamo','volete','vogliono','sapere','so','sai','parlare','parlo','ascoltare','guardare',
+    'vedere','pensare','andare','vado','venire','vengo','prendere','dare','chiedere','domanda','risposta',
+    'corretto','sbagliato','ottimo','casa','parola','parole','ripetere','prova','frase','esempio',
+    // Vocabolario di base frequente
+    'acqua','cibo','pane','carne','pesce','pollo','riso','frutta','verdura','mela','tavolo','sedia',
+    'porta','finestra','letto','stanza','cucina','bagno','giardino','strada','città','paese','mondo',
+    'madre','padre','sorella','fratello','figlio','figlia','famiglia','amico','amica','insegnante',
+    'studente','medico','lavoro','soldi','nome','numero','colore','rosso','blu','verde','nero','bianco',
+    'giallo','mattina','pomeriggio','sera','notte','colazione','pranzo','cena','caffè','latte','uovo',
+    'formaggio','zucchero','sale','fame','sete','stanco','felice','triste','arrabbiato','paura','alto',
+    'basso','veloce','lento','facile','difficile','caro','economico','bello','bella','brutto','pulito',
+    'sporco','aperto','chiuso','vicino','lontano','sinistra','destra','dentro','fuori','tempo','pioggia',
+    'sole','neve','vento','caldo','freddo','perfetto','meraviglioso','eccellente','vero','falso',
+    'possibile','importante','diverso','stesso','libero','occupato','pronto','sicuro','insieme','solo',
+    'persona','gente','uomo','donna','bambino','bambina','cane','gatto','animale','uccello','albero',
+    'fiore','libro','penna','telefono','computer','macchina','autobus','treno','aereo','aeroporto',
+    'biglietto','prezzo','negozio','mercato','ristorante','albergo','scuola','ospedale','ufficio',
+    'parco','spiaggia','montagna','fiume','mare','cielo','luna','stella','fuoco','ghiaccio','estate',
+    'inverno','primavera','autunno']),
+  PT: new Set(['o','a','os','as','um','uma','uns','umas','e','ou','mas','se','porque','embora','quando',
+    'onde','como','que','quem','qual','não','sim','muito','também','só','sempre','nunca','aqui','ali','lá',
+    'agora','então','hoje','amanhã','ontem','favor','obrigado','obrigada','desculpa','olá','oi','tchau',
+    'bem-vindo','bom','mau','bem','mal','grande','pequeno','novo','velho','primeiro','último','próximo',
+    'alguns','todos','todas','muitos','muitas','mais','menos','pouco','poucas','um','dois','três','quatro',
+    'cinco','seis','sete','oito','nove','dez','em','sobre','para','de','com','sem','entre','eu','tu','você',
+    'ele','ela','nós','vocês','eles','elas','meu','teu','seu','nosso','sou','és','é','somos','são','ser',
+    'estar','estou','está','estamos','estão','tenho','tem','temos','têm','ter','fazer','faço','faz',
+    'fazemos','fazem','posso','pode','podemos','podem','quero','quer','queremos','querem','saber','sei',
+    'sabe','falar','falo','ouvir','olhar','ver','pensar','ir','vou','vamos','vir','venho','pegar','dar',
+    'perguntar','pergunta','resposta','correto','errado','ótimo','casa','palavra','palavras','repetir',
+    'tenta','frase','exemplo',
+    // Vocabulário básico frequente
+    'água','comida','pão','carne','peixe','frango','arroz','fruta','verdura','maçã','mesa','cadeira',
+    'porta','janela','cama','quarto','cozinha','banheiro','jardim','rua','cidade','país','mundo','mãe',
+    'pai','irmã','irmão','filho','filha','família','amigo','amiga','professor','professora','aluno',
+    'médico','trabalho','dinheiro','nome','número','cor','vermelho','azul','verde','preto','branco',
+    'amarelo','manhã','tarde','noite','café da manhã','almoço','jantar','café','leite','ovo','queijo',
+    'açúcar','sal','fome','sede','cansado','feliz','triste','bravo','medo','alto','baixo','rápido',
+    'lento','fácil','difícil','caro','barato','bonito','bonita','feio','limpo','sujo','aberto',
+    'fechado','perto','longe','esquerda','direita','dentro','fora','tempo','chuva','sol','neve','vento',
+    'quente','frio','perfeito','maravilhoso','excelente','verdade','falso','possível','importante',
+    'diferente','mesmo','livre','ocupado','pronto','seguro','juntos','sozinho','pessoa','gente','homem',
+    'mulher','criança','bebê','cachorro','gato','animal','pássaro','árvore','flor','livro','caneta',
+    'telefone','computador','carro','ônibus','trem','avião','aeroporto','passagem','preço','loja',
+    'mercado','restaurante','hotel','escola','hospital','escritório','parque','praia','montanha','rio',
+    'mar','céu','lua','estrela','fogo','gelo','verão','inverno','primavera','outono']),
+};
+
+// BCP-47 para el idioma NATIVO del usuario (no solo los 6 que se pueden
+// aprender — el nativo puede ser cualquiera de los de NATIVE_LANGS) — se
+// usa como idioma del fallback nativo del navegador para los tramos que
+// NO son el idioma que se está aprendiendo.
+const _NATIVE_BCP47 = {
+  es:'es-ES', en:'en-US', pt:'pt-BR', fr:'fr-FR', de:'de-DE', it:'it-IT',
+  ar:'ar-SA', tr:'tr-TR', nl:'nl-NL', pl:'pl-PL',
+};
+
+// Divide un texto (ya mezclado por la IA) en tramos consecutivos por
+// idioma: [{text, lang:'target'|'native'}]. Puntuación, espacios y
+// números se pegan al tramo donde aparecen (no cortan la voz en cada
+// coma). Por defecto una palabra se considera del idioma NATIVO salvo que
+// aparezca claramente en la lista de palabras frecuentes del idioma que
+// se está aprendiendo — así funciona sin importar cuál sea el nativo.
+//
+// LÍMITE DE TRAMOS: cada tramo es una petición de voz independiente, y
+// demasiadas peticiones seguidas por un solo mensaje es justo lo que
+// sobrecargaba el dispositivo (mucha red, mucha memoria de audio en
+// vuelo a la vez). Como máximo se generan MAX_SEGMENTS tramos: si el
+// texto cambia de idioma más veces que eso, se fusionan los cortes menos
+// importantes (los tramos más cortos) con su vecino, priorizando mantener
+// separadas las partes más largas/significativas de cada idioma.
+const MAX_TTS_SEGMENTS = 3;
+
+function segmentMixedLanguageText(text, targetCode){
+  const targetSet = _TARGET_LANG_WORDS[targetCode] || _TARGET_LANG_WORDS.EN;
+  const tokens = text.match(/[A-Za-zÀ-ÖØ-öø-ÿ']+|[^A-Za-zÀ-ÖØ-öø-ÿ']+/g) || [text];
+  const segments = [];
+  let current = null;
+
+  for(const tok of tokens){
+    const isWord = /[A-Za-zÀ-ÖØ-öø-ÿ]/.test(tok);
+    if(!isWord){
+      if(current) current.text += tok;
+      else current = {text:tok, lang:'native'};
+      continue;
+    }
+    const lang = targetSet.has(tok.toLowerCase()) ? 'target' : 'native';
+    if(current && current.lang === lang) current.text += tok;
+    else { if(current) segments.push(current); current = {text:tok, lang}; }
+  }
+  if(current) segments.push(current);
+
+  const clean = segments.filter(s => s.text.trim().length > 0);
+  const smoothed = _smoothAmbiguousSegments(clean);
+
+  // Fusiona el tramo más corto con un vecino hasta quedarnos dentro del
+  // límite — así una frase con muchos cambios cortos de idioma sigue
+  // siendo, como mucho, MAX_TTS_SEGMENTS peticiones de voz.
+  while(smoothed.length > MAX_TTS_SEGMENTS){
+    let shortestIdx = 0;
+    for(let i=1;i<smoothed.length;i++){ if(smoothed[i].text.length < smoothed[shortestIdx].text.length) shortestIdx = i; }
+    const mergeWithNext = shortestIdx < smoothed.length-1 &&
+      (shortestIdx===0 || smoothed[shortestIdx+1].text.length >= smoothed[shortestIdx-1].text.length);
+    if(mergeWithNext){
+      smoothed[shortestIdx+1].text = smoothed[shortestIdx].text + smoothed[shortestIdx+1].text;
+      smoothed.splice(shortestIdx,1);
+    } else {
+      smoothed[shortestIdx-1].text += smoothed[shortestIdx].text;
+      smoothed.splice(shortestIdx,1);
+    }
+  }
+
+  return smoothed;
+}
+
+// Palabras aisladas MUY cortas (≤3 letras) son las que más se repiten
+// entre idiomas distintos — "a", "no", "en"(*), "i"... — y por sí solas
+// NO son una señal fiable de que ahí empieza de verdad el otro idioma.
+// Ejemplo real: "Te ayudo a mejorar" es 100% español, pero "a" también es
+// el artículo indefinido en inglés — sin este suavizado, esa única
+// palabra generaba su propio tramo (y su propia petición de voz) en medio
+// de una frase completamente nativa, sonando como una pausa/corte extraño
+// justo ahí. Si un tramo del idioma meta es una palabra aislada cortísima
+// Y está rodeado de tramos nativos por los dos lados, se fusiona con el
+// idioma nativo en vez de generar un tramo aparte. Una racha de 2+
+// palabras del idioma meta seguidas SÍ se respeta (esa es una señal
+// mucho más fiable de que de verdad cambió el idioma).
+function _smoothAmbiguousSegments(segments){
+  for(let i=0;i<segments.length;i++){
+    const seg = segments[i];
+    if(seg.lang !== 'target') continue;
+    const wordOnly = seg.text.replace(/[^A-Za-zÀ-ÖØ-öø-ÿ]/g,'');
+    if(wordOnly.length > 3 || wordOnly.includes(' ')) continue; // más de una palabra o palabra larga: señal real, se respeta
+    const prevNative = i===0 || segments[i-1].lang==='native';
+    const nextNative = i===segments.length-1 || segments[i+1].lang==='native';
+    if(prevNative && nextNative) seg.lang = 'native';
+  }
+  const merged = [];
+  for(const seg of segments){
+    if(merged.length && merged[merged.length-1].lang === seg.lang) merged[merged.length-1].text += seg.text;
+    else merged.push({...seg});
+  }
+  return merged;
+}
+
+// PLAN DE VOZ PARA UNA RESPUESTA MEZCLADA:
+//  1) Camino simple y rápido (el normal): UNA sola petición a ElevenLabs
+//     con el texto COMPLETO tal cual, mezcla de idiomas incluida. Su
+//     modelo multilingüe detecta el idioma de cada parte automáticamente
+//     y la pronuncia bien, todo dentro de un mismo audio — cero pausas
+//     entre tramos porque no hay "tramos": es un solo request, un solo
+//     play(). Esto es justo lo que pedía el enunciado original: usar la
+//     capacidad de la propia tecnología de voz para cambiar de idioma
+//     dentro de una misma generación, en vez de fragmentar innecesariamente.
+//  2) Solo si ElevenLabs no está disponible (sin key, en cooldown por un
+//     fallo reciente, o esta petición puntual falla) se cae al sintetizador
+//     del navegador — que ESE sí solo admite un idioma por cada llamada, así
+//     que ahí (y SOLO ahí) se segmenta el texto por idioma real y se leen
+//     los tramos uno detrás de otro (ya limitados a máximo MAX_TTS_SEGMENTS
+//     y con el suavizado de palabras cortas ambiguas de arriba).
+let _activeSpeechToken = 0;
+let _ttsQuotaWarned = false; // un solo aviso por sesión al agotar la cuota gratuita de TTS
+
+async function speakMixedLanguageText(cleanText){
+  const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
+  const charId = state.charId || 'dragon';
+  const token = ++_activeSpeechToken;
+
+  // El límite de uso de voces TTS del plan Gratis se controla de forma
+  // centralizada dentro de ttsFetchAudioBlob (js/tts-eleven.js), que es
+  // el único punto real de red — así se aplica igual sin importar si la
+  // voz viene del chat, de un ejercicio de "Escuchar" o de la
+  // videollamada, sin contar el uso dos veces. Aquí solo mostramos un
+  // aviso amistoso la primera vez que la cuota ya está agotada; la voz
+  // sigue funcionando con el navegador, nunca se apaga del todo.
+  if(typeof canUseElevenTTS === 'function' && !canUseElevenTTS(cleanText.length) && !_ttsQuotaWarned){
+    _ttsQuotaWarned = true;
+    if(typeof showToast === 'function') showToast('🔊 Alcanzaste tu límite diario de voz premium. Usando la voz del navegador — hazte Premium para mucho más uso de voz.');
+  }
+
+  if(typeof ttsFetchAudioBlob === 'function'){
+    const wholeBlob = await ttsFetchAudioBlob(cleanText, cv, charId).catch(() => null);
+    if(token !== _activeSpeechToken) return;
+    if(wholeBlob){
+      await new Promise(resolve => {
+        let settled = false;
+        const done = () => { if(settled) return; settled = true; resolve(); };
+        try{ _elevenPlayBlob(wholeBlob, done).catch(done); } catch(e){ done(); }
+      });
+      return; // un solo audio, mezcla de idiomas incluida — listo
+    }
+  }
+  if(token !== _activeSpeechToken) return;
+
+  // Reserva: navegador, que SÍ necesita los tramos por idioma.
+  const targetCode = (state.lang?.code || 'EN').toUpperCase();
+  const segments = segmentMixedLanguageText(cleanText, targetCode);
+  if(!segments.length) return;
+
+  const bcp47For = seg => seg.lang === 'target'
+    ? (TTS_BCP47_MAP[state.lang?.lang] || state.lang?.lang || 'en-US')
+    : (_NATIVE_BCP47[state.nativeLang] || 'es-ES');
+
+  for(let i = 0; i < segments.length; i++){
+    if(token !== _activeSpeechToken) return; // se paró/canceló mientras tanto
+    const seg = segments[i];
+    await new Promise(resolve => {
+      let settled = false;
+      const done = () => { if(settled) return; settled = true; resolve(); };
+      try{ _webSpeechSpeak(seg.text, bcp47For(seg), cv.speed*0.95, cv.gender==='M'?0.85:1.12, done); }
+      catch(e){ done(); }
+    });
+  }
 }
 
 function speak(text, langCode){
@@ -564,8 +771,12 @@ async function speakText(rawText){
     .trim();
   if(!text) return;
 
-  // Translate to target language then speak with target voice
-  await translateAndSpeak(text);
+  // Antes: se traducía TODA la respuesta al idioma meta y se leía entera
+  // con un único acento (perdiendo la mezcla intencional de idiomas que ya
+  // hace la IA). Ahora se detecta el idioma real de cada tramo del texto
+  // y cada uno se reproduce con su pronunciación correcta — ver
+  // segmentMixedLanguageText() más arriba.
+  speakMixedLanguageText(text);
 }
 
 function stopTTS(){

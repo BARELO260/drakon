@@ -44,10 +44,18 @@ function _mascotAssets(){
   return { idle, speak, laugh: speak };
 }
 
-function _mascotVideos(){ return document.querySelectorAll('.mascot-video'); }
-function _mascotStages(){ return document.querySelectorAll('.ai-scene'); }
-function _mascotBubbleTexts(){ return document.querySelectorAll('.ai-scene-bubble-text'); }
-function _mascotBubbles(){ return document.querySelectorAll('.ai-scene-bubble'); }
+// IMPORTANTE: estas 4 funciones solo miran dentro de LA PANTALLA ACTIVA
+// (".screen.active"), nunca el documento entero. Desde que la videollamada
+// también tiene su propio <div class="ai-scene"> (para animar al personaje
+// ahí también — ver situations.js), seleccionar por el documento completo
+// haría que ese <video> oculto cargara y reprodujera en segundo plano
+// aunque el usuario estuviera en cualquier otra pantalla. Como solo una
+// pantalla tiene ".active" a la vez, esto además es más correcto: solo
+// animamos la mascota que el usuario realmente puede ver.
+function _mascotVideos(){ return document.querySelectorAll('.screen.active .mascot-video'); }
+function _mascotStages(){ return document.querySelectorAll('.screen.active .ai-scene'); }
+function _mascotBubbleTexts(){ return document.querySelectorAll('.screen.active .ai-scene-bubble-text'); }
+function _mascotBubbles(){ return document.querySelectorAll('.screen.active .ai-scene-bubble'); }
 
 // Aplica una fuente de video de forma confiable: solo toca el <video> cuando
 // realmente cambia (usando un marcador propio en vez de comparar currentSrc,
@@ -79,7 +87,7 @@ function _mascotApplyState(newState){
   const src = assets[newState] || assets.idle;
 
   _mascotStages().forEach(el=>{
-    el.classList.remove('is-idle','is-laugh','is-speak');
+    el.classList.remove('is-idle','is-laugh','is-speak','is-listening','is-thinking');
     el.classList.add('is-swapping');
   });
 
@@ -91,7 +99,7 @@ function _mascotApplyState(newState){
     });
   }, MASCOT_SWAP_MS);
 
-  document.querySelectorAll('.mascot-status').forEach(el=>{
+  document.querySelectorAll('.screen.active .mascot-status').forEach(el=>{
     const txt = MASCOT_STATUS_TEXT[newState] || '';
     el.textContent = txt;
     el.style.opacity = txt ? '1' : '0';
@@ -154,12 +162,39 @@ function mascotReset(){
   _mascotState = 'idle';
   const assets = _mascotAssets();
   _mascotStages().forEach(el=>{
-    el.classList.remove('is-laugh','is-speak','is-swapping');
+    el.classList.remove('is-laugh','is-speak','is-swapping','is-listening','is-thinking');
     el.classList.add('is-idle');
   });
   _mascotVideos().forEach(video=>_setMascotVideoSrc(video, assets.idle));
-  document.querySelectorAll('.mascot-status').forEach(el=>{ el.textContent=''; el.style.opacity='0'; });
+  document.querySelectorAll('.screen.active .mascot-status').forEach(el=>{ el.textContent=''; el.style.opacity='0'; });
   mascotClearBubble();
+}
+
+/* ── Estados extra para experiencias en vivo (videollamada) ──────────
+   La videollamada necesita saber "escuchando"/"pensando" además de
+   idle/speak/laugh — no hay clips de video nuevos para esto (el pedido
+   explícito era no inventar assets), así que reutilizamos el clip idle y
+   superponemos un indicador puramente visual (CSS) con las clases
+   .is-listening / .is-thinking sobre el mismo <div class="ai-scene">. */
+function mascotListening(){
+  clearTimeout(_mascotSpeakTimer); clearTimeout(_mascotErrorTimer);
+  if(_mascotState==='speak' || _mascotState==='laugh') _mascotApplyState('idle');
+  _mascotStages().forEach(el=>{ el.classList.remove('is-thinking'); el.classList.add('is-listening'); });
+}
+function mascotThinking(){
+  clearTimeout(_mascotSpeakTimer); clearTimeout(_mascotErrorTimer);
+  if(_mascotState==='speak' || _mascotState==='laugh') _mascotApplyState('idle');
+  _mascotStages().forEach(el=>{ el.classList.remove('is-listening'); el.classList.add('is-thinking'); });
+}
+// Habla "hasta nuevo aviso": a diferencia de mascotSpeak() (que calcula la
+// duración a partir de la longitud del texto), esta variante la usan flujos
+// que sí conocen el final REAL del audio (el callback onend del motor de
+// voz en tts-eleven.js) — así el personaje deja de "hablar" exactamente
+// cuando termina de sonar, ni antes ni después.
+function mascotSpeakUntilDone(){
+  clearTimeout(_mascotSpeakTimer); clearTimeout(_mascotErrorTimer);
+  _mascotStages().forEach(el=>el.classList.remove('is-listening','is-thinking'));
+  _mascotApplyState('speak');
 }
 
 /* ── Burbuja de texto que sale de la boca del personaje ──────────── */

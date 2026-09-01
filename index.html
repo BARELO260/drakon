@@ -27,6 +27,26 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
 
+<!-- ── GLOBAL ERROR HANDLING (estabilidad / requisito de Google Play) ──
+     Captura errores no manejados y promesas rechazadas para que la app
+     nunca se quede en una "pantalla en blanco" silenciosa — se registra
+     el error para depuración y la interfaz sigue respondiendo. -->
+<script>
+(function(){
+  window.addEventListener('error', function(e){
+    console.error('[Drakón] Error no capturado:', e.error || e.message, e.filename, e.lineno);
+  });
+  window.addEventListener('unhandledrejection', function(e){
+    console.error('[Drakón] Promesa rechazada sin manejar:', e.reason);
+    // Evita que un rechazo de red/API puntual (muy común: timeouts de IA,
+    // fallos de fetch) burbujee como un error de consola alarmante o
+    // interrumpa el hilo principal — cada llamada de red ya maneja sus
+    // propios errores donde importa (mostrando un toast al usuario).
+    e.preventDefault();
+  });
+})();
+</script>
+
 <!-- ── FIREBASE INIT (inline — hardcoded config must stay here) ── -->
 <script>
 (function(){
@@ -78,6 +98,51 @@
       }),
       signOut:  ()    => auth.signOut(),
       resetPassword: (e) => auth.sendPasswordResetEmail(e),
+      // Requisito de Google Play (Data Safety / Account Deletion policy):
+      // toda app que permite crear una cuenta debe ofrecer una forma de
+      // eliminarla junto con sus datos. Borra primero el documento de
+      // Firestore y luego la cuenta de Auth. Si Firebase exige un login
+      // reciente (auth/requires-recent-login), se propaga el error tal
+      // cual para que la interfaz pida reautenticarse antes de reintentar.
+      deleteAccount: async () => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        const uid = u.uid;
+        try{ await db.collection('users').doc(uid).delete(); }
+        catch(e){ console.warn('[FB] No se pudo borrar el documento de datos:', e.message); }
+        await u.delete();
+      },
+      reauthenticate: async (password) => {
+        const u = auth.currentUser;
+        if(!u || !u.email) throw new Error('no-user');
+        const cred = firebase.auth.EmailAuthProvider.credential(u.email, password);
+        return u.reauthenticateWithCredential(cred);
+      },
+      reauthenticateGoogle: async () => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        return u.reauthenticateWithPopup(new firebase.auth.GoogleAuthProvider());
+      },
+      // Verificación REAL de una compra de Google Play (ver
+      // functions/index.js → verifyPlayPurchase). Mismo patrón de llamada
+      // que callManagedAi() en js/ai-gateway.js: fetch directo a la
+      // Cloud Function callable con el token de identidad del usuario,
+      // sin depender del SDK de Firebase Functions (no está cargado).
+      verifyPlayPurchase: async ({ purchaseToken, productId }) => {
+        const u = auth.currentUser;
+        if(!u) throw new Error('no-user');
+        const token = await u.getIdToken();
+        const url = (window.DRAKON_AI_GATEWAY || 'https://us-central1-drakon-a30c8.cloudfunctions.net/drakonAi')
+          .replace(/\/drakonAi$/, '/verifyPlayPurchase');
+        const resp = await fetch(url, {
+          method:'POST',
+          headers:{'Content-Type':'application/json','Authorization':`Bearer ${token}`},
+          body: JSON.stringify({ data:{ purchaseToken, productId } }),
+        });
+        const body = await resp.json().catch(()=>({}));
+        if(!resp.ok) throw new Error(body?.error?.message || 'verify-purchase-error');
+        return body.result;
+      },
       saveData: (data, fullOverwrite=false) => {
         const u = auth.currentUser;
         if(!u) return;
@@ -175,8 +240,8 @@
 
 <!-- BOOT SPLASH — pantalla de inicio con progreso de carga real -->
 <div class="screen active" id="screen-boot">
-  <img class="boot-bg boot-bg-land" src="assets/loadingscreens/start209.png" alt="">
-  <img class="boot-bg boot-bg-port" src="assets/loadingscreens/start920.png" alt="">
+  <img class="boot-bg boot-bg-land" src="assets/loadingscreens/start209.webp" alt="">
+  <img class="boot-bg boot-bg-port" src="assets/loadingscreens/start920.webp" alt="">
   <div class="boot-scrim"></div>
   <div class="boot-content">
     <div class="boot-bar-wrap">
@@ -192,7 +257,7 @@
     <!-- #drakonFloat envuelve imagen+SVG para que floten como una sola pieza -->
     <div id="drakonFloat" style="display:inline-block;animation:drakonFloat 3.2s ease-in-out infinite;animation-delay:.3s;will-change:transform;isolation:isolate;">
       <div id="drakonEyes" style="position:relative;width:120px;height:120px;display:inline-block;filter:drop-shadow(0 0 20px rgba(251,146,6,.6));flex-shrink:0;">
-        <img src="assets/characters/faces/drakonwithout.png" style="width:120px;height:120px;object-fit:contain;display:block;">
+        <img src="assets/characters/faces/drakonwithout.webp" style="width:120px;height:120px;object-fit:contain;display:block;">
         <!--
           SVG overlay con pupilas.
           viewBox = 500x500 (tamaño nativo de drakonwithout.png, medido con Python).
@@ -344,7 +409,7 @@
     <div class="mission-list" id="missionList"></div>
     <div class="prem-banner" onclick="showPremModal()">
       <span style="font-size:26px;flex-shrink:0">⚡</span>
-      <div class="prem-text"><div class="pt">Desbloquea Drakón Pro</div><div class="ps">IA ilimitada · 200 lecciones · Todas las funciones</div></div>
+      <div class="prem-text"><div class="pt">Desbloquea Drakón Premium</div><div class="ps">Más IA · Más voz · Estoy allí ahora</div></div>
       <span class="pc">Ver planes</span>
     </div>
   </div>
@@ -368,10 +433,10 @@
         <div class="amc amc--big" style="--cc:var(--mint)" onclick="goToChat('free')"><div class="amc-ic">💬</div><div class="amc-t">Conversación libre</div><div class="amc-s">Habla de lo que quieras</div></div>
         <div class="amc" style="--cc:var(--sky)" onclick="goToChat('pronunciation')"><div class="amc-ic">🎙️</div><div class="amc-t">Pronunciación IA</div><div class="amc-s">La IA evalúa cómo suenas</div></div>
         <div class="amc" style="--cc:var(--gold)" onclick="goToChat('grammar')"><div class="amc-ic">📖</div><div class="amc-t">Gramática</div><div class="amc-s">Corrige tus errores</div></div>
-        <div class="amc" style="--cc:var(--coral)" onclick="checkPrem('vocab')"><div class="amc-ic">🔤</div><div class="amc-t">Vocabulario</div><div class="amc-s">Palabras nuevas con contexto</div><div class="lock-ov" id="vocabLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--accent)" onclick="checkPrem('debate')"><div class="amc-ic">🏆</div><div class="amc-t">Debate avanzado</div><div class="amc-s">Argumenta en otro idioma</div><div class="lock-ov" id="debateLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--mint)" onclick="checkPrem('story')"><div class="amc-ic">📖</div><div class="amc-t">Crea una historia</div><div class="amc-s">Narra en el idioma</div><div class="lock-ov" id="storyLock">🔒</div></div>
-        <div class="amc" style="--cc:var(--sky)" onclick="checkPrem('roleplay')"><div class="amc-ic">🎬</div><div class="amc-t">Roleplay libre</div><div class="amc-s">Cualquier escenario</div><div class="lock-ov" id="roleplayLock">🔒</div></div>
+        <div class="amc" style="--cc:var(--coral)" onclick="goToChat('vocab')"><div class="amc-ic">🔤</div><div class="amc-t">Vocabulario</div><div class="amc-s">Palabras nuevas con contexto</div></div>
+        <div class="amc" style="--cc:var(--accent)" onclick="goToChat('debate')"><div class="amc-ic">🏆</div><div class="amc-t">Debate avanzado</div><div class="amc-s">Argumenta en otro idioma</div></div>
+        <div class="amc" style="--cc:var(--mint)" onclick="goToChat('story')"><div class="amc-ic">📖</div><div class="amc-t">Crea una historia</div><div class="amc-s">Narra en el idioma</div></div>
+        <div class="amc" style="--cc:var(--sky)" onclick="goToChat('roleplay')"><div class="amc-ic">🎬</div><div class="amc-t">Roleplay libre</div><div class="amc-s">Cualquier escenario</div></div>
       </div>
       <div class="ai-status">
         <div class="ai-signal"><div class="ai-dot"></div><div class="ai-rings"></div></div>
@@ -407,6 +472,7 @@
     <button class="tts-btn" id="saveChatBtn" onclick="saveCurrentChat()" title="Guardar chat" style="font-size:13px">💾</button>
     <span class="chat-lp" id="chatLangP">EN</span>
   </div>
+  <div class="chat-scene-bg" id="chatSceneBg" style="display:none"></div>
   <div class="ai-scene is-idle" id="mascotStage">
     <div class="ai-scene-media">
       <div class="ai-scene-glow"></div>
@@ -485,6 +551,82 @@
   <div class="sit-grid" id="sitGrid"></div>
 </div>
 
+<!-- SITUATION LESSONS ("Enséñame primero") -->
+<div class="screen" id="screen-situation-lessons">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situations')">←</button>
+    <span class="chat-title" id="sitLessonsTitle">Lecciones</span>
+  </div>
+  <div class="lessons-wrap" id="sitLessonList" style="padding-bottom:80px"></div>
+</div>
+
+<!-- SITUATION LIVE ("Estoy allí ahora") -->
+<div class="screen" id="screen-situation-live">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situations')">←</button>
+    <span class="chat-title" id="sitLiveTitle">Ahora mismo</span>
+  </div>
+  <div class="sit-live-bg" id="sitLiveBg"></div>
+  <div class="sit-live-body">
+    <div class="sit-live-intro">¿Qué necesitas ahora mismo?</div>
+    <button class="sit-live-card" onclick="openScan()">
+      <span class="sit-live-card-ic">📷</span>
+      <div class="sit-live-card-txt">
+        <div class="sit-live-card-t">Escanear</div>
+        <div class="sit-live-card-s">Apunta la cámara a un menú, cartel o documento y Drakón lo traduce.</div>
+      </div>
+    </button>
+    <button class="sit-live-card" onclick="startLiveCall(state._activeSituation)">
+      <span class="sit-live-card-ic">🎥</span>
+      <div class="sit-live-card-txt">
+        <div class="sit-live-card-t">Videollamada con Drakón</div>
+        <div class="sit-live-card-s">Habla en voz alta y Drakón te responde en tiempo real, viendo lo que ves.</div>
+      </div>
+    </button>
+  </div>
+</div>
+
+<!-- SCAN (OCR) -->
+<div class="screen" id="screen-scan">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="goTo('screen-situation-live')">←</button>
+    <span class="chat-title">📷 Escanear</span>
+  </div>
+  <div id="scanShell" class="scan-shell"></div>
+</div>
+
+<!-- LIVE CALL -->
+<div class="screen" id="screen-livecall">
+  <div class="chat-topbar">
+    <button class="back-btn" onclick="stopLiveCall()">✕</button>
+    <span class="chat-title">🎥 Videollamada con Drakón</span>
+  </div>
+  <div class="lc-video-wrap" id="liveCallVideoWrap">
+    <video id="liveCallVideo" class="lc-video" autoplay playsinline muted></video>
+    <div class="lc-scrim"></div>
+    <!-- Reutiliza el MISMO sistema de mascota (idle/speak/laugh) que el chat
+         normal: mascot.js actualiza TODOS los .ai-scene del documento a la
+         vez, así que este bloque se anima solo, sin código extra. -->
+    <div class="ai-scene ai-scene-sm lc-mascot-pip" id="liveCallMascotStage">
+      <div class="ai-scene-media">
+        <div class="ai-scene-glow"></div>
+        <div class="mascot-video-zoom">
+          <video class="mascot-video" muted playsinline autoplay loop preload="auto"></video>
+        </div>
+        <div class="mascot-status"></div>
+      </div>
+    </div>
+    <div class="lc-caption" id="liveCallCaption"></div>
+    <div class="lc-status" id="liveCallStatus">📷 Iniciando…</div>
+  </div>
+  <div class="lc-log" id="liveCallLog"></div>
+  <div class="lc-controls">
+    <button class="lc-btn" id="lcLookBtn" onclick="liveCallLookAtView()">👀 Mira esto</button>
+    <button class="lc-btn lc-btn-mic" id="lcMicBtn" onclick="liveCallToggleMic()">🎙️ Hablar</button>
+    <button class="lc-btn lc-btn-end" onclick="stopLiveCall()">📴 Terminar</button>
+  </div>
+</div>
+
 <!-- PROFILE -->
 <div class="screen" id="screen-profile">
   <div class="chat-topbar">
@@ -559,6 +701,17 @@
         <div style="font-size:13px;font-weight:800;color:var(--muted)">›</div>
       </div>
     </div>
+    <div class="settings-section">
+      <div class="ss-title">Privacidad y datos</div>
+      <div class="setting-row" onclick="window.open('privacy.html','_blank')">
+        <div class="sr-left"><span class="sr-icon">📄</span><div><div class="sr-title">Política de privacidad</div><div class="sr-sub">Qué datos guardamos y por qué</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--muted)">›</div>
+      </div>
+      <div class="setting-row" id="deleteAccountRow" onclick="deleteAccountFlow()">
+        <div class="sr-left"><span class="sr-icon">⚠️</span><div><div class="sr-title" style="color:var(--coral)">Eliminar mi cuenta</div><div class="sr-sub">Borra tu cuenta y todos tus datos de forma permanente</div></div></div>
+        <div style="font-size:13px;font-weight:800;color:var(--coral)">›</div>
+      </div>
+    </div>
     <div class="settings-section" id="apiKeySection">
       <div id="managedAiStatus" style="display:none;background:color-mix(in srgb,var(--mint) 12%,var(--card));border:1px solid color-mix(in srgb,var(--mint) 35%,var(--border));border-radius:var(--radius);padding:13px 14px;font-size:12px;color:var(--text);line-height:1.6;margin-bottom:10px">✅ <strong>IA de Drakón conectada</strong><br><span style="color:var(--muted)">No necesitas una cuenta ni API key de Groq. Tu acceso está incluido con Drakón.</span></div>
       <div data-byok>
@@ -588,7 +741,8 @@
         <strong style="color:var(--text)">Cómo obtener tu key gratuita (1 minuto):</strong><br>
         1. Ve a <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" style="color:var(--gold)">elevenlabs.io/app/settings/api-keys</a><br>
         2. Crea una cuenta gratis (sólo email)<br>
-        3. Copia tu API key y pégala abajo<br>
+        3. Al crear la clave (o al editarla), en <strong style="color:var(--coral)">"Endpoints" activa "Access" en "Text to Speech"</strong> — sin este permiso la voz no funcionará<br>
+        4. Copia tu API key y pégala abajo — la app la verifica automáticamente al guardarla<br>
         Si no configuras una key, la app usa la voz del navegador como respaldo.
       </div>
       <div style="display:flex;gap:7px;align-items:center">
@@ -599,13 +753,6 @@
       </div>
       <div id="elevenKeyStatus" style="font-size:11px;margin-top:7px;font-weight:700;color:var(--muted)"></div>
       </div>
-    </div>
-    <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:12px 14px;font-size:12px;color:var(--muted);line-height:1.7">
-      <strong style="color:var(--text)">Drakón v6.1 PWA</strong><br>
-      Aprende idiomas con Inteligencia Artificial.<br>
-      Reconocimiento y pronunciación: Web Speech API<br>
-      Voces: ElevenLabs (voces neuronales) con respaldo del navegador<br>
-      <span style="color:var(--gold)">Instala la app: toca "Agregar a pantalla de inicio" en tu navegador.</span>
     </div>
   </div>
 </div>
@@ -649,49 +796,33 @@
 <div id="premModal" style="display:none" class="modal-ov" onclick="closePremOv(event)">
   <div class="modal-sheet">
     <div class="modal-handle" onclick="closePrem()"></div>
-    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Pro</span></div>
-    <div class="modal-sub">Desbloquea el poder total del dragón</div>
+    <div class="modal-title">Drakón <span style="background:linear-gradient(135deg,#ea580c,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Premium</span></div>
+    <div class="modal-sub">Más IA, más voz, y ayuda de Drakón en tiempo real</div>
     <div class="plan-cards">
       <div class="plan-card">
         <div class="plan-n">🐾 Plan Gratis</div>
         <div class="plan-p">$0 <span>/siempre</span></div>
         <ul class="plan-feats">
+          <li>Todas las lecciones y situaciones</li>
           <li>25 mensajes de IA por día</li>
-          <li>Lecciones A1–A2 (65 lecciones)</li>
-          <li>3 personajes disponibles</li>
-          <li>Pronunciación básica con micrófono</li>
-          <li>3 temas de fondo</li>
+          <li>Uso limitado de voces TTS por día</li>
+          <li>Sin acceso a "Estoy allí ahora"</li>
         </ul>
         <button class="plan-btn outline" onclick="closePrem()">Tu plan actual</button>
       </div>
       <div class="plan-card pop">
-        <div class="pop-tag">⭐ MÁS POPULAR</div>
-        <div class="plan-n">🔥 Drakón Pro</div>
-        <div class="plan-p">$4.99 <span>/mes</span></div>
+        <div class="pop-tag">⭐ TODO INCLUIDO</div>
+        <div class="plan-n">🔥 Drakón Premium</div>
+        <div class="plan-p"><span id="premPriceLbl">$1.99</span> <span>/mes</span></div>
         <ul class="plan-feats">
-          <li>IA ilimitada cada día</li>
-          <li>200 lecciones completas (A1→C2)</li>
-          <li>10 personajes únicos desbloqueados</li>
-          <li>Pronunciación avanzada con análisis IA</li>
-          <li>Modos: Vocabulario, Debate, Historia, Roleplay</li>
-          <li>6 temas de fondo exclusivos</li>
-          <li>Estadísticas avanzadas de progreso</li>
-          <li>Streak Shield — protege tu racha 1 vez/semana</li>
-          <li>Modo sin distracciones (pantalla limpia)</li>
-          <li>Exportar progreso a PDF</li>
+          <li>Todas las lecciones y situaciones</li>
+          <li>IA del chat ampliada, prácticamente sin límite</li>
+          <li>Mucho más uso de voces TTS</li>
+          <li>Acceso a "Estoy allí ahora" (escanear + videollamada)</li>
+          <li>Todas las funciones de IA de Drakón</li>
         </ul>
-        <button class="plan-btn" onclick="activatePrem()">Activar Drakón Pro 🚀</button>
-      </div>
-      <div class="plan-card">
-        <div class="plan-n">👨‍👩‍👧 Familia</div>
-        <div class="plan-p">$9.99 <span>/mes</span></div>
-        <ul class="plan-feats">
-          <li>Todo lo de Pro</li>
-          <li>Hasta 5 perfiles</li>
-          <li>Panel familiar de progreso</li>
-          <li>Retos familiares semanales</li>
-        </ul>
-        <button class="plan-btn" onclick="activatePrem()">Activar Familia</button>
+        <button class="plan-btn" onclick="activatePrem()">Activar Drakón Premium 🚀</button>
+        <button class="plan-btn outline" id="premRestoreBtn" style="display:none;margin-top:8px" onclick="restorePremPurchases()">Restaurar compra</button>
       </div>
     </div>
   </div>
@@ -726,7 +857,7 @@
 
 <!-- LOADING OVERLAY -->
 <div id="loadingOverlay" style="display:none;position:fixed;inset:0;background:rgba(12,8,0,.92);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:16px;backdrop-filter:blur(8px)">
-  <img src="assets/characters/faces/drakon.png" style="width:80px;height:80px;object-fit:contain;animation:pulse 1.5s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,146,6,.7))">
+  <img src="assets/characters/faces/drakon.webp" style="width:80px;height:80px;object-fit:contain;animation:pulse 1.5s ease-in-out infinite;filter:drop-shadow(0 0 24px rgba(251,146,6,.7))">
   <div style="font-family:var(--fh);font-size:13px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase" id="loadingMsg">Cargando...</div>
   <div style="width:120px;height:2px;background:rgba(251,146,6,.15);border-radius:1px;overflow:hidden">
     <div style="height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));border-radius:1px;animation:shimmer 1.2s linear infinite"></div>
@@ -737,6 +868,7 @@
      JS MODULES — load order matters!
      ════════════════════════════════════════ -->
 <!-- 1. Data: all constants (LANGS, CHARS, THEMES) -->
+<script src="js/monetization.js"></script>
 <script src="js/data.js"></script>
 <!-- 1b. Lesson content banks — uno por idioma. Agregar un idioma nuevo =
      crear js/lessons-data/<code>.js + añadir su <script> aquí. -->
@@ -750,6 +882,7 @@
 <script src="js/lessons-data/it.js"></script>
 <script src="js/lessons-data/pt.js"></script>
 <script src="js/course-expansion.js?v=20260710-courses500"></script>
+<script src="js/situations-data.js"></script>
 <!-- 2. State: app state object, save/load -->
 <script src="js/state.js"></script>
 <!-- 2b. Learner memory: compact, editable profile for personalized tutoring -->
@@ -775,6 +908,7 @@
 <script src="js/audio.js"></script>
 <!-- 8. Chat: AI chat engine, saved chats, Groq API calls -->
 <script src="js/chat.js"></script>
+<script src="js/situations.js"></script>
 <!-- 9. Auth: Firebase login/register, Groq key management -->
 <script src="js/auth.js"></script>
 <!-- 10. Gamification: XP, missions, achievements, premium -->

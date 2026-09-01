@@ -140,6 +140,19 @@ window._showGoogleRedirectError = function(code){
 };
 
 // Called when Firebase confirms user is logged in
+// SEGURIDAD: nunca se debe subir `isPremium` (ni `premiumExpiresAt`, para
+// cuando exista) desde el cliente a Firestore. Ese campo solo lo escribe
+// la Cloud Function `verifyPlayPurchase`, tras confirmar una compra real
+// con la Google Play Developer API — así, aunque alguien cambie
+// `state.isPremium=true` en la consola del navegador, nunca llega a
+// persistirse en el servidor ni desbloquea nada de verdad (reforzado
+// además por firestore.rules, que rechaza esa escritura aunque alguien
+// use el SDK de Firestore directamente sin pasar por esta app).
+function _stripPremiumForCloud(obj){
+  const { isPremium, premiumExpiresAt, ...rest } = obj;
+  return rest;
+}
+
 window.onFirebaseUserReady = async function(user){
   // Cancelar cualquier ejecución anterior y arrancar fresca
   // (onAuthStateChanged puede dispararse 2 veces seguidas en móvil)
@@ -184,7 +197,7 @@ window.onFirebaseUserReady = async function(user){
     return;
   }
 
-  if(cloudData && Object.keys(cloudData).length > 0){
+if(cloudData && Object.keys(cloudData).length > 0){
     // ── Usuario existente: la nube manda, salvo en progreso acumulado ──
     const localXP     = state.xp            || 0;
     const localStreak = state.streak         || 0;
@@ -215,7 +228,7 @@ window.onFirebaseUserReady = async function(user){
     const fbUser = window._fbUser || (window._fbAuth && window._fbAuth.currentUser);
     if(localXP > (cloudData.xp||0) || localStreak > (cloudData.streak||0) || localMsgs > (cloudData.totalMessages||0)){
       if(fbUser && window._firebase){
-        window._firebase.saveData({ ...state, updatedAt: Date.now() });
+        window._firebase.saveData({ ..._stripPremiumForCloud(state), updatedAt: Date.now() });
       }
     }
 
@@ -225,7 +238,7 @@ window.onFirebaseUserReady = async function(user){
     // (no merge), asegurando que no queden datos fantasma de otro usuario.
     const fbUser = window._fbUser || (window._fbAuth && window._fbAuth.currentUser);
     if(fbUser && window._firebase){
-      window._firebase.saveData({ ...state, updatedAt: Date.now() }, true);
+      window._firebase.saveData({ ..._stripPremiumForCloud(state), updatedAt: Date.now() }, true);
     }
   }
 
@@ -322,6 +335,74 @@ async function logOut(){
   }
 }
 
+/* ═══════════════════════════════════════
+   ELIMINAR CUENTA — requisito de Google Play (Data Safety / Account
+   Deletion policy): toda app que permite crear cuenta debe ofrecer una
+   forma real de eliminarla junto con sus datos, dentro de la propia app.
+═══════════════════════════════════════ */
+async function deleteAccountFlow(){
+  if(!(window._fbReady && window._fbUser)){
+    showToast('Estás en modo local, sin cuenta. Usa "Reiniciar progreso" para borrar tus datos de este dispositivo.');
+    return;
+  }
+  if(!confirm('¿Seguro que quieres eliminar tu cuenta de Drakón?\n\nSe borrarán tu progreso, tus lecciones completadas y todos tus datos de forma PERMANENTE. Esta acción no se puede deshacer.')) return;
+  if(!confirm('Última confirmación: esto elimina tu cuenta para siempre. ¿Continuar?')) return;
+
+  const row = document.getElementById('deleteAccountRow');
+  if(row) row.style.opacity = '.6';
+  showToast('🗑️ Eliminando tu cuenta…');
+
+  try{
+    await window._firebase.deleteAccount();
+    _finishAccountDeletion();
+  } catch(e){
+    if(e && e.code === 'auth/requires-recent-login'){
+      const ok = await _reauthenticateForDeletion();
+      if(!ok){ if(row) row.style.opacity=''; return; }
+      try{
+        await window._firebase.deleteAccount();
+        _finishAccountDeletion();
+      } catch(e2){
+        if(row) row.style.opacity = '';
+        showToast('⚠️ No se pudo eliminar la cuenta: ' + firebaseErrMsg(e2.code));
+      }
+    } else {
+      if(row) row.style.opacity = '';
+      showToast('⚠️ No se pudo eliminar la cuenta: ' + (e && e.code ? firebaseErrMsg(e.code) : (e.message||e)));
+    }
+  }
+}
+
+// Firebase exige un login "reciente" para operaciones sensibles como borrar
+// la cuenta. Si hace falta, pedimos reautenticación aquí mismo, sin sacar
+// al usuario del flujo de eliminación.
+async function _reauthenticateForDeletion(){
+  const u = window._fbUser;
+  const provider = u && u.providerData && u.providerData[0] && u.providerData[0].providerId;
+  try{
+    if(provider === 'google.com'){
+      showToast('🔐 Confirma tu identidad con Google para continuar…');
+      await window._firebase.reauthenticateGoogle();
+      return true;
+    }
+    const password = prompt('Por seguridad, ingresa tu contraseña para confirmar la eliminación de tu cuenta:');
+    if(!password) return false;
+    await window._firebase.reauthenticate(password);
+    return true;
+  } catch(e){
+    showToast('⚠️ No se pudo confirmar tu identidad: ' + firebaseErrMsg(e.code));
+    return false;
+  }
+}
+
+function _finishAccountDeletion(){
+  try{ localStorage.removeItem('drakon_pwa'); }catch(e){}
+  try{ localStorage.removeItem('drakon_groq_key'); }catch(e){}
+  try{ localStorage.removeItem('drakon_fb_cfg'); }catch(e){}
+  showToast('✅ Tu cuenta y tus datos fueron eliminados.');
+  setTimeout(()=>{ location.reload(); }, 1200);
+}
+
 // ── Firebase config setup modal ──
 function openFbSetup(){
   const m = document.getElementById('fbSetupModal');
@@ -374,6 +455,7 @@ function save(){
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
     learnerMemory:state.learnerMemory,
     accessories:state.accessories,
+    ttsCharsToday:state.ttsCharsToday,
   };
   try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
 
@@ -384,7 +466,7 @@ function save(){
   if(window._fbInit && fbUser && window._firebase){
     clearTimeout(_saveCloudTimer);
     _saveCloudTimer = setTimeout(() => {
-      window._firebase.saveData({ ...data, updatedAt: Date.now() });
+      window._firebase.saveData({ ..._stripPremiumForCloud(data), updatedAt: Date.now() });
     }, 1500);
   }
 }
@@ -518,9 +600,43 @@ function saveElevenKey(){
     showToast('❌ API key inválida. Cópiala desde elevenlabs.io'); return;
   }
   persistElevenKey(val);
-  showToast('✅ API key guardada. ¡Voces con personalidad activadas!');
   const st = document.getElementById('elevenKeyStatus');
-  if(st){ st.textContent = '✅ Guardada correctamente'; st.style.color = 'var(--mint)'; }
+  if(st){ st.innerHTML = '🔎 Verificando que la clave funcione…'; st.style.color = 'var(--muted)'; }
+
+  // Prueba REAL la clave con una síntesis mínima — así, si al usuario se
+  // le olvidó activar el permiso "Text to Speech" al crear la clave en
+  // ElevenLabs (el paso más fácil de pasar por alto), se entera AHORA,
+  // con el paso exacto que falta, en vez de descubrirlo a mitad de una
+  // conversación sin saber por qué la voz no suena.
+  if(typeof validateElevenKey !== 'function'){
+    showToast('✅ API key guardada. ¡Voces con personalidad activadas!');
+    if(st){ st.textContent = '✅ Guardada correctamente'; st.style.color = 'var(--mint)'; }
+    return;
+  }
+  validateElevenKey(val).then(result => {
+    if(result.ok){
+      showToast('✅ Clave verificada — la voz funciona correctamente');
+      if(st){ st.textContent = '✅ Verificada — ¡voces con personalidad activadas!'; st.style.color = 'var(--mint)'; }
+    } else if(result.isPermission){
+      showToast('⚠️ Falta activar el permiso "Text to Speech" en tu clave');
+      if(st){
+        st.innerHTML = '⚠️ La clave se guardó, pero le falta el permiso <strong style="color:var(--coral)">"Text to Speech" → Access</strong>. Ve a tu clave en <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" style="color:var(--gold)">elevenlabs.io/app/settings/api-keys</a>, edítala, activa ese permiso y vuelve a guardar aquí.';
+        st.style.color = 'var(--coral)';
+      }
+    } else if(result.isKeyInvalid){
+      showToast('❌ Esa clave no es válida. Revísala en elevenlabs.io');
+      if(st){ st.textContent = '❌ Clave inválida — revisa que la copiaste completa'; st.style.color = 'var(--coral)'; }
+    } else if(result.isQuota){
+      showToast('⚠️ Clave válida, pero sin cuota disponible este mes');
+      if(st){ st.textContent = '⚠️ Clave válida, pero sin cuota de ElevenLabs disponible'; st.style.color = 'var(--coral)'; }
+    } else {
+      // Cualquier otro caso (incluye 401/403 que no pudimos confirmar sin
+      // ambigüedad que sea "la clave", fallo de red, timeout...) — no
+      // afirmamos que la clave esté mal si no estamos seguros.
+      showToast('✅ API key guardada (no se pudo verificar del todo, pero quedó lista)');
+      if(st){ st.textContent = '✅ Guardada — se probará automáticamente en tu próxima conversación'; st.style.color = 'var(--muted)'; }
+    }
+  });
 }
 
 function loadElevenKeyUI(){
