@@ -681,11 +681,24 @@ function _smoothAmbiguousSegments(segments){
 //     los tramos uno detrás de otro (ya limitados a máximo MAX_TTS_SEGMENTS
 //     y con el suavizado de palabras cortas ambiguas de arriba).
 let _activeSpeechToken = 0;
+let _ttsQuotaWarned = false; // un solo aviso por sesión al agotar la cuota gratuita de TTS
 
 async function speakMixedLanguageText(cleanText){
   const cv = CHAR_VOICE[state.charId] || CHAR_VOICE.dragon;
   const charId = state.charId || 'dragon';
   const token = ++_activeSpeechToken;
+
+  // El límite de uso de voces TTS del plan Gratis se controla de forma
+  // centralizada dentro de ttsFetchAudioBlob (js/tts-eleven.js), que es
+  // el único punto real de red — así se aplica igual sin importar si la
+  // voz viene del chat, de un ejercicio de "Escuchar" o de la
+  // videollamada, sin contar el uso dos veces. Aquí solo mostramos un
+  // aviso amistoso la primera vez que la cuota ya está agotada; la voz
+  // sigue funcionando con el navegador, nunca se apaga del todo.
+  if(typeof canUseElevenTTS === 'function' && !canUseElevenTTS(cleanText.length) && !_ttsQuotaWarned){
+    _ttsQuotaWarned = true;
+    if(typeof showToast === 'function') showToast('🔊 Alcanzaste tu límite diario de voz premium. Usando la voz del navegador — hazte Premium para mucho más uso de voz.');
+  }
 
   if(typeof ttsFetchAudioBlob === 'function'){
     const wholeBlob = await ttsFetchAudioBlob(cleanText, cv, charId).catch(() => null);

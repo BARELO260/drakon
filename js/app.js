@@ -231,7 +231,7 @@ window.addEventListener('beforeinstallprompt',e=>{
 });
 function showInstallBanner(){
   const banner=document.createElement('div'); banner.className='install-banner'; banner.id='installBanner';
-  banner.innerHTML='<span class="ib-icon"><img src="assets/characters/faces/drakon.png" style="width:32px;height:32px;object-fit:contain"></span><div class="ib-text"><div class="ib-title">Instala Drakón</div><div class="ib-sub">Úsala como app en tu dispositivo</div></div><button class="ib-btn" onclick="installPWA()">Instalar</button><button class="ib-close" onclick="dismissInstall()">✕</button>';
+  banner.innerHTML='<span class="ib-icon"><img src="assets/characters/faces/drakon.webp" style="width:32px;height:32px;object-fit:contain"></span><div class="ib-text"><div class="ib-title">Instala Drakón</div><div class="ib-sub">Úsala como app en tu dispositivo</div></div><button class="ib-btn" onclick="installPWA()">Instalar</button><button class="ib-close" onclick="dismissInstall()">✕</button>';
   document.body.appendChild(banner);
 }
 async function installPWA(){

@@ -23,7 +23,7 @@
 const SITUATIONS = [
   {
     key:'airport', icon:'✈️', name:'Aeropuerto', desc:'Check-in, seguridad y vuelos',
-    level:'easy', bg:'assets/backgroundsituations/airport.png',
+    level:'easy', bg:'assets/backgroundsituations/airport.webp',
     role:'an airport check-in / gate agent', roleLabel:'un agente de aeropuerto',
     prompt:'You are an airport agent (check-in desk, security or gate). Help the learner check in, clear security, find a gate, or solve a flight problem. Speak in {LANG}.',
     steps:['Encontrar el mostrador correcto','Hacer check-in y facturar equipaje','Pasar el control de seguridad','Ubicar tu puerta de embarque'],
@@ -31,7 +31,7 @@ const SITUATIONS = [
   },
   {
     key:'restaurant', icon:'🍽️', name:'Restaurante', desc:'Pedir, alergias y la cuenta',
-    level:'easy', bg:'assets/backgroundsituations/restaurant.png',
+    level:'easy', bg:'assets/backgroundsituations/restaurant.webp',
     role:'a restaurant server/waiter', roleLabel:'un camarero',
     prompt:'You are a restaurant server. Help the learner get a table, order food, ask about ingredients/allergies, and pay. Speak in {LANG}.',
     steps:['Pedir una mesa','Preguntar por el menú y los platos','Hacer el pedido','Pedir la cuenta y pagar'],
@@ -39,7 +39,7 @@ const SITUATIONS = [
   },
   {
     key:'hotel', icon:'🏨', name:'Hotel', desc:'Check-in y solicitudes',
-    level:'easy', bg:'assets/backgroundsituations/hotel.png',
+    level:'easy', bg:'assets/backgroundsituations/hotel.webp',
     role:'a hotel receptionist', roleLabel:'un recepcionista de hotel',
     prompt:'You are a hotel receptionist. Help the learner check in/out and resolve practical requests (towels, breakfast, wifi, problems with the room). Speak in {LANG}.',
     steps:['Confirmar la reserva','Hacer el check-in y recibir la llave','Pedir algo que necesitas','Resolver un problema con la habitación'],
@@ -47,7 +47,7 @@ const SITUATIONS = [
   },
   {
     key:'market', icon:'🛒', name:'Mercado', desc:'Precios, cantidades y regateo',
-    level:'med', bg:'assets/backgroundsituations/market.png',
+    level:'med', bg:'assets/backgroundsituations/market.webp',
     role:'a market/shop vendor', roleLabel:'un vendedor de mercado',
     prompt:'You are a friendly market vendor selling food or goods. Help the learner ask for products, quantities, prices, and negotiate a little. Speak in {LANG}.',
     steps:['Preguntar por un producto','Preguntar el precio','Pedir una cantidad o pedir un descuento','Pagar y despedirte'],
@@ -55,7 +55,7 @@ const SITUATIONS = [
   },
   {
     key:'hospital', icon:'🏥', name:'Hospital', desc:'Describir síntomas y citas',
-    level:'med', bg:'assets/backgroundsituations/hospital.png',
+    level:'med', bg:'assets/backgroundsituations/hospital.webp',
     role:'a receptionist, nurse or doctor at a hospital', roleLabel:'personal de un hospital',
     prompt:'You are hospital staff (receptionist, nurse, or doctor). Help the learner book an appointment, describe non-emergency symptoms, and understand next steps. Speak in {LANG}. Do not diagnose; encourage urgent local care for real emergencies.',
     steps:['Pedir una cita','Describir tu síntoma','Decir desde cuándo lo tienes','Entender las indicaciones'],
@@ -63,7 +63,7 @@ const SITUATIONS = [
   },
   {
     key:'office', icon:'💼', name:'Oficina', desc:'Compañeros, tareas y reuniones',
-    level:'med', bg:'assets/backgroundsituations/office.png',
+    level:'med', bg:'assets/backgroundsituations/office.webp',
     role:'a coworker, client or boss in an office', roleLabel:'un compañero de oficina',
     prompt:'You are a coworker, client, or boss in an office setting. Have a natural work conversation: ask for help, discuss a deadline, propose a meeting, or give a quick update. Speak in {LANG}.',
     steps:['Saludar y dar contexto','Pedir ayuda o dar una actualización','Hablar de plazos o próximos pasos','Cerrar la conversación'],
@@ -71,7 +71,7 @@ const SITUATIONS = [
   },
   {
     key:'party', icon:'🎉', name:'Fiesta', desc:'Conversación casual y small talk',
-    level:'med', bg:'assets/backgroundsituations/party.png',
+    level:'med', bg:'assets/backgroundsituations/party.webp',
     role:'another guest at a party', roleLabel:'un invitado en una fiesta',
     prompt:'You met the learner at a social event/party. Have a natural, friendly conversation, make small talk, and introduce light social challenges. Speak in {LANG}.',
     steps:['Saludar y romper el hielo','Preguntar cómo conoce al anfitrión','Hablar de intereses en común','Despedirte con cortesía'],
@@ -79,7 +79,7 @@ const SITUATIONS = [
   },
   {
     key:'university', icon:'🎓', name:'Universidad', desc:'Matrícula, clases y trámites',
-    level:'hard', bg:'assets/backgroundsituations/university.png',
+    level:'hard', bg:'assets/backgroundsituations/university.webp',
     role:'a university student, professor or administrative staff member', roleLabel:'un miembro de la universidad',
     prompt:'You are a university student, professor, or administrative staff member. Help the learner ask about enrollment, classes, deadlines, or campus life. Speak in {LANG}.',
     steps:['Explicar qué necesitas','Preguntar por requisitos o plazos','Elegir una opción o curso','Confirmar los siguientes pasos'],
