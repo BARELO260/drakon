@@ -3946,4 +3946,154 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe en español, en 55-75 palabras, un análisis sobre geología usando “lejos de + infinitivo” al menos una vez.",[],["lejos de", "yacimiento mineral", "roca sedimentaria"]],
     ]
   },
+  {
+    id:"es_a1_coffee_tasting_cafes", level:"A1", title:"La cata de café y las cafeterías", emoji:"☕", xp:38,
+    description:"Aprende vocabulario de café y a usar “quisiera” para peticiones corteses en español.",
+    study: {
+      vocab: [
+        ["el grano de café", "coffee bean"],
+        ["el tueste", "roast"],
+        ["el aroma", "aroma"],
+        ["el barista", "barista"],
+        ["preparar (café)", "to brew"],
+        ["la taza", "cup"],
+      ],
+      grammar: [
+        ["“Quisiera” para peticiones corteses", "“Quisiera” (condicional de “querer” en subjuntivo imperfecto) es una forma cortés de pedir algo, más formal que “quiero”.", "Quisiera una taza de café, por favor. / Ella quisiera probar el tueste oscuro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en español?",["roast", "el tueste", "barista", "coffee bean"],1,"“Roast” es “el tueste” en español."],
+      ["mcq","¿Cómo se dice “barista” en español?",["cup", "roast", "aroma", "el barista"],3,"“Barista” es “el barista” en español."],
+      ["fill","Completa: “___ una taza de café, por favor.”",["Quisiese", "Quería a", "Quiero de", "Quisiera"],3,"“Quisiera” es la forma cortés de pedir: “quisiera una taza”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Ella quisiera probar el tueste claro.", "Ella quiere probar el tueste oscuro por favor.", "Ella quisiera probar el tueste oscuro.", "Ella quisiera probando el tueste oscuro."],2,"“Would like to try” se traduce con “quisiera probar”."],
+      ["arrange","Ordena: [fuerte / este / café / huele]",["este café huele fuerte", "huele este fuerte café", "este fuerte huele café", "café este fuerte huele"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en español, en 20-30 palabras, tu pedido ideal en una cafetería usando “quisiera”.",[],["quisiera", "café", "barista"]],
+    ]
+  },
+  {
+    id:"es_a2_antique_furniture_restoration", level:"A2", title:"La restauración de muebles antiguos", emoji:"🪑", xp:48,
+    description:"Aprende vocabulario de restauración de muebles y a usar “dejar que alguien haga algo” en español.",
+    study: {
+      vocab: [
+        ["el mueble antiguo", "antique furniture"],
+        ["el barniz", "varnish"],
+        ["el papel de lija", "sandpaper"],
+        ["restaurar", "to restore"],
+        ["la veta de la madera", "wood grain"],
+        ["el taller", "workshop"],
+      ],
+      grammar: [
+        ["“Dejar que + subjuntivo”", "“Dejar que” + subjuntivo expresa permitir que alguien haga algo.", "Deja que el barniz se seque toda la noche. / Ella deja que su ayudante lije el mueble."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en español?",["wood grain", "varnish", "el barniz", "antique furniture"],2,"“Varnish” es “el barniz” en español."],
+      ["mcq","¿Cómo se dice “sandpaper” en español?",["el papel de lija", "to restore", "antique furniture", "wood grain"],0,"“Sandpaper” es “el papel de lija” en español."],
+      ["fill","Completa: “Ella deja que su ayudante ___ el mueble.”",["lijara", "lije", "lija", "lijar"],1,"“Dejar que” requiere subjuntivo: “deja que... lije”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Deja que el barniz se seque toda la noche.", "Deja el barniz se seque toda la noche.", "Deja que el barniz se secará toda la noche.", "Deja que el barniz se seca toda la noche."],0,"“Let... dry” se traduce con “deja que... se seque”, subjuntivo tras “dejar que”."],
+      ["arrange","Ordena: [muy / mueble / antiguo / es / este]",["es este muy mueble antiguo", "este es antiguo mueble muy", "antiguo es este muy mueble", "este mueble es muy antiguo"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en español, en 40-60 palabras, un proyecto de restauración de muebles usando “dejar que + subjuntivo”.",[],["deja que", "restaurar", "barniz"]],
+    ]
+  },
+  {
+    id:"es_b1_lexicography_dictionaries", level:"B1", title:"La lexicografía y los diccionarios", emoji:"📖", xp:62,
+    description:"Aprende vocabulario de lexicografía y a usar “en lugar de” en español.",
+    study: {
+      vocab: [
+        ["la entrada de diccionario", "dictionary entry"],
+        ["la definición", "definition"],
+        ["la etimología", "etymology"],
+        ["el lema", "headword"],
+        ["el sinónimo", "synonym"],
+        ["el ejemplo de uso", "usage example"],
+      ],
+      grammar: [
+        ["“En lugar de” para preferencia", "“En lugar de” + sustantivo/infinitivo expresa preferencia por una opción sobre otra.", "Ella eligió una definición moderna en lugar de la antigua. / En lugar de adivinar, busca la etimología."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en español?",["usage example", "la etimología", "headword", "dictionary entry"],1,"“Etymology” es “la etimología” en español."],
+      ["mcq","¿Cómo se dice “headword” en español?",["synonym", "el lema", "usage example", "etymology"],1,"“Headword” es “el lema” en español."],
+      ["fill","Completa: “___ adivinar, busca la etimología.”",["En vez", "Mejor que", "Más que", "En lugar de"],3,"“En lugar de” + infinitivo introduce la alternativa evitada: “en lugar de adivinar”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["En lugar adivinar, busca la etimología.", "En lugar de adivinar, buscó la etimología.", "En lugar de adivinar, busca la etimología.", "En lugar de adivinando, busca la etimología."],2,"“Rather than guessing” se traduce con “en lugar de adivinar”, infinitivo tras “de”."],
+      ["arrange","Ordena: [útil / muy / ejemplo / este / es]",["este ejemplo es muy útil", "muy útil es este ejemplo", "es este ejemplo útil muy", "es útil ejemplo muy este"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 45-65 palabras, sobre el uso de diccionarios usando “en lugar de” al menos dos veces.",[],["en lugar de", "diccionario", "definición"]],
+    ]
+  },
+  {
+    id:"es_b2_medical_radiology_imaging", level:"B2", title:"La radiología médica y el diagnóstico por imagen", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “por si” en español.",
+    study: {
+      vocab: [
+        ["la radiografía", "X-ray"],
+        ["la resonancia magnética", "MRI scan"],
+        ["el radiólogo/la radióloga", "radiologist"],
+        ["el medio de contraste", "contrast dye"],
+        ["el diagnóstico", "diagnosis"],
+        ["la exposición a la radiación", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Por si” para precaución", "“Por si” + presente/subjuntivo expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "El radiólogo pidió una resonancia por si la radiografía no mostraba algo. / Trae tus estudios anteriores por si el médico los necesita."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en español?",["la resonancia magnética", "MRI scan", "diagnosis", "X-ray"],0,"“MRI scan” es “la resonancia magnética” en español."],
+      ["mcq","¿Cómo se dice “contrast dye” en español?",["contrast dye", "diagnosis", "el medio de contraste", "radiation exposure"],2,"“Contrast dye” es “el medio de contraste” en español."],
+      ["fill","Completa: “Trae tus estudios anteriores por si el médico los ___.”",["necesitará", "necesite", "necesitó", "necesita"],3,"“Por si” + presente de indicativo expresa precaución: “por si... necesita”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["El radiólogo pidió una resonancia si la radiografía no mostraba algo.", "El radiólogo pide una resonancia por si la radiografía no mostraba algo.", "El radiólogo pidió una resonancia por si la radiografía no mostrará algo.", "El radiólogo pidió una resonancia por si la radiografía no mostraba algo."],3,"“In case” se traduce con “por si”, expresando precaución sin condición estricta."],
+      ["arrange","Ordena: [claro / diagnóstico / muy / el / es]",["el claro es diagnóstico muy", "el diagnóstico es muy claro", "claro el diagnóstico es muy", "diagnóstico muy el es claro"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, sobre un procedimiento de radiología usando “por si” al menos dos veces.",[],["por si", "radiografía", "diagnóstico"]],
+    ]
+  },
+  {
+    id:"es_c1_virology_pandemics", level:"C1", title:"La virología y las pandemias", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “incluso si” en español.",
+    study: {
+      vocab: [
+        ["la cepa viral", "virus strain"],
+        ["el brote", "outbreak"],
+        ["la inmunidad de rebaño", "herd immunity"],
+        ["la eficacia de la vacuna", "vaccine efficacy"],
+        ["la tasa de transmisión", "transmission rate"],
+        ["la mutación", "mutation"],
+      ],
+      grammar: [
+        ["“Incluso si” para concesión hipotética", "“Incluso si” + subjuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “aunque” con indicativo (hecho real).", "Incluso si la eficacia de la vacuna bajara, la inmunidad de rebaño podría ayudar. / El virus se propagaría incluso si las tasas de transmisión bajaran ligeramente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en español?",["mutation", "el brote", "vaccine efficacy", "herd immunity"],1,"“Outbreak” es “el brote” en español."],
+      ["mcq","¿Cómo se dice “herd immunity” en español?",["la inmunidad de rebaño", "vaccine efficacy", "mutation", "herd immunity"],0,"“Herd immunity” es “la inmunidad de rebaño” en español."],
+      ["fill","Completa: “Incluso si la eficacia ___, la inmunidad de rebaño podría ayudar.”",["bajará", "bajó", "bajara", "baja"],2,"“Incluso si” con hipótesis usa subjuntivo imperfecto: “incluso si... bajara”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["El virus se propagaría incluso si las tasas de transmisión subieran ligeramente.", "El virus se propagaría incluso si las tasas de transmisión bajaran ligeramente.", "El virus se propagaría incluso si las tasas de transmisión bajan ligeramente.", "El virus se propagaría aunque las tasas de transmisión bajaran ligeramente."],1,"“Even if” con condición hipotética se traduce con “incluso si” + subjuntivo imperfecto."],
+      ["arrange","Ordena: [preocupante / muy / mutación / esta / es]",["preocupante mutación muy es esta", "esta mutación es muy preocupante", "muy es mutación preocupante esta", "muy preocupante esta es mutación"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis sobre virología usando “incluso si” al menos dos veces.",[],["incluso si", "brote", "inmunidad de rebaño"]],
+    ]
+  },
+  {
+    id:"es_c2_central_banking_monetary_policy", level:"C2", title:"La banca central y la política monetaria", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “en la medida en que” en español.",
+    study: {
+      vocab: [
+        ["la tasa de interés", "interest rate"],
+        ["la meta de inflación", "inflation target"],
+        ["la flexibilización cuantitativa", "quantitative easing"],
+        ["la política monetaria", "monetary policy"],
+        ["el banco central", "central bank"],
+        ["el estímulo fiscal", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“En la medida en que” para calificar", "“En la medida en que” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "En la medida en que la inflación se mantenga estable, son posibles recortes de tasas. / La política funciona en la medida en que los bancos prestan con más libertad."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en español?",["interest rate", "la flexibilización cuantitativa", "quantitative easing", "inflation target"],1,"“Quantitative easing” es “la flexibilización cuantitativa” en español."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en español?",["el estímulo fiscal", "fiscal stimulus", "monetary policy", "inflation target"],0,"“Fiscal stimulus” es “el estímulo fiscal” en español."],
+      ["fill","Completa: “En la medida en que la inflación se ___ estable, son posibles recortes de tasas.”",["mantenga", "mantuvo", "mantendrá", "mantiene"],0,"“En la medida en que” con incertidumbre requiere subjuntivo: “en la medida en que... se mantenga”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La política funcionaba en la medida en que los bancos prestan con más libertad.", "La política funciona en la medida que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con menos libertad."],2,"“To the extent that” se traduce con “en la medida en que” en español."],
+      ["arrange","Ordena: [alta / muy / tasa / interés / la / de / es]",["tasa es interés alta de la muy", "la tasa de interés es muy alta", "alta muy interés es la tasa de", "de es la muy tasa interés alta"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en español, en 55-75 palabras, un análisis sobre política monetaria usando “en la medida en que” al menos una vez.",[],["en la medida en que", "política monetaria", "banco central"]],
+    ]
+  },
 ];
