@@ -4068,4 +4068,154 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés, en 55-75 palabras, un análisis sobre geología usando “far from + gerundio” al menos una vez.",[],["far from", "mineral deposit", "sedimentary rock"]],
     ]
   },
+  {
+    id:"a1_coffee_tasting_cafes", level:"A1", title:"La cata de café y las cafeterías", emoji:"☕", xp:38,
+    description:"Aprende vocabulario de café y a usar “would like” para peticiones corteses en inglés.",
+    study: {
+      vocab: [
+        ["coffee bean", "grano de café"],
+        ["roast", "tueste"],
+        ["aroma", "aroma"],
+        ["barista", "barista"],
+        ["to brew", "preparar (café)"],
+        ["cup", "taza"],
+      ],
+      grammar: [
+        ["“Would like” para peticiones corteses", "“Would like” + sustantivo o infinitivo es una forma cortés de pedir algo, más formal que “want”.", "I would like a cup of coffee, please. / She would like to try the dark roast."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “tueste” en inglés?",["roast", "aroma", "coffee bean", "cup"],0,"“Tueste” es “roast” en inglés."],
+      ["mcq","¿Cómo se dice “barista” en inglés?",["cup", "to brew", "barista", "aroma"],2,"“Barista” es “barista” en inglés."],
+      ["fill","Completa: “I ___ like a cup of coffee, please.”",["do", "will", "would", "am"],2,"“Would like” es la forma cortés de pedir: “I would like”."],
+      ["translate","Traduce: “Ella quisiera probar el tueste oscuro.”",["She would likes to try the dark roast.", "She like to try the dark roast.", "She would like to try the dark roast.", "She would like try the dark roast."],2,"“Quisiera probar” se traduce con “would like to try”, infinitivo con “to”."],
+      ["arrange","Ordena: [strong / smells / coffee / this]",["smells this strong coffee", "this coffee smells strong", "smells coffee this strong", "strong smells this coffee"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en inglés, en 20-30 palabras, tu pedido ideal en una cafetería usando “would like”.",[],["would like", "coffee", "barista"]],
+    ]
+  },
+  {
+    id:"a2_antique_furniture_restoration", level:"A2", title:"La restauración de muebles antiguos", emoji:"🪑", xp:48,
+    description:"Aprende vocabulario de restauración de muebles y a usar “let someone do something” en inglés.",
+    study: {
+      vocab: [
+        ["antique furniture", "mueble antiguo"],
+        ["varnish", "barniz"],
+        ["sandpaper", "papel de lija"],
+        ["to restore", "restaurar"],
+        ["wood grain", "veta de la madera"],
+        ["workshop", "taller"],
+      ],
+      grammar: [
+        ["“Let someone do something”", "“Let” + persona + infinitivo sin “to” expresa permitir que alguien haga algo.", "Let the varnish dry overnight. / She lets her assistant sand the furniture."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “barniz” en inglés?",["wood grain", "workshop", "varnish", "sandpaper"],2,"“Barniz” es “varnish” en inglés."],
+      ["mcq","¿Cómo se dice “papel de lija” en inglés?",["varnish", "sandpaper", "wood grain", "workshop"],1,"“Papel de lija” es “sandpaper” en inglés."],
+      ["fill","Completa: “She lets her assistant ___ the furniture.”",["to sand", "sands", "sand", "sanding"],2,"“Let” + persona + infinitivo sin “to”: “lets... sand”."],
+      ["translate","Traduce: “Deja que el barniz se seque toda la noche.”",["Let the varnish drying overnight.", "Lets the varnish dry overnight.", "Let the varnish dry overnight.", "Let the varnish to dry overnight."],2,"“Deja que se seque” se traduce con “let... dry”, infinitivo sin “to”."],
+      ["arrange","Ordena: [old / very / is / this / furniture]",["this very furniture is old", "this furniture is very old", "furniture is this very old", "old furniture very is this"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en inglés, en 40-60 palabras, un proyecto de restauración de muebles usando “let + persona + infinitivo”.",[],["let", "restore", "varnish"]],
+    ]
+  },
+  {
+    id:"b1_lexicography_dictionaries", level:"B1", title:"La lexicografía y los diccionarios", emoji:"📖", xp:62,
+    description:"Aprende vocabulario de lexicografía y a usar “rather than” en inglés.",
+    study: {
+      vocab: [
+        ["dictionary entry", "entrada de diccionario"],
+        ["definition", "definición"],
+        ["etymology", "etimología"],
+        ["headword", "lema"],
+        ["synonym", "sinónimo"],
+        ["usage example", "ejemplo de uso"],
+      ],
+      grammar: [
+        ["“Rather than” para preferencia", "“Rather than” + sustantivo/gerundio expresa preferencia por una opción sobre otra.", "She chose a modern definition rather than the old one. / Rather than guessing, look up the etymology."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etimología” en inglés?",["synonym", "definition", "etymology", "headword"],2,"“Etimología” es “etymology” en inglés."],
+      ["mcq","¿Cómo se dice “lema” en inglés?",["etymology", "definition", "headword", "dictionary entry"],2,"“Lema” es “headword” en inglés."],
+      ["fill","Completa: “___ guessing, look up the etymology.”",["Instead", "More than", "Better than", "Rather than"],3,"“Rather than” + gerundio introduce la alternativa evitada: “rather than guessing”."],
+      ["translate","Traduce: “Ella eligió una definición moderna en lugar de la antigua.”",["She chose a modern definition rather than the old one.", "She chose a modern definition rather the old one.", "She chose modern definition rather than the old one.", "She chose a modern definition than the old one."],0,"“En lugar de” se traduce con “rather than”: “rather than the old one”."],
+      ["arrange","Ordena: [useful / very / example / this / is]",["this useful example very is", "very is this useful example", "this example is very useful", "is very example this useful"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en inglés, en 45-65 palabras, sobre el uso de diccionarios usando “rather than” al menos dos veces.",[],["rather than", "dictionary", "definition"]],
+    ]
+  },
+  {
+    id:"b2_medical_radiology_imaging", level:"B2", title:"La radiología médica y el diagnóstico por imagen", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “in case” en inglés.",
+    study: {
+      vocab: [
+        ["X-ray", "radiografía"],
+        ["MRI scan", "resonancia magnética"],
+        ["radiologist", "radiólogo/a"],
+        ["contrast dye", "medio de contraste"],
+        ["diagnosis", "diagnóstico"],
+        ["radiation exposure", "exposición a la radiación"],
+      ],
+      grammar: [
+        ["“In case” para precaución", "“In case” + presente simple expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "The radiologist ordered an MRI in case the X-ray missed something. / Bring your previous scans in case the doctor needs them."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “resonancia magnética” en inglés?",["radiation exposure", "MRI scan", "contrast dye", "diagnosis"],1,"“Resonancia magnética” es “MRI scan” en inglés."],
+      ["mcq","¿Cómo se dice “medio de contraste” en inglés?",["MRI scan", "contrast dye", "radiation exposure", "diagnosis"],1,"“Medio de contraste” es “contrast dye” en inglés."],
+      ["fill","Completa: “Bring your previous scans ___ the doctor needs them.”",["in case", "unless", "in case of", "if"],0,"“In case” + presente simple expresa precaución: “in case the doctor needs”."],
+      ["translate","Traduce: “El radiólogo pidió una resonancia por si la radiografía no mostraba algo.”",["The radiologist ordered an MRI if the X-ray missed something.", "The radiologist ordered an MRI in case the X-ray missed something.", "The radiologist orders an MRI in case the X-ray missed something.", "The radiologist ordered an MRI in case the X-ray miss something."],1,"“Por si” se traduce con “in case”, expresando precaución sin condición estricta."],
+      ["arrange","Ordena: [clear / very / diagnosis / the / is]",["very diagnosis clear is the", "diagnosis very is clear the", "very the clear is diagnosis", "the diagnosis is very clear"],3,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, sobre un procedimiento de radiología usando “in case” al menos dos veces.",[],["in case", "X-ray", "diagnosis"]],
+    ]
+  },
+  {
+    id:"c1_virology_pandemics", level:"C1", title:"La virología y las pandemias", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “even if” en inglés.",
+    study: {
+      vocab: [
+        ["virus strain", "cepa viral"],
+        ["outbreak", "brote"],
+        ["herd immunity", "inmunidad de rebaño"],
+        ["vaccine efficacy", "eficacia de la vacuna"],
+        ["transmission rate", "tasa de transmisión"],
+        ["mutation", "mutación"],
+      ],
+      grammar: [
+        ["“Even if” para concesión hipotética", "“Even if” + presente/pasado expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “even though” (hecho real).", "Even if the vaccine efficacy drops, herd immunity may still help. / The virus would spread even if transmission rates fell slightly."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “brote” en inglés?",["vaccine efficacy", "outbreak", "herd immunity", "transmission rate"],1,"“Brote” es “outbreak” en inglés."],
+      ["mcq","¿Cómo se dice “inmunidad de rebaño” en inglés?",["virus strain", "herd immunity", "transmission rate", "outbreak"],1,"“Inmunidad de rebaño” es “herd immunity” en inglés."],
+      ["fill","Completa: “___ the vaccine efficacy drops, herd immunity may still help.”",["Despite", "Even though", "Even if", "Although"],2,"“Even if” expresa concesión hipotética: “even if... drops”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["El virus se propagaría incluso si las tasas de transmisión bajaran ligeramente.", "El virus se propagaría incluso si las tasas de transmisión bajan ligeramente.", "El virus se propagaría incluso si las tasas de transmisión subieran ligeramente.", "El virus se propagaría aunque las tasas de transmisión bajaran ligeramente."],0,"“Even if” con condición hipotética se traduce con “incluso si” + subjuntivo imperfecto: “incluso si... bajaran”."],
+      ["arrange","Ordena: [concerning / very / mutation / this / is]",["this mutation is very concerning", "concerning this very mutation is", "concerning very mutation is this", "mutation very concerning is this"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un análisis sobre virología usando “even if” al menos dos veces.",[],["even if", "outbreak", "herd immunity"]],
+    ]
+  },
+  {
+    id:"c2_central_banking_monetary_policy", level:"C2", title:"La banca central y la política monetaria", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “insofar as/to the extent that” en inglés.",
+    study: {
+      vocab: [
+        ["interest rate", "tasa de interés"],
+        ["inflation target", "meta de inflación"],
+        ["quantitative easing", "flexibilización cuantitativa"],
+        ["monetary policy", "política monetaria"],
+        ["central bank", "banco central"],
+        ["fiscal stimulus", "estímulo fiscal"],
+      ],
+      grammar: [
+        ["“Insofar as/to the extent that” para calificar", "“Insofar as” y “to the extent that” expresan una limitación o condición parcial, típicas del registro académico/formal.", "Insofar as inflation remains stable, rate cuts are possible. / The policy works to the extent that banks lend more freely."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “flexibilización cuantitativa” en inglés?",["central bank", "interest rate", "inflation target", "quantitative easing"],3,"“Flexibilización cuantitativa” es “quantitative easing” en inglés."],
+      ["mcq","¿Cómo se dice “estímulo fiscal” en inglés?",["monetary policy", "central bank", "fiscal stimulus", "interest rate"],2,"“Estímulo fiscal” es “fiscal stimulus” en inglés."],
+      ["fill","Completa: “___ inflation remains stable, rate cuts are possible.”",["Even as", "As far", "So as", "Insofar as"],3,"“Insofar as” expresa una limitación condicional: “insofar as inflation remains”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La política funcionaba en la medida en que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con menos libertad.", "La política funciona en la medida que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con más libertad."],3,"“To the extent that” se traduce con “en la medida en que” en español."],
+      ["arrange","Ordena: [high / very / rate / interest / is / the]",["the very high interest is rate", "very high the is rate interest", "very is rate the interest high", "the interest rate is very high"],3,"Artículo + sustantivo compuesto + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en inglés, en 55-75 palabras, un análisis sobre política monetaria usando “insofar as” o “to the extent that” al menos una vez.",[],["insofar as", "to the extent that", "monetary policy"]],
+    ]
+  },
 ];
