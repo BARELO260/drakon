@@ -3943,4 +3943,154 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva em português, em 55-75 palavras, uma análise sobre geologia usando “longe de + infinitivo” pelo menos uma vez.",[],["longe de", "depósito mineral", "rocha sedimentar"]],
     ]
   },
+  {
+    id:"pt_a1_coffee_tasting_cafes", level:"A1", title:"A degustação de café e as cafeterias", emoji:"☕", xp:38,
+    description:"Aprenda vocabulário de café e a usar “gostaria” para pedidos educados em português.",
+    study: {
+      vocab: [
+        ["o grão de café", "coffee bean"],
+        ["a torra", "roast"],
+        ["o aroma", "aroma"],
+        ["o barista", "barista"],
+        ["preparar (café)", "to brew"],
+        ["a xícara", "cup"],
+      ],
+      grammar: [
+        ["“Gostaria” para pedidos educados", "“Gostaria” (futuro do pretérito de “gostar”) es una forma cortés de pedir algo, más formal que “quero”.", "Eu gostaria de uma xícara de café, por favor. / Ela gostaria de experimentar a torra escura."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en portugués?",["aroma", "roast", "a torra", "to brew"],2,"“Roast” es “a torra” en portugués."],
+      ["mcq","¿Cómo se dice “barista” en portugués?",["o barista", "roast", "to brew", "aroma"],0,"“Barista” es “o barista” en portugués."],
+      ["fill","Completa: “Eu ___ de uma xícara de café, por favor.”",["gosto", "gostasse", "gostaria", "gostava"],2,"“Gostaria” es la forma cortés de pedir: “gostaria de”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Ela gostaria de experimentando a torra escura.", "Ela gostaria de experimentar a torra clara.", "Ela gostaria de experimentar a torra escura.", "Ela quer experimentar a torra escura por favor."],2,"“Would like to try” se traduce con “gostaria de experimentar”."],
+      ["arrange","Ordena: [forte / este / café / cheira]",["este café cheira forte", "cheira café este forte", "cheira café forte este", "forte café este cheira"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Descreva em português, em 20-30 palavras, seu pedido ideal em uma cafeteria usando “gostaria”.",[],["gostaria", "café", "barista"]],
+    ]
+  },
+  {
+    id:"pt_a2_antique_furniture_restoration", level:"A2", title:"A restauração de móveis antigos", emoji:"🪑", xp:48,
+    description:"Aprenda vocabulário de restauração de móveis e a usar “deixar alguém fazer algo” em português.",
+    study: {
+      vocab: [
+        ["o móvel antigo", "antique furniture"],
+        ["o verniz", "varnish"],
+        ["a lixa", "sandpaper"],
+        ["restaurar", "to restore"],
+        ["o veio da madeira", "wood grain"],
+        ["a oficina", "workshop"],
+      ],
+      grammar: [
+        ["“Deixar alguém fazer algo”", "“Deixar” + persona + infinitivo expresa permitir que alguien haga algo.", "Deixe o verniz secar durante a noite. / Ela deixa o assistente lixar o móvel."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en portugués?",["o verniz", "varnish", "workshop", "antique furniture"],0,"“Varnish” es “o verniz” en portugués."],
+      ["mcq","¿Cómo se dice “sandpaper” en portugués?",["a lixa", "varnish", "to restore", "antique furniture"],0,"“Sandpaper” es “a lixa” en portugués."],
+      ["fill","Completa: “Ela deixa o assistente ___ o móvel.”",["lixa", "lixando", "lixar", "lixado"],2,"“Deixar” + persona + infinitivo directo: “deixa... lixar”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Deixe o verniz secando durante a noite.", "Deixe o verniz secar durante a noite.", "Deixa o verniz secar durante a noite ele.", "Deixe o verniz seca durante a noite."],1,"“Let... dry” se traduce con “deixe... secar”, infinitivo directo tras “deixar”."],
+      ["arrange","Ordena: [muito / é / móvel / antigo / este]",["muito é móvel este antigo", "móvel antigo é este muito", "antigo muito é móvel este", "este móvel é muito antigo"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Descreva em português, em 40-60 palavras, um projeto de restauração de móveis usando “deixar + pessoa + infinitivo”.",[],["deixa", "restaurar", "verniz"]],
+    ]
+  },
+  {
+    id:"pt_b1_lexicography_dictionaries", level:"B1", title:"A lexicografia e os dicionários", emoji:"📖", xp:62,
+    description:"Aprenda vocabulário de lexicografia e a usar “em vez de” em português.",
+    study: {
+      vocab: [
+        ["o verbete de dicionário", "dictionary entry"],
+        ["a definição", "definition"],
+        ["a etimologia", "etymology"],
+        ["o lema", "headword"],
+        ["o sinônimo", "synonym"],
+        ["o exemplo de uso", "usage example"],
+      ],
+      grammar: [
+        ["“Em vez de” para preferência", "“Em vez de” + sustantivo/infinitivo expresa preferencia por una opción sobre otra.", "Ela escolheu uma definição moderna em vez da antiga. / Em vez de adivinhar, procure a etimologia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en portugués?",["a etimologia", "synonym", "definition", "headword"],0,"“Etymology” es “a etimologia” en portugués."],
+      ["mcq","¿Cómo se dice “headword” en portugués?",["headword", "synonym", "o lema", "usage example"],2,"“Headword” es “o lema” en portugués."],
+      ["fill","Completa: “___ adivinhar, procure a etimologia.”",["Em lugar", "Em vez de", "Mais que", "Melhor que"],1,"“Em vez de” + infinitivo introduce la alternativa evitada: “em vez de adivinhar”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Em vez adivinhar, procure a etimologia.", "Em vez de adivinhando, procure a etimologia.", "Em vez de adivinhar, procurou a etimologia.", "Em vez de adivinhar, procure a etimologia."],3,"“Rather than guessing” se traduce con “em vez de adivinhar”, infinitivo tras “de”."],
+      ["arrange","Ordena: [muito / exemplo / útil / este / é]",["este exemplo é muito útil", "é útil muito este exemplo", "é este exemplo útil muito", "exemplo este útil é muito"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escreva em português, em 45-65 palavras, sobre o uso de dicionários usando “em vez de” pelo menos duas vezes.",[],["em vez de", "dicionário", "definição"]],
+    ]
+  },
+  {
+    id:"pt_b2_medical_radiology_imaging", level:"B2", title:"A radiologia médica e o diagnóstico por imagem", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “caso” para precaución en portugués.",
+    study: {
+      vocab: [
+        ["a radiografia", "X-ray"],
+        ["a ressonância magnética", "MRI scan"],
+        ["o radiologista", "radiologist"],
+        ["o contraste", "contrast dye"],
+        ["o diagnóstico", "diagnosis"],
+        ["a exposição à radiação", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Caso” + subjuntivo para precaução", "“Caso” + subjuntivo presente expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "O radiologista pediu uma ressonância caso a radiografia não mostrasse algo. / Traga seus exames anteriores caso o médico precise deles."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en portugués?",["MRI scan", "X-ray", "a ressonância magnética", "diagnosis"],2,"“MRI scan” es “a ressonância magnética” en portugués."],
+      ["mcq","¿Cómo se dice “contrast dye” en portugués?",["o contraste", "radiation exposure", "MRI scan", "diagnosis"],0,"“Contrast dye” es “o contraste” en portugués."],
+      ["fill","Completa: “Traga seus exames anteriores caso o médico ___ deles.”",["precisou", "precisará", "precise", "precisa"],2,"“Caso” requiere subjuntivo presente: “caso... precise”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["O radiologista pediu uma ressonância caso a radiografia não mostrasse algo.", "O radiologista pediu uma ressonância se a radiografia não mostrasse algo.", "O radiologista pede uma ressonância caso a radiografia não mostrasse algo.", "O radiologista pediu uma ressonância caso a radiografia não mostrava algo."],0,"“In case” se traduce con “caso” + subjuntivo imperfeito, expresando precaución en pasado."],
+      ["arrange","Ordena: [muito / diagnóstico / claro / o / é]",["claro o diagnóstico muito é", "é claro muito diagnóstico o", "é diagnóstico claro o muito", "o diagnóstico é muito claro"],3,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, sobre um procedimento de radiologia usando “caso” pelo menos duas vezes.",[],["caso", "radiografia", "diagnóstico"]],
+    ]
+  },
+  {
+    id:"pt_c1_virology_pandemics", level:"C1", title:"A virologia e as pandemias", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “mesmo que” en portugués.",
+    study: {
+      vocab: [
+        ["a cepa viral", "virus strain"],
+        ["o surto", "outbreak"],
+        ["a imunidade de rebanho", "herd immunity"],
+        ["a eficácia da vacina", "vaccine efficacy"],
+        ["a taxa de transmissão", "transmission rate"],
+        ["a mutação", "mutation"],
+      ],
+      grammar: [
+        ["“Mesmo que” + subjuntivo para concessão hipotética", "“Mesmo que” + subjuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “embora” (hecho real).", "Mesmo que a eficácia da vacina caísse, a imunidade de rebanho poderia ajudar. / O vírus se espalharia mesmo que as taxas de transmissão caíssem um pouco."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en portugués?",["virus strain", "herd immunity", "o surto", "mutation"],2,"“Outbreak” es “o surto” en portugués."],
+      ["mcq","¿Cómo se dice “herd immunity” en portugués?",["vaccine efficacy", "transmission rate", "outbreak", "a imunidade de rebanho"],3,"“Herd immunity” es “a imunidade de rebanho” en portugués."],
+      ["fill","Completa: “Mesmo que a eficácia ___, a imunidade de rebanho poderia ajudar.”",["cai", "caiu", "cairá", "caísse"],3,"“Mesmo que” con hipótesis usa subjuntivo imperfeito: “mesmo que... caísse”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["O vírus se espalharia mesmo que as taxas de transmissão subissem um pouco.", "O vírus se espalharia mesmo que as taxas de transmissão caíssem um pouco.", "O vírus se espalharia embora as taxas de transmissão caíssem um pouco.", "O vírus se espalharia mesmo que as taxas de transmissão caem um pouco."],1,"“Even if” con condición hipotética se traduce con “mesmo que” + subjuntivo imperfeito."],
+      ["arrange","Ordena: [preocupante / muito / mutação / esta / é]",["esta mutação é muito preocupante", "muito mutação é esta preocupante", "esta é muito preocupante mutação", "preocupante mutação esta muito é"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise sobre virologia usando “mesmo que” pelo menos duas vezes.",[],["mesmo que", "surto", "imunidade de rebanho"]],
+    ]
+  },
+  {
+    id:"pt_c2_central_banking_monetary_policy", level:"C2", title:"O banco central e a política monetária", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “na medida em que” en portugués.",
+    study: {
+      vocab: [
+        ["a taxa de juros", "interest rate"],
+        ["a meta de inflação", "inflation target"],
+        ["o afrouxamento quantitativo", "quantitative easing"],
+        ["a política monetária", "monetary policy"],
+        ["o banco central", "central bank"],
+        ["o estímulo fiscal", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“Na medida em que” para qualificar", "“Na medida em que” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Na medida em que a inflação permanecer estável, cortes na taxa são possíveis. / A política funciona na medida em que os bancos emprestam com mais liberdade."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en portugués?",["o afrouxamento quantitativo", "monetary policy", "inflation target", "quantitative easing"],0,"“Quantitative easing” es “o afrouxamento quantitativo” en portugués."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en portugués?",["o estímulo fiscal", "quantitative easing", "interest rate", "fiscal stimulus"],0,"“Fiscal stimulus” es “o estímulo fiscal” en portugués."],
+      ["fill","Completa: “Na medida em que a inflação ___ estável, cortes na taxa são possíveis.”",["permaneceu", "permanecer", "permanecerá", "permanece"],1,"“Na medida em que” con futuro incierto usa futuro do subjuntivo: “na medida em que... permanecer”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["A política funciona na medida em que os bancos emprestam com menos liberdade.", "A política funciona na medida que os bancos emprestam com mais liberdade.", "A política funcionava na medida em que os bancos emprestam com mais liberdade.", "A política funciona na medida em que os bancos emprestam com mais liberdade."],3,"“To the extent that” se traduce con “na medida em que” en portugués."],
+      ["arrange","Ordena: [alta / muito / taxa / juros / a / de / é]",["é taxa muito alta juros de a", "a alta juros taxa muito de é", "de juros a muito é taxa alta", "a taxa de juros é muito alta"],3,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escreva em português, em 55-75 palavras, uma análise sobre política monetária usando “na medida em que” pelo menos uma vez.",[],["na medida em que", "política monetária", "banco central"]],
+    ]
+  },
 ];
