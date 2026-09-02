@@ -3943,4 +3943,154 @@ window.LESSON_BANKS.IT = [
       ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre geología usando “lungi dal + infinito” al menos una vez.",[],["lungi dal", "giacimento minerale", "roccia sedimentaria"]],
     ]
   },
+  {
+    id:"it_a1_coffee_tasting_cafes", level:"A1", title:"La degustazione di caffè e i bar", emoji:"☕", xp:38,
+    description:"Impara il vocabolario del caffè e a usare “vorrei” per richieste cortesi in italiano.",
+    study: {
+      vocab: [
+        ["il chicco di caffè", "coffee bean"],
+        ["la tostatura", "roast"],
+        ["l'aroma", "aroma"],
+        ["il barista", "barista"],
+        ["preparare (il caffè)", "to brew"],
+        ["la tazza", "cup"],
+      ],
+      grammar: [
+        ["“Vorrei” per richieste cortesi", "“Vorrei” (condizionale de “volere”) es una forma cortés de pedir algo, más formal que “voglio”.", "Vorrei una tazza di caffè, per favore. / Vorrebbe provare la tostatura scura."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en italiano?",["aroma", "roast", "coffee bean", "la tostatura"],3,"“Roast” es “la tostatura” en italiano."],
+      ["mcq","¿Cómo se dice “barista” en italiano?",["il barista", "cup", "to brew", "coffee bean"],0,"“Barista” es “il barista” en italiano."],
+      ["fill","Completa: “___ una tazza di caffè, per favore.”",["Voglio di", "Vorrei", "Volevo a", "Vorrebbe"],1,"“Vorrei” es la forma cortés de pedir: “vorrei una tazza”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Vorrebbe provare la tostatura scura.", "Vorrebbe provando la tostatura scura.", "Vuole provare la tostatura scura per favore.", "Vorrebbe provare la tostatura chiara."],0,"“Would like to try” se traduce con “vorrebbe provare”."],
+      ["arrange","Ordena: [forte / questo / caffè / odora]",["forte odora questo caffè", "questo caffè odora forte", "caffè forte odora questo", "odora caffè forte questo"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, tu pedido ideal en una cafetería usando “vorrei”.",[],["vorrei", "caffè", "barista"]],
+    ]
+  },
+  {
+    id:"it_a2_antique_furniture_restoration", level:"A2", title:"Il restauro di mobili antichi", emoji:"🪑", xp:48,
+    description:"Impara il vocabolario del restauro mobili e a usare “lasciare che qualcuno faccia qualcosa” in italiano.",
+    study: {
+      vocab: [
+        ["il mobile antico", "antique furniture"],
+        ["la vernice", "varnish"],
+        ["la carta vetrata", "sandpaper"],
+        ["restaurare", "to restore"],
+        ["la venatura del legno", "wood grain"],
+        ["il laboratorio", "workshop"],
+      ],
+      grammar: [
+        ["“Lasciare che + congiuntivo”", "“Lasciare che” + congiuntivo expresa permitir que alguien haga algo.", "Lascia che la vernice asciughi tutta la notte. / Lei lascia che il suo assistente carteggi il mobile."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en italiano?",["sandpaper", "la vernice", "to restore", "workshop"],1,"“Varnish” es “la vernice” en italiano."],
+      ["mcq","¿Cómo se dice “sandpaper” en italiano?",["wood grain", "la carta vetrata", "workshop", "sandpaper"],1,"“Sandpaper” es “la carta vetrata” en italiano."],
+      ["fill","Completa: “Lei lascia che il suo assistente ___ il mobile.”",["carteggiare", "carteggia", "carteggiasse", "carteggi"],3,"“Lasciare che” requiere congiuntivo: “lascia che... carteggi”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Lascia che la vernice asciuga tutta la notte.", "Lascia che la vernice asciugherà tutta la notte.", "Lascia la vernice asciughi tutta la notte.", "Lascia che la vernice asciughi tutta la notte."],3,"“Let... dry” se traduce con “lascia che... asciughi”, congiuntivo tras “lasciare che”."],
+      ["arrange","Ordena: [molto / mobile / antico / è / questo]",["antico è mobile questo molto", "mobile questo è antico molto", "è mobile molto questo antico", "questo mobile è molto antico"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, un proyecto de restauración de muebles usando “lasciare che + congiuntivo”.",[],["lascia che", "restaurare", "vernice"]],
+    ]
+  },
+  {
+    id:"it_b1_lexicography_dictionaries", level:"B1", title:"La lessicografia e i dizionari", emoji:"📖", xp:62,
+    description:"Impara il vocabolario della lessicografia e a usare “piuttosto che” in italiano.",
+    study: {
+      vocab: [
+        ["la voce del dizionario", "dictionary entry"],
+        ["la definizione", "definition"],
+        ["l'etimologia", "etymology"],
+        ["il lemma", "headword"],
+        ["il sinonimo", "synonym"],
+        ["l'esempio d'uso", "usage example"],
+      ],
+      grammar: [
+        ["“Piuttosto che” per preferenza", "“Piuttosto che” + sustantivo/infinito expresa preferencia por una opción sobre otra.", "Ha scelto una definizione moderna piuttosto che quella antica. / Piuttosto che indovinare, controlla l'etimologia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en italiano?",["l'etimologia", "definition", "headword", "synonym"],0,"“Etymology” es “l'etimologia” en italiano."],
+      ["mcq","¿Cómo se dice “headword” en italiano?",["etymology", "synonym", "usage example", "il lemma"],3,"“Headword” es “il lemma” en italiano."],
+      ["fill","Completa: “___ indovinare, controlla l'etimologia.”",["Invece", "Meglio che", "Piuttosto che", "Più che"],2,"“Piuttosto che” + infinito introduce la alternativa evitada: “piuttosto che indovinare”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Piuttosto che indovinare, controllava l'etimologia.", "Piuttosto che indovinando, controlla l'etimologia.", "Piuttosto che indovinare, controlla l'etimologia.", "Piuttosto indovinare, controlla l'etimologia."],2,"“Rather than guessing” se traduce con “piuttosto che indovinare”, infinito."],
+      ["arrange","Ordena: [utile / molto / esempio / questo / è]",["questo esempio è molto utile", "molto è utile esempio questo", "molto questo utile è esempio", "questo esempio utile è molto"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre el uso de diccionarios usando “piuttosto che” al menos dos veces.",[],["piuttosto che", "dizionario", "definizione"]],
+    ]
+  },
+  {
+    id:"it_b2_medical_radiology_imaging", level:"B2", title:"La radiologia medica e la diagnostica per immagini", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “nel caso in cui” en italiano.",
+    study: {
+      vocab: [
+        ["la radiografia", "X-ray"],
+        ["la risonanza magnetica", "MRI scan"],
+        ["il radiologo/la radiologa", "radiologist"],
+        ["il mezzo di contrasto", "contrast dye"],
+        ["la diagnosi", "diagnosis"],
+        ["l'esposizione alle radiazioni", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Nel caso in cui” + congiuntivo para precaución", "“Nel caso in cui” + congiuntivo expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa. / Porta i tuoi esami precedenti nel caso in cui il medico ne avesse bisogno."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en italiano?",["radiologist", "radiation exposure", "la risonanza magnetica", "MRI scan"],2,"“MRI scan” es “la risonanza magnetica” en italiano."],
+      ["mcq","¿Cómo se dice “contrast dye” en italiano?",["diagnosis", "contrast dye", "radiologist", "il mezzo di contrasto"],3,"“Contrast dye” es “il mezzo di contrasto” en italiano."],
+      ["fill","Completa: “Porta i tuoi esami precedenti nel caso in cui il medico ne ___ bisogno.”",["avesse", "ha", "avrà", "aveva"],0,"“Nel caso in cui” requiere congiuntivo: “nel caso in cui... avesse bisogno”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza se la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia tralasciava qualcosa.", "Il radiologo ordina una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa."],0,"“In case” se traduce con “nel caso in cui” + congiuntivo, expresando precaución."],
+      ["arrange","Ordena: [chiara / diagnosi / molto / è / la]",["chiara la diagnosi è molto", "la diagnosi è molto chiara", "chiara è la diagnosi molto", "diagnosi è chiara molto la"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un procedimiento de radiología usando “nel caso in cui” al menos dos veces.",[],["nel caso in cui", "radiografia", "diagnosi"]],
+    ]
+  },
+  {
+    id:"it_c1_virology_pandemics", level:"C1", title:"La virologia e le pandemie", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “anche se” con congiuntivo para hipótesis en italiano.",
+    study: {
+      vocab: [
+        ["il ceppo virale", "virus strain"],
+        ["il focolaio", "outbreak"],
+        ["l'immunità di gregge", "herd immunity"],
+        ["l'efficacia del vaccino", "vaccine efficacy"],
+        ["il tasso di trasmissione", "transmission rate"],
+        ["la mutazione", "mutation"],
+      ],
+      grammar: [
+        ["“Anche se” + congiuntivo para hipótesis", "“Anche se” + congiuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, distinto del indicativo para hechos reales.", "Anche se l'efficacia del vaccino diminuisse, l'immunità di gregge potrebbe aiutare. / Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en italiano?",["il focolaio", "outbreak", "herd immunity", "mutation"],0,"“Outbreak” es “il focolaio” en italiano."],
+      ["mcq","¿Cómo se dice “herd immunity” en italiano?",["transmission rate", "outbreak", "l'immunità di gregge", "virus strain"],2,"“Herd immunity” es “l'immunità di gregge” en italiano."],
+      ["fill","Completa: “Anche se l'efficacia ___, l'immunità di gregge potrebbe aiutare.”",["diminuisce", "diminuirà", "diminuisse", "è diminuita"],2,"“Anche se” con hipótesis usa congiuntivo imperfetto: “anche se... diminuisse”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Il virus si diffonderebbe anche se i tassi di trasmissione calano leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione aumentassero leggermente.", "Il virus si diffonderebbe sebbene i tassi di trasmissione calassero leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],3,"“Even if” con condición hipotética se traduce con “anche se” + congiuntivo imperfetto."],
+      ["arrange","Ordena: [preoccupante / molto / mutazione / questa / è]",["è mutazione questa preoccupante molto", "questa mutazione è molto preoccupante", "preoccupante mutazione questa è molto", "è questa molto preoccupante mutazione"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre virología usando “anche se” con congiuntivo al menos dos veces.",[],["anche se", "focolaio", "immunità di gregge"]],
+    ]
+  },
+  {
+    id:"it_c2_central_banking_monetary_policy", level:"C2", title:"La banca centrale e la politica monetaria", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “nella misura in cui” en italiano.",
+    study: {
+      vocab: [
+        ["il tasso d'interesse", "interest rate"],
+        ["l'obiettivo d'inflazione", "inflation target"],
+        ["l'allentamento quantitativo", "quantitative easing"],
+        ["la politica monetaria", "monetary policy"],
+        ["la banca centrale", "central bank"],
+        ["lo stimolo fiscale", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“Nella misura in cui” per qualificare", "“Nella misura in cui” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Nella misura in cui l'inflazione rimane stabile, sono possibili tagli dei tassi. / La politica funziona nella misura in cui le banche prestano più liberamente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en italiano?",["inflation target", "l'allentamento quantitativo", "central bank", "quantitative easing"],1,"“Quantitative easing” es “l'allentamento quantitativo” en italiano."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en italiano?",["quantitative easing", "lo stimolo fiscale", "monetary policy", "central bank"],1,"“Fiscal stimulus” es “lo stimolo fiscale” en italiano."],
+      ["fill","Completa: “Nella misura in cui l'inflazione ___ stabile, sono possibili tagli dei tassi.”",["sia rimasta", "rimane", "rimaneva", "rimarrà"],1,"“Nella misura in cui” con presente indicativo: “nella misura in cui... rimane”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La politica funziona nella misura che le banche prestano più liberamente.", "La politica funzionava nella misura in cui le banche prestano più liberamente.", "La politica funziona nella misura in cui le banche prestano meno liberamente.", "La politica funziona nella misura in cui le banche prestano più liberamente."],3,"“To the extent that” se traduce con “nella misura in cui” en italiano."],
+      ["arrange","Ordena: [alto / molto / tasso / interesse / è / il / di]",["molto tasso è alto di il interesse", "il tasso di interesse è molto alto", "interesse è il tasso alto molto di", "tasso il molto di interesse è alto"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre política monetaria usando “nella misura in cui” al menos una vez.",[],["nella misura in cui", "politica monetaria", "banca centrale"]],
+    ]
+  },
 ];
