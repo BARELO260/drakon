@@ -3943,4 +3943,154 @@ window.LESSON_BANKS.FR = [
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre geología usando “loin de + infinitif” al menos una vez.",[],["loin de", "gisement minéral", "roche sédimentaire"]],
     ]
   },
+  {
+    id:"fr_a1_coffee_tasting_cafes", level:"A1", title:"La dégustation de café et les cafés", emoji:"☕", xp:38,
+    description:"Aprende vocabulario de café y a usar “je voudrais” para peticiones corteses en francés.",
+    study: {
+      vocab: [
+        ["le grain de café", "coffee bean"],
+        ["la torréfaction", "roast"],
+        ["l'arôme", "aroma"],
+        ["le barista", "barista"],
+        ["préparer (le café)", "to brew"],
+        ["la tasse", "cup"],
+      ],
+      grammar: [
+        ["“Je voudrais” para peticiones corteses", "“Je voudrais” (condicional de “vouloir”) es una forma cortés de pedir algo, más formal que “je veux”.", "Je voudrais une tasse de café, s'il vous plaît. / Elle voudrait essayer la torréfaction foncée."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en francés?",["to brew", "la torréfaction", "barista", "aroma"],1,"“Roast” es “la torréfaction” en francés."],
+      ["mcq","¿Cómo se dice “barista” en francés?",["barista", "roast", "le barista", "cup"],2,"“Barista” es “le barista” en francés."],
+      ["fill","Completa: “Je ___ une tasse de café, s'il vous plaît.”",["voulais", "veux", "voudrais", "voudrait"],2,"“Je voudrais” es la forma cortés de pedir: “je voudrais une tasse”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Elle voudrait essayer la torréfaction claire.", "Elle veut essayer la torréfaction foncée s'il vous plaît.", "Elle voudrait essayant la torréfaction foncée.", "Elle voudrait essayer la torréfaction foncée."],3,"“Would like to try” se traduce con “voudrait essayer”."],
+      ["arrange","Ordena: [fort / sent / ce / café]",["café sent ce fort", "sent fort café ce", "ce café sent fort", "café sent fort ce"],2,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en francés, en 20-30 palabras, tu pedido ideal en una cafetería usando “je voudrais”.",[],["je voudrais", "café", "barista"]],
+    ]
+  },
+  {
+    id:"fr_a2_antique_furniture_restoration", level:"A2", title:"La restauration de meubles anciens", emoji:"🪑", xp:48,
+    description:"Aprende vocabulario de restauración de muebles y a usar “laisser quelqu'un faire quelque chose” en francés.",
+    study: {
+      vocab: [
+        ["le meuble ancien", "antique furniture"],
+        ["le vernis", "varnish"],
+        ["le papier de verre", "sandpaper"],
+        ["restaurer", "to restore"],
+        ["le grain du bois", "wood grain"],
+        ["l'atelier", "workshop"],
+      ],
+      grammar: [
+        ["“Laisser quelqu'un faire quelque chose”", "“Laisser” + persona + infinitivo expresa permitir que alguien haga algo.", "Laisse le vernis sécher toute la nuit. / Elle laisse son assistant poncer le meuble."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en francés?",["varnish", "to restore", "le vernis", "workshop"],2,"“Varnish” es “le vernis” en francés."],
+      ["mcq","¿Cómo se dice “sandpaper” en francés?",["le papier de verre", "wood grain", "varnish", "workshop"],0,"“Sandpaper” es “le papier de verre” en francés."],
+      ["fill","Completa: “Elle laisse son assistant ___ le meuble.”",["poncé", "ponçant", "poncer", "à poncer"],2,"“Laisser” + persona + infinitivo directo: “laisse... poncer”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Laisse le vernis à sécher toute la nuit.", "Laisse le vernis sécher toute la nuit.", "Laisses le vernis sécher toute la nuit.", "Laisse le vernis séchant toute la nuit."],1,"“Let... dry” se traduce con “laisse... sécher”, infinitivo directo tras “laisser”."],
+      ["arrange","Ordena: [très / est / meuble / ancien / ce]",["très est meuble ancien ce", "très ce ancien meuble est", "ce meuble est très ancien", "est ce très meuble ancien"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en francés, en 40-60 palabras, un proyecto de restauración de muebles usando “laisser + persona + infinitif”.",[],["laisse", "restaurer", "vernis"]],
+    ]
+  },
+  {
+    id:"fr_b1_lexicography_dictionaries", level:"B1", title:"La lexicographie et les dictionnaires", emoji:"📖", xp:62,
+    description:"Aprende vocabulario de lexicografía y a usar “plutôt que” en francés.",
+    study: {
+      vocab: [
+        ["l'entrée de dictionnaire", "dictionary entry"],
+        ["la définition", "definition"],
+        ["l'étymologie", "etymology"],
+        ["le mot-vedette", "headword"],
+        ["le synonyme", "synonym"],
+        ["l'exemple d'usage", "usage example"],
+      ],
+      grammar: [
+        ["“Plutôt que” para preferencia", "“Plutôt que” + sustantivo/infinitivo expresa preferencia por una opción sobre otra.", "Elle a choisi une définition moderne plutôt que l'ancienne. / Plutôt que de deviner, consulte l'étymologie."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en francés?",["dictionary entry", "l'étymologie", "usage example", "definition"],1,"“Etymology” es “l'étymologie” en francés."],
+      ["mcq","¿Cómo se dice “headword” en francés?",["le mot-vedette", "usage example", "definition", "synonym"],0,"“Headword” es “le mot-vedette” en francés."],
+      ["fill","Completa: “___ deviner, consulte l'étymologie.”",["Mieux que", "Plus que", "Plutôt que de", "Au lieu"],2,"“Plutôt que de” + infinitivo introduce la alternativa evitada: “plutôt que de deviner”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Plutôt que de devinant, consulte l'étymologie.", "Plutôt que de deviner, consulte l'étymologie.", "Plutôt que de deviner, consultait l'étymologie.", "Plutôt deviner, consulte l'étymologie."],1,"“Rather than guessing” se traduce con “plutôt que de deviner”, infinitivo con “de”."],
+      ["arrange","Ordena: [utile / très / exemple / cet / est]",["cet exemple est très utile", "utile très est cet exemple", "utile exemple est cet très", "très est utile cet exemple"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 45-65 palabras, sobre el uso de diccionarios usando “plutôt que” al menos dos veces.",[],["plutôt que", "dictionnaire", "définition"]],
+    ]
+  },
+  {
+    id:"fr_b2_medical_radiology_imaging", level:"B2", title:"La radiologie médicale et l'imagerie diagnostique", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “au cas où” en francés.",
+    study: {
+      vocab: [
+        ["la radiographie", "X-ray"],
+        ["l'IRM", "MRI scan"],
+        ["le radiologue/la radiologue", "radiologist"],
+        ["le produit de contraste", "contrast dye"],
+        ["le diagnostic", "diagnosis"],
+        ["l'exposition aux radiations", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Au cas où” + conditionnel para precaución", "“Au cas où” + conditionnel expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Le radiologue a demandé une IRM au cas où la radiographie manquerait quelque chose. / Apporte tes anciens examens au cas où le médecin en aurait besoin."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en francés?",["l'IRM", "diagnosis", "MRI scan", "contrast dye"],0,"“MRI scan” es “l'IRM” en francés."],
+      ["mcq","¿Cómo se dice “contrast dye” en francés?",["contrast dye", "diagnosis", "le produit de contraste", "X-ray"],2,"“Contrast dye” es “le produit de contraste” en francés."],
+      ["fill","Completa: “Apporte tes anciens examens au cas où le médecin en ___ besoin.”",["a", "aura", "avait", "aurait"],3,"“Au cas où” requiere conditionnel: “au cas où... aurait besoin”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Le radiologue demande une IRM au cas où la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM si la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manque quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manquerait quelque chose."],3,"“In case” se traduce con “au cas où” + conditionnel, expresando precaución."],
+      ["arrange","Ordena: [clair / diagnostic / est / très / le]",["très diagnostic clair le est", "très diagnostic est le clair", "le diagnostic est très clair", "est diagnostic clair le très"],2,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, sobre un procedimiento de radiología usando “au cas où” al menos dos veces.",[],["au cas où", "radiographie", "diagnostic"]],
+    ]
+  },
+  {
+    id:"fr_c1_virology_pandemics", level:"C1", title:"La virologie et les pandémies", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “même si” en francés.",
+    study: {
+      vocab: [
+        ["la souche virale", "virus strain"],
+        ["l'épidémie", "outbreak"],
+        ["l'immunité collective", "herd immunity"],
+        ["l'efficacité du vaccin", "vaccine efficacy"],
+        ["le taux de transmission", "transmission rate"],
+        ["la mutation", "mutation"],
+      ],
+      grammar: [
+        ["“Même si” para concesión hipotética", "“Même si” + indicatif (a menudo imparfait para hipótesis) expresa que algo será cierto incluso en una situación hipotética o improbable.", "Même si l'efficacité du vaccin baissait, l'immunité collective pourrait aider. / Le virus se propagerait même si les taux de transmission baissaient légèrement."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en francés?",["vaccine efficacy", "l'épidémie", "virus strain", "transmission rate"],1,"“Outbreak” es “l'épidémie” en francés."],
+      ["mcq","¿Cómo se dice “herd immunity” en francés?",["l'immunité collective", "virus strain", "transmission rate", "vaccine efficacy"],0,"“Herd immunity” es “l'immunité collective” en francés."],
+      ["fill","Completa: “Même si l'efficacité du vaccin ___, l'immunité collective pourrait aider.”",["baisse", "a baissé", "baissait", "baissera"],2,"“Même si” con hipótesis suele usar imparfait: “même si... baissait”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Le virus se propagerait bien que les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission augmentaient légèrement.", "Le virus se propagerait même si les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission baissent légèrement."],2,"“Even if” con condición hipotética se traduce con “même si” + imparfait."],
+      ["arrange","Ordena: [inquiétante / très / mutation / cette / est]",["cette mutation est inquiétante très", "cette mutation est très inquiétante", "très inquiétante mutation cette est", "inquiétante très est mutation cette"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre virología usando “même si” al menos dos veces.",[],["même si", "épidémie", "immunité collective"]],
+    ]
+  },
+  {
+    id:"fr_c2_central_banking_monetary_policy", level:"C2", title:"La banque centrale et la politique monétaire", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “dans la mesure où” en francés.",
+    study: {
+      vocab: [
+        ["le taux d'intérêt", "interest rate"],
+        ["l'objectif d'inflation", "inflation target"],
+        ["l'assouplissement quantitatif", "quantitative easing"],
+        ["la politique monétaire", "monetary policy"],
+        ["la banque centrale", "central bank"],
+        ["la relance budgétaire", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“Dans la mesure où” para calificar", "“Dans la mesure où” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Dans la mesure où l'inflation reste stable, des baisses de taux sont possibles. / La politique fonctionne dans la mesure où les banques prêtent plus librement."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en francés?",["fiscal stimulus", "l'assouplissement quantitatif", "interest rate", "central bank"],1,"“Quantitative easing” es “l'assouplissement quantitatif” en francés."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en francés?",["interest rate", "inflation target", "central bank", "la relance budgétaire"],3,"“Fiscal stimulus” es “la relance budgétaire” en francés."],
+      ["fill","Completa: “Dans la mesure où l'inflation ___ stable, des baisses de taux sont possibles.”",["restait", "restera", "resterait", "reste"],3,"“Dans la mesure où” con presente indicativo: “dans la mesure où... reste”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La politique fonctionne dans la mesure où les banques prêtent moins librement.", "La politique fonctionne dans la mesure où les banques prêtent plus librement.", "La politique fonctionnait dans la mesure où les banques prêtent plus librement.", "La politique fonctionne dans la mesure que les banques prêtent plus librement."],1,"“To the extent that” se traduce con “dans la mesure où” en francés."],
+      ["arrange","Ordena: [élevé / très / est / taux / d'intérêt / le]",["très élevé d'intérêt est le taux", "le taux d'intérêt est très élevé", "est taux très élevé le d'intérêt", "taux très élevé d'intérêt est le"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre política monetaria usando “dans la mesure où” al menos una vez.",[],["dans la mesure où", "politique monétaire", "banque centrale"]],
+    ]
+  },
 ];
