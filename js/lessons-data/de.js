@@ -3943,4 +3943,154 @@ window.LESSON_BANKS.DE = [
       ["writing","Escribe en alemán, en 55-75 palabras, un análisis sobre geología usando “weit davon entfernt zu” al menos una vez.",[],["weit davon entfernt", "Mineralvorkommen", "Sedimentgestein"]],
     ]
   },
+  {
+    id:"de_a1_coffee_tasting_cafes", level:"A1", title:"Die Kaffeeverkostung und die Cafés", emoji:"☕", xp:38,
+    description:"Lerne Kaffee-Vokabular und benutze “ich hätte gern” auf Deutsch.",
+    study: {
+      vocab: [
+        ["die Kaffeebohne", "coffee bean"],
+        ["die Röstung", "roast"],
+        ["das Aroma", "aroma"],
+        ["der Barista", "barista"],
+        ["aufbrühen", "to brew"],
+        ["die Tasse", "cup"],
+      ],
+      grammar: [
+        ["“Ich hätte gern” para peticiones corteses", "“Ich hätte gern” (Konjunktiv II) es una forma cortés de pedir algo, más formal que “ich will”.", "Ich hätte gern eine Tasse Kaffee, bitte. / Sie möchte die dunkle Röstung probieren."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en alemán?",["barista", "to brew", "die Röstung", "aroma"],2,"“Roast” es “die Röstung” en alemán."],
+      ["mcq","¿Cómo se dice “barista” en alemán?",["barista", "aroma", "coffee bean", "der Barista"],3,"“Barista” es “der Barista” en alemán."],
+      ["fill","Completa: “Ich ___ gern eine Tasse Kaffee, bitte.”",["habe", "würde", "hätte", "hatte"],2,"“Ich hätte gern” es la forma cortés de pedir: “ich hätte gern”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Sie möchte die helle Röstung probieren.", "Sie will die dunkle Röstung probieren bitte.", "Sie möchte die dunkle Röstung probiert.", "Sie möchte die dunkle Röstung probieren."],3,"“Would like to try” se traduce con “möchte probieren”."],
+      ["arrange","Ordena: [stark / riecht / dieser / Kaffee]",["dieser kaffee riecht stark", "stark riecht kaffee dieser", "dieser stark riecht kaffee", "stark kaffee dieser riecht"],0,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en alemán, en 20-30 palabras, tu pedido ideal en una cafetería usando “ich hätte gern”.",[],["ich hätte gern", "Kaffee", "Barista"]],
+    ]
+  },
+  {
+    id:"de_a2_antique_furniture_restoration", level:"A2", title:"Die Restaurierung antiker Möbel", emoji:"🪑", xp:48,
+    description:"Lerne Möbelrestaurierungs-Vokabular und benutze “jemanden etwas machen lassen” auf Deutsch.",
+    study: {
+      vocab: [
+        ["das antike Möbelstück", "antique furniture"],
+        ["der Lack", "varnish"],
+        ["das Schleifpapier", "sandpaper"],
+        ["restaurieren", "to restore"],
+        ["die Holzmaserung", "wood grain"],
+        ["die Werkstatt", "workshop"],
+      ],
+      grammar: [
+        ["“Jemanden etwas machen lassen”", "“Lassen” + persona + infinitivo expresa permitir que alguien haga algo.", "Lass den Lack über Nacht trocknen. / Sie lässt ihren Assistenten das Möbelstück schleifen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en alemán?",["der Lack", "wood grain", "varnish", "sandpaper"],0,"“Varnish” es “der Lack” en alemán."],
+      ["mcq","¿Cómo se dice “sandpaper” en alemán?",["antique furniture", "das Schleifpapier", "workshop", "to restore"],1,"“Sandpaper” es “das Schleifpapier” en alemán."],
+      ["fill","Completa: “Sie lässt ihren Assistenten das Möbelstück ___.”",["geschliffen", "schleift", "schleifen", "zu schleifen"],2,"“Lassen” + persona + infinitivo sin “zu”: “lässt... schleifen”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Lass den Lack über Nacht getrocknet.", "Lass den Lack über Nacht zu trocknen.", "Lass den Lack über Nacht trocknen.", "Lässt den Lack über Nacht trocknen."],2,"“Let... dry” se traduce con “lass... trocknen”, infinitivo sin “zu”."],
+      ["arrange","Ordena: [sehr / ist / Möbelstück / alt / dieses]",["dieses möbelstück ist sehr alt", "alt dieses sehr möbelstück ist", "alt ist sehr dieses möbelstück", "alt ist dieses sehr möbelstück"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en alemán, en 40-60 palabras, un proyecto de restauración de muebles usando “lassen + persona + infinitivo”.",[],["lässt", "restaurieren", "Lack"]],
+    ]
+  },
+  {
+    id:"de_b1_lexicography_dictionaries", level:"B1", title:"Die Lexikografie und die Wörterbücher", emoji:"📖", xp:62,
+    description:"Lerne Lexikografie-Vokabular und benutze “anstatt” auf Deutsch.",
+    study: {
+      vocab: [
+        ["der Wörterbucheintrag", "dictionary entry"],
+        ["die Definition", "definition"],
+        ["die Etymologie", "etymology"],
+        ["das Stichwort", "headword"],
+        ["das Synonym", "synonym"],
+        ["das Anwendungsbeispiel", "usage example"],
+      ],
+      grammar: [
+        ["“Anstatt” + zu + infinitivo para preferencia", "“Anstatt... zu” + infinitivo expresa preferencia por una opción sobre otra.", "Sie wählte eine moderne Definition anstatt der alten. / Anstatt zu raten, schau die Etymologie nach."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en alemán?",["synonym", "headword", "dictionary entry", "die Etymologie"],3,"“Etymology” es “die Etymologie” en alemán."],
+      ["mcq","¿Cómo se dice “headword” en alemán?",["headword", "das Stichwort", "dictionary entry", "synonym"],1,"“Headword” es “das Stichwort” en alemán."],
+      ["fill","Completa: “Anstatt ___ raten, schau die Etymologie nach.”",["zum", "an", "um zu", "zu"],3,"“Anstatt... zu” + infinitivo introduce la alternativa evitada: “anstatt zu raten”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Anstatt raten, schau die Etymologie nach.", "Anstatt zu raten, schau die Etymologie nach.", "Statt dass raten, schau die Etymologie nach.", "Anstatt zu raten, schaute die Etymologie nach."],1,"“Rather than guessing” se traduce con “anstatt zu raten”, infinitivo con “zu”."],
+      ["arrange","Ordena: [nützlich / ist / dieses / sehr / Beispiel]",["dieses ist sehr nützlich beispiel", "dieses beispiel ist sehr nützlich", "dieses beispiel ist nützlich sehr", "nützlich ist beispiel dieses sehr"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en alemán, en 45-65 palabras, sobre el uso de diccionarios usando “anstatt... zu” al menos dos veces.",[],["anstatt zu", "Wörterbuch", "Definition"]],
+    ]
+  },
+  {
+    id:"de_b2_medical_radiology_imaging", level:"B2", title:"Die medizinische Radiologie und die Bildgebung", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “für den Fall, dass” en alemán.",
+    study: {
+      vocab: [
+        ["die Röntgenaufnahme", "X-ray"],
+        ["die MRT-Untersuchung", "MRI scan"],
+        ["der Radiologe/die Radiologin", "radiologist"],
+        ["das Kontrastmittel", "contrast dye"],
+        ["die Diagnose", "diagnosis"],
+        ["die Strahlenbelastung", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Für den Fall, dass” para precaución", "“Für den Fall, dass” + verbo al final expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah. / Bring deine früheren Aufnahmen mit, für den Fall, dass der Arzt sie braucht."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en alemán?",["contrast dye", "radiologist", "diagnosis", "die MRT-Untersuchung"],3,"“MRI scan” es “die MRT-Untersuchung” en alemán."],
+      ["mcq","¿Cómo se dice “contrast dye” en alemán?",["das Kontrastmittel", "contrast dye", "MRI scan", "radiologist"],0,"“Contrast dye” es “das Kontrastmittel” en alemán."],
+      ["fill","Completa: “Bring deine früheren Aufnahmen mit, für den Fall, dass der Arzt sie ___.”",["braucht", "brauche", "gebraucht", "brauchte"],0,"“Für den Fall, dass” + presente al final: “für den Fall, dass... braucht”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Der Radiologe ordnet eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, wenn die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersieht."],1,"“In case” se traduce con “für den Fall, dass”, expresando precaución."],
+      ["arrange","Ordena: [klar / Diagnose / sehr / ist / die]",["die diagnose ist sehr klar", "sehr klar die ist diagnose", "klar diagnose ist sehr die", "die sehr ist klar diagnose"],0,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, sobre un procedimiento de radiología usando “für den Fall, dass” al menos dos veces.",[],["für den Fall, dass", "Röntgenaufnahme", "Diagnose"]],
+    ]
+  },
+  {
+    id:"de_c1_virology_pandemics", level:"C1", title:"Die Virologie und die Pandemien", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “selbst wenn” en alemán.",
+    study: {
+      vocab: [
+        ["der Virusstamm", "virus strain"],
+        ["der Ausbruch", "outbreak"],
+        ["die Herdenimmunität", "herd immunity"],
+        ["die Impfstoffwirksamkeit", "vaccine efficacy"],
+        ["die Übertragungsrate", "transmission rate"],
+        ["die Mutation", "mutation"],
+      ],
+      grammar: [
+        ["“Selbst wenn” para concesión hipotética", "“Selbst wenn” + Konjunktiv II expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “obwohl” (hecho real).", "Selbst wenn die Impfstoffwirksamkeit sinken würde, könnte die Herdenimmunität helfen. / Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sänken."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en alemán?",["der Ausbruch", "outbreak", "virus strain", "herd immunity"],0,"“Outbreak” es “der Ausbruch” en alemán."],
+      ["mcq","¿Cómo se dice “herd immunity” en alemán?",["herd immunity", "outbreak", "die Herdenimmunität", "vaccine efficacy"],2,"“Herd immunity” es “die Herdenimmunität” en alemán."],
+      ["fill","Completa: “Selbst wenn die Wirksamkeit sinken ___, könnte die Herdenimmunität helfen.”",["würde", "würden", "wird", "wurde"],0,"“Selbst wenn” con hipótesis usa Konjunktiv II: “selbst wenn... würde”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sinken.", "Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sänken.", "Das Virus würde sich ausbreiten, obwohl die Übertragungsraten leicht sänken.", "Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht stiegen."],1,"“Even if” con condición hipotética se traduce con “selbst wenn” + Konjunktiv II."],
+      ["arrange","Ordena: [besorgniserregend / diese / ist / Mutation / sehr]",["ist sehr diese besorgniserregend mutation", "besorgniserregend diese ist mutation sehr", "besorgniserregend diese ist sehr mutation", "diese mutation ist sehr besorgniserregend"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un análisis sobre virología usando “selbst wenn” al menos dos veces.",[],["selbst wenn", "Ausbruch", "Herdenimmunität"]],
+    ]
+  },
+  {
+    id:"de_c2_central_banking_monetary_policy", level:"C2", title:"Die Zentralbank und die Geldpolitik", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “insofern als/insoweit” en alemán.",
+    study: {
+      vocab: [
+        ["der Zinssatz", "interest rate"],
+        ["das Inflationsziel", "inflation target"],
+        ["die quantitative Lockerung", "quantitative easing"],
+        ["die Geldpolitik", "monetary policy"],
+        ["die Zentralbank", "central bank"],
+        ["das Konjunkturprogramm", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“Insofern als/insoweit” para calificar", "“Insofern als” e “insoweit” expresan una limitación o condición parcial, típicas del registro académico/formal, equivalentes a “insofar as” en inglés.", "Insofern als die Inflation stabil bleibt, sind Zinssenkungen möglich. / Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en alemán?",["die quantitative Lockerung", "inflation target", "interest rate", "monetary policy"],0,"“Quantitative easing” es “die quantitative Lockerung” en alemán."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en alemán?",["das Konjunkturprogramm", "fiscal stimulus", "quantitative easing", "interest rate"],0,"“Fiscal stimulus” es “das Konjunkturprogramm” en alemán."],
+      ["fill","Completa: “___ die Inflation stabil bleibt, sind Zinssenkungen möglich.”",["So als", "Soweit dass", "Insofern als", "Insofern dass"],2,"“Insofern als” expresa una limitación condicional: “insofern als... bleibt”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["Die Politik funktioniert insofern dass Banken großzügiger Kredite vergeben.", "Die Politik funktionierte insoweit, als Banken großzügiger Kredite vergeben.", "Die Politik funktioniert insoweit, als Banken weniger großzügig Kredite vergeben.", "Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],3,"“To the extent that” se traduce con “insoweit, als” en alemán."],
+      ["arrange","Ordena: [sehr / Zinssatz / hoch / der / ist]",["zinssatz ist hoch der sehr", "der zinssatz ist sehr hoch", "sehr ist hoch der zinssatz", "der ist sehr hoch zinssatz"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en alemán, en 55-75 palabras, un análisis sobre política monetaria usando “insofern als” o “insoweit” al menos una vez.",[],["insofern als", "Geldpolitik", "Zentralbank"]],
+    ]
+  },
 ];
