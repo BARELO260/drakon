@@ -4093,4 +4093,368 @@ window.LESSON_BANKS.FR = [
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre política monetaria usando “dans la mesure où” al menos una vez.",[],["dans la mesure où", "politique monétaire", "banque centrale"]],
     ]
   },
+  {
+    id:"fr_a1_wh_questions", level:"A1", title:"Les mots interrogatifs : qui, quoi, où, quand, pourquoi", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en francés con las palabras interrogativas.",
+    study: {
+      vocab: [
+        ["Qui...?", "Who...?"],
+        ["Que.../Quoi?", "What...?"],
+        ["Où...?", "Where...?"],
+        ["Quand...?", "When...?"],
+        ["Pourquoi...?", "Why...?"],
+        ["Comment...?", "How...?"],
+      ],
+      grammar: [
+        ["Les questions avec « est-ce que »", "À l'oral, on forme facilement une question en gardant l'ordre sujet-verbe et en ajoutant le mot interrogatif, souvent avec « est-ce que ».", "Où est-ce que tu habites ? / Qu'est-ce que tu fais ? / Pourquoi est-ce que tu apprends le français ?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Où", "Quand", "Qui", "Que"],0,"“Où” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Qui", "Que", "Pourquoi", "Comment"],0,"“Qui” se usa para preguntar por personas."],
+      ["fill","Completa: “___ est-ce que tu habites ?”",["Qui", "Que", "Où", "Quand"],2,"Preguntamos por el lugar donde vive alguien con “Où”."],
+      ["translate","Traduce: “Why do you learn French?”",["Qui est-ce que tu apprends le français ?", "Pourquoi est-ce que tu apprends le français ?", "Que est-ce que tu apprends le français ?", "Où est-ce que tu apprends le français ?"],1,"“Why” se traduce como “Pourquoi”."],
+      ["arrange","Ordena: [tu / où / habites]",["habites où tu", "tu habites où", "où tu habites", "habites tu où"],1,"En francés hablado, se puede colocar la palabra interrogativa al final: “Tu habites où ?”"],
+      ["writing","Écris en français 20 à 30 mots avec au moins trois questions pour faire connaissance.",[],["Où", "Comment", "Quand"]],
+    ]
+  },
+  {
+    id:"fr_a1_possessives_family", level:"A1", title:"Les adjectifs possessifs et la famille", emoji:"👪", xp:35,
+    description:"Aprende los adjetivos posesivos en francés y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["mon/ma/mes", "my"],
+        ["ton/ta/tes", "your (informal)"],
+        ["son/sa/ses", "his / her / its"],
+        ["notre/nos", "our"],
+        ["leur/leurs", "their"],
+        ["la mère, le père, les parents", "mother, father, parents"],
+      ],
+      grammar: [
+        ["Los posesivos concuerdan con el sustantivo, no con el poseedor", "A diferencia del inglés, “son/sa/ses” concuerda con el género del sustantivo que sigue, no con el género de la persona que posee.", "Paul aime sa sœur. Marie aime aussi sa sœur. (“sa” siempre porque “sœur” es femenino)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his/her sister” en francés (sœur es femenino)?",["notre sœur", "son frère", "sa sœur", "leur sœur"],2,"“Sœur” es femenino → siempre “sa sœur”, sin importar el género del poseedor."],
+      ["mcq","¿Cómo se dice “our parents” en francés?",["leurs parents", "tes parents", "nos parents", "ses parents"],2,"“Our” es “notre/nos”, aquí “nos parents” (plural)."],
+      ["fill","Completa: “Elle parle avec ___ mère.”",["ses", "son", "leur", "sa"],3,"“Mère” es femenino singular → “sa”, sin importar que el sujeto sea “elle”."],
+      ["translate","Traduce: “These are their siblings.”",["C'est leur frère et sœur.", "Ce sont nos frères et sœurs.", "Ce sont ses frères et sœurs.", "Ce sont leurs frères et sœurs."],3,"“Their” (de ellos) es “leur/leurs”, aquí plural “leurs”."],
+      ["arrange","Ordena: [sœur / ma / voici]",["ma sœur voici", "sœur voici ma", "voici ma sœur", "ma voici sœur"],2,"“Voici” + posesivo + sustantivo."],
+      ["speaking","Décris en français, en 25-35 mots, trois membres de ta famille en utilisant des adjectifs possessifs.",[],["ma", "sa", "notre"]],
+    ]
+  },
+  {
+    id:"fr_a1_there_is_are_prepositions", level:"A1", title:"« Il y a » y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “il y a” y las preposiciones de lugar en francés.",
+    study: {
+      vocab: [
+        ["il y a", "there is / there are"],
+        ["dans, sur, sous", "in, on, under"],
+        ["à côté de, entre", "next to, between"],
+        ["devant, derrière", "in front of, behind"],
+        ["Est-ce qu'il y a...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“Il y a” es invariable", "A diferencia del inglés (there is/there are), en francés “il y a” no cambia con el número del sustantivo.", "Il y a une lampe sur la table. / Il y a deux chaises à côté du bureau."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en francés?",["à côté de", "sur", "derrière", "sous"],3,"“Under” es “sous”."],
+      ["mcq","¿Cómo se dice “between” en francés?",["derrière", "devant", "dans", "entre"],3,"“Between” es “entre”."],
+      ["fill","Completa: “Il y a deux livres ___ la table.”",["derrière", "sur", "dans", "entre"],1,"“Sur” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["Il y a des chats sous la table.", "Il y a un chat sous la table.", "Il y a un chat sur la table.", "Il y a un chat à côté de la table."],1,"“Under the table” es “sous la table”."],
+      ["arrange","Ordena: [chaise / côté / est / à / de / la / lampe / la]",["de la côté la à lampe est chaise", "la chaise est à côté de la lampe", "à chaise la est de lampe côté la", "à lampe chaise côté la de la est"],1,"Sujeto + verbo “être” + preposición + objeto."],
+      ["writing","Décris en français, en 25-35 mots, où se trouvent trois objets dans ta chambre en utilisant « il y a » et des prépositions de lieu.",[],["il y a", "à côté de", "sous"]],
+    ]
+  },
+  {
+    id:"fr_a1_plurals_articles", level:"A1", title:"El plural de los sustantivos y los artículos", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en francés y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["le livre / les livres", "the book / the books"],
+        ["le journal / les journaux", "the newspaper / the newspapers"],
+        ["le cheveu / les cheveux", "hair (strand) / hair"],
+        ["un, une", "a, an"],
+        ["le, la, les", "the"],
+        ["l'", "the (antes de vocal)"],
+      ],
+      grammar: [
+        ["Reglas del plural en francés", "Se añade “-s” (silenciosa) en la mayoría de los casos; los sustantivos terminados en “-al” suelen cambiar a “-aux”, y los terminados en “-eu” añaden “-x”.", "livre→livres, journal→journaux, cheveu→cheveux"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “journal”?",["journaux", "journales", "journals", "journaus"],0,"Los sustantivos en “-al” suelen cambiar a “-aux”: “journaux”."],
+      ["mcq","¿Cuál es el plural de “cheveu”?",["cheveus", "cheveux", "cheveu", "cheveuxs"],1,"Los sustantivos en “-eu” añaden “-x”: “cheveux”."],
+      ["fill","Completa: “J'ai besoin d'___ parapluie ; il pleut.”",["des", "le", "une", "un"],3,"“Parapluie” es masculino singular → “un”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Il y a trois boîtes dans les garages.", "Il y a trois boîte dans le garage.", "Il y a trois boîtes dans le garage.", "Il y a trois boîtx dans le garage."],2,"“Boîte” es regular → plural “boîtes”."],
+      ["arrange","Ordena: [sont / où / livres / les]",["où sont les livres", "sont où livres les", "où sont livres les", "les où sont livres"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural: “Où sont les livres ?”"],
+      ["writing","Écris en français 20 à 30 mots sur les objets qu'il y a dans ton sac, en utilisant au moins deux pluriels.",[],["livres", "boîtes", "il y a"]],
+    ]
+  },
+  {
+    id:"fr_a1_likes_dislikes", level:"A1", title:"Les goûts et les préférences", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en francés con el infinitivo.",
+    study: {
+      vocab: [
+        ["j'aime / j'adore", "I like / I love"],
+        ["je n'aime pas / je déteste", "I don't like / I hate"],
+        ["nager, lire, cuisiner", "swimming, reading, cooking"],
+        ["Est-ce que tu aimes...?", "Do you like...?"],
+        ["et toi ?", "What about you?"],
+      ],
+      grammar: [
+        ["Verbo + infinitivo tras “aimer/adorer/détester”", "A diferencia del inglés (que usa el gerundio -ing), en francés el verbo que sigue a “aimer”, “adorer” o “détester” va en infinitivo.", "J'adore lire. / Elle déteste attendre."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “I love” en francés?",["j'adore", "j'aime", "je déteste", "je n'aime pas"],0,"“I love” es “j'adore”."],
+      ["mcq","¿Cómo se dice “I hate” en francés?",["tu aimes", "j'aime", "je déteste", "j'adore"],2,"“I hate” es “je déteste”."],
+      ["fill","Completa: “Elle adore ___ le week-end.”",["cuisiner", "cuisinant", "cuisine", "cuisiné"],0,"Tras “adorer” el verbo va en infinitivo: “cuisiner”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Je n'aime pas nager dans l'eau froide.", "Je déteste nager l'eau froide.", "Je n'aime pas nageant dans l'eau froide.", "J'aime nager dans l'eau froide."],0,"“I don't like” + infinitivo: “je n'aime pas nager”."],
+      ["arrange","Ordena: [aime / elle / lire / des / livres]",["aime elle livres lire des", "elle aime lire des livres", "elle aime lire livres des", "des lire elle aime livres"],1,"Sujeto + verbo + infinitivo + objeto."],
+      ["speaking","Parle en français pendant 25-35 mots de trois activités que tu aimes et une que tu détestes, en utilisant l'infinitif.",[],["j'adore", "j'aime", "je déteste"]],
+    ]
+  },
+  {
+    id:"fr_a2_future_plans", level:"A2", title:"Le futur proche et le futur simple", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en francés usando el futur proche para planes y el futur simple para predicciones.",
+    study: {
+      vocab: [
+        ["je vais...", "I'm going to..."],
+        ["je + futur simple (-erai, -irai...)", "I will..."],
+        ["la semaine prochaine, l'année prochaine", "next week, next year"],
+        ["je pense qu'il pleuvra", "I think it will rain"],
+        ["qu'est-ce que tu vas faire ?", "What are you going to do?"],
+      ],
+      grammar: [
+        ["Futur proche vs futur simple", "El futur proche (“aller + infinitivo”) se usa para planes ya decididos; el futur simple para predicciones o promesas.", "Je vais rendre visite à mes parents la semaine prochaine. / Je pense qu'il pleuvra demain."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura usas para un plan ya decidido?",["je vais", "je pense", "je + futur simple", "tu aimes"],0,"Para planes ya decididos usamos el futur proche: “je vais”."],
+      ["mcq","¿Cómo se dice “next week” en francés?",["la semaine dernière", "l'année prochaine", "la semaine prochaine", "cette semaine"],2,"“Next week” es “la semaine prochaine”."],
+      ["fill","Completa: “Regarde ces nuages ! Il ___ pleuvoir.”",["était", "pleuvra", "va", "a"],2,"Con evidencia presente (nubes) usamos el futur proche: “va pleuvoir”."],
+      ["translate","Traduce: “I think we will win the game.”",["Je pense que nous gagnerions le match.", "Je pense que nous gagnerons le match.", "Je pense que nous allons gagné le match.", "Je pense que nous gagnons le match."],1,"Predicción sin evidencia clara → futur simple: “gagnerons”."],
+      ["arrange","Ordena: [rendre / vais / je / grands-parents / visite / à / mes]",["mes vais visite à je rendre grands-parents", "mes rendre grands-parents visite vais à je", "à rendre mes je visite grands-parents vais", "je vais rendre visite à mes grands-parents"],3,"Sujeto + “aller” + infinitivo + objeto."],
+      ["writing","Écris en français 30-40 mots sur tes projets pour le mois prochain, en utilisant le futur proche et une prédiction au futur simple.",[],["je vais", "futur", "prochain"]],
+    ]
+  },
+  {
+    id:"fr_a2_comparatives_superlatives", level:"A2", title:"Les comparatifs et les superlatifs", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en francés usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["plus grand que, plus petit que", "bigger than, smaller than"],
+        ["plus cher que", "more expensive than"],
+        ["le/la meilleur(e), le/la pire", "the best, the worst"],
+        ["aussi...que", "as...as"],
+        ["le/la plus intéressant(e)", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativos y superlativos regulares e irregulares", "“Plus/moins + adjetivo + que” forma el comparativo, y “le/la plus/moins + adjetivo” el superlativo. Irregular: bon→meilleur, mauvais→pire.", "Cette voiture est plus rapide que celle-là, mais la rouge est la plus rapide."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “bon”?",["le meilleur", "plus bon", "meilleur", "bonnier"],2,"“Bon” es irregular: meilleur, le meilleur."],
+      ["mcq","¿Cómo se dice “as expensive as” en francés?",["moins cher", "plus cher que", "aussi cher que", "le plus cher"],2,"“As...as” es “aussi...que”."],
+      ["fill","Completa: “Ce téléphone est ___ que le mien, mais ce n'est pas le meilleur.”",["meilleur", "bonnier", "le meilleur", "plus bon"],0,"Comparativo irregular de “bon” es “meilleur”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["C'est l'hôtel le moins cher de la ville.", "C'est le moins cher hôtel de la ville.", "C'est l'hôtel plus cher de la ville.", "C'est l'hôtel aussi cher de la ville."],0,"Superlativo: “le/la plus/moins + adjetivo”."],
+      ["arrange","Ordena: [que / grand / frère / mon / est / moi]",["frère est moi mon grand que", "mon frère est grand que moi", "que est moi grand mon frère", "moi frère est mon grand que"],1,"Sujeto + verbo + comparativo + “que” + objeto (versión simplificada, sin “plus”)."],
+      ["speaking","Compare en français, en 30-40 mots, deux villes ou lieux que tu connais en utilisant des comparatifs et un superlatif.",[],["plus", "le meilleur", "que"]],
+    ]
+  },
+  {
+    id:"fr_a2_advice_modals", level:"A2", title:"Les conseils et l'obligation : devrais, dois, il faut", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en francés.",
+    study: {
+      vocab: [
+        ["tu devrais...", "you should..."],
+        ["tu ne devrais pas...", "you shouldn't..."],
+        ["je dois / il faut que je", "I must / I have to"],
+        ["tu n'es pas obligé de", "you don't have to"],
+        ["c'est une bonne idée de...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Devrais” (consejo) vs “dois/il faut” (obligación)", "“Devrais” (condicional de “devoir”) da un consejo suave; “dois/il faut” expresan obligación; “ne pas être obligé de” indica que algo no es necesario (no prohibido).", "Tu devrais boire plus d'eau. / Tu dois porter ta ceinture de sécurité."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["tu n'es pas obligé de", "tu dois", "il faut que tu", "tu devrais"],3,"“Tu devrais” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en francés?",["tu dois", "tu n'es pas obligé de", "il faut que tu", "tu ne devrais pas"],1,"“You don't have to” es “tu n'es pas obligé de”."],
+      ["fill","Completa: “Tu ne ___ pas fumer ici ; c'est interdit.”",["es obligé de", "devrais", "dois", "as"],2,"“Tu ne dois pas” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Il faut que tu dormes plus.", "Tu dois dormir plus.", "Tu devrais dormir plus.", "Tu n'es pas obligé de dormir plus."],2,"Consejo suave → “devrais”."],
+      ["arrange","Ordena: [ceinture / porter / dois / une / tu]",["tu ceinture porter une dois", "tu dois porter une ceinture", "tu une dois ceinture porter", "ceinture tu une porter dois"],1,"Sujeto + “devoir” + infinitivo + objeto."],
+      ["writing","Écris en français 30-40 mots en donnant trois conseils à un ami qui va voyager pour la première fois.",[],["tu devrais", "tu dois", "tu n'es pas obligé de"]],
+    ]
+  },
+  {
+    id:"fr_a2_phone_calls", level:"A2", title:"Les appels téléphoniques", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en francés.",
+    study: {
+      vocab: [
+        ["Allô, c'est...", "Hello, this is..."],
+        ["Est-ce que je peux parler à...?", "Can I speak to...?"],
+        ["Je peux prendre un message ?", "Can I take a message?"],
+        ["Ne quittez pas, s'il vous plaît.", "Hold on, please."],
+        ["Tu peux rappeler plus tard ?", "Can you call back later?"],
+        ["Je te rappelle.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En francés se responde al teléfono con “Allô” y uno se identifica con “c'est...”; “ne quittez pas” es la fórmula educada para pedir que esperen.", "Allô, c'est Laura. Est-ce que je peux parler à Monsieur Dupont, s'il vous plaît ?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en francés?",["Ne quittez pas, s'il vous plaît.", "Est-ce que je peux parler à...?", "Je te rappelle.", "Je peux prendre un message ?"],3,"“Can I take a message?” es “Je peux prendre un message ?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en francés?",["C'est Laura.", "Je peux parler à...?", "Rappelle plus tard.", "Ne quittez pas, s'il vous plaît."],3,"“Hold on, please” es “Ne quittez pas, s'il vous plaît”."],
+      ["fill","Completa: “Allô, ___ Marc. Anna est là ?”",["je suis", "c'était", "c'est", "je suis ici"],2,"Al identificarse por teléfono se dice “c'est Marc”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Est-ce que je peux prendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux attendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux parler à Monsieur García, s'il vous plaît ?", "Est-ce que je peux appeler Monsieur García, s'il vous plaît ?"],2,"“Can I speak to...?” es “Est-ce que je peux parler à...?”."],
+      ["arrange","Ordena: [rappelle / je / te]",["je te rappelle", "rappelle je te", "te rappelle je", "rappelle te je"],0,"Sujeto + objeto + verbo (posición del pronombre en francés)."],
+      ["speaking","Simule en français, en 30-40 mots, un appel téléphonique où tu demandes à parler à quelqu'un et laisses un message.",[],["je peux parler à", "je peux prendre un message", "c'est"]],
+    ]
+  },
+  {
+    id:"fr_a2_quantifiers_countable", level:"A2", title:"Les quantités : du, de la, des, beaucoup de, combien de", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en francés con los artículos partitivos y “combien de”.",
+    study: {
+      vocab: [
+        ["du, de la, des", "some (partitive)"],
+        ["Combien de...?", "How much/many...?"],
+        ["beaucoup de", "a lot of"],
+        ["un peu de", "a little"],
+        ["quelques", "a few"],
+      ],
+      grammar: [
+        ["Los artículos partitivos y “combien de”", "El francés usa “du/de la/des” para cantidades indefinidas, y “combien de” sirve tanto para contables como incontables (a diferencia del inglés much/many). En negativa, el partitivo se reduce a “de”.", "Combien de pommes as-tu ? / Combien d'eau y a-t-il ? / Je n'ai pas de temps."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué artículo usas delante de “eau” (incontable, femenino) para una cantidad indefinida?",["quelques", "des", "du", "de la"],3,"“Eau” es incontable femenino → “de la eau” (“de l'eau” con elisión)."],
+      ["mcq","¿Qué palabra usas para preguntar por una cantidad, contable o no?",["Beaucoup de", "Combien de", "Un peu de", "Quelques"],1,"“Combien de” sirve para ambos tipos de sustantivo."],
+      ["fill","Completa: “Je n'ai pas ___ temps.”",["du", "de la", "de", "des"],2,"En negativas, el partitivo se reduce a “de”: “je n'ai pas de temps”."],
+      ["translate","Traduce: “How many books do you have?”",["Combien des livres as-tu ?", "Combien du livre as-tu ?", "Combien de livre as-tu ?", "Combien de livres as-tu ?"],3,"“Combien de” + sustantivo plural: “combien de livres”."],
+      ["arrange","Ordena: [lait / a / de / y / beaucoup / il]",["il lait beaucoup de a y", "lait y a beaucoup de il", "il y a beaucoup de lait", "beaucoup lait de a y il"],2,"“Il y a” + “beaucoup de” + sustantivo."],
+      ["writing","Décris en français, en 25-35 mots, ce qu'il y a dans ton réfrigérateur en utilisant « du/de la/des », « beaucoup de » et « quelques ».",[],["beaucoup de", "un peu de", "quelques"]],
+    ]
+  },
+  {
+    id:"fr_b1_past_continuous_narrative", level:"B1", title:"L'imparfait et le passé composé pour raconter une interruption", emoji:"🌙", xp:60,
+    description:"Aprende a combinar el imperfecto y el passé composé para narrar historias con interrupciones.",
+    study: {
+      vocab: [
+        ["je marchais / ils parlaient", "I was walking / they were talking"],
+        ["pendant que, quand", "while, when"],
+        ["soudain", "suddenly"],
+        ["le téléphone a sonné", "the phone rang"],
+        ["au milieu de...", "in the middle of..."],
+      ],
+      grammar: [
+        ["Imparfait (fondo) + passé composé (interrupción)", "Se usa el imperfecto para la acción de fondo (en curso), y el passé composé para la acción que la interrumpe, normalmente con “quand” o “pendant que”.", "Je préparais le dîner quand le téléphone a sonné. / Pendant qu'elle étudiait, son ami est arrivé."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo usamos para la acción de fondo que se interrumpe?",["ai préparé", "préparerai", "préparais", "préparer"],2,"La acción de fondo va en imperfecto: “préparais”."],
+      ["mcq","¿Cómo se dice “suddenly” en francés?",["pendant que", "au milieu de", "quand", "soudain"],3,"“Suddenly” es “soudain”."],
+      ["fill","Completa: “Je ___ le dîner quand le téléphone a sonné.”",["ai préparé", "préparer", "préparerai", "préparais"],3,"Acción de fondo interrumpida = imperfecto: “préparais”."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Pendant qu'elle étudie, son ami est arrivé.", "Pendant qu'elle a étudié, son ami arrivait.", "Pendant qu'elle étudiait, son ami est arrivé.", "Pendant qu'elle étudiait, son ami arrivait."],2,"Fondo en imperfecto, interrupción en passé composé: “étudiait... est arrivé”."],
+      ["arrange","Ordena: [sonné / préparais / dîner / je / le / téléphone / quand / a / le]",["le préparais téléphone quand le dîner a sonné je", "je préparais le dîner téléphone le a sonné quand", "a je dîner le préparais sonné quand téléphone le", "je préparais le dîner quand le téléphone a sonné"],3,"Imperfecto + objeto + “quand” + passé composé."],
+      ["writing","Écris en français 40-55 mots pour raconter une histoire courte où quelque chose t'a interrompu pendant que tu faisais autre chose, en utilisant l'imparfait et le passé composé.",[],["pendant que", "quand", "soudain"]],
+    ]
+  },
+  {
+    id:"fr_b1_second_conditional", level:"B1", title:"Le conditionnel présent pour les situations hypothétiques", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en francés.",
+    study: {
+      vocab: [
+        ["si j'avais...", "if I had..."],
+        ["je -ais / je ne -ais pas", "I would / I wouldn't"],
+        ["si j'étais toi...", "if I were you..."],
+        ["qu'est-ce que tu ferais si...?", "What would you do if...?"],
+        ["situation imaginaire", "imaginary situation"],
+      ],
+      grammar: [
+        ["Si + imparfait, conditionnel présent", "Para hablar de situaciones hipotéticas poco probables, se usa “si” + imperfecto, seguido del condicional presente.", "Si j'avais plus de temps, je voyagerais plus. / Si j'étais toi, j'accepterais l'offre."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “si j'étais toi, je...”?",["accepte", "ai accepté", "accepterai", "accepterais"],3,"Tras la cláusula con “si” va el condicional presente: “accepterais”."],
+      ["mcq","¿Cómo se dice “imaginary situation” en francés?",["situation réelle", "projet futur", "situation imaginaire", "expérience passée"],2,"“Imaginary situation” es “situation imaginaire”."],
+      ["fill","Completa: “Si j'___ plus d'argent, je voyagerais autour du monde.”",["aurai", "avais", "ai", "eus"],1,"Tras “si” en oraciones hipotéticas usamos el imperfecto: “avais”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Si j'étais toi, j'accepterais le travail.", "Si je suis toi, j'accepterais le travail.", "Si j'étais toi, j'ai accepté le travail.", "Si j'étais toi, j'accepte le travail."],0,"“Si j'étais toi” es la forma estándar para un consejo hipotético."],
+      ["arrange","Ordena: [temps / plus / si / j'avais / de / voyagerais / je]",["plus je si j'avais temps de voyagerais", "si j'avais plus de temps je voyagerais", "voyagerais de j'avais si je plus temps", "de temps plus voyagerais je si j'avais"],1,"“Si” + imperfecto + condicional presente."],
+      ["speaking","Parle en français, pendant 40-55 mots, de ce que tu ferais si tu gagnais à la loterie, en utilisant le conditionnel.",[],["si j'avais", "je serais", "imaginaire"]],
+    ]
+  },
+  {
+    id:"fr_b1_modals_deduction", level:"B1", title:"Exprimer la certitude, la possibilité et le doute", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en francés.",
+    study: {
+      vocab: [
+        ["ça doit être", "must be (certeza alta)"],
+        ["il se peut que", "might/may be (posibilidad)"],
+        ["ça ne peut pas être", "can't be (certeza negativa)"],
+        ["ça pourrait être", "could be (posibilidad)"],
+        ["je suis sûr(e) / je ne suis pas sûr(e)", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza en francés", "“Devoir” en presente expresa una deducción fuerte (“ça doit être”); “il se peut que” (+ subjuntivo) y “pourrait” expresan posibilidad, no certeza; “ça ne peut pas être” expresa certeza negativa.", "Les lumières sont éteintes, donc ils doivent dormir. / Il se peut qu'il soit au travail, je ne suis pas sûr."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["il se peut que", "ça pourrait être", "ça ne peut pas être", "ça doit être"],2,"“Ça ne peut pas être” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["ça doit être", "je suis sûr", "il se peut que", "ça ne peut pas être"],2,"“Il se peut que” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “Les lumières sont éteintes, donc ils ___ dormir.”",["ne peuvent pas", "doivent", "peuvent", "pourraient"],1,"Evidencia fuerte (luces apagadas) → “doivent” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["Ça doit être si tard.", "Ça pourrait être si tard.", "Ça ne peut pas être si tard.", "Il se peut que ce soit si tard."],2,"Certeza negativa fuerte → “ça ne peut pas être”."],
+      ["arrange","Ordena: [travail / au / être / pourrait / il]",["travail être pourrait il au", "il pourrait être au travail", "pourrait il travail être au", "être pourrait au travail il"],1,"Sujeto + “pourrait être” + complemento."],
+      ["writing","Écris en français 35-45 mots en faisant des déductions sur une situation (par exemple, pourquoi quelqu'un ne répond pas au téléphone).",[],["ça doit être", "il se peut que", "ça ne peut pas être"]],
+    ]
+  },
+  {
+    id:"fr_b1_reported_speech_basics", level:"B1", title:"Le discours indirect de base", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en francés lo que alguien dijo usando el discurso indirecto básico.",
+    study: {
+      vocab: [
+        ["il a dit que...", "he said (that)..."],
+        ["elle m'a dit que...", "she told me (that)..."],
+        ["elle a dit qu'elle était fatiguée", "she said she was tired"],
+        ["il a dit qu'il appellerait", "he said he would call"],
+        ["changement de temps verbal", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a imperfecto y el futuro a condicional.", "Directo: « Je suis fatiguée. » → Indirecto: Elle a dit qu'elle était fatiguée. / Directo: « Je t'appellerai. » → Indirecto: Il a dit qu'il appellerait."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en francés?",["elle me dit que", "elle m'a dit que", "elle dit que", "elle dira que"],1,"“She told me” es “elle m'a dit”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“j'appellerai”) en discurso indirecto?",["appellerait", "appelle", "appellera", "appelait"],0,"El futuro se convierte en condicional en discurso indirecto: “appellerait”."],
+      ["fill","Completa: “Elle a dit qu'elle ___ fatiguée.”",["soit", "a été", "était", "est"],2,"El presente (“je suis”) pasa a imperfecto (“était”) en discurso indirecto."],
+      ["translate","Traduce: “He said he would call later.”",["Il a dit qu'il appellera plus tard.", "Il a dit qu'il appelle plus tard.", "Il a dit qu'il a appelé plus tard.", "Il a dit qu'il appellerait plus tard."],3,"El futuro pasa a condicional en discurso indirecto: “appellerait”."],
+      ["arrange","Ordena: [fatiguée / dit / était / elle / a / qu'elle]",["fatiguée dit qu'elle était a elle", "dit était qu'elle fatiguée a elle", "était a fatiguée dit qu'elle elle", "elle a dit qu'elle était fatiguée"],3,"Sujeto + “a dit que” + sujeto + verbo en imperfecto."],
+      ["writing","Écris en français 35-45 mots pour rapporter au discours indirect trois choses que quelqu'un t'a dites récemment.",[],["a dit que", "m'a dit", "appellerait"]],
+    ]
+  },
+  {
+    id:"fr_b1_sequencing_process", level:"B1", title:"Décrire un processus : les connecteurs de séquence", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en francés usando conectores de orden.",
+    study: {
+      vocab: [
+        ["d'abord...", "first..."],
+        ["ensuite / puis...", "then / next..."],
+        ["après cela...", "after that..."],
+        ["enfin...", "finally..."],
+        ["une fois que tu as..., ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "D'abord, tu remplis le formulaire. Ensuite, tu l'envoies en ligne. Enfin, tu attends un e-mail de confirmation."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["après cela", "enfin", "d'abord", "ensuite"],1,"“Enfin” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["ensuite", "après cela", "d'abord", "enfin"],2,"“D'abord” indica el primer paso."],
+      ["fill","Completa: “___ que tu as rempli le formulaire, envoie-le en ligne.”",["Une fois", "D'abord", "Enfin", "Ensuite"],0,"“Une fois que” introduce una condición temporal."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["D'abord, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "Ensuite, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes.", "Enfin, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "D'abord, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes."],0,"“First...then” es “d'abord...ensuite”."],
+      ["arrange","Ordena: [cela / envoie / formulaire / après / le]",["après cela envoie formulaire le", "envoie après cela le formulaire", "après cela envoie le formulaire", "après le envoie cela formulaire"],2,"Conector de secuencia + verbo + artículo + objeto."],
+      ["speaking","Explique en français, en 40-55 mots, les étapes pour faire quelque chose que tu sais faire (une recette, une démarche, etc.) en utilisant au moins trois connecteurs de séquence.",[],["d'abord", "ensuite", "enfin"]],
+    ]
+  },
 ];

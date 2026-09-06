@@ -4093,4 +4093,368 @@ window.LESSON_BANKS.IT = [
       ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre política monetaria usando “nella misura in cui” al menos una vez.",[],["nella misura in cui", "politica monetaria", "banca centrale"]],
     ]
   },
+  {
+    id:"it_a1_wh_questions", level:"A1", title:"Le parole interrogative: cosa, chi, dove, quando, perché", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en italiano con las palabras interrogativas.",
+    study: {
+      vocab: [
+        ["Cosa...?", "What...?"],
+        ["Chi...?", "Who...?"],
+        ["Dove...?", "Where...?"],
+        ["Quando...?", "When...?"],
+        ["Perché...?", "Why...?"],
+        ["Come...?", "How...?"],
+      ],
+      grammar: [
+        ["Ordine delle domande in italiano", "In italiano non serve un ausiliare come in inglese; basta la parola interrogativa + verbo (+ soggetto, spesso omesso).", "Dove abiti? / Come ti chiami? / Quando inizia il corso?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Chi", "Dove", "Cosa", "Quando"],1,"“Dove” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Come", "Perché", "Cosa", "Chi"],3,"“Chi” se usa para preguntar por personas."],
+      ["fill","Completa: “___ abiti?”",["Dove", "Chi", "Perché", "Cosa"],0,"Preguntamos por el lugar donde vive alguien con “Dove”."],
+      ["translate","Traduce: “Why do you study Italian?”",["Cosa studi l'italiano?", "Dove studi l'italiano?", "Chi studi l'italiano?", "Perché studi l'italiano?"],3,"“Why” se traduce como “Perché”."],
+      ["arrange","Ordena: [abiti / tu / dove]",["abiti tu dove", "dove abiti tu", "dove tu abiti", "tu abiti dove"],1,"Palabra interrogativa + verbo + sujeto."],
+      ["writing","Scrivi in italiano 20-30 parole con almeno tre domande per conoscere qualcuno di nuovo.",[],["Dove", "Come", "Quando"]],
+    ]
+  },
+  {
+    id:"it_a1_possessives_family", level:"A1", title:"Gli aggettivi possessivi e la famiglia", emoji:"👪", xp:35,
+    description:"Aprende los posesivos en italiano y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["il mio / la mia", "my"],
+        ["il tuo / la tua", "your (informal)"],
+        ["il suo / la sua", "his / her"],
+        ["il nostro / la nostra", "our"],
+        ["il loro / la loro", "their"],
+        ["la madre, il padre, i genitori", "mother, father, parents"],
+      ],
+      grammar: [
+        ["Sin artículo con nombres de familia en singular", "Con los nombres de familia en singular (madre, padre, fratello, sorella...), el posesivo se usa SIN artículo: “mia sorella”, no “la mia sorella”.", "Questa è mia sorella. / Questi sono i nostri genitori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his sister” en italiano?",["sua sorella", "loro sorella", "suo fratello", "nostra sorella"],0,"“His/her sister” es “sua sorella”, sin artículo."],
+      ["mcq","¿Cómo se dice “our parents” en italiano?",["i miei genitori", "i nostri genitori", "i loro genitori", "i tuoi genitori"],1,"“Our” es “il nostro/la nostra”, aquí plural “i nostri genitori”."],
+      ["fill","Completa: “Lei parla con ___ madre.”",["nostra", "tua", "mia", "sua"],3,"“Madre” singular de familia → sin artículo, “sua madre”."],
+      ["translate","Traduce: “These are their siblings.”",["Questo è il loro fratello.", "Questi sono i nostri fratelli.", "Questi sono i loro fratelli.", "Questi sono i suoi fratelli."],2,"“Their” (de ellos) es “il loro/la loro”, aquí plural “i loro fratelli”."],
+      ["arrange","Ordena: [sorella / è / mia / questa]",["questa mia sorella è", "sorella questa è mia", "sorella questa mia è", "questa è mia sorella"],3,"Sujeto + verbo “essere” + posesivo (sin artículo) + sustantivo."],
+      ["speaking","Descrivi in italiano, in 25-35 parole, tre membri della tua famiglia usando gli aggettivi possessivi.",[],["mia", "sua", "nostra"]],
+    ]
+  },
+  {
+    id:"it_a1_there_is_are_prepositions", level:"A1", title:"«C'è / Ci sono» y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “c'è/ci sono” y las preposiciones de lugar en italiano.",
+    study: {
+      vocab: [
+        ["c'è / ci sono", "there is / there are"],
+        ["dentro, sopra, sotto", "in, on, under"],
+        ["accanto a, tra/fra", "next to, between"],
+        ["davanti a, dietro", "in front of, behind"],
+        ["C'è...? / Ci sono...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“C'è” vs “Ci sono”", "A diferencia del inglés, en italiano “c'è” (singular) y “ci sono” (plural) sí cambian según el número del sustantivo.", "C'è una lampada sul tavolo. / Ci sono due sedie accanto alla scrivania."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en italiano?",["sotto", "sopra", "dietro", "accanto a"],0,"“Under” es “sotto”."],
+      ["mcq","¿Cómo se dice “between” en italiano?",["davanti a", "dietro", "dentro", "tra/fra"],3,"“Between” es “tra/fra”."],
+      ["fill","Completa: “Ci sono due libri ___ il tavolo.”",["dietro", "tra", "sopra", "dentro"],2,"“Sopra” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["C'è un gatto accanto al tavolo.", "C'è un gatto sotto il tavolo.", "C'è un gatto sopra il tavolo.", "Ci sono gatti sotto il tavolo."],1,"“Under the table” es “sotto il tavolo”."],
+      ["arrange","Ordena: [sedia / accanto / è / alla / la / lampada]",["lampada la accanto è sedia alla", "la sedia è accanto alla lampada", "alla è accanto la lampada sedia", "sedia la è accanto alla lampada"],1,"Sujeto + verbo “essere” + preposición + objeto."],
+      ["writing","Descrivi in italiano, in 25-35 parole, dove si trovano tre oggetti nella tua stanza usando «c'è/ci sono» e le preposizioni di luogo.",[],["c'è", "ci sono", "accanto a"]],
+    ]
+  },
+  {
+    id:"it_a1_plurals_articles", level:"A1", title:"Il plurale dei sostantivi e gli articoli", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en italiano y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["il libro / i libri", "the book / the books"],
+        ["la casa / le case", "the house / the houses"],
+        ["l'amico / gli amici", "the friend / the friends"],
+        ["lo studente / gli studenti", "the student / the students"],
+        ["un, uno, una", "a, an"],
+        ["il, lo, la, i, gli, le", "the"],
+      ],
+      grammar: [
+        ["Reglas del plural en italiano", "El plural cambia la vocal final: “-o”→“-i”, “-a” (femenino)→“-e”, “-e”→“-i” (ambos géneros).", "libro→libri, casa→case, amico→amici, studente→studenti"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “casa”?",["casi", "casas", "case", "caso"],2,"Femenino en “-a” → plural en “-e”: “case”."],
+      ["mcq","¿Cuál es el plural de “studente”?",["studenti", "studentesi", "studentas", "studente"],0,"Terminado en “-e” → plural en “-i”: “studenti”."],
+      ["fill","Completa: “Ho bisogno di ___ ombrello; sta piovendo.”",["un", "il", "uno", "una"],0,"“Ombrello” es masculino y empieza por vocal/consonante simple → “un”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Ci sono tre scatole nel garage.", "C'è tre scatole nel garage.", "Ci sono tre scatola nel garage.", "Ci sono tre scatoli nel garage."],0,"“Scatola” es femenino → plural “scatole”, con “ci sono”."],
+      ["arrange","Ordena: [sono / dove / i / libri]",["dove sono i libri", "sono libri dove i", "sono i libri dove", "libri dove sono i"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural."],
+      ["writing","Scrivi in italiano 20-30 parole sugli oggetti nel tuo zaino, usando almeno due plurali.",[],["libri", "scatole", "ci sono"]],
+    ]
+  },
+  {
+    id:"it_a1_likes_dislikes", level:"A1", title:"I gusti e le preferenze", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en italiano con el verbo “piacere”.",
+    study: {
+      vocab: [
+        ["mi piace / mi piacciono", "I like (sing./plur.)"],
+        ["adoro", "I love"],
+        ["non mi piace / odio", "I don't like / I hate"],
+        ["nuotare, leggere, cucinare", "swimming, reading, cooking"],
+        ["Ti piace...?", "Do you like...?"],
+      ],
+      grammar: [
+        ["El verbo “piacere” funciona al revés", "Como en español, con “piacere” lo que se disfruta es el sujeto gramatical. Con infinitivos siempre se usa la forma singular “piace”.", "Mi piace nuotare. / Mi piacciono i libri d'avventura."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “I love” (para actividades) en italiano?",["odio", "adoro", "non mi piace", "mi piace"],1,"“I love” es “adoro”."],
+      ["mcq","¿Cómo se dice “I hate” en italiano?",["mi piace", "ti piace", "adoro", "odio"],3,"“I hate” es “odio”."],
+      ["fill","Completa: “A lei piace ___ nei fine settimana.”",["cucinare", "cucino", "cucinando", "cucina"],0,"Tras “piacere” el verbo va en infinitivo: “cucinare”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Mi piace nuotare in acqua fredda.", "Odio nuotare acqua fredda.", "Non mi piace nuotando in acqua fredda.", "Non mi piace nuotare in acqua fredda."],3,"“I don't like” + infinitivo: “non mi piace nuotare”."],
+      ["arrange","Ordena: [piace / le / leggere / libri]",["le piace leggere libri", "le leggere libri piace", "leggere le piace libri", "libri le piace leggere"],0,"Objeto indirecto + “piacere” + infinitivo + objeto."],
+      ["speaking","Parla in italiano per 25-35 parole di tre attività che ti piacciono e una che odi.",[],["mi piace", "adoro", "odio"]],
+    ]
+  },
+  {
+    id:"it_a2_future_plans", level:"A2", title:"Il futuro: piani e previsioni", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en italiano usando el presente para planes y el futuro simple para predicciones.",
+    study: {
+      vocab: [
+        ["sto per...", "I'm about to..."],
+        ["presente + espressione di tempo", "present tense + time expression (for plans)"],
+        ["futuro semplice (-erò, -irò...)", "future tense"],
+        ["penso che pioverà", "I think it will rain"],
+        ["cosa farai domani?", "what will you do tomorrow?"],
+      ],
+      grammar: [
+        ["Presente para planes vs futuro simple para predicciones", "El italiano usa a menudo el presente + expresión de tiempo para planes ya decididos; el futuro simple se reserva más para predicciones o incertidumbre.", "Visito i miei genitori la prossima settimana. / Penso che domani pioverà."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa a menudo para un plan ya decidido?",["ti piace", "presente + espressione di tempo", "futuro semplice", "penso che"],1,"Para planes ya decididos se usa el presente + expresión de tiempo."],
+      ["mcq","¿Cómo se dice “next week” en italiano?",["questa settimana", "la prossima settimana", "il prossimo anno", "la settimana scorsa"],1,"“Next week” es “la prossima settimana”."],
+      ["fill","Completa: “Guarda quelle nuvole! ___ piovere.”",["Sta per", "Era", "Ha", "Pioverà"],0,"“Stare per + infinitivo” indica algo inminente: “sta per piovere”."],
+      ["translate","Traduce: “I think we will win the game.”",["Penso che vinciamo la partita vinto.", "Penso che vinceremo la partita.", "Penso che vinceremmo la partita.", "Penso che vinciamo la partita."],1,"Predicción sin evidencia clara → futuro simple: “vinceremo”."],
+      ["arrange","Ordena: [visito / prossima / settimana / nonni / miei / la / i]",["visito i miei nonni la prossima settimana", "miei settimana prossima i visito nonni la", "i la miei prossima settimana visito nonni", "prossima visito i settimana la nonni miei"],0,"Sujeto + verbo en presente + objeto + expresión de tiempo."],
+      ["writing","Scrivi in italiano 30-40 parole sui tuoi piani per il prossimo mese, usando il presente per i piani e una previsione al futuro.",[],["prossima", "futuro", "penso che"]],
+    ]
+  },
+  {
+    id:"it_a2_comparatives_superlatives", level:"A2", title:"I comparativi e i superlativi", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en italiano usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["più grande di, più piccolo di", "bigger than, smaller than"],
+        ["più caro di", "more expensive than"],
+        ["il/la migliore, il/la peggiore", "the best, the worst"],
+        ["tanto...quanto", "as...as"],
+        ["il/la più interessante", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativos y superlativos regulares e irregulares", "“Più/meno + adjetivo + di” forma el comparativo; “il/la più + adjetivo” el superlativo. Irregular: buono→migliore, cattivo→peggiore.", "Questa macchina è più veloce di quella, ma quella rossa è la più veloce."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “buono”?",["più buono", "migliore", "il migliore", "buonissimo"],1,"“Buono” es irregular: migliore, il migliore."],
+      ["mcq","¿Cómo se dice “as expensive as” en italiano?",["più caro di", "il più caro", "caro quanto", "meno caro"],2,"“As...as” es “tanto/così...quanto/come”."],
+      ["fill","Completa: “Questo telefono è ___ del mio, ma non è il migliore.”",["il migliore", "più buono", "buonissimo", "migliore"],3,"Comparativo irregular de “buono” es “migliore”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["Questo è l'hotel economico della città.", "Questo è l'hotel più economico della città.", "Questo è più economico hotel della città.", "Questo è l'hotel tanto economico della città."],1,"Superlativo: “il/la più + adjetivo”."],
+      ["arrange","Ordena: [di / alto / fratello / mio / è / me]",["alto me è di fratello mio", "mio fratello è alto di me", "di alto fratello mio me è", "è di fratello alto me mio"],1,"Sujeto + verbo + comparativo + “di” + objeto (versión simplificada, sin “più”)."],
+      ["speaking","Confronta in italiano, in 30-40 parole, due città o luoghi che conosci usando comparativi e un superlativo.",[],["più", "il migliore", "di"]],
+    ]
+  },
+  {
+    id:"it_a2_advice_modals", level:"A2", title:"Consigli e obbligo: dovresti, devi", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en italiano.",
+    study: {
+      vocab: [
+        ["dovresti...", "you should..."],
+        ["non dovresti...", "you shouldn't..."],
+        ["devo...", "I must / I have to"],
+        ["non devi...", "you don't have to"],
+        ["è una buona idea...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Dovresti” (consejo) vs “devi” (obligación)", "“Dovresti” (condicional de “dovere”) da un consejo suave; “devi” expresa obligación; “non devi” significa que algo no es necesario, mientras que la prohibición se expresa con “non puoi”.", "Dovresti bere più acqua. / Devi indossare la cintura di sicurezza."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["dovresti", "non devi", "devi", "non puoi"],0,"“Dovresti” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en italiano?",["non devi", "non puoi", "devi", "non dovresti"],0,"“You don't have to” es “non devi”, no “non puoi” (prohibición)."],
+      ["fill","Completa: “Non ___ fumare qui; è vietato.”",["puoi", "hai", "dovresti", "devi"],0,"“Non puoi” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Devi dormire di più.", "Non puoi dormire di più.", "Dovresti dormire di più.", "Non devi dormire di più."],2,"Consejo suave → “dovresti”."],
+      ["arrange","Ordena: [cintura / indossare / devi / una]",["cintura una devi indossare", "devi una indossare cintura", "una indossare cintura devi", "devi indossare una cintura"],3,"Sujeto + “dovere” + infinitivo + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole dando tre consigli a un amico che viaggerà per la prima volta.",[],["dovresti", "devi", "non devi"]],
+    ]
+  },
+  {
+    id:"it_a2_phone_calls", level:"A2", title:"Le telefonate", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en italiano.",
+    study: {
+      vocab: [
+        ["Pronto, sono...", "Hello, this is..."],
+        ["Posso parlare con...?", "Can I speak to...?"],
+        ["Posso lasciare un messaggio?", "Can I take/leave a message?"],
+        ["Un attimo, per favore.", "Hold on, please."],
+        ["Puoi richiamare più tardi?", "Can you call back later?"],
+        ["Ti richiamo.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En italiano se responde al teléfono con “Pronto” y se identifica uno con “sono...”.", "Pronto, sono Laura. Posso parlare con il signor Rossi, per favore?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en italiano?",["Un attimo, per favore.", "Posso parlare con...?", "Posso lasciare un messaggio?", "Ti richiamo."],2,"“Can I take/leave a message?” es “Posso lasciare un messaggio?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en italiano?",["Posso parlare con...?", "Sono Laura.", "Un attimo, per favore.", "Richiama più tardi."],2,"“Hold on, please” es “Un attimo, per favore”."],
+      ["fill","Completa: “Pronto, ___ Marco. C'è Anna?”",["sono", "sto", "sono qui", "ero"],0,"Al identificarse por teléfono se dice “sono Marco”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Posso lasciare il signor García, per favore?", "Posso aspettare il signor García, per favore?", "Posso parlare con il signor García, per favore?", "Posso chiamare il signor García, per favore?"],2,"“Can I speak to...?” es “Posso parlare con...?”."],
+      ["arrange","Ordena: [richiamo / ti / più / tardi]",["ti richiamo tardi più", "più ti tardi richiamo", "ti più richiamo tardi", "ti richiamo più tardi"],3,"Objeto + verbo + expresión de tiempo."],
+      ["speaking","Simula in italiano, in 30-40 parole, una telefonata in cui chiedi di parlare con qualcuno e lasci un messaggio.",[],["posso parlare con", "posso lasciare un messaggio", "sono"]],
+    ]
+  },
+  {
+    id:"it_a2_quantifiers_countable", level:"A2", title:"Le quantità: un po' di, quanto, quanti", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en italiano distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["un po' di, alcuni/alcune", "some, a few"],
+        ["Quanto/a...?", "How much...?"],
+        ["Quanti/e...?", "How many...?"],
+        ["molto/molti", "a lot of / much, many"],
+        ["poco/pochi", "little, few"],
+      ],
+      grammar: [
+        ["Contables vs incontables en italiano", "“Quanti/e” y “molti/e, pochi/e” concuerdan en género y número con sustantivos contables plurales; “quanto/a” y “molto/a, poco/a” con incontables en singular.", "Quante mele hai? / Quanta acqua c'è? / Ho pochi soldi con me."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["alcune", "molti", "Quanti", "Quanta"],3,"“Acqua” es incontable y femenino → “Quanta”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables plurales, como “mele”?",["molta", "poca", "Quanto", "Quante"],3,"“Mele” es contable plural femenino → “Quante”."],
+      ["fill","Completa: “Ho solo ___ soldi con me.”",["pochi", "poco", "molte", "alcuna"],0,"“Soldi” es masculino plural → “pochi soldi”."],
+      ["translate","Traduce: “How many books do you have?”",["Quanti libro hai?", "Quanto libro hai?", "Quanto libri hai?", "Quanti libri hai?"],3,"“Libri” es contable plural masculino → “Quanti libri”."],
+      ["arrange","Ordena: [latte / quanto / c'è]",["latte c'è quanto", "latte quanto c'è", "c'è latte quanto", "quanto latte c'è"],3,"Palabra interrogativa + sustantivo incontable + verbo."],
+      ["writing","Descrivi in italiano, in 25-35 parole, cosa c'è nel tuo frigorifero usando «un po' di», «molto» e «alcuni».",[],["molto", "alcuni", "un po' di"]],
+    ]
+  },
+  {
+    id:"it_b1_past_continuous_narrative", level:"B1", title:"L'imperfetto e il passato prossimo: narrare un'interruzione", emoji:"🌙", xp:60,
+    description:"Aprende a combinar la forma progresiva del imperfecto con el passato prossimo para narrar interrupciones.",
+    study: {
+      vocab: [
+        ["stavo cucinando / stavano parlando", "I was cooking / they were talking"],
+        ["mentre, quando", "while, when"],
+        ["all'improvviso", "suddenly"],
+        ["è squillato il telefono", "the phone rang"],
+        ["nel mezzo di...", "in the middle of..."],
+      ],
+      grammar: [
+        ["“Stare” all'imperfetto + gerundio + passato prossimo", "El italiano tiene una forma progresiva similar al inglés: “stare” en imperfecto + gerundio para la acción de fondo, y el passato prossimo para la interrupción.", "Stavo cucinando la cena quando è squillato il telefono. / Mentre lei stava studiando, è arrivato il suo amico."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma se usa para la acción de fondo interrumpida?",["cucinare", "cucino", "ho cucinato", "stavo cucinando"],3,"La acción de fondo va en imperfecto progresivo: “stavo cucinando”."],
+      ["mcq","¿Cómo se dice “suddenly” en italiano?",["mentre", "nel mezzo di", "quando", "all'improvviso"],3,"“Suddenly” es “all'improvviso”."],
+      ["fill","Completa: “___ la cena quando è squillato il telefono.”",["Cucinare", "Ho cucinato", "Stavo cucinando", "Cucino"],2,"Acción interrumpida = imperfecto progresivo: “stavo cucinando”."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Mentre lei ha studiato, stava arrivando il suo amico.", "Mentre lei studia, è arrivato il suo amico.", "Mentre lei stava studiando, è arrivato il suo amico.", "Mentre lei stava studiando, stava arrivando il suo amico."],2,"Fondo en imperfecto progresivo, interrupción en passato prossimo: “stava studiando... è arrivato”."],
+      ["arrange","Ordena: [squillato / cucinando / cena / stavo / la / quando / è / telefono / il]",["stavo cucinando la cena quando è squillato il telefono", "il cucinando è la stavo squillato quando telefono cena", "squillato quando stavo cena è cucinando la il telefono", "stavo quando cucinando il è cena squillato la telefono"],0,"Imperfecto progresivo + objeto + “quando” + passato prossimo."],
+      ["writing","Scrivi in italiano 40-55 parole raccontando una breve storia in cui qualcosa ti ha interrotto mentre facevi altro.",[],["mentre", "quando", "all'improvviso"]],
+    ]
+  },
+  {
+    id:"it_b1_second_conditional", level:"B1", title:"Il periodo ipotetico della possibilità", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en italiano.",
+    study: {
+      vocab: [
+        ["se avessi...", "if I had..."],
+        ["io -ei / io non -ei", "I would / I wouldn't"],
+        ["se fossi in te...", "if I were you..."],
+        ["cosa faresti se...?", "What would you do if...?"],
+        ["situazione immaginaria", "imaginary situation"],
+      ],
+      grammar: [
+        ["Se + congiuntivo imperfetto, condizionale presente", "Para situaciones hipotéticas poco probables, se usa “se” + congiuntivo imperfetto, seguido del condicional presente.", "Se avessi più tempo, viaggerei di più. / Se fossi in te, accetterei l'offerta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “se fossi in te, io...”?",["ho accettato", "accetterò", "accetto", "accetterei"],3,"Tras la cláusula con “se” va el condicional presente: “accetterei”."],
+      ["mcq","¿Cómo se dice “imaginary situation” en italiano?",["piano futuro", "situazione reale", "esperienza passata", "situazione immaginaria"],3,"“Imaginary situation” es “situazione immaginaria”."],
+      ["fill","Completa: “Se ___ più soldi, viaggerei per il mondo.”",["avrò", "ho", "avessi", "ebbi"],2,"Congiuntivo imperfetto de “avere” es “avessi”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Se ero in te, accetterò il lavoro.", "Se fossi in te, accetto il lavoro.", "Se sono in te, accetterei il lavoro.", "Se fossi in te, accetterei il lavoro."],3,"“Se fossi in te” es la forma estándar para un consejo hipotético."],
+      ["arrange","Ordena: [tempo / più / se / avessi / viaggerei / io]",["tempo se viaggerei avessi più io", "tempo avessi più se io viaggerei", "più viaggerei tempo se avessi io", "se avessi più tempo io viaggerei"],3,"“Se” + congiuntivo imperfetto + condicional presente."],
+      ["speaking","Parla in italiano, in 40-55 parole, su cosa faresti se vincessi alla lotteria, usando il periodo ipotetico.",[],["se avessi", "io -ei", "immaginaria"]],
+    ]
+  },
+  {
+    id:"it_b1_modals_deduction", level:"B1", title:"Esprimere certezza, possibilità e dubbio", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en italiano.",
+    study: {
+      vocab: [
+        ["deve essere", "must be (certeza alta)"],
+        ["potrebbe essere", "might/may be (posibilidad)"],
+        ["non può essere", "can't be (certeza negativa)"],
+        ["potrebbe darsi che", "could be (posibilidad)"],
+        ["sono sicuro/a / non sono sicuro/a", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza en italiano", "“Dovere” en presente expresa una fuerte deducción; “potrebbe” expresa posibilidad, no certeza; “non può essere” expresa certeza negativa.", "Le luci sono spente, quindi devono dormire. / Potrebbe essere al lavoro, non sono sicuro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["non può essere", "potrebbe darsi che", "deve essere", "potrebbe essere"],0,"“Non può essere” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["non può essere", "deve essere", "potrebbe essere", "sono sicuro"],2,"“Potrebbe essere” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “Le luci sono spente, quindi ___ dormire.”",["dovrebbero", "potrebbero", "devono", "non possono"],2,"Evidencia fuerte (luces apagadas) → “devono” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["Non può essere così tardi.", "Potrebbe essere così tardi.", "Potrebbe darsi che sia così tardi.", "Deve essere così tardi."],0,"Certeza negativa fuerte → “non può essere”."],
+      ["arrange","Ordena: [lavoro / al / essere / potrebbe / lui]",["al lui essere lavoro potrebbe", "potrebbe lui lavoro al essere", "lavoro al lui potrebbe essere", "lui potrebbe essere al lavoro"],3,"Sujeto + modal + “essere” + complemento."],
+      ["writing","Scrivi in italiano 35-45 parole facendo deduzioni su una situazione (per esempio, perché qualcuno non risponde al telefono).",[],["deve essere", "potrebbe essere", "non può essere"]],
+    ]
+  },
+  {
+    id:"it_b1_reported_speech_basics", level:"B1", title:"Il discorso indiretto di base", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en italiano lo que alguien dijo usando el discurso indirecto básico.",
+    study: {
+      vocab: [
+        ["ha detto che...", "he/she said (that)..."],
+        ["mi ha detto che...", "he/she told me (that)..."],
+        ["ha detto che era stanca", "she said she was tired"],
+        ["ha detto che avrebbe chiamato", "he said he would call"],
+        ["cambio di tempo verbale", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a imperfecto, y el futuro se convierte en condicional pasado (“avrebbe + participio”).", "Diretto: «Sono stanca.» → Indiretto: Ha detto che era stanca. / Diretto: «Ti chiamerò.» → Indiretto: Ha detto che avrebbe chiamato."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en italiano?",["mi ha detto che", "mi dice che", "dirà che", "dice che"],0,"“She told me” es “mi ha detto”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“chiamerò”) en discurso indirecto?",["chiamava", "chiama", "avrebbe chiamato", "chiamerà"],2,"El futuro se convierte en condicional pasado: “avrebbe chiamato”."],
+      ["fill","Completa: “Ha detto che ___ stanca.”",["sia", "è", "è stata", "era"],3,"El presente (“sono”) pasa a imperfecto (“era”) en discurso indirecto."],
+      ["translate","Traduce: “He said he would call later.”",["Ha detto che avrebbe chiamato più tardi.", "Ha detto che chiamerà più tardi.", "Ha detto che ha chiamato più tardi.", "Ha detto che chiama più tardi."],0,"El futuro pasa a condicional pasado en discurso indirecto: “avrebbe chiamato”."],
+      ["arrange","Ordena: [stanca / detto / era / che / ha]",["ha detto che era stanca", "che stanca era ha detto", "detto ha era che stanca", "ha era che stanca detto"],0,"Sujeto + “ha detto che” + sujeto + verbo en imperfecto."],
+      ["writing","Scrivi in italiano 35-45 parole riportando al discorso indiretto tre cose che qualcuno ti ha detto di recente.",[],["ha detto che", "mi ha detto", "avrebbe"]],
+    ]
+  },
+  {
+    id:"it_b1_sequencing_process", level:"B1", title:"Descrivere un processo: i connettori di sequenza", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en italiano usando conectores de orden.",
+    study: {
+      vocab: [
+        ["Prima...", "first..."],
+        ["Poi / Quindi...", "then / next..."],
+        ["Dopo di che...", "after that..."],
+        ["Infine...", "finally..."],
+        ["Una volta che hai..., ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "Prima, compili il modulo. Poi, lo invii online. Infine, aspetti un'e-mail di conferma."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["Infine", "Prima", "Dopo di che", "Poi"],0,"“Infine” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["Prima", "Poi", "Infine", "Dopo di che"],0,"“Prima” indica el primer paso."],
+      ["fill","Completa: “___ che hai compilato il modulo, invialo online.”",["Infine", "Prima", "Poi", "Una volta"],3,"“Una volta che” introduce una condición temporal."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["Poi, mescola gli ingredienti; prima, cuoci per 20 minuti.", "Prima, mescola gli ingredienti; poi, cuoci per 20 minuti.", "Infine, mescola gli ingredienti; poi, cuoci per 20 minuti.", "Prima, mescola gli ingredienti; prima, cuoci per 20 minuti."],1,"“First...then” es “prima...poi”."],
+      ["arrange","Ordena: [che / invia / modulo / dopo / di / il]",["di il invia dopo modulo che", "modulo dopo di il invia che", "modulo dopo il invia che di", "dopo di che invia il modulo"],3,"Conector de secuencia + verbo + artículo + objeto."],
+      ["speaking","Spiega in italiano, in 40-55 parole, i passaggi per fare qualcosa che sai fare (una ricetta, una pratica, ecc.) usando almeno tre connettori di sequenza.",[],["prima", "poi", "infine"]],
+    ]
+  },
 ];

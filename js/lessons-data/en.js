@@ -4218,4 +4218,368 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés, en 55-75 palabras, un análisis sobre política monetaria usando “insofar as” o “to the extent that” al menos una vez.",[],["insofar as", "to the extent that", "monetary policy"]],
     ]
   },
+  {
+    id:"a1_wh_questions", level:"A1", title:"Las preguntas con Wh-: qué, quién, dónde, cuándo, por qué", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en inglés con las palabras interrogativas (Wh-words).",
+    study: {
+      vocab: [
+        ["What", "Qué"],
+        ["Who", "Quién"],
+        ["Where", "Dónde"],
+        ["When", "Cuándo"],
+        ["Why", "Por qué"],
+        ["How", "Cómo"],
+      ],
+      grammar: [
+        ["Orden de las preguntas con Wh-word", "Wh-word + auxiliar (do/does/is/are) + sujeto + verbo.", "Where do you live? / What is your name? / When does the class start?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Who", "What", "Where", "When"],2,"“Where” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Why", "What", "Who", "How"],2,"“Who” se usa para preguntar por personas."],
+      ["fill","Completa: “___ do you live?”",["Who", "Why", "Where", "What"],2,"Preguntamos por el lugar donde vive alguien con “Where”."],
+      ["translate","Traduce: “¿Por qué estudias inglés?”",["Who do you study English?", "Where do you study English?", "Why do you study English?", "What do you study English?"],2,"“Por qué” se traduce como “Why”, seguido del auxiliar “do”."],
+      ["arrange","Ordena: [you / do / live / where]",["live where do you", "you do live where", "you live where do", "where do live you"],1,"Wh-word + auxiliar + sujeto + verbo: “Where do you live?”"],
+      ["writing","Escribe en inglés 20-30 palabras con al menos tres preguntas con Wh-words para conocer a alguien nuevo.",[],["Where", "What", "Who"]],
+    ]
+  },
+  {
+    id:"a1_possessives_family", level:"A1", title:"Los posesivos y la familia", emoji:"👪", xp:35,
+    description:"Aprende los adjetivos posesivos en inglés y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["my / your", "mi(s) / tu(s)"],
+        ["his / her / its", "su(s) (de él) / su(s) (de ella) / su(s) (de eso)"],
+        ["our / their", "nuestro(s) / su(s) (de ellos)"],
+        ["mother, father, parents", "madre, padre, padres"],
+        ["brother, sister, siblings", "hermano, hermana, hermanos"],
+        ["Whose is this?", "¿De quién es esto?"],
+      ],
+      grammar: [
+        ["Adjetivos posesivos + sustantivo", "Los adjetivos posesivos en inglés no cambian según el género ni el número del sustantivo que sigue.", "This is her brother. / These are their parents."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “su hermana” (de él) en inglés?",["her sister", "their sister", "his sister", "our sister"],2,"“Su” (de él) es “his”."],
+      ["mcq","¿Cómo se dice “nuestros padres” en inglés?",["our parents", "your parents", "their parents", "his parents"],0,"“Nuestro/a(s)” es “our”."],
+      ["fill","Completa: “She is talking to ___ mother.”",["their", "his", "our", "her"],3,"“Ella” (sujeto femenino) usa el posesivo “her”."],
+      ["translate","Traduce: “Estos son sus hermanos” (de ellos).",["These are his siblings.", "These are their siblings.", "These are her siblings.", "These are our siblings."],1,"“Su/sus” (de ellos) es “their”."],
+      ["arrange","Ordena: [is / this / sister / my]",["this is my sister", "sister is this my", "is sister this my", "sister this my is"],0,"Sujeto + verbo “to be” + posesivo + sustantivo: “This is my sister.”"],
+      ["speaking","Describe en inglés, en 25-35 palabras, a tres miembros de tu familia usando adjetivos posesivos.",[],["my", "her", "his"]],
+    ]
+  },
+  {
+    id:"a1_there_is_are_prepositions", level:"A1", title:"Hay... y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “there is/are” y las preposiciones de lugar para describir dónde están las cosas.",
+    study: {
+      vocab: [
+        ["There is / There are", "Hay (singular) / Hay (plural)"],
+        ["in, on, under", "dentro de, sobre, debajo de"],
+        ["next to, between", "al lado de, entre"],
+        ["in front of, behind", "delante de, detrás de"],
+        ["Is there...? / Are there...?", "¿Hay...? (singular) / ¿Hay...? (plural)"],
+      ],
+      grammar: [
+        ["“There is” vs “There are”", "“There is” se usa con sustantivos singulares o incontables; “there are” con plurales.", "There is a lamp on the table. / There are two chairs next to the desk."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “debajo de” en inglés?",["next to", "under", "behind", "on"],1,"“Debajo de” es “under”."],
+      ["mcq","¿Cómo se dice “entre” en inglés?",["between", "in front of", "behind", "in"],0,"“Entre” es “between”."],
+      ["fill","Completa: “There ___ two books on the table.”",["was", "are", "is", "be"],1,"Con sustantivos plurales usamos “there are”."],
+      ["translate","Traduce: “Hay un gato debajo de la mesa.”",["There is a cat next to the table.", "There is a cat on the table.", "There is a cat under the table.", "There are a cat under the table."],2,"Sustantivo singular “a cat” + “there is” + “under”."],
+      ["arrange","Ordena: [chair / the / next / is / to / the / lamp]",["the the lamp to is next chair", "the chair is next to the lamp", "next is chair to the lamp the", "is next to the lamp chair the"],1,"Sujeto + verbo “to be” + preposición + objeto: “The chair is next to the lamp.”"],
+      ["writing","Describe en inglés, en 25-35 palabras, dónde están tres objetos en tu habitación usando “there is/are” y preposiciones de lugar.",[],["there is", "there are", "next to"]],
+    ]
+  },
+  {
+    id:"a1_plurals_articles", level:"A1", title:"El plural de los sustantivos y los artículos", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en inglés y cuándo usar “a”, “an” y “the”.",
+    study: {
+      vocab: [
+        ["book / books", "libro / libros"],
+        ["box / boxes", "caja / cajas"],
+        ["city / cities", "ciudad / ciudades"],
+        ["child / children", "niño / niños"],
+        ["a, an", "un, una (antes de vocal)"],
+        ["the", "el, la, los, las"],
+      ],
+      grammar: [
+        ["Reglas del plural regular e irregular", "Se añade “-s” en la mayoría de los casos, “-es” tras s/x/ch/sh, “-ies” si termina en consonante+y; algunos plurales son irregulares.", "book→books, box→boxes, city→cities, child→children"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “city”?",["cities", "citties", "citys", "cityes"],0,"Consonante + “y” → se cambia “y” por “ies”."],
+      ["mcq","¿Cuál es el plural de “child”?",["children", "childes", "childrens", "childs"],0,"“Child” tiene un plural irregular: “children”."],
+      ["fill","Completa: “I need ___ umbrella; it's raining.”",["some", "the", "a", "an"],3,"Antes de sonido vocálico usamos “an”."],
+      ["translate","Traduce: “Hay tres cajas en el garaje.”",["There are three boxies in the garage.", "There is three boxes in the garage.", "There are three boxes in the garage.", "There are three box in the garage."],2,"“Box” termina en “x” → plural “boxes”."],
+      ["arrange","Ordena: [are / the / where / books / ?]",["are books where the", "books the are where", "where are the books", "the books where are"],2,"Wh-word + verbo + artículo + sustantivo plural: “Where are the books?”"],
+      ["writing","Escribe en inglés 20-30 palabras sobre objetos que hay en tu mochila, usando al menos dos plurales.",[],["books", "boxes", "there are"]],
+    ]
+  },
+  {
+    id:"a1_likes_dislikes", level:"A1", title:"Gustos y preferencias", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en inglés usando el gerundio.",
+    study: {
+      vocab: [
+        ["I like / I love", "Me gusta / Me encanta"],
+        ["I don't like / I hate", "No me gusta / Odio"],
+        ["swimming, reading, cooking", "nadar, leer, cocinar"],
+        ["Do you like...?", "¿Te gusta...?"],
+        ["What about you?", "¿Y tú?"],
+      ],
+      grammar: [
+        ["Verbo + gerundio (-ing) tras “like/love/hate”", "Después de “like”, “love”, “hate” y “enjoy”, el verbo siguiente va en gerundio (-ing).", "I love reading. / She hates waiting in line."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “me encanta” en inglés?",["I don't like", "I hate", "I love", "I like"],2,"“Me encanta” es “I love”."],
+      ["mcq","¿Cómo se dice “odio” en inglés?",["I love", "I like", "Do you like", "I hate"],3,"“Odio” es “I hate”."],
+      ["fill","Completa: “She loves ___ on weekends.”",["cooks", "cooking", "to cooking", "cook"],1,"Tras “love” el verbo va en gerundio: “cooking”."],
+      ["translate","Traduce: “No me gusta nadar en agua fría.”",["I don't like swim in cold water.", "I don't like swimming in cold water.", "I like swimming in cold water.", "I hate swimming cold water."],1,"“No me gusta” + gerundio: “I don't like swimming”."],
+      ["arrange","Ordena: [reading / loves / books / she]",["reading books loves she", "loves books reading she", "she loves reading books", "she reading books loves"],2,"Sujeto + verbo + gerundio + objeto: “She loves reading books.”"],
+      ["speaking","Habla en inglés durante 25-35 palabras sobre tres actividades que te gustan y una que odias, usando gerundios.",[],["I love", "I like", "I hate"]],
+    ]
+  },
+  {
+    id:"a2_future_plans", level:"A2", title:"El futuro: planes y predicciones", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en inglés usando “going to” para planes y “will” para predicciones.",
+    study: {
+      vocab: [
+        ["I'm going to...", "Voy a..."],
+        ["I will / I'll", "Haré (predicción, decisión espontánea)"],
+        ["next week, next year", "la próxima semana, el próximo año"],
+        ["I think it will rain", "Creo que va a llover"],
+        ["What are you going to do?", "¿Qué vas a hacer?"],
+      ],
+      grammar: [
+        ["“Going to” vs “will”", "“Going to” se usa para planes ya decididos; “will” para predicciones o decisiones espontáneas.", "I'm going to visit my parents next week. / I think it will rain tomorrow."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “voy a...” para un plan ya decidido?",["I will", "Do you like", "I'm going to", "I think"],2,"Para planes ya decididos usamos “going to”."],
+      ["mcq","¿Cómo se dice “la próxima semana” en inglés?",["last week", "next week", "this week", "next year"],1,"“La próxima semana” es “next week”."],
+      ["fill","Completa: “Look at those clouds! It ___ rain.”",["is", "will", "is going to", "would"],2,"Cuando hay evidencia presente (nubes) usamos “going to”, no “will”."],
+      ["translate","Traduce: “Creo que ganaremos el partido.”",["I think we are going to won the game.", "I think we win the game.", "I think we will win the game.", "I think we would win the game."],2,"Predicción sin evidencia clara → “will”."],
+      ["arrange","Ordena: [visit / going / I'm / to / grandparents / my]",["I'm going to visit my grandparents", "going my visit grandparents to I'm", "I'm to visit going grandparents my", "visit going grandparents my to I'm"],0,"Sujeto + “be going to” + verbo + objeto."],
+      ["writing","Escribe en inglés 30-40 palabras sobre tus planes para el próximo mes, usando “going to” y una predicción con “will”.",[],["going to", "will", "next"]],
+    ]
+  },
+  {
+    id:"a2_comparatives_superlatives", level:"A2", title:"Comparativos y superlativos", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en inglés usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["bigger than, smaller than", "más grande que, más pequeño que"],
+        ["more expensive than", "más caro que"],
+        ["the best, the worst", "el/la mejor, el/la peor"],
+        ["as...as", "tan...como"],
+        ["the most interesting", "el/la más interesante"],
+      ],
+      grammar: [
+        ["Reglas de comparativos y superlativos", "Adjetivos cortos: +er/+est (big→bigger→biggest). Adjetivos largos: more/most + adjetivo. Irregulares: good→better→best, bad→worse→worst.", "This car is faster than that one, but the red one is the fastest."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “good”?",["better", "more good", "gooder", "best"],0,"“Good” es irregular: better, best."],
+      ["mcq","¿Cómo se dice “tan caro como” en inglés?",["as expensive as", "the most expensive", "more expensive than", "less expensive"],0,"“Tan...como” es “as...as”."],
+      ["fill","Completa: “This phone is ___ than mine, but it's not the best.”",["best", "gooder", "good", "better"],3,"Comparativo irregular de “good” es “better”."],
+      ["translate","Traduce: “Este es el hotel más barato de la ciudad.”",["This is cheaper hotel in the city.", "This is the more cheap hotel in the city.", "This is the cheapest hotel in the city.", "This is the most cheap hotel in the city."],2,"Adjetivo corto → superlativo con “-est”: “cheapest”."],
+      ["arrange","Ordena: [than / taller / brother / my / is / me]",["than brother my me taller is", "me my is taller brother than", "than brother taller is my me", "my brother is taller than me"],3,"Sujeto + verbo + comparativo + “than” + objeto."],
+      ["speaking","Compara en inglés, en 30-40 palabras, dos ciudades o lugares que conozcas usando comparativos y un superlativo.",[],["more", "the best", "than"]],
+    ]
+  },
+  {
+    id:"a2_advice_modals", level:"A2", title:"Consejos y obligación: should, must, have to", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en inglés con “should”, “must” y “have to”.",
+    study: {
+      vocab: [
+        ["You should...", "Deberías..."],
+        ["You shouldn't...", "No deberías..."],
+        ["I must / I have to", "Debo / Tengo que"],
+        ["You don't have to", "No hace falta que / No tienes que"],
+        ["It's a good idea to...", "Es buena idea..."],
+      ],
+      grammar: [
+        ["“Should” (consejo) vs “must/have to” (obligación)", "“Should” da un consejo, no es obligatorio. “Must/have to” expresan obligación; “don't have to” significa que algo no es necesario (no prohibido).", "You should drink more water. / You have to wear a seatbelt."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["You don't have to", "You have to", "You should", "You must"],2,"“Should” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “no hace falta que” en inglés?",["You don't have to", "You have to", "You shouldn't", "You must"],0,"“No hace falta que” es “don't have to”, no “mustn't”."],
+      ["fill","Completa: “You ___ smoke here; it's forbidden.”",["mustn't", "shouldn't have to", "don't have to", "should"],0,"“Mustn't” indica prohibición."],
+      ["translate","Traduce: “Deberías dormir más.”",["You don't have to sleep more.", "You have to sleep more.", "You should sleep more.", "You must sleep more."],2,"Consejo suave → “should”."],
+      ["arrange","Ordena: [seatbelt / to / you / wear / have / a]",["to wear have you a seatbelt", "wear to seatbelt a you have", "you have to wear a seatbelt", "have seatbelt a to wear you"],2,"Sujeto + “have to” + verbo + objeto."],
+      ["writing","Escribe en inglés 30-40 palabras dando tres consejos a un amigo que va a viajar por primera vez, usando “should” y “have to”.",[],["should", "have to", "don't have to"]],
+    ]
+  },
+  {
+    id:"a2_phone_calls", level:"A2", title:"Llamadas telefónicas", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en inglés.",
+    study: {
+      vocab: [
+        ["Hello, this is...", "Hola, soy..."],
+        ["Can I speak to...?", "¿Puedo hablar con...?"],
+        ["Can I take a message?", "¿Puedo tomar un mensaje?"],
+        ["Hold on, please.", "Espere un momento, por favor."],
+        ["Can you call back later?", "¿Puedes llamar más tarde?"],
+        ["I'll call you back.", "Te devuelvo la llamada."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En inglés, al hablar por teléfono se usa “this is” (no “I am”) para identificarse, y “Can I speak to...?” para pedir hablar con alguien.", "Hello, this is Laura. Can I speak to Mr. Smith, please?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “¿Puedo tomar un mensaje?” en inglés?",["I'll call you back.", "Can I speak to...?", "Can I take a message?", "Hold on, please."],2,"“¿Puedo tomar un mensaje?” es “Can I take a message?”."],
+      ["mcq","¿Cómo se dice “Espere un momento, por favor” en inglés?",["Can I speak to...?", "This is Laura.", "Call back later.", "Hold on, please."],3,"“Espere un momento” es “Hold on, please”."],
+      ["fill","Completa: “Hello, ___ Mark. Is Anna there?”",["this be", "this is", "I am", "I'm here"],1,"Al identificarse por teléfono se dice “this is”, no “I am”."],
+      ["translate","Traduce: “¿Puedo hablar con el señor García, por favor?”",["Can I take Mr. García, please?", "Can I speak to Mr. García, please?", "Can I hold Mr. García, please?", "Can I call Mr. García, please?"],1,"“¿Puedo hablar con...?” es “Can I speak to...?”."],
+      ["arrange","Ordena: [call / I'll / you / back]",["call back I'll you", "I'll call you back", "you I'll back call", "I'll back you call"],1,"Sujeto + “will” + verbo + objeto + adverbio."],
+      ["speaking","Simula en inglés, en 30-40 palabras, una llamada telefónica pidiendo hablar con alguien y dejando un mensaje.",[],["Can I speak to", "Can I take a message", "this is"]],
+    ]
+  },
+  {
+    id:"a2_quantifiers_countable", level:"A2", title:"Cantidades: some, any, how much, how many", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en inglés distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["some, any", "algo/alguno(s) (afirmativo), algo/ninguno (negativo/pregunta)"],
+        ["How much...?", "¿Cuánto...? (incontable)"],
+        ["How many...?", "¿Cuántos...? (contable)"],
+        ["a lot of, much, many", "mucho/muchos (varios usos)"],
+        ["a little, a few", "un poco de (incontable), unos pocos (contable)"],
+      ],
+      grammar: [
+        ["Contables vs incontables", "“How many” y “many/few” van con sustantivos contables en plural; “how much” y “much/little” van con incontables. “Some” en afirmativas, “any” en negativas/preguntas.", "How many apples do you have? / How much water is there? / I don't have any money."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["How much", "How many", "A few", "Many"],0,"“Water” es incontable → “How much”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables en plural, como “apples”?",["Much", "How much", "A little", "How many"],3,"“Apples” es contable → “How many”."],
+      ["fill","Completa: “I don't have ___ money with me.”",["many", "some", "much", "any"],3,"En oraciones negativas usamos “any”, no “some”."],
+      ["translate","Traduce: “¿Cuántos libros tienes?”",["How much books do you have?", "How many book do you have?", "How many books do you have?", "How much book do you have?"],2,"“Books” es contable plural → “How many books”."],
+      ["arrange","Ordena: [milk / is / much / how / there]",["there much is milk how", "there milk is much how", "how much milk is there", "much milk how there is"],2,"“How much” + sustantivo incontable + verbo + “there”."],
+      ["writing","Escribe en inglés 25-35 palabras describiendo lo que hay en tu refrigerador usando “some”, “a lot of” y “a few”.",[],["some", "a lot of", "a few"]],
+    ]
+  },
+  {
+    id:"b1_past_continuous_narrative", level:"B1", title:"El pasado continuo: narrar interrupciones", emoji:"🌙", xp:60,
+    description:"Aprende a usar el pasado continuo junto al pasado simple para narrar historias con interrupciones.",
+    study: {
+      vocab: [
+        ["I was walking / They were talking", "Yo caminaba / Ellos hablaban (acción en curso)"],
+        ["while, when", "mientras, cuando"],
+        ["suddenly", "de repente"],
+        ["the phone rang", "el teléfono sonó"],
+        ["in the middle of...", "en medio de..."],
+      ],
+      grammar: [
+        ["Pasado continuo + pasado simple", "Usamos el pasado continuo (was/were + -ing) para la acción de fondo, y el pasado simple para la acción que la interrumpe, normalmente con “when” o “while”.", "I was cooking dinner when the phone rang. / While she was studying, her friend arrived."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma usamos para la acción de fondo que se interrumpe?",["walk", "was walking", "has walked", "walked"],1,"La acción de fondo va en pasado continuo: “was walking”."],
+      ["mcq","¿Cómo se dice “de repente” en inglés?",["while", "in the middle of", "when", "suddenly"],3,"“De repente” es “suddenly”."],
+      ["fill","Completa: “I ___ dinner when the phone rang.”",["have cooked", "was cooking", "cook", "cooked"],1,"Acción interrumpida = pasado continuo: “was cooking”."],
+      ["translate","Traduce: “Mientras ella estudiaba, su amigo llegó.”",["While she studies, her friend arrived.", "While she was studying, her friend was arriving.", "While she studied, her friend was arriving.", "While she was studying, her friend arrived."],3,"Acción de fondo en continuo, interrupción en simple: “was studying... arrived”."],
+      ["arrange","Ordena: [rang / phone / cooking / I / dinner / the / when / was]",["when phone cooking was the I dinner rang", "I was cooking dinner when the phone rang", "rang was when cooking I phone dinner the", "was when cooking the I rang phone dinner"],1,"Pasado continuo + objeto + “when” + pasado simple."],
+      ["writing","Escribe en inglés 40-55 palabras narrando una historia breve en la que algo te interrumpió mientras hacías otra cosa, usando pasado continuo y pasado simple.",[],["was", "when", "suddenly"]],
+    ]
+  },
+  {
+    id:"b1_second_conditional", level:"B1", title:"El segundo condicional: situaciones hipotéticas", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en inglés con el segundo condicional.",
+    study: {
+      vocab: [
+        ["If I had...", "Si tuviera..."],
+        ["I would / I wouldn't", "Yo -ía / Yo no -ía"],
+        ["If I were you...", "Si yo fuera tú..."],
+        ["What would you do if...?", "¿Qué harías si...?"],
+        ["imaginary situation", "situación imaginaria"],
+      ],
+      grammar: [
+        ["Estructura del segundo condicional", "If + pasado simple, ... would + verbo base. Se usa para situaciones hipotéticas o poco probables. Con “be” se prefiere “were” para todas las personas.", "If I had more time, I would travel more. / If I were you, I would accept the offer."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “If I were you, I...”?",["will accept", "accept", "would accept", "accepted"],2,"Tras “would” va el verbo en forma base."],
+      ["mcq","¿Cómo se dice “situación imaginaria” en inglés?",["past experience", "future plan", "imaginary situation", "real situation"],2,"“Situación imaginaria” es “imaginary situation”."],
+      ["fill","Completa: “If I ___ more money, I would travel around the world.”",["will have", "has", "have", "had"],3,"Segundo condicional: “If” + pasado simple."],
+      ["translate","Traduce: “Si yo fuera tú, aceptaría el trabajo.”",["If I were you, I accept the job.", "If I was you, I will accept the job.", "If I am you, I would accept the job.", "If I were you, I would accept the job."],3,"“If I were you” es la forma estándar del segundo condicional con “be”."],
+      ["arrange","Ordena: [more / I / had / time / if / travel / would / I]",["had I more if travel time would I", "had time I if more would travel I", "if more I travel time I had would", "if I had more time I would travel"],3,"“If” + pasado simple + “would” + verbo base."],
+      ["speaking","Habla en inglés, en 40-55 palabras, sobre qué harías si ganaras la lotería, usando el segundo condicional.",[],["If I", "I would", "imaginary"]],
+    ]
+  },
+  {
+    id:"b1_modals_deduction", level:"B1", title:"Verbos modales de deducción: must, might, can't", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en inglés con verbos modales de deducción.",
+    study: {
+      vocab: [
+        ["must be", "debe de ser (certeza alta)"],
+        ["might/may be", "puede que sea (posibilidad)"],
+        ["can't be", "no puede ser (certeza negativa)"],
+        ["could be", "podría ser (posibilidad)"],
+        ["I'm sure / I'm not sure", "Estoy seguro/a / No estoy seguro/a"],
+      ],
+      grammar: [
+        ["Grados de certeza con modales", "“Must” expresa alta certeza positiva, “can't” alta certeza negativa, y “might/may/could” expresan posibilidad, no certeza.", "The lights are off, so they must be asleep. / He might be at work, I'm not sure. / She can't be at home; I just saw her outside."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modal expresa alta certeza de que algo NO es cierto?",["could be", "must be", "can't be", "might be"],2,"“Can't be” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué modal expresa posibilidad, no certeza?",["can't be", "must be", "might be", "I'm sure"],2,"“Might be” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “The lights are off, so they ___ asleep.”",["might be", "can't be", "could be", "must be"],3,"Evidencia fuerte (luces apagadas) → “must be” (alta certeza)."],
+      ["translate","Traduce: “No puede ser tan tarde.”",["It could be that late.", "It might be that late.", "It can't be that late.", "It must be that late."],2,"Certeza negativa fuerte → “can't be”."],
+      ["arrange","Ordena: [work / might / be / at / he]",["he might be at work", "at work be he might", "he be might at work", "at work might he be"],0,"Sujeto + modal + “be” + complemento."],
+      ["writing","Escribe en inglés 35-45 palabras haciendo deducciones sobre una situación (por ejemplo, por qué alguien no contesta el teléfono), usando must, might y can't.",[],["must be", "might be", "can't be"]],
+    ]
+  },
+  {
+    id:"b1_reported_speech_basics", level:"B1", title:"El estilo indirecto básico", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en inglés lo que alguien dijo usando el estilo indirecto básico.",
+    study: {
+      vocab: [
+        ["He said (that)...", "Él dijo (que)..."],
+        ["She told me (that)...", "Ella me dijo (que)..."],
+        ["She said she was tired.", "Ella dijo que estaba cansada."],
+        ["He said he would call.", "Él dijo que llamaría."],
+        ["backshift", "retroceso de tiempo verbal"],
+      ],
+      grammar: [
+        ["Retroceso del tiempo verbal (backshift)", "Al pasar del estilo directo al indirecto, el tiempo verbal normalmente retrocede un paso: presente→pasado, “will”→“would”.", "Direct: “I am tired.” → Reported: She said she was tired. / Direct: “I will call you.” → Reported: He said he would call."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ella me dijo que...” en inglés?",["She told me that", "She said me that", "She tells that", "She says that"],0,"“Decirle a alguien” es “tell someone”, no “say someone”."],
+      ["mcq","¿En qué se convierte “will” en estilo indirecto?",["were", "will", "was", "would"],3,"“Will” retrocede a “would” en estilo indirecto."],
+      ["fill","Completa: “She said she ___ tired.”",["be", "is", "were", "was"],3,"“Am/is” retrocede a “was” en estilo indirecto."],
+      ["translate","Traduce: “Él dijo que llamaría más tarde.”",["He said he called later.", "He said he would call later.", "He said he calls later.", "He said he will call later."],1,"“Will” retrocede a “would” en estilo indirecto."],
+      ["arrange","Ordena: [tired / said / was / she / she]",["she she was tired said", "said she she was tired", "she said she was tired", "said tired she she was"],2,"Sujeto + “said” + sujeto + verbo en pasado."],
+      ["writing","Escribe en inglés 35-45 palabras contando en estilo indirecto tres cosas que alguien te dijo recientemente.",[],["said that", "told me", "would"]],
+    ]
+  },
+  {
+    id:"b1_sequencing_process", level:"B1", title:"Describir procesos: conectores de secuencia", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en inglés usando conectores de orden.",
+    study: {
+      vocab: [
+        ["First, ...", "Primero, ..."],
+        ["Then, / Next, ...", "Luego, / A continuación, ..."],
+        ["After that, ...", "Después de eso, ..."],
+        ["Finally, ...", "Finalmente, ..."],
+        ["Once you have..., ...", "Una vez que tengas..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la oración.", "First, you fill out the form. Then, you submit it online. Finally, you wait for a confirmation email."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["First", "After that", "Then", "Finally"],3,"“Finally” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["Next", "Finally", "After that", "First"],3,"“First” indica el primer paso."],
+      ["fill","Completa: “___ you have filled out the form, submit it online.”",["Then", "Finally", "First", "Once"],3,"“Once” introduce una condición temporal: “una vez que...”."],
+      ["translate","Traduce: “Primero, mezcla los ingredientes; después, hornea por 20 minutos.”",["First, mix the ingredients; first, bake for 20 minutes.", "First, mix the ingredients; then, bake for 20 minutes.", "Finally, mix the ingredients; then, bake for 20 minutes.", "Then, mix the ingredients; first, bake for 20 minutes."],1,"“Primero...después” es “First...then”."],
+      ["arrange","Ordena: [that / form / after / submit / the]",["that form after submit the", "after that submit the form", "after form that the submit", "form submit that after the"],1,"Conector de secuencia + verbo + objeto: “After that, submit the form.”"],
+      ["speaking","Explica en inglés, en 40-55 palabras, los pasos para hacer algo que sepas hacer (una receta, un trámite, etc.) usando al menos tres conectores de secuencia.",[],["First", "Then", "Finally"]],
+    ]
+  },
 ];

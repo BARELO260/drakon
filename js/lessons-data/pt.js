@@ -4093,4 +4093,368 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva em português, em 55-75 palavras, uma análise sobre política monetária usando “na medida em que” pelo menos uma vez.",[],["na medida em que", "política monetária", "banco central"]],
     ]
   },
+  {
+    id:"pt_a1_wh_questions", level:"A1", title:"As palavras interrogativas: o quê, quem, onde, quando, por quê", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en portugués con las palabras interrogativas.",
+    study: {
+      vocab: [
+        ["O quê / Que...?", "What...?"],
+        ["Quem...?", "Who...?"],
+        ["Onde...?", "Where...?"],
+        ["Quando...?", "When...?"],
+        ["Por quê...?", "Why...?"],
+        ["Como...?", "How...?"],
+      ],
+      grammar: [
+        ["Ordem das perguntas em português", "Em português não é necessário um auxiliar como em inglês; basta a palavra interrogativa + verbo (+ sujeito, muitas vezes omitido).", "Onde você mora? / Como você se chama? / Quando começa a aula?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Onde", "Quando", "Quem", "O quê"],0,"“Onde” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Como", "O quê", "Quem", "Por quê"],2,"“Quem” se usa para preguntar por personas."],
+      ["fill","Completa: “___ você mora?”",["Onde", "O quê", "Quem", "Por quê"],0,"Preguntamos por el lugar donde vive alguien con “Onde”."],
+      ["translate","Traduce: “Why do you study Portuguese?”",["Quem você estuda português?", "Onde você estuda português?", "O que você estuda português?", "Por que você estuda português?"],3,"“Why” se traduce como “Por que”."],
+      ["arrange","Ordena: [você / onde / mora]",["você mora onde", "onde mora você", "mora onde você", "onde você mora"],3,"Palabra interrogativa + sujeto + verbo."],
+      ["writing","Escreva em português 20-30 palavras com pelo menos três perguntas para conhecer alguém novo.",[],["Onde", "Como", "Quando"]],
+    ]
+  },
+  {
+    id:"pt_a1_possessives_family", level:"A1", title:"Os possessivos e a família", emoji:"👪", xp:35,
+    description:"Aprende los posesivos en portugués y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["meu/minha", "my"],
+        ["seu/sua (de você/dele/dela)", "your / his / her"],
+        ["nosso/nossa", "our"],
+        ["deles/delas", "their"],
+        ["a mãe, o pai, os pais", "mother, father, parents"],
+        ["o irmão, a irmã, os irmãos", "brother, sister, siblings"],
+      ],
+      grammar: [
+        ["“Dele/dela” para evitar ambigüedad", "“Seu/sua” puede significar “tu, su (de él), su (de ella), su (de usted)”; para aclarar, en portugués brasileño se usa “dele/dela/deles/delas” después del sustantivo.", "Esta é a irmã dele. / Estes são os pais dela."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his sister” en portugués sin ambigüedad?",["o irmão dele", "a irmã dela", "a irmã dele", "o irmão dela"],2,"“His sister” es “a irmã dele”."],
+      ["mcq","¿Cómo se dice “our parents” en portugués?",["seus pais", "teus pais", "meus pais", "nossos pais"],3,"“Our” es “nosso/nossa”, aquí “nossos pais”."],
+      ["fill","Completa: “Ela fala com a mãe ___.”",["dele", "delas", "deles", "dela"],3,"“Dela” aclara que la madre es de ella (evita la ambigüedad de “sua”)."],
+      ["translate","Traduce: “These are their siblings.”",["Estes são os irmãos dele.", "Estes são os irmãos deles.", "Este é o irmão deles.", "Estes são nossos irmãos."],1,"“Their” (de ellos) se traduce con “deles” después del sustantivo."],
+      ["arrange","Ordena: [irmã / minha / é / esta]",["esta é minha irmã", "irmã é minha esta", "é minha irmã esta", "irmã esta minha é"],0,"Sujeto + verbo “ser” + posesivo + sustantivo."],
+      ["speaking","Descreva em português, em 25-35 palavras, três membros da sua família usando possessivos.",[],["minha", "dele", "nossa"]],
+    ]
+  },
+  {
+    id:"pt_a1_there_is_are_prepositions", level:"A1", title:"«Tem / Há» y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “tem/há” y las preposiciones de lugar en portugués.",
+    study: {
+      vocab: [
+        ["tem / há", "there is / there are"],
+        ["dentro de, em cima de, embaixo de", "in, on, under"],
+        ["ao lado de, entre", "next to, between"],
+        ["na frente de, atrás de", "in front of, behind"],
+        ["Tem...? / Há...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“Tem” (hablado) y “Há” (formal) son invariables", "En el portugués brasileño hablado, “tem” es la forma más usada para “hay”; “há” es más formal. Ambas son invariables, no cambian con el número.", "Tem uma lâmpada em cima da mesa. / Tem duas cadeiras ao lado da mesa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en portugués?",["em cima de", "ao lado de", "atrás de", "embaixo de"],3,"“Under” es “embaixo de”."],
+      ["mcq","¿Cómo se dice “between” en portugués?",["atrás de", "entre", "dentro de", "na frente de"],1,"“Between” es “entre”."],
+      ["fill","Completa: “Tem dois livros ___ da mesa.”",["entre", "dentro", "atrás", "em cima"],3,"“Em cima” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["Tem gatos embaixo da mesa.", "Tem um gato embaixo da mesa.", "Tem um gato em cima da mesa.", "Tem um gato ao lado da mesa."],1,"“Under the table” es “embaixo da mesa”."],
+      ["arrange","Ordena: [cadeira / ao / está / lado / a / da / lâmpada]",["da a está lado lâmpada cadeira ao", "ao da a cadeira lado lâmpada está", "a cadeira está ao lado da lâmpada", "lado está lâmpada da ao a cadeira"],2,"Sujeto + verbo “estar” + preposición + objeto."],
+      ["writing","Descreva em português, em 25-35 palavras, onde estão três objetos no seu quarto usando “tem” e preposições de lugar.",[],["tem", "ao lado de", "embaixo de"]],
+    ]
+  },
+  {
+    id:"pt_a1_plurals_articles", level:"A1", title:"O plural dos substantivos e os artigos", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en portugués y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["o livro / os livros", "the book / the books"],
+        ["o animal / os animais", "the animal / the animals"],
+        ["o mês / os meses", "the month / the months"],
+        ["a mulher / as mulheres", "the woman / the women"],
+        ["um, uma", "a, an"],
+        ["o, a, os, as", "the"],
+      ],
+      grammar: [
+        ["Reglas del plural en portugués", "Se añade “-s” en la mayoría de los casos; los terminados en “-l” cambian a “-is” (“animal→animais”), y los terminados en “-m” cambian a “-ns”.", "livro→livros, animal→animais, mês→meses, mulher→mulheres"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “animal”?",["animals", "animales", "animaus", "animais"],3,"Terminado en “-l” → plural en “-is”: “animais”."],
+      ["mcq","¿Cuál es el plural de “mês”?",["mêses", "mesas", "mesos", "meses"],3,"El plural regular de “mês” es “meses”."],
+      ["fill","Completa: “Eu preciso de ___ guarda-chuva; está chovendo.”",["uma", "uns", "um", "o"],2,"“Guarda-chuva” es masculino singular → “um”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Tem três caixaas na garagem.", "Tem três caixas na garagem.", "Tem três caixas nas garagens.", "Tem três caixa na garagem."],1,"“Caixa” es regular → plural “caixas”."],
+      ["arrange","Ordena: [estão / onde / os / livros]",["os estão livros onde", "estão livros os onde", "onde estão os livros", "os estão onde livros"],2,"Palabra interrogativa + verbo + artículo + sustantivo plural."],
+      ["writing","Escreva em português 20-30 palavras sobre objetos que tem na sua mochila, usando pelo menos dois plurais.",[],["livros", "caixas", "tem"]],
+    ]
+  },
+  {
+    id:"pt_a1_likes_dislikes", level:"A1", title:"Gostos e preferências", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en portugués con “gostar de”.",
+    study: {
+      vocab: [
+        ["eu gosto de / eu adoro", "I like / I love"],
+        ["eu não gosto de / eu odeio", "I don't like / I hate"],
+        ["nadar, ler, cozinhar", "swimming, reading, cooking"],
+        ["Você gosta de...?", "Do you like...?"],
+        ["E você?", "What about you?"],
+      ],
+      grammar: [
+        ["Verbo + infinitivo tras “gostar de/adorar/odiar”", "En portugués, el verbo que sigue a “gostar de”, “adorar” u “odiar” va en infinitivo, no en gerundio como en inglés. “Gostar” siempre lleva la preposición “de”.", "Eu adoro ler. / Ela odeia esperar na fila."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “I love” en portugués?",["eu não gosto de", "eu odeio", "eu gosto de", "eu adoro"],3,"“I love” es “eu adoro”."],
+      ["mcq","¿Cómo se dice “I hate” en portugués?",["você gosta de", "eu odeio", "eu gosto de", "eu adoro"],1,"“I hate” es “eu odeio”."],
+      ["fill","Completa: “Ela adora ___ nos fins de semana.”",["cozinhar", "cozinhando", "cozinha", "cozinho"],0,"Tras “adorar” el verbo va en infinitivo: “cozinhar”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Eu odeio nadar água fria.", "Eu não gosto de nadando em água fria.", "Eu gosto de nadar em água fria.", "Eu não gosto de nadar em água fria."],3,"“I don't like” + infinitivo: “eu não gosto de nadar”."],
+      ["arrange","Ordena: [gosta / ela / de / livros / ler]",["de ela livros gosta ler", "ela gosta de ler livros", "ela de livros gosta ler", "de livros ela ler gosta"],1,"Sujeto + “gostar de” + infinitivo + objeto."],
+      ["speaking","Fale em português por 25-35 palavras sobre três atividades que você gosta e uma que você odeia.",[],["eu adoro", "eu gosto de", "eu odeio"]],
+    ]
+  },
+  {
+    id:"pt_a2_future_plans", level:"A2", title:"O futuro: planos e previsões", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en portugués usando “ir + infinitivo” para planes y el futuro para predicciones.",
+    study: {
+      vocab: [
+        ["eu vou...", "I'm going to..."],
+        ["presente do indicativo (para planos)", "present tense (for confirmed plans)"],
+        ["futuro do presente (-ei, -á...)", "future tense"],
+        ["eu acho que vai chover", "I think it will rain"],
+        ["o que você vai fazer?", "What are you going to do?"],
+      ],
+      grammar: [
+        ["“Ir + infinitivo” vs futuro do presente", "“Ir + infinitivo” es la forma más común para planes ya decididos; el futuro do presente se reserva más para predicciones o el registro formal.", "Eu vou visitar meus pais na próxima semana. / Eu acho que vai chover amanhã."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura usas para un plan ya decidido?",["eu acho", "você gosta", "eu vou", "futuro do presente"],2,"Para planes ya decididos usamos “ir + infinitivo”: “eu vou”."],
+      ["mcq","¿Cómo se dice “next week” en portugués?",["esta semana", "a próxima semana", "o próximo ano", "a semana passada"],1,"“Next week” es “a próxima semana”."],
+      ["fill","Completa: “Olha essas nuvens! ___ chover.”",["Tem", "Choverá", "Era", "Vai"],3,"Con evidencia presente (nubes) usamos “ir + infinitivo”: “vai chover”."],
+      ["translate","Traduce: “I think we will win the game.”",["Eu acho que ganharíamos o jogo.", "Eu acho que ganhamos o jogo ganhado.", "Eu acho que ganhamos o jogo.", "Eu acho que vamos ganhar o jogo."],3,"Predicción sin evidencia clara → “ir + infinitivo”: “vamos ganhar”."],
+      ["arrange","Ordena: [visitar / vou / avós / meus / na / próxima / semana / eu]",["meus semana na visitar próxima vou eu avós", "na próxima semana meus eu vou visitar avós", "visitar eu próxima na meus vou avós semana", "eu vou visitar meus avós na próxima semana"],3,"Sujeto + “ir” + infinitivo + objeto + expresión de tiempo."],
+      ["writing","Escreva em português 30-40 palavras sobre seus planos para o próximo mês, usando “ir + infinitivo” e uma previsão no futuro.",[],["eu vou", "próxima", "eu acho que"]],
+    ]
+  },
+  {
+    id:"pt_a2_comparatives_superlatives", level:"A2", title:"Os comparativos e os superlativos", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en portugués usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["maior que, menor que", "bigger than, smaller than"],
+        ["mais caro que", "more expensive than"],
+        ["o/a melhor, o/a pior", "the best, the worst"],
+        ["tão...quanto", "as...as"],
+        ["o/a mais interessante", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativos y superlativos regulares e irregulares", "“Mais/menos + adjetivo + que” forma el comparativo; “o/a mais + adjetivo” el superlativo. Irregular: bom→melhor, ruim→pior.", "Este carro é mais rápido que aquele, mas o vermelho é o mais rápido."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “bom”?",["o melhor", "boníssimo", "melhor", "mais bom"],2,"“Bom” es irregular: melhor, o melhor."],
+      ["mcq","¿Cómo se dice “as expensive as” en portugués?",["o mais caro", "mais caro que", "tão caro quanto", "menos caro"],2,"“As...as” es “tão...quanto”."],
+      ["fill","Completa: “Este telefone é ___ que o meu, mas não é o melhor.”",["o melhor", "mais bom", "melhor", "boníssimo"],2,"Comparativo irregular de “bom” es “melhor”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["Este é mais barato hotel da cidade.", "Este é o hotel tão barato da cidade.", "Este é o hotel barato da cidade.", "Este é o hotel mais barato da cidade."],3,"Superlativo: “o/a mais + adjetivo”."],
+      ["arrange","Ordena: [que / alto / irmão / meu / é / eu]",["meu irmão é alto que eu", "irmão meu que eu alto é", "alto que meu é irmão eu", "irmão meu alto eu que é"],0,"Sujeto + verbo + comparativo + “que” + objeto (versión simplificada, sin “mais”)."],
+      ["speaking","Compare em português, em 30-40 palavras, duas cidades ou lugares que você conhece usando comparativos e um superlativo.",[],["mais", "o melhor", "que"]],
+    ]
+  },
+  {
+    id:"pt_a2_advice_modals", level:"A2", title:"Conselhos e obrigação: deveria, tem que", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en portugués.",
+    study: {
+      vocab: [
+        ["você deveria...", "you should..."],
+        ["você não deveria...", "you shouldn't..."],
+        ["eu tenho que / eu preciso", "I must / I have to"],
+        ["você não precisa", "you don't have to"],
+        ["é uma boa ideia...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Deveria” (consejo) vs “tem que” (obligación)", "“Deveria” da un consejo suave; “tem que/precisa” expresan obligación; “não precisa” significa que algo no es necesario, mientras que la prohibición se expresa con “não pode”.", "Você deveria beber mais água. / Você tem que usar o cinto de segurança."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["você não pode", "você não precisa", "você tem que", "você deveria"],3,"“Você deveria” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en portugués?",["você não pode", "você não deveria", "você não precisa", "você tem que"],2,"“You don't have to” es “você não precisa”, no “você não pode” (prohibición)."],
+      ["fill","Completa: “Você ___ fumar aqui; é proibido.”",["tem", "não precisa", "deveria", "não pode"],3,"“Não pode” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Você não precisa dormir mais.", "Você não pode dormir mais.", "Você tem que dormir mais.", "Você deveria dormir mais."],3,"Consejo suave → “deveria”."],
+      ["arrange","Ordena: [cinto / usar / que / tem / um / você]",["tem um cinto você que usar", "um usar tem você que cinto", "um cinto que usar tem você", "você tem que usar um cinto"],3,"Sujeto + “ter que” + infinitivo + objeto."],
+      ["writing","Escreva em português 30-40 palavras dando três conselhos para um amigo que vai viajar pela primeira vez.",[],["você deveria", "você tem que", "você não precisa"]],
+    ]
+  },
+  {
+    id:"pt_a2_phone_calls", level:"A2", title:"Ligações telefônicas", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en portugués.",
+    study: {
+      vocab: [
+        ["Alô, aqui é...", "Hello, this is..."],
+        ["Posso falar com...?", "Can I speak to...?"],
+        ["Posso deixar um recado?", "Can I take/leave a message?"],
+        ["Um momento, por favor.", "Hold on, please."],
+        ["Você pode ligar mais tarde?", "Can you call back later?"],
+        ["Eu ligo de volta.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En portugués se atiende el teléfono con “Alô” y uno se identifica con “aqui é...”.", "Alô, aqui é a Laura. Posso falar com o senhor Silva, por favor?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en portugués?",["Eu ligo de volta.", "Um momento, por favor.", "Posso deixar um recado?", "Posso falar com...?"],2,"“Can I take/leave a message?” es “Posso deixar um recado?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en portugués?",["Ligue mais tarde.", "Posso falar com...?", "Aqui é a Laura.", "Um momento, por favor."],3,"“Hold on, please” es “Um momento, por favor”."],
+      ["fill","Completa: “Alô, ___ o Marcos. A Ana está?”",["aqui é", "eu estava aqui", "eu sou", "aqui estou"],0,"Al identificarse por teléfono se dice “aqui é o Marcos”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Posso deixar o senhor García, por favor?", "Posso ligar o senhor García, por favor?", "Posso esperar o senhor García, por favor?", "Posso falar com o senhor García, por favor?"],3,"“Can I speak to...?” es “Posso falar com...?”."],
+      ["arrange","Ordena: [volta / ligo / de / eu]",["volta de ligo eu", "eu ligo de volta", "de ligo volta eu", "ligo eu de volta"],1,"Sujeto + verbo + preposición + adverbio."],
+      ["speaking","Simule em português, em 30-40 palavras, uma ligação telefônica pedindo para falar com alguém e deixando um recado.",[],["posso falar com", "posso deixar um recado", "aqui é"]],
+    ]
+  },
+  {
+    id:"pt_a2_quantifiers_countable", level:"A2", title:"Quantidades: um pouco de, quanto, quantos", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en portugués distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["algum/alguma, nenhum/nenhuma", "some, any/none"],
+        ["Quanto/a...?", "How much...?"],
+        ["Quantos/as...?", "How many...?"],
+        ["muito/muitos", "a lot of / much, many"],
+        ["pouco/poucos", "little, few"],
+      ],
+      grammar: [
+        ["Contables vs incontables en portugués", "“Quantos/as” y “muitos/as, poucos/as” concuerdan con sustantivos contables plurales; “quanto/a” y “muito/a, pouco/a” con incontables en singular.", "Quantas maçãs você tem? / Quanta água tem? / Eu não tenho dinheiro nenhum."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["Quantos", "Quanta", "algumas", "muitos"],1,"“Água” es incontable femenino → “Quanta”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables plurales, como “maçãs”?",["muita", "pouca", "Quantas", "Quanto"],2,"“Maçãs” es contable plural femenino → “Quantas”."],
+      ["fill","Completa: “Eu não tenho dinheiro ___.”",["muitos", "poucos", "algum", "nenhum"],3,"En negativas usamos “nenhum” con sustantivos incontables como “dinheiro”."],
+      ["translate","Traduce: “How many books do you have?”",["Quanto livros você tem?", "Quantos livros você tem?", "Quanto livro você tem?", "Quantos livro você tem?"],1,"“Livros” es contable plural masculino → “Quantos livros”."],
+      ["arrange","Ordena: [leite / quanto / tem]",["quanto leite tem", "tem leite quanto", "leite quanto tem", "tem quanto leite"],0,"Palabra interrogativa + sustantivo incontable + verbo."],
+      ["writing","Descreva em português, em 25-35 palavras, o que tem na sua geladeira usando “algum”, “muito” e “poucos”.",[],["muito", "poucos", "algum"]],
+    ]
+  },
+  {
+    id:"pt_b1_past_continuous_narrative", level:"B1", title:"Narrar interrupções: estar no imperfeito + gerúndio", emoji:"🌙", xp:60,
+    description:"Aprende a combinar “estar” en imperfecto con gerundio y el pretérito perfeito para narrar interrupciones.",
+    study: {
+      vocab: [
+        ["eu estava cozinhando / eles estavam falando", "I was cooking / they were talking"],
+        ["enquanto, quando", "while, when"],
+        ["de repente", "suddenly"],
+        ["o telefone tocou", "the phone rang"],
+        ["no meio de...", "in the middle of..."],
+      ],
+      grammar: [
+        ["“Estar” en imperfecto + gerundio + pretérito perfeito", "El portugués usa “estar” en pretérito imperfeito + gerundio para la acción en curso (similar al inglés), y el pretérito perfeito para la acción que la interrumpe.", "Eu estava cozinhando o jantar quando o telefone tocou. / Enquanto ela estava estudando, o amigo dela chegou."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma se usa para la acción de fondo que se interrumpe?",["cozinhar", "estava cozinhando", "cozinho", "cozinhei"],1,"La acción de fondo va con “estar” en imperfecto + gerundio: “estava cozinhando”."],
+      ["mcq","¿Cómo se dice “suddenly” en portugués?",["quando", "enquanto", "de repente", "no meio de"],2,"“Suddenly” es “de repente”."],
+      ["fill","Completa: “Eu ___ o jantar quando o telefone tocou.”",["cozinhar", "cozinhei", "cozinho", "estava cozinhando"],3,"Acción interrumpida = “estava” + gerundio: “estava cozinhando”."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Enquanto ela estava estudando, o amigo dela estava chegando.", "Enquanto ela estuda, o amigo dela chegou.", "Enquanto ela estudou, o amigo dela estava chegando.", "Enquanto ela estava estudando, o amigo dela chegou."],3,"Fondo con “estava” + gerundio, interrupción en pretérito perfeito: “estava estudando... chegou”."],
+      ["arrange","Ordena: [tocou / cozinhando / jantar / eu / o / quando / o / estava / telefone]",["eu estava cozinhando o jantar quando o telefone tocou", "jantar quando o cozinhando estava tocou telefone eu o", "o eu tocou quando cozinhando jantar estava o telefone", "cozinhando o telefone tocou eu o estava jantar quando"],0,"“Estava” + gerundio + objeto + “quando” + pretérito perfeito."],
+      ["writing","Escreva em português 40-55 palavras contando uma história curta em que algo te interrompeu enquanto você fazia outra coisa.",[],["enquanto", "quando", "de repente"]],
+    ]
+  },
+  {
+    id:"pt_b1_second_conditional", level:"B1", title:"O futuro do pretérito para situações hipotéticas", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en portugués.",
+    study: {
+      vocab: [
+        ["se eu tivesse...", "if I had..."],
+        ["eu -ia / eu não -ia", "I would / I wouldn't"],
+        ["se eu fosse você...", "if I were you..."],
+        ["o que você faria se...?", "What would you do if...?"],
+        ["situação imaginária", "imaginary situation"],
+      ],
+      grammar: [
+        ["Se + pretérito imperfeito do subjuntivo, futuro do pretérito", "Para situaciones hipotéticas poco probables, se usa “se” + pretérito imperfeito do subjuntivo, seguido del futuro do pretérito (condicional).", "Se eu tivesse mais tempo, eu viajaria mais. / Se eu fosse você, eu aceitaria a oferta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “se eu fosse você, eu...”?",["aceitarei", "aceitaria", "aceito", "aceitei"],1,"Tras la cláusula con “se” va el futuro do pretérito: “aceitaria”."],
+      ["mcq","¿Cómo se dice “imaginary situation” en portugués?",["situação imaginária", "plano futuro", "experiência passada", "situação real"],0,"“Imaginary situation” es “situação imaginária”."],
+      ["fill","Completa: “Se eu ___ mais dinheiro, eu viajaria pelo mundo.”",["terei", "tenho", "tive", "tivesse"],3,"Pretérito imperfeito do subjuntivo de “ter” es “tivesse”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Se eu fosse você, eu aceitaria o emprego.", "Se eu era você, eu aceitarei o emprego.", "Se eu fosse você, eu aceito o emprego.", "Se eu sou você, eu aceitaria o emprego."],0,"“Se eu fosse você” es la forma estándar para un consejo hipotético."],
+      ["arrange","Ordena: [tempo / mais / se / tivesse / eu / viajaria / eu]",["eu tivesse viajaria tempo mais eu se", "tivesse tempo mais eu eu se viajaria", "se eu tivesse mais tempo eu viajaria", "mais tempo viajaria eu tivesse eu se"],2,"“Se” + pretérito imperfeito do subjuntivo + futuro do pretérito."],
+      ["speaking","Fale em português, em 40-55 palavras, sobre o que você faria se ganhasse na loteria, usando o futuro do pretérito.",[],["se eu tivesse", "eu -ia", "imaginária"]],
+    ]
+  },
+  {
+    id:"pt_b1_modals_deduction", level:"B1", title:"Expressar certeza, possibilidade e dúvida", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en portugués.",
+    study: {
+      vocab: [
+        ["deve estar", "must be (alta certeza)"],
+        ["pode estar", "might/may be (posibilidad)"],
+        ["não pode estar", "can't be (certeza negativa)"],
+        ["poderia estar", "could be (posibilidad)"],
+        ["eu tenho certeza / eu não tenho certeza", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza en portugués", "“Dever” en presente expresa una fuerte deducción (“deve estar”); “pode/poderia” expresan posibilidad, no certeza; “não pode estar” expresa certeza negativa.", "As luzes estão apagadas, então eles devem estar dormindo. / Ele pode estar no trabalho, eu não tenho certeza."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["não pode estar", "pode estar", "poderia estar", "deve estar"],0,"“Não pode estar” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["pode estar", "deve estar", "eu tenho certeza", "não pode estar"],0,"“Pode estar” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “As luzes estão apagadas, então eles ___ dormindo.”",["não podem estar", "devem estar", "podem estar", "poderiam estar"],1,"Evidencia fuerte (luces apagadas) → “devem estar” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["Deve ser tão tarde.", "Poderia ser tão tarde.", "Pode ser tão tarde.", "Não pode ser tão tarde."],3,"Certeza negativa fuerte → “não pode ser”."],
+      ["arrange","Ordena: [trabalho / no / estar / pode / ele]",["ele pode estar no trabalho", "pode ele trabalho no estar", "ele pode no estar trabalho", "estar trabalho ele pode no"],0,"Sujeto + modal + “estar” + complemento."],
+      ["writing","Escreva em português 35-45 palavras fazendo deduções sobre uma situação (por exemplo, por que alguém não atende o telefone).",[],["deve estar", "pode estar", "não pode estar"]],
+    ]
+  },
+  {
+    id:"pt_b1_reported_speech_basics", level:"B1", title:"O discurso indireto básico", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en portugués lo que alguien dijo usando el discurso indirecto básico.",
+    study: {
+      vocab: [
+        ["ele disse que...", "he said (that)..."],
+        ["ela me disse que...", "she told me (that)..."],
+        ["ela disse que estava cansada", "she said she was tired"],
+        ["ele disse que ligaria", "he said he would call"],
+        ["mudança de tempo verbal", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a pretérito imperfeito, y el futuro se convierte en futuro do pretérito.", "Direto: «Estou cansada.» → Indireto: Ela disse que estava cansada. / Direto: «Eu vou te ligar.» → Indireto: Ele disse que ligaria."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en portugués?",["ela dirá que", "ela me disse que", "ela diz que", "ela me diz que"],1,"“She told me” es “ela me disse”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“eu ligo”) en discurso indirecto?",["liga", "ligará", "ligaria", "ligava"],2,"El futuro se convierte en futuro do pretérito: “ligaria”."],
+      ["fill","Completa: “Ela disse que ___ cansada.”",["esteve", "está", "estava", "estivesse"],2,"El presente (“estou”) pasa a pretérito imperfeito (“estava”) en discurso indirecto."],
+      ["translate","Traduce: “He said he would call later.”",["Ele disse que ligaria mais tarde.", "Ele disse que liga mais tarde.", "Ele disse que vai ligar mais tarde.", "Ele disse que ligou mais tarde."],0,"El futuro pasa a futuro do pretérito en discurso indirecto: “ligaria”."],
+      ["arrange","Ordena: [cansada / disse / estava / que / ela]",["cansada que disse ela estava", "ela disse que estava cansada", "ela estava que disse cansada", "disse estava ela cansada que"],1,"Sujeto + “disse que” + verbo en pretérito imperfeito."],
+      ["writing","Escreva em português 35-45 palavras contando no discurso indireto três coisas que alguém te disse recentemente.",[],["disse que", "me disse", "ligaria"]],
+    ]
+  },
+  {
+    id:"pt_b1_sequencing_process", level:"B1", title:"Descrever um processo: conectores de sequência", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en portugués usando conectores de orden.",
+    study: {
+      vocab: [
+        ["Primeiro...", "first..."],
+        ["Depois / Em seguida...", "then / next..."],
+        ["Depois disso...", "after that..."],
+        ["Por fim / Finalmente...", "finally..."],
+        ["Assim que você tiver..., ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "Primeiro, você preenche o formulário. Depois, envia online. Por fim, espera um e-mail de confirmação."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["Por fim", "Primeiro", "Depois", "Depois disso"],0,"“Por fim” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["Primeiro", "Depois disso", "Depois", "Por fim"],0,"“Primeiro” indica el primer paso."],
+      ["fill","Completa: “___ que você preencher o formulário, envie online.”",["Por fim", "Assim", "Primeiro", "Depois"],1,"“Assim que” introduce una condición temporal."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["Depois, misture os ingredientes; primeiro, asse por 20 minutos.", "Por fim, misture os ingredientes; depois, asse por 20 minutos.", "Primeiro, misture os ingredientes; primeiro, asse por 20 minutos.", "Primeiro, misture os ingredientes; depois, asse por 20 minutos."],3,"“First...then” es “primeiro...depois”."],
+      ["arrange","Ordena: [disso / envie / formulário / depois / o]",["depois disso envie o formulário", "envie o depois disso formulário", "depois formulário disso o envie", "o envie depois formulário disso"],0,"Conector de secuencia + verbo + artículo + objeto."],
+      ["speaking","Explique em português, em 40-55 palavras, os passos para fazer algo que você sabe fazer (uma receita, um trâmite, etc.) usando pelo menos três conectores de sequência.",[],["primeiro", "depois", "por fim"]],
+    ]
+  },
 ];

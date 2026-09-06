@@ -4093,4 +4093,368 @@ window.LESSON_BANKS.DE = [
       ["writing","Escribe en alemán, en 55-75 palabras, un análisis sobre política monetaria usando “insofern als” o “insoweit” al menos una vez.",[],["insofern als", "Geldpolitik", "Zentralbank"]],
     ]
   },
+  {
+    id:"de_a1_wh_questions", level:"A1", title:"Die W-Fragen: was, wer, wo, wann, warum", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en alemán con las palabras interrogativas (W-Fragen).",
+    study: {
+      vocab: [
+        ["Was...?", "What...?"],
+        ["Wer...?", "Who...?"],
+        ["Wo...?", "Where...?"],
+        ["Wann...?", "When...?"],
+        ["Warum...?", "Why...?"],
+        ["Wie...?", "How...?"],
+      ],
+      grammar: [
+        ["Wortstellung bei W-Fragen", "W-Wort + konjugiertes Verb + Subjekt (Verb an zweiter Position).", "Wo wohnst du? / Wie heißt du? / Wann beginnt der Kurs?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Wo", "Was", "Wer", "Wann"],0,"“Wo” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Wer", "Warum", "Wie", "Was"],0,"“Wer” se usa para preguntar por personas."],
+      ["fill","Completa: “___ wohnst du?”",["Wer", "Was", "Wo", "Warum"],2,"Preguntamos por el lugar donde vive alguien con “Wo”."],
+      ["translate","Traduce: “Why do you learn German?”",["Was lernst du Deutsch?", "Wer lernst du Deutsch?", "Warum lernst du Deutsch?", "Wo lernst du Deutsch?"],2,"“Why” se traduce como “Warum”."],
+      ["arrange","Ordena: [du / wo / wohnst]",["wo wohnst du", "wo du wohnst", "du wohnst wo", "wohnst du wo"],0,"W-Wort + Verb + Subjekt: “Wo wohnst du?”"],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter mit mindestens drei W-Fragen, um jemanden neu kennenzulernen.",[],["Wo", "Wie", "Wann"]],
+    ]
+  },
+  {
+    id:"de_a1_possessives_family", level:"A1", title:"Die Possessivpronomen und die Familie", emoji:"👪", xp:35,
+    description:"Aprende los posesivos en alemán y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["mein/meine", "my"],
+        ["dein/deine", "your (informal)"],
+        ["sein/seine, ihr/ihre", "his, her"],
+        ["unser/unsere", "our"],
+        ["ihr/ihre (their)", "their"],
+        ["die Mutter, der Vater, die Eltern", "mother, father, parents"],
+      ],
+      grammar: [
+        ["Los posesivos concuerdan con el sustantivo que sigue", "Los posesivos alemanes se declinan como adjetivos, concordando en género y caso con el sustantivo. “Sein” = su (de él), “ihr” = su (de ella/de ellos).", "Das ist seine Schwester. / Das sind ihre Eltern."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his sister” en alemán?",["ihre Schwester", "seine Schwester", "unsere Schwester", "deine Schwester"],1,"“His” (de él) es “sein/seine”."],
+      ["mcq","¿Cómo se dice “our parents” en alemán?",["deine Eltern", "unsere Eltern", "ihre Eltern", "meine Eltern"],1,"“Our” es “unser/unsere”."],
+      ["fill","Completa: “___ Mutter kommt aus Berlin.”",["Deine", "Ihre", "Seine", "Unsere"],2,"“Mutter” es femenino nominativo → “seine” (su, de él)."],
+      ["translate","Traduce: “These are their siblings.”",["Das sind unsere Geschwister.", "Das ist ihre Geschwister.", "Das sind ihre Geschwister.", "Das sind seine Geschwister."],2,"“Their” (de ellos) también es “ihr/ihre” en alemán."],
+      ["arrange","Ordena: [Schwester / ist / meine / das]",["ist das Schwester meine", "Schwester das meine ist", "ist das meine Schwester", "das ist meine Schwester"],3,"Sujeto + verbo “sein” + posesivo + sustantivo."],
+      ["speaking","Beschreibe auf Deutsch, in 25-35 Wörtern, drei Familienmitglieder mit Possessivpronomen.",[],["meine", "seine", "unsere"]],
+    ]
+  },
+  {
+    id:"de_a1_there_is_are_prepositions", level:"A1", title:"„Es gibt“ und die Präpositionen des Ortes", emoji:"📍", xp:36,
+    description:"Aprende a usar “es gibt” y las preposiciones de lugar en alemán.",
+    study: {
+      vocab: [
+        ["es gibt", "there is / there are"],
+        ["in, auf, unter", "in, on, under"],
+        ["neben, zwischen", "next to, between"],
+        ["vor, hinter", "in front of, behind"],
+        ["Gibt es...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“Es gibt” + Akkusativ", "“Es gibt” es invariable (no cambia con el número) y va seguido del caso acusativo.", "Es gibt eine Lampe auf dem Tisch. / Es gibt zwei Stühle neben dem Schreibtisch."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en alemán?",["hinter", "unter", "auf", "neben"],1,"“Under” es “unter”."],
+      ["mcq","¿Cómo se dice “between” en alemán?",["in", "vor", "zwischen", "hinter"],2,"“Between” es “zwischen”."],
+      ["fill","Completa: “Es gibt zwei Bücher ___ dem Tisch.”",["auf", "in", "zwischen", "hinter"],0,"“Auf” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["Es gibt Katzen unter dem Tisch.", "Es gibt eine Katze auf dem Tisch.", "Es gibt eine Katze unter dem Tisch.", "Es gibt eine Katze neben dem Tisch."],2,"“Under the table” es “unter dem Tisch”."],
+      ["arrange","Ordena: [Stuhl / der / neben / ist / der / Lampe]",["Lampe ist Stuhl der neben der", "der Stuhl ist neben der Lampe", "der der Stuhl neben Lampe ist", "ist Lampe neben der der Stuhl"],1,"Sujeto + verbo “sein” + preposición + objeto."],
+      ["writing","Beschreibe auf Deutsch, in 25-35 Wörtern, wo sich drei Gegenstände in deinem Zimmer befinden, benutze „es gibt“ und Präpositionen.",[],["es gibt", "neben", "unter"]],
+    ]
+  },
+  {
+    id:"de_a1_plurals_articles", level:"A1", title:"Der Plural der Substantive und die Artikel", emoji:"🔤", xp:34,
+    description:"Aprende los patrones del plural en alemán y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["das Buch / die Bücher", "the book / the books"],
+        ["das Kind / die Kinder", "the child / the children"],
+        ["die Stadt / die Städte", "the city / the cities"],
+        ["der Mann / die Männer", "the man / the men"],
+        ["ein, eine", "a, an"],
+        ["der, die, das", "the"],
+      ],
+      grammar: [
+        ["Patrones del plural (memorizar por sustantivo)", "El alemán tiene varios patrones de plural (-e, -er, -n, con o sin Umlaut); el artículo definido plural siempre es “die”, sin importar el género en singular.", "Buch→Bücher, Kind→Kinder, Stadt→Städte, Mann→Männer"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “Kind”?",["Kindern", "Kinden", "Kinder", "Kinds"],2,"El plural de “Kind” es irregular: “Kinder”."],
+      ["mcq","¿Cuál es el plural de “Mann”?",["Männer", "Männe", "Mannen", "Manns"],0,"El plural de “Mann” añade “-er” y Umlaut: “Männer”."],
+      ["fill","Completa: “Ich brauche ___ Regenschirm; es regnet.”",["einen", "ein", "der", "eine"],0,"“Regenschirm” es masculino y objeto directo (acusativo) → “einen”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Es gibt drei Kisten in den Garagen.", "Es gibt drei Kiste in der Garage.", "Es gibt drei Kisten in der Garage.", "Es gibt drei Kistes in der Garage."],2,"“Kiste” en plural regular es “Kisten”."],
+      ["arrange","Ordena: [sind / wo / die / Bücher]",["Bücher wo sind die", "wo sind die Bücher", "die sind Bücher wo", "Bücher die sind wo"],1,"Palabra interrogativa + verbo + artículo + sustantivo plural: “Wo sind die Bücher?”"],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände in deinem Rucksack, benutze mindestens zwei Pluralformen.",[],["Bücher", "Kisten", "es gibt"]],
+    ]
+  },
+  {
+    id:"de_a1_likes_dislikes", level:"A1", title:"Vorlieben und Abneigungen", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en alemán con “gern”.",
+    study: {
+      vocab: [
+        ["Ich mag... (+ Nomen)", "I like... (+ noun)"],
+        ["gern + Verb", "to like doing something"],
+        ["Ich hasse...", "I hate..."],
+        ["schwimmen, lesen, kochen", "swimming, reading, cooking"],
+        ["Magst du...?", "Do you like...?"],
+      ],
+      grammar: [
+        ["“Gern” tras el verbo conjugado", "A diferencia del inglés (gerundio) y el francés (infinitivo), en alemán se añade “gern” después del verbo conjugado para decir que te gusta hacer algo.", "Ich lese gern. / Sie kocht gern am Wochenende."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo dices que te gusta cocinar?",["Ich mag nicht kochen", "Magst du kochen", "Ich hasse kochen", "Ich koche gern"],3,"“Gern” después del verbo conjugado: “Ich koche gern”."],
+      ["mcq","¿Cómo se dice “I hate” en alemán?",["gern", "Ich mag", "Magst du", "Ich hasse"],3,"“I hate” es “Ich hasse”."],
+      ["fill","Completa: “Sie ___ am Wochenende gern.”",["kocht", "zu kochen", "kochen", "gekocht"],0,"“Gern” va con el verbo conjugado: “sie kocht gern”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Ich hasse schwimmen kaltem Wasser.", "Ich schwimme gern in kaltem Wasser.", "Ich schwimme nicht gern in kaltem Wasser.", "Ich mag nicht schwimmen in kaltem Wasser."],2,"“I don't like” + verbo + “nicht gern”."],
+      ["arrange","Ordena: [gern / liest / sie / Bücher]",["sie liest gern Bücher", "liest gern sie Bücher", "Bücher gern sie liest", "Bücher sie gern liest"],0,"Sujeto + verbo + “gern” + objeto."],
+      ["speaking","Sprich auf Deutsch 25-35 Wörter über drei Aktivitäten, die du gerne machst, und eine, die du hasst.",[],["gern", "ich mag", "ich hasse"]],
+    ]
+  },
+  {
+    id:"de_a2_future_plans", level:"A2", title:"Die Zukunft: Pläne und Vorhersagen", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en alemán usando el presente para planes y “werden” para predicciones.",
+    study: {
+      vocab: [
+        ["Präsens + Zeitangabe", "present tense + time marker (for plans)"],
+        ["werden + Infinitiv", "will + infinitive"],
+        ["nächste Woche, nächstes Jahr", "next week, next year"],
+        ["Ich glaube, es wird regnen", "I think it will rain"],
+        ["Was machst du morgen?", "What are you doing tomorrow?"],
+      ],
+      grammar: [
+        ["Presente para planes vs “werden” para predicciones", "A diferencia del inglés, el alemán usa el presente + una expresión de tiempo para planes ya decididos; “werden + infinitivo” se reserva para predicciones o promesas.", "Ich besuche meine Eltern nächste Woche. / Ich glaube, es wird morgen regnen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa más para un plan ya decidido?",["Präsens + Zeitangabe", "Ich glaube", "Magst du", "werden + Infinitiv"],0,"Para planes ya decididos se usa el presente + expresión de tiempo."],
+      ["mcq","¿Cómo se dice “next week” en alemán?",["letzte Woche", "diese Woche", "nächste Woche", "nächstes Jahr"],2,"“Next week” es “nächste Woche”."],
+      ["fill","Completa: “Schau dir diese Wolken an! Es ___ regnen.”",["ist", "war", "wird", "hat"],2,"Predicción → “werden + infinitivo”: “es wird regnen”."],
+      ["translate","Traduce: “I think we will win the game.”",["Ich glaube, wir würden das Spiel gewinnen.", "Ich glaube, wir werden das Spiel gewinnen.", "Ich glaube, wir gewinnen das Spiel gewonnen.", "Ich glaube, wir haben das Spiel gewonnen."],1,"Predicción sin evidencia clara → “werden + infinitivo”."],
+      ["arrange","Ordena: [besuche / ich / Großeltern / meine / nächste / Woche]",["ich Großeltern Woche besuche nächste meine", "Woche besuche Großeltern ich meine nächste", "ich besuche meine Großeltern nächste Woche", "meine Großeltern besuche ich Woche nächste"],2,"Sujeto + verbo en presente + objeto + expresión de tiempo."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter über deine Pläne für nächsten Monat, benutze das Präsens für Pläne und „werden“ für eine Vorhersage.",[],["nächste", "werden", "ich glaube"]],
+    ]
+  },
+  {
+    id:"de_a2_comparatives_superlatives", level:"A2", title:"Komparativ und Superlativ", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en alemán con el comparativo y el superlativo.",
+    study: {
+      vocab: [
+        ["größer als, kleiner als", "bigger than, smaller than"],
+        ["teurer als", "more expensive than"],
+        ["am besten, am schlechtesten", "the best, the worst"],
+        ["so...wie", "as...as"],
+        ["am interessantesten", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativo con “-er” y superlativo con “am...-sten”", "El comparativo añade “-er” (a veces con Umlaut); el superlativo usa “am + adjetivo + -sten”. Irregular: gut→besser→am besten.", "Dieses Auto ist schneller als das andere, aber das rote ist am schnellsten."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “gut”?",["am besten", "guter", "besser", "gutier"],2,"“Gut” es irregular: besser, am besten."],
+      ["mcq","¿Cómo se dice “as expensive as” en alemán?",["so teuer wie", "am teuersten", "weniger teuer", "teurer als"],0,"“As...as” es “so...wie”."],
+      ["fill","Completa: “Dieses Handy ist ___ als meins, aber es ist nicht das beste.”",["gutier", "guter", "besser", "am besten"],2,"Comparativo irregular de “gut” es “besser”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["Das ist so billig Hotel der Stadt.", "Das ist billiger Hotel der Stadt.", "Das ist das billigste Hotel der Stadt.", "Das ist das billiger Hotel der Stadt."],2,"Superlativo: “das + adjetivo + -ste”."],
+      ["arrange","Ordena: [als / größer / Bruder / mein / ist / ich]",["als größer mein ich ist Bruder", "Bruder als größer ich ist mein", "größer ich als Bruder mein ist", "mein Bruder ist größer als ich"],3,"Sujeto + verbo + comparativo + “als” + objeto."],
+      ["speaking","Vergleiche auf Deutsch, in 30-40 Wörtern, zwei Städte oder Orte, die du kennst, mit Komparativ und Superlativ.",[],["als", "am besten", "so...wie"]],
+    ]
+  },
+  {
+    id:"de_a2_advice_modals", level:"A2", title:"Ratschläge und Pflicht: sollen, müssen, dürfen", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en alemán.",
+    study: {
+      vocab: [
+        ["Du solltest...", "you should..."],
+        ["Du solltest nicht...", "you shouldn't..."],
+        ["Ich muss...", "I must / I have to"],
+        ["Du musst nicht...", "you don't have to"],
+        ["Es ist eine gute Idee, zu...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Solltest” (consejo) vs “musst” (obligación) vs “darfst nicht” (prohibición)", "“Solltest” da un consejo suave; “musst” expresa obligación; “musst nicht” significa que algo no es necesario, mientras que la prohibición se expresa con “darfst nicht”.", "Du solltest mehr Wasser trinken. / Du musst einen Sicherheitsgurt tragen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["Du solltest", "Du musst nicht", "Du musst", "Du darfst nicht"],0,"“Du solltest” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en alemán?",["Du darfst nicht", "Du solltest nicht", "Du musst", "Du musst nicht"],3,"“You don't have to” es “du musst nicht”, no “du darfst nicht” (prohibición)."],
+      ["fill","Completa: “Du ___ hier nicht rauchen; es ist verboten.”",["darfst", "musst nicht", "solltest", "kannst"],0,"“Darfst nicht” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Du darfst mehr schlafen.", "Du musst mehr schlafen.", "Du musst nicht mehr schlafen.", "Du solltest mehr schlafen."],3,"Consejo suave → “solltest”."],
+      ["arrange","Ordena: [Sicherheitsgurt / tragen / musst / einen / du]",["musst tragen einen du Sicherheitsgurt", "du Sicherheitsgurt einen musst tragen", "du musst einen tragen Sicherheitsgurt", "du musst einen Sicherheitsgurt tragen"],3,"Sujeto + “müssen” + objeto + infinitivo al final."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter mit drei Ratschlägen für einen Freund, der zum ersten Mal verreist.",[],["du solltest", "du musst", "du musst nicht"]],
+    ]
+  },
+  {
+    id:"de_a2_phone_calls", level:"A2", title:"Telefongespräche", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en alemán.",
+    study: {
+      vocab: [
+        ["Hallo, hier ist...", "Hello, this is..."],
+        ["Kann ich mit... sprechen?", "Can I speak to...?"],
+        ["Kann ich etwas ausrichten?", "Can I take a message?"],
+        ["Einen Moment, bitte.", "Hold on, please."],
+        ["Kannst du später zurückrufen?", "Can you call back later?"],
+        ["Ich rufe dich zurück.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En alemán, al hablar por teléfono se usa “hier ist...” (no “ich bin”) para identificarse.", "Hallo, hier ist Laura. Kann ich mit Herrn Schmidt sprechen, bitte?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en alemán?",["Kann ich mit... sprechen?", "Einen Moment, bitte.", "Kann ich etwas ausrichten?", "Ich rufe dich zurück."],2,"“Can I take a message?” es “Kann ich etwas ausrichten?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en alemán?",["Ruf später zurück.", "Einen Moment, bitte.", "Hier ist Laura.", "Kann ich mit... sprechen?"],1,"“Hold on, please” es “Einen Moment, bitte”."],
+      ["fill","Completa: “Hallo, ___ Marc. Ist Anna da?”",["ich war hier", "hier bin", "hier ist", "ich bin"],2,"Al identificarse por teléfono se dice “hier ist Marc”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Kann ich mit Herrn García sprechen, bitte?", "Kann ich Herrn García anrufen, bitte?", "Kann ich Herrn García ausrichten, bitte?", "Kann ich Herrn García warten, bitte?"],0,"“Can I speak to...?” es “Kann ich mit... sprechen?”."],
+      ["arrange","Ordena: [zurück / rufe / dich / ich]",["ich rufe zurück dich", "zurück rufe dich ich", "zurück dich rufe ich", "ich rufe dich zurück"],3,"Sujeto + verbo + objeto + partícula separable."],
+      ["speaking","Simuliere auf Deutsch, in 30-40 Wörtern, ein Telefongespräch, in dem du nach jemandem fragst und eine Nachricht hinterlässt.",[],["kann ich mit", "kann ich etwas ausrichten", "hier ist"]],
+    ]
+  },
+  {
+    id:"de_a2_quantifiers_countable", level:"A2", title:"Mengenangaben: etwas, kein, wie viel, wie viele", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en alemán distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["etwas, kein/keine", "some, any/none"],
+        ["Wie viel...?", "How much...?"],
+        ["Wie viele...?", "How many...?"],
+        ["viel, viele", "a lot of / much, many"],
+        ["ein bisschen, ein paar", "a little, a few"],
+      ],
+      grammar: [
+        ["Contables vs incontables en alemán", "“Wie viele” y “viele” se usan con sustantivos contables en plural; “wie viel” y “viel” con incontables en singular.", "Wie viele Äpfel hast du? / Wie viel Wasser gibt es? / Ich habe kein Geld."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["Wie viele", "ein paar", "viele", "Wie viel"],3,"“Wasser” es incontable → “Wie viel”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables en plural, como “Äpfel”?",["Wie viele", "Wie viel", "ein bisschen", "viel"],0,"“Äpfel” es contable plural → “Wie viele”."],
+      ["fill","Completa: “Ich habe ___ Geld dabei.”",["kein", "ein paar", "etwas", "viele"],0,"En negativas usamos “kein” con sustantivos incontables como “Geld”."],
+      ["translate","Traduce: “How many books do you have?”",["Wie viel Bücher hast du?", "Wie viele Buch hast du?", "Wie viele Bücher hast du?", "Wie viel Buch hast du?"],2,"“Bücher” es contable plural → “Wie viele Bücher”."],
+      ["arrange","Ordena: [Milch / gibt / wie / es / viel]",["wie viel Milch gibt es", "viel gibt wie es Milch", "wie gibt Milch es viel", "es Milch wie gibt viel"],0,"“Wie viel” + sustantivo incontable + verbo + “es”."],
+      ["writing","Beschreibe auf Deutsch, in 25-35 Wörtern, was in deinem Kühlschrank ist, benutze „etwas“, „viel“ und „ein paar“.",[],["etwas", "viel", "ein paar"]],
+    ]
+  },
+  {
+    id:"de_b1_past_continuous_narrative", level:"B1", title:"Präteritum und „als“: unterbrochene Handlungen erzählen", emoji:"🌙", xp:60,
+    description:"Aprende a narrar historias con interrupciones en alemán usando el Präteritum y “als”.",
+    study: {
+      vocab: [
+        ["ich kochte / sie sprachen", "I was cooking / they were speaking (Präteritum)"],
+        ["während, als", "while, when"],
+        ["plötzlich", "suddenly"],
+        ["das Telefon klingelte", "the phone rang"],
+        ["mitten in...", "in the middle of..."],
+      ],
+      grammar: [
+        ["El alemán no tiene forma progresiva propia", "A diferencia del inglés, el alemán usa el Präteritum para ambas acciones; “gerade” enfatiza que una acción estaba en curso, y “als” introduce la acción que la interrumpe.", "Ich kochte gerade Abendessen, als das Telefon klingelte. / Während sie lernte, kam ihr Freund an."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra enfatiza que una acción estaba en curso?",["als", "gerade", "plötzlich", "während"],1,"“Gerade” enfatiza que la acción estaba en curso en ese momento."],
+      ["mcq","¿Cómo se dice “suddenly” en alemán?",["während", "als", "plötzlich", "mitten in"],2,"“Suddenly” es “plötzlich”."],
+      ["fill","Completa: “Ich kochte gerade Abendessen, ___ das Telefon klingelte.”",["plötzlich", "mitten in", "während", "als"],3,"“Als” introduce la acción puntual que interrumpe."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Während sie lernte, kam ihr Freund an.", "Während sie lernt, kam ihr Freund an.", "Während sie lernte, kommt ihr Freund an.", "Als sie lernte, kam ihr Freund an."],0,"“Während” + Präteritum para el fondo, Präteritum para la llegada: “lernte... kam an”."],
+      ["arrange","Ordena: [klingelte / kochte / Abendessen / ich / gerade / das / als / Telefon]",["Abendessen das als gerade kochte klingelte ich Telefon", "kochte ich Abendessen als gerade Telefon das klingelte", "ich kochte gerade Abendessen als das Telefon klingelte", "Telefon gerade kochte klingelte ich als Abendessen das"],2,"Präteritum + “gerade” + objeto + “als” + Präteritum."],
+      ["writing","Schreibe auf Deutsch 40-55 Wörter und erzähle eine kurze Geschichte, in der dich etwas unterbrochen hat, während du etwas anderes gemacht hast.",[],["während", "als", "plötzlich"]],
+    ]
+  },
+  {
+    id:"de_b1_second_conditional", level:"B1", title:"Der Konjunktiv II für hypothetische Situationen", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en alemán con el Konjunktiv II.",
+    study: {
+      vocab: [
+        ["Wenn ich... hätte...", "if I had..."],
+        ["ich würde / ich würde nicht", "I would / I wouldn't"],
+        ["Wenn ich du wäre...", "if I were you..."],
+        ["Was würdest du machen, wenn...?", "What would you do if...?"],
+        ["hypothetische Situation", "hypothetical/imaginary situation"],
+      ],
+      grammar: [
+        ["Wenn + Konjunktiv II, würde + Infinitiv", "Para situaciones hipotéticas poco probables se usa “wenn” + Konjunktiv II (o “würde” + infinitivo), seguido de “würde” + infinitivo en la oración principal.", "Wenn ich mehr Zeit hätte, würde ich mehr reisen. / Wenn ich du wäre, würde ich das Angebot annehmen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “Wenn ich du wäre, würde ich...”?",["nehme an", "annehmen", "annimmt", "angenommen"],1,"Tras “würde” va el infinitivo al final: “annehmen”."],
+      ["mcq","¿Cómo se dice “hypothetical situation” en alemán?",["reale Situation", "vergangene Erfahrung", "zukünftiger Plan", "hypothetische Situation"],3,"“Hypothetical situation” es “hypothetische Situation”."],
+      ["fill","Completa: “Wenn ich mehr Geld ___, würde ich um die Welt reisen.”",["werde haben", "hatte", "hätte", "habe"],2,"Konjunktiv II de “haben” es “hätte”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Wenn ich du wäre, würde ich den Job annehmen.", "Wenn ich du bin, würde ich den Job annehmen.", "Wenn ich du war, würde ich den Job annehmen.", "Wenn ich du wäre, nehme ich den Job an."],0,"“Wenn ich du wäre” es la forma estándar para un consejo hipotético."],
+      ["arrange","Ordena: [Zeit / hätte / wenn / ich / mehr / würde / ich / reisen]",["ich hätte wenn ich Zeit mehr reisen würde", "wenn ich mehr Zeit hätte würde ich reisen", "mehr ich wenn würde Zeit hätte ich reisen", "wenn ich Zeit ich würde reisen mehr hätte"],1,"“Wenn” + Konjunktiv II + “würde” + infinitivo."],
+      ["speaking","Sprich auf Deutsch, in 40-55 Wörtern, darüber, was du tun würdest, wenn du im Lotto gewinnen würdest, benutze den Konjunktiv II.",[],["wenn ich", "ich würde", "hypothetisch"]],
+    ]
+  },
+  {
+    id:"de_b1_modals_deduction", level:"B1", title:"Vermutungen ausdrücken: müssen, könnte, kann nicht", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en alemán.",
+    study: {
+      vocab: [
+        ["muss sein", "must be (fuerte)"],
+        ["könnte sein", "might/may be (posibilidad)"],
+        ["kann nicht sein", "can't be (negativa fuerte)"],
+        ["dürfte sein", "could be (posibilidad)"],
+        ["ich bin sicher / ich bin nicht sicher", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza con verbos modales", "“Müssen” en presente expresa una fuerte vermutung (deducción); “könnte/dürfte” expresan posibilidad, no certeza; “kann nicht sein” expresa certeza negativa.", "Das Licht ist aus, also müssen sie schlafen. / Er könnte bei der Arbeit sein, ich bin nicht sicher."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["muss sein", "kann nicht sein", "dürfte sein", "könnte sein"],1,"“Kann nicht sein” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["muss sein", "könnte sein", "kann nicht sein", "ich bin sicher"],1,"“Könnte sein” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “Das Licht ist aus, also ___ sie schlafen.”",["können nicht", "müssen", "könnten", "dürften"],1,"Evidencia fuerte (luz apagada) → “müssen” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["Es könnte so spät sein.", "Es dürfte so spät sein.", "Es kann nicht so spät sein.", "Es muss so spät sein."],2,"Certeza negativa fuerte → “kann nicht sein”."],
+      ["arrange","Ordena: [Arbeit / bei / sein / könnte / er / der]",["Arbeit der er bei könnte sein", "Arbeit er sein der könnte bei", "könnte der Arbeit sein er bei", "er könnte bei der Arbeit sein"],3,"Sujeto + modal + complemento + infinitivo “sein” al final."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter mit Vermutungen über eine Situation (zum Beispiel, warum jemand nicht ans Telefon geht).",[],["muss sein", "könnte sein", "kann nicht sein"]],
+    ]
+  },
+  {
+    id:"de_b1_reported_speech_basics", level:"B1", title:"Die indirekte Rede: Grundlagen", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en alemán lo que alguien dijo usando el discurso indirecto básico.",
+    study: {
+      vocab: [
+        ["er sagte, dass...", "he said (that)..."],
+        ["sie sagte mir, dass...", "she told me (that)..."],
+        ["sie sagte, dass sie müde war", "she said she was tired"],
+        ["er sagte, er würde anrufen", "he said he would call"],
+        ["Zeitverschiebung", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el discurso indirecto", "En el alemán hablado, el discurso indirecto suele usar simplemente el indicativo con “dass”; el presente pasa a pasado, y el futuro se convierte en “würde + infinitivo”.", "Direkt: „Ich bin müde.“ → Indirekt: Sie sagte, dass sie müde war. / Direkt: „Ich rufe dich an.“ → Indirekt: Er sagte, er würde anrufen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en alemán?",["sie sagte mir, dass", "sie sagt mir, dass", "sie wird sagen, dass", "sie sagt, dass"],0,"“She told me” es “sie sagte mir”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“ich rufe an”) en discurso indirecto?",["ruft an", "wird anrufen", "würde anrufen", "rief an"],2,"El futuro se convierte en “würde + infinitivo”."],
+      ["fill","Completa: “Sie sagte, dass sie ___.”",["müde sei", "müde gewesen", "müde war", "müde ist"],2,"El presente (“ich bin müde”) pasa a pasado en el discurso indirecto: “müde war”."],
+      ["translate","Traduce: “He said he would call later.”",["Er sagte, er würde später anrufen.", "Er sagte, er hat später angerufen.", "Er sagte, er wird später anrufen.", "Er sagte, er ruft später an."],0,"El futuro pasa a “würde + infinitivo” en discurso indirecto."],
+      ["arrange","Ordena: [müde / sagte / war / sie / dass / sie]",["müde dass sie sie sagte war", "müde sie sagte dass sie war", "sie sagte dass müde sie war", "sie sagte dass sie müde war"],3,"Sujeto + “sagte dass” + sujeto + verbo en pasado."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter und berichte in indirekter Rede drei Dinge, die dir kürzlich jemand gesagt hat.",[],["sagte, dass", "sagte mir", "würde"]],
+    ]
+  },
+  {
+    id:"de_b1_sequencing_process", level:"B1", title:"Einen Prozess beschreiben: Sequenzwörter", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en alemán usando conectores de orden.",
+    study: {
+      vocab: [
+        ["Zuerst...", "first..."],
+        ["Dann / Anschließend...", "then / next..."],
+        ["Danach...", "after that..."],
+        ["Schließlich...", "finally..."],
+        ["Sobald du... hast, ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Sequenzwörter und die Verb-Zweit-Stellung", "Los conectores de secuencia organizan un proceso paso a paso; al usarlos al inicio de la oración, el verbo conjugado ocupa la segunda posición.", "Zuerst füllst du das Formular aus. Dann schickst du es online ab. Schließlich wartest du auf eine Bestätigungs-E-Mail."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["Dann", "Zuerst", "Schließlich", "Danach"],2,"“Schließlich” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["Schließlich", "Zuerst", "Dann", "Danach"],1,"“Zuerst” indica el primer paso."],
+      ["fill","Completa: “___ du das Formular ausgefüllt hast, schick es online ab.”",["Zuerst", "Schließlich", "Sobald", "Dann"],2,"“Sobald” introduce una condición temporal: “en cuanto...”."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["Dann mischst du die Zutaten; zuerst backst du 20 Minuten.", "Schließlich mischst du die Zutaten; dann backst du 20 Minuten.", "Zuerst mischst du die Zutaten; zuerst backst du 20 Minuten.", "Zuerst mischst du die Zutaten; dann backst du 20 Minuten."],3,"“First...then” es “zuerst...dann”."],
+      ["arrange","Ordena: [danach / das / schick / Formular / ab]",["schick Formular ab das danach", "danach schick das Formular ab", "danach schick ab das Formular", "Formular schick ab danach das"],1,"Conector de secuencia + imperativo (con partícula separable “ab” al final)."],
+      ["speaking","Erkläre auf Deutsch, in 40-55 Wörtern, die Schritte, um etwas zu tun, das du kannst (ein Rezept, ein Verfahren usw.), benutze mindestens drei Sequenzwörter.",[],["zuerst", "dann", "schließlich"]],
+    ]
+  },
 ];

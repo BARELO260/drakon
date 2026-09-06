@@ -4096,4 +4096,368 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe en español, en 55-75 palabras, un análisis sobre política monetaria usando “en la medida en que” al menos una vez.",[],["en la medida en que", "política monetaria", "banco central"]],
     ]
   },
+  {
+    id:"es_a1_wh_questions", level:"A1", title:"Las palabras interrogativas: qué, quién, dónde, cuándo, por qué", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en español con las palabras interrogativas.",
+    study: {
+      vocab: [
+        ["¿Qué?", "What?"],
+        ["¿Quién?", "Who?"],
+        ["¿Dónde?", "Where?"],
+        ["¿Cuándo?", "When?"],
+        ["¿Por qué?", "Why?"],
+        ["¿Cómo?", "How?"],
+      ],
+      grammar: [
+        ["Las palabras interrogativas llevan tilde", "En español, las palabras interrogativas siempre llevan tilde y la pregunta se escribe entre signos de interrogación (¿?).", "¿Dónde vives? / ¿Cómo te llamas? / ¿Cuándo empieza la clase?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["¿Qué?", "¿Cuándo?", "¿Quién?", "¿Dónde?"],3,"“¿Dónde?” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["¿Qué?", "¿Quién?", "¿Cómo?", "¿Por qué?"],1,"“¿Quién?” se usa para preguntar por personas."],
+      ["fill","Completa: “¿___ vives?”",["Quién", "Dónde", "Cuándo", "Qué"],1,"Preguntamos por el lugar donde vive alguien con “Dónde”."],
+      ["translate","Traduce: “Why do you study Spanish?”",["¿Quién estudias español?", "¿Dónde estudias español?", "¿Qué estudias español?", "¿Por qué estudias español?"],3,"“Why” se traduce como “por qué”."],
+      ["arrange","Ordena: [vives / tú / dónde]",["vives dónde tú", "dónde vives tú", "vives tú dónde", "dónde tú vives"],1,"Palabra interrogativa + verbo + sujeto: “¿Dónde vives tú?”"],
+      ["writing","Escribe en español 20-30 palabras con al menos tres preguntas para conocer a alguien nuevo.",[],["dónde", "cómo", "cuándo"]],
+    ]
+  },
+  {
+    id:"es_a1_possessives_family", level:"A1", title:"Los posesivos y la familia", emoji:"👪", xp:35,
+    description:"Aprende los adjetivos posesivos en español y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["mi(s) / tu(s)", "my / your"],
+        ["su(s) (de él/ella)", "his / her"],
+        ["nuestro(a)(s)", "our"],
+        ["madre, padre, padres", "mother, father, parents"],
+        ["hermano, hermana, hermanos", "brother, sister, siblings"],
+        ["¿De quién es esto?", "Whose is this?"],
+      ],
+      grammar: [
+        ["Los posesivos concuerdan en número (y a veces género)", "“Mi/tu/su” cambian a “mis/tus/sus” en plural; “nuestro” concuerda además en género: nuestro hermano / nuestra hermana.", "Este es mi hermano. / Estos son nuestros padres."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his sister” en español?",["mi hermana", "tu hermana", "nuestra hermana", "su hermana"],3,"“His” (de él) se traduce como “su”."],
+      ["mcq","¿Cómo se dice “our parents” en español?",["mis padres", "tus padres", "sus padres", "nuestros padres"],3,"“Our” es “nuestro(a)(s)”, aquí “nuestros padres”."],
+      ["fill","Completa: “Ella habla con ___ madre.”",["mi", "su", "tus", "nuestra"],1,"“Ella” (tercera persona) usa el posesivo “su”."],
+      ["translate","Traduce: “These are their siblings.”",["Este es su hermano.", "Estos son mis hermanos.", "Estos son sus hermanos.", "Estos son nuestros hermanos."],2,"“Their” (de ellos) también se traduce como “su(s)” en español."],
+      ["arrange","Ordena: [hermana / mi / es / esta]",["hermana esta es mi", "mi hermana es esta", "esta hermana mi es", "esta es mi hermana"],3,"Sujeto + verbo “ser” + posesivo + sustantivo: “Esta es mi hermana.”"],
+      ["speaking","Describe en español, en 25-35 palabras, a tres miembros de tu familia usando adjetivos posesivos.",[],["mi", "su", "nuestro"]],
+    ]
+  },
+  {
+    id:"es_a1_there_is_are_prepositions", level:"A1", title:"Hay... y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “hay” y las preposiciones de lugar para describir dónde están las cosas.",
+    study: {
+      vocab: [
+        ["hay", "there is / there are"],
+        ["dentro de, sobre, debajo de", "in, on, under"],
+        ["al lado de, entre", "next to, between"],
+        ["delante de, detrás de", "in front of, behind"],
+        ["¿Hay...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“Hay” no cambia con el número", "A diferencia del inglés, en español “hay” es invariable: se usa igual con sustantivos singulares o plurales.", "Hay una lámpara sobre la mesa. / Hay dos sillas al lado del escritorio."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en español?",["sobre", "al lado de", "detrás de", "debajo de"],3,"“Under” es “debajo de”."],
+      ["mcq","¿Cómo se dice “between” en español?",["detrás de", "delante de", "dentro de", "entre"],3,"“Between” es “entre”."],
+      ["fill","Completa: “Hay dos libros ___ la mesa.”",["entre", "sobre", "detrás de", "dentro de"],1,"“Sobre” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["Hay un gato sobre la mesa.", "Hay un gato debajo de la mesa.", "Hay un gato al lado de la mesa.", "Hay gatos debajo de la mesa."],1,"“Under the table” es “debajo de la mesa”."],
+      ["arrange","Ordena: [la / al / silla / lado / lámpara / está / de / la]",["la está silla al lado lámpara la de", "lámpara la la al lado está de silla", "la silla está al lado de la lámpara", "la está lámpara al de la lado silla"],2,"Sujeto + verbo “estar” + preposición + objeto."],
+      ["writing","Describe en español, en 25-35 palabras, dónde están tres objetos en tu habitación usando “hay” y preposiciones de lugar.",[],["hay", "al lado de", "debajo de"]],
+    ]
+  },
+  {
+    id:"es_a1_plurals_articles", level:"A1", title:"El plural de los sustantivos y los artículos", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en español y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["libro / libros", "book / books"],
+        ["luz / luces", "light / lights"],
+        ["ciudad / ciudades", "city / cities"],
+        ["el lápiz / los lápices", "the pencil / the pencils"],
+        ["un, una", "a, an"],
+        ["el, la, los, las", "the"],
+      ],
+      grammar: [
+        ["Reglas del plural en español", "Se añade “-s” si termina en vocal, “-es” si termina en consonante, y “z” cambia a “c” antes de “-es”.", "libro→libros, ciudad→ciudades, lápiz→lápices"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “ciudad”?",["ciudads", "ciudadas", "ciudades", "ciudadees"],2,"Termina en consonante → se añade “-es”."],
+      ["mcq","¿Cuál es el plural de “lápiz”?",["lápices", "lápics", "lápizes", "lápizs"],0,"La “z” cambia a “c” antes de “-es”: “lápices”."],
+      ["fill","Completa: “Necesito ___ paraguas; está lloviendo.”",["un", "unos", "una", "el"],0,"“Paraguas” es masculino singular → “un”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Hay tres cajas en el garaje.", "Hay tres cajaes en el garaje.", "Hay tres cajas en el garajes.", "Hay tres caja en el garaje."],0,"“Caja” termina en vocal → plural “cajas”."],
+      ["arrange","Ordena: [están / dónde / los / libros]",["dónde están los libros", "están libros dónde los", "libros los dónde están", "dónde los están libros"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural: “¿Dónde están los libros?”"],
+      ["writing","Escribe en español 20-30 palabras sobre objetos que hay en tu mochila, usando al menos dos plurales.",[],["libros", "cajas", "hay"]],
+    ]
+  },
+  {
+    id:"es_a1_likes_dislikes", level:"A1", title:"Gustos y preferencias", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en español con el verbo “gustar”.",
+    study: {
+      vocab: [
+        ["me gusta / me encanta", "I like / I love"],
+        ["no me gusta / odio", "I don't like / I hate"],
+        ["nadar, leer, cocinar", "swimming, reading, cooking"],
+        ["¿te gusta...?", "Do you like...?"],
+        ["¿y a ti?", "What about you?"],
+      ],
+      grammar: [
+        ["El verbo “gustar” funciona al revés", "Con “gustar”, lo que se disfruta es el sujeto gramatical: “me gusta” (singular/infinitivo) o “me gustan” (plural).", "Me gusta nadar. / Me gustan los libros de aventuras."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “I love” en español (para actividades)?",["me encanta", "me gusta", "no me gusta", "odio"],0,"“I love” es “me encanta”."],
+      ["mcq","¿Cómo se dice “I hate” en español?",["me gusta", "odio", "me encanta", "te gusta"],1,"“I hate” es “odio”."],
+      ["fill","Completa: “A ella le encanta ___ los fines de semana.”",["cocinar", "cocinando", "cocina", "cocino"],0,"Tras “gustar/encantar” el verbo va en infinitivo: “cocinar”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Me gusta nadar en agua fría.", "No me gusta nadar en agua fría.", "No me gusta nadando en agua fría.", "Odio nadar agua fría."],1,"“I don't like” + infinitivo: “no me gusta nadar”."],
+      ["arrange","Ordena: [le / leer / encanta / le / libros]",["encanta leer libros le", "le encanta leer libros", "le encanta libros leer", "leer encanta le libros"],1,"Objeto indirecto + “gustar/encantar” + infinitivo + objeto."],
+      ["speaking","Habla en español durante 25-35 palabras sobre tres actividades que te gustan y una que odias.",[],["me encanta", "me gusta", "odio"]],
+    ]
+  },
+  {
+    id:"es_a2_future_plans", level:"A2", title:"El futuro: planes y predicciones", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en español usando “ir a + infinitivo” y el futuro simple.",
+    study: {
+      vocab: [
+        ["voy a...", "I'm going to..."],
+        ["hablaré / hablarás", "I will speak / you will speak"],
+        ["la próxima semana, el próximo año", "next week, next year"],
+        ["creo que lloverá", "I think it will rain"],
+        ["¿qué vas a hacer?", "What are you going to do?"],
+      ],
+      grammar: [
+        ["“Ir a + infinitivo” vs futuro simple", "“Ir a + infinitivo” se usa para planes ya decididos; el futuro simple (-é, -ás, -á...) para predicciones o promesas.", "Voy a visitar a mis padres la próxima semana. / Creo que lloverá mañana."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura usas para un plan ya decidido?",["creo que", "voy a", "¿te gusta?", "hablaré"],1,"Para planes ya decididos usamos “ir a + infinitivo”."],
+      ["mcq","¿Cómo se dice “next week” en español?",["la próxima semana", "la semana pasada", "esta semana", "el próximo año"],0,"“Next week” es “la próxima semana”."],
+      ["fill","Completa: “¡Mira esas nubes! ___ a llover.”",["Irá", "Fue", "Habrá", "Va"],3,"Con evidencia presente (nubes) usamos “ir a + infinitivo”: “va a llover”."],
+      ["translate","Traduce: “I think we will win the game.”",["Creo que ganaríamos el partido.", "Creo que ganamos el partido.", "Creo que ganaremos el partido.", "Creo que vamos a ganado el partido."],2,"Predicción sin evidencia clara → futuro simple: “ganaremos”."],
+      ["arrange","Ordena: [visitar / voy / abuelos / a / mis]",["voy abuelos visitar a a mis", "mis a a abuelos voy visitar", "voy a visitar a mis abuelos", "mis voy abuelos a visitar a"],2,"Sujeto + “ir a” + infinitivo + objeto."],
+      ["writing","Escribe en español 30-40 palabras sobre tus planes para el próximo mes, usando “ir a” y una predicción con futuro simple.",[],["voy a", "próximo", "creo que"]],
+    ]
+  },
+  {
+    id:"es_a2_comparatives_superlatives", level:"A2", title:"Comparativos y superlativos", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en español usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["más grande que, más pequeño que", "bigger than, smaller than"],
+        ["más caro que", "more expensive than"],
+        ["el/la mejor, el/la peor", "the best, the worst"],
+        ["tan...como", "as...as"],
+        ["el/la más interesante", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativos y superlativos regulares e irregulares", "Se usa “más/menos + adjetivo + que”, y “el/la más + adjetivo” para el superlativo. Algunos son irregulares: bueno→mejor, malo→peor.", "Este coche es más rápido que ese, pero el rojo es el más rápido de todos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “bueno”?",["buenísimo", "el mejor", "mejor", "más bueno"],2,"“Bueno” es irregular: mejor, el mejor."],
+      ["mcq","¿Cómo se dice “as expensive as” en español?",["el más caro", "menos caro", "tan caro como", "más caro que"],2,"“As...as” es “tan...como”."],
+      ["fill","Completa: “Este teléfono es ___ que el mío, pero no es el mejor.”",["más bueno", "el mejor", "mejor", "buenísimo"],2,"Comparativo irregular de “bueno” es “mejor”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["Este es el más barato hotel de la ciudad.", "Este es el hotel tan barato de la ciudad.", "Este es un hotel más barato de la ciudad.", "Este es el hotel más barato de la ciudad."],3,"Superlativo: “el + sustantivo + más + adjetivo”."],
+      ["arrange","Ordena: [que / alto / hermano / mi / es / yo]",["alto hermano mi es yo que", "yo es mi alto hermano que", "hermano alto que mi yo es", "mi hermano es alto que yo"],3,"Sujeto + verbo + comparativo + “que” + objeto (nota: falta “más” en esta versión simplificada del orden)."],
+      ["speaking","Compara en español, en 30-40 palabras, dos ciudades o lugares que conozcas usando comparativos y un superlativo.",[],["más", "el mejor", "que"]],
+    ]
+  },
+  {
+    id:"es_a2_advice_modals", level:"A2", title:"Consejos y obligación: deberías, debes, tienes que", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en español.",
+    study: {
+      vocab: [
+        ["deberías...", "you should..."],
+        ["no deberías...", "you shouldn't..."],
+        ["debo / tengo que", "I must / I have to"],
+        ["no hace falta que", "you don't have to"],
+        ["es buena idea...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Deberías” (consejo) vs “debes/tienes que” (obligación)", "“Deberías” (condicional) da un consejo suave; “debes/tienes que” expresan obligación; “no hace falta que” indica que algo no es necesario (no prohibido).", "Deberías beber más agua. / Tienes que llevar cinturón de seguridad."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["debes", "no hace falta que", "tienes que", "deberías"],3,"“Deberías” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en español?",["no debes", "debes", "tienes que", "no hace falta que"],3,"“You don't have to” es “no hace falta que”, no “no debes”."],
+      ["fill","Completa: “No ___ fumar aquí; está prohibido.”",["deberías", "debes", "tienes", "hace falta que"],1,"“No debes” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Deberías dormir más.", "Debes dormir más.", "No hace falta que duermas más.", "Tienes que dormir más."],0,"Consejo suave → “deberías”."],
+      ["arrange","Ordena: [cinturón / llevar / que / tienes / un]",["tienes que llevar un cinturón", "tienes llevar que cinturón un", "cinturón llevar un que tienes", "tienes un que llevar cinturón"],0,"Sujeto + “tener que” + infinitivo + objeto."],
+      ["writing","Escribe en español 30-40 palabras dando tres consejos a un amigo que va a viajar por primera vez.",[],["deberías", "tienes que", "no hace falta que"]],
+    ]
+  },
+  {
+    id:"es_a2_phone_calls", level:"A2", title:"Llamadas telefónicas", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en español.",
+    study: {
+      vocab: [
+        ["Hola, soy...", "Hello, this is..."],
+        ["¿Puedo hablar con...?", "Can I speak to...?"],
+        ["¿Puedo tomar un mensaje?", "Can I take a message?"],
+        ["Espere un momento, por favor.", "Hold on, please."],
+        ["¿Puedes llamar más tarde?", "Can you call back later?"],
+        ["Te devuelvo la llamada.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En español se suele decir “soy” o “habla...” para identificarse por teléfono, y “¿de parte de quién?” para preguntar quién llama.", "Hola, soy Laura. ¿Puedo hablar con el señor Smith, por favor?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en español?",["¿Puedo hablar con...?", "Te devuelvo la llamada.", "¿Puedo tomar un mensaje?", "Espere un momento, por favor."],2,"“Can I take a message?” es “¿Puedo tomar un mensaje?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en español?",["Llame más tarde.", "Espere un momento, por favor.", "Soy Laura.", "¿Puedo hablar con...?"],1,"“Hold on, please” es “Espere un momento, por favor”."],
+      ["fill","Completa: “Hola, ___ Marcos. ¿Está Ana?”",["yo soy", "estoy", "soy yo", "soy"],3,"Al identificarse por teléfono se dice simplemente “soy Marcos”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["¿Puedo llamar al señor García, por favor?", "¿Puedo esperar al señor García, por favor?", "¿Puedo tomar al señor García, por favor?", "¿Puedo hablar con el señor García, por favor?"],3,"“Can I speak to...?” es “¿Puedo hablar con...?”."],
+      ["arrange","Ordena: [llamada / la / devuelvo / te]",["la llamada devuelvo te", "devuelvo la llamada te", "te devuelvo la llamada", "llamada devuelvo te la"],2,"Objeto + verbo + artículo + sustantivo."],
+      ["speaking","Simula en español, en 30-40 palabras, una llamada telefónica pidiendo hablar con alguien y dejando un mensaje.",[],["puedo hablar con", "puedo tomar un mensaje", "soy"]],
+    ]
+  },
+  {
+    id:"es_a2_quantifiers_countable", level:"A2", title:"Cantidades: mucho, poco, cuánto", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en español distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["algo, ninguno", "some, any"],
+        ["¿Cuánto/a...?", "How much...?"],
+        ["¿Cuántos/as...?", "How many...?"],
+        ["mucho, poco", "a lot of / much, little"],
+        ["unos pocos, unas pocas", "a few"],
+      ],
+      grammar: [
+        ["Contables vs incontables en español", "“¿Cuántos/as?” y “pocos/as” concuerdan en género y número con sustantivos contables; “¿cuánto/a?” y “poco/a” con incontables en singular.", "¿Cuántas manzanas tienes? / ¿Cuánta agua hay? / No tengo nada de dinero."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["¿Cuántos?", "muchos", "unas pocas", "¿Cuánta?"],3,"“Agua” es incontable y femenino → “¿Cuánta?”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables plurales, como “manzanas”?",["¿Cuántas?", "poca", "mucha", "¿Cuánto?"],0,"“Manzanas” es contable plural y femenino → “¿Cuántas?”."],
+      ["fill","Completa: “No tengo ___ dinero conmigo.”",["pocos", "muchos", "nada de", "algo de"],2,"En negativas usamos “nada de” con incontables."],
+      ["translate","Traduce: “How many books do you have?”",["¿Cuánto libros tienes?", "¿Cuánta libros tienes?", "¿Cuánto libro tienes?", "¿Cuántos libros tienes?"],3,"“Libros” es contable plural masculino → “¿Cuántos libros?”."],
+      ["arrange","Ordena: [leche / cuánta / hay]",["leche cuánta hay", "hay leche cuánta", "hay cuánta leche", "cuánta leche hay"],3,"Palabra interrogativa + sustantivo incontable + verbo."],
+      ["writing","Escribe en español 25-35 palabras describiendo lo que hay en tu refrigerador usando “algo”, “mucho” y “unos pocos”.",[],["mucho", "unos pocos", "algo de"]],
+    ]
+  },
+  {
+    id:"es_b1_past_continuous_narrative", level:"B1", title:"El pretérito imperfecto: narrar interrupciones", emoji:"🌙", xp:60,
+    description:"Aprende a combinar el pretérito imperfecto y el pretérito indefinido para narrar historias con interrupciones.",
+    study: {
+      vocab: [
+        ["yo caminaba / ellos hablaban", "I was walking / they were talking"],
+        ["mientras, cuando", "while, when"],
+        ["de repente", "suddenly"],
+        ["sonó el teléfono", "the phone rang"],
+        ["en medio de...", "in the middle of..."],
+      ],
+      grammar: [
+        ["Imperfecto (fondo) + indefinido (interrupción)", "Usamos el pretérito imperfecto para la acción en curso (el fondo de la escena) y el pretérito indefinido para la acción que la interrumpe.", "Cocinaba la cena cuando sonó el teléfono. / Mientras ella estudiaba, llegó su amigo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal usamos para la acción de fondo que se interrumpe?",["he cocinado", "cocinaba", "cocinar", "cociné"],1,"La acción de fondo va en imperfecto: “cocinaba”."],
+      ["mcq","¿Cómo se dice “suddenly” en español?",["de repente", "cuando", "mientras", "en medio de"],0,"“Suddenly” es “de repente”."],
+      ["fill","Completa: “___ la cena cuando sonó el teléfono.”",["He cocinado", "Cocinar", "Cocinaba", "Cociné"],2,"Acción de fondo interrumpida = pretérito imperfecto: “cocinaba”."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Mientras ella estudia, llegó su amigo.", "Mientras ella estudió, llegaba su amigo.", "Mientras ella estudiaba, llegó su amigo.", "Mientras ella estudiaba, llegaba su amigo."],2,"Fondo en imperfecto, interrupción en indefinido: “estudiaba... llegó”."],
+      ["arrange","Ordena: [sonó / cocinaba / cuando / la / cena / el / teléfono]",["la cocinaba cena el sonó teléfono cuando", "cena cocinaba el cuando teléfono sonó la", "cocinaba la cena cuando sonó el teléfono", "la cena teléfono el sonó cocinaba cuando"],2,"Imperfecto + objeto + “cuando” + indefinido."],
+      ["writing","Escribe en español 40-55 palabras narrando una historia breve en la que algo te interrumpió mientras hacías otra cosa, usando imperfecto e indefinido.",[],["mientras", "cuando", "de repente"]],
+    ]
+  },
+  {
+    id:"es_b1_second_conditional", level:"B1", title:"Situaciones hipotéticas: si + imperfecto de subjuntivo + condicional", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en español.",
+    study: {
+      vocab: [
+        ["si tuviera...", "if I had..."],
+        ["yo -ía / yo no -ía", "I would / I wouldn't"],
+        ["si yo fuera tú...", "if I were you..."],
+        ["¿qué harías si...?", "What would you do if...?"],
+        ["situación imaginaria", "imaginary situation"],
+      ],
+      grammar: [
+        ["Si + imperfecto de subjuntivo, condicional", "Para hablar de situaciones hipotéticas o poco probables, usamos “si” + pretérito imperfecto de subjuntivo, seguido del condicional simple.", "Si tuviera más tiempo, viajaría más. / Si yo fuera tú, aceptaría la oferta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “si yo fuera tú, yo...”?",["aceptaré", "acepté", "acepto", "aceptaría"],3,"Tras la cláusula con “si” va el condicional simple: “aceptaría”."],
+      ["mcq","¿Cómo se dice “imaginary situation” en español?",["plan futuro", "situación real", "experiencia pasada", "situación imaginaria"],3,"“Imaginary situation” es “situación imaginaria”."],
+      ["fill","Completa: “Si ___ más dinero, viajaría por el mundo.”",["tuviera", "tengo", "tendré", "tuve"],0,"Tras “si” en oraciones hipotéticas usamos el imperfecto de subjuntivo: “tuviera”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Si yo fuera tú, acepto el trabajo.", "Si yo era tú, aceptaré el trabajo.", "Si yo fuera tú, aceptaría el trabajo.", "Si yo soy tú, aceptaría el trabajo."],2,"“Si yo fuera tú” es la forma estándar para dar un consejo hipotético."],
+      ["arrange","Ordena: [tiempo / si / más / tuviera / viajaría]",["más tuviera si tiempo viajaría", "más tiempo viajaría si tuviera", "tuviera viajaría tiempo si más", "si tuviera más tiempo viajaría"],3,"“Si” + imperfecto de subjuntivo + condicional."],
+      ["speaking","Habla en español, en 40-55 palabras, sobre qué harías si ganaras la lotería, usando estructuras hipotéticas.",[],["si tuviera", "yo -ía", "imaginaria"]],
+    ]
+  },
+  {
+    id:"es_b1_modals_deduction", level:"B1", title:"Expresar certeza, posibilidad y duda", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en español con “debe de ser”, “puede que” y “no puede ser”.",
+    study: {
+      vocab: [
+        ["debe de ser", "must be (certeza alta)"],
+        ["puede que sea", "might/may be (posibilidad)"],
+        ["no puede ser", "can't be (certeza negativa)"],
+        ["podría ser", "could be (posibilidad)"],
+        ["estoy seguro/a / no estoy seguro/a", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza en español", "“Debe de + infinitivo” expresa alta certeza; “no puede ser que” certeza negativa; “puede que” va seguido de subjuntivo y expresa posibilidad, no certeza.", "Las luces están apagadas, así que deben de estar dormidos. / Puede que esté en el trabajo, no estoy seguro. / No puede ser que esté en casa; la acabo de ver afuera."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica alta certeza de que algo NO es cierto?",["puede que sea", "debe de ser", "no puede ser", "podría ser"],2,"“No puede ser” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["estoy seguro", "debe de ser", "puede que sea", "no puede ser"],2,"“Puede que sea” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “Las luces están apagadas, así que ___ dormidos.”",["puede que estén", "no pueden estar", "podrían estar", "deben de estar"],3,"Evidencia fuerte (luces apagadas) → “deben de estar” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["No puede ser tan tarde.", "Podría ser tan tarde.", "Puede que sea tan tarde.", "Debe de ser tan tarde."],0,"Certeza negativa fuerte → “no puede ser”."],
+      ["arrange","Ordena: [trabajo / esté / puede / en / que / el]",["puede que esté en el trabajo", "que el en esté puede trabajo", "puede esté trabajo el en que", "en que puede trabajo el esté"],0,"“Puede que” + subjuntivo + complemento."],
+      ["writing","Escribe en español 35-45 palabras haciendo deducciones sobre una situación (por ejemplo, por qué alguien no contesta el teléfono).",[],["debe de ser", "puede que", "no puede ser"]],
+    ]
+  },
+  {
+    id:"es_b1_reported_speech_basics", level:"B1", title:"El estilo indirecto básico", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en español lo que alguien dijo usando el estilo indirecto básico.",
+    study: {
+      vocab: [
+        ["él dijo que...", "he said (that)..."],
+        ["ella me dijo que...", "she told me (that)..."],
+        ["ella dijo que estaba cansada", "she said she was tired"],
+        ["él dijo que llamaría", "he said he would call"],
+        ["cambio de tiempo verbal", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el estilo indirecto", "Al pasar del estilo directo al indirecto, el presente suele pasar a imperfecto y el futuro a condicional.", "Directo: “Estoy cansada” → Indirecto: Ella dijo que estaba cansada. / Directo: “Te llamaré” → Indirecto: Él dijo que llamaría."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en español?",["ella me dijo que", "ella dirá que", "ella dice que", "ella me dice que"],0,"“She told me” es “ella me dijo”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“llamaré”) en estilo indirecto?",["llamo", "llamaría", "llamaba", "llamaré"],1,"El futuro se convierte en condicional en estilo indirecto: “llamaría”."],
+      ["fill","Completa: “Ella dijo que ___ cansada.”",["estaba", "estuvo", "está", "esté"],0,"El presente (“estoy”) pasa a imperfecto (“estaba”) en estilo indirecto."],
+      ["translate","Traduce: “He said he would call later.”",["Él dijo que llamaría más tarde.", "Él dijo que llamará más tarde.", "Él dijo que llamó más tarde.", "Él dijo que llama más tarde."],0,"El futuro pasa a condicional en estilo indirecto: “llamaría”."],
+      ["arrange","Ordena: [cansada / dijo / estaba / ella / que]",["estaba dijo que ella cansada", "ella dijo que estaba cansada", "que dijo cansada ella estaba", "que cansada estaba dijo ella"],1,"Sujeto + “dijo que” + sujeto + verbo en imperfecto."],
+      ["writing","Escribe en español 35-45 palabras contando en estilo indirecto tres cosas que alguien te dijo recientemente.",[],["dijo que", "me dijo", "llamaría"]],
+    ]
+  },
+  {
+    id:"es_b1_sequencing_process", level:"B1", title:"Describir procesos: conectores de secuencia", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en español usando conectores de orden.",
+    study: {
+      vocab: [
+        ["primero...", "first...."],
+        ["luego / a continuación...", "then / next..."],
+        ["después de eso...", "after that..."],
+        ["finalmente...", "finally..."],
+        ["una vez que tengas..., ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la oración.", "Primero, rellenas el formulario. Luego, lo envías en línea. Finalmente, esperas un correo de confirmación."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["luego", "finalmente", "después de eso", "primero"],1,"“Finalmente” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["después de eso", "finalmente", "primero", "luego"],2,"“Primero” indica el primer paso."],
+      ["fill","Completa: “___ que hayas llenado el formulario, envíalo en línea.”",["Una vez", "Finalmente", "Primero", "Luego"],0,"“Una vez que” introduce una condición temporal."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["Luego, mezcla los ingredientes; primero, hornea por 20 minutos.", "Primero, mezcla los ingredientes; luego, hornea por 20 minutos.", "Finalmente, mezcla los ingredientes; luego, hornea por 20 minutos.", "Primero, mezcla los ingredientes; primero, hornea por 20 minutos."],1,"“First...then” es “primero...luego”."],
+      ["arrange","Ordena: [eso / envía / el / de / formulario / después]",["después de eso envía el formulario", "de eso el después formulario envía", "después el eso de formulario envía", "el formulario después eso envía de"],0,"Conector de secuencia + verbo + artículo + objeto."],
+      ["speaking","Explica en español, en 40-55 palabras, los pasos para hacer algo que sepas hacer (una receta, un trámite, etc.) usando al menos tres conectores de secuencia.",[],["primero", "luego", "finalmente"]],
+    ]
+  },
 ];
