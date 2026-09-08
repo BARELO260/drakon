@@ -4457,4 +4457,364 @@ window.LESSON_BANKS.FR = [
       ["speaking","Explique en français, en 40-55 mots, les étapes pour faire quelque chose que tu sais faire (une recette, une démarche, etc.) en utilisant au moins trois connecteurs de séquence.",[],["d'abord", "ensuite", "enfin"]],
     ]
   },
+  {
+    id:"fr_b2_relative_clauses", level:"B2", title:"Les propositions relatives explicatives et déterminatives", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos franceses: qui, que, dont y où.",
+    study: {
+      vocab: [
+        ["qui, que, où", "who/which (sujet), that/which (objet), where"],
+        ["dont", "whose/of which"],
+        ["lequel/laquelle", "which (tras preposición)"],
+        ["virgule avant les explicatives", "coma antes de las explicativas"],
+        ["l'homme qui a appelé", "the man who called"],
+      ],
+      grammar: [
+        ["El pronombre relativo depende de la función gramatical", "“Qui” es sujeto del verbo, “que” es objeto directo, “dont” reemplaza “de + sustantivo” (posesión o verbos con “de”), y “où” indica lugar o tiempo.", "Le livre que j'ai acheté est génial. / Ma voiture, qui est rouge, est garée dehors. / L'homme dont je parle..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo reemplaza “de + sustantivo” (posesión, verbos con “de”)?",["qui", "où", "que", "dont"],3,"“Dont” reemplaza “de + sustantivo”."],
+      ["mcq","¿Qué pronombre relativo es sujeto del verbo?",["qui", "dont", "que", "où"],0,"“Qui” funciona como sujeto del verbo en la cláusula relativa."],
+      ["fill","Completa: “Ma voiture, ___ est rouge, est garée dehors.”",["que", "dont", "qui", "où"],2,"“Qui” es el sujeto de “est rouge”."],
+      ["translate","Traduce: “The book that I bought is great.”",["Le livre que j'ai acheté est génial.", "Le livre où j'ai acheté est génial.", "Le livre dont j'ai acheté est génial.", "Le livre qui j'ai acheté est génial."],0,"“Que” es el objeto directo de “j'ai acheté”."],
+      ["arrange","Ordena: [appelé / qui / l'homme / a]",["l'homme qui a appelé", "appelé l'homme a qui", "appelé a l'homme qui", "a l'homme qui appelé"],0,"Sustantivo + “qui” + verbo."],
+      ["writing","Écris en français 30-40 mots décrivant une personne et un objet en utilisant au moins “qui”, “que” et “dont”.",[],["qui", "que", "dont"]],
+    ]
+  },
+  {
+    id:"fr_b2_gerondif_infinitif", level:"B2", title:"Le gérondif, l'infinitif et le participe présent", emoji:"🔀", xp:56,
+    description:"Aprende cuándo usar el gerundio (“en + gérondif”) y el infinitivo en francés.",
+    study: {
+      vocab: [
+        ["en + gérondif", "by/while doing (simultaneidad)"],
+        ["verbe + infinitif", "verbo + infinitivo (patrón más común en francés)"],
+        ["le participe présent", "el participio presente (-ant, descripción)"],
+        ["continuer à/de + infinitif", "to keep on doing"],
+        ["venir de + infinitif", "to have just done"],
+      ],
+      grammar: [
+        ["El francés usa infinitivo más que gerundio", "A diferencia del inglés, la mayoría de los verbos franceses van seguidos de infinitivo; “en + gérondif” expresa simultaneidad o manera, y el participio presente (-ant) se usa más para describir.", "Elle a appris le français en voyageant. / Il vient de partir. / Je continue à travailler."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa simultaneidad (“haciendo algo”)?",["verbe + infinitif", "le participe présent", "en + gérondif", "venir de + infinitif"],2,"“En + gérondif” expresa simultaneidad."],
+      ["mcq","¿Qué estructura significa “haber hecho algo hace un momento”?",["en + gérondif", "le participe présent", "continuer à + infinitif", "venir de + infinitif"],3,"“Venir de + infinitivo” es “to have just done”."],
+      ["fill","Completa: “Elle a appris le français ___ beaucoup.”",["voyageant", "en voyageant", "à voyager", "voyager"],1,"Simultaneidad → “en + gérondif”: “en voyageant”."],
+      ["translate","Traduce: “He just left.”",["Il vient de partir.", "Il continue de partir.", "Il part en partant.", "Il a venu de partir."],0,"“Acabar de hacer” es “venir de + infinitivo”."],
+      ["arrange","Ordena: [partir / vient / il / de]",["partir de il vient", "vient de partir il", "de partir il vient", "il vient de partir"],3,"“Venir de” + infinitivo."],
+      ["writing","Écris en français 30-40 mots sur tes habitudes en utilisant “en + gérondif”, “venir de” et “continuer à”.",[],["en", "vient de", "continue à"]],
+    ]
+  },
+  {
+    id:"fr_b2_souhait_regret", level:"B2", title:"Le souhait et le regret: si seulement, j'aurais aimé", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en francés.",
+    study: {
+      vocab: [
+        ["j'aimerais + infinitif", "I wish (deseo presente)"],
+        ["j'aurais aimé + infinitif passé", "I wish I had done (arrepentimiento)"],
+        ["si seulement...", "if only..."],
+        ["j'aurais dû + infinitif", "I should have..."],
+        ["le regret", "regret"],
+      ],
+      grammar: [
+        ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “j'aimerais + infinitivo”; para un arrepentimiento sobre el pasado, “j'aurais aimé + infinitivo pasado” o “si seulement + plus-que-parfait”.", "J'aimerais avoir plus de temps. / J'aurais aimé étudier plus. / Si seulement j'avais accepté le travail."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa un deseo sobre el presente?",["si seulement + plus-que-parfait", "j'aurais aimé + infinitif passé", "j'aurais dû", "j'aimerais + infinitif"],3,"Deseo presente → “j'aimerais + infinitivo”."],
+      ["mcq","¿Qué estructura expresa un arrepentimiento sobre el pasado?",["si seulement + imparfait", "j'aimerais + infinitif", "j'aime", "j'aurais aimé + infinitif passé"],3,"Arrepentimiento pasado → “j'aurais aimé + infinitivo pasado”."],
+      ["fill","Completa: “___ plus de temps.”",["J'ai eu", "Si seulement j'ai", "J'aimerais avoir", "J'aurais aimé avoir"],2,"Deseo sobre el presente → “j'aimerais + infinitivo”."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["J'ai aimé accepter le travail.", "Si seulement j'accepte le travail.", "J'aurais aimé accepter le travail.", "J'aimerais accepter le travail."],2,"Arrepentimiento pasado → “j'aurais aimé + infinitivo pasado”."],
+      ["arrange","Ordena: [temps / j'aimerais / plus / de / avoir]",["plus avoir de j'aimerais temps", "j'aimerais avoir plus de temps", "de avoir temps plus j'aimerais", "avoir de j'aimerais temps plus"],1,"“J'aimerais” + infinitivo + objeto."],
+      ["speaking","Parle en français, en 35-45 mots, de quelque chose que tu aurais aimé faire différemment dans le passé, en utilisant “j'aurais aimé” + infinitif passé.",[],["j'aurais aimé", "si seulement", "j'aurais dû"]],
+    ]
+  },
+  {
+    id:"fr_b2_devoir_passe_deduction", level:"B2", title:"Le conditionnel passé et “devoir” pour spéculer sur le passé", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en francés con “devoir” y el condicional pasado.",
+    study: {
+      vocab: [
+        ["il a dû + infinitif", "must have (deducción)"],
+        ["il a pu + infinitif", "might have (posibilidad)"],
+        ["il n'a pas pu + infinitif", "can't have (certeza negativa)"],
+        ["il aurait dû + infinitif", "should have (crítica/arrepentimiento)"],
+        ["je ne suis pas sûr de ce qui s'est passé", "I'm not sure what happened"],
+      ],
+      grammar: [
+        ["“Devoir” y “pouvoir” para especular sobre el pasado", "“Devoir” en pasado compuesto + infinitivo expresa una fuerte deducción; “pouvoir” en pasado compuesto expresa posibilidad; “devoir” en condicional pasado (“aurait dû”) expresa crítica o arrepentimiento.", "Elle a dû partir déjà; son manteau a disparu. / Tu aurais dû m'appeler plus tôt."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["il n'a pas pu", "il aurait dû", "il a pu", "il a dû"],3,"“Il a dû” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["il a pu", "il a dû", "il aurait dû", "il n'a pas pu"],2,"“Il aurait dû” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “Elle ___ partir déjà; son manteau a disparu.”",["a pu", "aurait dû", "a dû", "n'a pas pu"],2,"Evidencia fuerte (abrigo desapareció) → “a dû”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Tu as dû finir si vite.", "Tu aurais dû finir si vite.", "Tu as pu finir si vite.", "Tu n'as pas pu finir si vite."],3,"Certeza negativa fuerte → “n'as pas pu”."],
+      ["arrange","Ordena: [appelé / aurais / plus / tu / dû / tôt / m']",["m'appeler dû plus tôt aurais tu", "tu dû aurais m'appeler tôt plus", "tu aurais dû m'appeler plus tôt", "tôt aurais dû m'appeler plus tu"],2,"Sujeto + “aurais dû” + infinitivo + objeto."],
+      ["writing","Écris en français 35-45 mots en spéculant sur les raisons du retard de quelqu'un à une réunion, en utilisant “a dû”, “a pu” et “n'a pas pu”.",[],["a dû", "a pu", "n'a pas pu"]],
+    ]
+  },
+  {
+    id:"fr_b2_imparfait_habitudes", level:"B2", title:"L'imparfait et les habitudes passées", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en francés con el imperfecto.",
+    study: {
+      vocab: [
+        ["l'imparfait pour les habitudes et les états", "imperfecto para hábitos/estados"],
+        ["avoir l'habitude de + infinitif", "to be used to / usually do"],
+        ["autrefois...", "antes / hace tiempo..."],
+        ["étant enfant...", "de niño/a..."],
+        ["de nos jours", "hoy en día"],
+      ],
+      grammar: [
+        ["El imperfecto es el tiempo natural para hábitos pasados", "El imperfecto describe naturalmente hábitos y estados pasados en francés (equivalente a “used to/would”); “avoir l'habitude de” refuerza la idea de rutina.", "Je vivais à Rome. / Étant enfant, je jouais dehors tous les jours."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo describe naturalmente hábitos y estados pasados?",["le subjonctif", "le passé composé", "le conditionnel", "l'imparfait"],3,"El imperfecto describe hábitos y estados pasados."],
+      ["mcq","¿Qué expresión refuerza la idea de una costumbre pasada?",["être en train de", "avoir l'habitude de", "aller", "venir de"],1,"“Avoir l'habitude de” refuerza la idea de costumbre."],
+      ["fill","Completa: “Quand j'étais jeune, je ___ dans un petit village.”",["vivais", "vis", "ai vécu", "vivrai"],0,"Estado pasado → imperfecto: “vivais”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["Étant enfant, j'aurai toujours joué dans le parc.", "Étant enfant, j'ai toujours joué dans le parc.", "Étant enfant, je joue toujours dans le parc.", "Étant enfant, je jouais toujours dans le parc."],3,"Hábito repetido en el pasado → imperfecto: “jouais”."],
+      ["arrange","Ordena: [Rome / je / vivais / à]",["vivais je à Rome", "vivais à Rome je", "je vivais à Rome", "Rome vivais à je"],2,"Sujeto + imperfecto + preposición + objeto."],
+      ["speaking","Parle en français, en 35-45 mots, de ta vie il y a dix ans, en utilisant l'imparfait.",[],["vivais", "avais l'habitude", "de nos jours"]],
+    ]
+  },
+  {
+    id:"fr_c1_inversion_style_soutenu", level:"C1", title:"L'inversion dans le style soutenu", emoji:"❗", xp:65,
+    description:"Aprende a usar la inversión sujeto-verbo en el registro formal del francés.",
+    study: {
+      vocab: [
+        ["Peut-être + inversion", "Perhaps + inversión (formal)"],
+        ["Aussi + inversion", "Therefore/So + inversión (formal)"],
+        ["Sans doute + inversion", "No doubt + inversión (formal)"],
+        ["À peine...que...", "No sooner...than..."],
+        ["style soutenu", "registro formal/elevado"],
+      ],
+      grammar: [
+        ["Adverbios que provocan inversión en el registro formal", "En el francés escrito formal, ciertos adverbios al inicio de la oración (peut-être, aussi con el sentido de “por lo tanto”, sans doute, à peine) provocan la inversión sujeto-verbo.", "Peut-être viendra-t-il demain. / À peine était-il arrivé qu'il a dû repartir."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué adverbio al inicio de la oración provoca inversión en el registro formal?",["Toujours", "Souvent", "Beaucoup", "Peut-être"],3,"“Peut-être” al inicio provoca inversión en el registro formal."],
+      ["mcq","¿Qué significa “à peine...que...”?",["no doubt", "therefore", "perhaps", "no sooner...than..."],3,"“À peine...que...” equivale a “no sooner...than...”."],
+      ["fill","Completa: “À peine ___ arrivé qu'il a dû repartir.”",["il est", "il était", "est-il", "était-il"],3,"Tras “à peine” al inicio, se invierte: “était-il”."],
+      ["translate","Traduce: “Perhaps he will come tomorrow.” (estilo formal)",["Peut-être vient-il demain.", "Peut-être il viendra demain.", "Peut-être qu'il viendra demain il", "Peut-être viendra-t-il demain."],3,"Tras “peut-être” al inicio en estilo formal, se invierte: “viendra-t-il”."],
+      ["arrange","Ordena: [demain / viendra / il / peut-être]",["viendra demain peut-être il", "peut-être il demain viendra", "peut-être viendra il demain", "il viendra demain peut-être"],2,"Adverbio + verbo + sujeto + complemento."],
+      ["writing","Écris en français 35-45 mots dans un style soutenu, en utilisant au moins une structure avec inversion après “peut-être” ou “à peine”.",[],["peut-être", "à peine", "aussi"]],
+    ]
+  },
+  {
+    id:"fr_c1_mise_en_relief", level:"C1", title:"La mise en relief: c'est...qui/que", emoji:"🎯", xp:65,
+    description:"Aprende a usar estructuras de énfasis en francés con “c'est...qui/que”.",
+    study: {
+      vocab: [
+        ["C'est... qui...", "It is... who/that... (sujeto)"],
+        ["C'est... que...", "It is... that... (complemento)"],
+        ["Ce dont j'ai besoin, c'est...", "What I need is..."],
+        ["Ce qui m'a surpris, c'est...", "What surprised me was..."],
+        ["mise en relief", "estructura de énfasis"],
+      ],
+      grammar: [
+        ["“C'est...qui/que” y “ce que/ce dont...c'est”", "El francés enfatiza un elemento usando “c'est...qui” (para el sujeto) o “c'est...que” (para el resto), o “ce que/ce dont...c'est” para enfatizar con “lo que”.", "C'est Marie qui a résolu le problème. / Ce dont j'ai besoin, c'est de plus de temps."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza el sujeto?",["C'est... qui...", "Ce que... c'est...", "C'est... que...", "Peut-être"],0,"“C'est...qui...” enfatiza el sujeto."],
+      ["mcq","¿Qué estructura enfatiza un complemento (no el sujeto)?",["À peine", "Sans doute", "C'est... que...", "C'est... qui..."],2,"“C'est...que...” enfatiza un complemento."],
+      ["fill","Completa: “___ j'ai besoin, c'est de plus de temps.”",["Ce que", "Ce qui", "Ce dont", "C'est que"],2,"“Avoir besoin de” se retoma con “ce dont”."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["Marie c'est qui a résolu le problème.", "C'est Marie qui a résolu le problème.", "C'est Marie qui résout le problème.", "C'est Marie que a résolu le problème."],1,"“C'est + persona + qui” enfatiza el sujeto."],
+      ["arrange","Ordena: [problème / résolu / Marie / a / qui / c'est / le]",["a c'est problème résolu qui le Marie", "c'est résolu Marie problème qui le a", "a Marie le qui c'est résolu problème", "c'est Marie qui a résolu le problème"],3,"“C'est” + persona + “qui” + verbo + objeto."],
+      ["speaking","Parle en français, en 35-45 mots, en utilisant au moins deux structures de mise en relief (“c'est...qui” et “ce dont...c'est”) pour souligner des idées importantes de ta vie.",[],["c'est", "qui", "ce dont"]],
+    ]
+  },
+  {
+    id:"fr_c1_propositions_participiales", level:"C1", title:"Les propositions participiales", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando proposiciones participiales en francés.",
+    study: {
+      vocab: [
+        ["Ayant fini..., ...", "Having finished..., ..."],
+        ["Étant conscient de..., ...", "Being aware of..., ..."],
+        ["Ne sachant pas quoi faire, ...", "Not knowing what to do, ..."],
+        ["proposition participiale", "cláusula de participio"],
+        ["réduit une proposition plus longue", "reduce una cláusula más larga"],
+      ],
+      grammar: [
+        ["Participio pasado y presente en cláusulas reducidas", "“Ayant + participe passé” o cláusulas de participio presente reducen subordinadas más largas, dando un estilo más formal y conciso.", "Ayant fini le rapport, elle est rentrée chez elle. / Ne sachant pas quoi faire, il a appelé son avocat."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Après qu'elle a fini le rapport”?",["Finissant le rapport", "Fini le rapport", "Ayant fini le rapport", "Pour finir le rapport"],2,"“Ayant + participio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué forma reemplaza a “Parce qu'il ne savait pas quoi faire”?",["Sans savoir pas quoi faire", "Ne sachant pas quoi faire", "Ayant pas su quoi faire", "Ne savoir pas quoi faire"],1,"“Ne + participio presente” reemplaza una cláusula causal negativa."],
+      ["fill","Completa: “___ le rapport, elle est rentrée chez elle.”",["Fini", "Finissant", "Pour finir", "Ayant fini"],3,"Acción completada antes de otra → “ayant + participio”."],
+      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Ne savoir pas quoi dire, il est resté silencieux.", "Ne sachant pas quoi dire, il est resté silencieux.", "Ne sachant quoi dire pas, il est resté silencieux.", "Ayant pas su quoi dire, il est resté silencieux."],1,"“Ne + participio presente” al inicio reemplaza una cláusula causal."],
+      ["arrange","Ordena: [chez / fini / ayant / elle / rapport / le / est / rentrée]",["est le elle ayant rentrée rapport chez fini", "est chez ayant elle le rapport fini rentrée", "ayant fini le rapport elle est rentrée chez", "elle ayant rapport chez rentrée le est fini"],2,"Cláusula de participio + sujeto + verbo."],
+      ["writing","Écris en français 35-45 mots en racontant une anecdote en utilisant au moins une proposition participiale (Ayant..., Ne sachant pas..., Étant...).",[],["ayant", "ne sachant pas", "étant"]],
+    ]
+  },
+  {
+    id:"fr_c1_verbes_rapport_subjonctif", level:"C1", title:"Les verbes de discours avancés: suggérer, insister, nier", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de los verbos de discurso avanzados en francés.",
+    study: {
+      vocab: [
+        ["suggérer que + subjonctif", "suggest that + subjunctive"],
+        ["insister pour que + subjonctif", "insist that + subjunctive"],
+        ["nier + infinitif passé", "deny doing"],
+        ["admettre + infinitif passé", "admit doing"],
+        ["recommander que + subjonctif", "recommend that + subjunctive"],
+      ],
+      grammar: [
+        ["Verbos de discurso que exigen subjuntivo o infinitivo pasado", "Verbos como “suggérer que”, “insister pour que” y “recommander que” exigen el subjuntivo; “nier” y “admettre” pueden ir seguidos de “infinitif passé” para una acción pasada.", "Elle a suggéré qu'il arrive tôt. / Il a nié avoir volé l'argent."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal exige “suggérer que”?",["le subjonctif", "l'impératif", "l'indicatif", "l'infinitif"],0,"“Suggérer que” exige el subjuntivo en la subordinada."],
+      ["mcq","¿Cómo se completa “Il a nié ___ l'argent” (voler, acción pasada)?",["voler", "volant", "avoir volé", "volé"],2,"“Nier” + infinitif passé para acciones pasadas: “avoir volé”."],
+      ["fill","Completa: “Le médecin a recommandé qu'elle ___ une semaine.”",["se reposait", "se repose", "s'est reposée", "se reposer"],1,"“Recommander que” exige subjuntivo presente: “se repose”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Il a admis avoir faire une erreur.", "Il a admis faire une erreur.", "Il a admis qu'il faisait une erreur.", "Il a admis avoir fait une erreur."],3,"“Admettre” + infinitif passé para una acción ya realizada."],
+      ["arrange","Ordena: [argent / nié / avoir / l' / volé / il / a]",["avoir volé nié il a l'argent", "il a nié avoir volé l'argent", "nié l'argent a il avoir volé", "il l'argent avoir a volé nié"],1,"Sujeto + “nier” + infinitif passé + objeto."],
+      ["writing","Écris en français 35-45 mots en rapportant une conversation en utilisant au moins deux verbes de discours avancés (suggérer, insister, nier, admettre).",[],["a suggéré que", "a nié", "a admis"]],
+    ]
+  },
+  {
+    id:"fr_c1_ellipse_substitution", level:"C1", title:"L'ellipse et la substitution dans le discours", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en francés usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["Moi aussi / Moi non plus", "So do I / Neither do I"],
+        ["le faire", "to do so"],
+        ["Je crois que oui / J'espère que non", "I think so / I hope not"],
+        ["il en va de même pour...", "the same goes for..."],
+        ["omettre les mots répétés", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El francés evita repetir información con elipsis y expresiones sustitutas como “moi aussi/moi non plus”, “je crois que oui/non”.", "A: J'adore cette chanson. B: Moi aussi. / A: Va-t-il pleuvoir? B: J'espère que non."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “J'adore cette chanson”?",["Moi aussi.", "J'espère que non.", "Le faire.", "Moi non plus."],0,"“Moi aussi” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “Je n'aime pas le café”?",["Moi aussi.", "Moi non plus.", "Je crois que oui.", "Le faire."],1,"“Moi non plus” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Viendra-t-elle à la fête? B: J'espère que ___.”",["plus", "oui", "aussi", "non"],1,"“J'espère que oui” sustituye la cláusula afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Je pense qu'il va pleuvoir. B: Je pense ça aussi trop.", "A: Je pense qu'il va pleuvoir. B: Je pense le aussi.", "A: Je pense qu'il va pleuvoir. B: Je le pense aussi.", "A: Je pense qu'il va pleuvoir. B: Aussi je le pense."],2,"“Je le pense aussi” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [aussi / moi / pense / je]",["moi aussi je pense", "aussi moi pense je", "pense je aussi moi", "je moi pense aussi"],0,"“Moi aussi” + sujeto + verbo."],
+      ["speaking","Parle en français, en 30-40 mots, de goûts partagés avec un ami en utilisant “moi aussi”, “moi non plus” et “je crois que oui”.",[],["moi aussi", "moi non plus", "je crois que oui"]],
+    ]
+  },
+  {
+    id:"fr_c2_nominalisation", level:"C2", title:"La nominalisation pour un registre formel", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en francés.",
+    study: {
+      vocab: [
+        ["réduire → la réduction", "reduce → reduction"],
+        ["décider → la décision", "decide → decision"],
+        ["analyser → l'analyse", "analyze → analysis"],
+        ["Il est important de considérer...", "It is important to consider..."],
+        ["registre académique/formel", "registro académico/formal"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal en francés.", "L'entreprise a décidé de réduire les coûts. → La décision de l'entreprise de réduire les coûts... / Ils ont analysé les données avec soin. → Leur analyse minutieuse des données..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “décider”?",["décidant", "le décideur", "décisif", "la décision"],3,"La nominalización de “décider” es “la décision”."],
+      ["mcq","¿Cuál es la nominalización de “analyser”?",["analysant", "l'analyseur", "l'analyse", "analytique"],2,"La nominalización de “analyser” es “l'analyse”."],
+      ["fill","Completa: “Leur ___ minutieuse des données a révélé de nouveaux schémas.”",["analyse", "analyseur", "analysant", "analyser"],0,"Registro formal → sustantivo nominalizado: “analyse”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["Le décider de réduire les coûts était controversée.", "La décision de réduire les coûts était controversé.", "La décisive de réduire les coûts était controversée.", "La décision de réduire les coûts était controversée."],3,"“Décider” se nominaliza como “la décision”."],
+      ["arrange","Ordena: [était / décision / controversée / la]",["la controversée était décision", "décision était la controversée", "décision était controversée la", "la décision était controversée"],3,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Écris en français 40-50 mots dans un registre formel/académique en utilisant au moins deux noms nominalisés (décision, analyse, réduction...).",[],["décision", "analyse", "réduction"]],
+    ]
+  },
+  {
+    id:"fr_c2_mise_en_avant", level:"C2", title:"L'antéposition pour donner de l'emphase", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer objetos y complementos para dar énfasis en francés.",
+    study: {
+      vocab: [
+        ["Cela, je ne peux pas l'accepter.", "This I cannot accept."],
+        ["Telle était sa détermination que...", "Such was her determination that..."],
+        ["Il ne savait guère que...", "Little did he know..."],
+        ["Celui que j'admire le plus, c'est...", "The one I admire most is..."],
+        ["antéposition", "anteposición/tematización"],
+      ],
+      grammar: [
+        ["Anteposición retomada con pronombre", "El francés permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre (“cela, je ne peux pas l'accepter”).", "Cela, je ne peux pas l'accepter. / Telle était la confusion que la réunion a été annulée."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["Cela, je ne peux pas l'accepter.", "Cela je peux pas ne l'accepter.", "Je ne peux pas accepter cela.", "Je ne peux pas l'accepter, cela."],0,"“Cela, je ne peux pas l'accepter” antepone el objeto “cela”, retomado con “l'”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Cela, je ne peux pas l'accepter.", "Moi aussi.", "Telle était sa détermination...", "Il ne savait guère que..."],3,"“Il ne savait guère que...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “Il ne ___ guère que son plan allait échouer.”",["savait", "saura", "sait", "a su"],0,"“Il ne savait guère que...” es una estructura fija de énfasis en imperfecto."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tel était la confusion que la réunion a été annulée.", "Telle la confusion était que la réunion a été annulée.", "Telle était la confusion que la réunion était annulée.", "Telle était la confusion que la réunion a été annulée."],3,"“Confusion” es femenino → “telle était”."],
+      ["arrange","Ordena: [accepter / cela / peux / ne / je / pas / l']",["cela je ne peux pas l'accepter", "cela peux ne l'accepter je pas", "peux je pas cela ne l'accepter", "cela pas peux l'accepter ne je"],0,"Objeto antepuesto + sujeto + verbo."],
+      ["speaking","Parle en français, en 40-50 mots, d'un tournant inattendu dans ta vie en utilisant au moins une structure d'antéposition emphatique.",[],["cela je", "il ne savait guère", "telle était"]],
+    ]
+  },
+  {
+    id:"fr_c2_adverbes_modalisation", level:"C2", title:"Les adverbes de modalisation avancés", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en francés con adverbios de modalización avanzados.",
+    study: {
+      vocab: [
+        ["on pourrait dire que", "arguably"],
+        ["apparemment / en apparence", "ostensibly"],
+        ["prétendument", "purportedly"],
+        ["indéniablement", "undeniably"],
+        ["vraisemblablement", "presumably"],
+      ],
+      grammar: [
+        ["Los adverbios de modalización matizan el compromiso del hablante", "Los adverbios de modalización muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La politique fut, on pourrait dire, un échec. / Il était apparemment là pour aider, mais il avait d'autres motifs."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["indéniablement", "prétendument", "vraisemblablement", "on pourrait dire que"],1,"“Prétendument” indica algo dicho sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["prétendument", "indéniablement", "on pourrait dire que", "apparemment"],1,"“Indéniablement” indica algo innegable."],
+      ["fill","Completa: “Il était ___ là pour aider, mais il avait d'autres motifs.”",["apparemment", "indéniablement", "on pourrait dire", "vraisemblablement"],0,"“Apparemment” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["C'est, on pourrait dire, son meilleur travail.", "C'est, prétendument, son meilleur travail.", "C'est, apparemment, son meilleur travail.", "C'est, indéniablement, son meilleur travail."],0,"“Podría decirse que” se traduce como “on pourrait dire que”."],
+      ["arrange","Ordena: [échec / fut / la / politique / un]",["la politique fut un échec", "la échec fut un politique", "échec fut la un politique", "échec politique fut la un"],0,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Écris en français 40-50 mots en donnant ton avis sur un sujet controversé en utilisant au moins deux adverbes de modalisation (on pourrait dire que, indéniablement, vraisemblablement...).",[],["on pourrait dire que", "indéniablement", "vraisemblablement"]],
+    ]
+  },
+  {
+    id:"fr_c2_syntagmes_nominaux_complexes", level:"C2", title:"Les syntagmes nominaux complexes du registre académique", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del francés académico.",
+    study: {
+      vocab: [
+        ["la mesure dans laquelle...", "the extent to which..."],
+        ["un nombre croissant de preuves", "a growing body of evidence"],
+        ["les causes sous-jacentes de...", "the underlying causes of..."],
+        ["un large éventail de facteurs", "a wide range of factors"],
+        ["postmodification", "posmodificación"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El francés académico usa sintagmas nominales complejos, con posmodificadores (cláusulas de relativo, frases preposicionales) para compactar información densa.", "Un nombre croissant de preuves suggère que... / La mesure dans laquelle les politiques réussissent dépend de..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en francés?",["la mesure dans laquelle", "un large éventail de facteurs", "un nombre croissant de preuves", "les causes sous-jacentes de"],2,"“A growing body of evidence” es “un nombre croissant de preuves”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en francés?",["la mesure dans laquelle", "les causes sous-jacentes de", "un nombre croissant de preuves", "un large éventail de facteurs"],1,"“The underlying causes of” es “les causes sous-jacentes de”."],
+      ["fill","Completa: “___ laquelle la politique réussit dépend du soutien public.”",["La mesure dans", "Un nombre croissant de", "Les causes sous-jacentes de", "Un large éventail de"],0,"“La mesure dans laquelle” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Un nombre croissant de preuves suggèrent que le climat change.", "Un nombre croissant de preuve suggère que le climat change.", "Un nombre croissant des preuves suggère que le climat change.", "Un nombre croissant de preuves suggère que le climat change."],3,"El verbo concuerda con “nombre” (singular): “suggère”."],
+      ["arrange","Ordena: [facteurs / éventail / large / un / de]",["large facteurs un de éventail", "un large éventail de facteurs", "de facteurs un large éventail", "large éventail facteurs un de"],1,"Artículo + adjetivo + sustantivo + “de” + sustantivo."],
+      ["speaking","Parle en français, en 40-50 mots, d'un sujet académique ou social en utilisant au moins deux syntagmes nominaux complexes.",[],["un nombre croissant de", "un large éventail de", "la mesure dans laquelle"]],
+    ]
+  },
+  {
+    id:"fr_c2_cohesion_textuelle", level:"C2", title:"La cohésion textuelle: référence et substitution avancée", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en francés para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["le premier / le second (mentionnés)", "the former / the latter"],
+        ["un tel/une telle...", "such a/an..."],
+        ["le/la susmentionné(e)", "the aforementioned"],
+        ["cela étant dit...", "that being said..."],
+        ["procédé de cohésion textuelle", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“Le premier/le second” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “le premier/le second” para referirse a elementos mencionados antes sin repetirlos.", "Nous avons envisagé deux options: le télétravail et le travail au bureau. Le premier offre de la flexibilité, tandis que le second favorise la collaboration."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["cela étant dit", "le second", "le premier", "le susmentionné"],2,"“Le premier” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["le premier", "le susmentionné", "un tel", "le second"],3,"“Le second” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Nous avons envisagé deux options: A et B. ___ offre de la flexibilité.”",["Le premier", "Cela étant dit", "Le susmentionné", "Le second"],0,"“Le premier” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Cela étant, il reste encore des questions à résoudre.", "Cela étant dit, il reste encore des questions à résoudre.", "Cela dit étant, il reste encore des questions à résoudre.", "Cela étant dit, il y a encore des question à résoudre."],1,"“That being said” es “cela étant dit”."],
+      ["arrange","Ordena: [flexibilité / premier / le / offre / de / la]",["le premier offre de la flexibilité", "la offre premier de le flexibilité", "la premier offre le flexibilité de", "offre premier de flexibilité la le"],0,"“Le premier” + verbo + complemento."],
+      ["writing","Écris en français 40-50 mots en comparant deux options en utilisant “le premier”, “le second” et “cela étant dit”.",[],["le premier", "le second", "cela étant dit"]],
+    ]
+  },
 ];

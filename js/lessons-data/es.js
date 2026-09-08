@@ -4460,4 +4460,364 @@ window.LESSON_BANKS.ES = [
       ["speaking","Explica en español, en 40-55 palabras, los pasos para hacer algo que sepas hacer (una receta, un trámite, etc.) usando al menos tres conectores de secuencia.",[],["primero", "luego", "finalmente"]],
     ]
   },
+  {
+    id:"es_b2_relative_clauses", level:"B2", title:"Las oraciones de relativo especificativas y explicativas", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos en español: que, quien y cuyo.",
+    study: {
+      vocab: [
+        ["que", "that/which/who – relativo general"],
+        ["quien/quienes", "who – personas, tras coma o preposición"],
+        ["cuyo/cuya/cuyos/cuyas", "whose – concuerda con lo poseído"],
+        ["donde, cuando", "where, when"],
+        ["el hombre que llamó", "the man who called"],
+      ],
+      grammar: [
+        ["“Cuyo” concuerda con lo poseído, no con el poseedor", "“Cuyo/a/os/as” es un relativo posesivo que concuerda en género y número con el sustantivo que sigue (lo poseído), nunca con quien posee; no debe confundirse con “¿de quién?”.", "El escritor cuya novela ganó el premio... / La mujer, quien vive cerca, es doctora."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo indica posesión y concuerda con el sustantivo poseído?",["donde", "cuyo/a", "que", "quien"],1,"“Cuyo/a” indica posesión y concuerda con lo poseído."],
+      ["mcq","¿Qué pronombre se usa para personas, especialmente tras coma o preposición?",["donde", "cuyo", "que", "quien"],3,"“Quien” se usa para personas, sobre todo en explicativas."],
+      ["fill","Completa: “El escritor ___ novela ganó el premio es argentino.”",["quien", "cuyo", "cuya", "que"],2,"“Novela” es femenino → “cuya” concuerda con lo poseído, no con “el escritor”."],
+      ["translate","Traduce: “The woman, who lives nearby, is a doctor.”",["La mujer, donde vive cerca, es doctora.", "La mujer, quien vive cerca, es doctora.", "La mujer, cuya vive cerca, es doctora.", "La mujer, cuyo vive cerca, es doctora."],1,"“Quien” se usa para personas en oraciones explicativas."],
+      ["arrange","Ordena: [llamó / el / que / hombre]",["el hombre que llamó", "que llamó el hombre", "que llamó hombre el", "el llamó hombre que"],0,"Sustantivo + “que” + verbo."],
+      ["writing","Escribe en español 30-40 palabras describiendo a una persona y un objeto usando “que”, “quien” y “cuyo”.",[],["que", "quien", "cuyo"]],
+    ]
+  },
+  {
+    id:"es_b2_gerundio_perifrasis", level:"B2", title:"Perífrasis de gerundio: llevar, seguir, continuar", emoji:"🔄", xp:56,
+    description:"Aprende las perífrasis verbales de gerundio más usadas en español.",
+    study: {
+      vocab: [
+        ["llevar + gerundio", "to have been doing (duración)"],
+        ["seguir/continuar + gerundio", "to keep on doing"],
+        ["estar + gerundio", "to be doing (progresivo)"],
+        ["acabar de + infinitivo", "to have just done"],
+        ["volver a + infinitivo", "to do again"],
+      ],
+      grammar: [
+        ["Perífrasis verbales con gerundio e infinitivo", "“Llevar + tiempo + gerundio” expresa cuánto tiempo llevas haciendo algo; “seguir/continuar + gerundio” indica que una acción continúa; son perífrasis distintas del gerundio simple.", "Llevo dos años estudiando español. / Sigue lloviendo. / Acabo de llegar."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué perífrasis expresa cuánto tiempo llevas haciendo algo?",["llevar + gerundio", "acabar de + infinitivo", "seguir + gerundio", "volver a + infinitivo"],0,"“Llevar + gerundio” expresa duración."],
+      ["mcq","¿Qué perífrasis significa “haber hecho algo hace muy poco”?",["volver a + infinitivo", "seguir + gerundio", "llevar + gerundio", "acabar de + infinitivo"],3,"“Acabar de + infinitivo” es “to have just done”."],
+      ["fill","Completa: “___ dos horas esperando el autobús.”",["Llevo", "Vuelvo", "Acabo", "Sigo"],0,"“Llevar + tiempo + gerundio” expresa duración."],
+      ["translate","Traduce: “It keeps raining.”",["Acaba de llover.", "Sigue lloviendo.", "Vuelve a llover.", "Lleva lloviendo."],1,"“Seguir + gerundio” indica que una acción continúa."],
+      ["arrange","Ordena: [llegar / acabo / de]",["de acabo llegar", "acabo llegar de", "acabo de llegar", "llegar acabo de"],2,"“Acabar de” + infinitivo."],
+      ["writing","Escribe en español 30-40 palabras sobre tus actividades usando “llevar + gerundio”, “seguir + gerundio” y “acabar de + infinitivo”.",[],["llevo", "sigo", "acabo de"]],
+    ]
+  },
+  {
+    id:"es_b2_ojala_subjuntivo", level:"B2", title:"Ojalá y el subjuntivo para expresar deseos", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en español con “ojalá” y el subjuntivo.",
+    study: {
+      vocab: [
+        ["ojalá + subjuntivo presente", "I wish (deseo posible)"],
+        ["ojalá + pluscuamperfecto de subjuntivo", "I wish (arrepentimiento pasado)"],
+        ["si tan solo...", "if only..."],
+        ["me gustaría que + subjuntivo", "I would like it if..."],
+        ["arrepentimiento", "regret"],
+      ],
+      grammar: [
+        ["“Ojalá” + distintos tiempos de subjuntivo", "“Ojalá” + presente de subjuntivo expresa un deseo posible; “ojalá” + pluscuamperfecto de subjuntivo expresa arrepentimiento sobre algo que ya no se puede cambiar.", "Ojalá tenga tiempo mañana. / Ojalá hubiera estudiado más."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma usas para un deseo posible sobre el futuro?",["me gustaría que", "si tan solo", "ojalá + pluscuamperfecto", "ojalá + subjuntivo presente"],3,"Deseo posible sobre el futuro → “ojalá” + subjuntivo presente."],
+      ["mcq","¿Qué forma expresa arrepentimiento sobre el pasado?",["si tan solo tengo", "ojalá + pluscuamperfecto", "me gustaría que", "ojalá + presente"],1,"Arrepentimiento pasado → “ojalá” + pluscuamperfecto de subjuntivo."],
+      ["fill","Completa: “Ojalá ___ más tiempo mañana.”",["tuviera", "tengo", "tenga", "tendré"],2,"Deseo posible sobre el futuro → subjuntivo presente: “tenga”."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["Ojalá acepte el trabajo.", "Ojalá he aceptado el trabajo.", "Ojalá hubiera aceptado el trabajo.", "Ojalá aceptara el trabajo."],2,"Arrepentimiento sobre el pasado → “ojalá” + pluscuamperfecto de subjuntivo."],
+      ["arrange","Ordena: [tiempo / ojalá / tenga / más]",["ojalá tenga más tiempo", "ojalá tenga tiempo más", "tenga ojalá tiempo más", "tenga tiempo ojalá más"],0,"“Ojalá” + subjuntivo presente."],
+      ["speaking","Habla en español, en 35-45 palabras, sobre algo que ojalá hubieras hecho diferente en el pasado, usando “ojalá” + pluscuamperfecto de subjuntivo.",[],["ojalá", "hubiera", "si tan solo"]],
+    ]
+  },
+  {
+    id:"es_b2_deber_de_pasado", level:"B2", title:"“Deber de” y el futuro compuesto para especular sobre el pasado", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en español con “deber de” y el futuro compuesto.",
+    study: {
+      vocab: [
+        ["debe de haber + participio", "must have (deducción)"],
+        ["puede haber + participio", "might have (posibilidad)"],
+        ["no puede haber + participio", "can't have (certeza negativa)"],
+        ["habrá + participio", "must have (alternativa con futuro compuesto)"],
+        ["debería haber + participio", "should have (crítica/arrepentimiento)"],
+      ],
+      grammar: [
+        ["“Deber de” y el futuro compuesto de probabilidad", "“Deber de + infinitivo compuesto” o el futuro compuesto (“habrá salido”) expresan una deducción sobre el pasado; “deberías haber + participio” expresa crítica o arrepentimiento.", "Ya debe de haber salido; su abrigo no está. / Habrá salido ya. / Deberías haberme llamado antes."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["debería haber", "puede haber", "no puede haber", "debe de haber"],3,"“Debe de haber” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["debe de haber", "no puede haber", "puede haber", "debería haber"],3,"“Debería haber” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “Ya ___ salido; su abrigo no está.”",["debería haber", "puede haber", "debe de haber", "no puede haber"],2,"Evidencia fuerte (abrigo desapareció) → “debe de haber”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Deberías haber terminado tan rápido.", "Puedes haber terminado tan rápido.", "Debes de haber terminado tan rápido.", "No puedes haber terminado tan rápido."],3,"Certeza negativa fuerte → “no puedes haber”."],
+      ["arrange","Ordena: [llamado / deberías / antes / haberme]",["haberme llamado deberías antes", "deberías antes llamado haberme", "llamado deberías haberme antes", "deberías haberme llamado antes"],3,"“Deberías haber” + participio."],
+      ["writing","Escribe en español 35-45 palabras especulando sobre por qué alguien llegó tarde a una reunión, usando “debe de haber”, “puede haber” y “no puede haber”.",[],["debe de haber", "puede haber", "no puede haber"]],
+    ]
+  },
+  {
+    id:"es_b2_imperfecto_soler_habitos", level:"B2", title:"El imperfecto y “soler” para hábitos pasados", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en español con el imperfecto y “soler”.",
+    study: {
+      vocab: [
+        ["solía + infinitivo", "used to (hábito pasado)"],
+        ["el imperfecto para hábitos y estados", "imperfect for past habits/states"],
+        ["ya no...", "not anymore..."],
+        ["de niño/a...", "as a child..."],
+        ["hoy en día", "nowadays"],
+      ],
+      grammar: [
+        ["El imperfecto es el tiempo natural para hábitos pasados", "El pretérito imperfecto es el tiempo natural para hábitos y estados pasados en español; “soler + infinitivo” en imperfecto (“solía”) refuerza explícitamente la idea de costumbre.", "Vivía en Roma. / De niño, solía jugar afuera todos los días."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal se usa naturalmente para hábitos y estados pasados?",["el subjuntivo", "el indefinido", "el imperfecto", "el condicional"],2,"El imperfecto es el tiempo natural para hábitos y estados pasados."],
+      ["mcq","¿Qué verbo + infinitivo refuerza la idea de costumbre pasada?",["solía", "soler", "solió", "suele"],0,"“Solía” refuerza la idea de costumbre pasada."],
+      ["fill","Completa: “Cuando era joven, ___ vivir en un pueblo pequeño.”",["he solido", "solía", "suelo", "solió"],1,"Costumbre pasada → “soler” en imperfecto: “solía”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["De niño, siempre jugaba en el parque.", "De niño, siempre jugué en el parque.", "De niño, siempre juego en el parque.", "De niño, siempre he jugado en el parque."],0,"Hábito pasado repetido → imperfecto: “jugaba”."],
+      ["arrange","Ordena: [Roma / vivía / en / yo]",["Roma vivía yo en", "yo Roma en vivía", "en yo Roma vivía", "yo vivía en Roma"],3,"Sujeto + imperfecto + preposición + objeto."],
+      ["speaking","Habla en español, en 35-45 palabras, sobre cómo era tu vida hace diez años, usando el imperfecto y “solía”.",[],["solía", "vivía", "hoy en día"]],
+    ]
+  },
+  {
+    id:"es_c1_anteposicion_negativa", level:"C1", title:"La anteposición de adverbios negativos para dar énfasis", emoji:"❗", xp:65,
+    description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en español.",
+    study: {
+      vocab: [
+        ["Jamás/Nunca + verbo", "Never + verb"],
+        ["No solo... sino también...", "Not only... but also..."],
+        ["Solo después de..., ...", "Only after..., ..."],
+        ["Apenas... cuando...", "No sooner... than..."],
+        ["énfasis mediante anteposición", "emphasis through fronting"],
+      ],
+      grammar: [
+        ["Anteposición de adverbios negativos/restrictivos", "En español, para dar énfasis se antepone el adverbio negativo o restrictivo al inicio de la oración; el orden de palabras es más flexible que en inglés, sin necesidad de un auxiliar como “do”.", "Jamás había visto un atardecer tan hermoso. / No solo ganó la carrera, sino que también rompió el récord. / Apenas había llegado cuando empezó a llover."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión introduce dos acciones casi simultáneas, la segunda inesperada?",["Solo después de", "No solo... sino también...", "Jamás", "Apenas... cuando..."],3,"“Apenas...cuando...” indica dos acciones casi simultáneas."],
+      ["mcq","¿Cómo se dice “not only... but also...” en español?",["Apenas... cuando...", "No solo... sino también...", "Solo después de...", "Jamás"],1,"“Not only...but also...” es “no solo...sino también...”."],
+      ["fill","Completa: “___ había llegado cuando empezó a llover.”",["Apenas", "No solo", "Jamás", "Solo"],0,"“Apenas...cuando...” indica que una acción ocurre justo después de otra."],
+      ["translate","Traduce: “Not only did she win the race, but she also broke the record.”",["Solo no ganó la carrera, sino que también rompió el récord.", "No solo ganó la carrera, sino que también rompió el récord.", "No solo ganó la carrera, sino rompió también el récord ella.", "No solo ella ganó la carrera, pero también rompió el récord."],1,"“No solo...sino que también...” es la estructura correcta en español."],
+      ["arrange","Ordena: [visto / había / jamás / algo / así]",["jamás visto había algo así", "jamás había visto algo así", "había así visto jamás algo", "visto había así jamás algo"],1,"Adverbio negativo + pluscuamperfecto + objeto."],
+      ["writing","Escribe en español 35-45 palabras sobre un logro o experiencia usando al menos una de estas estructuras enfáticas: “jamás”, “no solo... sino también”, “apenas... cuando”.",[],["jamás", "no solo", "apenas"]],
+    ]
+  },
+  {
+    id:"es_c1_oraciones_hendidas", level:"C1", title:"Las oraciones hendidas: fue...quien / lo que...es", emoji:"🎯", xp:65,
+    description:"Aprende a usar oraciones hendidas para dar énfasis a un elemento concreto en español.",
+    study: {
+      vocab: [
+        ["Fue... quien/el que...", "It was... who/that..."],
+        ["Lo que necesito es...", "What I need is..."],
+        ["Lo que me sorprendió fue...", "What surprised me was..."],
+        ["Es/fue + sustantivo + quien/el que", "It is/was + noun + who/that"],
+        ["énfasis mediante estructura", "emphasis through structure"],
+      ],
+      grammar: [
+        ["“Fue...quien/el que” y “lo que...es”", "Las oraciones hendidas reorganizan la información para enfatizar un elemento concreto, usando “fue...quien/el que” o “lo que...es”.", "Fue María quien resolvió el problema. / Lo que necesito es más tiempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza el sujeto con “fue”?",["Jamás", "Lo que... es...", "No solo...", "Fue... quien/el que..."],3,"“Fue...quien/el que...” enfatiza el sujeto."],
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Apenas... cuando...", "Lo que... es...", "Fue... quien...", "Solo después de..."],1,"“Lo que...es...” enfatiza el complemento."],
+      ["fill","Completa: “___ necesito es más tiempo.”",["Fue", "Eso", "Lo que", "Quien"],2,"“Lo que + cláusula + es” enfatiza el complemento."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["María fue quien resolvió el problema.", "Fue María quien resuelve el problema.", "Fue María que resuelto el problema.", "Fue María quien resolvió el problema."],3,"“Fue + persona + quien” enfatiza el sujeto en pasado."],
+      ["arrange","Ordena: [necesito / lo / es / que / tiempo / más]",["tiempo que necesito lo es más", "lo que necesito es más tiempo", "tiempo lo es más necesito que", "lo más tiempo es que necesito"],1,"“Lo que” + cláusula + “es” + complemento."],
+      ["speaking","Habla en español, en 35-45 palabras, usando al menos dos oraciones hendidas (“fue...quien” y “lo que...es”) para enfatizar ideas importantes en tu vida.",[],["fue", "lo que necesito", "quien"]],
+    ]
+  },
+  {
+    id:"es_c1_gerundio_participio_absolutos", level:"C1", title:"El gerundio y el participio absolutos", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando el gerundio compuesto y el participio absoluto en español.",
+    study: {
+      vocab: [
+        ["Habiendo terminado..., ...", "Having finished..., ..."],
+        ["Siendo consciente de..., ...", "Being aware of..., ..."],
+        ["Terminada la reunión, ...", "The meeting finished, ..."],
+        ["construcción absoluta", "absolute construction"],
+        ["reduce una cláusula más larga", "reduces a longer clause"],
+      ],
+      grammar: [
+        ["Gerundio compuesto y participio absoluto", "El gerundio compuesto (“habiendo + participio”) o el participio absoluto (“terminada la reunión”, concordando en género y número) reemplazan cláusulas subordinadas más largas, con un estilo más formal.", "Habiendo terminado el informe, se fue a casa. / Terminada la reunión, todos se fueron."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Después de que terminó el informe”?",["Terminando el informe", "Para terminar el informe", "Terminado el informe él", "Habiendo terminado el informe"],3,"“Habiendo + participio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué construcción usa el participio concordando con el sustantivo, sin gerundio?",["Terminada la reunión", "Terminando la reunión", "Para terminar la reunión", "Habiendo terminado la reunión"],0,"El participio absoluto concuerda en género y número: “terminada la reunión”."],
+      ["fill","Completa: “___ el informe, se fue a casa.”",["Terminando", "Para terminar", "Terminado", "Habiendo terminado"],3,"Acción completada antes de otra → “habiendo + participio”."],
+      ["translate","Traduce: “The meeting finished, everyone left.”",["Terminada la reunión, todos se fueron.", "Termina la reunión, todos se fueron.", "Habiendo terminada la reunión, todos se fueron.", "Terminando la reunión, todos se fueron."],0,"Participio absoluto concordando con “la reunión” (femenino): “terminada”."],
+      ["arrange","Ordena: [casa / terminado / habiendo / se / a / fue / el / informe]",["fue habiendo casa se el a informe terminado", "a casa fue terminado informe habiendo se el", "habiendo terminado el informe se fue a casa", "habiendo fue casa a terminado se informe el"],2,"Gerundio compuesto + objeto + sujeto + verbo."],
+      ["writing","Escribe en español 35-45 palabras contando una anécdota usando al menos una construcción de gerundio o participio absoluto (Habiendo..., Terminada la...).",[],["habiendo", "terminada", "siendo"]],
+    ]
+  },
+  {
+    id:"es_c1_verbos_reporte_subjuntivo", level:"C1", title:"Verbos de reporte avanzados con subjuntivo", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de verbos de reporte avanzados como sugerir, insistir y negar.",
+    study: {
+      vocab: [
+        ["sugerir que + subjuntivo", "suggest that + subjunctive"],
+        ["insistir en que + subjuntivo", "insist that + subjunctive"],
+        ["negar + infinitivo compuesto", "deny doing"],
+        ["admitir + infinitivo compuesto", "admit doing"],
+        ["recomendar que + subjuntivo", "recommend that + subjunctive"],
+      ],
+      grammar: [
+        ["Verbos de reporte que exigen subjuntivo o infinitivo compuesto", "Verbos como “sugerir”, “insistir” y “recomendar” exigen subjuntivo en la cláusula subordinada; “negar” y “admitir” pueden ir seguidos de infinitivo compuesto (“haber + participio”) para acciones pasadas.", "Ella sugirió que él llegara temprano. / Él negó haber robado el dinero."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal exige “sugerir que”?",["el indicativo", "el infinitivo", "el subjuntivo", "el imperativo"],2,"“Sugerir que” exige el subjuntivo en la cláusula subordinada."],
+      ["mcq","¿Cómo se completa “Él negó ___ el dinero” (robar, acción pasada)?",["robando", "haber robado", "robado", "robar"],1,"“Negar” + infinitivo compuesto para acciones pasadas: “haber robado”."],
+      ["fill","Completa: “El médico recomendó que ella ___ una semana.”",["descansar", "descansa", "descansara", "descansó"],2,"“Recomendar que” exige subjuntivo (pasado en este contexto): “descansara”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Él admitió haber cometer un error.", "Él admitió haber cometido un error.", "Él admitió cometer un error.", "Él admitió que cometía un error."],1,"“Admitir” + infinitivo compuesto para una acción ya realizada."],
+      ["arrange","Ordena: [dinero / negó / haber / robado / el / él]",["robado dinero haber el él negó", "robado dinero haber él el negó", "haber el dinero robado negó él", "él negó haber robado el dinero"],3,"Sujeto + “negar” + infinitivo compuesto + objeto."],
+      ["writing","Escribe en español 35-45 palabras reportando una conversación usando al menos dos verbos de reporte avanzados (sugerir, insistir, negar, admitir).",[],["sugirió que", "negó", "admitió"]],
+    ]
+  },
+  {
+    id:"es_c1_elipsis_sustitucion", level:"C1", title:"Elipsis y sustitución en el discurso", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en español usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["A mí también / A mí tampoco", "So do I / Neither do I"],
+        ["hacerlo así", "to do so"],
+        ["Creo que sí / Espero que no", "I think so / I hope not"],
+        ["lo mismo aplica para...", "the same goes for..."],
+        ["omitir palabras repetidas", "omit repeated words"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El español evita repetir información con elipsis (omisión del verbo/sujeto) y expresiones sustitutas como “creo que sí/no”, “a mí también/tampoco”.", "A: Me encanta esta canción. B: A mí también. / A: ¿Va a llover? B: Espero que no."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “Me encanta esta canción”?",["A mí también.", "A mí tampoco.", "Espero que no.", "Hacerlo así."],0,"“A mí también” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “No me gusta el café”?",["A mí tampoco.", "A mí también.", "Hacerlo así.", "Creo que sí."],0,"“A mí tampoco” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: ¿Vendrá ella a la fiesta? B: Espero que ___.”",["no", "sí", "también", "tampoco"],1,"“Espero que sí” sustituye la cláusula completa afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Creo que va a llover. B: También yo creo.", "A: Creo que va a llover. B: Yo creo también eso.", "A: Creo que va a llover. B: Yo creo eso también mucho.", "A: Creo que va a llover. B: Yo también lo creo."],3,"“Yo también lo creo” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [también / mí / a]",["mí también a", "a también mí", "a mí también", "también mí a"],2,"“A mí” + “también”."],
+      ["speaking","Habla en español, en 30-40 palabras, sobre gustos compartidos con un amigo usando “a mí también”, “a mí tampoco” y “creo que sí”.",[],["a mí también", "a mí tampoco", "creo que sí"]],
+    ]
+  },
+  {
+    id:"es_c2_nominalizacion", level:"C2", title:"La nominalización para un registro formal", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en español.",
+    study: {
+      vocab: [
+        ["reducir → la reducción", "reduce → reduction"],
+        ["decidir → la decisión", "decide → decision"],
+        ["analizar → el análisis", "analyze → analysis"],
+        ["Es importante considerar...", "It is important to consider..."],
+        ["registro académico/formal", "academic/formal register"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal en español.", "La empresa decidió reducir costos. → La decisión de la empresa de reducir costos... / Analizaron los datos cuidadosamente. → Su cuidadoso análisis de los datos..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “decidir”?",["decisivo", "la decisión", "el decisor", "decidiendo"],1,"La nominalización de “decidir” es “la decisión”."],
+      ["mcq","¿Cuál es la nominalización de “analizar”?",["el análisis", "analizando", "el analizador", "analítico"],0,"La nominalización de “analizar” es “el análisis”."],
+      ["fill","Completa: “Su cuidadoso ___ de los datos reveló nuevos patrones.”",["analizar", "análisis", "analizador", "analizando"],1,"Registro formal → sustantivo nominalizado: “análisis”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["El decidir de reducir costos fue controvertida.", "La decisión de reducir costos fue controvertido.", "La decisiva de reducir costos fue controvertida.", "La decisión de reducir costos fue controvertida."],3,"“Decidir” se nominaliza como “la decisión”."],
+      ["arrange","Ordena: [fue / decisión / controvertida / la]",["la decisión fue controvertida", "fue la controvertida decisión", "decisión la fue controvertida", "fue decisión controvertida la"],0,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Escribe en español 40-50 palabras en un registro formal/académico usando al menos dos sustantivos nominalizados (decisión, análisis, reducción...).",[],["decisión", "análisis", "reducción"]],
+    ]
+  },
+  {
+    id:"es_c2_anteposicion_enfatica", level:"C2", title:"La anteposición enfática de elementos", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer objetos y complementos para dar énfasis en español.",
+    study: {
+      vocab: [
+        ["Esto no lo puedo aceptar.", "This I cannot accept."],
+        ["Tal fue su determinación que...", "Such was her determination that..."],
+        ["Poco sabía él que...", "Little did he know..."],
+        ["A quien más admiro es a...", "The one I admire most is..."],
+        ["tematización", "topicalization"],
+      ],
+      grammar: [
+        ["Anteposición retomada con pronombre", "El español permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a veces con un pronombre (“esto no lo puedo aceptar”).", "Esto no lo puedo aceptar. / Tal fue el caos que se canceló la reunión."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["No puedo aceptar esto.", "Esto puedo no aceptarlo.", "No lo puedo aceptar, esto.", "Esto no lo puedo aceptar."],3,"“Esto no lo puedo aceptar” antepone el objeto “esto”, retomado con “lo”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Esto no lo puedo aceptar.", "A mí también.", "Tal fue su determinación...", "Poco sabía él que..."],3,"“Poco sabía él que...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ sabía él que su plan fracasaría.”",["Apenas", "Solo", "Nunca", "Poco"],3,"“Poco sabía él que...” es una estructura fija de énfasis."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tan fue el caos que se canceló la reunión.", "Tal fue el caos que se canceló la reunión.", "Tal el caos fue que se canceló la reunión.", "Tal fue el caos que la reunión se cancelaba."],1,"“Tal fue + sustantivo + que” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [aceptar / esto / lo / puedo / no]",["esto no lo puedo aceptar", "no puedo aceptar esto lo", "aceptar no lo puedo esto", "puedo esto aceptar lo no"],0,"Objeto antepuesto + pronombre + verbo."],
+      ["speaking","Habla en español, en 40-50 palabras, sobre un giro inesperado en tu vida usando al menos una estructura de anteposición enfática.",[],["esto no lo", "poco sabía", "tal fue"]],
+    ]
+  },
+  {
+    id:"es_c2_adverbios_postura", level:"C2", title:"Adverbios de postura y matización avanzada", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en español con expresiones de postura avanzadas.",
+    study: {
+      vocab: [
+        ["podría decirse que", "arguably"],
+        ["aparentemente / en apariencia", "ostensibly"],
+        ["supuestamente", "purportedly"],
+        ["innegablemente", "undeniably"],
+        ["presumiblemente", "presumably"],
+      ],
+      grammar: [
+        ["Las expresiones de postura matizan el compromiso del hablante", "Los adverbios y expresiones de postura muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La política fue, podría decirse, un fracaso. / Estaba aparentemente ahí para ayudar, pero tenía otros motivos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["podría decirse que", "innegablemente", "presumiblemente", "supuestamente"],3,"“Supuestamente” indica que algo se dice como cierto sin confirmación."],
+      ["mcq","¿Qué expresión indica algo indiscutible?",["innegablemente", "supuestamente", "aparentemente", "podría decirse que"],0,"“Innegablemente” indica algo innegable."],
+      ["fill","Completa: “Estaba ___ ahí para ayudar, pero tenía otros motivos.”",["innegablemente", "aparentemente", "presumiblemente", "podría decirse"],1,"“Aparentemente” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["Esta es, podría decirse, su mejor obra.", "Esta es, innegablemente, su mejor obra.", "Esta es, supuestamente, su mejor obra.", "Esta es, aparentemente, su mejor obra."],0,"“Podría decirse que” se traduce como “arguably”."],
+      ["arrange","Ordena: [fracaso / fue / la / política / un]",["fue un la fracaso política", "la política fue un fracaso", "la un fue política fracaso", "un la política fracaso fue"],1,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Escribe en español 40-50 palabras dando tu opinión sobre un tema controvertido usando al menos dos expresiones de postura (podría decirse que, innegablemente, presumiblemente...).",[],["podría decirse que", "innegablemente", "presumiblemente"]],
+    ]
+  },
+  {
+    id:"es_c2_sintagmas_nominales_complejos", level:"C2", title:"Sintagmas nominales complejos en el registro académico", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del español académico.",
+    study: {
+      vocab: [
+        ["el grado en que...", "the extent to which..."],
+        ["un creciente cuerpo de evidencia", "a growing body of evidence"],
+        ["las causas subyacentes de...", "the underlying causes of..."],
+        ["una amplia gama de factores", "a wide range of factors"],
+        ["posmodificación del sustantivo", "postmodification"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El español académico usa sintagmas nominales complejos, con posmodificadores (cláusulas de relativo, frases preposicionales) para compactar información densa.", "Un creciente cuerpo de evidencia sugiere que... / El grado en que las políticas tienen éxito depende de..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en español?",["las causas subyacentes de", "el grado en que", "una amplia gama de factores", "un creciente cuerpo de evidencia"],3,"“A growing body of evidence” es “un creciente cuerpo de evidencia”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en español?",["un creciente cuerpo de evidencia", "el grado en que", "una amplia gama de factores", "las causas subyacentes de"],3,"“The underlying causes of” es “las causas subyacentes de”."],
+      ["fill","Completa: “___ que la política tiene éxito depende del apoyo público.”",["Un creciente cuerpo de", "Una amplia gama de", "Las causas subyacentes de", "El grado en"],3,"“El grado en que” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Un creciente cuerpo de evidencias sugiere que el clima está cambiando.", "Un creciente cuerpo de evidencia sugiera que el clima está cambiando.", "Un crecido cuerpo de evidencia sugiere que el clima está cambiando.", "Un creciente cuerpo de evidencia sugiere que el clima está cambiando."],3,"“Evidencia” es incontable en este uso, no lleva plural."],
+      ["arrange","Ordena: [factores / gama / una / amplia / de]",["amplia gama factores una de", "una amplia gama de factores", "gama una de factores amplia", "amplia una gama de factores"],1,"Artículo + adjetivo + sustantivo + “de” + sustantivo."],
+      ["speaking","Habla en español, en 40-50 palabras, sobre un tema académico o social usando al menos dos sintagmas nominales complejos.",[],["un creciente cuerpo de", "una amplia gama de", "el grado en que"]],
+    ]
+  },
+  {
+    id:"es_c2_cohesion_textual", level:"C2", title:"Cohesión textual: referencia y sustitución avanzada", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en español para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["el primero / el segundo (mencionados)", "the former / the latter"],
+        ["tal un/una...", "such a/an..."],
+        ["el/la antes mencionado/a", "the aforementioned"],
+        ["dicho esto...", "that being said..."],
+        ["recurso de cohesión textual", "cohesive device"],
+      ],
+      grammar: [
+        ["“El primero/el segundo” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “el primero/el segundo” para referirse a elementos mencionados antes sin repetirlos.", "Consideramos dos opciones: trabajo remoto y trabajo presencial. El primero ofrece flexibilidad, mientras que el segundo fomenta la colaboración."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["dicho esto", "el antes mencionado", "el primero", "el segundo"],2,"“El primero” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["el antes mencionado", "tal un", "el segundo", "el primero"],2,"“El segundo” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Consideramos dos opciones: A y B. ___ ofrece flexibilidad.”",["El primero", "Dicho esto", "El antes mencionado", "El segundo"],0,"“El primero” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Dicho esto, todavía quedan preguntas por resolver.", "Dicho esto, todavía hay preguntas por resolverse mal.", "Diciendo esto, todavía quedan preguntas por resolver.", "Dicho eso, todavía quedan preguntas resolver."],0,"“That being said” es “dicho esto”."],
+      ["arrange","Ordena: [flexibilidad / primero / el / ofrece]",["primero flexibilidad ofrece el", "el primero ofrece flexibilidad", "primero flexibilidad el ofrece", "flexibilidad ofrece el primero"],1,"“El primero” + verbo + complemento."],
+      ["writing","Escribe en español 40-50 palabras comparando dos opciones usando “el primero”, “el segundo” y “dicho esto”.",[],["el primero", "el segundo", "dicho esto"]],
+    ]
+  },
 ];

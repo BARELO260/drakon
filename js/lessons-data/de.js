@@ -4457,4 +4457,364 @@ window.LESSON_BANKS.DE = [
       ["speaking","Erkläre auf Deutsch, in 40-55 Wörtern, die Schritte, um etwas zu tun, das du kannst (ein Rezept, ein Verfahren usw.), benutze mindestens drei Sequenzwörter.",[],["zuerst", "dann", "schließlich"]],
     ]
   },
+  {
+    id:"de_b2_relative_clauses", level:"B2", title:"Relativsätze mit Kasus", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos alemanes según el caso gramatical.",
+    study: {
+      vocab: [
+        ["der/die/das (Relativpronomen)", "who/which – depende del caso"],
+        ["dessen/deren", "whose"],
+        ["wo, als", "where, when"],
+        ["Komma vor Relativsätzen", "coma antes de cláusulas relativas (siempre en alemán)"],
+        ["der Mann, der angerufen hat", "the man who called"],
+      ],
+      grammar: [
+        ["El relativo alemán se declina según el caso", "Los pronombres relativos alemanes (der/die/das) se declinan según género, número Y caso (nominativo, acusativo, dativo, genitivo) de su función dentro de la cláusula relativa; siempre llevan coma, sin distinción especificativa/explicativa como en inglés.", "Der Mann, der angerufen hat, ist mein Nachbar. / Die Frau, deren Auto rot ist, ..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra indica posesión (“cuyo”) para un sustantivo femenino/plural?",["der", "dessen", "deren", "die"],2,"“Deren” se usa para posesión con sustantivos femeninos o plurales."],
+      ["mcq","¿Cuándo se pone coma antes de una cláusula relativa en alemán?",["nunca", "solo en las especificativas", "siempre", "solo en las explicativas"],2,"En alemán, la coma antes de una cláusula relativa es siempre obligatoria."],
+      ["fill","Completa: “Der Mann, ___ angerufen hat, ist mein Nachbar.”",["der", "dem", "dessen", "den"],0,"“Der” es nominativo masculino, sujeto de “hat”."],
+      ["translate","Traduce: “The woman whose car is red...”",["Die Frau, dessen Auto rot ist...", "Die Frau, die Auto rot ist...", "Die Frau, deren Auto rot ist...", "Die Frau, der Auto rot ist..."],2,"“Deren” se usa para posesión con un poseedor femenino."],
+      ["arrange","Ordena: [ist / Mann / der / Nachbar / angerufen / hat / mein / der]",["der Nachbar der angerufen mein hat ist Mann", "ist Nachbar Mann der der hat mein angerufen", "angerufen ist Nachbar der Mann hat der mein", "der Mann der angerufen hat ist mein Nachbar"],3,"Sustantivo + “der” + verbo + verbo principal + posesivo + sustantivo."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter über eine Person und einen Gegenstand, benutze mindestens “der/die/das” und “dessen/deren” als Relativpronomen.",[],["der", "die", "dessen"]],
+    ]
+  },
+  {
+    id:"de_b2_infinitiv_zu", level:"B2", title:"Infinitivsätze mit “zu” und ohne “zu”", emoji:"🔀", xp:56,
+    description:"Aprende cuándo usar “zu” antes de un infinitivo en alemán y cuándo omitirlo.",
+    study: {
+      vocab: [
+        ["versuchen, zu + Infinitiv", "to try to do"],
+        ["Modalverb + Infinitiv (ohne “zu”)", "modal verb + bare infinitive"],
+        ["es ist wichtig, zu + Infinitiv", "it is important to do"],
+        ["aufhören, zu + Infinitiv", "to stop doing"],
+        ["gerade dabei sein, zu + Infinitiv", "to be in the middle of doing"],
+      ],
+      grammar: [
+        ["Verbos modales sin “zu”", "La mayoría de los verbos alemanes con complemento en infinitivo requieren “zu” antes del infinitivo, pero los verbos modales (können, müssen, wollen...) van seguidos de infinitivo SIN “zu”.", "Ich versuche, früh aufzustehen. / Ich kann früh aufstehen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué verbo modal va seguido de infinitivo SIN “zu”?",["können", "aufhören", "versuchen", "es ist wichtig"],0,"“Können” es un verbo modal y va sin “zu”."],
+      ["mcq","¿Cómo se completa “Ich versuche, früh ___”?",["aufstehen", "stehe auf", "aufgestanden", "aufzustehen"],3,"Tras “versuchen” se usa “zu” + infinitivo: “aufzustehen”."],
+      ["fill","Completa: “Es ist wichtig, viel Wasser ___.”",["getrunken", "trinkt", "trinken", "zu trinken"],3,"“Es ist wichtig” exige “zu” + infinitivo."],
+      ["translate","Traduce: “I can get up early.”",["Ich kann zu früh aufstehen.", "Ich kann früh aufzustehen.", "Ich versuche früh aufstehen.", "Ich kann früh aufstehen."],3,"Tras el modal “kann” no se usa “zu”."],
+      ["arrange","Ordena: [aufzustehen / versuche / früh / ich]",["aufzustehen ich früh versuche", "versuche früh aufzustehen ich", "ich versuche früh aufzustehen", "früh aufzustehen versuche ich"],2,"Sujeto + “versuchen” + adverbio + infinitivo con “zu”."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter über deine Gewohnheiten, benutze “versuchen zu”, ein Modalverb und “aufhören zu”.",[],["versuche zu", "kann", "aufhören zu"]],
+    ]
+  },
+  {
+    id:"de_b2_wunsch_konjunktiv", level:"B2", title:"Wünsche und Bedauern mit dem Konjunktiv II", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en alemán con el Konjunktiv II.",
+    study: {
+      vocab: [
+        ["Ich wünschte, ich hätte...", "I wish I had... (presente)"],
+        ["Ich wünschte, ich hätte...gehabt", "I wish I had done (pasado)"],
+        ["Wenn ich nur...", "If only..."],
+        ["Ich hätte...sollen", "I should have..."],
+        ["das Bedauern", "regret"],
+      ],
+      grammar: [
+        ["“Ich wünschte” + distintas formas del Konjunktiv II", "“Ich wünschte” + Konjunktiv II presente expresa un deseo sobre el presente; “ich wünschte” + Konjunktiv II Plusquamperfekt (hätte + participio) expresa arrepentimiento sobre el pasado.", "Ich wünschte, ich hätte mehr Zeit. / Ich wünschte, ich hätte mehr gelernt."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma expresa un deseo sobre el presente?",["Ich wünschte, ich hätte (Konjunktiv II presente)", "Ich wünschte, ich hätte...gehabt", "Ich hätte...sollen", "Wenn ich nur"],0,"Deseo presente → “ich wünschte, ich hätte”."],
+      ["mcq","¿Qué forma expresa arrepentimiento sobre el pasado?",["Wenn ich nur wäre", "Ich wünschte, ich hätte...gehabt", "Ich wünschte, ich hätte", "Ich habe"],1,"Arrepentimiento pasado → Konjunktiv II Plusquamperfekt."],
+      ["fill","Completa: “Ich wünschte, ich ___ mehr Zeit.”",["hätte", "hatte", "habe", "werde haben"],0,"Deseo sobre el presente → Konjunktiv II: “hätte”."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["Ich wünschte, ich habe den Job angenommen.", "Ich wünschte, ich nehme den Job an.", "Wenn ich nur den Job annehme.", "Ich wünschte, ich hätte den Job angenommen."],3,"Arrepentimiento pasado → Konjunktiv II Plusquamperfekt: “hätte...angenommen”."],
+      ["arrange","Ordena: [Zeit / ich / wünschte / mehr / ich / hätte]",["mehr ich ich hätte wünschte Zeit", "mehr ich hätte ich wünschte Zeit", "mehr Zeit ich ich wünschte hätte", "ich wünschte ich hätte mehr Zeit"],3,"“Ich wünschte” + Konjunktiv II."],
+      ["speaking","Sprich auf Deutsch, in 35-45 Wörtern, über etwas, das du in der Vergangenheit anders gemacht hättest, benutze “ich wünschte, ich hätte...” + Partizip.",[],["ich wünschte", "hätte", "wenn ich nur"]],
+    ]
+  },
+  {
+    id:"de_b2_modalverben_vergangenheit", level:"B2", title:"Modalverben in der Vergangenheit: Vermutungen", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en alemán con modales + Perfekt Infinitiv.",
+    study: {
+      vocab: [
+        ["muss...gewesen sein", "must have been (deducción)"],
+        ["kann...gewesen sein", "might have been (posibilidad)"],
+        ["kann nicht...gewesen sein", "can't have been (certeza negativa)"],
+        ["hätte...sollen", "should have (crítica/arrepentimiento)"],
+        ["ich bin mir nicht sicher, was passiert ist", "I'm not sure what happened"],
+      ],
+      grammar: [
+        ["Modal + Partizip + sein/haben para especular sobre el pasado", "“Müssen/können + Partizip + sein/haben” (Perfekt Infinitiv) expresa una deducción sobre el pasado; “hätte + Partizip + sollen” expresa crítica o arrepentimiento.", "Sie muss schon gegangen sein; ihr Mantel ist weg. / Du hättest mich früher anrufen sollen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["kann...gewesen sein", "hätte...sollen", "muss...gewesen sein", "kann nicht...gewesen sein"],2,"“Muss...gewesen sein” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["muss...gewesen sein", "kann nicht...gewesen sein", "hätte...sollen", "kann...gewesen sein"],2,"“Hätte...sollen” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “Sie ___ schon gegangen sein; ihr Mantel ist weg.”",["kann", "muss", "kann nicht", "hätte"],1,"Evidencia fuerte (abrigo desapareció) → “muss”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Du kannst so schnell fertig gewesen sein.", "Du kannst nicht so schnell fertig gewesen sein.", "Du musst so schnell fertig gewesen sein.", "Du hättest so schnell fertig sein sollen."],1,"Certeza negativa fuerte → “kannst nicht...gewesen sein”."],
+      ["arrange","Ordena: [anrufen / hättest / früher / mich / du / sollen]",["du hättest mich früher anrufen sollen", "mich früher du sollen hättest anrufen", "früher mich anrufen sollen du hättest", "hättest früher anrufen sollen mich du"],0,"Sujeto + “hättest...sollen” + objeto + infinitivo."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter mit Vermutungen darüber, warum jemand zu spät zu einem Meeting kam, benutze “muss...gewesen sein”, “kann...gewesen sein” und “kann nicht...gewesen sein”.",[],["muss gewesen sein", "kann gewesen sein", "kann nicht gewesen sein"]],
+    ]
+  },
+  {
+    id:"de_b2_praeteritum_gewohnheiten", level:"B2", title:"Das Präteritum und Gewohnheiten in der Vergangenheit", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en alemán con el Präteritum.",
+    study: {
+      vocab: [
+        ["das Präteritum für Gewohnheiten und Zustände", "preterite for past habits/states"],
+        ["pflegte, zu + Infinitiv", "used to do (formal/literario)"],
+        ["früher immer...", "in the past, always..."],
+        ["als Kind...", "as a child..."],
+        ["heutzutage", "nowadays"],
+      ],
+      grammar: [
+        ["El Präteritum para hábitos y estados pasados", "Para describir hábitos y estados pasados (equivalente a “used to”), especialmente en la escritura, se usa el Präteritum, o la forma más formal “pflegte zu + infinitivo”.", "Ich wohnte in Rom. / Als Kind spielte ich jeden Tag draußen. / Er pflegte früh aufzustehen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo describe hábitos y estados pasados, especialmente en la escritura?",["der Konjunktiv", "das Präteritum", "das Perfekt", "das Futur"],1,"El Präteritum describe hábitos y estados pasados."],
+      ["mcq","¿Qué expresión formal significa “solía hacer algo”?",["pflegte zu", "hat vor zu", "ist dabei zu", "wird"],0,"“Pflegte zu” es la forma formal de “used to”."],
+      ["fill","Completa: “Als ich jung war, ___ ich in einem kleinen Dorf.”",["wohnte", "habe gewohnt", "werde wohnen", "wohne"],0,"Estado pasado en la escritura → Präteritum: “wohnte”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["Als Kind habe ich immer im Park gespielt.", "Als Kind spielte ich immer im Park.", "Als Kind werde ich immer im Park spielen.", "Als Kind spiele ich immer im Park."],1,"Hábito pasado repetido en la escritura → Präteritum: “spielte”."],
+      ["arrange","Ordena: [Rom / wohnte / ich / in]",["wohnte ich in Rom", "ich wohnte in Rom", "in Rom wohnte ich", "Rom in ich wohnte"],1,"Sujeto + Präteritum + preposición + objeto."],
+      ["speaking","Sprich auf Deutsch, in 35-45 Wörtern, darüber, wie dein Leben vor zehn Jahren war, benutze das Präteritum.",[],["wohnte", "pflegte", "heutzutage"]],
+    ]
+  },
+  {
+    id:"de_c1_inversion_betonung", level:"C1", title:"Die Inversion zur Betonung", emoji:"❗", xp:65,
+    description:"Aprende a usar la anteposición de adverbios para dar énfasis en alemán.",
+    study: {
+      vocab: [
+        ["Nie habe ich...", "Never have I... (énfasis)"],
+        ["Nicht nur..., sondern auch...", "Not only... but also..."],
+        ["Erst nachdem..., ...", "Only after..., ..."],
+        ["Kaum..., als...", "No sooner...than..."],
+        ["emphatische Struktur", "estructura enfática"],
+      ],
+      grammar: [
+        ["El verbo en segunda posición tras un adverbio antepuesto", "En alemán, el verbo conjugado siempre ocupa la segunda posición (Verbzweitstellung); al anteponer “nie”, “kaum” o “nicht nur”, el sujeto pasa después del verbo, dando énfasis.", "Nie habe ich einen so schönen Sonnenuntergang gesehen. / Nicht nur hat sie das Rennen gewonnen, sondern sie hat auch den Rekord gebrochen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué posición ocupa el verbo cuando “nie” está al inicio de la oración?",["verbo al final", "verbo en primera posición", "no cambia el orden", "verbo conjugado en segunda posición"],3,"El verbo conjugado siempre va en segunda posición en alemán."],
+      ["mcq","¿Cómo se dice “no solo... sino también...” en alemán?",["Nicht nur..., sondern auch...", "Kaum..., als...", "Nie habe ich...", "Erst nachdem..."],0,"“Not only...but also...” es “nicht nur...sondern auch...”."],
+      ["fill","Completa: “Nie ___ einen so schönen Sonnenuntergang gesehen.”",["habe", "habe ich", "ich habe", "ich"],1,"Tras “nie” al inicio, el verbo va en segunda posición: “habe ich”."],
+      ["translate","Traduce: “Not only did she win the race, but she also broke the record.”",["Nicht nur hat sie das Rennen gewonnen, sondern sie hat auch den Rekord gebrochen.", "Nicht nur hat sie das Rennen gewonnen, aber sie hat auch den Rekord gebrochen.", "Nicht nur sie hat das Rennen gewonnen, sondern sie hat auch den Rekord gebrochen.", "Nicht nur hat gewonnen sie das Rennen, sondern sie hat auch den Rekord gebrochen."],0,"Tras “nicht nur” el verbo va en segunda posición: “hat sie”."],
+      ["arrange","Ordena: [gesehen / ich / habe / nie / das]",["das habe gesehen nie ich", "nie habe ich das gesehen", "ich das nie gesehen habe", "habe nie ich gesehen das"],1,"Adverbio + verbo + sujeto + objeto."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter über eine Leistung oder Erfahrung, benutze mindestens eine emphatische Struktur (Nie habe ich..., Nicht nur..., Erst nachdem...).",[],["Nie habe ich", "Nicht nur", "Erst nachdem"]],
+    ]
+  },
+  {
+    id:"de_c1_spaltsatz", level:"C1", title:"Der Spaltsatz zur Betonung", emoji:"🎯", xp:65,
+    description:"Aprende a usar estructuras de énfasis en alemán del tipo “was...ist”.",
+    study: {
+      vocab: [
+        ["Es war... der/die...", "It was... who... (énfasis)"],
+        ["Was ich brauche, ist...", "What I need is..."],
+        ["Was mich überrascht hat, war...", "What surprised me was..."],
+        ["Betonung durch Struktur", "emphasis through structure"],
+        ["hervorheben", "to emphasize/highlight"],
+      ],
+      grammar: [
+        ["“Was...ist/war...” y “X war es, der/die...”", "El alemán no usa oraciones hendidas tan fijas como el inglés, pero “was...ist/war...” o “X war es, der/die...” logran un énfasis similar.", "Was ich brauche, ist mehr Zeit. / Maria war es, die das Problem gelöst hat."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Nie habe ich...", "Es war...der/die...", "Was...ist...", "Nicht nur..."],2,"“Was...ist...” enfatiza el complemento."],
+      ["mcq","¿Qué estructura enfatiza el sujeto anteponiéndolo con “war es”?",["Maria war es, die...", "Was ich brauche, ist...", "Kaum..., als...", "Erst nachdem..."],0,"“X war es, der/die...” enfatiza el sujeto."],
+      ["fill","Completa: “___ ich brauche, ist mehr Zeit.”",["Es", "Das", "Was", "Wer"],2,"“Was + cláusula + ist” enfatiza el complemento."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["Maria es war, die das Problem gelöst hat.", "Maria war es, die das Problem gelöst hat.", "Maria war es, das das Problem gelöst hat.", "Es war Maria, der das Problem gelöst hat."],1,"“Maria war es, die” enfatiza el sujeto femenino."],
+      ["arrange","Ordena: [brauche / was / ist / ich / Zeit / mehr]",["was ich brauche ist mehr Zeit", "Zeit ich was brauche mehr ist", "Zeit ist ich mehr was brauche", "ich brauche mehr Zeit ist was"],0,"“Was” + cláusula + “ist” + complemento."],
+      ["speaking","Sprich auf Deutsch, in 35-45 Wörtern, benutze mindestens zwei Betonungsstrukturen (“Was...ist” und “X war es, der/die...”), um wichtige Ideen in deinem Leben hervorzuheben.",[],["was ich brauche", "war es", "die"]],
+    ]
+  },
+  {
+    id:"de_c1_partizipialkonstruktionen", level:"C1", title:"Partizipialkonstruktionen", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando construcciones de participio en alemán.",
+    study: {
+      vocab: [
+        ["Nachdem er den Bericht beendet hatte, ...", "Having finished the report, ..."],
+        ["Sich der Lage bewusst, ...", "Being aware of the situation, ..."],
+        ["Nicht wissend, was zu tun ist, ...", "Not knowing what to do, ..."],
+        ["Partizipialkonstruktion", "cláusula de participio"],
+        ["verkürzt einen längeren Nebensatz", "reduce una cláusula subordinada más larga"],
+      ],
+      grammar: [
+        ["Construcciones con “sich...bewusst” y participio", "Las construcciones de participio en alemán suenan más formales/literarias que en inglés; formas como “sich + adjetivo/participio + bewusst” reducen una cláusula causal más larga.", "Sich der Gefahr bewusst, rief er die Polizei. / Nicht wissend, was zu tun war, rief er seinen Anwalt an."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Weil er nicht wusste, was zu tun war”?",["Wissend nicht, was zu tun war", "Nicht zu wissen, was zu tun war", "Nicht wissend, was zu tun war", "Gewusst, was zu tun war"],2,"“Nicht wissend” reemplaza una cláusula causal negativa."],
+      ["mcq","¿Qué construcción usa “sich bewusst” para expresar “siendo consciente de”?",["Bewusst sich der Gefahr", "Die Gefahr bewusst sich", "Sich der Gefahr bewusst", "Der Gefahr sich bewusst seiend"],2,"“Sich der Gefahr bewusst” es la construcción correcta."],
+      ["fill","Completa: “___ was zu tun war, rief er seinen Anwalt an.”",["Wissend nicht,", "Nicht wissend,", "Nicht zu wissen,", "Gewusst,"],1,"“Nicht wissend” reemplaza una cláusula causal negativa."],
+      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Nicht gewusst, was er sagen sollte, blieb er still.", "Nicht zu wissen, was er sagen sollte, blieb er still.", "Wissend nicht, was er sagen sollte, blieb er still.", "Nicht wissend, was er sagen sollte, blieb er still."],3,"“Nicht wissend” al inicio reemplaza la cláusula causal."],
+      ["arrange","Ordena: [Anwalt / rief / er / seinen / an]",["rief seinen Anwalt er an", "seinen an er rief Anwalt", "er an rief Anwalt seinen", "er rief seinen Anwalt an"],3,"Sujeto + verbo + posesivo + objeto + partícula separable."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter über eine Anekdote, benutze mindestens eine Partizipialkonstruktion (Nicht wissend..., Sich...bewusst...).",[],["nicht wissend", "sich bewusst", "nachdem"]],
+    ]
+  },
+  {
+    id:"de_c1_berichtsverben_konjunktiv", level:"C1", title:"Fortgeschrittene Berichtsverben mit Konjunktiv I", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de verbos de reporte avanzados en alemán formal.",
+    study: {
+      vocab: [
+        ["vorschlagen, dass + Konjunktiv I", "suggest that + subjunctive I"],
+        ["darauf bestehen, dass + Konjunktiv I", "insist that + subjunctive I"],
+        ["abstreiten + Infinitiv", "deny doing"],
+        ["zugeben + Infinitiv", "admit doing"],
+        ["empfehlen, dass + Konjunktiv I", "recommend that + subjunctive I"],
+      ],
+      grammar: [
+        ["Konjunktiv I en el registro formal", "En el alemán formal/escrito, verbos como “vorschlagen”, “bestehen auf” y “empfehlen” pueden usar “dass + Konjunktiv I”; “abstreiten” y “zugeben” suelen ir seguidos de una construcción de infinitivo pasado.", "Sie schlug vor, dass er früh komme. / Er stritt ab, das Geld gestohlen zu haben."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal se usa en el registro formal tras “vorschlagen, dass”?",["der Imperativ", "der Konjunktiv I", "der Indikativ", "der Konjunktiv II"],1,"“Vorschlagen, dass” en registro formal exige el Konjunktiv I."],
+      ["mcq","¿Cómo se completa “Er stritt ab, das Geld ___ zu haben” (stehlen)?",["stehlend", "gestohlen", "stiehlt", "stehlen"],1,"“Abstreiten” + infinitivo pasado: “gestohlen zu haben”."],
+      ["fill","Completa: “Der Arzt empfahl, dass sie sich eine Woche ___.”",["ausruht", "ausruhte", "ausgeruht", "ausruhe"],3,"“Empfehlen, dass” en registro formal exige Konjunktiv I: “ausruhe”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Er gab zu, einen Fehler gemacht haben zu.", "Er gab zu, dass er einen Fehler macht.", "Er gab zu, einen Fehler zu machen.", "Er gab zu, einen Fehler gemacht zu haben."],3,"“Zugeben” + infinitivo pasado para una acción ya realizada."],
+      ["arrange","Ordena: [Geld / ab / das / stritt / er / gestohlen / zu / haben]",["ab haben das zu er gestohlen Geld stritt", "ab gestohlen das zu stritt Geld haben er", "er das stritt zu gestohlen haben ab Geld", "er stritt ab das Geld gestohlen zu haben"],3,"Sujeto + “abstreiten” + objeto + infinitivo pasado."],
+      ["writing","Schreibe auf Deutsch 35-45 Wörter über ein Gespräch, benutze mindestens zwei fortgeschrittene Berichtsverben (vorschlagen, bestehen auf, abstreiten, zugeben).",[],["schlug vor", "stritt ab", "gab zu"]],
+    ]
+  },
+  {
+    id:"de_c1_ellipse_ersatzformen", level:"C1", title:"Ellipse und Ersatzformen im Gespräch", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en alemán usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["Ich auch / Ich auch nicht", "So do I / Neither do I"],
+        ["das auch tun", "to do so"],
+        ["Ich glaube schon / Ich hoffe nicht", "I think so / I hope not"],
+        ["das Gleiche gilt für...", "the same goes for..."],
+        ["wiederholte Wörter weglassen", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El alemán evita repetir información con elipsis y expresiones sustitutas como “ich auch/ich auch nicht”, “ich glaube schon/nicht”.", "A: Ich liebe dieses Lied. B: Ich auch. / A: Wird es regnen? B: Ich hoffe nicht."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “Ich liebe dieses Lied”?",["Ich hoffe nicht.", "Das auch tun.", "Ich auch.", "Ich auch nicht."],2,"“Ich auch” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “Ich mag keinen Kaffee”?",["Das auch tun.", "Ich auch nicht.", "Ich glaube schon.", "Ich auch."],1,"“Ich auch nicht” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Wird sie zur Party kommen? B: Ich hoffe ___.”",["es", "auch", "nicht", "schon"],3,"“Ich hoffe schon” sustituye la cláusula afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Ich glaube, es wird regnen. B: Ich glaube das auch zu sehr.", "A: Ich glaube, es wird regnen. B: Das glaube ich auch.", "A: Ich glaube, es wird regnen. B: Ich glaube auch das.", "A: Ich glaube, es wird regnen. B: Auch ich glaube das."],1,"“Das glaube ich auch” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [auch / ich / glaube / das]",["auch glaube ich das", "das ich auch glaube", "das glaube ich auch", "glaube auch das ich"],2,"Objeto + verbo + sujeto + “auch”."],
+      ["speaking","Sprich auf Deutsch, in 30-40 Wörtern, über gemeinsame Vorlieben mit einem Freund, benutze “ich auch”, “ich auch nicht” und “ich glaube schon”.",[],["ich auch", "ich auch nicht", "ich glaube schon"]],
+    ]
+  },
+  {
+    id:"de_c2_nominalisierung", level:"C2", title:"Die Nominalisierung für einen formellen Stil", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en alemán.",
+    study: {
+      vocab: [
+        ["reduzieren → die Reduzierung", "reduce → reduction"],
+        ["entscheiden → die Entscheidung", "decide → decision"],
+        ["analysieren → die Analyse", "analyze → analysis"],
+        ["Es ist wichtig, zu berücksichtigen...", "It is important to consider..."],
+        ["akademischer/formeller Stil", "registro académico/formal"],
+      ],
+      grammar: [
+        ["El alemán es famoso por su nominalización extensa", "El alemán convierte verbos en sustantivos abstractos con mucha frecuencia, a menudo formando sustantivos compuestos largos, un rasgo típico del registro académico y burocrático.", "Das Unternehmen entschied, die Kosten zu senken. → Die Entscheidung des Unternehmens, die Kosten zu senken... / Sie analysierten die Daten sorgfältig. → Ihre sorgfältige Analyse der Daten..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “entscheiden”?",["entscheidend", "entscheidsam", "die Entscheidung", "der Entscheider"],2,"La nominalización de “entscheiden” es “die Entscheidung”."],
+      ["mcq","¿Cuál es la nominalización de “analysieren”?",["analysierend", "die Analyse", "analytisch", "der Analysierer"],1,"La nominalización de “analysieren” es “die Analyse”."],
+      ["fill","Completa: “Ihre sorgfältige ___ der Daten zeigte neue Muster.”",["Analysierer", "Analysiert", "Analyse", "Analysieren"],2,"Registro formal → sustantivo nominalizado: “Analyse”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["Die Entscheidung, die Kosten zu senken, war umstrittenes.", "Das Entscheiden, die Kosten zu senken, war umstritten.", "Die Entscheidende, die Kosten zu senken, war umstritten.", "Die Entscheidung, die Kosten zu senken, war umstritten."],3,"“Entscheiden” se nominaliza como “die Entscheidung”."],
+      ["arrange","Ordena: [war / Entscheidung / umstritten / die]",["die Entscheidung war umstritten", "die war umstritten Entscheidung", "umstritten die war Entscheidung", "war die umstritten Entscheidung"],0,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Schreibe auf Deutsch 40-50 Wörter in einem formellen/akademischen Stil, benutze mindestens zwei nominalisierte Substantive (Entscheidung, Analyse, Reduzierung...).",[],["Entscheidung", "Analyse", "Reduzierung"]],
+    ]
+  },
+  {
+    id:"de_c2_vorfeldbesetzung", level:"C2", title:"Die Vorfeldbesetzung zur Betonung", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer elementos al Vorfeld para dar énfasis en alemán.",
+    study: {
+      vocab: [
+        ["Das kann ich nicht akzeptieren.", "This I cannot accept."],
+        ["So groß war ihre Entschlossenheit, dass...", "Such was her determination that..."],
+        ["Wenig ahnte er, dass...", "Little did he know..."],
+        ["Wen ich am meisten bewundere, ist...", "The one I admire most is..."],
+        ["Vorfeldbesetzung", "anteposición/tematización"],
+      ],
+      grammar: [
+        ["El “Vorfeld” alemán es muy flexible", "La posición antes del verbo conjugado (“Vorfeld”) permite anteponer un objeto o complemento para darle énfasis, respetando siempre la regla del verbo en segunda posición.", "Das kann ich nicht akzeptieren. / So groß war das Chaos, dass die Sitzung abgesagt wurde."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto al “Vorfeld” para dar énfasis?",["Das kann ich nicht akzeptieren.", "Ich akzeptiere das nicht können.", "Kann ich das nicht akzeptieren.", "Ich kann das nicht akzeptieren."],0,"“Das kann ich nicht akzeptieren” antepone el objeto “das”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Ich auch.", "Das kann ich nicht akzeptieren.", "Wenig ahnte er, dass...", "So groß war ihre Entschlossenheit..."],2,"“Wenig ahnte er, dass...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ ahnte er, dass sein Plan scheitern würde.”",["Wenig", "Nur", "Kaum", "Nie"],0,"“Wenig ahnte er, dass...” es una estructura fija de énfasis."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["So war groß das Chaos, dass die Sitzung abgesagt wurde.", "So groß war das Chaos, dass die Sitzung absagte.", "So groß das Chaos war, dass die Sitzung abgesagt wurde.", "So groß war das Chaos, dass die Sitzung abgesagt wurde."],3,"“So groß war + sustantivo + dass” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [akzeptieren / das / ich / kann / nicht]",["akzeptieren das nicht ich kann", "das kann ich nicht akzeptieren", "ich nicht akzeptieren kann das", "kann akzeptieren ich nicht das"],1,"Objeto antepuesto + verbo + sujeto + negación + infinitivo."],
+      ["speaking","Sprich auf Deutsch, in 40-50 Wörtern, über eine unerwartete Wendung in deinem Leben, benutze mindestens eine emphatische Vorfeldbesetzung.",[],["das kann ich", "wenig ahnte", "so groß war"]],
+    ]
+  },
+  {
+    id:"de_c2_einstellungsadverbien", level:"C2", title:"Fortgeschrittene Einstellungsadverbien", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en alemán con adverbios de postura avanzados.",
+    study: {
+      vocab: [
+        ["man könnte sagen, dass", "arguably"],
+        ["scheinbar / anscheinend", "ostensibly"],
+        ["angeblich", "purportedly"],
+        ["unbestreitbar", "undeniably"],
+        ["vermutlich", "presumably"],
+      ],
+      grammar: [
+        ["Los adverbios de postura matizan el compromiso del hablante", "Los adverbios de postura muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "Die Politik war, man könnte sagen, ein Misserfolg. / Er war scheinbar da, um zu helfen, hatte aber andere Motive."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["vermutlich", "man könnte sagen, dass", "angeblich", "unbestreitbar"],2,"“Angeblich” indica algo dicho sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["scheinbar", "unbestreitbar", "angeblich", "man könnte sagen, dass"],1,"“Unbestreitbar” indica algo innegable."],
+      ["fill","Completa: “Er war ___ da, um zu helfen, hatte aber andere Motive.”",["scheinbar", "vermutlich", "unbestreitbar", "man könnte sagen"],0,"“Scheinbar” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["Das ist, unbestreitbar, sein bestes Werk.", "Das ist, angeblich, sein bestes Werk.", "Das ist, scheinbar, sein bestes Werk.", "Das ist, man könnte sagen, sein bestes Werk."],3,"“Podría decirse que” se traduce como “man könnte sagen, dass”."],
+      ["arrange","Ordena: [Misserfolg / war / die / Politik / ein]",["Politik Misserfolg die ein war", "Misserfolg ein die war Politik", "die Politik war ein Misserfolg", "Politik die Misserfolg war ein"],2,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Schreibe auf Deutsch 40-50 Wörter mit deiner Meinung zu einem kontroversen Thema, benutze mindestens zwei Einstellungsadverbien (man könnte sagen, dass, unbestreitbar, vermutlich...).",[],["man könnte sagen", "unbestreitbar", "vermutlich"]],
+    ]
+  },
+  {
+    id:"de_c2_komplexe_nominalphrasen", level:"C2", title:"Komplexe Nominalphrasen im akademischen Register", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del alemán académico.",
+    study: {
+      vocab: [
+        ["das Ausmaß, in dem...", "the extent to which..."],
+        ["eine wachsende Zahl von Beweisen", "a growing body of evidence"],
+        ["die zugrunde liegenden Ursachen von...", "the underlying causes of..."],
+        ["eine breite Palette von Faktoren", "a wide range of factors"],
+        ["Postmodifikation", "posmodificación"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con construcciones de genitivo", "El alemán académico usa sintagmas nominales complejos, a menudo con construcciones de genitivo y cláusulas de relativo, para compactar información densa.", "Eine wachsende Zahl von Beweisen deutet darauf hin, dass... / Das Ausmaß, in dem Maßnahmen erfolgreich sind, hängt von..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en alemán?",["das Ausmaß, in dem", "eine breite Palette von Faktoren", "die zugrunde liegenden Ursachen von", "eine wachsende Zahl von Beweisen"],3,"“A growing body of evidence” es “eine wachsende Zahl von Beweisen”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en alemán?",["das Ausmaß, in dem", "die zugrunde liegenden Ursachen von", "eine breite Palette von Faktoren", "eine wachsende Zahl von Beweisen"],1,"“The underlying causes of” es “die zugrunde liegenden Ursachen von”."],
+      ["fill","Completa: “___ in dem Maßnahmen erfolgreich sind, hängt von öffentlicher Unterstützung ab.”",["Eine wachsende Zahl,", "Die zugrunde liegenden Ursachen,", "Eine breite Palette,", "Das Ausmaß,"],3,"“Das Ausmaß, in dem” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Eine wachsende Zahl von Beweisen deuten darauf hin, dass sich das Klima verändert.", "Eine wachsend Zahl von Beweisen deutet darauf hin, dass sich das Klima verändert.", "Eine wachsende Zahl von Beweise deutet darauf hin, dass sich das Klima verändert.", "Eine wachsende Zahl von Beweisen deutet darauf hin, dass sich das Klima verändert."],3,"El verbo concuerda con “Zahl” (singular): “deutet”."],
+      ["arrange","Ordena: [Faktoren / Palette / breite / eine / von]",["breite Faktoren von Palette eine", "eine breite Palette von Faktoren", "eine Palette Faktoren breite von", "breite Palette eine Faktoren von"],1,"Artículo + adjetivo + sustantivo + “von” + sustantivo."],
+      ["speaking","Sprich auf Deutsch, in 40-50 Wörtern, über ein akademisches oder soziales Thema, benutze mindestens zwei komplexe Nominalphrasen.",[],["eine wachsende Zahl von", "eine breite Palette von", "das Ausmaß, in dem"]],
+    ]
+  },
+  {
+    id:"de_c2_textkohaesion", level:"C2", title:"Textkohäsion: fortgeschrittene Referenz und Substitution", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en alemán para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["Ersterer / Letzterer", "the former / the latter"],
+        ["ein solcher/eine solche...", "such a/an..."],
+        ["der/die oben Genannte", "the aforementioned"],
+        ["Dies vorausgeschickt...", "that being said..."],
+        ["kohäsives Mittel", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“Ersterer/Letzterer” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “Ersterer/Letzterer” para referirse a elementos mencionados antes sin repetirlos.", "Wir haben zwei Optionen betrachtet: Fernarbeit und Büroarbeit. Ersterer bietet Flexibilität, während Letzterer die Zusammenarbeit fördert."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["der oben Genannte", "dies vorausgeschickt", "Ersterer", "Letzterer"],2,"“Ersterer” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["der oben Genannte", "ein solcher", "Letzterer", "Ersterer"],2,"“Letzterer” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Wir haben zwei Optionen betrachtet: A und B. ___ bietet Flexibilität.”",["Ersterer", "Letzterer", "Der oben Genannte", "Dies vorausgeschickt"],0,"“Ersterer” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Dies vorausschicken, gibt es noch Fragen zu klären.", "Dies vorausgeschickt, es gibt noch Fragen zu klären.", "Dies vorausgeschickt, gibt es noch Fragen zu klären.", "Vorausgeschickt dies, gibt es noch Fragen zu klären."],2,"“That being said” es “dies vorausgeschickt”."],
+      ["arrange","Ordena: [Flexibilität / Ersterer / bietet]",["bietet Ersterer Flexibilität", "Flexibilität bietet Ersterer", "Flexibilität Ersterer bietet", "Ersterer bietet Flexibilität"],3,"“Ersterer” + verbo + complemento."],
+      ["writing","Schreibe auf Deutsch 40-50 Wörter, in denen du zwei Optionen vergleichst, benutze “Ersterer”, “Letzterer” und “Dies vorausgeschickt”.",[],["Ersterer", "Letzterer", "Dies vorausgeschickt"]],
+    ]
+  },
 ];

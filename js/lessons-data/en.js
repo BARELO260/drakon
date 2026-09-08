@@ -4582,4 +4582,364 @@ window.LESSON_BANKS.EN = [
       ["speaking","Explica en inglés, en 40-55 palabras, los pasos para hacer algo que sepas hacer (una receta, un trámite, etc.) usando al menos tres conectores de secuencia.",[],["First", "Then", "Finally"]],
     ]
   },
+  {
+    id:"b2_relative_clauses", level:"B2", title:"Las oraciones de relativo: explicativas y especificativas", emoji:"🔗", xp:55,
+    description:"Aprende a usar oraciones de relativo especificativas y explicativas en inglés.",
+    study: {
+      vocab: [
+        ["who, which, that", "quien/que, que/cual, que"],
+        ["whose", "cuyo/a"],
+        ["where, when", "donde, cuando"],
+        ["a comma before non-defining clauses", "coma antes de las explicativas"],
+        ["the man who called", "el hombre que llamó"],
+      ],
+      grammar: [
+        ["Especificativas vs explicativas", "Las especificativas (sin coma) identifican de quién/qué hablamos y pueden usar “that”; las explicativas (con coma) añaden información extra y NUNCA usan “that”.", "The book that I bought is great. / My car, which is red, is parked outside."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo se usa para personas?",["where", "whose", "which", "who"],3,"“Who” se usa para personas."],
+      ["mcq","¿Qué pronombre relativo indica posesión?",["who", "whose", "which", "where"],1,"“Whose” indica posesión."],
+      ["fill","Completa: “My car, ___ is red, is parked outside.”",["whose", "which", "that", "who"],1,"En explicativas (con coma) nunca se usa “that”."],
+      ["translate","Traduce: “El coche, que es rojo, está aparcado afuera.”",["The car where is red, is parked outside.", "The car, which is red, is parked outside.", "The car, whose is red, is parked outside.", "The car, that is red, is parked outside."],1,"Explicativa con coma → “which”, nunca “that”."],
+      ["arrange","Ordena: [called / who / the / man]",["the man who called", "who man the called", "called who the man", "man who called the"],0,"Sustantivo + pronombre relativo + verbo."],
+      ["writing","Escribe en inglés 30-40 palabras describiendo a una persona y un objeto usando al menos una oración de relativo especificativa y una explicativa.",[],["who", "which", "that"]],
+    ]
+  },
+  {
+    id:"b2_gerunds_infinitives", level:"B2", title:"Gerundios e infinitivos: patrones verbales", emoji:"🔀", xp:56,
+    description:"Aprende qué verbos van seguidos de gerundio y cuáles de infinitivo en inglés.",
+    study: {
+      vocab: [
+        ["enjoy + gerund", "disfrutar + gerundio"],
+        ["want + infinitive", "querer + infinitivo"],
+        ["remember doing vs remember to do", "recordar haber hecho vs recordar hacer"],
+        ["stop doing vs stop to do", "dejar de hacer vs detenerse para hacer"],
+        ["avoid, suggest, consider + gerund", "evitar, sugerir, considerar + gerundio"],
+      ],
+      grammar: [
+        ["Verbos + gerundio vs verbos + infinitivo", "Algunos verbos siempre van seguidos de gerundio (enjoy, avoid, suggest), otros de infinitivo (want, decide, promise), y algunos cambian de significado según la forma.", "I remember locking the door. (recuerdo haberlo hecho) / Remember to lock the door! (no olvides hacerlo)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se completa “She enjoys ___ novels”?",["reads", "read", "reading", "to read"],2,"Tras “enjoy” siempre va gerundio: “reading”."],
+      ["mcq","¿Cómo se completa “He decided ___ early”?",["leaving", "leave", "to leave", "left"],2,"Tras “decide” siempre va infinitivo: “to leave”."],
+      ["fill","Completa: “I remember ___ the door before leaving.”",["lock", "locked", "to lock", "locking"],3,"“Remember + gerundio” = recordar haber hecho algo ya realizado."],
+      ["translate","Traduce: “No olvides llamarme mañana.”",["Remember to call me tomorrow.", "Remember calling me tomorrow.", "Remember call me tomorrow.", "Remember to calling me tomorrow."],0,"“Remember + infinitivo” = no olvidar hacer algo pendiente."],
+      ["arrange","Ordena: [suggested / meeting / postponing / she / the]",["postponing meeting suggested she the", "postponing the she meeting suggested", "she suggested postponing the meeting", "meeting postponing she the suggested"],2,"Sujeto + “suggest” + gerundio + objeto."],
+      ["writing","Escribe en inglés 30-40 palabras sobre tus hábitos usando al menos tres verbos seguidos de gerundio o infinitivo (enjoy, want, avoid, decide...).",[],["enjoy", "want to", "avoid"]],
+    ]
+  },
+  {
+    id:"b2_wish_if_only", level:"B2", title:"Wish / If only: deseos y arrepentimiento", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en inglés con “wish” y “if only”.",
+    study: {
+      vocab: [
+        ["I wish I had...", "Ojalá tuviera... (presente)"],
+        ["I wish I had done...", "Ojalá hubiera hecho... (pasado)"],
+        ["If only...", "Si tan solo..."],
+        ["I wish you wouldn't...", "Ojalá dejaras de..."],
+        ["regret", "arrepentimiento"],
+      ],
+      grammar: [
+        ["“Wish” + distintos tiempos verbales", "“Wish” + pasado simple para deseos sobre el presente; “wish” + pasado perfecto para arrepentimiento sobre el pasado; “wish + would” para quejarse de un hábito ajeno.", "I wish I had more free time. / I wish I had studied harder. / I wish you wouldn't interrupt me."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se completa “I wish I ___ more time” (deseo sobre el presente)?",["have", "has", "having", "had"],3,"Deseo sobre el presente → “wish” + pasado simple: “had”."],
+      ["mcq","¿Cómo se completa “I wish I ___ harder last year” (arrepentimiento)?",["study", "have studied", "studied", "had studied"],3,"Arrepentimiento sobre el pasado → “wish” + pasado perfecto."],
+      ["fill","Completa: “I wish you ___ interrupt me all the time.”",["won't", "wouldn't", "didn't", "don't"],1,"“Wish + would” se usa para quejarse de un hábito ajeno molesto."],
+      ["translate","Traduce: “Ojalá hubiera aceptado el trabajo.”",["I wish I would accept the job.", "I wish I accepted the job.", "I wish I had accepted the job.", "I wish I have accepted the job."],2,"Arrepentimiento sobre el pasado → “wish” + pasado perfecto."],
+      ["arrange","Ordena: [free / more / had / I / time / wish / I]",["I had free wish time more I", "more time free I wish I had", "I wish I had more free time", "had free I time I wish more"],2,"“I wish” + pasado simple para un deseo presente."],
+      ["speaking","Habla en inglés, en 35-45 palabras, sobre algo que ojalá hubieras hecho diferente en el pasado, usando “I wish” + pasado perfecto.",[],["I wish", "had", "if only"]],
+    ]
+  },
+  {
+    id:"b2_past_modals_speculation", level:"B2", title:"Modales en pasado: especular sobre el pasado", emoji:"🔍", xp:57,
+    description:"Aprende a especular y hacer deducciones sobre el pasado con modales + have + participio.",
+    study: {
+      vocab: [
+        ["must have + participle", "debió de (certeza alta sobre el pasado)"],
+        ["might/could have + participle", "pudo haber (posibilidad)"],
+        ["can't have + participle", "no pudo haber (certeza negativa)"],
+        ["should have + participle", "debería haber (crítica/arrepentimiento)"],
+        ["I'm not sure what happened", "No estoy seguro de qué pasó"],
+      ],
+      grammar: [
+        ["Modal + have + participio", "Se usa modal + “have” + participio para especular o hacer deducciones sobre el pasado; “should have” añade la idea de que algo no se hizo pero se esperaba.", "She must have left already; her coat is gone. / You should have called me earlier."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["must have", "might have", "should have", "can't have"],0,"“Must have” indica una fuerte deducción positiva."],
+      ["mcq","¿Qué expresión indica arrepentimiento o crítica sobre algo que no se hizo?",["must have", "might have", "should have", "can't have"],2,"“Should have” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “She ___ left already; her coat is gone.”",["can't have", "must have", "might have", "should have"],1,"Evidencia fuerte (abrigo desapareció) → “must have”."],
+      ["translate","Traduce: “No pudiste haber terminado tan rápido.”",["You must have finished so fast.", "You should have finished so fast.", "You can't have finished so fast.", "You might have finished so fast."],2,"Certeza negativa fuerte sobre el pasado → “can't have”."],
+      ["arrange","Ordena: [called / should / earlier / you / have / me]",["me earlier should have called you", "me should earlier have you called", "you should have called me earlier", "me called you have earlier should"],2,"Sujeto + “should have” + participio + objeto."],
+      ["writing","Escribe en inglés 35-45 palabras especulando sobre por qué alguien llegó tarde a una reunión, usando must have, might have y can't have.",[],["must have", "might have", "can't have"]],
+    ]
+  },
+  {
+    id:"b2_used_to_would_habits", level:"B2", title:"Used to / would: hábitos y estados en el pasado", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en inglés con “used to” y “would”.",
+    study: {
+      vocab: [
+        ["I used to...", "Solía... (hábito o estado pasado)"],
+        ["I would always...", "Siempre solía... (hábito repetido)"],
+        ["I didn't use to...", "No solía..."],
+        ["Did you use to...?", "¿Solías...?"],
+        ["nowadays", "hoy en día"],
+      ],
+      grammar: [
+        ["“Used to” (estados y hábitos) vs “would” (solo hábitos)", "“Used to” describe hábitos y estados pasados que ya no ocurren; “would” solo se usa para hábitos repetidos (acciones), no para estados como “be” o “have”.", "I used to live in Rome. / When I was a kid, I would play outside every day."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma se puede usar tanto para estados como para hábitos pasados?",["use to", "using to", "used to", "would"],2,"“Used to” sirve para estados y hábitos."],
+      ["mcq","¿Qué forma NO se puede usar con “be” o “have” (estados)?",["use to", "used to", "would", "did"],2,"“Would” solo se usa para acciones repetidas, no estados."],
+      ["fill","Completa: “When I was young, I ___ live in a small town.”",["use to", "used to", "using to", "would"],1,"“Live” es un estado → se usa “used to”, no “would”."],
+      ["translate","Traduce: “De niño, siempre solía jugar en el parque.”",["As a child, I use to always play in the park.", "As a child, I am used to playing in the park.", "As a child, I will always play in the park.", "As a child, I would always play in the park."],3,"Hábito repetido (acción) → “would always”."],
+      ["arrange","Ordena: [Rome / I / live / used / in / to]",["I used to live in Rome", "live I Rome to in used", "in Rome live to used I", "live in Rome I to used"],0,"Sujeto + “used to” + verbo + objeto."],
+      ["speaking","Habla en inglés, en 35-45 palabras, sobre cómo era tu vida hace diez años, usando “used to” y “would”.",[],["used to", "would", "nowadays"]],
+    ]
+  },
+  {
+    id:"c1_inversion_emphasis", level:"C1", title:"La inversión para dar énfasis", emoji:"❗", xp:65,
+    description:"Aprende a usar la inversión con adverbios negativos y restrictivos para dar énfasis en inglés.",
+    study: {
+      vocab: [
+        ["Never have I...", "Jamás he... (inversión enfática)"],
+        ["Not only... but also...", "No solo... sino también..."],
+        ["Only after..., did...", "Solo después de..., ..."],
+        ["Rarely do...", "Rara vez..."],
+        ["emphatic structure", "estructura enfática"],
+      ],
+      grammar: [
+        ["Inversión tras adverbios negativos/restrictivos", "Al colocar un adverbio negativo o restrictivo al inicio de la oración (never, rarely, not only, only after), el orden se invierte: auxiliar + sujeto + verbo, como en una pregunta.", "Never have I seen such a beautiful sunset. / Not only did she win the race, but she also broke the record."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué orden sigue a “Never” al inicio de la oración?",["sujeto + verbo + auxiliar", "sujeto + auxiliar + verbo", "auxiliar + sujeto + verbo", "verbo + sujeto + auxiliar"],2,"Tras un adverbio negativo al inicio, el orden se invierte como en una pregunta."],
+      ["mcq","¿Cómo se dice “no solo... sino también...” en inglés?",["Rarely do...", "Only after...", "Not only... but also...", "Never have I..."],2,"“No solo... sino también...” es “not only... but also...”."],
+      ["fill","Completa: “Never ___ such a beautiful sunset.”",["have I seen", "I saw", "did I see", "I have seen"],0,"Tras “never” al inicio, el orden se invierte: “have I seen”."],
+      ["translate","Traduce: “No solo ganó la carrera, sino que también rompió el récord.”",["Not only did she win the race, but she also broke the record.", "Not only did she won the race, but she also broke the record.", "Not only won she the race, but she also broke the record.", "Not only she won the race, but she also broke the record."],0,"Tras “not only” al inicio se invierte con el auxiliar “did”."],
+      ["arrange","Ordena: [seen / have / never / I / this]",["never have I seen this", "have never seen this I", "I never this have seen", "this have never seen I"],0,"Adverbio + auxiliar + sujeto + verbo."],
+      ["writing","Escribe en inglés 35-45 palabras sobre un logro o experiencia usando al menos una estructura de inversión enfática (Never..., Not only..., Only after...).",[],["Never have I", "Not only", "Only after"]],
+    ]
+  },
+  {
+    id:"c1_cleft_sentences", level:"C1", title:"Las oraciones hendidas (cleft sentences)", emoji:"🎯", xp:65,
+    description:"Aprende a usar oraciones hendidas para dar énfasis a un elemento concreto en inglés.",
+    study: {
+      vocab: [
+        ["It was... that...", "Fue... lo que/quien..."],
+        ["What I need is...", "Lo que necesito es..."],
+        ["What surprised me was...", "Lo que me sorprendió fue..."],
+        ["It is/was + noun + who/that", "Es/fue + sustantivo + quien/que"],
+        ["emphasis through structure", "énfasis mediante estructura"],
+      ],
+      grammar: [
+        ["“It is/was...that” y “What...is”", "Las oraciones hendidas reorganizan la información para dar énfasis a un elemento concreto de la oración, usando “It is/was...that” o “What...is/was”.", "It was Maria who solved the problem. / What I need is more time."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza el sujeto con “it”?",["Never have I...", "What... is...", "It was... that/who...", "Not only..."],2,"“It was...that/who...” enfatiza un elemento con “it”."],
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Only after...", "Rarely do...", "What... is...", "It was... that..."],2,"“What...is...” equivale a “lo que...es...”."],
+      ["fill","Completa: “___ I need is more time.”",["What", "That", "Who", "It"],0,"“What + cláusula + is” enfatiza el complemento."],
+      ["translate","Traduce: “Fue María quien resolvió el problema.”",["It is Maria who solved the problem.", "It was Maria that solve the problem.", "Maria was who solved the problem.", "It was Maria who solved the problem."],3,"“It was + persona + who” enfatiza el sujeto en pasado."],
+      ["arrange","Ordena: [need / what / time / is / I / more]",["I time more what is need", "need time is what I more", "what I need is more time", "need what more time I is"],2,"“What” + cláusula + “is” + complemento."],
+      ["speaking","Habla en inglés, en 35-45 palabras, usando al menos dos oraciones hendidas (“It was...that” y “What...is”) para enfatizar ideas importantes en tu vida.",[],["It was", "What I need", "that"]],
+    ]
+  },
+  {
+    id:"c1_participle_clauses", level:"C1", title:"Las cláusulas de participio", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando cláusulas de participio en inglés.",
+    study: {
+      vocab: [
+        ["Having finished..., ...", "Habiendo terminado..., ..."],
+        ["Being aware of..., ...", "Siendo consciente de..., ..."],
+        ["Not knowing what to do, ...", "Sin saber qué hacer, ..."],
+        ["participle clause", "cláusula de participio"],
+        ["reduces a longer clause", "reduce una cláusula más larga"],
+      ],
+      grammar: [
+        ["Participio presente vs pasado en cláusulas reducidas", "Las cláusulas de participio reemplazan cláusulas más largas con conjunciones, dando un estilo más formal y conciso. El participio presente (-ing) para acciones activas, el participio pasado para acciones pasivas.", "Having finished the report, she went home. / Not knowing what to do, he called his lawyer."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “After she had finished the report”?",["Finished the report", "Finishing the report", "To finish the report", "Having finished the report"],3,"“Having + participio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué forma reemplaza a “Because he didn't know what to do”?",["Having not known what to do", "Don't knowing what to do", "Not know what to do", "Not knowing what to do"],3,"“Not + gerundio” reemplaza una cláusula causal negativa."],
+      ["fill","Completa: “___ the report, she went home.”",["To finish", "Having finished", "Finishing", "Finished"],1,"Acción completada antes de otra → “having + participio”."],
+      ["translate","Traduce: “Sin saber qué decir, se quedó callado.”",["Not to know what to say, he remained silent.", "Not knowing what to say, he remained silent.", "Not know what to say, he remained silent.", "Don't knowing what to say, he remained silent."],1,"“Not + gerundio” al inicio reemplaza una cláusula causal."],
+      ["arrange","Ordena: [home / finished / having / she / the / went / report]",["having the home report finished she went", "having finished the report she went home", "home finished report went the she having", "finished home report the went she having"],1,"Cláusula de participio + sujeto + verbo."],
+      ["writing","Escribe en inglés 35-45 palabras contando una anécdota usando al menos una cláusula de participio (Having..., Not knowing..., Being...).",[],["Having", "Not knowing", "Being"]],
+    ]
+  },
+  {
+    id:"c1_reporting_verbs_patterns", level:"C1", title:"Verbos de reporte avanzados: suggest, insist, deny, admit", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de los verbos de reporte avanzados en inglés.",
+    study: {
+      vocab: [
+        ["suggest + gerund / that + subjunctive", "sugerir + gerundio / que + subjuntivo formal"],
+        ["insist that + subjunctive", "insistir en que"],
+        ["deny + gerund", "negar haber hecho"],
+        ["admit + gerund", "admitir haber hecho"],
+        ["recommend that + subjunctive", "recomendar que"],
+      ],
+      grammar: [
+        ["Verbos de reporte + patrón gramatical específico", "Verbos como “suggest”, “insist” y “recommend” pueden ir seguidos de “that + sujeto + verbo base” (subjuntivo formal en inglés); “deny” y “admit” van seguidos de gerundio, no infinitivo.", "She suggested that he arrive early. / He denied stealing the money."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se completa “He denied ___ the money”?",["stole", "to steal", "stealing", "steal"],2,"“Deny” va seguido de gerundio: “stealing”."],
+      ["mcq","¿Cómo se completa “She suggested that he ___ early”?",["arrive", "to arrive", "arrived", "arrives"],0,"Tras “suggest that” se usa el subjuntivo formal (verbo base): “arrive”."],
+      ["fill","Completa: “The doctor recommended that she ___ for a week.”",["rests", "resting", "rested", "rest"],3,"Tras “recommend that” se usa el subjuntivo formal (verbo base): “rest”."],
+      ["translate","Traduce: “Él admitió haber cometido un error.”",["He admitted made a mistake.", "He admitted to make a mistake.", "He admitted making a mistake.", "He admitted make a mistake."],2,"“Admit” va seguido de gerundio: “making”."],
+      ["arrange","Ordena: [money / denied / the / stealing / he]",["money he denied stealing the", "money stealing the denied he", "denied he money stealing the", "he denied stealing the money"],3,"Sujeto + “deny” + gerundio + objeto."],
+      ["writing","Escribe en inglés 35-45 palabras reportando una conversación usando al menos dos verbos de reporte avanzados (suggest, insist, deny, admit).",[],["suggested", "denied", "admitted"]],
+    ]
+  },
+  {
+    id:"c1_ellipsis_substitution", level:"C1", title:"Elipsis y sustitución en el discurso", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en inglés usando elipsis y sustitución.",
+    study: {
+      vocab: [
+        ["So do I / Neither do I", "Yo también / Yo tampoco"],
+        ["do so", "hacerlo (sustituto de un verbo)"],
+        ["I think so / I hope not", "Creo que sí / Espero que no"],
+        ["the same goes for...", "lo mismo aplica para..."],
+        ["omit repeated words", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y sustitución para evitar repeticiones", "En inglés formal e informal se evita repetir información usando elipsis (omisión) y sustitución (“so”, “do so”, “neither/nor”).", "A: I love this song. B: So do I. / A: Will it rain? B: I hope not."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “I love this song”?",["I hope not.", "Do so.", "Neither do I.", "So do I."],3,"“So do I” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “I don't like coffee”?",["So do I.", "I think so.", "Do so.", "Neither do I."],3,"“Neither do I” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Will she come to the party? B: I hope ___.”",["do", "not", "yes", "so"],3,"“I hope so” sustituye la cláusula completa afirmativamente."],
+      ["translate","Traduce: “A: Creo que va a llover. B: Yo también lo creo.”",["A: I think it will rain. B: I think it too.", "A: I think it will rain. B: I think so also too much.", "A: I think it will rain. B: I think so too.", "A: I think it will rain. B: So I think."],2,"“I think so too” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [do / neither / I]",["I neither do", "I do neither", "do neither I", "neither do I"],3,"“Neither” + auxiliar + sujeto."],
+      ["speaking","Habla en inglés, en 30-40 palabras, sobre gustos compartidos con un amigo usando “so do I”, “neither do I” y “I think so”.",[],["so do I", "neither do I", "I think so"]],
+    ]
+  },
+  {
+    id:"c2_nominalization_register", level:"C2", title:"La nominalización para un registro formal", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en inglés.",
+    study: {
+      vocab: [
+        ["reduce → reduction", "reducir → la reducción"],
+        ["decide → decision", "decidir → la decisión"],
+        ["analyze → analysis", "analizar → el análisis"],
+        ["It is important to consider...", "Es importante considerar..."],
+        ["academic/formal register", "registro académico/formal"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal, que compacta la información y suena más objetivo.", "The company decided to reduce costs. → The company's decision to reduce costs... / They analyzed the data carefully. → Their careful analysis of the data..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “to decide”?",["decider", "decision", "decisive", "deciding"],1,"La nominalización de “decide” es “decision”."],
+      ["mcq","¿Cuál es la nominalización de “to analyze”?",["analytic", "analyzer", "analysis", "analyzing"],2,"La nominalización de “analyze” es “analysis”."],
+      ["fill","Completa: “Their careful ___ of the data revealed new patterns.”",["analysis", "analyzing", "analyze", "analyzer"],0,"Registro formal → sustantivo nominalizado: “analysis”."],
+      ["translate","Traduce: “La decisión de reducir costos fue controvertida.”",["The decision to reduce costs was controversial.", "The decisive to reduce costs was controversial.", "The deciding to reduce costs was controversial.", "The decision of reduce costs was controversial."],0,"“Decidir” se nominaliza como “decision”."],
+      ["arrange","Ordena: [was / decision / controversial / the]",["was the decision controversial", "the controversial decision was", "controversial the was decision", "the decision was controversial"],3,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Escribe en inglés 40-50 palabras en un registro formal/académico usando al menos dos sustantivos nominalizados (decision, analysis, reduction...).",[],["decision", "analysis", "reduction"]],
+    ]
+  },
+  {
+    id:"c2_fronting_topicalization", level:"C2", title:"El fronting: anteponer elementos para dar énfasis", emoji:"⏩", xp:70,
+    description:"Aprende a usar el fronting para dar énfasis a un elemento anteponiéndolo en la oración.",
+    study: {
+      vocab: [
+        ["Fronting", "anteposición de un elemento para énfasis"],
+        ["This I cannot accept.", "Esto no lo puedo aceptar."],
+        ["Such was her determination that...", "Tal fue su determinación que..."],
+        ["Little did he know...", "Poco sabía él..."],
+        ["topicalization", "tematización"],
+      ],
+      grammar: [
+        ["Anteponer un elemento para dar énfasis", "El “fronting” consiste en anteponer un objeto, complemento o adverbio al inicio de la oración para darle énfasis, a menudo con un cambio en el orden de sujeto y verbo.", "This I cannot accept. / Little did he know that his plan would fail. / Such was the chaos that the meeting was cancelled."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase usa “fronting” para dar énfasis a un objeto?",["This I cannot accept.", "I cannot accept it, this.", "I cannot accept this.", "This cannot I accept."],0,"“This I cannot accept” antepone el objeto “this” para enfatizarlo."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["This I cannot accept.", "So do I.", "Such was her determination...", "Little did he know..."],3,"“Little did he know” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ did he know that his plan would fail.”",["Rarely", "Little", "Never", "Only"],1,"“Little did he know” es una estructura fija con fronting."],
+      ["translate","Traduce: “Tal fue el caos que se canceló la reunión.”",["Such was the chaos that the meeting was cancelled.", "Such the chaos was that the meeting was cancelled.", "So was the chaos that the meeting was cancelled.", "Such was the chaos the meeting was cancelled."],0,"“Such was + sustantivo + that” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [accept / this / cannot / I]",["this cannot accept I", "I accept cannot this", "this accept cannot I", "this I cannot accept"],3,"Objeto antepuesto + sujeto + verbo."],
+      ["speaking","Habla en inglés, en 40-50 palabras, sobre un giro inesperado en tu vida usando al menos una estructura de fronting (“Little did I know...”, “This I...”).",[],["Little did", "This I", "Such was"]],
+    ]
+  },
+  {
+    id:"c2_stance_hedging_adverbials", level:"C2", title:"Adverbios de postura y matización avanzada", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en inglés con adverbios de postura avanzados.",
+    study: {
+      vocab: [
+        ["arguably", "podría decirse que / posiblemente"],
+        ["ostensibly", "aparentemente / en apariencia"],
+        ["purportedly", "supuestamente"],
+        ["undeniably", "innegablemente"],
+        ["presumably", "presumiblemente"],
+      ],
+      grammar: [
+        ["Los adverbios de postura matizan el compromiso del hablante", "Los adverbios de postura muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "The policy was, arguably, a failure. / He was ostensibly there to help, but he had other motives."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué adverbio indica que algo se afirma sin pruebas confirmadas?",["purportedly", "presumably", "undeniably", "arguably"],0,"“Purportedly” indica que algo se dice como cierto sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["ostensibly", "purportedly", "arguably", "undeniably"],3,"“Undeniably” indica algo innegable."],
+      ["fill","Completa: “He was ___ there to help, but he had other motives.”",["presumably", "undeniably", "ostensibly", "arguably"],2,"“Ostensibly” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “Podría decirse que esta es su mejor obra.”",["This is, purportedly, his best work.", "This is, ostensibly, his best work.", "This is, arguably, his best work.", "This is, undeniably, his best work."],2,"“Podría decirse que” se traduce como “arguably”."],
+      ["arrange","Ordena: [failure / was / arguably / the / policy / a]",["arguably a was failure the policy", "failure was a policy arguably the", "was the a policy arguably failure", "the policy was arguably a failure"],3,"Sujeto + verbo + adverbio de postura + complemento."],
+      ["writing","Escribe en inglés 40-50 palabras dando tu opinión sobre un tema controvertido usando al menos dos adverbios de postura (arguably, undeniably, presumably...).",[],["arguably", "undeniably", "presumably"]],
+    ]
+  },
+  {
+    id:"c2_complex_noun_phrases", level:"C2", title:"Sintagmas nominales complejos en el registro académico", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del inglés académico.",
+    study: {
+      vocab: [
+        ["the extent to which...", "el grado en que..."],
+        ["a growing body of evidence", "un creciente cuerpo de evidencia"],
+        ["the underlying causes of...", "las causas subyacentes de..."],
+        ["a wide range of factors", "una amplia gama de factores"],
+        ["postmodification", "posmodificación del sustantivo"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El inglés académico usa sintagmas nominales complejos, con posmodificadores (cláusulas relativas reducidas, frases preposicionales) para compactar información densa en pocas palabras.", "A growing body of evidence suggests that... / The extent to which policies succeed depends on..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “un creciente cuerpo de evidencia” en inglés?",["a wide range of factors", "the underlying causes of", "the extent to which", "a growing body of evidence"],3,"“Un creciente cuerpo de evidencia” es “a growing body of evidence”."],
+      ["mcq","¿Cómo se dice “las causas subyacentes de” en inglés?",["the underlying causes of", "a growing body of evidence", "the extent to which", "a wide range of factors"],0,"“Las causas subyacentes de” es “the underlying causes of”."],
+      ["fill","Completa: “___ which the policy succeeds depends on public support.”",["The underlying causes of", "A wide range of", "The extent to", "A growing body of"],2,"“The extent to which” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “Un creciente cuerpo de evidencia sugiere que el clima está cambiando.”",["A growing body of evidence suggest that the climate is changing.", "A growing body of evidences suggests that the climate is changing.", "A grow body of evidence suggests that the climate is changing.", "A growing body of evidence suggests that the climate is changing."],3,"“Evidence” es incontable, no lleva plural."],
+      ["arrange","Ordena: [factors / range / a / wide / of]",["of a wide range factors", "a wide range of factors", "a range wide of factors", "range wide a of factors"],1,"Artículo + adjetivo + sustantivo + “of” + sustantivo."],
+      ["speaking","Habla en inglés, en 40-50 palabras, sobre un tema académico o social usando al menos dos sintagmas nominales complejos (a growing body of evidence, a wide range of factors...).",[],["a growing body of", "a wide range of", "the extent to which"]],
+    ]
+  },
+  {
+    id:"c2_discourse_cohesion_reference", level:"C2", title:"Cohesión textual: referencia y sustitución avanzada", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en inglés para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["the former / the latter", "el primero (mencionado) / el segundo (mencionado)"],
+        ["such a/an...", "tal un/una..."],
+        ["the aforementioned", "el/la mencionado/a anteriormente"],
+        ["this/that being said", "dicho esto"],
+        ["cohesive device", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“The former/the latter” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “the former/the latter” para referirse a elementos mencionados antes sin repetirlos, evitando la redundancia.", "We considered two options: remote work and office work. The former offers flexibility, while the latter fosters collaboration."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["the aforementioned", "the latter", "the former", "that being said"],2,"“The former” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["such a", "the aforementioned", "the latter", "the former"],2,"“The latter” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “We considered two options: A and B. ___ offers flexibility.”",["The aforementioned", "That being said", "The former", "The latter"],2,"“The former” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “Dicho esto, todavía quedan preguntas por resolver.”",["That being said, there are still questions to resolve.", "That be said, there are still questions to resolve.", "That being said, there is still questions to resolve.", "This being said that, there are still questions to resolve."],0,"“Dicho esto” es “that being said”."],
+      ["arrange","Ordena: [flexibility / former / the / offers]",["offers former flexibility the", "the former offers flexibility", "flexibility former the offers", "the offers former flexibility"],1,"“The former” + verbo + complemento."],
+      ["writing","Escribe en inglés 40-50 palabras comparando dos opciones usando “the former”, “the latter” y “that being said”.",[],["the former", "the latter", "that being said"]],
+    ]
+  },
 ];

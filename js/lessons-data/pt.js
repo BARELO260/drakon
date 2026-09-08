@@ -4457,4 +4457,364 @@ window.LESSON_BANKS.PT = [
       ["speaking","Explique em português, em 40-55 palavras, os passos para fazer algo que você sabe fazer (uma receita, um trâmite, etc.) usando pelo menos três conectores de sequência.",[],["primeiro", "depois", "por fim"]],
     ]
   },
+  {
+    id:"pt_b2_relative_clauses", level:"B2", title:"As orações relativas: que, quem, cujo", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos portugueses: que, quem y cujo.",
+    study: {
+      vocab: [
+        ["que", "that/which/who – relativo geral"],
+        ["quem", "who – depois de preposição, para pessoas"],
+        ["cujo/cuja/cujos/cujas", "whose – concuerda con lo poseído"],
+        ["onde, quando", "where, when"],
+        ["o homem que ligou", "the man who called"],
+      ],
+      grammar: [
+        ["“Que”, “quem” y “cujo”", "“Que” es invariable y vale para personas y cosas; “quem” se usa tras preposición y solo para personas; “cujo” concuerda con el sustantivo poseído, no con el poseedor.", "O livro que comprei é ótimo. / A pessoa com quem falei... / O escritor cujo romance ganhou o prêmio..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo se usa tras preposición y solo para personas?",["onde", "que", "quem", "cujo"],2,"“Quem” se usa tras preposición y solo para personas."],
+      ["mcq","¿Qué pronombre relativo es invariable y se usa para personas y cosas?",["quem", "onde", "cujo", "que"],3,"“Que” es invariable y vale para personas y cosas."],
+      ["fill","Completa: “O escritor ___ romance ganhou o prêmio é brasileiro.”",["quem", "cuja", "que", "cujo"],3,"“Cujo” concuerda con “romance” (masculino), lo poseído."],
+      ["translate","Traduce: “The person I spoke to...”",["A pessoa que falei...", "A pessoa onde falei...", "A pessoa cujo falei...", "A pessoa com quem falei..."],3,"Tras preposición (“com”) se usa “quem”."],
+      ["arrange","Ordena: [ligou / que / o / homem]",["homem que o ligou", "que o ligou homem", "o homem que ligou", "ligou o que homem"],2,"Sustantivo + “que” + verbo."],
+      ["writing","Escreva em português 30-40 palavras descrevendo uma pessoa e um objeto usando “que”, “quem” e “cujo”.",[],["que", "quem", "cujo"]],
+    ]
+  },
+  {
+    id:"pt_b2_gerundio_infinitivo", level:"B2", title:"O gerúndio, o infinitivo e o particípio", emoji:"🔀", xp:56,
+    description:"Aprende cuándo usar el gerundio y cuándo el infinitivo en portugués.",
+    study: {
+      vocab: [
+        ["estar + gerúndio", "to be doing (progresivo)"],
+        ["verbo + infinitivo", "verbo + infinitivo (patrón más común)"],
+        ["acabar de + infinitivo", "to have just done"],
+        ["continuar a + infinitivo", "to keep on doing"],
+        ["ficar + gerúndio", "to keep on doing (duración)"],
+      ],
+      grammar: [
+        ["“Estar + gerúndio” para el progresivo brasileño", "El portugués de Brasil usa mucho “estar + gerundio” para el progresivo; la mayoría de los verbos con complemento verbal usan infinitivo, no gerundio como en inglés.", "Ela está aprendendo português. / Acabei de chegar. / Continua a chover."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa una acción en curso (progresivo, en portugués de Brasil)?",["verbo + infinitivo", "acabar de + infinitivo", "continuar a + infinitivo", "estar + gerúndio"],3,"“Estar + gerúndio” expresa una acción en curso."],
+      ["mcq","¿Qué estructura significa “haber hecho algo hace un momento”?",["continuar a + infinitivo", "ficar + gerúndio", "estar + gerúndio", "acabar de + infinitivo"],3,"“Acabar de + infinitivo” es “to have just done”."],
+      ["fill","Completa: “Ela está ___ português.”",["aprendido", "aprendendo", "aprende", "aprender"],1,"“Estar + gerúndio” para el progresivo: “aprendendo”."],
+      ["translate","Traduce: “He just left.”",["Ele continua de sair.", "Ele acabou de sair.", "Ele está saindo em saindo.", "Ele acaba sair."],1,"“Acabar de hacer” es “acabar de + infinitivo”."],
+      ["arrange","Ordena: [sair / acabou / de / ele]",["acabou de ele sair", "ele sair de acabou", "acabou ele de sair", "ele acabou de sair"],3,"“Acabar de” + infinitivo."],
+      ["writing","Escreva em português 30-40 palavras sobre seus hábitos usando “estar + gerúndio”, “acabar de” e “continuar a”.",[],["está", "acabei de", "continuo a"]],
+    ]
+  },
+  {
+    id:"pt_b2_desejo_arrependimento", level:"B2", title:"Desejo e arrependimento: quem me dera, eu queria ter", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en portugués.",
+    study: {
+      vocab: [
+        ["Eu queria + infinitivo", "I wish (deseo presente)"],
+        ["Eu queria ter + particípio", "I wish I had done (arrepentimiento)"],
+        ["Quem me dera...", "If only..."],
+        ["Eu deveria ter + particípio", "I should have..."],
+        ["o arrependimento", "regret"],
+      ],
+      grammar: [
+        ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “eu queria + infinitivo”; para un arrepentimiento sobre el pasado, “eu queria ter + particípio” o “quem me dera + subjuntivo”.", "Eu queria ter mais tempo. / Eu queria ter estudado mais. / Quem me dera tivesse aceitado o emprego."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa un deseo sobre el presente?",["eu deveria ter", "eu queria ter + particípio", "eu queria + infinitivo", "quem me dera + subjuntivo"],2,"Deseo presente → “eu queria + infinitivo”."],
+      ["mcq","¿Qué estructura expresa un arrepentimiento sobre el pasado?",["eu tive", "eu queria ter + particípio", "eu queria + infinitivo", "quem me dera + presente"],1,"Arrepentimiento pasado → “eu queria ter + particípio”."],
+      ["fill","Completa: “___ mais tempo.”",["Quem me dera", "Eu queria", "Eu tive", "Eu queria ter"],3,"Deseo sobre el presente/pasado → “eu queria ter + particípio” para arrepentimiento."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["Quem me dera aceito o emprego.", "Eu queria ter aceitado o emprego.", "Eu tive aceitado o emprego.", "Eu queria aceitar o emprego."],1,"Arrepentimiento pasado → “eu queria ter + particípio”."],
+      ["arrange","Ordena: [tempo / eu / mais / queria / ter]",["mais tempo queria eu ter", "eu ter queria mais tempo", "eu queria ter mais tempo", "tempo queria ter mais eu"],2,"Sujeto + “queria ter” + objeto."],
+      ["speaking","Fale em português, em 35-45 palavras, sobre algo que você gostaria de ter feito diferente no passado, usando “eu queria ter” + particípio.",[],["eu queria ter", "quem me dera", "eu deveria ter"]],
+    ]
+  },
+  {
+    id:"pt_b2_dever_passado_deducao", level:"B2", title:"O futuro do pretérito e “dever” para especular sobre o passado", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en portugués con “dever” y el futuro do pretérito.",
+    study: {
+      vocab: [
+        ["deve ter + particípio", "must have (deducción)"],
+        ["pode ter + particípio", "might have (posibilidad)"],
+        ["não pode ter + particípio", "can't have (certeza negativa)"],
+        ["deveria ter + particípio", "should have (crítica/arrepentimiento)"],
+        ["não tenho certeza do que aconteceu", "I'm not sure what happened"],
+      ],
+      grammar: [
+        ["“Dever” para especular sobre el pasado", "“Dever” en presente + infinito compuesto expresa una fuerte deducción sobre el pasado; “deveria ter + particípio” expresa crítica o arrepentimiento.", "Ela deve ter saído já; o casaco dela sumiu. / Você deveria ter me ligado antes."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["não pode ter", "pode ter", "deve ter", "deveria ter"],2,"“Deve ter” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["deveria ter", "não pode ter", "pode ter", "deve ter"],0,"“Deveria ter” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “Ela ___ saído já; o casaco dela sumiu.”",["não pode ter", "pode ter", "deveria ter", "deve ter"],3,"Evidencia fuerte (casaco desapareció) → “deve ter”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Você não pode ter terminado tão rápido.", "Você pode ter terminado tão rápido.", "Você deve ter terminado tão rápido.", "Você deveria ter terminado tão rápido."],0,"Certeza negativa fuerte → “não pode ter”."],
+      ["arrange","Ordena: [ligado / deveria / antes / me / ter / você]",["deveria ligado ter me antes você", "você deveria ter me ligado antes", "ligado você deveria antes me ter", "ter antes ligado deveria você me"],1,"Sujeto + “deveria ter” + objeto + participio + adverbio."],
+      ["writing","Escreva em português 35-45 palavras especulando sobre por que alguém chegou tarde a uma reunião, usando “deve ter”, “pode ter” e “não pode ter”.",[],["deve ter", "pode ter", "não pode ter"]],
+    ]
+  },
+  {
+    id:"pt_b2_imperfeito_habitos", level:"B2", title:"O pretérito imperfeito e os hábitos passados", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en portugués con el pretérito imperfeito.",
+    study: {
+      vocab: [
+        ["o imperfeito para hábitos e estados", "imperfecto para hábitos/estados"],
+        ["costumava + infinitivo", "used to (hábito pasado)"],
+        ["antigamente...", "antes / hace tiempo..."],
+        ["quando criança...", "de niño/a..."],
+        ["hoje em dia", "hoy en día"],
+      ],
+      grammar: [
+        ["El pretérito imperfeito es el tiempo natural para hábitos pasados", "El pretérito imperfeito es el tiempo natural para hábitos y estados pasados en portugués; “costumava + infinitivo” refuerza explícitamente la idea de costumbre.", "Eu morava em Roma. / Quando criança, eu costumava brincar lá fora todos os dias."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo describe naturalmente hábitos y estados pasados?",["o pretérito perfeito", "o futuro do pretérito", "o pretérito imperfeito", "o subjuntivo"],2,"El pretérito imperfeito describe hábitos y estados pasados."],
+      ["mcq","¿Qué verbo + infinitivo refuerza la idea de costumbre pasada?",["costuma", "costumou", "costumava", "tem costume"],2,"“Costumava” refuerza la idea de costumbre pasada."],
+      ["fill","Completa: “Quando eu era jovem, ___ em uma cidade pequena.”",["morarei", "morei", "morava", "moro"],2,"Estado pasado → imperfeito: “morava”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["Quando criança, eu sempre brincava no parque.", "Quando criança, eu sempre brinco no parque.", "Quando criança, eu sempre vou brincar no parque.", "Quando criança, eu sempre brinquei no parque."],0,"Hábito pasado repetido → imperfeito: “brincava”."],
+      ["arrange","Ordena: [Roma / morava / em / eu]",["morava Roma em eu", "morava em Roma eu", "eu morava em Roma", "eu Roma morava em"],2,"Sujeto + imperfeito + preposición + objeto."],
+      ["speaking","Fale em português, em 35-45 palavras, sobre como era sua vida há dez anos, usando o pretérito imperfeito.",[],["morava", "costumava", "hoje em dia"]],
+    ]
+  },
+  {
+    id:"pt_c1_inversao_enfase", level:"C1", title:"A anteposição de advérbios negativos para dar ênfase", emoji:"❗", xp:65,
+    description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en portugués.",
+    study: {
+      vocab: [
+        ["Jamais pensei que...", "Never did I think..."],
+        ["Não só..., mas também...", "Not only... but also..."],
+        ["Só depois de..., ...", "Only after..., ..."],
+        ["Mal...quando...", "No sooner...than..."],
+        ["estrutura enfática", "estructura enfática"],
+      ],
+      grammar: [
+        ["Anteposición de adverbios negativos/restrictivos", "El portugués no tiene inversión sujeto-auxiliar como el inglés, pero antepone adverbios negativos/restrictivos (“jamais”, “mal”, “não só”) al inicio de la oración para dar énfasis.", "Jamais pensei que o veria de novo. / Não só ganhou a corrida, mas também bateu o recorde."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión introduce dos acciones casi simultáneas, la segunda inesperada?",["Não só...mas também...", "Mal...quando...", "Só depois de...", "Jamais pensei que..."],1,"“Mal...quando...” indica dos acciones casi simultáneas."],
+      ["mcq","¿Cómo se dice “not only... but also...” en portugués?",["Jamais pensei que...", "Não só..., mas também...", "Só depois de...", "Mal...quando..."],1,"“Not only...but also...” es “não só...mas também...”."],
+      ["fill","Completa: “___ tinha chegado quando teve que ir embora de novo.”",["Mal", "Jamais", "Não só", "Só"],0,"“Mal...quando...” indica que una acción ocurre justo antes de otra."],
+      ["translate","Traduce: “Not only did she win the race, but she also broke the record.”",["Não só ganhou a corrida, mas também bateu o recorde.", "Só não ganhou a corrida, mas também bateu o recorde.", "Não só ela ganhou a corrida, porém também bateu o recorde.", "Não só ganhou a corrida, mas bateu também o recorde ela."],0,"“Não só...mas também...” es la estructura correcta en portugués."],
+      ["arrange","Ordena: [visto / tinha / jamais / algo / assim]",["jamais tinha visto algo assim", "assim jamais algo visto tinha", "visto jamais tinha algo assim", "visto tinha jamais algo assim"],0,"Adverbio + pretérito mais-que-perfeito + objeto."],
+      ["writing","Escreva em português 35-45 palavras sobre uma conquista ou experiência usando pelo menos uma dessas estruturas enfáticas: ‘jamais’, ‘não só... mas também’, ‘mal... quando’.",[],["jamais", "não só", "mal"]],
+    ]
+  },
+  {
+    id:"pt_c1_frase_clivada", level:"C1", title:"A frase clivada: foi...quem / o que...é", emoji:"🎯", xp:65,
+    description:"Aprende a usar frases clivadas para dar énfasis a un elemento en portugués.",
+    study: {
+      vocab: [
+        ["Foi... quem/que...", "It was... who/that... (énfasis)"],
+        ["O que eu preciso é...", "What I need is..."],
+        ["O que me surpreendeu foi...", "What surprised me was..."],
+        ["É/foi + sustantivo + quem/que", "It is/was + noun + who/that"],
+        ["ênfase por meio de estrutura", "emphasis through structure"],
+      ],
+      grammar: [
+        ["“Foi...quem/que” y “o que...é”", "El portugués enfatiza un elemento reorganizando la información con “foi...quem/que” o “o que...é”.", "Foi a Maria quem resolveu o problema. / O que eu preciso é de mais tempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza el sujeto con “foi”?",["Jamais pensei que...", "O que... é...", "Foi... quem/que...", "Não só..."],2,"“Foi...quem/que...” enfatiza el sujeto."],
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Só depois de...", "O que... é...", "Foi... quem...", "Mal...quando..."],1,"“O que...é...” enfatiza el complemento."],
+      ["fill","Completa: “___ eu preciso é de mais tempo.”",["Foi", "Isso", "Quem", "O que"],3,"“O que + cláusula + é” enfatiza el complemento."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["Foi a Maria quem resolveu o problema.", "A Maria foi quem resolveu o problema.", "Foi a Maria quem resolve o problema.", "Foi a Maria que resolvido o problema."],0,"“Foi + persona + quem” enfatiza el sujeto en pasado."],
+      ["arrange","Ordena: [preciso / o / é / que / tempo / eu / mais / de]",["o que eu preciso é de mais tempo", "eu que tempo é o mais de preciso", "tempo que de preciso eu é mais o", "o tempo preciso que é de eu mais"],0,"“O que” + cláusula + “é” + complemento."],
+      ["speaking","Fale em português, em 35-45 palavras, usando pelo menos duas frases clivadas (‘foi...quem’ e ‘o que...é’) para enfatizar ideias importantes da sua vida.",[],["foi", "o que eu preciso", "quem"]],
+    ]
+  },
+  {
+    id:"pt_c1_gerundio_participio_reduzidas", level:"C1", title:"Orações reduzidas de gerúndio e particípio", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando oraciones reducidas en portugués.",
+    study: {
+      vocab: [
+        ["Tendo terminado..., ...", "Having finished..., ..."],
+        ["Ciente de..., ...", "Being aware of..., ..."],
+        ["Não sabendo o que fazer, ...", "Not knowing what to do, ..."],
+        ["oração reduzida", "cláusula reducida"],
+        ["reduz uma oração mais longa", "reduce una cláusula más larga"],
+      ],
+      grammar: [
+        ["“Tendo + particípio” y gerundio simple", "“Tendo + particípio” o el gerundio simple reducen cláusulas subordinadas más largas, dando un estilo más formal y conciso.", "Tendo terminado o relatório, ela foi para casa. / Não sabendo o que fazer, ele ligou para o advogado."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Depois que ela terminou o relatório”?",["Terminando o relatório", "Terminado o relatório ela", "Tendo terminado o relatório", "Para terminar o relatório"],2,"“Tendo + particípio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué forma reemplaza a “Porque ele não sabia o que fazer”?",["Sabendo não o que fazer", "Tendo não sabido o que fazer", "Não saber o que fazer", "Não sabendo o que fazer"],3,"El gerundio simple negado reemplaza una cláusula causal: “não sabendo”."],
+      ["fill","Completa: “___ o relatório, ela foi para casa.”",["Terminando", "Terminado", "Para terminar", "Tendo terminado"],3,"Acción completada antes de otra → “tendo + particípio”."],
+      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Não sabendo o que dizer, ele ficou em silêncio.", "Não saber o que dizer, ele ficou em silêncio.", "Tendo não sabido o que dizer, ele ficou em silêncio.", "Sabendo não o que dizer, ele ficou em silêncio."],0,"El gerundio simple negado al inicio reemplaza una cláusula causal."],
+      ["arrange","Ordena: [casa / terminado / tendo / para / relatório / foi / o / ela]",["terminado tendo para o foi relatório casa ela", "tendo terminado o relatório ela foi para casa", "ela para casa foi terminado tendo relatório o", "ela foi tendo casa relatório o para terminado"],1,"Cláusula reducida + sujeto + verbo + complemento."],
+      ["writing","Escreva em português 35-45 palavras contando uma história curta usando pelo menos uma oração reduzida de gerúndio ou particípio (Tendo..., Não sabendo..., Ciente de...).",[],["tendo", "não sabendo", "ciente de"]],
+    ]
+  },
+  {
+    id:"pt_c1_verbos_relato_subjuntivo", level:"C1", title:"Verbos de relato avançados: sugerir, insistir, negar", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de verbos de reporte avanzados en portugués.",
+    study: {
+      vocab: [
+        ["sugerir que + subjuntivo", "suggest that + subjunctive"],
+        ["insistir para que + subjuntivo", "insist that + subjunctive"],
+        ["negar + infinitivo composto", "deny doing"],
+        ["admitir + infinitivo composto", "admit doing"],
+        ["recomendar que + subjuntivo", "recommend that + subjunctive"],
+      ],
+      grammar: [
+        ["Verbos de relato que exigen subjuntivo o infinitivo compuesto", "Verbos como “sugerir que”, “insistir para que” y “recomendar que” exigen subjuntivo; “negar” y “admitir” van seguidos de “ter + particípio” para una acción pasada.", "Ela sugeriu que ele chegasse cedo. / Ele negou ter roubado o dinheiro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal exige “sugerir que”?",["o subjuntivo", "o infinitivo", "o imperativo", "o indicativo"],0,"“Sugerir que” exige el subjuntivo en la subordinada."],
+      ["mcq","¿Cómo se completa “Ele negou ___ o dinheiro” (roubar, acción pasada)?",["roubado", "ter roubado", "roubando", "roubar"],1,"“Negar” + “ter + particípio” para acciones pasadas."],
+      ["fill","Completa: “O médico recomendou que ela ___ por uma semana.”",["descansar", "descansou", "descansa", "descansasse"],3,"“Recomendar que” exige subjuntivo imperfecto: “descansasse”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Ele admitiu ter cometido um erro.", "Ele admitiu ter cometer um erro.", "Ele admitiu que cometia um erro.", "Ele admitiu cometer um erro."],0,"“Admitir” + “ter + particípio” para una acción ya realizada."],
+      ["arrange","Ordena: [dinheiro / negou / ter / roubado / ele / o]",["dinheiro o ter negou ele roubado", "dinheiro roubado o ele ter negou", "ele negou ter roubado o dinheiro", "roubado ter ele negou dinheiro o"],2,"Sujeto + “negar” + “ter + particípio” + objeto."],
+      ["writing","Escreva em português 35-45 palavras relatando uma conversa usando pelo menos dois verbos de relato avançados (sugerir, insistir, negar, admitir).",[],["sugeriu que", "negou", "admitiu"]],
+    ]
+  },
+  {
+    id:"pt_c1_elipse_substituicao", level:"C1", title:"Elipse e substituição no discurso", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en portugués usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["Eu também / Eu também não", "So do I / Neither do I"],
+        ["fazê-lo", "to do so"],
+        ["Acho que sim / Espero que não", "I think so / I hope not"],
+        ["o mesmo vale para...", "the same goes for..."],
+        ["omitir palavras repetidas", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El portugués evita repetir información con elipsis y expresiones sustitutas como “eu também/eu também não”, “acho que sim/não”.", "A: Eu adoro essa música. B: Eu também. / A: Vai chover? B: Espero que não."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “Eu adoro essa música”?",["Eu também.", "Fazê-lo.", "Espero que não.", "Eu também não."],0,"“Eu também” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “Eu não gosto de café”?",["Eu também não.", "Fazê-lo.", "Eu também.", "Acho que sim."],0,"“Eu também não” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Ela virá à festa? B: Espero que ___.”",["tampouco", "não", "sim", "também"],2,"“Espero que sim” sustituye la cláusula afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Acho que vai chover. B: Eu acho isso também demais.", "A: Acho que vai chover. B: Eu também acho.", "A: Acho que vai chover. B: Também eu acho.", "A: Acho que vai chover. B: Eu acho também isso."],1,"“Eu também acho” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [também / eu / acho]",["eu acho também", "também acho eu", "eu também acho", "acho também eu"],2,"Sujeto + “também” + verbo."],
+      ["speaking","Fale em português, em 30-40 palavras, sobre gostos em comum com um amigo usando ‘eu também’, ‘eu também não’ e ‘acho que sim’.",[],["eu também", "eu também não", "acho que sim"]],
+    ]
+  },
+  {
+    id:"pt_c2_nominalizacao", level:"C2", title:"A nominalização para um registro formal", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en portugués.",
+    study: {
+      vocab: [
+        ["reduzir → a redução", "reduce → reduction"],
+        ["decidir → a decisão", "decide → decision"],
+        ["analisar → a análise", "analyze → analysis"],
+        ["É importante considerar...", "It is important to consider..."],
+        ["registro acadêmico/formal", "registro académico/formal"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal en portugués.", "A empresa decidiu reduzir custos. → A decisão da empresa de reduzir custos... / Eles analisaram os dados com cuidado. → A análise cuidadosa deles dos dados..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “decidir”?",["decisivo", "decidindo", "a decisão", "o decisor"],2,"La nominalización de “decidir” es “a decisão”."],
+      ["mcq","¿Cuál es la nominalización de “analisar”?",["analisando", "a análise", "o analisador", "analítico"],1,"La nominalización de “analisar” es “a análise”."],
+      ["fill","Completa: “A ___ cuidadosa dos dados revelou novos padrões.”",["analisando", "análise", "analisar", "analisador"],1,"Registro formal → sustantivo nominalizado: “análise”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["A decisiva de reduzir custos foi controversa.", "A decisão de reduzir custos foi controverso.", "A decisão de reduzir custos foi controversa.", "O decidir de reduzir custos foi controversa."],2,"“Decidir” se nominaliza como “a decisão”."],
+      ["arrange","Ordena: [foi / decisão / controversa / a]",["decisão controversa foi a", "foi controversa a decisão", "controversa foi decisão a", "a decisão foi controversa"],3,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Escreva em português 40-50 palavras em um registro formal/acadêmico usando pelo menos dois substantivos nominalizados (decisão, análise, redução...).",[],["decisão", "análise", "redução"]],
+    ]
+  },
+  {
+    id:"pt_c2_anteposicao_enfatica", level:"C2", title:"A anteposição para dar ênfase", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer objetos y complementos para dar énfasis en portugués.",
+    study: {
+      vocab: [
+        ["Isso eu não posso aceitar.", "This I cannot accept."],
+        ["Tal era sua determinação que...", "Such was her determination that..."],
+        ["Pouco imaginava ele que...", "Little did he know..."],
+        ["Aquele que mais admiro é...", "The one I admire most is..."],
+        ["tematização", "topicalization"],
+      ],
+      grammar: [
+        ["Anteposición retomada con pronombre", "El portugués permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre (“isso eu não posso aceitar”).", "Isso eu não posso aceitar. / Tal era o caos que a reunião foi cancelada."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["Eu não posso aceitar isso.", "Eu não posso aceitá-lo, isso.", "Isso eu não posso aceitar.", "Isso posso não aceitar."],2,"“Isso eu não posso aceitar” antepone el objeto “isso”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Tal era sua determinação...", "Isso eu não posso aceitar.", "Eu também.", "Pouco imaginava ele que..."],3,"“Pouco imaginava ele que...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ imaginava ele que seu plano fracassaria.”",["Jamais", "Só", "Pouco", "Mal"],2,"“Pouco imaginava ele que...” es una estructura fija de énfasis."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tanto era o caos que a reunião foi cancelada.", "Tal o caos era que a reunião foi cancelada.", "Tal era o caos que a reunião era cancelada.", "Tal era o caos que a reunião foi cancelada."],3,"“Tal era + sustantivo + que” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [aceitar / isso / posso / não / eu]",["posso isso eu não aceitar", "aceitar isso eu não posso", "isso eu não posso aceitar", "não isso posso eu aceitar"],2,"Objeto antepuesto + sujeto + verbo."],
+      ["speaking","Fale em português, em 40-50 palavras, sobre uma reviravolta inesperada na sua vida usando pelo menos uma estrutura de anteposição enfática.",[],["isso eu", "pouco imaginava", "tal era"]],
+    ]
+  },
+  {
+    id:"pt_c2_adverbios_atitude", level:"C2", title:"Advérbios de atitude avançados", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en portugués con adverbios de actitud avanzados.",
+    study: {
+      vocab: [
+        ["pode-se dizer que", "arguably"],
+        ["aparentemente", "ostensibly"],
+        ["supostamente", "purportedly"],
+        ["inegavelmente", "undeniably"],
+        ["presumivelmente", "presumably"],
+      ],
+      grammar: [
+        ["Los adverbios de actitud matizan el compromiso del hablante", "Los adverbios de actitud muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "A política foi, pode-se dizer, um fracasso. / Ele estava aparentemente ali para ajudar, mas tinha outros motivos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["presumivelmente", "pode-se dizer que", "inegavelmente", "supostamente"],3,"“Supostamente” indica algo dicho sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["supostamente", "aparentemente", "inegavelmente", "pode-se dizer que"],2,"“Inegavelmente” indica algo innegable."],
+      ["fill","Completa: “Ele estava ___ ali para ajudar, mas tinha outros motivos.”",["inegavelmente", "aparentemente", "pode-se dizer", "presumivelmente"],1,"“Aparentemente” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["Este é, aparentemente, seu melhor trabalho.", "Este é, pode-se dizer, seu melhor trabalho.", "Este é, inegavelmente, seu melhor trabalho.", "Este é, supostamente, seu melhor trabalho."],1,"“Podría decirse que” se traduce como “pode-se dizer que”."],
+      ["arrange","Ordena: [fracasso / foi / a / política / um]",["a política foi um fracasso", "um política fracasso foi a", "a política fracasso foi um", "a política um fracasso foi"],0,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Escreva em português 40-50 palavras dando sua opinião sobre um tema controverso usando pelo menos dois advérbios de atitude (pode-se dizer que, inegavelmente, presumivelmente...).",[],["pode-se dizer que", "inegavelmente", "presumivelmente"]],
+    ]
+  },
+  {
+    id:"pt_c2_sintagmas_nominais_complexos", level:"C2", title:"Sintagmas nominais complexos no registro acadêmico", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del portugués académico.",
+    study: {
+      vocab: [
+        ["o grau em que...", "the extent to which..."],
+        ["um número crescente de evidências", "a growing body of evidence"],
+        ["as causas subjacentes de...", "the underlying causes of..."],
+        ["uma ampla gama de fatores", "a wide range of factors"],
+        ["pós-modificação", "postmodificación"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El portugués académico usa sintagmas nominales complejos, con posmodificadores (cláusulas de relativo, frases preposicionales) para compactar información densa.", "Um número crescente de evidências sugere que... / O grau em que as políticas têm sucesso depende de..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en portugués?",["as causas subjacentes de", "uma ampla gama de fatores", "o grau em que", "um número crescente de evidências"],3,"“A growing body of evidence” es “um número crescente de evidências”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en portugués?",["um número crescente de evidências", "as causas subjacentes de", "o grau em que", "uma ampla gama de fatores"],1,"“The underlying causes of” es “as causas subjacentes de”."],
+      ["fill","Completa: “___ em que a política tem sucesso depende do apoio público.”",["Um número crescente", "As causas subjacentes", "O grau", "Uma ampla gama"],2,"“O grau em que” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Um crescente número de evidências sugere o clima está mudando.", "Um número crescente de evidências sugere que o clima está mudando.", "Um número crescente de evidências sugerem que o clima está mudando.", "Um número crescente de evidência sugere que o clima está mudando."],1,"El verbo concuerda con “número” (singular): “sugere”."],
+      ["arrange","Ordena: [fatores / gama / ampla / uma / de]",["uma ampla gama de fatores", "fatores uma gama ampla de", "uma fatores gama de ampla", "ampla fatores gama uma de"],0,"Artículo + adjetivo + sustantivo + “de” + sustantivo."],
+      ["speaking","Fale em português, em 40-50 palavras, sobre um tema acadêmico ou social usando pelo menos dois sintagmas nominais complexos.",[],["um número crescente de", "uma ampla gama de", "o grau em que"]],
+    ]
+  },
+  {
+    id:"pt_c2_coesao_textual", level:"C2", title:"Coesão textual: referência e substituição avançada", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en portugués para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["o primeiro / o segundo (mencionados)", "the former / the latter"],
+        ["tal um/uma...", "such a/an..."],
+        ["o/a supracitado/a", "the aforementioned"],
+        ["dito isso...", "that being said..."],
+        ["recurso de coesão textual", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“O primeiro/o segundo” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “o primeiro/o segundo” para referirse a elementos mencionados antes sin repetirlos.", "Consideramos duas opções: trabalho remoto e trabalho presencial. O primeiro oferece flexibilidade, enquanto o segundo favorece a colaboração."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["o segundo", "dito isso", "o supracitado", "o primeiro"],3,"“O primeiro” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["o primeiro", "tal um", "o segundo", "o supracitado"],2,"“O segundo” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Consideramos duas opções: A e B. ___ oferece flexibilidade.”",["O segundo", "Dito isso", "O primeiro", "O supracitado"],2,"“O primeiro” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Dizendo isso, ainda há perguntas a resolver.", "Isso dito, ainda há perguntas a resolver.", "Dito isso, ainda havia perguntas a resolver.", "Dito isso, ainda há perguntas a resolver."],3,"“That being said” es “dito isso”."],
+      ["arrange","Ordena: [flexibilidade / primeiro / o / oferece]",["oferece o primeiro flexibilidade", "flexibilidade o oferece primeiro", "o primeiro oferece flexibilidade", "o oferece primeiro flexibilidade"],2,"“O primeiro” + verbo + complemento."],
+      ["writing","Escreva em português 40-50 palavras comparando duas opções usando ‘o primeiro’, ‘o segundo’ e ‘dito isso’.",[],["o primeiro", "o segundo", "dito isso"]],
+    ]
+  },
 ];

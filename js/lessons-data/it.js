@@ -4457,4 +4457,364 @@ window.LESSON_BANKS.IT = [
       ["speaking","Spiega in italiano, in 40-55 parole, i passaggi per fare qualcosa che sai fare (una ricetta, una pratica, ecc.) usando almeno tre connettori di sequenza.",[],["prima", "poi", "infine"]],
     ]
   },
+  {
+    id:"it_b2_relative_clauses", level:"B2", title:"Le proposizioni relative: che, cui, il quale", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos italianos: che, cui e il quale.",
+    study: {
+      vocab: [
+        ["che", "who/which/that – relativo general, invariable"],
+        ["cui", "whose/to whom – tras preposición"],
+        ["il quale/la quale", "which/who (formal, concuerda en género/número)"],
+        ["dove, quando", "where, when"],
+        ["l'uomo che ha chiamato", "the man who called"],
+      ],
+      grammar: [
+        ["“Che”, “cui” e “il quale”", "“Che” es invariable y vale para personas y cosas como sujeto u objeto directo; “cui” se usa tras preposición o para posesión (“di cui”); “il quale” es más formal y concuerda en género y número.", "Il libro che ho comprato è fantastico. / La persona a cui ho scritto... / Lo scrittore il cui romanzo ha vinto..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo se usa tras una preposición?",["cui", "dove", "il quale", "che"],0,"“Cui” se usa tras preposición."],
+      ["mcq","¿Qué pronombre relativo es invariable y se usa para personas y cosas?",["cui", "il quale", "dove", "che"],3,"“Che” es invariable y vale para personas y cosas."],
+      ["fill","Completa: “Lo scrittore ___ romanzo ha vinto il premio è italiano.”",["che", "il quale", "il cui", "cui"],2,"“Il cui” indica posesión: “el romanzo del escritor”."],
+      ["translate","Traduce: “The woman I wrote to...”",["La donna il quale ho scritto...", "La donna che ho scritto...", "La donna dove ho scritto...", "La donna a cui ho scritto..."],3,"Tras preposición (“a”) se usa “cui”."],
+      ["arrange","Ordena: [chiamato / che / l'uomo / ha]",["che l'uomo ha chiamato", "l'uomo che ha chiamato", "che l'uomo chiamato ha", "che ha chiamato l'uomo"],1,"Sustantivo + “che” + verbo."],
+      ["writing","Scrivi in italiano 30-40 parole descrivendo una persona e un oggetto usando “che”, “cui” e “il quale”.",[],["che", "cui", "il quale"]],
+    ]
+  },
+  {
+    id:"it_b2_gerundio_infinito", level:"B2", title:"Il gerundio, l'infinito e il participio presente", emoji:"🔀", xp:56,
+    description:"Aprende cuándo usar el gerundio y cuándo el infinitivo en italiano.",
+    study: {
+      vocab: [
+        ["stare + gerundio", "to be doing (progresivo)"],
+        ["verbo + infinito", "verbo + infinitivo (patrón más común)"],
+        ["pur + gerundio", "although/while doing"],
+        ["continuare a + infinito", "to keep on doing"],
+        ["finire di + infinito", "to have just finished doing"],
+      ],
+      grammar: [
+        ["El italiano usa mayormente infinitivo", "Como el francés, el italiano usa mayormente infinitivo tras los verbos; el gerundio se usa con “stare” para el progresivo, o con “pur” para expresar concesión.", "Sta imparando l'italiano. / Pur essendo stanco, ha continuato a lavorare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa una acción en curso (progresivo)?",["pur + gerundio", "verbo + infinito", "stare + gerundio", "continuare a + infinito"],2,"“Stare + gerundio” expresa una acción en curso."],
+      ["mcq","¿Qué estructura expresa concesión (“aunque haciendo algo”)?",["pur + gerundio", "finire di + infinito", "continuare a + infinito", "stare + gerundio"],0,"“Pur + gerundio” expresa concesión."],
+      ["fill","Completa: “Sta ___ l'italiano.”",["impara", "imparare", "imparando", "imparato"],2,"“Stare + gerundio” para el progresivo: “imparando”."],
+      ["translate","Traduce: “Although being tired, he kept working.”",["Pur stanco essendo, ha continuato a lavorare.", "Sebbene essendo stanco, ha continuato a lavorare.", "Pur essendo stanco, ha continuato a lavorare.", "Pur essere stanco, ha continuato a lavorare."],2,"“Pur + gerundio” (essendo) expresa concesión."],
+      ["arrange","Ordena: [italiano / imparando / sta / l']",["l'italiano imparando sta", "sta l'italiano imparando", "imparando l'italiano sta", "sta imparando l'italiano"],3,"“Stare” + gerundio + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole sulle tue abitudini usando “stare + gerundio”, “continuare a” e “finire di”.",[],["sta", "continua a", "finisce di"]],
+    ]
+  },
+  {
+    id:"it_b2_desiderio_rimpianto", level:"B2", title:"Desiderio e rimpianto: magari, avrei voluto", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en italiano.",
+    study: {
+      vocab: [
+        ["Vorrei + infinito", "I wish (deseo presente)"],
+        ["Avrei voluto + infinito passato", "I wish I had done (arrepentimiento)"],
+        ["Magari...", "If only..."],
+        ["Avrei dovuto + infinito", "I should have..."],
+        ["il rimpianto", "regret"],
+      ],
+      grammar: [
+        ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “vorrei + infinitivo”; para un arrepentimiento sobre el pasado, “avrei voluto + infinito passato” o “magari + congiuntivo trapassato”.", "Vorrei avere più tempo. / Avrei voluto studiare di più. / Magari avessi accettato il lavoro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa un deseo sobre el presente?",["avrei dovuto", "magari + congiuntivo trapassato", "avrei voluto + infinito passato", "vorrei + infinito"],3,"Deseo presente → “vorrei + infinitivo”."],
+      ["mcq","¿Qué estructura expresa un arrepentimiento sobre el pasado?",["avrei voluto + infinito passato", "magari + congiuntivo presente", "vorrei + infinito", "ho voluto"],0,"Arrepentimiento pasado → “avrei voluto + infinito passato”."],
+      ["fill","Completa: “___ più tempo.”",["Vorrei avere", "Magari ho", "Ho avuto", "Avrei voluto avere"],0,"Deseo sobre el presente → “vorrei + infinitivo”."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["Magari accetto il lavoro.", "Ho voluto accettare il lavoro.", "Avrei voluto accettare il lavoro.", "Vorrei accettare il lavoro."],2,"Arrepentimiento pasado → “avrei voluto + infinito passato”."],
+      ["arrange","Ordena: [tempo / vorrei / più / avere]",["vorrei avere più tempo", "vorrei avere tempo più", "più vorrei tempo avere", "tempo più vorrei avere"],0,"“Vorrei” + infinitivo + objeto."],
+      ["speaking","Parla in italiano, in 35-45 parole, di qualcosa che avresti voluto fare diversamente nel passato, usando “avrei voluto” + infinito passato.",[],["avrei voluto", "magari", "avrei dovuto"]],
+    ]
+  },
+  {
+    id:"it_b2_dovere_passato_deduzione", level:"B2", title:"Il condizionale passato e “dovere” per speculare sul passato", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en italiano con “dovere” y el condicional pasado.",
+    study: {
+      vocab: [
+        ["deve essere + participio", "must have (deducción)"],
+        ["può essere + participio", "might have (posibilidad)"],
+        ["non può essere + participio", "can't have (certeza negativa)"],
+        ["avrebbe dovuto + infinito", "should have (crítica/arrepentimiento)"],
+        ["non sono sicuro di cosa sia successo", "I'm not sure what happened"],
+      ],
+      grammar: [
+        ["“Dovere” para especular sobre el pasado", "“Dovere” en presente + infinito compuesto expresa una fuerte deducción sobre el pasado; “avrebbe dovuto + infinito” expresa crítica o arrepentimiento.", "Deve essere già partita; il suo cappotto è sparito. / Avresti dovuto chiamarmi prima."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["deve essere", "può essere", "avrebbe dovuto", "non può essere"],0,"“Deve essere” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["deve essere", "può essere", "avrebbe dovuto", "non può essere"],2,"“Avrebbe dovuto” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “___ già partita; il suo cappotto è sparito.”",["Deve essere", "Avrebbe dovuto", "Può essere", "Non può essere"],0,"Evidencia fuerte (abrigo desapareció) → “deve essere”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Devi aver finito così in fretta.", "Avresti dovuto finire così in fretta.", "Puoi aver finito così in fretta.", "Non puoi aver finito così in fretta."],3,"Certeza negativa fuerte → “non puoi aver”."],
+      ["arrange","Ordena: [chiamarmi / avresti / prima / dovuto]",["chiamarmi prima dovuto avresti", "chiamarmi dovuto avresti prima", "prima avresti dovuto chiamarmi", "avresti dovuto chiamarmi prima"],3,"Sujeto + “avresti dovuto” + infinitivo + adverbio."],
+      ["writing","Scrivi in italiano 35-45 parole facendo ipotesi sul perché qualcuno sia arrivato tardi a una riunione, usando “deve essere”, “può essere” e “non può essere”.",[],["deve essere", "può essere", "non può essere"]],
+    ]
+  },
+  {
+    id:"it_b2_imperfetto_abitudini", level:"B2", title:"L'imperfetto e le abitudini passate", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en italiano con el imperfecto.",
+    study: {
+      vocab: [
+        ["l'imperfetto per abitudini e stati", "imperfecto para hábitos/estados"],
+        ["solere + infinito", "to be used to / usually do"],
+        ["una volta...", "antes / hace tiempo..."],
+        ["da bambino/a...", "de niño/a..."],
+        ["al giorno d'oggi", "hoy en día"],
+      ],
+      grammar: [
+        ["El imperfecto es el tiempo natural para hábitos pasados", "El imperfecto describe naturalmente hábitos y estados pasados en italiano (equivalente a “used to/would”); “solere + infinitivo” refuerza la idea de costumbre, aunque es más literario.", "Vivevo a Roma. / Da bambino, giocavo sempre fuori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo describe naturalmente hábitos y estados pasados?",["il congiuntivo", "il condizionale", "l'imperfetto", "il passato prossimo"],2,"El imperfecto describe hábitos y estados pasados."],
+      ["mcq","¿Qué verbo (más literario) refuerza la idea de una costumbre pasada?",["venire", "dovere", "stare", "solere"],3,"“Solere” refuerza la idea de costumbre pasada."],
+      ["fill","Completa: “Quando ero giovane, ___ in un piccolo paese.”",["vivo", "vivevo", "vivrò", "ho vissuto"],1,"Estado pasado → imperfecto: “vivevo”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["Da bambino, giocavo sempre nel parco.", "Da bambino, ho sempre giocato nel parco.", "Da bambino, giocherò sempre nel parco.", "Da bambino, gioco sempre nel parco."],0,"Hábito pasado repetido → imperfecto: “giocavo”."],
+      ["arrange","Ordena: [Roma / vivevo / a / io]",["io vivevo a Roma", "a Roma vivevo io", "io a vivevo Roma", "a Roma io vivevo"],0,"Sujeto + imperfecto + preposición + objeto."],
+      ["speaking","Parla in italiano, in 35-45 parole, di com'era la tua vita dieci anni fa, usando l'imperfetto.",[],["vivevo", "solevo", "al giorno d'oggi"]],
+    ]
+  },
+  {
+    id:"it_c1_inversione_enfasi", level:"C1", title:"L'anteposizione per dare enfasi", emoji:"❗", xp:65,
+    description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["Mai avrei pensato...", "Never would I have thought..."],
+        ["Non solo..., ma anche...", "Not only... but also..."],
+        ["Solo dopo..., ...", "Only after..., ..."],
+        ["Appena...che...", "No sooner...than..."],
+        ["struttura enfatica", "estructura enfática"],
+      ],
+      grammar: [
+        ["Anteposición de adverbios negativos/restrictivos", "El italiano no tiene inversión sujeto-auxiliar como el inglés, pero antepone adverbios negativos/restrictivos (“mai”, “appena”, “non solo”) al inicio de la oración para dar énfasis.", "Mai avrei pensato di vederlo di nuovo. / Non solo ha vinto la gara, ma ha anche battuto il record."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión introduce dos acciones casi simultáneas, la segunda inesperada?",["Mai avrei pensato...", "Non solo...ma anche...", "Appena...che...", "Solo dopo..."],2,"“Appena...che...” indica dos acciones casi simultáneas."],
+      ["mcq","¿Cómo se dice “not only... but also...” en italiano?",["Mai avrei pensato...", "Non solo..., ma anche...", "Appena...che...", "Solo dopo..."],1,"“Not only...but also...” es “non solo...ma anche...”."],
+      ["fill","Completa: “___ era arrivato che ha dovuto ripartire.”",["Mai", "Non solo", "Appena", "Solo"],2,"“Appena...che...” indica que una acción ocurre justo después de otra."],
+      ["translate","Traduce: “Not only did she win the race, but she also broke the record.”",["Non solo ha vinto la gara, ma ha anche battuto il record.", "Non solo ha vinto la gara, ma battuto anche ha il record.", "Non solo lei ha vinto la gara, però ha anche battuto il record.", "Solo non ha vinto la gara, ma ha anche battuto il record."],0,"“Non solo...ma anche...” es la estructura correcta en italiano."],
+      ["arrange","Ordena: [pensato / avrei / mai / questo]",["questo avrei pensato mai", "questo mai pensato avrei", "mai avrei pensato questo", "avrei pensato mai questo"],2,"Adverbio + condicional pasado + objeto."],
+      ["writing","Scrivi in italiano 35-45 parole su un traguardo o un'esperienza usando almeno una struttura enfatica (‘mai’, ‘non solo...ma anche’, ‘appena...che’).",[],["mai", "non solo", "appena"]],
+    ]
+  },
+  {
+    id:"it_c1_frase_scissa", level:"C1", title:"La frase scissa: è...che", emoji:"🎯", xp:65,
+    description:"Aprende a usar la frase escindida (“è...che”) para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["È... che...", "It is... that... (énfasis)"],
+        ["Quello di cui ho bisogno è...", "What I need is..."],
+        ["Quello che mi ha sorpreso è stato...", "What surprised me was..."],
+        ["È stato/a + sostantivo + che", "It was + noun + that"],
+        ["enfasi tramite struttura", "emphasis through structure"],
+      ],
+      grammar: [
+        ["“È...che” y “quello che/di cui...è”", "El italiano enfatiza un elemento con “è...che” (para cualquier elemento) o “quello che/di cui...è” para enfatizar con “lo que”.", "È stata Maria che ha risolto il problema. / Quello di cui ho bisogno è più tempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza un elemento con “es...que”?",["Quello che... è...", "È... che...", "Mai avrei pensato...", "Non solo..."],1,"“È...che...” enfatiza un elemento."],
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Appena...che...", "Quello che... è...", "È... che...", "Solo dopo..."],1,"“Quello che...è...” enfatiza con “lo que”."],
+      ["fill","Completa: “___ di cui ho bisogno è più tempo.”",["Quello", "Questo", "È", "Chi"],0,"“Quello di cui” + cláusula + “è” enfatiza el complemento."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["È Maria che ha risolto il problema stata.", "Maria è stata che ha risolto il problema.", "È stata Maria che risolve il problema.", "È stata Maria che ha risolto il problema."],3,"“È stata + persona + che” enfatiza el sujeto en pasado."],
+      ["arrange","Ordena: [bisogno / quello / ho / è / di / tempo / cui / più]",["è bisogno ho quello più tempo di cui", "tempo ho quello cui di più bisogno è", "di è tempo più quello cui bisogno ho", "quello di cui ho bisogno è più tempo"],3,"“Quello di cui” + cláusula + “è” + complemento."],
+      ["speaking","Parla in italiano, in 35-45 parole, usando almeno due frasi scisse (‘è...che’ e ‘quello di cui...è’) per sottolineare idee importanti della tua vita.",[],["è", "che", "quello di cui"]],
+    ]
+  },
+  {
+    id:"it_c1_costruzioni_participio_gerundio", level:"C1", title:"Le costruzioni con participio e gerundio", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando construcciones de participio y gerundio en italiano.",
+    study: {
+      vocab: [
+        ["Avendo finito..., ...", "Having finished..., ..."],
+        ["Essendo consapevole di..., ...", "Being aware of..., ..."],
+        ["Non sapendo cosa fare, ...", "Not knowing what to do, ..."],
+        ["costruzione implicita", "construcción implícita"],
+        ["riduce una proposizione più lunga", "reduce una cláusula más larga"],
+      ],
+      grammar: [
+        ["“Avendo + participio” y gerundio simple", "“Avendo + participio passato” o el gerundio simple (“non sapendo”) reemplazan cláusulas subordinadas más largas, dando un estilo más formal y conciso.", "Avendo finito il rapporto, è tornata a casa. / Non sapendo cosa fare, ha chiamato il suo avvocato."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Dopo che ha finito il rapporto”?",["Per finire il rapporto", "Finendo il rapporto", "Avendo finito il rapporto", "Finito il rapporto lei"],2,"“Avendo + participio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué forma reemplaza a “Poiché non sapeva cosa fare”?",["Sapendo non cosa fare", "Non sapendo cosa fare", "Avendo non saputo cosa fare", "Non sapere cosa fare"],1,"El gerundio simple negado reemplaza una cláusula causal: “non sapendo”."],
+      ["fill","Completa: “___ il rapporto, è tornata a casa.”",["Finito", "Per finire", "Finendo", "Avendo finito"],3,"Acción completada antes de otra → “avendo + participio”."],
+      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Avendo non saputo cosa dire, è rimasto in silenzio.", "Sapendo non cosa dire, è rimasto in silenzio.", "Non sapere cosa dire, è rimasto in silenzio.", "Non sapendo cosa dire, è rimasto in silenzio."],3,"El gerundio simple negado al inicio reemplaza una cláusula causal."],
+      ["arrange","Ordena: [casa / finito / avendo / è / rapporto / a / tornata / il]",["casa a tornata il finito avendo rapporto è", "avendo finito il rapporto è tornata a casa", "casa tornata è finito rapporto il avendo a", "è tornata casa finito il a rapporto avendo"],1,"Cláusula de participio + sujeto + verbo."],
+      ["writing","Scrivi in italiano 35-45 parole raccontando un aneddoto usando almeno una costruzione con participio o gerundio (Avendo..., Non sapendo..., Essendo...).",[],["avendo", "non sapendo", "essendo"]],
+    ]
+  },
+  {
+    id:"it_c1_verbi_riportare_congiuntivo", level:"C1", title:"Verbi di riporto avanzati: suggerire, insistere, negare", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de los verbos de reporte avanzados en italiano.",
+    study: {
+      vocab: [
+        ["suggerire che + congiuntivo", "suggest that + subjunctive"],
+        ["insistere perché + congiuntivo", "insist that + subjunctive"],
+        ["negare di + infinito passato", "deny doing"],
+        ["ammettere di + infinito passato", "admit doing"],
+        ["raccomandare che + congiuntivo", "recommend that + subjunctive"],
+      ],
+      grammar: [
+        ["Verbos de reporte que exigen subjuntivo o infinitivo pasado", "Verbos como “suggerire che”, “insistere perché” y “raccomandare che” exigen el subjuntivo; “negare” y “ammettere” van seguidos de “di + infinito passato” para una acción pasada.", "Ha suggerito che lui arrivasse presto. / Ha negato di aver rubato i soldi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal exige “suggerire che”?",["l'imperativo", "l'infinito", "il congiuntivo", "l'indicativo"],2,"“Suggerire che” exige el congiuntivo en la subordinada."],
+      ["mcq","¿Cómo se completa “Ha negato ___ i soldi” (rubare, acción pasada)?",["di aver rubato", "di rubare", "rubato", "rubando"],0,"“Negare” + “di aver + participio” para acciones pasadas."],
+      ["fill","Completa: “Il medico ha raccomandato che lei ___ per una settimana.”",["riposò", "riposare", "riposasse", "riposa"],2,"“Raccomandare che” exige congiuntivo imperfecto: “riposasse”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Ha ammesso che commetteva un errore.", "Ha ammesso di aver commesso un errore.", "Ha ammesso aver commesso un errore di.", "Ha ammesso di commettere un errore."],1,"“Ammettere” + “di aver + participio” para una acción ya realizada."],
+      ["arrange","Ordena: [soldi / negato / aver / rubato / ha / i / di]",["i aver ha rubato di soldi negato", "ha soldi negato aver rubato di i", "ha negato aver soldi i di rubato", "ha negato di aver rubato i soldi"],3,"Sujeto + “negare” + “di aver” + participio + objeto."],
+      ["writing","Scrivi in italiano 35-45 parole riportando una conversazione usando almeno due verbi di riporto avanzati (suggerire, insistere, negare, ammettere).",[],["ha suggerito che", "ha negato", "ha ammesso"]],
+    ]
+  },
+  {
+    id:"it_c1_ellissi_sostituzione", level:"C1", title:"Ellissi e sostituzione nel discorso", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en italiano usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["Anch'io / Neanch'io", "So do I / Neither do I"],
+        ["farlo", "to do so"],
+        ["Credo di sì / Spero di no", "I think so / I hope not"],
+        ["lo stesso vale per...", "the same goes for..."],
+        ["omettere le parole ripetute", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El italiano evita repetir información con elipsis y expresiones sustitutas como “anch'io/neanch'io”, “credo di sì/no”.", "A: Adoro questa canzone. B: Anch'io. / A: Pioverà? B: Spero di no."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “Adoro questa canzone”?",["Farlo.", "Anch'io.", "Spero di no.", "Neanch'io."],1,"“Anch'io” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “Non mi piace il caffè”?",["Neanch'io.", "Farlo.", "Credo di sì.", "Anch'io."],0,"“Neanch'io” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Verrà alla festa? B: Spero di ___.”",["anche", "sì", "no", "neanche"],1,"“Spero di sì” sustituye la cláusula afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Penso che pioverà. B: Penso lo anch'io.", "A: Penso che pioverà. B: Anche lo penso.", "A: Penso che pioverà. B: Penso anche troppo questo.", "A: Penso che pioverà. B: Lo penso anch'io."],3,"“Lo penso anch'io” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [anch'io / penso / lo]",["lo penso anch'io", "penso lo anch'io", "anch'io lo penso", "penso anch'io lo"],0,"Pronombre + verbo + “anch'io”."],
+      ["speaking","Parla in italiano, in 30-40 parole, di gusti condivisi con un amico usando ‘anch'io’, ‘neanch'io’ e ‘credo di sì’.",[],["anch'io", "neanch'io", "credo di sì"]],
+    ]
+  },
+  {
+    id:"it_c2_nominalizzazione", level:"C2", title:"La nominalizzazione per un registro formale", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en italiano.",
+    study: {
+      vocab: [
+        ["ridurre → la riduzione", "reduce → reduction"],
+        ["decidere → la decisione", "decide → decision"],
+        ["analizzare → l'analisi", "analyze → analysis"],
+        ["È importante considerare...", "It is important to consider..."],
+        ["registro accademico/formale", "registro académico/formal"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal en italiano.", "L'azienda ha deciso di ridurre i costi. → La decisione dell'azienda di ridurre i costi... / Hanno analizzato i dati con attenzione. → La loro attenta analisi dei dati..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “decidere”?",["decisivo", "il decisore", "la decisione", "decidendo"],2,"La nominalización de “decidere” es “la decisione”."],
+      ["mcq","¿Cuál es la nominalización de “analizzare”?",["analizzando", "l'analisi", "analitico", "l'analizzatore"],1,"La nominalización de “analizzare” es “l'analisi”."],
+      ["fill","Completa: “La loro attenta ___ dei dati ha rivelato nuovi schemi.”",["analisi", "analizzando", "analizzare", "analizzatore"],0,"Registro formal → sustantivo nominalizado: “analisi”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["La decisione di ridurre i costi è stata controversa.", "La decisione di ridurre i costi è stato controverso.", "Il decidere di ridurre i costi è stata controversa.", "La decisiva di ridurre i costi è stata controversa."],0,"“Decidere” se nominaliza como “la decisione”."],
+      ["arrange","Ordena: [stata / decisione / controversa / la / è]",["la decisione è stata controversa", "è decisione stata la controversa", "decisione stata la controversa è", "è la controversa stata decisione"],0,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Scrivi in italiano 40-50 parole in un registro formale/accademico usando almeno due sostantivi nominalizzati (decisione, analisi, riduzione...).",[],["decisione", "analisi", "riduzione"]],
+    ]
+  },
+  {
+    id:"it_c2_anteposizione_enfatica", level:"C2", title:"L'anteposizione per dare enfasi", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer objetos y complementos para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["Questo non posso accettarlo.", "This I cannot accept."],
+        ["Tale era la sua determinazione che...", "Such was her determination that..."],
+        ["Poco sapeva che...", "Little did he know..."],
+        ["Colui che ammiro di più è...", "The one I admire most is..."],
+        ["tematizzazione", "topicalization"],
+      ],
+      grammar: [
+        ["Anteposición retomada con pronombre clítico", "El italiano permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre clítico (“questo non posso accettarlo”).", "Questo non posso accettarlo. / Tale era il caos che la riunione è stata annullata."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["Questo posso non accettarlo.", "Non posso accettare questo.", "Questo non posso accettarlo.", "Non posso accettarlo, questo."],2,"“Questo non posso accettarlo” antepone el objeto “questo”, retomado con “lo”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Questo non posso accettarlo.", "Anch'io.", "Tale era la sua determinazione...", "Poco sapeva che..."],3,"“Poco sapeva che...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ sapeva che il suo piano sarebbe fallito.”",["Poco", "Mai", "Solo", "Appena"],0,"“Poco sapeva che...” es una estructura fija de énfasis."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tanto era il caos che la riunione è stata annullata.", "Tale era il caos che la riunione è stata annullata.", "Tale il caos era che la riunione è stata annullata.", "Tale era il caos che la riunione era annullata."],1,"“Tale era + sustantivo + che” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [accettarlo / questo / posso / non]",["questo accettarlo non posso", "posso questo accettarlo non", "questo non posso accettarlo", "accettarlo questo posso non"],2,"Objeto antepuesto + verbo + pronombre clítico."],
+      ["speaking","Parla in italiano, in 40-50 parole, di una svolta inaspettata nella tua vita usando almeno una struttura di anteposizione enfatica.",[],["questo non", "poco sapeva", "tale era"]],
+    ]
+  },
+  {
+    id:"it_c2_avverbi_atteggiamento", level:"C2", title:"Avverbi di atteggiamento avanzati", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en italiano con adverbios de actitud avanzados.",
+    study: {
+      vocab: [
+        ["si potrebbe dire che", "arguably"],
+        ["apparentemente", "ostensibly"],
+        ["presuntamente", "purportedly"],
+        ["innegabilmente", "undeniably"],
+        ["presumibilmente", "presumably"],
+      ],
+      grammar: [
+        ["Los adverbios de actitud matizan el compromiso del hablante", "Los adverbios de actitud muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La politica è stata, si potrebbe dire, un fallimento. / Era apparentemente lì per aiutare, ma aveva altri motivi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["presumibilmente", "presuntamente", "innegabilmente", "si potrebbe dire che"],1,"“Presuntamente” indica algo dicho sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["si potrebbe dire che", "presuntamente", "apparentemente", "innegabilmente"],3,"“Innegabilmente” indica algo innegable."],
+      ["fill","Completa: “Era ___ lì per aiutare, ma aveva altri motivi.”",["si potrebbe dire", "presumibilmente", "apparentemente", "innegabilmente"],2,"“Apparentemente” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["Questo è, innegabilmente, il suo miglior lavoro.", "Questo è, si potrebbe dire, il suo miglior lavoro.", "Questo è, apparentemente, il suo miglior lavoro.", "Questo è, presuntamente, il suo miglior lavoro."],1,"“Podría decirse que” se traduce como “si potrebbe dire che”."],
+      ["arrange","Ordena: [fallimento / stata / la / politica / un / è]",["stata fallimento politica la un è", "la politica stata è un fallimento", "un politica stata è fallimento la", "la politica è stata un fallimento"],3,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Scrivi in italiano 40-50 parole dando la tua opinione su un tema controverso usando almeno due avverbi di atteggiamento (si potrebbe dire che, innegabilmente, presumibilmente...).",[],["si potrebbe dire che", "innegabilmente", "presumibilmente"]],
+    ]
+  },
+  {
+    id:"it_c2_sintagmi_nominali_complessi", level:"C2", title:"I sintagmi nominali complessi nel registro accademico", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del italiano académico.",
+    study: {
+      vocab: [
+        ["il grado in cui...", "the extent to which..."],
+        ["un numero crescente di prove", "a growing body of evidence"],
+        ["le cause sottostanti di...", "the underlying causes of..."],
+        ["un'ampia gamma di fattori", "a wide range of factors"],
+        ["postmodificazione", "posmodificación"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El italiano académico usa sintagmas nominales complejos, con posmodificadores (cláusulas de relativo, frases preposicionales) para compactar información densa.", "Un numero crescente di prove suggerisce che... / Il grado in cui le politiche hanno successo dipende da..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en italiano?",["un numero crescente di prove", "il grado in cui", "un'ampia gamma di fattori", "le cause sottostanti di"],0,"“A growing body of evidence” es “un numero crescente di prove”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en italiano?",["le cause sottostanti di", "un numero crescente di prove", "il grado in cui", "un'ampia gamma di fattori"],0,"“The underlying causes of” es “le cause sottostanti di”."],
+      ["fill","Completa: “___ in cui la politica ha successo dipende dal sostegno pubblico.”",["Un'ampia gamma", "Le cause sottostanti", "Il grado", "Un numero crescente"],2,"“Il grado in cui” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Un crescente numero di prove suggerisce il clima sta cambiando.", "Un numero crescente di prove suggeriscono che il clima sta cambiando.", "Un numero crescente di prove suggerisce che il clima sta cambiando.", "Un numero crescente di prova suggerisce che il clima sta cambiando."],2,"El verbo concuerda con “numero” (singular): “suggerisce”."],
+      ["arrange","Ordena: [fattori / gamma / un'ampia / di]",["fattori un'ampia di gamma", "gamma fattori un'ampia di", "un'ampia fattori gamma di", "un'ampia gamma di fattori"],3,"Sustantivo con elisión + adjetivo + “di” + sustantivo."],
+      ["speaking","Parla in italiano, in 40-50 parole, di un argomento accademico o sociale usando almeno due sintagmi nominali complessi.",[],["un numero crescente di", "un'ampia gamma di", "il grado in cui"]],
+    ]
+  },
+  {
+    id:"it_c2_coesione_testuale", level:"C2", title:"Coesione testuale: riferimento e sostituzione avanzata", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en italiano para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["il primo / il secondo (menzionati)", "the former / the latter"],
+        ["un tale/una tale...", "such a/an..."],
+        ["il/la summenzionato/a", "the aforementioned"],
+        ["detto questo...", "that being said..."],
+        ["elemento di coesione testuale", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“Il primo/il secondo” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “il primo/il secondo” para referirse a elementos mencionados antes sin repetirlos.", "Abbiamo considerato due opzioni: il lavoro da remoto e il lavoro in ufficio. Il primo offre flessibilità, mentre il secondo favorisce la collaborazione."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["detto questo", "il secondo", "il summenzionato", "il primo"],3,"“Il primo” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["un tale", "il primo", "il summenzionato", "il secondo"],3,"“Il secondo” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Abbiamo considerato due opzioni: A e B. ___ offre flessibilità.”",["Il primo", "Detto questo", "Il summenzionato", "Il secondo"],0,"“Il primo” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Detto questo, ci sono ancora domande da risolvere.", "Detto ciò questo, ci sono ancora domande da risolvere.", "Dicendo questo, ci sono ancora domande da risolvere.", "Detto questo, ci sono ancora domanda da risolvere."],0,"“That being said” es “detto questo”."],
+      ["arrange","Ordena: [flessibilità / primo / il / offre]",["offre il flessibilità primo", "primo offre il flessibilità", "il primo offre flessibilità", "offre primo il flessibilità"],2,"“Il primo” + verbo + complemento."],
+      ["writing","Scrivi in italiano 40-50 parole confrontando due opzioni usando ‘il primo’, ‘il secondo’ e ‘detto questo’.",[],["il primo", "il secondo", "detto questo"]],
+    ]
+  },
 ];
