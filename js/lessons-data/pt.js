@@ -4817,4 +4817,364 @@ window.LESSON_BANKS.PT = [
       ["writing","Escreva em português 40-50 palavras comparando duas opções usando ‘o primeiro’, ‘o segundo’ e ‘dito isso’.",[],["o primeiro", "o segundo", "dito isso"]],
     ]
   },
+  {
+    id:"pt_a1_imperatives", level:"A1", title:"O imperativo: instruções e conselhos diretos", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en portugués con el imperativo.",
+    study: {
+      vocab: [
+        ["Abra a porta.", "Open the door."],
+        ["Feche a janela.", "Close the window."],
+        ["Vire à esquerda / à direita.", "Turn left / right."],
+        ["Não toque nisso.", "Don't touch that."],
+        ["Sente-se, por favor.", "Please, sit down."],
+      ],
+      grammar: [
+        ["El imperativo “você” toma la forma del subjuntivo", "En portugués de Brasil, el imperativo con “você” usa la forma del presente do subjuntivo (abra, feche, vire), no la del presente do indicativo.", "Abra a porta. / Não toque nisso. / Espere aqui, por favor."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en portugués (imperativo você)?",["Abra a porta.", "Abrir a porta.", "Abre a porta.", "Abrindo a porta."],0,"El imperativo de “abrir” es “abra” (subjuntivo)."],
+      ["mcq","¿De qué modo/tiempo verbal se toma la forma del imperativo con “você”?",["el presente do subjuntivo", "el presente do indicativo", "el gerúndio", "el infinitivo"],0,"El imperativo con “você” toma la forma del presente do subjuntivo."],
+      ["fill","Completa: “Não ___ nisso; está quente.”",["toque", "toca", "tocar", "tocando"],0,"Imperativo negativo con “você”: “toque”."],
+      ["translate","Traduce: “Please, sit down.”",["Sentado, por favor.", "Sentar-se, por favor.", "Você se senta, por favor.", "Sente-se, por favor."],3,"Imperativo de “sentar-se”: “sente-se”."],
+      ["arrange","Ordena: [porta / abra / a]",["porta abra a", "porta a abra", "a abra porta", "abra a porta"],3,"Imperativo + artículo + sustantivo."],
+      ["writing","Escreva em português 20-30 palavras com três instruções usando o imperativo (afirmativo e negativo).",[],["abra", "não toque", "por favor"]],
+    ]
+  },
+  {
+    id:"pt_a1_demonstratives", level:"A1", title:"Os demonstrativos: este, esse, aquele", emoji:"👆", xp:34,
+    description:"Aprende a usar este, esse y aquele en portugués según la distancia.",
+    study: {
+      vocab: [
+        ["este/esta/isto", "this (cerca del hablante)"],
+        ["esse/essa/isso", "that (cerca del oyente)"],
+        ["aquele/aquela/aquilo", "that over there (lejos de ambos)"],
+        ["estes/estas", "these"],
+        ["O que é isto?", "What is this?"],
+      ],
+      grammar: [
+        ["Tres grados de distancia en portugués", "Como el español, el portugués tiene tres grados de distancia: “este” (cerca de mí), “esse” (cerca de ti), “aquele” (lejos de los dos) — a diferencia del inglés que solo distingue dos.", "Este é o meu telefone. / Aqueles são meus amigos, lá longe."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para algo cerca de ti (el hablante)?",["esse", "este", "aqueles", "aquele"],1,"“Este” es para algo cerca del hablante."],
+      ["mcq","¿Qué palabra usas para algo lejos de ambos hablantes?",["este", "esses", "esse", "aquele"],3,"“Aquele” es para algo lejos de ambos."],
+      ["fill","Completa: “___ são meus amigos, lá longe.”",["Este", "Esses", "Aqueles", "Estes"],2,"Lejos de ambos, plural → “aqueles”."],
+      ["translate","Traduce: “These are my books.”",["Esses são meus livros.", "Aquele são meus livros.", "Este são meus livros.", "Estes são meus livros."],3,"Cerca del hablante, plural → “estes”."],
+      ["arrange","Ordena: [telefone / é / meu / este]",["este meu é telefone", "este meu telefone é", "este é meu telefone", "é telefone este meu"],2,"Demostrativo + verbo “ser” + posesivo + sustantivo."],
+      ["writing","Escreva em português 20-30 palavras descrevendo objetos perto e longe de você usando este, esse e aquele.",[],["este", "esse", "aquele"]],
+    ]
+  },
+  {
+    id:"pt_a1_prepositions_time", level:"A1", title:"Preposições de tempo: às, em, na", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo às, em y na en portugués.",
+    study: {
+      vocab: [
+        ["às + hora", "at + hora (às 9 horas)"],
+        ["em + mês/ano", "in + mes/año (em julho)"],
+        ["na + dia da semana", "on + día (na segunda-feira)"],
+        ["à noite", "de noche"],
+        ["de manhã / à tarde", "por la mañana / por la tarde"],
+      ],
+      grammar: [
+        ["Às, em y na (contracciones con artículo)", "“Às” (a + as) se usa con horas exactas, “em” con meses y años, y “na” (em + a) delante de un día de la semana.", "A aula começa às 9 horas. / Eu nasci em julho. / Nos vemos na segunda-feira."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["por", "em", "na", "às"],3,"“Às” se usa con horas exactas."],
+      ["mcq","¿Qué artículo usas delante de un día de la semana?",["em", "por", "às", "na"],3,"“Na” se usa delante de días de la semana."],
+      ["fill","Completa: “Eu nasci ___ julho.”",["na", "por", "às", "em"],3,"“Em” se usa con meses."],
+      ["translate","Traduce: “We meet on Mondays.”",["Nos vemos em segunda-feira.", "Nos vemos às segunda-feira.", "Nos vemos por segunda-feira.", "Nos vemos na segunda-feira."],3,"“Na” se usa con días de la semana."],
+      ["arrange","Ordena: [9 / começa / horas / aula / às / a]",["9 a horas às aula começa", "começa a às aula horas 9", "horas começa às aula a 9", "a aula começa às 9 horas"],3,"Sujeto + verbo + “às” + hora."],
+      ["writing","Escreva em português 20-30 palavras sobre seu horário semanal usando às, em e na.",[],["às", "em", "na"]],
+    ]
+  },
+  {
+    id:"pt_a1_frequency_adverbs", level:"A1", title:"Advérbios de frequência: sempre, normalmente, às vezes, nunca", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en portugués.",
+    study: {
+      vocab: [
+        ["sempre", "always"],
+        ["normalmente", "usually"],
+        ["às vezes", "sometimes"],
+        ["raramente", "rarely"],
+        ["nunca", "never"],
+      ],
+      grammar: [
+        ["Posición de los adverbios de frecuencia", "Los adverbios de frecuencia suelen ir antes del verbo, o al inicio/final de la oración; “nunca” antes del verbo no necesita “não”, pero después del verbo sí lo requiere.", "Eu sempre tomo café de manhã. / Ela nunca chega atrasada. / Ela não chega atrasada nunca."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde suele ir el adverbio de frecuencia respecto al verbo?",["solo al principio", "antes", "solo al final", "siempre después"],1,"El adverbio de frecuencia suele ir antes del verbo."],
+      ["mcq","¿Cómo se dice “a veces” en portugués?",["nunca", "sempre", "normalmente", "às vezes"],3,"“A veces” es “às vezes”."],
+      ["fill","Completa: “Ela ___ chega atrasada ao trabalho.”",["nada", "não nunca", "nunca", "sempre não"],2,"“Nunca” antes del verbo no necesita “não”."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Eu tomo café sempre de manhã.", "Eu tomando sempre café de manhã.", "Sempre eu tomando café de manhã.", "Eu sempre tomo café de manhã."],3,"El adverbio suele ir antes del verbo: “sempre tomo”."],
+      ["arrange","Ordena: [trabalho / vou / normalmente / ao / ônibus / de]",["vou de normalmente ao ônibus trabalho", "normalmente vou ao trabalho de ônibus", "de normalmente trabalho vou ao ônibus", "de ônibus trabalho vou ao normalmente"],1,"Adverbio + sujeto + verbo + complemento."],
+      ["writing","Escreva em português 20-30 palavras sobre sua rotina usando pelo menos três advérbios de frequência.",[],["sempre", "normalmente", "às vezes"]],
+    ]
+  },
+  {
+    id:"pt_a1_de_posse", level:"A1", title:"A preposição “de” para expressar posse", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en portugués con la preposición “de”.",
+    study: {
+      vocab: [
+        ["o livro da Ana", "Ana's book"],
+        ["os brinquedos das crianças", "the children's toys"],
+        ["De quem é isso?", "Whose is this?"],
+        ["É da Ana.", "It's Ana's."],
+        ["a casa dos meus pais", "my parents' house"],
+      ],
+      grammar: [
+        ["“De + poseedor”, contraído con el artículo", "A diferencia del inglés (Ana's book), el portugués siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + a” se contrae en “da”, “de + os” en “dos”.", "Este é o livro da Ana. / A casa dos meus pais é grande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Ana's book” en portugués?",["da Ana o livro", "o livro da Ana", "o Ana's livro", "Ana de livro"],1,"“Ana's book” es “o livro da Ana”."],
+      ["mcq","¿En qué se contrae “de + os” en portugués?",["do", "de os", "das", "dos"],3,"“De + os” se contrae en “dos”."],
+      ["fill","Completa: “Estes são os brinquedos ___ crianças.”",["do", "de as", "das", "dos"],2,"“De + as” se contrae en “das”."],
+      ["translate","Traduce: “Whose book is this? It's Ana's.”",["De quem é este livro? É da Ana.", "De quem este livro é? É da Ana.", "Quem é este livro? É da Ana.", "De quem é este livro? É Ana's."],0,"“¿De quién?” + “é da Ana”."],
+      ["arrange","Ordena: [Ana / livro / o / da / é / este]",["este é o livro da Ana", "livro é da este Ana o", "o é livro este da Ana", "da este livro o Ana é"],0,"Sujeto + verbo + artículo + sustantivo + “da” + poseedor."],
+      ["writing","Escreva em português 20-30 palavras descrevendo objetos que pertencem a pessoas diferentes usando “de” para expressar posse.",[],["de", "de quem", "é da"]],
+    ]
+  },
+  {
+    id:"pt_a2_reflexivos", level:"A2", title:"Os verbos reflexivos e os pronomes reflexivos", emoji:"🪞", xp:46,
+    description:"Aprende a usar los verbos y pronombres reflexivos en portugués.",
+    study: {
+      vocab: [
+        ["me, te, se, nos, se", "pronombres reflexivos"],
+        ["levantar-se", "to get (oneself) up"],
+        ["vestir-se", "to get dressed"],
+        ["Eu me cortei cozinhando.", "I cut myself while cooking."],
+        ["sozinho/a", "by myself"],
+      ],
+      grammar: [
+        ["Próclise: el pronombre va antes del verbo", "Muchos verbos portugueses son reflexivos y exigen un pronombre reflexivo que concuerda con el sujeto; en el portugués de Brasil hablado, el pronombre normalmente va ANTES del verbo (próclise).", "Eu me levanto às sete. / Ela se veste rapidamente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “eu”?",["nos", "me", "se", "te"],1,"“Eu” usa el pronombre “me”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “ela”?",["te", "me", "nos", "se"],3,"“Ela” usa el pronombre “se”."],
+      ["fill","Completa: “Eu ___ cortei cozinhando.”",["nos", "te", "se", "me"],3,"“Eu” usa el pronombre reflexivo “me”."],
+      ["translate","Traduce: “She lives by herself.”",["Ela mora ela mesma.", "Ela se mora sozinha.", "Ela mora sozinha.", "Ela mora por ela mesma."],2,"“Morar” no es reflexivo aquí; “sozinha” expresa “by herself”."],
+      ["arrange","Ordena: [sete / levanto / às / me / eu]",["levanto eu me sete às", "às sete levanto eu me", "sete levanto às eu me", "eu me levanto às sete"],3,"Sujeto + pronombre reflexivo + verbo + hora."],
+      ["speaking","Fale em português por 25-35 palavras sobre sua rotina diária usando pelo menos três verbos reflexivos (levantar-se, vestir-se, arrumar-se...).",[],["eu me levanto", "eu me visto", "eu me arrumo"]],
+    ]
+  },
+  {
+    id:"pt_a2_pronomes_objeto_direto", level:"A2", title:"Os pronomes de objeto direto: o, a, os, as", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto directo en portugués, formal e informal.",
+    study: {
+      vocab: [
+        ["o/a (formal/escrito)", "him/her/it (objeto directo)"],
+        ["os/as (formal/escrito)", "them (objeto directo)"],
+        ["ele/ela (uso informal como objeto)", "him/her (habla informal)"],
+        ["Você pode me ajudar?", "Can you help me?"],
+        ["Eu vi ela ontem.", "I saw her yesterday. (habla informal)"],
+      ],
+      grammar: [
+        ["Formal 'o/a' vs informal 'ele/ela'", "En el portugués formal/escrito, los pronombres de objeto directo son “o/a/os/as”; en el habla informal de Brasil, es muy común usar simplemente el pronombre sujeto (ele/ela) como objeto.", "Eu vi minha irmã ontem. → Eu a vi ontem. (formal) / Eu vi ela ontem. (informal, muy común)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre formal reemplaza a “minha irmã” (femenino singular)?",["as", "os", "o", "a"],3,"“Minha irmã” se reemplaza por “a” en registro formal."],
+      ["mcq","¿Qué es muy común en el habla informal de Brasil en vez de “o/a”?",["usar 'lhe' siempre", "usar el infinitivo", "usar el pronombre sujeto (ele/ela)", "omitir siempre el objeto"],2,"En el habla informal se usa el pronombre sujeto como objeto."],
+      ["fill","Completa: “Eu vi minha irmã ontem. Eu ___ vi no parque.”",["a", "as", "o", "os"],0,"“Minha irmã” se reemplaza por “a”."],
+      ["translate","Traduce: “Can you help us, please?”",["Você pode ajudar nos, por favor?", "Você pode ajudar-lo, por favor?", "Você pode nos ajudas, por favor?", "Você pode nos ajudar, por favor?"],3,"“Nos” va antes del infinitivo: “nos ajudar”."],
+      ["arrange","Ordena: [ontem / vi / ela / eu]",["eu vi ontem ela", "vi ela eu ontem", "eu ela ontem vi", "eu vi ela ontem"],3,"Sujeto + verbo + pronombre (informal) + adverbio."],
+      ["writing","Escreva em português 25-35 palavras sobre pessoas ou objetos que você viu recentemente, usando pronomes de objeto direto (o, a, os, as ou ele, ela).",[],["a", "o", "ela"]],
+    ]
+  },
+  {
+    id:"pt_a2_presente_planos_futuros", level:"A2", title:"O presente para planos futuros concretos", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente do indicativo para hablar de planes futuros ya confirmados en portugués.",
+    study: {
+      vocab: [
+        ["Amanhã eu me encontro com ela.", "I'm meeting her tomorrow."],
+        ["Na próxima semana voamos para Madri.", "We're flying to Madrid next week."],
+        ["O que você faz neste fim de semana?", "What are you doing this weekend?"],
+        ["plano já organizado", "arranged plan"],
+        ["compromisso confirmado", "confirmed appointment"],
+      ],
+      grammar: [
+        ["El presente para planes ya confirmados", "En portugués, el presente do indicativo se usa frecuentemente para planes futuros ya confirmados, sobre todo con una expresión de tiempo.", "Amanhã eu me encontro com ela às 6. / Na próxima semana voamos para Madri."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal usas en portugués para un plan futuro ya confirmado?",["el pasado", "el futuro simples", "el presente do indicativo", "el presente contínuo"],2,"Los planes confirmados suelen usar el presente do indicativo."],
+      ["mcq","¿Cómo se dice “¿Qué vas a hacer este fin de semana?” (plan concreto) en portugués?",["O que você faz neste fim de semana?", "O que você está fazendo neste fim de semana?", "O que você fez neste fim de semana?", "O que você fará neste fim de semana?"],0,"Plan concreto → presente: “O que você faz...?”."],
+      ["fill","Completa: “Amanhã ___ com ela às 6.”",["eu me encontro", "eu me encontrava", "eu estou me encontrando", "eu me encontrarei"],0,"Plan confirmado → presente: “eu me encontro”."],
+      ["translate","Traduce: “We're flying to Madrid next week.” (billete ya comprado)",["Na próxima semana estamos voando para Madri.", "Na próxima semana voávamos para Madri.", "Na próxima semana voamos para Madri.", "Na próxima semana voaremos para Madri."],2,"Plan confirmado → presente: “voamos”."],
+      ["arrange","Ordena: [encontro / amanhã / com / me / ela]",["amanhã me encontro com ela", "amanhã com encontro ela me", "com encontro amanhã ela me", "com me amanhã ela encontro"],0,"Tiempo + pronombre + verbo + objeto."],
+      ["writing","Escreva em português 25-35 palavras sobre planos que você já tem confirmados para a próxima semana, usando o presente para falar do futuro.",[],["amanhã", "na próxima semana", "me encontro"]],
+    ]
+  },
+  {
+    id:"pt_a2_sugestoes", level:"A2", title:"Fazer sugestões: vamos, que tal, e se", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en portugués.",
+    study: {
+      vocab: [
+        ["Vamos + infinitivo", "Let's... (vamos)"],
+        ["Que tal + infinitivo?", "How about...?"],
+        ["E se + presente do indicativo?", "What if we...?"],
+        ["Podemos + infinitivo.", "We could..."],
+        ["Boa ideia!", "That sounds good!"],
+      ],
+      grammar: [
+        ["“E se” exige presente do indicativo", "“Vamos” va seguido de infinitivo (sin preposición); “que tal” va seguido de infinitivo o sustantivo; “e se” va seguido del presente do indicativo (no del infinitivo).", "Vamos à praia. / Que tal pedir uma pizza? / E se assistimos a um filme?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma sigue a “vamos” para sugerir una actividad?",["presente conjugado", "subjuntivo", "gerúndio", "infinitivo"],3,"Tras “vamos” va el infinitivo."],
+      ["mcq","¿Cómo se dice “¿Qué tal pedimos una pizza?” en portugués?",["Que tal a pedir uma pizza?", "Que tal pedindo uma pizza?", "Que tal pedimos uma pizza?", "Que tal pedir uma pizza?"],3,"“Que tal” + infinitivo: “pedir”."],
+      ["fill","Completa: “E se ___ a um filme esta noite?”",["assistir", "assistimos", "assistindo", "assistiremos"],1,"“E se” + presente do indicativo: “assistimos”."],
+      ["translate","Traduce: “Let's go to the beach.”",["Vamos a ir à praia.", "Vamos para ir à praia.", "Vamos à praia.", "Vamos ir à praia nós."],2,"“Vamos” + complemento: “à praia”."],
+      ["arrange","Ordena: [praia / vamos / à]",["vamos praia à", "praia vamos à", "praia à vamos", "vamos à praia"],3,"“Vamos” + complemento."],
+      ["speaking","Fale em português por 25-35 palavras fazendo três sugestões para um plano com amigos, usando vamos, que tal e e se.",[],["vamos", "que tal", "e se"]],
+    ]
+  },
+  {
+    id:"pt_a2_verbos_preposicao", level:"A2", title:"Verbos com preposição fixa: parar de, contar com, perceber", emoji:"🔌", xp:47,
+    description:"Aprende verbos portugueses con preposición fija.",
+    study: {
+      vocab: [
+        ["parar de + infinitivo", "to stop doing"],
+        ["ficar com", "to keep"],
+        ["perceber", "to notice/to realize"],
+        ["contar com", "to count on"],
+        ["dar-se conta de", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos portugueses cambian de significado al combinarse con una preposición fija, de forma similar a los phrasal verbs del inglés.", "Parei de fumar no ano passado. / Percebi a jaqueta nova dela. / Você pode contar comigo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to count on” en portugués?",["perceber", "parar de", "ficar com", "contar com"],3,"“To count on” es “contar com”."],
+      ["mcq","¿Cómo se dice “to notice/to realize” en portugués?",["ficar com", "perceber", "parar de", "contar com"],1,"“To notice/to realize” es “perceber”."],
+      ["fill","Completa: “___ fumar no ano passado.”",["Contei com", "Fiquei com", "Percebi", "Parei de"],3,"“Parar de + infinitivo” = dejar de hacer algo."],
+      ["translate","Traduce: “I noticed her new jacket.”",["Percebi a jaqueta nova dela.", "Contei com a jaqueta nova dela.", "Fiquei com a jaqueta nova dela.", "Parei de a jaqueta nova dela."],0,"“Noticed” es “percebi”."],
+      ["arrange","Ordena: [comigo / pode / contar / você]",["você pode contar comigo", "comigo contar você pode", "você comigo pode contar", "comigo você contar pode"],0,"Sujeto + “contar com” + objeto."],
+      ["writing","Escreva em português 25-35 palavras sobre seus hábitos usando pelo menos três verbos com preposição fixa (parar de, perceber, contar com...).",[],["parei de", "percebi", "conto com"]],
+    ]
+  },
+  {
+    id:"pt_b1_condicionais_reais", level:"B1", title:"As orações condicionais reais (tipo 0 e tipo 1)", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre las condicionales tipo 0 y tipo 1 en portugués.",
+    study: {
+      vocab: [
+        ["Se + presente, presente (tipo 0)", "zero conditional – verdades generales"],
+        ["Se + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
+        ["Quando a água ferve, evapora.", "ejemplo de condicional tipo 0"],
+        ["Se chover, eu ficarei em casa.", "ejemplo de condicional tipo 1"],
+        ["possibilidade real", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (se + presente, presente) expresa verdades generales; el tipo 1 (se + presente, futuro) expresa una posibilidad real en el futuro.", "Se você aquece o gelo, ele derrete. / Se chover amanhã, eu ficarei em casa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo de condicional usas para una verdad general?",["tipo 2", "tipo 3", "tipo 1", "tipo 0"],3,"Verdades generales → condicional tipo 0."],
+      ["mcq","¿Qué tipo de condicional usas para una posibilidad real futura?",["tipo 0", "tipo 1", "tipo 3", "tipo 2"],1,"Posibilidad real futura → condicional tipo 1."],
+      ["fill","Completa: “Se você aquece o gelo, ele ___.”",["derreteu", "derreterá", "derrete", "derretendo"],2,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["Se chover amanhã, eu ficarei em casa.", "Se choverá amanhã, eu ficarei em casa.", "Se chover amanhã, eu fico em casa.", "Se chover amanhã, eu ficaria em casa."],0,"Tipo 1: se + presente, futuro."],
+      ["arrange","Ordena: [evapora / ferve / quando / água / a]",["evapora água ferve a quando", "quando a água ferve evapora", "ferve a água evapora quando", "ferve evapora quando a água"],1,"“Quando” + presente + presente (verdad general)."],
+      ["writing","Escreva em português 30-40 palavras com dois exemplos: uma verdade geral (tipo 0) e uma possibilidade real futura (tipo 1).",[],["se", "quando", "futuro"]],
+    ]
+  },
+  {
+    id:"pt_b1_voz_passiva_basica", level:"B1", title:"A voz passiva básica e a passiva com “se”", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva y la pasiva con 'se' en portugués.",
+    study: {
+      vocab: [
+        ["ser + particípio (com agente)", "voz pasiva con agente"],
+        ["se + verbo na 3ª pessoa", "voz pasiva impersonal con 'se'"],
+        ["A carta foi enviada.", "The letter was sent."],
+        ["Aqui se fala inglês.", "English is spoken here."],
+        ["por + agente", "por + agente"],
+      ],
+      grammar: [
+        ["Pasiva con “ser” vs pasiva con “se”", "El portugués usa “ser + particípio” cuando se menciona el agente (“a carta foi enviada por João”), pero prefiere la pasiva con “se” cuando el agente no importa o es desconocido (“aqui se fala inglês”).", "A carta foi enviada por João. / Aqui se fala inglês."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué construcción se prefiere cuando no se menciona el agente?",["la pasiva con ‘se’", "estar + particípio", "ser + particípio", "o gerúndio"],0,"Sin agente conocido, se prefiere la pasiva con “se”."],
+      ["mcq","¿Cómo se dice “English is spoken here” en portugués (pasiva con 'se')?",["Aqui se falando inglês.", "Aqui é falado inglês.", "Aqui se fala inglês.", "Aqui inglês é falado."],2,"Pasiva con “se”: “se fala inglês”."],
+      ["fill","Completa: “A carta ___ por João ontem.”",["enviou", "foi enviada", "é enviada", "se enviou"],1,"Con agente mencionado → “ser + particípio”: “foi enviada”."],
+      ["translate","Traduce: “The letter was sent yesterday.” (con agente, tono formal)",["A carta se enviava ontem.", "A carta tem sido enviando ontem.", "A carta é enviada ontem.", "A carta foi enviada ontem."],3,"Con agente → “ser + particípio”: “foi enviada”."],
+      ["arrange","Ordena: [inglês / aqui / fala / se]",["aqui se fala inglês", "se aqui fala inglês", "se inglês fala aqui", "fala se inglês aqui"],0,"“Aqui” + “se” + verbo + objeto."],
+      ["writing","Escreva em português 30-40 palavras sobre algo que se faz no seu país ou trabalho, usando a passiva com ‘se’ e ‘ser + particípio’.",[],["se fala", "foi enviada", "se faz"]],
+    ]
+  },
+  {
+    id:"pt_b1_perguntas_confirmacao", level:"B1", title:"Perguntas de confirmação: não é?, né?, certo?", emoji:"❓", xp:58,
+    description:"Aprende a usar coletillas de confirmación en portugués.",
+    study: {
+      vocab: [
+        ["..., não é?", "..., right? / isn't it? (neutro)"],
+        ["..., né?", "..., isn't it? (muy informal, muy común)"],
+        ["..., certo?", "..., correct?"],
+        ["..., tá?", "..., okay? (pedir acuerdo)"],
+        ["confirmar uma informação", "confirmar información"],
+      ],
+      grammar: [
+        ["Coletillas invariables, “né?” es la más usada", "A diferencia del inglés, que usa question tags que cambian según el verbo, el portugués usa las mismas coletillas invariables (não é?, né?, certo?); “né?” es extremadamente común en el habla.", "Você é da Espanha, não é? / Você não gosta de café, né?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla es extremadamente común e informal en portugués hablado?",["certo?", "né?", "tá?", "não é?"],1,"“Né?” es la coletilla más común e informal."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en portugués cambian según el verbo", "en portugués solo se usan en el pasado", "en portugués son invariables", "en portugués solo se usan en negativo"],2,"En portugués las coletillas no cambian según el verbo."],
+      ["fill","Completa: “Você não gosta de café, ___?”",["né", "certo", "tá", "sim"],0,"“Né?” es la coletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Você foi à festa, foi você?", "Você foi à festa, não é você?", "Você foi à festa, não foi?", "Você foi à festa, não é foi?"],2,"“Não foi?” repite el verbo en pasado."],
+      ["arrange","Ordena: [Espanha / é / não / você / da / é]",["você é da Espanha não é", "Espanha da é não você é", "Espanha não é é você da", "é não você é da Espanha"],0,"Afirmación + coletilla de confirmación."],
+      ["writing","Escreva em português 30-40 palavras com três frases usando perguntas de confirmação (não é?, né?, certo?) para confirmar informações com um amigo.",[],["não é?", "né?", "certo?"]],
+    ]
+  },
+  {
+    id:"pt_b1_perguntas_indiretas", level:"B1", title:"As perguntas indiretas e corteses", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en portugués.",
+    study: {
+      vocab: [
+        ["Você poderia me dizer onde...?", "Could you tell me where...?"],
+        ["Você sabe se...?", "Do you know if...?"],
+        ["Eu me pergunto o que...", "I wonder what..."],
+        ["sem inversão, com 'se' para sim/não", "sin inversión, con 'se' para sí/no"],
+        ["pedido cortês", "petición cortés"],
+      ],
+      grammar: [
+        ["“Se” para preguntas de sí/no en estilo indirecto", "Las preguntas indirectas en portugués mantienen el orden normal sujeto+verbo (sin inversión como en una pregunta directa), y usan “se” para preguntas de sí/no.", "Onde é a estação? → Você poderia me dizer onde é a estação? / Ela vem? → Você sabe se ela vem?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["se", "o que", "que", "como"],0,"“Se” introduce preguntas de sí/no en estilo indirecto."],
+      ["mcq","¿Qué frase cortés puedes usar para pedir información?",["O que é isto?", "Me diz.", "Você poderia me dizer...?", "Não é?"],2,"“Você poderia me dizer...?” es una fórmula cortés."],
+      ["fill","Completa: “Você poderia me dizer onde ___ a estação?”",["seja", "era", "é", "ser"],2,"“Onde é a estação” se mantiene en la pregunta indirecta."],
+      ["translate","Traduce: “Do you know if she's coming?”",["Você sabe ela se vem?", "Você sabe se vem ela?", "Você sabe que ela vem?", "Você sabe se ela vem?"],3,"“If” se traduce como “se”."],
+      ["arrange","Ordena: [dizer / poderia / estação / onde / é / me / você / a]",["você onde a é estação me dizer poderia", "você poderia me dizer onde é a estação", "estação a você onde é poderia me dizer", "a poderia é onde estação me você dizer"],1,"Frase cortés + pregunta incrustada."],
+      ["speaking","Fale em português por 30-40 palavras fazendo três perguntas indiretas e corteses para um desconhecido na rua.",[],["Você poderia me dizer", "Você sabe se", "Eu me pergunto"]],
+    ]
+  },
+  {
+    id:"pt_b1_preterito_perfeito_vs_ha", level:"B1", title:"O pretérito perfeito vs. o presente + há", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el pretérito perfeito y el presente + há en portugués.",
+    study: {
+      vocab: [
+        ["tenho/tem + particípio (uso raro)", "forma compuesta – uso limitado en Brasil"],
+        ["presente + há", "duración de una acción que sigue en curso"],
+        ["Há quanto tempo...?", "How long have you been...?"],
+        ["há / já", "for/since (con tiempo) / already"],
+        ["Eu espero há uma hora.", "I've been waiting for an hour."],
+      ],
+      grammar: [
+        ["Sin “present perfect continuous”: presente + há", "El portugués de Brasil casi no usa una forma compuesta equivalente al present perfect continuous inglés; para la duración de una acción que sigue en curso, se usa el PRESENTE + “há”.", "Eu li três livros este mês. (resultado) / Eu espero há uma hora. (duración, en presente)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa para la duración de una acción que sigue en curso?",["o pretérito perfeito simples", "o subjuntivo", "o futuro", "presente + há"],3,"“Presente + há” expresa duración en curso."],
+      ["mcq","¿Qué tiempo destaca el resultado o la cantidad de algo ya hecho?",["o imperfeito", "presente + há", "o futuro do pretérito", "o pretérito perfeito simples"],3,"El pretérito perfeito simples destaca el resultado o la cantidad."],
+      ["fill","Completa: “Eu ___ há uma hora.”",["espero", "esperarei", "esperava", "esperei"],0,"Duración en curso → presente: “espero”."],
+      ["translate","Traduce: “I've read three books this month.” (cantidad)",["Eu li três livros este mês.", "Eu leio três livros há este mês.", "Eu leio há três livros este mês.", "Eu tenho lido três livros este mês."],0,"Cantidad/resultado → pretérito perfeito simples: “li”."],
+      ["arrange","Ordena: [hora / há / espero / uma / eu]",["há hora uma eu espero", "eu espero há uma hora", "espero eu hora há uma", "uma há hora espero eu"],1,"Sujeto + presente + “há” + duración."],
+      ["writing","Escreva em português 30-40 palavras sobre algo que você faz há um tempo (com ‘há’) e algo que você já fez (com o pretérito perfeito).",[],["há", "já", "eu fiz"]],
+    ]
+  },
 ];

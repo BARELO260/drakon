@@ -4817,4 +4817,364 @@ window.LESSON_BANKS.FR = [
       ["writing","Écris en français 40-50 mots en comparant deux options en utilisant “le premier”, “le second” et “cela étant dit”.",[],["le premier", "le second", "cela étant dit"]],
     ]
   },
+  {
+    id:"fr_a1_imperatives", level:"A1", title:"L'impératif : donner des instructions et des conseils", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en francés con el imperativo.",
+    study: {
+      vocab: [
+        ["Ouvre la porte.", "Open the door."],
+        ["Ferme la fenêtre.", "Close the window."],
+        ["Tourne à gauche / à droite.", "Turn left / right."],
+        ["Ne touche pas à ça.", "Don't touch that."],
+        ["Assieds-toi, s'il te plaît.", "Please, sit down."],
+      ],
+      grammar: [
+        ["El imperativo tú sin pronombre", "El imperativo francés (forma tú) omite el sujeto y, en verbos -er, quita la -s final; la forma negativa rodea el verbo con “ne...pas”.", "Ouvre la porte. / Ne touche pas à ça. / Attends ici, s'il te plaît."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en francés (imperativo tú)?",["Ouvres la porte.", "Tu ouvres la porte.", "Ouvrir la porte.", "Ouvre la porte."],3,"El imperativo de “ouvrir” es “ouvre”."],
+      ["mcq","¿Cómo se forma el imperativo negativo en francés?",["ne + verbo + pas", "pas + verbo", "jamais + verbo", "non + verbo"],0,"El negativo se forma con “ne...pas” alrededor del verbo."],
+      ["fill","Completa: “Ne ___ pas à ça; c'est chaud.”",["touche", "toucher", "touchant", "touches"],0,"Imperativo de “toucher” (verbo -er) sin -s: “touche”."],
+      ["translate","Traduce: “Please, sit down.”",["Tu t'assieds, s'il te plaît.", "Assieds-toi, s'il te plaît.", "S'asseoir, s'il te plaît.", "Asseoir-toi, s'il te plaît."],1,"Imperativo de “s'asseoir”: “assieds-toi”."],
+      ["arrange","Ordena: [porte / ouvre / la]",["porte ouvre la", "ouvre la porte", "ouvre porte la", "la porte ouvre"],1,"Imperativo + artículo + sustantivo."],
+      ["writing","Écris en français 20-30 mots avec trois instructions en utilisant l'impératif (affirmatif et négatif).",[],["ouvre", "ne touche pas", "s'il te plaît"]],
+    ]
+  },
+  {
+    id:"fr_a1_demonstratives", level:"A1", title:"Les démonstratifs : ce, cette, ces", emoji:"👆", xp:34,
+    description:"Aprende a usar ce, cette y ces en francés, y cómo precisar la distancia con -ci/-là.",
+    study: {
+      vocab: [
+        ["ce/cet", "this (masculino singular)"],
+        ["cette", "this (femenino singular)"],
+        ["ces", "these/those (plural)"],
+        ["-ci / -là", "-ci (cerca) / -là (lejos), sufijo para precisar"],
+        ["Qu'est-ce que c'est ?", "What is this?"],
+      ],
+      grammar: [
+        ["“-ci” y “-là” precisan la distancia", "Los adjetivos demostrativos franceses (ce/cette/ces) no distinguen “this” de “that” por sí solos; para precisar la cercanía se añade “-ci” (cerca) o “-là” (lejos) después del sustantivo.", "Ce livre-ci est à moi. / Ces chaussures-là sont trop chères."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué adjetivo demostrativo usas con un sustantivo femenino singular?",["ce", "ces", "cette", "cet"],2,"“Cette” se usa con sustantivos femeninos singulares."],
+      ["mcq","¿Qué sufijo precisa que un objeto está cerca?",["ce", "-là", "-ci", "cette"],2,"“-ci” indica cercanía."],
+      ["fill","Completa: “___ livre-ci est à moi.”",["Cet", "Ce", "Cette", "Ces"],1,"“Livre” es masculino singular → “ce”."],
+      ["translate","Traduce: “These are my books.”",["Ce livres sont à moi.", "Cet livres sont à moi.", "Ces livres sont à moi.", "Cette livres sont à moi."],2,"Plural → “ces”."],
+      ["arrange","Ordena: [chères / trop / chaussures-là / sont / ces]",["trop sont ces chères chaussures-là", "trop sont chaussures-là ces chères", "ces chaussures-là sont trop chères", "chères trop chaussures-là sont ces"],2,"Demostrativo + sustantivo-là + verbo + adjetivo."],
+      ["writing","Écris en français 20-30 mots décrivant des objets proches et loin de toi en utilisant ce, cette, ces et -ci/-là.",[],["ce", "cette", "ces"]],
+    ]
+  },
+  {
+    id:"fr_a1_prepositions_time", level:"A1", title:"Les prépositions de temps : à, en, le", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo à, en y le en francés.",
+    study: {
+      vocab: [
+        ["à + heure", "at + hora (à 9 heures)"],
+        ["en + mois/année/saison", "in + mes/año/estación"],
+        ["le + jour de la semaine (habitude)", "on + día (hábito repetido)"],
+        ["le soir", "por la noche"],
+        ["le matin / l'après-midi", "por la mañana / por la tarde"],
+      ],
+      grammar: [
+        ["À, en y “le” + día para hábitos", "“À” se usa con horas exactas, “en” con periodos más largos (meses, años), y el artículo “le” delante de un día de la semana expresa un hábito repetido.", "Le cours commence à 9 heures. / Je suis né en juillet. / Le lundi, je vais à la piscine."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["en", "à", "le", "dans"],1,"“À” se usa con horas exactas."],
+      ["mcq","¿Qué artículo usas delante de un día de la semana para expresar un hábito?",["à", "le", "dans", "en"],1,"“Le” + día expresa un hábito repetido."],
+      ["fill","Completa: “Je suis né ___ juillet.”",["en", "le", "à", "dans"],0,"“En” se usa con meses."],
+      ["translate","Traduce: “On Mondays, I go to the pool.” (hábito)",["Le lundi, je vais à la piscine.", "Lundi, je vais à la piscine chaque.", "En lundi, je vais à la piscine.", "À lundi, je vais à la piscine."],0,"Hábito repetido → “le lundi”."],
+      ["arrange","Ordena: [heures / commence / cours / le / 9 / à]",["le cours commence à 9 heures", "cours à heures 9 le commence", "cours le heures 9 à commence", "le 9 à cours commence heures"],0,"Sujeto + verbo + “à” + hora."],
+      ["writing","Écris en français 20-30 mots sur ton emploi du temps hebdomadaire en utilisant à, en et le + jour.",[],["à", "en", "le"]],
+    ]
+  },
+  {
+    id:"fr_a1_frequency_adverbs", level:"A1", title:"Les adverbes de fréquence : toujours, souvent, parfois, jamais", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en francés.",
+    study: {
+      vocab: [
+        ["toujours", "always"],
+        ["souvent", "usually/often"],
+        ["parfois", "sometimes"],
+        ["rarement", "rarely"],
+        ["ne...jamais", "never"],
+      ],
+      grammar: [
+        ["El adverbio va justo después del verbo conjugado", "En francés, adverbios como “toujours” y “souvent” van justo después del verbo conjugado; “ne...jamais” rodea el verbo como otras negaciones.", "Je bois toujours du café le matin. / Elle n'est jamais en retard."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde va “toujours” respecto al verbo conjugado?",["al final de la frase", "al principio de la frase", "justo antes", "justo después"],3,"“Toujours” va justo después del verbo conjugado."],
+      ["mcq","¿Cómo se dice “a veces” en francés?",["jamais", "souvent", "parfois", "toujours"],2,"“A veces” es “parfois”."],
+      ["fill","Completa: “Elle n'est ___ en retard.”",["jamais", "toujours", "parfois", "souvent"],0,"“Ne...jamais” rodea el verbo: “n'est jamais”."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Toujours je bois du café le matin.", "Je bois toujours du café le matin.", "Je toujours bois du café le matin.", "Je bois du café toujours le matin."],1,"El adverbio va justo después del verbo: “bois toujours”."],
+      ["arrange","Ordena: [travail / vais / souvent / au / je / à / vélo]",["je vais souvent au travail à vélo", "à vélo travail je vais au souvent", "vais travail au je souvent vélo à", "à vais je travail au vélo souvent"],0,"Sujeto + verbo + adverbio + complemento."],
+      ["writing","Écris en français 20-30 mots sur ta routine en utilisant au moins trois adverbes de fréquence.",[],["toujours", "souvent", "parfois"]],
+    ]
+  },
+  {
+    id:"fr_a1_de_possession", level:"A1", title:"La préposition « de » pour exprimer la possession", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en francés con la preposición « de ».",
+    study: {
+      vocab: [
+        ["le livre de Anna", "Anna's book"],
+        ["les jouets des enfants", "the children's toys"],
+        ["À qui est-ce ?", "Whose is this?"],
+        ["C'est à Anna.", "It's Anna's."],
+        ["la maison de mes parents", "my parents' house"],
+      ],
+      grammar: [
+        ["“De + poseedor”, y “de + les” = “des”", "A diferencia del inglés (Anna's book), el francés siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + les” se contrae en “des”.", "Voici le livre de Anna. / La maison de mes parents est grande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Anna's book” en francés?",["Anna de livre", "le livre de Anna", "de Anna le livre", "le Anna's livre"],1,"“Anna's book” es “le livre de Anna”."],
+      ["mcq","¿En qué se contrae “de + les” en francés?",["du", "des", "de les", "de le"],1,"“De + les” se contrae en “des”."],
+      ["fill","Completa: “Voici les jouets ___ enfants.”",["de le", "du", "des", "de les"],2,"“De + les” se contrae en “des”."],
+      ["translate","Traduce: “Whose book is this? It's Anna's.”",["À qui est ce livre ? C'est Anna's.", "Qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est de Anna."],2,"“À qui?” + “c'est à Anna”."],
+      ["arrange","Ordena: [Anna / livre / le / de / voici]",["Anna le voici de livre", "Anna de livre voici le", "Anna le livre de voici", "voici le livre de Anna"],3,"“Voici” + artículo + sustantivo + “de” + poseedor."],
+      ["writing","Écris en français 20-30 mots décrivant des objets qui appartiennent à différentes personnes en utilisant « de » pour exprimer la possession.",[],["de", "à qui", "c'est à"]],
+    ]
+  },
+  {
+    id:"fr_a2_verbes_pronominaux", level:"A2", title:"Les verbes pronominaux et les pronoms réfléchis", emoji:"🪞", xp:46,
+    description:"Aprende a usar los verbos y pronombres reflexivos en francés.",
+    study: {
+      vocab: [
+        ["me, te, se, nous, vous, se", "pronombres reflexivos"],
+        ["se lever", "to get (oneself) up"],
+        ["se doucher", "to shower (oneself)"],
+        ["Je me suis coupé en cuisinant.", "I cut myself while cooking."],
+        ["tout(e) seul(e)", "by myself"],
+      ],
+      grammar: [
+        ["Verbos pronominales por naturaleza", "Muchos verbos franceses son pronominales por naturaleza (se lever, se doucher) y exigen un pronombre reflexivo que concuerda con el sujeto; en el passé composé usan “être” y a menudo concuerdan con el sujeto.", "Je me lève à sept heures. / Elle se douche le matin."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “je”?",["me", "nous", "te", "se"],0,"“Je” usa el pronombre “me”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “elle”?",["me", "nous", "se", "te"],2,"“Elle” usa el pronombre “se”."],
+      ["fill","Completa: “Je ___ suis coupé en cuisinant.”",["se", "me", "te", "nous"],1,"“Je” usa el pronombre reflexivo “me”."],
+      ["translate","Traduce: “She lives by herself.”",["Elle vit par elle-même.", "Elle se vit seule.", "Elle vit toute seule.", "Elle vit elle-même."],2,"“Vivre” no es pronominal aquí; “toute seule” expresa “by herself”."],
+      ["arrange","Ordena: [sept / lève / heures / me / je / à]",["je me heures à sept lève", "sept lève heures à je me", "lève je à me sept heures", "je me lève à sept heures"],3,"Sujeto + pronombre reflexivo + verbo + hora."],
+      ["speaking","Parle en français pendant 25-35 mots de ta routine quotidienne en utilisant au moins trois verbes pronominaux (se lever, se doucher, s'habiller...).",[],["je me lève", "je me douche", "je m'habille"]],
+    ]
+  },
+  {
+    id:"fr_a2_pronoms_cod", level:"A2", title:"Les pronoms compléments d'objet direct : le, la, les", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto directo en francés.",
+    study: {
+      vocab: [
+        ["le/la", "him/her/it (COD)"],
+        ["les", "them (COD)"],
+        ["me, te, nous, vous", "me, you, us, you all"],
+        ["Peux-tu m'aider ?", "Can you help me?"],
+        ["Je l'ai vu hier.", "I saw him/it yesterday."],
+      ],
+      grammar: [
+        ["El pronombre COD va antes del verbo conjugado", "Los pronombres de objeto directo (le, la, les) concuerdan en género y número con el sustantivo que reemplazan, y en francés van ANTES del verbo conjugado (a diferencia del inglés).", "J'ai vu ma sœur hier. → Je l'ai vue hier. / Ils ont acheté la voiture. → Ils l'ont achetée."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reemplaza a “ma sœur” (femenino singular)?",["la", "l'", "le", "les"],0,"“Ma sœur” se reemplaza por “la”."],
+      ["mcq","¿Qué pronombre reemplaza a “mes parents” (plural)?",["les", "le", "l'", "la"],0,"“Mes parents” se reemplaza por “les”."],
+      ["fill","Completa: “J'ai vu ma sœur hier. Je ___ ai vue au parc.”",["les", "la", "l'", "le"],2,"Antes de vocal, “la” se elide en “l'”."],
+      ["translate","Traduce: “Can you help us, please?”",["Peux-tu les aider, s'il te plaît ?", "Peux-tu nous aider, s'il te plaît ?", "Peux-tu nous aides, s'il te plaît ?", "Peux-tu aider nous, s'il te plaît ?"],1,"El pronombre COD va antes del infinitivo: “nous aider”."],
+      ["arrange","Ordena: [hier / vu / j'ai / l']",["hier je vu l'ai", "vu je l'ai hier", "je l'ai vu hier", "hier vu l'ai je"],2,"Sujeto + pronombre COD + verbo + adverbio."],
+      ["writing","Écris en français 25-35 mots sur des personnes ou des objets que tu as vus récemment, en utilisant des pronoms compléments d'objet direct (le, la, les).",[],["le", "la", "les"]],
+    ]
+  },
+  {
+    id:"fr_a2_present_horaires_fixes", level:"A2", title:"Le présent pour les horaires fixes (transports, programmes)", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente para horarios fijos en francés.",
+    study: {
+      vocab: [
+        ["Le train part à 15h.", "The train leaves at 3pm. (horario fijo)"],
+        ["Le film commence à 20h.", "The movie starts at 8pm."],
+        ["un horaire/programme fixe", "a fixed schedule/timetable"],
+        ["Le magasin ferme à 18h.", "The store closes at 6pm."],
+        ["Quelle heure part le bus ?", "What time does the bus leave?"],
+      ],
+      grammar: [
+        ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados, igual que en español o inglés.", "Le train part à 15h. / Le film commence à 20h."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal se usa para horarios fijos (trenes, cines)?",["el imparfait", "el futur simple", "el presente", "el futur proche"],2,"Los horarios fijos usan el presente."],
+      ["mcq","¿Cómo se dice “The store closes at 6pm” en francés?",["Le magasin fermait à 18h.", "Le magasin fermera à 18h.", "Le magasin ferme à 18h.", "Le magasin va fermer à 18h."],2,"Horario fijo → presente: “ferme”."],
+      ["fill","Completa: “Le train ___ à 15h.”",["part", "va partir", "partait", "partira"],0,"Horario fijo → presente: “part”."],
+      ["translate","Traduce: “The movie starts at 8pm.”",["Le film commence à 20h.", "Le film commencera à 20h.", "Le film va commencer à 20h.", "Le film commençait à 20h."],0,"Horario fijo → presente: “commence”."],
+      ["arrange","Ordena: [15h / part / à / le / train]",["à train part 15h le", "le 15h à part train", "le train part à 15h", "train 15h part à le"],2,"Sujeto + verbo + “à” + hora."],
+      ["writing","Écris en français 25-35 mots sur les horaires de transports ou de programmes que tu connais, en utilisant le présent.",[],["part à", "commence à", "ferme à"]],
+    ]
+  },
+  {
+    id:"fr_a2_suggestions", level:"A2", title:"Faire des suggestions : si on..., pourquoi ne pas..., ça te dit de...", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en francés.",
+    study: {
+      vocab: [
+        ["Si on + imparfait (suggestion)", "What if we... (sugerencia con imperfecto)"],
+        ["Pourquoi ne pas + infinitif ?", "Why don't we...?"],
+        ["Ça te dit de + infinitif ?", "How about...?"],
+        ["On pourrait + infinitif.", "We could..."],
+        ["Bonne idée !", "That sounds good."],
+      ],
+      grammar: [
+        ["“Si on” + imperfecto para sugerir", "“Si on” + imperfecto es una forma muy idiomática en francés para hacer una sugerencia; “pourquoi ne pas” y “ça te dit de” van seguidos de infinitivo.", "Si on allait à la plage ? / Pourquoi ne pas commander une pizza ? / Ça te dit de regarder un film ?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal sigue a “si on” en una sugerencia?",["el presente", "el imperfecto", "el futuro", "el infinitivo"],1,"“Si on” + imperfecto expresa una sugerencia."],
+      ["mcq","¿Qué forma sigue a “ça te dit de”?",["infinitivo", "gerundio", "subjuntivo", "imperfecto"],0,"Tras “ça te dit de” va el infinitivo."],
+      ["fill","Completa: “Si on ___ à la plage ?”",["irait", "aller", "va", "allait"],3,"“Si on” + imperfecto: “allait”."],
+      ["translate","Traduce: “¿Por qué no pedimos pizza?”",["Pourquoi ne pas commande une pizza ?", "Pourquoi ne pas commandons une pizza ?", "Pourquoi pas commander une pizza ?", "Pourquoi ne pas commander une pizza ?"],3,"“Pourquoi ne pas” + infinitivo: “commander”."],
+      ["arrange","Ordena: [plage / on / allait / si / la / à]",["plage si on allait la à", "si plage allait à la on", "la plage à allait si on", "si on allait à la plage"],3,"“Si on” + imperfecto + complemento."],
+      ["speaking","Parle en français pendant 25-35 mots en faisant trois suggestions pour un plan entre amis, en utilisant si on, pourquoi ne pas et ça te dit de.",[],["si on", "pourquoi ne pas", "ça te dit de"]],
+    ]
+  },
+  {
+    id:"fr_a2_verbes_prepositions", level:"A2", title:"Verbes avec préposition fixe : arrêter de, se rendre compte de, compter sur", emoji:"🔌", xp:47,
+    description:"Aprende verbos franceses con preposición fija.",
+    study: {
+      vocab: [
+        ["arrêter de + infinitif", "to stop doing"],
+        ["garder", "to keep"],
+        ["remarquer", "to notice"],
+        ["compter sur", "to count on"],
+        ["se rendre compte de", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos franceses van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "J'ai arrêté de fumer l'année dernière. / J'ai remarqué sa nouvelle veste. / Tu peux compter sur moi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to count on” en francés?",["se rendre compte de", "compter sur", "arrêter de", "garder"],1,"“To count on” es “compter sur”."],
+      ["mcq","¿Cómo se dice “to realize” en francés?",["garder", "remarquer", "compter sur", "se rendre compte de"],3,"“To realize” es “se rendre compte de”."],
+      ["fill","Completa: “J'ai ___ fumer l'année dernière.”",["remarqué", "compté sur", "arrêté de", "gardé"],2,"“Arrêter de + infinitif” = dejar de hacer algo."],
+      ["translate","Traduce: “I noticed her new jacket.”",["J'ai compté sur sa nouvelle veste.", "J'ai gardé sa nouvelle veste.", "J'ai remarqué sa nouvelle veste.", "Je me suis rendu compte sa nouvelle veste."],2,"“Noticed” es “remarqué”."],
+      ["arrange","Ordena: [moi / peux / compter / tu / sur]",["sur peux tu moi compter", "tu peux compter sur moi", "peux tu sur compter moi", "tu peux moi compter sur"],1,"Sujeto + “compter sur” + objeto."],
+      ["writing","Écris en français 25-35 mots sur tes habitudes en utilisant au moins trois verbes avec préposition fixe (arrêter de, remarquer, compter sur...).",[],["j'ai arrêté de", "j'ai remarqué", "je compte sur"]],
+    ]
+  },
+  {
+    id:"fr_b1_conditionnel_zero_premier", level:"B1", title:"Les phrases conditionnelles réelles (type 0 et type 1)", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre las condicionales tipo 0 y tipo 1 en francés.",
+    study: {
+      vocab: [
+        ["Si + présent, présent (type 0)", "zero conditional – verdades generales"],
+        ["Si + présent, futur (type 1)", "first conditional – posibilidad real"],
+        ["Quand l'eau bout, elle s'évapore.", "ejemplo de condicional tipo 0"],
+        ["S'il pleut, je resterai à la maison.", "ejemplo de condicional tipo 1"],
+        ["possibilité réelle", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (si + presente, presente) expresa verdades generales; el tipo 1 (si + presente, futuro) expresa una posibilidad real en el futuro. Como en inglés, nunca se usa el futuro justo después de “si”.", "Si tu chauffes la glace, elle fond. / S'il pleut demain, je resterai à la maison."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo de condicional usas para una verdad general?",["type 2", "type 1", "type 3", "type 0"],3,"Verdades generales → condicional tipo 0."],
+      ["mcq","¿Qué tipo de condicional usas para una posibilidad real futura?",["type 0", "type 2", "type 3", "type 1"],3,"Posibilidad real futura → condicional tipo 1."],
+      ["fill","Completa: “Si tu chauffes la glace, elle ___.”",["fond", "fondait", "fondra", "a fondu"],0,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["S'il pleut demain, je resterai à la maison.", "S'il pleut demain, je reste à la maison.", "S'il pleut demain, je resterais à la maison.", "S'il pleuvra demain, je resterai à la maison."],0,"Tipo 1: si + presente, futuro."],
+      ["arrange","Ordena: [évapore / bout / quand / l'eau / elle / s']",["elle bout l'eau quand s'évapore", "elle quand l'eau s'évapore bout", "quand l'eau bout elle s'évapore", "bout elle quand l'eau s'évapore"],2,"“Quand” + presente + presente (verdad general)."],
+      ["writing","Écris en français 30-40 mots avec deux exemples : une vérité générale (type 0) et une possibilité réelle future (type 1).",[],["si", "quand", "futur"]],
+    ]
+  },
+  {
+    id:"fr_b1_passif_basique", level:"B1", title:"La voix passive de base : présent et passé composé", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva en presente y pasado compuesto en francés.",
+    study: {
+      vocab: [
+        ["être + participe passé (passif)", "voz pasiva con ‘être’"],
+        ["par + agent (facultatif)", "por + agente (opcional)"],
+        ["La lettre a été envoyée.", "The letter was sent."],
+        ["Le français est parlé ici.", "French is spoken here."],
+        ["l'accord du participe passé", "concordancia del participio pasado"],
+      ],
+      grammar: [
+        ["Être + participio, concordando con el sujeto", "La voz pasiva se forma con “être” (en el tiempo correspondiente) + participio pasado; el participio concuerda en género y número con el sujeto.", "Le français est parlé ici. / La lettre a été envoyée hier."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se forma la voz pasiva en francés?",["être + gerundio", "avoir + participio pasado", "être + participio pasado", "aller + infinitivo"],2,"La pasiva se forma con “être + participio”."],
+      ["mcq","¿Con qué concuerda el participio pasado en la voz pasiva?",["nunca concuerda", "con el objeto directo", "con el agente", "con el sujeto"],3,"El participio concuerda con el sujeto."],
+      ["fill","Completa: “La lettre ___ hier.”",["a envoyé", "est envoyée", "envoyait", "a été envoyée"],3,"Pasiva en pasado compuesto: “a été envoyée”."],
+      ["translate","Traduce: “French is spoken here.”",["Le français parle ici.", "Le français est parlé ici.", "Le français a été parlé ici.", "Le français est parlant ici."],1,"Pasiva presente: “est parlé”."],
+      ["arrange","Ordena: [ici / français / est / le / parlé]",["le français est parlé ici", "est le français ici parlé", "est français le parlé ici", "ici parlé français est le"],0,"Sujeto + “être” + participio + adverbio."],
+      ["writing","Écris en français 30-40 mots sur quelque chose qui se fait ou qui s'est fait (par exemple dans ton travail ou ton pays), en utilisant la voix passive au présent et au passé composé.",[],["est parlé", "a été envoyée", "est fait"]],
+    ]
+  },
+  {
+    id:"fr_b1_petits_mots_confirmation", level:"B1", title:"Les petits mots de confirmation : n'est-ce pas ?, non ?, hein ?", emoji:"❓", xp:58,
+    description:"Aprende a usar coletillas de confirmación en francés.",
+    study: {
+      vocab: [
+        ["..., n'est-ce pas ?", "..., isn't it? (formal/neutro)"],
+        ["..., non ?", "..., isn't it? (informal)"],
+        ["..., hein ?", "..., right? (muy informal)"],
+        ["..., d'accord ?", "..., okay? (pedir acuerdo)"],
+        ["confirmer une information", "confirmar información"],
+      ],
+      grammar: [
+        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el francés usa las mismas coletillas invariables (n'est-ce pas, non, hein) para casi cualquier oración.", "Tu es espagnol, n'est-ce pas ? / Tu n'aimes pas le café, non ?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla es la más neutra/formal para confirmar información?",["d'accord ?", "hein ?", "n'est-ce pas ?", "non ?"],2,"“N'est-ce pas ?” es la más neutra/formal."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en francés son invariables", "en francés solo se usan en el pasado", "en francés cambian según el verbo", "en francés solo se usan en negativo"],0,"En francés las coletillas no cambian según el verbo."],
+      ["fill","Completa: “Tu n'aimes pas le café, ___?”",["d'accord", "non", "oui", "hein"],1,"“Non?” es la coletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Tu es allé à la fête, es-tu allé ?", "Tu es allé à la fête, n'est-ce pas ?", "Tu es allé à la fête, non tu es allé ?", "Tu es allé à la fête, n'as-tu pas ?"],1,"“N'est-ce pas ?” es invariable, no repite el verbo."],
+      ["arrange","Ordena: [espagnol / es / n'est-ce / tu / pas]",["espagnol pas n'est-ce es tu", "n'est-ce espagnol tu es pas", "tu es espagnol n'est-ce pas", "n'est-ce tu pas es espagnol"],2,"Afirmación + coletilla de confirmación."],
+      ["writing","Écris en français 30-40 mots avec trois phrases utilisant des petits mots de confirmation (n'est-ce pas, non, hein) pour confirmer une information avec un ami.",[],["n'est-ce pas", "non", "hein"]],
+    ]
+  },
+  {
+    id:"fr_b1_questions_indirectes", level:"B1", title:"Les questions indirectes et polies", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en francés.",
+    study: {
+      vocab: [
+        ["Pourriez-vous me dire où...?", "Could you tell me where...?"],
+        ["Savez-vous si...?", "Do you know if...?"],
+        ["Je me demande ce que...", "I wonder what..."],
+        ["pas d'inversion, avec 'si' pour oui/non", "sin inversión, con 'si' para sí/no"],
+        ["demande polie", "petición cortés"],
+      ],
+      grammar: [
+        ["“Si” para preguntas de sí/no en estilo indirecto", "Las preguntas indirectas en francés usan “si” para preguntas de sí/no, y frases corteses como “pourriez-vous me dire...?” para pedir información con más educación.", "Où est la gare ? → Pourriez-vous me dire où est la gare ? / Vient-elle ? → Savez-vous si elle vient ?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["que", "si", "quoi", "comment"],1,"“Si” introduce preguntas de sí/no en estilo indirecto."],
+      ["mcq","¿Qué frase cortés puedes usar para pedir información?",["Pourriez-vous me dire...?", "N'est-ce pas?", "Qu'est-ce que c'est?", "Dis-moi."],0,"“Pourriez-vous me dire...?” es una fórmula cortés."],
+      ["fill","Completa: “Pourriez-vous me dire où ___ la gare ?”",["elle est", "est", "est-elle", "être"],1,"“Où est la gare” se mantiene en la pregunta indirecta."],
+      ["translate","Traduce: “Do you know if she's coming?”",["Savez-vous qu'elle vient ?", "Savez-vous elle si vient ?", "Savez-vous si vient-elle ?", "Savez-vous si elle vient ?"],3,"“If” se traduce como “si”."],
+      ["arrange","Ordena: [dire / pourriez / gare / où / est / vous / me / la]",["pourriez vous me dire où est la gare", "gare la dire est pourriez me où vous", "la gare où pourriez vous me est dire", "vous gare est la dire où pourriez me"],0,"Frase cortés + pregunta incrustada."],
+      ["speaking","Parle en français pendant 30-40 mots en posant trois questions indirectes et polies à un inconnu dans la rue.",[],["Pourriez-vous me dire", "Savez-vous si", "Je me demande"]],
+    ]
+  },
+  {
+    id:"fr_b1_venir_de_depuis", level:"B1", title:"Le passé composé vs. « venir de » + infinitif et « depuis »", emoji:"⏳", xp:59,
+    description:"Aprende a expresar acciones recientes y duración en francés con venir de y depuis.",
+    study: {
+      vocab: [
+        ["j'ai fait / je suis allé", "acción pasada completada"],
+        ["venir de + infinitif", "to have just done"],
+        ["Depuis combien de temps...?", "How long have you been...?"],
+        ["depuis / pendant", "since / for"],
+        ["Je viens de finir.", "I've just finished."],
+      ],
+      grammar: [
+        ["Sin “present perfect continuous”: presente + depuis", "El francés no tiene un tiempo equivalente al present perfect continuous inglés; para decir que algo acaba de pasar se usa “venir de + infinitivo” (presente), y para la duración de una acción que empezó en el pasado y continúa, se usa el PRESENTE + “depuis”.", "Je viens de finir mon travail. / J'attends depuis une heure."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura significa “acabar de hacer algo”?",["le futur proche", "venir de + infinitif", "l'imparfait", "le passé composé"],1,"“Venir de + infinitivo” significa “acabar de hacer algo”."],
+      ["mcq","¿Qué tiempo se usa con “depuis” para una acción que empezó en el pasado y sigue en el presente?",["el presente", "el futuro", "el condicional", "el passé composé"],0,"Con “depuis” para acciones que continúan, se usa el presente."],
+      ["fill","Completa: “J'attends ___ une heure.”",["pour", "depuis", "il y a", "pendant"],1,"Acción que continúa → “depuis” + presente."],
+      ["translate","Traduce: “I've just finished.”",["J'ai juste fini.", "Je viens finir.", "Je viens de finir.", "Je viens de finissant."],2,"“Acabar de hacer” es “venir de + infinitivo”."],
+      ["arrange","Ordena: [finir / viens / je / de]",["je viens de finir", "je de viens finir", "je viens finir de", "viens je de finir"],0,"“Venir de” + infinitivo."],
+      ["writing","Écris en français 30-40 mots sur quelque chose que tu fais depuis un moment (avec « depuis ») et quelque chose que tu viens de faire (avec « venir de »).",[],["je viens de", "depuis", "j'ai fait"]],
+    ]
+  },
 ];

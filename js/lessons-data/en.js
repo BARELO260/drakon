@@ -4942,4 +4942,364 @@ window.LESSON_BANKS.EN = [
       ["writing","Escribe en inglés 40-50 palabras comparando dos opciones usando “the former”, “the latter” y “that being said”.",[],["the former", "the latter", "that being said"]],
     ]
   },
+  {
+    id:"a1_imperatives", level:"A1", title:"El imperativo: instrucciones y consejos directos", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en inglés con el imperativo.",
+    study: {
+      vocab: [
+        ["Open the door.", "Abre la puerta."],
+        ["Close the window.", "Cierra la ventana."],
+        ["Turn left / right.", "Gira a la izquierda / derecha."],
+        ["Don't touch that.", "No toques eso."],
+        ["Please, sit down.", "Por favor, siéntate."],
+      ],
+      grammar: [
+        ["El imperativo: verbo base sin sujeto", "El imperativo usa el verbo base sin sujeto ni “to”; la forma negativa añade “don't” antes del verbo.", "Open the door. / Don't touch that. / Please, wait here."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Gira a la izquierda” en inglés?",["Turns left.", "Turn left.", "Turning left.", "To turn left."],1,"El imperativo usa el verbo base: “Turn left”."],
+      ["mcq","¿Cómo formas el imperativo negativo?",["Don't + verbo base", "Never + verbo -ing", "No + verbo base", "Not + verbo base"],0,"El imperativo negativo es “don't” + verbo base."],
+      ["fill","Completa: “___ touch that; it's hot.”",["Don't", "Not", "No", "Never"],0,"El imperativo negativo empieza con “Don't”."],
+      ["translate","Traduce: “Por favor, siéntate.”",["Please, to sit down.", "Please, sits down.", "Please, sit down.", "Please, sitting down."],2,"El imperativo usa el verbo base: “sit down”."],
+      ["arrange","Ordena: [door / the / open]",["door open the", "door the open", "the open door", "open the door"],3,"Verbo base + artículo + sustantivo."],
+      ["writing","Escribe en inglés 20-30 palabras con tres instrucciones usando el imperativo (afirmativo y negativo).",[],["Open", "Don't", "Please"]],
+    ]
+  },
+  {
+    id:"a1_demonstratives", level:"A1", title:"Los demostrativos: this, that, these, those", emoji:"👆", xp:34,
+    description:"Aprende a usar this, that, these y those en inglés.",
+    study: {
+      vocab: [
+        ["this", "este/esta/esto (singular, cerca)"],
+        ["that", "ese/esa/eso (singular, lejos)"],
+        ["these", "estos/estas (plural, cerca)"],
+        ["those", "esos/esas (plural, lejos)"],
+        ["What is this?", "¿Qué es esto?"],
+      ],
+      grammar: [
+        ["Cercanía y número determinan el demostrativo", "“This/these” se usan para objetos cercanos (singular/plural); “that/those” para objetos lejanos (singular/plural).", "This is my phone. / Those are my friends over there."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para un objeto cercano en singular?",["this", "that", "these", "those"],0,"“This” es para objetos cercanos en singular."],
+      ["mcq","¿Qué palabra usas para objetos lejanos en plural?",["that", "these", "those", "this"],2,"“Those” es para objetos lejanos en plural."],
+      ["fill","Completa: “___ are my friends over there.”",["That", "Those", "These", "This"],1,"Objetos lejanos en plural → “those”."],
+      ["translate","Traduce: “Estos son mis libros.”",["These are my books.", "That are my books.", "Those are my books.", "This are my books."],0,"Objetos cercanos en plural → “these”."],
+      ["arrange","Ordena: [phone / is / my / this]",["this is my phone", "my this phone is", "this is phone my", "my phone is this"],0,"Demostrativo + verbo “to be” + posesivo + sustantivo."],
+      ["writing","Escribe en inglés 20-30 palabras describiendo objetos cerca y lejos de ti usando this, that, these y those.",[],["this", "that", "these"]],
+    ]
+  },
+  {
+    id:"a1_prepositions_time", level:"A1", title:"Preposiciones de tiempo: at, in, on", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo at, in y on en inglés.",
+    study: {
+      vocab: [
+        ["at + hora", "at + hora (at 7 o'clock)"],
+        ["in + mes/año/estación", "in + mes/año/estación"],
+        ["on + día/fecha", "on + día/fecha"],
+        ["at night", "de noche"],
+        ["in the morning/afternoon/evening", "por la mañana/tarde/noche"],
+      ],
+      grammar: [
+        ["At, on, in según el tipo de tiempo", "“At” se usa con horas exactas, “on” con días y fechas, “in” con periodos más largos (meses, años, estaciones).", "The class starts at 9 o'clock. / I was born in July. / We meet on Mondays."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["at", "by", "in", "on"],0,"“At” se usa con horas exactas."],
+      ["mcq","¿Qué preposición usas con un día de la semana?",["by", "on", "at", "in"],1,"“On” se usa con días de la semana."],
+      ["fill","Completa: “I was born ___ July.”",["by", "at", "in", "on"],2,"“In” se usa con meses."],
+      ["translate","Traduce: “Nos reunimos los lunes.”",["We meet by Mondays.", "We meet at Mondays.", "We meet on Mondays.", "We meet in Mondays."],2,"“On” se usa con días de la semana."],
+      ["arrange","Ordena: [starts / class / 9 / the / at / o'clock]",["the 9 class o'clock starts at", "the class starts at 9 o'clock", "9 at starts class o'clock the", "at the starts class 9 o'clock"],1,"Sujeto + verbo + “at” + hora."],
+      ["writing","Escribe en inglés 20-30 palabras sobre tu horario semanal usando at, in y on.",[],["at", "in", "on"]],
+    ]
+  },
+  {
+    id:"a1_frequency_adverbs", level:"A1", title:"Adverbios de frecuencia: always, usually, sometimes, never", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en inglés y su posición en la oración.",
+    study: {
+      vocab: [
+        ["always", "siempre"],
+        ["usually", "normalmente"],
+        ["sometimes", "a veces"],
+        ["rarely", "rara vez"],
+        ["never", "nunca"],
+      ],
+      grammar: [
+        ["Posición de los adverbios de frecuencia", "Los adverbios de frecuencia van antes del verbo principal, pero después del verbo “to be”.", "I always drink coffee in the morning. / She is never late."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde va el adverbio de frecuencia con el verbo “to be”?",["al final de la oración", "al principio de la oración", "después", "antes"],2,"Con “to be”, el adverbio va después: “She is never late”."],
+      ["mcq","¿Cómo se dice “a veces” en inglés?",["never", "sometimes", "always", "usually"],1,"“A veces” es “sometimes”."],
+      ["fill","Completa: “She ___ late for work.”",["never to be", "is never", "never is", "is not never"],1,"Con “to be” el adverbio va después: “is never”."],
+      ["translate","Traduce: “Siempre bebo café por la mañana.”",["I always drink coffee in the morning.", "Always I drink coffee in the morning.", "I always drinking coffee in the morning.", "I drink always coffee in the morning."],0,"El adverbio va antes del verbo principal: “always drink”."],
+      ["arrange","Ordena: [work / usually / I / by / bus / to / go]",["go usually by work I bus to", "go bus I to by usually work", "I usually go to work by bus", "work bus I to usually go by"],2,"Sujeto + adverbio + verbo + complemento."],
+      ["writing","Escribe en inglés 20-30 palabras sobre tu rutina usando al menos tres adverbios de frecuencia.",[],["always", "usually", "sometimes"]],
+    ]
+  },
+  {
+    id:"a1_saxon_genitive", level:"A1", title:"El genitivo sajón: 's y s'", emoji:"🔗", xp:34,
+    description:"Aprende a usar el genitivo sajón en inglés para expresar posesión.",
+    study: {
+      vocab: [
+        ["Anna's book", "el libro de Anna"],
+        ["the children's toys", "los juguetes de los niños"],
+        ["the students' books", "los libros de los estudiantes (plural regular)"],
+        ["Whose book is this?", "¿De quién es este libro?"],
+        ["It's Anna's.", "Es de Anna."],
+      ],
+      grammar: [
+        ["Reglas del genitivo sajón", "Se añade “'s” al poseedor singular; solo un apóstrofo (') al plural regular terminado en -s; los plurales irregulares (children, men...) añaden “'s”.", "This is Anna's book. / These are the students' books. / These are the children's toys."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “el libro de Anna” en inglés?",["Book Anna's", "The book of Anna's", "Anna's book", "Anna book"],2,"“El libro de Anna” es “Anna's book”."],
+      ["mcq","¿Cómo se forma el posesivo de un plural regular terminado en -s (the students)?",["the studentss'", "the student's", "the students'", "the students's"],2,"Con plural regular en -s, solo se añade el apóstrofo: “students'”."],
+      ["fill","Completa: “These are the ___ toys.”",["children", "childrens'", "children's", "childrens"],2,"“Children” es plural irregular → se añade “'s”."],
+      ["translate","Traduce: “¿De quién es este libro? Es de Anna.”",["Whose book is this? It's Anna's.", "Whose is this book? It's of Anna.", "Whose book is this? It's Anna.", "Who's book is this? It's Anna's."],0,"“¿De quién?” es “Whose?”, no “Who's?”."],
+      ["arrange","Ordena: [book / this / Anna's / is]",["this is Anna's book", "Anna's this is book", "Anna's is this book", "is Anna's this book"],0,"Sujeto + verbo + genitivo sajón + sustantivo."],
+      ["writing","Escribe en inglés 20-30 palabras describiendo objetos que pertenecen a diferentes personas usando el genitivo sajón.",[],["'s", "children's", "Whose"]],
+    ]
+  },
+  {
+    id:"a2_reflexive_pronouns", level:"A2", title:"Los pronombres reflexivos: myself, yourself...", emoji:"🪞", xp:46,
+    description:"Aprende a usar los pronombres reflexivos en inglés.",
+    study: {
+      vocab: [
+        ["myself", "yo mismo/a"],
+        ["yourself / yourselves", "tú mismo/a, ustedes mismos"],
+        ["himself / herself / itself", "él mismo, ella misma"],
+        ["ourselves / themselves", "nosotros mismos, ellos mismos"],
+        ["by myself", "yo solo/a (sin ayuda)"],
+      ],
+      grammar: [
+        ["Reflexivos y “by + reflexivo”", "Los pronombres reflexivos se usan cuando el sujeto y el objeto de la acción son la misma persona; “by + reflexivo” significa “solo, sin ayuda”.", "I cut myself while cooking. / She lives by herself."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ella misma” en inglés?",["themselves", "herself", "itself", "himself"],1,"“Ella misma” es “herself”."],
+      ["mcq","¿Qué significa “by myself”?",["solo/a, sin ayuda", "conmigo mismo", "de mí mismo", "para mí mismo"],0,"“By myself” significa “solo/a, sin ayuda”."],
+      ["fill","Completa: “He taught ___ to play the guitar.”",["himself", "themselves", "itself", "herself"],0,"Sujeto masculino singular → “himself”."],
+      ["translate","Traduce: “Me corté cocinando.”",["I cut me while cooking.", "I cut myself while I cook.", "I cutting myself while cooking.", "I cut myself while cooking."],3,"“Me corté” es “I cut myself”."],
+      ["arrange","Ordena: [herself / lives / she / by]",["she lives by herself", "herself she by lives", "by lives she herself", "herself by she lives"],0,"Sujeto + verbo + “by” + reflexivo."],
+      ["speaking","Habla en inglés durante 25-35 palabras sobre algo que hiciste tú solo/a, usando al menos dos pronombres reflexivos.",[],["myself", "by myself", "herself"]],
+    ]
+  },
+  {
+    id:"a2_object_pronouns", level:"A2", title:"Los pronombres de objeto: me, him, her, us, them", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto en inglés.",
+    study: {
+      vocab: [
+        ["me", "me"],
+        ["him / her / it", "lo/la (a él/ella/eso)"],
+        ["us", "nos"],
+        ["them", "los/las"],
+        ["Can you help me?", "¿Puedes ayudarme?"],
+      ],
+      grammar: [
+        ["Los pronombres de objeto van después del verbo", "Los pronombres de objeto (me, him, her, it, us, them) reemplazan al sustantivo que recibe la acción del verbo, y van después del verbo.", "I saw him yesterday. / Can you help me, please?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre de objeto reemplaza a “my sister” (femenino singular)?",["him", "her", "them", "it"],1,"“My sister” se reemplaza por “her”."],
+      ["mcq","¿Qué pronombre de objeto reemplaza a “my parents” (plural)?",["him", "us", "her", "them"],3,"“My parents” se reemplaza por “them”."],
+      ["fill","Completa: “I saw ___ at the party yesterday.”",["him", "he's", "he", "his"],0,"Después del verbo se usa el pronombre de objeto: “him”."],
+      ["translate","Traduce: “¿Puedes ayudarnos, por favor?”",["Can you help us, please?", "Can you help our, please?", "Can you helps us, please?", "Can you help we, please?"],0,"“Nos” es “us”."],
+      ["arrange","Ordena: [me / help / you / can]",["you me can help", "can you help me", "you can me help", "me can you help"],1,"Auxiliar + sujeto + verbo + pronombre de objeto."],
+      ["writing","Escribe en inglés 25-35 palabras sobre personas que ayudaste o que te ayudaron, usando pronombres de objeto.",[],["me", "him", "them"]],
+    ]
+  },
+  {
+    id:"a2_present_continuous_future", level:"A2", title:"El presente continuo para planes futuros concretos", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente continuo para hablar de planes futuros ya confirmados en inglés.",
+    study: {
+      vocab: [
+        ["I'm meeting her tomorrow.", "Me reúno con ella mañana."],
+        ["We're flying to Madrid next week.", "Volamos a Madrid la próxima semana."],
+        ["What are you doing this weekend?", "¿Qué vas a hacer este fin de semana?"],
+        ["arranged plan", "plan ya organizado"],
+        ["confirmed appointment", "cita confirmada"],
+      ],
+      grammar: [
+        ["Presente continuo para planes ya confirmados", "El presente continuo se usa para planes futuros ya organizados y confirmados (con hora, lugar o billete), a diferencia de “going to”, que sirve para intenciones más generales.", "I'm meeting her tomorrow at 6pm. / We're flying to Madrid next week."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal usas para un plan futuro ya confirmado (con hora y lugar)?",["futuro simple", "presente simple", "presente continuo", "pasado continuo"],2,"Los planes confirmados usan el presente continuo."],
+      ["mcq","¿Cómo se dice “¿Qué vas a hacer este fin de semana?” (plan concreto) en inglés?",["What are you doing this weekend?", "What do you do this weekend?", "What you are doing this weekend?", "What will you this weekend?"],0,"Plan concreto → presente continuo: “What are you doing...?”."],
+      ["fill","Completa: “I ___ her tomorrow at 6pm.”",["meet", "will meeting", "meets", "am meeting"],3,"Plan confirmado → presente continuo: “am meeting”."],
+      ["translate","Traduce: “Volamos a Madrid la próxima semana.” (billete ya comprado)",["We fly to Madrid next week.", "We are fly to Madrid next week.", "We're flying to Madrid next week.", "We will flying to Madrid next week."],2,"Plan confirmado → presente continuo: “are flying”."],
+      ["arrange","Ordena: [tomorrow / meeting / her / I'm]",["her meeting I'm tomorrow", "tomorrow meeting I'm her", "meeting tomorrow I'm her", "I'm meeting her tomorrow"],3,"Sujeto + presente continuo + objeto + tiempo."],
+      ["writing","Escribe en inglés 25-35 palabras sobre planes que ya tienes confirmados para la próxima semana, usando el presente continuo.",[],["I'm meeting", "We're flying", "this weekend"]],
+    ]
+  },
+  {
+    id:"a2_suggestions", level:"A2", title:"Hacer sugerencias: let's, why don't we, how about", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en inglés con let's, why don't we y how about.",
+    study: {
+      vocab: [
+        ["Let's + verbo base", "Let's... (vamos a...)"],
+        ["Why don't we + verbo base?", "¿Por qué no...?"],
+        ["How about + gerundio?", "¿Qué tal si...?"],
+        ["What if we + verbo base?", "¿Y si...?"],
+        ["That sounds good.", "Eso suena bien."],
+      ],
+      grammar: [
+        ["“How about” exige gerundio", "“Let's”, “why don't we” y “what if we” van seguidos de verbo base; “how about” va seguido de gerundio.", "Let's go to the beach. / Why don't we order pizza? / How about watching a movie?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma sigue a “how about”?",["infinitivo con to", "gerundio", "verbo base", "pasado simple"],1,"Tras “how about” va el gerundio."],
+      ["mcq","¿Cómo se dice “¿Por qué no pedimos pizza?” en inglés?",["Why don't we ordering pizza?", "Why we don't order pizza?", "Why don't we order pizza?", "Why not we order pizza?"],2,"“Why don't we” + verbo base: “order pizza”."],
+      ["fill","Completa: “How about ___ a movie tonight?”",["to watch", "watch", "watched", "watching"],3,"Tras “how about” va el gerundio: “watching”."],
+      ["translate","Traduce: “Vamos a la playa.”",["Let we go to the beach.", "Let's go to the beach.", "Let's going to the beach.", "Lets to go to the beach."],1,"“Let's” + verbo base: “go”."],
+      ["arrange","Ordena: [beach / go / let's / the / to]",["to let's go the beach", "go beach let's to the", "beach go let's the to", "let's go to the beach"],3,"“Let's” + verbo base + complemento."],
+      ["speaking","Habla en inglés durante 25-35 palabras haciendo tres sugerencias para un plan con amigos, usando let's, why don't we y how about.",[],["Let's", "Why don't we", "How about"]],
+    ]
+  },
+  {
+    id:"a2_phrasal_verbs_basic", level:"A2", title:"Verbos con partícula básicos: turn on/off, take off, wake up", emoji:"🔌", xp:47,
+    description:"Aprende los verbos con partícula (phrasal verbs) más comunes en inglés.",
+    study: {
+      vocab: [
+        ["turn on / turn off", "encender / apagar"],
+        ["take off (clothes/plane)", "quitarse (ropa) / despegar (avión)"],
+        ["wake up / get up", "despertarse / levantarse"],
+        ["put on", "ponerse (ropa)"],
+        ["look for", "buscar"],
+      ],
+      grammar: [
+        ["Verbo + partícula = nuevo significado", "Los verbos con partícula (phrasal verbs) combinan un verbo + una partícula (on, off, up...) y cambian de significado; algunos permiten separar el objeto (“turn it on”), otros no.", "Turn off the lights. / I woke up late today. / I'm looking for my keys."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “apagar” en inglés (verbo con partícula)?",["turn off", "turn on", "take off", "put on"],0,"“Apagar” es “turn off”."],
+      ["mcq","¿Cómo se dice “buscar” en inglés (verbo con partícula)?",["look up", "look after", "look for", "look at"],2,"“Buscar” es “look for”."],
+      ["fill","Completa: “I ___ late this morning.”",["woken up", "woke up", "wake up", "waked up"],1,"Pasado de “wake up” es “woke up”."],
+      ["translate","Traduce: “Estoy buscando mis llaves.”",["I'm looking for my keys.", "I'm looking up my keys.", "I'm looking at my keys.", "I'm looking my keys."],0,"“Buscar” es “look for”."],
+      ["arrange","Ordena: [lights / off / the / turn]",["turn off the lights", "off the turn lights", "off lights turn the", "lights the turn off"],0,"Verbo + partícula + artículo + sustantivo."],
+      ["writing","Escribe en inglés 25-35 palabras sobre tu rutina matutina usando al menos tres verbos con partícula (wake up, get up, turn on...).",[],["wake up", "turn on", "look for"]],
+    ]
+  },
+  {
+    id:"b1_zero_first_conditional", level:"B1", title:"El condicional cero y el primer condicional", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre el condicional cero y el primer condicional en inglés.",
+    study: {
+      vocab: [
+        ["If + presente, presente (cero)", "zero conditional – verdades generales"],
+        ["If + presente, will + verbo (primero)", "first conditional – posibilidad real"],
+        ["When water boils, it evaporates.", "ejemplo de condicional cero"],
+        ["If it rains, I'll stay home.", "ejemplo de primer condicional"],
+        ["real possibility", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El condicional cero (if + presente, presente) expresa verdades generales o hechos científicos; el primer condicional (if + presente, will + verbo) expresa una posibilidad real en el futuro.", "If you heat ice, it melts. / If it rains tomorrow, I'll stay home."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué condicional usas para una verdad general o científica?",["el primer condicional", "el segundo condicional", "el tercer condicional", "el condicional cero"],3,"Verdades generales → condicional cero."],
+      ["mcq","¿Qué condicional usas para una posibilidad real en el futuro?",["el condicional cero", "el segundo condicional", "el primer condicional", "el tercer condicional"],2,"Posibilidad real futura → primer condicional."],
+      ["fill","Completa: “If you heat ice, it ___.”",["will melt", "melted", "melts", "is melting"],2,"Condicional cero: presente + presente."],
+      ["translate","Traduce: “Si llueve mañana, me quedaré en casa.”",["If it rain tomorrow, I'll stay home.", "If it rains tomorrow, I'll stay home.", "If it will rain tomorrow, I'll stay home.", "If it rains tomorrow, I stay home."],1,"Primer condicional: if + presente, will + verbo."],
+      ["arrange","Ordena: [boils / evaporates / water / when / it]",["water evaporates it when boils", "it water evaporates boils when", "water boils when evaporates it", "when water boils it evaporates"],3,"“When” + presente + presente (verdad general)."],
+      ["writing","Escribe en inglés 30-40 palabras con dos ejemplos: una verdad general (condicional cero) y una posibilidad real futura (primer condicional).",[],["if", "will", "when"]],
+    ]
+  },
+  {
+    id:"b1_passive_basic", level:"B1", title:"La voz pasiva básica: presente y pasado simple", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva en presente y pasado simple en inglés.",
+    study: {
+      vocab: [
+        ["is/are + participio (pasiva presente)", "present passive"],
+        ["was/were + participio (pasiva pasado)", "past passive"],
+        ["by + agente (opcional)", "by + agent (optional)"],
+        ["The letter was sent.", "La carta fue enviada."],
+        ["English is spoken here.", "Aquí se habla inglés."],
+      ],
+      grammar: [
+        ["Be + participio pasado", "La voz pasiva se forma con “be” (en el tiempo correspondiente) + participio pasado; se usa cuando la acción es más importante que quién la realiza.", "English is spoken in many countries. / The letter was sent yesterday."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se forma la voz pasiva en presente?",["was/were + participio", "is/are + participio", "will + participio", "has/have + participio"],1,"Pasiva presente: “is/are + participio”."],
+      ["mcq","¿Cuándo se usa la voz pasiva?",["siempre en vez de la voz activa", "solo con verbos irregulares", "cuando la acción es más importante que quién la hace", "solo en el pasado"],2,"Se usa cuando el foco está en la acción, no en el agente."],
+      ["fill","Completa: “The letter ___ yesterday.”",["was sent", "has sent", "sent", "is sent"],0,"Pasiva en pasado: “was sent”."],
+      ["translate","Traduce: “Aquí se habla inglés.”",["English speaks here.", "English is spoken here.", "English was spoken here.", "English is speaking here."],1,"Pasiva presente: “is spoken”."],
+      ["arrange","Ordena: [spoken / here / is / English]",["English here spoken is", "here spoken English is", "English is spoken here", "is spoken here English"],2,"Sujeto + “be” + participio + adverbio."],
+      ["writing","Escribe en inglés 30-40 palabras sobre algo que se hace o se hizo (por ejemplo, en tu trabajo o país) usando la voz pasiva en presente y pasado.",[],["is made", "was built", "is spoken"]],
+    ]
+  },
+  {
+    id:"b1_question_tags", level:"B1", title:"Las question tags: ¿verdad? / ¿no?", emoji:"❓", xp:58,
+    description:"Aprende a formar y usar las question tags en inglés.",
+    study: {
+      vocab: [
+        ["..., isn't it?", "..., ¿verdad? (con 'to be' afirmativo)"],
+        ["..., don't you?", "..., ¿verdad? (con 'do' afirmativo)"],
+        ["..., aren't you?", "..., ¿verdad? (con 'to be', 1ª persona 'am')"],
+        ["..., didn't you?", "..., ¿verdad? (pasado)"],
+        ["positive statement + negative tag", "afirmación + coletilla negativa (y viceversa)"],
+      ],
+      grammar: [
+        ["El auxiliar cambia de polaridad", "Las question tags repiten el auxiliar de la oración principal, cambiando su polaridad: afirmación + coletilla negativa, negación + coletilla afirmativa.", "You're from Spain, aren't you? / She doesn't like coffee, does she?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla usas tras “You're from Spain,...”?",["aren't you?", "isn't it?", "doesn't she?", "don't you?"],0,"“You're” (afirmativo) → coletilla negativa: “aren't you?”."],
+      ["mcq","¿Qué regla siguen las question tags?",["siempre negativa", "siempre afirmativa", "afirmación + coletilla negativa (y viceversa)", "según el sujeto, no el verbo"],2,"La coletilla invierte la polaridad de la oración principal."],
+      ["fill","Completa: “She doesn't like coffee, ___?”",["doesn't she", "isn't she", "is she", "does she"],3,"Negación → coletilla afirmativa: “does she”."],
+      ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["You went to the party, don't you?", "You went to the party, weren't you?", "You went to the party, didn't you?", "You did go to the party, didn't you?"],2,"Pasado simple afirmativo → coletilla “didn't you?”."],
+      ["arrange","Ordena: [today / isn't / cold / it's / it]",["cold it it's today isn't", "it's cold today isn't it", "it cold it's today isn't", "cold it isn't today it's"],1,"Afirmación + coletilla negativa."],
+      ["writing","Escribe en inglés 30-40 palabras con tres oraciones usando question tags para confirmar información con un amigo.",[],["isn't it", "don't you", "aren't you"]],
+    ]
+  },
+  {
+    id:"b1_indirect_questions", level:"B1", title:"Las preguntas indirectas y corteses", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en inglés.",
+    study: {
+      vocab: [
+        ["Could you tell me where...?", "¿Podrías decirme dónde...?"],
+        ["Do you know if/whether...?", "¿Sabes si...?"],
+        ["I wonder what...", "Me pregunto qué..."],
+        ["no inversion in the embedded question", "sin inversión en la pregunta incrustada"],
+        ["polite request", "petición cortés"],
+      ],
+      grammar: [
+        ["Orden normal en la pregunta incrustada", "Las preguntas indirectas usan el orden normal de sujeto + verbo (sin inversión), y a menudo empiezan con frases corteses como “Could you tell me...” o “Do you know...”.", "Where is the station? → Could you tell me where the station is? / Is she coming? → Do you know if she's coming?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué orden sigue la pregunta incrustada en una pregunta indirecta?",["sujeto + verbo (sin inversión)", "verbo + sujeto (como pregunta normal)", "siempre con 'do'", "con el verbo al final"],0,"La pregunta incrustada usa el orden normal, sin inversión."],
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["that", "if/whether", "what", "how"],1,"“If/whether” introduce preguntas de sí/no en estilo indirecto."],
+      ["fill","Completa: “Could you tell me where the station ___?”",["is", "is it", "it is", "does it is"],0,"Orden normal sin inversión: “where the station is”."],
+      ["translate","Traduce: “¿Sabes si ella viene?”",["Do you know if is she coming?", "Do you know whether she coming?", "Do you know if she's coming?", "Do you know is she coming?"],2,"“If” + orden normal: “if she's coming”."],
+      ["arrange","Ordena: [me / could / where / tell / station / the / is / you]",["the you where station tell could me is", "could you tell me where the station is", "the could station is me where you tell", "could the is tell me station you where"],1,"Frase cortés + pregunta incrustada sin inversión."],
+      ["speaking","Habla en inglés durante 30-40 palabras haciendo tres preguntas indirectas y corteses a un desconocido en la calle.",[],["Could you tell me", "Do you know if", "I wonder"]],
+    ]
+  },
+  {
+    id:"b1_present_perfect_continuous", level:"B1", title:"Present perfect simple vs. present perfect continuous", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el present perfect simple y el continuous en inglés.",
+    study: {
+      vocab: [
+        ["have/has + participio (simple)", "resultado/experiencia"],
+        ["have/has been + gerundio (continuous)", "duración/énfasis en la acción"],
+        ["How long have you...?", "¿Cuánto tiempo llevas...?"],
+        ["since / for", "desde / durante"],
+        ["I've been waiting for an hour.", "Llevo una hora esperando."],
+      ],
+      grammar: [
+        ["Resultado/cantidad vs duración/acción en curso", "El present perfect simple destaca el resultado o la cantidad (“I've read three books”); el present perfect continuous destaca la duración o que la acción sigue en curso (“I've been reading for two hours”).", "I've read three books this month. / I've been reading for two hours."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma destaca la duración de una acción en curso?",["present perfect continuous", "past simple", "present perfect simple", "past continuous"],0,"El continuous destaca la duración."],
+      ["mcq","¿Qué forma destaca el resultado o la cantidad?",["present simple", "present perfect continuous", "past perfect", "present perfect simple"],3,"El simple destaca el resultado o la cantidad."],
+      ["fill","Completa: “I ___ for an hour.”",["have been waiting", "am waiting", "waited", "have waited"],0,"Duración con énfasis en la acción en curso → present perfect continuous."],
+      ["translate","Traduce: “He leído tres libros este mes.” (cantidad)",["I have reading three books this month.", "I read three books this month.", "I've been reading three books this month.", "I've read three books this month."],3,"Cantidad/resultado → present perfect simple."],
+      ["arrange","Ordena: [hour / been / I've / an / waiting / for]",["I've been waiting for an hour", "I've for an waiting hour been", "waiting been an I've hour for", "an I've waiting been hour for"],0,"“Have been” + gerundio + “for” + duración."],
+      ["writing","Escribe en inglés 30-40 palabras sobre algo que has estado haciendo últimamente (duración) y algo que has hecho (cantidad/resultado), usando present perfect simple y continuous.",[],["I've been", "I've done", "for"]],
+    ]
+  },
 ];

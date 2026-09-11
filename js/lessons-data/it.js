@@ -4817,4 +4817,364 @@ window.LESSON_BANKS.IT = [
       ["writing","Scrivi in italiano 40-50 parole confrontando due opzioni usando ‘il primo’, ‘il secondo’ e ‘detto questo’.",[],["il primo", "il secondo", "detto questo"]],
     ]
   },
+  {
+    id:"it_a1_imperatives", level:"A1", title:"L'imperativo: dare istruzioni e consigli diretti", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en italiano con el imperativo.",
+    study: {
+      vocab: [
+        ["Apri la porta.", "Open the door."],
+        ["Chiudi la finestra.", "Close the window."],
+        ["Gira a sinistra / a destra.", "Turn left / right."],
+        ["Non toccare questo.", "Don't touch that."],
+        ["Siediti, per favore.", "Please, sit down."],
+      ],
+      grammar: [
+        ["Imperativo tu vs imperativo negativo con infinito", "El imperativo informal (tu) para los verbos en -are cambia la terminación a -a; el imperativo negativo usa “non + infinito”, no la forma conjugada.", "Apri la porta. / Non toccare questo. / Aspetta qui, per favore."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en italiano (imperativo tu)?",["Aprendo la porta.", "Aprire la porta.", "Apri la porta.", "Apre la porta."],2,"El imperativo de “aprire” es “apri”."],
+      ["mcq","¿Qué forma verbal usa el imperativo negativo informal?",["non + infinito", "non + gerundio", "non + imperativo", "mai + imperativo"],0,"El negativo informal usa “non + infinito”."],
+      ["fill","Completa: “Non ___ questo; è caldo.”",["tocca", "toccando", "tocchi", "toccare"],3,"Imperativo negativo → “non + infinito”: “toccare”."],
+      ["translate","Traduce: “Please, sit down.”",["Siediti, per favore.", "Seduto, per favore.", "Ti siedi, per favore.", "Sedersi, per favore."],0,"Imperativo de “sedersi”: “siediti”."],
+      ["arrange","Ordena: [porta / apri / la]",["porta apri la", "apri la porta", "porta la apri", "la porta apri"],1,"Imperativo + artículo + sustantivo."],
+      ["writing","Scrivi in italiano 20-30 parole con tre istruzioni usando l'imperativo (affermativo e negativo).",[],["apri", "non toccare", "per favore"]],
+    ]
+  },
+  {
+    id:"it_a1_demonstratives", level:"A1", title:"I dimostrativi: questo, quello", emoji:"👆", xp:34,
+    description:"Aprende a usar questo y quello en italiano, y cómo cambia 'quello' según el sustantivo.",
+    study: {
+      vocab: [
+        ["questo/questa", "this (cerca)"],
+        ["quello/quella", "that (lejos)"],
+        ["questi/queste", "these"],
+        ["quelli/quelle", "those"],
+        ["Che cos'è questo?", "What is this?"],
+      ],
+      grammar: [
+        ["“Quello” cambia como el artículo definido", "“Quello” se comporta como el artículo definido combinado antes de un sustantivo (quel libro, quello studente, quell'amico, quella casa), cambiando de forma según la primera letra del sustantivo.", "Questo è il mio telefono. / Quelli sono i miei amici, laggiù."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para algo cercano en singular?",["questo", "questi", "quelli", "quello"],0,"“Questo” es para algo cercano en singular."],
+      ["mcq","¿Cómo cambia “quello” antes de un sustantivo que empieza por consonante simple, ej. “libro”?",["quei", "quello", "quel", "quell'"],2,"Ante consonante simple, “quello” se convierte en “quel”."],
+      ["fill","Completa: “___ sono i miei amici, laggiù.”",["Questi", "Questo", "Quelli", "Quello"],2,"Lejos, plural masculino → “quelli”."],
+      ["translate","Traduce: “These are my books.”",["Questo sono i miei libri.", "Quelli sono i miei libri.", "Questi sono i miei libri.", "Quello sono i miei libri."],2,"Cerca, plural masculino → “questi”."],
+      ["arrange","Ordena: [telefono / è / il / mio / questo]",["mio telefono questo il è", "è telefono mio questo il", "questo è il mio telefono", "il mio telefono è questo"],2,"Demostrativo + verbo “essere” + posesivo + sustantivo."],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo oggetti vicini e lontani da te usando questo e quello.",[],["questo", "quello", "questi"]],
+    ]
+  },
+  {
+    id:"it_a1_prepositions_time", level:"A1", title:"Le preposizioni di tempo: a, in, di", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo a, in y di en italiano.",
+    study: {
+      vocab: [
+        ["alle + ora", "at + hora (alle 9)"],
+        ["in + mese/stagione", "in + mes/estación (in luglio)"],
+        ["di + giorno della settimana (abitudine)", "on + día (hábito repetido)"],
+        ["di notte", "de noche"],
+        ["di mattina/pomeriggio/sera", "por la mañana/tarde/noche"],
+      ],
+      grammar: [
+        ["Alle, in y “di” + día para hábitos", "“Alle” (a + le) se usa con horas exactas, “in” con meses y estaciones, y “di” antes de un día de la semana expresa un hábito repetido.", "Il corso inizia alle 9. / Sono nato in luglio. / Di lunedì vado in piscina."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["alle", "da", "in", "di"],0,"“Alle” se usa con horas exactas."],
+      ["mcq","¿Qué palabra usas delante de un día de la semana para expresar un hábito?",["di", "da", "alle", "in"],0,"“Di” + día expresa un hábito repetido."],
+      ["fill","Completa: “Sono nato ___ luglio.”",["di", "in", "da", "a"],1,"“In” se usa con meses."],
+      ["translate","Traduce: “On Mondays, I go to the pool.” (hábito)",["In lunedì vado in piscina.", "A lunedì vado in piscina.", "Da lunedì vado in piscina.", "Di lunedì vado in piscina."],3,"Hábito repetido → “di lunedì”."],
+      ["arrange","Ordena: [9 / inizia / corso / il / alle]",["inizia il alle 9 corso", "corso 9 il alle inizia", "corso inizia il alle 9", "il corso inizia alle 9"],3,"Sujeto + verbo + “alle” + hora."],
+      ["writing","Scrivi in italiano 20-30 parole sul tuo orario settimanale usando alle, in e di + giorno.",[],["alle", "in", "di"]],
+    ]
+  },
+  {
+    id:"it_a1_frequency_adverbs", level:"A1", title:"Gli avverbi di frequenza: sempre, di solito, a volte, mai", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en italiano.",
+    study: {
+      vocab: [
+        ["sempre", "always"],
+        ["di solito", "usually"],
+        ["a volte", "sometimes"],
+        ["raramente", "rarely"],
+        ["mai", "never"],
+      ],
+      grammar: [
+        ["El adverbio suele ir después del verbo", "Los adverbios de frecuencia suelen ir después del verbo conjugado en italiano; “mai” con verbos en tiempos simples requiere “non” antes del verbo (non... mai).", "Bevo sempre il caffè la mattina. / Non è mai in ritardo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde suele ir el adverbio de frecuencia respecto al verbo?",["siempre al principio", "siempre al final", "antes", "después"],3,"El adverbio suele ir después del verbo."],
+      ["mcq","¿Cómo se dice “a veces” en italiano?",["mai", "sempre", "di solito", "a volte"],3,"“A veces” es “a volte”."],
+      ["fill","Completa: “Lei non è ___ in ritardo.”",["sempre", "spesso", "mai", "già"],2,"“Non...mai” rodea el verbo."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Bevo il caffè sempre la mattina.", "Sempre bevo il caffè la mattina.", "Bevo sempre il caffè la mattina.", "Io sempre bevo il caffè la mattina."],2,"El adverbio va después del verbo: “bevo sempre”."],
+      ["arrange","Ordena: [lavoro / bicicletta / vado / di / al / in / solito]",["di solito vado al lavoro in bicicletta", "solito bicicletta lavoro in al di vado", "lavoro bicicletta solito vado in di al", "bicicletta vado solito di lavoro in al"],0,"Adverbio + sujeto + verbo + complemento."],
+      ["writing","Scrivi in italiano 20-30 parole sulla tua routine usando almeno tre avverbi di frequenza.",[],["sempre", "di solito", "a volte"]],
+    ]
+  },
+  {
+    id:"it_a1_di_possesso", level:"A1", title:"La preposizione “di” per esprimere il possesso", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en italiano con la preposición “di”.",
+    study: {
+      vocab: [
+        ["il libro di Anna", "Anna's book"],
+        ["i giocattoli dei bambini", "the children's toys"],
+        ["Di chi è questo?", "Whose is this?"],
+        ["È di Anna.", "It's Anna's."],
+        ["la casa dei miei genitori", "my parents' house"],
+      ],
+      grammar: [
+        ["“Di + poseedor”, con contracciones (dei, del...)", "A diferencia del inglés (Anna's book), el italiano siempre expresa la posesión con “di + poseedor”, después del objeto poseído; “di + i” se contrae en “dei”.", "Questo è il libro di Anna. / La casa dei miei genitori è grande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Anna's book” en italiano?",["Anna di libro", "di Anna il libro", "il libro di Anna", "il Anna's libro"],2,"“Anna's book” es “il libro di Anna”."],
+      ["mcq","¿En qué se contrae “di + i” en italiano?",["di i", "dei", "della", "del"],1,"“Di + i” se contrae en “dei”."],
+      ["fill","Completa: “Questi sono i giocattoli ___ bambini.”",["dei", "della", "del", "di i"],0,"“Di + i” se contrae en “dei”."],
+      ["translate","Traduce: “Whose book is this? It's Anna's.”",["Di chi è questo libro? È di Anna.", "Chi è questo libro? È di Anna.", "Di chi è questo libro? È Anna's.", "Di chi questo libro è? È di Anna."],0,"“¿De quién?” + “è di Anna”."],
+      ["arrange","Ordena: [Anna / libro / il / di / è / questo]",["libro il Anna di questo è", "di Anna il è libro questo", "questo è il libro di Anna", "questo libro il di è Anna"],2,"Sujeto + verbo + artículo + sustantivo + “di” + poseedor."],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo oggetti che appartengono a persone diverse usando “di” per esprimere il possesso.",[],["di", "di chi", "è di"]],
+    ]
+  },
+  {
+    id:"it_a2_verbi_riflessivi", level:"A2", title:"I verbi riflessivi e i pronomi riflessivi", emoji:"🪞", xp:46,
+    description:"Aprende a usar los verbos y pronombres reflexivos en italiano.",
+    study: {
+      vocab: [
+        ["mi, ti, si, ci, vi, si", "pronombres reflexivos"],
+        ["alzarsi", "to get (oneself) up"],
+        ["farsi la doccia", "to shower (oneself)"],
+        ["Mi sono tagliato cucinando.", "I cut myself while cooking."],
+        ["da solo/a", "by myself"],
+      ],
+      grammar: [
+        ["Reflexivos con “essere” en el passato prossimo", "Muchos verbos italianos son reflexivos por naturaleza (alzarsi, farsi la doccia) y en el passato prossimo usan siempre “essere”, concordando el participio con el sujeto.", "Mi alzo alle sette. / Lei si fa la doccia la mattina."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “io”?",["mi", "ti", "si", "ci"],0,"“Io” usa el pronombre “mi”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “lei”?",["ci", "mi", "si", "ti"],2,"“Lei” usa el pronombre “si”."],
+      ["fill","Completa: “Io ___ sono tagliato cucinando.”",["ti", "ci", "si", "mi"],3,"“Io” usa el pronombre reflexivo “mi”."],
+      ["translate","Traduce: “She lives by herself.”",["Lei vive per lei stessa.", "Lei si vive sola.", "Lei vive da sola.", "Lei vive lei stessa."],2,"“Vivere” no es reflexivo aquí; “da sola” expresa “by herself”."],
+      ["arrange","Ordena: [alle / sette / alzo / mi]",["sette alle mi alzo", "mi alzo alle sette", "mi sette alle alzo", "mi alle alzo sette"],1,"Pronombre reflexivo + verbo + “alle” + hora."],
+      ["speaking","Parla in italiano per 25-35 parole della tua routine quotidiana usando almeno tre verbi riflessivi (alzarsi, farsi la doccia, vestirsi...).",[],["mi alzo", "mi faccio la doccia", "mi vesto"]],
+    ]
+  },
+  {
+    id:"it_a2_pronomi_diretti", level:"A2", title:"I pronomi diretti: lo, la, li, le", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto directo en italiano.",
+    study: {
+      vocab: [
+        ["lo/la", "him/her/it (COD)"],
+        ["li/le", "them (COD, masc./fem.)"],
+        ["mi, ti, ci, vi", "me, you, us, you all"],
+        ["Puoi aiutarmi?", "Can you help me?"],
+        ["L'ho visto ieri.", "I saw him/it yesterday."],
+      ],
+      grammar: [
+        ["El pronombre COD va antes del verbo, con concordancia en el passato prossimo", "Los pronombres de objeto directo (lo, la, li, le) concuerdan en género y número con el sustantivo que reemplazan, y van ANTES del verbo conjugado; en el passato prossimo, el participio concuerda con lo/la/li/le.", "Ho visto mia sorella ieri. → L'ho vista ieri. / Hanno comprato la macchina. → L'hanno comprata."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reemplaza a “mia sorella” (femenino singular)?",["li", "le", "la", "lo"],2,"“Mia sorella” se reemplaza por “la”."],
+      ["mcq","¿Qué pronombre reemplaza a “i miei genitori” (masculino plural)?",["la", "lo", "le", "li"],3,"“I miei genitori” se reemplaza por “li”."],
+      ["fill","Completa: “Ho visto mia sorella ieri. ___ ho vista al parco.”",["Lo", "L'", "Le", "Li"],1,"Antes de vocal, “la” se elide en “l'”."],
+      ["translate","Traduce: “Can you help us, please?”",["Puoi aiutare ci, per favore?", "Puoi ci aiutare, per favore?", "Puoi aiutarli, per favore?", "Puoi aiutarci, per favore?"],3,"El pronombre se pega al infinitivo: “aiutarci”."],
+      ["arrange","Ordena: [ieri / l' / visto / ho]",["l'ho ieri visto", "l'ho visto ieri", "visto ieri l'ho", "ieri visto l'ho"],1,"Pronombre COD + verbo auxiliar + participio + adverbio."],
+      ["writing","Scrivi in italiano 25-35 parole su persone o oggetti che hai visto di recente, usando pronomi diretti (lo, la, li, le).",[],["lo", "la", "li"]],
+    ]
+  },
+  {
+    id:"it_a2_presente_orari_fissi", level:"A2", title:"Il presente per orari fissi (trasporti, programmi)", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente para horarios fijos en italiano.",
+    study: {
+      vocab: [
+        ["Il treno parte alle 15.", "The train leaves at 3pm. (orario fisso)"],
+        ["Il film inizia alle 20.", "The movie starts at 8pm."],
+        ["un orario/programma fisso", "a fixed schedule/timetable"],
+        ["Il negozio chiude alle 18.", "The store closes at 6pm."],
+        ["A che ora parte l'autobus?", "What time does the bus leave?"],
+      ],
+      grammar: [
+        ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados.", "Il treno parte alle 15. / Il film inizia alle 20."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal se usa para horarios fijos (trenes, cines)?",["il presente", "il futuro semplice", "l'imperfetto", "il condizionale"],0,"Los horarios fijos usan el presente."],
+      ["mcq","¿Cómo se dice “The store closes at 6pm” en italiano?",["Il negozio chiudeva alle 18.", "Il negozio ha chiuso alle 18.", "Il negozio chiude alle 18.", "Il negozio chiuderà alle 18."],2,"Horario fijo → presente: “chiude”."],
+      ["fill","Completa: “Il treno ___ alle 15.”",["partirà", "è partito", "parte", "partiva"],2,"Horario fijo → presente: “parte”."],
+      ["translate","Traduce: “The movie starts at 8pm.”",["Il film inizia alle 20.", "Il film iniziava alle 20.", "Il film inizierà alle 20.", "Il film ha iniziato alle 20."],0,"Horario fijo → presente: “inizia”."],
+      ["arrange","Ordena: [15 / parte / treno / il / alle]",["15 alle treno il parte", "treno 15 alle parte il", "il treno parte alle 15", "15 alle il parte treno"],2,"Sujeto + verbo + “alle” + hora."],
+      ["writing","Scrivi in italiano 25-35 parole sugli orari di trasporti o programmi che conosci, usando il presente.",[],["parte alle", "inizia alle", "chiude alle"]],
+    ]
+  },
+  {
+    id:"it_a2_suggerimenti", level:"A2", title:"Fare suggerimenti: perché non, e se, che ne dici di", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en italiano.",
+    study: {
+      vocab: [
+        ["Perché non + presente?", "Why don't we...?"],
+        ["E se + congiuntivo imperfetto?", "What if we...?"],
+        ["Che ne dici di + infinito?", "How about...?"],
+        ["Potremmo + infinito.", "We could..."],
+        ["Buona idea!", "That sounds good!"],
+      ],
+      grammar: [
+        ["Congiuntivo imperfetto tras “e se”", "“Perché non” va seguido del presente indicativo; “e se” para sugerir algo usa el congiuntivo imperfetto; “che ne dici di” va seguido de infinitivo.", "Perché non ordiniamo una pizza? / E se andassimo alla spiaggia? / Che ne dici di guardare un film?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo/tiempo sigue a “e se” para sugerir algo?",["el futuro", "el congiuntivo imperfetto", "el presente indicativo", "el infinitivo"],1,"“E se” usa el congiuntivo imperfetto para sugerir."],
+      ["mcq","¿Qué forma sigue a “che ne dici di”?",["infinito", "presente", "gerundio", "congiuntivo"],0,"Tras “che ne dici di” va el infinitivo."],
+      ["fill","Completa: “E se ___ alla spiaggia?”",["andare", "andremo", "andiamo", "andassimo"],3,"“E se” + congiuntivo imperfetto: “andassimo”."],
+      ["translate","Traduce: “¿Por qué no pedimos pizza?”",["Perché non ordiniamo una pizza?", "Perché non ordinando una pizza?", "Perché non ordinare una pizza?", "Perché non ordinate una pizza noi?"],0,"“Perché non” + presente: “ordiniamo”."],
+      ["arrange","Ordena: [spiaggia / andassimo / se / e / alla]",["alla spiaggia andassimo e se", "spiaggia se alla e andassimo", "e se andassimo alla spiaggia", "se alla andassimo e spiaggia"],2,"“E se” + congiuntivo imperfetto + complemento."],
+      ["speaking","Parla in italiano per 25-35 parole facendo tre suggerimenti per un piano con amici, usando perché non, e se e che ne dici di.",[],["perché non", "e se", "che ne dici di"]],
+    ]
+  },
+  {
+    id:"it_a2_verbi_preposizioni", level:"A2", title:"Verbi con preposizione fissa: smettere di, contare su, accorgersi di", emoji:"🔌", xp:47,
+    description:"Aprende verbos italianos con preposición fija.",
+    study: {
+      vocab: [
+        ["smettere di + infinito", "to stop doing"],
+        ["tenere", "to keep"],
+        ["notare", "to notice"],
+        ["contare su", "to count on"],
+        ["accorgersi di", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos italianos van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "Ho smesso di fumare l'anno scorso. / Ho notato la sua nuova giacca. / Puoi contare su di me."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to count on” en italiano?",["tenere", "contare su", "smettere di", "accorgersi di"],1,"“To count on” es “contare su”."],
+      ["mcq","¿Cómo se dice “to realize” en italiano?",["contare su", "tenere", "notare", "accorgersi di"],3,"“To realize” es “accorgersi di”."],
+      ["fill","Completa: “Ho ___ fumare l'anno scorso.”",["tenuto", "notato", "contato su", "smesso di"],3,"“Smettere di + infinito” = dejar de hacer algo."],
+      ["translate","Traduce: “I noticed her new jacket.”",["Ho contato su la sua nuova giacca.", "Ho tenuto la sua nuova giacca.", "Mi sono accorto la sua nuova giacca.", "Ho notato la sua nuova giacca."],3,"“Noticed” es “notato”."],
+      ["arrange","Ordena: [me / puoi / contare / su / di]",["puoi contare su di me", "di puoi me su contare", "puoi di su contare me", "puoi di su me contare"],0,"Sujeto + “contare su di” + objeto."],
+      ["writing","Scrivi in italiano 25-35 parole sulle tue abitudini usando almeno tre verbi con preposizione fissa (smettere di, notare, contare su...).",[],["ho smesso di", "ho notato", "conto su"]],
+    ]
+  },
+  {
+    id:"it_b1_periodo_ipotetico_realta", level:"B1", title:"Il periodo ipotetico della realtà (tipo 0 e tipo 1)", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre el periodo ipotetico tipo 0 y tipo 1 en italiano.",
+    study: {
+      vocab: [
+        ["Se + presente, presente (tipo 0)", "zero conditional – verdades generales"],
+        ["Se + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
+        ["Quando l'acqua bolle, evapora.", "ejemplo de periodo ipotetico tipo 0"],
+        ["Se piove, resterò a casa.", "ejemplo de periodo ipotetico tipo 1"],
+        ["possibilità reale", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (se + presente, presente) expresa verdades generales; el tipo 1 (se + presente, futuro) expresa una posibilidad real en el futuro.", "Se scaldi il ghiaccio, si scioglie. / Se domani piove, resterò a casa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo usas para una verdad general?",["tipo 1", "tipo 2", "tipo 0", "tipo 3"],2,"Verdades generales → tipo 0."],
+      ["mcq","¿Qué tipo usas para una posibilidad real futura?",["tipo 0", "tipo 2", "tipo 1", "tipo 3"],2,"Posibilidad real futura → tipo 1."],
+      ["fill","Completa: “Se scaldi il ghiaccio, si ___.”",["scioglie", "scioglierà", "sciogliendo", "è sciolto"],0,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["Se domani piove, resterò a casa.", "Se domani piove, resto a casa.", "Se domani pioverà, resterò a casa.", "Se domani piove, resterei a casa."],0,"Tipo 1: se + presente, futuro."],
+      ["arrange","Ordena: [evapora / bolle / quando / acqua / l']",["l'acqua evapora quando bolle", "l'acqua quando bolle evapora", "evapora quando l'acqua bolle", "quando l'acqua bolle evapora"],3,"“Quando” + presente + presente (verdad general)."],
+      ["writing","Scrivi in italiano 30-40 parole con due esempi: una verità generale (tipo 0) e una possibilità reale futura (tipo 1).",[],["se", "quando", "futuro"]],
+    ]
+  },
+  {
+    id:"it_b1_passivo_base", level:"B1", title:"Il passivo di base: presente e passato prossimo", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva en presente y passato prossimo en italiano.",
+    study: {
+      vocab: [
+        ["essere + participio passato (passivo)", "voz pasiva con ‘essere’"],
+        ["da + agente (facoltativo)", "por + agente (opcional)"],
+        ["La lettera è stata inviata.", "The letter was sent."],
+        ["Qui si parla inglese.", "English is spoken here."],
+        ["l'accordo del participio", "concordancia del participio"],
+      ],
+      grammar: [
+        ["Essere + participio, concordando con el sujeto", "La voz pasiva se forma con “essere” (en el tiempo correspondiente) + participio pasado, que concuerda en género y número con el sujeto; también existe la pasiva refleja con “si” para hechos generales.", "Qui si parla inglese. / La lettera è stata inviata ieri."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se forma la voz pasiva en italiano?",["stare + gerundio", "essere + participio pasado", "andare + infinitivo", "avere + participio pasado"],1,"La pasiva se forma con “essere + participio”."],
+      ["mcq","¿Con qué concuerda el participio pasado en la voz pasiva?",["con el agente", "con el sujeto", "nunca concuerda", "con el objeto directo"],1,"El participio concuerda con el sujeto."],
+      ["fill","Completa: “La lettera ___ ieri.”",["è inviata", "è stata inviata", "ha inviato", "inviava"],1,"Pasiva en passato prossimo: “è stata inviata”."],
+      ["translate","Traduce: “English is spoken here.”",["Qui è stato parlato inglese.", "Qui parla inglese.", "Qui si parla inglese.", "Qui è parlato inglese."],2,"Pasiva refleja: “si parla inglese”."],
+      ["arrange","Ordena: [inglese / qui / si / parla]",["parla inglese qui si", "si qui parla inglese", "qui si parla inglese", "si parla inglese qui"],2,"“Qui” + “si” + verbo + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole su qualcosa che si fa o che è stato fatto (per esempio nel tuo lavoro o paese), usando il passivo al presente e al passato prossimo.",[],["si parla", "è stata inviata", "si fa"]],
+    ]
+  },
+  {
+    id:"it_b1_domande_conferma", level:"B1", title:"Le domande di conferma: vero?, no?, giusto?", emoji:"❓", xp:58,
+    description:"Aprende a usar coletillas de confirmación en italiano.",
+    study: {
+      vocab: [
+        ["..., vero?", "..., isn't it? (neutro/común)"],
+        ["..., no?", "..., isn't it? (informal)"],
+        ["..., giusto?", "..., right?"],
+        ["..., d'accordo?", "..., okay? (pedir acuerdo)"],
+        ["confermare un'informazione", "confirmar información"],
+      ],
+      grammar: [
+        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el italiano usa las mismas coletillas invariables (vero?, no?, giusto?) para casi cualquier oración.", "Sei spagnolo, vero? / Non ti piace il caffè, no?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla es la más neutra y común?",["giusto?", "vero?", "d'accordo?", "no?"],1,"“Vero?” es la más neutra y común."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en italiano solo se usan en el pasado", "en italiano cambian según el verbo", "en italiano solo se usan en negativo", "en italiano son invariables"],3,"En italiano las coletillas no cambian según el verbo."],
+      ["fill","Completa: “Non ti piace il caffè, ___?”",["no", "d'accordo", "vero", "sì"],0,"“No?” es la coletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Sei andato alla festa, vero sei andato?", "Sei andato alla festa, non sei andato?", "Sei andato alla festa, sei andato?", "Sei andato alla festa, vero?"],3,"“Vero?” es invariable, no repite el verbo."],
+      ["arrange","Ordena: [spagnolo / sei / vero]",["spagnolo vero sei", "vero sei spagnolo", "sei spagnolo vero", "spagnolo sei vero"],2,"Afirmación + coletilla de confirmación."],
+      ["writing","Scrivi in italiano 30-40 parole con tre frasi usando domande di conferma (vero?, no?, giusto?) per confermare informazioni con un amico.",[],["vero?", "no?", "giusto?"]],
+    ]
+  },
+  {
+    id:"it_b1_domande_indirette", level:"B1", title:"Le domande indirette e cortesi", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en italiano.",
+    study: {
+      vocab: [
+        ["Potrebbe dirmi dove...?", "Could you tell me where...?"],
+        ["Sa se...?", "Do you know if...?"],
+        ["Mi chiedo cosa...", "I wonder what..."],
+        ["senza inversione, con 'se' per sì/no", "sin inversión, con 'se' para sí/no"],
+        ["richiesta cortese", "petición cortés"],
+      ],
+      grammar: [
+        ["“Se” para preguntas de sí/no en estilo indirecto", "Las preguntas indirectas en italiano mantienen el orden normal sujeto+verbo (sin inversión como en una pregunta directa), y usan “se” para preguntas de sí/no.", "Dov'è la stazione? → Potrebbe dirmi dov'è la stazione? / Viene lei? → Sa se viene?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["che", "cosa", "come", "se"],3,"“Se” introduce preguntas de sí/no en estilo indirecto."],
+      ["mcq","¿Qué frase cortés puedes usar para pedir información?",["Potrebbe dirmi...?", "Che cos'è questo?", "Dimmi.", "Vero?"],0,"“Potrebbe dirmi...?” es una fórmula cortés."],
+      ["fill","Completa: “Potrebbe dirmi dove ___ la stazione?”",["è", "era", "essere", "sia"],0,"“Dov'è la stazione” se mantiene en el estilo indirecto."],
+      ["translate","Traduce: “Do you know if she's coming?”",["Sa se viene lei?", "Sa lei se viene?", "Sa che viene?", "Sa se viene?"],3,"“If” se traduce como “se”."],
+      ["arrange","Ordena: [dirmi / potrebbe / stazione / dove / è / la]",["è potrebbe la dove dirmi stazione", "potrebbe dirmi dove è la stazione", "dirmi potrebbe la dove stazione è", "dove dirmi potrebbe la stazione è"],1,"Frase cortés + pregunta incrustada."],
+      ["speaking","Parla in italiano per 30-40 parole facendo tre domande indirette e cortesi a uno sconosciuto per strada.",[],["Potrebbe dirmi", "Sa se", "Mi chiedo"]],
+    ]
+  },
+  {
+    id:"it_b1_passato_prossimo_vs_da", level:"B1", title:"Il passato prossimo vs. il presente + da", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el passato prossimo y el presente + da en italiano.",
+    study: {
+      vocab: [
+        ["ho/hai + participio passato", "acción pasada completada – resultado"],
+        ["presente + da", "duración de una acción que sigue en curso"],
+        ["Da quanto tempo...?", "How long have you been...?"],
+        ["da / già", "since/for / already"],
+        ["Aspetto già da un'ora.", "I've been waiting for an hour."],
+      ],
+      grammar: [
+        ["Sin “present perfect continuous”: presente + da", "El italiano no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “da”, no una forma compuesta.", "Ho letto tre libri questo mese. (resultado) / Aspetto già da un'ora. (duración, en presente)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa para la duración de una acción que sigue en curso?",["presente + da", "il futuro", "il congiuntivo", "il passato prossimo"],0,"“Presente + da” expresa duración en curso."],
+      ["mcq","¿Qué estructura destaca el resultado o la cantidad de algo ya hecho?",["l'imperfetto", "il passato prossimo", "il condizionale", "presente + da"],1,"El passato prossimo destaca el resultado o la cantidad."],
+      ["fill","Completa: “Aspetto già ___ un'ora.”",["fa", "da", "di", "per"],1,"Duración en curso → presente + “da”."],
+      ["translate","Traduce: “I've read three books this month.” (cantidad)",["Ho letto tre libri questo mese.", "Ho leggere tre libri questo mese.", "Leggo da tre libri questo mese.", "Leggo tre libri da questo mese."],0,"Cantidad/resultado → passato prossimo: “ho letto”."],
+      ["arrange","Ordena: [da / aspetto / un'ora]",["da aspetto un'ora", "aspetto da un'ora", "un'ora da aspetto", "da un'ora aspetto"],1,"Sujeto/verbo + “da” + duración."],
+      ["writing","Scrivi in italiano 30-40 parole su qualcosa che fai da un po' di tempo (con ‘da’) e qualcosa che hai già fatto (con il passato prossimo).",[],["da", "già", "ho fatto"]],
+    ]
+  },
 ];

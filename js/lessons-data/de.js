@@ -4817,4 +4817,364 @@ window.LESSON_BANKS.DE = [
       ["writing","Schreibe auf Deutsch 40-50 Wörter, in denen du zwei Optionen vergleichst, benutze “Ersterer”, “Letzterer” und “Dies vorausgeschickt”.",[],["Ersterer", "Letzterer", "Dies vorausgeschickt"]],
     ]
   },
+  {
+    id:"de_a1_imperatives", level:"A1", title:"Der Imperativ: direkte Anweisungen und Ratschläge", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en alemán con el imperativo.",
+    study: {
+      vocab: [
+        ["Öffne die Tür.", "Open the door."],
+        ["Schließ das Fenster.", "Close the window."],
+        ["Geh links / rechts.", "Turn left / right."],
+        ["Fass das nicht an.", "Don't touch that."],
+        ["Setz dich bitte.", "Please, sit down."],
+      ],
+      grammar: [
+        ["El imperativo du sin pronombre ni -st", "El imperativo informal (du) suele omitir el pronombre y la terminación “-st”; el negativo usa “nicht” después del verbo u objeto.", "Öffne die Tür. / Fass das nicht an. / Warte bitte hier."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en alemán (imperativo du)?",["Öffnen die Tür.", "Öffnest die Tür.", "Du öffnest die Tür.", "Öffne die Tür."],3,"El imperativo de “öffnen” es “öffne”."],
+      ["mcq","¿Dónde va “nicht” en el imperativo negativo?",["no se usa ‘nicht’", "después del verbo/objeto", "al principio de la oración", "antes del verbo"],1,"“Nicht” va después del verbo o del objeto."],
+      ["fill","Completa: “Fass das ___ an; es ist heiß.”",["nicht", "niemals", "nie", "kein"],0,"El imperativo negativo usa “nicht”."],
+      ["translate","Traduce: “Please, sit down.”",["Setzen dich bitte.", "Du setzt dich bitte.", "Setz dich bitte.", "Zu setzen dich bitte."],2,"Imperativo de “sich setzen”: “setz dich”."],
+      ["arrange","Ordena: [Tür / öffne / die]",["Tür die öffne", "die Tür öffne", "öffne die Tür", "die öffne Tür"],2,"Imperativo + artículo + sustantivo."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter mit drei Anweisungen, benutze den Imperativ (bejahend und verneint).",[],["Öffne", "nicht", "bitte"]],
+    ]
+  },
+  {
+    id:"de_a1_demonstratives", level:"A1", title:"Die Demonstrativpronomen: dieser, jener", emoji:"👆", xp:34,
+    description:"Aprende a usar dieser/diese/dieses y la forma coloquial “da” en alemán.",
+    study: {
+      vocab: [
+        ["dieser/diese/dieses", "this (cerca)"],
+        ["jener/jene/jenes", "that (lejos, literario)"],
+        ["der/die/das da", "that (coloquial, más usado)"],
+        ["diese (Plural)", "these"],
+        ["Was ist das?", "What is this?"],
+      ],
+      grammar: [
+        ["“Jener” es literario; en el habla se usa “da”", "El alemán distingue formalmente “dieser” (this) de “jener” (that), pero “jener” suena literario; en el habla cotidiana se suele usar “der/die/das” + “da” para algo lejano.", "Dieses Buch ist meins. / Das Auto da drüben ist teuer."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para algo cercano en alemán?",["diese (Plural)", "jener/jene/jenes", "der/die/das da", "dieser/diese/dieses"],3,"“Dieser” es para algo cercano."],
+      ["mcq","¿Qué forma es más común en el habla cotidiana para “eso, allá”?",["der/die/das da", "diese (Plural)", "dieser/diese/dieses", "jener/jene/jenes"],0,"“Der/die/das da” es la forma más común en el habla."],
+      ["fill","Completa: “___ Buch ist meins.”",["Dieses", "Dieser", "Jener", "Diese"],0,"“Buch” es neutro singular → “dieses”."],
+      ["translate","Traduce: “These are my books.”",["Diese Bücher sind meine.", "Jene Bücher ist meine.", "Dieser Bücher sind meine.", "Dieses Bücher sind meine."],0,"Plural → “diese”."],
+      ["arrange","Ordena: [meins / Buch / ist / dieses]",["Buch dieses meins ist", "meins ist dieses Buch", "Buch dieses ist meins", "dieses Buch ist meins"],3,"Demostrativo + sustantivo + verbo + posesivo."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände in deiner Nähe und weiter weg, benutze dieser und der/die/das da.",[],["dieser", "diese", "da"]],
+    ]
+  },
+  {
+    id:"de_a1_prepositions_time", level:"A1", title:"Präpositionen der Zeit: um, im, am", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo um, im y am en alemán.",
+    study: {
+      vocab: [
+        ["um + Uhrzeit", "at + hora (um 9 Uhr)"],
+        ["im + Monat/Jahreszeit", "in + mes/estación (im Juli)"],
+        ["am + Wochentag/Datum", "on + día/fecha (am Montag)"],
+        ["in der Nacht", "de noche"],
+        ["am Morgen/Nachmittag/Abend", "por la mañana/tarde/noche"],
+      ],
+      grammar: [
+        ["Um, im (in+dem) y am (an+dem)", "El alemán usa “um” para horas exactas, “im” (in + dem) para meses y estaciones, y “am” (an + dem) para días de la semana y fechas.", "Der Kurs beginnt um 9 Uhr. / Ich bin im Juli geboren. / Wir treffen uns am Montag."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["am", "um", "im", "bei"],1,"“Um” se usa con horas exactas."],
+      ["mcq","¿Qué preposición usas con un día de la semana?",["bei", "um", "am", "im"],2,"“Am” se usa con días de la semana."],
+      ["fill","Completa: “Ich bin ___ Juli geboren.”",["bei", "am", "im", "um"],2,"“Im” se usa con meses."],
+      ["translate","Traduce: “We meet on Mondays.”",["Wir treffen uns um Montag.", "Wir treffen uns bei Montag.", "Wir treffen uns am Montag.", "Wir treffen uns im Montag."],2,"“Am” se usa con días de la semana."],
+      ["arrange","Ordena: [beginnt / Uhr / Kurs / der / um / 9]",["Uhr um Kurs der 9 beginnt", "der Kurs beginnt um 9 Uhr", "beginnt 9 Kurs Uhr der um", "beginnt 9 Uhr Kurs um der"],1,"Sujeto + verbo + “um” + hora."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über deinen Wochenplan, benutze um, im und am.",[],["um", "im", "am"]],
+    ]
+  },
+  {
+    id:"de_a1_frequency_adverbs", level:"A1", title:"Häufigkeitsadverbien: immer, meistens, manchmal, nie", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en alemán y su posición.",
+    study: {
+      vocab: [
+        ["immer", "always"],
+        ["meistens", "usually"],
+        ["manchmal", "sometimes"],
+        ["selten", "rarely"],
+        ["nie", "never"],
+      ],
+      grammar: [
+        ["El adverbio va tras el verbo conjugado (segunda posición)", "En las oraciones principales alemanas, los adverbios de frecuencia suelen ir justo después del verbo conjugado (que ocupa la segunda posición); “nie” no necesita un “nicht” adicional.", "Ich trinke immer Kaffee am Morgen. / Sie ist nie zu spät."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde suele ir el adverbio de frecuencia en una oración principal?",["siempre al final de la oración", "justo después del verbo conjugado", "siempre al principio de la oración", "justo antes del verbo conjugado"],1,"El adverbio va justo después del verbo conjugado."],
+      ["mcq","¿Cómo se dice “a veces” en alemán?",["nie", "meistens", "immer", "manchmal"],3,"“A veces” es “manchmal”."],
+      ["fill","Completa: “Sie ist ___ zu spät.”",["nie", "nicht nie", "kein", "niemals nicht"],0,"“Nie” no necesita un “nicht” adicional."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Immer ich trinke Kaffee am Morgen.", "Ich immer trinke Kaffee am Morgen.", "Ich trinke Kaffee immer am Morgen.", "Ich trinke immer Kaffee am Morgen."],3,"El adverbio va justo después del verbo: “trinke immer”."],
+      ["arrange","Ordena: [Fahrrad / meistens / fahre / zur / mit / Arbeit / ich / dem]",["ich fahre meistens mit dem Fahrrad zur Arbeit", "Fahrrad meistens Arbeit zur ich dem fahre mit", "fahre meistens mit zur dem ich Fahrrad Arbeit", "ich fahre meistens dem zur mit Arbeit Fahrrad"],0,"Sujeto + verbo + adverbio + complemento."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über deine Routine, benutze mindestens drei Häufigkeitsadverbien.",[],["immer", "meistens", "manchmal"]],
+    ]
+  },
+  {
+    id:"de_a1_genitiv_possessiv", level:"A1", title:"Der Genitiv und “von” für den Besitz", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en alemán con el genitivo y con “von”.",
+    study: {
+      vocab: [
+        ["Annas Buch", "Anna's book (genitivo con nombre propio)"],
+        ["das Buch von Anna", "Anna's book (con 'von', más hablado)"],
+        ["die Spielzeuge der Kinder", "the children's toys (genitivo)"],
+        ["Wessen Buch ist das?", "Whose book is this?"],
+        ["Es ist Annas.", "It's Anna's."],
+      ],
+      grammar: [
+        ["Genitivo con nombres propios vs “von” hablado", "Con nombres propios, el alemán añade “-s” directamente (como el inglés): “Annas Buch”. Con sustantivos comunes se usa el genitivo (“die Spielzeuge der Kinder”), pero en el habla “von + dativo” suele reemplazar al genitivo.", "Das ist Annas Buch. / Das Buch von Anna ist rot. / Die Spielzeuge der Kinder sind neu."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Anna's book” en alemán con nombre propio?",["Annas Buch", "Anna's Buch", "Buch von der Anna", "Das Buch Anna"],0,"Con nombres propios se añade “-s”: “Annas Buch”."],
+      ["mcq","¿Qué preposición reemplaza al genitivo en el alemán hablado?",["für", "bei", "mit", "von"],3,"“Von + dativo” reemplaza al genitivo en el habla."],
+      ["fill","Completa: “Das Buch ___ Anna ist rot.”",["dem", "der", "des", "von"],3,"“Von” reemplaza al genitivo en el habla: “von Anna”."],
+      ["translate","Traduce: “Whose book is this? It's Anna's.”",["Wer Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist von Anna's.", "Wessen ist das Buch? Es ist Anna."],1,"“¿De quién?” es “Wessen?”, seguido del sustantivo."],
+      ["arrange","Ordena: [Buch / Annas / ist / das]",["das Annas Buch ist", "Buch das Annas ist", "das ist Annas Buch", "das Buch Annas ist"],2,"Sujeto + verbo + genitivo + sustantivo."],
+      ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände, die verschiedenen Personen gehören, benutze den Genitiv oder “von”.",[],["Annas", "von", "wessen"]],
+    ]
+  },
+  {
+    id:"de_a2_reflexivpronomen", level:"A2", title:"Die Reflexivpronomen und reflexive Verben", emoji:"🪞", xp:46,
+    description:"Aprende a usar los pronombres reflexivos y verbos reflexivos en alemán.",
+    study: {
+      vocab: [
+        ["mich, dich, sich, uns, euch, sich", "pronombres reflexivos"],
+        ["sich duschen", "to shower (oneself)"],
+        ["sich anziehen", "to get dressed"],
+        ["Ich habe mich beim Kochen geschnitten.", "I cut myself while cooking."],
+        ["allein (ohne Hilfe)", "by myself"],
+      ],
+      grammar: [
+        ["Muchos verbos alemanes son reflexivos", "Muchos verbos alemanes son reflexivos y exigen un pronombre reflexivo (en acusativo o dativo) que concuerda con el sujeto.", "Ich dusche mich am Morgen. / Sie zieht sich an."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “ich”?",["uns", "dich", "mich", "sich"],2,"“Ich” usa el pronombre “mich”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “sie” (ella)?",["mich", "uns", "dich", "sich"],3,"“Sie” (ella) usa el pronombre “sich”."],
+      ["fill","Completa: “Ich habe ___ beim Kochen geschnitten.”",["dich", "uns", "mich", "sich"],2,"“Ich” usa el pronombre reflexivo “mich”."],
+      ["translate","Traduce: “She lives by herself.”",["Sie lebt selbst.", "Sie lebt allein.", "Sie lebt durch sich selbst.", "Sie lebt sich allein."],1,"“Leben” no es reflexivo aquí; “allein” expresa “by herself”."],
+      ["arrange","Ordena: [Morgen / dusche / mich / ich / am]",["ich am dusche Morgen mich", "mich ich am Morgen dusche", "mich am ich Morgen dusche", "ich dusche mich am Morgen"],3,"Sujeto + verbo + pronombre reflexivo + hora."],
+      ["speaking","Sprich auf Deutsch 25-35 Wörter über deine tägliche Routine, benutze mindestens drei reflexive Verben (sich duschen, sich anziehen, sich waschen...).",[],["ich dusche mich", "ich ziehe mich an", "ich wasche mich"]],
+    ]
+  },
+  {
+    id:"de_a2_akkusativ_dativ_pronomen", level:"A2", title:"Objektpronomen: Akkusativ (ihn/sie/es) vs Dativ (ihm/ihr)", emoji:"🎯", xp:46,
+    description:"Aprende cuándo usar los pronombres de objeto en acusativo y en dativo en alemán.",
+    study: {
+      vocab: [
+        ["ihn/sie/es (Akkusativ)", "him/her/it – complemento directo"],
+        ["ihm/ihr (Dativ)", "him/her – complemento indirecto"],
+        ["mir/mich", "me (dativo/acusativo)"],
+        ["helfen + Dativ", "ayudar (rige dativo)"],
+        ["sehen + Akkusativ", "ver (rige acusativo)"],
+      ],
+      grammar: [
+        ["El verbo determina el caso del pronombre", "Algunos verbos alemanes rigen acusativo (sehen, kennen) y otros rigen dativo (helfen, danken); el pronombre de objeto cambia según el caso que exige el verbo.", "Ich sehe ihn. (acusativo) / Ich helfe ihm. (dativo)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué caso rige el verbo “helfen”?",["el genitivo", "el dativo", "el acusativo", "el nominativo"],1,"“Helfen” rige dativo."],
+      ["mcq","¿Qué caso rige el verbo “sehen”?",["el genitivo", "el nominativo", "el acusativo", "el dativo"],2,"“Sehen” rige acusativo."],
+      ["fill","Completa: “Kannst du ___ helfen?”",["mir", "mich", "meiner", "ich"],0,"“Helfen” rige dativo: “mir”."],
+      ["translate","Traduce: “I saw him yesterday.”",["Ich habe ihm gestern gesehen.", "Ich habe er gestern gesehen.", "Ich habe ihn gestern geholfen.", "Ich habe ihn gestern gesehen."],3,"“Sehen” rige acusativo: “ihn”."],
+      ["arrange","Ordena: [helfen / mir / kannst / du]",["kannst du mir helfen", "kannst helfen mir du", "mir du kannst helfen", "kannst du helfen mir"],0,"Auxiliar + sujeto + pronombre dativo + infinitivo."],
+      ["writing","Schreibe auf Deutsch 25-35 Wörter über Personen, denen du geholfen hast oder die du gesehen hast, benutze Akkusativ- und Dativpronomen.",[],["ihn", "ihm", "mir"]],
+    ]
+  },
+  {
+    id:"de_a2_praesens_feste_termine", level:"A2", title:"Das Präsens für feste Termine und Fahrpläne", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente para horarios fijos en alemán.",
+    study: {
+      vocab: [
+        ["Der Zug fährt um 15 Uhr.", "The train leaves at 3pm. (horario fijo)"],
+        ["Der Film beginnt um 20 Uhr.", "The movie starts at 8pm."],
+        ["ein fester Termin/Fahrplan", "a fixed schedule/timetable"],
+        ["Das Geschäft schließt um 18 Uhr.", "The store closes at 6pm."],
+        ["Wann fährt der Bus?", "What time does the bus leave?"],
+      ],
+      grammar: [
+        ["Presente para horarios programados", "Se usa el presente (no el futuro con “werden”) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados.", "Der Zug fährt um 15 Uhr. / Der Film beginnt um 20 Uhr."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal se usa para horarios fijos (trenes, cines)?",["das Perfekt", "das Futur mit werden", "der Konjunktiv", "das Präsens"],3,"Los horarios fijos usan el presente."],
+      ["mcq","¿Cómo se dice “The store closes at 6pm” en alemán?",["Das Geschäft schloss um 18 Uhr.", "Das Geschäft wird um 18 Uhr schließen.", "Das Geschäft schließt um 18 Uhr.", "Das Geschäft hat um 18 Uhr geschlossen."],2,"Horario fijo → presente: “schließt”."],
+      ["fill","Completa: “Der Zug ___ um 15 Uhr.”",["ist gefahren", "fährt", "fuhr", "wird fahren"],1,"Horario fijo → presente: “fährt”."],
+      ["translate","Traduce: “The movie starts at 8pm.”",["Der Film beginnt um 20 Uhr.", "Der Film hat um 20 Uhr begonnen.", "Der Film begann um 20 Uhr.", "Der Film wird um 20 Uhr beginnen."],0,"Horario fijo → presente: “beginnt”."],
+      ["arrange","Ordena: [15 / fährt / Uhr / Zug / der / um]",["der Zug fährt um 15 Uhr", "Zug 15 fährt der um Uhr", "um Uhr 15 fährt der Zug", "15 fährt Uhr Zug um der"],0,"Sujeto + verbo + “um” + hora."],
+      ["writing","Schreibe auf Deutsch 25-35 Wörter über Fahrpläne oder Programme, die du kennst, benutze das Präsens.",[],["fährt um", "beginnt um", "schließt um"]],
+    ]
+  },
+  {
+    id:"de_a2_vorschlaege", level:"A2", title:"Vorschläge machen: lass uns, wie wäre es mit, sollen wir", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en alemán.",
+    study: {
+      vocab: [
+        ["Lass uns + Infinitiv", "Let's... (vamos a)"],
+        ["Wie wäre es mit + Dativ?", "How about...?"],
+        ["Sollen wir + Infinitiv?", "Shall we...?"],
+        ["Wir könnten + Infinitiv.", "We could..."],
+        ["Gute Idee!", "That sounds good!"],
+      ],
+      grammar: [
+        ["Infinitivo al final con “lass uns”/“sollen wir”", "“Lass uns” y “sollen wir” van seguidos de infinitivo al final de la oración; “wie wäre es mit” rige el caso dativo.", "Lass uns an den Strand gehen. / Sollen wir eine Pizza bestellen? / Wie wäre es mit einem Film?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde va el infinitivo con “lass uns”?",["al final de la oración", "al principio de la oración", "justo después de 'lass'", "no se usa infinitivo"],0,"El infinitivo va al final de la oración."],
+      ["mcq","¿Qué caso rige “wie wäre es mit”?",["el genitivo", "el dativo", "el acusativo", "el nominativo"],1,"“Wie wäre es mit” rige dativo."],
+      ["fill","Completa: “Sollen wir eine Pizza ___?”",["bestellen", "bestellt", "zu bestellen", "bestellend"],0,"El infinitivo va al final: “bestellen”."],
+      ["translate","Traduce: “¿Por qué no pedimos pizza?” (usa ‘sollen wir’)",["Sollen wir eine Pizza zu bestellen?", "Sollen wir bestellen eine Pizza?", "Wir sollen eine Pizza bestellen?", "Sollen wir eine Pizza bestellen?"],3,"“Sollen wir” + objeto + infinitivo al final."],
+      ["arrange","Ordena: [Strand / gehen / lass / an / uns / den]",["den lass Strand an gehen uns", "gehen an den Strand uns lass", "den uns lass an Strand gehen", "lass uns an den Strand gehen"],3,"“Lass uns” + complemento + infinitivo."],
+      ["speaking","Sprich auf Deutsch 25-35 Wörter und mache drei Vorschläge für einen Plan mit Freunden, benutze lass uns, sollen wir und wie wäre es mit.",[],["lass uns", "sollen wir", "wie wäre es mit"]],
+    ]
+  },
+  {
+    id:"de_a2_verben_praepositionen", level:"A2", title:"Verben mit fester Präposition: aufhören mit, sich verlassen auf, bemerken", emoji:"🔌", xp:47,
+    description:"Aprende verbos alemanes con preposición fija.",
+    study: {
+      vocab: [
+        ["aufhören mit + Dativ", "to stop doing"],
+        ["behalten", "to keep"],
+        ["bemerken", "to notice"],
+        ["sich verlassen auf + Akkusativ", "to count on"],
+        ["merken/bemerken, dass", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija rige un caso específico", "Algunos verbos alemanes van con una preposición fija que rige un caso específico, de forma similar a los phrasal verbs del inglés.", "Ich habe letztes Jahr mit dem Rauchen aufgehört. / Ich habe ihre neue Jacke bemerkt. / Du kannst dich auf mich verlassen."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to count on” en alemán?",["sich verlassen auf", "aufhören mit", "behalten", "bemerken"],0,"“To count on” es “sich verlassen auf”."],
+      ["mcq","¿Qué caso rige “aufhören mit”?",["el acusativo", "el genitivo", "el dativo", "el nominativo"],2,"“Aufhören mit” rige dativo."],
+      ["fill","Completa: “Ich habe letztes Jahr ___ dem Rauchen aufgehört.”",["für", "auf", "mit", "von"],2,"“Aufhören mit” rige la preposición “mit”."],
+      ["translate","Traduce: “I noticed her new jacket.”",["Ich habe mit ihrer neuen Jacke aufgehört.", "Ich habe mich auf ihre neue Jacke verlassen.", "Ich habe ihre neue Jacke behalten.", "Ich habe ihre neue Jacke bemerkt."],3,"“Noticed” es “bemerkt”."],
+      ["arrange","Ordena: [verlassen / dich / kannst / auf / mich / du]",["kannst verlassen auf mich du dich", "kannst auf mich dich verlassen du", "dich kannst auf mich verlassen du", "du kannst dich auf mich verlassen"],3,"Sujeto + modal + pronombre reflexivo + preposición + objeto + infinitivo."],
+      ["writing","Schreibe auf Deutsch 25-35 Wörter über deine Gewohnheiten, benutze mindestens drei Verben mit fester Präposition (aufhören mit, bemerken, sich verlassen auf...).",[],["aufgehört mit", "bemerkt", "verlasse mich auf"]],
+    ]
+  },
+  {
+    id:"de_b1_bedingungssaetze_real", level:"B1", title:"Reale Bedingungssätze: Konditional 0 und 1", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre los condicionales reales tipo 0 y tipo 1 en alemán.",
+    study: {
+      vocab: [
+        ["Wenn + Präsens, Präsens (Typ 0)", "zero conditional – verdades generales"],
+        ["Wenn + Präsens, Präsens/Futur (Typ 1)", "first conditional – posibilidad real"],
+        ["Wenn Wasser kocht, verdampft es.", "ejemplo de condicional tipo 0"],
+        ["Wenn es regnet, bleibe ich zu Hause.", "ejemplo de condicional tipo 1"],
+        ["reale Möglichkeit", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real, ambas a menudo en presente", "El tipo 0 (wenn + presente, presente) expresa verdades generales; el tipo 1 (wenn + presente, futuro) expresa una posibilidad real en el futuro. En alemán, la oración principal del tipo 1 a menudo usa simplemente el presente en vez del futuro con “werden”.", "Wenn du Eis erhitzt, schmilzt es. / Wenn es morgen regnet, bleibe ich zu Hause."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo de condicional usas para una verdad general?",["Typ 0", "Typ 3", "Typ 1", "Typ 2"],0,"Verdades generales → condicional tipo 0."],
+      ["mcq","¿Qué tiempo se usa a menudo en la oración principal del tipo 1 en alemán, aunque hable del futuro?",["el subjuntivo", "el presente", "siempre el futuro con 'werden'", "el pasado"],1,"En alemán, el tipo 1 suele usar el presente también en la oración principal."],
+      ["fill","Completa: “Wenn du Eis erhitzt, ___ es.”",["schmilzt", "schmolz", "geschmolzen", "wird schmelzen"],0,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["Wenn es morgen regnet, blieb ich zu Hause.", "Wenn es morgen regnet, würde ich zu Hause bleiben.", "Wenn es morgen regnet, bleibe ich zu Hause.", "Wenn es morgen regnen wird, bleibe ich zu Hause."],2,"Tipo 1 en alemán: “wenn” + presente, presente."],
+      ["arrange","Ordena: [verdampft / kocht / wenn / es / Wasser]",["es verdampft Wasser wenn kocht", "wenn Wasser kocht verdampft es", "Wasser es kocht wenn verdampft", "wenn es verdampft kocht Wasser"],1,"“Wenn” + presente + presente (verdad general)."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter mit zwei Beispielen: eine allgemeine Wahrheit (Typ 0) und eine reale zukünftige Möglichkeit (Typ 1).",[],["wenn", "werden", "Präsens"]],
+    ]
+  },
+  {
+    id:"de_b1_passiv_basis", level:"B1", title:"Das Passiv: Präsens und Präteritum", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva en presente y pretérito en alemán.",
+    study: {
+      vocab: [
+        ["werden + Partizip II (Passiv)", "voz pasiva con 'werden'"],
+        ["von + Agent (fakultativ)", "por + agente (opcional)"],
+        ["Der Brief wurde geschickt.", "The letter was sent."],
+        ["Hier wird Englisch gesprochen.", "English is spoken here."],
+        ["Aktiv vs Passiv", "voz activa vs pasiva"],
+      ],
+      grammar: [
+        ["“Werden” (no “sein”) para la pasiva de acción", "La voz pasiva de acción se forma con “werden” (en el tiempo correspondiente) + participio II; “sein + participio” expresa un estado resultante (Zustandspassiv), no la acción en sí.", "Hier wird Englisch gesprochen. / Der Brief wurde gestern geschickt."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué verbo auxiliar se usa para formar la voz pasiva de acción en alemán?",["sein", "können", "werden", "haben"],2,"La pasiva de acción se forma con “werden”."],
+      ["mcq","¿Cómo se dice “The letter was sent” en alemán (pasiva pasado)?",["Der Brief hat geschickt.", "Der Brief wird geschickt.", "Der Brief ist geschickt.", "Der Brief wurde geschickt."],3,"Pasado pasivo: “wurde geschickt”."],
+      ["fill","Completa: “Der Brief ___ gestern geschickt.”",["wurde", "war", "ist", "wird"],0,"Pasiva en pasado: “wurde”."],
+      ["translate","Traduce: “English is spoken here.”",["Hier spricht Englisch.", "Hier wird Englisch gesprochen.", "Hier ist Englisch gesprochen.", "Hier wurde Englisch gesprochen."],1,"Pasiva presente: “wird gesprochen”."],
+      ["arrange","Ordena: [gesprochen / wird / Englisch / hier]",["Englisch wird gesprochen hier", "hier gesprochen Englisch wird", "hier wird Englisch gesprochen", "Englisch gesprochen hier wird"],2,"Adverbio + “werden” + objeto + participio."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter über etwas, das in deinem Land oder deiner Arbeit gemacht wird oder gemacht wurde, benutze das Passiv im Präsens und Präteritum.",[],["wird gesprochen", "wurde geschickt", "wird gemacht"]],
+    ]
+  },
+  {
+    id:"de_b1_bestaetigungsfragen", level:"B1", title:"Bestätigungsfragen: nicht wahr?, oder?, stimmt's?", emoji:"❓", xp:58,
+    description:"Aprende a usar coletillas de confirmación en alemán.",
+    study: {
+      vocab: [
+        ["..., nicht wahr?", "..., isn't it? (neutro/formal)"],
+        ["..., oder?", "..., right? (muy común, informal)"],
+        ["..., stimmt's?", "..., right? (informal)"],
+        ["..., ja?", "..., yes? (para confirmar)"],
+        ["eine Information bestätigen", "confirmar información"],
+      ],
+      grammar: [
+        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el alemán usa las mismas coletillas invariables (nicht wahr?, oder?, stimmt's?) para casi cualquier oración.", "Du bist aus Spanien, oder? / Du magst keinen Kaffee, stimmt's?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla es la más común e informal en alemán hablado?",["nicht wahr?", "ja?", "stimmt's?", "oder?"],3,"“Oder?” es la más común e informal."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en alemán cambian según el verbo", "en alemán son invariables", "en alemán solo se usan en negativo", "en alemán solo se usan en el pasado"],1,"En alemán las coletillas no cambian según el verbo."],
+      ["fill","Completa: “Du magst keinen Kaffee, ___?”",["ja", "nicht", "oder", "doch"],2,"“Oder?” es la coletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Du bist zur Party gegangen, oder?", "Du gingst zur Party, oder gingst du?", "Du bist zur Party gegangen, gingst du?", "Du bist zur Party gegangen, nicht gegangen?"],0,"“Oder?” es invariable, no repite el verbo."],
+      ["arrange","Ordena: [Spanien / bist / oder / du / aus]",["bist aus oder du Spanien", "bist du Spanien aus oder", "du bist aus Spanien oder", "oder du aus Spanien bist"],2,"Afirmación + coletilla de confirmación."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter mit drei Sätzen, die Bestätigungsfragen (nicht wahr?, oder?, stimmt's?) benutzen, um Informationen mit einem Freund zu bestätigen.",[],["nicht wahr", "oder", "stimmt's"]],
+    ]
+  },
+  {
+    id:"de_b1_indirekte_fragen", level:"B1", title:"Indirekte und höfliche Fragen", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en alemán.",
+    study: {
+      vocab: [
+        ["Könnten Sie mir sagen, wo...?", "Could you tell me where...?"],
+        ["Wissen Sie, ob...?", "Do you know if...?"],
+        ["Ich frage mich, was...", "I wonder what..."],
+        ["Verb am Ende (Nebensatz)", "verbo al final (oración subordinada)"],
+        ["höfliche Bitte", "petición cortés"],
+      ],
+      grammar: [
+        ["El verbo va al final en la cláusula incrustada", "Las preguntas indirectas en alemán son oraciones subordinadas: el verbo conjugado va al FINAL de la cláusula (a diferencia de la pregunta directa, donde va en segunda posición); se usa “ob” para preguntas de sí/no.", "Wo ist der Bahnhof? → Könnten Sie mir sagen, wo der Bahnhof ist? / Kommt sie? → Wissen Sie, ob sie kommt?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde va el verbo conjugado en la pregunta incrustada (subordinada)?",["no cambia de posición", "en segunda posición, como en preguntas directas", "al final de la cláusula", "al principio de la cláusula"],2,"El verbo va al final en la cláusula subordinada."],
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["dass", "ob", "wie", "was"],1,"“Ob” introduce preguntas de sí/no en estilo indirecto."],
+      ["fill","Completa: “Könnten Sie mir sagen, wo der Bahnhof ___?”",["er ist", "ist", "ist er", "sein"],1,"El verbo va al final: “wo der Bahnhof ist”."],
+      ["translate","Traduce: “¿Sabes si ella viene?”",["Wissen Sie, ob sie kommt?", "Wissen Sie, dass sie kommt?", "Wissen Sie, sie ob kommt?", "Wissen Sie, ob kommt sie?"],0,"“If” se traduce como “ob”."],
+      ["arrange","Ordena: [sagen / könnten / mir / Bahnhof / wo / der / Sie / ist]",["Sie mir ist könnten Bahnhof wo der sagen", "könnten Sie mir sagen wo der Bahnhof ist", "mir Bahnhof sagen ist der Sie wo könnten", "Bahnhof mir könnten ist der wo sagen Sie"],1,"Frase cortés + pregunta incrustada con verbo al final."],
+      ["speaking","Sprich auf Deutsch 30-40 Wörter und stelle drei indirekte, höfliche Fragen an einen Fremden auf der Straße.",[],["Könnten Sie mir sagen", "Wissen Sie ob", "Ich frage mich"]],
+    ]
+  },
+  {
+    id:"de_b1_perfekt_vs_seit", level:"B1", title:"Das Perfekt vs. Präsens + seit/schon", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el Perfekt y el presente + seit/schon en alemán.",
+    study: {
+      vocab: [
+        ["habe/hat + Partizip II (Perfekt)", "acción pasada completada – resultado"],
+        ["Präsens + seit/schon", "duración de una acción que sigue en curso"],
+        ["Seit wann...?", "How long have you been...?"],
+        ["seit / schon", "since / for/already"],
+        ["Ich warte schon seit einer Stunde.", "I've been waiting for an hour."],
+      ],
+      grammar: [
+        ["Sin “present perfect continuous”: presente + seit", "El alemán no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “seit” o “schon”, no una forma compuesta.", "Ich habe drei Bücher gelesen. (resultado) / Ich warte schon seit einer Stunde. (duración, en presente)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa para la duración de una acción que sigue en curso?",["Präsens + seit/schon", "das Perfekt", "das Futur", "der Konjunktiv"],0,"“Präsens + seit/schon” expresa duración en curso."],
+      ["mcq","¿Qué estructura destaca el resultado o la cantidad de algo ya hecho?",["das Perfekt", "Präsens + seit", "der Konjunktiv", "das Präteritum"],0,"El Perfekt destaca el resultado o la cantidad."],
+      ["fill","Completa: “Ich ___ schon seit einer Stunde.”",["warte", "habe gewartet", "wartete", "werde warten"],0,"Duración en curso → presente: “warte”."],
+      ["translate","Traduce: “I've read three books this month.” (cantidad)",["Ich habe drei Bücher diesen Monat gelesen.", "Ich lese seit drei Bücher diesen Monat.", "Ich habe drei Bücher diesen Monat lesen.", "Ich lese drei Bücher seit diesen Monat."],0,"Cantidad/resultado → Perfekt: “habe...gelesen”."],
+      ["arrange","Ordena: [Stunde / seit / warte / ich / einer / schon]",["Stunde warte ich schon einer seit", "schon warte seit ich Stunde einer", "ich warte schon seit einer Stunde", "schon Stunde ich seit warte einer"],2,"Sujeto + presente + “schon seit” + duración."],
+      ["writing","Schreibe auf Deutsch 30-40 Wörter über etwas, das du seit einer Weile machst (mit ‘seit’), und etwas, das du bereits gemacht hast (mit dem Perfekt).",[],["seit", "schon", "habe gemacht"]],
+    ]
+  },
 ];

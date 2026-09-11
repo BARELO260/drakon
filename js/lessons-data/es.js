@@ -4820,4 +4820,364 @@ window.LESSON_BANKS.ES = [
       ["writing","Escribe en español 40-50 palabras comparando dos opciones usando “el primero”, “el segundo” y “dicho esto”.",[],["el primero", "el segundo", "dicho esto"]],
     ]
   },
+  {
+    id:"es_a1_imperatives", level:"A1", title:"El imperativo: instrucciones y consejos directos", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en español con el imperativo.",
+    study: {
+      vocab: [
+        ["Abre la puerta.", "Open the door."],
+        ["Cierra la ventana.", "Close the window."],
+        ["Gira a la izquierda / derecha.", "Turn left / right."],
+        ["No toques eso.", "Don't touch that."],
+        ["Por favor, siéntate.", "Please, sit down."],
+      ],
+      grammar: [
+        ["Imperativo afirmativo vs negativo", "El imperativo afirmativo informal (tú) usa una forma especial del verbo (abre, cierra, gira); el negativo usa el subjuntivo presente (no toques, no cierres).", "Abre la puerta. / No toques eso. / Por favor, espera aquí."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en español (imperativo tú)?",["Abrir la puerta.", "Abre la puerta.", "Abriendo la puerta.", "Abres la puerta."],1,"El imperativo afirmativo es “abre”."],
+      ["mcq","¿Qué modo se usa para el imperativo negativo?",["el infinitivo", "el subjuntivo presente", "el gerundio", "el indicativo presente"],1,"El imperativo negativo usa el subjuntivo presente."],
+      ["fill","Completa: “No ___ eso; está caliente.”",["tocando", "tocas", "toques", "tocar"],2,"Imperativo negativo → subjuntivo: “toques”."],
+      ["translate","Traduce: “Please, sit down.”",["Por favor, sentarte.", "Por favor, siéntate.", "Por favor, sentado.", "Por favor, te sientas."],1,"Imperativo afirmativo: “siéntate”."],
+      ["arrange","Ordena: [puerta / abre / la]",["puerta abre la", "la abre puerta", "la puerta abre", "abre la puerta"],3,"Imperativo + artículo + sustantivo."],
+      ["writing","Escribe en español 20-30 palabras con tres instrucciones usando el imperativo (afirmativo y negativo).",[],["abre", "no toques", "por favor"]],
+    ]
+  },
+  {
+    id:"es_a1_demonstratives", level:"A1", title:"Los demostrativos: este, ese, aquel", emoji:"👆", xp:34,
+    description:"Aprende a usar este, ese y aquel en español según la distancia.",
+    study: {
+      vocab: [
+        ["este/esta/esto", "this (cerca del hablante)"],
+        ["ese/esa/eso", "that (cerca del oyente)"],
+        ["aquel/aquella/aquello", "that over there (lejos de ambos)"],
+        ["estos/estas", "these"],
+        ["¿Qué es esto?", "What is this?"],
+      ],
+      grammar: [
+        ["Tres grados de distancia en español", "El español tiene tres grados de distancia: “este” (cerca de mí), “ese” (cerca de ti), “aquel” (lejos de los dos), a diferencia del inglés que solo distingue dos (this/that).", "Este es mi teléfono. / Aquellos son mis amigos, allá lejos."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para algo cerca de ti (el hablante)?",["aquellos", "este", "ese", "aquel"],1,"“Este” es para algo cerca del hablante."],
+      ["mcq","¿Qué palabra usas para algo lejos de ambos hablantes?",["ese", "esos", "aquel", "este"],2,"“Aquel” es para algo lejos de ambos."],
+      ["fill","Completa: “___ son mis amigos, allá lejos.”",["Este", "Estos", "Aquellos", "Esos"],2,"Lejos de ambos, plural → “aquellos”."],
+      ["translate","Traduce: “These are my books.”",["Estos son mis libros.", "Esos son mis libros.", "Aquel son mis libros.", "Este son mis libros."],0,"Cerca del hablante, plural → “estos”."],
+      ["arrange","Ordena: [teléfono / es / mi / este]",["este teléfono es mi", "este es mi teléfono", "es mi este teléfono", "mi este teléfono es"],1,"Demostrativo + verbo “ser” + posesivo + sustantivo."],
+      ["writing","Escribe en español 20-30 palabras describiendo objetos cerca y lejos de ti usando este, ese y aquel.",[],["este", "ese", "aquel"]],
+    ]
+  },
+  {
+    id:"es_a1_prepositions_time", level:"A1", title:"Preposiciones de tiempo: a, en, por", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo a, en y por en español.",
+    study: {
+      vocab: [
+        ["a + hora", "at + hora (a las 7)"],
+        ["en + mes/año/estación", "in + mes/año/estación"],
+        ["los + día de la semana", "on + día (sin preposición)"],
+        ["por la noche", "at night"],
+        ["por la mañana/tarde", "in the morning/afternoon"],
+      ],
+      grammar: [
+        ["A, en y los días sin preposición", "En español, “a” se usa con horas exactas, “en” con periodos más largos (meses, años), y los días de la semana usan el artículo “los/el” sin preposición (“los lunes”).", "La clase empieza a las 9. / Nací en julio. / Nos vemos los lunes."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["a", "los", "por", "en"],0,"“A” se usa con horas exactas."],
+      ["mcq","¿Con qué palabra se usan los días de la semana (sin preposición)?",["a los", "los", "en los", "por los"],1,"Los días de la semana usan el artículo “los”, sin preposición."],
+      ["fill","Completa: “Nací ___ julio.”",["a", "los", "por", "en"],3,"“En” se usa con meses."],
+      ["translate","Traduce: “We meet on Mondays.”",["Nos vemos por lunes.", "Nos vemos a lunes.", "Nos vemos los lunes.", "Nos vemos en lunes."],2,"Los días de la semana usan “los”, sin preposición."],
+      ["arrange","Ordena: [9 / empieza / las / clase / a / la]",["a empieza 9 la las clase", "a empieza clase la las 9", "la clase empieza a las 9", "empieza las la 9 clase a"],2,"Sujeto + verbo + “a las” + hora."],
+      ["writing","Escribe en español 20-30 palabras sobre tu horario semanal usando a, en y los días de la semana.",[],["a las", "en", "los"]],
+    ]
+  },
+  {
+    id:"es_a1_frequency_adverbs", level:"A1", title:"Adverbios de frecuencia: siempre, normalmente, a veces, nunca", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en español.",
+    study: {
+      vocab: [
+        ["siempre", "always"],
+        ["normalmente", "usually"],
+        ["a veces", "sometimes"],
+        ["rara vez", "rarely"],
+        ["nunca", "never"],
+      ],
+      grammar: [
+        ["Posición de los adverbios de frecuencia", "Los adverbios de frecuencia suelen ir antes del verbo, o al inicio/final de la oración; “nunca” antes del verbo no necesita “no”, pero después del verbo sí lo requiere (“no... nunca”).", "Siempre bebo café por la mañana. / Nunca llega tarde. / No llega nunca tarde."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde suele ir el adverbio de frecuencia respecto al verbo?",["antes", "siempre después", "solo al principio", "solo al final"],0,"El adverbio de frecuencia suele ir antes del verbo."],
+      ["mcq","¿Cómo se dice “a veces” en español?",["siempre", "nunca", "a veces", "normalmente"],2,"“A veces” es “sometimes”."],
+      ["fill","Completa: “Ella ___ llega tarde al trabajo.”",["nada", "nunca", "siempre no", "no nunca"],1,"“Nunca” antes del verbo no necesita “no”."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Siempre bebo café por la mañana.", "Siempre bebiendo café por la mañana.", "Bebo café siempre por la mañana.", "Yo bebiendo siempre café por la mañana."],0,"El adverbio suele ir al inicio o antes del verbo: “siempre bebo”."],
+      ["arrange","Ordena: [trabajo / al / normalmente / voy / autobús / en]",["trabajo normalmente voy autobús al en", "autobús trabajo en normalmente voy al", "al normalmente en trabajo voy autobús", "normalmente voy al trabajo en autobús"],3,"Adverbio + sujeto + verbo + complemento."],
+      ["writing","Escribe en español 20-30 palabras sobre tu rutina usando al menos tres adverbios de frecuencia.",[],["siempre", "normalmente", "a veces"]],
+    ]
+  },
+  {
+    id:"es_a1_de_posesion", level:"A1", title:"La preposición “de” para expresar posesión", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en español con la preposición “de”.",
+    study: {
+      vocab: [
+        ["el libro de Ana", "Ana's book"],
+        ["los juguetes de los niños", "the children's toys"],
+        ["¿De quién es esto?", "Whose is this?"],
+        ["Es de Ana.", "It's Ana's."],
+        ["la casa de mis padres", "my parents' house"],
+      ],
+      grammar: [
+        ["“De + poseedor”, después del objeto poseído", "A diferencia del inglés (Ana's book), en español la posesión con sustantivos siempre se expresa con “de + poseedor”, después del objeto poseído.", "Este es el libro de Ana. / La casa de mis padres es grande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Ana's book” en español?",["el Ana's libro", "Ana de libro", "de Ana el libro", "el libro de Ana"],3,"“Ana's book” es “el libro de Ana”."],
+      ["mcq","¿Qué palabra conecta el objeto con el poseedor en español?",["con", "de", "del", "'s"],1,"“De” conecta el objeto con el poseedor."],
+      ["fill","Completa: “Estos son los juguetes ___ los niños.”",["del", "de los", "por", "de"],3,"“De” + poseedor: “de los niños”."],
+      ["translate","Traduce: “Whose book is this? It's Ana's.”",["¿De quién es este libro? Es de Ana.", "¿Quién es este libro? Es de Ana.", "¿De quién es este libro? Es Ana's.", "¿De quién este libro es? Es de Ana."],0,"“¿De quién?” + “es de Ana”."],
+      ["arrange","Ordena: [Ana / libro / el / de / es / este]",["es de libro el Ana este", "este libro de el es Ana", "libro Ana el es de este", "este es el libro de Ana"],3,"Sujeto + verbo + artículo + sustantivo + “de” + poseedor."],
+      ["writing","Escribe en español 20-30 palabras describiendo objetos que pertenecen a diferentes personas usando “de” para expresar posesión.",[],["de", "¿de quién?", "es de"]],
+    ]
+  },
+  {
+    id:"es_a2_reflexivos", level:"A2", title:"Los verbos reflexivos y los pronombres reflexivos", emoji:"🪞", xp:46,
+    description:"Aprende a usar los verbos y pronombres reflexivos en español.",
+    study: {
+      vocab: [
+        ["me, te, se, nos, os, se", "pronombres reflexivos"],
+        ["levantarse", "to get (oneself) up"],
+        ["ducharse", "to shower (oneself)"],
+        ["Me corté cocinando.", "I cut myself while cooking."],
+        ["solo/a (sin ayuda)", "by myself"],
+      ],
+      grammar: [
+        ["Verbos reflexivos por naturaleza", "Muchos verbos españoles son reflexivos por naturaleza (levantarse, ducharse) y requieren un pronombre reflexivo que concuerda con el sujeto; en inglés muchos de estos verbos no son reflexivos.", "Me levanto a las siete. / Ella se ducha por la mañana."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “yo”?",["te", "se", "nos", "me"],3,"“Yo” usa el pronombre “me”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “ella”?",["nos", "me", "se", "te"],2,"“Ella” usa el pronombre “se”."],
+      ["fill","Completa: “Yo ___ corté cocinando.”",["te", "se", "nos", "me"],3,"“Yo” usa el pronombre reflexivo “me”."],
+      ["translate","Traduce: “She lives by herself.”",["Ella vive ella misma.", "Ella vive por ella misma.", "Ella vive sola.", "Ella se vive sola."],2,"“Vivir” no es reflexivo aquí; “sola” expresa “by herself”."],
+      ["arrange","Ordena: [siete / levanto / las / me / a]",["me levanto a las siete", "a levanto me siete las", "las siete levanto me a", "las me siete levanto a"],0,"Pronombre reflexivo + verbo + “a las” + hora."],
+      ["speaking","Habla en español durante 25-35 palabras sobre tu rutina diaria usando al menos tres verbos reflexivos (levantarse, ducharse, vestirse...).",[],["me levanto", "me ducho", "me visto"]],
+    ]
+  },
+  {
+    id:"es_a2_pronombres_objeto", level:"A2", title:"Los pronombres de objeto directo: lo, la, los, las", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto directo en español.",
+    study: {
+      vocab: [
+        ["lo/la", "him/her/it (objeto directo)"],
+        ["los/las", "them (objeto directo)"],
+        ["me, te, nos, os", "me, you, us, you all"],
+        ["¿Puedes ayudarme?", "Can you help me?"],
+        ["Lo vi ayer.", "I saw him/it yesterday."],
+      ],
+      grammar: [
+        ["El pronombre de objeto va antes del verbo", "Los pronombres de objeto directo (lo, la, los, las) concuerdan en género y número con el sustantivo que reemplazan, y en español normalmente van ANTES del verbo conjugado (a diferencia del inglés, que va después).", "Vi a mi hermana ayer. → La vi ayer. / Ellos compraron el coche. → Ellos lo compraron."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reemplaza a “mi hermana” (femenino singular)?",["las", "lo", "la", "los"],2,"“Mi hermana” se reemplaza por “la”."],
+      ["mcq","¿Qué pronombre reemplaza a “mis padres” (masculino plural)?",["lo", "las", "los", "la"],2,"“Mis padres” se reemplaza por “los”."],
+      ["fill","Completa: “Vi a mi hermana ayer. ___ vi en el parque.”",["Lo", "La", "Las", "Los"],1,"“Mi hermana” se reemplaza por “la”."],
+      ["translate","Traduce: “Can you help us, please?”",["¿Puedes ayudarlos, por favor?", "¿Puedes ayudarnos, por favor?", "¿Puedes nos ayudar, por favor?", "¿Puedes ayudar nos, por favor?"],1,"“Nos” va pegado al infinitivo: “ayudarnos”."],
+      ["arrange","Ordena: [ayer / lo / vi]",["lo ayer vi", "vi lo ayer", "lo vi ayer", "ayer vi lo"],2,"Pronombre de objeto + verbo + adverbio."],
+      ["writing","Escribe en español 25-35 palabras sobre personas u objetos que viste recientemente, usando pronombres de objeto directo (lo, la, los, las).",[],["lo", "la", "los"]],
+    ]
+  },
+  {
+    id:"es_a2_presente_planes_futuros", level:"A2", title:"El presente para planes futuros concretos", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente de indicativo para hablar de planes futuros ya confirmados en español.",
+    study: {
+      vocab: [
+        ["Mañana me reúno con ella.", "I'm meeting her tomorrow."],
+        ["La próxima semana volamos a Madrid.", "We're flying to Madrid next week."],
+        ["¿Qué haces este fin de semana?", "What are you doing this weekend?"],
+        ["plan ya organizado", "arranged plan"],
+        ["cita confirmada", "confirmed appointment"],
+      ],
+      grammar: [
+        ["El presente para planes ya confirmados", "En español, el presente de indicativo se usa frecuentemente para planes futuros ya confirmados, sobre todo con una expresión de tiempo, a diferencia del presente continuo del inglés.", "Mañana me reúno con ella a las 6. / La próxima semana volamos a Madrid."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal usas en español para un plan futuro ya confirmado?",["el presente continuo", "el presente de indicativo", "el futuro simple", "el pasado"],1,"Los planes confirmados suelen usar el presente de indicativo."],
+      ["mcq","¿Cómo se dice “¿Qué vas a hacer este fin de semana?” (plan concreto) en español?",["¿Qué haces este fin de semana?", "¿Qué hiciste este fin de semana?", "¿Qué harás este fin de semana?", "¿Qué estás haciendo este fin de semana?"],0,"Plan concreto → presente: “¿Qué haces...?”."],
+      ["fill","Completa: “Mañana ___ con ella a las 6.”",["me reúno", "me reuniré", "me reunía", "me estoy reuniendo"],0,"Plan confirmado → presente: “me reúno”."],
+      ["translate","Traduce: “We're flying to Madrid next week.” (billete ya comprado)",["La próxima semana volábamos a Madrid.", "La próxima semana volaremos a Madrid.", "La próxima semana estamos volando a Madrid.", "La próxima semana volamos a Madrid."],3,"Plan confirmado → presente: “volamos”."],
+      ["arrange","Ordena: [reúno / mañana / con / me / ella]",["reúno con mañana me ella", "me mañana ella reúno con", "mañana me reúno con ella", "ella reúno mañana con me"],2,"Tiempo + pronombre + verbo + objeto."],
+      ["writing","Escribe en español 25-35 palabras sobre planes que ya tienes confirmados para la próxima semana, usando el presente para hablar del futuro.",[],["mañana", "la próxima semana", "me reúno"]],
+    ]
+  },
+  {
+    id:"es_a2_sugerencias", level:"A2", title:"Hacer sugerencias: vamos a, ¿por qué no?, ¿qué tal si?", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en español.",
+    study: {
+      vocab: [
+        ["Vamos a + infinitivo", "Let's... (vamos a)"],
+        ["¿Por qué no + presente?", "Why don't we...?"],
+        ["¿Qué tal si + presente?", "How about...?"],
+        ["¿Y si + presente?", "What if we...?"],
+        ["Me parece bien.", "That sounds good."],
+      ],
+      grammar: [
+        ["Infinitivo tras “vamos a”, presente en las demás", "“Vamos a” va seguido de infinitivo; “¿por qué no?”, “¿qué tal si?” y “¿y si?” van seguidos del verbo conjugado en presente de indicativo, no en infinitivo.", "Vamos a ir a la playa. / ¿Por qué no pedimos pizza? / ¿Qué tal si vemos una película?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma sigue a “vamos a”?",["presente conjugado", "subjuntivo", "gerundio", "infinitivo"],3,"Tras “vamos a” va el infinitivo."],
+      ["mcq","¿Cómo se dice “¿Por qué no pedimos pizza?” en español?",["¿Por qué no pedimos pizza?", "¿Por qué no pidiendo pizza?", "¿Por qué nosotros no pedimos pizza?", "¿Por qué no pedir pizza?"],0,"“¿Por qué no?” + presente conjugado: “pedimos”."],
+      ["fill","Completa: “¿Qué tal si ___ una película esta noche?”",["veremos", "viendo", "vemos", "ver"],2,"“¿Qué tal si?” + presente conjugado: “vemos”."],
+      ["translate","Traduce: “Let's go to the beach.”",["Vamos a ir a la playa.", "Vamos a la playa ir.", "Vamos ir a la playa.", "Vamos a ido a la playa."],0,"“Vamos a” + infinitivo: “ir”."],
+      ["arrange","Ordena: [playa / vamos / ir / a / la / a]",["la vamos ir a playa a", "vamos a ir a la playa", "ir a a la playa vamos", "a a playa vamos ir la"],1,"“Vamos a” + infinitivo + complemento."],
+      ["speaking","Habla en español durante 25-35 palabras haciendo tres sugerencias para un plan con amigos, usando vamos a, ¿por qué no? y ¿qué tal si?",[],["vamos a", "por qué no", "qué tal si"]],
+    ]
+  },
+  {
+    id:"es_a2_verbos_preposicion_fija", level:"A2", title:"Verbos con preposición fija: dejar de, quedarse con, fijarse en", emoji:"🔌", xp:47,
+    description:"Aprende verbos españoles que cambian de significado con una preposición fija.",
+    study: {
+      vocab: [
+        ["dejar de + infinitivo", "to stop doing"],
+        ["quedarse con", "to keep"],
+        ["fijarse en", "to notice"],
+        ["contar con", "to count on"],
+        ["darse cuenta de", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos españoles cambian de significado al combinarse con una preposición fija, de forma similar a los phrasal verbs del inglés.", "Dejé de fumar el año pasado. / Me fijé en su nueva chaqueta. / Puedes contar conmigo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to notice” en español (verbo + preposición)?",["dejar de", "quedarse con", "contar con", "fijarse en"],3,"“To notice” es “fijarse en”."],
+      ["mcq","¿Cómo se dice “to count on” en español?",["darse cuenta de", "dejar de", "fijarse en", "contar con"],3,"“To count on” es “contar con”."],
+      ["fill","Completa: “___ fumar el año pasado.”",["Conté con", "Me quedé con", "Dejé de", "Me fijé en"],2,"“Dejar de + infinitivo” = dejar de hacer algo: “dejé de fumar”."],
+      ["translate","Traduce: “I noticed her new jacket.”",["Dejé de su nueva chaqueta.", "Conté con su nueva chaqueta.", "Me quedé con su nueva chaqueta.", "Me fijé en su nueva chaqueta."],3,"“Noticed” es “me fijé en”."],
+      ["arrange","Ordena: [conmigo / puedes / contar]",["puedes conmigo contar", "puedes contar conmigo", "contar conmigo puedes", "contar puedes conmigo"],1,"Sujeto + “contar con” + objeto."],
+      ["writing","Escribe en español 25-35 palabras sobre tus hábitos usando al menos tres verbos con preposición fija (dejar de, fijarse en, contar con...).",[],["dejé de", "me fijé en", "cuento con"]],
+    ]
+  },
+  {
+    id:"es_b1_condicionales_reales", level:"B1", title:"Las oraciones condicionales reales (tipo 0 y tipo 1)", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre las condicionales tipo 0 y tipo 1 en español.",
+    study: {
+      vocab: [
+        ["Si + presente, presente (tipo 0)", "zero conditional – verdades generales"],
+        ["Si + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
+        ["Cuando el agua hierve, se evapora.", "ejemplo de condicional tipo 0"],
+        ["Si llueve, me quedaré en casa.", "ejemplo de condicional tipo 1"],
+        ["posibilidad real", "real possibility"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (si + presente, presente) expresa verdades generales; el tipo 1 (si + presente, futuro) expresa una posibilidad real en el futuro.", "Si calientas el hielo, se derrite. / Si llueve mañana, me quedaré en casa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo de condicional usas para una verdad general?",["tipo 0", "tipo 1", "tipo 3", "tipo 2"],0,"Verdades generales → condicional tipo 0."],
+      ["mcq","¿Qué tipo de condicional usas para una posibilidad real futura?",["tipo 0", "tipo 3", "tipo 1", "tipo 2"],2,"Posibilidad real futura → condicional tipo 1."],
+      ["fill","Completa: “Si calientas el hielo, se ___.”",["derritió", "derrite", "derretirá", "derritiendo"],1,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["Si llueve mañana, me quedaría en casa.", "Si llueve mañana, me quedaré en casa.", "Si lloverá mañana, me quedaré en casa.", "Si llueve mañana, me quedo en casa."],1,"Tipo 1: si + presente, futuro."],
+      ["arrange","Ordena: [evapora / hierve / cuando / se / agua / el]",["cuando el agua hierve se evapora", "cuando se el hierve evapora agua", "agua evapora se el hierve cuando", "se el cuando evapora agua hierve"],0,"“Cuando” + presente + presente (verdad general)."],
+      ["writing","Escribe en español 30-40 palabras con dos ejemplos: una verdad general (tipo 0) y una posibilidad real futura (tipo 1).",[],["si", "cuando", "futuro"]],
+    ]
+  },
+  {
+    id:"es_b1_voz_pasiva_basica", level:"B1", title:"La voz pasiva básica y la pasiva refleja con “se”", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva y la pasiva refleja con “se” en español.",
+    study: {
+      vocab: [
+        ["ser + participio (con agente)", "passive with agent"],
+        ["se + verbo en 3ª persona (pasiva refleja)", "impersonal passive with 'se'"],
+        ["La carta fue enviada.", "The letter was sent."],
+        ["Aquí se habla inglés.", "English is spoken here."],
+        ["por + agente", "by + agent"],
+      ],
+      grammar: [
+        ["Pasiva con “ser” vs pasiva refleja con “se”", "El español usa “ser + participio” cuando se menciona el agente (“la carta fue enviada por Juan”), pero prefiere la pasiva refleja con “se” cuando el agente no importa o es desconocido (“aquí se habla inglés”).", "La carta fue enviada por Juan. / Aquí se habla inglés."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué construcción se prefiere cuando no se menciona el agente?",["ser + participio", "el gerundio", "estar + participio", "la pasiva refleja con ‘se’"],3,"Sin agente conocido, se prefiere la pasiva refleja."],
+      ["mcq","¿Cómo se dice “English is spoken here” en español (pasiva refleja)?",["Aquí se habla inglés.", "Aquí se hablando inglés.", "Aquí es hablado inglés.", "Aquí inglés es hablado."],0,"Pasiva refleja: “se habla inglés”."],
+      ["fill","Completa: “La carta ___ por Juan ayer.”",["se envió", "es enviada", "envió", "fue enviada"],3,"Con agente mencionado → “ser + participio”: “fue enviada”."],
+      ["translate","Traduce: “The letter was sent yesterday.” (con agente, tono formal)",["La carta se enviaba ayer.", "La carta ha sido enviando ayer.", "La carta fue enviada ayer.", "La carta es enviada ayer."],2,"Con agente → “ser + participio”: “fue enviada”."],
+      ["arrange","Ordena: [inglés / aquí / habla / se]",["aquí se habla inglés", "habla inglés aquí se", "habla se inglés aquí", "inglés habla aquí se"],0,"“Aquí” + “se” + verbo + objeto."],
+      ["writing","Escribe en español 30-40 palabras sobre algo que se hace en tu país o trabajo, usando la pasiva refleja con “se” y “ser + participio”.",[],["se habla", "fue enviada", "se hace"]],
+    ]
+  },
+  {
+    id:"es_b1_muletillas_confirmacion", level:"B1", title:"Muletillas de confirmación: ¿verdad?, ¿no?, ¿vale?", emoji:"❓", xp:58,
+    description:"Aprende a usar muletillas de confirmación en español.",
+    study: {
+      vocab: [
+        ["..., ¿verdad?", "..., right? / isn't it?"],
+        ["..., ¿no?", "..., isn't it? (más informal)"],
+        ["..., ¿vale?", "..., okay? (pedir acuerdo)"],
+        ["..., ¿cierto?", "..., correct?"],
+        ["confirmar información", "to confirm information"],
+      ],
+      grammar: [
+        ["Muletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo (isn't it?, don't you?...), el español usa las mismas muletillas invariables (¿verdad?, ¿no?) para casi cualquier oración.", "Eres de España, ¿verdad? / No te gusta el café, ¿no?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué muletilla es la más neutra y común para confirmar información?",["¿vale?", "¿no?", "¿cierto?", "¿verdad?"],3,"“¿Verdad?” es la muletilla más neutra y común."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en español cambian según el verbo", "en español solo se usan en negativo", "en español solo se usan en el pasado", "en español son invariables"],3,"En español las muletillas de confirmación no cambian según el verbo."],
+      ["fill","Completa: “No te gusta el café, ___?”",["¿sí", "¿no", "¿cierto", "¿vale"],1,"“¿No?” es la muletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Fuiste a la fiesta, ¿verdad?", "Fuiste a la fiesta, ¿fuiste no?", "Fuiste a la fiesta, ¿no fuiste?", "Fuiste a la fiesta, ¿verdad fuiste?"],0,"“¿Verdad?” es invariable, no repite el verbo."],
+      ["arrange","Ordena: [España / eres / verdad / de]",["verdad de España eres", "verdad eres de España", "España verdad de eres", "eres de España verdad"],3,"Afirmación + muletilla de confirmación."],
+      ["writing","Escribe en español 30-40 palabras con tres oraciones usando muletillas de confirmación (¿verdad?, ¿no?, ¿vale?) para confirmar información con un amigo.",[],["¿verdad?", "¿no?", "¿vale?"]],
+    ]
+  },
+  {
+    id:"es_b1_preguntas_indirectas", level:"B1", title:"Las preguntas indirectas y corteses", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en español.",
+    study: {
+      vocab: [
+        ["¿Podrías decirme dónde...?", "Could you tell me where...?"],
+        ["¿Sabes si...?", "Do you know if...?"],
+        ["Me pregunto qué...", "I wonder what..."],
+        ["con 'si' para preguntas de sí/no", "with 'si' for yes/no questions"],
+        ["petición cortés", "polite request"],
+      ],
+      grammar: [
+        ["“Si” para preguntas de sí/no en estilo indirecto", "Las preguntas indirectas en español usan “si” para preguntas de sí/no, y frases corteses como “¿podrías decirme...?” para pedir información con más educación.", "¿Dónde está la estación? → ¿Podrías decirme dónde está la estación? / ¿Viene ella? → ¿Sabes si ella viene?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["cómo", "si", "que", "qué"],1,"“Si” introduce preguntas de sí/no en estilo indirecto."],
+      ["mcq","¿Qué frase cortés puedes usar para pedir información?",["¿Podrías decirme...?", "¿Verdad?", "¿Qué es esto?", "Dime."],0,"“¿Podrías decirme...?” es una fórmula cortés."],
+      ["fill","Completa: “¿Podrías decirme dónde ___ la estación?”",["estar", "esté", "está", "estaba"],2,"“¿Dónde está?” se mantiene en el estilo indirecto."],
+      ["translate","Traduce: “Do you know if she's coming?”",["¿Sabes que ella viene?", "¿Sabes si viene ella?", "¿Sabes ella si viene?", "¿Sabes si ella viene?"],3,"“If” se traduce como “si”."],
+      ["arrange","Ordena: [decirme / podrías / estación / dónde / la / está]",["estación está dónde la podrías decirme", "la dónde podrías estación decirme está", "está decirme podrías la estación dónde", "podrías decirme dónde está la estación"],3,"Frase cortés + pregunta incrustada."],
+      ["speaking","Habla en español durante 30-40 palabras haciendo tres preguntas indirectas y corteses a un desconocido en la calle.",[],["¿Podrías decirme", "¿Sabes si", "Me pregunto"]],
+    ]
+  },
+  {
+    id:"es_b1_llevar_gerundio_vs_perfecto", level:"B1", title:"El pretérito perfecto vs. “llevar + gerundio”", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el pretérito perfecto y “llevar + tiempo + gerundio” en español.",
+    study: {
+      vocab: [
+        ["he/has + participio", "present perfect – experiencia/resultado reciente"],
+        ["llevar + tiempo + gerundio", "to have been doing – duración"],
+        ["¿Cuánto tiempo llevas...?", "How long have you been...?"],
+        ["ya / todavía no", "already / not yet"],
+        ["Llevo una hora esperando.", "I've been waiting for an hour."],
+      ],
+      grammar: [
+        ["Resultado reciente vs duración con “llevar”", "El pretérito perfecto compuesto (he hecho) destaca un resultado o experiencia reciente; para destacar la DURACIÓN de una acción que sigue en curso, el español prefiere “llevar + tiempo + gerundio” en vez de una forma compuesta como en inglés.", "He leído tres libros este mes. / Llevo una hora esperando."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura destaca la duración de una acción en curso?",["llevar + tiempo + gerundio", "el imperfecto", "el pretérito indefinido", "he/has + participio"],0,"“Llevar + gerundio” destaca la duración."],
+      ["mcq","¿Qué estructura destaca un resultado o experiencia reciente?",["llevar + gerundio", "he/has + participio", "el condicional", "el futuro"],1,"El pretérito perfecto destaca el resultado o experiencia reciente."],
+      ["fill","Completa: “___ una hora esperando.”",["He", "Llevo", "Tengo", "Estoy"],1,"Duración → “llevar + tiempo + gerundio”: “llevo”."],
+      ["translate","Traduce: “I've read three books this month.” (cantidad)",["Llevo leyendo tres libros este mes.", "He leído tres libros este mes.", "Llevo tres libros este mes leído.", "He leyendo tres libros este mes."],1,"Cantidad/resultado → pretérito perfecto: “he leído”."],
+      ["arrange","Ordena: [hora / llevo / esperando / una]",["llevo esperando hora una", "llevo una hora esperando", "una esperando llevo hora", "una esperando hora llevo"],1,"“Llevar” + tiempo + gerundio."],
+      ["writing","Escribe en español 30-40 palabras sobre algo que has estado haciendo últimamente (duración con ‘llevar’) y algo que has hecho (con pretérito perfecto).",[],["llevo", "he hecho", "ya"]],
+    ]
+  },
 ];
