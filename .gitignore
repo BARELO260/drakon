@@ -1,1 +1,21 @@
-drakon/
+# Dependencias y entornos
+node_modules/
+functions/node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Archivos de sistema/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Configuración local / secretos (nunca deben commitearse)
+.env
+.env.*
+*firebase-adminsdk*.json
+serviceAccountKey.json
+
+# Nota: la carpeta docs/ es la ÚNICA que debe publicarse (GitHub Pages).
+# functions/, tools/, README.md, firestore.rules y este .gitignore quedan
+# fuera de docs/ intencionalmente para que nunca se sirvan públicamente.

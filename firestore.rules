@@ -46,6 +46,20 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // Solicitudes de consentimiento parental (COPPA / Google Play Families).
+    // El menor solo puede CREAR su propia solicitud, siempre en estado
+    // 'pending' y con su propio uid como childUid — nunca puede aprobarla
+    // él mismo ni modificarla después. Solo el SDK de administrador (usado
+    // manualmente desde la consola de Firebase, o por una futura Cloud
+    // Function de aprobación) puede cambiar el status a 'approved'.
+    match /parentalConsentRequests/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid
+                    && request.resource.data.childUid == uid
+                    && request.resource.data.status == 'pending';
+      allow update, delete: if false;
+    }
+
     // Todo lo demás, denegado por defecto.
     match /{document=**} {
       allow read, write: if false;

@@ -1,5 +1,24 @@
 # IA administrada de Drakón
 
+## ⚠️ Estructura del repositorio y despliegue (GitHub Pages)
+
+La app se publica con **GitHub Pages**, no con Firebase Hosting. Por eso el
+proyecto está dividido así:
+
+- **`docs/`** — la ÚNICA carpeta que debe publicarse. Contiene todo el
+  código cliente (`index.html`, `games.html`, `privacy.html`, `terms.html`,
+  `manifest.json`, `sw.js`, `css/`, `js/`, `assets/`). Configura GitHub
+  Pages para servir desde **`/docs` en la rama principal** (Settings →
+  Pages → Branch → `main` / `docs`).
+- **Todo lo demás** (`functions/`, `tools/`, `firestore.rules`,
+  `firebase.json`, este `README.md`) se queda fuera de `docs/` a propósito:
+  GitHub Pages nunca sirve nada fuera de la carpeta configurada, así que
+  el código de las Cloud Functions, los scripts internos de generación de
+  contenido y las notas de arquitectura no quedan expuestos públicamente.
+- Si en algún momento cambias de proveedor de hosting (por ejemplo a
+  Firebase Hosting), aplica la misma regla: el directorio público debe
+  apuntar solo a `docs/`, nunca a la raíz del repositorio.
+
 Este servicio elimina por completo la necesidad de que cada alumno cree
 cuentas o copie claves de Groq y ElevenLabs. Las credenciales se guardan solo
 en Firebase Secret Manager; no las pongas en `index.html`, JavaScript ni el APK.
@@ -86,3 +105,43 @@ Firestore (el cliente jamás puede hacerlo por su cuenta, reforzado por
 
 La aplicación publicada solo usa el gateway; el alumno autenticado no verá ni
 necesitará credenciales de proveedores.
+
+## Consentimiento parental (menores de 13 años)
+
+La app está dirigida también a menores de 13 años, lo que activa COPPA
+(EE. UU.) y la Política de Familias de Google Play. Ya está implementado:
+
+- **Age gate**: pantalla neutral (`screen-age-gate` en `docs/index.html`,
+  lógica en `docs/js/age-gate.js`) que pregunta el año de nacimiento una
+  vez por cuenta.
+- **Restricción automática**: si la cuenta es de un menor de 13 años,
+  `isMinorRestricted()` bloquea el chat con IA (`chat.js`, `ai-gateway.js`)
+  y el acceso a cámara/micrófono (`situations.js`, `audio.js`) hasta que
+  haya consentimiento aprobado. Lecciones y juegos siguen disponibles.
+- **Solicitud de consentimiento**: el menor puede registrar el correo de
+  un adulto responsable, que se guarda en Firestore
+  (`parentalConsentRequests/{uid}`, siempre en estado `pending` — las
+  reglas le impiden al cliente aprobarse a sí mismo).
+- **Aprobación**: hoy es manual — abre la consola de Firebase, edita
+  `parentalConsentRequests/{uid}` y cambia `status` a `approved`. La
+  Cloud Function `onParentalConsentUpdated` propaga automáticamente ese
+  cambio a `users/{uid}.parentalConsentStatus`, que es lo que la app
+  sincroniza; el usuario ve las funciones desbloqueadas la próxima vez
+  que abra la app.
+
+**Pendiente antes de operar con audiencia infantil real** — esto NO está
+resuelto todavía y requiere una decisión de producto, no solo código:
+
+1. Un mecanismo real de **verificación de consentimiento parental (VPC)**
+   que confirme que quien aprueba es de verdad un adulto (p. ej. doble
+   confirmación por correo con la extensión "Trigger Email" de Firebase,
+   firma de un formulario, o un servicio de verificación de identidad de
+   pago). Ahora mismo cualquiera con acceso a la consola de Firebase puede
+   aprobar manualmente — es solo un placeholder operativo.
+2. Confirmar directamente con **Groq** y **ElevenLabs** que sus propios
+   Términos de Servicio permiten procesar datos de usuarios menores de 13
+   años bajo consentimiento parental. Si alguno no lo permite, esa
+   integración específica no puede activarse para cuentas de menores
+   aunque exista el consentimiento, y `docs/privacy.html` debe reflejarlo.
+3. Revisar con un profesional legal las secciones de menores en
+   `docs/privacy.html` y `docs/terms.html` antes de publicar.

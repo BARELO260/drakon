@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Política de privacidad — Drakón</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px 80px;color:#1a1a1a;line-height:1.65;background:#fffaf3}
+  h1{font-size:26px;margin-bottom:4px}
+  h2{font-size:18px;margin-top:36px;color:#92400e}
+  .updated{color:#777;font-size:13px;margin-bottom:28px}
+  .notice{background:#fff3cd;border:1px solid #ffe08a;border-radius:10px;padding:14px 16px;font-size:13px;color:#5c4400;margin-bottom:28px}
+  ul{padding-left:22px}
+  li{margin-bottom:6px}
+  a{color:#d97706}
+  code{background:#f1f1f1;padding:1px 5px;border-radius:4px;font-size:13px}
+  footer{margin-top:48px;font-size:12px;color:#999}
+</style>
+</head>
+<body>
+
+<h1>🐲 Política de privacidad de Drakón</h1>
+<div class="updated">Última actualización: 12 de septiembre de 2026</div>
+
+<div class="notice">
+  ⚠️ <strong>Nota para el desarrollador:</strong> este documento ya incluye la identidad del responsable del tratamiento. Todavía falta completar antes de publicar: (1) el <code>[correo de contacto pendiente]</code> de la sección 10, y (2) confirmar tu país/jurisdicción principal si quieres una mención explícita. Como la app está dirigida también a menores de 13 años, revisa especialmente la sección 8 (Menores de edad) y confirma con Groq y ElevenLabs, por separado, que sus propios Términos de Servicio permiten procesar datos de usuarios menores de 13 años bajo consentimiento parental — si no lo permiten, esas integraciones no pueden usarse con cuentas de menores aunque exista consentimiento, y esta política debe reflejarlo. Te recomendamos además que un profesional legal confirme este documento para tu jurisdicción antes del lanzamiento.
+</div>
+
+<p>Esta política explica qué información recopila <strong>Drakón — Aprende Idiomas con IA</strong> ("la app", "nosotros"), cómo la usamos, y qué opciones tienes al respecto.</p>
+
+<h2>Responsable del tratamiento de datos</h2>
+<p><strong>Jose Luis Cordón Pineda</strong>, desarrollador individual de la app Drakón.</p>
+
+<h2>1. Qué datos recopilamos</h2>
+<ul>
+  <li><strong>Cuenta:</strong> si creas una cuenta, guardamos tu correo electrónico y un identificador de usuario a través de Firebase Authentication (Google).</li>
+  <li><strong>Progreso de aprendizaje:</strong> idioma que estudias, lecciones completadas, racha, puntos de experiencia y preferencias de la app, para sincronizar tu progreso entre dispositivos.</li>
+  <li><strong>Conversaciones con la IA:</strong> los mensajes que envías al tutor de IA se procesan para generar una respuesta. No se usan para entrenar modelos de terceros más allá del procesamiento normal del proveedor de IA (ver sección 3).</li>
+  <li><strong>Cámara:</strong> se usa únicamente cuando activas voluntariamente las funciones "Escanear" o "Videollamada" dentro de "Situaciones", para analizar una foto o dar contexto visual a la IA. Las imágenes se envían al proveedor de IA para su análisis y no se almacenan permanentemente en nuestros servidores.</li>
+  <li><strong>Micrófono:</strong> se usa únicamente cuando activas voluntariamente una función de voz (chat por voz, ejercicios de pronunciación, videollamada). El audio grabado se envía a un servicio de transcripción (ver sección 3) y no se almacena permanentemente.</li>
+  <li><strong>Claves de API propias (modo "trae tu propia clave"):</strong> si introduces tu propia clave de Groq o ElevenLabs, se guarda <strong>solo en tu dispositivo</strong> (almacenamiento local del navegador), nunca en nuestros servidores.</li>
+  <li><strong>Año de nacimiento:</strong> lo pedimos una sola vez, al crear la cuenta, únicamente para saber si te corresponden las protecciones adicionales para menores de 13 años descritas en la sección 8. No pedimos el día ni el mes de nacimiento.</li>
+  <li><strong>Correo del padre, madre o tutor (solo cuentas de menores de 13 años):</strong> si la cuenta es de un menor de 13 años, se guarda el correo de un adulto responsable para gestionar la solicitud de consentimiento parental descrita en la sección 8.</li>
+</ul>
+
+<h2>2. Para qué usamos tus datos</h2>
+<ul>
+  <li>Proveer y sincronizar tu progreso de aprendizaje entre dispositivos.</li>
+  <li>Generar respuestas del tutor de IA, traducciones, y análisis de imágenes/audio que tú mismo solicitas.</li>
+  <li>Mejorar la estabilidad y el funcionamiento de la app (registro técnico de errores, sin contenido personal identificable más allá de lo necesario para depurar fallos).</li>
+</ul>
+<p>No vendemos tus datos personales ni los usamos con fines publicitarios.</p>
+
+<h2>3. Servicios de terceros que usamos</h2>
+<ul>
+  <li><strong>Firebase (Google):</strong> autenticación de cuenta y almacenamiento de tu progreso. Ver la <a href="https://policies.google.com/privacy" target="_blank">política de privacidad de Google</a>.</li>
+  <li><strong>Groq:</strong> procesa los mensajes de chat, el reconocimiento de voz (transcripción) y el análisis de imágenes que envías voluntariamente, para generar las respuestas de la IA. Ver la <a href="https://groq.com/privacy-policy/" target="_blank">política de privacidad de Groq</a>.</li>
+  <li><strong>ElevenLabs (opcional):</strong> si está activo, convierte el texto de las respuestas en voz. Ver su <a href="https://elevenlabs.io/privacy" target="_blank">política de privacidad</a>.</li>
+</ul>
+
+<h2>4. Permisos de cámara y micrófono</h2>
+<p>Drakón solo solicita acceso a la cámara o al micrófono en el momento exacto en que activas una función que los necesita (Escanear, Videollamada, chat por voz, ejercicios de pronunciación) — nunca al abrir la app. Puedes revocar estos permisos en cualquier momento desde los ajustes de tu navegador o sistema operativo; si lo haces, esas funciones específicas dejarán de estar disponibles hasta que los actives de nuevo.</p>
+
+<h2>5. Cuánto tiempo conservamos tus datos</h2>
+<p>Conservamos tu cuenta y progreso mientras mantengas tu cuenta activa. Las imágenes y clips de audio que envías para análisis o transcripción se procesan y no se conservan permanentemente por nosotros más allá de lo necesario para completar esa solicitud puntual.</p>
+
+<h2>6. Elimina tu cuenta y tus datos</h2>
+<p>Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento desde <strong>Ajustes → Privacidad y datos → Eliminar mi cuenta</strong> dentro de la app. Esta acción es permanente e inmediata.</p>
+
+<h2>8. Menores de edad</h2>
+<p>Drakón está disponible tanto para audiencia general como para menores de 13 años, con protecciones adicionales para estos últimos:</p>
+<ul>
+  <li>Al crear una cuenta, preguntamos el año de nacimiento (nunca el día ni el mes) para identificar si corresponden estas protecciones.</li>
+  <li>Si la cuenta es de un menor de 13 años, las funciones que envían datos a proveedores externos de inteligencia artificial —chat con el tutor de IA, texto a voz gestionado, cámara y micrófono— permanecen <strong>desactivadas</strong> hasta que un padre, madre o tutor otorgue su consentimiento. Mientras tanto, el menor puede seguir usando las lecciones y los juegos con normalidad, que no requieren estos permisos ni envían datos a esos proveedores.</li>
+  <li>Para solicitar la activación, se pide el correo de un adulto responsable, que queda registrado como solicitud pendiente de aprobación. Actualmente esta aprobación la revisa el desarrollador de forma manual antes de activar cualquier función adicional para esa cuenta.</li>
+  <li>No recopilamos de menores de 13 años más información de la estrictamente necesaria para el funcionamiento de la app (año de nacimiento y, si corresponde, el correo del adulto responsable), y no se las usa con fines publicitarios ni se comparte con terceros salvo lo descrito en la sección 3, y solo tras el consentimiento parental correspondiente.</li>
+  <li>Un padre, madre o tutor puede en cualquier momento solicitar ver, corregir o eliminar la información de la cuenta de su hijo/a, o revocar el consentimiento otorgado, escribiendo al correo de contacto de la sección 10.</li>
+</ul>
+
+<h2>9. Cambios a esta política</h2>
+<p>Podemos actualizar esta política ocasionalmente. Los cambios importantes se indicarán con una nueva fecha de "Última actualización" en esta misma página.</p>
+
+<h2>10. Contacto</h2>
+<p>Para preguntas sobre esta política, tus datos, o para gestionar el consentimiento parental de la cuenta de un menor, escríbenos a: <code>[correo de contacto pendiente]</code></p>
+
+<footer>Drakón — Aprende Idiomas con IA · <a href="terms.html">Términos de servicio</a></footer>
+
+</body>
+</html>

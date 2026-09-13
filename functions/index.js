@@ -1,6 +1,7 @@
 /* Drakón managed AI gateway.
    Secrets never leave this service: configure them with Firebase Secret Manager. */
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
+const { onDocumentUpdated } = require('firebase-functions/v2/firestore');
 const { defineSecret } = require('firebase-functions/params');
 const { getFirestore } = require('firebase-admin/firestore');
 const { initializeApp } = require('firebase-admin/app');
@@ -211,4 +212,23 @@ exports.verifyPlayPurchase = onCall({
   }, { merge:true });
 
   return { isPremium:true, expiresAt:expiryMs };
+});
+
+// Consentimiento parental (COPPA / Google Play Families).
+// La app NUNCA marca 'approved' por sí misma (firestore.rules se lo impide
+// al cliente): esta colección solo cambia de 'pending' a 'approved' cuando
+// TÚ lo haces manualmente desde la consola de Firebase (Firestore →
+// parentalConsentRequests → {uid} → editar el campo status), una vez
+// verificado el consentimiento del padre/madre/tutor por el medio que
+// hayas decidido implementar (ver README.md, sección "Consentimiento
+// parental"). Este trigger se limita a reflejar automáticamente ese
+// cambio en users/{uid}, que es el documento que la app sí sincroniza
+// con el estado local (state.parentalConsentStatus).
+exports.onParentalConsentUpdated = onDocumentUpdated('parentalConsentRequests/{uid}', async (event) => {
+  const before = event.data.before.data();
+  const after = event.data.after.data();
+  if(!after || after.status === before?.status) return;
+  await getFirestore().collection('users').doc(event.params.uid).set({
+    parentalConsentStatus: after.status,
+  }, { merge:true });
 });
