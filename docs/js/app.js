@@ -72,6 +72,14 @@ window._navFromPopstate = false; // bandera compartida — situations.js (cargad
 function goTo(sid){
   const cur=document.getElementById(state.screen); state.prevScreen=state.screen;
   const next=document.getElementById(sid); if(!next) return;
+  // Cortar cualquier voz IA (ElevenLabs) que estuviera sonando al salir de
+  // la pantalla actual — el audio debe sonar SOLO en el apartado donde se
+  // originó; nunca debe seguir de fondo tras navegar a otro lado. Cubre
+  // el chat, las Situaciones, los ejercicios de Escuchar, la introducción
+  // de personajes, etc., sin tener que repetir esta llamada en cada sitio.
+  if(state.screen!==sid && typeof ttsStopAll==='function'){
+    ttsStopAll();
+  }
   // Si salimos de la videollamada de una Situación por cualquier vía (botón,
   // navegación programática o el botón Atrás), siempre apagamos cámara/mic —
   // nunca debe quedar la cámara encendida "en segundo plano".
@@ -83,7 +91,6 @@ function goTo(sid){
   }
   if(cur) cur.classList.remove('active');
   if(state.screen==='screen-chat' && sid!=='screen-chat'){
-    if(window.speechSynthesis) window.speechSynthesis.cancel();
     // Si el usuario navega fuera del chat mientras el micrófono está
     // grabando (p.ej. con el botón Atrás), la grabación se detiene y
     // libera de forma limpia en vez de quedar "colgada" en segundo plano.
