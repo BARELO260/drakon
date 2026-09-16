@@ -78,7 +78,6 @@ function isPremiumActive(){
   return typeof state !== 'undefined' && !!state.isPremium;
 }
 function currentPlanId(){ return isPremiumActive() ? 'premium' : 'free'; }
-function currentPlan(){ return MONETIZATION.plans[currentPlanId()]; }
 function currentLimits(){ return MONETIZATION.limits[currentPlanId()]; }
 
 function isFeaturePremiumOnly(key){ return !!MONETIZATION.premiumOnlyFeatures[key]; }

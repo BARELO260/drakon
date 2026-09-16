@@ -315,6 +315,37 @@
   </div>
 </div>
 
+<!-- VERIFICACIÓN DE EDAD (COPPA / Google Play Families) -->
+<div class="screen" id="screen-age-gate" style="justify-content:center;align-items:center;text-align:center;padding:32px 24px;">
+  <div style="font-size:48px;margin-bottom:12px;">🎂</div>
+  <h2 style="margin:0 0 8px;">¿En qué año naciste?</h2>
+  <p style="opacity:.8;max-width:360px;margin:0 0 20px;font-size:13px;line-height:1.5">Lo necesitamos una sola vez para ajustar la experiencia a tu edad.</p>
+  <div class="login-field" style="width:100%;max-width:260px;">
+    <select id="ageGateYear" style="width:100%;background:var(--input-bg);border:none;border-radius:var(--radius-md);padding:13px 14px;color:var(--text);font-size:15px;font-family:var(--fb);outline:none;"><option value="">Selecciona un año</option></select>
+  </div>
+  <div id="ageGateErr" class="login-err" style="min-height:20px;"></div>
+  <button class="intro-btn" style="margin-top:8px;max-width:220px;" onclick="submitAgeGate()">Continuar</button>
+</div>
+
+<!-- CONSENTIMIENTO PARENTAL (cuentas de menores de 13 años) -->
+<div class="screen" id="screen-parental-consent" style="justify-content:center;align-items:center;text-align:center;padding:32px 24px;">
+  <div style="font-size:48px;margin-bottom:12px;">👨‍👩‍👧</div>
+  <h2 style="margin:0 0 8px;">Necesitamos permiso de un adulto</h2>
+  <p style="opacity:.8;max-width:380px;margin:0 0 18px;font-size:13px;line-height:1.5">
+    El chat con inteligencia artificial, la cámara y el micrófono requieren autorización
+    de un padre, madre o tutor. Mientras tanto puedes usar las lecciones y los juegos con normalidad.
+  </p>
+  <div class="login-field" style="width:100%;max-width:320px;">
+    <label>Correo de tu padre, madre o tutor</label>
+    <input id="parentEmailInput" type="email" placeholder="nombre@correo.com" autocomplete="email"/>
+  </div>
+  <div id="parentalConsentErr" class="login-err" style="min-height:20px;"></div>
+  <div id="parentalConsentOk" style="display:none;color:#4ade80;font-size:12px;margin-bottom:8px;">✅ Solicitud enviada. Te avisaremos cuando se apruebe.</div>
+  <div id="parentalConsentStatusMsg" style="opacity:.7;font-size:12px;margin-bottom:12px;"></div>
+  <button class="intro-btn" style="max-width:320px;" onclick="submitParentalConsentRequest()">Enviar solicitud</button>
+  <button class="quiz-skip" style="margin-top:12px;font-size:12px;" onclick="continueWithoutAI()">Continuar sin IA por ahora</button>
+</div>
+
 <!-- NATIVE LANGUAGE SELECTION -->
 <div class="screen" id="screen-native" style="display:flex;flex-direction:column;overflow-y:auto">
   <div class="native-hdr">
@@ -335,9 +366,10 @@
   <div class="logo">Drakón</div>
   <div class="tagline">Tutor de idiomas · Inteligencia Artificial</div>
   <div class="mascot-intro" id="introEmoji" onclick="introMascotTap()" style="font-size:0"></div>
+  <div class="intro-speech" id="introSpeech">Elige quién te va a acompañar. Puedes cambiarlo cuando quieras.</div>
   <div class="intro-select-lbl">— Elige tu compañero —</div>
   <div class="char-pick" id="charPickRow"></div>
-  <button class="intro-btn" onclick="goTo('screen-lang')">Iniciar protocolo 🚀</button>
+  <button class="intro-btn" onclick="goTo('screen-lang')">Continuar 🚀</button>
 </div>
 
 <!-- LANG SELECTION -->
@@ -885,6 +917,8 @@
 <script src="js/situations-data.js"></script>
 <!-- 2. State: app state object, save/load -->
 <script src="js/state.js"></script>
+<!-- Age gate: verificación de edad y consentimiento parental (COPPA / Play Families) -->
+<script src="js/age-gate.js"></script>
 <!-- 2b. Learner memory: compact, editable profile for personalized tutoring -->
 <script src="js/learner-memory.js"></script>
 <!-- 2c. Managed AI gateway: keeps provider secrets off users' devices -->

@@ -34,27 +34,23 @@ function isMinorRestricted(){
 }
 
 /* ── Restricción de voz (ElevenLabs) por edad ─────────────────────────
-   La Política de Uso Prohibido de ElevenLabs prohíbe expresamente
-   "hacer disponibles nuestros Servicios a cualquier persona menor de 13
-   años", y para 13-17 exige consentimiento parental previo. Nótese que
-   para los menores de 13 NO existe la opción de desbloquearlo con
-   consentimiento parental: está prohibido de forma absoluta.
+   Los Términos de Uso de ElevenLabs son explícitos: "If you are under 18
+   years of age (or the age of legal majority where you live), you may not
+   use our Services". Su Política de Uso Prohibido añade que no se les
+   puede ofrecer el servicio a menores de 13 bajo ninguna circunstancia.
 
-   Por eso esta comprobación es independiente de isMinorRestricted():
-   - menor de 13  → texto-a-voz gestionado BLOQUEADO siempre.
-   - entre 13-17  → bloqueado hasta que haya consentimiento parental.
-   - 18 o más     → sin restricción.
+   Decisión de producto: se bloquea el texto-a-voz gestionado para TODA
+   cuenta menor de 18 años, sin excepción y sin posibilidad de desbloqueo
+   por consentimiento parental. Es la lectura más conservadora y la única
+   que garantiza no incumplir el contrato con el proveedor.
 
-   La app sigue funcionando sin voz: las lecciones, los juegos y el texto
-   del chat no dependen de ElevenLabs. */
+   La app sigue funcionando sin voz: lecciones, juegos y chat de texto no
+   dependen de ElevenLabs. La restricción se levanta sola el año en que la
+   cuenta cumple 18. */
 function isManagedTtsBlockedByAge(){
   if(typeof state === 'undefined' || !state.ageGateCompleted) return false;
-  const now = new Date().getFullYear();
-  const age = state.birthYear ? (now - state.birthYear) : null;
-  if(age === null) return false;
-  if(age < 13) return true;                                  // prohibido por ElevenLabs, sin excepción
-  if(age < 18) return state.parentalConsentStatus !== 'approved';
-  return false;
+  if(!state.birthYear) return false;
+  return (new Date().getFullYear() - state.birthYear) < 18;
 }
 
 // Reemplaza la lógica de navegación post-login: primero exige completar

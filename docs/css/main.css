@@ -46,13 +46,44 @@ body{
 }
 .intro-btn:hover{transform:translateY(-1px);box-shadow:0 5px 0 color-mix(in srgb, var(--gold) 55%, black)}
 .intro-btn:active{transform:translateY(3px);box-shadow:0 1px 0 color-mix(in srgb, var(--gold) 55%, black)}
-.char-pick{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;animation:fadeUp .5s .7s both}
-.cpick{
-  background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;
-  padding:7px 13px;font-size:12px;font-weight:700;color:var(--muted);
-  cursor:pointer;transition:all .2s;font-family:var(--fb);
+.char-pick{display:flex;gap:9px;justify-content:center;animation:fadeUp .5s .7s both;width:100%;max-width:400px;padding:0 4px}
+/* Tarjetas animadas del selector de compañero del intro. Mismo lenguaje
+   visual que el selector interno (.char-card), adaptado a 3 tarjetas en
+   una fila para que quepan sin scroll en pantallas pequeñas. */
+.ipick{
+  flex:1 1 0;min-width:0;position:relative;cursor:pointer;
+  background:rgba(255,255,255,.03);border:1.5px solid var(--border);border-radius:16px;
+  padding:10px 6px 9px;text-align:center;transition:transform .18s,border-color .18s,background .18s;
+  font-family:var(--fb);
 }
-.cpick:hover,.cpick.sel{color:var(--gold);background:color-mix(in srgb, var(--accent) 20%, var(--card))}
+.ipick:active{transform:scale(.96)}
+.ipick.sel{
+  border-color:var(--gold);background:color-mix(in srgb, var(--accent) 16%, var(--card));
+  transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,0,0,.35)
+}
+.ipick-media{width:58px;height:58px;margin:0 auto 6px;position:relative}
+.ipick-face,.ipick-anim{
+  width:58px;height:58px;object-fit:contain;display:block;position:absolute;top:0;left:0;
+  transition:opacity .18s;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))
+}
+.ipick-face{z-index:1}
+.ipick-anim{z-index:2}
+.ipick-n{font-size:12px;font-weight:800;color:var(--text);line-height:1.2}
+.ipick.sel .ipick-n{color:var(--gold)}
+.ipick-d{font-size:9px;color:var(--muted);line-height:1.3;margin-top:3px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ipick-check{
+  position:absolute;top:6px;right:6px;width:17px;height:17px;border-radius:50%;
+  background:var(--gold);color:#1a1207;font-size:11px;font-weight:900;
+  display:flex;align-items:center;justify-content:center;line-height:1
+}
+/* Burbuja de diálogo del compañero en el intro */
+.intro-speech{
+  max-width:300px;margin:2px auto 0;padding:9px 14px;
+  background:var(--card);border:1px solid var(--border);border-radius:14px;
+  font-size:12px;line-height:1.45;color:var(--text);text-align:center;
+  font-family:var(--fb);animation:fadeUp .5s .55s both
+}
 
 /* ══════════════════════
    TOPBAR
@@ -1129,3 +1160,29 @@ box-shadow:var(--card-elev);}
 .lc-btn-mic.busy{opacity:.5}
 @keyframes lcRecPulse{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb, var(--coral) 50%, transparent)}50%{box-shadow:0 0 0 8px transparent}}
 .lc-btn-end{background:var(--coral);color:#30100b;box-shadow:0 3px 0 color-mix(in srgb,var(--coral) 55%,black)}
+
+/* ══════════════════════
+   QUIZ DE NIVEL — capa de personalidad y navegación
+══════════════════════ */
+/* El compañero acompaña el test: retrato + burbuja que reacciona a cada
+   respuesta, para que el onboarding no se sienta un formulario frío. */
+.quiz-char{display:flex;align-items:flex-start;gap:9px;margin-bottom:12px;animation:fadeUp .35s both}
+.quiz-char-face{width:44px;height:44px;flex-shrink:0}
+.quiz-char-face img{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 3px 9px rgba(0,0,0,.45))}
+.quiz-char-bubble{
+  flex:1;min-height:34px;background:var(--card);border:1px solid var(--border);
+  border-radius:13px;padding:9px 12px;font-size:12px;line-height:1.45;
+  color:var(--text);font-family:var(--fb)
+}
+.quiz-char-bubble:empty{display:none}
+/* Navegación dentro del quiz: volver a corregir o saltar el test */
+.quiz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px}
+.quiz-back,.quiz-skip{
+  background:none;border:none;cursor:pointer;font-family:var(--fb);
+  font-size:11px;font-weight:700;color:var(--muted);padding:6px 4px;
+  transition:color .18s
+}
+.quiz-back:hover,.quiz-skip:hover{color:var(--gold)}
+.quiz-skip{text-decoration:underline;opacity:.75}
+/* Marca la opción elegida al volver a una pregunta ya respondida */
+.qopt.picked{border-color:var(--gold);color:var(--gold)}

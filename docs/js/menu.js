@@ -79,8 +79,6 @@ function applyNativeLanguageUI(){
   // Update intro button
   const ibtn = document.querySelector('.intro-btn');
   if(ibtn) ibtn.textContent = ui.start;
-  // Update companion text
-  const compTxt = document.querySelector('#screen-intro > div[style]');
   // Update quiz header
   const qhdr = document.querySelector('#screen-quiz .quiz-hdr h2');
   if(qhdr) qhdr.textContent = ui.levelQ;
@@ -171,6 +169,27 @@ function getQuizQuestions(langCode){
       {q:'"Je suis allé(e)" usa el auxiliar:',opts:['Avoir','Être','Faire','Aller'],scores:[0,3,0,0],correct:1},
       {q:'¿Puedes usar el Subjonctif en francés?',opts:['No sé qué es eso','Lo he escuchado pero no lo uso','A veces con dificultad','Sí con bastante soltura'],scores:[0,1,2,3]},
     ],
+    ES:[
+      {q:'¿Cuánto tiempo llevas estudiando español?',opts:['Nunca 🆕','Menos de 3 meses','6 meses a 1 año','2+ años'],scores:[0,1,2,3]},
+      {q:'Elige el artículo correcto:',snippet:'"___ agua está fría."',opts:['El','La','Los','Las'],scores:[3,1,0,0],correct:0},
+      {q:'¿Qué significa "estar en las nubes"?',opts:['Estar distraído','Estar enfermo','Estar viajando','Estar enojado'],scores:[3,0,0,0],correct:0},
+      {q:'Elige la forma correcta:',snippet:'"Ayer ___ al mercado."',opts:['voy','iba','fui','iré'],scores:[0,1,3,0],correct:2},
+      {q:'¿Puedes usar el subjuntivo (ojalá, quizás, espero que...)?',opts:['No sé qué es','Lo reconozco pero no lo uso','A veces, con dudas','Sí, con soltura'],scores:[0,1,2,3]},
+    ],
+    IT:[
+      {q:'¿Cuánto tiempo llevas estudiando italiano?',opts:['Nunca 🆕','Menos de 3 meses','6 meses a 1 año','2+ años'],scores:[0,1,2,3]},
+      {q:'¿Qué significa "Buongiorno"?',opts:['Buenas noches','Buenos días','Adiós','Gracias'],scores:[0,3,0,0],correct:1},
+      {q:'Elige el artículo correcto:',snippet:'"___ studente è bravo."',opts:['Il','Lo','La','I'],scores:[0,3,0,0],correct:1},
+      {q:'"Sono andato" usa el auxiliar:',opts:['Avere','Essere','Fare','Stare'],scores:[0,3,0,0],correct:1},
+      {q:'¿Puedes usar el congiuntivo en italiano?',opts:['No sé qué es','Lo he visto pero no lo uso','A veces','Sí, con soltura'],scores:[0,1,2,3]},
+    ],
+    PT:[
+      {q:'¿Cuánto tiempo llevas estudiando portugués?',opts:['Nunca 🆕','Menos de 3 meses','6 meses a 1 año','2+ años'],scores:[0,1,2,3]},
+      {q:'¿Qué significa "Bom dia"?',opts:['Buenas noches','Buenos días','Hasta luego','De nada'],scores:[0,3,0,0],correct:1},
+      {q:'Elige la forma correcta:',snippet:'"Eu ___ ao mercado ontem."',opts:['vou','ia','fui','irei'],scores:[0,1,3,0],correct:2},
+      {q:'¿Qué diferencia hay entre "ser" y "estar" en portugués?',opts:['No hay diferencia','Permanente vs temporal','Singular vs plural','Formal vs informal'],scores:[0,3,0,0],correct:1},
+      {q:'¿Puedes usar el futuro do subjuntivo (quando eu for, se eu tiver...)?',opts:['No sé qué es','Lo reconozco pero no lo uso','A veces','Sí, con soltura'],scores:[0,1,2,3]},
+    ],
     DE:[
       {q:'¿Cuánto tiempo llevas estudiando alemán?',opts:['Nunca 🆕','Menos de 3 meses','6 meses a 1 año','2+ años'],scores:[0,1,2,3]},
       {q:'¿Qué significa "Guten Morgen"?',opts:['Buenas noches','Buenas tardes','Buenos días','Hola informal'],scores:[0,0,3,0],correct:2},
@@ -184,35 +203,100 @@ function getQuizQuestions(langCode){
 
 let quizQsActive=[];
 let quizStep=0,quizScore=0,quizLocked=false;
+let quizAnswers=[];   // respuestas dadas, para poder volver atrás sin perder el puntaje
+
 function startQuiz(){
-  quizStep=0; quizScore=0;
+  quizStep=0; quizScore=0; quizAnswers=[];
   quizQsActive=getQuizQuestions(state.lang?.code||'EN');
   const langName=state.lang?.name||'el idioma';
   const hdr=document.querySelector('#screen-quiz .quiz-hdr h2');
   if(hdr) hdr.textContent=`¿Cuál es tu nivel en ${langName}?`;
+  const sub=document.querySelector('#screen-quiz .quiz-hdr p');
+  if(sub) sub.textContent=`${quizQsActive.length} preguntas rápidas. No hay respuestas malas: solo buscamos tu punto de partida.`;
   renderQuizStep();
 }
+
+/* Cabecera del compañero dentro del quiz: el personaje acompaña el test
+   en vez de que sea un formulario frío. Habla al empezar y reacciona a
+   cada respuesta con su propia voz (ver CHAR_REACTIONS en characters.js). */
+function _quizCharHeader(line){
+  const ch = typeof getChar==='function' ? getChar() : null;
+  if(!ch) return '';
+  const media = ch.img ? `<img src="${ch.img}" alt="${ch.name}">` : '';
+  return `<div class="quiz-char">
+      <div class="quiz-char-face">${media}</div>
+      <div class="quiz-char-bubble" id="quizCharBubble">${line||''}</div>
+    </div>`;
+}
+
 function renderQuizStep(){
   const q=quizQsActive[quizStep];
   document.getElementById('quizStep').textContent=`Pregunta ${quizStep+1} de ${quizQsActive.length}`;
   document.getElementById('quizProgFill').style.width=`${(quizStep+1)/quizQsActive.length*100}%`;
   quizLocked=false;
+  const prev = quizAnswers[quizStep];
+  const intro = quizStep===0 ? 'Vamos a ver dónde estás parado. Responde con sinceridad.' : '';
   document.getElementById('quizContent').innerHTML=`
+    ${_quizCharHeader(intro)}
     <div class="quiz-card">
       <div class="qtext">${q.q}</div>
       ${q.snippet?`<div class="qsnip">${q.snippet}</div>`:''}
       <div class="qopts">${q.opts.map((o,i)=>`<button class="qopt" onclick="answerQuiz(${i})">${o}</button>`).join('')}</div>
       <div class="qfb" id="qfb"></div>
+      <div class="quiz-nav">
+        ${quizStep>0?`<button class="quiz-back" onclick="quizGoBack()">← Anterior</button>`:'<span></span>'}
+        <button class="quiz-skip" onclick="skipQuiz()">Saltar test</button>
+      </div>
     </div>`;
+  // Si el usuario vuelve a una pregunta ya contestada, se muestra su
+  // elección anterior en vez de dejar la pantalla en blanco.
+  if(prev!==undefined && prev!==null){
+    const opts=document.querySelectorAll('.qopt');
+    if(opts[prev]) opts[prev].classList.add('picked');
+  }
 }
+
+/* Permite corregir una respuesta anterior: descuenta su puntaje para que
+   el resultado final siga siendo coherente. Antes no se podía volver
+   atrás en absoluto — una respuesta tocada por error quedaba fija. */
+function quizGoBack(){
+  if(quizStep<=0) return;
+  quizStep--;
+  const prev=quizAnswers[quizStep];
+  if(prev!==undefined && prev!==null){
+    quizScore-=quizQsActive[quizStep].scores[prev];
+    quizAnswers[quizStep]=null;
+  }
+  renderQuizStep();
+}
+
+/* Salir del test sin completarlo: se asigna A1 (el punto de partida más
+   seguro) en vez de dejar al usuario atrapado en el onboarding. */
+function skipQuiz(){
+  state.userLevel='A1';
+  afterQuiz();
+}
+
 function answerQuiz(i){
   if(quizLocked) return; quizLocked=true;
-  const q=quizQsActive[quizStep]; quizScore+=q.scores[i];
+  const q=quizQsActive[quizStep];
+  quizScore+=q.scores[i];
+  quizAnswers[quizStep]=i;
   const opts=document.querySelectorAll('.qopt'); opts.forEach(o=>o.disabled=true);
-  if(q.correct!==undefined){ opts[i].classList.add(i===q.correct?'ok':'no'); if(i!==q.correct) opts[q.correct].classList.add('ok'); }
+  const acerto = q.correct!==undefined && i===q.correct;
+  if(q.correct!==undefined){ opts[i].classList.add(acerto?'ok':'no'); if(!acerto) opts[q.correct].classList.add('ok'); }
   else opts[i].classList.add('ok');
-  document.getElementById('qfb').textContent=i===q.correct?'¡Correcto! 🎉':(q.correct!==undefined?'No del todo... ✗':'¡Anotado! 👍');
-  setTimeout(()=>{ quizStep++; if(quizStep>=quizQsActive.length) showQuizResult(); else renderQuizStep(); },1100);
+  document.getElementById('qfb').textContent = acerto ? '¡Correcto! 🎉' : (q.correct!==undefined?'No del todo... ✗':'¡Anotado! 👍');
+  // El compañero reacciona con su propia personalidad. En preguntas de
+  // autoevaluación (sin respuesta correcta) no se felicita ni se corrige:
+  // no hay nada que acertar, solo información que el usuario reporta.
+  const bubble=document.getElementById('quizCharBubble');
+  if(bubble && q.correct!==undefined && typeof getReaction==='function'){
+    const line=getReaction(acerto?'correct':'wrong');
+    if(line){ bubble.textContent=line; bubble.style.animation='none'; void bubble.offsetWidth; bubble.style.animation='popIn .35s both'; }
+  }
+  if(typeof playSound==='function' && q.correct!==undefined) playSound(acerto?'correct':'wrong');
+  setTimeout(()=>{ quizStep++; if(quizStep>=quizQsActive.length) showQuizResult(); else renderQuizStep(); },1150);
 }
 function showQuizResult(){
   // Conservative scoring: max possible = sum of max per question

@@ -57,9 +57,11 @@ function _activeLessonLangCode(){
    - Se muestra en un estilo visualmente secundario, sin competir con el
      feedback principal de la respuesta.
    Ver CHAR_REACTIONS en characters.js para el tono de cada personaje. */
-function _charAside(category){
+function _charAside(category, always){
   if (typeof getReaction !== 'function') return '';
-  if (Math.random() > 0.34) return '';
+  // En momentos clave (dos fallos seguidos, lección perfecta) la reacción
+  // se muestra siempre: ahí el acompañamiento importa más que la sorpresa.
+  if (!always && Math.random() > 0.34) return '';
   const line = getReaction(category);
   if (!line) return '';
   let name = '';
@@ -121,6 +123,8 @@ const LessonEngine = {
     this.currentIdx   = 0;
     this.lives        = this.maxLives;
     this.correctCount = 0;
+    this._runCorrect  = 0;   // aciertos seguidos, para la reacción de racha
+    this._runWrong    = 0;   // fallos seguidos, para la reacción de apoyo
     this.answered     = false;
     this.xpEarned     = 0;
     this._arrange     = null;
@@ -621,19 +625,26 @@ const LessonEngine = {
         this.xpEarned += Math.floor(this.lesson.xp / this.exercises.length);
         feedback.className = 'ex-feedback correct';
         const msgs = ['¡Correcto! 🎉', '¡Excelente! ⭐', '¡Perfecto! 🔥', '¡Muy bien! 💪', '¡Genial! ✨'];
+        this._runCorrect++; this._runWrong = 0;
+        // A partir de 3 aciertos seguidos el personaje celebra la racha en
+        // vez de dar la reacción genérica de acierto.
         feedback.innerHTML = `
           <div class="ex-fb-header">${msgs[Math.floor(Math.random() * msgs.length)]}</div>
           <div class="ex-fb-explanation">${ex.explanation || ''}</div>
-          ${_charAside('correct')}
+          ${_charAside(this._runCorrect >= 3 ? 'hotStreak' : 'correct')}
         `;
       } else {
         this.lives--;
         feedback.className = 'ex-feedback wrong';
+        this._runWrong++; this._runCorrect = 0;
+        // Al segundo fallo seguido el personaje cambia de registro: deja el
+        // sarcasmo y sostiene al usuario. Es justo el punto donde la gente
+        // abandona, y ahí burlarse sería contraproducente.
         feedback.innerHTML = `
           <div class="ex-fb-header">Respuesta incorrecta 😕</div>
           ${correctText ? `<div class="ex-fb-correct">✅ La respuesta correcta es: <strong>${correctText}</strong></div>` : ''}
           <div class="ex-fb-explanation">${ex.explanation || ''}</div>
-          ${_charAside('wrong')}
+          ${_charAside(this._runWrong >= 2 ? 'struggling' : 'wrong', this._runWrong >= 2)}
         `;
       }
     }
@@ -817,6 +828,7 @@ const LessonEngine = {
           <div class="ex-result-lives-label">Vidas restantes</div>
           <div class="ex-result-lives-hearts">${livesHtml}</div>
         </div>
+        ${_charAside(pct === 100 ? 'perfect' : (won ? 'lessonComplete' : 'struggling'), true)}
         ${pct === 100 ? '<div class="ex-result-perfect">⭐ ¡PUNTUACIÓN PERFECTA!</div>' : ''}
         <div class="ex-result-btns">
           <button class="ex-result-btn primary" onclick="LessonEngine.start('${this.lesson.id}')">
@@ -1000,160 +1012,3 @@ function exitEx(skipConfirm) {
 
   return true;
 }
-
-/* ════════════════════════════════════════════════════════════
-   ESTUDIAR — glosario de vocabulario y gramática
-   ════════════════════════════════════════════════════════════
-   Cada tarjeta de "Estudiar" corresponde 1 a 1 con una lección de la ruta
-   (mismo id, mismo tema) y usa el vocabulario/gramática que esa lección
-   enseña — así el usuario puede repasar el contenido de una sección antes
-   de hacer sus ejercicios. Se desbloquea exactamente con el mismo ritmo
-   que la ruta de lecciones (ver _getLessonsWithProgress).
-════════════════════════════════════════════════════════════ */
-
-// Alterna entre la vista "Ruta" (path) y "Estudiar" (glosario) dentro del tab de Lecciones.
-function setLessonsView(view) {
-  const pathEl  = document.getElementById('lessonList');
-  const studyEl = document.getElementById('studyList');
-  const btnPath  = document.getElementById('lpViewPath');
-  const btnStudy = document.getElementById('lpViewStudy');
-  if (!pathEl || !studyEl) return;
-
-  const showStudy = view === 'study';
-  pathEl.style.display  = showStudy ? 'none'  : 'block';
-  studyEl.style.display = showStudy ? 'block' : 'none';
-  if (btnPath)  btnPath.classList.toggle('active', !showStudy);
-  if (btnStudy) btnStudy.classList.toggle('active', showStudy);
-
-  if (showStudy) renderStudyList();
-}
-
-function renderStudyList() {
-  const container = document.getElementById('studyList');
-  if (!container) return;
-
-  const langCode = _activeLessonLangCode();
-  const progress = _getLessonsWithProgress(langCode);
-
-  if (progress.length === 0) {
-    const langName = (typeof state !== 'undefined' && state.lang && state.lang.name) ? state.lang.name : 'este idioma';
-    container.innerHTML = `
-      <div class="lp-empty">
-        <div class="lp-empty-ic">📖</div>
-        <div class="lp-empty-t">Glosario de ${langName} en camino</div>
-        <div class="lp-empty-s">Todavía no hay contenido para estudiar en este idioma.</div>
-      </div>
-    `;
-    return;
-  }
-
-  let html = `
-    <div class="study-intro">
-      <div class="study-intro-ic">📖</div>
-      <div>
-        <div class="study-intro-t">Estudia antes de practicar</div>
-        <div class="study-intro-s">Vocabulario y gramática de cada lección, para repasar antes de hacer los ejercicios.</div>
-      </div>
-    </div>
-  `;
-
-  LEVELS.forEach(lvl => {
-    const entries = progress.filter(p => p.lesson.level === lvl);
-    if (!entries.length) return;
-    const meta = LEVEL_META[lvl];
-
-    html += `
-      <div class="lp-unit-banner" style="--cc:${meta.cc}">
-        <div class="lp-unit-ic">${meta.emoji}</div>
-        <div class="lp-unit-info">
-          <div class="lp-unit-t">Nivel ${lvl} · ${meta.label}</div>
-        </div>
-      </div>
-      <div class="study-list">
-    `;
-
-    entries.forEach(({ lesson, done, isCurrent, locked }) => {
-      const hasStudy = !!(lesson.study && ((lesson.study.vocab && lesson.study.vocab.length) || (lesson.study.grammar && lesson.study.grammar.length)));
-      const openable = !locked && hasStudy;
-      const clickAttr = openable ? `onclick="openStudyCard('${lesson.id}')"` : '';
-      const statusClass = locked ? 'locked' : (done ? 'done' : 'current');
-      const rightNote = locked
-        ? 'Completa la lección anterior para desbloquear'
-        : (hasStudy ? `${(lesson.study.vocab||[]).length} palabras · ${(lesson.study.grammar||[]).length} reglas` : 'Aún sin glosario');
-
-      html += `
-        <div class="study-card ${statusClass} ${openable ? 'openable' : ''}" ${clickAttr} style="--cc:${meta.cc}">
-          <div class="study-card-ic">${locked ? '🔒' : lesson.emoji}</div>
-          <div class="study-card-info">
-            <div class="study-card-t">${lesson.title}</div>
-            <div class="study-card-s">${rightNote}</div>
-          </div>
-          ${openable ? '<div class="study-card-arrow">›</div>' : ''}
-        </div>
-      `;
-    });
-
-    html += `</div>`;
-  });
-
-  container.innerHTML = html;
-}
-
-// Abre el modal de estudio con el vocabulario y la gramática de una lección puntual.
-function openStudyCard(lessonId) {
-  const langCode = _activeLessonLangCode();
-  const ALL_LESSONS = getLessonsForLang(langCode);
-  const lesson = ALL_LESSONS.find(l => l.id === lessonId);
-  if (!lesson || !lesson.study) return;
-
-  const titleEl = document.getElementById('studyModalTitle');
-  const subEl   = document.getElementById('studyModalSub');
-  const bodyEl  = document.getElementById('studyModalBody');
-  if (!titleEl || !subEl || !bodyEl) return;
-
-  titleEl.textContent = `${lesson.emoji} ${lesson.title}`;
-  subEl.textContent = lesson.description || '';
-
-  const vocab   = lesson.study.vocab   || [];
-  const grammar = lesson.study.grammar || [];
-
-  let html = '';
-
-  if (vocab.length) {
-    html += `<div class="study-section-h">🗂️ Vocabulario</div><div class="study-vocab-list">`;
-    vocab.forEach(v => {
-      const [term, translation, note] = v;
-      html += `
-        <div class="study-vocab-row">
-          <div class="study-vocab-term">${term}</div>
-          <div class="study-vocab-tr">${translation}${note ? `<div class="study-vocab-note">${note}</div>` : ''}</div>
-        </div>
-      `;
-    });
-    html += `</div>`;
-  }
-
-  if (grammar.length) {
-    html += `<div class="study-section-h">🧩 Gramática</div>`;
-    grammar.forEach(g => {
-      const [title, explanation, example] = g;
-      html += `
-        <div class="study-grammar-block">
-          <div class="study-grammar-t">${title}</div>
-          <div class="study-grammar-e">${explanation}</div>
-          ${example ? `<div class="study-grammar-ex">${example}</div>` : ''}
-        </div>
-      `;
-    });
-  }
-
-  if (!vocab.length && !grammar.length) {
-    html = `<div class="lp-empty-s" style="padding:24px 0">Todavía no hay contenido de estudio para esta lección.</div>`;
-  }
-
-  bodyEl.innerHTML = html;
-  document.getElementById('studyModal').style.display = 'flex';
-}
-
-function closeStudyCard() { const m = document.getElementById('studyModal'); if (m) m.style.display = 'none'; }
-function closeStudyOv(e) { if (e.target === document.getElementById('studyModal')) closeStudyCard(); }

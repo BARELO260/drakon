@@ -93,6 +93,13 @@ function goTo(sid){
     }
   }
   next.classList.add('active'); state.screen=sid;
+  // El intro tiene videos de personaje que solo deben reproducirse cuando
+  // la pantalla está visible (si no, quedan corriendo en segundo plano y
+  // consumen batería). Se re-renderiza al entrar para arrancarlos.
+  if(sid==='screen-intro' && typeof renderCharPickRow==='function'){
+    renderCharPickRow();
+    if(typeof refreshIntroMascot==='function') refreshIntroMascot();
+  }
   // Show bottom nav on all "tab-level" screens
   const showNav=['screen-main','screen-situations','screen-profile','screen-saved-chats','screen-chat-history'].includes(sid);
   const nav=document.getElementById('bottomNav');

@@ -96,6 +96,54 @@ const CHAR_REACTIONS = {
     axonic:  ['Uy, ese sonido salió totalmente desafinado. Otra vez, con más flow. 🎧','El beat de tu voz se perdió ahí. Vamos a remixarlo. 🎵','Casi, pero la pista pide otra toma. 🦎'],
   },
 
+
+  /* Rachas de aciertos seguidos dentro de una misma lección. El personaje
+     nota que estás "en racha" y sube la energía — refuerza el momento en
+     que el usuario se siente bien, no solo cuando falla. */
+  hotStreak: {
+    dragon:  ['Tres seguidas. Estás ardiendo y me gusta. 🔥','No pares. Esto ya es una llamarada. 🐲','Sigue así y voy a tener que esforzarme para seguirte el paso.'],
+    wizard:  ['Tres hechizos seguidos sin fallar. El grimorio te mira con respeto. ✨','Estás encadenando magia limpia. Sigue. 🔮','Esto ya no es suerte, aprendiz. Es técnica.'],
+    fox:     ['Tres seguidas. Empiezo a sospechar que practicaste a escondidas. 🦊','Vale, vale, te luciste. No te lo voy a repetir. 😏','A este paso me vas a dejar sin chistes que hacer.'],
+    robot:   ['SECUENCIA: 3 aciertos consecutivos. Probabilidad de racha sostenida: alta. 📊','Syntinator registra un patrón de excelencia. Continúa. ⚙️','Rendimiento por encima del promedio. Dato verificado.'],
+    alien:   ['¡Tres seguidas! Mis sensores detectan un humano en su mejor forma. 👽','Anotando en la bitácora: sujeto en estado de flujo. 🛸','Fascinante. Cuando os concentráis, los humanos sois imparables.'],
+    phoenix: ['Tres aciertos: el fuego ya prendió. No lo dejes apagar. 🔥','Estás en pleno vuelo. Siente el aire. 🪶','Así arde una racha de verdad. ✨'],
+    ninja:   ['Tres golpes certeros. El maestro asiente, apenas. 🥷','La técnica se está volviendo instinto. Sigue. ⚔️','Bien. No te distraigas ahora.'],
+    panda:   ['Tres seguidas y sin despeinarte. El bambú aprueba. 🐼','Mira eso, fluyendo sin esfuerzo. Así se hace. 🍃','Serenidad y aciertos. Mi combinación favorita.'],
+    triton:  ['¡Tres estocadas perfectas! La corte murmura, impresionada. ⚔️','Vuestra racha es digna de un torneo real. 🏰','¡Por mis branquias, qué exhibición!'],
+    axonic:  ['¡Tres seguidas, el beat está perfecto! 🎧','Combo limpio. La pista es tuya. 🎵','No pares el mix, vas encendido. 🔥'],
+  },
+
+  /* Cuando el usuario falla dos veces seguidas. Aquí TODOS los personajes
+     bajan el sarcasmo y sostienen: es justo el momento en que alguien
+     abandona una app de idiomas, y burlarse aquí sería contraproducente. */
+  struggling: {
+    dragon:  ['Dos seguidas. Para, respira. Hasta el fuego necesita aire. 🔥','Esta parte es dura, no eres tú. Vamos otra vez, sin prisa.','Aquí es donde se separan los que siguen. Tú sigue.'],
+    wizard:  ['Este conjuro se le resiste a todo el mundo, incluido yo. Otra vez. ✨','Dos intentos fallidos significan que estás en terreno nuevo. Buena señal. 🪄','Paciencia, aprendiz. La magia difícil tarda en asentarse.'],
+    fox:     ['Vale, esta parte es tramposa de verdad. No es culpa tuya. 🦊','Hasta yo tuve que mirarla dos veces. Vamos de nuevo, juntos.','Pausa. Respira. Esto se le atraganta a cualquiera.'],
+    robot:   ['DOS ERRORES CONSECUTIVOS: dificultad del ítem, no del usuario. Recalibrando. ⚙️','ANÁLISIS: este concepto tiene alta tasa de fallo general. Continúa. 📊','Syntinator sugiere: un intento más. Los datos favorecen la persistencia.'],
+    alien:   ['Este concepto confunde a casi todos los humanos. Y a mí también. 👽','Dos intentos. En mi planeta esto también costaría. Sigamos. 🛸','No te frustres: estás en la parte difícil del mapa.'],
+    phoenix: ['Dos caídas seguidas anuncian un vuelo más alto. Confía. 🔥','Aquí es donde arde de verdad el aprendizaje. Sostente. ✨','Las cenizas se acumulan justo antes del renacer.'],
+    ninja:   ['Dos fallos. El maestro también los tuvo. Respira y repite. 🥷','La técnica difícil se domina así: fallando hasta que deja de fallar. ⚔️','Constancia sobre orgullo. Otra vez.'],
+    panda:   ['Dos veces. Y no pasa absolutamente nada. Respira conmigo. 🐼','Aquí no hay prisa ni vergüenza. Solo bambú y paciencia. 🍃','Esta parte es empinada. Súbela despacio.'],
+    triton:  ['Dos golpes fallidos no deshonran a nadie. Alzad la espada. ⚔️','Todo caballero conoce este tramo del camino. Continuad. 🏰','El valor se mide aquí, no en las victorias fáciles.'],
+    axonic:  ['Dos notas fuera. Pasa hasta en los mejores sets. 🎧','Bajamos el tempo un segundo y volvemos. 🎵','Este tramo tiene un ritmo raro. Otra vuelta. 🦎'],
+  },
+
+  /* Lección perfecta, sin fallos. Reconocimiento genuino, sin sarcasmo:
+     el usuario se lo ganó. */
+  perfect: {
+    dragon:  ['Lección perfecta. Sin un solo fallo. Eso es fuego puro. 🔥🐲','Ni un error. Hoy el dragón se quita el sombrero. 🎩','Impecable. Y soy muy difícil de impresionar.'],
+    wizard:  ['Perfecta. Ni un conjuro torcido. El grimorio lo registrará. ✨📖','Maestría absoluta en esta lección, aprendiz. 🔮','Eso fue magia sin fisuras.'],
+    fox:     ['Perfecta. Sin fallos. Ya no tengo nada que reprocharte... por hoy. 🦊','Cero errores. Vale, estoy impresionado de verdad. 😏','Lo hiciste sin un solo tropiezo. Bien jugado.'],
+    robot:   ['PRECISIÓN: 100%. Sin errores registrados. Syntinator está orgulloso. ⚙️✅','Resultado óptimo. Dato para el archivo permanente. 📊','Cero fallos. Estadísticamente notable.'],
+    alien:   ['¡Lección perfecta! Esto va directo a mi bitácora en letras grandes. 👽','Cero errores. Mis sensores no registran precedentes. 🛸','Impecable. Los humanos me siguen sorprendiendo.'],
+    phoenix: ['Vuelo perfecto, sin una sola pluma fuera de sitio. 🔥🪶','Ni un error. Hoy ardiste con luz propia. ✨','Perfección. Recuérdala cuando dudes de ti.'],
+    ninja:   ['Perfecta. El maestro hace una reverencia completa. 🥷','Cero fallos. Esto sí merece mi aprobación. ⚔️','Técnica impecable. Bien.'],
+    panda:   ['Perfecta, y sin perder la calma. Eso vale doble. 🐼🍵','Cero errores. El bambú se inclina de verdad esta vez. 🍃','Impecable. Disfrútalo, te lo ganaste.'],
+    triton:  ['¡Victoria sin una sola herida! ¡La corte se alza en aplausos! 🏰⚔️','Lección perfecta, digna de leyenda. 🦈','¡Por mis branquias, qué gesta!'],
+    axonic:  ['¡Set perfecto! Ni una nota fuera. 🎧🔥','Cero errores, puro flow. Esto va al mixtape. 🎵','Lo clavaste entero. Respeto. 🦎'],
+  },
+
   comeback: {
     dragon:  ['¡Regresaste! El fuego nunca se apaga, ¿verdad? Vamos con todo. 🔥','Ya era hora. El dragón empezaba a extrañarte. Vamos.','Se te extrañó por aquí. Hora de recuperar terreno.'],
     wizard:  ['Bienvenido de vuelta, aprendiz. El portal seguía abierto para ti. ✨','El tiempo pasa distinto para un mago. No te preocupes, retomemos. 🔮','Me alegra verte. La magia no se olvida, solo espera.'],
@@ -206,11 +254,91 @@ function selectChar(id){
   showToast('¡'+ch.name+' es tu compañero!');
   mascotTap();
 }
+/* Selector de compañero del intro (solo los 3 personajes gratuitos).
+   Usa las mismas animaciones .webm que el selector interno: la tarjeta
+   activa reproduce el video del personaje, las inactivas muestran el
+   retrato estático. Al tocar una tarjeta se cambia de personaje y arranca
+   su animación, igual que dentro de la app. */
 function renderCharPickRow(){
   const row=document.getElementById('charPickRow'); if(!row) return;
-  row.innerHTML=CHARS.filter(c=>c.free).map(c=>`
-    <div class="cpick ${state.charId===c.id?'sel':''}" onclick="selectChar('${c.id}')"><img src="${c.img}" style="width:22px;height:22px;object-fit:contain;vertical-align:middle"> ${c.name}</div>`).join('');
+  const free=CHARS.filter(c=>c.free);
+  row.innerHTML=free.map(c=>{
+    const active=state.charId===c.id;
+    const media = c.anim
+      ? `<div class="ipick-media">
+           <img class="ipick-face" src="${c.img}" alt="${c.name}" style="${active?'opacity:0;':''}">
+           <video class="ipick-anim" src="${c.anim}" loop muted playsinline preload="auto" style="opacity:${active?'1':'0'};"></video>
+         </div>`
+      : `<div class="ipick-media"><img class="ipick-face" src="${c.img}" alt="${c.name}"></div>`;
+    return `<div class="ipick ${active?'sel':''}" onclick="selectIntroChar('${c.id}')">
+      ${media}
+      <div class="ipick-n">${c.name}</div>
+      <div class="ipick-d">${c.desc}</div>
+      ${active?'<div class="ipick-check">✓</div>':''}
+    </div>`;
+  }).join('');
+  playIntroCharAnim();
 }
+
+/* Reproduce el video del compañero activo del intro y pausa el resto. */
+function playIntroCharAnim(){
+  const row=document.getElementById('charPickRow'); if(!row) return;
+  row.querySelectorAll('.ipick').forEach(card=>{
+    const video=card.querySelector('.ipick-anim');
+    const img=card.querySelector('.ipick-face');
+    if(!video) return;
+    if(card.classList.contains('sel')){
+      if(img) img.style.opacity='0';
+      video.style.opacity='1';
+      video.currentTime=0;
+      const p=video.play();
+      if(p&&typeof p.catch==='function'){
+        p.catch(()=>{
+          const onReady=()=>{ video.removeEventListener('canplay',onReady); video.play().catch(()=>{}); };
+          video.addEventListener('canplay',onReady); video.load();
+        });
+      }
+    } else {
+      video.pause(); video.currentTime=0; video.style.opacity='0';
+      if(img) img.style.opacity='1';
+    }
+  });
+}
+
+/* Selección desde el intro: cambia el personaje sin el toast ni el rebote
+   de la pantalla principal (que aquí no existe todavía), y muestra una
+   frase del personaje para que el usuario "conozca" su voz antes de
+   elegirlo. */
+function selectIntroChar(id){
+  state.charId=id;
+  const ch=getChar();
+  const ie=document.getElementById('introEmoji');
+  if(ie){
+    ie.innerHTML = ch.speak
+      ? `<video src="${ch.speak}" autoplay loop muted playsinline style="width:110px;height:110px;object-fit:contain;display:block;margin:0 auto;"></video>`
+      : `<img src="${ch.img}" style="width:110px;height:110px;object-fit:contain">`;
+    ie.style.animation='none'; void ie.offsetWidth; ie.style.animation='bounce .45s ease 1';
+  }
+  const bubble=document.getElementById('introSpeech');
+  if(bubble){
+    const phrases=CHAR_SPEECH[ch.id]||CHAR_SPEECH.dragon;
+    bubble.textContent=phrases[Math.floor(Math.random()*phrases.length)];
+    bubble.style.animation='none'; void bubble.offsetWidth; bubble.style.animation='popIn .4s both';
+  }
+  renderCharPickRow();
+  if(typeof playSound==='function') playSound('correct');
+  save();
+}
+/* Pinta el retrato grande del compañero activo en el intro, animado si el
+   personaje tiene video de "hablando". Se llama al entrar a la pantalla. */
+function refreshIntroMascot(){
+  const ie=document.getElementById('introEmoji'); if(!ie) return;
+  const ch=getChar(); if(!ch) return;
+  ie.innerHTML = ch.speak
+    ? `<video src="${ch.speak}" autoplay loop muted playsinline style="width:110px;height:110px;object-fit:contain;display:block;margin:0 auto;"></video>`
+    : `<img src="${ch.img}" style="width:110px;height:110px;object-fit:contain">`;
+}
+
 function mascotTap(){
   const ch=getChar();
   const phrases=CHAR_SPEECH[ch.id]||CHAR_SPEECH.dragon;
