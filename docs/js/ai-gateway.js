@@ -23,49 +23,25 @@ function renderAiServiceStatus(){
 }
 
 async function callManagedAi(payload){
+  if(typeof isMinorRestricted === 'function' && isMinorRestricted()){
+    const err = new Error('minor-restricted'); err.name = 'MinorRestrictedError'; throw err;
+  }
   if(!hasManagedAi()) throw new Error('managed-ai-unavailable');
   const token=await window._fbAuth.currentUser.getIdToken();
-  const response=await fetch(DRAKON_AI_GATEWAY,{method:'POST',headers:{'Content-Type':'application/json','Authorization':`Bearer ${token}`},body:JSON.stringify({data:payload})});
+  // localDate: fecha del dispositivo del usuario (YYYY-MM-DD), no UTC.
+  // Sin esto, el cupo diario del servidor reseteaba a medianoche UTC
+  // mientras que el resto de la app (rachas, misiones) resetea a
+  // medianoche LOCAL — en usuarios lejos de UTC, esto podía mostrar
+  // "te quedan mensajes" y bloquear igual, o viceversa.
+  const d=new Date();
+  const localDate=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const response=await fetch(DRAKON_AI_GATEWAY,{method:'POST',headers:{'Content-Type':'application/json','Authorization':`Bearer ${token}`},body:JSON.stringify({data:{...payload,localDate}})});
   const body=await response.json().catch(()=>({}));
   if(!response.ok) throw new Error(body?.error?.message||'managed-ai-error');
   return body.result;
 }
 
 async function managedChat(messages){ return (await callManagedAi({action:'chat',messages})).text; }
-
-/* ── Limpieza de artefactos de razonamiento interno ──────────────────
-   Algunos modelos "razonadores" (los que usamos vía Groq: gpt-oss-120b,
-   gpt-oss-20b y qwen3.6-27b) generan primero un borrador de pensamiento
-   interno antes de la respuesta final — normalmente el proveedor lo separa
-   en un campo aparte, pero a veces (sobre todo si la petición se corta, o
-   con ciertas combinaciones de parámetros) ese pensamiento interno queda
-   mezclado dentro del mismo texto de respuesta. Si no se filtra, ese texto
-   —que nunca estuvo pensado para el usuario— se muestra en el chat y, peor
-   aún, se LEE EN VOZ ALTA, sonando como "palabras o frases incoherentes"
-   justo antes del mensaje real. Se llama en CADA sitio donde se recibe
-   una respuesta cruda de la IA (auth.js, chat.js, situations.js), antes de
-   guardarla, mostrarla o hablarla — así nunca se cuela ni se reenvía de
-   vuelta al modelo en el historial (lo que además ahorraría tokens en
-   vano en los siguientes turnos). */
-function stripAIReasoningArtifacts(text){
-  if(!text) return text;
-  let out = String(text);
-  // 1) Bloques de razonamiento con sus propias etiquetas de apertura/cierre
-  //    (formato usado por Qwen3 y similares): se elimina la etiqueta Y todo
-  //    su contenido, no solo la etiqueta.
-  out = out.replace(/<(think|thinking|reasoning|analysis|scratchpad)>[\s\S]*?<\/\1>/gi, '');
-  // 2) Formato "Harmony" de los modelos gpt-oss: canales tipo
-  //    <|channel|>analysis<|message|>...<|channel|>final<|message|>respuesta real
-  //    Si aparece un canal final, nos quedamos solo con lo que hay después
-  //    del ÚLTIMO marcador de mensaje final — el resto es borrador interno.
-  if(/<\|channel\|>\s*final\s*<\|message\|>/i.test(out)){
-    const parts = out.split(/<\|channel\|>\s*final\s*<\|message\|>/i);
-    out = parts[parts.length-1];
-  }
-  // Cualquier token de control suelto que quedara de ese mismo formato.
-  out = out.replace(/<\|[a-z_]+\|>/gi, '');
-  return out.trim();
-}
 
 const _managedTtsCache=new Map();
 async function managedTTS(text,voiceKey){

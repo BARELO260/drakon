@@ -207,20 +207,12 @@ async function sendHistoryMsg(){
 
   const prompt = buildPrompt();
   const messages = [{role:'system',content:prompt}];
-  // Igual que en el chat principal (ver sendChatInternal en js/auth.js): solo
-  // se envían los últimos 12 mensajes, nunca el historial completo. Un chat
-  // guardado puede tener cientos de mensajes acumulados con el tiempo — sin
-  // este límite, cada turno reenviaría TODA esa conversación entera a la IA,
-  // desperdiciando cada vez más tokens de la cuenta a medida que el chat
-  // crece (y ralentizando la respuesta), sin ninguna mejora real para el
-  // usuario ya que el modelo no necesita tanto contexto para seguir la
-  // conversación con naturalidad.
-  for(const m of state.chatHistory.slice(-12)) messages.push({role:m.role==='user'?'user':'assistant',content:m.content});
+  for(const m of state.chatHistory) messages.push({role:m.role==='user'?'user':'assistant',content:m.content});
 
   let aiText = '';
   try{
     if(managed){
-      try{ aiText=await managedChat(messages); if(aiText && typeof stripAIReasoningArtifacts==='function') aiText=stripAIReasoningArtifacts(aiText); }
+      try{ aiText=await managedChat(messages); }
       catch(e){ if(!groqKey) throw e; /* si hay groqKey, sigue abajo e intenta con ella */ }
     }
     if(!aiText && groqKey){
@@ -230,7 +222,7 @@ async function sendHistoryMsg(){
         fetch('https://api.groq.com/openai/v1/chat/completions',{
           method:'POST',
           headers:{'Content-Type':'application/json','Authorization':`Bearer ${groqKey}`},
-          body:JSON.stringify({model,messages,max_tokens:900,temperature:0.7,reasoning_effort:'low'})
+          body:JSON.stringify({model,messages,max_tokens:900,temperature:0.7})
         }),
         new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),28000))
       ]);
@@ -238,7 +230,6 @@ async function sendHistoryMsg(){
       if(!resp.ok){ continue; }
       const data = await resp.json();
       aiText = data?.choices?.[0]?.message?.content?.trim()||'';
-      if(aiText && typeof stripAIReasoningArtifacts==='function') aiText = stripAIReasoningArtifacts(aiText);
       if(aiText) break;
       }
     }
@@ -413,6 +404,10 @@ async function sendChat(){
   const inp=document.getElementById('chatIn'); if(!inp) return;
   const text=inp.value.trim(); if(!text) return;
   inp.value='';
+  if(typeof isMinorRestricted === 'function' && isMinorRestricted()){
+    goTo('screen-parental-consent'); if(typeof renderParentalConsent==='function') renderParentalConsent();
+    return;
+  }
   if(!canUseAI()){ showPremModal(); return; }
   const sb=document.getElementById('sendBtn'); if(sb) sb.disabled=true;
   const eb=document.getElementById('chatErr'); if(eb) eb.style.display='none';

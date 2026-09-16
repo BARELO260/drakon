@@ -26,6 +26,11 @@
    se muestra con un mensaje claro (ver _mediaAccessDeniedHtml).
 ═══════════════════════════════════════ */
 async function requestMediaStream(constraints){
+  // Menores sin consentimiento parental verificado: nunca se pide acceso
+  // real a cámara/micrófono (cumplimiento COPPA / Google Play Families).
+  if(typeof isMinorRestricted === 'function' && isMinorRestricted()){
+    return { stream:null, error:{ name:'MinorRestrictedError' } };
+  }
   if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
     return { stream:null, error:{ name:'NotSupportedError' } };
   }
@@ -43,6 +48,14 @@ function _mediaAccessDeniedHtml(e, needs, retryFnCall){
   const what = needs.camera && needs.mic ? 'la cámara y el micrófono' : needs.camera ? 'la cámara' : 'el micrófono';
   const icon = needs.camera ? '📷' : '🎙️';
   const name = e?.name || '';
+  if(name==='MinorRestrictedError'){
+    return `<div class="media-denied">
+      <div class="media-denied-ic">👨‍👩‍👧</div>
+      <div class="media-denied-t">Necesitamos permiso de un padre, madre o tutor</div>
+      <div class="media-denied-s">Esta función usa ${what} y requiere autorización de un adulto responsable antes de activarse.</div>
+      <button class="scan-cta" onclick="goTo('screen-parental-consent'); if(typeof renderParentalConsent==='function') renderParentalConsent();">Solicitar autorización</button>
+    </div>`;
+  }
   let detail = `Drakón necesita ${what} para esta función.`;
   if(name==='NotAllowedError' || name==='PermissionDeniedError' || name==='SecurityError'){
     detail = `Parece que el permiso fue rechazado antes. Ve a los ajustes de este sitio (icono 🔒 junto a la dirección, o Ajustes del sistema → Apps → Drakón → Permisos) y activa ${what}, luego vuelve a intentarlo.`;
@@ -349,7 +362,7 @@ Field rules:
       fetch('https://api.groq.com/openai/v1/chat/completions',{
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.1, reasoning_effort:'low'})
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.1})
       }),
       new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
     ]);
@@ -386,20 +399,13 @@ async function askDrakonVisionOnce(systemPrompt, userText, imageDataUrl){
       fetch('https://api.groq.com/openai/v1/chat/completions',{
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, max_completion_tokens:350, temperature:0.5, reasoning_effort:'low'})
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, max_completion_tokens:350, temperature:0.5})
       }),
       new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
     ]);
     if(!resp.ok) return '';
     const data=await resp.json();
-    const raw=data?.choices?.[0]?.message?.content?.trim() || '';
-    // Igual que en el chat de texto (ver stripAIReasoningArtifacts en
-    // js/ai-gateway.js): sin esto, un posible borrador de razonamiento
-    // interno filtrado se LEERÍA EN VOZ ALTA antes de la respuesta real,
-    // sonando como palabras sueltas incoherentes — aquí es aún más crítico
-    // porque esta respuesta se habla directamente, sin pasar por la
-    // limpieza de markdown/corchetes que sí tiene el chat de texto.
-    return typeof stripAIReasoningArtifacts==='function' ? stripAIReasoningArtifacts(raw) : raw;
+    return data?.choices?.[0]?.message?.content?.trim() || '';
   } catch(e){ return ''; }
 }
 
@@ -918,7 +924,7 @@ async function askDrakonAIOnce(systemPrompt, userText){
   const messages=[{role:'system',content:systemPrompt},{role:'user',content:userText}];
   const managed = typeof hasManagedAi==='function' && hasManagedAi();
   if(managed){
-    try{ const t=await managedChat(messages); if(t) return typeof stripAIReasoningArtifacts==='function' ? stripAIReasoningArtifacts(t.trim()) : t.trim(); }catch(e){}
+    try{ const t=await managedChat(messages); if(t) return t.trim(); }catch(e){}
   }
   if(state.groqKey){
     const models=['openai/gpt-oss-120b','openai/gpt-oss-20b'];
@@ -928,18 +934,13 @@ async function askDrakonAIOnce(systemPrompt, userText){
           fetch('https://api.groq.com/openai/v1/chat/completions',{
             method:'POST',
             headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-            body:JSON.stringify({model,messages,max_tokens:400,temperature:0.5,reasoning_effort:'low'})
+            body:JSON.stringify({model,messages,max_tokens:400,temperature:0.5})
           }),
           new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),20000))
         ]);
         if(!resp.ok) continue;
         const data=await resp.json();
-        const raw=data?.choices?.[0]?.message?.content?.trim();
-        // Ver stripAIReasoningArtifacts en js/ai-gateway.js — esta respuesta
-        // se habla en voz alta directamente, sin limpieza previa alguna, así
-        // que es el sitio donde más se nota un borrador de razonamiento
-        // filtrado (sonaría como palabras incoherentes antes del mensaje).
-        const text = raw && typeof stripAIReasoningArtifacts==='function' ? stripAIReasoningArtifacts(raw) : raw;
+        const text=data?.choices?.[0]?.message?.content?.trim();
         if(text) return text;
       }catch(e){}
     }

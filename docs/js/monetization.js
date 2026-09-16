@@ -205,7 +205,7 @@ const DrakonBilling = {
       );
       const response = await request.show();
       const purchaseToken = response?.details?.purchaseToken;
-      await response.complete('success');
+      await response.complete(purchaseToken ? 'success' : 'fail');
       if(!purchaseToken) return { ok:false, reason:'no-token', message:'No se recibió confirmación de la compra.' };
       return await this.verifyPurchaseOnServer(purchaseToken);
     } catch(e){
@@ -257,3 +257,26 @@ const DrakonBilling = {
     }
   },
 };
+
+/* ── Reconciliación silenciosa al iniciar sesión ──────────────────────
+   Cubre el caso en que Google Play SÍ cobró una suscripción pero la
+   verificación con nuestro servidor nunca se completó (red caída, la app
+   se cerró justo después de pagar, timeout de la Cloud Function...).
+   Sin esto, el usuario habría pagado y seguiría viéndose como Gratis, sin
+   ninguna señal de que existe un botón "Restaurar compra" en Ajustes.
+   Se llama una sola vez por sesión, en silencio: si no hay nada que
+   restaurar, no se muestra ningún mensaje (evita confundir a quien nunca
+   ha comprado Premium). */
+let _premiumReconciled = false;
+async function silentlyReconcilePremium(){
+  if(_premiumReconciled) return;
+  _premiumReconciled = true;
+  if(typeof state === 'undefined' || state.isPremium) return;
+  if(typeof DrakonBilling === 'undefined' || !DrakonBilling.isAvailable()) return;
+  try{
+    const result = await DrakonBilling.restorePurchases();
+    if(result && result.ok && typeof showToast === 'function'){
+      showToast('✅ Encontramos tu suscripción Premium y la activamos.');
+    }
+  } catch(e){ /* silencioso a propósito: no molestar si no hay nada que restaurar */ }
+}

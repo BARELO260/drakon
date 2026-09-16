@@ -48,7 +48,19 @@ async function isUserPremium(uid){
   } catch(e){ return false; }
 }
 
-async function consumeQuota(uid, action){
+// Valida que localDate venga en formato YYYY-MM-DD y sea una fecha real
+// cercana a hoy (±1 día, por husos horarios) antes de confiar en ella —
+// nunca en un valor arbitrario lejano que un cliente manipulado pudiera
+// enviar para "resetear" su cupo a voluntad.
+function _safeLocalDate(localDate){
+  if(typeof localDate!=='string' || !/^\d{4}-\d{2}-\d{2}$/.test(localDate)) return null;
+  const asDate=new Date(localDate+'T00:00:00Z');
+  if(isNaN(asDate.getTime())) return null;
+  const diffDays=Math.abs(Date.now()-asDate.getTime())/86_400_000;
+  return diffDays<=1.5 ? localDate : null;
+}
+
+async function consumeQuota(uid, action, localDate){
   const premium = await isUserPremium(uid);
   const ref=getFirestore().collection('aiRateLimits').doc(`${uid}_${action}`);
   const now=Date.now();
@@ -56,7 +68,7 @@ async function consumeQuota(uid, action){
   // js/monetization.js (MONETIZATION.limits). Si cambias uno, cambia el otro.
   const minuteMax = premium ? (action==='tts'?60:30) : (action==='tts'?24:12);
   const dayMax    = premium ? (action==='tts'?999999:999999) : (action==='tts'?80:25);
-  const today=new Date().toISOString().slice(0,10);
+  const today=_safeLocalDate(localDate) || new Date().toISOString().slice(0,10);
   let remaining=0;
   await getFirestore().runTransaction(async tx=>{
     const old=(await tx.get(ref)).data()||{};
@@ -71,6 +83,29 @@ async function consumeQuota(uid, action){
   return remaining;
 }
 
+// Devuelve el cupo DIARIO consumido por consumeQuota() cuando la llamada al
+// proveedor externo (Groq/ElevenLabs) termina fallando después de haberlo
+// descontado. Sin esto, una caída temporal de un proveedor externo le
+// costaba a el usuario uno de sus mensajes/voces del día sin recibir nada
+// a cambio. El límite por minuto (antiabuso) NO se revierte a propósito:
+// solo perdona el cupo diario visible para el usuario.
+async function refundQuota(uid, action, localDate){
+  const ref=getFirestore().collection('aiRateLimits').doc(`${uid}_${action}`);
+  const today=_safeLocalDate(localDate) || new Date().toISOString().slice(0,10);
+  try{
+    await getFirestore().runTransaction(async tx=>{
+      const old=(await tx.get(ref)).data()||{};
+      if(old.day===today && old.dailyCount>0){
+        tx.set(ref,{dailyCount:old.dailyCount-1},{merge:true});
+      }
+    });
+  } catch(e){
+    // Best-effort: si el reembolso falla, no vale la pena tumbar la
+    // respuesta de error original por esto.
+    console.warn('[refundQuota] No se pudo reembolsar cupo:', e && e.message);
+  }
+}
+
 exports.drakonAi = onCall({
   region:'us-central1', timeoutSeconds:30, concurrency:40, maxInstances:20,
   secrets:[GROQ_API_KEY,ELEVENLABS_API_KEY], enforceAppCheck:false
@@ -79,7 +114,7 @@ exports.drakonAi = onCall({
   const data=request.data||{};
   const action=data.action;
   if(action==='chat'){
-    const remaining=await consumeQuota(request.auth.uid,'chat');
+    const remaining=await consumeQuota(request.auth.uid,'chat',data.localDate);
     const incoming=Array.isArray(data.messages)?data.messages.slice(-18):[];
     if(!incoming.length) throw new HttpsError('invalid-argument','messages are required.');
     const messages=incoming.map(m=>({
@@ -90,20 +125,20 @@ exports.drakonAi = onCall({
       method:'POST', headers:{'Content-Type':'application/json','Authorization':`Bearer ${GROQ_API_KEY.value()}`},
       body:JSON.stringify({model:'llama-3.3-70b-versatile',messages,max_tokens:900,temperature:0.7})
     });
-    if(!resp.ok) throw new HttpsError('internal','The tutor is temporarily unavailable.');
+    if(!resp.ok){ await refundQuota(request.auth.uid,'chat',data.localDate); throw new HttpsError('internal','The tutor is temporarily unavailable.'); }
     const json=await resp.json(); const text=json?.choices?.[0]?.message?.content?.trim();
-    if(!text) throw new HttpsError('internal','The tutor returned an empty response.');
+    if(!text){ await refundQuota(request.auth.uid,'chat',data.localDate); throw new HttpsError('internal','The tutor returned an empty response.'); }
     return {text,remaining};
   }
   if(action==='tts'){
-    const remaining=await consumeQuota(request.auth.uid,'tts');
+    const remaining=await consumeQuota(request.auth.uid,'tts',data.localDate);
     const text=validateText(data.text,900,'text');
     const voiceId=VOICES[data.voiceKey]||VOICES.narrator;
     const resp=await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`,{
       method:'POST',headers:{'Content-Type':'application/json','xi-api-key':ELEVENLABS_API_KEY.value(),'Accept':'audio/mpeg'},
       body:JSON.stringify({text,model_id:'eleven_multilingual_v2',voice_settings:{stability:.55,similarity_boost:.8,style:.25,use_speaker_boost:true}})
     });
-    if(!resp.ok) throw new HttpsError('internal','Voice generation is temporarily unavailable.');
+    if(!resp.ok){ await refundQuota(request.auth.uid,'tts',data.localDate); throw new HttpsError('internal','Voice generation is temporarily unavailable.'); }
     const audio=Buffer.from(await resp.arrayBuffer()).toString('base64');
     return {audioBase64:audio,contentType:'audio/mpeg',remaining};
   }

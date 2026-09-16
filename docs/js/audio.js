@@ -334,17 +334,13 @@ const CHAR_VOICE = {
 
   // 🦊 Zorrek — zorro pícaro: ágil y animado, energético pero inteligible.
   // Intercambiada con Bao (ahora usa Rachel), a petición del usuario.
-  // Velocidad bajada de 1.12 a 1.02 — a 1.12 sonaba demasiado rápida y
-  // costaba entenderla bien, sobre todo en frases largas.
-  fox:    { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.32, style:0.60, speed:1.02 },
+  fox:    { voiceId:'21m00Tcm4TlvDq8ikWAM', name:'Rachel', gender:'F', stability:0.32, style:0.60, speed:1.12 },
 
   // 🤖 Syntinator — robot analítico: ritmo uniforme y tono metálico neutro.
   robot:  { voiceId:'pNInz6obpgDQGcFmaJgB', name:'Adam', gender:'M', stability:0.88, style:0.02, speed:0.95 },
 
   // 👽 Marshal — alienígena: vivo y agudo, extraño pero comprensible.
-  // Velocidad bajada de 1.15 a 1.03 — mismo problema que Zorrek: a 1.15
-  // sonaba demasiado rápida y costaba entenderla.
-  alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', name:'Sam', gender:'M', stability:0.28, style:0.70, speed:1.03 },
+  alien:  { voiceId:'yoZ06aMxZJE3Pfs2fBtY', name:'Sam', gender:'M', stability:0.28, style:0.70, speed:1.15 },
 
   // 🔥 Azhar — fénix inspirador: cálido, fluido y con lift natural.
   // Usa la misma voz que Drakón tenía antes (Arnold), a petición del usuario.
@@ -361,9 +357,7 @@ const CHAR_VOICE = {
   triton: { voiceId:'JBFqnCBsd6RMkjVDRZzb', name:'George', gender:'M', stability:0.75, style:0.15, speed:0.88 },
 
   // 🎵 Axónic — DJ ajolote: energético y chispeante, rápido pero claro.
-  // Velocidad bajada de 1.15 a 1.03 — mismo problema que Zorrek: a 1.15
-  // sonaba demasiado rápida y costaba entenderla.
-  axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', name:'Domi', gender:'F', stability:0.30, style:0.70, speed:1.03 },
+  axonic: { voiceId:'AZnzlk1XvdvUeBnXmlld', name:'Domi', gender:'F', stability:0.30, style:0.70, speed:1.15 },
 };
 
 /* ═══════════════════════════════════════

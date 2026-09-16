@@ -145,3 +145,34 @@ resuelto todavía y requiere una decisión de producto, no solo código:
    aunque exista el consentimiento, y `docs/privacy.html` debe reflejarlo.
 3. Revisar con un profesional legal las secciones de menores en
    `docs/privacy.html` y `docs/terms.html` antes de publicar.
+
+## Anuncios (AdMob) — por qué no están implementados
+
+Se pidió mostrar un anuncio de Google cada 1-2 lecciones completadas.
+Investigué esto antes de tocar código y **no es viable de forma segura**
+con la arquitectura actual:
+
+- Drakón se publica como **TWA (Trusted Web Activity)** — la app "nativa"
+  de Play Store es en realidad una pestaña de Chrome sin capa de código
+  Android propia. AdMob es un SDK nativo (Android/iOS/Unity/Flutter); no
+  existe una versión oficial para inyectar dentro del contenido web que
+  carga una TWA.
+- Insertar anuncios web (Google AdSense/Ad Manager) directamente en el
+  HTML de la PWA, para que se vean dentro de la TWA, viola las políticas
+  de AdSense sobre mostrar anuncios de publisher dentro de un wrapper de
+  app instalada — es un patrón que Google activamente desincentiva y
+  puede llevar a la suspensión de la cuenta de AdSense/AdMob.
+- Es un problema conocido y sin solución oficial (hay un issue abierto en
+  el propio repositorio de Chromium al respecto, sin resolver).
+
+**La única forma real de tener AdMob** sería migrar de TWA a una app
+híbrida con capa nativa propia (p. ej. con Capacitor), que sí puede alojar
+el SDK de AdMob — es una migración de arquitectura, no un cambio de código
+puntual, y no se hizo en esta sesión.
+
+**Lo que sí se implementó en su lugar:** un intersticial que promueve la
+suscripción Premium cada 2 lecciones aprobadas (`state.lessonsSinceUpsell`
+en `docs/js/lessons.js`, disparado desde `exitEx()`). No es un anuncio de
+un tercero, pero cumple el mismo objetivo de negocio en el mismo punto de
+la experiencia, sin los riesgos de política ni la migración de
+arquitectura.

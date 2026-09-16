@@ -740,6 +740,10 @@ const LessonEngine = {
       if (won && !state.lessonsCompleted.includes(this.lesson.id)) {
         state.lessonsCompleted.push(this.lesson.id);
       }
+      // Cuenta lecciones aprobadas hacia el intersticial de promoción de
+      // Premium que se muestra cada 2 lecciones (ver exitEx()) — no cuenta
+      // reintentos fallidos, solo progreso real.
+      if (won && !state.isPremium) state.lessonsSinceUpsell = (state.lessonsSinceUpsell || 0) + 1;
       if (won && typeof rememberLesson === 'function') rememberLesson(this.lesson);
       // Racha diaria — hacer una lección cuenta como actividad del día,
       // igual que chatear con la IA (antes solo el chat la activaba).
@@ -957,6 +961,17 @@ function exitEx(skipConfirm) {
 
   goTo('screen-main');
   switchTab('lessons');
+
+  // Intersticial de promoción cada 2 lecciones aprobadas (no es un anuncio
+  // de un tercero — ver nota en README sobre por qué AdMob no es viable en
+  // una TWA). Se muestra DESPUÉS de volver a la ruta de lecciones, nunca
+  // interrumpiendo la pantalla de resultado en sí.
+  if (typeof state !== 'undefined' && !state.isPremium && (state.lessonsSinceUpsell || 0) >= 2) {
+    state.lessonsSinceUpsell = 0;
+    if (typeof save === 'function') save();
+    if (typeof showPremModal === 'function') setTimeout(showPremModal, 500);
+  }
+
   return true;
 }
 
