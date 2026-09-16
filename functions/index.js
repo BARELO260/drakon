@@ -131,6 +131,18 @@ exports.drakonAi = onCall({
     return {text,remaining};
   }
   if(action==='tts'){
+    // Cumplimiento de la Política de Uso Prohibido de ElevenLabs: prohíbe
+    // ofrecer sus Servicios a menores de 13 (sin excepción) y a 13-17 sin
+    // consentimiento parental. Se verifica aquí, en el servidor, leyendo el
+    // perfil real del usuario — no se confía en el cliente, que podría
+    // estar modificado.
+    const profile=(await getFirestore().collection('users').doc(request.auth.uid).get()).data()||{};
+    if(profile.birthYear){
+      const age=new Date().getFullYear()-profile.birthYear;
+      if(age<13 || (age<18 && profile.parentalConsentStatus!=='approved')){
+        throw new HttpsError('permission-denied','Voice generation is not available for this account.');
+      }
+    }
     const remaining=await consumeQuota(request.auth.uid,'tts',data.localDate);
     const text=validateText(data.text,900,'text');
     const voiceId=VOICES[data.voiceKey]||VOICES.narrator;

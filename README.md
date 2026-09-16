@@ -146,6 +146,33 @@ resuelto todavía y requiere una decisión de producto, no solo código:
 3. Revisar con un profesional legal las secciones de menores en
    `docs/privacy.html` y `docs/terms.html` antes de publicar.
 
+### Resultado de la consulta a los proveedores de IA (sept. 2026)
+
+**Groq — permitido, con responsabilidad tuya.** Su Services Agreement exige
+18+ para acceder a *Cloud Services* (eso aplica a ti como titular de la
+cuenta, no a los usuarios finales de tu app). Además contempla
+explícitamente el caso de apps dirigidas a menores: "Customer will be
+solely responsible for ensuring that the Customer Application complies with
+all applicable laws... related to the use of the Customer Application by
+individuals under the age of majority". Es decir: Groq lo permite y te
+traslada a ti toda la responsabilidad de cumplimiento (COPPA, etc.).
+
+**ElevenLabs — PROHIBIDO para menores de 13, sin excepción.** Su Prohibited
+Use Policy prohíbe expresamente "Making our Services available to anyone
+under the age of 13, or anyone between the ages of 13-18 without first
+obtaining parental or guardian consent". Nótese que para los menores de 13
+NO hay forma de habilitarlo: ni con consentimiento parental.
+
+Por eso el texto-a-voz gestionado quedó bloqueado por edad en tres capas:
+- `isManagedTtsBlockedByAge()` en `docs/js/age-gate.js` (regla única).
+- `managedTTS()` en `docs/js/ai-gateway.js` (cliente).
+- La rama `action==='tts'` de `drakonAi` en `functions/index.js`, que lee el
+  perfil real desde Firestore y no confía en el cliente.
+
+Menores de 13 → voz bloqueada siempre. 13-17 → bloqueada hasta consentimiento
+parental. 18+ → sin restricción. El resto de la app (lecciones, juegos, chat
+de texto) sigue funcionando con normalidad en todos los casos.
+
 ## Anuncios (AdMob) — por qué no están implementados
 
 Se pidió mostrar un anuncio de Google cada 1-2 lecciones completadas.

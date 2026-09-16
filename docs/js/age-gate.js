@@ -33,6 +33,30 @@ function isMinorRestricted(){
   return !!(state.isMinor && state.parentalConsentStatus !== 'approved');
 }
 
+/* ── Restricción de voz (ElevenLabs) por edad ─────────────────────────
+   La Política de Uso Prohibido de ElevenLabs prohíbe expresamente
+   "hacer disponibles nuestros Servicios a cualquier persona menor de 13
+   años", y para 13-17 exige consentimiento parental previo. Nótese que
+   para los menores de 13 NO existe la opción de desbloquearlo con
+   consentimiento parental: está prohibido de forma absoluta.
+
+   Por eso esta comprobación es independiente de isMinorRestricted():
+   - menor de 13  → texto-a-voz gestionado BLOQUEADO siempre.
+   - entre 13-17  → bloqueado hasta que haya consentimiento parental.
+   - 18 o más     → sin restricción.
+
+   La app sigue funcionando sin voz: las lecciones, los juegos y el texto
+   del chat no dependen de ElevenLabs. */
+function isManagedTtsBlockedByAge(){
+  if(typeof state === 'undefined' || !state.ageGateCompleted) return false;
+  const now = new Date().getFullYear();
+  const age = state.birthYear ? (now - state.birthYear) : null;
+  if(age === null) return false;
+  if(age < 13) return true;                                  // prohibido por ElevenLabs, sin excepción
+  if(age < 18) return state.parentalConsentStatus !== 'approved';
+  return false;
+}
+
 // Reemplaza la lógica de navegación post-login: primero exige completar
 // el age gate una vez por cuenta; si la cuenta es de un menor sin
 // consentimiento aprobado, muestra la pantalla de consentimiento parental

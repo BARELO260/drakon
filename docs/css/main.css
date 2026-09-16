@@ -321,6 +321,10 @@ box-shadow:var(--card-elev);}
 .ex-feedback.wrong .ex-fb-header{color:var(--coral)}
 .ex-fb-correct{font-size:13px;font-weight:700;color:var(--text);margin-bottom:6px}
 .ex-fb-explanation{font-size:13px;color:var(--muted);line-height:1.55}
+/* Comentario del personaje: deliberadamente más pequeño y apagado que la
+   explicación, y separado por una línea, para que se lea como un guiño al
+   margen y nunca compita con el contenido que enseña. */
+.ex-fb-char{font-size:12px;color:var(--muted);opacity:.75;line-height:1.5;margin-top:9px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08);font-style:italic}
 
 .ex-next-btn{
   width:100%;margin-top:16px;

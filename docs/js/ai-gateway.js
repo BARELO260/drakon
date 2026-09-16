@@ -45,6 +45,11 @@ async function managedChat(messages){ return (await callManagedAi({action:'chat'
 
 const _managedTtsCache=new Map();
 async function managedTTS(text,voiceKey){
+  // ElevenLabs prohíbe su uso a menores de 13 (sin excepción) y a 13-17 sin
+  // consentimiento parental. Ver isManagedTtsBlockedByAge() en age-gate.js.
+  if(typeof isManagedTtsBlockedByAge === 'function' && isManagedTtsBlockedByAge()){
+    const err=new Error('tts-age-restricted'); err.name='TtsAgeRestrictedError'; throw err;
+  }
   const cacheKey=`${voiceKey||'narrator'}:${text}`;
   if(_managedTtsCache.has(cacheKey)) return _managedTtsCache.get(cacheKey).slice(0);
   const out=await callManagedAi({action:'tts',text,voiceKey});

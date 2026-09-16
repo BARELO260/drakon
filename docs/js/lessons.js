@@ -46,6 +46,30 @@ function _activeLessonLangCode(){
   return (typeof state !== 'undefined' && state.lang && state.lang.code) ? state.lang.code : 'EN';
 }
 
+/* ── Capa de personalidad en las lecciones ────────────────────────────
+   Devuelve (a veces) una línea del personaje activo, como comentario al
+   margen bajo la explicación pedagógica. Es deliberadamente SUTIL:
+
+   - Solo aparece ~1 de cada 3 veces, para que sea un guiño y no ruido
+     constante que el usuario aprenda a ignorar.
+   - Va SIEMPRE después de la explicación, nunca en su lugar ni antes: el
+     contenido que enseña es lo primero que se lee.
+   - Se muestra en un estilo visualmente secundario, sin competir con el
+     feedback principal de la respuesta.
+   Ver CHAR_REACTIONS en characters.js para el tono de cada personaje. */
+function _charAside(category){
+  if (typeof getReaction !== 'function') return '';
+  if (Math.random() > 0.34) return '';
+  const line = getReaction(category);
+  if (!line) return '';
+  let name = '';
+  if (typeof CHARS !== 'undefined' && typeof state !== 'undefined' && state.charId) {
+    const c = CHARS.find(x => x.id === state.charId);
+    if (c) name = c.name;
+  }
+  return `<div class="ex-fb-char">${name ? `<strong>${name}:</strong> ` : ''}${line}</div>`;
+}
+
 const LessonEngine = {
 
   /* ── Estado ─────────────────────────── */
@@ -600,6 +624,7 @@ const LessonEngine = {
         feedback.innerHTML = `
           <div class="ex-fb-header">${msgs[Math.floor(Math.random() * msgs.length)]}</div>
           <div class="ex-fb-explanation">${ex.explanation || ''}</div>
+          ${_charAside('correct')}
         `;
       } else {
         this.lives--;
@@ -608,6 +633,7 @@ const LessonEngine = {
           <div class="ex-fb-header">Respuesta incorrecta 😕</div>
           ${correctText ? `<div class="ex-fb-correct">✅ La respuesta correcta es: <strong>${correctText}</strong></div>` : ''}
           <div class="ex-fb-explanation">${ex.explanation || ''}</div>
+          ${_charAside('wrong')}
         `;
       }
     }
