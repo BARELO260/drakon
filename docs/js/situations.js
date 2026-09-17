@@ -362,7 +362,7 @@ Field rules:
       fetch('https://api.groq.com/openai/v1/chat/completions',{
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.1})
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, response_format:{type:'json_object'}, max_completion_tokens:700, temperature:0.1, reasoning_effort:'low'})
       }),
       new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
     ]);
@@ -399,13 +399,20 @@ async function askDrakonVisionOnce(systemPrompt, userText, imageDataUrl){
       fetch('https://api.groq.com/openai/v1/chat/completions',{
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, max_completion_tokens:350, temperature:0.5})
+        body:JSON.stringify({model:'qwen/qwen3.6-27b', messages, max_completion_tokens:350, temperature:0.5, reasoning_effort:'low'})
       }),
       new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),25000))
     ]);
     if(!resp.ok) return '';
     const data=await resp.json();
-    return data?.choices?.[0]?.message?.content?.trim() || '';
+    const raw=data?.choices?.[0]?.message?.content?.trim() || '';
+    // Igual que en el chat de texto (ver stripAIReasoningArtifacts en
+    // js/ai-gateway.js): sin esto, un posible borrador de razonamiento
+    // interno filtrado se LEERÍA EN VOZ ALTA antes de la respuesta real,
+    // sonando como palabras sueltas incoherentes — aquí es aún más crítico
+    // porque esta respuesta se habla directamente, sin pasar por la
+    // limpieza de markdown/corchetes que sí tiene el chat de texto.
+    return typeof stripAIReasoningArtifacts==='function' ? stripAIReasoningArtifacts(raw) : raw;
   } catch(e){ return ''; }
 }
 
@@ -924,7 +931,7 @@ async function askDrakonAIOnce(systemPrompt, userText){
   const messages=[{role:'system',content:systemPrompt},{role:'user',content:userText}];
   const managed = typeof hasManagedAi==='function' && hasManagedAi();
   if(managed){
-    try{ const t=await managedChat(messages); if(t) return t.trim(); }catch(e){}
+    try{ const t=await managedChat(messages); if(t) return typeof stripAIReasoningArtifacts==='function' ? stripAIReasoningArtifacts(t.trim()) : t.trim(); }catch(e){}
   }
   if(state.groqKey){
     const models=['openai/gpt-oss-120b','openai/gpt-oss-20b'];

@@ -207,12 +207,20 @@ async function sendHistoryMsg(){
 
   const prompt = buildPrompt();
   const messages = [{role:'system',content:prompt}];
-  for(const m of state.chatHistory) messages.push({role:m.role==='user'?'user':'assistant',content:m.content});
+  // Igual que en el chat principal (ver sendChatInternal en js/auth.js): solo
+  // se envían los últimos 12 mensajes, nunca el historial completo. Un chat
+  // guardado puede tener cientos de mensajes acumulados con el tiempo — sin
+  // este límite, cada turno reenviaría TODA esa conversación entera a la IA,
+  // desperdiciando cada vez más tokens de la cuenta a medida que el chat
+  // crece (y ralentizando la respuesta), sin ninguna mejora real para el
+  // usuario ya que el modelo no necesita tanto contexto para seguir la
+  // conversación con naturalidad.
+  for(const m of state.chatHistory.slice(-12)) messages.push({role:m.role==='user'?'user':'assistant',content:m.content});
 
   let aiText = '';
   try{
     if(managed){
-      try{ aiText=await managedChat(messages); }
+      try{ aiText=await managedChat(messages); if(aiText && typeof stripAIReasoningArtifacts==='function') aiText=stripAIReasoningArtifacts(aiText); }
       catch(e){ if(!groqKey) throw e; /* si hay groqKey, sigue abajo e intenta con ella */ }
     }
     if(!aiText && groqKey){
@@ -222,7 +230,15 @@ async function sendHistoryMsg(){
         fetch('https://api.groq.com/openai/v1/chat/completions',{
           method:'POST',
           headers:{'Content-Type':'application/json','Authorization':`Bearer ${groqKey}`},
-          body:JSON.stringify({model,messages,max_tokens:900,temperature:0.7})
+          // reasoning_effort:'low' — estos modelos gastan una parte de sus
+          // tokens de salida "pensando" antes de responder; con un chat de
+          // tutor de idiomas (respuestas cortas y conversacionales) ese
+          // razonamiento profundo no hace falta, así que lo reducimos al
+          // mínimo. Esto aprovecha mejor la cuota de tokens de la cuenta
+          // de Groq del usuario (menos tokens ocultos desperdiciados por
+          // turno) y de paso hace mucho más improbable que ese borrador
+          // interno se cuele en la respuesta visible/hablada.
+          body:JSON.stringify({model,messages,max_tokens:900,temperature:0.7,reasoning_effort:'low'})
         }),
         new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),28000))
       ]);
@@ -230,6 +246,7 @@ async function sendHistoryMsg(){
       if(!resp.ok){ continue; }
       const data = await resp.json();
       aiText = data?.choices?.[0]?.message?.content?.trim()||'';
+      if(aiText && typeof stripAIReasoningArtifacts==='function') aiText = stripAIReasoningArtifacts(aiText);
       if(aiText) break;
       }
     }

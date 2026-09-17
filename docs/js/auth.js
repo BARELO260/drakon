@@ -207,7 +207,7 @@ if(cloudData && Object.keys(cloudData).length > 0){
       'lastActiveDate','lastMsgDate','msgsToday','charId','lang','theme',
       'nativeLang','quizDone','missions','achievements','lessonsCompleted',
       'userLevel','correctionsToday','situationsToday','notifs','sounds','ttsEnabled',
-      'savedChats','isPremium','learnerMemory','accessories',
+      'savedChats','isPremium','learnerMemory',
       'birthYear','isMinor','ageGateCompleted','parentalConsentStatus',
     ];
     for(const k of OVERWRITE_KEYS){
@@ -280,7 +280,7 @@ window.onFirebaseSignOut = function(){
     'charId','lang','theme','nativeLang','groqKey','elevenKey','quizDone','missions',
     'achievements','lessonsCompleted','userLevel','correctionsToday',
     'situationsToday','notifs','sounds','ttsEnabled','savedChats','isPremium',
-    'chatHistory','savedChats','learnerMemory','accessories',
+    'chatHistory','savedChats','learnerMemory',
   ];
   const defaults = {
     xp:0, streak:0, totalMessages:0, lastActiveDate:null, lastMsgDate:null,
@@ -301,7 +301,6 @@ window.onFirebaseSignOut = function(){
     notifs:false, sounds:true, ttsEnabled:false, savedChats:[], isPremium:false,
     chatHistory:[], chatSessionId:null,
     learnerMemory:{name:'',goal:'',interests:[],strengths:[],focusAreas:[],recentLessons:[],situations:[],corrections:[],updatedAt:null},
-    accessories:{equipped:null,unlocked:['passport']},
   };
   for(const k of RESET_ON_LOGOUT){
     if(defaults[k] !== undefined) state[k] = defaults[k];
@@ -447,7 +446,6 @@ function save(){
     userLevel:state.userLevel, correctionsToday:state.correctionsToday, situationsToday:state.situationsToday,
     notifs:state.notifs, sounds:state.sounds, ttsEnabled:state.ttsEnabled, savedChats:state.savedChats,
     learnerMemory:state.learnerMemory,
-    accessories:state.accessories,
     ttsCharsToday:state.ttsCharsToday,
   };
   try{ localStorage.setItem('drakon_pwa', JSON.stringify(data)); }catch(e){}
@@ -708,7 +706,7 @@ async function sendChatInternal(){
   // el usuario configuró una — nunca dejar al usuario sin ninguna opción.
   let text = '';
   if(managed){
-    try{ text=await managedChat(messages); }
+    try{ text=await managedChat(messages); if(text && typeof stripAIReasoningArtifacts==='function') text=stripAIReasoningArtifacts(text); }
     catch(e){
       if(!state.groqKey){
         typing.remove(); if(typeof mascotIdle==='function') mascotIdle();
@@ -734,7 +732,7 @@ async function sendChatInternal(){
               'Content-Type': 'application/json',
               'Authorization': `Bearer ${state.groqKey}`,
             },
-            body: JSON.stringify({ model, messages, max_tokens: 900, temperature: 0.7 }),
+            body: JSON.stringify({ model, messages, max_tokens: 900, temperature: 0.7, reasoning_effort: 'low' }),
           }),
           new Promise((_,rej) => setTimeout(()=>rej(new Error('timeout')), 28000))
         ]);
@@ -753,6 +751,7 @@ async function sendChatInternal(){
 
         const data = await resp.json();
         text = data?.choices?.[0]?.message?.content?.trim() || '';
+        if(text && typeof stripAIReasoningArtifacts==='function') text = stripAIReasoningArtifacts(text);
         if(text) break;
 
       } catch(e){

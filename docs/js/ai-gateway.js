@@ -43,6 +43,40 @@ async function callManagedAi(payload){
 
 async function managedChat(messages){ return (await callManagedAi({action:'chat',messages})).text; }
 
+/* ── Limpieza de artefactos de razonamiento interno ──────────────────
+   Algunos modelos "razonadores" (los que usamos vía Groq: gpt-oss-120b,
+   gpt-oss-20b y qwen3.6-27b) generan primero un borrador de pensamiento
+   interno antes de la respuesta final — normalmente el proveedor lo separa
+   en un campo aparte, pero a veces (sobre todo si la petición se corta, o
+   con ciertas combinaciones de parámetros) ese pensamiento interno queda
+   mezclado dentro del mismo texto de respuesta. Si no se filtra, ese texto
+   —que nunca estuvo pensado para el usuario— se muestra en el chat y, peor
+   aún, se LEE EN VOZ ALTA, sonando como "palabras o frases incoherentes"
+   justo antes del mensaje real. Se llama en CADA sitio donde se recibe
+   una respuesta cruda de la IA (auth.js, chat.js, situations.js), antes de
+   guardarla, mostrarla o hablarla — así nunca se cuela ni se reenvía de
+   vuelta al modelo en el historial (lo que además ahorraría tokens en
+   vano en los siguientes turnos). */
+function stripAIReasoningArtifacts(text){
+  if(!text) return text;
+  let out = String(text);
+  // 1) Bloques de razonamiento con sus propias etiquetas de apertura/cierre
+  //    (formato usado por Qwen3 y similares): se elimina la etiqueta Y todo
+  //    su contenido, no solo la etiqueta.
+  out = out.replace(/<(think|thinking|reasoning|analysis|scratchpad)>[\s\S]*?<\/\1>/gi, '');
+  // 2) Formato "Harmony" de los modelos gpt-oss: canales tipo
+  //    <|channel|>analysis<|message|>...<|channel|>final<|message|>respuesta real
+  //    Si aparece un canal final, nos quedamos solo con lo que hay después
+  //    del ÚLTIMO marcador de mensaje final — el resto es borrador interno.
+  if(/<\|channel\|>\s*final\s*<\|message\|>/i.test(out)){
+    const parts = out.split(/<\|channel\|>\s*final\s*<\|message\|>/i);
+    out = parts[parts.length-1];
+  }
+  // Cualquier token de control suelto que quedara de ese mismo formato.
+  out = out.replace(/<\|[a-z_]+\|>/gi, '');
+  return out.trim();
+}
+
 const _managedTtsCache=new Map();
 async function managedTTS(text,voiceKey){
   // ElevenLabs prohíbe su uso a menores de 13 (sin excepción) y a 13-17 sin

@@ -379,7 +379,6 @@ function openCharSelect(){
   }
 
   showCsChar(csIndex, false);
-  if(typeof renderAccessoryOverlay==='function') renderAccessoryOverlay();
   goTo('screen-charselect');
 }
 
@@ -416,7 +415,6 @@ function showCsChar(i, animate){
 
   const dots=document.getElementById('csDots');
   if(dots) dots.innerHTML = CHARS.map((cc,idx)=>'<span class="cs-dot'+(idx===i?' active':'')+'"></span>').join('');
-  if(typeof renderAccessoryOverlay==='function') renderAccessoryOverlay();
 }
 
 function csPrev(){ csIndex=(csIndex-1+CHARS.length)%CHARS.length; showCsChar(csIndex,true); }
