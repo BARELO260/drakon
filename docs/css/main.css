@@ -294,11 +294,12 @@ box-shadow:var(--card-elev);}
 box-shadow:var(--card-elev);}
 .char-card:hover{transform:translateY(-3px);box-shadow:0 6px 18px var(--shadow)}
 .char-card.active-c{background:color-mix(in srgb, var(--accent) 18%, var(--card));box-shadow:0 0 0 2px var(--gold)}
-.char-card.locked-c{opacity:.35}
+.char-card.locked-c img,.char-card.locked-c .cc-media-wrap{filter:grayscale(.75) brightness(.65)}
+.char-card.locked-c .cc-n,.char-card.locked-c .cc-d{opacity:.6}
 .cc-em{width:64px;height:64px;object-fit:contain;margin-bottom:7px;display:block;margin-left:auto;margin-right:auto;filter:drop-shadow(0 4px 14px rgba(0,0,0,.5))}
 .cc-n{font-family:var(--fh);font-size:11px;font-weight:700}
 .cc-d{font-size:10px;color:var(--muted);margin-top:3px;line-height:1.4}
-.cc-lock{position:absolute;top:8px;right:8px;font-size:14px}
+.cc-lock{position:absolute;top:8px;right:8px;z-index:2;width:26px;height:26px;border-radius:var(--radius-full);background:rgba(0,0,0,.62);color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.4)}
 .cc-check{position:absolute;top:8px;right:8px;font-size:13px;color:var(--gold)}
 
 /* ── SETTINGS TAB ── */
