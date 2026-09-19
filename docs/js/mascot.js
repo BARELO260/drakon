@@ -6,16 +6,28 @@
    Dependencias: state.js, characters.js
    Usado por: chat.js, auth.js
 
-   Solo Drakón tiene su propio set de video mp4 (idle/speak/laugh) en
-   assets/characters/animations/ia/drakon/. El resto de personajes usan
-   sus propias animaciones (assets/characters/faces/*), nunca las de Drakón.
+   Drakón, Merlingo y Zorrek tienen su propio set de video mp4 (idle/speak,
+   y laugh solo Drakón) en assets/characters/animations/ia/<personaje>/ —
+   ver MASCOT_VIDEO_FOLDER más abajo. El resto de personajes usan sus
+   propias animaciones (assets/characters/faces/*), nunca las de otro.
 ═══════════════════════════════════════ */
 
 const MASCOT_ANIM_BASE = 'assets/characters/animations/ia';
-// Mapa charId -> carpeta de video dedicada (idle.mp4 / speak.mp4 / laugh.mp4).
-// Si un personaje no aparece aquí, se usan sus propias animaciones (anim/speak)
-// definidas en CHARS (js/data.js) — nunca las de Drakón.
-const MASCOT_VIDEO_FOLDER = { dragon: 'drakon' };
+// Mapa charId -> { folder, laugh }. 'folder' es la carpeta dedicada dentro de
+// MASCOT_ANIM_BASE (idle.mp4 / speak.mp4 / opcionalmente laugh.mp4).
+// 'laugh:true' significa que ese personaje SÍ tiene su propio laugh.mp4; si
+// no lo tiene, la reacción de "risa/error" usa su propio speak.mp4 (nunca el
+// laugh.mp4 de otro personaje — cada personaje usa EXCLUSIVAMENTE sus
+// propios archivos). Para agregar un personaje nuevo en el futuro basta con
+// sumar una línea aquí y colocar sus .mp4 en su propia carpeta — ver
+// docs/assets/characters/animations/ia/<carpeta>/.
+// Si un charId no aparece aquí, usa sus propias animaciones (anim/speak)
+// definidas en CHARS (js/data.js) — nunca las de Drakón ni las de nadie más.
+const MASCOT_VIDEO_FOLDER = {
+  dragon: { folder:'drakon',   laugh:true  },
+  wizard: { folder:'merlingo', laugh:false },
+  fox:    { folder:'zorrek',   laugh:false },
+};
 
 const MASCOT_SWAP_MS = 180;     // duración del crossfade al cambiar de pose
 const MASCOT_ERROR_HOLD_MS = 1400; // cuánto se queda riendo antes de pasar a hablar
@@ -29,13 +41,14 @@ let _mascotErrorTimer = null;
 // Devuelve {idle, speak, laugh} con las rutas de video para el personaje activo.
 function _mascotAssets(){
   const id = (typeof state !== 'undefined' && state.charId) || 'dragon';
-  const folder = MASCOT_VIDEO_FOLDER[id];
-  if(folder){
-    return {
-      idle:  `${MASCOT_ANIM_BASE}/${folder}/idle.mp4`,
-      speak: `${MASCOT_ANIM_BASE}/${folder}/speak.mp4`,
-      laugh: `${MASCOT_ANIM_BASE}/${folder}/laugh.mp4`,
-    };
+  const cfg = MASCOT_VIDEO_FOLDER[id];
+  if(cfg){
+    const idle  = `${MASCOT_ANIM_BASE}/${cfg.folder}/idle.mp4`;
+    const speak = `${MASCOT_ANIM_BASE}/${cfg.folder}/speak.mp4`;
+    // Sin laugh.mp4 propio → reacciona con su propio speak.mp4, NUNCA con
+    // el laugh.mp4 de otro personaje (evita mezclar animaciones entre sí).
+    const laugh = cfg.laugh ? `${MASCOT_ANIM_BASE}/${cfg.folder}/laugh.mp4` : speak;
+    return { idle, speak, laugh };
   }
   // Personajes sin set dedicado: usan sus propias animaciones (nunca las de Drakón).
   const ch = (typeof getChar==='function') ? getChar() : null;
@@ -146,7 +159,15 @@ function mascotError(nextSpeakMs){
 function mascotReactToMessage(text){
   const clean = (text || '').replace(/\[\/?(L)\]/g,'');
   const speakMs = Math.min(MASCOT_MAX_SPEAK_MS, Math.max(MASCOT_MIN_SPEAK_MS, clean.length * 38));
-  const hadError = clean.includes('✏️');
+  // OJO con el emoji del lápiz: '✏️' (U+270F + variante U+FE0F) y '✏' (solo
+  // U+270F, sin variante) son DOS secuencias Unicode distintas — el modelo
+  // de IA no siempre emite la misma, según el proveedor/tokenizer. Buscar
+  // solo '✏️' hacía que la reacción de risa fallara de forma intermitente
+  // (funcionaba a veces sí, a veces no) aunque el texto SÍ trajera una
+  // corrección. Buscando solo el carácter base '✏' se detectan ambas
+  // variantes de forma confiable, sin inventar ninguna heurística nueva —
+  // es la misma señal de "corrección" que ya usaba el resto del chat.
+  const hadError = clean.includes('✏');
   if(hadError){
     mascotError(speakMs);
   } else {

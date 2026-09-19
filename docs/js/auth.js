@@ -784,8 +784,10 @@ async function sendChatInternal(){
   if(typeof rememberCorrection==='function') rememberCorrection(text);
   state.totalMessages++; state.msgsToday++;
   if(!state.lastMsgDate) state.lastMsgDate = getLocalDate();
-  if(text.includes('✏️')) state.correctionsToday++;
-  gainXP(text.includes('✏️') ? 12 : 8);
+  // Mismo motivo que en mascotReactToMessage (js/mascot.js): '✏' sin la
+  // variante Unicode también cuenta como corrección.
+  if(text.includes('✏')) state.correctionsToday++;
+  gainXP(text.includes('✏') ? 12 : 8);
   markActivity(); updateStreakUI(); checkMissions(); checkAchievements(); updateAIBar();
   save();
 }
