@@ -343,7 +343,7 @@ document.addEventListener('keydown',e=>{
 function showLoadingOverlay(msg){
   const o=document.getElementById('loadingOverlay');
   const m=document.getElementById('loadingMsg');
-  if(o){ o.style.display='flex'; }
+  if(o){ o.style.display='grid'; }
   if(m && msg) m.textContent=msg;
 }
 function hideLoadingOverlay(){

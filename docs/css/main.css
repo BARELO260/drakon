@@ -1,11 +1,26 @@
 /* ── main.css: base styles, components, screens, layout ── */
+:root{ --safe-b: env(safe-area-inset-bottom, 0px); --safe-t: env(safe-area-inset-top, 0px); }
 html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--fb);overflow:hidden;touch-action:manipulation;font-size:15px}
+/* 100vh como respaldo para navegadores viejos; 100dvh (altura de viewport DINÁMICA)
+   la corrige encima en cualquier navegador moderno — así #app siempre mide el
+   alto real visible, sin importar si la barra de direcciones del navegador
+   móvil está mostrada u oculta en ese momento. */
 #app{height:100vh;height:100dvh;position:relative;overflow:hidden;z-index:2}
-/* Cuando el login está activo, permitir scroll en él sin afectar al resto de pantallas */
-#app:has(#screen-login.active){overflow:visible}
-#screen-login.active{overflow-y:auto;-webkit-overflow-scrolling:touch}
-.screen{position:absolute;inset:0;display:flex;flex-direction:column;overflow-y:auto;opacity:0;pointer-events:none;transform:translateY(16px) scale(.99);transition:opacity .28s,transform .28s}
+/* ARREGLO ESTRUCTURAL DE SCROLL (global, aplica a TODAS las pantallas, no solo
+   al login): cada .screen es su propio contenedor de scroll vertical,
+   independiente de las demás. overscroll-behavior-y:contain evita que al
+   llegar al final del scroll de una pantalla, el "rebote" se propague y
+   arrastre a la pantalla de atrás; -webkit-overflow-scrolling:touch asegura
+   scroll con inercia nativa en iOS. Con esto, cualquier pantalla cuyo
+   contenido sea más alto que la pantalla del teléfono puede recorrerse por
+   completo, hasta su verdadero final, sin necesidad de hacer zoom ni tocar
+   configuraciones del navegador. */
+.screen{position:absolute;inset:0;display:flex;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-y:contain;opacity:0;pointer-events:none;transform:translateY(16px) scale(.99);transition:opacity .28s,transform .28s}
 .screen.active{opacity:1;pointer-events:all;transform:translateY(0) scale(1)}
+/* Pantallas de chat en vivo: tienen su PROPIO contenedor interno con scroll
+   (los mensajes) mientras la barra superior y el cuadro de texto quedan
+   fijos arriba/abajo — por diseño, no por error, así que aquí sí
+   corresponde overflow:hidden en la pantalla misma. */
 #screen-chat{overflow:hidden}
 
 /* ── BACKGROUND ── */
@@ -24,7 +39,15 @@ body{
 /* ══════════════════════
    INTRO SCREEN
 ══════════════════════ */
-#screen-intro{align-items:center;justify-content:center;text-align:center;padding:28px 22px;z-index:2;gap:12px}
+/* CENTRADO SEGURO CON SCROLL: en flexbox, un contenedor con
+   justify-content:center recorta el contenido que se sale por arriba y no
+   deja hacer scroll hasta verlo — es un problema conocido de flexbox con
+   contenido que desborda (afecta pantallas altas en móviles chicos, listas
+   largas de personajes, textos largos, etc.). CSS Grid con align-content:
+   center NO tiene ese problema: si el contenido cabe, lo centra igual; si
+   no cabe, deja de recortarlo y permite hacer scroll hasta el final real.
+   display:grid con una sola columna equivale aquí a flex-direction:column. */
+#screen-intro{display:grid;justify-items:center;align-content:center;text-align:center;padding:28px 22px;z-index:2;gap:12px}
 .logo{
   font-family:var(--fh);font-size:38px;font-weight:900;
   background:linear-gradient(135deg,#ff9500,#fbbf24,#ff6b00);
@@ -232,7 +255,7 @@ box-shadow:var(--card-elev);}
 
 /* ── LESSONS TAB ── */
 /* ── AI TAB ── */
-.ai-tab-wrap{padding:10px 12px 80px}
+.ai-tab-wrap{padding:10px 12px calc(80px + var(--safe-b))}
 .ai-hero{
   background:var(--card-bg);border:1px solid color-mix(in srgb, var(--accent) 20%, transparent);
   border-radius:14px;padding:14px;display:flex;align-items:center;gap:12px;
@@ -262,7 +285,7 @@ box-shadow:var(--card-elev);}
 .ai-usage-lbl{font-size:11px;color:var(--muted);margin-bottom:5px;font-weight:600}
 
 /* ── CHARS TAB ── */
-.chars-wrap{padding:10px 12px 80px}
+.chars-wrap{padding:10px 12px calc(80px + var(--safe-b))}
 .chars-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}
 .char-card{
   background:var(--card);border:none;
@@ -279,7 +302,7 @@ box-shadow:var(--card-elev);}
 .cc-check{position:absolute;top:8px;right:8px;font-size:13px;color:var(--gold)}
 
 /* ── SETTINGS TAB ── */
-.settings-wrap{padding:10px 12px 80px}
+.settings-wrap{padding:10px 12px calc(80px + var(--safe-b))}
 .settings-section{margin-bottom:18px}
 .ss-title{font-family:var(--fh);font-size:9px;font-weight:700;color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:7px}
 .ss-title::before{content:'';color:var(--accent)}
@@ -545,7 +568,7 @@ box-shadow:var(--card-elev);}
   color:var(--text);border:1px solid color-mix(in srgb, var(--accent) 28%, transparent)}
 .corr-block{display:block;margin:6px 0;padding:8px 11px;background:color-mix(in srgb, var(--mint) 10%, transparent);
   border:1px solid color-mix(in srgb, var(--mint) 30%, transparent);border-radius:10px;color:var(--text);font-weight:700}
-.chat-bar{background:var(--topbar-bg);backdrop-filter:blur(18px);border-top:1px solid var(--border);padding:9px 11px 14px;flex-shrink:0;position:relative;z-index:10}
+.chat-bar{background:var(--topbar-bg);backdrop-filter:blur(18px);border-top:1px solid var(--border);padding:9px 11px calc(14px + var(--safe-b));flex-shrink:0;position:relative;z-index:10}
 .chat-row{display:flex;gap:7px;align-items:center}
 .chat-in{flex:1;background:var(--card);border:none;border-radius:14px;padding:11px 16px;font-family:var(--fb);font-size:14px;font-weight:600;color:var(--text);outline:none;transition:all .2s}
 .chat-in:focus{box-shadow:0 0 0 2px var(--gold)}
@@ -562,7 +585,7 @@ box-shadow:var(--card-elev);}
 
 /* ── SITUATIONS ── */
 #screen-situations{z-index:2}
-.sit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:10px 11px 80px}
+.sit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:10px 11px calc(80px + var(--safe-b))}
 .sit-card{background:var(--card);border:none;border-radius:var(--radius-md);padding:16px 10px;cursor:pointer;transition:transform .22s;text-align:center;position:relative;box-shadow:var(--card-elev);}
 .sit-card:hover{transform:translateY(-3px)}
 .sit-ic{font-size:22px;width:56px;height:56px;border-radius:var(--radius-full);background:color-mix(in srgb, var(--accent) 16%, var(--card2));display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
@@ -612,7 +635,7 @@ box-shadow:var(--card-elev);}
 .bn.active{background:color-mix(in srgb, var(--accent) 16%, transparent)}
 .bn.active .bni{transform:scale(1.15)}
 .bn.active .bnl{color:var(--gold)}
-#screen-main,#screen-situations,#screen-profile{padding-bottom:88px}
+#screen-main,#screen-situations,#screen-profile{padding-bottom:calc(88px + var(--safe-b))}
 
 /* ── LANG SELECT ── */
 #screen-lang{z-index:2}
@@ -623,7 +646,7 @@ box-shadow:var(--card-elev);}
 .lang-search input{width:100%;background:var(--card);border:none;border-radius:var(--radius-full);padding:12px 16px 12px 40px;color:var(--text);font-family:var(--fb);font-size:13px;font-weight:600;outline:none;transition:box-shadow .2s}
 .lang-search input:focus{box-shadow:0 0 0 2px var(--accent)}
 .lang-search::before{content:'🔍';position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:13px}
-.lang-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:0 10px 80px}
+.lang-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:0 10px calc(80px + var(--safe-b))}
 .lang-card{background:var(--card);border:none;border-radius:var(--radius-md);padding:11px 12px;display:flex;align-items:center;gap:9px;cursor:pointer;transition:transform .2s;box-shadow:var(--card-elev);}
 .lang-card:hover{background:var(--card2);transform:translateY(-1px)}
 .lang-card.sel{background:color-mix(in srgb, var(--accent) 18%, var(--card));box-shadow:0 0 0 2px var(--gold)}
@@ -659,7 +682,7 @@ box-shadow:var(--card-elev);}
 
 /* ── MODALS ── */
 .modal-ov{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:50;display:flex;align-items:flex-end;animation:fadeUp .2s both;backdrop-filter:blur(8px)}
-.modal-sheet{background:var(--surface);border-radius:0;padding:18px 15px 36px;width:100%;animation:slideUp .3s cubic-bezier(.34,1.56,.64,1) both;max-height:90vh;overflow-y:auto;border-top:1px solid var(--border);box-shadow:0 -10px 40px rgba(0,0,0,.7)}
+.modal-sheet{background:var(--surface);border-radius:0;padding:18px 15px calc(36px + var(--safe-b));width:100%;animation:slideUp .3s cubic-bezier(.34,1.56,.64,1) both;max-height:90vh;max-height:90dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;border-top:1px solid var(--border);box-shadow:0 -10px 40px rgba(0,0,0,.7)}
 .modal-handle{width:34px;height:3px;background:var(--border);border-radius:99px;margin:0 auto 14px}
 .modal-title{font-family:var(--fh);font-size:18px;font-weight:700;text-align:center;margin-bottom:3px;color:var(--gold)}
 .modal-sub{font-size:12px;color:var(--muted);text-align:center;margin-bottom:14px}
@@ -684,7 +707,7 @@ box-shadow:var(--card-elev);}
 .xp-burst.show{animation:xpB 1.5s ease forwards}
 
 /* ── INSTALL BANNER ── */
-.install-banner{position:fixed;bottom:70px;left:10px;right:10px;background:var(--card-bg);border:1px solid var(--gold);border-radius:14px;padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:30;box-shadow:0 3px 12px var(--shadow);animation:fadeUp .4s both}
+.install-banner{position:fixed;bottom:calc(70px + var(--safe-b));left:10px;right:10px;background:var(--card-bg);border:1px solid var(--gold);border-radius:14px;padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:30;box-shadow:0 3px 12px var(--shadow);animation:fadeUp .4s both}
 .ib-icon{font-size:26px;flex-shrink:0}
 .ib-text{flex:1}
 .ib-title{font-family:var(--fh);font-size:12px;font-weight:700;color:var(--text)}
@@ -735,17 +758,17 @@ box-shadow:var(--card-elev);}
 .native-hdr{text-align:center;padding:32px 20px 18px}
 .native-title{font-family:var(--fh);font-size:20px;font-weight:700;color:var(--gold);margin-bottom:7px}
 .native-sub{font-size:12px;color:var(--muted);font-weight:600}
-.native-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:0 12px 80px;width:100%;overflow-y:auto}
+.native-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:0 12px calc(80px + var(--safe-b));width:100%;overflow-y:auto}
 .native-card{background:var(--card);border:none;border-radius:14px;padding:12px 10px;display:flex;align-items:center;gap:8px;cursor:pointer;transition:all .2s;box-shadow:var(--card-elev);}
 .native-card:hover{background:var(--card2);transform:translateY(-1px)}
 .native-card.sel{background:color-mix(in srgb, var(--accent) 18%, var(--card));box-shadow:0 0 0 2px var(--gold)}
 .native-flag{font-size:26px;flex-shrink:0}
 .native-name{font-size:13px;font-weight:700;color:var(--text)}
-.native-next{position:fixed;bottom:18px;left:12px;right:12px;background:transparent;color:var(--gold);border:1px solid var(--gold);border-radius:14px;padding:14px;font-family:var(--fh);font-size:13px;font-weight:700;cursor:pointer;display:none;box-shadow:0 3px 12px var(--shadow);z-index:10}
+.native-next{position:fixed;bottom:calc(18px + var(--safe-b));left:12px;right:12px;background:transparent;color:var(--gold);border:1px solid var(--gold);border-radius:14px;padding:14px;font-family:var(--fh);font-size:13px;font-weight:700;cursor:pointer;display:none;box-shadow:0 3px 12px var(--shadow);z-index:10}
 .native-next.show{display:block}
 
 /* ── LOGIN ── */
-#screen-login{align-items:center;justify-content:flex-start;padding:28px 20px 40px;gap:0;overflow-y:auto;-webkit-overflow-scrolling:touch;z-index:2;overscroll-behavior:contain;transform:none!important;transition:opacity .28s}
+#screen-login{align-items:center;justify-content:flex-start;padding:28px 20px 40px;gap:0;z-index:2;transform:none!important;transition:opacity .28s}
 /* Sin transform en este screen: evita el stacking context que aplasta la animación de flotación de Drakón.
    justify-content:flex-start + padding-bottom permite scroll real en pantallas pequeñas. */
 .login-logo{font-size:52px;margin-bottom:6px}
@@ -772,7 +795,7 @@ box-shadow:var(--card-elev);}
 .fb-config-note a{color:var(--gold)}
 #fbSetupModal{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:1000;display:none;align-items:flex-end;justify-content:center;backdrop-filter:blur(8px)}
 #fbSetupModal.open{display:flex}
-.fb-sheet{background:var(--surface);border-radius:0;border-top:1px solid var(--border);padding:24px 18px 44px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto;animation:slideUp .3s ease}
+.fb-sheet{background:var(--surface);border-radius:0;border-top:1px solid var(--border);padding:24px 18px calc(44px + var(--safe-b));width:100%;max-width:480px;max-height:90vh;max-height:90dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;animation:slideUp .3s ease}
 .fb-sheet h3{font-family:var(--fh);font-size:16px;font-weight:700;color:var(--gold);margin-bottom:6px}
 .fb-sheet p{font-size:12px;color:var(--muted);line-height:1.75;margin-bottom:14px}
 .fb-sheet textarea{width:100%;background:var(--input-bg);border:none;border-radius:var(--radius-md);padding:12px;color:var(--text);font-size:11px;font-family:monospace;resize:vertical;min-height:140px;outline:none;box-sizing:border-box}
@@ -781,7 +804,7 @@ box-shadow:var(--card-elev);}
 .fb-steps strong{color:var(--gold)}
 #groqModal{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:999;display:none;align-items:flex-end;justify-content:center;backdrop-filter:blur(8px)}
 #groqModal.open{display:flex}
-.groq-sheet{background:var(--surface);border-radius:0;border-top:1px solid var(--border);padding:24px 18px 40px;width:100%;max-width:480px;max-height:93vh;overflow-y:auto;animation:slideUp .3s ease}
+.groq-sheet{background:var(--surface);border-radius:0;border-top:1px solid var(--border);padding:24px 18px calc(40px + var(--safe-b));width:100%;max-width:480px;max-height:93vh;max-height:93dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;animation:slideUp .3s ease}
 .groq-handle{width:36px;height:3px;background:var(--border);border-radius:99px;margin:0 auto 18px}
 .groq-title{font-family:var(--fh);font-size:18px;font-weight:700;color:var(--gold);text-align:center;margin-bottom:4px}
 .groq-sub{font-size:12px;color:var(--muted);text-align:center;margin-bottom:20px;line-height:1.55}
@@ -953,7 +976,7 @@ box-shadow:var(--card-elev);}
 /* ═══════════════════════════════════════
    LECCIONES — ruta de niveles estilo videojuego
 ═══════════════════════════════════════ */
-.lessons-wrap{padding:12px 14px 90px}
+.lessons-wrap{padding:12px 14px calc(90px + var(--safe-b))}
 
 .lp-header{
   display:flex;align-items:center;gap:14px;
@@ -1103,7 +1126,7 @@ box-shadow:var(--card-elev);}
 .scan-shutter{width:66px;height:66px;border-radius:50%;background:#fff;border:4px solid rgba(255,255,255,.5);box-shadow:0 4px 14px rgba(0,0,0,.4);cursor:pointer;flex-shrink:0}
 .scan-shutter:active{transform:scale(.92)}
 .scan-gallery-btn{width:44px;height:44px;border-radius:12px;background:rgba(0,0,0,.45);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer;flex-shrink:0}
-.scan-shell{padding:16px 14px 80px}
+.scan-shell{padding:16px 14px calc(80px + var(--safe-b))}
 .scan-intro{display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 20px;gap:8px}
 .scan-intro-ic{font-size:46px;margin-bottom:4px}
 .scan-intro-t{font:800 17px var(--fh);color:var(--text)}
