@@ -32,6 +32,12 @@ function autoSaveChat(){
     id: existing >= 0 ? state.savedChats[existing].id : Date.now(),
     name: autoNameChat(state.chatHistory, state.chatMode, state.chatSituation),
     mode: state.chatMode,
+    // Sin esto, un chat de situación guardado perdía para siempre su rol e
+    // instrucciones específicas (solo quedaba mode:'situation', sin decir
+    // CUÁL situación) — al reabrirlo más tarde no había forma de reconstruir
+    // el contexto correcto. Guardamos la situación completa SOLO si el chat
+    // realmente es de ese modo; en cualquier otro modo queda null a propósito.
+    situation: state.chatMode==='situation' ? (state.chatSituation||null) : null,
     lang: state.lang?.code || 'EN',
     langName: state.lang?.name || '',
     date: new Date().toISOString(),
@@ -135,8 +141,12 @@ function continueFromHistory(){
   const c = (state.savedChats||[])[_histChatIdx]; if(!c) return;
   state.chatMode = c.mode || 'free';
   state.chatHistory = c.messages.slice();
-  state.chatSituation = null;
-  if(typeof applySituationChatScene==='function') applySituationChatScene(null);
+  // Restaura la situación SOLO si este chat guardado realmente es de modo
+  // 'situation' y trae su propia situación guardada (ver autoSaveChat). En
+  // cualquier otro modo, se deja explícitamente en null — un chat normal
+  // jamás debe heredar la situación de otro chat guardado.
+  state.chatSituation = (c.mode==='situation') ? (c.situation||null) : null;
+  if(typeof applySituationChatScene==='function') applySituationChatScene(c.mode==='situation'?state.chatSituation:null);
   state.chatSessionId = c.sessionId || Date.now();
   if(c.lang) {
     const langObj = LANGS.find(l=>l.code===c.lang);
@@ -186,8 +196,19 @@ async function sendHistoryMsg(){
   // Load this into active state temporarily for AI call
   const prevHistory = state.chatHistory;
   const prevMode = state.chatMode;
+  // BUG REAL: antes solo se guardaban/restauraban prevHistory y prevMode,
+  // pero NO chatSituation — así que si el usuario había practicado una
+  // situación en algún momento de esta sesión del navegador, ese valor se
+  // quedaba "pegado" en state.chatSituation (nada lo limpiaba al salir de
+  // ahí) y, si este chat guardado resultaba ser mode:'situation', buildPrompt()
+  // terminaba usando esa situación vieja/ajena en vez de la que realmente
+  // corresponde a ESTE chat guardado (o ninguna, si es un chat normal).
+  // Ahora chatSituation se trata exactamente igual que chatMode: se guarda,
+  // se fija según ESTE chat, y se restaura al terminar.
+  const prevSituation = state.chatSituation;
   state.chatHistory = c.messages.slice();
   state.chatMode = c.mode || 'free';
+  state.chatSituation = (c.mode==='situation') ? (c.situation||null) : null;
   if(c.lang){ const l=LANGS.find(lg=>lg.code===c.lang); if(l) state.lang=l; }
 
   // Call AI
@@ -196,7 +217,7 @@ async function sendHistoryMsg(){
   if(!groqKey && !managed){
     if(errBar){ errBar.textContent='⚠️ Inicia sesión para usar la IA de Drakón.'; errBar.style.display='block'; }
     c.messages.pop();
-    state.chatHistory = prevHistory; state.chatMode = prevMode;
+    state.chatHistory = prevHistory; state.chatMode = prevMode; state.chatSituation = prevSituation;
     renderHistoryMsgs(c.messages);
     if(typeof mascotIdle==='function') mascotIdle();
     return;
@@ -254,14 +275,14 @@ async function sendHistoryMsg(){
     if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false);
     if(errBar){ errBar.textContent=e.message==='auth'?'🔑 API key inválida':'⚠️ Error al conectar con la IA. Intenta de nuevo.'; errBar.style.display='block'; }
     c.messages.pop();
-    state.chatHistory=prevHistory; state.chatMode=prevMode;
+    state.chatHistory=prevHistory; state.chatMode=prevMode; state.chatSituation=prevSituation;
     renderHistoryMsgs(c.messages);
     if(typeof mascotIdle==='function') mascotIdle();
     return;
   }
 
   if(typeof mascotSetBubbleTyping==='function') mascotSetBubbleTyping(false);
-  state.chatHistory=prevHistory; state.chatMode=prevMode;
+  state.chatHistory=prevHistory; state.chatMode=prevMode; state.chatSituation=prevSituation;
 
   if(!aiText){ if(errBar){ errBar.textContent='⚠️ Sin respuesta. Intenta de nuevo.'; errBar.style.display='block'; } c.messages.pop(); renderHistoryMsgs(c.messages); if(typeof mascotIdle==='function') mascotIdle(); return; }
 

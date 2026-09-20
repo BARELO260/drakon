@@ -158,6 +158,18 @@ function _dispatchNavState(ns){
       goTo('screen-situations'); openSituation(ns.sitKey);
     } else if(ns.sid==='screen-situations'){
       goTo('screen-situations'); if(typeof renderSituations==='function') renderSituations();
+    } else if(ns.sid==='screen-chat'){
+      // NUNCA reconstruir el chat de IA "en crudo" a partir del historial
+      // del navegador (botón/gesto físico de Atrás o Adelante). screen-chat
+      // solo debe mostrarse después de pasar por _launchChat(), que es lo
+      // único que fija correctamente chatMode/chatSituation/chatHistory
+      // para ESA sesión concreta. Si se restaurara aquí con un goTo() crudo,
+      // la pantalla de chat volvería a aparecer con lo que haya quedado en
+      // memoria de la ÚLTIMA sesión de chat (p.ej. seguiría marcado como
+      // modo 'situation' con la situación anterior) — que es exactamente el
+      // tipo de "fuga" de contexto entre chat normal y chat de situaciones
+      // que no debe ocurrir. Mandamos a la pantalla principal, siempre segura.
+      goTo('screen-main'); switchTab('home');
     } else {
       goTo(ns.sid);
     }
