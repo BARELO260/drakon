@@ -713,6 +713,7 @@ async function transcribeAudioWithGroq(blob){
 const LiveCall = {
   active:false, stream:null, situationKey:null,
   _speaking:false, _pendingImage:null, _visualTimeout:null, _captionTimer:null, _maxRecTimer:null,
+  _silenceStop:null, _turn:0,
 
   async start(key){
     this.situationKey = key || null;
@@ -744,10 +745,14 @@ const LiveCall = {
       : `Hi! I'm right here with you. Tap the microphone to talk to me in ${lang} whenever you're ready.`;
     this._logLine('ai', line);
     if(typeof mascotSpeakUntilDone==='function') mascotSpeakUntilDone();
-    this._setStatus('🔊 Drakón está hablando…');
+    this._setStatus('🔊 Drakón está hablando… (toca el micrófono si quieres interrumpir)');
+    this._setMicButton('busy');
     state.ttsEnabled=true;
+    this._speaking=true;
+    const myTurn = this._turn; // el saludo también se puede interrumpir igual que cualquier respuesta
     await new Promise(resolve=>speakInTargetLang(line, resolve));
-    if(!this.active) return;
+    if(!this.active || myTurn !== this._turn) return;
+    this._speaking=false;
     if(typeof mascotIdle==='function') mascotIdle();
     this._setStatus('🎙️ Toca el micrófono para hablar');
     this._setMicButton('idle');
@@ -766,6 +771,8 @@ const LiveCall = {
     this.active=false;
     clearTimeout(this._visualTimeout); clearTimeout(this._captionTimer); clearTimeout(this._maxRecTimer);
     this._pendingImage=null;
+    this._turn++; // invalida cualquier respuesta de IA que siga en camino
+    if(this._silenceStop){ this._silenceStop(); this._silenceStop=null; }
     VoiceRecorder.abort();
     if(this.stream){ this.stream.getTracks().forEach(t=>t.stop()); this.stream=null; }
     if(window.speechSynthesis) window.speechSynthesis.cancel();
@@ -776,13 +783,26 @@ const LiveCall = {
   _setStatus(txt){ const el=document.getElementById('liveCallStatus'); if(el) el.textContent=txt; },
 
   // mode: 'idle' (listo para grabar) | 'recording' (grabando ahora mismo,
-  // toca para enviar) | 'busy' (Drakón está pensando/hablando — no se puede tocar)
+  // se envía sola al detectar silencio, o toca para enviar ya) | 'busy'
+  // (Drakón pensando/hablando — tocar el botón ahora lo interrumpe)
   _setMicButton(mode){
     const btn=document.getElementById('lcMicBtn'); if(!btn) return;
     btn.classList.remove('recording','busy');
     if(mode==='recording'){ btn.classList.add('recording'); btn.textContent='⏹️ Enviar'; btn.disabled=false; }
-    else if(mode==='busy'){ btn.classList.add('busy'); btn.textContent='🎙️ Hablar'; btn.disabled=true; }
+    // 'busy' (Drakón pensando/hablando) ya NO deshabilita el botón: tocarlo
+    // en ese momento interrumpe a Drakón y empieza a grabar de inmediato
+    // (ver toggleMic) — así se puede hablar por encima, como en una
+    // llamada real, en vez de tener que esperar a que termine su turno.
+    else if(mode==='busy'){ btn.classList.add('busy'); btn.textContent='🎙️ Interrumpir'; btn.disabled=false; }
     else { btn.textContent='🎙️ Hablar'; btn.disabled=false; }
+  },
+
+  // Como _setStatus, pero con un botón de acción dentro del propio mensaje
+  // (p.ej. para abrir directo el modal de la clave de Groq en vez de dejar
+  // al usuario adivinar dónde configurarla).
+  _setStatusActionable(txt, actionLabel, actionOnclick){
+    const el=document.getElementById('liveCallStatus'); if(!el) return;
+    el.innerHTML = `${txt} <button type="button" onclick="${actionOnclick}" style="margin-left:6px;padding:3px 10px;border:1px solid #fff;border-radius:999px;background:rgba(255,255,255,.15);color:#fff;font:700 11px var(--fh);cursor:pointer">${actionLabel}</button>`;
   },
 
   _logLine(who, text){
@@ -798,23 +818,45 @@ const LiveCall = {
   },
 
   // Botón de micrófono tipo "empuja para hablar": un toque empieza a
-  // grabar de verdad con MediaRecorder, otro toque termina y envía el
-  // clip a Whisper (Groq) para transcribirlo — nada se reconoce "en vivo"
-  // de forma simulada. Límite de seguridad: 15s de grabación máxima.
+  // grabar de verdad con MediaRecorder. El envío ahora es automático en
+  // cuanto detecta que dejaste de hablar (ver _attachSilenceAutoStop en
+  // js/audio.js) — tocar de nuevo sigue funcionando por si prefieres
+  // enviarlo tú mismo antes. Límite de seguridad: 15s de grabación máxima.
+  // INTERRUPCIÓN: si tocas el micrófono MIENTRAS Drakón está hablando (o
+  // pensando), lo cortamos al instante y empezamos a grabar — como en una
+  // llamada real, no hay que esperar a que termine su turno.
   async toggleMic(){
-    if(!this.active || this._speaking) return;
+    if(!this.active) return;
     if(VoiceRecorder.recording){ this._finishRecording(); return; }
+    // Igual que en el chat normal: se revisa la clave ANTES de grabar, no
+    // después — así no se hace esperar al usuario para nada.
+    if(!state.groqKey){
+      this._setStatusActionable('⚠️ Necesitas tu clave de IA (Groq) para hablar por voz.', '🔑 Configurar ahora', 'showGroqModal()');
+      return;
+    }
+    if(this._speaking){
+      this._turn++; // cualquier respuesta de IA que llegue tarde de este turno se descarta
+      if(typeof ttsStopAll==='function') ttsStopAll();
+      if(window.speechSynthesis) window.speechSynthesis.cancel();
+      this._speaking=false;
+      if(typeof mascotIdle==='function') mascotIdle();
+    }
     const ok = VoiceRecorder.start(this.stream);
     if(!ok){ this._setStatus('⚠️ No se pudo acceder al micrófono para grabar.'); return; }
     if(typeof mascotListening==='function') mascotListening();
-    this._setStatus('🎙️ Grabando… toca de nuevo para enviar');
+    this._setStatus('🎙️ Escuchando… (se envía solo cuando termines de hablar)');
     this._setMicButton('recording');
     clearTimeout(this._maxRecTimer);
     this._maxRecTimer=setTimeout(()=>{ if(VoiceRecorder.recording) this._finishRecording(); }, 15000);
+    if(this._silenceStop){ this._silenceStop(); this._silenceStop=null; }
+    this._silenceStop = (typeof _attachSilenceAutoStop==='function') ? _attachSilenceAutoStop(this.stream, ()=>{
+      if(VoiceRecorder.recording) this._finishRecording();
+    }) : null;
   },
 
   async _finishRecording(){
     clearTimeout(this._maxRecTimer);
+    if(this._silenceStop){ this._silenceStop(); this._silenceStop=null; }
     this._setMicButton('busy');
     this._setStatus('📝 Transcribiendo lo que dijiste…');
     if(typeof mascotThinking==='function') mascotThinking();
@@ -826,7 +868,7 @@ const LiveCall = {
     }
     if(!state.groqKey){
       this._setMicButton('idle'); if(typeof mascotIdle==='function') mascotIdle();
-      this._setStatus('⚠️ Configura tu clave de IA (Groq) en Ajustes para transcribir tu voz.');
+      this._setStatusActionable('⚠️ Necesitas configurar tu clave de IA (Groq) para hablar por voz.', '🔑 Configurar ahora', 'showGroqModal()');
       this._pendingImage=null;
       return;
     }
@@ -847,6 +889,12 @@ const LiveCall = {
     this._setMicButton('busy');
     if(typeof mascotThinking==='function') mascotThinking();
     this._speaking=true;
+    // Marca de turno: si el usuario interrumpe (toca el micrófono otra vez)
+    // mientras esta respuesta sigue en camino, toggleMic() incrementa
+    // this._turn — cuando esta respuesta por fin llegue, myTurn ya no
+    // coincidirá y la descartamos en silencio, sin mostrarla ni hablarla
+    // por encima de lo nuevo que el usuario ya está grabando.
+    const myTurn = ++this._turn;
 
     const s=getSituation(this.situationKey);
     const lang=state.lang?.name||'inglés';
@@ -858,14 +906,16 @@ const LiveCall = {
     let out='';
     try{ out = img ? await askDrakonVisionOnce(sysPrompt, heard, img) : await askDrakonAIOnce(sysPrompt, heard); }
     catch(e){ out=''; }
+    if(myTurn !== this._turn) return; // el usuario ya empezó un turno nuevo — se descarta esta respuesta vieja
     if(!out) out = img ? "I couldn't get a clear look at that — try again with a bit more light?" : "Sorry, I couldn't connect. Try again in a moment.";
 
     this._logLine('ai', out);
-    this._setStatus('🔊 Drakón está hablando…');
+    this._setStatus('🔊 Drakón está hablando… (toca el micrófono si quieres interrumpir)');
     if(typeof mascotSpeakUntilDone==='function') mascotSpeakUntilDone();
 
     state.ttsEnabled = true;
     await new Promise(resolve=>speakInTargetLang(out, resolve));
+    if(myTurn !== this._turn) return; // interrumpido mientras hablaba: no pisar el estado del turno nuevo
     this._speaking=false;
     if(!this.active) return;
     if(typeof mascotIdle==='function') mascotIdle();
@@ -881,7 +931,7 @@ const LiveCall = {
   async lookAtView(){
     if(!this.active || this._speaking || VoiceRecorder.recording) return;
     if(!state.groqKey){
-      this._setStatus('⚠️ Configura tu clave de IA (Groq) en Ajustes para que Drakón pueda ver.');
+      this._setStatusActionable('⚠️ Necesitas tu clave de IA (Groq) para que Drakón pueda ver.', '🔑 Configurar ahora', 'showGroqModal()');
       return;
     }
     const video=document.getElementById('liveCallVideo'); if(!video || !video.videoWidth) return;
@@ -914,6 +964,12 @@ function liveCallToggleMic(){ LiveCall.toggleMic(); }
    objetivo, así que solo necesitamos reproducirlo). */
 function speakInTargetLang(text, onend){
   if(!text) { if(onend) onend(); return; }
+  // Mismo filtro de seguridad que speakText() (js/audio.js): esta función
+  // se usa para hablar respuestas de la IA en vivo (videollamada/escaneo),
+  // así que también necesita limpiar cualquier artefacto de razonamiento
+  // interno que se haya colado, sin importar si quien llamó ya lo hizo.
+  if(typeof stripAIReasoningArtifacts==='function') text = stripAIReasoningArtifacts(text);
+  if(!text) { if(onend) onend(); return; }
   const targetLang = state.lang?.lang || 'en-US';
   const bcp47 = (typeof TTS_BCP47_MAP!=='undefined' && TTS_BCP47_MAP[targetLang]) || targetLang;
   const cv = (typeof CHAR_VOICE!=='undefined' && CHAR_VOICE[state.charId]) || (typeof CHAR_VOICE!=='undefined' && CHAR_VOICE.dragon) || {stability:.5,style:.4,speed:1,gender:'M',name:'Drakón'};
@@ -941,13 +997,22 @@ async function askDrakonAIOnce(systemPrompt, userText){
           fetch('https://api.groq.com/openai/v1/chat/completions',{
             method:'POST',
             headers:{'Content-Type':'application/json','Authorization':`Bearer ${state.groqKey}`},
-            body:JSON.stringify({model,messages,max_tokens:400,temperature:0.5})
+            // reasoning_effort:'low' + stripAIReasoningArtifacts: este texto
+            // se habla EN VIVO por voz (LiveCall/escaneo), sin pasar por la
+            // limpieza de markdown que sí tiene el chat de texto — antes
+            // faltaban aquí (SÍ estaban ya en askDrakonVisionOnce, un poco
+            // más abajo). Sin esto, un borrador de razonamiento interno
+            // filtrado de gpt-oss se leía en voz alta antes de la respuesta
+            // real, sonando como palabras sueltas incoherentes y con
+            // "trabas" justo al principio del audio.
+            body:JSON.stringify({model,messages,max_tokens:400,temperature:0.5,reasoning_effort:'low'})
           }),
           new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),20000))
         ]);
         if(!resp.ok) continue;
         const data=await resp.json();
-        const text=data?.choices?.[0]?.message?.content?.trim();
+        let text=data?.choices?.[0]?.message?.content?.trim();
+        if(text && typeof stripAIReasoningArtifacts==='function') text=stripAIReasoningArtifacts(text);
         if(text) return text;
       }catch(e){}
     }

@@ -38,6 +38,7 @@ let mediaChunks   = [];
 let _activeStream = null;   // stream de la grabación en curso
 let _cachedStream = null;   // stream de mic reutilizado entre grabaciones (evita repedir permiso)
 let _safetyTimer  = null;   // corta la grabación sola si el usuario se olvida de tocar "detener"
+let _silenceStop  = null;   // desactiva la vigilancia de silencio (ver _attachSilenceAutoStop)
 
 function _releaseStream(stream){
   try{ if(stream) stream.getTracks().forEach(t=>t.stop()); } catch(e){}
@@ -65,6 +66,64 @@ function _bestMime(){
   const types = ['audio/webm;codecs=opus','audio/webm','audio/ogg;codecs=opus','audio/mp4'];
   for(const t of types){ if(window.MediaRecorder && MediaRecorder.isTypeSupported(t)) return t; }
   return '';
+}
+
+// ── Auto-stop por silencio (VAD simple por volumen) ─────────────────
+// Antes había que tocar el botón del micrófono DOS veces siempre: una para
+// empezar a grabar y otra para enviar, incluso si ya llevabas un rato
+// callado esperando. Esto detecta, con el volumen real del audio (nivel
+// RMS, sin reconocimiento de voz de por medio), cuándo la persona TERMINÓ
+// de hablar, y dispara el envío solo — como una llamada real. Solo empieza
+// a "vigilar" el silencio DESPUÉS de haber detectado voz real (para no
+// cortar la grabación mientras la persona todavía está pensando qué decir
+// al principio). El botón manual para terminar sigue funcionando igual,
+// por si alguien prefiere tocarlo o el navegador no soporta esto.
+// Devuelve una función para desactivar la vigilancia (se debe llamar
+// siempre que la grabación termine, sea por silencio o por el botón).
+function _attachSilenceAutoStop(stream, onSilence, opts){
+  opts = opts || {};
+  const minSpeechMs = opts.minSpeechMs != null ? opts.minSpeechMs : 350;   // cuánta voz real hace falta antes de empezar a vigilar
+  const silenceMs   = opts.silenceMs   != null ? opts.silenceMs   : 1100;  // cuánto silencio seguido = "terminó de hablar"
+  const speakThresh = opts.speakThresh != null ? opts.speakThresh : 0.02; // nivel RMS que cuenta como "está hablando"
+  let ctx, analyser, src, raf, stopped = false;
+  let heardSpeech = false, speechStartAt = 0, silenceStartAt = 0;
+  try{
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if(ctx.state === 'suspended') ctx.resume();
+    src = ctx.createMediaStreamSource(stream);
+    analyser = ctx.createAnalyser();
+    analyser.fftSize = 512;
+    src.connect(analyser);
+  } catch(e){
+    // Si el navegador no lo soporta, simplemente no hay auto-stop — el
+    // botón manual de "tocar para enviar" sigue funcionando exactamente
+    // igual que antes, así que esto nunca puede dejar el micrófono roto.
+    return function(){};
+  }
+  const data = new Uint8Array(analyser.fftSize);
+  function tick(){
+    if(stopped) return;
+    analyser.getByteTimeDomainData(data);
+    let sum = 0;
+    for(let i=0;i<data.length;i++){ const v = (data[i]-128)/128; sum += v*v; }
+    const rms = Math.sqrt(sum/data.length);
+    const now = performance.now();
+    if(rms > speakThresh){
+      if(!heardSpeech){ heardSpeech = true; speechStartAt = now; }
+      silenceStartAt = 0;
+    } else if(heardSpeech && (now - speechStartAt) > minSpeechMs){
+      if(!silenceStartAt) silenceStartAt = now;
+      else if(now - silenceStartAt > silenceMs){ stopped = true; cleanup(); onSilence(); return; }
+    }
+    raf = requestAnimationFrame(tick);
+  }
+  function cleanup(){
+    if(raf) cancelAnimationFrame(raf);
+    try{ src.disconnect(); }catch(e){}
+    try{ ctx.close(); }catch(e){}
+  }
+  raf = requestAnimationFrame(tick);
+  return function(){ stopped = true; cleanup(); };
 }
 
 // ── Transcripción REAL con Whisper (Groq) — nunca texto inventado ──
@@ -125,6 +184,7 @@ async function _startRecording(stream){
 
     mediaRecorder.onstop = async () => {
       _clearSafetyTimer();
+      if(_silenceStop){ _silenceStop(); _silenceStop = null; }
       // Solo liberamos el stream si NO es el compartido/cacheado, para no
       // matar el track que reutilizamos entre grabaciones.
       if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
@@ -140,7 +200,12 @@ async function _startRecording(stream){
 
       if(!state.groqKey && !localStorage.getItem('groqKey')){
         isListening = false; resetMicUI();
-        showToast('⚠️ Configura tu clave de IA en Ajustes para usar el micrófono.');
+        // Antes solo se avisaba con un toast y el usuario tenía que ir a
+        // buscar Ajustes por su cuenta. Ahora se abre directo el modal
+        // donde se pega la clave — un toque menos entre "quiero hablar" y
+        // "ya puedo hablar".
+        showToast('⚠️ Necesitas tu clave de IA (Groq) para usar el micrófono.');
+        if(typeof showGroqModal==='function') showGroqModal();
         return;
       }
 
@@ -158,6 +223,7 @@ async function _startRecording(stream){
 
     mediaRecorder.onerror = () => {
       _clearSafetyTimer();
+      if(_silenceStop){ _silenceStop(); _silenceStop = null; }
       if(_activeStream && _activeStream !== _cachedStream) _releaseStream(_activeStream);
       _activeStream = null; isListening = false;
       resetMicUI();
@@ -166,6 +232,14 @@ async function _startRecording(stream){
 
     mediaRecorder.start(250); // timeslice corto → chunks seguros incluso si se corta abruptamente
     isListening = true;
+
+    // En cuanto detecta que el usuario dejó de hablar, envía solo — sin
+    // tener que tocar el botón otra vez. Si algo interrumpe la grabación
+    // antes (botón manual, error, corte de seguridad), _silenceStop() ya
+    // se llama en esos puntos, así que nunca dispara dos veces.
+    _silenceStop = _attachSilenceAutoStop(stream, () => {
+      if(isListening && mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
+    });
 
     // Corte de seguridad: si el usuario se olvida de tocar "detener", la
     // grabación NUNCA se queda bloqueada indefinidamente.
@@ -204,6 +278,16 @@ async function toggleMic(){
   if(isListening){
     _clearSafetyTimer();
     if(mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
+    return;
+  }
+
+  // Se revisa la clave ANTES de pedir permiso de micrófono y grabar — antes
+  // el usuario grababa todo su mensaje y hasta el final (ya transcribiendo)
+  // se enteraba de que le faltaba configurarla. Así se ahorra esa espera
+  // en vano y se le lleva directo a donde puede resolverlo.
+  if(!state.groqKey && !localStorage.getItem('groqKey')){
+    showToast('⚠️ Necesitas tu clave de IA (Groq) para usar el micrófono.');
+    if(typeof showGroqModal==='function') showGroqModal();
     return;
   }
 
@@ -744,10 +828,22 @@ async function speakText(rawText){
   const hasEleven = !!getElevenKey() || (typeof hasManagedAi === 'function' && hasManagedAi());
   if(!hasEleven) return;
 
+  // Filtro de seguridad: sin importar si quien llamó a speakText() ya limpió
+  // o no el texto de posibles artefactos de razonamiento interno del modelo
+  // (ver stripAIReasoningArtifacts en js/ai-gateway.js), aquí se aplica
+  // siempre una última vez antes de convertir CUALQUIER texto a voz — así
+  // un futuro punto de llamada que se olvide de limpiarlo no puede hacer
+  // que la voz diga cosas que no están en el chat.
+  if(typeof stripAIReasoningArtifacts==='function') rawText = stripAIReasoningArtifacts(rawText);
+
   // Clean text: strip correction lines, markdown, HTML, emojis, brackets, underscores
   const text = rawText
     .replace(/\[\/?(L)\]/g,'')
-    .replace(/✏️[^\n]*/g,'')
+    // '✏' (sin la variante Unicode '️') también cuenta — mismo motivo que
+    // en js/mascot.js: si no se reconoce, la línea completa "✏️ CORRECCIÓN:
+    // ..." no se omite y ElevenLabs la lee tal cual en voz alta (sonando
+    // como una frase técnica fuera de lugar, incoherente con la conversación).
+    .replace(/✏[^\n]*/g,'')
     .replace(/\[[^\]]*\]/g,'')
     .replace(/\*\*(.*?)\*\*/g,'$1')
     .replace(/\*(.*?)\*/g,'$1')

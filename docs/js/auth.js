@@ -657,12 +657,19 @@ function saveGroqKeyFromModal(){
   updateNoKeyBanner();
   closeGroqModal();
   showToast('🔥 ¡IA lista! Ya puedes practicar.');
-  // Launch the pending chat if there was one
-  const mode = state._pendingChatMode || 'free';
-  const sit = state._pendingChatSit || null;
-  state._pendingChatMode = null;
-  state._pendingChatSit = null;
-  setTimeout(() => _launchChat(mode, sit), 200);
+  // Solo se relanza un chat si el modal se abrió DESDE goToChat() esperando
+  // la clave (state._pendingChatMode quedó guardado ahí). Si el modal se
+  // abrió desde cualquier otro lado (p.ej. el micrófono del chat normal o
+  // de "Estoy allí ahora"), no hay que navegar a ningún lado — el usuario
+  // se queda exactamente donde estaba, listo para volver a tocar el
+  // micrófono ahora que ya tiene la clave configurada.
+  if(state._pendingChatMode){
+    const mode = state._pendingChatMode;
+    const sit = state._pendingChatSit || null;
+    state._pendingChatMode = null;
+    state._pendingChatSit = null;
+    setTimeout(() => _launchChat(mode, sit), 200);
+  }
 }
 
 async function sendChatInternal(){
