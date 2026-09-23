@@ -100,28 +100,42 @@ en el momento correcto sin tocar el motor.
 
 ## Validar contenido nuevo
 
-Antes de dar por buena una tanda de lecciones nuevas, conviene validar que:
-- cada ejercicio tenga exactamente 4 opciones,
-- el índice `correct` esté entre 0 y 3,
-- no haya opciones duplicadas dentro del mismo ejercicio,
-- no haya IDs de lección repetidos dentro del mismo idioma.
+Antes de dar por buena cualquier tanda de lecciones, ejecuta desde la raíz del repo:
 
-Hay un script de validación de referencia (ver notas de la sesión de
-desarrollo) que recorre todos los archivos de `js/lessons-data/` y reporta
-cualquier problema antes de integrarlos.
+```
+node tools/validate_lessons.js            # resumen + primeros problemas
+node tools/validate_lessons.js --verbose  # todo el detalle
+```
+
+Sin dependencias; termina con código 1 si hay errores (sirve para CI). Revisa
+todos los bancos (`lessons-data/*.js` y `situations-data.js`) y comprueba:
+
+- exactamente 4 opciones por ejercicio de selección, índice correcto en 0-3;
+- **sin opciones duplicadas, tampoco si solo difieren en mayúsculas** ("lo prendo" / "Lo prendo");
+- ninguna opción que dependa de la posición de otras ("Both A and B", "All of the above"): el motor baraja las opciones;
+- `arrange`: la lista `[a / b / c]` de la consigna debe contener las mismas palabras que la respuesta (las fichas se construyen desde `options[correct]`), la respuesta debe ser una frase y, en alemán, respetar mayúsculas de sustantivos;
+- `translate`: la respuesta correcta debe estar en el idioma meta (ver más abajo);
+- `writing`/`speaking`: 4º elemento con palabras clave; IDs únicos; `study` presente.
+
+Lo que el validador **no** puede comprobar es si una frase es correcta como lengua o
+si hay dos respuestas válidas entre las opciones; eso sigue requiriendo revisión
+humana (ver "Nota de calidad" más abajo).
 
 ## Estado actual del contenido
 
-| Idioma | Código | Lecciones | Notas |
+| Idioma | Código | Lecciones (ruta A1→C2) | Mini-lecciones de Situaciones |
 |---|---|---|---|
-| Inglés     | EN | 72 | Progresión A1→C2 completa; incluye ropa/colores, frutas/verduras, cocina, arte, feedback constructivo, lenguaje inclusivo (últimas generadas con el generador procedural). |
-| Español    | ES | 72 | Progresión completa A1→C2: A1 (13), A2 (10), B1 (13), B2 (13), C1 (13), C2 (10). |
-| Francés    | FR | 72 | Misma progresión y temas que español, adaptados al francés. |
-| Alemán     | DE | 72 | Misma progresión, adaptada al alemán. |
-| Italiano   | IT | 72 | Misma progresión, adaptada al italiano. |
-| Portugués  | PT | 72 | Misma progresión, adaptada al portugués. |
+| Inglés     | EN | 223 (A1 37 · A2 38 · B1 43 · B2 34 · C1 37 · C2 34) | 104 |
+| Español    | ES | 213 (A1 39 · A2 36 · B1 39 · B2 34 · C1 34 · C2 31) | 104 |
+| Francés    | FR | 213 (misma distribución que ES) | 104 |
+| Alemán     | DE | 213 (misma distribución que ES) | 104 |
+| Italiano   | IT | 213 (misma distribución que ES) | 104 |
+| Portugués  | PT | 213 (misma distribución que ES) | 104 |
 
-**Total actual: 432 lecciones.** Los 6 idiomas cubren el recorrido completo
+> Cifras verificadas con `node tools/validate_lessons.js` (sept. 2026). Las cifras
+> anteriores de este documento (72 lecciones por idioma) estaban desactualizadas.
+
+**Total actual: 1.276 lecciones de ruta (223 + 5×213) y 624 mini-lecciones de Situaciones.** Los 6 idiomas cubren el recorrido completo
 **A1 → C2** con exactamente el mismo número de lecciones (72 cada uno),
 cada una con su glosario de estudio (`study`) correspondiente, validadas
 automáticamente (4 opciones por ejercicio en mcq/fill/translate, índice
@@ -194,10 +208,21 @@ El motor (`js/lessons.js`) soporta dos formatos de ejercicio según el `tipo`:
 El tercer elemento va **vacío** (`[]`); el cuarto es un array de palabras o
 frases clave que el motor busca en la respuesta del usuario para dar una
 autoevaluación orientativa (no es una corrección estricta). El texto de la
-consigna debe indicar cuántas palabras escribir (ej. "60-80 palabras"); el
-motor usa 25 como mínimo por defecto si no se especifica `minWords`.
+consigna debe indicar el rango de palabras (ej. "60-80 palabras"). El motor usa
+como mínimo el extremo inferior del rango si es menor de 25 (p. ej. "20-30" → 20),
+y 25 en el resto de casos; para fijarlo a mano añade un 7º elemento numérico:
+`[tipo, consigna, [], [claves], explicación, contexto, minWords]`. La explicación
+(5º elemento) es opcional en `writing`/`speaking`.
 
-### Convención de `translate`
+### Convención de `translate` (importante: el audio)
+
+El ejercicio `translate` es también un *Listening Probe* y el juego de Escucha
+reutiliza estos ejercicios: el motor **lee en voz alta `options[correct]`** con la
+voz del idioma que se aprende (`state.lang.lang`). Por eso la respuesta correcta
+de un `translate` debe estar SIEMPRE en el idioma meta. Si quieres preguntar
+"¿qué significa esta frase del idioma meta?" (respuesta en inglés/español) usa
+un `mcq`, no un `translate`.
+
 
 Todos los bancos que NO son inglés (ES/FR/ES/DE/IT/PT) enseñan un idioma
 distinto del español de la interfaz, así que `translate` siempre traduce

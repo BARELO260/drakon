@@ -835,7 +835,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cuál es la pregunta correcta para saber dónde está algo?",["¿Dónde está la cocina?","¿Qué es la cocina?","¿Cuándo está la cocina?","¿Quién está la cocina?"],0,"\"¿Dónde está...?\" pregunta por la ubicación de algo."],
       ["fill","Completa: \"El sofá está ___ de la ventana.\"",["al lado","encima","debajo","detrás"],0,"\"Al lado de\" indica que dos cosas están juntas, una junto a la otra."],
       ["translate","Traduce: \"The bed is in the bedroom.\"",["La cama está en el dormitorio.","La cama está en la cocina.","La silla está en el dormitorio.","La cama es el dormitorio."],0,"\"The bed is in the bedroom\" = \"La cama está en el dormitorio\", con \"estar\" para ubicación."],
-      ["arrange","Ordena: [cocina / mesa / hay / la / en / una]",["En la cocina hay una mesa","Hay una mesa en la cocina","La cocina hay una mesa en","Una mesa en la cocina hay"],0,"\"Hay\" + objeto + \"en\" + lugar, o \"En\" + lugar + \"hay\" + objeto: ambas formas son naturales; elegimos \"En la cocina hay una mesa.\""],
+      ["arrange","Ordena: [cocina / mesa / hay / la / en / una]",["En la cocina hay una mesa","la cocina una hay En mesa","una En cocina la mesa hay","la En una hay cocina mesa"],0,"\"En\" + lugar + \"hay\" + objeto: \"En la cocina hay una mesa.\""],
       ["writing","Describe en 20-30 palabras tu casa o apartamento: qué habitaciones tiene y qué muebles hay en una de ellas.",[],["dormitorio","hay","está"],"Menciona al menos dos habitaciones y dos muebles."]
     ]
   },
@@ -1125,7 +1125,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","Un producto de 5 euros es más barato que uno de 50 euros. ¿Qué palabra describe el de 5 euros?",["Barato.","Caro.","Gratis.","Grande."],0,"\"Barato\" describe algo de precio bajo en comparación con otra cosa."],
       ["fill","Completa: \"Los zapatos ___ cuarenta euros.\"",["cuestan","cuesta","es","son"],0,"\"Cuestan\" concuerda en plural con \"los zapatos\"."],
       ["translate","Traduce: \"It costs ten euros.\"",["Cuesta diez euros.","Cuestan diez euros.","Es diez euros.","Tiene diez euros."],0,"\"It costs ten euros\" (singular) = \"Cuesta diez euros.\""],
-      ["arrange","Ordena: [tarjeta / pago / con / siempre]",["Siempre pago con tarjeta","Pago siempre con tarjeta","Con tarjeta siempre pago","Pago con tarjeta siempre"],0,"Ambas primeras opciones son naturales; elegimos \"Siempre pago con tarjeta.\" como la más estándar."],
+      ["arrange","Ordena: [tarjeta / pago / con / siempre]",["Siempre pago con tarjeta","pago con tarjeta Siempre","Siempre tarjeta pago con","con tarjeta pago Siempre"],0,"\"Siempre\" va antes del verbo: \"Siempre pago con tarjeta.\""],
       ["writing","Escribe 20-30 palabras sobre tus hábitos de compra: qué cosas compras normalmente, si prefieres pagar en efectivo o con tarjeta, y si buscas cosas baratas o no te importa el precio.",[],["cuesta","barato","pago"],"Usa al menos un número ordinal o un precio concreto en tu respuesta."]
     ]
   },
@@ -1666,7 +1666,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “tomarse la crítica de forma personal” en inglés?",["to take criticism personally", "to be open to feedback", "to acknowledge strengths", "to propose a solution"],0,"“Tomarse la crítica de forma personal” es “to take criticism personally”."],
       ["fill","Completa: “Antes de dar la crítica, es buena idea ___ los aciertos del trabajo.”",["ocultar", "reconocer", "ignorar", "criticar"],1,"“Reconocer los aciertos antes de las críticas” hace que el feedback sea mejor recibido."],
       ["translate","Traduce: “A suggestion would be to start with the conclusions.”",["Una sugerencia sería empezar con las conclusiones.", "Una sugerencia sería terminar con las conclusiones.", "Una crítica sería empezar con las conclusiones.", "Un problema sería empezar con las conclusiones."],0,"“A suggestion would be to” = “Una sugerencia sería”."],
-      ["arrange","Ordena: [problema / propón / solo / no / solución / señales / una]",["señales solo el propón una No solución problema,", "No solo señales el problema, propón una solución", "el una propón problema, solución solo No señales", "problema, propón señales solución No solo una el"],1,"Estructura de contraste: “no solo... [verbo]” + “[verbo]... una solución”."],
+      ["arrange","Ordena: [problema / propón / solo / no / solución / señales / una / el]",["señales solo el propón una No solución problema,","No solo señales el problema, propón una solución","el una propón problema, solución solo No señales","problema, propón señales solución No solo una el"],1,"Estructura de contraste: “no solo... [verbo]” + “[verbo]... una solución”."],
       ["writing","Escribe 55-75 palabras dando feedback constructivo sobre un trabajo (real o inventado): reconoce un acierto, señala un punto de mejora concreto y propón una solución.",[],["reconozco que", "quizás podrías", "una sugerencia sería"]],
     ]
   },
@@ -2592,7 +2592,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “free will” en español?",["el libre albedrío", "thought experiment", "self-awareness", "the mind-body problem"],0,"“Free will” es “el libre albedrío” en español."],
       ["fill","Completa: “Lo que realmente define la conciencia ___ la experiencia subjetiva, no solo el comportamiento.”",["sea", "es", "era", "son"],1,"En oraciones escindidas con sujeto singular se usa “es”: “lo que define... es”."],
       ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Lo que define realmente la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente define la conciencia es solo el comportamiento, no la experiencia subjetiva.", "Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente definió la conciencia no es solo el comportamiento, sino la experiencia subjetiva."],2,"La oración escindida mantiene “lo que + verbo + no es... sino...”, con “realmente” antes del verbo."],
-      ["arrange","Ordena: [debaten / albedrío / aún / filósofos / el / libre]",["debaten filósofos albedrío libre los aún el", "los filósofos aún debaten el libre albedrío", "libre aún debaten el los filósofos albedrío", "libre los albedrío aún debaten filósofos el"],1,"Artículo + sustantivo + adverbio + verbo + artículo + sustantivo compuesto."],
+      ["arrange","Ordena: [debaten / albedrío / aún / filósofos / el / libre / los]",["debaten filósofos albedrío libre los aún el","los filósofos aún debaten el libre albedrío","libre aún debaten el los filósofos albedrío","libre los albedrío aún debaten filósofos el"],1,"Artículo + sustantivo + adverbio + verbo + artículo + sustantivo compuesto."],
       ["writing","Escribe en español, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una oración escindida (“lo que... es...”).",[],["lo que realmente define", "conciencia", "libre albedrío"]],
     ]
   },
@@ -2917,7 +2917,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “to trim” en español?",["to trim", "recortar", "short/long hair", "scissors"],1,"“To trim” es “recortar” en español."],
       ["fill","Completa: “Este corte es ___ corto que el anterior.”",["más", "menos", "el más", "tan"],0,"El comparativo de superioridad se forma con “más... que”: “más corto que”."],
       ["translate","Traduce: “She has the longest hair in the family.”",["Ella tiene el pelo más largo en la familia.", "Ella tiene el pelo más largo de la familia.", "Ella tiene el pelo más largo que la familia.", "Ella tienen el pelo más largo de la familia."],1,"“The longest... in” se traduce con “el más largo de” en español."],
-      ["arrange","Ordena: [peluquería / mejor / ciudad / esta / la / de / es]",["mejor ciudad la es la peluquería esta de", "esta es la mejor peluquería de la ciudad", "la la de ciudad esta es mejor peluquería", "la esta de ciudad la peluquería mejor es"],1,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
+      ["arrange","Ordena: [peluquería / mejor / ciudad / esta / la / de / es / la]",["mejor ciudad la es la peluquería esta de","esta es la mejor peluquería de la ciudad","la la de ciudad esta es mejor peluquería","la esta de ciudad la peluquería mejor es"],1,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
       ["writing","Describe en español, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["más corto", "el más largo", "corte de pelo"]],
     ]
   },
@@ -4215,7 +4215,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “I hate” en español?",["me gusta", "odio", "me encanta", "te gusta"],1,"“I hate” es “odio”."],
       ["fill","Completa: “A ella le encanta ___ los fines de semana.”",["cocinar", "cocinando", "cocina", "cocino"],0,"Tras “gustar/encantar” el verbo va en infinitivo: “cocinar”."],
       ["translate","Traduce: “I don't like swimming in cold water.”",["Me gusta nadar en agua fría.", "No me gusta nadar en agua fría.", "No me gusta nadando en agua fría.", "Odio nadar agua fría."],1,"“I don't like” + infinitivo: “no me gusta nadar”."],
-      ["arrange","Ordena: [le / leer / encanta / le / libros]",["encanta leer libros le", "le encanta leer libros", "le encanta libros leer", "leer encanta le libros"],1,"Objeto indirecto + “gustar/encantar” + infinitivo + objeto."],
+      ["arrange","Ordena: [le / leer / encanta / libros]",["encanta leer libros le","le encanta leer libros","le encanta libros leer","leer encanta le libros"],1,"Objeto indirecto + “gustar/encantar” + infinitivo + objeto."],
       ["speaking","Habla en español durante 25-35 palabras sobre tres actividades que te gustan y una que odias.",[],["me encanta", "me gusta", "odio"]],
     ]
   },
@@ -4239,7 +4239,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “next week” en español?",["la próxima semana", "la semana pasada", "esta semana", "el próximo año"],0,"“Next week” es “la próxima semana”."],
       ["fill","Completa: “¡Mira esas nubes! ___ a llover.”",["Irá", "Fue", "Habrá", "Va"],3,"Con evidencia presente (nubes) usamos “ir a + infinitivo”: “va a llover”."],
       ["translate","Traduce: “I think we will win the game.”",["Creo que ganaríamos el partido.", "Creo que ganamos el partido.", "Creo que ganaremos el partido.", "Creo que vamos a ganado el partido."],2,"Predicción sin evidencia clara → futuro simple: “ganaremos”."],
-      ["arrange","Ordena: [visitar / voy / abuelos / a / mis]",["voy abuelos visitar a a mis", "mis a a abuelos voy visitar", "voy a visitar a mis abuelos", "mis voy abuelos a visitar a"],2,"Sujeto + “ir a” + infinitivo + objeto."],
+      ["arrange","Ordena: [visitar / voy / abuelos / a / mis / a]",["voy abuelos visitar a a mis","mis a a abuelos voy visitar","voy a visitar a mis abuelos","mis voy abuelos a visitar a"],2,"Sujeto + “ir a” + infinitivo + objeto."],
       ["writing","Escribe en español 30-40 palabras sobre tus planes para el próximo mes, usando “ir a” y una predicción con futuro simple.",[],["voy a", "próximo", "creo que"]],
     ]
   },

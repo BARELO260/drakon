@@ -19,13 +19,30 @@
 
 /* Convierte el formato compacto (arrays posicionales) en los objetos
    completos que usa LessonEngine — así el motor no necesita cambiar. */
+/* Para writing/speaking: si la consigna pide un rango ("20-30 palabras") el
+   mínimo exigido nunca debe superar el extremo inferior de ese rango; con
+   la consigna "20-30" el motor exigía 25 y penalizaba a quien cumplía.
+   Un 7º elemento numérico opcional en el ejercicio ([..., contexto, minWords])
+   permite fijarlo a mano. */
+function _minWordsFor(e){
+  if (e[0] !== 'writing' && e[0] !== 'speaking') return {};
+  if (typeof e[6] === 'number' && e[6] > 0) return { minWords: e[6] };
+  const m = String(e[1] || '').match(/(\d+)\s*[-–]\s*(\d+)/);
+  const lo = m ? parseInt(m[1], 10) : 0;
+  return (lo > 0 && lo < 25) ? { minWords: lo } : {};
+}
+
 function buildLessons(source){
   return (source || []).map(l=>({
     id: l.id, level: l.level, title: l.title, emoji: l.emoji,
     description: l.description, xp: l.xp, study: l.study || null,
     exercises: l.ex.map(e=>({
       type: e[0], question: e[1], options: e[2], correct: e[3],
-      explanation: e[4], ...(e[5] ? {context: e[5]} : {})
+      // Los ejercicios writing/speaking pueden no traer explicación: sin
+      // este valor por defecto el feedback mostraba la palabra "undefined".
+      explanation: e[4] || '',
+      ...(e[5] ? {context: e[5]} : {}),
+      ..._minWordsFor(e)
     }))
   }));
 }
@@ -174,14 +191,15 @@ const LessonEngine = {
   /* ── Barajar opciones (Fisher-Yates) sin mutar el banco original ── */
   _shuffleOptions(ex) {
     if (!Array.isArray(ex.options) || ex.options.length < 2) return ex;
-    const correctValue = ex.options[ex.correct];
     const order = ex.options.map((_, i) => i);
     for (let i = order.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [order[i], order[j]] = [order[j], order[i]];
     }
     const options = order.map(i => ex.options[i]);
-    return { ...ex, options, correct: options.indexOf(correctValue) };
+    // Se sigue el ÍNDICE original (no el texto): así, aunque haya dos
+    // opciones con el mismo texto, la correcta se localiza sin error.
+    return { ...ex, options, correct: order.indexOf(ex.correct) };
   },
 
   /* ── Barra superior ─────────────────── */
@@ -682,7 +700,7 @@ const LessonEngine = {
     if (feedback) {
       feedback.style.display = 'block';
       feedback.className = `ex-feedback ${meetsTask ? 'correct' : 'wrong'}`;
-      feedback.innerHTML = `<div class="ex-fb-header">${meetsTask ? '¡Buen trabajo de producción! 🎙️' : 'Revisa la consigna y vuelve a intentarlo'}</div><div class="ex-fb-explanation">${ex.explanation}</div><div class="ex-fb-correct">Criterios de autoevaluación: ${criteria.map(item => `${covered.includes(item) ? '✓' : '○'} ${item}`).join(' · ') || 'claridad, coherencia y precisión'}</div>`;
+      feedback.innerHTML = `<div class="ex-fb-header">${meetsTask ? '¡Buen trabajo de producción! 🎙️' : 'Revisa la consigna y vuelve a intentarlo'}</div>${ex.explanation ? `<div class="ex-fb-explanation">${ex.explanation}</div>` : ''}<div class="ex-fb-correct">Criterios de autoevaluación: ${criteria.map(item => `${covered.includes(item) ? '✓' : '○'} ${item}`).join(' · ') || 'claridad, coherencia y precisión'}</div>`;
     }
     if (meetsTask) { this.correctCount++; this.xpEarned += Math.floor(this.lesson.xp / this.exercises.length); if (typeof gainXP === 'function') gainXP(3, false); }
     else this.lives--;

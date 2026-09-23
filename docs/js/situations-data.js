@@ -230,7 +230,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["mcq","¿Cómo se dice “nada que declarar” en inglés?",["visa on arrival", "nothing to declare", "purpose of your visit", "residency permit"],1,"“Nothing to declare” se dice al no llevar objetos que notificar."],
       ["fill","Completa: “What is the ___ of your visit?”",["purpose", "declaration", "visa", "permit"],0,"“Purpose” significa “motivo” o “propósito”."],
       ["translate","Traduce: “No tengo nada que declarar.”",["I have nothing to declare.", "I have something to declare.", "I need a visa to declare.", "I have no permit to declare."],0,"“Nothing to declare” es la respuesta estándar en aduana si no llevas nada que notificar."],
-      ["arrange","Ordena: [is / of / what / your / visit / purpose]",["What visit is your purpose of the", "What is the purpose of your visit", "What is your of the purpose visit", "the of visit is your What purpose"],1,"Pregunta con “What is...?” + “the purpose of your visit”."],
+      ["arrange","Ordena: [is / of / what / your / visit / purpose / the]",["What visit is your purpose of the","What is the purpose of your visit","What is your of the purpose visit","the of visit is your What purpose"],1,"Pregunta con “What is...?” + “the purpose of your visit”."],
       ["speaking","Imagina que un oficial de aduanas te pregunta el motivo de tu viaje. Responde en inglés (25-35 palabras) explicando el motivo y cuánto tiempo te quedarás.",[],["purpose", "I am here", "for"]],
     ]
   },
@@ -2623,7 +2623,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["mcq","¿Cómo se dice \"I highly recommend it\" en español?",["se lo recomiendo mucho", "¿cuál es la especialidad de la casa?", "si le gusta el picante...", "es un plato típico de la región"],0,"Forma de recomendar algo con entusiasmo."],
       ["fill","Completa: “Si le gusta el ___, le recomiendo este plato.”",["precio", "menú", "picante", "postre"],2,"\"Si le gusta...\" introduce una recomendación condicionada."],
       ["translate","Traduce: \"It's a typical dish of the region.\"",["Es la especialidad de la casa.", "Si le gusta el picante.", "Es un plato típico de la región.", "Se lo recomiendo mucho."],2,"\"Plato típico de la región\" describe un plato regional tradicional."],
-      ["arrange","Ordena: [casa / de / especialidad / la]",["casa especialidad de la La", "La la de casa especialidad", "La especialidad de la casa", "casa La la de especialidad"],2,"Artículo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [casa / de / especialidad / la / la]",["casa especialidad de la La","La la de casa especialidad","La especialidad de la casa","casa La la de especialidad"],2,"Artículo + sustantivo + preposición + sustantivo."],
       ["speaking","Pídele al camarero una recomendación y explica en español (30-40 palabras) tus preferencias (picante, dulce, etc.).",[],["me recomienda", "si le gusta", "especialidad"]],
     ]
   },
@@ -3690,7 +3690,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["mcq","¿Cómo se dice \"a clean bill of health\" en español?",["superar/combatir un resfriado", "recuperarse, estar de vuelta en pie", "un buen estado de salud confirmado", "tomárselo con calma"],2,"Es cuando el médico confirma que estás bien de salud."],
       ["fill","Completa: “Me he sentido ___ toda la semana.”",["resfriado", "con calma", "indispuesto", "recuperado"],2,"\"Indispuesto\" = sentirse mal."],
       ["translate","Traduce con un modismo equivalente: \"I'm finally getting back on my feet.\"",["Por fin me lo estoy tomando con calma.", "Por fin estoy combatiendo un resfriado.", "Por fin me siento indispuesto.", "Por fin me estoy recuperando."],3,"\"Estar de vuelta en pie\" significa recuperarse tras una enfermedad."],
-      ["arrange","Ordena: [semana / toda / indispuesto / he / estado]",["He estado indispuesto toda la semana", "estado la He semana toda indispuesto", "estado He toda semana indispuesto la", "la toda estado indispuesto semana He"],0,"Verbo + adjetivo + adjetivo + sustantivo."],
+      ["arrange","Ordena: [semana / toda / indispuesto / he / estado / la]",["He estado indispuesto toda la semana","estado la He semana toda indispuesto","estado He toda semana indispuesto la","la toda estado indispuesto semana He"],0,"Verbo + adjetivo + adjetivo + sustantivo."],
       ["speaking","Cuenta en español (35-45 palabras) sobre la última vez que estuviste enfermo/a, usando al menos dos modismos: \"indispuesto\", \"de vuelta en pie\", \"combatir un resfriado\", \"con calma\".",[],["indispuesto", "de vuelta en pie", "con calma"]],
     ]
   },
@@ -4368,7 +4368,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I need my transcript\" en español?",["necesito mi certificado de notas", "¿Me da su número de estudiante?", "Estará listo en tres días", "Necesito mi certificado de notas"],0,"Es el documento con tus calificaciones."],
+      ["mcq","¿Cómo se dice \"I need my transcript\" en español?",["Buenos días, ¿en qué puedo ayudarle?","¿Me da su número de estudiante?","Estará listo en tres días","Necesito mi certificado de notas"],3,"Es el documento con tus calificaciones."],
       ["mcq","¿Cómo se dice \"it'll be ready in three days\" en español?",["Necesito mi certificado de notas", "Buenos días, ¿en qué puedo ayudarle?", "estará listo en tres días", "¿Me da su número de estudiante?"],2,"Futuro simple para indicar un plazo."],
       ["fill","Completa: “Su certificado ___ listo en tres días.”",["necesita", "es", "puede", "estará"],3,"\"Estará listo\" es futuro simple del verbo \"estar\"."],
       ["translate","Traduce: \"Can I have your student number?\"",["¿Me da su número de estudiante?", "¿Me da su fecha límite?", "¿Me da su certificado de notas?", "¿Me da su formulario de inscripción?"],0,"Se pide el número de identificación del estudiante."],
@@ -4778,7 +4778,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"it was supposed to...\" en francés?",["j'étais censé/e...", "que puis-je faire ?", "je suis perdu/e", "pourriez-vous m'aider à trouver... ?"],0,"Explica cuál era el plan original."],
       ["fill","Completa: “___ prendre le vol 204, mais il a été annulé.”",["J'ai besoin", "J'étais censé", "Je suis perdu", "Pourriez-vous"],1,"\"J'étais censé\" explica un plan que no se cumplió."],
       ["translate","Traduce: \"I missed my connecting flight, what can I do?\"",["J'ai perdu ma valise, que puis-je faire ?", "J'ai raté mon vol de correspondance, que puis-je faire ?", "J'ai besoin d'un fauteuil roulant, que puis-je faire ?", "Mon vol est retardé, que puis-je faire ?"],1,"\"J'ai raté mon vol de correspondance\" explica el problema con claridad."],
-      ["arrange","Ordena: [aide / besoin / d' / j'ai]",["d'aide J'ai besoin", "besoin d'aide J'ai", "J'ai besoin d'aide", "J'ai d'aide besoin"],2,"Verbo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [besoin / j'ai / d'aide]",["d'aide J'ai besoin","besoin d'aide J'ai","J'ai besoin d'aide","J'ai d'aide besoin"],2,"Verbo + sustantivo + preposición + sustantivo."],
       ["speaking","Simula que perdiste tu vuelo de conexión: explica el problema al personal en francés y pregunta qué opciones tienes (mínimo 25 palabras).",[],["j'ai raté", "vol de correspondance", "que puis-je faire"]],
     ]
   },
@@ -4973,7 +4973,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"What do you recommend?\" en francés?",["Vous êtes prêt à commander ?", "Sans oignon, s'il vous plaît", "Je voudrais commander...", "Que me recommandez-vous ?"],3,"Se pregunta al camarero para pedir sugerencias."],
       ["fill","Completa: “___ commander la soupe, s'il vous plaît.”",["Je voudrais", "Sans", "Pour", "Vous êtes"],0,"\"Je voudrais\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Pour moi, oignon.", "Sans pâtes, s'il vous plaît.", "Avec oignon, s'il vous plaît.", "Sans oignon, s'il vous plaît."],3,"\"Sans\" indica que no quieres ese ingrediente."],
-      ["arrange","Ordena: [recommandez / que / vous / me]",["me recommandez-vous Que", "Que me recommandez-vous", "Que recommandez-vous me", "me Que recommandez-vous"],1,"Interrogativo + pronombre + pronombre + verbo."],
+      ["arrange","Ordena: [que / me / recommandez-vous]",["me recommandez-vous Que","Que me recommandez-vous","Que recommandez-vous me","me Que recommandez-vous"],1,"Interrogativo + pronombre + pronombre + verbo."],
     ]
   },
   {
@@ -5043,7 +5043,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"this isn't what I ordered\" en francés?",["il manque la commande", "c'est trop salé", "ce n'est pas ce que j'ai commandé", "pourriez-vous le changer ?"],2,"Frase para reportar un error en el pedido."],
       ["fill","Completa: “Excusez-moi, ce ___ ce que j'ai commandé.”",["changer", "n'est pas", "manque", "est froid"],1,"\"Ce n'est pas ce que j'ai commandé\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["Est-ce froid ?", "La commande manque-t-elle ?", "Pourriez-vous le changer ?", "Pourriez-vous l'apporter ?"],2,"\"Pourriez-vous...?\" es la forma educada de pedir un cambio."],
-      ["arrange","Ordena: [trop / froid / est / c']",["C'est trop froid", "C'est froid trop", "froid trop C'est", "froid C'est trop"],0,"Pronombre + verbo + adverbio + adjetivo."],
+      ["arrange","Ordena: [trop / froid / c'est]",["C'est trop froid","C'est froid trop","froid trop C'est","froid C'est trop"],0,"Pronombre + verbo + adverbio + adjetivo."],
     ]
   },
   {
@@ -5088,7 +5088,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"I highly recommend it\" en francés?",["je vous le recommande vivement", "quelle est la spécialité de la maison ?", "si vous aimez le piquant...", "c'est un plat typique de la région"],0,"Forma de recomendar algo con entusiasmo."],
       ["fill","Completa: “Si vous aimez le ___, je vous recommande ce plat.”",["prix", "menu", "piquant", "dessert"],2,"\"Si vous aimez...\" introduce una recomendación condicionada."],
       ["translate","Traduce: \"It's a typical dish of the region.\"",["C'est la spécialité de la maison.", "Si vous aimez le piquant.", "C'est un plat typique de la région.", "Je vous le recommande vivement."],2,"\"Plat typique de la région\" describe un plato regional tradicional."],
-      ["arrange","Ordena: [maison / de / spécialité / la]",["maison spécialité de la La", "La la de maison spécialité", "La spécialité de la maison", "maison La la de spécialité"],2,"Artículo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [maison / de / spécialité / la / la]",["maison spécialité de la La","La la de maison spécialité","La spécialité de la maison","maison La la de spécialité"],2,"Artículo + sustantivo + preposición + sustantivo."],
       ["speaking","Pídele al camarero una recomendación y explica en francés (30-40 palabras) tus preferencias (picante, dulce, etc.).",[],["vous me recommandez", "si vous aimez", "spécialité"]],
     ]
   },
@@ -5331,7 +5331,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"wake-up call\" en francés?",["la salle de sport", "le service de réveil", "la blanchisserie", "le service en chambre"],1,"Es una llamada para despertarte a cierta hora."],
       ["fill","Completa: “Y a-t-il une ___ dans l'hôtel ? Je veux nager demain.”",["blanchisserie", "piscine", "salle de sport", "parking"],1,"\"Piscine\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["Y a-t-il une salle de sport disponible ?", "Y a-t-il un service en chambre disponible ?", "Y a-t-il un parking disponible ?", "Y a-t-il une piscine disponible ?"],2,"\"Y a-t-il...disponible?\" pregunta por disponibilidad de un servicio."],
-      ["arrange","Ordena: [piscine / hôtel / a / l' / y / dans]",["Y a piscine dans l'hôtel", "a l'hôtel Y dans piscine", "Y dans l'hôtel a piscine", "l'hôtel Y a piscine dans"],0,"Nota: forma completa es \"Y a-t-il une piscine dans l'hôtel ?\"; practica el orden base."],
+      ["arrange","Ordena: [piscine / a / y / dans / il / une / l'hôtel]",["Il y a une piscine dans l'hôtel","dans a une l'hôtel Il y piscine","dans a piscine une Il y l'hôtel","piscine Il une dans y l'hôtel a"],0,"Nota: forma completa es \"Y a-t-il une piscine dans l'hôtel ?\"; practica el orden base."],
     ]
   },
   {
@@ -5377,7 +5377,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"could you check the bill?\" en francés?",["pourriez-vous vérifier la facture ?", "les frais du minibar", "garder les bagages", "quitter la chambre"],0,"Se pide revisar el total antes de pagar."],
       ["fill","Completa: “À quelle heure est le ___ ?”",["frais", "minibar", "bagage", "check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["Pourriez-vous quitter ma chambre pour quelques heures ?", "Pourriez-vous vérifier mes bagages pour quelques heures ?", "Pourriez-vous facturer mes bagages pour quelques heures ?", "Pourriez-vous garder mes bagages pour quelques heures ?"],3,"\"Garder les bagages\" es dejarlo temporalmente en el hotel."],
-      ["arrange","Ordena: [facture / la / vérifier / pourriez-vous]",["Pourriez la vérifier facture vous", "la vérifier vous Pourriez facture", "Pourriez vous vérifier la facture", "vérifier la Pourriez facture vous"],2,"Verbo modal + verbo + artículo + sustantivo."],
+      ["arrange","Ordena: [facture / la / vérifier / pourriez-vous]",["Pourriez-vous vérifier la facture","Pourriez-vous facture vérifier la","vérifier facture la Pourriez-vous","facture la vérifier Pourriez-vous"],0,"Verbo modal + verbo + artículo + sustantivo."],
     ]
   },
   {
@@ -5470,7 +5470,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"subject to availability\" en francés?",["un membre du programme de fidélité", "un surclassement gratuit", "selon la disponibilité", "y a-t-il de la flexibilité sur le prix ?"],2,"Es una condición muy común en reservas."],
       ["fill","Completa: “En tant que membre du programme de fidélité, y a-t-il de la ___ sur le prix ?”",["surclassement", "disponibilité", "flexibilité", "concurrent"],2,"\"Y a-t-il de la flexibilité sur le prix?\" pregunta educadamente por un descuento."],
       ["translate","Traduce: \"Would it be possible to get a complimentary upgrade, given that I'm a loyalty member?\"",["Serait-il possible d'égaler le tarif d'un concurrent aujourd'hui ?", "Serait-il possible d'avoir un surclassement gratuit, étant donné que je suis membre du programme de fidélité ?", "Y a-t-il de la disponibilité pour un membre fidèle ce soir ?", "Serait-il possible d'annuler mon abonnement de fidélité ?"],1,"\"Serait-il possible...?\" + \"étant donné que...\" es una petición cortés y justificada."],
-      ["arrange","Ordena: [prix / flexibilité / le / sur / a / y / de / la / t-il]",["Y a t il de la flexibilité sur le prix", "t il la flexibilité Y de sur prix a le", "sur le t prix il Y la flexibilité a de", "prix de sur t la a flexibilité il le Y"],0,"\"Y a-t-il de la\" + sustantivo + \"sur le prix\"."],
+      ["arrange","Ordena: [prix / flexibilité / le / sur / y / de / la / a-t-il]",["Y a-t-il de la flexibilité sur le prix","sur la flexibilité de le prix a-t-il Y","le prix sur Y a-t-il de flexibilité la","sur flexibilité Y de prix la a-t-il le"],0,"\"Y a-t-il de la\" + sustantivo + \"sur le prix\"."],
       ["writing","Escribe en francés (40-60 palabras) un correo educado preguntando al hotel si hay flexibilidad en el precio o alguna mejora disponible por ser cliente frecuente.",[],["y a-t-il de la flexibilité", "membre du programme", "serait-il possible"]],
     ]
   },
@@ -5541,7 +5541,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"a home away from home\" en francés?",["sans fioritures", "valoir chaque centime", "un chez-soi loin de chez soi", "dérouler le tapis rouge"],2,"Describe un lugar donde te sientes como en casa."],
       ["fill","Completa: “Le personnel est vraiment allé au-delà de ses ___ pour nous.”",["tapis", "centimes", "obligations", "fioritures"],2,"\"Aller au-delà de ses obligations\" es esforzarse más de lo normal."],
       ["translate","Traduce con un modismo equivalente: \"This hotel is worth every penny.\"",["Cet hôtel est un chez-soi loin de chez soi.", "Cet hôtel vaut chaque centime.", "Cet hôtel a déroulé le tapis rouge.", "Cet hôtel est sans fioritures."],1,"\"Valoir chaque centime\" significa que algo justifica totalmente su precio."],
-      ["arrange","Ordena: [soi / chez / loin / un / de / chez-soi]",["chez loin chez soi soi Un de", "de chez loin soi soi chez Un", "Un chez soi loin de chez soi", "chez loin de Un soi soi chez"],2,"Artículo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [soi / chez / loin / un / de / chez-soi]",["Un chez-soi loin de chez soi","chez soi Un loin chez-soi de","soi Un de chez chez-soi loin","chez Un chez-soi soi de loin"],0,"Artículo + sustantivo + preposición + sustantivo."],
       ["speaking","Describe en francés (35-45 palabras) tu mejor experiencia en un hotel usando al menos dos modismos: \"aller au-delà\", \"valoir chaque centime\", \"chez-soi loin de chez soi\", \"sans fioritures\".",[],["au-delà de ses obligations", "vaut chaque centime", "chez-soi loin de chez soi"]],
     ]
   },
@@ -5638,7 +5638,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"do you have something similar?\" en francés?",["il ne m'en reste plus", "c'est en rupture de stock", "je peux vous offrir ceci à la place", "avez-vous quelque chose de similaire ?"],3,"Se pregunta por un producto alternativo."],
       ["fill","Completa: “Désolé, il ne m'en reste plus, mais je peux vous offrir ceci à la ___.”",["similaire", "place", "stock", "kilo"],1,"\"À la place\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Je vous offre des tomates à la place aujourd'hui.", "Il ne me reste plus de tomates aujourd'hui.", "C'est en rupture de stock de tomates aujourd'hui.", "Je n'ai pas de tomates similaires aujourd'hui."],1,"\"Il ne me reste plus\" indica que se acabó el producto."],
-      ["arrange","Ordena: [stock / de / rupture / en / est / c']",["en rupture stock de C'est", "rupture C'est en stock de", "C'est rupture de stock en", "C'est en rupture de stock"],3,"Pronombre + verbo + preposición + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [stock / de / rupture / en / c'est]",["en rupture stock de C'est","rupture C'est en stock de","C'est rupture de stock en","C'est en rupture de stock"],3,"Pronombre + verbo + preposición + sustantivo + preposición + sustantivo."],
     ]
   },
   {
@@ -5682,7 +5682,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"do you have change for a large bill?\" en francés?",["avez-vous de la monnaie pour un gros billet ?", "payer en espèces", "uniquement en espèces", "acceptez-vous la carte ?"],0,"Se pregunta si pueden dar cambio de un billete de valor alto."],
       ["fill","Completa: “Désolé, ici c'est ___ en espèces, on n'accepte pas la carte.”",["monnaie", "uniquement", "billet", "carte"],1,"\"Uniquement en espèces\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["Acceptez-vous la carte ?", "Avez-vous de la monnaie ?", "Acceptez-vous les espèces ?", "Payez-vous en espèces ?"],0,"\"Acceptez-vous la carte?\" pregunta por el método de pago."],
-      ["arrange","Ordena: [carte / la / acceptez-vous / bancaire]",["bancaire la Acceptez vous carte", "Acceptez vous la carte bancaire", "bancaire Acceptez la carte vous", "vous Acceptez bancaire carte la"],1,"Verbo + pronombre + artículo + sustantivo + adjetivo."],
+      ["arrange","Ordena: [carte / la / acceptez-vous / bancaire]",["Acceptez-vous la carte bancaire","bancaire Acceptez-vous la carte","bancaire Acceptez-vous carte la","carte Acceptez-vous bancaire la"],0,"Verbo + pronombre + artículo + sustantivo + adjetivo."],
     ]
   },
   {
@@ -5799,7 +5799,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"I'd like a refund or an exchange\" en francés?",["ce n'est plus frais", "avez-vous une preuve d'achat ?", "je voudrais un remboursement ou un échange", "ça s'est gâté en un jour"],2,"Frase estándar al reclamar un producto."],
       ["fill","Completa: “Ce fruit n'est plus ___, pourriez-vous me rembourser ?”",["défectueux", "frais", "échange", "preuve"],1,"\"Ce n'est plus frais\" indica que ya no está en buen estado."],
       ["translate","Traduce: \"This went bad within a day, do you have proof of purchase for the refund?\"",["C'est défectueux en un jour, voulez-vous un échange ?", "Ça s'est gâté en une semaine, pourriez-vous l'échanger ?", "Ça s'est gâté en un jour, avez-vous une preuve d'achat pour le remboursement ?", "Ce n'est plus frais, avez-vous une politique de remboursement ?"],2,"\"En un jour\" + \"preuve d'achat\" son claves para tramitar un reembolso."],
-      ["arrange","Ordena: [totalement / est / c' / défectueux]",["défectueux totalement C'est", "C'est totalement défectueux", "C'est défectueux totalement", "totalement C'est défectueux"],1,"Pronombre + verbo + adverbio + adjetivo."],
+      ["arrange","Ordena: [totalement / défectueux / c'est]",["défectueux totalement C'est","C'est totalement défectueux","C'est défectueux totalement","totalement C'est défectueux"],1,"Pronombre + verbo + adverbio + adjetivo."],
       ["speaking","Vuelves al puesto porque la fruta que compraste se estropeó en un día. Explica el problema en francés (30-40 palabras) y pide un reembolso o un cambio.",[],["ça s'est gâté", "je voudrais un remboursement", "preuve d'achat"]],
     ]
   },
@@ -5823,7 +5823,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"it's considered rude to haggle\" en francés?",["prendre le pouls de la situation", "un marché à prix fixe", "normes culturelles autour de la négociation", "c'est considéré comme impoli de marchander"],3,"Estructura impersonal para describir una norma cultural."],
       ["fill","Completa: “Sur ce marché, marchander ___ partie de l'expérience.”",["étant", "fait", "été", "était"],1,"\"Marchander fait partie de l'expérience\" describe una norma social presente."],
       ["translate","Traduce con precisión: \"Cultural norms around negotiation vary a lot between countries.\"",["Les marchés à prix fixe varient beaucoup d'un pays à l'autre.", "Les normes culturelles autour de la négociation sont les mêmes partout.", "Les normes culturelles autour de la négociation varient beaucoup d'un pays à l'autre.", "Marchander est attendu de la même façon partout."],2,"\"Varient beaucoup d'un pays à l'autre\" expresa diferencia notable entre culturas."],
-      ["arrange","Ordena: [marchander / impoli / considéré / comme / est / c']",["C'est considéré comme impoli marchander", "comme impoli considéré C'est marchander", "C'est impoli comme marchander considéré", "C'est comme considéré marchander impoli"],0,"\"C'est considéré comme\" + adjetivo + verbo (nota: forma completa añade \"de\" antes del verbo)."],
+      ["arrange","Ordena: [marchander / impoli / considéré / comme / c'est]",["C'est considéré comme impoli marchander","comme impoli considéré C'est marchander","C'est impoli comme marchander considéré","C'est comme considéré marchander impoli"],0,"\"C'est considéré comme\" + adjetivo + verbo (nota: forma completa añade \"de\" antes del verbo)."],
       ["writing","Escribe en francés (55-75 palabras) comparando cómo se negocia el precio en un mercado en tu país frente a otro país que conozcas o hayas investigado.",[],["dans mon pays", "cependant", "normes culturelles"]],
     ]
   },
@@ -6224,11 +6224,11 @@ window.SITUATION_LESSON_BANKS.FR = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en francés?",["Tu as une minute ?", "Je t'explique tout de suite", "bien sûr, comment puis-je t'aider ?", "Bien sûr, comment puis-je t'aider ?"],2,"Respuesta típica al ofrecer ayuda."],
-      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en francés?",["Bien sûr, comment puis-je t'aider ?", "Je ne sais pas utiliser ce logiciel", "je ne sais pas utiliser ce logiciel", "Je t'explique tout de suite"],2,"Frase para pedir ayuda con una herramienta."],
+      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en francés?",["Tu as une minute ?","Je t'explique tout de suite","je ne sais pas utiliser ce logiciel","Bien sûr, comment puis-je t'aider ?"],3,"Respuesta típica al ofrecer ayuda."],
+      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en francés?",["Bien sûr, comment puis-je t'aider ?","Je ne sais pas utiliser ce logiciel","Tu as une minute ?","Je t'explique tout de suite"],1,"Frase para pedir ayuda con una herramienta."],
       ["fill","Completa: “___ une minute ? J'ai besoin de ton aide.”",["Tu peux", "Tu sais", "Tu expliques", "Tu as"],3,"\"Tu as une minute?\" pide atención breve."],
       ["translate","Traduce: \"I'll explain it to you right now.\"",["Je t'envoie tout de suite.", "Je te demande tout de suite.", "Je t'explique tout de suite.", "Je t'aide tout de suite."],2,"\"Tout de suite\" indica inmediatez."],
-      ["arrange","Ordena: [aider / puis-je / t' / comment]",["Comment puis je t'aider", "Comment je t'aider puis", "puis Comment t'aider je", "t'aider je Comment puis"],0,"Interrogativo + verbo + pronombre + verbo."],
+      ["arrange","Ordena: [puis-je / comment / t'aider]",["Comment puis-je t'aider","t'aider Comment puis-je","puis-je t'aider Comment","Comment t'aider puis-je"],0,"Interrogativo + verbo + pronombre + verbo."],
       ["speaking","Pide ayuda a un compañero con un programa que no conoces. Practica el diálogo en francés (25-35 palabras).",[],["tu as une minute", "je ne sais pas", "aide-moi"]],
     ]
   },
@@ -6251,7 +6251,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"let's move to the next point\" en francés?",["des questions ?", "comme vous pouvez le voir sur cette diapositive", "commençons par l'ordre du jour", "passons au point suivant"],3,"\"Passons\" propone avanzar a otro tema."],
       ["fill","Completa: “___ par l'ordre du jour d'aujourd'hui.”",["Passons", "Demandez", "Commençons", "Voyez"],2,"\"Commençons\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Comme vous pouvez le voir sur cette diapositive...", "Comme vous pouvez commencer sur cette diapositive...", "Comme vous pouvez demander sur cette diapositive...", "Comme vous pouvez passer sur cette diapositive..."],0,"\"Comme vous pouvez voir\" introduce una explicación visual."],
-      ["arrange","Ordena: [questions / des / avez-vous]",["des questions vous Avez", "des vous Avez questions", "questions des vous Avez", "Avez vous des questions"],3,"Verbo + pronombre + adjetivo + sustantivo."],
+      ["arrange","Ordena: [questions / des / avez-vous]",["Avez-vous des questions","questions des Avez-vous","questions Avez-vous des","des questions Avez-vous"],0,"Verbo + pronombre + adjetivo + sustantivo."],
     ]
   },
   {
@@ -6295,7 +6295,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"can we find a middle ground?\" en francés?",["je ne suis pas entièrement d'accord", "pouvons-nous trouver un compromis ?", "je préfère être direct/e à ce sujet", "je comprends votre point de vue, mais..."],1,"Propone una solución de compromiso."],
       ["fill","Completa: “Je comprends votre point de vue, ___ je ne suis pas entièrement d'accord.”",["bien que", "mais", "si", "parce que"],1,"\"Mais\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Pouvons-nous trouver la raison ?", "Pouvons-nous comprendre votre point de vue ?", "Sommes-nous entièrement d'accord ?", "Pouvons-nous trouver un compromis ?"],3,"\"Un compromis\" es un compromiso entre dos posturas."],
-      ["arrange","Ordena: [accord / d' / suis / pas / ne / je]",["Je d'accord ne pas suis", "Je ne suis pas d'accord", "pas Je d'accord ne suis", "ne pas Je d'accord suis"],1,"Negación + verbo + \"d'accord\"."],
+      ["arrange","Ordena: [suis / pas / ne / je / d'accord]",["Je d'accord ne pas suis","Je ne suis pas d'accord","pas Je d'accord ne suis","ne pas Je d'accord suis"],1,"Negación + verbo + \"d'accord\"."],
     ]
   },
   {
@@ -6341,7 +6341,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"a performance-based bonus\" en francés?",["je suis ouvert/e à un compromis", "une prime basée sur la performance", "en me basant sur mon expérience et mes résultats", "la norme du secteur pour ce poste"],1,"Significa que depende de los resultados obtenidos."],
       ["fill","Completa: “En me basant sur mon expérience et mes ___, je pense qu'une augmentation est juste.”",["prime", "résultats", "norme", "compromis"],1,"\"En me basant sur mon expérience et mes résultats\" justifica la petición."],
       ["translate","Traduce: \"I'm open to a compromise on the salary.\"",["J'espérais parler d'un compromis standard.", "Je suis ouvert/e à un compromis sur le salaire.", "Je suis ouvert à une prime sur le salaire.", "Je suis ouvert aux résultats du salaire."],1,"\"Ouvert à un compromis\" muestra flexibilidad en la negociación."],
-      ["arrange","Ordena: [salaire / parler / mon / de / pourrions / espérais / que / nous / j']",["mon que de pourrions parler nous J'espérais salaire", "que nous parler mon pourrions de J'espérais salaire", "que nous pourrions mon J'espérais parler de salaire", "J'espérais que nous pourrions parler de mon salaire"],3,"\"J'espérais\" + \"que nous pourrions\" + verbo + objeto."],
+      ["arrange","Ordena: [salaire / parler / mon / de / pourrions / que / nous / j'espérais]",["mon que de pourrions parler nous J'espérais salaire","que nous parler mon pourrions de J'espérais salaire","que nous pourrions mon J'espérais parler de salaire","J'espérais que nous pourrions parler de mon salaire"],3,"\"J'espérais\" + \"que nous pourrions\" + verbo + objeto."],
       ["writing","Escribe en francés (40-60 palabras) un correo pidiendo una reunión para negociar tu salario, mencionando tus logros recientes.",[],["j'espérais que nous pourrions parler", "en me basant sur mes résultats", "ouvert à"]],
     ]
   },
@@ -6365,7 +6365,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"to take this on board\" en francés?",["en tenir compte", "j'apprécie vraiment ce retour", "ce qui a bien marché et ce qui pourrait s'améliorer", "des retours constructifs"],0,"Significa aceptar y considerar una sugerencia."],
       ["fill","Completa: “Merci pour ce retour, je vais certainement en tenir ___.”",["compte", "apprécie", "point", "marché"],0,"\"En tenir compte\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["J'ai tenu compte du retour sur l'amélioration.", "J'apprécie vraiment ce retour, surtout à propos du point à améliorer.", "J'apprécie vraiment le point, surtout le retour.", "J'apprécie vraiment ce qui a bien marché du retour."],1,"\"J'apprécie vraiment ce retour\" + \"surtout...\"."],
-      ["arrange","Ordena: [retour / apprécie / ce / vraiment / j']",["J'apprécie vraiment ce retour", "vraiment J'apprécie ce retour", "retour vraiment J'apprécie ce", "retour ce vraiment J'apprécie"],0,"Sujeto + adverbio + verbo + demostrativo + sustantivo."],
+      ["arrange","Ordena: [retour / ce / vraiment / j'apprécie]",["J'apprécie vraiment ce retour","vraiment J'apprécie ce retour","retour vraiment J'apprécie ce","retour ce vraiment J'apprécie"],0,"Sujeto + adverbio + verbo + demostrativo + sustantivo."],
     ]
   },
   {
@@ -6528,11 +6528,11 @@ window.SITUATION_LESSON_BANKS.FR = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en francés?",["salut, on ne se connaît pas, je m'appelle Ana", "Qu'est-ce que tu fais dans la vie ?", "Je suis designer graphique", "Salut, on ne se connaît pas, je m'appelle Ana"],0,"Forma natural de presentarse a alguien nuevo."],
-      ["mcq","¿Cómo se dice \"What do you do?\" en francés?",["Qu'est-ce que tu fais dans la vie ?", "Je suis designer graphique", "Salut, on ne se connaît pas, je m'appelle Ana", "qu'est-ce que tu fais dans la vie ?"],3,"Pregunta común para conocer la profesión de alguien."],
+      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en francés?",["Enchanté/e, moi c'est Marco","Qu'est-ce que tu fais dans la vie ?","Je suis designer graphique","Salut, on ne se connaît pas, je m'appelle Ana"],3,"Forma natural de presentarse a alguien nuevo."],
+      ["mcq","¿Cómo se dice \"What do you do?\" en francés?",["Qu'est-ce que tu fais dans la vie ?","Je suis designer graphique","Salut, on ne se connaît pas, je m'appelle Ana","Enchanté/e, moi c'est Marco"],0,"Pregunta común para conocer la profesión de alguien."],
       ["fill","Completa: “Salut, on ne se ___ pas, je m'appelle Ana.”",["appelle", "suis", "fais", "connaît"],3,"\"On ne se connaît pas\" indica que es la primera vez que se hablan."],
       ["translate","Traduce: \"I'm a graphic designer.\"",["Je fais dans la vie des fêtes.", "Je suis hôte graphique.", "Je suis designer graphique.", "On ne se connaît pas, graphique."],2,"\"Je suis designer graphique\" indica tu profesión."],
-      ["arrange","Ordena: [vie / dans / la / fais / tu / que / qu'est-ce]",["vie fais dans ce tu la Qu'est que", "fais tu dans ce Qu'est vie que la", "ce fais la vie tu que Qu'est dans", "Qu'est ce que tu fais dans la vie"],3,"Interrogativo + pronombre + verbo + preposición + sustantivo."],
+      ["arrange","Ordena: [vie / dans / la / fais / tu / que / qu'est-ce]",["Qu'est-ce que tu fais dans la vie","vie tu la Qu'est-ce fais que dans","dans Qu'est-ce tu vie que fais la","que fais la vie Qu'est-ce tu dans"],0,"Interrogativo + pronombre + verbo + preposición + sustantivo."],
       ["speaking","Preséntate a alguien nuevo en una fiesta: di tu nombre y a qué te dedicas (25-35 palabras).",[],["on ne se connaît pas", "je m'appelle", "je suis"]],
     ]
   },
@@ -6577,7 +6577,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"it's really good\" en francés?",["qu'est-ce qu'il y a à manger ?", "goûte ça, c'est délicieux", "c'est vraiment très bon", "tu peux me resservir un peu ?"],2,"\"Vraiment\" intensifica el adjetivo."],
       ["fill","Completa: “Goûte ça, c'est ___.”",["manger", "resservir", "vraiment", "délicieux"],3,"\"Délicieux\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["C'est délicieux un peu plus ?", "Tu peux me resservir un peu ?", "Qu'est-ce qu'il y a à manger de plus ?", "Tu goûtes un peu plus ?"],1,"\"Tu peux me resservir?\" se pide para que te sirvan más comida o bebida."],
-      ["arrange","Ordena: [manger / à / qu'est-ce / a / y / il / qu']",["à manger Qu'est y qu'il a ce", "ce manger à Qu'est y a qu'il", "Qu'est ce qu'il y a à manger", "à a y manger qu'il Qu'est ce"],2,"Interrogativo + verbo + preposición + verbo."],
+      ["arrange","Ordena: [manger / à / qu'est-ce / a / y / qu'il]",["Qu'est-ce qu'il y a à manger","y Qu'est-ce manger a qu'il à","a y qu'il Qu'est-ce manger à","manger à a Qu'est-ce y qu'il"],0,"Interrogativo + verbo + preposición + verbo."],
     ]
   },
   {
@@ -6833,7 +6833,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I need my transcript\" en francés?",["j'ai besoin de mon relevé de notes", "Puis-je avoir votre numéro d'étudiant ?", "Ce sera prêt dans trois jours", "J'ai besoin de mon relevé de notes"],0,"Es el documento con tus calificaciones."],
+      ["mcq","¿Cómo se dice \"I need my transcript\" en francés?",["Bonjour, comment puis-je vous aider ?","Puis-je avoir votre numéro d'étudiant ?","Ce sera prêt dans trois jours","J'ai besoin de mon relevé de notes"],3,"Es el documento con tus calificaciones."],
       ["mcq","¿Cómo se dice \"it'll be ready in three days\" en francés?",["J'ai besoin de mon relevé de notes", "Bonjour, comment puis-je vous aider ?", "ce sera prêt dans trois jours", "Puis-je avoir votre numéro d'étudiant ?"],2,"Futuro simple para indicar un plazo."],
       ["fill","Completa: “Votre certificat ___ prêt dans trois jours.”",["a besoin", "est", "peut", "sera"],3,"\"Sera prêt\" es futuro simple del verbo \"être\"."],
       ["translate","Traduce: \"Can I have your student number?\"",["Puis-je avoir votre numéro d'étudiant ?", "Puis-je avoir votre date limite ?", "Puis-je avoir votre relevé de notes ?", "Puis-je avoir votre formulaire d'inscription ?"],0,"Se pide el número de identificación del estudiante."],
@@ -6882,7 +6882,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"who's in charge of the intro?\" en francés?",["retrouvons-nous jeudi", "répartissons-nous les tâches", "je n'ai pas encore fini ma partie", "qui s'occupe de l'introduction ?"],3,"Pregunta quién hará esa parte del trabajo."],
       ["fill","Completa: “___-nous les tâches du projet entre tous.”",["Occupons", "Répartissons", "Retrouvons", "Finissons"],1,"\"Répartissons-nous\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Nous ne nous retrouvons pas encore.", "Nous ne répartissons pas encore les tâches.", "Je ne m'occupe pas encore de ma partie.", "Je n'ai pas encore fini ma partie."],3,"\"Je n'ai pas encore fini... ma partie\" indica que sigue en proceso."],
-      ["arrange","Ordena: [jeudi / retrouvons-nous]",["Retrouvons jeudi nous", "jeudi Retrouvons nous", "Retrouvons nous jeudi", "jeudi nous Retrouvons"],2,"Imperativo + pronombre + sustantivo."],
+      ["arrange","Ordena: [jeudi / retrouvons-nous]",["Retrouvons-nous jeudi","jeudi Retrouvons-nous","jeudi nous Retrouvons","nous Retrouvons jeudi"],0,"Imperativo + pronombre + sustantivo."],
     ]
   },
   {
@@ -6904,7 +6904,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["mcq","¿Cómo se dice \"do you have office hours?\" en francés?",["pourriez-vous m'éclaircir ce point ?", "j'aimerais revoir ma note", "je n'ai pas bien compris le sujet", "avez-vous des heures de permanence ?"],3,"Pregunta por el horario para consultas."],
       ["fill","Completa: “___-vous m'éclaircir ce point sur l'examen ?”",["Avez", "Compris", "Aimerais", "Pourriez"],3,"\"Pourriez-vous...?\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"I'd like to review my grade.\"",["J'aimerais éclaircir mon horaire.", "J'aimerais comprendre le sujet.", "J'aimerais avoir un bureau.", "J'aimerais revoir ma note."],3,"\"J'aimerais revoir ma note\" es una petición educada."],
-      ["arrange","Ordena: [point / ce / pourriez-vous / éclaircir / m']",["ce vous Pourriez m'éclaircir point", "vous point ce Pourriez m'éclaircir", "Pourriez vous m'éclaircir ce point", "vous m'éclaircir ce point Pourriez"],2,"Verbo modal + verbo + demostrativo + sustantivo."],
+      ["arrange","Ordena: [point / ce / pourriez-vous / m'éclaircir]",["Pourriez-vous m'éclaircir ce point","m'éclaircir point ce Pourriez-vous","point m'éclaircir ce Pourriez-vous","m'éclaircir ce point Pourriez-vous"],0,"Verbo modal + verbo + demostrativo + sustantivo."],
       ["speaking","Pide a tu profesor que te aclare una duda sobre un tema de clase (30-40 palabras).",[],["pourriez-vous m'éclaircir", "je n'ai pas bien compris", "merci"]],
     ]
   },
@@ -7744,8 +7744,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en alemán?",["Ist das Frühstück inbegriffen?", "ich habe eine Reservierung auf den Namen...", "Ich habe eine Reservierung auf den Namen...", "Wie lautet das WLAN-Passwort?"],1,"\"Auf den Namen\" indica de quién es la reserva."],
-      ["mcq","¿Cómo se dice \"Is breakfast included?\" en alemán?",["Ich brauche einen weiteren Schlüssel", "ist das Frühstück inbegriffen?", "Ich habe eine Reservierung auf den Namen...", "Ist das Frühstück inbegriffen?"],1,"Se pregunta si el precio incluye el desayuno."],
+      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en alemán?",["Ist das Frühstück inbegriffen?","Wann ist der Check-in?","Ich habe eine Reservierung auf den Namen...","Wie lautet das WLAN-Passwort?"],2,"\"Auf den Namen\" indica de quién es la reserva."],
+      ["mcq","¿Cómo se dice \"Is breakfast included?\" en alemán?",["Ich brauche einen weiteren Schlüssel","Wann ist der Check-in?","Ich habe eine Reservierung auf den Namen...","Ist das Frühstück inbegriffen?"],3,"Se pregunta si el precio incluye el desayuno."],
       ["fill","Completa: “Ich habe eine Reservierung auf den ___ García.”",["Schlüssel", "Namen", "Passwort", "Zeit"],1,"\"Auf den Namen\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Ich brauche ein weiteres Frühstück.", "Ich brauche einen weiteren Schlüssel.", "Ich brauche ein weiteres Zimmer.", "Ich brauche eine weitere Reservierung."],1,"\"Einen weiteren Schlüssel\" pide una llave adicional."],
       ["arrange","Ordena: [Schlüssel / brauche / weiteren / ich / einen]",["weiteren brauche Schlüssel Ich einen", "Ich brauche einen weiteren Schlüssel", "Schlüssel Ich weiteren brauche einen", "weiteren Ich Schlüssel einen brauche"],1,"Verbo + artículo + adjetivo + sustantivo."],
@@ -7768,7 +7768,7 @@ window.SITUATION_LESSON_BANKS.DE = {
     },
     ex:[
       ["mcq","¿Cómo se dice \"Your room is 305\" en alemán?",["Ja, auf den Namen López", "Der Aufzug ist rechts", "Ihr Zimmer ist die 305", "Genießen Sie Ihren Aufenthalt"],2,"\"Ihr\" es el posesivo formal."],
-      ["mcq","¿Cómo se dice \"Enjoy your stay\" en alemán?",["genießen Sie Ihren Aufenthalt", "Ja, auf den Namen López", "Ihr Zimmer ist die 305", "Genießen Sie Ihren Aufenthalt"],0,"Frase típica de despedida en recepción."],
+      ["mcq","¿Cómo se dice \"Enjoy your stay\" en alemán?",["Guten Tag, haben Sie eine Reservierung?","Ja, auf den Namen López","Ihr Zimmer ist die 305","Genießen Sie Ihren Aufenthalt"],3,"Frase típica de despedida en recepción."],
       ["fill","Completa: “___ Zimmer ist die 305.”",["Das", "Ihr", "Dein", "Mein"],1,"\"Ihr\" es el posesivo formal para \"Sie\"."],
       ["translate","Traduce: \"The elevator is to the right.\"",["Der Schlüssel ist rechts.", "Das Zimmer ist rechts.", "Der Aufzug ist rechts.", "Die Rezeption ist rechts."],2,"\"Rechts\" indica dirección."],
       ["arrange","Ordena: [Aufzug / der / rechts / ist]",["ist Der rechts Aufzug", "ist Der Aufzug rechts", "ist Aufzug rechts Der", "Der Aufzug ist rechts"],3,"Artículo + sustantivo + verbo + adverbio."],
@@ -8053,8 +8053,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"How much does this cost?\" en alemán?",["Ich nehme es", "wie viel kostet das?", "Wie viel kostet das?", "Ich möchte ein halbes Kilo"],1,"Pregunta básica de precio."],
-      ["mcq","¿Cómo se dice \"I'll take it\" en alemán?",["Wie viel kostet das?", "Ich möchte ein halbes Kilo", "ich nehme es", "Ich nehme es"],2,"Se usa para confirmar la compra."],
+      ["mcq","¿Cómo se dice \"How much does this cost?\" en alemán?",["Ich nehme es","Haben Sie etwas Frischeres?","Wie viel kostet das?","Ich möchte ein halbes Kilo"],2,"Pregunta básica de precio."],
+      ["mcq","¿Cómo se dice \"I'll take it\" en alemán?",["Wie viel kostet das?","Ich möchte ein halbes Kilo","Haben Sie etwas Frischeres?","Ich nehme es"],3,"Se usa para confirmar la compra."],
       ["fill","Completa: “___ kostet das Kilo Äpfel?”",["Wo", "Welche", "Wie viel", "Was"],2,"\"Wie viel kostet\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Ich möchte ein halbes Kilo.", "Ich möchte es nehmen.", "Ich möchte etwas Frischeres.", "Ich möchte ein ganzes Kilo."],0,"\"Ein halbes Kilo\" es 500 gramos."],
       ["arrange","Ordena: [nehme / es / ich]",["es Ich nehme", "es nehme Ich", "nehme Ich es", "Ich nehme es"],3,"Sujeto + verbo + pronombre."],
@@ -8383,7 +8383,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Please take a seat\" en alemán?",["Guten Tag, haben Sie einen Termin?", "bitte nehmen Sie Platz", "Der Arzt wird Sie bald empfangen", "Bitte nehmen Sie Platz"],1,"Imperativo formal con \"Sie\"."],
+      ["mcq","¿Cómo se dice \"Please take a seat\" en alemán?",["Guten Tag, haben Sie einen Termin?","kann ich Ihre Versicherungskarte haben?","Der Arzt wird Sie bald empfangen","Bitte nehmen Sie Platz"],3,"Imperativo formal con \"Sie\"."],
       ["mcq","¿Cómo se dice \"Can I have your insurance card?\" en alemán?",["kann ich Ihre Versicherungskarte haben?", "Guten Tag, haben Sie einen Termin?", "Ja, um 10 Uhr bei Dr. Ruiz", "Der Arzt wird Sie bald empfangen"],0,"Se pide el documento del seguro médico."],
       ["fill","Completa: “Der Arzt wird Sie bald ___.”",["nehmen", "empfangen", "sein", "haben"],1,"\"Wird empfangen\" es el futuro de \"empfangen\"."],
       ["translate","Traduce: \"Yes, at 10 with Dr. Ruiz.\"",["Ja, um 10 Uhr im Wartezimmer.", "Ja, ich habe einen Termin mit der Versicherung.", "Ja, um 10 Uhr bei Dr. Ruiz.", "Ja, nehmen Sie Platz bei Dr. Ruiz."],2,"\"Um 10 Uhr bei Dr. Ruiz\" indica hora y médico."],
@@ -8667,8 +8667,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en alemán?",["Ich habe die Datei angehängt", "Danke für Ihre Geduld", "Können wir eine Besprechung ansetzen?", "können wir eine Besprechung ansetzen?"],3,"\"Ansetzen\" es programar en la agenda."],
-      ["mcq","¿Cómo se dice \"I've attached the file\" en alemán?",["ich habe die Datei angehängt", "Ich habe die Datei angehängt", "Danke für Ihre Geduld", "Können wir eine Besprechung ansetzen?"],0,"Frase típica en correos de trabajo."],
+      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en alemán?",["Ich habe die Datei angehängt","Danke für Ihre Geduld","Können wir eine Besprechung ansetzen?","Ich werde mehr Zeit brauchen"],2,"\"Ansetzen\" es programar en la agenda."],
+      ["mcq","¿Cómo se dice \"I've attached the file\" en alemán?",["Ich werde mehr Zeit brauchen","Ich habe die Datei angehängt","Danke für Ihre Geduld","Können wir eine Besprechung ansetzen?"],1,"Frase típica en correos de trabajo."],
       ["fill","Completa: “___ wir eine Besprechung ansetzen für morgen?”",["Habe", "Werde", "Danke", "Können"],3,"\"Können wir...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Ich werde die Datei anhängen.", "Ich werde Ihre Geduld danken.", "Ich werde eine Besprechung ansetzen.", "Ich werde mehr Zeit brauchen."],3,"\"Ich werde brauchen\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [angehängt / Datei / die / habe / ich]",["Ich habe die Datei angehängt", "die habe Datei angehängt Ich", "die angehängt habe Datei Ich", "habe Datei die angehängt Ich"],0,"Verbo auxiliar + artículo + sustantivo + participio."],
@@ -8689,8 +8689,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en alemán?",["Hast du eine Minute?", "Ich erkläre es dir sofort", "klar, wie kann ich helfen?", "Klar, wie kann ich helfen?"],2,"Respuesta típica al ofrecer ayuda."],
-      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en alemán?",["Klar, wie kann ich helfen?", "Ich weiß nicht, wie man dieses Programm benutzt", "ich weiß nicht, wie man dieses Programm benutzt", "Ich erkläre es dir sofort"],2,"Frase para pedir ayuda con una herramienta."],
+      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en alemán?",["Hast du eine Minute?","Ich erkläre es dir sofort","ich weiß nicht, wie man dieses Programm benutzt","Klar, wie kann ich helfen?"],3,"Respuesta típica al ofrecer ayuda."],
+      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en alemán?",["Klar, wie kann ich helfen?","Ich weiß nicht, wie man dieses Programm benutzt","Hast du eine Minute?","Ich erkläre es dir sofort"],1,"Frase para pedir ayuda con una herramienta."],
       ["fill","Completa: “___ du eine Minute? Ich brauche deine Hilfe.”",["Kannst", "Weißt", "Erklärst", "Hast"],3,"\"Hast du eine Minute?\" pide atención breve."],
       ["translate","Traduce: \"I'll explain it to you right now.\"",["Ich schicke es dir sofort.", "Ich frage dich sofort.", "Ich erkläre es dir sofort.", "Ich helfe dir sofort."],2,"\"Sofort\" indica inmediatez."],
       ["arrange","Ordena: [helfen / kann / ich / wie]",["Wie kann ich helfen", "Wie ich helfen kann", "kann Wie helfen ich", "helfen ich Wie kann"],0,"Interrogativo + verbo + pronombre + verbo."],
@@ -8734,8 +8734,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I'm writing to...\" en alemán?",["Ich freue mich auf Ihre Antwort", "Ich schreibe Ihnen, um...", "Sehr geehrte/r...", "ich schreibe Ihnen, um..."],3,"Frase estándar para iniciar un correo formal."],
-      ["mcq","¿Cómo se dice \"Best regards\" en alemán?",["Ich freue mich auf Ihre Antwort", "mit freundlichen Grüßen", "Mit freundlichen Grüßen", "Ich schreibe Ihnen, um..."],1,"Fórmula típica de despedida en correos formales."],
+      ["mcq","¿Cómo se dice \"I'm writing to...\" en alemán?",["Ich freue mich auf Ihre Antwort","Ich schreibe Ihnen, um...","Sehr geehrte/r...","mit freundlichen Grüßen"],1,"Frase estándar para iniciar un correo formal."],
+      ["mcq","¿Cómo se dice \"Best regards\" en alemán?",["Ich freue mich auf Ihre Antwort","Sehr geehrte/r...","Mit freundlichen Grüßen","Ich schreibe Ihnen, um..."],2,"Fórmula típica de despedida en correos formales."],
       ["fill","Completa: “___ geehrter Herr López, ich schreibe Ihnen, um die Besprechung zu bestätigen.”",["Sehr", "Freue", "Grüßen", "Freundlichen"],0,"\"Sehr geehrte/r\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Mit freundlichen Grüßen auf Ihre Antwort.", "Ich freue mich auf Ihre Antwort.", "Sehr geehrte Antwort.", "Ich schreibe Ihnen auf Ihre Antwort."],1,"\"Ich freue mich auf\" es una despedida formal común."],
       ["arrange","Ordena: [Grüßen / freundlichen / mit]",["Grüßen Mit freundlichen", "Mit Grüßen freundlichen", "Mit freundlichen Grüßen", "freundlichen Grüßen Mit"],2,"Preposición + adjetivo + sustantivo."],
@@ -8971,8 +8971,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"So nice to see you!\" en alemán?",["Alles Gute zum Geburtstag!", "Woher kennst du den Gastgeber?", "Schön, dich zu sehen!", "schön, dich zu sehen!"],3,"Expresa alegría al ver a alguien."],
-      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en alemán?",["danke, dass du mich eingeladen hast", "Danke, dass du mich eingeladen hast", "Schön, dich zu sehen!", "Alles Gute zum Geburtstag!"],0,"Frase educada al llegar a una fiesta."],
+      ["mcq","¿Cómo se dice \"So nice to see you!\" en alemán?",["Alles Gute zum Geburtstag!","Woher kennst du den Gastgeber?","Schön, dich zu sehen!","danke, dass du mich eingeladen hast"],2,"Expresa alegría al ver a alguien."],
+      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en alemán?",["Woher kennst du den Gastgeber?","Danke, dass du mich eingeladen hast","Schön, dich zu sehen!","Alles Gute zum Geburtstag!"],1,"Frase educada al llegar a una fiesta."],
       ["fill","Completa: “___, dich zu sehen! Das ist schon lange her.”",["Geburtstag", "Eingeladen", "Kennst", "Schön"],3,"\"Schön, dich zu sehen!\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Woher kennst du den Gastgeber?", "Woher kennst du die Musik?", "Woher kennst du das Geschenk?", "Woher kennst du den Gast?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [Gastgeber / kennst / den / woher / du]",["Woher du den kennst Gastgeber", "kennst Woher du den Gastgeber", "Woher kennst du den Gastgeber", "den Gastgeber Woher kennst du"],2,"Interrogativo + verbo + pronombre + artículo + sustantivo."],
@@ -8993,8 +8993,8 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en alemán?",["hallo, wir kennen uns noch nicht, ich bin Ana", "Was machst du beruflich?", "Ich bin Grafikdesignerin", "Hallo, wir kennen uns noch nicht, ich bin Ana"],0,"Forma natural de presentarse a alguien nuevo."],
-      ["mcq","¿Cómo se dice \"What do you do?\" en alemán?",["Was machst du beruflich?", "Ich bin Grafikdesignerin", "Hallo, wir kennen uns noch nicht, ich bin Ana", "was machst du beruflich?"],3,"Pregunta común para conocer la profesión de alguien."],
+      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en alemán?",["Freut mich, ich bin Marco","Was machst du beruflich?","Ich bin Grafikdesignerin","Hallo, wir kennen uns noch nicht, ich bin Ana"],3,"Forma natural de presentarse a alguien nuevo."],
+      ["mcq","¿Cómo se dice \"What do you do?\" en alemán?",["Was machst du beruflich?","Ich bin Grafikdesignerin","Hallo, wir kennen uns noch nicht, ich bin Ana","Freut mich, ich bin Marco"],0,"Pregunta común para conocer la profesión de alguien."],
       ["fill","Completa: “Hallo, wir kennen uns noch ___, ich bin Ana.”",["beruflich", "bin", "freut", "nicht"],3,"\"Wir kennen uns noch nicht\" indica que es la primera vez que se hablan."],
       ["translate","Traduce: \"I'm a graphic designer.\"",["Ich mache beruflich Partys.", "Ich bin Gastgeberin für Grafik.", "Ich bin Grafikdesignerin.", "Wir kennen uns noch nicht, Grafik."],2,"\"Ich bin Grafikdesignerin\" indica tu profesión."],
       ["arrange","Ordena: [beruflich / machst / du / was]",["Was du machst beruflich", "Was machst du beruflich", "du machst beruflich Was", "beruflich du Was machst"],1,"Interrogativo + verbo + pronombre + adverbio."],
@@ -9298,7 +9298,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I need my transcript\" en alemán?",["ich brauche mein Notenzeugnis", "Kann ich Ihre Matrikelnummer haben?", "Das wird in drei Tagen fertig sein", "Ich brauche mein Notenzeugnis"],0,"Es el documento con tus calificaciones."],
+      ["mcq","¿Cómo se dice \"I need my transcript\" en alemán?",["Guten Tag, wie kann ich Ihnen helfen?","Kann ich Ihre Matrikelnummer haben?","Das wird in drei Tagen fertig sein","Ich brauche mein Notenzeugnis"],3,"Es el documento con tus calificaciones."],
       ["mcq","¿Cómo se dice \"it'll be ready in three days\" en alemán?",["Ich brauche mein Notenzeugnis", "Guten Tag, wie kann ich Ihnen helfen?", "das wird in drei Tagen fertig sein", "Kann ich Ihre Matrikelnummer haben?"],2,"Futuro simple para indicar un plazo."],
       ["fill","Completa: “Ihr Zeugnis ___ in drei Tagen fertig sein.”",["braucht", "ist", "kann", "wird"],3,"\"Wird fertig sein\" es futuro simple del verbo \"sein\"."],
       ["translate","Traduce: \"Can I have your student number?\"",["Kann ich Ihre Matrikelnummer haben?", "Kann ich Ihre Frist haben?", "Kann ich Ihr Notenzeugnis haben?", "Kann ich Ihr Formular haben?"],0,"Se pide el número de identificación del estudiante."],
@@ -9565,7 +9565,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"boarding gate\" en italiano?",["il volo", "la valigia", "la dogana", "il gate d'imbarco"],3,"\"Il gate d'imbarco\" es masculino."],
       ["fill","Completa: “Devo mostrare ___ per passare il controllo.”",["la dogana", "il passaporto", "la valigia", "il volo"],1,"El documento de identidad para viajar es \"il passaporto\"."],
       ["translate","Traduce: \"Where is my suitcase?\"",["Dov'è la dogana?", "Dov'è la mia valigia?", "Dov'è il mio volo?", "Dov'è il mio passaporto?"],1,"\"Valigia\" es \"suitcase\" en italiano."],
-      ["arrange","Ordena: [passaporto / mio / è / questo]",["Questo è il mio passaporto", "mio è il Questo passaporto", "mio passaporto il Questo è", "Questo passaporto il è mio"],0,"Demostrativo + verbo + posesivo + sustantivo."],
+      ["arrange","Ordena: [passaporto / mio / è / questo / il]",["Questo è il mio passaporto","mio è il Questo passaporto","mio passaporto il Questo è","Questo passaporto il è mio"],0,"Demostrativo + verbo + posesivo + sustantivo."],
       ["speaking","Imagina que estás en el aeropuerto. Di en italiano (25-35 palabras) qué llevas en tu maleta y a qué puerta debes ir.",[],["la mia valigia", "il gate", "il volo"]],
     ]
   },
@@ -9586,7 +9586,7 @@ window.SITUATION_LESSON_BANKS.IT = {
     },
     ex:[
       ["mcq","¿Cómo se dice \"I'd like to check my bag\" en italiano?",["vorrei imbarcare la valigia", "Qual è il mio gate d'imbarco?", "Ecco il mio passaporto", "A che ora parte il volo?"],0,"\"Imbarcare\" es el verbo para facturar equipaje."],
-      ["mcq","¿Cómo se dice \"What time does the flight leave?\" en italiano?",["a che ora parte il volo?", "Ecco il mio passaporto", "Qual è il mio gate d'imbarco?", "A che ora parte il volo?"],0,"\"Partire\" se usa para vuelos que salen."],
+      ["mcq","¿Cómo se dice \"What time does the flight leave?\" en italiano?",["vorrei imbarcare la valigia","Ecco il mio passaporto","Qual è il mio gate d'imbarco?","A che ora parte il volo?"],3,"\"Partire\" se usa para vuelos que salen."],
       ["fill","Completa: “___ imbarcare la valigia, per favore.”",["Ho", "Vorrei", "Il volo", "Posso"],1,"\"Vorrei\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Ecco il mio volo.", "Qual è il mio passaporto?", "Ecco la mia valigia.", "Ecco il mio passaporto."],3,"\"Ecco\" presenta algo que entregas."],
       ["arrange","Ordena: [valigia / imbarcare / la / vorrei]",["Vorrei la valigia imbarcare", "Vorrei la imbarcare valigia", "Vorrei valigia imbarcare la", "Vorrei imbarcare la valigia"],3,"\"Vorrei\" + verbo + artículo + sustantivo."],
@@ -9608,7 +9608,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"How many bags will you check?\" en italiano?",["Solo una, grazie", "quante valigie imbarca?", "Finestrino o corridoio?", "Quante valigie imbarca?"],1,"\"Quante\" concuerda con \"valigie\" (femenino)."],
+      ["mcq","¿Cómo se dice \"How many bags will you check?\" en italiano?",["Solo una, grazie","Buongiorno, il passaporto per favore?","Finestrino o corridoio?","Quante valigie imbarca?"],3,"\"Quante\" concuerda con \"valigie\" (femenino)."],
       ["mcq","¿Cómo se dice \"Window or aisle?\" en italiano?",["Buongiorno, il passaporto per favore?", "finestrino o corridoio?", "Il suo volo parte alle 10", "Quante valigie imbarca?"],1,"Pregunta típica sobre el asiento en el avión."],
       ["fill","Completa: “___ valigie imbarca?”",["Dove", "Quante", "Quale", "Quanti"],1,"\"Quante\" concuerda en femenino con \"valigie\"."],
       ["translate","Traduce: \"Just one, thanks.\"",["Solo una, grazie.", "Solo il passaporto, grazie.", "Solo uno, grazie.", "Solo due, grazie."],0,"\"Una\" concuerda en femenino con \"valigia\"."],
@@ -9637,7 +9637,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"baggage claim\" en italiano?",["il bagaglio a mano", "il ritiro bagagli", "il bagaglio imbarcato", "in sovrappeso"],1,"Es la zona donde recoges tus maletas."],
       ["fill","Completa: “Dov'è il ___ bagagli?”",["fragile", "sovrappeso", "ritiro", "imbarcato"],2,"\"Ritiro bagagli\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["La mia valigia è in sovrappeso.", "La mia valigia è smarrita.", "La mia valigia è a mano.", "La mia valigia contiene oggetti fragili."],3,"\"Fragile\" describe objetos que se rompen fácilmente."],
-      ["arrange","Ordena: [smarrito / è / mio / bagaglio]",["è bagaglio smarrito Il mio", "smarrito bagaglio mio è Il", "è bagaglio Il mio smarrito", "Il mio bagaglio è smarrito"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
+      ["arrange","Ordena: [smarrito / è / mio / bagaglio / il]",["è bagaglio smarrito Il mio","smarrito bagaglio mio è Il","è bagaglio Il mio smarrito","Il mio bagaglio è smarrito"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
     ]
   },
   {
@@ -9779,7 +9779,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"tracking number\" en italiano?",["il risarcimento per il ritardo", "il modulo di reclamo bagagli", "il numero di tracciamento", "il mio bagaglio non è arrivato"],2,"Sirve para seguir el estado del reclamo."],
       ["fill","Completa: “Devo compilare il modulo di ___ bagagli.”",["danno", "reclamo", "tracciamento", "risarcimento"],1,"\"Modulo di reclamo\" es el documento para reportar el problema."],
       ["translate","Traduce: \"My luggage hasn't arrived yet.\"",["Il mio bagaglio non è ancora arrivato.", "Il mio bagaglio non è mai stato imbarcato.", "Il mio bagaglio è arrivato presto.", "Il mio bagaglio è molto pesante."],0,"\"Non è ancora arrivato\" = pasado próximo negativo con \"ancora\"."],
-      ["arrange","Ordena: [danneggiata / valigia / mia / è / arrivata]",["La mia valigia danneggiata è arrivata", "valigia arrivata La mia danneggiata è", "arrivata La danneggiata è valigia mia", "valigia danneggiata mia La arrivata è"],0,"Artículo + posesivo + adjetivo + sustantivo + verbo."],
+      ["arrange","Ordena: [danneggiata / valigia / mia / è / arrivata / la]",["La mia valigia è arrivata danneggiata","La è valigia danneggiata mia arrivata","valigia arrivata mia La è danneggiata","valigia è danneggiata mia La arrivata"],0,"Artículo + posesivo + adjetivo + sustantivo + verbo."],
       ["writing","Escribe en italiano (40-60 palabras) un reporte breve explicando que tu maleta llegó dañada, qué contenía de valor y qué compensación esperas.",[],["danneggiata", "risarcimento", "mi aspetto"]],
     ]
   },
@@ -10188,7 +10188,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"the reservation\" en italiano?",["la chiave", "la reception", "il bagaglio", "la prenotazione"],3,"\"La prenotazione\" es lo que haces antes de llegar."],
       ["fill","Completa: “Ho una ___ a nome García.”",["chiave", "reception", "camera", "prenotazione"],3,"\"Una prenotazione a nome di...\" es la frase típica al llegar."],
       ["translate","Traduce: \"Where is the front desk?\"",["Dov'è la reception?", "Dov'è la mia chiave?", "Dov'è la colazione?", "Dov'è la mia camera?"],0,"\"La reception\" es donde te registras al llegar."],
-      ["arrange","Ordena: [chiave / mia / è / questa]",["Questa mia è la chiave", "Questa è la mia chiave", "chiave Questa mia la è", "Questa mia la chiave è"],1,"Demostrativo + verbo + posesivo + sustantivo."],
+      ["arrange","Ordena: [chiave / mia / è / questa / la]",["Questa mia è la chiave","Questa è la mia chiave","chiave Questa mia la è","Questa mia la chiave è"],1,"Demostrativo + verbo + posesivo + sustantivo."],
       ["speaking","Imagina que llegas al hotel. Di en italiano (25-35 palabras) que tienes una reserva y pide tu llave.",[],["ho una prenotazione", "la mia chiave", "camera"]],
     ]
   },
@@ -10208,11 +10208,11 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en italiano?",["La colazione è inclusa?", "ho una prenotazione a nome di...", "Ho una prenotazione a nome di...", "Qual è la password del wifi?"],1,"\"A nome di\" indica de quién es la reserva."],
-      ["mcq","¿Cómo se dice \"Is breakfast included?\" en italiano?",["Ho bisogno di un'altra chiave", "la colazione è inclusa?", "Ho una prenotazione a nome di...", "La colazione è inclusa?"],1,"Se pregunta si el precio incluye el desayuno."],
+      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en italiano?",["La colazione è inclusa?","A che ora è il check-in?","Ho una prenotazione a nome di...","Qual è la password del wifi?"],2,"\"A nome di\" indica de quién es la reserva."],
+      ["mcq","¿Cómo se dice \"Is breakfast included?\" en italiano?",["Ho bisogno di un'altra chiave","A che ora è il check-in?","Ho una prenotazione a nome di...","La colazione è inclusa?"],3,"Se pregunta si el precio incluye el desayuno."],
       ["fill","Completa: “Ho una prenotazione a ___ di García.”",["chiave", "nome", "password", "ora"],1,"\"A nome di\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Ho bisogno di un'altra colazione.", "Ho bisogno di un'altra chiave.", "Ho bisogno di un'altra camera.", "Ho bisogno di un'altra prenotazione."],1,"\"Un'altra chiave\" pide una llave adicional."],
-      ["arrange","Ordena: [chiave / bisogno / altra / di / ho / un']",["un'altra bisogno chiave Ho di", "Ho bisogno di un'altra chiave", "chiave Ho un'altra bisogno di", "un'altra Ho chiave di bisogno"],1,"Verbo + sustantivo + preposición + adjetivo + sustantivo."],
+      ["arrange","Ordena: [chiave / bisogno / di / ho / un'altra]",["un'altra bisogno chiave Ho di","Ho bisogno di un'altra chiave","chiave Ho un'altra bisogno di","un'altra Ho chiave di bisogno"],1,"Verbo + sustantivo + preposición + adjetivo + sustantivo."],
     ]
   },
   {
@@ -10231,8 +10231,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Your room is 305\" en italiano?",["L'ascensore è a destra", "Sì, a nome López", "La sua camera è la 305", "la sua camera è la 305"],3,"\"Sua\" es el posesivo formal."],
-      ["mcq","¿Cómo se dice \"Enjoy your stay\" en italiano?",["Buonasera, ha una prenotazione?", "le auguro un buon soggiorno", "L'ascensore è a destra", "Le auguro un buon soggiorno"],1,"Frase típica de despedida en recepción."],
+      ["mcq","¿Cómo se dice \"Your room is 305\" en italiano?",["L'ascensore è a destra","Sì, a nome López","La sua camera è la 305","le auguro un buon soggiorno"],2,"\"Sua\" es el posesivo formal."],
+      ["mcq","¿Cómo se dice \"Enjoy your stay\" en italiano?",["Buonasera, ha una prenotazione?","la sua camera è la 305","L'ascensore è a destra","Le auguro un buon soggiorno"],3,"Frase típica de despedida en recepción."],
       ["fill","Completa: “___ camera è la 305.”",["La mia", "La tua", "La", "La sua"],3,"\"Sua\" es el posesivo formal para \"Lei\"."],
       ["translate","Traduce: \"The elevator is to the right.\"",["La chiave è a destra.", "L'ascensore è a destra.", "La camera è a destra.", "La reception è a destra."],1,"\"A destra\" indica dirección."],
       ["arrange","Ordena: [destra / è / a]",["destra a È", "a destra È", "È destra a", "È a destra"],3,"Verbo + preposición + sustantivo."],
@@ -10260,7 +10260,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"wake-up call\" en italiano?",["la palestra", "la sveglia telefonica", "la lavanderia", "il servizio in camera"],1,"Es una llamada para despertarte a cierta hora."],
       ["fill","Completa: “C'è una ___ nell'hotel? Voglio nuotare domani.”",["lavanderia", "piscina", "palestra", "parcheggio"],1,"\"Piscina\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["C'è una palestra disponibile?", "C'è un servizio in camera disponibile?", "C'è un parcheggio disponibile?", "C'è una piscina disponibile?"],2,"\"C'è...disponibile?\" pregunta por disponibilidad de un servicio."],
-      ["arrange","Ordena: [piscina / una / c'è / hotel / nell']",["C'è una piscina nell'hotel", "nell'hotel C'è una piscina", "nell'hotel una C'è piscina", "C'è nell'hotel piscina una"],0,"Verbo + artículo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [piscina / una / c'è / nell'hotel]",["C'è una piscina nell'hotel","nell'hotel C'è una piscina","nell'hotel una C'è piscina","C'è nell'hotel piscina una"],0,"Verbo + artículo + sustantivo + preposición + sustantivo."],
     ]
   },
   {
@@ -10517,8 +10517,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"How much does this cost?\" en italiano?",["Lo prendo", "quanto costa questo?", "Quanto costa questo?", "Voglio mezzo chilo"],1,"Pregunta básica de precio."],
-      ["mcq","¿Cómo se dice \"I'll take it\" en italiano?",["Quanto costa questo?", "Voglio mezzo chilo", "lo prendo", "Lo prendo"],2,"Se usa para confirmar la compra."],
+      ["mcq","¿Cómo se dice \"How much does this cost?\" en italiano?",["Lo prendo","Ha qualcosa di più fresco?","Quanto costa questo?","Voglio mezzo chilo"],2,"Pregunta básica de precio."],
+      ["mcq","¿Cómo se dice \"I'll take it\" en italiano?",["Quanto costa questo?","Voglio mezzo chilo","Ha qualcosa di più fresco?","Lo prendo"],3,"Se usa para confirmar la compra."],
       ["fill","Completa: “___ costa il chilo di mele?”",["Dove", "Quale", "Quanto", "Cosa"],2,"\"Quanto costa\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Voglio mezzo chilo.", "Voglio prenderlo.", "Voglio qualcosa di più fresco.", "Voglio un chilo intero."],0,"\"Mezzo chilo\" es 500 gramos."],
       ["arrange","Ordena: [subito / prendo / lo]",["subito Lo prendo", "subito prendo Lo", "prendo Lo subito", "Lo prendo subito"],3,"Pronombre + verbo + adverbio."],
@@ -10847,7 +10847,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Please take a seat\" en italiano?",["Buongiorno, ha un appuntamento?", "si accomodi, per favore", "Il dottore la riceverà a breve", "Si accomodi, per favore"],1,"Imperativo formal con \"Lei\"."],
+      ["mcq","¿Cómo se dice \"Please take a seat\" en italiano?",["Buongiorno, ha un appuntamento?","posso avere la sua tessera sanitaria?","Il dottore la riceverà a breve","Si accomodi, per favore"],3,"Imperativo formal con \"Lei\"."],
       ["mcq","¿Cómo se dice \"Can I have your insurance card?\" en italiano?",["posso avere la sua tessera sanitaria?", "Buongiorno, ha un appuntamento?", "Sì, alle 10 con il Dr. Ruiz", "Il dottore la riceverà a breve"],0,"Se pide el documento del seguro médico."],
       ["fill","Completa: “Il dottore la ___ a breve.”",["accomoderà", "riceverà", "sarà", "avrà"],1,"\"Riceverà\" es el futuro de \"ricevere\"."],
       ["translate","Traduce: \"Yes, at 10 with Dr. Ruiz.\"",["Sì, alle 10 nella sala d'attesa.", "Sì, ho un appuntamento con l'assicurazione.", "Sì, alle 10 con il Dr. Ruiz.", "Sì, si accomodi con il Dr. Ruiz."],2,"\"Alle 10 con il Dr. Ruiz\" indica hora y médico."],
@@ -10896,7 +10896,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"he/she lost consciousness\" en italiano?",["è un'emergenza", "ho bisogno di un'ambulanza", "ha perso conoscenza", "sta sanguinando molto"],2,"Describe que la persona se desmayó."],
       ["fill","Completa: “È un'emergenza! Ho ___ di un'ambulanza.”",["è", "perso", "sanguinando", "bisogno"],3,"\"Ho bisogno di un'ambulanza\" pide ayuda urgente."],
       ["translate","Traduce: \"He is bleeding a lot, please hurry.\"",["È un'emergenza, ho bisogno di un medico.", "Sta sanguinando molto, per favore si sbrighi.", "Ha perso conoscenza, per favore si sbrighi.", "Ho bisogno di un'ambulanza, per favore."],1,"\"Sta sanguinando molto\" describe la gravedad de la herida."],
-      ["arrange","Ordena: [ambulanza / bisogno / un' / di / ho]",["un'ambulanza di bisogno Ho", "Ho bisogno di un'ambulanza", "Ho un'ambulanza bisogno di", "di bisogno Ho un'ambulanza"],1,"Verbo + sustantivo + preposición + artículo + sustantivo."],
+      ["arrange","Ordena: [bisogno / di / ho / un'ambulanza]",["un'ambulanza di bisogno Ho","Ho bisogno di un'ambulanza","Ho un'ambulanza bisogno di","di bisogno Ho un'ambulanza"],1,"Verbo + sustantivo + preposición + artículo + sustantivo."],
       ["speaking","Simula que llamas para reportar una emergencia médica. Explica en italiano (30-40 palabras) la situación con claridad.",[],["è un'emergenza", "ho bisogno di un'ambulanza", "sta"]],
     ]
   },
@@ -10965,7 +10965,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"to see a cardiologist\" en italiano?",["un'impegnativa per uno specialista", "vedere un cardiologo", "una seconda visita", "portare i risultati delle analisi"],1,"\"Cardiologo\" es el especialista del corazón."],
       ["fill","Completa: “Il medico mi ha dato un'___ per vedere uno specialista.”",["risultato", "impegnativa", "visita", "lista"],1,"\"Impegnativa\" es el documento de referencia médica."],
       ["translate","Traduce: \"I need to bring my test results to the second consultation.\"",["Ho bisogno di un'impegnativa per portare i risultati.", "Devo vedere uno specialista per la mia visita.", "Devo aspettare i risultati delle analisi.", "Devo portare i risultati delle analisi alla seconda visita."],3,"\"Portare i risultati delle analisi\" + \"alla seconda visita\"."],
-      ["arrange","Ordena: [specialista / uno / per / impegnativa / un' / bisogno / ho / di]",["Ho bisogno di un impegnativa per uno specialista", "specialista per un di uno impegnativa bisogno Ho", "Ho impegnativa uno un specialista bisogno di per", "specialista Ho uno un bisogno impegnativa di per"],0,"\"Ho bisogno di\" + artículo + sustantivo + preposición + artículo + sustantivo."],
+      ["arrange","Ordena: [specialista / uno / per / bisogno / ho / di / un'impegnativa]",["Ho bisogno di un'impegnativa per uno specialista","per un'impegnativa Ho specialista di uno bisogno","Ho un'impegnativa uno per di specialista bisogno","Ho specialista di uno un'impegnativa bisogno per"],0,"\"Ho bisogno di\" + artículo + sustantivo + preposición + artículo + sustantivo."],
       ["speaking","Explica en italiano (30-40 palabras) que tu médico te dio una derivación y pregunta cuánto tiempo tardará la cita con el especialista.",[],["impegnativa", "quanto tempo", "specialista"]],
     ]
   },
@@ -11131,8 +11131,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en italiano?",["Ho allegato il file", "Grazie per la sua pazienza", "Possiamo organizzare una riunione?", "possiamo organizzare una riunione?"],3,"\"Organizzare\" es programar en la agenda."],
-      ["mcq","¿Cómo se dice \"I've attached the file\" en italiano?",["ho allegato il file", "Ho allegato il file", "Grazie per la sua pazienza", "Possiamo organizzare una riunione?"],0,"Frase típica en correos de trabajo."],
+      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en italiano?",["Ho allegato il file","Grazie per la sua pazienza","Possiamo organizzare una riunione?","Avrò bisogno di più tempo"],2,"\"Organizzare\" es programar en la agenda."],
+      ["mcq","¿Cómo se dice \"I've attached the file\" en italiano?",["Avrò bisogno di più tempo","Ho allegato il file","Grazie per la sua pazienza","Possiamo organizzare una riunione?"],1,"Frase típica en correos de trabajo."],
       ["fill","Completa: “___ organizzare una riunione per domani?”",["Ho allegato", "Avrò", "Grazie", "Possiamo"],3,"\"Possiamo...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Allegherò il file.", "Ringrazierò la sua pazienza.", "Organizzerò una riunione.", "Avrò bisogno di più tempo."],3,"\"Avrò bisogno\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [file / allegato / il / ho]",["allegato file il Ho", "Ho allegato il file", "file allegato il Ho", "Ho file il allegato"],1,"Verbo auxiliar + participio + artículo + sustantivo."],
@@ -11153,8 +11153,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en italiano?",["Hai un minuto?", "Te lo spiego subito", "certo, come posso aiutarti?", "Certo, come posso aiutarti?"],2,"Respuesta típica al ofrecer ayuda."],
-      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en italiano?",["Certo, come posso aiutarti?", "Non so come usare questo programma", "non so come usare questo programma", "Te lo spiego subito"],2,"Frase para pedir ayuda con una herramienta."],
+      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en italiano?",["Hai un minuto?","Te lo spiego subito","non so come usare questo programma","Certo, come posso aiutarti?"],3,"Respuesta típica al ofrecer ayuda."],
+      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en italiano?",["Certo, come posso aiutarti?","Non so come usare questo programma","Hai un minuto?","Te lo spiego subito"],1,"Frase para pedir ayuda con una herramienta."],
       ["fill","Completa: “___ un minuto? Ho bisogno del tuo aiuto.”",["Puoi", "Sai", "Spieghi", "Hai"],3,"\"Hai un minuto?\" pide atención breve."],
       ["translate","Traduce: \"I'll explain it to you right now.\"",["Te lo mando subito.", "Te lo chiedo subito.", "Te lo spiego subito.", "Ti aiuto subito."],2,"\"Subito\" indica inmediatez."],
       ["arrange","Ordena: [aiutarti / posso / come]",["posso Come aiutarti", "aiutarti posso Come", "Come posso aiutarti", "Come aiutarti posso"],2,"Interrogativo + verbo + verbo."],
@@ -11198,8 +11198,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I'm writing to...\" en italiano?",["Resto in attesa di una sua risposta", "Le scrivo per...", "Gentile...", "le scrivo per..."],3,"Frase estándar para iniciar un correo formal."],
-      ["mcq","¿Cómo se dice \"Best regards\" en italiano?",["Resto in attesa di una sua risposta", "cordiali saluti", "Cordiali saluti", "Le scrivo per..."],1,"Fórmula típica de despedida en correos formales."],
+      ["mcq","¿Cómo se dice \"I'm writing to...\" en italiano?",["Resto in attesa di una sua risposta","Le scrivo per...","Gentile...","cordiali saluti"],1,"Frase estándar para iniciar un correo formal."],
+      ["mcq","¿Cómo se dice \"Best regards\" en italiano?",["Resto in attesa di una sua risposta","Gentile...","Cordiali saluti","Le scrivo per..."],2,"Fórmula típica de despedida en correos formales."],
       ["fill","Completa: “___ Sig. López: le scrivo per confermare la riunione.”",["Gentile", "Attesa", "Cordiali", "Saluti"],0,"\"Gentile\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Cordiali saluti alla sua risposta.", "Resto in attesa di una sua risposta.", "Gentile alla sua risposta.", "Le scrivo alla sua risposta."],1,"\"Resto in attesa di\" es una despedida formal común."],
       ["arrange","Ordena: [distinti / cordiali / saluti]",["distinti Cordiali saluti", "Cordiali distinti saluti", "Cordiali saluti distinti", "saluti distinti Cordiali"],2,"Adjetivo + sustantivo + adjetivo (variación enfática de despedida formal)."],
@@ -11224,7 +11224,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"can we find a middle ground?\" en italiano?",["non sono del tutto d'accordo", "possiamo trovare un compromesso?", "preferisco essere diretto/a a riguardo", "capisco il suo punto di vista, ma..."],1,"Propone una solución de compromiso."],
       ["fill","Completa: “Capisco il suo punto di vista, ___ non sono del tutto d'accordo.”",["sebbene", "ma", "se", "perché"],1,"\"Ma\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Possiamo trovare la ragione?", "Possiamo capire il suo punto di vista?", "Siamo del tutto d'accordo?", "Possiamo trovare un compromesso?"],3,"\"Un compromesso\" es un compromiso entre dos posturas."],
-      ["arrange","Ordena: [accordo / d' / sono / non / del / tutto]",["Non d'accordo sono tutto del", "Non sono del tutto d'accordo", "tutto Non d'accordo sono del", "sono tutto Non d'accordo del"],1,"Negación + verbo + \"del tutto d'accordo\"."],
+      ["arrange","Ordena: [sono / non / del / tutto / d'accordo]",["Non d'accordo sono tutto del","Non sono del tutto d'accordo","tutto Non d'accordo sono del","sono tutto Non d'accordo del"],1,"Negación + verbo + \"del tutto d'accordo\"."],
     ]
   },
   {
@@ -11435,8 +11435,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"So nice to see you!\" en italiano?",["Buon compleanno!", "Come conosci il padrone di casa?", "Che piacere vederti!", "che piacere vederti!"],3,"\"Che piacere\" expresa alegría al ver a alguien."],
-      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en italiano?",["grazie per avermi invitato/a", "Grazie per avermi invitato/a", "Che piacere vederti!", "Buon compleanno!"],0,"Frase educada al llegar a una fiesta."],
+      ["mcq","¿Cómo se dice \"So nice to see you!\" en italiano?",["Buon compleanno!","Come conosci il padrone di casa?","Che piacere vederti!","grazie per avermi invitato/a"],2,"\"Che piacere\" expresa alegría al ver a alguien."],
+      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en italiano?",["Come conosci il padrone di casa?","Grazie per avermi invitato/a","Che piacere vederti!","Buon compleanno!"],1,"Frase educada al llegar a una fiesta."],
       ["fill","Completa: “Che ___ vederti! È da tanto che non ci vediamo.”",["compleanno", "invitato", "conosci", "piacere"],3,"\"Che piacere vederti\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Come conosci il padrone di casa?", "Come conosci la musica?", "Come conosci il regalo?", "Come conosci l'ospite?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [conosci / padrone / come / il / casa / di]",["Come il casa conosci padrone di", "conosci Come il padrone di casa", "Come conosci il padrone di casa", "casa padrone Come di conosci il"],2,"Interrogativo + verbo + artículo + sustantivo + preposición + sustantivo."],
@@ -11457,8 +11457,8 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en italiano?",["ciao, non ci conosciamo, sono Ana", "Di cosa ti occupi?", "Sono una grafica", "Ciao, non ci conosciamo, sono Ana"],0,"Forma natural de presentarse a alguien nuevo."],
-      ["mcq","¿Cómo se dice \"What do you do?\" en italiano?",["Di cosa ti occupi?", "Sono una grafica", "Ciao, non ci conosciamo, sono Ana", "di cosa ti occupi?"],3,"Pregunta común para conocer la profesión de alguien."],
+      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en italiano?",["Piacere, io sono Marco","Di cosa ti occupi?","Sono una grafica","Ciao, non ci conosciamo, sono Ana"],3,"Forma natural de presentarse a alguien nuevo."],
+      ["mcq","¿Cómo se dice \"What do you do?\" en italiano?",["Di cosa ti occupi?","Sono una grafica","Ciao, non ci conosciamo, sono Ana","Piacere, io sono Marco"],0,"Pregunta común para conocer la profesión de alguien."],
       ["fill","Completa: “Ciao, non ci ___, sono Ana.”",["occupi", "sono", "piacere", "conosciamo"],3,"\"Non ci conosciamo\" indica que es la primera vez que se hablan."],
       ["translate","Traduce: \"I'm a graphic designer.\"",["Mi occupo di feste.", "Sono una padrona di casa grafica.", "Sono una grafica.", "Non ci conosciamo, grafica."],2,"\"Sono una grafica\" indica tu profesión."],
       ["arrange","Ordena: [occupi / cosa / ti / di]",["Di ti cosa occupi", "Di cosa ti occupi", "ti cosa occupi Di", "occupi ti Di cosa"],1,"Preposición + interrogativo + pronombre + verbo."],
@@ -11762,7 +11762,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I need my transcript\" en italiano?",["ho bisogno del mio certificato dei voti", "Posso avere il suo numero di matricola?", "Sarà pronto tra tre giorni", "Ho bisogno del mio certificato dei voti"],0,"Es el documento con tus calificaciones."],
+      ["mcq","¿Cómo se dice \"I need my transcript\" en italiano?",["Buongiorno, come posso aiutarla?","Posso avere il suo numero di matricola?","Sarà pronto tra tre giorni","Ho bisogno del mio certificato dei voti"],3,"Es el documento con tus calificaciones."],
       ["mcq","¿Cómo se dice \"it'll be ready in three days\" en italiano?",["Ho bisogno del mio certificato dei voti", "Buongiorno, come posso aiutarla?", "sarà pronto tra tre giorni", "Posso avere il suo numero di matricola?"],2,"Futuro simple para indicar un plazo."],
       ["fill","Completa: “Il suo certificato ___ pronto tra tre giorni.”",["ha bisogno", "è", "può", "sarà"],3,"\"Sarà pronto\" es futuro simple del verbo \"essere\"."],
       ["translate","Traduce: \"Can I have your student number?\"",["Posso avere il suo numero di matricola?", "Posso avere la sua scadenza?", "Posso avere il suo certificato dei voti?", "Posso avere il suo modulo di iscrizione?"],0,"Se pide el número de identificación del estudiante."],
@@ -11856,7 +11856,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["mcq","¿Cómo se dice \"the class schedule\" en italiano?",["l'orario delle lezioni", "il circolo studentesco", "la mensa del campus", "la residenza universitaria"],0,"Indica cuándo son tus clases."],
       ["fill","Completa: “Vado a mangiare nella ___ del campus.”",["orario", "circolo", "mensa", "residenza"],2,"\"Mensa del campus\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Mi sono iscritto a una residenza questo semestre.", "Mi sono iscritto a una mensa questo semestre.", "Mi sono iscritto a un orario questo semestre.", "Mi sono iscritto/a a un circolo studentesco questo semestre."],3,"\"Circolo studentesco\" es una organización de estudiantes."],
-      ["arrange","Ordena: [lezioni / mio / delle / orario]",["Il delle lezioni mio orario", "Il mio orario delle lezioni", "mio Il delle lezioni orario", "Il orario delle mio lezioni"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [lezioni / mio / delle / orario / il]",["Il delle lezioni mio orario","Il mio orario delle lezioni","mio Il delle lezioni orario","Il orario delle mio lezioni"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
     ]
   },
   {
@@ -12029,7 +12029,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"boarding gate\" en portugués?",["o voo", "a mala", "a alfândega", "o portão de embarque"],3,"\"O portão de embarque\" es masculino."],
       ["fill","Completa: “Preciso mostrar ___ para passar o controlo.”",["a alfândega", "o passaporte", "a mala", "o voo"],1,"El documento de identidad para viajar es \"o passaporte\"."],
       ["translate","Traduce: \"Where is my suitcase?\"",["Onde está a alfândega?", "Onde está a minha mala?", "Onde está o meu voo?", "Onde está o meu passaporte?"],1,"\"Mala\" es \"suitcase\" en portugués."],
-      ["arrange","Ordena: [passaporte / meu / é / este]",["Este é o meu passaporte", "meu é o Este passaporte", "meu passaporte o Este é", "Este passaporte o é meu"],0,"Demostrativo + verbo + artículo + posesivo + sustantivo."],
+      ["arrange","Ordena: [passaporte / meu / é / este / o]",["Este é o meu passaporte","meu é o Este passaporte","meu passaporte o Este é","Este passaporte o é meu"],0,"Demostrativo + verbo + artículo + posesivo + sustantivo."],
       ["speaking","Imagina que estás en el aeropuerto. Di en portugués (25-35 palabras) qué llevas en tu maleta y a qué puerta debes ir.",[],["a minha mala", "o portão", "o voo"]],
     ]
   },
@@ -12050,7 +12050,7 @@ window.SITUATION_LESSON_BANKS.PT = {
     },
     ex:[
       ["mcq","¿Cómo se dice \"I'd like to check my bag\" en portugués?",["gostaria de despachar a mala", "Qual é o meu portão de embarque?", "Aqui está o meu passaporte", "A que horas parte o voo?"],0,"\"Despachar\" es el verbo para facturar equipaje."],
-      ["mcq","¿Cómo se dice \"What time does the flight leave?\" en portugués?",["a que horas parte o voo?", "Aqui está o meu passaporte", "Qual é o meu portão de embarque?", "A que horas parte o voo?"],0,"\"Partir\" se usa para vuelos que salen."],
+      ["mcq","¿Cómo se dice \"What time does the flight leave?\" en portugués?",["gostaria de despachar a mala","Aqui está o meu passaporte","Qual é o meu portão de embarque?","A que horas parte o voo?"],3,"\"Partir\" se usa para vuelos que salen."],
       ["fill","Completa: “___ despachar a mala, por favor.”",["Tenho", "Gostaria de", "O voo", "Posso"],1,"\"Gostaria\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Aqui está o meu voo.", "Qual é o meu passaporte?", "Aqui está a minha mala.", "Aqui está o meu passaporte."],3,"\"Aqui está\" presenta algo que entregas."],
       ["arrange","Ordena: [mala / despachar / a / gostaria / de]",["de despachar Gostaria a mala", "Gostaria mala de despachar a", "Gostaria de despachar a mala", "Gostaria a mala despachar de"],2,"\"Gostaria de\" + verbo + artículo + sustantivo."],
@@ -12072,7 +12072,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"How many bags will you check?\" en portugués?",["Só uma, obrigado/a", "quantas malas vai despachar?", "Janela ou corredor?", "Quantas malas vai despachar?"],1,"\"Quantas\" concuerda con \"malas\" (femenino)."],
+      ["mcq","¿Cómo se dice \"How many bags will you check?\" en portugués?",["Só uma, obrigado/a","Bom dia, o seu passaporte por favor?","Janela ou corredor?","Quantas malas vai despachar?"],3,"\"Quantas\" concuerda con \"malas\" (femenino)."],
       ["mcq","¿Cómo se dice \"Window or aisle?\" en portugués?",["Bom dia, o seu passaporte por favor?", "janela ou corredor?", "O seu voo parte às 10", "Quantas malas vai despachar?"],1,"Pregunta típica sobre el asiento en el avión."],
       ["fill","Completa: “___ malas vai despachar?”",["Onde", "Quantas", "Qual", "Quantos"],1,"\"Quantas\" concuerda en femenino con \"malas\"."],
       ["translate","Traduce: \"Just one, thanks.\"",["Só uma, obrigado.", "O passaporte, obrigado.", "Só um, obrigado.", "Só duas, obrigado."],0,"\"Uma\" concuerda en femenino con \"mala\"."],
@@ -12101,7 +12101,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"baggage claim\" en portugués?",["a bagagem de mão", "a recolha de bagagem", "a bagagem despachada", "com excesso de peso"],1,"Es la zona donde recoges tus maletas."],
       ["fill","Completa: “Onde é a ___ de bagagem?”",["frágil", "excesso", "recolha", "despachada"],2,"\"Recolha de bagagem\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["A minha mala está com excesso de peso.", "A minha mala está perdida.", "A minha mala é de mão.", "A minha mala contém objetos frágeis."],3,"\"Frágil\" describe objetos que se rompen fácilmente."],
-      ["arrange","Ordena: [perdida / minha / está / bagagem]",["está bagagem perdida A minha", "perdida bagagem minha está A", "está bagagem A minha perdida", "A minha bagagem está perdida"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
+      ["arrange","Ordena: [perdida / minha / está / bagagem / a]",["está bagagem perdida A minha","perdida bagagem minha está A","está bagagem A minha perdida","A minha bagagem está perdida"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
     ]
   },
   {
@@ -12652,7 +12652,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"the reservation\" en portugués?",["a chave", "a receção", "a bagagem", "a reserva"],3,"\"A reserva\" es lo que haces antes de llegar."],
       ["fill","Completa: “Tenho uma ___ em nome de García.”",["chave", "receção", "quarto", "reserva"],3,"\"Uma reserva em nome de...\" es la frase típica al llegar."],
       ["translate","Traduce: \"Where is the front desk?\"",["Onde é a receção?", "Onde é a minha chave?", "Onde é o pequeno-almoço?", "Onde é o meu quarto?"],0,"\"A receção\" es donde te registras al llegar."],
-      ["arrange","Ordena: [chave / minha / é / esta]",["Esta minha é a chave", "Esta é a minha chave", "chave Esta minha a é", "Esta minha a chave é"],1,"Demostrativo + verbo + artículo + posesivo + sustantivo."],
+      ["arrange","Ordena: [chave / minha / é / esta / a]",["Esta minha é a chave","Esta é a minha chave","chave Esta minha a é","Esta minha a chave é"],1,"Demostrativo + verbo + artículo + posesivo + sustantivo."],
       ["speaking","Imagina que llegas al hotel. Di en portugués (25-35 palabras) que tienes una reserva y pide tu llave.",[],["tenho uma reserva", "a minha chave", "quarto"]],
     ]
   },
@@ -12672,8 +12672,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en portugués?",["O pequeno-almoço está incluído?", "tenho uma reserva em nome de...", "Tenho uma reserva em nome de...", "Qual é a palavra-passe do wifi?"],1,"\"Em nome de\" indica de quién es la reserva."],
-      ["mcq","¿Cómo se dice \"Is breakfast included?\" en portugués?",["Preciso de outra chave", "o pequeno-almoço está incluído?", "Tenho uma reserva em nome de...", "O pequeno-almoço está incluído?"],1,"Se pregunta si el precio incluye el desayuno."],
+      ["mcq","¿Cómo se dice \"I have a reservation under the name of...\" en portugués?",["O pequeno-almoço está incluído?","A que horas é o check-in?","Tenho uma reserva em nome de...","Qual é a palavra-passe do wifi?"],2,"\"Em nome de\" indica de quién es la reserva."],
+      ["mcq","¿Cómo se dice \"Is breakfast included?\" en portugués?",["Preciso de outra chave","A que horas é o check-in?","Tenho uma reserva em nome de...","O pequeno-almoço está incluído?"],3,"Se pregunta si el precio incluye el desayuno."],
       ["fill","Completa: “Tenho uma reserva em ___ de García.”",["chave", "nome", "palavra-passe", "hora"],1,"\"Em nome de\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Preciso de outro pequeno-almoço.", "Preciso de outra chave.", "Preciso de outro quarto.", "Preciso de outra reserva."],1,"\"Outra chave\" pide una llave adicional."],
       ["arrange","Ordena: [chave / preciso / outra / de]",["outra de chave Preciso", "Preciso de outra chave", "outra de Preciso chave", "chave de Preciso outra"],1,"Verbo + preposición + adjetivo + sustantivo."],
@@ -12695,8 +12695,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Your room is 305\" en portugués?",["O elevador é à direita", "Sim, em nome de López", "O seu quarto é o 305", "o seu quarto é o 305"],3,"\"Seu\" es el posesivo formal."],
-      ["mcq","¿Cómo se dice \"Enjoy your stay\" en portugués?",["Boa tarde, tem uma reserva?", "tenha uma boa estadia", "O elevador é à direita", "Tenha uma boa estadia"],1,"Frase típica de despedida en recepción."],
+      ["mcq","¿Cómo se dice \"Your room is 305\" en portugués?",["O elevador é à direita","Sim, em nome de López","O seu quarto é o 305","tenha uma boa estadia"],2,"\"Seu\" es el posesivo formal."],
+      ["mcq","¿Cómo se dice \"Enjoy your stay\" en portugués?",["Boa tarde, tem uma reserva?","o seu quarto é o 305","O elevador é à direita","Tenha uma boa estadia"],3,"Frase típica de despedida en recepción."],
       ["fill","Completa: “___ quarto é o 305.”",["O meu", "O teu", "O", "O seu"],3,"\"Seu\" es el posesivo formal."],
       ["translate","Traduce: \"The elevator is to the right.\"",["A chave é à direita.", "O elevador é à direita.", "O quarto é à direita.", "A receção é à direita."],1,"\"À direita\" indica dirección."],
       ["arrange","Ordena: [direita / é / à]",["direita à É", "à direita É", "É direita à", "É à direita"],3,"Verbo + preposición + sustantivo."],
@@ -12981,8 +12981,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"How much does this cost?\" en portugués?",["Levo isto", "quanto custa isto?", "Quanto custa isto?", "Quero meio quilo"],1,"Pregunta básica de precio."],
-      ["mcq","¿Cómo se dice \"I'll take it\" en portugués?",["Quanto custa isto?", "Quero meio quilo", "levo isto", "Levo isto"],2,"Se usa para confirmar la compra."],
+      ["mcq","¿Cómo se dice \"How much does this cost?\" en portugués?",["Levo isto","Tem algo mais fresco?","Quanto custa isto?","Quero meio quilo"],2,"Pregunta básica de precio."],
+      ["mcq","¿Cómo se dice \"I'll take it\" en portugués?",["Quanto custa isto?","Quero meio quilo","Tem algo mais fresco?","Levo isto"],3,"Se usa para confirmar la compra."],
       ["fill","Completa: “___ custa o quilo de maçãs?”",["Onde", "Qual", "Quanto", "O que"],2,"\"Quanto custa\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Quero meio quilo.", "Quero levar isto.", "Quero algo mais fresco.", "Quero um quilo inteiro."],0,"\"Meio quilo\" es 500 gramos."],
       ["arrange","Ordena: [já / isto / levo]",["já Levo isto", "já isto Levo", "isto Levo já", "Levo isto já"],3,"Verbo + pronombre + adverbio."],
@@ -13311,7 +13311,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Please take a seat\" en portugués?",["Bom dia, tem consulta marcada?", "sente-se, por favor", "O médico vai recebê-lo em breve", "Sente-se, por favor"],1,"Imperativo formal del verbo \"sentar-se\"."],
+      ["mcq","¿Cómo se dice \"Please take a seat\" en portugués?",["Bom dia, tem consulta marcada?","pode dar-me o seu cartão do seguro?","O médico vai recebê-lo em breve","Sente-se, por favor"],3,"Imperativo formal del verbo \"sentar-se\"."],
       ["mcq","¿Cómo se dice \"Can I have your insurance card?\" en portugués?",["pode dar-me o seu cartão do seguro?", "Bom dia, tem consulta marcada?", "Sim, às 10 com o Dr. Ruiz", "O médico vai recebê-lo em breve"],0,"Se pide el documento del seguro médico."],
       ["fill","Completa: “O médico vai ___ em breve.”",["sentar-se", "recebê-lo", "ser", "ter"],1,"\"Vai recebê-lo\" es el futuro próximo de \"receber\"."],
       ["translate","Traduce: \"Yes, at 10 with Dr. Ruiz.\"",["Sim, às 10 na sala de espera.", "Sim, tenho consulta com o seguro.", "Sim, às 10 com o Dr. Ruiz.", "Sim, sente-se com o Dr. Ruiz."],2,"\"Às 10 com o Dr. Ruiz\" indica hora y médico."],
@@ -13477,7 +13477,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"the risks and benefits of the procedure\" en portugués?",["assinar um termo de consentimento", "perceber a que está a concordar", "os riscos e benefícios do procedimento", "pode fazer perguntas antes de assinar"],2,"Frase estándar antes de cualquier procedimiento médico."],
       ["fill","Completa: “Certifique-se de perceber os riscos ___ de assinar o formulário.”",["sem", "antes", "durante", "depois"],1,"\"Antes de assinar\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["Posso assinar antes de perguntar?", "Percebo o que estou a assinar?", "Há riscos antes do procedimento?", "Posso fazer perguntas antes de assinar?"],3,"\"Antes de assinar\" marca el orden correcto de las acciones."],
-      ["arrange","Ordena: [consentimento / assinar / de / termo / preciso / um]",["um consentimento de assinar de termo Preciso", "de termo assinar de Preciso consentimento um", "Preciso consentimento de um de assinar termo", "Preciso de assinar um termo de consentimento"],3,"\"Preciso de\" + verbo + artículo + sustantivo compuesto."],
+      ["arrange","Ordena: [consentimento / assinar / de / termo / preciso / um / de]",["um consentimento de assinar de termo Preciso","de termo assinar de Preciso consentimento um","Preciso consentimento de um de assinar termo","Preciso de assinar um termo de consentimento"],3,"\"Preciso de\" + verbo + artículo + sustantivo compuesto."],
     ]
   },
   {
@@ -13595,8 +13595,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en portugués?",["Anexei o ficheiro", "Obrigado/a pela sua paciência", "Podemos marcar uma reunião?", "podemos marcar uma reunião?"],3,"\"Marcar\" es programar en la agenda."],
-      ["mcq","¿Cómo se dice \"I've attached the file\" en portugués?",["anexei o ficheiro", "Anexei o ficheiro", "Obrigado/a pela sua paciência", "Podemos marcar uma reunião?"],0,"Frase típica en correos de trabajo."],
+      ["mcq","¿Cómo se dice \"Can we schedule a meeting?\" en portugués?",["Anexei o ficheiro","Obrigado/a pela sua paciência","Podemos marcar uma reunião?","Vou precisar de mais tempo"],2,"\"Marcar\" es programar en la agenda."],
+      ["mcq","¿Cómo se dice \"I've attached the file\" en portugués?",["Vou precisar de mais tempo","Anexei o ficheiro","Obrigado/a pela sua paciência","Podemos marcar uma reunião?"],1,"Frase típica en correos de trabajo."],
       ["fill","Completa: “___ marcar uma reunião para amanhã?”",["Anexei", "Vou", "Obrigado", "Podemos"],3,"\"Podemos...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Vou anexar o ficheiro.", "Vou agradecer a sua paciência.", "Vou marcar uma reunião.", "Vou precisar de mais tempo."],3,"\"Vou precisar\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [ficheiro / anexei / o]",["o ficheiro Anexei", "ficheiro o Anexei", "ficheiro Anexei o", "Anexei o ficheiro"],3,"Verbo + artículo + sustantivo."],
@@ -13617,8 +13617,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en portugués?",["Tens um minuto?", "Explico-te já", "claro, como posso ajudar?", "Claro, como posso ajudar?"],2,"Respuesta típica al ofrecer ayuda."],
-      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en portugués?",["Claro, como posso ajudar?", "Não sei usar este programa", "não sei usar este programa", "Explico-te já"],2,"Frase para pedir ayuda con una herramienta."],
+      ["mcq","¿Cómo se dice \"Sure, how can I help?\" en portugués?",["Tens um minuto?","Explico-te já","não sei usar este programa","Claro, como posso ajudar?"],3,"Respuesta típica al ofrecer ayuda."],
+      ["mcq","¿Cómo se dice \"I don't know how to use this program\" en portugués?",["Claro, como posso ajudar?","Não sei usar este programa","Tens um minuto?","Explico-te já"],1,"Frase para pedir ayuda con una herramienta."],
       ["fill","Completa: “___ um minuto? Preciso da tua ajuda.”",["Podes", "Sabes", "Explicas", "Tens"],3,"\"Tens um minuto?\" pide atención breve."],
       ["translate","Traduce: \"I'll explain it to you right now.\"",["Envio-te já.", "Pergunto-te já.", "Explico-te já.", "Ajudo-te já."],2,"\"Já\" indica inmediatez."],
       ["arrange","Ordena: [ajudar / posso / como]",["posso Como ajudar", "ajudar posso Como", "Como posso ajudar", "Como ajudar posso"],2,"Interrogativo + verbo + verbo."],
@@ -13662,8 +13662,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I'm writing to...\" en portugués?",["Fico a aguardar a sua resposta", "Escrevo para...", "Caro/a...", "escrevo para..."],3,"Frase estándar para iniciar un correo formal."],
-      ["mcq","¿Cómo se dice \"Best regards\" en portugués?",["Fico a aguardar a sua resposta", "com os melhores cumprimentos", "Com os melhores cumprimentos", "Escrevo para..."],1,"Fórmula típica de despedida en correos formales."],
+      ["mcq","¿Cómo se dice \"I'm writing to...\" en portugués?",["Fico a aguardar a sua resposta","Escrevo para...","Caro/a...","com os melhores cumprimentos"],1,"Frase estándar para iniciar un correo formal."],
+      ["mcq","¿Cómo se dice \"Best regards\" en portugués?",["Fico a aguardar a sua resposta","Caro/a...","Com os melhores cumprimentos","Escrevo para..."],2,"Fórmula típica de despedida en correos formales."],
       ["fill","Completa: “___ Sr. López: escrevo para confirmar a reunião.”",["Caro", "Aguardar", "Melhores", "Cumprimentos"],0,"\"Caro/a\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Com cumprimentos à sua resposta.", "Fico a aguardar a sua resposta.", "Caro à sua resposta.", "Escrevo à sua resposta."],1,"\"Fico a aguardar\" es una despedida formal común."],
       ["arrange","Ordena: [cumprimentos / melhores / os / com]",["os melhores cumprimentos Com", "cumprimentos os Com melhores", "Com cumprimentos os melhores", "Com os melhores cumprimentos"],3,"Preposición + artículo + adjetivo + sustantivo."],
@@ -13710,7 +13710,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"I have accumulated vacation days\" en portugués?",["tenho dias de férias acumulados", "seria possível tirá-los na próxima semana?", "gostaria de pedir uns dias de folga", "preciso de coordenar isto com a minha equipa"],0,"Indica que tienes días disponibles sin usar."],
       ["fill","Completa: “___ possível tirar esses dias na próxima semana?”",["Acumulados", "Seria", "Tenho", "Gostaria"],1,"\"Seria possível...?\" es una petición muy educada."],
       ["translate","Traduce: \"I'd like to request some days off next month.\"",["Gostaria de acumular uns dias de folga no próximo mês.", "Tenho uns dias de folga no próximo mês.", "Gostaria de pedir uns dias de folga no próximo mês.", "Seria possível no próximo mês."],2,"\"Gostaria de pedir uns dias de folga\" es la petición formal estándar."],
-      ["arrange","Ordena: [folga / dias / uns / pedir / gostaria / de]",["Gostaria de pedir uns dias de folga", "folga dias de pedir de Gostaria uns", "Gostaria folga de pedir de uns dias", "uns de de folga pedir dias Gostaria"],0,"\"Gostaria de\" + verbo + artículo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [folga / dias / uns / pedir / gostaria / de / de]",["Gostaria de pedir uns dias de folga","folga dias de pedir de Gostaria uns","Gostaria folga de pedir de uns dias","uns de de folga pedir dias Gostaria"],0,"\"Gostaria de\" + verbo + artículo + sustantivo + preposición + sustantivo."],
       ["speaking","Pide a tu jefe unos días libres para el mes próximo, explicando el motivo en portugués (30-40 palabras).",[],["gostaria de pedir", "dias de folga", "seria possível"]],
     ]
   },
@@ -13734,7 +13734,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"a performance-based bonus\" en portugués?",["estou aberto/a a um compromisso", "um bónus baseado no desempenho", "com base na minha experiência e resultados", "o padrão da indústria para esta função"],1,"Significa que depende de los resultados obtenidos."],
       ["fill","Completa: “Com base na minha experiência e nos meus ___, acho que um aumento é justo.”",["bónus", "resultados", "padrão", "compromisso"],1,"\"Com base na minha experiência e resultados\" justifica la petición."],
       ["translate","Traduce: \"I'm open to a compromise on the salary.\"",["Esperava falar de um compromisso padrão.", "Estou aberto/a a um compromisso sobre o salário.", "Estou aberto a um bónus sobre o salário.", "Estou aberto aos resultados do salário."],1,"\"Aberto a um compromisso\" muestra flexibilidad en la negociación."],
-      ["arrange","Ordena: [salário / falar / meu / sobre / pudéssemos / esperava / que]",["meu que o falar sobre pudéssemos Esperava salário", "que pudéssemos sobre meu falar o Esperava salário", "que pudéssemos falar meu Esperava sobre o salário", "Esperava que pudéssemos falar sobre o meu salário"],3,"\"Esperava\" + \"que pudéssemos\" + verbo + objeto."],
+      ["arrange","Ordena: [salário / falar / meu / sobre / pudéssemos / esperava / que / o]",["meu que o falar sobre pudéssemos Esperava salário","que pudéssemos sobre meu falar o Esperava salário","que pudéssemos falar meu Esperava sobre o salário","Esperava que pudéssemos falar sobre o meu salário"],3,"\"Esperava\" + \"que pudéssemos\" + verbo + objeto."],
       ["writing","Escribe en portugués (40-60 palabras) un correo pidiendo una reunión para negociar tu salario, mencionando tus logros recientes.",[],["esperava que pudéssemos falar", "com base nos meus resultados", "aberto a"]],
     ]
   },
@@ -13899,8 +13899,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"So nice to see you!\" en portugués?",["Parabéns!", "Como conheces o anfitrião?", "Que bom ver-te!", "que bom ver-te!"],3,"\"Que bom\" expresa alegría al ver a alguien."],
-      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en portugués?",["obrigado/a por me convidares", "Obrigado/a por me convidares", "Que bom ver-te!", "Parabéns!"],0,"Frase educada al llegar a una fiesta."],
+      ["mcq","¿Cómo se dice \"So nice to see you!\" en portugués?",["Parabéns!","Como conheces o anfitrião?","Que bom ver-te!","obrigado/a por me convidares"],2,"\"Que bom\" expresa alegría al ver a alguien."],
+      ["mcq","¿Cómo se dice \"Thanks for inviting me\" en portugués?",["Como conheces o anfitrião?","Obrigado/a por me convidares","Que bom ver-te!","Parabéns!"],1,"Frase educada al llegar a una fiesta."],
       ["fill","Completa: “Que ___ ver-te! Já não nos víamos há muito tempo.”",["parabéns", "convidares", "conheces", "bom"],3,"\"Que bom ver-te\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Como conheces o anfitrião?", "Como conheces a música?", "Como conheces o presente?", "Como conheces o convidado?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [conheces / anfitrião / como / o]",["Como conheces o anfitrião", "anfitrião conheces o Como", "conheces anfitrião Como o", "conheces Como o anfitrião"],0,"Interrogativo + verbo + artículo + sustantivo."],
@@ -13921,8 +13921,8 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en portugués?",["olá, não nos conhecemos, sou a Ana", "O que fazes?", "Sou designer gráfica", "Olá, não nos conhecemos, sou a Ana"],0,"Forma natural de presentarse a alguien nuevo."],
-      ["mcq","¿Cómo se dice \"What do you do?\" en portugués?",["O que fazes?", "Sou designer gráfica", "Olá, não nos conhecemos, sou a Ana", "o que fazes?"],3,"Pregunta común para conocer la profesión de alguien."],
+      ["mcq","¿Cómo se dice \"Hi, we haven't met, I'm Ana\" en portugués?",["Muito prazer, sou o Marco","O que fazes?","Sou designer gráfica","Olá, não nos conhecemos, sou a Ana"],3,"Forma natural de presentarse a alguien nuevo."],
+      ["mcq","¿Cómo se dice \"What do you do?\" en portugués?",["O que fazes?","Sou designer gráfica","Olá, não nos conhecemos, sou a Ana","Muito prazer, sou o Marco"],0,"Pregunta común para conocer la profesión de alguien."],
       ["fill","Completa: “Olá, não nos ___, sou a Ana.”",["prazer", "sou", "fazes", "conhecemos"],3,"\"Não nos conhecemos\" indica que es la primera vez que se hablan."],
       ["translate","Traduce: \"I'm a graphic designer.\"",["Faço festas.", "Sou anfitriã gráfica.", "Sou designer gráfica.", "Não nos conhecemos, gráfica."],2,"\"Sou designer gráfica\" indica tu profesión."],
       ["arrange","Ordena: [fazes / o / que]",["que fazes O", "O fazes que", "que O fazes", "O que fazes"],3,"Interrogativo + interrogativo + verbo."],
@@ -14226,7 +14226,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice \"I need my transcript\" en portugués?",["preciso do meu certificado de notas", "Pode dar-me o seu número de estudante?", "Vai estar pronto em três dias", "Preciso do meu certificado de notas"],0,"Es el documento con tus calificaciones."],
+      ["mcq","¿Cómo se dice \"I need my transcript\" en portugués?",["Bom dia, como posso ajudar?","Pode dar-me o seu número de estudante?","Vai estar pronto em três dias","Preciso do meu certificado de notas"],3,"Es el documento con tus calificaciones."],
       ["mcq","¿Cómo se dice \"it'll be ready in three days\" en portugués?",["Preciso do meu certificado de notas", "Bom dia, como posso ajudar?", "vai estar pronto em três dias", "Pode dar-me o seu número de estudante?"],2,"Futuro próximo para indicar un plazo."],
       ["fill","Completa: “O seu certificado ___ estar pronto em três dias.”",["precisa", "é", "pode", "vai"],3,"\"Vai estar pronto\" es futuro próximo del verbo \"estar\"."],
       ["translate","Traduce: \"Can I have your student number?\"",["Pode dar-me o seu número de estudante?", "Pode dar-me o seu prazo?", "Pode dar-me o seu certificado de notas?", "Pode dar-me o seu formulário de inscrição?"],0,"Se pide el número de identificación del estudiante."],
@@ -14275,7 +14275,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"who's in charge of the intro?\" en portugués?",["vamos encontrar-nos na quinta-feira", "vamos dividir as tarefas", "ainda não terminei a minha parte", "quem trata da introdução?"],3,"Pregunta quién hará esa parte del trabajo."],
       ["fill","Completa: “___ dividir as tarefas do projeto entre todos.”",["Tratamos", "Vamos", "Encontramos", "Terminamos"],1,"\"Vamos dividir\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Ainda não nos encontramos.", "Ainda não dividimos as tarefas.", "Ainda não trato da minha parte.", "Ainda não terminei a minha parte."],3,"\"Ainda não terminei... a minha parte\" indica que sigue en proceso."],
-      ["arrange","Ordena: [feira / quinta / na / encontramo-nos]",["na quinta feira Encontramo nos", "na Encontramo nos feira quinta", "quinta feira nos na Encontramo", "Encontramo nos na quinta feira"],3,"Verbo pronominal + preposición + artículo + sustantivo."],
+      ["arrange","Ordena: [na / encontramo-nos / quinta-feira]",["Encontramo-nos na quinta-feira","quinta-feira na Encontramo-nos","na Encontramo-nos quinta-feira","quinta-feira Encontramo-nos na"],0,"Verbo pronominal + preposición + artículo + sustantivo."],
     ]
   },
   {
@@ -14297,7 +14297,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"do you have office hours?\" en portugués?",["podia esclarecer-me esta dúvida?", "gostaria de rever a minha nota", "não percebi bem a matéria", "tem horário de atendimento?"],3,"Pregunta por el horario para consultas."],
       ["fill","Completa: “___ esclarecer-me esta dúvida sobre o exame?”",["Tem", "Percebi", "Gostaria", "Podia"],3,"\"Podia...?\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"I'd like to review my grade.\"",["Gostaria de esclarecer o meu horário.", "Gostaria de perceber a matéria.", "Gostaria de ter um gabinete.", "Gostaria de rever a minha nota."],3,"\"Gostaria de rever a minha nota\" es una petición educada."],
-      ["arrange","Ordena: [dúvida / esta / esclarecer-me / podia]",["esta esclarecer Podia me dúvida", "esclarecer dúvida esta Podia me", "Podia esclarecer me esta dúvida", "esclarecer me esta dúvida Podia"],2,"Verbo modal + verbo + demostrativo + sustantivo."],
+      ["arrange","Ordena: [dúvida / esta / esclarecer-me / podia]",["Podia esclarecer-me esta dúvida","esclarecer-me dúvida esta Podia","dúvida esclarecer-me esta Podia","esclarecer-me esta dúvida Podia"],0,"Verbo modal + verbo + demostrativo + sustantivo."],
       ["speaking","Pide a tu profesor que te aclare una duda sobre un tema de clase (30-40 palabras).",[],["podia esclarecer-me", "não percebi bem", "obrigado/a"]],
     ]
   },
@@ -14320,7 +14320,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["mcq","¿Cómo se dice \"the class schedule\" en portugués?",["o horário das aulas", "o clube de estudantes", "a cantina do campus", "a residência universitária"],0,"Indica cuándo son tus clases."],
       ["fill","Completa: “Vou comer na ___ do campus.”",["horário", "clube", "cantina", "residência"],2,"\"Cantina do campus\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Entrei numa residência este semestre.", "Entrei numa cantina este semestre.", "Entrei num horário este semestre.", "Entrei num clube de estudantes este semestre."],3,"\"Clube de estudantes\" es una organización de estudiantes."],
-      ["arrange","Ordena: [aulas / horário / das / meu]",["O das aulas meu horário", "O meu horário das aulas", "meu O das aulas horário", "O horário das meu aulas"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
+      ["arrange","Ordena: [aulas / horário / das / meu / o]",["O das aulas meu horário","O meu horário das aulas","meu O das aulas horário","O horário das meu aulas"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
     ]
   },
   {
