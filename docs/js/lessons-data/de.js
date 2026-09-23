@@ -9,22 +9,22 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a saludar y presentarte en alemán.",
     study: {
       vocab: [
-        ["Guten Morgen / Guten Abend", "Good morning / Good evening"],
-        ["Hallo / Auf Wiedersehen", "Hello / Goodbye"],
-        ["Freut mich!", "Nice to meet you!"],
-        ["Ich heiße...", "My name is..."],
-        ["Wie geht's?", "How are you?", "Respuesta: \"Mir geht es gut, danke\""]
+        ["Guten Morgen / Guten Abend","Buenos días / Buenas noches"],
+        ["Hallo / Auf Wiedersehen","Hola / Adiós"],
+        ["Freut mich!","¡Mucho gusto!"],
+        ["Ich heiße...","Me llamo..."],
+        ["Wie geht's?","¿Cómo estás?", "Respuesta: \"Mir geht es gut, danke\""]
       ],
       grammar: [
         ["El verbo \"sein\" (ser/estar)", "Ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie sind.", "Ich bin Lehrer. Sie ist aus Berlin."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"Good morning\" en alemán?", ["Guten Morgen","Guten Abend","Gute Nacht","Auf Wiedersehen"], 0, "\"Guten Morgen\" se usa por la mañana. \"Guten Tag\" es de mediodía en adelante, y \"Guten Abend\" al caer la tarde.", "☀️ Son las 9 de la mañana y llegas a la oficina."],
+      ["mcq", "¿Cómo se dice \"Buenos días\" en alemán?", ["Guten Morgen","Guten Abend","Gute Nacht","Auf Wiedersehen"], 0, "\"Guten Morgen\" se usa por la mañana. \"Guten Tag\" es de mediodía en adelante, y \"Guten Abend\" al caer la tarde.", "☀️ Son las 9 de la mañana y llegas a la oficina."],
       ["mcq", "Alguien te dice \"Wie geht's?\". ¿Cuál es una respuesta común?", ["Mir geht es gut, danke","Ich heiße Paul","Ich bin zwanzig Jahre alt","Bis bald"], 0, "\"Mir geht es gut, danke\" es la respuesta estándar. También puedes decir \"Gut, und dir?\""],
       ["fill", "Completa: \"Hallo! Ich ___ Anna. Ich ___ aus Berlin.\"", ["heiße / komme","bin / heiße","bist / kommst","heißt / komme"], 0, "\"Ich heiße Anna\" (me llamo) y \"Ich komme aus Berlin\" (vengo de). Ambos verbos van en primera persona singular."],
-      ["translate", "Traduce al alemán: \"Nice to meet you!\"", ["Freut mich!","Wie heißt du?","Woher kommst du?","Bis morgen!"], 0, "\"Freut mich!\" (literalmente \"me alegra\") es la expresión estándar al conocer a alguien."],
-      ["mcq", "¿Qué significa \"Wie heißt du?\"?", ["What's your name?","Where are you from?","How old are you?","Where do you live?"], 0, "\"Wie heißt du?\" = What's your name? Respuesta: \"Ich heiße ___\".", "🏫 Un nuevo compañero de clase te pregunta algo."],
+      ["translate", "Traduce al alemán: \"¡Mucho gusto!\"", ["Freut mich!","Wie heißt du?","Woher kommst du?","Bis morgen!"], 0, "\"Freut mich!\" (literalmente \"me alegra\") es la expresión estándar al conocer a alguien."],
+      ["mcq", "¿Qué significa \"Wie heißt du?\"?", ["¿Cómo te llamas?","¿De dónde eres?","¿Cuántos años tienes?","¿Dónde vives?"], 0, "\"Wie heißt du?\" = ¿Cómo te llamas? Respuesta: \"Ich heiße ___\".", "🏫 Un nuevo compañero de clase te pregunta algo."],
       ["arrange", "Ordena: [bin / Lehrer / ich / ein]", ["Ich bin ein Lehrer","Ein bin ich Lehrer","Lehrer ich bin ein","Bin ich ein Lehrer"], 0, "En alemán el orden en afirmaciones simples es: Sujeto + Verbo + Complemento. → \"Ich bin ein Lehrer.\" (Soy profesor.)"],
     ]
   },
@@ -33,10 +33,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende números del 1 al 20 y colores básicos en alemán.",
     study: {
       vocab: [
-        ["eins, zwei, drei... zwanzig", "one, two, three... twenty"],
-        ["rot, blau, grün, gelb", "red, blue, green, yellow"],
-        ["weiß, schwarz", "white, black"],
-        ["Ich bin ___ Jahre alt", "I am ___ years old", "El alemán sí usa \"sein\" para la edad, como el inglés."]
+        ["eins, zwei, drei... zwanzig","uno, dos, tres... veinte"],
+        ["rot, blau, grün, gelb","rojo, azul, verde, amarillo"],
+        ["weiß, schwarz","blanco, negro"],
+        ["Ich bin ___ Jahre alt","Tengo ___ años", "El alemán sí usa \"sein\" para la edad, como el inglés."]
       ],
       grammar: [
         ["Los sustantivos alemanes siempre se escriben con mayúscula", "A diferencia del español/inglés, TODOS los sustantivos en alemán llevan mayúscula inicial, no solo los nombres propios.", "die Farbe (el color), das Auto (el coche)."]
@@ -44,11 +44,11 @@ window.LESSON_BANKS.DE = [
     },
     ex:[
       ["mcq", "¿Cómo se dice el número 15 en alemán?", ["Fünfzehn","Fünfzig","Fünf","Vierzehn"], 0, "15 = fünfzehn. Ojo: 50 = fünfzig, 5 = fünf. Del 13 al 19 se añade \"-zehn\" al número base."],
-      ["mcq", "¿Qué color es \"rot\"?", ["Red","Blue","Green","Yellow"], 0, "Rot = red. Otros colores: blau (blue), grün (green), gelb (yellow), weiß (white), schwarz (black).", "🍎 Piensa en una manzana madura."],
-      ["fill", "Completa: \"Ich ___ zwanzig Jahre alt.\" (I am 20 years old)", ["bin","habe","bist","hat"], 0, "\"Ich bin zwanzig Jahre alt\" = I am twenty years old. A diferencia del español/francés, el alemán sí usa \"sein\" (ser/estar) para la edad, igual que el inglés."],
-      ["translate", "Traduce: \"The sky is blue.\"", ["Der Himmel ist blau","Der Himmel ist grün","Das Haus ist blau","Das Meer ist blau"], 0, "\"Der Himmel ist blau.\" — Himmel = sky, blau = blue."],
-      ["mcq", "¿Cómo se dice \"black\" en alemán?", ["Schwarz","Weiß","Grau","Braun"], 0, "Schwarz = black. Weiß = white, grau = gray, braun = brown."],
-      ["arrange", "Ordena: [zwei / ich / Katzen / habe]", ["Ich habe zwei Katzen","Zwei ich habe Katzen","Katzen ich habe zwei","Habe ich zwei Katzen"], 0, "\"Ich habe zwei Katzen.\" = I have two cats. Sujeto (ich) + verbo (habe) + cantidad (zwei) + sustantivo (Katzen)."],
+      ["mcq", "¿Qué color es \"rot\"?", ["Rojo","Azul","Verde","Amarillo"], 0, "Rot = rojo. Otros colores: blau (azul), grün (verde), gelb (amarillo), weiß (blanco), schwarz (negro).", "🍎 Piensa en una manzana madura."],
+      ["fill", "Completa: \"Ich ___ zwanzig Jahre alt.\" (Tengo 20 años)", ["bin","habe","bist","hat"], 0, "\"Ich bin zwanzig Jahre alt\" = tengo veinte años. A diferencia del español/francés, el alemán sí usa \"sein\" (ser/estar) para la edad, igual que el inglés."],
+      ["translate", "Traduce al alemán: \"El cielo es azul.\"", ["Der Himmel ist blau","Der Himmel ist grün","Das Haus ist blau","Das Meer ist blau"], 0, "\"Der Himmel ist blau.\" — Himmel = cielo, blau = azul."],
+      ["mcq", "¿Cómo se dice \"negro\" en alemán?", ["Schwarz","Weiß","Grau","Braun"], 0, "Schwarz = negro. Weiß = blanco, grau = gris, braun = marrón."],
+      ["arrange", "Ordena: [zwei / ich / Katzen / habe]", ["Ich habe zwei Katzen","Zwei ich habe Katzen","Katzen ich habe zwei","Habe ich zwei Katzen"], 0, "\"Ich habe zwei Katzen.\" = Tengo dos gatos. Sujeto (ich) + verbo (habe) + cantidad (zwei) + sustantivo (Katzen)."],
     ]
   },
   {
@@ -56,21 +56,21 @@ window.LESSON_BANKS.DE = [
     description:"Los dos verbos más importantes del alemán: ser/estar y tener.",
     study: {
       vocab: [
-        ["sein", "to be"],
-        ["haben", "to have"],
-        ["Student, Lehrer", "student, teacher"]
+        ["sein","ser/estar"],
+        ["haben","tener"],
+        ["Student, Lehrer","estudiante, profesor"]
       ],
       grammar: [
         ["Sein vs. Haben", "Los dos verbos más importantes del alemán. \"Sein\" para identidad y edad; \"haben\" para posesión.", "Ich bin 20 Jahre alt. / Ich habe ein Auto."]
       ]
     },
     ex:[
-      ["mcq", "\"Ich ___ Student.\" (I am a student)", ["bin","habe","bist","ist"], 0, "\"Sein\" (ser/estar) en primera persona es \"bin\": \"Ich bin Student.\""],
-      ["mcq", "\"Sie ___ ein Auto.\" (She has a car)", ["hat","ist","habe","sind"], 0, "\"Haben\" (tener) en tercera persona singular es \"hat\": \"Sie hat ein Auto.\""],
-      ["fill", "Completa: \"Wir ___ Deutsche.\" (We are German)", ["sind","haben","seid","ist"], 0, "\"Sein\" en primera persona plural es \"sind\": \"Wir sind Deutsche.\""],
-      ["translate", "Traduce: \"They have a house.\"", ["Sie haben ein Haus","Sie sind ein Haus","Sie hat ein Haus","Sie haben eine Haus"], 0, "\"Haben\" en tercera persona plural es \"haben\": \"Sie haben ein Haus.\""],
+      ["mcq", "\"Ich ___ Student.\" (Soy estudiante)", ["bin","habe","bist","ist"], 0, "\"Sein\" (ser/estar) en primera persona es \"bin\": \"Ich bin Student.\""],
+      ["mcq", "\"Sie ___ ein Auto.\" (Ella tiene un auto)", ["hat","ist","habe","sind"], 0, "\"Haben\" (tener) en tercera persona singular es \"hat\": \"Sie hat ein Auto.\""],
+      ["fill", "Completa: \"Wir ___ Deutsche.\" (Somos alemanes)", ["sind","haben","seid","ist"], 0, "\"Sein\" en primera persona plural es \"sind\": \"Wir sind Deutsche.\""],
+      ["translate", "Traduce al alemán: \"Ellos tienen una casa.\"", ["Sie haben ein Haus","Sie sind ein Haus","Sie hat ein Haus","Sie haben eine Haus"], 0, "\"Haben\" en tercera persona plural es \"haben\": \"Sie haben ein Haus.\""],
       ["mcq", "¿Qué verbo se usa para decir la edad en alemán?", ["Sein (ser/estar)","Haben (tener)","Gehen (ir)","Machen (hacer)"], 0, "En alemán, igual que en inglés, la edad se expresa con \"sein\": \"Ich bin 20 Jahre alt\" (soy/tengo 20 años, literalmente \"soy 20 años viejo\")."],
-      ["arrange", "Ordena: [sehr / bin / glücklich / ich]", ["Ich bin sehr glücklich","Sehr ich bin glücklich","Glücklich sehr ich bin","Ich sehr bin glücklich"], 0, "\"Ich bin sehr glücklich.\" = I am very happy. Sujeto (ich) + verbo (bin) + intensificador (sehr) + adjetivo (glücklich)."],
+      ["arrange", "Ordena: [sehr / bin / glücklich / ich]", ["Ich bin sehr glücklich","Sehr ich bin glücklich","Glücklich sehr ich bin","Ich sehr bin glücklich"], 0, "\"Ich bin sehr glücklich.\" = Estoy muy feliz. Sujeto (ich) + verbo (bin) + intensificador (sehr) + adjetivo (glücklich)."],
     ]
   },
   {
@@ -78,23 +78,23 @@ window.LESSON_BANKS.DE = [
     description:"Vocabulario de familia y de la casa en alemán.",
     study: {
       vocab: [
-        ["Vater, Mutter", "father, mother"],
-        ["Bruder, Schwester", "brother, sister"],
-        ["Sohn, Tochter", "son, daughter"],
-        ["Schlafzimmer, Küche, Wohnzimmer", "bedroom, kitchen, living room"],
-        ["Badezimmer, Garten", "bathroom, garden"]
+        ["Vater, Mutter","padre, madre"],
+        ["Bruder, Schwester","hermano, hermana"],
+        ["Sohn, Tochter","hijo, hija"],
+        ["Schlafzimmer, Küche, Wohnzimmer","dormitorio, cocina, sala"],
+        ["Badezimmer, Garten","baño, jardín"]
       ],
       grammar: [
         ["Adjetivos posesivos", "Mein/meine, dein/deine, sein/seine concuerdan en género con el sustantivo que sigue (no con el poseedor).", "Mein Vater (masc.) / Meine Mutter (fem.)."]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"mother\" en alemán?", ["Mutter","Vater","Schwester","Großmutter"], 0, "Mutter = mother. Vater = father, Schwester = sister, Großmutter = grandmother."],
-      ["mcq", "¿Qué habitación es \"die Küche\"?", ["Kitchen","Bedroom","Bathroom","Garden"], 0, "Die Küche = kitchen. Das Schlafzimmer = bedroom, das Badezimmer = bathroom, der Garten = garden."],
-      ["fill", "Completa: \"___ Bruder wohnt in Berlin.\" (My brother)", ["Mein","Meine","Meinen","Sein"], 0, "\"Mein Bruder\" = my brother. \"Bruder\" es masculino, por eso \"mein\" (no \"meine\")."],
-      ["translate", "Traduce: \"My family is big.\"", ["Meine Familie ist groß","Meine Familie ist klein","Mein Familie ist groß","Meine Familien sind groß"], 0, "\"Meine Familie ist groß.\" — \"Familie\" es femenino, por eso \"meine\" (no \"mein\")."],
-      ["mcq", "¿Cómo se dice \"grandparents\" en alemán?", ["Großeltern","Eltern","Onkel und Tante","Cousins"], 0, "Großeltern = grandparents. Eltern = parents, Onkel und Tante = aunt and uncle."],
-      ["arrange", "Ordena: [drei / ich / Brüder / habe]", ["Ich habe drei Brüder","Drei ich habe Brüder","Brüder ich habe drei","Habe ich drei Brüder"], 0, "\"Ich habe drei Brüder.\" = I have three brothers. Sujeto (ich) + verbo (habe) + cantidad + sustantivo."],
+      ["mcq", "¿Cómo se dice \"madre\" en alemán?", ["Mutter","Vater","Schwester","Großmutter"], 0, "Mutter = madre. Vater = padre, Schwester = hermana, Großmutter = abuela."],
+      ["mcq", "¿Qué habitación es \"die Küche\"?", ["Cocina","Dormitorio","Baño","Jardín"], 0, "Die Küche = cocina. Das Schlafzimmer = dormitorio, das Badezimmer = baño, der Garten = jardín."],
+      ["fill", "Completa: \"___ Bruder wohnt in Berlin.\" (Mi hermano)", ["Mein","Meine","Meinen","Sein"], 0, "\"Mein Bruder\" = mi hermano. \"Bruder\" es masculino, por eso \"mein\" (no \"meine\")."],
+      ["translate", "Traduce al alemán: \"Mi familia es grande.\"", ["Meine Familie ist groß","Meine Familie ist klein","Mein Familie ist groß","Meine Familien sind groß"], 0, "\"Meine Familie ist groß.\" — \"Familie\" es femenino, por eso \"meine\" (no \"mein\")."],
+      ["mcq", "¿Cómo se dice \"abuelos\" en alemán?", ["Großeltern","Eltern","Onkel und Tante","Cousins"], 0, "Großeltern = abuelos. Eltern = padres, Onkel und Tante = tío y tía."],
+      ["arrange", "Ordena: [drei / ich / Brüder / habe]", ["Ich habe drei Brüder","Drei ich habe Brüder","Brüder ich habe drei","Habe ich drei Brüder"], 0, "\"Ich habe drei Brüder.\" = Tengo tres hermanos. Sujeto (ich) + verbo (habe) + cantidad + sustantivo."],
     ]
   },
   {
@@ -102,23 +102,23 @@ window.LESSON_BANKS.DE = [
     description:"Pide comida y desenvuélvete en un restaurante en alemán.",
     study: {
       vocab: [
-        ["die Speisekarte", "the menu"],
-        ["Ich hätte gern...", "I would like...", "Forma cortés de pedir."],
-        ["die Rechnung, bitte", "the bill, please"],
-        ["das Wasser, das Brot", "water, bread"],
-        ["lecker", "delicious"]
+        ["die Speisekarte","el menú"],
+        ["Ich hätte gern...","Quisiera...", "Forma cortés de pedir."],
+        ["die Rechnung, bitte","la cuenta, por favor"],
+        ["das Wasser, das Brot","el agua, el pan"],
+        ["lecker","delicioso"]
       ],
       grammar: [
         ["\"Ich hätte gern\" para pedir con cortesía", "\"Ich hätte gern\" (literalmente \"tendría gusto en\") es más educado que \"ich will\" al pedir algo.", "Ich hätte gern einen Kaffee, bitte. (Más cortés que \"Ich will einen Kaffee\".)"]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"the menu\" en alemán?", ["Die Speisekarte","Die Rechnung","Der Teller","Der Tisch"], 0, "Die Speisekarte = the menu. Die Rechnung = the bill, der Teller = the plate, der Tisch = the table."],
-      ["fill", "Completa: \"___ einen Kaffee, bitte.\" (I would like)", ["Ich hätte gern","Ich will","Ich hatte","Ich werde"], 0, "\"Ich hätte gern\" es la forma más cortés para pedir algo en un restaurante."],
-      ["mcq", "¿Qué significa \"die Rechnung, bitte\"?", ["The bill, please","The menu, please","The table, please","The water, please"], 0, "\"Die Rechnung, bitte\" = the bill, please. Se usa al terminar de comer."],
-      ["translate", "Traduce: \"This dish is delicious.\"", ["Dieses Gericht ist lecker","Dieses Gericht ist schlecht","Dieser Gericht ist lecker","Lecker ist dieses Gericht"], 0, "\"Dieses Gericht ist lecker.\" — Gericht (plato) es neutro, por eso \"dieses\"."],
-      ["mcq", "¿Cómo se dice \"waiter\" en alemán?", ["Kellner","Koch","Kunde","Besitzer"], 0, "Kellner = waiter (Kellnerin para mujer). Koch = cook, Kunde = customer."],
-      ["arrange", "Ordena: [Wasser / gern / ich / hätte / ein / Glas]", ["Ich hätte gern ein Glas Wasser","Ein Glas ich hätte gern Wasser","Wasser ich hätte gern ein Glas","Gern hätte ich Wasser ein Glas"], 0, "\"Ich hätte gern ein Glas Wasser.\" = I would like a glass of water."],
+      ["mcq", "¿Cómo se dice \"el menú\" en alemán?", ["Die Speisekarte","Die Rechnung","Der Teller","Der Tisch"], 0, "Die Speisekarte = el menú. Die Rechnung = la cuenta, der Teller = el plato, der Tisch = la mesa."],
+      ["fill", "Completa: \"___ einen Kaffee, bitte.\" (Quisiera)", ["Ich hätte gern","Ich will","Ich hatte","Ich werde"], 0, "\"Ich hätte gern\" es la forma más cortés para pedir algo en un restaurante."],
+      ["mcq", "¿Qué significa \"die Rechnung, bitte\"?", ["La cuenta, por favor","El menú, por favor","La mesa, por favor","El agua, por favor"], 0, "\"Die Rechnung, bitte\" = la cuenta, por favor. Se usa al terminar de comer."],
+      ["translate", "Traduce al alemán: \"Este plato está delicioso.\"", ["Dieses Gericht ist lecker","Dieses Gericht ist schlecht","Dieser Gericht ist lecker","Lecker ist dieses Gericht"], 0, "\"Dieses Gericht ist lecker.\" — Gericht (plato) es neutro, por eso \"dieses\"."],
+      ["mcq", "¿Cómo se dice \"mesero\" en alemán?", ["Kellner","Koch","Kunde","Besitzer"], 0, "Kellner = mesero (Kellnerin para mujer). Koch = cocinero, Kunde = cliente."],
+      ["arrange", "Ordena: [Wasser / gern / ich / hätte / ein / Glas]", ["Ich hätte gern ein Glas Wasser","Ein Glas ich hätte gern Wasser","Wasser ich hätte gern ein Glas","Gern hätte ich Wasser ein Glas"], 0, "\"Ich hätte gern ein Glas Wasser.\" = Quisiera un vaso de agua."],
     ]
   },
   {
@@ -126,23 +126,23 @@ window.LESSON_BANKS.DE = [
     description:"Habla sobre tu día: mañana, tarde y noche en alemán.",
     study: {
       vocab: [
-        ["aufwachen", "to wake up"],
-        ["aufstehen", "to get up"],
-        ["frühstücken / zu Mittag essen / zu Abend essen", "to have breakfast/lunch/dinner"],
-        ["zur Arbeit gehen", "to go to work"],
-        ["jeden Tag", "every day"]
+        ["aufwachen","despertarse"],
+        ["aufstehen","levantarse"],
+        ["frühstücken / zu Mittag essen / zu Abend essen","desayunar / almorzar / cenar"],
+        ["zur Arbeit gehen","ir al trabajo"],
+        ["jeden Tag","todos los días"]
       ],
       grammar: [
         ["Verbos separables en presente", "Muchos verbos de rutina son \"separables\": el prefijo (auf-) se separa y va al final de la oración en presente.", "Ich stehe um 7 Uhr auf. (aufstehen → stehe...auf)"]
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"I wake up at 7\"?", ["Ich wache um 7 Uhr auf","Du wachst um 7 Uhr auf","Er wacht um 7 Uhr auf","Aufwachen um 7 Uhr"], 0, "\"Ich wache um 7 Uhr auf.\" — el verbo separable \"aufwachen\" se divide: wache...auf."],
-      ["fill", "Completa: \"Sie ___ um 8 Uhr ___.\" (gets up)", ["steht / auf","stehe / auf","stehst / auf","aufstehen"], 0, "\"Sie steht um 8 Uhr auf.\" — \"aufstehen\" se separa: steht...auf."],
-      ["mcq", "¿Qué significa \"frühstücken\"?", ["To have breakfast","To have lunch","To have dinner","To sleep"], 0, "Frühstücken = to have breakfast. Zu Mittag essen = to have lunch, zu Abend essen = to have dinner."],
-      ["translate", "Traduce: \"I go to work at 9.\"", ["Ich gehe um 9 Uhr zur Arbeit","Ich gehe zur Arbeit 9 Uhr","Er geht um 9 Uhr zur Arbeit","Ich um 9 Uhr gehe zur Arbeit"], 0, "\"Ich gehe um 9 Uhr zur Arbeit.\" — \"zur Arbeit gehen\" y \"um + hora\" para indicar el momento."],
-      ["mcq", "¿Cómo se dice \"every day\" en alemán?", ["Jeden Tag","Ein Tag","Irgendwann","Der andere Tag"], 0, "Jeden Tag = every day. Ein Tag = one day."],
-      ["arrange", "Ordena: [Uhr / ich / zehn / schlafe / um]", ["Ich schlafe um zehn Uhr","Um zehn Uhr ich schlafe","Zehn Uhr ich schlafe um","Ich um zehn Uhr schlafe"], 0, "\"Ich schlafe um zehn Uhr.\" = I sleep at ten. Sujeto (ich) + verbo (schlafe) + preposición + hora."],
+      ["mcq", "¿Cómo se dice \"Me despierto a las 7\" en alemán?", ["Ich wache um 7 Uhr auf","Du wachst um 7 Uhr auf","Er wacht um 7 Uhr auf","Aufwachen um 7 Uhr"], 0, "\"Ich wache um 7 Uhr auf.\" — el verbo separable \"aufwachen\" se divide: wache...auf."],
+      ["fill", "Completa: \"Sie ___ um 8 Uhr ___.\" (se levanta)", ["steht / auf","stehe / auf","stehst / auf","aufstehen"], 0, "\"Sie steht um 8 Uhr auf.\" — \"aufstehen\" se separa: steht...auf."],
+      ["mcq", "¿Qué significa \"frühstücken\"?", ["Desayunar","Almorzar","Cenar","Dormir"], 0, "Frühstücken = desayunar. Zu Mittag essen = almorzar, zu Abend essen = cenar."],
+      ["translate", "Traduce al alemán: \"Voy al trabajo a las 9.\"", ["Ich gehe um 9 Uhr zur Arbeit","Ich gehe zur Arbeit 9 Uhr","Er geht um 9 Uhr zur Arbeit","Ich um 9 Uhr gehe zur Arbeit"], 0, "\"Ich gehe um 9 Uhr zur Arbeit.\" — \"zur Arbeit gehen\" y \"um + hora\" para indicar el momento."],
+      ["mcq", "¿Cómo se dice \"todos los días\" en alemán?", ["Jeden Tag","Ein Tag","Irgendwann","Der andere Tag"], 0, "Jeden Tag = todos los días. Ein Tag = un día."],
+      ["arrange", "Ordena: [Uhr / ich / zehn / schlafe / um]", ["Ich schlafe um zehn Uhr","Um zehn Uhr ich schlafe","Zehn Uhr ich schlafe um","Ich um zehn Uhr schlafe"], 0, "\"Ich schlafe um zehn Uhr.\" = Duermo a las diez. Sujeto (ich) + verbo (schlafe) + preposición + hora."],
     ]
   },
   {
@@ -670,23 +670,23 @@ window.LESSON_BANKS.DE = [
     description:"Lerne die Wochentage, die Monate und wie man auf Deutsch über Daten spricht.",
     study: {
       vocab: [
-        ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
-        ["Januar, Februar, März... Dezember", "January, February, March... December"],
-        ["Welcher Tag ist heute?", "What day is it today?"],
-        ["Heute ist der 5. Mai.", "Today is May 5th.", "Auf Deutsch: \"der\" + Ordnungszahl + Monat."],
-        ["Wann hast du Geburtstag?", "When is your birthday?"]
+        ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag","lunes, martes, miércoles, jueves, viernes, sábado, domingo"],
+        ["Januar, Februar, März... Dezember","enero, febrero, marzo... diciembre"],
+        ["Welcher Tag ist heute?","¿Qué día es hoy?"],
+        ["Heute ist der 5. Mai.","Hoy es 5 de mayo.", "Auf Deutsch: \"der\" + Ordnungszahl + Monat."],
+        ["Wann hast du Geburtstag?","¿Cuándo es tu cumpleaños?"]
       ],
       grammar: [
         ["Präposition \"am\" mit Wochentagen", "Mit Wochentagen und Daten benutzt man \"am\".", "Am Montag habe ich einen Termin. Ich gehe am Montag ins Fitnessstudio."]
       ]
     },
     ex:[
-      ["mcq","Wie sagt man \"Wednesday\" auf Deutsch?",["Mittwoch","Dienstag","Donnerstag","Freitag"],0,"\"Mittwoch\" ist der dritte Tag der Woche auf Deutsch."],
-      ["mcq","Wie fragt man richtig, welcher Tag heute ist?",["Welcher Tag ist heute?","Wie spät ist heute?","Wie alt bist du heute?","Wo wohnst du heute?"],0,"\"Welcher Tag ist heute?\" fragt nach dem Wochentag oder Datum."],
-      ["fill","Ergänze: \"Mein Geburtstag ist ___ 10. März.\"",["am","im","um","an"],0,"Mit einem genauen Datum benutzt man \"am\": \"am 10. März\"."],
-      ["translate","Übersetze: \"Today is Monday.\"",["Heute ist Montag.","Heute ist Dienstag.","Gestern war Montag.","Heute ist ein Montag."],0,"\"Today is Monday\" = \"Heute ist Montag\", ohne Artikel vor dem Wochentag."],
-      ["arrange","Bringe in die richtige Reihenfolge: [gehe / Montag / ich / Fitnessstudio / am / ins]",["Ich gehe am Montag ins Fitnessstudio","Am Montag gehe ich ins Fitnessstudio","Ins Fitnessstudio gehe ich am Montag","Ich am Montag gehe ins Fitnessstudio"],0,"Subjekt + Verb + Zeitangabe + Ort: \"Ich gehe am Montag ins Fitnessstudio.\" oder \"Am Montag gehe ich ins Fitnessstudio.\" (beide korrekt, hier wählen wir Variante mit Subjekt zuerst)."],
-      ["writing","Schreibe 3 Sätze (20-30 Wörter) auf Deutsch über deine Woche: welcher Tag heute ist, wann dein Geburtstag ist, und was du an einem bestimmten Tag machst.",[],["heute","Geburtstag","am"],"Verwende mindestens einen Wochentag und einen Monat. Achte auf die Präposition \"am\"."]
+      ["mcq", "¿Cómo se dice \"miércoles\" en alemán?", ["Mittwoch","Dienstag","Donnerstag","Freitag"], 0, "\"Mittwoch\" es el tercer día de la semana en alemán."],
+      ["mcq", "¿Cuál es la forma correcta de preguntar qué día es hoy?", ["Welcher Tag ist heute?","Wie spät ist heute?","Wie alt bist du heute?","Wo wohnst du heute?"], 0, "\"Welcher Tag ist heute?\" pregunta por el día de la semana o la fecha."],
+      ["fill", "Completa: \"Mein Geburtstag ist ___ 10. März.\"", ["am","im","um","an"], 0, "Con una fecha exacta se usa \"am\": \"am 10. März\"."],
+      ["translate", "Traduce al alemán: \"Hoy es lunes.\"", ["Heute ist Montag.","Heute ist Dienstag.","Gestern war Montag.","Heute ist ein Montag."], 0, "\"Hoy es lunes\" = \"Heute ist Montag\", sin artículo antes del día de la semana."],
+      ["arrange", "Ordena: [gehe / Montag / ich / Fitnessstudio / am / ins]", ["Ich gehe am Montag ins Fitnessstudio","Am Montag gehe ich ins Fitnessstudio","Ins Fitnessstudio gehe ich am Montag","Ich am Montag gehe ins Fitnessstudio"], 0, "Sujeto + verbo + indicador de tiempo + lugar: \"Ich gehe am Montag ins Fitnessstudio.\" o \"Am Montag gehe ich ins Fitnessstudio.\" (ambas correctas; aquí elegimos la variante con el sujeto primero)."],
+      ["writing", "Escribe 3 oraciones (20-30 palabras) en alemán sobre tu semana: qué día es hoy, cuándo es tu cumpleaños, y qué haces en un día determinado.", [], ["heute", "Geburtstag", "am"], "Usa al menos un día de la semana y un mes. Presta atención a la preposición \"am\"."],
     ]
   },
   {
@@ -817,11 +817,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Zimmer, Möbel und Gegenstände in einem Haus auf Deutsch.",
     study: {
       vocab: [
-        ["die Küche, das Badezimmer, das Schlafzimmer, das Wohnzimmer", "the kitchen, the bathroom, the bedroom, the living room"],
-        ["das Bett, der Tisch, der Stuhl, das Sofa", "the bed, the table, the chair, the sofa"],
-        ["Wo ist die Küche?", "Where is the kitchen?"],
-        ["Das Bett ist im Schlafzimmer.", "The bed is in the bedroom."],
-        ["auf, unter, neben", "on top of, under, next to"]
+        ["die Küche, das Badezimmer, das Schlafzimmer, das Wohnzimmer","la cocina, el baño, el dormitorio, la sala"],
+        ["das Bett, der Tisch, der Stuhl, das Sofa","la cama, la mesa, la silla, el sofá"],
+        ["Wo ist die Küche?","¿Dónde está la cocina?"],
+        ["Das Bett ist im Schlafzimmer.","La cama está en el dormitorio."],
+        ["auf, unter, neben","encima de, debajo de, al lado de"]
       ],
       grammar: [
         ["\"Es gibt\" für Gegenstände in einem Raum", "\"Es gibt\" + Akkusativ beschreibt, was sich in einem Raum befindet.", "Es gibt einen Tisch in der Küche. Es gibt zwei Stühle daneben."]
@@ -831,7 +831,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","Wo schläfst du normalerweise?",["Im Schlafzimmer.","In der Küche.","Im Badezimmer.","Im Wohnzimmer."],0,"\"Das Schlafzimmer\" ist der Raum, in dem man schläft."],
       ["mcq","Wie fragt man richtig, wo sich etwas befindet?",["Wo ist die Küche?","Was ist die Küche?","Wann ist die Küche?","Wer ist die Küche?"],0,"\"Wo ist...?\" fragt nach dem Ort von etwas."],
       ["fill","Ergänze: \"Das Sofa ist ___ dem Fenster.\"",["neben","auf","unter","hinter"],0,"\"Neben\" zeigt an, dass zwei Dinge nebeneinander sind."],
-      ["translate","Übersetze: \"The bed is in the bedroom.\"",["Das Bett ist im Schlafzimmer.","Das Bett ist in der Küche.","Der Stuhl ist im Schlafzimmer.","Das Bett ist das Schlafzimmer."],0,"\"The bed is in the bedroom\" = \"Das Bett ist im Schlafzimmer.\""],
+      ["translate","Traduce al alemán: \"La cama está en el dormitorio.\"",["Das Bett ist im Schlafzimmer.","Das Bett ist in der Küche.","Der Stuhl ist im Schlafzimmer.","Das Bett ist das Schlafzimmer."],0,"\"La cama está en el dormitorio\" = \"Das Bett ist im Schlafzimmer.\""],
       ["arrange","Bringe in die richtige Reihenfolge: [Küche / einen / gibt / es / Tisch / der / in]",["Es gibt einen Tisch in der Küche","In der Küche gibt es einen Tisch","Einen Tisch es gibt in der Küche","Es einen Tisch gibt in der Küche"],0,"\"Es gibt\" + Objekt + \"in\" + Ort: \"Es gibt einen Tisch in der Küche.\""],
       ["writing","Beschreibe auf Deutsch in 20-30 Wörtern deine Wohnung oder dein Haus: welche Zimmer es gibt und welche Möbel in einem davon stehen.",[],["Schlafzimmer","es gibt"],"Erwähne mindestens zwei Zimmer und zwei Möbelstücke."]
     ]
@@ -962,11 +962,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, grundlegende Emotionen und Gefühle auf Deutsch auszudrücken.",
     study: {
       vocab: [
-        ["glücklich, traurig, müde, wütend sein", "to be happy, sad, tired, angry"],
-        ["Wie fühlst du dich?", "How do you feel?"],
-        ["Ich bin ein bisschen nervös.", "I'm a bit nervous."],
-        ["Angst haben, müde sein, Hunger haben", "to be afraid, to be sleepy, to be hungry"],
-        ["Warum bist du traurig?", "Why are you sad?"]
+        ["glücklich, traurig, müde, wütend sein","estar feliz, triste, cansado, enojado"],
+        ["Wie fühlst du dich?","¿Cómo te sientes?"],
+        ["Ich bin ein bisschen nervös.","Estoy un poco nervioso/a."],
+        ["Angst haben, müde sein, Hunger haben","tener miedo, estar cansado, tener hambre"],
+        ["Warum bist du traurig?","¿Por qué estás triste?"]
       ],
       grammar: [
         ["\"Sein\" mit Emotionen", "Emotionen werden mit \"sein\" + Adjektiv ausgedrückt.", "Ich bin heute glücklich. / Sie ist nach der Arbeit müde."]
@@ -976,7 +976,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","Wie fragst du jemanden, wie er sich fühlt?",["Wie fühlst du dich?","Wie heißt du?","Wo wohnst du?","Wie alt bist du?"],0,"\"Wie fühlst du dich?\" fragt nach dem emotionalen Zustand von jemandem."],
       ["mcq","Du hast viel Arbeit und wenig Erholung. Wie fühlst du dich?",["Ich bin müde.","Ich bin glücklich.","Ich habe Hunger.","Mir ist kalt."],0,"Viel Arbeit und wenig Erholung führen typischerweise dazu, sich \"müde\" zu fühlen."],
       ["fill","Ergänze: \"Ich ___ ein bisschen nervös vor der Prüfung.\"",["bin","bist","habe","mache"],0,"Emotionen werden mit \"sein\" ausgedrückt: \"Ich bin ein bisschen nervös.\""],
-      ["translate","Übersetze: \"Why are you sad?\"",["Warum bist du traurig?","Warum bist du trauriges?","Warum du bist traurig?","Warum hast du traurig?"],0,"\"Why are you sad?\" = \"Warum bist du traurig?\", mit \"sein\" für einen emotionalen Zustand."],
+      ["translate","Traduce al alemán: \"¿Por qué estás triste?\"",["Warum bist du traurig?","Warum bist du trauriges?","Warum du bist traurig?","Warum hast du traurig?"],0,"\"¿Por qué estás triste?\" = \"Warum bist du traurig?\", usando \"sein\" para un estado emocional."],
       ["arrange","Bringe in die richtige Reihenfolge: [Arbeit / müde / nach / ich / bin / der]",["Ich bin müde nach der Arbeit","Nach der Arbeit bin ich müde","Müde bin ich nach der Arbeit","Ich bin nach der Arbeit müde"],0,"Subjekt + \"bin\" + Adjektiv + Zeitangabe, oder Zeitangabe zuerst: \"Nach der Arbeit bin ich müde.\""],
       ["writing","Schreibe auf Deutsch 20-30 Wörter darüber, wie du dich heute fühlst und warum. Benutze mindestens zwei verschiedene Emotionen.",[],["ich bin","weil","ich fühle mich"],"Nenne einen konkreten Grund für jede beschriebene Emotion."]
     ]
@@ -1107,11 +1107,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, auf Deutsch über Preise, Geld und Ordnungszahlen zu sprechen.",
     study: {
       vocab: [
-        ["erste, zweite, dritte...", "first, second, third..."],
-        ["Wie viel kostet das?", "How much does this cost?"],
-        ["Das kostet zehn Euro.", "It costs ten euros."],
-        ["billig, teuer", "cheap, expensive"],
-        ["bar bezahlen / mit Karte bezahlen", "to pay in cash / by card"]
+        ["erste, zweite, dritte...","primero, segundo, tercero..."],
+        ["Wie viel kostet das?","¿Cuánto cuesta esto?"],
+        ["Das kostet zehn Euro.","Esto cuesta diez euros."],
+        ["billig, teuer","barato, caro"],
+        ["bar bezahlen / mit Karte bezahlen","pagar en efectivo / pagar con tarjeta"]
       ],
       grammar: [
         ["\"Kosten\" für Preise", "\"Kostet\" (Singular) und \"kosten\" (Plural) stimmen mit dem Gekauften überein.", "Das Buch kostet zehn Euro. Die Bücher kosten zwanzig Euro."]
@@ -1252,11 +1252,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den grundlegenden Wortschatz für Berufe und wie man über seinen Job spricht.",
     study: {
       vocab: [
-        ["Arzt/Ärztin, Lehrer/in, Ingenieur/in, Kellner/in", "doctor, teacher, engineer, waiter/waitress"],
-        ["Was machst du beruflich?", "What do you do for a living?"],
-        ["Ich bin Student(in) / Ich arbeite in einem Büro.", "I'm a student / I work in an office."],
-        ["Wo arbeitest du?", "Where do you work?"],
-        ["als + Beruf arbeiten", "to work as + profession"]
+        ["Arzt/Ärztin, Lehrer/in, Ingenieur/in, Kellner/in","médico/a, profesor/a, ingeniero/a, mesero/a"],
+        ["Was machst du beruflich?","¿A qué te dedicas?"],
+        ["Ich bin Student(in) / Ich arbeite in einem Büro.","Soy estudiante / Trabajo en una oficina."],
+        ["Wo arbeitest du?","¿Dónde trabajas?"],
+        ["als + Beruf arbeiten","trabajar de/como + profesión"]
       ],
       grammar: [
         ["\"Sein\" mit Berufen (ohne Artikel)", "Bei Berufen benutzt \"sein\" keinen unbestimmten Artikel, anders als im Englischen.", "Ich bin Lehrer. (nicht \"Ich bin ein Lehrer\")"]
@@ -1396,25 +1396,25 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für gängige Tiere und die Natur auf Deutsch.",
     study: {
       vocab: [
-        ["der Hund", "the dog"],
-        ["die Katze", "the cat"],
-        ["der Vogel", "the bird"],
-        ["das Pferd", "the horse"],
-        ["der Fisch", "the fish"],
-        ["die Kuh", "the cow"],
-        ["der Wald, der Berg, der Fluss", "the forest, the mountain, the river"],
+        ["der Hund","el perro"],
+        ["die Katze","el gato"],
+        ["der Vogel","el pájaro"],
+        ["das Pferd","el caballo"],
+        ["der Fisch","el pez"],
+        ["die Kuh","la vaca"],
+        ["der Wald, der Berg, der Fluss","el bosque, la montaña, el río"],
       ],
       grammar: [
         ["Das grammatische Geschlecht bei Tieren", "Tiernamen haben ein festes grammatisches Geschlecht (der/die/das), das nicht immer dem biologischen Geschlecht entspricht.", "der Hund, die Katze, das Pferd — unabhängig vom biologischen Geschlecht des Tieres."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Pferd“ auf Englisch?",["the horse", "the cat", "the bird", "the dog"],0,"„Pferd“ heißt „horse“ auf Englisch."],
-      ["mcq","Wie sagt man „der Vogel“ auf Englisch?",["the dog", "the cow", "the fish", "the bird"],3,"„Vogel“ heißt „bird“ auf Englisch."],
-      ["fill","Completa: “Ich gehe sonntags gern im ___ spazieren.”",["Katze", "Fisch", "Kuh", "Wald"],3,"„Im Wald spazieren gehen“ ist eine typische Aktivität in der Natur."],
-      ["translate","Übersetze: „The dog is very friendly.“",["Die Katze ist sehr freundlich.", "Der Vogel ist sehr freundlich.", "Der Hund ist sehr freundlich.", "Das Pferd ist sehr freundlich."],2,"„The dog“ = „der Hund“; „friendly“ = „freundlich“."],
-      ["arrange","Bringe in die richtige Reihenfolge: [schwarze / eine / habe / Katze / ich]",["Ich habe eine schwarze Katze", "Katze habe Ich schwarze eine", "schwarze habe eine Katze Ich", "habe schwarze Katze eine Ich"],0,"Subjekt + Verb + Artikel + Adjektiv + Substantiv."],
-      ["writing","Schreibe auf Deutsch 20-30 Wörter über ein Tier, das du magst, und einen Ort in der Natur, den du gerne besuchst.",[],["ich mag", "der Wald", "das Tier"]],
+      ["mcq", "¿Cómo se dice \"el caballo\" en alemán?", ["das Pferd","die Katze","der Vogel","der Hund"], 0, "\"Caballo\" es \"Pferd\" en alemán."],
+      ["mcq", "¿Cómo se dice \"el pájaro\" en alemán?", ["der Hund","die Kuh","der Fisch","der Vogel"], 3, "\"Pájaro\" es \"Vogel\" en alemán."],
+      ["fill", "Completa: \"Ich gehe sonntags gern im ___ spazieren.\"", ["Katze","Fisch","Kuh","Wald"], 3, "\"Im Wald spazieren gehen\" (pasear por el bosque) es una actividad típica en la naturaleza."],
+      ["translate", "Traduce al alemán: \"El perro es muy amigable.\"", ["Die Katze ist sehr freundlich.","Der Vogel ist sehr freundlich.","Der Hund ist sehr freundlich.","Das Pferd ist sehr freundlich."], 2, "\"El perro\" = \"der Hund\"; \"amigable\" = \"freundlich\"."],
+      ["arrange", "Ordena: [schwarze / eine / habe / Katze / ich]", ["Ich habe eine schwarze Katze","Katze habe Ich schwarze eine","schwarze habe eine Katze Ich","habe schwarze Katze eine Ich"], 0, "Sujeto + verbo + artículo + adjetivo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, un animal que te guste y un lugar en la naturaleza que te guste visitar.", [], ["ich mag", "der Wald", "das Tier"]],
     ]
   },
   {
@@ -1546,25 +1546,25 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Kleidungsstücke und wie man sie mit Farben kombiniert.",
     study: {
       vocab: [
-        ["das Hemd", "the shirt"],
-        ["die Hose", "the pants/trousers"],
-        ["die Schuhe", "the shoes"],
-        ["das Kleid", "the dress"],
-        ["die Jacke", "the jacket"],
-        ["der Rock", "the skirt"],
-        ["rot, blau, grün, schwarz, weiß", "red, blue, green, black, white"],
+        ["das Hemd","la camisa"],
+        ["die Hose","el pantalón"],
+        ["die Schuhe","los zapatos"],
+        ["das Kleid","el vestido"],
+        ["die Jacke","la chaqueta"],
+        ["der Rock","la falda"],
+        ["rot, blau, grün, schwarz, weiß","rojo, azul, verde, negro, blanco"],
       ],
       grammar: [
         ["Adjektivendungen bei Farben", "Farbadjektive bekommen im Deutschen eine Endung, die vom Artikel und vom Fall abhängt.", "ein rotes Kleid / schwarze Schuhe / das grüne Hemd"],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Jacke“ auf Englisch?",["the pants/trousers", "the shirt", "the jacket", "the skirt"],2,"„Jacke“ heißt „jacket“ auf Englisch."],
-      ["mcq","Wie sagt man „die Schuhe“ auf Englisch?",["the dress", "the shoes", "the shirt", "the skirt"],1,"„Schuhe“ heißt „shoes“ auf Englisch."],
-      ["fill","Completa: “Ich trage ein ___ Hemd und eine schwarze Hose.”",["blaue", "blauen", "blau", "blaues"],3,"„Hemd“ ist sächlich, daher die Endung: „ein blaues Hemd“."],
-      ["translate","Übersetze: „I'm wearing a red dress.“",["Ich trage rote Schuhe.", "Ich trage einen roten Rock.", "Ich trage ein rotes Hemd.", "Ich trage ein rotes Kleid."],3,"„I'm wearing“ = „Ich trage“; „a red dress“ = „ein rotes Kleid“."],
-      ["arrange","Bringe in die richtige Reihenfolge: [schwarze / habe / ich / Schuhe]",["Ich habe schwarze Schuhe", "Ich Schuhe schwarze habe", "schwarze Ich Schuhe habe", "Ich habe Schuhe schwarze"],0,"Subjekt + Verb + Adjektiv + Substantiv (Pluralendung ohne Artikel)."],
-      ["writing","Beschreibe auf Deutsch, in 20-30 Wörtern, die Kleidung, die du heute trägst, und nenne mindestens drei Kleidungsstücke und ihre Farben.",[],["ich trage", "-farben", "und"]],
+      ["mcq", "¿Cómo se dice \"la chaqueta\" en alemán?", ["die Hose","das Hemd","die Jacke","der Rock"], 2, "\"Chaqueta\" es \"Jacke\" en alemán."],
+      ["mcq", "¿Cómo se dice \"los zapatos\" en alemán?", ["das Kleid","die Schuhe","das Hemd","der Rock"], 1, "\"Zapatos\" es \"Schuhe\" en alemán."],
+      ["fill", "Completa: \"Ich trage ein ___ Hemd und eine schwarze Hose.\"", ["blaue","blauen","blau","blaues"], 3, "\"Hemd\" es neutro, por eso la terminación: \"ein blaues Hemd\"."],
+      ["translate", "Traduce al alemán: \"Estoy usando un vestido rojo.\"", ["Ich trage rote Schuhe.","Ich trage einen roten Rock.","Ich trage ein rotes Hemd.","Ich trage ein rotes Kleid."], 3, "\"Estoy usando\" = \"Ich trage\"; \"un vestido rojo\" = \"ein rotes Kleid\"."],
+      ["arrange", "Ordena: [schwarze / habe / ich / Schuhe]", ["Ich habe schwarze Schuhe","Ich Schuhe schwarze habe","schwarze Ich Schuhe habe","Ich habe Schuhe schwarze"], 0, "Sujeto + verbo + adjetivo + sustantivo (plural sin artículo)."],
+      ["writing", "Describe en alemán, en 20-30 palabras, la ropa que llevas puesta hoy, mencionando al menos tres prendas y sus colores.", [], ["ich trage", "-farben", "und"]],
     ]
   },
   {
@@ -1697,25 +1697,25 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Orte im Viertel und wie man auf Deutsch sagt, wo sie sind.",
     study: {
       vocab: [
-        ["die Bank", "the bank"],
-        ["der Supermarkt", "the supermarket"],
-        ["der Park", "the park"],
-        ["die Apotheke", "the pharmacy"],
-        ["die Bibliothek", "the library"],
-        ["die Bushaltestelle", "the bus stop"],
-        ["in der Nähe von, weit weg von, neben", "near, far from, next to"],
+        ["die Bank","el banco"],
+        ["der Supermarkt","el supermercado"],
+        ["der Park","el parque"],
+        ["die Apotheke","la farmacia"],
+        ["die Bibliothek","la biblioteca"],
+        ["die Bushaltestelle","la parada de autobús"],
+        ["in der Nähe von, weit weg von, neben","cerca de, lejos de, al lado de"],
       ],
       grammar: [
         ["„Es gibt“ + Ortspräpositionen", "„Es gibt“ (there is/are) drückt aus, dass etwas an einem Ort existiert; es folgt immer der Akkusativ. Ortspräpositionen zeigen, wo sich etwas befindet.", "Es gibt eine Apotheke in der Nähe des Parks. / Die Bibliothek ist neben der Bank."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Apotheke“ auf Englisch?",["the supermarket", "the bank", "the pharmacy", "the park"],2,"„Apotheke“ heißt auf Englisch „pharmacy“."],
-      ["mcq","Wie sagt man „die Bushaltestelle“ auf Englisch?",["the bank", "the park", "the bus stop", "the library"],2,"„Bushaltestelle“ heißt auf Englisch „bus stop“."],
-      ["fill","Completa: “In meinem Viertel ___ es eine sehr große Bibliothek.”",["hat", "sein", "ist", "gibt"],3,"„Es gibt“ drückt aus, dass etwas existiert, mit Akkusativ: „es gibt eine Bibliothek“."],
-      ["translate","Übersetze: „The pharmacy is next to the park.“",["Die Apotheke ist weit weg vom Park.", "Die Bank ist neben dem Park.", "Die Apotheke ist in der Nähe der Bibliothek.", "Die Apotheke ist neben dem Park."],3,"„Next to“ = „neben“; Subjekt und Ort müssen dem Original entsprechen."],
-      ["arrange","Bring in die richtige Reihenfolge: [Supermarkt / weit / der / nicht / ist]",["Der Supermarkt ist nicht weit", "Supermarkt weit nicht Der ist", "Supermarkt nicht ist Der weit", "ist Supermarkt nicht weit Der"],0,"Subjekt + Verb + Negation + Ortsadverb."],
-      ["writing","Beschreibe in 20-30 Wörtern dein Viertel: welche Orte es gibt und wo sie sind (benutze „es gibt“, „in der Nähe von“ und „weit weg von“).",[],["es gibt", "in der Nähe von", "weit weg von"]],
+      ["mcq", "¿Cómo se dice \"la farmacia\" en alemán?", ["der Supermarkt","die Bank","die Apotheke","der Park"], 2, "\"Farmacia\" es \"Apotheke\" en alemán."],
+      ["mcq", "¿Cómo se dice \"la parada de autobús\" en alemán?", ["die Bank","der Park","die Bushaltestelle","die Bibliothek"], 2, "\"Parada de autobús\" es \"Bushaltestelle\" en alemán."],
+      ["fill", "Completa: \"In meinem Viertel ___ es eine sehr große Bibliothek.\"", ["hat","sein","ist","gibt"], 3, "\"Es gibt\" expresa que algo existe, con acusativo: \"es gibt eine Bibliothek\"."],
+      ["translate", "Traduce al alemán: \"La farmacia está al lado del parque.\"", ["Die Apotheke ist weit weg vom Park.","Die Bank ist neben dem Park.","Die Apotheke ist in der Nähe der Bibliothek.","Die Apotheke ist neben dem Park."], 3, "\"Al lado de\" = \"neben\"; el sujeto y el lugar deben coincidir con el original."],
+      ["arrange", "Ordena: [Supermarkt / weit / der / nicht / ist]", ["Der Supermarkt ist nicht weit","Supermarkt weit nicht Der ist","Supermarkt nicht ist Der weit","ist Supermarkt nicht weit Der"], 0, "Sujeto + verbo + negación + adverbio de lugar."],
+      ["writing", "Describe en 20-30 palabras tu barrio: qué lugares hay y dónde están (usa \"es gibt\", \"in der Nähe von\" y \"weit weg von\").", [], ["es gibt", "in der N\u00e4he von", "weit weg von"]],
     ]
   },
   {
@@ -1848,24 +1848,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Reisevokabular und wie man mit „werden“ + Infinitiv über nahe Pläne spricht.",
     study: {
       vocab: [
-        ["der Reisepass", "the passport"],
-        ["der Koffer", "the suitcase"],
-        ["der Flug", "the flight"],
-        ["das Zimmer", "the room"],
-        ["die Reservierung", "the booking"],
-        ["das Gepäck einchecken", "to check in luggage"],
+        ["der Reisepass","el pasaporte"],
+        ["der Koffer","la maleta"],
+        ["der Flug","el vuelo"],
+        ["das Zimmer","la habitación"],
+        ["die Reservierung","la reserva"],
+        ["das Gepäck einchecken","facturar el equipaje"],
       ],
       grammar: [
         ["„Werden“ + Infinitiv für nahe Zukunft", "Im Alltag drückt man nahe Pläne oft mit Präsens + Zeitangabe aus, aber „werden“ + Infinitiv betont die Absicht.", "Ich werde das Gepäck einchecken. / Wir werden für Freitag ein Zimmer reservieren."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Reisepass“ auf Englisch?",["the suitcase", "to check in luggage", "the flight", "the passport"],3,"„Reisepass“ heißt auf Englisch „passport“."],
-      ["mcq","Wie sagt man „das Gepäck einchecken“ auf Englisch?",["the room", "to check in luggage", "the flight", "the booking"],1,"„Das Gepäck einchecken“ heißt auf Englisch „to check in luggage“."],
-      ["fill","Completa: “Morgen ___ ich das Gepäck sehr früh einchecken.”",["werde", "wurde", "werden", "bin"],0,"„Werden“ + Infinitiv: „ich werde einchecken“, „werden“ wird nach dem Subjekt konjugiert."],
-      ["translate","Übersetze: „We are going to book a room for Friday.“",["Wir werden für Freitag ein Zimmer einchecken.", "Wir werden für Freitag ein Zimmer reservieren.", "Wir werden für Montag ein Zimmer reservieren.", "Wir werden für Freitag einen Flug reservieren."],1,"„We are going to book“ = „Wir werden reservieren“, mit „werden“ + Infinitiv."],
-      ["arrange","Bring in die richtige Reihenfolge: [Reisepass / werde / meinen / suchen / ich]",["werde meinen suchen Reisepass Ich", "Reisepass suchen Ich werde meinen", "Reisepass Ich werde meinen suchen", "Ich werde meinen Reisepass suchen"],3,"Subjekt + „werden“ + Possessivobjekt + Infinitiv."],
-      ["writing","Beschreibe in 20-30 Wörtern deine Reisepläne: was du tun wirst (Gepäck einchecken, Zimmer reservieren usw.) und benutze „werden“ + Infinitiv.",[],["ich werde", "wir werden", "reservieren"]],
+      ["mcq", "¿Cómo se dice \"el pasaporte\" en alemán?", ["der Koffer","das Gepäck einchecken","der Flug","der Reisepass"], 3, "\"Pasaporte\" es \"Reisepass\" en alemán."],
+      ["mcq", "¿Cómo se dice \"facturar el equipaje\" en alemán?", ["das Zimmer","das Gepäck einchecken","der Flug","die Reservierung"], 1, "\"Facturar el equipaje\" es \"das Gepäck einchecken\" en alemán."],
+      ["fill", "Completa: \"Morgen ___ ich das Gepäck sehr früh einchecken.\"", ["werde","wurde","werden","bin"], 0, "\"Werden\" + infinitivo: \"ich werde einchecken\"; \"werden\" se conjuga según el sujeto."],
+      ["translate", "Traduce al alemán: \"Vamos a reservar una habitación para el viernes.\"", ["Wir werden für Freitag ein Zimmer einchecken.","Wir werden für Freitag ein Zimmer reservieren.","Wir werden für Montag ein Zimmer reservieren.","Wir werden für Freitag einen Flug reservieren."], 1, "\"Vamos a reservar\" = \"Wir werden reservieren\", con \"werden\" + infinitivo."],
+      ["arrange", "Ordena: [Reisepass / werde / meinen / suchen / ich]", ["werde meinen suchen Reisepass Ich","Reisepass suchen Ich werde meinen","Reisepass Ich werde meinen suchen","Ich werde meinen Reisepass suchen"], 3, "Sujeto + \"werden\" + objeto posesivo + infinitivo."],
+      ["writing", "Describe en 20-30 palabras tus planes de viaje: qué vas a hacer (facturar el equipaje, reservar una habitación, etc.), usando \"werden\" + infinitivo.", [], ["ich werde", "wir werden", "reservieren"]],
     ]
   },
   {
@@ -1998,24 +1998,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Sport-Vokabular und wie man mit „gern” Vorlieben ausdrückt.",
     study: {
       vocab: [
-        ["der Fußball", "soccer/football"],
-        ["das Schwimmen", "swimming"],
-        ["laufen", "to run"],
-        ["das Fitnessstudio", "the gym"],
-        ["Sport treiben", "to exercise"],
-        ["das Team", "the team"],
+        ["der Fußball","el fútbol"],
+        ["das Schwimmen","la natación"],
+        ["laufen","correr"],
+        ["das Fitnessstudio","el gimnasio"],
+        ["Sport treiben","hacer ejercicio"],
+        ["das Team","el equipo"],
       ],
       grammar: [
         ["„Gern” + Verb für Vorlieben", "Im Deutschen drückt man Vorlieben mit dem Adverb „gern” nach dem Verb aus, statt mit einem eigenen Verb wie „mögen” + Infinitiv.", "Ich schwimme gern. / Sie mag Mannschaftssport."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Schwimmen” auf Englisch?",["swimming", "the team", "soccer/football", "to exercise"],0,"„Schwimmen” heißt auf Englisch „swimming”."],
-      ["mcq","Wie sagt man „das Team” auf Englisch?",["the team", "to exercise", "swimming", "to run"],0,"„Team” heißt auf Englisch „team”."],
-      ["fill","Completa: “Ich laufe ___ am Morgen.”",["gute", "gern", "gerne mag", "mögen"],1,"„Gern” steht nach dem konjugierten Verb, um eine Vorliebe auszudrücken: „ich laufe gern”."],
-      ["translate","Übersetze: „She likes team sports.“",["Sie mögen Mannschaftssport.", "Er mag Mannschaftssport.", "Sie mag Mannschaftssport.", "Sie mag Einzelsport."],2,"„Sie mag” stimmt mit dem Subjekt „sie” (Singular) überein."],
-      ["arrange","Bring in die richtige Reihenfolge: [ins / gehe / ich / Fitnessstudio / Sport zu treiben]",["Sport ins Ich zu Fitnessstudio treiben gehe", "Fitnessstudio ins treiben gehe zu Sport Ich", "zu gehe Fitnessstudio treiben Ich Sport ins", "Ich gehe ins Fitnessstudio Sport zu treiben"],3,"Subjekt + Verb + Präposition + Substantiv + Infinitivkonstruktion."],
-      ["writing","Beschreibe in 20-30 Wörtern, welche Sportarten du gern machst und wie oft du Sport treibst, und benutze „gern”.",[],["ich...gern", "Sport treiben", "Fußball"]],
+      ["mcq", "¿Cómo se dice \"la natación\" en alemán?", ["das Schwimmen","das Team","der Fußball","Sport treiben"], 0, "\"Natación\" es \"Schwimmen\" en alemán."],
+      ["mcq", "¿Cómo se dice \"el equipo\" en alemán?", ["das Team","Sport treiben","das Schwimmen","laufen"], 0, "\"Equipo\" es \"Team\" en alemán."],
+      ["fill", "Completa: \"Ich laufe ___ am Morgen.\"", ["gute","gern","gerne mag","mögen"], 1, "\"Gern\" va después del verbo conjugado para expresar preferencia: \"ich laufe gern\"."],
+      ["translate", "Traduce al alemán: \"A ella le gustan los deportes de equipo.\"", ["Sie mögen Mannschaftssport.","Er mag Mannschaftssport.","Sie mag Mannschaftssport.","Sie mag Einzelsport."], 2, "\"Sie mag\" concuerda con el sujeto \"sie\" (singular)."],
+      ["arrange", "Ordena: [ins / gehe / ich / Fitnessstudio / Sport zu treiben]", ["Sport ins Ich zu Fitnessstudio treiben gehe","Fitnessstudio ins treiben gehe zu Sport Ich","zu gehe Fitnessstudio treiben Ich Sport ins","Ich gehe ins Fitnessstudio Sport zu treiben"], 3, "Sujeto + verbo + preposición + sustantivo + construcción de infinitivo."],
+      ["writing", "Describe en 20-30 palabras qué deportes te gusta practicar y con qué frecuencia haces ejercicio, usando \"gern\".", [], ["ich...gern", "Sport treiben", "Fu\u00dfball"]],
     ]
   },
   {
@@ -2148,24 +2148,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Schulvokabular und wie man bestimmte und unbestimmte Artikel richtig benutzt.",
     study: {
       vocab: [
-        ["das Heft", "the notebook"],
-        ["der Bleistift", "the pencil"],
-        ["der Rucksack", "the backpack"],
-        ["die Mathematik", "math"],
-        ["die Geschichte", "history"],
-        ["der Lehrer/die Lehrerin", "the teacher"],
+        ["das Heft","el cuaderno"],
+        ["der Bleistift","el lápiz"],
+        ["der Rucksack","la mochila"],
+        ["die Mathematik","las matemáticas"],
+        ["die Geschichte","la historia"],
+        ["der Lehrer/die Lehrerin","el profesor/la profesora"],
       ],
       grammar: [
         ["Bestimmte und unbestimmte Artikel", "Bestimmte Artikel (der, die, das) bezeichnen etwas Bekanntes oder Spezifisches; unbestimmte Artikel (ein, eine) bezeichnen etwas Unspezifisches oder zum ersten Mal Erwähntes.", "Ich habe ein neues Heft. / Das Heft ist im Rucksack."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Bleistift” auf Englisch?",["the backpack", "history", "the pencil", "the teacher"],2,"„Bleistift” heißt auf Englisch „pencil”."],
-      ["mcq","Wie sagt man „die Mathematik” auf Englisch?",["the notebook", "history", "math", "the pencil"],2,"„Mathematik” heißt auf Englisch „math”."],
-      ["fill","Completa: “Ich habe ___ neuen Rucksack für die Schule.”",["ein", "den", "der", "einen"],3,"Der unbestimmte Artikel „einen” (Akkusativ maskulin) wird benutzt, weil es zum ersten Mal erwähnt wird."],
-      ["translate","Übersetze: „The notebook is in the backpack.“",["Der Bleistift ist im Rucksack.", "Das Heft ist im Rucksack.", "Ein Heft ist im Rucksack.", "Das Heft ist im Klassenzimmer."],1,"„The notebook” ist bereits bekannt, deshalb wird der bestimmte Artikel „das” benutzt."],
-      ["arrange","Bring in die richtige Reihenfolge: [Geschichte / sehr / ich / mag]",["sehr mag Ich Geschichte", "sehr Geschichte Ich mag", "Ich mag sehr Geschichte", "Ich mag Geschichte sehr"],3,"Subjekt + Verb + Substantiv + Adverb."],
-      ["writing","Beschreibe in 20-30 Wörtern, welche Schulsachen du hast und welches Fach dir am besten gefällt, und benutze bestimmte und unbestimmte Artikel.",[],["ein/eine", "der/die/das", "ich mag"]],
+      ["mcq", "¿Cómo se dice \"el lápiz\" en alemán?", ["der Rucksack","die Geschichte","der Bleistift","der Lehrer"], 2, "\"Lápiz\" es \"Bleistift\" en alemán."],
+      ["mcq", "¿Cómo se dice \"las matemáticas\" en alemán?", ["das Heft","die Geschichte","die Mathematik","der Bleistift"], 2, "\"Matemáticas\" es \"Mathematik\" en alemán."],
+      ["fill", "Completa: \"Ich habe ___ neuen Rucksack für die Schule.\"", ["ein","den","der","einen"], 3, "Se usa el artículo indefinido \"einen\" (acusativo masculino) porque se menciona por primera vez."],
+      ["translate", "Traduce al alemán: \"El cuaderno está en la mochila.\"", ["Der Bleistift ist im Rucksack.","Das Heft ist im Rucksack.","Ein Heft ist im Rucksack.","Das Heft ist im Klassenzimmer."], 1, "\"El cuaderno\" ya es conocido, por eso se usa el artículo definido \"das\"."],
+      ["arrange", "Ordena: [Geschichte / sehr / ich / mag]", ["sehr mag Ich Geschichte","sehr Geschichte Ich mag","Ich mag sehr Geschichte","Ich mag Geschichte sehr"], 3, "Sujeto + verbo + sustantivo + adverbio."],
+      ["writing", "Describe en 20-30 palabras qué útiles escolares tienes y cuál es tu materia favorita, usando artículos definidos e indefinidos.", [], ["ein/eine", "der/die/das", "ich mag"]],
     ]
   },
   {
@@ -2298,24 +2298,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, die Uhrzeit und die Tageszeiten mit Zeitpräpositionen zu sagen.",
     study: {
       vocab: [
-        ["der Morgen", "the morning"],
-        ["der Nachmittag", "the afternoon"],
-        ["die Nacht", "the night"],
-        ["der Mittag", "noon"],
-        ["die Mitternacht", "midnight"],
-        ["Uhr/pünktlich", "o'clock/sharp"],
+        ["der Morgen","la mañana"],
+        ["der Nachmittag","la tarde"],
+        ["die Nacht","la noche"],
+        ["der Mittag","el mediodía"],
+        ["die Mitternacht","la medianoche"],
+        ["Uhr/pünktlich","en punto/puntual"],
       ],
       grammar: [
         ["„Wie spät ist es?” + Zeitpräpositionen", "Um nach der Uhrzeit zu fragen, sagt man „Wie spät ist es?”; zur Antwort „es ist ein Uhr” oder „es ist + Zahl + Uhr”, mit „morgens/nachmittags/abends” zur genaueren Angabe.", "Es ist drei Uhr nachmittags. / Es ist ein Uhr pünktlich morgens."],
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Mitternacht” auf Englisch?",["the afternoon", "midnight", "o'clock/sharp", "the morning"],1,"„Mitternacht” heißt auf Englisch „midnight”."],
-      ["mcq","Wie sagt man „Uhr/pünktlich” auf Englisch?",["the morning", "midnight", "o'clock/sharp", "the night"],2,"„Uhr/pünktlich” heißt auf Englisch „o'clock” oder „sharp”."],
-      ["fill","Completa: “___ ist drei Uhr nachmittags.”",["Sie", "Er", "Es", "Das"],2,"Für die Uhrzeit benutzt man immer „es”: „es ist drei Uhr”."],
-      ["translate","Übersetze: „It's one o'clock in the morning.“",["Es ist zwei Uhr morgens.", "Es ist ein Uhr morgens.", "Es ist eins Uhr morgens.", "Es ist ein Uhr nachmittags."],1,"Bei „ein Uhr” wird „ein” ohne Endung verwendet, nicht „eins”."],
-      ["arrange","Bring in die richtige Reihenfolge: [Uhr / vier / es / nachmittags / ist]",["Es ist nachmittags vier Uhr", "vier ist nachmittags Es Uhr", "Es ist vier Uhr nachmittags", "ist nachmittags Es vier Uhr"],2,"Subjekt + Verb + Zahl + Substantiv + Tageszeit."],
-      ["writing","Beschreibe in 20-30 Wörtern deine tägliche Routine mit konkreten Uhrzeiten, und benutze „es ist” und „morgens/nachmittags/abends”.",[],["es ist", "morgens", "nachmittags"]],
+      ["mcq", "¿Cómo se dice \"la medianoche\" en alemán?", ["der Nachmittag","die Mitternacht","Uhr/pünktlich","der Morgen"], 1, "\"Medianoche\" es \"Mitternacht\" en alemán."],
+      ["mcq", "¿Cómo se dice \"en punto/puntual\" en alemán?", ["der Morgen","die Mitternacht","Uhr/pünktlich","die Nacht"], 2, "\"En punto/puntual\" es \"Uhr/pünktlich\" en alemán."],
+      ["fill", "Completa: \"___ ist drei Uhr nachmittags.\"", ["Sie","Er","Es","Das"], 2, "Para la hora siempre se usa \"es\": \"es ist drei Uhr\"."],
+      ["translate", "Traduce al alemán: \"Es la una de la madrugada.\"", ["Es ist zwei Uhr morgens.","Es ist ein Uhr morgens.","Es ist eins Uhr morgens.","Es ist ein Uhr nachmittags."], 1, "Con \"ein Uhr\" se usa \"ein\" sin terminación, no \"eins\"."],
+      ["arrange", "Ordena: [Uhr / vier / es / nachmittags / ist]", ["Es ist nachmittags vier Uhr","vier ist nachmittags Es Uhr","Es ist vier Uhr nachmittags","ist nachmittags Es vier Uhr"], 2, "Sujeto + verbo + número + sustantivo + momento del día."],
+      ["writing", "Describe en 20-30 palabras tu rutina diaria con horas concretas, usando \"es ist\" y \"morgens/nachmittags/abends\".", [], ["es ist", "morgens", "nachmittags"]],
     ]
   },
   {
@@ -2448,24 +2448,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, das Wetter und die Jahreszeiten auf Deutsch mit “es ist/es regnet” zu beschreiben.",
     study: {
       vocab: [
-        ["sonnig", "sunny"],
-        ["regnerisch", "rainy"],
-        ["kalt", "cold"],
-        ["heiß", "hot"],
-        ["der Frühling", "spring"],
-        ["der Winter", "winter"],
+        ["sonnig","soleado"],
+        ["regnerisch","lluvioso"],
+        ["kalt","frío"],
+        ["heiß","caluroso"],
+        ["der Frühling","la primavera"],
+        ["der Winter","el invierno"],
       ],
       grammar: [
         ["“Es ist” für das Wetter", "Für das Wetter wird das unpersönliche “es” + “ist” + Adjektiv verwendet: “es ist sonnig”, “es ist kalt”. Für Regen: “es regnet” (unpersönliches Verb).", "Heute ist es sonnig. / Im Frühling regnet es."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cold” en alemán?",["kalt", "sunny", "hot", "rainy"],0,"“Cold” es “kalt” en alemán."],
-      ["mcq","¿Cómo se dice “rainy” en alemán?",["hot", "rainy", "regnerisch", "cold"],2,"“Rainy” es “regnerisch” en alemán."],
-      ["fill","Completa: “Heute ist es sehr ___, nimm einen Regenschirm mit.”",["sonnig", "kalt", "heiß", "regnerisch"],3,"“Regnerisch” describe un clima con lluvia: “es ist regnerisch”."],
-      ["translate","Traduce: “It's very cold in winter.”",["Im Winter ist es sehr kalt.", "Im Winter ist es sehr heiß.", "Im Winter wird es sehr kalt.", "Im Sommer ist es sehr kalt."],0,"“It's very cold” se traduce como “es ist sehr kalt”, con el pronombre impersonal “es”."],
-      ["arrange","Ordena: [sonnig / heute / ist / es]",["es ist heute sonnig", "heute ist es sonnig", "sonnig ist heute es", "heute sonnig es ist"],1,"Adverbio de tiempo + verbo + pronombre impersonal + adjetivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “es ist”.",[],["es ist", "sonnig", "kalt"]],
+      ["mcq", "¿Cómo se dice “frío” en alemán?", ["kalt","sonnig","heiß","regnerisch"], 0, "“Frío” es “kalt” en alemán."],
+      ["mcq", "¿Cómo se dice “lluvioso” en alemán?", ["sonnig","heiß","regnerisch","kalt"], 2, "“Lluvioso” es “regnerisch” en alemán."],
+      ["fill", "Completa: “Heute ist es sehr ___, nimm einen Regenschirm mit.”", ["sonnig","kalt","heiß","regnerisch"], 3, "“Regnerisch” describe un clima con lluvia: “es ist regnerisch”."],
+      ["translate", "Traduce al alemán: “Hace mucho frío en invierno.”", ["Im Winter ist es sehr kalt.","Im Winter ist es sehr heiß.","Im Winter wird es sehr kalt.","Im Sommer ist es sehr kalt."], 0, "“Hace mucho frío” se traduce como “es ist sehr kalt”, con el pronombre impersonal “es”."],
+      ["arrange", "Ordena: [sonnig / heute / ist / es]", ["es ist heute sonnig","heute ist es sonnig","sonnig ist heute es","heute sonnig es ist"], 1, "Adverbio de tiempo + verbo + pronombre impersonal + adjetivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “es ist”.", [], ["es ist", "sonnig", "kalt"]],
     ]
   },
   {
@@ -2598,24 +2598,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Gartenvokabular und einfache Anweisungen mit dem Imperativ auf Deutsch.",
     study: {
       vocab: [
-        ["die Pflanzen gießen", "to water the plants"],
-        ["der Samen", "the seed"],
-        ["wachsen", "to grow"],
-        ["die Blume", "the flower"],
-        ["die Erde", "the soil"],
-        ["das Sonnenlicht", "sunlight"],
+        ["die Pflanzen gießen","regar las plantas"],
+        ["der Samen","la semilla"],
+        ["wachsen","crecer"],
+        ["die Blume","la flor"],
+        ["die Erde","la tierra"],
+        ["das Sonnenlicht","la luz del sol"],
       ],
       grammar: [
         ["Der Imperativ für Anweisungen", "Der Imperativ (du-Form) wird für Befehle oder Anweisungen benutzt. Die negative Form nutzt “nicht”.", "Gieß die Pflanzen jeden Tag. / Vergiss nicht, das Tor zu schließen."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the seed” en alemán?",["der Samen", "to grow", "to water the plants", "the flower"],0,"“The seed” es “der Samen” en alemán."],
-      ["mcq","¿Cómo se dice “to grow” en alemán?",["sunlight", "the seed", "wachsen", "to grow"],2,"“To grow” es “wachsen” en alemán."],
-      ["fill","Completa: “___ die Pflanzen jeden Tag, sonst sterben sie.”",["Gießen", "Gießend", "Gieß", "Gießt"],2,"El imperativo (du) de “gießen” es “gieß”."],
-      ["translate","Traduce: “Water the plants every day.”",["Du gießt die Pflanzen jeden Tag.", "Gieß die Pflanzen jede Woche.", "Gießen die Pflanzen jeden Tag.", "Gieß die Pflanzen jeden Tag."],3,"El imperativo comienza directamente con el verbo conjugado: “Gieß die Pflanzen...”."],
-      ["arrange","Ordena: [vergiss / Tor / das / nicht / schließen / zu]",["zu tor vergiss nicht das schließen", "zu das nicht schließen vergiss tor", "das vergiss tor zu schließen nicht", "vergiss nicht das tor zu schließen"],3,"“Vergiss nicht” + “zu” + infinitivo + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["gieß", "vergiss nicht", "wächst"]],
+      ["mcq", "¿Cómo se dice “la semilla” en alemán?", ["der Samen","wachsen","gießen","die Blume"], 0, "“La semilla” es “der Samen” en alemán."],
+      ["mcq", "¿Cómo se dice “crecer” en alemán?", ["das Sonnenlicht","der Samen","wachsen","die Erde"], 2, "“Crecer” es “wachsen” en alemán."],
+      ["fill", "Completa: “___ die Pflanzen jeden Tag, sonst sterben sie.”", ["Gießen","Gießend","Gieß","Gießt"], 2, "El imperativo (du) de “gießen” es “gieß”."],
+      ["translate", "Traduce al alemán: “Riega las plantas todos los días.”", ["Du gießt die Pflanzen jeden Tag.","Gieß die Pflanzen jede Woche.","Gießen die Pflanzen jeden Tag.","Gieß die Pflanzen jeden Tag."], 3, "El imperativo comienza directamente con el verbo conjugado: “Gieß die Pflanzen...”."],
+      ["arrange", "Ordena: [vergiss / Tor / das / nicht / schließen / zu]", ["zu tor vergiss nicht das schließen","zu das nicht schließen vergiss tor","das vergiss tor zu schließen nicht","vergiss nicht das tor zu schließen"], 3, "“Vergiss nicht” + “zu” + infinitivo + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.", [], ["gie\u00df", "vergiss nicht", "w\u00e4chst"]],
     ]
   },
   {
@@ -2748,24 +2748,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Fotografie-Vokabular und benutze “können” für Fähigkeit auf Deutsch.",
     study: {
       vocab: [
-        ["die Kamera", "camera"],
-        ["das Foto", "photo/picture"],
-        ["das Objektiv", "lens"],
-        ["ein Foto machen", "to take a picture"],
-        ["der Zoom", "zoom"],
-        ["die Speicherkarte", "memory card"],
+        ["die Kamera","la cámara"],
+        ["das Foto","la foto"],
+        ["das Objektiv","el objetivo/lente"],
+        ["ein Foto machen","tomar una foto"],
+        ["der Zoom","el zoom"],
+        ["die Speicherkarte","la tarjeta de memoria"],
       ],
       grammar: [
         ["“Können” für Fähigkeit", "“Können” + infinitivo al final expresa habilidad o capacidad; en negativo se usa “kann nicht”.", "Ich kann mit dieser Kamera gute Fotos machen. / Diese Kamera kann nicht sehr weit zoomen."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “lens” en alemán?",["das Objektiv", "memory card", "lens", "zoom"],0,"“Lens” es “das Objektiv” en alemán."],
-      ["mcq","¿Cómo se dice “memory card” en alemán?",["die Speicherkarte", "to take a picture", "lens", "memory card"],0,"“Memory card” es “die Speicherkarte” en alemán."],
-      ["fill","Completa: “Diese Kamera ___ nicht sehr weit zoomen.”",["könnt", "kannst", "können", "kann"],3,"“Können” conjugado en tercera persona singular es “kann”."],
-      ["translate","Traduce: “I can take good photos with this camera.”",["Ich kann mit jener Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos gemacht.", "Ich kann nicht mit dieser Kamera gute Fotos machen."],1,"“I can take” se traduce con “ich kann machen”, “können” + infinitivo al final."],
-      ["arrange","Ordena: [weit / kann / nicht / kamera / diese / zoomen / sehr]",["diese kamera kann nicht sehr weit zoomen", "zoomen diese nicht kamera weit sehr kann", "kamera kann nicht sehr diese weit zoomen", "weit kann kamera diese nicht sehr zoomen"],0,"Sujeto + modal + “nicht” + adverbio + adverbio + infinitivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “können”.",[],["ich kann", "kann nicht", "Kamera"]],
+      ["mcq", "¿Cómo se dice “el objetivo/lente” en alemán?", ["das Objektiv","die Speicherkarte","die Kamera","der Zoom"], 0, "“Objetivo/lente” es “das Objektiv” en alemán."],
+      ["mcq", "¿Cómo se dice “la tarjeta de memoria” en alemán?", ["die Speicherkarte","das Objektiv","der Zoom","die Kamera"], 0, "“Tarjeta de memoria” es “die Speicherkarte” en alemán."],
+      ["fill", "Completa: “Diese Kamera ___ nicht sehr weit zoomen.”", ["könnt","kannst","können","kann"], 3, "“Können” conjugado en tercera persona singular es “kann”."],
+      ["translate", "Traduce al alemán: “Puedo tomar buenas fotos con esta cámara.”", ["Ich kann mit jener Kamera gute Fotos machen.","Ich kann mit dieser Kamera gute Fotos machen.","Ich kann mit dieser Kamera gute Fotos gemacht.","Ich kann nicht mit dieser Kamera gute Fotos machen."], 1, "“Puedo tomar” se traduce con “ich kann machen”, “können” + infinitivo al final."],
+      ["arrange", "Ordena: [weit / kann / nicht / kamera / diese / zoomen / sehr]", ["diese kamera kann nicht sehr weit zoomen","zoomen diese nicht kamera weit sehr kann","kamera kann nicht sehr diese weit zoomen","weit kann kamera diese nicht sehr zoomen"], 0, "Sujeto + modal + “nicht” + adverbio + adverbio + infinitivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “können”.", [], ["ich kann", "kann nicht", "Kamera"]],
     ]
   },
   {
@@ -2898,24 +2898,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Friseur-Vokabular und benutze den Komparativ und Superlativ auf Deutsch.",
     study: {
       vocab: [
-        ["der Haarschnitt", "haircut"],
-        ["der Friseur/die Friseurin", "hairdresser"],
-        ["die Schere", "scissors"],
-        ["kurze/lange Haare", "short/long hair"],
-        ["stutzen", "to trim"],
-        ["der Spiegel", "mirror"],
+        ["der Haarschnitt","el corte de pelo"],
+        ["der Friseur/die Friseurin","el peluquero/la peluquera"],
+        ["die Schere","las tijeras"],
+        ["kurze/lange Haare","pelo corto/largo"],
+        ["stutzen","recortar"],
+        ["der Spiegel","el espejo"],
       ],
       grammar: [
         ["Komparativ und Superlativ", "El comparativo se forma con “-er”, y el superlativo con “am... -sten”.", "Dieser Haarschnitt ist kürzer als der letzte. / Sie hat die längsten Haare in der Familie."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scissors” en alemán?",["mirror", "to trim", "hairdresser", "die Schere"],3,"“Scissors” es “die Schere” en alemán."],
-      ["mcq","¿Cómo se dice “to trim” en alemán?",["stutzen", "short/long hair", "haircut", "to trim"],0,"“To trim” es “stutzen” en alemán."],
-      ["fill","Completa: “Dieser Haarschnitt ist ___ als der letzte.”",["kürzeste", "am kürzesten", "kürzer", "kurz"],2,"El comparativo de “kurz” es “kürzer” + “als”."],
-      ["translate","Traduce: “She has the longest hair in the family.”",["Sie hat die längsten Haare in der Familien.", "Sie hat die längste Haare in der Familie.", "Sie hat die längeren Haare in der Familie.", "Sie hat die längsten Haare in der Familie."],3,"“The longest” con sustantivo plural se traduce con “die längsten”."],
-      ["arrange","Ordena: [beste / Stadt / dies / der / Friseur / ist / in]",["friseur der in stadt beste der dies ist", "stadt der beste dies der in friseur ist", "dies ist der beste friseur in der stadt", "in der stadt friseur beste dies ist der"],2,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["kürzer", "am längsten", "Haarschnitt"]],
+      ["mcq", "¿Cómo se dice “las tijeras” en alemán?", ["der Spiegel","stutzen","der Friseur","die Schere"], 3, "“Tijeras” es “die Schere” en alemán."],
+      ["mcq", "¿Cómo se dice “recortar” en alemán?", ["stutzen","kurze/lange Haare","der Haarschnitt","der Spiegel"], 0, "“Recortar” es “stutzen” en alemán."],
+      ["fill", "Completa: “Dieser Haarschnitt ist ___ als der letzte.”", ["kürzeste","am kürzesten","kürzer","kurz"], 2, "El comparativo de “kurz” es “kürzer” + “als”."],
+      ["translate", "Traduce al alemán: “Ella tiene el pelo más largo de la familia.”", ["Sie hat die längsten Haare in der Familien.","Sie hat die längste Haare in der Familie.","Sie hat die längeren Haare in der Familie.","Sie hat die längsten Haare in der Familie."], 3, "“El más largo” con sustantivo plural se traduce con “die längsten”."],
+      ["arrange", "Ordena: [beste / Stadt / dies / der / Friseur / ist / in]", ["friseur der in stadt beste der dies ist","stadt der beste dies der in friseur ist","dies ist der beste friseur in der stadt","in der stadt friseur beste dies ist der"], 2, "Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.", [], ["k\u00fcrzer", "am l\u00e4ngsten", "Haarschnitt"]],
     ]
   },
   {
@@ -3048,24 +3048,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Werkzeug-Vokabular und benutze den Gleichheitsvergleich (“so... wie”) auf Deutsch.",
     study: {
       vocab: [
-        ["der Hammer", "hammer"],
-        ["der Schraubenzieher", "screwdriver"],
-        ["der Nagel", "nail"],
-        ["die Schraube", "screw"],
-        ["der Werkzeugkasten", "toolbox"],
-        ["die Leiter", "ladder"],
+        ["der Hammer","el martillo"],
+        ["der Schraubenzieher","el destornillador"],
+        ["der Nagel","el clavo"],
+        ["die Schraube","el tornillo"],
+        ["der Werkzeugkasten","la caja de herramientas"],
+        ["die Leiter","la escalera"],
       ],
       grammar: [
         ["Gleichheitsvergleich (“so... wie”)", "“So” + adjetivo + “wie” expresa que dos cosas son iguales en cierta cualidad.", "Dieser Hammer ist so schwer wie jener. / Die Leiter ist nicht so hoch wie die Mauer."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “screwdriver” en alemán?",["nail", "der Schraubenzieher", "ladder", "toolbox"],1,"“Screwdriver” es “der Schraubenzieher” en alemán."],
-      ["mcq","¿Cómo se dice “ladder” en alemán?",["nail", "screwdriver", "die Leiter", "ladder"],2,"“Ladder” es “die Leiter” en alemán."],
-      ["fill","Completa: “Dieser Hammer ist ___ schwer wie jener.”",["so", "als", "mehr", "sehr"],0,"El comparativo de igualdad usa “so + adjetivo + wie”: “so schwer wie”."],
-      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["Die Leiter ist nicht so hoch als die Mauer.", "Die Leiter ist so hoch wie die Mauer.", "Die Leiter ist nicht so hoch wie die Mauer.", "Die Leiter ist nicht mehr hoch wie die Mauer."],2,"“Isn't as... as” se traduce con “nicht so... wie”."],
-      ["arrange","Ordena: [schwer / Werkzeugkasten / ist / der / sehr]",["werkzeugkasten schwer der sehr ist", "der ist werkzeugkasten sehr schwer", "der schwer sehr werkzeugkasten ist", "der werkzeugkasten ist sehr schwer"],3,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, comparando dos herramientas usando “so... wie”.",[],["so schwer wie", "so hoch wie", "Hammer"]],
+      ["mcq", "¿Cómo se dice “destornillador” en alemán?", ["der Nagel","der Schraubenzieher","die Leiter","der Werkzeugkasten"], 1, "“Destornillador” es “der Schraubenzieher” en alemán."],
+      ["mcq", "¿Cómo se dice “escalera” en alemán?", ["der Nagel","der Schraubenzieher","die Leiter","der Werkzeugkasten"], 2, "“Escalera” es “die Leiter” en alemán."],
+      ["fill", "Completa: “Dieser Hammer ist ___ schwer wie jener.”", ["so","als","mehr","sehr"], 0, "El comparativo de igualdad usa “so + adjetivo + wie”: “so schwer wie”."],
+      ["translate", "Traduce al alemán: “La escalera no es tan alta como la pared.”", ["Die Leiter ist nicht so hoch als die Mauer.","Die Leiter ist so hoch wie die Mauer.","Die Leiter ist nicht so hoch wie die Mauer.","Die Leiter ist nicht mehr hoch wie die Mauer."], 2, "“No es tan... como” se traduce con “nicht so... wie”."],
+      ["arrange", "Ordena: [schwer / Werkzeugkasten / ist / der / sehr]", ["werkzeugkasten schwer der sehr ist","der ist werkzeugkasten sehr schwer","der schwer sehr werkzeugkasten ist","der werkzeugkasten ist sehr schwer"], 3, "Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, comparando dos herramientas usando “so... wie”.", [], ["so schwer wie", "so hoch wie", "Hammer"]],
     ]
   },
   {
@@ -3198,24 +3198,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Tauch-Vokabular und benutze Präpositionen des Ortes auf Deutsch.",
     study: {
       vocab: [
-        ["tauchen", "to dive"],
-        ["der Schnorchel", "snorkel"],
-        ["der Fisch", "fish"],
-        ["das Korallenriff", "coral reef"],
-        ["der Taucheranzug", "wetsuit"],
-        ["unter Wasser", "underwater"],
+        ["tauchen","bucear"],
+        ["der Schnorchel","el esnórquel"],
+        ["der Fisch","el pez"],
+        ["das Korallenriff","el arrecife de coral"],
+        ["der Taucheranzug","el traje de buceo"],
+        ["unter Wasser","bajo el agua"],
       ],
       grammar: [
         ["Präpositionen des Ortes (in/auf/unter/neben)", "“In” indica dentro de algo, “auf” indica encima de una superficie, “unter” indica debajo, y “neben” indica al lado. Con posición (dónde) usan dativo.", "Die Fische schwimmen im Wasser. / Das Korallenriff ist unter dem Boot."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “coral reef” en alemán?",["fish", "coral reef", "underwater", "das Korallenriff"],3,"“Coral reef” es “das Korallenriff” en alemán."],
-      ["mcq","¿Cómo se dice “wetsuit” en alemán?",["snorkel", "underwater", "der Taucheranzug", "to dive"],2,"“Wetsuit” es “der Taucheranzug” en alemán."],
-      ["fill","Completa: “Das Korallenriff ist ___ dem Boot.”",["neben", "auf", "in", "unter"],3,"“Unter” indica una posición debajo de algo: “unter dem Boot”."],
-      ["translate","Traduce: “The fish swim in the water.”",["Die Fische schwimmen im Wasser.", "Die Fische schwimmen auf dem Wasser.", "Die Fische schwimmen unter das Wasser.", "Die Fische schwimmen neben dem Wasser."],0,"“In the water” se traduce con “im Wasser” (in dem = im), ya que están dentro de ella."],
-      ["arrange","Ordena: [Boot / neben / Taucher / dem / ist / der]",["der taucher ist neben dem boot", "dem der boot neben ist taucher", "neben taucher der boot dem ist", "neben taucher der ist dem boot"],0,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (in/auf/unter/neben).",[],["unter", "im", "Fische"]],
+      ["mcq", "¿Cómo se dice “el arrecife de coral” en alemán?", ["der Fisch","der Schnorchel","unter Wasser","das Korallenriff"], 3, "“Arrecife de coral” es “das Korallenriff” en alemán."],
+      ["mcq", "¿Cómo se dice “el traje de buceo” en alemán?", ["der Schnorchel","unter Wasser","der Taucheranzug","tauchen"], 2, "“Traje de buceo” es “der Taucheranzug” en alemán."],
+      ["fill", "Completa: “Das Korallenriff ist ___ dem Boot.”", ["neben","auf","in","unter"], 3, "“Unter” indica una posición debajo de algo: “unter dem Boot”."],
+      ["translate", "Traduce al alemán: “Los peces nadan en el agua.”", ["Die Fische schwimmen im Wasser.","Die Fische schwimmen auf dem Wasser.","Die Fische schwimmen unter das Wasser.","Die Fische schwimmen neben dem Wasser."], 0, "“En el agua” se traduce con “im Wasser” (in dem = im), ya que están dentro de ella."],
+      ["arrange", "Ordena: [Boot / neben / Taucher / dem / ist / der]", ["der taucher ist neben dem boot","dem der boot neben ist taucher","neben taucher der boot dem ist","neben taucher der ist dem boot"], 0, "Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (in/auf/unter/neben).", [], ["unter", "im", "Fische"]],
     ]
   },
   {
@@ -3348,24 +3348,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Zirkus-Vokabular und benutze Ausrufe (“was für.../wie...”) auf Deutsch.",
     study: {
       vocab: [
-        ["der Clown", "clown"],
-        ["das Hochseil", "tightrope"],
-        ["der Jongleur", "juggler"],
-        ["der Akrobat", "acrobat"],
-        ["das Zelt", "tent"],
-        ["erstaunlich", "amazing"],
+        ["der Clown","el payaso"],
+        ["das Hochseil","la cuerda floja"],
+        ["der Jongleur","el malabarista"],
+        ["der Akrobat","el acróbata"],
+        ["das Zelt","la carpa"],
+        ["erstaunlich","asombroso"],
       ],
       grammar: [
         ["Ausrufe (“was für.../wie...”)", "“Was für ein/eine” + sustantivo y “Wie” + adjetivo expresan sorpresa o admiración de forma exclamativa.", "Was für ein erstaunlicher Jongleur! / Wie erstaunlich diese Show ist!"],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “juggler” en alemán?",["der Jongleur", "amazing", "tent", "clown"],0,"“Juggler” es “der Jongleur” en alemán."],
-      ["mcq","¿Cómo se dice “acrobat” en alemán?",["der Akrobat", "amazing", "tightrope", "acrobat"],0,"“Acrobat” es “der Akrobat” en alemán."],
-      ["fill","Completa: “___ ein erstaunlicher Jongleur!”",["Was für", "Wie für", "Was", "Wie"],0,"“Was für ein” + sustantivo masculino expresa admiración: “was für ein Jongleur”."],
-      ["translate","Traduce: “How amazing this show is!”",["Wie erstaunlich diese Show ist!", "Wie erstaunlich ist diese Show!", "Wie erstaunlich diese Show!", "Was für erstaunlich diese Show ist!"],0,"“How amazing... is!” se traduce con “Wie erstaunlich... ist!”, con el verbo al final."],
-      ["arrange","Ordena: [Hochseil / geht / dem / auf / Clown / der]",["der clown geht auf dem hochseil", "der hochseil geht dem clown auf", "clown hochseil dem der geht auf", "clown der hochseil dem auf geht"],0,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“was für.../wie...”).",[],["was für", "wie", "erstaunlich"]],
+      ["mcq", "¿Cómo se dice “malabarista” en alemán?", ["der Jongleur","der Akrobat","das Zelt","der Clown"], 0, "“Malabarista” es “der Jongleur” en alemán."],
+      ["mcq", "¿Cómo se dice “acróbata” en alemán?", ["der Akrobat","das Hochseil","der Clown","das Zelt"], 0, "“Acróbata” es “der Akrobat” en alemán."],
+      ["fill", "Completa: “___ ein erstaunlicher Jongleur!”", ["Was für","Wie für","Was","Wie"], 0, "“Was für ein” + sustantivo masculino expresa admiración: “was für ein Jongleur”."],
+      ["translate", "Traduce al alemán: “¡Qué asombroso es este espectáculo!”", ["Wie erstaunlich diese Show ist!","Wie erstaunlich ist diese Show!","Wie erstaunlich diese Show!","Was für erstaunlich diese Show ist!"], 0, "“Qué asombroso... es” se traduce con “Wie erstaunlich... ist!”, con el verbo al final."],
+      ["arrange", "Ordena: [Hochseil / geht / dem / auf / Clown / der]", ["der clown geht auf dem hochseil","der hochseil geht dem clown auf","clown hochseil dem der geht auf","clown der hochseil dem auf geht"], 0, "Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“was für.../wie...”).", [], ["was f\u00fcr", "wie", "erstaunlich"]],
     ]
   },
   {
@@ -3498,24 +3498,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vogelbeobachtungs-Vokabular und benutze Possessivpronomen auf Deutsch.",
     study: {
       vocab: [
-        ["das Fernglas", "binoculars"],
-        ["das Nest", "nest"],
-        ["die Feder", "feather"],
-        ["der Schnabel", "beak"],
-        ["fliegen", "to fly"],
-        ["der Flügel", "wing"],
+        ["das Fernglas","los binoculares"],
+        ["das Nest","el nido"],
+        ["die Feder","la pluma"],
+        ["der Schnabel","el pico"],
+        ["fliegen","volar"],
+        ["der Flügel","el ala"],
       ],
       grammar: [
         ["Possessivpronomen (mein/dein/sein/ihr/unser/ihr)", "Los pronombres posesivos alemanes concuerdan en género, número y caso con el sustantivo que sigue.", "Mein Fernglas ist neu. / Der Vogel benutzt seine Flügel zum Fliegen."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “nest” en alemán?",["to fly", "das Nest", "beak", "binoculars"],1,"“Nest” es “das Nest” en alemán."],
-      ["mcq","¿Cómo se dice “beak” en alemán?",["beak", "nest", "to fly", "der Schnabel"],3,"“Beak” es “der Schnabel” en alemán."],
-      ["fill","Completa: “Der Vogel benutzt ___ Flügel zum Fliegen.”",["seine", "ihr", "ihre", "sein"],0,"“Flügel” (plural, acusativo) con posesivo masculino singular “er” usa “seine”."],
-      ["translate","Traduce: “My binoculars are new.”",["Mein Fernglas ist neu.", "Mein Ferngläser ist neu.", "Mein Fernglas sind neu.", "Meine Fernglas ist neu."],0,"“My” se traduce con “mein” ante “Fernglas” (neutro singular)."],
-      ["arrange","Ordena: [Nest / Baum / ist / im / ihr]",["im ihr baum nest ist", "ihr nest ist im baum", "ist ihr nest im baum", "im baum ist ihr nest"],1,"Posesivo + sustantivo + verbo + preposición + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, un ave que viste usando posesivos (mein/sein/ihr).",[],["sein", "meine", "Flügel"]],
+      ["mcq", "¿Cómo se dice “el nido” en alemán?", ["fliegen","das Nest","der Schnabel","das Fernglas"], 1, "“Nido” es “das Nest” en alemán."],
+      ["mcq", "¿Cómo se dice “el pico” en alemán?", ["das Fernglas","das Nest","fliegen","der Schnabel"], 3, "“Pico” es “der Schnabel” en alemán."],
+      ["fill", "Completa: “Der Vogel benutzt ___ Flügel zum Fliegen.”", ["seine","ihr","ihre","sein"], 0, "“Flügel” (plural, acusativo) con posesivo masculino singular “er” usa “seine”."],
+      ["translate", "Traduce al alemán: “Mis binoculares son nuevos.”", ["Mein Fernglas ist neu.","Mein Ferngläser ist neu.","Mein Fernglas sind neu.","Meine Fernglas ist neu."], 0, "“Mis” se traduce con “mein” ante “Fernglas” (neutro singular)."],
+      ["arrange", "Ordena: [Nest / Baum / ist / im / ihr]", ["im ihr baum nest ist","ihr nest ist im baum","ist ihr nest im baum","im baum ist ihr nest"], 1, "Posesivo + sustantivo + verbo + preposición + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, un ave que viste usando posesivos (mein/sein/ihr).", [], ["sein", "meine", "Fl\u00fcgel"]],
     ]
   },
   {
@@ -3648,24 +3648,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Näh-Vokabular und benutze einfache reflexive Verben auf Deutsch.",
     study: {
       vocab: [
-        ["die Nadel", "needle"],
-        ["der Faden", "thread"],
-        ["nähen", "to sew"],
-        ["anprobieren", "to try on"],
-        ["der Knopf", "button"],
-        ["der Schneider", "tailor"],
+        ["die Nadel","la aguja"],
+        ["der Faden","el hilo"],
+        ["nähen","coser"],
+        ["anprobieren","probarse (ropa)"],
+        ["der Knopf","el botón"],
+        ["der Schneider","el sastre"],
       ],
       grammar: [
         ["Einfache reflexive Verben", "Deutsche reflexive Verben benutzen “mich/dich/sich/uns/euch/sich”; “anprobieren” (Kleidung) braucht im Deutschen kein Reflexivpronomen, anders als im Spanischen.", "Ich probiere die Jacke an. / Sie näht den Knopf selbst an."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “needle” en alemán?",["thread", "die Nadel", "to sew", "tailor"],1,"“Needle” es “die Nadel” en alemán."],
-      ["mcq","¿Cómo se dice “thread” en alemán?",["needle", "tailor", "to sew", "der Faden"],3,"“Thread” es “der Faden” en alemán."],
-      ["fill","Completa: “Ich probiere die Jacke ___.”",["mit", "auf", "an", "aus"],2,"“Anprobieren” es un verbo separable: “probiere... an”."],
-      ["translate","Traduce: “I try on the jacket.”",["Ich probiere mich die Jacke an.", "Ich probiere die Jacke an.", "Ich probiere an die Jacke.", "Ich probiere die Jacke."],1,"“Try on” se traduce con el verbo separable “anprobieren”: “probiere... an”, sin pronombre reflexivo."],
-      ["arrange","Ordena: [Knopf / näht / Schneider / den / der]",["knopf der schneider den näht", "knopf der den schneider näht", "der schneider näht den knopf", "den der näht schneider knopf"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, cómo te pruebas ropa nueva usando “anprobieren”.",[],["probiere an", "Nadel", "Faden"]],
+      ["mcq", "¿Cómo se dice “la aguja” en alemán?", ["der Faden","die Nadel","nähen","der Schneider"], 1, "“Aguja” es “die Nadel” en alemán."],
+      ["mcq", "¿Cómo se dice “el hilo” en alemán?", ["die Nadel","der Schneider","nähen","der Faden"], 3, "“Hilo” es “der Faden” en alemán."],
+      ["fill", "Completa: “Ich probiere die Jacke ___.”", ["mit","auf","an","aus"], 2, "“Anprobieren” es un verbo separable: “probiere... an”."],
+      ["translate", "Traduce al alemán: “Me pruebo la chaqueta.”", ["Ich probiere mich die Jacke an.","Ich probiere die Jacke an.","Ich probiere an die Jacke.","Ich probiere die Jacke."], 1, "“Probarse” se traduce con el verbo separable “anprobieren”: “probiere... an”, sin pronombre reflexivo."],
+      ["arrange", "Ordena: [Knopf / näht / Schneider / den / der]", ["knopf der schneider den näht","knopf der den schneider näht","der schneider näht den knopf","den der näht schneider knopf"], 2, "Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, cómo te pruebas ropa nueva usando “anprobieren”.", [], ["probiere an", "Nadel", "Faden"]],
     ]
   },
   {
@@ -3798,24 +3798,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Amateurfunk-Vokabular und benutze “es gibt” auf Deutsch.",
     study: {
       vocab: [
-        ["das Funksignal", "radio signal"],
-        ["die Antenne", "antenna"],
-        ["die Frequenz", "frequency"],
-        ["das Mikrofon", "microphone"],
-        ["senden", "to transmit"],
-        ["das Rauschen", "static"],
+        ["das Funksignal","la señal de radio"],
+        ["die Antenne","la antena"],
+        ["die Frequenz","la frecuencia"],
+        ["das Mikrofon","el micrófono"],
+        ["senden","transmitir"],
+        ["das Rauschen","la estática/interferencia"],
       ],
       grammar: [
         ["“Es gibt” para indicar existencia", "“Es gibt” + acusativo se usa para indicar la existencia de algo, sin importar si es singular o plural.", "Es gibt viel Rauschen auf dieser Frequenz. / Es gibt zwei Antennen auf dem Dach."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “antenna” en alemán?",["die Antenne", "radio signal", "microphone", "static"],0,"“Antenna” es “die Antenne” en alemán."],
-      ["mcq","¿Cómo se dice “static” en alemán?",["radio signal", "microphone", "frequency", "das Rauschen"],3,"“Static” es “das Rauschen” en alemán."],
-      ["fill","Completa: “___ zwei Antennen auf dem Dach.”",["Es sind", "Es hat", "Es gibst", "Es gibt"],3,"“Es gibt” + acusativo indica existencia: “es gibt zwei Antennen”."],
-      ["translate","Traduce: “There is a lot of static on this frequency.”",["Es hat viel Rauschen auf dieser Frequenz.", "Es gibt viele Rauschen auf dieser Frequenz.", "Es gibt viel Rauschen auf diese Frequenz.", "Es gibt viel Rauschen auf dieser Frequenz."],3,"“There is a lot of static” se traduce con “es gibt viel Rauschen”."],
-      ["arrange","Ordena: [schwach / dieses / signal / ist]",["signal dieses ist schwach", "dieses signal ist schwach", "signal schwach ist dieses", "ist dieses schwach signal"],1,"Pronombre + sustantivo + verbo + adjetivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, un equipo de radioafición usando “es gibt”.",[],["es gibt", "Antenne", "Frequenz"]],
+      ["mcq", "¿Cómo se dice “antena” en alemán?", ["die Antenne","das Funksignal","das Mikrofon","das Rauschen"], 0, "“Antena” es “die Antenne” en alemán."],
+      ["mcq", "¿Cómo se dice “estática/interferencia” en alemán?", ["das Funksignal","das Mikrofon","die Frequenz","das Rauschen"], 3, "“Estática” es “das Rauschen” en alemán."],
+      ["fill", "Completa: “___ zwei Antennen auf dem Dach.”", ["Es sind","Es hat","Es gibst","Es gibt"], 3, "“Es gibt” + acusativo indica existencia: “es gibt zwei Antennen”."],
+      ["translate", "Traduce al alemán: “Hay mucha estática en esta frecuencia.”", ["Es hat viel Rauschen auf dieser Frequenz.","Es gibt viele Rauschen auf dieser Frequenz.","Es gibt viel Rauschen auf diese Frequenz.","Es gibt viel Rauschen auf dieser Frequenz."], 3, "“Hay mucha estática” se traduce con “es gibt viel Rauschen”."],
+      ["arrange", "Ordena: [schwach / dieses / signal / ist]", ["signal dieses ist schwach","dieses signal ist schwach","signal schwach ist dieses","ist dieses schwach signal"], 1, "Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, un equipo de radioafición usando “es gibt”.", [], ["es gibt", "Antenne", "Frequenz"]],
     ]
   },
   {
@@ -3948,24 +3948,24 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kaffee-Vokabular und benutze “ich hätte gern” auf Deutsch.",
     study: {
       vocab: [
-        ["die Kaffeebohne", "coffee bean"],
-        ["die Röstung", "roast"],
-        ["das Aroma", "aroma"],
-        ["der Barista", "barista"],
-        ["aufbrühen", "to brew"],
-        ["die Tasse", "cup"],
+        ["die Kaffeebohne","el grano de café"],
+        ["die Röstung","el tueste"],
+        ["das Aroma","el aroma"],
+        ["der Barista","el barista"],
+        ["aufbrühen","preparar (café)"],
+        ["die Tasse","la taza"],
       ],
       grammar: [
         ["“Ich hätte gern” para peticiones corteses", "“Ich hätte gern” (Konjunktiv II) es una forma cortés de pedir algo, más formal que “ich will”.", "Ich hätte gern eine Tasse Kaffee, bitte. / Sie möchte die dunkle Röstung probieren."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “roast” en alemán?",["barista", "to brew", "die Röstung", "aroma"],2,"“Roast” es “die Röstung” en alemán."],
-      ["mcq","¿Cómo se dice “barista” en alemán?",["barista", "aroma", "coffee bean", "der Barista"],3,"“Barista” es “der Barista” en alemán."],
-      ["fill","Completa: “Ich ___ gern eine Tasse Kaffee, bitte.”",["habe", "würde", "hätte", "hatte"],2,"“Ich hätte gern” es la forma cortés de pedir: “ich hätte gern”."],
-      ["translate","Traduce: “She would like to try the dark roast.”",["Sie möchte die helle Röstung probieren.", "Sie will die dunkle Röstung probieren bitte.", "Sie möchte die dunkle Röstung probiert.", "Sie möchte die dunkle Röstung probieren."],3,"“Would like to try” se traduce con “möchte probieren”."],
-      ["arrange","Ordena: [stark / riecht / dieser / Kaffee]",["dieser kaffee riecht stark", "stark riecht kaffee dieser", "dieser stark riecht kaffee", "stark kaffee dieser riecht"],0,"Pronombre + sustantivo + verbo + adjetivo."],
-      ["writing","Describe en alemán, en 20-30 palabras, tu pedido ideal en una cafetería usando “ich hätte gern”.",[],["ich hätte gern", "Kaffee", "Barista"]],
+      ["mcq", "¿Cómo se dice “el tueste” en alemán?", ["der Barista","aufbrühen","die Röstung","das Aroma"], 2, "“Tueste” es “die Röstung” en alemán."],
+      ["mcq", "¿Cómo se dice “barista” en alemán?", ["die Kaffeebohne","das Aroma","die Tasse","der Barista"], 3, "“Barista” es “der Barista” en alemán (misma palabra)."],
+      ["fill", "Completa: “Ich ___ gern eine Tasse Kaffee, bitte.”", ["habe","würde","hätte","hatte"], 2, "“Ich hätte gern” es la forma cortés de pedir: “ich hätte gern”."],
+      ["translate", "Traduce al alemán: “A ella le gustaría probar el tueste oscuro.”", ["Sie möchte die helle Röstung probieren.","Sie will die dunkle Röstung probieren bitte.","Sie möchte die dunkle Röstung probiert.","Sie möchte die dunkle Röstung probieren."], 3, "“Le gustaría probar” se traduce con “möchte probieren”."],
+      ["arrange", "Ordena: [stark / riecht / dieser / Kaffee]", ["dieser kaffee riecht stark","stark riecht kaffee dieser","dieser stark riecht kaffee","stark kaffee dieser riecht"], 0, "Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing", "Describe en alemán, en 20-30 palabras, tu pedido ideal en una cafetería usando “ich hätte gern”.", [], ["ich h\u00e4tte gern", "Kaffee", "Barista"]],
     ]
   },
   {
@@ -4098,12 +4098,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a formar preguntas básicas en alemán con las palabras interrogativas (W-Fragen).",
     study: {
       vocab: [
-        ["Was...?", "What...?"],
-        ["Wer...?", "Who...?"],
-        ["Wo...?", "Where...?"],
-        ["Wann...?", "When...?"],
-        ["Warum...?", "Why...?"],
-        ["Wie...?", "How...?"],
+        ["Was...?","¿Qué...?"],
+        ["Wer...?","¿Quién...?"],
+        ["Wo...?","¿Dónde...?"],
+        ["Wann...?","¿Cuándo...?"],
+        ["Warum...?","¿Por qué...?"],
+        ["Wie...?","¿Cómo...?"],
       ],
       grammar: [
         ["Wortstellung bei W-Fragen", "W-Wort + konjugiertes Verb + Subjekt (Verb an zweiter Position).", "Wo wohnst du? / Wie heißt du? / Wann beginnt der Kurs?"],
@@ -4113,7 +4113,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Wo", "Was", "Wer", "Wann"],0,"“Wo” se usa para preguntar por lugares."],
       ["mcq","¿Qué palabra usas para preguntar por una persona?",["Wer", "Warum", "Wie", "Was"],0,"“Wer” se usa para preguntar por personas."],
       ["fill","Completa: “___ wohnst du?”",["Wer", "Was", "Wo", "Warum"],2,"Preguntamos por el lugar donde vive alguien con “Wo”."],
-      ["translate","Traduce: “Why do you learn German?”",["Was lernst du Deutsch?", "Wer lernst du Deutsch?", "Warum lernst du Deutsch?", "Wo lernst du Deutsch?"],2,"“Why” se traduce como “Warum”."],
+      ["translate","Traduce al alemán: “¿Por qué aprendes alemán?”",["Was lernst du Deutsch?", "Wer lernst du Deutsch?", "Warum lernst du Deutsch?", "Wo lernst du Deutsch?"],2,"“¿Por qué?” se traduce como “Warum”."],
       ["arrange","Ordena: [du / wo / wohnst]",["wo wohnst du", "wo du wohnst", "du wohnst wo", "wohnst du wo"],0,"W-Wort + Verb + Subjekt: “Wo wohnst du?”"],
       ["writing","Schreibe auf Deutsch 20-30 Wörter mit mindestens drei W-Fragen, um jemanden neu kennenzulernen.",[],["Wo", "Wie", "Wann"]],
     ]
@@ -4123,12 +4123,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende los posesivos en alemán y el vocabulario básico de la familia.",
     study: {
       vocab: [
-        ["mein/meine", "my"],
-        ["dein/deine", "your (informal)"],
-        ["sein/seine, ihr/ihre", "his, her"],
-        ["unser/unsere", "our"],
-        ["ihr/ihre (their)", "their"],
-        ["die Mutter, der Vater, die Eltern", "mother, father, parents"],
+        ["mein/meine","mi"],
+        ["dein/deine","tu (informal)"],
+        ["sein/seine, ihr/ihre","su (de él), su (de ella)"],
+        ["unser/unsere","nuestro"],
+        ["ihr/ihre (their)","su (de ellos)"],
+        ["die Mutter, der Vater, die Eltern","la madre, el padre, los padres"],
       ],
       grammar: [
         ["Los posesivos concuerdan con el sustantivo que sigue", "Los posesivos alemanes se declinan como adjetivos, concordando en género y caso con el sustantivo. “Sein” = su (de él), “ihr” = su (de ella/de ellos).", "Das ist seine Schwester. / Das sind ihre Eltern."],
@@ -4138,7 +4138,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Cómo se dice “his sister” en alemán?",["ihre Schwester", "seine Schwester", "unsere Schwester", "deine Schwester"],1,"“His” (de él) es “sein/seine”."],
       ["mcq","¿Cómo se dice “our parents” en alemán?",["deine Eltern", "unsere Eltern", "ihre Eltern", "meine Eltern"],1,"“Our” es “unser/unsere”."],
       ["fill","Completa: “___ Mutter kommt aus Berlin.”",["Deine", "Ihre", "Seine", "Unsere"],2,"“Mutter” es femenino nominativo → “seine” (su, de él)."],
-      ["translate","Traduce: “These are their siblings.”",["Das sind unsere Geschwister.", "Das ist ihre Geschwister.", "Das sind ihre Geschwister.", "Das sind seine Geschwister."],2,"“Their” (de ellos) también es “ihr/ihre” en alemán."],
+      ["translate","Traduce al alemán: “Estos son sus hermanos (de ellos).”",["Das sind unsere Geschwister.", "Das ist ihre Geschwister.", "Das sind ihre Geschwister.", "Das sind seine Geschwister."],2,"“Su/sus” (de ellos) también es “ihr/ihre” en alemán."],
       ["arrange","Ordena: [Schwester / ist / meine / das]",["ist das Schwester meine", "Schwester das meine ist", "ist das meine Schwester", "das ist meine Schwester"],3,"Sujeto + verbo “sein” + posesivo + sustantivo."],
       ["speaking","Beschreibe auf Deutsch, in 25-35 Wörtern, drei Familienmitglieder mit Possessivpronomen.",[],["meine", "seine", "unsere"]],
     ]
@@ -4148,11 +4148,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar “es gibt” y las preposiciones de lugar en alemán.",
     study: {
       vocab: [
-        ["es gibt", "there is / there are"],
-        ["in, auf, unter", "in, on, under"],
-        ["neben, zwischen", "next to, between"],
-        ["vor, hinter", "in front of, behind"],
-        ["Gibt es...?", "Is/Are there...?"],
+        ["es gibt","hay"],
+        ["in, auf, unter","en, sobre, debajo de"],
+        ["neben, zwischen","al lado de, entre"],
+        ["vor, hinter","delante de, detrás de"],
+        ["Gibt es...?","¿Hay...?"],
       ],
       grammar: [
         ["“Es gibt” + Akkusativ", "“Es gibt” es invariable (no cambia con el número) y va seguido del caso acusativo.", "Es gibt eine Lampe auf dem Tisch. / Es gibt zwei Stühle neben dem Schreibtisch."],
@@ -4162,7 +4162,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Cómo se dice “under” en alemán?",["hinter", "unter", "auf", "neben"],1,"“Under” es “unter”."],
       ["mcq","¿Cómo se dice “between” en alemán?",["in", "vor", "zwischen", "hinter"],2,"“Between” es “zwischen”."],
       ["fill","Completa: “Es gibt zwei Bücher ___ dem Tisch.”",["auf", "in", "zwischen", "hinter"],0,"“Auf” indica que algo está encima de una superficie."],
-      ["translate","Traduce: “There is a cat under the table.”",["Es gibt Katzen unter dem Tisch.", "Es gibt eine Katze auf dem Tisch.", "Es gibt eine Katze unter dem Tisch.", "Es gibt eine Katze neben dem Tisch."],2,"“Under the table” es “unter dem Tisch”."],
+      ["translate","Traduce al alemán: “Hay un gato debajo de la mesa.”",["Es gibt Katzen unter dem Tisch.", "Es gibt eine Katze auf dem Tisch.", "Es gibt eine Katze unter dem Tisch.", "Es gibt eine Katze neben dem Tisch."],2,"“Debajo de la mesa” es “unter dem Tisch”."],
       ["arrange","Ordena: [Stuhl / der / neben / ist / der / Lampe]",["Lampe ist Stuhl der neben der", "der Stuhl ist neben der Lampe", "der der Stuhl neben Lampe ist", "ist Lampe neben der der Stuhl"],1,"Sujeto + verbo “sein” + preposición + objeto."],
       ["writing","Beschreibe auf Deutsch, in 25-35 Wörtern, wo sich drei Gegenstände in deinem Zimmer befinden, benutze „es gibt“ und Präpositionen.",[],["es gibt", "neben", "unter"]],
     ]
@@ -4172,12 +4172,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende los patrones del plural en alemán y el uso de los artículos.",
     study: {
       vocab: [
-        ["das Buch / die Bücher", "the book / the books"],
-        ["das Kind / die Kinder", "the child / the children"],
-        ["die Stadt / die Städte", "the city / the cities"],
-        ["der Mann / die Männer", "the man / the men"],
-        ["ein, eine", "a, an"],
-        ["der, die, das", "the"],
+        ["das Buch / die Bücher","el libro / los libros"],
+        ["das Kind / die Kinder","el niño / los niños"],
+        ["die Stadt / die Städte","la ciudad / las ciudades"],
+        ["der Mann / die Männer","el hombre / los hombres"],
+        ["ein, eine","un, una"],
+        ["der, die, das","el, la (según género)"],
       ],
       grammar: [
         ["Patrones del plural (memorizar por sustantivo)", "El alemán tiene varios patrones de plural (-e, -er, -n, con o sin Umlaut); el artículo definido plural siempre es “die”, sin importar el género en singular.", "Buch→Bücher, Kind→Kinder, Stadt→Städte, Mann→Männer"],
@@ -4187,7 +4187,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Cuál es el plural de “Kind”?",["Kindern", "Kinden", "Kinder", "Kinds"],2,"El plural de “Kind” es irregular: “Kinder”."],
       ["mcq","¿Cuál es el plural de “Mann”?",["Männer", "Männe", "Mannen", "Manns"],0,"El plural de “Mann” añade “-er” y Umlaut: “Männer”."],
       ["fill","Completa: “Ich brauche ___ Regenschirm; es regnet.”",["einen", "ein", "der", "eine"],0,"“Regenschirm” es masculino y objeto directo (acusativo) → “einen”."],
-      ["translate","Traduce: “There are three boxes in the garage.”",["Es gibt drei Kisten in den Garagen.", "Es gibt drei Kiste in der Garage.", "Es gibt drei Kisten in der Garage.", "Es gibt drei Kistes in der Garage."],2,"“Kiste” en plural regular es “Kisten”."],
+      ["translate","Traduce al alemán: “Hay tres cajas en el garaje.”",["Es gibt drei Kisten in den Garagen.", "Es gibt drei Kiste in der Garage.", "Es gibt drei Kisten in der Garage.", "Es gibt drei Kistes in der Garage."],2,"“Kiste” en plural regular es “Kisten”."],
       ["arrange","Ordena: [sind / wo / die / Bücher]",["Bücher wo sind die", "wo sind die Bücher", "die sind Bücher wo", "Bücher die sind wo"],1,"Palabra interrogativa + verbo + artículo + sustantivo plural: “Wo sind die Bücher?”"],
       ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände in deinem Rucksack, benutze mindestens zwei Pluralformen.",[],["Bücher", "Kisten", "es gibt"]],
     ]
@@ -4197,11 +4197,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar gustos y preferencias en alemán con “gern”.",
     study: {
       vocab: [
-        ["Ich mag... (+ Nomen)", "I like... (+ noun)"],
-        ["gern + Verb", "to like doing something"],
-        ["Ich hasse...", "I hate..."],
-        ["schwimmen, lesen, kochen", "swimming, reading, cooking"],
-        ["Magst du...?", "Do you like...?"],
+        ["Ich mag... (+ Nomen)","Me gusta... (+ sustantivo)"],
+        ["gern + Verb","hacer algo con gusto"],
+        ["Ich hasse...","Odio..."],
+        ["schwimmen, lesen, kochen","nadar, leer, cocinar"],
+        ["Magst du...?","¿Te gusta...?"],
       ],
       grammar: [
         ["“Gern” tras el verbo conjugado", "A diferencia del inglés (gerundio) y el francés (infinitivo), en alemán se añade “gern” después del verbo conjugado para decir que te gusta hacer algo.", "Ich lese gern. / Sie kocht gern am Wochenende."],
@@ -4822,18 +4822,18 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a dar instrucciones y consejos directos en alemán con el imperativo.",
     study: {
       vocab: [
-        ["Öffne die Tür.", "Open the door."],
-        ["Schließ das Fenster.", "Close the window."],
-        ["Geh links / rechts.", "Turn left / right."],
-        ["Fass das nicht an.", "Don't touch that."],
-        ["Setz dich bitte.", "Please, sit down."],
+        ["Öffne die Tür.","Abre la puerta."],
+        ["Schließ das Fenster.","Cierra la ventana."],
+        ["Geh links / rechts.","Ve a la izquierda / derecha."],
+        ["Fass das nicht an.","No toques eso."],
+        ["Setz dich bitte.","Siéntate, por favor."],
       ],
       grammar: [
         ["El imperativo du sin pronombre ni -st", "El imperativo informal (du) suele omitir el pronombre y la terminación “-st”; el negativo usa “nicht” después del verbo u objeto.", "Öffne die Tür. / Fass das nicht an. / Warte bitte hier."],
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Open the door” en alemán (imperativo du)?",["Öffnen die Tür.", "Öffnest die Tür.", "Du öffnest die Tür.", "Öffne die Tür."],3,"El imperativo de “öffnen” es “öffne”."],
+      ["mcq","¿Cómo se dice “Abre la puerta” en alemán (imperativo du)?",["Öffnen die Tür.", "Öffnest die Tür.", "Du öffnest die Tür.", "Öffne die Tür."],3,"El imperativo de “öffnen” es “öffne”."],
       ["mcq","¿Dónde va “nicht” en el imperativo negativo?",["no se usa ‘nicht’", "después del verbo/objeto", "al principio de la oración", "antes del verbo"],1,"“Nicht” va después del verbo o del objeto."],
       ["fill","Completa: “Fass das ___ an; es ist heiß.”",["nicht", "niemals", "nie", "kein"],0,"El imperativo negativo usa “nicht”."],
       ["translate","Traduce: “Please, sit down.”",["Setzen dich bitte.", "Du setzt dich bitte.", "Setz dich bitte.", "Zu setzen dich bitte."],2,"Imperativo de “sich setzen”: “setz dich”."],
@@ -4846,11 +4846,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar dieser/diese/dieses y la forma coloquial “da” en alemán.",
     study: {
       vocab: [
-        ["dieser/diese/dieses", "this (cerca)"],
-        ["jener/jene/jenes", "that (lejos, literario)"],
-        ["der/die/das da", "that (coloquial, más usado)"],
-        ["diese (Plural)", "these"],
-        ["Was ist das?", "What is this?"],
+        ["dieser/diese/dieses","este/esta (cerca)"],
+        ["jener/jene/jenes","aquel/aquella (lejos, literario)"],
+        ["der/die/das da","ese/esa (coloquial, más usado)"],
+        ["diese (Plural)","estos/estas"],
+        ["Was ist das?","¿Qué es esto?"],
       ],
       grammar: [
         ["“Jener” es literario; en el habla se usa “da”", "El alemán distingue formalmente “dieser” (this) de “jener” (that), pero “jener” suena literario; en el habla cotidiana se suele usar “der/die/das” + “da” para algo lejano.", "Dieses Buch ist meins. / Das Auto da drüben ist teuer."],
@@ -4860,7 +4860,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Qué palabra usas para algo cercano en alemán?",["diese (Plural)", "jener/jene/jenes", "der/die/das da", "dieser/diese/dieses"],3,"“Dieser” es para algo cercano."],
       ["mcq","¿Qué forma es más común en el habla cotidiana para “eso, allá”?",["der/die/das da", "diese (Plural)", "dieser/diese/dieses", "jener/jene/jenes"],0,"“Der/die/das da” es la forma más común en el habla."],
       ["fill","Completa: “___ Buch ist meins.”",["Dieses", "Dieser", "Jener", "Diese"],0,"“Buch” es neutro singular → “dieses”."],
-      ["translate","Traduce: “These are my books.”",["Diese Bücher sind meine.", "Jene Bücher ist meine.", "Dieser Bücher sind meine.", "Dieses Bücher sind meine."],0,"Plural → “diese”."],
+      ["translate","Traduce al alemán: “Estos son mis libros.”",["Diese Bücher sind meine.", "Jene Bücher ist meine.", "Dieser Bücher sind meine.", "Dieses Bücher sind meine."],0,"Plural → “diese”."],
       ["arrange","Ordena: [meins / Buch / ist / dieses]",["Buch dieses meins ist", "meins ist dieses Buch", "Buch dieses ist meins", "dieses Buch ist meins"],3,"Demostrativo + sustantivo + verbo + posesivo."],
       ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände in deiner Nähe und weiter weg, benutze dieser und der/die/das da.",[],["dieser", "diese", "da"]],
     ]
@@ -4870,9 +4870,9 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar las preposiciones de tiempo um, im y am en alemán.",
     study: {
       vocab: [
-        ["um + Uhrzeit", "at + hora (um 9 Uhr)"],
-        ["im + Monat/Jahreszeit", "in + mes/estación (im Juli)"],
-        ["am + Wochentag/Datum", "on + día/fecha (am Montag)"],
+        ["um + Uhrzeit","a + hora (um 9 Uhr)"],
+        ["im + Monat/Jahreszeit","en + mes/estación (im Juli)"],
+        ["am + Wochentag/Datum","en + día/fecha (am Montag)"],
         ["in der Nacht", "de noche"],
         ["am Morgen/Nachmittag/Abend", "por la mañana/tarde/noche"],
       ],
@@ -4884,9 +4884,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Qué preposición usas con una hora exacta?",["am", "um", "im", "bei"],1,"“Um” se usa con horas exactas."],
       ["mcq","¿Qué preposición usas con un día de la semana?",["bei", "um", "am", "im"],2,"“Am” se usa con días de la semana."],
       ["fill","Completa: “Ich bin ___ Juli geboren.”",["bei", "am", "im", "um"],2,"“Im” se usa con meses."],
-      ["translate","Traduce: “We meet on Mondays.”",["Wir treffen uns um Montag.", "Wir treffen uns bei Montag.", "Wir treffen uns am Montag.", "Wir treffen uns im Montag."],2,"“Am” se usa con días de la semana."],
+      ["translate","Traduce al alemán: “Nos reunimos los lunes.”",["Wir treffen uns um Montag.", "Wir treffen uns bei Montag.", "Wir treffen uns am Montag.", "Wir treffen uns im Montag."],2,"“Am” se usa con días de la semana."],
       ["arrange","Ordena: [beginnt / Uhr / Kurs / der / um / 9]",["Uhr um Kurs der 9 beginnt", "der Kurs beginnt um 9 Uhr", "beginnt 9 Kurs Uhr der um", "beginnt 9 Uhr Kurs um der"],1,"Sujeto + verbo + “um” + hora."],
-      ["writing","Schreibe auf Deutsch 20-30 Wörter über deinen Wochenplan, benutze um, im und am.",[],["um", "im", "am"]],
+      ["writing","Describe en alemán, en 20-30 palabras, tu plan semanal, usando um, im y am.",[],["um", "im", "am"]],
     ]
   },
   {
@@ -4894,11 +4894,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar los adverbios de frecuencia en alemán y su posición.",
     study: {
       vocab: [
-        ["immer", "always"],
-        ["meistens", "usually"],
-        ["manchmal", "sometimes"],
-        ["selten", "rarely"],
-        ["nie", "never"],
+        ["immer","siempre"],
+        ["meistens","generalmente"],
+        ["manchmal","a veces"],
+        ["selten","rara vez"],
+        ["nie","nunca"],
       ],
       grammar: [
         ["El adverbio va tras el verbo conjugado (segunda posición)", "En las oraciones principales alemanas, los adverbios de frecuencia suelen ir justo después del verbo conjugado (que ocupa la segunda posición); “nie” no necesita un “nicht” adicional.", "Ich trinke immer Kaffee am Morgen. / Sie ist nie zu spät."],
@@ -4908,7 +4908,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Dónde suele ir el adverbio de frecuencia en una oración principal?",["siempre al final de la oración", "justo después del verbo conjugado", "siempre al principio de la oración", "justo antes del verbo conjugado"],1,"El adverbio va justo después del verbo conjugado."],
       ["mcq","¿Cómo se dice “a veces” en alemán?",["nie", "meistens", "immer", "manchmal"],3,"“A veces” es “manchmal”."],
       ["fill","Completa: “Sie ist ___ zu spät.”",["nie", "nicht nie", "kein", "niemals nicht"],0,"“Nie” no necesita un “nicht” adicional."],
-      ["translate","Traduce: “I always drink coffee in the morning.”",["Immer ich trinke Kaffee am Morgen.", "Ich immer trinke Kaffee am Morgen.", "Ich trinke Kaffee immer am Morgen.", "Ich trinke immer Kaffee am Morgen."],3,"El adverbio va justo después del verbo: “trinke immer”."],
+      ["translate","Traduce al alemán: “Siempre tomo café en la mañana.”",["Immer ich trinke Kaffee am Morgen.", "Ich immer trinke Kaffee am Morgen.", "Ich trinke Kaffee immer am Morgen.", "Ich trinke immer Kaffee am Morgen."],3,"El adverbio va justo después del verbo: “trinke immer”."],
       ["arrange","Ordena: [Fahrrad / meistens / fahre / zur / mit / Arbeit / ich / dem]",["ich fahre meistens mit dem Fahrrad zur Arbeit", "Fahrrad meistens Arbeit zur ich dem fahre mit", "fahre meistens mit zur dem ich Fahrrad Arbeit", "ich fahre meistens dem zur mit Arbeit Fahrrad"],0,"Sujeto + verbo + adverbio + complemento."],
       ["writing","Schreibe auf Deutsch 20-30 Wörter über deine Routine, benutze mindestens drei Häufigkeitsadverbien.",[],["immer", "meistens", "manchmal"]],
     ]
@@ -4918,11 +4918,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar posesión en alemán con el genitivo y con “von”.",
     study: {
       vocab: [
-        ["Annas Buch", "Anna's book (genitivo con nombre propio)"],
-        ["das Buch von Anna", "Anna's book (con 'von', más hablado)"],
-        ["die Spielzeuge der Kinder", "the children's toys (genitivo)"],
-        ["Wessen Buch ist das?", "Whose book is this?"],
-        ["Es ist Annas.", "It's Anna's."],
+        ["Annas Buch","el libro de Anna (genitivo con nombre propio)"],
+        ["das Buch von Anna","el libro de Anna (con 'von', más hablado)"],
+        ["die Spielzeuge der Kinder","los juguetes de los niños (genitivo)"],
+        ["Wessen Buch ist das?","¿De quién es este libro?"],
+        ["Es ist Annas.","Es de Anna."],
       ],
       grammar: [
         ["Genitivo con nombres propios vs “von” hablado", "Con nombres propios, el alemán añade “-s” directamente (como el inglés): “Annas Buch”. Con sustantivos comunes se usa el genitivo (“die Spielzeuge der Kinder”), pero en el habla “von + dativo” suele reemplazar al genitivo.", "Das ist Annas Buch. / Das Buch von Anna ist rot. / Die Spielzeuge der Kinder sind neu."],
@@ -4932,7 +4932,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","¿Cómo se dice “Anna's book” en alemán con nombre propio?",["Annas Buch", "Anna's Buch", "Buch von der Anna", "Das Buch Anna"],0,"Con nombres propios se añade “-s”: “Annas Buch”."],
       ["mcq","¿Qué preposición reemplaza al genitivo en el alemán hablado?",["für", "bei", "mit", "von"],3,"“Von + dativo” reemplaza al genitivo en el habla."],
       ["fill","Completa: “Das Buch ___ Anna ist rot.”",["dem", "der", "des", "von"],3,"“Von” reemplaza al genitivo en el habla: “von Anna”."],
-      ["translate","Traduce: “Whose book is this? It's Anna's.”",["Wer Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist von Anna's.", "Wessen ist das Buch? Es ist Anna."],1,"“¿De quién?” es “Wessen?”, seguido del sustantivo."],
+      ["translate","Traduce al alemán: “¿De quién es este libro? Es de Anna.”",["Wer Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist Annas.", "Wessen Buch ist das? Es ist von Anna's.", "Wessen ist das Buch? Es ist Anna."],1,"“¿De quién?” es “Wessen?”, seguido del sustantivo."],
       ["arrange","Ordena: [Buch / Annas / ist / das]",["das Annas Buch ist", "Buch das Annas ist", "das ist Annas Buch", "das Buch Annas ist"],2,"Sujeto + verbo + genitivo + sustantivo."],
       ["writing","Schreibe auf Deutsch 20-30 Wörter über Gegenstände, die verschiedenen Personen gehören, benutze den Genitiv oder “von”.",[],["Annas", "von", "wessen"]],
     ]
