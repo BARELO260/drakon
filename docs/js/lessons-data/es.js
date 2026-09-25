@@ -175,7 +175,7 @@ window.LESSON_BANKS.ES = [
     ]
   },
   {
-    id:"es_a2_weather_seasons", level:"A2", title:"El clima y las estaciones", emoji:"🌦️", xp:40,
+    id:"es_a2_weather_seasons", level:"A2", title:"El clima y las estaciones (conversación)", emoji:"🌦️", xp:40,
     description:"Habla del clima y las estaciones del año en español.",
     study: {
       vocab: [

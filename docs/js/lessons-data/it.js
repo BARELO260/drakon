@@ -172,7 +172,7 @@ window.LESSON_BANKS.IT = [
     ]
   },
   {
-    id:"it_a2_weather_seasons", level:"A2", title:"Il tempo e le stagioni", emoji:"🌦️", xp:40,
+    id:"it_a2_weather_seasons", level:"A2", title:"Il tempo e le stagioni (conversazione)", emoji:"🌦️", xp:40,
     description:"Habla del clima y las estaciones del año en italiano.",
     study: {
       vocab: [
@@ -4722,7 +4722,7 @@ window.LESSON_BANKS.IT = [
     ]
   },
   {
-    id:"it_c2_anteposizione_enfatica", level:"C2", title:"L'anteposizione per dare enfasi", emoji:"⏩", xp:70,
+    id:"it_c2_anteposizione_enfatica", level:"C2", title:"L'anteposizione di oggetti e complementi", emoji:"⏩", xp:70,
     description:"Aprende a anteponer objetos y complementos para dar énfasis en italiano.",
     study: {
       vocab: [

@@ -29,7 +29,10 @@ function _minWordsFor(e){
   if (typeof e[6] === 'number' && e[6] > 0) return { minWords: e[6] };
   const m = String(e[1] || '').match(/(\d+)\s*[-–]\s*(\d+)/);
   const lo = m ? parseInt(m[1], 10) : 0;
-  return (lo > 0 && lo < 25) ? { minWords: lo } : {};
+  // Se exige el extremo inferior del rango que pide la propia consigna
+  // (antes solo se corregía cuando ese mínimo era menor de 25; con rangos
+  // altos como "55-75" el motor seguía exigiendo únicamente 25).
+  return lo > 0 ? { minWords: lo } : {};
 }
 
 function buildLessons(source){
