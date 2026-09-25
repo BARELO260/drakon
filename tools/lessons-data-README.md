@@ -214,6 +214,8 @@ y 25 en el resto de casos; para fijarlo a mano añade un 7º elemento numérico:
 `[tipo, consigna, [], [claves], explicación, contexto, minWords]`. La explicación
 (5º elemento) es opcional en `writing`/`speaking`.
 
+Desde esta revisión, el motor también muestra al alumno **antes** de escribir cuántas de las palabras clave del 4º elemento necesita usar (la mitad, redondeando hacia arriba) para superar la tarea; antes esos criterios solo se revelaban en el feedback posterior, así que la mayoría de intentos fallaba por desconocer el objetivo. Escribe las palabras clave tal como esperas que el alumno las use (con backticks entre comillas simples evitado; nada de `<`, `>` o `&`, que se insertan sin escapar).
+
 ### Convención de `translate` (importante: el audio)
 
 El ejercicio `translate` es también un *Listening Probe* y el juego de Escucha

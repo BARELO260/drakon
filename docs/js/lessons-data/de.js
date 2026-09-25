@@ -2038,7 +2038,7 @@ window.LESSON_BANKS.DE = [
       ["mcq","Wie sagt man „das Geschirr spülen” auf Englisch?",["to vacuum", "to make the bed", "to take out the trash", "to wash the dishes"],3,"„Das Geschirr spülen” heißt auf Englisch „to wash the dishes”."],
       ["mcq","Wie sagt man „staubsaugen” auf Englisch?",["to sweep", "to vacuum", "to iron the clothes", "to wash the dishes"],1,"„Staubsaugen” heißt auf Englisch „to vacuum”."],
       ["fill","Completa: “Bevor man das Haus verlässt, ___ man das Bett machen.”",["ist", "muss", "hat", "wird"],1,"„Man muss” + Infinitiv ist eine feste unpersönliche Konstruktion: „man muss machen”."],
-      ["translate","Übersetze: „You have to take out the trash every day.“",["Man muss einmal pro Woche den Müll rausbringen.", "Du musst jeden Tag den Müll rausbringen.", "Man muss jeden Tag den Müll fegen.", "Man muss jeden Tag den Müll rausbringen."],3,"„You have to” ist hier unpersönlich gemeint und wird am besten mit „man muss” übersetzt."],
+      ["translate","Übersetze: „You have to take out the trash every day.“",["Man muss einmal pro Woche den Müll rausbringen.","Man muss jeden Tag den Müll rausbringend.","Man muss jeden Tag den Müll fegen.","Man muss jeden Tag den Müll rausbringen."],3,"„You have to” ist hier unpersönlich gemeint und wird am besten mit „man muss” übersetzt."],
       ["arrange","Bring in die richtige Reihenfolge: [Geschirr / muss / spülen / man / das]",["Geschirr das muss spülen Man", "Geschirr das Man spülen muss", "Man spülen muss Geschirr das", "Man muss das Geschirr spülen"],3,"„Man muss” + Objekt + Infinitiv."],
       ["speaking","Beschreibe in 40-60 Wörtern, welche Hausarbeit man bei dir zu Hause jede Woche machen muss, und benutze „man muss”.",[],["man muss", "jede Woche", "zu Hause"]],
     ]
@@ -2460,8 +2460,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cold” en alemán?",["kalt", "sunny", "hot", "rainy"],0,"“Cold” es “kalt” en alemán."],
-      ["mcq","¿Cómo se dice “rainy” en alemán?",["hot", "rainy", "regnerisch", "cold"],2,"“Rainy” es “regnerisch” en alemán."],
+      ["mcq","¿Cómo se dice “cold” en alemán?",["kalt","sonnig","heiß","regnerisch"],0,"“Cold” es “kalt” en alemán."],
+      ["mcq","¿Cómo se dice “rainy” en alemán?",["heiß","sonnig","regnerisch","kalt"],2,"“Rainy” es “regnerisch” en alemán."],
       ["fill","Completa: “Heute ist es sehr ___, nimm einen Regenschirm mit.”",["sonnig", "kalt", "heiß", "regnerisch"],3,"“Regnerisch” describe un clima con lluvia: “es ist regnerisch”."],
       ["translate","Traduce: “It's very cold in winter.”",["Im Winter ist es sehr kalt.", "Im Winter ist es sehr heiß.", "Im Winter wird es sehr kalt.", "Im Sommer ist es sehr kalt."],0,"“It's very cold” se traduce como “es ist sehr kalt”, con el pronombre impersonal “es”."],
       ["arrange","Ordena: [sonnig / heute / ist / es]",["es ist heute sonnig","Heute ist es sonnig","sonnig ist heute es","heute sonnig es ist"],1,"Adverbio de tiempo + verbo + pronombre impersonal + adjetivo."],
@@ -2485,8 +2485,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the veterinarian” en alemán?",["to adopt a pet", "to feed the pet", "to walk the dog", "der Tierarzt"],3,"“The veterinarian” es “der Tierarzt” en alemán."],
-      ["mcq","¿Cómo se dice “to vaccinate” en alemán?",["to walk the dog", "impfen", "the veterinarian", "to vaccinate"],1,"“To vaccinate” es “impfen” en alemán."],
+      ["mcq","¿Cómo se dice “the veterinarian” en alemán?",["ein Haustier adoptieren","das Haustier füttern","den Hund ausführen","der Tierarzt"],3,"“The veterinarian” es “der Tierarzt” en alemán."],
+      ["mcq","¿Cómo se dice “to vaccinate” en alemán?",["den Hund ausführen","impfen","der Tierarzt","das Haustier füttern"],1,"“To vaccinate” es “impfen” en alemán."],
       ["fill","Completa: “Ich ___ jeden Morgen den Hund ausführen.”",["musst", "müsst", "müssen", "muss"],3,"“Müssen” con “ich” se conjuga como “ich muss”."],
       ["translate","Traduce: “I have to feed the pet twice a day.”",["Ich muss das Haustier zweimal am Tag ausführen.", "Ich muss das Haustier zweimal am Tag füttern.", "Ich musste das Haustier zweimal am Tag füttern.", "Ich muss das Haustier einmal am Tag füttern."],1,"“I have to feed” se traduce con “ich muss füttern”, obligación en presente."],
       ["arrange","Ordena: [muss / Hund / sie / ausführen / den]",["ausführen den sie muss Hund","muss sie ausführen Hund den","sie Hund den ausführen muss","Sie muss den Hund ausführen"],3,"Sujeto + “muss” + artículo + sustantivo + infinitivo."],
@@ -2510,8 +2510,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “investor” en alemán?",["der Investor", "business plan", "to scale a business", "startup"],0,"“Investor” es “der Investor” en alemán."],
-      ["mcq","¿Cómo se dice “to take a risk” en alemán?",["to scale a business", "to launch a product", "ein Risiko eingehen", "business plan"],2,"“To take a risk” es “ein Risiko eingehen” en alemán."],
+      ["mcq","¿Cómo se dice “investor” en alemán?",["der Investor","der Geschäftsplan","ein Unternehmen skalieren","das Start-up"],0,"“Investor” es “der Investor” en alemán."],
+      ["mcq","¿Cómo se dice “to take a risk” en alemán?",["ein Unternehmen skalieren","ein Produkt auf den Markt bringen","ein Risiko eingehen","der Geschäftsplan"],2,"“To take a risk” es “ein Risiko eingehen” en alemán."],
       ["fill","Completa: “Wir ___ das Produkt nächsten Monat auf den Markt bringen.”",["würden", "wurde", "werden", "wird"],2,"“Werden” con “wir” se conjuga como “wir werden”."],
       ["translate","Traduce: “We are going to launch the product next month.”",["Wir werden das Produkt diesen Monat auf den Markt bringen.", "Wir bringen das Produkt nächsten Monat auf den Markt.", "Wir werden das Produkt nächsten Monat auf den Markt bringen.", "Wir werden das Unternehmen nächsten Monat auf den Markt bringen."],2,"“We are going to launch” se traduce con “wir werden... bringen”, futuro con “werden”."],
       ["arrange","Ordena: [wird / Investoren / sie / suchen / nach]",["Investoren suchen sie nach wird","Sie wird nach Investoren suchen","Investoren sie suchen nach wird","Investoren sie wird nach suchen"],1,"Sujeto + “wird” + preposición + sustantivo + infinitivo."],
@@ -2535,8 +2535,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “space station” en alemán?",["space mission", "rocket launch", "space station", "die Raumstation"],3,"“Space station” es “die Raumstation” en alemán."],
-      ["mcq","¿Cómo se dice “to orbit” en alemán?",["to orbit", "umkreisen", "outer space", "astronaut"],1,"“To orbit” es “umkreisen” en alemán."],
+      ["mcq","¿Cómo se dice “space station” en alemán?",["die Weltraummission","der Raketenstart","der Astronaut","die Raumstation"],3,"“Space station” es “die Raumstation” en alemán."],
+      ["mcq","¿Cómo se dice “to orbit” en alemán?",["die Weltraummission","umkreisen","der Weltraum","der Astronaut"],1,"“To orbit” es “umkreisen” en alemán."],
       ["fill","Completa: “Bis 2030 ___ Astronauten auf dem Mars gelandet sein.”",["sind", "werden", "waren", "würden"],1,"El Futur II usa “werden” + participio + “sein/haben”: “werden... gelandet sein”."],
       ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Bis 2030 würden Astronauten auf dem Mars gelandet sein.", "Bis 2030 werden Astronauten auf dem Mars gelandet sein.", "Bis 2030 sind Astronauten auf dem Mars gelandet.", "Bis 2030 werden Astronauten auf dem Mars landen."],1,"“Will have landed” se traduce con Futur II: “werden... gelandet sein”."],
       ["arrange","Ordena: [bald / Rakete / Umlaufbahn / erreicht / die / die]",["erreicht die die Umlaufbahn Rakete bald","die bald erreicht Rakete Umlaufbahn die","erreicht Umlaufbahn Rakete bald die die","Die Rakete erreicht bald die Umlaufbahn"],3,"Artículo + sustantivo + verbo + adverbio + artículo + sustantivo."],
@@ -2560,8 +2560,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “accountability” en alemán?",["to regulate", "unintended consequences", "algorithmic bias", "die Rechenschaftspflicht"],3,"“Accountability” es “die Rechenschaftspflicht” en alemán."],
-      ["mcq","¿Cómo se dice “algorithmic bias” en alemán?",["die algorithmische Verzerrung", "artificial intelligence", "unintended consequences", "accountability"],0,"“Algorithmic bias” es “die algorithmische Verzerrung” en alemán."],
+      ["mcq","¿Cómo se dice “accountability” en alemán?",["regulieren","die unbeabsichtigten Folgen","die algorithmische Verzerrung","die Rechenschaftspflicht"],3,"“Accountability” es “die Rechenschaftspflicht” en alemán."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en alemán?",["die algorithmische Verzerrung","die künstliche Intelligenz","die unbeabsichtigten Folgen","die Rechenschaftspflicht"],0,"“Algorithmic bias” es “die algorithmische Verzerrung” en alemán."],
       ["fill","Completa: “Diese Systeme sollten reguliert ___, um Verzerrungen zu vermeiden.”",["worden", "werden", "wird", "sein"],1,"El Passiv con modal usa “sollten” + participio + “werden”: “sollten reguliert werden”."],
       ["translate","Traduce con Passiv: “These systems should be regulated to prevent bias.”",["Diese Systeme sollten regulieren, um Verzerrungen zu vermeiden.", "Diese Systeme sollten reguliert werden, um Verzerrungen zu vermeiden.", "Diese Systeme müssen reguliert werden, um Verzerrungen zu vermeiden.", "Diese Systeme sollten reguliert werden, um eine Verzerrung zu vermeiden."],1,"“Should be regulated” se traduce con Passiv: “sollten reguliert werden”."],
       ["arrange","Ordena: [reguliert / Algorithmen / werden / sollten]",["sollten Algorithmen reguliert werden","sollten reguliert Algorithmen werden","Algorithmen sollten reguliert werden","reguliert werden sollten Algorithmen"],2,"Sujeto + Konjunktiv II modal + participio + “werden”."],
@@ -2585,8 +2585,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “thought experiment” en alemán?",["the mind-body problem", "das Gedankenexperiment", "subjective experience", "thought experiment"],1,"“Thought experiment” es “das Gedankenexperiment” en alemán."],
-      ["mcq","¿Cómo se dice “free will” en alemán?",["thought experiment", "der freie Wille", "free will", "subjective experience"],1,"“Free will” es “der freie Wille” en alemán."],
+      ["mcq","¿Cómo se dice “thought experiment” en alemán?",["das Leib-Seele-Problem","das Gedankenexperiment","die subjektive Erfahrung","das Bewusstsein"],1,"“Thought experiment” es “das Gedankenexperiment” en alemán."],
+      ["mcq","¿Cómo se dice “free will” en alemán?",["das Gedankenexperiment","der freie Wille","das Bewusstsein","die subjektive Erfahrung"],1,"“Free will” es “der freie Wille” en alemán."],
       ["fill","Completa: “Was das Bewusstsein wirklich definiert, ___ nicht nur Verhalten.”",["ist", "war", "sind", "sei"],0,"En Spaltsätze con sujeto singular se usa “ist”: “was definiert... ist”."],
       ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Was das Bewusstsein wirklich definiert, ist nicht nur Verhalten, sondern subjektive Erfahrung.", "Was das Bewusstsein wirklich definiert, ist nur Verhalten, nicht subjektive Erfahrung.", "Was das Bewusstsein definiert wirklich, ist nicht nur Verhalten, sondern subjektive Erfahrung.", "Was das Bewusstsein wirklich definierte, ist nicht nur Verhalten, sondern subjektive Erfahrung."],0,"El Spaltsatz mantiene “was + verbo, ist nicht nur... sondern...”, con “wirklich” antes del verbo."],
       ["arrange","Ordena: [Willen / diskutieren / freien / immer / noch / Philosophen / den]",["Philosophen diskutieren immer noch den freien Willen","immer freien Philosophen Willen den noch diskutieren","freien immer noch Philosophen diskutieren den Willen","Philosophen den noch freien diskutieren immer Willen"],0,"Sujeto + verbo + adverbio + adverbio + artículo + adjetivo + sustantivo."],
@@ -2610,8 +2610,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the seed” en alemán?",["der Samen", "to grow", "to water the plants", "the flower"],0,"“The seed” es “der Samen” en alemán."],
-      ["mcq","¿Cómo se dice “to grow” en alemán?",["sunlight", "the seed", "wachsen", "to grow"],2,"“To grow” es “wachsen” en alemán."],
+      ["mcq","¿Cómo se dice “the seed” en alemán?",["der Samen","wachsen","die Pflanzen gießen","die Blume"],0,"“The seed” es “der Samen” en alemán."],
+      ["mcq","¿Cómo se dice “to grow” en alemán?",["das Sonnenlicht","der Samen","wachsen","die Pflanzen gießen"],2,"“To grow” es “wachsen” en alemán."],
       ["fill","Completa: “___ die Pflanzen jeden Tag, sonst sterben sie.”",["Gießen", "Gießend", "Gieß", "Gießt"],2,"El imperativo (du) de “gießen” es “gieß”."],
       ["translate","Traduce: “Water the plants every day.”",["Du gießt die Pflanzen jeden Tag.", "Gieß die Pflanzen jede Woche.", "Gießen die Pflanzen jeden Tag.", "Gieß die Pflanzen jeden Tag."],3,"El imperativo comienza directamente con el verbo conjugado: “Gieß die Pflanzen...”."],
       ["arrange","Ordena: [vergiss / Tor / das / nicht / schließen / zu]",["zu Tor vergiss nicht das schließen","zu das nicht schließen vergiss Tor","das vergiss Tor zu schließen nicht","Vergiss nicht das Tor zu schließen"],3,"“Vergiss nicht” + “zu” + infinitivo + artículo + sustantivo."],
@@ -2635,8 +2635,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the library card” en alemán?",["to return a book", "the library card", "der Bibliotheksausweis", "the novel"],2,"“The library card” es “der Bibliotheksausweis” en alemán."],
-      ["mcq","¿Cómo se dice “the due date” en alemán?",["to borrow a book", "das Rückgabedatum", "the library card", "the novel"],1,"“The due date” es “das Rückgabedatum” en alemán."],
+      ["mcq","¿Cómo se dice “the library card” en alemán?",["ein Buch zurückgeben","ein Buch ausleihen","der Bibliotheksausweis","der Roman"],2,"“The library card” es “der Bibliotheksausweis” en alemán."],
+      ["mcq","¿Cómo se dice “the due date” en alemán?",["ein Buch ausleihen","das Rückgabedatum","der Bibliotheksausweis","der Roman"],1,"“The due date” es “das Rückgabedatum” en alemán."],
       ["fill","Completa: “Ich ___ letzte Woche einen Roman ausgeliehen.”",["habe", "hatte", "hast", "habend"],0,"El Perfekt con “ich” usa “habe” + Partizip II: “ich habe ausgeliehen”."],
       ["translate","Traduce: “She returned the book on time.”",["Sie hat den Roman pünktlich zurückgegeben.", "Sie gibt das Buch pünktlich zurück.", "Sie hat das Buch pünktlich zurückgegeben.", "Sie hat das Buch spät zurückgegeben."],2,"“Returned” se traduce con Perfekt: “hat zurückgegeben”."],
       ["arrange","Ordena: [Regal / im / Buch / das / ist]",["Das Buch ist im Regal","ist das Regal Buch im","ist Buch Regal das im","im das Buch Regal ist"],0,"Artículo + sustantivo + verbo + preposición + sustantivo."],
@@ -2660,8 +2660,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the crib” en alemán?",["the crib", "to burp the baby", "das Kinderbett", "to breastfeed"],2,"“The crib” es “das Kinderbett” en alemán."],
-      ["mcq","¿Cómo se dice “the pediatrician” en alemán?",["der Kinderarzt", "to breastfeed", "to babysit", "the crib"],0,"“The pediatrician” es “der Kinderarzt” en alemán."],
+      ["mcq","¿Cómo se dice “the crib” en alemán?",["stillen","dem Baby ein Bäuerchen machen","das Kinderbett","die Schlafenszeit-Routine"],2,"“The crib” es “das Kinderbett” en alemán."],
+      ["mcq","¿Cómo se dice “the pediatrician” en alemán?",["der Kinderarzt","stillen","babysitten","das Kinderbett"],0,"“The pediatrician” es “der Kinderarzt” en alemán."],
       ["fill","Completa: “Das Baby ___ früher alle zwei Stunden auf.”",["wachend", "wachte", "wacht", "gewacht"],1,"El Präteritum de “aufwachen” es “wachte... auf”."],
       ["translate","Traduce: “We used to visit the pediatrician every month.”",["Wir besuchten den Zahnarzt früher jeden Monat.", "Wir besuchten den Kinderarzt früher jede Woche.", "Wir besuchen den Kinderarzt jeden Monat.", "Wir besuchten den Kinderarzt früher jeden Monat."],3,"“Used to visit” se traduce con “früher” + Präteritum: “besuchten... früher”."],
       ["arrange","Ordena: [Kinderbett / schlief / im / sie]",["sie im schlief Kinderbett","im sie Kinderbett schlief","Sie schlief im Kinderbett","sie Kinderbett schlief im"],2,"Sujeto + verbo + preposición + sustantivo."],
@@ -2685,8 +2685,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancient civilization” en alemán?",["to excavate", "artifact", "die alte Zivilisation", "ruins"],2,"“Ancient civilization” es “die alte Zivilisation” en alemán."],
-      ["mcq","¿Cómo se dice “to excavate” en alemán?",["ruins", "ausgraben", "ancient civilization", "artifact"],1,"“To excavate” es “ausgraben” en alemán."],
+      ["mcq","¿Cómo se dice “ancient civilization” en alemán?",["ausgraben","das Artefakt","die alte Zivilisation","die Ruinen"],2,"“Ancient civilization” es “die alte Zivilisation” en alemán."],
+      ["mcq","¿Cómo se dice “to excavate” en alemán?",["die Ruinen","ausgraben","die alte Zivilisation","das Artefakt"],1,"“To excavate” es “ausgraben” en alemán."],
       ["fill","Completa: “Dieses Artefakt ___ einem König gehört haben.”",["kann", "wird", "muss", "soll"],2,"“Muss” + participio + “haben” expresa una deducción fuerte: “muss... gehört haben”."],
       ["translate","Traduce: “The site might have been a temple.”",["Die Stätte könnte ein Tempel gewesen sein.", "Die Stätte könnte ein Tempel sein.", "Die Stätte muss ein Tempel gewesen sein.", "Die Stätte könnte ein Palast gewesen sein."],0,"“Might have been” se traduce con posibilidad menos segura: “könnte... gewesen sein”."],
       ["arrange","Ordena: [gebaut / alte / diese / eine / Zivilisation / haben / muss]",["alte eine gebaut muss haben Zivilisation diese","Zivilisation gebaut diese muss haben alte eine","Eine alte Zivilisation muss diese gebaut haben","haben eine muss alte diese Zivilisation gebaut"],2,"Artículo + adjetivo + sustantivo + modal + pronombre + participio + “haben”."],
@@ -2710,8 +2710,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “neuroplasticity” en alemán?",["die Neuroplastizität", "cognitive function", "brain scan", "neuroplasticity"],0,"“Neuroplasticity” es “die Neuroplastizität” en alemán."],
-      ["mcq","¿Cómo se dice “synapse” en alemán?",["neurotransmitter", "cognitive function", "brain scan", "die Synapse"],3,"“Synapse” es “die Synapse” en alemán."],
+      ["mcq","¿Cómo se dice “neuroplasticity” en alemán?",["die Neuroplastizität","die kognitive Funktion","die Hirnscan","die neuronale Bahn"],0,"“Neuroplasticity” es “die Neuroplastizität” en alemán."],
+      ["mcq","¿Cómo se dice “synapse” en alemán?",["der Neurotransmitter","die kognitive Funktion","die Hirnscan","die Synapse"],3,"“Synapse” es “die Synapse” en alemán."],
       ["fill","Completa: “Selten ___ Forscher so klare Beweise gefunden.”",["hatten", "hat", "haben", "habend"],2,"Tras “Selten” al inicio, el verbo conjugado va en segunda posición: “selten haben Forscher gefunden”."],
       ["translate","Traduce con inversión: “Rarely have researchers found such clear evidence.”",["Forscher haben selten so klare Beweise gefunden.", "Selten haben Forscher so klare Beweise gefunden.", "Selten haben Forscher so unklare Beweise gefunden.", "Selten Forscher haben so klare Beweise gefunden."],1,"El orden V2 alemán coloca el verbo conjugado justo tras el adverbio inicial: “selten haben Forscher”."],
       ["arrange","Ordena: [gut / sich / Gehirn / das / passt / an]",["passt gut an das Gehirn sich","passt Gehirn gut an das sich","Das Gehirn passt sich gut an","gut das an passt sich Gehirn"],2,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio + partícula."],
@@ -2735,8 +2735,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “loss aversion” en alemán?",["loss aversion", "die Verlustaversion", "decision-making", "nudge"],1,"“Loss aversion” es “die Verlustaversion” en alemán."],
-      ["mcq","¿Cómo se dice “anchoring effect” en alemán?",["der Ankereffekt", "cognitive bias", "irrational behavior", "anchoring effect"],0,"“Anchoring effect” es “der Ankereffekt” en alemán."],
+      ["mcq","¿Cómo se dice “loss aversion” en alemán?",["die kognitive Verzerrung","die Verlustaversion","die Entscheidungsfindung","der sanfte Anstoß"],1,"“Loss aversion” es “die Verlustaversion” en alemán."],
+      ["mcq","¿Cómo se dice “anchoring effect” en alemán?",["der Ankereffekt","die kognitive Verzerrung","das irrationale Verhalten","die Verlustaversion"],0,"“Anchoring effect” es “der Ankereffekt” en alemán."],
       ["fill","Completa: “Die Persistenz der kognitiven Verzerrung beeinflusst die ___.”",["Entschieden", "Entscheidungsfindung", "Entscheiden", "Entscheidung"],1,"La forma nominalizada de “entscheiden” en este registro académico es “die Entscheidungsfindung”."],
       ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["Die Verlustaversion beeinflusst das Entscheiden.", "Die Verlustaversion beeinflusst die Entscheidungsfindung.", "Die Verlustaversion beeinflussen die Entscheidungsfindung.", "Die Aversion des Verlustes beeinflusst die Entscheidungsfindung."],1,"“Decision-making” se traduce con la forma nominalizada “die Entscheidungsfindung”, no con el verbo “entscheiden”."],
       ["arrange","Ordena: [Verzerrung / untersuchen / Forscher / kognitive / die]",["Forscher untersuchen die kognitive Verzerrung","kognitive untersuchen die Forscher Verzerrung","die Forscher kognitive untersuchen Verzerrung","Forscher die kognitive Verzerrung untersuchen"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo."],
@@ -2760,8 +2760,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “lens” en alemán?",["das Objektiv", "memory card", "lens", "zoom"],0,"“Lens” es “das Objektiv” en alemán."],
-      ["mcq","¿Cómo se dice “memory card” en alemán?",["die Speicherkarte", "to take a picture", "lens", "memory card"],0,"“Memory card” es “die Speicherkarte” en alemán."],
+      ["mcq","¿Cómo se dice “lens” en alemán?",["das Objektiv","die Speicherkarte","die Kamera","der Zoom"],0,"“Lens” es “das Objektiv” en alemán."],
+      ["mcq","¿Cómo se dice “memory card” en alemán?",["die Speicherkarte","ein Foto machen","das Objektiv","die Kamera"],0,"“Memory card” es “die Speicherkarte” en alemán."],
       ["fill","Completa: “Diese Kamera ___ nicht sehr weit zoomen.”",["könnt", "kannst", "können", "kann"],3,"“Können” conjugado en tercera persona singular es “kann”."],
       ["translate","Traduce: “I can take good photos with this camera.”",["Ich kann mit jener Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos machen.", "Ich kann mit dieser Kamera gute Fotos gemacht.", "Ich kann nicht mit dieser Kamera gute Fotos machen."],1,"“I can take” se traduce con “ich kann machen”, “können” + infinitivo al final."],
       ["arrange","Ordena: [weit / kann / nicht / kamera / diese / zoomen / sehr]",["Diese Kamera kann nicht sehr weit zoomen","sehr nicht weit kann Kamera Diese zoomen","nicht kann zoomen Diese sehr Kamera weit","Kamera Diese zoomen weit kann sehr nicht"],0,"Sujeto + modal + “nicht” + adverbio + adverbio + infinitivo."],
@@ -2785,8 +2785,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sleeping bag” en alemán?",["hiking trail", "campfire", "sleeping bag", "der Schlafsack"],3,"“Sleeping bag” es “der Schlafsack” en alemán."],
-      ["mcq","¿Cómo se dice “hiking trail” en alemán?",["sleeping bag", "tent", "to pitch a tent", "der Wanderweg"],3,"“Hiking trail” es “der Wanderweg” en alemán."],
+      ["mcq","¿Cómo se dice “sleeping bag” en alemán?",["der Wanderweg","das Lagerfeuer","das Zelt","der Schlafsack"],3,"“Sleeping bag” es “der Schlafsack” en alemán."],
+      ["mcq","¿Cómo se dice “hiking trail” en alemán?",["der Schlafsack","das Zelt","ein Zelt aufbauen","der Wanderweg"],3,"“Hiking trail” es “der Wanderweg” en alemán."],
       ["fill","Completa: “Wir haben ___ Wasser mehr.”",["wenig", "kein", "viel", "etwas"],1,"En oraciones negativas se usa “kein”: “wir haben kein Wasser mehr”."],
       ["translate","Traduce: “We have some firewood for the campfire.”",["Wir haben etwas Holz für das Lagerfeuer.", "Wir hat etwas Holz für das Lagerfeuer.", "Wir haben etwas Holz für das Zelt.", "Wir haben kein Holz für das Lagerfeuer."],0,"“Some firewood” en afirmativa se traduce con “etwas Holz”."],
       ["arrange","Ordena: [lang / Wanderweg / ist / dieser]",["Dieser Wanderweg ist lang","ist Wanderweg dieser lang","dieser lang Wanderweg ist","dieser ist Wanderweg lang"],0,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -2810,8 +2810,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “beehive” en alemán?",["der Bienenstock", "to pollinate", "honey", "to sting"],0,"“Beehive” es “der Bienenstock” en alemán."],
-      ["mcq","¿Cómo se dice “to pollinate” en alemán?",["queen bee", "to pollinate", "beehive", "bestäuben"],3,"“To pollinate” es “bestäuben” en alemán."],
+      ["mcq","¿Cómo se dice “beehive” en alemán?",["der Bienenstock","bestäuben","der Honig","stechen"],0,"“Beehive” es “der Bienenstock” en alemán."],
+      ["mcq","¿Cómo se dice “to pollinate” en alemán?",["die Bienenkönigin","der Bienenstock","der Honig","bestäuben"],3,"“To pollinate” es “bestäuben” en alemán."],
       ["fill","Completa: “Der Imker, ___ diesen Bienenstock betreut, ist sehr erfahren.”",["das", "den", "die", "der"],3,"El sujeto masculino “der Imker” requiere el relativo “der” en nominativo."],
       ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Bienen, der Blumen bestäuben, sind für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäubt, sind für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäuben, ist für die Landwirtschaft wichtig.", "Bienen, die Blumen bestäuben, sind für die Landwirtschaft wichtig."],3,"“Which” con sujeto plural “Bienen” se traduce con el relativo “die”: “bienen, die bestäuben”."],
       ["arrange","Ordena: [leben / Stock / Bienen / im / die]",["Bienen leben im Stock die","die Stock Bienen im leben","Die Bienen leben im Stock","Bienen leben im die Stock"],2,"Artículo + sustantivo + verbo + preposición + sustantivo."],
@@ -2835,8 +2835,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “blockchain” en alemán?",["die Blockchain", "cryptocurrency", "to invest", "volatility"],0,"“Blockchain” es “die Blockchain” en alemán."],
-      ["mcq","¿Cómo se dice “volatility” en alemán?",["cryptocurrency", "die Volatilität", "to invest", "digital wallet"],1,"“Volatility” es “die Volatilität” en alemán."],
+      ["mcq","¿Cómo se dice “blockchain” en alemán?",["die Blockchain","die Kryptowährung","investieren","die Volatilität"],0,"“Blockchain” es “die Blockchain” en alemán."],
+      ["mcq","¿Cómo se dice “volatility” en alemán?",["die Kryptowährung","die Volatilität","investieren","die digitale Geldbörse"],1,"“Volatility” es “die Volatilität” en alemán."],
       ["fill","Completa: “Wenn ich früher investiert ___, hätte ich mehr Geld verdient.”",["hatte", "würde", "habe", "hätte"],3,"El Konjunktiv II de la Vergangenheit usa “hätte” + participio: “wenn ich investiert hätte”."],
       ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Wenn der Markt nicht eingebrochen wäre, waren die Preise hoch geblieben.", "Wenn der Markt nicht eingebrochen wäre, wären die Preise hoch geblieben.", "Wenn der Markt nicht einbricht, wären die Preise hoch geblieben.", "Wenn der Markt nicht eingebrochen wäre, würden die Preise hoch bleiben."],1,"“Hadn't crashed... would have stayed” se traduce con Konjunktiv II de la Vergangenheit: “wäre eingebrochen... wären geblieben”."],
       ["arrange","Ordena: [riskant / ist / Kryptowährung / sehr / die]",["Die Kryptowährung ist sehr riskant","die riskant sehr Kryptowährung ist","sehr die riskant Kryptowährung ist","Kryptowährung riskant die ist sehr"],0,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -2860,8 +2860,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “informed consent” en alemán?",["die informierte Einwilligung", "genetic modification", "ethical dilemma", "gene editing"],0,"“Informed consent” es “die informierte Einwilligung” en alemán."],
-      ["mcq","¿Cómo se dice “clinical trial” en alemán?",["die klinische Studie", "informed consent", "to manipulate DNA", "genetic modification"],0,"“Clinical trial” es “die klinische Studie” en alemán."],
+      ["mcq","¿Cómo se dice “informed consent” en alemán?",["die informierte Einwilligung","die genetische Veränderung","das ethische Dilemma","die Genom-Editierung"],0,"“Informed consent” es “die informierte Einwilligung” en alemán."],
+      ["mcq","¿Cómo se dice “clinical trial” en alemán?",["die klinische Studie","die informierte Einwilligung","die DNA manipulieren","die genetische Veränderung"],0,"“Clinical trial” es “die klinische Studie” en alemán."],
       ["fill","Completa: “Die Genom-Editierung ist ___ mächtig, dass sie ernste ethische Fragen aufwirft.”",["zu", "so", "sehr", "derart"],1,"“So” + adjetivo + “dass” expresa consecuencia enfática: “so mächtig, dass”."],
       ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["Es ist ein derart komplexes Dilemma, dass Experten noch einig sind.", "Es ist ein derart komplexes Dilemma, dass Experten noch uneinig sind.", "Es ist ein so komplexes Dilemma, dass Experten noch einig sind.", "Es ist derart ein komplexes Dilemma, dass Experten noch uneinig sind."],1,"“Such a complex issue that” se traduce con “derart komplexes Dilemma, dass”."],
       ["arrange","Ordena: [ethisches / ist / reales / dies / ein / Dilemma]",["Dilemma reales ist dies ethisches ein","Dilemma ethisches ein reales dies ist","ein ethisches dies reales Dilemma ist","Dies ist ein reales ethisches Dilemma"],3,"Pronombre + verbo + artículo + adjetivo + adjetivo + sustantivo."],
@@ -2885,8 +2885,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sovereignty” en alemán?",["bilateral agreement", "die Souveränität", "geopolitical tension", "sovereignty"],1,"“Sovereignty” es “die Souveränität” en alemán."],
-      ["mcq","¿Cómo se dice “geopolitical tension” en alemán?",["geopolitical tension", "diplomatic relations", "die geopolitische Spannung", "bilateral agreement"],2,"“Geopolitical tension” es “die geopolitische Spannung” en alemán."],
+      ["mcq","¿Cómo se dice “sovereignty” en alemán?",["das bilaterale Abkommen","die Souveränität","die geopolitische Spannung","die diplomatischen Beziehungen"],1,"“Sovereignty” es “die Souveränität” en alemán."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en alemán?",["die diplomatischen Beziehungen","die Souveränität","die geopolitische Spannung","das bilaterale Abkommen"],2,"“Geopolitical tension” es “die geopolitische Spannung” en alemán."],
       ["fill","Completa: “___ der zunehmenden Sanktionen änderte die Regierung ihre Politik.”",["Angesichts", "Trotz", "Wegen", "Während"],0,"“Angesichts” + genitivo introduce esta construcción concisa formal: “angesichts der Sanktionen”."],
       ["translate","Traduce con construcción concisa: “Having analyzed the data, researchers concluded that tensions would rise.”",["Nach der Analyse Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analysieren der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analyse der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden.", "Nach Analyse der Daten kommen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden."],2,"La construcción concisa formal usa “nach Analyse der Daten” (sustantivo, no infinitivo)."],
       ["arrange","Ordena: [aushandeln / Vertrag / Nationen / werden / den / die]",["den die aushandeln werden Nationen Vertrag","Die Nationen werden den Vertrag aushandeln","den aushandeln Vertrag werden Nationen die","werden aushandeln Vertrag die den Nationen"],1,"Artículo + sustantivo + auxiliar + artículo + sustantivo + infinitivo."],
@@ -2910,8 +2910,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scissors” en alemán?",["mirror", "to trim", "hairdresser", "die Schere"],3,"“Scissors” es “die Schere” en alemán."],
-      ["mcq","¿Cómo se dice “to trim” en alemán?",["stutzen", "short/long hair", "haircut", "to trim"],0,"“To trim” es “stutzen” en alemán."],
+      ["mcq","¿Cómo se dice “scissors” en alemán?",["der Spiegel","stutzen","der Friseur/die Friseurin","die Schere"],3,"“Scissors” es “die Schere” en alemán."],
+      ["mcq","¿Cómo se dice “to trim” en alemán?",["stutzen","kurze/lange Haare","der Haarschnitt","der Friseur/die Friseurin"],0,"“To trim” es “stutzen” en alemán."],
       ["fill","Completa: “Dieser Haarschnitt ist ___ als der letzte.”",["kürzeste", "am kürzesten", "kürzer", "kurz"],2,"El comparativo de “kurz” es “kürzer” + “als”."],
       ["translate","Traduce: “She has the longest hair in the family.”",["Sie hat die längsten Haare in der Familien.", "Sie hat die längste Haare in der Familie.", "Sie hat die längeren Haare in der Familie.", "Sie hat die längsten Haare in der Familie."],3,"“The longest” con sustantivo plural se traduce con “die längsten”."],
       ["arrange","Ordena: [beste / Stadt / dies / der / Friseur / ist / in / der]",["Friseur der in Stadt beste der dies ist","Stadt der beste dies der in Friseur ist","Dies ist der beste Friseur in der Stadt","in der Stadt Friseur beste dies ist der"],2,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
@@ -2935,8 +2935,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “flat tire” en alemán?",["mechanic", "spare part", "der Platten", "to fix the car"],2,"“Flat tire” es “der Platten” en alemán."],
-      ["mcq","¿Cómo se dice “spare part” en alemán?",["spare part", "das Ersatzteil", "to fix the car", "flat tire"],1,"“Spare part” es “das Ersatzteil” en alemán."],
+      ["mcq","¿Cómo se dice “flat tire” en alemán?",["der Mechaniker","das Ersatzteil","der Platten","das Auto reparieren"],2,"“Flat tire” es “der Platten” en alemán."],
+      ["mcq","¿Cómo se dice “spare part” en alemán?",["der Mechaniker","das Ersatzteil","das Auto reparieren","der Platten"],1,"“Spare part” es “das Ersatzteil” en alemán."],
       ["fill","Completa: “Es bleibt nicht ___ Zeit vor der Reise.”",["viele", "wenige", "viel", "einige"],2,"“Zeit” es incontable singular, así que se usa “viel”: “viel Zeit”."],
       ["translate","Traduce: “This repair needs a lot of spare parts.”",["Diese Reparatur braucht viele Ersatzteil.", "Diese Reparatur brauchen viele Ersatzteile.", "Diese Reparatur braucht viele Ersatzteile.", "Diese Reparatur braucht viel Ersatzteile."],2,"“Spare parts” (plural) se traduce con “viele Ersatzteile”."],
       ["arrange","Ordena: [repariert / Mechaniker / Motor / hat / den / der]",["Der Mechaniker hat den Motor repariert","hat der Motor den repariert Mechaniker","Motor der repariert den hat Mechaniker","Motor repariert den Mechaniker hat der"],0,"Artículo + sustantivo + auxiliar + artículo + sustantivo + participio."],
@@ -2960,8 +2960,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sheet music” en alemán?",["to perform", "to practice scales", "rhythm", "die Noten"],3,"“Sheet music” es “die Noten” en alemán."],
-      ["mcq","¿Cómo se dice “to tune an instrument” en alemán?",["to perform", "music teacher", "ein Instrument stimmen", "to practice scales"],2,"“To tune an instrument” es “ein Instrument stimmen” en alemán."],
+      ["mcq","¿Cómo se dice “sheet music” en alemán?",["auftreten","Tonleitern üben","der Rhythmus","die Noten"],3,"“Sheet music” es “die Noten” en alemán."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en alemán?",["auftreten","der Musiklehrer","ein Instrument stimmen","Tonleitern üben"],2,"“To tune an instrument” es “ein Instrument stimmen” en alemán."],
       ["fill","Completa: “Sie ___ vor einem Publikum auftreten.”",["möchte zu", "kann zu", "will", "muss zu"],2,"“Wollen” va seguido de infinitivo SIN “zu”: “will auftreten”."],
       ["translate","Traduce: “She wants to perform in front of an audience.”",["Sie willst vor einem Publikum auftreten.", "Sie will vor einem Publikum zu auftreten.", "Sie will vor ein Publikum auftreten.", "Sie will vor einem Publikum auftreten."],3,"“Wollen” nunca lleva “zu” antes del infinitivo: “will auftreten”, no “will zu auftreten”."],
       ["arrange","Ordena: [stimmen / Instrument / muss / dieses / man]",["stimmen muss man Instrument dieses","Man muss dieses Instrument stimmen","muss stimmen man Instrument dieses","dieses stimmen Instrument muss man"],1,"Sujeto + modal + pronombre + sustantivo + infinitivo."],
@@ -2985,8 +2985,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “circular economy” en alemán?",["to recycle", "circular economy", "die Kreislaufwirtschaft", "waste management"],2,"“Circular economy” es “die Kreislaufwirtschaft” en alemán."],
-      ["mcq","¿Cómo se dice “landfill” en alemán?",["landfill", "raw material", "waste management", "die Mülldeponie"],3,"“Landfill” es “die Mülldeponie” en alemán."],
+      ["mcq","¿Cómo se dice “circular economy” en alemán?",["recyceln","die Abfallwirtschaft","die Kreislaufwirtschaft","wiederverwenden"],2,"“Circular economy” es “die Kreislaufwirtschaft” en alemán."],
+      ["mcq","¿Cómo se dice “landfill” en alemán?",["recyceln","der Rohstoff","die Abfallwirtschaft","die Mülldeponie"],3,"“Landfill” es “die Mülldeponie” en alemán."],
       ["fill","Completa: “Wenn man Papier ___, spart das Bäume.”",["recycelt hat", "recycelt", "recycelte", "recyceln"],1,"El condicional cero usa presente en ambas cláusulas: “wenn man recycelt”."],
       ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Materialien landen auf einer Mülldeponie, wenn sie nicht wiederverwendet wurden.", "Materialien landen auf einer Mülldeponie, wenn sie nicht wiederverwendet werden.", "Material landen auf einer Mülldeponie, wenn sie nicht wiederverwendet werden.", "Materialien landeten auf einer Mülldeponie, wenn sie nicht wiederverwendet werden."],1,"El condicional cero mantiene presente en ambas cláusulas: “landen... wenn sie werden”."],
       ["arrange","Ordena: [Rohstoffe / spart / Recycling]",["Recycling Rohstoffe spart","Rohstoffe Recycling spart","Recycling spart Rohstoffe","spart Rohstoffe Recycling"],2,"Sujeto + verbo + sustantivo."],
@@ -3010,8 +3010,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “inequality” en alemán?",["civil rights", "social justice", "common good", "die Ungleichheit"],3,"“Inequality” es “die Ungleichheit” en alemán."],
-      ["mcq","¿Cómo se dice “redistribution” en alemán?",["inequality", "social justice", "die Umverteilung", "systemic oppression"],2,"“Redistribution” es “die Umverteilung” en alemán."],
+      ["mcq","¿Cómo se dice “inequality” en alemán?",["die Bürgerrechte","die soziale Gerechtigkeit","das Gemeinwohl","die Ungleichheit"],3,"“Inequality” es “die Ungleichheit” en alemán."],
+      ["mcq","¿Cómo se dice “redistribution” en alemán?",["die Ungleichheit","die soziale Gerechtigkeit","die Umverteilung","die systemische Unterdrückung"],2,"“Redistribution” es “die Umverteilung” en alemán."],
       ["fill","Completa: “Wenn nur frühere Reformen die Unterdrückung ___ wären.”",["angegangen", "angeht", "angehen", "angegangen haben"],0,"El Plusquamperfekt (Konjunktiv II) con “sein” usa participio + “wären”: “angegangen wären”."],
       ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Philosoph wünschten sich, Ungleichheit könnte allein durch Politik gelöst werden.", "Philosophen wünschten sich, Ungleichheit kann allein durch Politik gelöst werden.", "Philosophen wünschten sich, Ungleichheit könnte allein durch Politik lösen.", "Philosophen wünschten sich, Ungleichheit könnte allein durch Politik gelöst werden."],3,"“Wish... could be solved” se traduce con Konjunktiv II: “wünschten sich... könnte gelöst werden”."],
       ["arrange","Ordena: [Gemeinwohl / diskutieren / das / Philosophen]",["Gemeinwohl diskutieren das Philosophen","das Philosophen diskutieren Gemeinwohl","Philosophen diskutieren das Gemeinwohl","das Philosophen Gemeinwohl diskutieren"],2,"Sujeto + verbo + artículo + sustantivo."],
@@ -3035,8 +3035,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cultural relativism” en alemán?",["oral tradition", "ritual", "kinship", "der Kulturrelativismus"],3,"“Cultural relativism” es “der Kulturrelativismus” en alemán."],
-      ["mcq","¿Cómo se dice “rite of passage” en alemán?",["rite of passage", "ritual", "der Übergangsritus", "cultural relativism"],2,"“Rite of passage” es “der Übergangsritus” en alemán."],
+      ["mcq","¿Cómo se dice “cultural relativism” en alemán?",["die mündliche Überlieferung","das Ritual","die Verwandtschaft","der Kulturrelativismus"],3,"“Cultural relativism” es “der Kulturrelativismus” en alemán."],
+      ["mcq","¿Cómo se dice “rite of passage” en alemán?",["das Ritual","der Kulturrelativismus","der Übergangsritus","die Verwandtschaft"],2,"“Rite of passage” es “der Übergangsritus” en alemán."],
       ["fill","Completa: “Je ___ Anthropologen Rituale untersuchen, desto mehr verstehen sie die kollektive Identität.”",["meiste", "viele", "mehr", "viel"],2,"El comparativo doble usa “je mehr... desto mehr” en ambas cláusulas."],
       ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Je älter die Tradition, desto stark ihr Einfluss.", "Je älter die Tradition, desto stärker ihr Einfluss.", "Je alt die Tradition, desto stärker ihr Einfluss.", "Je älter die Tradition ist, ihr Einfluss ist stärker."],1,"El comparativo doble alemán usa “je + comparativo, desto + comparativo”, sin verbo obligatorio."],
       ["arrange","Ordena: [Erwachsensein / markieren / Übergangsriten / das]",["das Erwachsensein markieren Übergangsriten","markieren das Erwachsensein Übergangsriten","Übergangsriten markieren das Erwachsensein","Übergangsriten das Erwachsensein markieren"],2,"Sustantivo + verbo + artículo + sustantivo."],
@@ -3060,8 +3060,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “screwdriver” en alemán?",["nail", "der Schraubenzieher", "ladder", "toolbox"],1,"“Screwdriver” es “der Schraubenzieher” en alemán."],
-      ["mcq","¿Cómo se dice “ladder” en alemán?",["nail", "screwdriver", "die Leiter", "ladder"],2,"“Ladder” es “die Leiter” en alemán."],
+      ["mcq","¿Cómo se dice “screwdriver” en alemán?",["der Nagel","der Schraubenzieher","die Leiter","der Werkzeugkasten"],1,"“Screwdriver” es “der Schraubenzieher” en alemán."],
+      ["mcq","¿Cómo se dice “ladder” en alemán?",["der Nagel","der Schraubenzieher","die Leiter","der Hammer"],2,"“Ladder” es “die Leiter” en alemán."],
       ["fill","Completa: “Dieser Hammer ist ___ schwer wie jener.”",["so", "als", "mehr", "sehr"],0,"El comparativo de igualdad usa “so + adjetivo + wie”: “so schwer wie”."],
       ["translate","Traduce: “The ladder isn't as tall as the wall.”",["Die Leiter ist nicht so hoch als die Mauer.", "Die Leiter ist so hoch wie die Mauer.", "Die Leiter ist nicht so hoch wie die Mauer.", "Die Leiter ist nicht mehr hoch wie die Mauer."],2,"“Isn't as... as” se traduce con “nicht so... wie”."],
       ["arrange","Ordena: [schwer / Werkzeugkasten / ist / der / sehr]",["Werkzeugkasten schwer der sehr ist","der ist Werkzeugkasten sehr schwer","der schwer sehr Werkzeugkasten ist","Der Werkzeugkasten ist sehr schwer"],3,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -3085,8 +3085,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “washing machine” en alemán?",["to hang out clothes", "die Waschmaschine", "to iron", "stain"],1,"“Washing machine” es “die Waschmaschine” en alemán."],
-      ["mcq","¿Cómo se dice “stain” en alemán?",["to iron", "washing machine", "der Fleck", "detergent"],2,"“Stain” es “der Fleck” en alemán."],
+      ["mcq","¿Cómo se dice “washing machine” en alemán?",["die Wäsche aufhängen","die Waschmaschine","bügeln","der Fleck"],1,"“Washing machine” es “die Waschmaschine” en alemán."],
+      ["mcq","¿Cómo se dice “stain” en alemán?",["bügeln","die Waschmaschine","der Fleck","das Waschmittel"],2,"“Stain” es “der Fleck” en alemán."],
       ["fill","Completa: “Es gibt ___ Flecken auf diesem Hemd.”",["ein paar", "ein bisschen", "viel", "wenig"],0,"“Flecken” es contable plural, así que se usa “ein paar”: “ein paar Flecken”."],
       ["translate","Traduce: “I need a little detergent for this load.”",["Ich brauche bisschen Waschmittel für diese Ladung.", "Ich brauche ein paar Waschmittel für diese Ladung.", "Ich brauche ein bisschen Waschmittels für diese Ladung.", "Ich brauche ein bisschen Waschmittel für diese Ladung."],3,"“Waschmittel” es incontable, así que se usa “ein bisschen”: “ein bisschen Waschmittel”."],
       ["arrange","Ordena: [gebügelt / muss / werden / dieses / Hemd]",["Dieses Hemd muss gebügelt werden","werden gebügelt Hemd muss dieses","dieses Hemd gebügelt werden muss","werden dieses gebügelt muss Hemd"],0,"Sujeto + modal + participio + “werden”."],
@@ -3110,8 +3110,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to checkmate” en alemán?",["to move a piece", "chessboard", "Schachmatt setzen", "opponent"],2,"“To checkmate” es “Schachmatt setzen” en alemán."],
-      ["mcq","¿Cómo se dice “pawn” en alemán?",["chessboard", "to checkmate", "to move a piece", "der Bauer"],3,"“Pawn” es “der Bauer” en alemán."],
+      ["mcq","¿Cómo se dice “to checkmate” en alemán?",["eine Figur ziehen","das Schachbrett","Schachmatt setzen","der Gegner"],2,"“To checkmate” es “Schachmatt setzen” en alemán."],
+      ["mcq","¿Cómo se dice “pawn” en alemán?",["das Schachbrett","Schachmatt setzen","eine Figur ziehen","der Bauer"],3,"“Pawn” es “der Bauer” en alemán."],
       ["fill","Completa: “Wenn du diese Figur ziehst, ___ du das Spiel verlieren.”",["hast", "wirst", "würdest", "wirdst"],1,"El futuro con “du” usa “wirst” + infinitivo: “wirst verlieren”."],
       ["translate","Traduce: “If she plans her strategy well, she will win.”",["Wenn sie ihre Strategie gut plante, wird sie gewinnen.", "Wenn sie ihre Strategie gut plant, wird sie gewinnen.", "Wenn sie ihre Strategie gut plant, würde sie gewinnen.", "Wenn sie ihre Strategie gut plant, gewinnt sie."],1,"“If... will win” se traduce con “wenn” + presente + “werden”: “wenn sie plant... wird sie gewinnen”."],
       ["arrange","Ordena: [starken / hat / Gegner / einen / sie]",["starken einen Gegner hat sie","Sie hat einen starken Gegner","starken einen Gegner sie hat","Gegner starken einen hat sie"],1,"Sujeto + verbo + artículo + adjetivo + sustantivo."],
@@ -3135,8 +3135,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “facade” en alemán?",["heritage site", "die Fassade", "to preserve", "to restore"],1,"“Facade” es “die Fassade” en alemán."],
-      ["mcq","¿Cómo se dice “scaffolding” en alemán?",["das Gerüst", "structural damage", "heritage site", "to restore"],0,"“Scaffolding” es “das Gerüst” en alemán."],
+      ["mcq","¿Cómo se dice “facade” en alemán?",["die Kulturerbestätte","die Fassade","bewahren","restaurieren"],1,"“Facade” es “die Fassade” en alemán."],
+      ["mcq","¿Cómo se dice “scaffolding” en alemán?",["das Gerüst","der Strukturschaden","die Kulturerbestätte","restaurieren"],0,"“Scaffolding” es “das Gerüst” en alemán."],
       ["fill","Completa: “Die Stadt ließ die Fassade letztes Jahr ___.”",["restauriert werden", "restauriere", "restaurieren", "restauriert"],2,"La construcción con “lassen” usa infinitivo al final: “ließ... restaurieren”."],
       ["translate","Traduce: “They are getting the roof repaired this month.”",["Sie lassen das Dach diesen Monat reparieren.", "Sie lassen das Dach diesen Monat repariert.", "Sie lässt das Dach diesen Monat reparieren.", "Sie ließen das Dach diesen Monat reparieren schon."],0,"“Are getting... repaired” se traduce con “lassen” + infinitivo: “lassen... reparieren”."],
       ["arrange","Ordena: [Kulturerbestätten / bewahren / zu / Es / ist / wichtig]",["Es ist wichtig, Kulturerbestätten zu bewahren","bewahren wichtig, zu Kulturerbestätten ist Es","wichtig, bewahren ist Kulturerbestätten Es zu","Kulturerbestätten bewahren wichtig, Es zu ist"],0,"\"Es ist wichtig, ... zu\" + infinitivo: \"Es ist wichtig, Kulturerbestätten zu bewahren.\""],
@@ -3160,8 +3160,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “falsifiability” en alemán?",["to replicate a study", "die Falsifizierbarkeit", "hypothesis", "empirical evidence"],1,"“Falsifiability” es “die Falsifizierbarkeit” en alemán."],
-      ["mcq","¿Cómo se dice “peer review” en alemán?",["to replicate a study", "paradigm shift", "die Peer-Review", "peer review"],2,"“Peer review” es “die Peer-Review” en alemán."],
+      ["mcq","¿Cómo se dice “falsifiability” en alemán?",["eine Studie replizieren","die Falsifizierbarkeit","die Hypothese","empirische Belege"],1,"“Falsifiability” es “die Falsifizierbarkeit” en alemán."],
+      ["mcq","¿Cómo se dice “peer review” en alemán?",["eine Studie replizieren","der Paradigmenwechsel","die Peer-Review","die Hypothese"],2,"“Peer review” es “die Peer-Review” en alemán."],
       ["fill","Completa: “Forscher veröffentlichen Daten, ___ andere sie überprüfen können.”",["damit", "obwohl", "weil", "um"],0,"“Damit” introduce propósito cuando el sujeto de ambas cláusulas es distinto: “damit andere... können”."],
       ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Wissenschaftler repliziert Studien, um Ergebnisse zu bestätigen.", "Wissenschaftler replizieren Studien, damit Ergebnisse zu bestätigen.", "Wissenschaftler replizieren Studien, um Ergebnisse zu bestätigen.", "Wissenschaftler replizieren Studien, um Ergebnisse bestätigen."],2,"“In order to confirm” (mismo sujeto) se traduce con “um... zu bestätigen”."],
       ["arrange","Ordena: [Belege / braucht / Hypothese / empirische / jede]",["empirische jede Belege Hypothese braucht","Hypothese empirische jede Belege braucht","jede braucht Hypothese Belege empirische","Jede Hypothese braucht empirische Belege"],3,"Adjetivo + sustantivo + verbo + adjetivo + sustantivo."],
@@ -3185,8 +3185,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Nash equilibrium” en alemán?",["rational actor", "dominant strategy", "das Nash-Gleichgewicht", "Nash equilibrium"],2,"“Nash equilibrium” es “das Nash-Gleichgewicht” en alemán."],
-      ["mcq","¿Cómo se dice “prisoner's dilemma” en alemán?",["prisoner's dilemma", "payoff matrix", "dominant strategy", "das Gefangenendilemma"],3,"“Prisoner's dilemma” es “das Gefangenendilemma” en alemán."],
+      ["mcq","¿Cómo se dice “Nash equilibrium” en alemán?",["der rationale Akteur","die dominante Strategie","das Nash-Gleichgewicht","das Nullsummenspiel"],2,"“Nash equilibrium” es “das Nash-Gleichgewicht” en alemán."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en alemán?",["das Nash-Gleichgewicht","die Auszahlungsmatrix","die dominante Strategie","das Gefangenendilemma"],3,"“Prisoner's dilemma” es “das Gefangenendilemma” en alemán."],
       ["fill","Completa: “Weder der eine ___ der andere Spieler profitiert vom Verrat.”",["noch", "oder", "und", "als"],0,"La estructura “weder... noch” requiere “noch” en la segunda parte."],
       ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Während Kooperation den gemeinsamen Gewinn maximiert, setzt sich oft Eigeninteresse durch.", "Obwohl Kooperation den gemeinsamen Gewinn maximiert, setzt sich oft Eigeninteresse durch.", "Während Kooperation den gemeinsamen Gewinn maximiert, setzt sich Eigeninteresse oft durch.", "Während Kooperation den gemeinsamen Gewinn maximieren, setzt sich oft Eigeninteresse durch."],0,"“Während” introduce el contraste formal seguido del verbo en segunda posición tras la cláusula: “während Kooperation... maximiert, setzt sich...”."],
       ["arrange","Ordena: [dominante / Strategie / Spieler / hat / kein / eine]",["Kein Spieler hat eine dominante Strategie","Strategie Spieler hat dominante eine Kein","Spieler eine dominante Kein hat Strategie","Spieler hat dominante eine Kein Strategie"],0,"Pronombre negativo + sustantivo + verbo + adjetivo + sustantivo."],
@@ -3210,8 +3210,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “coral reef” en alemán?",["fish", "coral reef", "underwater", "das Korallenriff"],3,"“Coral reef” es “das Korallenriff” en alemán."],
-      ["mcq","¿Cómo se dice “wetsuit” en alemán?",["snorkel", "underwater", "der Taucheranzug", "to dive"],2,"“Wetsuit” es “der Taucheranzug” en alemán."],
+      ["mcq","¿Cómo se dice “coral reef” en alemán?",["der Fisch","tauchen","unter Wasser","das Korallenriff"],3,"“Coral reef” es “das Korallenriff” en alemán."],
+      ["mcq","¿Cómo se dice “wetsuit” en alemán?",["der Schnorchel","unter Wasser","der Taucheranzug","tauchen"],2,"“Wetsuit” es “der Taucheranzug” en alemán."],
       ["fill","Completa: “Das Korallenriff ist ___ dem Boot.”",["neben", "auf", "in", "unter"],3,"“Unter” indica una posición debajo de algo: “unter dem Boot”."],
       ["translate","Traduce: “The fish swim in the water.”",["Die Fische schwimmen im Wasser.", "Die Fische schwimmen auf dem Wasser.", "Die Fische schwimmen unter das Wasser.", "Die Fische schwimmen neben dem Wasser."],0,"“In the water” se traduce con “im Wasser” (in dem = im), ya que están dentro de ella."],
       ["arrange","Ordena: [Boot / neben / Taucher / dem / ist / der]",["Der Taucher ist neben dem Boot","dem der Boot neben ist Taucher","neben Taucher der Boot dem ist","neben Taucher der ist dem Boot"],0,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -3235,8 +3235,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crease” en alemán?",["scissors", "paper", "die Falte", "glue"],2,"“Crease” es “die Falte” en alemán."],
-      ["mcq","¿Cómo se dice “glue” en alemán?",["der Klebstoff", "to fold", "crease", "glue"],0,"“Glue” es “der Klebstoff” en alemán."],
+      ["mcq","¿Cómo se dice “crease” en alemán?",["die Schere","das Papier","die Falte","der Klebstoff"],2,"“Crease” es “die Falte” en alemán."],
+      ["mcq","¿Cómo se dice “glue” en alemán?",["der Klebstoff","falten","die Falte","das Papier"],0,"“Glue” es “der Klebstoff” en alemán."],
       ["fill","Completa: “Zuerst falte das Papier. ___ mache eine Falte.”",["Vorher", "Dann", "Zuerst", "Schließlich"],1,"“Dann” conecta el segundo paso después de “zuerst”."],
       ["translate","Traduce: “Finally, fold the corners.”",["Schließlich faltend die Ecken.", "Schließlich falte die Ecken.", "Dann falte die Ecken.", "Schließlich falte die Ecke."],1,"“Finally” se traduce con “Schließlich” al inicio de la oración."],
       ["arrange","Ordena: [Bastelarbeit / braucht / Schere / diese / eine]",["Schere diese Bastelarbeit eine braucht","braucht diese Schere eine Bastelarbeit","Diese Bastelarbeit braucht eine Schere","eine Schere Bastelarbeit diese braucht"],2,"Pronombre + sustantivo + verbo + artículo + sustantivo."],
@@ -3260,8 +3260,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “fossil” en alemán?",["excavation site", "das Fossil", "dinosaur bone", "extinct"],1,"“Fossil” es “das Fossil” en alemán."],
-      ["mcq","¿Cómo se dice “skeleton” en alemán?",["excavation site", "to dig up", "das Skelett", "skeleton"],2,"“Skeleton” es “das Skelett” en alemán."],
+      ["mcq","¿Cómo se dice “fossil” en alemán?",["die Ausgrabungsstätte","das Fossil","der Dinosaurierknochen","ausgestorben"],1,"“Fossil” es “das Fossil” en alemán."],
+      ["mcq","¿Cómo se dice “skeleton” en alemán?",["die Ausgrabungsstätte","ausgraben","das Skelett","das Fossil"],2,"“Skeleton” es “das Skelett” en alemán."],
       ["fill","Completa: “Sie haben die Ausgrabung ___ beendet.”",["noch nicht", "nie", "schon", "immer noch"],0,"“Noch nicht” equivale a “not yet”: “haben... noch nicht beendet”."],
       ["translate","Traduce: “Scientists are still studying the fossil.”",["Wissenschaftler haben das Fossil immer noch untersucht.", "Wissenschaftler untersuchen das Fossil immer noch.", "Wissenschaftler untersuchen das Fossil schon.", "Wissenschaftler untersuchen das Fossil noch nicht."],1,"“Are still studying” se traduce con “immer noch” + presente: “untersuchen... immer noch”."],
       ["arrange","Ordena: [Skelett / schon / haben / das / gefunden / sie]",["gefunden haben Skelett schon sie das","Skelett sie schon gefunden das haben","Sie haben das Skelett schon gefunden","das haben schon gefunden sie Skelett"],2,"Sujeto + “haben” + artículo + sustantivo + adverbio + participio."],
@@ -3285,8 +3285,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “vandalism” en alemán?",["der Vandalismus", "vandalism", "spray paint", "street artist"],0,"“Vandalism” es “der Vandalismus” en alemán."],
-      ["mcq","¿Cómo se dice “to commission a mural” en alemán?",["mural", "street artist", "ein Wandgemälde in Auftrag geben", "to commission a mural"],2,"“To commission a mural” es “ein Wandgemälde in Auftrag geben” en alemán."],
+      ["mcq","¿Cómo se dice “vandalism” en alemán?",["der Vandalismus","das Wandgemälde","die Sprühfarbe","der Straßenkünstler"],0,"“Vandalism” es “der Vandalismus” en alemán."],
+      ["mcq","¿Cómo se dice “to commission a mural” en alemán?",["das Wandgemälde","der Straßenkünstler","ein Wandgemälde in Auftrag geben","die Sprühfarbe"],2,"“To commission a mural” es “ein Wandgemälde in Auftrag geben” en alemán."],
       ["fill","Completa: “Sie malt nicht, ___ sie eine Genehmigung hat.”",["wenn", "weil", "außer wenn", "obwohl"],2,"“Außer wenn” expresa la condición negativa: “malt nicht, außer wenn sie hat”."],
       ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["Außer wenn die Stadt es genehmigt, gilt das Wandgemälde als Vandalismus.", "Wenn die Stadt es genehmigt, gilt das Wandgemälde als Vandalismus.", "Außer wenn die Stadt es nicht genehmigt, gilt das Wandgemälde als Vandalismus.", "Außer wenn die Stadt es genehmigt, galt das Wandgemälde als Vandalismus."],0,"“Unless” se traduce con “Außer wenn”, que ya incluye la negación implícita."],
       ["arrange","Ordena: [talentiert / sehr / Künstler / ist / dieser]",["Dieser Künstler ist sehr talentiert","Künstler ist sehr talentiert dieser","ist talentiert Künstler sehr dieser","sehr ist Künstler talentiert dieser"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3310,8 +3310,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “reasonable doubt” en alemán?",["der begründete Zweifel", "forensic evidence", "suspect", "to convict"],0,"“Reasonable doubt” es “der begründete Zweifel” en alemán."],
-      ["mcq","¿Cómo se dice “recidivism” en alemán?",["reasonable doubt", "to convict", "recidivism", "die Rückfälligkeit"],3,"“Recidivism” es “die Rückfälligkeit” en alemán."],
+      ["mcq","¿Cómo se dice “reasonable doubt” en alemán?",["der begründete Zweifel","forensische Beweise","der Verdächtige","verurteilen"],0,"“Reasonable doubt” es “der begründete Zweifel” en alemán."],
+      ["mcq","¿Cómo se dice “recidivism” en alemán?",["der begründete Zweifel","verurteilen","forensische Beweise","die Rückfälligkeit"],3,"“Recidivism” es “die Rückfälligkeit” en alemán."],
       ["fill","Completa: “Die forensischen Beweise ___ auf den Verdächtigen hindeuten.”",["müssen", "könnten", "sollen", "werden"],1,"“Könnten” expresa posibilidad formal: “könnten hindeuten”."],
       ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Ohne Rehabilitation kann die Rückfälligkeit zunehmend.", "Ohne Rehabilitation muss die Rückfälligkeit zunehmen.", "Ohne Rehabilitation könnte die Rückfälligkeit zugenommen.", "Ohne Rehabilitation könnte die Rückfälligkeit zunehmen."],3,"“Might increase” se traduce con “könnte zunehmen”, posibilidad formal en alemán."],
       ["arrange","Ordena: [verurteilen / Verdächtigen / Gericht / kann / den / nicht / das]",["verurteilen kann das nicht den Verdächtigen Gericht","Das Gericht kann den Verdächtigen nicht verurteilen","verurteilen den das Verdächtigen Gericht kann nicht","das den kann verurteilen Gericht nicht Verdächtigen"],1,"Artículo + sustantivo + modal + artículo + sustantivo + negación + verbo."],
@@ -3335,8 +3335,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “speech act” en alemán?",["speech act", "reference", "meaning", "der Sprechakt"],3,"“Speech act” es “der Sprechakt” en alemán."],
-      ["mcq","¿Cómo se dice “ambiguity” en alemán?",["linguistic relativity", "die Mehrdeutigkeit", "meaning", "reference"],1,"“Ambiguity” es “die Mehrdeutigkeit” en alemán."],
+      ["mcq","¿Cómo se dice “speech act” en alemán?",["die Referenz","die Bedeutung","die Mehrdeutigkeit","der Sprechakt"],3,"“Speech act” es “der Sprechakt” en alemán."],
+      ["mcq","¿Cómo se dice “ambiguity” en alemán?",["die sprachliche Relativität","die Mehrdeutigkeit","die Bedeutung","die Referenz"],1,"“Ambiguity” es “die Mehrdeutigkeit” en alemán."],
       ["fill","Completa: “Manche Linguisten argumentieren, der Kontext ___ entscheidend.”",["war", "sei", "ist", "wäre"],1,"El Konjunktiv I de “sein” es “sei”, usado en discurso indirecto formal: “der Kontext sei entscheidend”."],
       ["translate","Traduce con Konjunktiv I: “The philosopher claims that meaning arises through use.”",["Der Philosoph behauptete, die Bedeutung entstehe durch den Gebrauch.", "Der Philosoph behauptet, die Bedeutung entsteht durch den Gebrauch.", "Der Philosoph behauptet, die Bedeutung entstünde durch den Gebrauch.", "Der Philosoph behauptet, die Bedeutung entstehe durch den Gebrauch."],3,"El Konjunktiv I de “entstehen” es “entstehe”, usado tras “behauptet, dass/∅”."],
       ["arrange","Ordena: [mehrdeutig / Satz / dieser / ist]",["mehrdeutig dieser Satz ist","mehrdeutig dieser ist Satz","ist dieser mehrdeutig Satz","Dieser Satz ist mehrdeutig"],3,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3360,8 +3360,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “juggler” en alemán?",["der Jongleur", "amazing", "tent", "clown"],0,"“Juggler” es “der Jongleur” en alemán."],
-      ["mcq","¿Cómo se dice “acrobat” en alemán?",["der Akrobat", "amazing", "tightrope", "acrobat"],0,"“Acrobat” es “der Akrobat” en alemán."],
+      ["mcq","¿Cómo se dice “juggler” en alemán?",["der Jongleur","erstaunlich","das Zelt","der Clown"],0,"“Juggler” es “der Jongleur” en alemán."],
+      ["mcq","¿Cómo se dice “acrobat” en alemán?",["der Akrobat","erstaunlich","das Hochseil","der Clown"],0,"“Acrobat” es “der Akrobat” en alemán."],
       ["fill","Completa: “___ ein erstaunlicher Jongleur!”",["Was für", "Wie für", "Was", "Wie"],0,"“Was für ein” + sustantivo masculino expresa admiración: “was für ein Jongleur”."],
       ["translate","Traduce: “How amazing this show is!”",["Wie erstaunlich diese Show ist!", "Wie erstaunlich ist diese Show!", "Wie erstaunlich diese Show!", "Was für erstaunlich diese Show ist!"],0,"“How amazing... is!” se traduce con “Wie erstaunlich... ist!”, con el verbo al final."],
       ["arrange","Ordena: [Hochseil / geht / dem / auf / Clown / der]",["Der Clown geht auf dem Hochseil","der Hochseil geht dem Clown auf","Clown Hochseil dem der geht auf","Clown der Hochseil dem auf geht"],0,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -3385,8 +3385,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to haggle” en alemán?",["vendor", "antique", "feilschen", "secondhand"],2,"“To haggle” es “feilschen” en alemán."],
-      ["mcq","¿Cómo se dice “vendor” en alemán?",["flea market", "to haggle", "bargain", "der Verkäufer"],3,"“Vendor” es “der Verkäufer” en alemán."],
+      ["mcq","¿Cómo se dice “to haggle” en alemán?",["der Verkäufer","die Antiquität","feilschen","gebraucht"],2,"“To haggle” es “feilschen” en alemán."],
+      ["mcq","¿Cómo se dice “vendor” en alemán?",["der Flohmarkt","feilschen","das Schnäppchen","der Verkäufer"],3,"“Vendor” es “der Verkäufer” en alemán."],
       ["fill","Completa: “Diese Antiquität ist ___ teuer.”",["genug", "so viel", "zu", "sehr viel"],2,"“Zu” + adjetivo expresa exceso: “zu teuer”."],
       ["translate","Traduce: “I don't have enough money for this bargain.”",["Ich habe nicht zu Geld für dieses Schnäppchen.", "Ich habe nicht genug Geld für dieses Schnäppchen.", "Ich habe genug nicht Geld für dieses Schnäppchen.", "Ich habe nicht genug Geld für diese Schnäppchen."],1,"“Enough money” se traduce con “genug Geld” (genug después del sustantivo cuando modifica adjetivo, antes con sustantivos)."],
       ["arrange","Ordena: [feilsche / Verkäufer / dem / mit / ich]",["feilsche mit ich Verkäufer dem","mit feilsche ich dem Verkäufer","ich dem feilsche Verkäufer mit","Ich feilsche mit dem Verkäufer"],3,"Sujeto + verbo + preposición + artículo + sustantivo."],
@@ -3410,8 +3410,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancestor” en alemán?",["descendant", "der Vorfahre", "family tree", "ancestor"],1,"“Ancestor” es “der Vorfahre” en alemán."],
-      ["mcq","¿Cómo se dice “birth certificate” en alemán?",["great-grandparent", "to trace one's roots", "descendant", "die Geburtsurkunde"],3,"“Birth certificate” es “die Geburtsurkunde” en alemán."],
+      ["mcq","¿Cómo se dice “ancestor” en alemán?",["der Nachkomme","der Vorfahre","der Stammbaum","die Geburtsurkunde"],1,"“Ancestor” es “der Vorfahre” en alemán."],
+      ["mcq","¿Cómo se dice “birth certificate” en alemán?",["der Urgroßelternteil","seine Wurzeln zurückverfolgen","der Nachkomme","die Geburtsurkunde"],3,"“Birth certificate” es “die Geburtsurkunde” en alemán."],
       ["fill","Completa: “Obwohl die Unterlagen alt ___, haben wir unsere Wurzeln zurückverfolgt.”",["sind", "sein", "seien", "waren"],0,"“Obwohl” + cláusula con verbo al final en presente indicativo: “obwohl... sind”."],
       ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Obwohl sie ihre Urgroßmutter nie kennenlernt hat, kennt sie die Familiengeschichte.", "Obwohl sie ihre Urgroßmutter nie kennengelernt hat, kennt sie die Familiengeschichte.", "Obwohl sie ihre Urgroßmutter nie kennengelernt hat, kannte sie die Familiengeschichte.", "Obwohl sie ihre Urgroßmutter kennengelernt hat nie, kennt sie die Familiengeschichte."],1,"“Even though” se traduce con “obwohl”, con el participio antes del auxiliar al final: “kennengelernt hat”."],
       ["arrange","Ordena: [großen / hat / Stammbaum / einen / sie]",["Sie hat einen großen Stammbaum","Stammbaum einen hat sie großen","großen Stammbaum einen sie hat","hat großen Stammbaum einen sie"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
@@ -3435,8 +3435,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “drought” en alemán?",["flash flood", "die Dürre", "drought", "hurricane"],1,"“Drought” es “die Dürre” en alemán."],
-      ["mcq","¿Cómo se dice “flash flood” en alemán?",["wind speed", "tornado", "die Sturzflut", "drought"],2,"“Flash flood” es “die Sturzflut” en alemán."],
+      ["mcq","¿Cómo se dice “drought” en alemán?",["die Sturzflut","die Dürre","der Hurrikan","der Tornado"],1,"“Drought” es “die Dürre” en alemán."],
+      ["mcq","¿Cómo se dice “flash flood” en alemán?",["die Windgeschwindigkeit","der Tornado","die Sturzflut","die Dürre"],2,"“Flash flood” es “die Sturzflut” en alemán."],
       ["fill","Completa: “___ der Warnung blieben viele Menschen an der Küste.”",["Trotzdem", "Trotz", "Wegen", "Obwohl"],1,"“Trotz” + genitivo: “trotz der Warnung”."],
       ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Trotz die herausgegebene Warnung konnten die Behörden den Schaden nicht verhindern.", "Trotz der herausgegebenen Warnung konnten die Behörden den Schaden nicht verhindern.", "Trotz der herausgegebenen Warnung können die Behörden den Schaden nicht verhindern.", "Trotz der Warnung herausgegeben konnten die Behörden den Schaden nicht verhindern."],1,"“In spite of issuing” se traduce con “trotz” + sustantivo/participio en genitivo: “trotz der herausgegebenen Warnung”."],
       ["arrange","Ordena: [nähert / Hurrikan / starker / sich / ein]",["Ein starker Hurrikan nähert sich","sich starker ein nähert Hurrikan","starker sich ein Hurrikan nähert","sich ein starker Hurrikan nähert"],0,"Artículo + adjetivo + sustantivo + pronombre reflexivo + verbo."],
@@ -3460,8 +3460,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “displacement” en alemán?",["local community", "urban renewal", "die Verdrängung", "gentrification"],2,"“Displacement” es “die Verdrängung” en alemán."],
-      ["mcq","¿Cómo se dice “affordable housing” en alemán?",["urban renewal", "der bezahlbare Wohnraum", "displacement", "affordable housing"],1,"“Affordable housing” es “der bezahlbare Wohnraum” en alemán."],
+      ["mcq","¿Cómo se dice “displacement” en alemán?",["die lokale Gemeinschaft","die Stadterneuerung","die Verdrängung","die Gentrifizierung"],2,"“Displacement” es “die Verdrängung” en alemán."],
+      ["mcq","¿Cómo se dice “affordable housing” en alemán?",["die Stadterneuerung","der bezahlbare Wohnraum","die Verdrängung","die Gentrifizierung"],1,"“Affordable housing” es “der bezahlbare Wohnraum” en alemán."],
       ["fill","Completa: “Die Stadt ___ bezahlbaren Wohnraum schützen sollen.”",["habe", "würde", "hat", "hätte"],3,"“Hätte... sollen” expresa crítica del pasado: “hätte... schützen sollen”."],
       ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Die Behörden sollten die Anliegen der Gemeinschaft nicht ignorieren.", "Die Behörden hätten die Anliegen der Gemeinschaft ignorieren sollen.", "Die Behörden hätten die Anliegen der Gemeinschaft nicht ignoriert sollen.", "Die Behörden hätten die Anliegen der Gemeinschaft nicht ignorieren sollen."],3,"“Shouldn't have ignored” se traduce con “hätten... nicht ignorieren sollen”, doble infinitivo al final."],
       ["arrange","Ordena: [Miete / beunruhigt / die / steigende / Bewohner]",["Die steigende Miete beunruhigt Bewohner","Bewohner die steigende Miete beunruhigt","Bewohner die beunruhigt Miete steigende","Bewohner Miete die beunruhigt steigende"],0,"Artículo + adjetivo + sustantivo + verbo + sustantivo."],
@@ -3485,8 +3485,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “skepticism” en alemán?",["der Skeptizismus", "epistemology", "a priori knowledge", "justified true belief"],0,"“Skepticism” es “der Skeptizismus” en alemán."],
-      ["mcq","¿Cómo se dice “epistemic humility” en alemán?",["epistemic humility", "skepticism", "epistemology", "die epistemische Demut"],3,"“Epistemic humility” es “die epistemische Demut” en alemán."],
+      ["mcq","¿Cómo se dice “skepticism” en alemán?",["der Skeptizismus","die Erkenntnistheorie","das Wissen a priori","die gerechtfertigte wahre Meinung"],0,"“Skepticism” es “der Skeptizismus” en alemán."],
+      ["mcq","¿Cómo se dice “epistemic humility” en alemán?",["die Erkenntnistheorie","der Skeptizismus","die gerechtfertigte wahre Meinung","die epistemische Demut"],3,"“Epistemic humility” es “die epistemische Demut” en alemán."],
       ["fill","Completa: “Kaum ___ Philosophen eine Theorie vorgeschlagen, als Skeptiker sie infrage stellten.”",["waren", "hatten", "hätten", "haben"],1,"Tras “kaum” al inicio, se invierte con “hatten” + participio: “kaum hatten... vorgeschlagen”."],
       ["translate","Traduce con inversión: “No sooner does one claim to know something than doubt arises.”",["Kaum behauptet man, etwas zu wissen, als Zweifel verschwinden.", "Man behauptet kaum, etwas zu wissen, als Zweifel entstehen.", "Kaum behauptet man, etwas zu wissen, als Zweifel entstehen.", "Kaum behauptete man, etwas zu wissen, als Zweifel entstehen."],2,"“Kaum” al inicio invierte el orden con el verbo en segunda posición: “kaum behauptet man”."],
       ["arrange","Ordena: [wahre / erfordert / Gewissheit / Wissen]",["Wissen erfordert wahre Gewissheit","Gewissheit wahre Wissen erfordert","erfordert Gewissheit Wissen wahre","wahre Wissen erfordert Gewissheit"],0,"Sustantivo + verbo + adjetivo + sustantivo."],
@@ -3510,8 +3510,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “nest” en alemán?",["to fly", "das Nest", "beak", "binoculars"],1,"“Nest” es “das Nest” en alemán."],
-      ["mcq","¿Cómo se dice “beak” en alemán?",["beak", "nest", "to fly", "der Schnabel"],3,"“Beak” es “der Schnabel” en alemán."],
+      ["mcq","¿Cómo se dice “nest” en alemán?",["fliegen","das Nest","der Schnabel","das Fernglas"],1,"“Nest” es “das Nest” en alemán."],
+      ["mcq","¿Cómo se dice “beak” en alemán?",["das Fernglas","das Nest","fliegen","der Schnabel"],3,"“Beak” es “der Schnabel” en alemán."],
       ["fill","Completa: “Der Vogel benutzt ___ Flügel zum Fliegen.”",["seine", "ihr", "ihre", "sein"],0,"“Flügel” (plural, acusativo) con posesivo masculino singular “er” usa “seine”."],
       ["translate","Traduce: “My binoculars are new.”",["Mein Fernglas ist neu.", "Mein Ferngläser ist neu.", "Mein Fernglas sind neu.", "Meine Fernglas ist neu."],0,"“My” se traduce con “mein” ante “Fernglas” (neutro singular)."],
       ["arrange","Ordena: [Nest / Baum / ist / im / ihr]",["im ihr Baum Nest ist","Ihr Nest ist im Baum","ist ihr Nest im Baum","im Baum ist ihr Nest"],1,"Posesivo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -3535,8 +3535,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “kiln” en alemán?",["glaze", "der Brennofen", "kiln", "pottery wheel"],1,"“Kiln” es “der Brennofen” en alemán."],
-      ["mcq","¿Cómo se dice “glaze” en alemán?",["pottery wheel", "die Glasur", "to shape", "bowl"],1,"“Glaze” es “die Glasur” en alemán."],
+      ["mcq","¿Cómo se dice “kiln” en alemán?",["die Glasur","der Brennofen","der Ton","die Töpferscheibe"],1,"“Kiln” es “der Brennofen” en alemán."],
+      ["mcq","¿Cómo se dice “glaze” en alemán?",["die Töpferscheibe","die Glasur","formen","die Schüssel"],1,"“Glaze” es “die Glasur” en alemán."],
       ["fill","Completa: “___ Ton brauchst du?”",["Wie viel", "Wie viele", "Wie viel von", "Wie"],0,"“Ton” es incontable, así que se usa “wie viel”: “wie viel Ton”."],
       ["translate","Traduce: “How many bowls did you make?”",["Wie viel Schüsseln hast du gemacht?", "Wie viele Schüsseln hast du gemacht?", "Wie viele Schüssel hast du gemacht?", "Wie viele Schüsseln du hast gemacht?"],1,"“Schüsseln” es contable plural, así que se usa “wie viele”: “wie viele Schüsseln”."],
       ["arrange","Ordena: [Töpferscheibe / benutzt / der / die / Töpfer]",["der Töpferscheibe die benutzt Töpfer","der die Töpferscheibe benutzt Töpfer","Der Töpfer benutzt die Töpferscheibe","Töpferscheibe Töpfer die der benutzt"],2,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
@@ -3560,8 +3560,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “black belt” en alemán?",["martial arts", "opponent's grip", "black belt", "der schwarze Gürtel"],3,"“Black belt” es “der schwarze Gürtel” en alemán."],
-      ["mcq","¿Cómo se dice “balance” en alemán?",["martial arts", "das Gleichgewicht", "opponent's grip", "dojo"],1,"“Balance” es “das Gleichgewicht” en alemán."],
+      ["mcq","¿Cómo se dice “black belt” en alemán?",["die Kampfkunst","der Griff des Gegners","die Technik","der schwarze Gürtel"],3,"“Black belt” es “der schwarze Gürtel” en alemán."],
+      ["mcq","¿Cómo se dice “balance” en alemán?",["die Kampfkunst","das Gleichgewicht","der Griff des Gegners","das Dojo"],1,"“Balance” es “das Gleichgewicht” en alemán."],
       ["fill","Completa: “Aikido erfordert ___ Kraft als auch Gleichgewicht.”",["entweder", "beide", "sowohl", "weder"],2,"“Sowohl... als auch” conecta dos elementos: “sowohl Kraft als auch Gleichgewicht”."],
       ["translate","Traduce: “You can practice either in the morning or in the evening.”",["Du kannst entweder morgens und abends trainieren.", "Du kannst entweder morgens oder abends trainieren.", "Du kannst sowohl morgens oder abends trainieren.", "Du kannst entweder morgens oder abends trainierst."],1,"“Either... or” se traduce con “entweder... oder” en alemán."],
       ["arrange","Ordena: [schwierig / diese / sehr / ist / Technik]",["schwierig ist sehr Technik diese","Diese Technik ist sehr schwierig","ist sehr Technik diese schwierig","schwierig diese ist Technik sehr"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3585,8 +3585,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “spore” en alemán?",["mycelium", "mushroom", "spore", "die Spore"],3,"“Spore” es “die Spore” en alemán."],
-      ["mcq","¿Cómo se dice “mycelium” en alemán?",["das Myzel", "spore", "poisonous", "fungus"],0,"“Mycelium” es “das Myzel” en alemán."],
+      ["mcq","¿Cómo se dice “spore” en alemán?",["das Myzel","der Pilz","essbar","die Spore"],3,"“Spore” es “die Spore” en alemán."],
+      ["mcq","¿Cómo se dice “mycelium” en alemán?",["das Myzel","die Spore","giftig","der Pilz/Schimmel"],0,"“Mycelium” es “das Myzel” en alemán."],
       ["fill","Completa: “Dieser Pilz sieht aus, als ob er giftig ___.”",["war", "sei", "ist", "wäre"],3,"“Als ob” requiere Konjunktiv II: “als ob er... wäre”."],
       ["translate","Traduce: “The mycelium spreads as though it had a mind of its own.”",["Das Myzel breitet aus, als ob es einen eigenen Willen hätte.", "Das Myzel breitet sich aus, als ob es einen eigenen Willen hätte.", "Das Myzel breitet sich aus, als ob es einen eigenen Willen hat.", "Das Myzel breitet sich aus, als ob es einen eigenen Willen würde."],1,"“As though it had” se traduce con Konjunktiv II: “als ob es... hätte”."],
       ["arrange","Ordena: [essbar / dieser / nicht / ist / Pilz]",["nicht essbar Pilz ist dieser","dieser ist Pilz essbar nicht","Dieser Pilz ist nicht essbar","essbar Pilz nicht dieser ist"],2,"Pronombre + sustantivo + verbo + negación + adjetivo."],
@@ -3610,8 +3610,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “biodiversity” en alemán?",["die Biodiversität", "marine ecosystem", "food chain", "marine species"],0,"“Biodiversity” es “die Biodiversität” en alemán."],
-      ["mcq","¿Cómo se dice “coral bleaching” en alemán?",["die Korallenbleiche", "coral bleaching", "marine ecosystem", "biodiversity"],0,"“Coral bleaching” es “die Korallenbleiche” en alemán."],
+      ["mcq","¿Cómo se dice “biodiversity” en alemán?",["die Biodiversität","das Meeresökosystem","die Nahrungskette","die Meeresart"],0,"“Biodiversity” es “die Biodiversität” en alemán."],
+      ["mcq","¿Cómo se dice “coral bleaching” en alemán?",["die Korallenbleiche","das Meeresökosystem","die Biodiversität","die Nahrungskette"],0,"“Coral bleaching” es “die Korallenbleiche” en alemán."],
       ["fill","Completa: “Korallenriffe überleben, ___ die Wassertemperaturen stabil bleiben.”",["solange", "obwohl", "außer", "trotzdem"],0,"“Solange” expresa una condición necesaria: “überleben, solange... bleiben”."],
       ["translate","Traduce: “Marine biodiversity can recover, provided that pollution decreases.”",["Die marine Biodiversität kann sich erholen, vorausgesetzt, dass die Verschmutzung abnimmt.", "Die marine Biodiversität kann sich erholen, vorausgesetzt die Verschmutzung abnimmt.", "Die marine Biodiversität kann sich erholen, vorausgesetzt, dass die Verschmutzung abnehmen.", "Die marine Biodiversität kann erholen, vorausgesetzt, dass die Verschmutzung abnimmt."],0,"“Provided that” se traduce con “vorausgesetzt, dass” + verbo al final: “dass... abnimmt”."],
       ["arrange","Ordena: [Nahrungskette / die / stört / Verschmutzung / die]",["Nahrungskette die die Verschmutzung stört","Die Verschmutzung stört die Nahrungskette","Verschmutzung die Nahrungskette die stört","die Nahrungskette die stört Verschmutzung"],1,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
@@ -3635,8 +3635,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cartographer” en alemán?",["navigational instrument", "to chart", "der Kartograf", "scale"],2,"“Cartographer” es “der Kartograf” en alemán."],
-      ["mcq","¿Cómo se dice “uncharted territory” en alemán?",["projection", "uncharted territory", "unerforschtes Gebiet", "navigational instrument"],2,"“Uncharted territory” es “unerforschtes Gebiet” en alemán."],
+      ["mcq","¿Cómo se dice “cartographer” en alemán?",["das Navigationsinstrument","kartieren","der Kartograf","der Maßstab"],2,"“Cartographer” es “der Kartograf” en alemán."],
+      ["mcq","¿Cómo se dice “uncharted territory” en alemán?",["die Projektion","der Kartograf","unerforschtes Gebiet","das Navigationsinstrument"],2,"“Uncharted territory” es “unerforschtes Gebiet” en alemán."],
       ["fill","Completa: “___ Satellitenbilder wären moderne Karten weit weniger genau.”",["Ohne", "Wegen", "Mit", "Trotz"],0,"“Ohne” + sustantivo expresa la condición hipotética: “ohne Satellitenbilder”."],
       ["translate","Traduce con estructura formal: “Were it not for early cartographers, exploration would have been impossible.”",["Wären da nicht die frühen Kartografen gewesen, ist die Erkundung unmöglich gewesen.", "Wäre da nicht die frühen Kartografen gewesen, wäre die Erkundung unmöglich gewesen.", "Wären da nicht die frühen Kartografen gewesen, wäre die Erkundung unmöglich gewesen.", "Wären da nicht die frühen Kartografen, wäre die Erkundung unmöglich gewesen."],2,"“Were it not for” se traduce con “wären da nicht... gewesen”, concordando en plural con “Kartografen”."],
       ["arrange","Ordena: [genau / diese / sehr / ist / Projektion]",["sehr ist genau Projektion diese","Projektion diese ist sehr genau","ist diese Projektion sehr genau","Diese Projektion ist sehr genau"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3660,8 +3660,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “needle” en alemán?",["thread", "die Nadel", "to sew", "tailor"],1,"“Needle” es “die Nadel” en alemán."],
-      ["mcq","¿Cómo se dice “thread” en alemán?",["needle", "tailor", "to sew", "der Faden"],3,"“Thread” es “der Faden” en alemán."],
+      ["mcq","¿Cómo se dice “needle” en alemán?",["der Faden","die Nadel","nähen","der Schneider"],1,"“Needle” es “die Nadel” en alemán."],
+      ["mcq","¿Cómo se dice “thread” en alemán?",["die Nadel","der Schneider","nähen","der Faden"],3,"“Thread” es “der Faden” en alemán."],
       ["fill","Completa: “Ich probiere die Jacke ___.”",["mit", "auf", "an", "aus"],2,"“Anprobieren” es un verbo separable: “probiere... an”."],
       ["translate","Traduce: “I try on the jacket.”",["Ich probiere mich die Jacke an.", "Ich probiere die Jacke an.", "Ich probiere an die Jacke.", "Ich probiere die Jacke."],1,"“Try on” se traduce con el verbo separable “anprobieren”: “probiere... an”, sin pronombre reflexivo."],
       ["arrange","Ordena: [Knopf / näht / Schneider / den / der]",["Knopf der Schneider den näht","Knopf der den Schneider näht","Der Schneider näht den Knopf","den der näht Schneider Knopf"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -3685,8 +3685,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “harness” en alemán?",["der Klettergurt", "grip", "summit", "cliff"],0,"“Harness” es “der Klettergurt” en alemán."],
-      ["mcq","¿Cómo se dice “cliff” en alemán?",["cliff", "die Klippe", "grip", "summit"],1,"“Cliff” es “die Klippe” en alemán."],
+      ["mcq","¿Cómo se dice “harness” en alemán?",["der Klettergurt","der Griff","der Gipfel","die Klippe"],0,"“Harness” es “der Klettergurt” en alemán."],
+      ["mcq","¿Cómo se dice “cliff” en alemán?",["das Seil","die Klippe","der Griff","der Gipfel"],1,"“Cliff” es “die Klippe” en alemán."],
       ["fill","Completa: “Wir klettern ___ seit drei Stunden.”",["noch", "seit", "schon", "vor"],2,"“Schon seit” + tiempo expresa duración continua: “schon seit drei Stunden”."],
       ["translate","Traduce: “She has been training for the summit all year.”",["Sie trainierte schon seit einem Jahr für den Gipfel.", "Sie hat trainiert schon seit einem Jahr für den Gipfel.", "Sie trainiert schon vor einem Jahr für den Gipfel.", "Sie trainiert schon seit einem Jahr für den Gipfel."],3,"“Has been training” se traduce con presente + “schon seit”: “trainiert schon seit einem Jahr”."],
       ["arrange","Ordena: [neues / braucht / Kletterer / der / Seil / ein]",["Der Kletterer braucht ein neues Seil","neues Seil Der ein braucht Kletterer","Der ein braucht Seil Kletterer neues","Kletterer braucht Seil ein neues Der"],0,"Artículo + sustantivo + verbo + adjetivo + sustantivo."],
@@ -3710,8 +3710,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “mint” en alemán?",["mint", "die Münzprägeanstalt", "collection", "coin"],1,"“Mint” es “die Münzprägeanstalt” en alemán."],
-      ["mcq","¿Cómo se dice “to appraise” en alemán?",["currency", "schätzen (Wert)", "to appraise", "collection"],1,"“To appraise” es “schätzen” en alemán."],
+      ["mcq","¿Cómo se dice “mint” en alemán?",["die Münze","die Münzprägeanstalt","die Sammlung","die seltene Münze"],1,"“Mint” es “die Münzprägeanstalt” en alemán."],
+      ["mcq","¿Cómo se dice “to appraise” en alemán?",["die Währung","schätzen (Wert)","die Münze","die Sammlung"],1,"“To appraise” es “schätzen” en alemán."],
       ["fill","Completa: “Ich bin daran ___, alte Münzen zu schätzen.”",["gewöhnte", "gewöhnt", "gewöhnen", "gewöhnst"],1,"“Gewöhnt sein an” usa el participio “gewöhnt”: “bin daran gewöhnt”."],
       ["translate","Traduce: “It took time to get used to collecting rare currency.”",["Es dauerte, sich daran gewöhnen, seltene Währungen zu sammeln.", "Es dauerte, sich daran zu gewöhnen, seltene Währungen zu sammeln.", "Es dauerte, sich daran zu gewöhnt, seltene Währungen zu sammeln.", "Es dauert, sich daran zu gewöhnen, seltene Währungen zu sammeln."],1,"“Get used to collecting” se traduce con “sich daran gewöhnen, zu sammeln”, infinitivo con “zu”."],
       ["arrange","Ordena: [seltene / hat / Münzsammlung / eine / sie]",["hat sie eine Münzsammlung seltene","eine seltene sie Münzsammlung hat","Sie hat eine seltene Münzsammlung","Münzsammlung hat sie seltene eine"],2,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
@@ -3735,8 +3735,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “epicenter” en alemán?",["das Epizentrum", "tectonic plate", "seismograph", "magnitude"],0,"“Epicenter” es “das Epizentrum” en alemán."],
-      ["mcq","¿Cómo se dice “tectonic plate” en alemán?",["magnitude", "tectonic plate", "die tektonische Platte", "seismograph"],2,"“Tectonic plate” es “die tektonische Platte” en alemán."],
+      ["mcq","¿Cómo se dice “epicenter” en alemán?",["das Epizentrum","die tektonische Platte","das Seismograph","die Magnitude"],0,"“Epicenter” es “das Epizentrum” en alemán."],
+      ["mcq","¿Cómo se dice “tectonic plate” en alemán?",["die Magnitude","das Erdbeben","die tektonische Platte","das Seismograph"],2,"“Tectonic plate” es “die tektonische Platte” en alemán."],
       ["fill","Completa: “Weißt du, wie stark die Magnitude ___?”",["ist es", "war es", "war", "es war"],2,"En la pregunta indirecta el verbo va al final: “wie stark die Magnitude war”."],
       ["translate","Traduce con pregunta indirecta: “I wonder if the epicenter was near the city.”",["Ich frage mich, dass das Epizentrum nahe der Stadt war.", "Ich frage mich, ob war das Epizentrum nahe der Stadt.", "Ich frage mich, ob das Epizentrum nahe der Stadt ist.", "Ich frage mich, ob das Epizentrum nahe der Stadt war."],3,"La pregunta indirecta usa “ob” + verbo al final: “ob das Epizentrum... war”."],
       ["arrange","Ordena: [kleines / gespürt / haben / Nachbeben / wir / ein]",["Wir haben ein kleines Nachbeben gespürt","kleines gespürt Nachbeben wir ein haben","Nachbeben gespürt kleines haben wir ein","Nachbeben ein haben wir kleines gespürt"],0,"Sujeto + auxiliar + artículo + adjetivo + sustantivo + participio."],
@@ -3760,8 +3760,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scribe” en alemán?",["illuminated text", "to decipher", "manuscript", "der Schreiber"],3,"“Scribe” es “der Schreiber” en alemán."],
-      ["mcq","¿Cómo se dice “parchment” en alemán?",["to decipher", "das Pergament", "illuminated text", "parchment"],1,"“Parchment” es “das Pergament” en alemán."],
+      ["mcq","¿Cómo se dice “scribe” en alemán?",["der illuminierte Text","entziffern","das Manuskript","der Schreiber"],3,"“Scribe” es “der Schreiber” en alemán."],
+      ["mcq","¿Cómo se dice “parchment” en alemán?",["entziffern","das Pergament","der illuminierte Text","das Manuskript"],1,"“Parchment” es “das Pergament” en alemán."],
       ["fill","Completa: “___ dieses Manuskript entziffert, wird Geschichte schreiben.”",["Wessen", "Wer auch immer", "Wie auch immer", "Was auch immer"],1,"“Wer auch immer” se refiere a una persona no especificada: “wer auch immer entziffert”."],
       ["translate","Traduce con esta estructura: “Whatever the scribe intended, the meaning is now lost.”",["Was auch immer der Schreiber beabsichtigte, die Bedeutung war heute verloren.", "Was auch immer der Schreiber beabsichtigte, die Bedeutung ist heute verloren.", "Was auch immer der Schreiber beabsichtigt, die Bedeutung ist heute verloren.", "Was der Schreiber beabsichtigte, die Bedeutung ist heute verloren."],1,"“Whatever” se traduce con “was auch immer” + verbo en Präteritum: “was auch immer... beabsichtigte”."],
       ["arrange","Ordena: [wunderschön / ist / Manuskript / dieses / illuminiert]",["dieses wunderschön ist Manuskript illuminiert","Manuskript illuminiert wunderschön ist dieses","ist illuminiert dieses wunderschön Manuskript","Dieses Manuskript ist wunderschön illuminiert"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3785,8 +3785,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “bottleneck” en alemán?",["der Engpass", "warehouse", "supply chain", "just-in-time delivery"],0,"“Bottleneck” es “der Engpass” en alemán."],
-      ["mcq","¿Cómo se dice “just-in-time delivery” en alemán?",["just-in-time delivery", "bottleneck", "logistics disruption", "die Just-in-Time-Lieferung"],3,"“Just-in-time delivery” es “die Just-in-Time-Lieferung” en alemán."],
+      ["mcq","¿Cómo se dice “bottleneck” en alemán?",["der Engpass","das Lager","die Lieferkette","die Just-in-Time-Lieferung"],0,"“Bottleneck” es “der Engpass” en alemán."],
+      ["mcq","¿Cómo se dice “just-in-time delivery” en alemán?",["die Lieferkette","der Engpass","die Logistikstörung","die Just-in-Time-Lieferung"],3,"“Just-in-time delivery” es “die Just-in-Time-Lieferung” en alemán."],
       ["fill","Completa: “Kaum jemand ___, wie zerbrechlich die Lieferkette war.”",["ahnen", "ahnte", "ahnt", "geahnt"],1,"“Kaum jemand ahnte” usa Präteritum para describir la falta de anticipación."],
       ["translate","Traduce con estructura enfática: “Little did anyone expect such a severe logistics disruption.”",["Jemand hatte eine so schwere Logistikstörung erwartet.", "Niemand hatte eine so schwere Logistikstörung erwartet.", "Niemand hat eine so schwere Logistikstörung erwartet.", "Niemand hatte eine so schwere Logistikstörung erwarten."],1,"“Little did anyone expect” se traduce naturalmente con “niemand hatte... erwartet”, Plusquamperfekt en alemán."],
       ["arrange","Ordena: [lagert / Waren / Lager / das]",["Lager lagert das Waren","lagert das Waren Lager","Lager Waren lagert das","Das Lager lagert Waren"],3,"Artículo + sustantivo + verbo + sustantivo."],
@@ -3810,8 +3810,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “antenna” en alemán?",["die Antenne", "radio signal", "microphone", "static"],0,"“Antenna” es “die Antenne” en alemán."],
-      ["mcq","¿Cómo se dice “static” en alemán?",["radio signal", "microphone", "frequency", "das Rauschen"],3,"“Static” es “das Rauschen” en alemán."],
+      ["mcq","¿Cómo se dice “antenna” en alemán?",["die Antenne","das Funksignal","das Mikrofon","das Rauschen"],0,"“Antenna” es “die Antenne” en alemán."],
+      ["mcq","¿Cómo se dice “static” en alemán?",["das Funksignal","das Mikrofon","die Frequenz","das Rauschen"],3,"“Static” es “das Rauschen” en alemán."],
       ["fill","Completa: “___ zwei Antennen auf dem Dach.”",["Es sind", "Es hat", "Es gibst", "Es gibt"],3,"“Es gibt” + acusativo indica existencia: “es gibt zwei Antennen”."],
       ["translate","Traduce: “There is a lot of static on this frequency.”",["Es hat viel Rauschen auf dieser Frequenz.", "Es gibt viele Rauschen auf dieser Frequenz.", "Es gibt viel Rauschen auf diese Frequenz.", "Es gibt viel Rauschen auf dieser Frequenz."],3,"“There is a lot of static” se traduce con “es gibt viel Rauschen”."],
       ["arrange","Ordena: [schwach / dieses / signal / ist]",["Dieses Signal ist schwach","Signal schwach Dieses ist","ist Dieses schwach Signal","Dieses ist schwach Signal"],0,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3835,8 +3835,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “zodiac sign” en alemán?",["das Sternzeichen", "destiny", "zodiac sign", "prediction"],0,"“Zodiac sign” es “das Sternzeichen” en alemán."],
-      ["mcq","¿Cómo se dice “destiny” en alemán?",["fortune teller", "horoscope", "star chart", "das Schicksal"],3,"“Destiny” es “das Schicksal” en alemán."],
+      ["mcq","¿Cómo se dice “zodiac sign” en alemán?",["das Sternzeichen","das Schicksal","das Horoskop","die Vorhersage"],0,"“Zodiac sign” es “das Sternzeichen” en alemán."],
+      ["mcq","¿Cómo se dice “destiny” en alemán?",["der Wahrsager/die Wahrsagerin","das Horoskop","die Sternkarte","das Schicksal"],3,"“Destiny” es “das Schicksal” en alemán."],
       ["fill","Completa: “Dieses Horoskop sagt, du ___ eine gute Woche haben.”",["wirst", "hast", "wirdst", "würdest"],0,"“Werden” con “du” se conjuga como “du wirst”."],
       ["translate","Traduce: “The fortune teller thinks she will find love soon.”",["Die Wahrsagerin denkt, sie wird bald die Liebe gefunden.", "Die Wahrsagerin denkt, sie wird bald die Liebe finden.", "Die Wahrsagerin denkt, sie findet bald die Liebe.", "Die Wahrsagerin dachte, sie wird bald die Liebe finden."],1,"“Will find” se traduce con “werden” + infinitivo: “wird... finden”."],
       ["arrange","Ordena: [interessant / Sternkarte / diese / ist]",["ist diese interessant Sternkarte","ist interessant diese Sternkarte","Sternkarte diese interessant ist","Diese Sternkarte ist interessant"],3,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3860,8 +3860,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “free fall” en alemán?",["adrenaline rush", "free fall", "der freie Fall", "extreme sport"],2,"“Free fall” es “der freie Fall” en alemán."],
-      ["mcq","¿Cómo se dice “adrenaline rush” en alemán?",["free fall", "parachute", "extreme sport", "der Adrenalinschub"],3,"“Adrenaline rush” es “der Adrenalinschub” en alemán."],
+      ["mcq","¿Cómo se dice “free fall” en alemán?",["der Adrenalinschub","der Fallschirm","der freie Fall","der Extremsport"],2,"“Free fall” es “der freie Fall” en alemán."],
+      ["mcq","¿Cómo se dice “adrenaline rush” en alemán?",["der freie Fall","der Fallschirm","der Extremsport","der Adrenalinschub"],3,"“Adrenaline rush” es “der Adrenalinschub” en alemán."],
       ["fill","Completa: “Sie hat es geschafft, den Fallschirm rechtzeitig ___ öffnen.”",["an", "zu", "um zu", "es zu"],1,"“Es schaffen, zu” + infinitivo: “geschafft,... zu öffnen”."],
       ["translate","Traduce: “He succeeded in overcoming his fear of heights.”",["Er hat es geschafft, seine Höhenangst zu überwinden.", "Er schafft es, seine Höhenangst zu überwinden.", "Er hat es geschafft, seine Höhenangst zu überwunden.", "Er hat es geschafft, seine Höhenangst überwinden."],0,"“Succeed in overcoming” se traduce con “es schaffen, zu überwinden”."],
       ["arrange","Ordena: [spannend / dieser / sehr / ist / Sport]",["ist Sport dieser spannend sehr","sehr dieser spannend ist Sport","dieser ist sehr Sport spannend","Dieser Sport ist sehr spannend"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3885,8 +3885,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “exoskeleton” en alemán?",["metamorphosis", "larva", "das Außenskelett", "exoskeleton"],2,"“Exoskeleton” es “das Außenskelett” en alemán."],
-      ["mcq","¿Cómo se dice “metamorphosis” en alemán?",["pollinator", "metamorphosis", "die Metamorphose", "larva"],2,"“Metamorphosis” es “die Metamorphose” en alemán."],
+      ["mcq","¿Cómo se dice “exoskeleton” en alemán?",["die Metamorphose","die Larve","das Außenskelett","das Insekt"],2,"“Exoskeleton” es “das Außenskelett” en alemán."],
+      ["mcq","¿Cómo se dice “metamorphosis” en alemán?",["der Bestäuber","das Insekt","die Metamorphose","die Larve"],2,"“Metamorphosis” es “die Metamorphose” en alemán."],
       ["fill","Completa: “___ zur Bestäubung von Blumen produzieren Bienen Honig.”",["Zusätzlich von", "Sowie", "Zusätzlich", "Außerdem zu"],2,"“Zusätzlich zu” introduce información extra: “zusätzlich zur Bestäubung”."],
       ["translate","Traduce: “Beetles, as well as butterflies, undergo metamorphosis.”",["Käfer sowie Schmetterlinge durchlaufen eine Metamorphose.", "Käfer sowie Schmetterlinge durchläuft eine Metamorphose.", "Käfer zusätzlich Schmetterlinge durchlaufen eine Metamorphose.", "Käfer sowie Schmetterlinge durchliefen eine Metamorphose."],0,"“As well as” se traduce con “sowie” en este contexto."],
       ["arrange","Ordena: [wichtige / Bienen / sind / Bestäuber]",["wichtige Bienen sind Bestäuber","Bestäuber sind Bienen wichtige","Bienen wichtige sind Bestäuber","Bienen sind wichtige Bestäuber"],3,"Sujeto + verbo + adjetivo + sustantivo."],
@@ -3910,8 +3910,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “infringement” en alemán?",["infringement", "copyright", "die Verletzung", "intellectual property"],2,"“Infringement” es “die Verletzung” en alemán."],
-      ["mcq","¿Cómo se dice “licensing agreement” en alemán?",["trademark", "infringement", "intellectual property", "der Lizenzvertrag"],3,"“Licensing agreement” es “der Lizenzvertrag” en alemán."],
+      ["mcq","¿Cómo se dice “infringement” en alemán?",["das Urheberrecht","das Patent","die Verletzung","das geistige Eigentum"],2,"“Infringement” es “die Verletzung” en alemán."],
+      ["mcq","¿Cómo se dice “licensing agreement” en alemán?",["die Marke","die Verletzung","das geistige Eigentum","der Lizenzvertrag"],3,"“Licensing agreement” es “der Lizenzvertrag” en alemán."],
       ["fill","Completa: “___ des Patents setzte das Unternehmen die Produktion fort.”",["Trotzdem", "Obwohl", "Wegen", "Ungeachtet"],3,"“Ungeachtet” + genitivo: “ungeachtet des Patents”."],
       ["translate","Traduce con registro legal formal: “The trademark remains valid, notwithstanding the dispute.”",["Die Marke bleibt gültig, ungeachtet des Rechtsstreit.", "Die Marke bleibt gültig, ungeachtet der Rechtsstreits.", "Die Marke blieb gültig, ungeachtet des Rechtsstreits.", "Die Marke bleibt gültig, ungeachtet des Rechtsstreits."],3,"“Notwithstanding” en este contexto formal se traduce con “ungeachtet” + genitivo."],
       ["arrange","Ordena: [geltend / Verletzung / Unternehmen / machte / das / eine]",["Das Unternehmen machte eine Verletzung geltend","geltend Das machte Verletzung eine Unternehmen","machte Verletzung eine Das Unternehmen geltend","Das Unternehmen Verletzung eine machte geltend"],0,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3935,8 +3935,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crystalline structure” en alemán?",["die kristalline Struktur", "mineral deposit", "igneous rock", "crystalline structure"],0,"“Crystalline structure” es “die kristalline Struktur” en alemán."],
-      ["mcq","¿Cómo se dice “sedimentary rock” en alemán?",["igneous rock", "das Sedimentgestein", "sedimentary rock", "crystalline structure"],1,"“Sedimentary rock” es “das Sedimentgestein” en alemán."],
+      ["mcq","¿Cómo se dice “crystalline structure” en alemán?",["die kristalline Struktur","die Mineralvorkommen","das Eruptivgestein","das Sedimentgestein"],0,"“Crystalline structure” es “die kristalline Struktur” en alemán."],
+      ["mcq","¿Cómo se dice “sedimentary rock” en alemán?",["das Eruptivgestein","das Sedimentgestein","die Mineralvorkommen","die kristalline Struktur"],1,"“Sedimentary rock” es “das Sedimentgestein” en alemán."],
       ["fill","Completa: “Weit davon entfernt, stabil ___ sein, verändert sich diese Formation ständig.”",["es zu", "um zu", "an", "zu"],3,"“Weit davon entfernt, zu” + infinitivo: “entfernt, stabil zu sein”."],
       ["translate","Traduce con estructura enfática: “Far from settling the debate, the discovery raised new questions.”",["Weit davon entfernt, die Debatte zu klären, warf die Entdeckung neue Fragen auf.", "Weit davon entfernt, die Debatte zu klären, wirft die Entdeckung neue Fragen auf.", "Weit entfernt, die Debatte zu klären, warf die Entdeckung neue Fragen auf.", "Weit davon entfernt, die Debatte zu klären, warf die Entdeckung alte Fragen auf."],0,"“Far from settling” se traduce con “weit davon entfernt, zu klären”."],
       ["arrange","Ordena: [selten / Mineral / sehr / ist / dieses]",["Dieses Mineral ist sehr selten","selten sehr dieses Mineral ist","ist Mineral sehr selten dieses","sehr ist Mineral dieses selten"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3960,8 +3960,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “roast” en alemán?",["barista", "to brew", "die Röstung", "aroma"],2,"“Roast” es “die Röstung” en alemán."],
-      ["mcq","¿Cómo se dice “barista” en alemán?",["barista", "aroma", "coffee bean", "der Barista"],3,"“Barista” es “der Barista” en alemán."],
+      ["mcq","¿Cómo se dice “roast” en alemán?",["der Barista","aufbrühen","die Röstung","das Aroma"],2,"“Roast” es “die Röstung” en alemán."],
+      ["mcq","¿Cómo se dice “barista” en alemán?",["die Kaffeebohne","das Aroma","die Röstung","der Barista"],3,"“Barista” es “der Barista” en alemán."],
       ["fill","Completa: “Ich ___ gern eine Tasse Kaffee, bitte.”",["habe", "würde", "hätte", "hatte"],2,"“Ich hätte gern” es la forma cortés de pedir: “ich hätte gern”."],
       ["translate","Traduce: “She would like to try the dark roast.”",["Sie möchte die helle Röstung probieren.", "Sie will die dunkle Röstung probieren bitte.", "Sie möchte die dunkle Röstung probiert.", "Sie möchte die dunkle Röstung probieren."],3,"“Would like to try” se traduce con “möchte probieren”."],
       ["arrange","Ordena: [stark / riecht / dieser / Kaffee]",["Dieser Kaffee riecht stark","stark riecht Kaffee dieser","dieser stark riecht Kaffee","stark Kaffee dieser riecht"],0,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3985,8 +3985,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “varnish” en alemán?",["der Lack", "wood grain", "varnish", "sandpaper"],0,"“Varnish” es “der Lack” en alemán."],
-      ["mcq","¿Cómo se dice “sandpaper” en alemán?",["antique furniture", "das Schleifpapier", "workshop", "to restore"],1,"“Sandpaper” es “das Schleifpapier” en alemán."],
+      ["mcq","¿Cómo se dice “varnish” en alemán?",["der Lack","die Holzmaserung","das antike Möbelstück","das Schleifpapier"],0,"“Varnish” es “der Lack” en alemán."],
+      ["mcq","¿Cómo se dice “sandpaper” en alemán?",["das antike Möbelstück","das Schleifpapier","die Werkstatt","restaurieren"],1,"“Sandpaper” es “das Schleifpapier” en alemán."],
       ["fill","Completa: “Sie lässt ihren Assistenten das Möbelstück ___.”",["geschliffen", "schleift", "schleifen", "zu schleifen"],2,"“Lassen” + persona + infinitivo sin “zu”: “lässt... schleifen”."],
       ["translate","Traduce: “Let the varnish dry overnight.”",["Lass den Lack über Nacht getrocknet.", "Lass den Lack über Nacht zu trocknen.", "Lass den Lack über Nacht trocknen.", "Lässt den Lack über Nacht trocknen."],2,"“Let... dry” se traduce con “lass... trocknen”, infinitivo sin “zu”."],
       ["arrange","Ordena: [sehr / ist / Möbelstück / alt / dieses]",["Dieses Möbelstück ist sehr alt","alt dieses sehr Möbelstück ist","alt ist sehr dieses Möbelstück","alt ist dieses sehr Möbelstück"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4010,8 +4010,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “etymology” en alemán?",["synonym", "headword", "dictionary entry", "die Etymologie"],3,"“Etymology” es “die Etymologie” en alemán."],
-      ["mcq","¿Cómo se dice “headword” en alemán?",["headword", "das Stichwort", "dictionary entry", "synonym"],1,"“Headword” es “das Stichwort” en alemán."],
+      ["mcq","¿Cómo se dice “etymology” en alemán?",["das Synonym","das Stichwort","der Wörterbucheintrag","die Etymologie"],3,"“Etymology” es “die Etymologie” en alemán."],
+      ["mcq","¿Cómo se dice “headword” en alemán?",["der Wörterbucheintrag","das Stichwort","die Definition","das Synonym"],1,"“Headword” es “das Stichwort” en alemán."],
       ["fill","Completa: “Anstatt ___ raten, schau die Etymologie nach.”",["zum", "an", "um zu", "zu"],3,"“Anstatt... zu” + infinitivo introduce la alternativa evitada: “anstatt zu raten”."],
       ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Anstatt raten, schau die Etymologie nach.", "Anstatt zu raten, schau die Etymologie nach.", "Statt dass raten, schau die Etymologie nach.", "Anstatt zu raten, schaute die Etymologie nach."],1,"“Rather than guessing” se traduce con “anstatt zu raten”, infinitivo con “zu”."],
       ["arrange","Ordena: [nützlich / ist / dieses / sehr / Beispiel]",["dieses ist sehr nützlich Beispiel","Dieses Beispiel ist sehr nützlich","dieses Beispiel ist nützlich sehr","nützlich ist Beispiel dieses sehr"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4035,8 +4035,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “MRI scan” en alemán?",["contrast dye", "radiologist", "diagnosis", "die MRT-Untersuchung"],3,"“MRI scan” es “die MRT-Untersuchung” en alemán."],
-      ["mcq","¿Cómo se dice “contrast dye” en alemán?",["das Kontrastmittel", "contrast dye", "MRI scan", "radiologist"],0,"“Contrast dye” es “das Kontrastmittel” en alemán."],
+      ["mcq","¿Cómo se dice “MRI scan” en alemán?",["das Kontrastmittel","der Radiologe/die Radiologin","die Diagnose","die MRT-Untersuchung"],3,"“MRI scan” es “die MRT-Untersuchung” en alemán."],
+      ["mcq","¿Cómo se dice “contrast dye” en alemán?",["das Kontrastmittel","die Röntgenaufnahme","die MRT-Untersuchung","der Radiologe/die Radiologin"],0,"“Contrast dye” es “das Kontrastmittel” en alemán."],
       ["fill","Completa: “Bring deine früheren Aufnahmen mit, für den Fall, dass der Arzt sie ___.”",["braucht", "brauche", "gebraucht", "brauchte"],0,"“Für den Fall, dass” + presente al final: “für den Fall, dass... braucht”."],
       ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Der Radiologe ordnet eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, wenn die Röntgenaufnahme etwas übersah.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersieht."],1,"“In case” se traduce con “für den Fall, dass”, expresando precaución."],
       ["arrange","Ordena: [klar / Diagnose / sehr / ist / die]",["Die Diagnose ist sehr klar","sehr klar die ist Diagnose","klar Diagnose ist sehr die","die sehr ist klar Diagnose"],0,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -4060,8 +4060,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “outbreak” en alemán?",["der Ausbruch", "outbreak", "virus strain", "herd immunity"],0,"“Outbreak” es “der Ausbruch” en alemán."],
-      ["mcq","¿Cómo se dice “herd immunity” en alemán?",["herd immunity", "outbreak", "die Herdenimmunität", "vaccine efficacy"],2,"“Herd immunity” es “die Herdenimmunität” en alemán."],
+      ["mcq","¿Cómo se dice “outbreak” en alemán?",["der Ausbruch","der Virusstamm","die Herdenimmunität","die Impfstoffwirksamkeit"],0,"“Outbreak” es “der Ausbruch” en alemán."],
+      ["mcq","¿Cómo se dice “herd immunity” en alemán?",["der Virusstamm","der Ausbruch","die Herdenimmunität","die Impfstoffwirksamkeit"],2,"“Herd immunity” es “die Herdenimmunität” en alemán."],
       ["fill","Completa: “Selbst wenn die Wirksamkeit sinken ___, könnte die Herdenimmunität helfen.”",["würde", "würden", "wird", "wurde"],0,"“Selbst wenn” con hipótesis usa Konjunktiv II: “selbst wenn... würde”."],
       ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sinken.", "Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sänken.", "Das Virus würde sich ausbreiten, obwohl die Übertragungsraten leicht sänken.", "Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht stiegen."],1,"“Even if” con condición hipotética se traduce con “selbst wenn” + Konjunktiv II."],
       ["arrange","Ordena: [besorgniserregend / diese / ist / Mutation / sehr]",["ist sehr diese besorgniserregend Mutation","besorgniserregend diese ist Mutation sehr","besorgniserregend diese ist sehr Mutation","Diese Mutation ist sehr besorgniserregend"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4085,8 +4085,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “quantitative easing” en alemán?",["die quantitative Lockerung", "inflation target", "interest rate", "monetary policy"],0,"“Quantitative easing” es “die quantitative Lockerung” en alemán."],
-      ["mcq","¿Cómo se dice “fiscal stimulus” en alemán?",["das Konjunkturprogramm", "fiscal stimulus", "quantitative easing", "interest rate"],0,"“Fiscal stimulus” es “das Konjunkturprogramm” en alemán."],
+      ["mcq","¿Cómo se dice “quantitative easing” en alemán?",["die quantitative Lockerung","das Inflationsziel","der Zinssatz","die Geldpolitik"],0,"“Quantitative easing” es “die quantitative Lockerung” en alemán."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en alemán?",["das Konjunkturprogramm","der Zinssatz","die quantitative Lockerung","das Inflationsziel"],0,"“Fiscal stimulus” es “das Konjunkturprogramm” en alemán."],
       ["fill","Completa: “___ die Inflation stabil bleibt, sind Zinssenkungen möglich.”",["So als", "Soweit dass", "Insofern als", "Insofern dass"],2,"“Insofern als” expresa una limitación condicional: “insofern als... bleibt”."],
       ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["Die Politik funktioniert insofern dass Banken großzügiger Kredite vergeben.", "Die Politik funktionierte insoweit, als Banken großzügiger Kredite vergeben.", "Die Politik funktioniert insoweit, als Banken weniger großzügig Kredite vergeben.", "Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],3,"“To the extent that” se traduce con “insoweit, als” en alemán."],
       ["arrange","Ordena: [sehr / Zinssatz / hoch / der / ist]",["Zinssatz ist hoch der sehr","Der Zinssatz ist sehr hoch","sehr ist hoch der Zinssatz","der ist sehr hoch Zinssatz"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],

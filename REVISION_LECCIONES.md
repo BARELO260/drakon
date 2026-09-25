@@ -1,4 +1,4 @@
-# Revisión de lecciones de Drakón — 23 sept. 2026
+# Revisión de lecciones de Drakón — 23-24 sept. 2026
 
 ## Alcance y método
 
@@ -62,6 +62,32 @@ ES/FR/DE/IT/PT 213 cada una = 1.276) y las mini-lecciones de **Situaciones**
   Sale con código 1 si hay errores (sirve en CI).
 - `tools/lessons-data-README.md`: cifras reales (decía 72 lecciones por idioma; hay 213-223),
   regla de `translate`/audio y `minWords`.
+
+## Segunda ronda (esta sesión)
+
+Añadí comprobaciones de coherencia interna (no solo de estructura) y volví a leer
+muestras a mano. Encontré y corregí:
+
+- **660 ejercicios `mcq` de "¿Cómo se dice X?"** (66 lecciones de vocabulario, DE/ES/FR/IT/PT)
+  donde **1 o más distractores eran entradas de la propia tabla `study.vocab` pero en
+  el idioma equivocado** — por ejemplo, para "¿Cómo se dice 'cold' en alemán?" los
+  distractores eran "sunny", "hot", "rainy" (inglés) en vez de "sonnig", "heiß",
+  "regnerisch" (alemán, las otras entradas del tema). El alumno podía acertar
+  reconociendo qué palabra "no estaba en inglés" sin saber alemán. Sustituí los
+  distractores por otras entradas del vocabulario de la misma lección, en el idioma correcto.
+- **12 ejercicios con un distractor que en realidad es una respuesta igual de válida**
+  (ej. "Tienes que sacar la basura…" como opción incorrecta de un `translate` cuya
+  correcta es "Hay que sacar…", cuando ambas traducen bien la misma idea). Los localicé
+  buscando explicaciones que decían "también es correcto/válido" y comprobando si esa
+  alternativa aparecía entre las opciones.
+- **Tareas de escritura/habla con criterios ocultos.** El feedback exigía usar la mitad
+  de unas "palabras clave" que el alumno nunca veía hasta fallar. Ahora el motor las
+  muestra en la consigna, antes de escribir (`docs/js/lessons.js`).
+
+Repasé además, sin encontrar problemas reales, ~140 casos más marcados por mis propios
+scripts de auditoría: "todo" detectado como el marcador `TODO`, letras "A)/B)" que se
+refieren a frases citadas en el enunciado (no a las opciones), y explicaciones que dicen
+"ambas cláusulas" hablando de gramática, no de que haya dos respuestas correctas.
 
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 

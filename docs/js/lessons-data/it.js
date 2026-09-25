@@ -2038,7 +2038,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Come si dice “lavare i piatti” in inglese?",["to vacuum", "to iron the clothes", "to sweep", "to wash the dishes"],3,"“Lavare i piatti” si dice “to wash the dishes” in inglese."],
       ["mcq","Come si dice “passare l'aspirapolvere” in inglese?",["to wash the dishes", "to take out the trash", "to vacuum", "to sweep"],2,"“Passare l'aspirapolvere” si dice “to vacuum” in inglese."],
       ["fill","Completa: “Prima di uscire di casa, ___ fare il letto.”",["bisogna", "sta", "deve", "è"],0,"„Bisogna” + infinito esprime un obbligo generale senza soggetto specifico."],
-      ["translate","Traduci: “You have to take out the trash every day.”",["Bisogna portare fuori la spazzatura una volta a settimana.", "Devi portare fuori la spazzatura ogni giorno.", "Bisogna spazzare la spazzatura ogni giorno.", "Bisogna portare fuori la spazzatura ogni giorno."],3,"“You have to” qui è impersonale nel senso generale, quindi si traduce meglio con „bisogna”."],
+      ["translate","Traduci: “You have to take out the trash every day.”",["Bisogna portare fuori la spazzatura una volta a settimana.","Bisogna portando fuori la spazzatura ogni giorno.","Bisogna spazzare la spazzatura ogni giorno.","Bisogna portare fuori la spazzatura ogni giorno."],3,"“You have to” qui è impersonale nel senso generale, quindi si traduce meglio con „bisogna”."],
       ["arrange","Ordina: [piatti / lavare / bisogna / i]",["piatti Bisogna lavare i", "Bisogna lavare i piatti", "lavare Bisogna i piatti", "piatti i lavare Bisogna"],1,"„Bisogna” + infinito + complemento."],
       ["speaking","Descrivi in 40-60 parole quali faccende domestiche bisogna fare a casa tua ogni settimana, usando „bisogna”.",[],["bisogna", "ogni settimana", "a casa"]],
     ]
@@ -2460,8 +2460,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cold” en italiano?",["freddo", "hot", "sunny", "cold"],0,"“Cold” es “freddo” en italiano."],
-      ["mcq","¿Cómo se dice “rainy” en italiano?",["piovoso", "hot", "cold", "winter"],0,"“Rainy” es “piovoso” en italiano."],
+      ["mcq","¿Cómo se dice “cold” en italiano?",["freddo","caldo","soleggiato","piovoso"],0,"“Cold” es “freddo” en italiano."],
+      ["mcq","¿Cómo se dice “rainy” en italiano?",["piovoso","caldo","freddo","l'inverno"],0,"“Rainy” es “piovoso” en italiano."],
       ["fill","Completa: “Oggi il tempo è molto ___, porta l'ombrello.”",["piovoso", "freddo", "soleggiato", "caldo"],0,"“Piovoso” describe un clima con lluvia: “è piovoso”."],
       ["translate","Traduce: “It's very cold in winter.”",["È molto freddo in inverno.", "Fa molto freddo in inverno.", "Fa molto caldo in inverno.", "Fa molto freddo in estate."],1,"“It's very cold” se traduce como “fa molto freddo”, con el verbo impersonal “fare”."],
       ["arrange","Ordena: [sole / oggi / c'è / il]",["c'è il oggi sole", "sole c'è il oggi", "oggi sole c'è il", "oggi c'è il sole"],3,"Adverbio de tiempo + verbo impersonal + artículo + sustantivo."],
@@ -2485,8 +2485,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the veterinarian” en italiano?",["il veterinario", "to feed the pet", "to adopt a pet", "to vaccinate"],0,"“The veterinarian” es “il veterinario” en italiano."],
-      ["mcq","¿Cómo se dice “to vaccinate” en italiano?",["to vaccinate", "to walk the dog", "the litter box", "vaccinare"],3,"“To vaccinate” es “vaccinare” en italiano."],
+      ["mcq","¿Cómo se dice “the veterinarian” en italiano?",["il veterinario","dar da mangiare all'animale","adottare un animale","vaccinare"],0,"“The veterinarian” es “il veterinario” en italiano."],
+      ["mcq","¿Cómo se dice “to vaccinate” en italiano?",["dar da mangiare all'animale","portare a spasso il cane","la lettiera","vaccinare"],3,"“To vaccinate” es “vaccinare” en italiano."],
       ["fill","Completa: “___ portare a spasso il cane ogni mattina.”",["Devi", "Dobbiamo", "Devo", "Deve"],2,"“Dovere” con “io” se conjuga como “devo”."],
       ["translate","Traduce: “I have to feed the pet twice a day.”",["Ho dovuto dar da mangiare all'animale due volte al giorno.", "Devo dar da mangiare all'animale una volta al giorno.", "Devo dar da mangiare all'animale due volte al giorno.", "Devo portare a spasso l'animale due volte al giorno."],2,"“I have to feed” se traduce con “devo dar da mangiare”, obligación en presente."],
       ["arrange","Ordena: [deve / cane / lei / spasso / il / a / portare]",["lei cane il spasso deve portare a", "lei deve portare a spasso il cane", "a lei portare cane spasso deve il", "a deve portare cane spasso lei il"],1,"Sujeto + “deve” + verbo + preposición + artículo + sustantivo."],
@@ -2510,8 +2510,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “investor” en italiano?",["startup", "business plan", "to launch a product", "l'investitore"],3,"“Investor” es “l'investitore” en italiano."],
-      ["mcq","¿Cómo se dice “to take a risk” en italiano?",["startup", "correre un rischio", "business plan", "to take a risk"],1,"“To take a risk” es “correre un rischio” en italiano."],
+      ["mcq","¿Cómo se dice “investor” en italiano?",["la start-up","il piano aziendale","lanciare un prodotto","l'investitore"],3,"“Investor” es “l'investitore” en italiano."],
+      ["mcq","¿Cómo se dice “to take a risk” en italiano?",["la start-up","correre un rischio","il piano aziendale","lanciare un prodotto"],1,"“To take a risk” es “correre un rischio” en italiano."],
       ["fill","Completa: “___ il prodotto il mese prossimo.”",["Lancerò", "Lancerete", "Lanceremo", "Lanciamo"],2,"El futuro con “noi” se conjuga como “lanceremo”."],
       ["translate","Traduce: “We are going to launch the product next month.”",["Lanceremo il prodotto il mese prossimo.", "Lanciamo il prodotto il mese prossimo.", "Lanceremo il prodotto questo mese.", "Lanceremo l'azienda il mese prossimo."],0,"“We are going to launch” se traduce con el futuro semplice: “lanceremo”."],
       ["arrange","Ordena: [cercherà / investitori / lei]",["cercherà lei investitori", "investitori cercherà lei", "lei cercherà investitori", "investitori lei cercherà"],2,"Sujeto + futuro + sustantivo."],
@@ -2535,8 +2535,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “space station” en italiano?",["space mission", "astronaut", "rocket launch", "la stazione spaziale"],3,"“Space station” es “la stazione spaziale” en italiano."],
-      ["mcq","¿Cómo se dice “to orbit” en italiano?",["orbitare", "outer space", "to orbit", "rocket launch"],0,"“To orbit” es “orbitare” en italiano."],
+      ["mcq","¿Cómo se dice “space station” en italiano?",["la missione spaziale","l'astronauta","il lancio del razzo","la stazione spaziale"],3,"“Space station” es “la stazione spaziale” en italiano."],
+      ["mcq","¿Cómo se dice “to orbit” en italiano?",["orbitare","lo spazio esterno","la missione spaziale","il lancio del razzo"],0,"“To orbit” es “orbitare” en italiano."],
       ["fill","Completa: “Entro il 2030, gli astronauti ___ atterrati su Marte.”",["saranno", "sono", "erano", "sarebbero"],0,"El futuro anteriore usa “saranno” + participio: “saranno atterrati”."],
       ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Entro il 2030, gli astronauti sarebbero atterrati su Marte.", "Entro il 2030, gli astronauti atterreranno su Marte.", "Entro il 2030, gli astronauti saranno atterrati su Marte.", "Entro il 2030, gli astronauti sono atterrati su Marte."],2,"“Will have landed” se traduce con futuro anteriore: “saranno atterrati”."],
       ["arrange","Ordena: [presto / razzo / il / raggiungerà / l'orbita]",["l'orbita presto il razzo raggiungerà","il l'orbita presto razzo raggiungerà","il razzo raggiungerà l'orbita presto","l'orbita raggiungerà il presto razzo"],2,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
@@ -2560,8 +2560,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “accountability” en italiano?",["la responsabilità", "data privacy", "unintended consequences", "to regulate"],0,"“Accountability” es “la responsabilità” en italiano."],
-      ["mcq","¿Cómo se dice “algorithmic bias” en italiano?",["algorithmic bias", "il pregiudizio algoritmico", "artificial intelligence", "unintended consequences"],1,"“Algorithmic bias” es “il pregiudizio algoritmico” en italiano."],
+      ["mcq","¿Cómo se dice “accountability” en italiano?",["la responsabilità","la privacy dei dati","le conseguenze indesiderate","regolamentare"],0,"“Accountability” es “la responsabilità” en italiano."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en italiano?",["l'intelligenza artificiale","il pregiudizio algoritmico","la responsabilità","le conseguenze indesiderate"],1,"“Algorithmic bias” es “il pregiudizio algoritmico” en italiano."],
       ["fill","Completa: “Questi sistemi dovrebbero essere ___ per evitare pregiudizi.”",["regolamentando", "regolamentare", "regolamenta", "regolamentati"],3,"La forma passiva con modal usa “essere” + participio: “dovrebbero essere regolamentati”."],
       ["translate","Traduce con forma passiva: “These systems should be regulated to prevent bias.”",["Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi.", "Questi sistemi devono essere regolamentati per evitare pregiudizi.", "Questi sistemi dovrebbero essere regolamentati per evitare un pregiudizio.", "Questi sistemi dovrebbero regolamentare per evitare pregiudizi."],0,"“Should be regulated” se traduce con forma passiva: “dovrebbero essere regolamentati”."],
       ["arrange","Ordena: [regolamentati / algoritmi / essere / dovrebbero / gli]",["regolamentati essere gli algoritmi dovrebbero", "essere dovrebbero gli algoritmi regolamentati", "dovrebbero algoritmi gli essere regolamentati", "gli algoritmi dovrebbero essere regolamentati"],3,"Artículo + sustantivo + condizionale + “essere” + participio."],
@@ -2585,8 +2585,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “thought experiment” en italiano?",["self-awareness", "consciousness", "subjective experience", "l'esperimento mentale"],3,"“Thought experiment” es “l'esperimento mentale” en italiano."],
-      ["mcq","¿Cómo se dice “free will” en italiano?",["self-awareness", "subjective experience", "il libero arbitrio", "consciousness"],2,"“Free will” es “il libero arbitrio” en italiano."],
+      ["mcq","¿Cómo se dice “thought experiment” en italiano?",["l'autoconsapevolezza","la coscienza","l'esperienza soggettiva","l'esperimento mentale"],3,"“Thought experiment” es “l'esperimento mentale” en italiano."],
+      ["mcq","¿Cómo se dice “free will” en italiano?",["l'autoconsapevolezza","l'esperienza soggettiva","il libero arbitrio","la coscienza"],2,"“Free will” es “il libero arbitrio” en italiano."],
       ["fill","Completa: “Ciò che davvero definisce la coscienza non ___ solo il comportamento.”",["era", "sono", "è", "sia"],2,"En frasi scisse con sujeto singular se usa “è”: “ciò che definisce... non è”."],
       ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che davvero definisce la coscienza è solo il comportamento, non l'esperienza soggettiva.", "Ciò che davvero definì la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che definisce davvero la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],0,"La frase scissa mantiene “ciò che + verbo + non è solo... ma...”, con “davvero” justo antes del verbo."],
       ["arrange","Ordena: [arbitrio / dibattono / ancora / filosofi / il / libero / i]",["i arbitrio libero il ancora dibattono filosofi", "arbitrio libero i dibattono filosofi il ancora", "dibattono arbitrio i filosofi ancora il libero", "i filosofi dibattono ancora il libero arbitrio"],3,"Artículo + sustantivo + verbo + adverbio + artículo + adjetivo + sustantivo."],
@@ -2610,8 +2610,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the seed” en italiano?",["the seed", "the soil", "the flower", "il seme"],3,"“The seed” es “il seme” en italiano."],
-      ["mcq","¿Cómo se dice “to grow” en italiano?",["the soil", "crescere", "sunlight", "to grow"],1,"“To grow” es “crescere” en italiano."],
+      ["mcq","¿Cómo se dice “the seed” en italiano?",["annaffiare le piante","la terra","il fiore","il seme"],3,"“The seed” es “il seme” en italiano."],
+      ["mcq","¿Cómo se dice “to grow” en italiano?",["la terra","crescere","la luce del sole","annaffiare le piante"],1,"“To grow” es “crescere” en italiano."],
       ["fill","Completa: “___ le piante ogni giorno, altrimenti moriranno.”",["Annaffi", "Annaffiando", "Annaffia", "Annaffiare"],2,"El imperativo (tu) de “annaffiare” es “annaffia”."],
       ["translate","Traduce: “Water the plants every day.”",["Annaffia le piante ogni settimana.", "Annaffiare le piante ogni giorno.", "Tu annaffi le piante ogni giorno.", "Annaffia le piante ogni giorno."],3,"El imperativo comienza directamente con el verbo conjugado: “Annaffia le piante...”."],
       ["arrange","Ordena: [dimenticare / cancello / il / non / chiudere / di]",["non dimenticare cancello di chiudere il", "cancello di dimenticare il chiudere non", "dimenticare cancello non chiudere di il", "non dimenticare di chiudere il cancello"],3,"“Non” + infinitivo + “di” + infinitivo + artículo + sustantivo."],
@@ -2635,8 +2635,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the library card” en italiano?",["the bookshelf", "la tessera della biblioteca", "to borrow a book", "to return a book"],1,"“The library card” es “la tessera della biblioteca” en italiano."],
-      ["mcq","¿Cómo se dice “the due date” en italiano?",["the library card", "to borrow a book", "the bookshelf", "la data di scadenza"],3,"“The due date” es “la data di scadenza” en italiano."],
+      ["mcq","¿Cómo se dice “the library card” en italiano?",["lo scaffale","la tessera della biblioteca","prendere in prestito un libro","restituire un libro"],1,"“The library card” es “la tessera della biblioteca” en italiano."],
+      ["mcq","¿Cómo se dice “the due date” en italiano?",["la tessera della biblioteca","prendere in prestito un libro","lo scaffale","la data di scadenza"],3,"“The due date” es “la data di scadenza” en italiano."],
       ["fill","Completa: “___ preso in prestito un romanzo la settimana scorsa.”",["Avevo", "Ho", "Avendo", "Hai"],1,"El passato prossimo con “io” usa “ho” + participio: “ho preso”."],
       ["translate","Traduce: “She returned the book on time.”",["Lei ha restituito il libro in ritardo.", "Lei restituisce il libro in tempo.", "Lei ha restituito il libro in tempo.", "Lei ha restituito il romanzo in tempo."],2,"“Returned” se traduce con passato prossimo: “ha restituito”."],
       ["arrange","Ordena: [scaffale / è / libro / sullo / il]",["scaffale il sullo è libro", "sullo scaffale il libro è", "il libro è sullo scaffale", "libro sullo il scaffale è"],2,"Artículo + sustantivo + verbo + preposición articulada + sustantivo."],
@@ -2660,8 +2660,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the crib” en italiano?",["to babysit", "bedtime routine", "the pediatrician", "la culla"],3,"“The crib” es “la culla” en italiano."],
-      ["mcq","¿Cómo se dice “the pediatrician” en italiano?",["the pediatrician", "to burp the baby", "bedtime routine", "il pediatra"],3,"“The pediatrician” es “il pediatra” en italiano."],
+      ["mcq","¿Cómo se dice “the crib” en italiano?",["fare da baby-sitter","la routine della nanna","il pediatra","la culla"],3,"“The crib” es “la culla” en italiano."],
+      ["mcq","¿Cómo se dice “the pediatrician” en italiano?",["allattare","far ruttare il bambino","la routine della nanna","il pediatra"],3,"“The pediatrician” es “il pediatra” en italiano."],
       ["fill","Completa: “Il bambino ___ ogni due ore.”",["si svegliava", "si sveglia", "si è svegliato", "svegliandosi"],0,"El imperfetto describe un hábito repetido en el pasado: “si svegliava”."],
       ["translate","Traduce: “We used to visit the pediatrician every month.”",["Andavamo dal pediatra ogni mese.", "Andavamo dal pediatra ogni settimana.", "Andiamo dal pediatra ogni mese.", "Andavamo dal dentista ogni mese."],0,"“Used to visit” se traduce con imperfetto: “andavamo”."],
       ["arrange","Ordena: [culla / dormiva / nella / lei]",["lei dormiva nella culla", "culla nella lei dormiva", "nella dormiva culla lei", "nella dormiva lei culla"],0,"Sujeto + verbo + preposición articulada + sustantivo."],
@@ -2685,8 +2685,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancient civilization” en italiano?",["ruins", "l'antica civiltà", "to excavate", "to date (a find)"],1,"“Ancient civilization” es “l'antica civiltà” en italiano."],
-      ["mcq","¿Cómo se dice “to excavate” en italiano?",["ancient civilization", "to excavate", "artifact", "scavare"],3,"“To excavate” es “scavare” en italiano."],
+      ["mcq","¿Cómo se dice “ancient civilization” en italiano?",["le rovine","l'antica civiltà","scavare","datare (un reperto)"],1,"“Ancient civilization” es “l'antica civiltà” en italiano."],
+      ["mcq","¿Cómo se dice “to excavate” en italiano?",["l'antica civiltà","il sito archeologico","il manufatto","scavare"],3,"“To excavate” es “scavare” en italiano."],
       ["fill","Completa: “Questo manufatto ___ appartenuto a un re.”",["sarà", "sarebbe", "era", "è"],0,"El futuro anteriore de probabilidad usa “sarà” + participio: “sarà appartenuto”."],
       ["translate","Traduce: “The site might have been a temple.”",["Il sito potrebbe essere un tempio.", "Il sito sarà stato un tempio.", "Il sito potrebbe essere stato un tempio.", "Il sito potrebbe essere stato un palazzo."],2,"“Might have been” se traduce con condicional de probabilidad: “potrebbe essere stato”."],
       ["arrange","Ordena: [costruito / antica / questo / civiltà / avrà / una]",["questo civiltà avrà antica costruito una", "antica questo una civiltà costruito avrà", "una civiltà antica avrà costruito questo", "avrà antica questo costruito una civiltà"],2,"Artículo + sustantivo + adjetivo + futuro anteriore + pronombre."],
@@ -2710,8 +2710,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “neuroplasticity” en italiano?",["synapse", "brain scan", "neuroplasticity", "la neuroplasticità"],3,"“Neuroplasticity” es “la neuroplasticità” en italiano."],
-      ["mcq","¿Cómo se dice “synapse” en italiano?",["brain scan", "neuroplasticity", "neural pathway", "la sinapsi"],3,"“Synapse” es “la sinapsi” en italiano."],
+      ["mcq","¿Cómo se dice “neuroplasticity” en italiano?",["la sinapsi","la risonanza cerebrale","la via neurale","la neuroplasticità"],3,"“Neuroplasticity” es “la neuroplasticità” en italiano."],
+      ["mcq","¿Cómo se dice “synapse” en italiano?",["la risonanza cerebrale","la neuroplasticità","la via neurale","la sinapsi"],3,"“Synapse” es “la sinapsi” en italiano."],
       ["fill","Completa: “Raramente i ricercatori ___ trovato prove così chiare.”",["avranno", "hanno", "ha", "avevano"],1,"El passato prossimo con “i ricercatori” usa “hanno” + participio: “hanno trovato”."],
       ["translate","Traduce con estructura enfática: “Rarely have researchers found such clear evidence.”",["Raramente i ricercatori trovano prove così chiare.", "Raramente i ricercatori hanno trovato prove così chiare.", "I ricercatori hanno raramente trovato prove così chiare.", "Raramente i ricercatori hanno trovato prove poco chiare."],1,"La estructura enfática coloca el adverbio primero, seguido del sujeto y el verbo: “raramente i ricercatori hanno trovato”."],
       ["arrange","Ordena: [adatta / cervello / si / bene / il]",["il cervello si adatta bene", "adatta il bene cervello si", "bene il adatta si cervello", "il bene adatta cervello si"],0,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio."],
@@ -2735,8 +2735,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “loss aversion” en italiano?",["cognitive bias", "anchoring effect", "loss aversion", "l'avversione alla perdita"],3,"“Loss aversion” es “l'avversione alla perdita” en italiano."],
-      ["mcq","¿Cómo se dice “anchoring effect” en italiano?",["anchoring effect", "nudge", "loss aversion", "l'effetto ancoraggio"],3,"“Anchoring effect” es “l'effetto ancoraggio” en italiano."],
+      ["mcq","¿Cómo se dice “loss aversion” en italiano?",["il bias cognitivo","l'effetto ancoraggio","il processo decisionale","l'avversione alla perdita"],3,"“Loss aversion” es “l'avversione alla perdita” en italiano."],
+      ["mcq","¿Cómo se dice “anchoring effect” en italiano?",["il bias cognitivo","la spinta gentile","l'avversione alla perdita","l'effetto ancoraggio"],3,"“Anchoring effect” es “l'effetto ancoraggio” en italiano."],
       ["fill","Completa: “La persistenza del bias cognitivo influisce sul ___.”",["decidendo", "processo decisionale", "decidere", "decisione"],1,"La forma nominalizada de “decidere” en este registro académico es “il processo decisionale”."],
       ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["L'avversione alla perdita influisce sul processo decisionale.", "L'avversione alla perdita influisce sul decidere.", "L'avversione alla perdita influiscono sul processo decisionale.", "La perdita di avversione influisce sul processo decisionale."],0,"“Decision-making” se traduce con la forma nominalizada “il processo decisionale”, no con el verbo “decidere”."],
       ["arrange","Ordena: [cognitivo / studiano / ricercatori / bias / i / il]",["ricercatori cognitivo il bias studiano i", "i ricercatori studiano il bias cognitivo", "ricercatori studiano il bias i cognitivo", "il studiano cognitivo i bias ricercatori"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
@@ -2760,8 +2760,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “lens” en italiano?",["camera", "l'obiettivo", "photo/picture", "to take a picture"],1,"“Lens” es “l'obiettivo” en italiano."],
-      ["mcq","¿Cómo se dice “memory card” en italiano?",["to take a picture", "la scheda di memoria", "camera", "lens"],1,"“Memory card” es “la scheda di memoria” en italiano."],
+      ["mcq","¿Cómo se dice “lens” en italiano?",["la macchina fotografica","l'obiettivo","la foto","scattare una foto"],1,"“Lens” es “l'obiettivo” en italiano."],
+      ["mcq","¿Cómo se dice “memory card” en italiano?",["scattare una foto","la scheda di memoria","la macchina fotografica","l'obiettivo"],1,"“Memory card” es “la scheda di memoria” en italiano."],
       ["fill","Completa: “Questa macchina non ___ zumare molto lontano.”",["può", "possono", "puoi", "posso"],0,"“Potere” conjugado en tercera persona singular es “può”."],
       ["translate","Traduce: “I can take good photos with this camera.”",["Non posso scattare belle foto con questa macchina.", "Posso scattare belle foto con quella macchina.", "Posso scatto belle foto con questa macchina.", "Posso scattare belle foto con questa macchina."],3,"“I can take” se traduce con “posso scattare”, “potere” + infinitivo."],
       ["arrange","Ordena: [lontano / zumare / non / molto / può / questa / macchina]",["può zumare questa lontano molto macchina non", "zumare questa non macchina può molto lontano", "questa macchina non può zumare molto lontano", "questa lontano non può molto macchina zumare"],2,"Pronombre + sustantivo + negación + verbo + verbo + adverbio + adverbio."],
@@ -2785,8 +2785,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sleeping bag” en italiano?",["il sacco a pelo", "hiking trail", "to pitch a tent", "campfire"],0,"“Sleeping bag” es “il sacco a pelo” en italiano."],
-      ["mcq","¿Cómo se dice “hiking trail” en italiano?",["il sentiero", "campfire", "tent", "sleeping bag"],0,"“Hiking trail” es “il sentiero” en italiano."],
+      ["mcq","¿Cómo se dice “sleeping bag” en italiano?",["il sacco a pelo","il sentiero","montare una tenda","il falò"],0,"“Sleeping bag” es “il sacco a pelo” en italiano."],
+      ["mcq","¿Cómo se dice “hiking trail” en italiano?",["il sentiero","il falò","la tenda","il sacco a pelo"],0,"“Hiking trail” es “il sentiero” en italiano."],
       ["fill","Completa: “Non ci resta ___ acqua.”",["niente", "un po' di", "poco", "molto"],0,"En oraciones negativas se usa “niente”: “non ci resta niente acqua”."],
       ["translate","Traduce: “We have some firewood for the campfire.”",["Abbiamo un po' di legna per la tenda.", "Ho un po' di legna per il falò.", "Abbiamo un po' di legna per il falò.", "Abbiamo niente legna per il falò."],2,"“Some firewood” en afirmativa se traduce con “un po' di legna”."],
       ["arrange","Ordena: [lungo / sentiero / è / questo]",["lungo è sentiero questo", "è questo lungo sentiero", "questo sentiero è lungo", "lungo è questo sentiero"],2,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -2810,8 +2810,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “beehive” en italiano?",["l'alveare", "to sting", "honey", "queen bee"],0,"“Beehive” es “l'alveare” en italiano."],
-      ["mcq","¿Cómo se dice “to pollinate” en italiano?",["impollinare", "beekeeper", "queen bee", "honey"],0,"“To pollinate” es “impollinare” en italiano."],
+      ["mcq","¿Cómo se dice “beehive” en italiano?",["l'alveare","pungere","il miele","l'ape regina"],0,"“Beehive” es “l'alveare” en italiano."],
+      ["mcq","¿Cómo se dice “to pollinate” en italiano?",["impollinare","l'apicoltore","l'ape regina","il miele"],0,"“To pollinate” es “impollinare” en italiano."],
       ["fill","Completa: “L'apicoltore ___ gestisce questo alveare è molto esperto.”",["il quale", "dove", "cui", "che"],3,"“Che” se usa como relativo general: “l'apicoltore che gestisce”."],
       ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Le api, il quale impollinano i fiori, sono essenziali per l'agricoltura.", "Le api, che impollina i fiori, sono essenziali per l'agricoltura.", "Le api, che impollinano i fiori, è essenziale per l'agricoltura.", "Le api, che impollinano i fiori, sono essenziali per l'agricoltura."],3,"“Which” se traduce con “che” en esta cláusula explicativa: “le api, che impollinano...”."],
       ["arrange","Ordena: [api / che / vivono / le / nell'alveare]",["le api che vivono nell'alveare","vivono nell'alveare che api le","nell'alveare api vivono le che","vivono le api che nell'alveare"],0,"Artículo + sustantivo + “che” + verbo + preposición articulada + sustantivo."],
@@ -2835,8 +2835,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “blockchain” en italiano?",["digital wallet", "decentralized", "la blockchain", "cryptocurrency"],2,"“Blockchain” es “la blockchain” en italiano."],
-      ["mcq","¿Cómo se dice “volatility” en italiano?",["la volatilità", "cryptocurrency", "decentralized", "blockchain"],0,"“Volatility” es “la volatilità” en italiano."],
+      ["mcq","¿Cómo se dice “blockchain” en italiano?",["il portafoglio digitale","decentralizzato","la blockchain","la criptovaluta"],2,"“Blockchain” es “la blockchain” en italiano."],
+      ["mcq","¿Cómo se dice “volatility” en italiano?",["la volatilità","la criptovaluta","decentralizzato","la blockchain"],0,"“Volatility” es “la volatilità” en italiano."],
       ["fill","Completa: “Se ___ investito prima, avrei guadagnato più soldi.”",["avevo", "ho", "avrei", "avessi"],3,"Tras “se” hipotético sobre el pasado se usa congiuntivo trapassato: “se avessi investito”."],
       ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Se il mercato non fosse crollato, i prezzi sarebbero rimasto alti.", "Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti.", "Se il mercato non fosse crollato, i prezzi rimarrebbero alti.", "Se il mercato non è crollato, i prezzi sarebbero rimasti alti."],1,"“Hadn't crashed... would have stayed” se traduce con congiuntivo trapassato + condizionale passato."],
       ["arrange","Ordena: [rischiosa / è / criptovaluta / molto / la]",["rischiosa molto è la criptovaluta", "la criptovaluta è molto rischiosa", "criptovaluta molto la è rischiosa", "molto la criptovaluta è rischiosa"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -2860,10 +2860,10 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “informed consent” en italiano?",["gene editing", "clinical trial", "il consenso informato", "informed consent"],2,"“Informed consent” es “il consenso informato” en italiano."],
-      ["mcq","¿Cómo se dice “clinical trial” en italiano?",["genetic modification", "la sperimentazione clinica", "gene editing", "ethical dilemma"],1,"“Clinical trial” es “la sperimentazione clinica” en italiano."],
+      ["mcq","¿Cómo se dice “informed consent” en italiano?",["l'editing genetico","la sperimentazione clinica","il consenso informato","la modificazione genetica"],2,"“Informed consent” es “il consenso informato” en italiano."],
+      ["mcq","¿Cómo se dice “clinical trial” en italiano?",["la modificazione genetica","la sperimentazione clinica","l'editing genetico","il dilemma etico"],1,"“Clinical trial” es “la sperimentazione clinica” en italiano."],
       ["fill","Completa: “L'editing genetico è ___ potente che solleva serie questioni etiche.”",["troppo", "molto", "talmente", "così"],3,"“Così” + adjetivo + “che” expresa consecuencia enfática: “così potente che”."],
-      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["È un dilemma talmente complesso che gli esperti non sono ancora d'accordo.", "È un dilemma talmente complesso che gli esperti sono ancora d'accordo.", "È un dilemma così complesso che gli esperti non sono ancora d'accordo.", "È talmente un dilemma complesso che gli esperti non sono ancora d'accordo."],0,"“Così” también funciona: “così complesso che” es equivalente a “talmente complesso che”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["È un dilemma talmente complesso che gli esperti non sono ancora d'accordo.","È un dilemma talmente complesso che gli esperti sono ancora d'accordo.","È un dilemma talmente complesso perché gli esperti non sono ancora d'accordo.","È talmente un dilemma complesso che gli esperti non sono ancora d'accordo."],0,"“Talmente” + aggettivo + “che” esprime una conseguenza enfatica: “talmente complesso che”."],
       ["arrange","Ordena: [etico / reale / un / questo / è / dilemma]",["questo dilemma un reale è etico", "reale etico dilemma è un questo", "dilemma questo etico un è reale", "questo è un dilemma etico reale"],3,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
       ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre la edición genética usando “così...che” o “talmente...che” al menos dos veces.",[],["così...che", "talmente...che", "editing genetico"]],
     ]
@@ -2885,8 +2885,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sovereignty” en italiano?",["sovereignty", "sanctions", "la sovranità", "bilateral agreement"],2,"“Sovereignty” es “la sovranità” en italiano."],
-      ["mcq","¿Cómo se dice “geopolitical tension” en italiano?",["diplomatic relations", "bilateral agreement", "la tensione geopolitica", "sovereignty"],2,"“Geopolitical tension” es “la tensione geopolitica” en italiano."],
+      ["mcq","¿Cómo se dice “sovereignty” en italiano?",["le relazioni diplomatiche","le sanzioni","la sovranità","l'accordo bilaterale"],2,"“Sovereignty” es “la sovranità” en italiano."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en italiano?",["le relazioni diplomatiche","l'accordo bilaterale","la tensione geopolitica","la sovranità"],2,"“Geopolitical tension” es “la tensione geopolitica” en italiano."],
       ["fill","Completa: “___ i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate.”",["Analizzare", "Analizzando", "Analizzato", "Analizzano"],1,"El gerundio en posición inicial resume una cláusula subordinada: “analizzando i dati”."],
       ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Di fronte alle crescenti sanzioni, il governo cambia la sua politica.", "Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Davanti alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Di fronte le crescenti sanzioni, il governo ha cambiato la sua politica."],1,"“Faced with mounting sanctions” se traduce de forma concisa con “di fronte alle crescenti sanzioni”."],
       ["arrange","Ordena: [negozieranno / nazioni / trattato / le / il]",["le nazioni trattato il negozieranno", "le il negozieranno nazioni trattato", "le nazioni negozieranno il trattato", "negozieranno trattato il le nazioni"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -2910,8 +2910,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scissors” en italiano?",["haircut", "le forbici", "mirror", "to trim"],1,"“Scissors” es “le forbici” en italiano."],
-      ["mcq","¿Cómo se dice “to trim” en italiano?",["spuntare", "scissors", "short/long hair", "haircut"],0,"“To trim” es “spuntare” en italiano."],
+      ["mcq","¿Cómo se dice “scissors” en italiano?",["il taglio di capelli","le forbici","lo specchio","spuntare"],1,"“Scissors” es “le forbici” en italiano."],
+      ["mcq","¿Cómo se dice “to trim” en italiano?",["spuntare","le forbici","i capelli corti/lunghi","il taglio di capelli"],0,"“To trim” es “spuntare” en italiano."],
       ["fill","Completa: “Questo taglio è ___ corto dell'ultimo.”",["il più", "meno", "tanto", "più"],3,"El comparativo de superioridad se forma con “più... di”: “più corto di”."],
       ["translate","Traduce: “She has the longest hair in the family.”",["Lei ha i capelli più lunghi nella famiglia.", "Lei ha i capelli più lungo della famiglia.", "Lei ha i capelli più lunghi della famiglia.", "Lei hanno i capelli più lunghi della famiglia."],2,"“The longest... in” se traduce con “i più lunghi della” en italiano."],
       ["arrange","Ordena: [migliore / città / questo / è / parrucchiere / della / il]",["questo è il migliore parrucchiere della città","della è città parrucchiere questo migliore il","questo della è migliore città parrucchiere il","città migliore questo della è parrucchiere il"],0,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición articulada + sustantivo."],
@@ -2935,8 +2935,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “flat tire” en italiano?",["spare part", "to fix the car", "oil change", "la gomma a terra"],3,"“Flat tire” es “la gomma a terra” en italiano."],
-      ["mcq","¿Cómo se dice “spare part” en italiano?",["il pezzo di ricambio", "oil change", "spare part", "flat tire"],0,"“Spare part” es “il pezzo di ricambio” en italiano."],
+      ["mcq","¿Cómo se dice “flat tire” en italiano?",["il pezzo di ricambio","riparare la macchina","il cambio dell'olio","la gomma a terra"],3,"“Flat tire” es “la gomma a terra” en italiano."],
+      ["mcq","¿Cómo se dice “spare part” en italiano?",["il pezzo di ricambio","il cambio dell'olio","il meccanico","la gomma a terra"],0,"“Spare part” es “il pezzo di ricambio” en italiano."],
       ["fill","Completa: “Non resta ___ tempo prima del viaggio.”",["molti", "molte", "molto", "molta"],2,"“Tempo” es masculino singular, así que se usa “molto”: “molto tempo”."],
       ["translate","Traduce: “This repair needs a lot of spare parts.”",["Questa riparazione ha bisogno di molte pezzi di ricambio.", "Questa riparazione ha bisogno di molti pezzi di ricambio.", "Questa riparazione ha bisogno di molto pezzi di ricambio.", "Questa riparazione hanno bisogno di molti pezzi di ricambio."],1,"“Pezzi” es masculino plural, así que se usa “molti”: “molti pezzi”."],
       ["arrange","Ordena: [riparato / meccanico / motore / ha / il / il]",["motore il ha meccanico il riparato", "riparato motore il ha meccanico il", "il meccanico ha riparato il motore", "motore il meccanico riparato ha il"],2,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
@@ -2960,8 +2960,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sheet music” en italiano?",["lo spartito", "music teacher", "to practice scales", "to tune an instrument"],0,"“Sheet music” es “lo spartito” en italiano."],
-      ["mcq","¿Cómo se dice “to tune an instrument” en italiano?",["music teacher", "sheet music", "to practice scales", "accordare uno strumento"],3,"“To tune an instrument” es “accordare uno strumento” en italiano."],
+      ["mcq","¿Cómo se dice “sheet music” en italiano?",["lo spartito","l'insegnante di musica","fare le scale","accordare uno strumento"],0,"“Sheet music” es “lo spartito” en italiano."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en italiano?",["l'insegnante di musica","lo spartito","fare le scale","accordare uno strumento"],3,"“To tune an instrument” es “accordare uno strumento” en italiano."],
       ["fill","Completa: “Sto ___ le scale ogni mattina.”",["fatto", "faccio", "facendo", "fare"],2,"“Stare” + gerundio expresa una acción en curso: “sto facendo”."],
       ["translate","Traduce: “She wants to perform in front of an audience.”",["Lei vuole esibirsi davanti a una pubblico.", "Lei vuole esibirsi davanti a un pubblico.", "Lei vuole esibendosi davanti a un pubblico.", "Lei vogliono esibirsi davanti a un pubblico."],1,"“Want to perform” se traduce con infinitivo: “vuole esibirsi”."],
       ["arrange","Ordena: [accordatura / bisogno / strumento / questo / ha / di]",["di questo bisogno accordatura ha strumento", "questo strumento ha bisogno di accordatura", "di strumento accordatura ha questo bisogno", "accordatura bisogno di ha questo strumento"],1,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
@@ -2985,8 +2985,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “circular economy” en italiano?",["l'economia circolare", "landfill", "to reuse", "to recycle"],0,"“Circular economy” es “l'economia circolare” en italiano."],
-      ["mcq","¿Cómo se dice “landfill” en italiano?",["landfill", "raw material", "to reuse", "la discarica"],3,"“Landfill” es “la discarica” en italiano."],
+      ["mcq","¿Cómo se dice “circular economy” en italiano?",["l'economia circolare","la discarica","riutilizzare","riciclare"],0,"“Circular economy” es “l'economia circolare” en italiano."],
+      ["mcq","¿Cómo se dice “landfill” en italiano?",["riciclare","la materia prima","riutilizzare","la discarica"],3,"“Landfill” es “la discarica” en italiano."],
       ["fill","Completa: “Se ___ la carta, si risparmiano alberi.”",["riciclavi", "ricicli", "riciclando", "riciclerai"],1,"El condicional cero usa presente en ambas cláusulas: “se ricicli”."],
       ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["I materiali sono finiti in discarica se non vengono riutilizzati.", "I materiali finiscono in discarica se non vengono riutilizzati.", "Il materiale finiscono in discarica se non vengono riutilizzati.", "I materiali finiscono in discarica se non verranno riutilizzati."],1,"El condicional cero mantiene presente en ambas cláusulas: “finiscono... se non vengono riutilizzati”."],
       ["arrange","Ordena: [prima / risparmia / riciclare / materia]",["prima materia riciclare risparmia", "riciclare materia prima risparmia", "risparmia prima riciclare materia", "riciclare risparmia materia prima"],3,"Verbo + verbo + adjetivo + sustantivo."],
@@ -3010,8 +3010,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “inequality” en italiano?",["la disuguaglianza", "civil rights", "redistribution", "systemic oppression"],0,"“Inequality” es “la disuguaglianza” en italiano."],
-      ["mcq","¿Cómo se dice “redistribution” en italiano?",["systemic oppression", "common good", "redistribution", "la redistribuzione"],3,"“Redistribution” es “la redistribuzione” en italiano."],
+      ["mcq","¿Cómo se dice “inequality” en italiano?",["la disuguaglianza","i diritti civili","la redistribuzione","l'oppressione sistemica"],0,"“Inequality” es “la disuguaglianza” en italiano."],
+      ["mcq","¿Cómo se dice “redistribution” en italiano?",["l'oppressione sistemica","il bene comune","la giustizia sociale","la redistribuzione"],3,"“Redistribution” es “la redistribuzione” en italiano."],
       ["fill","Completa: “Se solo le riforme passate ___ affrontato l'oppressione sistemica.”",["abbiano", "avevano", "avrebbero", "avessero"],3,"“Se solo” + congiuntivo trapassato expresa arrepentimiento sobre el pasado: “se solo... avessero affrontato”."],
       ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["I filosofi vorrebbero che la disuguaglianza può essere risolta solo con la politica.", "I filosofi vorrebbe che la disuguaglianza potesse essere risolta solo con la politica.", "I filosofi vorrebbero che la disuguaglianza potesse risolvere solo con la politica.", "I filosofi vorrebbero che la disuguaglianza potesse essere risolta solo con la politica."],3,"“Wish... could be solved” se traduce con congiuntivo tras “vorrebbero che”: “potesse essere risolta”."],
       ["arrange","Ordena: [comune / dibattono / bene / filosofi / il / i]",["i il comune filosofi dibattono bene", "i filosofi dibattono il bene comune", "filosofi il i dibattono comune bene", "dibattono bene i comune filosofi il"],1,"Artículo + sustantivo + verbo + artículo + adjetivo + sustantivo."],
@@ -3035,8 +3035,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cultural relativism” en italiano?",["oral tradition", "il relativismo culturale", "ritual", "rite of passage"],1,"“Cultural relativism” es “il relativismo culturale” en italiano."],
-      ["mcq","¿Cómo se dice “rite of passage” en italiano?",["il rito di passaggio", "oral tradition", "rite of passage", "cultural relativism"],0,"“Rite of passage” es “il rito di passaggio” en italiano."],
+      ["mcq","¿Cómo se dice “cultural relativism” en italiano?",["la tradizione orale","il relativismo culturale","il rituale","il rito di passaggio"],1,"“Cultural relativism” es “il relativismo culturale” en italiano."],
+      ["mcq","¿Cómo se dice “rite of passage” en italiano?",["il rito di passaggio","la tradizione orale","il rituale","il relativismo culturale"],0,"“Rite of passage” es “il rito di passaggio” en italiano."],
       ["fill","Completa: “___ gli antropologi studiano i rituali, più capiscono l'identità collettiva.”",["Molto", "Meno", "Tanto", "Più"],3,"El comparativo doble repite “più...più” en ambas cláusulas."],
       ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Più una tradizione è antica, più forte è la sua influenza.", "Più antica una tradizione è, più forte è la sua influenza.", "Più una tradizione è antica, la sua influenza è più forte.", "Più una tradizione è antica, più forte la sua influenza."],0,"El comparativo doble italiano mantiene “più... è..., più... è...” en ambas cláusulas completas."],
       ["arrange","Ordena: [passaggio / segnano / riti / di / l'età / adulta / i]",["adulta riti di i segnano passaggio l'età", "i riti di passaggio segnano l'età adulta", "adulta segnano i l'età riti passaggio di", "riti l'età passaggio adulta i di segnano"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
@@ -3060,8 +3060,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “screwdriver” en italiano?",["screw", "il cacciavite", "hammer", "screwdriver"],1,"“Screwdriver” es “il cacciavite” en italiano."],
-      ["mcq","¿Cómo se dice “ladder” en italiano?",["screw", "la scala", "ladder", "screwdriver"],1,"“Ladder” es “la scala” en italiano."],
+      ["mcq","¿Cómo se dice “screwdriver” en italiano?",["la vite","il cacciavite","il martello","il chiodo"],1,"“Screwdriver” es “il cacciavite” en italiano."],
+      ["mcq","¿Cómo se dice “ladder” en italiano?",["la vite","la scala","il martello","il cacciavite"],1,"“Ladder” es “la scala” en italiano."],
       ["fill","Completa: “Questo martello è pesante ___ quello.”",["come", "quanto", "più", "che"],1,"El comparativo de igualdad con “tanto” omitido usa “quanto”: “pesante quanto”."],
       ["translate","Traduce: “The ladder isn't as tall as the wall.”",["La scala non è alta come il muro.", "La scala non è alta quanto il muro più.", "La scala non è più alta come il muro.", "La scala è alta come il muro."],0,"“Isn't as... as” se traduce con “non è... come”."],
       ["arrange","Ordena: [pesante / degli / cassetta / la / attrezzi / è / molto]",["la cassetta degli attrezzi è molto pesante", "cassetta pesante molto degli è la attrezzi", "molto la pesante degli attrezzi è cassetta", "cassetta la degli attrezzi pesante molto è"],0,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
@@ -3085,8 +3085,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “washing machine” en italiano?",["to hang out clothes", "la lavatrice", "stain", "detergent"],1,"“Washing machine” es “la lavatrice” en italiano."],
-      ["mcq","¿Cómo se dice “stain” en italiano?",["detergent", "la macchia", "to hang out clothes", "stain"],1,"“Stain” es “la macchia” en italiano."],
+      ["mcq","¿Cómo se dice “washing machine” en italiano?",["stendere i panni","la lavatrice","la macchia","il detersivo"],1,"“Washing machine” es “la lavatrice” en italiano."],
+      ["mcq","¿Cómo se dice “stain” en italiano?",["il detersivo","la macchia","stendere i panni","la lavatrice"],1,"“Stain” es “la macchia” en italiano."],
       ["fill","Completa: “Ci sono ___ macchie su questa camicia.”",["molto", "poco", "un po' di", "alcune"],3,"“Macchie” es contable plural femenino, así que se usa “alcune”: “alcune macchie”."],
       ["translate","Traduce: “I need a little detergent for this load.”",["Ho bisogno di un po' di detersivi per questo carico.", "Ho bisogno un po' di detersivo per questo carico.", "Ho bisogno di un po' di detersivo per questo carico.", "Ho bisogno di alcuni detersivo per questo carico."],2,"“Detersivo” es incontable, así que se usa “un po' di”: “un po' di detersivo”."],
       ["arrange","Ordena: [stirare / bisogna / camicia / questa]",["bisogna stirare questa camicia", "camicia questa stirare bisogna", "questa stirare bisogna camicia", "stirare bisogna camicia questa"],0,"Verbo impersonal + verbo + pronombre + sustantivo."],
@@ -3110,8 +3110,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to checkmate” en italiano?",["opponent", "pawn", "dare scacco matto", "chessboard"],2,"“To checkmate” es “dare scacco matto” en italiano."],
-      ["mcq","¿Cómo se dice “pawn” en italiano?",["chessboard", "strategy", "il pedone", "to move a piece"],2,"“Pawn” es “il pedone” en italiano."],
+      ["mcq","¿Cómo se dice “to checkmate” en italiano?",["l'avversario","il pedone","dare scacco matto","la scacchiera"],2,"“To checkmate” es “dare scacco matto” en italiano."],
+      ["mcq","¿Cómo se dice “pawn” en italiano?",["la scacchiera","la strategia","il pedone","muovere un pezzo"],2,"“Pawn” es “il pedone” en italiano."],
       ["fill","Completa: “Se muovi quel pezzo, ___ la partita.”",["perderesti", "perdi", "hai perso", "perderai"],3,"Tras “se” + presente, se usa futuro semplice en la consecuencia: “se muovi... perderai”."],
       ["translate","Traduce: “If she plans her strategy well, she will win.”",["Se lei pianificava bene la sua strategia, vincerà.", "Se lei pianifica bene la sua strategia, vincerà.", "Se lei pianifica bene la sua strategia, vince.", "Se lei pianifica bene la sua strategia, vincerebbe."],1,"“If... will win” se traduce con “se” + presente + futuro semplice: “se pianifica... vincerà”."],
       ["arrange","Ordena: [forte / ha / avversario / un / lei]",["un ha lei forte avversario", "ha avversario un lei forte", "forte avversario lei un ha", "lei ha un avversario forte"],3,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
@@ -3135,8 +3135,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “facade” en italiano?",["scaffolding", "heritage site", "facade", "la facciata"],3,"“Facade” es “la facciata” en italiano."],
-      ["mcq","¿Cómo se dice “scaffolding” en italiano?",["heritage site", "to restore", "structural damage", "l'impalcatura"],3,"“Scaffolding” es “l'impalcatura” en italiano."],
+      ["mcq","¿Cómo se dice “facade” en italiano?",["l'impalcatura","il sito patrimoniale","restaurare","la facciata"],3,"“Facade” es “la facciata” en italiano."],
+      ["mcq","¿Cómo se dice “scaffolding” en italiano?",["il sito patrimoniale","restaurare","il danno strutturale","l'impalcatura"],3,"“Scaffolding” es “l'impalcatura” en italiano."],
       ["fill","Completa: “La città ha fatto ___ la facciata l'anno scorso.”",["restaurando", "restaurato", "restaurare", "restaura"],2,"La construcción causativa usa “fare” + infinitivo: “ha fatto restaurare”."],
       ["translate","Traduce: “They are getting the roof repaired this month.”",["Hanno fatto riparare il tetto questo mese già.", "Stanno facendo riparare il tetto questo mese.", "Stanno facendo riparare il tetto da loro questo mese.", "Stanno facendo riparato il tetto questo mese."],1,"“Are getting... repaired” se traduce con “stanno facendo riparare”, construcción causativa en presente progresivo."],
       ["arrange","Ordena: [preservare / importanti / patrimoniali / siti]",["preservare siti importanti patrimoniali", "importanti siti patrimoniali preservare", "preservare importanti siti patrimoniali", "preservare siti patrimoniali importanti"],2,"Infinitivo + adjetivo + adjetivo + sustantivo."],
@@ -3160,8 +3160,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “falsifiability” en italiano?",["falsifiability", "to replicate a study", "la falsificabilità", "hypothesis"],2,"“Falsifiability” es “la falsificabilità” en italiano."],
-      ["mcq","¿Cómo se dice “peer review” en italiano?",["falsifiability", "peer review", "empirical evidence", "la revisione paritaria"],3,"“Peer review” es “la revisione paritaria” en italiano."],
+      ["mcq","¿Cómo se dice “falsifiability” en italiano?",["l'ipotesi","replicare uno studio","la falsificabilità","le prove empiriche"],2,"“Falsifiability” es “la falsificabilità” en italiano."],
+      ["mcq","¿Cómo se dice “peer review” en italiano?",["la falsificabilità","l'ipotesi","le prove empiriche","la revisione paritaria"],3,"“Peer review” es “la revisione paritaria” en italiano."],
       ["fill","Completa: “I ricercatori pubblicano dati ___ altri possano verificarli.”",["poiché", "affinché", "al fine", "perché"],1,"“Affinché” + congiuntivo expresa propósito cuando los sujetos son distintos: “affinché altri possano”."],
       ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Gli scienziati replicano studi al fine di confermano i risultati.", "Gli scienziato replicano studi al fine di confermare i risultati.", "Gli scienziati replicano studi al fine confermare i risultati.", "Gli scienziati replicano studi al fine di confermare i risultati."],3,"“In order to confirm” en registro formal se traduce con “al fine di confermare”."],
       ["arrange","Ordena: [bisogno / ipotesi / prove / ha / ogni / empiriche / di]",["ipotesi empiriche ha bisogno prove di ogni", "ogni ipotesi ha bisogno di prove empiriche", "bisogno ogni di ipotesi ha prove empiriche", "prove ha ogni di bisogno ipotesi empiriche"],1,"Adjetivo + sustantivo + verbo + sustantivo + preposición + sustantivo."],
@@ -3185,8 +3185,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Nash equilibrium” en italiano?",["l'equilibrio di Nash", "Nash equilibrium", "rational actor", "zero-sum game"],0,"“Nash equilibrium” es “l'equilibrio di Nash” en italiano."],
-      ["mcq","¿Cómo se dice “prisoner's dilemma” en italiano?",["payoff matrix", "il dilemma del prigioniero", "zero-sum game", "rational actor"],1,"“Prisoner's dilemma” es “il dilemma del prigioniero” en italiano."],
+      ["mcq","¿Cómo se dice “Nash equilibrium” en italiano?",["l'equilibrio di Nash","il gioco a somma zero","l'attore razionale","la matrice dei payoff"],0,"“Nash equilibrium” es “l'equilibrio di Nash” en italiano."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en italiano?",["la matrice dei payoff","il dilemma del prigioniero","il gioco a somma zero","l'attore razionale"],1,"“Prisoner's dilemma” es “il dilemma del prigioniero” en italiano."],
       ["fill","Completa: “Né l'uno ___ l'altro giocatore beneficia del tradimento.”",["o", "e", "che", "né"],3,"La estructura “né l'uno né l'altro” requiere “né” en ambas partes."],
       ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale.", "Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevalgono.", "Nonostante la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale.", "Mentre la cooperazione massimizzi il guadagno comune, l'interesse personale spesso prevale."],0,"“Mentre” + indicativo introduce el contraste formal: “la cooperazione massimizza”."],
       ["arrange","Ordena: [dominante / ha / strategia / nessun / giocatore]",["nessun ha giocatore dominante strategia", "dominante nessun ha giocatore strategia", "dominante giocatore strategia ha nessun", "nessun giocatore ha strategia dominante"],3,"Pronombre negativo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3210,8 +3210,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “coral reef” en italiano?",["underwater", "la barriera corallina", "to dive", "wetsuit"],1,"“Coral reef” es “la barriera corallina” en italiano."],
-      ["mcq","¿Cómo se dice “wetsuit” en italiano?",["fish", "coral reef", "la muta", "snorkel"],2,"“Wetsuit” es “la muta” en italiano."],
+      ["mcq","¿Cómo se dice “coral reef” en italiano?",["sott'acqua","la barriera corallina","immergersi","la muta"],1,"“Coral reef” es “la barriera corallina” en italiano."],
+      ["mcq","¿Cómo se dice “wetsuit” en italiano?",["il pesce","la barriera corallina","la muta","il boccaglio"],2,"“Wetsuit” es “la muta” en italiano."],
       ["fill","Completa: “La barriera corallina è ___ la barca.”",["in", "su", "accanto", "sotto"],3,"“Sotto” indica una posición debajo de algo: “sotto la barca”."],
       ["translate","Traduce: “The fish swim in the water.”",["I pesci nuotano sotto l'acqua è.", "I pesci nuotano sull'acqua.", "I pesci nuotano accanto all'acqua.", "I pesci nuotano nell'acqua."],3,"“In the water” se traduce con “nell'acqua”, ya que están dentro de ella."],
       ["arrange","Ordena: [barca / accanto / sub / è / il / alla]",["sub accanto alla il è barca","il sub è accanto alla barca","accanto alla sub il è barca","il alla sub barca accanto è"],1,"Artículo + sustantivo + verbo + preposición + preposición articulada + sustantivo."],
@@ -3235,8 +3235,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crease” en italiano?",["la piega", "scissors", "to fold", "glue"],0,"“Crease” es “la piega” en italiano."],
-      ["mcq","¿Cómo se dice “glue” en italiano?",["paper", "craft", "la colla", "to fold"],2,"“Glue” es “la colla” en italiano."],
+      ["mcq","¿Cómo se dice “crease” en italiano?",["la piega","le forbici","piegare","la colla"],0,"“Crease” es “la piega” en italiano."],
+      ["mcq","¿Cómo se dice “glue” en italiano?",["la carta","il lavoretto","la colla","piegare"],2,"“Glue” es “la colla” en italiano."],
       ["fill","Completa: “Prima, piega la carta. ___, fai una piega.”",["Infine", "Prima", "Prima di", "Poi"],3,"“Poi” conecta el segundo paso después de “prima”."],
       ["translate","Traduce: “Finally, fold the corners.”",["Infine, piega gli angoli.", "Poi, piega gli angoli.", "Infine, piegando gli angoli.", "Infine, piega l'angolo."],0,"“Finally” se traduce con “Infine” al inicio de la oración."],
       ["arrange","Ordena: [forbici / bisogno / lavoretto / questo / di / ha]",["questo lavoretto ha bisogno di forbici", "lavoretto questo bisogno di forbici ha", "questo bisogno lavoretto di forbici ha", "lavoretto di bisogno ha forbici questo"],0,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
@@ -3260,8 +3260,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “fossil” en italiano?",["dinosaur bone", "il fossile", "fossil", "excavation site"],1,"“Fossil” es “il fossile” en italiano."],
-      ["mcq","¿Cómo se dice “skeleton” en italiano?",["lo scheletro", "fossil", "skeleton", "dinosaur bone"],0,"“Skeleton” es “lo scheletro” en italiano."],
+      ["mcq","¿Cómo se dice “fossil” en italiano?",["l'osso di dinosauro","il fossile","il sito di scavo","estinto"],1,"“Fossil” es “il fossile” en italiano."],
+      ["mcq","¿Cómo se dice “skeleton” en italiano?",["lo scheletro","il fossile","l'osso di dinosauro","il sito di scavo"],0,"“Skeleton” es “lo scheletro” en italiano."],
       ["fill","Completa: “Non hanno ___ finito lo scavo.”",["mai", "sempre", "ancora", "già"],2,"“Non... ancora” equivale a “not yet”: “non hanno ancora finito”."],
       ["translate","Traduce: “Scientists are still studying the fossil.”",["Gli scienziati hanno ancora studiato il fossile.", "Gli scienziati stanno ancora studiando il fossile.", "Gli scienziati non stanno ancora studiando il fossile.", "Gli scienziati stanno già studiando il fossile."],1,"“Are still studying” se traduce con “stanno ancora studiando”, presente progresivo."],
       ["arrange","Ordena: [scheletro / trovato / già / hanno / lo]",["trovato hanno scheletro lo già", "hanno già trovato lo scheletro", "già trovato hanno lo scheletro", "hanno già scheletro trovato lo"],1,"“Hanno” + “già” + participio + artículo + sustantivo."],
@@ -3285,8 +3285,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “vandalism” en italiano?",["spray paint", "street artist", "il vandalismo", "mural"],2,"“Vandalism” es “il vandalismo” en italiano."],
-      ["mcq","¿Cómo se dice “to commission a mural” en italiano?",["to commission a mural", "commissionare un murale", "public space", "vandalism"],1,"“To commission a mural” es “commissionare un murale” en italiano."],
+      ["mcq","¿Cómo se dice “vandalism” en italiano?",["la vernice spray","l'artista di strada","il vandalismo","il murale"],2,"“Vandalism” es “il vandalismo” en italiano."],
+      ["mcq","¿Cómo se dice “to commission a mural” en italiano?",["il murale","commissionare un murale","lo spazio pubblico","il vandalismo"],1,"“To commission a mural” es “commissionare un murale” en italiano."],
       ["fill","Completa: “Lei non dipingerà a meno che non ___ il permesso.”",["avrà", "aveva", "abbia", "ha"],2,"“A meno che” requiere congiuntivo: “a meno che non abbia”."],
       ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["Se la città non lo approva, il murale sarà considerato vandalismo.", "A meno che la città non lo approvi, il murale sarà considerato vandalismo.", "A meno che la città lo approva, il murale sarà considerato vandalismo.", "A meno che la città non lo approvi, il murale è considerato vandalismo."],1,"“Unless” se traduce con “a meno che... non” + congiuntivo: “a meno che... non approvi”."],
       ["arrange","Ordena: [talentuoso / molto / artista / questo / è]",["talentuoso artista è questo molto", "artista è talentuoso questo molto", "questo artista è molto talentuoso", "questo artista molto è talentuoso"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3310,8 +3310,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “reasonable doubt” en italiano?",["to convict", "rehabilitation", "il ragionevole dubbio", "reasonable doubt"],2,"“Reasonable doubt” es “il ragionevole dubbio” en italiano."],
-      ["mcq","¿Cómo se dice “recidivism” en italiano?",["forensic evidence", "recidivism", "reasonable doubt", "la recidiva"],3,"“Recidivism” es “la recidiva” en italiano."],
+      ["mcq","¿Cómo se dice “reasonable doubt” en italiano?",["condannare","la riabilitazione","il ragionevole dubbio","le prove forensi"],2,"“Reasonable doubt” es “il ragionevole dubbio” en italiano."],
+      ["mcq","¿Cómo se dice “recidivism” en italiano?",["le prove forensi","il sospettato","il ragionevole dubbio","la recidiva"],3,"“Recidivism” es “la recidiva” en italiano."],
       ["fill","Completa: “Le prove forensi ___ indicare il sospettato.”",["vogliono", "devono", "potrebbero", "sanno"],2,"“Potrebbero” expresa posibilidad formal: “potrebbero indicare”."],
       ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Senza riabilitazione, la recidiva deve aumentare.", "Senza riabilitazione, la recidiva potrebbe aumentato.", "Senza riabilitazione, la recidiva potrebbe aumentare.", "Senza riabilitazione, la recidiva può aumentando."],2,"“Might increase” se traduce con “potrebbe aumentare”, posibilidad formal en italiano."],
       ["arrange","Ordena: [condannare / può / sospettato / tribunale / non / il / il]",["il tribunale non può condannare il sospettato", "non condannare tribunale sospettato può il il", "sospettato condannare non il il tribunale può", "sospettato il non può il condannare tribunale"],0,"Artículo + sustantivo + negación + verbo modal + verbo + artículo + sustantivo."],
@@ -3335,8 +3335,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “speech act” en italiano?",["proposition", "meaning", "l'atto linguistico", "ambiguity"],2,"“Speech act” es “l'atto linguistico” en italiano."],
-      ["mcq","¿Cómo se dice “ambiguity” en italiano?",["speech act", "ambiguity", "meaning", "l'ambiguità"],3,"“Ambiguity” es “l'ambiguità” en italiano."],
+      ["mcq","¿Cómo se dice “speech act” en italiano?",["la proposizione","il significato","l'atto linguistico","l'ambiguità"],2,"“Speech act” es “l'atto linguistico” en italiano."],
+      ["mcq","¿Cómo se dice “ambiguity” en italiano?",["l'atto linguistico","il riferimento","il significato","l'ambiguità"],3,"“Ambiguity” es “l'ambiguità” en italiano."],
       ["fill","Completa: “Il linguista insiste che il contesto ___ considerato.”",["sia", "era", "sarà", "è"],0,"El congiuntivo presente de “essere” es “sia”: “insiste che... sia considerato”."],
       ["translate","Traduce con congiuntivo: “Philosophers suggest that meaning be studied through use.”",["I filosofi suggeriscono che il significato sarà studiato attraverso l'uso.", "I filosofi suggeriscono che il significato è studiato attraverso l'uso.", "I filosofi suggeriscono che il significato sia studiato attraverso l'uso.", "I filosofi suggerisce che il significato sia studiato attraverso l'uso."],2,"El verbo “suggerire che” requiere congiuntivo: “suggeriscono che... sia studiato”."],
       ["arrange","Ordena: [ambigua / frase / questa / è]",["questa è frase ambigua", "questa frase è ambigua", "è frase questa ambigua", "frase è questa ambigua"],1,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3360,8 +3360,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “juggler” en italiano?",["juggler", "clown", "il giocoliere", "tent"],2,"“Juggler” es “il giocoliere” en italiano."],
-      ["mcq","¿Cómo se dice “acrobat” en italiano?",["acrobat", "l'acrobata", "amazing", "tightrope"],1,"“Acrobat” es “l'acrobata” en italiano."],
+      ["mcq","¿Cómo se dice “juggler” en italiano?",["il pagliaccio","la fune","il giocoliere","il tendone"],2,"“Juggler” es “il giocoliere” en italiano."],
+      ["mcq","¿Cómo se dice “acrobat” en italiano?",["il pagliaccio","l'acrobata","sorprendente","la fune"],1,"“Acrobat” es “l'acrobata” en italiano."],
       ["fill","Completa: “___ giocoliere sorprendente!”",["Chi", "Come", "Quanto", "Che"],3,"“Che” + sustantivo expresa admiración: “che giocoliere”."],
       ["translate","Traduce: “How amazing this show is!”",["Come questo spettacolo è sorprendente!", "Che questo spettacolo è sorprendente!", "Come è questo spettacolo sorprendente!", "Come questo spettacolo sorprendente!"],0,"“How amazing... is!” se traduce con “Come... è sorprendente!” en italiano."],
       ["arrange","Ordena: [fune / cammina / sulla / pagliaccio / il]",["il pagliaccio cammina sulla fune", "cammina il fune sulla pagliaccio", "sulla pagliaccio il cammina fune", "fune cammina il pagliaccio sulla"],0,"Artículo + sustantivo + verbo + preposición articulada + sustantivo."],
@@ -3385,8 +3385,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to haggle” en italiano?",["vendor", "antique", "flea market", "contrattare"],3,"“To haggle” es “contrattare” en italiano."],
-      ["mcq","¿Cómo se dice “vendor” en italiano?",["to haggle", "antique", "il venditore", "flea market"],2,"“Vendor” es “il venditore” en italiano."],
+      ["mcq","¿Cómo se dice “to haggle” en italiano?",["il venditore","l'antiquariato","il mercatino delle pulci","contrattare"],3,"“To haggle” es “contrattare” en italiano."],
+      ["mcq","¿Cómo se dice “vendor” en italiano?",["contrattare","l'antiquariato","il venditore","il mercatino delle pulci"],2,"“Vendor” es “il venditore” en italiano."],
       ["fill","Completa: “Questo pezzo d'antiquariato è ___ caro.”",["molto tanto", "troppo", "abbastanza", "così tanto"],1,"“Troppo” + adjetivo expresa exceso: “troppo caro”."],
       ["translate","Traduce: “I don't have enough money for this bargain.”",["Non ho troppo soldi per questo affare.", "Non ho abbastanza soldi per questa affare.", "Non ho abbastanza soldi per questo affare.", "Non ho soldi abbastanza per questo affare."],2,"“Enough money” se traduce con “abbastanza soldi”."],
       ["arrange","Ordena: [venditore / contratto / il / con]",["contratto venditore il con", "venditore contratto il con", "contratto con venditore il", "contratto con il venditore"],3,"Verbo + preposición + artículo + sustantivo."],
@@ -3410,8 +3410,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancestor” en italiano?",["ancestor", "great-grandparent", "l'antenato", "birth certificate"],2,"“Ancestor” es “l'antenato” en italiano."],
-      ["mcq","¿Cómo se dice “birth certificate” en italiano?",["to trace one's roots", "descendant", "great-grandparent", "il certificato di nascita"],3,"“Birth certificate” es “il certificato di nascita” en italiano."],
+      ["mcq","¿Cómo se dice “ancestor” en italiano?",["l'albero genealogico","il bisnonno/la bisnonna","l'antenato","il certificato di nascita"],2,"“Ancestor” es “l'antenato” en italiano."],
+      ["mcq","¿Cómo se dice “birth certificate” en italiano?",["rintracciare le proprie radici","il discendente","il bisnonno/la bisnonna","il certificato di nascita"],3,"“Birth certificate” es “il certificato di nascita” en italiano."],
       ["fill","Completa: “Benché gli archivi ___ antichi, abbiamo rintracciato le nostre radici.”",["erano", "siano", "saranno", "sono"],1,"“Benché” requiere congiuntivo: “benché... siano antichi”."],
       ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Benché non ha mai conosciuto la sua bisnonna, conosce la storia familiare.", "Anche se non ha mai conosciuto la sua bisnonna, conoscere la storia familiare.", "Anche se non abbia mai conosciuto la sua bisnonna, conosce la storia familiare.", "Anche se non ha mai conosciuto la sua bisnonna, conosce la storia familiare."],3,"“Even though” se traduce con “anche se” + indicativo, hecho conocido."],
       ["arrange","Ordena: [grande / ha / genealogico / un / albero / lei]",["lei ha un grande albero genealogico", "albero genealogico lei ha grande un", "albero un lei ha genealogico grande", "albero grande un lei genealogico ha"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
@@ -3435,8 +3435,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “drought” en italiano?",["drought", "la siccità", "to issue a warning", "flash flood"],1,"“Drought” es “la siccità” en italiano."],
-      ["mcq","¿Cómo se dice “flash flood” en italiano?",["drought", "hurricane", "flash flood", "l'alluvione improvvisa"],3,"“Flash flood” es “l'alluvione improvvisa” en italiano."],
+      ["mcq","¿Cómo se dice “drought” en italiano?",["l'uragano","la siccità","emettere un'allerta","l'alluvione improvvisa"],1,"“Drought” es “la siccità” en italiano."],
+      ["mcq","¿Cómo se dice “flash flood” en italiano?",["la siccità","l'uragano","il tornado","l'alluvione improvvisa"],3,"“Flash flood” es “l'alluvione improvvisa” en italiano."],
       ["fill","Completa: “___ l'allerta, molte persone sono rimaste vicino alla costa.”",["Perché", "Nonostante che", "Nonostante", "Benché"],2,"“Nonostante” + sustantivo (sin “che”): “nonostante l'allerta”."],
       ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Nonostante avesse emesso un'allerta, le autorità non hanno potuto evitare i danni.", "Nonostante avessero emesso un'allerta, le autorità non hanno potuto evitare i danni.", "Nonostante avessero emesso un'allerta, le autorità non possono evitare i danni.", "Nonostante hanno emesso un'allerta, le autorità non hanno potuto evitare i danni."],1,"“In spite of issuing” se traduce con “nonostante avessero emesso”, congiuntivo trapassato."],
       ["arrange","Ordena: [avvicinando / forte / si / uragano / un / sta]",["un uragano avvicinando forte si sta", "avvicinando uragano sta un si forte", "avvicinando sta uragano si un forte", "un uragano forte si sta avvicinando"],3,"Artículo + adjetivo + sustantivo + pronombre reflexivo + verbo + gerundio."],
@@ -3460,8 +3460,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “displacement” en italiano?",["urban renewal", "local community", "lo sfollamento", "gentrification"],2,"“Displacement” es “lo sfollamento” en italiano."],
-      ["mcq","¿Cómo se dice “affordable housing” en italiano?",["rising rent", "l'edilizia accessibile", "displacement", "urban renewal"],1,"“Affordable housing” es “l'edilizia accessibile” en italiano."],
+      ["mcq","¿Cómo se dice “displacement” en italiano?",["la riqualificazione urbana","la comunità locale","lo sfollamento","la gentrificazione"],2,"“Displacement” es “lo sfollamento” en italiano."],
+      ["mcq","¿Cómo se dice “affordable housing” en italiano?",["l'affitto crescente","l'edilizia accessibile","lo sfollamento","la riqualificazione urbana"],1,"“Affordable housing” es “l'edilizia accessibile” en italiano."],
       ["fill","Completa: “La città ___ dovuto proteggere l'edilizia accessibile.”",["avrà", "ha", "avrebbe", "aveva"],2,"“Avrebbe dovuto” + infinitivo expresa crítica del pasado: “avrebbe dovuto proteggere”."],
       ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Le autorità avrebbero dovuto ignorare le preoccupazioni della comunità locale.", "Le autorità non avrebbero dovuto ignorare le preoccupazioni della comunità locale.", "Le autorità non avrebbero dovuto ignorato le preoccupazioni della comunità locale.", "Le autorità non dovrebbero ignorare le preoccupazioni della comunità locale."],1,"“Shouldn't have ignored” se traduce con “non avrebbero dovuto ignorare”, infinitivo tras “dovuto”."],
       ["arrange","Ordena: [crescente / preoccupa / residenti / l'affitto]",["residenti crescente l'affitto preoccupa","l'affitto crescente preoccupa residenti","residenti preoccupa l'affitto crescente","l'affitto preoccupa crescente residenti"],1,"Artículo + sustantivo + adjetivo + verbo + sustantivo."],
@@ -3485,8 +3485,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “skepticism” en italiano?",["epistemic humility", "lo scetticismo", "justified true belief", "skepticism"],1,"“Skepticism” es “lo scetticismo” en italiano."],
-      ["mcq","¿Cómo se dice “epistemic humility” en italiano?",["skepticism", "epistemic humility", "l'umiltà epistemica", "epistemology"],2,"“Epistemic humility” es “l'umiltà epistemica” en italiano."],
+      ["mcq","¿Cómo se dice “skepticism” en italiano?",["l'umiltà epistemica","lo scetticismo","la credenza vera giustificata","l'epistemologia"],1,"“Skepticism” es “lo scetticismo” en italiano."],
+      ["mcq","¿Cómo se dice “epistemic humility” en italiano?",["lo scetticismo","l'epistemologia","l'umiltà epistemica","la credenza vera giustificata"],2,"“Epistemic humility” es “l'umiltà epistemica” en italiano."],
       ["fill","Completa: “Appena i filosofi avevano proposto una teoria, ___ gli scettici la contestavano.”",["allora", "che", "poi", "e"],1,"“Appena... che” forma la estructura de secuencia inmediata: “appena... che”."],
       ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["Appena si afferma di sapere qualcosa, il dubbio scompare.", "Appena afferma di sapere qualcosa, il dubbio sorge.", "Appena si è affermato di sapere qualcosa, il dubbio sorge.", "Appena si afferma di sapere qualcosa, il dubbio sorge."],3,"“No sooner... than” se traduce naturalmente con “appena...” en italiano."],
       ["arrange","Ordena: [vera / richiede / certezza / la / conoscenza]",["certezza vera richiede la conoscenza", "conoscenza vera richiede la certezza", "la conoscenza richiede certezza vera", "richiede vera certezza conoscenza la"],2,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3510,8 +3510,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “nest” en italiano?",["wing", "nest", "il nido", "beak"],2,"“Nest” es “il nido” en italiano."],
-      ["mcq","¿Cómo se dice “beak” en italiano?",["feather", "wing", "binoculars", "il becco"],3,"“Beak” es “il becco” en italiano."],
+      ["mcq","¿Cómo se dice “nest” en italiano?",["l'ala","il binocolo","il nido","il becco"],2,"“Nest” es “il nido” en italiano."],
+      ["mcq","¿Cómo se dice “beak” en italiano?",["la piuma","l'ala","il binocolo","il becco"],3,"“Beak” es “il becco” en italiano."],
       ["fill","Completa: “L'uccello usa ___ ali per volare.”",["i suoi", "le sue", "la sua", "il suo"],1,"“Ali” es femenino plural, así que se usa “le sue”: “le sue ali”."],
       ["translate","Traduce: “My binoculars are new.”",["La mia binocolo è nuovo.", "Il mio binocoli è nuovo.", "Il mio binocolo sono nuovi.", "Il mio binocolo è nuovo."],3,"“My” se traduce con “il mio” ante “binocolo” (masculino singular en italiano)."],
       ["arrange","Ordena: [nido / sull'albero / loro / il / è]",["loro sull'albero il nido è", "il loro nido è sull'albero", "il loro sull'albero è nido", "è il nido sull'albero loro"],1,"Artículo + posesivo + sustantivo + verbo + preposición articulada + sustantivo."],
@@ -3535,8 +3535,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “kiln” en italiano?",["glaze", "bowl", "to shape", "la fornace"],3,"“Kiln” es “la fornace” en italiano."],
-      ["mcq","¿Cómo se dice “glaze” en italiano?",["clay", "lo smalto", "pottery wheel", "to shape"],1,"“Glaze” es “lo smalto” en italiano."],
+      ["mcq","¿Cómo se dice “kiln” en italiano?",["lo smalto","la ciotola","modellare","la fornace"],3,"“Kiln” es “la fornace” en italiano."],
+      ["mcq","¿Cómo se dice “glaze” en italiano?",["l'argilla","lo smalto","il tornio da vasaio","modellare"],1,"“Glaze” es “lo smalto” en italiano."],
       ["fill","Completa: “___ argilla ti serve?”",["Quanta", "Quante", "Quanto", "Quanti"],0,"“Argilla” es femenino incontable, así que se usa “quanta”: “quanta argilla”."],
       ["translate","Traduce: “How many bowls did you make?”",["Quante ciotola hai fatto?", "Quanto ciotole hai fatto?", "Quante ciotole hai fatto?", "Quante ciotole hai fatte?"],2,"“Ciotole” es femenino plural, así que se usa “quante”: “quante ciotole”."],
       ["arrange","Ordena: [vasaio / usa / il / tornio / il]",["usa vasaio il il tornio", "usa il vasaio tornio il", "il vasaio usa il tornio", "usa il il vasaio tornio"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -3560,8 +3560,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “black belt” en italiano?",["dojo", "balance", "la cintura nera", "martial arts"],2,"“Black belt” es “la cintura nera” en italiano."],
-      ["mcq","¿Cómo se dice “balance” en italiano?",["balance", "l'equilibrio", "martial arts", "technique"],1,"“Balance” es “l'equilibrio” en italiano."],
+      ["mcq","¿Cómo se dice “black belt” en italiano?",["il dojo","l'equilibrio","la cintura nera","le arti marziali"],2,"“Black belt” es “la cintura nera” en italiano."],
+      ["mcq","¿Cómo se dice “balance” en italiano?",["le arti marziali","l'equilibrio","la cintura nera","la tecnica"],1,"“Balance” es “l'equilibrio” en italiano."],
       ["fill","Completa: “L'aikido richiede ___ forza sia equilibrio.”",["o", "entrambi", "sia", "né"],2,"“Sia... sia” conecta dos elementos: “sia forza sia equilibrio”."],
       ["translate","Traduce: “You can practice either in the morning or in the evening.”",["Puoi allenarti o al mattino e alla sera.", "Puoi allenarti sia al mattino o alla sera.", "Puoi allenarti o al mattino o alla sera.", "Puoi allenarti al mattino o o alla sera."],2,"“Either... or” se traduce con “o... o” en italiano."],
       ["arrange","Ordena: [difficile / tecnica / molto / è / questa]",["molto questa tecnica difficile è", "questa tecnica è molto difficile", "questa difficile tecnica è molto", "questa difficile molto tecnica è"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3585,8 +3585,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “spore” en italiano?",["la spora", "mycelium", "mushroom", "spore"],0,"“Spore” es “la spora” en italiano."],
-      ["mcq","¿Cómo se dice “mycelium” en italiano?",["il micelio", "mycelium", "spore", "fungus"],0,"“Mycelium” es “il micelio” en italiano."],
+      ["mcq","¿Cómo se dice “spore” en italiano?",["la spora","il micelio","il fungo","commestibile"],0,"“Spore” es “la spora” en italiano."],
+      ["mcq","¿Cómo se dice “mycelium” en italiano?",["il micelio","il fungo","la spora","il fungo/la muffa"],0,"“Mycelium” es “il micelio” en italiano."],
       ["fill","Completa: “Questo fungo sembra come se ___ velenoso.”",["sia", "è", "fosse", "sarà"],2,"“Come se” siempre requiere congiuntivo imperfetto: “come se fosse”."],
       ["translate","Traduce: “The mycelium spreads as though it had a mind of its own.”",["Il micelio si diffonde come se ha una volontà propria.", "Il micelio si diffonde come se avesse una volontà propria.", "Il micelio si diffonde come se avrebbe una volontà propria.", "Il micelio diffonde come se avesse una volontà propria."],1,"“As though it had” se traduce con “come se avesse”, congiuntivo imperfetto."],
       ["arrange","Ordena: [commestibile / fungo / non / questo / è]",["fungo questo commestibile è non", "questo fungo non è commestibile", "è non commestibile questo fungo", "commestibile questo fungo non è"],1,"Pronombre + sustantivo + negación + verbo + adjetivo."],
@@ -3610,8 +3610,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “biodiversity” en italiano?",["biodiversity", "coral bleaching", "la biodiversità", "marine ecosystem"],2,"“Biodiversity” es “la biodiversità” en italiano."],
-      ["mcq","¿Cómo se dice “coral bleaching” en italiano?",["food chain", "marine ecosystem", "lo sbiancamento dei coralli", "ocean acidification"],2,"“Coral bleaching” es “lo sbiancamento dei coralli” en italiano."],
+      ["mcq","¿Cómo se dice “biodiversity” en italiano?",["l'ecosistema marino","lo sbiancamento dei coralli","la biodiversità","la catena alimentare"],2,"“Biodiversity” es “la biodiversità” en italiano."],
+      ["mcq","¿Cómo se dice “coral bleaching” en italiano?",["la catena alimentare","l'ecosistema marino","lo sbiancamento dei coralli","l'acidificazione degli oceani"],2,"“Coral bleaching” es “lo sbiancamento dei coralli” en italiano."],
       ["fill","Completa: “Le barriere coralline sopravvivono a condizione che le temperature ___ stabili.”",["resteranno", "restano", "restino", "sono restate"],2,"“A condizione che” requiere congiuntivo: “a condizione che... restino”."],
       ["translate","Traduce: “Marine biodiversity can recover, provided that pollution decreases.”",["La biodiversità marina può riprendere, purché l'inquinamento diminuisca.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuiscano.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisce."],2,"“Provided that” se traduce con “purché” + congiuntivo: “purché... diminuisca”."],
       ["arrange","Ordena: [alimentare / interrompe / catena / la / l'inquinamento]",["interrompe l'inquinamento la alimentare catena","alimentare la l'inquinamento interrompe catena","l'inquinamento alimentare interrompe catena la","l'inquinamento interrompe la catena alimentare"],3,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
@@ -3635,8 +3635,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cartographer” en italiano?",["scale", "il cartografo", "cartographer", "navigational instrument"],1,"“Cartographer” es “il cartografo” en italiano."],
-      ["mcq","¿Cómo se dice “uncharted territory” en italiano?",["scale", "cartographer", "il territorio inesplorato", "navigational instrument"],2,"“Uncharted territory” es “il territorio inesplorato” en italiano."],
+      ["mcq","¿Cómo se dice “cartographer” en italiano?",["la scala","il cartografo","la proiezione","lo strumento di navigazione"],1,"“Cartographer” es “il cartografo” en italiano."],
+      ["mcq","¿Cómo se dice “uncharted territory” en italiano?",["la scala","il cartografo","il territorio inesplorato","lo strumento di navigazione"],2,"“Uncharted territory” es “il territorio inesplorato” en italiano."],
       ["fill","Completa: “___ fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise.”",["Senza", "Se non", "Non", "Se"],1,"“Se non fosse per” es la estructura fija: “se non fosse per”."],
       ["translate","Traduce con estructura formal: “Were it not for early cartographers, exploration would have been impossible.”",["Se non fosse stato per i primi cartografi, l'esplorazione sarebbe impossibile.", "Se non fosse stato per i primi cartografi, l'esplorazione è stata impossibile.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile.", "Se non fosse per i primi cartografi, l'esplorazione sarebbe stata impossibile."],2,"“Were it not for” en pasado se traduce con “se non fosse stato per”, condicional compuesto en la consecuencia."],
       ["arrange","Ordena: [precisa / questa / molto / proiezione / è]",["molto è precisa proiezione questa", "questa proiezione è molto precisa", "proiezione molto questa è precisa", "questa molto precisa è proiezione"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3660,8 +3660,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “needle” en italiano?",["tailor", "to try on", "l'ago", "thread"],2,"“Needle” es “l'ago” en italiano."],
-      ["mcq","¿Cómo se dice “thread” en italiano?",["thread", "il filo", "needle", "to try on"],1,"“Thread” es “il filo” en italiano."],
+      ["mcq","¿Cómo se dice “needle” en italiano?",["il sarto","provarsi (un vestito)","l'ago","il filo"],2,"“Needle” es “l'ago” en italiano."],
+      ["mcq","¿Cómo se dice “thread” en italiano?",["l'ago","il filo","cucire","provarsi (un vestito)"],1,"“Thread” es “il filo” en italiano."],
       ["fill","Completa: “___ provo la giacca.”",["Ci", "Si", "Ti", "Mi"],3,"Con “io” se usa el pronombre reflexivo “mi”: “mi provo”."],
       ["translate","Traduce: “I try on the jacket.”",["Mi prova la giacca.", "Mi provo le giacca.", "Mi provo la giacca.", "Provo la giacca."],2,"“Try on” se traduce con el verbo reflexivo “provarsi”: “mi provo”."],
       ["arrange","Ordena: [bottone / cuce / il / sarto / il]",["il sarto il cuce bottone", "il cuce bottone sarto il", "il sarto cuce il bottone", "bottone il sarto il cuce"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -3685,8 +3685,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “harness” en italiano?",["rope", "harness", "to climb", "l'imbracatura"],3,"“Harness” es “l'imbracatura” en italiano."],
-      ["mcq","¿Cómo se dice “cliff” en italiano?",["la scogliera", "rope", "summit", "grip"],0,"“Cliff” es “la scogliera” en italiano."],
+      ["mcq","¿Cómo se dice “harness” en italiano?",["la corda","la vetta","scalare","l'imbracatura"],3,"“Harness” es “l'imbracatura” en italiano."],
+      ["mcq","¿Cómo se dice “cliff” en italiano?",["la scogliera","la corda","la vetta","la presa"],0,"“Cliff” es “la scogliera” en italiano."],
       ["fill","Completa: “Scaliamo ___ tre ore.”",["per", "fa", "in", "da"],3,"“Da” + tiempo expresa duración continua: “da tre ore”."],
       ["translate","Traduce: “She has been training for the summit all year.”",["Si è allenata da un anno per la vetta.", "Si allena da un anno la vetta.", "Si allenava da un anno per la vetta.", "Si allena da un anno per la vetta."],3,"“Has been training” se traduce con presente + “da”: “si allena da un anno”."],
       ["arrange","Ordena: [nuova / ha / scalatore / bisogno / lo / di / corda / una]",["nuova ha lo corda una scalatore di bisogno", "scalatore corda lo bisogno ha di nuova una", "lo scalatore ha bisogno di una nuova corda", "una lo bisogno scalatore nuova corda di ha"],2,"Artículo + sustantivo + verbo + sustantivo + preposición + artículo + adjetivo + sustantivo."],
@@ -3710,8 +3710,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “mint” en italiano?",["currency", "to appraise", "la zecca", "mint"],2,"“Mint” es “la zecca” en italiano."],
-      ["mcq","¿Cómo se dice “to appraise” en italiano?",["valutare", "collection", "mint", "currency"],0,"“To appraise” es “valutare” en italiano."],
+      ["mcq","¿Cómo se dice “mint” en italiano?",["la valuta","valutare","la zecca","la moneta"],2,"“Mint” es “la zecca” en italiano."],
+      ["mcq","¿Cómo se dice “to appraise” en italiano?",["valutare","la collezione","la zecca","la valuta"],0,"“To appraise” es “valutare” en italiano."],
       ["fill","Completa: “Sono abituato a ___ monete antiche.”",["valutato", "valuti", "valutando", "valutare"],3,"“Abituato a” + infinitivo: “abituato a valutare”."],
       ["translate","Traduce: “It took time to get used to collecting rare currency.”",["Ci vuole tempo per abituarsi a collezionare valute rare.", "Ci è voluto tempo per abituarsi a collezionando valute rare.", "Ci è voluto tempo per abituarsi collezionare valute rare.", "Ci è voluto tempo per abituarsi a collezionare valute rare."],3,"“Get used to collecting” se traduce con “abituarsi a collezionare”, infinitivo tras “a”."],
       ["arrange","Ordena: [rara / ha / una / collezione / lei / di monete]",["collezione una rara ha lei monete di", "lei ha una collezione di monete rara", "lei ha di rara monete collezione una", "una ha collezione rara monete di lei"],1,"Sujeto + verbo + artículo + sustantivo + preposición + sustantivo + adjetivo."],
@@ -3735,8 +3735,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “epicenter” en italiano?",["seismograph", "tectonic plate", "aftershock", "l'epicentro"],3,"“Epicenter” es “l'epicentro” en italiano."],
-      ["mcq","¿Cómo se dice “tectonic plate” en italiano?",["tectonic plate", "la placca tettonica", "aftershock", "seismograph"],1,"“Tectonic plate” es “la placca tettonica” en italiano."],
+      ["mcq","¿Cómo se dice “epicenter” en italiano?",["il sismografo","la placca tettonica","la scossa di assestamento","l'epicentro"],3,"“Epicenter” es “l'epicentro” en italiano."],
+      ["mcq","¿Cómo se dice “tectonic plate” en italiano?",["il terremoto","la placca tettonica","la scossa di assestamento","il sismografo"],1,"“Tectonic plate” es “la placca tettonica” en italiano."],
       ["fill","Completa: “Sai quanto forte ___ la magnitudo?”",["fosse", "sarà", "è", "era"],0,"En preguntas indirectas formales con “mi chiedo/sai se” se prefiere congiuntivo imperfetto: “fosse”."],
       ["translate","Traduce con pregunta indirecta: “I wonder if the epicenter was near the city.”",["Mi chiedo se fosse l'epicentro vicino alla città.", "Mi chiedo se l'epicentro è vicino alla città.", "Mi chiedo che l'epicentro fosse vicino alla città.", "Mi chiedo se l'epicentro fosse vicino alla città."],3,"La pregunta indirecta mantiene el orden normal: “se l'epicentro fosse”, sin inversión."],
       ["arrange","Ordena: [piccola / sentito / abbiamo / una / scossa]",["abbiamo sentito una piccola scossa", "scossa una sentito abbiamo piccola", "sentito scossa abbiamo una piccola", "sentito una scossa abbiamo piccola"],0,"Verbo + participio + artículo + adjetivo + sustantivo."],
@@ -3760,8 +3760,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scribe” en italiano?",["illuminated text", "parchment", "scribe", "lo scriba"],3,"“Scribe” es “lo scriba” en italiano."],
-      ["mcq","¿Cómo se dice “parchment” en italiano?",["la pergamena", "handwriting style", "to decipher", "parchment"],0,"“Parchment” es “la pergamena” en italiano."],
+      ["mcq","¿Cómo se dice “scribe” en italiano?",["il testo miniato","la pergamena","il manoscritto","lo scriba"],3,"“Scribe” es “lo scriba” en italiano."],
+      ["mcq","¿Cómo se dice “parchment” en italiano?",["la pergamena","lo stile calligrafico","decifrare","il manoscritto"],0,"“Parchment” es “la pergamena” en italiano."],
       ["fill","Completa: “___ decifri questo manoscritto farà storia.”",["Qualsiasi", "Chiunque", "Qualunque", "Chi"],1,"“Chiunque” se refiere a una persona no especificada: “chiunque decifri”."],
       ["translate","Traduce con esta estructura: “Whatever the scribe intended, the meaning is now lost.”",["Qualunque cosa lo scriba intendesse, il significato oggi era perduto.", "Qualcosa lo scriba intendesse, il significato oggi è perduto.", "Qualunque cosa lo scriba intendesse, il significato oggi è perduto.", "Qualunque cosa lo scriba intendeva, il significato oggi è perduto."],2,"“Whatever” se traduce con “qualunque cosa” + congiuntivo imperfetto: “intendesse”."],
       ["arrange","Ordena: [splendidamente / miniato / manoscritto / è / questo]",["questo è splendidamente manoscritto miniato", "questo manoscritto è splendidamente miniato", "miniato è questo manoscritto splendidamente", "splendidamente questo manoscritto è miniato"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3785,8 +3785,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “bottleneck” en italiano?",["logistics disruption", "bottleneck", "il collo di bottiglia", "supply chain"],2,"“Bottleneck” es “il collo di bottiglia” en italiano."],
-      ["mcq","¿Cómo se dice “just-in-time delivery” en italiano?",["logistics disruption", "supply chain", "warehouse", "la consegna just-in-time"],3,"“Just-in-time delivery” es “la consegna just-in-time” en italiano."],
+      ["mcq","¿Cómo se dice “bottleneck” en italiano?",["l'interruzione logistica","la catena di approvvigionamento","il collo di bottiglia","il trasporto merci"],2,"“Bottleneck” es “il collo di bottiglia” en italiano."],
+      ["mcq","¿Cómo se dice “just-in-time delivery” en italiano?",["l'interruzione logistica","la catena di approvvigionamento","il magazzino","la consegna just-in-time"],3,"“Just-in-time delivery” es “la consegna just-in-time” en italiano."],
       ["fill","Completa: “Pochi ___ quanto fosse fragile la catena di approvvigionamento.”",["immaginano", "hanno immaginato", "immaginavano", "immagineranno"],2,"“Pochi... immaginavano” usa imperfetto para describir la falta de anticipación."],
       ["translate","Traduce con estructura enfática: “Little did anyone expect such a severe logistics disruption.”",["Nessuno si è aspettato un'interruzione logistica così grave già.", "Qualcuno si aspettava un'interruzione logistica così grave.", "Nessuno si aspettava un'interruzione logistica così grave.", "Nessuno si aspetta un'interruzione logistica così grave."],2,"“Little did anyone expect” se traduce naturalmente con “nessuno si aspettava” en italiano."],
       ["arrange","Ordena: [magazzino / merci / immagazzina / il]",["magazzino merci il immagazzina", "il magazzino immagazzina merci", "magazzino il merci immagazzina", "immagazzina il magazzino merci"],1,"Artículo + sustantivo + verbo + sustantivo."],
@@ -3810,8 +3810,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “antenna” en italiano?",["microphone", "l'antenna", "frequency", "antenna"],1,"“Antenna” es “l'antenna” en italiano."],
-      ["mcq","¿Cómo se dice “static” en italiano?",["microphone", "il disturbo", "to transmit", "static"],1,"“Static” es “il disturbo” en italiano."],
+      ["mcq","¿Cómo se dice “antenna” en italiano?",["il microfono","l'antenna","la frequenza","il segnale radio"],1,"“Antenna” es “l'antenna” en italiano."],
+      ["mcq","¿Cómo se dice “static” en italiano?",["il microfono","il disturbo","trasmettere","il segnale radio"],1,"“Static” es “il disturbo” en italiano."],
       ["fill","Completa: “___ due antenne sul tetto.”",["C'è", "Sono", "È", "Ci sono"],3,"“Antenne” es plural, así que se usa “ci sono”."],
       ["translate","Traduce: “There is a lot of static on this frequency.”",["C'è molti disturbo su questa frequenza.", "C'è molto disturbo su questa frequenza.", "È molto disturbo su questa frequenza.", "Ci sono molto disturbo su questa frequenza."],1,"“Disturbo” es incontable singular, así que se usa “c'è”: “c'è molto disturbo”."],
       ["arrange","Ordena: [debole / segnale / questo / è]",["segnale debole questo è", "questo segnale è debole", "debole è questo segnale", "segnale questo debole è"],1,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3835,8 +3835,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “zodiac sign” en italiano?",["horoscope", "il segno zodiacale", "zodiac sign", "star chart"],1,"“Zodiac sign” es “il segno zodiacale” en italiano."],
-      ["mcq","¿Cómo se dice “destiny” en italiano?",["star chart", "zodiac sign", "fortune teller", "il destino"],3,"“Destiny” es “il destino” en italiano."],
+      ["mcq","¿Cómo se dice “zodiac sign” en italiano?",["l'oroscopo","il segno zodiacale","il/la veggente","la carta astrale"],1,"“Zodiac sign” es “il segno zodiacale” en italiano."],
+      ["mcq","¿Cómo se dice “destiny” en italiano?",["la carta astrale","il segno zodiacale","il/la veggente","il destino"],3,"“Destiny” es “il destino” en italiano."],
       ["fill","Completa: “Questo oroscopo dice che ___ una buona settimana.”",["hai", "avresti", "avevi", "avrai"],3,"El futuro semplice de “avere” en segunda persona es “avrai”."],
       ["translate","Traduce: “The fortune teller thinks she will find love soon.”",["La veggente pensa che troverà l'amore presto.", "La veggente pensava che troverà l'amore presto.", "La veggente pensa che troverebbe l'amore presto.", "La veggente pensa che trova l'amore presto."],0,"“Will find” se traduce con futuro semplice: “troverà”."],
       ["arrange","Ordena: [astrale / interessante / questa / carta / è]",["carta interessante è astrale questa", "è astrale interessante questa carta", "questa carta astrale è interessante", "interessante carta questa astrale è"],2,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3860,8 +3860,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “free fall” en italiano?",["bungee jumping", "la caduta libera", "adrenaline rush", "parachute"],1,"“Free fall” es “la caduta libera” en italiano."],
-      ["mcq","¿Cómo se dice “adrenaline rush” en italiano?",["la scarica di adrenalina", "to jump", "extreme sport", "bungee jumping"],0,"“Adrenaline rush” es “la scarica di adrenalina” en italiano."],
+      ["mcq","¿Cómo se dice “free fall” en italiano?",["il bungee jumping","la caduta libera","la scarica di adrenalina","il paracadute"],1,"“Free fall” es “la caduta libera” en italiano."],
+      ["mcq","¿Cómo se dice “adrenaline rush” en italiano?",["la scarica di adrenalina","saltare","lo sport estremo","il bungee jumping"],0,"“Adrenaline rush” es “la scarica di adrenalina” en italiano."],
       ["fill","Completa: “È riuscita ___ aprire il paracadute in tempo.”",["per", "in", "di", "ad"],3,"“Riuscire a” + infinito: “riuscita ad aprire”."],
       ["translate","Traduce: “He succeeded in overcoming his fear of heights.”",["È riuscito a superare la paura dell'altezze.", "È riuscito a superare la paura dell'altezza.", "Riesce a superare la paura dell'altezza.", "È riuscito di superare la paura dell'altezza."],1,"“Succeed in overcoming” se traduce con “riuscire a superare”."],
       ["arrange","Ordena: [emozionante / questo / molto / è / sport]",["questo sport è molto emozionante", "è questo molto emozionante sport", "questo emozionante molto è sport", "molto sport questo emozionante è"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3885,8 +3885,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “exoskeleton” en italiano?",["exoskeleton", "insect", "l'esoscheletro", "antenna (insect)"],2,"“Exoskeleton” es “l'esoscheletro” en italiano."],
-      ["mcq","¿Cómo se dice “metamorphosis” en italiano?",["pollinator", "la metamorfosi", "exoskeleton", "antenna (insect)"],1,"“Metamorphosis” es “la metamorfosi” en italiano."],
+      ["mcq","¿Cómo se dice “exoskeleton” en italiano?",["l'insetto","la metamorfosi","l'esoscheletro","l'antenna (insetto)"],2,"“Exoskeleton” es “l'esoscheletro” en italiano."],
+      ["mcq","¿Cómo se dice “metamorphosis” en italiano?",["l'impollinatore","la metamorfosi","l'esoscheletro","l'antenna (insetto)"],1,"“Metamorphosis” es “la metamorfosi” en italiano."],
       ["fill","Completa: “___ impollinare i fiori, le api producono miele.”",["Oltre a", "Così come", "Oltre che", "A parte"],0,"“Oltre a” + infinito introduce información extra: “oltre a impollinare”."],
       ["translate","Traduce: “Beetles, as well as butterflies, undergo metamorphosis.”",["Gli scarabei, oltre le farfalle, subiscono la metamorfosi.", "Gli scarabei così come le farfalle subiscono la metamorfosi già.", "Gli scarabei, così come le farfalle, subiscono la metamorfosi.", "Gli scarabei, così come le farfalle, subisce la metamorfosi."],2,"“As well as” se traduce con “così come” en este contexto."],
       ["arrange","Ordena: [impollinatori / importanti / sono / api / le]",["importanti impollinatori api sono le", "api le impollinatori importanti sono", "le importanti impollinatori api sono", "le api sono impollinatori importanti"],3,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3910,8 +3910,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “infringement” en italiano?",["la violazione", "patent", "licensing agreement", "infringement"],0,"“Infringement” es “la violazione” en italiano."],
-      ["mcq","¿Cómo se dice “licensing agreement” en italiano?",["intellectual property", "l'accordo di licenza", "copyright", "licensing agreement"],1,"“Licensing agreement” es “l'accordo di licenza” en italiano."],
+      ["mcq","¿Cómo se dice “infringement” en italiano?",["la violazione","il brevetto","l'accordo di licenza","il diritto d'autore"],0,"“Infringement” es “la violazione” en italiano."],
+      ["mcq","¿Cómo se dice “licensing agreement” en italiano?",["la proprietà intellettuale","l'accordo di licenza","il diritto d'autore","il brevetto"],1,"“Licensing agreement” es “l'accordo di licenza” en italiano."],
       ["fill","Completa: “___ il brevetto, l'azienda ha continuato la produzione.”",["Sebbene", "A causa di", "Nonostante", "Malgrado di"],2,"“Nonostante” + sustantivo (sin preposición adicional): “nonostante il brevetto”."],
       ["translate","Traduce con registro legal formal: “The trademark remains valid, notwithstanding the dispute.”",["Il marchio rimane valevole, nonostante la controversia già.", "Il marchio rimane valido, nonostante la controversia.", "Il marchio rimaneva valido, nonostante la controversia.", "Il marchio rimane valido, nonostante della controversia."],1,"“Notwithstanding” en este contexto formal se traduce con “nonostante”."],
       ["arrange","Ordena: [violazione / ha / dichiarato / l'azienda]",["l'azienda ha dichiarato violazione","dichiarato l'azienda violazione ha","dichiarato ha l'azienda violazione","violazione l'azienda ha dichiarato"],0,"Artículo + sustantivo + auxiliar + participio + sustantivo."],
@@ -3935,8 +3935,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crystalline structure” en italiano?",["sedimentary rock", "la struttura cristallina", "crystalline structure", "mineral composition"],1,"“Crystalline structure” es “la struttura cristallina” en italiano."],
-      ["mcq","¿Cómo se dice “sedimentary rock” en italiano?",["la roccia sedimentaria", "mineral deposit", "igneous rock", "crystalline structure"],0,"“Sedimentary rock” es “la roccia sedimentaria” en italiano."],
+      ["mcq","¿Cómo se dice “crystalline structure” en italiano?",["la roccia sedimentaria","la struttura cristallina","il giacimento minerale","la composizione minerale"],1,"“Crystalline structure” es “la struttura cristallina” en italiano."],
+      ["mcq","¿Cómo se dice “sedimentary rock” en italiano?",["la roccia sedimentaria","il giacimento minerale","la roccia ignea","la struttura cristallina"],0,"“Sedimentary rock” es “la roccia sedimentaria” en italiano."],
       ["fill","Completa: “Lungi dall'___ stabile, questa formazione rocciosa cambia costantemente.”",["è", "essendo", "sia", "essere"],3,"“Lungi dal” + infinito: “lungi dall'essere stabile”."],
       ["translate","Traduce con estructura enfática: “Far from settling the debate, the discovery raised new questions.”",["Lungi risolvere il dibattito, la scoperta ha sollevato nuove domande.", "Lungi dal risolvere il dibattito, la scoperta ha sollevato vecchie domande.", "Lungi dal risolvere il dibattito, la scoperta solleva nuove domande.", "Lungi dal risolvere il dibattito, la scoperta ha sollevato nuove domande."],3,"“Far from settling” se traduce con “lungi dal risolvere”, infinito tras “dal”."],
       ["arrange","Ordena: [raro / questo / minerale / molto / è]",["questo molto è minerale raro", "questo minerale è molto raro", "minerale è molto raro questo", "è raro questo molto minerale"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3960,8 +3960,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “roast” en italiano?",["aroma", "roast", "coffee bean", "la tostatura"],3,"“Roast” es “la tostatura” en italiano."],
-      ["mcq","¿Cómo se dice “barista” en italiano?",["il barista", "cup", "to brew", "coffee bean"],0,"“Barista” es “il barista” en italiano."],
+      ["mcq","¿Cómo se dice “roast” en italiano?",["l'aroma","il chicco di caffè","il barista","la tostatura"],3,"“Roast” es “la tostatura” en italiano."],
+      ["mcq","¿Cómo se dice “barista” en italiano?",["il barista","la tazza","preparare (il caffè)","il chicco di caffè"],0,"“Barista” es “il barista” en italiano."],
       ["fill","Completa: “___ una tazza di caffè, per favore.”",["Voglio di", "Vorrei", "Volevo a", "Vorrebbe"],1,"“Vorrei” es la forma cortés de pedir: “vorrei una tazza”."],
       ["translate","Traduce: “She would like to try the dark roast.”",["Vorrebbe provare la tostatura scura.", "Vorrebbe provando la tostatura scura.", "Vuole provare la tostatura scura per favore.", "Vorrebbe provare la tostatura chiara."],0,"“Would like to try” se traduce con “vorrebbe provare”."],
       ["arrange","Ordena: [forte / questo / caffè / odora]",["forte odora questo caffè", "questo caffè odora forte", "caffè forte odora questo", "odora caffè forte questo"],1,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3985,8 +3985,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “varnish” en italiano?",["sandpaper", "la vernice", "to restore", "workshop"],1,"“Varnish” es “la vernice” en italiano."],
-      ["mcq","¿Cómo se dice “sandpaper” en italiano?",["wood grain", "la carta vetrata", "workshop", "sandpaper"],1,"“Sandpaper” es “la carta vetrata” en italiano."],
+      ["mcq","¿Cómo se dice “varnish” en italiano?",["la carta vetrata","la vernice","restaurare","il laboratorio"],1,"“Varnish” es “la vernice” en italiano."],
+      ["mcq","¿Cómo se dice “sandpaper” en italiano?",["la venatura del legno","la carta vetrata","il laboratorio","il mobile antico"],1,"“Sandpaper” es “la carta vetrata” en italiano."],
       ["fill","Completa: “Lei lascia che il suo assistente ___ il mobile.”",["carteggiare", "carteggia", "carteggiasse", "carteggi"],3,"“Lasciare che” requiere congiuntivo: “lascia che... carteggi”."],
       ["translate","Traduce: “Let the varnish dry overnight.”",["Lascia che la vernice asciuga tutta la notte.", "Lascia che la vernice asciugherà tutta la notte.", "Lascia la vernice asciughi tutta la notte.", "Lascia che la vernice asciughi tutta la notte."],3,"“Let... dry” se traduce con “lascia che... asciughi”, congiuntivo tras “lasciare che”."],
       ["arrange","Ordena: [molto / mobile / antico / è / questo]",["antico è mobile questo molto", "mobile questo è antico molto", "è mobile molto questo antico", "questo mobile è molto antico"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4010,8 +4010,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “etymology” en italiano?",["l'etimologia", "definition", "headword", "synonym"],0,"“Etymology” es “l'etimologia” en italiano."],
-      ["mcq","¿Cómo se dice “headword” en italiano?",["etymology", "synonym", "usage example", "il lemma"],3,"“Headword” es “il lemma” en italiano."],
+      ["mcq","¿Cómo se dice “etymology” en italiano?",["l'etimologia","la definizione","il lemma","il sinonimo"],0,"“Etymology” es “l'etimologia” en italiano."],
+      ["mcq","¿Cómo se dice “headword” en italiano?",["l'etimologia","il sinonimo","l'esempio d'uso","il lemma"],3,"“Headword” es “il lemma” en italiano."],
       ["fill","Completa: “___ indovinare, controlla l'etimologia.”",["Invece", "Meglio che", "Piuttosto che", "Più che"],2,"“Piuttosto che” + infinito introduce la alternativa evitada: “piuttosto che indovinare”."],
       ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Piuttosto che indovinare, controllava l'etimologia.", "Piuttosto che indovinando, controlla l'etimologia.", "Piuttosto che indovinare, controlla l'etimologia.", "Piuttosto indovinare, controlla l'etimologia."],2,"“Rather than guessing” se traduce con “piuttosto che indovinare”, infinito."],
       ["arrange","Ordena: [utile / molto / esempio / questo / è]",["questo esempio è molto utile", "molto è utile esempio questo", "molto questo utile è esempio", "questo esempio utile è molto"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4035,8 +4035,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “MRI scan” en italiano?",["radiologist", "radiation exposure", "la risonanza magnetica", "MRI scan"],2,"“MRI scan” es “la risonanza magnetica” en italiano."],
-      ["mcq","¿Cómo se dice “contrast dye” en italiano?",["diagnosis", "contrast dye", "radiologist", "il mezzo di contrasto"],3,"“Contrast dye” es “il mezzo di contrasto” en italiano."],
+      ["mcq","¿Cómo se dice “MRI scan” en italiano?",["il radiologo/la radiologa","l'esposizione alle radiazioni","la risonanza magnetica","la radiografia"],2,"“MRI scan” es “la risonanza magnetica” en italiano."],
+      ["mcq","¿Cómo se dice “contrast dye” en italiano?",["la diagnosi","la radiografia","il radiologo/la radiologa","il mezzo di contrasto"],3,"“Contrast dye” es “il mezzo di contrasto” en italiano."],
       ["fill","Completa: “Porta i tuoi esami precedenti nel caso in cui il medico ne ___ bisogno.”",["avesse", "ha", "avrà", "aveva"],0,"“Nel caso in cui” requiere congiuntivo: “nel caso in cui... avesse bisogno”."],
       ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza se la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia tralasciava qualcosa.", "Il radiologo ordina una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa."],0,"“In case” se traduce con “nel caso in cui” + congiuntivo, expresando precaución."],
       ["arrange","Ordena: [chiara / diagnosi / molto / è / la]",["chiara la diagnosi è molto", "la diagnosi è molto chiara", "chiara è la diagnosi molto", "diagnosi è chiara molto la"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -4060,8 +4060,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “outbreak” en italiano?",["il focolaio", "outbreak", "herd immunity", "mutation"],0,"“Outbreak” es “il focolaio” en italiano."],
-      ["mcq","¿Cómo se dice “herd immunity” en italiano?",["transmission rate", "outbreak", "l'immunità di gregge", "virus strain"],2,"“Herd immunity” es “l'immunità di gregge” en italiano."],
+      ["mcq","¿Cómo se dice “outbreak” en italiano?",["il focolaio","il ceppo virale","l'immunità di gregge","la mutazione"],0,"“Outbreak” es “il focolaio” en italiano."],
+      ["mcq","¿Cómo se dice “herd immunity” en italiano?",["il tasso di trasmissione","il focolaio","l'immunità di gregge","il ceppo virale"],2,"“Herd immunity” es “l'immunità di gregge” en italiano."],
       ["fill","Completa: “Anche se l'efficacia ___, l'immunità di gregge potrebbe aiutare.”",["diminuisce", "diminuirà", "diminuisse", "è diminuita"],2,"“Anche se” con hipótesis usa congiuntivo imperfetto: “anche se... diminuisse”."],
       ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Il virus si diffonderebbe anche se i tassi di trasmissione calano leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione aumentassero leggermente.", "Il virus si diffonderebbe sebbene i tassi di trasmissione calassero leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],3,"“Even if” con condición hipotética se traduce con “anche se” + congiuntivo imperfetto."],
       ["arrange","Ordena: [preoccupante / molto / mutazione / questa / è]",["è mutazione questa preoccupante molto", "questa mutazione è molto preoccupante", "preoccupante mutazione questa è molto", "è questa molto preoccupante mutazione"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4085,8 +4085,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “quantitative easing” en italiano?",["inflation target", "l'allentamento quantitativo", "central bank", "quantitative easing"],1,"“Quantitative easing” es “l'allentamento quantitativo” en italiano."],
-      ["mcq","¿Cómo se dice “fiscal stimulus” en italiano?",["quantitative easing", "lo stimolo fiscale", "monetary policy", "central bank"],1,"“Fiscal stimulus” es “lo stimolo fiscale” en italiano."],
+      ["mcq","¿Cómo se dice “quantitative easing” en italiano?",["l'obiettivo d'inflazione","l'allentamento quantitativo","la banca centrale","il tasso d'interesse"],1,"“Quantitative easing” es “l'allentamento quantitativo” en italiano."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en italiano?",["l'allentamento quantitativo","lo stimolo fiscale","la politica monetaria","la banca centrale"],1,"“Fiscal stimulus” es “lo stimolo fiscale” en italiano."],
       ["fill","Completa: “Nella misura in cui l'inflazione ___ stabile, sono possibili tagli dei tassi.”",["sia rimasta", "rimane", "rimaneva", "rimarrà"],1,"“Nella misura in cui” con presente indicativo: “nella misura in cui... rimane”."],
       ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La politica funziona nella misura che le banche prestano più liberamente.", "La politica funzionava nella misura in cui le banche prestano più liberamente.", "La politica funziona nella misura in cui le banche prestano meno liberamente.", "La politica funziona nella misura in cui le banche prestano più liberamente."],3,"“To the extent that” se traduce con “nella misura in cui” en italiano."],
       ["arrange","Ordena: [alto / molto / tasso / interesse / è / il / di]",["molto tasso è alto di il interesse", "il tasso di interesse è molto alto", "interesse è il tasso alto molto di", "tasso il molto di interesse è alto"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
@@ -4835,7 +4835,7 @@ window.LESSON_BANKS.IT = [
     ex:[
       ["mcq","¿Cómo se dice “Open the door” en italiano (imperativo tu)?",["Aprendo la porta.", "Aprire la porta.", "Apri la porta.", "Apre la porta."],2,"El imperativo de “aprire” es “apri”."],
       ["mcq","¿Qué forma verbal usa el imperativo negativo informal?",["non + infinito", "non + gerundio", "non + imperativo", "mai + imperativo"],0,"El negativo informal usa “non + infinito”."],
-      ["fill","Completa: “Non ___ questo; è caldo.”",["tocca", "toccando", "tocchi", "toccare"],3,"Imperativo negativo → “non + infinito”: “toccare”."],
+      ["fill","Completa: “Non ___ questo; è caldo.”",["tocca","toccando","toccò","toccare"],3,"Imperativo negativo → “non + infinito”: “toccare”."],
       ["translate","Traduce: “Please, sit down.”",["Siediti, per favore.", "Seduto, per favore.", "Ti siedi, per favore.", "Sedersi, per favore."],0,"Imperativo de “sedersi”: “siediti”."],
       ["arrange","Ordena: [porta / apri / la]",["porta apri la", "apri la porta", "porta la apri", "la porta apri"],1,"Imperativo + artículo + sustantivo."],
       ["writing","Scrivi in italiano 20-30 parole con tre istruzioni usando l'imperativo (affermativo e negativo).",[],["apri", "non toccare", "per favore"]],

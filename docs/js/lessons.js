@@ -243,7 +243,7 @@ const LessonEngine = {
           <div class="ex-progress-label">${progress} · ${isSpeaking ? 'EXPRESIÓN ORAL' : 'EXPRESIÓN ESCRITA'}</div>
           ${ex.context ? `<div class="ex-context">${ex.context}</div>` : ''}
           <div class="ex-question">${ex.question}</div>
-          <div class="ex-production-tip">Usa al menos ${ex.minWords || 25} palabras. Recibirás una revisión orientativa de los criterios de la tarea.</div>
+          <div class="ex-production-tip">Usa al menos ${ex.minWords || 25} palabras.${Array.isArray(ex.correct) && ex.correct.length ? ` Para superar la tarea, incluye al menos ${Math.ceil(ex.correct.length / 2)} de estas expresiones: <strong>${ex.correct.join('</strong> · <strong>')}</strong>.` : ''} Recibirás una revisión orientativa de los criterios de la tarea.</div>
           <textarea id="exProductionInput" class="ex-production-input" rows="6" placeholder="${isSpeaking ? 'Habla con el micrófono o escribe tu respuesta aquí…' : 'Escribe tu respuesta aquí…'}"></textarea>
           ${isSpeaking ? '<button class="ex-production-mic" onclick="LessonEngine.captureSpeech()">🎙️ GRABAR RESPUESTA</button>' : ''}
           <button class="ex-next-btn" id="exSubmitProduction" onclick="LessonEngine.submitProduction()">REVISAR RESPUESTA</button>

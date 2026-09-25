@@ -119,7 +119,7 @@ window.LESSON_BANKS.ES = [
       ["mcq", "¿Cómo se dice \"the menu\" en español?", ["El menú","La cuenta","El plato","La mesa"], 0, "El menú = the menu. La cuenta = the bill, el plato = the plate, la mesa = the table."],
       ["fill", "Completa: \"___ un café, por favor.\" (I would like)", ["Quisiera","Quiero","Quería","Querré"], 0, "\"Quisiera\" es la forma más cortés para pedir algo en un restaurante, aunque \"quiero\" también es válido y común."],
       ["mcq", "¿Qué significa \"la cuenta, por favor\"?", ["The bill, please","The menu, please","The table, please","The water, please"], 0, "\"La cuenta, por favor\" = the bill, please. Se usa al terminar de comer."],
-      ["translate", "Traduce: \"This dish is delicious.\"", ["Este plato está delicioso","Este plato es delicioso","Esta comida están deliciosa","Este plato delicioso está"], 0, "\"Este plato está delicioso.\" — con \"estar\" para valorar el sabor en el momento (también es válido \"es delicioso\" como cualidad)."],
+      ["translate","Traduce: \"This dish is delicious.\"",["Este plato está delicioso","Este plato ser delicioso","Esta comida están deliciosa","Este plato delicioso está"],0,"\"Este plato está delicioso.\" — con \"estar\" para valorar el sabor en el momento."],
       ["mcq", "¿Cómo se dice \"waiter\" en español?", ["Mesero/Camarero","Cocinero","Cliente","Dueño"], 0, "Mesero (Latinoamérica) o camarero (España) = waiter. Cocinero = cook, cliente = customer."],
       ["arrange", "Ordena: [agua / quisiera / un / vaso / de]", ["Quisiera un vaso de agua","Un vaso quisiera de agua","Agua quisiera un vaso de","De agua un vaso quisiera"], 0, "\"Quisiera un vaso de agua.\" = I would like a glass of water."],
     ]
@@ -2041,7 +2041,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “lavar los platos” en inglés?",["to wash the dishes", "to vacuum", "to iron the clothes", "to sweep"],0,"“Lavar los platos” es “to wash the dishes” en inglés."],
       ["mcq","¿Cómo se dice “pasar la aspiradora” en inglés?",["to iron the clothes", "to vacuum", "to wash the dishes", "to make the bed"],1,"“Pasar la aspiradora” es “to vacuum” en inglés."],
       ["fill","Completa: “Antes de salir de casa, ___ que hacer la cama.”",["es", "está", "hay", "tiene"],2,"“Hay que” + infinitivo expresa una obligación general sin sujeto específico."],
-      ["translate","Traduce: “You have to take out the trash every day.”",["Hay que sacar la basura todos los días.", "Hay que sacar la basura una vez a la semana.", "Tienes que sacar la basura todos los días.", "Hay que barrer la basura todos los días."],0,"“You have to” aquí es impersonal en el sentido general, por lo que se traduce mejor con “hay que”."],
+      ["translate","Traduce: “You have to take out the trash every day.”",["Hay que sacar la basura todos los días.","Hay que sacar la basura una vez a la semana.","Hay que sacando la basura todos los días.","Hay que barrer la basura todos los días."],0,"“You have to” aquí es impersonal en el sentido general, por lo que se traduce mejor con “hay que”."],
       ["arrange","Ordena: [platos / lavar / hay / los / que]",["Hay que lavar los platos", "que Hay lavar los platos", "Hay que los platos lavar", "lavar los platos Hay que"],0,"“Hay que” + infinitivo + complemento."],
       ["speaking","Describe en 40-60 palabras qué quehaceres domésticos hay que hacer en tu casa cada semana, usando “hay que”.",[],["hay que", "cada semana", "en casa"]],
     ]
@@ -2463,8 +2463,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cold” en español?",["winter", "sunny", "cold", "frío"],3,"“Cold” es “frío” en español."],
-      ["mcq","¿Cómo se dice “rainy” en español?",["hot", "lluvioso", "spring", "winter"],1,"“Rainy” es “lluvioso” en español."],
+      ["mcq","¿Cómo se dice “cold” en español?",["el invierno","soleado","lluvioso","frío"],3,"“Cold” es “frío” en español."],
+      ["mcq","¿Cómo se dice “rainy” en español?",["caluroso","lluvioso","la primavera","el invierno"],1,"“Rainy” es “lluvioso” en español."],
       ["fill","Completa: “Hoy hace mucho ___, lleva un paraguas.”",["invierno", "calor", "sol", "frío"],3,"“Frío” se usa con “hace”: “hace frío”."],
       ["translate","Traduce: “It's very cold in winter.”",["Hace mucho frío en invierno.", "Está muy frío en invierno.", "Hace mucho calor en invierno.", "Hace mucho frío en verano."],0,"“It's very cold” se traduce como “hace mucho frío”, con “hacer” + sustantivo."],
       ["arrange","Ordena: [sol / hoy / hace]",["hoy sol hace", "sol hoy hace", "hace sol hoy", "hoy hace sol"],2,"Verbo impersonal + sustantivo + adverbio de tiempo."],
@@ -2488,8 +2488,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the veterinarian” en español?",["to feed the pet", "to vaccinate", "el veterinario", "to walk the dog"],2,"“The veterinarian” es “el veterinario” en español."],
-      ["mcq","¿Cómo se dice “to vaccinate” en español?",["to feed the pet", "the litter box", "to adopt a pet", "vacunar"],3,"“To vaccinate” es “vacunar” en español."],
+      ["mcq","¿Cómo se dice “the veterinarian” en español?",["alimentar a la mascota","vacunar","el veterinario","pasear al perro"],2,"“The veterinarian” es “el veterinario” en español."],
+      ["mcq","¿Cómo se dice “to vaccinate” en español?",["alimentar a la mascota","la caja de arena","adoptar una mascota","vacunar"],3,"“To vaccinate” es “vacunar” en español."],
       ["fill","Completa: “___ que pasear al perro todas las mañanas.”",["Tiene", "Tienes", "Tengo", "Tenemos"],2,"“Tener que” se conjuga con “yo” como “tengo que”."],
       ["translate","Traduce: “I have to feed the pet twice a day.”",["Tengo que alimentar a la mascota una vez al día.", "Tengo que pasear a la mascota dos veces al día.", "Tuve que alimentar a la mascota dos veces al día.", "Tengo que alimentar a la mascota dos veces al día."],3,"“I have to feed” se traduce con “tengo que alimentar”, obligación en presente."],
       ["arrange","Ordena: [tiene / perro / ella / pasear / al / que]",["tiene al perro que pasear ella", "ella tiene que pasear al perro", "pasear tiene que perro al ella", "que tiene pasear ella perro al"],1,"Sujeto + “tiene que” + verbo + preposición + artículo + sustantivo."],
@@ -2513,8 +2513,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “investor” en español?",["el inversionista", "to scale a business", "to launch a product", "investor"],0,"“Investor” es “el inversionista” en español."],
-      ["mcq","¿Cómo se dice “to take a risk” en español?",["asumir un riesgo", "to take a risk", "to scale a business", "to launch a product"],0,"“To take a risk” es “asumir un riesgo” en español."],
+      ["mcq","¿Cómo se dice “investor” en español?",["el inversionista","escalar un negocio","lanzar un producto","la startup/empresa emergente"],0,"“Investor” es “el inversionista” en español."],
+      ["mcq","¿Cómo se dice “to take a risk” en español?",["asumir un riesgo","la startup/empresa emergente","escalar un negocio","lanzar un producto"],0,"“To take a risk” es “asumir un riesgo” en español."],
       ["fill","Completa: “___ a lanzar el producto el próximo mes.”",["Van", "Vamos", "Va", "Vas"],1,"“Ir a” con “nosotros” se conjuga como “vamos a”."],
       ["translate","Traduce: “We are going to launch the product next month.”",["Lanzamos el producto el próximo mes.", "Vamos a lanzar el producto el próximo mes.", "Vamos a lanzar el producto este mes.", "Vamos a lanzar el negocio el próximo mes."],1,"“We are going to launch” se traduce con “vamos a lanzar”, plan futuro decidido."],
       ["arrange","Ordena: [inversionistas / va / buscar / ella / a]",["ella va a buscar inversionistas", "inversionistas va a buscar ella", "inversionistas ella va buscar a", "a inversionistas ella va buscar"],0,"Sujeto + “va a” + verbo + sustantivo."],
@@ -2538,8 +2538,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “space station” en español?",["space station", "la estación espacial", "space mission", "rocket launch"],1,"“Space station” es “la estación espacial” en español."],
-      ["mcq","¿Cómo se dice “to orbit” en español?",["rocket launch", "outer space", "orbitar", "space mission"],2,"“To orbit” es “orbitar” en español."],
+      ["mcq","¿Cómo se dice “space station” en español?",["la misión espacial","la estación espacial","el astronauta","el lanzamiento de cohete"],1,"“Space station” es “la estación espacial” en español."],
+      ["mcq","¿Cómo se dice “to orbit” en español?",["el lanzamiento de cohete","el espacio exterior","orbitar","la misión espacial"],2,"“To orbit” es “orbitar” en español."],
       ["fill","Completa: “Para 2030, los astronautas ___ aterrizado en Marte.”",["habrán", "habían", "habrían", "han"],0,"El futuro perfecto usa “habrán” + participio: “habrán aterrizado”."],
       ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Para 2030, los astronautas habrán aterrizado en Marte.", "Para 2030, los astronautas aterrizarán en Marte.", "Para 2030, los astronautas han aterrizado en Marte.", "Para 2030, los astronautas habrían aterrizado en Marte."],0,"“Will have landed” se traduce con futuro perfecto: “habrán aterrizado”."],
       ["arrange","Ordena: [pronto / cohete / órbita / el / la / alcanzará]",["cohete pronto órbita el la alcanzará", "pronto la cohete el órbita alcanzará", "el la alcanzará cohete pronto órbita", "el cohete alcanzará la órbita pronto"],3,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
@@ -2563,8 +2563,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “accountability” en español?",["la rendición de cuentas", "accountability", "algorithmic bias", "to regulate"],0,"“Accountability” es “rendición de cuentas” en español."],
-      ["mcq","¿Cómo se dice “algorithmic bias” en español?",["artificial intelligence", "to regulate", "data privacy", "el sesgo algorítmico"],3,"“Algorithmic bias” es “sesgo algorítmico” en español."],
+      ["mcq","¿Cómo se dice “accountability” en español?",["la rendición de cuentas","la inteligencia artificial","el sesgo algorítmico","regular"],0,"“Accountability” es “rendición de cuentas” en español."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en español?",["la inteligencia artificial","regular","la privacidad de datos","el sesgo algorítmico"],3,"“Algorithmic bias” es “sesgo algorítmico” en español."],
       ["fill","Completa: “Estos sistemas deberían ___ para evitar sesgos.”",["regularse", "regular", "regulados", "regulando"],0,"La pasiva refleja usa “se” + infinitivo tras un modal: “deberían regularse”."],
       ["translate","Traduce con pasiva refleja: “These systems should be regulated to prevent bias.”",["Estos sistemas deberían regularse para evitar un sesgo.", "Estos sistemas deberían regular para evitar sesgos.", "Estos sistemas deberían regularse para evitar sesgos.", "Estos sistemas deben regularse para evitar sesgos."],2,"“Should be regulated” se traduce con pasiva refleja: “deberían regularse”."],
       ["arrange","Ordena: [regularse / algoritmos / deberían / los]",["los regularse deberían algoritmos", "algoritmos los regularse deberían", "los algoritmos deberían regularse", "los regularse algoritmos deberían"],2,"Artículo + sustantivo + condicional + pasiva refleja."],
@@ -2588,8 +2588,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “thought experiment” en español?",["free will", "el experimento mental", "consciousness", "the mind-body problem"],1,"“Thought experiment” es “el experimento mental” en español."],
-      ["mcq","¿Cómo se dice “free will” en español?",["el libre albedrío", "thought experiment", "self-awareness", "the mind-body problem"],0,"“Free will” es “el libre albedrío” en español."],
+      ["mcq","¿Cómo se dice “thought experiment” en español?",["el libre albedrío","el experimento mental","la conciencia","el problema mente-cuerpo"],1,"“Thought experiment” es “el experimento mental” en español."],
+      ["mcq","¿Cómo se dice “free will” en español?",["el libre albedrío","el experimento mental","la autoconciencia","el problema mente-cuerpo"],0,"“Free will” es “el libre albedrío” en español."],
       ["fill","Completa: “Lo que realmente define la conciencia ___ la experiencia subjetiva, no solo el comportamiento.”",["sea", "es", "era", "son"],1,"En oraciones escindidas con sujeto singular se usa “es”: “lo que define... es”."],
       ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Lo que define realmente la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente define la conciencia es solo el comportamiento, no la experiencia subjetiva.", "Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva.", "Lo que realmente definió la conciencia no es solo el comportamiento, sino la experiencia subjetiva."],2,"La oración escindida mantiene “lo que + verbo + no es... sino...”, con “realmente” antes del verbo."],
       ["arrange","Ordena: [debaten / albedrío / aún / filósofos / el / libre / los]",["debaten filósofos albedrío libre los aún el","los filósofos aún debaten el libre albedrío","libre aún debaten el los filósofos albedrío","libre los albedrío aún debaten filósofos el"],1,"Artículo + sustantivo + adverbio + verbo + artículo + sustantivo compuesto."],
@@ -2613,8 +2613,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the seed” en español?",["sunlight", "the seed", "la semilla", "the soil"],2,"“The seed” es “la semilla” en español."],
-      ["mcq","¿Cómo se dice “to grow” en español?",["the flower", "to grow", "sunlight", "crecer"],3,"“To grow” es “crecer” en español."],
+      ["mcq","¿Cómo se dice “the seed” en español?",["la luz del sol","regar las plantas","la semilla","la tierra"],2,"“The seed” es “la semilla” en español."],
+      ["mcq","¿Cómo se dice “to grow” en español?",["la flor","regar las plantas","la luz del sol","crecer"],3,"“To grow” es “crecer” en español."],
       ["fill","Completa: “___ las plantas todos los días, o se morirán.”",["Riegas", "Regar", "Regando", "Riega"],3,"El imperativo (tú) de “regar” es “riega”."],
       ["translate","Traduce: “Water the plants every day.”",["Tú riegas las plantas todos los días.", "Riega las plantas todos los días.", "Riega las plantas todas las semanas.", "Regando las plantas todos los días."],1,"El imperativo comienza directamente con el verbo conjugado: “Riega las plantas...”."],
       ["arrange","Ordena: [olvides / puerta / no / cerrar / la]",["no olvides cerrar la puerta", "cerrar puerta olvides no la", "no puerta la cerrar olvides", "puerta no cerrar olvides la"],0,"“No” + subjuntivo + infinitivo + artículo + sustantivo."],
@@ -2638,8 +2638,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the library card” en español?",["the novel", "el carné de biblioteca", "the bookshelf", "the library card"],1,"“The library card” es “el carné de biblioteca” en español."],
-      ["mcq","¿Cómo se dice “the due date” en español?",["the novel", "to return a book", "the bookshelf", "la fecha de devolución"],3,"“The due date” es “la fecha de devolución” en español."],
+      ["mcq","¿Cómo se dice “the library card” en español?",["la novela","el carné de biblioteca","el estante","pedir prestado un libro"],1,"“The library card” es “el carné de biblioteca” en español."],
+      ["mcq","¿Cómo se dice “the due date” en español?",["la novela","devolver un libro","el estante","la fecha de devolución"],3,"“The due date” es “la fecha de devolución” en español."],
       ["fill","Completa: “Yo ___ una novela de la biblioteca la semana pasada.”",["pidiendo", "pedí", "pide", "pido"],1,"El pretérito de “pedir” en primera persona es “pedí”."],
       ["translate","Traduce: “She returned the book on time.”",["Ella devolvió el libro tarde.", "Ella devolvió el libro a tiempo.", "Ella devuelve el libro a tiempo.", "Ella devolvió la novela a tiempo."],1,"“Returned” se traduce con pretérito: “devolvió”."],
       ["arrange","Ordena: [estante / en / está / libro / el / el]",["está el libro estante en el", "el en estante el está libro", "estante en el libro está el", "el libro está en el estante"],3,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -2663,8 +2663,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the crib” en español?",["to burp the baby", "the pediatrician", "to breastfeed", "la cuna"],3,"“The crib” es “la cuna” en español."],
-      ["mcq","¿Cómo se dice “the pediatrician” en español?",["the crib", "to babysit", "el pediatra", "to breastfeed"],2,"“The pediatrician” es “el pediatra” en español."],
+      ["mcq","¿Cómo se dice “the crib” en español?",["hacer eructar al bebé","el pediatra","amamantar","la cuna"],3,"“The crib” es “la cuna” en español."],
+      ["mcq","¿Cómo se dice “the pediatrician” en español?",["la cuna","cuidar niños","el pediatra","amamantar"],2,"“The pediatrician” es “el pediatra” en español."],
       ["fill","Completa: “El bebé ___ cada dos horas.”",["se despertaba", "se despertó", "despertándose", "se despierta"],0,"El imperfecto describe un hábito repetido en el pasado: “se despertaba”."],
       ["translate","Traduce: “We used to visit the pediatrician every month.”",["Visitábamos al pediatra cada mes.", "Visitamos al pediatra cada mes.", "Visitábamos al dentista cada mes.", "Visitábamos al pediatra cada semana."],0,"“Used to visit” se traduce con imperfecto: “visitábamos”."],
       ["arrange","Ordena: [cuna / dormía / la / en / ella]",["ella en dormía cuna la", "la dormía ella cuna en", "ella dormía en la cuna", "ella dormía cuna la en"],2,"Sujeto + verbo + preposición + artículo + sustantivo."],
@@ -2688,8 +2688,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancient civilization” en español?",["archaeological site", "ruins", "la civilización antigua", "to excavate"],2,"“Ancient civilization” es “la civilización antigua” en español."],
-      ["mcq","¿Cómo se dice “to excavate” en español?",["to date (a find)", "archaeological site", "excavar", "ancient civilization"],2,"“To excavate” es “excavar” en español."],
+      ["mcq","¿Cómo se dice “ancient civilization” en español?",["el sitio arqueológico","las ruinas","la civilización antigua","excavar"],2,"“Ancient civilization” es “la civilización antigua” en español."],
+      ["mcq","¿Cómo se dice “to excavate” en español?",["datar (un hallazgo)","el sitio arqueológico","excavar","la civilización antigua"],2,"“To excavate” es “excavar” en español."],
       ["fill","Completa: “Este artefacto ___ pertenecido a un rey.”",["ha", "había", "habrá", "habría"],2,"El futuro compuesto de probabilidad usa “habrá” + participio: “habrá pertenecido”."],
       ["translate","Traduce: “The site might have been a temple.”",["El sitio podría haber sido un palacio.", "El sitio podría ser un templo.", "El sitio podría haber sido un templo.", "El sitio habrá sido un templo."],2,"“Might have been” se traduce con condicional de probabilidad: “podría haber sido”."],
       ["arrange","Ordena: [construido / antigua / esto / civilización / habrá / una]",["una civilización antigua habrá construido esto", "civilización antigua una construido esto habrá", "esto una civilización habrá construido antigua", "esto construido una habrá antigua civilización"],0,"Artículo + adjetivo + sustantivo + futuro compuesto + pronombre."],
@@ -2713,8 +2713,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “neuroplasticity” en español?",["la neuroplasticidad", "brain scan", "neural pathway", "synapse"],0,"“Neuroplasticity” es “la neuroplasticidad” en español."],
-      ["mcq","¿Cómo se dice “synapse” en español?",["neuroplasticity", "neurotransmitter", "la sinapsis", "neural pathway"],2,"“Synapse” es “la sinapsis” en español."],
+      ["mcq","¿Cómo se dice “neuroplasticity” en español?",["la neuroplasticidad","el escáner cerebral","la vía neuronal","la sinapsis"],0,"“Neuroplasticity” es “la neuroplasticidad” en español."],
+      ["mcq","¿Cómo se dice “synapse” en español?",["la neuroplasticidad","el neurotransmisor","la sinapsis","la vía neuronal"],2,"“Synapse” es “la sinapsis” en español."],
       ["fill","Completa: “Raramente ___ los investigadores evidencia tan clara.”",["han encontrado", "encuentran", "encontraron", "encontrarán"],0,"Tras “raramente” al inicio, se suele usar pretérito perfecto compuesto: “raramente han encontrado”."],
       ["translate","Traduce con estructura enfática: “Rarely have researchers found such clear evidence.”",["Los investigadores han encontrado raramente evidencia tan clara.", "Raramente han encontrado los investigadores evidencia tan clara ahora.", "Raramente han encontrado los investigadores evidencia tan clara.", "Raramente los investigadores han encontrado evidencia tan clara."],2,"La estructura enfática coloca el adverbio primero, seguido del verbo: “raramente han encontrado los investigadores”."],
       ["arrange","Ordena: [se / adapta / solo / así / el / cerebro]",["solo se cerebro adapta así el", "solo así se cerebro el adapta", "solo así se adapta el cerebro", "cerebro solo el se adapta así"],2,"Adverbio + adverbio + pronombre + verbo + artículo + sustantivo."],
@@ -2738,8 +2738,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “loss aversion” en español?",["nudge", "irrational behavior", "la aversión a la pérdida", "decision-making"],2,"“Loss aversion” es “la aversión a la pérdida” en español."],
-      ["mcq","¿Cómo se dice “anchoring effect” en español?",["decision-making", "el efecto de anclaje", "irrational behavior", "loss aversion"],1,"“Anchoring effect” es “el efecto de anclaje” en español."],
+      ["mcq","¿Cómo se dice “loss aversion” en español?",["el empujón/incentivo sutil","el comportamiento irracional","la aversión a la pérdida","la toma de decisiones"],2,"“Loss aversion” es “la aversión a la pérdida” en español."],
+      ["mcq","¿Cómo se dice “anchoring effect” en español?",["la toma de decisiones","el efecto de anclaje","el comportamiento irracional","la aversión a la pérdida"],1,"“Anchoring effect” es “el efecto de anclaje” en español."],
       ["fill","Completa: “La persistencia del sesgo cognitivo afecta la ___.”",["decidiendo", "decisión", "decidir", "toma de decisiones"],3,"La forma nominalizada de “decidir” en este registro académico es “la toma de decisiones”."],
       ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["La aversión a la pérdida afecta decidir.", "La aversión a la pérdida afectan la toma de decisiones.", "La pérdida de aversión afecta la toma de decisiones.", "La aversión a la pérdida afecta la toma de decisiones."],3,"“Decision-making” se traduce con la forma nominalizada “la toma de decisiones”, no con el verbo “decidir”."],
       ["arrange","Ordena: [cognitivo / estudian / investigadores / sesgo / el / los]",["los el sesgo investigadores cognitivo estudian", "los investigadores estudian el sesgo cognitivo", "estudian cognitivo investigadores sesgo el los", "el estudian los sesgo cognitivo investigadores"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
@@ -2763,8 +2763,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “lens” en español?",["to take a picture", "lens", "camera", "el lente"],3,"“Lens” es “el lente” en español."],
-      ["mcq","¿Cómo se dice “memory card” en español?",["lens", "la tarjeta de memoria", "zoom", "to take a picture"],1,"“Memory card” es “la tarjeta de memoria” en español."],
+      ["mcq","¿Cómo se dice “lens” en español?",["tomar una foto","la cámara","la foto","el lente"],3,"“Lens” es “el lente” en español."],
+      ["mcq","¿Cómo se dice “memory card” en español?",["el lente","la tarjeta de memoria","el zoom","tomar una foto"],1,"“Memory card” es “la tarjeta de memoria” en español."],
       ["fill","Completa: “Esta cámara no ___ hacer zoom muy lejos.”",["puedes", "puedo", "pueden", "puede"],3,"“Poder” conjugado en tercera persona singular es “puede”."],
       ["translate","Traduce: “I can take good photos with this camera.”",["No puedo tomar buenas fotos con esta cámara.", "Puedo tomar buenas fotos con esa cámara.", "Puedo tomar buenas fotos con esta cámara.", "Puedo tomé buenas fotos con esta cámara."],2,"“I can take” se traduce con “puedo tomar”, “poder” + infinitivo."],
       ["arrange","Ordena: [lejos / hacer / no / puede / zoom / esta / cámara]",["zoom no puede esta cámara lejos hacer", "esta cámara no puede hacer zoom lejos", "zoom puede lejos cámara esta no hacer", "hacer cámara puede zoom no lejos esta"],1,"Pronombre + sustantivo + negación + verbo + verbo + sustantivo + adverbio."],
@@ -2788,8 +2788,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sleeping bag” en español?",["campfire", "sleeping bag", "to pitch a tent", "el saco de dormir"],3,"“Sleeping bag” es “el saco de dormir” en español."],
-      ["mcq","¿Cómo se dice “hiking trail” en español?",["campfire", "el sendero", "backpack", "to pitch a tent"],1,"“Hiking trail” es “el sendero” en español."],
+      ["mcq","¿Cómo se dice “sleeping bag” en español?",["la fogata","la tienda de campaña","armar una tienda","el saco de dormir"],3,"“Sleeping bag” es “el saco de dormir” en español."],
+      ["mcq","¿Cómo se dice “hiking trail” en español?",["la fogata","el sendero","la mochila","armar una tienda"],1,"“Hiking trail” es “el sendero” en español."],
       ["fill","Completa: “No nos queda ___ de agua.”",["algo", "nada", "poco", "mucho"],1,"En oraciones negativas se usa “nada de”: “no nos queda nada de agua”."],
       ["translate","Traduce: “We have some firewood for the campfire.”",["Tenemos algo de leña para la tienda.", "Tenemos nada de leña para la fogata.", "Tengo algo de leña para la fogata.", "Tenemos algo de leña para la fogata."],3,"“Some firewood” en afirmativa se traduce con “algo de leña”."],
       ["arrange","Ordena: [largo / este / sendero / es]",["es este sendero largo", "este sendero es largo", "este es largo sendero", "es largo sendero este"],1,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -2813,8 +2813,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “beehive” en español?",["queen bee", "la colmena", "to pollinate", "to sting"],1,"“Beehive” es “la colmena” en español."],
-      ["mcq","¿Cómo se dice “to pollinate” en español?",["to pollinate", "beekeeper", "polinizar", "honey"],2,"“To pollinate” es “polinizar” en español."],
+      ["mcq","¿Cómo se dice “beehive” en español?",["la abeja reina","la colmena","polinizar","picar"],1,"“Beehive” es “la colmena” en español."],
+      ["mcq","¿Cómo se dice “to pollinate” en español?",["la colmena","el apicultor","polinizar","la miel"],2,"“To pollinate” es “polinizar” en español."],
       ["fill","Completa: “El apicultor ___ cuida esta colmena tiene mucha experiencia.”",["quien", "cual", "cuyo", "que"],3,"“Que” se usa como relativo general: “el apicultor que cuida”."],
       ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Las abejas, que polinizan las flores, es esencial para la agricultura.", "Las abejas, quien polinizan las flores, son esenciales para la agricultura.", "Las abejas, que polinizan las flores, son esenciales para la agricultura.", "Las abejas, que poliniza las flores, son esenciales para la agricultura."],2,"“Which” se traduce con “que” en esta cláusula explicativa: “las abejas, que polinizan...”."],
       ["arrange","Ordena: [colmena / en / que / abejas / viven / la / las]",["las viven abejas que colmena la en", "las abejas que viven en la colmena", "las abejas que la en colmena viven", "la las viven colmena abejas que en"],1,"Artículo + sustantivo + “que” + verbo + preposición + artículo + sustantivo."],
@@ -2838,8 +2838,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “blockchain” en español?",["digital wallet", "cryptocurrency", "to invest", "la cadena de bloques"],3,"“Blockchain” es “la cadena de bloques” en español."],
-      ["mcq","¿Cómo se dice “volatility” en español?",["blockchain", "la volatilidad", "digital wallet", "to invest"],1,"“Volatility” es “la volatilidad” en español."],
+      ["mcq","¿Cómo se dice “blockchain” en español?",["la billetera digital","la criptomoneda","invertir","la cadena de bloques"],3,"“Blockchain” es “la cadena de bloques” en español."],
+      ["mcq","¿Cómo se dice “volatility” en español?",["la cadena de bloques","la volatilidad","la billetera digital","invertir"],1,"“Volatility” es “la volatilidad” en español."],
       ["fill","Completa: “Si ___ invertido antes, habría ganado más dinero.”",["había", "habría", "hube", "hubiera"],3,"Tras “si” hipotético sobre el pasado se usa pluscuamperfecto de subjuntivo: “si hubiera invertido”."],
       ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Si el mercado no se desplomó, los precios se habrían mantenido altos.", "Si el mercado no se hubiera desplomado, los precios se habrían mantenidos altos.", "Si el mercado no se hubiera desplomado, los precios se mantendrían altos.", "Si el mercado no se hubiera desplomado, los precios se habrían mantenido altos."],3,"“Hadn't crashed... would have stayed” se traduce con pluscuamperfecto de subjuntivo + condicional compuesto."],
       ["arrange","Ordena: [arriesgada / es / la / criptomoneda / muy]",["la es muy criptomoneda arriesgada", "criptomoneda es muy arriesgada la", "la criptomoneda es muy arriesgada", "la criptomoneda arriesgada muy es"],2,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -2863,8 +2863,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “informed consent” en español?",["el consentimiento informado", "ethical dilemma", "to manipulate DNA", "informed consent"],0,"“Informed consent” es “el consentimiento informado” en español."],
-      ["mcq","¿Cómo se dice “clinical trial” en español?",["ethical dilemma", "el ensayo clínico", "to manipulate DNA", "informed consent"],1,"“Clinical trial” es “el ensayo clínico” en español."],
+      ["mcq","¿Cómo se dice “informed consent” en español?",["el consentimiento informado","el dilema ético","manipular el ADN","la edición genética"],0,"“Informed consent” es “el consentimiento informado” en español."],
+      ["mcq","¿Cómo se dice “clinical trial” en español?",["el dilema ético","el ensayo clínico","manipular el ADN","el consentimiento informado"],1,"“Clinical trial” es “el ensayo clínico” en español."],
       ["fill","Completa: “La edición genética es ___ poderosa que plantea serias cuestiones éticas.”",["tal", "tanto", "muy", "tan"],3,"“Tan” + adjetivo + “que” expresa consecuencia enfática: “tan poderosa que”."],
       ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["Es un tema tan complejo que los expertos aún no están de acuerdo.", "Es un tema tan complejo que los expertos aún están de acuerdo.", "Es un tema tal complejo que los expertos aún no están de acuerdo.", "Es tan un tema complejo que los expertos aún no están de acuerdo."],0,"“Such a complex issue that” se traduce con “tan complejo que” en español."],
       ["arrange","Ordena: [ético / real / un / esto / dilema / es]",["esto es un dilema ético real", "ético dilema un real esto es", "un real es esto ético dilema", "real esto ético dilema un es"],0,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
@@ -2888,8 +2888,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sovereignty” en español?",["la soberanía", "sovereignty", "geopolitical tension", "sanctions"],0,"“Sovereignty” es “la soberanía” en español."],
-      ["mcq","¿Cómo se dice “geopolitical tension” en español?",["la tensión geopolítica", "geopolitical tension", "sovereignty", "to negotiate a treaty"],0,"“Geopolitical tension” es “la tensión geopolítica” en español."],
+      ["mcq","¿Cómo se dice “sovereignty” en español?",["la soberanía","las relaciones diplomáticas","la tensión geopolítica","las sanciones"],0,"“Sovereignty” es “la soberanía” en español."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en español?",["la tensión geopolítica","las relaciones diplomáticas","la soberanía","negociar un tratado"],0,"“Geopolitical tension” es “la tensión geopolítica” en español."],
       ["fill","Completa: “___ los datos, los investigadores concluyeron que las tensiones aumentarían.”",["Analizado", "Analizar", "Analizando", "Analizaron"],2,"El gerundio en posición inicial resume una cláusula subordinada: “analizando los datos”."],
       ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Ante las crecientes sanciones, el gobierno cambió su política.", "Ante las crecientes sanciones, el gobierno cambia su política.", "Con las crecientes sanciones, el gobierno cambió su política.", "Ante las creciendo sanciones, el gobierno cambió su política."],0,"“Faced with mounting sanctions” se traduce de forma concisa con “ante las crecientes sanciones”."],
       ["arrange","Ordena: [naciones / tratado / negociarán / las / el]",["naciones negociarán el las tratado", "las naciones negociarán el tratado", "negociarán naciones las tratado el", "tratado naciones el negociarán las"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -2913,8 +2913,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scissors” en español?",["short/long hair", "to trim", "hairdresser", "las tijeras"],3,"“Scissors” es “las tijeras” en español."],
-      ["mcq","¿Cómo se dice “to trim” en español?",["to trim", "recortar", "short/long hair", "scissors"],1,"“To trim” es “recortar” en español."],
+      ["mcq","¿Cómo se dice “scissors” en español?",["el pelo corto/largo","recortar","el peluquero/la peluquera","las tijeras"],3,"“Scissors” es “las tijeras” en español."],
+      ["mcq","¿Cómo se dice “to trim” en español?",["el corte de pelo","recortar","el pelo corto/largo","las tijeras"],1,"“To trim” es “recortar” en español."],
       ["fill","Completa: “Este corte es ___ corto que el anterior.”",["más", "menos", "el más", "tan"],0,"El comparativo de superioridad se forma con “más... que”: “más corto que”."],
       ["translate","Traduce: “She has the longest hair in the family.”",["Ella tiene el pelo más largo en la familia.", "Ella tiene el pelo más largo de la familia.", "Ella tiene el pelo más largo que la familia.", "Ella tienen el pelo más largo de la familia."],1,"“The longest... in” se traduce con “el más largo de” en español."],
       ["arrange","Ordena: [peluquería / mejor / ciudad / esta / la / de / es / la]",["mejor ciudad la es la peluquería esta de","esta es la mejor peluquería de la ciudad","la la de ciudad esta es mejor peluquería","la esta de ciudad la peluquería mejor es"],1,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición + artículo + sustantivo."],
@@ -2938,8 +2938,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “flat tire” en español?",["mechanic", "flat tire", "oil change", "la llanta ponchada"],3,"“Flat tire” es “la llanta ponchada” en español."],
-      ["mcq","¿Cómo se dice “spare part” en español?",["oil change", "el repuesto", "mechanic", "flat tire"],1,"“Spare part” es “el repuesto” en español."],
+      ["mcq","¿Cómo se dice “flat tire” en español?",["el mecánico","el motor","el cambio de aceite","la llanta ponchada"],3,"“Flat tire” es “la llanta ponchada” en español."],
+      ["mcq","¿Cómo se dice “spare part” en español?",["el cambio de aceite","el repuesto","el mecánico","la llanta ponchada"],1,"“Spare part” es “el repuesto” en español."],
       ["fill","Completa: “No queda ___ tiempo antes del viaje.”",["mucho", "mucha", "muchos", "muchas"],0,"“Tiempo” es masculino singular, así que se usa “mucho”: “mucho tiempo”."],
       ["translate","Traduce: “This repair needs a lot of spare parts.”",["Esta reparación necesita muchas repuestos.", "Esta reparación necesitan muchos repuestos.", "Esta reparación necesita muchos repuestos.", "Esta reparación necesita mucho repuestos."],2,"“Repuestos” es masculino plural, así que se usa “muchos”: “muchos repuestos”."],
       ["arrange","Ordena: [arreglado / mecánico / el / motor / el / ha]",["el mecánico arreglado el ha motor", "el mecánico ha arreglado el motor", "el ha arreglado mecánico motor el", "ha el arreglado mecánico motor el"],1,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
@@ -2963,8 +2963,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sheet music” en español?",["la partitura", "to tune an instrument", "rhythm", "sheet music"],0,"“Sheet music” es “la partitura” en español."],
-      ["mcq","¿Cómo se dice “to tune an instrument” en español?",["to practice scales", "afinar un instrumento", "sheet music", "music teacher"],1,"“To tune an instrument” es “afinar un instrumento” en español."],
+      ["mcq","¿Cómo se dice “sheet music” en español?",["la partitura","afinar un instrumento","el ritmo","practicar escalas"],0,"“Sheet music” es “la partitura” en español."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en español?",["practicar escalas","afinar un instrumento","la partitura","el profesor de música"],1,"“To tune an instrument” es “afinar un instrumento” en español."],
       ["fill","Completa: “Disfruto ___ escalas cada mañana.”",["practicando", "practicar", "practicado", "practico"],0,"“Disfrutar” se usa con gerundio en español: “disfruto practicando”."],
       ["translate","Traduce: “She wants to perform in front of an audience.”",["Ella quiere tocando frente a una audiencia.", "Ella quiere tocar frente a un audiencia.", "Ella quieren tocar frente a una audiencia.", "Ella quiere tocar frente a una audiencia."],3,"“Want to perform” se traduce con infinitivo: “quiere tocar”."],
       ["arrange","Ordena: [afinación / necesita / instrumento / este]",["necesita este afinación instrumento", "instrumento afinación este necesita", "necesita instrumento este afinación", "este instrumento necesita afinación"],3,"Pronombre + sustantivo + verbo + sustantivo."],
@@ -2988,8 +2988,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “circular economy” en español?",["la economía circular", "raw material", "landfill", "to reuse"],0,"“Circular economy” es “la economía circular” en español."],
-      ["mcq","¿Cómo se dice “landfill” en español?",["to reuse", "raw material", "el vertedero", "to recycle"],2,"“Landfill” es “el vertedero” en español."],
+      ["mcq","¿Cómo se dice “circular economy” en español?",["la economía circular","la materia prima","el vertedero","reutilizar"],0,"“Circular economy” es “la economía circular” en español."],
+      ["mcq","¿Cómo se dice “landfill” en español?",["reutilizar","la materia prima","el vertedero","reciclar"],2,"“Landfill” es “el vertedero” en español."],
       ["fill","Completa: “Si ___ papel, se ahorran árboles.”",["reciclarás", "reciclaste", "reciclas", "reciclando"],2,"El condicional cero usa presente de indicativo en ambas cláusulas: “si reciclas”."],
       ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Los materiales fueron a un vertedero si no se reutilizan.", "Los materiales van a un vertedero si no se reutilizaron.", "Los materiales van a un vertedero si no se reutilizan.", "El material van a un vertedero si no se reutilizan."],2,"El condicional cero mantiene presente en ambas cláusulas: “van... si no se reutilizan”."],
       ["arrange","Ordena: [prima / ahorra / reciclar / materia]",["reciclar ahorra materia prima", "reciclar materia prima ahorra", "prima reciclar materia ahorra", "materia reciclar ahorra prima"],0,"Verbo + verbo + sustantivo + adjetivo."],
@@ -3013,8 +3013,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “inequality” en español?",["inequality", "systemic oppression", "civil rights", "la desigualdad"],3,"“Inequality” es “la desigualdad” en español."],
-      ["mcq","¿Cómo se dice “redistribution” en español?",["social justice", "la redistribución", "civil rights", "common good"],1,"“Redistribution” es “la redistribución” en español."],
+      ["mcq","¿Cómo se dice “inequality” en español?",["la justicia social","la opresión sistémica","los derechos civiles","la desigualdad"],3,"“Inequality” es “la desigualdad” en español."],
+      ["mcq","¿Cómo se dice “redistribution” en español?",["la justicia social","la redistribución","los derechos civiles","el bien común"],1,"“Redistribution” es “la redistribución” en español."],
       ["fill","Completa: “Ojalá las reformas pasadas ___ abordado la opresión sistémica.”",["hubieran", "habían", "hayan", "habrían"],0,"“Ojalá” + pluscuamperfecto de subjuntivo expresa arrepentimiento sobre el pasado: “ojalá... hubieran abordado”."],
       ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Los filósofos desearían que la desigualdad pudiera resolverse solo con políticas.", "Los filósofos desearían que la desigualdad puede resolverse solo con políticas.", "Los filósofos desearía que la desigualdad pudiera resolverse solo con políticas.", "Los filósofos desearían que la desigualdad pudiera resolver solo con políticas."],0,"“Wish... could be solved” se traduce con “desearían que... pudiera resolverse”, subjuntivo tras “desear que”."],
       ["arrange","Ordena: [común / debaten / bien / el / filósofos / los]",["común bien los el debaten filósofos", "el común filósofos bien debaten los", "los filósofos debaten el bien común", "filósofos los debaten el común bien"],2,"Artículo + sustantivo + verbo + artículo + adjetivo + sustantivo."],
@@ -3038,8 +3038,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cultural relativism” en español?",["kinship", "oral tradition", "cultural relativism", "el relativismo cultural"],3,"“Cultural relativism” es “el relativismo cultural” en español."],
-      ["mcq","¿Cómo se dice “rite of passage” en español?",["kinship", "collective identity", "rite of passage", "el rito de iniciación"],3,"“Rite of passage” es “el rito de iniciación” en español."],
+      ["mcq","¿Cómo se dice “cultural relativism” en español?",["el parentesco","la tradición oral","el ritual","el relativismo cultural"],3,"“Cultural relativism” es “el relativismo cultural” en español."],
+      ["mcq","¿Cómo se dice “rite of passage” en español?",["el parentesco","la identidad colectiva","el ritual","el rito de iniciación"],3,"“Rite of passage” es “el rito de iniciación” en español."],
       ["fill","Completa: “Cuanto ___ estudian los antropólogos los rituales, más entienden la identidad colectiva.”",["más", "mucho", "mejor", "menos"],0,"El comparativo doble repite “cuanto más...más” en ambas cláusulas."],
       ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Cuanto la tradición más antigua, más fuerte su influencia.", "Cuanto más antigua es la tradición, la más fuerte su influencia.", "Cuanto más antigua la tradición, más fuerte es su influencia.", "Cuanto más antigua la tradición, más fuerte su influencia."],3,"El comparativo doble en español es “cuanto más...más...”, sin verbo obligatorio en la segunda cláusula."],
       ["arrange","Ordena: [marcan / adultez / la / de / los / ritos / iniciación]",["adultez marcan ritos los iniciación de la", "adultez la de ritos los iniciación marcan", "los ritos de iniciación marcan la adultez", "marcan adultez iniciación ritos la los de"],2,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
@@ -3063,8 +3063,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “screwdriver” en español?",["hammer", "screw", "toolbox", "el destornillador"],3,"“Screwdriver” es “el destornillador” en español."],
-      ["mcq","¿Cómo se dice “ladder” en español?",["ladder", "screwdriver", "hammer", "la escalera"],3,"“Ladder” es “la escalera” en español."],
+      ["mcq","¿Cómo se dice “screwdriver” en español?",["el martillo","el tornillo","la caja de herramientas","el destornillador"],3,"“Screwdriver” es “el destornillador” en español."],
+      ["mcq","¿Cómo se dice “ladder” en español?",["el martillo","el destornillador","el clavo","la escalera"],3,"“Ladder” es “la escalera” en español."],
       ["fill","Completa: “Este martillo es ___ pesado como aquel.”",["tanto", "más", "menos", "tan"],3,"La comparación de igualdad usa “tan + adjetivo + como”: “tan pesado como”."],
       ["translate","Traduce: “The ladder isn't as tall as the wall.”",["La escalera es tan alta como la pared.", "La escalera no es tan alta como la pared.", "La escalera no es más alta que la pared.", "La escalera no es tan alta que la pared."],1,"“Isn't as... as” se traduce con “no es tan... como”."],
       ["arrange","Ordena: [pesada / caja / herramientas / la / muy / es / de]",["la caja herramientas es pesada muy de", "la caja de herramientas es muy pesada", "muy herramientas la pesada es caja de", "muy caja de es pesada la herramientas"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
@@ -3088,8 +3088,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “washing machine” en español?",["la lavadora", "stain", "detergent", "dryer"],0,"“Washing machine” es “la lavadora” en español."],
-      ["mcq","¿Cómo se dice “stain” en español?",["dryer", "to hang out clothes", "to iron", "la mancha"],3,"“Stain” es “la mancha” en español."],
+      ["mcq","¿Cómo se dice “washing machine” en español?",["la lavadora","la mancha","el detergente","la secadora"],0,"“Washing machine” es “la lavadora” en español."],
+      ["mcq","¿Cómo se dice “stain” en español?",["la secadora","tender la ropa","planchar","la mancha"],3,"“Stain” es “la mancha” en español."],
       ["fill","Completa: “Hay ___ manchas en esta camisa.”",["poco", "unas pocas", "un poco de", "mucha"],1,"“Manchas” es contable plural, así que se usa “unas pocas”: “unas pocas manchas”."],
       ["translate","Traduce: “I need a little detergent for this load.”",["Necesito un poco de detergente para esta carga.", "Necesito unos pocos detergente para esta carga.", "Necesito poco detergente para esta carga.", "Necesito un poco de detergentes para esta carga."],0,"“Detergent” es incontable, así que se usa “un poco de”: “un poco de detergente”."],
       ["arrange","Ordena: [planchar / camisa / hay / que / esta]",["que camisa planchar hay esta", "hay que planchar esta camisa", "que hay planchar esta camisa", "esta hay que camisa planchar"],1,"Verbo impersonal + verbo + artículo + sustantivo."],
@@ -3113,8 +3113,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to checkmate” en español?",["dar jaque mate", "pawn", "to checkmate", "to move a piece"],0,"“To checkmate” es “dar jaque mate” en español."],
-      ["mcq","¿Cómo se dice “pawn” en español?",["strategy", "pawn", "to move a piece", "el peón"],3,"“Pawn” es “el peón” en español."],
+      ["mcq","¿Cómo se dice “to checkmate” en español?",["dar jaque mate","el peón","el tablero de ajedrez","mover una pieza"],0,"“To checkmate” es “dar jaque mate” en español."],
+      ["mcq","¿Cómo se dice “pawn” en español?",["la estrategia","el tablero de ajedrez","mover una pieza","el peón"],3,"“Pawn” es “el peón” en español."],
       ["fill","Completa: “Si mueves esa pieza, ___ la partida.”",["perderías", "perdiste", "pierdes", "perderás"],3,"Tras “si” + presente, se usa futuro simple en la consecuencia: “si mueves... perderás”."],
       ["translate","Traduce: “If she plans her strategy well, she will win.”",["Si ella planea bien su estrategia, ganará.", "Si ella planeó bien su estrategia, ganará.", "Si ella planea bien su estrategia, gana.", "Si ella planea bien su estrategia, ganaría."],0,"“If... will win” se traduce con “si” + presente + futuro simple: “si planea... ganará”."],
       ["arrange","Ordena: [fuerte / tiene / oponente / un / ella]",["un ella tiene fuerte oponente", "fuerte oponente tiene ella un", "oponente fuerte un ella tiene", "ella tiene un oponente fuerte"],3,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
@@ -3138,8 +3138,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “facade” en español?",["scaffolding", "la fachada", "heritage site", "to restore"],1,"“Facade” es “la fachada” en español."],
-      ["mcq","¿Cómo se dice “scaffolding” en español?",["el andamio", "heritage site", "structural damage", "facade"],0,"“Scaffolding” es “el andamio” en español."],
+      ["mcq","¿Cómo se dice “facade” en español?",["el andamio","la fachada","el sitio patrimonial","restaurar"],1,"“Facade” es “la fachada” en español."],
+      ["mcq","¿Cómo se dice “scaffolding” en español?",["el andamio","el sitio patrimonial","el daño estructural","la fachada"],0,"“Scaffolding” es “el andamio” en español."],
       ["fill","Completa: “La ciudad ___ restaurar la fachada el año pasado.”",["mandó", "manda", "mandará", "mandaba"],0,"La construcción causativa en pasado usa “mandó” + infinitivo: “mandó restaurar”."],
       ["translate","Traduce: “They are getting the roof repaired this month.”",["Hicieron reparar el techo este mes.", "Están haciendo reparado el techo este mes.", "Están mandando reparar el techo este mes por ellos.", "Están haciendo reparar el techo este mes."],3,"“Are getting... repaired” se traduce con “están haciendo reparar”, construcción causativa en presente continuo."],
       ["arrange","Ordena: [preservar / importantes / sitios / patrimoniales]",["preservar sitios patrimoniales importantes", "preservar sitios importantes patrimoniales", "importantes preservar patrimoniales sitios", "sitios importantes preservar patrimoniales"],0,"Infinitivo + sustantivo + adjetivo + adjetivo."],
@@ -3163,8 +3163,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “falsifiability” en español?",["empirical evidence", "hypothesis", "la falsabilidad", "peer review"],2,"“Falsifiability” es “la falsabilidad” en español."],
-      ["mcq","¿Cómo se dice “peer review” en español?",["to replicate a study", "hypothesis", "paradigm shift", "la revisión por pares"],3,"“Peer review” es “la revisión por pares” en español."],
+      ["mcq","¿Cómo se dice “falsifiability” en español?",["la evidencia empírica","la hipótesis","la falsabilidad","la revisión por pares"],2,"“Falsifiability” es “la falsabilidad” en español."],
+      ["mcq","¿Cómo se dice “peer review” en español?",["replicar un estudio","la hipótesis","el cambio de paradigma","la revisión por pares"],3,"“Peer review” es “la revisión por pares” en español."],
       ["fill","Completa: “Los investigadores publican datos para ___ otros puedan verificarlos.”",["con", "de", "que", "por"],2,"“Para que” + subjuntivo expresa propósito: “para que otros puedan verificarlos”."],
       ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Los científicos replican estudios para el fin de confirmar resultados.", "Los científicos replican estudios con el fin de confirman resultados.", "Los científicos replican estudios con el fin confirmar resultados.", "Los científicos replican estudios con el fin de confirmar resultados."],3,"“In order to confirm” en registro formal se traduce con “con el fin de confirmar”."],
       ["arrange","Ordena: [necesita / hipótesis / empírica / toda / evidencia]",["empírica evidencia hipótesis necesita toda", "toda hipótesis necesita evidencia empírica", "toda necesita hipótesis evidencia empírica", "evidencia necesita empírica toda hipótesis"],1,"Adjetivo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3188,8 +3188,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Nash equilibrium” en español?",["el equilibrio de Nash", "dominant strategy", "payoff matrix", "zero-sum game"],0,"“Nash equilibrium” es “el equilibrio de Nash” en español."],
-      ["mcq","¿Cómo se dice “prisoner's dilemma” en español?",["prisoner's dilemma", "rational actor", "el dilema del prisionero", "zero-sum game"],2,"“Prisoner's dilemma” es “el dilema del prisionero” en español."],
+      ["mcq","¿Cómo se dice “Nash equilibrium” en español?",["el equilibrio de Nash","la estrategia dominante","la matriz de pagos","el juego de suma cero"],0,"“Nash equilibrium” es “el equilibrio de Nash” en español."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en español?",["el equilibrio de Nash","el actor racional","el dilema del prisionero","el juego de suma cero"],2,"“Prisoner's dilemma” es “el dilema del prisionero” en español."],
       ["fill","Completa: “Ni un jugador ___ beneficia de la traición mutua.”",["se", "lo", "le", "les"],0,"El verbo pronominal “beneficiarse” requiere “se”: “se beneficia”."],
       ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Mientras que la cooperación maximice la ganancia conjunta, el interés propio a menudo prevalece.", "Mientras que la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalezca.", "Mientras la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalece.", "Mientras que la cooperación maximiza la ganancia conjunta, el interés propio a menudo prevalece."],3,"“Mientras que” (con “que”) es la forma estándar para introducir contraste formal, con indicativo: “prevalece”."],
       ["arrange","Ordena: [dominante / tiene / ningún / estrategia / jugador]",["jugador estrategia tiene dominante ningún", "dominante ningún estrategia tiene jugador", "ningún jugador tiene estrategia dominante", "tiene estrategia jugador dominante ningún"],2,"Pronombre negativo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3213,8 +3213,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “coral reef” en español?",["wetsuit", "el arrecife de coral", "snorkel", "fish"],1,"“Coral reef” es “el arrecife de coral” en español."],
-      ["mcq","¿Cómo se dice “wetsuit” en español?",["el traje de neopreno", "underwater", "snorkel", "wetsuit"],0,"“Wetsuit” es “el traje de neopreno” en español."],
+      ["mcq","¿Cómo se dice “coral reef” en español?",["el traje de neopreno","el arrecife de coral","el esnórquel","el pez"],1,"“Coral reef” es “el arrecife de coral” en español."],
+      ["mcq","¿Cómo se dice “wetsuit” en español?",["el traje de neopreno","bajo el agua","el esnórquel","bucear"],0,"“Wetsuit” es “el traje de neopreno” en español."],
       ["fill","Completa: “El arrecife de coral está ___ del barco.”",["debajo", "al lado", "sobre", "en"],0,"“Debajo de” indica una posición inferior: “debajo del barco”."],
       ["translate","Traduce: “The fish swim in the water.”",["Los peces nadan al lado del agua.", "Los peces nadan sobre el agua.", "Los peces nadan en el agua.", "Los peces nadan debajo el agua."],2,"“In the water” se traduce con “en el agua”, ya que están dentro de ella."],
       ["arrange","Ordena: [barco / lado / al / buzo / del / está / el]",["buzo al del lado barco está el", "el buzo está al lado del barco", "buzo al el está barco lado del", "del está el lado al barco buzo"],1,"Artículo + sustantivo + verbo + preposición + preposición + artículo + sustantivo."],
@@ -3238,8 +3238,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crease” en español?",["el pliegue", "craft", "to fold", "glue"],0,"“Crease” es “el pliegue” en español."],
-      ["mcq","¿Cómo se dice “glue” en español?",["el pegamento", "craft", "glue", "to fold"],0,"“Glue” es “el pegamento” en español."],
+      ["mcq","¿Cómo se dice “crease” en español?",["el pliegue","la manualidad","doblar","el pegamento"],0,"“Crease” es “el pliegue” en español."],
+      ["mcq","¿Cómo se dice “glue” en español?",["el pegamento","la manualidad","doblar","el papel"],0,"“Glue” es “el pegamento” en español."],
       ["fill","Completa: “Primero, dobla el papel. ___, haz un pliegue.”",["Primero", "Luego", "Antes", "Finalmente"],1,"“Luego” conecta el segundo paso después de “primero”."],
       ["translate","Traduce: “Finally, fold the corners.”",["Finalmente, doblando las esquinas.", "Finalmente, dobla la esquina.", "Luego, dobla las esquinas.", "Finalmente, dobla las esquinas."],3,"“Finally” se traduce con “Finalmente” al inicio de la oración."],
       ["arrange","Ordena: [tijeras / manualidad / necesita / esta]",["manualidad necesita esta tijeras", "necesita esta tijeras manualidad", "necesita manualidad tijeras esta", "esta manualidad necesita tijeras"],3,"Pronombre + sustantivo + verbo + sustantivo."],
@@ -3263,8 +3263,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “fossil” en español?",["el fósil", "extinct", "to dig up", "excavation site"],0,"“Fossil” es “el fósil” en español."],
-      ["mcq","¿Cómo se dice “skeleton” en español?",["to dig up", "el esqueleto", "skeleton", "fossil"],1,"“Skeleton” es “el esqueleto” en español."],
+      ["mcq","¿Cómo se dice “fossil” en español?",["el fósil","extinto","desenterrar","el sitio de excavación"],0,"“Fossil” es “el fósil” en español."],
+      ["mcq","¿Cómo se dice “skeleton” en español?",["desenterrar","el esqueleto","el fósil","el hueso de dinosaurio"],1,"“Skeleton” es “el esqueleto” en español."],
       ["fill","Completa: “___ no han terminado la excavación.”",["Ya", "Aún así", "Todavía", "Siempre"],2,"“Todavía no” equivale a “not yet”: “todavía no han terminado”."],
       ["translate","Traduce: “Scientists are still studying the fossil.”",["Los científicos todavía están estudiando el fósil.", "Los científicos ya están estudiando el fósil.", "Los científicos todavía estudian el fósil ya.", "Los científicos todavía no están estudiando el fósil."],0,"“Are still studying” se traduce con “todavía están estudiando”, presente continuo."],
       ["arrange","Ordena: [esqueleto / encontrado / han / el / ya]",["encontrado esqueleto han el ya", "esqueleto el han ya encontrado", "han esqueleto el ya encontrado", "ya han encontrado el esqueleto"],3,"Adverbio + “han” + participio + artículo + sustantivo."],
@@ -3288,8 +3288,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “vandalism” en español?",["street artist", "spray paint", "el vandalismo", "public space"],2,"“Vandalism” es “el vandalismo” en español."],
-      ["mcq","¿Cómo se dice “to commission a mural” en español?",["public space", "street artist", "encargar un mural", "spray paint"],2,"“To commission a mural” es “encargar un mural” en español."],
+      ["mcq","¿Cómo se dice “vandalism” en español?",["el artista urbano","la pintura en aerosol","el vandalismo","el espacio público"],2,"“Vandalism” es “el vandalismo” en español."],
+      ["mcq","¿Cómo se dice “to commission a mural” en español?",["el espacio público","el artista urbano","encargar un mural","la pintura en aerosol"],2,"“To commission a mural” es “encargar un mural” en español."],
       ["fill","Completa: “Ella no pintará a menos que ___ permiso.”",["tenga", "tendrá", "tendría", "tiene"],0,"“A menos que” requiere subjuntivo: “a menos que tenga”."],
       ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["A menos que la ciudad lo apruebe, el mural se considerará vandalismo.", "Si la ciudad lo apruebe, el mural se considerará vandalismo.", "A menos que la ciudad lo apruebe, el mural se considera vandalismo.", "A menos que la ciudad lo aprueba, el mural se considerará vandalismo."],0,"“Unless” se traduce con “a menos que” + subjuntivo: “a menos que... apruebe”."],
       ["arrange","Ordena: [talentoso / muy / artista / este / es]",["artista muy es talentoso este", "este artista es muy talentoso", "este muy es artista talentoso", "es talentoso artista muy este"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3313,8 +3313,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “reasonable doubt” en español?",["la duda razonable", "to convict", "reasonable doubt", "recidivism"],0,"“Reasonable doubt” es “la duda razonable” en español."],
-      ["mcq","¿Cómo se dice “recidivism” en español?",["reasonable doubt", "rehabilitation", "forensic evidence", "la reincidencia"],3,"“Recidivism” es “la reincidencia” en español."],
+      ["mcq","¿Cómo se dice “reasonable doubt” en español?",["la duda razonable","condenar","la evidencia forense","la reincidencia"],0,"“Reasonable doubt” es “la duda razonable” en español."],
+      ["mcq","¿Cómo se dice “recidivism” en español?",["la duda razonable","la rehabilitación","la evidencia forense","la reincidencia"],3,"“Recidivism” es “la reincidencia” en español."],
       ["fill","Completa: “La evidencia forense ___ apuntar al sospechoso.”",["debe", "puede de", "puede", "podría de"],2,"“Puede” + infinitivo expresa posibilidad formal: “puede apuntar”."],
       ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Sin rehabilitación, la reincidencia podría aumentar.", "Sin rehabilitación, la reincidencia puede aumentando.", "Sin rehabilitación, la reincidencia debe aumentar.", "Sin rehabilitación, la reincidencia podría aumentado."],0,"“Might increase” se traduce con “podría aumentar”, posibilidad formal en español."],
       ["arrange","Ordena: [condenar / no / al / tribunal / puede / sospechoso / el]",["el sospechoso puede al condenar no tribunal", "el tribunal no puede condenar al sospechoso", "tribunal no sospechoso al puede el condenar", "no al sospechoso el puede condenar tribunal"],1,"Artículo + sustantivo + negación + verbo modal + verbo + preposición + sustantivo."],
@@ -3338,8 +3338,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “speech act” en español?",["linguistic relativity", "reference", "meaning", "el acto de habla"],3,"“Speech act” es “el acto de habla” en español."],
-      ["mcq","¿Cómo se dice “ambiguity” en español?",["speech act", "linguistic relativity", "reference", "la ambigüedad"],3,"“Ambiguity” es “la ambigüedad” en español."],
+      ["mcq","¿Cómo se dice “speech act” en español?",["la relatividad lingüística","la referencia","el significado","el acto de habla"],3,"“Speech act” es “el acto de habla” en español."],
+      ["mcq","¿Cómo se dice “ambiguity” en español?",["el acto de habla","la relatividad lingüística","la referencia","la ambigüedad"],3,"“Ambiguity” es “la ambigüedad” en español."],
       ["fill","Completa: “El lingüista insiste en que se ___ el contexto.”",["consideró", "considerará", "considere", "considera"],2,"El subjuntivo presente sigue a “insistir en que”: “insiste en que se considere”."],
       ["translate","Traduce con subjuntivo: “Philosophers suggest that meaning be studied through use.”",["Los filósofos sugieren que el significado se estudia a través del uso.", "Los filósofos sugieren que el significado se estudiará a través del uso.", "Los filósofos sugieren que el significado se estudie a través del uso.", "Los filósofos sugiere que el significado se estudie a través del uso."],2,"El verbo “sugerir que” requiere subjuntivo presente: “sugieren que... se estudie”."],
       ["arrange","Ordena: [ambigua / esta / oración / es]",["esta oración es ambigua", "esta oración ambigua es", "oración ambigua esta es", "es esta ambigua oración"],0,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3363,8 +3363,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “juggler” en español?",["el malabarista", "tent", "acrobat", "tightrope"],0,"“Juggler” es “el malabarista” en español."],
-      ["mcq","¿Cómo se dice “acrobat” en español?",["juggler", "tightrope", "el acróbata", "clown"],2,"“Acrobat” es “el acróbata” en español."],
+      ["mcq","¿Cómo se dice “juggler” en español?",["el malabarista","la carpa","el acróbata","la cuerda floja"],0,"“Juggler” es “el malabarista” en español."],
+      ["mcq","¿Cómo se dice “acrobat” en español?",["el malabarista","la cuerda floja","el acróbata","el payaso"],2,"“Acrobat” es “el acróbata” en español."],
       ["fill","Completa: “¡___ malabarista tan asombroso!”",["Cuánto", "Qué", "Cuán", "Cómo"],1,"“Qué” + sustantivo expresa admiración: “qué malabarista”."],
       ["translate","Traduce: “How amazing this show is!”",["¡Cómo asombroso es este espectáculo!", "¡Qué es asombroso este espectáculo!", "¡Qué asombroso este espectáculo!", "¡Qué asombroso es este espectáculo!"],3,"“How amazing... is!” se traduce con “¡Qué asombroso es...!” en español."],
       ["arrange","Ordena: [cuerda / camina / el / floja / la / payaso / en]",["en cuerda el camina la payaso floja", "cuerda en payaso la floja el camina", "el payaso camina en la cuerda floja", "en cuerda camina floja la payaso el"],2,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -3388,8 +3388,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to haggle” en español?",["flea market", "regatear", "antique", "to haggle"],1,"“To haggle” es “regatear” en español."],
-      ["mcq","¿Cómo se dice “vendor” en español?",["to haggle", "el vendedor", "vendor", "antique"],1,"“Vendor” es “el vendedor” en español."],
+      ["mcq","¿Cómo se dice “to haggle” en español?",["el mercado de pulgas","regatear","la antigüedad","la ganga"],1,"“To haggle” es “regatear” en español."],
+      ["mcq","¿Cómo se dice “vendor” en español?",["regatear","el vendedor","el mercado de pulgas","la antigüedad"],1,"“Vendor” es “el vendedor” en español."],
       ["fill","Completa: “Esta antigüedad es ___ cara.”",["demasiado", "muy mucho", "tan mucho", "suficiente"],0,"“Demasiado” + adjetivo expresa exceso: “demasiado cara”."],
       ["translate","Traduce: “I don't have enough money for this bargain.”",["No tengo suficiente dinero para este ganga.", "No tengo demasiado dinero para esta ganga.", "No tengo suficiente dinero para esta ganga.", "No tengo dinero suficiente para esta bargain."],2,"“Enough money” se traduce con “suficiente dinero”."],
       ["arrange","Ordena: [vendedor / regateo / el / con]",["el con vendedor regateo", "regateo con el vendedor", "vendedor el regateo con", "vendedor regateo con el"],1,"Verbo + preposición + artículo + sustantivo."],
@@ -3413,8 +3413,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancestor” en español?",["el antepasado", "to trace one's roots", "descendant", "great-grandparent"],0,"“Ancestor” es “el antepasado” en español."],
-      ["mcq","¿Cómo se dice “birth certificate” en español?",["el acta de nacimiento", "descendant", "ancestor", "family tree"],0,"“Birth certificate” es “el acta de nacimiento” en español."],
+      ["mcq","¿Cómo se dice “ancestor” en español?",["el antepasado","rastrear las raíces","el descendiente","el bisabuelo/la bisabuela"],0,"“Ancestor” es “el antepasado” en español."],
+      ["mcq","¿Cómo se dice “birth certificate” en español?",["el acta de nacimiento","el descendiente","el antepasado","el árbol familiar"],0,"“Birth certificate” es “el acta de nacimiento” en español."],
       ["fill","Completa: “___ los registros son antiguos, rastreamos nuestras raíces.”",["Así que", "Aunque", "Porque", "Entonces"],1,"“Aunque” + indicativo (hecho real) introduce la concesión: “aunque los registros son”."],
       ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["A pesar nunca conoció a su bisabuela, conoce la historia familiar.", "Aunque nunca conoce a su bisabuela, conoce la historia familiar.", "Aunque nunca conoció a su bisabuela, conoce la historia familiar.", "Aunque nunca conoció a su bisabuela, conozca la historia familiar."],2,"“Even though” se traduce con “aunque” + indicativo, ya que es un hecho conocido."],
       ["arrange","Ordena: [árbol / grande / tiene / familiar / un / ella]",["tiene familiar grande árbol un ella", "ella tiene un árbol familiar grande", "árbol tiene grande familiar un ella", "ella grande familiar árbol tiene un"],1,"Sujeto + verbo + artículo + sustantivo compuesto + adjetivo."],
@@ -3438,8 +3438,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “drought” en español?",["la sequía", "to issue a warning", "flash flood", "wind speed"],0,"“Drought” es “la sequía” en español."],
-      ["mcq","¿Cómo se dice “flash flood” en español?",["drought", "to issue a warning", "la inundación repentina", "flash flood"],2,"“Flash flood” es “la inundación repentina” en español."],
+      ["mcq","¿Cómo se dice “drought” en español?",["la sequía","emitir una alerta","la inundación repentina","la velocidad del viento"],0,"“Drought” es “la sequía” en español."],
+      ["mcq","¿Cómo se dice “flash flood” en español?",["la sequía","emitir una alerta","la inundación repentina","el huracán"],2,"“Flash flood” es “la inundación repentina” en español."],
       ["fill","Completa: “___ la alerta, mucha gente se quedó cerca de la costa.”",["Porque", "A pesar de", "Aunque", "A pesar"],1,"“A pesar de” + sustantivo (con “de”): “a pesar de la alerta”."],
       ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["A pesar de emitir una alerta, las autoridades no pudieron evitar el daño.", "A pesar de emitir una alerta, las autoridades no pueden evitar el daño.", "A pesar emitir una alerta, las autoridades no pudieron evitar el daño.", "A pesar de emitiendo una alerta, las autoridades no pudieron evitar el daño."],0,"“In spite of issuing” se traduce con “a pesar de emitir”, infinitivo tras la preposición."],
       ["arrange","Ordena: [acercándose / huracán / fuerte / un / está]",["huracán acercándose fuerte está un", "acercándose huracán un está fuerte", "un huracán fuerte está acercándose", "un acercándose está huracán fuerte"],2,"Artículo + sustantivo + adjetivo + verbo + gerundio."],
@@ -3463,8 +3463,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “displacement” en español?",["urban renewal", "affordable housing", "el desplazamiento", "local community"],2,"“Displacement” es “el desplazamiento” en español."],
-      ["mcq","¿Cómo se dice “affordable housing” en español?",["urban renewal", "la vivienda asequible", "gentrification", "rising rent"],1,"“Affordable housing” es “la vivienda asequible” en español."],
+      ["mcq","¿Cómo se dice “displacement” en español?",["la renovación urbana","la vivienda asequible","el desplazamiento","la comunidad local"],2,"“Displacement” es “el desplazamiento” en español."],
+      ["mcq","¿Cómo se dice “affordable housing” en español?",["la renovación urbana","la vivienda asequible","la gentrificación","el alquiler creciente"],1,"“Affordable housing” es “la vivienda asequible” en español."],
       ["fill","Completa: “La ciudad ___ haber protegido la vivienda asequible.”",["deberá", "debe", "debería", "debía"],2,"“Debería haber” + participio expresa crítica del pasado: “debería haber protegido”."],
       ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Las autoridades no deberían ignorar las preocupaciones de la comunidad local.", "Las autoridades no deberían haber ignorado las preocupaciones de la comunidad local.", "Las autoridades no deberían haber ignorando las preocupaciones de la comunidad local.", "Las autoridades deberían haber ignorado las preocupaciones de la comunidad local."],1,"“Shouldn't have ignored” se traduce con “no deberían haber ignorado”, participio tras “haber”."],
       ["arrange","Ordena: [preocupa / creciente / a / residentes / el / los / alquiler]",["el alquiler creciente preocupa a los residentes", "creciente residentes los preocupa a el alquiler", "los creciente alquiler residentes a preocupa el", "residentes alquiler los preocupa a creciente el"],0,"Artículo + sustantivo + adjetivo + verbo + preposición + artículo + sustantivo."],
@@ -3488,8 +3488,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “skepticism” en español?",["epistemic humility", "certainty", "el escepticismo", "epistemology"],2,"“Skepticism” es “el escepticismo” en español."],
-      ["mcq","¿Cómo se dice “epistemic humility” en español?",["skepticism", "la humildad epistémica", "certainty", "justified true belief"],1,"“Epistemic humility” es “la humildad epistémica” en español."],
+      ["mcq","¿Cómo se dice “skepticism” en español?",["la humildad epistémica","la certeza","el escepticismo","la epistemología"],2,"“Skepticism” es “el escepticismo” en español."],
+      ["mcq","¿Cómo se dice “epistemic humility” en español?",["el escepticismo","la humildad epistémica","la certeza","la creencia verdadera justificada"],1,"“Epistemic humility” es “la humildad epistémica” en español."],
       ["fill","Completa: “Apenas los filósofos propusieron una teoría, ___ los escépticos la refutaron.”",["así", "pues", "que", "cuando"],3,"“Apenas... cuando” forma la estructura de secuencia inmediata: “apenas propusieron, cuando refutaron”."],
       ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["En cuanto alguien afirma saber algo, surge la duda.", "En cuanto alguien afirma saber algo, desaparece la duda.", "Apenas alguien afirma saber algo y surge la duda.", "En cuanto alguien afirmó saber algo, surge la duda."],0,"“No sooner... than” se traduce naturalmente con “en cuanto...” en español."],
       ["arrange","Ordena: [certeza / requiere / verdadera / el / conocimiento]",["el conocimiento certeza requiere verdadera", "conocimiento verdadera el requiere certeza", "requiere certeza el verdadera conocimiento", "el conocimiento requiere certeza verdadera"],3,"Artículo + sustantivo + verbo + adjetivo + sustantivo."],
@@ -3513,8 +3513,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “nest” en español?",["nest", "binoculars", "feather", "el nido"],3,"“Nest” es “el nido” en español."],
-      ["mcq","¿Cómo se dice “beak” en español?",["binoculars", "wing", "beak", "el pico"],3,"“Beak” es “el pico” en español."],
+      ["mcq","¿Cómo se dice “nest” en español?",["los binoculares","la pluma","el pico","el nido"],3,"“Nest” es “el nido” en español."],
+      ["mcq","¿Cómo se dice “beak” en español?",["los binoculares","el ala","el nido","el pico"],3,"“Beak” es “el pico” en español."],
       ["fill","Completa: “El pájaro usa ___ alas para volar.”",["el sus", "su", "sus de", "sus"],3,"“Alas” es plural, así que se usa “sus”: “sus alas”."],
       ["translate","Traduce: “My binoculars are new.”",["Mis binoculares son nuevos.", "Mi binoculares son nuevos.", "Mis binoculares es nuevo.", "Mis binocular son nuevos."],0,"“My” se traduce con “mis” ante un sustantivo plural: “mis binoculares”."],
       ["arrange","Ordena: [nido / árbol / está / en / su / el]",["su árbol en está nido el", "en su árbol nido está el", "su nido está en el árbol", "nido en su árbol el está"],2,"Posesivo + sustantivo + verbo + preposición + artículo + sustantivo."],
@@ -3538,8 +3538,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “kiln” en español?",["pottery wheel", "el horno de cerámica", "to shape", "glaze"],1,"“Kiln” es “el horno de cerámica” en español."],
-      ["mcq","¿Cómo se dice “glaze” en español?",["el esmalte", "pottery wheel", "bowl", "kiln"],0,"“Glaze” es “el esmalte” en español."],
+      ["mcq","¿Cómo se dice “kiln” en español?",["el torno de alfarero","el horno de cerámica","moldear","el esmalte"],1,"“Kiln” es “el horno de cerámica” en español."],
+      ["mcq","¿Cómo se dice “glaze” en español?",["el esmalte","el torno de alfarero","el cuenco","el horno de cerámica"],0,"“Glaze” es “el esmalte” en español."],
       ["fill","Completa: “¿___ arcilla necesitas?”",["Cuántos", "Cuánta", "Cuánto", "Cuántas"],1,"“Arcilla” es femenino incontable, así que se usa “cuánta”: “cuánta arcilla”."],
       ["translate","Traduce: “How many bowls did you make?”",["¿Cuántos cuencos hizo?", "¿Cuántas cuencos hiciste?", "¿Cuánto cuencos hiciste?", "¿Cuántos cuencos hiciste?"],3,"“Cuencos” es masculino plural, así que se usa “cuántos”: “cuántos cuencos”."],
       ["arrange","Ordena: [alfarero / torno / usa / el / el]",["torno el alfarero el usa", "el alfarero usa el torno", "alfarero el torno usa el", "el torno el alfarero usa"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -3563,8 +3563,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “black belt” en español?",["technique", "el cinturón negro", "dojo", "martial arts"],1,"“Black belt” es “el cinturón negro” en español."],
-      ["mcq","¿Cómo se dice “balance” en español?",["martial arts", "dojo", "el equilibrio", "balance"],2,"“Balance” es “el equilibrio” en español."],
+      ["mcq","¿Cómo se dice “black belt” en español?",["la técnica","el cinturón negro","el dojo","las artes marciales"],1,"“Black belt” es “el cinturón negro” en español."],
+      ["mcq","¿Cómo se dice “balance” en español?",["las artes marciales","el dojo","el equilibrio","el cinturón negro"],2,"“Balance” es “el equilibrio” en español."],
       ["fill","Completa: “El aikido requiere ___ fuerza como equilibrio.”",["tanto", "ni", "o", "ambos"],0,"“Tanto... como” conecta dos elementos: “tanto fuerza como equilibrio”."],
       ["translate","Traduce: “You can practice either in the morning or in the evening.”",["Puedes practicar en la mañana o la tarde en.", "Puedes practicar tanto en la mañana o en la tarde.", "Puedes practicar o en la mañana o en la tarde.", "Puedes practicar o en la mañana y en la tarde."],2,"“Either... or” se traduce con “o... o” en español."],
       ["arrange","Ordena: [técnica / difícil / muy / esta / es]",["esta técnica es muy difícil", "técnica difícil es esta muy", "esta es técnica muy difícil", "muy difícil es esta técnica"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3588,8 +3588,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “spore” en español?",["poisonous", "edible", "spore", "la espora"],3,"“Spore” es “la espora” en español."],
-      ["mcq","¿Cómo se dice “mycelium” en español?",["mushroom", "poisonous", "spore", "el micelio"],3,"“Mycelium” es “el micelio” en español."],
+      ["mcq","¿Cómo se dice “spore” en español?",["venenoso","comestible","el hongo","la espora"],3,"“Spore” es “la espora” en español."],
+      ["mcq","¿Cómo se dice “mycelium” en español?",["el hongo","venenoso","la espora","el micelio"],3,"“Mycelium” es “el micelio” en español."],
       ["fill","Completa: “Este hongo parece como si ___ venenoso.”",["será", "es", "fuera", "sea"],2,"“Como si” siempre requiere subjuntivo imperfecto: “como si fuera”."],
       ["translate","Traduce: “The mycelium spreads as though it had a mind of its own.”",["El micelio extiende como si tuviera mente propia.", "El micelio se extiende como si tiene mente propia.", "El micelio se extiende como si tendría mente propia.", "El micelio se extiende como si tuviera mente propia."],3,"“As though it had” se traduce con “como si tuviera”, subjuntivo imperfecto."],
       ["arrange","Ordena: [comestible / hongo / este / no / es]",["este hongo no es comestible", "comestible no hongo es este", "no hongo este es comestible", "hongo no este comestible es"],0,"Pronombre + sustantivo + negación + verbo + adjetivo."],
@@ -3613,8 +3613,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “biodiversity” en español?",["food chain", "marine species", "biodiversity", "la biodiversidad"],3,"“Biodiversity” es “la biodiversidad” en español."],
-      ["mcq","¿Cómo se dice “coral bleaching” en español?",["ocean acidification", "biodiversity", "el blanqueamiento de coral", "marine ecosystem"],2,"“Coral bleaching” es “el blanqueamiento de coral” en español."],
+      ["mcq","¿Cómo se dice “biodiversity” en español?",["la cadena alimenticia","la especie marina","el ecosistema marino","la biodiversidad"],3,"“Biodiversity” es “la biodiversidad” en español."],
+      ["mcq","¿Cómo se dice “coral bleaching” en español?",["la acidificación oceánica","la biodiversidad","el blanqueamiento de coral","el ecosistema marino"],2,"“Coral bleaching” es “el blanqueamiento de coral” en español."],
       ["fill","Completa: “Los arrecifes sobreviven con tal de que las temperaturas se ___ estables.”",["mantienen", "mantuvieron", "mantendrán", "mantengan"],3,"“Con tal de que” requiere subjuntivo: “con tal de que... se mantengan”."],
       ["translate","Traduce: “Marine biodiversity can recover, provided that pollution decreases.”",["La biodiversidad marina puede recuperarse, siempre que la contaminación disminuya.", "La biodiversidad marina puede recuperarse, siempre que la contaminación disminuye.", "La biodiversidad marina puede recuperarse, siempre la contaminación disminuya.", "La biodiversidad marina puede recuperar, siempre que la contaminación disminuya."],0,"“Provided that” se traduce con “siempre que” + subjuntivo: “siempre que... disminuya”."],
       ["arrange","Ordena: [alimenticia / contaminación / la / interrumpe / cadena / la]",["interrumpe la alimenticia contaminación cadena la", "interrumpe alimenticia contaminación cadena la la", "la contaminación interrumpe la cadena alimenticia", "contaminación la interrumpe la alimenticia cadena"],2,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
@@ -3638,8 +3638,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cartographer” en español?",["scale", "uncharted territory", "el cartógrafo", "navigational instrument"],2,"“Cartographer” es “el cartógrafo” en español."],
-      ["mcq","¿Cómo se dice “uncharted territory” en español?",["el territorio inexplorado", "uncharted territory", "cartographer", "to chart"],0,"“Uncharted territory” es “el territorio inexplorado” en español."],
+      ["mcq","¿Cómo se dice “cartographer” en español?",["la escala","el territorio inexplorado","el cartógrafo","el instrumento de navegación"],2,"“Cartographer” es “el cartógrafo” en español."],
+      ["mcq","¿Cómo se dice “uncharted territory” en español?",["el territorio inexplorado","el cartógrafo","la proyección","trazar/cartografiar"],0,"“Uncharted territory” es “el territorio inexplorado” en español."],
       ["fill","Completa: “De no ___ por los primeros cartógrafos, la exploración habría sido imposible.”",["haber", "estar", "hacer", "ser"],3,"“De no ser por” es la estructura fija: “de no ser por”."],
       ["translate","Traduce con estructura formal: “Were it not for early cartographers, exploration would have been impossible.”",["De no ser por los primeros cartógrafos, la exploración fue imposible.", "De no ser por los primeros cartógrafos, la exploración habría sido imposibles.", "De no ser los primeros cartógrafos, la exploración habría sido imposible.", "De no ser por los primeros cartógrafos, la exploración habría sido imposible."],3,"“Were it not for” se traduce con “de no ser por”, seguido de condicional compuesto en la consecuencia."],
       ["arrange","Ordena: [precisa / esta / muy / proyección / es]",["muy precisa es esta proyección", "muy esta proyección es precisa", "proyección es esta precisa muy", "esta proyección es muy precisa"],3,"Pronombre + sustantivo + adverbio + adjetivo + verbo (reordenado)."],
@@ -3663,8 +3663,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “needle” en español?",["tailor", "to try on", "button", "la aguja"],3,"“Needle” es “la aguja” en español."],
-      ["mcq","¿Cómo se dice “thread” en español?",["tailor", "to try on", "to sew", "el hilo"],3,"“Thread” es “el hilo” en español."],
+      ["mcq","¿Cómo se dice “needle” en español?",["el sastre","probarse (ropa)","el botón","la aguja"],3,"“Needle” es “la aguja” en español."],
+      ["mcq","¿Cómo se dice “thread” en español?",["el sastre","probarse (ropa)","coser","el hilo"],3,"“Thread” es “el hilo” en español."],
       ["fill","Completa: “___ pruebo la chaqueta.”",["Nos", "Se", "Me", "Te"],2,"Con “yo” se usa el pronombre reflexivo “me”: “me pruebo”."],
       ["translate","Traduce: “I try on the jacket.”",["Pruebo la chaqueta.", "Me pruebo la chaquetas.", "Me prueba la chaqueta.", "Me pruebo la chaqueta."],3,"“Try on” se traduce con el verbo reflexivo “probarse”: “me pruebo”."],
       ["arrange","Ordena: [botón / cose / el / sastre / el]",["el sastre cose el botón", "cose el el botón sastre", "cose botón el sastre el", "cose botón el el sastre"],0,"Artículo + sustantivo + verbo + artículo + sustantivo."],
@@ -3688,8 +3688,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “harness” en español?",["rope", "grip", "el arnés", "to climb"],2,"“Harness” es “el arnés” en español."],
-      ["mcq","¿Cómo se dice “cliff” en español?",["grip", "cliff", "el acantilado", "summit"],2,"“Cliff” es “el acantilado” en español."],
+      ["mcq","¿Cómo se dice “harness” en español?",["la cuerda","el agarre","el arnés","escalar"],2,"“Harness” es “el arnés” en español."],
+      ["mcq","¿Cómo se dice “cliff” en español?",["el agarre","la cuerda","el acantilado","la cima"],2,"“Cliff” es “el acantilado” en español."],
       ["fill","Completa: “Hemos ___ escalando durante tres horas.”",["esto", "estar", "estando", "estado"],3,"“Hemos estado” + gerundio expresa duración: “hemos estado escalando”."],
       ["translate","Traduce: “She has been training for the summit all year.”",["Ella ha estado entrenando para la cima todo el año.", "Ella ha entrenado para la cima todo el año.", "Ella ha estado entrenar para la cima todo el año.", "Ella he estado entrenando para la cima todo el año."],0,"“Has been training” se traduce con “ha estado entrenando”, con énfasis en la duración."],
       ["arrange","Ordena: [cuerda / necesita / nueva / una / escalador / el]",["el escalador necesita una cuerda nueva", "cuerda nueva escalador necesita el una", "una nueva necesita escalador el cuerda", "el nueva una escalador necesita cuerda"],0,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
@@ -3713,8 +3713,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “mint” en español?",["to appraise", "la casa de moneda", "coin", "currency"],1,"“Mint” es “la casa de moneda” en español."],
-      ["mcq","¿Cómo se dice “to appraise” en español?",["mint", "tasar", "to appraise", "currency"],1,"“To appraise” es “tasar” en español."],
+      ["mcq","¿Cómo se dice “mint” en español?",["tasar","la casa de moneda","la moneda","la divisa"],1,"“Mint” es “la casa de moneda” en español."],
+      ["mcq","¿Cómo se dice “to appraise” en español?",["la casa de moneda","tasar","la moneda","la divisa"],1,"“To appraise” es “tasar” en español."],
       ["fill","Completa: “Estoy acostumbrado a ___ monedas antiguas.”",["tase", "tasando", "tasado", "tasar"],3,"“Acostumbrado a” + infinitivo: “acostumbrado a tasar”."],
       ["translate","Traduce: “It took time to get used to collecting rare currency.”",["Costó tiempo acostumbrarse coleccionar divisas raras.", "Costó tiempo acostumbrarse a coleccionar divisas raras.", "Costó tiempo acostumbrar a coleccionar divisas raras.", "Costó tiempo acostumbrarse a coleccionando divisas raras."],1,"“Get used to collecting” se traduce con “acostumbrarse a coleccionar”, infinitivo tras “a”."],
       ["arrange","Ordena: [rara / tiene / una / colección / ella / de monedas]",["ella de monedas una colección tiene rara", "ella tiene una colección de monedas rara", "de monedas una tiene ella rara colección", "de colección ella tiene una rara monedas"],1,"Sujeto + verbo + artículo + sustantivo + preposición + sustantivo + adjetivo."],
@@ -3738,8 +3738,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “epicenter” en español?",["magnitude", "aftershock", "earthquake", "el epicentro"],3,"“Epicenter” es “el epicentro” en español."],
-      ["mcq","¿Cómo se dice “tectonic plate” en español?",["seismograph", "aftershock", "la placa tectónica", "tectonic plate"],2,"“Tectonic plate” es “la placa tectónica” en español."],
+      ["mcq","¿Cómo se dice “epicenter” en español?",["la magnitud","la réplica","el terremoto","el epicentro"],3,"“Epicenter” es “el epicentro” en español."],
+      ["mcq","¿Cómo se dice “tectonic plate” en español?",["el sismógrafo","la réplica","la placa tectónica","el terremoto"],2,"“Tectonic plate” es “la placa tectónica” en español."],
       ["fill","Completa: “¿Sabes qué tan fuerte ___ la magnitud?”",["es", "será", "sea", "fue"],3,"La pregunta indirecta sobre un hecho pasado usa pretérito: “qué tan fuerte fue”."],
       ["translate","Traduce con pregunta indirecta: “I wonder if the epicenter was near the city.”",["Me pregunto si el epicentro está cerca de la ciudad.", "Me pregunto si el epicentro estuvo cerca de la ciudad.", "Me pregunto si estuvo el epicentro cerca de la ciudad.", "Me pregunto que el epicentro estuvo cerca de la ciudad."],1,"La pregunta indirecta mantiene el orden normal: “si el epicentro estuvo”, sin inversión."],
       ["arrange","Ordena: [pequeña / sentimos / réplica / una]",["réplica pequeña sentimos una", "una sentimos pequeña réplica", "sentimos una réplica pequeña", "réplica sentimos pequeña una"],2,"Verbo + artículo + sustantivo + adjetivo."],
@@ -3763,8 +3763,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scribe” en español?",["el escriba", "to decipher", "handwriting style", "parchment"],0,"“Scribe” es “el escriba” en español."],
-      ["mcq","¿Cómo se dice “parchment” en español?",["el pergamino", "handwriting style", "scribe", "parchment"],0,"“Parchment” es “el pergamino” en español."],
+      ["mcq","¿Cómo se dice “scribe” en español?",["el escriba","descifrar","el estilo caligráfico","el pergamino"],0,"“Scribe” es “el escriba” en español."],
+      ["mcq","¿Cómo se dice “parchment” en español?",["el pergamino","el estilo caligráfico","el escriba","el manuscrito"],0,"“Parchment” es “el pergamino” en español."],
       ["fill","Completa: “___ descifre este manuscrito hará historia.”",["El que", "Lo que sea que", "Cualquiera que", "Quienquiera que"],3,"“Quienquiera que” se refiere a una persona no especificada: “quienquiera que descifre”."],
       ["translate","Traduce con esta estructura: “Whatever the scribe intended, the meaning is now lost.”",["Lo que el escriba quiso decir, el significado ahora se ha perdido.", "Lo que sea que el escriba quisiera decir, el significado ahora se pierde.", "Lo que sea el escriba quisiera decir, el significado ahora se ha perdido.", "Lo que sea que el escriba quisiera decir, el significado ahora se ha perdido."],3,"“Whatever” se traduce con “lo que sea que” + subjuntivo."],
       ["arrange","Ordena: [hermosamente / manuscrito / iluminado / este / está]",["está iluminado manuscrito hermosamente este", "está iluminado este manuscrito hermosamente", "este manuscrito está hermosamente iluminado", "este iluminado manuscrito hermosamente está"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3788,8 +3788,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “bottleneck” en español?",["supply chain", "el cuello de botella", "logistics disruption", "bottleneck"],1,"“Bottleneck” es “el cuello de botella” en español."],
-      ["mcq","¿Cómo se dice “just-in-time delivery” en español?",["just-in-time delivery", "bottleneck", "la entrega justo a tiempo", "logistics disruption"],2,"“Just-in-time delivery” es “la entrega justo a tiempo” en español."],
+      ["mcq","¿Cómo se dice “bottleneck” en español?",["la cadena de suministro","el cuello de botella","la interrupción logística","el flete/la carga"],1,"“Bottleneck” es “el cuello de botella” en español."],
+      ["mcq","¿Cómo se dice “just-in-time delivery” en español?",["la cadena de suministro","el cuello de botella","la entrega justo a tiempo","la interrupción logística"],2,"“Just-in-time delivery” es “la entrega justo a tiempo” en español."],
       ["fill","Completa: “Poco se ___ las empresas lo frágil que era la cadena de suministro.”",["imaginarán", "imaginaban", "imaginan", "imaginaron"],1,"“Poco se imaginaban” usa imperfecto para describir la falta de anticipación: “se imaginaban”."],
       ["translate","Traduce con estructura enfática: “Little did anyone expect such a severe logistics disruption.”",["Nadie esperó una interrupción logística tan severa.", "Poco esperaba nadie una interrupción logística tan grave.", "Alguien esperaba una interrupción logística tan grave.", "Nadie esperaba una interrupción logística tan grave."],3,"“Little did anyone expect” se traduce naturalmente con “nadie esperaba” en español."],
       ["arrange","Ordena: [almacena / mercancías / el / almacén]",["el mercancías almacén almacena", "almacén mercancías almacena el", "el almacén almacena mercancías", "mercancías almacena almacén el"],2,"Artículo + sustantivo + verbo + sustantivo."],
@@ -3813,8 +3813,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “antenna” en español?",["antenna", "static", "la antena", "microphone"],2,"“Antenna” es “la antena” en español."],
-      ["mcq","¿Cómo se dice “static” en español?",["static", "la interferencia", "antenna", "microphone"],1,"“Static” es “la interferencia” en español."],
+      ["mcq","¿Cómo se dice “antenna” en español?",["la señal de radio","la interferencia","la antena","el micrófono"],2,"“Antenna” es “la antena” en español."],
+      ["mcq","¿Cómo se dice “static” en español?",["la señal de radio","la interferencia","la antena","el micrófono"],1,"“Static” es “la interferencia” en español."],
       ["fill","Completa: “___ dos antenas en el techo.”",["Hayn", "Está", "Son", "Hay"],3,"“Hay” es invariable, tanto para singular como plural: “hay dos antenas”."],
       ["translate","Traduce: “There is a lot of static on this frequency.”",["Es mucha interferencia en esta frecuencia.", "Hay mucha interferencia en esta frecuencia.", "Hay muchas interferencia en esta frecuencia.", "Hay mucho interferencia en esta frecuencia."],1,"“There is a lot of static” se traduce con “hay mucha interferencia”."],
       ["arrange","Ordena: [débil / esta / señal / es]",["señal esta es débil", "es señal esta débil", "señal es débil esta", "esta señal es débil"],3,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3838,8 +3838,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “zodiac sign” en español?",["el signo zodiacal", "fortune teller", "star chart", "destiny"],0,"“Zodiac sign” es “el signo zodiacal” en español."],
-      ["mcq","¿Cómo se dice “destiny” en español?",["prediction", "el destino", "zodiac sign", "destiny"],1,"“Destiny” es “el destino” en español."],
+      ["mcq","¿Cómo se dice “zodiac sign” en español?",["el signo zodiacal","el adivino/la adivina","la carta astral","el destino"],0,"“Zodiac sign” es “el signo zodiacal” en español."],
+      ["mcq","¿Cómo se dice “destiny” en español?",["la predicción","el destino","el signo zodiacal","el horóscopo"],1,"“Destiny” es “el destino” en español."],
       ["fill","Completa: “Este horóscopo dice que ___ una buena semana.”",["tendrás", "tuviste", "tendrías", "tienes"],0,"El futuro simple de “tener” en segunda persona es “tendrás”."],
       ["translate","Traduce: “The fortune teller thinks she will find love soon.”",["El adivino piensa que ella encuentra el amor pronto.", "El adivino piensa que ella encontraría el amor pronto.", "El adivino piensa que ella encontrará el amor pronto.", "El adivino piensa que ella va a encontrar el amor pronto ya."],2,"“Will find” se traduce con futuro simple: “encontrará”."],
       ["arrange","Ordena: [astral / interesante / esta / carta / es]",["astral es esta interesante carta", "astral interesante carta es esta", "interesante esta es astral carta", "esta carta astral es interesante"],3,"Pronombre + sustantivo compuesto + verbo + adjetivo."],
@@ -3863,8 +3863,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “free fall” en español?",["extreme sport", "free fall", "bungee jumping", "la caída libre"],3,"“Free fall” es “la caída libre” en español."],
-      ["mcq","¿Cómo se dice “adrenaline rush” en español?",["to jump", "parachute", "adrenaline rush", "el subidón de adrenalina"],3,"“Adrenaline rush” es “el subidón de adrenalina” en español."],
+      ["mcq","¿Cómo se dice “free fall” en español?",["el deporte extremo","el paracaídas","el salto en bungee","la caída libre"],3,"“Free fall” es “la caída libre” en español."],
+      ["mcq","¿Cómo se dice “adrenaline rush” en español?",["saltar","el paracaídas","la caída libre","el subidón de adrenalina"],3,"“Adrenaline rush” es “el subidón de adrenalina” en español."],
       ["fill","Completa: “Ella logró ___ el paracaídas a tiempo.”",["abierto", "abrir", "abriendo", "abre"],1,"“Lograr” + infinitivo: “logró abrir”."],
       ["translate","Traduce: “He succeeded in overcoming his fear of heights.”",["Él consigue superar su miedo a las alturas.", "Él consiguió superando su miedo a las alturas.", "Él consiguió superar su miedo a las alturas.", "Él consiguió superar su miedo de las alturas."],2,"“Succeed in overcoming” se traduce con “conseguir” + infinitivo: “consiguió superar”."],
       ["arrange","Ordena: [emocionante / este / muy / deporte / es]",["este deporte es muy emocionante", "emocionante muy deporte este es", "es emocionante este deporte muy", "muy este emocionante es deporte"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3888,8 +3888,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “exoskeleton” en español?",["metamorphosis", "el exoesqueleto", "pollinator", "antenna (insect)"],1,"“Exoskeleton” es “el exoesqueleto” en español."],
-      ["mcq","¿Cómo se dice “metamorphosis” en español?",["larva", "pollinator", "la metamorfosis", "metamorphosis"],2,"“Metamorphosis” es “la metamorfosis” en español."],
+      ["mcq","¿Cómo se dice “exoskeleton” en español?",["la metamorfosis","el exoesqueleto","el polinizador","la antena (insecto)"],1,"“Exoskeleton” es “el exoesqueleto” en español."],
+      ["mcq","¿Cómo se dice “metamorphosis” en español?",["la larva","el polinizador","la metamorfosis","el insecto"],2,"“Metamorphosis” es “la metamorfosis” en español."],
       ["fill","Completa: “___ polinizar flores, las abejas producen miel.”",["Además que", "Además de", "Así como", "Aparte"],1,"“Además de” + infinitivo introduce información extra: “además de polinizar”."],
       ["translate","Traduce: “Beetles, as well as butterflies, undergo metamorphosis.”",["Los escarabajos, así como las mariposas, pasan por la metamorfosis.", "Los escarabajos así como las mariposas pasan la metamorfosis.", "Los escarabajos, así como las mariposas, pasa por la metamorfosis.", "Los escarabajos, además las mariposas, pasan por la metamorfosis."],0,"“As well as” se traduce con “así como” en este contexto."],
       ["arrange","Ordena: [polinizadores / importantes / son / las abejas]",["las abejas importantes polinizadores son", "son las polinizadores importantes abejas", "las abejas son polinizadores importantes", "polinizadores importantes abejas las son"],2,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
@@ -3913,8 +3913,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “infringement” en español?",["intellectual property", "patent", "copyright", "la infracción"],3,"“Infringement” es “la infracción” en español."],
-      ["mcq","¿Cómo se dice “licensing agreement” en español?",["el acuerdo de licencia", "intellectual property", "trademark", "copyright"],0,"“Licensing agreement” es “el acuerdo de licencia” en español."],
+      ["mcq","¿Cómo se dice “infringement” en español?",["la propiedad intelectual","la patente","el derecho de autor","la infracción"],3,"“Infringement” es “la infracción” en español."],
+      ["mcq","¿Cómo se dice “licensing agreement” en español?",["el acuerdo de licencia","la propiedad intelectual","la marca registrada","el derecho de autor"],0,"“Licensing agreement” es “el acuerdo de licencia” en español."],
       ["fill","Completa: “___ la patente, la empresa continuó la producción.”",["A pesar", "No obstante", "No obstante de", "Sin embargo de"],1,"“No obstante” + sustantivo (sin “de” en este uso formal): “no obstante la patente”."],
       ["translate","Traduce con registro legal formal: “The trademark remains valid, notwithstanding the dispute.”",["La marca registrada sigue siendo válida, no obstante de la disputa.", "La marca registrada seguía siendo válida, no obstante la disputa.", "La marca registrada sigue siendo válida, no obstante la disputa.", "La marca registrada sigue válida, no obstante la disputa por eso."],2,"“Notwithstanding” en este contexto formal se traduce con “no obstante”."],
       ["arrange","Ordena: [infracción / alegó / empresa / la]",["empresa la infracción alegó", "la infracción alegó empresa", "empresa alegó infracción la", "la empresa alegó infracción"],3,"Artículo + sustantivo + verbo + sustantivo."],
@@ -3938,8 +3938,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crystalline structure” en español?",["la estructura cristalina", "crystalline structure", "tectonic shift", "mineral deposit"],0,"“Crystalline structure” es “la estructura cristalina” en español."],
-      ["mcq","¿Cómo se dice “sedimentary rock” en español?",["mineral composition", "crystalline structure", "sedimentary rock", "la roca sedimentaria"],3,"“Sedimentary rock” es “la roca sedimentaria” en español."],
+      ["mcq","¿Cómo se dice “crystalline structure” en español?",["la estructura cristalina","el yacimiento mineral","el desplazamiento tectónico","la roca sedimentaria"],0,"“Crystalline structure” es “la estructura cristalina” en español."],
+      ["mcq","¿Cómo se dice “sedimentary rock” en español?",["la composición mineral","la estructura cristalina","el yacimiento mineral","la roca sedimentaria"],3,"“Sedimentary rock” es “la roca sedimentaria” en español."],
       ["fill","Completa: “Lejos de ___ estable, esta formación rocosa cambia constantemente.”",["es", "siendo", "sea", "ser"],3,"“Lejos de” + infinitivo: “lejos de ser estable”."],
       ["translate","Traduce con estructura enfática: “Far from settling the debate, the discovery raised new questions.”",["Lejos de resolver el debate, el descubrimiento plantea nuevas preguntas.", "Lejos resolver el debate, el descubrimiento planteó nuevas preguntas.", "Lejos de resolver el debate, el descubrimiento planteó viejas preguntas.", "Lejos de resolver el debate, el descubrimiento planteó nuevas preguntas."],3,"“Far from settling” se traduce con “lejos de resolver”, infinitivo tras “de”."],
       ["arrange","Ordena: [raro / este / mineral / muy / es]",["este mineral es muy raro", "es mineral este muy raro", "este muy es mineral raro", "este mineral es raro muy"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -3963,8 +3963,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “roast” en español?",["roast", "el tueste", "barista", "coffee bean"],1,"“Roast” es “el tueste” en español."],
-      ["mcq","¿Cómo se dice “barista” en español?",["cup", "roast", "aroma", "el barista"],3,"“Barista” es “el barista” en español."],
+      ["mcq","¿Cómo se dice “roast” en español?",["el grano de café","el tueste","el barista","el aroma"],1,"“Roast” es “el tueste” en español."],
+      ["mcq","¿Cómo se dice “barista” en español?",["la taza","el tueste","el aroma","el barista"],3,"“Barista” es “el barista” en español."],
       ["fill","Completa: “___ una taza de café, por favor.”",["Quisiese", "Quería a", "Quiero de", "Quisiera"],3,"“Quisiera” es la forma cortés de pedir: “quisiera una taza”."],
       ["translate","Traduce: “She would like to try the dark roast.”",["Ella quisiera probar el tueste claro.", "Ella quiere probar el tueste oscuro por favor.", "Ella quisiera probar el tueste oscuro.", "Ella quisiera probando el tueste oscuro."],2,"“Would like to try” se traduce con “quisiera probar”."],
       ["arrange","Ordena: [fuerte / este / café / huele]",["este café huele fuerte", "huele este fuerte café", "este fuerte huele café", "café este fuerte huele"],0,"Pronombre + sustantivo + verbo + adjetivo."],
@@ -3988,8 +3988,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “varnish” en español?",["wood grain", "varnish", "el barniz", "antique furniture"],2,"“Varnish” es “el barniz” en español."],
-      ["mcq","¿Cómo se dice “sandpaper” en español?",["el papel de lija", "to restore", "antique furniture", "wood grain"],0,"“Sandpaper” es “el papel de lija” en español."],
+      ["mcq","¿Cómo se dice “varnish” en español?",["la veta de la madera","el mueble antiguo","el barniz","el papel de lija"],2,"“Varnish” es “el barniz” en español."],
+      ["mcq","¿Cómo se dice “sandpaper” en español?",["el papel de lija","restaurar","el mueble antiguo","la veta de la madera"],0,"“Sandpaper” es “el papel de lija” en español."],
       ["fill","Completa: “Ella deja que su ayudante ___ el mueble.”",["lijara", "lije", "lija", "lijar"],1,"“Dejar que” requiere subjuntivo: “deja que... lije”."],
       ["translate","Traduce: “Let the varnish dry overnight.”",["Deja que el barniz se seque toda la noche.", "Deja el barniz se seque toda la noche.", "Deja que el barniz se secará toda la noche.", "Deja que el barniz se seca toda la noche."],0,"“Let... dry” se traduce con “deja que... se seque”, subjuntivo tras “dejar que”."],
       ["arrange","Ordena: [muy / mueble / antiguo / es / este]",["es este muy mueble antiguo", "este es antiguo mueble muy", "antiguo es este muy mueble", "este mueble es muy antiguo"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4013,8 +4013,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “etymology” en español?",["usage example", "la etimología", "headword", "dictionary entry"],1,"“Etymology” es “la etimología” en español."],
-      ["mcq","¿Cómo se dice “headword” en español?",["synonym", "el lema", "usage example", "etymology"],1,"“Headword” es “el lema” en español."],
+      ["mcq","¿Cómo se dice “etymology” en español?",["el ejemplo de uso","la etimología","el lema","la entrada de diccionario"],1,"“Etymology” es “la etimología” en español."],
+      ["mcq","¿Cómo se dice “headword” en español?",["el sinónimo","el lema","el ejemplo de uso","la etimología"],1,"“Headword” es “el lema” en español."],
       ["fill","Completa: “___ adivinar, busca la etimología.”",["En vez", "Mejor que", "Más que", "En lugar de"],3,"“En lugar de” + infinitivo introduce la alternativa evitada: “en lugar de adivinar”."],
       ["translate","Traduce: “Rather than guessing, look up the etymology.”",["En lugar adivinar, busca la etimología.", "En lugar de adivinar, buscó la etimología.", "En lugar de adivinar, busca la etimología.", "En lugar de adivinando, busca la etimología."],2,"“Rather than guessing” se traduce con “en lugar de adivinar”, infinitivo tras “de”."],
       ["arrange","Ordena: [útil / muy / ejemplo / este / es]",["este ejemplo es muy útil", "muy útil es este ejemplo", "es este ejemplo útil muy", "es útil ejemplo muy este"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4038,8 +4038,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “MRI scan” en español?",["la resonancia magnética", "MRI scan", "diagnosis", "X-ray"],0,"“MRI scan” es “la resonancia magnética” en español."],
-      ["mcq","¿Cómo se dice “contrast dye” en español?",["contrast dye", "diagnosis", "el medio de contraste", "radiation exposure"],2,"“Contrast dye” es “el medio de contraste” en español."],
+      ["mcq","¿Cómo se dice “MRI scan” en español?",["la resonancia magnética","la radiografía","el diagnóstico","el radiólogo/la radióloga"],0,"“MRI scan” es “la resonancia magnética” en español."],
+      ["mcq","¿Cómo se dice “contrast dye” en español?",["la radiografía","el diagnóstico","el medio de contraste","la exposición a la radiación"],2,"“Contrast dye” es “el medio de contraste” en español."],
       ["fill","Completa: “Trae tus estudios anteriores por si el médico los ___.”",["necesitará", "necesite", "necesitó", "necesita"],3,"“Por si” + presente de indicativo expresa precaución: “por si... necesita”."],
       ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["El radiólogo pidió una resonancia si la radiografía no mostraba algo.", "El radiólogo pide una resonancia por si la radiografía no mostraba algo.", "El radiólogo pidió una resonancia por si la radiografía no mostrará algo.", "El radiólogo pidió una resonancia por si la radiografía no mostraba algo."],3,"“In case” se traduce con “por si”, expresando precaución sin condición estricta."],
       ["arrange","Ordena: [claro / diagnóstico / muy / el / es]",["el claro es diagnóstico muy", "el diagnóstico es muy claro", "claro el diagnóstico es muy", "diagnóstico muy el es claro"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
@@ -4063,8 +4063,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “outbreak” en español?",["mutation", "el brote", "vaccine efficacy", "herd immunity"],1,"“Outbreak” es “el brote” en español."],
-      ["mcq","¿Cómo se dice “herd immunity” en español?",["la inmunidad de rebaño", "vaccine efficacy", "mutation", "herd immunity"],0,"“Herd immunity” es “la inmunidad de rebaño” en español."],
+      ["mcq","¿Cómo se dice “outbreak” en español?",["la mutación","el brote","la eficacia de la vacuna","la inmunidad de rebaño"],1,"“Outbreak” es “el brote” en español."],
+      ["mcq","¿Cómo se dice “herd immunity” en español?",["la inmunidad de rebaño","la eficacia de la vacuna","la mutación","la cepa viral"],0,"“Herd immunity” es “la inmunidad de rebaño” en español."],
       ["fill","Completa: “Incluso si la eficacia ___, la inmunidad de rebaño podría ayudar.”",["bajará", "bajó", "bajara", "baja"],2,"“Incluso si” con hipótesis usa subjuntivo imperfecto: “incluso si... bajara”."],
       ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["El virus se propagaría incluso si las tasas de transmisión subieran ligeramente.", "El virus se propagaría incluso si las tasas de transmisión bajaran ligeramente.", "El virus se propagaría incluso si las tasas de transmisión bajan ligeramente.", "El virus se propagaría aunque las tasas de transmisión bajaran ligeramente."],1,"“Even if” con condición hipotética se traduce con “incluso si” + subjuntivo imperfecto."],
       ["arrange","Ordena: [preocupante / muy / mutación / esta / es]",["preocupante mutación muy es esta", "esta mutación es muy preocupante", "muy es mutación preocupante esta", "muy preocupante esta es mutación"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
@@ -4088,8 +4088,8 @@ window.LESSON_BANKS.ES = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “quantitative easing” en español?",["interest rate", "la flexibilización cuantitativa", "quantitative easing", "inflation target"],1,"“Quantitative easing” es “la flexibilización cuantitativa” en español."],
-      ["mcq","¿Cómo se dice “fiscal stimulus” en español?",["el estímulo fiscal", "fiscal stimulus", "monetary policy", "inflation target"],0,"“Fiscal stimulus” es “el estímulo fiscal” en español."],
+      ["mcq","¿Cómo se dice “quantitative easing” en español?",["la tasa de interés","la flexibilización cuantitativa","la meta de inflación","la política monetaria"],1,"“Quantitative easing” es “la flexibilización cuantitativa” en español."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en español?",["el estímulo fiscal","la tasa de interés","la política monetaria","la meta de inflación"],0,"“Fiscal stimulus” es “el estímulo fiscal” en español."],
       ["fill","Completa: “En la medida en que la inflación se ___ estable, son posibles recortes de tasas.”",["mantenga", "mantuvo", "mantendrá", "mantiene"],0,"“En la medida en que” con incertidumbre requiere subjuntivo: “en la medida en que... se mantenga”."],
       ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La política funcionaba en la medida en que los bancos prestan con más libertad.", "La política funciona en la medida que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con más libertad.", "La política funciona en la medida en que los bancos prestan con menos libertad."],2,"“To the extent that” se traduce con “en la medida en que” en español."],
       ["arrange","Ordena: [alta / muy / tasa / interés / la / de / es]",["tasa es interés alta de la muy", "la tasa de interés es muy alta", "alta muy interés es la tasa de", "de es la muy tasa interés alta"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
