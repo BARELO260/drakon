@@ -1,0 +1,3 @@
+Ronda 7 — reconstrucción reproducible.
+  node build410.js <ruta_drakon_ORIGINAL> <ruta_destino>   (destino = copia del original)
+  node verify410.js   (editar las 2 rutas /home/claude/... de la cabecera: original y resultado)

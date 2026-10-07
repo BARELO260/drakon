@@ -386,13 +386,77 @@ me confirmes lo mismo que con el glosario: ¿es un error de autoría (lo más
 probable, dado que es la misma causa raíz) y quieres que lo corrija, o hay
 alguna razón para mantenerlo?
 
+## Séptima ronda (esta sesión) — los 410 ejercicios "en inglés" corregidos
+
+### Qué se hizo
+
+Los 410 ejercicios calificables (82 por curso en FR/DE/IT/PT/ES) que pedían la palabra **en inglés**
+dentro de un curso de otro idioma están reescritos. Cada uno es un `mcq` de 4 opciones en el
+idioma meta, con la pista citada **en español** (el idioma nativo de la app):
+
+- **FR/DE/IT/PT (328 ejercicios):** la pregunta ahora es p. ej. `Comment dit-on «el caballo» en
+  français ?` con respuesta `le cheval`. Respuesta y pista salen del par (columna 0, columna 1) del
+  `study.vocab` de **la propia lección** — no se tradujo nada de cero. Los 3 distractores salen del
+  mismo `study.vocab` (idioma meta garantizado), descartando filas con la misma traducción, listas
+  con comas y filas que contengan la respuesta; se prefiere la misma forma gramatical (sustantivo
+  con artículo frente a verbo/expresión) y un número de palabras parecido.
+- **ES (82 ejercicios):** aquí no se puede preguntar "cómo se dice X" porque la palabra y su
+  traducción son la misma (62 de 82 eran circulares; ver Ronda 4). En su lugar la pregunta es
+  `¿Qué significa «el caballo»?` con **definiciones monolingües en español**. Escribí 171
+  definiciones a mano (las 82 palabras preguntadas + palabras hermanas de la misma lección usadas
+  como distractores; 41 lecciones). Donde dos definiciones de una misma lección podían confundirse,
+  excluí la palabra hermana de los distractores (`solo:true`) o elegí otra palabra del vocabulario.
+- Casos especiales (9 + 1): 9 preguntas citaban una variante de una entrada con barra del vocabulario
+  (p. ej. `être surestimé` frente a `être surestimé/sous-estimé`); la respuesta es la forma citada y
+  se excluye del grupo de distractores la propia fila. En `it_a1_neighborhood_city`, *la farmacia* es
+  igual en italiano y español (circular), así que ese ejercicio pregunta `Dove si comprano le
+  medicine?` .
+
+### Dos errores previos de alemán hallados al releer (corregidos)
+
+Al leer los 410 ejercicios nuevos aparecieron dos errores en el `study.vocab` original de
+`de_b2_smart_home_tech` y `de_b1_digital_entertainment`, que además estaban repetidos en sus
+ejercicios: **«Hausaufgaben automatisieren»** (= automatizar *deberes escolares*) →
+**«Haushaltsaufgaben automatisieren»** (3 apariciones), y **«das Serienmarathon»** → **«der
+Serienmarathon»** (género; 4 apariciones). Por eso `de.js` cambia 84 líneas y los demás 82.
+
+### Verificación aplicada
+
+1. **Conteos exactos y alcance:** 5 cursos, 1.065 lecciones, 6.390 ejercicios, 5.770 entradas de
+   vocab, 1.120 de grammar — idénticos al original. Cambian **exactamente 410 ejercicios**; el resto
+   de `ex[]` es idéntico campo a campo; `study` es idéntico salvo las 2 correcciones de DE; los
+   bancos de Situaciones son idénticos; `diff` por archivo: 82 líneas (84 en DE).
+2. **Validador:** `node tools/validate_lessons.js docs/js` → **0 errores, 0 avisos**.
+3. **Búsqueda de restos:** 0 apariciones de "en anglais ?" / "auf Englisch?" / "in inglese?" /
+   "em inglês?" / "en inglés?" en los 5 archivos.
+4. **Motor real:** extraje `_shuffleOptions` de `lessons.js` y lo ejecuté 200 veces sobre cada `mcq`
+   de los 5 cursos (491.200 barajados): **0 fallos**; en los 410 nuevos, 4 opciones distintas, índice
+   válido, sin opciones en inglés, y (FR/DE/IT/PT) toda opción pertenece al vocabulario de su lección.
+5. **Relectura a mano de los 410 completos** (no muestreo). Fue lo que destapó los errores alemanes
+   de arriba y llevó a refinar los distractores (misma forma gramatical).
+6. **Reconstrucción desde cero:** `tools/ronda7/build410.js` partiendo del original produce un
+   resultado byte a byte idéntico (`diff -r` sin diferencias).
+
+### Lo que queda (decisión tuya)
+
+- **Pistas en inglés heredadas (hallazgo nuevo, no corregido).** Unas ~190 preguntas de lecciones
+  iniciales (≈42 por curso; p. ej. `¿Cómo se dice "Good morning" en francés?`, `Traduce al
+  francés: "Nice to meet you!"`) están en español pero citan una pista **en inglés**. La dirección
+  (pista → idioma meta) es correcta y respuestas y distractores ya están en el idioma meta; solo la
+  pista debería ser español. También hay ejercicios `translate` con frase de origen en inglés
+  (p. ej. `Traduis : «The dog is very friendly.»`). Es la misma familia de causa raíz, pero de
+  riesgo menor que lo corregido hoy (basta traducir la pista; no se toca la respuesta). No lo he
+  tocado sin tu confirmación.
+- Las definiciones en español (171) y las traducciones de rondas anteriores son trabajo de un modelo
+  de lenguaje, no de un hablante nativo verificado.
+- En el curso ES las preguntas son ahora de significado; la decisión de diseño de Ronda 4 (qué
+  mostrar en `study.vocab` de ES) sigue abierta.
+
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 
-1. **Los 410 ejercicios que preguntan "¿cómo se dice X en inglés?" dentro de un
-   curso de francés/alemán/italiano/portugués/español** (ver el hallazgo de la
-   sexta ronda, arriba). Es ahora mismo lo más importante pendiente de decidir,
-   y lo más urgente porque afecta a ejercicios calificables, no solo a una
-   ficha de referencia.
+1. ~~Los 410 ejercicios que preguntan "¿cómo se dice X en inglés?" dentro de un curso no inglés~~ —
+   **resuelto en la séptima ronda** (ver abajo). Queda un hallazgo hermano, más pequeño, descrito allí:
+   pistas en inglés en ejercicios heredados de lecciones A1-A2.
 2. **Qué debería mostrar la ficha "Estudiar" del curso de español**, ahora que su
    columna de traducción es también español (ver el matiz de la cuarta ronda,
    arriba) — 1.177 de 1.657 entradas quedan circulares o redundantes.

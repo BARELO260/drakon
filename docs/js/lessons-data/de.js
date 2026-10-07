@@ -1448,8 +1448,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Pferd“ auf Englisch?",["the horse", "the cat", "the bird", "the dog"],0,"„Pferd“ heißt „horse“ auf Englisch."],
-      ["mcq","Wie sagt man „der Vogel“ auf Englisch?",["the dog", "the cow", "the fish", "the bird"],3,"„Vogel“ heißt „bird“ auf Englisch."],
+      ["mcq","Wie sagt man „el caballo“ auf Deutsch?",["die Kuh", "der Hund", "das Pferd", "der Vogel"],2,"„el caballo“ heißt auf Deutsch „das Pferd“."],
+      ["mcq","Wie sagt man „el pájaro“ auf Deutsch?",["der Fisch", "das Pferd", "die Katze", "der Vogel"],3,"„el pájaro“ heißt auf Deutsch „der Vogel“."],
       ["fill","Completa: “Ich gehe sonntags gern im ___ spazieren.”",["Katze", "Fisch", "Kuh", "Wald"],3,"„Im Wald spazieren gehen“ ist eine typische Aktivität in der Natur."],
       ["translate","Übersetze: „The dog is very friendly.“",["Die Katze ist sehr freundlich.", "Der Vogel ist sehr freundlich.", "Der Hund ist sehr freundlich.", "Das Pferd ist sehr freundlich."],2,"„The dog“ = „der Hund“; „friendly“ = „freundlich“."],
       ["arrange","Bringe in die richtige Reihenfolge: [schwarze / eine / habe / Katze / ich]",["Ich habe eine schwarze Katze", "Katze habe Ich schwarze eine", "schwarze habe eine Katze Ich", "habe schwarze Katze eine Ich"],0,"Subjekt + Verb + Artikel + Adjektiv + Substantiv."],
@@ -1473,8 +1473,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Rücken“ auf Englisch?",["the back", "the hand", "the head", "the leg"],0,"„Rücken“ heißt „back“ auf Englisch."],
-      ["mcq","Wie sagt man „der Fuß“ auf Englisch?",["the head", "the hand", "the arm", "the foot"],3,"„Fuß“ heißt „foot“ auf Englisch."],
+      ["mcq","Wie sagt man „la espalda“ auf Deutsch?",["das Bein", "der Kopf", "der Rücken", "der Fuß"],2,"„la espalda“ heißt auf Deutsch „der Rücken“."],
+      ["mcq","Wie sagt man „el pie“ auf Deutsch?",["das Bein", "der Fuß", "der Kopf", "der Arm"],1,"„el pie“ heißt auf Deutsch „der Fuß“."],
       ["fill","Completa: “Der ___ tut mir nach dem Laufen sehr weh.”",["Hand", "Bein", "Rücken", "Kopf"],2,"Laufen verursacht oft Rückenschmerzen, wenn man sich nicht gut aufwärmt."],
       ["translate","Übersetze: „My hand hurts.“",["Mein Bein tut mir weh.", "Mein Arm tut mir weh.", "Mein Fuß tut mir weh.", "Meine Hand tut mir weh."],3,"„My hand hurts“ = „Meine Hand tut mir weh.“"],
       ["arrange","Bringe in die richtige Reihenfolge: [weh / Bein / mir / tut / mein]",["Bein tut Mein mir weh", "tut mir weh Bein Mein", "Bein weh Mein tut mir", "Mein Bein tut mir weh"],3,"Subjekt (Körperteil) + „tut mir weh“."],
@@ -1498,8 +1498,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „Gewichte heben“ auf Englisch?",["to run", "to do yoga", "swimming", "to lift weights"],3,"„Gewichte heben“ heißt „to lift weights“."],
-      ["mcq","Wie sagt man „das Schwimmen“ auf Englisch?",["swimming", "to run", "tennis", "soccer/football"],0,"„Schwimmen“ heißt „swimming“."],
+      ["mcq","Wie sagt man „levantar pesas“ auf Deutsch?",["Yoga machen", "Tennis", "laufen", "Gewichte heben"],3,"„levantar pesas“ heißt auf Deutsch „Gewichte heben“."],
+      ["mcq","Wie sagt man „la natación“ auf Deutsch?",["Yoga machen", "Gewichte heben", "das Schwimmen", "Tennis"],2,"„la natación“ heißt auf Deutsch „das Schwimmen“."],
       ["fill","Completa: “Ich ___ normalerweise dreimal pro Woche, um fit zu bleiben.”",["Tennis", "Fußball", "Schwimmen", "laufe"],3,"„Normalerweise“ + Präsens („laufe“) beschreibt eine Gewohnheit."],
       ["mcq","¿Qué significa «Ich mache sonntags normalerweise Yoga.»?",["I usually play tennis on Sundays.","I usually do yoga on Sundays.","I usually lift weights on Sundays.","I usually do yoga on Saturdays."],1,"«Ich mache sonntags normalerweise Yoga.» significa «I usually do yoga on Sundays»."],
       ["arrange","Bringe in die richtige Reihenfolge: [fit / bleiben / um / laufe / ich / zu]",["fit bleiben Ich zu laufe, um","bleiben um laufe, fit Ich zu","Ich laufe, um fit zu bleiben","laufe, Ich zu fit bleiben um"],2,"Subjekt + Verb + „um ... zu“ + Adjektiv."],
@@ -1515,7 +1515,7 @@ window.LESSON_BANKS.DE = [
         ["ein programmierbares Thermostat", "un termostato programable"],
         ["eine Sicherheitskamera", "una cámara de seguridad"],
         ["per Sprache steuern", "controlar por voz"],
-        ["Hausaufgaben automatisieren", "automatizar tareas del hogar"],
+        ["Haushaltsaufgaben automatisieren", "automatizar tareas del hogar"],
         ["ein Datenschutzrisiko", "un riesgo para la privacidad"],
       ],
       grammar: [
@@ -1523,8 +1523,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „ein Datenschutzrisiko“ auf Englisch?",["a privacy risk", "a smart speaker", "a security camera", "a thermostat"],0,"„Datenschutzrisiko“ heißt „privacy risk“."],
-      ["mcq","Wie sagt man „Hausaufgaben automatisieren“ auf Englisch?",["a smart speaker", "to control by voice", "a privacy risk", "to automate household tasks"],3,"„Hausaufgaben automatisieren“ heißt „to automate household tasks“."],
+      ["mcq","Wie sagt man „un riesgo para la privacidad“ auf Deutsch?",["ein Datenschutzrisiko", "eine Sicherheitskamera", "ein smarter Lautsprecher", "ein programmierbares Thermostat"],0,"„un riesgo para la privacidad“ heißt auf Deutsch „ein Datenschutzrisiko“."],
+      ["mcq","Wie sagt man „automatizar tareas del hogar“ auf Deutsch?",["per Sprache steuern", "ein Datenschutzrisiko", "Haushaltsaufgaben automatisieren", "eine Sicherheitskamera"],2,"„automatizar tareas del hogar“ heißt auf Deutsch „Haushaltsaufgaben automatisieren“."],
       ["fill","Completa: “Ein programmierbares Thermostat kann Energie ___, wenn es gut eingestellt ist.”",["kaputtmachen", "verlieren", "sparen", "verschwenden"],2,"Ein gut eingestelltes Thermostat hilft, Energie zu sparen, nicht zu verschwenden."],
       ["translate","Übersetze: „Smart speakers can be controlled by voice.“",["Smarte Lautsprecher können per Sprache gesteuert werden.", "Thermostate können per Text gesteuert werden.", "Sicherheitskameras können per Sprache gesteuert werden.", "Smarte Lautsprecher können per Text gesteuert werden."],0,"„Controlled by voice“ = „per Sprache gesteuert“."],
       ["arrange","Bringe in die richtige Reihenfolge: [ein / kann / darstellen / Datenschutzrisiko / es]",["ein Es darstellen Datenschutzrisiko kann", "Es kann ein Datenschutzrisiko darstellen", "Datenschutzrisiko darstellen Es kann ein", "Es ein Datenschutzrisiko darstellen kann"],1,"Subjekt + „kann“ + Objekt + „darstellen“: „Es kann ein Datenschutzrisiko darstellen.“"],
@@ -1548,8 +1548,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine Einigung erzielen“ auf Englisch?",["to call a meeting", "to reach an agreement", "to attach a document", "to postpone a meeting"],1,"„Eine Einigung erzielen“ heißt „to reach an agreement“."],
-      ["mcq","Wie sagt man „eine Besprechung verschieben“ auf Englisch?",["to attach a document", "to reach an agreement", "to call a meeting", "to postpone a meeting"],3,"„Eine Besprechung verschieben“ heißt „to postpone a meeting“."],
+      ["mcq","Wie sagt man „llegar a un acuerdo“ auf Deutsch?",["eine Einigung erzielen", "ein Dokument anhängen", "eine Besprechung einberufen", "eine Besprechung verschieben"],0,"„llegar a un acuerdo“ heißt auf Deutsch „eine Einigung erzielen“."],
+      ["mcq","Wie sagt man „posponer una reunión“ auf Deutsch?",["eine Besprechung verschieben", "eine Besprechung einberufen", "eine Einigung erzielen", "ein Dokument anhängen"],0,"„posponer una reunión“ heißt auf Deutsch „eine Besprechung verschieben“."],
       ["fill","Completa: “Bevor wir die Besprechung beenden, möchte ich gern einen offenen Punkt von letzter Woche ___.”",["verschieben", "anhängen", "einberufen", "aufgreifen"],3,"„Einen offenen Punkt wieder aufgreifen“ bedeutet, darauf zurückzukommen."],
       ["mcq","¿Qué significa «Ich habe den angeforderten Bericht angehängt.»?",["I'm calling the requested report.","I'm postponing the requested report.","I'm attaching the requested report.","I'm attaching the requested email."],2,"„Ich habe angehängt“ = „I'm attaching“; „den angeforderten Bericht“ = „the requested report“."],
       ["arrange","Bringe in die richtige Reihenfolge: [Antwort / auf / freuen / Ihre / wir / uns]",["Wir freuen auf Ihre uns Antwort", "Ihre Wir Antwort uns freuen auf", "Antwort Wir auf uns Ihre freuen", "Wir freuen uns auf Ihre Antwort"],3,"Feste Formel zum Abschluss einer formellen E-Mail."],
@@ -1598,8 +1598,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Jacke“ auf Englisch?",["the pants/trousers", "the shirt", "the jacket", "the skirt"],2,"„Jacke“ heißt „jacket“ auf Englisch."],
-      ["mcq","Wie sagt man „die Schuhe“ auf Englisch?",["the dress", "the shoes", "the shirt", "the skirt"],1,"„Schuhe“ heißt „shoes“ auf Englisch."],
+      ["mcq","Wie sagt man „la chaqueta“ auf Deutsch?",["der Rock", "die Jacke", "die Schuhe", "die Hose"],1,"„la chaqueta“ heißt auf Deutsch „die Jacke“."],
+      ["mcq","Wie sagt man „los zapatos“ auf Deutsch?",["der Rock", "das Hemd", "die Hose", "die Schuhe"],3,"„los zapatos“ heißt auf Deutsch „die Schuhe“."],
       ["fill","Completa: “Ich trage ein ___ Hemd und eine schwarze Hose.”",["blaue", "blauen", "blau", "blaues"],3,"„Hemd“ ist sächlich, daher die Endung: „ein blaues Hemd“."],
       ["translate","Übersetze: „I'm wearing a red dress.“",["Ich trage rote Schuhe.", "Ich trage einen roten Rock.", "Ich trage ein rotes Hemd.", "Ich trage ein rotes Kleid."],3,"„I'm wearing“ = „Ich trage“; „a red dress“ = „ein rotes Kleid“."],
       ["arrange","Bringe in die richtige Reihenfolge: [schwarze / habe / ich / Schuhe]",["Ich habe schwarze Schuhe", "Ich Schuhe schwarze habe", "schwarze Ich Schuhe habe", "Ich habe Schuhe schwarze"],0,"Subjekt + Verb + Adjektiv + Substantiv (Pluralendung ohne Artikel)."],
@@ -1623,8 +1623,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Karotte“ auf Englisch?",["the carrot", "the orange", "the banana", "the apple"],0,"„Karotte“ heißt „carrot“ auf Englisch."],
-      ["mcq","Wie sagt man „die Banane“ auf Englisch?",["the carrot", "the banana", "the tomato", "the lettuce"],1,"„Banane“ heißt „banana“ auf Englisch."],
+      ["mcq","Wie sagt man „la zanahoria“ auf Deutsch?",["die Orange", "die Karotte", "der Apfel", "die Banane"],1,"„la zanahoria“ heißt auf Deutsch „die Karotte“."],
+      ["mcq","Wie sagt man „el plátano“ auf Deutsch?",["die Banane", "die Karotte", "die Orange", "der Apfel"],0,"„el plátano“ heißt auf Deutsch „die Banane“."],
       ["fill","Completa: “Ich esse jeden Tag ___ Obst, um gesund zu bleiben.”",["wenig", "viel", "viele", "wenige"],1,"„Obst“ ist unzählbar, daher „viel Obst“ (unveränderlich)."],
       ["translate","Übersetze: „I eat little meat and a lot of vegetables.“",["Ich esse wenig Fleisch und viel Gemüse.", "Ich esse viel Fleisch und viel Gemüse.", "Ich esse wenig Fleisch und wenig Gemüse.", "Ich esse wenig Obst und viel Gemüse."],0,"„Little meat“ = „wenig Fleisch“; „a lot of vegetables“ = „viel Gemüse“."],
       ["arrange","Bringe in die richtige Reihenfolge: [Apfel / Banane / mag / und / ich]",["Ich mag Apfel und Banane", "mag Ich Apfel und Banane", "Banane und Ich mag Apfel", "Ich mag Apfel Banane und"],0,"Subjekt + Verb + Objekt (zwei durch „und“ verbundene Substantive)."],
@@ -1648,8 +1648,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Zutaten mischen“ auf Englisch?",["to boil, to fry", "to preheat the oven", "to mix the ingredients", "to cut, to peel"],2,"„Die Zutaten mischen“ heißt „to mix the ingredients“."],
-      ["mcq","Wie sagt man „den Ofen vorheizen“ auf Englisch?",["to cut, to peel", "to add salt to taste", "to let the dough rest", "to preheat the oven"],3,"„Den Ofen vorheizen“ heißt „to preheat the oven“."],
+      ["mcq","Wie sagt man „mezclar los ingredientes“ auf Deutsch?",["den Ofen vorheizen", "nach Geschmack Salz hinzufügen", "den Teig ruhen lassen", "die Zutaten mischen"],3,"„mezclar los ingredientes“ heißt auf Deutsch „die Zutaten mischen“."],
+      ["mcq","Wie sagt man „precalentar el horno“ auf Deutsch?",["nach Geschmack Salz hinzufügen", "den Teig ruhen lassen", "den Ofen vorheizen", "die Zutaten mischen"],2,"„precalentar el horno“ heißt auf Deutsch „den Ofen vorheizen“."],
       ["fill","Completa: “Vor dem Backen muss man den Ofen auf 180 Grad ___.”",["kochen", "vorheizen", "braten", "mischen"],1,"„Den Ofen vorheizen“ ist der typische vorherige Schritt vor dem Backen."],
       ["mcq","¿Qué significa «Lassen Sie den Teig zehn Minuten ruhen.»?",["Let the dough cut for ten minutes.","Let the dough rest for ten minutes.","Let the dough boil for ten minutes.","Let the dough fry for ten minutes."],1,"„Lassen Sie den Teig ruhen“ = „Let the dough rest“."],
       ["arrange","Bringe in die richtige Reihenfolge: [Geschmack / Salz / nach / Sie / fügen / hinzu]",["Fügen Sie hinzu Salz Geschmack nach", "Salz Sie hinzu nach Fügen Geschmack", "Geschmack nach Fügen hinzu Sie Salz", "Fügen Sie Salz nach Geschmack hinzu"],3,"Imperativ + Objekt + feste Wendung „nach Geschmack“."],
@@ -1673,8 +1673,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine bewegende Darbietung“ auf Englisch?",["an artist's style", "a moving performance", "a masterpiece", "a lasting impression"],1,"„Eine bewegende Darbietung“ heißt „a moving performance“."],
-      ["mcq","Wie sagt man „überbewertet sein“ auf Englisch?",["to be overrated", "to leave an impression", "to be underrated", "an artist's style"],0,"„Überbewertet sein“ heißt „to be overrated“."],
+      ["mcq","Wie sagt man „una interpretación conmovedora“ auf Deutsch?",["eine bewegende Darbietung", "die Inszenierung", "ein Meisterwerk", "der Stil eines Künstlers"],0,"„una interpretación conmovedora“ heißt auf Deutsch „eine bewegende Darbietung“."],
+      ["mcq","Wie sagt man „estar sobrevalorado“ auf Deutsch?",["überbewertet sein", "einen bleibenden Eindruck hinterlassen", "die Inszenierung", "ein Meisterwerk"],0,"„estar sobrevalorado“ heißt auf Deutsch „überbewertet sein“."],
       ["fill","Completa: “Ich glaube nicht, dass dieser Film so gut ___, wie alle sagen.”",["ist", "gewesen", "war", "sein wird"],0,"Im Indikativ Präsens: „ich glaube nicht, dass...ist“."],
       ["mcq","¿Qué significa «Diese Aufführung hat bei mir einen bleibenden Eindruck hinterlassen.»?",["This staging left me overrated.","This performance left a lasting impression on me.","This style left a lasting impression on me.","This performance left a masterpiece on me."],1,"«Diese Aufführung hat bei mir einen bleibenden Eindruck hinterlassen.» significa «This performance left a lasting impression on me»."],
       ["arrange","Bringe in die richtige Reihenfolge: [Meisterwerk / ein / ist / das]",["Das ist ein Meisterwerk", "Das ein ist Meisterwerk", "Meisterwerk ist Das ein", "ist ein Meisterwerk Das"],0,"Subjekt + „ist“ + Artikel + Substantiv."],
@@ -1698,8 +1698,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „Kritik konkret formulieren“ auf Englisch?",["to take criticism personally", "to point out an area for improvement", "to phrase criticism in concrete terms", "to be open to feedback"],2,"„Kritik konkret formulieren“ heißt „to phrase criticism in concrete terms“."],
-      ["mcq","Wie sagt man „Kritik persönlich nehmen“ auf Englisch?",["to take criticism personally", "to be open to feedback", "to propose a solution", "to acknowledge strengths"],0,"„Kritik persönlich nehmen“ heißt „to take criticism personally“."],
+      ["mcq","Wie sagt man „formular la crítica en términos concretos“ auf Deutsch?",["einen Verbesserungspunkt ansprechen", "Kritik persönlich nehmen", "Kritik konkret formulieren", "offen für Feedback sein"],2,"„formular la crítica en términos concretos“ heißt auf Deutsch „Kritik konkret formulieren“."],
+      ["mcq","Wie sagt man „tomarse la crítica como algo personal“ auf Deutsch?",["einen Verbesserungspunkt ansprechen", "Kritik persönlich nehmen", "Kritik konkret formulieren", "offen für Feedback sein"],1,"„tomarse la crítica como algo personal“ heißt auf Deutsch „Kritik persönlich nehmen“."],
       ["fill","Completa: “Bevor man Kritik übt, ist es eine gute Idee, die Stärken der Arbeit ___.”",["zu kritisieren", "zu verstecken", "anzuerkennen", "zu ignorieren"],2,"„Stärken vor der Kritik anerkennen“ sorgt dafür, dass das Feedback besser angenommen wird."],
       ["mcq","¿Qué significa «Ein Vorschlag wäre, mit den Schlussfolgerungen zu beginnen.»?",["One criticism would be to start with the conclusions.","One suggestion would be to finish with the conclusions.","One problem would be to start with the conclusions.","One suggestion would be to start with the conclusions."],3,"„Ein Vorschlag wäre“ = „One suggestion would be to“."],
       ["arrange","Bringe in die richtige Reihenfolge: [Problem / schlage / nur / das / eine Lösung / nicht / nenne / vor]",["Nenne nicht nur das Problem, schlage eine Lösung vor", "nur eine das Nenne Lösung nicht vor Problem, schlage", "nicht Lösung schlage Problem, vor das eine nur Nenne", "nicht das Problem, Nenne Lösung eine schlage vor nur"],0,"Kontraststruktur: „nicht nur... [Verb]“ + „[Verb]... eine Lösung“."],
@@ -1723,8 +1723,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „Präskriptivismus versus Deskriptivismus“ auf Englisch?",["inclusive language", "linguistic change", "a neologism", "prescriptivism versus descriptivism"],3,"„Präskriptivismus versus Deskriptivismus“ heißt „prescriptivism versus descriptivism“."],
-      ["mcq","Wie sagt man „ein Neologismus wird ins Wörterbuch aufgenommen“ auf Englisch?",["a living language evolves with use", "inclusive language", "to generate resistance", "a neologism is added to the dictionary"],3,"„Ein Neologismus wird ins Wörterbuch aufgenommen“ heißt „a neologism is added to the dictionary“."],
+      ["mcq","Wie sagt man „prescriptivismo frente a descriptivismo“ auf Deutsch?",["inklusive Sprache", "Präskriptivismus versus Deskriptivismus", "Widerstand gegen einen Sprachwandel erzeugen", "ein Neologismus wird ins Wörterbuch aufgenommen"],1,"„prescriptivismo frente a descriptivismo“ heißt auf Deutsch „Präskriptivismus versus Deskriptivismus“."],
+      ["mcq","Wie sagt man „se añade un neologismo al diccionario“ auf Deutsch?",["ein Argument impliziert nicht zwangsläufig eine politische Haltung", "eine lebendige Sprache entwickelt sich durch den Gebrauch", "Widerstand gegen einen Sprachwandel erzeugen", "ein Neologismus wird ins Wörterbuch aufgenommen"],3,"„se añade un neologismo al diccionario“ heißt auf Deutsch „ein Neologismus wird ins Wörterbuch aufgenommen“."],
       ["fill","Completa: “Der Deskriptivismus konzentriert sich darauf zu dokumentieren, wie Menschen tatsächlich sprechen, nicht darauf, wie sie sprechen ___.”",["sollten", "können", "pflegen", "wollen"],0,"Der Deskriptivismus beschreibt den tatsächlichen Gebrauch, ohne Normen darüber zu diktieren, wie man „sollte“ sprechen."],
       ["mcq","¿Qué significa «Eine lebendige Sprache entwickelt sich durch den Gebrauch, ob es uns gefällt oder nicht.»?",["A living language evolves with use, whether we like it or not.","A dead language evolves with use, whether we like it or not.","A living language evolves with use, even if it doesn't change.","A living language evolves without use, whether we like it or not."],0,"„Ob es uns gefällt oder nicht“ wird idiomatisch als „whether we like it or not“ übersetzt."],
       ["arrange","Bringe in die richtige Reihenfolge: [zwangsläufig / impliziert / eine politische / nicht / Haltung / ein Argument]",["Ein Argument impliziert nicht zwangsläufig eine politische Haltung", "zwangsläufig impliziert Argument Haltung politische eine Ein nicht", "nicht Argument Haltung impliziert politische Ein zwangsläufig eine", "Ein eine Haltung Argument impliziert politische nicht zwangsläufig"],0,"Subjekt + Verneinung + „impliziert zwangsläufig“ + Objekt."],
@@ -1749,8 +1749,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Apotheke“ auf Englisch?",["the supermarket", "the bank", "the pharmacy", "the park"],2,"„Apotheke“ heißt auf Englisch „pharmacy“."],
-      ["mcq","Wie sagt man „die Bushaltestelle“ auf Englisch?",["the bank", "the park", "the bus stop", "the library"],2,"„Bushaltestelle“ heißt auf Englisch „bus stop“."],
+      ["mcq","Wie sagt man „la farmacia“ auf Deutsch?",["der Supermarkt", "die Bushaltestelle", "die Bibliothek", "die Apotheke"],3,"„la farmacia“ heißt auf Deutsch „die Apotheke“."],
+      ["mcq","Wie sagt man „la parada de autobús“ auf Deutsch?",["die Apotheke", "der Park", "der Supermarkt", "die Bushaltestelle"],3,"„la parada de autobús“ heißt auf Deutsch „die Bushaltestelle“."],
       ["fill","Completa: “In meinem Viertel ___ es eine sehr große Bibliothek.”",["hat", "sein", "ist", "gibt"],3,"„Es gibt“ drückt aus, dass etwas existiert, mit Akkusativ: „es gibt eine Bibliothek“."],
       ["translate","Übersetze: „The pharmacy is next to the park.“",["Die Apotheke ist weit weg vom Park.", "Die Bank ist neben dem Park.", "Die Apotheke ist in der Nähe der Bibliothek.", "Die Apotheke ist neben dem Park."],3,"„Next to“ = „neben“; Subjekt und Ort müssen dem Original entsprechen."],
       ["arrange","Bring in die richtige Reihenfolge: [Supermarkt / weit / der / nicht / ist]",["Der Supermarkt ist nicht weit", "Supermarkt weit nicht Der ist", "Supermarkt nicht ist Der weit", "ist Supermarkt nicht weit Der"],0,"Subjekt + Verb + Negation + Ortsadverb."],
@@ -1774,8 +1774,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „ein Geschenk machen“ auf Englisch?",["to give a gift", "Christmas", "New Year", "the wedding"],0,"„Ein Geschenk machen“ heißt auf Englisch „to give a gift“."],
-      ["mcq","Wie sagt man „die Hochzeit“ auf Englisch?",["New Year", "Christmas", "to celebrate", "the wedding"],3,"„Hochzeit“ heißt auf Englisch „wedding“."],
+      ["mcq","Wie sagt man „hacer un regalo“ auf Deutsch?",["ein Geschenk machen", "das Neujahr", "der Geburtstag", "die Hochzeit"],0,"„hacer un regalo“ heißt auf Deutsch „ein Geschenk machen“."],
+      ["mcq","Wie sagt man „la boda“ auf Deutsch?",["die Hochzeit", "das Neujahr", "der Geburtstag", "ein Geschenk machen"],0,"„la boda“ heißt auf Deutsch „die Hochzeit“."],
       ["fill","Completa: “Jedes Neujahr feiern wir ___ mit der ganzen Familie.”",["kaum", "schon", "einmal", "normalerweise"],3,"„Normalerweise“ + Präsens drückt eine gewohnheitsmäßige Handlung aus."],
       ["translate","Übersetze: „We usually give gifts at Christmas.“",["Wir machen ein Geschenk an Weihnachten.", "Wir feiern normalerweise Geschenke an Weihnachten.", "Wir machen normalerweise Geschenke am Geburtstag.", "Wir machen normalerweise Geschenke an Weihnachten."],3,"„We usually give gifts“ = „Wir machen normalerweise Geschenke“, mit Adverb + Präsens."],
       ["arrange","Bring in die richtige Reihenfolge: [Geburtstag / ich / meinen / feiere / mit Freunden]",["feiere Geburtstag meinen mit Ich Freunden", "feiere Geburtstag Ich meinen Freunden mit", "feiere mit Ich Freunden meinen Geburtstag", "Ich feiere meinen Geburtstag mit Freunden"],3,"Subjekt + Verb + Possessivobjekt + Präposition + Ergänzung."],
@@ -1799,8 +1799,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „mit jemandem gut auskommen“ auf Englisch?",["a close/trustworthy friend", "to make up after an argument", "to trust someone", "to get along well/badly with someone"],3,"„Mit jemandem gut auskommen“ heißt auf Englisch „to get along well with someone“."],
-      ["mcq","Wie sagt man „sich nach einem Streit versöhnen“ auf Englisch?",["to make up after an argument", "a close/trustworthy friend", "to keep in touch", "to get along well/badly with someone"],0,"„Sich nach einem Streit versöhnen“ heißt auf Englisch „to make up after an argument“."],
+      ["mcq","Wie sagt man „llevarse bien con alguien“ auf Deutsch?",["mit jemandem gut auskommen", "in Kontakt bleiben", "sich nach einem Streit versöhnen", "etwas gemeinsam haben"],0,"„llevarse bien con alguien“ heißt auf Deutsch „mit jemandem gut auskommen“."],
+      ["mcq","Wie sagt man „reconciliarse después de una discusión“ auf Deutsch?",["sich nach einem Streit versöhnen", "mit jemandem gut/schlecht auskommen", "etwas gemeinsam haben", "in Kontakt bleiben"],0,"„reconciliarse después de una discusión“ heißt auf Deutsch „sich nach einem Streit versöhnen“."],
       ["fill","Completa: “Wenn du diese Freundschaft behalten willst, ___ du in Kontakt bleiben.”",["musstest", "sollst", "wirst", "solltest"],3,"„Solltest“ (Konjunktiv II von „sollen“) gibt einen sanften Ratschlag in der zweiten Person."],
       ["translate","Übersetze: „You have to trust your friends.“",["Du musst mit deinen Freunden gut auskommen.", "Du musst deiner Familie vertrauen.", "Du musst deinen Freunden vertrauen.", "Du solltest deinen Freunden vertrauen."],2,"„You have to trust“ = „Du musst vertrauen“, mit „müssen“ + Infinitiv."],
       ["arrange","Bring in die richtige Reihenfolge: [gemeinsam / viel / wir / haben]",["Wir viel haben gemeinsam", "gemeinsam haben Wir viel", "Wir haben viel gemeinsam", "gemeinsam viel Wir haben"],2,"Subjekt + Verb + Quantifikator + Adverb „gemeinsam“."],
@@ -1824,8 +1824,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die digitale Abschaltung“ auf Englisch?",["burnout", "to work remotely", "to balance work and personal life", "digital disconnection"],3,"„Digitale Abschaltung“ heißt auf Englisch „digital disconnection“."],
-      ["mcq","Wie sagt man „Berufs- und Privatleben vereinbaren“ auf Englisch?",["flexible working hours", "to balance work and personal life", "burnout", "digital disconnection"],1,"„Berufs- und Privatleben vereinbaren“ heißt auf Englisch „to balance work and personal life“."],
+      ["mcq","Wie sagt man „la desconexión digital“ auf Deutsch?",["das Burnout", "im Homeoffice arbeiten", "die digitale Abschaltung", "flexible Arbeitszeiten"],2,"„la desconexión digital“ heißt auf Deutsch „die digitale Abschaltung“."],
+      ["mcq","Wie sagt man „equilibrar el trabajo y la vida personal“ auf Deutsch?",["im Homeoffice arbeiten", "produktiv sein", "flexible Arbeitszeiten", "Berufs- und Privatleben vereinbaren"],3,"„equilibrar el trabajo y la vida personal“ heißt auf Deutsch „Berufs- und Privatleben vereinbaren“."],
       ["fill","Completa: “Von zu Hause ___ , schaffen es viele Menschen, Berufs- und Privatleben besser zu vereinbaren.”",["gearbeitet", "Arbeit", "arbeiten", "arbeitend"],3,"Das Partizip I („arbeitend“) drückt den Umstand aus, der das folgende Ergebnis ermöglicht."],
       ["translate","Übersetze: „Working without disconnecting can lead to burnout.“",["Mit flexiblen Arbeitszeiten arbeitend, kann man ein Burnout erleiden.", "Vom Arbeiten abschaltend, kann man ein Burnout erleiden.", "Ohne abzuschalten zu arbeiten kann ein Burnout vermeiden.", "Ohne abzuschalten arbeitend, kann man ein Burnout erleiden."],3,"Das Partizip I „ohne abzuschalten arbeitend“ drückt die Ursache des Burnouts aus."],
       ["arrange","Bring in die richtige Reihenfolge: [Arbeitszeiten / schätzen / flexible / viele]",["Viele Arbeitszeiten flexible schätzen", "Viele schätzen flexible Arbeitszeiten", "schätzen flexible Viele Arbeitszeiten", "Arbeitszeiten flexible Viele schätzen"],1,"Subjekt + Verb + Adjektiv + Substantiv."],
@@ -1849,8 +1849,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine Sackgasse“ auf Englisch?",["to break the ice", "to give ground/make concessions", "an inflexible/uncompromising stance", "a deadlock/stalemate"],3,"„Eine Sackgasse“ heißt auf Englisch „a deadlock“ oder „stalemate“."],
-      ["mcq","Wie sagt man „eine kompromisslose Haltung“ auf Englisch?",["to reach an agreement", "a deadlock/stalemate", "an inflexible/uncompromising stance", "to give ground/make concessions"],2,"„Eine kompromisslose Haltung“ heißt auf Englisch „an inflexible/uncompromising stance“."],
+      ["mcq","Wie sagt man „un punto muerto“ auf Deutsch?",["eine Sackgasse", "eine Einigung erzielen", "eine kompromisslose Haltung", "das Eis brechen"],0,"„un punto muerto“ heißt auf Deutsch „eine Sackgasse“."],
+      ["mcq","Wie sagt man „una postura inflexible/intransigente“ auf Deutsch?",["das Eis brechen", "eine kompromisslose Haltung", "eine Einigung erzielen", "eine Sackgasse"],1,"„una postura inflexible/intransigente“ heißt auf Deutsch „eine kompromisslose Haltung“."],
       ["fill","Completa: “Es ___ besser, einen Mittelweg zu suchen, bevor man in eine Sackgasse gerät.”",["ist", "war", "wäre", "wird"],2,"Der Konjunktiv II „wäre“ schwächt die Aussage ab, typisch für das formelle Verhandlungsregister."],
       ["translate","Übersetze im formellen Register: „Would you be willing to make concessions on this point?“",["Wären Sie bereit, an diesem Punkt Zugeständnisse zu machen?", "Sind Sie bereit, an diesem Punkt Zugeständnisse zu machen?", "Wären Sie bereit, an diesem Punkt das Eis zu brechen?", "Wären Sie bereit, an diesem Punkt eine Einigung zu erzielen?"],0,"Der Konjunktiv II „wären Sie bereit“ schwächt die Frage ab, formeller als das Präsens „sind Sie bereit“."],
       ["arrange","Bring in die richtige Reihenfolge: [schwierig / eine / wird / Einigung / es / sein / zu erzielen]",["eine schwierig zu sein wird erzielen Es Einigung", "wird zu erzielen Einigung schwierig sein eine Es", "Es wird schwierig sein eine Einigung zu erzielen", "erzielen Einigung eine schwierig sein zu wird Es"],2,"Futur + Adjektiv + Infinitivkonstruktion + Ergänzung."],
@@ -1874,8 +1874,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „jemandes Verantwortung verwässern“ auf Englisch?",["to dilute someone's responsibility", "a euphemism", "an unnecessary anglicism", "a restructuring (euphemism for layoffs)"],0,"„Jemandes Verantwortung verwässern“ heißt auf Englisch „to dilute someone's responsibility“."],
-      ["mcq","Wie sagt man „eine Umstrukturierung (Euphemismus für Entlassungen)“ auf Englisch?",["a euphemism", "a restructuring (euphemism for layoffs)", "to dilute someone's responsibility", "an unnecessary anglicism"],1,"„Umstrukturierung“ heißt auf Englisch „restructuring“, üblicher Euphemismus für „layoffs“ (Entlassungen)."],
+      ["mcq","Wie sagt man „diluir la responsabilidad de alguien“ auf Deutsch?",["jemandes Verantwortung verwässern", "ein unnötiger Anglizismus", "ein Euphemismus", "der Unternehmensjargon"],0,"„diluir la responsabilidad de alguien“ heißt auf Deutsch „jemandes Verantwortung verwässern“."],
+      ["mcq","Wie sagt man „una reestructuración (eufemismo de despidos)“ auf Deutsch?",["eine Umstrukturierung (Euphemismus für Entlassungen)", "die Wirkung einer Nachricht abmildern", "ein unnötiger Anglizismus", "ein Euphemismus"],0,"„una reestructuración (eufemismo de despidos)“ heißt auf Deutsch „eine Umstrukturierung (Euphemismus für Entlassungen)“."],
       ["fill","Completa: “Das Unternehmen spricht von „Ressourcenoptimierung“, ___ von Entlassungen.”",["allerdings", "zum Beispiel", "das heißt", "obwohl"],2,"„Das heißt“ formuliert den euphemistischen Ausdruck mit seiner wörtlichen Bedeutung um."],
       ["translate","Übersetze präzise: „Corporate jargon often softens the impact of bad news.“",["Ein Euphemismus mildert oft die Wirkung schlechter Nachrichten ab.", "Unternehmensjargon vermeidet oft die Wirkung schlechter Nachrichten.", "Unternehmensjargon verwässert oft die Wirkung schlechter Nachrichten.", "Unternehmensjargon mildert oft die Wirkung schlechter Nachrichten ab."],3,"„Softens the impact“ = „mildert die Wirkung ab“; das Subjekt muss „Unternehmensjargon“ sein."],
       ["arrange","Bring in die richtige Reihenfolge: [Entlassungen / Euphemismus / Umstrukturierung / ein / für / ist]",["Euphemismus ein Entlassungen ist für Umstrukturierung", "Umstrukturierung ist ein Euphemismus für Entlassungen", "Umstrukturierung Entlassungen ist für ein Euphemismus", "Euphemismus Umstrukturierung Entlassungen ein ist für"],1,"Subjekt + Verb + Artikel + Substantiv + Präposition + Ergänzung."],
@@ -1899,8 +1899,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Reisepass“ auf Englisch?",["the suitcase", "to check in luggage", "the flight", "the passport"],3,"„Reisepass“ heißt auf Englisch „passport“."],
-      ["mcq","Wie sagt man „das Gepäck einchecken“ auf Englisch?",["the room", "to check in luggage", "the flight", "the booking"],1,"„Das Gepäck einchecken“ heißt auf Englisch „to check in luggage“."],
+      ["mcq","Wie sagt man „el pasaporte“ auf Deutsch?",["der Flug", "der Koffer", "der Reisepass", "das Zimmer"],2,"„el pasaporte“ heißt auf Deutsch „der Reisepass“."],
+      ["mcq","Wie sagt man „facturar el equipaje“ auf Deutsch?",["das Zimmer", "das Gepäck einchecken", "der Koffer", "der Flug"],1,"„facturar el equipaje“ heißt auf Deutsch „das Gepäck einchecken“."],
       ["fill","Completa: “Morgen ___ ich das Gepäck sehr früh einchecken.”",["werde", "wurde", "werden", "bin"],0,"„Werden“ + Infinitiv: „ich werde einchecken“, „werden“ wird nach dem Subjekt konjugiert."],
       ["translate","Übersetze: „We are going to book a room for Friday.“",["Wir werden für Freitag ein Zimmer einchecken.", "Wir werden für Freitag ein Zimmer reservieren.", "Wir werden für Montag ein Zimmer reservieren.", "Wir werden für Freitag einen Flug reservieren."],1,"„We are going to book“ = „Wir werden reservieren“, mit „werden“ + Infinitiv."],
       ["arrange","Bring in die richtige Reihenfolge: [Reisepass / werde / meinen / suchen / ich]",["werde meinen suchen Reisepass Ich", "Reisepass suchen Ich werde meinen", "Reisepass Ich werde meinen suchen", "Ich werde meinen Reisepass suchen"],3,"Subjekt + „werden“ + Possessivobjekt + Infinitiv."],
@@ -1924,8 +1924,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Passwort“ auf Englisch?",["the wifi", "to download", "the battery", "the password"],3,"„Passwort“ heißt auf Englisch „password“."],
-      ["mcq","Wie sagt man „herunterladen“ auf Englisch?",["to charge the phone", "to download", "the app", "the battery"],1,"„Herunterladen“ heißt auf Englisch „download“."],
+      ["mcq","Wie sagt man „la contraseña“ auf Deutsch?",["die App", "das WLAN", "das Passwort", "der Akku"],2,"„la contraseña“ heißt auf Deutsch „das Passwort“."],
+      ["mcq","Wie sagt man „descargar“ auf Deutsch?",["die App", "das WLAN", "herunterladen", "das Passwort"],2,"„descargar“ heißt auf Deutsch „herunterladen“."],
       ["fill","Completa: “Diese App ist ___ schnell wie die andere.”",["mehr", "weniger", "sehr", "so"],3,"„So + Adjektiv + wie“ vergleicht zwei Dinge mit der gleichen Eigenschaft."],
       ["translate","Übersetze: „My battery lasts longer than yours.“",["Mein Akku hält so lang wie deiner.", "Mein WLAN hält länger als deiner.", "Mein Akku hält kürzer als deiner.", "Mein Akku hält länger als deiner."],3,"„Lasts longer than“ = „hält länger als“, Komparativ der Überlegenheit."],
       ["arrange","Bring in die richtige Reihenfolge: [Passwort / brauche / ein / sichereres / ich]",["brauche ein Ich Passwort sichereres", "Ich brauche ein sichereres Passwort", "sichereres Ich brauche ein Passwort", "brauche Ich ein Passwort sichereres"],1,"Subjekt + Verb + Artikel + Komparativ + Substantiv."],
@@ -1941,7 +1941,7 @@ window.LESSON_BANKS.DE = [
         ["das Videospiel", "el videojuego"],
         ["die Streaming-Plattform", "la plataforma de streaming"],
         ["von etwas süchtig werden", "engancharse a algo"],
-        ["das Serienmarathon", "maratón de series"],
+        ["der Serienmarathon", "maratón de series"],
         ["die Untertitel", "los subtítulos"],
       ],
       grammar: [
@@ -1949,8 +1949,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „von etwas süchtig werden“ auf Englisch?",["the video game", "the streaming platform", "binge-watching", "to get hooked on something"],3,"„Von etwas süchtig werden“ heißt auf Englisch „to get hooked on something“."],
-      ["mcq","Wie sagt man „das Serienmarathon“ auf Englisch?",["the series/show", "the subtitles", "to get hooked on something", "binge-watching"],3,"„Serienmarathon“ heißt auf Englisch „binge-watching“."],
+      ["mcq","Wie sagt man „engancharse a algo“ auf Deutsch?",["der Serienmarathon", "die Streaming-Plattform", "von etwas süchtig werden", "die Untertitel"],2,"„engancharse a algo“ heißt auf Deutsch „von etwas süchtig werden“."],
+      ["mcq","Wie sagt man „maratón de series“ auf Deutsch?",["der Serienmarathon", "das Videospiel", "die Serie", "die Streaming-Plattform"],0,"„maratón de series“ heißt auf Deutsch „der Serienmarathon“."],
       ["fill","Completa: “Ich schaue diese Serie ___ zwei Stunden ohne Pause.”",["habe seit", "vor", "schon seit", "bin seit"],2,"„Schon seit“ + Präsens drückt die Dauer einer andauernden Handlung aus: „ich schaue schon seit zwei Stunden“."],
       ["translate","Übersetze: „We have been playing video games all weekend.“",["Wir schauen schon seit dem ganzen Wochenende Videospiele.", "Wir spielen schon seit dem ganzen Wochenende Serien.", "Wir haben das ganze Wochenende Videospiele gespielt.", "Wir spielen schon seit dem ganzen Wochenende Videospiele."],3,"„Have been playing all weekend“ = „Wir spielen schon seit dem ganzen Wochenende“, mit „schon seit“ + Präsens."],
       ["arrange","Bring in die richtige Reihenfolge: [süchtig / bin / ich / geworden / nach dieser Serie]",["Serie dieser geworden bin süchtig Ich nach", "Ich bin süchtig geworden nach dieser Serie", "bin Ich dieser geworden süchtig Serie nach", "Serie geworden bin süchtig dieser nach Ich"],1,"Subjekt + Verb + Adjektiv + Partizip + Präposition + Ergänzung."],
@@ -1974,8 +1974,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Identitätsdiebstahl“ auf Englisch?",["to encrypt information", "to hack a system", "identity theft/phishing", "a strong password"],2,"„Identitätsdiebstahl“ heißt auf Englisch „identity theft“ oder „phishing“."],
-      ["mcq","Wie sagt man „Informationen verschlüsseln“ auf Englisch?",["cybersecurity", "to encrypt information", "a strong password", "personal data"],1,"„Informationen verschlüsseln“ heißt auf Englisch „to encrypt information“."],
+      ["mcq","Wie sagt man „robo de identidad/phishing“ auf Deutsch?",["die Cybersicherheit", "der Identitätsdiebstahl", "ein sicheres Passwort", "ein System hacken"],1,"„robo de identidad/phishing“ heißt auf Deutsch „der Identitätsdiebstahl“."],
+      ["mcq","Wie sagt man „cifrar información“ auf Deutsch?",["der Identitätsdiebstahl", "Informationen verschlüsseln", "die Cybersicherheit", "ein System hacken"],1,"„cifrar información“ heißt auf Deutsch „Informationen verschlüsseln“."],
       ["fill","Completa: “Die Daten, ___ wir online teilen, können gehackt werden.”",["was", "deren", "wer", "die"],3,"Der Relativsatz benutzt „die“ (Plural, Akkusativ) um zu bestimmen, von welchen Daten die Rede ist."],
       ["translate","Übersetze: „My data, which I rarely share, is well protected.“",["Meine Daten die ich kaum teile sind gut geschützt.", "Meine Daten, die ich kaum hacke, sind gut geschützt.", "Meine Daten, die ich kaum teile, sind gut geschützt.", "Meine Daten, die ich kaum teile, sind schlecht geschützt."],2,"Die Kommas markieren einen erläuternden Relativsatz: „meine Daten, die ich kaum teile,“ fügt zusätzliche Information hinzu."],
       ["arrange","Bring in die richtige Reihenfolge: [Passwort / brauchst / ein / sicheres / du]",["sicheres brauchst ein Du Passwort", "Du brauchst ein sicheres Passwort", "Passwort ein sicheres brauchst Du", "Passwort Du ein sicheres brauchst"],1,"Subjekt + Verb + Artikel + Adjektiv + Substantiv."],
@@ -1999,8 +1999,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Vermächtnis“ auf Englisch?",["to preserve historical memory", "the legacy", "collective identity", "a memorial"],1,"„Vermächtnis“ heißt auf Englisch „legacy“."],
-      ["mcq","Wie sagt man „die Geschichte umschreiben“ auf Englisch?",["cultural heritage", "to preserve historical memory", "to rewrite history", "the legacy"],2,"„Die Geschichte umschreiben“ heißt auf Englisch „to rewrite history“."],
+      ["mcq","Wie sagt man „el legado“ auf Deutsch?",["das Kulturerbe", "ein Gedenkdenkmal", "die Geschichte umschreiben", "das Vermächtnis"],3,"„el legado“ heißt auf Deutsch „das Vermächtnis“."],
+      ["mcq","Wie sagt man „reescribir la historia“ auf Deutsch?",["die Geschichte umschreiben", "die kollektive Identität", "das Vermächtnis", "das historische Gedächtnis bewahren"],0,"„reescribir la historia“ heißt auf Deutsch „die Geschichte umschreiben“."],
       ["fill","Completa: “Das Denkmal ___ den Opfern des Konflikts gewidmet.”",["wird", "war", "sei", "ist"],3,"„Sein“ + Partizip II beschreibt den resultierenden Zustand: „das Denkmal ist gewidmet“."],
       ["translate","Übersetze: „Collective identity is often shaped by historical memory.“",["Die kollektive Identität wird oft vom historischen Gedächtnis geprägt.", "Die kollektive Identität ist oft vom historischen Gedächtnis geprägt.", "Das Kulturerbe ist oft vom historischen Gedächtnis geprägt.", "Die kollektive Identität ist oft vom Vermächtnis geprägt."],1,"„Is shaped by“ als resultierender Zustand wird mit „ist geprägt von“ übersetzt."],
       ["arrange","Bring in die richtige Reihenfolge: [Kulturerbe / bewahren / das / müssen / wir]",["Wir müssen das Kulturerbe bewahren", "bewahren das Kulturerbe müssen Wir", "das bewahren müssen Kulturerbe Wir", "bewahren das Wir müssen Kulturerbe"],0,"Subjekt + Modalverb + Artikel + Substantiv + Infinitiv."],
@@ -2024,8 +2024,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „zwischen den Zeilen lesen“ auf Englisch?",["to avoid committing oneself", "calculated ambiguity", "to read between the lines", "deliberate vagueness"],2,"„Zwischen den Zeilen lesen“ heißt auf Englisch „to read between the lines“."],
-      ["mcq","Wie sagt man „eine ausweichende Sprache“ auf Englisch?",["evasive language", "to read between the lines", "calculated ambiguity", "to avoid committing oneself"],0,"„Eine ausweichende Sprache“ heißt auf Englisch „evasive language“."],
+      ["mcq","Wie sagt man „leer entre líneas“ auf Deutsch?",["zwischen den Zeilen lesen", "sich nicht festlegen wollen", "die bewusste Vagheit", "eine institutionelle Erklärung"],0,"„leer entre líneas“ heißt auf Deutsch „zwischen den Zeilen lesen“."],
+      ["mcq","Wie sagt man „lenguaje evasivo“ auf Deutsch?",["eine ausweichende Sprache", "die kalkulierte Ambiguität", "eine institutionelle Erklärung", "die bewusste Vagheit"],0,"„lenguaje evasivo“ heißt auf Deutsch „eine ausweichende Sprache“."],
       ["fill","Completa: “Es ___ betont, dass sich die Erklärung nicht auf konkrete Termine festlegt.”",["war", "ist", "sei", "wird"],2,"„Es sei betont, dass“ ist ein fester epistemischer Konnektor im Konjunktiv I, der eine relevante Beobachtung einführt."],
       ["translate","Übersetze präzise: „In a way, the vagueness is deliberate.“",["In gewisser Weise ist die Ambiguität kalkuliert.", "In gewisser Weise ist die Vagheit bewusst.", "In gewisser Weise ist die Vagheit ausweichend.", "Auf gewisser Weise ist die Vagheit bewusst."],1,"„In a way“ = „in gewisser Weise“, fester Konnektor der Abschwächung."],
       ["arrange","Bring in die richtige Reihenfolge: [Zweifel / kein / dass / besteht / die / Sprache / ausweichend / ist / Es]",["Es besteht kein Zweifel, dass die Sprache ausweichend ist","ist Sprache kein ausweichend Zweifel, Es besteht die dass","besteht kein Sprache Es ausweichend Zweifel, die ist dass","dass Sprache ausweichend besteht ist Es Zweifel, die kein"],0,"Fester Konnektor „es besteht kein Zweifel, dass“ + Nebensatz."],
@@ -2049,8 +2049,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Schwimmen” auf Englisch?",["swimming", "the team", "soccer/football", "to exercise"],0,"„Schwimmen” heißt auf Englisch „swimming”."],
-      ["mcq","Wie sagt man „das Team” auf Englisch?",["the team", "to exercise", "swimming", "to run"],0,"„Team” heißt auf Englisch „team”."],
+      ["mcq","Wie sagt man „la natación“ auf Deutsch?",["der Fußball", "das Fitnessstudio", "das Team", "das Schwimmen"],3,"„la natación“ heißt auf Deutsch „das Schwimmen“."],
+      ["mcq","Wie sagt man „el equipo“ auf Deutsch?",["das Fitnessstudio", "das Team", "das Schwimmen", "der Fußball"],1,"„el equipo“ heißt auf Deutsch „das Team“."],
       ["fill","Completa: “Ich laufe ___ am Morgen.”",["gute", "gern", "gerne mag", "mögen"],1,"„Gern” steht nach dem konjugierten Verb, um eine Vorliebe auszudrücken: „ich laufe gern”."],
       ["translate","Übersetze: „She likes team sports.“",["Sie mögen Mannschaftssport.", "Er mag Mannschaftssport.", "Sie mag Mannschaftssport.", "Sie mag Einzelsport."],2,"„Sie mag” stimmt mit dem Subjekt „sie” (Singular) überein."],
       ["arrange","Bring in die richtige Reihenfolge: [ins / gehe / ich / Fitnessstudio / Sport / zu / treiben / um]",["Ich gehe ins Fitnessstudio, um Sport zu treiben","Fitnessstudio, ins zu um Sport Ich gehe treiben","Sport Ich um treiben gehe ins Fitnessstudio, zu","treiben Ich Fitnessstudio, ins Sport um zu gehe"],0,"Subjekt + Verb + Ort + „um … zu“ + Infinitiv."],
@@ -2074,8 +2074,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „das Geschirr spülen” auf Englisch?",["to vacuum", "to make the bed", "to take out the trash", "to wash the dishes"],3,"„Das Geschirr spülen” heißt auf Englisch „to wash the dishes”."],
-      ["mcq","Wie sagt man „staubsaugen” auf Englisch?",["to sweep", "to vacuum", "to iron the clothes", "to wash the dishes"],1,"„Staubsaugen” heißt auf Englisch „to vacuum”."],
+      ["mcq","Wie sagt man „fregar los platos“ auf Deutsch?",["das Geschirr spülen", "das Bett machen", "die Kleidung bügeln", "den Müll rausbringen"],0,"„fregar los platos“ heißt auf Deutsch „das Geschirr spülen“."],
+      ["mcq","Wie sagt man „pasar la aspiradora“ auf Deutsch?",["fegen", "staubsaugen", "den Müll rausbringen", "das Bett machen"],1,"„pasar la aspiradora“ heißt auf Deutsch „staubsaugen“."],
       ["fill","Completa: “Bevor man das Haus verlässt, ___ man das Bett machen.”",["ist", "muss", "hat", "wird"],1,"„Man muss” + Infinitiv ist eine feste unpersönliche Konstruktion: „man muss machen”."],
       ["translate","Übersetze: „You have to take out the trash every day.“",["Man muss einmal pro Woche den Müll rausbringen.","Man muss jeden Tag den Müll rausbringend.","Man muss jeden Tag den Müll fegen.","Man muss jeden Tag den Müll rausbringen."],3,"„You have to” ist hier unpersönlich gemeint und wird am besten mit „man muss” übersetzt."],
       ["arrange","Bring in die richtige Reihenfolge: [Geschirr / muss / spülen / man / das]",["Geschirr das muss spülen Man", "Geschirr das Man spülen muss", "Man spülen muss Geschirr das", "Man muss das Geschirr spülen"],3,"„Man muss” + Objekt + Infinitiv."],
@@ -2099,8 +2099,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „sich in jemanden verlieben” auf Englisch?",["the partner/couple", "to fall in love with someone", "to break up with someone", "to get engaged/commit"],1,"„Sich in jemanden verlieben” heißt auf Englisch „to fall in love with someone”."],
-      ["mcq","Wie sagt man „jemanden vermissen” auf Englisch?",["to miss someone", "to break up with someone", "to fall in love with someone", "to go on a date"],0,"„Jemanden vermissen” heißt auf Englisch „to miss someone”."],
+      ["mcq","Wie sagt man „enamorarse de alguien“ auf Deutsch?",["mit jemandem Schluss machen", "sich verloben/binden", "jemanden vermissen", "sich in jemanden verlieben"],3,"„enamorarse de alguien“ heißt auf Deutsch „sich in jemanden verlieben“."],
+      ["mcq","Wie sagt man „echar de menos a alguien“ auf Deutsch?",["sich verloben/binden", "jemanden vermissen", "sich in jemanden verlieben", "mit jemandem Schluss machen"],1,"„echar de menos a alguien“ heißt auf Deutsch „jemanden vermissen“."],
       ["fill","Completa: “Ich verspreche dir, dass ich nie mit dir Schluss machen ___.”",["habe", "machte", "werde", "mache"],2,"Das Futur I „werde ... machen” drückt ein festes Versprechen über etwas Zukünftiges aus."],
       ["translate","Übersetze: „I think you two will get engaged soon.“",["Ich glaube, ihr verlobt euch bald.", "Ich glaube, ihr werdet euch bald verloben.", "Ich glaube, ihr werdet euch bald verlieben.", "Ich glaube, ihr werdet euch morgen verloben."],1,"„Will get engaged” = „werdet euch verloben”, Futur I für eine Vorhersage."],
       ["arrange","Bring in die richtige Reihenfolge: [Date / werde / morgen / ich / haben / ein]",["morgen haben Date werde Ich ein", "morgen haben werde Date Ich ein", "morgen Date Ich werde haben ein", "Ich werde morgen ein Date haben"],3,"Subjekt + Futur I + Zeitangabe + Artikel + Substantiv."],
@@ -2124,8 +2124,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die lokalen Mieten in die Höhe treiben” auf Englisch?",["sustainable tourism", "to respect the local culture", "to spread out tourism's impact", "to drive up local housing costs"],3,"„Die lokalen Mieten in die Höhe treiben” heißt auf Englisch „to drive up local housing costs”."],
-      ["mcq","Wie sagt man „die touristischen Auswirkungen verteilen” auf Englisch?",["to drive up local housing costs", "to respect the local culture", "sustainable tourism", "to spread out tourism's impact"],3,"„Die touristischen Auswirkungen verteilen” heißt auf Englisch „to spread out tourism's impact”."],
+      ["mcq","Wie sagt man „encarecer la vivienda local“ auf Deutsch?",["die touristischen Auswirkungen verteilen", "die lokale Kultur respektieren", "die lokalen Mieten in die Höhe treiben", "ein Reiseziel überlasten"],2,"„encarecer la vivienda local“ heißt auf Deutsch „die lokalen Mieten in die Höhe treiben“."],
+      ["mcq","Wie sagt man „repartir el impacto del turismo“ auf Deutsch?",["die touristischen Auswirkungen verteilen", "die lokale Kultur respektieren", "ein Reiseziel überlasten", "der nachhaltige Tourismus"],0,"„repartir el impacto del turismo“ heißt auf Deutsch „die touristischen Auswirkungen verteilen“."],
       ["fill","Completa: “Das Reiseziel bleibt überlastet, es sei denn, der Tourismus ___ reguliert.”",["wird", "sei", "würde", "war"],0,"„Es sei denn” leitet eine Bedingung ein, hier mit Indikativ Präsens Passiv: „es sei denn, ... wird reguliert”."],
       ["translate","Übersetze: „Tourism will be positive provided that the local culture is respected.“",["Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur respektiert wird.", "Tourismus ist positiv, es sei denn, die lokale Kultur wird respektiert.", "Tourismus war positiv, vorausgesetzt, dass die lokale Kultur respektiert wird.", "Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur ignoriert wird."],0,"„Provided that” = „vorausgesetzt, dass”, gefolgt vom Nebensatz „respektiert wird”."],
       ["arrange","Bring in die richtige Reihenfolge: [Reiseziele / viele / sind / touristische / überlastet]",["touristische Reiseziele Viele sind überlastet", "Viele touristische Reiseziele sind überlastet", "Reiseziele überlastet touristische sind Viele", "Reiseziele Viele sind touristische überlastet"],1,"Subjekt + Verb + Adjektiv."],
@@ -2149,8 +2149,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „ein emblematisches Gericht” auf Englisch?",["an iconic/signature dish", "to preserve a traditional recipe", "the collective palate", "to appropriate a culinary tradition"],0,"„Ein emblematisches Gericht” heißt auf Englisch „an iconic/signature dish”."],
-      ["mcq","Wie sagt man „sich eine kulinarische Tradition aneignen” auf Englisch?",["the collective palate", "culinary fusion", "protected designation of origin", "to appropriate a culinary tradition"],3,"„Sich eine kulinarische Tradition aneignen” heißt auf Englisch „to appropriate a culinary tradition”."],
+      ["mcq","Wie sagt man „un plato emblemático“ auf Deutsch?",["die kulinarische Fusion", "die geschützte Herkunftsbezeichnung", "ein emblematisches Gericht", "der kollektive Gaumen"],2,"„un plato emblemático“ heißt auf Deutsch „ein emblematisches Gericht“."],
+      ["mcq","Wie sagt man „apropiarse de una tradición culinaria“ auf Deutsch?",["ein traditionelles Rezept bewahren", "der kollektive Gaumen", "die geschützte Herkunftsbezeichnung", "sich eine kulinarische Tradition aneignen"],3,"„apropiarse de una tradición culinaria“ heißt auf Deutsch „sich eine kulinarische Tradition aneignen“."],
       ["fill","Completa: “Was eine Kultur ___ , ist zu großen Teilen ihre Gastronomie.”",["definierte", "definiert", "definieren", "definieren würde"],1,"Die betonte Konstruktion „was ... ist” verlangt das Verb im Singular, übereinstimmend mit „was”."],
       ["translate","Übersetze mit betonter Konstruktion: „What worries local chefs is the appropriation of their recipes.“",["Was lokale Köche beunruhigt, ist die Aneignung ihrer Rezepte.", "Was lokale Köche beunruhigt, ist die Fusion ihrer Rezepte.", "Was lokale Köche beunruhigt, sind die Aneignung ihrer Rezepte.", "Was lokale Köche beunruhigen, ist die Aneignung ihrer Rezepte."],0,"Das Verb „beunruhigt” steht im Singular, übereinstimmend mit „was”, dem Subjekt des Satzes."],
       ["arrange","Bring in die richtige Reihenfolge: [Rezept / bewahren / dieses / müssen / wir / traditionelle]",["traditionelle Wir Rezept müssen bewahren dieses", "bewahren traditionelle müssen dieses Rezept Wir", "müssen bewahren Wir traditionelle Rezept dieses", "Wir müssen dieses traditionelle Rezept bewahren"],3,"Subjekt + Modalverb + Objekt + Adjektiv + Substantiv + Infinitiv."],
@@ -2174,8 +2174,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „ein Sündenbock” auf Englisch?",["to blow a threat out of proportion", "to catastrophize a situation", "a scapegoat", "a manufactured crisis"],2,"„Ein Sündenbock” heißt auf Englisch „a scapegoat”."],
-      ["mcq","Wie sagt man „eine Bedrohung überzeichnen” auf Englisch?",["alarmist rhetoric", "to blow a threat out of proportion", "a manufactured crisis", "moral panic"],1,"„Eine Bedrohung überzeichnen” heißt auf Englisch „to blow a threat out of proportion”."],
+      ["mcq","Wie sagt man „un chivo expiatorio“ auf Deutsch?",["eine alarmistische Rhetorik", "eine erfundene Krise", "ein Sündenbock", "eine Situation dramatisieren"],2,"„un chivo expiatorio“ heißt auf Deutsch „ein Sündenbock“."],
+      ["mcq","Wie sagt man „exagerar desproporcionadamente una amenaza“ auf Deutsch?",["die moralische Panik", "eine alarmistische Rhetorik", "eine erfundene Krise", "eine Bedrohung überzeichnen"],3,"„exagerar desproporcionadamente una amenaza“ heißt auf Deutsch „eine Bedrohung überzeichnen“."],
       ["fill","Completa: “Die Bedrohung wird nicht nur übertrieben, ___ man sucht auch einen Sündenbock.”",["also", "denn", "sondern", "aber"],2,"„Nicht nur ... sondern auch” intensiviert eine Aussage durch ein zweites Element mit eigenem Verb."],
       ["translate","Übersetze präzise: „Alarmist rhetoric is becoming increasingly common in the media.“",["Alarmistische Rhetorik wird in den Medien immer seltener.", "Alarmistische Rhetorik wird in den Medien immer häufiger.", "Moralische Panik wird in den Medien immer häufiger.", "Alarmistische Rhetorik wird in den Medien immer ernster."],1,"„Increasingly common” = „immer häufiger”, Struktur der graduellen Intensivierung."],
       ["arrange","Bring in die richtige Reihenfolge: [Sündenbock / suchen / einen / die Medien]",["suchen Medien einen Die Sündenbock", "Die Medien suchen einen Sündenbock", "Die suchen Sündenbock einen Medien", "suchen einen Medien Die Sündenbock"],1,"Subjekt + Verb + Artikel + Substantiv."],
@@ -2199,8 +2199,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „der Bleistift” auf Englisch?",["the backpack", "history", "the pencil", "the teacher"],2,"„Bleistift” heißt auf Englisch „pencil”."],
-      ["mcq","Wie sagt man „die Mathematik” auf Englisch?",["the notebook", "history", "math", "the pencil"],2,"„Mathematik” heißt auf Englisch „math”."],
+      ["mcq","Wie sagt man „el lápiz“ auf Deutsch?",["der Rucksack", "das Heft", "die Geschichte", "der Bleistift"],3,"„el lápiz“ heißt auf Deutsch „der Bleistift“."],
+      ["mcq","Wie sagt man „las matemáticas“ auf Deutsch?",["der Bleistift", "die Geschichte", "der Rucksack", "die Mathematik"],3,"„las matemáticas“ heißt auf Deutsch „die Mathematik“."],
       ["fill","Completa: “Ich habe ___ neuen Rucksack für die Schule.”",["ein", "den", "der", "einen"],3,"Der unbestimmte Artikel „einen” (Akkusativ maskulin) wird benutzt, weil es zum ersten Mal erwähnt wird."],
       ["translate","Übersetze: „The notebook is in the backpack.“",["Der Bleistift ist im Rucksack.", "Das Heft ist im Rucksack.", "Ein Heft ist im Rucksack.", "Das Heft ist im Klassenzimmer."],1,"„The notebook” ist bereits bekannt, deshalb wird der bestimmte Artikel „das” benutzt."],
       ["arrange","Bring in die richtige Reihenfolge: [Geschichte / sehr / ich / mag]",["sehr mag Ich Geschichte", "sehr Geschichte Ich mag", "Ich mag sehr Geschichte", "Ich mag Geschichte sehr"],3,"Subjekt + Verb + Substantiv + Adverb."],
@@ -2224,8 +2224,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Briefmarke” auf Englisch?",["the mailbox", "the letter", "the package", "the stamp"],3,"„Briefmarke” heißt auf Englisch „stamp”."],
-      ["mcq","Wie sagt man „der Briefkasten” auf Englisch?",["the address", "the letter", "the mailbox", "the package"],2,"„Briefkasten” heißt auf Englisch „mailbox”."],
+      ["mcq","Wie sagt man „el sello“ auf Deutsch?",["der Briefkasten", "der Brief", "die Briefmarke", "das Paket"],2,"„el sello“ heißt auf Deutsch „die Briefmarke“."],
+      ["mcq","Wie sagt man „el buzón“ auf Deutsch?",["das Paket", "die Adresse", "die Briefmarke", "der Briefkasten"],3,"„el buzón“ heißt auf Deutsch „der Briefkasten“."],
       ["fill","Completa: “Das Paket? Ich habe ___ heute Morgen bekommen.”",["ihn", "es", "sie", "ihm"],1,"„Das Paket” ist Neutrum Singular, deshalb wird es mit „es” ersetzt."],
       ["translate","Übersetze: „The letters? I sent them yesterday.“",["Der Brief? Ich habe sie gestern verschickt.", "Die Briefe? Ich habe es gestern verschickt.", "Die Briefe? Ich habe sie morgen verschickt.", "Die Briefe? Ich habe sie gestern verschickt."],3,"„Die Briefe” ist Plural, deshalb wird es mit „sie” ersetzt."],
       ["arrange","Bring in die richtige Reihenfolge: [Adresse / brauche / deine / ich]",["Ich brauche deine Adresse", "Adresse brauche deine Ich", "deine Ich Adresse brauche", "deine brauche Adresse Ich"],0,"Subjekt + Verb + Possessivobjekt + Substantiv."],
@@ -2249,8 +2249,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Premiere” auf Englisch?",["the seat", "the premiere", "the cast", "the ticket"],1,"„Premiere” heißt auf Englisch „premiere”."],
-      ["mcq","Wie sagt man „die Besetzung” auf Englisch?",["the seat", "the intermission", "the premiere", "the cast"],3,"„Besetzung” heißt auf Englisch „cast”."],
+      ["mcq","Wie sagt man „el estreno“ auf Deutsch?",["der Sitzplatz", "die Premiere", "die Pause", "die Spezialeffekte"],1,"„el estreno“ heißt auf Deutsch „die Premiere“."],
+      ["mcq","Wie sagt man „el reparto“ auf Deutsch?",["der Sitzplatz", "die Pause", "die Eintrittskarte", "die Besetzung"],3,"„el reparto“ heißt auf Deutsch „die Besetzung“."],
       ["fill","Completa: “Wir kommen an, ___ der Film beginnt.”",["wenn", "nachdem", "bevor", "während"],2,"„Bevor” leitet eine Handlung ein, die noch nicht stattgefunden hat: „bevor der Film beginnt”."],
       ["translate","Übersetze: „We talk while we wait for the premiere.“",["Wir reden, bevor wir auf die Premiere warten.", "Wir reden, während wir auf die Pause warten.", "Wir reden, wenn wir auf die Premiere warten.", "Wir reden, während wir auf die Premiere warten."],3,"„Während” + Präsens beschreibt gleichzeitige Handlungen: „während wir warten”."],
       ["arrange","Bring in die richtige Reihenfolge: [Kino / gehen / wir / oft / ins]",["Wir gehen oft ins Kino", "gehen oft Kino Wir ins", "gehen Kino ins oft Wir", "ins Wir oft Kino gehen"],0,"Subjekt + Verb + Adverb + Präposition + Substantiv."],
@@ -2274,8 +2274,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „für etwas sensibilisieren” auf Englisch?",["a collective/organization", "to sign a petition", "to mobilize people", "to raise awareness about something"],3,"„Für etwas sensibilisieren” heißt auf Englisch „to raise awareness about something”."],
-      ["mcq","Wie sagt man „Menschen mobilisieren” auf Englisch?",["to sign a petition", "to demand change", "to mobilize people", "a collective/organization"],2,"„Menschen mobilisieren” heißt auf Englisch „to mobilize people”."],
+      ["mcq","Wie sagt man „concienciar sobre algo“ auf Deutsch?",["Veränderung fordern", "Menschen mobilisieren", "ein Kollektiv/eine Organisation", "für etwas sensibilisieren"],3,"„concienciar sobre algo“ heißt auf Deutsch „für etwas sensibilisieren“."],
+      ["mcq","Wie sagt man „movilizar a la gente“ auf Deutsch?",["Menschen mobilisieren", "Veränderung fordern", "für etwas sensibilisieren", "eine Demonstration"],0,"„movilizar a la gente“ heißt auf Deutsch „Menschen mobilisieren“."],
       ["fill","Completa: “Die Demonstranten fordern, dass die Regierung ___.”",["handelte", "wird handeln", "handle", "handelt"],2,"Nach „fordern, dass” steht formell der Konjunktiv I: „dass... handle”."],
       ["translate","Übersetze: „The collective is asking people to sign the petition.“",["Das Kollektiv verlangt, dass die Menschen die Petition unterschreiben.", "Das Kollektiv fordert, dass die Menschen die Petition unterschreiben.", "Das Kollektiv verlangt, dass die Menschen die Demonstration unterschreiben.", "Das Kollektiv verlangt, dass die Menschen die Petition unterschrieben."],0,"„Verlangen, dass” leitet den Nebensatz mit dem geforderten Verb ein: „dass... unterschreiben”."],
       ["arrange","Bring in die richtige Reihenfolge: [Petition / werde / die / unterschreiben / ich]",["Die Petition werde ich unterschreiben","unterschreiben Petition werde Die ich","Petition ich unterschreiben werde Die","werde Die unterschreiben ich Petition"],0,"Objekt + Hilfsverb + Subjekt + Infinitiv."],
@@ -2299,8 +2299,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Geburtenrate” auf Englisch?",["population aging", "the birth rate", "life expectancy", "the generational gap"],1,"„Geburtenrate” heißt auf Englisch „birth rate”."],
-      ["mcq","Wie sagt man „das Rentensystem aufrechterhalten” auf Englisch?",["the birth rate", "life expectancy", "to sustain the pension system", "population aging"],2,"„Das Rentensystem aufrechterhalten” heißt auf Englisch „to sustain the pension system”."],
+      ["mcq","Wie sagt man „la tasa de natalidad“ auf Deutsch?",["die Geburtenrate", "die Generationenkluft", "die Lebenserwartung", "das Rentensystem"],0,"„la tasa de natalidad“ heißt auf Deutsch „die Geburtenrate“."],
+      ["mcq","Wie sagt man „sostener el sistema de pensiones“ auf Deutsch?",["die alternde Bevölkerung", "die Geburtenrate", "das Rentensystem aufrechterhalten", "die Generationenkluft"],2,"„sostener el sistema de pensiones“ heißt auf Deutsch „das Rentensystem aufrechterhalten“."],
       ["fill","Completa: “Die Bevölkerung altert so schnell, ___ das Rentensystem gefährdet ist.”",["denn", "wie", "so", "dass"],3,"„So + Adjektiv/Adverb + dass” leitet die Konsequenz ein: „so schnell, dass gefährdet ist”."],
       ["translate","Übersetze mit Konsekutivsatz: „The birth rate has dropped in such a way that young workers are lacking.“",["Die Lebenserwartung ist derart gesunken, dass junge Arbeitskräfte fehlen.", "Die Geburtenrate ist derart gesunken, dass zu viele junge Arbeitskräfte da sind.", "Die Geburtenrate ist derart gesunken, dass junge Arbeitskräfte fehlen.", "Die Geburtenrate ist so gesunken, dass junge Arbeitskräfte fehlen."],2,"„In such a way that” = „derart...dass”, leitet die Konsequenz ein."],
       ["arrange","Bring in die richtige Reihenfolge: [Rentensystem / viele / beunruhigt / das]",["Das beunruhigt viele Rentensystem", "viele Das Rentensystem beunruhigt", "Das Rentensystem beunruhigt viele", "viele Rentensystem beunruhigt Das"],2,"Subjekt + Verb + Objekt."],
@@ -2324,8 +2324,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine diskursive Leerstelle” auf Englisch?",["eloquent silence", "a discursive gap", "to leave something hanging", "rhetorical ellipsis"],1,"„Eine diskursive Leerstelle” heißt auf Englisch „a discursive gap”."],
-      ["mcq","Wie sagt man „etwas offenlassen” auf Englisch?",["eloquent silence", "to leave something hanging", "to deliberately omit something", "rhetorical ellipsis"],1,"„Etwas offenlassen” heißt auf Englisch „to leave something hanging”."],
+      ["mcq","Wie sagt man „un vacío discursivo“ auf Deutsch?",["eine diskursive Leerstelle", "das beredte Schweigen", "die rhetorische Ellipse", "das Ungesagte"],0,"„un vacío discursivo“ heißt auf Deutsch „eine diskursive Leerstelle“."],
+      ["mcq","Wie sagt man „dejar algo en el aire“ auf Deutsch?",["etwas bewusst auslassen", "das Ungesagte", "die rhetorische Ellipse", "etwas offenlassen"],3,"„dejar algo en el aire“ heißt auf Deutsch „etwas offenlassen“."],
       ["fill","Completa: “Manche schweigen aus Angst; andere aus ___.”",["Komplizenschaft", "ist Komplizenschaft", "schweigen Komplizenschaft", "dass Komplizenschaft"],0,"Die Ellipse lässt das wiederholte Verb „schweigen” weg und behält nur die Ergänzung: „andere aus Komplizenschaft”."],
       ["translate","Übersetze mit rhetorischer Ellipse: „He promised reforms... and silence.“",["Er versprach Reformen... und war Schweigen.", "Er versprach Reformen... und ein Schweigen.", "Er versprach Reformen... und Lärm.", "Er versprach Reformen... und Schweigen."],3,"Die rhetorische Ellipse lässt das erwartete Verb nach den Auslassungspunkten weg und behält nur „und Schweigen”."],
       ["arrange","Bring in die richtige Reihenfolge: [Worte / manchmal / sagt / mehr / das Schweigen / als die]",["Das Schweigen sagt manchmal mehr als die Worte", "als die sagt manchmal Worte Schweigen Das mehr", "manchmal Das als die mehr Worte Schweigen sagt", "mehr Worte sagt Das die Schweigen als manchmal"],0,"Subjekt + Verb + Adverb + Komparativ + Ergänzung."],
@@ -2349,8 +2349,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „die Mitternacht” auf Englisch?",["the afternoon", "midnight", "o'clock/sharp", "the morning"],1,"„Mitternacht” heißt auf Englisch „midnight”."],
-      ["mcq","Wie sagt man „Uhr/pünktlich” auf Englisch?",["the morning", "midnight", "o'clock/sharp", "the night"],2,"„Uhr/pünktlich” heißt auf Englisch „o'clock” oder „sharp”."],
+      ["mcq","Wie sagt man „la medianoche“ auf Deutsch?",["der Morgen", "der Mittag", "die Mitternacht", "der Nachmittag"],2,"„la medianoche“ heißt auf Deutsch „die Mitternacht“."],
+      ["mcq","Wie sagt man „en punto“ auf Deutsch?",["der Morgen", "der Mittag", "Uhr/pünktlich", "die Mitternacht"],2,"„en punto“ heißt auf Deutsch „Uhr/pünktlich“."],
       ["fill","Completa: “___ ist drei Uhr nachmittags.”",["Sie", "Er", "Es", "Das"],2,"Für die Uhrzeit benutzt man immer „es”: „es ist drei Uhr”."],
       ["translate","Übersetze: „It's one o'clock in the morning.“",["Es ist zwei Uhr morgens.", "Es ist ein Uhr morgens.", "Es ist eins Uhr morgens.", "Es ist ein Uhr nachmittags."],1,"Bei „ein Uhr” wird „ein” ohne Endung verwendet, nicht „eins”."],
       ["arrange","Bring in die richtige Reihenfolge: [Uhr / vier / es / nachmittags / ist]",["Es ist nachmittags vier Uhr", "vier ist nachmittags Es Uhr", "Es ist vier Uhr nachmittags", "ist nachmittags Es vier Uhr"],2,"Subjekt + Verb + Zahl + Substantiv + Tageszeit."],
@@ -2374,8 +2374,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „Geld abheben” auf Englisch?",["the bank account", "the ATM", "to withdraw money", "the debit card"],2,"„Geld abheben” heißt auf Englisch „to withdraw money”."],
-      ["mcq","Wie sagt man „der Kontostand” auf Englisch?",["the bank account", "to withdraw money", "the balance", "to deposit money"],2,"„Kontostand” heißt auf Englisch „balance”."],
+      ["mcq","Wie sagt man „retirar dinero“ auf Deutsch?",["Geld einzahlen", "Geld abheben", "der Geldautomat", "die Debitkarte"],1,"„retirar dinero“ heißt auf Deutsch „Geld abheben“."],
+      ["mcq","Wie sagt man „el saldo“ auf Deutsch?",["der Geldautomat", "das Bankkonto", "der Kontostand", "die Debitkarte"],2,"„el saldo“ heißt auf Deutsch „der Kontostand“."],
       ["fill","Completa: “___ ich hier bitte ein Konto eröffnen?”",["Könnt", "Kannst", "Können", "Kann"],3,"In der ersten Person benutzt man „kann” um Erlaubnis zu erfragen: „kann ich eröffnen”."],
       ["translate","Übersetze: „You can withdraw money at any ATM.“",["Du kannst an jeder Bank Geld abheben.", "Du kannst an jedem Geldautomaten Geld abheben.", "Du kannst an jedem Geldautomaten Geld einzahlen.", "Du musst an jedem Geldautomaten Geld abheben."],1,"„You can withdraw” = „du kannst abheben”, mit „können” + Infinitiv."],
       ["arrange","Bring in die richtige Reihenfolge: [Kontostand / prüfen / meinen / möchte / ich]",["Ich möchte meinen Kontostand prüfen", "prüfen Ich meinen möchte Kontostand", "meinen möchte Kontostand prüfen Ich", "möchte meinen prüfen Ich Kontostand"],0,"Subjekt + Verb + Possessivobjekt + Substantiv + Infinitiv."],
@@ -2399,8 +2399,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „einen Zwischenstopp machen” auf Englisch?",["the platform", "the window/aisle seat", "to miss the flight/train", "to make a layover/stopover"],3,"„Einen Zwischenstopp machen” heißt auf Englisch „to make a layover” oder „stopover”."],
-      ["mcq","Wie sagt man „der Bahnsteig” auf Englisch?",["the platform", "the window/aisle seat", "to miss the flight/train", "to make a layover/stopover"],0,"„Bahnsteig” heißt auf Englisch „platform”."],
+      ["mcq","Wie sagt man „hacer escala“ auf Deutsch?",["den Flug/Zug verpassen", "einen Flug stornieren", "die Verspätung", "einen Zwischenstopp machen"],3,"„hacer escala“ heißt auf Deutsch „einen Zwischenstopp machen“."],
+      ["mcq","Wie sagt man „el andén“ auf Deutsch?",["die Verspätung", "der Bahnsteig", "der Fenster-/Gangplatz", "einen Zwischenstopp machen"],1,"„el andén“ heißt auf Deutsch „der Bahnsteig“."],
       ["fill","Completa: “Obwohl der Zug zu spät ___, habe ich meinen Flug erreicht.”",["anzukommen", "ankommen wird", "ankam", "ankommt"],2,"„Obwohl” leitet eine reale, vergangene Tatsache mit Indikativ Präteritum ein: „obwohl... ankam”."],
       ["translate","Übersetze: „Even if the flight is cancelled, we have another option.“",["Obwohl der Flug storniert wird, haben wir eine andere Option.", "Auch wenn der Flug storniert würde, haben wir eine andere Option.", "Auch wenn der Flug storniert wird, haben wir eine andere Option.", "Auch wenn der Zug storniert wird, haben wir eine andere Option."],2,"„Even if” = „auch wenn”, mit Indikativ: „auch wenn der Flug storniert wird”."],
       ["arrange","Bring in die richtige Reihenfolge: [Fensterplatz / bevorzuge / den / ich]",["Ich bevorzuge Fensterplatz den", "Ich bevorzuge den Fensterplatz", "Fensterplatz bevorzuge Ich den", "bevorzuge den Fensterplatz Ich"],1,"Subjekt + Verb + Artikel + Substantiv."],
@@ -2424,8 +2424,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „mieten statt kaufen” auf Englisch?",["to share resources", "to rent instead of buying", "to reduce waste", "the sharing economy"],1,"„Mieten statt kaufen” heißt auf Englisch „to rent instead of buying”."],
-      ["mcq","Wie sagt man „die geplante Obsoleszenz” auf Englisch?",["to rent instead of buying", "planned obsolescence", "conscious consumption", "the sharing economy"],1,"„Geplante Obsoleszenz” heißt auf Englisch „planned obsolescence”."],
+      ["mcq","Wie sagt man „alquilar en vez de comprar“ auf Deutsch?",["mieten statt kaufen", "Verschwendung reduzieren", "Ressourcen teilen", "die Sharing Economy"],0,"„alquilar en vez de comprar“ heißt auf Deutsch „mieten statt kaufen“."],
+      ["mcq","Wie sagt man „la obsolescencia programada“ auf Deutsch?",["die geplante Obsoleszenz", "der bewusste Konsum", "die Sharing Economy", "mieten statt kaufen"],0,"„la obsolescencia programada“ heißt auf Deutsch „die geplante Obsoleszenz“."],
       ["fill","Completa: “Dieses Modell ___ wohl etwa fünf Jahre geplante Obsoleszenz haben.”",["wird", "hat", "hatte", "würde"],0,"Das Futur der Vermutung drückt eine Annahme über die Gegenwart aus: „wird... haben”."],
       ["translate","Übersetze mit Konjunktiv II der Vermutung: „With that consumption, they would spend fewer resources than they thought.“",["Bei diesem Konsum würden sie weniger Ressourcen verbrauchen als gedacht.", "Bei diesem Konsum würden sie mehr Ressourcen verbrauchen als gedacht.", "Bei diesem Konsum würden sie weniger Geld verbrauchen als gedacht.", "Bei diesem Konsum werden sie weniger Ressourcen verbrauchen als gedacht."],0,"Der Konjunktiv II der Vermutung „würden verbrauchen” drückt eine Annahme über eine hypothetische Situation aus."],
       ["arrange","Bring in die richtige Reihenfolge: [Verschwendung / müssen / die / reduzieren / wir]",["Verschwendung die reduzieren Wir müssen", "Wir reduzieren müssen die Verschwendung", "Wir müssen die Verschwendung reduzieren", "reduzieren Wir die Verschwendung müssen"],2,"Subjekt + Modalverb + Artikel + Substantiv + Infinitiv."],
@@ -2449,8 +2449,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine missverstandene Geste” auf Englisch?",["awkward silence", "body language", "a cultural cue", "a misinterpreted gesture"],3,"„Eine missverstandene Geste” heißt auf Englisch „a misinterpreted gesture”."],
-      ["mcq","Wie sagt man „die Proxemik (persönlicher Abstand)” auf Englisch?",["awkward silence", "eye contact", "proxemics (personal space)", "body language"],2,"„Proxemik” heißt auf Englisch „proxemics”."],
+      ["mcq","Wie sagt man „un gesto malinterpretado“ auf Deutsch?",["das unangenehme Schweigen", "eine missverstandene Geste", "ein kulturelles Signal", "der Augenkontakt"],1,"„un gesto malinterpretado“ heißt auf Deutsch „eine missverstandene Geste“."],
+      ["mcq","Wie sagt man „la proxémica (espacio personal)“ auf Deutsch?",["eine missverstandene Geste", "ein kulturelles Signal", "das unangenehme Schweigen", "die Proxemik (persönlicher Abstand)"],3,"„la proxémica (espacio personal)“ heißt auf Deutsch „die Proxemik (persönlicher Abstand)“."],
       ["fill","Completa: “Er handelte, als ob er die Geste ___, obwohl er sie nicht verstand.”",["verstehen wird", "verstand", "verstünde", "versteht"],2,"„Als ob” verlangt den Konjunktiv II für einen Vergleich zur Gegenwart: „als ob er verstünde”."],
       ["translate","Übersetze: „She reacted as if she had been offended.“",["Sie reagierte, als ob sie beleidigt worden wäre.", "Sie reagierte, als ob sie beleidigt war.", "Sie reagierte, als ob sie eingeladen worden wäre.", "Sie reagierte, als ob sie beleidigt ist."],0,"„As if she had been offended” wird mit Konjunktiv II Plusquamperfekt übersetzt: „als ob sie beleidigt worden wäre”."],
       ["arrange","Bring in die richtige Reihenfolge: [Kulturen / variiert / zwischen / der Augenkontakt]",["Der Augenkontakt Kulturen zwischen variiert", "Der Augenkontakt variiert zwischen Kulturen", "variiert Augenkontakt zwischen Kulturen Der", "variiert zwischen Augenkontakt Der Kulturen"],1,"Subjekt + Verb + Präposition + Substantiv."],
@@ -2474,8 +2474,8 @@ window.LESSON_BANKS.DE = [
       ]
     },
     ex:[
-      ["mcq","Wie sagt man „eine Fehlerspanne” auf Englisch?",["to hedge/qualify a claim", "an unconfirmed hypothesis", "correlation does not imply causation", "a margin of error"],3,"„Eine Fehlerspanne” heißt auf Englisch „a margin of error”."],
-      ["mcq","Wie sagt man „eine unbestätigte Hypothese” auf Englisch?",["statistical uncertainty", "preliminary results", "a margin of error", "an unconfirmed hypothesis"],3,"„Eine unbestätigte Hypothese” heißt auf Englisch „an unconfirmed hypothesis”."],
+      ["mcq","Wie sagt man „un margen de error“ auf Deutsch?",["eine Aussage abschwächen", "die statistische Unsicherheit", "eine Fehlerspanne", "eine unbestätigte Hypothese"],2,"„un margen de error“ heißt auf Deutsch „eine Fehlerspanne“."],
+      ["mcq","Wie sagt man „una hipótesis no confirmada“ auf Deutsch?",["die statistische Unsicherheit", "eine Aussage abschwächen", "eine unbestätigte Hypothese", "eine Fehlerspanne"],2,"„una hipótesis no confirmada“ heißt auf Deutsch „eine unbestätigte Hypothese“."],
       ["fill","Completa: “Man ___ sagen, dass es einen Trend gibt, obwohl die Daten vorläufig sind.”",["muss", "wird", "kann", "könnte"],3,"„Man könnte sagen, dass” ist ein fester Ausdruck epistemischer Abschwächung, der eine Aussage abmildert."],
       ["translate","Übersetze präzise: „The results suggest, but do not confirm, a causal relationship.“",["Die Ergebnisse deuten auf einen kausalen Zusammenhang hin, ohne ihn zu bestätigen.", "Die Ergebnisse deuten auf eine statistische Korrelation hin, ohne sie zu bestätigen.", "Die Ergebnisse deuten auf einen kausalen Zusammenhang hin und bestätigen ihn.", "Die Ergebnisse bestätigen einen kausalen Zusammenhang, ohne darauf hinzudeuten."],0,"„Suggest, but do not confirm” wird mit „deuten hin, ohne zu bestätigen” übersetzt, was die Gewissheit abschwächt."],
       ["arrange","Bring in die richtige Reihenfolge: [Kausalität / keine / impliziert / Korrelation]",["impliziert Korrelation Kausalität keine", "Korrelation impliziert Kausalität keine", "Korrelation impliziert keine Kausalität", "Kausalität impliziert keine Korrelation"],2,"Subjekt + Verb + Negation + Objekt."],

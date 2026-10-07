@@ -1448,8 +1448,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il cavallo” in inglese?",["the bird", "the horse", "the dog", "the cat"],1,"“Cavallo” si dice “horse” in inglese."],
-      ["mcq","Come si dice “l'uccello” in inglese?",["the fish", "the cow", "the bird", "the dog"],2,"“Uccello” si dice “bird” in inglese."],
+      ["mcq","Come si dice “el caballo” in italiano?",["il cane", "il pesce", "il cavallo", "la mucca"],2,"“el caballo” si dice “il cavallo” in italiano."],
+      ["mcq","Come si dice “el pájaro” in italiano?",["il cane", "l'uccello", "il cavallo", "la mucca"],1,"“el pájaro” si dice “l'uccello” in italiano."],
       ["fill","Completa: “Mi piace fare una passeggiata nel ___ la domenica.”",["pesce", "bosco", "gatto", "mucca"],1,"“Fare una passeggiata nel bosco” è un'attività tipica nella natura."],
       ["translate","Traduci: “The dog is very friendly.”",["Il cavallo è molto simpatico.", "L'uccello è molto simpatico.", "Il gatto è molto simpatico.", "Il cane è molto simpatico."],3,"“The dog” = “il cane”; “friendly” = “simpatico”."],
       ["arrange","Metti in ordine: [nero / ho / gatto / un]",["nero un Ho gatto", "un Ho gatto nero", "un gatto nero Ho", "Ho un gatto nero"],3,"Soggetto implicito + verbo + articolo + sostantivo + aggettivo."],
@@ -1473,8 +1473,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la schiena” in inglese?",["the head", "the leg", "the hand", "the back"],3,"“Schiena” si dice “back” in inglese."],
-      ["mcq","Come si dice “il piede” in inglese?",["the arm", "the head", "the foot", "the hand"],2,"“Piede” si dice “foot” in inglese."],
+      ["mcq","Come si dice “la espalda” in italiano?",["la schiena", "la testa", "la mano", "il piede"],0,"“la espalda” si dice “la schiena” in italiano."],
+      ["mcq","Come si dice “el pie” in italiano?",["la mano", "la gamba", "il piede", "la testa"],2,"“el pie” si dice “il piede” in italiano."],
       ["fill","Completa: “Mi fa molto male la ___ dopo aver corso.”",["gamba", "mano", "schiena", "testa"],2,"Correre causa spesso mal di schiena se non ci si scalda bene."],
       ["translate","Traduci: “My hand hurts.”",["Mi fa male la gamba.", "Mi fa male il braccio.", "Mi fa male il piede.", "Mi fa male la mano."],3,"“My hand hurts” = “Mi fa male la mano”, con l'articolo determinativo."],
       ["arrange","Metti in ordine: [gamba / fa / la / mi / male]",["Mi fa male la gamba", "gamba la fa male Mi", "fa Mi male gamba la", "la fa gamba Mi male"],0,"“Mi fa male” + articolo + parte del corpo."],
@@ -1498,8 +1498,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “sollevare pesi” in inglese?",["to lift weights", "to do yoga", "swimming", "to run"],0,"“Sollevare pesi” si dice “to lift weights”."],
-      ["mcq","Come si dice “il nuoto” in inglese?",["to run", "swimming", "soccer/football", "tennis"],1,"“Nuoto” si dice “swimming”."],
+      ["mcq","Come si dice “levantar pesas” in italiano?",["fare yoga", "sollevare pesi", "correre", "il nuoto"],1,"“levantar pesas” si dice “sollevare pesi” in italiano."],
+      ["mcq","Come si dice “la natación” in italiano?",["il tennis", "il calcio", "sollevare pesi", "il nuoto"],3,"“la natación” si dice “il nuoto” in italiano."],
       ["fill","Completa: “___ solitamente tre volte a settimana per rimanere in forma.”",["Nuoto", "Tennis", "Calcio", "Corro"],3,"“Solitamente” + presente (“corro”) descrive un'abitudine."],
       ["translate","Traduci: “I usually do yoga on Sundays.”",["Faccio solitamente yoga il sabato.", "Sollevo solitamente pesi la domenica.", "Gioco solitamente a tennis la domenica.", "Faccio solitamente yoga la domenica."],3,"“I usually do yoga” = “Faccio solitamente yoga”; “on Sundays” = “la domenica”."],
       ["arrange","Metti in ordine: [forma / rimanere / in / per / corro]",["forma in rimanere per Corro", "rimanere Corro in forma per", "Corro per rimanere in forma", "per forma Corro rimanere in"],2,"Soggetto + verbo + “per” + infinito + complemento."],
@@ -1523,8 +1523,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un rischio per la privacy” in inglese?",["a privacy risk", "a security camera", "a thermostat", "a smart speaker"],0,"“Rischio per la privacy” si dice “privacy risk”."],
-      ["mcq","Come si dice “automatizzare le faccende domestiche” in inglese?",["to automate household tasks", "a privacy risk", "to control by voice", "a smart speaker"],0,"“Automatizzare le faccende domestiche” si dice “to automate household tasks”."],
+      ["mcq","Come si dice “un riesgo para la privacidad” in italiano?",["un rischio per la privacy", "un termostato programmabile", "un altoparlante intelligente", "controllare con la voce"],0,"“un riesgo para la privacidad” si dice “un rischio per la privacy” in italiano."],
+      ["mcq","Come si dice “automatizar tareas del hogar” in italiano?",["controllare con la voce", "automatizzare le faccende domestiche", "una telecamera di sicurezza", "un termostato programmabile"],1,"“automatizar tareas del hogar” si dice “automatizzare le faccende domestiche” in italiano."],
       ["fill","Completa: “Un termostato programmabile può ___ energia se è configurato bene.”",["perdere", "rompere", "risparmiare", "sprecare"],2,"Un termostato ben configurato aiuta a risparmiare energia, non a sprecarla."],
       ["mcq","¿Qué significa «Gli altoparlanti intelligenti si possono controllare con la voce.»?",["Thermostats can be controlled by text.","Security cameras can be controlled by voice.","Smart speakers can be controlled by voice.","Smart speakers can be controlled by text."],2,"“Controllare con la voce” = “controlled by voice”."],
       ["arrange","Metti in ordine: [privacy / può / rischio / rappresentare / un / per la]",["rappresentare la Può per un privacy rischio", "Può rappresentare un rischio per la privacy", "Può la un rappresentare privacy rischio per", "per la rappresentare Può un rischio privacy"],1,"Verbo + “rappresentare” + oggetto: “Può rappresentare un rischio per la privacy.”"],
@@ -1548,8 +1548,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “raggiungere un accordo” in inglese?",["to call a meeting", "to postpone a meeting", "to attach a document", "to reach an agreement"],3,"“Raggiungere un accordo” si dice “to reach an agreement”."],
-      ["mcq","Come si dice “rinviare una riunione” in inglese?",["to call a meeting", "to reach an agreement", "to attach a document", "to postpone a meeting"],3,"“Rinviare una riunione” si dice “to postpone a meeting”."],
+      ["mcq","Come si dice “llegar a un acuerdo” in italiano?",["convocare una riunione", "allegare un documento", "rinviare una riunione", "raggiungere un accordo"],3,"“llegar a un acuerdo” si dice “raggiungere un accordo” in italiano."],
+      ["mcq","Come si dice “posponer una reunión” in italiano?",["rinviare una riunione", "raggiungere un accordo", "allegare un documento", "convocare una riunione"],0,"“posponer una reunión” si dice “rinviare una riunione” in italiano."],
       ["fill","Completa: “Prima di chiudere la riunione, vorrei ___ un punto in sospeso della settimana scorsa.”",["allegare", "riprendere", "convocare", "rinviare"],1,"“Riprendere un punto in sospeso” significa tornare a trattarlo."],
       ["mcq","¿Qué significa «Ho allegato la relazione richiesta.»?",["I'm attaching the requested email.","I'm calling the requested report.","I'm postponing the requested report.","I'm attaching the requested report."],3,"“Ho allegato” = “I'm attaching”; “la relazione richiesta” = “the requested report”."],
       ["arrange","Metti in ordine: [riscontro / attesa / restiamo / suo / di / un / in]",["un di Restiamo riscontro attesa in suo", "di in attesa un riscontro suo Restiamo", "di riscontro Restiamo un in attesa suo", "Restiamo in attesa di un suo riscontro"],3,"Formula fissa di chiusura di un'email professionale."],
@@ -1598,8 +1598,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la giacca” in inglese?",["the pants/trousers", "the skirt", "the shirt", "the jacket"],3,"“Giacca” si dice “jacket” in inglese."],
-      ["mcq","Come si dice “le scarpe” in inglese?",["the shirt", "the shoes", "the skirt", "the dress"],1,"“Scarpe” si dice “shoes” in inglese."],
+      ["mcq","Come si dice “la chaqueta” in italiano?",["i pantaloni", "le scarpe", "la giacca", "la camicia"],2,"“la chaqueta” si dice “la giacca” in italiano."],
+      ["mcq","Come si dice “los zapatos” in italiano?",["le scarpe", "la gonna", "la giacca", "il vestito"],0,"“los zapatos” si dice “le scarpe” in italiano."],
       ["fill","Completa: “Indosso una camicia ___ e dei pantaloni neri.”",["bluo", "blui", "blue", "blu"],3,"“Blu” è invariabile in italiano: non cambia con genere o numero."],
       ["translate","Traduci: “I'm wearing a red dress.”",["Indosso un vestito rosso.", "Indosso scarpe rosse.", "Indosso una camicia rossa.", "Indosso una gonna rossa."],0,"“I'm wearing” = “Indosso”; “a red dress” = “un vestito rosso”."],
       ["arrange","Metti in ordine: [nere / ho / scarpe / delle]",["delle Ho scarpe nere", "Ho delle scarpe nere", "nere delle Ho scarpe", "delle scarpe Ho nere"],1,"Soggetto implicito + verbo + articolo partitivo + sostantivo + aggettivo."],
@@ -1623,8 +1623,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la carota” in inglese?",["the apple", "the carrot", "the orange", "the banana"],1,"“Carota” si dice “carrot” in inglese."],
-      ["mcq","Come si dice “la banana” in inglese?",["the carrot", "the banana", "the lettuce", "the tomato"],1,"“Banana” si dice “banana” in inglese."],
+      ["mcq","Come si dice “la zanahoria” in italiano?",["la lattuga", "la mela", "la carota", "il pomodoro"],2,"“la zanahoria” si dice “la carota” in italiano."],
+      ["mcq","Come si dice “el plátano” in italiano?",["la carota", "la lattuga", "il pomodoro", "la banana"],3,"“el plátano” si dice “la banana” in italiano."],
       ["fill","Completa: “Mangio ___ frutta ogni giorno per stare in salute.”",["molti", "molte", "molto", "molta"],3,"“Frutta” è femminile singolare, quindi il quantificatore concorda: “molta frutta”."],
       ["translate","Traduci: “I eat little meat and a lot of vegetables.”",["Mangio molta carne e molta verdura.", "Mangio poca carne e poca verdura.", "Mangio poca frutta e molta verdura.", "Mangio poca carne e molta verdura."],3,"“Little meat” = “poca carne”; “a lot of vegetables” = “molta verdura”."],
       ["arrange","Metti in ordine: [pomodoro / L'insalata / ha / e / lattuga]",["L'insalata ha pomodoro e lattuga", "e ha L'insalata lattuga pomodoro", "lattuga L'insalata ha e pomodoro", "lattuga pomodoro ha e L'insalata"],0,"Soggetto + verbo + oggetto (due sostantivi uniti da “e”)."],
@@ -1648,8 +1648,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “mescolare gli ingredienti” in inglese?",["to preheat the oven", "to boil, to fry", "to cut, to peel", "to mix the ingredients"],3,"“Mescolare gli ingredienti” si dice “to mix the ingredients”."],
-      ["mcq","Come si dice “preriscaldare il forno” in inglese?",["to preheat the oven", "to add salt to taste", "to let the dough rest", "to cut, to peel"],0,"“Preriscaldare il forno” si dice “to preheat the oven”."],
+      ["mcq","Come si dice “mezclar los ingredientes” in italiano?",["preriscaldare il forno", "lasciar riposare l'impasto", "mescolare gli ingredienti", "aggiungere sale a piacere"],2,"“mezclar los ingredientes” si dice “mescolare gli ingredienti” in italiano."],
+      ["mcq","Come si dice “precalentar el horno” in italiano?",["lasciar riposare l'impasto", "preriscaldare il forno", "mescolare gli ingredienti", "aggiungere sale a piacere"],1,"“precalentar el horno” si dice “preriscaldare il forno” in italiano."],
       ["fill","Completa: “Prima di infornare, bisogna ___ il forno a 180 gradi.”",["preriscaldare", "bollire", "mescolare", "friggere"],0,"“Preriscaldare il forno” è il passaggio tipico prima di infornare."],
       ["translate","Traduci: “Let the dough rest for ten minutes.”",["Lasci riposare l'impasto per dieci minuti.", "Lasci friggere l'impasto per dieci minuti.", "Lasci tagliare l'impasto per dieci minuti.", "Lasci bollire l'impasto per dieci minuti."],0,"“Let the dough rest” = “Lasci riposare l'impasto”, con l'imperativo formale."],
       ["arrange","Metti in ordine: [piacere / sale / aggiunga / a]",["piacere a Aggiunga sale", "sale a piacere Aggiunga", "sale piacere a Aggiunga", "Aggiunga sale a piacere"],3,"Imperativo + oggetto + espressione fissa “a piacere”."],
@@ -1673,8 +1673,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un'interpretazione commovente” in inglese?",["a lasting impression", "an artist's style", "a moving performance", "a masterpiece"],2,"“Un'interpretazione commovente” si dice “a moving performance”."],
-      ["mcq","Come si dice “essere sopravvalutato” in inglese?",["an artist's style", "to leave an impression", "to be overrated", "to be underrated"],2,"“Essere sopravvalutato” si dice “to be overrated”."],
+      ["mcq","Come si dice “una interpretación conmovedora” in italiano?",["un'interpretazione commovente", "essere sopravvalutato/sottovalutato", "lasciare un'impressione duratura", "un capolavoro"],0,"“una interpretación conmovedora” si dice “un'interpretazione commovente” in italiano."],
+      ["mcq","Come si dice “estar sobrevalorado” in italiano?",["essere sopravvalutato", "un'interpretazione commovente", "lasciare un'impressione duratura", "un capolavoro"],0,"“estar sobrevalorado” si dice “essere sopravvalutato” in italiano."],
       ["fill","Completa: “Non credo che questo film ___ così buono come dicono.”",["era", "sia", "è", "sarà"],1,"“Non credo che” richiede il congiuntivo: “che sia”."],
       ["translate","Traduci: “This performance left a lasting impression on me.”",["Questa interpretazione mi ha lasciato un'impressione duratura.", "Questa interpretazione mi ha lasciato un capolavoro.", "Questa messa in scena mi ha lasciato sopravvalutato.", "Questo stile mi ha lasciato un'impressione duratura."],0,"“Left a lasting impression” = “ha lasciato un'impressione duratura”."],
       ["arrange","Metti in ordine: [capolavoro / questo / è / un]",["Questo è un capolavoro", "capolavoro è Questo un", "è capolavoro Questo un", "un è capolavoro Questo"],0,"Soggetto + “è” + articolo + sostantivo."],
@@ -1698,8 +1698,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “formulare la critica in termini concreti” in inglese?",["to be open to feedback", "to phrase criticism in concrete terms", "to point out an area for improvement", "to take criticism personally"],1,"“Formulare la critica in termini concreti” si dice “to phrase criticism in concrete terms”."],
-      ["mcq","Come si dice “prendere la critica sul personale” in inglese?",["to propose a solution", "to be open to feedback", "to acknowledge strengths", "to take criticism personally"],3,"“Prendere la critica sul personale” si dice “to take criticism personally”."],
+      ["mcq","Come si dice “formular la crítica en términos concretos” in italiano?",["prendere la critica sul personale", "formulare la critica in termini concreti", "segnalare un punto da migliorare", "riconoscere i punti di forza prima delle critiche"],1,"“formular la crítica en términos concretos” si dice “formulare la critica in termini concreti” in italiano."],
+      ["mcq","Come si dice “tomarse la crítica como algo personal” in italiano?",["prendere la critica sul personale", "segnalare un punto da migliorare", "essere aperto/a al feedback", "formulare la critica in termini concreti"],0,"“tomarse la crítica como algo personal” si dice “prendere la critica sul personale” in italiano."],
       ["fill","Completa: “Prima di dare una critica, è una buona idea ___ i punti di forza del lavoro.”",["riconoscere", "nascondere", "criticare", "ignorare"],0,"“Riconoscere i punti di forza prima delle critiche” fa sì che il feedback sia accolto meglio."],
       ["mcq","¿Qué significa «Un suggerimento sarebbe iniziare con le conclusioni.»?",["One criticism would be to start with the conclusions.","One suggestion would be to finish with the conclusions.","One suggestion would be to start with the conclusions.","One problem would be to start with the conclusions."],2,"“Un suggerimento sarebbe” = “One suggestion would be to”."],
       ["arrange","Metti in ordine: [problema / proponi / solo / il / una soluzione / non / segnalare]",["una soluzione problema, Non solo il proponi segnalare", "Non segnalare soluzione problema, proponi una il solo", "soluzione proponi il Non segnalare solo problema, una", "Non segnalare solo il problema, proponi una soluzione"],3,"Struttura di contrasto: “non solo... [verbo]” + “[verbo]... una soluzione”."],
@@ -1723,8 +1723,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “prescrittivismo contro descrittivismo” in inglese?",["inclusive language", "linguistic change", "a neologism", "prescriptivism versus descriptivism"],3,"“Prescrittivismo contro descrittivismo” si dice “prescriptivism versus descriptivism”."],
-      ["mcq","Come si dice “un neologismo viene aggiunto al dizionario” in inglese?",["to generate resistance", "a neologism is added to the dictionary", "a living language evolves with use", "inclusive language"],1,"“Un neologismo viene aggiunto al dizionario” si dice “a neologism is added to the dictionary”."],
+      ["mcq","Come si dice “prescriptivismo frente a descriptivismo” in italiano?",["generare resistenza a un cambiamento linguistico", "una lingua viva si evolve con l'uso", "il linguaggio inclusivo", "prescrittivismo contro descrittivismo"],3,"“prescriptivismo frente a descriptivismo” si dice “prescrittivismo contro descrittivismo” in italiano."],
+      ["mcq","Come si dice “se añade un neologismo al diccionario” in italiano?",["un argomento non implica necessariamente una posizione politica", "un neologismo viene aggiunto al dizionario", "il linguaggio inclusivo", "generare resistenza a un cambiamento linguistico"],1,"“se añade un neologismo al diccionario” si dice “un neologismo viene aggiunto al dizionario” in italiano."],
       ["fill","Completa: “Il descrittivismo si concentra sul documentare come parla davvero la gente, non sul dettare come ___ parlare.”",["vuole", "dovrebbe", "suole", "può"],1,"Il descrittivismo descrive l'uso reale, senza dettare norme su come si “dovrebbe” parlare."],
       ["mcq","¿Qué significa «Una lingua viva si evolve con l'uso, che ci piaccia o no.»?",["A living language evolves without use, whether we like it or not.","A living language evolves with use, whether we like it or not.","A dead language evolves with use, whether we like it or not.","A living language evolves with use, even if it doesn't change."],1,"“Che ci piaccia o no” si traduce idiomaticamente come “whether we like it or not”."],
       ["arrange","Metti in ordine: [necessariamente / implica / non / una posizione / politica / un argomento]",["Un argomento non implica necessariamente una posizione politica", "necessariamente politica una implica argomento non posizione Un", "implica Un necessariamente posizione argomento politica una non", "posizione una implica argomento necessariamente Un politica non"],0,"Soggetto + negazione + “implica necessariamente” + oggetto."],
@@ -1749,8 +1749,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la farmacia” in inglese?",["the park", "the supermarket", "the bank", "the pharmacy"],3,"“Farmacia” si dice “pharmacy” in inglese."],
-      ["mcq","Come si dice “la fermata dell'autobus” in inglese?",["the supermarket", "the library", "the pharmacy", "the bus stop"],3,"“Fermata dell'autobus” si dice “bus stop” in inglese."],
+      ["mcq","Dove si comprano le medicine?",["il parco", "la farmacia", "il supermercato", "la banca"],1,"Le medicine si comprano nella farmacia (la farmacia)."],
+      ["mcq","Come si dice “la parada de autobús” in italiano?",["la fermata dell'autobus", "il supermercato", "la biblioteca", "la farmacia"],0,"“la parada de autobús” si dice “la fermata dell'autobus” in italiano."],
       ["fill","Completa: “Nel mio quartiere ___ una biblioteca molto grande.”",["è", "sono", "ci sono", "c'è"],3,"“C'è” si usa con un sostantivo singolare per dire che qualcosa esiste: “c'è una biblioteca”."],
       ["translate","Traduci: “The pharmacy is next to the park.”",["La farmacia è lontana dal parco.", "La banca è accanto al parco.", "La farmacia è vicino alla biblioteca.", "La farmacia è accanto al parco."],3,"“Next to” = “accanto a”; il soggetto e il luogo devono corrispondere all'originale."],
       ["arrange","Ordina: [supermercato / lontano / il / non / è]",["Il è supermercato non lontano", "Il non è lontano supermercato", "supermercato è Il lontano non", "Il supermercato non è lontano"],3,"Soggetto + verbo + negazione + avverbio di luogo."],
@@ -1774,8 +1774,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “fare un regalo” in inglese?",["to give a gift", "the birthday", "to celebrate", "New Year"],0,"“Fare un regalo” si dice “to give a gift” in inglese."],
-      ["mcq","Come si dice “il matrimonio” in inglese?",["to celebrate", "Christmas", "the wedding", "New Year"],2,"“Matrimonio” si dice “wedding” in inglese."],
+      ["mcq","Come si dice “hacer un regalo” in italiano?",["il Capodanno", "il compleanno", "il Natale", "fare un regalo"],3,"“hacer un regalo” si dice “fare un regalo” in italiano."],
+      ["mcq","Come si dice “la boda” in italiano?",["il compleanno", "il Natale", "il matrimonio", "il Capodanno"],2,"“la boda” si dice “il matrimonio” in italiano."],
       ["fill","Completa: “Ogni Capodanno, ___ festeggiare con tutta la famiglia.”",["abbiamo", "facciamo", "siamo", "sogliamo"],3,"„Solere” + infinito esprime un'abitudine: „sogliamo festeggiare”."],
       ["translate","Traduci: “We usually give gifts at Christmas.”",["Sogliamo fare regali al compleanno.", "Sogliamo festeggiare regali a Natale.", "Sogliamo fare regali a Natale.", "Facciamo un regalo a Natale."],2,"“We usually give gifts” = “Sogliamo fare regali”, con „solere” + infinito."],
       ["arrange","Ordina: [compleanno / festeggio / il / mio / con amici]",["amici Festeggio compleanno con mio il", "Festeggio amici compleanno il con mio", "Festeggio il mio amici con compleanno", "Festeggio il mio compleanno con amici"],3,"Verbo + oggetto possessivo + preposizione + complemento."],
@@ -1799,8 +1799,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “andare d'accordo con qualcuno” in inglese?",["to keep in touch", "a close/trustworthy friend", "to get along well/badly with someone", "to have something in common"],2,"“Andare d'accordo con qualcuno” si dice “to get along well with someone” in inglese."],
-      ["mcq","Come si dice “fare pace dopo una litigata” in inglese?",["a close/trustworthy friend", "to make up after an argument", "to get along well/badly with someone", "to trust someone"],1,"“Fare pace dopo una litigata” si dice “to make up after an argument” in inglese."],
+      ["mcq","Come si dice “llevarse bien con alguien” in italiano?",["andare d'accordo con qualcuno", "avere qualcosa in comune", "fidarsi di qualcuno", "fare pace dopo una litigata"],0,"“llevarse bien con alguien” si dice “andare d'accordo con qualcuno” in italiano."],
+      ["mcq","Come si dice “reconciliarse después de una discusión” in italiano?",["andare d'accordo/male con qualcuno", "avere qualcosa in comune", "rimanere in contatto", "fare pace dopo una litigata"],3,"“reconciliarse después de una discusión” si dice “fare pace dopo una litigata” in italiano."],
       ["fill","Completa: “Se vuoi mantenere quest'amicizia, ___ rimanere in contatto.”",["dovresti", "dovrai", "dovevi", "devi di"],0,"„Dovresti” (condizionale di „dovere”) dà un consiglio delicato in seconda persona."],
       ["translate","Traduci: “You have to trust your friends.”",["Devi fidarti della tua famiglia.", "Devi andare d'accordo con i tuoi amici.", "Devi fidarti dei tuoi amici.", "Dovresti fidarti dei tuoi amici."],2,"“You have to trust” = “Devi fidarti”, con „dovere” + infinito."],
       ["arrange","Ordina: [comune / molto / abbiamo / in]",["in molto comune Abbiamo", "molto comune in Abbiamo", "comune in molto Abbiamo", "Abbiamo molto in comune"],3,"Verbo + quantificatore + preposizione fissa „in comune”."],
@@ -1824,8 +1824,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la disconnessione digitale” in inglese?",["digital disconnection", "burnout", "to work remotely", "to be productive"],0,"“Disconnessione digitale” si dice “digital disconnection” in inglese."],
-      ["mcq","Come si dice “conciliare la vita lavorativa e personale” in inglese?",["flexible working hours", "to balance work and personal life", "digital disconnection", "to work remotely"],1,"“Conciliare la vita lavorativa e personale” si dice “to balance work and personal life” in inglese."],
+      ["mcq","Come si dice “la desconexión digital” in italiano?",["l'orario flessibile", "la disconnessione digitale", "il burnout", "lavorare da remoto"],1,"“la desconexión digital” si dice “la disconnessione digitale” in italiano."],
+      ["mcq","Come si dice “equilibrar el trabajo y la vida personal” in italiano?",["lavorare da remoto", "essere produttivo/a", "conciliare la vita lavorativa e personale", "la disconnessione digitale"],2,"“equilibrar el trabajo y la vida personal” si dice “conciliare la vita lavorativa e personale” in italiano."],
       ["fill","Completa: “___ da casa, molte persone riescono a conciliare meglio la vita lavorativa e personale.”",["Lavori", "Lavorato", "Lavorare", "Lavorando"],3,"Il gerundio (“lavorando”) esprime la circostanza che permette il risultato che segue."],
       ["translate","Traduci: “Working without disconnecting can lead to burnout.”",["Disconnettendosi dal lavoro, si può arrivare al burnout.", "Lavorando con orario flessibile, si può arrivare al burnout.", "Lavorare senza disconnettersi può evitare il burnout.", "Lavorando senza disconnettersi, si può arrivare al burnout."],3,"Il gerundio “lavorando senza disconnettersi” esprime la causa del burnout."],
       ["arrange","Ordina: [flessibile / apprezzano / un / molti / orario]",["Molti apprezzano un orario flessibile", "un apprezzano orario flessibile Molti", "Molti apprezzano orario un flessibile", "apprezzano un Molti orario flessibile"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
@@ -1849,8 +1849,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un punto morto” in inglese?",["to look for a middle ground", "a deadlock/stalemate", "to give ground/make concessions", "to break the ice"],1,"“Un punto morto” si dice “a deadlock” o “stalemate” in inglese."],
-      ["mcq","Come si dice “una posizione intransigente” in inglese?",["to reach an agreement", "an inflexible/uncompromising stance", "to break the ice", "a deadlock/stalemate"],1,"“Una posizione intransigente” si dice “an inflexible/uncompromising stance” in inglese."],
+      ["mcq","Come si dice “un punto muerto” in italiano?",["un punto morto", "raggiungere un accordo", "cercare un compromesso", "una posizione intransigente"],0,"“un punto muerto” si dice “un punto morto” in italiano."],
+      ["mcq","Come si dice “una postura inflexible/intransigente” in italiano?",["rompere il ghiaccio", "cercare un compromesso", "raggiungere un accordo", "una posizione intransigente"],3,"“una postura inflexible/intransigente” si dice “una posizione intransigente” in italiano."],
       ["fill","Completa: “___ preferibile cercare un compromesso prima di arrivare a un punto morto.”",["Fu", "Sarebbe", "È", "Sarà"],1,"Il condizionale “sarebbe” ammorbidisce l'affermazione, tipico del registro di negoziazione formale."],
       ["translate","Traduci in registro formale: “Would you be willing to make concessions on this point?”",["Sarebbe disposto a raggiungere un accordo su questo punto?", "Sarebbe disposto a fare concessioni su questo punto?", "È disposto a fare concessioni su questo punto?", "Sarebbe disposto a rompere il ghiaccio su questo punto?"],1,"Il condizionale “sarebbe disposto” ammorbidisce la domanda, più formale del presente “è disposto”."],
       ["arrange","Ordina: [accordo / difficile / raggiungere / sarà / un]",["Sarà un raggiungere accordo difficile", "raggiungere Sarà accordo un difficile", "raggiungere difficile accordo Sarà un", "Sarà difficile raggiungere un accordo"],3,"Futuro + aggettivo + infinito + complemento."],
@@ -1874,8 +1874,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “diluire la responsabilità di qualcuno” in inglese?",["to dilute someone's responsibility", "a euphemism", "corporate jargon", "an unnecessary anglicism"],0,"“Diluire la responsabilità di qualcuno” si dice “to dilute someone's responsibility” in inglese."],
-      ["mcq","Come si dice “una ristrutturazione (eufemismo per licenziamenti)” in inglese?",["an unnecessary anglicism", "a euphemism", "a restructuring (euphemism for layoffs)", "corporate jargon"],2,"“Ristrutturazione” si dice “restructuring” in inglese, eufemismo abituale di “layoffs” (licenziamenti)."],
+      ["mcq","Come si dice “diluir la responsabilidad de alguien” in italiano?",["una ristrutturazione (eufemismo per licenziamenti)", "attenuare l'impatto di un messaggio", "il gergo aziendale", "diluire la responsabilità di qualcuno"],3,"“diluir la responsabilidad de alguien” si dice “diluire la responsabilità di qualcuno” in italiano."],
+      ["mcq","Come si dice “una reestructuración (eufemismo de despidos)” in italiano?",["una ristrutturazione (eufemismo per licenziamenti)", "attenuare l'impatto di un messaggio", "diluire la responsabilità di qualcuno", "il gergo aziendale"],0,"“una reestructuración (eufemismo de despidos)” si dice “una ristrutturazione (eufemismo per licenziamenti)” in italiano."],
       ["fill","Completa: “L'azienda parla di “ottimizzazione delle risorse”, ___ , di licenziamenti.”",["per esempio", "sebbene", "tuttavia", "cioè"],3,"“Cioè” riformula l'espressione eufemistica con il suo significato letterale."],
       ["translate","Traduci con precisione: “Corporate jargon often softens the impact of bad news.”",["Il gergo aziendale spesso diluisce l'impatto delle cattive notizie.", "Un eufemismo spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso evita l'impatto delle cattive notizie."],2,"“Softens the impact” = “attenua l'impatto”; il soggetto deve essere “il gergo aziendale”."],
       ["arrange","Ordina: [licenziamenti / eufemismo / ristrutturazione / un / di / è]",["Ristrutturazione è un eufemismo di licenziamenti", "un eufemismo licenziamenti di è Ristrutturazione", "un eufemismo Ristrutturazione di licenziamenti è", "licenziamenti è Ristrutturazione eufemismo di un"],0,"Soggetto + verbo + articolo + sostantivo + preposizione + complemento."],
@@ -1899,8 +1899,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il passaporto” in inglese?",["the suitcase", "the booking", "the passport", "to check in luggage"],2,"“Passaporto” si dice “passport” in inglese."],
-      ["mcq","Come si dice “fare il check-in dei bagagli” in inglese?",["the booking", "the flight", "to check in luggage", "the passport"],2,"“Fare il check-in dei bagagli” si dice “to check in luggage” in inglese."],
+      ["mcq","Come si dice “el pasaporte” in italiano?",["la camera", "il passaporto", "la valigia", "il volo"],1,"“el pasaporte” si dice “il passaporto” in italiano."],
+      ["mcq","Come si dice “facturar el equipaje” in italiano?",["la camera", "il volo", "fare il check-in dei bagagli", "il passaporto"],2,"“facturar el equipaje” si dice “fare il check-in dei bagagli” in italiano."],
       ["fill","Completa: “Domani ___ a fare il check-in dei bagagli molto presto.”",["sono andato", "vado a", "vado", "andrò a"],2,"„Andare a” + infinito: „vado a fare”, nello spazio va solo il verbo „andare” coniugato."],
       ["translate","Traduci: “We are going to book a room for Friday.”",["Andiamo a fare il check-in di una camera per venerdì.", "Andiamo a prenotare una camera per venerdì.", "Andiamo a prenotare un volo per venerdì.", "Andiamo a prenotare una camera per lunedì."],1,"“We are going to book” = “Andiamo a prenotare”, con „andare a” + infinito."],
       ["arrange","Ordina: [passaporto / vado / mio / a / cercare]",["mio Vado cercare passaporto a", "Vado a cercare mio passaporto", "a Vado passaporto mio cercare", "cercare passaporto Vado mio a"],1,"Verbo „andare a” + infinito + oggetto possessivo."],
@@ -1924,8 +1924,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la password” in inglese?",["the wifi", "to download", "the password", "the app"],2,"“Password” si dice “password” in inglese."],
-      ["mcq","Come si dice “scaricare” in inglese?",["the password", "the battery", "to download", "to charge the phone"],2,"“Scaricare” si dice “download” in inglese."],
+      ["mcq","Come si dice “la contraseña” in italiano?",["il wifi", "la batteria", "l'app", "la password"],3,"“la contraseña” si dice “la password” in italiano."],
+      ["mcq","Come si dice “descargar” in italiano?",["caricare il cellulare", "l'app", "scaricare", "la password"],2,"“descargar” si dice “scaricare” in italiano."],
       ["fill","Completa: “Questa app è ___ veloce quanto l'altra.”",["meno", "molto", "più", "tanto"],3,"„Tanto + aggettivo + quanto” compara due cose con la stessa qualità."],
       ["translate","Traduci: “My battery lasts longer than yours.”",["Il mio wifi dura più della tua.", "La mia batteria dura tanto quanto la tua.", "La mia batteria dura meno della tua.", "La mia batteria dura più della tua."],3,"“Lasts longer than” = “dura più di”, comparativo di maggioranza."],
       ["arrange","Ordina: [password / bisogno / una / più / ho / sicura]",["Ho una sicura password bisogno più", "Ho sicura bisogno più una password", "una più bisogno sicura password Ho", "Ho bisogno una password più sicura"],3,"Verbo + articolo + sostantivo + comparativo + aggettivo."],
@@ -1949,8 +1949,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “appassionarsi a qualcosa” in inglese?",["to get hooked on something", "the streaming platform", "the subtitles", "the video game"],0,"“Appassionarsi a qualcosa” si dice “to get hooked on something” in inglese."],
-      ["mcq","Come si dice “la maratona di serie” in inglese?",["the streaming platform", "to get hooked on something", "binge-watching", "the subtitles"],2,"“Maratona di serie” si dice “binge-watching” in inglese."],
+      ["mcq","Come si dice “engancharse a algo” in italiano?",["i sottotitoli", "appassionarsi a qualcosa", "la maratona di serie", "la serie"],1,"“engancharse a algo” si dice “appassionarsi a qualcosa” in italiano."],
+      ["mcq","Come si dice “maratón de series” in italiano?",["la piattaforma di streaming", "il videogioco", "la serie", "la maratona di serie"],3,"“maratón de series” si dice “la maratona di serie” in italiano."],
       ["fill","Completa: “Guardo questa serie ___ due ore senza fermarmi.”",["da", "per", "fa", "in"],0,"„Presente + da + tempo” esprime la durata di un'azione in corso: „guardo da due ore”."],
       ["translate","Traduci: “We have been playing video games all weekend.”",["Giochiamo alle serie da tutto il weekend.", "Abbiamo giocato ai videogiochi tutto il weekend.", "Guardiamo ai videogiochi da tutto il weekend.", "Giochiamo ai videogiochi da tutto il weekend."],3,"“Have been playing all weekend” = “Giochiamo da tutto il weekend”, con „presente + da”."],
       ["arrange","Ordina: [appassionato / mi / sono / a questa serie]",["Mi sono serie questa a appassionato", "a serie sono appassionato Mi questa", "appassionato serie a Mi sono questa", "Mi sono appassionato a questa serie"],3,"Soggetto riflessivo + verbo + preposizione + complemento."],
@@ -1974,8 +1974,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il furto di identità” in inglese?",["personal data", "to hack a system", "identity theft/phishing", "cybersecurity"],2,"“Furto di identità” si dice “identity theft” o “phishing” in inglese."],
-      ["mcq","Come si dice “crittografare le informazioni” in inglese?",["identity theft/phishing", "a strong password", "to encrypt information", "cybersecurity"],2,"“Crittografare le informazioni” si dice “to encrypt information” in inglese."],
+      ["mcq","Come si dice “robo de identidad/phishing” in italiano?",["i dati personali", "la cybersicurezza", "crittografare le informazioni", "il furto di identità"],3,"“robo de identidad/phishing” si dice “il furto di identità” in italiano."],
+      ["mcq","Come si dice “cifrar información” in italiano?",["violare un sistema", "una password sicura", "i dati personali", "crittografare le informazioni"],3,"“cifrar información” si dice “crittografare le informazioni” in italiano."],
       ["fill","Completa: “I dati ___ condividiamo online possono essere violati.”",["quali", "che", "chi", "cui"],1,"La frase determinativa usa „che” senza virgole per identificare di quali dati si parla."],
       ["translate","Traduci: “My data, which I rarely share, is well protected.”",["I miei dati che condivido poco sono ben protetti.", "I miei dati, che condivido poco, sono ben protetti.", "I miei dati, che condivido poco, sono mal protetti.", "I miei dati, che violo poco, sono ben protetti."],1,"La virgola indica un'esplicativa: „i miei dati, che condivido poco,” aggiunge informazione extra."],
       ["arrange","Ordina: [sicura / bisogno / di / una / password / hai]",["sicura Hai di bisogno password una", "di una password bisogno sicura Hai", "Hai bisogno di una password sicura", "bisogno una password Hai di sicura"],2,"Verbo + preposizione + articolo + sostantivo + aggettivo."],
@@ -1999,8 +1999,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “l'eredità” in inglese?",["to preserve historical memory", "a memorial", "the legacy", "cultural heritage"],2,"“Eredità” si dice “legacy” in inglese."],
-      ["mcq","Come si dice “riscrivere la storia” in inglese?",["cultural heritage", "collective identity", "the legacy", "to rewrite history"],3,"“Riscrivere la storia” si dice “to rewrite history” in inglese."],
+      ["mcq","Come si dice “el legado” in italiano?",["l'identità collettiva", "un monumento commemorativo", "l'eredità", "il patrimonio culturale"],2,"“el legado” si dice “l'eredità” in italiano."],
+      ["mcq","Come si dice “reescribir la historia” in italiano?",["preservare la memoria storica", "il patrimonio culturale", "un monumento commemorativo", "riscrivere la storia"],3,"“reescribir la historia” si dice “riscrivere la storia” in italiano."],
       ["fill","Completa: “Il monumento ___ dedicato alle vittime del conflitto.”",["sia", "era", "è", "viene"],2,"„Essere + participio” descrive lo stato risultante: „il monumento è dedicato”."],
       ["translate","Traduci: “Collective identity is often shaped by historical memory.”",["Il patrimonio culturale è spesso segnato dalla memoria storica.", "L'identità collettiva viene spesso segnata dalla memoria storica.", "L'identità collettiva è spesso segnata dall'eredità storica.", "L'identità collettiva è spesso segnata dalla memoria storica."],3,"“Is shaped by” come stato risultante si traduce con „è segnata da”."],
       ["arrange","Ordina: [patrimonio / preservare / il / culturale / dobbiamo]",["Dobbiamo preservare il patrimonio culturale", "patrimonio culturale Dobbiamo preservare il", "Dobbiamo il culturale preservare patrimonio", "patrimonio Dobbiamo il preservare culturale"],0,"Verbo modale + infinito + articolo + sostantivo + aggettivo."],
@@ -2024,8 +2024,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “leggere tra le righe” in inglese?",["calculated ambiguity", "to read between the lines", "evasive language", "deliberate vagueness"],1,"“Leggere tra le righe” si dice “to read between the lines” in inglese."],
-      ["mcq","Come si dice “un linguaggio evasivo” in inglese?",["calculated ambiguity", "an institutional statement", "to avoid committing oneself", "evasive language"],3,"“Un linguaggio evasivo” si dice “evasive language” in inglese."],
+      ["mcq","Come si dice “leer entre líneas” in italiano?",["leggere tra le righe", "evitare di impegnarsi", "un comunicato istituzionale", "la vaghezza deliberata"],0,"“leer entre líneas” si dice “leggere tra le righe” in italiano."],
+      ["mcq","Come si dice “lenguaje evasivo” in italiano?",["la vaghezza deliberata", "un comunicato istituzionale", "un linguaggio evasivo", "l'ambiguità calcolata"],2,"“lenguaje evasivo” si dice “un linguaggio evasivo” in italiano."],
       ["fill","Completa: “___ sottolineato che il comunicato evita di impegnarsi su date precise.”",["È", "Può", "Va", "C'è"],2,"„Va sottolineato che” è un connettivo fisso di sfumatura epistemica che introduce un'osservazione rilevante."],
       ["translate","Traduci con precisione: “In a way, the vagueness is deliberate.”",["Di un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è evasiva.", "In un certo senso, l'ambiguità è calcolata."],1,"“In a way” = “in un certo senso”, connettivo fisso di sfumatura."],
       ["arrange","Ordina: [dubbio / non / vi / è / che / il / linguaggio / evasivo / sia]",["Non vi è dubbio che il linguaggio sia evasivo","Non che evasivo è dubbio il linguaggio sia vi","vi è Non evasivo linguaggio dubbio il sia che","il è linguaggio Non dubbio evasivo sia vi che"],0,"Connettivo fisso «non vi è dubbio che» + congiuntivo (sia)."],
@@ -2049,8 +2049,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il nuoto” in inglese?",["the gym", "to run", "swimming", "soccer/football"],2,"“Nuoto” si dice “swimming” in inglese."],
-      ["mcq","Come si dice “la squadra” in inglese?",["the gym", "to run", "the team", "swimming"],2,"“Squadra” si dice “team” in inglese."],
+      ["mcq","Come si dice “la natación” in italiano?",["il nuoto", "la palestra", "il calcio", "la squadra"],0,"“la natación” si dice “il nuoto” in italiano."],
+      ["mcq","Come si dice “el equipo” in italiano?",["il calcio", "la palestra", "la squadra", "il nuoto"],2,"“el equipo” si dice “la squadra” in italiano."],
       ["fill","Completa: “A me ___ piace correre la mattina.”",["ti", "mi", "gli", "io"],1,"„Piacere” usa pronomi indiretti: „a me mi piace”."],
       ["translate","Traduci: “She likes team sports.”",["A lei piacciono gli sport individuali.", "A lei piacciono lo sport di squadra.", "A lei piacciono gli sport di squadra.", "A lei piace gli sport di squadra."],2,"„Piacciono” concorda al plurale con „gli sport”, non con „lei”."],
       ["arrange","Ordina: [palestra / vado / esercizio / in / a / fare]",["esercizio fare a palestra in Vado", "in esercizio fare a palestra Vado", "in a palestra fare Vado esercizio", "Vado in palestra a fare esercizio"],3,"Verbo + preposizione + sostantivo + preposizione + infinito."],
@@ -2074,8 +2074,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “lavare i piatti” in inglese?",["to vacuum", "to iron the clothes", "to sweep", "to wash the dishes"],3,"“Lavare i piatti” si dice “to wash the dishes” in inglese."],
-      ["mcq","Come si dice “passare l'aspirapolvere” in inglese?",["to wash the dishes", "to take out the trash", "to vacuum", "to sweep"],2,"“Passare l'aspirapolvere” si dice “to vacuum” in inglese."],
+      ["mcq","Come si dice “fregar los platos” in italiano?",["lavare i piatti", "fare il letto", "stirare i vestiti", "passare l'aspirapolvere"],0,"“fregar los platos” si dice “lavare i piatti” in italiano."],
+      ["mcq","Come si dice “pasar la aspiradora” in italiano?",["lavare i piatti", "fare il letto", "passare l'aspirapolvere", "stirare i vestiti"],2,"“pasar la aspiradora” si dice “passare l'aspirapolvere” in italiano."],
       ["fill","Completa: “Prima di uscire di casa, ___ fare il letto.”",["bisogna", "sta", "deve", "è"],0,"„Bisogna” + infinito esprime un obbligo generale senza soggetto specifico."],
       ["translate","Traduci: “You have to take out the trash every day.”",["Bisogna portare fuori la spazzatura una volta a settimana.","Bisogna portando fuori la spazzatura ogni giorno.","Bisogna spazzare la spazzatura ogni giorno.","Bisogna portare fuori la spazzatura ogni giorno."],3,"“You have to” qui è impersonale nel senso generale, quindi si traduce meglio con „bisogna”."],
       ["arrange","Ordina: [piatti / lavare / bisogna / i]",["piatti Bisogna lavare i", "Bisogna lavare i piatti", "lavare Bisogna i piatti", "piatti i lavare Bisogna"],1,"„Bisogna” + infinito + complemento."],
@@ -2099,8 +2099,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “innamorarsi di qualcuno” in inglese?",["to miss someone", "to get engaged/commit", "the partner/couple", "to fall in love with someone"],3,"“Innamorarsi di qualcuno” si dice “to fall in love with someone” in inglese."],
-      ["mcq","Come si dice “sentire la mancanza di qualcuno” in inglese?",["to miss someone", "to fall in love with someone", "to break up with someone", "to go on a date"],0,"“Sentire la mancanza di qualcuno” si dice “to miss someone” in inglese."],
+      ["mcq","Come si dice “enamorarse de alguien” in italiano?",["avere un appuntamento", "lasciare qualcuno", "sentire la mancanza di qualcuno", "innamorarsi di qualcuno"],3,"“enamorarse de alguien” si dice “innamorarsi di qualcuno” in italiano."],
+      ["mcq","Come si dice “echar de menos a alguien” in italiano?",["avere un appuntamento", "innamorarsi di qualcuno", "sentire la mancanza di qualcuno", "lasciare qualcuno"],2,"“echar de menos a alguien” si dice “sentire la mancanza di qualcuno” in italiano."],
       ["fill","Completa: “Ti prometto che non ti ___ mai.”",["lasciavo", "lascio", "lascerò", "ho lasciato"],2,"Il futuro semplice „lascerò” esprime una promessa ferma su qualcosa che non accadrà."],
       ["translate","Traduci: “I think you two will get engaged soon.”",["Credo che vi innamorerete presto.", "Credo che vi fidanzerete presto.", "Credo che vi fidanzerete domani.", "Credo che vi fidanzate presto."],1,"“Will get engaged” = “vi fidanzerete”, futuro semplice per una previsione."],
       ["arrange","Ordina: [appuntamento / avrò / un / domani]",["Avrò appuntamento domani un", "domani Avrò un appuntamento", "Avrò domani appuntamento un", "Avrò un appuntamento domani"],3,"Futuro semplice + articolo + sostantivo + avverbio di tempo."],
@@ -2124,8 +2124,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “far salire gli affitti locali” in inglese?",["to drive up local housing costs", "to respect the local culture", "to overcrowd a tourist destination", "overtourism"],0,"“Far salire gli affitti locali” si dice “to drive up local housing costs” in inglese."],
-      ["mcq","Come si dice “distribuire l'impatto turistico” in inglese?",["sustainable tourism", "to overcrowd a tourist destination", "overtourism", "to spread out tourism's impact"],3,"“Distribuire l'impatto turistico” si dice “to spread out tourism's impact” in inglese."],
+      ["mcq","Come si dice “encarecer la vivienda local” in italiano?",["saturare una destinazione turistica", "rispettare la cultura locale", "distribuire l'impatto turistico", "far salire gli affitti locali"],3,"“encarecer la vivienda local” si dice “far salire gli affitti locali” in italiano."],
+      ["mcq","Come si dice “repartir el impacto del turismo” in italiano?",["rispettare la cultura locale", "saturare una destinazione turistica", "distribuire l'impatto turistico", "far salire gli affitti locali"],2,"“repartir el impacto del turismo” si dice “distribuire l'impatto turistico” in italiano."],
       ["fill","Completa: “La destinazione resterà satura a meno che il turismo non ___ regolato.”",["verrebbe", "verrà", "venga", "viene"],2,"„A meno che” richiede il congiuntivo: „a meno che... non venga regolato”."],
       ["translate","Traduci: “Tourism will be positive provided that the local culture is respected.”",["Il turismo sarà positivo purché si rispetti la cultura locale.", "Il turismo sarà positivo a meno che si rispetti la cultura locale.", "Il turismo sarà positivo purché si ignori la cultura locale.", "Il turismo sarà positivo purché si rispetta la cultura locale."],0,"“Provided that” = “purché”, seguito dal congiuntivo: „si rispetti”."],
       ["arrange","Ordina: [sature / destinazioni / molte / turistiche / sono]",["sono sature Molte destinazioni turistiche", "turistiche sature Molte sono destinazioni", "Molte destinazioni turistiche sono sature", "turistiche sature sono destinazioni Molte"],2,"Soggetto + verbo + aggettivo."],
@@ -2149,8 +2149,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un piatto emblematico” in inglese?",["culinary fusion", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],3,"“Un piatto emblematico” si dice “an iconic/signature dish” in inglese."],
-      ["mcq","Come si dice “appropriarsi di una tradizione culinaria” in inglese?",["to preserve a traditional recipe", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],2,"“Appropriarsi di una tradizione culinaria” si dice “to appropriate a culinary tradition” in inglese."],
+      ["mcq","Come si dice “un plato emblemático” in italiano?",["un piatto emblematico", "la fusione culinaria", "il palato collettivo", "la denominazione di origine protetta"],0,"“un plato emblemático” si dice “un piatto emblematico” in italiano."],
+      ["mcq","Come si dice “apropiarse de una tradición culinaria” in italiano?",["appropriarsi di una tradizione culinaria", "preservare una ricetta tradizionale", "la denominazione di origine protetta", "la fusione culinaria"],0,"“apropiarse de una tradición culinaria” si dice “appropriarsi di una tradizione culinaria” in italiano."],
       ["fill","Completa: “Ciò che ___ una cultura è, in gran parte, la sua gastronomia.”",["definire", "definisce", "definiscono", "definirebbe"],1,"La struttura enfatica „ciò che + verbo + è” porta il verbo al singolare, concordando con „ciò che”."],
       ["translate","Traduci con struttura enfatica: “What worries local chefs is the appropriation of their recipes.”",["Ciò che preoccupano gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali sono l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è la fusione delle loro ricette."],1,"Il verbo „preoccupa” concorda al singolare con „ciò che”, soggetto della frase enfatica."],
       ["arrange","Ordina: [ricetta / preservare / questa / dobbiamo / tradizionale]",["Dobbiamo preservare questa ricetta tradizionale", "questa ricetta tradizionale preservare Dobbiamo", "Dobbiamo ricetta preservare questa tradizionale", "ricetta questa Dobbiamo preservare tradizionale"],0,"Verbo modale + infinito + oggetto dimostrativo + sostantivo + aggettivo."],
@@ -2174,8 +2174,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un capro espiatorio” in inglese?",["to catastrophize a situation", "moral panic", "to blow a threat out of proportion", "a scapegoat"],3,"“Un capro espiatorio” si dice “a scapegoat” in inglese."],
-      ["mcq","Come si dice “sproporzionare una minaccia” in inglese?",["to blow a threat out of proportion", "a manufactured crisis", "to catastrophize a situation", "a scapegoat"],0,"“Sproporzionare una minaccia” si dice “to blow a threat out of proportion” in inglese."],
+      ["mcq","Come si dice “un chivo expiatorio” in italiano?",["il panico morale", "un discorso allarmista", "un capro espiatorio", "sproporzionare una minaccia"],2,"“un chivo expiatorio” si dice “un capro espiatorio” in italiano."],
+      ["mcq","Come si dice “exagerar desproporcionadamente una amenaza” in italiano?",["una crisi fabbricata", "catastrofizzare una situazione", "un discorso allarmista", "sproporzionare una minaccia"],3,"“exagerar desproporcionadamente una amenaza” si dice “sproporzionare una minaccia” in italiano."],
       ["fill","Completa: “Non solo si esagera la minaccia, ___ si cerca anche un capro espiatorio.”",["poiché", "però", "ma", "quindi"],2,"„Non solo... ma anche” intensifica un'affermazione aggiungendo un secondo elemento con verbo proprio."],
       ["translate","Traduci con precisione: “Alarmist rhetoric is becoming increasingly common in the media.”",["Il panico morale è sempre più frequente nei media.", "Il discorso allarmista è sempre meno frequente nei media.", "Il discorso allarmista è sempre più grave nei media.", "Il discorso allarmista è sempre più frequente nei media."],3,"“Increasingly common” = “sempre più frequente”, struttura di intensificazione graduale."],
       ["arrange","Ordina: [espiatorio / cercano / un / media / capro / i]",["I media cercano un capro espiatorio", "media capro un espiatorio I cercano", "cercano espiatorio media I capro un", "cercano capro un espiatorio media I"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
@@ -2199,8 +2199,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la matita” in inglese?",["the pencil", "the teacher", "the backpack", "math"],0,"“Matita” si dice “pencil” in inglese."],
-      ["mcq","Come si dice “la matematica” in inglese?",["the teacher", "history", "the backpack", "math"],3,"“Matematica” si dice “math” in inglese."],
+      ["mcq","Come si dice “el lápiz” in italiano?",["il quaderno", "la matita", "la storia", "la matematica"],1,"“el lápiz” si dice “la matita” in italiano."],
+      ["mcq","Come si dice “las matemáticas” in italiano?",["la matita", "lo zaino", "il quaderno", "la matematica"],3,"“las matemáticas” si dice “la matematica” in italiano."],
       ["fill","Completa: “Ho ___ zaino nuovo per la scuola.”",["un", "il", "uno", "lo"],2,"Si usa l'articolo indeterminativo “uno” perché è la prima volta che viene menzionato."],
       ["translate","Traduci: “The notebook is in the backpack.”",["Il quaderno è in classe.", "Un quaderno è nello zaino.", "Il quaderno è nello zaino.", "La matita è nello zaino."],2,"“The notebook” è già noto, quindi si usa l'articolo determinativo “il”."],
       ["arrange","Ordina: [storia / molto / mi / piace / la]",["piace molto storia la Mi", "Mi la piace molto storia", "storia la molto Mi piace", "Mi piace molto la storia"],3,"Pronome + verbo + avverbio + articolo determinativo + sostantivo."],
@@ -2224,8 +2224,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il francobollo” in inglese?",["the letter", "the stamp", "the mailbox", "the package"],1,"“Francobollo” si dice “stamp” in inglese."],
-      ["mcq","Come si dice “la cassetta della posta” in inglese?",["the address", "the stamp", "the mailbox", "the package"],2,"“Cassetta della posta” si dice “mailbox” in inglese."],
+      ["mcq","Come si dice “el sello” in italiano?",["il francobollo", "la lettera", "il pacco", "l'indirizzo"],0,"“el sello” si dice “il francobollo” in italiano."],
+      ["mcq","Come si dice “el buzón” in italiano?",["la cassetta della posta", "la lettera", "il francobollo", "il pacco"],0,"“el buzón” si dice “la cassetta della posta” in italiano."],
       ["fill","Completa: “Il pacco? ___ ho ricevuto stamattina.”",["La", "Lo", "Gli", "Li"],1,"“Il pacco” è maschile singolare, quindi si sostituisce con “lo”."],
       ["translate","Traduci: “The letters? I sent them yesterday.”",["I lettere? Le ho spedite ieri.", "Le lettere? L'ho spedite ieri.", "Le lettere? Li ho spedite ieri.", "Le lettere? Le ho spedite ieri."],3,"“Le lettere” è femminile plurale, quindi si sostituisce con “le”."],
       ["arrange","Ordina: [indirizzo / bisogno / del / tuo / ho]",["bisogno tuo indirizzo del Ho", "tuo indirizzo del bisogno Ho", "Ho bisogno del tuo indirizzo", "Ho bisogno del indirizzo tuo"],2,"Verbo + sostantivo + preposizione + oggetto possessivo + sostantivo."],
@@ -2249,8 +2249,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “la prima” in inglese?",["the ticket", "the premiere", "the cast", "the intermission"],1,"“Prima” si dice “premiere” in inglese."],
-      ["mcq","Come si dice “il cast” in inglese?",["the premiere", "special effects", "the cast", "the intermission"],2,"“Cast” si dice “cast” in inglese."],
+      ["mcq","Come si dice “el estreno” in italiano?",["la poltrona", "il cast", "la prima", "il biglietto"],2,"“el estreno” si dice “la prima” in italiano."],
+      ["mcq","Come si dice “el reparto” in italiano?",["la poltrona", "la prima", "il cast", "il biglietto"],2,"“el reparto” si dice “il cast” in italiano."],
       ["fill","Completa: “Arriviamo prima che ___ il film.”",["inizi", "iniziò", "inizierà", "inizia"],0,"„Prima che” richiede il congiuntivo perché l'azione non è ancora avvenuta: „prima che inizi”."],
       ["translate","Traduci: “We talk while we wait for the premiere.”",["Parliamo mentre aspettiamo la prima.", "Parliamo quando aspettiamo la prima.", "Parliamo mentre aspettiamo che inizi la prima.", "Parliamo mentre aspettiamo l'intervallo."],0,"„Mentre” + indicativo descrive azioni simultanee: „mentre aspettiamo”."],
       ["arrange","Ordina: [cinema / andiamo / spesso / al]",["Andiamo spesso al cinema", "spesso Andiamo cinema al", "Andiamo al spesso cinema", "al cinema Andiamo spesso"],0,"Soggetto + verbo + avverbio + preposizione + sostantivo."],
@@ -2274,8 +2274,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “sensibilizzare su qualcosa” in inglese?",["to raise awareness about something", "to mobilize people", "a protest", "to demand change"],0,"“Sensibilizzare su qualcosa” si dice “to raise awareness about something” in inglese."],
-      ["mcq","Come si dice “mobilitare le persone” in inglese?",["to mobilize people", "a collective/organization", "a protest", "to sign a petition"],0,"“Mobilitare le persone” si dice “to mobilize people” in inglese."],
+      ["mcq","Come si dice “concienciar sobre algo” in italiano?",["esigere un cambiamento", "firmare una petizione", "sensibilizzare su qualcosa", "mobilitare le persone"],2,"“concienciar sobre algo” si dice “sensibilizzare su qualcosa” in italiano."],
+      ["mcq","Come si dice “movilizar a la gente” in italiano?",["mobilitare le persone", "firmare una petizione", "sensibilizzare su qualcosa", "esigere un cambiamento"],0,"“movilizar a la gente” si dice “mobilitare le persone” in italiano."],
       ["fill","Completa: “I manifestanti esigono che il governo ___.”",["agirà", "agisca", "agisce", "agirebbe"],1,"„Esigere che” richiede il congiuntivo: „esigono che agisca”."],
       ["translate","Traduci: “The collective is asking people to sign the petition.”",["Il collettivo chiede che le persone firmino la petizione.", "Il collettivo esige che le persone firmino la petizione.", "Il collettivo chiede che le persone firmano la petizione.", "Il collettivo chiede che le persone firmino la manifestazione."],0,"„Chiedere che” richiede il congiuntivo: „chiede che firmino”."],
       ["arrange","Ordina: [petizione / vado / firmare / a / la]",["Vado a firmare la petizione", "firmare la a Vado petizione", "Vado la a petizione firmare", "firmare a petizione la Vado"],0,"„Andare a” + infinito + articolo + sostantivo."],
@@ -2299,8 +2299,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “il tasso di natalità” in inglese?",["to sustain the pension system", "the generational gap", "the birth rate", "life expectancy"],2,"“Tasso di natalità” si dice “birth rate” in inglese."],
-      ["mcq","Come si dice “sostenere il sistema pensionistico” in inglese?",["the pension system", "to sustain the pension system", "the generational gap", "life expectancy"],1,"“Sostenere il sistema pensionistico” si dice “to sustain the pension system” in inglese."],
+      ["mcq","Come si dice “la tasa de natalidad” in italiano?",["il sistema pensionistico", "il tasso di natalità", "l'invecchiamento della popolazione", "l'aspettativa di vita"],1,"“la tasa de natalidad” si dice “il tasso di natalità” in italiano."],
+      ["mcq","Come si dice “sostener el sistema de pensiones” in italiano?",["sostenere il sistema pensionistico", "il tasso di natalità", "il divario generazionale", "l'aspettativa di vita"],0,"“sostener el sistema de pensiones” si dice “sostenere il sistema pensionistico” in italiano."],
       ["fill","Completa: “La popolazione invecchia così rapidamente ___ il sistema pensionistico è a rischio.”",["così", "poiché", "come", "che"],3,"„Così + aggettivo/avverbio + che” introduce la conseguenza: „così rapidamente che è a rischio”."],
       ["translate","Traduci con frase consecutiva: “The birth rate has dropped in such a way that young workers are lacking.”",["La natalità è scesa in modo tale che mancano lavoratori giovani.", "L'aspettativa di vita è scesa in modo tale che mancano lavoratori giovani.", "La natalità è scesa così modo che mancano lavoratori giovani.", "La natalità è scesa in modo tale che avanzano lavoratori giovani."],0,"“In such a way that” = “in modo tale che”, introducendo la conseguenza."],
       ["arrange","Ordina: [pensionistico / preoccupa / il / sistema / molti]",["pensionistico preoccupa Il sistema molti", "Il sistema pensionistico preoccupa molti", "sistema pensionistico molti Il preoccupa", "pensionistico preoccupa molti Il sistema"],1,"Soggetto + verbo + complemento."],
@@ -2324,8 +2324,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un vuoto discorsivo” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],1,"“Un vuoto discorsivo” si dice “a discursive gap” in inglese."],
-      ["mcq","Come si dice “lasciare qualcosa in sospeso” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],2,"“Lasciare qualcosa in sospeso” si dice “to leave something hanging” in inglese."],
+      ["mcq","Come si dice “un vacío discursivo” in italiano?",["un vuoto discorsivo", "il silenzio eloquente", "il non detto", "l'ellissi retorica"],0,"“un vacío discursivo” si dice “un vuoto discorsivo” in italiano."],
+      ["mcq","Come si dice “dejar algo en el aire” in italiano?",["omettere deliberatamente qualcosa", "lasciare qualcosa in sospeso", "il non detto", "un vuoto discorsivo"],1,"“dejar algo en el aire” si dice “lasciare qualcosa in sospeso” in italiano."],
       ["fill","Completa: “Alcuni tacciono per paura; altri, per ___.”",["che complicità", "complicità", "tacciono complicità", "è complicità"],1,"L'ellissi omette il verbo ripetuto „tacciono”, lasciando solo il complemento: „altri, per complicità”."],
       ["translate","Traduci con ellissi retorica: “He promised reforms... and silence.”",["Ha promesso riforme... e rumore.", "Ha promesso riforme... e un silenzio.", "Ha promesso riforme... e silenzio.", "Ha promesso riforme... ed era silenzio."],2,"L'ellissi retorica omette il verbo atteso dopo i puntini di sospensione, lasciando solo „e silenzio”."],
       ["arrange","Ordina: [dice / a volte / più / il silenzio / delle parole]",["Il silenzio a volte dice più delle parole", "più Il a parole delle dice silenzio volte", "più a parole Il volte silenzio dice delle", "volte delle silenzio dice Il parole a più"],0,"Soggetto + avverbio + verbo + comparativo + complemento."],
@@ -2349,8 +2349,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “mezzanotte” in inglese?",["o'clock/sharp", "the morning", "the night", "midnight"],3,"“Mezzanotte” si dice “midnight” in inglese."],
-      ["mcq","Come si dice “in punto” in inglese?",["the morning", "midnight", "o'clock/sharp", "the afternoon"],2,"“In punto” si dice “o'clock” o “sharp” in inglese."],
+      ["mcq","Come si dice “la medianoche” in italiano?",["mezzanotte", "mezzogiorno", "in punto", "la notte"],0,"“la medianoche” si dice “mezzanotte” in italiano."],
+      ["mcq","Come si dice “en punto” in italiano?",["in punto", "mezzanotte", "mezzogiorno", "la notte"],0,"“en punto” si dice “in punto” in italiano."],
       ["fill","Completa: “___ le tre del pomeriggio.”",["È", "Sono", "Sta", "C'è"],1,"Si usa „sono” con i numeri plurali: „sono le tre”."],
       ["translate","Traduci: “It's one o'clock in the morning.”",["È le una di mattina.", "È l'una di mattina.", "È l'una di pomeriggio.", "Sono l'una di mattina."],1,"Con „l'una” (singolare) si usa „è”, non „sono”."],
       ["arrange","Ordina: [pomeriggio / le / sono / quattro / del]",["le Sono del quattro pomeriggio", "Sono le quattro del pomeriggio", "del Sono pomeriggio le quattro", "pomeriggio Sono le quattro del"],1,"Verbo + articolo + numero + preposizione + momento della giornata."],
@@ -2374,8 +2374,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “prelevare denaro” in inglese?",["to withdraw money", "to deposit money", "the debit card", "the bank account"],0,"“Prelevare denaro” si dice “to withdraw money” in inglese."],
-      ["mcq","Come si dice “il saldo” in inglese?",["the bank account", "the balance", "to deposit money", "the ATM"],1,"“Saldo” si dice “balance” in inglese."],
+      ["mcq","Come si dice “retirar dinero” in italiano?",["depositare denaro", "prelevare denaro", "il saldo", "il bancomat"],1,"“retirar dinero” si dice “prelevare denaro” in italiano."],
+      ["mcq","Come si dice “el saldo” in italiano?",["il bancomat", "il conto bancario", "il saldo", "la carta di debito"],2,"“el saldo” si dice “il saldo” in italiano."],
       ["fill","Completa: “___ aprire un conto qui, per favore?”",["Posso", "Puoi", "Può", "Possiamo"],0,"Si usa „posso” in prima persona per chiedere il permesso: „posso aprire”."],
       ["translate","Traduci: “You can withdraw money at any ATM.”",["Puoi depositare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi banca.", "Devi prelevare denaro da qualsiasi bancomat."],1,"“You can withdraw” = “puoi prelevare”, con „potere” + infinito."],
       ["arrange","Ordina: [saldo / consultare / il mio / voglio]",["Voglio consultare il mio saldo", "saldo il Voglio mio consultare", "consultare mio il saldo Voglio", "saldo consultare mio Voglio il"],0,"Verbo + infinito + oggetto possessivo + sostantivo."],
@@ -2399,8 +2399,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “fare scalo” in inglese?",["to miss the flight/train", "to cancel a flight", "to make a layover/stopover", "the platform"],2,"“Fare scalo” si dice “to make a layover” o “stopover” in inglese."],
-      ["mcq","Come si dice “il binario” in inglese?",["to cancel a flight", "the delay", "to miss the flight/train", "the platform"],3,"“Binario” si dice “platform” in inglese."],
+      ["mcq","Come si dice “hacer escala” in italiano?",["perdere il volo/treno", "fare scalo", "cancellare un volo", "il binario"],1,"“hacer escala” si dice “fare scalo” in italiano."],
+      ["mcq","Come si dice “el andén” in italiano?",["il ritardo", "il posto finestrino/corridoio", "il binario", "fare scalo"],2,"“el andén” si dice “il binario” in italiano."],
       ["fill","Completa: “Sebbene il treno ___ tardi, ho preso il volo.”",["arrivava", "è arrivato", "sia arrivato", "arriverà"],2,"„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale: „sebbene... sia arrivato”."],
       ["translate","Traduci: “Even if the flight is cancelled, we have another option.”",["Anche se il volo viene cancellato, abbiamo un'altra opzione.", "Sebbene il volo viene cancellato, abbiamo un'altra opzione.", "Anche se il volo venga cancellato, abbiamo un'altra opzione.", "Anche se il treno viene cancellato, abbiamo un'altra opzione."],0,"“Even if” = “anche se”, seguito dall'indicativo: „anche se il volo viene cancellato”."],
       ["arrange","Ordina: [finestrino / preferisco / il / posto / del]",["Preferisco il posto del finestrino", "del Preferisco finestrino posto il", "finestrino del posto Preferisco il", "del il finestrino posto Preferisco"],0,"Verbo + articolo + sostantivo + preposizione + complemento."],
@@ -2424,8 +2424,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “noleggiare invece di comprare” in inglese?",["conscious consumption", "the sharing economy", "to rent instead of buying", "to share resources"],2,"“Noleggiare invece di comprare” si dice “to rent instead of buying” in inglese."],
-      ["mcq","Come si dice “l'obsolescenza programmata” in inglese?",["conscious consumption", "planned obsolescence", "to rent instead of buying", "the sharing economy"],1,"“Obsolescenza programmata” si dice “planned obsolescence” in inglese."],
+      ["mcq","Come si dice “alquilar en vez de comprar” in italiano?",["ridurre lo spreco", "condividere risorse", "il consumo consapevole", "noleggiare invece di comprare"],3,"“alquilar en vez de comprar” si dice “noleggiare invece di comprare” in italiano."],
+      ["mcq","Come si dice “la obsolescencia programada” in italiano?",["l'obsolescenza programmata", "l'economia collaborativa", "il consumo consapevole", "condividere risorse"],0,"“la obsolescencia programada” si dice “l'obsolescenza programmata” in italiano."],
       ["fill","Completa: “Quel modello ___ circa cinque anni di obsolescenza programmata.”",["avrà", "ha", "avrebbe", "aveva"],0,"Il futuro di probabilità esprime una congettura sul presente: „avrà circa cinque anni”."],
       ["translate","Traduci con condizionale di probabilità: “With that consumption, they would spend fewer resources than they thought.”",["Con quel consumo, spenderebbero meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero più risorse di quanto pensassero.", "Con quel consumo, spenderanno meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero meno denaro di quanto pensassero."],0,"Il condizionale di probabilità „spenderebbero” esprime una congettura su una situazione ipotetica."],
       ["arrange","Ordina: [spreco / dobbiamo / lo / ridurre]",["lo ridurre Dobbiamo spreco", "lo spreco Dobbiamo ridurre", "Dobbiamo ridurre lo spreco", "ridurre spreco Dobbiamo lo"],2,"Verbo modale + infinito + articolo + sostantivo."],
@@ -2449,8 +2449,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un gesto frainteso” in inglese?",["awkward silence", "eye contact", "a misinterpreted gesture", "proxemics (personal space)"],2,"“Un gesto frainteso” si dice “a misinterpreted gesture” in inglese."],
-      ["mcq","Come si dice “la prossemica (distanza personale)” in inglese?",["eye contact", "proxemics (personal space)", "a cultural cue", "awkward silence"],1,"“Prossemica” si dice “proxemics” in inglese."],
+      ["mcq","Come si dice “un gesto malinterpretado” in italiano?",["un segnale culturale", "il contatto visivo", "il silenzio imbarazzante", "un gesto frainteso"],3,"“un gesto malinterpretado” si dice “un gesto frainteso” in italiano."],
+      ["mcq","Come si dice “la proxémica (espacio personal)” in italiano?",["la prossemica (distanza personale)", "il linguaggio del corpo", "un segnale culturale", "il contatto visivo"],0,"“la proxémica (espacio personal)” si dice “la prossemica (distanza personale)” in italiano."],
       ["fill","Completa: “Ha agito come se ___ il gesto, anche se non lo capiva.”",["capisce", "capiva", "capirà", "capisse"],3,"„Come se” richiede il congiuntivo imperfetto per un confronto al presente: „come se capisse”."],
       ["translate","Traduci: “She reacted as if she had been offended.”",["Ha reagito come se era stata offesa.", "Ha reagito come se fosse offesa.", "Ha reagito come se fosse stata invitata.", "Ha reagito come se fosse stata offesa."],3,"“As if she had been offended” si traduce con il congiuntivo trapassato: „come se fosse stata offesa”."],
       ["arrange","Ordina: [culture / varia / tra / il contatto visivo]",["tra varia culture contatto visivo Il", "contatto visivo tra culture Il varia", "Il contatto visivo varia tra culture", "contatto tra varia culture visivo Il"],2,"Soggetto + verbo + preposizione + complemento."],
@@ -2474,8 +2474,8 @@ window.LESSON_BANKS.IT = [
       ]
     },
     ex:[
-      ["mcq","Come si dice “un margine di errore” in inglese?",["an unconfirmed hypothesis", "to hedge/qualify a claim", "preliminary results", "a margin of error"],3,"“Un margine di errore” si dice “a margin of error” in inglese."],
-      ["mcq","Come si dice “un'ipotesi non confermata” in inglese?",["to hedge/qualify a claim", "an unconfirmed hypothesis", "preliminary results", "a margin of error"],1,"“Un'ipotesi non confermata” si dice “an unconfirmed hypothesis” in inglese."],
+      ["mcq","Come si dice “un margen de error” in italiano?",["un margine di errore", "i risultati preliminari", "l'incertezza statistica", "una correlazione non implica causalità"],0,"“un margen de error” si dice “un margine di errore” in italiano."],
+      ["mcq","Come si dice “una hipótesis no confirmada” in italiano?",["un'ipotesi non confermata", "attenuare un'affermazione", "una correlazione non implica causalità", "i risultati preliminari"],0,"“una hipótesis no confirmada” si dice “un'ipotesi non confermata” in italiano."],
       ["fill","Completa: “Si ___ dire che esiste una tendenza, anche se i dati sono preliminari.”",["deve", "può", "va", "potrebbe"],3,"„Si potrebbe dire che” è un'espressione fissa di attenuazione epistemica che ammorbidisce un'affermazione."],
       ["translate","Traduci con precisione: “The results suggest, but do not confirm, a causal relationship.”",["I risultati suggeriscono, confermando, un nesso causale.", "I risultati confermano, senza suggerire, un nesso causale.", "I risultati suggeriscono, senza confermare, un nesso causale.", "I risultati suggeriscono, senza confermare, una correlazione statistica."],2,"“Suggest, but do not confirm” si traduce con „suggeriscono, senza confermare”, attenuando la certezza."],
       ["arrange","Ordina: [implica / correlazione / non / causalità / una]",["Una correlazione non implica causalità", "correlazione implica causalità Una non", "implica correlazione non causalità Una", "implica correlazione Una non causalità"],0,"Articolo + sostantivo + avverbio + verbo + sostantivo."],
