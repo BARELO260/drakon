@@ -98,6 +98,22 @@ tarjeta de estudio de una lección ya desbloqueada o completada. Si agregas
 una lección nueva con `study`, su glosario se desbloqueará automáticamente
 en el momento correcto sin tocar el motor.
 
+## Idioma de las traducciones en `study.vocab`
+
+En los cursos ES/FR/DE/IT/PT, la segunda columna de `study.vocab` (la traducción que
+ve el alumno en la ficha "Estudiar") está en **español**, el idioma nativo del
+alumno — corregido en septiembre de 2026 (antes estaba mayoritariamente en inglés,
+~8.169 entradas traducidas; ver `REVISION_LECCIONES.md` en la raíz del repo para el
+detalle completo). Para contenido nuevo, sigue esta misma convención: columna 0 =
+palabra/frase en el idioma que se enseña, columna 1 = su traducción al español.
+
+Caso especial — **curso de español (ES)**: como el idioma que se enseña y el idioma
+nativo del alumno son el mismo, la columna 1 termina siendo casi idéntica a la
+columna 0 en el 71% de las entradas actuales (ej. `["ser", "ser (permanente)"]`).
+Antes de añadir vocabulario nuevo a este curso, decide qué debería mostrar realmente
+esa segunda columna (¿sinónimos? ¿registro formal/informal? ¿notas de uso?) en vez
+de asumir la misma convención que en los otros cinco cursos.
+
 ## Validar contenido nuevo
 
 Antes de dar por buena cualquier tanda de lecciones, ejecuta desde la raíz del repo:

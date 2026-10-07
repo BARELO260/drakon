@@ -9,11 +9,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a saludar y presentarte en portugués (Brasil).",
     study: {
       vocab: [
-        ["Bom dia / Boa noite", "Good morning / Good evening"],
-        ["Oi / Tchau", "Hi / Goodbye"],
-        ["Prazer!", "Nice to meet you!"],
-        ["Meu nome é...", "My name is..."],
-        ["Como você está?", "How are you?", "Respuesta: \"Estou bem, obrigado(a)\""]
+        ["Bom dia / Boa noite", "Buenos días / Buenas tardes"],
+        ["Oi / Tchau", "Hola / Adiós"],
+        ["Prazer!", "¡Encantado/a de conocerte!"],
+        ["Meu nome é...", "Me llamo..."],
+        ["Como você está?", "¿Cómo estás?", "Respuesta: \"Estou bem, obrigado(a)\""]
       ],
       grammar: [
         ["El verbo \"ser\" en portugués", "Eu sou, você/ele/ela é, nós somos, eles/elas são.", "Eu sou professor. Ela é do Brasil."]
@@ -33,10 +33,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende números del 1 al 20 y colores básicos en portugués.",
     study: {
       vocab: [
-        ["um, dois, três... vinte", "one, two, three... twenty"],
-        ["vermelho, azul, verde, amarelo", "red, blue, green, yellow"],
-        ["branco, preto", "white, black"],
-        ["Eu tenho ___ anos", "I am ___ years old", "Se usa el verbo \"ter\" (tener), no \"ser\"."]
+        ["um, dois, três... vinte", "uno, dos, tres... veinte"],
+        ["vermelho, azul, verde, amarelo", "rojo, azul, verde, amarillo"],
+        ["branco, preto", "blanco, negro"],
+        ["Eu tenho ___ anos", "Tengo ___ años", "Se usa el verbo \"ter\" (tener), no \"ser\"."]
       ],
       grammar: [
         ["Concordancia de género en los colores", "Los colores concuerdan en género y número con el sustantivo que describen.", "um carro vermelho / uma casa vermelha."]
@@ -56,9 +56,9 @@ window.LESSON_BANKS.PT = [
     description:"La diferencia entre \"ser\" y \"estar\" en portugués, igual que en español.",
     study: {
       vocab: [
-        ["ser", "to be (permanente)"],
-        ["estar", "to be (temporal)"],
-        ["cansado, contente, doente", "tired, happy, sick"]
+        ["ser", "ser (permanente)"],
+        ["estar", "estar (temporal)"],
+        ["cansado, contente, doente", "cansado, feliz, enfermo"]
       ],
       grammar: [
         ["Ser vs. Estar", "Igual que en español: \"ser\" para lo permanente, \"estar\" para lo temporal y la ubicación.", "Eu sou estudante. / Eu estou cansado hoje."]
@@ -78,11 +78,11 @@ window.LESSON_BANKS.PT = [
     description:"Vocabulario de familia y de la casa en portugués.",
     study: {
       vocab: [
-        ["pai, mãe", "father, mother"],
-        ["irmão, irmã", "brother, sister"],
-        ["filho, filha", "son, daughter"],
-        ["quarto, cozinha, sala", "bedroom, kitchen, living room"],
-        ["banheiro, jardim", "bathroom, garden"]
+        ["pai, mãe", "padre, madre"],
+        ["irmão, irmã", "hermano, hermana"],
+        ["filho, filha", "hijo, hija"],
+        ["quarto, cozinha, sala", "dormitorio, cocina, salón"],
+        ["banheiro, jardim", "baño, jardín"]
       ],
       grammar: [
         ["Adjetivos posesivos", "Meu/minha, teu/tua, seu/sua concuerdan en género con lo que poseen (no con el poseedor).", "Meu pai (masc.) / Minha mãe (fem.)."]
@@ -102,11 +102,11 @@ window.LESSON_BANKS.PT = [
     description:"Pide comida y desenvuélvete en un restaurante en portugués.",
     study: {
       vocab: [
-        ["o cardápio", "the menu"],
-        ["Eu gostaria de...", "I would like...", "Forma cortés de pedir."],
-        ["a conta, por favor", "the bill, please"],
-        ["a água, o pão", "water, bread"],
-        ["delicioso/a", "delicious"]
+        ["o cardápio", "el menú"],
+        ["Eu gostaria de...", "Me gustaría...", "Forma cortés de pedir."],
+        ["a conta, por favor", "la cuenta, por favor"],
+        ["a água, o pão", "agua, pan"],
+        ["delicioso/a", "delicioso"]
       ],
       grammar: [
         ["\"Eu gostaria\" para pedir con cortesía", "\"Eu gostaria de\" es más educado que \"eu quero\" al pedir algo.", "Eu gostaria de um café, por favor. (Más cortés que \"Eu quero um café\".)"]
@@ -126,11 +126,11 @@ window.LESSON_BANKS.PT = [
     description:"Habla sobre tu día: mañana, tarde y noche en portugués.",
     study: {
       vocab: [
-        ["acordar", "to wake up"],
-        ["levantar-se", "to get up"],
-        ["tomar café da manhã / almoçar / jantar", "to have breakfast/lunch/dinner"],
-        ["ir para o trabalho", "to go to work"],
-        ["todos os dias", "every day"]
+        ["acordar", "despertarse"],
+        ["levantar-se", "levantarse"],
+        ["tomar café da manhã / almoçar / jantar", "desayunar/almorzar/cenar"],
+        ["ir para o trabalho", "ir al trabajo"],
+        ["todos os dias", "todos los días"]
       ],
       grammar: [
         ["Verbos reflexivos en presente", "Verbos como \"levantar-se\" llevan un pronombre reflexivo (me, te, se) que cambia según la persona.", "Eu me levanto às 7h. / Ela se levanta cedo."]
@@ -150,12 +150,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a comprar ropa, preguntar precios y tallas en portugués.",
     study: {
       vocab: [
-        ["a camisa, a camiseta", "shirt, t-shirt"],
-        ["a calça, a saia", "pants, skirt"],
-        ["os sapatos", "shoes"],
-        ["Quanto custa?", "How much does it cost?"],
-        ["o tamanho", "size"],
-        ["experimentar (algo)", "to try on (something)"]
+        ["a camisa, a camiseta", "camisa, camiseta"],
+        ["a calça, a saia", "pantalón, falda"],
+        ["os sapatos", "zapatos"],
+        ["Quanto custa?", "¿Cuánto cuesta?"],
+        ["o tamanho", "la talla"],
+        ["experimentar (algo)", "probarse (algo)"]
       ],
       grammar: [
         ["Comparativo: mais/menos...do que", "Se usan para comparar dos cosas.", "Esta camisa é mais cara do que aquela."],
@@ -176,10 +176,10 @@ window.LESSON_BANKS.PT = [
     description:"Habla del clima y las estaciones del año en portugués.",
     study: {
       vocab: [
-        ["está calor / frio", "it's hot / cold"],
-        ["chove, neva", "it rains, it snows"],
-        ["o verão, o inverno, a primavera, o outono", "summer, winter, spring, autumn"],
-        ["está nublado / ensolarado", "it's cloudy / sunny"]
+        ["está calor / frio", "hace calor / frío"],
+        ["chove, neva", "llueve, nieva"],
+        ["o verão, o inverno, a primavera, o outono", "verano, invierno, primavera, otoño"],
+        ["está nublado / ensolarado", "está nublado / hace sol"]
       ],
       grammar: [
         ["Verbos impessoais do tempo", "\"Estar\", \"chover\" y \"nevar\" se usan en tercera persona sin sujeto explícito.", "Está muito calor hoje. Está chovendo."],
@@ -200,10 +200,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a hablar de acciones terminadas en el pasado con el pretérito perfeito.",
     study: {
       vocab: [
-        ["ontem, ontem à noite, semana passada", "yesterday, last night, last week"],
-        ["eu comi, você comeu, ele/ela comeu", "I ate, you ate, he/she ate"],
-        ["eu fui, você foi", "I went, you went"],
-        ["O que você fez?", "What did you do?"]
+        ["ontem, ontem à noite, semana passada", "ayer, anoche, la semana pasada"],
+        ["eu comi, você comeu, ele/ela comeu", "yo comí, tú comiste, él/ella comió"],
+        ["eu fui, você foi", "yo fui, tú fuiste"],
+        ["O que você fez?", "¿Qué hiciste?"]
       ],
       grammar: [
         ["Pretérito perfeito regular", "Terminações -ar: -ei, -ou. Terminações -er/-ir: -i, -eu/-iu.", "Falei com ela. Comi uma maçã."],
@@ -224,10 +224,10 @@ window.LESSON_BANKS.PT = [
     description:"Extrai informações práticas de avisos e mensagens do dia a dia.",
     study:{
       vocab:[
-        ["disponível mediante pedido","available on request"],
-        ["sujeito a alterações","subject to change"],
-        ["cumprir os requisitos","to be eligible"],
-        ["o prazo","deadline"]
+        ["disponível mediante pedido", "disponible a petición"],
+        ["sujeito a alterações", "sujeto a cambios"],
+        ["cumprir os requisitos", "cumplir los requisitos"],
+        ["o prazo", "el plazo límite"]
       ],
       grammar:[
         ["Leitura seletiva","Procure primeiro o propósito, a condição e a ação exigida.","As reservas só são confirmadas após o pagamento."]
@@ -245,10 +245,10 @@ window.LESSON_BANKS.PT = [
     description:"Distinga fatos, preferências e razões em conversas do dia a dia.",
     study:{
       vocab:[
-        ["eu preferiria","I would rather"],
-        ["acontece que","it turns out"],
-        ["vale a pena","it's worth it"],
-        ["desanimar alguém","to put someone off"]
+        ["eu preferiria", "preferiría"],
+        ["acontece que", "resulta que"],
+        ["vale a pena", "vale la pena"],
+        ["desanimar alguém", "desanimar a alguien"]
       ],
       grammar:[
         ["Opinião com justificativa","Uma resposta B1 deve incluir uma opinião e uma razão.","Eu preferiria viajar de trem porque posso trabalhar durante a viagem."]
@@ -266,10 +266,10 @@ window.LESSON_BANKS.PT = [
     description:"Narre experiências passadas combinando pretérito perfeito e imperfeito.",
     study:{
       vocab:[
-        ["no início","at first"],
-        ["por fim","eventually"],
-        ["inesperadamente","unexpectedly"],
-        ["perceber","to realise"]
+        ["no início", "al principio"],
+        ["por fim", "con el tiempo"],
+        ["inesperadamente", "inesperadamente"],
+        ["perceber", "darse cuenta"]
       ],
       grammar:[
         ["Pretérito perfeito vs. imperfeito","O imperfeito descreve o pano de fundo ou uma ação em curso; o pretérito perfeito narra ações concluídas.","Enquanto esperávamos o ônibus, começou a chover."]
@@ -287,10 +287,10 @@ window.LESSON_BANKS.PT = [
     description:"Proponha opções, responda a ideias alheias e negocie uma decisão.",
     study:{
       vocab:[
-        ["e se...?","shall we...?"],
-        ["entendo o seu ponto","I see your point"],
-        ["que tal...?","how about...?"],
-        ["um meio-termo","a compromise"]
+        ["e se...?", "¿qué tal si...?"],
+        ["entendo o seu ponto", "entiendo tu punto"],
+        ["que tal...?", "¿qué tal...?"],
+        ["um meio-termo", "un término medio"]
       ],
       grammar:[
         ["Linguagem colaborativa","Para negociar: propor, responder e buscar uma alternativa compartilhada.","Entendo o seu ponto sobre o custo; que tal escolher a opção mais barata?"]
@@ -308,10 +308,10 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre planos, intenções e previsões usando diferentes formas de futuro.",
     study:{
       vocab:[
-        ["pretendo","I intend to"],
-        ["em breve","soon"],
-        ["assim que eu puder","as soon as I can"],
-        ["é possível que","it's possible that"]
+        ["pretendo", "tengo la intención de"],
+        ["em breve", "pronto"],
+        ["assim que eu puder", "tan pronto como pueda"],
+        ["é possível que", "es posible que"]
       ],
       grammar:[
         ["Futuro com 'ir' vs. futuro simples","\"Ir + infinitivo\" expressa um plano já decidido; o futuro simples expressa previsão ou decisão espontânea.","Vou me mudar no mês que vem. / Acho que vai chover amanhã."]
@@ -329,10 +329,10 @@ window.LESSON_BANKS.PT = [
     description:"Formule reclamações e pedidos formais usando o condicional de cortesia.",
     study:{
       vocab:[
-        ["eu gostaria","I would like"],
-        ["poderia...?","could you...?"],
-        ["lamento informar","I regret to inform you"],
-        ["fazer uma reclamação","to file a complaint"]
+        ["eu gostaria", "me gustaría"],
+        ["poderia...?", "¿podrías...?"],
+        ["lamento informar", "lamento informarle"],
+        ["fazer uma reclamação", "presentar una queja"]
       ],
       grammar:[
         ["Condicional de cortesia","\"Gostaria\" e \"poderia\" suavizam pedidos e reclamações formais.","Eu gostaria de saber por que o pedido chegou atrasado."]
@@ -350,10 +350,10 @@ window.LESSON_BANKS.PT = [
     description:"Expresse hipóteses pouco prováveis ou irreais com se + pretérito imperfeito do subjuntivo.",
     study:{
       vocab:[
-        ["se eu tivesse","if I had"],
-        ["caso","in case"],
-        ["a menos que","unless"],
-        ["supondo que","assuming that"]
+        ["se eu tivesse", "si tuviera"],
+        ["caso", "por si acaso"],
+        ["a menos que", "a menos que"],
+        ["supondo que", "suponiendo que"]
       ],
       grammar:[
         ["Período hipotético (tipo 2)","Para hipóteses pouco prováveis no presente: se + pretérito imperfeito do subjuntivo, futuro do pretérito (condicional) na principal.","Se eu tivesse mais tempo, viajaria mais."]
@@ -371,10 +371,10 @@ window.LESSON_BANKS.PT = [
     description:"Relate o que outros disseram adaptando tempos verbais e marcadores temporais.",
     study:{
       vocab:[
-        ["disse que","he/she said that"],
-        ["explicou que","he/she explained that"],
-        ["perguntou se","he/she asked whether"],
-        ["acrescentou que","he/she added that"]
+        ["disse que", "él/ella dijo que"],
+        ["explicou que", "él/ella explicó que"],
+        ["perguntou se", "él/ella preguntó si"],
+        ["acrescentou que", "él/ella añadió que"]
       ],
       grammar:[
         ["Discurso indireto","No passado, o futuro vira futuro do pretérito (condicional) e o presente costuma virar imperfeito.","Ela disse: 'Vou chegar atrasada.' → Ela disse que chegaria atrasada."]
@@ -392,10 +392,10 @@ window.LESSON_BANKS.PT = [
     description:"Descreva processos e fatos sem enfatizar quem os realiza.",
     study:{
       vocab:[
-        ["ser + particípio","to be + past participle (passive)"],
-        ["se + verbo","impersonal/passive 'se' construction"],
-        ["ser levado a cabo","to be carried out"],
-        ["ser responsável por","to be in charge of"]
+        ["ser + particípio", "ser + participio (pasiva)"],
+        ["se + verbo", "construcción impersonal/pasiva con 'se'"],
+        ["ser levado a cabo", "llevarse a cabo"],
+        ["ser responsável por", "estar a cargo de"]
       ],
       grammar:[
         ["Voz passiva e passiva pronominal","A passiva com 'ser' destaca o agente; a passiva pronominal com 'se' é mais natural quando o agente não importa.","O projeto foi aprovado pelo comitê. / Aprovou-se o projeto."]
@@ -413,10 +413,10 @@ window.LESSON_BANKS.PT = [
     description:"Distinga quando usar o subjuntivo ou o indicativo conforme o grau de certeza.",
     study:{
       vocab:[
-        ["duvido que","I doubt that"],
-        ["não acho que","I don't think that"],
-        ["é provável que","it's likely that"],
-        ["pode ser que","it might be that"]
+        ["duvido que", "dudo que"],
+        ["não acho que", "no creo que"],
+        ["é provável que", "es probable que"],
+        ["pode ser que", "podría ser que"]
       ],
       grammar:[
         ["Subjuntivo com dúvida e probabilidade","Verbos e expressões de dúvida ou negação de certeza pedem o subjuntivo na oração subordinada.","Duvido que o projeto esteja pronto para sexta-feira."]
@@ -434,10 +434,10 @@ window.LESSON_BANKS.PT = [
     description:"Use 'embora' e outros conectores para matizar ideias e contrastar fatos.",
     study:{
       vocab:[
-        ["embora","although"],
-        ["apesar de","despite"],
-        ["no entanto","however"],
-        ["contudo","nevertheless"]
+        ["embora", "aunque"],
+        ["apesar de", "a pesar de"],
+        ["no entanto", "sin embargo"],
+        ["contudo", "sin embargo"]
       ],
       grammar:[
         ["Conectores de contraste","'Embora' exige subjuntivo, mesmo para um fato real e conhecido.","Embora tenha chovido, saímos para caminhar."]
@@ -455,10 +455,10 @@ window.LESSON_BANKS.PT = [
     description:"Construa argumentos que reconhecem o ponto contrário antes de defender uma posição.",
     study:{
       vocab:[
-        ["por um lado / por outro","on one hand / on the other hand"],
-        ["é inegável que","it's undeniable that"],
-        ["vale a pena notar que","it's worth noting that"],
-        ["em definitiva","ultimately"]
+        ["por um lado / por outro", "por un lado / por otro lado"],
+        ["é inegável que", "es innegable que"],
+        ["vale a pena notar que", "cabe destacar que"],
+        ["em definitiva", "en última instancia"]
       ],
       grammar:[
         ["Argumentação matizada","Um bom argumento B2 reconhece o ponto contrário antes de defender uma posição.","É inegável que o plano reduz custos, mas vale a pena notar que também traz riscos."]
@@ -476,10 +476,10 @@ window.LESSON_BANKS.PT = [
     description:"Use atenuação (hedging) para expressar afirmações prudentes em registro formal.",
     study:{
       vocab:[
-        ["conviria destacar que","it would be worth pointing out that"],
-        ["seria oportuno matizar que","it would be worth clarifying that"],
-        ["tender a pensar que","to be inclined to think that"],
-        ["de modo geral","broadly speaking"]
+        ["conviria destacar que", "convendría señalar que"],
+        ["seria oportuno matizar que", "convendría aclarar que"],
+        ["tender a pensar que", "tender a pensar que"],
+        ["de modo geral", "en términos generales"]
       ],
       grammar:[
         ["Atenuação (hedging) em registro formal","O futuro do pretérito (condicional) atenua afirmações e as torna mais prudentes e formais que o presente do indicativo.","Conviria argumentar que a medida é prematura, embora os dados ainda sejam limitados."]
@@ -497,10 +497,10 @@ window.LESSON_BANKS.PT = [
     description:"Expresse hipóteses irreais no passado com concordância temporal complexa.",
     study:{
       vocab:[
-        ["se eu tivesse sabido","if I had known"],
-        ["era impossível que","it was impossible that"],
-        ["teria bastado","it would have sufficed"],
-        ["só quando","it wasn't until that"]
+        ["se eu tivesse sabido", "si lo hubiera sabido"],
+        ["era impossível que", "era imposible que"],
+        ["teria bastado", "habría bastado"],
+        ["só quando", "no fue hasta que"]
       ],
       grammar:[
         ["Pretérito mais-que-perfeito do subjuntivo e concordância temporal","Para hipóteses irreais no passado: se + mais-que-perfeito do subjuntivo, futuro do pretérito composto na principal.","Se eu tivesse sabido o risco, teria agido de outra forma."]
@@ -518,10 +518,10 @@ window.LESSON_BANKS.PT = [
     description:"Transforme verbos em substantivos para alcançar um registro acadêmico e técnico.",
     study:{
       vocab:[
-        ["a implementação de","the implementation of"],
-        ["a ausência de","the absence of"],
-        ["dar origem a","to give rise to"],
-        ["acarretar","to entail"]
+        ["a implementação de", "la implementación de"],
+        ["a ausência de", "la ausencia de"],
+        ["dar origem a", "dar lugar a"],
+        ["acarretar", "conllevar"]
       ],
       grammar:[
         ["Nominalização para um registro formal","Transformar verbos em substantivos (implementar → a implementação) é típico de textos acadêmicos e técnicos.","A implementação tardia da medida deu origem a atrasos generalizados."]
@@ -539,10 +539,10 @@ window.LESSON_BANKS.PT = [
     description:"Encadeie causas e consequências com precisão usando conectores avançados.",
     study:{
       vocab:[
-        ["dado que","given that"],
-        ["na medida em que","insofar as"],
-        ["daí que","hence / which is why"],
-        ["sob pena de","under penalty of"]
+        ["dado que", "dado que"],
+        ["na medida em que", "en la medida en que"],
+        ["daí que", "por eso / razón por la cual"],
+        ["sob pena de", "bajo pena de"]
       ],
       grammar:[
         ["Conectores complexos de causa-consequência","'Daí que' introduz uma consequência lógica e pede subjuntivo; 'dado que' e 'na medida em que' introduzem causas com indicativo.","Dado que os custos aumentaram, daí que se revisasse o orçamento."]
@@ -560,10 +560,10 @@ window.LESSON_BANKS.PT = [
     description:"Resuma informações complexas conservando as relações lógicas entre as ideias.",
     study:{
       vocab:[
-        ["em síntese","in summary"],
-        ["o ponto central é que","the key point is that"],
-        ["convém destacar","it's worth highlighting"],
-        ["a grandes traços","broadly / roughly speaking"]
+        ["em síntese", "en resumen"],
+        ["o ponto central é que", "el punto clave es que"],
+        ["convém destacar", "cabe destacar"],
+        ["a grandes traços", "a grandes rasgos"]
       ],
       grammar:[
         ["Mediação: sintetizar com precisão","Um bom resumo C1 conserva a relação lógica entre as ideias (causa, contraste, condição), não apenas as palavras-chave.","A grandes traços, o relatório conclui que o plano é viável, embora convenha destacar os riscos de financiamento."]
@@ -581,10 +581,10 @@ window.LESSON_BANKS.PT = [
     description:"Reconheça argumentos contrários com força retórica antes de refutá-los com precisão.",
     study:{
       vocab:[
-        ["se é verdade que... não é menos certo que","while it's true that... it's no less true that"],
-        ["longe de","far from"],
-        ["isso não impede que","that doesn't prevent"],
-        ["em última instância","ultimately"]
+        ["se é verdade que... não é menos certo que", "si bien es cierto que... no es menos cierto que"],
+        ["longe de", "lejos de"],
+        ["isso não impede que", "eso no impide"],
+        ["em última instância", "en última instancia"]
       ],
       grammar:[
         ["Concessão avançada e refutação","Estas estruturas reconhecem um argumento contrário com força retórica antes de refutá-lo ou matizá-lo com precisão.","Se é verdade que o plano reduz custos, não é menos certo que introduz riscos consideráveis."]
@@ -602,10 +602,10 @@ window.LESSON_BANKS.PT = [
     description:"Interpreta o subtexto e reformula ideias complexas usando inversão enfática e litotes.",
     study:{
       vocab:[
-        ["de modo algum","by no means","Negação enfática que antecipa o verbo."],
-        ["ficar aquém de","to fall short of"],
-        ["um pressuposto tácito","a tacit assumption"],
-        ["matizar uma afirmação","to qualify a claim"]
+        ["de modo algum", "de ninguna manera","Negação enfática que antecipa o verbo."],
+        ["ficar aquém de", "quedarse corto respecto a"],
+        ["um pressuposto tácito", "un supuesto tácito"],
+        ["matizar uma afirmação", "matizar una afirmación"]
       ],
       grammar:[
         ["Inversão após negação enfática","Com expressões negativas enfáticas no início da frase ('de modo algum', 'em nenhuma circunstância', 'sob nenhum pretexto'), o verbo costuma anteceder o sujeito em registo culto.","De modo algum estes resultados deveriam ser considerados definitivos."],
@@ -625,10 +625,10 @@ window.LESSON_BANKS.PT = [
     description:"Escolhe recursos retóricos e ajusta o tom consoante a audiência, o propósito e o efeito pretendido.",
     study:{
       vocab:[
-        ["encontrar um equilíbrio","to strike a balance"],
-        ["uma pergunta retórica","a rhetorical question"],
-        ["evocar","to evoke"],
-        ["assumir responsabilidade de forma proporcional","to acknowledge responsibility proportionately"]
+        ["encontrar um equilíbrio", "encontrar un equilibrio"],
+        ["uma pergunta retórica", "una pregunta retórica"],
+        ["evocar", "evocar"],
+        ["assumir responsabilidade de forma proporcional", "reconocer la responsabilidad de forma proporcionada"]
       ],
       grammar:[
         ["Efeito estilístico e escolha lexical","A escolha de uma estrutura ou palavra pode criar proximidade, distância, urgência ou ironia, sem alterar o conteúdo literal.","Não é de todo infundado, ainda que certamente pudesse ser melhorado."],
@@ -648,10 +648,10 @@ window.LESSON_BANKS.PT = [
     description:"Interpreta pressuposições, linguagem carregada de valor e conclusões implícitas em textos de opinião.",
     study:{
       vocab:[
-        ["dar a entender","to imply"],
-        ["uma ressalva","a caveat"],
-        ["linguagem carregada","loaded language"],
-        ["tirar uma inferência","to draw an inference"]
+        ["dar a entender", "dar a entender"],
+        ["uma ressalva", "una salvedad"],
+        ["linguagem carregada", "lenguaje cargado (tendencioso)"],
+        ["tirar uma inferência", "sacar una inferencia"]
       ],
       grammar:[
         ["Pressuposição","Uma frase pode apresentar uma ideia como já aceite, sem a demonstrar explicitamente.","Até os críticos que restavam aceitaram o plano revisto."]
@@ -670,11 +670,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende os dias da semana, os meses e como falar de datas em português.",
     study: {
       vocab: [
-        ["segunda-feira, terça-feira, quarta-feira... domingo", "Monday, Tuesday, Wednesday... Sunday"],
-        ["janeiro, fevereiro, março... dezembro", "January, February, March... December"],
-        ["Que dia é hoje?", "What day is it today?"],
-        ["Hoje é dia 5 de maio.", "Today is May 5th.", "Em português: \"dia\" + número + \"de\" + mês."],
-        ["Quando é o teu aniversário?", "When is your birthday?"]
+        ["segunda-feira, terça-feira, quarta-feira... domingo", "lunes, martes, miércoles... domingo"],
+        ["janeiro, fevereiro, março... dezembro", "enero, febrero, marzo... diciembre"],
+        ["Que dia é hoje?", "¿Qué día es hoy?"],
+        ["Hoje é dia 5 de maio.", "Hoy es 5 de mayo.", "Em português: \"dia\" + número + \"de\" + mês."],
+        ["Quando é o teu aniversário?", "¿Cuándo es tu cumpleaños?"]
       ],
       grammar: [
         ["O artigo com os dias", "Os dias da semana usam \"a\" (feminino) para hábitos: \"às segundas-feiras\".", "Vou ao ginásio às segundas-feiras."]
@@ -694,11 +694,11 @@ window.LESSON_BANKS.PT = [
     description:"Pede e dá indicações, e fala sobre meios de transporte em português.",
     study: {
       vocab: [
-        ["Como chego a...?", "How do I get to...?"],
-        ["Siga em frente / Vire à esquerda / à direita", "Go straight ahead / Turn left / right"],
-        ["a paragem de autocarro, a estação de comboio", "the bus stop, the train station"],
-        ["Fica a dois quarteirões daqui.", "It's two blocks from here."],
-        ["Quanto tempo demora a chegar lá?", "How long does it take to get there?"]
+        ["Como chego a...?", "¿Cómo llego a...?"],
+        ["Siga em frente / Vire à esquerda / à direita", "Sigue recto / Gira a la izquierda / derecha"],
+        ["a paragem de autocarro, a estação de comboio", "la parada de autobús, la estación de tren"],
+        ["Fica a dois quarteirões daqui.", "Está a dos calles de aquí."],
+        ["Quanto tempo demora a chegar lá?", "¿Cuánto se tarda en llegar?"]
       ],
       grammar: [
         ["O imperativo para dar indicações", "Para dar instruções usa-se o imperativo (tu/você).", "Siga em frente e vire à direita no semáforo."]
@@ -718,11 +718,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre a tua experiência profissional e responde a perguntas de entrevista em português.",
     study: {
       vocab: [
-        ["O que fazes profissionalmente?", "What do you do for a living?"],
-        ["tenho experiência em...", "I have experience in..."],
-        ["os meus pontos fortes / fracos", "my strengths / weaknesses"],
-        ["trabalhar em equipa, cumprir prazos", "to work as a team, to meet deadlines"],
-        ["um contrato a tempo inteiro / parcial", "a full-time / part-time contract"]
+        ["O que fazes profissionalmente?", "¿A qué te dedicas?"],
+        ["tenho experiência em...", "Tengo experiencia en..."],
+        ["os meus pontos fortes / fracos", "mis fortalezas / debilidades"],
+        ["trabalhar em equipa, cumprir prazos", "trabajar en equipo, cumplir los plazos"],
+        ["um contrato a tempo inteiro / parcial", "un contrato a tiempo completo / parcial"]
       ],
       grammar: [
         ["Pretérito perfeito para experiência", "Usa-se o pretérito perfeito para falar de experiência profissional passada.", "Trabalhei no atendimento ao cliente durante três anos."],
@@ -743,11 +743,11 @@ window.LESSON_BANKS.PT = [
     description:"Distingue factos de opiniões e avalia a fiabilidade de uma notícia em português.",
     study: {
       vocab: [
-        ["uma fonte fiável / pouco fiável", "a reliable / unreliable source"],
-        ["segundo fontes próximas do caso", "according to sources close to the case"],
-        ["uma manchete sensacionalista", "a sensationalist headline"],
-        ["cruzar as informações", "to cross-check information"],
-        ["um facto verificado, uma opinião", "a verified fact, an opinion"]
+        ["uma fonte fiável / pouco fiável", "una fuente fiable / poco fiable"],
+        ["segundo fontes próximas do caso", "según fuentes cercanas al caso"],
+        ["uma manchete sensacionalista", "un titular sensacionalista"],
+        ["cruzar as informações", "contrastar información"],
+        ["um facto verificado, uma opinião", "un hecho verificado, una opinión"]
       ],
       grammar: [
         ["Verbos de atribuição", "\"Segundo\", \"afirma que\", \"aponta que\" indicam de onde vem uma afirmação e o seu grau de certeza.", "Segundo o relatório, as vendas aumentaram 10%."],
@@ -768,11 +768,11 @@ window.LESSON_BANKS.PT = [
     description:"Interpreta expressões idiomáticas e metáforas comuns em português.",
     study: {
       vocab: [
-        ["custar os olhos da cara", "to cost an arm and a leg"],
-        ["estar entre a espada e a parede", "to be between a rock and a hard place"],
-        ["fazer troça de alguém", "to pull someone's leg"],
-        ["não ter papas na língua", "to not mince words"],
-        ["mexer-se e desenrascar-se", "to get one's act together"]
+        ["custar os olhos da cara", "costar un ojo de la cara"],
+        ["estar entre a espada e a parede", "estar entre la espada y la pared"],
+        ["fazer troça de alguém", "tomarle el pelo a alguien"],
+        ["não ter papas na língua", "no andarse con rodeos"],
+        ["mexer-se e desenrascar-se", "organizarse de una vez"]
       ],
       grammar: [
         ["Interpretar expressões idiomáticas em contexto", "O significado de uma expressão idiomática quase nunca é literal; deve ser deduzido do contexto comunicativo.", "\"Esta viagem custou-me os olhos da cara\" não fala de olhos reais, mas de um gasto muito elevado."]
@@ -792,11 +792,11 @@ window.LESSON_BANKS.PT = [
     description:"Reconhece ironia, sarcasmo e ambiguidade intencional no português de nível avançado.",
     study: {
       vocab: [
-        ["Que sorte a minha!", "Just my luck! (irónico)"],
-        ["com as melhores intenções (irónico)", "with the best of intentions (ironic)"],
-        ["um duplo sentido", "a double meaning"],
-        ["dizer algo com tom sarcástico", "to say something with a sarcastic tone"],
-        ["minimizar deliberadamente algo", "to understate something"]
+        ["Que sorte a minha!", "¡Qué suerte la mía! (irónico)"],
+        ["com as melhores intenções (irónico)", "con la mejor intención (irónico)"],
+        ["um duplo sentido", "un doble sentido"],
+        ["dizer algo com tom sarcástico", "decir algo con tono sarcástico"],
+        ["minimizar deliberadamente algo", "quitarle importancia a algo"]
       ],
       grammar: [
         ["Marcadores de ironia", "A ironia costuma assinalar-se pelo contexto, pela entoação ou por um contraste evidente entre o que se diz e a realidade, não por palavras explícitas.", "\"Que pontual chegaste!\" dito a alguém que chegou uma hora atrasado é irónico pelo contraste."],
@@ -817,11 +817,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende o vocabulário das divisões, dos móveis e dos objetos de uma casa em português.",
     study: {
       vocab: [
-        ["a cozinha, a casa de banho, o quarto, a sala", "the kitchen, the bathroom, the bedroom, the living room"],
-        ["a cama, a mesa, a cadeira, o sofá", "the bed, the table, the chair, the sofa"],
-        ["Onde é a cozinha?", "Where is the kitchen?"],
-        ["A cama está no quarto.", "The bed is in the bedroom."],
-        ["em cima de, debaixo de, ao lado de", "on top of, under, next to"]
+        ["a cozinha, a casa de banho, o quarto, a sala", "la cocina, el baño, el dormitorio, el salón"],
+        ["a cama, a mesa, a cadeira, o sofá", "la cama, la mesa, la silla, el sofá"],
+        ["Onde é a cozinha?", "¿Dónde está la cocina?"],
+        ["A cama está no quarto.", "La cama está en el dormitorio."],
+        ["em cima de, debaixo de, ao lado de", "encima de, debajo de, al lado de"]
       ],
       grammar: [
         ["\"Há\" para situar objetos", "\"Há\" (invariável) indica o que existe num lugar, no singular e no plural.", "Há uma mesa na cozinha. Há duas cadeiras ao lado."]
@@ -841,11 +841,11 @@ window.LESSON_BANKS.PT = [
     description:"Descreve sintomas comuns e pede ajuda na farmácia ou ao médico em português.",
     study: {
       vocab: [
-        ["Dói-me a cabeça / a barriga / a garganta.", "My head / stomach / throat hurts."],
-        ["Tenho febre, tosse, náuseas.", "I have a fever, a cough, nausea."],
-        ["Tem alguma coisa para a dor de cabeça?", "Do you have something for a headache?"],
-        ["Tome um comprimido de oito em oito horas.", "Take one pill every eight hours."],
-        ["marcar consulta com o médico", "to make a doctor's appointment"]
+        ["Dói-me a cabeça / a barriga / a garganta.", "Me duele la cabeza / el estómago / la garganta."],
+        ["Tenho febre, tosse, náuseas.", "Tengo fiebre, tos, náuseas."],
+        ["Tem alguma coisa para a dor de cabeça?", "¿Tiene algo para el dolor de cabeza?"],
+        ["Tome um comprimido de oito em oito horas.", "Tome una pastilla cada ocho horas."],
+        ["marcar consulta com o médico", "pedir cita con el médico"]
       ],
       grammar: [
         ["\"Doer\" como \"gostar\"", "\"Doer\" funciona como \"gostar\": concorda com a parte do corpo, não com a pessoa.", "Dói-me a cabeça. / Doem-me os pés."]
@@ -865,11 +865,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre o uso da tecnologia e das redes sociais, as suas vantagens e riscos, em português.",
     study: {
       vocab: [
-        ["publicar, partilhar, comentar", "to post, to share, to comment"],
-        ["estar online / desligar-se", "to be online / to log off"],
-        ["a privacidade, os dados pessoais", "privacy, personal data"],
-        ["depender do telemóvel", "to be dependent on your phone"],
-        ["manter-se em contacto com", "to keep in touch with"]
+        ["publicar, partilhar, comentar", "publicar, compartir, comentar"],
+        ["estar online / desligar-se", "estar conectado / desconectarse"],
+        ["a privacidade, os dados pessoais", "privacidad, datos personales"],
+        ["depender do telemóvel", "depender del móvil"],
+        ["manter-se em contacto com", "mantener el contacto con"]
       ],
       grammar: [
         ["Comparar vantagens e desvantagens", "\"Por um lado... por outro\" e \"enquanto\" ajudam a comparar duas ideias.", "Por um lado as redes sociais ajudam a manter contacto; por outro, podem ocupar muito tempo."]
@@ -889,11 +889,11 @@ window.LESSON_BANKS.PT = [
     description:"Apresenta e pondera argumentos sobre dilemas éticos comuns em português.",
     study: {
       vocab: [
-        ["a favor de / contra", "in favor of / against"],
-        ["de um ponto de vista ético", "from an ethical point of view"],
-        ["o bem comum, o interesse individual", "the common good, individual interest"],
-        ["justificar uma decisão", "to justify a decision"],
-        ["não há uma resposta única", "there is no single answer"]
+        ["a favor de / contra", "a favor de / en contra de"],
+        ["de um ponto de vista ético", "desde un punto de vista ético"],
+        ["o bem comum, o interesse individual", "el bien común, el interés individual"],
+        ["justificar uma decisão", "justificar una decisión"],
+        ["não há uma resposta única", "no hay una única respuesta"]
       ],
       grammar: [
         ["Estruturar um argumento equilibrado", "Apresentar primeiro um argumento, depois o contrário, e fechar com uma posição matizada evita o enviesamento.", "Alguns argumentam que..., enquanto outros sustentam que... Na minha opinião, ambas as posições fazem sentido."]
@@ -913,11 +913,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a citar fontes, parafrasear ideias e evitar o plágio num registo académico em português.",
     study: {
       vocab: [
-        ["segundo (autor, ano)", "according to (author, year)"],
-        ["como aponta/sustenta o autor", "as the author points out/argues"],
-        ["parafrasear uma ideia", "to paraphrase an idea"],
-        ["citar textualmente", "to quote directly"],
-        ["o plágio, as fontes fiáveis", "plagiarism, reliable sources"]
+        ["segundo (autor, ano)", "según (autor, año)"],
+        ["como aponta/sustenta o autor", "como señala/argumenta el autor"],
+        ["parafrasear uma ideia", "parafrasear una idea"],
+        ["citar textualmente", "citar textualmente"],
+        ["o plágio, as fontes fiáveis", "el plagio, las fuentes fiables"]
       ],
       grammar: [
         ["Verbos para introduzir citações alheias", "\"Sustenta que\", \"afirma que\", \"aponta que\" variam o matiz: nem todos implicam o mesmo grau de certeza.", "O autor sustenta que a política foi um erro; outros investigadores, contudo, apontam nuances importantes."],
@@ -938,11 +938,11 @@ window.LESSON_BANKS.PT = [
     description:"Deteta falácias lógicas e estratégias de persuasão em argumentos de alto nível em português.",
     study: {
       vocab: [
-        ["o ataque pessoal (ad hominem)", "ad hominem attack"],
-        ["a falsa dicotomia", "false dichotomy"],
-        ["o declive escorregadio", "slippery slope"],
-        ["generalizar a partir de um único caso", "to generalize from a single case"],
-        ["apelar à emoção em vez dos factos", "to appeal to emotion instead of facts"]
+        ["o ataque pessoal (ad hominem)", "ataque ad hominem"],
+        ["a falsa dicotomia", "falsa dicotomía"],
+        ["o declive escorregadio", "pendiente resbaladiza (falacia)"],
+        ["generalizar a partir de um único caso", "generalizar a partir de un solo caso"],
+        ["apelar à emoção em vez dos factos", "apelar a la emoción en vez de a los hechos"]
       ],
       grammar: [
         ["Identificar falácias no discurso", "Uma falácia parece um argumento válido mas a sua estrutura lógica é defeituosa, embora soe persuasiva.", "\"Se permitirmos isto, em breve tudo estará fora de controlo\" é um declive escorregadio: assume uma cadeia de consequências sem provas."]
@@ -962,11 +962,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a expressar emoções e sentimentos básicos em português.",
     study: {
       vocab: [
-        ["estar feliz, triste, cansado, zangado", "to be happy, sad, tired, angry"],
-        ["Como te sentes?", "How do you feel?"],
-        ["Estou um pouco nervoso/a.", "I'm a bit nervous."],
-        ["ter medo, ter sono, ter fome", "to be afraid, to be sleepy, to be hungry"],
-        ["Porque estás triste?", "Why are you sad?"]
+        ["estar feliz, triste, cansado, zangado", "estar feliz, triste, cansado, enfadado"],
+        ["Como te sentes?", "¿Cómo te sientes?"],
+        ["Estou um pouco nervoso/a.", "Estoy un poco nervioso/a."],
+        ["ter medo, ter sono, ter fome", "tener miedo, tener sueño, tener hambre"],
+        ["Porque estás triste?", "¿Por qué estás triste?"]
       ],
       grammar: [
         ["\"Estar\" com emoções", "As emoções expressam-se com \"estar\" + adjetivo, por serem estados temporários.", "Estou feliz hoje. / Está cansada depois do trabalho."]
@@ -986,11 +986,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre os teus passatempos e os teus planos para o fim de semana em português.",
     study: {
       vocab: [
-        ["O que gostas de fazer nos teus tempos livres?", "What do you like to do in your free time?"],
-        ["pintar, tocar um instrumento, fazer caminhadas", "to paint, to play an instrument, to go hiking"],
-        ["Que planos tens para o fim de semana?", "What plans do you have for the weekend?"],
-        ["vou + infinitivo", "I'm going to + infinitive"],
-        ["encontrar-se com amigos", "to meet up with friends"]
+        ["O que gostas de fazer nos teus tempos livres?", "¿Qué te gusta hacer en tu tiempo libre?"],
+        ["pintar, tocar um instrumento, fazer caminhadas", "pintar, tocar un instrumento, hacer senderismo"],
+        ["Que planos tens para o fim de semana?", "¿Qué planes tienes para el fin de semana?"],
+        ["vou + infinitivo", "voy a + infinitivo"],
+        ["encontrar-se com amigos", "quedar con amigos"]
       ],
       grammar: [
         ["\"Ir\" + infinitivo para planos", "Usa-se \"ir\" + infinitivo para falar de planos futuros próximos.", "No sábado vou encontrar-me com amigos."]
@@ -1010,11 +1010,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre a proteção do ambiente e os hábitos sustentáveis em português.",
     study: {
       vocab: [
-        ["reciclar, reutilizar, reduzir o consumo", "to recycle, to reuse, to reduce consumption"],
-        ["as alterações climáticas, a pegada de carbono", "climate change, carbon footprint"],
-        ["os produtos de utilização única", "single-use products"],
-        ["poupar energia / água", "to save energy / water"],
-        ["tomar medidas para proteger o planeta", "to take steps to protect the planet"]
+        ["reciclar, reutilizar, reduzir o consumo", "reciclar, reutilizar, reducir el consumo"],
+        ["as alterações climáticas, a pegada de carbono", "el cambio climático, la huella de carbono"],
+        ["os produtos de utilização única", "los productos de un solo uso"],
+        ["poupar energia / água", "ahorrar energía / agua"],
+        ["tomar medidas para proteger o planeta", "tomar medidas para proteger el planeta"]
       ],
       grammar: [
         ["O futuro simples para consequências", "O futuro simples descreve consequências prováveis de ações atuais.", "Se não reduzirmos o plástico, a poluição aumentará."]
@@ -1034,11 +1034,11 @@ window.LESSON_BANKS.PT = [
     description:"Discute o impacto da inteligência artificial no trabalho, com argumentos matizados em português.",
     study: {
       vocab: [
-        ["automatizar tarefas repetitivas", "to automate repetitive tasks"],
-        ["substituir postos de trabalho", "to replace jobs"],
-        ["adaptar-se a novas ferramentas", "to adapt to new tools"],
-        ["gerar novas oportunidades de trabalho", "to generate new job opportunities"],
-        ["depende de como é implementada", "it depends on how it's implemented"]
+        ["automatizar tarefas repetitivas", "automatizar tareas repetitivas"],
+        ["substituir postos de trabalho", "reemplazar empleos"],
+        ["adaptar-se a novas ferramentas", "adaptarse a nuevas herramientas"],
+        ["gerar novas oportunidades de trabalho", "generar nuevas oportunidades laborales"],
+        ["depende de como é implementada", "depende de cómo se implemente"]
       ],
       grammar: [
         ["O futuro composto para especulação", "\"Terá\" + particípio especula sobre o que provavelmente terá acontecido até um certo momento futuro.", "Até 2030, a IA terá mudado muitos setores."]
@@ -1058,11 +1058,11 @@ window.LESSON_BANKS.PT = [
     description:"Analisa como a linguagem publicitária usa a conotação e as técnicas de persuasão.",
     study: {
       vocab: [
-        ["uma conotação positiva / negativa", "a positive / negative connotation"],
-        ["apelar ao desejo de pertença", "to appeal to the desire to belong"],
-        ["um slogan cativante", "a catchy slogan"],
-        ["criar uma sensação de urgência", "to create a sense of urgency"],
-        ["o público-alvo", "the target audience"]
+        ["uma conotação positiva / negativa", "una connotación positiva / negativa"],
+        ["apelar ao desejo de pertença", "apelar al deseo de pertenencia"],
+        ["um slogan cativante", "un eslogan pegadizo"],
+        ["criar uma sensação de urgência", "crear una sensación de urgencia"],
+        ["o público-alvo", "el público objetivo"]
       ],
       grammar: [
         ["Conotação face a denotação", "A denotação é o significado literal de uma palavra; a conotação é a carga emocional ou cultural associada.", "\"Casa\" (denotação: edifício) face a \"lar\" (conotação: calor, pertença)."]
@@ -1082,11 +1082,11 @@ window.LESSON_BANKS.PT = [
     description:"Analisa a ambiguidade estratégica e o eufemismo no discurso político de alto nível em português.",
     study: {
       vocab: [
-        ["um eufemismo", "a euphemism"],
-        ["a ambiguidade estratégica", "strategic ambiguity"],
-        ["evitar uma pergunta direta", "to dodge a direct question"],
-        ["um ajuste orçamental (eufemismo para corte)", "a budget adjustment (euphemism for a cut)"],
-        ["comprometer-se sem se comprometer totalmente", "to commit without fully committing"]
+        ["um eufemismo", "un eufemismo"],
+        ["a ambiguidade estratégica", "ambigüedad estratégica"],
+        ["evitar uma pergunta direta", "esquivar una pregunta directa"],
+        ["um ajuste orçamental (eufemismo para corte)", "un ajuste presupuestario (eufemismo de recorte)"],
+        ["comprometer-se sem se comprometer totalmente", "comprometerse sin comprometerse del todo"]
       ],
       grammar: [
         ["Reconhecer o eufemismo político", "Um eufemismo substitui uma expressão direta por outra mais suave, muitas vezes para suavizar uma realidade incómoda.", "\"Ajuste orçamental\" soa mais neutro do que \"corte de despesas\", embora descreva a mesma coisa."],
@@ -1107,11 +1107,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a falar de preços, dinheiro e números ordinais em português.",
     study: {
       vocab: [
-        ["primeiro, segundo, terceiro...", "first, second, third..."],
-        ["Quanto custa isto?", "How much does this cost?"],
-        ["Custa dez euros.", "It costs ten euros."],
-        ["barato, caro", "cheap, expensive"],
-        ["pagar em dinheiro / com cartão", "to pay in cash / by card"]
+        ["primeiro, segundo, terceiro...", "primero, segundo, tercero..."],
+        ["Quanto custa isto?", "¿Cuánto cuesta esto?"],
+        ["Custa dez euros.", "Cuesta diez euros."],
+        ["barato, caro", "barato, caro"],
+        ["pagar em dinheiro / com cartão", "pagar en efectivo / con tarjeta"]
       ],
       grammar: [
         ["\"Custa / Custam\" para preços", "\"Custa\" (singular) e \"custam\" (plural) concordam com o que se compra.", "O livro custa dez euros. Os livros custam vinte euros."]
@@ -1131,11 +1131,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a pedir comida, fazer perguntas ao empregado e pagar a conta num restaurante.",
     study: {
       vocab: [
-        ["Gostava de pedir...", "I would like to order..."],
-        ["O que me recomenda?", "What do you recommend?"],
-        ["Pode trazer a conta, por favor?", "Could you bring me the bill, please?"],
-        ["O serviço está incluído?", "Is the tip included?"],
-        ["Para mim, o prato do dia.", "For me, the set menu."]
+        ["Gostava de pedir...", "Quisiera pedir..."],
+        ["O que me recomenda?", "¿Qué recomiendas?"],
+        ["Pode trazer a conta, por favor?", "¿Podría traerme la cuenta, por favor?"],
+        ["O serviço está incluído?", "¿Está incluida la propina?"],
+        ["Para mim, o prato do dia.", "Para mí, el menú del día."]
       ],
       grammar: [
         ["\"Gostava de\" para pedir com cortesia", "\"Gostava de\" (condicional de \"gostar\") é mais formal e cortês do que \"quero\" ao pedir algo.", "Gostava de pedir a sopa e o frango, por favor."]
@@ -1155,11 +1155,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre contas bancárias, poupança e orçamento pessoal em português.",
     study: {
       vocab: [
-        ["abrir uma conta bancária", "to open a bank account"],
-        ["fazer um orçamento mensal", "to make a monthly budget"],
-        ["poupar para um objetivo", "to save up for a goal"],
-        ["as despesas fixas e as despesas variáveis", "fixed expenses and variable expenses"],
-        ["pedir um empréstimo, pagar em prestações", "to take out a loan, to pay in installments"]
+        ["abrir uma conta bancária", "abrir una cuenta bancaria"],
+        ["fazer um orçamento mensal", "hacer un presupuesto mensual"],
+        ["poupar para um objetivo", "ahorrar para una meta"],
+        ["as despesas fixas e as despesas variáveis", "gastos fijos y gastos variables"],
+        ["pedir um empréstimo, pagar em prestações", "pedir un préstamo, pagar a plazos"]
       ],
       grammar: [
         ["O condicional para conselhos financeiros", "\"Devias\" + infinitivo dá um conselho sem soar demasiado direto.", "Devias poupar pelo menos 10% do teu salário todos os meses."]
@@ -1179,11 +1179,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre o bem-estar emocional e a saúde mental com um vocabulário mais matizado em português.",
     study: {
       vocab: [
-        ["sentir-se sobrecarregado/a", "to feel overwhelmed"],
-        ["estabelecer limites, cuidar de si próprio", "to set boundaries, to take care of yourself"],
-        ["o esgotamento (burnout)", "burnout"],
-        ["pedir ajuda não é sinal de fraqueza", "asking for help is not a sign of weakness"],
-        ["processar as emoções", "to process one's emotions"]
+        ["sentir-se sobrecarregado/a", "sentirse abrumado/a"],
+        ["estabelecer limites, cuidar de si próprio", "poner límites, cuidarse"],
+        ["o esgotamento (burnout)", "el agotamiento (burnout)"],
+        ["pedir ajuda não é sinal de fraqueza", "pedir ayuda no es señal de debilidad"],
+        ["processar as emoções", "procesar las propias emociones"]
       ],
       grammar: [
         ["O conjuntivo com expressões de recomendação", "\"É importante que\" + conjuntivo recomenda uma ação relacionada com o bem-estar.", "É importante que fales do que sentes com alguém de confiança."]
@@ -1203,11 +1203,11 @@ window.LESSON_BANKS.PT = [
     description:"Compreende o vocabulário e as estruturas básicas da linguagem jurídica em contratos.",
     study: {
       vocab: [
-        ["as partes contratantes", "the contracting parties"],
-        ["uma cláusula, um anexo", "a clause, an appendix"],
-        ["rescindir um contrato", "to terminate a contract"],
-        ["estar sujeito aos termos e condições", "to be subject to the terms and conditions"],
-        ["em caso de incumprimento", "in the event of a breach"]
+        ["as partes contratantes", "las partes contratantes"],
+        ["uma cláusula, um anexo", "una cláusula, un anexo"],
+        ["rescindir um contrato", "rescindir un contrato"],
+        ["estar sujeito aos termos e condições", "estar sujeto a los términos y condiciones"],
+        ["em caso de incumprimento", "en caso de incumplimiento"]
       ],
       grammar: [
         ["A linguagem formal impessoal em contratos", "Os contratos usam estruturas impessoais e passivas para soar objetivos e evitar ambiguidade sobre quem age.", "O presente contrato poderá ser rescindido por qualquer uma das partes mediante um pré-aviso de 30 dias."],
@@ -1228,11 +1228,11 @@ window.LESSON_BANKS.PT = [
     description:"Analisa a voz narrativa, o estilo e as decisões formais de um texto literário em português.",
     study: {
       vocab: [
-        ["a voz narrativa", "the narrative voice"],
-        ["um narrador fiável / pouco fiável", "a reliable / unreliable narrator"],
-        ["o ponto de vista (primeira, terceira pessoa)", "point of view (first, third person)"],
-        ["o tom e o registo de um texto", "the tone and register of a text"],
-        ["uma técnica narrativa (flashback, elipse)", "a narrative technique (flashback, ellipsis)"]
+        ["a voz narrativa", "la voz narrativa"],
+        ["um narrador fiável / pouco fiável", "un narrador fiable / poco fiable"],
+        ["o ponto de vista (primeira, terceira pessoa)", "el punto de vista (primera, tercera persona)"],
+        ["o tom e o registo de um texto", "el tono y el registro de un texto"],
+        ["uma técnica narrativa (flashback, elipse)", "una técnica narrativa (flashback, elipsis)"]
       ],
       grammar: [
         ["Analisar decisões formais do autor", "A análise literária avançada liga uma escolha formal (ponto de vista, tempo verbal) ao seu efeito no leitor.", "O uso da primeira pessoa gera proximidade, mas também limita a perspetiva ao que o narrador pode saber ou perceber."]
@@ -1252,11 +1252,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende o vocabulário básico das profissões e a falar do teu trabalho em português.",
     study: {
       vocab: [
-        ["médico/a, professor/a, engenheiro/a, empregado/a de mesa", "doctor, teacher, engineer, waiter/waitress"],
-        ["O que fazes na vida?", "What do you do for a living?"],
-        ["Sou estudante / Trabalho num escritório.", "I'm a student / I work in an office."],
-        ["Onde trabalhas?", "Where do you work?"],
-        ["trabalhar como + profissão", "to work as + profession"]
+        ["médico/a, professor/a, engenheiro/a, empregado/a de mesa", "médico, profesor, ingeniero, camarero/a"],
+        ["O que fazes na vida?", "¿A qué te dedicas?"],
+        ["Sou estudante / Trabalho num escritório.", "Soy estudiante / Trabajo en una oficina."],
+        ["Onde trabalhas?", "¿Dónde trabajas?"],
+        ["trabalhar como + profissão", "trabajar de + profesión"]
       ],
       grammar: [
         ["\"Ser\" com profissões (sem artigo)", "Com profissões, \"ser\" não leva artigo indefinido, ao contrário do inglês.", "Sou professor. (não \"Sou um professor\")"]
@@ -1276,11 +1276,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a descrever o aspeto físico e a personalidade de outras pessoas em português.",
     study: {
       vocab: [
-        ["alto/a, baixo/a, magro/a", "tall, short, slim"],
-        ["tem o cabelo comprido/curto, usa óculos", "has long/short hair, wears glasses"],
-        ["é simpático/a, tímido/a, divertido/a", "is nice, shy, funny"],
-        ["parece-se com a mãe/o pai", "looks like his/her mother/father"],
-        ["Como é o teu melhor amigo / a tua melhor amiga?", "What is your best friend like?"]
+        ["alto/a, baixo/a, magro/a", "alto, bajo, delgado"],
+        ["tem o cabelo comprido/curto, usa óculos", "tiene el pelo largo/corto, lleva gafas"],
+        ["é simpático/a, tímido/a, divertido/a", "es simpático, tímido, gracioso"],
+        ["parece-se com a mãe/o pai", "se parece a su madre/padre"],
+        ["Como é o teu melhor amigo / a tua melhor amiga?", "¿Cómo es tu mejor amigo/a?"]
       ],
       grammar: [
         ["\"Ser\" para características, \"ter\" e \"usar\" para traços físicos", "\"Ser\" descreve personalidade e traços estáveis; \"ter\" e \"usar\" descrevem partes do corpo ou acessórios.", "É muito simpática, tem o cabelo comprido e usa óculos."]
@@ -1300,11 +1300,11 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre sistemas educativos, métodos de estudo e experiências escolares em português.",
     study: {
       vocab: [
-        ["a educação obrigatória / superior", "compulsory / higher education"],
-        ["passar/chumbar num exame", "to pass/fail an exam"],
-        ["memorizar face a compreender", "to memorize versus to understand"],
-        ["um plano de estudos, uma disciplina", "a curriculum, a school subject"],
-        ["aprender ao teu próprio ritmo", "to learn at your own pace"]
+        ["a educação obrigatória / superior", "la educación obligatoria / superior"],
+        ["passar/chumbar num exame", "aprobar/suspender un examen"],
+        ["memorizar face a compreender", "memorizar frente a comprender"],
+        ["um plano de estudos, uma disciplina", "un plan de estudios, una asignatura"],
+        ["aprender ao teu próprio ritmo", "aprender a tu propio ritmo"]
       ],
       grammar: [
         ["Comparativos para comparar sistemas", "\"Mais... do que\", \"menos... do que\" e \"tão... como\" servem para comparar métodos ou sistemas educativos.", "Este sistema é mais prático do que o tradicional, embora não seja tão estruturado como aquele."]
@@ -1324,11 +1324,11 @@ window.LESSON_BANKS.PT = [
     description:"Discute propostas de urbanismo e mobilidade sustentável nas cidades, com argumentos matizados em português.",
     study: {
       vocab: [
-        ["os transportes públicos, a ciclovia", "public transport, the bike lane"],
-        ["pedonalizar o centro da cidade", "to pedestrianize the city center"],
-        ["reduzir o trânsito e a poluição", "to reduce traffic and pollution"],
-        ["um espaço verde, uma zona pedonal", "a green space, a pedestrian zone"],
-        ["investir em infraestrutura sustentável", "to invest in sustainable infrastructure"]
+        ["os transportes públicos, a ciclovia", "el transporte público, el carril bici"],
+        ["pedonalizar o centro da cidade", "peatonalizar el centro de la ciudad"],
+        ["reduzir o trânsito e a poluição", "reducir el tráfico y la contaminación"],
+        ["um espaço verde, uma zona pedonal", "un espacio verde, una zona peatonal"],
+        ["investir em infraestrutura sustentável", "invertir en infraestructura sostenible"]
       ],
       grammar: [
         ["O conjuntivo com expressões de dúvida ou opinião", "\"Não acho que\" e \"é possível que\" exigem conjuntivo ao expressar dúvida ou opinião sobre propostas urbanas.", "Não acho que pedonalizar todo o centro seja a única solução possível."]
@@ -1348,11 +1348,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a comunicar informação científica complexa de forma clara e precisa em português, sem perder rigor.",
     study: {
       vocab: [
-        ["simplificar sem distorcer", "to simplify without distorting"],
-        ["um resultado preliminar face a um confirmado", "a preliminary finding versus a confirmed one"],
-        ["a evidência científica sugere que...", "scientific evidence suggests that..."],
-        ["uma analogia útil para explicar algo complexo", "a useful analogy to explain something complex"],
-        ["evitar o sensacionalismo científico", "to avoid scientific sensationalism"]
+        ["simplificar sem distorcer", "simplificar sin distorsionar"],
+        ["um resultado preliminar face a um confirmado", "un hallazgo preliminar frente a uno confirmado"],
+        ["a evidência científica sugere que...", "la evidencia científica sugiere que..."],
+        ["uma analogia útil para explicar algo complexo", "una analogía útil para explicar algo complejo"],
+        ["evitar o sensacionalismo científico", "evitar el sensacionalismo científico"]
       ],
       grammar: [
         ["Verbos matizados para comunicar incerteza científica", "\"Sugere\", \"indica\", \"poderia explicar\" transmitem diferentes graus de certeza científica, mais precisos do que \"prova\" ou \"demonstra\".", "O estudo sugere uma possível relação, mas não demonstra causalidade."]
@@ -1372,11 +1372,11 @@ window.LESSON_BANKS.PT = [
     description:"Analisa os atos de fala e a pragmática em português: a diferença entre o que se diz e o que se faz ao dizê-lo.",
     study: {
       vocab: [
-        ["um ato de fala (pedido, promessa, ordem)", "a speech act (request, promise, order)"],
-        ["o significado literal face ao significado pretendido", "literal meaning versus intended meaning"],
-        ["um ato de fala indireto", "an indirect speech act"],
-        ["as condições de felicidade de um ato de fala", "the felicity conditions of a speech act"],
-        ["implicar algo sem o dizer explicitamente", "to imply something without saying it explicitly"]
+        ["um ato de fala (pedido, promessa, ordem)", "un acto de habla (petición, promesa, orden)"],
+        ["o significado literal face ao significado pretendido", "el significado literal frente al significado pretendido"],
+        ["um ato de fala indireto", "un acto de habla indirecto"],
+        ["as condições de felicidade de um ato de fala", "las condiciones de adecuación de un acto de habla"],
+        ["implicar algo sem o dizer explicitamente", "insinuar algo sin decirlo explícitamente"]
       ],
       grammar: [
         ["Atos de fala diretos face a indiretos", "Um ato de fala indireto usa uma forma gramatical (como uma pergunta) para desempenhar outra função (como um pedido).", "\"Podias fechar a janela?\" tem forma de pergunta, mas a sua função real é um pedido, não perguntar sobre capacidade."]
@@ -1396,13 +1396,13 @@ window.LESSON_BANKS.PT = [
     description:"Aprende o vocabulário de animais comuns e da natureza em português.",
     study: {
       vocab: [
-        ["o cão", "the dog"],
-        ["o gato", "the cat"],
-        ["o pássaro", "the bird"],
-        ["o cavalo", "the horse"],
-        ["o peixe", "the fish"],
-        ["a vaca", "the cow"],
-        ["a floresta, a montanha, o rio", "the forest, the mountain, the river"],
+        ["o cão", "el perro"],
+        ["o gato", "el gato"],
+        ["o pássaro", "el pájaro"],
+        ["o cavalo", "el caballo"],
+        ["o peixe", "el pez"],
+        ["a vaca", "la vaca"],
+        ["a floresta, a montanha, o rio", "el bosque, la montaña, el río"],
       ],
       grammar: [
         ["Género dos animais", "Muitos nomes de animais mudam de forma consoante o género, mas outros são invariáveis.", "O gato é branco. / A gata é branca. / O peixe é pequeno (invariável)."],
@@ -1422,12 +1422,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende as partes do corpo e a descrever dores ou características físicas em português.",
     study: {
       vocab: [
-        ["a cabeça", "the head"],
-        ["o braço", "the arm"],
-        ["a perna", "the leg"],
-        ["a mão", "the hand"],
-        ["o pé", "the foot"],
-        ["as costas", "the back"],
+        ["a cabeça", "la cabeza"],
+        ["o braço", "el brazo"],
+        ["a perna", "la pierna"],
+        ["a mão", "la mano"],
+        ["o pé", "el pie"],
+        ["as costas", "la espalda"],
       ],
       grammar: [
         ["Artigo definido com partes do corpo", "Com partes do corpo usa-se o artigo definido, não o possessivo, quando é claro de quem se fala.", "Dói-me a cabeça. (não “Dói-me a minha cabeça”)"],
@@ -1447,12 +1447,12 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre desportos, rotinas de exercício e hábitos de atividade física em português.",
     study: {
       vocab: [
-        ["o futebol", "soccer/football"],
-        ["a natação", "swimming"],
-        ["o ténis", "tennis"],
-        ["correr", "to run"],
-        ["levantar pesos", "to lift weights"],
-        ["fazer ioga", "to do yoga"],
+        ["o futebol", "el fútbol"],
+        ["a natação", "la natación"],
+        ["o ténis", "el tenis"],
+        ["correr", "correr"],
+        ["levantar pesos", "levantar pesas"],
+        ["fazer ioga", "hacer yoga"],
       ],
       grammar: [
         ["“Costumar” + infinitivo para hábitos", "“Costumar” expressa uma ação habitual.", "Costumo correr três vezes por semana."],
@@ -1472,12 +1472,12 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre dispositivos inteligentes e domótica, com opiniões matizadas em português.",
     study: {
       vocab: [
-        ["uma coluna inteligente", "a smart speaker"],
-        ["um termóstato programável", "a programmable thermostat"],
-        ["uma câmara de segurança", "a security camera"],
-        ["controlar por voz", "to control by voice"],
-        ["automatizar tarefas domésticas", "to automate household tasks"],
-        ["um risco de privacidade", "a privacy risk"],
+        ["uma coluna inteligente", "un altavoz inteligente"],
+        ["um termóstato programável", "un termostato programable"],
+        ["uma câmara de segurança", "una cámara de seguridad"],
+        ["controlar por voz", "controlar por voz"],
+        ["automatizar tarefas domésticas", "automatizar tareas del hogar"],
+        ["um risco de privacidade", "un riesgo para la privacidad"],
       ],
       grammar: [
         ["O futuro simples para previsões tecnológicas", "O futuro simples descreve previsões razoáveis sobre como a tecnologia vai evoluir.", "Daqui a uns anos, mais casas terão dispositivos conectados."],
@@ -1497,12 +1497,12 @@ window.LESSON_BANKS.PT = [
     description:"Domina o vocabulário e as fórmulas típicas de reuniões e e-mails profissionais em português.",
     study: {
       vocab: [
-        ["convocar uma reunião", "to call a meeting"],
-        ["anexar um documento", "to attach a document"],
-        ["ficamos a aguardar a sua resposta", "we look forward to your response"],
-        ["retomar um ponto pendente", "to follow up on a pending item"],
-        ["chegar a um acordo", "to reach an agreement"],
-        ["adiar uma reunião", "to postpone a meeting"],
+        ["convocar uma reunião", "convocar una reunión"],
+        ["anexar um documento", "adjuntar un documento"],
+        ["ficamos a aguardar a sua resposta", "esperamos su respuesta"],
+        ["retomar um ponto pendente", "hacer seguimiento de un pendiente"],
+        ["chegar a um acordo", "llegar a un acuerdo"],
+        ["adiar uma reunião", "posponer una reunión"],
       ],
       grammar: [
         ["Fórmulas de cortesia em e-mails formais", "Fórmulas fixas como “Ficamos a aguardar a sua resposta” dão um encerramento profissional sem soar brusco.", "Segue em anexo o relatório solicitado. Ficamos a aguardar a sua resposta."],
@@ -1522,11 +1522,11 @@ window.LESSON_BANKS.PT = [
     description:"Escolhe o sinónimo adequado consoante o registo (formal, neutro, coloquial) em português.",
     study: {
       vocab: [
-        ["obter (formal) / arranjar (neutro)", "to obtain / to get"],
-        ["falecer (formal) / morrer (neutro) / bater a bota (coloquial)", "to pass away / to die / to kick the bucket"],
-        ["solicitar (formal) / pedir (neutro)", "to request / to ask for"],
-        ["residir (formal) / viver (neutro)", "to reside / to live"],
-        ["não obstante (formal) / mas (neutro)", "however / but"],
+        ["obter (formal) / arranjar (neutro)", "obtener / conseguir"],
+        ["falecer (formal) / morrer (neutro) / bater a bota (coloquial)", "fallecer / morir / estirar la pata"],
+        ["solicitar (formal) / pedir (neutro)", "solicitar / pedir"],
+        ["residir (formal) / viver (neutro)", "residir / vivir"],
+        ["não obstante (formal) / mas (neutro)", "sin embargo / pero"],
       ],
       grammar: [
         ["Escolher o registo consoante o contexto comunicativo", "A mesma ideia pode exprimir-se com palavras muito diferentes consoante o contexto seja formal, neutro ou coloquial; usar a palavra errada quebra a coerência do texto.", "Num relatório: “A informação foi obtida.” Entre amigos: “Consegui-o.”"],
@@ -1546,13 +1546,13 @@ window.LESSON_BANKS.PT = [
     description:"Aprende o vocabulário das peças de roupa e como combiná-las com cores em português.",
     study: {
       vocab: [
-        ["a camisa", "the shirt"],
-        ["as calças", "the pants/trousers"],
-        ["os sapatos", "the shoes"],
-        ["o vestido", "the dress"],
-        ["o casaco", "the jacket"],
-        ["a saia", "the skirt"],
-        ["vermelho, azul, verde, preto, branco", "red, blue, green, black, white"],
+        ["a camisa", "la camisa"],
+        ["as calças", "el pantalón"],
+        ["os sapatos", "los zapatos"],
+        ["o vestido", "el vestido"],
+        ["o casaco", "la chaqueta"],
+        ["a saia", "la falda"],
+        ["vermelho, azul, verde, preto, branco", "rojo, azul, verde, negro, blanco"],
       ],
       grammar: [
         ["Concordância de género e número com adjetivos de cor", "As cores concordam em género e número com o substantivo que descrevem.", "a camisa vermelha / os sapatos pretos / o vestido verde"],
@@ -1572,12 +1572,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende o vocabulário de frutas e legumes e a falar de uma alimentação saudável em português.",
     study: {
       vocab: [
-        ["a maçã", "the apple"],
-        ["a banana", "the banana"],
-        ["a cenoura", "the carrot"],
-        ["o tomate", "the tomato"],
-        ["a alface", "the lettuce"],
-        ["a laranja", "the orange"],
+        ["a maçã", "la manzana"],
+        ["a banana", "el plátano"],
+        ["a cenoura", "la zanahoria"],
+        ["o tomate", "el tomate"],
+        ["a alface", "la lechuga"],
+        ["a laranja", "la naranja"],
       ],
       grammar: [
         ["Quantificadores: muito/a, pouco/a", "Estes quantificadores concordam em género com o substantivo e servem para falar de quantidades de forma aproximada.", "Como muita fruta e pouca carne."],
@@ -1597,12 +1597,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende verbos de cozinha e a explicar os passos de uma receita simples em português.",
     study: {
       vocab: [
-        ["cortar, descascar", "to cut, to peel"],
-        ["ferver, fritar", "to boil, to fry"],
-        ["misturar os ingredientes", "to mix the ingredients"],
-        ["adicionar sal a gosto", "to add salt to taste"],
-        ["deixar a massa repousar", "to let the dough rest"],
-        ["pré-aquecer o forno", "to preheat the oven"],
+        ["cortar, descascar", "cortar, pelar"],
+        ["ferver, fritar", "hervir, freír"],
+        ["misturar os ingredientes", "mezclar los ingredientes"],
+        ["adicionar sal a gosto", "añadir sal al gusto"],
+        ["deixar a massa repousar", "dejar reposar la masa"],
+        ["pré-aquecer o forno", "precalentar el horno"],
       ],
       grammar: [
         ["O imperativo para dar instruções de receita", "As receitas usam o imperativo para dar instruções passo a passo.", "Corte os legumes, ferva a água e adicione sal a gosto."],
@@ -1622,12 +1622,12 @@ window.LESSON_BANKS.PT = [
     description:"Fala sobre arte, música e cinema, expressando opiniões e apreciações matizadas em português.",
     study: {
       vocab: [
-        ["uma obra-prima", "a masterpiece"],
-        ["a encenação", "the staging/mise-en-scène"],
-        ["uma interpretação comovente", "a moving performance"],
-        ["o estilo de um artista", "an artist's style"],
-        ["deixar uma impressão duradoura", "to leave a lasting impression"],
-        ["estar sobrevalorizado/subvalorizado", "to be overrated/underrated"],
+        ["uma obra-prima", "una obra maestra"],
+        ["a encenação", "la puesta en escena"],
+        ["uma interpretação comovente", "una interpretación conmovedora"],
+        ["o estilo de um artista", "el estilo de un artista"],
+        ["deixar uma impressão duradoura", "dejar una impresión duradera"],
+        ["estar sobrevalorizado/subvalorizado", "estar sobrevalorado/infravalorado"],
       ],
       grammar: [
         ["Verbos de opinião + conjuntivo/indicativo consoante a certeza", "“Parece-me que” + indicativo exprime uma opinião com alguma segurança; “não acho que” + conjuntivo exprime dúvida.", "Parece-me que este filme é uma obra-prima. / Não acho que esteja sobrevalorizado."],
@@ -1647,12 +1647,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a dar e receber feedback de forma construtiva e profissional em português.",
     study: {
       vocab: [
-        ["apontar um ponto a melhorar", "to point out an area for improvement"],
-        ["reconhecer os pontos fortes antes das críticas", "to acknowledge strengths before criticism"],
-        ["formular a crítica em termos concretos", "to phrase criticism in concrete terms"],
-        ["estar aberto/a ao feedback", "to be open to feedback"],
-        ["levar a crítica para o lado pessoal", "to take criticism personally"],
-        ["propor uma solução, não só apontar o problema", "to propose a solution, not just point out the problem"],
+        ["apontar um ponto a melhorar", "señalar un aspecto a mejorar"],
+        ["reconhecer os pontos fortes antes das críticas", "reconocer los puntos fuertes antes de criticar"],
+        ["formular a crítica em termos concretos", "formular la crítica en términos concretos"],
+        ["estar aberto/a ao feedback", "estar abierto a las críticas constructivas"],
+        ["levar a crítica para o lado pessoal", "tomarse la crítica como algo personal"],
+        ["propor uma solução, não só apontar o problema", "proponer una solución, no solo señalar el problema"],
       ],
       grammar: [
         ["Atenuadores para suavizar uma crítica", "Expressões como “talvez pudesses considerar” ou “uma sugestão seria” suavizam uma crítica sem perder clareza.", "Talvez pudesses considerar reestruturar o relatório; uma sugestão seria começar pelas conclusões."],
@@ -1672,12 +1672,12 @@ window.LESSON_BANKS.PT = [
     description:"Analisa o debate sobre a linguagem inclusiva e como as línguas evoluem com a sociedade.",
     study: {
       vocab: [
-        ["a linguagem inclusiva", "inclusive language"],
-        ["uma língua viva evolui com o uso", "a living language evolves with use"],
-        ["prescritivismo versus descritivismo", "prescriptivism versus descriptivism"],
-        ["um neologismo é incorporado ao dicionário", "a neologism is added to the dictionary"],
-        ["gerar resistência face a uma mudança linguística", "to generate resistance to a linguistic change"],
-        ["um argumento não implica necessariamente uma posição política", "an argument doesn't necessarily imply a political stance"],
+        ["a linguagem inclusiva", "el lenguaje inclusivo"],
+        ["uma língua viva evolui com o uso", "una lengua viva evoluciona con el uso"],
+        ["prescritivismo versus descritivismo", "prescriptivismo frente a descriptivismo"],
+        ["um neologismo é incorporado ao dicionário", "se añade un neologismo al diccionario"],
+        ["gerar resistência face a uma mudança linguística", "generar resistencia a un cambio lingüístico"],
+        ["um argumento não implica necessariamente uma posição política", "un argumento no implica necesariamente una postura política"],
       ],
       grammar: [
         ["Apresentar um debate linguístico sem viés", "Uma análise rigorosa separa a descrição do fenómeno (como a língua muda) da avaliação pessoal (se a mudança deveria ser adotada ou não).", "Do ponto de vista descritivista, a mudança é documentada sem se julgar; do prescritivista, avalia-se se convém normalizá-la."],
@@ -1697,13 +1697,13 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda o vocabulário dos lugares do bairro e como dizer onde ficam em português.",
     study: {
       vocab: [
-        ["o banco", "the bank"],
-        ["o supermercado", "the supermarket"],
-        ["o parque", "the park"],
-        ["a farmácia", "the pharmacy"],
-        ["a biblioteca", "the library"],
-        ["o ponto de ônibus", "the bus stop"],
-        ["perto de, longe de, ao lado de", "near, far from, next to"],
+        ["o banco", "el banco"],
+        ["o supermercado", "el supermercado"],
+        ["o parque", "el parque"],
+        ["a farmácia", "la farmacia"],
+        ["a biblioteca", "la biblioteca"],
+        ["o ponto de ônibus", "la parada de autobús"],
+        ["perto de, longe de, ao lado de", "cerca de, lejos de, al lado de"],
       ],
       grammar: [
         ["“Há/Tem” + preposições de lugar", "“Há” (ou “tem”, no português coloquial do Brasil) serve para dizer que algo existe em um lugar; não muda com o número. As preposições de lugar indicam onde algo está.", "Há uma farmácia perto do parque. / A biblioteca fica ao lado do banco."],
@@ -1723,12 +1723,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de celebrações e a falar de costumes com “costumar”.",
     study: {
       vocab: [
-        ["o aniversário", "the birthday"],
-        ["o casamento", "the wedding"],
-        ["o Natal", "Christmas"],
-        ["o Ano Novo", "New Year"],
-        ["celebrar, festejar", "to celebrate"],
-        ["dar um presente", "to give a gift"],
+        ["o aniversário", "el cumpleaños"],
+        ["o casamento", "la boda"],
+        ["o Natal", "la Navidad"],
+        ["o Ano Novo", "el Año Nuevo"],
+        ["celebrar, festejar", "celebrar"],
+        ["dar um presente", "hacer un regalo"],
       ],
       grammar: [
         ["“Costumar” + infinitivo para falar de costumes", "“Costumar” + infinitivo expressa o que se faz habitualmente; funciona como um verbo auxiliar de hábito.", "Costumamos nos reunir com a família no Natal. / Quando criança, eu costumava celebrar meu aniversário no parque."],
@@ -1748,12 +1748,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário sobre amizade e a dar conselhos com “dever” e “ter que”.",
     study: {
       vocab: [
-        ["confiar em alguém", "to trust someone"],
-        ["dar-se bem/mal com alguém", "to get along well/badly with someone"],
-        ["ter algo em comum", "to have something in common"],
-        ["manter contato", "to keep in touch"],
-        ["um amigo/uma amiga de confiança", "a close/trustworthy friend"],
-        ["fazer as pazes depois de uma discussão", "to make up after an argument"],
+        ["confiar em alguém", "confiar en alguien"],
+        ["dar-se bem/mal com alguém", "llevarse bien/mal con alguien"],
+        ["ter algo em comum", "tener algo en común"],
+        ["manter contato", "mantener el contacto"],
+        ["um amigo/uma amiga de confiança", "un amigo cercano/de confianza"],
+        ["fazer as pazes depois de uma discussão", "reconciliarse después de una discusión"],
       ],
       grammar: [
         ["Conselhos com “dever” e “ter que”", "“Dever” + infinitivo dá um conselho suave; “ter que” + infinitivo expressa uma obrigação mais forte.", "Você deveria manter contato com seus amigos. / Vocês têm que fazer as pazes se quiserem continuar amigos."],
@@ -1773,12 +1773,12 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre trabalho remoto e conciliação vida-trabalho usando o gerúndio em português.",
     study: {
       vocab: [
-        ["trabalhar remotamente", "to work remotely"],
-        ["o horário flexível", "flexible working hours"],
-        ["a desconexão digital", "digital disconnection"],
-        ["o esgotamento (burnout)", "burnout"],
-        ["conciliar a vida profissional e pessoal", "to balance work and personal life"],
-        ["ser produtivo/a", "to be productive"],
+        ["trabalhar remotamente", "trabajar de forma remota"],
+        ["o horário flexível", "horario laboral flexible"],
+        ["a desconexão digital", "la desconexión digital"],
+        ["o esgotamento (burnout)", "el agotamiento (burnout)"],
+        ["conciliar a vida profissional e pessoal", "equilibrar el trabajo y la vida personal"],
+        ["ser produtivo/a", "ser productivo"],
       ],
       grammar: [
         ["O gerúndio para expressar simultaneidade ou causa", "O gerúndio (-ando/-endo) expressa uma ação simultânea a outra ou a sua causa, sem precisar de conjunção.", "Trabalhando de casa, economiza-se tempo de deslocamento. / Muitos sofrem de esgotamento trabalhando sem desconectar."],
@@ -1798,12 +1798,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda a negociar e a suavizar propostas com o condicional em um registro formal.",
     study: {
       vocab: [
-        ["chegar a um acordo", "to reach an agreement"],
-        ["fazer concessões", "to give ground/make concessions"],
-        ["um impasse", "a deadlock/stalemate"],
-        ["uma postura intransigente", "an inflexible/uncompromising stance"],
-        ["buscar um meio-termo", "to look for a middle ground"],
-        ["quebrar o gelo", "to break the ice"],
+        ["chegar a um acordo", "llegar a un acuerdo"],
+        ["fazer concessões", "ceder terreno/hacer concesiones"],
+        ["um impasse", "un punto muerto"],
+        ["uma postura intransigente", "una postura inflexible/intransigente"],
+        ["buscar um meio-termo", "buscar un término medio"],
+        ["quebrar o gelo", "romper el hielo"],
       ],
       grammar: [
         ["O condicional para suavizar propostas", "O condicional simples suaviza pedidos e propostas em negociações, dando uma impressão de maior cortesia e flexibilidade.", "Estaria disposto a fazer concessões nesse ponto? / Seria preferível buscar um meio-termo antes de chegar a um impasse."],
@@ -1823,12 +1823,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise o eufemismo na linguagem corporativa e pratique conectores de reformulação.",
     study: {
       vocab: [
-        ["um eufemismo", "a euphemism"],
-        ["o jargão corporativo", "corporate jargon"],
-        ["uma reestruturação (eufemismo para demissões)", "a restructuring (euphemism for layoffs)"],
-        ["suavizar o impacto de uma mensagem", "to soften the impact of a message"],
-        ["um anglicismo desnecessário", "an unnecessary anglicism"],
-        ["diluir a responsabilidade de alguém", "to dilute someone's responsibility"],
+        ["um eufemismo", "un eufemismo"],
+        ["o jargão corporativo", "la jerga corporativa"],
+        ["uma reestruturação (eufemismo para demissões)", "una reestructuración (eufemismo de despidos)"],
+        ["suavizar o impacto de uma mensagem", "suavizar el impacto de un mensaje"],
+        ["um anglicismo desnecessário", "un anglicismo innecesario"],
+        ["diluir a responsabilidade de alguém", "diluir la responsabilidad de alguien"],
       ],
       grammar: [
         ["Conectores de reformulação e matização", "Expressões como “ou seja”, “em outras palavras” ou “dito de outra forma” reformulam uma ideia, muitas vezes para suavizá-la ou precisá-la — essenciais para identificar eufemismos.", "A empresa anunciou uma “reestruturação”, ou seja, demissões. / Em outras palavras: vão reduzir o quadro de funcionários."],
@@ -1848,12 +1848,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de viagem e a falar de planos imediatos com “ir + infinitivo”.",
     study: {
       vocab: [
-        ["o passaporte", "the passport"],
-        ["a mala", "the suitcase"],
-        ["o voo", "the flight"],
-        ["o quarto", "the room"],
-        ["a reserva", "the booking"],
-        ["fazer o check-in da bagagem", "to check in luggage"],
+        ["o passaporte", "el pasaporte"],
+        ["a mala", "la maleta"],
+        ["o voo", "el vuelo"],
+        ["o quarto", "la habitación"],
+        ["a reserva", "la reserva"],
+        ["fazer o check-in da bagagem", "facturar el equipaje"],
       ],
       grammar: [
         ["“Ir” + infinitivo para o futuro próximo", "“Ir” + infinitivo expressa um plano ou uma ação que vai acontecer em breve, muito usado na fala cotidiana.", "Vou fazer o check-in da bagagem. / Vamos reservar um quarto para sexta-feira."],
@@ -1873,12 +1873,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de tecnologia cotidiana e a comparar com “tão...quanto” e “mais...que”.",
     study: {
       vocab: [
-        ["o wifi", "the wifi"],
-        ["a senha", "the password"],
-        ["o aplicativo", "the app"],
-        ["carregar o celular", "to charge the phone"],
-        ["baixar", "to download"],
-        ["a bateria", "the battery"],
+        ["o wifi", "el wifi"],
+        ["a senha", "la contraseña"],
+        ["o aplicativo", "la aplicación"],
+        ["carregar o celular", "cargar el móvil"],
+        ["baixar", "descargar"],
+        ["a bateria", "la batería"],
       ],
       grammar: [
         ["Comparativos de igualdade e superioridade", "“Tão + adjetivo + quanto” compara qualidades iguais; “mais + adjetivo + que” compara superioridade.", "Esse aplicativo é tão rápido quanto o outro. / Minha bateria dura mais que a sua."],
@@ -1898,12 +1898,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de entretenimento digital e a expressar duração com “estar + gerúndio + há”.",
     study: {
       vocab: [
-        ["a série", "the series/show"],
-        ["o videogame", "the video game"],
-        ["a plataforma de streaming", "the streaming platform"],
-        ["viciar-se em algo", "to get hooked on something"],
-        ["a maratona de séries", "binge-watching"],
-        ["as legendas", "the subtitles"],
+        ["a série", "la serie"],
+        ["o videogame", "el videojuego"],
+        ["a plataforma de streaming", "la plataforma de streaming"],
+        ["viciar-se em algo", "engancharse a algo"],
+        ["a maratona de séries", "maratón de series"],
+        ["as legendas", "los subtítulos"],
       ],
       grammar: [
         ["“Estar + gerúndio + há” para expressar duração", "“Estar” + gerúndio + “há” + tempo expressa há quanto tempo uma ação continua acontecendo, semelhante a “to have been doing something”.", "Estou vendo essa série há duas horas. / Estamos jogando videogame há todo o fim de semana."],
@@ -1923,12 +1923,12 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre cibersegurança usando orações relativas restritivas e explicativas.",
     study: {
       vocab: [
-        ["a cibersegurança", "cybersecurity"],
-        ["invadir um sistema", "to hack a system"],
-        ["os dados pessoais", "personal data"],
-        ["uma senha segura", "a strong password"],
-        ["o roubo de identidade", "identity theft/phishing"],
-        ["criptografar as informações", "to encrypt information"],
+        ["a cibersegurança", "la ciberseguridad"],
+        ["invadir um sistema", "hackear un sistema"],
+        ["os dados pessoais", "los datos personales"],
+        ["uma senha segura", "una contraseña segura"],
+        ["o roubo de identidade", "robo de identidad/phishing"],
+        ["criptografar as informações", "cifrar información"],
       ],
       grammar: [
         ["Orações relativas restritivas e explicativas", "As restritivas (sem vírgulas) identificam do que estamos falando e não podem ser omitidas; as explicativas (entre vírgulas) acrescentam informação extra e podem ser omitidas.", "Os dados que compartilhamos online podem ser invadidos. (restritiva) / Meus dados, que compartilho pouco, estão bem protegidos. (explicativa)"],
@@ -1948,12 +1948,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a memória histórica e o patrimônio cultural usando “estar + particípio” para estados resultantes.",
     study: {
       vocab: [
-        ["o patrimônio cultural", "cultural heritage"],
-        ["preservar a memória histórica", "to preserve historical memory"],
-        ["um monumento comemorativo", "a memorial"],
-        ["o legado", "the legacy"],
-        ["reescrever a história", "to rewrite history"],
-        ["a identidade coletiva", "collective identity"],
+        ["o patrimônio cultural", "el patrimonio cultural"],
+        ["preservar a memória histórica", "preservar la memoria histórica"],
+        ["um monumento comemorativo", "un monumento conmemorativo"],
+        ["o legado", "el legado"],
+        ["reescrever a história", "reescribir la historia"],
+        ["a identidade coletiva", "la identidad colectiva"],
       ],
       grammar: [
         ["“Estar + particípio” para o estado resultante", "“Estar” + particípio descreve o estado resultante de uma ação passada, como um adjetivo, diferente da voz passiva com “ser” que descreve a ação em si.", "O monumento está dedicado às vítimas. / A história está marcada por conflitos internos."],
@@ -1973,12 +1973,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a ambiguidade institucional e pratique conectores de matização epistêmica.",
     study: {
       vocab: [
-        ["a ambiguidade calculada", "calculated ambiguity"],
-        ["um comunicado institucional", "an institutional statement"],
-        ["evitar se comprometer", "to avoid committing oneself"],
-        ["a vagueza deliberada", "deliberate vagueness"],
-        ["ler nas entrelinhas", "to read between the lines"],
-        ["uma linguagem evasiva", "evasive language"],
+        ["a ambiguidade calculada", "ambigüedad calculada"],
+        ["um comunicado institucional", "una declaración institucional"],
+        ["evitar se comprometer", "evitar comprometerse"],
+        ["a vagueza deliberada", "vaguedad deliberada"],
+        ["ler nas entrelinhas", "leer entre líneas"],
+        ["uma linguagem evasiva", "lenguaje evasivo"],
       ],
       grammar: [
         ["Conectores de matização epistêmica", "Expressões como “cabe destacar que”, “não há dúvida de que” ou “de certa forma” matizam o grau de certeza ou relevância de uma afirmação, típicas do discurso institucional.", "Cabe destacar que o comunicado evita se comprometer com datas concretas. / De certa forma, a vagueza é deliberada."],
@@ -1998,12 +1998,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de esportes e a expressar gostos com o verbo “gostar de”.",
     study: {
       vocab: [
-        ["o futebol", "soccer/football"],
-        ["a natação", "swimming"],
-        ["correr", "to run"],
-        ["a academia", "the gym"],
-        ["fazer exercício", "to exercise"],
-        ["o time", "the team"],
+        ["o futebol", "el fútbol"],
+        ["a natação", "la natación"],
+        ["correr", "correr"],
+        ["a academia", "el gimnasio"],
+        ["fazer exercício", "hacer ejercicio"],
+        ["o time", "el equipo"],
       ],
       grammar: [
         ["O verbo “gostar de” + infinitivo/substantivo", "“Gostar de” é seguido pela preposição “de” + infinitivo ou substantivo, e concorda com a pessoa que gosta, não com o que é gostado.", "Eu gosto de nadar. / Ela gosta de esportes coletivos."],
@@ -2023,12 +2023,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de tarefas de casa e a expressar obrigação impessoal com “é preciso”.",
     study: {
       vocab: [
-        ["varrer", "to sweep"],
-        ["lavar a louça", "to wash the dishes"],
-        ["tirar o lixo", "to take out the trash"],
-        ["passar a roupa", "to iron the clothes"],
-        ["arrumar a cama", "to make the bed"],
-        ["passar o aspirador", "to vacuum"],
+        ["varrer", "barrer"],
+        ["lavar a louça", "fregar los platos"],
+        ["tirar o lixo", "sacar la basura"],
+        ["passar a roupa", "planchar la ropa"],
+        ["arrumar a cama", "hacer la cama"],
+        ["passar o aspirador", "pasar la aspiradora"],
       ],
       grammar: [
         ["“É preciso” + infinitivo para a obrigação impessoal", "“É preciso” + infinitivo expressa uma obrigação geral, sem especificar quem deve fazê-la, diferente de “ter que” que leva sujeito.", "É preciso tirar o lixo todos os dias. / Antes de sair, é preciso arrumar a cama."],
@@ -2048,12 +2048,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário sobre encontros e a fazer promessas e previsões com o futuro simples.",
     study: {
       vocab: [
-        ["ter um encontro", "to go on a date"],
-        ["apaixonar-se por alguém", "to fall in love with someone"],
-        ["terminar com alguém", "to break up with someone"],
-        ["o parceiro/a parceira", "the partner/couple"],
-        ["sentir falta de alguém", "to miss someone"],
-        ["noivar/se comprometer", "to get engaged/commit"],
+        ["ter um encontro", "tener una cita"],
+        ["apaixonar-se por alguém", "enamorarse de alguien"],
+        ["terminar com alguém", "romper con alguien"],
+        ["o parceiro/a parceira", "la pareja"],
+        ["sentir falta de alguém", "echar de menos a alguien"],
+        ["noivar/se comprometer", "comprometerse"],
       ],
       grammar: [
         ["O futuro simples para promessas e previsões", "O futuro simples (-ei, -ás, -á...) se usa para fazer promessas formais ou prever o que vai acontecer, mais definitivo que “ir + infinitivo”.", "Prometo que nunca terminarei com você. / Acho que vocês noivarão em breve."],
@@ -2073,12 +2073,12 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre turismo sustentável usando “a menos que” e “desde que” + subjuntivo.",
     study: {
       vocab: [
-        ["o overtourism (turismo de massa)", "overtourism"],
-        ["saturar um destino turístico", "to overcrowd a tourist destination"],
-        ["o turismo sustentável", "sustainable tourism"],
-        ["encarecer a moradia local", "to drive up local housing costs"],
-        ["distribuir o impacto turístico", "to spread out tourism's impact"],
-        ["respeitar a cultura local", "to respect the local culture"],
+        ["o overtourism (turismo de massa)", "la masificación turística"],
+        ["saturar um destino turístico", "saturar un destino turístico"],
+        ["o turismo sustentável", "el turismo sostenible"],
+        ["encarecer a moradia local", "encarecer la vivienda local"],
+        ["distribuir o impacto turístico", "repartir el impacto del turismo"],
+        ["respeitar a cultura local", "respetar la cultura local"],
       ],
       grammar: [
         ["“A menos que” e “desde que” + subjuntivo", "“A menos que” (unless) e “desde que” (provided that) introduzem uma condição e são seguidas de subjuntivo.", "O destino continuará saturado a menos que o turismo seja regulado. / O turismo será positivo desde que a cultura local seja respeitada."],
@@ -2098,12 +2098,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a gastronomia como identidade cultural usando estruturas enfáticas com “o que”.",
     study: {
       vocab: [
-        ["a denominação de origem protegida", "protected designation of origin"],
-        ["um prato emblemático", "an iconic/signature dish"],
-        ["a fusão culinária", "culinary fusion"],
-        ["preservar uma receita tradicional", "to preserve a traditional recipe"],
-        ["apropriar-se de uma tradição culinária", "to appropriate a culinary tradition"],
-        ["o paladar coletivo", "the collective palate"],
+        ["a denominação de origem protegida", "denominación de origen protegida"],
+        ["um prato emblemático", "un plato emblemático"],
+        ["a fusão culinária", "la fusión culinaria"],
+        ["preservar uma receita tradicional", "preservar una receta tradicional"],
+        ["apropriar-se de uma tradição culinária", "apropiarse de una tradición culinaria"],
+        ["o paladar coletivo", "el paladar colectivo"],
       ],
       grammar: [
         ["Estruturas enfáticas com “o que”", "“O que” + verbo + “é” enfatiza um elemento da frase, dando-lhe maior destaque, muito usado no registro argumentativo.", "O que define uma cultura é a sua gastronomia. / O que preocupa os chefs locais é a apropriação de suas receitas."],
@@ -2123,12 +2123,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a retórica de crise e pratique estruturas de intensificação retórica.",
     study: {
       vocab: [
-        ["o pânico moral", "moral panic"],
-        ["uma crise fabricada", "a manufactured crisis"],
-        ["catastrofizar uma situação", "to catastrophize a situation"],
-        ["um bode expiatório", "a scapegoat"],
-        ["desproporcionar uma ameaça", "to blow a threat out of proportion"],
-        ["um discurso alarmista", "alarmist rhetoric"],
+        ["o pânico moral", "el pánico moral"],
+        ["uma crise fabricada", "una crisis fabricada"],
+        ["catastrofizar uma situação", "catastrofizar una situación"],
+        ["um bode expiatório", "un chivo expiatorio"],
+        ["desproporcionar uma ameaça", "exagerar desproporcionadamente una amenaza"],
+        ["um discurso alarmista", "la retórica alarmista"],
       ],
       grammar: [
         ["Estruturas de intensificação retórica", "“Não só... mas também” e “cada vez mais” intensificam uma afirmação, acumulando gravidade — recurso típico do discurso de crise e do pânico moral.", "Não só se exagera a ameaça, mas também se busca um bode expiatório. / O discurso alarmista está cada vez mais frequente na mídia."],
@@ -2148,12 +2148,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário escolar e a usar corretamente os artigos definidos e indefinidos.",
     study: {
       vocab: [
-        ["o caderno", "the notebook"],
-        ["o lápis", "the pencil"],
-        ["a mochila", "the backpack"],
-        ["a matemática", "math"],
-        ["a história", "history"],
-        ["o professor/a professora", "the teacher"],
+        ["o caderno", "el cuaderno"],
+        ["o lápis", "el lápiz"],
+        ["a mochila", "la mochila"],
+        ["a matemática", "las matemáticas"],
+        ["a história", "la historia"],
+        ["o professor/a professora", "el profesor/la profesora"],
       ],
       grammar: [
         ["Artigos definidos e indefinidos", "Os artigos definidos (o, a, os, as) indicam algo específico ou já conhecido; os indefinidos (um, uma, uns, umas) indicam algo não específico ou mencionado pela primeira vez.", "Tenho um caderno novo. / O caderno está na mochila."],
@@ -2173,12 +2173,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário postal e a usar pronomes de objeto direto (o/a/os/as).",
     study: {
       vocab: [
-        ["o pacote", "the package"],
-        ["a carta", "the letter"],
-        ["o selo", "the stamp"],
-        ["enviar pelo correio", "to mail/send"],
-        ["a caixa de correio", "the mailbox"],
-        ["o endereço", "the address"],
+        ["o pacote", "el paquete"],
+        ["a carta", "la carta"],
+        ["o selo", "el sello"],
+        ["enviar pelo correio", "enviar por correo"],
+        ["a caixa de correio", "el buzón"],
+        ["o endereço", "la dirección"],
       ],
       grammar: [
         ["Pronomes de objeto direto (o/a/os/as)", "Os pronomes de objeto direto substituem um substantivo já mencionado, concordando em gênero e número, geralmente colocados antes ou ligados ao verbo.", "A carta? Eu a enviei ontem. / Os pacotes? Eu os recebi esta manhã."],
@@ -2198,12 +2198,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de cinema e teatro e a construir orações temporais com “quando”, “enquanto” e “antes que”.",
     study: {
       vocab: [
-        ["o ingresso", "the ticket"],
-        ["a estreia", "the premiere"],
-        ["o elenco", "the cast"],
-        ["os efeitos especiais", "special effects"],
-        ["a poltrona", "the seat"],
-        ["o intervalo", "the intermission"],
+        ["o ingresso", "la entrada"],
+        ["a estreia", "el estreno"],
+        ["o elenco", "el reparto"],
+        ["os efeitos especiais", "los efectos especiales"],
+        ["a poltrona", "el asiento"],
+        ["o intervalo", "el intermedio"],
       ],
       grammar: [
         ["Orações temporais com “quando”, “enquanto” e “antes que”", "“Quando” e “enquanto” + indicativo descrevem ações habituais ou simultâneas; “antes que” exige subjuntivo porque introduz uma ação ainda não realizada.", "Compro os ingressos quando chego ao cinema. / Conversamos enquanto esperamos a estreia. / Chegamos antes que o filme comece."],
@@ -2223,12 +2223,12 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre ativismo social usando o subjuntivo com verbos de influência (exigir, pedir que).",
     study: {
       vocab: [
-        ["uma manifestação/protesto", "a protest"],
-        ["exigir uma mudança", "to demand change"],
-        ["assinar uma petição", "to sign a petition"],
-        ["conscientizar sobre algo", "to raise awareness about something"],
-        ["um coletivo/organização", "a collective/organization"],
-        ["mobilizar as pessoas", "to mobilize people"],
+        ["uma manifestação/protesto", "una protesta"],
+        ["exigir uma mudança", "exigir un cambio"],
+        ["assinar uma petição", "firmar una petición"],
+        ["conscientizar sobre algo", "concienciar sobre algo"],
+        ["um coletivo/organização", "un colectivo/una organización"],
+        ["mobilizar as pessoas", "movilizar a la gente"],
       ],
       grammar: [
         ["Subjuntivo com verbos de influência", "Verbos como “exigir”, “pedir” ou “sugerir” + “que” exigem subjuntivo na oração subordinada porque tentam influenciar a ação de outra pessoa.", "Os manifestantes exigem que o governo aja. / O coletivo pede que a petição seja assinada."],
@@ -2248,12 +2248,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise o envelhecimento populacional usando orações consecutivas (“tão...que”, “de tal forma que”).",
     study: {
       vocab: [
-        ["o envelhecimento populacional", "population aging"],
-        ["o sistema de aposentadoria", "the pension system"],
-        ["a taxa de natalidade", "the birth rate"],
-        ["a expectativa de vida", "life expectancy"],
-        ["sustentar o sistema de aposentadoria", "to sustain the pension system"],
-        ["a lacuna geracional", "the generational gap"],
+        ["o envelhecimento populacional", "el envejecimiento de la población"],
+        ["o sistema de aposentadoria", "el sistema de pensiones"],
+        ["a taxa de natalidade", "la tasa de natalidad"],
+        ["a expectativa de vida", "la esperanza de vida"],
+        ["sustentar o sistema de aposentadoria", "sostener el sistema de pensiones"],
+        ["a lacuna geracional", "la brecha generacional"],
       ],
       grammar: [
         ["Orações consecutivas: “tão...que” e “de tal forma que”", "As orações consecutivas expressam uma consequência derivada de uma intensidade ou modo. “Tão + adjetivo + que” enfatiza o grau; “de tal forma que” introduz o resultado de uma ação.", "A população envelhece tão rápido que o sistema de aposentadoria está em risco. / A natalidade caiu de tal forma que faltam trabalhadores jovens."],
@@ -2273,12 +2273,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a retórica do silêncio e pratique a elipse com fins retóricos.",
     study: {
       vocab: [
-        ["o silêncio eloquente", "eloquent silence"],
-        ["omitir deliberadamente algo", "to deliberately omit something"],
-        ["o não dito", "the unsaid"],
-        ["um vazio discursivo", "a discursive gap"],
-        ["deixar algo em suspenso", "to leave something hanging"],
-        ["a elipse retórica", "rhetorical ellipsis"],
+        ["o silêncio eloquente", "el silencio elocuente"],
+        ["omitir deliberadamente algo", "omitir algo deliberadamente"],
+        ["o não dito", "lo no dicho"],
+        ["um vazio discursivo", "un vacío discursivo"],
+        ["deixar algo em suspenso", "dejar algo en el aire"],
+        ["a elipse retórica", "la elipsis retórica"],
       ],
       grammar: [
         ["A elipse com fins retóricos", "A elipse omite um elemento subentendido pelo contexto, gerando ênfase ou deixando uma ideia deliberadamente incompleta — um recurso poderoso no discurso político e literário.", "Uns se calam por medo; outros, por cumplicidade. (omite-se “se calam”) / Prometeu reformas... e silêncio. (omite-se o verbo esperado)"],
@@ -2298,12 +2298,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda a dizer as horas e os períodos do dia com preposições de tempo.",
     study: {
       vocab: [
-        ["a manhã", "the morning"],
-        ["a tarde", "the afternoon"],
-        ["a noite", "the night"],
-        ["o meio-dia", "noon"],
-        ["a meia-noite", "midnight"],
-        ["em ponto", "o'clock/sharp"],
+        ["a manhã", "la mañana"],
+        ["a tarde", "la tarde"],
+        ["a noite", "la noche"],
+        ["o meio-dia", "el mediodía"],
+        ["a meia-noite", "la medianoche"],
+        ["em ponto", "en punto"],
       ],
       grammar: [
         ["“Que horas são?” + preposições de tempo", "Para perguntar as horas usa-se “Que horas são?”; para responder, “é uma hora” (singular) ou “são + número + horas” (plural), com “da manhã/tarde/noite” para especificar o momento.", "São três horas da tarde. / É uma hora em ponto da madrugada."],
@@ -2323,12 +2323,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário bancário básico e a usar “poder” para possibilidade e permissão.",
     study: {
       vocab: [
-        ["a conta bancária", "the bank account"],
-        ["o caixa eletrônico", "the ATM"],
-        ["sacar dinheiro", "to withdraw money"],
-        ["depositar dinheiro", "to deposit money"],
-        ["o cartão de débito", "the debit card"],
-        ["o saldo", "the balance"],
+        ["a conta bancária", "la cuenta bancaria"],
+        ["o caixa eletrônico", "el cajero automático"],
+        ["sacar dinheiro", "retirar dinero"],
+        ["depositar dinheiro", "ingresar dinero"],
+        ["o cartão de débito", "la tarjeta de débito"],
+        ["o saldo", "el saldo"],
       ],
       grammar: [
         ["“Poder” + infinitivo para possibilidade e permissão", "“Poder” + infinitivo expressa capacidade, possibilidade ou permissão, dependendo do contexto.", "Posso abrir uma conta aqui? / Você pode sacar dinheiro em qualquer caixa eletrônico."],
@@ -2348,12 +2348,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de viagens longas e a usar “embora” e “mesmo que”.",
     study: {
       vocab: [
-        ["o atraso", "the delay"],
-        ["perder o voo/trem", "to miss the flight/train"],
-        ["fazer escala", "to make a layover/stopover"],
-        ["a plataforma", "the platform"],
-        ["cancelar um voo", "to cancel a flight"],
-        ["o assento de janela/corredor", "the window/aisle seat"],
+        ["o atraso", "el retraso"],
+        ["perder o voo/trem", "perder el vuelo/tren"],
+        ["fazer escala", "hacer escala"],
+        ["a plataforma", "el andén"],
+        ["cancelar um voo", "cancelar un vuelo"],
+        ["o assento de janela/corredor", "el asiento de ventanilla/pasillo"],
       ],
       grammar: [
         ["“Embora” + subjuntivo e “mesmo que” + subjuntivo", "“Embora” e “mesmo que” sempre exigem subjuntivo em português, mesmo quando se referem a um fato real ou já conhecido, ao contrário do espanhol.", "Embora o trem tenha chegado atrasado, eu peguei o voo. / Mesmo que o voo seja cancelado, temos outra opção."],
@@ -2373,12 +2373,12 @@ window.LESSON_BANKS.PT = [
     description:"Fale sobre economia colaborativa usando o futuro e o futuro do pretérito de probabilidade.",
     study: {
       vocab: [
-        ["a economia colaborativa", "the sharing economy"],
-        ["alugar em vez de comprar", "to rent instead of buying"],
-        ["o consumo consciente", "conscious consumption"],
-        ["compartilhar recursos", "to share resources"],
-        ["a obsolescência programada", "planned obsolescence"],
-        ["reduzir o desperdício", "to reduce waste"],
+        ["a economia colaborativa", "la economía colaborativa"],
+        ["alugar em vez de comprar", "alquilar en vez de comprar"],
+        ["o consumo consciente", "el consumo consciente"],
+        ["compartilhar recursos", "compartir recursos"],
+        ["a obsolescência programada", "la obsolescencia programada"],
+        ["reduzir o desperdício", "reducir los residuos"],
       ],
       grammar: [
         ["Futuro e futuro do pretérito de probabilidade", "O futuro simples pode expressar uma conjectura sobre o presente (“serão dez horas”); o futuro do pretérito expressa uma conjectura sobre o passado (“seriam dez horas quando chegou”).", "Esse modelo terá uns cinco anos de obsolescência programada. / Com esse consumo, gastariam menos recursos do que pensavam."],
@@ -2398,12 +2398,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a comunicação não verbal usando “como se” + subjuntivo.",
     study: {
       vocab: [
-        ["a linguagem corporal", "body language"],
-        ["o contato visual", "eye contact"],
-        ["um gesto mal interpretado", "a misinterpreted gesture"],
-        ["a proxêmica (distância pessoal)", "proxemics (personal space)"],
-        ["um sinal cultural", "a cultural cue"],
-        ["o silêncio constrangedor", "awkward silence"],
+        ["a linguagem corporal", "el lenguaje corporal"],
+        ["o contato visual", "el contacto visual"],
+        ["um gesto mal interpretado", "un gesto malinterpretado"],
+        ["a proxêmica (distância pessoal)", "la proxémica (espacio personal)"],
+        ["um sinal cultural", "una señal cultural"],
+        ["o silêncio constrangedor", "un silencio incómodo"],
       ],
       grammar: [
         ["“Como se” + subjuntivo (pretérito imperfeito ou pretérito mais-que-perfeito)", "“Como se” sempre exige subjuntivo, mesmo quando a comparação se refere ao presente, porque descreve algo hipotético ou contrário à realidade.", "Ele agiu como se entendesse o gesto, embora não entendesse. / Ela reagiu como se tivesse sido ofendida."],
@@ -2423,12 +2423,12 @@ window.LESSON_BANKS.PT = [
     description:"Analise a linguagem científica usando expressões de matização epistêmica (hedging).",
     study: {
       vocab: [
-        ["a incerteza estatística", "statistical uncertainty"],
-        ["uma margem de erro", "a margin of error"],
-        ["correlação não implica causalidade", "correlation does not imply causation"],
-        ["os resultados preliminares", "preliminary results"],
-        ["uma hipótese não confirmada", "an unconfirmed hypothesis"],
-        ["matizar uma afirmação", "to hedge/qualify a claim"],
+        ["a incerteza estatística", "la incertidumbre estadística"],
+        ["uma margem de erro", "un margen de error"],
+        ["correlação não implica causalidade", "correlación no implica causalidad"],
+        ["os resultados preliminares", "resultados preliminares"],
+        ["uma hipótese não confirmada", "una hipótesis no confirmada"],
+        ["matizar uma afirmação", "matizar una afirmación"],
       ],
       grammar: [
         ["Expressões de matização epistêmica (hedging)", "Frases como “poderia se dizer que”, “não é absurdo pensar que” ou “os dados sugerem, embora não confirmem, que” matizam o grau de certeza de uma afirmação científica, evitando generalizações excessivas.", "Poderia se dizer que existe uma tendência, embora os dados sejam preliminares. / Os resultados sugerem, embora não confirmem, uma relação causal."],
@@ -2448,12 +2448,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda a descrever o clima e as estações do ano em português com “está/faz”.",
     study: {
       vocab: [
-        ["ensolarado", "sunny"],
-        ["chuvoso", "rainy"],
-        ["frio", "cold"],
-        ["quente", "hot"],
-        ["a primavera", "spring"],
-        ["o inverno", "winter"],
+        ["ensolarado", "soleado"],
+        ["chuvoso", "lluvioso"],
+        ["frio", "frío"],
+        ["quente", "caluroso"],
+        ["a primavera", "la primavera"],
+        ["o inverno", "el invierno"],
       ],
       grammar: [
         ["“Está/Faz” para o clima", "Para o clima usa-se “está” + adjetivo (“está frio”) ou “faz” + sustantivo (“faz calor”). Para chuva: “está chovendo”.", "Hoje está ensolarado. / Na primavera, está chovendo com frequência."],
@@ -2473,12 +2473,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende vocabulario de mascotas y a usar “ter que” para obligaciones en portugués.",
     study: {
       vocab: [
-        ["alimentar o animal", "to feed the pet"],
-        ["passear com o cachorro", "to walk the dog"],
-        ["o veterinário", "the veterinarian"],
-        ["vacinar", "to vaccinate"],
-        ["a caixa de areia", "the litter box"],
-        ["adotar um animal", "to adopt a pet"],
+        ["alimentar o animal", "alimentar a la mascota"],
+        ["passear com o cachorro", "pasear al perro"],
+        ["o veterinário", "el veterinario"],
+        ["vacinar", "vacunar"],
+        ["a caixa de areia", "la caja de arena"],
+        ["adotar um animal", "adoptar una mascota"],
       ],
       grammar: [
         ["“Ter que” para obligaciones", "“Ter que” + infinitivo expresa una obligación o necesidad cotidiana.", "Eu tenho que passear com o cachorro todas as manhãs. / Ela tem que alimentar o gato duas vezes ao dia."],
@@ -2498,12 +2498,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende vocabulario de emprendimiento y a usar “ir” (futuro próximo) para planes en portugués.",
     study: {
       vocab: [
-        ["a startup", "startup"],
-        ["lançar um produto", "to launch a product"],
-        ["o investidor", "investor"],
-        ["o plano de negócios", "business plan"],
-        ["assumir um risco", "to take a risk"],
-        ["escalar um negócio", "to scale a business"],
+        ["a startup", "la startup"],
+        ["lançar um produto", "lanzar un producto"],
+        ["o investidor", "el inversor"],
+        ["o plano de negócios", "el plan de negocio"],
+        ["assumir um risco", "asumir un riesgo"],
+        ["escalar um negócio", "escalar un negocio"],
       ],
       grammar: [
         ["“Ir” + infinitivo (futuro próximo) para planes", "“Ir” + infinitivo expresa un plan o intención ya decidida, el equivalente al “going to” en inglés.", "Vamos lançar o produto no mês que vem. / Ela vai procurar investidores."],
@@ -2523,12 +2523,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de la exploración espacial usando el futuro do subjuntivo composto en portugués.",
     study: {
       vocab: [
-        ["a missão espacial", "space mission"],
-        ["o astronauta", "astronaut"],
-        ["orbitar", "to orbit"],
-        ["o lançamento do foguete", "rocket launch"],
-        ["o espaço sideral", "outer space"],
-        ["a estação espacial", "space station"],
+        ["a missão espacial", "la misión espacial"],
+        ["o astronauta", "el astronauta"],
+        ["orbitar", "orbitar"],
+        ["o lançamento do foguete", "el lanzamiento del cohete"],
+        ["o espaço sideral", "el espacio exterior"],
+        ["a estação espacial", "la estación espacial"],
       ],
       grammar: [
         ["Futuro do presente composto para logros futuros", "El futuro composto (“terá” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Até 2030, os astronautas terão pousado em Marte. / O foguete terá alcançado a órbita até lá."],
@@ -2548,12 +2548,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la ética de la IA usando la voz pasiva en registro formal en portugués.",
     study: {
       vocab: [
-        ["a inteligência artificial", "artificial intelligence"],
-        ["o viés algorítmico", "algorithmic bias"],
-        ["a responsabilização", "accountability"],
-        ["a privacidade de dados", "data privacy"],
-        ["regulamentar", "to regulate"],
-        ["as consequências não intencionais", "unintended consequences"],
+        ["a inteligência artificial", "la inteligencia artificial"],
+        ["o viés algorítmico", "el sesgo algorítmico"],
+        ["a responsabilização", "la rendición de cuentas"],
+        ["a privacidade de dados", "la privacidad de datos"],
+        ["regulamentar", "regular"],
+        ["as consequências não intencionais", "consecuencias no deseadas"],
       ],
       grammar: [
         ["A voz passiva em registro formal/acadêmico", "La voz pasiva (“ser” + participio) se usa en portugués formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Esses sistemas deveriam ser regulamentados para evitar vieses. / O viés algorítmico foi documentado em vários estudos."],
@@ -2573,12 +2573,12 @@ window.LESSON_BANKS.PT = [
     description:"Reflexiona sobre la conciencia usando frases clivadas (estructuras enfáticas) en portugués.",
     study: {
       vocab: [
-        ["a consciência", "consciousness"],
-        ["a experiência subjetiva", "subjective experience"],
-        ["o experimento mental", "thought experiment"],
-        ["o livre-arbítrio", "free will"],
-        ["a autoconsciência", "self-awareness"],
-        ["o problema mente-corpo", "the mind-body problem"],
+        ["a consciência", "la conciencia"],
+        ["a experiência subjetiva", "la experiencia subjetiva"],
+        ["o experimento mental", "un experimento mental"],
+        ["o livre-arbítrio", "el libre albedrío"],
+        ["a autoconsciência", "la autoconciencia"],
+        ["o problema mente-corpo", "el problema mente-cuerpo"],
       ],
       grammar: [
         ["Frases clivadas (“o que... é...”) para énfasis", "Las frases clivadas (“o que... é...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "O que realmente define a consciência não é apenas o comportamento, mas a experiência subjetiva."],
@@ -2598,12 +2598,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de jardinagem e a dar instruções simples com o imperativo em português.",
     study: {
       vocab: [
-        ["regar as plantas", "to water the plants"],
-        ["a semente", "the seed"],
-        ["crescer", "to grow"],
-        ["a flor", "the flower"],
-        ["a terra", "the soil"],
-        ["a luz do sol", "sunlight"],
+        ["regar as plantas", "regar las plantas"],
+        ["a semente", "la semilla"],
+        ["crescer", "crecer"],
+        ["a flor", "la flor"],
+        ["a terra", "la tierra"],
+        ["a luz do sol", "la luz solar"],
       ],
       grammar: [
         ["O imperativo para instruções", "El imperativo (você) se usa para dar órdenes o instrucciones. La forma negativa usa “não” + subjuntivo.", "Regue as plantas todos os dias. / Não esqueça de fechar o portão."],
@@ -2623,12 +2623,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de biblioteca e a narrar no pretérito perfeito em português.",
     study: {
       vocab: [
-        ["pegar um livro emprestado", "to borrow a book"],
-        ["a carteirinha da biblioteca", "the library card"],
-        ["a data de devolução", "the due date"],
-        ["a estante", "the bookshelf"],
-        ["o romance", "the novel"],
-        ["devolver um livro", "to return a book"],
+        ["pegar um livro emprestado", "pedir prestado un libro"],
+        ["a carteirinha da biblioteca", "el carné de la biblioteca"],
+        ["a data de devolução", "la fecha de vencimiento"],
+        ["a estante", "la estantería"],
+        ["o romance", "la novela"],
+        ["devolver um livro", "devolver un libro"],
       ],
       grammar: [
         ["Pretérito perfeito para narrar", "El pretérito perfeito describe acciones completas en el pasado, con un inicio y fin claros.", "Eu peguei um romance emprestado na semana passada. / Ela devolveu o livro no prazo."],
@@ -2648,12 +2648,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário sobre parentalidade e a usar o pretérito imperfeito para hábitos passados em português.",
     study: {
       vocab: [
-        ["amamentar", "to breastfeed"],
-        ["o berço", "the crib"],
-        ["fazer o bebê arrotar", "to burp the baby"],
-        ["a rotina para dormir", "bedtime routine"],
-        ["cuidar de crianças", "to babysit"],
-        ["o pediatra", "the pediatrician"],
+        ["amamentar", "amamantar"],
+        ["o berço", "la cuna"],
+        ["fazer o bebê arrotar", "hacer eructar al bebé"],
+        ["a rotina para dormir", "la rutina para dormir"],
+        ["cuidar de crianças", "cuidar niños"],
+        ["o pediatra", "el pediatra"],
       ],
       grammar: [
         ["Pretérito imperfeito para hábitos passados", "El pretérito imperfeito describe hábitos o estados repetidos en el pasado, sin un final marcado.", "O bebê acordava a cada duas horas. / Nós visitávamos o pediatra todo mês."],
@@ -2673,12 +2673,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de descubrimientos arqueológicos usando el futuro composto de probabilidad en portugués.",
     study: {
       vocab: [
-        ["o sítio arqueológico", "archaeological site"],
-        ["escavar", "to excavate"],
-        ["a civilização antiga", "ancient civilization"],
-        ["o artefato", "artifact"],
-        ["datar (um achado)", "to date (a find)"],
-        ["as ruínas", "ruins"],
+        ["o sítio arqueológico", "el yacimiento arqueológico"],
+        ["escavar", "excavar"],
+        ["a civilização antiga", "una civilización antigua"],
+        ["o artefato", "un artefacto"],
+        ["datar (um achado)", "datar (un hallazgo)"],
+        ["as ruínas", "las ruinas"],
       ],
       grammar: [
         ["Futuro composto de probabilidade sobre o passado", "El futuro composto (“terá” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Este artefato terá pertencido a um rei. / O sítio pode ter sido um templo."],
@@ -2698,12 +2698,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la neurociencia usando estructuras enfáticas en registro académico en portugués.",
     study: {
       vocab: [
-        ["a via neural", "neural pathway"],
-        ["a sinapse", "synapse"],
-        ["a neuroplasticidade", "neuroplasticity"],
-        ["a função cognitiva", "cognitive function"],
-        ["o neurotransmissor", "neurotransmitter"],
-        ["a ressonância cerebral", "brain scan"],
+        ["a via neural", "la vía neuronal"],
+        ["a sinapse", "la sinapsis"],
+        ["a neuroplasticidade", "la neuroplasticidad"],
+        ["a função cognitiva", "la función cognitiva"],
+        ["o neurotransmissor", "el neurotransmisor"],
+        ["a ressonância cerebral", "el escáner cerebral"],
       ],
       grammar: [
         ["Estruturas enfáticas com advérbios iniciais", "En portugués formal/académico, colocar un adverbio restrictivo al inicio (“Raramente”, “Só assim”) da énfasis a la oración, un rasgo típico del registro académico.", "Raramente os pesquisadores encontraram evidências tão claras de neuroplasticidade. / Só assim se explica a função cognitiva."],
@@ -2723,12 +2723,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la economía conductual usando nominalización en registro académico en portugués.",
     study: {
       vocab: [
-        ["o viés cognitivo", "cognitive bias"],
-        ["a aversão à perda", "loss aversion"],
-        ["o efeito de ancoragem", "anchoring effect"],
-        ["a tomada de decisão", "decision-making"],
-        ["o comportamento irracional", "irrational behavior"],
-        ["o empurrãozinho/incentivo sutil", "nudge"],
+        ["o viés cognitivo", "el sesgo cognitivo"],
+        ["a aversão à perda", "la aversión a la pérdida"],
+        ["o efeito de ancoragem", "el efecto anclaje"],
+        ["a tomada de decisão", "la toma de decisiones"],
+        ["o comportamento irracional", "el comportamiento irracional"],
+        ["o empurrãozinho/incentivo sutil", "el empujón (nudge) conductual"],
       ],
       grammar: [
         ["Nominalização no registro acadêmico", "La nominalización convierte verbos en sustantivos abstractos (“decidir” → “a tomada de decisão”), un rasgo típico del portugués académico formal.", "A persistência do viés cognitivo afeta a tomada de decisão. / Os pesquisadores estudam a evitação da perda."],
@@ -2748,12 +2748,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de fotografia e a usar “poder” para habilidade em português.",
     study: {
       vocab: [
-        ["a câmera", "camera"],
-        ["a foto", "photo/picture"],
-        ["a lente", "lens"],
-        ["tirar uma foto", "to take a picture"],
-        ["o zoom", "zoom"],
-        ["o cartão de memória", "memory card"],
+        ["a câmera", "la cámara"],
+        ["a foto", "la foto"],
+        ["a lente", "el objetivo"],
+        ["tirar uma foto", "tomar una foto"],
+        ["o zoom", "el zoom"],
+        ["o cartão de memória", "la tarjeta de memoria"],
       ],
       grammar: [
         ["“Poder” para habilidade", "“Poder” + infinitivo expresa habilidad o capacidad; en negativo se usa “não pode”.", "Eu posso tirar boas fotos com esta câmera. / Esta câmera não pode dar zoom muito longe."],
@@ -2773,12 +2773,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de camping e a usar “algum/nenhum” para quantidades em português.",
     study: {
       vocab: [
-        ["a barraca", "tent"],
-        ["o saco de dormir", "sleeping bag"],
-        ["a fogueira", "campfire"],
-        ["a trilha", "hiking trail"],
-        ["a mochila", "backpack"],
-        ["montar uma barraca", "to pitch a tent"],
+        ["a barraca", "la tienda de campaña"],
+        ["o saco de dormir", "el saco de dormir"],
+        ["a fogueira", "la hoguera"],
+        ["a trilha", "la ruta de senderismo"],
+        ["a mochila", "la mochila"],
+        ["montar uma barraca", "montar una tienda de campaña"],
       ],
       grammar: [
         ["“Algum/nenhum” para quantidades", "“Algum” se usa en afirmativas para cantidades indefinidas; “nenhum” se usa en negativas.", "Temos alguma lenha para a fogueira. / Não temos nenhuma água sobrando."],
@@ -2798,12 +2798,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de apicultura e a usar orações relativas em português.",
     study: {
       vocab: [
-        ["a colmeia", "beehive"],
-        ["o mel", "honey"],
-        ["picar", "to sting"],
-        ["polinizar", "to pollinate"],
-        ["o apicultor", "beekeeper"],
-        ["a abelha rainha", "queen bee"],
+        ["a colmeia", "la colmena"],
+        ["o mel", "la miel"],
+        ["picar", "picar"],
+        ["polinizar", "polinizar"],
+        ["o apicultor", "el apicultor"],
+        ["a abelha rainha", "la abeja reina"],
       ],
       grammar: [
         ["Orações relativas (que/quem)", "“Que” se usa para personas y cosas; “quem” se usa específicamente para personas, sobre todo tras preposición.", "O apicultor que cuida desta colmeia é muito experiente. / As abelhas, que polinizam as flores, são essenciais."],
@@ -2823,12 +2823,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de criptomonedas usando el futuro do pretérito composto en portugués.",
     study: {
       vocab: [
-        ["a criptomoeda", "cryptocurrency"],
-        ["o blockchain", "blockchain"],
-        ["a carteira digital", "digital wallet"],
-        ["investir", "to invest"],
-        ["a volatilidade", "volatility"],
-        ["descentralizado", "decentralized"],
+        ["a criptomoeda", "la criptomoneda"],
+        ["o blockchain", "la cadena de bloques"],
+        ["a carteira digital", "la cartera digital"],
+        ["investir", "invertir"],
+        ["a volatilidade", "la volatilidad"],
+        ["descentralizado", "descentralizado"],
       ],
       grammar: [
         ["Pretérito mais-que-perfeito do subjuntivo + futuro do pretérito composto", "Para hipótesis irreales sobre el pasado se usa “se” + pretérito mais-que-perfeito do subjuntivo, y “teria” + participio en la consecuencia.", "Se eu tivesse investido antes, teria ganhado mais dinheiro. / Se o mercado não tivesse quebrado, os preços teriam permanecido altos."],
@@ -2848,12 +2848,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la bioética usando “tão...que/tal...que” para énfasis en portugués.",
     study: {
       vocab: [
-        ["a edição genética", "gene editing"],
-        ["o consentimento informado", "informed consent"],
-        ["o ensaio clínico", "clinical trial"],
-        ["a modificação genética", "genetic modification"],
-        ["o dilema ético", "ethical dilemma"],
-        ["manipular o DNA", "to manipulate DNA"],
+        ["a edição genética", "la edición genética"],
+        ["o consentimento informado", "el consentimiento informado"],
+        ["o ensaio clínico", "el ensayo clínico"],
+        ["a modificação genética", "la modificación genética"],
+        ["o dilema ético", "el dilema ético"],
+        ["manipular o DNA", "manipular el ADN"],
       ],
       grammar: [
         ["“Tão...que/tal...que” para énfasis", "“Tão” + adjetivo/adverbio + “que” y “tal” + sustantivo + “que” expresan una consecuencia enfática.", "A edição genética é tão poderosa que levanta sérias questões éticas. / É tal o dilema que os especialistas ainda discordam."],
@@ -2873,12 +2873,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en portugués.",
     study: {
       vocab: [
-        ["as relações diplomáticas", "diplomatic relations"],
-        ["a soberania", "sovereignty"],
-        ["as sanções", "sanctions"],
-        ["o acordo bilateral", "bilateral agreement"],
-        ["a tensão geopolítica", "geopolitical tension"],
-        ["negociar um tratado", "to negotiate a treaty"],
+        ["as relações diplomáticas", "las relaciones diplomáticas"],
+        ["a soberania", "la soberanía"],
+        ["as sanções", "las sanciones"],
+        ["o acordo bilateral", "el acuerdo bilateral"],
+        ["a tensão geopolítica", "la tensión geopolítica"],
+        ["negociar um tratado", "negociar un tratado"],
       ],
       grammar: [
         ["Gerúndio e particípio para um registro acadêmico conciso", "El gerundio (“Analisando...”) y el participio pasado en construcciones absolutas (“Diante das crescentes sanções...”) permiten un estilo más conciso y formal.", "Analisando os dados, os pesquisadores concluíram que as tensões aumentariam. / Diante das crescentes sanções, o governo mudou sua política."],
@@ -2898,12 +2898,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de cabeleireiro e a usar o comparativo e superlativo em português.",
     study: {
       vocab: [
-        ["o corte de cabelo", "haircut"],
-        ["o cabeleireiro/a cabeleireira", "hairdresser"],
-        ["a tesoura", "scissors"],
-        ["o cabelo curto/comprido", "short/long hair"],
-        ["aparar", "to trim"],
-        ["o espelho", "mirror"],
+        ["o corte de cabelo", "el corte de pelo"],
+        ["o cabeleireiro/a cabeleireira", "el peluquero"],
+        ["a tesoura", "las tijeras"],
+        ["o cabelo curto/comprido", "pelo corto/largo"],
+        ["aparar", "recortar"],
+        ["o espelho", "el espejo"],
       ],
       grammar: [
         ["Comparativo e superlativo", "El comparativo se forma con “mais/menos... que”, y el superlativo con “o/a mais...”.", "Este corte é mais curto que o anterior. / Ela tem o cabelo mais comprido da família."],
@@ -2923,12 +2923,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de oficina mecânica e a usar “muito/muitos” em português.",
     study: {
       vocab: [
-        ["o mecânico", "mechanic"],
-        ["o pneu furado", "flat tire"],
-        ["o motor", "engine"],
-        ["consertar o carro", "to fix the car"],
-        ["a peça de reposição", "spare part"],
-        ["a troca de óleo", "oil change"],
+        ["o mecânico", "el mecánico"],
+        ["o pneu furado", "la rueda pinchada"],
+        ["o motor", "el motor"],
+        ["consertar o carro", "arreglar el coche"],
+        ["a peça de reposição", "la pieza de repuesto"],
+        ["a troca de óleo", "el cambio de aceite"],
       ],
       grammar: [
         ["“Muito/muitos” para cantidades", "“Muito” concuerda en género y número con el sustantivo: “muito tempo”, “muitas peças”, “muita água”.", "Este conserto precisa de muitas peças de reposição. / Não sobra muito tempo antes da viagem."],
@@ -2948,12 +2948,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário musical e a usar o gerúndio e o infinitivo em português.",
     study: {
       vocab: [
-        ["praticar escalas", "to practice scales"],
-        ["a partitura", "sheet music"],
-        ["afinar um instrumento", "to tune an instrument"],
-        ["o ritmo", "rhythm"],
-        ["o professor de música", "music teacher"],
-        ["se apresentar", "to perform"],
+        ["praticar escalas", "practicar escalas"],
+        ["a partitura", "la partitura"],
+        ["afinar um instrumento", "afinar un instrumento"],
+        ["o ritmo", "el ritmo"],
+        ["o professor de música", "el profesor de música"],
+        ["se apresentar", "actuar/interpretar"],
       ],
       grammar: [
         ["Gerúndio vs. infinitivo", "Algunos verbos van seguidos de gerundio (“gosto de praticar”, con “de”), otros de infinitivo (“quero tocar”).", "Gosto de praticar escalas toda manhã. / Ela quer se apresentar diante de uma plateia."],
@@ -2973,12 +2973,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla del reciclaje usando el presente do indicativo para verdades generales en portugués.",
     study: {
       vocab: [
-        ["reciclar", "to recycle"],
-        ["a economia circular", "circular economy"],
-        ["a gestão de resíduos", "waste management"],
-        ["reutilizar", "to reuse"],
-        ["o aterro sanitário", "landfill"],
-        ["a matéria-prima", "raw material"],
+        ["reciclar", "reciclar"],
+        ["a economia circular", "la economía circular"],
+        ["a gestão de resíduos", "la gestión de residuos"],
+        ["reutilizar", "reutilizar"],
+        ["o aterro sanitário", "el vertedero"],
+        ["a matéria-prima", "la materia prima"],
       ],
       grammar: [
         ["Presente do indicativo para verdades gerais (condicional zero)", "En portugués, el condicional cero se expresa con “se” + presente do indicativo en ambas cláusulas, para hechos o verdades generales.", "Se você recicla papel, isso economiza árvores. / Os materiais vão para um aterro se não forem reutilizados."],
@@ -2998,12 +2998,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la justicia social usando “tomara/quem me dera” para arrepentimiento en registro formal en portugués.",
     study: {
       vocab: [
-        ["a justiça social", "social justice"],
-        ["a desigualdade", "inequality"],
-        ["os direitos civis", "civil rights"],
-        ["a redistribuição", "redistribution"],
-        ["a opressão sistêmica", "systemic oppression"],
-        ["o bem comum", "common good"],
+        ["a justiça social", "la justicia social"],
+        ["a desigualdade", "la desigualdad"],
+        ["os direitos civis", "los derechos civiles"],
+        ["a redistribuição", "la redistribución"],
+        ["a opressão sistêmica", "la opresión sistémica"],
+        ["o bem comum", "el bien común"],
       ],
       grammar: [
         ["“Tomara que” + pretérito imperfeito do subjuntivo para arrepentimiento", "“Tomara que” + pretérito imperfeito ou mais-que-perfeito do subjuntivo expresa arrepentimiento o el deseo de que algo fuera diferente.", "Tomara que as reformas passadas tivessem enfrentado a opressão sistêmica. / Os filósofos gostariam que a desigualdade pudesse ser resolvida só com políticas."],
@@ -3023,12 +3023,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza los rituales culturales usando comparativos dobles en portugués.",
     study: {
       vocab: [
-        ["o ritual", "ritual"],
-        ["o relativismo cultural", "cultural relativism"],
-        ["o rito de passagem", "rite of passage"],
-        ["o parentesco", "kinship"],
-        ["a identidade coletiva", "collective identity"],
-        ["a tradição oral", "oral tradition"],
+        ["o ritual", "el ritual"],
+        ["o relativismo cultural", "el relativismo cultural"],
+        ["o rito de passagem", "el rito de iniciación"],
+        ["o parentesco", "el parentesco"],
+        ["a identidade coletiva", "la identidad colectiva"],
+        ["a tradição oral", "la tradición oral"],
       ],
       grammar: [
         ["Comparativos duplos (“quanto mais... mais...”)", "La estructura “quanto mais/menos..., mais/menos...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Quanto mais os antropólogos estudam os rituais, mais entendem a identidade coletiva. / Quanto mais antiga a tradição, mais forte sua influência."],
@@ -3048,12 +3048,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de ferramentas e a usar a comparação de igualdade (“tão... quanto”) em português.",
     study: {
       vocab: [
-        ["o martelo", "hammer"],
-        ["a chave de fenda", "screwdriver"],
-        ["o prego", "nail"],
-        ["o parafuso", "screw"],
-        ["a caixa de ferramentas", "toolbox"],
-        ["a escada", "ladder"],
+        ["o martelo", "el martillo"],
+        ["a chave de fenda", "el destornillador"],
+        ["o prego", "el clavo"],
+        ["o parafuso", "el tornillo"],
+        ["a caixa de ferramentas", "la caja de herramientas"],
+        ["a escada", "la escalera"],
       ],
       grammar: [
         ["Comparação de igualdade (“tão... quanto”)", "“Tão” + adjetivo + “quanto” expresa que dos cosas son iguales en cierta cualidad.", "Este martelo é tão pesado quanto aquele. / A escada não é tão alta quanto a parede."],
@@ -3073,12 +3073,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de lavanderia e a usar “alguns/um pouco de” em português.",
     study: {
       vocab: [
-        ["a máquina de lavar", "washing machine"],
-        ["o sabão em pó", "detergent"],
-        ["estender a roupa", "to hang out clothes"],
-        ["a mancha", "stain"],
-        ["a secadora", "dryer"],
-        ["passar a ferro", "to iron"],
+        ["a máquina de lavar", "la lavadora"],
+        ["o sabão em pó", "el detergente"],
+        ["estender a roupa", "tender la ropa"],
+        ["a mancha", "la mancha"],
+        ["a secadora", "la secadora"],
+        ["passar a ferro", "planchar"],
       ],
       grammar: [
         ["“Alguns/um pouco de” para cantidades pequeñas", "“Alguns” se usa con sustantivos contables, “um pouco de” con incontables, ambos para cantidades pequeñas pero suficientes.", "Preciso de um pouco de sabão em pó para esta carga. / Há algumas manchas nesta camisa."],
@@ -3098,12 +3098,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de xadrez e a usar o futuro do presente com “se” em português.",
     study: {
       vocab: [
-        ["o tabuleiro de xadrez", "chessboard"],
-        ["dar xeque-mate", "to checkmate"],
-        ["o peão", "pawn"],
-        ["mover uma peça", "to move a piece"],
-        ["a estratégia", "strategy"],
-        ["o adversário", "opponent"],
+        ["o tabuleiro de xadrez", "el tablero de ajedrez"],
+        ["dar xeque-mate", "dar jaque mate"],
+        ["o peão", "el peón"],
+        ["mover uma peça", "mover una pieza"],
+        ["a estratégia", "la estrategia"],
+        ["o adversário", "el oponente"],
       ],
       grammar: [
         ["“Se” + presente do indicativo + futuro do presente", "Para consecuencias reales y probables en el futuro se usa “se” + presente do indicativo, y futuro do presente en la consecuencia.", "Se você mover essa peça, você vai perder a partida. / Se ela planejar bem sua estratégia, ela vencerá."],
@@ -3123,12 +3123,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de restauración usando la construcción causativa “mandar + infinitivo” en portugués.",
     study: {
       vocab: [
-        ["restaurar", "to restore"],
-        ["o sítio patrimonial", "heritage site"],
-        ["a fachada", "facade"],
-        ["o andaime", "scaffolding"],
-        ["preservar", "to preserve"],
-        ["o dano estrutural", "structural damage"],
+        ["restaurar", "restaurar"],
+        ["o sítio patrimonial", "el sitio patrimonial"],
+        ["a fachada", "la fachada"],
+        ["o andaime", "el andamio"],
+        ["preservar", "preservar"],
+        ["o dano estrutural", "el daño estructural"],
       ],
       grammar: [
         ["Construção causativa (“mandar + infinitivo”)", "“Mandar” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "A cidade mandou restaurar a fachada no ano passado. / Eles estão mandando consertar o telhado este mês."],
@@ -3148,12 +3148,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza el método científico usando cláusulas de propósito (“a fim de/para que”) en portugués.",
     study: {
       vocab: [
-        ["a hipótese", "hypothesis"],
-        ["a falseabilidade", "falsifiability"],
-        ["a evidência empírica", "empirical evidence"],
-        ["a revisão por pares", "peer review"],
-        ["replicar um estudo", "to replicate a study"],
-        ["a mudança de paradigma", "paradigm shift"],
+        ["a hipótese", "la hipótesis"],
+        ["a falseabilidade", "la falsabilidad"],
+        ["a evidência empírica", "la evidencia empírica"],
+        ["a revisão por pares", "la revisión por pares"],
+        ["replicar um estudo", "replicar un estudio"],
+        ["a mudança de paradigma", "el cambio de paradigma"],
       ],
       grammar: [
         ["Orações de finalidade (“a fim de/para que”)", "“A fim de” + infinitivo y “para que” + subjuntivo expresan el propósito de una acción, típicos del registro formal/académico.", "Os cientistas replicam estudos a fim de confirmar os resultados. / Os pesquisadores publicam dados para que outros possam verificá-los."],
@@ -3173,12 +3173,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la teoría de juegos usando “nem... nem” y concesión con “enquanto” en portugués.",
     study: {
       vocab: [
-        ["o equilíbrio de Nash", "Nash equilibrium"],
-        ["o jogo de soma zero", "zero-sum game"],
-        ["a matriz de payoff", "payoff matrix"],
-        ["a estratégia dominante", "dominant strategy"],
-        ["o ator racional", "rational actor"],
-        ["o dilema do prisioneiro", "prisoner's dilemma"],
+        ["o equilíbrio de Nash", "el equilibrio de Nash"],
+        ["o jogo de soma zero", "el juego de suma cero"],
+        ["a matriz de payoff", "la matriz de resultados"],
+        ["a estratégia dominante", "la estrategia dominante"],
+        ["o ator racional", "el actor racional"],
+        ["o dilema do prisioneiro", "el dilema del prisionero"],
       ],
       grammar: [
         ["“Nem... nem” y concesión con “enquanto”", "“Nem... nem” niega dos opciones a la vez; “enquanto” introduce un contraste formal entre dos ideas.", "Nem um jogador se beneficia da traição mútua. / Enquanto a cooperação maximiza o ganho conjunto, o interesse próprio costuma prevalecer."],
@@ -3198,12 +3198,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de mergulho e a usar preposições de lugar em português.",
     study: {
       vocab: [
-        ["mergulhar", "to dive"],
-        ["o snorkel", "snorkel"],
-        ["o peixe", "fish"],
-        ["o recife de coral", "coral reef"],
-        ["a roupa de neoprene", "wetsuit"],
-        ["debaixo d'água", "underwater"],
+        ["mergulhar", "bucear"],
+        ["o snorkel", "el tubo de buceo"],
+        ["o peixe", "el pez"],
+        ["o recife de coral", "el arrecife de coral"],
+        ["a roupa de neoprene", "el traje de neopreno"],
+        ["debaixo d'água", "bajo el agua"],
       ],
       grammar: [
         ["Preposições de lugar (em/sobre/debaixo de/ao lado de)", "“Em” indica dentro de algo, “sobre” indica encima de una superficie, “debaixo de” indica abajo, y “ao lado de” indica junto a.", "Os peixes nadam na água. / O recife de coral está debaixo do barco."],
@@ -3223,12 +3223,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de trabalhos manuais e a usar sequenciadores em português.",
     study: {
       vocab: [
-        ["dobrar", "to fold"],
-        ["o papel", "paper"],
-        ["a tesoura", "scissors"],
-        ["a cola", "glue"],
-        ["a dobra", "crease"],
-        ["o trabalho manual", "craft"],
+        ["dobrar", "doblar"],
+        ["o papel", "el papel"],
+        ["a tesoura", "las tijeras"],
+        ["a cola", "el pegamento"],
+        ["a dobra", "el pliegue"],
+        ["o trabalho manual", "la manualidad"],
       ],
       grammar: [
         ["Sequenciadores (primeiro, depois, em seguida, finalmente)", "Los secuenciadores organizan los pasos de un proceso en orden: “primeiro”, “depois/em seguida”, “finalmente”.", "Primeiro, dobre o papel ao meio. Depois, faça uma dobra. Finalmente, dobre os cantos."],
@@ -3248,12 +3248,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de paleontologia e a usar “já/ainda não/ainda” com o pretérito perfeito em português.",
     study: {
       vocab: [
-        ["o fóssil", "fossil"],
-        ["o osso de dinossauro", "dinosaur bone"],
-        ["o sítio de escavação", "excavation site"],
-        ["extinto", "extinct"],
-        ["o esqueleto", "skeleton"],
-        ["desenterrar", "to dig up"],
+        ["o fóssil", "el fósil"],
+        ["o osso de dinossauro", "el hueso de dinosaurio"],
+        ["o sítio de escavação", "el sitio de excavación"],
+        ["extinto", "extinto"],
+        ["o esqueleto", "el esqueleto"],
+        ["desenterrar", "desenterrar"],
       ],
       grammar: [
         ["“Já/ainda não/ainda” com o pretérito perfeito", "“Já” (ya) se usa en afirmativas, “ainda não” (todavía no) en negativas, y “ainda” (todavía) enfatiza una situación que continúa.", "Eles já encontraram o esqueleto. / Eles ainda não terminaram a escavação. / Os cientistas ainda estão estudando o fóssil."],
@@ -3273,12 +3273,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de arte urbano usando “a menos que” em português.",
     study: {
       vocab: [
-        ["o mural", "mural"],
-        ["a tinta spray", "spray paint"],
-        ["o espaço público", "public space"],
-        ["o vandalismo", "vandalism"],
-        ["o artista de rua", "street artist"],
-        ["encomendar um mural", "to commission a mural"],
+        ["o mural", "el mural"],
+        ["a tinta spray", "la pintura en aerosol"],
+        ["o espaço público", "el espacio público"],
+        ["o vandalismo", "el vandalismo"],
+        ["o artista de rua", "el artista callejero"],
+        ["encomendar um mural", "encargar un mural"],
       ],
       grammar: [
         ["“A menos que” + subjuntivo", "“A menos que” + subjuntivo expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "A menos que a cidade o aprove, o mural será considerado vandalismo. / Ela não vai pintar a menos que tenha permissão."],
@@ -3298,12 +3298,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la criminología usando “poder” para posibilidad en registro formal en portugués.",
     study: {
       vocab: [
-        ["a evidência forense", "forensic evidence"],
-        ["o suspeito", "suspect"],
-        ["condenar", "to convict"],
-        ["a dúvida razoável", "reasonable doubt"],
-        ["a reincidência", "recidivism"],
-        ["a reabilitação", "rehabilitation"],
+        ["a evidência forense", "la evidencia forense"],
+        ["o suspeito", "el sospechoso"],
+        ["condenar", "condenar"],
+        ["a dúvida razoável", "la duda razonable"],
+        ["a reincidência", "la reincidencia"],
+        ["a reabilitação", "la rehabilitación"],
       ],
       grammar: [
         ["“Pode/poderia” para posibilidad formal", "“Pode” y “poderia” + infinitivo expresan posibilidad; en registro formal/legal, “pode” suele sonar ligeramente más seguro que “poderia”.", "A evidência forense pode apontar para o suspeito. / Sem reabilitação, a reincidência poderia aumentar."],
@@ -3323,12 +3323,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la filosofía del lenguaje usando el subjuntivo tras verbos de sugerencia en portugués.",
     study: {
       vocab: [
-        ["o ato de fala", "speech act"],
-        ["a referência", "reference"],
-        ["o significado", "meaning"],
-        ["a ambiguidade", "ambiguity"],
-        ["a relatividade linguística", "linguistic relativity"],
-        ["a proposição", "proposition"],
+        ["o ato de fala", "el acto de habla"],
+        ["a referência", "la referencia"],
+        ["o significado", "el significado"],
+        ["a ambiguidade", "la ambigüedad"],
+        ["a relatividade linguística", "la relatividad lingüística"],
+        ["a proposição", "la proposición"],
       ],
       grammar: [
         ["Subjuntivo tras verbos de sugerencia (sugerir/insistir/recomendar que)", "Tras verbos como “sugerir”, “insistir” o “recomendar” + “que”, el verbo siguiente va en subjuntivo, típico del registro formal/académico.", "Os filósofos sugerem que o significado seja estudado através do uso. / O linguista insiste em que o contexto seja considerado."],
@@ -3348,12 +3348,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de circo e a usar exclamações (“que.../como...”) em português.",
     study: {
       vocab: [
-        ["o palhaço", "clown"],
-        ["a corda bamba", "tightrope"],
-        ["o malabarista", "juggler"],
-        ["o acrobata", "acrobat"],
-        ["a lona", "tent"],
-        ["surpreendente", "amazing"],
+        ["o palhaço", "el payaso"],
+        ["a corda bamba", "la cuerda floja"],
+        ["o malabarista", "el malabarista"],
+        ["o acrobata", "el acróbata"],
+        ["a lona", "la tienda de campaña"],
+        ["surpreendente", "asombroso"],
       ],
       grammar: [
         ["Exclamações (“que.../como...”)", "“Que” + sustantivo y “Como” + verbo/adjetivo expresan sorpresa o admiración de forma exclamativa.", "Que malabarista surpreendente! / Como este espetáculo é surpreendente!"],
@@ -3373,12 +3373,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de mercados de pulgas e a usar “demais/suficiente” em português.",
     study: {
       vocab: [
-        ["o mercado de pulgas", "flea market"],
-        ["a pechincha", "bargain"],
-        ["pechinchar", "to haggle"],
-        ["de segunda mão", "secondhand"],
-        ["o vendedor", "vendor"],
-        ["a antiguidade", "antique"],
+        ["o mercado de pulgas", "el mercadillo"],
+        ["a pechincha", "la ganga"],
+        ["pechinchar", "regatear"],
+        ["de segunda mão", "de segunda mano"],
+        ["o vendedor", "el vendedor"],
+        ["a antiguidade", "la antigüedad"],
       ],
       grammar: [
         ["“Demais/suficiente”", "“Demais” (después del adjetivo) indica exceso, mientras que “suficiente” indica una cantidad adecuada.", "Esta antiguidade é cara demais. / Não tenho dinheiro suficiente para esta pechincha."],
@@ -3398,12 +3398,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de genealogia e a usar “embora” em português.",
     study: {
       vocab: [
-        ["a árvore genealógica", "family tree"],
-        ["o antepassado", "ancestor"],
-        ["o descendente", "descendant"],
-        ["a certidão de nascimento", "birth certificate"],
-        ["o bisavô/a bisavó", "great-grandparent"],
-        ["rastrear as raízes", "to trace one's roots"],
+        ["a árvore genealógica", "el árbol genealógico"],
+        ["o antepassado", "el antepasado"],
+        ["o descendente", "el descendiente"],
+        ["a certidão de nascimento", "el certificado de nacimiento"],
+        ["o bisavô/a bisavó", "el bisabuelo/la bisabuela"],
+        ["rastrear as raízes", "rastrear las propias raíces"],
       ],
       grammar: [
         ["“Embora” + subjuntivo para concesión", "“Embora” + subjuntivo introduce un contraste o concesión formal, equivalente a “although/even though” en inglés.", "Embora os registros sejam antigos, rastreamos nossas raízes. / Embora nunca tenha conhecido a bisavó, ela conhece a história da família."],
@@ -3423,12 +3423,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de fenómenos meteorológicos extremos usando “apesar de” en portugués.",
     study: {
       vocab: [
-        ["o furacão", "hurricane"],
-        ["o tornado", "tornado"],
-        ["a seca", "drought"],
-        ["a enchente repentina", "flash flood"],
-        ["a velocidade do vento", "wind speed"],
-        ["emitir um alerta", "to issue a warning"],
+        ["o furacão", "el huracán"],
+        ["o tornado", "el tornado"],
+        ["a seca", "la sequía"],
+        ["a enchente repentina", "la inundación repentina"],
+        ["a velocidade do vento", "la velocidad del viento"],
+        ["emitir um alerta", "emitir una alerta"],
       ],
       grammar: [
         ["“Apesar de” + sustantivo/infinitivo", "“Apesar de” + sustantivo o infinitivo (nunca cláusula conjugada completa) introduce un contraste, similar a “embora” pero con estructura distinta.", "Apesar do alerta, muitas pessoas ficaram perto da costa. / Apesar de emitir um alerta, as autoridades não conseguiram evitar os danos."],
@@ -3448,12 +3448,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la gentrificación usando el futuro do pretérito composto para crítica del pasado en portugués.",
     study: {
       vocab: [
-        ["a gentrificação", "gentrification"],
-        ["o deslocamento", "displacement"],
-        ["a moradia acessível", "affordable housing"],
-        ["a renovação urbana", "urban renewal"],
-        ["o aluguel crescente", "rising rent"],
-        ["a comunidade local", "local community"],
+        ["a gentrificação", "la gentrificación"],
+        ["o deslocamento", "el desplazamiento"],
+        ["a moradia acessível", "la vivienda asequible"],
+        ["a renovação urbana", "la renovación urbana"],
+        ["o aluguel crescente", "el aumento del alquiler"],
+        ["a comunidade local", "la comunidad local"],
       ],
       grammar: [
         ["“Deveria ter/não deveria ter” para crítica del pasado", "“Deveria ter” + participio expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "A cidade deveria ter protegido a moradia acessível. / As autoridades não deveriam ter ignorado a comunidade local."],
@@ -3473,12 +3473,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en portugués.",
     study: {
       vocab: [
-        ["a epistemologia", "epistemology"],
-        ["a crença verdadeira justificada", "justified true belief"],
-        ["o ceticismo", "skepticism"],
-        ["a certeza", "certainty"],
-        ["o conhecimento a priori", "a priori knowledge"],
-        ["a humildade epistêmica", "epistemic humility"],
+        ["a epistemologia", "la epistemología"],
+        ["a crença verdadeira justificada", "la creencia verdadera justificada"],
+        ["o ceticismo", "el escepticismo"],
+        ["a certeza", "la certeza"],
+        ["o conhecimento a priori", "el conocimiento a priori"],
+        ["a humildade epistêmica", "la humildad epistémica"],
       ],
       grammar: [
         ["“Mal... quando” para secuencia inmediata", "“Mal... quando” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Mal os filósofos propuseram uma teoria da certeza, quando os céticos a contestaram. / Mal alguém afirma saber algo, quando a dúvida surge."],
@@ -3498,12 +3498,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de observação de aves e a usar possessivos em português.",
     study: {
       vocab: [
-        ["o binóculo", "binoculars"],
-        ["o ninho", "nest"],
-        ["a pena", "feather"],
-        ["o bico", "beak"],
-        ["voar", "to fly"],
-        ["a asa", "wing"],
+        ["o binóculo", "los prismáticos"],
+        ["o ninho", "el nido"],
+        ["a pena", "la pluma"],
+        ["o bico", "el pico"],
+        ["voar", "volar"],
+        ["a asa", "el ala"],
       ],
       grammar: [
         ["Possessivos (meu/teu/seu/nosso/seu)", "Los posesivos indican a quién pertenece algo y concuerdan en número y género con el sustantivo poseído.", "Meu binóculo é novo. / O pássaro usa suas asas para voar."],
@@ -3523,12 +3523,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de cerâmica e a usar “quanto/quantos” em português.",
     study: {
       vocab: [
-        ["a argila", "clay"],
-        ["o torno de oleiro", "pottery wheel"],
-        ["o forno de cerâmica", "kiln"],
-        ["moldar", "to shape"],
-        ["o esmalte", "glaze"],
-        ["a tigela", "bowl"],
+        ["a argila", "la arcilla"],
+        ["o torno de oleiro", "el torno de alfarero"],
+        ["o forno de cerâmica", "el horno de cerámica"],
+        ["moldar", "moldear"],
+        ["o esmalte", "el esmalte"],
+        ["a tigela", "el cuenco"],
       ],
       grammar: [
         ["“Quanto/quantos”", "“Quanto” concuerda en género con sustantivos incontables singulares, “quantos/quantas” con sustantivos contables plurales, para preguntar cantidad.", "Quanta argila você precisa? / Quantas tigelas você fez?"],
@@ -3548,12 +3548,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de artes marciais e a usar “tanto...quanto/ou...ou” em português.",
     study: {
       vocab: [
-        ["as artes marciais", "martial arts"],
-        ["a faixa preta", "black belt"],
-        ["a técnica", "technique"],
-        ["a pegada do oponente", "opponent's grip"],
-        ["o equilíbrio", "balance"],
-        ["o dojo", "dojo"],
+        ["as artes marciais", "las artes marciales"],
+        ["a faixa preta", "el cinturón negro"],
+        ["a técnica", "la técnica"],
+        ["a pegada do oponente", "el agarre del oponente"],
+        ["o equilíbrio", "el equilibrio"],
+        ["o dojo", "el dojo"],
       ],
       grammar: [
         ["“Tanto...quanto/ou...ou”", "“Tanto... quanto” conecta dos elementos afirmando ambos; “ou... ou” presenta dos opciones alternativas.", "O aikido exige tanto força quanto equilíbrio. / Você pode praticar ou de manhã ou à noite."],
@@ -3573,12 +3573,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de micología usando “como se” em português.",
     study: {
       vocab: [
-        ["o cogumelo", "mushroom"],
-        ["o esporo", "spore"],
-        ["comestível", "edible"],
-        ["venenoso", "poisonous"],
-        ["o fungo", "fungus"],
-        ["o micélio", "mycelium"],
+        ["o cogumelo", "la seta"],
+        ["o esporo", "la espora"],
+        ["comestível", "comestible"],
+        ["venenoso", "venenoso"],
+        ["o fungo", "el hongo"],
+        ["o micélio", "el micelio"],
       ],
       grammar: [
         ["“Como se” + subjuntivo imperfeito", "“Como se” siempre va seguido de subjuntivo imperfeito (pretérito imperfeito do subjuntivo), aunque la comparación sea sobre el presente.", "Este cogumelo parece como se fosse venenoso. / O micélio se espalha como se tivesse vontade própria."],
@@ -3598,12 +3598,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza los ecosistemas marinos usando “desde que/contanto que” en portugués.",
     study: {
       vocab: [
-        ["o ecossistema marinho", "marine ecosystem"],
-        ["a biodiversidade", "biodiversity"],
-        ["a cadeia alimentar", "food chain"],
-        ["o branqueamento de corais", "coral bleaching"],
-        ["a espécie marinha", "marine species"],
-        ["a acidificação dos oceanos", "ocean acidification"],
+        ["o ecossistema marinho", "el ecosistema marino"],
+        ["a biodiversidade", "la biodiversidad"],
+        ["a cadeia alimentar", "la cadena alimentaria"],
+        ["o branqueamento de corais", "el blanqueamiento de coral"],
+        ["a espécie marinha", "las especies marinas"],
+        ["a acidificação dos oceanos", "la acidificación del océano"],
       ],
       grammar: [
         ["“Desde que/contanto que” + subjuntivo", "“Desde que” y “contanto que” + subjuntivo expresan una condición necesaria, equivalentes a “provided that” en inglés.", "A biodiversidade marinha pode se recuperar, desde que a poluição diminua. / Os recifes sobrevivem contanto que as temperaturas permaneçam estáveis."],
@@ -3623,12 +3623,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la cartografía usando “se não fosse por” en portugués.",
     study: {
       vocab: [
-        ["o cartógrafo", "cartographer"],
-        ["a projeção", "projection"],
-        ["o território inexplorado", "uncharted territory"],
-        ["a escala", "scale"],
-        ["o instrumento de navegação", "navigational instrument"],
-        ["cartografar", "to chart"],
+        ["o cartógrafo", "el cartógrafo"],
+        ["a projeção", "la proyección"],
+        ["o território inexplorado", "el territorio inexplorado"],
+        ["a escala", "la escala"],
+        ["o instrumento de navegação", "el instrumento de navegación"],
+        ["cartografar", "cartografiar"],
       ],
       grammar: [
         ["“Se não fosse por” para condición formal", "“Se não fosse por” + sustantivo expresa una condición hipotética muy formal, equivalente a “were it not for” en inglés.", "Se não fosse pelos primeiros cartógrafos, a exploração teria sido impossível. / Se não fosse pelas imagens de satélite, os mapas modernos seriam muito menos precisos."],
@@ -3648,12 +3648,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de costura e a usar verbos reflexivos básicos em português.",
     study: {
       vocab: [
-        ["a agulha", "needle"],
-        ["a linha", "thread"],
-        ["costurar", "to sew"],
-        ["experimentar (roupa)", "to try on"],
-        ["o botão", "button"],
-        ["o alfaiate", "tailor"],
+        ["a agulha", "la aguja"],
+        ["a linha", "el hilo"],
+        ["costurar", "coser"],
+        ["experimentar (roupa)", "probarse"],
+        ["o botão", "el botón"],
+        ["o alfaiate", "el sastre"],
       ],
       grammar: [
         ["Verbos reflexivos básicos", "Los verbos reflexivos en portugués usan “me/te/se/nos/se” antes o después del verbo; “experimentar” ropa NO es reflexivo en portugués, a diferencia del español.", "Eu experimento o casaco. / Ela costura o botão sozinha."],
@@ -3673,12 +3673,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de escalada e a usar o pretérito perfeito composto em português.",
     study: {
       vocab: [
-        ["a corda", "rope"],
-        ["o arnês", "harness"],
-        ["o cume", "summit"],
-        ["o penhasco", "cliff"],
-        ["escalar", "to climb"],
-        ["a pegada", "grip"],
+        ["a corda", "la cuerda"],
+        ["o arnês", "el arnés"],
+        ["o cume", "la cima"],
+        ["o penhasco", "el acantilado"],
+        ["escalar", "escalar"],
+        ["a pegada", "el agarre"],
       ],
       grammar: [
         ["Pretérito perfeito composto com duração", "El pretérito perfeito composto (“temos/tem estado” + gerundio) describe una acción que comenzó en el pasado y sigue ocurriendo, con énfasis en su duración repetida.", "Temos estado escalando há três horas. / Ela tem treinado para o cume o ano todo."],
@@ -3698,12 +3698,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de numismática e a usar “acostumar-se a” em português.",
     study: {
       vocab: [
-        ["a moeda", "coin"],
-        ["a casa da moeda", "mint"],
-        ["a moeda rara", "rare coin"],
-        ["a coleção", "collection"],
-        ["a moeda/divisa", "currency"],
-        ["avaliar", "to appraise"],
+        ["a moeda", "la moneda"],
+        ["a casa da moeda", "la casa de la moneda"],
+        ["a moeda rara", "la moneda rara"],
+        ["a coleção", "la colección"],
+        ["a moeda/divisa", "la divisa"],
+        ["avaliar", "tasar"],
       ],
       grammar: [
         ["“Estar acostumado a/acostumar-se a”", "“Estar acostumado a” + infinitivo expresa un hábito ya establecido; “acostumar-se a” + infinitivo expresa el proceso de adaptarse.", "Estou acostumado a avaliar moedas antigas. / Levou tempo para se acostumar a colecionar divisas raras."],
@@ -3723,12 +3723,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de sismología usando preguntas indirectas en portugués.",
     study: {
       vocab: [
-        ["o terremoto", "earthquake"],
-        ["o sismógrafo", "seismograph"],
-        ["o epicentro", "epicenter"],
-        ["a magnitude", "magnitude"],
-        ["a placa tectônica", "tectonic plate"],
-        ["a réplica", "aftershock"],
+        ["o terremoto", "el terremoto"],
+        ["o sismógrafo", "el sismógrafo"],
+        ["o epicentro", "el epicentro"],
+        ["a magnitude", "la magnitud"],
+        ["a placa tectônica", "la placa tectónica"],
+        ["a réplica", "la réplica (sísmica)"],
       ],
       grammar: [
         ["Perguntas indiretas", "Las preguntas indirectas (“me pergunto se...”, “você sabe se...?”) mantienen el orden normal de la oración, sin inversión.", "Me pergunto se o epicentro estava perto da cidade. / Você sabe qual era a magnitude?"],
@@ -3748,12 +3748,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la paleografía usando “quem quer que/o que quer que” en portugués.",
     study: {
       vocab: [
-        ["o manuscrito", "manuscript"],
-        ["o escriba", "scribe"],
-        ["o pergaminho", "parchment"],
-        ["o texto iluminado", "illuminated text"],
-        ["o estilo caligráfico", "handwriting style"],
-        ["decifrar", "to decipher"],
+        ["o manuscrito", "el manuscrito"],
+        ["o escriba", "el escriba"],
+        ["o pergaminho", "el pergamino"],
+        ["o texto iluminado", "el texto iluminado"],
+        ["o estilo caligráfico", "el estilo caligráfico"],
+        ["decifrar", "descifrar"],
       ],
       grammar: [
         ["“Quem quer que/o que quer que”", "“Quem quer que” equivale a “quienquiera que”, y “o que quer que” equivale a “lo que sea que”, ambos con subjuntivo.", "Quem quer que decifre este manuscrito fará história. / O que quer que o escriba pretendesse, o significado hoje está perdido."],
@@ -3773,12 +3773,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la cadena de suministro usando estructuras enfáticas de sorpresa en portugués.",
     study: {
       vocab: [
-        ["a cadeia de suprimentos", "supply chain"],
-        ["o gargalo", "bottleneck"],
-        ["o frete/a carga", "freight"],
-        ["o armazém", "warehouse"],
-        ["a interrupção logística", "logistics disruption"],
-        ["a entrega just-in-time", "just-in-time delivery"],
+        ["a cadeia de suprimentos", "la cadena de suministro"],
+        ["o gargalo", "el cuello de botella"],
+        ["o frete/a carga", "la carga/el flete"],
+        ["o armazém", "el almacén"],
+        ["a interrupção logística", "la interrupción logística"],
+        ["a entrega just-in-time", "la entrega justo a tiempo"],
       ],
       grammar: [
         ["Estruturas enfáticas de surpresa (poucos imaginavam/ninguém esperava)", "“Poucos imaginavam” o “ninguém esperava” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Poucas empresas imaginavam o quão frágil era a cadeia de suprimentos. / Ninguém esperava uma interrupção logística tão grave."],
@@ -3798,12 +3798,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de radioamadorismo e a usar “há” em português.",
     study: {
       vocab: [
-        ["o sinal de rádio", "radio signal"],
-        ["a antena", "antenna"],
-        ["a frequência", "frequency"],
-        ["o microfone", "microphone"],
-        ["transmitir", "to transmit"],
-        ["a interferência", "static"],
+        ["o sinal de rádio", "la señal de radio"],
+        ["a antena", "la antena"],
+        ["a frequência", "la frecuencia"],
+        ["o microfone", "el micrófono"],
+        ["transmitir", "transmitir"],
+        ["a interferência", "la estática (interferencia)"],
       ],
       grammar: [
         ["“Há” para indicar existência", "“Há” es invariable en portugués (no cambia entre singular y plural) y se usa para indicar la existencia de algo.", "Há muita interferência nesta frequência. / Há duas antenas no telhado."],
@@ -3823,12 +3823,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de astrologia e a usar o futuro do presente para previsões em português.",
     study: {
       vocab: [
-        ["o horóscopo", "horoscope"],
-        ["o signo do zodíaco", "zodiac sign"],
-        ["o vidente/a vidente", "fortune teller"],
-        ["o mapa astral", "star chart"],
-        ["a previsão", "prediction"],
-        ["o destino", "destiny"],
+        ["o horóscopo", "el horóscopo"],
+        ["o signo do zodíaco", "el signo zodiacal"],
+        ["o vidente/a vidente", "el adivino"],
+        ["o mapa astral", "la carta astral"],
+        ["a previsão", "la predicción"],
+        ["o destino", "el destino"],
       ],
       grammar: [
         ["Futuro do presente para previsões", "El futuro do presente se usa para hacer predicciones sobre el futuro basadas en opinión o creencia, no en evidencia presente.", "Este horóscopo diz que você terá uma boa semana. / A vidente acha que ela encontrará o amor em breve."],
@@ -3848,12 +3848,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de esportes radicais e a usar “conseguir” em português.",
     study: {
       vocab: [
-        ["o paraquedas", "parachute"],
-        ["a queda livre", "free fall"],
-        ["a descarga de adrenalina", "adrenaline rush"],
-        ["saltar", "to jump"],
-        ["o bungee jump", "bungee jumping"],
-        ["o esporte radical", "extreme sport"],
+        ["o paraquedas", "el paracaídas"],
+        ["a queda livre", "la caída libre"],
+        ["a descarga de adrenalina", "la subida de adrenalina"],
+        ["saltar", "saltar"],
+        ["o bungee jump", "el puenting"],
+        ["o esporte radical", "el deporte extremo"],
       ],
       grammar: [
         ["“Conseguir” + infinitivo", "“Conseguir” + infinitivo expresa que alguien logró hacer algo difícil.", "Ela conseguiu abrir o paraquedas a tempo. / Ele conseguiu superar seu medo de altura."],
@@ -3873,12 +3873,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de entomología usando “além de/assim como” en portugués.",
     study: {
       vocab: [
-        ["o inseto", "insect"],
-        ["o exoesqueleto", "exoskeleton"],
-        ["a metamorfose", "metamorphosis"],
-        ["a antena (inseto)", "antenna (insect)"],
-        ["a larva", "larva"],
-        ["o polinizador", "pollinator"],
+        ["o inseto", "el insecto"],
+        ["o exoesqueleto", "el exoesqueleto"],
+        ["a metamorfose", "la metamorfosis"],
+        ["a antena (inseto)", "la antena (insecto)"],
+        ["a larva", "la larva"],
+        ["o polinizador", "el polinizador"],
       ],
       grammar: [
         ["“Além de/assim como”", "“Além de” + infinitivo o sustantivo y “assim como” añaden información extra, similares a “besides” en inglés.", "Além de polinizar flores, as abelhas produzem mel. / Os besouros, assim como as borboletas, passam por metamorfose."],
@@ -3898,12 +3898,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la propiedad intelectual usando “não obstante” en registro legal formal en portugués.",
     study: {
       vocab: [
-        ["o direito autoral", "copyright"],
-        ["a patente", "patent"],
-        ["a marca registrada", "trademark"],
-        ["a infração", "infringement"],
-        ["o acordo de licenciamento", "licensing agreement"],
-        ["a propriedade intelectual", "intellectual property"],
+        ["o direito autoral", "los derechos de autor"],
+        ["a patente", "la patente"],
+        ["a marca registrada", "la marca registrada"],
+        ["a infração", "la infracción"],
+        ["o acordo de licenciamento", "el acuerdo de licencia"],
+        ["a propriedade intelectual", "la propiedad intelectual"],
       ],
       grammar: [
         ["“Não obstante” para concesión legal formal", "“Não obstante” (registro muy formal/legal) expresa una concesión, equivalente a “apesar de” pero típico de textos jurídicos.", "Não obstante a patente, a empresa continuou a produção. / A marca registrada permanece válida, não obstante a disputa."],
@@ -3923,12 +3923,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la geología usando “longe de + infinitivo” en portugués.",
     study: {
       vocab: [
-        ["o depósito mineral", "mineral deposit"],
-        ["a estrutura cristalina", "crystalline structure"],
-        ["a rocha sedimentar", "sedimentary rock"],
-        ["o deslocamento tectônico", "tectonic shift"],
-        ["a rocha ígnea", "igneous rock"],
-        ["a composição mineral", "mineral composition"],
+        ["o depósito mineral", "el yacimiento mineral"],
+        ["a estrutura cristalina", "la estructura cristalina"],
+        ["a rocha sedimentar", "la roca sedimentaria"],
+        ["o deslocamento tectônico", "el desplazamiento tectónico"],
+        ["a rocha ígnea", "la roca ígnea"],
+        ["a composição mineral", "la composición mineral"],
       ],
       grammar: [
         ["“Longe de + infinitivo” para concesión enfática", "“Longe de” + infinitivo expresa que algo es completamente lo contrario de lo esperado, un recurso enfático de registro formal.", "Longe de ser estável, esta formação rochosa muda constantemente. / Longe de resolver o debate, a descoberta levantou novas perguntas."],
@@ -3948,12 +3948,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de café e a usar “gostaria” para pedidos educados em português.",
     study: {
       vocab: [
-        ["o grão de café", "coffee bean"],
-        ["a torra", "roast"],
-        ["o aroma", "aroma"],
-        ["o barista", "barista"],
-        ["preparar (café)", "to brew"],
-        ["a xícara", "cup"],
+        ["o grão de café", "el grano de café"],
+        ["a torra", "el tueste"],
+        ["o aroma", "el aroma"],
+        ["o barista", "el barista"],
+        ["preparar (café)", "preparar (café)"],
+        ["a xícara", "la taza"],
       ],
       grammar: [
         ["“Gostaria” para pedidos educados", "“Gostaria” (futuro do pretérito de “gostar”) es una forma cortés de pedir algo, más formal que “quero”.", "Eu gostaria de uma xícara de café, por favor. / Ela gostaria de experimentar a torra escura."],
@@ -3973,12 +3973,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de restauração de móveis e a usar “deixar alguém fazer algo” em português.",
     study: {
       vocab: [
-        ["o móvel antigo", "antique furniture"],
-        ["o verniz", "varnish"],
-        ["a lixa", "sandpaper"],
-        ["restaurar", "to restore"],
-        ["o veio da madeira", "wood grain"],
-        ["a oficina", "workshop"],
+        ["o móvel antigo", "los muebles antiguos"],
+        ["o verniz", "el barniz"],
+        ["a lixa", "el papel de lija"],
+        ["restaurar", "restaurar"],
+        ["o veio da madeira", "la veta de la madera"],
+        ["a oficina", "el taller"],
       ],
       grammar: [
         ["“Deixar alguém fazer algo”", "“Deixar” + persona + infinitivo expresa permitir que alguien haga algo.", "Deixe o verniz secar durante a noite. / Ela deixa o assistente lixar o móvel."],
@@ -3998,12 +3998,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprenda vocabulário de lexicografia e a usar “em vez de” em português.",
     study: {
       vocab: [
-        ["o verbete de dicionário", "dictionary entry"],
-        ["a definição", "definition"],
-        ["a etimologia", "etymology"],
-        ["o lema", "headword"],
-        ["o sinônimo", "synonym"],
-        ["o exemplo de uso", "usage example"],
+        ["o verbete de dicionário", "la entrada de diccionario"],
+        ["a definição", "la definición"],
+        ["a etimologia", "la etimología"],
+        ["o lema", "el lema"],
+        ["o sinônimo", "el sinónimo"],
+        ["o exemplo de uso", "el ejemplo de uso"],
       ],
       grammar: [
         ["“Em vez de” para preferência", "“Em vez de” + sustantivo/infinitivo expresa preferencia por una opción sobre otra.", "Ela escolheu uma definição moderna em vez da antiga. / Em vez de adivinhar, procure a etimologia."],
@@ -4023,12 +4023,12 @@ window.LESSON_BANKS.PT = [
     description:"Habla de radiología usando “caso” para precaución en portugués.",
     study: {
       vocab: [
-        ["a radiografia", "X-ray"],
-        ["a ressonância magnética", "MRI scan"],
-        ["o radiologista", "radiologist"],
-        ["o contraste", "contrast dye"],
-        ["o diagnóstico", "diagnosis"],
-        ["a exposição à radiação", "radiation exposure"],
+        ["a radiografia", "la radiografía"],
+        ["a ressonância magnética", "la resonancia magnética"],
+        ["o radiologista", "el radiólogo"],
+        ["o contraste", "el contraste (medio de contraste)"],
+        ["o diagnóstico", "el diagnóstico"],
+        ["a exposição à radiação", "la exposición a la radiación"],
       ],
       grammar: [
         ["“Caso” + subjuntivo para precaução", "“Caso” + subjuntivo presente expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "O radiologista pediu uma ressonância caso a radiografia não mostrasse algo. / Traga seus exames anteriores caso o médico precise deles."],
@@ -4048,12 +4048,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la virología usando “mesmo que” en portugués.",
     study: {
       vocab: [
-        ["a cepa viral", "virus strain"],
-        ["o surto", "outbreak"],
-        ["a imunidade de rebanho", "herd immunity"],
-        ["a eficácia da vacina", "vaccine efficacy"],
-        ["a taxa de transmissão", "transmission rate"],
-        ["a mutação", "mutation"],
+        ["a cepa viral", "la cepa del virus"],
+        ["o surto", "el brote"],
+        ["a imunidade de rebanho", "la inmunidad de rebaño"],
+        ["a eficácia da vacina", "la eficacia de la vacuna"],
+        ["a taxa de transmissão", "la tasa de transmisión"],
+        ["a mutação", "la mutación"],
       ],
       grammar: [
         ["“Mesmo que” + subjuntivo para concessão hipotética", "“Mesmo que” + subjuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “embora” (hecho real).", "Mesmo que a eficácia da vacina caísse, a imunidade de rebanho poderia ajudar. / O vírus se espalharia mesmo que as taxas de transmissão caíssem um pouco."],
@@ -4073,12 +4073,12 @@ window.LESSON_BANKS.PT = [
     description:"Analiza la política monetaria usando “na medida em que” en portugués.",
     study: {
       vocab: [
-        ["a taxa de juros", "interest rate"],
-        ["a meta de inflação", "inflation target"],
-        ["o afrouxamento quantitativo", "quantitative easing"],
-        ["a política monetária", "monetary policy"],
-        ["o banco central", "central bank"],
-        ["o estímulo fiscal", "fiscal stimulus"],
+        ["a taxa de juros", "el tipo de interés"],
+        ["a meta de inflação", "el objetivo de inflación"],
+        ["o afrouxamento quantitativo", "la flexibilización cuantitativa"],
+        ["a política monetária", "la política monetaria"],
+        ["o banco central", "el banco central"],
+        ["o estímulo fiscal", "el estímulo fiscal"],
       ],
       grammar: [
         ["“Na medida em que” para qualificar", "“Na medida em que” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Na medida em que a inflação permanecer estável, cortes na taxa são possíveis. / A política funciona na medida em que os bancos emprestam com mais liberdade."],
@@ -4098,12 +4098,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a formar preguntas básicas en portugués con las palabras interrogativas.",
     study: {
       vocab: [
-        ["O quê / Que...?", "What...?"],
-        ["Quem...?", "Who...?"],
-        ["Onde...?", "Where...?"],
-        ["Quando...?", "When...?"],
-        ["Por quê...?", "Why...?"],
-        ["Como...?", "How...?"],
+        ["O quê / Que...?", "¿Qué...?"],
+        ["Quem...?", "¿Quién...?"],
+        ["Onde...?", "¿Dónde...?"],
+        ["Quando...?", "¿Cuándo...?"],
+        ["Por quê...?", "¿Por qué...?"],
+        ["Como...?", "¿Cómo...?"],
       ],
       grammar: [
         ["Ordem das perguntas em português", "Em português não é necessário um auxiliar como em inglês; basta a palavra interrogativa + verbo (+ sujeito, muitas vezes omitido).", "Onde você mora? / Como você se chama? / Quando começa a aula?"],
@@ -4123,12 +4123,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende los posesivos en portugués y el vocabulario básico de la familia.",
     study: {
       vocab: [
-        ["meu/minha", "my"],
-        ["seu/sua (de você/dele/dela)", "your / his / her"],
-        ["nosso/nossa", "our"],
-        ["deles/delas", "their"],
-        ["a mãe, o pai, os pais", "mother, father, parents"],
-        ["o irmão, a irmã, os irmãos", "brother, sister, siblings"],
+        ["meu/minha", "mi"],
+        ["seu/sua (de você/dele/dela)", "tu / su (de él) / su (de ella)"],
+        ["nosso/nossa", "nuestro"],
+        ["deles/delas", "su (de ellos)"],
+        ["a mãe, o pai, os pais", "madre, padre, padres"],
+        ["o irmão, a irmã, os irmãos", "hermano, hermana, hermanos"],
       ],
       grammar: [
         ["“Dele/dela” para evitar ambigüedad", "“Seu/sua” puede significar “tu, su (de él), su (de ella), su (de usted)”; para aclarar, en portugués brasileño se usa “dele/dela/deles/delas” después del sustantivo.", "Esta é a irmã dele. / Estes são os pais dela."],
@@ -4148,11 +4148,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar “tem/há” y las preposiciones de lugar en portugués.",
     study: {
       vocab: [
-        ["tem / há", "there is / there are"],
-        ["dentro de, em cima de, embaixo de", "in, on, under"],
-        ["ao lado de, entre", "next to, between"],
-        ["na frente de, atrás de", "in front of, behind"],
-        ["Tem...? / Há...?", "Is/Are there...?"],
+        ["tem / há", "hay"],
+        ["dentro de, em cima de, embaixo de", "en, sobre, debajo de"],
+        ["ao lado de, entre", "al lado de, entre"],
+        ["na frente de, atrás de", "delante de, detrás de"],
+        ["Tem...? / Há...?", "¿Hay...?"],
       ],
       grammar: [
         ["“Tem” (hablado) y “Há” (formal) son invariables", "En el portugués brasileño hablado, “tem” es la forma más usada para “hay”; “há” es más formal. Ambas son invariables, no cambian con el número.", "Tem uma lâmpada em cima da mesa. / Tem duas cadeiras ao lado da mesa."],
@@ -4172,12 +4172,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende las reglas del plural en portugués y el uso de los artículos.",
     study: {
       vocab: [
-        ["o livro / os livros", "the book / the books"],
-        ["o animal / os animais", "the animal / the animals"],
-        ["o mês / os meses", "the month / the months"],
-        ["a mulher / as mulheres", "the woman / the women"],
-        ["um, uma", "a, an"],
-        ["o, a, os, as", "the"],
+        ["o livro / os livros", "el libro / los libros"],
+        ["o animal / os animais", "el animal / los animales"],
+        ["o mês / os meses", "el mes / los meses"],
+        ["a mulher / as mulheres", "la mujer / las mujeres"],
+        ["um, uma", "un, una"],
+        ["o, a, os, as", "el/la"],
       ],
       grammar: [
         ["Reglas del plural en portugués", "Se añade “-s” en la mayoría de los casos; los terminados en “-l” cambian a “-is” (“animal→animais”), y los terminados en “-m” cambian a “-ns”.", "livro→livros, animal→animais, mês→meses, mulher→mulheres"],
@@ -4197,11 +4197,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a expresar gustos y preferencias en portugués con “gostar de”.",
     study: {
       vocab: [
-        ["eu gosto de / eu adoro", "I like / I love"],
-        ["eu não gosto de / eu odeio", "I don't like / I hate"],
-        ["nadar, ler, cozinhar", "swimming, reading, cooking"],
-        ["Você gosta de...?", "Do you like...?"],
-        ["E você?", "What about you?"],
+        ["eu gosto de / eu adoro", "me gusta / me encanta"],
+        ["eu não gosto de / eu odeio", "no me gusta / odio"],
+        ["nadar, ler, cozinhar", "nadar, leer, cocinar"],
+        ["Você gosta de...?", "¿Te gusta...?"],
+        ["E você?", "¿Y tú?"],
       ],
       grammar: [
         ["Verbo + infinitivo tras “gostar de/adorar/odiar”", "En portugués, el verbo que sigue a “gostar de”, “adorar” u “odiar” va en infinitivo, no en gerundio como en inglés. “Gostar” siempre lleva la preposición “de”.", "Eu adoro ler. / Ela odeia esperar na fila."],
@@ -4221,11 +4221,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a hablar del futuro en portugués usando “ir + infinitivo” para planes y el futuro para predicciones.",
     study: {
       vocab: [
-        ["eu vou...", "I'm going to..."],
-        ["presente do indicativo (para planos)", "present tense (for confirmed plans)"],
-        ["futuro do presente (-ei, -á...)", "future tense"],
-        ["eu acho que vai chover", "I think it will rain"],
-        ["o que você vai fazer?", "What are you going to do?"],
+        ["eu vou...", "voy a..."],
+        ["presente do indicativo (para planos)", "presente (para planes confirmados)"],
+        ["futuro do presente (-ei, -á...)", "el tiempo futuro"],
+        ["eu acho que vai chover", "creo que va a llover"],
+        ["o que você vai fazer?", "¿Qué vas a hacer?"],
       ],
       grammar: [
         ["“Ir + infinitivo” vs futuro do presente", "“Ir + infinitivo” es la forma más común para planes ya decididos; el futuro do presente se reserva más para predicciones o el registro formal.", "Eu vou visitar meus pais na próxima semana. / Eu acho que vai chover amanhã."],
@@ -4245,11 +4245,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a comparar personas y cosas en portugués usando comparativos y superlativos.",
     study: {
       vocab: [
-        ["maior que, menor que", "bigger than, smaller than"],
-        ["mais caro que", "more expensive than"],
-        ["o/a melhor, o/a pior", "the best, the worst"],
-        ["tão...quanto", "as...as"],
-        ["o/a mais interessante", "the most interesting"],
+        ["maior que, menor que", "más grande que, más pequeño que"],
+        ["mais caro que", "más caro que"],
+        ["o/a melhor, o/a pior", "el mejor, el peor"],
+        ["tão...quanto", "tan... como"],
+        ["o/a mais interessante", "el más interesante"],
       ],
       grammar: [
         ["Comparativos y superlativos regulares e irregulares", "“Mais/menos + adjetivo + que” forma el comparativo; “o/a mais + adjetivo” el superlativo. Irregular: bom→melhor, ruim→pior.", "Este carro é mais rápido que aquele, mas o vermelho é o mais rápido."],
@@ -4269,11 +4269,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a dar consejos y hablar de obligaciones en portugués.",
     study: {
       vocab: [
-        ["você deveria...", "you should..."],
-        ["você não deveria...", "you shouldn't..."],
-        ["eu tenho que / eu preciso", "I must / I have to"],
-        ["você não precisa", "you don't have to"],
-        ["é uma boa ideia...", "it's a good idea to..."],
+        ["você deveria...", "deberías..."],
+        ["você não deveria...", "no deberías..."],
+        ["eu tenho que / eu preciso", "debo / tengo que"],
+        ["você não precisa", "no tienes que"],
+        ["é uma boa ideia...", "es buena idea..."],
       ],
       grammar: [
         ["“Deveria” (consejo) vs “tem que” (obligación)", "“Deveria” da un consejo suave; “tem que/precisa” expresan obligación; “não precisa” significa que algo no es necesario, mientras que la prohibición se expresa con “não pode”.", "Você deveria beber mais água. / Você tem que usar o cinto de segurança."],
@@ -4293,12 +4293,12 @@ window.LESSON_BANKS.PT = [
     description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en portugués.",
     study: {
       vocab: [
-        ["Alô, aqui é...", "Hello, this is..."],
-        ["Posso falar com...?", "Can I speak to...?"],
-        ["Posso deixar um recado?", "Can I take/leave a message?"],
-        ["Um momento, por favor.", "Hold on, please."],
-        ["Você pode ligar mais tarde?", "Can you call back later?"],
-        ["Eu ligo de volta.", "I'll call you back."],
+        ["Alô, aqui é...", "Hola, soy..."],
+        ["Posso falar com...?", "¿Puedo hablar con...?"],
+        ["Posso deixar um recado?", "¿Puedo dejar/tomar un mensaje?"],
+        ["Um momento, por favor.", "Espere un momento, por favor."],
+        ["Você pode ligar mais tarde?", "¿Puede volver a llamar más tarde?"],
+        ["Eu ligo de volta.", "Le devuelvo la llamada."],
       ],
       grammar: [
         ["Fórmulas fijas para el teléfono", "En portugués se atiende el teléfono con “Alô” y uno se identifica con “aqui é...”.", "Alô, aqui é a Laura. Posso falar com o senhor Silva, por favor?"],
@@ -4318,11 +4318,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a hablar de cantidades en portugués distinguiendo sustantivos contables e incontables.",
     study: {
       vocab: [
-        ["algum/alguma, nenhum/nenhuma", "some, any/none"],
-        ["Quanto/a...?", "How much...?"],
-        ["Quantos/as...?", "How many...?"],
-        ["muito/muitos", "a lot of / much, many"],
-        ["pouco/poucos", "little, few"],
+        ["algum/alguma, nenhum/nenhuma", "algunos, ninguno"],
+        ["Quanto/a...?", "¿Cuánto...?"],
+        ["Quantos/as...?", "¿Cuántos...?"],
+        ["muito/muitos", "mucho, muchos"],
+        ["pouco/poucos", "poco, pocos"],
       ],
       grammar: [
         ["Contables vs incontables en portugués", "“Quantos/as” y “muitos/as, poucos/as” concuerdan con sustantivos contables plurales; “quanto/a” y “muito/a, pouco/a” con incontables en singular.", "Quantas maçãs você tem? / Quanta água tem? / Eu não tenho dinheiro nenhum."],
@@ -4342,11 +4342,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a combinar “estar” en imperfecto con gerundio y el pretérito perfeito para narrar interrupciones.",
     study: {
       vocab: [
-        ["eu estava cozinhando / eles estavam falando", "I was cooking / they were talking"],
-        ["enquanto, quando", "while, when"],
-        ["de repente", "suddenly"],
-        ["o telefone tocou", "the phone rang"],
-        ["no meio de...", "in the middle of..."],
+        ["eu estava cozinhando / eles estavam falando", "yo estaba cocinando / ellos hablaban"],
+        ["enquanto, quando", "mientras, cuando"],
+        ["de repente", "de repente"],
+        ["o telefone tocou", "sonó el teléfono"],
+        ["no meio de...", "en medio de..."],
       ],
       grammar: [
         ["“Estar” en imperfecto + gerundio + pretérito perfeito", "El portugués usa “estar” en pretérito imperfeito + gerundio para la acción en curso (similar al inglés), y el pretérito perfeito para la acción que la interrumpe.", "Eu estava cozinhando o jantar quando o telefone tocou. / Enquanto ela estava estudando, o amigo dela chegou."],
@@ -4366,11 +4366,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en portugués.",
     study: {
       vocab: [
-        ["se eu tivesse...", "if I had..."],
-        ["eu -ia / eu não -ia", "I would / I wouldn't"],
-        ["se eu fosse você...", "if I were you..."],
-        ["o que você faria se...?", "What would you do if...?"],
-        ["situação imaginária", "imaginary situation"],
+        ["se eu tivesse...", "si tuviera..."],
+        ["eu -ia / eu não -ia", "yo lo haría / no lo haría"],
+        ["se eu fosse você...", "yo que tú..."],
+        ["o que você faria se...?", "¿Qué harías si...?"],
+        ["situação imaginária", "situación imaginaria"],
       ],
       grammar: [
         ["Se + pretérito imperfeito do subjuntivo, futuro do pretérito", "Para situaciones hipotéticas poco probables, se usa “se” + pretérito imperfeito do subjuntivo, seguido del futuro do pretérito (condicional).", "Se eu tivesse mais tempo, eu viajaria mais. / Se eu fosse você, eu aceitaria a oferta."],
@@ -4390,11 +4390,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a expresar certeza, posibilidad y duda en portugués.",
     study: {
       vocab: [
-        ["deve estar", "must be (alta certeza)"],
-        ["pode estar", "might/may be (posibilidad)"],
-        ["não pode estar", "can't be (certeza negativa)"],
-        ["poderia estar", "could be (posibilidad)"],
-        ["eu tenho certeza / eu não tenho certeza", "I'm sure / I'm not sure"],
+        ["deve estar", "debe de ser (alta certeza)"],
+        ["pode estar", "podría ser (posibilidad)"],
+        ["não pode estar", "no puede ser (certeza negativa)"],
+        ["poderia estar", "podría ser (posibilidad)"],
+        ["eu tenho certeza / eu não tenho certeza", "estoy seguro / no estoy seguro"],
       ],
       grammar: [
         ["Grados de certeza en portugués", "“Dever” en presente expresa una fuerte deducción (“deve estar”); “pode/poderia” expresan posibilidad, no certeza; “não pode estar” expresa certeza negativa.", "As luzes estão apagadas, então eles devem estar dormindo. / Ele pode estar no trabalho, eu não tenho certeza."],
@@ -4414,11 +4414,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a contar en portugués lo que alguien dijo usando el discurso indirecto básico.",
     study: {
       vocab: [
-        ["ele disse que...", "he said (that)..."],
-        ["ela me disse que...", "she told me (that)..."],
-        ["ela disse que estava cansada", "she said she was tired"],
-        ["ele disse que ligaria", "he said he would call"],
-        ["mudança de tempo verbal", "backshift"],
+        ["ele disse que...", "él dijo (que)..."],
+        ["ela me disse que...", "ella me dijo (que)..."],
+        ["ela disse que estava cansada", "dijo que estaba cansada"],
+        ["ele disse que ligaria", "dijo que llamaría"],
+        ["mudança de tempo verbal", "transposición de tiempos verbales (estilo indirecto)"],
       ],
       grammar: [
         ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a pretérito imperfeito, y el futuro se convierte en futuro do pretérito.", "Direto: «Estou cansada.» → Indireto: Ela disse que estava cansada. / Direto: «Eu vou te ligar.» → Indireto: Ele disse que ligaria."],
@@ -4438,11 +4438,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a describir procesos y secuencias de pasos en portugués usando conectores de orden.",
     study: {
       vocab: [
-        ["Primeiro...", "first..."],
-        ["Depois / Em seguida...", "then / next..."],
-        ["Depois disso...", "after that..."],
-        ["Por fim / Finalmente...", "finally..."],
-        ["Assim que você tiver..., ...", "once you have..., ..."],
+        ["Primeiro...", "primero..."],
+        ["Depois / Em seguida...", "luego / después..."],
+        ["Depois disso...", "después de eso..."],
+        ["Por fim / Finalmente...", "finalmente..."],
+        ["Assim que você tiver..., ...", "una vez que hayas..., ..."],
       ],
       grammar: [
         ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "Primeiro, você preenche o formulário. Depois, envia online. Por fim, espera um e-mail de confirmação."],
@@ -4462,11 +4462,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar los pronombres relativos portugueses: que, quem y cujo.",
     study: {
       vocab: [
-        ["que", "that/which/who – relativo geral"],
-        ["quem", "who – depois de preposição, para pessoas"],
-        ["cujo/cuja/cujos/cujas", "whose – concuerda con lo poseído"],
-        ["onde, quando", "where, when"],
-        ["o homem que ligou", "the man who called"],
+        ["que", "que – relativo general"],
+        ["quem", "quien – depois de preposição, para pessoas"],
+        ["cujo/cuja/cujos/cujas", "cuyo – concuerda con lo poseído"],
+        ["onde, quando", "dónde, cuándo"],
+        ["o homem que ligou", "el hombre que llamó"],
       ],
       grammar: [
         ["“Que”, “quem” y “cujo”", "“Que” es invariable y vale para personas y cosas; “quem” se usa tras preposición y solo para personas; “cujo” concuerda con el sustantivo poseído, no con el poseedor.", "O livro que comprei é ótimo. / A pessoa com quem falei... / O escritor cujo romance ganhou o prêmio..."],
@@ -4486,11 +4486,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende cuándo usar el gerundio y cuándo el infinitivo en portugués.",
     study: {
       vocab: [
-        ["estar + gerúndio", "to be doing (progresivo)"],
+        ["estar + gerúndio", "estar haciendo (progresivo)"],
         ["verbo + infinitivo", "verbo + infinitivo (patrón más común)"],
-        ["acabar de + infinitivo", "to have just done"],
-        ["continuar a + infinitivo", "to keep on doing"],
-        ["ficar + gerúndio", "to keep on doing (duración)"],
+        ["acabar de + infinitivo", "acabar de hacer"],
+        ["continuar a + infinitivo", "seguir haciendo"],
+        ["ficar + gerúndio", "seguir haciendo (duración)"],
       ],
       grammar: [
         ["“Estar + gerúndio” para el progresivo brasileño", "El portugués de Brasil usa mucho “estar + gerundio” para el progresivo; la mayoría de los verbos con complemento verbal usan infinitivo, no gerundio como en inglés.", "Ela está aprendendo português. / Acabei de chegar. / Continua a chover."],
@@ -4510,11 +4510,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a expresar deseos y arrepentimiento en portugués.",
     study: {
       vocab: [
-        ["Eu queria + infinitivo", "I wish (deseo presente)"],
-        ["Eu queria ter + particípio", "I wish I had done (arrepentimiento)"],
-        ["Quem me dera...", "If only..."],
-        ["Eu deveria ter + particípio", "I should have..."],
-        ["o arrependimento", "regret"],
+        ["Eu queria + infinitivo", "ojalá (deseo presente)"],
+        ["Eu queria ter + particípio", "ojalá hubiera hecho (arrepentimiento)"],
+        ["Quem me dera...", "Ojalá..."],
+        ["Eu deveria ter + particípio", "debería haber..."],
+        ["o arrependimento", "el arrepentimiento"],
       ],
       grammar: [
         ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “eu queria + infinitivo”; para un arrepentimiento sobre el pasado, “eu queria ter + particípio” o “quem me dera + subjuntivo”.", "Eu queria ter mais tempo. / Eu queria ter estudado mais. / Quem me dera tivesse aceitado o emprego."],
@@ -4534,11 +4534,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a especular sobre el pasado en portugués con “dever” y el futuro do pretérito.",
     study: {
       vocab: [
-        ["deve ter + particípio", "must have (deducción)"],
-        ["pode ter + particípio", "might have (posibilidad)"],
-        ["não pode ter + particípio", "can't have (certeza negativa)"],
-        ["deveria ter + particípio", "should have (crítica/arrepentimiento)"],
-        ["não tenho certeza do que aconteceu", "I'm not sure what happened"],
+        ["deve ter + particípio", "debe de haber (deducción)"],
+        ["pode ter + particípio", "podría haber (posibilidad)"],
+        ["não pode ter + particípio", "no puede haber (certeza negativa)"],
+        ["deveria ter + particípio", "debería haber (crítica/arrepentimiento)"],
+        ["não tenho certeza do que aconteceu", "no estoy seguro/a de qué pasó"],
       ],
       grammar: [
         ["“Dever” para especular sobre el pasado", "“Dever” en presente + infinito compuesto expresa una fuerte deducción sobre el pasado; “deveria ter + particípio” expresa crítica o arrepentimiento.", "Ela deve ter saído já; o casaco dela sumiu. / Você deveria ter me ligado antes."],
@@ -4559,7 +4559,7 @@ window.LESSON_BANKS.PT = [
     study: {
       vocab: [
         ["o imperfeito para hábitos e estados", "imperfecto para hábitos/estados"],
-        ["costumava + infinitivo", "used to (hábito pasado)"],
+        ["costumava + infinitivo", "solía (hábito pasado)"],
         ["antigamente...", "antes / hace tiempo..."],
         ["quando criança...", "de niño/a..."],
         ["hoje em dia", "hoy en día"],
@@ -4582,10 +4582,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en portugués.",
     study: {
       vocab: [
-        ["Jamais pensei que...", "Never did I think..."],
-        ["Não só..., mas também...", "Not only... but also..."],
-        ["Só depois de..., ...", "Only after..., ..."],
-        ["Mal...quando...", "No sooner...than..."],
+        ["Jamais pensei que...", "Nunca pensé..."],
+        ["Não só..., mas também...", "No solo... sino también..."],
+        ["Só depois de..., ...", "Solo después de..., ..."],
+        ["Mal...quando...", "Apenas... cuando..."],
         ["estrutura enfática", "estructura enfática"],
       ],
       grammar: [
@@ -4606,11 +4606,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar frases clivadas para dar énfasis a un elemento en portugués.",
     study: {
       vocab: [
-        ["Foi... quem/que...", "It was... who/that... (énfasis)"],
-        ["O que eu preciso é...", "What I need is..."],
-        ["O que me surpreendeu foi...", "What surprised me was..."],
-        ["É/foi + sustantivo + quem/que", "It is/was + noun + who/that"],
-        ["ênfase por meio de estrutura", "emphasis through structure"],
+        ["Foi... quem/que...", "Fue... quien/que... (énfasis)"],
+        ["O que eu preciso é...", "Lo que necesito es..."],
+        ["O que me surpreendeu foi...", "Lo que me sorprendió fue..."],
+        ["É/foi + sustantivo + quem/que", "Es/Era + sustantivo + quien/que"],
+        ["ênfase por meio de estrutura", "énfasis mediante la estructura"],
       ],
       grammar: [
         ["“Foi...quem/que” y “o que...é”", "El portugués enfatiza un elemento reorganizando la información con “foi...quem/que” o “o que...é”.", "Foi a Maria quem resolveu o problema. / O que eu preciso é de mais tempo."],
@@ -4630,9 +4630,9 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a reducir cláusulas más largas usando oraciones reducidas en portugués.",
     study: {
       vocab: [
-        ["Tendo terminado..., ...", "Having finished..., ..."],
-        ["Ciente de..., ...", "Being aware of..., ..."],
-        ["Não sabendo o que fazer, ...", "Not knowing what to do, ..."],
+        ["Tendo terminado..., ...", "Habiendo terminado..., ..."],
+        ["Ciente de..., ...", "Siendo consciente de..., ..."],
+        ["Não sabendo o que fazer, ...", "Sin saber qué hacer, ..."],
         ["oração reduzida", "cláusula reducida"],
         ["reduz uma oração mais longa", "reduce una cláusula más larga"],
       ],
@@ -4654,11 +4654,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende los patrones gramaticales de verbos de reporte avanzados en portugués.",
     study: {
       vocab: [
-        ["sugerir que + subjuntivo", "suggest that + subjunctive"],
-        ["insistir para que + subjuntivo", "insist that + subjunctive"],
-        ["negar + infinitivo composto", "deny doing"],
-        ["admitir + infinitivo composto", "admit doing"],
-        ["recomendar que + subjuntivo", "recommend that + subjunctive"],
+        ["sugerir que + subjuntivo", "sugerir que + subjuntivo"],
+        ["insistir para que + subjuntivo", "insistir en que + subjuntivo"],
+        ["negar + infinitivo composto", "negar haber hecho"],
+        ["admitir + infinitivo composto", "admitir haber hecho"],
+        ["recomendar que + subjuntivo", "recomendar que + subjuntivo"],
       ],
       grammar: [
         ["Verbos de relato que exigen subjuntivo o infinitivo compuesto", "Verbos como “sugerir que”, “insistir para que” y “recomendar que” exigen subjuntivo; “negar” y “admitir” van seguidos de “ter + particípio” para una acción pasada.", "Ela sugeriu que ele chegasse cedo. / Ele negou ter roubado o dinheiro."],
@@ -4678,10 +4678,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a evitar repeticiones en portugués usando elipsis y expresiones sustitutas.",
     study: {
       vocab: [
-        ["Eu também / Eu também não", "So do I / Neither do I"],
-        ["fazê-lo", "to do so"],
-        ["Acho que sim / Espero que não", "I think so / I hope not"],
-        ["o mesmo vale para...", "the same goes for..."],
+        ["Eu também / Eu também não", "Yo también / Yo tampoco"],
+        ["fazê-lo", "hacerlo así"],
+        ["Acho que sim / Espero que não", "creo que sí / espero que no"],
+        ["o mesmo vale para...", "lo mismo vale para..."],
         ["omitir palavras repetidas", "omitir palabras repetidas"],
       ],
       grammar: [
@@ -4702,10 +4702,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar la nominalización para lograr un registro académico y formal en portugués.",
     study: {
       vocab: [
-        ["reduzir → a redução", "reduce → reduction"],
-        ["decidir → a decisão", "decide → decision"],
-        ["analisar → a análise", "analyze → analysis"],
-        ["É importante considerar...", "It is important to consider..."],
+        ["reduzir → a redução", "reducir → reducción"],
+        ["decidir → a decisão", "decidir → decisión"],
+        ["analisar → a análise", "analizar → análisis"],
+        ["É importante considerar...", "Es importante considerar..."],
         ["registro acadêmico/formal", "registro académico/formal"],
       ],
       grammar: [
@@ -4726,11 +4726,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a anteponer objetos y complementos para dar énfasis en portugués.",
     study: {
       vocab: [
-        ["Isso eu não posso aceitar.", "This I cannot accept."],
-        ["Tal era sua determinação que...", "Such was her determination that..."],
-        ["Pouco imaginava ele que...", "Little did he know..."],
-        ["Aquele que mais admiro é...", "The one I admire most is..."],
-        ["tematização", "topicalization"],
+        ["Isso eu não posso aceitar.", "Esto no puedo aceptarlo."],
+        ["Tal era sua determinação que...", "Tal fue su determinación que..."],
+        ["Pouco imaginava ele que...", "Poco sabía él..."],
+        ["Aquele que mais admiro é...", "El que más admiro es..."],
+        ["tematização", "tematización"],
       ],
       grammar: [
         ["Anteposición retomada con pronombre", "El portugués permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre (“isso eu não posso aceitar”).", "Isso eu não posso aceitar. / Tal era o caos que a reunião foi cancelada."],
@@ -4750,11 +4750,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a matizar tus afirmaciones en portugués con adverbios de actitud avanzados.",
     study: {
       vocab: [
-        ["pode-se dizer que", "arguably"],
-        ["aparentemente", "ostensibly"],
-        ["supostamente", "purportedly"],
-        ["inegavelmente", "undeniably"],
-        ["presumivelmente", "presumably"],
+        ["pode-se dizer que", "podría decirse que"],
+        ["aparentemente", "aparentemente"],
+        ["supostamente", "supuestamente"],
+        ["inegavelmente", "innegablemente"],
+        ["presumivelmente", "presuntamente"],
       ],
       grammar: [
         ["Los adverbios de actitud matizan el compromiso del hablante", "Los adverbios de actitud muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "A política foi, pode-se dizer, um fracasso. / Ele estava aparentemente ali para ajudar, mas tinha outros motivos."],
@@ -4774,10 +4774,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar sintagmas nominales complejos típicos del portugués académico.",
     study: {
       vocab: [
-        ["o grau em que...", "the extent to which..."],
-        ["um número crescente de evidências", "a growing body of evidence"],
-        ["as causas subjacentes de...", "the underlying causes of..."],
-        ["uma ampla gama de fatores", "a wide range of factors"],
+        ["o grau em que...", "el grado en que..."],
+        ["um número crescente de evidências", "un creciente cuerpo de evidencia"],
+        ["as causas subjacentes de...", "las causas subyacentes de..."],
+        ["uma ampla gama de fatores", "una amplia gama de factores"],
         ["pós-modificação", "postmodificación"],
       ],
       grammar: [
@@ -4798,10 +4798,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende recursos de cohesión textual avanzados en portugués para evitar la redundancia.",
     study: {
       vocab: [
-        ["o primeiro / o segundo (mencionados)", "the former / the latter"],
-        ["tal um/uma...", "such a/an..."],
-        ["o/a supracitado/a", "the aforementioned"],
-        ["dito isso...", "that being said..."],
+        ["o primeiro / o segundo (mencionados)", "el primero / el segundo"],
+        ["tal um/uma...", "tal..."],
+        ["o/a supracitado/a", "lo antes mencionado"],
+        ["dito isso...", "dicho esto..."],
         ["recurso de coesão textual", "recurso de cohesión textual"],
       ],
       grammar: [
@@ -4822,11 +4822,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a dar instrucciones y consejos directos en portugués con el imperativo.",
     study: {
       vocab: [
-        ["Abra a porta.", "Open the door."],
-        ["Feche a janela.", "Close the window."],
-        ["Vire à esquerda / à direita.", "Turn left / right."],
-        ["Não toque nisso.", "Don't touch that."],
-        ["Sente-se, por favor.", "Please, sit down."],
+        ["Abra a porta.", "Abre la puerta."],
+        ["Feche a janela.", "Cierra la ventana."],
+        ["Vire à esquerda / à direita.", "Gira a la izquierda / derecha."],
+        ["Não toque nisso.", "No toques eso."],
+        ["Sente-se, por favor.", "Por favor, siéntate."],
       ],
       grammar: [
         ["El imperativo “você” toma la forma del subjuntivo", "En portugués de Brasil, el imperativo con “você” usa la forma del presente do subjuntivo (abra, feche, vire), no la del presente do indicativo.", "Abra a porta. / Não toque nisso. / Espere aqui, por favor."],
@@ -4846,11 +4846,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar este, esse y aquele en portugués según la distancia.",
     study: {
       vocab: [
-        ["este/esta/isto", "this (cerca del hablante)"],
-        ["esse/essa/isso", "that (cerca del oyente)"],
-        ["aquele/aquela/aquilo", "that over there (lejos de ambos)"],
-        ["estes/estas", "these"],
-        ["O que é isto?", "What is this?"],
+        ["este/esta/isto", "este (cerca del hablante)"],
+        ["esse/essa/isso", "ese (cerca del oyente)"],
+        ["aquele/aquela/aquilo", "aquel (lejos de ambos)"],
+        ["estes/estas", "estos/estas"],
+        ["O que é isto?", "¿Qué es esto?"],
       ],
       grammar: [
         ["Tres grados de distancia en portugués", "Como el español, el portugués tiene tres grados de distancia: “este” (cerca de mí), “esse” (cerca de ti), “aquele” (lejos de los dos) — a diferencia del inglés que solo distingue dos.", "Este é o meu telefone. / Aqueles são meus amigos, lá longe."],
@@ -4870,9 +4870,9 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar las preposiciones de tiempo às, em y na en portugués.",
     study: {
       vocab: [
-        ["às + hora", "at + hora (às 9 horas)"],
-        ["em + mês/ano", "in + mes/año (em julho)"],
-        ["na + dia da semana", "on + día (na segunda-feira)"],
+        ["às + hora", "a + hora (às 9 horas)"],
+        ["em + mês/ano", "en + mes/año (em julho)"],
+        ["na + dia da semana", "en + día de la semana (na segunda-feira)"],
         ["à noite", "de noche"],
         ["de manhã / à tarde", "por la mañana / por la tarde"],
       ],
@@ -4894,11 +4894,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar los adverbios de frecuencia en portugués.",
     study: {
       vocab: [
-        ["sempre", "always"],
-        ["normalmente", "usually"],
-        ["às vezes", "sometimes"],
-        ["raramente", "rarely"],
-        ["nunca", "never"],
+        ["sempre", "siempre"],
+        ["normalmente", "normalmente"],
+        ["às vezes", "a veces"],
+        ["raramente", "raramente"],
+        ["nunca", "nunca"],
       ],
       grammar: [
         ["Posición de los adverbios de frecuencia", "Los adverbios de frecuencia suelen ir antes del verbo, o al inicio/final de la oración; “nunca” antes del verbo no necesita “não”, pero después del verbo sí lo requiere.", "Eu sempre tomo café de manhã. / Ela nunca chega atrasada. / Ela não chega atrasada nunca."],
@@ -4918,11 +4918,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a expresar posesión en portugués con la preposición “de”.",
     study: {
       vocab: [
-        ["o livro da Ana", "Ana's book"],
-        ["os brinquedos das crianças", "the children's toys"],
-        ["De quem é isso?", "Whose is this?"],
-        ["É da Ana.", "It's Ana's."],
-        ["a casa dos meus pais", "my parents' house"],
+        ["o livro da Ana", "el libro de Ana"],
+        ["os brinquedos das crianças", "los juguetes de los niños"],
+        ["De quem é isso?", "¿De quién es esto?"],
+        ["É da Ana.", "Es de Ana."],
+        ["a casa dos meus pais", "la casa de mis padres"],
       ],
       grammar: [
         ["“De + poseedor”, contraído con el artículo", "A diferencia del inglés (Ana's book), el portugués siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + a” se contrae en “da”, “de + os” en “dos”.", "Este é o livro da Ana. / A casa dos meus pais é grande."],
@@ -4943,10 +4943,10 @@ window.LESSON_BANKS.PT = [
     study: {
       vocab: [
         ["me, te, se, nos, se", "pronombres reflexivos"],
-        ["levantar-se", "to get (oneself) up"],
-        ["vestir-se", "to get dressed"],
-        ["Eu me cortei cozinhando.", "I cut myself while cooking."],
-        ["sozinho/a", "by myself"],
+        ["levantar-se", "levantarse"],
+        ["vestir-se", "vestirse"],
+        ["Eu me cortei cozinhando.", "Me corté mientras cocinaba."],
+        ["sozinho/a", "yo solo/a"],
       ],
       grammar: [
         ["Próclise: el pronombre va antes del verbo", "Muchos verbos portugueses son reflexivos y exigen un pronombre reflexivo que concuerda con el sujeto; en el portugués de Brasil hablado, el pronombre normalmente va ANTES del verbo (próclise).", "Eu me levanto às sete. / Ela se veste rapidamente."],
@@ -4966,11 +4966,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar los pronombres de objeto directo en portugués, formal e informal.",
     study: {
       vocab: [
-        ["o/a (formal/escrito)", "him/her/it (objeto directo)"],
-        ["os/as (formal/escrito)", "them (objeto directo)"],
-        ["ele/ela (uso informal como objeto)", "him/her (habla informal)"],
-        ["Você pode me ajudar?", "Can you help me?"],
-        ["Eu vi ela ontem.", "I saw her yesterday. (habla informal)"],
+        ["o/a (formal/escrito)", "lo/la (objeto directo)"],
+        ["os/as (formal/escrito)", "los/las (objeto directo)"],
+        ["ele/ela (uso informal como objeto)", "lo/la (habla informal)"],
+        ["Você pode me ajudar?", "¿Puedes ayudarme?"],
+        ["Eu vi ela ontem.", "La vi ayer. (habla informal)"],
       ],
       grammar: [
         ["Formal 'o/a' vs informal 'ele/ela'", "En el portugués formal/escrito, los pronombres de objeto directo son “o/a/os/as”; en el habla informal de Brasil, es muy común usar simplemente el pronombre sujeto (ele/ela) como objeto.", "Eu vi minha irmã ontem. → Eu a vi ontem. (formal) / Eu vi ela ontem. (informal, muy común)"],
@@ -4990,11 +4990,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar el presente do indicativo para hablar de planes futuros ya confirmados en portugués.",
     study: {
       vocab: [
-        ["Amanhã eu me encontro com ela.", "I'm meeting her tomorrow."],
-        ["Na próxima semana voamos para Madri.", "We're flying to Madrid next week."],
-        ["O que você faz neste fim de semana?", "What are you doing this weekend?"],
-        ["plano já organizado", "arranged plan"],
-        ["compromisso confirmado", "confirmed appointment"],
+        ["Amanhã eu me encontro com ela.", "Voy a verla mañana."],
+        ["Na próxima semana voamos para Madri.", "Volamos a Madrid la próxima semana."],
+        ["O que você faz neste fim de semana?", "¿Qué vas a hacer este fin de semana?"],
+        ["plano já organizado", "plan ya organizado"],
+        ["compromisso confirmado", "cita confirmada"],
       ],
       grammar: [
         ["El presente para planes ya confirmados", "En portugués, el presente do indicativo se usa frecuentemente para planes futuros ya confirmados, sobre todo con una expresión de tiempo.", "Amanhã eu me encontro com ela às 6. / Na próxima semana voamos para Madri."],
@@ -5014,11 +5014,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a hacer sugerencias en portugués.",
     study: {
       vocab: [
-        ["Vamos + infinitivo", "Let's... (vamos)"],
-        ["Que tal + infinitivo?", "How about...?"],
-        ["E se + presente do indicativo?", "What if we...?"],
-        ["Podemos + infinitivo.", "We could..."],
-        ["Boa ideia!", "That sounds good!"],
+        ["Vamos + infinitivo", "Vamos a... (vamos)"],
+        ["Que tal + infinitivo?", "¿Qué tal...?"],
+        ["E se + presente do indicativo?", "¿Y si...?"],
+        ["Podemos + infinitivo.", "Podríamos..."],
+        ["Boa ideia!", "¡Suena bien!"],
       ],
       grammar: [
         ["“E se” exige presente do indicativo", "“Vamos” va seguido de infinitivo (sin preposición); “que tal” va seguido de infinitivo o sustantivo; “e se” va seguido del presente do indicativo (no del infinitivo).", "Vamos à praia. / Que tal pedir uma pizza? / E se assistimos a um filme?"],
@@ -5038,11 +5038,11 @@ window.LESSON_BANKS.PT = [
     description:"Aprende verbos portugueses con preposición fija.",
     study: {
       vocab: [
-        ["parar de + infinitivo", "to stop doing"],
-        ["ficar com", "to keep"],
-        ["perceber", "to notice/to realize"],
-        ["contar com", "to count on"],
-        ["dar-se conta de", "to realize"],
+        ["parar de + infinitivo", "dejar de hacer"],
+        ["ficar com", "conservar"],
+        ["perceber", "notar/darse cuenta"],
+        ["contar com", "contar con"],
+        ["dar-se conta de", "darse cuenta"],
       ],
       grammar: [
         ["Verbo + preposición fija cambia el significado", "Algunos verbos portugueses cambian de significado al combinarse con una preposición fija, de forma similar a los phrasal verbs del inglés.", "Parei de fumar no ano passado. / Percebi a jaqueta nova dela. / Você pode contar comigo."],
@@ -5062,8 +5062,8 @@ window.LESSON_BANKS.PT = [
     description:"Aprende la diferencia entre las condicionales tipo 0 y tipo 1 en portugués.",
     study: {
       vocab: [
-        ["Se + presente, presente (tipo 0)", "zero conditional – verdades generales"],
-        ["Se + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
+        ["Se + presente, presente (tipo 0)", "condicional cero – verdades generales"],
+        ["Se + presente, futuro (tipo 1)", "primer condicional – posibilidad real"],
         ["Quando a água ferve, evapora.", "ejemplo de condicional tipo 0"],
         ["Se chover, eu ficarei em casa.", "ejemplo de condicional tipo 1"],
         ["possibilidade real", "posibilidad real"],
@@ -5088,8 +5088,8 @@ window.LESSON_BANKS.PT = [
       vocab: [
         ["ser + particípio (com agente)", "voz pasiva con agente"],
         ["se + verbo na 3ª pessoa", "voz pasiva impersonal con 'se'"],
-        ["A carta foi enviada.", "The letter was sent."],
-        ["Aqui se fala inglês.", "English is spoken here."],
+        ["A carta foi enviada.", "La carta fue enviada."],
+        ["Aqui se fala inglês.", "Aquí se habla inglés."],
         ["por + agente", "por + agente"],
       ],
       grammar: [
@@ -5110,10 +5110,10 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a usar coletillas de confirmación en portugués.",
     study: {
       vocab: [
-        ["..., não é?", "..., right? / isn't it? (neutro)"],
-        ["..., né?", "..., isn't it? (muy informal, muy común)"],
-        ["..., certo?", "..., correct?"],
-        ["..., tá?", "..., okay? (pedir acuerdo)"],
+        ["..., não é?", "..., ¿no? / ¿verdad? (neutro)"],
+        ["..., né?", "..., ¿no? (muy informal, muy común)"],
+        ["..., certo?", "..., ¿verdad?"],
+        ["..., tá?", "..., ¿vale? (pedir acuerdo)"],
         ["confirmar uma informação", "confirmar información"],
       ],
       grammar: [
@@ -5134,9 +5134,9 @@ window.LESSON_BANKS.PT = [
     description:"Aprende a formular preguntas indirectas y corteses en portugués.",
     study: {
       vocab: [
-        ["Você poderia me dizer onde...?", "Could you tell me where...?"],
-        ["Você sabe se...?", "Do you know if...?"],
-        ["Eu me pergunto o que...", "I wonder what..."],
+        ["Você poderia me dizer onde...?", "¿Podría decirme dónde...?"],
+        ["Você sabe se...?", "¿Sabe si...?"],
+        ["Eu me pergunto o que...", "Me pregunto qué..."],
         ["sem inversão, com 'se' para sim/não", "sin inversión, con 'se' para sí/no"],
         ["pedido cortês", "petición cortés"],
       ],
@@ -5160,9 +5160,9 @@ window.LESSON_BANKS.PT = [
       vocab: [
         ["tenho/tem + particípio (uso raro)", "forma compuesta – uso limitado en Brasil"],
         ["presente + há", "duración de una acción que sigue en curso"],
-        ["Há quanto tempo...?", "How long have you been...?"],
-        ["há / já", "for/since (con tiempo) / already"],
-        ["Eu espero há uma hora.", "I've been waiting for an hour."],
+        ["Há quanto tempo...?", "¿Cuánto tiempo llevas...?"],
+        ["há / já", "desde hace / desde (con tiempo) / ya"],
+        ["Eu espero há uma hora.", "Llevo una hora esperando."],
       ],
       grammar: [
         ["Sin “present perfect continuous”: presente + há", "El portugués de Brasil casi no usa una forma compuesta equivalente al present perfect continuous inglés; para la duración de una acción que sigue en curso, se usa el PRESENTE + “há”.", "Eu li três livros este mês. (resultado) / Eu espero há uma hora. (duración, en presente)"],

@@ -9,11 +9,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a saludar y presentarte en italiano.",
     study: {
       vocab: [
-        ["Buongiorno / Buonasera", "Good morning / Good evening"],
-        ["Ciao / Arrivederci", "Hi / Goodbye", "\"Ciao\" es informal, sirve para saludar y despedirse."],
-        ["Piacere!", "Nice to meet you!"],
-        ["Mi chiamo...", "My name is..."],
-        ["Come stai?", "How are you?", "Respuesta: \"Sto bene, grazie\""]
+        ["Buongiorno / Buonasera", "Buenos días / Buenas tardes"],
+        ["Ciao / Arrivederci", "Hola / Adiós", "\"Ciao\" es informal, sirve para saludar y despedirse."],
+        ["Piacere!", "¡Encantado/a de conocerte!"],
+        ["Mi chiamo...", "Me llamo..."],
+        ["Come stai?", "¿Cómo estás?", "Respuesta: \"Sto bene, grazie\""]
       ],
       grammar: [
         ["El verbo \"essere\" (ser/estar)", "Io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.", "Io sono insegnante. Lei è di Roma."]
@@ -33,10 +33,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende números del 1 al 20 y colores básicos en italiano.",
     study: {
       vocab: [
-        ["uno, due, tre... venti", "one, two, three... twenty"],
-        ["rosso, blu, verde, giallo", "red, blue, green, yellow"],
-        ["bianco, nero", "white, black"],
-        ["Ho ___ anni", "I am ___ years old", "Se usa el verbo \"avere\" (tener), no \"essere\"."]
+        ["uno, due, tre... venti", "uno, dos, tres... veinte"],
+        ["rosso, blu, verde, giallo", "rojo, azul, verde, amarillo"],
+        ["bianco, nero", "blanco, negro"],
+        ["Ho ___ anni", "Tengo ___ años", "Se usa el verbo \"avere\" (tener), no \"essere\"."]
       ],
       grammar: [
         ["Concordancia de género en los colores", "Los colores concuerdan en género y número con el sustantivo que describen.", "una macchina rossa / un fiore rosso."]
@@ -56,9 +56,9 @@ window.LESSON_BANKS.IT = [
     description:"Los dos verbos más importantes del italiano: ser/estar y tener.",
     study: {
       vocab: [
-        ["essere", "to be"],
-        ["avere", "to have", "También se usa para la edad."],
-        ["studente, insegnante", "student, teacher"]
+        ["essere", "ser/estar"],
+        ["avere", "tener/haber", "También se usa para la edad."],
+        ["studente, insegnante", "estudiante, profesor"]
       ],
       grammar: [
         ["Essere vs. Avere", "Los dos verbos más importantes del italiano. La edad se expresa con \"avere\" (como en español).", "Sono studente. / Ho venticinque anni."]
@@ -78,11 +78,11 @@ window.LESSON_BANKS.IT = [
     description:"Vocabulario de familia y de la casa en italiano.",
     study: {
       vocab: [
-        ["padre, madre", "father, mother"],
-        ["fratello, sorella", "brother, sister"],
-        ["figlio, figlia", "son, daughter"],
-        ["camera da letto, cucina, soggiorno", "bedroom, kitchen, living room"],
-        ["bagno, giardino", "bathroom, garden"]
+        ["padre, madre", "padre, madre"],
+        ["fratello, sorella", "hermano, hermana"],
+        ["figlio, figlia", "hijo, hija"],
+        ["camera da letto, cucina, soggiorno", "dormitorio, cocina, salón"],
+        ["bagno, giardino", "baño, jardín"]
       ],
       grammar: [
         ["Adjetivos posesivos", "Mio/mia, tuo/tua, suo/sua concuerdan en género y número con lo que poseen (no con el poseedor).", "Mio padre (masc.) / Mia madre (fem.) / I miei genitori (plural)."]
@@ -102,11 +102,11 @@ window.LESSON_BANKS.IT = [
     description:"Pide comida y desenvuélvete en un restaurante en italiano.",
     study: {
       vocab: [
-        ["il menù", "the menu"],
-        ["Vorrei...", "I would like...", "Forma cortés de pedir."],
-        ["il conto, per favore", "the bill, please"],
-        ["l'acqua, il pane", "water, bread"],
-        ["delizioso/a", "delicious"]
+        ["il menù", "el menú"],
+        ["Vorrei...", "Me gustaría...", "Forma cortés de pedir."],
+        ["il conto, per favore", "la cuenta, por favor"],
+        ["l'acqua, il pane", "agua, pan"],
+        ["delizioso/a", "delicioso"]
       ],
       grammar: [
         ["\"Vorrei\" para pedir con cortesía", "\"Vorrei\" (condicional de volere) es más educado que \"voglio\" al pedir algo.", "Vorrei un caffè, per favore. (Más cortés que \"Voglio un caffè\".)"]
@@ -126,11 +126,11 @@ window.LESSON_BANKS.IT = [
     description:"Habla sobre tu día: mañana, tarde y noche en italiano.",
     study: {
       vocab: [
-        ["svegliarsi", "to wake up"],
-        ["alzarsi", "to get up"],
-        ["fare colazione / pranzare / cenare", "to have breakfast/lunch/dinner"],
-        ["andare al lavoro", "to go to work"],
-        ["ogni giorno", "every day"]
+        ["svegliarsi", "despertarse"],
+        ["alzarsi", "levantarse"],
+        ["fare colazione / pranzare / cenare", "desayunar/almorzar/cenar"],
+        ["andare al lavoro", "ir al trabajo"],
+        ["ogni giorno", "todos los días"]
       ],
       grammar: [
         ["Verbos reflexivos en presente", "Verbos como \"svegliarsi\" y \"alzarsi\" llevan un pronombre reflexivo (mi, ti, si) que cambia según la persona.", "Io mi sveglio alle 7. / Lei si alza presto."]
@@ -150,12 +150,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a comprar ropa, preguntar precios y tallas en italiano.",
     study: {
       vocab: [
-        ["la camicia, la maglietta", "shirt, t-shirt"],
-        ["i pantaloni, la gonna", "pants, skirt"],
-        ["le scarpe", "shoes"],
-        ["Quanto costa?", "How much does it cost?"],
-        ["la taglia", "size"],
-        ["provare (qualcosa)", "to try on (something)"]
+        ["la camicia, la maglietta", "camisa, camiseta"],
+        ["i pantaloni, la gonna", "pantalón, falda"],
+        ["le scarpe", "zapatos"],
+        ["Quanto costa?", "¿Cuánto cuesta?"],
+        ["la taglia", "la talla"],
+        ["provare (qualcosa)", "probarse (algo)"]
       ],
       grammar: [
         ["Comparativo: più/meno...di", "Se usan para comparar dos cosas.", "Questa camicia è più cara di quella."],
@@ -176,10 +176,10 @@ window.LESSON_BANKS.IT = [
     description:"Habla del clima y las estaciones del año en italiano.",
     study: {
       vocab: [
-        ["fa caldo / freddo", "it's hot / cold"],
-        ["piove, nevica", "it rains, it snows"],
-        ["l'estate, l'inverno, la primavera, l'autunno", "summer, winter, spring, autumn"],
-        ["è nuvoloso / soleggiato", "it's cloudy / sunny"]
+        ["fa caldo / freddo", "hace calor / frío"],
+        ["piove, nevica", "llueve, nieva"],
+        ["l'estate, l'inverno, la primavera, l'autunno", "verano, invierno, primavera, otoño"],
+        ["è nuvoloso / soleggiato", "está nublado / hace sol"]
       ],
       grammar: [
         ["Verbi impersonali del tempo", "\"Fare\", \"piovere\" y \"nevicare\" se usan en tercera persona sin sujeto explícito.", "Fa molto caldo oggi. Piove."],
@@ -200,10 +200,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a hablar de acciones terminadas en el pasado con el passato prossimo.",
     study: {
       vocab: [
-        ["ieri, ieri sera, la settimana scorsa", "yesterday, last night, last week"],
-        ["ho mangiato, hai mangiato, ha mangiato", "I ate, you ate, he/she ate"],
-        ["sono andato/a, sei andato/a", "I went, you went"],
-        ["Cosa hai fatto?", "What did you do?"]
+        ["ieri, ieri sera, la settimana scorsa", "ayer, anoche, la semana pasada"],
+        ["ho mangiato, hai mangiato, ha mangiato", "yo comí, tú comiste, él/ella comió"],
+        ["sono andato/a, sei andato/a", "yo fui, tú fuiste"],
+        ["Cosa hai fatto?", "¿Qué hiciste?"]
       ],
       grammar: [
         ["Passato prossimo con \"avere\"", "Sujeto + avere (conjugado) + participio pasado.", "Ho mangiato una mela."],
@@ -224,10 +224,10 @@ window.LESSON_BANKS.IT = [
     description:"Estrai informazioni pratiche da avvisi e messaggi quotidiani.",
     study:{
       vocab:[
-        ["disponibile su richiesta","available on request"],
-        ["soggetto a modifiche","subject to change"],
-        ["avere i requisiti","to be eligible"],
-        ["la scadenza","deadline"]
+        ["disponibile su richiesta", "disponible a petición"],
+        ["soggetto a modifiche", "sujeto a cambios"],
+        ["avere i requisiti", "cumplir los requisitos"],
+        ["la scadenza", "el plazo límite"]
       ],
       grammar:[
         ["Lettura selettiva","Cerca prima lo scopo, la condizione e l'azione richiesta.","Le prenotazioni si confermano solo dopo il pagamento."]
@@ -245,10 +245,10 @@ window.LESSON_BANKS.IT = [
     description:"Distingui fatti, preferenze e ragioni in conversazioni quotidiane.",
     study:{
       vocab:[
-        ["preferirei","I would rather"],
-        ["si scopre che","it turns out"],
-        ["vale la pena","it's worth it"],
-        ["scoraggiare qualcuno","to put someone off"]
+        ["preferirei", "preferiría"],
+        ["si scopre che", "resulta que"],
+        ["vale la pena", "vale la pena"],
+        ["scoraggiare qualcuno", "desanimar a alguien"]
       ],
       grammar:[
         ["Opinione con giustificazione","Una risposta B1 deve includere un'opinione e una ragione.","Preferirei viaggiare in treno perché posso lavorare durante il viaggio."]
@@ -266,10 +266,10 @@ window.LESSON_BANKS.IT = [
     description:"Racconta esperienze passate combinando passato prossimo e imperfetto.",
     study:{
       vocab:[
-        ["all'inizio","at first"],
-        ["alla fine","eventually"],
-        ["inaspettatamente","unexpectedly"],
-        ["rendersi conto","to realise"]
+        ["all'inizio", "al principio"],
+        ["alla fine", "con el tiempo"],
+        ["inaspettatamente", "inesperadamente"],
+        ["rendersi conto", "darse cuenta"]
       ],
       grammar:[
         ["Passato prossimo vs. imperfetto","L'imperfetto descrive lo sfondo o un'azione in corso; il passato prossimo racconta azioni concluse.","Mentre aspettavamo l'autobus, ha iniziato a piovere."]
@@ -287,10 +287,10 @@ window.LESSON_BANKS.IT = [
     description:"Proponi opzioni, rispondi alle idee altrui e negozia una decisione.",
     study:{
       vocab:[
-        ["e se...?","shall we...?"],
-        ["capisco il tuo punto","I see your point"],
-        ["che ne dici di...?","how about...?"],
-        ["un compromesso","a compromise"]
+        ["e se...?", "¿qué tal si...?"],
+        ["capisco il tuo punto", "entiendo tu punto"],
+        ["che ne dici di...?", "¿qué tal...?"],
+        ["un compromesso", "un término medio"]
       ],
       grammar:[
         ["Linguaggio collaborativo","Per negoziare: proporre, rispondere e cercare un'alternativa condivisa.","Capisco il tuo punto sul costo; che ne dici di scegliere l'opzione più economica?"]
@@ -308,10 +308,10 @@ window.LESSON_BANKS.IT = [
     description:"Parla di piani, intenzioni e previsioni usando diverse forme di futuro.",
     study:{
       vocab:[
-        ["ho intenzione di","I intend to"],
-        ["tra poco","soon"],
-        ["appena posso","as soon as I can"],
-        ["è possibile che","it's possible that"]
+        ["ho intenzione di", "tengo la intención de"],
+        ["tra poco", "pronto"],
+        ["appena posso", "tan pronto como pueda"],
+        ["è possibile che", "es posible que"]
       ],
       grammar:[
         ["Futuro semplice vs. pensare di + infinito","\"Pensare di + infinito\" esprime un progetto già deciso; il futuro semplice esprime previsioni o decisioni spontanee.","Penso di trasferirmi il mese prossimo. / Credo che domani pioverà."]
@@ -329,10 +329,10 @@ window.LESSON_BANKS.IT = [
     description:"Formula reclami e richieste formali usando il condizionale di cortesia.",
     study:{
       vocab:[
-        ["vorrei","I would like"],
-        ["potrebbe...?","could you...?"],
-        ["mi dispiace informarla","I regret to inform you"],
-        ["presentare un reclamo","to file a complaint"]
+        ["vorrei", "me gustaría"],
+        ["potrebbe...?", "¿podrías...?"],
+        ["mi dispiace informarla", "lamento informarle"],
+        ["presentare un reclamo", "presentar una queja"]
       ],
       grammar:[
         ["Condizionale di cortesia","\"Vorrei\" e \"potrebbe\" rendono più gentili richieste e reclami formali.","Vorrei sapere perché l'ordine è arrivato in ritardo."]
@@ -350,10 +350,10 @@ window.LESSON_BANKS.IT = [
     description:"Esprimi ipotesi poco probabili o irreali con se + congiuntivo imperfetto.",
     study:{
       vocab:[
-        ["se avessi","if I had"],
-        ["nel caso in cui","in case"],
-        ["a meno che","unless"],
-        ["supponendo che","assuming that"]
+        ["se avessi", "si tuviera"],
+        ["nel caso in cui", "por si acaso"],
+        ["a meno che", "a menos que"],
+        ["supponendo che", "suponiendo que"]
       ],
       grammar:[
         ["Periodo ipotetico della possibilità (secondo tipo)","Per ipotesi poco probabili al presente: se + congiuntivo imperfetto, condizionale presente nella principale.","Se avessi più tempo, viaggerei più spesso."]
@@ -371,10 +371,10 @@ window.LESSON_BANKS.IT = [
     description:"Riporta ciò che altri hanno detto adattando tempi verbali e indicatori temporali.",
     study:{
       vocab:[
-        ["ha detto che","he/she said that"],
-        ["ha spiegato che","he/she explained that"],
-        ["ha chiesto se","he/she asked whether"],
-        ["ha aggiunto che","he/she added that"]
+        ["ha detto che", "él/ella dijo que"],
+        ["ha spiegato che", "él/ella explicó que"],
+        ["ha chiesto se", "él/ella preguntó si"],
+        ["ha aggiunto che", "él/ella añadió que"]
       ],
       grammar:[
         ["Discorso indiretto","Al passato, il futuro diventa condizionale passato e il presente spesso diventa imperfetto.","Ha detto: 'Arriverò in ritardo.' → Ha detto che sarebbe arrivato in ritardo."]
@@ -392,10 +392,10 @@ window.LESSON_BANKS.IT = [
     description:"Descrivi processi e fatti senza mettere in evidenza chi li compie.",
     study:{
       vocab:[
-        ["essere + participio passato","to be + past participle (passive)"],
-        ["si + verbo","impersonal/passive 'si' construction"],
-        ["essere portato a termine","to be carried out"],
-        ["occuparsi di","to be in charge of"]
+        ["essere + participio passato", "ser + participio (pasiva)"],
+        ["si + verbo", "construcción impersonal/pasiva con 'si'"],
+        ["essere portato a termine", "llevarse a cabo"],
+        ["occuparsi di", "estar a cargo de"]
       ],
       grammar:[
         ["Passivo e si passivante","Il passivo con 'essere' mette in evidenza l'azione; il 'si' passivante è più naturale quando l'agente non è importante.","Il progetto è stato approvato dal comitato. / Si è approvato il progetto."]
@@ -413,10 +413,10 @@ window.LESSON_BANKS.IT = [
     description:"Distingui quando usare il congiuntivo o l'indicativo secondo il grado di certezza.",
     study:{
       vocab:[
-        ["dubito che","I doubt that"],
-        ["non credo che","I don't think that"],
-        ["è probabile che","it's likely that"],
-        ["può darsi che","it might be that"]
+        ["dubito che", "dudo que"],
+        ["non credo che", "no creo que"],
+        ["è probabile che", "es probable que"],
+        ["può darsi che", "podría ser que"]
       ],
       grammar:[
         ["Congiuntivo con dubbio e probabilità","I verbi ed espressioni di dubbio o negazione di certezza richiedono il congiuntivo nella subordinata.","Dubito che il progetto sia pronto per venerdì."]
@@ -434,10 +434,10 @@ window.LESSON_BANKS.IT = [
     description:"Usa 'sebbene' e altri connettivi per sfumare idee e contrastare fatti.",
     study:{
       vocab:[
-        ["sebbene","although"],
-        ["nonostante","despite"],
-        ["tuttavia","however"],
-        ["però","but / however"]
+        ["sebbene", "aunque"],
+        ["nonostante", "a pesar de"],
+        ["tuttavia", "sin embargo"],
+        ["però", "pero / sin embargo"]
       ],
       grammar:[
         ["Connettivi di contrasto","'Sebbene' e 'nonostante' richiedono il congiuntivo, anche per un fatto reale.","Sebbene abbia piovuto, siamo usciti a camminare."]
@@ -455,10 +455,10 @@ window.LESSON_BANKS.IT = [
     description:"Costruisci argomenti che riconoscono il punto contrario prima di difendere una posizione.",
     study:{
       vocab:[
-        ["da un lato / dall'altro","on one hand / on the other hand"],
-        ["è innegabile che","it's undeniable that"],
-        ["vale la pena notare che","it's worth noting that"],
-        ["in definitiva","ultimately"]
+        ["da un lato / dall'altro", "por un lado / por otro lado"],
+        ["è innegabile che", "es innegable que"],
+        ["vale la pena notare che", "cabe destacar que"],
+        ["in definitiva", "en última instancia"]
       ],
       grammar:[
         ["Argomentazione sfumata","Un buon argomento B2 riconosce il punto contrario prima di difendere una posizione.","È innegabile che il piano riduca i costi, ma vale la pena notare che comporta anche dei rischi."]
@@ -476,10 +476,10 @@ window.LESSON_BANKS.IT = [
     description:"Usa l'attenuazione (hedging) per esprimere affermazioni prudenti in registro formale.",
     study:{
       vocab:[
-        ["converrebbe sottolineare che","it would be worth pointing out that"],
-        ["sarebbe opportuno precisare che","it would be worth clarifying that"],
-        ["essere propensi a pensare che","to be inclined to think that"],
-        ["a grandi linee","broadly speaking"]
+        ["converrebbe sottolineare che", "convendría señalar que"],
+        ["sarebbe opportuno precisare che", "convendría aclarar que"],
+        ["essere propensi a pensare che", "tender a pensar que"],
+        ["a grandi linee", "en términos generales"]
       ],
       grammar:[
         ["Attenuazione (hedging) nel registro formale","Il condizionale attenua le affermazioni e le rende più prudenti e formali rispetto al presente indicativo.","Converrebbe sostenere che la misura è prematura, sebbene i dati siano ancora limitati."]
@@ -497,10 +497,10 @@ window.LESSON_BANKS.IT = [
     description:"Esprimi ipotesi irreali al passato con una concordanza dei tempi complessa.",
     study:{
       vocab:[
-        ["se l'avessi saputo","if I had known"],
-        ["era impossibile che","it was impossible that"],
-        ["sarebbe bastato","it would have sufficed"],
-        ["solo quando","it wasn't until that"]
+        ["se l'avessi saputo", "si lo hubiera sabido"],
+        ["era impossibile che", "era imposible que"],
+        ["sarebbe bastato", "habría bastado"],
+        ["solo quando", "no fue hasta que"]
       ],
       grammar:[
         ["Congiuntivo trapassato e concordanza dei tempi","Per ipotesi irreali al passato: se + congiuntivo trapassato, condizionale passato nella principale.","Se avessi saputo il rischio, avrei agito diversamente."]
@@ -518,10 +518,10 @@ window.LESSON_BANKS.IT = [
     description:"Trasforma i verbi in sostantivi per ottenere un registro accademico e tecnico.",
     study:{
       vocab:[
-        ["l'attuazione di","the implementation of"],
-        ["l'assenza di","the absence of"],
-        ["dare luogo a","to give rise to"],
-        ["comportare","to entail"]
+        ["l'attuazione di", "la implementación de"],
+        ["l'assenza di", "la ausencia de"],
+        ["dare luogo a", "dar lugar a"],
+        ["comportare", "conllevar"]
       ],
       grammar:[
         ["Nominalizzazione per un registro formale","Trasformare i verbi in sostantivi (attuare → l'attuazione) è tipico dei testi accademici e tecnici.","L'attuazione tardiva della misura ha dato luogo a ritardi diffusi."]
@@ -539,10 +539,10 @@ window.LESSON_BANKS.IT = [
     description:"Collega cause e conseguenze con precisione usando connettivi avanzati.",
     study:{
       vocab:[
-        ["dato che","given that"],
-        ["nella misura in cui","insofar as"],
-        ["da cui il fatto che","hence / which is why"],
-        ["pena","under penalty of"]
+        ["dato che", "dado que"],
+        ["nella misura in cui", "en la medida en que"],
+        ["da cui il fatto che", "por eso / razón por la cual"],
+        ["pena", "bajo pena de"]
       ],
       grammar:[
         ["Connettivi complessi di causa-conseguenza","'Da cui' introduce una conseguenza logica; 'dato che' e 'nella misura in cui' introducono cause con l'indicativo.","Dato che i costi sono aumentati, da cui la revisione del bilancio."]
@@ -560,10 +560,10 @@ window.LESSON_BANKS.IT = [
     description:"Riassumi informazioni complesse conservando le relazioni logiche tra le idee.",
     study:{
       vocab:[
-        ["in sintesi","in summary"],
-        ["il punto centrale è che","the key point is that"],
-        ["conviene sottolineare","it's worth highlighting"],
-        ["a grandi linee","broadly / roughly speaking"]
+        ["in sintesi", "en resumen"],
+        ["il punto centrale è che", "el punto clave es que"],
+        ["conviene sottolineare", "cabe destacar"],
+        ["a grandi linee", "a grandes rasgos"]
       ],
       grammar:[
         ["Mediazione: sintetizzare con precisione","Un buon riassunto C1 conserva la relazione logica tra le idee (causa, contrasto, condizione), non solo le parole chiave.","A grandi linee, il rapporto conclude che il piano è fattibile, anche se conviene sottolineare i rischi di finanziamento."]
@@ -581,10 +581,10 @@ window.LESSON_BANKS.IT = [
     description:"Riconosci argomenti contrari con forza retorica prima di confutarli con precisione.",
     study:{
       vocab:[
-        ["se è vero che... non è meno vero che","while it's true that... it's no less true that"],
-        ["lungi dal","far from"],
-        ["ciò non toglie che","that doesn't take away that"],
-        ["in ultima analisi","ultimately"]
+        ["se è vero che... non è meno vero che", "si bien es cierto que... no es menos cierto que"],
+        ["lungi dal", "lejos de"],
+        ["ciò non toglie che", "eso no quita que"],
+        ["in ultima analisi", "en última instancia"]
       ],
       grammar:[
         ["Concessione avanzata e confutazione","Queste strutture riconoscono un argomento contrario con forza retorica prima di confutarlo o sfumarlo con precisione.","Se è vero che il piano riduce i costi, non è meno vero che introduce rischi considerevoli."]
@@ -602,10 +602,10 @@ window.LESSON_BANKS.IT = [
     description:"Interpreta il sottotesto e riformula idee complesse usando l'inversione enfatica e la litote.",
     study:{
       vocab:[
-        ["in nessun caso","by no means","Negazione enfatica che anticipa il verbo."],
-        ["non essere all'altezza di","to fall short of"],
-        ["un presupposto tacito","a tacit assumption"],
-        ["sfumare un'affermazione","to qualify a claim"]
+        ["in nessun caso", "de ninguna manera","Negazione enfatica che anticipa il verbo."],
+        ["non essere all'altezza di", "quedarse corto respecto a"],
+        ["un presupposto tacito", "un supuesto tácito"],
+        ["sfumare un'affermazione", "matizar una afirmación"]
       ],
       grammar:[
         ["Inversione dopo una negazione enfatica","Con espressioni negative enfatiche in apertura di frase ('in nessun caso', 'in alcun modo', 'sotto nessun aspetto'), nel registro colto il verbo precede spesso il soggetto.","In nessun caso questi risultati dovrebbero essere considerati definitivi."],
@@ -625,10 +625,10 @@ window.LESSON_BANKS.IT = [
     description:"Scegli strumenti retorici e adatta il tono a pubblico, scopo ed effetto desiderato.",
     study:{
       vocab:[
-        ["trovare un equilibrio","to strike a balance"],
-        ["una domanda retorica","a rhetorical question"],
-        ["evocare","to evoke"],
-        ["assumersi una responsabilità in modo proporzionato","to acknowledge responsibility proportionately"]
+        ["trovare un equilibrio", "encontrar un equilibrio"],
+        ["una domanda retorica", "una pregunta retórica"],
+        ["evocare", "evocar"],
+        ["assumersi una responsabilità in modo proporzionato", "reconocer la responsabilidad de forma proporcionada"]
       ],
       grammar:[
         ["Effetto stilistico e scelta lessicale","La scelta di una struttura o di una parola può creare vicinanza, distanza, urgenza o ironia, senza cambiare il contenuto letterale.","Non è del tutto infondato, anche se potrebbe senz'altro essere migliorato."],
@@ -648,10 +648,10 @@ window.LESSON_BANKS.IT = [
     description:"Interpreta presupposizioni, linguaggio valutativo e conclusioni implicite in testi di opinione.",
     study:{
       vocab:[
-        ["lasciar intendere","to imply"],
-        ["una riserva","a caveat"],
-        ["linguaggio valutativo","loaded language"],
-        ["trarre un'inferenza","to draw an inference"]
+        ["lasciar intendere", "dar a entender"],
+        ["una riserva", "una salvedad"],
+        ["linguaggio valutativo", "lenguaje cargado (tendencioso)"],
+        ["trarre un'inferenza", "sacar una inferencia"]
       ],
       grammar:[
         ["Presupposizione","Una frase può presentare un'idea come già accettata, senza dimostrarla esplicitamente.","Perfino i critici rimasti hanno accettato il piano rivisto."]
@@ -670,11 +670,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara i giorni della settimana, i mesi e come parlare di date in italiano.",
     study: {
       vocab: [
-        ["lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
-        ["gennaio, febbraio, marzo... dicembre", "January, February, March... December"],
-        ["Che giorno è oggi?", "What day is it today?"],
-        ["Oggi è il 5 maggio.", "Today is May 5th.", "In italiano: \"il\" + numero + mese, senza \"di\"."],
-        ["Quando è il tuo compleanno?", "When is your birthday?"]
+        ["lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica", "lunes, martes, miércoles, jueves, viernes, sábado, domingo"],
+        ["gennaio, febbraio, marzo... dicembre", "enero, febrero, marzo... diciembre"],
+        ["Che giorno è oggi?", "¿Qué día es hoy?"],
+        ["Oggi è il 5 maggio.", "Hoy es 5 de mayo.", "In italiano: \"il\" + numero + mese, senza \"di\"."],
+        ["Quando è il tuo compleanno?", "¿Cuándo es tu cumpleaños?"]
       ],
       grammar: [
         ["L'articolo con i giorni", "I giorni della settimana si scrivono in minuscolo e usano \"il\" per un'abitudine.", "Vado in palestra il lunedì. (ogni lunedì)"]
@@ -694,11 +694,11 @@ window.LESSON_BANKS.IT = [
     description:"Chiedi e dai indicazioni, e parla dei mezzi di trasporto in italiano.",
     study: {
       vocab: [
-        ["Come arrivo a...?", "How do I get to...?"],
-        ["Vada sempre dritto / Giri a sinistra / a destra", "Go straight ahead / Turn left / right"],
-        ["la fermata dell'autobus, la stazione", "the bus stop, the train station"],
-        ["È a due isolati da qui.", "It's two blocks from here."],
-        ["Quanto tempo ci vuole per arrivare?", "How long does it take to get there?"]
+        ["Come arrivo a...?", "¿Cómo llego a...?"],
+        ["Vada sempre dritto / Giri a sinistra / a destra", "Sigue recto / Gira a la izquierda / derecha"],
+        ["la fermata dell'autobus, la stazione", "la parada de autobús, la estación de tren"],
+        ["È a due isolati da qui.", "Está a dos calles de aquí."],
+        ["Quanto tempo ci vuole per arrivare?", "¿Cuánto se tarda en llegar?"]
       ],
       grammar: [
         ["L'imperativo per dare indicazioni", "Per dare istruzioni si usa l'imperativo (tu/Lei).", "Vada sempre dritto e giri a destra al semaforo."]
@@ -718,11 +718,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla della tua esperienza lavorativa e rispondi a domande di colloquio in italiano.",
     study: {
       vocab: [
-        ["Di cosa ti occupi?", "What do you do for a living?"],
-        ["ho esperienza in...", "I have experience in..."],
-        ["i miei punti di forza / di debolezza", "my strengths / weaknesses"],
-        ["lavorare in team, rispettare le scadenze", "to work as a team, to meet deadlines"],
-        ["un contratto a tempo pieno / parziale", "a full-time / part-time contract"]
+        ["Di cosa ti occupi?", "¿A qué te dedicas?"],
+        ["ho esperienza in...", "Tengo experiencia en..."],
+        ["i miei punti di forza / di debolezza", "mis fortalezas / debilidades"],
+        ["lavorare in team, rispettare le scadenze", "trabajar en equipo, cumplir los plazos"],
+        ["un contratto a tempo pieno / parziale", "un contrato a tiempo completo / parcial"]
       ],
       grammar: [
         ["Il passato prossimo per l'esperienza", "Si usa il passato prossimo per parlare di esperienza lavorativa senza dire esattamente quando.", "Ho lavorato nel servizio clienti per tre anni."],
@@ -743,11 +743,11 @@ window.LESSON_BANKS.IT = [
     description:"Distingui fatti da opinioni e valuta l'affidabilità di una notizia in italiano.",
     study: {
       vocab: [
-        ["una fonte affidabile / inaffidabile", "a reliable / unreliable source"],
-        ["secondo fonti vicine al caso", "according to sources close to the case"],
-        ["un titolo sensazionalistico", "a sensationalist headline"],
-        ["verificare incrociando le informazioni", "to cross-check information"],
-        ["un fatto verificato, un'opinione", "a verified fact, an opinion"]
+        ["una fonte affidabile / inaffidabile", "una fuente fiable / poco fiable"],
+        ["secondo fonti vicine al caso", "según fuentes cercanas al caso"],
+        ["un titolo sensazionalistico", "un titular sensacionalista"],
+        ["verificare incrociando le informazioni", "contrastar información"],
+        ["un fatto verificato, un'opinione", "un hecho verificado, una opinión"]
       ],
       grammar: [
         ["Verbi di attribuzione", "\"Secondo\", \"afferma che\", \"sottolinea che\" indicano da dove proviene un'affermazione e quanta certezza ha.", "Secondo il rapporto, le vendite sono aumentate del 10%."],
@@ -768,11 +768,11 @@ window.LESSON_BANKS.IT = [
     description:"Interpreta modi di dire, metafore ed espressioni idiomatiche comuni in italiano.",
     study: {
       vocab: [
-        ["costare un occhio della testa", "to cost an arm and a leg"],
-        ["essere tra l'incudine e il martello", "to be between a rock and a hard place"],
-        ["prendere in giro qualcuno", "to pull someone's leg"],
-        ["non avere peli sulla lingua", "to not mince words"],
-        ["darsi una mossa", "to get one's act together"]
+        ["costare un occhio della testa", "costar un ojo de la cara"],
+        ["essere tra l'incudine e il martello", "estar entre la espada y la pared"],
+        ["prendere in giro qualcuno", "tomarle el pelo a alguien"],
+        ["non avere peli sulla lingua", "no andarse con rodeos"],
+        ["darsi una mossa", "organizarse de una vez"]
       ],
       grammar: [
         ["Interpretare i modi di dire nel contesto", "Il significato di un modo di dire non è quasi mai letterale; va dedotto dal contesto comunicativo.", "\"Questo viaggio mi è costato un occhio della testa\" non parla di un occhio reale, ma di una spesa molto alta."]
@@ -792,11 +792,11 @@ window.LESSON_BANKS.IT = [
     description:"Riconosci ironia, sarcasmo e ambiguità intenzionale nell'italiano di livello avanzato.",
     study: {
       vocab: [
-        ["Che fortuna la mia!", "Just my luck! (ironico)"],
-        ["con le migliori intenzioni (ironico)", "with the best of intentions (ironic)"],
-        ["un doppio senso", "a double meaning"],
-        ["dire qualcosa con tono sarcastico", "to say something with a sarcastic tone"],
-        ["minimizzare deliberatamente qualcosa", "to understate something"]
+        ["Che fortuna la mia!", "¡Qué suerte la mía! (irónico)"],
+        ["con le migliori intenzioni (ironico)", "con la mejor intención (irónico)"],
+        ["un doppio senso", "un doble sentido"],
+        ["dire qualcosa con tono sarcastico", "decir algo con tono sarcástico"],
+        ["minimizzare deliberatamente qualcosa", "quitarle importancia a algo"]
       ],
       grammar: [
         ["Marcatori dell'ironia", "L'ironia si segnala di solito con il contesto, l'intonazione o un contrasto evidente tra ciò che si dice e la realtà, non con parole esplicite.", "\"Come sei puntuale!\" detto a chi arriva un'ora tardi è ironico per il contrasto."],
@@ -817,11 +817,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario delle stanze, dei mobili e degli oggetti di una casa in italiano.",
     study: {
       vocab: [
-        ["la cucina, il bagno, la camera da letto, il soggiorno", "the kitchen, the bathroom, the bedroom, the living room"],
-        ["il letto, il tavolo, la sedia, il divano", "the bed, the table, the chair, the sofa"],
-        ["Dov'è la cucina?", "Where is the kitchen?"],
-        ["Il letto è in camera da letto.", "The bed is in the bedroom."],
-        ["sopra, sotto, accanto a", "on top of, under, next to"]
+        ["la cucina, il bagno, la camera da letto, il soggiorno", "la cocina, el baño, el dormitorio, el salón"],
+        ["il letto, il tavolo, la sedia, il divano", "la cama, la mesa, la silla, el sofá"],
+        ["Dov'è la cucina?", "¿Dónde está la cocina?"],
+        ["Il letto è in camera da letto.", "La cama está en el dormitorio."],
+        ["sopra, sotto, accanto a", "encima de, debajo de, al lado de"]
       ],
       grammar: [
         ["\"C'è / Ci sono\" per situare oggetti", "\"C'è\" (singolare) e \"ci sono\" (plurale) indicano cosa si trova in un luogo.", "C'è un tavolo in cucina. Ci sono due sedie accanto."]
@@ -841,11 +841,11 @@ window.LESSON_BANKS.IT = [
     description:"Descrivi sintomi comuni e chiedi aiuto in farmacia o dal medico in italiano.",
     study: {
       vocab: [
-        ["Mi fa male la testa / lo stomaco / la gola.", "My head / stomach / throat hurts."],
-        ["Ho la febbre, la tosse, la nausea.", "I have a fever, a cough, nausea."],
-        ["Ha qualcosa per il mal di testa?", "Do you have something for a headache?"],
-        ["Prenda una pastiglia ogni otto ore.", "Take one pill every eight hours."],
-        ["prendere appuntamento dal medico", "to make a doctor's appointment"]
+        ["Mi fa male la testa / lo stomaco / la gola.", "Me duele la cabeza / el estómago / la garganta."],
+        ["Ho la febbre, la tosse, la nausea.", "Tengo fiebre, tos, náuseas."],
+        ["Ha qualcosa per il mal di testa?", "¿Tiene algo para el dolor de cabeza?"],
+        ["Prenda una pastiglia ogni otto ore.", "Tome una pastilla cada ocho horas."],
+        ["prendere appuntamento dal medico", "pedir cita con el médico"]
       ],
       grammar: [
         ["\"Fare male\" come \"piacere\"", "\"Fare male\" funziona come \"piacere\": concorda con la parte del corpo, non con la persona.", "Mi fa male la testa. / Mi fanno male i piedi."]
@@ -865,11 +865,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla dell'uso della tecnologia e dei social media, dei loro vantaggi e rischi, in italiano.",
     study: {
       vocab: [
-        ["pubblicare, condividere, commentare", "to post, to share, to comment"],
-        ["essere connesso / disconnettersi", "to be online / to log off"],
-        ["la privacy, i dati personali", "privacy, personal data"],
-        ["dipendere dal telefono", "to be dependent on your phone"],
-        ["restare in contatto con", "to keep in touch with"]
+        ["pubblicare, condividere, commentare", "publicar, compartir, comentar"],
+        ["essere connesso / disconnettersi", "estar conectado / desconectarse"],
+        ["la privacy, i dati personali", "privacidad, datos personales"],
+        ["dipendere dal telefono", "depender del móvil"],
+        ["restare in contatto con", "mantener el contacto con"]
       ],
       grammar: [
         ["Confrontare vantaggi e svantaggi", "\"Da un lato... dall'altro\" e \"mentre\" aiutano a confrontare due idee.", "Da un lato i social aiutano a restare in contatto; dall'altro possono portare via molto tempo."]
@@ -889,11 +889,11 @@ window.LESSON_BANKS.IT = [
     description:"Presenta e soppesa argomenti su dilemmi etici comuni in italiano.",
     study: {
       vocab: [
-        ["a favore di / contro", "in favor of / against"],
-        ["da un punto di vista etico", "from an ethical point of view"],
-        ["il bene comune, l'interesse individuale", "the common good, individual interest"],
-        ["giustificare una decisione", "to justify a decision"],
-        ["non c'è una risposta unica", "there is no single answer"]
+        ["a favore di / contro", "a favor de / en contra de"],
+        ["da un punto di vista etico", "desde un punto de vista ético"],
+        ["il bene comune, l'interesse individuale", "el bien común, el interés individual"],
+        ["giustificare una decisione", "justificar una decisión"],
+        ["non c'è una risposta unica", "no hay una única respuesta"]
       ],
       grammar: [
         ["Strutturare un argomento equilibrato", "Presentare prima un argomento, poi quello opposto, e chiudere con una posizione sfumata evita il pregiudizio.", "Alcuni sostengono che..., mentre altri affermano che... A mio parere, entrambe le posizioni hanno un senso."]
@@ -913,11 +913,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a citare fonti, parafrasare idee ed evitare il plagio in un registro accademico in italiano.",
     study: {
       vocab: [
-        ["secondo (autore, anno)", "according to (author, year)"],
-        ["come sottolinea/sostiene l'autore", "as the author points out/argues"],
-        ["parafrasare un'idea", "to paraphrase an idea"],
-        ["citare testualmente", "to quote directly"],
-        ["il plagio, le fonti affidabili", "plagiarism, reliable sources"]
+        ["secondo (autore, anno)", "según (autor, año)"],
+        ["come sottolinea/sostiene l'autore", "como señala/argumenta el autor"],
+        ["parafrasare un'idea", "parafrasear una idea"],
+        ["citare testualmente", "citar textualmente"],
+        ["il plagio, le fonti affidabili", "el plagio, las fuentes fiables"]
       ],
       grammar: [
         ["Verbi per introdurre citazioni altrui", "\"Sostiene che\", \"afferma che\", \"sottolinea che\" variano la sfumatura: non tutti implicano lo stesso grado di certezza.", "L'autore sostiene che la politica sia stata un errore; altri ricercatori, invece, sottolineano sfumature importanti."],
@@ -938,11 +938,11 @@ window.LESSON_BANKS.IT = [
     description:"Individua fallacie logiche e strategie di persuasione in argomentazioni di alto livello in italiano.",
     study: {
       vocab: [
-        ["l'attacco personale (ad hominem)", "ad hominem attack"],
-        ["la falsa dicotomia", "false dichotomy"],
-        ["la china scivolosa", "slippery slope"],
-        ["generalizzare da un solo caso", "to generalize from a single case"],
-        ["fare appello all'emozione invece che ai fatti", "to appeal to emotion instead of facts"]
+        ["l'attacco personale (ad hominem)", "ataque ad hominem"],
+        ["la falsa dicotomia", "falsa dicotomía"],
+        ["la china scivolosa", "pendiente resbaladiza (falacia)"],
+        ["generalizzare da un solo caso", "generalizar a partir de un solo caso"],
+        ["fare appello all'emozione invece che ai fatti", "apelar a la emoción en vez de a los hechos"]
       ],
       grammar: [
         ["Identificare le fallacie nel discorso", "Una fallacia sembra un argomento valido ma la sua struttura logica è difettosa, anche se suona persuasiva.", "\"Se permettiamo questo, presto tutto sfuggirà al controllo\" è una china scivolosa: presuppone una catena di conseguenze senza prove."]
@@ -962,11 +962,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a esprimere emozioni e sentimenti di base in italiano.",
     study: {
       vocab: [
-        ["essere felice, triste, stanco, arrabbiato", "to be happy, sad, tired, angry"],
-        ["Come ti senti?", "How do you feel?"],
-        ["Sono un po' nervoso/a.", "I'm a bit nervous."],
-        ["avere paura, avere sonno, avere fame", "to be afraid, to be sleepy, to be hungry"],
-        ["Perché sei triste?", "Why are you sad?"]
+        ["essere felice, triste, stanco, arrabbiato", "estar feliz, triste, cansado, enfadado"],
+        ["Come ti senti?", "¿Cómo te sientes?"],
+        ["Sono un po' nervoso/a.", "Estoy un poco nervioso/a."],
+        ["avere paura, avere sonno, avere fame", "tener miedo, tener sueño, tener hambre"],
+        ["Perché sei triste?", "¿Por qué estás triste?"]
       ],
       grammar: [
         ["\"Essere\" con le emozioni", "Le emozioni si esprimono con \"essere\" + aggettivo.", "Sono felice oggi. / È stanca dopo il lavoro."]
@@ -986,11 +986,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla dei tuoi hobby e dei tuoi piani per il fine settimana in italiano.",
     study: {
       vocab: [
-        ["Cosa ti piace fare nel tempo libero?", "What do you like to do in your free time?"],
-        ["dipingere, suonare uno strumento, fare escursioni", "to paint, to play an instrument, to go hiking"],
-        ["Che piani hai per il weekend?", "What plans do you have for the weekend?"],
-        ["sto per + infinito / vado a + infinito", "I'm going to + infinitive"],
-        ["vedersi con gli amici", "to meet up with friends"]
+        ["Cosa ti piace fare nel tempo libero?", "¿Qué te gusta hacer en tu tiempo libre?"],
+        ["dipingere, suonare uno strumento, fare escursioni", "pintar, tocar un instrumento, hacer senderismo"],
+        ["Che piani hai per il weekend?", "¿Qué planes tienes para el fin de semana?"],
+        ["sto per + infinito / vado a + infinito", "voy a + infinitivo"],
+        ["vedersi con gli amici", "quedar con amigos"]
       ],
       grammar: [
         ["\"Andare a\" + infinito per i piani", "Si usa \"andare a\" + infinito per parlare di piani futuri vicini.", "Sabato vado a vedermi con gli amici."]
@@ -1010,11 +1010,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla della tutela dell'ambiente e delle abitudini sostenibili in italiano.",
     study: {
       vocab: [
-        ["riciclare, riutilizzare, ridurre i consumi", "to recycle, to reuse, to reduce consumption"],
-        ["il cambiamento climatico, l'impronta di carbonio", "climate change, carbon footprint"],
-        ["i prodotti monouso", "single-use products"],
-        ["risparmiare energia / acqua", "to save energy / water"],
-        ["prendere provvedimenti per proteggere il pianeta", "to take steps to protect the planet"]
+        ["riciclare, riutilizzare, ridurre i consumi", "reciclar, reutilizar, reducir el consumo"],
+        ["il cambiamento climatico, l'impronta di carbonio", "el cambio climático, la huella de carbono"],
+        ["i prodotti monouso", "los productos de un solo uso"],
+        ["risparmiare energia / acqua", "ahorrar energía / agua"],
+        ["prendere provvedimenti per proteggere il pianeta", "tomar medidas para proteger el planeta"]
       ],
       grammar: [
         ["Il futuro semplice per le conseguenze", "Il futuro semplice descrive conseguenze probabili di azioni attuali.", "Se non riduciamo la plastica, l'inquinamento aumenterà."]
@@ -1034,11 +1034,11 @@ window.LESSON_BANKS.IT = [
     description:"Discuti l'impatto dell'intelligenza artificiale sul lavoro, con argomenti sfumati in italiano.",
     study: {
       vocab: [
-        ["automatizzare compiti ripetitivi", "to automate repetitive tasks"],
-        ["sostituire posti di lavoro", "to replace jobs"],
-        ["adattarsi a nuovi strumenti", "to adapt to new tools"],
-        ["generare nuove opportunità di lavoro", "to generate new job opportunities"],
-        ["dipende da come viene implementata", "it depends on how it's implemented"]
+        ["automatizzare compiti ripetitivi", "automatizar tareas repetitivas"],
+        ["sostituire posti di lavoro", "reemplazar empleos"],
+        ["adattarsi a nuovi strumenti", "adaptarse a nuevas herramientas"],
+        ["generare nuove opportunità di lavoro", "generar nuevas oportunidades laborales"],
+        ["dipende da come viene implementata", "depende de cómo se implemente"]
       ],
       grammar: [
         ["Il futuro anteriore per la speculazione", "\"Avrà\" + participio passato specula su ciò che probabilmente sarà accaduto entro un certo momento futuro.", "Entro il 2030, l'IA avrà cambiato molti settori."]
@@ -1058,11 +1058,11 @@ window.LESSON_BANKS.IT = [
     description:"Analizza come il linguaggio pubblicitario usa la connotazione e le tecniche di persuasione.",
     study: {
       vocab: [
-        ["una connotazione positiva / negativa", "a positive / negative connotation"],
-        ["fare appello al desiderio di appartenenza", "to appeal to the desire to belong"],
-        ["uno slogan orecchiabile", "a catchy slogan"],
-        ["creare un senso di urgenza", "to create a sense of urgency"],
-        ["il pubblico di riferimento", "the target audience"]
+        ["una connotazione positiva / negativa", "una connotación positiva / negativa"],
+        ["fare appello al desiderio di appartenenza", "apelar al deseo de pertenencia"],
+        ["uno slogan orecchiabile", "un eslogan pegadizo"],
+        ["creare un senso di urgenza", "crear una sensación de urgencia"],
+        ["il pubblico di riferimento", "el público objetivo"]
       ],
       grammar: [
         ["Connotazione contro denotazione", "La denotazione è il significato letterale di una parola; la connotazione è la carica emotiva o culturale associata.", "\"Casa\" (denotazione: edificio) contro \"focolare\" (connotazione: calore, appartenenza)."]
@@ -1082,11 +1082,11 @@ window.LESSON_BANKS.IT = [
     description:"Analizza l'ambiguità strategica e l'eufemismo nel discorso politico di alto livello in italiano.",
     study: {
       vocab: [
-        ["un eufemismo", "a euphemism"],
-        ["l'ambiguità strategica", "strategic ambiguity"],
-        ["eludere una domanda diretta", "to dodge a direct question"],
-        ["un aggiustamento di bilancio (eufemismo per taglio)", "a budget adjustment (euphemism for a cut)"],
-        ["impegnarsi senza impegnarsi del tutto", "to commit without fully committing"]
+        ["un eufemismo", "un eufemismo"],
+        ["l'ambiguità strategica", "ambigüedad estratégica"],
+        ["eludere una domanda diretta", "esquivar una pregunta directa"],
+        ["un aggiustamento di bilancio (eufemismo per taglio)", "un ajuste presupuestario (eufemismo de recorte)"],
+        ["impegnarsi senza impegnarsi del tutto", "comprometerse sin comprometerse del todo"]
       ],
       grammar: [
         ["Riconoscere l'eufemismo politico", "Un eufemismo sostituisce un'espressione diretta con una più morbida, spesso per attenuare una realtà scomoda.", "\"Aggiustamento di bilancio\" suona più neutrale di \"taglio di spesa\", anche se descrive la stessa cosa."],
@@ -1107,11 +1107,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a parlare di prezzi, denaro e numeri ordinali in italiano.",
     study: {
       vocab: [
-        ["primo, secondo, terzo...", "first, second, third..."],
-        ["Quanto costa questo?", "How much does this cost?"],
-        ["Costa dieci euro.", "It costs ten euros."],
-        ["economico, caro", "cheap, expensive"],
-        ["pagare in contanti / con carta", "to pay in cash / by card"]
+        ["primo, secondo, terzo...", "primero, segundo, tercero..."],
+        ["Quanto costa questo?", "¿Cuánto cuesta esto?"],
+        ["Costa dieci euro.", "Cuesta diez euros."],
+        ["economico, caro", "barato, caro"],
+        ["pagare in contanti / con carta", "pagar en efectivo / con tarjeta"]
       ],
       grammar: [
         ["\"Costa / Costano\" per i prezzi", "\"Costa\" (singolare) e \"costano\" (plurale) concordano con ciò che si compra.", "Il libro costa dieci euro. I libri costano venti euro."]
@@ -1131,11 +1131,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a ordinare cibo, fare domande al cameriere e pagare il conto in un ristorante.",
     study: {
       vocab: [
-        ["Vorrei ordinare...", "I would like to order..."],
-        ["Cosa mi consiglia?", "What do you recommend?"],
-        ["Mi porta il conto, per favore?", "Could you bring me the bill, please?"],
-        ["Il servizio è incluso?", "Is the tip included?"],
-        ["Per me, il menù del giorno.", "For me, the set menu."]
+        ["Vorrei ordinare...", "Quisiera pedir..."],
+        ["Cosa mi consiglia?", "¿Qué recomiendas?"],
+        ["Mi porta il conto, per favore?", "¿Podría traerme la cuenta, por favor?"],
+        ["Il servizio è incluso?", "¿Está incluida la propina?"],
+        ["Per me, il menù del giorno.", "Para mí, el menú del día."]
       ],
       grammar: [
         ["\"Vorrei\" per ordinare con cortesia", "\"Vorrei\" (condizionale di \"volere\") è più formale e cortese di \"voglio\" quando si ordina.", "Vorrei ordinare la zuppa e il pollo, per favore."]
@@ -1155,11 +1155,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla di conti bancari, risparmio e budget personale in italiano.",
     study: {
       vocab: [
-        ["aprire un conto bancario", "to open a bank account"],
-        ["fare un budget mensile", "to make a monthly budget"],
-        ["risparmiare per un obiettivo", "to save up for a goal"],
-        ["le spese fisse e le spese variabili", "fixed expenses and variable expenses"],
-        ["chiedere un prestito, pagare a rate", "to take out a loan, to pay in installments"]
+        ["aprire un conto bancario", "abrir una cuenta bancaria"],
+        ["fare un budget mensile", "hacer un presupuesto mensual"],
+        ["risparmiare per un obiettivo", "ahorrar para una meta"],
+        ["le spese fisse e le spese variabili", "gastos fijos y gastos variables"],
+        ["chiedere un prestito, pagare a rate", "pedir un préstamo, pagar a plazos"]
       ],
       grammar: [
         ["Il condizionale per i consigli finanziari", "\"Dovresti\" + infinito dà un consiglio senza suonare troppo diretto.", "Dovresti risparmiare almeno il 10% del tuo stipendio ogni mese."]
@@ -1179,11 +1179,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla del benessere emotivo e della salute mentale con un vocabolario più sfumato in italiano.",
     study: {
       vocab: [
-        ["sentirsi sopraffatto/a", "to feel overwhelmed"],
-        ["porre dei limiti, prendersi cura di sé", "to set boundaries, to take care of yourself"],
-        ["il burnout (esaurimento)", "burnout"],
-        ["chiedere aiuto non è un segno di debolezza", "asking for help is not a sign of weakness"],
-        ["elaborare le proprie emozioni", "to process one's emotions"]
+        ["sentirsi sopraffatto/a", "sentirse abrumado/a"],
+        ["porre dei limiti, prendersi cura di sé", "poner límites, cuidarse"],
+        ["il burnout (esaurimento)", "el agotamiento (burnout)"],
+        ["chiedere aiuto non è un segno di debolezza", "pedir ayuda no es señal de debilidad"],
+        ["elaborare le proprie emozioni", "procesar las propias emociones"]
       ],
       grammar: [
         ["Il congiuntivo con espressioni di raccomandazione", "\"È importante che\" + congiuntivo raccomanda un'azione legata al benessere.", "È importante che tu parli di come ti senti con qualcuno di cui ti fidi."]
@@ -1203,11 +1203,11 @@ window.LESSON_BANKS.IT = [
     description:"Comprendi il vocabolario e le strutture di base del linguaggio giuridico nei contratti.",
     study: {
       vocab: [
-        ["le parti contraenti", "the contracting parties"],
-        ["una clausola, un allegato", "a clause, an appendix"],
-        ["recedere da un contratto", "to terminate a contract"],
-        ["essere soggetto ai termini e condizioni", "to be subject to the terms and conditions"],
-        ["in caso di inadempimento", "in the event of a breach"]
+        ["le parti contraenti", "las partes contratantes"],
+        ["una clausola, un allegato", "una cláusula, un anexo"],
+        ["recedere da un contratto", "rescindir un contrato"],
+        ["essere soggetto ai termini e condizioni", "estar sujeto a los términos y condiciones"],
+        ["in caso di inadempimento", "en caso de incumplimiento"]
       ],
       grammar: [
         ["Il linguaggio formale impersonale nei contratti", "I contratti usano strutture impersonali e passive per suonare oggettivi ed evitare ambiguità su chi agisce.", "Il presente contratto potrà essere risolto da ciascuna delle parti con un preavviso di 30 giorni."],
@@ -1228,11 +1228,11 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la voce narrativa, lo stile e le scelte formali di un testo letterario in italiano.",
     study: {
       vocab: [
-        ["la voce narrativa", "the narrative voice"],
-        ["un narratore affidabile / inaffidabile", "a reliable / unreliable narrator"],
-        ["il punto di vista (prima, terza persona)", "point of view (first, third person)"],
-        ["il tono e il registro di un testo", "the tone and register of a text"],
-        ["una tecnica narrativa (flashback, ellissi)", "a narrative technique (flashback, ellipsis)"]
+        ["la voce narrativa", "la voz narrativa"],
+        ["un narratore affidabile / inaffidabile", "un narrador fiable / poco fiable"],
+        ["il punto di vista (prima, terza persona)", "el punto de vista (primera, tercera persona)"],
+        ["il tono e il registro di un testo", "el tono y el registro de un texto"],
+        ["una tecnica narrativa (flashback, ellissi)", "una técnica narrativa (flashback, elipsis)"]
       ],
       grammar: [
         ["Analizzare le scelte formali dell'autore", "L'analisi letteraria avanzata collega una scelta formale (punto di vista, tempo verbale) al suo effetto sul lettore.", "L'uso della prima persona crea vicinanza, ma limita anche la prospettiva a ciò che il narratore può sapere o percepire."]
@@ -1252,11 +1252,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario di base delle professioni e a parlare del tuo lavoro in italiano.",
     study: {
       vocab: [
-        ["medico, insegnante, ingegnere, cameriere/a", "doctor, teacher, engineer, waiter/waitress"],
-        ["Cosa fai nella vita?", "What do you do for a living?"],
-        ["Sono studente/essa / Lavoro in un ufficio.", "I'm a student / I work in an office."],
-        ["Dove lavori?", "Where do you work?"],
-        ["lavorare come + professione", "to work as + profession"]
+        ["medico, insegnante, ingegnere, cameriere/a", "médico, profesor, ingeniero, camarero/a"],
+        ["Cosa fai nella vita?", "¿A qué te dedicas?"],
+        ["Sono studente/essa / Lavoro in un ufficio.", "Soy estudiante / Trabajo en una oficina."],
+        ["Dove lavori?", "¿Dónde trabajas?"],
+        ["lavorare come + professione", "trabajar de + profesión"]
       ],
       grammar: [
         ["\"Essere\" con le professioni (senza articolo)", "Con le professioni, \"essere\" non porta l'articolo indeterminativo, a differenza dell'inglese.", "Sono insegnante. (non \"Sono un insegnante\")"]
@@ -1276,11 +1276,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a descrivere l'aspetto fisico e la personalità di altre persone in italiano.",
     study: {
       vocab: [
-        ["alto/a, basso/a, magro/a", "tall, short, slim"],
-        ["ha i capelli lunghi/corti, porta gli occhiali", "has long/short hair, wears glasses"],
-        ["è simpatico/a, timido/a, divertente", "is nice, shy, funny"],
-        ["assomiglia a sua madre/suo padre", "looks like his/her mother/father"],
-        ["Com'è il tuo migliore amico/la tua migliore amica?", "What is your best friend like?"]
+        ["alto/a, basso/a, magro/a", "alto, bajo, delgado"],
+        ["ha i capelli lunghi/corti, porta gli occhiali", "tiene el pelo largo/corto, lleva gafas"],
+        ["è simpatico/a, timido/a, divertente", "es simpático, tímido, gracioso"],
+        ["assomiglia a sua madre/suo padre", "se parece a su madre/padre"],
+        ["Com'è il tuo migliore amico/la tua migliore amica?", "¿Cómo es tu mejor amigo/a?"]
       ],
       grammar: [
         ["\"Essere\" per le caratteristiche, \"avere\" e \"portare\" per i tratti fisici", "\"Essere\" descrive la personalità e i tratti stabili; \"avere\" e \"portare\" descrivono parti del corpo o accessori.", "È molto simpatica, ha i capelli lunghi e porta gli occhiali."]
@@ -1300,11 +1300,11 @@ window.LESSON_BANKS.IT = [
     description:"Parla di sistemi educativi, metodi di studio ed esperienze scolastiche in italiano.",
     study: {
       vocab: [
-        ["l'istruzione obbligatoria / superiore", "compulsory / higher education"],
-        ["superare/bocciare un esame", "to pass/fail an exam"],
-        ["memorizzare contro capire", "to memorize versus to understand"],
-        ["un piano di studi, una materia", "a curriculum, a school subject"],
-        ["imparare al proprio ritmo", "to learn at your own pace"]
+        ["l'istruzione obbligatoria / superiore", "la educación obligatoria / superior"],
+        ["superare/bocciare un esame", "aprobar/suspender un examen"],
+        ["memorizzare contro capire", "memorizar frente a comprender"],
+        ["un piano di studi, una materia", "un plan de estudios, una asignatura"],
+        ["imparare al proprio ritmo", "aprender a tu propio ritmo"]
       ],
       grammar: [
         ["I comparativi per confrontare sistemi", "\"Più... di/che\", \"meno... di/che\" e \"tanto... quanto\" servono per confrontare metodi o sistemi educativi.", "Questo sistema è più pratico di quello tradizionale, anche se non è tanto strutturato quanto quello."]
@@ -1324,11 +1324,11 @@ window.LESSON_BANKS.IT = [
     description:"Discuti proposte di urbanistica e mobilità sostenibile nelle città, con argomenti sfumati in italiano.",
     study: {
       vocab: [
-        ["i mezzi pubblici, la pista ciclabile", "public transport, the bike lane"],
-        ["pedonalizzare il centro città", "to pedestrianize the city center"],
-        ["ridurre il traffico e l'inquinamento", "to reduce traffic and pollution"],
-        ["uno spazio verde, una zona pedonale", "a green space, a pedestrian zone"],
-        ["investire in infrastrutture sostenibili", "to invest in sustainable infrastructure"]
+        ["i mezzi pubblici, la pista ciclabile", "el transporte público, el carril bici"],
+        ["pedonalizzare il centro città", "peatonalizar el centro de la ciudad"],
+        ["ridurre il traffico e l'inquinamento", "reducir el tráfico y la contaminación"],
+        ["uno spazio verde, una zona pedonale", "un espacio verde, una zona peatonal"],
+        ["investire in infrastrutture sostenibili", "invertir en infraestructura sostenible"]
       ],
       grammar: [
         ["Il congiuntivo con espressioni di dubbio o opinione", "\"Non credo che\" e \"è possibile che\" richiedono il congiuntivo per esprimere dubbio o opinione su proposte urbanistiche.", "Non credo che pedonalizzare tutto il centro sia l'unica soluzione possibile."]
@@ -1348,11 +1348,11 @@ window.LESSON_BANKS.IT = [
     description:"Impara a comunicare informazioni scientifiche complesse in modo chiaro e preciso in italiano, senza perdere rigore.",
     study: {
       vocab: [
-        ["semplificare senza distorcere", "to simplify without distorting"],
-        ["un risultato preliminare contro uno confermato", "a preliminary finding versus a confirmed one"],
-        ["le evidenze scientifiche suggeriscono che...", "scientific evidence suggests that..."],
-        ["un'analogia utile per spiegare qualcosa di complesso", "a useful analogy to explain something complex"],
-        ["evitare il sensazionalismo scientifico", "to avoid scientific sensationalism"]
+        ["semplificare senza distorcere", "simplificar sin distorsionar"],
+        ["un risultato preliminare contro uno confermato", "un hallazgo preliminar frente a uno confirmado"],
+        ["le evidenze scientifiche suggeriscono che...", "la evidencia científica sugiere que..."],
+        ["un'analogia utile per spiegare qualcosa di complesso", "una analogía útil para explicar algo complejo"],
+        ["evitare il sensazionalismo scientifico", "evitar el sensacionalismo científico"]
       ],
       grammar: [
         ["Verbi sfumati per comunicare l'incertezza scientifica", "\"Suggerisce\", \"indica\", \"potrebbe spiegare\" trasmettono diversi gradi di certezza scientifica, più precisi di \"prova\" o \"dimostra\".", "Lo studio suggerisce un possibile legame, ma non dimostra la causalità."]
@@ -1372,11 +1372,11 @@ window.LESSON_BANKS.IT = [
     description:"Analizza gli atti linguistici e la pragmatica in italiano: la differenza tra ciò che si dice e ciò che si fa dicendolo.",
     study: {
       vocab: [
-        ["un atto linguistico (richiesta, promessa, ordine)", "a speech act (request, promise, order)"],
-        ["il significato letterale contro il significato inteso", "literal meaning versus intended meaning"],
-        ["un atto linguistico indiretto", "an indirect speech act"],
-        ["le condizioni di felicità di un atto linguistico", "the felicity conditions of a speech act"],
-        ["implicare qualcosa senza dirlo esplicitamente", "to imply something without saying it explicitly"]
+        ["un atto linguistico (richiesta, promessa, ordine)", "un acto de habla (petición, promesa, orden)"],
+        ["il significato letterale contro il significato inteso", "el significado literal frente al significado pretendido"],
+        ["un atto linguistico indiretto", "un acto de habla indirecto"],
+        ["le condizioni di felicità di un atto linguistico", "las condiciones de adecuación de un acto de habla"],
+        ["implicare qualcosa senza dirlo esplicitamente", "insinuar algo sin decirlo explícitamente"]
       ],
       grammar: [
         ["Atti linguistici diretti contro indiretti", "Un atto linguistico indiretto usa una forma grammaticale (come una domanda) per svolgere un'altra funzione (come una richiesta).", "\"Potresti chiudere la finestra?\" ha la forma di una domanda, ma la sua funzione reale è una richiesta, non chiedere informazioni."]
@@ -1396,13 +1396,13 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario degli animali comuni e della natura in italiano.",
     study: {
       vocab: [
-        ["il cane", "the dog"],
-        ["il gatto", "the cat"],
-        ["l'uccello", "the bird"],
-        ["il cavallo", "the horse"],
-        ["il pesce", "the fish"],
-        ["la mucca", "the cow"],
-        ["il bosco, la montagna, il fiume", "the forest, the mountain, the river"],
+        ["il cane", "el perro"],
+        ["il gatto", "el gato"],
+        ["l'uccello", "el pájaro"],
+        ["il cavallo", "el caballo"],
+        ["il pesce", "el pez"],
+        ["la mucca", "la vaca"],
+        ["il bosco, la montagna, il fiume", "el bosque, la montaña, el río"],
       ],
       grammar: [
         ["Il genere degli animali", "Molti nomi di animali cambiano forma secondo il genere, ma altri sono invariabili.", "Il gatto è bianco. / La gatta è bianca. / Il pesce è piccolo (invariabile)."],
@@ -1422,12 +1422,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara le parti del corpo e a descrivere dolori o caratteristiche fisiche in italiano.",
     study: {
       vocab: [
-        ["la testa", "the head"],
-        ["il braccio", "the arm"],
-        ["la gamba", "the leg"],
-        ["la mano", "the hand"],
-        ["il piede", "the foot"],
-        ["la schiena", "the back"],
+        ["la testa", "la cabeza"],
+        ["il braccio", "el brazo"],
+        ["la gamba", "la pierna"],
+        ["la mano", "la mano"],
+        ["il piede", "el pie"],
+        ["la schiena", "la espalda"],
       ],
       grammar: [
         ["L'articolo determinativo con le parti del corpo", "Con le parti del corpo si usa l'articolo determinativo, non il possessivo, quando è chiaro di chi si parla.", "Mi fa male la testa. (non “Mi fa male la mia testa”)"],
@@ -1447,12 +1447,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di sport, routine di esercizio e abitudini di attività fisica in italiano.",
     study: {
       vocab: [
-        ["il calcio", "soccer/football"],
-        ["il nuoto", "swimming"],
-        ["il tennis", "tennis"],
-        ["correre", "to run"],
-        ["sollevare pesi", "to lift weights"],
-        ["fare yoga", "to do yoga"],
+        ["il calcio", "el fútbol"],
+        ["il nuoto", "la natación"],
+        ["il tennis", "el tenis"],
+        ["correre", "correr"],
+        ["sollevare pesi", "levantar pesas"],
+        ["fare yoga", "hacer yoga"],
       ],
       grammar: [
         ["“Solitamente” + presente per le abitudini", "“Solitamente” con il presente esprime un'azione abituale.", "Corro solitamente tre volte a settimana."],
@@ -1472,12 +1472,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di dispositivi intelligenti e domotica, con opinioni sfumate in italiano.",
     study: {
       vocab: [
-        ["un altoparlante intelligente", "a smart speaker"],
-        ["un termostato programmabile", "a programmable thermostat"],
-        ["una telecamera di sicurezza", "a security camera"],
-        ["controllare con la voce", "to control by voice"],
-        ["automatizzare le faccende domestiche", "to automate household tasks"],
-        ["un rischio per la privacy", "a privacy risk"],
+        ["un altoparlante intelligente", "un altavoz inteligente"],
+        ["un termostato programmabile", "un termostato programable"],
+        ["una telecamera di sicurezza", "una cámara de seguridad"],
+        ["controllare con la voce", "controlar por voz"],
+        ["automatizzare le faccende domestiche", "automatizar tareas del hogar"],
+        ["un rischio per la privacy", "un riesgo para la privacidad"],
       ],
       grammar: [
         ["Il futuro semplice per le previsioni tecnologiche", "Il futuro semplice descrive previsioni ragionevoli su come si evolverà la tecnologia.", "Tra qualche anno, più case avranno dispositivi connessi."],
@@ -1497,12 +1497,12 @@ window.LESSON_BANKS.IT = [
     description:"Padroneggia il vocabolario e le formule tipiche di riunioni ed email professionali in italiano.",
     study: {
       vocab: [
-        ["convocare una riunione", "to call a meeting"],
-        ["allegare un documento", "to attach a document"],
-        ["restiamo in attesa di un suo riscontro", "we look forward to your response"],
-        ["riprendere un punto in sospeso", "to follow up on a pending item"],
-        ["raggiungere un accordo", "to reach an agreement"],
-        ["rinviare una riunione", "to postpone a meeting"],
+        ["convocare una riunione", "convocar una reunión"],
+        ["allegare un documento", "adjuntar un documento"],
+        ["restiamo in attesa di un suo riscontro", "esperamos su respuesta"],
+        ["riprendere un punto in sospeso", "hacer seguimiento de un pendiente"],
+        ["raggiungere un accordo", "llegar a un acuerdo"],
+        ["rinviare una riunione", "posponer una reunión"],
       ],
       grammar: [
         ["Formule di cortesia nelle email formali", "Formule fisse come “Restiamo in attesa di un suo riscontro” danno una chiusura professionale senza suonare brusche.", "In allegato trova la relazione richiesta. Restiamo in attesa di un suo riscontro."],
@@ -1522,11 +1522,11 @@ window.LESSON_BANKS.IT = [
     description:"Scegli il sinonimo adeguato secondo il registro (formale, neutro, colloquiale) in italiano.",
     study: {
       vocab: [
-        ["ottenere (formale) / prendere (neutro)", "to obtain / to get"],
-        ["decedere (formale) / morire (neutro) / tirare le cuoia (colloquiale)", "to pass away / to die / to kick the bucket"],
-        ["richiedere (formale) / chiedere (neutro)", "to request / to ask for"],
-        ["risiedere (formale) / vivere / abitare (neutro)", "to reside / to live"],
-        ["tuttavia (formale) / ma (neutro)", "however / but"],
+        ["ottenere (formale) / prendere (neutro)", "obtener / conseguir"],
+        ["decedere (formale) / morire (neutro) / tirare le cuoia (colloquiale)", "fallecer / morir / estirar la pata"],
+        ["richiedere (formale) / chiedere (neutro)", "solicitar / pedir"],
+        ["risiedere (formale) / vivere / abitare (neutro)", "residir / vivir"],
+        ["tuttavia (formale) / ma (neutro)", "sin embargo / pero"],
       ],
       grammar: [
         ["Scegliere il registro secondo il contesto comunicativo", "La stessa idea può esprimersi con parole molto diverse a seconda del contesto formale, neutro o colloquiale; usare la parola sbagliata rompe la coerenza del testo.", "In un rapporto: “L'informazione è stata ottenuta.” Tra amici: “L'ho presa.”"],
@@ -1546,13 +1546,13 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dei vestiti e come abbinarli ai colori in italiano.",
     study: {
       vocab: [
-        ["la camicia", "the shirt"],
-        ["i pantaloni", "the pants/trousers"],
-        ["le scarpe", "the shoes"],
-        ["il vestito", "the dress"],
-        ["la giacca", "the jacket"],
-        ["la gonna", "the skirt"],
-        ["rosso, blu, verde, nero, bianco", "red, blue, green, black, white"],
+        ["la camicia", "la camisa"],
+        ["i pantaloni", "el pantalón"],
+        ["le scarpe", "los zapatos"],
+        ["il vestito", "el vestido"],
+        ["la giacca", "la chaqueta"],
+        ["la gonna", "la falda"],
+        ["rosso, blu, verde, nero, bianco", "rojo, azul, verde, negro, blanco"],
       ],
       grammar: [
         ["Accordo di genere e numero con gli aggettivi di colore", "I colori concordano in genere e numero con il sostantivo che descrivono.", "la camicia rossa / le scarpe nere / il vestito verde"],
@@ -1572,12 +1572,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario di frutta e verdura e a parlare di alimentazione sana in italiano.",
     study: {
       vocab: [
-        ["la mela", "the apple"],
-        ["la banana", "the banana"],
-        ["la carota", "the carrot"],
-        ["il pomodoro", "the tomato"],
-        ["la lattuga", "the lettuce"],
-        ["l'arancia", "the orange"],
+        ["la mela", "la manzana"],
+        ["la banana", "el plátano"],
+        ["la carota", "la zanahoria"],
+        ["il pomodoro", "el tomate"],
+        ["la lattuga", "la lechuga"],
+        ["l'arancia", "la naranja"],
       ],
       grammar: [
         ["Quantificatori: molto/a, poco/a", "Questi quantificatori concordano in genere con il sostantivo e servono per parlare di quantità in modo approssimativo.", "Mangio molta frutta e poca carne."],
@@ -1597,12 +1597,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara verbi di cucina e a spiegare i passaggi di una ricetta semplice in italiano.",
     study: {
       vocab: [
-        ["tagliare, sbucciare", "to cut, to peel"],
-        ["bollire, friggere", "to boil, to fry"],
-        ["mescolare gli ingredienti", "to mix the ingredients"],
-        ["aggiungere sale a piacere", "to add salt to taste"],
-        ["lasciar riposare l'impasto", "to let the dough rest"],
-        ["preriscaldare il forno", "to preheat the oven"],
+        ["tagliare, sbucciare", "cortar, pelar"],
+        ["bollire, friggere", "hervir, freír"],
+        ["mescolare gli ingredienti", "mezclar los ingredientes"],
+        ["aggiungere sale a piacere", "añadir sal al gusto"],
+        ["lasciar riposare l'impasto", "dejar reposar la masa"],
+        ["preriscaldare il forno", "precalentar el horno"],
       ],
       grammar: [
         ["L'imperativo per dare istruzioni di ricetta", "Le ricette usano l'imperativo (formale “Lei” o infinito) per dare istruzioni passo dopo passo.", "Tagli le verdure, faccia bollire l'acqua e aggiunga sale a piacere."],
@@ -1622,12 +1622,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di arte, musica e cinema esprimendo opinioni e giudizi sfumati in italiano.",
     study: {
       vocab: [
-        ["un capolavoro", "a masterpiece"],
-        ["la messa in scena", "the staging/mise-en-scène"],
-        ["un'interpretazione commovente", "a moving performance"],
-        ["lo stile di un artista", "an artist's style"],
-        ["lasciare un'impressione duratura", "to leave a lasting impression"],
-        ["essere sopravvalutato/sottovalutato", "to be overrated/underrated"],
+        ["un capolavoro", "una obra maestra"],
+        ["la messa in scena", "la puesta en escena"],
+        ["un'interpretazione commovente", "una interpretación conmovedora"],
+        ["lo stile di un artista", "el estilo de un artista"],
+        ["lasciare un'impressione duratura", "dejar una impresión duradera"],
+        ["essere sopravvalutato/sottovalutato", "estar sobrevalorado/infravalorado"],
       ],
       grammar: [
         ["Verbi di opinione + congiuntivo/indicativo secondo la certezza", "“Mi sembra che” + indicativo esprime un'opinione con una certa sicurezza; “non credo che” + congiuntivo esprime dubbio.", "Mi sembra che questo film sia un capolavoro. / Non credo che sia sopravvalutato."],
@@ -1647,12 +1647,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara a dare e ricevere feedback in modo costruttivo e professionale in italiano.",
     study: {
       vocab: [
-        ["segnalare un punto da migliorare", "to point out an area for improvement"],
-        ["riconoscere i punti di forza prima delle critiche", "to acknowledge strengths before criticism"],
-        ["formulare la critica in termini concreti", "to phrase criticism in concrete terms"],
-        ["essere aperto/a al feedback", "to be open to feedback"],
-        ["prendere la critica sul personale", "to take criticism personally"],
-        ["proporre una soluzione, non solo segnalare il problema", "to propose a solution, not just point out the problem"],
+        ["segnalare un punto da migliorare", "señalar un aspecto a mejorar"],
+        ["riconoscere i punti di forza prima delle critiche", "reconocer los puntos fuertes antes de criticar"],
+        ["formulare la critica in termini concreti", "formular la crítica en términos concretos"],
+        ["essere aperto/a al feedback", "estar abierto a las críticas constructivas"],
+        ["prendere la critica sul personale", "tomarse la crítica como algo personal"],
+        ["proporre una soluzione, non solo segnalare il problema", "proponer una solución, no solo señalar el problema"],
       ],
       grammar: [
         ["Attenuatori per ammorbidire una critica", "Espressioni come “potresti considerare” o “un suggerimento sarebbe” ammorbidiscono una critica senza perdere chiarezza.", "Potresti considerare di ristrutturare il rapporto; un suggerimento sarebbe iniziare con le conclusioni."],
@@ -1672,12 +1672,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza il dibattito sul linguaggio inclusivo e come le lingue si evolvono con la società.",
     study: {
       vocab: [
-        ["il linguaggio inclusivo", "inclusive language"],
-        ["una lingua viva si evolve con l'uso", "a living language evolves with use"],
-        ["prescrittivismo contro descrittivismo", "prescriptivism versus descriptivism"],
-        ["un neologismo viene aggiunto al dizionario", "a neologism is added to the dictionary"],
-        ["generare resistenza a un cambiamento linguistico", "to generate resistance to a linguistic change"],
-        ["un argomento non implica necessariamente una posizione politica", "an argument doesn't necessarily imply a political stance"],
+        ["il linguaggio inclusivo", "el lenguaje inclusivo"],
+        ["una lingua viva si evolve con l'uso", "una lengua viva evoluciona con el uso"],
+        ["prescrittivismo contro descrittivismo", "prescriptivismo frente a descriptivismo"],
+        ["un neologismo viene aggiunto al dizionario", "se añade un neologismo al diccionario"],
+        ["generare resistenza a un cambiamento linguistico", "generar resistencia a un cambio lingüístico"],
+        ["un argomento non implica necessariamente una posizione politica", "un argumento no implica necesariamente una postura política"],
       ],
       grammar: [
         ["Presentare un dibattito linguistico senza pregiudizi", "Un'analisi rigorosa separa la descrizione del fenomeno (come cambia la lingua) dalla valutazione personale (se il cambiamento dovrebbe essere adottato o no).", "Dal punto di vista descrittivista, il cambiamento viene documentato senza giudicarlo; da quello prescrittivista, si valuta se convenga normalizzarlo."],
@@ -1697,13 +1697,13 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dei luoghi del quartiere e come dire dove si trovano in italiano.",
     study: {
       vocab: [
-        ["la banca", "the bank"],
-        ["il supermercato", "the supermarket"],
-        ["il parco", "the park"],
-        ["la farmacia", "the pharmacy"],
-        ["la biblioteca", "the library"],
-        ["la fermata dell'autobus", "the bus stop"],
-        ["vicino a, lontano da, accanto a", "near, far from, next to"],
+        ["la banca", "el banco"],
+        ["il supermercato", "el supermercado"],
+        ["il parco", "el parque"],
+        ["la farmacia", "la farmacia"],
+        ["la biblioteca", "la biblioteca"],
+        ["la fermata dell'autobus", "la parada de autobús"],
+        ["vicino a, lontano da, accanto a", "cerca de, lejos de, al lado de"],
       ],
       grammar: [
         ["„C'è / ci sono” + preposizioni di luogo", "„C'è” (there is) e „ci sono” (there are) indicano che qualcosa esiste in un luogo; concordano con il numero. Le preposizioni di luogo indicano dove si trova.", "C'è una farmacia vicino al parco. / La biblioteca è accanto alla banca."],
@@ -1723,12 +1723,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario delle feste e a parlare di abitudini con „solere”.",
     study: {
       vocab: [
-        ["il compleanno", "the birthday"],
-        ["il matrimonio", "the wedding"],
-        ["il Natale", "Christmas"],
-        ["il Capodanno", "New Year"],
-        ["celebrare, festeggiare", "to celebrate"],
-        ["fare un regalo", "to give a gift"],
+        ["il compleanno", "el cumpleaños"],
+        ["il matrimonio", "la boda"],
+        ["il Natale", "la Navidad"],
+        ["il Capodanno", "el Año Nuevo"],
+        ["celebrare, festeggiare", "celebrar"],
+        ["fare un regalo", "hacer un regalo"],
       ],
       grammar: [
         ["„Solere” + infinito per parlare di abitudini", "„Solere” + infinito esprime ciò che si fa abitualmente; si usa soprattutto al presente e all'imperfetto.", "Sogliamo riunirci con la famiglia a Natale. / Da bambino, solevo festeggiare il compleanno al parco."],
@@ -1748,12 +1748,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara vocabolario sull'amicizia e a dare consigli con „dovere”.",
     study: {
       vocab: [
-        ["fidarsi di qualcuno", "to trust someone"],
-        ["andare d'accordo/male con qualcuno", "to get along well/badly with someone"],
-        ["avere qualcosa in comune", "to have something in common"],
-        ["rimanere in contatto", "to keep in touch"],
-        ["un amico/un'amica fidato/a", "a close/trustworthy friend"],
-        ["fare pace dopo una litigata", "to make up after an argument"],
+        ["fidarsi di qualcuno", "confiar en alguien"],
+        ["andare d'accordo/male con qualcuno", "llevarse bien/mal con alguien"],
+        ["avere qualcosa in comune", "tener algo en común"],
+        ["rimanere in contatto", "mantener el contacto"],
+        ["un amico/un'amica fidato/a", "un amigo cercano/de confianza"],
+        ["fare pace dopo una litigata", "reconciliarse después de una discusión"],
       ],
       grammar: [
         ["Consigli con „dovere” al condizionale e all'indicativo", "„Dovresti” (condizionale di „dovere”) dà un consiglio delicato; „devi” (indicativo) esprime un obbligo più forte.", "Dovresti rimanere in contatto con i tuoi amici. / Dovete fare pace se volete restare amici."],
@@ -1773,12 +1773,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla del lavoro da remoto e della conciliazione vita-lavoro usando il gerundio in italiano.",
     study: {
       vocab: [
-        ["lavorare da remoto", "to work remotely"],
-        ["l'orario flessibile", "flexible working hours"],
-        ["la disconnessione digitale", "digital disconnection"],
-        ["il burnout", "burnout"],
-        ["conciliare la vita lavorativa e personale", "to balance work and personal life"],
-        ["essere produttivo/a", "to be productive"],
+        ["lavorare da remoto", "trabajar de forma remota"],
+        ["l'orario flessibile", "horario laboral flexible"],
+        ["la disconnessione digitale", "la desconexión digital"],
+        ["il burnout", "el agotamiento (burnout)"],
+        ["conciliare la vita lavorativa e personale", "equilibrar el trabajo y la vida personal"],
+        ["essere produttivo/a", "ser productivo"],
       ],
       grammar: [
         ["Il gerundio per esprimere simultaneità o causa", "Il gerundio (-ando/-endo) esprime un'azione simultanea a un'altra o la sua causa, senza bisogno di congiunzione.", "Lavorando da casa, si risparmia tempo di spostamento. / Molti soffrono di burnout lavorando senza mai disconnettersi."],
@@ -1798,12 +1798,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara a negoziare e ad ammorbidire proposte con il condizionale in un registro formale.",
     study: {
       vocab: [
-        ["raggiungere un accordo", "to reach an agreement"],
-        ["fare concessioni", "to give ground/make concessions"],
-        ["un punto morto", "a deadlock/stalemate"],
-        ["una posizione intransigente", "an inflexible/uncompromising stance"],
-        ["cercare un compromesso", "to look for a middle ground"],
-        ["rompere il ghiaccio", "to break the ice"],
+        ["raggiungere un accordo", "llegar a un acuerdo"],
+        ["fare concessioni", "ceder terreno/hacer concesiones"],
+        ["un punto morto", "un punto muerto"],
+        ["una posizione intransigente", "una postura inflexible/intransigente"],
+        ["cercare un compromesso", "buscar un término medio"],
+        ["rompere il ghiaccio", "romper el hielo"],
       ],
       grammar: [
         ["Il condizionale per ammorbidire le proposte", "Il condizionale semplice ammorbidisce richieste e proposte durante una negoziazione, dando un'impressione di maggiore cortesia e flessibilità.", "Sarebbe disposto a fare concessioni su questo punto? / Sarebbe preferibile cercare un compromesso prima di arrivare a un punto morto."],
@@ -1823,12 +1823,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza l'eufemismo nel linguaggio aziendale e pratica i connettivi di riformulazione.",
     study: {
       vocab: [
-        ["un eufemismo", "a euphemism"],
-        ["il gergo aziendale", "corporate jargon"],
-        ["una ristrutturazione (eufemismo per licenziamenti)", "a restructuring (euphemism for layoffs)"],
-        ["attenuare l'impatto di un messaggio", "to soften the impact of a message"],
-        ["un anglicismo inutile", "an unnecessary anglicism"],
-        ["diluire la responsabilità di qualcuno", "to dilute someone's responsibility"],
+        ["un eufemismo", "un eufemismo"],
+        ["il gergo aziendale", "la jerga corporativa"],
+        ["una ristrutturazione (eufemismo per licenziamenti)", "una reestructuración (eufemismo de despidos)"],
+        ["attenuare l'impatto di un messaggio", "suavizar el impacto de un mensaje"],
+        ["un anglicismo inutile", "un anglicismo innecesario"],
+        ["diluire la responsabilità di qualcuno", "diluir la responsabilidad de alguien"],
       ],
       grammar: [
         ["Connettivi di riformulazione e precisazione", "Espressioni come “cioè”, “in altre parole” o “detto altrimenti” riformulano un'idea, spesso per attenuarla o precisarla — fondamentali per riconoscere gli eufemismi.", "L'azienda ha annunciato una “ristrutturazione”, cioè licenziamenti. / In altre parole: ridurranno il personale."],
@@ -1848,12 +1848,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario di viaggio e a parlare di piani immediati con „andare a + infinito”.",
     study: {
       vocab: [
-        ["il passaporto", "the passport"],
-        ["la valigia", "the suitcase"],
-        ["il volo", "the flight"],
-        ["la camera", "the room"],
-        ["la prenotazione", "the booking"],
-        ["fare il check-in dei bagagli", "to check in luggage"],
+        ["il passaporto", "el pasaporte"],
+        ["la valigia", "la maleta"],
+        ["il volo", "el vuelo"],
+        ["la camera", "la habitación"],
+        ["la prenotazione", "la reserva"],
+        ["fare il check-in dei bagagli", "facturar el equipaje"],
       ],
       grammar: [
         ["„Andare a” + infinito per il futuro prossimo", "„Andare a” + infinito esprime un piano o un'azione che sta per accadere, molto usato nel parlato quotidiano.", "Vado a fare il check-in dei bagagli. / Andiamo a prenotare una camera per venerdì."],
@@ -1873,12 +1873,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della tecnologia quotidiana e a comparare con „tanto...quanto” e „più...di”.",
     study: {
       vocab: [
-        ["il wifi", "the wifi"],
-        ["la password", "the password"],
-        ["l'app", "the app"],
-        ["caricare il cellulare", "to charge the phone"],
-        ["scaricare", "to download"],
-        ["la batteria", "the battery"],
+        ["il wifi", "el wifi"],
+        ["la password", "la contraseña"],
+        ["l'app", "la aplicación"],
+        ["caricare il cellulare", "cargar el móvil"],
+        ["scaricare", "descargar"],
+        ["la batteria", "la batería"],
       ],
       grammar: [
         ["Comparativi di uguaglianza e maggioranza", "„Tanto/così + aggettivo + quanto” compara qualità uguali; „più + aggettivo + di/che” compara una superiorità.", "Questa app è tanto veloce quanto l'altra. / La mia batteria dura più della tua."],
@@ -1898,12 +1898,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dell'intrattenimento digitale e a esprimere la durata con „stare + gerundio + da”.",
     study: {
       vocab: [
-        ["la serie", "the series/show"],
-        ["il videogioco", "the video game"],
-        ["la piattaforma di streaming", "the streaming platform"],
-        ["appassionarsi a qualcosa", "to get hooked on something"],
-        ["la maratona di serie", "binge-watching"],
-        ["i sottotitoli", "the subtitles"],
+        ["la serie", "la serie"],
+        ["il videogioco", "el videojuego"],
+        ["la piattaforma di streaming", "la plataforma de streaming"],
+        ["appassionarsi a qualcosa", "engancharse a algo"],
+        ["la maratona di serie", "maratón de series"],
+        ["i sottotitoli", "los subtítulos"],
       ],
       grammar: [
         ["„Da” + tempo con il presente per esprimere la durata", "„Presente + da + tempo” esprime da quanto tempo un'azione continua, simile a „to have been doing something”.", "Guardo questa serie da due ore. / Giochiamo ai videogiochi da tutto il weekend."],
@@ -1923,12 +1923,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di cybersicurezza usando le frasi relative determinative ed esplicative.",
     study: {
       vocab: [
-        ["la cybersicurezza", "cybersecurity"],
-        ["violare un sistema", "to hack a system"],
-        ["i dati personali", "personal data"],
-        ["una password sicura", "a strong password"],
-        ["il furto di identità", "identity theft/phishing"],
-        ["crittografare le informazioni", "to encrypt information"],
+        ["la cybersicurezza", "la ciberseguridad"],
+        ["violare un sistema", "hackear un sistema"],
+        ["i dati personali", "los datos personales"],
+        ["una password sicura", "una contraseña segura"],
+        ["il furto di identità", "robo de identidad/phishing"],
+        ["crittografare le informazioni", "cifrar información"],
       ],
       grammar: [
         ["Frasi relative determinative ed esplicative", "Le determinative (senza virgole) identificano di cosa si parla e non si possono omettere; le esplicative (tra virgole) aggiungono informazione extra e si possono omettere.", "I dati che condividiamo online possono essere violati. (determinativa) / I miei dati, che condivido poco, sono ben protetti. (esplicativa)"],
@@ -1948,12 +1948,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la memoria storica e il patrimonio culturale con „essere + participio” per gli stati risultanti.",
     study: {
       vocab: [
-        ["il patrimonio culturale", "cultural heritage"],
-        ["preservare la memoria storica", "to preserve historical memory"],
-        ["un monumento commemorativo", "a memorial"],
-        ["l'eredità", "the legacy"],
-        ["riscrivere la storia", "to rewrite history"],
-        ["l'identità collettiva", "collective identity"],
+        ["il patrimonio culturale", "el patrimonio cultural"],
+        ["preservare la memoria storica", "preservar la memoria histórica"],
+        ["un monumento commemorativo", "un monumento conmemorativo"],
+        ["l'eredità", "el legado"],
+        ["riscrivere la storia", "reescribir la historia"],
+        ["l'identità collettiva", "la identidad colectiva"],
       ],
       grammar: [
         ["„Essere + participio” per lo stato risultante", "„Essere” + participio descrive lo stato risultante di un'azione passata, come un aggettivo, a differenza del passivo che descrive l'azione stessa.", "Il monumento è dedicato alle vittime. / La storia è segnata da conflitti interni."],
@@ -1973,12 +1973,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza l'ambiguità istituzionale e pratica i connettivi di sfumatura epistemica.",
     study: {
       vocab: [
-        ["l'ambiguità calcolata", "calculated ambiguity"],
-        ["un comunicato istituzionale", "an institutional statement"],
-        ["evitare di impegnarsi", "to avoid committing oneself"],
-        ["la vaghezza deliberata", "deliberate vagueness"],
-        ["leggere tra le righe", "to read between the lines"],
-        ["un linguaggio evasivo", "evasive language"],
+        ["l'ambiguità calcolata", "ambigüedad calculada"],
+        ["un comunicato istituzionale", "una declaración institucional"],
+        ["evitare di impegnarsi", "evitar comprometerse"],
+        ["la vaghezza deliberata", "vaguedad deliberada"],
+        ["leggere tra le righe", "leer entre líneas"],
+        ["un linguaggio evasivo", "lenguaje evasivo"],
       ],
       grammar: [
         ["Connettivi di sfumatura epistemica", "Espressioni come „va sottolineato che”, „non vi è dubbio che” o „in un certo senso” sfumano il grado di certezza o rilevanza di un'affermazione, tipiche del discorso istituzionale.", "Va sottolineato che il comunicato evita di impegnarsi su date precise. / In un certo senso, la vaghezza è deliberata."],
@@ -1998,12 +1998,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dello sport e a esprimere gusti con il verbo „piacere”.",
     study: {
       vocab: [
-        ["il calcio", "soccer/football"],
-        ["il nuoto", "swimming"],
-        ["correre", "to run"],
-        ["la palestra", "the gym"],
-        ["fare esercizio", "to exercise"],
-        ["la squadra", "the team"],
+        ["il calcio", "el fútbol"],
+        ["il nuoto", "la natación"],
+        ["correre", "correr"],
+        ["la palestra", "el gimnasio"],
+        ["fare esercizio", "hacer ejercicio"],
+        ["la squadra", "el equipo"],
       ],
       grammar: [
         ["Il verbo „piacere” + infinito/sostantivo", "„Piacere” funziona al contrario dell'inglese: concorda con ciò che piace, non con la persona. Si usa con pronomi indiretti (mi, ti, gli/le, ci, vi, gli).", "Mi piace nuotare. / A lei piacciono gli sport di squadra."],
@@ -2023,12 +2023,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario delle faccende domestiche e a esprimere obbligo impersonale con „bisogna”.",
     study: {
       vocab: [
-        ["spazzare", "to sweep"],
-        ["lavare i piatti", "to wash the dishes"],
-        ["portare fuori la spazzatura", "to take out the trash"],
-        ["stirare i vestiti", "to iron the clothes"],
-        ["fare il letto", "to make the bed"],
-        ["passare l'aspirapolvere", "to vacuum"],
+        ["spazzare", "barrer"],
+        ["lavare i piatti", "fregar los platos"],
+        ["portare fuori la spazzatura", "sacar la basura"],
+        ["stirare i vestiti", "planchar la ropa"],
+        ["fare il letto", "hacer la cama"],
+        ["passare l'aspirapolvere", "pasar la aspiradora"],
       ],
       grammar: [
         ["„Bisogna” + infinito per l'obbligo impersonale", "„Bisogna” + infinito esprime un obbligo generale, senza specificare chi deve farlo, a differenza di „dovere” che ha un soggetto.", "Bisogna portare fuori la spazzatura ogni giorno. / Prima di uscire, bisogna fare il letto."],
@@ -2048,12 +2048,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara vocabolario sugli appuntamenti e a fare promesse e previsioni con il futuro semplice.",
     study: {
       vocab: [
-        ["avere un appuntamento", "to go on a date"],
-        ["innamorarsi di qualcuno", "to fall in love with someone"],
-        ["lasciare qualcuno", "to break up with someone"],
-        ["il compagno/la compagna", "the partner/couple"],
-        ["sentire la mancanza di qualcuno", "to miss someone"],
-        ["fidanzarsi/impegnarsi", "to get engaged/commit"],
+        ["avere un appuntamento", "tener una cita"],
+        ["innamorarsi di qualcuno", "enamorarse de alguien"],
+        ["lasciare qualcuno", "romper con alguien"],
+        ["il compagno/la compagna", "la pareja"],
+        ["sentire la mancanza di qualcuno", "echar de menos a alguien"],
+        ["fidanzarsi/impegnarsi", "comprometerse"],
       ],
       grammar: [
         ["Il futuro semplice per promesse e previsioni", "Il futuro semplice (-erò, -erai, -erà...) si usa per fare promesse formali o prevedere ciò che accadrà, più definitivo di „andare a + infinito”.", "Ti prometto che non ti lascerò mai. / Credo che vi fidanzerete presto."],
@@ -2073,12 +2073,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di turismo sostenibile usando „a meno che” e „purché” + congiuntivo.",
     study: {
       vocab: [
-        ["l'overtourism (turismo di massa)", "overtourism"],
-        ["saturare una destinazione turistica", "to overcrowd a tourist destination"],
-        ["il turismo sostenibile", "sustainable tourism"],
-        ["far salire gli affitti locali", "to drive up local housing costs"],
-        ["distribuire l'impatto turistico", "to spread out tourism's impact"],
-        ["rispettare la cultura locale", "to respect the local culture"],
+        ["l'overtourism (turismo di massa)", "la masificación turística"],
+        ["saturare una destinazione turistica", "saturar un destino turístico"],
+        ["il turismo sostenibile", "el turismo sostenible"],
+        ["far salire gli affitti locali", "encarecer la vivienda local"],
+        ["distribuire l'impatto turistico", "repartir el impacto del turismo"],
+        ["rispettare la cultura locale", "respetar la cultura local"],
       ],
       grammar: [
         ["„A meno che” e „purché” + congiuntivo", "„A meno che” (unless) e „purché” (provided that) introducono una condizione e sono seguite dal congiuntivo.", "La destinazione resterà satura a meno che il turismo non venga regolato. / Il turismo sarà positivo purché si rispetti la cultura locale."],
@@ -2098,12 +2098,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la gastronomia come identità culturale usando strutture enfatiche con „ciò che”.",
     study: {
       vocab: [
-        ["la denominazione di origine protetta", "protected designation of origin"],
-        ["un piatto emblematico", "an iconic/signature dish"],
-        ["la fusione culinaria", "culinary fusion"],
-        ["preservare una ricetta tradizionale", "to preserve a traditional recipe"],
-        ["appropriarsi di una tradizione culinaria", "to appropriate a culinary tradition"],
-        ["il palato collettivo", "the collective palate"],
+        ["la denominazione di origine protetta", "denominación de origen protegida"],
+        ["un piatto emblematico", "un plato emblemático"],
+        ["la fusione culinaria", "la fusión culinaria"],
+        ["preservare una ricetta tradizionale", "preservar una receta tradicional"],
+        ["appropriarsi di una tradizione culinaria", "apropiarse de una tradición culinaria"],
+        ["il palato collettivo", "el paladar colectivo"],
       ],
       grammar: [
         ["Strutture enfatiche con „ciò che”", "„Ciò che” + verbo + „è” enfatizza un elemento della frase, dandogli maggiore rilievo, molto usato nel registro argomentativo.", "Ciò che definisce una cultura è la sua gastronomia. / Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette."],
@@ -2123,12 +2123,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la retorica della crisi e pratica strutture di intensificazione retorica.",
     study: {
       vocab: [
-        ["il panico morale", "moral panic"],
-        ["una crisi fabbricata", "a manufactured crisis"],
-        ["catastrofizzare una situazione", "to catastrophize a situation"],
-        ["un capro espiatorio", "a scapegoat"],
-        ["sproporzionare una minaccia", "to blow a threat out of proportion"],
-        ["un discorso allarmista", "alarmist rhetoric"],
+        ["il panico morale", "el pánico moral"],
+        ["una crisi fabbricata", "una crisis fabricada"],
+        ["catastrofizzare una situazione", "catastrofizar una situación"],
+        ["un capro espiatorio", "un chivo expiatorio"],
+        ["sproporzionare una minaccia", "exagerar desproporcionadamente una amenaza"],
+        ["un discorso allarmista", "la retórica alarmista"],
       ],
       grammar: [
         ["Strutture di intensificazione retorica", "„Non solo... ma anche” e „sempre più” intensificano un'affermazione accumulando gravità — recurso tipico del discorso di crisi e del panico morale.", "Non solo si esagera la minaccia, ma si cerca anche un capro espiatorio. / Il discorso allarmista è sempre più frequente nei media."],
@@ -2148,12 +2148,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario scolastico e a usare correttamente gli articoli determinativi e indeterminativi.",
     study: {
       vocab: [
-        ["il quaderno", "the notebook"],
-        ["la matita", "the pencil"],
-        ["lo zaino", "the backpack"],
-        ["la matematica", "math"],
-        ["la storia", "history"],
-        ["il/la professore/professoressa", "the teacher"],
+        ["il quaderno", "el cuaderno"],
+        ["la matita", "el lápiz"],
+        ["lo zaino", "la mochila"],
+        ["la matematica", "las matemáticas"],
+        ["la storia", "la historia"],
+        ["il/la professore/professoressa", "el profesor/la profesora"],
       ],
       grammar: [
         ["Articoli determinativi e indeterminativi", "Gli articoli determinativi (il, la, lo, i, le) indicano qualcosa di specifico o già noto; gli indeterminativi (un, una, uno) indicano qualcosa di non specifico o menzionato per la prima volta.", "Ho un quaderno nuovo. / Il quaderno è nello zaino."],
@@ -2173,12 +2173,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario postale e a usare i pronomi diretti (lo/la/li/le).",
     study: {
       vocab: [
-        ["il pacco", "the package"],
-        ["la lettera", "the letter"],
-        ["il francobollo", "the stamp"],
-        ["spedire per posta", "to mail/send"],
-        ["la cassetta della posta", "the mailbox"],
-        ["l'indirizzo", "the address"],
+        ["il pacco", "el paquete"],
+        ["la lettera", "la carta"],
+        ["il francobollo", "el sello"],
+        ["spedire per posta", "enviar por correo"],
+        ["la cassetta della posta", "el buzón"],
+        ["l'indirizzo", "la dirección"],
       ],
       grammar: [
         ["Pronomi diretti (lo/la/li/le)", "I pronomi diretti sostituiscono un sostantivo già menzionato, concordando in genere e numero, e si collocano prima del verbo coniugato.", "La lettera? L'ho spedita ieri. / I pacchi? Li ho ricevuti stamattina."],
@@ -2198,12 +2198,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario di cinema e teatro e a costruire frasi temporali con „quando”, „mentre” e „prima che”.",
     study: {
       vocab: [
-        ["il biglietto", "the ticket"],
-        ["la prima", "the premiere"],
-        ["il cast", "the cast"],
-        ["gli effetti speciali", "special effects"],
-        ["la poltrona", "the seat"],
-        ["l'intervallo", "the intermission"],
+        ["il biglietto", "la entrada"],
+        ["la prima", "el estreno"],
+        ["il cast", "el reparto"],
+        ["gli effetti speciali", "los efectos especiales"],
+        ["la poltrona", "el asiento"],
+        ["l'intervallo", "el intermedio"],
       ],
       grammar: [
         ["Frasi temporali con „quando”, „mentre” e „prima che”", "„Quando” e „mentre” + indicativo descrivono azioni abituali o simultanee; „prima che” richiede il congiuntivo perché introduce un'azione non ancora avvenuta.", "Compro i biglietti quando arrivo al cinema. / Parliamo mentre aspettiamo la prima. / Arriviamo prima che inizi il film."],
@@ -2223,12 +2223,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di attivismo sociale usando il congiuntivo con i verbi di influenza (esigere, chiedere che).",
     study: {
       vocab: [
-        ["una manifestazione/protesta", "a protest"],
-        ["esigere un cambiamento", "to demand change"],
-        ["firmare una petizione", "to sign a petition"],
-        ["sensibilizzare su qualcosa", "to raise awareness about something"],
-        ["un collettivo/un'organizzazione", "a collective/organization"],
-        ["mobilitare le persone", "to mobilize people"],
+        ["una manifestazione/protesta", "una protesta"],
+        ["esigere un cambiamento", "exigir un cambio"],
+        ["firmare una petizione", "firmar una petición"],
+        ["sensibilizzare su qualcosa", "concienciar sobre algo"],
+        ["un collettivo/un'organizzazione", "un colectivo/una organización"],
+        ["mobilitare le persone", "movilizar a la gente"],
       ],
       grammar: [
         ["Il congiuntivo con i verbi di influenza", "Verbi come „esigere”, „chiedere” o „suggerire” + „che” richiedono il congiuntivo nella subordinata perché cercano di influenzare l'azione di un'altra persona.", "I manifestanti esigono che il governo agisca. / Il collettivo chiede che la petizione venga firmata."],
@@ -2248,12 +2248,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza l'invecchiamento della popolazione usando frasi consecutive („così...che”, „in modo tale che”).",
     study: {
       vocab: [
-        ["l'invecchiamento della popolazione", "population aging"],
-        ["il sistema pensionistico", "the pension system"],
-        ["il tasso di natalità", "the birth rate"],
-        ["l'aspettativa di vita", "life expectancy"],
-        ["sostenere il sistema pensionistico", "to sustain the pension system"],
-        ["il divario generazionale", "the generational gap"],
+        ["l'invecchiamento della popolazione", "el envejecimiento de la población"],
+        ["il sistema pensionistico", "el sistema de pensiones"],
+        ["il tasso di natalità", "la tasa de natalidad"],
+        ["l'aspettativa di vita", "la esperanza de vida"],
+        ["sostenere il sistema pensionistico", "sostener el sistema de pensiones"],
+        ["il divario generazionale", "la brecha generacional"],
       ],
       grammar: [
         ["Frasi consecutive: „così...che” e „in modo tale che”", "Le frasi consecutive esprimono una conseguenza derivata da un'intensità o modalità. „Così + aggettivo + che” enfatizza il grado; „in modo tale che” introduce il risultato di un'azione.", "La popolazione invecchia così rapidamente che il sistema pensionistico è a rischio. / La natalità è scesa in modo tale che mancano lavoratori giovani."],
@@ -2273,12 +2273,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la retorica del silenzio e pratica l'ellissi a fini retorici.",
     study: {
       vocab: [
-        ["il silenzio eloquente", "eloquent silence"],
-        ["omettere deliberatamente qualcosa", "to deliberately omit something"],
-        ["il non detto", "the unsaid"],
-        ["un vuoto discorsivo", "a discursive gap"],
-        ["lasciare qualcosa in sospeso", "to leave something hanging"],
-        ["l'ellissi retorica", "rhetorical ellipsis"],
+        ["il silenzio eloquente", "el silencio elocuente"],
+        ["omettere deliberatamente qualcosa", "omitir algo deliberadamente"],
+        ["il non detto", "lo no dicho"],
+        ["un vuoto discorsivo", "un vacío discursivo"],
+        ["lasciare qualcosa in sospeso", "dejar algo en el aire"],
+        ["l'ellissi retorica", "la elipsis retórica"],
       ],
       grammar: [
         ["L'ellissi a fini retorici", "L'ellissi omette un elemento sottinteso dal contesto, creando enfasi o lasciando un'idea deliberatamente incompleta — un recurso potente nel discorso politico e letterario.", "Alcuni tacciono per paura; altri, per complicità. (si omette “tacciono”) / Ha promesso riforme... e silenzio. (si omette il verbo atteso)"],
@@ -2298,12 +2298,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara a dire l'ora e i momenti della giornata con le preposizioni di tempo.",
     study: {
       vocab: [
-        ["la mattina", "the morning"],
-        ["il pomeriggio", "the afternoon"],
-        ["la notte", "the night"],
-        ["mezzogiorno", "noon"],
-        ["mezzanotte", "midnight"],
-        ["in punto", "o'clock/sharp"],
+        ["la mattina", "la mañana"],
+        ["il pomeriggio", "la tarde"],
+        ["la notte", "la noche"],
+        ["mezzogiorno", "el mediodía"],
+        ["mezzanotte", "la medianoche"],
+        ["in punto", "en punto"],
       ],
       grammar: [
         ["„Che ore sono?” + preposizioni di tempo", "Per chiedere l'ora si usa „Che ore sono?”; per rispondere, „è l'una” (singolare) o „sono le + numero” (plurale), con „di mattina/pomeriggio/sera” per specificare il momento.", "Sono le tre del pomeriggio. / È l'una in punto di notte."],
@@ -2323,12 +2323,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario bancario di base e a usare „potere” per possibilità e permesso.",
     study: {
       vocab: [
-        ["il conto bancario", "the bank account"],
-        ["il bancomat", "the ATM"],
-        ["prelevare denaro", "to withdraw money"],
-        ["depositare denaro", "to deposit money"],
-        ["la carta di debito", "the debit card"],
-        ["il saldo", "the balance"],
+        ["il conto bancario", "la cuenta bancaria"],
+        ["il bancomat", "el cajero automático"],
+        ["prelevare denaro", "retirar dinero"],
+        ["depositare denaro", "ingresar dinero"],
+        ["la carta di debito", "la tarjeta de débito"],
+        ["il saldo", "el saldo"],
       ],
       grammar: [
         ["„Potere” + infinito per possibilità e permesso", "„Potere” + infinito esprime capacità, possibilità o permesso, a seconda del contesto.", "Posso aprire un conto qui? / Puoi prelevare denaro da qualsiasi bancomat."],
@@ -2348,12 +2348,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dei viaggi lunghi e a usare „sebbene/anche se” con indicativo o congiuntivo.",
     study: {
       vocab: [
-        ["il ritardo", "the delay"],
-        ["perdere il volo/treno", "to miss the flight/train"],
-        ["fare scalo", "to make a layover/stopover"],
-        ["il binario", "the platform"],
-        ["cancellare un volo", "to cancel a flight"],
-        ["il posto finestrino/corridoio", "the window/aisle seat"],
+        ["il ritardo", "el retraso"],
+        ["perdere il volo/treno", "perder el vuelo/tren"],
+        ["fare scalo", "hacer escala"],
+        ["il binario", "el andén"],
+        ["cancellare un volo", "cancelar un vuelo"],
+        ["il posto finestrino/corridoio", "el asiento de ventanilla/pasillo"],
       ],
       grammar: [
         ["„Sebbene” + congiuntivo e „anche se” + indicativo", "„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale; „anche se” esprime una concessione reale o ipotetica con l'indicativo.", "Sebbene il treno sia arrivato tardi, ho preso il volo. / Anche se il volo viene cancellato, abbiamo un'altra opzione."],
@@ -2373,12 +2373,12 @@ window.LESSON_BANKS.IT = [
     description:"Parla di economia collaborativa usando il futuro e il condizionale di probabilità.",
     study: {
       vocab: [
-        ["l'economia collaborativa", "the sharing economy"],
-        ["noleggiare invece di comprare", "to rent instead of buying"],
-        ["il consumo consapevole", "conscious consumption"],
-        ["condividere risorse", "to share resources"],
-        ["l'obsolescenza programmata", "planned obsolescence"],
-        ["ridurre lo spreco", "to reduce waste"],
+        ["l'economia collaborativa", "la economía colaborativa"],
+        ["noleggiare invece di comprare", "alquilar en vez de comprar"],
+        ["il consumo consapevole", "el consumo consciente"],
+        ["condividere risorse", "compartir recursos"],
+        ["l'obsolescenza programmata", "la obsolescencia programada"],
+        ["ridurre lo spreco", "reducir los residuos"],
       ],
       grammar: [
         ["Futuro e condizionale di probabilità", "Il futuro semplice può esprimere una congettura sul presente (“saranno le dieci”); il condizionale semplice esprime una congettura sul passato (“sarebbero state le dieci quando è arrivato”).", "Quel modello avrà circa cinque anni di obsolescenza programmata. / Con quel consumo, spenderebbero meno risorse di quanto pensassero."],
@@ -2398,12 +2398,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza la comunicazione non verbale usando „come se” + congiuntivo.",
     study: {
       vocab: [
-        ["il linguaggio del corpo", "body language"],
-        ["il contatto visivo", "eye contact"],
-        ["un gesto frainteso", "a misinterpreted gesture"],
-        ["la prossemica (distanza personale)", "proxemics (personal space)"],
-        ["un segnale culturale", "a cultural cue"],
-        ["il silenzio imbarazzante", "awkward silence"],
+        ["il linguaggio del corpo", "el lenguaje corporal"],
+        ["il contatto visivo", "el contacto visual"],
+        ["un gesto frainteso", "un gesto malinterpretado"],
+        ["la prossemica (distanza personale)", "la proxémica (espacio personal)"],
+        ["un segnale culturale", "una señal cultural"],
+        ["il silenzio imbarazzante", "un silencio incómodo"],
       ],
       grammar: [
         ["„Come se” + congiuntivo (imperfetto o trapassato)", "„Come se” richiede sempre il congiuntivo, anche se il confronto si riferisce al presente, perché descrive qualcosa di ipotetico o contrario alla realtà.", "Ha agito come se capisse il gesto, anche se non lo capiva. / Ha reagito come se fosse stata offesa."],
@@ -2423,12 +2423,12 @@ window.LESSON_BANKS.IT = [
     description:"Analizza il linguaggio scientifico usando espressioni di attenuazione epistemica (hedging).",
     study: {
       vocab: [
-        ["l'incertezza statistica", "statistical uncertainty"],
-        ["un margine di errore", "a margin of error"],
-        ["una correlazione non implica causalità", "correlation does not imply causation"],
-        ["i risultati preliminari", "preliminary results"],
-        ["un'ipotesi non confermata", "an unconfirmed hypothesis"],
-        ["attenuare un'affermazione", "to hedge/qualify a claim"],
+        ["l'incertezza statistica", "la incertidumbre estadística"],
+        ["un margine di errore", "un margen de error"],
+        ["una correlazione non implica causalità", "correlación no implica causalidad"],
+        ["i risultati preliminari", "resultados preliminares"],
+        ["un'ipotesi non confermata", "una hipótesis no confirmada"],
+        ["attenuare un'affermazione", "matizar una afirmación"],
       ],
       grammar: [
         ["Espressioni di attenuazione epistemica (hedging)", "Frasi come „si potrebbe dire che”, „non è irragionevole pensare che” o „i dati suggeriscono, senza confermare, che” attenuano il grado di certezza di un'affermazione scientifica, evitando eccessive generalizzazioni.", "Si potrebbe dire che esiste una tendenza, anche se i dati sono preliminari. / I risultati suggeriscono, senza confermare, un nesso causale."],
@@ -2448,12 +2448,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara a descrivere il tempo e le stagioni in italiano con “fa/c'è”.",
     study: {
       vocab: [
-        ["soleggiato", "sunny"],
-        ["piovoso", "rainy"],
-        ["freddo", "cold"],
-        ["caldo", "hot"],
-        ["la primavera", "spring"],
-        ["l'inverno", "winter"],
+        ["soleggiato", "soleado"],
+        ["piovoso", "lluvioso"],
+        ["freddo", "frío"],
+        ["caldo", "caluroso"],
+        ["la primavera", "la primavera"],
+        ["l'inverno", "el invierno"],
       ],
       grammar: [
         ["“Fa/C'è” per il tempo", "Per il tempo si usa “fa” + aggettivo (“fa freddo”, “fa caldo”) o “c'è” + sostantivo (“c'è il sole”). Per la pioggia: “piove” (verbo impersonale).", "Oggi c'è il sole. / In primavera piove spesso."],
@@ -2473,12 +2473,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende vocabulario sobre mascotas y a usar “dovere” para obligaciones en italiano.",
     study: {
       vocab: [
-        ["dar da mangiare all'animale", "to feed the pet"],
-        ["portare a spasso il cane", "to walk the dog"],
-        ["il veterinario", "the veterinarian"],
-        ["vaccinare", "to vaccinate"],
-        ["la lettiera", "the litter box"],
-        ["adottare un animale", "to adopt a pet"],
+        ["dar da mangiare all'animale", "alimentar a la mascota"],
+        ["portare a spasso il cane", "pasear al perro"],
+        ["il veterinario", "el veterinario"],
+        ["vaccinare", "vacunar"],
+        ["la lettiera", "la caja de arena"],
+        ["adottare un animale", "adoptar una mascota"],
       ],
       grammar: [
         ["“Dovere” para obligaciones", "“Dovere” + infinitivo expresa una obligación o necesidad cotidiana.", "Devo portare a spasso il cane ogni mattina. / Lei deve dar da mangiare al gatto due volte al giorno."],
@@ -2498,12 +2498,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende vocabulario de emprendimiento y a usar “stare per”/futuro para planes en italiano.",
     study: {
       vocab: [
-        ["la start-up", "startup"],
-        ["lanciare un prodotto", "to launch a product"],
-        ["l'investitore", "investor"],
-        ["il piano aziendale", "business plan"],
-        ["correre un rischio", "to take a risk"],
-        ["far crescere un'azienda", "to scale a business"],
+        ["la start-up", "la startup"],
+        ["lanciare un prodotto", "lanzar un producto"],
+        ["l'investitore", "el inversor"],
+        ["il piano aziendale", "el plan de negocio"],
+        ["correre un rischio", "asumir un riesgo"],
+        ["far crescere un'azienda", "escalar un negocio"],
       ],
       grammar: [
         ["Futuro semplice para planes", "El futuro semplice expresa un plan o intención decidida, similar a “going to” en inglés cuando el plan ya está claro.", "Lanceremo il prodotto il mese prossimo. / Lei cercherà investitori."],
@@ -2523,12 +2523,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de la exploración espacial usando el futuro anteriore en italiano.",
     study: {
       vocab: [
-        ["la missione spaziale", "space mission"],
-        ["l'astronauta", "astronaut"],
-        ["orbitare", "to orbit"],
-        ["il lancio del razzo", "rocket launch"],
-        ["lo spazio esterno", "outer space"],
-        ["la stazione spaziale", "space station"],
+        ["la missione spaziale", "la misión espacial"],
+        ["l'astronauta", "el astronauta"],
+        ["orbitare", "orbitar"],
+        ["il lancio del razzo", "el lanzamiento del cohete"],
+        ["lo spazio esterno", "el espacio exterior"],
+        ["la stazione spaziale", "la estación espacial"],
       ],
       grammar: [
         ["Futuro anteriore para logros futuros", "El futuro anteriore (“avrà/sarà” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Entro il 2030, gli astronauti saranno atterrati su Marte. / Il razzo avrà raggiunto l'orbita entro allora."],
@@ -2548,12 +2548,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la ética de la IA usando la forma passiva en registro formal en italiano.",
     study: {
       vocab: [
-        ["l'intelligenza artificiale", "artificial intelligence"],
-        ["il pregiudizio algoritmico", "algorithmic bias"],
-        ["la responsabilità", "accountability"],
-        ["la privacy dei dati", "data privacy"],
-        ["regolamentare", "to regulate"],
-        ["le conseguenze indesiderate", "unintended consequences"],
+        ["l'intelligenza artificiale", "la inteligencia artificial"],
+        ["il pregiudizio algoritmico", "el sesgo algorítmico"],
+        ["la responsabilità", "la rendición de cuentas"],
+        ["la privacy dei dati", "la privacidad de datos"],
+        ["regolamentare", "regular"],
+        ["le conseguenze indesiderate", "consecuencias no deseadas"],
       ],
       grammar: [
         ["La forma passiva in registro formale/accademico", "La forma passiva (“essere” + participio) se usa en italiano formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi. / Il pregiudizio algoritmico è stato documentato in diversi studi."],
@@ -2573,12 +2573,12 @@ window.LESSON_BANKS.IT = [
     description:"Reflexiona sobre la conciencia usando frasi scisse (estructuras enfáticas) en italiano.",
     study: {
       vocab: [
-        ["la coscienza", "consciousness"],
-        ["l'esperienza soggettiva", "subjective experience"],
-        ["l'esperimento mentale", "thought experiment"],
-        ["il libero arbitrio", "free will"],
-        ["l'autoconsapevolezza", "self-awareness"],
-        ["il problema mente-corpo", "the mind-body problem"],
+        ["la coscienza", "la conciencia"],
+        ["l'esperienza soggettiva", "la experiencia subjetiva"],
+        ["l'esperimento mentale", "un experimento mental"],
+        ["il libero arbitrio", "el libre albedrío"],
+        ["l'autoconsapevolezza", "la autoconciencia"],
+        ["il problema mente-corpo", "el problema mente-cuerpo"],
       ],
       grammar: [
         ["Frasi scisse (“ciò che... è...”) para énfasis", "Las frasi scisse (“ciò che... è...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],
@@ -2598,12 +2598,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del giardinaggio e a dare istruzioni semplici con l'imperativo in italiano.",
     study: {
       vocab: [
-        ["annaffiare le piante", "to water the plants"],
-        ["il seme", "the seed"],
-        ["crescere", "to grow"],
-        ["il fiore", "the flower"],
-        ["la terra", "the soil"],
-        ["la luce del sole", "sunlight"],
+        ["annaffiare le piante", "regar las plantas"],
+        ["il seme", "la semilla"],
+        ["crescere", "crecer"],
+        ["il fiore", "la flor"],
+        ["la terra", "la tierra"],
+        ["la luce del sole", "la luz solar"],
       ],
       grammar: [
         ["L'imperativo per le istruzioni", "El imperativo (tu) se usa para dar órdenes o instrucciones. La forma negativa usa “non” + infinitivo.", "Annaffia le piante ogni giorno. / Non dimenticare di chiudere il cancello."],
@@ -2623,12 +2623,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della biblioteca e a raccontare al passato prossimo in italiano.",
     study: {
       vocab: [
-        ["prendere in prestito un libro", "to borrow a book"],
-        ["la tessera della biblioteca", "the library card"],
-        ["la data di scadenza", "the due date"],
-        ["lo scaffale", "the bookshelf"],
-        ["il romanzo", "the novel"],
-        ["restituire un libro", "to return a book"],
+        ["prendere in prestito un libro", "pedir prestado un libro"],
+        ["la tessera della biblioteca", "el carné de la biblioteca"],
+        ["la data di scadenza", "la fecha de vencimiento"],
+        ["lo scaffale", "la estantería"],
+        ["il romanzo", "la novela"],
+        ["restituire un libro", "devolver un libro"],
       ],
       grammar: [
         ["Passato prossimo per raccontare", "El passato prossimo (“avere/essere” + participio) describe acciones completas en el pasado.", "Ho preso in prestito un romanzo la settimana scorsa. / Lei ha restituito il libro in tempo."],
@@ -2648,12 +2648,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario sulla genitorialità e a usare l'imperfetto per le abitudini passate in italiano.",
     study: {
       vocab: [
-        ["allattare", "to breastfeed"],
-        ["la culla", "the crib"],
-        ["far ruttare il bambino", "to burp the baby"],
-        ["la routine della nanna", "bedtime routine"],
-        ["fare da baby-sitter", "to babysit"],
-        ["il pediatra", "the pediatrician"],
+        ["allattare", "amamantar"],
+        ["la culla", "la cuna"],
+        ["far ruttare il bambino", "hacer eructar al bebé"],
+        ["la routine della nanna", "la rutina para dormir"],
+        ["fare da baby-sitter", "cuidar niños"],
+        ["il pediatra", "el pediatra"],
       ],
       grammar: [
         ["Imperfetto per le abitudini passate", "El imperfetto describe hábitos o estados repetidos en el pasado, sin un final marcado.", "Il bambino si svegliava ogni due ore. / Andavamo dal pediatra ogni mese."],
@@ -2673,12 +2673,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de descubrimientos arqueológicos usando el futuro anteriore de probabilidad en italiano.",
     study: {
       vocab: [
-        ["il sito archeologico", "archaeological site"],
-        ["scavare", "to excavate"],
-        ["l'antica civiltà", "ancient civilization"],
-        ["il manufatto", "artifact"],
-        ["datare (un reperto)", "to date (a find)"],
-        ["le rovine", "ruins"],
+        ["il sito archeologico", "el yacimiento arqueológico"],
+        ["scavare", "excavar"],
+        ["l'antica civiltà", "una civilización antigua"],
+        ["il manufatto", "un artefacto"],
+        ["datare (un reperto)", "datar (un hallazgo)"],
+        ["le rovine", "las ruinas"],
       ],
       grammar: [
         ["Futuro anteriore di probabilità sul passato", "El futuro anteriore (“avrà/sarà” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Questo manufatto sarà appartenuto a un re. / Il sito potrebbe essere stato un tempio."],
@@ -2698,12 +2698,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la neurociencia usando estructuras enfáticas en registro académico en italiano.",
     study: {
       vocab: [
-        ["la via neurale", "neural pathway"],
-        ["la sinapsi", "synapse"],
-        ["la neuroplasticità", "neuroplasticity"],
-        ["la funzione cognitiva", "cognitive function"],
-        ["il neurotrasmettitore", "neurotransmitter"],
-        ["la risonanza cerebrale", "brain scan"],
+        ["la via neurale", "la vía neuronal"],
+        ["la sinapsi", "la sinapsis"],
+        ["la neuroplasticità", "la neuroplasticidad"],
+        ["la funzione cognitiva", "la función cognitiva"],
+        ["il neurotrasmettitore", "el neurotransmisor"],
+        ["la risonanza cerebrale", "el escáner cerebral"],
       ],
       grammar: [
         ["Strutture enfatiche con avverbi iniziali", "En italiano formal/académico, colocar un adverbio restrictivo al inicio (“Raramente”, “Solo così”) da énfasis a la oración, un rasgo típico del registro académico.", "Raramente i ricercatori hanno trovato prove così chiare di neuroplasticità. / Solo così si spiega la funzione cognitiva."],
@@ -2723,12 +2723,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la economía conductual usando nominalización en registro académico en italiano.",
     study: {
       vocab: [
-        ["il bias cognitivo", "cognitive bias"],
-        ["l'avversione alla perdita", "loss aversion"],
-        ["l'effetto ancoraggio", "anchoring effect"],
-        ["il processo decisionale", "decision-making"],
-        ["il comportamento irrazionale", "irrational behavior"],
-        ["la spinta gentile", "nudge"],
+        ["il bias cognitivo", "el sesgo cognitivo"],
+        ["l'avversione alla perdita", "la aversión a la pérdida"],
+        ["l'effetto ancoraggio", "el efecto anclaje"],
+        ["il processo decisionale", "la toma de decisiones"],
+        ["il comportamento irrazionale", "el comportamiento irracional"],
+        ["la spinta gentile", "el empujón (nudge) conductual"],
       ],
       grammar: [
         ["Nominalizzazione nel registro accademico", "La nominalización convierte verbos en sustantivos abstractos (“decidere” → “il processo decisionale”), un rasgo típico del italiano académico formal.", "La persistenza del bias cognitivo influisce sul processo decisionale. / I ricercatori studiano l'evitamento della perdita."],
@@ -2748,12 +2748,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della fotografia e a usare “potere” per l'abilità in italiano.",
     study: {
       vocab: [
-        ["la macchina fotografica", "camera"],
-        ["la foto", "photo/picture"],
-        ["l'obiettivo", "lens"],
-        ["scattare una foto", "to take a picture"],
-        ["lo zoom", "zoom"],
-        ["la scheda di memoria", "memory card"],
+        ["la macchina fotografica", "la cámara"],
+        ["la foto", "la foto"],
+        ["l'obiettivo", "el objetivo"],
+        ["scattare una foto", "tomar una foto"],
+        ["lo zoom", "el zoom"],
+        ["la scheda di memoria", "la tarjeta de memoria"],
       ],
       grammar: [
         ["“Potere” per l'abilità", "“Potere” + infinitivo expresa habilidad o capacidad; en negativo se usa “non può”.", "Posso scattare belle foto con questa macchina. / Questa macchina non può zumare molto lontano."],
@@ -2773,12 +2773,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del campeggio e a usare “un po'/niente” per le quantità in italiano.",
     study: {
       vocab: [
-        ["la tenda", "tent"],
-        ["il sacco a pelo", "sleeping bag"],
-        ["il falò", "campfire"],
-        ["il sentiero", "hiking trail"],
-        ["lo zaino", "backpack"],
-        ["montare una tenda", "to pitch a tent"],
+        ["la tenda", "la tienda de campaña"],
+        ["il sacco a pelo", "el saco de dormir"],
+        ["il falò", "la hoguera"],
+        ["il sentiero", "la ruta de senderismo"],
+        ["lo zaino", "la mochila"],
+        ["montare una tenda", "montar una tienda de campaña"],
       ],
       grammar: [
         ["“Un po' di/niente” per le quantità", "“Un po' di” se usa en afirmativas para cantidades indefinidas; “niente” se usa en negativas.", "Abbiamo un po' di legna per il falò. / Non ci resta niente acqua."],
@@ -2798,12 +2798,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dell'apicoltura e a usare le proposizioni relative in italiano.",
     study: {
       vocab: [
-        ["l'alveare", "beehive"],
-        ["il miele", "honey"],
-        ["pungere", "to sting"],
-        ["impollinare", "to pollinate"],
-        ["l'apicoltore", "beekeeper"],
-        ["l'ape regina", "queen bee"],
+        ["l'alveare", "la colmena"],
+        ["il miele", "la miel"],
+        ["pungere", "picar"],
+        ["impollinare", "polinizar"],
+        ["l'apicoltore", "el apicultor"],
+        ["l'ape regina", "la abeja reina"],
       ],
       grammar: [
         ["Proposizioni relative (che/il quale)", "“Che” es el pronombre relativo más común en italiano, usado tanto para personas como para cosas, sujeto u objeto.", "L'apicoltore che gestisce questo alveare è molto esperto. / Le api, che impollinano i fiori, sono essenziali."],
@@ -2823,12 +2823,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de criptomonedas usando el periodo ipotetico del terzo tipo en italiano.",
     study: {
       vocab: [
-        ["la criptovaluta", "cryptocurrency"],
-        ["la blockchain", "blockchain"],
-        ["il portafoglio digitale", "digital wallet"],
-        ["investire", "to invest"],
-        ["la volatilità", "volatility"],
-        ["decentralizzato", "decentralized"],
+        ["la criptovaluta", "la criptomoneda"],
+        ["la blockchain", "la cadena de bloques"],
+        ["il portafoglio digitale", "la cartera digital"],
+        ["investire", "invertir"],
+        ["la volatilità", "la volatilidad"],
+        ["decentralizzato", "descentralizado"],
       ],
       grammar: [
         ["Periodo ipotetico del terzo tipo (passato irreale)", "El periodo ipotetico del terzo tipo (“se” + congiuntivo trapassato, condizionale passato) describe una situación hipotética en el pasado que no ocurrió.", "Se avessi investito prima, avrei guadagnato più soldi. / Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti."],
@@ -2848,12 +2848,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la bioética usando “così...che/talmente...che” para énfasis en italiano.",
     study: {
       vocab: [
-        ["l'editing genetico", "gene editing"],
-        ["il consenso informato", "informed consent"],
-        ["la sperimentazione clinica", "clinical trial"],
-        ["la modificazione genetica", "genetic modification"],
-        ["il dilemma etico", "ethical dilemma"],
-        ["manipolare il DNA", "to manipulate DNA"],
+        ["l'editing genetico", "la edición genética"],
+        ["il consenso informato", "el consentimiento informado"],
+        ["la sperimentazione clinica", "el ensayo clínico"],
+        ["la modificazione genetica", "la modificación genética"],
+        ["il dilemma etico", "el dilema ético"],
+        ["manipolare il DNA", "manipular el ADN"],
       ],
       grammar: [
         ["“Così...che/talmente...che” para énfasis", "“Così” + adjetivo/adverbio + “che” expresa una consecuencia enfática, típica del registro formal/académico.", "L'editing genetico è così potente che solleva serie questioni etiche. / È un dilemma talmente complesso che gli esperti non sono ancora d'accordo."],
@@ -2873,12 +2873,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en italiano.",
     study: {
       vocab: [
-        ["le relazioni diplomatiche", "diplomatic relations"],
-        ["la sovranità", "sovereignty"],
-        ["le sanzioni", "sanctions"],
-        ["l'accordo bilaterale", "bilateral agreement"],
-        ["la tensione geopolitica", "geopolitical tension"],
-        ["negoziare un trattato", "to negotiate a treaty"],
+        ["le relazioni diplomatiche", "las relaciones diplomáticas"],
+        ["la sovranità", "la soberanía"],
+        ["le sanzioni", "las sanciones"],
+        ["l'accordo bilaterale", "el acuerdo bilateral"],
+        ["la tensione geopolitica", "la tensión geopolítica"],
+        ["negoziare un trattato", "negociar un tratado"],
       ],
       grammar: [
         ["Gerundio y participio per un registro accademico conciso", "El gerundio (“Analizzando...”) y el participio pasado en construcciones absolutas (“Di fronte alle crescenti sanzioni...”) permiten un estilo más conciso y formal.", "Analizzando i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate. / Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica."],
@@ -2898,12 +2898,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del parrucchiere e a usare il comparativo e il superlativo in italiano.",
     study: {
       vocab: [
-        ["il taglio di capelli", "haircut"],
-        ["il parrucchiere/la parrucchiera", "hairdresser"],
-        ["le forbici", "scissors"],
-        ["i capelli corti/lunghi", "short/long hair"],
-        ["spuntare", "to trim"],
-        ["lo specchio", "mirror"],
+        ["il taglio di capelli", "el corte de pelo"],
+        ["il parrucchiere/la parrucchiera", "el peluquero"],
+        ["le forbici", "las tijeras"],
+        ["i capelli corti/lunghi", "pelo corto/largo"],
+        ["spuntare", "recortar"],
+        ["lo specchio", "el espejo"],
       ],
       grammar: [
         ["Comparativo e superlativo", "El comparativo se forma con “più/meno... di”, y el superlativo con “il/la più...”.", "Questo taglio è più corto dell'ultimo. / Lei ha i capelli più lunghi della famiglia."],
@@ -2923,12 +2923,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dell'officina e a usare “molto/molti” in italiano.",
     study: {
       vocab: [
-        ["il meccanico", "mechanic"],
-        ["la gomma a terra", "flat tire"],
-        ["il motore", "engine"],
-        ["riparare la macchina", "to fix the car"],
-        ["il pezzo di ricambio", "spare part"],
-        ["il cambio dell'olio", "oil change"],
+        ["il meccanico", "el mecánico"],
+        ["la gomma a terra", "la rueda pinchada"],
+        ["il motore", "el motor"],
+        ["riparare la macchina", "arreglar el coche"],
+        ["il pezzo di ricambio", "la pieza de repuesto"],
+        ["il cambio dell'olio", "el cambio de aceite"],
       ],
       grammar: [
         ["“Molto/molti” per le quantità", "“Molto” concuerda en género y número con el sustantivo: “molto tempo”, “molti pezzi”, “molta acqua”.", "Questa riparazione ha bisogno di molti pezzi di ricambio. / Non resta molto tempo prima del viaggio."],
@@ -2948,12 +2948,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario musicale e la differenza tra gerundio e infinito in italiano.",
     study: {
       vocab: [
-        ["fare le scale", "to practice scales"],
-        ["lo spartito", "sheet music"],
-        ["accordare uno strumento", "to tune an instrument"],
-        ["il ritmo", "rhythm"],
-        ["l'insegnante di musica", "music teacher"],
-        ["esibirsi", "to perform"],
+        ["fare le scale", "practicar escalas"],
+        ["lo spartito", "la partitura"],
+        ["accordare uno strumento", "afinar un instrumento"],
+        ["il ritmo", "el ritmo"],
+        ["l'insegnante di musica", "el profesor de música"],
+        ["esibirsi", "actuar/interpretar"],
       ],
       grammar: [
         ["Gerundio vs. infinito", "Algunos verbos van seguidos de gerundio (“amo fare” en italiano en realidad prefiere infinitivo: “amo suonare”), otros de infinitivo (“voglio suonare”); el gerundio italiano se usa más con “stare” para acciones en curso.", "Sto facendo le scale ogni mattina. / Lei vuole esibirsi davanti a un pubblico."],
@@ -2973,12 +2973,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla del reciclaje usando el presente para verdades generales (periodo ipotetico della realtà) en italiano.",
     study: {
       vocab: [
-        ["riciclare", "to recycle"],
-        ["l'economia circolare", "circular economy"],
-        ["la gestione dei rifiuti", "waste management"],
-        ["riutilizzare", "to reuse"],
-        ["la discarica", "landfill"],
-        ["la materia prima", "raw material"],
+        ["riciclare", "reciclar"],
+        ["l'economia circolare", "la economía circular"],
+        ["la gestione dei rifiuti", "la gestión de residuos"],
+        ["riutilizzare", "reutilizar"],
+        ["la discarica", "el vertedero"],
+        ["la materia prima", "la materia prima"],
       ],
       grammar: [
         ["Presente per le verità generali (periodo ipotetico della realtà)", "En italiano, el condicional cero se expresa con “se” + presente en ambas cláusulas, para hechos o verdades generales.", "Se ricicli la carta, si risparmiano alberi. / I materiali finiscono in discarica se non vengono riutilizzati."],
@@ -2998,12 +2998,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la justicia social usando “se solo” para arrepentimiento en registro formal en italiano.",
     study: {
       vocab: [
-        ["la giustizia sociale", "social justice"],
-        ["la disuguaglianza", "inequality"],
-        ["i diritti civili", "civil rights"],
-        ["la redistribuzione", "redistribution"],
-        ["l'oppressione sistemica", "systemic oppression"],
-        ["il bene comune", "common good"],
+        ["la giustizia sociale", "la justicia social"],
+        ["la disuguaglianza", "la desigualdad"],
+        ["i diritti civili", "los derechos civiles"],
+        ["la redistribuzione", "la redistribución"],
+        ["l'oppressione sistemica", "la opresión sistémica"],
+        ["il bene comune", "el bien común"],
       ],
       grammar: [
         ["“Se solo” + congiuntivo trapassato para arrepentimiento", "“Se solo” + congiuntivo trapassato expresa arrepentimiento o el deseo de que algo pasado hubiera sido diferente.", "Se solo le riforme passate avessero affrontato l'oppressione sistemica. / I filosofi vorrebbero che la disuguaglianza potesse essere risolta solo con la politica."],
@@ -3023,12 +3023,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza los rituales culturales usando comparativos dobles en italiano.",
     study: {
       vocab: [
-        ["il rituale", "ritual"],
-        ["il relativismo culturale", "cultural relativism"],
-        ["il rito di passaggio", "rite of passage"],
-        ["la parentela", "kinship"],
-        ["l'identità collettiva", "collective identity"],
-        ["la tradizione orale", "oral tradition"],
+        ["il rituale", "el ritual"],
+        ["il relativismo culturale", "el relativismo cultural"],
+        ["il rito di passaggio", "el rito de iniciación"],
+        ["la parentela", "el parentesco"],
+        ["l'identità collettiva", "la identidad colectiva"],
+        ["la tradizione orale", "la tradición oral"],
       ],
       grammar: [
         ["Comparativi doppi (“più... più...”)", "La estructura “più/meno..., più/meno...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Più gli antropologi studiano i rituali, più capiscono l'identità collettiva. / Più una tradizione è antica, più forte è la sua influenza."],
@@ -3048,12 +3048,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario degli attrezzi e a usare il comparativo di uguaglianza (“così... come”) in italiano.",
     study: {
       vocab: [
-        ["il martello", "hammer"],
-        ["il cacciavite", "screwdriver"],
-        ["il chiodo", "nail"],
-        ["la vite", "screw"],
-        ["la cassetta degli attrezzi", "toolbox"],
-        ["la scala", "ladder"],
+        ["il martello", "el martillo"],
+        ["il cacciavite", "el destornillador"],
+        ["il chiodo", "el clavo"],
+        ["la vite", "el tornillo"],
+        ["la cassetta degli attrezzi", "la caja de herramientas"],
+        ["la scala", "la escalera"],
       ],
       grammar: [
         ["Comparativo di uguaglianza (“tanto... quanto” / “così... come”)", "“Tanto/così” + adjetivo + “quanto/come” expresa que dos cosas son iguales en cierta cualidad.", "Questo martello è pesante quanto quello. / La scala non è alta come il muro."],
@@ -3073,12 +3073,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della lavanderia e a usare “alcuni/un po' di” in italiano.",
     study: {
       vocab: [
-        ["la lavatrice", "washing machine"],
-        ["il detersivo", "detergent"],
-        ["stendere i panni", "to hang out clothes"],
-        ["la macchia", "stain"],
-        ["l'asciugatrice", "dryer"],
-        ["stirare", "to iron"],
+        ["la lavatrice", "la lavadora"],
+        ["il detersivo", "el detergente"],
+        ["stendere i panni", "tender la ropa"],
+        ["la macchia", "la mancha"],
+        ["l'asciugatrice", "la secadora"],
+        ["stirare", "planchar"],
       ],
       grammar: [
         ["“Alcuni/un po' di” per le quantità piccole", "“Alcuni” se usa con sustantivos contables, “un po' di” con incontables, ambos para cantidades pequeñas pero suficientes.", "Ho bisogno di un po' di detersivo per questo carico. / Ci sono alcune macchie su questa camicia."],
@@ -3098,12 +3098,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario degli scacchi e a usare il futuro con “se” in italiano.",
     study: {
       vocab: [
-        ["la scacchiera", "chessboard"],
-        ["dare scacco matto", "to checkmate"],
-        ["il pedone", "pawn"],
-        ["muovere un pezzo", "to move a piece"],
-        ["la strategia", "strategy"],
-        ["l'avversario", "opponent"],
+        ["la scacchiera", "el tablero de ajedrez"],
+        ["dare scacco matto", "dar jaque mate"],
+        ["il pedone", "el peón"],
+        ["muovere un pezzo", "mover una pieza"],
+        ["la strategia", "la estrategia"],
+        ["l'avversario", "el oponente"],
       ],
       grammar: [
         ["“Se” + presente + futuro semplice", "Para consecuencias reales y probables en el futuro se usa “se” + presente indicativo, y futuro semplice en la consecuencia.", "Se muovi quel pezzo, perderai la partita. / Se lei pianifica bene la sua strategia, vincerà."],
@@ -3123,12 +3123,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de restauración usando la construcción causativa “far fare” en italiano.",
     study: {
       vocab: [
-        ["restaurare", "to restore"],
-        ["il sito patrimoniale", "heritage site"],
-        ["la facciata", "facade"],
-        ["l'impalcatura", "scaffolding"],
-        ["preservare", "to preserve"],
-        ["il danno strutturale", "structural damage"],
+        ["restaurare", "restaurar"],
+        ["il sito patrimoniale", "el sitio patrimonial"],
+        ["la facciata", "la fachada"],
+        ["l'impalcatura", "el andamio"],
+        ["preservare", "preservar"],
+        ["il danno strutturale", "el daño estructural"],
       ],
       grammar: [
         ["Costruzione causativa (“far fare”)", "“Fare” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "La città ha fatto restaurare la facciata l'anno scorso. / Stanno facendo riparare il tetto questo mese."],
@@ -3148,12 +3148,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza el método científico usando cláusulas de propósito (“al fine di/affinché”) en italiano.",
     study: {
       vocab: [
-        ["l'ipotesi", "hypothesis"],
-        ["la falsificabilità", "falsifiability"],
-        ["le prove empiriche", "empirical evidence"],
-        ["la revisione paritaria", "peer review"],
-        ["replicare uno studio", "to replicate a study"],
-        ["il cambio di paradigma", "paradigm shift"],
+        ["l'ipotesi", "la hipótesis"],
+        ["la falsificabilità", "la falsabilidad"],
+        ["le prove empiriche", "la evidencia empírica"],
+        ["la revisione paritaria", "la revisión por pares"],
+        ["replicare uno studio", "replicar un estudio"],
+        ["il cambio di paradigma", "el cambio de paradigma"],
       ],
       grammar: [
         ["Proposizioni finali (“al fine di/affinché”)", "“Al fine di” + infinitivo y “affinché” + congiuntivo expresan el propósito de una acción, típicos del registro formal/académico.", "Gli scienziati replicano studi al fine di confermare i risultati. / I ricercatori pubblicano dati affinché altri possano verificarli."],
@@ -3173,12 +3173,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la teoría de juegos usando “né... né” y concesión con “mentre” en italiano.",
     study: {
       vocab: [
-        ["l'equilibrio di Nash", "Nash equilibrium"],
-        ["il gioco a somma zero", "zero-sum game"],
-        ["la matrice dei payoff", "payoff matrix"],
-        ["la strategia dominante", "dominant strategy"],
-        ["l'attore razionale", "rational actor"],
-        ["il dilemma del prigioniero", "prisoner's dilemma"],
+        ["l'equilibrio di Nash", "el equilibrio de Nash"],
+        ["il gioco a somma zero", "el juego de suma cero"],
+        ["la matrice dei payoff", "la matriz de resultados"],
+        ["la strategia dominante", "la estrategia dominante"],
+        ["l'attore razionale", "el actor racional"],
+        ["il dilemma del prigioniero", "el dilema del prisionero"],
       ],
       grammar: [
         ["“Né... né” y concesión con “mentre”", "“Né... né” niega dos opciones a la vez; “mentre” introduce un contraste formal entre dos ideas.", "Né l'uno né l'altro giocatore beneficia del tradimento reciproco. / Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale."],
@@ -3198,12 +3198,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario delle immersioni e a usare le preposizioni di luogo in italiano.",
     study: {
       vocab: [
-        ["immergersi", "to dive"],
-        ["il boccaglio", "snorkel"],
-        ["il pesce", "fish"],
-        ["la barriera corallina", "coral reef"],
-        ["la muta", "wetsuit"],
-        ["sott'acqua", "underwater"],
+        ["immergersi", "bucear"],
+        ["il boccaglio", "el tubo de buceo"],
+        ["il pesce", "el pez"],
+        ["la barriera corallina", "el arrecife de coral"],
+        ["la muta", "el traje de neopreno"],
+        ["sott'acqua", "bajo el agua"],
       ],
       grammar: [
         ["Preposizioni di luogo (in/su/sotto/accanto a)", "“In” indica dentro de algo, “su” indica encima de una superficie, “sotto” indica debajo, y “accanto a” indica al lado.", "I pesci nuotano nell'acqua. / La barriera corallina è sotto la barca."],
@@ -3223,12 +3223,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del fai da te e a usare i connettori di sequenza in italiano.",
     study: {
       vocab: [
-        ["piegare", "to fold"],
-        ["la carta", "paper"],
-        ["le forbici", "scissors"],
-        ["la colla", "glue"],
-        ["la piega", "crease"],
-        ["il lavoretto", "craft"],
+        ["piegare", "doblar"],
+        ["la carta", "el papel"],
+        ["le forbici", "las tijeras"],
+        ["la colla", "el pegamento"],
+        ["la piega", "el pliegue"],
+        ["il lavoretto", "la manualidad"],
       ],
       grammar: [
         ["Connettori di sequenza (prima, poi, dopo, infine)", "Los secuenciadores organizan los pasos de un proceso en orden: “prima” (primero), “poi/dopo” (luego), “infine” (finalmente).", "Prima, piega la carta a metà. Poi, fai una piega. Infine, piega gli angoli."],
@@ -3248,12 +3248,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della paleontologia e a usare “già/non ancora/ancora” con il passato prossimo in italiano.",
     study: {
       vocab: [
-        ["il fossile", "fossil"],
-        ["l'osso di dinosauro", "dinosaur bone"],
-        ["il sito di scavo", "excavation site"],
-        ["estinto", "extinct"],
-        ["lo scheletro", "skeleton"],
-        ["dissotterrare", "to dig up"],
+        ["il fossile", "el fósil"],
+        ["l'osso di dinosauro", "el hueso de dinosaurio"],
+        ["il sito di scavo", "el sitio de excavación"],
+        ["estinto", "extinto"],
+        ["lo scheletro", "el esqueleto"],
+        ["dissotterrare", "desenterrar"],
       ],
       grammar: [
         ["“Già/non ancora/ancora” con il passato prossimo", "“Già” (ya) se usa en afirmativas, “non ancora” (todavía no) en negativas, y “ancora” (todavía) enfatiza una situación que continúa.", "Hanno già trovato lo scheletro. / Non hanno ancora finito lo scavo. / Gli scienziati stanno ancora studiando il fossile."],
@@ -3273,12 +3273,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de arte urbano usando “a meno che” en italiano.",
     study: {
       vocab: [
-        ["il murale", "mural"],
-        ["la vernice spray", "spray paint"],
-        ["lo spazio pubblico", "public space"],
-        ["il vandalismo", "vandalism"],
-        ["l'artista di strada", "street artist"],
-        ["commissionare un murale", "to commission a mural"],
+        ["il murale", "el mural"],
+        ["la vernice spray", "la pintura en aerosol"],
+        ["lo spazio pubblico", "el espacio público"],
+        ["il vandalismo", "el vandalismo"],
+        ["l'artista di strada", "el artista callejero"],
+        ["commissionare un murale", "encargar un mural"],
       ],
       grammar: [
         ["“A meno che” + congiuntivo", "“A meno che” + congiuntivo (a menudo con “non”) expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "A meno che la città non lo approvi, il murale sarà considerato vandalismo. / Lei non dipingerà a meno che non abbia il permesso."],
@@ -3298,12 +3298,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la criminología usando “potere” para posibilidad en registro formal en italiano.",
     study: {
       vocab: [
-        ["le prove forensi", "forensic evidence"],
-        ["il sospettato", "suspect"],
-        ["condannare", "to convict"],
-        ["il ragionevole dubbio", "reasonable doubt"],
-        ["la recidiva", "recidivism"],
-        ["la riabilitazione", "rehabilitation"],
+        ["le prove forensi", "la evidencia forense"],
+        ["il sospettato", "el sospechoso"],
+        ["condannare", "condenar"],
+        ["il ragionevole dubbio", "la duda razonable"],
+        ["la recidiva", "la reincidencia"],
+        ["la riabilitazione", "la rehabilitación"],
       ],
       grammar: [
         ["“Potrebbe/potrebbero” para posibilidad formal", "“Potrebbe” (condizionale de “potere”) expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "Le prove forensi potrebbero indicare il sospettato. / Senza riabilitazione, la recidiva potrebbe aumentare."],
@@ -3323,12 +3323,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la filosofía del lenguaje usando el congiuntivo tras verbos de sugerencia en italiano.",
     study: {
       vocab: [
-        ["l'atto linguistico", "speech act"],
-        ["il riferimento", "reference"],
-        ["il significato", "meaning"],
-        ["l'ambiguità", "ambiguity"],
-        ["la relatività linguistica", "linguistic relativity"],
-        ["la proposizione", "proposition"],
+        ["l'atto linguistico", "el acto de habla"],
+        ["il riferimento", "la referencia"],
+        ["il significato", "el significado"],
+        ["l'ambiguità", "la ambigüedad"],
+        ["la relatività linguistica", "la relatividad lingüística"],
+        ["la proposizione", "la proposición"],
       ],
       grammar: [
         ["Congiuntivo tras verbos de sugerencia (suggerire/insistere/raccomandare che)", "Tras verbos como “suggerire”, “insistere” o “raccomandare” + “che”, el verbo siguiente va en congiuntivo, típico del registro formal/académico.", "I filosofi suggeriscono che il significato sia studiato attraverso l'uso. / Il linguista insiste che il contesto sia considerato."],
@@ -3348,12 +3348,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del circo e a usare le esclamazioni (“che.../come...”) in italiano.",
     study: {
       vocab: [
-        ["il pagliaccio", "clown"],
-        ["la fune", "tightrope"],
-        ["il giocoliere", "juggler"],
-        ["l'acrobata", "acrobat"],
-        ["il tendone", "tent"],
-        ["sorprendente", "amazing"],
+        ["il pagliaccio", "el payaso"],
+        ["la fune", "la cuerda floja"],
+        ["il giocoliere", "el malabarista"],
+        ["l'acrobata", "el acróbata"],
+        ["il tendone", "la tienda de campaña"],
+        ["sorprendente", "asombroso"],
       ],
       grammar: [
         ["Esclamazioni (“che.../come...”)", "“Che” + sustantivo y “Come” + verbo/adjetivo expresan sorpresa o admiración de forma exclamativa.", "Che giocoliere sorprendente! / Come questo spettacolo è sorprendente!"],
@@ -3373,12 +3373,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dei mercatini delle pulci e a usare “troppo/abbastanza” in italiano.",
     study: {
       vocab: [
-        ["il mercatino delle pulci", "flea market"],
-        ["l'affare", "bargain"],
-        ["contrattare", "to haggle"],
-        ["di seconda mano", "secondhand"],
-        ["il venditore", "vendor"],
-        ["l'antiquariato", "antique"],
+        ["il mercatino delle pulci", "el mercadillo"],
+        ["l'affare", "la ganga"],
+        ["contrattare", "regatear"],
+        ["di seconda mano", "de segunda mano"],
+        ["il venditore", "el vendedor"],
+        ["l'antiquariato", "la antigüedad"],
       ],
       grammar: [
         ["“Troppo/abbastanza”", "“Troppo” + adjetivo indica exceso (“demasiado”), mientras que “abbastanza” + adjetivo indica suficiencia (“lo suficientemente”).", "Questo pezzo d'antiquariato è troppo caro. / Non ho abbastanza soldi per questo affare."],
@@ -3398,12 +3398,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della genealogia e a usare “benché/anche se” in italiano.",
     study: {
       vocab: [
-        ["l'albero genealogico", "family tree"],
-        ["l'antenato", "ancestor"],
-        ["il discendente", "descendant"],
-        ["il certificato di nascita", "birth certificate"],
-        ["il bisnonno/la bisnonna", "great-grandparent"],
-        ["rintracciare le proprie radici", "to trace one's roots"],
+        ["l'albero genealogico", "el árbol genealógico"],
+        ["l'antenato", "el antepasado"],
+        ["il discendente", "el descendiente"],
+        ["il certificato di nascita", "el certificado de nacimiento"],
+        ["il bisnonno/la bisnonna", "el bisabuelo/la bisabuela"],
+        ["rintracciare le proprie radici", "rastrear las propias raíces"],
       ],
       grammar: [
         ["“Benché/anche se” para concesión", "“Benché” + congiuntivo expresa una concesión formal; “anche se” + indicativo expresa lo mismo de forma más neutra.", "Benché gli archivi siano antichi, abbiamo rintracciato le nostre radici. / Anche se non ha mai conosciuto la sua bisnonna, conosce la storia familiare."],
@@ -3423,12 +3423,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de fenómenos meteorológicos extremos usando “nonostante” en italiano.",
     study: {
       vocab: [
-        ["l'uragano", "hurricane"],
-        ["il tornado", "tornado"],
-        ["la siccità", "drought"],
-        ["l'alluvione improvvisa", "flash flood"],
-        ["la velocità del vento", "wind speed"],
-        ["emettere un'allerta", "to issue a warning"],
+        ["l'uragano", "el huracán"],
+        ["il tornado", "el tornado"],
+        ["la siccità", "la sequía"],
+        ["l'alluvione improvvisa", "la inundación repentina"],
+        ["la velocità del vento", "la velocidad del viento"],
+        ["emettere un'allerta", "emitir una alerta"],
       ],
       grammar: [
         ["“Nonostante” + sustantivo/congiuntivo", "“Nonostante” + sustantivo o congiuntivo introduce un contraste, similar a “benché” pero también puede usarse con sustantivo directamente.", "Nonostante l'allerta, molte persone sono rimaste vicino alla costa. / Nonostante avessero emesso un'allerta, le autorità non hanno potuto evitare i danni."],
@@ -3448,12 +3448,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la gentrificación usando “avrebbe dovuto” para crítica del pasado en italiano.",
     study: {
       vocab: [
-        ["la gentrificazione", "gentrification"],
-        ["lo sfollamento", "displacement"],
-        ["l'edilizia accessibile", "affordable housing"],
-        ["la riqualificazione urbana", "urban renewal"],
-        ["l'affitto crescente", "rising rent"],
-        ["la comunità locale", "local community"],
+        ["la gentrificazione", "la gentrificación"],
+        ["lo sfollamento", "el desplazamiento"],
+        ["l'edilizia accessibile", "la vivienda asequible"],
+        ["la riqualificazione urbana", "la renovación urbana"],
+        ["l'affitto crescente", "el aumento del alquiler"],
+        ["la comunità locale", "la comunidad local"],
       ],
       grammar: [
         ["“Avrebbe dovuto” para crítica del pasado", "“Avrebbe dovuto” + infinitivo expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "La città avrebbe dovuto proteggere l'edilizia accessibile. / Le autorità non avrebbero dovuto ignorare la comunità locale."],
@@ -3473,12 +3473,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en italiano.",
     study: {
       vocab: [
-        ["l'epistemologia", "epistemology"],
-        ["la credenza vera giustificata", "justified true belief"],
-        ["lo scetticismo", "skepticism"],
-        ["la certezza", "certainty"],
-        ["la conoscenza a priori", "a priori knowledge"],
-        ["l'umiltà epistemica", "epistemic humility"],
+        ["l'epistemologia", "la epistemología"],
+        ["la credenza vera giustificata", "la creencia verdadera justificada"],
+        ["lo scetticismo", "el escepticismo"],
+        ["la certezza", "la certeza"],
+        ["la conoscenza a priori", "el conocimiento a priori"],
+        ["l'umiltà epistemica", "la humildad epistémica"],
       ],
       grammar: [
         ["“Appena... che” para secuencia inmediata", "“Appena... che” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Appena i filosofi avevano proposto una teoria della certezza, che gli scettici la contestavano. / Appena si afferma di sapere qualcosa, che il dubbio sorge."],
@@ -3498,12 +3498,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del birdwatching e a usare i possessivi in italiano.",
     study: {
       vocab: [
-        ["il binocolo", "binoculars"],
-        ["il nido", "nest"],
-        ["la piuma", "feather"],
-        ["il becco", "beak"],
-        ["volare", "to fly"],
-        ["l'ala", "wing"],
+        ["il binocolo", "los prismáticos"],
+        ["il nido", "el nido"],
+        ["la piuma", "la pluma"],
+        ["il becco", "el pico"],
+        ["volare", "volar"],
+        ["l'ala", "el ala"],
       ],
       grammar: [
         ["Possessivi (il mio/il tuo/il suo/il nostro/il loro)", "En italiano, los posesivos suelen ir con artículo y concuerdan en género y número con el sustantivo poseído.", "Il mio binocolo è nuovo. / L'uccello usa le sue ali per volare."],
@@ -3523,12 +3523,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della ceramica e a usare “quanto/quanti” in italiano.",
     study: {
       vocab: [
-        ["l'argilla", "clay"],
-        ["il tornio da vasaio", "pottery wheel"],
-        ["la fornace", "kiln"],
-        ["modellare", "to shape"],
-        ["lo smalto", "glaze"],
-        ["la ciotola", "bowl"],
+        ["l'argilla", "la arcilla"],
+        ["il tornio da vasaio", "el torno de alfarero"],
+        ["la fornace", "el horno de cerámica"],
+        ["modellare", "moldear"],
+        ["lo smalto", "el esmalte"],
+        ["la ciotola", "el cuenco"],
       ],
       grammar: [
         ["“Quanto/quanti”", "“Quanto” concuerda en género con sustantivos incontables singulares, “quanti/quante” con sustantivos contables plurales, para preguntar cantidad.", "Quanta argilla ti serve? / Quante ciotole hai fatto?"],
@@ -3548,12 +3548,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario delle arti marziali e a usare “sia...sia/o...o” in italiano.",
     study: {
       vocab: [
-        ["le arti marziali", "martial arts"],
-        ["la cintura nera", "black belt"],
-        ["la tecnica", "technique"],
-        ["la presa dell'avversario", "opponent's grip"],
-        ["l'equilibrio", "balance"],
-        ["il dojo", "dojo"],
+        ["le arti marziali", "las artes marciales"],
+        ["la cintura nera", "el cinturón negro"],
+        ["la tecnica", "la técnica"],
+        ["la presa dell'avversario", "el agarre del oponente"],
+        ["l'equilibrio", "el equilibrio"],
+        ["il dojo", "el dojo"],
       ],
       grammar: [
         ["“Sia...sia/o...o”", "“Sia... sia” conecta dos elementos afirmando ambos; “o... o” presenta dos opciones alternativas.", "L'aikido richiede sia forza sia equilibrio. / Puoi allenarti o al mattino o alla sera."],
@@ -3573,12 +3573,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de micología usando “come se” en italiano.",
     study: {
       vocab: [
-        ["il fungo", "mushroom"],
-        ["la spora", "spore"],
-        ["commestibile", "edible"],
-        ["velenoso", "poisonous"],
-        ["il fungo/la muffa", "fungus"],
-        ["il micelio", "mycelium"],
+        ["il fungo", "la seta"],
+        ["la spora", "la espora"],
+        ["commestibile", "comestible"],
+        ["velenoso", "venenoso"],
+        ["il fungo/la muffa", "el hongo"],
+        ["il micelio", "el micelio"],
       ],
       grammar: [
         ["“Come se” + congiuntivo imperfetto", "“Come se” siempre va seguido de congiuntivo imperfetto o trapassato, aunque la comparación sea sobre el presente.", "Questo fungo sembra come se fosse velenoso. / Il micelio si diffonde come se avesse una volontà propria."],
@@ -3598,12 +3598,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza los ecosistemas marinos usando “purché/a condizione che” en italiano.",
     study: {
       vocab: [
-        ["l'ecosistema marino", "marine ecosystem"],
-        ["la biodiversità", "biodiversity"],
-        ["la catena alimentare", "food chain"],
-        ["lo sbiancamento dei coralli", "coral bleaching"],
-        ["la specie marina", "marine species"],
-        ["l'acidificazione degli oceani", "ocean acidification"],
+        ["l'ecosistema marino", "el ecosistema marino"],
+        ["la biodiversità", "la biodiversidad"],
+        ["la catena alimentare", "la cadena alimentaria"],
+        ["lo sbiancamento dei coralli", "el blanqueamiento de coral"],
+        ["la specie marina", "las especies marinas"],
+        ["l'acidificazione degli oceani", "la acidificación del océano"],
       ],
       grammar: [
         ["“Purché/a condizione che” + congiuntivo", "“Purché” y “a condizione che” + congiuntivo expresan una condición necesaria, equivalentes a “provided that” en inglés.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca. / Le barriere coralline sopravvivono a condizione che le temperature restino stabili."],
@@ -3623,12 +3623,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la cartografía usando “se non fosse per” en italiano.",
     study: {
       vocab: [
-        ["il cartografo", "cartographer"],
-        ["la proiezione", "projection"],
-        ["il territorio inesplorato", "uncharted territory"],
-        ["la scala", "scale"],
-        ["lo strumento di navigazione", "navigational instrument"],
-        ["mappare", "to chart"],
+        ["il cartografo", "el cartógrafo"],
+        ["la proiezione", "la proyección"],
+        ["il territorio inesplorato", "el territorio inexplorado"],
+        ["la scala", "la escala"],
+        ["lo strumento di navigazione", "el instrumento de navegación"],
+        ["mappare", "cartografiar"],
       ],
       grammar: [
         ["“Se non fosse per” para condición formal", "“Se non fosse per” + sustantivo expresa una condición hipotética muy formal, equivalente a “were it not for” en inglés.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile. / Se non fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise."],
@@ -3648,12 +3648,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del cucito e a usare i verbi riflessivi di base in italiano.",
     study: {
       vocab: [
-        ["l'ago", "needle"],
-        ["il filo", "thread"],
-        ["cucire", "to sew"],
-        ["provarsi (un vestito)", "to try on"],
-        ["il bottone", "button"],
-        ["il sarto", "tailor"],
+        ["l'ago", "la aguja"],
+        ["il filo", "el hilo"],
+        ["cucire", "coser"],
+        ["provarsi (un vestito)", "probarse"],
+        ["il bottone", "el botón"],
+        ["il sarto", "el sastre"],
       ],
       grammar: [
         ["Verbi riflessivi di base", "Los verbos reflexivos italianos usan “mi/ti/si/ci/vi/si” antes del verbo; “provarsi” ropa siempre es reflexivo, igual que en español.", "Mi provo la giacca. / Lei cuce il bottone da sola."],
@@ -3673,12 +3673,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dell'arrampicata e a usare “da + tempo” con il presente in italiano.",
     study: {
       vocab: [
-        ["la corda", "rope"],
-        ["l'imbracatura", "harness"],
-        ["la vetta", "summit"],
-        ["la scogliera", "cliff"],
-        ["scalare", "to climb"],
-        ["la presa", "grip"],
+        ["la corda", "la cuerda"],
+        ["l'imbracatura", "el arnés"],
+        ["la vetta", "la cima"],
+        ["la scogliera", "el acantilado"],
+        ["scalare", "escalar"],
+        ["la presa", "el agarre"],
       ],
       grammar: [
         ["“Da” + tiempo con presente para duración continua", "El italiano expresa una acción que empezó en el pasado y continúa usando el presente + “da” + tiempo, a diferencia del inglés que usa presente perfecto continuo.", "Scaliamo da tre ore. / Si allena da un anno per la vetta."],
@@ -3698,12 +3698,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della numismatica e a usare “abituarsi a/essere abituato a” in italiano.",
     study: {
       vocab: [
-        ["la moneta", "coin"],
-        ["la zecca", "mint"],
-        ["la moneta rara", "rare coin"],
-        ["la collezione", "collection"],
-        ["la valuta", "currency"],
-        ["valutare", "to appraise"],
+        ["la moneta", "la moneda"],
+        ["la zecca", "la casa de la moneda"],
+        ["la moneta rara", "la moneda rara"],
+        ["la collezione", "la colección"],
+        ["la valuta", "la divisa"],
+        ["valutare", "tasar"],
       ],
       grammar: [
         ["“Essere abituato a/abituarsi a”", "“Essere abituato a” + infinitivo expresa un hábito ya establecido; “abituarsi a” + infinitivo expresa el proceso de acostumbrarse.", "Sono abituato a valutare monete antiche. / Ci è voluto tempo per abituarsi a collezionare valute rare."],
@@ -3723,12 +3723,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de sismología usando preguntas indirectas en italiano.",
     study: {
       vocab: [
-        ["il terremoto", "earthquake"],
-        ["il sismografo", "seismograph"],
-        ["l'epicentro", "epicenter"],
-        ["la magnitudo", "magnitude"],
-        ["la placca tettonica", "tectonic plate"],
-        ["la scossa di assestamento", "aftershock"],
+        ["il terremoto", "el terremoto"],
+        ["il sismografo", "el sismógrafo"],
+        ["l'epicentro", "el epicentro"],
+        ["la magnitudo", "la magnitud"],
+        ["la placca tettonica", "la placa tectónica"],
+        ["la scossa di assestamento", "la réplica (sísmica)"],
       ],
       grammar: [
         ["Domande indirette", "Las preguntas indirectas (“mi chiedo se...”, “sai se...”) mantienen el orden normal sujeto-verbo, sin la inversión de una pregunta directa.", "Mi chiedo se l'epicentro fosse vicino alla città. / Sai quanto forte fosse la magnitudo?"],
@@ -3748,12 +3748,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la paleografía usando “chiunque/qualunque cosa” en italiano.",
     study: {
       vocab: [
-        ["il manoscritto", "manuscript"],
-        ["lo scriba", "scribe"],
-        ["la pergamena", "parchment"],
-        ["il testo miniato", "illuminated text"],
-        ["lo stile calligrafico", "handwriting style"],
-        ["decifrare", "to decipher"],
+        ["il manoscritto", "el manuscrito"],
+        ["lo scriba", "el escriba"],
+        ["la pergamena", "el pergamino"],
+        ["il testo miniato", "el texto iluminado"],
+        ["lo stile calligrafico", "el estilo caligráfico"],
+        ["decifrare", "descifrar"],
       ],
       grammar: [
         ["“Chiunque/qualunque cosa”", "“Chiunque” equivale a “la persona que sea”, y “qualunque cosa” equivale a “lo que sea que”, sin necesidad de antecedente específico.", "Chiunque decifri questo manoscritto farà storia. / Qualunque cosa lo scriba intendesse, il significato oggi è perduto."],
@@ -3773,12 +3773,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la cadena de suministro usando estructuras enfáticas de sorpresa en italiano.",
     study: {
       vocab: [
-        ["la catena di approvvigionamento", "supply chain"],
-        ["il collo di bottiglia", "bottleneck"],
-        ["il trasporto merci", "freight"],
-        ["il magazzino", "warehouse"],
-        ["l'interruzione logistica", "logistics disruption"],
-        ["la consegna just-in-time", "just-in-time delivery"],
+        ["la catena di approvvigionamento", "la cadena de suministro"],
+        ["il collo di bottiglia", "el cuello de botella"],
+        ["il trasporto merci", "la carga/el flete"],
+        ["il magazzino", "el almacén"],
+        ["l'interruzione logistica", "la interrupción logística"],
+        ["la consegna just-in-time", "la entrega justo a tiempo"],
       ],
       grammar: [
         ["Strutture enfatiche di sorpresa (pochi immaginavano/nessuno si aspettava)", "“Pochi immaginavano” o “nessuno si aspettava” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Pochi immaginavano quanto fosse fragile la catena di approvvigionamento. / Nessuno si aspettava un'interruzione logistica così grave."],
@@ -3798,12 +3798,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della radioamatore e a usare “c'è/ci sono” in italiano.",
     study: {
       vocab: [
-        ["il segnale radio", "radio signal"],
-        ["l'antenna", "antenna"],
-        ["la frequenza", "frequency"],
-        ["il microfono", "microphone"],
-        ["trasmettere", "to transmit"],
-        ["il disturbo", "static"],
+        ["il segnale radio", "la señal de radio"],
+        ["l'antenna", "la antena"],
+        ["la frequenza", "la frecuencia"],
+        ["il microfono", "el micrófono"],
+        ["trasmettere", "transmitir"],
+        ["il disturbo", "la estática (interferencia)"],
       ],
       grammar: [
         ["“C'è/ci sono”", "“C'è” se usa con sustantivos singulares o incontables, “ci sono” con sustantivos plurales, para indicar existencia.", "C'è molto disturbo su questa frequenza. / Ci sono due antenne sul tetto."],
@@ -3823,12 +3823,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario dell'astrologia e a usare il futuro semplice per le previsioni in italiano.",
     study: {
       vocab: [
-        ["l'oroscopo", "horoscope"],
-        ["il segno zodiacale", "zodiac sign"],
-        ["il/la veggente", "fortune teller"],
-        ["la carta astrale", "star chart"],
-        ["la previsione", "prediction"],
-        ["il destino", "destiny"],
+        ["l'oroscopo", "el horóscopo"],
+        ["il segno zodiacale", "el signo zodiacal"],
+        ["il/la veggente", "el adivino"],
+        ["la carta astrale", "la carta astral"],
+        ["la previsione", "la predicción"],
+        ["il destino", "el destino"],
       ],
       grammar: [
         ["Futuro semplice per le previsioni", "El futuro semplice se usa para hacer predicciones sobre el futuro basadas en opinión o creencia, no en evidencia presente.", "Questo oroscopo dice che avrai una buona settimana. / La veggente pensa che troverà l'amore presto."],
@@ -3848,12 +3848,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario degli sport estremi e a usare “riuscire a” in italiano.",
     study: {
       vocab: [
-        ["il paracadute", "parachute"],
-        ["la caduta libera", "free fall"],
-        ["la scarica di adrenalina", "adrenaline rush"],
-        ["saltare", "to jump"],
-        ["il bungee jumping", "bungee jumping"],
-        ["lo sport estremo", "extreme sport"],
+        ["il paracadute", "el paracaídas"],
+        ["la caduta libera", "la caída libre"],
+        ["la scarica di adrenalina", "la subida de adrenalina"],
+        ["saltare", "saltar"],
+        ["il bungee jumping", "el puenting"],
+        ["lo sport estremo", "el deporte extremo"],
       ],
       grammar: [
         ["“Riuscire a” + infinito", "“Riuscire a” + infinito expresa que alguien logró hacer algo difícil.", "È riuscita ad aprire il paracadute in tempo. / È riuscito a superare la paura dell'altezza."],
@@ -3873,12 +3873,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de entomología usando “oltre a/così come” en italiano.",
     study: {
       vocab: [
-        ["l'insetto", "insect"],
-        ["l'esoscheletro", "exoskeleton"],
-        ["la metamorfosi", "metamorphosis"],
-        ["l'antenna (insetto)", "antenna (insect)"],
-        ["la larva", "larva"],
-        ["l'impollinatore", "pollinator"],
+        ["l'insetto", "el insecto"],
+        ["l'esoscheletro", "el exoesqueleto"],
+        ["la metamorfosi", "la metamorfosis"],
+        ["l'antenna (insetto)", "la antena (insecto)"],
+        ["la larva", "la larva"],
+        ["l'impollinatore", "el polinizador"],
       ],
       grammar: [
         ["“Oltre a/così come”", "“Oltre a” + infinito o sustantivo y “così come” añaden información extra, similares a “besides” en inglés.", "Oltre a impollinare i fiori, le api producono miele. / Gli scarabei, così come le farfalle, subiscono la metamorfosi."],
@@ -3898,12 +3898,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la propiedad intelectual usando “nonostante” en registro legal formal en italiano.",
     study: {
       vocab: [
-        ["il diritto d'autore", "copyright"],
-        ["il brevetto", "patent"],
-        ["il marchio registrato", "trademark"],
-        ["la violazione", "infringement"],
-        ["l'accordo di licenza", "licensing agreement"],
-        ["la proprietà intellettuale", "intellectual property"],
+        ["il diritto d'autore", "los derechos de autor"],
+        ["il brevetto", "la patente"],
+        ["il marchio registrato", "la marca registrada"],
+        ["la violazione", "la infracción"],
+        ["l'accordo di licenza", "el acuerdo de licencia"],
+        ["la proprietà intellettuale", "la propiedad intelectual"],
       ],
       grammar: [
         ["“Nonostante” para concesión legal formal", "“Nonostante” + sustantivo (registro muy formal/legal) expresa una concesión, típico de textos jurídicos.", "Nonostante il brevetto, l'azienda ha continuato la produzione. / Il marchio rimane valido, nonostante la controversia."],
@@ -3923,12 +3923,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la geología usando “lungi dal + infinito” en italiano.",
     study: {
       vocab: [
-        ["il giacimento minerale", "mineral deposit"],
-        ["la struttura cristallina", "crystalline structure"],
-        ["la roccia sedimentaria", "sedimentary rock"],
-        ["lo spostamento tettonico", "tectonic shift"],
-        ["la roccia ignea", "igneous rock"],
-        ["la composizione minerale", "mineral composition"],
+        ["il giacimento minerale", "el yacimiento mineral"],
+        ["la struttura cristallina", "la estructura cristalina"],
+        ["la roccia sedimentaria", "la roca sedimentaria"],
+        ["lo spostamento tettonico", "el desplazamiento tectónico"],
+        ["la roccia ignea", "la roca ígnea"],
+        ["la composizione minerale", "la composición mineral"],
       ],
       grammar: [
         ["“Lungi dal + infinito” para concesión enfática", "“Lungi dal” + infinito expresa que algo es completamente lo contrario de lo esperado, un recurso enfático de registro formal.", "Lungi dall'essere stabile, questa formazione rocciosa cambia costantemente. / Lungi dal risolvere il dibattito, la scoperta ha sollevato nuove domande."],
@@ -3948,12 +3948,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del caffè e a usare “vorrei” per richieste cortesi in italiano.",
     study: {
       vocab: [
-        ["il chicco di caffè", "coffee bean"],
-        ["la tostatura", "roast"],
-        ["l'aroma", "aroma"],
-        ["il barista", "barista"],
-        ["preparare (il caffè)", "to brew"],
-        ["la tazza", "cup"],
+        ["il chicco di caffè", "el grano de café"],
+        ["la tostatura", "el tueste"],
+        ["l'aroma", "el aroma"],
+        ["il barista", "el barista"],
+        ["preparare (il caffè)", "preparar (café)"],
+        ["la tazza", "la taza"],
       ],
       grammar: [
         ["“Vorrei” per richieste cortesi", "“Vorrei” (condizionale de “volere”) es una forma cortés de pedir algo, más formal que “voglio”.", "Vorrei una tazza di caffè, per favore. / Vorrebbe provare la tostatura scura."],
@@ -3973,12 +3973,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario del restauro mobili e a usare “lasciare che qualcuno faccia qualcosa” in italiano.",
     study: {
       vocab: [
-        ["il mobile antico", "antique furniture"],
-        ["la vernice", "varnish"],
-        ["la carta vetrata", "sandpaper"],
-        ["restaurare", "to restore"],
-        ["la venatura del legno", "wood grain"],
-        ["il laboratorio", "workshop"],
+        ["il mobile antico", "los muebles antiguos"],
+        ["la vernice", "el barniz"],
+        ["la carta vetrata", "el papel de lija"],
+        ["restaurare", "restaurar"],
+        ["la venatura del legno", "la veta de la madera"],
+        ["il laboratorio", "el taller"],
       ],
       grammar: [
         ["“Lasciare che + congiuntivo”", "“Lasciare che” + congiuntivo expresa permitir que alguien haga algo.", "Lascia che la vernice asciughi tutta la notte. / Lei lascia che il suo assistente carteggi il mobile."],
@@ -3998,12 +3998,12 @@ window.LESSON_BANKS.IT = [
     description:"Impara il vocabolario della lessicografia e a usare “piuttosto che” in italiano.",
     study: {
       vocab: [
-        ["la voce del dizionario", "dictionary entry"],
-        ["la definizione", "definition"],
-        ["l'etimologia", "etymology"],
-        ["il lemma", "headword"],
-        ["il sinonimo", "synonym"],
-        ["l'esempio d'uso", "usage example"],
+        ["la voce del dizionario", "la entrada de diccionario"],
+        ["la definizione", "la definición"],
+        ["l'etimologia", "la etimología"],
+        ["il lemma", "el lema"],
+        ["il sinonimo", "el sinónimo"],
+        ["l'esempio d'uso", "el ejemplo de uso"],
       ],
       grammar: [
         ["“Piuttosto che” per preferenza", "“Piuttosto che” + sustantivo/infinito expresa preferencia por una opción sobre otra.", "Ha scelto una definizione moderna piuttosto che quella antica. / Piuttosto che indovinare, controlla l'etimologia."],
@@ -4023,12 +4023,12 @@ window.LESSON_BANKS.IT = [
     description:"Habla de radiología usando “nel caso in cui” en italiano.",
     study: {
       vocab: [
-        ["la radiografia", "X-ray"],
-        ["la risonanza magnetica", "MRI scan"],
-        ["il radiologo/la radiologa", "radiologist"],
-        ["il mezzo di contrasto", "contrast dye"],
-        ["la diagnosi", "diagnosis"],
-        ["l'esposizione alle radiazioni", "radiation exposure"],
+        ["la radiografia", "la radiografía"],
+        ["la risonanza magnetica", "la resonancia magnética"],
+        ["il radiologo/la radiologa", "el radiólogo"],
+        ["il mezzo di contrasto", "el contraste (medio de contraste)"],
+        ["la diagnosi", "el diagnóstico"],
+        ["l'esposizione alle radiazioni", "la exposición a la radiación"],
       ],
       grammar: [
         ["“Nel caso in cui” + congiuntivo para precaución", "“Nel caso in cui” + congiuntivo expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa. / Porta i tuoi esami precedenti nel caso in cui il medico ne avesse bisogno."],
@@ -4048,12 +4048,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la virología usando “anche se” con congiuntivo para hipótesis en italiano.",
     study: {
       vocab: [
-        ["il ceppo virale", "virus strain"],
-        ["il focolaio", "outbreak"],
-        ["l'immunità di gregge", "herd immunity"],
-        ["l'efficacia del vaccino", "vaccine efficacy"],
-        ["il tasso di trasmissione", "transmission rate"],
-        ["la mutazione", "mutation"],
+        ["il ceppo virale", "la cepa del virus"],
+        ["il focolaio", "el brote"],
+        ["l'immunità di gregge", "la inmunidad de rebaño"],
+        ["l'efficacia del vaccino", "la eficacia de la vacuna"],
+        ["il tasso di trasmissione", "la tasa de transmisión"],
+        ["la mutazione", "la mutación"],
       ],
       grammar: [
         ["“Anche se” + congiuntivo para hipótesis", "“Anche se” + congiuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, distinto del indicativo para hechos reales.", "Anche se l'efficacia del vaccino diminuisse, l'immunità di gregge potrebbe aiutare. / Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],
@@ -4073,12 +4073,12 @@ window.LESSON_BANKS.IT = [
     description:"Analiza la política monetaria usando “nella misura in cui” en italiano.",
     study: {
       vocab: [
-        ["il tasso d'interesse", "interest rate"],
-        ["l'obiettivo d'inflazione", "inflation target"],
-        ["l'allentamento quantitativo", "quantitative easing"],
-        ["la politica monetaria", "monetary policy"],
-        ["la banca centrale", "central bank"],
-        ["lo stimolo fiscale", "fiscal stimulus"],
+        ["il tasso d'interesse", "el tipo de interés"],
+        ["l'obiettivo d'inflazione", "el objetivo de inflación"],
+        ["l'allentamento quantitativo", "la flexibilización cuantitativa"],
+        ["la politica monetaria", "la política monetaria"],
+        ["la banca centrale", "el banco central"],
+        ["lo stimolo fiscale", "el estímulo fiscal"],
       ],
       grammar: [
         ["“Nella misura in cui” per qualificare", "“Nella misura in cui” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Nella misura in cui l'inflazione rimane stabile, sono possibili tagli dei tassi. / La politica funziona nella misura in cui le banche prestano più liberamente."],
@@ -4098,12 +4098,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a formar preguntas básicas en italiano con las palabras interrogativas.",
     study: {
       vocab: [
-        ["Cosa...?", "What...?"],
-        ["Chi...?", "Who...?"],
-        ["Dove...?", "Where...?"],
-        ["Quando...?", "When...?"],
-        ["Perché...?", "Why...?"],
-        ["Come...?", "How...?"],
+        ["Cosa...?", "¿Qué...?"],
+        ["Chi...?", "¿Quién...?"],
+        ["Dove...?", "¿Dónde...?"],
+        ["Quando...?", "¿Cuándo...?"],
+        ["Perché...?", "¿Por qué...?"],
+        ["Come...?", "¿Cómo...?"],
       ],
       grammar: [
         ["Ordine delle domande in italiano", "In italiano non serve un ausiliare come in inglese; basta la parola interrogativa + verbo (+ soggetto, spesso omesso).", "Dove abiti? / Come ti chiami? / Quando inizia il corso?"],
@@ -4123,12 +4123,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende los posesivos en italiano y el vocabulario básico de la familia.",
     study: {
       vocab: [
-        ["il mio / la mia", "my"],
-        ["il tuo / la tua", "your (informal)"],
-        ["il suo / la sua", "his / her"],
-        ["il nostro / la nostra", "our"],
-        ["il loro / la loro", "their"],
-        ["la madre, il padre, i genitori", "mother, father, parents"],
+        ["il mio / la mia", "mi"],
+        ["il tuo / la tua", "tu (informal)"],
+        ["il suo / la sua", "su (de él/de ella)"],
+        ["il nostro / la nostra", "nuestro"],
+        ["il loro / la loro", "su (de ellos)"],
+        ["la madre, il padre, i genitori", "madre, padre, padres"],
       ],
       grammar: [
         ["Sin artículo con nombres de familia en singular", "Con los nombres de familia en singular (madre, padre, fratello, sorella...), el posesivo se usa SIN artículo: “mia sorella”, no “la mia sorella”.", "Questa è mia sorella. / Questi sono i nostri genitori."],
@@ -4148,11 +4148,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar “c'è/ci sono” y las preposiciones de lugar en italiano.",
     study: {
       vocab: [
-        ["c'è / ci sono", "there is / there are"],
-        ["dentro, sopra, sotto", "in, on, under"],
-        ["accanto a, tra/fra", "next to, between"],
-        ["davanti a, dietro", "in front of, behind"],
-        ["C'è...? / Ci sono...?", "Is/Are there...?"],
+        ["c'è / ci sono", "hay"],
+        ["dentro, sopra, sotto", "en, sobre, debajo de"],
+        ["accanto a, tra/fra", "al lado de, entre"],
+        ["davanti a, dietro", "delante de, detrás de"],
+        ["C'è...? / Ci sono...?", "¿Hay...?"],
       ],
       grammar: [
         ["“C'è” vs “Ci sono”", "A diferencia del inglés, en italiano “c'è” (singular) y “ci sono” (plural) sí cambian según el número del sustantivo.", "C'è una lampada sul tavolo. / Ci sono due sedie accanto alla scrivania."],
@@ -4172,12 +4172,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende las reglas del plural en italiano y el uso de los artículos.",
     study: {
       vocab: [
-        ["il libro / i libri", "the book / the books"],
-        ["la casa / le case", "the house / the houses"],
-        ["l'amico / gli amici", "the friend / the friends"],
-        ["lo studente / gli studenti", "the student / the students"],
-        ["un, uno, una", "a, an"],
-        ["il, lo, la, i, gli, le", "the"],
+        ["il libro / i libri", "el libro / los libros"],
+        ["la casa / le case", "la casa / las casas"],
+        ["l'amico / gli amici", "el amigo / los amigos"],
+        ["lo studente / gli studenti", "el estudiante / los estudiantes"],
+        ["un, uno, una", "un, una"],
+        ["il, lo, la, i, gli, le", "el/la"],
       ],
       grammar: [
         ["Reglas del plural en italiano", "El plural cambia la vocal final: “-o”→“-i”, “-a” (femenino)→“-e”, “-e”→“-i” (ambos géneros).", "libro→libri, casa→case, amico→amici, studente→studenti"],
@@ -4197,11 +4197,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a expresar gustos y preferencias en italiano con el verbo “piacere”.",
     study: {
       vocab: [
-        ["mi piace / mi piacciono", "I like (sing./plur.)"],
-        ["adoro", "I love"],
-        ["non mi piace / odio", "I don't like / I hate"],
-        ["nuotare, leggere, cucinare", "swimming, reading, cooking"],
-        ["Ti piace...?", "Do you like...?"],
+        ["mi piace / mi piacciono", "me gusta (sing./plur.)"],
+        ["adoro", "me encanta"],
+        ["non mi piace / odio", "no me gusta / odio"],
+        ["nuotare, leggere, cucinare", "nadar, leer, cocinar"],
+        ["Ti piace...?", "¿Te gusta...?"],
       ],
       grammar: [
         ["El verbo “piacere” funciona al revés", "Como en español, con “piacere” lo que se disfruta es el sujeto gramatical. Con infinitivos siempre se usa la forma singular “piace”.", "Mi piace nuotare. / Mi piacciono i libri d'avventura."],
@@ -4221,11 +4221,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a hablar del futuro en italiano usando el presente para planes y el futuro simple para predicciones.",
     study: {
       vocab: [
-        ["sto per...", "I'm about to..."],
-        ["presente + espressione di tempo", "present tense + time expression (for plans)"],
-        ["futuro semplice (-erò, -irò...)", "future tense"],
-        ["penso che pioverà", "I think it will rain"],
-        ["cosa farai domani?", "what will you do tomorrow?"],
+        ["sto per...", "estoy a punto de..."],
+        ["presente + espressione di tempo", "presente + expresión temporal (para planes)"],
+        ["futuro semplice (-erò, -irò...)", "el tiempo futuro"],
+        ["penso che pioverà", "creo que va a llover"],
+        ["cosa farai domani?", "¿qué harás mañana?"],
       ],
       grammar: [
         ["Presente para planes vs futuro simple para predicciones", "El italiano usa a menudo el presente + expresión de tiempo para planes ya decididos; el futuro simple se reserva más para predicciones o incertidumbre.", "Visito i miei genitori la prossima settimana. / Penso che domani pioverà."],
@@ -4245,11 +4245,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a comparar personas y cosas en italiano usando comparativos y superlativos.",
     study: {
       vocab: [
-        ["più grande di, più piccolo di", "bigger than, smaller than"],
-        ["più caro di", "more expensive than"],
-        ["il/la migliore, il/la peggiore", "the best, the worst"],
-        ["tanto...quanto", "as...as"],
-        ["il/la più interessante", "the most interesting"],
+        ["più grande di, più piccolo di", "más grande que, más pequeño que"],
+        ["più caro di", "más caro que"],
+        ["il/la migliore, il/la peggiore", "el mejor, el peor"],
+        ["tanto...quanto", "tan... como"],
+        ["il/la più interessante", "el más interesante"],
       ],
       grammar: [
         ["Comparativos y superlativos regulares e irregulares", "“Più/meno + adjetivo + di” forma el comparativo; “il/la più + adjetivo” el superlativo. Irregular: buono→migliore, cattivo→peggiore.", "Questa macchina è più veloce di quella, ma quella rossa è la più veloce."],
@@ -4269,11 +4269,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a dar consejos y hablar de obligaciones en italiano.",
     study: {
       vocab: [
-        ["dovresti...", "you should..."],
-        ["non dovresti...", "you shouldn't..."],
-        ["devo...", "I must / I have to"],
-        ["non devi...", "you don't have to"],
-        ["è una buona idea...", "it's a good idea to..."],
+        ["dovresti...", "deberías..."],
+        ["non dovresti...", "no deberías..."],
+        ["devo...", "debo / tengo que"],
+        ["non devi...", "no tienes que"],
+        ["è una buona idea...", "es buena idea..."],
       ],
       grammar: [
         ["“Dovresti” (consejo) vs “devi” (obligación)", "“Dovresti” (condicional de “dovere”) da un consejo suave; “devi” expresa obligación; “non devi” significa que algo no es necesario, mientras que la prohibición se expresa con “non puoi”.", "Dovresti bere più acqua. / Devi indossare la cintura di sicurezza."],
@@ -4293,12 +4293,12 @@ window.LESSON_BANKS.IT = [
     description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en italiano.",
     study: {
       vocab: [
-        ["Pronto, sono...", "Hello, this is..."],
-        ["Posso parlare con...?", "Can I speak to...?"],
-        ["Posso lasciare un messaggio?", "Can I take/leave a message?"],
-        ["Un attimo, per favore.", "Hold on, please."],
-        ["Puoi richiamare più tardi?", "Can you call back later?"],
-        ["Ti richiamo.", "I'll call you back."],
+        ["Pronto, sono...", "Hola, soy..."],
+        ["Posso parlare con...?", "¿Puedo hablar con...?"],
+        ["Posso lasciare un messaggio?", "¿Puedo dejar/tomar un mensaje?"],
+        ["Un attimo, per favore.", "Espere un momento, por favor."],
+        ["Puoi richiamare più tardi?", "¿Puede volver a llamar más tarde?"],
+        ["Ti richiamo.", "Le devuelvo la llamada."],
       ],
       grammar: [
         ["Fórmulas fijas para el teléfono", "En italiano se responde al teléfono con “Pronto” y se identifica uno con “sono...”.", "Pronto, sono Laura. Posso parlare con il signor Rossi, per favore?"],
@@ -4318,11 +4318,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a hablar de cantidades en italiano distinguiendo sustantivos contables e incontables.",
     study: {
       vocab: [
-        ["un po' di, alcuni/alcune", "some, a few"],
-        ["Quanto/a...?", "How much...?"],
-        ["Quanti/e...?", "How many...?"],
-        ["molto/molti", "a lot of / much, many"],
-        ["poco/pochi", "little, few"],
+        ["un po' di, alcuni/alcune", "algunos, unos pocos"],
+        ["Quanto/a...?", "¿Cuánto...?"],
+        ["Quanti/e...?", "¿Cuántos...?"],
+        ["molto/molti", "mucho, muchos"],
+        ["poco/pochi", "poco, pocos"],
       ],
       grammar: [
         ["Contables vs incontables en italiano", "“Quanti/e” y “molti/e, pochi/e” concuerdan en género y número con sustantivos contables plurales; “quanto/a” y “molto/a, poco/a” con incontables en singular.", "Quante mele hai? / Quanta acqua c'è? / Ho pochi soldi con me."],
@@ -4342,11 +4342,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a combinar la forma progresiva del imperfecto con el passato prossimo para narrar interrupciones.",
     study: {
       vocab: [
-        ["stavo cucinando / stavano parlando", "I was cooking / they were talking"],
-        ["mentre, quando", "while, when"],
-        ["all'improvviso", "suddenly"],
-        ["è squillato il telefono", "the phone rang"],
-        ["nel mezzo di...", "in the middle of..."],
+        ["stavo cucinando / stavano parlando", "yo estaba cocinando / ellos hablaban"],
+        ["mentre, quando", "mientras, cuando"],
+        ["all'improvviso", "de repente"],
+        ["è squillato il telefono", "sonó el teléfono"],
+        ["nel mezzo di...", "en medio de..."],
       ],
       grammar: [
         ["“Stare” all'imperfetto + gerundio + passato prossimo", "El italiano tiene una forma progresiva similar al inglés: “stare” en imperfecto + gerundio para la acción de fondo, y el passato prossimo para la interrupción.", "Stavo cucinando la cena quando è squillato il telefono. / Mentre lei stava studiando, è arrivato il suo amico."],
@@ -4366,11 +4366,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en italiano.",
     study: {
       vocab: [
-        ["se avessi...", "if I had..."],
-        ["io -ei / io non -ei", "I would / I wouldn't"],
-        ["se fossi in te...", "if I were you..."],
-        ["cosa faresti se...?", "What would you do if...?"],
-        ["situazione immaginaria", "imaginary situation"],
+        ["se avessi...", "si tuviera..."],
+        ["io -ei / io non -ei", "yo lo haría / no lo haría"],
+        ["se fossi in te...", "yo que tú..."],
+        ["cosa faresti se...?", "¿Qué harías si...?"],
+        ["situazione immaginaria", "situación imaginaria"],
       ],
       grammar: [
         ["Se + congiuntivo imperfetto, condizionale presente", "Para situaciones hipotéticas poco probables, se usa “se” + congiuntivo imperfetto, seguido del condicional presente.", "Se avessi più tempo, viaggerei di più. / Se fossi in te, accetterei l'offerta."],
@@ -4390,11 +4390,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a expresar certeza, posibilidad y duda en italiano.",
     study: {
       vocab: [
-        ["deve essere", "must be (certeza alta)"],
-        ["potrebbe essere", "might/may be (posibilidad)"],
-        ["non può essere", "can't be (certeza negativa)"],
-        ["potrebbe darsi che", "could be (posibilidad)"],
-        ["sono sicuro/a / non sono sicuro/a", "I'm sure / I'm not sure"],
+        ["deve essere", "debe de ser (certeza alta)"],
+        ["potrebbe essere", "podría ser (posibilidad)"],
+        ["non può essere", "no puede ser (certeza negativa)"],
+        ["potrebbe darsi che", "podría ser (posibilidad)"],
+        ["sono sicuro/a / non sono sicuro/a", "estoy seguro / no estoy seguro"],
       ],
       grammar: [
         ["Grados de certeza en italiano", "“Dovere” en presente expresa una fuerte deducción; “potrebbe” expresa posibilidad, no certeza; “non può essere” expresa certeza negativa.", "Le luci sono spente, quindi devono dormire. / Potrebbe essere al lavoro, non sono sicuro."],
@@ -4414,11 +4414,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a contar en italiano lo que alguien dijo usando el discurso indirecto básico.",
     study: {
       vocab: [
-        ["ha detto che...", "he/she said (that)..."],
-        ["mi ha detto che...", "he/she told me (that)..."],
-        ["ha detto che era stanca", "she said she was tired"],
-        ["ha detto che avrebbe chiamato", "he said he would call"],
-        ["cambio di tempo verbale", "backshift"],
+        ["ha detto che...", "él/ella dijo (que)..."],
+        ["mi ha detto che...", "él/ella me dijo (que)..."],
+        ["ha detto che era stanca", "dijo que estaba cansada"],
+        ["ha detto che avrebbe chiamato", "dijo que llamaría"],
+        ["cambio di tempo verbale", "transposición de tiempos verbales (estilo indirecto)"],
       ],
       grammar: [
         ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a imperfecto, y el futuro se convierte en condicional pasado (“avrebbe + participio”).", "Diretto: «Sono stanca.» → Indiretto: Ha detto che era stanca. / Diretto: «Ti chiamerò.» → Indiretto: Ha detto che avrebbe chiamato."],
@@ -4438,11 +4438,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a describir procesos y secuencias de pasos en italiano usando conectores de orden.",
     study: {
       vocab: [
-        ["Prima...", "first..."],
-        ["Poi / Quindi...", "then / next..."],
-        ["Dopo di che...", "after that..."],
-        ["Infine...", "finally..."],
-        ["Una volta che hai..., ...", "once you have..., ..."],
+        ["Prima...", "primero..."],
+        ["Poi / Quindi...", "luego / después..."],
+        ["Dopo di che...", "después de eso..."],
+        ["Infine...", "finalmente..."],
+        ["Una volta che hai..., ...", "una vez que hayas..., ..."],
       ],
       grammar: [
         ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "Prima, compili il modulo. Poi, lo invii online. Infine, aspetti un'e-mail di conferma."],
@@ -4462,11 +4462,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar los pronombres relativos italianos: che, cui e il quale.",
     study: {
       vocab: [
-        ["che", "who/which/that – relativo general, invariable"],
-        ["cui", "whose/to whom – tras preposición"],
-        ["il quale/la quale", "which/who (formal, concuerda en género/número)"],
-        ["dove, quando", "where, when"],
-        ["l'uomo che ha chiamato", "the man who called"],
+        ["che", "que – relativo general, invariable"],
+        ["cui", "cuyo/a quien – tras preposición"],
+        ["il quale/la quale", "el cual/la cual (formal, concuerda en género/número)"],
+        ["dove, quando", "dónde, cuándo"],
+        ["l'uomo che ha chiamato", "el hombre que llamó"],
       ],
       grammar: [
         ["“Che”, “cui” e “il quale”", "“Che” es invariable y vale para personas y cosas como sujeto u objeto directo; “cui” se usa tras preposición o para posesión (“di cui”); “il quale” es más formal y concuerda en género y número.", "Il libro che ho comprato è fantastico. / La persona a cui ho scritto... / Lo scrittore il cui romanzo ha vinto..."],
@@ -4486,11 +4486,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende cuándo usar el gerundio y cuándo el infinitivo en italiano.",
     study: {
       vocab: [
-        ["stare + gerundio", "to be doing (progresivo)"],
+        ["stare + gerundio", "estar haciendo (progresivo)"],
         ["verbo + infinito", "verbo + infinitivo (patrón más común)"],
-        ["pur + gerundio", "although/while doing"],
-        ["continuare a + infinito", "to keep on doing"],
-        ["finire di + infinito", "to have just finished doing"],
+        ["pur + gerundio", "aunque/mientras hace"],
+        ["continuare a + infinito", "seguir haciendo"],
+        ["finire di + infinito", "acabar de terminar de hacer"],
       ],
       grammar: [
         ["El italiano usa mayormente infinitivo", "Como el francés, el italiano usa mayormente infinitivo tras los verbos; el gerundio se usa con “stare” para el progresivo, o con “pur” para expresar concesión.", "Sta imparando l'italiano. / Pur essendo stanco, ha continuato a lavorare."],
@@ -4510,11 +4510,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a expresar deseos y arrepentimiento en italiano.",
     study: {
       vocab: [
-        ["Vorrei + infinito", "I wish (deseo presente)"],
-        ["Avrei voluto + infinito passato", "I wish I had done (arrepentimiento)"],
-        ["Magari...", "If only..."],
-        ["Avrei dovuto + infinito", "I should have..."],
-        ["il rimpianto", "regret"],
+        ["Vorrei + infinito", "ojalá (deseo presente)"],
+        ["Avrei voluto + infinito passato", "ojalá hubiera hecho (arrepentimiento)"],
+        ["Magari...", "Ojalá..."],
+        ["Avrei dovuto + infinito", "debería haber..."],
+        ["il rimpianto", "el arrepentimiento"],
       ],
       grammar: [
         ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “vorrei + infinitivo”; para un arrepentimiento sobre el pasado, “avrei voluto + infinito passato” o “magari + congiuntivo trapassato”.", "Vorrei avere più tempo. / Avrei voluto studiare di più. / Magari avessi accettato il lavoro."],
@@ -4534,11 +4534,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a especular sobre el pasado en italiano con “dovere” y el condicional pasado.",
     study: {
       vocab: [
-        ["deve essere + participio", "must have (deducción)"],
-        ["può essere + participio", "might have (posibilidad)"],
-        ["non può essere + participio", "can't have (certeza negativa)"],
-        ["avrebbe dovuto + infinito", "should have (crítica/arrepentimiento)"],
-        ["non sono sicuro di cosa sia successo", "I'm not sure what happened"],
+        ["deve essere + participio", "debe de haber (deducción)"],
+        ["può essere + participio", "podría haber (posibilidad)"],
+        ["non può essere + participio", "no puede haber (certeza negativa)"],
+        ["avrebbe dovuto + infinito", "debería haber (crítica/arrepentimiento)"],
+        ["non sono sicuro di cosa sia successo", "no estoy seguro/a de qué pasó"],
       ],
       grammar: [
         ["“Dovere” para especular sobre el pasado", "“Dovere” en presente + infinito compuesto expresa una fuerte deducción sobre el pasado; “avrebbe dovuto + infinito” expresa crítica o arrepentimiento.", "Deve essere già partita; il suo cappotto è sparito. / Avresti dovuto chiamarmi prima."],
@@ -4559,7 +4559,7 @@ window.LESSON_BANKS.IT = [
     study: {
       vocab: [
         ["l'imperfetto per abitudini e stati", "imperfecto para hábitos/estados"],
-        ["solere + infinito", "to be used to / usually do"],
+        ["solere + infinito", "soler hacer"],
         ["una volta...", "antes / hace tiempo..."],
         ["da bambino/a...", "de niño/a..."],
         ["al giorno d'oggi", "hoy en día"],
@@ -4582,10 +4582,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en italiano.",
     study: {
       vocab: [
-        ["Mai avrei pensato...", "Never would I have thought..."],
-        ["Non solo..., ma anche...", "Not only... but also..."],
-        ["Solo dopo..., ...", "Only after..., ..."],
-        ["Appena...che...", "No sooner...than..."],
+        ["Mai avrei pensato...", "Nunca hubiera pensado..."],
+        ["Non solo..., ma anche...", "No solo... sino también..."],
+        ["Solo dopo..., ...", "Solo después de..., ..."],
+        ["Appena...che...", "Apenas... cuando..."],
         ["struttura enfatica", "estructura enfática"],
       ],
       grammar: [
@@ -4606,11 +4606,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar la frase escindida (“è...che”) para dar énfasis en italiano.",
     study: {
       vocab: [
-        ["È... che...", "It is... that... (énfasis)"],
-        ["Quello di cui ho bisogno è...", "What I need is..."],
-        ["Quello che mi ha sorpreso è stato...", "What surprised me was..."],
-        ["È stato/a + sostantivo + che", "It was + noun + that"],
-        ["enfasi tramite struttura", "emphasis through structure"],
+        ["È... che...", "Es... que... (énfasis)"],
+        ["Quello di cui ho bisogno è...", "Lo que necesito es..."],
+        ["Quello che mi ha sorpreso è stato...", "Lo que me sorprendió fue..."],
+        ["È stato/a + sostantivo + che", "Fue + sustantivo + que"],
+        ["enfasi tramite struttura", "énfasis mediante la estructura"],
       ],
       grammar: [
         ["“È...che” y “quello che/di cui...è”", "El italiano enfatiza un elemento con “è...che” (para cualquier elemento) o “quello che/di cui...è” para enfatizar con “lo que”.", "È stata Maria che ha risolto il problema. / Quello di cui ho bisogno è più tempo."],
@@ -4630,9 +4630,9 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a reducir cláusulas más largas usando construcciones de participio y gerundio en italiano.",
     study: {
       vocab: [
-        ["Avendo finito..., ...", "Having finished..., ..."],
-        ["Essendo consapevole di..., ...", "Being aware of..., ..."],
-        ["Non sapendo cosa fare, ...", "Not knowing what to do, ..."],
+        ["Avendo finito..., ...", "Habiendo terminado..., ..."],
+        ["Essendo consapevole di..., ...", "Siendo consciente de..., ..."],
+        ["Non sapendo cosa fare, ...", "Sin saber qué hacer, ..."],
         ["costruzione implicita", "construcción implícita"],
         ["riduce una proposizione più lunga", "reduce una cláusula más larga"],
       ],
@@ -4654,11 +4654,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende los patrones gramaticales de los verbos de reporte avanzados en italiano.",
     study: {
       vocab: [
-        ["suggerire che + congiuntivo", "suggest that + subjunctive"],
-        ["insistere perché + congiuntivo", "insist that + subjunctive"],
-        ["negare di + infinito passato", "deny doing"],
-        ["ammettere di + infinito passato", "admit doing"],
-        ["raccomandare che + congiuntivo", "recommend that + subjunctive"],
+        ["suggerire che + congiuntivo", "sugerir que + subjuntivo"],
+        ["insistere perché + congiuntivo", "insistir en que + subjuntivo"],
+        ["negare di + infinito passato", "negar haber hecho"],
+        ["ammettere di + infinito passato", "admitir haber hecho"],
+        ["raccomandare che + congiuntivo", "recomendar que + subjuntivo"],
       ],
       grammar: [
         ["Verbos de reporte que exigen subjuntivo o infinitivo pasado", "Verbos como “suggerire che”, “insistere perché” y “raccomandare che” exigen el subjuntivo; “negare” y “ammettere” van seguidos de “di + infinito passato” para una acción pasada.", "Ha suggerito che lui arrivasse presto. / Ha negato di aver rubato i soldi."],
@@ -4678,10 +4678,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a evitar repeticiones en italiano usando elipsis y expresiones sustitutas.",
     study: {
       vocab: [
-        ["Anch'io / Neanch'io", "So do I / Neither do I"],
-        ["farlo", "to do so"],
-        ["Credo di sì / Spero di no", "I think so / I hope not"],
-        ["lo stesso vale per...", "the same goes for..."],
+        ["Anch'io / Neanch'io", "Yo también / Yo tampoco"],
+        ["farlo", "hacerlo así"],
+        ["Credo di sì / Spero di no", "creo que sí / espero que no"],
+        ["lo stesso vale per...", "lo mismo vale para..."],
         ["omettere le parole ripetute", "omitir palabras repetidas"],
       ],
       grammar: [
@@ -4702,10 +4702,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar la nominalización para lograr un registro académico y formal en italiano.",
     study: {
       vocab: [
-        ["ridurre → la riduzione", "reduce → reduction"],
-        ["decidere → la decisione", "decide → decision"],
-        ["analizzare → l'analisi", "analyze → analysis"],
-        ["È importante considerare...", "It is important to consider..."],
+        ["ridurre → la riduzione", "reducir → reducción"],
+        ["decidere → la decisione", "decidir → decisión"],
+        ["analizzare → l'analisi", "analizar → análisis"],
+        ["È importante considerare...", "Es importante considerar..."],
         ["registro accademico/formale", "registro académico/formal"],
       ],
       grammar: [
@@ -4726,11 +4726,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a anteponer objetos y complementos para dar énfasis en italiano.",
     study: {
       vocab: [
-        ["Questo non posso accettarlo.", "This I cannot accept."],
-        ["Tale era la sua determinazione che...", "Such was her determination that..."],
-        ["Poco sapeva che...", "Little did he know..."],
-        ["Colui che ammiro di più è...", "The one I admire most is..."],
-        ["tematizzazione", "topicalization"],
+        ["Questo non posso accettarlo.", "Esto no puedo aceptarlo."],
+        ["Tale era la sua determinazione che...", "Tal fue su determinación que..."],
+        ["Poco sapeva che...", "Poco sabía él..."],
+        ["Colui che ammiro di più è...", "El que más admiro es..."],
+        ["tematizzazione", "tematización"],
       ],
       grammar: [
         ["Anteposición retomada con pronombre clítico", "El italiano permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre clítico (“questo non posso accettarlo”).", "Questo non posso accettarlo. / Tale era il caos che la riunione è stata annullata."],
@@ -4750,11 +4750,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a matizar tus afirmaciones en italiano con adverbios de actitud avanzados.",
     study: {
       vocab: [
-        ["si potrebbe dire che", "arguably"],
-        ["apparentemente", "ostensibly"],
-        ["presuntamente", "purportedly"],
-        ["innegabilmente", "undeniably"],
-        ["presumibilmente", "presumably"],
+        ["si potrebbe dire che", "podría decirse que"],
+        ["apparentemente", "aparentemente"],
+        ["presuntamente", "supuestamente"],
+        ["innegabilmente", "innegablemente"],
+        ["presumibilmente", "presuntamente"],
       ],
       grammar: [
         ["Los adverbios de actitud matizan el compromiso del hablante", "Los adverbios de actitud muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La politica è stata, si potrebbe dire, un fallimento. / Era apparentemente lì per aiutare, ma aveva altri motivi."],
@@ -4774,10 +4774,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar sintagmas nominales complejos típicos del italiano académico.",
     study: {
       vocab: [
-        ["il grado in cui...", "the extent to which..."],
-        ["un numero crescente di prove", "a growing body of evidence"],
-        ["le cause sottostanti di...", "the underlying causes of..."],
-        ["un'ampia gamma di fattori", "a wide range of factors"],
+        ["il grado in cui...", "el grado en que..."],
+        ["un numero crescente di prove", "un creciente cuerpo de evidencia"],
+        ["le cause sottostanti di...", "las causas subyacentes de..."],
+        ["un'ampia gamma di fattori", "una amplia gama de factores"],
         ["postmodificazione", "posmodificación"],
       ],
       grammar: [
@@ -4798,10 +4798,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende recursos de cohesión textual avanzados en italiano para evitar la redundancia.",
     study: {
       vocab: [
-        ["il primo / il secondo (menzionati)", "the former / the latter"],
-        ["un tale/una tale...", "such a/an..."],
-        ["il/la summenzionato/a", "the aforementioned"],
-        ["detto questo...", "that being said..."],
+        ["il primo / il secondo (menzionati)", "el primero / el segundo"],
+        ["un tale/una tale...", "tal..."],
+        ["il/la summenzionato/a", "lo antes mencionado"],
+        ["detto questo...", "dicho esto..."],
         ["elemento di coesione testuale", "recurso de cohesión textual"],
       ],
       grammar: [
@@ -4822,11 +4822,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a dar instrucciones y consejos directos en italiano con el imperativo.",
     study: {
       vocab: [
-        ["Apri la porta.", "Open the door."],
-        ["Chiudi la finestra.", "Close the window."],
-        ["Gira a sinistra / a destra.", "Turn left / right."],
-        ["Non toccare questo.", "Don't touch that."],
-        ["Siediti, per favore.", "Please, sit down."],
+        ["Apri la porta.", "Abre la puerta."],
+        ["Chiudi la finestra.", "Cierra la ventana."],
+        ["Gira a sinistra / a destra.", "Gira a la izquierda / derecha."],
+        ["Non toccare questo.", "No toques eso."],
+        ["Siediti, per favore.", "Por favor, siéntate."],
       ],
       grammar: [
         ["Imperativo tu vs imperativo negativo con infinito", "El imperativo informal (tu) para los verbos en -are cambia la terminación a -a; el imperativo negativo usa “non + infinito”, no la forma conjugada.", "Apri la porta. / Non toccare questo. / Aspetta qui, per favore."],
@@ -4846,11 +4846,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar questo y quello en italiano, y cómo cambia 'quello' según el sustantivo.",
     study: {
       vocab: [
-        ["questo/questa", "this (cerca)"],
-        ["quello/quella", "that (lejos)"],
-        ["questi/queste", "these"],
-        ["quelli/quelle", "those"],
-        ["Che cos'è questo?", "What is this?"],
+        ["questo/questa", "este (cerca)"],
+        ["quello/quella", "aquel (lejos)"],
+        ["questi/queste", "estos/estas"],
+        ["quelli/quelle", "aquellos/aquellas"],
+        ["Che cos'è questo?", "¿Qué es esto?"],
       ],
       grammar: [
         ["“Quello” cambia como el artículo definido", "“Quello” se comporta como el artículo definido combinado antes de un sustantivo (quel libro, quello studente, quell'amico, quella casa), cambiando de forma según la primera letra del sustantivo.", "Questo è il mio telefono. / Quelli sono i miei amici, laggiù."],
@@ -4870,9 +4870,9 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar las preposiciones de tiempo a, in y di en italiano.",
     study: {
       vocab: [
-        ["alle + ora", "at + hora (alle 9)"],
-        ["in + mese/stagione", "in + mes/estación (in luglio)"],
-        ["di + giorno della settimana (abitudine)", "on + día (hábito repetido)"],
+        ["alle + ora", "a + hora (alle 9)"],
+        ["in + mese/stagione", "en + mes/estación (in luglio)"],
+        ["di + giorno della settimana (abitudine)", "el/de + día de la semana (hábito repetido)"],
         ["di notte", "de noche"],
         ["di mattina/pomeriggio/sera", "por la mañana/tarde/noche"],
       ],
@@ -4894,11 +4894,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar los adverbios de frecuencia en italiano.",
     study: {
       vocab: [
-        ["sempre", "always"],
-        ["di solito", "usually"],
-        ["a volte", "sometimes"],
-        ["raramente", "rarely"],
-        ["mai", "never"],
+        ["sempre", "siempre"],
+        ["di solito", "normalmente"],
+        ["a volte", "a veces"],
+        ["raramente", "raramente"],
+        ["mai", "nunca"],
       ],
       grammar: [
         ["El adverbio suele ir después del verbo", "Los adverbios de frecuencia suelen ir después del verbo conjugado en italiano; “mai” con verbos en tiempos simples requiere “non” antes del verbo (non... mai).", "Bevo sempre il caffè la mattina. / Non è mai in ritardo."],
@@ -4918,11 +4918,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a expresar posesión en italiano con la preposición “di”.",
     study: {
       vocab: [
-        ["il libro di Anna", "Anna's book"],
-        ["i giocattoli dei bambini", "the children's toys"],
-        ["Di chi è questo?", "Whose is this?"],
-        ["È di Anna.", "It's Anna's."],
-        ["la casa dei miei genitori", "my parents' house"],
+        ["il libro di Anna", "el libro de Ana"],
+        ["i giocattoli dei bambini", "los juguetes de los niños"],
+        ["Di chi è questo?", "¿De quién es esto?"],
+        ["È di Anna.", "Es de Ana."],
+        ["la casa dei miei genitori", "la casa de mis padres"],
       ],
       grammar: [
         ["“Di + poseedor”, con contracciones (dei, del...)", "A diferencia del inglés (Anna's book), el italiano siempre expresa la posesión con “di + poseedor”, después del objeto poseído; “di + i” se contrae en “dei”.", "Questo è il libro di Anna. / La casa dei miei genitori è grande."],
@@ -4943,10 +4943,10 @@ window.LESSON_BANKS.IT = [
     study: {
       vocab: [
         ["mi, ti, si, ci, vi, si", "pronombres reflexivos"],
-        ["alzarsi", "to get (oneself) up"],
-        ["farsi la doccia", "to shower (oneself)"],
-        ["Mi sono tagliato cucinando.", "I cut myself while cooking."],
-        ["da solo/a", "by myself"],
+        ["alzarsi", "levantarse"],
+        ["farsi la doccia", "ducharse"],
+        ["Mi sono tagliato cucinando.", "Me corté mientras cocinaba."],
+        ["da solo/a", "yo solo/a"],
       ],
       grammar: [
         ["Reflexivos con “essere” en el passato prossimo", "Muchos verbos italianos son reflexivos por naturaleza (alzarsi, farsi la doccia) y en el passato prossimo usan siempre “essere”, concordando el participio con el sujeto.", "Mi alzo alle sette. / Lei si fa la doccia la mattina."],
@@ -4966,11 +4966,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar los pronombres de objeto directo en italiano.",
     study: {
       vocab: [
-        ["lo/la", "him/her/it (COD)"],
-        ["li/le", "them (COD, masc./fem.)"],
-        ["mi, ti, ci, vi", "me, you, us, you all"],
-        ["Puoi aiutarmi?", "Can you help me?"],
-        ["L'ho visto ieri.", "I saw him/it yesterday."],
+        ["lo/la", "lo/la (complemento directo)"],
+        ["li/le", "los/las (complemento directo, masc./fem.)"],
+        ["mi, ti, ci, vi", "me, te, nos, os"],
+        ["Puoi aiutarmi?", "¿Puedes ayudarme?"],
+        ["L'ho visto ieri.", "Lo vi ayer."],
       ],
       grammar: [
         ["El pronombre COD va antes del verbo, con concordancia en el passato prossimo", "Los pronombres de objeto directo (lo, la, li, le) concuerdan en género y número con el sustantivo que reemplazan, y van ANTES del verbo conjugado; en el passato prossimo, el participio concuerda con lo/la/li/le.", "Ho visto mia sorella ieri. → L'ho vista ieri. / Hanno comprato la macchina. → L'hanno comprata."],
@@ -4990,11 +4990,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar el presente para horarios fijos en italiano.",
     study: {
       vocab: [
-        ["Il treno parte alle 15.", "The train leaves at 3pm. (orario fisso)"],
-        ["Il film inizia alle 20.", "The movie starts at 8pm."],
-        ["un orario/programma fisso", "a fixed schedule/timetable"],
-        ["Il negozio chiude alle 18.", "The store closes at 6pm."],
-        ["A che ora parte l'autobus?", "What time does the bus leave?"],
+        ["Il treno parte alle 15.", "El tren sale a las 3. (horario fijo)"],
+        ["Il film inizia alle 20.", "La película empieza a las 8 de la tarde."],
+        ["un orario/programma fisso", "un horario fijo"],
+        ["Il negozio chiude alle 18.", "La tienda cierra a las 6 de la tarde."],
+        ["A che ora parte l'autobus?", "¿A qué hora sale el autobús?"],
       ],
       grammar: [
         ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados.", "Il treno parte alle 15. / Il film inizia alle 20."],
@@ -5014,11 +5014,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a hacer sugerencias en italiano.",
     study: {
       vocab: [
-        ["Perché non + presente?", "Why don't we...?"],
-        ["E se + congiuntivo imperfetto?", "What if we...?"],
-        ["Che ne dici di + infinito?", "How about...?"],
-        ["Potremmo + infinito.", "We could..."],
-        ["Buona idea!", "That sounds good!"],
+        ["Perché non + presente?", "¿Por qué no...?"],
+        ["E se + congiuntivo imperfetto?", "¿Y si...?"],
+        ["Che ne dici di + infinito?", "¿Qué tal...?"],
+        ["Potremmo + infinito.", "Podríamos..."],
+        ["Buona idea!", "¡Suena bien!"],
       ],
       grammar: [
         ["Congiuntivo imperfetto tras “e se”", "“Perché non” va seguido del presente indicativo; “e se” para sugerir algo usa el congiuntivo imperfetto; “che ne dici di” va seguido de infinitivo.", "Perché non ordiniamo una pizza? / E se andassimo alla spiaggia? / Che ne dici di guardare un film?"],
@@ -5038,11 +5038,11 @@ window.LESSON_BANKS.IT = [
     description:"Aprende verbos italianos con preposición fija.",
     study: {
       vocab: [
-        ["smettere di + infinito", "to stop doing"],
-        ["tenere", "to keep"],
-        ["notare", "to notice"],
-        ["contare su", "to count on"],
-        ["accorgersi di", "to realize"],
+        ["smettere di + infinito", "dejar de hacer"],
+        ["tenere", "conservar"],
+        ["notare", "notar"],
+        ["contare su", "contar con"],
+        ["accorgersi di", "darse cuenta"],
       ],
       grammar: [
         ["Verbo + preposición fija cambia el significado", "Algunos verbos italianos van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "Ho smesso di fumare l'anno scorso. / Ho notato la sua nuova giacca. / Puoi contare su di me."],
@@ -5062,10 +5062,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende la diferencia entre el periodo ipotetico tipo 0 y tipo 1 en italiano.",
     study: {
       vocab: [
-        ["Se + presente, presente (tipo 0)", "zero conditional – verdades generales"],
-        ["Se + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
-        ["Quando l'acqua bolle, evapora.", "ejemplo de periodo ipotetico tipo 0"],
-        ["Se piove, resterò a casa.", "ejemplo de periodo ipotetico tipo 1"],
+        ["Se + presente, presente (tipo 0)", "condicional cero – verdades generales"],
+        ["Se + presente, futuro (tipo 1)", "primer condicional – posibilidad real"],
+        ["Quando l'acqua bolle, evapora.", "ejemplo de periodo hipotético tipo 0"],
+        ["Se piove, resterò a casa.", "ejemplo de periodo hipotético tipo 1"],
         ["possibilità reale", "posibilidad real"],
       ],
       grammar: [
@@ -5088,8 +5088,8 @@ window.LESSON_BANKS.IT = [
       vocab: [
         ["essere + participio passato (passivo)", "voz pasiva con ‘essere’"],
         ["da + agente (facoltativo)", "por + agente (opcional)"],
-        ["La lettera è stata inviata.", "The letter was sent."],
-        ["Qui si parla inglese.", "English is spoken here."],
+        ["La lettera è stata inviata.", "La carta fue enviada."],
+        ["Qui si parla inglese.", "Aquí se habla inglés."],
         ["l'accordo del participio", "concordancia del participio"],
       ],
       grammar: [
@@ -5110,10 +5110,10 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a usar coletillas de confirmación en italiano.",
     study: {
       vocab: [
-        ["..., vero?", "..., isn't it? (neutro/común)"],
-        ["..., no?", "..., isn't it? (informal)"],
-        ["..., giusto?", "..., right?"],
-        ["..., d'accordo?", "..., okay? (pedir acuerdo)"],
+        ["..., vero?", "..., ¿verdad? (neutro/común)"],
+        ["..., no?", "..., ¿no? (informal)"],
+        ["..., giusto?", "..., ¿no?"],
+        ["..., d'accordo?", "..., ¿vale? (pedir acuerdo)"],
         ["confermare un'informazione", "confirmar información"],
       ],
       grammar: [
@@ -5134,9 +5134,9 @@ window.LESSON_BANKS.IT = [
     description:"Aprende a formular preguntas indirectas y corteses en italiano.",
     study: {
       vocab: [
-        ["Potrebbe dirmi dove...?", "Could you tell me where...?"],
-        ["Sa se...?", "Do you know if...?"],
-        ["Mi chiedo cosa...", "I wonder what..."],
+        ["Potrebbe dirmi dove...?", "¿Podría decirme dónde...?"],
+        ["Sa se...?", "¿Sabe si...?"],
+        ["Mi chiedo cosa...", "Me pregunto qué..."],
         ["senza inversione, con 'se' per sì/no", "sin inversión, con 'se' para sí/no"],
         ["richiesta cortese", "petición cortés"],
       ],
@@ -5160,9 +5160,9 @@ window.LESSON_BANKS.IT = [
       vocab: [
         ["ho/hai + participio passato", "acción pasada completada – resultado"],
         ["presente + da", "duración de una acción que sigue en curso"],
-        ["Da quanto tempo...?", "How long have you been...?"],
-        ["da / già", "since/for / already"],
-        ["Aspetto già da un'ora.", "I've been waiting for an hour."],
+        ["Da quanto tempo...?", "¿Cuánto tiempo llevas...?"],
+        ["da / già", "desde / desde hace / ya"],
+        ["Aspetto già da un'ora.", "Llevo una hora esperando."],
       ],
       grammar: [
         ["Sin “present perfect continuous”: presente + da", "El italiano no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “da”, no una forma compuesta.", "Ho letto tre libri questo mese. (resultado) / Aspetto già da un'ora. (duración, en presente)"],

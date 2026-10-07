@@ -9,11 +9,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a saludar y presentarte en francés.",
     study: {
       vocab: [
-        ["Bonjour / Bonsoir", "Good morning / Good evening"],
-        ["Salut / Au revoir", "Hi / Goodbye", "\"Salut\" es informal."],
-        ["Enchanté(e)!", "Nice to meet you!"],
-        ["Je m'appelle...", "My name is..."],
-        ["Comment ça va?", "How are you?", "Respuesta: \"Ça va bien, merci\""]
+        ["Bonjour / Bonsoir", "Buenos días / Buenas tardes"],
+        ["Salut / Au revoir", "Hola / Adiós", "\"Salut\" es informal."],
+        ["Enchanté(e)!", "¡Encantado/a de conocerte!"],
+        ["Je m'appelle...", "Me llamo..."],
+        ["Comment ça va?", "¿Cómo estás?", "Respuesta: \"Ça va bien, merci\""]
       ],
       grammar: [
         ["El verbo \"être\" (ser/estar)", "Je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.", "Je suis professeur. Elle est de Paris."]
@@ -33,10 +33,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende números del 1 al 20 y colores básicos en francés.",
     study: {
       vocab: [
-        ["un, deux, trois... vingt", "one, two, three... twenty"],
-        ["rouge, bleu, vert, jaune", "red, blue, green, yellow"],
-        ["blanc, noir", "white, black"],
-        ["J'ai ___ ans", "I am ___ years old", "Se usa el verbo \"avoir\" (tener), no \"être\"."]
+        ["un, deux, trois... vingt", "uno, dos, tres... veinte"],
+        ["rouge, bleu, vert, jaune", "rojo, azul, verde, amarillo"],
+        ["blanc, noir", "blanco, negro"],
+        ["J'ai ___ ans", "Tengo ___ años", "Se usa el verbo \"avoir\" (tener), no \"être\"."]
       ],
       grammar: [
         ["Concordancia de género en los colores", "Los adjetivos de color concuerdan en género (masculino/femenino) con el sustantivo.", "un chat noir / une voiture noire."]
@@ -56,9 +56,9 @@ window.LESSON_BANKS.FR = [
     description:"Los dos verbos más importantes del francés: ser/estar y tener.",
     study: {
       vocab: [
-        ["être", "to be", "Identidad, características."],
-        ["avoir", "to have", "También se usa para la edad."],
-        ["étudiant, professeur", "student, teacher"]
+        ["être", "ser/estar", "Identidad, características."],
+        ["avoir", "tener/haber", "También se usa para la edad."],
+        ["étudiant, professeur", "estudiante, profesor"]
       ],
       grammar: [
         ["Être vs. Avoir", "\"Être\" (ser/estar) y \"avoir\" (tener) son los dos verbos más comunes. La edad se expresa con \"avoir\", no \"être\".", "Je suis étudiant. / J'ai vingt ans."]
@@ -78,11 +78,11 @@ window.LESSON_BANKS.FR = [
     description:"Vocabulario de familia y de la casa en francés.",
     study: {
       vocab: [
-        ["père, mère", "father, mother"],
-        ["frère, sœur", "brother, sister"],
-        ["fils, fille", "son, daughter"],
-        ["chambre, cuisine, salon", "bedroom, kitchen, living room"],
-        ["salle de bain, jardin", "bathroom, garden"]
+        ["père, mère", "padre, madre"],
+        ["frère, sœur", "hermano, hermana"],
+        ["fils, fille", "hijo, hija"],
+        ["chambre, cuisine, salon", "dormitorio, cocina, salón"],
+        ["salle de bain, jardin", "baño, jardín"]
       ],
       grammar: [
         ["Adjetivos posesivos", "Mon/ma/mes, ton/ta/tes, son/sa/ses concuerdan en género y número con el objeto poseído (no con el poseedor).", "Mon père (masc.) / Ma mère (fem.) / Mes parents (plural)."]
@@ -102,11 +102,11 @@ window.LESSON_BANKS.FR = [
     description:"Pide comida y desenvuélvete en un restaurante en francés.",
     study: {
       vocab: [
-        ["le menu", "the menu"],
-        ["Je voudrais...", "I would like...", "Forma cortés de pedir."],
-        ["l'addition, s'il vous plaît", "the bill, please"],
-        ["l'eau, le pain", "water, bread"],
-        ["délicieux/délicieuse", "delicious"]
+        ["le menu", "el menú"],
+        ["Je voudrais...", "Me gustaría...", "Forma cortés de pedir."],
+        ["l'addition, s'il vous plaît", "la cuenta, por favor"],
+        ["l'eau, le pain", "agua, pan"],
+        ["délicieux/délicieuse", "delicioso"]
       ],
       grammar: [
         ["\"Je voudrais\" para pedir con cortesía", "\"Je voudrais\" (condicional de vouloir) es más educado que \"je veux\" al pedir algo.", "Je voudrais un café, s'il vous plaît. (Más cortés que \"Je veux un café\".)"]
@@ -126,11 +126,11 @@ window.LESSON_BANKS.FR = [
     description:"Habla sobre tu día: mañana, tarde y noche en francés.",
     study: {
       vocab: [
-        ["se réveiller", "to wake up"],
-        ["se lever", "to get up"],
-        ["prendre le petit-déjeuner / déjeuner / dîner", "to have breakfast/lunch/dinner"],
-        ["aller au travail", "to go to work"],
-        ["tous les jours", "every day"]
+        ["se réveiller", "despertarse"],
+        ["se lever", "levantarse"],
+        ["prendre le petit-déjeuner / déjeuner / dîner", "desayunar/almorzar/cenar"],
+        ["aller au travail", "ir al trabajo"],
+        ["tous les jours", "todos los días"]
       ],
       grammar: [
         ["Verbos reflexivos (pronominales) en presente", "Verbos como \"se réveiller\" y \"se lever\" llevan un pronombre reflexivo (me, te, se...) que cambia según la persona.", "Je me réveille à 7h. / Elle se lève tôt."]
@@ -150,12 +150,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a comprar ropa, preguntar precios y tallas en francés.",
     study: {
       vocab: [
-        ["la chemise, le t-shirt", "shirt, t-shirt"],
-        ["le pantalon, la jupe", "pants, skirt"],
-        ["les chaussures", "shoes"],
-        ["Combien ça coûte ?", "How much does it cost?"],
-        ["la taille", "size"],
-        ["essayer (quelque chose)", "to try on (something)"]
+        ["la chemise, le t-shirt", "camisa, camiseta"],
+        ["le pantalon, la jupe", "pantalón, falda"],
+        ["les chaussures", "zapatos"],
+        ["Combien ça coûte ?", "¿Cuánto cuesta?"],
+        ["la taille", "la talla"],
+        ["essayer (quelque chose)", "probarse (algo)"]
       ],
       grammar: [
         ["Comparatifs: plus/moins...que", "Se usan para comparar dos cosas.", "Cette chemise est plus chère que celle-là."],
@@ -176,10 +176,10 @@ window.LESSON_BANKS.FR = [
     description:"Habla del clima y las estaciones del año en francés.",
     study: {
       vocab: [
-        ["il fait chaud / froid", "it's hot / cold"],
-        ["il pleut, il neige", "it rains, it snows"],
-        ["l'été, l'hiver, le printemps, l'automne", "summer, winter, spring, autumn"],
-        ["il fait nuageux / ensoleillé", "it's cloudy / sunny"]
+        ["il fait chaud / froid", "hace calor / frío"],
+        ["il pleut, il neige", "llueve, nieva"],
+        ["l'été, l'hiver, le printemps, l'automne", "verano, invierno, primavera, otoño"],
+        ["il fait nuageux / ensoleillé", "está nublado / hace sol"]
       ],
       grammar: [
         ["Verbes impersonnels de la météo", "\"Il\" impersonal + verbo, sin sujeto real.", "Il fait très chaud aujourd'hui. Il pleut."],
@@ -200,10 +200,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a hablar de acciones terminadas en el pasado con el passé composé.",
     study: {
       vocab: [
-        ["hier, hier soir, la semaine dernière", "yesterday, last night, last week"],
-        ["j'ai mangé, tu as mangé, il/elle a mangé", "I ate, you ate, he/she ate"],
-        ["je suis allé(e), tu es allé(e)", "I went, you went"],
-        ["Qu'est-ce que tu as fait ?", "What did you do?"]
+        ["hier, hier soir, la semaine dernière", "ayer, anoche, la semana pasada"],
+        ["j'ai mangé, tu as mangé, il/elle a mangé", "yo comí, tú comiste, él/ella comió"],
+        ["je suis allé(e), tu es allé(e)", "yo fui, tú fuiste"],
+        ["Qu'est-ce que tu as fait ?", "¿Qué hiciste?"]
       ],
       grammar: [
         ["Le passé composé avec \"avoir\"", "Sujeto + avoir (conjugado) + participio pasado.", "J'ai mangé une pomme. Tu as parlé."],
@@ -224,10 +224,10 @@ window.LESSON_BANKS.FR = [
     description:"Extrais des informations pratiques d'avis et de messages courants.",
     study:{
       vocab:[
-        ["disponible sur demande","available on request"],
-        ["sous réserve de modification","subject to change"],
-        ["remplir les conditions","to be eligible"],
-        ["la date limite","deadline"]
+        ["disponible sur demande", "disponible a petición"],
+        ["sous réserve de modification", "sujeto a cambios"],
+        ["remplir les conditions", "cumplir los requisitos"],
+        ["la date limite", "el plazo límite"]
       ],
       grammar:[
         ["Lecture sélective","Cherche d'abord le but du texte, la condition et l'action requise.","Les réservations ne sont confirmées qu'après réception du paiement."]
@@ -245,10 +245,10 @@ window.LESSON_BANKS.FR = [
     description:"Distingue faits, préférences et raisons dans des conversations courantes.",
     study:{
       vocab:[
-        ["je préférerais","I would rather"],
-        ["il s'avère que","it turns out"],
-        ["ça vaut le coup","it's worth it"],
-        ["décourager quelqu'un","to put someone off"]
+        ["je préférerais", "preferiría"],
+        ["il s'avère que", "resulta que"],
+        ["ça vaut le coup", "vale la pena"],
+        ["décourager quelqu'un", "desanimar a alguien"]
       ],
       grammar:[
         ["Opinion justifiée","Une réponse B1 doit inclure une opinion et une raison.","Je préférerais voyager en train parce que je peux travailler pendant le trajet."]
@@ -266,10 +266,10 @@ window.LESSON_BANKS.FR = [
     description:"Raconte des expériences passées en combinant passé composé et imparfait.",
     study:{
       vocab:[
-        ["au début","at first"],
-        ["finalement","eventually"],
-        ["de façon inattendue","unexpectedly"],
-        ["se rendre compte","to realise"]
+        ["au début", "al principio"],
+        ["finalement", "con el tiempo"],
+        ["de façon inattendue", "inesperadamente"],
+        ["se rendre compte", "darse cuenta"]
       ],
       grammar:[
         ["Passé composé vs. imparfait","L'imparfait décrit le contexte ou une action en cours ; le passé composé raconte des actions terminées.","Pendant que nous attendions le bus, il a commencé à pleuvoir."]
@@ -287,10 +287,10 @@ window.LESSON_BANKS.FR = [
     description:"Propose des options, réagis aux idées des autres et négocie une décision.",
     study:{
       vocab:[
-        ["et si...?","shall we...?"],
-        ["je comprends ton point de vue","I see your point"],
-        ["et pourquoi pas...?","how about...?"],
-        ["un compromis","a compromise"]
+        ["et si...?", "¿qué tal si...?"],
+        ["je comprends ton point de vue", "entiendo tu punto"],
+        ["et pourquoi pas...?", "¿qué tal...?"],
+        ["un compromis", "un término medio"]
       ],
       grammar:[
         ["Langage de collaboration","Pour négocier : proposer, répondre et chercher une alternative partagée.","Je comprends ton point de vue sur le coût ; et pourquoi pas choisir l'option la moins chère ?"]
@@ -308,10 +308,10 @@ window.LESSON_BANKS.FR = [
     description:"Parle de projets, d'intentions et de prévisions avec différentes formes de futur.",
     study:{
       vocab:[
-        ["j'ai l'intention de","I intend to"],
-        ["bientôt","soon"],
-        ["dès que je peux","as soon as I can"],
-        ["il est possible que","it's possible that"]
+        ["j'ai l'intention de", "tengo la intención de"],
+        ["bientôt", "pronto"],
+        ["dès que je peux", "tan pronto como pueda"],
+        ["il est possible que", "es posible que"]
       ],
       grammar:[
         ["Futur proche vs. futur simple","\"Aller + infinitif\" exprime un projet déjà décidé ; le futur simple exprime une prédiction ou une décision spontanée.","Je vais déménager le mois prochain. / Je pense qu'il pleuvra demain."]
@@ -329,10 +329,10 @@ window.LESSON_BANKS.FR = [
     description:"Formule des plaintes et des demandes formelles avec le conditionnel de politesse.",
     study:{
       vocab:[
-        ["je voudrais","I would like"],
-        ["pourriez-vous...?","could you...?"],
-        ["je regrette de vous informer","I regret to inform you"],
-        ["déposer une plainte","to file a complaint"]
+        ["je voudrais", "me gustaría"],
+        ["pourriez-vous...?", "¿podrías...?"],
+        ["je regrette de vous informer", "lamento informarle"],
+        ["déposer une plainte", "presentar una queja"]
       ],
       grammar:[
         ["Conditionnel de politesse","\"Voudrais\" et \"pourriez\" adoucissent les demandes et les plaintes formelles.","Je voudrais savoir pourquoi la commande est arrivée en retard."]
@@ -350,10 +350,10 @@ window.LESSON_BANKS.FR = [
     description:"Exprime des hypothèses peu probables ou irréelles avec si + imparfait.",
     study:{
       vocab:[
-        ["si j'avais","if I had"],
-        ["au cas où","in case"],
-        ["à moins que","unless"],
-        ["en supposant que","assuming that"]
+        ["si j'avais", "si tuviera"],
+        ["au cas où", "por si acaso"],
+        ["à moins que", "a menos que"],
+        ["en supposant que", "suponiendo que"]
       ],
       grammar:[
         ["Hypothèse irréelle (type 2)","Pour des hypothèses peu probables au présent : si + imparfait, conditionnel présent dans la principale.","Si j'avais plus de temps, je voyagerais plus souvent."]
@@ -371,10 +371,10 @@ window.LESSON_BANKS.FR = [
     description:"Rapporte ce que d'autres ont dit en adaptant temps verbaux et marqueurs temporels.",
     study:{
       vocab:[
-        ["il a dit que","he said that"],
-        ["elle a expliqué que","she explained that"],
-        ["il a demandé si","he asked whether"],
-        ["elle a ajouté que","she added that"]
+        ["il a dit que", "él dijo que"],
+        ["elle a expliqué que", "ella explicó que"],
+        ["il a demandé si", "él preguntó si"],
+        ["elle a ajouté que", "ella añadió que"]
       ],
       grammar:[
         ["Discours indirect","Au passé, le futur devient conditionnel et le présent devient souvent imparfait.","Elle a dit : « J'arriverai en retard. » → Elle a dit qu'elle arriverait en retard."]
@@ -392,10 +392,10 @@ window.LESSON_BANKS.FR = [
     description:"Décris des processus et des faits sans insister sur qui les réalise.",
     study:{
       vocab:[
-        ["être + participe passé","to be + past participle (passive)"],
-        ["on + verbe","impersonal 'one' construction"],
-        ["être mené à bien","to be carried out"],
-        ["être chargé de","to be in charge of"]
+        ["être + participe passé", "ser + participio (pasiva)"],
+        ["on + verbe", "construcción impersonal con 'se'"],
+        ["être mené à bien", "llevarse a cabo"],
+        ["être chargé de", "estar a cargo de"]
       ],
       grammar:[
         ["Voix passive et construction avec 'on'","La voix passive met l'accent sur l'action ou le résultat ; 'on' est une alternative naturelle et informelle quand l'agent n'est pas important.","Le projet a été approuvé par le comité. / On a approuvé le projet."]
@@ -413,10 +413,10 @@ window.LESSON_BANKS.FR = [
     description:"Distingue quand utiliser le subjonctif ou l'indicatif selon le degré de certitude.",
     study:{
       vocab:[
-        ["je doute que","I doubt that"],
-        ["je ne pense pas que","I don't think that"],
-        ["il est probable que","it's likely that"],
-        ["il se peut que","it might be that"]
+        ["je doute que", "dudo que"],
+        ["je ne pense pas que", "no creo que"],
+        ["il est probable que", "es probable que"],
+        ["il se peut que", "podría ser que"]
       ],
       grammar:[
         ["Subjonctif avec le doute et la probabilité","Les verbes et expressions de doute ou de négation de certitude demandent le subjonctif dans la subordonnée.","Je doute que le projet soit prêt pour vendredi."]
@@ -434,10 +434,10 @@ window.LESSON_BANKS.FR = [
     description:"Utilise 'bien que' et d'autres connecteurs pour nuancer des idées et contraster des faits.",
     study:{
       vocab:[
-        ["bien que","although"],
-        ["malgré","despite"],
-        ["cependant","however"],
-        ["néanmoins","nevertheless"]
+        ["bien que", "aunque"],
+        ["malgré", "a pesar de"],
+        ["cependant", "sin embargo"],
+        ["néanmoins", "sin embargo"]
       ],
       grammar:[
         ["Connecteurs de contraste","'Bien que' est toujours suivi du subjonctif, même pour un fait réel.","Bien qu'il ait plu, nous sommes sortis marcher."]
@@ -455,10 +455,10 @@ window.LESSON_BANKS.FR = [
     description:"Construis des arguments qui reconnaissent le point contraire avant de défendre une position.",
     study:{
       vocab:[
-        ["d'un côté / de l'autre","on one hand / on the other hand"],
-        ["il est indéniable que","it's undeniable that"],
-        ["il convient de noter que","it's worth noting that"],
-        ["en définitive","ultimately"]
+        ["d'un côté / de l'autre", "por un lado / por otro lado"],
+        ["il est indéniable que", "es innegable que"],
+        ["il convient de noter que", "cabe destacar que"],
+        ["en définitive", "en última instancia"]
       ],
       grammar:[
         ["Argumentation nuancée","Un bon argument B2 reconnaît le point contraire avant de défendre une position.","Il est indéniable que le plan réduit les coûts, mais il convient de noter qu'il comporte aussi des risques."]
@@ -476,10 +476,10 @@ window.LESSON_BANKS.FR = [
     description:"Utilise l'atténuation (hedging) pour exprimer des affirmations prudentes en registre soutenu.",
     study:{
       vocab:[
-        ["il conviendrait de souligner que","it would be worth pointing out that"],
-        ["il serait bon de nuancer que","it would be worth clarifying that"],
-        ["avoir tendance à penser que","to be inclined to think that"],
-        ["de manière générale","broadly speaking"]
+        ["il conviendrait de souligner que", "convendría señalar que"],
+        ["il serait bon de nuancer que", "convendría aclarar que"],
+        ["avoir tendance à penser que", "tender a pensar que"],
+        ["de manière générale", "en términos generales"]
       ],
       grammar:[
         ["Atténuation (hedging) en registre soutenu","Le conditionnel atténue les affirmations et les rend plus prudentes et formelles que le présent de l'indicatif.","Il conviendrait d'avancer que la mesure est prématurée, bien que les données restent limitées."]
@@ -497,10 +497,10 @@ window.LESSON_BANKS.FR = [
     description:"Exprime des hypothèses irréelles au passé avec une concordance temporelle complexe.",
     study:{
       vocab:[
-        ["si j'avais su","if I had known"],
-        ["il était impossible que","it was impossible that"],
-        ["il aurait suffi de","it would have sufficed to"],
-        ["ce n'est que lorsque","it wasn't until that"]
+        ["si j'avais su", "si lo hubiera sabido"],
+        ["il était impossible que", "era imposible que"],
+        ["il aurait suffi de", "habría bastado con"],
+        ["ce n'est que lorsque", "no fue hasta que"]
       ],
       grammar:[
         ["Plus-que-parfait et subjonctif passé","Pour une hypothèse irréelle au passé : si + plus-que-parfait de l'indicatif, conditionnel passé dans la principale. Le subjonctif passé apparaît après une expression de doute au passé.","Si j'avais su le risque, j'aurais agi autrement."]
@@ -518,10 +518,10 @@ window.LESSON_BANKS.FR = [
     description:"Transforme des verbes en noms pour obtenir un registre académique et technique.",
     study:{
       vocab:[
-        ["la mise en œuvre de","the implementation of"],
-        ["l'absence de","the absence of"],
-        ["donner lieu à","to give rise to"],
-        ["entraîner","to entail"]
+        ["la mise en œuvre de", "la implementación de"],
+        ["l'absence de", "la ausencia de"],
+        ["donner lieu à", "dar lugar a"],
+        ["entraîner", "conllevar"]
       ],
       grammar:[
         ["Nominalisation pour un registre soutenu","Transformer un verbe en nom (mettre en œuvre → la mise en œuvre) est typique des textes académiques et techniques.","La mise en œuvre tardive de la mesure a donné lieu à des retards généralisés."]
@@ -539,10 +539,10 @@ window.LESSON_BANKS.FR = [
     description:"Enchaîne causes et conséquences avec précision grâce à des connecteurs avancés.",
     study:{
       vocab:[
-        ["étant donné que","given that"],
-        ["dans la mesure où","insofar as"],
-        ["d'où le fait que","hence / which is why"],
-        ["sous peine de","under penalty of / at the risk of"]
+        ["étant donné que", "dado que"],
+        ["dans la mesure où", "en la medida en que"],
+        ["d'où le fait que", "por eso / razón por la cual"],
+        ["sous peine de", "bajo pena de / a riesgo de"]
       ],
       grammar:[
         ["Connecteurs complexes de cause-conséquence","'D'où' introduit une conséquence logique ; 'étant donné que' et 'dans la mesure où' introduisent des causes à l'indicatif.","Étant donné que les coûts ont augmenté, d'où la révision du budget."]
@@ -560,10 +560,10 @@ window.LESSON_BANKS.FR = [
     description:"Résume une information complexe en conservant les relations logiques entre les idées.",
     study:{
       vocab:[
-        ["en synthèse","in summary"],
-        ["le point central est que","the key point is that"],
-        ["il convient de souligner","it's worth highlighting"],
-        ["dans les grandes lignes","broadly / roughly speaking"]
+        ["en synthèse", "en resumen"],
+        ["le point central est que", "el punto clave es que"],
+        ["il convient de souligner", "cabe destacar"],
+        ["dans les grandes lignes", "a grandes rasgos"]
       ],
       grammar:[
         ["Médiation : synthétiser avec précision","Un bon résumé C1 conserve la relation logique entre les idées (cause, contraste, condition), pas seulement les mots-clés.","Dans les grandes lignes, le rapport conclut que le plan est viable, même s'il convient de souligner les risques de financement."]
@@ -581,10 +581,10 @@ window.LESSON_BANKS.FR = [
     description:"Reconnais des arguments contraires avec force rhétorique avant de les réfuter avec précision.",
     study:{
       vocab:[
-        ["certes... il n'en demeure pas moins que","admittedly... it's no less true that"],
-        ["loin de","far from"],
-        ["cela n'empêche pas que","that doesn't prevent"],
-        ["en dernière instance","ultimately / in the last resort"]
+        ["certes... il n'en demeure pas moins que", "ciertamente... no es menos cierto que"],
+        ["loin de", "lejos de"],
+        ["cela n'empêche pas que", "eso no impide"],
+        ["en dernière instance", "en última instancia"]
       ],
       grammar:[
         ["Concession avancée et réfutation","Ces structures reconnaissent un argument contraire avec force rhétorique avant de le réfuter ou de le nuancer avec précision.","Certes le plan réduit les coûts, il n'en demeure pas moins qu'il introduit des risques considérables."]
@@ -602,10 +602,10 @@ window.LESSON_BANKS.FR = [
     description:"Interprète le sous-entendu et reformule des idées complexes grâce à l'inversion emphatique et à la litote.",
     study:{
       vocab:[
-        ["en aucun cas","by no means","Négation emphatique qui inverse le sujet et le verbe."],
-        ["être en deçà de","to fall short of"],
-        ["un présupposé tacite","a tacit assumption"],
-        ["nuancer une affirmation","to qualify a claim"]
+        ["en aucun cas", "de ninguna manera","Négation emphatique qui inverse le sujet et le verbe."],
+        ["être en deçà de", "quedarse corto respecto a"],
+        ["un présupposé tacite", "un supuesto tácito"],
+        ["nuancer une affirmation", "matizar una afirmación"]
       ],
       grammar:[
         ["Inversion après une négation emphatique","Après une expression négative emphatique en tête de phrase ('en aucun cas', 'à aucun moment', 'nulle part'), le sujet et le verbe s'inversent en registre soutenu.","En aucun cas ces résultats ne sauraient être considérés comme définitifs."],
@@ -625,10 +625,10 @@ window.LESSON_BANKS.FR = [
     description:"Choisis des procédés rhétoriques et ajuste le ton selon l'auditoire, l'intention et l'effet recherché.",
     study:{
       vocab:[
-        ["trouver un équilibre","to strike a balance"],
-        ["une question rhétorique","a rhetorical question"],
-        ["évoquer","to evoke"],
-        ["assumer une responsabilité de façon proportionnée","to acknowledge responsibility proportionately"]
+        ["trouver un équilibre", "encontrar un equilibrio"],
+        ["une question rhétorique", "una pregunta retórica"],
+        ["évoquer", "evocar"],
+        ["assumer une responsabilité de façon proportionnée", "reconocer la responsabilidad de forma proporcionada"]
       ],
       grammar:[
         ["Effet stylistique et choix lexical","Le choix d'une structure ou d'un mot peut créer de la proximité, de la distance, de l'urgence ou de l'ironie, sans changer le contenu littéral.","Ce n'est pas entièrement infondé, même si cela pourrait sans doute être amélioré."],
@@ -648,10 +648,10 @@ window.LESSON_BANKS.FR = [
     description:"Interprète les présupposés, le langage orienté et les conclusions implicites dans des textes d'opinion.",
     study:{
       vocab:[
-        ["laisser entendre","to imply"],
-        ["une réserve","a caveat"],
-        ["un langage orienté","loaded language"],
-        ["tirer une inférence","to draw an inference"]
+        ["laisser entendre", "dar a entender"],
+        ["une réserve", "una salvedad"],
+        ["un langage orienté", "lenguaje cargado (tendencioso)"],
+        ["tirer une inférence", "sacar una inferencia"]
       ],
       grammar:[
         ["Présupposition","Une phrase peut présenter une idée comme déjà admise, sans la démontrer explicitement.","Même les critiques restants ont accepté le plan révisé."]
@@ -670,11 +670,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends les jours de la semaine, les mois et comment parler des dates en français.",
     study: {
       vocab: [
-        ["lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
-        ["janvier, février, mars... décembre", "January, February, March... December"],
-        ["Quel jour sommes-nous aujourd'hui ?", "What day is it today?"],
-        ["Aujourd'hui, c'est le 5 mai.", "Today is May 5th.", "En français: \"le\" + numéro + mois, sans \"de\"."],
-        ["C'est quand, ton anniversaire ?", "When is your birthday?"]
+        ["lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "lunes, martes, miércoles, jueves, viernes, sábado, domingo"],
+        ["janvier, février, mars... décembre", "enero, febrero, marzo... diciembre"],
+        ["Quel jour sommes-nous aujourd'hui ?", "¿Qué día es hoy?"],
+        ["Aujourd'hui, c'est le 5 mai.", "Hoy es 5 de mayo.", "En français: \"le\" + numéro + mois, sans \"de\"."],
+        ["C'est quand, ton anniversaire ?", "¿Cuándo es tu cumpleaños?"]
       ],
       grammar: [
         ["L'article avec les jours", "Les jours de la semaine s'écrivent en minuscule et utilisent \"le\" pour une habitude.", "Je vais à la salle de sport le lundi. (chaque lundi)"]
@@ -694,11 +694,11 @@ window.LESSON_BANKS.FR = [
     description:"Demande et donne des indications, et parle des moyens de transport en français.",
     study: {
       vocab: [
-        ["Comment est-ce que je vais à... ?", "How do I get to...?"],
-        ["Continuez tout droit / Tournez à gauche / à droite", "Go straight ahead / Turn left / right"],
-        ["l'arrêt de bus, la gare", "the bus stop, the train station"],
-        ["C'est à deux rues d'ici.", "It's two blocks from here."],
-        ["Combien de temps ça prend pour y aller ?", "How long does it take to get there?"]
+        ["Comment est-ce que je vais à... ?", "¿Cómo llego a...?"],
+        ["Continuez tout droit / Tournez à gauche / à droite", "Sigue recto / Gira a la izquierda / derecha"],
+        ["l'arrêt de bus, la gare", "la parada de autobús, la estación de tren"],
+        ["C'est à deux rues d'ici.", "Está a dos calles de aquí."],
+        ["Combien de temps ça prend pour y aller ?", "¿Cuánto se tarda en llegar?"]
       ],
       grammar: [
         ["L'impératif pour donner des indications", "Pour donner des instructions, on utilise l'impératif (vous/tu).", "Continuez tout droit et tournez à droite au feu."]
@@ -718,11 +718,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle de ton expérience professionnelle et réponds à des questions d'entretien en français.",
     study: {
       vocab: [
-        ["Que faites-vous dans la vie ?", "What do you do for a living?"],
-        ["j'ai de l'expérience en...", "I have experience in..."],
-        ["mes points forts / faibles", "my strengths / weaknesses"],
-        ["travailler en équipe, respecter les délais", "to work as a team, to meet deadlines"],
-        ["un contrat à temps plein / partiel", "a full-time / part-time contract"]
+        ["Que faites-vous dans la vie ?", "¿A qué te dedicas?"],
+        ["j'ai de l'expérience en...", "Tengo experiencia en..."],
+        ["mes points forts / faibles", "mis fortalezas / debilidades"],
+        ["travailler en équipe, respecter les délais", "trabajar en equipo, cumplir los plazos"],
+        ["un contrat à temps plein / partiel", "un contrato a tiempo completo / parcial"]
       ],
       grammar: [
         ["Le passé composé pour l'expérience", "On utilise le passé composé pour parler d'une expérience professionnelle passée.", "J'ai travaillé dans le service client pendant trois ans."],
@@ -743,11 +743,11 @@ window.LESSON_BANKS.FR = [
     description:"Distingue les faits des opinions et évalue la fiabilité d'une nouvelle en français.",
     study: {
       vocab: [
-        ["une source fiable / peu fiable", "a reliable / unreliable source"],
-        ["selon des sources proches du dossier", "according to sources close to the case"],
-        ["un titre sensationnaliste", "a sensationalist headline"],
-        ["recouper les informations", "to cross-check information"],
-        ["un fait vérifié, une opinion", "a verified fact, an opinion"]
+        ["une source fiable / peu fiable", "una fuente fiable / poco fiable"],
+        ["selon des sources proches du dossier", "según fuentes cercanas al caso"],
+        ["un titre sensationnaliste", "un titular sensacionalista"],
+        ["recouper les informations", "contrastar información"],
+        ["un fait vérifié, une opinion", "un hecho verificado, una opinión"]
       ],
       grammar: [
         ["Verbes d'attribution", "\"Selon\", \"affirme que\", \"souligne que\" indiquent d'où vient une affirmation et son degré de certitude.", "Selon le rapport, les ventes ont augmenté de 10 %."],
@@ -768,11 +768,11 @@ window.LESSON_BANKS.FR = [
     description:"Interprète des expressions idiomatiques et des métaphores courantes en français.",
     study: {
       vocab: [
-        ["coûter les yeux de la tête", "to cost an arm and a leg"],
-        ["être entre le marteau et l'enclume", "to be between a rock and a hard place"],
-        ["se moquer de quelqu'un", "to pull someone's leg"],
-        ["ne pas mâcher ses mots", "to not mince words"],
-        ["se prendre en main", "to get one's act together"]
+        ["coûter les yeux de la tête", "costar un ojo de la cara"],
+        ["être entre le marteau et l'enclume", "estar entre la espada y la pared"],
+        ["se moquer de quelqu'un", "tomarle el pelo a alguien"],
+        ["ne pas mâcher ses mots", "no andarse con rodeos"],
+        ["se prendre en main", "organizarse de una vez"]
       ],
       grammar: [
         ["Interpréter les expressions en contexte", "Le sens d'une expression idiomatique n'est presque jamais littéral ; il faut le déduire du contexte.", "\"Ce voyage m'a coûté les yeux de la tête\" ne parle pas d'yeux réels, mais d'une dépense très élevée."]
@@ -792,11 +792,11 @@ window.LESSON_BANKS.FR = [
     description:"Reconnaît l'ironie, le sarcasme et l'ambiguïté intentionnelle dans un français de niveau avancé.",
     study: {
       vocab: [
-        ["Quelle chance, tiens !", "Just my luck! (ironique)"],
-        ["avec les meilleures intentions du monde (ironique)", "with the best of intentions (ironic)"],
-        ["un double sens", "a double meaning"],
-        ["dire quelque chose sur un ton sarcastique", "to say something with a sarcastic tone"],
-        ["minimiser volontairement quelque chose (litote)", "to understate something"]
+        ["Quelle chance, tiens !", "¡Qué suerte la mía! (irónico)"],
+        ["avec les meilleures intentions du monde (ironique)", "con la mejor intención (irónico)"],
+        ["un double sens", "un doble sentido"],
+        ["dire quelque chose sur un ton sarcastique", "decir algo con tono sarcástico"],
+        ["minimiser volontairement quelque chose (litote)", "quitarle importancia a algo"]
       ],
       grammar: [
         ["Marqueurs de l'ironie", "L'ironie se signale souvent par le contexte, l'intonation ou un contraste évident entre ce qui est dit et la réalité, plutôt que par des mots explicites.", "\"Comme tu es ponctuel !\" dit à quelqu'un arrivé en retard est ironique à cause du contraste."],
@@ -817,11 +817,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des pièces, des meubles et des objets d'une maison en français.",
     study: {
       vocab: [
-        ["la cuisine, la salle de bain, la chambre, le salon", "the kitchen, the bathroom, the bedroom, the living room"],
-        ["le lit, la table, la chaise, le canapé", "the bed, the table, the chair, the sofa"],
-        ["Où est la cuisine ?", "Where is the kitchen?"],
-        ["Le lit est dans la chambre.", "The bed is in the bedroom."],
-        ["sur, sous, à côté de", "on top of, under, next to"]
+        ["la cuisine, la salle de bain, la chambre, le salon", "la cocina, el baño, el dormitorio, el salón"],
+        ["le lit, la table, la chaise, le canapé", "la cama, la mesa, la silla, el sofá"],
+        ["Où est la cuisine ?", "¿Dónde está la cocina?"],
+        ["Le lit est dans la chambre.", "La cama está en el dormitorio."],
+        ["sur, sous, à côté de", "encima de, debajo de, al lado de"]
       ],
       grammar: [
         ["\"Il y a\" pour situer des objets", "\"Il y a\" s'utilise pour dire ce qui se trouve dans un lieu, au singulier comme au pluriel.", "Il y a une table dans la cuisine. Il y a deux chaises à côté."]
@@ -841,11 +841,11 @@ window.LESSON_BANKS.FR = [
     description:"Décris des symptômes courants et demande de l'aide à la pharmacie ou chez le médecin en français.",
     study: {
       vocab: [
-        ["J'ai mal à la tête / au ventre / à la gorge.", "My head / stomach / throat hurts."],
-        ["J'ai de la fièvre, je tousse, j'ai des nausées.", "I have a fever, a cough, nausea."],
-        ["Avez-vous quelque chose contre le mal de tête ?", "Do you have something for a headache?"],
-        ["Prenez un comprimé toutes les huit heures.", "Take one pill every eight hours."],
-        ["prendre rendez-vous chez le médecin", "to make a doctor's appointment"]
+        ["J'ai mal à la tête / au ventre / à la gorge.", "Me duele la cabeza / el estómago / la garganta."],
+        ["J'ai de la fièvre, je tousse, j'ai des nausées.", "Tengo fiebre, tos, náuseas."],
+        ["Avez-vous quelque chose contre le mal de tête ?", "¿Tiene algo para el dolor de cabeza?"],
+        ["Prenez un comprimé toutes les huit heures.", "Tome una pastilla cada ocho horas."],
+        ["prendre rendez-vous chez le médecin", "pedir cita con el médico"]
       ],
       grammar: [
         ["\"Avoir mal à\" pour décrire la douleur", "\"Avoir mal à\" + article contracté (au/à la/à l') exprime une douleur.", "J'ai mal à la tête. / J'ai mal aux pieds."]
@@ -865,11 +865,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle de l'usage de la technologie et des réseaux sociaux, de leurs avantages et de leurs risques.",
     study: {
       vocab: [
-        ["publier, partager, commenter", "to post, to share, to comment"],
-        ["être connecté / se déconnecter", "to be online / to log off"],
-        ["la vie privée, les données personnelles", "privacy, personal data"],
-        ["dépendre de son téléphone", "to be dependent on your phone"],
-        ["rester en contact avec", "to keep in touch with"]
+        ["publier, partager, commenter", "publicar, compartir, comentar"],
+        ["être connecté / se déconnecter", "estar conectado / desconectarse"],
+        ["la vie privée, les données personnelles", "privacidad, datos personales"],
+        ["dépendre de son téléphone", "depender del móvil"],
+        ["rester en contact avec", "mantener el contacto con"]
       ],
       grammar: [
         ["Comparer avantages et inconvénients", "\"D'un côté... de l'autre\" et \"alors que\" aident à comparer deux idées.", "D'un côté les réseaux aident à rester en contact ; de l'autre, ils peuvent prendre beaucoup de temps."]
@@ -889,11 +889,11 @@ window.LESSON_BANKS.FR = [
     description:"Présente et pèse des arguments sur des dilemmes éthiques courants en français.",
     study: {
       vocab: [
-        ["pour / contre", "in favor of / against"],
-        ["d'un point de vue éthique", "from an ethical point of view"],
-        ["le bien commun, l'intérêt individuel", "the common good, individual interest"],
-        ["justifier une décision", "to justify a decision"],
-        ["il n'y a pas de réponse unique", "there is no single answer"]
+        ["pour / contre", "a favor de / en contra de"],
+        ["d'un point de vue éthique", "desde un punto de vista ético"],
+        ["le bien commun, l'intérêt individuel", "el bien común, el interés individual"],
+        ["justifier une décision", "justificar una decisión"],
+        ["il n'y a pas de réponse unique", "no hay una única respuesta"]
       ],
       grammar: [
         ["Structurer un argument équilibré", "Présenter d'abord un argument, puis le contraire, et conclure avec une position nuancée évite le parti pris.", "Certains soutiennent que..., alors que d'autres affirment que... À mon avis, les deux positions ont du sens."]
@@ -913,11 +913,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à citer des sources, paraphraser des idées et éviter le plagiat dans un registre académique.",
     study: {
       vocab: [
-        ["selon (auteur, année)", "according to (author, year)"],
-        ["comme le souligne/soutient l'auteur", "as the author points out/argues"],
-        ["paraphraser une idée", "to paraphrase an idea"],
-        ["citer textuellement", "to quote directly"],
-        ["le plagiat, les sources fiables", "plagiarism, reliable sources"]
+        ["selon (auteur, année)", "según (autor, año)"],
+        ["comme le souligne/soutient l'auteur", "como señala/argumenta el autor"],
+        ["paraphraser une idée", "parafrasear una idea"],
+        ["citer textuellement", "citar textualmente"],
+        ["le plagiat, les sources fiables", "el plagio, las fuentes fiables"]
       ],
       grammar: [
         ["Verbes pour introduire des citations", "\"Soutient que\", \"affirme que\", \"souligne que\" varient la nuance : tous n'impliquent pas le même degré de certitude.", "L'auteur soutient que la politique fut une erreur ; d'autres chercheurs, cependant, soulignent des nuances importantes."],
@@ -938,11 +938,11 @@ window.LESSON_BANKS.FR = [
     description:"Détecte les sophismes logiques et les stratégies de persuasion dans des arguments de haut niveau.",
     study: {
       vocab: [
-        ["l'attaque personnelle (ad hominem)", "ad hominem attack"],
-        ["la fausse dichotomie", "false dichotomy"],
-        ["la pente glissante", "slippery slope"],
-        ["généraliser à partir d'un seul cas", "to generalize from a single case"],
-        ["faire appel à l'émotion plutôt qu'aux faits", "to appeal to emotion instead of facts"]
+        ["l'attaque personnelle (ad hominem)", "ataque ad hominem"],
+        ["la fausse dichotomie", "falsa dicotomía"],
+        ["la pente glissante", "pendiente resbaladiza (falacia)"],
+        ["généraliser à partir d'un seul cas", "generalizar a partir de un solo caso"],
+        ["faire appel à l'émotion plutôt qu'aux faits", "apelar a la emoción en vez de a los hechos"]
       ],
       grammar: [
         ["Identifier les sophismes dans le discours", "Un sophisme ressemble à un argument valide mais sa structure logique est défectueuse, même s'il sonne persuasif.", "\"Si nous permettons cela, tout deviendra bientôt incontrôlable\" est une pente glissante : cela suppose une chaîne de conséquences sans preuve."]
@@ -962,11 +962,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à exprimer des émotions et des sentiments de base en français.",
     study: {
       vocab: [
-        ["être content, triste, fatigué, en colère", "to be happy, sad, tired, angry"],
-        ["Comment tu te sens ?", "How do you feel?"],
-        ["Je suis un peu nerveux/nerveuse.", "I'm a bit nervous."],
-        ["avoir peur, avoir sommeil, avoir faim", "to be afraid, to be sleepy, to be hungry"],
-        ["Pourquoi es-tu triste ?", "Why are you sad?"]
+        ["être content, triste, fatigué, en colère", "estar feliz, triste, cansado, enfadado"],
+        ["Comment tu te sens ?", "¿Cómo te sientes?"],
+        ["Je suis un peu nerveux/nerveuse.", "Estoy un poco nervioso/a."],
+        ["avoir peur, avoir sommeil, avoir faim", "tener miedo, tener sueño, tener hambre"],
+        ["Pourquoi es-tu triste ?", "¿Por qué estás triste?"]
       ],
       grammar: [
         ["\"Être\" avec les émotions", "Les émotions s'expriment avec \"être\" + adjectif.", "Je suis content aujourd'hui. / Elle est fatiguée après le travail."]
@@ -986,11 +986,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle de tes loisirs et de tes plans pour le week-end en français.",
     study: {
       vocab: [
-        ["Qu'est-ce que tu aimes faire pendant ton temps libre ?", "What do you like to do in your free time?"],
-        ["peindre, jouer d'un instrument, faire de la randonnée", "to paint, to play an instrument, to go hiking"],
-        ["Quels sont tes plans pour le week-end ?", "What plans do you have for the weekend?"],
-        ["je vais + infinitif", "I'm going to + infinitive"],
-        ["retrouver des amis", "to meet up with friends"]
+        ["Qu'est-ce que tu aimes faire pendant ton temps libre ?", "¿Qué te gusta hacer en tu tiempo libre?"],
+        ["peindre, jouer d'un instrument, faire de la randonnée", "pintar, tocar un instrumento, hacer senderismo"],
+        ["Quels sont tes plans pour le week-end ?", "¿Qué planes tienes para el fin de semana?"],
+        ["je vais + infinitif", "voy a + infinitivo"],
+        ["retrouver des amis", "quedar con amigos"]
       ],
       grammar: [
         ["\"Aller\" + infinitif pour les projets", "On utilise \"aller\" + infinitif pour parler de projets proches dans le futur.", "Samedi je vais retrouver des amis."]
@@ -1010,11 +1010,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle de la protection de l'environnement et des habitudes durables en français.",
     study: {
       vocab: [
-        ["recycler, réutiliser, réduire la consommation", "to recycle, to reuse, to reduce consumption"],
-        ["le changement climatique, l'empreinte carbone", "climate change, carbon footprint"],
-        ["les produits à usage unique", "single-use products"],
-        ["économiser l'énergie / l'eau", "to save energy / water"],
-        ["prendre des mesures pour protéger la planète", "to take steps to protect the planet"]
+        ["recycler, réutiliser, réduire la consommation", "reciclar, reutilizar, reducir el consumo"],
+        ["le changement climatique, l'empreinte carbone", "el cambio climático, la huella de carbono"],
+        ["les produits à usage unique", "los productos de un solo uso"],
+        ["économiser l'énergie / l'eau", "ahorrar energía / agua"],
+        ["prendre des mesures pour protéger la planète", "tomar medidas para proteger el planeta"]
       ],
       grammar: [
         ["Le futur simple pour les conséquences", "Le futur simple décrit des conséquences probables d'actions actuelles.", "Si nous ne réduisons pas le plastique, la pollution augmentera."]
@@ -1034,11 +1034,11 @@ window.LESSON_BANKS.FR = [
     description:"Discute de l'impact de l'intelligence artificielle sur le travail, avec des arguments nuancés en français.",
     study: {
       vocab: [
-        ["automatiser des tâches répétitives", "to automate repetitive tasks"],
-        ["remplacer des postes de travail", "to replace jobs"],
-        ["s'adapter à de nouveaux outils", "to adapt to new tools"],
-        ["générer de nouvelles opportunités professionnelles", "to generate new job opportunities"],
-        ["ça dépend de la façon dont c'est mis en œuvre", "it depends on how it's implemented"]
+        ["automatiser des tâches répétitives", "automatizar tareas repetitivas"],
+        ["remplacer des postes de travail", "reemplazar empleos"],
+        ["s'adapter à de nouveaux outils", "adaptarse a nuevas herramientas"],
+        ["générer de nouvelles opportunités professionnelles", "generar nuevas oportunidades laborales"],
+        ["ça dépend de la façon dont c'est mis en œuvre", "depende de cómo se implemente"]
       ],
       grammar: [
         ["Le futur antérieur pour la spéculation", "\"Aura\" + participe passé spécule sur ce qui se sera probablement produit à un moment futur donné.", "D'ici 2030, l'IA aura changé de nombreux secteurs."]
@@ -1058,11 +1058,11 @@ window.LESSON_BANKS.FR = [
     description:"Analyse comment le langage publicitaire utilise la connotation et les techniques de persuasion.",
     study: {
       vocab: [
-        ["une connotation positive / négative", "a positive / negative connotation"],
-        ["faire appel au désir d'appartenance", "to appeal to the desire to belong"],
-        ["un slogan accrocheur", "a catchy slogan"],
-        ["créer un sentiment d'urgence", "to create a sense of urgency"],
-        ["le public cible", "the target audience"]
+        ["une connotation positive / négative", "una connotación positiva / negativa"],
+        ["faire appel au désir d'appartenance", "apelar al deseo de pertenencia"],
+        ["un slogan accrocheur", "un eslogan pegadizo"],
+        ["créer un sentiment d'urgence", "crear una sensación de urgencia"],
+        ["le public cible", "el público objetivo"]
       ],
       grammar: [
         ["Connotation face à dénotation", "La dénotation est le sens littéral d'un mot ; la connotation est la charge émotionnelle ou culturelle associée.", "\"Maison\" (dénotation : bâtiment) face à \"foyer\" (connotation : chaleur, appartenance)."]
@@ -1082,11 +1082,11 @@ window.LESSON_BANKS.FR = [
     description:"Analyse l'ambiguïté stratégique et l'euphémisme dans le discours politique de haut niveau.",
     study: {
       vocab: [
-        ["un euphémisme", "a euphemism"],
-        ["l'ambiguïté stratégique", "strategic ambiguity"],
-        ["éluder une question directe", "to dodge a direct question"],
-        ["un ajustement budgétaire (euphémisme pour une coupe)", "a budget adjustment (euphemism for a cut)"],
-        ["s'engager sans vraiment s'engager", "to commit without fully committing"]
+        ["un euphémisme", "un eufemismo"],
+        ["l'ambiguïté stratégique", "ambigüedad estratégica"],
+        ["éluder une question directe", "esquivar una pregunta directa"],
+        ["un ajustement budgétaire (euphémisme pour une coupe)", "un ajuste presupuestario (eufemismo de recorte)"],
+        ["s'engager sans vraiment s'engager", "comprometerse sin comprometerse del todo"]
       ],
       grammar: [
         ["Reconnaître l'euphémisme politique", "Un euphémisme remplace une expression directe par une autre plus douce, souvent pour adoucir une réalité inconfortable.", "\"Ajustement budgétaire\" sonne plus neutre que \"coupe budgétaire\", bien que ça décrive la même chose."],
@@ -1107,11 +1107,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à parler de prix, d'argent et de nombres ordinaux en français.",
     study: {
       vocab: [
-        ["premier, deuxième, troisième...", "first, second, third..."],
-        ["Combien ça coûte ?", "How much does this cost?"],
-        ["Ça coûte dix euros.", "It costs ten euros."],
-        ["bon marché, cher", "cheap, expensive"],
-        ["payer en espèces / par carte", "to pay in cash / by card"]
+        ["premier, deuxième, troisième...", "primero, segundo, tercero..."],
+        ["Combien ça coûte ?", "¿Cuánto cuesta esto?"],
+        ["Ça coûte dix euros.", "Cuesta diez euros."],
+        ["bon marché, cher", "barato, caro"],
+        ["payer en espèces / par carte", "pagar en efectivo / con tarjeta"]
       ],
       grammar: [
         ["\"Coûter\" pour les prix", "\"Coûte\" (singulier) et \"coûtent\" (pluriel) s'accordent avec ce qui est acheté.", "Le livre coûte dix euros. Les livres coûtent vingt euros."]
@@ -1131,11 +1131,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à commander, poser des questions au serveur et payer l'addition dans un restaurant.",
     study: {
       vocab: [
-        ["Je voudrais commander...", "I would like to order..."],
-        ["Qu'est-ce que vous me conseillez ?", "What do you recommend?"],
-        ["L'addition, s'il vous plaît ?", "Could you bring me the bill, please?"],
-        ["Le service est-il compris ?", "Is the tip included?"],
-        ["Pour moi, le menu du jour.", "For me, the set menu."]
+        ["Je voudrais commander...", "Quisiera pedir..."],
+        ["Qu'est-ce que vous me conseillez ?", "¿Qué recomiendas?"],
+        ["L'addition, s'il vous plaît ?", "¿Podría traerme la cuenta, por favor?"],
+        ["Le service est-il compris ?", "¿Está incluida la propina?"],
+        ["Pour moi, le menu du jour.", "Para mí, el menú del día."]
       ],
       grammar: [
         ["\"Je voudrais\" pour commander poliment", "\"Je voudrais\" (conditionnel de \"vouloir\") est plus poli que \"je veux\" pour commander.", "Je voudrais commander la soupe et le poulet, s'il vous plaît."]
@@ -1155,11 +1155,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle de comptes bancaires, d'épargne et de budget personnel en français.",
     study: {
       vocab: [
-        ["ouvrir un compte bancaire", "to open a bank account"],
-        ["faire un budget mensuel", "to make a monthly budget"],
-        ["économiser pour un objectif", "to save up for a goal"],
-        ["les dépenses fixes et les dépenses variables", "fixed expenses and variable expenses"],
-        ["contracter un prêt, payer en plusieurs fois", "to take out a loan, to pay in installments"]
+        ["ouvrir un compte bancaire", "abrir una cuenta bancaria"],
+        ["faire un budget mensuel", "hacer un presupuesto mensual"],
+        ["économiser pour un objectif", "ahorrar para una meta"],
+        ["les dépenses fixes et les dépenses variables", "gastos fijos y gastos variables"],
+        ["contracter un prêt, payer en plusieurs fois", "pedir un préstamo, pagar a plazos"]
       ],
       grammar: [
         ["Le conditionnel pour des conseils financiers", "\"Tu devrais\" + infinitif donne un conseil sans paraître trop direct.", "Tu devrais économiser au moins 10 % de ton salaire chaque mois."]
@@ -1179,11 +1179,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle du bien-être émotionnel et de la santé mentale avec un vocabulaire plus nuancé en français.",
     study: {
       vocab: [
-        ["se sentir dépassé(e)", "to feel overwhelmed"],
-        ["poser des limites, prendre soin de soi", "to set boundaries, to take care of yourself"],
-        ["l'épuisement professionnel (burn-out)", "burnout"],
-        ["demander de l'aide n'est pas un signe de faiblesse", "asking for help is not a sign of weakness"],
-        ["traiter ses émotions", "to process one's emotions"]
+        ["se sentir dépassé(e)", "sentirse abrumado/a"],
+        ["poser des limites, prendre soin de soi", "poner límites, cuidarse"],
+        ["l'épuisement professionnel (burn-out)", "el agotamiento (burnout)"],
+        ["demander de l'aide n'est pas un signe de faiblesse", "pedir ayuda no es señal de debilidad"],
+        ["traiter ses émotions", "procesar las propias emociones"]
       ],
       grammar: [
         ["Le subjonctif avec les expressions de recommandation", "\"Il est important que\" + subjonctif recommande une action liée au bien-être.", "Il est important que tu parles de ce que tu ressens à quelqu'un de confiance."]
@@ -1203,11 +1203,11 @@ window.LESSON_BANKS.FR = [
     description:"Comprends le vocabulaire et les structures de base du langage juridique dans les contrats.",
     study: {
       vocab: [
-        ["les parties contractantes", "the contracting parties"],
-        ["une clause, une annexe", "a clause, an appendix"],
-        ["résilier un contrat", "to terminate a contract"],
-        ["être soumis aux termes et conditions", "to be subject to the terms and conditions"],
-        ["en cas de manquement", "in the event of a breach"]
+        ["les parties contractantes", "las partes contratantes"],
+        ["une clause, une annexe", "una cláusula, un anexo"],
+        ["résilier un contrat", "rescindir un contrato"],
+        ["être soumis aux termes et conditions", "estar sujeto a los términos y condiciones"],
+        ["en cas de manquement", "en caso de incumplimiento"]
       ],
       grammar: [
         ["Le langage formel impersonnel dans les contrats", "Les contrats utilisent des structures impersonnelles et passives pour paraître objectifs et éviter l'ambiguïté sur qui agit.", "Le présent contrat pourra être résilié par l'une ou l'autre des parties moyennant un préavis de 30 jours."],
@@ -1228,11 +1228,11 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la voix narrative, le style et les choix formels d'un texte littéraire en français.",
     study: {
       vocab: [
-        ["la voix narrative", "the narrative voice"],
-        ["un narrateur fiable / peu fiable", "a reliable / unreliable narrator"],
-        ["le point de vue (première, troisième personne)", "point of view (first, third person)"],
-        ["le ton et le registre d'un texte", "the tone and register of a text"],
-        ["une technique narrative (analepse, ellipse)", "a narrative technique (flashback, ellipsis)"]
+        ["la voix narrative", "la voz narrativa"],
+        ["un narrateur fiable / peu fiable", "un narrador fiable / poco fiable"],
+        ["le point de vue (première, troisième personne)", "el punto de vista (primera, tercera persona)"],
+        ["le ton et le registre d'un texte", "el tono y el registro de un texto"],
+        ["une technique narrative (analepse, ellipse)", "una técnica narrativa (flashback, elipsis)"]
       ],
       grammar: [
         ["Analyser les choix formels de l'auteur", "L'analyse littéraire avancée relie un choix formel (point de vue, temps verbal) à son effet sur le lecteur.", "L'usage de la première personne crée de la proximité, mais limite aussi la perspective à ce que le narrateur peut savoir ou percevoir."]
@@ -1252,11 +1252,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire de base des métiers et à parler de ton travail en français.",
     study: {
       vocab: [
-        ["médecin, professeur/e, ingénieur/e, serveur/serveuse", "doctor, teacher, engineer, waiter/waitress"],
-        ["Qu'est-ce que tu fais dans la vie ?", "What do you do for a living?"],
-        ["Je suis étudiant(e) / Je travaille dans un bureau.", "I'm a student / I work in an office."],
-        ["Où travailles-tu ?", "Where do you work?"],
-        ["travailler comme + métier", "to work as + profession"]
+        ["médecin, professeur/e, ingénieur/e, serveur/serveuse", "médico, profesor, ingeniero, camarero/a"],
+        ["Qu'est-ce que tu fais dans la vie ?", "¿A qué te dedicas?"],
+        ["Je suis étudiant(e) / Je travaille dans un bureau.", "Soy estudiante / Trabajo en una oficina."],
+        ["Où travailles-tu ?", "¿Dónde trabajas?"],
+        ["travailler comme + métier", "trabajar de + profesión"]
       ],
       grammar: [
         ["\"Être\" avec les métiers (sans article)", "Avec les métiers, \"être\" ne prend pas d'article indéfini, contrairement à l'anglais.", "Je suis professeur. (pas \"Je suis un professeur\")"]
@@ -1276,11 +1276,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à décrire l'apparence physique et la personnalité d'autres personnes en français.",
     study: {
       vocab: [
-        ["grand(e), petit(e), mince", "tall, short, slim"],
-        ["a les cheveux longs/courts, porte des lunettes", "has long/short hair, wears glasses"],
-        ["est sympathique, timide, drôle", "is nice, shy, funny"],
-        ["ressemble à sa mère/son père", "looks like his/her mother/father"],
-        ["Comment est ton/ta meilleur(e) ami(e) ?", "What is your best friend like?"]
+        ["grand(e), petit(e), mince", "alto, bajo, delgado"],
+        ["a les cheveux longs/courts, porte des lunettes", "tiene el pelo largo/corto, lleva gafas"],
+        ["est sympathique, timide, drôle", "es simpático, tímido, gracioso"],
+        ["ressemble à sa mère/son père", "se parece a su madre/padre"],
+        ["Comment est ton/ta meilleur(e) ami(e) ?", "¿Cómo es tu mejor amigo/a?"]
       ],
       grammar: [
         ["\"Être\" pour les caractéristiques, \"avoir\" et \"porter\" pour les traits physiques", "\"Être\" décrit la personnalité et les traits stables ; \"avoir\" et \"porter\" décrivent des parties du corps ou des accessoires.", "Elle est très sympathique, a les cheveux longs et porte des lunettes."]
@@ -1300,11 +1300,11 @@ window.LESSON_BANKS.FR = [
     description:"Parle des systèmes éducatifs, des méthodes d'étude et des expériences scolaires en français.",
     study: {
       vocab: [
-        ["l'éducation obligatoire / supérieure", "compulsory / higher education"],
-        ["réussir/échouer à un examen", "to pass/fail an exam"],
-        ["mémoriser face à comprendre", "to memorize versus to understand"],
-        ["un programme d'études, une matière", "a curriculum, a school subject"],
-        ["apprendre à son propre rythme", "to learn at your own pace"]
+        ["l'éducation obligatoire / supérieure", "la educación obligatoria / superior"],
+        ["réussir/échouer à un examen", "aprobar/suspender un examen"],
+        ["mémoriser face à comprendre", "memorizar frente a comprender"],
+        ["un programme d'études, une matière", "un plan de estudios, una asignatura"],
+        ["apprendre à son propre rythme", "aprender a tu propio ritmo"]
       ],
       grammar: [
         ["Les comparatifs pour comparer des systèmes", "\"Plus... que\", \"moins... que\" et \"aussi... que\" servent à comparer des méthodes ou des systèmes éducatifs.", "Ce système est plus pratique que le traditionnel, bien qu'il ne soit pas aussi structuré que celui-là."]
@@ -1324,11 +1324,11 @@ window.LESSON_BANKS.FR = [
     description:"Discute de propositions d'urbanisme et de mobilité durable dans les villes, avec des arguments nuancés.",
     study: {
       vocab: [
-        ["les transports en commun, la piste cyclable", "public transport, the bike lane"],
-        ["piétonniser le centre-ville", "to pedestrianize the city center"],
-        ["réduire la circulation et la pollution", "to reduce traffic and pollution"],
-        ["un espace vert, une zone piétonne", "a green space, a pedestrian zone"],
-        ["investir dans des infrastructures durables", "to invest in sustainable infrastructure"]
+        ["les transports en commun, la piste cyclable", "el transporte público, el carril bici"],
+        ["piétonniser le centre-ville", "peatonalizar el centro de la ciudad"],
+        ["réduire la circulation et la pollution", "reducir el tráfico y la contaminación"],
+        ["un espace vert, une zone piétonne", "un espacio verde, una zona peatonal"],
+        ["investir dans des infrastructures durables", "invertir en infraestructura sostenible"]
       ],
       grammar: [
         ["Le subjonctif avec des expressions de doute ou d'opinion", "\"Je ne pense pas que\" et \"il est possible que\" exigent le subjonctif pour exprimer un doute ou une opinion sur des propositions urbaines.", "Je ne pense pas que piétonniser tout le centre soit la seule solution possible."]
@@ -1348,11 +1348,11 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à communiquer des informations scientifiques complexes de façon claire et précise, sans perdre en rigueur.",
     study: {
       vocab: [
-        ["simplifier sans déformer", "to simplify without distorting"],
-        ["un résultat préliminaire face à un résultat confirmé", "a preliminary finding versus a confirmed one"],
-        ["les preuves scientifiques suggèrent que...", "scientific evidence suggests that..."],
-        ["une analogie utile pour expliquer quelque chose de complexe", "a useful analogy to explain something complex"],
-        ["éviter le sensationnalisme scientifique", "to avoid scientific sensationalism"]
+        ["simplifier sans déformer", "simplificar sin distorsionar"],
+        ["un résultat préliminaire face à un résultat confirmé", "un hallazgo preliminar frente a uno confirmado"],
+        ["les preuves scientifiques suggèrent que...", "la evidencia científica sugiere que..."],
+        ["une analogie utile pour expliquer quelque chose de complexe", "una analogía útil para explicar algo complejo"],
+        ["éviter le sensationnalisme scientifique", "evitar el sensacionalismo científico"]
       ],
       grammar: [
         ["Verbes nuancés pour communiquer l'incertitude scientifique", "\"Suggère\", \"indique\", \"pourrait expliquer\" transmettent différents degrés de certitude scientifique, plus précis que \"prouve\" ou \"démontre\".", "L'étude suggère un lien possible, mais ne prouve pas de causalité."]
@@ -1372,11 +1372,11 @@ window.LESSON_BANKS.FR = [
     description:"Analyse les actes de langage et la pragmatique en français : la différence entre ce qui est dit et ce qui est fait en le disant.",
     study: {
       vocab: [
-        ["un acte de langage (requête, promesse, ordre)", "a speech act (request, promise, order)"],
-        ["le sens littéral face au sens visé", "literal meaning versus intended meaning"],
-        ["un acte de langage indirect", "an indirect speech act"],
-        ["les conditions de félicité d'un acte de langage", "the felicity conditions of a speech act"],
-        ["impliquer quelque chose sans le dire explicitement", "to imply something without saying it explicitly"]
+        ["un acte de langage (requête, promesse, ordre)", "un acto de habla (petición, promesa, orden)"],
+        ["le sens littéral face au sens visé", "el significado literal frente al significado pretendido"],
+        ["un acte de langage indirect", "un acto de habla indirecto"],
+        ["les conditions de félicité d'un acte de langage", "las condiciones de adecuación de un acto de habla"],
+        ["impliquer quelque chose sans le dire explicitement", "insinuar algo sin decirlo explícitamente"]
       ],
       grammar: [
         ["Actes de langage directs face à indirects", "Un acte de langage indirect utilise une forme grammaticale (comme une question) pour remplir une autre fonction (comme une requête).", "\"Pourrais-tu fermer la fenêtre ?\" a la forme d'une question, mais sa fonction réelle est une requête, pas une demande d'information."]
@@ -1396,13 +1396,13 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des animaux courants et de la nature en français.",
     study: {
       vocab: [
-        ["le chien", "the dog"],
-        ["le chat", "the cat"],
-        ["l'oiseau", "the bird"],
-        ["le cheval", "the horse"],
-        ["le poisson", "the fish"],
-        ["la vache", "the cow"],
-        ["la forêt, la montagne, la rivière", "the forest, the mountain, the river"],
+        ["le chien", "el perro"],
+        ["le chat", "el gato"],
+        ["l'oiseau", "el pájaro"],
+        ["le cheval", "el caballo"],
+        ["le poisson", "el pez"],
+        ["la vache", "la vaca"],
+        ["la forêt, la montagne, la rivière", "el bosque, la montaña, el río"],
       ],
       grammar: [
         ["Le genre des animaux", "Beaucoup de noms d'animaux changent de forme selon le genre, mais d'autres sont invariables.", "Le chat est blanc. / La chatte est blanche. / Le poisson est petit (invariable côté sens)."],
@@ -1422,12 +1422,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends les parties du corps et à décrire des douleurs ou des caractéristiques physiques.",
     study: {
       vocab: [
-        ["la tête", "the head"],
-        ["le bras", "the arm"],
-        ["la jambe", "the leg"],
-        ["la main", "the hand"],
-        ["le pied", "the foot"],
-        ["le dos", "the back"],
+        ["la tête", "la cabeza"],
+        ["le bras", "el brazo"],
+        ["la jambe", "la pierna"],
+        ["la main", "la mano"],
+        ["le pied", "el pie"],
+        ["le dos", "la espalda"],
       ],
       grammar: [
         ["L'article défini avec les parties du corps", "Avec les parties du corps, on utilise l'article défini, pas le possessif, quand on sait clairement de qui on parle.", "J'ai mal à la tête. (pas «J'ai mal à ma tête»)"],
@@ -1447,12 +1447,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle de sports, de routines d'exercice et d'habitudes d'activité physique en français.",
     study: {
       vocab: [
-        ["le football", "soccer/football"],
-        ["la natation", "swimming"],
-        ["le tennis", "tennis"],
-        ["courir", "to run"],
-        ["soulever des poids", "to lift weights"],
-        ["faire du yoga", "to do yoga"],
+        ["le football", "el fútbol"],
+        ["la natation", "la natación"],
+        ["le tennis", "el tenis"],
+        ["courir", "correr"],
+        ["soulever des poids", "levantar pesas"],
+        ["faire du yoga", "hacer yoga"],
       ],
       grammar: [
         ["«Avoir l'habitude de» + infinitif pour les habitudes", "«Avoir l'habitude de» + infinitif exprime une action habituelle.", "J'ai l'habitude de courir trois fois par semaine."],
@@ -1472,12 +1472,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle des appareils intelligents et de la domotique, avec des arguments nuancés en français.",
     study: {
       vocab: [
-        ["une enceinte connectée", "a smart speaker"],
-        ["un thermostat programmable", "a programmable thermostat"],
-        ["une caméra de sécurité", "a security camera"],
-        ["contrôler par la voix", "to control by voice"],
-        ["automatiser les tâches domestiques", "to automate household tasks"],
-        ["un risque pour la vie privée", "a privacy risk"],
+        ["une enceinte connectée", "un altavoz inteligente"],
+        ["un thermostat programmable", "un termostato programable"],
+        ["une caméra de sécurité", "una cámara de seguridad"],
+        ["contrôler par la voix", "controlar por voz"],
+        ["automatiser les tâches domestiques", "automatizar tareas del hogar"],
+        ["un risque pour la vie privée", "un riesgo para la privacidad"],
       ],
       grammar: [
         ["Le futur simple pour les prédictions technologiques", "Le futur simple décrit des prédictions raisonnables sur l'évolution de la technologie.", "Dans quelques années, plus de foyers auront des appareils connectés."],
@@ -1497,12 +1497,12 @@ window.LESSON_BANKS.FR = [
     description:"Maîtrise le vocabulaire et les formules typiques des réunions et des e-mails professionnels.",
     study: {
       vocab: [
-        ["convoquer une réunion", "to call a meeting"],
-        ["joindre un document", "to attach a document"],
-        ["dans l'attente de votre réponse", "we look forward to your response"],
-        ["reprendre un point en suspens", "to follow up on a pending item"],
-        ["parvenir à un accord", "to reach an agreement"],
-        ["reporter une réunion", "to postpone a meeting"],
+        ["convoquer une réunion", "convocar una reunión"],
+        ["joindre un document", "adjuntar un documento"],
+        ["dans l'attente de votre réponse", "esperamos su respuesta"],
+        ["reprendre un point en suspens", "hacer seguimiento de un pendiente"],
+        ["parvenir à un accord", "llegar a un acuerdo"],
+        ["reporter une réunion", "posponer una reunión"],
       ],
       grammar: [
         ["Formules de politesse dans les e-mails formels", "Des formules fixes comme «Dans l'attente de votre réponse» donnent une clôture professionnelle sans paraître brusque.", "Veuillez trouver le rapport demandé en pièce jointe. Dans l'attente de votre réponse."],
@@ -1522,11 +1522,11 @@ window.LESSON_BANKS.FR = [
     description:"Choisis le synonyme adéquat selon le registre (soutenu, courant, familier) en français.",
     study: {
       vocab: [
-        ["obtenir (soutenu) / avoir (courant)", "to obtain / to get"],
-        ["décéder (soutenu) / mourir (courant) / claquer (familier)", "to pass away / to die / to kick the bucket"],
-        ["solliciter (soutenu) / demander (courant)", "to request / to ask for"],
-        ["résider (soutenu) / vivre / habiter (courant)", "to reside / to live"],
-        ["néanmoins (soutenu) / mais (courant)", "however / but"],
+        ["obtenir (soutenu) / avoir (courant)", "obtener / conseguir"],
+        ["décéder (soutenu) / mourir (courant) / claquer (familier)", "fallecer / morir / estirar la pata"],
+        ["solliciter (soutenu) / demander (courant)", "solicitar / pedir"],
+        ["résider (soutenu) / vivre / habiter (courant)", "residir / vivir"],
+        ["néanmoins (soutenu) / mais (courant)", "sin embargo / pero"],
       ],
       grammar: [
         ["Choisir le registre selon le contexte", "La même idée peut s'exprimer avec des mots très différents selon un contexte soutenu, courant ou familier ; utiliser le mauvais mot casse la cohérence du texte.", "Dans un rapport : «L'information a été obtenue.» Entre amis : «Je l'ai eu.»"],
@@ -1546,13 +1546,13 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des vêtements et comment les associer aux couleurs en français.",
     study: {
       vocab: [
-        ["la chemise", "the shirt"],
-        ["le pantalon", "the pants/trousers"],
-        ["les chaussures", "the shoes"],
-        ["la robe", "the dress"],
-        ["la veste", "the jacket"],
-        ["la jupe", "the skirt"],
-        ["rouge, bleu, vert, noir, blanc", "red, blue, green, black, white"],
+        ["la chemise", "la camisa"],
+        ["le pantalon", "el pantalón"],
+        ["les chaussures", "los zapatos"],
+        ["la robe", "el vestido"],
+        ["la veste", "la chaqueta"],
+        ["la jupe", "la falda"],
+        ["rouge, bleu, vert, noir, blanc", "rojo, azul, verde, negro, blanco"],
       ],
       grammar: [
         ["Accord de genre et nombre avec les adjectifs de couleur", "Les couleurs s'accordent en genre et en nombre avec le nom qu'elles décrivent.", "la chemise rouge / les chaussures noires / la robe verte"],
@@ -1572,12 +1572,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des fruits et légumes et à parler d'une alimentation saine en français.",
     study: {
       vocab: [
-        ["la pomme", "the apple"],
-        ["la banane", "the banana"],
-        ["la carotte", "the carrot"],
-        ["la tomate", "the tomato"],
-        ["la laitue", "the lettuce"],
-        ["l'orange", "the orange"],
+        ["la pomme", "la manzana"],
+        ["la banane", "el plátano"],
+        ["la carotte", "la zanahoria"],
+        ["la tomate", "el tomate"],
+        ["la laitue", "la lechuga"],
+        ["l'orange", "la naranja"],
       ],
       grammar: [
         ["Quantificateurs : beaucoup de, peu de", "«Beaucoup de» et «peu de» sont invariables et s'utilisent aussi bien avec des noms comptables qu'incomptables.", "Je mange beaucoup de fruits et peu de viande."],
@@ -1597,12 +1597,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends des verbes de cuisine et à expliquer les étapes d'une recette simple en français.",
     study: {
       vocab: [
-        ["couper, éplucher", "to cut, to peel"],
-        ["faire bouillir, faire frire", "to boil, to fry"],
-        ["mélanger les ingrédients", "to mix the ingredients"],
-        ["ajouter du sel selon le goût", "to add salt to taste"],
-        ["laisser reposer la pâte", "to let the dough rest"],
-        ["préchauffer le four", "to preheat the oven"],
+        ["couper, éplucher", "cortar, pelar"],
+        ["faire bouillir, faire frire", "hervir, freír"],
+        ["mélanger les ingrédients", "mezclar los ingredientes"],
+        ["ajouter du sel selon le goût", "añadir sal al gusto"],
+        ["laisser reposer la pâte", "dejar reposar la masa"],
+        ["préchauffer le four", "precalentar el horno"],
       ],
       grammar: [
         ["L'impératif pour donner des instructions de recette", "Les recettes utilisent l'impératif pour donner des instructions étape par étape.", "Coupez les légumes, faites bouillir l'eau et ajoutez du sel selon le goût."],
@@ -1622,12 +1622,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle d'art, de musique et de cinéma en exprimant des opinions et des jugements nuancés en français.",
     study: {
       vocab: [
-        ["un chef-d'œuvre", "a masterpiece"],
-        ["la mise en scène", "the staging/mise-en-scène"],
-        ["une interprétation émouvante", "a moving performance"],
-        ["le style d'un artiste", "an artist's style"],
-        ["laisser une impression durable", "to leave a lasting impression"],
-        ["être surestimé/sous-estimé", "to be overrated/underrated"],
+        ["un chef-d'œuvre", "una obra maestra"],
+        ["la mise en scène", "la puesta en escena"],
+        ["une interprétation émouvante", "una interpretación conmovedora"],
+        ["le style d'un artiste", "el estilo de un artista"],
+        ["laisser une impression durable", "dejar una impresión duradera"],
+        ["être surestimé/sous-estimé", "estar sobrevalorado/infravalorado"],
       ],
       grammar: [
         ["Verbes d'opinion + subjonctif/indicatif selon la certitude", "«Je trouve que» + indicatif exprime une opinion avec une certaine assurance ; «je ne pense pas que» + subjonctif exprime le doute.", "Je trouve que ce film est un chef-d'œuvre. / Je ne pense pas qu'il soit surestimé."],
@@ -1647,12 +1647,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à donner et recevoir des retours de façon constructive et professionnelle en français.",
     study: {
       vocab: [
-        ["signaler un point à améliorer", "to point out an area for improvement"],
-        ["reconnaître les points forts avant les critiques", "to acknowledge strengths before criticism"],
-        ["formuler la critique en termes concrets", "to phrase criticism in concrete terms"],
-        ["être ouvert(e) aux retours", "to be open to feedback"],
-        ["prendre la critique personnellement", "to take criticism personally"],
-        ["proposer une solution, pas seulement signaler le problème", "to propose a solution, not just point out the problem"],
+        ["signaler un point à améliorer", "señalar un aspecto a mejorar"],
+        ["reconnaître les points forts avant les critiques", "reconocer los puntos fuertes antes de criticar"],
+        ["formuler la critique en termes concrets", "formular la crítica en términos concretos"],
+        ["être ouvert(e) aux retours", "estar abierto a las críticas constructivas"],
+        ["prendre la critique personnellement", "tomarse la crítica como algo personal"],
+        ["proposer une solution, pas seulement signaler le problème", "proponer una solución, no solo señalar el problema"],
       ],
       grammar: [
         ["Atténuateurs pour adoucir une critique", "Des expressions comme «tu pourrais peut-être envisager» ou «une suggestion serait» adoucissent une critique sans perdre en clarté.", "Tu pourrais peut-être envisager de restructurer le rapport ; une suggestion serait de commencer par les conclusions."],
@@ -1672,12 +1672,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse le débat sur le langage inclusif et comment les langues évoluent avec la société.",
     study: {
       vocab: [
-        ["le langage inclusif", "inclusive language"],
-        ["une langue vivante évolue avec l'usage", "a living language evolves with use"],
-        ["prescriptivisme face à descriptivisme", "prescriptivism versus descriptivism"],
-        ["un néologisme est ajouté au dictionnaire", "a neologism is added to the dictionary"],
-        ["générer une résistance face à un changement linguistique", "to generate resistance to a linguistic change"],
-        ["un argument n'implique pas nécessairement une position politique", "an argument doesn't necessarily imply a political stance"],
+        ["le langage inclusif", "el lenguaje inclusivo"],
+        ["une langue vivante évolue avec l'usage", "una lengua viva evoluciona con el uso"],
+        ["prescriptivisme face à descriptivisme", "prescriptivismo frente a descriptivismo"],
+        ["un néologisme est ajouté au dictionnaire", "se añade un neologismo al diccionario"],
+        ["générer une résistance face à un changement linguistique", "generar resistencia a un cambio lingüístico"],
+        ["un argument n'implique pas nécessairement une position politique", "un argumento no implica necesariamente una postura política"],
       ],
       grammar: [
         ["Présenter un débat linguistique sans parti pris", "Une analyse rigoureuse sépare la description du phénomène (comment la langue change) de l'appréciation personnelle (si le changement devrait être adopté ou non).", "Du point de vue descriptiviste, le changement est documenté sans jugement ; du point de vue prescriptiviste, on évalue s'il convient de le normaliser."],
@@ -1697,13 +1697,13 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des lieux du quartier et comment dire où ils se trouvent en français.",
     study: {
       vocab: [
-        ["la banque", "the bank"],
-        ["le supermarché", "the supermarket"],
-        ["le parc", "the park"],
-        ["la pharmacie", "the pharmacy"],
-        ["la bibliothèque", "the library"],
-        ["l'arrêt de bus", "the bus stop"],
-        ["près de, loin de, à côté de", "near, far from, next to"],
+        ["la banque", "el banco"],
+        ["le supermarché", "el supermercado"],
+        ["le parc", "el parque"],
+        ["la pharmacie", "la farmacia"],
+        ["la bibliothèque", "la biblioteca"],
+        ["l'arrêt de bus", "la parada de autobús"],
+        ["près de, loin de, à côté de", "cerca de, lejos de, al lado de"],
       ],
       grammar: [
         ["« Il y a » + prépositions de lieu", "« Il y a » (there is/are) sert à dire que quelque chose existe quelque part ; il ne change pas avec le nombre. Les prépositions de lieu indiquent où se trouve la chose.", "Il y a une pharmacie près du parc. / La bibliothèque est à côté de la banque."],
@@ -1723,12 +1723,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des fêtes et à parler d'habitudes avec « avoir l'habitude de ».",
     study: {
       vocab: [
-        ["l'anniversaire", "the birthday"],
-        ["le mariage", "the wedding"],
-        ["Noël", "Christmas"],
-        ["le Nouvel An", "New Year"],
-        ["célébrer, fêter", "to celebrate"],
-        ["faire un cadeau", "to give a gift"],
+        ["l'anniversaire", "el cumpleaños"],
+        ["le mariage", "la boda"],
+        ["Noël", "la Navidad"],
+        ["le Nouvel An", "el Año Nuevo"],
+        ["célébrer, fêter", "celebrar"],
+        ["faire un cadeau", "hacer un regalo"],
       ],
       grammar: [
         ["« Avoir l'habitude de » + infinitif pour parler d'habitudes", "« Avoir l'habitude de » + infinitif exprime ce qu'on fait habituellement.", "On a l'habitude de se réunir en famille à Noël. / Enfant, j'avais l'habitude de fêter mon anniversaire au parc."],
@@ -1748,12 +1748,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends du vocabulaire sur l'amitié et à donner des conseils avec « devoir » et « il faut ».",
     study: {
       vocab: [
-        ["faire confiance à quelqu'un", "to trust someone"],
-        ["bien/mal s'entendre avec quelqu'un", "to get along well/badly with someone"],
-        ["avoir quelque chose en commun", "to have something in common"],
-        ["rester en contact", "to keep in touch"],
-        ["un ami/une amie de confiance", "a close/trustworthy friend"],
-        ["se réconcilier après une dispute", "to make up after an argument"],
+        ["faire confiance à quelqu'un", "confiar en alguien"],
+        ["bien/mal s'entendre avec quelqu'un", "llevarse bien/mal con alguien"],
+        ["avoir quelque chose en commun", "tener algo en común"],
+        ["rester en contact", "mantener el contacto"],
+        ["un ami/une amie de confiance", "un amigo cercano/de confianza"],
+        ["se réconcilier après une dispute", "reconciliarse después de una discusión"],
       ],
       grammar: [
         ["Conseils avec « devoir » et « il faut »", "« Devoir » + infinitif donne un conseil doux ; « il faut » + infinitif exprime une obligation plus forte et impersonnelle.", "Tu devrais rester en contact avec tes amis. / Il faut vous réconcilier si vous voulez rester amis."],
@@ -1773,12 +1773,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle du télétravail et de la conciliation vie pro/perso en utilisant le gérondif en français.",
     study: {
       vocab: [
-        ["télétravailler", "to work remotely"],
-        ["les horaires flexibles", "flexible working hours"],
-        ["la déconnexion numérique", "digital disconnection"],
-        ["l'épuisement professionnel (burn-out)", "burnout"],
-        ["concilier vie professionnelle et vie personnelle", "to balance work and personal life"],
-        ["être productif/productive", "to be productive"],
+        ["télétravailler", "trabajar de forma remota"],
+        ["les horaires flexibles", "horario laboral flexible"],
+        ["la déconnexion numérique", "la desconexión digital"],
+        ["l'épuisement professionnel (burn-out)", "el agotamiento (burnout)"],
+        ["concilier vie professionnelle et vie personnelle", "equilibrar el trabajo y la vida personal"],
+        ["être productif/productive", "ser productivo"],
       ],
       grammar: [
         ["Le gérondif pour exprimer la simultanéité ou la cause", "Le gérondif (en + participe présent) exprime une action simultanée à une autre ou sa cause, sans conjonction.", "En travaillant depuis chez soi, on gagne du temps de trajet. / Beaucoup souffrent d'épuisement en travaillant sans se déconnecter."],
@@ -1798,12 +1798,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à négocier et à adoucir des propositions avec le conditionnel en registre formel.",
     study: {
       vocab: [
-        ["parvenir à un accord", "to reach an agreement"],
-        ["faire des concessions", "to give ground/make concessions"],
-        ["une impasse", "a deadlock/stalemate"],
-        ["une position intransigeante", "an inflexible/uncompromising stance"],
-        ["chercher un compromis", "to look for a middle ground"],
-        ["briser la glace", "to break the ice"],
+        ["parvenir à un accord", "llegar a un acuerdo"],
+        ["faire des concessions", "ceder terreno/hacer concesiones"],
+        ["une impasse", "un punto muerto"],
+        ["une position intransigeante", "una postura inflexible/intransigente"],
+        ["chercher un compromis", "buscar un término medio"],
+        ["briser la glace", "romper el hielo"],
       ],
       grammar: [
         ["Le conditionnel pour adoucir des propositions", "Le conditionnel présent adoucit les demandes et propositions lors d'une négociation, donnant une impression de courtoisie et de flexibilité.", "Seriez-vous disposé à faire des concessions sur ce point ? / Il serait préférable de chercher un compromis avant d'arriver à une impasse."],
@@ -1823,12 +1823,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse l'euphémisme dans le langage corporate et entraîne-toi aux connecteurs de reformulation.",
     study: {
       vocab: [
-        ["un euphémisme", "a euphemism"],
-        ["le jargon corporate", "corporate jargon"],
-        ["une restructuration (euphémisme pour licenciement)", "a restructuring (euphemism for layoffs)"],
-        ["adoucir l'impact d'un message", "to soften the impact of a message"],
-        ["un anglicisme inutile", "an unnecessary anglicism"],
-        ["diluer la responsabilité de quelqu'un", "to dilute someone's responsibility"],
+        ["un euphémisme", "un eufemismo"],
+        ["le jargon corporate", "la jerga corporativa"],
+        ["une restructuration (euphémisme pour licenciement)", "una reestructuración (eufemismo de despidos)"],
+        ["adoucir l'impact d'un message", "suavizar el impacto de un mensaje"],
+        ["un anglicisme inutile", "un anglicismo innecesario"],
+        ["diluer la responsabilité de quelqu'un", "diluir la responsabilidad de alguien"],
       ],
       grammar: [
         ["Connecteurs de reformulation et de nuance", "Des expressions comme « c'est-à-dire », « autrement dit » ou « en d'autres termes » reformulent une idée, souvent pour l'adoucir ou la préciser — essentiel pour repérer les euphémismes.", "L'entreprise a annoncé une « restructuration », c'est-à-dire des licenciements. / Autrement dit : ils vont réduire les effectifs."],
@@ -1848,12 +1848,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire du voyage et à parler de projets immédiats avec « aller + infinitif ».",
     study: {
       vocab: [
-        ["le passeport", "the passport"],
-        ["la valise", "the suitcase"],
-        ["le vol", "the flight"],
-        ["la chambre", "the room"],
-        ["la réservation", "the booking"],
-        ["enregistrer les bagages", "to check in luggage"],
+        ["le passeport", "el pasaporte"],
+        ["la valise", "la maleta"],
+        ["le vol", "el vuelo"],
+        ["la chambre", "la habitación"],
+        ["la réservation", "la reserva"],
+        ["enregistrer les bagages", "facturar el equipaje"],
       ],
       grammar: [
         ["« Aller » + infinitif pour le futur proche", "« Aller » + infinitif exprime un projet ou une action qui va se produire bientôt, très utilisé à l'oral.", "Je vais enregistrer les bagages. / Nous allons réserver une chambre pour vendredi."],
@@ -1873,12 +1873,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire de la technologie quotidienne et à comparer avec « aussi... que » et « plus... que ».",
     study: {
       vocab: [
-        ["le wifi", "the wifi"],
-        ["le mot de passe", "the password"],
-        ["l'application", "the app"],
-        ["charger le téléphone", "to charge the phone"],
-        ["télécharger", "to download"],
-        ["la batterie", "the battery"],
+        ["le wifi", "el wifi"],
+        ["le mot de passe", "la contraseña"],
+        ["l'application", "la aplicación"],
+        ["charger le téléphone", "cargar el móvil"],
+        ["télécharger", "descargar"],
+        ["la batterie", "la batería"],
       ],
       grammar: [
         ["Comparatifs d'égalité et de supériorité", "« Aussi + adjectif + que » compare des qualités égales ; « plus + adjectif + que » compare une supériorité.", "Cette application est aussi rapide que l'autre. / Ma batterie dure plus longtemps que la tienne."],
@@ -1898,12 +1898,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des loisirs numériques et à exprimer la durée avec « ça fait... que ».",
     study: {
       vocab: [
-        ["la série", "the series/show"],
-        ["le jeu vidéo", "the video game"],
-        ["la plateforme de streaming", "the streaming platform"],
-        ["devenir accro à quelque chose", "to get hooked on something"],
-        ["le marathon de séries", "binge-watching"],
-        ["les sous-titres", "the subtitles"],
+        ["la série", "la serie"],
+        ["le jeu vidéo", "el videojuego"],
+        ["la plateforme de streaming", "la plataforma de streaming"],
+        ["devenir accro à quelque chose", "engancharse a algo"],
+        ["le marathon de séries", "maratón de series"],
+        ["les sous-titres", "los subtítulos"],
       ],
       grammar: [
         ["« Ça fait... que » pour exprimer la durée", "« Ça fait » + durée + « que » + présent exprime depuis combien de temps une action continue, équivalent à « to have been doing something ».", "Ça fait deux heures que je regarde cette série. / Ça fait tout le week-end qu'on joue aux jeux vidéo."],
@@ -1923,12 +1923,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle de cybersécurité en utilisant les propositions relatives déterminatives et explicatives.",
     study: {
       vocab: [
-        ["la cybersécurité", "cybersecurity"],
-        ["pirater un système", "to hack a system"],
-        ["les données personnelles", "personal data"],
-        ["un mot de passe sécurisé", "a strong password"],
-        ["l'usurpation d'identité", "identity theft/phishing"],
-        ["chiffrer les informations", "to encrypt information"],
+        ["la cybersécurité", "la ciberseguridad"],
+        ["pirater un système", "hackear un sistema"],
+        ["les données personnelles", "los datos personales"],
+        ["un mot de passe sécurisé", "una contraseña segura"],
+        ["l'usurpation d'identité", "robo de identidad/phishing"],
+        ["chiffrer les informations", "cifrar información"],
       ],
       grammar: [
         ["Propositions relatives déterminatives et explicatives", "Les déterminatives (sans virgules) précisent de quoi on parle et ne peuvent pas être supprimées ; les explicatives (entre virgules) ajoutent une information supplémentaire et peuvent être supprimées.", "Les données que nous partageons en ligne peuvent être piratées. (déterminative) / Mes données, que je partage peu, sont bien protégées. (explicative)"],
@@ -1948,12 +1948,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la mémoire historique et le patrimoine culturel avec « être + participe passé » pour les états résultants.",
     study: {
       vocab: [
-        ["le patrimoine culturel", "cultural heritage"],
-        ["préserver la mémoire historique", "to preserve historical memory"],
-        ["un monument commémoratif", "a memorial"],
-        ["l'héritage", "the legacy"],
-        ["réécrire l'histoire", "to rewrite history"],
-        ["l'identité collective", "collective identity"],
+        ["le patrimoine culturel", "el patrimonio cultural"],
+        ["préserver la mémoire historique", "preservar la memoria histórica"],
+        ["un monument commémoratif", "un monumento conmemorativo"],
+        ["l'héritage", "el legado"],
+        ["réécrire l'histoire", "reescribir la historia"],
+        ["l'identité collective", "la identidad colectiva"],
       ],
       grammar: [
         ["« Être + participe passé » pour l'état résultant", "« Être » + participe passé décrit l'état résultant d'une action passée, comme adjectif, à la différence du passif décrivant l'action elle-même.", "Le monument est dédié aux victimes. / L'histoire est marquée par des conflits internes."],
@@ -1973,12 +1973,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse l'ambiguïté institutionnelle et entraîne-toi aux connecteurs de nuance épistémique.",
     study: {
       vocab: [
-        ["l'ambiguïté calculée", "calculated ambiguity"],
-        ["un communiqué institutionnel", "an institutional statement"],
-        ["éviter de s'engager", "to avoid committing oneself"],
-        ["le flou délibéré", "deliberate vagueness"],
-        ["lire entre les lignes", "to read between the lines"],
-        ["un langage évasif", "evasive language"],
+        ["l'ambiguïté calculée", "ambigüedad calculada"],
+        ["un communiqué institutionnel", "una declaración institucional"],
+        ["éviter de s'engager", "evitar comprometerse"],
+        ["le flou délibéré", "vaguedad deliberada"],
+        ["lire entre les lignes", "leer entre líneas"],
+        ["un langage évasif", "lenguaje evasivo"],
       ],
       grammar: [
         ["Connecteurs de nuance épistémique", "Des expressions comme « il convient de souligner que », « il ne fait aucun doute que » ou « en quelque sorte » nuancent le degré de certitude ou de pertinence, typiques du discours institutionnel.", "Il convient de souligner que le communiqué évite de s'engager sur des dates précises. / En quelque sorte, le flou est délibéré."],
@@ -1998,12 +1998,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire du sport et à exprimer tes goûts avec le verbe « aimer ».",
     study: {
       vocab: [
-        ["le football", "soccer/football"],
-        ["la natation", "swimming"],
-        ["courir", "to run"],
-        ["la salle de sport", "the gym"],
-        ["faire de l'exercice", "to exercise"],
-        ["l'équipe", "the team"],
+        ["le football", "el fútbol"],
+        ["la natation", "la natación"],
+        ["courir", "correr"],
+        ["la salle de sport", "el gimnasio"],
+        ["faire de l'exercice", "hacer ejercicio"],
+        ["l'équipe", "el equipo"],
       ],
       grammar: [
         ["Le verbe « aimer » + infinitif/nom pour exprimer des goûts", "En français, « aimer » fonctionne comme un verbe normal, conjugué avec le sujet qui aime, suivi d'un infinitif ou d'un nom (souvent avec article défini).", "J'aime nager. / Elle aime les sports d'équipe."],
@@ -2023,12 +2023,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des tâches ménagères et à exprimer une obligation impersonnelle avec « il faut ».",
     study: {
       vocab: [
-        ["balayer", "to sweep"],
-        ["laver la vaisselle", "to wash the dishes"],
-        ["sortir les poubelles", "to take out the trash"],
-        ["repasser les vêtements", "to iron the clothes"],
-        ["faire le lit", "to make the bed"],
-        ["passer l'aspirateur", "to vacuum"],
+        ["balayer", "barrer"],
+        ["laver la vaisselle", "fregar los platos"],
+        ["sortir les poubelles", "sacar la basura"],
+        ["repasser les vêtements", "planchar la ropa"],
+        ["faire le lit", "hacer la cama"],
+        ["passer l'aspirateur", "pasar la aspiradora"],
       ],
       grammar: [
         ["« Il faut » + infinitif pour l'obligation impersonnelle", "« Il faut » + infinitif exprime une obligation générale, sans préciser qui doit la faire, à la différence de « devoir » qui prend un sujet.", "Il faut sortir les poubelles tous les jours. / Avant de partir, il faut faire le lit."],
@@ -2048,12 +2048,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends du vocabulaire sur les rendez-vous amoureux et à faire des promesses et prédictions avec le futur simple.",
     study: {
       vocab: [
-        ["avoir un rendez-vous", "to go on a date"],
-        ["tomber amoureux/amoureuse de quelqu'un", "to fall in love with someone"],
-        ["rompre avec quelqu'un", "to break up with someone"],
-        ["le/la partenaire", "the partner/couple"],
-        ["manquer à quelqu'un", "to miss someone"],
-        ["se fiancer/s'engager", "to get engaged/commit"],
+        ["avoir un rendez-vous", "tener una cita"],
+        ["tomber amoureux/amoureuse de quelqu'un", "enamorarse de alguien"],
+        ["rompre avec quelqu'un", "romper con alguien"],
+        ["le/la partenaire", "la pareja"],
+        ["manquer à quelqu'un", "echar de menos a alguien"],
+        ["se fiancer/s'engager", "comprometerse"],
       ],
       grammar: [
         ["Le futur simple pour les promesses et prédictions", "Le futur simple (-erai, -eras, -era...) sert à faire des promesses formelles ou à prédire ce qui arrivera, plus définitif que « aller + infinitif ».", "Je te promets que je ne romprai jamais avec toi. / Je crois que vous vous fiancerez bientôt."],
@@ -2073,12 +2073,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle du tourisme durable en utilisant « à moins que » et « pourvu que » + subjonctif.",
     study: {
       vocab: [
-        ["le surtourisme", "overtourism"],
-        ["saturer une destination touristique", "to overcrowd a tourist destination"],
-        ["le tourisme durable", "sustainable tourism"],
-        ["faire grimper les loyers locaux", "to drive up local housing costs"],
-        ["répartir l'impact touristique", "to spread out tourism's impact"],
-        ["respecter la culture locale", "to respect the local culture"],
+        ["le surtourisme", "la masificación turística"],
+        ["saturer une destination touristique", "saturar un destino turístico"],
+        ["le tourisme durable", "el turismo sostenible"],
+        ["faire grimper les loyers locaux", "encarecer la vivienda local"],
+        ["répartir l'impact touristique", "repartir el impacto del turismo"],
+        ["respecter la culture locale", "respetar la cultura local"],
       ],
       grammar: [
         ["« À moins que » et « pourvu que » + subjonctif", "« À moins que » (unless) et « pourvu que » (provided that) introduisent une condition et sont suivies du subjonctif.", "La destination restera saturée à moins que le tourisme ne soit régulé. / Le tourisme sera positif pourvu que la culture locale soit respectée."],
@@ -2098,12 +2098,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la gastronomie comme identité culturelle en utilisant des structures emphatiques avec « ce qui/ce que ».",
     study: {
       vocab: [
-        ["l'appellation d'origine protégée", "protected designation of origin"],
-        ["un plat emblématique", "an iconic/signature dish"],
-        ["la fusion culinaire", "culinary fusion"],
-        ["préserver une recette traditionnelle", "to preserve a traditional recipe"],
-        ["s'approprier une tradition culinaire", "to appropriate a culinary tradition"],
-        ["le palais collectif", "the collective palate"],
+        ["l'appellation d'origine protégée", "denominación de origen protegida"],
+        ["un plat emblématique", "un plato emblemático"],
+        ["la fusion culinaire", "la fusión culinaria"],
+        ["préserver une recette traditionnelle", "preservar una receta tradicional"],
+        ["s'approprier une tradition culinaire", "apropiarse de una tradición culinaria"],
+        ["le palais collectif", "el paladar colectivo"],
       ],
       grammar: [
         ["Structures emphatiques avec « ce qui/ce que »", "« Ce qui/ce que » + verbe + « c'est » met l'accent sur un élément de la phrase, lui donnant plus de relief, très utilisé en registre argumentatif.", "Ce qui définit une culture, c'est sa gastronomie. / Ce qui inquiète les chefs locaux, c'est l'appropriation de leurs recettes."],
@@ -2123,12 +2123,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la rhétorique de crise et entraîne-toi aux structures d'intensification rhétorique.",
     study: {
       vocab: [
-        ["la panique morale", "moral panic"],
-        ["une crise fabriquée", "a manufactured crisis"],
-        ["catastrophiser une situation", "to catastrophize a situation"],
-        ["un bouc émissaire", "a scapegoat"],
-        ["disproportionner une menace", "to blow a threat out of proportion"],
-        ["un discours alarmiste", "alarmist rhetoric"],
+        ["la panique morale", "el pánico moral"],
+        ["une crise fabriquée", "una crisis fabricada"],
+        ["catastrophiser une situation", "catastrofizar una situación"],
+        ["un bouc émissaire", "un chivo expiatorio"],
+        ["disproportionner une menace", "exagerar desproporcionadamente una amenaza"],
+        ["un discours alarmiste", "la retórica alarmista"],
       ],
       grammar: [
         ["Structures d'intensification rhétorique", "« Non seulement... mais aussi » et « de plus en plus » intensifient une affirmation en accumulant la gravité — procédé typique du discours de crise et de la panique morale.", "Non seulement la menace est exagérée, mais on cherche aussi un bouc émissaire. / Le discours alarmiste est de plus en plus fréquent dans les médias."],
@@ -2148,12 +2148,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire scolaire et à bien utiliser les articles définis et indéfinis.",
     study: {
       vocab: [
-        ["le cahier", "the notebook"],
-        ["le crayon", "the pencil"],
-        ["le sac à dos", "the backpack"],
-        ["les mathématiques", "math"],
-        ["l'histoire", "history"],
-        ["le professeur/la professeure", "the teacher"],
+        ["le cahier", "el cuaderno"],
+        ["le crayon", "el lápiz"],
+        ["le sac à dos", "la mochila"],
+        ["les mathématiques", "las matemáticas"],
+        ["l'histoire", "la historia"],
+        ["le professeur/la professeure", "el profesor/la profesora"],
       ],
       grammar: [
         ["Articles définis et indéfinis", "Les articles définis (le, la, les) désignent quelque chose de spécifique ou déjà connu ; les indéfinis (un, une, des) désignent quelque chose de non spécifique ou mentionné pour la première fois.", "J'ai un nouveau cahier. / Le cahier est dans le sac à dos."],
@@ -2173,12 +2173,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire postal et à utiliser les pronoms objets directs (le/la/les).",
     study: {
       vocab: [
-        ["le colis", "the package"],
-        ["la lettre", "the letter"],
-        ["le timbre", "the stamp"],
-        ["envoyer par la poste", "to mail/send"],
-        ["la boîte aux lettres", "the mailbox"],
-        ["l'adresse", "the address"],
+        ["le colis", "el paquete"],
+        ["la lettre", "la carta"],
+        ["le timbre", "el sello"],
+        ["envoyer par la poste", "enviar por correo"],
+        ["la boîte aux lettres", "el buzón"],
+        ["l'adresse", "la dirección"],
       ],
       grammar: [
         ["Pronoms objets directs (le/la/les)", "Les pronoms objets directs remplacent un nom déjà mentionné, s'accordent en genre et en nombre, et se placent avant le verbe conjugué.", "La lettre ? Je l'ai envoyée hier. / Les colis ? Je les ai reçus ce matin."],
@@ -2198,12 +2198,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire du cinéma et du théâtre et à construire des phrases temporelles avec « quand », « pendant que » et « avant que ».",
     study: {
       vocab: [
-        ["le billet", "the ticket"],
-        ["la première", "the premiere"],
-        ["le casting/la distribution", "the cast"],
-        ["les effets spéciaux", "special effects"],
-        ["le siège", "the seat"],
-        ["l'entracte", "the intermission"],
+        ["le billet", "la entrada"],
+        ["la première", "el estreno"],
+        ["le casting/la distribution", "el reparto"],
+        ["les effets spéciaux", "los efectos especiales"],
+        ["le siège", "el asiento"],
+        ["l'entracte", "el intermedio"],
       ],
       grammar: [
         ["Phrases temporelles avec « quand », « pendant que » et « avant que »", "« Quand » et « pendant que » + indicatif décrivent des actions habituelles ou simultanées ; « avant que » exige le subjonctif car il introduit une action pas encore réalisée.", "J'achète les billets quand j'arrive au cinéma. / On discute pendant qu'on attend la première. / On arrive avant que le film ne commence."],
@@ -2223,12 +2223,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle d'activisme social en utilisant le subjonctif après les verbes d'influence (exiger, demander que).",
     study: {
       vocab: [
-        ["une manifestation", "a protest"],
-        ["exiger un changement", "to demand change"],
-        ["signer une pétition", "to sign a petition"],
-        ["sensibiliser sur quelque chose", "to raise awareness about something"],
-        ["un collectif/une organisation", "a collective/organization"],
-        ["mobiliser les gens", "to mobilize people"],
+        ["une manifestation", "una protesta"],
+        ["exiger un changement", "exigir un cambio"],
+        ["signer une pétition", "firmar una petición"],
+        ["sensibiliser sur quelque chose", "concienciar sobre algo"],
+        ["un collectif/une organisation", "un colectivo/una organización"],
+        ["mobiliser les gens", "movilizar a la gente"],
       ],
       grammar: [
         ["Le subjonctif après les verbes d'influence", "Des verbes comme « exiger », « demander » ou « suggérer » + « que » exigent le subjonctif dans la subordonnée car ils cherchent à influencer l'action d'une autre personne.", "Les manifestants exigent que le gouvernement agisse. / Le collectif demande que la pétition soit signée."],
@@ -2248,12 +2248,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse le vieillissement démographique avec des propositions consécutives (« si...que », « de telle sorte que »).",
     study: {
       vocab: [
-        ["le vieillissement démographique", "population aging"],
-        ["le système de retraite", "the pension system"],
-        ["le taux de natalité", "the birth rate"],
-        ["l'espérance de vie", "life expectancy"],
-        ["soutenir le système de retraite", "to sustain the pension system"],
-        ["le fossé générationnel", "the generational gap"],
+        ["le vieillissement démographique", "el envejecimiento de la población"],
+        ["le système de retraite", "el sistema de pensiones"],
+        ["le taux de natalité", "la tasa de natalidad"],
+        ["l'espérance de vie", "la esperanza de vida"],
+        ["soutenir le système de retraite", "sostener el sistema de pensiones"],
+        ["le fossé générationnel", "la brecha generacional"],
       ],
       grammar: [
         ["Propositions consécutives : « si...que » et « de telle sorte que »", "Les propositions consécutives expriment une conséquence issue d'une intensité ou d'une manière. « Si + adjectif + que » souligne le degré ; « de telle sorte que » introduit le résultat d'une action.", "La population vieillit si vite que le système de retraite est en péril. / La natalité a baissé de telle sorte qu'il manque de jeunes travailleurs."],
@@ -2273,12 +2273,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la rhétorique du silence et entraîne-toi à l'ellipse à des fins rhétoriques.",
     study: {
       vocab: [
-        ["le silence éloquent", "eloquent silence"],
-        ["omettre délibérément quelque chose", "to deliberately omit something"],
-        ["le non-dit", "the unsaid"],
-        ["un vide discursif", "a discursive gap"],
-        ["laisser quelque chose en suspens", "to leave something hanging"],
-        ["l'ellipse rhétorique", "rhetorical ellipsis"],
+        ["le silence éloquent", "el silencio elocuente"],
+        ["omettre délibérément quelque chose", "omitir algo deliberadamente"],
+        ["le non-dit", "lo no dicho"],
+        ["un vide discursif", "un vacío discursivo"],
+        ["laisser quelque chose en suspens", "dejar algo en el aire"],
+        ["l'ellipse rhétorique", "la elipsis retórica"],
       ],
       grammar: [
         ["L'ellipse à des fins rhétoriques", "L'ellipse omet un élément sous-entendu par le contexte, créant de l'emphase ou laissant une idée délibérément incomplète — un procédé puissant dans le discours politique et littéraire.", "Certains se taisent par peur ; d'autres, par complicité. (on omet « se taisent ») / Il a promis des réformes... et le silence. (on omet le verbe attendu)"],
@@ -2298,12 +2298,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à dire l'heure et les moments de la journée avec des prépositions de temps.",
     study: {
       vocab: [
-        ["le matin", "the morning"],
-        ["l'après-midi", "the afternoon"],
-        ["le soir/la nuit", "the night"],
-        ["midi", "noon"],
-        ["minuit", "midnight"],
-        ["pile", "o'clock/sharp"],
+        ["le matin", "la mañana"],
+        ["l'après-midi", "la tarde"],
+        ["le soir/la nuit", "la noche"],
+        ["midi", "el mediodía"],
+        ["minuit", "la medianoche"],
+        ["pile", "en punto"],
       ],
       grammar: [
         ["« Quelle heure est-il ? » + prépositions de temps", "Pour demander l'heure, on dit « Quelle heure est-il ? » ; pour répondre, « il est une heure » (singulier) ou « il est + nombre + heures » (pluriel), avec « du matin/de l'après-midi/du soir » pour préciser le moment.", "Il est trois heures de l'après-midi. / Il est une heure pile du matin."],
@@ -2323,12 +2323,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire bancaire de base et à utiliser « pouvoir » pour la possibilité et la permission.",
     study: {
       vocab: [
-        ["le compte bancaire", "the bank account"],
-        ["le distributeur automatique", "the ATM"],
-        ["retirer de l'argent", "to withdraw money"],
-        ["déposer de l'argent", "to deposit money"],
-        ["la carte de débit", "the debit card"],
-        ["le solde", "the balance"],
+        ["le compte bancaire", "la cuenta bancaria"],
+        ["le distributeur automatique", "el cajero automático"],
+        ["retirer de l'argent", "retirar dinero"],
+        ["déposer de l'argent", "ingresar dinero"],
+        ["la carte de débit", "la tarjeta de débito"],
+        ["le solde", "el saldo"],
       ],
       grammar: [
         ["« Pouvoir » + infinitif pour la possibilité et la permission", "« Pouvoir » + infinitif exprime la capacité, la possibilité ou la permission, selon le contexte.", "Est-ce que je peux ouvrir un compte ici ? / Tu peux retirer de l'argent à n'importe quel distributeur."],
@@ -2348,12 +2348,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends le vocabulaire des longs voyages et à utiliser « bien que » et « même si ».",
     study: {
       vocab: [
-        ["le retard", "the delay"],
-        ["rater le vol/le train", "to miss the flight/train"],
-        ["faire une escale", "to make a layover/stopover"],
-        ["le quai", "the platform"],
-        ["annuler un vol", "to cancel a flight"],
-        ["la place côté fenêtre/couloir", "the window/aisle seat"],
+        ["le retard", "el retraso"],
+        ["rater le vol/le train", "perder el vuelo/tren"],
+        ["faire une escale", "hacer escala"],
+        ["le quai", "el andén"],
+        ["annuler un vol", "cancelar un vuelo"],
+        ["la place côté fenêtre/couloir", "el asiento de ventanilla/pasillo"],
       ],
       grammar: [
         ["« Bien que » + subjonctif et « même si » + indicatif", "« Bien que » exige toujours le subjonctif, même pour un fait réel ; « même si » (even if) exprime une concession réelle ou hypothétique avec l'indicatif.", "Bien que le train soit arrivé en retard, j'ai eu mon vol. / Même si le vol est annulé, nous avons une autre option."],
@@ -2373,12 +2373,12 @@ window.LESSON_BANKS.FR = [
     description:"Parle d'économie collaborative en utilisant le futur et le conditionnel de probabilité.",
     study: {
       vocab: [
-        ["l'économie collaborative", "the sharing economy"],
-        ["louer plutôt qu'acheter", "to rent instead of buying"],
-        ["la consommation responsable", "conscious consumption"],
-        ["partager des ressources", "to share resources"],
-        ["l'obsolescence programmée", "planned obsolescence"],
-        ["réduire le gaspillage", "to reduce waste"],
+        ["l'économie collaborative", "la economía colaborativa"],
+        ["louer plutôt qu'acheter", "alquilar en vez de comprar"],
+        ["la consommation responsable", "el consumo consciente"],
+        ["partager des ressources", "compartir recursos"],
+        ["l'obsolescence programmée", "la obsolescencia programada"],
+        ["réduire le gaspillage", "reducir los residuos"],
       ],
       grammar: [
         ["Le futur et le conditionnel de probabilité", "Le futur simple peut exprimer une conjecture sur le présent (« il sera dix heures ») ; le conditionnel simple exprime une conjecture sur le passé (« il serait dix heures quand il est arrivé »).", "Ce modèle aura environ cinq ans d'obsolescence programmée. / Avec cette consommation, ils dépenseraient moins de ressources que prévu."],
@@ -2398,12 +2398,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse la communication non verbale en utilisant « comme si » + subjonctif/imparfait.",
     study: {
       vocab: [
-        ["le langage corporel", "body language"],
-        ["le contact visuel", "eye contact"],
-        ["un geste mal interprété", "a misinterpreted gesture"],
-        ["la proxémique (distance personnelle)", "proxemics (personal space)"],
-        ["un signal culturel", "a cultural cue"],
-        ["le silence gênant", "awkward silence"],
+        ["le langage corporel", "el lenguaje corporal"],
+        ["le contact visuel", "el contacto visual"],
+        ["un geste mal interprété", "un gesto malinterpretado"],
+        ["la proxémique (distance personnelle)", "la proxémica (espacio personal)"],
+        ["un signal culturel", "una señal cultural"],
+        ["le silence gênant", "un silencio incómodo"],
       ],
       grammar: [
         ["« Comme si » + imparfait ou plus-que-parfait", "« Comme si » est toujours suivi de l'imparfait ou du plus-que-parfait de l'indicatif (jamais du subjonctif en français), même pour une comparaison au présent, car il décrit quelque chose d'hypothétique.", "Il a agi comme s'il comprenait le geste, alors qu'il ne le comprenait pas. / Elle a réagi comme si elle avait été offensée."],
@@ -2423,12 +2423,12 @@ window.LESSON_BANKS.FR = [
     description:"Analyse le langage scientifique en utilisant des expressions de nuance épistémique (hedging).",
     study: {
       vocab: [
-        ["l'incertitude statistique", "statistical uncertainty"],
-        ["une marge d'erreur", "a margin of error"],
-        ["une corrélation n'implique pas la causalité", "correlation does not imply causation"],
-        ["les résultats préliminaires", "preliminary results"],
-        ["une hypothèse non confirmée", "an unconfirmed hypothesis"],
-        ["nuancer une affirmation", "to hedge/qualify a claim"],
+        ["l'incertitude statistique", "la incertidumbre estadística"],
+        ["une marge d'erreur", "un margen de error"],
+        ["une corrélation n'implique pas la causalité", "correlación no implica causalidad"],
+        ["les résultats préliminaires", "resultados preliminares"],
+        ["une hypothèse non confirmée", "una hipótesis no confirmada"],
+        ["nuancer une affirmation", "matizar una afirmación"],
       ],
       grammar: [
         ["Expressions de nuance épistémique (hedging)", "Des expressions comme « on pourrait dire que », « il n'est pas absurde de penser que » ou « les données suggèrent, sans confirmer, que » nuancent le degré de certitude d'une affirmation scientifique, évitant les généralisations excessives.", "On pourrait dire qu'il existe une tendance, bien que les données soient préliminaires. / Les résultats suggèrent, sans confirmer, un lien de causalité."],
@@ -2448,12 +2448,12 @@ window.LESSON_BANKS.FR = [
     description:"Apprends à décrire la météo et les saisons en français avec “il fait/il y a”.",
     study: {
       vocab: [
-        ["ensoleillé", "sunny"],
-        ["pluvieux", "rainy"],
-        ["froid", "cold"],
-        ["chaud", "hot"],
-        ["le printemps", "spring"],
-        ["l'hiver", "winter"],
+        ["ensoleillé", "soleado"],
+        ["pluvieux", "lluvioso"],
+        ["froid", "frío"],
+        ["chaud", "caluroso"],
+        ["le printemps", "la primavera"],
+        ["l'hiver", "el invierno"],
       ],
       grammar: [
         ["“Il fait” pour la météo", "Pour parler du temps, on utilise “il fait” + adjectif (“il fait froid”) ou “il y a” + nom (“il y a du soleil”). Pour la pluie: “il pleut” (verbe impersonnel).", "Il fait beau aujourd'hui. / Il pleut au printemps."],
@@ -2473,12 +2473,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario sobre mascotas y a usar “devoir” para obligaciones en francés.",
     study: {
       vocab: [
-        ["nourrir l'animal", "to feed the pet"],
-        ["promener le chien", "to walk the dog"],
-        ["le vétérinaire", "the veterinarian"],
-        ["vacciner", "to vaccinate"],
-        ["la litière", "the litter box"],
-        ["adopter un animal", "to adopt a pet"],
+        ["nourrir l'animal", "alimentar a la mascota"],
+        ["promener le chien", "pasear al perro"],
+        ["le vétérinaire", "el veterinario"],
+        ["vacciner", "vacunar"],
+        ["la litière", "la caja de arena"],
+        ["adopter un animal", "adoptar una mascota"],
       ],
       grammar: [
         ["“Devoir” para obligaciones", "“Devoir” + infinitivo expresa una obligación o necesidad cotidiana.", "Je dois promener le chien tous les matins. / Elle doit nourrir le chat deux fois par jour."],
@@ -2498,12 +2498,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de emprendimiento y a usar “aller” (futur proche) para planes en francés.",
     study: {
       vocab: [
-        ["la start-up", "startup"],
-        ["lancer un produit", "to launch a product"],
-        ["l'investisseur", "investor"],
-        ["le plan d'affaires", "business plan"],
-        ["prendre un risque", "to take a risk"],
-        ["faire évoluer une entreprise", "to scale a business"],
+        ["la start-up", "la startup"],
+        ["lancer un produit", "lanzar un producto"],
+        ["l'investisseur", "el inversor"],
+        ["le plan d'affaires", "el plan de negocio"],
+        ["prendre un risque", "asumir un riesgo"],
+        ["faire évoluer une entreprise", "escalar un negocio"],
       ],
       grammar: [
         ["“Aller” + infinitif (futur proche) para planes", "“Aller” + infinitivo (futur proche) expresa un plan o intención ya decidida.", "Nous allons lancer le produit le mois prochain. / Elle va chercher des investisseurs."],
@@ -2523,12 +2523,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de la exploración espacial usando el futur antérieur en francés.",
     study: {
       vocab: [
-        ["la mission spatiale", "space mission"],
-        ["l'astronaute", "astronaut"],
-        ["orbiter", "to orbit"],
-        ["le lancement de fusée", "rocket launch"],
-        ["l'espace extra-atmosphérique", "outer space"],
-        ["la station spatiale", "space station"],
+        ["la mission spatiale", "la misión espacial"],
+        ["l'astronaute", "el astronauta"],
+        ["orbiter", "orbitar"],
+        ["le lancement de fusée", "el lanzamiento del cohete"],
+        ["l'espace extra-atmosphérique", "el espacio exterior"],
+        ["la station spatiale", "la estación espacial"],
       ],
       grammar: [
         ["Futur antérieur para logros futuros", "El futur antérieur (“avoir/être” en futuro + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "D'ici 2030, les astronautes auront atterri sur Mars. / La fusée aura atteint l'orbite d'ici là."],
@@ -2548,12 +2548,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la ética de la IA usando la voz pasiva en registro formal en francés.",
     study: {
       vocab: [
-        ["l'intelligence artificielle", "artificial intelligence"],
-        ["le biais algorithmique", "algorithmic bias"],
-        ["la responsabilité", "accountability"],
-        ["la confidentialité des données", "data privacy"],
-        ["réglementer", "to regulate"],
-        ["les conséquences imprévues", "unintended consequences"],
+        ["l'intelligence artificielle", "la inteligencia artificial"],
+        ["le biais algorithmique", "el sesgo algorítmico"],
+        ["la responsabilité", "la rendición de cuentas"],
+        ["la confidentialité des données", "la privacidad de datos"],
+        ["réglementer", "regular"],
+        ["les conséquences imprévues", "consecuencias no deseadas"],
       ],
       grammar: [
         ["La voix passive en registro formal/académico", "La voix passive (“être” + participio) se usa en francés formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Ces systèmes devraient être réglementés pour éviter les biais. / Le biais algorithmique a été documenté dans plusieurs études."],
@@ -2573,12 +2573,12 @@ window.LESSON_BANKS.FR = [
     description:"Reflexiona sobre la conciencia usando phrases clivées (estructuras enfáticas) en francés.",
     study: {
       vocab: [
-        ["la conscience", "consciousness"],
-        ["l'expérience subjective", "subjective experience"],
-        ["l'expérience de pensée", "thought experiment"],
-        ["le libre arbitre", "free will"],
-        ["la conscience de soi", "self-awareness"],
-        ["le problème corps-esprit", "the mind-body problem"],
+        ["la conscience", "la conciencia"],
+        ["l'expérience subjective", "la experiencia subjetiva"],
+        ["l'expérience de pensée", "un experimento mental"],
+        ["le libre arbitre", "el libre albedrío"],
+        ["la conscience de soi", "la autoconciencia"],
+        ["le problème corps-esprit", "el problema mente-cuerpo"],
       ],
       grammar: [
         ["Phrases clivées (“ce qui... c'est...”) para énfasis", "Las phrases clivées (“ce qui... c'est...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Ce qui définit vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective."],
@@ -2598,12 +2598,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de jardinería y a dar instrucciones simples en francés con el imperativo.",
     study: {
       vocab: [
-        ["arroser les plantes", "to water the plants"],
-        ["la graine", "the seed"],
-        ["pousser", "to grow"],
-        ["la fleur", "the flower"],
-        ["la terre", "the soil"],
-        ["la lumière du soleil", "sunlight"],
+        ["arroser les plantes", "regar las plantas"],
+        ["la graine", "la semilla"],
+        ["pousser", "crecer"],
+        ["la fleur", "la flor"],
+        ["la terre", "la tierra"],
+        ["la lumière du soleil", "la luz solar"],
       ],
       grammar: [
         ["L'impératif pour les instructions", "El imperativo (tu) se usa para dar órdenes o instrucciones. La forma negativa usa “ne... pas” alrededor del verbo.", "Arrose les plantes tous les jours. / N'oublie pas de fermer la porte."],
@@ -2623,12 +2623,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de biblioteca y a narrar en passé composé en francés.",
     study: {
       vocab: [
-        ["emprunter un livre", "to borrow a book"],
-        ["la carte de bibliothèque", "the library card"],
-        ["la date de retour", "the due date"],
-        ["l'étagère", "the bookshelf"],
-        ["le roman", "the novel"],
-        ["rendre un livre", "to return a book"],
+        ["emprunter un livre", "pedir prestado un libro"],
+        ["la carte de bibliothèque", "el carné de la biblioteca"],
+        ["la date de retour", "la fecha de vencimiento"],
+        ["l'étagère", "la estantería"],
+        ["le roman", "la novela"],
+        ["rendre un livre", "devolver un libro"],
       ],
       grammar: [
         ["Passé composé para narrar", "El passé composé (“avoir/être” + participio) describe acciones completas en el pasado.", "J'ai emprunté un roman la semaine dernière. / Elle a rendu le livre à temps."],
@@ -2648,12 +2648,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de crianza y a usar el imparfait para hábitos pasados en francés.",
     study: {
       vocab: [
-        ["allaiter", "to breastfeed"],
-        ["le berceau", "the crib"],
-        ["faire faire un rot au bébé", "to burp the baby"],
-        ["la routine du coucher", "bedtime routine"],
-        ["faire du baby-sitting", "to babysit"],
-        ["le pédiatre", "the pediatrician"],
+        ["allaiter", "amamantar"],
+        ["le berceau", "la cuna"],
+        ["faire faire un rot au bébé", "hacer eructar al bebé"],
+        ["la routine du coucher", "la rutina para dormir"],
+        ["faire du baby-sitting", "cuidar niños"],
+        ["le pédiatre", "el pediatra"],
       ],
       grammar: [
         ["Imparfait para hábitos pasados", "El imparfait describe hábitos o estados repetidos en el pasado, sin un final marcado.", "Le bébé se réveillait toutes les deux heures. / Nous rendions visite au pédiatre chaque mois."],
@@ -2673,12 +2673,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de descubrimientos arqueológicos usando el futur antérieur de probabilidad en francés.",
     study: {
       vocab: [
-        ["le site archéologique", "archaeological site"],
-        ["fouiller", "to excavate"],
-        ["la civilisation ancienne", "ancient civilization"],
-        ["l'artefact", "artifact"],
-        ["dater (une découverte)", "to date (a find)"],
-        ["les ruines", "ruins"],
+        ["le site archéologique", "el yacimiento arqueológico"],
+        ["fouiller", "excavar"],
+        ["la civilisation ancienne", "una civilización antigua"],
+        ["l'artefact", "un artefacto"],
+        ["dater (une découverte)", "datar (un hallazgo)"],
+        ["les ruines", "las ruinas"],
       ],
       grammar: [
         ["Devoir/Pouvoir + infinitif passé para probabilidad", "“Devoir avoir” + participio expresa una deducción fuerte sobre el pasado; “pouvoir avoir” + participio expresa una posibilidad menos segura.", "Cet artefact a dû appartenir à un roi. / Le site a pu être un temple."],
@@ -2698,12 +2698,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la neurociencia usando la inversión enfática en registro académico en francés.",
     study: {
       vocab: [
-        ["la voie neuronale", "neural pathway"],
-        ["la synapse", "synapse"],
-        ["la neuroplasticité", "neuroplasticity"],
-        ["la fonction cognitive", "cognitive function"],
-        ["le neurotransmetteur", "neurotransmitter"],
-        ["l'imagerie cérébrale", "brain scan"],
+        ["la voie neuronale", "la vía neuronal"],
+        ["la synapse", "la sinapsis"],
+        ["la neuroplasticité", "la neuroplasticidad"],
+        ["la fonction cognitive", "la función cognitiva"],
+        ["le neurotransmetteur", "el neurotransmisor"],
+        ["l'imagerie cérébrale", "el escáner cerebral"],
       ],
       grammar: [
         ["Inversion sujet-verbe après un adverbe pour l'emphase", "En francés formal/académico, ciertos adverbios al inicio (“Rarement”, “À peine”) pueden provocar la inversión sujeto-verbo para dar énfasis.", "Rarement les chercheurs ont-ils trouvé une preuve aussi claire. / À peine le cerveau s'adapte-t-il qu'il se répare déjà."],
@@ -2723,12 +2723,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la economía conductual usando nominalización en registro académico en francés.",
     study: {
       vocab: [
-        ["le biais cognitif", "cognitive bias"],
-        ["l'aversion à la perte", "loss aversion"],
-        ["l'effet d'ancrage", "anchoring effect"],
-        ["la prise de décision", "decision-making"],
-        ["le comportement irrationnel", "irrational behavior"],
-        ["l'incitation douce", "nudge"],
+        ["le biais cognitif", "el sesgo cognitivo"],
+        ["l'aversion à la perte", "la aversión a la pérdida"],
+        ["l'effet d'ancrage", "el efecto anclaje"],
+        ["la prise de décision", "la toma de decisiones"],
+        ["le comportement irrationnel", "el comportamiento irracional"],
+        ["l'incitation douce", "el empujón (nudge) conductual"],
       ],
       grammar: [
         ["Nominalisation en registro académico", "La nominalisation convierte verbos en sustantivos abstractos (“décider” → “la prise de décision”), un rasgo típico del francés académico formal.", "La persistance du biais cognitif affecte la prise de décision. / Les chercheurs étudient l'évitement de la perte."],
@@ -2748,12 +2748,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de fotografía y a usar “pouvoir” para habilidad en francés.",
     study: {
       vocab: [
-        ["l'appareil photo", "camera"],
-        ["la photo", "photo/picture"],
-        ["l'objectif", "lens"],
-        ["prendre une photo", "to take a picture"],
-        ["le zoom", "zoom"],
-        ["la carte mémoire", "memory card"],
+        ["l'appareil photo", "la cámara"],
+        ["la photo", "la foto"],
+        ["l'objectif", "el objetivo"],
+        ["prendre une photo", "tomar una foto"],
+        ["le zoom", "el zoom"],
+        ["la carte mémoire", "la tarjeta de memoria"],
       ],
       grammar: [
         ["“Pouvoir” para habilidad", "“Pouvoir” + infinitivo expresa habilidad o capacidad; en negativo se usa “ne peut pas”.", "Je peux prendre de belles photos avec cet appareil. / Cet appareil ne peut pas zoomer très loin."],
@@ -2773,12 +2773,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de camping y a usar “du/de la/pas de” para cantidades en francés.",
     study: {
       vocab: [
-        ["la tente", "tent"],
-        ["le sac de couchage", "sleeping bag"],
-        ["le feu de camp", "campfire"],
-        ["le sentier de randonnée", "hiking trail"],
-        ["le sac à dos", "backpack"],
-        ["monter une tente", "to pitch a tent"],
+        ["la tente", "la tienda de campaña"],
+        ["le sac de couchage", "el saco de dormir"],
+        ["le feu de camp", "la hoguera"],
+        ["le sentier de randonnée", "la ruta de senderismo"],
+        ["le sac à dos", "la mochila"],
+        ["monter une tente", "montar una tienda de campaña"],
       ],
       grammar: [
         ["Article partitif y “pas de” para cantidades", "El artículo partitivo (“du/de la”) se usa en afirmativas para cantidades indefinidas; en negativas se usa “pas de”.", "Nous avons du bois pour le feu de camp. / Il ne nous reste pas d'eau."],
@@ -2798,12 +2798,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de apicultura y a usar cláusulas relativas en francés.",
     study: {
       vocab: [
-        ["la ruche", "beehive"],
-        ["le miel", "honey"],
-        ["piquer", "to sting"],
-        ["polliniser", "to pollinate"],
-        ["l'apiculteur", "beekeeper"],
-        ["la reine des abeilles", "queen bee"],
+        ["la ruche", "la colmena"],
+        ["le miel", "la miel"],
+        ["piquer", "picar"],
+        ["polliniser", "polinizar"],
+        ["l'apiculteur", "el apicultor"],
+        ["la reine des abeilles", "la abeja reina"],
       ],
       grammar: [
         ["Pronoms relatifs (qui/que)", "“Qui” reemplaza al sujeto de la cláusula relativa; “que” reemplaza al complemento de objeto directo.", "L'apiculteur qui gère cette ruche est très expérimenté. / Les abeilles, que nous protégeons, sont essentielles."],
@@ -2823,12 +2823,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de criptomonedas usando el conditionnel passé en francés.",
     study: {
       vocab: [
-        ["la cryptomonnaie", "cryptocurrency"],
-        ["la blockchain", "blockchain"],
-        ["le portefeuille numérique", "digital wallet"],
-        ["investir", "to invest"],
-        ["la volatilité", "volatility"],
-        ["décentralisé", "decentralized"],
+        ["la cryptomonnaie", "la criptomoneda"],
+        ["la blockchain", "la cadena de bloques"],
+        ["le portefeuille numérique", "la cartera digital"],
+        ["investir", "invertir"],
+        ["la volatilité", "la volatilidad"],
+        ["décentralisé", "descentralizado"],
       ],
       grammar: [
         ["Plus-que-parfait + conditionnel passé", "Para hipótesis irreales sobre el pasado se usa “si” + plus-que-parfait, y “conditionnel passé” (“aurais/aurait” + participio) en la consecuencia.", "Si j'avais investi plus tôt, j'aurais gagné plus d'argent. / Si le marché ne s'était pas effondré, les prix seraient restés élevés."],
@@ -2848,12 +2848,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la bioética usando “si...que/tellement...que” para énfasis en francés.",
     study: {
       vocab: [
-        ["la modification du génome", "gene editing"],
-        ["le consentement éclairé", "informed consent"],
-        ["l'essai clinique", "clinical trial"],
-        ["la modification génétique", "genetic modification"],
-        ["le dilemme éthique", "ethical dilemma"],
-        ["manipuler l'ADN", "to manipulate DNA"],
+        ["la modification du génome", "la edición genética"],
+        ["le consentement éclairé", "el consentimiento informado"],
+        ["l'essai clinique", "el ensayo clínico"],
+        ["la modification génétique", "la modificación genética"],
+        ["le dilemme éthique", "el dilema ético"],
+        ["manipuler l'ADN", "manipular el ADN"],
       ],
       grammar: [
         ["“Si...que/tellement...que” para énfasis", "“Si” o “tellement” + adjetivo/adverbio + “que” expresan una consecuencia enfática.", "La modification du génome est si puissante qu'elle soulève de sérieuses questions éthiques. / C'est un dilemme tellement complexe que les experts ne s'accordent pas encore."],
@@ -2873,12 +2873,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en francés.",
     study: {
       vocab: [
-        ["les relations diplomatiques", "diplomatic relations"],
-        ["la souveraineté", "sovereignty"],
-        ["les sanctions", "sanctions"],
-        ["l'accord bilatéral", "bilateral agreement"],
-        ["la tension géopolitique", "geopolitical tension"],
-        ["négocier un traité", "to negotiate a treaty"],
+        ["les relations diplomatiques", "las relaciones diplomáticas"],
+        ["la souveraineté", "la soberanía"],
+        ["les sanctions", "las sanciones"],
+        ["l'accord bilatéral", "el acuerdo bilateral"],
+        ["la tension géopolitique", "la tensión geopolítica"],
+        ["négocier un traité", "negociar un tratado"],
       ],
       grammar: [
         ["Gérondif y participe pour un registro académico conciso", "El gerundio (“En analysant...”) y el participio pasado en construcciones absolutas (“Face aux sanctions croissantes...”) permiten un estilo más conciso y formal.", "En analysant les données, les chercheurs ont conclu que les tensions augmenteraient. / Face aux sanctions croissantes, le gouvernement a changé sa politique."],
@@ -2898,12 +2898,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de peluquería y a usar el comparativo y superlativo en francés.",
     study: {
       vocab: [
-        ["la coupe de cheveux", "haircut"],
-        ["le coiffeur/la coiffeuse", "hairdresser"],
-        ["les ciseaux", "scissors"],
-        ["les cheveux courts/longs", "short/long hair"],
-        ["tailler", "to trim"],
-        ["le miroir", "mirror"],
+        ["la coupe de cheveux", "el corte de pelo"],
+        ["le coiffeur/la coiffeuse", "el peluquero"],
+        ["les ciseaux", "las tijeras"],
+        ["les cheveux courts/longs", "pelo corto/largo"],
+        ["tailler", "recortar"],
+        ["le miroir", "el espejo"],
       ],
       grammar: [
         ["Comparatif et superlatif", "El comparativo se forma con “plus/moins... que”, y el superlativo con “le/la plus...”.", "Cette coupe est plus courte que la dernière. / Elle a les cheveux les plus longs de la famille."],
@@ -2923,12 +2923,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario del taller mecánico y a usar “beaucoup de” en francés.",
     study: {
       vocab: [
-        ["le mécanicien", "mechanic"],
-        ["le pneu crevé", "flat tire"],
-        ["le moteur", "engine"],
-        ["réparer la voiture", "to fix the car"],
-        ["la pièce détachée", "spare part"],
-        ["la vidange", "oil change"],
+        ["le mécanicien", "el mecánico"],
+        ["le pneu crevé", "la rueda pinchada"],
+        ["le moteur", "el motor"],
+        ["réparer la voiture", "arreglar el coche"],
+        ["la pièce détachée", "la pieza de repuesto"],
+        ["la vidange", "el cambio de aceite"],
       ],
       grammar: [
         ["“Beaucoup de” para cantidades", "“Beaucoup de” se usa con sustantivos contables e incontables por igual, sin artículo partitivo después.", "Cette réparation nécessite beaucoup de pièces détachées. / Il ne reste pas beaucoup de temps avant le voyage."],
@@ -2948,12 +2948,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario musical y a usar el infinitivo tras ciertos verbos en francés.",
     study: {
       vocab: [
-        ["faire des gammes", "to practice scales"],
-        ["la partition", "sheet music"],
-        ["accorder un instrument", "to tune an instrument"],
-        ["le rythme", "rhythm"],
-        ["le professeur de musique", "music teacher"],
-        ["se produire en public", "to perform"],
+        ["faire des gammes", "practicar escalas"],
+        ["la partition", "la partitura"],
+        ["accorder un instrument", "afinar un instrumento"],
+        ["le rythme", "el ritmo"],
+        ["le professeur de musique", "el profesor de música"],
+        ["se produire en public", "actuar/interpretar"],
       ],
       grammar: [
         ["Verbos seguidos de infinitivo", "En francés, muchos verbos van seguidos de un infinitivo, a veces directamente y a veces con “de” o “à”.", "J'aime faire des gammes chaque matin. / Elle veut se produire devant un public."],
@@ -2973,12 +2973,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla del reciclaje usando el presente para verdades generales (condicional cero) en francés.",
     study: {
       vocab: [
-        ["recycler", "to recycle"],
-        ["l'économie circulaire", "circular economy"],
-        ["la gestion des déchets", "waste management"],
-        ["réutiliser", "to reuse"],
-        ["la décharge", "landfill"],
-        ["la matière première", "raw material"],
+        ["recycler", "reciclar"],
+        ["l'économie circulaire", "la economía circular"],
+        ["la gestion des déchets", "la gestión de residuos"],
+        ["réutiliser", "reutilizar"],
+        ["la décharge", "el vertedero"],
+        ["la matière première", "la materia prima"],
       ],
       grammar: [
         ["Présent pour les vérités générales (conditionnel zéro)", "En francés, el condicional cero se expresa con “si” + presente en ambas cláusulas, para hechos o verdades generales.", "Si tu recycles du papier, ça économise des arbres. / Les matériaux finissent dans une décharge s'ils ne sont pas réutilisés."],
@@ -2998,12 +2998,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la justicia social usando “si seulement” para arrepentimiento en registro formal en francés.",
     study: {
       vocab: [
-        ["la justice sociale", "social justice"],
-        ["l'inégalité", "inequality"],
-        ["les droits civiques", "civil rights"],
-        ["la redistribution", "redistribution"],
-        ["l'oppression systémique", "systemic oppression"],
-        ["le bien commun", "common good"],
+        ["la justice sociale", "la justicia social"],
+        ["l'inégalité", "la desigualdad"],
+        ["les droits civiques", "los derechos civiles"],
+        ["la redistribution", "la redistribución"],
+        ["l'oppression systémique", "la opresión sistémica"],
+        ["le bien commun", "el bien común"],
       ],
       grammar: [
         ["“Si seulement” + plus-que-parfait para arrepentimiento", "“Si seulement” + plus-que-parfait du subjonctif (o indicatif en registro menos formal) expresa arrepentimiento sobre el pasado.", "Si seulement les réformes passées avaient traité l'oppression systémique. / Les philosophes souhaiteraient que l'inégalité puisse être résolue par la seule politique."],
@@ -3023,12 +3023,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza los rituales culturales usando comparativos dobles en francés.",
     study: {
       vocab: [
-        ["le rituel", "ritual"],
-        ["le relativisme culturel", "cultural relativism"],
-        ["le rite de passage", "rite of passage"],
-        ["la parenté", "kinship"],
-        ["l'identité collective", "collective identity"],
-        ["la tradition orale", "oral tradition"],
+        ["le rituel", "el ritual"],
+        ["le relativisme culturel", "el relativismo cultural"],
+        ["le rite de passage", "el rito de iniciación"],
+        ["la parenté", "el parentesco"],
+        ["l'identité collective", "la identidad colectiva"],
+        ["la tradition orale", "la tradición oral"],
       ],
       grammar: [
         ["Comparatifs doubles (“plus... plus...”)", "La estructura “plus/moins..., plus/moins...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Plus les anthropologues étudient les rituels, plus ils comprennent l'identité collective. / Plus une tradition est ancienne, plus son influence est forte."],
@@ -3048,12 +3048,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de herramientas y a usar la comparación de igualdad (“aussi... que”) en francés.",
     study: {
       vocab: [
-        ["le marteau", "hammer"],
-        ["le tournevis", "screwdriver"],
-        ["le clou", "nail"],
-        ["la vis", "screw"],
-        ["la boîte à outils", "toolbox"],
-        ["l'échelle", "ladder"],
+        ["le marteau", "el martillo"],
+        ["le tournevis", "el destornillador"],
+        ["le clou", "el clavo"],
+        ["la vis", "el tornillo"],
+        ["la boîte à outils", "la caja de herramientas"],
+        ["l'échelle", "la escalera"],
       ],
       grammar: [
         ["Comparaison d'égalité (“aussi... que”)", "“Aussi” + adjetivo + “que” expresa que dos cosas son iguales en cierta cualidad.", "Ce marteau est aussi lourd que celui-là. / L'échelle n'est pas aussi haute que le mur."],
@@ -3073,12 +3073,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de lavandería y a usar “quelques/un peu de” en francés.",
     study: {
       vocab: [
-        ["la machine à laver", "washing machine"],
-        ["la lessive", "detergent"],
-        ["étendre le linge", "to hang out clothes"],
-        ["la tache", "stain"],
-        ["le sèche-linge", "dryer"],
-        ["repasser", "to iron"],
+        ["la machine à laver", "la lavadora"],
+        ["la lessive", "el detergente"],
+        ["étendre le linge", "tender la ropa"],
+        ["la tache", "la mancha"],
+        ["le sèche-linge", "la secadora"],
+        ["repasser", "planchar"],
       ],
       grammar: [
         ["“Quelques/un peu de” para cantidades pequeñas", "“Quelques” se usa con sustantivos contables, “un peu de” con incontables, ambos para cantidades pequeñas pero suficientes.", "J'ai besoin d'un peu de lessive pour cette machine. / Il y a quelques taches sur cette chemise."],
@@ -3098,12 +3098,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de ajedrez y a usar el futur simple con “si” en francés.",
     study: {
       vocab: [
-        ["l'échiquier", "chessboard"],
-        ["faire échec et mat", "to checkmate"],
-        ["le pion", "pawn"],
-        ["déplacer une pièce", "to move a piece"],
-        ["la stratégie", "strategy"],
-        ["l'adversaire", "opponent"],
+        ["l'échiquier", "el tablero de ajedrez"],
+        ["faire échec et mat", "dar jaque mate"],
+        ["le pion", "el peón"],
+        ["déplacer une pièce", "mover una pieza"],
+        ["la stratégie", "la estrategia"],
+        ["l'adversaire", "el oponente"],
       ],
       grammar: [
         ["“Si” + présent + futur simple", "Para consecuencias reales y probables en el futuro se usa “si” + presente, y futur simple en la consecuencia.", "Si tu déplaces cette pièce, tu perdras la partie. / Si elle planifie bien sa stratégie, elle gagnera."],
@@ -3123,12 +3123,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de restauración usando la construcción causativa “faire + infinitif” en francés.",
     study: {
       vocab: [
-        ["restaurer", "to restore"],
-        ["le site patrimonial", "heritage site"],
-        ["la façade", "facade"],
-        ["l'échafaudage", "scaffolding"],
-        ["préserver", "to preserve"],
-        ["les dommages structurels", "structural damage"],
+        ["restaurer", "restaurar"],
+        ["le site patrimonial", "el sitio patrimonial"],
+        ["la façade", "la fachada"],
+        ["l'échafaudage", "el andamio"],
+        ["préserver", "preservar"],
+        ["les dommages structurels", "el daño estructural"],
       ],
       grammar: [
         ["Construction causative (“faire + infinitif”)", "“Faire” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "La ville a fait restaurer la façade l'année dernière. / Ils font réparer le toit ce mois-ci."],
@@ -3148,12 +3148,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza el método científico usando cláusulas de propósito (“afin de/pour que”) en francés.",
     study: {
       vocab: [
-        ["l'hypothèse", "hypothesis"],
-        ["la falsifiabilité", "falsifiability"],
-        ["les preuves empiriques", "empirical evidence"],
-        ["l'évaluation par les pairs", "peer review"],
-        ["répliquer une étude", "to replicate a study"],
-        ["le changement de paradigme", "paradigm shift"],
+        ["l'hypothèse", "la hipótesis"],
+        ["la falsifiabilité", "la falsabilidad"],
+        ["les preuves empiriques", "la evidencia empírica"],
+        ["l'évaluation par les pairs", "la revisión por pares"],
+        ["répliquer une étude", "replicar un estudio"],
+        ["le changement de paradigme", "el cambio de paradigma"],
       ],
       grammar: [
         ["Cláusulas de propósito (“afin de/pour que”)", "“Afin de” + infinitivo y “pour que” + subjonctif expresan el propósito de una acción, típicos del registro formal/académico.", "Les scientifiques répliquent des études afin de confirmer les résultats. / Les chercheurs publient des données pour que d'autres puissent les vérifier."],
@@ -3173,12 +3173,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la teoría de juegos usando “ni... ni” y concesión con “alors que/tandis que” en francés.",
     study: {
       vocab: [
-        ["l'équilibre de Nash", "Nash equilibrium"],
-        ["le jeu à somme nulle", "zero-sum game"],
-        ["la matrice des gains", "payoff matrix"],
-        ["la stratégie dominante", "dominant strategy"],
-        ["l'acteur rationnel", "rational actor"],
-        ["le dilemme du prisonnier", "prisoner's dilemma"],
+        ["l'équilibre de Nash", "el equilibrio de Nash"],
+        ["le jeu à somme nulle", "el juego de suma cero"],
+        ["la matrice des gains", "la matriz de resultados"],
+        ["la stratégie dominante", "la estrategia dominante"],
+        ["l'acteur rationnel", "el actor racional"],
+        ["le dilemme du prisonnier", "el dilema del prisionero"],
       ],
       grammar: [
         ["“Ni... ni” y concesión con “alors que/tandis que”", "“Ni... ni” niega dos opciones a la vez; “alors que/tandis que” introducen un contraste formal entre dos ideas.", "Ni l'un ni l'autre joueur ne profite de la trahison mutuelle. / Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent."],
@@ -3198,12 +3198,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de buceo y a usar preposiciones de lugar en francés.",
     study: {
       vocab: [
-        ["plonger", "to dive"],
-        ["le tuba", "snorkel"],
-        ["le poisson", "fish"],
-        ["le récif corallien", "coral reef"],
-        ["la combinaison de plongée", "wetsuit"],
-        ["sous l'eau", "underwater"],
+        ["plonger", "bucear"],
+        ["le tuba", "el tubo de buceo"],
+        ["le poisson", "el pez"],
+        ["le récif corallien", "el arrecife de coral"],
+        ["la combinaison de plongée", "el traje de neopreno"],
+        ["sous l'eau", "bajo el agua"],
       ],
       grammar: [
         ["Prépositions de lieu (dans/sur/sous/à côté de)", "“Dans” indica dentro de algo, “sur” indica encima de una superficie, “sous” indica debajo, y “à côté de” indica al lado.", "Les poissons nagent dans l'eau. / Le récif corallien est sous le bateau."],
@@ -3223,12 +3223,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de manualidades y a usar secuenciadores en francés.",
     study: {
       vocab: [
-        ["plier", "to fold"],
-        ["le papier", "paper"],
-        ["les ciseaux", "scissors"],
-        ["la colle", "glue"],
-        ["le pli", "crease"],
-        ["le loisir créatif", "craft"],
+        ["plier", "doblar"],
+        ["le papier", "el papel"],
+        ["les ciseaux", "las tijeras"],
+        ["la colle", "el pegamento"],
+        ["le pli", "el pliegue"],
+        ["le loisir créatif", "la manualidad"],
       ],
       grammar: [
         ["Séquenceurs (d'abord, ensuite, puis, enfin)", "Los secuenciadores organizan los pasos de un proceso en orden: “d'abord” (primero), “ensuite/puis” (luego), “enfin” (finalmente).", "D'abord, plie le papier en deux. Ensuite, fais un pli. Enfin, plie les coins."],
@@ -3248,12 +3248,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de paleontología y a usar “déjà/encore/toujours” con el passé composé en francés.",
     study: {
       vocab: [
-        ["le fossile", "fossil"],
-        ["l'os de dinosaure", "dinosaur bone"],
-        ["le site de fouilles", "excavation site"],
-        ["éteint", "extinct"],
-        ["le squelette", "skeleton"],
-        ["déterrer", "to dig up"],
+        ["le fossile", "el fósil"],
+        ["l'os de dinosaure", "el hueso de dinosaurio"],
+        ["le site de fouilles", "el sitio de excavación"],
+        ["éteint", "extinto"],
+        ["le squelette", "el esqueleto"],
+        ["déterrer", "desenterrar"],
       ],
       grammar: [
         ["“Déjà/pas encore/toujours” con el passé composé", "“Déjà” (ya) se usa en afirmativas, “pas encore” (todavía no) en negativas, y “toujours” (todavía) enfatiza una situación que continúa.", "Ils ont déjà trouvé le squelette. / Ils n'ont pas encore fini les fouilles. / Les scientifiques étudient toujours le fossile."],
@@ -3273,12 +3273,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de arte urbano usando “à moins que” en francés.",
     study: {
       vocab: [
-        ["la fresque murale", "mural"],
-        ["la peinture en aérosol", "spray paint"],
-        ["l'espace public", "public space"],
-        ["le vandalisme", "vandalism"],
-        ["l'artiste de rue", "street artist"],
-        ["commander une fresque", "to commission a mural"],
+        ["la fresque murale", "el mural"],
+        ["la peinture en aérosol", "la pintura en aerosol"],
+        ["l'espace public", "el espacio público"],
+        ["le vandalisme", "el vandalismo"],
+        ["l'artiste de rue", "el artista callejero"],
+        ["commander une fresque", "encargar un mural"],
       ],
       grammar: [
         ["“À moins que” + subjonctif", "“À moins que” + subjonctif expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "À moins que la ville ne l'approuve, la fresque sera considérée comme du vandalisme. / Elle ne peindra pas à moins d'avoir la permission."],
@@ -3298,12 +3298,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la criminología usando “pouvoir” para posibilidad en registro formal en francés.",
     study: {
       vocab: [
-        ["la preuve médico-légale", "forensic evidence"],
-        ["le suspect", "suspect"],
-        ["condamner", "to convict"],
-        ["le doute raisonnable", "reasonable doubt"],
-        ["la récidive", "recidivism"],
-        ["la réhabilitation", "rehabilitation"],
+        ["la preuve médico-légale", "la evidencia forense"],
+        ["le suspect", "el sospechoso"],
+        ["condamner", "condenar"],
+        ["le doute raisonnable", "la duda razonable"],
+        ["la récidive", "la reincidencia"],
+        ["la réhabilitation", "la rehabilitación"],
       ],
       grammar: [
         ["“Pouvoir” para posibilidad formal", "“Pouvoir” + infinitivo expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "La preuve médico-légale peut désigner le suspect. / Sans réhabilitation, la récidive pourrait augmenter."],
@@ -3323,12 +3323,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la filosofía del lenguaje usando el subjonctif tras verbos de sugerencia en francés.",
     study: {
       vocab: [
-        ["l'acte de langage", "speech act"],
-        ["la référence", "reference"],
-        ["le sens", "meaning"],
-        ["l'ambiguïté", "ambiguity"],
-        ["la relativité linguistique", "linguistic relativity"],
-        ["la proposition", "proposition"],
+        ["l'acte de langage", "el acto de habla"],
+        ["la référence", "la referencia"],
+        ["le sens", "el significado"],
+        ["l'ambiguïté", "la ambigüedad"],
+        ["la relativité linguistique", "la relatividad lingüística"],
+        ["la proposition", "la proposición"],
       ],
       grammar: [
         ["Subjonctif tras verbos de sugerencia (suggérer/insister/recommander que)", "Tras verbos como “suggérer”, “insister” o “recommander” + “que”, el verbo siguiente va en subjonctif, típico del registro formal/académico.", "Les philosophes suggèrent que le sens soit étudié à travers l'usage. / Le linguiste insiste pour que le contexte soit pris en compte."],
@@ -3348,12 +3348,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario del circo y a usar exclamaciones (“quel.../comme...”) en francés.",
     study: {
       vocab: [
-        ["le clown", "clown"],
-        ["la corde raide", "tightrope"],
-        ["le jongleur", "juggler"],
-        ["l'acrobate", "acrobat"],
-        ["le chapiteau", "tent"],
-        ["incroyable", "amazing"],
+        ["le clown", "el payaso"],
+        ["la corde raide", "la cuerda floja"],
+        ["le jongleur", "el malabarista"],
+        ["l'acrobate", "el acróbata"],
+        ["le chapiteau", "la tienda de campaña"],
+        ["incroyable", "asombroso"],
       ],
       grammar: [
         ["Exclamations (“quel.../comme...”)", "“Quel/quelle” + sustantivo y “Comme” + cláusula expresan sorpresa o admiración de forma exclamativa.", "Quel jongleur incroyable ! / Comme ce spectacle est incroyable !"],
@@ -3373,12 +3373,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de mercados de pulgas y a usar “trop/assez” en francés.",
     study: {
       vocab: [
-        ["le marché aux puces", "flea market"],
-        ["la bonne affaire", "bargain"],
-        ["marchander", "to haggle"],
-        ["d'occasion", "secondhand"],
-        ["le vendeur", "vendor"],
-        ["l'antiquité", "antique"],
+        ["le marché aux puces", "el mercadillo"],
+        ["la bonne affaire", "la ganga"],
+        ["marchander", "regatear"],
+        ["d'occasion", "de segunda mano"],
+        ["le vendeur", "el vendedor"],
+        ["l'antiquité", "la antigüedad"],
       ],
       grammar: [
         ["“Trop/assez”", "“Trop” + adjetivo indica exceso (“demasiado”), mientras que “assez” + adjetivo indica suficiencia (“lo suficientemente”).", "Cette antiquité est trop chère. / Je n'ai pas assez d'argent pour cette bonne affaire."],
@@ -3398,12 +3398,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de genealogía y a usar “bien que/même si” en francés.",
     study: {
       vocab: [
-        ["l'arbre généalogique", "family tree"],
-        ["l'ancêtre", "ancestor"],
-        ["le descendant", "descendant"],
-        ["l'acte de naissance", "birth certificate"],
-        ["l'arrière-grand-parent", "great-grandparent"],
-        ["retracer ses racines", "to trace one's roots"],
+        ["l'arbre généalogique", "el árbol genealógico"],
+        ["l'ancêtre", "el antepasado"],
+        ["le descendant", "el descendiente"],
+        ["l'acte de naissance", "el certificado de nacimiento"],
+        ["l'arrière-grand-parent", "el bisabuelo/la bisabuela"],
+        ["retracer ses racines", "rastrear las propias raíces"],
       ],
       grammar: [
         ["“Bien que/même si” para concesión", "“Bien que” + subjonctif expresa una concesión formal; “même si” + indicatif expresa lo mismo de forma más neutra.", "Bien que les archives soient anciennes, nous avons retracé nos racines. / Même si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale."],
@@ -3423,12 +3423,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de fenómenos meteorológicos extremos usando “malgré” en francés.",
     study: {
       vocab: [
-        ["l'ouragan", "hurricane"],
-        ["la tornade", "tornado"],
-        ["la sécheresse", "drought"],
-        ["la crue soudaine", "flash flood"],
-        ["la vitesse du vent", "wind speed"],
-        ["émettre une alerte", "to issue a warning"],
+        ["l'ouragan", "el huracán"],
+        ["la tornade", "el tornado"],
+        ["la sécheresse", "la sequía"],
+        ["la crue soudaine", "la inundación repentina"],
+        ["la vitesse du vent", "la velocidad del viento"],
+        ["émettre une alerte", "emitir una alerta"],
       ],
       grammar: [
         ["“Malgré” + sustantivo/infinitivo", "“Malgré” + sustantivo o infinitivo (nunca cláusula conjugada completa) introduce un contraste, similar a “bien que” pero con estructura distinta.", "Malgré l'alerte, beaucoup de gens sont restés près de la côte. / Malgré avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts."],
@@ -3448,12 +3448,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la gentrificación usando el conditionnel passé para crítica del pasado en francés.",
     study: {
       vocab: [
-        ["la gentrification", "gentrification"],
-        ["le déplacement", "displacement"],
-        ["le logement abordable", "affordable housing"],
-        ["le renouveau urbain", "urban renewal"],
-        ["le loyer croissant", "rising rent"],
-        ["la communauté locale", "local community"],
+        ["la gentrification", "la gentrificación"],
+        ["le déplacement", "el desplazamiento"],
+        ["le logement abordable", "la vivienda asequible"],
+        ["le renouveau urbain", "la renovación urbana"],
+        ["le loyer croissant", "el aumento del alquiler"],
+        ["la communauté locale", "la comunidad local"],
       ],
       grammar: [
         ["“Aurait dû/n'aurait pas dû” para crítica del pasado", "“Aurait dû” + infinitivo expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "La ville aurait dû protéger le logement abordable. / Les autorités n'auraient pas dû ignorer la communauté locale."],
@@ -3473,12 +3473,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en francés.",
     study: {
       vocab: [
-        ["l'épistémologie", "epistemology"],
-        ["la croyance vraie justifiée", "justified true belief"],
-        ["le scepticisme", "skepticism"],
-        ["la certitude", "certainty"],
-        ["la connaissance a priori", "a priori knowledge"],
-        ["l'humilité épistémique", "epistemic humility"],
+        ["l'épistémologie", "la epistemología"],
+        ["la croyance vraie justifiée", "la creencia verdadera justificada"],
+        ["le scepticisme", "el escepticismo"],
+        ["la certitude", "la certeza"],
+        ["la connaissance a priori", "el conocimiento a priori"],
+        ["l'humilité épistémique", "la humildad epistémica"],
       ],
       grammar: [
         ["“À peine... que” para secuencia inmediata", "“À peine... que” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés; en registro muy formal puede invertir sujeto-verbo.", "À peine les philosophes avaient-ils proposé une théorie que les sceptiques la contestaient. / À peine affirme-t-on savoir quelque chose que le doute surgit."],
@@ -3498,12 +3498,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de observación de aves y a usar posesivos en francés.",
     study: {
       vocab: [
-        ["les jumelles", "binoculars"],
-        ["le nid", "nest"],
-        ["la plume", "feather"],
-        ["le bec", "beak"],
-        ["voler", "to fly"],
-        ["l'aile", "wing"],
+        ["les jumelles", "los prismáticos"],
+        ["le nid", "el nido"],
+        ["la plume", "la pluma"],
+        ["le bec", "el pico"],
+        ["voler", "volar"],
+        ["l'aile", "el ala"],
       ],
       grammar: [
         ["Adjectifs possessifs (mon/ton/son/notre/leur)", "Los adjetivos posesivos franceses concuerdan en género y número con el sustantivo poseído (no con el poseedor).", "Mes jumelles sont neuves. / L'oiseau utilise ses ailes pour voler."],
@@ -3523,12 +3523,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de cerámica y a usar “combien de” en francés.",
     study: {
       vocab: [
-        ["l'argile", "clay"],
-        ["le tour de potier", "pottery wheel"],
-        ["le four à céramique", "kiln"],
-        ["façonner", "to shape"],
-        ["l'émail", "glaze"],
-        ["le bol", "bowl"],
+        ["l'argile", "la arcilla"],
+        ["le tour de potier", "el torno de alfarero"],
+        ["le four à céramique", "el horno de cerámica"],
+        ["façonner", "moldear"],
+        ["l'émail", "el esmalte"],
+        ["le bol", "el cuenco"],
       ],
       grammar: [
         ["“Combien de”", "“Combien de” se usa tanto con sustantivos contables como incontables para preguntar cantidad, sin distinción como en inglés.", "Combien d'argile as-tu besoin ? / Combien de bols as-tu fait ?"],
@@ -3548,12 +3548,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de artes marciales y a usar “à la fois...et/soit...soit” en francés.",
     study: {
       vocab: [
-        ["les arts martiaux", "martial arts"],
-        ["la ceinture noire", "black belt"],
-        ["la technique", "technique"],
-        ["la prise de l'adversaire", "opponent's grip"],
-        ["l'équilibre", "balance"],
-        ["le dojo", "dojo"],
+        ["les arts martiaux", "las artes marciales"],
+        ["la ceinture noire", "el cinturón negro"],
+        ["la technique", "la técnica"],
+        ["la prise de l'adversaire", "el agarre del oponente"],
+        ["l'équilibre", "el equilibrio"],
+        ["le dojo", "el dojo"],
       ],
       grammar: [
         ["“À la fois...et/soit...soit”", "“À la fois... et” conecta dos elementos afirmando ambos; “soit... soit” presenta dos opciones alternativas.", "L'aïkido demande à la fois de la force et de l'équilibre. / Tu peux t'entraîner soit le matin, soit le soir."],
@@ -3573,12 +3573,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de micología usando “comme si” en francés.",
     study: {
       vocab: [
-        ["le champignon", "mushroom"],
-        ["la spore", "spore"],
-        ["comestible", "edible"],
-        ["vénéneux", "poisonous"],
-        ["le champignon/la moisissure", "fungus"],
-        ["le mycélium", "mycelium"],
+        ["le champignon", "la seta"],
+        ["la spore", "la espora"],
+        ["comestible", "comestible"],
+        ["vénéneux", "venenoso"],
+        ["le champignon/la moisissure", "el hongo"],
+        ["le mycélium", "el micelio"],
       ],
       grammar: [
         ["“Comme si” + imparfait/plus-que-parfait", "“Comme si” siempre va seguido de imparfait o plus-que-parfait, aunque la comparación sea sobre el presente.", "Ce champignon a l'air comme s'il était vénéneux. / Le mycélium se propage comme s'il avait sa propre volonté."],
@@ -3598,12 +3598,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza los ecosistemas marinos usando “pourvu que/à condition que” en francés.",
     study: {
       vocab: [
-        ["l'écosystème marin", "marine ecosystem"],
-        ["la biodiversité", "biodiversity"],
-        ["la chaîne alimentaire", "food chain"],
-        ["le blanchissement des coraux", "coral bleaching"],
-        ["l'espèce marine", "marine species"],
-        ["l'acidification des océans", "ocean acidification"],
+        ["l'écosystème marin", "el ecosistema marino"],
+        ["la biodiversité", "la biodiversidad"],
+        ["la chaîne alimentaire", "la cadena alimentaria"],
+        ["le blanchissement des coraux", "el blanqueamiento de coral"],
+        ["l'espèce marine", "las especies marinas"],
+        ["l'acidification des océans", "la acidificación del océano"],
       ],
       grammar: [
         ["“Pourvu que/à condition que” + subjonctif", "“Pourvu que” y “à condition que” + subjonctif expresan una condición necesaria, equivalentes a “provided that” en inglés.", "La biodiversité marine peut se rétablir, pourvu que la pollution diminue. / Les récifs survivent à condition que les températures restent stables."],
@@ -3623,12 +3623,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la cartografía usando “sans/n'était...” en francés.",
     study: {
       vocab: [
-        ["le cartographe", "cartographer"],
-        ["la projection", "projection"],
-        ["le territoire inexploré", "uncharted territory"],
-        ["l'échelle", "scale"],
-        ["l'instrument de navigation", "navigational instrument"],
-        ["cartographier", "to chart"],
+        ["le cartographe", "el cartógrafo"],
+        ["la projection", "la proyección"],
+        ["le territoire inexploré", "el territorio inexplorado"],
+        ["l'échelle", "la escala"],
+        ["l'instrument de navigation", "el instrumento de navegación"],
+        ["cartographier", "cartografiar"],
       ],
       grammar: [
         ["“Sans/n'était...” para condición formal", "“Sans” + sustantivo y “n'était (le fait que)” expresan una condición hipotética formal, equivalentes a “were it not for” en inglés.", "Sans les premiers cartographes, l'exploration aurait été impossible. / N'était l'imagerie satellite, les cartes modernes seraient bien moins précises."],
@@ -3648,12 +3648,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de costura y a usar verbos pronominales básicos en francés.",
     study: {
       vocab: [
-        ["l'aiguille", "needle"],
-        ["le fil", "thread"],
-        ["coudre", "to sew"],
-        ["essayer (un vêtement)", "to try on"],
-        ["le bouton", "button"],
-        ["le tailleur", "tailor"],
+        ["l'aiguille", "la aguja"],
+        ["le fil", "el hilo"],
+        ["coudre", "coser"],
+        ["essayer (un vêtement)", "probarse"],
+        ["le bouton", "el botón"],
+        ["le tailleur", "el sastre"],
       ],
       grammar: [
         ["Verbes pronominaux basiques", "Los verbos pronominales franceses usan “me/te/se/nous/vous/se”, pero “essayer” (probarse ropa) puede usarse sin forma pronominal (“j'essaie”) o con ella (“je m'essaie à” con otro sentido).", "J'essaie la veste. / Elle coud le bouton elle-même."],
@@ -3673,12 +3673,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de escalada y a usar “être en train de” + duración en francés.",
     study: {
       vocab: [
-        ["la corde", "rope"],
-        ["le harnais", "harness"],
-        ["le sommet", "summit"],
-        ["la falaise", "cliff"],
-        ["escalader", "to climb"],
-        ["la prise", "grip"],
+        ["la corde", "la cuerda"],
+        ["le harnais", "el arnés"],
+        ["le sommet", "la cima"],
+        ["la falaise", "el acantilado"],
+        ["escalader", "escalar"],
+        ["la prise", "el agarre"],
       ],
       grammar: [
         ["“Ça fait... que” para duración continua", "“Ça fait” + tiempo + “que” + presente expresa una acción que empezó en el pasado y continúa, similar al presente perfecto continuo en inglés.", "Ça fait trois heures qu'on escalade. / Ça fait un an qu'elle s'entraîne pour le sommet."],
@@ -3698,12 +3698,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de numismática y a usar “s'habituer à/avoir l'habitude de” en francés.",
     study: {
       vocab: [
-        ["la pièce de monnaie", "coin"],
-        ["l'hôtel de la Monnaie", "mint"],
-        ["la pièce rare", "rare coin"],
-        ["la collection", "collection"],
-        ["la devise", "currency"],
-        ["évaluer", "to appraise"],
+        ["la pièce de monnaie", "la moneda"],
+        ["l'hôtel de la Monnaie", "la casa de la moneda"],
+        ["la pièce rare", "la moneda rara"],
+        ["la collection", "la colección"],
+        ["la devise", "la divisa"],
+        ["évaluer", "tasar"],
       ],
       grammar: [
         ["“Avoir l'habitude de/s'habituer à”", "“Avoir l'habitude de” + infinitivo expresa un hábito ya establecido; “s'habituer à” + infinitivo expresa el proceso de acostumbrarse.", "J'ai l'habitude d'évaluer de vieilles pièces. / Il a fallu du temps pour s'habituer à collectionner des devises rares."],
@@ -3723,12 +3723,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de sismología usando preguntas indirectas en francés.",
     study: {
       vocab: [
-        ["le tremblement de terre", "earthquake"],
-        ["le sismographe", "seismograph"],
-        ["l'épicentre", "epicenter"],
-        ["la magnitude", "magnitude"],
-        ["la plaque tectonique", "tectonic plate"],
-        ["la réplique", "aftershock"],
+        ["le tremblement de terre", "el terremoto"],
+        ["le sismographe", "el sismógrafo"],
+        ["l'épicentre", "el epicentro"],
+        ["la magnitude", "la magnitud"],
+        ["la plaque tectonique", "la placa tectónica"],
+        ["la réplique", "la réplica (sísmica)"],
       ],
       grammar: [
         ["Questions indirectes", "Las preguntas indirectas (“je me demande si...”, “sais-tu si...”) usan “si” en lugar de inversión, y mantienen el orden sujeto-verbo normal.", "Je me demande si l'épicentre était près de la ville. / Sais-tu quelle était la magnitude ?"],
@@ -3748,12 +3748,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la paleografía usando “quiconque/quoi que ce soit” en francés.",
     study: {
       vocab: [
-        ["le manuscrit", "manuscript"],
-        ["le scribe", "scribe"],
-        ["le parchemin", "parchment"],
-        ["le texte enluminé", "illuminated text"],
-        ["le style d'écriture", "handwriting style"],
-        ["déchiffrer", "to decipher"],
+        ["le manuscrit", "el manuscrito"],
+        ["le scribe", "el escriba"],
+        ["le parchemin", "el pergamino"],
+        ["le texte enluminé", "el texto iluminado"],
+        ["le style d'écriture", "el estilo caligráfico"],
+        ["déchiffrer", "descifrar"],
       ],
       grammar: [
         ["“Quiconque/quoi que ce soit”", "“Quiconque” equivale a “la persona que sea”, y “quoi que ce soit”/“quoi que” equivale a “lo que sea que”, sin necesidad de antecedente específico.", "Quiconque déchiffrera ce manuscrit entrera dans l'histoire. / Quoi que le scribe ait voulu dire, le sens est aujourd'hui perdu."],
@@ -3773,12 +3773,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la cadena de suministro usando estructuras enfáticas de sorpresa en francés.",
     study: {
       vocab: [
-        ["la chaîne d'approvisionnement", "supply chain"],
-        ["le goulot d'étranglement", "bottleneck"],
-        ["le fret", "freight"],
-        ["l'entrepôt", "warehouse"],
-        ["la perturbation logistique", "logistics disruption"],
-        ["la livraison juste-à-temps", "just-in-time delivery"],
+        ["la chaîne d'approvisionnement", "la cadena de suministro"],
+        ["le goulot d'étranglement", "el cuello de botella"],
+        ["le fret", "la carga/el flete"],
+        ["l'entrepôt", "el almacén"],
+        ["la perturbation logistique", "la interrupción logística"],
+        ["la livraison juste-à-temps", "la entrega justo a tiempo"],
       ],
       grammar: [
         ["Structures emphatiques de surprise (peu imaginaient/personne ne s'attendait)", "“Peu imaginaient” o “personne ne s'attendait à” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Peu d'entreprises imaginaient à quel point la chaîne d'approvisionnement était fragile. / Personne ne s'attendait à une perturbation logistique aussi grave."],
@@ -3798,12 +3798,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de radioafición y a usar “il y a” en francés.",
     study: {
       vocab: [
-        ["le signal radio", "radio signal"],
-        ["l'antenne", "antenna"],
-        ["la fréquence", "frequency"],
-        ["le microphone", "microphone"],
-        ["transmettre", "to transmit"],
-        ["les parasites", "static"],
+        ["le signal radio", "la señal de radio"],
+        ["l'antenne", "la antena"],
+        ["la fréquence", "la frecuencia"],
+        ["le microphone", "el micrófono"],
+        ["transmettre", "transmitir"],
+        ["les parasites", "la estática (interferencia)"],
       ],
       grammar: [
         ["“Il y a” para indicar existencia", "“Il y a” es invariable en francés (no cambia entre singular y plural) y se usa para indicar la existencia de algo.", "Il y a beaucoup de parasites sur cette fréquence. / Il y a deux antennes sur le toit."],
@@ -3823,12 +3823,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de astrología y a usar el futur simple para predicciones en francés.",
     study: {
       vocab: [
-        ["l'horoscope", "horoscope"],
-        ["le signe du zodiaque", "zodiac sign"],
-        ["le voyant/la voyante", "fortune teller"],
-        ["la carte du ciel", "star chart"],
-        ["la prédiction", "prediction"],
-        ["le destin", "destiny"],
+        ["l'horoscope", "el horóscopo"],
+        ["le signe du zodiaque", "el signo zodiacal"],
+        ["le voyant/la voyante", "el adivino"],
+        ["la carte du ciel", "la carta astral"],
+        ["la prédiction", "la predicción"],
+        ["le destin", "el destino"],
       ],
       grammar: [
         ["Futur simple para predicciones", "El futur simple se usa para hacer predicciones sobre el futuro basadas en opinión o creencia, no en evidencia presente.", "Cet horoscope dit que tu auras une bonne semaine. / La voyante pense qu'elle trouvera l'amour bientôt."],
@@ -3848,12 +3848,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de deportes extremos y a usar “réussir à” en francés.",
     study: {
       vocab: [
-        ["le parachute", "parachute"],
-        ["la chute libre", "free fall"],
-        ["la montée d'adrénaline", "adrenaline rush"],
-        ["sauter", "to jump"],
-        ["le saut à l'élastique", "bungee jumping"],
-        ["le sport extrême", "extreme sport"],
+        ["le parachute", "el paracaídas"],
+        ["la chute libre", "la caída libre"],
+        ["la montée d'adrénaline", "la subida de adrenalina"],
+        ["sauter", "saltar"],
+        ["le saut à l'élastique", "el puenting"],
+        ["le sport extrême", "el deporte extremo"],
       ],
       grammar: [
         ["“Réussir à” + infinitivo", "“Réussir à” + infinitivo expresa que alguien logró hacer algo difícil.", "Elle a réussi à ouvrir le parachute à temps. / Il a réussi à surmonter sa peur des hauteurs."],
@@ -3873,12 +3873,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de entomología usando “en plus de/ainsi que” en francés.",
     study: {
       vocab: [
-        ["l'insecte", "insect"],
-        ["l'exosquelette", "exoskeleton"],
-        ["la métamorphose", "metamorphosis"],
-        ["l'antenne (insecte)", "antenna (insect)"],
-        ["la larve", "larva"],
-        ["le pollinisateur", "pollinator"],
+        ["l'insecte", "el insecto"],
+        ["l'exosquelette", "el exoesqueleto"],
+        ["la métamorphose", "la metamorfosis"],
+        ["l'antenne (insecte)", "la antena (insecto)"],
+        ["la larve", "la larva"],
+        ["le pollinisateur", "el polinizador"],
       ],
       grammar: [
         ["“En plus de/ainsi que”", "“En plus de” + infinitivo o sustantivo y “ainsi que” añaden información extra, similares a “besides” en inglés.", "En plus de polliniser les fleurs, les abeilles produisent du miel. / Les coléoptères, ainsi que les papillons, subissent une métamorphose."],
@@ -3898,12 +3898,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la propiedad intelectual usando “nonobstant” en registro legal formal en francés.",
     study: {
       vocab: [
-        ["le droit d'auteur", "copyright"],
-        ["le brevet", "patent"],
-        ["la marque déposée", "trademark"],
-        ["la contrefaçon", "infringement"],
-        ["l'accord de licence", "licensing agreement"],
-        ["la propriété intellectuelle", "intellectual property"],
+        ["le droit d'auteur", "los derechos de autor"],
+        ["le brevet", "la patente"],
+        ["la marque déposée", "la marca registrada"],
+        ["la contrefaçon", "la infracción"],
+        ["l'accord de licence", "el acuerdo de licencia"],
+        ["la propriété intellectuelle", "la propiedad intelectual"],
       ],
       grammar: [
         ["“Nonobstant” para concesión legal formal", "“Nonobstant” + sustantivo (registro muy formal/legal) expresa una concesión, equivalente a “malgré” pero típico de textos jurídicos.", "Nonobstant le brevet, l'entreprise a continué la production. / La marque déposée reste valide, nonobstant le litige."],
@@ -3923,12 +3923,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la geología usando “loin de + infinitif” en francés.",
     study: {
       vocab: [
-        ["le gisement minéral", "mineral deposit"],
-        ["la structure cristalline", "crystalline structure"],
-        ["la roche sédimentaire", "sedimentary rock"],
-        ["le déplacement tectonique", "tectonic shift"],
-        ["la roche ignée", "igneous rock"],
-        ["la composition minérale", "mineral composition"],
+        ["le gisement minéral", "el yacimiento mineral"],
+        ["la structure cristalline", "la estructura cristalina"],
+        ["la roche sédimentaire", "la roca sedimentaria"],
+        ["le déplacement tectonique", "el desplazamiento tectónico"],
+        ["la roche ignée", "la roca ígnea"],
+        ["la composition minérale", "la composición mineral"],
       ],
       grammar: [
         ["“Loin de + infinitif” para concesión enfática", "“Loin de” + infinitivo expresa que algo es completamente lo contrario de lo esperado, un recurso enfático de registro formal.", "Loin d'être stable, cette formation rocheuse change constamment. / Loin de régler le débat, la découverte a soulevé de nouvelles questions."],
@@ -3948,12 +3948,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de café y a usar “je voudrais” para peticiones corteses en francés.",
     study: {
       vocab: [
-        ["le grain de café", "coffee bean"],
-        ["la torréfaction", "roast"],
-        ["l'arôme", "aroma"],
-        ["le barista", "barista"],
-        ["préparer (le café)", "to brew"],
-        ["la tasse", "cup"],
+        ["le grain de café", "el grano de café"],
+        ["la torréfaction", "el tueste"],
+        ["l'arôme", "el aroma"],
+        ["le barista", "el barista"],
+        ["préparer (le café)", "preparar (café)"],
+        ["la tasse", "la taza"],
       ],
       grammar: [
         ["“Je voudrais” para peticiones corteses", "“Je voudrais” (condicional de “vouloir”) es una forma cortés de pedir algo, más formal que “je veux”.", "Je voudrais une tasse de café, s'il vous plaît. / Elle voudrait essayer la torréfaction foncée."],
@@ -3973,12 +3973,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de restauración de muebles y a usar “laisser quelqu'un faire quelque chose” en francés.",
     study: {
       vocab: [
-        ["le meuble ancien", "antique furniture"],
-        ["le vernis", "varnish"],
-        ["le papier de verre", "sandpaper"],
-        ["restaurer", "to restore"],
-        ["le grain du bois", "wood grain"],
-        ["l'atelier", "workshop"],
+        ["le meuble ancien", "los muebles antiguos"],
+        ["le vernis", "el barniz"],
+        ["le papier de verre", "el papel de lija"],
+        ["restaurer", "restaurar"],
+        ["le grain du bois", "la veta de la madera"],
+        ["l'atelier", "el taller"],
       ],
       grammar: [
         ["“Laisser quelqu'un faire quelque chose”", "“Laisser” + persona + infinitivo expresa permitir que alguien haga algo.", "Laisse le vernis sécher toute la nuit. / Elle laisse son assistant poncer le meuble."],
@@ -3998,12 +3998,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende vocabulario de lexicografía y a usar “plutôt que” en francés.",
     study: {
       vocab: [
-        ["l'entrée de dictionnaire", "dictionary entry"],
-        ["la définition", "definition"],
-        ["l'étymologie", "etymology"],
-        ["le mot-vedette", "headword"],
-        ["le synonyme", "synonym"],
-        ["l'exemple d'usage", "usage example"],
+        ["l'entrée de dictionnaire", "la entrada de diccionario"],
+        ["la définition", "la definición"],
+        ["l'étymologie", "la etimología"],
+        ["le mot-vedette", "el lema"],
+        ["le synonyme", "el sinónimo"],
+        ["l'exemple d'usage", "el ejemplo de uso"],
       ],
       grammar: [
         ["“Plutôt que” para preferencia", "“Plutôt que” + sustantivo/infinitivo expresa preferencia por una opción sobre otra.", "Elle a choisi une définition moderne plutôt que l'ancienne. / Plutôt que de deviner, consulte l'étymologie."],
@@ -4023,12 +4023,12 @@ window.LESSON_BANKS.FR = [
     description:"Habla de radiología usando “au cas où” en francés.",
     study: {
       vocab: [
-        ["la radiographie", "X-ray"],
-        ["l'IRM", "MRI scan"],
-        ["le radiologue/la radiologue", "radiologist"],
-        ["le produit de contraste", "contrast dye"],
-        ["le diagnostic", "diagnosis"],
-        ["l'exposition aux radiations", "radiation exposure"],
+        ["la radiographie", "la radiografía"],
+        ["l'IRM", "la resonancia magnética"],
+        ["le radiologue/la radiologue", "el radiólogo"],
+        ["le produit de contraste", "el contraste (medio de contraste)"],
+        ["le diagnostic", "el diagnóstico"],
+        ["l'exposition aux radiations", "la exposición a la radiación"],
       ],
       grammar: [
         ["“Au cas où” + conditionnel para precaución", "“Au cas où” + conditionnel expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Le radiologue a demandé une IRM au cas où la radiographie manquerait quelque chose. / Apporte tes anciens examens au cas où le médecin en aurait besoin."],
@@ -4048,12 +4048,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la virología usando “même si” en francés.",
     study: {
       vocab: [
-        ["la souche virale", "virus strain"],
-        ["l'épidémie", "outbreak"],
-        ["l'immunité collective", "herd immunity"],
-        ["l'efficacité du vaccin", "vaccine efficacy"],
-        ["le taux de transmission", "transmission rate"],
-        ["la mutation", "mutation"],
+        ["la souche virale", "la cepa del virus"],
+        ["l'épidémie", "el brote"],
+        ["l'immunité collective", "la inmunidad de rebaño"],
+        ["l'efficacité du vaccin", "la eficacia de la vacuna"],
+        ["le taux de transmission", "la tasa de transmisión"],
+        ["la mutation", "la mutación"],
       ],
       grammar: [
         ["“Même si” para concesión hipotética", "“Même si” + indicatif (a menudo imparfait para hipótesis) expresa que algo será cierto incluso en una situación hipotética o improbable.", "Même si l'efficacité du vaccin baissait, l'immunité collective pourrait aider. / Le virus se propagerait même si les taux de transmission baissaient légèrement."],
@@ -4073,12 +4073,12 @@ window.LESSON_BANKS.FR = [
     description:"Analiza la política monetaria usando “dans la mesure où” en francés.",
     study: {
       vocab: [
-        ["le taux d'intérêt", "interest rate"],
-        ["l'objectif d'inflation", "inflation target"],
-        ["l'assouplissement quantitatif", "quantitative easing"],
-        ["la politique monétaire", "monetary policy"],
-        ["la banque centrale", "central bank"],
-        ["la relance budgétaire", "fiscal stimulus"],
+        ["le taux d'intérêt", "el tipo de interés"],
+        ["l'objectif d'inflation", "el objetivo de inflación"],
+        ["l'assouplissement quantitatif", "la flexibilización cuantitativa"],
+        ["la politique monétaire", "la política monetaria"],
+        ["la banque centrale", "el banco central"],
+        ["la relance budgétaire", "el estímulo fiscal"],
       ],
       grammar: [
         ["“Dans la mesure où” para calificar", "“Dans la mesure où” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Dans la mesure où l'inflation reste stable, des baisses de taux sont possibles. / La politique fonctionne dans la mesure où les banques prêtent plus librement."],
@@ -4098,12 +4098,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a formar preguntas básicas en francés con las palabras interrogativas.",
     study: {
       vocab: [
-        ["Qui...?", "Who...?"],
-        ["Que.../Quoi?", "What...?"],
-        ["Où...?", "Where...?"],
-        ["Quand...?", "When...?"],
-        ["Pourquoi...?", "Why...?"],
-        ["Comment...?", "How...?"],
+        ["Qui...?", "¿Quién...?"],
+        ["Que.../Quoi?", "¿Qué...?"],
+        ["Où...?", "¿Dónde...?"],
+        ["Quand...?", "¿Cuándo...?"],
+        ["Pourquoi...?", "¿Por qué...?"],
+        ["Comment...?", "¿Cómo...?"],
       ],
       grammar: [
         ["Les questions avec « est-ce que »", "À l'oral, on forme facilement une question en gardant l'ordre sujet-verbe et en ajoutant le mot interrogatif, souvent avec « est-ce que ».", "Où est-ce que tu habites ? / Qu'est-ce que tu fais ? / Pourquoi est-ce que tu apprends le français ?"],
@@ -4123,12 +4123,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende los adjetivos posesivos en francés y el vocabulario básico de la familia.",
     study: {
       vocab: [
-        ["mon/ma/mes", "my"],
-        ["ton/ta/tes", "your (informal)"],
-        ["son/sa/ses", "his / her / its"],
-        ["notre/nos", "our"],
-        ["leur/leurs", "their"],
-        ["la mère, le père, les parents", "mother, father, parents"],
+        ["mon/ma/mes", "mi"],
+        ["ton/ta/tes", "tu (informal)"],
+        ["son/sa/ses", "su (de él/ella/ello)"],
+        ["notre/nos", "nuestro"],
+        ["leur/leurs", "su (de ellos)"],
+        ["la mère, le père, les parents", "madre, padre, padres"],
       ],
       grammar: [
         ["Los posesivos concuerdan con el sustantivo, no con el poseedor", "A diferencia del inglés, “son/sa/ses” concuerda con el género del sustantivo que sigue, no con el género de la persona que posee.", "Paul aime sa sœur. Marie aime aussi sa sœur. (“sa” siempre porque “sœur” es femenino)"],
@@ -4148,11 +4148,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar “il y a” y las preposiciones de lugar en francés.",
     study: {
       vocab: [
-        ["il y a", "there is / there are"],
-        ["dans, sur, sous", "in, on, under"],
-        ["à côté de, entre", "next to, between"],
-        ["devant, derrière", "in front of, behind"],
-        ["Est-ce qu'il y a...?", "Is/Are there...?"],
+        ["il y a", "hay"],
+        ["dans, sur, sous", "en, sobre, debajo de"],
+        ["à côté de, entre", "al lado de, entre"],
+        ["devant, derrière", "delante de, detrás de"],
+        ["Est-ce qu'il y a...?", "¿Hay...?"],
       ],
       grammar: [
         ["“Il y a” es invariable", "A diferencia del inglés (there is/there are), en francés “il y a” no cambia con el número del sustantivo.", "Il y a une lampe sur la table. / Il y a deux chaises à côté du bureau."],
@@ -4172,12 +4172,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende las reglas del plural en francés y el uso de los artículos.",
     study: {
       vocab: [
-        ["le livre / les livres", "the book / the books"],
-        ["le journal / les journaux", "the newspaper / the newspapers"],
-        ["le cheveu / les cheveux", "hair (strand) / hair"],
-        ["un, une", "a, an"],
-        ["le, la, les", "the"],
-        ["l'", "the (antes de vocal)"],
+        ["le livre / les livres", "el libro / los libros"],
+        ["le journal / les journaux", "el periódico / los periódicos"],
+        ["le cheveu / les cheveux", "el pelo (mechón) / el cabello"],
+        ["un, une", "un, una"],
+        ["le, la, les", "el/la"],
+        ["l'", "el (antes de vocal)"],
       ],
       grammar: [
         ["Reglas del plural en francés", "Se añade “-s” (silenciosa) en la mayoría de los casos; los sustantivos terminados en “-al” suelen cambiar a “-aux”, y los terminados en “-eu” añaden “-x”.", "livre→livres, journal→journaux, cheveu→cheveux"],
@@ -4197,11 +4197,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a expresar gustos y preferencias en francés con el infinitivo.",
     study: {
       vocab: [
-        ["j'aime / j'adore", "I like / I love"],
-        ["je n'aime pas / je déteste", "I don't like / I hate"],
-        ["nager, lire, cuisiner", "swimming, reading, cooking"],
-        ["Est-ce que tu aimes...?", "Do you like...?"],
-        ["et toi ?", "What about you?"],
+        ["j'aime / j'adore", "me gusta / me encanta"],
+        ["je n'aime pas / je déteste", "no me gusta / odio"],
+        ["nager, lire, cuisiner", "nadar, leer, cocinar"],
+        ["Est-ce que tu aimes...?", "¿Te gusta...?"],
+        ["et toi ?", "¿Y tú?"],
       ],
       grammar: [
         ["Verbo + infinitivo tras “aimer/adorer/détester”", "A diferencia del inglés (que usa el gerundio -ing), en francés el verbo que sigue a “aimer”, “adorer” o “détester” va en infinitivo.", "J'adore lire. / Elle déteste attendre."],
@@ -4221,11 +4221,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a hablar del futuro en francés usando el futur proche para planes y el futur simple para predicciones.",
     study: {
       vocab: [
-        ["je vais...", "I'm going to..."],
-        ["je + futur simple (-erai, -irai...)", "I will..."],
-        ["la semaine prochaine, l'année prochaine", "next week, next year"],
-        ["je pense qu'il pleuvra", "I think it will rain"],
-        ["qu'est-ce que tu vas faire ?", "What are you going to do?"],
+        ["je vais...", "voy a..."],
+        ["je + futur simple (-erai, -irai...)", "(yo) ... -ré"],
+        ["la semaine prochaine, l'année prochaine", "la semana que viene, el año que viene"],
+        ["je pense qu'il pleuvra", "creo que va a llover"],
+        ["qu'est-ce que tu vas faire ?", "¿Qué vas a hacer?"],
       ],
       grammar: [
         ["Futur proche vs futur simple", "El futur proche (“aller + infinitivo”) se usa para planes ya decididos; el futur simple para predicciones o promesas.", "Je vais rendre visite à mes parents la semaine prochaine. / Je pense qu'il pleuvra demain."],
@@ -4245,11 +4245,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a comparar personas y cosas en francés usando comparativos y superlativos.",
     study: {
       vocab: [
-        ["plus grand que, plus petit que", "bigger than, smaller than"],
-        ["plus cher que", "more expensive than"],
-        ["le/la meilleur(e), le/la pire", "the best, the worst"],
-        ["aussi...que", "as...as"],
-        ["le/la plus intéressant(e)", "the most interesting"],
+        ["plus grand que, plus petit que", "más grande que, más pequeño que"],
+        ["plus cher que", "más caro que"],
+        ["le/la meilleur(e), le/la pire", "el mejor, el peor"],
+        ["aussi...que", "tan... como"],
+        ["le/la plus intéressant(e)", "el más interesante"],
       ],
       grammar: [
         ["Comparativos y superlativos regulares e irregulares", "“Plus/moins + adjetivo + que” forma el comparativo, y “le/la plus/moins + adjetivo” el superlativo. Irregular: bon→meilleur, mauvais→pire.", "Cette voiture est plus rapide que celle-là, mais la rouge est la plus rapide."],
@@ -4269,11 +4269,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a dar consejos y hablar de obligaciones en francés.",
     study: {
       vocab: [
-        ["tu devrais...", "you should..."],
-        ["tu ne devrais pas...", "you shouldn't..."],
-        ["je dois / il faut que je", "I must / I have to"],
-        ["tu n'es pas obligé de", "you don't have to"],
-        ["c'est une bonne idée de...", "it's a good idea to..."],
+        ["tu devrais...", "deberías..."],
+        ["tu ne devrais pas...", "no deberías..."],
+        ["je dois / il faut que je", "debo / tengo que"],
+        ["tu n'es pas obligé de", "no tienes que"],
+        ["c'est une bonne idée de...", "es buena idea..."],
       ],
       grammar: [
         ["“Devrais” (consejo) vs “dois/il faut” (obligación)", "“Devrais” (condicional de “devoir”) da un consejo suave; “dois/il faut” expresan obligación; “ne pas être obligé de” indica que algo no es necesario (no prohibido).", "Tu devrais boire plus d'eau. / Tu dois porter ta ceinture de sécurité."],
@@ -4293,12 +4293,12 @@ window.LESSON_BANKS.FR = [
     description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en francés.",
     study: {
       vocab: [
-        ["Allô, c'est...", "Hello, this is..."],
-        ["Est-ce que je peux parler à...?", "Can I speak to...?"],
-        ["Je peux prendre un message ?", "Can I take a message?"],
-        ["Ne quittez pas, s'il vous plaît.", "Hold on, please."],
-        ["Tu peux rappeler plus tard ?", "Can you call back later?"],
-        ["Je te rappelle.", "I'll call you back."],
+        ["Allô, c'est...", "Hola, soy..."],
+        ["Est-ce que je peux parler à...?", "¿Puedo hablar con...?"],
+        ["Je peux prendre un message ?", "¿Puedo tomar un mensaje?"],
+        ["Ne quittez pas, s'il vous plaît.", "Espere un momento, por favor."],
+        ["Tu peux rappeler plus tard ?", "¿Puede volver a llamar más tarde?"],
+        ["Je te rappelle.", "Le devuelvo la llamada."],
       ],
       grammar: [
         ["Fórmulas fijas para el teléfono", "En francés se responde al teléfono con “Allô” y uno se identifica con “c'est...”; “ne quittez pas” es la fórmula educada para pedir que esperen.", "Allô, c'est Laura. Est-ce que je peux parler à Monsieur Dupont, s'il vous plaît ?"],
@@ -4318,11 +4318,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a hablar de cantidades en francés con los artículos partitivos y “combien de”.",
     study: {
       vocab: [
-        ["du, de la, des", "some (partitive)"],
-        ["Combien de...?", "How much/many...?"],
-        ["beaucoup de", "a lot of"],
-        ["un peu de", "a little"],
-        ["quelques", "a few"],
+        ["du, de la, des", "algo de (partitivo)"],
+        ["Combien de...?", "¿Cuánto/Cuántos...?"],
+        ["beaucoup de", "mucho"],
+        ["un peu de", "un poco"],
+        ["quelques", "unos pocos"],
       ],
       grammar: [
         ["Los artículos partitivos y “combien de”", "El francés usa “du/de la/des” para cantidades indefinidas, y “combien de” sirve tanto para contables como incontables (a diferencia del inglés much/many). En negativa, el partitivo se reduce a “de”.", "Combien de pommes as-tu ? / Combien d'eau y a-t-il ? / Je n'ai pas de temps."],
@@ -4342,11 +4342,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a combinar el imperfecto y el passé composé para narrar historias con interrupciones.",
     study: {
       vocab: [
-        ["je marchais / ils parlaient", "I was walking / they were talking"],
-        ["pendant que, quand", "while, when"],
-        ["soudain", "suddenly"],
-        ["le téléphone a sonné", "the phone rang"],
-        ["au milieu de...", "in the middle of..."],
+        ["je marchais / ils parlaient", "yo caminaba / ellos hablaban"],
+        ["pendant que, quand", "mientras, cuando"],
+        ["soudain", "de repente"],
+        ["le téléphone a sonné", "sonó el teléfono"],
+        ["au milieu de...", "en medio de..."],
       ],
       grammar: [
         ["Imparfait (fondo) + passé composé (interrupción)", "Se usa el imperfecto para la acción de fondo (en curso), y el passé composé para la acción que la interrumpe, normalmente con “quand” o “pendant que”.", "Je préparais le dîner quand le téléphone a sonné. / Pendant qu'elle étudiait, son ami est arrivé."],
@@ -4366,11 +4366,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en francés.",
     study: {
       vocab: [
-        ["si j'avais...", "if I had..."],
-        ["je -ais / je ne -ais pas", "I would / I wouldn't"],
-        ["si j'étais toi...", "if I were you..."],
-        ["qu'est-ce que tu ferais si...?", "What would you do if...?"],
-        ["situation imaginaire", "imaginary situation"],
+        ["si j'avais...", "si tuviera..."],
+        ["je -ais / je ne -ais pas", "yo lo haría / no lo haría"],
+        ["si j'étais toi...", "yo que tú..."],
+        ["qu'est-ce que tu ferais si...?", "¿Qué harías si...?"],
+        ["situation imaginaire", "situación imaginaria"],
       ],
       grammar: [
         ["Si + imparfait, conditionnel présent", "Para hablar de situaciones hipotéticas poco probables, se usa “si” + imperfecto, seguido del condicional presente.", "Si j'avais plus de temps, je voyagerais plus. / Si j'étais toi, j'accepterais l'offre."],
@@ -4390,11 +4390,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a expresar certeza, posibilidad y duda en francés.",
     study: {
       vocab: [
-        ["ça doit être", "must be (certeza alta)"],
-        ["il se peut que", "might/may be (posibilidad)"],
-        ["ça ne peut pas être", "can't be (certeza negativa)"],
-        ["ça pourrait être", "could be (posibilidad)"],
-        ["je suis sûr(e) / je ne suis pas sûr(e)", "I'm sure / I'm not sure"],
+        ["ça doit être", "debe de ser (certeza alta)"],
+        ["il se peut que", "podría ser (posibilidad)"],
+        ["ça ne peut pas être", "no puede ser (certeza negativa)"],
+        ["ça pourrait être", "podría ser (posibilidad)"],
+        ["je suis sûr(e) / je ne suis pas sûr(e)", "estoy seguro / no estoy seguro"],
       ],
       grammar: [
         ["Grados de certeza en francés", "“Devoir” en presente expresa una deducción fuerte (“ça doit être”); “il se peut que” (+ subjuntivo) y “pourrait” expresan posibilidad, no certeza; “ça ne peut pas être” expresa certeza negativa.", "Les lumières sont éteintes, donc ils doivent dormir. / Il se peut qu'il soit au travail, je ne suis pas sûr."],
@@ -4414,11 +4414,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a contar en francés lo que alguien dijo usando el discurso indirecto básico.",
     study: {
       vocab: [
-        ["il a dit que...", "he said (that)..."],
-        ["elle m'a dit que...", "she told me (that)..."],
-        ["elle a dit qu'elle était fatiguée", "she said she was tired"],
-        ["il a dit qu'il appellerait", "he said he would call"],
-        ["changement de temps verbal", "backshift"],
+        ["il a dit que...", "él dijo (que)..."],
+        ["elle m'a dit que...", "ella me dijo (que)..."],
+        ["elle a dit qu'elle était fatiguée", "dijo que estaba cansada"],
+        ["il a dit qu'il appellerait", "dijo que llamaría"],
+        ["changement de temps verbal", "transposición de tiempos verbales (estilo indirecto)"],
       ],
       grammar: [
         ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a imperfecto y el futuro a condicional.", "Directo: « Je suis fatiguée. » → Indirecto: Elle a dit qu'elle était fatiguée. / Directo: « Je t'appellerai. » → Indirecto: Il a dit qu'il appellerait."],
@@ -4438,11 +4438,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a describir procesos y secuencias de pasos en francés usando conectores de orden.",
     study: {
       vocab: [
-        ["d'abord...", "first..."],
-        ["ensuite / puis...", "then / next..."],
-        ["après cela...", "after that..."],
-        ["enfin...", "finally..."],
-        ["une fois que tu as..., ...", "once you have..., ..."],
+        ["d'abord...", "primero..."],
+        ["ensuite / puis...", "luego / después..."],
+        ["après cela...", "después de eso..."],
+        ["enfin...", "finalmente..."],
+        ["une fois que tu as..., ...", "una vez que hayas..., ..."],
       ],
       grammar: [
         ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "D'abord, tu remplis le formulaire. Ensuite, tu l'envoies en ligne. Enfin, tu attends un e-mail de confirmation."],
@@ -4462,11 +4462,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar los pronombres relativos franceses: qui, que, dont y où.",
     study: {
       vocab: [
-        ["qui, que, où", "who/which (sujet), that/which (objet), where"],
-        ["dont", "whose/of which"],
-        ["lequel/laquelle", "which (tras preposición)"],
+        ["qui, que, où", "que (sujeto), que (objeto), donde"],
+        ["dont", "cuyo"],
+        ["lequel/laquelle", "el cual/la cual (tras preposición)"],
         ["virgule avant les explicatives", "coma antes de las explicativas"],
-        ["l'homme qui a appelé", "the man who called"],
+        ["l'homme qui a appelé", "el hombre que llamó"],
       ],
       grammar: [
         ["El pronombre relativo depende de la función gramatical", "“Qui” es sujeto del verbo, “que” es objeto directo, “dont” reemplaza “de + sustantivo” (posesión o verbos con “de”), y “où” indica lugar o tiempo.", "Le livre que j'ai acheté est génial. / Ma voiture, qui est rouge, est garée dehors. / L'homme dont je parle..."],
@@ -4486,11 +4486,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende cuándo usar el gerundio (“en + gérondif”) y el infinitivo en francés.",
     study: {
       vocab: [
-        ["en + gérondif", "by/while doing (simultaneidad)"],
+        ["en + gérondif", "al hacer (simultaneidad)"],
         ["verbe + infinitif", "verbo + infinitivo (patrón más común en francés)"],
         ["le participe présent", "el participio presente (-ant, descripción)"],
-        ["continuer à/de + infinitif", "to keep on doing"],
-        ["venir de + infinitif", "to have just done"],
+        ["continuer à/de + infinitif", "seguir haciendo"],
+        ["venir de + infinitif", "acabar de hacer"],
       ],
       grammar: [
         ["El francés usa infinitivo más que gerundio", "A diferencia del inglés, la mayoría de los verbos franceses van seguidos de infinitivo; “en + gérondif” expresa simultaneidad o manera, y el participio presente (-ant) se usa más para describir.", "Elle a appris le français en voyageant. / Il vient de partir. / Je continue à travailler."],
@@ -4510,11 +4510,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a expresar deseos y arrepentimiento en francés.",
     study: {
       vocab: [
-        ["j'aimerais + infinitif", "I wish (deseo presente)"],
-        ["j'aurais aimé + infinitif passé", "I wish I had done (arrepentimiento)"],
-        ["si seulement...", "if only..."],
-        ["j'aurais dû + infinitif", "I should have..."],
-        ["le regret", "regret"],
+        ["j'aimerais + infinitif", "ojalá (deseo presente)"],
+        ["j'aurais aimé + infinitif passé", "ojalá hubiera hecho (arrepentimiento)"],
+        ["si seulement...", "ojalá..."],
+        ["j'aurais dû + infinitif", "debería haber..."],
+        ["le regret", "el arrepentimiento"],
       ],
       grammar: [
         ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “j'aimerais + infinitivo”; para un arrepentimiento sobre el pasado, “j'aurais aimé + infinitivo pasado” o “si seulement + plus-que-parfait”.", "J'aimerais avoir plus de temps. / J'aurais aimé étudier plus. / Si seulement j'avais accepté le travail."],
@@ -4534,11 +4534,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a especular sobre el pasado en francés con “devoir” y el condicional pasado.",
     study: {
       vocab: [
-        ["il a dû + infinitif", "must have (deducción)"],
-        ["il a pu + infinitif", "might have (posibilidad)"],
-        ["il n'a pas pu + infinitif", "can't have (certeza negativa)"],
-        ["il aurait dû + infinitif", "should have (crítica/arrepentimiento)"],
-        ["je ne suis pas sûr de ce qui s'est passé", "I'm not sure what happened"],
+        ["il a dû + infinitif", "debe de haber (deducción)"],
+        ["il a pu + infinitif", "podría haber (posibilidad)"],
+        ["il n'a pas pu + infinitif", "no puede haber (certeza negativa)"],
+        ["il aurait dû + infinitif", "debería haber (crítica/arrepentimiento)"],
+        ["je ne suis pas sûr de ce qui s'est passé", "no estoy seguro/a de qué pasó"],
       ],
       grammar: [
         ["“Devoir” y “pouvoir” para especular sobre el pasado", "“Devoir” en pasado compuesto + infinitivo expresa una fuerte deducción; “pouvoir” en pasado compuesto expresa posibilidad; “devoir” en condicional pasado (“aurait dû”) expresa crítica o arrepentimiento.", "Elle a dû partir déjà; son manteau a disparu. / Tu aurais dû m'appeler plus tôt."],
@@ -4559,7 +4559,7 @@ window.LESSON_BANKS.FR = [
     study: {
       vocab: [
         ["l'imparfait pour les habitudes et les états", "imperfecto para hábitos/estados"],
-        ["avoir l'habitude de + infinitif", "to be used to / usually do"],
+        ["avoir l'habitude de + infinitif", "soler hacer"],
         ["autrefois...", "antes / hace tiempo..."],
         ["étant enfant...", "de niño/a..."],
         ["de nos jours", "hoy en día"],
@@ -4585,7 +4585,7 @@ window.LESSON_BANKS.FR = [
         ["Peut-être + inversion", "Perhaps + inversión (formal)"],
         ["Aussi + inversion", "Therefore/So + inversión (formal)"],
         ["Sans doute + inversion", "No doubt + inversión (formal)"],
-        ["À peine...que...", "No sooner...than..."],
+        ["À peine...que...", "Apenas... cuando..."],
         ["style soutenu", "registro formal/elevado"],
       ],
       grammar: [
@@ -4606,10 +4606,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar estructuras de énfasis en francés con “c'est...qui/que”.",
     study: {
       vocab: [
-        ["C'est... qui...", "It is... who/that... (sujeto)"],
-        ["C'est... que...", "It is... that... (complemento)"],
-        ["Ce dont j'ai besoin, c'est...", "What I need is..."],
-        ["Ce qui m'a surpris, c'est...", "What surprised me was..."],
+        ["C'est... qui...", "Es... quien/que... (sujeto)"],
+        ["C'est... que...", "Es... que... (complemento)"],
+        ["Ce dont j'ai besoin, c'est...", "Lo que necesito es..."],
+        ["Ce qui m'a surpris, c'est...", "Lo que me sorprendió fue..."],
         ["mise en relief", "estructura de énfasis"],
       ],
       grammar: [
@@ -4630,9 +4630,9 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a reducir cláusulas más largas usando proposiciones participiales en francés.",
     study: {
       vocab: [
-        ["Ayant fini..., ...", "Having finished..., ..."],
-        ["Étant conscient de..., ...", "Being aware of..., ..."],
-        ["Ne sachant pas quoi faire, ...", "Not knowing what to do, ..."],
+        ["Ayant fini..., ...", "Habiendo terminado..., ..."],
+        ["Étant conscient de..., ...", "Siendo consciente de..., ..."],
+        ["Ne sachant pas quoi faire, ...", "Sin saber qué hacer, ..."],
         ["proposition participiale", "cláusula de participio"],
         ["réduit une proposition plus longue", "reduce una cláusula más larga"],
       ],
@@ -4654,11 +4654,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende los patrones gramaticales de los verbos de discurso avanzados en francés.",
     study: {
       vocab: [
-        ["suggérer que + subjonctif", "suggest that + subjunctive"],
-        ["insister pour que + subjonctif", "insist that + subjunctive"],
-        ["nier + infinitif passé", "deny doing"],
-        ["admettre + infinitif passé", "admit doing"],
-        ["recommander que + subjonctif", "recommend that + subjunctive"],
+        ["suggérer que + subjonctif", "sugerir que + subjuntivo"],
+        ["insister pour que + subjonctif", "insistir en que + subjuntivo"],
+        ["nier + infinitif passé", "negar haber hecho"],
+        ["admettre + infinitif passé", "admitir haber hecho"],
+        ["recommander que + subjonctif", "recomendar que + subjuntivo"],
       ],
       grammar: [
         ["Verbos de discurso que exigen subjuntivo o infinitivo pasado", "Verbos como “suggérer que”, “insister pour que” y “recommander que” exigen el subjuntivo; “nier” y “admettre” pueden ir seguidos de “infinitif passé” para una acción pasada.", "Elle a suggéré qu'il arrive tôt. / Il a nié avoir volé l'argent."],
@@ -4678,10 +4678,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a evitar repeticiones en francés usando elipsis y expresiones sustitutas.",
     study: {
       vocab: [
-        ["Moi aussi / Moi non plus", "So do I / Neither do I"],
-        ["le faire", "to do so"],
-        ["Je crois que oui / J'espère que non", "I think so / I hope not"],
-        ["il en va de même pour...", "the same goes for..."],
+        ["Moi aussi / Moi non plus", "Yo también / Yo tampoco"],
+        ["le faire", "hacerlo así"],
+        ["Je crois que oui / J'espère que non", "creo que sí / espero que no"],
+        ["il en va de même pour...", "lo mismo vale para..."],
         ["omettre les mots répétés", "omitir palabras repetidas"],
       ],
       grammar: [
@@ -4702,10 +4702,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar la nominalización para lograr un registro académico y formal en francés.",
     study: {
       vocab: [
-        ["réduire → la réduction", "reduce → reduction"],
-        ["décider → la décision", "decide → decision"],
-        ["analyser → l'analyse", "analyze → analysis"],
-        ["Il est important de considérer...", "It is important to consider..."],
+        ["réduire → la réduction", "reducir → reducción"],
+        ["décider → la décision", "decidir → decisión"],
+        ["analyser → l'analyse", "analizar → análisis"],
+        ["Il est important de considérer...", "Es importante considerar..."],
         ["registre académique/formel", "registro académico/formal"],
       ],
       grammar: [
@@ -4726,10 +4726,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a anteponer objetos y complementos para dar énfasis en francés.",
     study: {
       vocab: [
-        ["Cela, je ne peux pas l'accepter.", "This I cannot accept."],
-        ["Telle était sa détermination que...", "Such was her determination that..."],
-        ["Il ne savait guère que...", "Little did he know..."],
-        ["Celui que j'admire le plus, c'est...", "The one I admire most is..."],
+        ["Cela, je ne peux pas l'accepter.", "Esto no puedo aceptarlo."],
+        ["Telle était sa détermination que...", "Tal fue su determinación que..."],
+        ["Il ne savait guère que...", "Poco sabía él..."],
+        ["Celui que j'admire le plus, c'est...", "El que más admiro es..."],
         ["antéposition", "anteposición/tematización"],
       ],
       grammar: [
@@ -4750,11 +4750,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a matizar tus afirmaciones en francés con adverbios de modalización avanzados.",
     study: {
       vocab: [
-        ["on pourrait dire que", "arguably"],
-        ["apparemment / en apparence", "ostensibly"],
-        ["prétendument", "purportedly"],
-        ["indéniablement", "undeniably"],
-        ["vraisemblablement", "presumably"],
+        ["on pourrait dire que", "podría decirse que"],
+        ["apparemment / en apparence", "aparentemente"],
+        ["prétendument", "supuestamente"],
+        ["indéniablement", "innegablemente"],
+        ["vraisemblablement", "presuntamente"],
       ],
       grammar: [
         ["Los adverbios de modalización matizan el compromiso del hablante", "Los adverbios de modalización muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La politique fut, on pourrait dire, un échec. / Il était apparemment là pour aider, mais il avait d'autres motifs."],
@@ -4774,10 +4774,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar sintagmas nominales complejos típicos del francés académico.",
     study: {
       vocab: [
-        ["la mesure dans laquelle...", "the extent to which..."],
-        ["un nombre croissant de preuves", "a growing body of evidence"],
-        ["les causes sous-jacentes de...", "the underlying causes of..."],
-        ["un large éventail de facteurs", "a wide range of factors"],
+        ["la mesure dans laquelle...", "el grado en que..."],
+        ["un nombre croissant de preuves", "un creciente cuerpo de evidencia"],
+        ["les causes sous-jacentes de...", "las causas subyacentes de..."],
+        ["un large éventail de facteurs", "una amplia gama de factores"],
         ["postmodification", "posmodificación"],
       ],
       grammar: [
@@ -4798,10 +4798,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende recursos de cohesión textual avanzados en francés para evitar la redundancia.",
     study: {
       vocab: [
-        ["le premier / le second (mentionnés)", "the former / the latter"],
-        ["un tel/une telle...", "such a/an..."],
-        ["le/la susmentionné(e)", "the aforementioned"],
-        ["cela étant dit...", "that being said..."],
+        ["le premier / le second (mentionnés)", "el primero / el segundo"],
+        ["un tel/une telle...", "tal..."],
+        ["le/la susmentionné(e)", "lo antes mencionado"],
+        ["cela étant dit...", "dicho esto..."],
         ["procédé de cohésion textuelle", "recurso de cohesión textual"],
       ],
       grammar: [
@@ -4822,11 +4822,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a dar instrucciones y consejos directos en francés con el imperativo.",
     study: {
       vocab: [
-        ["Ouvre la porte.", "Open the door."],
-        ["Ferme la fenêtre.", "Close the window."],
-        ["Tourne à gauche / à droite.", "Turn left / right."],
-        ["Ne touche pas à ça.", "Don't touch that."],
-        ["Assieds-toi, s'il te plaît.", "Please, sit down."],
+        ["Ouvre la porte.", "Abre la puerta."],
+        ["Ferme la fenêtre.", "Cierra la ventana."],
+        ["Tourne à gauche / à droite.", "Gira a la izquierda / derecha."],
+        ["Ne touche pas à ça.", "No toques eso."],
+        ["Assieds-toi, s'il te plaît.", "Por favor, siéntate."],
       ],
       grammar: [
         ["El imperativo tú sin pronombre", "El imperativo francés (forma tú) omite el sujeto y, en verbos -er, quita la -s final; la forma negativa rodea el verbo con “ne...pas”.", "Ouvre la porte. / Ne touche pas à ça. / Attends ici, s'il te plaît."],
@@ -4846,11 +4846,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar ce, cette y ces en francés, y cómo precisar la distancia con -ci/-là.",
     study: {
       vocab: [
-        ["ce/cet", "this (masculino singular)"],
-        ["cette", "this (femenino singular)"],
-        ["ces", "these/those (plural)"],
+        ["ce/cet", "este (masculino singular)"],
+        ["cette", "esta (femenino singular)"],
+        ["ces", "estos/estas (plural)"],
         ["-ci / -là", "-ci (cerca) / -là (lejos), sufijo para precisar"],
-        ["Qu'est-ce que c'est ?", "What is this?"],
+        ["Qu'est-ce que c'est ?", "¿Qué es esto?"],
       ],
       grammar: [
         ["“-ci” y “-là” precisan la distancia", "Los adjetivos demostrativos franceses (ce/cette/ces) no distinguen “this” de “that” por sí solos; para precisar la cercanía se añade “-ci” (cerca) o “-là” (lejos) después del sustantivo.", "Ce livre-ci est à moi. / Ces chaussures-là sont trop chères."],
@@ -4870,9 +4870,9 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar las preposiciones de tiempo à, en y le en francés.",
     study: {
       vocab: [
-        ["à + heure", "at + hora (à 9 heures)"],
-        ["en + mois/année/saison", "in + mes/año/estación"],
-        ["le + jour de la semaine (habitude)", "on + día (hábito repetido)"],
+        ["à + heure", "a + hora (à 9 heures)"],
+        ["en + mois/année/saison", "en + mes/año/estación"],
+        ["le + jour de la semaine (habitude)", "el/de + día de la semana (hábito repetido)"],
         ["le soir", "por la noche"],
         ["le matin / l'après-midi", "por la mañana / por la tarde"],
       ],
@@ -4894,11 +4894,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar los adverbios de frecuencia en francés.",
     study: {
       vocab: [
-        ["toujours", "always"],
-        ["souvent", "usually/often"],
-        ["parfois", "sometimes"],
-        ["rarement", "rarely"],
-        ["ne...jamais", "never"],
+        ["toujours", "siempre"],
+        ["souvent", "normalmente/a menudo"],
+        ["parfois", "a veces"],
+        ["rarement", "raramente"],
+        ["ne...jamais", "nunca"],
       ],
       grammar: [
         ["El adverbio va justo después del verbo conjugado", "En francés, adverbios como “toujours” y “souvent” van justo después del verbo conjugado; “ne...jamais” rodea el verbo como otras negaciones.", "Je bois toujours du café le matin. / Elle n'est jamais en retard."],
@@ -4918,11 +4918,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a expresar posesión en francés con la preposición « de ».",
     study: {
       vocab: [
-        ["le livre de Anna", "Anna's book"],
-        ["les jouets des enfants", "the children's toys"],
-        ["À qui est-ce ?", "Whose is this?"],
-        ["C'est à Anna.", "It's Anna's."],
-        ["la maison de mes parents", "my parents' house"],
+        ["le livre de Anna", "el libro de Ana"],
+        ["les jouets des enfants", "los juguetes de los niños"],
+        ["À qui est-ce ?", "¿De quién es esto?"],
+        ["C'est à Anna.", "Es de Ana."],
+        ["la maison de mes parents", "la casa de mis padres"],
       ],
       grammar: [
         ["“De + poseedor”, y “de + les” = “des”", "A diferencia del inglés (Anna's book), el francés siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + les” se contrae en “des”.", "Voici le livre de Anna. / La maison de mes parents est grande."],
@@ -4943,10 +4943,10 @@ window.LESSON_BANKS.FR = [
     study: {
       vocab: [
         ["me, te, se, nous, vous, se", "pronombres reflexivos"],
-        ["se lever", "to get (oneself) up"],
-        ["se doucher", "to shower (oneself)"],
-        ["Je me suis coupé en cuisinant.", "I cut myself while cooking."],
-        ["tout(e) seul(e)", "by myself"],
+        ["se lever", "levantarse"],
+        ["se doucher", "ducharse"],
+        ["Je me suis coupé en cuisinant.", "Me corté mientras cocinaba."],
+        ["tout(e) seul(e)", "yo solo/a"],
       ],
       grammar: [
         ["Verbos pronominales por naturaleza", "Muchos verbos franceses son pronominales por naturaleza (se lever, se doucher) y exigen un pronombre reflexivo que concuerda con el sujeto; en el passé composé usan “être” y a menudo concuerdan con el sujeto.", "Je me lève à sept heures. / Elle se douche le matin."],
@@ -4966,11 +4966,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar los pronombres de objeto directo en francés.",
     study: {
       vocab: [
-        ["le/la", "him/her/it (COD)"],
-        ["les", "them (COD)"],
-        ["me, te, nous, vous", "me, you, us, you all"],
-        ["Peux-tu m'aider ?", "Can you help me?"],
-        ["Je l'ai vu hier.", "I saw him/it yesterday."],
+        ["le/la", "lo/la (complemento directo)"],
+        ["les", "los/las (complemento directo)"],
+        ["me, te, nous, vous", "me, te, nos, os"],
+        ["Peux-tu m'aider ?", "¿Puedes ayudarme?"],
+        ["Je l'ai vu hier.", "Lo vi ayer."],
       ],
       grammar: [
         ["El pronombre COD va antes del verbo conjugado", "Los pronombres de objeto directo (le, la, les) concuerdan en género y número con el sustantivo que reemplazan, y en francés van ANTES del verbo conjugado (a diferencia del inglés).", "J'ai vu ma sœur hier. → Je l'ai vue hier. / Ils ont acheté la voiture. → Ils l'ont achetée."],
@@ -4990,11 +4990,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar el presente para horarios fijos en francés.",
     study: {
       vocab: [
-        ["Le train part à 15h.", "The train leaves at 3pm. (horario fijo)"],
-        ["Le film commence à 20h.", "The movie starts at 8pm."],
-        ["un horaire/programme fixe", "a fixed schedule/timetable"],
-        ["Le magasin ferme à 18h.", "The store closes at 6pm."],
-        ["Quelle heure part le bus ?", "What time does the bus leave?"],
+        ["Le train part à 15h.", "El tren sale a las 3. (horario fijo)"],
+        ["Le film commence à 20h.", "La película empieza a las 8 de la tarde."],
+        ["un horaire/programme fixe", "un horario fijo"],
+        ["Le magasin ferme à 18h.", "La tienda cierra a las 6 de la tarde."],
+        ["Quelle heure part le bus ?", "¿A qué hora sale el autobús?"],
       ],
       grammar: [
         ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados, igual que en español o inglés.", "Le train part à 15h. / Le film commence à 20h."],
@@ -5014,11 +5014,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a hacer sugerencias en francés.",
     study: {
       vocab: [
-        ["Si on + imparfait (suggestion)", "What if we... (sugerencia con imperfecto)"],
-        ["Pourquoi ne pas + infinitif ?", "Why don't we...?"],
-        ["Ça te dit de + infinitif ?", "How about...?"],
-        ["On pourrait + infinitif.", "We could..."],
-        ["Bonne idée !", "That sounds good."],
+        ["Si on + imparfait (suggestion)", "¿Y si... (sugerencia con imperfecto)"],
+        ["Pourquoi ne pas + infinitif ?", "¿Por qué no...?"],
+        ["Ça te dit de + infinitif ?", "¿Qué tal...?"],
+        ["On pourrait + infinitif.", "Podríamos..."],
+        ["Bonne idée !", "Suena bien."],
       ],
       grammar: [
         ["“Si on” + imperfecto para sugerir", "“Si on” + imperfecto es una forma muy idiomática en francés para hacer una sugerencia; “pourquoi ne pas” y “ça te dit de” van seguidos de infinitivo.", "Si on allait à la plage ? / Pourquoi ne pas commander une pizza ? / Ça te dit de regarder un film ?"],
@@ -5038,11 +5038,11 @@ window.LESSON_BANKS.FR = [
     description:"Aprende verbos franceses con preposición fija.",
     study: {
       vocab: [
-        ["arrêter de + infinitif", "to stop doing"],
-        ["garder", "to keep"],
-        ["remarquer", "to notice"],
-        ["compter sur", "to count on"],
-        ["se rendre compte de", "to realize"],
+        ["arrêter de + infinitif", "dejar de hacer"],
+        ["garder", "conservar"],
+        ["remarquer", "notar"],
+        ["compter sur", "contar con"],
+        ["se rendre compte de", "darse cuenta"],
       ],
       grammar: [
         ["Verbo + preposición fija cambia el significado", "Algunos verbos franceses van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "J'ai arrêté de fumer l'année dernière. / J'ai remarqué sa nouvelle veste. / Tu peux compter sur moi."],
@@ -5062,8 +5062,8 @@ window.LESSON_BANKS.FR = [
     description:"Aprende la diferencia entre las condicionales tipo 0 y tipo 1 en francés.",
     study: {
       vocab: [
-        ["Si + présent, présent (type 0)", "zero conditional – verdades generales"],
-        ["Si + présent, futur (type 1)", "first conditional – posibilidad real"],
+        ["Si + présent, présent (type 0)", "condicional cero – verdades generales"],
+        ["Si + présent, futur (type 1)", "primer condicional – posibilidad real"],
         ["Quand l'eau bout, elle s'évapore.", "ejemplo de condicional tipo 0"],
         ["S'il pleut, je resterai à la maison.", "ejemplo de condicional tipo 1"],
         ["possibilité réelle", "posibilidad real"],
@@ -5088,8 +5088,8 @@ window.LESSON_BANKS.FR = [
       vocab: [
         ["être + participe passé (passif)", "voz pasiva con ‘être’"],
         ["par + agent (facultatif)", "por + agente (opcional)"],
-        ["La lettre a été envoyée.", "The letter was sent."],
-        ["Le français est parlé ici.", "French is spoken here."],
+        ["La lettre a été envoyée.", "La carta fue enviada."],
+        ["Le français est parlé ici.", "Aquí se habla francés."],
         ["l'accord du participe passé", "concordancia del participio pasado"],
       ],
       grammar: [
@@ -5110,10 +5110,10 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a usar coletillas de confirmación en francés.",
     study: {
       vocab: [
-        ["..., n'est-ce pas ?", "..., isn't it? (formal/neutro)"],
-        ["..., non ?", "..., isn't it? (informal)"],
-        ["..., hein ?", "..., right? (muy informal)"],
-        ["..., d'accord ?", "..., okay? (pedir acuerdo)"],
+        ["..., n'est-ce pas ?", "..., ¿verdad? (formal/neutro)"],
+        ["..., non ?", "..., ¿no? (informal)"],
+        ["..., hein ?", "..., ¿no? (muy informal)"],
+        ["..., d'accord ?", "..., ¿vale? (pedir acuerdo)"],
         ["confirmer une information", "confirmar información"],
       ],
       grammar: [
@@ -5134,9 +5134,9 @@ window.LESSON_BANKS.FR = [
     description:"Aprende a formular preguntas indirectas y corteses en francés.",
     study: {
       vocab: [
-        ["Pourriez-vous me dire où...?", "Could you tell me where...?"],
-        ["Savez-vous si...?", "Do you know if...?"],
-        ["Je me demande ce que...", "I wonder what..."],
+        ["Pourriez-vous me dire où...?", "¿Podría decirme dónde...?"],
+        ["Savez-vous si...?", "¿Sabe si...?"],
+        ["Je me demande ce que...", "Me pregunto qué..."],
         ["pas d'inversion, avec 'si' pour oui/non", "sin inversión, con 'si' para sí/no"],
         ["demande polie", "petición cortés"],
       ],
@@ -5159,10 +5159,10 @@ window.LESSON_BANKS.FR = [
     study: {
       vocab: [
         ["j'ai fait / je suis allé", "acción pasada completada"],
-        ["venir de + infinitif", "to have just done"],
-        ["Depuis combien de temps...?", "How long have you been...?"],
-        ["depuis / pendant", "since / for"],
-        ["Je viens de finir.", "I've just finished."],
+        ["venir de + infinitif", "acabar de hacer"],
+        ["Depuis combien de temps...?", "¿Cuánto tiempo llevas...?"],
+        ["depuis / pendant", "desde / desde hace"],
+        ["Je viens de finir.", "Acabo de terminar."],
       ],
       grammar: [
         ["Sin “present perfect continuous”: presente + depuis", "El francés no tiene un tiempo equivalente al present perfect continuous inglés; para decir que algo acaba de pasar se usa “venir de + infinitivo” (presente), y para la duración de una acción que empezó en el pasado y continúa, se usa el PRESENTE + “depuis”.", "Je viens de finir mon travail. / J'attends depuis une heure."],

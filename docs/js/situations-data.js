@@ -2154,12 +2154,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales del aeropuerto en español.",
     study: {
       vocab: [
-        ["el pasaporte", "passport"],
-        ["la puerta de embarque", "boarding gate"],
-        ["la maleta", "suitcase"],
-        ["el billete/boleto", "ticket"],
-        ["el vuelo", "flight"],
-        ["la aduana", "customs"],
+        ["el pasaporte", "el pasaporte"],
+        ["la puerta de embarque", "la puerta de embarque"],
+        ["la maleta", "la maleta"],
+        ["el billete/boleto", "el billete"],
+        ["el vuelo", "el vuelo"],
+        ["la aduana", "la aduana"],
       ],
       grammar: [
         ["Artículos definidos el/la", "En español los sustantivos tienen género (masculino/femenino) y usan \"el\" o \"la\".", "el pasaporte (m) / la maleta (f)"],
@@ -2179,11 +2179,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para hacer el check-in en un aeropuerto en español.",
     study: {
       vocab: [
-        ["Quisiera facturar mi maleta", "I'd like to check my bag"],
-        ["¿Dónde está el mostrador de la aerolínea?", "Where is the airline counter?"],
-        ["¿A qué hora sale el vuelo?", "What time does the flight leave?"],
-        ["Aquí tiene mi pasaporte", "Here's my passport"],
-        ["¿Cuál es mi puerta de embarque?", "What's my boarding gate?"],
+        ["Quisiera facturar mi maleta", "Quisiera facturar mi maleta"],
+        ["¿Dónde está el mostrador de la aerolínea?", "¿Dónde está el mostrador de la aerolínea?"],
+        ["¿A qué hora sale el vuelo?", "¿A qué hora sale el vuelo?"],
+        ["Aquí tiene mi pasaporte", "Aquí tiene mi pasaporte"],
+        ["¿Cuál es mi puerta de embarque?", "¿Cuál es mi puerta de embarque?"],
       ],
       grammar: [
         ["El condicional \"quisiera\" para peticiones educadas", "\"Quisiera\" (de \"querer\") es una forma cortés de pedir algo, más formal que \"quiero\".", "Quisiera facturar mi maleta, por favor."],
@@ -2202,11 +2202,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo en el mostrador de facturación en español.",
     study: {
       vocab: [
-        ["Buenos días, ¿su pasaporte, por favor?", "Good morning, your passport please?"],
-        ["¿Cuántas maletas va a facturar?", "How many bags will you check?"],
-        ["Solo una, gracias", "Just one, thanks"],
-        ["Su vuelo sale a las 10", "Your flight leaves at 10"],
-        ["¿Ventanilla o pasillo?", "Window or aisle?"],
+        ["Buenos días, ¿su pasaporte, por favor?", "Buenos días, ¿su pasaporte, por favor?"],
+        ["¿Cuántas maletas va a facturar?", "¿Cuántas maletas va a facturar?"],
+        ["Solo una, gracias", "Solo una, gracias"],
+        ["Su vuelo sale a las 10", "Su vuelo sale a las 10"],
+        ["¿Ventanilla o pasillo?", "¿Ventanilla o pasillo?"],
       ],
       grammar: [
         ["Preguntas con ¿Cuántos/as...?", "\"¿Cuántos/as?\" pregunta por cantidad y concuerda en género con el sustantivo.", "¿Cuántas maletas? / ¿Cuántos billetes?"],
@@ -2226,12 +2226,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Qué decir cuando algo sale mal con tu maleta, en español.",
     study: {
       vocab: [
-        ["el equipaje de mano", "carry-on bag"],
-        ["el equipaje facturado", "checked bag"],
-        ["con exceso de peso", "overweight"],
-        ["frágil", "fragile"],
-        ["la recogida de equipaje", "baggage claim"],
-        ["el equipaje perdido", "lost luggage"],
+        ["el equipaje de mano", "el equipaje de mano"],
+        ["el equipaje facturado", "el equipaje facturado"],
+        ["con exceso de peso", "exceso de peso"],
+        ["frágil", "frágil"],
+        ["la recogida de equipaje", "la recogida de equipajes"],
+        ["el equipaje perdido", "el equipaje perdido"],
       ],
       grammar: [
         ["\"Con\" para describir características", "\"Con exceso de peso\" usa \"con\" + sustantivo para describir un estado.", "Mi maleta está con exceso de peso."],
@@ -2250,12 +2250,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Lo que te preguntarán al pasar los controles, en español.",
     study: {
       vocab: [
-        ["el detector de metales", "metal detector"],
-        ["quítese los zapatos", "take off your shoes"],
-        ["los líquidos", "liquids"],
-        ["la aduana", "customs"],
-        ["declarar", "to declare"],
-        ["el motivo de su visita", "purpose of your visit"],
+        ["el detector de metales", "el detector de metales"],
+        ["quítese los zapatos", "quítese los zapatos"],
+        ["los líquidos", "los líquidos"],
+        ["la aduana", "la aduana"],
+        ["declarar", "declarar"],
+        ["el motivo de su visita", "motivo de su visita"],
       ],
       grammar: [
         ["Imperativo formal (usted)", "El imperativo con \"usted\" se usa en anuncios oficiales y control de seguridad, terminando en -e/-a.", "Quítese los zapatos. / Abra la maleta."],
@@ -2274,12 +2274,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Qué decir si tu vuelo cambia de última hora, en español.",
     study: {
       vocab: [
-        ["retrasado", "delayed"],
-        ["cancelado", "cancelled"],
-        ["reprogramar", "to rebook"],
-        ["el vuelo de conexión", "connecting flight"],
-        ["perdí mi vuelo", "I missed my flight"],
-        ["el próximo vuelo disponible", "next available flight"],
+        ["retrasado", "retrasado"],
+        ["cancelado", "cancelado"],
+        ["reprogramar", "reprogramar"],
+        ["el vuelo de conexión", "el vuelo de conexión"],
+        ["perdí mi vuelo", "Perdí mi vuelo"],
+        ["el próximo vuelo disponible", "el próximo vuelo disponible"],
       ],
       grammar: [
         ["Pretérito para hechos puntuales", "El pretérito (\"perdí\") describe una acción completada en un momento concreto del pasado.", "Perdí mi vuelo esta mañana."],
@@ -2298,11 +2298,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica cómo pedir ayuda cuando algo no sale como esperabas, en español.",
     study: {
       vocab: [
-        ["se suponía que...", "it was supposed to..."],
-        ["¿podría ayudarme a encontrar...?", "could you help me find...?"],
-        ["estoy perdido/a", "I'm lost"],
-        ["¿qué puedo hacer?", "what can I do?"],
-        ["necesito ayuda", "I need help"],
+        ["se suponía que...", "se suponía que..."],
+        ["¿podría ayudarme a encontrar...?", "¿podría ayudarme a encontrar...?"],
+        ["estoy perdido/a", "Estoy perdido/a"],
+        ["¿qué puedo hacer?", "¿qué puedo hacer?"],
+        ["necesito ayuda", "Necesito ayuda"],
       ],
       grammar: [
         ["\"Se suponía que\" para planes rotos", "Esta estructura describe algo que debía pasar pero no ocurrió, muy útil para explicar un problema.", "Se suponía que iba en el vuelo 204, pero fue cancelado."],
@@ -2322,11 +2322,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pasar el control de inmigración y aduana en español.",
     study: {
       vocab: [
-        ["la declaración de aduana", "customs declaration"],
-        ["nada que declarar", "nothing to declare"],
-        ["el visado a la llegada", "visa on arrival"],
-        ["el motivo de su visita", "purpose of your visit"],
-        ["el permiso de residencia", "residency permit"],
+        ["la declaración de aduana", "la declaración de aduana"],
+        ["nada que declarar", "nada que declarar"],
+        ["el visado a la llegada", "el visado a la llegada"],
+        ["el motivo de su visita", "motivo de su visita"],
+        ["el permiso de residencia", "el permiso de residencia"],
       ],
       grammar: [
         ["\"Nada que + infinitivo\" para negar algo", "Esta estructura niega la existencia de algo que hacer, muy común en aduana.", "No tengo nada que declarar."],
@@ -2346,11 +2346,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a manejarte en salas de espera premium y a resolver una conexión ajustada en español.",
     study: {
       vocab: [
-        ["tener acceso a la sala VIP", "to have access to the lounge"],
-        ["una conexión ajustada", "a tight connection"],
-        ["perder un vuelo de conexión", "to miss a connecting flight"],
-        ["el embarque prioritario", "priority boarding"],
-        ["ser reprogramado automáticamente", "to be rebooked automatically"],
+        ["tener acceso a la sala VIP", "tener acceso a la sala VIP"],
+        ["una conexión ajustada", "una conexión ajustada"],
+        ["perder un vuelo de conexión", "perder un vuelo de conexión"],
+        ["el embarque prioritario", "el embarque prioritario"],
+        ["ser reprogramado automáticamente", "ser reprogramado automáticamente"],
       ],
       grammar: [
         ["La voz pasiva con \"ser + participio\"", "La voz pasiva se usa cuando el foco está en la acción, no en quién la realiza.", "Será reprogramado en el próximo vuelo disponible."],
@@ -2369,11 +2369,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a reportar equipaje perdido o dañado y a seguir el reclamo en español.",
     study: {
       vocab: [
-        ["mi equipaje no llegó", "my luggage didn't arrive"],
-        ["una maleta dañada", "a damaged suitcase"],
-        ["el formulario de reclamo de equipaje", "baggage claim form"],
-        ["el número de seguimiento", "tracking number"],
-        ["la compensación por el retraso", "compensation for the delay"],
+        ["mi equipaje no llegó", "mi equipaje no llegó"],
+        ["una maleta dañada", "una maleta dañada"],
+        ["el formulario de reclamo de equipaje", "el formulario de reclamación de equipaje"],
+        ["el número de seguimiento", "el número de seguimiento"],
+        ["la compensación por el retraso", "la compensación por el retraso"],
       ],
       grammar: [
         ["Pretérito perfecto para quejas recientes", "El pretérito perfecto (\"ha llegado\") se usa cuando el efecto de un problema sigue vigente ahora mismo.", "Mi maleta no ha llegado todavía."],
@@ -2393,11 +2393,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a redactar y presentar un reclamo formal por retrasos o problemas de vuelo en español.",
     study: {
       vocab: [
-        ["presentar una queja", "to file a complaint"],
-        ["la compensación por retraso de vuelo", "flight delay compensation"],
-        ["bajo la normativa europea", "under EU regulation"],
-        ["un reembolso frente a un vale", "a refund versus a voucher"],
-        ["escalar el problema", "to escalate the issue"],
+        ["presentar una queja", "presentar una queja"],
+        ["la compensación por retraso de vuelo", "la compensación por retraso de vuelo"],
+        ["bajo la normativa europea", "según la normativa de la UE"],
+        ["un reembolso frente a un vale", "un reembolso frente a un vale"],
+        ["escalar el problema", "escalar el problema"],
       ],
       grammar: [
         ["\"Frente a\" para contrastar opciones", "\"Frente a\" se usa para comparar dos alternativas de forma directa y formal.", "Un reembolso frente a un vale — ¿cuál prefiere?"],
@@ -2417,11 +2417,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica cómo negociar un cambio de vuelo o un mejor acuerdo con la aerolínea en un registro formal y persuasivo.",
     study: {
       vocab: [
-        ["llegar a una solución justa", "to reach a fair resolution"],
-        ["dadas las circunstancias", "given the circumstances"],
-        ["entiendo su política, sin embargo...", "I understand your policy, however..."],
-        ["un ajuste razonable", "a reasonable accommodation"],
-        ["eximir/anular la tarifa", "to waive the fee"],
+        ["llegar a una solución justa", "llegar a una resolución justa"],
+        ["dadas las circunstancias", "dadas las circunstancias"],
+        ["entiendo su política, sin embargo...", "Entiendo su política, sin embargo..."],
+        ["un ajuste razonable", "una solución razonable"],
+        ["eximir/anular la tarifa", "eximir de la tarifa"],
       ],
       grammar: [
         ["Conectores concesivos en registro formal", "\"Sin embargo\", \"dadas las circunstancias\" y \"no obstante\" suavizan un desacuerdo mientras mantienes tu postura de forma educada pero firme.", "Entiendo su política, sin embargo, dadas las circunstancias, creo que es posible una solución justa."],
@@ -2441,11 +2441,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos y expresiones coloquiales usadas en aeropuertos y viajes en español.",
     study: {
       vocab: [
-        ["alcanzar el vuelo justo a tiempo", "to catch a flight"],
-        ["tener jet lag / descompensación horaria", "to be jet-lagged"],
-        ["viajar con poco equipaje", "to travel light"],
-        ["un vuelo nocturno", "a red-eye flight"],
-        ["aterrizar", "to touch down"],
+        ["alcanzar el vuelo justo a tiempo", "coger un vuelo"],
+        ["tener jet lag / descompensación horaria", "tener jet lag"],
+        ["viajar con poco equipaje", "viajar con poco equipaje"],
+        ["un vuelo nocturno", "un vuelo nocturno"],
+        ["aterrizar", "aterrizar"],
       ],
       grammar: [
         ["Expresiones fijas de viaje", "Muchas expresiones de viaje son frases fijas que no se traducen literalmente palabra por palabra.", "Aterrizamos una hora antes. / Siempre viajo con poco equipaje."],
@@ -2468,12 +2468,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales para ir a un restaurante en español.",
     study: {
       vocab: [
-        ["el menú", "the menu"],
-        ["la mesa", "the table"],
-        ["el camarero/la camarera", "the waiter/waitress"],
-        ["la cuenta", "the bill"],
-        ["el plato", "the dish"],
-        ["la bebida", "the drink"],
+        ["el menú", "el menú"],
+        ["la mesa", "la mesa"],
+        ["el camarero/la camarera", "el camarero/la camarera"],
+        ["la cuenta", "la cuenta"],
+        ["el plato", "el plato"],
+        ["la bebida", "la bebida"],
       ],
       grammar: [
         ["Género de sustantivos en -o/-a", "La mayoría de sustantivos terminados en -o son masculinos y en -a son femeninos.", "el plato (m) / la bebida (f)"],
@@ -2493,11 +2493,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para pedir comida en un restaurante en español.",
     study: {
       vocab: [
-        ["Quisiera pedir...", "I'd like to order..."],
-        ["¿Qué me recomienda?", "What do you recommend?"],
-        ["Para mí, la pasta", "For me, the pasta"],
-        ["Sin cebolla, por favor", "No onion, please"],
-        ["¿Está listo para pedir?", "Are you ready to order?"],
+        ["Quisiera pedir...", "Quisiera pedir..."],
+        ["¿Qué me recomienda?", "¿Qué recomiendas?"],
+        ["Para mí, la pasta", "Para mí, la pasta"],
+        ["Sin cebolla, por favor", "Sin cebolla, por favor"],
+        ["¿Está listo para pedir?", "¿Están listos para pedir?"],
       ],
       grammar: [
         ["\"Para mí\" para indicar tu pedido", "\"Para mí\" se usa para especificar qué quieres cuando el camarero pregunta el pedido de cada persona.", "Para mí, la pasta, por favor."],
@@ -2516,11 +2516,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo pidiendo la cena en un restaurante en español.",
     study: {
       vocab: [
-        ["Buenas noches, ¿mesa para cuántos?", "Good evening, table for how many?"],
-        ["Para dos, por favor", "For two, please"],
-        ["¿Algo de tomar?", "Something to drink?"],
-        ["Agua, por favor", "Water, please"],
-        ["Enseguida se lo traigo", "I'll bring it right away"],
+        ["Buenas noches, ¿mesa para cuántos?", "Buenas noches, ¿mesa para cuántos?"],
+        ["Para dos, por favor", "Para dos, por favor"],
+        ["¿Algo de tomar?", "¿Algo de beber?"],
+        ["Agua, por favor", "Agua, por favor"],
+        ["Enseguida se lo traigo", "Se lo traigo enseguida"],
       ],
       grammar: [
         ["Preposición \"para\" + número", "\"Para dos\" indica la cantidad de personas, muy común al pedir mesa.", "Mesa para dos, por favor."],
@@ -2540,11 +2540,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a explicar alergias y preferencias alimentarias en un restaurante en español.",
     study: {
       vocab: [
-        ["soy alérgico/a a...", "I'm allergic to..."],
-        ["los frutos secos", "nuts"],
-        ["no como carne", "I don't eat meat"],
-        ["¿esto contiene lácteos?", "does this contain dairy?"],
-        ["intolerante al gluten", "gluten intolerant"],
+        ["soy alérgico/a a...", "Soy alérgico/a a..."],
+        ["los frutos secos", "los frutos secos"],
+        ["no como carne", "No como carne"],
+        ["¿esto contiene lácteos?", "¿esto contiene lácteos?"],
+        ["intolerante al gluten", "intolerante al gluten"],
       ],
       grammar: [
         ["\"Ser alérgico a\" + sustantivo", "Se usa \"ser alérgico/a a\" + el alimento para indicar una alergia.", "Soy alérgica a los frutos secos."],
@@ -2563,11 +2563,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a explicar un problema con tu pedido en un restaurante en español.",
     study: {
       vocab: [
-        ["esto no es lo que pedí", "this isn't what I ordered"],
-        ["está frío", "it's cold"],
-        ["falta el pedido", "the order is missing"],
-        ["¿podría cambiarlo?", "could you change it?"],
-        ["está muy salado", "it's too salty"],
+        ["esto no es lo que pedí", "esto no es lo que pedí"],
+        ["está frío", "está frío"],
+        ["falta el pedido", "falta algo del pedido"],
+        ["¿podría cambiarlo?", "¿podría cambiarlo?"],
+        ["está muy salado", "está demasiado salado"],
       ],
       grammar: [
         ["Estar + adjetivo para describir un estado temporal", "\"Estar\" + adjetivo describe un estado temporal, como la temperatura o sabor de un plato.", "La sopa está fría."],
@@ -2586,11 +2586,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir la cuenta y hablar de la propina en un restaurante en español.",
     study: {
       vocab: [
-        ["la cuenta, por favor", "the bill, please"],
-        ["¿aceptan tarjeta?", "do you accept card?"],
-        ["la propina", "the tip"],
-        ["dividir la cuenta", "to split the bill"],
-        ["quédese con el cambio", "keep the change"],
+        ["la cuenta, por favor", "la cuenta, por favor"],
+        ["¿aceptan tarjeta?", "¿aceptan tarjeta?"],
+        ["la propina", "la propina"],
+        ["dividir la cuenta", "dividir la cuenta"],
+        ["quédese con el cambio", "quédese con el cambio"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones", "\"Quédese\" es el imperativo formal (usted) del verbo \"quedarse\".", "Quédese con el cambio, por favor."],
@@ -2609,10 +2609,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir y dar recomendaciones sobre platos en un restaurante en español.",
     study: {
       vocab: [
-        ["¿cuál es la especialidad de la casa?", "what's the house specialty?"],
-        ["se lo recomiendo mucho", "I highly recommend it"],
-        ["es un plato típico de la región", "it's a typical dish of the region"],
-        ["si le gusta el picante...", "if you like spicy food..."],
+        ["¿cuál es la especialidad de la casa?", "¿cuál es la especialidad de la casa?"],
+        ["se lo recomiendo mucho", "lo recomiendo encarecidamente"],
+        ["es un plato típico de la región", "es un plato típico de la región"],
+        ["si le gusta el picante...", "si te gusta la comida picante..."],
       ],
       grammar: [
         ["El condicional \"si\" + presente para sugerencias", "\"Si le gusta...\" + presente introduce una sugerencia condicionada al gusto de la persona.", "Si le gusta el picante, le recomiendo este plato."],
@@ -2632,11 +2632,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a reservar mesa para una ocasión especial y pedir detalles concretos en español.",
     study: {
       vocab: [
-        ["reservar mesa para una ocasión especial", "to book a table for a special occasion"],
-        ["una mesa junto a la ventana", "a table by the window"],
-        ["celebrar un aniversario", "to celebrate an anniversary"],
-        ["un menú fijo", "a set menu"],
-        ["pedir un pastel con una vela", "to request a cake with a candle"],
+        ["reservar mesa para una ocasión especial", "reservar una mesa para una ocasión especial"],
+        ["una mesa junto a la ventana", "una mesa junto a la ventana"],
+        ["celebrar un aniversario", "celebrar un aniversario"],
+        ["un menú fijo", "un menú fijo"],
+        ["pedir un pastel con una vela", "pedir una tarta con una vela"],
       ],
       grammar: [
         ["\"Quisiéramos\" para peticiones en grupo", "\"Quisiéramos\" (primera persona plural) se usa cuando la petición es para varias personas.", "Quisiéramos una mesa junto a la ventana."],
@@ -2656,11 +2656,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario sobre maridaje de vinos y menús de degustación en español.",
     study: {
       vocab: [
-        ["el maridaje de vinos", "wine pairing"],
-        ["un menú degustación", "a tasting menu"],
-        ["un tinto con cuerpo", "a full-bodied red"],
-        ["complementar el plato", "to complement the dish"],
-        ["la recomendación del sumiller", "the sommelier's recommendation"],
+        ["el maridaje de vinos", "el maridaje de vinos"],
+        ["un menú degustación", "un menú de degustación"],
+        ["un tinto con cuerpo", "un tinto con cuerpo"],
+        ["complementar el plato", "complementar el plato"],
+        ["la recomendación del sumiller", "la recomendación del sumiller"],
       ],
       grammar: [
         ["Adjetivos compuestos en español", "En español, los adjetivos compuestos se forman con \"de\" o combinando palabras, y concuerdan en género y número.", "un tinto con cuerpo / un plato bien equilibrado"],
@@ -2679,11 +2679,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a explicar dietas especiales y preferencias éticas sobre la comida en español.",
     study: {
       vocab: [
-        ["dieta basada en plantas", "plant-based diet"],
-        ["intolerancia al gluten", "gluten intolerance"],
-        ["ingredientes de origen ético", "ethically sourced ingredients"],
-        ["contaminación cruzada", "cross-contamination"],
-        ["una alternativa sin lácteos", "a dairy-free alternative"],
+        ["dieta basada en plantas", "la dieta a base de plantas"],
+        ["intolerancia al gluten", "la intolerancia al gluten"],
+        ["ingredientes de origen ético", "ingredientes de origen ético"],
+        ["contaminación cruzada", "la contaminación cruzada"],
+        ["una alternativa sin lácteos", "una alternativa sin lácteos"],
       ],
       grammar: [
         ["\"Sin\" + sustantivo para indicar ausencia", "\"Sin\" + sustantivo se usa para indicar que algo no contiene cierto ingrediente.", "pan sin gluten / leche sin lácteos / postre sin frutos secos"],
@@ -2703,11 +2703,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a plantear un problema serio al gerente de un restaurante de forma educada pero firme en español.",
     study: {
       vocab: [
-        ["¿podría hablar con el gerente?", "could I speak to the manager"],
-        ["esto no es lo que pedí", "this isn't what I ordered"],
-        ["agradecería una solución", "I'd appreciate a solution"],
-        ["esto ya ha pasado antes", "this has happened before"],
-        ["compensar el inconveniente", "to compensate the inconvenience"],
+        ["¿podría hablar con el gerente?", "¿podría hablar con el gerente?"],
+        ["esto no es lo que pedí", "esto no es lo que pedí"],
+        ["agradecería una solución", "agradecería una solución"],
+        ["esto ya ha pasado antes", "esto ya ha pasado antes"],
+        ["compensar el inconveniente", "compensar la molestia"],
       ],
       grammar: [
         ["\"Agradecería\" para pedir algo con firmeza educada", "El condicional \"agradecería\" expresa una petición firme pero cortés, típica en quejas formales.", "Agradecería una solución lo antes posible."],
@@ -2727,11 +2727,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a redactar una reseña equilibrada y detallada de un restaurante en español.",
     study: {
       vocab: [
-        ["en general, la experiencia fue...", "overall, the experience was..."],
-        ["el servicio dejó mucho que desear", "the service left much to be desired"],
-        ["una joya escondida", "a hidden gem"],
-        ["la atención al detalle", "attention to detail"],
-        ["lo recomendaría / no lo recomendaría", "I would (not) recommend it"],
+        ["en general, la experiencia fue...", "en general, la experiencia fue..."],
+        ["el servicio dejó mucho que desear", "el servicio dejó mucho que desear"],
+        ["una joya escondida", "una joya escondida"],
+        ["la atención al detalle", "la atención al detalle"],
+        ["lo recomendaría / no lo recomendaría", "(no) lo recomendaría"],
       ],
       grammar: [
         ["Adverbios de opinión al inicio de frase", "\"En general\", \"la verdad\" o \"honestamente\" al principio de la frase matizan el tono general de una opinión escrita.", "En general, la experiencia fue memorable, aunque el servicio fue lento."],
@@ -2751,11 +2751,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos en español relacionados con la comida y las comidas fuera de casa.",
     study: {
       vocab: [
-        ["ser goloso/a", "to have a sweet tooth"],
-        ["comer como un rey", "to eat like a king"],
-        ["eso es la guinda del pastel", "that's the icing on the cake"],
-        ["ser el sostén económico", "to bring home the bacon"],
-        ["pan comido / muy fácil", "piece of cake"],
+        ["ser goloso/a", "ser goloso"],
+        ["comer como un rey", "comer como un rey"],
+        ["eso es la guinda del pastel", "eso es la guinda del pastel"],
+        ["ser el sostén económico", "traer el pan a casa"],
+        ["pan comido / muy fácil", "pan comido"],
       ],
       grammar: [
         ["Modismos con vocabulario de comida", "Muchos modismos en español usan palabras de comida con un significado completamente distinto al literal.", "Este examen fue pan comido. / Ella siempre come como un rey."],
@@ -2778,12 +2778,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales de un hotel en español.",
     study: {
       vocab: [
-        ["la habitación", "the room"],
-        ["la recepción", "the front desk"],
-        ["la llave", "the key"],
-        ["el equipaje", "the luggage"],
-        ["la reserva", "the reservation"],
-        ["el desayuno", "breakfast"],
+        ["la habitación", "la habitación"],
+        ["la recepción", "la recepción"],
+        ["la llave", "la llave"],
+        ["el equipaje", "el equipaje"],
+        ["la reserva", "la reserva"],
+        ["el desayuno", "el desayuno"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el hotel", "Muchos sustantivos del hotel son femeninos: la habitación, la recepción, la llave, la reserva.", "la habitación (f) / el desayuno (m)"],
@@ -2803,11 +2803,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para el check-in en un hotel en español.",
     study: {
       vocab: [
-        ["Tengo una reserva a nombre de...", "I have a reservation under the name of..."],
-        ["¿A qué hora es el check-in?", "What time is check-in?"],
-        ["¿El desayuno está incluido?", "Is breakfast included?"],
-        ["Necesito otra llave", "I need another key"],
-        ["¿Cuál es el wifi?", "What's the wifi?"],
+        ["Tengo una reserva a nombre de...", "Tengo una reserva a nombre de..."],
+        ["¿A qué hora es el check-in?", "¿A qué hora es el check-in?"],
+        ["¿El desayuno está incluido?", "¿El desayuno está incluido?"],
+        ["Necesito otra llave", "Necesito otra llave"],
+        ["¿Cuál es el wifi?", "¿Cuál es el wifi?"],
       ],
       grammar: [
         ["\"A nombre de\" para identificar reservas", "\"A nombre de\" se usa para indicar bajo qué nombre está hecha una reserva.", "Tengo una reserva a nombre de García."],
@@ -2826,11 +2826,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo en la recepción de un hotel en español.",
     study: {
       vocab: [
-        ["Buenas tardes, ¿tiene una reserva?", "Good afternoon, do you have a reservation?"],
+        ["Buenas tardes, ¿tiene una reserva?", "Buenas tardes, ¿tiene reserva?"],
         ["Sí, a nombre de López", "Yes, under López"],
-        ["Su habitación es la 305", "Your room is 305"],
-        ["El ascensor está a la derecha", "The elevator is to the right"],
-        ["Que disfrute su estancia", "Enjoy your stay"],
+        ["Su habitación es la 305", "Su habitación es la 305"],
+        ["El ascensor está a la derecha", "El ascensor está a la derecha"],
+        ["Que disfrute su estancia", "Disfrute de su estancia"],
       ],
       grammar: [
         ["Posesivos su/sus (formal)", "\"Su\" se usa con \"usted\" para el posesivo formal de tercera persona.", "Su habitación es la 305."],
@@ -2850,12 +2850,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar por los servicios de un hotel en español.",
     study: {
       vocab: [
-        ["el servicio de habitaciones", "room service"],
-        ["la piscina", "the pool"],
-        ["el gimnasio", "the gym"],
-        ["la lavandería", "laundry"],
-        ["el servicio de despertador", "wake-up call"],
-        ["el estacionamiento", "parking"],
+        ["el servicio de habitaciones", "el servicio de habitaciones"],
+        ["la piscina", "la piscina"],
+        ["el gimnasio", "el gimnasio"],
+        ["la lavandería", "la lavandería"],
+        ["el servicio de despertador", "el servicio de despertador"],
+        ["el estacionamiento", "el aparcamiento"],
       ],
       grammar: [
         ["\"¿Hay...?\" para preguntar por disponibilidad", "\"¿Hay...?\" se usa para preguntar si algo está disponible en el hotel.", "¿Hay piscina en el hotel?"],
@@ -2874,11 +2874,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a explicar un problema en tu habitación de hotel en español.",
     study: {
       vocab: [
-        ["no funciona el aire acondicionado", "the AC doesn't work"],
-        ["la habitación está sucia", "the room is dirty"],
-        ["hay mucho ruido", "there's a lot of noise"],
-        ["¿podrían cambiarme de habitación?", "could you change my room?"],
-        ["falta agua caliente", "there's no hot water"],
+        ["no funciona el aire acondicionado", "el aire acondicionado no funciona"],
+        ["la habitación está sucia", "la habitación está sucia"],
+        ["hay mucho ruido", "hay mucho ruido"],
+        ["¿podrían cambiarme de habitación?", "¿podría cambiarme de habitación?"],
+        ["falta agua caliente", "no hay agua caliente"],
       ],
       grammar: [
         ["\"No funciona\" para describir averías", "\"No funciona\" + sustantivo describe algo que está roto o no opera correctamente.", "No funciona el aire acondicionado."],
@@ -2897,11 +2897,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hacer el check-out y entender cargos adicionales en español.",
     study: {
       vocab: [
-        ["hacer el check-out", "to check out"],
-        ["el cargo por el minibar", "the minibar charge"],
-        ["¿podría revisar la factura?", "could you check the bill?"],
-        ["dejar la habitación", "to leave the room"],
-        ["guardar el equipaje", "to store the luggage"],
+        ["hacer el check-out", "hacer el check-out"],
+        ["el cargo por el minibar", "el cargo del minibar"],
+        ["¿podría revisar la factura?", "¿podría revisar la cuenta?"],
+        ["dejar la habitación", "dejar la habitación"],
+        ["guardar el equipaje", "guardar el equipaje"],
       ],
       grammar: [
         ["\"¿A qué hora?\" para preguntar horarios", "\"¿A qué hora...?\" se usa para preguntar por horarios límite, como el check-out.", "¿A qué hora es el check-out?"],
@@ -2920,10 +2920,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir recomendaciones locales al personal del hotel en español.",
     study: {
       vocab: [
-        ["¿qué me recomienda visitar?", "what do you recommend visiting?"],
-        ["un lugar poco turístico", "a place off the beaten path"],
-        ["está a poca distancia caminando", "it's a short walk away"],
-        ["tomar un taxi o el metro", "to take a taxi or the metro"],
+        ["¿qué me recomienda visitar?", "¿qué recomienda visitar?"],
+        ["un lugar poco turístico", "un lugar poco conocido"],
+        ["está a poca distancia caminando", "está a pocos minutos andando"],
+        ["tomar un taxi o el metro", "tomar un taxi o el metro"],
       ],
       grammar: [
         ["\"A poca distancia\" para indicar cercanía", "Esta expresión indica que un lugar está cerca, sin necesitar transporte.", "El museo está a poca distancia caminando."],
@@ -2943,11 +2943,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a modificar, posponer o cancelar una reserva de hotel en español.",
     study: {
       vocab: [
-        ["modificar una reserva", "to modify a reservation"],
-        ["una política de cancelación", "a cancellation policy"],
-        ["una tarifa no reembolsable", "a non-refundable rate"],
-        ["posponer la fecha de entrada", "to postpone the check-in date"],
-        ["un correo de confirmación", "a confirmation email"],
+        ["modificar una reserva", "modificar una reserva"],
+        ["una política de cancelación", "una política de cancelación"],
+        ["una tarifa no reembolsable", "una tarifa no reembolsable"],
+        ["posponer la fecha de entrada", "posponer la fecha de entrada"],
+        ["un correo de confirmación", "un correo de confirmación"],
       ],
       grammar: [
         ["\"Necesito\" + infinitivo para trámites", "\"Necesito\" + verbo es la forma directa y natural de explicar qué trámite necesitas hacer.", "Necesito modificar mi reserva para la próxima semana."],
@@ -2967,11 +2967,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar por instalaciones del hotel y a quejarte si no funcionan como se anuncia en español.",
     study: {
       vocab: [
-        ["las instalaciones no son como se anuncian", "the amenities aren't as advertised"],
-        ["la piscina está fuera de servicio", "the pool is out of service"],
-        ["acceso al gimnasio y al spa", "access to the gym and spa"],
-        ["el wifi se desconecta constantemente", "the wifi keeps disconnecting"],
-        ["no estar a la altura de las expectativas", "to fall short of expectations"],
+        ["las instalaciones no son como se anuncian", "las instalaciones no son como se anunciaban"],
+        ["la piscina está fuera de servicio", "la piscina está fuera de servicio"],
+        ["acceso al gimnasio y al spa", "acceso al gimnasio y al spa"],
+        ["el wifi se desconecta constantemente", "el wifi se desconecta constantemente"],
+        ["no estar a la altura de las expectativas", "no estar a la altura de las expectativas"],
       ],
       grammar: [
         ["\"Seguir + gerundio\" para acciones repetidas", "\"Seguir + -ando/-iendo\" expresa que algo ocurre repetidamente y de forma molesta.", "El wifi sigue desconectándose cada diez minutos."],
@@ -2990,11 +2990,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a negociar una mejor tarifa o una mejora de habitación en español.",
     study: {
       vocab: [
-        ["¿hay algo de flexibilidad en el precio?", "is there any flexibility on the price"],
-        ["una mejora gratuita", "a complimentary upgrade"],
-        ["igualar la tarifa de la competencia", "to match a competitor's rate"],
-        ["un miembro del programa de fidelidad", "a loyalty member"],
-        ["sujeto a disponibilidad", "subject to availability"],
+        ["¿hay algo de flexibilidad en el precio?", "¿hay algo de flexibilidad en el precio?"],
+        ["una mejora gratuita", "una mejora gratuita"],
+        ["igualar la tarifa de la competencia", "igualar la tarifa de un competidor"],
+        ["un miembro del programa de fidelidad", "un miembro del programa de fidelidad"],
+        ["sujeto a disponibilidad", "sujeto a disponibilidad"],
       ],
       grammar: [
         ["Preguntas indirectas para negociar con tacto", "\"¿Hay algo de...?\" o \"¿Sería posible...?\" son formas indirectas y más corteses de pedir algo delicado como un descuento.", "¿Hay algo de flexibilidad en el precio para una estancia más larga?"],
@@ -3014,11 +3014,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario para gestionar una estancia de negocios: facturación corporativa, salas de reuniones y recibos.",
     study: {
       vocab: [
-        ["facturarlo a la cuenta de la empresa", "to bill it to the company account"],
-        ["una sala de reuniones con proyector", "a meeting room with a projector"],
-        ["un recibo detallado", "an itemized receipt"],
-        ["una tarifa corporativa", "a corporate rate"],
-        ["trabajar remotamente desde el centro de negocios", "to work remotely from the business center"],
+        ["facturarlo a la cuenta de la empresa", "cargarlo a la cuenta de la empresa"],
+        ["una sala de reuniones con proyector", "una sala de reuniones con proyector"],
+        ["un recibo detallado", "un recibo detallado"],
+        ["una tarifa corporativa", "una tarifa corporativa"],
+        ["trabajar remotamente desde el centro de negocios", "trabajar remotamente desde el centro de negocios"],
       ],
       grammar: [
         ["\"Facturar X a Y\" para facturación", "\"Facturar X a Y\" significa cargar un gasto a una cuenta o entidad concreta.", "Por favor, facture el minibar a mi cuenta de empresa."],
@@ -3037,11 +3037,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a disputar formalmente un cargo incorrecto en tu factura de hotel en español.",
     study: {
       vocab: [
-        ["se me cobró incorrectamente por...", "I was charged incorrectly for..."],
-        ["¿podría investigar esta discrepancia?", "could you look into this discrepancy"],
-        ["tengo documentación que respalda mi reclamo", "I have documentation to support my claim"],
-        ["disputar un cargo", "to dispute a charge"],
-        ["un plazo razonable para la resolución", "a reasonable timeframe for resolution"],
+        ["se me cobró incorrectamente por...", "me cobraron incorrectamente por..."],
+        ["¿podría investigar esta discrepancia?", "¿podría investigar esta discrepancia?"],
+        ["tengo documentación que respalda mi reclamo", "tengo documentación que respalda mi reclamo"],
+        ["disputar un cargo", "impugnar un cargo"],
+        ["un plazo razonable para la resolución", "un plazo razonable para la resolución"],
       ],
       grammar: [
         ["\"Tengo + sustantivo + que respalda...\" en reclamos formales", "Esta estructura refuerza un argumento presentando evidencia de forma profesional y objetiva.", "Tengo documentación que respalda mi reclamo, incluyendo la factura original."],
@@ -3061,11 +3061,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos en español usados en el sector de la hospitalidad y los viajes.",
     study: {
       vocab: [
-        ["tratar a alguien como a la realeza", "to roll out the red carpet"],
-        ["un segundo hogar", "a home away from home"],
-        ["hacer un esfuerzo extra", "to go the extra mile"],
-        ["valer cada centavo", "to be worth every penny"],
-        ["sin lujos, básico", "no frills"],
+        ["tratar a alguien como a la realeza", "recibir con los brazos abiertos"],
+        ["un segundo hogar", "un hogar lejos de casa"],
+        ["hacer un esfuerzo extra", "hacer un esfuerzo adicional"],
+        ["valer cada centavo", "valer cada centavo"],
+        ["sin lujos, básico", "sin lujos"],
       ],
       grammar: [
         ["Modismos de servicio al cliente", "Estos modismos describen un servicio excelente o básico de forma vívida, sin que tengan un significado literal.", "El personal realmente hizo un esfuerzo extra por nosotros. / Es un hotel sin lujos, pero muy limpio."],
@@ -3088,12 +3088,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales para ir de compras a un mercado en español.",
     study: {
       vocab: [
-        ["el puesto", "the stall"],
-        ["el vendedor/la vendedora", "the seller"],
-        ["el precio", "the price"],
-        ["la fruta", "fruit"],
-        ["la verdura", "vegetables"],
-        ["la bolsa", "the bag"],
+        ["el puesto", "el puesto"],
+        ["el vendedor/la vendedora", "el vendedor"],
+        ["el precio", "el precio"],
+        ["la fruta", "la fruta"],
+        ["la verdura", "las verduras"],
+        ["la bolsa", "la bolsa"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem", "\"El vendedor/la vendedora\" cambia de género según quien vende.", "el vendedor (m) / la vendedora (f)"],
@@ -3113,10 +3113,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para comprar en un mercado en español.",
     study: {
       vocab: [
-        ["¿Cuánto cuesta esto?", "How much does this cost?"],
-        ["Quiero medio kilo", "I want half a kilo"],
-        ["¿Tiene algo más fresco?", "Do you have something fresher?"],
-        ["Me lo llevo", "I'll take it"],
+        ["¿Cuánto cuesta esto?", "¿Cuánto cuesta esto?"],
+        ["Quiero medio kilo", "Quiero medio kilo"],
+        ["¿Tiene algo más fresco?", "¿Tiene algo más fresco?"],
+        ["Me lo llevo", "Me lo llevo"],
       ],
       grammar: [
         ["\"Cuánto\" para preguntar precio o cantidad", "\"Cuánto cuesta\" pregunta por el precio; \"cuánto\" concuerda en género con lo que preguntas.", "¿Cuánto cuesta esto? / ¿Cuánta fruta quiere?"],
@@ -3135,11 +3135,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo en un puesto de mercado en español.",
     study: {
       vocab: [
-        ["Buenos días, ¿qué desea?", "Good morning, what would you like?"],
-        ["Quiero un kilo de tomates", "I want a kilo of tomatoes"],
-        ["Aquí tiene, son tres euros", "Here you go, that's three euros"],
-        ["¿Algo más?", "Anything else?"],
-        ["No, gracias, eso es todo", "No, thanks, that's all"],
+        ["Buenos días, ¿qué desea?", "Buenos días, ¿qué desea?"],
+        ["Quiero un kilo de tomates", "Quiero un kilo de tomates"],
+        ["Aquí tiene, son tres euros", "Aquí tiene, son tres euros"],
+        ["¿Algo más?", "¿Algo más?"],
+        ["No, gracias, eso es todo", "No, gracias, eso es todo"],
       ],
       grammar: [
         ["\"¿Qué desea?\" en atención al cliente", "\"¿Qué desea?\" es una forma formal y educada de preguntar qué quiere comprar el cliente.", "Buenos días, ¿qué desea?"],
@@ -3159,10 +3159,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar por productos y sustitutos en un mercado en español.",
     study: {
       vocab: [
-        ["no me queda...", "I'm out of..."],
-        ["¿tiene algo parecido?", "do you have something similar?"],
-        ["está agotado", "it's sold out"],
-        ["le puedo ofrecer esto en su lugar", "I can offer you this instead"],
+        ["no me queda...", "se me acabó..."],
+        ["¿tiene algo parecido?", "¿tiene algo parecido?"],
+        ["está agotado", "está agotado"],
+        ["le puedo ofrecer esto en su lugar", "puedo ofrecerle esto en su lugar"],
       ],
       grammar: [
         ["\"En su lugar\" para ofrecer alternativas", "\"En su lugar\" se usa para proponer un sustituto de algo que no está disponible.", "Le puedo ofrecer esto en su lugar."],
@@ -3181,10 +3181,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hacer una devolución o queja en un mercado en español.",
     study: {
       vocab: [
-        ["quiero devolver esto", "I want to return this"],
-        ["está en mal estado", "it's in bad condition"],
-        ["¿me puede dar un reembolso?", "can you give me a refund?"],
-        ["lo compré ayer", "I bought it yesterday"],
+        ["quiero devolver esto", "quiero devolver esto"],
+        ["está en mal estado", "está en mal estado"],
+        ["¿me puede dar un reembolso?", "¿puede reembolsarme?"],
+        ["lo compré ayer", "lo compré ayer"],
       ],
       grammar: [
         ["Pretérito para acciones pasadas concretas", "\"Compré\" (pretérito) indica una acción terminada en un momento específico.", "Lo compré ayer, y ya está en mal estado."],
@@ -3203,10 +3203,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar y hablar sobre formas de pago en un mercado en español.",
     study: {
       vocab: [
-        ["¿aceptan tarjeta?", "do you accept card?"],
-        ["solo efectivo", "cash only"],
-        ["¿tiene cambio de un billete grande?", "do you have change for a large bill?"],
-        ["pagar en efectivo", "to pay in cash"],
+        ["¿aceptan tarjeta?", "¿aceptan tarjeta?"],
+        ["solo efectivo", "solo efectivo"],
+        ["¿tiene cambio de un billete grande?", "¿tiene cambio para un billete grande?"],
+        ["pagar en efectivo", "pagar en efectivo"],
       ],
       grammar: [
         ["\"Solo\" para limitar una opción", "\"Solo efectivo\" indica que no se aceptan otras formas de pago.", "Aquí es solo efectivo, lo siento."],
@@ -3225,10 +3225,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir y dar indicaciones dentro de un mercado en español.",
     study: {
       vocab: [
-        ["¿dónde está el puesto de pescado?", "where is the fish stall?"],
-        ["al fondo, a la izquierda", "at the back, on the left"],
-        ["siga todo recto", "keep going straight"],
-        ["está justo enfrente", "it's right in front"],
+        ["¿dónde está el puesto de pescado?", "¿dónde está el puesto de pescado?"],
+        ["al fondo, a la izquierda", "al fondo, a la izquierda"],
+        ["siga todo recto", "siga recto"],
+        ["está justo enfrente", "está justo enfrente"],
       ],
       grammar: [
         ["Imperativo formal para indicaciones", "El imperativo con \"usted\" se usa para dar indicaciones de forma educada.", "Siga todo recto y gire a la izquierda."],
@@ -3248,11 +3248,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a regatear de forma educada y con más matices en un mercado en español.",
     study: {
       vocab: [
-        ["eso está un poco por encima de mi presupuesto", "that's a bit over my budget"],
-        ["¿podría mejorar algo el precio?", "could you do any better on the price"],
-        ["si compro más, ¿sale más barato?", "if I buy more, is it cheaper"],
-        ["es lo mejor que puedo ofrecer", "that's the best I can do"],
-        ["tenemos un trato", "we have a deal"],
+        ["eso está un poco por encima de mi presupuesto", "eso se sale un poco de mi presupuesto"],
+        ["¿podría mejorar algo el precio?", "¿podría mejorar el precio?"],
+        ["si compro más, ¿sale más barato?", "si compro más, ¿es más barato?"],
+        ["es lo mejor que puedo ofrecer", "es lo mejor que puedo ofrecer"],
+        ["tenemos un trato", "tenemos un trato"],
       ],
       grammar: [
         ["Preguntas indirectas al regatear", "\"¿Podría mejorar algo el precio?\" es una forma educada e indirecta de pedir un mejor precio sin sonar exigente.", "¿Podría mejorar algo el precio si me llevo dos?"],
@@ -3272,11 +3272,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar por la calidad, el origen y la sostenibilidad de los productos en un mercado en español.",
     study: {
       vocab: [
-        ["¿de dónde viene esto?", "where does this come from"],
-        ["productos de origen local", "locally sourced produce"],
-        ["¿esto es orgánico?", "is this organic"],
-        ["de temporada ahora mismo", "in season right now"],
-        ["cultivado de forma sostenible", "sustainably grown"],
+        ["¿de dónde viene esto?", "¿de dónde viene esto?"],
+        ["productos de origen local", "productos de origen local"],
+        ["¿esto es orgánico?", "¿esto es orgánico?"],
+        ["de temporada ahora mismo", "de temporada ahora mismo"],
+        ["cultivado de forma sostenible", "cultivado de forma sostenible"],
       ],
       grammar: [
         ["Presente simple para hechos generales sobre productos", "El presente simple describe características generales y permanentes de un producto, como su origen o forma de cultivo.", "Este producto viene de una granja local y se cultiva de forma sostenible."],
@@ -3296,11 +3296,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a negociar compras al por mayor y condiciones de entrega en español.",
     study: {
       vocab: [
-        ["un descuento por volumen", "a bulk discount"],
-        ["la cantidad mínima de pedido", "the minimum order quantity"],
-        ["hacer un pedido recurrente", "to place a recurring order"],
-        ["entrega incluida", "delivery included"],
-        ["un precio al por mayor", "a wholesale price"],
+        ["un descuento por volumen", "un descuento por volumen"],
+        ["la cantidad mínima de pedido", "la cantidad mínima de pedido"],
+        ["hacer un pedido recurrente", "hacer un pedido recurrente"],
+        ["entrega incluida", "entrega incluida"],
+        ["un precio al por mayor", "un precio al por mayor"],
       ],
       grammar: [
         ["\"Cuanto más..., más...\" para condiciones proporcionales", "Esta estructura comparativa doble expresa que a mayor cantidad, mayor beneficio (o menor precio).", "Cuanto más pida, mayor será el descuento."],
@@ -3319,11 +3319,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a reclamar un producto defectuoso o en mal estado comprado en un mercado, en español.",
     study: {
       vocab: [
-        ["esto está defectuoso", "this is defective"],
-        ["se estropeó en un día", "it went bad within a day"],
-        ["quisiera un reembolso o un cambio", "I'd like a refund or an exchange"],
-        ["¿tiene comprobante de compra?", "do you have proof of purchase"],
-        ["esto ya no está fresco", "this isn't fresh anymore"],
+        ["esto está defectuoso", "esto está defectuoso"],
+        ["se estropeó en un día", "se echó a perder en un día"],
+        ["quisiera un reembolso o un cambio", "quisiera un reembolso o un cambio"],
+        ["¿tiene comprobante de compra?", "¿tiene comprobante de compra?"],
+        ["esto ya no está fresco", "esto ya no está fresco"],
       ],
       grammar: [
         ["\"En + periodo\" para indicar rapidez de un problema", "\"En un día/una semana\" indica que algo ocurrió en un plazo corto, reforzando que el problema fue rápido e inesperado.", "Se estropeó en un día desde que lo compré."],
@@ -3343,11 +3343,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Reflexiona y conversa en español sobre las diferencias culturales al regatear y negociar en distintos países.",
     study: {
       vocab: [
-        ["aquí se espera que regatees", "haggling is expected here"],
-        ["se considera de mala educación regatear", "it's considered rude to haggle"],
-        ["un mercado de precio fijo", "a fixed-price market"],
-        ["normas culturales sobre la negociación", "cultural norms around negotiation"],
-        ["captar el ambiente/la situación social", "to read the room"],
+        ["aquí se espera que regatees", "aquí se espera que se regatee"],
+        ["se considera de mala educación regatear", "se considera de mala educación regatear"],
+        ["un mercado de precio fijo", "un mercado de precio fijo"],
+        ["normas culturales sobre la negociación", "las normas culturales sobre la negociación"],
+        ["captar el ambiente/la situación social", "captar el ambiente"],
       ],
       grammar: [
         ["\"Se considera + adjetivo + verbo\" para normas culturales", "Esta estructura impersonal expresa una norma social sin atribuirla a una persona concreta.", "Se considera de mala educación regatear en algunas culturas, pero se espera en otras."],
@@ -3367,11 +3367,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos en español relacionados con el dinero y las compras.",
     study: {
       vocab: [
-        ["costar un ojo de la cara", "to cost an arm and a leg"],
-        ["ser un robo/estafa (precio)", "to be a rip-off"],
-        ["conseguir una buena oferta", "to get a good deal"],
-        ["convencer a alguien de bajar el precio", "to haggle someone down"],
-        ["el dinero no crece en los árboles", "money doesn't grow on trees"],
+        ["costar un ojo de la cara", "costar un ojo de la cara"],
+        ["ser un robo/estafa (precio)", "ser un timo"],
+        ["conseguir una buena oferta", "conseguir un buen trato"],
+        ["convencer a alguien de bajar el precio", "conseguir que alguien baje el precio"],
+        ["el dinero no crece en los árboles", "el dinero no cae del cielo"],
       ],
       grammar: [
         ["Modismos sobre precio y valor", "Estos modismos describen si algo es caro, barato o una estafa, de forma vívida y sin traducción literal.", "¡Esta chaqueta cuesta un ojo de la cara! / Ese precio es un robo total."],
@@ -3394,12 +3394,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales de un hospital en español.",
     study: {
       vocab: [
-        ["el médico/la médica", "the doctor"],
-        ["la enfermera/el enfermero", "the nurse"],
-        ["el dolor", "the pain"],
-        ["la cita", "the appointment"],
-        ["la sala de espera", "the waiting room"],
-        ["la receta", "the prescription"],
+        ["el médico/la médica", "el médico"],
+        ["la enfermera/el enfermero", "el enfermero/la enfermera"],
+        ["el dolor", "el dolor"],
+        ["la cita", "la cita"],
+        ["la sala de espera", "la sala de espera"],
+        ["la receta", "la receta"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en profesiones", "\"El médico/la médica\" cambia de género según quien ejerce la profesión.", "el médico (m) / la médica (f)"],
@@ -3419,11 +3419,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para describir síntomas en español.",
     study: {
       vocab: [
-        ["me duele la cabeza", "my head hurts"],
-        ["tengo fiebre", "I have a fever"],
-        ["me siento mareado/a", "I feel dizzy"],
-        ["tengo náuseas", "I feel nauseous"],
-        ["desde hace tres días", "for three days"],
+        ["me duele la cabeza", "me duele la cabeza"],
+        ["tengo fiebre", "tengo fiebre"],
+        ["me siento mareado/a", "me siento mareado/a"],
+        ["tengo náuseas", "tengo náuseas"],
+        ["desde hace tres días", "desde hace tres días"],
       ],
       grammar: [
         ["\"Me duele/duelen\" para el dolor", "\"Me duele\" (singular) o \"me duelen\" (plural) se usa con partes del cuerpo, según el número.", "Me duele la cabeza. / Me duelen los pies."],
@@ -3442,11 +3442,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo en la recepción de un hospital en español.",
     study: {
       vocab: [
-        ["Buenos días, ¿tiene cita?", "Good morning, do you have an appointment?"],
-        ["Sí, a las 10 con el Dr. Ruiz", "Yes, at 10 with Dr. Ruiz"],
-        ["Tome asiento, por favor", "Please take a seat"],
-        ["El doctor le atenderá pronto", "The doctor will see you soon"],
-        ["¿Me da su tarjeta del seguro?", "Can I have your insurance card?"],
+        ["Buenos días, ¿tiene cita?", "Buenos días, ¿tiene cita?"],
+        ["Sí, a las 10 con el Dr. Ruiz", "Sí, a las 10 con el Dr. Ruiz"],
+        ["Tome asiento, por favor", "Por favor, tome asiento"],
+        ["El doctor le atenderá pronto", "El médico le atenderá pronto"],
+        ["¿Me da su tarjeta del seguro?", "¿Me da su tarjeta del seguro?"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones médicas", "\"Tome asiento\" es el imperativo formal (usted) del verbo \"tomar\".", "Tome asiento, por favor. El doctor le atenderá pronto."],
@@ -3466,10 +3466,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar en una farmacia en español.",
     study: {
       vocab: [
-        ["¿tiene algo para el dolor de cabeza?", "do you have something for a headache?"],
-        ["dos veces al día", "twice a day"],
-        ["con o sin receta", "with or without prescription"],
-        ["los efectos secundarios", "side effects"],
+        ["¿tiene algo para el dolor de cabeza?", "¿tiene algo para el dolor de cabeza?"],
+        ["dos veces al día", "dos veces al día"],
+        ["con o sin receta", "con o sin receta"],
+        ["los efectos secundarios", "los efectos secundarios"],
       ],
       grammar: [
         ["\"Veces al día\" para frecuencia de dosis", "\"X veces al día\" indica cuántas veces se debe tomar un medicamento.", "Tómelo dos veces al día, con las comidas."],
@@ -3488,10 +3488,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a comunicar una emergencia médica en español.",
     study: {
       vocab: [
-        ["es una emergencia", "it's an emergency"],
-        ["necesito una ambulancia", "I need an ambulance"],
-        ["está sangrando mucho", "he/she is bleeding a lot"],
-        ["perdió el conocimiento", "he/she lost consciousness"],
+        ["es una emergencia", "es una emergencia"],
+        ["necesito una ambulancia", "necesito una ambulancia"],
+        ["está sangrando mucho", "está sangrando mucho"],
+        ["perdió el conocimiento", "perdió el conocimiento"],
       ],
       grammar: [
         ["Pretérito para reportar una emergencia", "El pretérito describe lo que acaba de ocurrir en una emergencia médica.", "Perdió el conocimiento hace unos minutos."],
@@ -3511,10 +3511,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario sobre seguro médico y trámites en español.",
     study: {
       vocab: [
-        ["¿está cubierto por mi seguro?", "is this covered by my insurance?"],
-        ["el copago", "the copay"],
-        ["firmar el formulario de admisión", "to sign the admission form"],
-        ["el número de póliza", "the policy number"],
+        ["¿está cubierto por mi seguro?", "¿esto lo cubre mi seguro?"],
+        ["el copago", "el copago"],
+        ["firmar el formulario de admisión", "firmar el formulario de ingreso"],
+        ["el número de póliza", "el número de póliza"],
       ],
       grammar: [
         ["Voz pasiva con \"estar cubierto\"", "\"Estar cubierto por\" describe si algo está incluido en el seguro, usando la pasiva.", "¿Está cubierto por mi seguro este tratamiento?"],
@@ -3533,10 +3533,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar sobre citas de seguimiento y control en español.",
     study: {
       vocab: [
-        ["una cita de control", "a follow-up appointment"],
-        ["¿cuándo debo volver?", "when should I come back?"],
-        ["seguir tomando la medicación", "to keep taking the medication"],
-        ["mejorar poco a poco", "to improve little by little"],
+        ["una cita de control", "una cita de seguimiento"],
+        ["¿cuándo debo volver?", "¿cuándo debo volver?"],
+        ["seguir tomando la medicación", "seguir tomando la medicación"],
+        ["mejorar poco a poco", "mejorar poco a poco"],
       ],
       grammar: [
         ["\"Seguir + gerundio\" para continuidad", "\"Seguir + -ando/-iendo\" expresa que una acción continúa en el tiempo.", "Debe seguir tomando la medicación durante una semana más."],
@@ -3556,11 +3556,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a entender y pedir una derivación a un especialista médico en español.",
     study: {
       vocab: [
-        ["una derivación a un especialista", "a referral to a specialist"],
-        ["ver a un cardiólogo", "to see a cardiologist"],
-        ["lista de espera para una cita", "waiting list for an appointment"],
-        ["una segunda consulta", "a second consultation"],
-        ["llevar tus resultados de pruebas", "to bring your test results"],
+        ["una derivación a un especialista", "una derivación a un especialista"],
+        ["ver a un cardiólogo", "consultar a un cardiólogo"],
+        ["lista de espera para una cita", "la lista de espera para una cita"],
+        ["una segunda consulta", "una segunda consulta"],
+        ["llevar tus resultados de pruebas", "traer los resultados de sus pruebas"],
       ],
       grammar: [
         ["\"Necesitar + una derivación\" para trámites médicos", "Esta estructura describe la necesidad médica de ver a un especialista concreto tras una consulta general.", "Necesito una derivación para ver a un cardiólogo."],
@@ -3580,11 +3580,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a entender y preguntar sobre resultados de análisis o pruebas médicas en español.",
     study: {
       vocab: [
-        ["los resultados salieron normales", "the results came back normal"],
-        ["se necesita una prueba de seguimiento", "a follow-up test is needed"],
-        ["¿qué significan estos números?", "what do these numbers mean"],
-        ["niveles ligeramente elevados", "slightly elevated levels"],
-        ["nada de qué preocuparse", "nothing to worry about"],
+        ["los resultados salieron normales", "los resultados salieron normales"],
+        ["se necesita una prueba de seguimiento", "se necesita una prueba de seguimiento"],
+        ["¿qué significan estos números?", "¿qué significan estos números?"],
+        ["niveles ligeramente elevados", "niveles ligeramente elevados"],
+        ["nada de qué preocuparse", "nada de qué preocuparse"],
       ],
       grammar: [
         ["Pretérito para informar resultados", "El pretérito (\"salieron\") se usa para comunicar el resultado de una prueba ya completada.", "Sus resultados salieron normales, así que no hay nada de qué preocuparse."],
@@ -3604,11 +3604,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario sobre consentimiento informado antes de un procedimiento médico en español.",
     study: {
       vocab: [
-        ["firmar un formulario de consentimiento", "to sign a consent form"],
-        ["los riesgos y beneficios del procedimiento", "the risks and benefits of the procedure"],
-        ["¿tengo otras opciones?", "do I have any other options"],
-        ["entender a qué estás accediendo", "to understand what you're agreeing to"],
-        ["puedes hacer preguntas antes de firmar", "you can ask questions before signing"],
+        ["firmar un formulario de consentimiento", "firmar un formulario de consentimiento"],
+        ["los riesgos y beneficios del procedimiento", "los riesgos y beneficios del procedimiento"],
+        ["¿tengo otras opciones?", "¿tengo otras opciones?"],
+        ["entender a qué estás accediendo", "entender a qué está accediendo"],
+        ["puedes hacer preguntas antes de firmar", "puede hacer preguntas antes de firmar"],
       ],
       grammar: [
         ["\"Antes de\" + infinitivo para secuenciar acciones", "\"Antes de firmar\" indica qué debe ocurrir antes de una acción concreta, muy común en procesos formales.", "Lea el formulario con atención antes de firmarlo."],
@@ -3627,11 +3627,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar sobre salud mental y pedir apoyo psicológico en español, con vocabulario sensible y respetuoso.",
     study: {
       vocab: [
-        ["últimamente me he sentido abrumado/a", "I've been feeling overwhelmed lately"],
-        ["hablar con un terapeuta", "to speak with a therapist"],
-        ["está bien pedir ayuda", "it's okay to ask for help"],
-        ["dificultad para dormir y concentrarse", "difficulty sleeping and concentrating"],
-        ["una conversación confidencial", "a confidential conversation"],
+        ["últimamente me he sentido abrumado/a", "últimamente me he sentido abrumado/a"],
+        ["hablar con un terapeuta", "hablar con un terapeuta"],
+        ["está bien pedir ayuda", "está bien pedir ayuda"],
+        ["dificultad para dormir y concentrarse", "dificultad para dormir y concentrarse"],
+        ["una conversación confidencial", "una conversación confidencial"],
       ],
       grammar: [
         ["Pretérito perfecto para estados emocionales recientes", "\"Me he sentido...\" describe un estado emocional que comenzó en el pasado y continúa ahora.", "Me he sentido abrumado/a las últimas semanas."],
@@ -3651,11 +3651,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir una segunda opinión médica de forma educada y profesional en español.",
     study: {
       vocab: [
-        ["me gustaría buscar una segunda opinión", "I'd like to seek a second opinion"],
-        ["esto no refleja desconfianza hacia usted", "this isn't a reflection of my trust in you"],
-        ["tomar una decisión completamente informada", "to make a fully informed decision"],
-        ["¿podría transferir mi historial?", "could you transfer my records"],
-        ["un especialista con más experiencia en esta área", "a specialist with more experience in this area"],
+        ["me gustaría buscar una segunda opinión", "me gustaría buscar una segunda opinión"],
+        ["esto no refleja desconfianza hacia usted", "esto no refleja mi confianza en usted"],
+        ["tomar una decisión completamente informada", "tomar una decisión totalmente informada"],
+        ["¿podría transferir mi historial?", "¿podría transferir mi historial?"],
+        ["un especialista con más experiencia en esta área", "un especialista con más experiencia en esta área"],
       ],
       grammar: [
         ["Matizar una petición delicada", "Frases como \"esto no refleja...\" suavizan una petición que podría malinterpretarse, mostrando respeto mientras se defiende una decisión.", "Me gustaría buscar una segunda opinión — esto no refleja desconfianza hacia usted, pero quiero estar bien informado."],
@@ -3675,11 +3675,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos en español relacionados con la salud y el bienestar.",
     study: {
       vocab: [
-        ["sentirse mal, indispuesto/a", "to be under the weather"],
-        ["recuperarse, estar de vuelta en pie", "to be back on your feet"],
-        ["superar/combatir un resfriado", "to fight off a cold"],
-        ["un buen estado de salud confirmado", "a clean bill of health"],
-        ["tomárselo con calma", "to take it easy"],
+        ["sentirse mal, indispuesto/a", "estar pachucho/algo indispuesto"],
+        ["recuperarse, estar de vuelta en pie", "estar recuperado"],
+        ["superar/combatir un resfriado", "combatir un resfriado"],
+        ["un buen estado de salud confirmado", "un buen estado de salud"],
+        ["tomárselo con calma", "tomárselo con calma"],
       ],
       grammar: [
         ["Modismos con partes del cuerpo y salud", "Estos modismos usan imágenes cotidianas para describir el estado de salud de forma natural y coloquial.", "He estado indispuesto toda la semana, pero por fin estoy de vuelta en pie."],
@@ -3702,12 +3702,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales del entorno de oficina en español.",
     study: {
       vocab: [
-        ["la reunión", "the meeting"],
-        ["el plazo", "the deadline"],
-        ["el compañero/la compañera de trabajo", "the coworker"],
-        ["el jefe/la jefa", "the boss"],
-        ["el informe", "the report"],
-        ["el correo electrónico", "the email"],
+        ["la reunión", "la reunión"],
+        ["el plazo", "el plazo"],
+        ["el compañero/la compañera de trabajo", "el compañero de trabajo"],
+        ["el jefe/la jefa", "el jefe"],
+        ["el informe", "el informe"],
+        ["el correo electrónico", "el correo electrónico"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en el trabajo", "\"El jefe/la jefa\" cambia de género según quien ocupa el puesto.", "el jefe (m) / la jefa (f)"],
@@ -3727,10 +3727,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para el entorno laboral en español.",
     study: {
       vocab: [
-        ["¿Podemos agendar una reunión?", "Can we schedule a meeting?"],
-        ["Voy a necesitar más tiempo", "I'm going to need more time"],
-        ["Adjunto el archivo", "I've attached the file"],
-        ["Gracias por su paciencia", "Thank you for your patience"],
+        ["¿Podemos agendar una reunión?", "¿Podemos programar una reunión?"],
+        ["Voy a necesitar más tiempo", "Voy a necesitar más tiempo"],
+        ["Adjunto el archivo", "He adjuntado el archivo"],
+        ["Gracias por su paciencia", "Gracias por su paciencia"],
       ],
       grammar: [
         ["\"Ir a + infinitivo\" para planes inmediatos", "\"Voy a necesitar\" expresa un plan o necesidad cercana en el tiempo.", "Voy a necesitar más tiempo para terminar el informe."],
@@ -3749,10 +3749,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo pidiendo ayuda a un compañero de trabajo en español.",
     study: {
       vocab: [
-        ["¿Tienes un minuto?", "Do you have a minute?"],
-        ["Claro, ¿en qué te ayudo?", "Sure, how can I help?"],
-        ["No sé cómo usar este programa", "I don't know how to use this program"],
-        ["Te lo explico ahora mismo", "I'll explain it to you right now"],
+        ["¿Tienes un minuto?", "¿Tienes un minuto?"],
+        ["Claro, ¿en qué te ayudo?", "Claro, ¿en qué puedo ayudarte?"],
+        ["No sé cómo usar este programa", "No sé usar este programa"],
+        ["Te lo explico ahora mismo", "Te lo explico ahora mismo"],
       ],
       grammar: [
         ["\"¿Tienes un minuto?\" para pedir atención", "Es una forma informal y educada de interrumpir a un compañero para pedir ayuda.", "¿Tienes un minuto? Necesito tu ayuda con algo."],
@@ -3772,10 +3772,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario para participar en reuniones y presentaciones en español.",
     study: {
       vocab: [
-        ["empecemos con la agenda", "let's start with the agenda"],
-        ["¿alguna pregunta?", "any questions?"],
-        ["como pueden ver en esta diapositiva", "as you can see on this slide"],
-        ["pasemos al siguiente punto", "let's move to the next point"],
+        ["empecemos con la agenda", "empecemos con la agenda"],
+        ["¿alguna pregunta?", "¿alguna pregunta?"],
+        ["como pueden ver en esta diapositiva", "como pueden ver en esta diapositiva"],
+        ["pasemos al siguiente punto", "pasemos al siguiente punto"],
       ],
       grammar: [
         ["Imperativo de primera persona plural (\"nosotros\")", "\"Empecemos\", \"pasemos\" son formas de \"nosotros\" para proponer una acción conjunta.", "Empecemos con la agenda de hoy."],
@@ -3794,10 +3794,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a escribir correos breves y profesionales en español.",
     study: {
       vocab: [
-        ["Estimado/a...", "Dear..."],
-        ["Quedo atento/a a su respuesta", "I look forward to your reply"],
-        ["Saludos cordiales", "Best regards"],
-        ["Le escribo para...", "I'm writing to..."],
+        ["Estimado/a...", "Estimado/a..."],
+        ["Quedo atento/a a su respuesta", "Quedo a la espera de su respuesta"],
+        ["Saludos cordiales", "Saludos cordiales"],
+        ["Le escribo para...", "Le escribo para..."],
       ],
       grammar: [
         ["Fórmulas fijas para correos formales", "\"Estimado/a\", \"Le escribo para...\" y \"Saludos cordiales\" son fórmulas fijas típicas de correos profesionales.", "Estimado Sr. López: Le escribo para confirmar la reunión. Saludos cordiales."],
@@ -3816,10 +3816,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a manejar un desacuerdo profesional de forma educada en español.",
     study: {
       vocab: [
-        ["entiendo tu punto, pero...", "I understand your point, but..."],
-        ["no estoy del todo de acuerdo", "I don't entirely agree"],
-        ["¿podemos encontrar un término medio?", "can we find a middle ground?"],
-        ["prefiero ser directo/a al respecto", "I'd rather be direct about it"],
+        ["entiendo tu punto, pero...", "Entiendo su punto, pero..."],
+        ["no estoy del todo de acuerdo", "No estoy del todo de acuerdo"],
+        ["¿podemos encontrar un término medio?", "¿podemos encontrar un término medio?"],
+        ["prefiero ser directo/a al respecto", "prefiero ser directo al respecto"],
       ],
       grammar: [
         ["\"Pero\" para suavizar un desacuerdo", "\"Entiendo tu punto, pero...\" reconoce la otra opinión antes de presentar la tuya.", "Entiendo tu punto, pero creo que hay otra opción."],
@@ -3838,10 +3838,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a pedir días libres o vacaciones en el trabajo en español.",
     study: {
       vocab: [
-        ["quisiera pedir unos días libres", "I'd like to request some days off"],
-        ["tengo días de vacaciones acumulados", "I have accumulated vacation days"],
-        ["¿sería posible tomarlos la próxima semana?", "would it be possible to take them next week?"],
-        ["necesito coordinarlo con mi equipo", "I need to coordinate it with my team"],
+        ["quisiera pedir unos días libres", "me gustaría solicitar unos días libres"],
+        ["tengo días de vacaciones acumulados", "tengo días de vacaciones acumulados"],
+        ["¿sería posible tomarlos la próxima semana?", "¿sería posible tomarlos la próxima semana?"],
+        ["necesito coordinarlo con mi equipo", "necesito coordinarlo con mi equipo"],
       ],
       grammar: [
         ["\"Sería posible\" para peticiones muy educadas", "El condicional \"sería posible\" suaviza una petición delicada como pedir tiempo libre.", "¿Sería posible tomar esos días la próxima semana?"],
@@ -3861,11 +3861,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a negociar tu salario o condiciones laborales de forma profesional en español.",
     study: {
       vocab: [
-        ["basándome en mi experiencia y resultados", "based on my experience and results"],
-        ["esperaba que pudiéramos hablar de mi salario", "I was hoping we could discuss my salary"],
-        ["el estándar del sector para este puesto", "industry standard for this role"],
-        ["una bonificación basada en el rendimiento", "a performance-based bonus"],
-        ["estoy abierto/a a un acuerdo intermedio", "I'm open to a compromise"],
+        ["basándome en mi experiencia y resultados", "basándome en mi experiencia y resultados"],
+        ["esperaba que pudiéramos hablar de mi salario", "esperaba que pudiéramos hablar de mi salario"],
+        ["el estándar del sector para este puesto", "el estándar del sector para este puesto"],
+        ["una bonificación basada en el rendimiento", "una bonificación por desempeño"],
+        ["estoy abierto/a a un acuerdo intermedio", "estoy abierto/a a un acuerdo"],
       ],
       grammar: [
         ["\"Esperaba que pudiéramos...\" para abrir una negociación", "Esta estructura suaviza una petición delicada, mostrando iniciativa sin sonar exigente.", "Esperaba que pudiéramos hablar de mi salario basándome en mis resultados recientes."],
@@ -3885,11 +3885,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a dar y recibir feedback constructivo de forma profesional en español.",
     study: {
       vocab: [
-        ["retroalimentación constructiva", "constructive feedback"],
-        ["qué salió bien y qué se puede mejorar", "what went well and what could improve"],
-        ["de verdad agradezco el feedback", "I really appreciate the feedback"],
-        ["un área de mejora", "one area for improvement"],
-        ["tener esto en cuenta", "to take this on board"],
+        ["retroalimentación constructiva", "la retroalimentación constructiva"],
+        ["qué salió bien y qué se puede mejorar", "qué salió bien y qué se podría mejorar"],
+        ["de verdad agradezco el feedback", "agradezco mucho la retroalimentación"],
+        ["un área de mejora", "un área de mejora"],
+        ["tener esto en cuenta", "tener esto en cuenta"],
       ],
       grammar: [
         ["Estructura \"sándwich\" para dar feedback", "Se empieza con algo positivo, se menciona el área de mejora, y se cierra con ánimo — suaviza la crítica sin perder claridad.", "Hiciste un gran trabajo en la presentación, pero un área de mejora es el tiempo. En general, ¡bien hecho!"],
@@ -3908,11 +3908,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario para gestionar proyectos, plazos y prioridades en español.",
     study: {
       vocab: [
-        ["retrasarse respecto al cronograma", "to fall behind schedule"],
-        ["priorizar las tareas clave", "to prioritize the key tasks"],
-        ["un plazo realista", "a realistic deadline"],
-        ["asignar recursos", "to allocate resources"],
-        ["una actualización de estado", "a status update"],
+        ["retrasarse respecto al cronograma", "retrasarse respecto al calendario"],
+        ["priorizar las tareas clave", "priorizar las tareas clave"],
+        ["un plazo realista", "un plazo realista"],
+        ["asignar recursos", "asignar recursos"],
+        ["una actualización de estado", "una actualización de estado"],
       ],
       grammar: [
         ["\"Retrasarse respecto a\" para retrasos", "Esta expresión describe estar retrasado respecto a un plan, sin culpar directamente a nadie.", "Nos hemos retrasado respecto al cronograma debido a imprevistos."],
@@ -3932,11 +3932,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a comunicarte de forma efectiva con colegas de distintas culturas en un entorno laboral en español.",
     study: {
       vocab: [
-        ["la franqueza puede percibirse de forma distinta", "directness can be perceived differently"],
-        ["evitar malentendidos", "to avoid misunderstandings"],
-        ["un estilo de comunicación diferente", "a different communication style"],
-        ["aclarar en lugar de asumir", "to clarify rather than assume"],
-        ["tener en cuenta las diferencias culturales", "being mindful of cultural differences"],
+        ["la franqueza puede percibirse de forma distinta", "la franqueza puede percibirse de forma distinta"],
+        ["evitar malentendidos", "evitar malentendidos"],
+        ["un estilo de comunicación diferente", "un estilo de comunicación diferente"],
+        ["aclarar en lugar de asumir", "aclarar en lugar de suponer"],
+        ["tener en cuenta las diferencias culturales", "ser consciente de las diferencias culturales"],
       ],
       grammar: [
         ["\"En lugar de\" para contrastar dos acciones", "\"Aclarar en lugar de asumir\" contrasta dos comportamientos, prefiriendo el primero sobre el segundo.", "Es mejor preguntar en lugar de asumir que entiendes."],
@@ -3955,11 +3955,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a persuadir y argumentar de forma convincente en una reunión de trabajo en español.",
     study: {
       vocab: [
-        ["si observamos los datos de cerca", "if we look at the data closely"],
-        ["este enfoque nos permitiría...", "this approach would allow us to..."],
-        ["me gustaría ampliar ese punto", "I'd like to build on that point"],
-        ["los números hablan por sí solos", "the numbers speak for themselves"],
-        ["pensemos los pros y los contras", "let's weigh the pros and cons"],
+        ["si observamos los datos de cerca", "si observamos los datos de cerca"],
+        ["este enfoque nos permitiría...", "este enfoque nos permitiría..."],
+        ["me gustaría ampliar ese punto", "me gustaría ampliar ese punto"],
+        ["los números hablan por sí solos", "los números hablan por sí solos"],
+        ["pensemos los pros y los contras", "sopesemos los pros y los contras"],
       ],
       grammar: [
         ["Condicional para proponer ideas con tacto", "\"Este enfoque nos permitiría...\" usa el condicional para proponer una idea sin imponerla, dejando espacio a la discusión.", "Este enfoque nos permitiría reducir costos sin afectar la calidad."],
@@ -3979,11 +3979,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos en español muy comunes en el entorno laboral y corporativo.",
     study: {
       vocab: [
-        ["pensar fuera de lo convencional", "to think outside the box"],
-        ["ponerse en contacto brevemente", "to touch base"],
-        ["estar de acuerdo/en sintonía", "to be on the same page"],
-        ["empezar con mucha fuerza/eficacia", "to hit the ground running"],
-        ["tareas fáciles de resolver primero", "low-hanging fruit"],
+        ["pensar fuera de lo convencional", "pensar de forma innovadora"],
+        ["ponerse en contacto brevemente", "ponerse en contacto brevemente"],
+        ["estar de acuerdo/en sintonía", "estar en sintonía"],
+        ["empezar con mucha fuerza/eficacia", "empezar con buen pie"],
+        ["tareas fáciles de resolver primero", "lo más fácil de conseguir"],
       ],
       grammar: [
         ["Modismos corporativos comunes", "Estos modismos son extremadamente frecuentes en reuniones de trabajo y no tienen traducción literal directa.", "Pongámonos en contacto la próxima semana para asegurarnos de que estamos en sintonía."],
@@ -4006,12 +4006,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales para una fiesta en español.",
     study: {
       vocab: [
-        ["el invitado/la invitada", "the guest"],
-        ["el anfitrión/la anfitriona", "the host"],
-        ["la música", "the music"],
-        ["el regalo", "the gift"],
-        ["el pastel", "the cake"],
-        ["los globos", "balloons"],
+        ["el invitado/la invitada", "el invitado"],
+        ["el anfitrión/la anfitriona", "el anfitrión"],
+        ["la música", "la música"],
+        ["el regalo", "el regalo"],
+        ["el pastel", "la tarta"],
+        ["los globos", "los globos"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en la fiesta", "\"El anfitrión/la anfitriona\" cambia de género según quien organiza.", "el anfitrión (m) / la anfitriona (f)"],
@@ -4031,10 +4031,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para socializar en una fiesta en español.",
     study: {
       vocab: [
-        ["¡Qué gusto verte!", "So nice to see you!"],
-        ["¿Cómo conoces al anfitrión?", "How do you know the host?"],
-        ["¡Feliz cumpleaños!", "Happy birthday!"],
-        ["Gracias por invitarme", "Thanks for inviting me"],
+        ["¡Qué gusto verte!", "¡Qué alegría verte!"],
+        ["¿Cómo conoces al anfitrión?", "¿Cómo conoces al anfitrión?"],
+        ["¡Feliz cumpleaños!", "¡Feliz cumpleaños!"],
+        ["Gracias por invitarme", "Gracias por invitarme"],
       ],
       grammar: [
         ["Exclamaciones con \"qué\"", "\"¡Qué + adjetivo/sustantivo!\" expresa entusiasmo o sorpresa de forma natural.", "¡Qué gusto verte! / ¡Qué rica está la comida!"],
@@ -4053,10 +4053,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo conociendo gente nueva en una fiesta en español.",
     study: {
       vocab: [
-        ["Hola, no nos conocemos, soy Ana", "Hi, we haven't met, I'm Ana"],
-        ["Mucho gusto, yo soy Marco", "Nice to meet you, I'm Marco"],
-        ["¿A qué te dedicas?", "What do you do?"],
-        ["Soy diseñadora gráfica", "I'm a graphic designer"],
+        ["Hola, no nos conocemos, soy Ana", "Hola, no nos conocemos, soy Ana"],
+        ["Mucho gusto, yo soy Marco", "Encantado, soy Marco"],
+        ["¿A qué te dedicas?", "¿A qué te dedicas?"],
+        ["Soy diseñadora gráfica", "Soy diseñador/a gráfico/a"],
       ],
       grammar: [
         ["\"No nos conocemos\" para presentarse", "Esta frase se usa para iniciar una presentación con alguien nuevo de forma natural.", "Hola, no nos conocemos, soy Ana."],
@@ -4076,10 +4076,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a invitar a alguien y responder a una invitación en español.",
     study: {
       vocab: [
-        ["¿te gustaría venir a mi fiesta?", "would you like to come to my party?"],
-        ["me encantaría ir", "I'd love to go"],
-        ["lo siento, ya tengo planes", "sorry, I already have plans"],
-        ["¿puedo llevar a alguien?", "can I bring someone?"],
+        ["¿te gustaría venir a mi fiesta?", "¿te gustaría venir a mi fiesta?"],
+        ["me encantaría ir", "me encantaría ir"],
+        ["lo siento, ya tengo planes", "lo siento, ya tengo planes"],
+        ["¿puedo llevar a alguien?", "¿puedo traer a alguien?"],
       ],
       grammar: [
         ["\"Me encantaría\" para aceptar con entusiasmo", "\"Me encantaría\" es una forma entusiasta y educada de aceptar una invitación.", "Me encantaría ir, gracias por invitarme."],
@@ -4098,10 +4098,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar sobre la comida y bebida en una fiesta en español.",
     study: {
       vocab: [
-        ["¿qué hay de comer?", "what's there to eat?"],
-        ["prueba esto, está delicioso", "try this, it's delicious"],
-        ["¿me sirves un poco más?", "can you pour me a bit more?"],
-        ["está buenísimo", "it's really good"],
+        ["¿qué hay de comer?", "¿qué hay de comer?"],
+        ["prueba esto, está delicioso", "prueba esto, está delicioso"],
+        ["¿me sirves un poco más?", "¿me sirves un poco más?"],
+        ["está buenísimo", "está muy bueno"],
       ],
       grammar: [
         ["Superlativo con -ísimo", "El sufijo \"-ísimo\" intensifica un adjetivo, muy usado en conversación informal.", "Está buenísimo. / Está riquísimo."],
@@ -4120,10 +4120,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a manejar situaciones incómodas o preguntas indiscretas en una fiesta, en español.",
     study: {
       vocab: [
-        ["prefiero no hablar de eso", "I'd rather not talk about that"],
-        ["qué pregunta más incómoda", "what an awkward question"],
-        ["cambiemos de tema", "let's change the subject"],
-        ["no es asunto mío, pero...", "it's none of my business, but..."],
+        ["prefiero no hablar de eso", "prefiero no hablar de eso"],
+        ["qué pregunta más incómoda", "qué pregunta más incómoda"],
+        ["cambiemos de tema", "cambiemos de tema"],
+        ["no es asunto mío, pero...", "no es asunto mío, pero..."],
       ],
       grammar: [
         ["\"Preferir + infinitivo\" para declinar con tacto", "\"Prefiero no...\" suaviza una negativa sin sonar brusco.", "Prefiero no hablar de eso ahora mismo."],
@@ -4143,10 +4143,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a despedirte y hacer planes futuros al final de una fiesta en español.",
     study: {
       vocab: [
-        ["ya me tengo que ir", "I have to go now"],
-        ["fue un placer conocerte", "it was a pleasure meeting you"],
-        ["quedemos otro día", "let's meet up another day"],
-        ["nos vemos pronto", "see you soon"],
+        ["ya me tengo que ir", "tengo que irme ya"],
+        ["fue un placer conocerte", "fue un placer conocerte"],
+        ["quedemos otro día", "quedemos otro día"],
+        ["nos vemos pronto", "hasta pronto"],
       ],
       grammar: [
         ["Imperativo de \"nosotros\" para proponer planes", "\"Quedemos\" es el imperativo de \"nosotros\", usado para proponer un plan conjunto.", "Quedemos otro día para tomar un café."],
@@ -4165,11 +4165,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a dar tu opinión y debatir ligeramente sobre temas cotidianos en una fiesta, en español.",
     study: {
       vocab: [
-        ["en mi opinión", "in my opinion"],
-        ["yo lo veo diferente", "I see it differently"],
-        ["es un buen punto", "that's a fair point"],
-        ["no estoy tan seguro/a de eso", "I'm not so sure about that"],
-        ["tendremos que aceptar que pensamos distinto", "we'll have to agree to disagree"],
+        ["en mi opinión", "en mi opinión"],
+        ["yo lo veo diferente", "yo lo veo de otra manera"],
+        ["es un buen punto", "es un buen argumento"],
+        ["no estoy tan seguro/a de eso", "no estoy tan seguro/a de eso"],
+        ["tendremos que aceptar que pensamos distinto", "tendremos que aceptar que no estamos de acuerdo"],
       ],
       grammar: [
         ["\"Es un buen punto, pero...\" para debatir con cortesía", "Esta estructura reconoce el argumento del otro antes de presentar el tuyo, manteniendo el tono amistoso propio de una fiesta.", "Es un buen punto, pero sigo pensando que la película estaba sobrevalorada."],
@@ -4189,11 +4189,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a contar una anécdota de forma entretenida y con buen ritmo en español.",
     study: {
       vocab: [
-        ["no vas a creer lo que pasó", "you won't believe what happened"],
-        ["así que ahí estaba yo...", "so there I was..."],
-        ["para resumir/en pocas palabras", "long story short"],
-        ["se pone mejor (la historia)", "it gets better"],
-        ["y así fue como pasó todo", "and that's how it all happened"],
+        ["no vas a creer lo que pasó", "no vas a creer lo que pasó"],
+        ["así que ahí estaba yo...", "entonces ahí estaba yo..."],
+        ["para resumir/en pocas palabras", "para resumir"],
+        ["se pone mejor (la historia)", "y hay más"],
+        ["y así fue como pasó todo", "y así fue como pasó todo"],
       ],
       grammar: [
         ["Pasado narrativo con marcadores de historia", "Frases como \"así que ahí estaba yo...\" y \"para resumir\" estructuran una anécdota de forma natural y mantienen el interés del oyente.", "Así que ahí estaba yo, completamente perdido en el aeropuerto, y para resumir, perdí mi vuelo."],
@@ -4213,11 +4213,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a reconocer y usar humor ligero y sarcasmo suave en conversaciones sociales en español.",
     study: {
       vocab: [
-        ["solo estoy bromeando", "I'm just kidding"],
-        ["eso es graciosísimo", "that's hilarious"],
-        ["sí, claro (sarcástico)", "yeah, right"],
-        ["sin ofender, pero...", "no offense, but..."],
-        ["tienes un gran sentido del humor", "you have a great sense of humor"],
+        ["solo estoy bromeando", "es broma"],
+        ["eso es graciosísimo", "qué gracioso"],
+        ["sí, claro (sarcástico)", "sí, claro (irónico)"],
+        ["sin ofender, pero...", "sin ofender, pero..."],
+        ["tienes un gran sentido del humor", "tienes muy buen sentido del humor"],
       ],
       grammar: [
         ["Tono e intención en el humor coloquial", "Frases como \"sí, claro\" cambian completamente de significado según el tono — se usan para expresar incredulidad o sarcasmo suave, no acuerdo literal.", "\"Voy a terminar este proyecto en un día.\" \"Sí, claro\" (dicho con ironía)"],
@@ -4236,11 +4236,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hacer networking profesional de forma natural en un evento social en español.",
     study: {
       vocab: [
-        ["¿a qué te dedicas?", "what do you do for a living?"],
-        ["mantengamos el contacto", "let's stay in touch"],
-        ["¿podría conseguir tu información de contacto?", "could I get your contact information"],
-        ["me encantaría consultarte algo en otro momento", "I'd love to pick your brain sometime"],
-        ["¡qué pequeño es el mundo!", "small world!"],
+        ["¿a qué te dedicas?", "¿a qué te dedicas?"],
+        ["mantengamos el contacto", "mantengamos el contacto"],
+        ["¿podría conseguir tu información de contacto?", "¿me das tu contacto?"],
+        ["me encantaría consultarte algo en otro momento", "me encantaría consultarte algo en algún momento"],
+        ["¡qué pequeño es el mundo!", "¡qué casualidad!"],
       ],
       grammar: [
         ["Preguntas abiertas para iniciar networking", "Preguntas como \"¿A qué te dedicas?\" abren la conversación de forma natural sin sonar demasiado formal, típico en eventos sociales.", "Entonces, ¿a qué te dedicas? Tengo curiosidad por saber cómo llegaste a ese campo."],
@@ -4260,11 +4260,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a proponer y convencer a un grupo de amigos de hacer un plan en español, con un tono persuasivo pero informal.",
     study: {
       vocab: [
-        ["escúchenme un momento", "hear me out"],
-        ["¿qué tal si probáramos...?", "what if we tried..."],
-        ["apuesto a que a todos les encantaría", "I bet you'd all love it"],
-        ["vamos, será divertido", "come on, it'll be fun"],
-        ["¿quién se apunta?", "who's in"],
+        ["escúchenme un momento", "escúchame"],
+        ["¿qué tal si probáramos...?", "¿y si probamos...?"],
+        ["apuesto a que a todos les encantaría", "seguro que a todos os encantaría"],
+        ["vamos, será divertido", "venga, será divertido"],
+        ["¿quién se apunta?", "¿quién se apunta?"],
       ],
       grammar: [
         ["\"¿Qué tal si...?\" para proponer ideas con entusiasmo", "Esta estructura hipotética invita al grupo a imaginar una idea sin sonar impositivo, ideal para proponer planes.", "¿Qué tal si probamos ese nuevo bar en la azotea este fin de semana? Apuesto a que a todos les encantaría."],
@@ -4284,11 +4284,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos coloquiales muy comunes en conversaciones sociales e informales en español.",
     study: {
       vocab: [
-        ["romper el hielo", "to break the ice"],
-        ["ser el alma de la fiesta", "to be the life of the party"],
-        ["conectar bien con alguien de inmediato", "to hit it off with someone"],
-        ["colarse en una fiesta", "to crash a party"],
-        ["la fiesta apenas está comenzando", "the party's just getting started"],
+        ["romper el hielo", "romper el hielo"],
+        ["ser el alma de la fiesta", "ser el alma de la fiesta"],
+        ["conectar bien con alguien de inmediato", "conectar bien con alguien"],
+        ["colarse en una fiesta", "colarse en una fiesta"],
+        ["la fiesta apenas está comenzando", "la fiesta acaba de empezar"],
       ],
       grammar: [
         ["Modismos sociales muy frecuentes", "Estos modismos aparecen constantemente en conversaciones informales y describen dinámicas sociales de forma vívida.", "Conectamos muy bien de inmediato, y a medianoche ella era claramente el alma de la fiesta."],
@@ -4311,12 +4311,12 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende palabras esenciales de la vida universitaria en español.",
     study: {
       vocab: [
-        ["la matrícula", "enrollment/tuition"],
-        ["el semestre", "the semester"],
-        ["la beca", "the scholarship"],
-        ["el aula", "the classroom"],
-        ["el examen final", "the final exam"],
-        ["el título", "the degree"],
+        ["la matrícula", "la matrícula"],
+        ["el semestre", "el semestre"],
+        ["la beca", "la beca"],
+        ["el aula", "el aula"],
+        ["el examen final", "el examen final"],
+        ["el título", "el título/la carrera"],
       ],
       grammar: [
         ["El género de \"aula\" (femenino con \"el\")", "\"Aula\" es femenina pero usa \"el\" en singular porque empieza con \"a\" tónica.", "el aula (f) / las aulas"],
@@ -4336,10 +4336,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende frases útiles para trámites universitarios en español.",
     study: {
       vocab: [
-        ["necesito un certificado de matrícula", "I need an enrollment certificate"],
-        ["¿dónde entrego este formulario?", "where do I submit this form?"],
-        ["quiero cambiar de carrera", "I want to change majors"],
-        ["¿cuál es la fecha límite?", "what's the deadline?"],
+        ["necesito un certificado de matrícula", "necesito un certificado de matrícula"],
+        ["¿dónde entrego este formulario?", "¿dónde entrego este formulario?"],
+        ["quiero cambiar de carrera", "quiero cambiar de carrera"],
+        ["¿cuál es la fecha límite?", "¿cuál es el plazo?"],
       ],
       grammar: [
         ["\"¿Dónde + verbo?\" para trámites", "\"¿Dónde entrego...?\" pregunta por el lugar correcto para un trámite.", "¿Dónde entrego este formulario?"],
@@ -4358,10 +4358,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Practica un diálogo completo en la oficina de administración universitaria en español.",
     study: {
       vocab: [
-        ["Buenos días, ¿en qué puedo ayudarle?", "Good morning, how can I help you?"],
-        ["Necesito mi certificado de notas", "I need my transcript"],
-        ["¿Me da su número de estudiante?", "Can I have your student number?"],
-        ["Estará listo en tres días", "It'll be ready in three days"],
+        ["Buenos días, ¿en qué puedo ayudarle?", "Buenos días, ¿en qué puedo ayudarle?"],
+        ["Necesito mi certificado de notas", "necesito mi expediente académico"],
+        ["¿Me da su número de estudiante?", "¿Me da su número de estudiante?"],
+        ["Estará listo en tres días", "Estará listo en tres días"],
       ],
       grammar: [
         ["Futuro simple para trámites pendientes", "\"Estará listo\" usa el futuro simple para indicar cuándo estará disponible un trámite.", "Estará listo en tres días hábiles."],
@@ -4381,10 +4381,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar sobre la biblioteca universitaria en español.",
     study: {
       vocab: [
-        ["pedir prestado un libro", "to borrow a book"],
-        ["la fecha de devolución", "the due date"],
-        ["renovar el préstamo", "to renew the loan"],
-        ["la sala de estudio silenciosa", "the quiet study room"],
+        ["pedir prestado un libro", "pedir prestado un libro"],
+        ["la fecha de devolución", "la fecha de vencimiento"],
+        ["renovar el préstamo", "renovar el préstamo"],
+        ["la sala de estudio silenciosa", "la sala de estudio silenciosa"],
       ],
       grammar: [
         ["\"Pedir prestado\" para solicitar algo temporal", "\"Pedir prestado\" describe tomar algo de forma temporal, con intención de devolverlo.", "Quiero pedir prestado este libro."],
@@ -4403,10 +4403,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario para organizar trabajo en grupo en español.",
     study: {
       vocab: [
-        ["dividámonos las tareas", "let's divide up the tasks"],
-        ["¿quién se encarga de la introducción?", "who's in charge of the intro?"],
-        ["nos reunimos el jueves", "let's meet on Thursday"],
-        ["no he terminado mi parte todavía", "I haven't finished my part yet"],
+        ["dividámonos las tareas", "dividamos las tareas"],
+        ["¿quién se encarga de la introducción?", "¿quién se encarga de la introducción?"],
+        ["nos reunimos el jueves", "quedemos el jueves"],
+        ["no he terminado mi parte todavía", "todavía no he terminado mi parte"],
       ],
       grammar: [
         ["Imperativo de \"nosotros\" para organizar tareas", "\"Dividámonos\", \"reunámonos\" proponen una acción conjunta del grupo.", "Dividámonos las tareas del proyecto."],
@@ -4425,10 +4425,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a comunicarte con un profesor sobre dudas o trabajos en español.",
     study: {
       vocab: [
-        ["¿podría aclararme esta duda?", "could you clarify this doubt for me?"],
-        ["no entendí bien el tema", "I didn't quite understand the topic"],
-        ["¿tiene horario de atención?", "do you have office hours?"],
-        ["me gustaría revisar mi calificación", "I'd like to review my grade"],
+        ["¿podría aclararme esta duda?", "¿podrías aclararme esta duda?"],
+        ["no entendí bien el tema", "no entendí muy bien el tema"],
+        ["¿tiene horario de atención?", "¿tiene horario de tutorías?"],
+        ["me gustaría revisar mi calificación", "me gustaría revisar mi calificación"],
       ],
       grammar: [
         ["\"¿Podría...?\" para peticiones formales con el profesor", "\"¿Podría...?\" es la forma educada y formal de pedir algo a una figura de autoridad como un profesor.", "¿Podría aclararme esta duda sobre el examen?"],
@@ -4448,10 +4448,10 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende vocabulario sobre la vida diaria en el campus universitario en español.",
     study: {
       vocab: [
-        ["la cafetería del campus", "the campus cafeteria"],
-        ["el club estudiantil", "the student club"],
-        ["la residencia estudiantil", "the student dorm"],
-        ["el horario de clases", "the class schedule"],
+        ["la cafetería del campus", "la cafetería del campus"],
+        ["el club estudiantil", "el club estudiantil"],
+        ["la residencia estudiantil", "la residencia estudiantil"],
+        ["el horario de clases", "el horario de clases"],
       ],
       grammar: [
         ["\"Del campus\" para describir lugares universitarios", "\"Del campus\" indica que algo pertenece o está ubicado en el campus.", "La cafetería del campus abre a las 8am."],
@@ -4470,11 +4470,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a hablar sobre un ensayo o trabajo académico con tu profesor en español.",
     study: {
       vocab: [
-        ["la tesis del trabajo necesita mejorar", "the thesis statement needs work"],
-        ["citar tus fuentes correctamente", "to cite your sources properly"],
-        ["el argumento carece de evidencia que lo respalde", "the argument lacks supporting evidence"],
-        ["revisar la estructura", "to revise the structure"],
-        ["una conclusión bien respaldada", "a well-supported conclusion"],
+        ["la tesis del trabajo necesita mejorar", "la tesis del trabajo necesita mejorar"],
+        ["citar tus fuentes correctamente", "citar las fuentes correctamente"],
+        ["el argumento carece de evidencia que lo respalde", "al argumento le falta evidencia que lo respalde"],
+        ["revisar la estructura", "revisar la estructura"],
+        ["una conclusión bien respaldada", "una conclusión bien fundamentada"],
       ],
       grammar: [
         ["Voz pasiva refleja para retroalimentación académica objetiva", "\"Se necesita respaldar el argumento\" suena más objetiva y menos personal al dar feedback académico.", "Se necesita respaldar el argumento con más evidencia."],
@@ -4494,11 +4494,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a preguntar por becas y ayudas financieras en la universidad en español.",
     study: {
       vocab: [
-        ["solicitar una beca", "to apply for a scholarship"],
-        ["elegibilidad para ayuda financiera", "financial aid eligibility"],
-        ["la fecha límite de solicitud", "the application deadline"],
-        ["una beca basada en mérito académico", "a merit-based scholarship"],
-        ["presentar documentos de respaldo", "to submit supporting documents"],
+        ["solicitar una beca", "solicitar una beca"],
+        ["elegibilidad para ayuda financiera", "la elegibilidad para ayuda financiera"],
+        ["la fecha límite de solicitud", "el plazo de solicitud"],
+        ["una beca basada en mérito académico", "una beca por mérito"],
+        ["presentar documentos de respaldo", "presentar documentos justificativos"],
       ],
       grammar: [
         ["\"Basado/a en\" + sustantivo para criterios de selección", "Esta estructura explica en qué se basa una decisión o criterio, muy común al hablar de becas.", "Esta beca se otorga basada en el mérito académico y la necesidad económica."],
@@ -4517,11 +4517,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a participar en un debate académico en clase, defendiendo y cuestionando ideas en español.",
     study: {
       vocab: [
-        ["me gustaría cuestionar esa idea", "I'd like to challenge that idea"],
-        ["la evidencia sugiere lo contrario", "the evidence suggests otherwise"],
-        ["hacer de abogado del diablo", "to play devil's advocate"],
-        ["desde una perspectiva diferente", "from a different perspective"],
-        ["eso plantea una pregunta importante", "that raises an important question"],
+        ["me gustaría cuestionar esa idea", "me gustaría cuestionar esa idea"],
+        ["la evidencia sugiere lo contrario", "la evidencia sugiere lo contrario"],
+        ["hacer de abogado del diablo", "hacer de abogado del diablo"],
+        ["desde una perspectiva diferente", "desde otra perspectiva"],
+        ["eso plantea una pregunta importante", "eso plantea una pregunta importante"],
       ],
       grammar: [
         ["Suavizar el desacuerdo académico", "Frases como \"me gustaría cuestionar esa idea\" o \"desde una perspectiva diferente\" permiten cuestionar un argumento sin sonar agresivo en un debate formal.", "Me gustaría cuestionar esa idea — desde una perspectiva diferente, la evidencia sugiere lo contrario."],
@@ -4541,11 +4541,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a presentar y hablar sobre tu proyecto de investigación en español.",
     study: {
       vocab: [
-        ["la pregunta de investigación es...", "the research question is..."],
-        ["la metodología implica...", "the methodology involves..."],
-        ["los hallazgos preliminares sugieren", "preliminary findings suggest"],
-        ["se necesita más investigación", "further research is needed"],
-        ["recopilar y analizar datos", "to collect and analyze data"],
+        ["la pregunta de investigación es...", "la pregunta de investigación es..."],
+        ["la metodología implica...", "la metodología consiste en..."],
+        ["los hallazgos preliminares sugieren", "los hallazgos preliminares sugieren"],
+        ["se necesita más investigación", "se necesita más investigación"],
+        ["recopilar y analizar datos", "recopilar y analizar datos"],
       ],
       grammar: [
         ["Lenguaje de cautela académica (\"hedging\")", "Frases como \"los hallazgos preliminares sugieren\" o \"se necesita más investigación\" evitan afirmaciones demasiado categóricas, típico del discurso académico.", "Los hallazgos preliminares sugieren una correlación, pero se necesita más investigación para confirmarlo."],
@@ -4565,11 +4565,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende a defender un argumento o tesis frente a un tribunal o profesor en español, con un registro académico formal.",
     study: {
       vocab: [
-        ["yo argumentaría que...", "I'd argue that..."],
-        ["esta afirmación está respaldada por...", "this claim is substantiated by..."],
-        ["si bien podría argumentarse que...", "while it could be argued that..."],
-        ["el contraargumento no considera", "the counterargument fails to consider"],
-        ["a la luz de la evidencia presentada", "in light of the evidence presented"],
+        ["yo argumentaría que...", "yo argumentaría que..."],
+        ["esta afirmación está respaldada por...", "esta afirmación está respaldada por..."],
+        ["si bien podría argumentarse que...", "aunque se podría argumentar que..."],
+        ["el contraargumento no considera", "el contraargumento no tiene en cuenta"],
+        ["a la luz de la evidencia presentada", "a la luz de la evidencia presentada"],
       ],
       grammar: [
         ["\"Si bien podría argumentarse que...\" para reconocer una objeción", "Esta estructura reconoce un punto de vista opuesto antes de refutarlo, mostrando rigor académico y objetividad.", "Si bien podría argumentarse que la muestra era pequeña, los resultados siguen siendo estadísticamente significativos."],
@@ -4589,11 +4589,11 @@ window.SITUATION_LESSON_BANKS.ES = {
     description:"Aprende modismos y expresiones comunes en el entorno académico universitario en español.",
     study: {
       vocab: [
-        ["quedarse toda la noche estudiando", "to pull an all-nighter"],
-        ["ponerse a estudiar en serio", "to hit the books"],
-        ["algo en qué pensar/reflexionar", "food for thought"],
-        ["estudiar de última hora para un examen", "to cram for an exam"],
-        ["aprobar con excelentes resultados", "to pass with flying colors"],
+        ["quedarse toda la noche estudiando", "quedarse toda la noche estudiando"],
+        ["ponerse a estudiar en serio", "ponerse a estudiar en serio"],
+        ["algo en qué pensar/reflexionar", "algo en qué pensar"],
+        ["estudiar de última hora para un examen", "empollar para un examen"],
+        ["aprobar con excelentes resultados", "aprobar con nota excelente"],
       ],
       grammar: [
         ["Modismos sobre estudiar y exámenes", "Estos modismos describen hábitos de estudio y resultados académicos de forma vívida y muy común entre estudiantes.", "Tuve que quedarme toda la noche estudiando, pero aprobé el examen con excelentes resultados."],
@@ -4619,12 +4619,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales del aeropuerto en francés.",
     study: {
       vocab: [
-        ["le passeport", "passport"],
-        ["la porte d'embarquement", "boarding gate"],
-        ["la valise", "suitcase"],
-        ["le billet", "ticket"],
-        ["le vol", "flight"],
-        ["la douane", "customs"],
+        ["le passeport", "el pasaporte"],
+        ["la porte d'embarquement", "la puerta de embarque"],
+        ["la valise", "la maleta"],
+        ["le billet", "el billete"],
+        ["le vol", "el vuelo"],
+        ["la douane", "la aduana"],
       ],
       grammar: [
         ["Artículos definidos le/la", "En francés los sustantivos tienen género (masculino/femenino) y usan \"le\" o \"la\".", "le passeport (m) / la valise (f)"],
@@ -4644,11 +4644,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para hacer el check-in en un aeropuerto en francés.",
     study: {
       vocab: [
-        ["Je voudrais enregistrer ma valise", "I'd like to check my bag"],
-        ["Où est le comptoir de la compagnie ?", "Where is the airline counter?"],
-        ["À quelle heure part le vol ?", "What time does the flight leave?"],
-        ["Voici mon passeport", "Here's my passport"],
-        ["Quelle est ma porte d'embarquement ?", "What's my boarding gate?"],
+        ["Je voudrais enregistrer ma valise", "Quisiera facturar mi maleta"],
+        ["Où est le comptoir de la compagnie ?", "¿Dónde está el mostrador de la aerolínea?"],
+        ["À quelle heure part le vol ?", "¿A qué hora sale el vuelo?"],
+        ["Voici mon passeport", "Aquí tiene mi pasaporte"],
+        ["Quelle est ma porte d'embarquement ?", "¿Cuál es mi puerta de embarque?"],
       ],
       grammar: [
         ["El condicional \"je voudrais\" para peticiones educadas", "\"Je voudrais\" (de \"vouloir\") es una forma cortés de pedir algo, más formal que \"je veux\".", "Je voudrais enregistrer ma valise, s'il vous plaît."],
@@ -4667,11 +4667,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo en el mostrador de facturación en francés.",
     study: {
       vocab: [
-        ["Bonjour, votre passeport s'il vous plaît ?", "Good morning, your passport please?"],
-        ["Combien de valises allez-vous enregistrer ?", "How many bags will you check?"],
-        ["Une seule, merci", "Just one, thanks"],
-        ["Votre vol part à 10 heures", "Your flight leaves at 10"],
-        ["Hublot ou couloir ?", "Window or aisle?"],
+        ["Bonjour, votre passeport s'il vous plaît ?", "Buenos días, ¿su pasaporte, por favor?"],
+        ["Combien de valises allez-vous enregistrer ?", "¿Cuántas maletas va a facturar?"],
+        ["Une seule, merci", "Solo una, gracias"],
+        ["Votre vol part à 10 heures", "Su vuelo sale a las 10"],
+        ["Hublot ou couloir ?", "¿Ventanilla o pasillo?"],
       ],
       grammar: [
         ["Preguntas con \"combien de\"", "\"Combien de\" pregunta por cantidad, seguido directamente del sustantivo.", "Combien de valises ? / Combien de billets ?"],
@@ -4691,12 +4691,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Qué decir cuando algo sale mal con tu maleta, en francés.",
     study: {
       vocab: [
-        ["le bagage à main", "carry-on bag"],
-        ["le bagage enregistré", "checked bag"],
-        ["en surpoids", "overweight"],
-        ["fragile", "fragile"],
-        ["le retrait des bagages", "baggage claim"],
-        ["le bagage perdu", "lost luggage"],
+        ["le bagage à main", "el equipaje de mano"],
+        ["le bagage enregistré", "el equipaje facturado"],
+        ["en surpoids", "exceso de peso"],
+        ["fragile", "frágil"],
+        ["le retrait des bagages", "la recogida de equipajes"],
+        ["le bagage perdu", "el equipaje perdido"],
       ],
       grammar: [
         ["\"Être en + sustantivo\" para describir un estado", "\"Être en surpoids\" usa \"en\" + sustantivo para describir un estado.", "Ma valise est en surpoids."],
@@ -4715,12 +4715,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Lo que te preguntarán al pasar los controles, en francés.",
     study: {
       vocab: [
-        ["le détecteur de métaux", "metal detector"],
-        ["enlevez vos chaussures", "take off your shoes"],
-        ["les liquides", "liquids"],
-        ["la douane", "customs"],
-        ["déclarer", "to declare"],
-        ["le motif de votre visite", "purpose of your visit"],
+        ["le détecteur de métaux", "el detector de metales"],
+        ["enlevez vos chaussures", "quítese los zapatos"],
+        ["les liquides", "los líquidos"],
+        ["la douane", "la aduana"],
+        ["déclarer", "declarar"],
+        ["le motif de votre visite", "motivo de su visita"],
       ],
       grammar: [
         ["Imperativo formal (vous)", "El imperativo con \"vous\" se usa en anuncios oficiales y control de seguridad.", "Enlevez vos chaussures. / Ouvrez la valise."],
@@ -4739,12 +4739,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Qué decir si tu vuelo cambia de última hora, en francés.",
     study: {
       vocab: [
-        ["retardé", "delayed"],
-        ["annulé", "cancelled"],
-        ["reprogrammer", "to rebook"],
-        ["le vol de correspondance", "connecting flight"],
-        ["j'ai raté mon vol", "I missed my flight"],
-        ["le prochain vol disponible", "next available flight"],
+        ["retardé", "retrasado"],
+        ["annulé", "cancelado"],
+        ["reprogrammer", "reprogramar"],
+        ["le vol de correspondance", "el vuelo de conexión"],
+        ["j'ai raté mon vol", "Perdí mi vuelo"],
+        ["le prochain vol disponible", "el próximo vuelo disponible"],
       ],
       grammar: [
         ["Passé composé para hechos puntuales", "El pasado compuesto (\"j'ai raté\") describe una acción completada en un momento concreto del pasado.", "J'ai raté mon vol ce matin."],
@@ -4763,11 +4763,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica cómo pedir ayuda cuando algo no sale como esperabas, en francés.",
     study: {
       vocab: [
-        ["j'étais censé/e...", "it was supposed to..."],
-        ["pourriez-vous m'aider à trouver... ?", "could you help me find...?"],
-        ["je suis perdu/e", "I'm lost"],
-        ["que puis-je faire ?", "what can I do?"],
-        ["j'ai besoin d'aide", "I need help"],
+        ["j'étais censé/e...", "se suponía que..."],
+        ["pourriez-vous m'aider à trouver... ?", "¿podría ayudarme a encontrar...?"],
+        ["je suis perdu/e", "Estoy perdido/a"],
+        ["que puis-je faire ?", "¿qué puedo hacer?"],
+        ["j'ai besoin d'aide", "Necesito ayuda"],
       ],
       grammar: [
         ["\"Être censé\" para planes rotos", "Esta estructura describe algo que debía pasar pero no ocurrió, muy útil para explicar un problema.", "J'étais censé prendre le vol 204, mais il a été annulé."],
@@ -4787,11 +4787,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pasar el control de inmigración y aduana en francés.",
     study: {
       vocab: [
-        ["la déclaration de douane", "customs declaration"],
-        ["rien à déclarer", "nothing to declare"],
-        ["le visa à l'arrivée", "visa on arrival"],
-        ["le motif de votre visite", "purpose of your visit"],
-        ["le permis de séjour", "residency permit"],
+        ["la déclaration de douane", "la declaración de aduana"],
+        ["rien à déclarer", "nada que declarar"],
+        ["le visa à l'arrivée", "el visado a la llegada"],
+        ["le motif de votre visite", "motivo de su visita"],
+        ["le permis de séjour", "el permiso de residencia"],
       ],
       grammar: [
         ["\"Rien à + infinitivo\" para negar algo", "Esta estructura niega la existencia de algo que hacer, muy común en aduana.", "Je n'ai rien à déclarer."],
@@ -4811,11 +4811,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a manejarte en salas de espera premium y a resolver una conexión ajustada en francés.",
     study: {
       vocab: [
-        ["avoir accès au salon VIP", "to have access to the lounge"],
-        ["une correspondance serrée", "a tight connection"],
-        ["rater un vol de correspondance", "to miss a connecting flight"],
-        ["l'embarquement prioritaire", "priority boarding"],
-        ["être reprogrammé automatiquement", "to be rebooked automatically"],
+        ["avoir accès au salon VIP", "tener acceso a la sala VIP"],
+        ["une correspondance serrée", "una conexión ajustada"],
+        ["rater un vol de correspondance", "perder un vuelo de conexión"],
+        ["l'embarquement prioritaire", "el embarque prioritario"],
+        ["être reprogrammé automatiquement", "ser reprogramado automáticamente"],
       ],
       grammar: [
         ["La voz pasiva con \"être + participio\"", "La voz pasiva se usa cuando el foco está en la acción, no en quién la realiza.", "Vous serez reprogrammé sur le prochain vol disponible."],
@@ -4834,11 +4834,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a reportar equipaje perdido o dañado y a seguir el reclamo en francés.",
     study: {
       vocab: [
-        ["mon bagage n'est pas arrivé", "my luggage didn't arrive"],
-        ["une valise endommagée", "a damaged suitcase"],
-        ["le formulaire de réclamation de bagages", "baggage claim form"],
-        ["le numéro de suivi", "tracking number"],
-        ["l'indemnisation pour le retard", "compensation for the delay"],
+        ["mon bagage n'est pas arrivé", "mi equipaje no llegó"],
+        ["une valise endommagée", "una maleta dañada"],
+        ["le formulaire de réclamation de bagages", "el formulario de reclamación de equipaje"],
+        ["le numéro de suivi", "el número de seguimiento"],
+        ["l'indemnisation pour le retard", "la compensación por el retraso"],
       ],
       grammar: [
         ["Passé composé para quejas recientes", "El pasado compuesto (\"n'est pas arrivé\") se usa cuando el efecto de un problema sigue vigente ahora mismo.", "Ma valise n'est pas encore arrivée."],
@@ -4858,11 +4858,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a redactar y presentar un reclamo formal por retrasos o problemas de vuelo en francés.",
     study: {
       vocab: [
-        ["déposer une plainte", "to file a complaint"],
-        ["l'indemnisation pour retard de vol", "flight delay compensation"],
-        ["selon la réglementation européenne", "under EU regulation"],
-        ["un remboursement plutôt qu'un bon d'achat", "a refund versus a voucher"],
-        ["faire remonter le problème", "to escalate the issue"],
+        ["déposer une plainte", "presentar una queja"],
+        ["l'indemnisation pour retard de vol", "la compensación por retraso de vuelo"],
+        ["selon la réglementation européenne", "según la normativa de la UE"],
+        ["un remboursement plutôt qu'un bon d'achat", "un reembolso frente a un vale"],
+        ["faire remonter le problème", "escalar el problema"],
       ],
       grammar: [
         ["\"Plutôt que\" para contrastar opciones", "\"Plutôt que\" se usa para comparar dos alternativas de forma directa y formal.", "Un remboursement plutôt qu'un bon d'achat — que préférez-vous ?"],
@@ -4882,11 +4882,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica cómo negociar un cambio de vuelo o un mejor acuerdo con la aerolínea en un registro formal y persuasivo.",
     study: {
       vocab: [
-        ["parvenir à une solution équitable", "to reach a fair resolution"],
-        ["étant donné les circonstances", "given the circumstances"],
-        ["je comprends votre politique, cependant...", "I understand your policy, however..."],
-        ["un aménagement raisonnable", "a reasonable accommodation"],
-        ["annuler les frais", "to waive the fee"],
+        ["parvenir à une solution équitable", "llegar a una resolución justa"],
+        ["étant donné les circonstances", "dadas las circunstancias"],
+        ["je comprends votre politique, cependant...", "Entiendo su política, sin embargo..."],
+        ["un aménagement raisonnable", "una solución razonable"],
+        ["annuler les frais", "eximir de la tarifa"],
       ],
       grammar: [
         ["Conectores concesivos en registro formal", "\"Cependant\", \"étant donné les circonstances\" y \"néanmoins\" suavizan un desacuerdo mientras mantienes tu postura de forma educada pero firme.", "Je comprends votre politique, cependant, étant donné les circonstances, je crois qu'une solution équitable est possible."],
@@ -4906,11 +4906,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos y expresiones coloquiales usadas en aeropuertos y viajes en francés.",
     study: {
       vocab: [
-        ["attraper son vol de justesse", "to catch a flight"],
-        ["avoir le décalage horaire", "to be jet-lagged"],
-        ["voyager léger", "to travel light"],
-        ["un vol de nuit", "a red-eye flight"],
-        ["atterrir", "to touch down"],
+        ["attraper son vol de justesse", "coger un vuelo"],
+        ["avoir le décalage horaire", "tener jet lag"],
+        ["voyager léger", "viajar con poco equipaje"],
+        ["un vol de nuit", "un vuelo nocturno"],
+        ["atterrir", "aterrizar"],
       ],
       grammar: [
         ["Expresiones fijas de viaje", "Muchas expresiones de viaje son frases fijas que no se traducen literalmente palabra por palabra.", "Nous avons atterri une heure plus tôt. / Je voyage toujours léger."],
@@ -4933,12 +4933,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales para ir a un restaurante en francés.",
     study: {
       vocab: [
-        ["le menu", "the menu"],
-        ["la table", "the table"],
-        ["le serveur/la serveuse", "the waiter/waitress"],
-        ["l'addition", "the bill"],
-        ["le plat", "the dish"],
-        ["la boisson", "the drink"],
+        ["le menu", "el menú"],
+        ["la table", "la mesa"],
+        ["le serveur/la serveuse", "el camarero/la camarera"],
+        ["l'addition", "la cuenta"],
+        ["le plat", "el plato"],
+        ["la boisson", "la bebida"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el restaurante", "\"L'addition\" y \"la boisson\" son femeninas; \"le menu\" y \"le plat\" son masculinos.", "le plat (m) / la boisson (f)"],
@@ -4958,11 +4958,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para pedir comida en un restaurante en francés.",
     study: {
       vocab: [
-        ["Je voudrais commander...", "I'd like to order..."],
-        ["Que me recommandez-vous ?", "What do you recommend?"],
-        ["Pour moi, les pâtes", "For me, the pasta"],
-        ["Sans oignon, s'il vous plaît", "No onion, please"],
-        ["Vous êtes prêt à commander ?", "Are you ready to order?"],
+        ["Je voudrais commander...", "Quisiera pedir..."],
+        ["Que me recommandez-vous ?", "¿Qué recomiendas?"],
+        ["Pour moi, les pâtes", "Para mí, la pasta"],
+        ["Sans oignon, s'il vous plaît", "Sin cebolla, por favor"],
+        ["Vous êtes prêt à commander ?", "¿Están listos para pedir?"],
       ],
       grammar: [
         ["\"Pour moi\" para indicar tu pedido", "\"Pour moi\" se usa para especificar qué quieres cuando el camarero pregunta el pedido de cada persona.", "Pour moi, les pâtes, s'il vous plaît."],
@@ -4981,11 +4981,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo pidiendo la cena en un restaurante en francés.",
     study: {
       vocab: [
-        ["Bonsoir, une table pour combien ?", "Good evening, table for how many?"],
-        ["Pour deux, s'il vous plaît", "For two, please"],
-        ["Quelque chose à boire ?", "Something to drink?"],
-        ["De l'eau, s'il vous plaît", "Water, please"],
-        ["Je vous l'apporte tout de suite", "I'll bring it right away"],
+        ["Bonsoir, une table pour combien ?", "Buenas noches, ¿mesa para cuántos?"],
+        ["Pour deux, s'il vous plaît", "Para dos, por favor"],
+        ["Quelque chose à boire ?", "¿Algo de beber?"],
+        ["De l'eau, s'il vous plaît", "Agua, por favor"],
+        ["Je vous l'apporte tout de suite", "Se lo traigo enseguida"],
       ],
       grammar: [
         ["Preposición \"pour\" + número", "\"Pour deux\" indica la cantidad de personas, muy común al pedir mesa.", "Une table pour deux, s'il vous plaît."],
@@ -5005,11 +5005,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a explicar alergias y preferencias alimentarias en un restaurante en francés.",
     study: {
       vocab: [
-        ["je suis allergique à...", "I'm allergic to..."],
-        ["les fruits à coque", "nuts"],
-        ["je ne mange pas de viande", "I don't eat meat"],
-        ["est-ce que cela contient des produits laitiers ?", "does this contain dairy?"],
-        ["intolérant/e au gluten", "gluten intolerant"],
+        ["je suis allergique à...", "Soy alérgico/a a..."],
+        ["les fruits à coque", "los frutos secos"],
+        ["je ne mange pas de viande", "No como carne"],
+        ["est-ce que cela contient des produits laitiers ?", "¿esto contiene lácteos?"],
+        ["intolérant/e au gluten", "intolerante al gluten"],
       ],
       grammar: [
         ["\"Être allergique à\" + sustantivo", "Se usa \"être allergique à\" + el alimento para indicar una alergia.", "Je suis allergique aux fruits à coque."],
@@ -5028,11 +5028,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a explicar un problema con tu pedido en un restaurante en francés.",
     study: {
       vocab: [
-        ["ce n'est pas ce que j'ai commandé", "this isn't what I ordered"],
-        ["c'est froid", "it's cold"],
-        ["il manque la commande", "the order is missing"],
-        ["pourriez-vous le changer ?", "could you change it?"],
-        ["c'est trop salé", "it's too salty"],
+        ["ce n'est pas ce que j'ai commandé", "esto no es lo que pedí"],
+        ["c'est froid", "está frío"],
+        ["il manque la commande", "falta algo del pedido"],
+        ["pourriez-vous le changer ?", "¿podría cambiarlo?"],
+        ["c'est trop salé", "está demasiado salado"],
       ],
       grammar: [
         ["\"Être\" + adjetivo para describir un estado temporal", "\"Être\" + adjetivo describe un estado temporal, como la temperatura o sabor de un plato.", "La soupe est froide."],
@@ -5051,11 +5051,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir la cuenta y hablar de la propina en un restaurante en francés.",
     study: {
       vocab: [
-        ["l'addition, s'il vous plaît", "the bill, please"],
-        ["acceptez-vous la carte ?", "do you accept card?"],
-        ["le pourboire", "the tip"],
-        ["partager l'addition", "to split the bill"],
-        ["gardez la monnaie", "keep the change"],
+        ["l'addition, s'il vous plaît", "la cuenta, por favor"],
+        ["acceptez-vous la carte ?", "¿aceptan tarjeta?"],
+        ["le pourboire", "la propina"],
+        ["partager l'addition", "dividir la cuenta"],
+        ["gardez la monnaie", "quédese con el cambio"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones", "\"Gardez\" es el imperativo formal (vous) del verbo \"garder\".", "Gardez la monnaie, s'il vous plaît."],
@@ -5074,10 +5074,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir y dar recomendaciones sobre platos en un restaurante en francés.",
     study: {
       vocab: [
-        ["quelle est la spécialité de la maison ?", "what's the house specialty?"],
-        ["je vous le recommande vivement", "I highly recommend it"],
-        ["c'est un plat typique de la région", "it's a typical dish of the region"],
-        ["si vous aimez le piquant...", "if you like spicy food..."],
+        ["quelle est la spécialité de la maison ?", "¿cuál es la especialidad de la casa?"],
+        ["je vous le recommande vivement", "lo recomiendo encarecidamente"],
+        ["c'est un plat typique de la région", "es un plato típico de la región"],
+        ["si vous aimez le piquant...", "si te gusta la comida picante..."],
       ],
       grammar: [
         ["El condicional \"si\" + presente para sugerencias", "\"Si vous aimez...\" + presente introduce una sugerencia condicionada al gusto de la persona.", "Si vous aimez le piquant, je vous recommande ce plat."],
@@ -5097,11 +5097,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a reservar mesa para una ocasión especial y pedir detalles concretos en francés.",
     study: {
       vocab: [
-        ["réserver une table pour une occasion spéciale", "to book a table for a special occasion"],
-        ["une table près de la fenêtre", "a table by the window"],
-        ["fêter un anniversaire", "to celebrate an anniversary"],
-        ["un menu fixe", "a set menu"],
-        ["demander un gâteau avec une bougie", "to request a cake with a candle"],
+        ["réserver une table pour une occasion spéciale", "reservar una mesa para una ocasión especial"],
+        ["une table près de la fenêtre", "una mesa junto a la ventana"],
+        ["fêter un anniversaire", "celebrar un aniversario"],
+        ["un menu fixe", "un menú fijo"],
+        ["demander un gâteau avec une bougie", "pedir una tarta con una vela"],
       ],
       grammar: [
         ["\"Nous voudrions\" para peticiones en grupo", "\"Nous voudrions\" (primera persona plural) se usa cuando la petición es para varias personas.", "Nous voudrions une table près de la fenêtre."],
@@ -5121,11 +5121,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario sobre maridaje de vinos y menús de degustación en francés.",
     study: {
       vocab: [
-        ["l'accord mets et vins", "wine pairing"],
-        ["un menu dégustation", "a tasting menu"],
-        ["un rouge corsé", "a full-bodied red"],
-        ["accompagner le plat", "to complement the dish"],
-        ["la recommandation du sommelier", "the sommelier's recommendation"],
+        ["l'accord mets et vins", "el maridaje de vinos"],
+        ["un menu dégustation", "un menú de degustación"],
+        ["un rouge corsé", "un tinto con cuerpo"],
+        ["accompagner le plat", "complementar el plato"],
+        ["la recommandation du sommelier", "la recomendación del sumiller"],
       ],
       grammar: [
         ["Adjetivos que siguen al sustantivo en francés", "En francés, la mayoría de adjetivos van después del sustantivo, a diferencia del español o inglés.", "un rouge corsé / un plat bien équilibré"],
@@ -5144,11 +5144,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a explicar dietas especiales y preferencias éticas sobre la comida en francés.",
     study: {
       vocab: [
-        ["régime à base de plantes", "plant-based diet"],
-        ["intolérance au gluten", "gluten intolerance"],
-        ["des ingrédients d'origine éthique", "ethically sourced ingredients"],
-        ["la contamination croisée", "cross-contamination"],
-        ["une alternative sans produits laitiers", "a dairy-free alternative"],
+        ["régime à base de plantes", "la dieta a base de plantas"],
+        ["intolérance au gluten", "la intolerancia al gluten"],
+        ["des ingrédients d'origine éthique", "ingredientes de origen ético"],
+        ["la contamination croisée", "la contaminación cruzada"],
+        ["une alternative sans produits laitiers", "una alternativa sin lácteos"],
       ],
       grammar: [
         ["\"Sans\" + sustantivo para indicar ausencia", "\"Sans\" + sustantivo se usa para indicar que algo no contiene cierto ingrediente.", "du pain sans gluten / du lait sans lactose / un dessert sans fruits à coque"],
@@ -5168,11 +5168,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a plantear un problema serio al gerente de un restaurante de forma educada pero firme en francés.",
     study: {
       vocab: [
-        ["pourrais-je parler au gérant ?", "could I speak to the manager"],
-        ["ce n'est pas ce que j'ai commandé", "this isn't what I ordered"],
-        ["j'apprécierais une solution", "I'd appreciate a solution"],
-        ["cela s'est déjà produit", "this has happened before"],
-        ["compenser le désagrément", "to compensate the inconvenience"],
+        ["pourrais-je parler au gérant ?", "¿podría hablar con el gerente?"],
+        ["ce n'est pas ce que j'ai commandé", "esto no es lo que pedí"],
+        ["j'apprécierais une solution", "agradecería una solución"],
+        ["cela s'est déjà produit", "esto ya ha pasado antes"],
+        ["compenser le désagrément", "compensar la molestia"],
       ],
       grammar: [
         ["\"J'apprécierais\" para pedir algo con firmeza educada", "El condicional \"j'apprécierais\" expresa una petición firme pero cortés, típica en quejas formales.", "J'apprécierais une solution dès que possible."],
@@ -5192,11 +5192,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a redactar una reseña equilibrada y detallada de un restaurante en francés.",
     study: {
       vocab: [
-        ["dans l'ensemble, l'expérience était...", "overall, the experience was..."],
-        ["le service laissait beaucoup à désirer", "the service left much to be desired"],
-        ["une perle cachée", "a hidden gem"],
-        ["l'attention portée aux détails", "attention to detail"],
-        ["je le recommanderais / je ne le recommanderais pas", "I would (not) recommend it"],
+        ["dans l'ensemble, l'expérience était...", "en general, la experiencia fue..."],
+        ["le service laissait beaucoup à désirer", "el servicio dejó mucho que desear"],
+        ["une perle cachée", "una joya escondida"],
+        ["l'attention portée aux détails", "la atención al detalle"],
+        ["je le recommanderais / je ne le recommanderais pas", "(no) lo recomendaría"],
       ],
       grammar: [
         ["Adverbios de opinión al inicio de frase", "\"Dans l'ensemble\", \"honnêtement\" al principio de la frase matizan el tono general de una opinión escrita.", "Dans l'ensemble, l'expérience était mémorable, bien que le service ait été lent."],
@@ -5216,11 +5216,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos en francés relacionados con la comida y las comidas fuera de casa.",
     study: {
       vocab: [
-        ["être gourmand/e", "to have a sweet tooth"],
-        ["manger comme un roi", "to eat like a king"],
-        ["c'est la cerise sur le gâteau", "that's the icing on the cake"],
-        ["faire bouillir la marmite", "to bring home the bacon"],
-        ["du gâteau / très facile", "piece of cake"],
+        ["être gourmand/e", "ser goloso"],
+        ["manger comme un roi", "comer como un rey"],
+        ["c'est la cerise sur le gâteau", "eso es la guinda del pastel"],
+        ["faire bouillir la marmite", "traer el pan a casa"],
+        ["du gâteau / très facile", "pan comido"],
       ],
       grammar: [
         ["Modismos con vocabulario de comida", "Muchos modismos en francés usan palabras de comida con un significado completamente distinto al literal.", "Cet examen était du gâteau. / Il mange toujours comme un roi."],
@@ -5243,12 +5243,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales de un hotel en francés.",
     study: {
       vocab: [
-        ["la chambre", "the room"],
-        ["la réception", "the front desk"],
-        ["la clé", "the key"],
-        ["les bagages", "the luggage"],
-        ["la réservation", "the reservation"],
-        ["le petit déjeuner", "breakfast"],
+        ["la chambre", "la habitación"],
+        ["la réception", "la recepción"],
+        ["la clé", "la llave"],
+        ["les bagages", "el equipaje"],
+        ["la réservation", "la reserva"],
+        ["le petit déjeuner", "el desayuno"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el hotel", "\"La chambre\", \"la réception\", \"la clé\" y \"la réservation\" son femeninas.", "la chambre (f) / le petit déjeuner (m)"],
@@ -5268,11 +5268,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para el check-in en un hotel en francés.",
     study: {
       vocab: [
-        ["J'ai une réservation au nom de...", "I have a reservation under the name of..."],
-        ["À quelle heure est l'enregistrement ?", "What time is check-in?"],
-        ["Le petit déjeuner est-il inclus ?", "Is breakfast included?"],
-        ["J'ai besoin d'une autre clé", "I need another key"],
-        ["Quel est le mot de passe wifi ?", "What's the wifi?"],
+        ["J'ai une réservation au nom de...", "Tengo una reserva a nombre de..."],
+        ["À quelle heure est l'enregistrement ?", "¿A qué hora es el check-in?"],
+        ["Le petit déjeuner est-il inclus ?", "¿El desayuno está incluido?"],
+        ["J'ai besoin d'une autre clé", "Necesito otra llave"],
+        ["Quel est le mot de passe wifi ?", "¿Cuál es el wifi?"],
       ],
       grammar: [
         ["\"Au nom de\" para identificar reservas", "\"Au nom de\" se usa para indicar bajo qué nombre está hecha una reserva.", "J'ai une réservation au nom de García."],
@@ -5291,11 +5291,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo en la recepción de un hotel en francés.",
     study: {
       vocab: [
-        ["Bonjour, avez-vous une réservation ?", "Good afternoon, do you have a reservation?"],
+        ["Bonjour, avez-vous une réservation ?", "Buenas tardes, ¿tiene reserva?"],
         ["Oui, au nom de López", "Yes, under López"],
-        ["Votre chambre est la 305", "Your room is 305"],
-        ["L'ascenseur est à droite", "The elevator is to the right"],
-        ["Passez un bon séjour", "Enjoy your stay"],
+        ["Votre chambre est la 305", "Su habitación es la 305"],
+        ["L'ascenseur est à droite", "El ascensor está a la derecha"],
+        ["Passez un bon séjour", "Disfrute de su estancia"],
       ],
       grammar: [
         ["Posesivo formal \"votre\"", "\"Votre\" se usa con \"vous\" para el posesivo formal de tercera persona.", "Votre chambre est la 305."],
@@ -5315,12 +5315,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar por los servicios de un hotel en francés.",
     study: {
       vocab: [
-        ["le service en chambre", "room service"],
-        ["la piscine", "the pool"],
-        ["la salle de sport", "the gym"],
-        ["la blanchisserie", "laundry"],
-        ["le service de réveil", "wake-up call"],
-        ["le parking", "parking"],
+        ["le service en chambre", "el servicio de habitaciones"],
+        ["la piscine", "la piscina"],
+        ["la salle de sport", "el gimnasio"],
+        ["la blanchisserie", "la lavandería"],
+        ["le service de réveil", "el servicio de despertador"],
+        ["le parking", "el aparcamiento"],
       ],
       grammar: [
         ["\"Y a-t-il...?\" para preguntar por disponibilidad", "\"Y a-t-il...?\" se usa para preguntar si algo está disponible en el hotel.", "Y a-t-il une piscine dans l'hôtel ?"],
@@ -5339,11 +5339,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a explicar un problema en tu habitación de hotel en francés.",
     study: {
       vocab: [
-        ["la climatisation ne fonctionne pas", "the AC doesn't work"],
-        ["la chambre est sale", "the room is dirty"],
-        ["il y a beaucoup de bruit", "there's a lot of noise"],
-        ["pourriez-vous me changer de chambre ?", "could you change my room?"],
-        ["il n'y a pas d'eau chaude", "there's no hot water"],
+        ["la climatisation ne fonctionne pas", "el aire acondicionado no funciona"],
+        ["la chambre est sale", "la habitación está sucia"],
+        ["il y a beaucoup de bruit", "hay mucho ruido"],
+        ["pourriez-vous me changer de chambre ?", "¿podría cambiarme de habitación?"],
+        ["il n'y a pas d'eau chaude", "no hay agua caliente"],
       ],
       grammar: [
         ["\"Ne...pas fonctionner\" para describir averías", "\"Ne fonctionne pas\" describe algo que está roto o no opera correctamente.", "La climatisation ne fonctionne pas."],
@@ -5362,11 +5362,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hacer el check-out y entender cargos adicionales en francés.",
     study: {
       vocab: [
-        ["faire le check-out", "to check out"],
-        ["les frais du minibar", "the minibar charge"],
-        ["pourriez-vous vérifier la facture ?", "could you check the bill?"],
-        ["quitter la chambre", "to leave the room"],
-        ["garder les bagages", "to store the luggage"],
+        ["faire le check-out", "hacer el check-out"],
+        ["les frais du minibar", "el cargo del minibar"],
+        ["pourriez-vous vérifier la facture ?", "¿podría revisar la cuenta?"],
+        ["quitter la chambre", "dejar la habitación"],
+        ["garder les bagages", "guardar el equipaje"],
       ],
       grammar: [
         ["\"À quelle heure\" para preguntar horarios", "\"À quelle heure...?\" se usa para preguntar por horarios límite, como el check-out.", "À quelle heure est le check-out ?"],
@@ -5385,10 +5385,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir recomendaciones locales al personal del hotel en francés.",
     study: {
       vocab: [
-        ["que me recommandez-vous de visiter ?", "what do you recommend visiting?"],
-        ["un endroit hors des sentiers battus", "a place off the beaten path"],
-        ["c'est à quelques minutes à pied", "it's a short walk away"],
-        ["prendre un taxi ou le métro", "to take a taxi or the metro"],
+        ["que me recommandez-vous de visiter ?", "¿qué recomienda visitar?"],
+        ["un endroit hors des sentiers battus", "un lugar poco conocido"],
+        ["c'est à quelques minutes à pied", "está a pocos minutos andando"],
+        ["prendre un taxi ou le métro", "tomar un taxi o el metro"],
       ],
       grammar: [
         ["\"À quelques minutes à pied\" para indicar cercanía", "Esta expresión indica que un lugar está cerca, sin necesitar transporte.", "Le musée est à quelques minutes à pied."],
@@ -5408,11 +5408,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a modificar, posponer o cancelar una reserva de hotel en francés.",
     study: {
       vocab: [
-        ["modifier une réservation", "to modify a reservation"],
-        ["une politique d'annulation", "a cancellation policy"],
-        ["un tarif non remboursable", "a non-refundable rate"],
-        ["reporter la date d'arrivée", "to postpone the check-in date"],
-        ["un e-mail de confirmation", "a confirmation email"],
+        ["modifier une réservation", "modificar una reserva"],
+        ["une politique d'annulation", "una política de cancelación"],
+        ["un tarif non remboursable", "una tarifa no reembolsable"],
+        ["reporter la date d'arrivée", "posponer la fecha de entrada"],
+        ["un e-mail de confirmation", "un correo de confirmación"],
       ],
       grammar: [
         ["\"J'ai besoin de\" + infinitivo para trámites", "\"J'ai besoin de\" + verbo es la forma directa y natural de explicar qué trámite necesitas hacer.", "J'ai besoin de modifier ma réservation pour la semaine prochaine."],
@@ -5432,11 +5432,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar por instalaciones del hotel y a quejarte si no funcionan como se anuncia en francés.",
     study: {
       vocab: [
-        ["les équipements ne sont pas comme annoncé", "the amenities aren't as advertised"],
-        ["la piscine est hors service", "the pool is out of service"],
-        ["l'accès à la salle de sport et au spa", "access to the gym and spa"],
-        ["le wifi se déconnecte constamment", "the wifi keeps disconnecting"],
-        ["ne pas être à la hauteur des attentes", "to fall short of expectations"],
+        ["les équipements ne sont pas comme annoncé", "las instalaciones no son como se anunciaban"],
+        ["la piscine est hors service", "la piscina está fuera de servicio"],
+        ["l'accès à la salle de sport et au spa", "acceso al gimnasio y al spa"],
+        ["le wifi se déconnecte constamment", "el wifi se desconecta constantemente"],
+        ["ne pas être à la hauteur des attentes", "no estar a la altura de las expectativas"],
       ],
       grammar: [
         ["\"Continuer à + infinitivo\" para acciones repetidas", "\"Continuer à\" + verbo expresa que algo ocurre repetidamente y de forma molesta.", "Le wifi continue à se déconnecter toutes les dix minutes."],
@@ -5455,11 +5455,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a negociar una mejor tarifa o una mejora de habitación en francés.",
     study: {
       vocab: [
-        ["y a-t-il de la flexibilité sur le prix ?", "is there any flexibility on the price"],
-        ["un surclassement gratuit", "a complimentary upgrade"],
-        ["égaler le tarif d'un concurrent", "to match a competitor's rate"],
-        ["un membre du programme de fidélité", "a loyalty member"],
-        ["selon la disponibilité", "subject to availability"],
+        ["y a-t-il de la flexibilité sur le prix ?", "¿hay algo de flexibilidad en el precio?"],
+        ["un surclassement gratuit", "una mejora gratuita"],
+        ["égaler le tarif d'un concurrent", "igualar la tarifa de un competidor"],
+        ["un membre du programme de fidélité", "un miembro del programa de fidelidad"],
+        ["selon la disponibilité", "sujeto a disponibilidad"],
       ],
       grammar: [
         ["Preguntas indirectas para negociar con tacto", "\"Y a-t-il...?\" o \"Serait-il possible...?\" son formas indirectas y más corteses de pedir algo delicado como un descuento.", "Y a-t-il de la flexibilité sur le prix pour un séjour plus long ?"],
@@ -5479,11 +5479,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario para gestionar una estancia de negocios: facturación corporativa, salas de reuniones y recibos.",
     study: {
       vocab: [
-        ["le facturer sur le compte de l'entreprise", "to bill it to the company account"],
-        ["une salle de réunion avec projecteur", "a meeting room with a projector"],
-        ["un reçu détaillé", "an itemized receipt"],
-        ["un tarif corporate", "a corporate rate"],
-        ["travailler à distance depuis l'espace affaires", "to work remotely from the business center"],
+        ["le facturer sur le compte de l'entreprise", "cargarlo a la cuenta de la empresa"],
+        ["une salle de réunion avec projecteur", "una sala de reuniones con proyector"],
+        ["un reçu détaillé", "un recibo detallado"],
+        ["un tarif corporate", "una tarifa corporativa"],
+        ["travailler à distance depuis l'espace affaires", "trabajar remotamente desde el centro de negocios"],
       ],
       grammar: [
         ["\"Facturer X sur Y\" para facturación", "\"Facturer X sur Y\" significa cargar un gasto a una cuenta o entidad concreta.", "Veuillez facturer le minibar sur mon compte d'entreprise."],
@@ -5502,11 +5502,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a disputar formalmente un cargo incorrecto en tu factura de hotel en francés.",
     study: {
       vocab: [
-        ["j'ai été facturé/e à tort pour...", "I was charged incorrectly for..."],
-        ["pourriez-vous examiner cette anomalie ?", "could you look into this discrepancy"],
-        ["j'ai des documents pour appuyer ma réclamation", "I have documentation to support my claim"],
-        ["contester un frais", "to dispute a charge"],
-        ["un délai raisonnable pour la résolution", "a reasonable timeframe for resolution"],
+        ["j'ai été facturé/e à tort pour...", "me cobraron incorrectamente por..."],
+        ["pourriez-vous examiner cette anomalie ?", "¿podría investigar esta discrepancia?"],
+        ["j'ai des documents pour appuyer ma réclamation", "tengo documentación que respalda mi reclamo"],
+        ["contester un frais", "impugnar un cargo"],
+        ["un délai raisonnable pour la résolution", "un plazo razonable para la resolución"],
       ],
       grammar: [
         ["\"J'ai + sustantivo + pour appuyer...\" en reclamos formales", "Esta estructura refuerza un argumento presentando evidencia de forma profesional y objetiva.", "J'ai des documents pour appuyer ma réclamation, y compris la facture originale."],
@@ -5526,11 +5526,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos en francés usados en el sector de la hospitalidad y los viajes.",
     study: {
       vocab: [
-        ["dérouler le tapis rouge", "to roll out the red carpet"],
-        ["un chez-soi loin de chez soi", "a home away from home"],
-        ["aller au-delà de ses obligations", "to go the extra mile"],
-        ["valoir chaque centime", "to be worth every penny"],
-        ["sans fioritures", "no frills"],
+        ["dérouler le tapis rouge", "recibir con los brazos abiertos"],
+        ["un chez-soi loin de chez soi", "un hogar lejos de casa"],
+        ["aller au-delà de ses obligations", "hacer un esfuerzo adicional"],
+        ["valoir chaque centime", "valer cada centavo"],
+        ["sans fioritures", "sin lujos"],
       ],
       grammar: [
         ["Modismos de servicio al cliente", "Estos modismos describen un servicio excelente o básico de forma vívida, sin que tengan un significado literal.", "Le personnel est vraiment allé au-delà de ses obligations pour nous. / C'est un hôtel sans fioritures, mais très propre."],
@@ -5553,12 +5553,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales para ir de compras a un mercado en francés.",
     study: {
       vocab: [
-        ["le stand", "the stall"],
-        ["le vendeur/la vendeuse", "the seller"],
-        ["le prix", "the price"],
-        ["le fruit", "fruit"],
-        ["le légume", "vegetables"],
-        ["le sac", "the bag"],
+        ["le stand", "el puesto"],
+        ["le vendeur/la vendeuse", "el vendedor"],
+        ["le prix", "el precio"],
+        ["le fruit", "la fruta"],
+        ["le légume", "las verduras"],
+        ["le sac", "la bolsa"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem", "\"Le vendeur/la vendeuse\" cambia de género según quien vende.", "le vendeur (m) / la vendeuse (f)"],
@@ -5578,10 +5578,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para comprar en un mercado en francés.",
     study: {
       vocab: [
-        ["Combien ça coûte ?", "How much does this cost?"],
-        ["Je veux un demi-kilo", "I want half a kilo"],
-        ["Avez-vous quelque chose de plus frais ?", "Do you have something fresher?"],
-        ["Je le prends", "I'll take it"],
+        ["Combien ça coûte ?", "¿Cuánto cuesta esto?"],
+        ["Je veux un demi-kilo", "Quiero medio kilo"],
+        ["Avez-vous quelque chose de plus frais ?", "¿Tiene algo más fresco?"],
+        ["Je le prends", "Me lo llevo"],
       ],
       grammar: [
         ["\"Combien\" para preguntar precio o cantidad", "\"Combien ça coûte\" pregunta por el precio.", "Combien ça coûte ? / Combien de fruits voulez-vous ?"],
@@ -5600,11 +5600,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo en un puesto de mercado en francés.",
     study: {
       vocab: [
-        ["Bonjour, vous désirez ?", "Good morning, what would you like?"],
-        ["Je veux un kilo de tomates", "I want a kilo of tomatoes"],
-        ["Voilà, ça fait trois euros", "Here you go, that's three euros"],
-        ["Autre chose ?", "Anything else?"],
-        ["Non merci, ce sera tout", "No, thanks, that's all"],
+        ["Bonjour, vous désirez ?", "Buenos días, ¿qué desea?"],
+        ["Je veux un kilo de tomates", "Quiero un kilo de tomates"],
+        ["Voilà, ça fait trois euros", "Aquí tiene, son tres euros"],
+        ["Autre chose ?", "¿Algo más?"],
+        ["Non merci, ce sera tout", "No, gracias, eso es todo"],
       ],
       grammar: [
         ["\"Vous désirez ?\" en atención al cliente", "\"Vous désirez ?\" es una forma formal y educada de preguntar qué quiere comprar el cliente.", "Bonjour, vous désirez ?"],
@@ -5624,10 +5624,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar por productos y sustitutos en un mercado en francés.",
     study: {
       vocab: [
-        ["il ne m'en reste plus", "I'm out of..."],
-        ["avez-vous quelque chose de similaire ?", "do you have something similar?"],
-        ["c'est en rupture de stock", "it's sold out"],
-        ["je peux vous offrir ceci à la place", "I can offer you this instead"],
+        ["il ne m'en reste plus", "se me acabó..."],
+        ["avez-vous quelque chose de similaire ?", "¿tiene algo parecido?"],
+        ["c'est en rupture de stock", "está agotado"],
+        ["je peux vous offrir ceci à la place", "puedo ofrecerle esto en su lugar"],
       ],
       grammar: [
         ["\"À la place\" para ofrecer alternativas", "\"À la place\" se usa para proponer un sustituto de algo que no está disponible.", "Je peux vous offrir ceci à la place."],
@@ -5646,10 +5646,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hacer una devolución o queja en un mercado en francés.",
     study: {
       vocab: [
-        ["je veux rendre ceci", "I want to return this"],
-        ["c'est en mauvais état", "it's in bad condition"],
-        ["pouvez-vous me rembourser ?", "can you give me a refund?"],
-        ["je l'ai acheté hier", "I bought it yesterday"],
+        ["je veux rendre ceci", "quiero devolver esto"],
+        ["c'est en mauvais état", "está en mal estado"],
+        ["pouvez-vous me rembourser ?", "¿puede reembolsarme?"],
+        ["je l'ai acheté hier", "lo compré ayer"],
       ],
       grammar: [
         ["Passé composé para acciones pasadas concretas", "\"J'ai acheté\" (pasado compuesto) indica una acción terminada en un momento específico.", "Je l'ai acheté hier, et c'est déjà en mauvais état."],
@@ -5668,10 +5668,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar y hablar sobre formas de pago en un mercado en francés.",
     study: {
       vocab: [
-        ["acceptez-vous la carte ?", "do you accept card?"],
-        ["uniquement en espèces", "cash only"],
-        ["avez-vous de la monnaie pour un gros billet ?", "do you have change for a large bill?"],
-        ["payer en espèces", "to pay in cash"],
+        ["acceptez-vous la carte ?", "¿aceptan tarjeta?"],
+        ["uniquement en espèces", "solo efectivo"],
+        ["avez-vous de la monnaie pour un gros billet ?", "¿tiene cambio para un billete grande?"],
+        ["payer en espèces", "pagar en efectivo"],
       ],
       grammar: [
         ["\"Uniquement\" para limitar una opción", "\"Uniquement en espèces\" indica que no se aceptan otras formas de pago.", "Ici c'est uniquement en espèces, désolé."],
@@ -5690,10 +5690,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir y dar indicaciones dentro de un mercado en francés.",
     study: {
       vocab: [
-        ["où est le stand de poisson ?", "where is the fish stall?"],
-        ["au fond, à gauche", "at the back, on the left"],
-        ["continuez tout droit", "keep going straight"],
-        ["c'est juste en face", "it's right in front"],
+        ["où est le stand de poisson ?", "¿dónde está el puesto de pescado?"],
+        ["au fond, à gauche", "al fondo, a la izquierda"],
+        ["continuez tout droit", "siga recto"],
+        ["c'est juste en face", "está justo enfrente"],
       ],
       grammar: [
         ["Imperativo formal para indicaciones", "El imperativo con \"vous\" se usa para dar indicaciones de forma educada.", "Continuez tout droit et tournez à gauche."],
@@ -5713,11 +5713,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a regatear de forma educada y con más matices en un mercado en francés.",
     study: {
       vocab: [
-        ["c'est un peu au-dessus de mon budget", "that's a bit over my budget"],
-        ["pourriez-vous faire un meilleur prix ?", "could you do any better on the price"],
-        ["si j'en achète plus, est-ce moins cher ?", "if I buy more, is it cheaper"],
-        ["c'est le mieux que je puisse faire", "that's the best I can do"],
-        ["nous avons un accord", "we have a deal"],
+        ["c'est un peu au-dessus de mon budget", "eso se sale un poco de mi presupuesto"],
+        ["pourriez-vous faire un meilleur prix ?", "¿podría mejorar el precio?"],
+        ["si j'en achète plus, est-ce moins cher ?", "si compro más, ¿es más barato?"],
+        ["c'est le mieux que je puisse faire", "es lo mejor que puedo ofrecer"],
+        ["nous avons un accord", "tenemos un trato"],
       ],
       grammar: [
         ["Preguntas indirectas al regatear", "\"Pourriez-vous faire un meilleur prix ?\" es una forma educada e indirecta de pedir un mejor precio sin sonar exigente.", "Pourriez-vous faire un meilleur prix si j'en prends deux ?"],
@@ -5737,11 +5737,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar por la calidad, el origen y la sostenibilidad de los productos en un mercado en francés.",
     study: {
       vocab: [
-        ["d'où vient ceci ?", "where does this come from"],
-        ["des produits d'origine locale", "locally sourced produce"],
-        ["est-ce bio ?", "is this organic"],
-        ["de saison en ce moment", "in season right now"],
-        ["cultivé de manière durable", "sustainably grown"],
+        ["d'où vient ceci ?", "¿de dónde viene esto?"],
+        ["des produits d'origine locale", "productos de origen local"],
+        ["est-ce bio ?", "¿esto es orgánico?"],
+        ["de saison en ce moment", "de temporada ahora mismo"],
+        ["cultivé de manière durable", "cultivado de forma sostenible"],
       ],
       grammar: [
         ["Presente simple para hechos generales sobre productos", "El presente simple describe características generales y permanentes de un producto, como su origen o forma de cultivo.", "Ce produit vient d'une ferme locale et est cultivé de manière durable."],
@@ -5761,11 +5761,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a negociar compras al por mayor y condiciones de entrega en francés.",
     study: {
       vocab: [
-        ["une remise sur volume", "a bulk discount"],
-        ["la quantité minimale de commande", "the minimum order quantity"],
-        ["passer une commande récurrente", "to place a recurring order"],
-        ["livraison incluse", "delivery included"],
-        ["un prix de gros", "a wholesale price"],
+        ["une remise sur volume", "un descuento por volumen"],
+        ["la quantité minimale de commande", "la cantidad mínima de pedido"],
+        ["passer une commande récurrente", "hacer un pedido recurrente"],
+        ["livraison incluse", "entrega incluida"],
+        ["un prix de gros", "un precio al por mayor"],
       ],
       grammar: [
         ["\"Plus..., plus...\" para condiciones proporcionales", "Esta estructura comparativa doble expresa que a mayor cantidad, mayor beneficio (o menor precio).", "Plus vous commandez, plus la remise est importante."],
@@ -5784,11 +5784,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a reclamar un producto defectuoso o en mal estado comprado en un mercado, en francés.",
     study: {
       vocab: [
-        ["c'est défectueux", "this is defective"],
-        ["ça s'est gâté en un jour", "it went bad within a day"],
-        ["je voudrais un remboursement ou un échange", "I'd like a refund or an exchange"],
-        ["avez-vous une preuve d'achat ?", "do you have proof of purchase"],
-        ["ce n'est plus frais", "this isn't fresh anymore"],
+        ["c'est défectueux", "esto está defectuoso"],
+        ["ça s'est gâté en un jour", "se echó a perder en un día"],
+        ["je voudrais un remboursement ou un échange", "quisiera un reembolso o un cambio"],
+        ["avez-vous une preuve d'achat ?", "¿tiene comprobante de compra?"],
+        ["ce n'est plus frais", "esto ya no está fresco"],
       ],
       grammar: [
         ["\"En + periodo\" para indicar rapidez de un problema", "\"En un jour/une semaine\" indica que algo ocurrió en un plazo corto, reforzando que el problema fue rápido e inesperado.", "Ça s'est gâté en un jour depuis l'achat."],
@@ -5808,11 +5808,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Reflexiona y conversa en francés sobre las diferencias culturales al regatear y negociar en distintos países.",
     study: {
       vocab: [
-        ["marchander est attendu ici", "haggling is expected here"],
-        ["c'est considéré comme impoli de marchander", "it's considered rude to haggle"],
-        ["un marché à prix fixe", "a fixed-price market"],
-        ["normes culturelles autour de la négociation", "cultural norms around negotiation"],
-        ["prendre le pouls de la situation", "to read the room"],
+        ["marchander est attendu ici", "aquí se espera que se regatee"],
+        ["c'est considéré comme impoli de marchander", "se considera de mala educación regatear"],
+        ["un marché à prix fixe", "un mercado de precio fijo"],
+        ["normes culturelles autour de la négociation", "las normas culturales sobre la negociación"],
+        ["prendre le pouls de la situation", "captar el ambiente"],
       ],
       grammar: [
         ["\"C'est considéré comme + adjetivo\" para normas culturales", "Esta estructura impersonal expresa una norma social sin atribuirla a una persona concreta.", "C'est considéré comme impoli de marchander dans certaines cultures, mais attendu dans d'autres."],
@@ -5832,11 +5832,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos en francés relacionados con el dinero y las compras.",
     study: {
       vocab: [
-        ["coûter les yeux de la tête", "to cost an arm and a leg"],
-        ["c'est de l'arnaque", "to be a rip-off"],
-        ["faire une bonne affaire", "to get a good deal"],
-        ["faire baisser le prix à quelqu'un", "to haggle someone down"],
-        ["l'argent ne pousse pas sur les arbres", "money doesn't grow on trees"],
+        ["coûter les yeux de la tête", "costar un ojo de la cara"],
+        ["c'est de l'arnaque", "ser un timo"],
+        ["faire une bonne affaire", "conseguir un buen trato"],
+        ["faire baisser le prix à quelqu'un", "conseguir que alguien baje el precio"],
+        ["l'argent ne pousse pas sur les arbres", "el dinero no cae del cielo"],
       ],
       grammar: [
         ["Modismos sobre precio y valor", "Estos modismos describen si algo es caro, barato o una estafa, de forma vívida y sin traducción literal.", "Ce sac coûte les yeux de la tête ! / Ce prix, c'est de l'arnaque."],
@@ -5859,12 +5859,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales de un hospital en francés.",
     study: {
       vocab: [
-        ["le médecin", "the doctor"],
-        ["l'infirmier/l'infirmière", "the nurse"],
-        ["la douleur", "the pain"],
-        ["le rendez-vous", "the appointment"],
-        ["la salle d'attente", "the waiting room"],
-        ["l'ordonnance", "the prescription"],
+        ["le médecin", "el médico"],
+        ["l'infirmier/l'infirmière", "el enfermero/la enfermera"],
+        ["la douleur", "el dolor"],
+        ["le rendez-vous", "la cita"],
+        ["la salle d'attente", "la sala de espera"],
+        ["l'ordonnance", "la receta"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en profesiones", "\"L'infirmier/l'infirmière\" cambia de género según quien ejerce la profesión.", "l'infirmier (m) / l'infirmière (f)"],
@@ -5884,11 +5884,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para describir síntomas en francés.",
     study: {
       vocab: [
-        ["j'ai mal à la tête", "my head hurts"],
-        ["j'ai de la fièvre", "I have a fever"],
-        ["je me sens étourdi/e", "I feel dizzy"],
-        ["j'ai des nausées", "I feel nauseous"],
-        ["depuis trois jours", "for three days"],
+        ["j'ai mal à la tête", "me duele la cabeza"],
+        ["j'ai de la fièvre", "tengo fiebre"],
+        ["je me sens étourdi/e", "me siento mareado/a"],
+        ["j'ai des nausées", "tengo náuseas"],
+        ["depuis trois jours", "desde hace tres días"],
       ],
       grammar: [
         ["\"Avoir mal à\" para el dolor", "\"Avoir mal à\" + parte del cuerpo (con artículo contraído) expresa dolor.", "J'ai mal à la tête. / J'ai mal aux pieds."],
@@ -5907,11 +5907,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo en la recepción de un hospital en francés.",
     study: {
       vocab: [
-        ["Bonjour, avez-vous rendez-vous ?", "Good morning, do you have an appointment?"],
-        ["Oui, à 10 heures avec le Dr Ruiz", "Yes, at 10 with Dr. Ruiz"],
-        ["Veuillez vous asseoir, s'il vous plaît", "Please take a seat"],
-        ["Le docteur va vous recevoir bientôt", "The doctor will see you soon"],
-        ["Puis-je avoir votre carte d'assurance ?", "Can I have your insurance card?"],
+        ["Bonjour, avez-vous rendez-vous ?", "Buenos días, ¿tiene cita?"],
+        ["Oui, à 10 heures avec le Dr Ruiz", "Sí, a las 10 con el Dr. Ruiz"],
+        ["Veuillez vous asseoir, s'il vous plaît", "Por favor, tome asiento"],
+        ["Le docteur va vous recevoir bientôt", "El médico le atenderá pronto"],
+        ["Puis-je avoir votre carte d'assurance ?", "¿Me da su tarjeta del seguro?"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones médicas", "\"Veuillez\" + infinitivo es una forma muy formal y educada del imperativo.", "Veuillez vous asseoir, s'il vous plaît. Le docteur va vous recevoir bientôt."],
@@ -5931,10 +5931,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar en una farmacia en francés.",
     study: {
       vocab: [
-        ["avez-vous quelque chose contre le mal de tête ?", "do you have something for a headache?"],
-        ["deux fois par jour", "twice a day"],
-        ["avec ou sans ordonnance", "with or without prescription"],
-        ["les effets secondaires", "side effects"],
+        ["avez-vous quelque chose contre le mal de tête ?", "¿tiene algo para el dolor de cabeza?"],
+        ["deux fois par jour", "dos veces al día"],
+        ["avec ou sans ordonnance", "con o sin receta"],
+        ["les effets secondaires", "los efectos secundarios"],
       ],
       grammar: [
         ["\"Fois par jour\" para frecuencia de dosis", "\"X fois par jour\" indica cuántas veces se debe tomar un medicamento.", "Prenez-le deux fois par jour, pendant les repas."],
@@ -5953,10 +5953,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a comunicar una emergencia médica en francés.",
     study: {
       vocab: [
-        ["c'est une urgence", "it's an emergency"],
-        ["j'ai besoin d'une ambulance", "I need an ambulance"],
-        ["il/elle saigne beaucoup", "he/she is bleeding a lot"],
-        ["il/elle a perdu connaissance", "he/she lost consciousness"],
+        ["c'est une urgence", "es una emergencia"],
+        ["j'ai besoin d'une ambulance", "necesito una ambulancia"],
+        ["il/elle saigne beaucoup", "está sangrando mucho"],
+        ["il/elle a perdu connaissance", "perdió el conocimiento"],
       ],
       grammar: [
         ["Passé composé para reportar una emergencia", "El pasado compuesto describe lo que acaba de ocurrir en una emergencia médica.", "Il a perdu connaissance il y a quelques minutes."],
@@ -5976,10 +5976,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario sobre seguro médico y trámites en francés.",
     study: {
       vocab: [
-        ["est-ce couvert par mon assurance ?", "is this covered by my insurance?"],
-        ["la franchise", "the copay"],
-        ["signer le formulaire d'admission", "to sign the admission form"],
-        ["le numéro de police", "the policy number"],
+        ["est-ce couvert par mon assurance ?", "¿esto lo cubre mi seguro?"],
+        ["la franchise", "el copago"],
+        ["signer le formulaire d'admission", "firmar el formulario de ingreso"],
+        ["le numéro de police", "el número de póliza"],
       ],
       grammar: [
         ["Voz pasiva con \"être couvert\"", "\"Être couvert par\" describe si algo está incluido en el seguro, usando la pasiva.", "Ce traitement est-il couvert par mon assurance ?"],
@@ -5998,10 +5998,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar sobre citas de seguimiento y control en francés.",
     study: {
       vocab: [
-        ["un rendez-vous de suivi", "a follow-up appointment"],
-        ["quand dois-je revenir ?", "when should I come back?"],
-        ["continuer à prendre le traitement", "to keep taking the medication"],
-        ["s'améliorer peu à peu", "to improve little by little"],
+        ["un rendez-vous de suivi", "una cita de seguimiento"],
+        ["quand dois-je revenir ?", "¿cuándo debo volver?"],
+        ["continuer à prendre le traitement", "seguir tomando la medicación"],
+        ["s'améliorer peu à peu", "mejorar poco a poco"],
       ],
       grammar: [
         ["\"Continuer à + infinitivo\" para continuidad", "\"Continuer à\" + verbo expresa que una acción continúa en el tiempo.", "Vous devez continuer à prendre le traitement pendant une semaine encore."],
@@ -6021,11 +6021,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a entender y pedir una derivación a un especialista médico en francés.",
     study: {
       vocab: [
-        ["une orientation vers un spécialiste", "a referral to a specialist"],
-        ["voir un cardiologue", "to see a cardiologist"],
-        ["liste d'attente pour un rendez-vous", "waiting list for an appointment"],
-        ["une deuxième consultation", "a second consultation"],
-        ["apporter vos résultats d'analyses", "to bring your test results"],
+        ["une orientation vers un spécialiste", "una derivación a un especialista"],
+        ["voir un cardiologue", "consultar a un cardiólogo"],
+        ["liste d'attente pour un rendez-vous", "la lista de espera para una cita"],
+        ["une deuxième consultation", "una segunda consulta"],
+        ["apporter vos résultats d'analyses", "traer los resultados de sus pruebas"],
       ],
       grammar: [
         ["\"Avoir besoin d'une orientation\" para trámites médicos", "Esta estructura describe la necesidad médica de ver a un especialista concreto tras una consulta general.", "J'ai besoin d'une orientation pour voir un cardiologue."],
@@ -6045,11 +6045,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a entender y preguntar sobre resultados de análisis o pruebas médicas en francés.",
     study: {
       vocab: [
-        ["les résultats sont revenus normaux", "the results came back normal"],
-        ["un test de suivi est nécessaire", "a follow-up test is needed"],
-        ["que signifient ces chiffres ?", "what do these numbers mean"],
-        ["des taux légèrement élevés", "slightly elevated levels"],
-        ["rien d'inquiétant", "nothing to worry about"],
+        ["les résultats sont revenus normaux", "los resultados salieron normales"],
+        ["un test de suivi est nécessaire", "se necesita una prueba de seguimiento"],
+        ["que signifient ces chiffres ?", "¿qué significan estos números?"],
+        ["des taux légèrement élevés", "niveles ligeramente elevados"],
+        ["rien d'inquiétant", "nada de qué preocuparse"],
       ],
       grammar: [
         ["Passé composé para informar resultados", "El pasado compuesto (\"sont revenus\") se usa para comunicar el resultado de una prueba ya completada.", "Vos résultats sont revenus normaux, donc rien d'inquiétant."],
@@ -6069,11 +6069,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario sobre consentimiento informado antes de un procedimiento médico en francés.",
     study: {
       vocab: [
-        ["signer un formulaire de consentement", "to sign a consent form"],
-        ["les risques et bénéfices de la procédure", "the risks and benefits of the procedure"],
-        ["ai-je d'autres options ?", "do I have any other options"],
-        ["comprendre ce à quoi vous consentez", "to understand what you're agreeing to"],
-        ["vous pouvez poser des questions avant de signer", "you can ask questions before signing"],
+        ["signer un formulaire de consentement", "firmar un formulario de consentimiento"],
+        ["les risques et bénéfices de la procédure", "los riesgos y beneficios del procedimiento"],
+        ["ai-je d'autres options ?", "¿tengo otras opciones?"],
+        ["comprendre ce à quoi vous consentez", "entender a qué está accediendo"],
+        ["vous pouvez poser des questions avant de signer", "puede hacer preguntas antes de firmar"],
       ],
       grammar: [
         ["\"Avant de + infinitivo\" para secuenciar acciones", "\"Avant de signer\" indica qué debe ocurrir antes de una acción concreta, muy común en procesos formales.", "Lisez attentivement le formulaire avant de le signer."],
@@ -6092,11 +6092,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar sobre salud mental y pedir apoyo psicológico en francés, con vocabulario sensible y respetuoso.",
     study: {
       vocab: [
-        ["je me sens dépassé/e ces derniers temps", "I've been feeling overwhelmed lately"],
-        ["parler à un thérapeute", "to speak with a therapist"],
-        ["c'est normal de demander de l'aide", "it's okay to ask for help"],
-        ["difficulté à dormir et à se concentrer", "difficulty sleeping and concentrating"],
-        ["une conversation confidentielle", "a confidential conversation"],
+        ["je me sens dépassé/e ces derniers temps", "últimamente me he sentido abrumado/a"],
+        ["parler à un thérapeute", "hablar con un terapeuta"],
+        ["c'est normal de demander de l'aide", "está bien pedir ayuda"],
+        ["difficulté à dormir et à se concentrer", "dificultad para dormir y concentrarse"],
+        ["une conversation confidentielle", "una conversación confidencial"],
       ],
       grammar: [
         ["Presente continuo con \"ces derniers temps\"", "\"Je me sens... ces derniers temps\" describe un estado emocional que comenzó en el pasado y continúa ahora.", "Je me sens dépassé ces dernières semaines."],
@@ -6116,11 +6116,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir una segunda opinión médica de forma educada y profesional en francés.",
     study: {
       vocab: [
-        ["j'aimerais obtenir un second avis", "I'd like to seek a second opinion"],
-        ["cela ne reflète pas ma confiance envers vous", "this isn't a reflection of my trust in you"],
-        ["prendre une décision pleinement informée", "to make a fully informed decision"],
-        ["pourriez-vous transférer mon dossier ?", "could you transfer my records"],
-        ["un spécialiste avec plus d'expérience dans ce domaine", "a specialist with more experience in this area"],
+        ["j'aimerais obtenir un second avis", "me gustaría buscar una segunda opinión"],
+        ["cela ne reflète pas ma confiance envers vous", "esto no refleja mi confianza en usted"],
+        ["prendre une décision pleinement informée", "tomar una decisión totalmente informada"],
+        ["pourriez-vous transférer mon dossier ?", "¿podría transferir mi historial?"],
+        ["un spécialiste avec plus d'expérience dans ce domaine", "un especialista con más experiencia en esta área"],
       ],
       grammar: [
         ["Matizar una petición delicada", "Frases como \"cela ne reflète pas...\" suavizan una petición que podría malinterpretarse, mostrando respeto mientras se defiende una decisión.", "J'aimerais obtenir un second avis — cela ne reflète pas ma confiance envers vous, mais je veux être bien informé."],
@@ -6140,11 +6140,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos en francés relacionados con la salud y el bienestar.",
     study: {
       vocab: [
-        ["ne pas être dans son assiette", "to be under the weather"],
-        ["être de nouveau sur pied", "to be back on your feet"],
-        ["combattre un rhume", "to fight off a cold"],
-        ["un bilan de santé impeccable", "a clean bill of health"],
-        ["y aller doucement", "to take it easy"],
+        ["ne pas être dans son assiette", "estar pachucho/algo indispuesto"],
+        ["être de nouveau sur pied", "estar recuperado"],
+        ["combattre un rhume", "combatir un resfriado"],
+        ["un bilan de santé impeccable", "un buen estado de salud"],
+        ["y aller doucement", "tomárselo con calma"],
       ],
       grammar: [
         ["Modismos con partes del cuerpo y salud", "Estos modismos usan imágenes cotidianas para describir el estado de salud de forma natural y coloquial.", "Je n'étais pas dans mon assiette toute la semaine, mais je suis enfin de nouveau sur pied."],
@@ -6167,12 +6167,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales del entorno de oficina en francés.",
     study: {
       vocab: [
-        ["la réunion", "the meeting"],
-        ["le délai", "the deadline"],
-        ["le/la collègue", "the coworker"],
-        ["le patron/la patronne", "the boss"],
-        ["le rapport", "the report"],
-        ["le courriel", "the email"],
+        ["la réunion", "la reunión"],
+        ["le délai", "el plazo"],
+        ["le/la collègue", "el compañero de trabajo"],
+        ["le patron/la patronne", "el jefe"],
+        ["le rapport", "el informe"],
+        ["le courriel", "el correo electrónico"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en el trabajo", "\"Le patron/la patronne\" cambia de género según quien ocupa el puesto.", "le patron (m) / la patronne (f)"],
@@ -6192,10 +6192,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para el entorno laboral en francés.",
     study: {
       vocab: [
-        ["Pouvons-nous planifier une réunion ?", "Can we schedule a meeting?"],
-        ["Je vais avoir besoin de plus de temps", "I'm going to need more time"],
-        ["J'ai joint le fichier", "I've attached the file"],
-        ["Merci pour votre patience", "Thank you for your patience"],
+        ["Pouvons-nous planifier une réunion ?", "¿Podemos programar una reunión?"],
+        ["Je vais avoir besoin de plus de temps", "Voy a necesitar más tiempo"],
+        ["J'ai joint le fichier", "He adjuntado el archivo"],
+        ["Merci pour votre patience", "Gracias por su paciencia"],
       ],
       grammar: [
         ["\"Aller + infinitivo\" para planes inmediatos", "\"Je vais avoir besoin\" expresa un plan o necesidad cercana en el tiempo.", "Je vais avoir besoin de plus de temps pour finir le rapport."],
@@ -6214,10 +6214,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo pidiendo ayuda a un compañero de trabajo en francés.",
     study: {
       vocab: [
-        ["Tu as une minute ?", "Do you have a minute?"],
-        ["Bien sûr, comment puis-je t'aider ?", "Sure, how can I help?"],
-        ["Je ne sais pas utiliser ce logiciel", "I don't know how to use this program"],
-        ["Je t'explique tout de suite", "I'll explain it to you right now"],
+        ["Tu as une minute ?", "¿Tienes un minuto?"],
+        ["Bien sûr, comment puis-je t'aider ?", "Claro, ¿en qué puedo ayudarte?"],
+        ["Je ne sais pas utiliser ce logiciel", "No sé usar este programa"],
+        ["Je t'explique tout de suite", "Te lo explico ahora mismo"],
       ],
       grammar: [
         ["\"Tu as une minute ?\" para pedir atención", "Es una forma informal y educada de interrumpir a un compañero para pedir ayuda.", "Tu as une minute ? J'ai besoin de ton aide."],
@@ -6237,10 +6237,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario para participar en reuniones y presentaciones en francés.",
     study: {
       vocab: [
-        ["commençons par l'ordre du jour", "let's start with the agenda"],
-        ["des questions ?", "any questions?"],
-        ["comme vous pouvez le voir sur cette diapositive", "as you can see on this slide"],
-        ["passons au point suivant", "let's move to the next point"],
+        ["commençons par l'ordre du jour", "empecemos con la agenda"],
+        ["des questions ?", "¿alguna pregunta?"],
+        ["comme vous pouvez le voir sur cette diapositive", "como pueden ver en esta diapositiva"],
+        ["passons au point suivant", "pasemos al siguiente punto"],
       ],
       grammar: [
         ["Imperativo de primera persona plural (\"nous\")", "\"Commençons\", \"passons\" son formas de \"nous\" para proponer una acción conjunta.", "Commençons par l'ordre du jour d'aujourd'hui."],
@@ -6259,10 +6259,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a escribir correos breves y profesionales en francés.",
     study: {
       vocab: [
-        ["Cher/Chère...", "Dear..."],
-        ["Dans l'attente de votre réponse", "I look forward to your reply"],
-        ["Cordialement", "Best regards"],
-        ["Je vous écris pour...", "I'm writing to..."],
+        ["Cher/Chère...", "Estimado/a..."],
+        ["Dans l'attente de votre réponse", "Quedo a la espera de su respuesta"],
+        ["Cordialement", "Saludos cordiales"],
+        ["Je vous écris pour...", "Le escribo para..."],
       ],
       grammar: [
         ["Fórmulas fijas para correos formales", "\"Cher/Chère\", \"Je vous écris pour...\" y \"Cordialement\" son fórmulas fijas típicas de correos profesionales.", "Cher M. López, Je vous écris pour confirmer la réunion. Cordialement."],
@@ -6281,10 +6281,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a manejar un desacuerdo profesional de forma educada en francés.",
     study: {
       vocab: [
-        ["je comprends votre point de vue, mais...", "I understand your point, but..."],
-        ["je ne suis pas entièrement d'accord", "I don't entirely agree"],
-        ["pouvons-nous trouver un compromis ?", "can we find a middle ground?"],
-        ["je préfère être direct/e à ce sujet", "I'd rather be direct about it"],
+        ["je comprends votre point de vue, mais...", "Entiendo su punto, pero..."],
+        ["je ne suis pas entièrement d'accord", "No estoy del todo de acuerdo"],
+        ["pouvons-nous trouver un compromis ?", "¿podemos encontrar un término medio?"],
+        ["je préfère être direct/e à ce sujet", "prefiero ser directo al respecto"],
       ],
       grammar: [
         ["\"Mais\" para suavizar un desacuerdo", "\"Je comprends votre point de vue, mais...\" reconoce la otra opinión antes de presentar la tuya.", "Je comprends votre point de vue, mais je pense qu'il y a une autre option."],
@@ -6303,10 +6303,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a pedir días libres o vacaciones en el trabajo en francés.",
     study: {
       vocab: [
-        ["j'aimerais demander quelques jours de congé", "I'd like to request some days off"],
-        ["j'ai des jours de vacances accumulés", "I have accumulated vacation days"],
-        ["serait-il possible de les prendre la semaine prochaine ?", "would it be possible to take them next week?"],
-        ["je dois coordonner cela avec mon équipe", "I need to coordinate it with my team"],
+        ["j'aimerais demander quelques jours de congé", "me gustaría solicitar unos días libres"],
+        ["j'ai des jours de vacances accumulés", "tengo días de vacaciones acumulados"],
+        ["serait-il possible de les prendre la semaine prochaine ?", "¿sería posible tomarlos la próxima semana?"],
+        ["je dois coordonner cela avec mon équipe", "necesito coordinarlo con mi equipo"],
       ],
       grammar: [
         ["\"Serait-il possible\" para peticiones muy educadas", "El condicional \"serait-il possible\" suaviza una petición delicada como pedir tiempo libre.", "Serait-il possible de prendre ces jours la semaine prochaine ?"],
@@ -6326,11 +6326,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a negociar tu salario o condiciones laborales de forma profesional en francés.",
     study: {
       vocab: [
-        ["en me basant sur mon expérience et mes résultats", "based on my experience and results"],
-        ["j'espérais que nous pourrions parler de mon salaire", "I was hoping we could discuss my salary"],
-        ["la norme du secteur pour ce poste", "industry standard for this role"],
-        ["une prime basée sur la performance", "a performance-based bonus"],
-        ["je suis ouvert/e à un compromis", "I'm open to a compromise"],
+        ["en me basant sur mon expérience et mes résultats", "basándome en mi experiencia y resultados"],
+        ["j'espérais que nous pourrions parler de mon salaire", "esperaba que pudiéramos hablar de mi salario"],
+        ["la norme du secteur pour ce poste", "el estándar del sector para este puesto"],
+        ["une prime basée sur la performance", "una bonificación por desempeño"],
+        ["je suis ouvert/e à un compromis", "estoy abierto/a a un acuerdo"],
       ],
       grammar: [
         ["\"J'espérais que nous pourrions...\" para abrir una negociación", "Esta estructura suaviza una petición delicada, mostrando iniciativa sin sonar exigente.", "J'espérais que nous pourrions parler de mon salaire en me basant sur mes résultats récents."],
@@ -6350,11 +6350,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a dar y recibir feedback constructivo de forma profesional en francés.",
     study: {
       vocab: [
-        ["des retours constructifs", "constructive feedback"],
-        ["ce qui a bien marché et ce qui pourrait s'améliorer", "what went well and what could improve"],
-        ["j'apprécie vraiment ce retour", "I really appreciate the feedback"],
-        ["un point à améliorer", "one area for improvement"],
-        ["en tenir compte", "to take this on board"],
+        ["des retours constructifs", "la retroalimentación constructiva"],
+        ["ce qui a bien marché et ce qui pourrait s'améliorer", "qué salió bien y qué se podría mejorar"],
+        ["j'apprécie vraiment ce retour", "agradezco mucho la retroalimentación"],
+        ["un point à améliorer", "un área de mejora"],
+        ["en tenir compte", "tener esto en cuenta"],
       ],
       grammar: [
         ["Estructura \"sándwich\" para dar feedback", "Se empieza con algo positivo, se menciona el área de mejora, y se cierra con ánimo — suaviza la crítica sin perder claridad.", "Tu as fait du bon travail sur la présentation, mais un point à améliorer est le timing. Dans l'ensemble, bien joué !"],
@@ -6373,11 +6373,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario para gestionar proyectos, plazos y prioridades en francés.",
     study: {
       vocab: [
-        ["prendre du retard sur le calendrier", "to fall behind schedule"],
-        ["prioriser les tâches clés", "to prioritize the key tasks"],
-        ["un délai réaliste", "a realistic deadline"],
-        ["allouer des ressources", "to allocate resources"],
-        ["une mise à jour de statut", "a status update"],
+        ["prendre du retard sur le calendrier", "retrasarse respecto al calendario"],
+        ["prioriser les tâches clés", "priorizar las tareas clave"],
+        ["un délai réaliste", "un plazo realista"],
+        ["allouer des ressources", "asignar recursos"],
+        ["une mise à jour de statut", "una actualización de estado"],
       ],
       grammar: [
         ["\"Prendre du retard sur\" para retrasos", "Esta expresión describe estar retrasado respecto a un plan, sin culpar directamente a nadie.", "Nous avons pris du retard sur le calendrier à cause d'imprévus."],
@@ -6397,11 +6397,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a comunicarte de forma efectiva con colegas de distintas culturas en un entorno laboral en francés.",
     study: {
       vocab: [
-        ["la franchise peut être perçue différemment", "directness can be perceived differently"],
-        ["éviter les malentendus", "to avoid misunderstandings"],
-        ["un style de communication différent", "a different communication style"],
-        ["clarifier plutôt que supposer", "to clarify rather than assume"],
-        ["être attentif/ve aux différences culturelles", "being mindful of cultural differences"],
+        ["la franchise peut être perçue différemment", "la franqueza puede percibirse de forma distinta"],
+        ["éviter les malentendus", "evitar malentendidos"],
+        ["un style de communication différent", "un estilo de comunicación diferente"],
+        ["clarifier plutôt que supposer", "aclarar en lugar de suponer"],
+        ["être attentif/ve aux différences culturelles", "ser consciente de las diferencias culturales"],
       ],
       grammar: [
         ["\"Plutôt que\" para contrastar dos acciones", "\"Clarifier plutôt que supposer\" contrasta dos comportamientos, prefiriendo el primero sobre el segundo.", "Il vaut mieux demander plutôt que supposer que vous comprenez."],
@@ -6420,11 +6420,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a persuadir y argumentar de forma convincente en una reunión de trabajo en francés.",
     study: {
       vocab: [
-        ["si l'on regarde les données de près", "if we look at the data closely"],
-        ["cette approche nous permettrait de...", "this approach would allow us to..."],
-        ["j'aimerais développer ce point", "I'd like to build on that point"],
-        ["les chiffres parlent d'eux-mêmes", "the numbers speak for themselves"],
-        ["pesons le pour et le contre", "let's weigh the pros and cons"],
+        ["si l'on regarde les données de près", "si observamos los datos de cerca"],
+        ["cette approche nous permettrait de...", "este enfoque nos permitiría..."],
+        ["j'aimerais développer ce point", "me gustaría ampliar ese punto"],
+        ["les chiffres parlent d'eux-mêmes", "los números hablan por sí solos"],
+        ["pesons le pour et le contre", "sopesemos los pros y los contras"],
       ],
       grammar: [
         ["Condicional para proponer ideas con tacto", "\"Cette approche nous permettrait de...\" usa el condicional para proponer una idea sin imponerla, dejando espacio a la discusión.", "Cette approche nous permettrait de réduire les coûts sans affecter la qualité."],
@@ -6444,11 +6444,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos en francés muy comunes en el entorno laboral y corporativo.",
     study: {
       vocab: [
-        ["penser en dehors des sentiers battus", "to think outside the box"],
-        ["faire le point rapidement", "to touch base"],
-        ["être sur la même longueur d'onde", "to be on the same page"],
-        ["démarrer sur les chapeaux de roue", "to hit the ground running"],
-        ["les tâches faciles à résoudre en premier", "low-hanging fruit"],
+        ["penser en dehors des sentiers battus", "pensar de forma innovadora"],
+        ["faire le point rapidement", "ponerse en contacto brevemente"],
+        ["être sur la même longueur d'onde", "estar en sintonía"],
+        ["démarrer sur les chapeaux de roue", "empezar con buen pie"],
+        ["les tâches faciles à résoudre en premier", "lo más fácil de conseguir"],
       ],
       grammar: [
         ["Modismos corporativos comunes", "Estos modismos son extremadamente frecuentes en reuniones de trabajo y no tienen traducción literal directa.", "Faisons le point la semaine prochaine pour nous assurer d'être sur la même longueur d'onde."],
@@ -6471,12 +6471,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales para una fiesta en francés.",
     study: {
       vocab: [
-        ["l'invité/e", "the guest"],
-        ["l'hôte/l'hôtesse", "the host"],
-        ["la musique", "the music"],
-        ["le cadeau", "the gift"],
-        ["le gâteau", "the cake"],
-        ["les ballons", "balloons"],
+        ["l'invité/e", "el invitado"],
+        ["l'hôte/l'hôtesse", "el anfitrión"],
+        ["la musique", "la música"],
+        ["le cadeau", "el regalo"],
+        ["le gâteau", "la tarta"],
+        ["les ballons", "los globos"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en la fiesta", "\"L'hôte/l'hôtesse\" cambia de género según quien organiza.", "l'hôte (m) / l'hôtesse (f)"],
@@ -6496,10 +6496,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para socializar en una fiesta en francés.",
     study: {
       vocab: [
-        ["Ça me fait plaisir de te voir !", "So nice to see you!"],
-        ["Comment connais-tu l'hôte ?", "How do you know the host?"],
-        ["Joyeux anniversaire !", "Happy birthday!"],
-        ["Merci de m'avoir invité/e", "Thanks for inviting me"],
+        ["Ça me fait plaisir de te voir !", "¡Qué alegría verte!"],
+        ["Comment connais-tu l'hôte ?", "¿Cómo conoces al anfitrión?"],
+        ["Joyeux anniversaire !", "¡Feliz cumpleaños!"],
+        ["Merci de m'avoir invité/e", "Gracias por invitarme"],
       ],
       grammar: [
         ["Exclamaciones con \"quel/quelle\"", "\"Quel/quelle + sustantivo!\" o construcciones con \"ça me fait\" expresan entusiasmo de forma natural.", "Ça me fait plaisir de te voir ! / Quelle bonne surprise !"],
@@ -6518,10 +6518,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo conociendo gente nueva en una fiesta en francés.",
     study: {
       vocab: [
-        ["Salut, on ne se connaît pas, je m'appelle Ana", "Hi, we haven't met, I'm Ana"],
-        ["Enchanté/e, moi c'est Marco", "Nice to meet you, I'm Marco"],
-        ["Qu'est-ce que tu fais dans la vie ?", "What do you do?"],
-        ["Je suis designer graphique", "I'm a graphic designer"],
+        ["Salut, on ne se connaît pas, je m'appelle Ana", "Hola, no nos conocemos, soy Ana"],
+        ["Enchanté/e, moi c'est Marco", "Encantado, soy Marco"],
+        ["Qu'est-ce que tu fais dans la vie ?", "¿A qué te dedicas?"],
+        ["Je suis designer graphique", "Soy diseñador/a gráfico/a"],
       ],
       grammar: [
         ["\"On ne se connaît pas\" para presentarse", "Esta frase se usa para iniciar una presentación con alguien nuevo de forma natural.", "Salut, on ne se connaît pas, je m'appelle Ana."],
@@ -6541,10 +6541,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a invitar a alguien y responder a una invitación en francés.",
     study: {
       vocab: [
-        ["aimerais-tu venir à ma fête ?", "would you like to come to my party?"],
-        ["j'adorerais y aller", "I'd love to go"],
-        ["désolé/e, j'ai déjà des projets", "sorry, I already have plans"],
-        ["puis-je amener quelqu'un ?", "can I bring someone?"],
+        ["aimerais-tu venir à ma fête ?", "¿te gustaría venir a mi fiesta?"],
+        ["j'adorerais y aller", "me encantaría ir"],
+        ["désolé/e, j'ai déjà des projets", "lo siento, ya tengo planes"],
+        ["puis-je amener quelqu'un ?", "¿puedo traer a alguien?"],
       ],
       grammar: [
         ["\"J'adorerais\" para aceptar con entusiasmo", "\"J'adorerais\" es una forma entusiasta y educada de aceptar una invitación.", "J'adorerais y aller, merci de m'avoir invité."],
@@ -6563,10 +6563,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar sobre la comida y bebida en una fiesta en francés.",
     study: {
       vocab: [
-        ["qu'est-ce qu'il y a à manger ?", "what's there to eat?"],
-        ["goûte ça, c'est délicieux", "try this, it's delicious"],
-        ["tu peux me resservir un peu ?", "can you pour me a bit more?"],
-        ["c'est vraiment très bon", "it's really good"],
+        ["qu'est-ce qu'il y a à manger ?", "¿qué hay de comer?"],
+        ["goûte ça, c'est délicieux", "prueba esto, está delicioso"],
+        ["tu peux me resservir un peu ?", "¿me sirves un poco más?"],
+        ["c'est vraiment très bon", "está muy bueno"],
       ],
       grammar: [
         ["\"Vraiment\" para intensificar un adjetivo", "\"Vraiment\" antes de un adjetivo lo intensifica, muy usado en conversación informal.", "C'est vraiment très bon. / C'est vraiment délicieux."],
@@ -6585,10 +6585,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a manejar situaciones incómodas o preguntas indiscretas en una fiesta, en francés.",
     study: {
       vocab: [
-        ["je préfère ne pas en parler", "I'd rather not talk about that"],
-        ["quelle question gênante", "what an awkward question"],
-        ["changeons de sujet", "let's change the subject"],
-        ["ce n'est pas mes affaires, mais...", "it's none of my business, but..."],
+        ["je préfère ne pas en parler", "prefiero no hablar de eso"],
+        ["quelle question gênante", "qué pregunta más incómoda"],
+        ["changeons de sujet", "cambiemos de tema"],
+        ["ce n'est pas mes affaires, mais...", "no es asunto mío, pero..."],
       ],
       grammar: [
         ["\"Préférer + infinitivo\" para declinar con tacto", "\"Je préfère ne pas...\" suaviza una negativa sin sonar brusco.", "Je préfère ne pas en parler maintenant."],
@@ -6608,10 +6608,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a despedirte y hacer planes futuros al final de una fiesta en francés.",
     study: {
       vocab: [
-        ["je dois y aller maintenant", "I have to go now"],
-        ["ça a été un plaisir de te rencontrer", "it was a pleasure meeting you"],
-        ["retrouvons-nous un autre jour", "let's meet up another day"],
-        ["à bientôt", "see you soon"],
+        ["je dois y aller maintenant", "tengo que irme ya"],
+        ["ça a été un plaisir de te rencontrer", "fue un placer conocerte"],
+        ["retrouvons-nous un autre jour", "quedemos otro día"],
+        ["à bientôt", "hasta pronto"],
       ],
       grammar: [
         ["Imperativo de \"nous\" para proponer planes", "\"Retrouvons-nous\" es el imperativo de \"nous\", usado para proponer un plan conjunto.", "Retrouvons-nous un autre jour pour prendre un café."],
@@ -6630,11 +6630,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a dar tu opinión y debatir ligeramente sobre temas cotidianos en una fiesta, en francés.",
     study: {
       vocab: [
-        ["à mon avis", "in my opinion"],
-        ["je le vois différemment", "I see it differently"],
-        ["c'est un bon argument", "that's a fair point"],
-        ["je ne suis pas si sûr/e de ça", "I'm not so sure about that"],
-        ["on va devoir accepter d'être en désaccord", "we'll have to agree to disagree"],
+        ["à mon avis", "en mi opinión"],
+        ["je le vois différemment", "yo lo veo de otra manera"],
+        ["c'est un bon argument", "es un buen argumento"],
+        ["je ne suis pas si sûr/e de ça", "no estoy tan seguro/a de eso"],
+        ["on va devoir accepter d'être en désaccord", "tendremos que aceptar que no estamos de acuerdo"],
       ],
       grammar: [
         ["\"C'est un bon argument, mais...\" para debatir con cortesía", "Esta estructura reconoce el argumento del otro antes de presentar el tuyo, manteniendo el tono amistoso propio de una fiesta.", "C'est un bon argument, mais je pense toujours que le film était surestimé."],
@@ -6654,11 +6654,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a contar una anécdota de forma entretenida y con buen ritmo en francés.",
     study: {
       vocab: [
-        ["tu ne vas pas croire ce qui s'est passé", "you won't believe what happened"],
-        ["alors j'étais là...", "so there I was..."],
-        ["bref", "long story short"],
-        ["ça devient encore mieux", "it gets better"],
-        ["et voilà comment tout s'est passé", "and that's how it all happened"],
+        ["tu ne vas pas croire ce qui s'est passé", "no vas a creer lo que pasó"],
+        ["alors j'étais là...", "entonces ahí estaba yo..."],
+        ["bref", "para resumir"],
+        ["ça devient encore mieux", "y hay más"],
+        ["et voilà comment tout s'est passé", "y así fue como pasó todo"],
       ],
       grammar: [
         ["Pasado narrativo con marcadores de historia", "Frases como \"alors j'étais là...\" y \"bref\" estructuran una anécdota de forma natural y mantienen el interés del oyente.", "Alors j'étais là, complètement perdu à l'aéroport, et bref, j'ai raté mon vol."],
@@ -6678,11 +6678,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a reconocer y usar humor ligero y sarcasmo suave en conversaciones sociales en francés.",
     study: {
       vocab: [
-        ["je plaisante", "I'm just kidding"],
-        ["c'est hilarant", "that's hilarious"],
-        ["mais bien sûr (sarcástico)", "yeah, right"],
-        ["sans vouloir te vexer, mais...", "no offense, but..."],
-        ["tu as vraiment le sens de l'humour", "you have a great sense of humor"],
+        ["je plaisante", "es broma"],
+        ["c'est hilarant", "qué gracioso"],
+        ["mais bien sûr (sarcástico)", "sí, claro (irónico)"],
+        ["sans vouloir te vexer, mais...", "sin ofender, pero..."],
+        ["tu as vraiment le sens de l'humour", "tienes muy buen sentido del humor"],
       ],
       grammar: [
         ["Tono e intención en el humor coloquial", "Frases como \"mais bien sûr\" cambian completamente de significado según el tono — se usan para expresar incredulidad o sarcasmo suave, no acuerdo literal.", "\"Je finis ce projet en un jour.\" \"Mais bien sûr\" (dicho con ironía)"],
@@ -6701,11 +6701,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hacer networking profesional de forma natural en un evento social en francés.",
     study: {
       vocab: [
-        ["qu'est-ce que tu fais dans la vie ?", "what do you do for a living?"],
-        ["restons en contact", "let's stay in touch"],
-        ["puis-je avoir tes coordonnées ?", "could I get your contact information"],
-        ["j'aimerais te consulter à ce sujet un de ces jours", "I'd love to pick your brain sometime"],
-        ["le monde est petit !", "small world!"],
+        ["qu'est-ce que tu fais dans la vie ?", "¿a qué te dedicas?"],
+        ["restons en contact", "mantengamos el contacto"],
+        ["puis-je avoir tes coordonnées ?", "¿me das tu contacto?"],
+        ["j'aimerais te consulter à ce sujet un de ces jours", "me encantaría consultarte algo en algún momento"],
+        ["le monde est petit !", "¡qué casualidad!"],
       ],
       grammar: [
         ["Preguntas abiertas para iniciar networking", "Preguntas como \"Qu'est-ce que tu fais dans la vie?\" abren la conversación de forma natural sin sonar demasiado formal, típico en eventos sociales.", "Alors, qu'est-ce que tu fais dans la vie ? Je suis curieux de savoir comment tu en es arrivé là."],
@@ -6725,11 +6725,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a proponer y convencer a un grupo de amigos de hacer un plan en francés, con un tono persuasivo pero informal.",
     study: {
       vocab: [
-        ["écoutez-moi un instant", "hear me out"],
-        ["et si on essayait...", "what if we tried..."],
-        ["je suis sûr/e que ça vous plairait à tous", "I bet you'd all love it"],
-        ["allez, ça va être amusant", "come on, it'll be fun"],
-        ["qui est partant ?", "who's in"],
+        ["écoutez-moi un instant", "escúchame"],
+        ["et si on essayait...", "¿y si probamos...?"],
+        ["je suis sûr/e que ça vous plairait à tous", "seguro que a todos os encantaría"],
+        ["allez, ça va être amusant", "venga, será divertido"],
+        ["qui est partant ?", "¿quién se apunta?"],
       ],
       grammar: [
         ["\"Et si on...?\" para proponer ideas con entusiasmo", "Esta estructura hipotética invita al grupo a imaginar una idea sin sonar impositivo, ideal para proponer planes.", "Et si on essayait ce nouveau bar sur le toit ce week-end ? Je suis sûr que ça vous plairait à tous."],
@@ -6749,11 +6749,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos coloquiales muy comunes en conversaciones sociales e informales en francés.",
     study: {
       vocab: [
-        ["briser la glace", "to break the ice"],
-        ["être l'âme de la fête", "to be the life of the party"],
-        ["accrocher tout de suite avec quelqu'un", "to hit it off with someone"],
-        ["s'incruster à une fête", "to crash a party"],
-        ["la fête ne fait que commencer", "the party's just getting started"],
+        ["briser la glace", "romper el hielo"],
+        ["être l'âme de la fête", "ser el alma de la fiesta"],
+        ["accrocher tout de suite avec quelqu'un", "conectar bien con alguien"],
+        ["s'incruster à une fête", "colarse en una fiesta"],
+        ["la fête ne fait que commencer", "la fiesta acaba de empezar"],
       ],
       grammar: [
         ["Modismos sociales muy frecuentes", "Estos modismos aparecen constantemente en conversaciones informales y describen dinámicas sociales de forma vívida.", "On a tout de suite accroché, et à minuit elle était clairement l'âme de la fête."],
@@ -6776,12 +6776,12 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende palabras esenciales de la vida universitaria en francés.",
     study: {
       vocab: [
-        ["l'inscription", "enrollment/tuition"],
-        ["le semestre", "the semester"],
-        ["la bourse", "the scholarship"],
-        ["la salle de classe", "the classroom"],
-        ["l'examen final", "the final exam"],
-        ["le diplôme", "the degree"],
+        ["l'inscription", "la matrícula"],
+        ["le semestre", "el semestre"],
+        ["la bourse", "la beca"],
+        ["la salle de classe", "el aula"],
+        ["l'examen final", "el examen final"],
+        ["le diplôme", "el título/la carrera"],
       ],
       grammar: [
         ["Sustantivos con apóstrofe ante vocal", "\"L'inscription\" y \"l'examen\" usan \"l'\" en vez de \"la/le\" porque empiezan con vocal.", "l'inscription (f) / l'examen (m)"],
@@ -6801,10 +6801,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende frases útiles para trámites universitarios en francés.",
     study: {
       vocab: [
-        ["j'ai besoin d'un certificat de scolarité", "I need an enrollment certificate"],
-        ["où dois-je remettre ce formulaire ?", "where do I submit this form?"],
-        ["je veux changer de filière", "I want to change majors"],
-        ["quelle est la date limite ?", "what's the deadline?"],
+        ["j'ai besoin d'un certificat de scolarité", "necesito un certificado de matrícula"],
+        ["où dois-je remettre ce formulaire ?", "¿dónde entrego este formulario?"],
+        ["je veux changer de filière", "quiero cambiar de carrera"],
+        ["quelle est la date limite ?", "¿cuál es el plazo?"],
       ],
       grammar: [
         ["\"Où + verbo?\" para trámites", "\"Où dois-je remettre...?\" pregunta por el lugar correcto para un trámite.", "Où dois-je remettre ce formulaire ?"],
@@ -6823,10 +6823,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Practica un diálogo completo en la oficina de administración universitaria en francés.",
     study: {
       vocab: [
-        ["Bonjour, comment puis-je vous aider ?", "Good morning, how can I help you?"],
-        ["J'ai besoin de mon relevé de notes", "I need my transcript"],
-        ["Puis-je avoir votre numéro d'étudiant ?", "Can I have your student number?"],
-        ["Ce sera prêt dans trois jours", "It'll be ready in three days"],
+        ["Bonjour, comment puis-je vous aider ?", "Buenos días, ¿en qué puedo ayudarle?"],
+        ["J'ai besoin de mon relevé de notes", "necesito mi expediente académico"],
+        ["Puis-je avoir votre numéro d'étudiant ?", "¿Me da su número de estudiante?"],
+        ["Ce sera prêt dans trois jours", "Estará listo en tres días"],
       ],
       grammar: [
         ["Futuro simple para trámites pendientes", "\"Ce sera prêt\" usa el futuro simple para indicar cuándo estará disponible un trámite.", "Ce sera prêt dans trois jours ouvrables."],
@@ -6846,10 +6846,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar sobre la biblioteca universitaria en francés.",
     study: {
       vocab: [
-        ["emprunter un livre", "to borrow a book"],
-        ["la date de retour", "the due date"],
-        ["renouveler le prêt", "to renew the loan"],
-        ["la salle d'étude silencieuse", "the quiet study room"],
+        ["emprunter un livre", "pedir prestado un libro"],
+        ["la date de retour", "la fecha de vencimiento"],
+        ["renouveler le prêt", "renovar el préstamo"],
+        ["la salle d'étude silencieuse", "la sala de estudio silenciosa"],
       ],
       grammar: [
         ["\"Emprunter\" para solicitar algo temporal", "\"Emprunter\" describe tomar algo de forma temporal, con intención de devolverlo.", "Je veux emprunter ce livre."],
@@ -6868,10 +6868,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario para organizar trabajo en grupo en francés.",
     study: {
       vocab: [
-        ["répartissons-nous les tâches", "let's divide up the tasks"],
-        ["qui s'occupe de l'introduction ?", "who's in charge of the intro?"],
-        ["retrouvons-nous jeudi", "let's meet on Thursday"],
-        ["je n'ai pas encore fini ma partie", "I haven't finished my part yet"],
+        ["répartissons-nous les tâches", "dividamos las tareas"],
+        ["qui s'occupe de l'introduction ?", "¿quién se encarga de la introducción?"],
+        ["retrouvons-nous jeudi", "quedemos el jueves"],
+        ["je n'ai pas encore fini ma partie", "todavía no he terminado mi parte"],
       ],
       grammar: [
         ["Imperativo de \"nous\" para organizar tareas", "\"Répartissons-nous\", \"retrouvons-nous\" proponen una acción conjunta del grupo.", "Répartissons-nous les tâches du projet."],
@@ -6890,10 +6890,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a comunicarte con un profesor sobre dudas o trabajos en francés.",
     study: {
       vocab: [
-        ["pourriez-vous m'éclaircir ce point ?", "could you clarify this doubt for me?"],
-        ["je n'ai pas bien compris le sujet", "I didn't quite understand the topic"],
-        ["avez-vous des heures de permanence ?", "do you have office hours?"],
-        ["j'aimerais revoir ma note", "I'd like to review my grade"],
+        ["pourriez-vous m'éclaircir ce point ?", "¿podrías aclararme esta duda?"],
+        ["je n'ai pas bien compris le sujet", "no entendí muy bien el tema"],
+        ["avez-vous des heures de permanence ?", "¿tiene horario de tutorías?"],
+        ["j'aimerais revoir ma note", "me gustaría revisar mi calificación"],
       ],
       grammar: [
         ["\"Pourriez-vous...?\" para peticiones formales con el profesor", "\"Pourriez-vous...?\" es la forma educada y formal de pedir algo a una figura de autoridad como un profesor.", "Pourriez-vous m'éclaircir ce point sur l'examen ?"],
@@ -6913,10 +6913,10 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende vocabulario sobre la vida diaria en el campus universitario en francés.",
     study: {
       vocab: [
-        ["le restaurant universitaire", "the campus cafeteria"],
-        ["le club étudiant", "the student club"],
-        ["la résidence universitaire", "the student dorm"],
-        ["l'emploi du temps", "the class schedule"],
+        ["le restaurant universitaire", "la cafetería del campus"],
+        ["le club étudiant", "el club estudiantil"],
+        ["la résidence universitaire", "la residencia estudiantil"],
+        ["l'emploi du temps", "el horario de clases"],
       ],
       grammar: [
         ["\"Du campus\" para describir lugares universitarios", "\"Du campus\" indica que algo pertenece o está ubicado en el campus.", "Le restaurant universitaire ouvre à 8h."],
@@ -6935,11 +6935,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a hablar sobre un ensayo o trabajo académico con tu profesor en francés.",
     study: {
       vocab: [
-        ["la thèse du travail doit être améliorée", "the thesis statement needs work"],
-        ["citer correctement vos sources", "to cite your sources properly"],
-        ["l'argument manque de preuves à l'appui", "the argument lacks supporting evidence"],
-        ["revoir la structure", "to revise the structure"],
-        ["une conclusion bien étayée", "a well-supported conclusion"],
+        ["la thèse du travail doit être améliorée", "la tesis del trabajo necesita mejorar"],
+        ["citer correctement vos sources", "citar las fuentes correctamente"],
+        ["l'argument manque de preuves à l'appui", "al argumento le falta evidencia que lo respalde"],
+        ["revoir la structure", "revisar la estructura"],
+        ["une conclusion bien étayée", "una conclusión bien fundamentada"],
       ],
       grammar: [
         ["Voz pasiva refleja para retroalimentación académica objetiva", "\"L'argument doit être étayé\" suena más objetiva y menos personal al dar feedback académico.", "L'argument doit être étayé par plus de preuves."],
@@ -6959,11 +6959,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a preguntar por becas y ayudas financieras en la universidad en francés.",
     study: {
       vocab: [
-        ["faire une demande de bourse", "to apply for a scholarship"],
-        ["l'éligibilité à l'aide financière", "financial aid eligibility"],
-        ["la date limite de candidature", "the application deadline"],
-        ["une bourse au mérite", "a merit-based scholarship"],
-        ["soumettre des documents justificatifs", "to submit supporting documents"],
+        ["faire une demande de bourse", "solicitar una beca"],
+        ["l'éligibilité à l'aide financière", "la elegibilidad para ayuda financiera"],
+        ["la date limite de candidature", "el plazo de solicitud"],
+        ["une bourse au mérite", "una beca por mérito"],
+        ["soumettre des documents justificatifs", "presentar documentos justificativos"],
       ],
       grammar: [
         ["\"Basé/e sur\" + sustantivo para criterios de selección", "Esta estructura explica en qué se basa una decisión o criterio, muy común al hablar de becas.", "Cette bourse est attribuée sur la base du mérite académique et des besoins financiers."],
@@ -6982,11 +6982,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a participar en un debate académico en clase, defendiendo y cuestionando ideas en francés.",
     study: {
       vocab: [
-        ["j'aimerais remettre en question cette idée", "I'd like to challenge that idea"],
-        ["les preuves suggèrent le contraire", "the evidence suggests otherwise"],
-        ["jouer l'avocat du diable", "to play devil's advocate"],
-        ["d'un point de vue différent", "from a different perspective"],
-        ["cela soulève une question importante", "that raises an important question"],
+        ["j'aimerais remettre en question cette idée", "me gustaría cuestionar esa idea"],
+        ["les preuves suggèrent le contraire", "la evidencia sugiere lo contrario"],
+        ["jouer l'avocat du diable", "hacer de abogado del diablo"],
+        ["d'un point de vue différent", "desde otra perspectiva"],
+        ["cela soulève une question importante", "eso plantea una pregunta importante"],
       ],
       grammar: [
         ["Suavizar el desacuerdo académico", "Frases como \"j'aimerais remettre en question cette idée\" o \"d'un point de vue différent\" permiten cuestionar un argumento sin sonar agresivo en un debate formal.", "J'aimerais remettre en question cette idée — d'un point de vue différent, les preuves suggèrent le contraire."],
@@ -7006,11 +7006,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a presentar y hablar sobre tu proyecto de investigación en francés.",
     study: {
       vocab: [
-        ["la question de recherche est...", "the research question is..."],
-        ["la méthodologie consiste à...", "the methodology involves..."],
-        ["les résultats préliminaires suggèrent", "preliminary findings suggest"],
-        ["des recherches supplémentaires sont nécessaires", "further research is needed"],
-        ["collecter et analyser des données", "to collect and analyze data"],
+        ["la question de recherche est...", "la pregunta de investigación es..."],
+        ["la méthodologie consiste à...", "la metodología consiste en..."],
+        ["les résultats préliminaires suggèrent", "los hallazgos preliminares sugieren"],
+        ["des recherches supplémentaires sont nécessaires", "se necesita más investigación"],
+        ["collecter et analyser des données", "recopilar y analizar datos"],
       ],
       grammar: [
         ["Lenguaje de cautela académica (\"hedging\")", "Frases como \"les résultats préliminaires suggèrent\" o \"des recherches supplémentaires sont nécessaires\" evitan afirmaciones demasiado categóricas, típico del discurso académico.", "Les résultats préliminaires suggèrent une corrélation, mais des recherches supplémentaires sont nécessaires."],
@@ -7030,11 +7030,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende a defender un argumento o tesis frente a un tribunal o profesor en francés, con un registro académico formal.",
     study: {
       vocab: [
-        ["je dirais que...", "I'd argue that..."],
-        ["cette affirmation est étayée par...", "this claim is substantiated by..."],
-        ["bien que l'on puisse soutenir que...", "while it could be argued that..."],
-        ["le contre-argument ne tient pas compte de", "the counterargument fails to consider"],
-        ["à la lumière des preuves présentées", "in light of the evidence presented"],
+        ["je dirais que...", "yo argumentaría que..."],
+        ["cette affirmation est étayée par...", "esta afirmación está respaldada por..."],
+        ["bien que l'on puisse soutenir que...", "aunque se podría argumentar que..."],
+        ["le contre-argument ne tient pas compte de", "el contraargumento no tiene en cuenta"],
+        ["à la lumière des preuves présentées", "a la luz de la evidencia presentada"],
       ],
       grammar: [
         ["\"Bien que l'on puisse soutenir que...\" para reconocer una objeción", "Esta estructura reconoce un punto de vista opuesto antes de refutarlo, mostrando rigor académico y objetividad.", "Bien que l'on puisse soutenir que l'échantillon était petit, les résultats restent statistiquement significatifs."],
@@ -7054,11 +7054,11 @@ window.SITUATION_LESSON_BANKS.FR = {
     description:"Aprende modismos y expresiones comunes en el entorno académico universitario en francés.",
     study: {
       vocab: [
-        ["passer une nuit blanche", "to pull an all-nighter"],
-        ["se plonger dans les révisions", "to hit the books"],
-        ["matière à réflexion", "food for thought"],
-        ["réviser à la dernière minute pour un examen", "to cram for an exam"],
-        ["réussir haut la main", "to pass with flying colors"],
+        ["passer une nuit blanche", "quedarse toda la noche estudiando"],
+        ["se plonger dans les révisions", "ponerse a estudiar en serio"],
+        ["matière à réflexion", "algo en qué pensar"],
+        ["réviser à la dernière minute pour un examen", "empollar para un examen"],
+        ["réussir haut la main", "aprobar con nota excelente"],
       ],
       grammar: [
         ["Modismos sobre estudiar y exámenes", "Estos modismos describen hábitos de estudio y resultados académicos de forma vívida y muy común entre estudiantes.", "J'ai dû passer une nuit blanche, mais j'ai réussi l'examen haut la main."],
@@ -7084,12 +7084,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales del aeropuerto en alemán.",
     study: {
       vocab: [
-        ["der Reisepass", "passport"],
-        ["das Gate", "boarding gate"],
-        ["der Koffer", "suitcase"],
-        ["das Ticket", "ticket"],
-        ["der Flug", "flight"],
-        ["der Zoll", "customs"],
+        ["der Reisepass", "el pasaporte"],
+        ["das Gate", "la puerta de embarque"],
+        ["der Koffer", "la maleta"],
+        ["das Ticket", "el billete"],
+        ["der Flug", "el vuelo"],
+        ["der Zoll", "la aduana"],
       ],
       grammar: [
         ["Artículos definidos der/die/das", "En alemán los sustantivos tienen tres géneros (masculino, femenino, neutro) y usan \"der\", \"die\" o \"das\".", "der Reisepass (m) / das Gate (n)"],
@@ -7109,11 +7109,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para hacer el check-in en un aeropuerto en alemán.",
     study: {
       vocab: [
-        ["Ich möchte meinen Koffer aufgeben", "I'd like to check my bag"],
-        ["Wo ist der Schalter der Fluggesellschaft?", "Where is the airline counter?"],
-        ["Wann fliegt der Flug ab?", "What time does the flight leave?"],
-        ["Hier ist mein Reisepass", "Here's my passport"],
-        ["Welches ist mein Gate?", "What's my boarding gate?"],
+        ["Ich möchte meinen Koffer aufgeben", "Quisiera facturar mi maleta"],
+        ["Wo ist der Schalter der Fluggesellschaft?", "¿Dónde está el mostrador de la aerolínea?"],
+        ["Wann fliegt der Flug ab?", "¿A qué hora sale el vuelo?"],
+        ["Hier ist mein Reisepass", "Aquí tiene mi pasaporte"],
+        ["Welches ist mein Gate?", "¿Cuál es mi puerta de embarque?"],
       ],
       grammar: [
         ["El condicional \"ich möchte\" para peticiones educadas", "\"Ich möchte\" (de \"mögen\") es una forma cortés de pedir algo, más formal que \"ich will\".", "Ich möchte meinen Koffer aufgeben, bitte."],
@@ -7132,11 +7132,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo en el mostrador de facturación en alemán.",
     study: {
       vocab: [
-        ["Guten Morgen, Ihren Reisepass bitte", "Good morning, your passport please?"],
-        ["Wie viele Koffer geben Sie auf?", "How many bags will you check?"],
-        ["Nur einen, danke", "Just one, thanks"],
-        ["Ihr Flug fliegt um 10 Uhr ab", "Your flight leaves at 10"],
-        ["Fenster oder Gang?", "Window or aisle?"],
+        ["Guten Morgen, Ihren Reisepass bitte", "Buenos días, ¿su pasaporte, por favor?"],
+        ["Wie viele Koffer geben Sie auf?", "¿Cuántas maletas va a facturar?"],
+        ["Nur einen, danke", "Solo una, gracias"],
+        ["Ihr Flug fliegt um 10 Uhr ab", "Su vuelo sale a las 10"],
+        ["Fenster oder Gang?", "¿Ventanilla o pasillo?"],
       ],
       grammar: [
         ["Preguntas con \"wie viele\"", "\"Wie viele\" pregunta por cantidad contable, seguido del sustantivo en plural.", "Wie viele Koffer? / Wie viele Tickets?"],
@@ -7156,12 +7156,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Qué decir cuando algo sale mal con tu maleta, en alemán.",
     study: {
       vocab: [
-        ["das Handgepäck", "carry-on bag"],
-        ["das aufgegebene Gepäck", "checked bag"],
-        ["übergewichtig", "overweight"],
-        ["zerbrechlich", "fragile"],
-        ["die Gepäckausgabe", "baggage claim"],
-        ["das verlorene Gepäck", "lost luggage"],
+        ["das Handgepäck", "el equipaje de mano"],
+        ["das aufgegebene Gepäck", "el equipaje facturado"],
+        ["übergewichtig", "exceso de peso"],
+        ["zerbrechlich", "frágil"],
+        ["die Gepäckausgabe", "la recogida de equipajes"],
+        ["das verlorene Gepäck", "el equipaje perdido"],
       ],
       grammar: [
         ["\"Sein + adjetivo\" para describir un estado", "\"Übergewichtig sein\" usa \"sein\" + adjetivo para describir un estado.", "Mein Koffer ist übergewichtig."],
@@ -7180,12 +7180,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Lo que te preguntarán al pasar los controles, en alemán.",
     study: {
       vocab: [
-        ["der Metalldetektor", "metal detector"],
-        ["ziehen Sie Ihre Schuhe aus", "take off your shoes"],
-        ["die Flüssigkeiten", "liquids"],
-        ["der Zoll", "customs"],
-        ["verzollen", "to declare"],
-        ["der Grund Ihres Besuchs", "purpose of your visit"],
+        ["der Metalldetektor", "el detector de metales"],
+        ["ziehen Sie Ihre Schuhe aus", "quítese los zapatos"],
+        ["die Flüssigkeiten", "los líquidos"],
+        ["der Zoll", "la aduana"],
+        ["verzollen", "declarar"],
+        ["der Grund Ihres Besuchs", "motivo de su visita"],
       ],
       grammar: [
         ["Imperativo formal (Sie)", "El imperativo con \"Sie\" se usa en anuncios oficiales y control de seguridad, colocando el verbo primero.", "Ziehen Sie Ihre Schuhe aus. / Öffnen Sie den Koffer."],
@@ -7204,12 +7204,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Qué decir si tu vuelo cambia de última hora, en alemán.",
     study: {
       vocab: [
-        ["verspätet", "delayed"],
-        ["annulliert", "cancelled"],
-        ["umbuchen", "to rebook"],
-        ["der Anschlussflug", "connecting flight"],
-        ["ich habe meinen Flug verpasst", "I missed my flight"],
-        ["der nächste verfügbare Flug", "next available flight"],
+        ["verspätet", "retrasado"],
+        ["annulliert", "cancelado"],
+        ["umbuchen", "reprogramar"],
+        ["der Anschlussflug", "el vuelo de conexión"],
+        ["ich habe meinen Flug verpasst", "Perdí mi vuelo"],
+        ["der nächste verfügbare Flug", "el próximo vuelo disponible"],
       ],
       grammar: [
         ["Perfekt para hechos puntuales", "El Perfekt (\"habe verpasst\") describe una acción completada en un momento concreto del pasado.", "Ich habe meinen Flug heute Morgen verpasst."],
@@ -7228,11 +7228,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica cómo pedir ayuda cuando algo no sale como esperabas, en alemán.",
     study: {
       vocab: [
-        ["ich sollte eigentlich...", "it was supposed to..."],
-        ["könnten Sie mir helfen, ... zu finden?", "could you help me find...?"],
-        ["ich habe mich verlaufen", "I'm lost"],
-        ["was kann ich tun?", "what can I do?"],
-        ["ich brauche Hilfe", "I need help"],
+        ["ich sollte eigentlich...", "se suponía que..."],
+        ["könnten Sie mir helfen, ... zu finden?", "¿podría ayudarme a encontrar...?"],
+        ["ich habe mich verlaufen", "Estoy perdido/a"],
+        ["was kann ich tun?", "¿qué puedo hacer?"],
+        ["ich brauche Hilfe", "Necesito ayuda"],
       ],
       grammar: [
         ["\"Sollte eigentlich\" para planes rotos", "Esta estructura describe algo que debía pasar pero no ocurrió, muy útil para explicar un problema.", "Ich sollte eigentlich Flug 204 nehmen, aber er wurde annulliert."],
@@ -7252,11 +7252,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pasar el control de inmigración y aduana en alemán.",
     study: {
       vocab: [
-        ["die Zollerklärung", "customs declaration"],
-        ["nichts zu verzollen", "nothing to declare"],
-        ["das Visum bei Ankunft", "visa on arrival"],
-        ["der Grund Ihres Besuchs", "purpose of your visit"],
-        ["die Aufenthaltserlaubnis", "residency permit"],
+        ["die Zollerklärung", "la declaración de aduana"],
+        ["nichts zu verzollen", "nada que declarar"],
+        ["das Visum bei Ankunft", "el visado a la llegada"],
+        ["der Grund Ihres Besuchs", "motivo de su visita"],
+        ["die Aufenthaltserlaubnis", "el permiso de residencia"],
       ],
       grammar: [
         ["\"Nichts zu + infinitivo\" para negar algo", "Esta estructura niega la existencia de algo que hacer, muy común en aduana.", "Ich habe nichts zu verzollen."],
@@ -7276,11 +7276,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a manejarte en salas de espera premium y a resolver una conexión ajustada en alemán.",
     study: {
       vocab: [
-        ["Zugang zur VIP-Lounge haben", "to have access to the lounge"],
-        ["ein knapper Anschluss", "a tight connection"],
-        ["einen Anschlussflug verpassen", "to miss a connecting flight"],
-        ["das Priority Boarding", "priority boarding"],
-        ["automatisch umgebucht werden", "to be rebooked automatically"],
+        ["Zugang zur VIP-Lounge haben", "tener acceso a la sala VIP"],
+        ["ein knapper Anschluss", "una conexión ajustada"],
+        ["einen Anschlussflug verpassen", "perder un vuelo de conexión"],
+        ["das Priority Boarding", "el embarque prioritario"],
+        ["automatisch umgebucht werden", "ser reprogramado automáticamente"],
       ],
       grammar: [
         ["La voz pasiva con \"werden + participio\"", "La voz pasiva se usa cuando el foco está en la acción, no en quién la realiza.", "Sie werden auf den nächsten verfügbaren Flug umgebucht."],
@@ -7299,11 +7299,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a reportar equipaje perdido o dañado y a seguir el reclamo en alemán.",
     study: {
       vocab: [
-        ["mein Gepäck ist nicht angekommen", "my luggage didn't arrive"],
-        ["ein beschädigter Koffer", "a damaged suitcase"],
-        ["das Gepäckschadenformular", "baggage claim form"],
-        ["die Sendungsnummer", "tracking number"],
-        ["die Entschädigung für die Verspätung", "compensation for the delay"],
+        ["mein Gepäck ist nicht angekommen", "mi equipaje no llegó"],
+        ["ein beschädigter Koffer", "una maleta dañada"],
+        ["das Gepäckschadenformular", "el formulario de reclamación de equipaje"],
+        ["die Sendungsnummer", "el número de seguimiento"],
+        ["die Entschädigung für die Verspätung", "la compensación por el retraso"],
       ],
       grammar: [
         ["Perfekt para quejas recientes", "El Perfekt (\"ist nicht angekommen\") se usa cuando el efecto de un problema sigue vigente ahora mismo.", "Mein Koffer ist noch nicht angekommen."],
@@ -7323,11 +7323,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a redactar y presentar un reclamo formal por retrasos o problemas de vuelo en alemán.",
     study: {
       vocab: [
-        ["eine Beschwerde einreichen", "to file a complaint"],
-        ["die Entschädigung für Flugverspätung", "flight delay compensation"],
-        ["gemäß der EU-Verordnung", "under EU regulation"],
-        ["eine Rückerstattung statt eines Gutscheins", "a refund versus a voucher"],
-        ["das Problem eskalieren", "to escalate the issue"],
+        ["eine Beschwerde einreichen", "presentar una queja"],
+        ["die Entschädigung für Flugverspätung", "la compensación por retraso de vuelo"],
+        ["gemäß der EU-Verordnung", "según la normativa de la UE"],
+        ["eine Rückerstattung statt eines Gutscheins", "un reembolso frente a un vale"],
+        ["das Problem eskalieren", "escalar el problema"],
       ],
       grammar: [
         ["\"Statt\" para contrastar opciones", "\"Statt\" se usa para comparar dos alternativas de forma directa y formal.", "Eine Rückerstattung statt eines Gutscheins — was bevorzugen Sie?"],
@@ -7347,11 +7347,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica cómo negociar un cambio de vuelo o un mejor acuerdo con la aerolínea en un registro formal y persuasivo.",
     study: {
       vocab: [
-        ["zu einer fairen Lösung kommen", "to reach a fair resolution"],
-        ["angesichts der Umstände", "given the circumstances"],
-        ["ich verstehe Ihre Richtlinie, jedoch...", "I understand your policy, however..."],
-        ["eine angemessene Kulanzregelung", "a reasonable accommodation"],
-        ["die Gebühr erlassen", "to waive the fee"],
+        ["zu einer fairen Lösung kommen", "llegar a una resolución justa"],
+        ["angesichts der Umstände", "dadas las circunstancias"],
+        ["ich verstehe Ihre Richtlinie, jedoch...", "Entiendo su política, sin embargo..."],
+        ["eine angemessene Kulanzregelung", "una solución razonable"],
+        ["die Gebühr erlassen", "eximir de la tarifa"],
       ],
       grammar: [
         ["Conectores concesivos en registro formal", "\"Jedoch\", \"angesichts der Umstände\" y \"dennoch\" suavizan un desacuerdo mientras mantienes tu postura de forma educada pero firme.", "Ich verstehe Ihre Richtlinie, jedoch glaube ich angesichts der Umstände, dass eine faire Lösung möglich ist."],
@@ -7371,11 +7371,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos y expresiones coloquiales usadas en aeropuertos y viajes en alemán.",
     study: {
       vocab: [
-        ["den Flug gerade noch erreichen", "to catch a flight"],
-        ["einen Jetlag haben", "to be jet-lagged"],
-        ["mit leichtem Gepäck reisen", "to travel light"],
-        ["ein Nachtflug", "a red-eye flight"],
-        ["landen", "to touch down"],
+        ["den Flug gerade noch erreichen", "coger un vuelo"],
+        ["einen Jetlag haben", "tener jet lag"],
+        ["mit leichtem Gepäck reisen", "viajar con poco equipaje"],
+        ["ein Nachtflug", "un vuelo nocturno"],
+        ["landen", "aterrizar"],
       ],
       grammar: [
         ["Expresiones fijas de viaje", "Muchas expresiones de viaje son frases fijas que no se traducen literalmente palabra por palabra.", "Wir sind eine Stunde früher gelandet. / Ich reise immer mit leichtem Gepäck."],
@@ -7398,12 +7398,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales para ir a un restaurante en alemán.",
     study: {
       vocab: [
-        ["die Speisekarte", "the menu"],
-        ["der Tisch", "the table"],
-        ["der Kellner/die Kellnerin", "the waiter/waitress"],
-        ["die Rechnung", "the bill"],
-        ["das Gericht", "the dish"],
-        ["das Getränk", "the drink"],
+        ["die Speisekarte", "el menú"],
+        ["der Tisch", "la mesa"],
+        ["der Kellner/die Kellnerin", "el camarero/la camarera"],
+        ["die Rechnung", "la cuenta"],
+        ["das Gericht", "el plato"],
+        ["das Getränk", "la bebida"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el restaurante", "\"Die Speisekarte\" y \"die Rechnung\" son femeninas; \"das Gericht\" y \"das Getränk\" son neutros.", "das Gericht (n) / die Rechnung (f)"],
@@ -7423,11 +7423,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para pedir comida en un restaurante en alemán.",
     study: {
       vocab: [
-        ["Ich möchte bestellen...", "I'd like to order..."],
-        ["Was empfehlen Sie?", "What do you recommend?"],
-        ["Für mich die Pasta", "For me, the pasta"],
-        ["Ohne Zwiebeln, bitte", "No onion, please"],
-        ["Sind Sie bereit zu bestellen?", "Are you ready to order?"],
+        ["Ich möchte bestellen...", "Quisiera pedir..."],
+        ["Was empfehlen Sie?", "¿Qué recomiendas?"],
+        ["Für mich die Pasta", "Para mí, la pasta"],
+        ["Ohne Zwiebeln, bitte", "Sin cebolla, por favor"],
+        ["Sind Sie bereit zu bestellen?", "¿Están listos para pedir?"],
       ],
       grammar: [
         ["\"Für mich\" para indicar tu pedido", "\"Für mich\" se usa para especificar qué quieres cuando el camarero pregunta el pedido de cada persona.", "Für mich die Pasta, bitte."],
@@ -7446,11 +7446,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo pidiendo la cena en un restaurante en alemán.",
     study: {
       vocab: [
-        ["Guten Abend, ein Tisch für wie viele?", "Good evening, table for how many?"],
-        ["Für zwei, bitte", "For two, please"],
-        ["Etwas zu trinken?", "Something to drink?"],
-        ["Wasser, bitte", "Water, please"],
-        ["Ich bringe es sofort", "I'll bring it right away"],
+        ["Guten Abend, ein Tisch für wie viele?", "Buenas noches, ¿mesa para cuántos?"],
+        ["Für zwei, bitte", "Para dos, por favor"],
+        ["Etwas zu trinken?", "¿Algo de beber?"],
+        ["Wasser, bitte", "Agua, por favor"],
+        ["Ich bringe es sofort", "Se lo traigo enseguida"],
       ],
       grammar: [
         ["Preposición \"für\" + número", "\"Für zwei\" indica la cantidad de personas, muy común al pedir mesa.", "Ein Tisch für zwei, bitte."],
@@ -7470,11 +7470,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a explicar alergias y preferencias alimentarias en un restaurante en alemán.",
     study: {
       vocab: [
-        ["ich bin allergisch gegen...", "I'm allergic to..."],
-        ["die Nüsse", "nuts"],
-        ["ich esse kein Fleisch", "I don't eat meat"],
-        ["enthält das Milchprodukte?", "does this contain dairy?"],
-        ["glutenunverträglich", "gluten intolerant"],
+        ["ich bin allergisch gegen...", "Soy alérgico/a a..."],
+        ["die Nüsse", "los frutos secos"],
+        ["ich esse kein Fleisch", "No como carne"],
+        ["enthält das Milchprodukte?", "¿esto contiene lácteos?"],
+        ["glutenunverträglich", "intolerante al gluten"],
       ],
       grammar: [
         ["\"Allergisch gegen\" + sustantivo", "Se usa \"allergisch gegen\" + el alimento (en acusativo) para indicar una alergia.", "Ich bin allergisch gegen Nüsse."],
@@ -7493,11 +7493,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a explicar un problema con tu pedido en un restaurante en alemán.",
     study: {
       vocab: [
-        ["das habe ich nicht bestellt", "this isn't what I ordered"],
-        ["es ist kalt", "it's cold"],
-        ["die Bestellung fehlt", "the order is missing"],
-        ["könnten Sie es austauschen?", "could you change it?"],
-        ["es ist zu salzig", "it's too salty"],
+        ["das habe ich nicht bestellt", "esto no es lo que pedí"],
+        ["es ist kalt", "está frío"],
+        ["die Bestellung fehlt", "falta algo del pedido"],
+        ["könnten Sie es austauschen?", "¿podría cambiarlo?"],
+        ["es ist zu salzig", "está demasiado salado"],
       ],
       grammar: [
         ["\"Sein\" + adjetivo para describir un estado temporal", "\"Sein\" + adjetivo describe un estado temporal, como la temperatura o sabor de un plato.", "Die Suppe ist kalt."],
@@ -7516,11 +7516,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir la cuenta y hablar de la propina en un restaurante en alemán.",
     study: {
       vocab: [
-        ["die Rechnung, bitte", "the bill, please"],
-        ["akzeptieren Sie Karte?", "do you accept card?"],
-        ["das Trinkgeld", "the tip"],
-        ["die Rechnung teilen", "to split the bill"],
-        ["behalten Sie das Wechselgeld", "keep the change"],
+        ["die Rechnung, bitte", "la cuenta, por favor"],
+        ["akzeptieren Sie Karte?", "¿aceptan tarjeta?"],
+        ["das Trinkgeld", "la propina"],
+        ["die Rechnung teilen", "dividir la cuenta"],
+        ["behalten Sie das Wechselgeld", "quédese con el cambio"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones", "\"Behalten Sie\" es el imperativo formal (Sie) del verbo \"behalten\".", "Behalten Sie das Wechselgeld, bitte."],
@@ -7539,10 +7539,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir y dar recomendaciones sobre platos en un restaurante en alemán.",
     study: {
       vocab: [
-        ["was ist die Spezialität des Hauses?", "what's the house specialty?"],
-        ["ich empfehle es sehr", "I highly recommend it"],
-        ["es ist ein typisches Gericht der Region", "it's a typical dish of the region"],
-        ["wenn Sie es scharf mögen...", "if you like spicy food..."],
+        ["was ist die Spezialität des Hauses?", "¿cuál es la especialidad de la casa?"],
+        ["ich empfehle es sehr", "lo recomiendo encarecidamente"],
+        ["es ist ein typisches Gericht der Region", "es un plato típico de la región"],
+        ["wenn Sie es scharf mögen...", "si te gusta la comida picante..."],
       ],
       grammar: [
         ["El condicional \"wenn\" + presente para sugerencias", "\"Wenn Sie...mögen\" + presente introduce una sugerencia condicionada al gusto de la persona.", "Wenn Sie es scharf mögen, empfehle ich Ihnen dieses Gericht."],
@@ -7562,11 +7562,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a reservar mesa para una ocasión especial y pedir detalles concretos en alemán.",
     study: {
       vocab: [
-        ["einen Tisch für einen besonderen Anlass reservieren", "to book a table for a special occasion"],
-        ["ein Tisch am Fenster", "a table by the window"],
-        ["einen Jahrestag feiern", "to celebrate an anniversary"],
-        ["ein Fixmenü", "a set menu"],
-        ["einen Kuchen mit Kerze bestellen", "to request a cake with a candle"],
+        ["einen Tisch für einen besonderen Anlass reservieren", "reservar una mesa para una ocasión especial"],
+        ["ein Tisch am Fenster", "una mesa junto a la ventana"],
+        ["einen Jahrestag feiern", "celebrar un aniversario"],
+        ["ein Fixmenü", "un menú fijo"],
+        ["einen Kuchen mit Kerze bestellen", "pedir una tarta con una vela"],
       ],
       grammar: [
         ["\"Wir möchten\" para peticiones en grupo", "\"Wir möchten\" (primera persona plural) se usa cuando la petición es para varias personas.", "Wir möchten einen Tisch am Fenster."],
@@ -7586,11 +7586,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario sobre maridaje de vinos y menús de degustación en alemán.",
     study: {
       vocab: [
-        ["die Weinbegleitung", "wine pairing"],
-        ["ein Degustationsmenü", "a tasting menu"],
-        ["ein vollmundiger Rotwein", "a full-bodied red"],
-        ["das Gericht ergänzen", "to complement the dish"],
-        ["die Empfehlung des Sommeliers", "the sommelier's recommendation"],
+        ["die Weinbegleitung", "el maridaje de vinos"],
+        ["ein Degustationsmenü", "un menú de degustación"],
+        ["ein vollmundiger Rotwein", "un tinto con cuerpo"],
+        ["das Gericht ergänzen", "complementar el plato"],
+        ["die Empfehlung des Sommeliers", "la recomendación del sumiller"],
       ],
       grammar: [
         ["Adjetivos con declinación en alemán", "En alemán, los adjetivos delante del sustantivo se declinan según el género, número y caso.", "ein vollmundiger Rotwein / ein gut ausbalanciertes Gericht"],
@@ -7609,11 +7609,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a explicar dietas especiales y preferencias éticas sobre la comida en alemán.",
     study: {
       vocab: [
-        ["pflanzliche Ernährung", "plant-based diet"],
-        ["Glutenunverträglichkeit", "gluten intolerance"],
-        ["ethisch einwandfreie Zutaten", "ethically sourced ingredients"],
-        ["Kreuzkontamination", "cross-contamination"],
-        ["eine milchfreie Alternative", "a dairy-free alternative"],
+        ["pflanzliche Ernährung", "la dieta a base de plantas"],
+        ["Glutenunverträglichkeit", "la intolerancia al gluten"],
+        ["ethisch einwandfreie Zutaten", "ingredientes de origen ético"],
+        ["Kreuzkontamination", "la contaminación cruzada"],
+        ["eine milchfreie Alternative", "una alternativa sin lácteos"],
       ],
       grammar: [
         ["\"-frei\" para indicar ausencia de algo", "El sufijo \"-frei\" se añade a un sustantivo para decir que algo no contiene ese elemento.", "glutenfreies Brot / laktosefreie Milch / nussfreies Dessert"],
@@ -7633,11 +7633,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a plantear un problema serio al gerente de un restaurante de forma educada pero firme en alemán.",
     study: {
       vocab: [
-        ["könnte ich mit dem Manager sprechen?", "could I speak to the manager"],
-        ["das habe ich nicht bestellt", "this isn't what I ordered"],
-        ["ich würde eine Lösung begrüßen", "I'd appreciate a solution"],
-        ["das ist schon einmal passiert", "this has happened before"],
-        ["die Unannehmlichkeit ausgleichen", "to compensate the inconvenience"],
+        ["könnte ich mit dem Manager sprechen?", "¿podría hablar con el gerente?"],
+        ["das habe ich nicht bestellt", "esto no es lo que pedí"],
+        ["ich würde eine Lösung begrüßen", "agradecería una solución"],
+        ["das ist schon einmal passiert", "esto ya ha pasado antes"],
+        ["die Unannehmlichkeit ausgleichen", "compensar la molestia"],
       ],
       grammar: [
         ["\"Ich würde begrüßen\" para pedir algo con firmeza educada", "El condicional \"ich würde begrüßen\" expresa una petición firme pero cortés, típica en quejas formales.", "Ich würde eine Lösung so bald wie möglich begrüßen."],
@@ -7657,11 +7657,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a redactar una reseña equilibrada y detallada de un restaurante en alemán.",
     study: {
       vocab: [
-        ["insgesamt war die Erfahrung...", "overall, the experience was..."],
-        ["der Service ließ zu wünschen übrig", "the service left much to be desired"],
-        ["ein verstecktes Juwel", "a hidden gem"],
-        ["die Liebe zum Detail", "attention to detail"],
-        ["ich würde es (nicht) empfehlen", "I would (not) recommend it"],
+        ["insgesamt war die Erfahrung...", "en general, la experiencia fue..."],
+        ["der Service ließ zu wünschen übrig", "el servicio dejó mucho que desear"],
+        ["ein verstecktes Juwel", "una joya escondida"],
+        ["die Liebe zum Detail", "la atención al detalle"],
+        ["ich würde es (nicht) empfehlen", "(no) lo recomendaría"],
       ],
       grammar: [
         ["Adverbios de opinión al inicio de frase", "\"Insgesamt\", \"ehrlich gesagt\" al principio de la frase matizan el tono general de una opinión escrita.", "Insgesamt war die Erfahrung unvergesslich, obwohl der Service langsam war."],
@@ -7681,11 +7681,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos en alemán relacionados con la comida y las comidas fuera de casa.",
     study: {
       vocab: [
-        ["eine Naschkatze sein", "to have a sweet tooth"],
-        ["wie ein König essen", "to eat like a king"],
-        ["das ist das Sahnehäubchen", "that's the icing on the cake"],
-        ["die Brötchen verdienen", "to bring home the bacon"],
-        ["ein Kinderspiel", "piece of cake"],
+        ["eine Naschkatze sein", "ser goloso"],
+        ["wie ein König essen", "comer como un rey"],
+        ["das ist das Sahnehäubchen", "eso es la guinda del pastel"],
+        ["die Brötchen verdienen", "traer el pan a casa"],
+        ["ein Kinderspiel", "pan comido"],
       ],
       grammar: [
         ["Modismos con vocabulario de comida", "Muchos modismos en alemán usan palabras de comida con un significado completamente distinto al literal.", "Diese Prüfung war ein Kinderspiel. / Er isst immer wie ein König."],
@@ -7708,12 +7708,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales de un hotel en alemán.",
     study: {
       vocab: [
-        ["das Zimmer", "the room"],
-        ["die Rezeption", "the front desk"],
-        ["der Schlüssel", "the key"],
-        ["das Gepäck", "the luggage"],
-        ["die Reservierung", "the reservation"],
-        ["das Frühstück", "breakfast"],
+        ["das Zimmer", "la habitación"],
+        ["die Rezeption", "la recepción"],
+        ["der Schlüssel", "la llave"],
+        ["das Gepäck", "el equipaje"],
+        ["die Reservierung", "la reserva"],
+        ["das Frühstück", "el desayuno"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el hotel", "\"Das Zimmer\", \"das Gepäck\" y \"das Frühstück\" son neutros; \"die Rezeption\" y \"die Reservierung\" son femeninas.", "das Zimmer (n) / die Reservierung (f)"],
@@ -7733,11 +7733,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para el check-in en un hotel en alemán.",
     study: {
       vocab: [
-        ["Ich habe eine Reservierung auf den Namen...", "I have a reservation under the name of..."],
-        ["Wann ist der Check-in?", "What time is check-in?"],
-        ["Ist das Frühstück inbegriffen?", "Is breakfast included?"],
-        ["Ich brauche einen weiteren Schlüssel", "I need another key"],
-        ["Wie lautet das WLAN-Passwort?", "What's the wifi?"],
+        ["Ich habe eine Reservierung auf den Namen...", "Tengo una reserva a nombre de..."],
+        ["Wann ist der Check-in?", "¿A qué hora es el check-in?"],
+        ["Ist das Frühstück inbegriffen?", "¿El desayuno está incluido?"],
+        ["Ich brauche einen weiteren Schlüssel", "Necesito otra llave"],
+        ["Wie lautet das WLAN-Passwort?", "¿Cuál es el wifi?"],
       ],
       grammar: [
         ["\"Auf den Namen\" para identificar reservas", "\"Auf den Namen\" se usa para indicar bajo qué nombre está hecha una reserva.", "Ich habe eine Reservierung auf den Namen García."],
@@ -7756,11 +7756,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo en la recepción de un hotel en alemán.",
     study: {
       vocab: [
-        ["Guten Tag, haben Sie eine Reservierung?", "Good afternoon, do you have a reservation?"],
+        ["Guten Tag, haben Sie eine Reservierung?", "Buenas tardes, ¿tiene reserva?"],
         ["Ja, auf den Namen López", "Yes, under López"],
-        ["Ihr Zimmer ist die 305", "Your room is 305"],
-        ["Der Aufzug ist rechts", "The elevator is to the right"],
-        ["Genießen Sie Ihren Aufenthalt", "Enjoy your stay"],
+        ["Ihr Zimmer ist die 305", "Su habitación es la 305"],
+        ["Der Aufzug ist rechts", "El ascensor está a la derecha"],
+        ["Genießen Sie Ihren Aufenthalt", "Disfrute de su estancia"],
       ],
       grammar: [
         ["Posesivo formal \"Ihr\"", "\"Ihr\" se usa con \"Sie\" para el posesivo formal de tercera persona.", "Ihr Zimmer ist die 305."],
@@ -7780,12 +7780,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar por los servicios de un hotel en alemán.",
     study: {
       vocab: [
-        ["der Zimmerservice", "room service"],
-        ["der Pool", "the pool"],
-        ["das Fitnessstudio", "the gym"],
-        ["die Wäscherei", "laundry"],
-        ["der Weckruf", "wake-up call"],
-        ["der Parkplatz", "parking"],
+        ["der Zimmerservice", "el servicio de habitaciones"],
+        ["der Pool", "la piscina"],
+        ["das Fitnessstudio", "el gimnasio"],
+        ["die Wäscherei", "la lavandería"],
+        ["der Weckruf", "el servicio de despertador"],
+        ["der Parkplatz", "el aparcamiento"],
       ],
       grammar: [
         ["\"Gibt es...?\" para preguntar por disponibilidad", "\"Gibt es...?\" se usa para preguntar si algo está disponible en el hotel.", "Gibt es einen Pool im Hotel?"],
@@ -7804,11 +7804,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a explicar un problema en tu habitación de hotel en alemán.",
     study: {
       vocab: [
-        ["die Klimaanlage funktioniert nicht", "the AC doesn't work"],
-        ["das Zimmer ist schmutzig", "the room is dirty"],
-        ["es ist sehr laut", "there's a lot of noise"],
-        ["könnten Sie mein Zimmer wechseln?", "could you change my room?"],
-        ["es gibt kein warmes Wasser", "there's no hot water"],
+        ["die Klimaanlage funktioniert nicht", "el aire acondicionado no funciona"],
+        ["das Zimmer ist schmutzig", "la habitación está sucia"],
+        ["es ist sehr laut", "hay mucho ruido"],
+        ["könnten Sie mein Zimmer wechseln?", "¿podría cambiarme de habitación?"],
+        ["es gibt kein warmes Wasser", "no hay agua caliente"],
       ],
       grammar: [
         ["\"Nicht funktionieren\" para describir averías", "\"Funktioniert nicht\" describe algo que está roto o no opera correctamente.", "Die Klimaanlage funktioniert nicht."],
@@ -7827,11 +7827,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hacer el check-out y entender cargos adicionales en alemán.",
     study: {
       vocab: [
-        ["auschecken", "to check out"],
-        ["die Minibar-Gebühr", "the minibar charge"],
-        ["könnten Sie die Rechnung prüfen?", "could you check the bill?"],
-        ["das Zimmer verlassen", "to leave the room"],
-        ["das Gepäck aufbewahren", "to store the luggage"],
+        ["auschecken", "hacer el check-out"],
+        ["die Minibar-Gebühr", "el cargo del minibar"],
+        ["könnten Sie die Rechnung prüfen?", "¿podría revisar la cuenta?"],
+        ["das Zimmer verlassen", "dejar la habitación"],
+        ["das Gepäck aufbewahren", "guardar el equipaje"],
       ],
       grammar: [
         ["\"Um wie viel Uhr\" para preguntar horarios", "\"Um wie viel Uhr...?\" se usa para preguntar por horarios límite, como el check-out.", "Um wie viel Uhr ist der Check-out?"],
@@ -7850,10 +7850,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir recomendaciones locales al personal del hotel en alemán.",
     study: {
       vocab: [
-        ["was empfehlen Sie mir zu besichtigen?", "what do you recommend visiting?"],
-        ["ein weniger touristischer Ort", "a place off the beaten path"],
-        ["es ist ein kurzer Spaziergang", "it's a short walk away"],
-        ["ein Taxi oder die U-Bahn nehmen", "to take a taxi or the metro"],
+        ["was empfehlen Sie mir zu besichtigen?", "¿qué recomienda visitar?"],
+        ["ein weniger touristischer Ort", "un lugar poco conocido"],
+        ["es ist ein kurzer Spaziergang", "está a pocos minutos andando"],
+        ["ein Taxi oder die U-Bahn nehmen", "tomar un taxi o el metro"],
       ],
       grammar: [
         ["\"Ein kurzer Spaziergang\" para indicar cercanía", "Esta expresión indica que un lugar está cerca, sin necesitar transporte.", "Das Museum ist ein kurzer Spaziergang entfernt."],
@@ -7873,11 +7873,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a modificar, posponer o cancelar una reserva de hotel en alemán.",
     study: {
       vocab: [
-        ["eine Reservierung ändern", "to modify a reservation"],
-        ["eine Stornierungsrichtlinie", "a cancellation policy"],
-        ["ein nicht erstattungsfähiger Tarif", "a non-refundable rate"],
-        ["das Check-in-Datum verschieben", "to postpone the check-in date"],
-        ["eine Bestätigungs-E-Mail", "a confirmation email"],
+        ["eine Reservierung ändern", "modificar una reserva"],
+        ["eine Stornierungsrichtlinie", "una política de cancelación"],
+        ["ein nicht erstattungsfähiger Tarif", "una tarifa no reembolsable"],
+        ["das Check-in-Datum verschieben", "posponer la fecha de entrada"],
+        ["eine Bestätigungs-E-Mail", "un correo de confirmación"],
       ],
       grammar: [
         ["\"Ich muss\" + infinitivo para trámites", "\"Ich muss\" + verbo es la forma directa y natural de explicar qué trámite necesitas hacer.", "Ich muss meine Reservierung für nächste Woche ändern."],
@@ -7897,11 +7897,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar por instalaciones del hotel y a quejarte si no funcionan como se anuncia en alemán.",
     study: {
       vocab: [
-        ["die Ausstattung entspricht nicht der Werbung", "the amenities aren't as advertised"],
-        ["der Pool ist außer Betrieb", "the pool is out of service"],
-        ["Zugang zu Fitnessstudio und Spa", "access to the gym and spa"],
-        ["das WLAN trennt sich ständig", "the wifi keeps disconnecting"],
-        ["die Erwartungen nicht erfüllen", "to fall short of expectations"],
+        ["die Ausstattung entspricht nicht der Werbung", "las instalaciones no son como se anunciaban"],
+        ["der Pool ist außer Betrieb", "la piscina está fuera de servicio"],
+        ["Zugang zu Fitnessstudio und Spa", "acceso al gimnasio y al spa"],
+        ["das WLAN trennt sich ständig", "el wifi se desconecta constantemente"],
+        ["die Erwartungen nicht erfüllen", "no estar a la altura de las expectativas"],
       ],
       grammar: [
         ["\"Sich ständig + verbo\" para acciones repetidas", "\"Sich ständig trennen\" expresa que algo ocurre repetidamente y de forma molesta.", "Das WLAN trennt sich alle zehn Minuten."],
@@ -7920,11 +7920,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a negociar una mejor tarifa o una mejora de habitación en alemán.",
     study: {
       vocab: [
-        ["gibt es Flexibilität beim Preis?", "is there any flexibility on the price"],
-        ["ein kostenloses Upgrade", "a complimentary upgrade"],
-        ["den Preis eines Mitbewerbers angleichen", "to match a competitor's rate"],
-        ["ein Treueprogramm-Mitglied", "a loyalty member"],
-        ["vorbehaltlich der Verfügbarkeit", "subject to availability"],
+        ["gibt es Flexibilität beim Preis?", "¿hay algo de flexibilidad en el precio?"],
+        ["ein kostenloses Upgrade", "una mejora gratuita"],
+        ["den Preis eines Mitbewerbers angleichen", "igualar la tarifa de un competidor"],
+        ["ein Treueprogramm-Mitglied", "un miembro del programa de fidelidad"],
+        ["vorbehaltlich der Verfügbarkeit", "sujeto a disponibilidad"],
       ],
       grammar: [
         ["Preguntas indirectas para negociar con tacto", "\"Gibt es...?\" o \"Wäre es möglich...?\" son formas indirectas y más corteses de pedir algo delicado como un descuento.", "Gibt es Flexibilität beim Preis für einen längeren Aufenthalt?"],
@@ -7944,11 +7944,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario para gestionar una estancia de negocios: facturación corporativa, salas de reuniones y recibos.",
     study: {
       vocab: [
-        ["es dem Firmenkonto belasten", "to bill it to the company account"],
-        ["ein Konferenzraum mit Projektor", "a meeting room with a projector"],
-        ["eine detaillierte Rechnung", "an itemized receipt"],
-        ["ein Firmentarif", "a corporate rate"],
-        ["vom Business Center aus remote arbeiten", "to work remotely from the business center"],
+        ["es dem Firmenkonto belasten", "cargarlo a la cuenta de la empresa"],
+        ["ein Konferenzraum mit Projektor", "una sala de reuniones con proyector"],
+        ["eine detaillierte Rechnung", "un recibo detallado"],
+        ["ein Firmentarif", "una tarifa corporativa"],
+        ["vom Business Center aus remote arbeiten", "trabajar remotamente desde el centro de negocios"],
       ],
       grammar: [
         ["\"X dem Konto belasten\" para facturación", "\"X dem Konto belasten\" significa cargar un gasto a una cuenta o entidad concreta.", "Bitte belasten Sie die Minibar meinem Firmenkonto."],
@@ -7967,11 +7967,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a disputar formalmente un cargo incorrecto en tu factura de hotel en alemán.",
     study: {
       vocab: [
-        ["mir wurde fälschlicherweise berechnet für...", "I was charged incorrectly for..."],
-        ["könnten Sie diese Unstimmigkeit prüfen?", "could you look into this discrepancy"],
-        ["ich habe Unterlagen, die meinen Anspruch belegen", "I have documentation to support my claim"],
-        ["eine Gebühr anfechten", "to dispute a charge"],
-        ["ein angemessener Zeitrahmen für die Lösung", "a reasonable timeframe for resolution"],
+        ["mir wurde fälschlicherweise berechnet für...", "me cobraron incorrectamente por..."],
+        ["könnten Sie diese Unstimmigkeit prüfen?", "¿podría investigar esta discrepancia?"],
+        ["ich habe Unterlagen, die meinen Anspruch belegen", "tengo documentación que respalda mi reclamo"],
+        ["eine Gebühr anfechten", "impugnar un cargo"],
+        ["ein angemessener Zeitrahmen für die Lösung", "un plazo razonable para la resolución"],
       ],
       grammar: [
         ["\"Ich habe + sustantivo + die...belegen\" en reclamos formales", "Esta estructura refuerza un argumento presentando evidencia de forma profesional y objetiva.", "Ich habe Unterlagen, die meinen Anspruch belegen, einschließlich der Originalrechnung."],
@@ -7991,11 +7991,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos en alemán usados en el sector de la hospitalidad y los viajes.",
     study: {
       vocab: [
-        ["den roten Teppich ausrollen", "to roll out the red carpet"],
-        ["ein Zuhause fernab von zu Hause", "a home away from home"],
-        ["eine Extrameile gehen", "to go the extra mile"],
-        ["jeden Cent wert sein", "to be worth every penny"],
-        ["schlicht, ohne Schnickschnack", "no frills"],
+        ["den roten Teppich ausrollen", "recibir con los brazos abiertos"],
+        ["ein Zuhause fernab von zu Hause", "un hogar lejos de casa"],
+        ["eine Extrameile gehen", "hacer un esfuerzo adicional"],
+        ["jeden Cent wert sein", "valer cada centavo"],
+        ["schlicht, ohne Schnickschnack", "sin lujos"],
       ],
       grammar: [
         ["Modismos de servicio al cliente", "Estos modismos describen un servicio excelente o básico de forma vívida, sin que tengan un significado literal.", "Das Personal ist wirklich eine Extrameile für uns gegangen. / Es ist ein Hotel ohne Schnickschnack, aber sehr sauber."],
@@ -8018,12 +8018,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales para ir de compras a un mercado en alemán.",
     study: {
       vocab: [
-        ["der Stand", "the stall"],
-        ["der Verkäufer/die Verkäuferin", "the seller"],
-        ["der Preis", "the price"],
-        ["das Obst", "fruit"],
-        ["das Gemüse", "vegetables"],
-        ["die Tüte", "the bag"],
+        ["der Stand", "el puesto"],
+        ["der Verkäufer/die Verkäuferin", "el vendedor"],
+        ["der Preis", "el precio"],
+        ["das Obst", "la fruta"],
+        ["das Gemüse", "las verduras"],
+        ["die Tüte", "la bolsa"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem", "\"Der Verkäufer/die Verkäuferin\" cambia de género según quien vende.", "der Verkäufer (m) / die Verkäuferin (f)"],
@@ -8043,10 +8043,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para comprar en un mercado en alemán.",
     study: {
       vocab: [
-        ["Wie viel kostet das?", "How much does this cost?"],
-        ["Ich möchte ein halbes Kilo", "I want half a kilo"],
-        ["Haben Sie etwas Frischeres?", "Do you have something fresher?"],
-        ["Ich nehme es", "I'll take it"],
+        ["Wie viel kostet das?", "¿Cuánto cuesta esto?"],
+        ["Ich möchte ein halbes Kilo", "Quiero medio kilo"],
+        ["Haben Sie etwas Frischeres?", "¿Tiene algo más fresco?"],
+        ["Ich nehme es", "Me lo llevo"],
       ],
       grammar: [
         ["\"Wie viel\" para preguntar precio o cantidad", "\"Wie viel kostet\" pregunta por el precio.", "Wie viel kostet das? / Wie viel Obst möchten Sie?"],
@@ -8065,11 +8065,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo en un puesto de mercado en alemán.",
     study: {
       vocab: [
-        ["Guten Morgen, was darf's sein?", "Good morning, what would you like?"],
-        ["Ich möchte ein Kilo Tomaten", "I want a kilo of tomatoes"],
-        ["Bitte sehr, das macht drei Euro", "Here you go, that's three euros"],
-        ["Sonst noch etwas?", "Anything else?"],
-        ["Nein danke, das ist alles", "No, thanks, that's all"],
+        ["Guten Morgen, was darf's sein?", "Buenos días, ¿qué desea?"],
+        ["Ich möchte ein Kilo Tomaten", "Quiero un kilo de tomates"],
+        ["Bitte sehr, das macht drei Euro", "Aquí tiene, son tres euros"],
+        ["Sonst noch etwas?", "¿Algo más?"],
+        ["Nein danke, das ist alles", "No, gracias, eso es todo"],
       ],
       grammar: [
         ["\"Was darf's sein?\" en atención al cliente", "\"Was darf's sein?\" es una forma amistosa y educada de preguntar qué quiere comprar el cliente.", "Guten Morgen, was darf's sein?"],
@@ -8089,10 +8089,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar por productos y sustitutos en un mercado en alemán.",
     study: {
       vocab: [
-        ["ich habe keins mehr davon", "I'm out of..."],
-        ["haben Sie etwas Ähnliches?", "do you have something similar?"],
-        ["es ist ausverkauft", "it's sold out"],
-        ["ich kann Ihnen das stattdessen anbieten", "I can offer you this instead"],
+        ["ich habe keins mehr davon", "se me acabó..."],
+        ["haben Sie etwas Ähnliches?", "¿tiene algo parecido?"],
+        ["es ist ausverkauft", "está agotado"],
+        ["ich kann Ihnen das stattdessen anbieten", "puedo ofrecerle esto en su lugar"],
       ],
       grammar: [
         ["\"Stattdessen\" para ofrecer alternativas", "\"Stattdessen\" se usa para proponer un sustituto de algo que no está disponible.", "Ich kann Ihnen das stattdessen anbieten."],
@@ -8111,10 +8111,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hacer una devolución o queja en un mercado en alemán.",
     study: {
       vocab: [
-        ["ich möchte das zurückgeben", "I want to return this"],
-        ["es ist in schlechtem Zustand", "it's in bad condition"],
-        ["können Sie mir das Geld zurückerstatten?", "can you give me a refund?"],
-        ["ich habe es gestern gekauft", "I bought it yesterday"],
+        ["ich möchte das zurückgeben", "quiero devolver esto"],
+        ["es ist in schlechtem Zustand", "está en mal estado"],
+        ["können Sie mir das Geld zurückerstatten?", "¿puede reembolsarme?"],
+        ["ich habe es gestern gekauft", "lo compré ayer"],
       ],
       grammar: [
         ["Perfekt para acciones pasadas concretas", "\"Ich habe gekauft\" (Perfekt) indica una acción terminada en un momento específico.", "Ich habe es gestern gekauft, und es ist schon schlecht."],
@@ -8133,10 +8133,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar y hablar sobre formas de pago en un mercado en alemán.",
     study: {
       vocab: [
-        ["akzeptieren Sie Karte?", "do you accept card?"],
-        ["nur Bargeld", "cash only"],
-        ["haben Sie Wechselgeld für einen großen Schein?", "do you have change for a large bill?"],
-        ["bar bezahlen", "to pay in cash"],
+        ["akzeptieren Sie Karte?", "¿aceptan tarjeta?"],
+        ["nur Bargeld", "solo efectivo"],
+        ["haben Sie Wechselgeld für einen großen Schein?", "¿tiene cambio para un billete grande?"],
+        ["bar bezahlen", "pagar en efectivo"],
       ],
       grammar: [
         ["\"Nur\" para limitar una opción", "\"Nur Bargeld\" indica que no se aceptan otras formas de pago.", "Hier ist es nur Bargeld, tut mir leid."],
@@ -8155,10 +8155,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir y dar indicaciones dentro de un mercado en alemán.",
     study: {
       vocab: [
-        ["wo ist der Fischstand?", "where is the fish stall?"],
-        ["hinten links", "at the back, on the left"],
-        ["gehen Sie geradeaus weiter", "keep going straight"],
-        ["es ist direkt gegenüber", "it's right in front"],
+        ["wo ist der Fischstand?", "¿dónde está el puesto de pescado?"],
+        ["hinten links", "al fondo, a la izquierda"],
+        ["gehen Sie geradeaus weiter", "siga recto"],
+        ["es ist direkt gegenüber", "está justo enfrente"],
       ],
       grammar: [
         ["Imperativo formal para indicaciones", "El imperativo con \"Sie\" se usa para dar indicaciones de forma educada.", "Gehen Sie geradeaus weiter und biegen Sie links ab."],
@@ -8178,11 +8178,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a regatear de forma educada y con más matices en un mercado en alemán.",
     study: {
       vocab: [
-        ["das liegt etwas über meinem Budget", "that's a bit over my budget"],
-        ["könnten Sie beim Preis entgegenkommen?", "could you do any better on the price"],
-        ["wenn ich mehr kaufe, ist es günstiger?", "if I buy more, is it cheaper"],
-        ["das ist das Beste, was ich tun kann", "that's the best I can do"],
-        ["wir haben einen Deal", "we have a deal"],
+        ["das liegt etwas über meinem Budget", "eso se sale un poco de mi presupuesto"],
+        ["könnten Sie beim Preis entgegenkommen?", "¿podría mejorar el precio?"],
+        ["wenn ich mehr kaufe, ist es günstiger?", "si compro más, ¿es más barato?"],
+        ["das ist das Beste, was ich tun kann", "es lo mejor que puedo ofrecer"],
+        ["wir haben einen Deal", "tenemos un trato"],
       ],
       grammar: [
         ["Preguntas indirectas al regatear", "\"Könnten Sie beim Preis entgegenkommen?\" es una forma educada e indirecta de pedir un mejor precio sin sonar exigente.", "Könnten Sie beim Preis entgegenkommen, wenn ich zwei nehme?"],
@@ -8202,11 +8202,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar por la calidad, el origen y la sostenibilidad de los productos en un mercado en alemán.",
     study: {
       vocab: [
-        ["woher kommt das?", "where does this come from"],
-        ["regional erzeugte Produkte", "locally sourced produce"],
-        ["ist das Bio?", "is this organic"],
-        ["gerade Saison", "in season right now"],
-        ["nachhaltig angebaut", "sustainably grown"],
+        ["woher kommt das?", "¿de dónde viene esto?"],
+        ["regional erzeugte Produkte", "productos de origen local"],
+        ["ist das Bio?", "¿esto es orgánico?"],
+        ["gerade Saison", "de temporada ahora mismo"],
+        ["nachhaltig angebaut", "cultivado de forma sostenible"],
       ],
       grammar: [
         ["Presente simple para hechos generales sobre productos", "El presente simple describe características generales y permanentes de un producto, como su origen o forma de cultivo.", "Dieses Produkt kommt von einem regionalen Bauernhof und wird nachhaltig angebaut."],
@@ -8226,11 +8226,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a negociar compras al por mayor y condiciones de entrega en alemán.",
     study: {
       vocab: [
-        ["ein Mengenrabatt", "a bulk discount"],
-        ["die Mindestbestellmenge", "the minimum order quantity"],
-        ["eine wiederkehrende Bestellung aufgeben", "to place a recurring order"],
-        ["Lieferung inbegriffen", "delivery included"],
-        ["ein Großhandelspreis", "a wholesale price"],
+        ["ein Mengenrabatt", "un descuento por volumen"],
+        ["die Mindestbestellmenge", "la cantidad mínima de pedido"],
+        ["eine wiederkehrende Bestellung aufgeben", "hacer un pedido recurrente"],
+        ["Lieferung inbegriffen", "entrega incluida"],
+        ["ein Großhandelspreis", "un precio al por mayor"],
       ],
       grammar: [
         ["\"Je mehr..., desto mehr...\" para condiciones proporcionales", "Esta estructura comparativa doble expresa que a mayor cantidad, mayor beneficio (o menor precio).", "Je mehr Sie bestellen, desto größer der Rabatt."],
@@ -8249,11 +8249,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a reclamar un producto defectuoso o en mal estado comprado en un mercado, en alemán.",
     study: {
       vocab: [
-        ["das ist defekt", "this is defective"],
-        ["es wurde innerhalb eines Tages schlecht", "it went bad within a day"],
-        ["ich möchte eine Rückerstattung oder einen Umtausch", "I'd like a refund or an exchange"],
-        ["haben Sie einen Kaufbeleg?", "do you have proof of purchase"],
-        ["das ist nicht mehr frisch", "this isn't fresh anymore"],
+        ["das ist defekt", "esto está defectuoso"],
+        ["es wurde innerhalb eines Tages schlecht", "se echó a perder en un día"],
+        ["ich möchte eine Rückerstattung oder einen Umtausch", "quisiera un reembolso o un cambio"],
+        ["haben Sie einen Kaufbeleg?", "¿tiene comprobante de compra?"],
+        ["das ist nicht mehr frisch", "esto ya no está fresco"],
       ],
       grammar: [
         ["\"Innerhalb von + periodo\" para indicar rapidez de un problema", "\"Innerhalb eines Tages/einer Woche\" indica que algo ocurrió en un plazo corto, reforzando que el problema fue rápido e inesperado.", "Es wurde innerhalb eines Tages nach dem Kauf schlecht."],
@@ -8273,11 +8273,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Reflexiona y conversa en alemán sobre las diferencias culturales al regatear y negociar en distintos países.",
     study: {
       vocab: [
-        ["hier wird das Feilschen erwartet", "haggling is expected here"],
-        ["es gilt als unhöflich zu feilschen", "it's considered rude to haggle"],
-        ["ein Markt mit Festpreisen", "a fixed-price market"],
-        ["kulturelle Normen rund um das Verhandeln", "cultural norms around negotiation"],
-        ["die Stimmung der Situation erfassen", "to read the room"],
+        ["hier wird das Feilschen erwartet", "aquí se espera que se regatee"],
+        ["es gilt als unhöflich zu feilschen", "se considera de mala educación regatear"],
+        ["ein Markt mit Festpreisen", "un mercado de precio fijo"],
+        ["kulturelle Normen rund um das Verhandeln", "las normas culturales sobre la negociación"],
+        ["die Stimmung der Situation erfassen", "captar el ambiente"],
       ],
       grammar: [
         ["\"Es gilt als + adjetivo\" para normas culturales", "Esta estructura impersonal expresa una norma social sin atribuirla a una persona concreta.", "Es gilt als unhöflich, in manchen Kulturen zu feilschen, in anderen wird es erwartet."],
@@ -8297,11 +8297,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos en alemán relacionados con el dinero y las compras.",
     study: {
       vocab: [
-        ["ein Vermögen kosten", "to cost an arm and a leg"],
-        ["das ist Abzocke", "to be a rip-off"],
-        ["ein gutes Geschäft machen", "to get a good deal"],
-        ["jemanden im Preis runterhandeln", "to haggle someone down"],
-        ["das Geld wächst nicht auf Bäumen", "money doesn't grow on trees"],
+        ["ein Vermögen kosten", "costar un ojo de la cara"],
+        ["das ist Abzocke", "ser un timo"],
+        ["ein gutes Geschäft machen", "conseguir un buen trato"],
+        ["jemanden im Preis runterhandeln", "conseguir que alguien baje el precio"],
+        ["das Geld wächst nicht auf Bäumen", "el dinero no cae del cielo"],
       ],
       grammar: [
         ["Modismos sobre precio y valor", "Estos modismos describen si algo es caro, barato o una estafa, de forma vívida y sin traducción literal.", "Diese Tasche kostet ein Vermögen! / Dieser Preis ist reine Abzocke."],
@@ -8324,12 +8324,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales de un hospital en alemán.",
     study: {
       vocab: [
-        ["der Arzt/die Ärztin", "the doctor"],
-        ["der Krankenpfleger/die Krankenschwester", "the nurse"],
-        ["der Schmerz", "the pain"],
-        ["der Termin", "the appointment"],
-        ["das Wartezimmer", "the waiting room"],
-        ["das Rezept", "the prescription"],
+        ["der Arzt/die Ärztin", "el médico"],
+        ["der Krankenpfleger/die Krankenschwester", "el enfermero/la enfermera"],
+        ["der Schmerz", "el dolor"],
+        ["der Termin", "la cita"],
+        ["das Wartezimmer", "la sala de espera"],
+        ["das Rezept", "la receta"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en profesiones", "\"Der Arzt/die Ärztin\" cambia de género según quien ejerce la profesión.", "der Arzt (m) / die Ärztin (f)"],
@@ -8349,11 +8349,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para describir síntomas en alemán.",
     study: {
       vocab: [
-        ["ich habe Kopfschmerzen", "my head hurts"],
-        ["ich habe Fieber", "I have a fever"],
-        ["mir ist schwindelig", "I feel dizzy"],
-        ["mir ist übel", "I feel nauseous"],
-        ["seit drei Tagen", "for three days"],
+        ["ich habe Kopfschmerzen", "me duele la cabeza"],
+        ["ich habe Fieber", "tengo fiebre"],
+        ["mir ist schwindelig", "me siento mareado/a"],
+        ["mir ist übel", "tengo náuseas"],
+        ["seit drei Tagen", "desde hace tres días"],
       ],
       grammar: [
         ["\"Mir ist/tut weh\" para el dolor", "\"Ich habe Schmerzen\" o \"mir ist schwindelig\" son formas comunes de describir malestar en alemán.", "Ich habe Kopfschmerzen. / Mir tut der Fuß weh."],
@@ -8372,11 +8372,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo en la recepción de un hospital en alemán.",
     study: {
       vocab: [
-        ["Guten Tag, haben Sie einen Termin?", "Good morning, do you have an appointment?"],
-        ["Ja, um 10 Uhr bei Dr. Ruiz", "Yes, at 10 with Dr. Ruiz"],
-        ["Bitte nehmen Sie Platz", "Please take a seat"],
-        ["Der Arzt wird Sie bald empfangen", "The doctor will see you soon"],
-        ["Kann ich Ihre Versicherungskarte haben?", "Can I have your insurance card?"],
+        ["Guten Tag, haben Sie einen Termin?", "Buenos días, ¿tiene cita?"],
+        ["Ja, um 10 Uhr bei Dr. Ruiz", "Sí, a las 10 con el Dr. Ruiz"],
+        ["Bitte nehmen Sie Platz", "Por favor, tome asiento"],
+        ["Der Arzt wird Sie bald empfangen", "El médico le atenderá pronto"],
+        ["Kann ich Ihre Versicherungskarte haben?", "¿Me da su tarjeta del seguro?"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones médicas", "\"Nehmen Sie Platz\" es el imperativo formal (Sie) del verbo \"Platz nehmen\".", "Bitte nehmen Sie Platz. Der Arzt wird Sie bald empfangen."],
@@ -8396,10 +8396,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar en una farmacia en alemán.",
     study: {
       vocab: [
-        ["haben Sie etwas gegen Kopfschmerzen?", "do you have something for a headache?"],
-        ["zweimal täglich", "twice a day"],
-        ["mit oder ohne Rezept", "with or without prescription"],
-        ["die Nebenwirkungen", "side effects"],
+        ["haben Sie etwas gegen Kopfschmerzen?", "¿tiene algo para el dolor de cabeza?"],
+        ["zweimal täglich", "dos veces al día"],
+        ["mit oder ohne Rezept", "con o sin receta"],
+        ["die Nebenwirkungen", "los efectos secundarios"],
       ],
       grammar: [
         ["\"Mal täglich\" para frecuencia de dosis", "\"X mal täglich\" indica cuántas veces se debe tomar un medicamento.", "Nehmen Sie es zweimal täglich, mit den Mahlzeiten."],
@@ -8418,10 +8418,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a comunicar una emergencia médica en alemán.",
     study: {
       vocab: [
-        ["das ist ein Notfall", "it's an emergency"],
-        ["ich brauche einen Krankenwagen", "I need an ambulance"],
-        ["er/sie blutet stark", "he/she is bleeding a lot"],
-        ["er/sie hat das Bewusstsein verloren", "he/she lost consciousness"],
+        ["das ist ein Notfall", "es una emergencia"],
+        ["ich brauche einen Krankenwagen", "necesito una ambulancia"],
+        ["er/sie blutet stark", "está sangrando mucho"],
+        ["er/sie hat das Bewusstsein verloren", "perdió el conocimiento"],
       ],
       grammar: [
         ["Perfekt para reportar una emergencia", "El Perfekt describe lo que acaba de ocurrir en una emergencia médica.", "Er hat vor ein paar Minuten das Bewusstsein verloren."],
@@ -8441,10 +8441,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario sobre seguro médico y trámites en alemán.",
     study: {
       vocab: [
-        ["ist das von meiner Versicherung gedeckt?", "is this covered by my insurance?"],
-        ["die Zuzahlung", "the copay"],
-        ["das Aufnahmeformular unterschreiben", "to sign the admission form"],
-        ["die Versicherungsnummer", "the policy number"],
+        ["ist das von meiner Versicherung gedeckt?", "¿esto lo cubre mi seguro?"],
+        ["die Zuzahlung", "el copago"],
+        ["das Aufnahmeformular unterschreiben", "firmar el formulario de ingreso"],
+        ["die Versicherungsnummer", "el número de póliza"],
       ],
       grammar: [
         ["Voz pasiva con \"gedeckt sein\"", "\"Gedeckt sein von\" describe si algo está incluido en el seguro, usando la pasiva.", "Ist diese Behandlung von meiner Versicherung gedeckt?"],
@@ -8463,10 +8463,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar sobre citas de seguimiento y control en alemán.",
     study: {
       vocab: [
-        ["ein Kontrolltermin", "a follow-up appointment"],
-        ["wann soll ich wiederkommen?", "when should I come back?"],
-        ["die Medikamente weiter einnehmen", "to keep taking the medication"],
-        ["sich nach und nach bessern", "to improve little by little"],
+        ["ein Kontrolltermin", "una cita de seguimiento"],
+        ["wann soll ich wiederkommen?", "¿cuándo debo volver?"],
+        ["die Medikamente weiter einnehmen", "seguir tomando la medicación"],
+        ["sich nach und nach bessern", "mejorar poco a poco"],
       ],
       grammar: [
         ["\"Weiter + verbo\" para continuidad", "\"Weiter\" antes o después del verbo expresa que una acción continúa en el tiempo.", "Sie müssen die Medikamente noch eine Woche weiter einnehmen."],
@@ -8486,11 +8486,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a entender y pedir una derivación a un especialista médico en alemán.",
     study: {
       vocab: [
-        ["eine Überweisung zu einem Spezialisten", "a referral to a specialist"],
-        ["einen Kardiologen aufsuchen", "to see a cardiologist"],
-        ["Warteliste für einen Termin", "waiting list for an appointment"],
-        ["eine zweite Konsultation", "a second consultation"],
-        ["Ihre Testergebnisse mitbringen", "to bring your test results"],
+        ["eine Überweisung zu einem Spezialisten", "una derivación a un especialista"],
+        ["einen Kardiologen aufsuchen", "consultar a un cardiólogo"],
+        ["Warteliste für einen Termin", "la lista de espera para una cita"],
+        ["eine zweite Konsultation", "una segunda consulta"],
+        ["Ihre Testergebnisse mitbringen", "traer los resultados de sus pruebas"],
       ],
       grammar: [
         ["\"Eine Überweisung brauchen\" para trámites médicos", "Esta estructura describe la necesidad médica de ver a un especialista concreto tras una consulta general.", "Ich brauche eine Überweisung, um einen Kardiologen aufzusuchen."],
@@ -8510,11 +8510,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a entender y preguntar sobre resultados de análisis o pruebas médicas en alemán.",
     study: {
       vocab: [
-        ["die Ergebnisse waren normal", "the results came back normal"],
-        ["ein Kontrolltest ist notwendig", "a follow-up test is needed"],
-        ["was bedeuten diese Zahlen?", "what do these numbers mean"],
-        ["leicht erhöhte Werte", "slightly elevated levels"],
-        ["kein Grund zur Sorge", "nothing to worry about"],
+        ["die Ergebnisse waren normal", "los resultados salieron normales"],
+        ["ein Kontrolltest ist notwendig", "se necesita una prueba de seguimiento"],
+        ["was bedeuten diese Zahlen?", "¿qué significan estos números?"],
+        ["leicht erhöhte Werte", "niveles ligeramente elevados"],
+        ["kein Grund zur Sorge", "nada de qué preocuparse"],
       ],
       grammar: [
         ["Perfekt para informar resultados", "El Perfekt (\"waren normal\") se usa para comunicar el resultado de una prueba ya completada.", "Ihre Ergebnisse waren normal, also kein Grund zur Sorge."],
@@ -8534,11 +8534,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario sobre consentimiento informado antes de un procedimiento médico en alemán.",
     study: {
       vocab: [
-        ["eine Einverständniserklärung unterschreiben", "to sign a consent form"],
-        ["die Risiken und Vorteile des Verfahrens", "the risks and benefits of the procedure"],
-        ["habe ich andere Optionen?", "do I have any other options"],
-        ["verstehen, wozu Sie zustimmen", "to understand what you're agreeing to"],
-        ["Sie können vor der Unterschrift Fragen stellen", "you can ask questions before signing"],
+        ["eine Einverständniserklärung unterschreiben", "firmar un formulario de consentimiento"],
+        ["die Risiken und Vorteile des Verfahrens", "los riesgos y beneficios del procedimiento"],
+        ["habe ich andere Optionen?", "¿tengo otras opciones?"],
+        ["verstehen, wozu Sie zustimmen", "entender a qué está accediendo"],
+        ["Sie können vor der Unterschrift Fragen stellen", "puede hacer preguntas antes de firmar"],
       ],
       grammar: [
         ["\"Bevor + verbo\" para secuenciar acciones", "\"Bevor Sie unterschreiben\" indica qué debe ocurrir antes de una acción concreta, muy común en procesos formales.", "Lesen Sie das Formular sorgfältig, bevor Sie es unterschreiben."],
@@ -8557,11 +8557,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar sobre salud mental y pedir apoyo psicológico en alemán, con vocabulario sensible y respetuoso.",
     study: {
       vocab: [
-        ["ich fühle mich in letzter Zeit überfordert", "I've been feeling overwhelmed lately"],
-        ["mit einem Therapeuten sprechen", "to speak with a therapist"],
-        ["es ist in Ordnung, um Hilfe zu bitten", "it's okay to ask for help"],
-        ["Schwierigkeiten beim Schlafen und Konzentrieren", "difficulty sleeping and concentrating"],
-        ["ein vertrauliches Gespräch", "a confidential conversation"],
+        ["ich fühle mich in letzter Zeit überfordert", "últimamente me he sentido abrumado/a"],
+        ["mit einem Therapeuten sprechen", "hablar con un terapeuta"],
+        ["es ist in Ordnung, um Hilfe zu bitten", "está bien pedir ayuda"],
+        ["Schwierigkeiten beim Schlafen und Konzentrieren", "dificultad para dormir y concentrarse"],
+        ["ein vertrauliches Gespräch", "una conversación confidencial"],
       ],
       grammar: [
         ["Presente con \"in letzter Zeit\"", "\"Ich fühle mich...in letzter Zeit\" describe un estado emocional que comenzó en el pasado y continúa ahora.", "Ich fühle mich in den letzten Wochen überfordert."],
@@ -8581,11 +8581,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir una segunda opinión médica de forma educada y profesional en alemán.",
     study: {
       vocab: [
-        ["ich möchte eine zweite Meinung einholen", "I'd like to seek a second opinion"],
-        ["das spiegelt nicht mein Vertrauen in Sie wider", "this isn't a reflection of my trust in you"],
-        ["eine vollständig informierte Entscheidung treffen", "to make a fully informed decision"],
-        ["könnten Sie meine Unterlagen weiterleiten?", "could you transfer my records"],
-        ["ein Spezialist mit mehr Erfahrung auf diesem Gebiet", "a specialist with more experience in this area"],
+        ["ich möchte eine zweite Meinung einholen", "me gustaría buscar una segunda opinión"],
+        ["das spiegelt nicht mein Vertrauen in Sie wider", "esto no refleja mi confianza en usted"],
+        ["eine vollständig informierte Entscheidung treffen", "tomar una decisión totalmente informada"],
+        ["könnten Sie meine Unterlagen weiterleiten?", "¿podría transferir mi historial?"],
+        ["ein Spezialist mit mehr Erfahrung auf diesem Gebiet", "un especialista con más experiencia en esta área"],
       ],
       grammar: [
         ["Matizar una petición delicada", "Frases como \"das spiegelt nicht...wider\" suavizan una petición que podría malinterpretarse, mostrando respeto mientras se defiende una decisión.", "Ich möchte eine zweite Meinung einholen — das spiegelt nicht mein Vertrauen in Sie wider, aber ich möchte gut informiert sein."],
@@ -8605,11 +8605,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos en alemán relacionados con la salud y el bienestar.",
     study: {
       vocab: [
-        ["nicht ganz auf dem Damm sein", "to be under the weather"],
-        ["wieder auf den Beinen sein", "to be back on your feet"],
-        ["eine Erkältung bekämpfen", "to fight off a cold"],
-        ["ein einwandfreies Gesundheitszeugnis", "a clean bill of health"],
-        ["es ruhig angehen lassen", "to take it easy"],
+        ["nicht ganz auf dem Damm sein", "estar pachucho/algo indispuesto"],
+        ["wieder auf den Beinen sein", "estar recuperado"],
+        ["eine Erkältung bekämpfen", "combatir un resfriado"],
+        ["ein einwandfreies Gesundheitszeugnis", "un buen estado de salud"],
+        ["es ruhig angehen lassen", "tomárselo con calma"],
       ],
       grammar: [
         ["Modismos con partes del cuerpo y salud", "Estos modismos usan imágenes cotidianas para describir el estado de salud de forma natural y coloquial.", "Ich war die ganze Woche nicht auf dem Damm, aber jetzt bin ich endlich wieder auf den Beinen."],
@@ -8632,12 +8632,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales del entorno de oficina en alemán.",
     study: {
       vocab: [
-        ["die Besprechung", "the meeting"],
-        ["die Frist", "the deadline"],
-        ["der Kollege/die Kollegin", "the coworker"],
-        ["der Chef/die Chefin", "the boss"],
-        ["der Bericht", "the report"],
-        ["die E-Mail", "the email"],
+        ["die Besprechung", "la reunión"],
+        ["die Frist", "el plazo"],
+        ["der Kollege/die Kollegin", "el compañero de trabajo"],
+        ["der Chef/die Chefin", "el jefe"],
+        ["der Bericht", "el informe"],
+        ["die E-Mail", "el correo electrónico"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en el trabajo", "\"Der Chef/die Chefin\" cambia de género según quien ocupa el puesto.", "der Chef (m) / die Chefin (f)"],
@@ -8657,10 +8657,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para el entorno laboral en alemán.",
     study: {
       vocab: [
-        ["Können wir eine Besprechung ansetzen?", "Can we schedule a meeting?"],
-        ["Ich werde mehr Zeit brauchen", "I'm going to need more time"],
-        ["Ich habe die Datei angehängt", "I've attached the file"],
-        ["Danke für Ihre Geduld", "Thank you for your patience"],
+        ["Können wir eine Besprechung ansetzen?", "¿Podemos programar una reunión?"],
+        ["Ich werde mehr Zeit brauchen", "Voy a necesitar más tiempo"],
+        ["Ich habe die Datei angehängt", "He adjuntado el archivo"],
+        ["Danke für Ihre Geduld", "Gracias por su paciencia"],
       ],
       grammar: [
         ["\"Werden + infinitivo\" para planes inmediatos", "\"Ich werde brauchen\" expresa un plan o necesidad cercana en el tiempo.", "Ich werde mehr Zeit brauchen, um den Bericht fertigzustellen."],
@@ -8679,10 +8679,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo pidiendo ayuda a un compañero de trabajo en alemán.",
     study: {
       vocab: [
-        ["Hast du eine Minute?", "Do you have a minute?"],
-        ["Klar, wie kann ich helfen?", "Sure, how can I help?"],
-        ["Ich weiß nicht, wie man dieses Programm benutzt", "I don't know how to use this program"],
-        ["Ich erkläre es dir sofort", "I'll explain it to you right now"],
+        ["Hast du eine Minute?", "¿Tienes un minuto?"],
+        ["Klar, wie kann ich helfen?", "Claro, ¿en qué puedo ayudarte?"],
+        ["Ich weiß nicht, wie man dieses Programm benutzt", "No sé usar este programa"],
+        ["Ich erkläre es dir sofort", "Te lo explico ahora mismo"],
       ],
       grammar: [
         ["\"Hast du eine Minute?\" para pedir atención", "Es una forma informal y educada de interrumpir a un compañero para pedir ayuda.", "Hast du eine Minute? Ich brauche deine Hilfe."],
@@ -8702,10 +8702,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario para participar en reuniones y presentaciones en alemán.",
     study: {
       vocab: [
-        ["beginnen wir mit der Tagesordnung", "let's start with the agenda"],
-        ["gibt es Fragen?", "any questions?"],
-        ["wie Sie auf dieser Folie sehen können", "as you can see on this slide"],
-        ["kommen wir zum nächsten Punkt", "let's move to the next point"],
+        ["beginnen wir mit der Tagesordnung", "empecemos con la agenda"],
+        ["gibt es Fragen?", "¿alguna pregunta?"],
+        ["wie Sie auf dieser Folie sehen können", "como pueden ver en esta diapositiva"],
+        ["kommen wir zum nächsten Punkt", "pasemos al siguiente punto"],
       ],
       grammar: [
         ["Imperativo de primera persona plural (\"wir\")", "\"Beginnen wir\", \"kommen wir\" son formas de \"wir\" para proponer una acción conjunta.", "Beginnen wir mit der heutigen Tagesordnung."],
@@ -8724,10 +8724,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a escribir correos breves y profesionales en alemán.",
     study: {
       vocab: [
-        ["Sehr geehrte/r...", "Dear..."],
-        ["Ich freue mich auf Ihre Antwort", "I look forward to your reply"],
-        ["Mit freundlichen Grüßen", "Best regards"],
-        ["Ich schreibe Ihnen, um...", "I'm writing to..."],
+        ["Sehr geehrte/r...", "Estimado/a..."],
+        ["Ich freue mich auf Ihre Antwort", "Quedo a la espera de su respuesta"],
+        ["Mit freundlichen Grüßen", "Saludos cordiales"],
+        ["Ich schreibe Ihnen, um...", "Le escribo para..."],
       ],
       grammar: [
         ["Fórmulas fijas para correos formales", "\"Sehr geehrte/r\", \"Ich schreibe Ihnen, um...\" y \"Mit freundlichen Grüßen\" son fórmulas fijas típicas de correos profesionales.", "Sehr geehrter Herr López, ich schreibe Ihnen, um die Besprechung zu bestätigen. Mit freundlichen Grüßen."],
@@ -8746,10 +8746,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a manejar un desacuerdo profesional de forma educada en alemán.",
     study: {
       vocab: [
-        ["ich verstehe Ihren Standpunkt, aber...", "I understand your point, but..."],
-        ["ich bin nicht ganz einverstanden", "I don't entirely agree"],
-        ["können wir einen Mittelweg finden?", "can we find a middle ground?"],
-        ["ich bin lieber direkt in dieser Sache", "I'd rather be direct about it"],
+        ["ich verstehe Ihren Standpunkt, aber...", "Entiendo su punto, pero..."],
+        ["ich bin nicht ganz einverstanden", "No estoy del todo de acuerdo"],
+        ["können wir einen Mittelweg finden?", "¿podemos encontrar un término medio?"],
+        ["ich bin lieber direkt in dieser Sache", "prefiero ser directo al respecto"],
       ],
       grammar: [
         ["\"Aber\" para suavizar un desacuerdo", "\"Ich verstehe Ihren Standpunkt, aber...\" reconoce la otra opinión antes de presentar la tuya.", "Ich verstehe Ihren Standpunkt, aber ich denke, es gibt eine andere Option."],
@@ -8768,10 +8768,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a pedir días libres o vacaciones en el trabajo en alemán.",
     study: {
       vocab: [
-        ["ich möchte ein paar freie Tage beantragen", "I'd like to request some days off"],
-        ["ich habe angesammelte Urlaubstage", "I have accumulated vacation days"],
-        ["wäre es möglich, sie nächste Woche zu nehmen?", "would it be possible to take them next week?"],
-        ["ich muss das mit meinem Team abstimmen", "I need to coordinate it with my team"],
+        ["ich möchte ein paar freie Tage beantragen", "me gustaría solicitar unos días libres"],
+        ["ich habe angesammelte Urlaubstage", "tengo días de vacaciones acumulados"],
+        ["wäre es möglich, sie nächste Woche zu nehmen?", "¿sería posible tomarlos la próxima semana?"],
+        ["ich muss das mit meinem Team abstimmen", "necesito coordinarlo con mi equipo"],
       ],
       grammar: [
         ["\"Wäre es möglich\" para peticiones muy educadas", "El condicional \"wäre es möglich\" suaviza una petición delicada como pedir tiempo libre.", "Wäre es möglich, diese Tage nächste Woche zu nehmen?"],
@@ -8791,11 +8791,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a negociar tu salario o condiciones laborales de forma profesional en alemán.",
     study: {
       vocab: [
-        ["basierend auf meiner Erfahrung und meinen Ergebnissen", "based on my experience and results"],
-        ["ich hatte gehofft, wir könnten über mein Gehalt sprechen", "I was hoping we could discuss my salary"],
-        ["der Branchenstandard für diese Position", "industry standard for this role"],
-        ["ein leistungsbasierter Bonus", "a performance-based bonus"],
-        ["ich bin offen für einen Kompromiss", "I'm open to a compromise"],
+        ["basierend auf meiner Erfahrung und meinen Ergebnissen", "basándome en mi experiencia y resultados"],
+        ["ich hatte gehofft, wir könnten über mein Gehalt sprechen", "esperaba que pudiéramos hablar de mi salario"],
+        ["der Branchenstandard für diese Position", "el estándar del sector para este puesto"],
+        ["ein leistungsbasierter Bonus", "una bonificación por desempeño"],
+        ["ich bin offen für einen Kompromiss", "estoy abierto/a a un acuerdo"],
       ],
       grammar: [
         ["\"Ich hatte gehofft, wir könnten...\" para abrir una negociación", "Esta estructura suaviza una petición delicada, mostrando iniciativa sin sonar exigente.", "Ich hatte gehofft, wir könnten über mein Gehalt sprechen, basierend auf meinen jüngsten Ergebnissen."],
@@ -8815,11 +8815,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a dar y recibir feedback constructivo de forma profesional en alemán.",
     study: {
       vocab: [
-        ["konstruktives Feedback", "constructive feedback"],
-        ["was gut lief und was verbessert werden könnte", "what went well and what could improve"],
-        ["ich schätze das Feedback wirklich", "I really appreciate the feedback"],
-        ["ein Verbesserungsbereich", "one area for improvement"],
-        ["das berücksichtigen", "to take this on board"],
+        ["konstruktives Feedback", "la retroalimentación constructiva"],
+        ["was gut lief und was verbessert werden könnte", "qué salió bien y qué se podría mejorar"],
+        ["ich schätze das Feedback wirklich", "agradezco mucho la retroalimentación"],
+        ["ein Verbesserungsbereich", "un área de mejora"],
+        ["das berücksichtigen", "tener esto en cuenta"],
       ],
       grammar: [
         ["Estructura \"sándwich\" para dar feedback", "Se empieza con algo positivo, se menciona el área de mejora, y se cierra con ánimo — suaviza la crítica sin perder claridad.", "Du hast bei der Präsentation gute Arbeit geleistet, aber ein Verbesserungsbereich ist das Timing. Insgesamt gut gemacht!"],
@@ -8838,11 +8838,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario para gestionar proyectos, plazos y prioridades en alemán.",
     study: {
       vocab: [
-        ["hinter dem Zeitplan zurückfallen", "to fall behind schedule"],
-        ["die Schlüsselaufgaben priorisieren", "to prioritize the key tasks"],
-        ["eine realistische Frist", "a realistic deadline"],
-        ["Ressourcen zuweisen", "to allocate resources"],
-        ["ein Statusupdate", "a status update"],
+        ["hinter dem Zeitplan zurückfallen", "retrasarse respecto al calendario"],
+        ["die Schlüsselaufgaben priorisieren", "priorizar las tareas clave"],
+        ["eine realistische Frist", "un plazo realista"],
+        ["Ressourcen zuweisen", "asignar recursos"],
+        ["ein Statusupdate", "una actualización de estado"],
       ],
       grammar: [
         ["\"Hinter dem Zeitplan zurückfallen\" para retrasos", "Esta expresión describe estar retrasado respecto a un plan, sin culpar directamente a nadie.", "Wir sind aufgrund unerwarteter Verzögerungen hinter dem Zeitplan zurückgefallen."],
@@ -8862,11 +8862,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a comunicarte de forma efectiva con colegas de distintas culturas en un entorno laboral en alemán.",
     study: {
       vocab: [
-        ["Direktheit kann unterschiedlich wahrgenommen werden", "directness can be perceived differently"],
-        ["Missverständnisse vermeiden", "to avoid misunderstandings"],
-        ["ein anderer Kommunikationsstil", "a different communication style"],
-        ["klären statt annehmen", "to clarify rather than assume"],
-        ["kulturelle Unterschiede berücksichtigen", "being mindful of cultural differences"],
+        ["Direktheit kann unterschiedlich wahrgenommen werden", "la franqueza puede percibirse de forma distinta"],
+        ["Missverständnisse vermeiden", "evitar malentendidos"],
+        ["ein anderer Kommunikationsstil", "un estilo de comunicación diferente"],
+        ["klären statt annehmen", "aclarar en lugar de suponer"],
+        ["kulturelle Unterschiede berücksichtigen", "ser consciente de las diferencias culturales"],
       ],
       grammar: [
         ["\"Statt\" para contrastar dos acciones", "\"Klären statt annehmen\" contrasta dos comportamientos, prefiriendo el primero sobre el segundo.", "Es ist besser zu fragen, statt anzunehmen, dass man versteht."],
@@ -8885,11 +8885,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a persuadir y argumentar de forma convincente en una reunión de trabajo en alemán.",
     study: {
       vocab: [
-        ["wenn wir uns die Daten genau ansehen", "if we look at the data closely"],
-        ["dieser Ansatz würde uns erlauben, zu...", "this approach would allow us to..."],
-        ["ich möchte diesen Punkt weiter ausführen", "I'd like to build on that point"],
-        ["die Zahlen sprechen für sich", "the numbers speak for themselves"],
-        ["lassen Sie uns das Für und Wider abwägen", "let's weigh the pros and cons"],
+        ["wenn wir uns die Daten genau ansehen", "si observamos los datos de cerca"],
+        ["dieser Ansatz würde uns erlauben, zu...", "este enfoque nos permitiría..."],
+        ["ich möchte diesen Punkt weiter ausführen", "me gustaría ampliar ese punto"],
+        ["die Zahlen sprechen für sich", "los números hablan por sí solos"],
+        ["lassen Sie uns das Für und Wider abwägen", "sopesemos los pros y los contras"],
       ],
       grammar: [
         ["Condicional para proponer ideas con tacto", "\"Dieser Ansatz würde uns erlauben...\" usa el condicional para proponer una idea sin imponerla, dejando espacio a la discusión.", "Dieser Ansatz würde uns erlauben, die Kosten zu senken, ohne die Qualität zu beeinträchtigen."],
@@ -8909,11 +8909,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos en alemán muy comunes en el entorno laboral y corporativo.",
     study: {
       vocab: [
-        ["über den Tellerrand hinaus denken", "to think outside the box"],
-        ["sich kurz abstimmen", "to touch base"],
-        ["auf derselben Wellenlänge sein", "to be on the same page"],
-        ["voll durchstarten", "to hit the ground running"],
-        ["die einfachsten Aufgaben zuerst", "low-hanging fruit"],
+        ["über den Tellerrand hinaus denken", "pensar de forma innovadora"],
+        ["sich kurz abstimmen", "ponerse en contacto brevemente"],
+        ["auf derselben Wellenlänge sein", "estar en sintonía"],
+        ["voll durchstarten", "empezar con buen pie"],
+        ["die einfachsten Aufgaben zuerst", "lo más fácil de conseguir"],
       ],
       grammar: [
         ["Modismos corporativos comunes", "Estos modismos son extremadamente frecuentes en reuniones de trabajo y no tienen traducción literal directa.", "Lassen Sie uns nächste Woche kurz abstimmen, um sicherzustellen, dass wir auf derselben Wellenlänge sind."],
@@ -8936,12 +8936,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales para una fiesta en alemán.",
     study: {
       vocab: [
-        ["der Gast", "the guest"],
-        ["der Gastgeber/die Gastgeberin", "the host"],
-        ["die Musik", "the music"],
-        ["das Geschenk", "the gift"],
-        ["der Kuchen", "the cake"],
-        ["die Luftballons", "balloons"],
+        ["der Gast", "el invitado"],
+        ["der Gastgeber/die Gastgeberin", "el anfitrión"],
+        ["die Musik", "la música"],
+        ["das Geschenk", "el regalo"],
+        ["der Kuchen", "la tarta"],
+        ["die Luftballons", "los globos"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en la fiesta", "\"Der Gastgeber/die Gastgeberin\" cambia de género según quien organiza.", "der Gastgeber (m) / die Gastgeberin (f)"],
@@ -8961,10 +8961,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para socializar en una fiesta en alemán.",
     study: {
       vocab: [
-        ["Schön, dich zu sehen!", "So nice to see you!"],
-        ["Woher kennst du den Gastgeber?", "How do you know the host?"],
-        ["Alles Gute zum Geburtstag!", "Happy birthday!"],
-        ["Danke, dass du mich eingeladen hast", "Thanks for inviting me"],
+        ["Schön, dich zu sehen!", "¡Qué alegría verte!"],
+        ["Woher kennst du den Gastgeber?", "¿Cómo conoces al anfitrión?"],
+        ["Alles Gute zum Geburtstag!", "¡Feliz cumpleaños!"],
+        ["Danke, dass du mich eingeladen hast", "Gracias por invitarme"],
       ],
       grammar: [
         ["Exclamaciones simples", "\"Schön, dich zu sehen!\" es una forma natural y directa de expresar alegría en alemán.", "Schön, dich zu sehen! / Wie schön, dass du hier bist!"],
@@ -8983,10 +8983,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo conociendo gente nueva en una fiesta en alemán.",
     study: {
       vocab: [
-        ["Hallo, wir kennen uns noch nicht, ich bin Ana", "Hi, we haven't met, I'm Ana"],
-        ["Freut mich, ich bin Marco", "Nice to meet you, I'm Marco"],
-        ["Was machst du beruflich?", "What do you do?"],
-        ["Ich bin Grafikdesignerin", "I'm a graphic designer"],
+        ["Hallo, wir kennen uns noch nicht, ich bin Ana", "Hola, no nos conocemos, soy Ana"],
+        ["Freut mich, ich bin Marco", "Encantado, soy Marco"],
+        ["Was machst du beruflich?", "¿A qué te dedicas?"],
+        ["Ich bin Grafikdesignerin", "Soy diseñador/a gráfico/a"],
       ],
       grammar: [
         ["\"Wir kennen uns noch nicht\" para presentarse", "Esta frase se usa para iniciar una presentación con alguien nuevo de forma natural.", "Hallo, wir kennen uns noch nicht, ich bin Ana."],
@@ -9006,10 +9006,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a invitar a alguien y responder a una invitación en alemán.",
     study: {
       vocab: [
-        ["möchtest du zu meiner Party kommen?", "would you like to come to my party?"],
-        ["ich würde sehr gerne kommen", "I'd love to go"],
-        ["tut mir leid, ich habe schon Pläne", "sorry, I already have plans"],
-        ["kann ich jemanden mitbringen?", "can I bring someone?"],
+        ["möchtest du zu meiner Party kommen?", "¿te gustaría venir a mi fiesta?"],
+        ["ich würde sehr gerne kommen", "me encantaría ir"],
+        ["tut mir leid, ich habe schon Pläne", "lo siento, ya tengo planes"],
+        ["kann ich jemanden mitbringen?", "¿puedo traer a alguien?"],
       ],
       grammar: [
         ["\"Sehr gerne\" para aceptar con entusiasmo", "\"Ich würde sehr gerne\" es una forma entusiasta y educada de aceptar una invitación.", "Ich würde sehr gerne kommen, danke für die Einladung."],
@@ -9028,10 +9028,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar sobre la comida y bebida en una fiesta en alemán.",
     study: {
       vocab: [
-        ["was gibt es zu essen?", "what's there to eat?"],
-        ["probier das, es ist lecker", "try this, it's delicious"],
-        ["kannst du mir noch etwas nachschenken?", "can you pour me a bit more?"],
-        ["das schmeckt wirklich gut", "it's really good"],
+        ["was gibt es zu essen?", "¿qué hay de comer?"],
+        ["probier das, es ist lecker", "prueba esto, está delicioso"],
+        ["kannst du mir noch etwas nachschenken?", "¿me sirves un poco más?"],
+        ["das schmeckt wirklich gut", "está muy bueno"],
       ],
       grammar: [
         ["\"Wirklich\" para intensificar un adjetivo", "\"Wirklich\" antes de un adjetivo lo intensifica, muy usado en conversación informal.", "Das schmeckt wirklich gut. / Das ist wirklich lecker."],
@@ -9050,10 +9050,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a manejar situaciones incómodas o preguntas indiscretas en una fiesta, en alemán.",
     study: {
       vocab: [
-        ["ich rede lieber nicht darüber", "I'd rather not talk about that"],
-        ["was für eine unangenehme Frage", "what an awkward question"],
-        ["lass uns das Thema wechseln", "let's change the subject"],
-        ["es geht mich zwar nichts an, aber...", "it's none of my business, but..."],
+        ["ich rede lieber nicht darüber", "prefiero no hablar de eso"],
+        ["was für eine unangenehme Frage", "qué pregunta más incómoda"],
+        ["lass uns das Thema wechseln", "cambiemos de tema"],
+        ["es geht mich zwar nichts an, aber...", "no es asunto mío, pero..."],
       ],
       grammar: [
         ["\"Lieber + verbo\" para declinar con tacto", "\"Ich rede lieber nicht...\" suaviza una negativa sin sonar brusco.", "Ich rede lieber jetzt nicht darüber."],
@@ -9073,10 +9073,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a despedirte y hacer planes futuros al final de una fiesta en alemán.",
     study: {
       vocab: [
-        ["ich muss jetzt los", "I have to go now"],
-        ["es war schön, dich kennenzulernen", "it was a pleasure meeting you"],
-        ["lass uns an einem anderen Tag treffen", "let's meet up another day"],
-        ["bis bald", "see you soon"],
+        ["ich muss jetzt los", "tengo que irme ya"],
+        ["es war schön, dich kennenzulernen", "fue un placer conocerte"],
+        ["lass uns an einem anderen Tag treffen", "quedemos otro día"],
+        ["bis bald", "hasta pronto"],
       ],
       grammar: [
         ["Imperativo de \"wir\" (\"lass uns\") para proponer planes", "\"Lass uns treffen\" es la forma de \"wir\", usado para proponer un plan conjunto.", "Lass uns an einem anderen Tag einen Kaffee trinken."],
@@ -9095,11 +9095,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a dar tu opinión y debatir ligeramente sobre temas cotidianos en una fiesta, en alemán.",
     study: {
       vocab: [
-        ["meiner Meinung nach", "in my opinion"],
-        ["ich sehe das anders", "I see it differently"],
-        ["das ist ein guter Punkt", "that's a fair point"],
-        ["ich bin mir da nicht so sicher", "I'm not so sure about that"],
-        ["wir werden uns einig sein müssen, dass wir uneinig sind", "we'll have to agree to disagree"],
+        ["meiner Meinung nach", "en mi opinión"],
+        ["ich sehe das anders", "yo lo veo de otra manera"],
+        ["das ist ein guter Punkt", "es un buen argumento"],
+        ["ich bin mir da nicht so sicher", "no estoy tan seguro/a de eso"],
+        ["wir werden uns einig sein müssen, dass wir uneinig sind", "tendremos que aceptar que no estamos de acuerdo"],
       ],
       grammar: [
         ["\"Das ist ein guter Punkt, aber...\" para debatir con cortesía", "Esta estructura reconoce el argumento del otro antes de presentar el tuyo, manteniendo el tono amistoso propio de una fiesta.", "Das ist ein guter Punkt, aber ich finde den Film immer noch überbewertet."],
@@ -9119,11 +9119,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a contar una anécdota de forma entretenida y con buen ritmo en alemán.",
     study: {
       vocab: [
-        ["du wirst nicht glauben, was passiert ist", "you won't believe what happened"],
-        ["also da stand ich...", "so there I was..."],
-        ["kurz gesagt", "long story short"],
-        ["es wird noch besser", "it gets better"],
-        ["und so ist alles passiert", "and that's how it all happened"],
+        ["du wirst nicht glauben, was passiert ist", "no vas a creer lo que pasó"],
+        ["also da stand ich...", "entonces ahí estaba yo..."],
+        ["kurz gesagt", "para resumir"],
+        ["es wird noch besser", "y hay más"],
+        ["und so ist alles passiert", "y así fue como pasó todo"],
       ],
       grammar: [
         ["Pasado narrativo con marcadores de historia", "Frases como \"also da stand ich...\" y \"kurz gesagt\" estructuran una anécdota de forma natural y mantienen el interés del oyente.", "Also da stand ich, völlig verloren am Flughafen, und kurz gesagt, ich habe meinen Flug verpasst."],
@@ -9143,11 +9143,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a reconocer y usar humor ligero y sarcasmo suave en conversaciones sociales en alemán.",
     study: {
       vocab: [
-        ["ich mache nur Spaß", "I'm just kidding"],
-        ["das ist urkomisch", "that's hilarious"],
-        ["na klar (sarcástico)", "yeah, right"],
-        ["nichts für ungut, aber...", "no offense, but..."],
-        ["du hast wirklich Humor", "you have a great sense of humor"],
+        ["ich mache nur Spaß", "es broma"],
+        ["das ist urkomisch", "qué gracioso"],
+        ["na klar (sarcástico)", "sí, claro (irónico)"],
+        ["nichts für ungut, aber...", "sin ofender, pero..."],
+        ["du hast wirklich Humor", "tienes muy buen sentido del humor"],
       ],
       grammar: [
         ["Tono e intención en el humor coloquial", "Frases como \"na klar\" cambian completamente de significado según el tono — se usan para expresar incredulidad o sarcasmo suave, no acuerdo literal.", "\"Ich beende das Projekt in einem Tag.\" \"Na klar\" (dicho con ironía)"],
@@ -9166,11 +9166,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hacer networking profesional de forma natural en un evento social en alemán.",
     study: {
       vocab: [
-        ["was machst du beruflich?", "what do you do for a living?"],
-        ["bleiben wir in Kontakt", "let's stay in touch"],
-        ["könnte ich deine Kontaktdaten haben?", "could I get your contact information"],
-        ["ich würde dich gerne mal dazu befragen", "I'd love to pick your brain sometime"],
-        ["die Welt ist klein!", "small world!"],
+        ["was machst du beruflich?", "¿a qué te dedicas?"],
+        ["bleiben wir in Kontakt", "mantengamos el contacto"],
+        ["könnte ich deine Kontaktdaten haben?", "¿me das tu contacto?"],
+        ["ich würde dich gerne mal dazu befragen", "me encantaría consultarte algo en algún momento"],
+        ["die Welt ist klein!", "¡qué casualidad!"],
       ],
       grammar: [
         ["Preguntas abiertas para iniciar networking", "Preguntas como \"Was machst du beruflich?\" abren la conversación de forma natural sin sonar demasiado formal, típico en eventos sociales.", "Also, was machst du beruflich? Ich bin neugierig, wie du dazu gekommen bist."],
@@ -9190,11 +9190,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a proponer y convencer a un grupo de amigos de hacer un plan en alemán, con un tono persuasivo pero informal.",
     study: {
       vocab: [
-        ["hört mir mal kurz zu", "hear me out"],
-        ["was haltet ihr davon, wenn wir...", "what if we tried..."],
-        ["ich bin sicher, es würde euch allen gefallen", "I bet you'd all love it"],
-        ["kommt schon, es wird lustig", "come on, it'll be fun"],
-        ["wer ist dabei?", "who's in"],
+        ["hört mir mal kurz zu", "escúchame"],
+        ["was haltet ihr davon, wenn wir...", "¿y si probamos...?"],
+        ["ich bin sicher, es würde euch allen gefallen", "seguro que a todos os encantaría"],
+        ["kommt schon, es wird lustig", "venga, será divertido"],
+        ["wer ist dabei?", "¿quién se apunta?"],
       ],
       grammar: [
         ["\"Was haltet ihr davon, wenn...?\" para proponer ideas con entusiasmo", "Esta estructura hipotética invita al grupo a imaginar una idea sin sonar impositivo, ideal para proponer planes.", "Was haltet ihr davon, wenn wir dieses Wochenende diese neue Rooftop-Bar ausprobieren? Ich bin sicher, es würde euch allen gefallen."],
@@ -9214,11 +9214,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos coloquiales muy comunes en conversaciones sociales e informales en alemán.",
     study: {
       vocab: [
-        ["das Eis brechen", "to break the ice"],
-        ["die Seele der Party sein", "to be the life of the party"],
-        ["sofort mit jemandem klarkommen", "to hit it off with someone"],
-        ["sich in eine Party einschleichen", "to crash a party"],
-        ["die Party fängt gerade erst an", "the party's just getting started"],
+        ["das Eis brechen", "romper el hielo"],
+        ["die Seele der Party sein", "ser el alma de la fiesta"],
+        ["sofort mit jemandem klarkommen", "conectar bien con alguien"],
+        ["sich in eine Party einschleichen", "colarse en una fiesta"],
+        ["die Party fängt gerade erst an", "la fiesta acaba de empezar"],
       ],
       grammar: [
         ["Modismos sociales muy frecuentes", "Estos modismos aparecen constantemente en conversaciones informales y describen dinámicas sociales de forma vívida.", "Wir sind sofort klargekommen, und um Mitternacht war sie eindeutig die Seele der Party."],
@@ -9241,12 +9241,12 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende palabras esenciales de la vida universitaria en alemán.",
     study: {
       vocab: [
-        ["die Einschreibung", "enrollment/tuition"],
-        ["das Semester", "the semester"],
-        ["das Stipendium", "the scholarship"],
-        ["der Hörsaal", "the classroom"],
-        ["die Abschlussprüfung", "the final exam"],
-        ["der Abschluss", "the degree"],
+        ["die Einschreibung", "la matrícula"],
+        ["das Semester", "el semestre"],
+        ["das Stipendium", "la beca"],
+        ["der Hörsaal", "el aula"],
+        ["die Abschlussprüfung", "el examen final"],
+        ["der Abschluss", "el título/la carrera"],
       ],
       grammar: [
         ["Género de sustantivos académicos", "\"Das Semester\" y \"das Stipendium\" son neutros; \"die Einschreibung\" es femenina.", "das Semester (n) / die Einschreibung (f)"],
@@ -9266,10 +9266,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende frases útiles para trámites universitarios en alemán.",
     study: {
       vocab: [
-        ["ich brauche eine Immatrikulationsbescheinigung", "I need an enrollment certificate"],
-        ["wo gebe ich dieses Formular ab?", "where do I submit this form?"],
-        ["ich möchte das Fach wechseln", "I want to change majors"],
-        ["was ist die Frist?", "what's the deadline?"],
+        ["ich brauche eine Immatrikulationsbescheinigung", "necesito un certificado de matrícula"],
+        ["wo gebe ich dieses Formular ab?", "¿dónde entrego este formulario?"],
+        ["ich möchte das Fach wechseln", "quiero cambiar de carrera"],
+        ["was ist die Frist?", "¿cuál es el plazo?"],
       ],
       grammar: [
         ["\"Wo + verbo?\" para trámites", "\"Wo gebe ich...ab?\" pregunta por el lugar correcto para un trámite.", "Wo gebe ich dieses Formular ab?"],
@@ -9288,10 +9288,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Practica un diálogo completo en la oficina de administración universitaria en alemán.",
     study: {
       vocab: [
-        ["Guten Tag, wie kann ich Ihnen helfen?", "Good morning, how can I help you?"],
-        ["Ich brauche mein Notenzeugnis", "I need my transcript"],
-        ["Kann ich Ihre Matrikelnummer haben?", "Can I have your student number?"],
-        ["Das wird in drei Tagen fertig sein", "It'll be ready in three days"],
+        ["Guten Tag, wie kann ich Ihnen helfen?", "Buenos días, ¿en qué puedo ayudarle?"],
+        ["Ich brauche mein Notenzeugnis", "necesito mi expediente académico"],
+        ["Kann ich Ihre Matrikelnummer haben?", "¿Me da su número de estudiante?"],
+        ["Das wird in drei Tagen fertig sein", "Estará listo en tres días"],
       ],
       grammar: [
         ["Futuro simple para trámites pendientes", "\"Das wird fertig sein\" usa el futuro simple para indicar cuándo estará disponible un trámite.", "Das wird in drei Werktagen fertig sein."],
@@ -9311,10 +9311,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar sobre la biblioteca universitaria en alemán.",
     study: {
       vocab: [
-        ["ein Buch ausleihen", "to borrow a book"],
-        ["das Rückgabedatum", "the due date"],
-        ["die Ausleihe verlängern", "to renew the loan"],
-        ["der stille Lesesaal", "the quiet study room"],
+        ["ein Buch ausleihen", "pedir prestado un libro"],
+        ["das Rückgabedatum", "la fecha de vencimiento"],
+        ["die Ausleihe verlängern", "renovar el préstamo"],
+        ["der stille Lesesaal", "la sala de estudio silenciosa"],
       ],
       grammar: [
         ["\"Ausleihen\" para solicitar algo temporal", "\"Ausleihen\" describe tomar algo de forma temporal, con intención de devolverlo.", "Ich möchte dieses Buch ausleihen."],
@@ -9333,10 +9333,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario para organizar trabajo en grupo en alemán.",
     study: {
       vocab: [
-        ["teilen wir uns die Aufgaben auf", "let's divide up the tasks"],
-        ["wer übernimmt die Einleitung?", "who's in charge of the intro?"],
-        ["treffen wir uns am Donnerstag", "let's meet on Thursday"],
-        ["ich bin mit meinem Teil noch nicht fertig", "I haven't finished my part yet"],
+        ["teilen wir uns die Aufgaben auf", "dividamos las tareas"],
+        ["wer übernimmt die Einleitung?", "¿quién se encarga de la introducción?"],
+        ["treffen wir uns am Donnerstag", "quedemos el jueves"],
+        ["ich bin mit meinem Teil noch nicht fertig", "todavía no he terminado mi parte"],
       ],
       grammar: [
         ["Imperativo de \"wir\" para organizar tareas", "\"Teilen wir uns...auf\", \"treffen wir uns\" proponen una acción conjunta del grupo.", "Teilen wir uns die Aufgaben des Projekts auf."],
@@ -9355,10 +9355,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a comunicarte con un profesor sobre dudas o trabajos en alemán.",
     study: {
       vocab: [
-        ["könnten Sie mir das erklären?", "could you clarify this doubt for me?"],
-        ["ich habe das Thema nicht ganz verstanden", "I didn't quite understand the topic"],
-        ["haben Sie Sprechstunden?", "do you have office hours?"],
-        ["ich würde gerne meine Note besprechen", "I'd like to review my grade"],
+        ["könnten Sie mir das erklären?", "¿podrías aclararme esta duda?"],
+        ["ich habe das Thema nicht ganz verstanden", "no entendí muy bien el tema"],
+        ["haben Sie Sprechstunden?", "¿tiene horario de tutorías?"],
+        ["ich würde gerne meine Note besprechen", "me gustaría revisar mi calificación"],
       ],
       grammar: [
         ["\"Könnten Sie...?\" para peticiones formales con el profesor", "\"Könnten Sie...?\" es la forma educada y formal de pedir algo a una figura de autoridad como un profesor.", "Könnten Sie mir das für die Prüfung erklären?"],
@@ -9378,10 +9378,10 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende vocabulario sobre la vida diaria en el campus universitario en alemán.",
     study: {
       vocab: [
-        ["die Mensa", "the campus cafeteria"],
-        ["der Studentenclub", "the student club"],
-        ["das Studentenwohnheim", "the student dorm"],
-        ["der Stundenplan", "the class schedule"],
+        ["die Mensa", "la cafetería del campus"],
+        ["der Studentenclub", "el club estudiantil"],
+        ["das Studentenwohnheim", "la residencia estudiantil"],
+        ["der Stundenplan", "el horario de clases"],
       ],
       grammar: [
         ["Sustantivos compuestos del campus", "Los sustantivos compuestos alemanes combinan varias palabras en una sola, muy común en vocabulario universitario.", "Studentenwohnheim = Studenten + Wohnheim"],
@@ -9400,11 +9400,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a hablar sobre un ensayo o trabajo académico con tu profesor en alemán.",
     study: {
       vocab: [
-        ["die These der Arbeit muss verbessert werden", "the thesis statement needs work"],
-        ["Ihre Quellen korrekt zitieren", "to cite your sources properly"],
-        ["dem Argument fehlt es an unterstützender Evidenz", "the argument lacks supporting evidence"],
-        ["die Struktur überarbeiten", "to revise the structure"],
-        ["eine gut untermauerte Schlussfolgerung", "a well-supported conclusion"],
+        ["die These der Arbeit muss verbessert werden", "la tesis del trabajo necesita mejorar"],
+        ["Ihre Quellen korrekt zitieren", "citar las fuentes correctamente"],
+        ["dem Argument fehlt es an unterstützender Evidenz", "al argumento le falta evidencia que lo respalde"],
+        ["die Struktur überarbeiten", "revisar la estructura"],
+        ["eine gut untermauerte Schlussfolgerung", "una conclusión bien fundamentada"],
       ],
       grammar: [
         ["Voz pasiva refleja para retroalimentación académica objetiva", "\"Das Argument muss untermauert werden\" suena más objetiva y menos personal al dar feedback académico.", "Das Argument muss mit mehr Evidenz untermauert werden."],
@@ -9424,11 +9424,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a preguntar por becas y ayudas financieras en la universidad en alemán.",
     study: {
       vocab: [
-        ["sich für ein Stipendium bewerben", "to apply for a scholarship"],
-        ["die Berechtigung für finanzielle Unterstützung", "financial aid eligibility"],
-        ["die Bewerbungsfrist", "the application deadline"],
-        ["ein leistungsbasiertes Stipendium", "a merit-based scholarship"],
-        ["Nachweisdokumente einreichen", "to submit supporting documents"],
+        ["sich für ein Stipendium bewerben", "solicitar una beca"],
+        ["die Berechtigung für finanzielle Unterstützung", "la elegibilidad para ayuda financiera"],
+        ["die Bewerbungsfrist", "el plazo de solicitud"],
+        ["ein leistungsbasiertes Stipendium", "una beca por mérito"],
+        ["Nachweisdokumente einreichen", "presentar documentos justificativos"],
       ],
       grammar: [
         ["\"Basierend auf\" + sustantivo para criterios de selección", "Esta estructura explica en qué se basa una decisión o criterio, muy común al hablar de becas.", "Dieses Stipendium wird basierend auf akademischer Leistung und finanziellem Bedarf vergeben."],
@@ -9447,11 +9447,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a participar en un debate académico en clase, defendiendo y cuestionando ideas en alemán.",
     study: {
       vocab: [
-        ["ich möchte diese Idee infrage stellen", "I'd like to challenge that idea"],
-        ["die Beweise deuten auf das Gegenteil hin", "the evidence suggests otherwise"],
-        ["den Advocatus Diaboli spielen", "to play devil's advocate"],
-        ["aus einer anderen Perspektive", "from a different perspective"],
-        ["das wirft eine wichtige Frage auf", "that raises an important question"],
+        ["ich möchte diese Idee infrage stellen", "me gustaría cuestionar esa idea"],
+        ["die Beweise deuten auf das Gegenteil hin", "la evidencia sugiere lo contrario"],
+        ["den Advocatus Diaboli spielen", "hacer de abogado del diablo"],
+        ["aus einer anderen Perspektive", "desde otra perspectiva"],
+        ["das wirft eine wichtige Frage auf", "eso plantea una pregunta importante"],
       ],
       grammar: [
         ["Suavizar el desacuerdo académico", "Frases como \"ich möchte diese Idee infrage stellen\" o \"aus einer anderen Perspektive\" permiten cuestionar un argumento sin sonar agresivo en un debate formal.", "Ich möchte diese Idee infrage stellen — aus einer anderen Perspektive deuten die Beweise auf das Gegenteil hin."],
@@ -9471,11 +9471,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a presentar y hablar sobre tu proyecto de investigación en alemán.",
     study: {
       vocab: [
-        ["die Forschungsfrage lautet...", "the research question is..."],
-        ["die Methodik besteht darin, zu...", "the methodology involves..."],
-        ["erste Ergebnisse deuten darauf hin", "preliminary findings suggest"],
-        ["weitere Forschung ist erforderlich", "further research is needed"],
-        ["Daten sammeln und analysieren", "to collect and analyze data"],
+        ["die Forschungsfrage lautet...", "la pregunta de investigación es..."],
+        ["die Methodik besteht darin, zu...", "la metodología consiste en..."],
+        ["erste Ergebnisse deuten darauf hin", "los hallazgos preliminares sugieren"],
+        ["weitere Forschung ist erforderlich", "se necesita más investigación"],
+        ["Daten sammeln und analysieren", "recopilar y analizar datos"],
       ],
       grammar: [
         ["Lenguaje de cautela académica (\"hedging\")", "Frases como \"erste Ergebnisse deuten darauf hin\" o \"weitere Forschung ist erforderlich\" evitan afirmaciones demasiado categóricas, típico del discurso académico.", "Erste Ergebnisse deuten auf eine Korrelation hin, aber weitere Forschung ist erforderlich."],
@@ -9495,11 +9495,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende a defender un argumento o tesis frente a un tribunal o profesor en alemán, con un registro académico formal.",
     study: {
       vocab: [
-        ["ich würde argumentieren, dass...", "I'd argue that..."],
-        ["diese Behauptung wird untermauert durch...", "this claim is substantiated by..."],
-        ["obwohl man argumentieren könnte, dass...", "while it could be argued that..."],
-        ["das Gegenargument berücksichtigt nicht", "the counterargument fails to consider"],
-        ["angesichts der vorgelegten Beweise", "in light of the evidence presented"],
+        ["ich würde argumentieren, dass...", "yo argumentaría que..."],
+        ["diese Behauptung wird untermauert durch...", "esta afirmación está respaldada por..."],
+        ["obwohl man argumentieren könnte, dass...", "aunque se podría argumentar que..."],
+        ["das Gegenargument berücksichtigt nicht", "el contraargumento no tiene en cuenta"],
+        ["angesichts der vorgelegten Beweise", "a la luz de la evidencia presentada"],
       ],
       grammar: [
         ["\"Obwohl man argumentieren könnte, dass...\" para reconocer una objeción", "Esta estructura reconoce un punto de vista opuesto antes de refutarlo, mostrando rigor académico y objetividad.", "Obwohl man argumentieren könnte, dass die Stichprobe klein war, bleiben die Ergebnisse statistisch signifikant."],
@@ -9519,11 +9519,11 @@ window.SITUATION_LESSON_BANKS.DE = {
     description:"Aprende modismos y expresiones comunes en el entorno académico universitario en alemán.",
     study: {
       vocab: [
-        ["eine durchgemachte Nacht haben", "to pull an all-nighter"],
-        ["die Bücher wälzen", "to hit the books"],
-        ["Denkanstoß", "food for thought"],
-        ["in letzter Minute für eine Prüfung pauken", "to cram for an exam"],
-        ["mit Bravour bestehen", "to pass with flying colors"],
+        ["eine durchgemachte Nacht haben", "quedarse toda la noche estudiando"],
+        ["die Bücher wälzen", "ponerse a estudiar en serio"],
+        ["Denkanstoß", "algo en qué pensar"],
+        ["in letzter Minute für eine Prüfung pauken", "empollar para un examen"],
+        ["mit Bravour bestehen", "aprobar con nota excelente"],
       ],
       grammar: [
         ["Modismos sobre estudiar y exámenes", "Estos modismos describen hábitos de estudio y resultados académicos de forma vívida y muy común entre estudiantes.", "Ich musste eine durchgemachte Nacht haben, aber ich habe die Prüfung mit Bravour bestanden."],
@@ -9549,12 +9549,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales del aeropuerto en italiano.",
     study: {
       vocab: [
-        ["il passaporto", "passport"],
-        ["il gate d'imbarco", "boarding gate"],
-        ["la valigia", "suitcase"],
-        ["il biglietto", "ticket"],
-        ["il volo", "flight"],
-        ["la dogana", "customs"],
+        ["il passaporto", "el pasaporte"],
+        ["il gate d'imbarco", "la puerta de embarque"],
+        ["la valigia", "la maleta"],
+        ["il biglietto", "el billete"],
+        ["il volo", "el vuelo"],
+        ["la dogana", "la aduana"],
       ],
       grammar: [
         ["Artículos definidos il/la", "En italiano los sustantivos tienen género (masculino/femenino) y usan \"il\" o \"la\".", "il passaporto (m) / la valigia (f)"],
@@ -9574,11 +9574,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para hacer el check-in en un aeropuerto en italiano.",
     study: {
       vocab: [
-        ["Vorrei imbarcare la valigia", "I'd like to check my bag"],
-        ["Dov'è il banco della compagnia aerea?", "Where is the airline counter?"],
-        ["A che ora parte il volo?", "What time does the flight leave?"],
-        ["Ecco il mio passaporto", "Here's my passport"],
-        ["Qual è il mio gate d'imbarco?", "What's my boarding gate?"],
+        ["Vorrei imbarcare la valigia", "Quisiera facturar mi maleta"],
+        ["Dov'è il banco della compagnia aerea?", "¿Dónde está el mostrador de la aerolínea?"],
+        ["A che ora parte il volo?", "¿A qué hora sale el vuelo?"],
+        ["Ecco il mio passaporto", "Aquí tiene mi pasaporte"],
+        ["Qual è il mio gate d'imbarco?", "¿Cuál es mi puerta de embarque?"],
       ],
       grammar: [
         ["El condicional \"vorrei\" para peticiones educadas", "\"Vorrei\" (de \"volere\") es una forma cortés de pedir algo, más formal que \"voglio\".", "Vorrei imbarcare la valigia, per favore."],
@@ -9597,11 +9597,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo en el mostrador de facturación en italiano.",
     study: {
       vocab: [
-        ["Buongiorno, il passaporto per favore?", "Good morning, your passport please?"],
-        ["Quante valigie imbarca?", "How many bags will you check?"],
-        ["Solo una, grazie", "Just one, thanks"],
-        ["Il suo volo parte alle 10", "Your flight leaves at 10"],
-        ["Finestrino o corridoio?", "Window or aisle?"],
+        ["Buongiorno, il passaporto per favore?", "Buenos días, ¿su pasaporte, por favor?"],
+        ["Quante valigie imbarca?", "¿Cuántas maletas va a facturar?"],
+        ["Solo una, grazie", "Solo una, gracias"],
+        ["Il suo volo parte alle 10", "Su vuelo sale a las 10"],
+        ["Finestrino o corridoio?", "¿Ventanilla o pasillo?"],
       ],
       grammar: [
         ["Preguntas con \"quanti/quante\"", "\"Quanti/quante?\" pregunta por cantidad y concuerda en género con el sustantivo.", "Quante valigie? / Quanti biglietti?"],
@@ -9621,12 +9621,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Qué decir cuando algo sale mal con tu maleta, en italiano.",
     study: {
       vocab: [
-        ["il bagaglio a mano", "carry-on bag"],
-        ["il bagaglio imbarcato", "checked bag"],
-        ["in sovrappeso", "overweight"],
-        ["fragile", "fragile"],
-        ["il ritiro bagagli", "baggage claim"],
-        ["il bagaglio smarrito", "lost luggage"],
+        ["il bagaglio a mano", "el equipaje de mano"],
+        ["il bagaglio imbarcato", "el equipaje facturado"],
+        ["in sovrappeso", "exceso de peso"],
+        ["fragile", "frágil"],
+        ["il ritiro bagagli", "la recogida de equipajes"],
+        ["il bagaglio smarrito", "el equipaje perdido"],
       ],
       grammar: [
         ["\"Essere + adjetivo\" para describir un estado", "\"Essere in sovrappeso\" usa \"essere\" + adjetivo para describir un estado.", "La mia valigia è in sovrappeso."],
@@ -9645,12 +9645,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Lo que te preguntarán al pasar los controles, en italiano.",
     study: {
       vocab: [
-        ["il metal detector", "metal detector"],
-        ["si tolga le scarpe", "take off your shoes"],
-        ["i liquidi", "liquids"],
-        ["la dogana", "customs"],
-        ["dichiarare", "to declare"],
-        ["il motivo della sua visita", "purpose of your visit"],
+        ["il metal detector", "el detector de metales"],
+        ["si tolga le scarpe", "quítese los zapatos"],
+        ["i liquidi", "los líquidos"],
+        ["la dogana", "la aduana"],
+        ["dichiarare", "declarar"],
+        ["il motivo della sua visita", "motivo de su visita"],
       ],
       grammar: [
         ["Imperativo formal (Lei)", "El imperativo formal con \"Lei\" se usa en anuncios oficiales y control de seguridad.", "Si tolga le scarpe. / Apra la valigia."],
@@ -9669,12 +9669,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Qué decir si tu vuelo cambia de última hora, en italiano.",
     study: {
       vocab: [
-        ["in ritardo", "delayed"],
-        ["cancellato", "cancelled"],
-        ["riprogrammare", "to rebook"],
-        ["il volo in coincidenza", "connecting flight"],
-        ["ho perso il mio volo", "I missed my flight"],
-        ["il prossimo volo disponibile", "next available flight"],
+        ["in ritardo", "retrasado"],
+        ["cancellato", "cancelado"],
+        ["riprogrammare", "reprogramar"],
+        ["il volo in coincidenza", "el vuelo de conexión"],
+        ["ho perso il mio volo", "Perdí mi vuelo"],
+        ["il prossimo volo disponibile", "el próximo vuelo disponible"],
       ],
       grammar: [
         ["Passato prossimo para hechos puntuales", "El pasado próximo (\"ho perso\") describe una acción completada en un momento concreto del pasado.", "Ho perso il mio volo stamattina."],
@@ -9693,11 +9693,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica cómo pedir ayuda cuando algo no sale como esperabas, en italiano.",
     study: {
       vocab: [
-        ["dovevo prendere...", "it was supposed to..."],
-        ["potrebbe aiutarmi a trovare...?", "could you help me find...?"],
-        ["mi sono perso/a", "I'm lost"],
-        ["cosa posso fare?", "what can I do?"],
-        ["ho bisogno di aiuto", "I need help"],
+        ["dovevo prendere...", "se suponía que..."],
+        ["potrebbe aiutarmi a trovare...?", "¿podría ayudarme a encontrar...?"],
+        ["mi sono perso/a", "Estoy perdido/a"],
+        ["cosa posso fare?", "¿qué puedo hacer?"],
+        ["ho bisogno di aiuto", "Necesito ayuda"],
       ],
       grammar: [
         ["\"Dovevo\" para planes rotos", "Esta estructura describe algo que debía pasar pero no ocurrió, muy útil para explicar un problema.", "Dovevo prendere il volo 204, ma è stato cancellato."],
@@ -9717,11 +9717,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pasar el control de inmigración y aduana en italiano.",
     study: {
       vocab: [
-        ["la dichiarazione doganale", "customs declaration"],
-        ["niente da dichiarare", "nothing to declare"],
-        ["il visto all'arrivo", "visa on arrival"],
-        ["il motivo della sua visita", "purpose of your visit"],
-        ["il permesso di soggiorno", "residency permit"],
+        ["la dichiarazione doganale", "la declaración de aduana"],
+        ["niente da dichiarare", "nada que declarar"],
+        ["il visto all'arrivo", "el visado a la llegada"],
+        ["il motivo della sua visita", "motivo de su visita"],
+        ["il permesso di soggiorno", "el permiso de residencia"],
       ],
       grammar: [
         ["\"Niente da + infinitivo\" para negar algo", "Esta estructura niega la existencia de algo que hacer, muy común en aduana.", "Non ho niente da dichiarare."],
@@ -9741,11 +9741,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a manejarte en salas de espera premium y a resolver una conexión ajustada en italiano.",
     study: {
       vocab: [
-        ["avere accesso alla lounge VIP", "to have access to the lounge"],
-        ["una coincidenza stretta", "a tight connection"],
-        ["perdere un volo in coincidenza", "to miss a connecting flight"],
-        ["l'imbarco prioritario", "priority boarding"],
-        ["essere riprogrammati automaticamente", "to be rebooked automatically"],
+        ["avere accesso alla lounge VIP", "tener acceso a la sala VIP"],
+        ["una coincidenza stretta", "una conexión ajustada"],
+        ["perdere un volo in coincidenza", "perder un vuelo de conexión"],
+        ["l'imbarco prioritario", "el embarque prioritario"],
+        ["essere riprogrammati automaticamente", "ser reprogramado automáticamente"],
       ],
       grammar: [
         ["La voz pasiva con \"essere + participio\"", "La voz pasiva se usa cuando el foco está en la acción, no en quién la realiza.", "Sarà riprogrammato sul prossimo volo disponibile."],
@@ -9764,11 +9764,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a reportar equipaje perdido o dañado y a seguir el reclamo en italiano.",
     study: {
       vocab: [
-        ["il mio bagaglio non è arrivato", "my luggage didn't arrive"],
-        ["una valigia danneggiata", "a damaged suitcase"],
-        ["il modulo di reclamo bagagli", "baggage claim form"],
-        ["il numero di tracciamento", "tracking number"],
-        ["il risarcimento per il ritardo", "compensation for the delay"],
+        ["il mio bagaglio non è arrivato", "mi equipaje no llegó"],
+        ["una valigia danneggiata", "una maleta dañada"],
+        ["il modulo di reclamo bagagli", "el formulario de reclamación de equipaje"],
+        ["il numero di tracciamento", "el número de seguimiento"],
+        ["il risarcimento per il ritardo", "la compensación por el retraso"],
       ],
       grammar: [
         ["Passato prossimo para quejas recientes", "El pasado próximo (\"non è arrivato\") se usa cuando el efecto de un problema sigue vigente ahora mismo.", "La mia valigia non è ancora arrivata."],
@@ -9788,11 +9788,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a redactar y presentar un reclamo formal por retrasos o problemas de vuelo en italiano.",
     study: {
       vocab: [
-        ["presentare un reclamo", "to file a complaint"],
-        ["il risarcimento per il ritardo del volo", "flight delay compensation"],
-        ["secondo il regolamento europeo", "under EU regulation"],
-        ["un rimborso invece di un buono", "a refund versus a voucher"],
-        ["far degenerare il problema", "to escalate the issue"],
+        ["presentare un reclamo", "presentar una queja"],
+        ["il risarcimento per il ritardo del volo", "la compensación por retraso de vuelo"],
+        ["secondo il regolamento europeo", "según la normativa de la UE"],
+        ["un rimborso invece di un buono", "un reembolso frente a un vale"],
+        ["far degenerare il problema", "escalar el problema"],
       ],
       grammar: [
         ["\"Invece di\" para contrastar opciones", "\"Invece di\" se usa para comparar dos alternativas de forma directa y formal.", "Un rimborso invece di un buono — cosa preferisce?"],
@@ -9812,11 +9812,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica cómo negociar un cambio de vuelo o un mejor acuerdo con la aerolínea en un registro formal y persuasivo.",
     study: {
       vocab: [
-        ["raggiungere una soluzione equa", "to reach a fair resolution"],
-        ["date le circostanze", "given the circumstances"],
-        ["capisco la sua politica, tuttavia...", "I understand your policy, however..."],
-        ["una soluzione ragionevole", "a reasonable accommodation"],
-        ["rinunciare alla tariffa", "to waive the fee"],
+        ["raggiungere una soluzione equa", "llegar a una resolución justa"],
+        ["date le circostanze", "dadas las circunstancias"],
+        ["capisco la sua politica, tuttavia...", "Entiendo su política, sin embargo..."],
+        ["una soluzione ragionevole", "una solución razonable"],
+        ["rinunciare alla tariffa", "eximir de la tarifa"],
       ],
       grammar: [
         ["Conectores concesivos en registro formal", "\"Tuttavia\", \"date le circostanze\" y \"ciononostante\" suavizan un desacuerdo mientras mantienes tu postura de forma educada pero firme.", "Capisco la sua politica, tuttavia, date le circostanze, credo che una soluzione equa sia possibile."],
@@ -9836,11 +9836,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos y expresiones coloquiales usadas en aeropuertos y viajes en italiano.",
     study: {
       vocab: [
-        ["prendere il volo per un pelo", "to catch a flight"],
-        ["avere il jet lag", "to be jet-lagged"],
-        ["viaggiare leggeri", "to travel light"],
-        ["un volo notturno", "a red-eye flight"],
-        ["atterrare", "to touch down"],
+        ["prendere il volo per un pelo", "coger un vuelo"],
+        ["avere il jet lag", "tener jet lag"],
+        ["viaggiare leggeri", "viajar con poco equipaje"],
+        ["un volo notturno", "un vuelo nocturno"],
+        ["atterrare", "aterrizar"],
       ],
       grammar: [
         ["Expresiones fijas de viaje", "Muchas expresiones de viaje son frases fijas que no se traducen literalmente palabra por palabra.", "Siamo atterrati un'ora prima. / Viaggio sempre leggero."],
@@ -9863,12 +9863,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales para ir a un restaurante en italiano.",
     study: {
       vocab: [
-        ["il menù", "the menu"],
-        ["il tavolo", "the table"],
-        ["il cameriere/la cameriera", "the waiter/waitress"],
-        ["il conto", "the bill"],
-        ["il piatto", "the dish"],
-        ["la bevanda", "the drink"],
+        ["il menù", "el menú"],
+        ["il tavolo", "la mesa"],
+        ["il cameriere/la cameriera", "el camarero/la camarera"],
+        ["il conto", "la cuenta"],
+        ["il piatto", "el plato"],
+        ["la bevanda", "la bebida"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el restaurante", "\"Il conto\" y \"il piatto\" son masculinos; \"la bevanda\" es femenina.", "il piatto (m) / la bevanda (f)"],
@@ -9888,11 +9888,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para pedir comida en un restaurante en italiano.",
     study: {
       vocab: [
-        ["Vorrei ordinare...", "I'd like to order..."],
-        ["Cosa mi consiglia?", "What do you recommend?"],
-        ["Per me, la pasta", "For me, the pasta"],
-        ["Senza cipolla, per favore", "No onion, please"],
-        ["È pronto/a per ordinare?", "Are you ready to order?"],
+        ["Vorrei ordinare...", "Quisiera pedir..."],
+        ["Cosa mi consiglia?", "¿Qué recomiendas?"],
+        ["Per me, la pasta", "Para mí, la pasta"],
+        ["Senza cipolla, per favore", "Sin cebolla, por favor"],
+        ["È pronto/a per ordinare?", "¿Están listos para pedir?"],
       ],
       grammar: [
         ["\"Per me\" para indicar tu pedido", "\"Per me\" se usa para especificar qué quieres cuando el camarero pregunta el pedido de cada persona.", "Per me, la pasta, per favore."],
@@ -9911,11 +9911,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo pidiendo la cena en un restaurante en italiano.",
     study: {
       vocab: [
-        ["Buonasera, tavolo per quanti?", "Good evening, table for how many?"],
-        ["Per due, per favore", "For two, please"],
-        ["Qualcosa da bere?", "Something to drink?"],
-        ["Acqua, per favore", "Water, please"],
-        ["Glielo porto subito", "I'll bring it right away"],
+        ["Buonasera, tavolo per quanti?", "Buenas noches, ¿mesa para cuántos?"],
+        ["Per due, per favore", "Para dos, por favor"],
+        ["Qualcosa da bere?", "¿Algo de beber?"],
+        ["Acqua, per favore", "Agua, por favor"],
+        ["Glielo porto subito", "Se lo traigo enseguida"],
       ],
       grammar: [
         ["Preposición \"per\" + número", "\"Per due\" indica la cantidad de personas, muy común al pedir mesa.", "Un tavolo per due, per favore."],
@@ -9935,11 +9935,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a explicar alergias y preferencias alimentarias en un restaurante en italiano.",
     study: {
       vocab: [
-        ["sono allergico/a a...", "I'm allergic to..."],
-        ["la frutta a guscio", "nuts"],
-        ["non mangio carne", "I don't eat meat"],
-        ["questo contiene latticini?", "does this contain dairy?"],
-        ["intollerante al glutine", "gluten intolerant"],
+        ["sono allergico/a a...", "Soy alérgico/a a..."],
+        ["la frutta a guscio", "los frutos secos"],
+        ["non mangio carne", "No como carne"],
+        ["questo contiene latticini?", "¿esto contiene lácteos?"],
+        ["intollerante al glutine", "intolerante al gluten"],
       ],
       grammar: [
         ["\"Essere allergico a\" + sustantivo", "Se usa \"essere allergico/a a\" + el alimento para indicar una alergia.", "Sono allergica alla frutta a guscio."],
@@ -9958,11 +9958,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a explicar un problema con tu pedido en un restaurante en italiano.",
     study: {
       vocab: [
-        ["questo non è quello che ho ordinato", "this isn't what I ordered"],
-        ["è freddo", "it's cold"],
-        ["manca l'ordine", "the order is missing"],
-        ["potrebbe cambiarlo?", "could you change it?"],
-        ["è troppo salato", "it's too salty"],
+        ["questo non è quello che ho ordinato", "esto no es lo que pedí"],
+        ["è freddo", "está frío"],
+        ["manca l'ordine", "falta algo del pedido"],
+        ["potrebbe cambiarlo?", "¿podría cambiarlo?"],
+        ["è troppo salato", "está demasiado salado"],
       ],
       grammar: [
         ["\"Essere\" + adjetivo para describir un estado temporal", "\"Essere\" + adjetivo describe un estado temporal, como la temperatura o sabor de un plato.", "La zuppa è fredda."],
@@ -9981,11 +9981,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir la cuenta y hablar de la propina en un restaurante en italiano.",
     study: {
       vocab: [
-        ["il conto, per favore", "the bill, please"],
-        ["accettate la carta?", "do you accept card?"],
-        ["la mancia", "the tip"],
-        ["dividere il conto", "to split the bill"],
-        ["tenga il resto", "keep the change"],
+        ["il conto, per favore", "la cuenta, por favor"],
+        ["accettate la carta?", "¿aceptan tarjeta?"],
+        ["la mancia", "la propina"],
+        ["dividere il conto", "dividir la cuenta"],
+        ["tenga il resto", "quédese con el cambio"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones", "\"Tenga\" es el imperativo formal (Lei) del verbo \"tenere\".", "Tenga il resto, per favore."],
@@ -10004,10 +10004,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir y dar recomendaciones sobre platos en un restaurante en italiano.",
     study: {
       vocab: [
-        ["qual è la specialità della casa?", "what's the house specialty?"],
-        ["glielo consiglio vivamente", "I highly recommend it"],
-        ["è un piatto tipico della regione", "it's a typical dish of the region"],
-        ["se le piace il piccante...", "if you like spicy food..."],
+        ["qual è la specialità della casa?", "¿cuál es la especialidad de la casa?"],
+        ["glielo consiglio vivamente", "lo recomiendo encarecidamente"],
+        ["è un piatto tipico della regione", "es un plato típico de la región"],
+        ["se le piace il piccante...", "si te gusta la comida picante..."],
       ],
       grammar: [
         ["El condicional \"se\" + presente para sugerencias", "\"Se le piace...\" + presente introduce una sugerencia condicionada al gusto de la persona.", "Se le piace il piccante, le consiglio questo piatto."],
@@ -10027,11 +10027,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a reservar mesa para una ocasión especial y pedir detalles concretos en italiano.",
     study: {
       vocab: [
-        ["prenotare un tavolo per un'occasione speciale", "to book a table for a special occasion"],
-        ["un tavolo vicino alla finestra", "a table by the window"],
-        ["festeggiare un anniversario", "to celebrate an anniversary"],
-        ["un menù fisso", "a set menu"],
-        ["chiedere una torta con una candelina", "to request a cake with a candle"],
+        ["prenotare un tavolo per un'occasione speciale", "reservar una mesa para una ocasión especial"],
+        ["un tavolo vicino alla finestra", "una mesa junto a la ventana"],
+        ["festeggiare un anniversario", "celebrar un aniversario"],
+        ["un menù fisso", "un menú fijo"],
+        ["chiedere una torta con una candelina", "pedir una tarta con una vela"],
       ],
       grammar: [
         ["\"Vorremmo\" para peticiones en grupo", "\"Vorremmo\" (primera persona plural) se usa cuando la petición es para varias personas.", "Vorremmo un tavolo vicino alla finestra."],
@@ -10051,11 +10051,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario sobre maridaje de vinos y menús de degustación en italiano.",
     study: {
       vocab: [
-        ["l'abbinamento cibo-vino", "wine pairing"],
-        ["un menù degustazione", "a tasting menu"],
-        ["un rosso corposo", "a full-bodied red"],
-        ["accompagnare il piatto", "to complement the dish"],
-        ["il consiglio del sommelier", "the sommelier's recommendation"],
+        ["l'abbinamento cibo-vino", "el maridaje de vinos"],
+        ["un menù degustazione", "un menú de degustación"],
+        ["un rosso corposo", "un tinto con cuerpo"],
+        ["accompagnare il piatto", "complementar el plato"],
+        ["il consiglio del sommelier", "la recomendación del sumiller"],
       ],
       grammar: [
         ["Adjetivos que siguen al sustantivo en italiano", "En italiano, muchos adjetivos van después del sustantivo, especialmente cuando describen categorías.", "un rosso corposo / un piatto ben equilibrato"],
@@ -10074,11 +10074,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a explicar dietas especiales y preferencias éticas sobre la comida en italiano.",
     study: {
       vocab: [
-        ["dieta a base vegetale", "plant-based diet"],
-        ["intolleranza al glutine", "gluten intolerance"],
-        ["ingredienti di provenienza etica", "ethically sourced ingredients"],
-        ["contaminazione crociata", "cross-contamination"],
-        ["un'alternativa senza latticini", "a dairy-free alternative"],
+        ["dieta a base vegetale", "la dieta a base de plantas"],
+        ["intolleranza al glutine", "la intolerancia al gluten"],
+        ["ingredienti di provenienza etica", "ingredientes de origen ético"],
+        ["contaminazione crociata", "la contaminación cruzada"],
+        ["un'alternativa senza latticini", "una alternativa sin lácteos"],
       ],
       grammar: [
         ["\"Senza\" + sustantivo para indicar ausencia", "\"Senza\" + sustantivo se usa para indicar que algo no contiene cierto ingrediente.", "pane senza glutine / latte senza lattosio / dolce senza frutta a guscio"],
@@ -10098,11 +10098,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a plantear un problema serio al gerente de un restaurante de forma educada pero firme en italiano.",
     study: {
       vocab: [
-        ["potrei parlare con il direttore?", "could I speak to the manager"],
-        ["questo non è quello che ho ordinato", "this isn't what I ordered"],
-        ["apprezzerei una soluzione", "I'd appreciate a solution"],
-        ["è già successo prima", "this has happened before"],
-        ["compensare il disagio", "to compensate the inconvenience"],
+        ["potrei parlare con il direttore?", "¿podría hablar con el gerente?"],
+        ["questo non è quello che ho ordinato", "esto no es lo que pedí"],
+        ["apprezzerei una soluzione", "agradecería una solución"],
+        ["è già successo prima", "esto ya ha pasado antes"],
+        ["compensare il disagio", "compensar la molestia"],
       ],
       grammar: [
         ["\"Apprezzerei\" para pedir algo con firmeza educada", "El condicional \"apprezzerei\" expresa una petición firme pero cortés, típica en quejas formales.", "Apprezzerei una soluzione il prima possibile."],
@@ -10122,11 +10122,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a redactar una reseña equilibrada y detallada de un restaurante en italiano.",
     study: {
       vocab: [
-        ["nel complesso, l'esperienza è stata...", "overall, the experience was..."],
-        ["il servizio lasciava molto a desiderare", "the service left much to be desired"],
-        ["una perla nascosta", "a hidden gem"],
-        ["l'attenzione ai dettagli", "attention to detail"],
-        ["lo consiglierei/non lo consiglierei", "I would (not) recommend it"],
+        ["nel complesso, l'esperienza è stata...", "en general, la experiencia fue..."],
+        ["il servizio lasciava molto a desiderare", "el servicio dejó mucho que desear"],
+        ["una perla nascosta", "una joya escondida"],
+        ["l'attenzione ai dettagli", "la atención al detalle"],
+        ["lo consiglierei/non lo consiglierei", "(no) lo recomendaría"],
       ],
       grammar: [
         ["Adverbios de opinión al inicio de frase", "\"Nel complesso\", \"onestamente\" al principio de la frase matizan el tono general de una opinión escrita.", "Nel complesso, l'esperienza è stata memorabile, anche se il servizio era lento."],
@@ -10146,11 +10146,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos en italiano relacionados con la comida y las comidas fuera de casa.",
     study: {
       vocab: [
-        ["essere goloso/a", "to have a sweet tooth"],
-        ["mangiare come un re", "to eat like a king"],
-        ["questa è la ciliegina sulla torta", "that's the icing on the cake"],
-        ["portare a casa la pagnotta", "to bring home the bacon"],
-        ["un gioco da ragazzi", "piece of cake"],
+        ["essere goloso/a", "ser goloso"],
+        ["mangiare come un re", "comer como un rey"],
+        ["questa è la ciliegina sulla torta", "eso es la guinda del pastel"],
+        ["portare a casa la pagnotta", "traer el pan a casa"],
+        ["un gioco da ragazzi", "pan comido"],
       ],
       grammar: [
         ["Modismos con vocabulario de comida", "Muchos modismos en italiano usan palabras de comida con un significado completamente distinto al literal.", "Questo esame è stato un gioco da ragazzi. / Lui mangia sempre come un re."],
@@ -10172,12 +10172,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales de un hotel en italiano.",
     study: {
       vocab: [
-        ["la camera", "the room"],
-        ["la reception", "the front desk"],
-        ["la chiave", "the key"],
-        ["il bagaglio", "the luggage"],
-        ["la prenotazione", "the reservation"],
-        ["la colazione", "breakfast"],
+        ["la camera", "la habitación"],
+        ["la reception", "la recepción"],
+        ["la chiave", "la llave"],
+        ["il bagaglio", "el equipaje"],
+        ["la prenotazione", "la reserva"],
+        ["la colazione", "el desayuno"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el hotel", "\"La camera\", \"la chiave\" y \"la prenotazione\" son femeninas; \"il bagaglio\" es masculino.", "la camera (f) / il bagaglio (m)"],
@@ -10197,11 +10197,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para el check-in en un hotel en italiano.",
     study: {
       vocab: [
-        ["Ho una prenotazione a nome di...", "I have a reservation under the name of..."],
-        ["A che ora è il check-in?", "What time is check-in?"],
-        ["La colazione è inclusa?", "Is breakfast included?"],
-        ["Ho bisogno di un'altra chiave", "I need another key"],
-        ["Qual è la password del wifi?", "What's the wifi?"],
+        ["Ho una prenotazione a nome di...", "Tengo una reserva a nombre de..."],
+        ["A che ora è il check-in?", "¿A qué hora es el check-in?"],
+        ["La colazione è inclusa?", "¿El desayuno está incluido?"],
+        ["Ho bisogno di un'altra chiave", "Necesito otra llave"],
+        ["Qual è la password del wifi?", "¿Cuál es el wifi?"],
       ],
       grammar: [
         ["\"A nome di\" para identificar reservas", "\"A nome di\" se usa para indicar bajo qué nombre está hecha una reserva.", "Ho una prenotazione a nome di García."],
@@ -10220,11 +10220,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo en la recepción de un hotel en italiano.",
     study: {
       vocab: [
-        ["Buonasera, ha una prenotazione?", "Good afternoon, do you have a reservation?"],
+        ["Buonasera, ha una prenotazione?", "Buenas tardes, ¿tiene reserva?"],
         ["Sì, a nome López", "Yes, under López"],
-        ["La sua camera è la 305", "Your room is 305"],
-        ["L'ascensore è a destra", "The elevator is to the right"],
-        ["Le auguro un buon soggiorno", "Enjoy your stay"],
+        ["La sua camera è la 305", "Su habitación es la 305"],
+        ["L'ascensore è a destra", "El ascensor está a la derecha"],
+        ["Le auguro un buon soggiorno", "Disfrute de su estancia"],
       ],
       grammar: [
         ["Posesivo formal \"suo/sua\"", "\"Suo/sua\" se usa con \"Lei\" para el posesivo formal de tercera persona.", "La sua camera è la 305."],
@@ -10244,12 +10244,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar por los servicios de un hotel en italiano.",
     study: {
       vocab: [
-        ["il servizio in camera", "room service"],
-        ["la piscina", "the pool"],
-        ["la palestra", "the gym"],
-        ["la lavanderia", "laundry"],
-        ["la sveglia telefonica", "wake-up call"],
-        ["il parcheggio", "parking"],
+        ["il servizio in camera", "el servicio de habitaciones"],
+        ["la piscina", "la piscina"],
+        ["la palestra", "el gimnasio"],
+        ["la lavanderia", "la lavandería"],
+        ["la sveglia telefonica", "el servicio de despertador"],
+        ["il parcheggio", "el aparcamiento"],
       ],
       grammar: [
         ["\"C'è...?\" para preguntar por disponibilidad", "\"C'è...?\" se usa para preguntar si algo está disponible en el hotel.", "C'è una piscina nell'hotel?"],
@@ -10268,11 +10268,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a explicar un problema en tu habitación de hotel en italiano.",
     study: {
       vocab: [
-        ["l'aria condizionata non funziona", "the AC doesn't work"],
-        ["la camera è sporca", "the room is dirty"],
-        ["c'è molto rumore", "there's a lot of noise"],
-        ["potrebbe cambiarmi la camera?", "could you change my room?"],
-        ["non c'è acqua calda", "there's no hot water"],
+        ["l'aria condizionata non funziona", "el aire acondicionado no funciona"],
+        ["la camera è sporca", "la habitación está sucia"],
+        ["c'è molto rumore", "hay mucho ruido"],
+        ["potrebbe cambiarmi la camera?", "¿podría cambiarme de habitación?"],
+        ["non c'è acqua calda", "no hay agua caliente"],
       ],
       grammar: [
         ["\"Non funzionare\" para describir averías", "\"Non funziona\" describe algo que está roto o no opera correctamente.", "L'aria condizionata non funziona."],
@@ -10291,11 +10291,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hacer el check-out y entender cargos adicionales en italiano.",
     study: {
       vocab: [
-        ["fare il check-out", "to check out"],
-        ["le spese del minibar", "the minibar charge"],
-        ["potrebbe controllare il conto?", "could you check the bill?"],
-        ["lasciare la camera", "to leave the room"],
-        ["custodire il bagaglio", "to store the luggage"],
+        ["fare il check-out", "hacer el check-out"],
+        ["le spese del minibar", "el cargo del minibar"],
+        ["potrebbe controllare il conto?", "¿podría revisar la cuenta?"],
+        ["lasciare la camera", "dejar la habitación"],
+        ["custodire il bagaglio", "guardar el equipaje"],
       ],
       grammar: [
         ["\"A che ora\" para preguntar horarios", "\"A che ora...?\" se usa para preguntar por horarios límite, como el check-out.", "A che ora è il check-out?"],
@@ -10314,10 +10314,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir recomendaciones locales al personal del hotel en italiano.",
     study: {
       vocab: [
-        ["cosa mi consiglia di visitare?", "what do you recommend visiting?"],
-        ["un posto poco turistico", "a place off the beaten path"],
-        ["è a pochi minuti a piedi", "it's a short walk away"],
-        ["prendere un taxi o la metro", "to take a taxi or the metro"],
+        ["cosa mi consiglia di visitare?", "¿qué recomienda visitar?"],
+        ["un posto poco turistico", "un lugar poco conocido"],
+        ["è a pochi minuti a piedi", "está a pocos minutos andando"],
+        ["prendere un taxi o la metro", "tomar un taxi o el metro"],
       ],
       grammar: [
         ["\"A pochi minuti a piedi\" para indicar cercanía", "Esta expresión indica que un lugar está cerca, sin necesitar transporte.", "Il museo è a pochi minuti a piedi."],
@@ -10337,11 +10337,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a modificar, posponer o cancelar una reserva de hotel en italiano.",
     study: {
       vocab: [
-        ["modificare una prenotazione", "to modify a reservation"],
-        ["una politica di cancellazione", "a cancellation policy"],
-        ["una tariffa non rimborsabile", "a non-refundable rate"],
-        ["posticipare la data di arrivo", "to postpone the check-in date"],
-        ["un'email di conferma", "a confirmation email"],
+        ["modificare una prenotazione", "modificar una reserva"],
+        ["una politica di cancellazione", "una política de cancelación"],
+        ["una tariffa non rimborsabile", "una tarifa no reembolsable"],
+        ["posticipare la data di arrivo", "posponer la fecha de entrada"],
+        ["un'email di conferma", "un correo de confirmación"],
       ],
       grammar: [
         ["\"Ho bisogno di\" + infinitivo para trámites", "\"Ho bisogno di\" + verbo es la forma directa y natural de explicar qué trámite necesitas hacer.", "Ho bisogno di modificare la mia prenotazione per la prossima settimana."],
@@ -10361,11 +10361,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar por instalaciones del hotel y a quejarte si no funcionan como se anuncia en italiano.",
     study: {
       vocab: [
-        ["i servizi non sono come pubblicizzati", "the amenities aren't as advertised"],
-        ["la piscina è fuori servizio", "the pool is out of service"],
-        ["accesso a palestra e spa", "access to the gym and spa"],
-        ["il wifi continua a disconnettersi", "the wifi keeps disconnecting"],
-        ["non essere all'altezza delle aspettative", "to fall short of expectations"],
+        ["i servizi non sono come pubblicizzati", "las instalaciones no son como se anunciaban"],
+        ["la piscina è fuori servizio", "la piscina está fuera de servicio"],
+        ["accesso a palestra e spa", "acceso al gimnasio y al spa"],
+        ["il wifi continua a disconnettersi", "el wifi se desconecta constantemente"],
+        ["non essere all'altezza delle aspettative", "no estar a la altura de las expectativas"],
       ],
       grammar: [
         ["\"Continuare a + infinitivo\" para acciones repetidas", "\"Continuare a\" + verbo expresa que algo ocurre repetidamente y de forma molesta.", "Il wifi continua a disconnettersi ogni dieci minuti."],
@@ -10384,11 +10384,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a negociar una mejor tarifa o una mejora de habitación en italiano.",
     study: {
       vocab: [
-        ["c'è flessibilità sul prezzo?", "is there any flexibility on the price"],
-        ["un upgrade gratuito", "a complimentary upgrade"],
-        ["pareggiare la tariffa di un concorrente", "to match a competitor's rate"],
-        ["un membro del programma fedeltà", "a loyalty member"],
-        ["soggetto a disponibilità", "subject to availability"],
+        ["c'è flessibilità sul prezzo?", "¿hay algo de flexibilidad en el precio?"],
+        ["un upgrade gratuito", "una mejora gratuita"],
+        ["pareggiare la tariffa di un concorrente", "igualar la tarifa de un competidor"],
+        ["un membro del programma fedeltà", "un miembro del programa de fidelidad"],
+        ["soggetto a disponibilità", "sujeto a disponibilidad"],
       ],
       grammar: [
         ["Preguntas indirectas para negociar con tacto", "\"C'è...?\" o \"Sarebbe possibile...?\" son formas indirectas y más corteses de pedir algo delicado como un descuento.", "C'è flessibilità sul prezzo per un soggiorno più lungo?"],
@@ -10408,11 +10408,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario para gestionar una estancia de negocios: facturación corporativa, salas de reuniones y recibos.",
     study: {
       vocab: [
-        ["addebitarlo sul conto aziendale", "to bill it to the company account"],
-        ["una sala riunioni con proiettore", "a meeting room with a projector"],
-        ["una ricevuta dettagliata", "an itemized receipt"],
-        ["una tariffa aziendale", "a corporate rate"],
-        ["lavorare da remoto dal business center", "to work remotely from the business center"],
+        ["addebitarlo sul conto aziendale", "cargarlo a la cuenta de la empresa"],
+        ["una sala riunioni con proiettore", "una sala de reuniones con proyector"],
+        ["una ricevuta dettagliata", "un recibo detallado"],
+        ["una tariffa aziendale", "una tarifa corporativa"],
+        ["lavorare da remoto dal business center", "trabajar remotamente desde el centro de negocios"],
       ],
       grammar: [
         ["\"Addebitare X su Y\" para facturación", "\"Addebitare X su Y\" significa cargar un gasto a una cuenta o entidad concreta.", "Vi prego di addebitare il minibar sul mio conto aziendale."],
@@ -10431,11 +10431,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a disputar formalmente un cargo incorrecto en tu factura de hotel en italiano.",
     study: {
       vocab: [
-        ["mi è stato addebitato erroneamente per...", "I was charged incorrectly for..."],
-        ["potrebbe esaminare questa discrepanza?", "could you look into this discrepancy"],
-        ["ho documentazione a sostegno del mio reclamo", "I have documentation to support my claim"],
-        ["contestare un addebito", "to dispute a charge"],
-        ["un termine ragionevole per la risoluzione", "a reasonable timeframe for resolution"],
+        ["mi è stato addebitato erroneamente per...", "me cobraron incorrectamente por..."],
+        ["potrebbe esaminare questa discrepanza?", "¿podría investigar esta discrepancia?"],
+        ["ho documentazione a sostegno del mio reclamo", "tengo documentación que respalda mi reclamo"],
+        ["contestare un addebito", "impugnar un cargo"],
+        ["un termine ragionevole per la risoluzione", "un plazo razonable para la resolución"],
       ],
       grammar: [
         ["\"Ho + sustantivo + a sostegno di...\" en reclamos formales", "Esta estructura refuerza un argumento presentando evidencia de forma profesional y objetiva.", "Ho documentazione a sostegno del mio reclamo, inclusa la fattura originale."],
@@ -10455,11 +10455,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos en italiano usados en el sector de la hospitalidad y los viajes.",
     study: {
       vocab: [
-        ["srotolare il tappeto rosso", "to roll out the red carpet"],
-        ["una casa lontano da casa", "a home away from home"],
-        ["fare il possibile e l'impossibile", "to go the extra mile"],
-        ["valere ogni centesimo", "to be worth every penny"],
-        ["senza fronzoli", "no frills"],
+        ["srotolare il tappeto rosso", "recibir con los brazos abiertos"],
+        ["una casa lontano da casa", "un hogar lejos de casa"],
+        ["fare il possibile e l'impossibile", "hacer un esfuerzo adicional"],
+        ["valere ogni centesimo", "valer cada centavo"],
+        ["senza fronzoli", "sin lujos"],
       ],
       grammar: [
         ["Modismos de servicio al cliente", "Estos modismos describen un servicio excelente o básico de forma vívida, sin que tengan un significado literal.", "Il personale ha davvero fatto il possibile e l'impossibile per noi. / È un hotel senza fronzoli, ma molto pulito."],
@@ -10482,12 +10482,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales para ir de compras a un mercado en italiano.",
     study: {
       vocab: [
-        ["la bancarella", "the stall"],
-        ["il venditore/la venditrice", "the seller"],
-        ["il prezzo", "the price"],
-        ["la frutta", "fruit"],
-        ["la verdura", "vegetables"],
-        ["il sacchetto", "the bag"],
+        ["la bancarella", "el puesto"],
+        ["il venditore/la venditrice", "el vendedor"],
+        ["il prezzo", "el precio"],
+        ["la frutta", "la fruta"],
+        ["la verdura", "las verduras"],
+        ["il sacchetto", "la bolsa"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem", "\"Il venditore/la venditrice\" cambia de género según quien vende.", "il venditore (m) / la venditrice (f)"],
@@ -10507,10 +10507,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para comprar en un mercado en italiano.",
     study: {
       vocab: [
-        ["Quanto costa questo?", "How much does this cost?"],
-        ["Voglio mezzo chilo", "I want half a kilo"],
-        ["Ha qualcosa di più fresco?", "Do you have something fresher?"],
-        ["Lo prendo", "I'll take it"],
+        ["Quanto costa questo?", "¿Cuánto cuesta esto?"],
+        ["Voglio mezzo chilo", "Quiero medio kilo"],
+        ["Ha qualcosa di più fresco?", "¿Tiene algo más fresco?"],
+        ["Lo prendo", "Me lo llevo"],
       ],
       grammar: [
         ["\"Quanto\" para preguntar precio o cantidad", "\"Quanto costa\" pregunta por el precio.", "Quanto costa questo? / Quanta frutta vuole?"],
@@ -10529,11 +10529,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo en un puesto de mercado en italiano.",
     study: {
       vocab: [
-        ["Buongiorno, cosa desidera?", "Good morning, what would you like?"],
-        ["Voglio un chilo di pomodori", "I want a kilo of tomatoes"],
-        ["Ecco a lei, sono tre euro", "Here you go, that's three euros"],
-        ["Altro?", "Anything else?"],
-        ["No grazie, è tutto", "No, thanks, that's all"],
+        ["Buongiorno, cosa desidera?", "Buenos días, ¿qué desea?"],
+        ["Voglio un chilo di pomodori", "Quiero un kilo de tomates"],
+        ["Ecco a lei, sono tre euro", "Aquí tiene, son tres euros"],
+        ["Altro?", "¿Algo más?"],
+        ["No grazie, è tutto", "No, gracias, eso es todo"],
       ],
       grammar: [
         ["\"Cosa desidera?\" en atención al cliente", "\"Cosa desidera?\" es una forma formal y educada de preguntar qué quiere comprar el cliente.", "Buongiorno, cosa desidera?"],
@@ -10553,10 +10553,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar por productos y sustitutos en un mercado en italiano.",
     study: {
       vocab: [
-        ["non me ne rimane più", "I'm out of..."],
-        ["ha qualcosa di simile?", "do you have something similar?"],
-        ["è esaurito", "it's sold out"],
-        ["posso offrirle questo al posto suo", "I can offer you this instead"],
+        ["non me ne rimane più", "se me acabó..."],
+        ["ha qualcosa di simile?", "¿tiene algo parecido?"],
+        ["è esaurito", "está agotado"],
+        ["posso offrirle questo al posto suo", "puedo ofrecerle esto en su lugar"],
       ],
       grammar: [
         ["\"Al posto\" para ofrecer alternativas", "\"Al posto suo\" se usa para proponer un sustituto de algo que no está disponible.", "Posso offrirle questo al posto suo."],
@@ -10575,10 +10575,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hacer una devolución o queja en un mercado en italiano.",
     study: {
       vocab: [
-        ["voglio restituire questo", "I want to return this"],
-        ["è in cattive condizioni", "it's in bad condition"],
-        ["può darmi un rimborso?", "can you give me a refund?"],
-        ["l'ho comprato ieri", "I bought it yesterday"],
+        ["voglio restituire questo", "quiero devolver esto"],
+        ["è in cattive condizioni", "está en mal estado"],
+        ["può darmi un rimborso?", "¿puede reembolsarme?"],
+        ["l'ho comprato ieri", "lo compré ayer"],
       ],
       grammar: [
         ["Passato prossimo para acciones pasadas concretas", "\"L'ho comprato\" (pasado próximo) indica una acción terminada en un momento específico.", "L'ho comprato ieri, ed è già in cattive condizioni."],
@@ -10597,10 +10597,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar y hablar sobre formas de pago en un mercado en italiano.",
     study: {
       vocab: [
-        ["accettate la carta?", "do you accept card?"],
-        ["solo contanti", "cash only"],
-        ["ha resto per una banconota grande?", "do you have change for a large bill?"],
-        ["pagare in contanti", "to pay in cash"],
+        ["accettate la carta?", "¿aceptan tarjeta?"],
+        ["solo contanti", "solo efectivo"],
+        ["ha resto per una banconota grande?", "¿tiene cambio para un billete grande?"],
+        ["pagare in contanti", "pagar en efectivo"],
       ],
       grammar: [
         ["\"Solo\" para limitar una opción", "\"Solo contanti\" indica que no se aceptan otras formas de pago.", "Qui è solo contanti, mi dispiace."],
@@ -10619,10 +10619,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir y dar indicaciones dentro de un mercado en italiano.",
     study: {
       vocab: [
-        ["dov'è la bancarella del pesce?", "where is the fish stall?"],
-        ["in fondo, a sinistra", "at the back, on the left"],
-        ["continui dritto", "keep going straight"],
-        ["è proprio di fronte", "it's right in front"],
+        ["dov'è la bancarella del pesce?", "¿dónde está el puesto de pescado?"],
+        ["in fondo, a sinistra", "al fondo, a la izquierda"],
+        ["continui dritto", "siga recto"],
+        ["è proprio di fronte", "está justo enfrente"],
       ],
       grammar: [
         ["Imperativo formal para indicaciones", "El imperativo formal con \"Lei\" se usa para dar indicaciones de forma educada.", "Continui dritto e giri a sinistra."],
@@ -10642,11 +10642,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a regatear de forma educada y con más matices en un mercado en italiano.",
     study: {
       vocab: [
-        ["è un po' sopra il mio budget", "that's a bit over my budget"],
-        ["potrebbe farmi un prezzo migliore?", "could you do any better on the price"],
-        ["se ne compro di più, costa meno?", "if I buy more, is it cheaper"],
-        ["è il massimo che posso fare", "that's the best I can do"],
-        ["abbiamo un accordo", "we have a deal"],
+        ["è un po' sopra il mio budget", "eso se sale un poco de mi presupuesto"],
+        ["potrebbe farmi un prezzo migliore?", "¿podría mejorar el precio?"],
+        ["se ne compro di più, costa meno?", "si compro más, ¿es más barato?"],
+        ["è il massimo che posso fare", "es lo mejor que puedo ofrecer"],
+        ["abbiamo un accordo", "tenemos un trato"],
       ],
       grammar: [
         ["Preguntas indirectas al regatear", "\"Potrebbe farmi un prezzo migliore?\" es una forma educada e indirecta de pedir un mejor precio sin sonar exigente.", "Potrebbe farmi un prezzo migliore se ne prendo due?"],
@@ -10666,11 +10666,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar por la calidad, el origen y la sostenibilidad de los productos en un mercado en italiano.",
     study: {
       vocab: [
-        ["da dove viene questo?", "where does this come from"],
-        ["prodotti a chilometro zero", "locally sourced produce"],
-        ["è biologico?", "is this organic"],
-        ["di stagione in questo momento", "in season right now"],
-        ["coltivato in modo sostenibile", "sustainably grown"],
+        ["da dove viene questo?", "¿de dónde viene esto?"],
+        ["prodotti a chilometro zero", "productos de origen local"],
+        ["è biologico?", "¿esto es orgánico?"],
+        ["di stagione in questo momento", "de temporada ahora mismo"],
+        ["coltivato in modo sostenibile", "cultivado de forma sostenible"],
       ],
       grammar: [
         ["Presente simple para hechos generales sobre productos", "El presente simple describe características generales y permanentes de un producto, como su origen o forma de cultivo.", "Questo prodotto viene da una fattoria locale ed è coltivato in modo sostenibile."],
@@ -10690,11 +10690,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a negociar compras al por mayor y condiciones de entrega en italiano.",
     study: {
       vocab: [
-        ["uno sconto sulla quantità", "a bulk discount"],
-        ["la quantità minima d'ordine", "the minimum order quantity"],
-        ["fare un ordine ricorrente", "to place a recurring order"],
-        ["consegna inclusa", "delivery included"],
-        ["un prezzo all'ingrosso", "a wholesale price"],
+        ["uno sconto sulla quantità", "un descuento por volumen"],
+        ["la quantità minima d'ordine", "la cantidad mínima de pedido"],
+        ["fare un ordine ricorrente", "hacer un pedido recurrente"],
+        ["consegna inclusa", "entrega incluida"],
+        ["un prezzo all'ingrosso", "un precio al por mayor"],
       ],
       grammar: [
         ["\"Più..., più...\" para condiciones proporcionales", "Esta estructura comparativa doble expresa que a mayor cantidad, mayor beneficio (o menor precio).", "Più ordina, più grande è lo sconto."],
@@ -10713,11 +10713,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a reclamar un producto defectuoso o en mal estado comprado en un mercado, en italiano.",
     study: {
       vocab: [
-        ["questo è difettoso", "this is defective"],
-        ["si è rovinato in un giorno", "it went bad within a day"],
-        ["vorrei un rimborso o un cambio", "I'd like a refund or an exchange"],
-        ["ha uno scontrino?", "do you have proof of purchase"],
-        ["questo non è più fresco", "this isn't fresh anymore"],
+        ["questo è difettoso", "esto está defectuoso"],
+        ["si è rovinato in un giorno", "se echó a perder en un día"],
+        ["vorrei un rimborso o un cambio", "quisiera un reembolso o un cambio"],
+        ["ha uno scontrino?", "¿tiene comprobante de compra?"],
+        ["questo non è più fresco", "esto ya no está fresco"],
       ],
       grammar: [
         ["\"In + periodo\" para indicar rapidez de un problema", "\"In un giorno/una settimana\" indica que algo ocurrió en un plazo corto, reforzando que el problema fue rápido e inesperado.", "Si è rovinato in un giorno dall'acquisto."],
@@ -10737,11 +10737,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Reflexiona y conversa en italiano sobre las diferencias culturales al regatear y negociar en distintos países.",
     study: {
       vocab: [
-        ["qui ci si aspetta di contrattare", "haggling is expected here"],
-        ["è considerato scortese contrattare", "it's considered rude to haggle"],
-        ["un mercato a prezzo fisso", "a fixed-price market"],
-        ["norme culturali sulla negoziazione", "cultural norms around negotiation"],
-        ["capire l'atmosfera della situazione", "to read the room"],
+        ["qui ci si aspetta di contrattare", "aquí se espera que se regatee"],
+        ["è considerato scortese contrattare", "se considera de mala educación regatear"],
+        ["un mercato a prezzo fisso", "un mercado de precio fijo"],
+        ["norme culturali sulla negoziazione", "las normas culturales sobre la negociación"],
+        ["capire l'atmosfera della situazione", "captar el ambiente"],
       ],
       grammar: [
         ["\"È considerato + adjetivo\" para normas culturales", "Esta estructura impersonal expresa una norma social sin atribuirla a una persona concreta.", "È considerato scortese contrattare in alcune culture, ma è previsto in altre."],
@@ -10761,11 +10761,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos en italiano relacionados con el dinero y las compras.",
     study: {
       vocab: [
-        ["costare un occhio della testa", "to cost an arm and a leg"],
-        ["essere una fregatura", "to be a rip-off"],
-        ["fare un buon affare", "to get a good deal"],
-        ["far scendere il prezzo a qualcuno", "to haggle someone down"],
-        ["i soldi non crescono sugli alberi", "money doesn't grow on trees"],
+        ["costare un occhio della testa", "costar un ojo de la cara"],
+        ["essere una fregatura", "ser un timo"],
+        ["fare un buon affare", "conseguir un buen trato"],
+        ["far scendere il prezzo a qualcuno", "conseguir que alguien baje el precio"],
+        ["i soldi non crescono sugli alberi", "el dinero no cae del cielo"],
       ],
       grammar: [
         ["Modismos sobre precio y valor", "Estos modismos describen si algo es caro, barato o una estafa, de forma vívida y sin traducción literal.", "Questa borsa costa un occhio della testa! / Quel prezzo è una vera fregatura."],
@@ -10788,12 +10788,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales de un hospital en italiano.",
     study: {
       vocab: [
-        ["il medico/la dottoressa", "the doctor"],
-        ["l'infermiere/l'infermiera", "the nurse"],
-        ["il dolore", "the pain"],
-        ["l'appuntamento", "the appointment"],
-        ["la sala d'attesa", "the waiting room"],
-        ["la ricetta", "the prescription"],
+        ["il medico/la dottoressa", "el médico"],
+        ["l'infermiere/l'infermiera", "el enfermero/la enfermera"],
+        ["il dolore", "el dolor"],
+        ["l'appuntamento", "la cita"],
+        ["la sala d'attesa", "la sala de espera"],
+        ["la ricetta", "la receta"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en profesiones", "\"L'infermiere/l'infermiera\" cambia de género según quien ejerce la profesión.", "l'infermiere (m) / l'infermiera (f)"],
@@ -10813,11 +10813,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para describir síntomas en italiano.",
     study: {
       vocab: [
-        ["ho mal di testa", "my head hurts"],
-        ["ho la febbre", "I have a fever"],
-        ["mi sento stordito/a", "I feel dizzy"],
-        ["ho la nausea", "I feel nauseous"],
-        ["da tre giorni", "for three days"],
+        ["ho mal di testa", "me duele la cabeza"],
+        ["ho la febbre", "tengo fiebre"],
+        ["mi sento stordito/a", "me siento mareado/a"],
+        ["ho la nausea", "tengo náuseas"],
+        ["da tre giorni", "desde hace tres días"],
       ],
       grammar: [
         ["\"Avere mal di\" para el dolor", "\"Avere mal di\" + parte del cuerpo expresa dolor.", "Ho mal di testa. / Ho mal di piedi."],
@@ -10836,11 +10836,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo en la recepción de un hospital en italiano.",
     study: {
       vocab: [
-        ["Buongiorno, ha un appuntamento?", "Good morning, do you have an appointment?"],
-        ["Sì, alle 10 con il Dr. Ruiz", "Yes, at 10 with Dr. Ruiz"],
-        ["Si accomodi, per favore", "Please take a seat"],
-        ["Il dottore la riceverà a breve", "The doctor will see you soon"],
-        ["Posso avere la sua tessera sanitaria?", "Can I have your insurance card?"],
+        ["Buongiorno, ha un appuntamento?", "Buenos días, ¿tiene cita?"],
+        ["Sì, alle 10 con il Dr. Ruiz", "Sí, a las 10 con el Dr. Ruiz"],
+        ["Si accomodi, per favore", "Por favor, tome asiento"],
+        ["Il dottore la riceverà a breve", "El médico le atenderá pronto"],
+        ["Posso avere la sua tessera sanitaria?", "¿Me da su tarjeta del seguro?"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones médicas", "\"Si accomodi\" es el imperativo formal (Lei) del verbo \"accomodarsi\".", "Si accomodi, per favore. Il dottore la riceverà a breve."],
@@ -10860,10 +10860,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar en una farmacia en italiano.",
     study: {
       vocab: [
-        ["ha qualcosa per il mal di testa?", "do you have something for a headache?"],
-        ["due volte al giorno", "twice a day"],
-        ["con o senza ricetta", "with or without prescription"],
-        ["gli effetti collaterali", "side effects"],
+        ["ha qualcosa per il mal di testa?", "¿tiene algo para el dolor de cabeza?"],
+        ["due volte al giorno", "dos veces al día"],
+        ["con o senza ricetta", "con o sin receta"],
+        ["gli effetti collaterali", "los efectos secundarios"],
       ],
       grammar: [
         ["\"Volte al giorno\" para frecuencia de dosis", "\"X volte al giorno\" indica cuántas veces se debe tomar un medicamento.", "Lo prenda due volte al giorno, con i pasti."],
@@ -10882,10 +10882,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a comunicar una emergencia médica en italiano.",
     study: {
       vocab: [
-        ["è un'emergenza", "it's an emergency"],
-        ["ho bisogno di un'ambulanza", "I need an ambulance"],
-        ["sta sanguinando molto", "he/she is bleeding a lot"],
-        ["ha perso conoscenza", "he/she lost consciousness"],
+        ["è un'emergenza", "es una emergencia"],
+        ["ho bisogno di un'ambulanza", "necesito una ambulancia"],
+        ["sta sanguinando molto", "está sangrando mucho"],
+        ["ha perso conoscenza", "perdió el conocimiento"],
       ],
       grammar: [
         ["Passato prossimo para reportar una emergencia", "El pasado próximo describe lo que acaba de ocurrir en una emergencia médica.", "Ha perso conoscenza pochi minuti fa."],
@@ -10905,10 +10905,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario sobre seguro médico y trámites en italiano.",
     study: {
       vocab: [
-        ["è coperto dalla mia assicurazione?", "is this covered by my insurance?"],
-        ["il ticket", "the copay"],
-        ["firmare il modulo di ammissione", "to sign the admission form"],
-        ["il numero di polizza", "the policy number"],
+        ["è coperto dalla mia assicurazione?", "¿esto lo cubre mi seguro?"],
+        ["il ticket", "el copago"],
+        ["firmare il modulo di ammissione", "firmar el formulario de ingreso"],
+        ["il numero di polizza", "el número de póliza"],
       ],
       grammar: [
         ["Voz pasiva con \"essere coperto\"", "\"Essere coperto da\" describe si algo está incluido en el seguro, usando la pasiva.", "Questo trattamento è coperto dalla mia assicurazione?"],
@@ -10927,10 +10927,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar sobre citas de seguimiento y control en italiano.",
     study: {
       vocab: [
-        ["una visita di controllo", "a follow-up appointment"],
-        ["quando devo tornare?", "when should I come back?"],
-        ["continuare a prendere la terapia", "to keep taking the medication"],
-        ["migliorare poco a poco", "to improve little by little"],
+        ["una visita di controllo", "una cita de seguimiento"],
+        ["quando devo tornare?", "¿cuándo debo volver?"],
+        ["continuare a prendere la terapia", "seguir tomando la medicación"],
+        ["migliorare poco a poco", "mejorar poco a poco"],
       ],
       grammar: [
         ["\"Continuare a + infinitivo\" para continuidad", "\"Continuare a\" + verbo expresa que una acción continúa en el tiempo.", "Deve continuare a prendere la terapia per un'altra settimana."],
@@ -10950,11 +10950,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a entender y pedir una derivación a un especialista médico en italiano.",
     study: {
       vocab: [
-        ["un'impegnativa per uno specialista", "a referral to a specialist"],
-        ["vedere un cardiologo", "to see a cardiologist"],
-        ["lista d'attesa per un appuntamento", "waiting list for an appointment"],
-        ["una seconda visita", "a second consultation"],
-        ["portare i risultati delle analisi", "to bring your test results"],
+        ["un'impegnativa per uno specialista", "una derivación a un especialista"],
+        ["vedere un cardiologo", "consultar a un cardiólogo"],
+        ["lista d'attesa per un appuntamento", "la lista de espera para una cita"],
+        ["una seconda visita", "una segunda consulta"],
+        ["portare i risultati delle analisi", "traer los resultados de sus pruebas"],
       ],
       grammar: [
         ["\"Avere bisogno di un'impegnativa\" para trámites médicos", "Esta estructura describe la necesidad médica de ver a un especialista concreto tras una consulta general.", "Ho bisogno di un'impegnativa per vedere un cardiologo."],
@@ -10974,11 +10974,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a entender y preguntar sobre resultados de análisis o pruebas médicas en italiano.",
     study: {
       vocab: [
-        ["i risultati sono tornati normali", "the results came back normal"],
-        ["è necessario un esame di controllo", "a follow-up test is needed"],
-        ["cosa significano questi numeri?", "what do these numbers mean"],
-        ["valori leggermente elevati", "slightly elevated levels"],
-        ["niente di cui preoccuparsi", "nothing to worry about"],
+        ["i risultati sono tornati normali", "los resultados salieron normales"],
+        ["è necessario un esame di controllo", "se necesita una prueba de seguimiento"],
+        ["cosa significano questi numeri?", "¿qué significan estos números?"],
+        ["valori leggermente elevati", "niveles ligeramente elevados"],
+        ["niente di cui preoccuparsi", "nada de qué preocuparse"],
       ],
       grammar: [
         ["Passato prossimo para informar resultados", "El pasado próximo (\"sono tornati\") se usa para comunicar el resultado de una prueba ya completada.", "I suoi risultati sono tornati normali, quindi niente di cui preoccuparsi."],
@@ -10998,11 +10998,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario sobre consentimiento informado antes de un procedimiento médico en italiano.",
     study: {
       vocab: [
-        ["firmare un modulo di consenso", "to sign a consent form"],
-        ["i rischi e i benefici della procedura", "the risks and benefits of the procedure"],
-        ["ho altre opzioni?", "do I have any other options"],
-        ["capire a cosa sta acconsentendo", "to understand what you're agreeing to"],
-        ["può fare domande prima di firmare", "you can ask questions before signing"],
+        ["firmare un modulo di consenso", "firmar un formulario de consentimiento"],
+        ["i rischi e i benefici della procedura", "los riesgos y beneficios del procedimiento"],
+        ["ho altre opzioni?", "¿tengo otras opciones?"],
+        ["capire a cosa sta acconsentendo", "entender a qué está accediendo"],
+        ["può fare domande prima di firmare", "puede hacer preguntas antes de firmar"],
       ],
       grammar: [
         ["\"Prima di + infinitivo\" para secuenciar acciones", "\"Prima di firmare\" indica qué debe ocurrir antes de una acción concreta, muy común en procesos formales.", "Legga attentamente il modulo prima di firmarlo."],
@@ -11021,11 +11021,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar sobre salud mental y pedir apoyo psicológico en italiano, con vocabulario sensible y respetuoso.",
     study: {
       vocab: [
-        ["mi sono sentito/a sopraffatto/a ultimamente", "I've been feeling overwhelmed lately"],
-        ["parlare con un terapeuta", "to speak with a therapist"],
-        ["va bene chiedere aiuto", "it's okay to ask for help"],
-        ["difficoltà a dormire e concentrarsi", "difficulty sleeping and concentrating"],
-        ["una conversazione riservata", "a confidential conversation"],
+        ["mi sono sentito/a sopraffatto/a ultimamente", "últimamente me he sentido abrumado/a"],
+        ["parlare con un terapeuta", "hablar con un terapeuta"],
+        ["va bene chiedere aiuto", "está bien pedir ayuda"],
+        ["difficoltà a dormire e concentrarsi", "dificultad para dormir y concentrarse"],
+        ["una conversazione riservata", "una conversación confidencial"],
       ],
       grammar: [
         ["Passato prossimo con \"ultimamente\"", "\"Mi sono sentito...ultimamente\" describe un estado emocional que comenzó en el pasado y continúa ahora.", "Mi sono sentito sopraffatto nelle ultime settimane."],
@@ -11045,11 +11045,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir una segunda opinión médica de forma educada y profesional en italiano.",
     study: {
       vocab: [
-        ["vorrei chiedere un secondo parere", "I'd like to seek a second opinion"],
-        ["questo non riflette la mia fiducia in lei", "this isn't a reflection of my trust in you"],
-        ["prendere una decisione pienamente informata", "to make a fully informed decision"],
-        ["potrebbe trasferire la mia cartella clinica?", "could you transfer my records"],
-        ["uno specialista con più esperienza in questo campo", "a specialist with more experience in this area"],
+        ["vorrei chiedere un secondo parere", "me gustaría buscar una segunda opinión"],
+        ["questo non riflette la mia fiducia in lei", "esto no refleja mi confianza en usted"],
+        ["prendere una decisione pienamente informata", "tomar una decisión totalmente informada"],
+        ["potrebbe trasferire la mia cartella clinica?", "¿podría transferir mi historial?"],
+        ["uno specialista con più esperienza in questo campo", "un especialista con más experiencia en esta área"],
       ],
       grammar: [
         ["Matizar una petición delicada", "Frases como \"questo non riflette...\" suavizan una petición que podría malinterpretarse, mostrando respeto mientras se defiende una decisión.", "Vorrei chiedere un secondo parere — questo non riflette la mia fiducia in lei, ma voglio essere ben informato."],
@@ -11069,11 +11069,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos en italiano relacionados con la salud y el bienestar.",
     study: {
       vocab: [
-        ["non sentirsi in forma", "to be under the weather"],
-        ["essere di nuovo in piedi", "to be back on your feet"],
-        ["combattere un raffreddore", "to fight off a cold"],
-        ["un certificato di buona salute", "a clean bill of health"],
-        ["prendersela con calma", "to take it easy"],
+        ["non sentirsi in forma", "estar pachucho/algo indispuesto"],
+        ["essere di nuovo in piedi", "estar recuperado"],
+        ["combattere un raffreddore", "combatir un resfriado"],
+        ["un certificato di buona salute", "un buen estado de salud"],
+        ["prendersela con calma", "tomárselo con calma"],
       ],
       grammar: [
         ["Modismos con partes del cuerpo y salud", "Estos modismos usan imágenes cotidianas para describir el estado de salud de forma natural y coloquial.", "Non mi sono sentito in forma per tutta la settimana, ma finalmente sono di nuovo in piedi."],
@@ -11096,12 +11096,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales del entorno de oficina en italiano.",
     study: {
       vocab: [
-        ["la riunione", "the meeting"],
-        ["la scadenza", "the deadline"],
-        ["il/la collega", "the coworker"],
-        ["il capo/la capa", "the boss"],
-        ["il rapporto", "the report"],
-        ["l'email", "the email"],
+        ["la riunione", "la reunión"],
+        ["la scadenza", "el plazo"],
+        ["il/la collega", "el compañero de trabajo"],
+        ["il capo/la capa", "el jefe"],
+        ["il rapporto", "el informe"],
+        ["l'email", "el correo electrónico"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en el trabajo", "\"Il capo/la capa\" cambia de género según quien ocupa el puesto.", "il capo (m) / la capa (f)"],
@@ -11121,10 +11121,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para el entorno laboral en italiano.",
     study: {
       vocab: [
-        ["Possiamo organizzare una riunione?", "Can we schedule a meeting?"],
-        ["Avrò bisogno di più tempo", "I'm going to need more time"],
-        ["Ho allegato il file", "I've attached the file"],
-        ["Grazie per la sua pazienza", "Thank you for your patience"],
+        ["Possiamo organizzare una riunione?", "¿Podemos programar una reunión?"],
+        ["Avrò bisogno di più tempo", "Voy a necesitar más tiempo"],
+        ["Ho allegato il file", "He adjuntado el archivo"],
+        ["Grazie per la sua pazienza", "Gracias por su paciencia"],
       ],
       grammar: [
         ["Futuro para planes inmediatos", "\"Avrò bisogno\" expresa un plan o necesidad cercana en el tiempo.", "Avrò bisogno di più tempo per finire il rapporto."],
@@ -11143,10 +11143,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo pidiendo ayuda a un compañero de trabajo en italiano.",
     study: {
       vocab: [
-        ["Hai un minuto?", "Do you have a minute?"],
-        ["Certo, come posso aiutarti?", "Sure, how can I help?"],
-        ["Non so come usare questo programma", "I don't know how to use this program"],
-        ["Te lo spiego subito", "I'll explain it to you right now"],
+        ["Hai un minuto?", "¿Tienes un minuto?"],
+        ["Certo, come posso aiutarti?", "Claro, ¿en qué puedo ayudarte?"],
+        ["Non so come usare questo programma", "No sé usar este programa"],
+        ["Te lo spiego subito", "Te lo explico ahora mismo"],
       ],
       grammar: [
         ["\"Hai un minuto?\" para pedir atención", "Es una forma informal y educada de interrumpir a un compañero para pedir ayuda.", "Hai un minuto? Ho bisogno del tuo aiuto."],
@@ -11166,10 +11166,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario para participar en reuniones y presentaciones en italiano.",
     study: {
       vocab: [
-        ["iniziamo con l'ordine del giorno", "let's start with the agenda"],
-        ["ci sono domande?", "any questions?"],
-        ["come potete vedere in questa diapositiva", "as you can see on this slide"],
-        ["passiamo al punto successivo", "let's move to the next point"],
+        ["iniziamo con l'ordine del giorno", "empecemos con la agenda"],
+        ["ci sono domande?", "¿alguna pregunta?"],
+        ["come potete vedere in questa diapositiva", "como pueden ver en esta diapositiva"],
+        ["passiamo al punto successivo", "pasemos al siguiente punto"],
       ],
       grammar: [
         ["Imperativo de primera persona plural (\"noi\")", "\"Iniziamo\", \"passiamo\" son formas de \"noi\" para proponer una acción conjunta.", "Iniziamo con l'ordine del giorno di oggi."],
@@ -11188,10 +11188,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a escribir correos breves y profesionales en italiano.",
     study: {
       vocab: [
-        ["Gentile...", "Dear..."],
-        ["Resto in attesa di una sua risposta", "I look forward to your reply"],
-        ["Cordiali saluti", "Best regards"],
-        ["Le scrivo per...", "I'm writing to..."],
+        ["Gentile...", "Estimado/a..."],
+        ["Resto in attesa di una sua risposta", "Quedo a la espera de su respuesta"],
+        ["Cordiali saluti", "Saludos cordiales"],
+        ["Le scrivo per...", "Le escribo para..."],
       ],
       grammar: [
         ["Fórmulas fijas para correos formales", "\"Gentile\", \"Le scrivo per...\" y \"Cordiali saluti\" son fórmulas fijas típicas de correos profesionales.", "Gentile Sig. López, Le scrivo per confermare la riunione. Cordiali saluti."],
@@ -11210,10 +11210,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a manejar un desacuerdo profesional de forma educada en italiano.",
     study: {
       vocab: [
-        ["capisco il suo punto di vista, ma...", "I understand your point, but..."],
-        ["non sono del tutto d'accordo", "I don't entirely agree"],
-        ["possiamo trovare un compromesso?", "can we find a middle ground?"],
-        ["preferisco essere diretto/a a riguardo", "I'd rather be direct about it"],
+        ["capisco il suo punto di vista, ma...", "Entiendo su punto, pero..."],
+        ["non sono del tutto d'accordo", "No estoy del todo de acuerdo"],
+        ["possiamo trovare un compromesso?", "¿podemos encontrar un término medio?"],
+        ["preferisco essere diretto/a a riguardo", "prefiero ser directo al respecto"],
       ],
       grammar: [
         ["\"Ma\" para suavizar un desacuerdo", "\"Capisco il suo punto di vista, ma...\" reconoce la otra opinión antes de presentar la tuya.", "Capisco il suo punto di vista, ma penso ci sia un'altra opzione."],
@@ -11232,10 +11232,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a pedir días libres o vacaciones en el trabajo en italiano.",
     study: {
       vocab: [
-        ["vorrei chiedere qualche giorno libero", "I'd like to request some days off"],
-        ["ho giorni di ferie accumulati", "I have accumulated vacation days"],
-        ["sarebbe possibile prenderli la prossima settimana?", "would it be possible to take them next week?"],
-        ["devo coordinarmi con il mio team", "I need to coordinate it with my team"],
+        ["vorrei chiedere qualche giorno libero", "me gustaría solicitar unos días libres"],
+        ["ho giorni di ferie accumulati", "tengo días de vacaciones acumulados"],
+        ["sarebbe possibile prenderli la prossima settimana?", "¿sería posible tomarlos la próxima semana?"],
+        ["devo coordinarmi con il mio team", "necesito coordinarlo con mi equipo"],
       ],
       grammar: [
         ["\"Sarebbe possibile\" para peticiones muy educadas", "El condicional \"sarebbe possibile\" suaviza una petición delicada como pedir tiempo libre.", "Sarebbe possibile prendere quei giorni la prossima settimana?"],
@@ -11255,11 +11255,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a negociar tu salario o condiciones laborales de forma profesional en italiano.",
     study: {
       vocab: [
-        ["basandomi sulla mia esperienza e sui miei risultati", "based on my experience and results"],
-        ["speravo potessimo parlare del mio stipendio", "I was hoping we could discuss my salary"],
-        ["lo standard del settore per questo ruolo", "industry standard for this role"],
-        ["un bonus basato sulle prestazioni", "a performance-based bonus"],
-        ["sono aperto/a a un compromesso", "I'm open to a compromise"],
+        ["basandomi sulla mia esperienza e sui miei risultati", "basándome en mi experiencia y resultados"],
+        ["speravo potessimo parlare del mio stipendio", "esperaba que pudiéramos hablar de mi salario"],
+        ["lo standard del settore per questo ruolo", "el estándar del sector para este puesto"],
+        ["un bonus basato sulle prestazioni", "una bonificación por desempeño"],
+        ["sono aperto/a a un compromesso", "estoy abierto/a a un acuerdo"],
       ],
       grammar: [
         ["\"Speravo potessimo...\" para abrir una negociación", "Esta estructura suaviza una petición delicada, mostrando iniciativa sin sonar exigente.", "Speravo potessimo parlare del mio stipendio basandomi sui miei risultati recenti."],
@@ -11279,11 +11279,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a dar y recibir feedback constructivo de forma profesional en italiano.",
     study: {
       vocab: [
-        ["un feedback costruttivo", "constructive feedback"],
-        ["cosa ha funzionato bene e cosa si potrebbe migliorare", "what went well and what could improve"],
-        ["apprezzo davvero il feedback", "I really appreciate the feedback"],
-        ["un'area di miglioramento", "one area for improvement"],
-        ["tenerne conto", "to take this on board"],
+        ["un feedback costruttivo", "la retroalimentación constructiva"],
+        ["cosa ha funzionato bene e cosa si potrebbe migliorare", "qué salió bien y qué se podría mejorar"],
+        ["apprezzo davvero il feedback", "agradezco mucho la retroalimentación"],
+        ["un'area di miglioramento", "un área de mejora"],
+        ["tenerne conto", "tener esto en cuenta"],
       ],
       grammar: [
         ["Estructura \"sándwich\" para dar feedback", "Se empieza con algo positivo, se menciona el área de mejora, y se cierra con ánimo — suaviza la crítica sin perder claridad.", "Hai fatto un ottimo lavoro sulla presentazione, ma un'area di miglioramento è il tempismo. Nel complesso, ben fatto!"],
@@ -11302,11 +11302,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario para gestionar proyectos, plazos y prioridades en italiano.",
     study: {
       vocab: [
-        ["essere in ritardo sul programma", "to fall behind schedule"],
-        ["dare priorità ai compiti chiave", "to prioritize the key tasks"],
-        ["una scadenza realistica", "a realistic deadline"],
-        ["allocare risorse", "to allocate resources"],
-        ["un aggiornamento di stato", "a status update"],
+        ["essere in ritardo sul programma", "retrasarse respecto al calendario"],
+        ["dare priorità ai compiti chiave", "priorizar las tareas clave"],
+        ["una scadenza realistica", "un plazo realista"],
+        ["allocare risorse", "asignar recursos"],
+        ["un aggiornamento di stato", "una actualización de estado"],
       ],
       grammar: [
         ["\"Essere in ritardo sul programma\" para retrasos", "Esta expresión describe estar retrasado respecto a un plan, sin culpar directamente a nadie.", "Siamo in ritardo sul programma a causa di ritardi imprevisti."],
@@ -11326,11 +11326,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a comunicarte de forma efectiva con colegas de distintas culturas en un entorno laboral en italiano.",
     study: {
       vocab: [
-        ["la franchezza può essere percepita diversamente", "directness can be perceived differently"],
-        ["evitare malintesi", "to avoid misunderstandings"],
-        ["uno stile di comunicazione diverso", "a different communication style"],
-        ["chiarire invece di supporre", "to clarify rather than assume"],
-        ["essere attenti alle differenze culturali", "being mindful of cultural differences"],
+        ["la franchezza può essere percepita diversamente", "la franqueza puede percibirse de forma distinta"],
+        ["evitare malintesi", "evitar malentendidos"],
+        ["uno stile di comunicazione diverso", "un estilo de comunicación diferente"],
+        ["chiarire invece di supporre", "aclarar en lugar de suponer"],
+        ["essere attenti alle differenze culturali", "ser consciente de las diferencias culturales"],
       ],
       grammar: [
         ["\"Invece di\" para contrastar dos acciones", "\"Chiarire invece di supporre\" contrasta dos comportamientos, prefiriendo el primero sobre el segundo.", "È meglio chiedere invece di supporre di capire."],
@@ -11349,11 +11349,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a persuadir y argumentar de forma convincente en una reunión de trabajo en italiano.",
     study: {
       vocab: [
-        ["se osserviamo i dati da vicino", "if we look at the data closely"],
-        ["questo approccio ci permetterebbe di...", "this approach would allow us to..."],
-        ["vorrei approfondire questo punto", "I'd like to build on that point"],
-        ["i numeri parlano da soli", "the numbers speak for themselves"],
-        ["valutiamo i pro e i contro", "let's weigh the pros and cons"],
+        ["se osserviamo i dati da vicino", "si observamos los datos de cerca"],
+        ["questo approccio ci permetterebbe di...", "este enfoque nos permitiría..."],
+        ["vorrei approfondire questo punto", "me gustaría ampliar ese punto"],
+        ["i numeri parlano da soli", "los números hablan por sí solos"],
+        ["valutiamo i pro e i contro", "sopesemos los pros y los contras"],
       ],
       grammar: [
         ["Condicional para proponer ideas con tacto", "\"Questo approccio ci permetterebbe di...\" usa el condicional para proponer una idea sin imponerla, dejando espacio a la discusión.", "Questo approccio ci permetterebbe di ridurre i costi senza compromettere la qualità."],
@@ -11373,11 +11373,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos en italiano muy comunes en el entorno laboral y corporativo.",
     study: {
       vocab: [
-        ["pensare fuori dagli schemi", "to think outside the box"],
-        ["sentirsi rapidamente per un aggiornamento", "to touch base"],
-        ["essere sulla stessa lunghezza d'onda", "to be on the same page"],
-        ["partire con il piede giusto", "to hit the ground running"],
-        ["i compiti più facili da risolvere", "low-hanging fruit"],
+        ["pensare fuori dagli schemi", "pensar de forma innovadora"],
+        ["sentirsi rapidamente per un aggiornamento", "ponerse en contacto brevemente"],
+        ["essere sulla stessa lunghezza d'onda", "estar en sintonía"],
+        ["partire con il piede giusto", "empezar con buen pie"],
+        ["i compiti più facili da risolvere", "lo más fácil de conseguir"],
       ],
       grammar: [
         ["Modismos corporativos comunes", "Estos modismos son extremadamente frecuentes en reuniones de trabajo y no tienen traducción literal directa.", "Sentiamoci la prossima settimana per assicurarci di essere sulla stessa lunghezza d'onda."],
@@ -11400,12 +11400,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales para una fiesta en italiano.",
     study: {
       vocab: [
-        ["l'ospite", "the guest"],
-        ["il padrone/la padrona di casa", "the host"],
-        ["la musica", "the music"],
-        ["il regalo", "the gift"],
-        ["la torta", "the cake"],
-        ["i palloncini", "balloons"],
+        ["l'ospite", "el invitado"],
+        ["il padrone/la padrona di casa", "el anfitrión"],
+        ["la musica", "la música"],
+        ["il regalo", "el regalo"],
+        ["la torta", "la tarta"],
+        ["i palloncini", "los globos"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en la fiesta", "\"Il padrone/la padrona di casa\" cambia de género según quien organiza.", "il padrone di casa (m) / la padrona di casa (f)"],
@@ -11425,10 +11425,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para socializar en una fiesta en italiano.",
     study: {
       vocab: [
-        ["Che piacere vederti!", "So nice to see you!"],
-        ["Come conosci il padrone di casa?", "How do you know the host?"],
-        ["Buon compleanno!", "Happy birthday!"],
-        ["Grazie per avermi invitato/a", "Thanks for inviting me"],
+        ["Che piacere vederti!", "¡Qué alegría verte!"],
+        ["Come conosci il padrone di casa?", "¿Cómo conoces al anfitrión?"],
+        ["Buon compleanno!", "¡Feliz cumpleaños!"],
+        ["Grazie per avermi invitato/a", "Gracias por invitarme"],
       ],
       grammar: [
         ["Exclamaciones con \"che\"", "\"Che + sustantivo/adjetivo!\" expresa entusiasmo o sorpresa de forma natural.", "Che piacere vederti! / Che buono questo cibo!"],
@@ -11447,10 +11447,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo conociendo gente nueva en una fiesta en italiano.",
     study: {
       vocab: [
-        ["Ciao, non ci conosciamo, sono Ana", "Hi, we haven't met, I'm Ana"],
-        ["Piacere, io sono Marco", "Nice to meet you, I'm Marco"],
-        ["Di cosa ti occupi?", "What do you do?"],
-        ["Sono una grafica", "I'm a graphic designer"],
+        ["Ciao, non ci conosciamo, sono Ana", "Hola, no nos conocemos, soy Ana"],
+        ["Piacere, io sono Marco", "Encantado, soy Marco"],
+        ["Di cosa ti occupi?", "¿A qué te dedicas?"],
+        ["Sono una grafica", "Soy diseñador/a gráfico/a"],
       ],
       grammar: [
         ["\"Non ci conosciamo\" para presentarse", "Esta frase se usa para iniciar una presentación con alguien nuevo de forma natural.", "Ciao, non ci conosciamo, sono Ana."],
@@ -11470,10 +11470,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a invitar a alguien y responder a una invitación en italiano.",
     study: {
       vocab: [
-        ["ti va di venire alla mia festa?", "would you like to come to my party?"],
-        ["mi piacerebbe molto venire", "I'd love to go"],
-        ["mi dispiace, ho già degli impegni", "sorry, I already have plans"],
-        ["posso portare qualcuno?", "can I bring someone?"],
+        ["ti va di venire alla mia festa?", "¿te gustaría venir a mi fiesta?"],
+        ["mi piacerebbe molto venire", "me encantaría ir"],
+        ["mi dispiace, ho già degli impegni", "lo siento, ya tengo planes"],
+        ["posso portare qualcuno?", "¿puedo traer a alguien?"],
       ],
       grammar: [
         ["\"Mi piacerebbe\" para aceptar con entusiasmo", "\"Mi piacerebbe\" es una forma entusiasta y educada de aceptar una invitación.", "Mi piacerebbe molto venire, grazie per l'invito."],
@@ -11492,10 +11492,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar sobre la comida y bebida en una fiesta en italiano.",
     study: {
       vocab: [
-        ["cosa c'è da mangiare?", "what's there to eat?"],
-        ["assaggia questo, è delizioso", "try this, it's delicious"],
-        ["puoi versarmene ancora un po'?", "can you pour me a bit more?"],
-        ["è davvero buonissimo", "it's really good"],
+        ["cosa c'è da mangiare?", "¿qué hay de comer?"],
+        ["assaggia questo, è delizioso", "prueba esto, está delicioso"],
+        ["puoi versarmene ancora un po'?", "¿me sirves un poco más?"],
+        ["è davvero buonissimo", "está muy bueno"],
       ],
       grammar: [
         ["Superlativo con -issimo", "El sufijo \"-issimo\" intensifica un adjetivo, muy usado en conversación informal.", "È buonissimo. / È deliziosissimo."],
@@ -11514,10 +11514,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a manejar situaciones incómodas o preguntas indiscretas en una fiesta, en italiano.",
     study: {
       vocab: [
-        ["preferisco non parlarne", "I'd rather not talk about that"],
-        ["che domanda imbarazzante", "what an awkward question"],
-        ["cambiamo argomento", "let's change the subject"],
-        ["non sono affari miei, ma...", "it's none of my business, but..."],
+        ["preferisco non parlarne", "prefiero no hablar de eso"],
+        ["che domanda imbarazzante", "qué pregunta más incómoda"],
+        ["cambiamo argomento", "cambiemos de tema"],
+        ["non sono affari miei, ma...", "no es asunto mío, pero..."],
       ],
       grammar: [
         ["\"Preferire + infinitivo\" para declinar con tacto", "\"Preferisco non...\" suaviza una negativa sin sonar brusco.", "Preferisco non parlarne adesso."],
@@ -11537,10 +11537,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a despedirte y hacer planes futuros al final de una fiesta en italiano.",
     study: {
       vocab: [
-        ["devo andare ora", "I have to go now"],
-        ["è stato un piacere conoscerti", "it was a pleasure meeting you"],
-        ["vediamoci un altro giorno", "let's meet up another day"],
-        ["a presto", "see you soon"],
+        ["devo andare ora", "tengo que irme ya"],
+        ["è stato un piacere conoscerti", "fue un placer conocerte"],
+        ["vediamoci un altro giorno", "quedemos otro día"],
+        ["a presto", "hasta pronto"],
       ],
       grammar: [
         ["Imperativo de \"noi\" para proponer planes", "\"Vediamoci\" es el imperativo de \"noi\", usado para proponer un plan conjunto.", "Vediamoci un altro giorno per un caffè."],
@@ -11559,11 +11559,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a dar tu opinión y debatir ligeramente sobre temas cotidianos en una fiesta, en italiano.",
     study: {
       vocab: [
-        ["secondo me", "in my opinion"],
-        ["la vedo diversamente", "I see it differently"],
-        ["è un buon punto", "that's a fair point"],
-        ["non ne sono così sicuro/a", "I'm not so sure about that"],
-        ["dovremo essere d'accordo nel non essere d'accordo", "we'll have to agree to disagree"],
+        ["secondo me", "en mi opinión"],
+        ["la vedo diversamente", "yo lo veo de otra manera"],
+        ["è un buon punto", "es un buen argumento"],
+        ["non ne sono così sicuro/a", "no estoy tan seguro/a de eso"],
+        ["dovremo essere d'accordo nel non essere d'accordo", "tendremos que aceptar que no estamos de acuerdo"],
       ],
       grammar: [
         ["\"È un buon punto, ma...\" para debatir con cortesía", "Esta estructura reconoce el argumento del otro antes de presentar el tuyo, manteniendo el tono amistoso propio de una fiesta.", "È un buon punto, ma penso ancora che il film fosse sopravvalutato."],
@@ -11583,11 +11583,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a contar una anécdota de forma entretenida y con buen ritmo en italiano.",
     study: {
       vocab: [
-        ["non crederai a cosa è successo", "you won't believe what happened"],
-        ["quindi ero lì...", "so there I was..."],
-        ["in breve", "long story short"],
-        ["diventa ancora meglio", "it gets better"],
-        ["ed è così che è successo tutto", "and that's how it all happened"],
+        ["non crederai a cosa è successo", "no vas a creer lo que pasó"],
+        ["quindi ero lì...", "entonces ahí estaba yo..."],
+        ["in breve", "para resumir"],
+        ["diventa ancora meglio", "y hay más"],
+        ["ed è così che è successo tutto", "y así fue como pasó todo"],
       ],
       grammar: [
         ["Pasado narrativo con marcadores de historia", "Frases como \"quindi ero lì...\" y \"in breve\" estructuran una anécdota de forma natural y mantienen el interés del oyente.", "Quindi ero lì, completamente perso in aeroporto, e in breve, ho perso il volo."],
@@ -11607,11 +11607,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a reconocer y usar humor ligero y sarcasmo suave en conversaciones sociales en italiano.",
     study: {
       vocab: [
-        ["sto solo scherzando", "I'm just kidding"],
-        ["è esilarante", "that's hilarious"],
-        ["ma certo (sarcástico)", "yeah, right"],
-        ["senza offesa, ma...", "no offense, but..."],
-        ["hai davvero un gran senso dell'umorismo", "you have a great sense of humor"],
+        ["sto solo scherzando", "es broma"],
+        ["è esilarante", "qué gracioso"],
+        ["ma certo (sarcástico)", "sí, claro (irónico)"],
+        ["senza offesa, ma...", "sin ofender, pero..."],
+        ["hai davvero un gran senso dell'umorismo", "tienes muy buen sentido del humor"],
       ],
       grammar: [
         ["Tono e intención en el humor coloquial", "Frases como \"ma certo\" cambian completamente de significado según el tono — se usan para expresar incredulidad o sarcasmo suave, no acuerdo literal.", "\"Finisco questo progetto in un giorno.\" \"Ma certo\" (dicho con ironía)"],
@@ -11630,11 +11630,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hacer networking profesional de forma natural en un evento social en italiano.",
     study: {
       vocab: [
-        ["di cosa ti occupi?", "what do you do for a living?"],
-        ["restiamo in contatto", "let's stay in touch"],
-        ["potrei avere i tuoi contatti?", "could I get your contact information"],
-        ["mi piacerebbe consultarti qualche volta", "I'd love to pick your brain sometime"],
-        ["il mondo è piccolo!", "small world!"],
+        ["di cosa ti occupi?", "¿a qué te dedicas?"],
+        ["restiamo in contatto", "mantengamos el contacto"],
+        ["potrei avere i tuoi contatti?", "¿me das tu contacto?"],
+        ["mi piacerebbe consultarti qualche volta", "me encantaría consultarte algo en algún momento"],
+        ["il mondo è piccolo!", "¡qué casualidad!"],
       ],
       grammar: [
         ["Preguntas abiertas para iniciar networking", "Preguntas como \"Di cosa ti occupi?\" abren la conversación de forma natural sin sonar demasiado formal, típico en eventos sociales.", "Allora, di cosa ti occupi? Sono curioso di sapere come ci sei arrivato."],
@@ -11654,11 +11654,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a proponer y convencer a un grupo de amigos de hacer un plan en italiano, con un tono persuasivo pero informal.",
     study: {
       vocab: [
-        ["ascoltatemi un attimo", "hear me out"],
-        ["e se provassimo a...?", "what if we tried..."],
-        ["sono sicuro/a che vi piacerebbe a tutti", "I bet you'd all love it"],
-        ["dai, sarà divertente", "come on, it'll be fun"],
-        ["chi ci sta?", "who's in"],
+        ["ascoltatemi un attimo", "escúchame"],
+        ["e se provassimo a...?", "¿y si probamos...?"],
+        ["sono sicuro/a che vi piacerebbe a tutti", "seguro que a todos os encantaría"],
+        ["dai, sarà divertente", "venga, será divertido"],
+        ["chi ci sta?", "¿quién se apunta?"],
       ],
       grammar: [
         ["\"E se provassimo...?\" para proponer ideas con entusiasmo", "Esta estructura hipotética invita al grupo a imaginar una idea sin sonar impositivo, ideal para proponer planes.", "E se provassimo quel nuovo bar sul tetto questo weekend? Sono sicuro che vi piacerebbe a tutti."],
@@ -11678,11 +11678,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos coloquiales muy comunes en conversaciones sociales e informales en italiano.",
     study: {
       vocab: [
-        ["rompere il ghiaccio", "to break the ice"],
-        ["essere l'anima della festa", "to be the life of the party"],
-        ["legare subito con qualcuno", "to hit it off with someone"],
-        ["intrufolarsi a una festa", "to crash a party"],
-        ["la festa sta appena iniziando", "the party's just getting started"],
+        ["rompere il ghiaccio", "romper el hielo"],
+        ["essere l'anima della festa", "ser el alma de la fiesta"],
+        ["legare subito con qualcuno", "conectar bien con alguien"],
+        ["intrufolarsi a una festa", "colarse en una fiesta"],
+        ["la festa sta appena iniziando", "la fiesta acaba de empezar"],
       ],
       grammar: [
         ["Modismos sociales muy frecuentes", "Estos modismos aparecen constantemente en conversaciones informales y describen dinámicas sociales de forma vívida.", "Abbiamo legato subito, e a mezzanotte lei era chiaramente l'anima della festa."],
@@ -11705,12 +11705,12 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende palabras esenciales de la vida universitaria en italiano.",
     study: {
       vocab: [
-        ["l'immatricolazione", "enrollment/tuition"],
-        ["il semestre", "the semester"],
-        ["la borsa di studio", "the scholarship"],
-        ["l'aula", "the classroom"],
-        ["l'esame finale", "the final exam"],
-        ["la laurea", "the degree"],
+        ["l'immatricolazione", "la matrícula"],
+        ["il semestre", "el semestre"],
+        ["la borsa di studio", "la beca"],
+        ["l'aula", "el aula"],
+        ["l'esame finale", "el examen final"],
+        ["la laurea", "el título/la carrera"],
       ],
       grammar: [
         ["El artículo \"l'\" ante vocal", "\"L'aula\" y \"l'esame\" usan \"l'\" en vez de \"la/il\" porque empiezan con vocal.", "l'aula (f) / l'esame (m)"],
@@ -11730,10 +11730,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende frases útiles para trámites universitarios en italiano.",
     study: {
       vocab: [
-        ["ho bisogno di un certificato di iscrizione", "I need an enrollment certificate"],
-        ["dove consegno questo modulo?", "where do I submit this form?"],
-        ["voglio cambiare corso di laurea", "I want to change majors"],
-        ["qual è la scadenza?", "what's the deadline?"],
+        ["ho bisogno di un certificato di iscrizione", "necesito un certificado de matrícula"],
+        ["dove consegno questo modulo?", "¿dónde entrego este formulario?"],
+        ["voglio cambiare corso di laurea", "quiero cambiar de carrera"],
+        ["qual è la scadenza?", "¿cuál es el plazo?"],
       ],
       grammar: [
         ["\"Dove + verbo?\" para trámites", "\"Dove consegno...?\" pregunta por el lugar correcto para un trámite.", "Dove consegno questo modulo?"],
@@ -11752,10 +11752,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Practica un diálogo completo en la oficina de administración universitaria en italiano.",
     study: {
       vocab: [
-        ["Buongiorno, come posso aiutarla?", "Good morning, how can I help you?"],
-        ["Ho bisogno del mio certificato dei voti", "I need my transcript"],
-        ["Posso avere il suo numero di matricola?", "Can I have your student number?"],
-        ["Sarà pronto tra tre giorni", "It'll be ready in three days"],
+        ["Buongiorno, come posso aiutarla?", "Buenos días, ¿en qué puedo ayudarle?"],
+        ["Ho bisogno del mio certificato dei voti", "necesito mi expediente académico"],
+        ["Posso avere il suo numero di matricola?", "¿Me da su número de estudiante?"],
+        ["Sarà pronto tra tre giorni", "Estará listo en tres días"],
       ],
       grammar: [
         ["Futuro simple para trámites pendientes", "\"Sarà pronto\" usa el futuro simple para indicar cuándo estará disponible un trámite.", "Sarà pronto tra tre giorni lavorativi."],
@@ -11775,10 +11775,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar sobre la biblioteca universitaria en italiano.",
     study: {
       vocab: [
-        ["prendere in prestito un libro", "to borrow a book"],
-        ["la data di restituzione", "the due date"],
-        ["rinnovare il prestito", "to renew the loan"],
-        ["la sala studio silenziosa", "the quiet study room"],
+        ["prendere in prestito un libro", "pedir prestado un libro"],
+        ["la data di restituzione", "la fecha de vencimiento"],
+        ["rinnovare il prestito", "renovar el préstamo"],
+        ["la sala studio silenziosa", "la sala de estudio silenciosa"],
       ],
       grammar: [
         ["\"Prendere in prestito\" para solicitar algo temporal", "\"Prendere in prestito\" describe tomar algo de forma temporal, con intención de devolverlo.", "Voglio prendere in prestito questo libro."],
@@ -11797,10 +11797,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario para organizar trabajo en grupo en italiano.",
     study: {
       vocab: [
-        ["dividiamoci i compiti", "let's divide up the tasks"],
-        ["chi si occupa dell'introduzione?", "who's in charge of the intro?"],
-        ["incontriamoci giovedì", "let's meet on Thursday"],
-        ["non ho ancora finito la mia parte", "I haven't finished my part yet"],
+        ["dividiamoci i compiti", "dividamos las tareas"],
+        ["chi si occupa dell'introduzione?", "¿quién se encarga de la introducción?"],
+        ["incontriamoci giovedì", "quedemos el jueves"],
+        ["non ho ancora finito la mia parte", "todavía no he terminado mi parte"],
       ],
       grammar: [
         ["Imperativo de \"noi\" para organizar tareas", "\"Dividiamoci\", \"incontriamoci\" proponen una acción conjunta del grupo.", "Dividiamoci i compiti del progetto."],
@@ -11819,10 +11819,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a comunicarte con un profesor sobre dudas o trabajos en italiano.",
     study: {
       vocab: [
-        ["potrebbe chiarirmi questo dubbio?", "could you clarify this doubt for me?"],
-        ["non ho capito bene l'argomento", "I didn't quite understand the topic"],
-        ["ha orario di ricevimento?", "do you have office hours?"],
-        ["vorrei rivedere il mio voto", "I'd like to review my grade"],
+        ["potrebbe chiarirmi questo dubbio?", "¿podrías aclararme esta duda?"],
+        ["non ho capito bene l'argomento", "no entendí muy bien el tema"],
+        ["ha orario di ricevimento?", "¿tiene horario de tutorías?"],
+        ["vorrei rivedere il mio voto", "me gustaría revisar mi calificación"],
       ],
       grammar: [
         ["\"Potrebbe...?\" para peticiones formales con el profesor", "\"Potrebbe...?\" es la forma educada y formal de pedir algo a una figura de autoridad como un profesor.", "Potrebbe chiarirmi questo dubbio sull'esame?"],
@@ -11842,10 +11842,10 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende vocabulario sobre la vida diaria en el campus universitario en italiano.",
     study: {
       vocab: [
-        ["la mensa del campus", "the campus cafeteria"],
-        ["il circolo studentesco", "the student club"],
-        ["la residenza universitaria", "the student dorm"],
-        ["l'orario delle lezioni", "the class schedule"],
+        ["la mensa del campus", "la cafetería del campus"],
+        ["il circolo studentesco", "el club estudiantil"],
+        ["la residenza universitaria", "la residencia estudiantil"],
+        ["l'orario delle lezioni", "el horario de clases"],
       ],
       grammar: [
         ["\"Del campus\" para describir lugares universitarios", "\"Del campus\" indica que algo pertenece o está ubicado en el campus.", "La mensa del campus apre alle 8."],
@@ -11864,11 +11864,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a hablar sobre un ensayo o trabajo académico con tu profesor en italiano.",
     study: {
       vocab: [
-        ["la tesi del lavoro deve essere migliorata", "the thesis statement needs work"],
-        ["citare correttamente le fonti", "to cite your sources properly"],
-        ["l'argomento manca di prove a sostegno", "the argument lacks supporting evidence"],
-        ["rivedere la struttura", "to revise the structure"],
-        ["una conclusione ben supportata", "a well-supported conclusion"],
+        ["la tesi del lavoro deve essere migliorata", "la tesis del trabajo necesita mejorar"],
+        ["citare correttamente le fonti", "citar las fuentes correctamente"],
+        ["l'argomento manca di prove a sostegno", "al argumento le falta evidencia que lo respalde"],
+        ["rivedere la struttura", "revisar la estructura"],
+        ["una conclusione ben supportata", "una conclusión bien fundamentada"],
       ],
       grammar: [
         ["Voz pasiva refleja para retroalimentación académica objetiva", "\"L'argomento deve essere sostenuto\" suena más objetiva y menos personal al dar feedback académico.", "L'argomento deve essere sostenuto con più prove."],
@@ -11888,11 +11888,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a preguntar por becas y ayudas financieras en la universidad en italiano.",
     study: {
       vocab: [
-        ["fare domanda per una borsa di studio", "to apply for a scholarship"],
-        ["l'idoneità per l'aiuto finanziario", "financial aid eligibility"],
-        ["la scadenza della domanda", "the application deadline"],
-        ["una borsa di studio basata sul merito", "a merit-based scholarship"],
-        ["presentare documenti giustificativi", "to submit supporting documents"],
+        ["fare domanda per una borsa di studio", "solicitar una beca"],
+        ["l'idoneità per l'aiuto finanziario", "la elegibilidad para ayuda financiera"],
+        ["la scadenza della domanda", "el plazo de solicitud"],
+        ["una borsa di studio basata sul merito", "una beca por mérito"],
+        ["presentare documenti giustificativi", "presentar documentos justificativos"],
       ],
       grammar: [
         ["\"Basato/a su\" + sustantivo para criterios de selección", "Esta estructura explica en qué se basa una decisión o criterio, muy común al hablar de becas.", "Questa borsa di studio viene assegnata in base al merito accademico e al bisogno finanziario."],
@@ -11911,11 +11911,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a participar en un debate académico en clase, defendiendo y cuestionando ideas en italiano.",
     study: {
       vocab: [
-        ["vorrei mettere in discussione questa idea", "I'd like to challenge that idea"],
-        ["le prove suggeriscono il contrario", "the evidence suggests otherwise"],
-        ["fare l'avvocato del diavolo", "to play devil's advocate"],
-        ["da una prospettiva diversa", "from a different perspective"],
-        ["questo solleva una domanda importante", "that raises an important question"],
+        ["vorrei mettere in discussione questa idea", "me gustaría cuestionar esa idea"],
+        ["le prove suggeriscono il contrario", "la evidencia sugiere lo contrario"],
+        ["fare l'avvocato del diavolo", "hacer de abogado del diablo"],
+        ["da una prospettiva diversa", "desde otra perspectiva"],
+        ["questo solleva una domanda importante", "eso plantea una pregunta importante"],
       ],
       grammar: [
         ["Suavizar el desacuerdo académico", "Frases como \"vorrei mettere in discussione questa idea\" o \"da una prospettiva diversa\" permiten cuestionar un argumento sin sonar agresivo en un debate formal.", "Vorrei mettere in discussione questa idea — da una prospettiva diversa, le prove suggeriscono il contrario."],
@@ -11935,11 +11935,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a presentar y hablar sobre tu proyecto de investigación en italiano.",
     study: {
       vocab: [
-        ["la domanda di ricerca è...", "the research question is..."],
-        ["la metodologia consiste nel...", "the methodology involves..."],
-        ["i risultati preliminari suggeriscono", "preliminary findings suggest"],
-        ["è necessaria ulteriore ricerca", "further research is needed"],
-        ["raccogliere e analizzare dati", "to collect and analyze data"],
+        ["la domanda di ricerca è...", "la pregunta de investigación es..."],
+        ["la metodologia consiste nel...", "la metodología consiste en..."],
+        ["i risultati preliminari suggeriscono", "los hallazgos preliminares sugieren"],
+        ["è necessaria ulteriore ricerca", "se necesita más investigación"],
+        ["raccogliere e analizzare dati", "recopilar y analizar datos"],
       ],
       grammar: [
         ["Lenguaje de cautela académica (\"hedging\")", "Frases como \"i risultati preliminari suggeriscono\" o \"è necessaria ulteriore ricerca\" evitan afirmaciones demasiado categóricas, típico del discurso académico.", "I risultati preliminari suggeriscono una correlazione, ma è necessaria ulteriore ricerca."],
@@ -11959,11 +11959,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende a defender un argumento o tesis frente a un tribunal o profesor en italiano, con un registro académico formal.",
     study: {
       vocab: [
-        ["sosterrei che...", "I'd argue that..."],
-        ["questa affermazione è supportata da...", "this claim is substantiated by..."],
-        ["sebbene si possa sostenere che...", "while it could be argued that..."],
-        ["la controargomentazione non considera", "the counterargument fails to consider"],
-        ["alla luce delle prove presentate", "in light of the evidence presented"],
+        ["sosterrei che...", "yo argumentaría que..."],
+        ["questa affermazione è supportata da...", "esta afirmación está respaldada por..."],
+        ["sebbene si possa sostenere che...", "aunque se podría argumentar que..."],
+        ["la controargomentazione non considera", "el contraargumento no tiene en cuenta"],
+        ["alla luce delle prove presentate", "a la luz de la evidencia presentada"],
       ],
       grammar: [
         ["\"Sebbene si possa sostenere che...\" para reconocer una objeción", "Esta estructura reconoce un punto de vista opuesto antes de refutarlo, mostrando rigor académico y objetividad.", "Sebbene si possa sostenere che il campione fosse piccolo, i risultati restano statisticamente significativi."],
@@ -11983,11 +11983,11 @@ window.SITUATION_LESSON_BANKS.IT = {
     description:"Aprende modismos y expresiones comunes en el entorno académico universitario en italiano.",
     study: {
       vocab: [
-        ["fare una nottata di studio", "to pull an all-nighter"],
-        ["mettersi sui libri", "to hit the books"],
-        ["spunto di riflessione", "food for thought"],
-        ["studiare all'ultimo minuto per un esame", "to cram for an exam"],
-        ["superare con il massimo dei voti", "to pass with flying colors"],
+        ["fare una nottata di studio", "quedarse toda la noche estudiando"],
+        ["mettersi sui libri", "ponerse a estudiar en serio"],
+        ["spunto di riflessione", "algo en qué pensar"],
+        ["studiare all'ultimo minuto per un esame", "empollar para un examen"],
+        ["superare con il massimo dei voti", "aprobar con nota excelente"],
       ],
       grammar: [
         ["Modismos sobre estudiar y exámenes", "Estos modismos describen hábitos de estudio y resultados académicos de forma vívida y muy común entre estudiantes.", "Ho dovuto fare una nottata di studio, ma ho superato l'esame con il massimo dei voti."],
@@ -12013,12 +12013,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales del aeropuerto en portugués.",
     study: {
       vocab: [
-        ["o passaporte", "passport"],
-        ["o portão de embarque", "boarding gate"],
-        ["a mala", "suitcase"],
-        ["o bilhete", "ticket"],
-        ["o voo", "flight"],
-        ["a alfândega", "customs"],
+        ["o passaporte", "el pasaporte"],
+        ["o portão de embarque", "la puerta de embarque"],
+        ["a mala", "la maleta"],
+        ["o bilhete", "el billete"],
+        ["o voo", "el vuelo"],
+        ["a alfândega", "la aduana"],
       ],
       grammar: [
         ["Artículos definidos o/a", "En portugués los sustantivos tienen género (masculino/femenino) y usan \"o\" o \"a\".", "o passaporte (m) / a mala (f)"],
@@ -12038,11 +12038,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para hacer el check-in en un aeropuerto en portugués.",
     study: {
       vocab: [
-        ["Gostaria de despachar a mala", "I'd like to check my bag"],
-        ["Onde é o balcão da companhia aérea?", "Where is the airline counter?"],
-        ["A que horas parte o voo?", "What time does the flight leave?"],
-        ["Aqui está o meu passaporte", "Here's my passport"],
-        ["Qual é o meu portão de embarque?", "What's my boarding gate?"],
+        ["Gostaria de despachar a mala", "Quisiera facturar mi maleta"],
+        ["Onde é o balcão da companhia aérea?", "¿Dónde está el mostrador de la aerolínea?"],
+        ["A que horas parte o voo?", "¿A qué hora sale el vuelo?"],
+        ["Aqui está o meu passaporte", "Aquí tiene mi pasaporte"],
+        ["Qual é o meu portão de embarque?", "¿Cuál es mi puerta de embarque?"],
       ],
       grammar: [
         ["El condicional \"gostaria\" para peticiones educadas", "\"Gostaria\" (de \"gostar\") es una forma cortés de pedir algo, más formal que \"quero\".", "Gostaria de despachar a mala, por favor."],
@@ -12061,11 +12061,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo en el mostrador de facturación en portugués.",
     study: {
       vocab: [
-        ["Bom dia, o seu passaporte por favor?", "Good morning, your passport please?"],
-        ["Quantas malas vai despachar?", "How many bags will you check?"],
-        ["Só uma, obrigado/a", "Just one, thanks"],
-        ["O seu voo parte às 10", "Your flight leaves at 10"],
-        ["Janela ou corredor?", "Window or aisle?"],
+        ["Bom dia, o seu passaporte por favor?", "Buenos días, ¿su pasaporte, por favor?"],
+        ["Quantas malas vai despachar?", "¿Cuántas maletas va a facturar?"],
+        ["Só uma, obrigado/a", "Solo una, gracias"],
+        ["O seu voo parte às 10", "Su vuelo sale a las 10"],
+        ["Janela ou corredor?", "¿Ventanilla o pasillo?"],
       ],
       grammar: [
         ["Preguntas con \"quantas/quantos\"", "\"Quantas/quantos?\" pregunta por cantidad y concuerda en género con el sustantivo.", "Quantas malas? / Quantos bilhetes?"],
@@ -12085,12 +12085,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Qué decir cuando algo sale mal con tu maleta, en portugués.",
     study: {
       vocab: [
-        ["a bagagem de mão", "carry-on bag"],
-        ["a bagagem despachada", "checked bag"],
-        ["com excesso de peso", "overweight"],
-        ["frágil", "fragile"],
-        ["a recolha de bagagem", "baggage claim"],
-        ["a bagagem perdida", "lost luggage"],
+        ["a bagagem de mão", "el equipaje de mano"],
+        ["a bagagem despachada", "el equipaje facturado"],
+        ["com excesso de peso", "exceso de peso"],
+        ["frágil", "frágil"],
+        ["a recolha de bagagem", "la recogida de equipajes"],
+        ["a bagagem perdida", "el equipaje perdido"],
       ],
       grammar: [
         ["\"Estar com\" para describir un estado", "\"Estar com excesso de peso\" usa \"estar com\" + sustantivo para describir un estado.", "A minha mala está com excesso de peso."],
@@ -12109,12 +12109,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Lo que te preguntarán al pasar los controles, en portugués.",
     study: {
       vocab: [
-        ["o detetor de metais", "metal detector"],
-        ["tire os sapatos", "take off your shoes"],
-        ["os líquidos", "liquids"],
-        ["a alfândega", "customs"],
-        ["declarar", "to declare"],
-        ["o motivo da sua visita", "purpose of your visit"],
+        ["o detetor de metais", "el detector de metales"],
+        ["tire os sapatos", "quítese los zapatos"],
+        ["os líquidos", "los líquidos"],
+        ["a alfândega", "la aduana"],
+        ["declarar", "declarar"],
+        ["o motivo da sua visita", "motivo de su visita"],
       ],
       grammar: [
         ["Imperativo formal (você/o senhor)", "El imperativo formal se usa en anuncios oficiales y control de seguridad.", "Tire os sapatos. / Abra a mala."],
@@ -12133,12 +12133,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Qué decir si tu vuelo cambia de última hora, en portugués.",
     study: {
       vocab: [
-        ["atrasado", "delayed"],
-        ["cancelado", "cancelled"],
-        ["remarcar", "to rebook"],
-        ["o voo de ligação", "connecting flight"],
-        ["perdi o meu voo", "I missed my flight"],
-        ["o próximo voo disponível", "next available flight"],
+        ["atrasado", "retrasado"],
+        ["cancelado", "cancelado"],
+        ["remarcar", "reprogramar"],
+        ["o voo de ligação", "el vuelo de conexión"],
+        ["perdi o meu voo", "Perdí mi vuelo"],
+        ["o próximo voo disponível", "el próximo vuelo disponible"],
       ],
       grammar: [
         ["Pretérito perfeito para hechos puntuales", "El pretérito perfeito (\"perdi\") describe una acción completada en un momento concreto del pasado.", "Perdi o meu voo esta manhã."],
@@ -12157,11 +12157,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica cómo pedir ayuda cuando algo no sale como esperabas, en portugués.",
     study: {
       vocab: [
-        ["eu devia apanhar...", "it was supposed to..."],
-        ["podia ajudar-me a encontrar...?", "could you help me find...?"],
-        ["estou perdido/a", "I'm lost"],
-        ["o que posso fazer?", "what can I do?"],
-        ["preciso de ajuda", "I need help"],
+        ["eu devia apanhar...", "se suponía que..."],
+        ["podia ajudar-me a encontrar...?", "¿podría ayudarme a encontrar...?"],
+        ["estou perdido/a", "Estoy perdido/a"],
+        ["o que posso fazer?", "¿qué puedo hacer?"],
+        ["preciso de ajuda", "Necesito ayuda"],
       ],
       grammar: [
         ["\"Devia\" para planes rotos", "Esta estructura describe algo que debía pasar pero no ocurrió, muy útil para explicar un problema.", "Eu devia apanhar o voo 204, mas foi cancelado."],
@@ -12181,11 +12181,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pasar el control de inmigración y aduana en portugués.",
     study: {
       vocab: [
-        ["a declaração alfandegária", "customs declaration"],
-        ["nada a declarar", "nothing to declare"],
-        ["o visto à chegada", "visa on arrival"],
-        ["o motivo da sua visita", "purpose of your visit"],
-        ["a autorização de residência", "residency permit"],
+        ["a declaração alfandegária", "la declaración de aduana"],
+        ["nada a declarar", "nada que declarar"],
+        ["o visto à chegada", "el visado a la llegada"],
+        ["o motivo da sua visita", "motivo de su visita"],
+        ["a autorização de residência", "el permiso de residencia"],
       ],
       grammar: [
         ["\"Nada a + infinitivo\" para negar algo", "Esta estructura niega la existencia de algo que hacer, muy común en aduana.", "Não tenho nada a declarar."],
@@ -12205,11 +12205,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a manejarte en salas de espera premium y a resolver una conexión ajustada en portugués.",
     study: {
       vocab: [
-        ["ter acesso ao lounge VIP", "to have access to the lounge"],
-        ["uma ligação apertada", "a tight connection"],
-        ["perder um voo de ligação", "to miss a connecting flight"],
-        ["o embarque prioritário", "priority boarding"],
-        ["ser remarcado automaticamente", "to be rebooked automatically"],
+        ["ter acesso ao lounge VIP", "tener acceso a la sala VIP"],
+        ["uma ligação apertada", "una conexión ajustada"],
+        ["perder um voo de ligação", "perder un vuelo de conexión"],
+        ["o embarque prioritário", "el embarque prioritario"],
+        ["ser remarcado automaticamente", "ser reprogramado automáticamente"],
       ],
       grammar: [
         ["La voz pasiva con \"ser + participio\"", "La voz pasiva se usa cuando el foco está en la acción, no en quién la realiza.", "Vai ser remarcado no próximo voo disponível."],
@@ -12228,11 +12228,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a reportar equipaje perdido o dañado y a seguir el reclamo en portugués.",
     study: {
       vocab: [
-        ["a minha bagagem não chegou", "my luggage didn't arrive"],
-        ["uma mala danificada", "a damaged suitcase"],
-        ["o formulário de reclamação de bagagem", "baggage claim form"],
-        ["o número de rastreio", "tracking number"],
-        ["a indemnização pelo atraso", "compensation for the delay"],
+        ["a minha bagagem não chegou", "mi equipaje no llegó"],
+        ["uma mala danificada", "una maleta dañada"],
+        ["o formulário de reclamação de bagagem", "el formulario de reclamación de equipaje"],
+        ["o número de rastreio", "el número de seguimiento"],
+        ["a indemnização pelo atraso", "la compensación por el retraso"],
       ],
       grammar: [
         ["Pretérito perfeito para quejas recientes", "El pretérito perfeito (\"não chegou\") se usa cuando el efecto de un problema sigue vigente ahora mismo.", "A minha mala ainda não chegou."],
@@ -12252,11 +12252,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a redactar y presentar un reclamo formal por retrasos o problemas de vuelo en portugués.",
     study: {
       vocab: [
-        ["apresentar uma reclamação", "to file a complaint"],
-        ["a indemnização por atraso de voo", "flight delay compensation"],
-        ["segundo o regulamento europeu", "under EU regulation"],
-        ["um reembolso em vez de um vale", "a refund versus a voucher"],
-        ["fazer escalar o problema", "to escalate the issue"],
+        ["apresentar uma reclamação", "presentar una queja"],
+        ["a indemnização por atraso de voo", "la compensación por retraso de vuelo"],
+        ["segundo o regulamento europeu", "según la normativa de la UE"],
+        ["um reembolso em vez de um vale", "un reembolso frente a un vale"],
+        ["fazer escalar o problema", "escalar el problema"],
       ],
       grammar: [
         ["\"Em vez de\" para contrastar opciones", "\"Em vez de\" se usa para comparar dos alternativas de forma directa y formal.", "Um reembolso em vez de um vale — o que prefere?"],
@@ -12276,11 +12276,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica cómo negociar un cambio de vuelo o un mejor acuerdo con la aerolínea en un registro formal y persuasivo.",
     study: {
       vocab: [
-        ["chegar a uma solução justa", "to reach a fair resolution"],
-        ["dadas as circunstâncias", "given the circumstances"],
-        ["compreendo a sua política, no entanto...", "I understand your policy, however..."],
-        ["um acordo razoável", "a reasonable accommodation"],
-        ["isentar a taxa", "to waive the fee"],
+        ["chegar a uma solução justa", "llegar a una resolución justa"],
+        ["dadas as circunstâncias", "dadas las circunstancias"],
+        ["compreendo a sua política, no entanto...", "Entiendo su política, sin embargo..."],
+        ["um acordo razoável", "una solución razonable"],
+        ["isentar a taxa", "eximir de la tarifa"],
       ],
       grammar: [
         ["Conectores concesivos en registro formal", "\"No entanto\", \"dadas as circunstâncias\" y \"ainda assim\" suavizan un desacuerdo mientras mantienes tu postura de forma educada pero firme.", "Compreendo a sua política, no entanto, dadas as circunstâncias, acredito que uma solução justa é possível."],
@@ -12300,11 +12300,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos y expresiones coloquiales usadas en aeropuertos y viajes en portugués.",
     study: {
       vocab: [
-        ["apanhar o voo por um triz", "to catch a flight"],
-        ["ter jet lag", "to be jet-lagged"],
-        ["viajar com pouca bagagem", "to travel light"],
-        ["um voo noturno", "a red-eye flight"],
-        ["aterrar", "to touch down"],
+        ["apanhar o voo por um triz", "coger un vuelo"],
+        ["ter jet lag", "tener jet lag"],
+        ["viajar com pouca bagagem", "viajar con poco equipaje"],
+        ["um voo noturno", "un vuelo nocturno"],
+        ["aterrar", "aterrizar"],
       ],
       grammar: [
         ["Expresiones fijas de viaje", "Muchas expresiones de viaje son frases fijas que no se traducen literalmente palabra por palabra.", "Aterrámos uma hora mais cedo. / Viajo sempre com pouca bagagem."],
@@ -12327,12 +12327,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales para ir a un restaurante en portugués.",
     study: {
       vocab: [
-        ["o menu", "the menu"],
-        ["a mesa", "the table"],
-        ["o empregado/a empregada", "the waiter/waitress"],
-        ["a conta", "the bill"],
-        ["o prato", "the dish"],
-        ["a bebida", "the drink"],
+        ["o menu", "el menú"],
+        ["a mesa", "la mesa"],
+        ["o empregado/a empregada", "el camarero/la camarera"],
+        ["a conta", "la cuenta"],
+        ["o prato", "el plato"],
+        ["a bebida", "la bebida"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el restaurante", "\"A conta\" y \"a bebida\" son femeninas; \"o menu\" y \"o prato\" son masculinos.", "o prato (m) / a bebida (f)"],
@@ -12352,11 +12352,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para pedir comida en un restaurante en portugués.",
     study: {
       vocab: [
-        ["Gostaria de pedir...", "I'd like to order..."],
-        ["O que me recomenda?", "What do you recommend?"],
-        ["Para mim, a massa", "For me, the pasta"],
-        ["Sem cebola, por favor", "No onion, please"],
-        ["Está pronto/a para pedir?", "Are you ready to order?"],
+        ["Gostaria de pedir...", "Quisiera pedir..."],
+        ["O que me recomenda?", "¿Qué recomiendas?"],
+        ["Para mim, a massa", "Para mí, la pasta"],
+        ["Sem cebola, por favor", "Sin cebolla, por favor"],
+        ["Está pronto/a para pedir?", "¿Están listos para pedir?"],
       ],
       grammar: [
         ["\"Para mim\" para indicar tu pedido", "\"Para mim\" se usa para especificar qué quieres cuando el camarero pregunta el pedido de cada persona.", "Para mim, a massa, por favor."],
@@ -12375,11 +12375,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo pidiendo la cena en un restaurante en portugués.",
     study: {
       vocab: [
-        ["Boa noite, mesa para quantos?", "Good evening, table for how many?"],
-        ["Para dois, por favor", "For two, please"],
-        ["Algo para beber?", "Something to drink?"],
-        ["Água, por favor", "Water, please"],
-        ["Trago já", "I'll bring it right away"],
+        ["Boa noite, mesa para quantos?", "Buenas noches, ¿mesa para cuántos?"],
+        ["Para dois, por favor", "Para dos, por favor"],
+        ["Algo para beber?", "¿Algo de beber?"],
+        ["Água, por favor", "Agua, por favor"],
+        ["Trago já", "Se lo traigo enseguida"],
       ],
       grammar: [
         ["Preposición \"para\" + número", "\"Para dois\" indica la cantidad de personas, muy común al pedir mesa.", "Mesa para dois, por favor."],
@@ -12399,11 +12399,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a explicar alergias y preferencias alimentarias en un restaurante en portugués.",
     study: {
       vocab: [
-        ["sou alérgico/a a...", "I'm allergic to..."],
-        ["os frutos secos", "nuts"],
-        ["não como carne", "I don't eat meat"],
-        ["isto contém laticínios?", "does this contain dairy?"],
-        ["intolerante a glúten", "gluten intolerant"],
+        ["sou alérgico/a a...", "Soy alérgico/a a..."],
+        ["os frutos secos", "los frutos secos"],
+        ["não como carne", "No como carne"],
+        ["isto contém laticínios?", "¿esto contiene lácteos?"],
+        ["intolerante a glúten", "intolerante al gluten"],
       ],
       grammar: [
         ["\"Ser alérgico a\" + sustantivo", "Se usa \"ser alérgico/a a\" + el alimento para indicar una alergia.", "Sou alérgica a frutos secos."],
@@ -12422,11 +12422,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a explicar un problema con tu pedido en un restaurante en portugués.",
     study: {
       vocab: [
-        ["isto não é o que pedi", "this isn't what I ordered"],
-        ["está frio", "it's cold"],
-        ["falta o pedido", "the order is missing"],
-        ["pode trocar isto?", "could you change it?"],
-        ["está muito salgado", "it's too salty"],
+        ["isto não é o que pedi", "esto no es lo que pedí"],
+        ["está frio", "está frío"],
+        ["falta o pedido", "falta algo del pedido"],
+        ["pode trocar isto?", "¿podría cambiarlo?"],
+        ["está muito salgado", "está demasiado salado"],
       ],
       grammar: [
         ["\"Estar\" + adjetivo para describir un estado temporal", "\"Estar\" + adjetivo describe un estado temporal, como la temperatura o sabor de un plato.", "A sopa está fria."],
@@ -12445,11 +12445,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir la cuenta y hablar de la propina en un restaurante en portugués.",
     study: {
       vocab: [
-        ["a conta, por favor", "the bill, please"],
-        ["aceitam cartão?", "do you accept card?"],
-        ["a gorjeta", "the tip"],
-        ["dividir a conta", "to split the bill"],
-        ["fique com o troco", "keep the change"],
+        ["a conta, por favor", "la cuenta, por favor"],
+        ["aceitam cartão?", "¿aceptan tarjeta?"],
+        ["a gorjeta", "la propina"],
+        ["dividir a conta", "dividir la cuenta"],
+        ["fique com o troco", "quédese con el cambio"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones", "\"Fique\" es el imperativo formal del verbo \"ficar\".", "Fique com o troco, por favor."],
@@ -12468,10 +12468,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir y dar recomendaciones sobre platos en un restaurante en portugués.",
     study: {
       vocab: [
-        ["qual é a especialidade da casa?", "what's the house specialty?"],
-        ["recomendo muito", "I highly recommend it"],
-        ["é um prato típico da região", "it's a typical dish of the region"],
-        ["se gosta de picante...", "if you like spicy food..."],
+        ["qual é a especialidade da casa?", "¿cuál es la especialidad de la casa?"],
+        ["recomendo muito", "lo recomiendo encarecidamente"],
+        ["é um prato típico da região", "es un plato típico de la región"],
+        ["se gosta de picante...", "si te gusta la comida picante..."],
       ],
       grammar: [
         ["El condicional \"se\" + presente para sugerencias", "\"Se gosta de...\" + presente introduce una sugerencia condicionada al gusto de la persona.", "Se gosta de picante, recomendo este prato."],
@@ -12491,11 +12491,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a reservar mesa para una ocasión especial y pedir detalles concretos en portugués.",
     study: {
       vocab: [
-        ["reservar uma mesa para uma ocasião especial", "to book a table for a special occasion"],
-        ["uma mesa junto à janela", "a table by the window"],
-        ["celebrar um aniversário", "to celebrate an anniversary"],
-        ["um menu fixo", "a set menu"],
-        ["pedir um bolo com uma vela", "to request a cake with a candle"],
+        ["reservar uma mesa para uma ocasião especial", "reservar una mesa para una ocasión especial"],
+        ["uma mesa junto à janela", "una mesa junto a la ventana"],
+        ["celebrar um aniversário", "celebrar un aniversario"],
+        ["um menu fixo", "un menú fijo"],
+        ["pedir um bolo com uma vela", "pedir una tarta con una vela"],
       ],
       grammar: [
         ["\"Gostaríamos\" para peticiones en grupo", "\"Gostaríamos\" (primera persona plural) se usa cuando la petición es para varias personas.", "Gostaríamos de uma mesa junto à janela."],
@@ -12515,11 +12515,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario sobre maridaje de vinos y menús de degustación en portugués.",
     study: {
       vocab: [
-        ["o harmonização de vinhos", "wine pairing"],
-        ["um menu de degustação", "a tasting menu"],
-        ["um tinto encorpado", "a full-bodied red"],
-        ["acompanhar o prato", "to complement the dish"],
-        ["a recomendação do sommelier", "the sommelier's recommendation"],
+        ["o harmonização de vinhos", "el maridaje de vinos"],
+        ["um menu de degustação", "un menú de degustación"],
+        ["um tinto encorpado", "un tinto con cuerpo"],
+        ["acompanhar o prato", "complementar el plato"],
+        ["a recomendação do sommelier", "la recomendación del sumiller"],
       ],
       grammar: [
         ["Adjetivos que siguen al sustantivo en portugués", "En portugués, muchos adjetivos van después del sustantivo, especialmente cuando describen categorías.", "um tinto encorpado / um prato bem equilibrado"],
@@ -12538,11 +12538,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a explicar dietas especiales y preferencias éticas sobre la comida en portugués.",
     study: {
       vocab: [
-        ["dieta à base de plantas", "plant-based diet"],
-        ["intolerância a glúten", "gluten intolerance"],
-        ["ingredientes de origem ética", "ethically sourced ingredients"],
-        ["contaminação cruzada", "cross-contamination"],
-        ["uma alternativa sem laticínios", "a dairy-free alternative"],
+        ["dieta à base de plantas", "la dieta a base de plantas"],
+        ["intolerância a glúten", "la intolerancia al gluten"],
+        ["ingredientes de origem ética", "ingredientes de origen ético"],
+        ["contaminação cruzada", "la contaminación cruzada"],
+        ["uma alternativa sem laticínios", "una alternativa sin lácteos"],
       ],
       grammar: [
         ["\"Sem\" + sustantivo para indicar ausencia", "\"Sem\" + sustantivo se usa para indicar que algo no contiene cierto ingrediente.", "pão sem glúten / leite sem lactose / sobremesa sem frutos secos"],
@@ -12562,11 +12562,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a plantear un problema serio al gerente de un restaurante de forma educada pero firme en portugués.",
     study: {
       vocab: [
-        ["podia falar com o gerente?", "could I speak to the manager"],
-        ["isto não é o que pedi", "this isn't what I ordered"],
-        ["agradecia uma solução", "I'd appreciate a solution"],
-        ["isto já aconteceu antes", "this has happened before"],
-        ["compensar o transtorno", "to compensate the inconvenience"],
+        ["podia falar com o gerente?", "¿podría hablar con el gerente?"],
+        ["isto não é o que pedi", "esto no es lo que pedí"],
+        ["agradecia uma solução", "agradecería una solución"],
+        ["isto já aconteceu antes", "esto ya ha pasado antes"],
+        ["compensar o transtorno", "compensar la molestia"],
       ],
       grammar: [
         ["\"Agradecia\" para pedir algo con firmeza educada", "El condicional \"agradecia\" expresa una petición firme pero cortés, típica en quejas formales.", "Agradecia uma solução o mais rápido possível."],
@@ -12586,11 +12586,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a redactar una reseña equilibrada y detallada de un restaurante en portugués.",
     study: {
       vocab: [
-        ["no geral, a experiência foi...", "overall, the experience was..."],
-        ["o serviço deixou muito a desejar", "the service left much to be desired"],
-        ["uma pérola escondida", "a hidden gem"],
-        ["a atenção ao detalhe", "attention to detail"],
-        ["eu recomendaria/não recomendaria", "I would (not) recommend it"],
+        ["no geral, a experiência foi...", "en general, la experiencia fue..."],
+        ["o serviço deixou muito a desejar", "el servicio dejó mucho que desear"],
+        ["uma pérola escondida", "una joya escondida"],
+        ["a atenção ao detalhe", "la atención al detalle"],
+        ["eu recomendaria/não recomendaria", "(no) lo recomendaría"],
       ],
       grammar: [
         ["Adverbios de opinión al inicio de frase", "\"No geral\", \"sinceramente\" al principio de la frase matizan el tono general de una opinión escrita.", "No geral, a experiência foi memorável, embora o serviço fosse lento."],
@@ -12610,11 +12610,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos en portugués relacionados con la comida y las comidas fuera de casa.",
     study: {
       vocab: [
-        ["ser guloso/a", "to have a sweet tooth"],
-        ["comer como um rei", "to eat like a king"],
-        ["essa é a cereja no topo do bolo", "that's the icing on the cake"],
-        ["ganhar o pão de cada dia", "to bring home the bacon"],
-        ["canja / muito fácil", "piece of cake"],
+        ["ser guloso/a", "ser goloso"],
+        ["comer como um rei", "comer como un rey"],
+        ["essa é a cereja no topo do bolo", "eso es la guinda del pastel"],
+        ["ganhar o pão de cada dia", "traer el pan a casa"],
+        ["canja / muito fácil", "pan comido"],
       ],
       grammar: [
         ["Modismos con vocabulario de comida", "Muchos modismos en portugués usan palabras de comida con un significado completamente distinto al literal.", "Este exame foi canja. / Ele come sempre como um rei."],
@@ -12636,12 +12636,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales de un hotel en portugués.",
     study: {
       vocab: [
-        ["o quarto", "the room"],
-        ["a receção", "the front desk"],
-        ["a chave", "the key"],
-        ["a bagagem", "the luggage"],
-        ["a reserva", "the reservation"],
-        ["o pequeno-almoço", "breakfast"],
+        ["o quarto", "la habitación"],
+        ["a receção", "la recepción"],
+        ["a chave", "la llave"],
+        ["a bagagem", "el equipaje"],
+        ["a reserva", "la reserva"],
+        ["o pequeno-almoço", "el desayuno"],
       ],
       grammar: [
         ["Género de sustantivos comunes en el hotel", "\"O quarto\" y \"o pequeno-almoço\" son masculinos; \"a receção\", \"a chave\" y \"a reserva\" son femeninas.", "o quarto (m) / a reserva (f)"],
@@ -12661,11 +12661,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para el check-in en un hotel en portugués.",
     study: {
       vocab: [
-        ["Tenho uma reserva em nome de...", "I have a reservation under the name of..."],
-        ["A que horas é o check-in?", "What time is check-in?"],
-        ["O pequeno-almoço está incluído?", "Is breakfast included?"],
-        ["Preciso de outra chave", "I need another key"],
-        ["Qual é a palavra-passe do wifi?", "What's the wifi?"],
+        ["Tenho uma reserva em nome de...", "Tengo una reserva a nombre de..."],
+        ["A que horas é o check-in?", "¿A qué hora es el check-in?"],
+        ["O pequeno-almoço está incluído?", "¿El desayuno está incluido?"],
+        ["Preciso de outra chave", "Necesito otra llave"],
+        ["Qual é a palavra-passe do wifi?", "¿Cuál es el wifi?"],
       ],
       grammar: [
         ["\"Em nome de\" para identificar reservas", "\"Em nome de\" se usa para indicar bajo qué nombre está hecha una reserva.", "Tenho uma reserva em nome de García."],
@@ -12684,11 +12684,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo en la recepción de un hotel en portugués.",
     study: {
       vocab: [
-        ["Boa tarde, tem uma reserva?", "Good afternoon, do you have a reservation?"],
+        ["Boa tarde, tem uma reserva?", "Buenas tardes, ¿tiene reserva?"],
         ["Sim, em nome de López", "Yes, under López"],
-        ["O seu quarto é o 305", "Your room is 305"],
-        ["O elevador é à direita", "The elevator is to the right"],
-        ["Tenha uma boa estadia", "Enjoy your stay"],
+        ["O seu quarto é o 305", "Su habitación es la 305"],
+        ["O elevador é à direita", "El ascensor está a la derecha"],
+        ["Tenha uma boa estadia", "Disfrute de su estancia"],
       ],
       grammar: [
         ["Posesivo formal \"seu/sua\"", "\"Seu/sua\" se usa con el tratamiento formal para el posesivo de tercera persona.", "O seu quarto é o 305."],
@@ -12708,12 +12708,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar por los servicios de un hotel en portugués.",
     study: {
       vocab: [
-        ["o serviço de quartos", "room service"],
-        ["a piscina", "the pool"],
-        ["o ginásio", "the gym"],
-        ["a lavandaria", "laundry"],
-        ["o serviço de despertar", "wake-up call"],
-        ["o estacionamento", "parking"],
+        ["o serviço de quartos", "el servicio de habitaciones"],
+        ["a piscina", "la piscina"],
+        ["o ginásio", "el gimnasio"],
+        ["a lavandaria", "la lavandería"],
+        ["o serviço de despertar", "el servicio de despertador"],
+        ["o estacionamento", "el aparcamiento"],
       ],
       grammar: [
         ["\"Há...?\" para preguntar por disponibilidad", "\"Há...?\" se usa para preguntar si algo está disponible en el hotel.", "Há piscina no hotel?"],
@@ -12732,11 +12732,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a explicar un problema en tu habitación de hotel en portugués.",
     study: {
       vocab: [
-        ["o ar condicionado não funciona", "the AC doesn't work"],
-        ["o quarto está sujo", "the room is dirty"],
-        ["há muito barulho", "there's a lot of noise"],
-        ["podia trocar-me de quarto?", "could you change my room?"],
-        ["não há água quente", "there's no hot water"],
+        ["o ar condicionado não funciona", "el aire acondicionado no funciona"],
+        ["o quarto está sujo", "la habitación está sucia"],
+        ["há muito barulho", "hay mucho ruido"],
+        ["podia trocar-me de quarto?", "¿podría cambiarme de habitación?"],
+        ["não há água quente", "no hay agua caliente"],
       ],
       grammar: [
         ["\"Não funcionar\" para describir averías", "\"Não funciona\" describe algo que está roto o no opera correctamente.", "O ar condicionado não funciona."],
@@ -12755,11 +12755,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hacer el check-out y entender cargos adicionales en portugués.",
     study: {
       vocab: [
-        ["fazer o check-out", "to check out"],
-        ["a taxa do minibar", "the minibar charge"],
-        ["podia verificar a conta?", "could you check the bill?"],
-        ["deixar o quarto", "to leave the room"],
-        ["guardar a bagagem", "to store the luggage"],
+        ["fazer o check-out", "hacer el check-out"],
+        ["a taxa do minibar", "el cargo del minibar"],
+        ["podia verificar a conta?", "¿podría revisar la cuenta?"],
+        ["deixar o quarto", "dejar la habitación"],
+        ["guardar a bagagem", "guardar el equipaje"],
       ],
       grammar: [
         ["\"A que horas\" para preguntar horarios", "\"A que horas...?\" se usa para preguntar por horarios límite, como el check-out.", "A que horas é o check-out?"],
@@ -12778,10 +12778,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir recomendaciones locales al personal del hotel en portugués.",
     study: {
       vocab: [
-        ["o que me recomenda visitar?", "what do you recommend visiting?"],
-        ["um sítio pouco turístico", "a place off the beaten path"],
-        ["é a poucos minutos a pé", "it's a short walk away"],
-        ["apanhar um táxi ou o metro", "to take a taxi or the metro"],
+        ["o que me recomenda visitar?", "¿qué recomienda visitar?"],
+        ["um sítio pouco turístico", "un lugar poco conocido"],
+        ["é a poucos minutos a pé", "está a pocos minutos andando"],
+        ["apanhar um táxi ou o metro", "tomar un taxi o el metro"],
       ],
       grammar: [
         ["\"A poucos minutos a pé\" para indicar cercanía", "Esta expresión indica que un lugar está cerca, sin necesitar transporte.", "O museu é a poucos minutos a pé."],
@@ -12801,11 +12801,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a modificar, posponer o cancelar una reserva de hotel en portugués.",
     study: {
       vocab: [
-        ["modificar uma reserva", "to modify a reservation"],
-        ["uma política de cancelamento", "a cancellation policy"],
-        ["uma tarifa não reembolsável", "a non-refundable rate"],
-        ["adiar a data de chegada", "to postpone the check-in date"],
-        ["um e-mail de confirmação", "a confirmation email"],
+        ["modificar uma reserva", "modificar una reserva"],
+        ["uma política de cancelamento", "una política de cancelación"],
+        ["uma tarifa não reembolsável", "una tarifa no reembolsable"],
+        ["adiar a data de chegada", "posponer la fecha de entrada"],
+        ["um e-mail de confirmação", "un correo de confirmación"],
       ],
       grammar: [
         ["\"Preciso de\" + infinitivo para trámites", "\"Preciso de\" + verbo es la forma directa y natural de explicar qué trámite necesitas hacer.", "Preciso de modificar a minha reserva para a próxima semana."],
@@ -12825,11 +12825,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar por instalaciones del hotel y a quejarte si no funcionan como se anuncia en portugués.",
     study: {
       vocab: [
-        ["as comodidades não são como anunciadas", "the amenities aren't as advertised"],
-        ["a piscina está fora de serviço", "the pool is out of service"],
-        ["acesso ao ginásio e ao spa", "access to the gym and spa"],
-        ["o wifi desliga-se constantemente", "the wifi keeps disconnecting"],
-        ["não estar à altura das expectativas", "to fall short of expectations"],
+        ["as comodidades não são como anunciadas", "las instalaciones no son como se anunciaban"],
+        ["a piscina está fora de serviço", "la piscina está fuera de servicio"],
+        ["acesso ao ginásio e ao spa", "acceso al gimnasio y al spa"],
+        ["o wifi desliga-se constantemente", "el wifi se desconecta constantemente"],
+        ["não estar à altura das expectativas", "no estar a la altura de las expectativas"],
       ],
       grammar: [
         ["\"Continuar a + infinitivo\" para acciones repetidas", "\"Continuar a\" + verbo expresa que algo ocurre repetidamente y de forma molesta.", "O wifi continua a desligar-se a cada dez minutos."],
@@ -12848,11 +12848,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a negociar una mejor tarifa o una mejora de habitación en portugués.",
     study: {
       vocab: [
-        ["há alguma flexibilidade no preço?", "is there any flexibility on the price"],
-        ["um upgrade gratuito", "a complimentary upgrade"],
-        ["igualar a tarifa de um concorrente", "to match a competitor's rate"],
-        ["um membro do programa de fidelidade", "a loyalty member"],
-        ["sujeito a disponibilidade", "subject to availability"],
+        ["há alguma flexibilidade no preço?", "¿hay algo de flexibilidad en el precio?"],
+        ["um upgrade gratuito", "una mejora gratuita"],
+        ["igualar a tarifa de um concorrente", "igualar la tarifa de un competidor"],
+        ["um membro do programa de fidelidade", "un miembro del programa de fidelidad"],
+        ["sujeito a disponibilidade", "sujeto a disponibilidad"],
       ],
       grammar: [
         ["Preguntas indirectas para negociar con tacto", "\"Há...?\" o \"Seria possível...?\" son formas indirectas y más corteses de pedir algo delicado como un descuento.", "Há alguma flexibilidade no preço para uma estadia mais longa?"],
@@ -12872,11 +12872,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario para gestionar una estancia de negocios: facturación corporativa, salas de reuniones y recibos.",
     study: {
       vocab: [
-        ["faturar à conta da empresa", "to bill it to the company account"],
-        ["uma sala de reuniões com projetor", "a meeting room with a projector"],
-        ["um recibo detalhado", "an itemized receipt"],
-        ["uma tarifa empresarial", "a corporate rate"],
-        ["trabalhar remotamente a partir do business center", "to work remotely from the business center"],
+        ["faturar à conta da empresa", "cargarlo a la cuenta de la empresa"],
+        ["uma sala de reuniões com projetor", "una sala de reuniones con proyector"],
+        ["um recibo detalhado", "un recibo detallado"],
+        ["uma tarifa empresarial", "una tarifa corporativa"],
+        ["trabalhar remotamente a partir do business center", "trabajar remotamente desde el centro de negocios"],
       ],
       grammar: [
         ["\"Faturar X à Y\" para facturación", "\"Faturar X à Y\" significa cargar un gasto a una cuenta o entidad concreta.", "Por favor, fature o minibar à conta da minha empresa."],
@@ -12895,11 +12895,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a disputar formalmente un cargo incorrecto en tu factura de hotel en portugués.",
     study: {
       vocab: [
-        ["fui cobrado incorretamente por...", "I was charged incorrectly for..."],
-        ["podia investigar esta discrepância?", "could you look into this discrepancy"],
-        ["tenho documentação que comprova a minha reclamação", "I have documentation to support my claim"],
-        ["contestar uma cobrança", "to dispute a charge"],
-        ["um prazo razoável para a resolução", "a reasonable timeframe for resolution"],
+        ["fui cobrado incorretamente por...", "me cobraron incorrectamente por..."],
+        ["podia investigar esta discrepância?", "¿podría investigar esta discrepancia?"],
+        ["tenho documentação que comprova a minha reclamação", "tengo documentación que respalda mi reclamo"],
+        ["contestar uma cobrança", "impugnar un cargo"],
+        ["um prazo razoável para a resolução", "un plazo razonable para la resolución"],
       ],
       grammar: [
         ["\"Tenho + sustantivo + que comprova...\" en reclamos formales", "Esta estructura refuerza un argumento presentando evidencia de forma profesional y objetiva.", "Tenho documentação que comprova a minha reclamação, incluindo a fatura original."],
@@ -12919,11 +12919,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos en portugués usados en el sector de la hospitalidad y los viajes.",
     study: {
       vocab: [
-        ["estender o tapete vermelho", "to roll out the red carpet"],
-        ["um lar longe de casa", "a home away from home"],
-        ["fazer um esforço extra", "to go the extra mile"],
-        ["valer cada cêntimo", "to be worth every penny"],
-        ["sem luxos", "no frills"],
+        ["estender o tapete vermelho", "recibir con los brazos abiertos"],
+        ["um lar longe de casa", "un hogar lejos de casa"],
+        ["fazer um esforço extra", "hacer un esfuerzo adicional"],
+        ["valer cada cêntimo", "valer cada centavo"],
+        ["sem luxos", "sin lujos"],
       ],
       grammar: [
         ["Modismos de servicio al cliente", "Estos modismos describen un servicio excelente o básico de forma vívida, sin que tengan un significado literal.", "O pessoal fez mesmo um esforço extra por nós. / É um hotel sem luxos, mas muito limpo."],
@@ -12946,12 +12946,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales para ir de compras a un mercado en portugués.",
     study: {
       vocab: [
-        ["a banca", "the stall"],
-        ["o vendedor/a vendedora", "the seller"],
-        ["o preço", "the price"],
-        ["a fruta", "fruit"],
-        ["o legume", "vegetables"],
-        ["o saco", "the bag"],
+        ["a banca", "el puesto"],
+        ["o vendedor/a vendedora", "el vendedor"],
+        ["o preço", "el precio"],
+        ["a fruta", "la fruta"],
+        ["o legume", "las verduras"],
+        ["o saco", "la bolsa"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem", "\"O vendedor/a vendedora\" cambia de género según quien vende.", "o vendedor (m) / a vendedora (f)"],
@@ -12971,10 +12971,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para comprar en un mercado en portugués.",
     study: {
       vocab: [
-        ["Quanto custa isto?", "How much does this cost?"],
-        ["Quero meio quilo", "I want half a kilo"],
-        ["Tem algo mais fresco?", "Do you have something fresher?"],
-        ["Levo isto", "I'll take it"],
+        ["Quanto custa isto?", "¿Cuánto cuesta esto?"],
+        ["Quero meio quilo", "Quiero medio kilo"],
+        ["Tem algo mais fresco?", "¿Tiene algo más fresco?"],
+        ["Levo isto", "Me lo llevo"],
       ],
       grammar: [
         ["\"Quanto\" para preguntar precio o cantidad", "\"Quanto custa\" pregunta por el precio.", "Quanto custa isto? / Quanta fruta quer?"],
@@ -12993,11 +12993,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo en un puesto de mercado en portugués.",
     study: {
       vocab: [
-        ["Bom dia, o que deseja?", "Good morning, what would you like?"],
-        ["Quero um quilo de tomates", "I want a kilo of tomatoes"],
-        ["Aqui está, são três euros", "Here you go, that's three euros"],
-        ["Mais alguma coisa?", "Anything else?"],
-        ["Não, obrigado/a, é tudo", "No, thanks, that's all"],
+        ["Bom dia, o que deseja?", "Buenos días, ¿qué desea?"],
+        ["Quero um quilo de tomates", "Quiero un kilo de tomates"],
+        ["Aqui está, são três euros", "Aquí tiene, son tres euros"],
+        ["Mais alguma coisa?", "¿Algo más?"],
+        ["Não, obrigado/a, é tudo", "No, gracias, eso es todo"],
       ],
       grammar: [
         ["\"O que deseja?\" en atención al cliente", "\"O que deseja?\" es una forma formal y educada de preguntar qué quiere comprar el cliente.", "Bom dia, o que deseja?"],
@@ -13017,10 +13017,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar por productos y sustitutos en un mercado en portugués.",
     study: {
       vocab: [
-        ["já não tenho mais", "I'm out of..."],
-        ["tem algo parecido?", "do you have something similar?"],
-        ["está esgotado", "it's sold out"],
-        ["posso oferecer-lhe isto em vez disso", "I can offer you this instead"],
+        ["já não tenho mais", "se me acabó..."],
+        ["tem algo parecido?", "¿tiene algo parecido?"],
+        ["está esgotado", "está agotado"],
+        ["posso oferecer-lhe isto em vez disso", "puedo ofrecerle esto en su lugar"],
       ],
       grammar: [
         ["\"Em vez disso\" para ofrecer alternativas", "\"Em vez disso\" se usa para proponer un sustituto de algo que no está disponible.", "Posso oferecer-lhe isto em vez disso."],
@@ -13039,10 +13039,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hacer una devolución o queja en un mercado en portugués.",
     study: {
       vocab: [
-        ["quero devolver isto", "I want to return this"],
-        ["está em mau estado", "it's in bad condition"],
-        ["pode reembolsar-me?", "can you give me a refund?"],
-        ["comprei isto ontem", "I bought it yesterday"],
+        ["quero devolver isto", "quiero devolver esto"],
+        ["está em mau estado", "está en mal estado"],
+        ["pode reembolsar-me?", "¿puede reembolsarme?"],
+        ["comprei isto ontem", "lo compré ayer"],
       ],
       grammar: [
         ["Pretérito perfeito para acciones pasadas concretas", "\"Comprei\" (pretérito perfeito) indica una acción terminada en un momento específico.", "Comprei isto ontem, e já está mau."],
@@ -13061,10 +13061,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar y hablar sobre formas de pago en un mercado en portugués.",
     study: {
       vocab: [
-        ["aceitam cartão?", "do you accept card?"],
-        ["só dinheiro", "cash only"],
-        ["tem troco para uma nota grande?", "do you have change for a large bill?"],
-        ["pagar em dinheiro", "to pay in cash"],
+        ["aceitam cartão?", "¿aceptan tarjeta?"],
+        ["só dinheiro", "solo efectivo"],
+        ["tem troco para uma nota grande?", "¿tiene cambio para un billete grande?"],
+        ["pagar em dinheiro", "pagar en efectivo"],
       ],
       grammar: [
         ["\"Só\" para limitar una opción", "\"Só dinheiro\" indica que no se aceptan otras formas de pago.", "Aqui é só dinheiro, desculpe."],
@@ -13083,10 +13083,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir y dar indicaciones dentro de un mercado en portugués.",
     study: {
       vocab: [
-        ["onde é a banca do peixe?", "where is the fish stall?"],
-        ["ao fundo, à esquerda", "at the back, on the left"],
-        ["siga sempre em frente", "keep going straight"],
-        ["é mesmo em frente", "it's right in front"],
+        ["onde é a banca do peixe?", "¿dónde está el puesto de pescado?"],
+        ["ao fundo, à esquerda", "al fondo, a la izquierda"],
+        ["siga sempre em frente", "siga recto"],
+        ["é mesmo em frente", "está justo enfrente"],
       ],
       grammar: [
         ["Imperativo formal para indicaciones", "El imperativo formal se usa para dar indicaciones de forma educada.", "Siga sempre em frente e vire à esquerda."],
@@ -13106,11 +13106,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a regatear de forma educada y con más matices en un mercado en portugués.",
     study: {
       vocab: [
-        ["isso está um pouco acima do meu orçamento", "that's a bit over my budget"],
-        ["podia fazer um preço melhor?", "could you do any better on the price"],
-        ["se eu comprar mais, fica mais barato?", "if I buy more, is it cheaper"],
-        ["é o melhor que posso fazer", "that's the best I can do"],
-        ["temos um acordo", "we have a deal"],
+        ["isso está um pouco acima do meu orçamento", "eso se sale un poco de mi presupuesto"],
+        ["podia fazer um preço melhor?", "¿podría mejorar el precio?"],
+        ["se eu comprar mais, fica mais barato?", "si compro más, ¿es más barato?"],
+        ["é o melhor que posso fazer", "es lo mejor que puedo ofrecer"],
+        ["temos um acordo", "tenemos un trato"],
       ],
       grammar: [
         ["Preguntas indirectas al regatear", "\"Podia fazer um preço melhor?\" es una forma educada e indirecta de pedir un mejor precio sin sonar exigente.", "Podia fazer um preço melhor se eu levar dois?"],
@@ -13130,11 +13130,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar por la calidad, el origen y la sostenibilidad de los productos en un mercado en portugués.",
     study: {
       vocab: [
-        ["de onde vem isto?", "where does this come from"],
-        ["produtos de origem local", "locally sourced produce"],
-        ["isto é biológico?", "is this organic"],
-        ["da época neste momento", "in season right now"],
-        ["cultivado de forma sustentável", "sustainably grown"],
+        ["de onde vem isto?", "¿de dónde viene esto?"],
+        ["produtos de origem local", "productos de origen local"],
+        ["isto é biológico?", "¿esto es orgánico?"],
+        ["da época neste momento", "de temporada ahora mismo"],
+        ["cultivado de forma sustentável", "cultivado de forma sostenible"],
       ],
       grammar: [
         ["Presente simple para hechos generales sobre productos", "El presente simple describe características generales y permanentes de un producto, como su origen o forma de cultivo.", "Este produto vem de uma quinta local e é cultivado de forma sustentável."],
@@ -13154,11 +13154,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a negociar compras al por mayor y condiciones de entrega en portugués.",
     study: {
       vocab: [
-        ["um desconto por volume", "a bulk discount"],
-        ["a quantidade mínima de encomenda", "the minimum order quantity"],
-        ["fazer uma encomenda recorrente", "to place a recurring order"],
-        ["entrega incluída", "delivery included"],
-        ["um preço por grosso", "a wholesale price"],
+        ["um desconto por volume", "un descuento por volumen"],
+        ["a quantidade mínima de encomenda", "la cantidad mínima de pedido"],
+        ["fazer uma encomenda recorrente", "hacer un pedido recurrente"],
+        ["entrega incluída", "entrega incluida"],
+        ["um preço por grosso", "un precio al por mayor"],
       ],
       grammar: [
         ["\"Quanto mais..., mais...\" para condiciones proporcionales", "Esta estructura comparativa doble expresa que a mayor cantidad, mayor beneficio (o menor precio).", "Quanto mais encomendar, maior o desconto."],
@@ -13177,11 +13177,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a reclamar un producto defectuoso o en mal estado comprado en un mercado, en portugués.",
     study: {
       vocab: [
-        ["isto está defeituoso", "this is defective"],
-        ["estragou-se num dia", "it went bad within a day"],
-        ["quero um reembolso ou uma troca", "I'd like a refund or an exchange"],
-        ["tem o recibo?", "do you have proof of purchase"],
-        ["isto já não está fresco", "this isn't fresh anymore"],
+        ["isto está defeituoso", "esto está defectuoso"],
+        ["estragou-se num dia", "se echó a perder en un día"],
+        ["quero um reembolso ou uma troca", "quisiera un reembolso o un cambio"],
+        ["tem o recibo?", "¿tiene comprobante de compra?"],
+        ["isto já não está fresco", "esto ya no está fresco"],
       ],
       grammar: [
         ["\"Em + periodo\" para indicar rapidez de un problema", "\"Num dia/numa semana\" indica que algo ocurrió en un plazo corto, reforzando que el problema fue rápido e inesperado.", "Estragou-se num dia desde que comprei."],
@@ -13201,11 +13201,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Reflexiona y conversa en portugués sobre las diferencias culturales al regatear y negociar en distintos países.",
     study: {
       vocab: [
-        ["aqui espera-se que regateie", "haggling is expected here"],
-        ["é considerado mal-educado regatear", "it's considered rude to haggle"],
-        ["um mercado de preço fixo", "a fixed-price market"],
-        ["normas culturais sobre negociação", "cultural norms around negotiation"],
-        ["perceber o ambiente da situação", "to read the room"],
+        ["aqui espera-se que regateie", "aquí se espera que se regatee"],
+        ["é considerado mal-educado regatear", "se considera de mala educación regatear"],
+        ["um mercado de preço fixo", "un mercado de precio fijo"],
+        ["normas culturais sobre negociação", "las normas culturales sobre la negociación"],
+        ["perceber o ambiente da situação", "captar el ambiente"],
       ],
       grammar: [
         ["\"É considerado + adjetivo\" para normas culturales", "Esta estructura impersonal expresa una norma social sin atribuirla a una persona concreta.", "É considerado mal-educado regatear em algumas culturas, mas é esperado noutras."],
@@ -13225,11 +13225,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos en portugués relacionados con el dinero y las compras.",
     study: {
       vocab: [
-        ["custar os olhos da cara", "to cost an arm and a leg"],
-        ["ser um roubo", "to be a rip-off"],
-        ["fazer um bom negócio", "to get a good deal"],
-        ["fazer alguém baixar o preço", "to haggle someone down"],
-        ["o dinheiro não dá em árvores", "money doesn't grow on trees"],
+        ["custar os olhos da cara", "costar un ojo de la cara"],
+        ["ser um roubo", "ser un timo"],
+        ["fazer um bom negócio", "conseguir un buen trato"],
+        ["fazer alguém baixar o preço", "conseguir que alguien baje el precio"],
+        ["o dinheiro não dá em árvores", "el dinero no cae del cielo"],
       ],
       grammar: [
         ["Modismos sobre precio y valor", "Estos modismos describen si algo es caro, barato o una estafa, de forma vívida y sin traducción literal.", "Esta mala custa os olhos da cara! / Esse preço é um roubo."],
@@ -13252,12 +13252,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales de un hospital en portugués.",
     study: {
       vocab: [
-        ["o médico/a médica", "the doctor"],
-        ["o enfermeiro/a enfermeira", "the nurse"],
-        ["a dor", "the pain"],
-        ["a consulta", "the appointment"],
-        ["a sala de espera", "the waiting room"],
-        ["a receita", "the prescription"],
+        ["o médico/a médica", "el médico"],
+        ["o enfermeiro/a enfermeira", "el enfermero/la enfermera"],
+        ["a dor", "el dolor"],
+        ["a consulta", "la cita"],
+        ["a sala de espera", "la sala de espera"],
+        ["a receita", "la receta"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en profesiones", "\"O médico/a médica\" cambia de género según quien ejerce la profesión.", "o médico (m) / a médica (f)"],
@@ -13277,11 +13277,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para describir síntomas en portugués.",
     study: {
       vocab: [
-        ["dói-me a cabeça", "my head hurts"],
-        ["tenho febre", "I have a fever"],
-        ["sinto-me tonto/a", "I feel dizzy"],
-        ["tenho náuseas", "I feel nauseous"],
-        ["há três dias", "for three days"],
+        ["dói-me a cabeça", "me duele la cabeza"],
+        ["tenho febre", "tengo fiebre"],
+        ["sinto-me tonto/a", "me siento mareado/a"],
+        ["tenho náuseas", "tengo náuseas"],
+        ["há três dias", "desde hace tres días"],
       ],
       grammar: [
         ["\"Doer\" para el dolor", "\"Dói-me\" + parte del cuerpo expresa dolor, con el verbo \"doer\" y pronombre reflexivo.", "Dói-me a cabeça. / Doem-me os pés."],
@@ -13300,11 +13300,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo en la recepción de un hospital en portugués.",
     study: {
       vocab: [
-        ["Bom dia, tem consulta marcada?", "Good morning, do you have an appointment?"],
-        ["Sim, às 10 com o Dr. Ruiz", "Yes, at 10 with Dr. Ruiz"],
-        ["Sente-se, por favor", "Please take a seat"],
-        ["O médico vai recebê-lo em breve", "The doctor will see you soon"],
-        ["Pode dar-me o seu cartão do seguro?", "Can I have your insurance card?"],
+        ["Bom dia, tem consulta marcada?", "Buenos días, ¿tiene cita?"],
+        ["Sim, às 10 com o Dr. Ruiz", "Sí, a las 10 con el Dr. Ruiz"],
+        ["Sente-se, por favor", "Por favor, tome asiento"],
+        ["O médico vai recebê-lo em breve", "El médico le atenderá pronto"],
+        ["Pode dar-me o seu cartão do seguro?", "¿Me da su tarjeta del seguro?"],
       ],
       grammar: [
         ["Imperativo formal para instrucciones médicas", "\"Sente-se\" es el imperativo formal del verbo \"sentar-se\".", "Sente-se, por favor. O médico vai recebê-lo em breve."],
@@ -13324,10 +13324,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar en una farmacia en portugués.",
     study: {
       vocab: [
-        ["tem algo para dor de cabeça?", "do you have something for a headache?"],
-        ["duas vezes ao dia", "twice a day"],
-        ["com ou sem receita", "with or without prescription"],
-        ["os efeitos secundários", "side effects"],
+        ["tem algo para dor de cabeça?", "¿tiene algo para el dolor de cabeza?"],
+        ["duas vezes ao dia", "dos veces al día"],
+        ["com ou sem receita", "con o sin receta"],
+        ["os efeitos secundários", "los efectos secundarios"],
       ],
       grammar: [
         ["\"Vezes ao dia\" para frecuencia de dosis", "\"X vezes ao dia\" indica cuántas veces se debe tomar un medicamento.", "Tome duas vezes ao dia, com as refeições."],
@@ -13346,10 +13346,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a comunicar una emergencia médica en portugués.",
     study: {
       vocab: [
-        ["é uma emergência", "it's an emergency"],
-        ["preciso de uma ambulância", "I need an ambulance"],
-        ["está a sangrar muito", "he/she is bleeding a lot"],
-        ["perdeu os sentidos", "he/she lost consciousness"],
+        ["é uma emergência", "es una emergencia"],
+        ["preciso de uma ambulância", "necesito una ambulancia"],
+        ["está a sangrar muito", "está sangrando mucho"],
+        ["perdeu os sentidos", "perdió el conocimiento"],
       ],
       grammar: [
         ["Pretérito perfeito para reportar una emergencia", "El pretérito perfeito describe lo que acaba de ocurrir en una emergencia médica.", "Perdeu os sentidos há poucos minutos."],
@@ -13369,10 +13369,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario sobre seguro médico y trámites en portugués.",
     study: {
       vocab: [
-        ["isto está coberto pelo meu seguro?", "is this covered by my insurance?"],
-        ["a comparticipação", "the copay"],
-        ["assinar o formulário de admissão", "to sign the admission form"],
-        ["o número da apólice", "the policy number"],
+        ["isto está coberto pelo meu seguro?", "¿esto lo cubre mi seguro?"],
+        ["a comparticipação", "el copago"],
+        ["assinar o formulário de admissão", "firmar el formulario de ingreso"],
+        ["o número da apólice", "el número de póliza"],
       ],
       grammar: [
         ["Voz pasiva con \"estar coberto\"", "\"Estar coberto por\" describe si algo está incluido en el seguro, usando la pasiva.", "Este tratamento está coberto pelo meu seguro?"],
@@ -13391,10 +13391,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar sobre citas de seguimiento y control en portugués.",
     study: {
       vocab: [
-        ["uma consulta de controlo", "a follow-up appointment"],
-        ["quando devo voltar?", "when should I come back?"],
-        ["continuar a tomar a medicação", "to keep taking the medication"],
-        ["melhorar aos poucos", "to improve little by little"],
+        ["uma consulta de controlo", "una cita de seguimiento"],
+        ["quando devo voltar?", "¿cuándo debo volver?"],
+        ["continuar a tomar a medicação", "seguir tomando la medicación"],
+        ["melhorar aos poucos", "mejorar poco a poco"],
       ],
       grammar: [
         ["\"Continuar a + infinitivo\" para continuidad", "\"Continuar a\" + verbo expresa que una acción continúa en el tiempo.", "Deve continuar a tomar a medicação por mais uma semana."],
@@ -13414,11 +13414,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a entender y pedir una derivación a un especialista médico en portugués.",
     study: {
       vocab: [
-        ["uma referência para um especialista", "a referral to a specialist"],
-        ["ver um cardiologista", "to see a cardiologist"],
-        ["lista de espera para uma consulta", "waiting list for an appointment"],
-        ["uma segunda consulta", "a second consultation"],
-        ["trazer os resultados dos exames", "to bring your test results"],
+        ["uma referência para um especialista", "una derivación a un especialista"],
+        ["ver um cardiologista", "consultar a un cardiólogo"],
+        ["lista de espera para uma consulta", "la lista de espera para una cita"],
+        ["uma segunda consulta", "una segunda consulta"],
+        ["trazer os resultados dos exames", "traer los resultados de sus pruebas"],
       ],
       grammar: [
         ["\"Precisar de uma referência\" para trámites médicos", "Esta estructura describe la necesidad médica de ver a un especialista concreto tras una consulta general.", "Preciso de uma referência para ver um cardiologista."],
@@ -13438,11 +13438,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a entender y preguntar sobre resultados de análisis o pruebas médicas en portugués.",
     study: {
       vocab: [
-        ["os resultados vieram normais", "the results came back normal"],
-        ["é necessário um exame de controlo", "a follow-up test is needed"],
-        ["o que significam estes números?", "what do these numbers mean"],
-        ["valores ligeiramente elevados", "slightly elevated levels"],
-        ["nada com que se preocupar", "nothing to worry about"],
+        ["os resultados vieram normais", "los resultados salieron normales"],
+        ["é necessário um exame de controlo", "se necesita una prueba de seguimiento"],
+        ["o que significam estes números?", "¿qué significan estos números?"],
+        ["valores ligeiramente elevados", "niveles ligeramente elevados"],
+        ["nada com que se preocupar", "nada de qué preocuparse"],
       ],
       grammar: [
         ["Pretérito perfeito para informar resultados", "El pretérito perfeito (\"vieram\") se usa para comunicar el resultado de una prueba ya completada.", "Os seus resultados vieram normais, portanto nada com que se preocupar."],
@@ -13462,11 +13462,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario sobre consentimiento informado antes de un procedimiento médico en portugués.",
     study: {
       vocab: [
-        ["assinar um termo de consentimento", "to sign a consent form"],
-        ["os riscos e benefícios do procedimento", "the risks and benefits of the procedure"],
-        ["tenho outras opções?", "do I have any other options"],
-        ["perceber a que está a concordar", "to understand what you're agreeing to"],
-        ["pode fazer perguntas antes de assinar", "you can ask questions before signing"],
+        ["assinar um termo de consentimento", "firmar un formulario de consentimiento"],
+        ["os riscos e benefícios do procedimento", "los riesgos y beneficios del procedimiento"],
+        ["tenho outras opções?", "¿tengo otras opciones?"],
+        ["perceber a que está a concordar", "entender a qué está accediendo"],
+        ["pode fazer perguntas antes de assinar", "puede hacer preguntas antes de firmar"],
       ],
       grammar: [
         ["\"Antes de + infinitivo\" para secuenciar acciones", "\"Antes de assinar\" indica qué debe ocurrir antes de una acción concreta, muy común en procesos formales.", "Leia o formulário com atenção antes de o assinar."],
@@ -13485,11 +13485,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar sobre salud mental y pedir apoyo psicológico en portugués, con vocabulario sensible y respetuoso.",
     study: {
       vocab: [
-        ["tenho-me sentido sobrecarregado/a ultimamente", "I've been feeling overwhelmed lately"],
-        ["falar com um terapeuta", "to speak with a therapist"],
-        ["não há problema em pedir ajuda", "it's okay to ask for help"],
-        ["dificuldade em dormir e concentrar-me", "difficulty sleeping and concentrating"],
-        ["uma conversa confidencial", "a confidential conversation"],
+        ["tenho-me sentido sobrecarregado/a ultimamente", "últimamente me he sentido abrumado/a"],
+        ["falar com um terapeuta", "hablar con un terapeuta"],
+        ["não há problema em pedir ajuda", "está bien pedir ayuda"],
+        ["dificuldade em dormir e concentrar-me", "dificultad para dormir y concentrarse"],
+        ["uma conversa confidencial", "una conversación confidencial"],
       ],
       grammar: [
         ["Pretérito perfeito compuesto con \"ultimamente\"", "\"Tenho-me sentido...ultimamente\" describe un estado emocional que comenzó en el pasado y continúa ahora.", "Tenho-me sentido sobrecarregado nas últimas semanas."],
@@ -13509,11 +13509,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir una segunda opinión médica de forma educada y profesional en portugués.",
     study: {
       vocab: [
-        ["gostaria de procurar uma segunda opinião", "I'd like to seek a second opinion"],
-        ["isto não reflete a minha confiança em si", "this isn't a reflection of my trust in you"],
-        ["tomar uma decisão totalmente informada", "to make a fully informed decision"],
-        ["podia transferir o meu processo clínico?", "could you transfer my records"],
-        ["um especialista com mais experiência nesta área", "a specialist with more experience in this area"],
+        ["gostaria de procurar uma segunda opinião", "me gustaría buscar una segunda opinión"],
+        ["isto não reflete a minha confiança em si", "esto no refleja mi confianza en usted"],
+        ["tomar uma decisão totalmente informada", "tomar una decisión totalmente informada"],
+        ["podia transferir o meu processo clínico?", "¿podría transferir mi historial?"],
+        ["um especialista com mais experiência nesta área", "un especialista con más experiencia en esta área"],
       ],
       grammar: [
         ["Matizar una petición delicada", "Frases como \"isto não reflete...\" suavizan una petición que podría malinterpretarse, mostrando respeto mientras se defiende una decisión.", "Gostaria de procurar uma segunda opinião — isto não reflete a minha confiança em si, mas quero estar bem informado."],
@@ -13533,11 +13533,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos en portugués relacionados con la salud y el bienestar.",
     study: {
       vocab: [
-        ["não estar em grande forma", "to be under the weather"],
-        ["estar de novo em pé", "to be back on your feet"],
-        ["combater uma constipação", "to fight off a cold"],
-        ["um atestado de boa saúde", "a clean bill of health"],
-        ["levar as coisas com calma", "to take it easy"],
+        ["não estar em grande forma", "estar pachucho/algo indispuesto"],
+        ["estar de novo em pé", "estar recuperado"],
+        ["combater uma constipação", "combatir un resfriado"],
+        ["um atestado de boa saúde", "un buen estado de salud"],
+        ["levar as coisas com calma", "tomárselo con calma"],
       ],
       grammar: [
         ["Modismos con partes del cuerpo y salud", "Estos modismos usan imágenes cotidianas para describir el estado de salud de forma natural y coloquial.", "Não estive em grande forma durante toda a semana, mas finalmente estou de novo em pé."],
@@ -13560,12 +13560,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales del entorno de oficina en portugués.",
     study: {
       vocab: [
-        ["a reunião", "the meeting"],
-        ["o prazo", "the deadline"],
-        ["o/a colega", "the coworker"],
-        ["o chefe/a chefe", "the boss"],
-        ["o relatório", "the report"],
-        ["o e-mail", "the email"],
+        ["a reunião", "la reunión"],
+        ["o prazo", "el plazo"],
+        ["o/a colega", "el compañero de trabajo"],
+        ["o chefe/a chefe", "el jefe"],
+        ["o relatório", "el informe"],
+        ["o e-mail", "el correo electrónico"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en el trabajo", "\"O chefe/a chefe\" cambia de género según quien ocupa el puesto.", "o chefe (m) / a chefe (f)"],
@@ -13585,10 +13585,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para el entorno laboral en portugués.",
     study: {
       vocab: [
-        ["Podemos marcar uma reunião?", "Can we schedule a meeting?"],
-        ["Vou precisar de mais tempo", "I'm going to need more time"],
-        ["Anexei o ficheiro", "I've attached the file"],
-        ["Obrigado/a pela sua paciência", "Thank you for your patience"],
+        ["Podemos marcar uma reunião?", "¿Podemos programar una reunión?"],
+        ["Vou precisar de mais tempo", "Voy a necesitar más tiempo"],
+        ["Anexei o ficheiro", "He adjuntado el archivo"],
+        ["Obrigado/a pela sua paciência", "Gracias por su paciencia"],
       ],
       grammar: [
         ["\"Ir + infinitivo\" para planes inmediatos", "\"Vou precisar\" expresa un plan o necesidad cercana en el tiempo.", "Vou precisar de mais tempo para terminar o relatório."],
@@ -13607,10 +13607,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo pidiendo ayuda a un compañero de trabajo en portugués.",
     study: {
       vocab: [
-        ["Tens um minuto?", "Do you have a minute?"],
-        ["Claro, como posso ajudar?", "Sure, how can I help?"],
-        ["Não sei usar este programa", "I don't know how to use this program"],
-        ["Explico-te já", "I'll explain it to you right now"],
+        ["Tens um minuto?", "¿Tienes un minuto?"],
+        ["Claro, como posso ajudar?", "Claro, ¿en qué puedo ayudarte?"],
+        ["Não sei usar este programa", "No sé usar este programa"],
+        ["Explico-te já", "Te lo explico ahora mismo"],
       ],
       grammar: [
         ["\"Tens um minuto?\" para pedir atención", "Es una forma informal y educada de interrumpir a un compañero para pedir ayuda.", "Tens um minuto? Preciso da tua ajuda."],
@@ -13630,10 +13630,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario para participar en reuniones y presentaciones en portugués.",
     study: {
       vocab: [
-        ["vamos começar pela ordem de trabalhos", "let's start with the agenda"],
-        ["há perguntas?", "any questions?"],
-        ["como podem ver neste diapositivo", "as you can see on this slide"],
-        ["passemos ao próximo ponto", "let's move to the next point"],
+        ["vamos começar pela ordem de trabalhos", "empecemos con la agenda"],
+        ["há perguntas?", "¿alguna pregunta?"],
+        ["como podem ver neste diapositivo", "como pueden ver en esta diapositiva"],
+        ["passemos ao próximo ponto", "pasemos al siguiente punto"],
       ],
       grammar: [
         ["Imperativo de primera persona plural (\"nós\")", "\"Vamos começar\", \"passemos\" son formas de \"nós\" para proponer una acción conjunta.", "Vamos começar pela ordem de trabalhos de hoje."],
@@ -13652,10 +13652,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a escribir correos breves y profesionales en portugués.",
     study: {
       vocab: [
-        ["Caro/a...", "Dear..."],
-        ["Fico a aguardar a sua resposta", "I look forward to your reply"],
-        ["Com os melhores cumprimentos", "Best regards"],
-        ["Escrevo para...", "I'm writing to..."],
+        ["Caro/a...", "Estimado/a..."],
+        ["Fico a aguardar a sua resposta", "Quedo a la espera de su respuesta"],
+        ["Com os melhores cumprimentos", "Saludos cordiales"],
+        ["Escrevo para...", "Le escribo para..."],
       ],
       grammar: [
         ["Fórmulas fijas para correos formales", "\"Caro/a\", \"Escrevo para...\" y \"Com os melhores cumprimentos\" son fórmulas fijas típicas de correos profesionales.", "Caro Sr. López, escrevo para confirmar a reunião. Com os melhores cumprimentos."],
@@ -13674,10 +13674,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a manejar un desacuerdo profesional de forma educada en portugués.",
     study: {
       vocab: [
-        ["compreendo o seu ponto de vista, mas...", "I understand your point, but..."],
-        ["não concordo totalmente", "I don't entirely agree"],
-        ["podemos encontrar um meio-termo?", "can we find a middle ground?"],
-        ["prefiro ser direto/a nisto", "I'd rather be direct about it"],
+        ["compreendo o seu ponto de vista, mas...", "Entiendo su punto, pero..."],
+        ["não concordo totalmente", "No estoy del todo de acuerdo"],
+        ["podemos encontrar um meio-termo?", "¿podemos encontrar un término medio?"],
+        ["prefiro ser direto/a nisto", "prefiero ser directo al respecto"],
       ],
       grammar: [
         ["\"Mas\" para suavizar un desacuerdo", "\"Compreendo o seu ponto de vista, mas...\" reconoce la otra opinión antes de presentar la tuya.", "Compreendo o seu ponto de vista, mas acho que há outra opção."],
@@ -13696,10 +13696,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a pedir días libres o vacaciones en el trabajo en portugués.",
     study: {
       vocab: [
-        ["gostaria de pedir uns dias de folga", "I'd like to request some days off"],
-        ["tenho dias de férias acumulados", "I have accumulated vacation days"],
-        ["seria possível tirá-los na próxima semana?", "would it be possible to take them next week?"],
-        ["preciso de coordenar isto com a minha equipa", "I need to coordinate it with my team"],
+        ["gostaria de pedir uns dias de folga", "me gustaría solicitar unos días libres"],
+        ["tenho dias de férias acumulados", "tengo días de vacaciones acumulados"],
+        ["seria possível tirá-los na próxima semana?", "¿sería posible tomarlos la próxima semana?"],
+        ["preciso de coordenar isto com a minha equipa", "necesito coordinarlo con mi equipo"],
       ],
       grammar: [
         ["\"Seria possível\" para peticiones muy educadas", "El condicional \"seria possível\" suaviza una petición delicada como pedir tiempo libre.", "Seria possível tirar esses dias na próxima semana?"],
@@ -13719,11 +13719,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a negociar tu salario o condiciones laborales de forma profesional en portugués.",
     study: {
       vocab: [
-        ["com base na minha experiência e resultados", "based on my experience and results"],
-        ["esperava que pudéssemos falar sobre o meu salário", "I was hoping we could discuss my salary"],
-        ["o padrão da indústria para esta função", "industry standard for this role"],
-        ["um bónus baseado no desempenho", "a performance-based bonus"],
-        ["estou aberto/a a um compromisso", "I'm open to a compromise"],
+        ["com base na minha experiência e resultados", "basándome en mi experiencia y resultados"],
+        ["esperava que pudéssemos falar sobre o meu salário", "esperaba que pudiéramos hablar de mi salario"],
+        ["o padrão da indústria para esta função", "el estándar del sector para este puesto"],
+        ["um bónus baseado no desempenho", "una bonificación por desempeño"],
+        ["estou aberto/a a um compromisso", "estoy abierto/a a un acuerdo"],
       ],
       grammar: [
         ["\"Esperava que pudéssemos...\" para abrir una negociación", "Esta estructura suaviza una petición delicada, mostrando iniciativa sin sonar exigente.", "Esperava que pudéssemos falar sobre o meu salário com base nos meus resultados recentes."],
@@ -13743,11 +13743,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a dar y recibir feedback constructivo de forma profesional en portugués.",
     study: {
       vocab: [
-        ["feedback construtivo", "constructive feedback"],
-        ["o que correu bem e o que podia melhorar", "what went well and what could improve"],
-        ["agradeço mesmo o feedback", "I really appreciate the feedback"],
-        ["uma área a melhorar", "one area for improvement"],
-        ["ter isso em conta", "to take this on board"],
+        ["feedback construtivo", "la retroalimentación constructiva"],
+        ["o que correu bem e o que podia melhorar", "qué salió bien y qué se podría mejorar"],
+        ["agradeço mesmo o feedback", "agradezco mucho la retroalimentación"],
+        ["uma área a melhorar", "un área de mejora"],
+        ["ter isso em conta", "tener esto en cuenta"],
       ],
       grammar: [
         ["Estructura \"sándwich\" para dar feedback", "Se empieza con algo positivo, se menciona el área de mejora, y se cierra con ánimo — suaviza la crítica sin perder claridad.", "Fizeste um ótimo trabalho na apresentação, mas uma área a melhorar é o tempo. No geral, muito bem!"],
@@ -13766,11 +13766,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario para gestionar proyectos, plazos y prioridades en portugués.",
     study: {
       vocab: [
-        ["estar atrasado em relação ao cronograma", "to fall behind schedule"],
-        ["priorizar as tarefas-chave", "to prioritize the key tasks"],
-        ["um prazo realista", "a realistic deadline"],
-        ["alocar recursos", "to allocate resources"],
-        ["uma atualização de estado", "a status update"],
+        ["estar atrasado em relação ao cronograma", "retrasarse respecto al calendario"],
+        ["priorizar as tarefas-chave", "priorizar las tareas clave"],
+        ["um prazo realista", "un plazo realista"],
+        ["alocar recursos", "asignar recursos"],
+        ["uma atualização de estado", "una actualización de estado"],
       ],
       grammar: [
         ["\"Estar atrasado em relação a\" para retrasos", "Esta expresión describe estar retrasado respecto a un plan, sin culpar directamente a nadie.", "Estamos atrasados em relação ao cronograma devido a imprevistos."],
@@ -13790,11 +13790,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a comunicarte de forma efectiva con colegas de distintas culturas en un entorno laboral en portugués.",
     study: {
       vocab: [
-        ["a franqueza pode ser percebida de forma diferente", "directness can be perceived differently"],
-        ["evitar mal-entendidos", "to avoid misunderstandings"],
-        ["um estilo de comunicação diferente", "a different communication style"],
-        ["esclarecer em vez de assumir", "to clarify rather than assume"],
-        ["estar atento às diferenças culturais", "being mindful of cultural differences"],
+        ["a franqueza pode ser percebida de forma diferente", "la franqueza puede percibirse de forma distinta"],
+        ["evitar mal-entendidos", "evitar malentendidos"],
+        ["um estilo de comunicação diferente", "un estilo de comunicación diferente"],
+        ["esclarecer em vez de assumir", "aclarar en lugar de suponer"],
+        ["estar atento às diferenças culturais", "ser consciente de las diferencias culturales"],
       ],
       grammar: [
         ["\"Em vez de\" para contrastar dos acciones", "\"Esclarecer em vez de assumir\" contrasta dos comportamientos, prefiriendo el primero sobre el segundo.", "É melhor perguntar em vez de assumir que se compreende."],
@@ -13813,11 +13813,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a persuadir y argumentar de forma convincente en una reunión de trabajo en portugués.",
     study: {
       vocab: [
-        ["se olharmos para os dados de perto", "if we look at the data closely"],
-        ["esta abordagem permitir-nos-ia...", "this approach would allow us to..."],
-        ["gostaria de desenvolver este ponto", "I'd like to build on that point"],
-        ["os números falam por si", "the numbers speak for themselves"],
-        ["vamos pesar os prós e os contras", "let's weigh the pros and cons"],
+        ["se olharmos para os dados de perto", "si observamos los datos de cerca"],
+        ["esta abordagem permitir-nos-ia...", "este enfoque nos permitiría..."],
+        ["gostaria de desenvolver este ponto", "me gustaría ampliar ese punto"],
+        ["os números falam por si", "los números hablan por sí solos"],
+        ["vamos pesar os prós e os contras", "sopesemos los pros y los contras"],
       ],
       grammar: [
         ["Condicional para proponer ideas con tacto", "\"Esta abordagem permitir-nos-ia...\" usa el condicional para proponer una idea sin imponerla, dejando espacio a la discusión.", "Esta abordagem permitir-nos-ia reduzir custos sem afetar a qualidade."],
@@ -13837,11 +13837,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos en portugués muy comunes en el entorno laboral y corporativo.",
     study: {
       vocab: [
-        ["pensar fora da caixa", "to think outside the box"],
-        ["dar um toque rápido", "to touch base"],
-        ["estar na mesma sintonia", "to be on the same page"],
-        ["começar com o pé direito", "to hit the ground running"],
-        ["as tarefas mais fáceis de resolver primeiro", "low-hanging fruit"],
+        ["pensar fora da caixa", "pensar de forma innovadora"],
+        ["dar um toque rápido", "ponerse en contacto brevemente"],
+        ["estar na mesma sintonia", "estar en sintonía"],
+        ["começar com o pé direito", "empezar con buen pie"],
+        ["as tarefas mais fáceis de resolver primeiro", "lo más fácil de conseguir"],
       ],
       grammar: [
         ["Modismos corporativos comunes", "Estos modismos son extremadamente frecuentes en reuniones de trabajo y no tienen traducción literal directa.", "Vamos dar um toque rápido na próxima semana para garantir que estamos na mesma sintonia."],
@@ -13864,12 +13864,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales para una fiesta en portugués.",
     study: {
       vocab: [
-        ["o convidado/a convidada", "the guest"],
-        ["o anfitrião/a anfitriã", "the host"],
-        ["a música", "the music"],
-        ["o presente", "the gift"],
-        ["o bolo", "the cake"],
-        ["os balões", "balloons"],
+        ["o convidado/a convidada", "el invitado"],
+        ["o anfitrião/a anfitriã", "el anfitrión"],
+        ["a música", "la música"],
+        ["o presente", "el regalo"],
+        ["o bolo", "la tarta"],
+        ["os balões", "los globos"],
       ],
       grammar: [
         ["Sustantivos con doble forma masc/fem en la fiesta", "\"O anfitrião/a anfitriã\" cambia de género según quien organiza.", "o anfitrião (m) / a anfitriã (f)"],
@@ -13889,10 +13889,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para socializar en una fiesta en portugués.",
     study: {
       vocab: [
-        ["Que bom ver-te!", "So nice to see you!"],
-        ["Como conheces o anfitrião?", "How do you know the host?"],
-        ["Parabéns!", "Happy birthday!"],
-        ["Obrigado/a por me convidares", "Thanks for inviting me"],
+        ["Que bom ver-te!", "¡Qué alegría verte!"],
+        ["Como conheces o anfitrião?", "¿Cómo conoces al anfitrión?"],
+        ["Parabéns!", "¡Feliz cumpleaños!"],
+        ["Obrigado/a por me convidares", "Gracias por invitarme"],
       ],
       grammar: [
         ["Exclamaciones con \"que\"", "\"Que + adjetivo/sustantivo!\" expresa entusiasmo o sorpresa de forma natural.", "Que bom ver-te! / Que bom está isto!"],
@@ -13911,10 +13911,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo conociendo gente nueva en una fiesta en portugués.",
     study: {
       vocab: [
-        ["Olá, não nos conhecemos, sou a Ana", "Hi, we haven't met, I'm Ana"],
-        ["Muito prazer, sou o Marco", "Nice to meet you, I'm Marco"],
-        ["O que fazes?", "What do you do?"],
-        ["Sou designer gráfica", "I'm a graphic designer"],
+        ["Olá, não nos conhecemos, sou a Ana", "Hola, no nos conocemos, soy Ana"],
+        ["Muito prazer, sou o Marco", "Encantado, soy Marco"],
+        ["O que fazes?", "¿A qué te dedicas?"],
+        ["Sou designer gráfica", "Soy diseñador/a gráfico/a"],
       ],
       grammar: [
         ["\"Não nos conhecemos\" para presentarse", "Esta frase se usa para iniciar una presentación con alguien nuevo de forma natural.", "Olá, não nos conhecemos, sou a Ana."],
@@ -13934,10 +13934,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a invitar a alguien y responder a una invitación en portugués.",
     study: {
       vocab: [
-        ["queres vir à minha festa?", "would you like to come to my party?"],
-        ["adorava ir", "I'd love to go"],
-        ["desculpa, já tenho planos", "sorry, I already have plans"],
-        ["posso levar alguém?", "can I bring someone?"],
+        ["queres vir à minha festa?", "¿te gustaría venir a mi fiesta?"],
+        ["adorava ir", "me encantaría ir"],
+        ["desculpa, já tenho planos", "lo siento, ya tengo planes"],
+        ["posso levar alguém?", "¿puedo traer a alguien?"],
       ],
       grammar: [
         ["\"Adorava\" para aceptar con entusiasmo", "\"Adorava\" es una forma entusiasta y educada de aceptar una invitación.", "Adorava ir, obrigado por me convidares."],
@@ -13956,10 +13956,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar sobre la comida y bebida en una fiesta en portugués.",
     study: {
       vocab: [
-        ["o que há para comer?", "what's there to eat?"],
-        ["experimenta isto, está delicioso", "try this, it's delicious"],
-        ["podes servir-me mais um pouco?", "can you pour me a bit more?"],
-        ["está mesmo bom", "it's really good"],
+        ["o que há para comer?", "¿qué hay de comer?"],
+        ["experimenta isto, está delicioso", "prueba esto, está delicioso"],
+        ["podes servir-me mais um pouco?", "¿me sirves un poco más?"],
+        ["está mesmo bom", "está muy bueno"],
       ],
       grammar: [
         ["\"Mesmo\" para intensificar un adjetivo", "\"Mesmo\" antes de un adjetivo lo intensifica, muy usado en conversación informal.", "Está mesmo bom. / Está mesmo delicioso."],
@@ -13978,10 +13978,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a manejar situaciones incómodas o preguntas indiscretas en una fiesta, en portugués.",
     study: {
       vocab: [
-        ["prefiro não falar sobre isso", "I'd rather not talk about that"],
-        ["que pergunta embaraçosa", "what an awkward question"],
-        ["vamos mudar de assunto", "let's change the subject"],
-        ["não é da minha conta, mas...", "it's none of my business, but..."],
+        ["prefiro não falar sobre isso", "prefiero no hablar de eso"],
+        ["que pergunta embaraçosa", "qué pregunta más incómoda"],
+        ["vamos mudar de assunto", "cambiemos de tema"],
+        ["não é da minha conta, mas...", "no es asunto mío, pero..."],
       ],
       grammar: [
         ["\"Preferir + infinitivo\" para declinar con tacto", "\"Prefiro não...\" suaviza una negativa sin sonar brusco.", "Prefiro não falar sobre isso agora."],
@@ -14001,10 +14001,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a despedirte y hacer planes futuros al final de una fiesta en portugués.",
     study: {
       vocab: [
-        ["já tenho de ir", "I have to go now"],
-        ["foi um prazer conhecer-te", "it was a pleasure meeting you"],
-        ["vamos combinar outro dia", "let's meet up another day"],
-        ["até breve", "see you soon"],
+        ["já tenho de ir", "tengo que irme ya"],
+        ["foi um prazer conhecer-te", "fue un placer conocerte"],
+        ["vamos combinar outro dia", "quedemos otro día"],
+        ["até breve", "hasta pronto"],
       ],
       grammar: [
         ["Imperativo de \"nós\" para proponer planes", "\"Vamos combinar\" es el imperativo de \"nós\", usado para proponer un plan conjunto.", "Vamos combinar outro dia para tomar um café."],
@@ -14023,11 +14023,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a dar tu opinión y debatir ligeramente sobre temas cotidianos en una fiesta, en portugués.",
     study: {
       vocab: [
-        ["na minha opinião", "in my opinion"],
-        ["vejo isso de forma diferente", "I see it differently"],
-        ["é um bom argumento", "that's a fair point"],
-        ["não tenho tanta certeza disso", "I'm not so sure about that"],
-        ["vamos ter de concordar em discordar", "we'll have to agree to disagree"],
+        ["na minha opinião", "en mi opinión"],
+        ["vejo isso de forma diferente", "yo lo veo de otra manera"],
+        ["é um bom argumento", "es un buen argumento"],
+        ["não tenho tanta certeza disso", "no estoy tan seguro/a de eso"],
+        ["vamos ter de concordar em discordar", "tendremos que aceptar que no estamos de acuerdo"],
       ],
       grammar: [
         ["\"É um bom argumento, mas...\" para debatir con cortesía", "Esta estructura reconoce el argumento del otro antes de presentar el tuyo, manteniendo el tono amistoso propio de una fiesta.", "É um bom argumento, mas continuo a achar que o filme era sobrevalorizado."],
@@ -14047,11 +14047,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a contar una anécdota de forma entretenida y con buen ritmo en portugués.",
     study: {
       vocab: [
-        ["não vais acreditar no que aconteceu", "you won't believe what happened"],
-        ["então estava eu ali...", "so there I was..."],
-        ["resumindo", "long story short"],
-        ["fica ainda melhor", "it gets better"],
-        ["e foi assim que tudo aconteceu", "and that's how it all happened"],
+        ["não vais acreditar no que aconteceu", "no vas a creer lo que pasó"],
+        ["então estava eu ali...", "entonces ahí estaba yo..."],
+        ["resumindo", "para resumir"],
+        ["fica ainda melhor", "y hay más"],
+        ["e foi assim que tudo aconteceu", "y así fue como pasó todo"],
       ],
       grammar: [
         ["Pasado narrativo con marcadores de historia", "Frases como \"então estava eu ali...\" y \"resumindo\" estructuran una anécdota de forma natural y mantienen el interés del oyente.", "Então estava eu ali, completamente perdido no aeroporto, e resumindo, perdi o meu voo."],
@@ -14071,11 +14071,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a reconocer y usar humor ligero y sarcasmo suave en conversaciones sociales en portugués.",
     study: {
       vocab: [
-        ["estou só a brincar", "I'm just kidding"],
-        ["isso é hilariante", "that's hilarious"],
-        ["pois claro (sarcástico)", "yeah, right"],
-        ["sem ofensa, mas...", "no offense, but..."],
-        ["tens mesmo sentido de humor", "you have a great sense of humor"],
+        ["estou só a brincar", "es broma"],
+        ["isso é hilariante", "qué gracioso"],
+        ["pois claro (sarcástico)", "sí, claro (irónico)"],
+        ["sem ofensa, mas...", "sin ofender, pero..."],
+        ["tens mesmo sentido de humor", "tienes muy buen sentido del humor"],
       ],
       grammar: [
         ["Tono e intención en el humor coloquial", "Frases como \"pois claro\" cambian completamente de significado según el tono — se usan para expresar incredulidad o sarcasmo suave, no acuerdo literal.", "\"Vou acabar este projeto num dia.\" \"Pois claro\" (dicho con ironía)"],
@@ -14094,11 +14094,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hacer networking profesional de forma natural en un evento social en portugués.",
     study: {
       vocab: [
-        ["o que fazes profissionalmente?", "what do you do for a living?"],
-        ["vamos manter contacto", "let's stay in touch"],
-        ["podia ter os teus contactos?", "could I get your contact information"],
-        ["adorava consultar-te sobre isso um dia destes", "I'd love to pick your brain sometime"],
-        ["o mundo é pequeno!", "small world!"],
+        ["o que fazes profissionalmente?", "¿a qué te dedicas?"],
+        ["vamos manter contacto", "mantengamos el contacto"],
+        ["podia ter os teus contactos?", "¿me das tu contacto?"],
+        ["adorava consultar-te sobre isso um dia destes", "me encantaría consultarte algo en algún momento"],
+        ["o mundo é pequeno!", "¡qué casualidad!"],
       ],
       grammar: [
         ["Preguntas abiertas para iniciar networking", "Preguntas como \"O que fazes profissionalmente?\" abren la conversación de forma natural sin sonar demasiado formal, típico en eventos sociales.", "Então, o que fazes profissionalmente? Tenho curiosidade em saber como chegaste até aí."],
@@ -14118,11 +14118,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a proponer y convencer a un grupo de amigos de hacer un plan en portugués, con un tono persuasivo pero informal.",
     study: {
       vocab: [
-        ["ouçam-me um segundo", "hear me out"],
-        ["e se experimentássemos...?", "what if we tried..."],
-        ["tenho a certeza que iam adorar todos", "I bet you'd all love it"],
-        ["vá lá, vai ser divertido", "come on, it'll be fun"],
-        ["quem topa?", "who's in"],
+        ["ouçam-me um segundo", "escúchame"],
+        ["e se experimentássemos...?", "¿y si probamos...?"],
+        ["tenho a certeza que iam adorar todos", "seguro que a todos os encantaría"],
+        ["vá lá, vai ser divertido", "venga, será divertido"],
+        ["quem topa?", "¿quién se apunta?"],
       ],
       grammar: [
         ["\"E se experimentássemos...?\" para proponer ideas con entusiasmo", "Esta estructura hipotética invita al grupo a imaginar una idea sin sonar impositivo, ideal para proponer planes.", "E se experimentássemos aquele novo bar no terraço este fim de semana? Tenho a certeza que iam adorar todos."],
@@ -14142,11 +14142,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos coloquiales muy comunes en conversaciones sociales e informales en portugués.",
     study: {
       vocab: [
-        ["quebrar o gelo", "to break the ice"],
-        ["ser a alma da festa", "to be the life of the party"],
-        ["dar-se logo bem com alguém", "to hit it off with someone"],
-        ["meter-se numa festa sem ser convidado", "to crash a party"],
-        ["a festa está mesmo a começar", "the party's just getting started"],
+        ["quebrar o gelo", "romper el hielo"],
+        ["ser a alma da festa", "ser el alma de la fiesta"],
+        ["dar-se logo bem com alguém", "conectar bien con alguien"],
+        ["meter-se numa festa sem ser convidado", "colarse en una fiesta"],
+        ["a festa está mesmo a começar", "la fiesta acaba de empezar"],
       ],
       grammar: [
         ["Modismos sociales muy frecuentes", "Estos modismos aparecen constantemente en conversaciones informales y describen dinámicas sociales de forma vívida.", "Demo-nos logo bem, e à meia-noite ela era claramente a alma da festa."],
@@ -14169,12 +14169,12 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende palabras esenciales de la vida universitaria en portugués.",
     study: {
       vocab: [
-        ["a matrícula", "enrollment/tuition"],
-        ["o semestre", "the semester"],
-        ["a bolsa de estudo", "the scholarship"],
-        ["a sala de aula", "the classroom"],
-        ["o exame final", "the final exam"],
-        ["o diploma", "the degree"],
+        ["a matrícula", "la matrícula"],
+        ["o semestre", "el semestre"],
+        ["a bolsa de estudo", "la beca"],
+        ["a sala de aula", "el aula"],
+        ["o exame final", "el examen final"],
+        ["o diploma", "el título/la carrera"],
       ],
       grammar: [
         ["Género de sustantivos académicos", "\"O semestre\" y \"o diploma\" son masculinos; \"a matrícula\" y \"a bolsa\" son femeninas.", "o semestre (m) / a matrícula (f)"],
@@ -14194,10 +14194,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende frases útiles para trámites universitarios en portugués.",
     study: {
       vocab: [
-        ["preciso de um certificado de matrícula", "I need an enrollment certificate"],
-        ["onde entrego este formulário?", "where do I submit this form?"],
-        ["quero mudar de curso", "I want to change majors"],
-        ["qual é o prazo?", "what's the deadline?"],
+        ["preciso de um certificado de matrícula", "necesito un certificado de matrícula"],
+        ["onde entrego este formulário?", "¿dónde entrego este formulario?"],
+        ["quero mudar de curso", "quiero cambiar de carrera"],
+        ["qual é o prazo?", "¿cuál es el plazo?"],
       ],
       grammar: [
         ["\"Onde + verbo?\" para trámites", "\"Onde entrego...?\" pregunta por el lugar correcto para un trámite.", "Onde entrego este formulário?"],
@@ -14216,10 +14216,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Practica un diálogo completo en la oficina de administración universitaria en portugués.",
     study: {
       vocab: [
-        ["Bom dia, como posso ajudar?", "Good morning, how can I help you?"],
-        ["Preciso do meu certificado de notas", "I need my transcript"],
-        ["Pode dar-me o seu número de estudante?", "Can I have your student number?"],
-        ["Vai estar pronto em três dias", "It'll be ready in three days"],
+        ["Bom dia, como posso ajudar?", "Buenos días, ¿en qué puedo ayudarle?"],
+        ["Preciso do meu certificado de notas", "necesito mi expediente académico"],
+        ["Pode dar-me o seu número de estudante?", "¿Me da su número de estudiante?"],
+        ["Vai estar pronto em três dias", "Estará listo en tres días"],
       ],
       grammar: [
         ["Futuro próximo para trámites pendientes", "\"Vai estar pronto\" usa el futuro próximo para indicar cuándo estará disponible un trámite.", "Vai estar pronto em três dias úteis."],
@@ -14239,10 +14239,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar sobre la biblioteca universitaria en portugués.",
     study: {
       vocab: [
-        ["requisitar um livro", "to borrow a book"],
-        ["a data de devolução", "the due date"],
-        ["renovar o empréstimo", "to renew the loan"],
-        ["a sala de estudo silenciosa", "the quiet study room"],
+        ["requisitar um livro", "pedir prestado un libro"],
+        ["a data de devolução", "la fecha de vencimiento"],
+        ["renovar o empréstimo", "renovar el préstamo"],
+        ["a sala de estudo silenciosa", "la sala de estudio silenciosa"],
       ],
       grammar: [
         ["\"Requisitar\" para solicitar algo temporal", "\"Requisitar\" describe tomar algo de forma temporal, con intención de devolverlo.", "Quero requisitar este livro."],
@@ -14261,10 +14261,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario para organizar trabajo en grupo en portugués.",
     study: {
       vocab: [
-        ["vamos dividir as tarefas", "let's divide up the tasks"],
-        ["quem trata da introdução?", "who's in charge of the intro?"],
-        ["vamos encontrar-nos na quinta-feira", "let's meet on Thursday"],
-        ["ainda não terminei a minha parte", "I haven't finished my part yet"],
+        ["vamos dividir as tarefas", "dividamos las tareas"],
+        ["quem trata da introdução?", "¿quién se encarga de la introducción?"],
+        ["vamos encontrar-nos na quinta-feira", "quedemos el jueves"],
+        ["ainda não terminei a minha parte", "todavía no he terminado mi parte"],
       ],
       grammar: [
         ["Imperativo de \"nós\" para organizar tareas", "\"Vamos dividir\", \"vamos encontrar-nos\" proponen una acción conjunta del grupo.", "Vamos dividir as tarefas do projeto."],
@@ -14283,10 +14283,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a comunicarte con un profesor sobre dudas o trabajos en portugués.",
     study: {
       vocab: [
-        ["podia esclarecer-me esta dúvida?", "could you clarify this doubt for me?"],
-        ["não percebi bem a matéria", "I didn't quite understand the topic"],
-        ["tem horário de atendimento?", "do you have office hours?"],
-        ["gostaria de rever a minha nota", "I'd like to review my grade"],
+        ["podia esclarecer-me esta dúvida?", "¿podrías aclararme esta duda?"],
+        ["não percebi bem a matéria", "no entendí muy bien el tema"],
+        ["tem horário de atendimento?", "¿tiene horario de tutorías?"],
+        ["gostaria de rever a minha nota", "me gustaría revisar mi calificación"],
       ],
       grammar: [
         ["\"Podia...?\" para peticiones formales con el profesor", "\"Podia...?\" es la forma educada y formal de pedir algo a una figura de autoridad como un profesor.", "Podia esclarecer-me esta dúvida sobre o exame?"],
@@ -14306,10 +14306,10 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende vocabulario sobre la vida diaria en el campus universitario en portugués.",
     study: {
       vocab: [
-        ["a cantina do campus", "the campus cafeteria"],
-        ["o clube de estudantes", "the student club"],
-        ["a residência universitária", "the student dorm"],
-        ["o horário das aulas", "the class schedule"],
+        ["a cantina do campus", "la cafetería del campus"],
+        ["o clube de estudantes", "el club estudiantil"],
+        ["a residência universitária", "la residencia estudiantil"],
+        ["o horário das aulas", "el horario de clases"],
       ],
       grammar: [
         ["\"Do campus\" para describir lugares universitarios", "\"Do campus\" indica que algo pertenece o está ubicado en el campus.", "A cantina do campus abre às 8h."],
@@ -14328,11 +14328,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a hablar sobre un ensayo o trabajo académico con tu profesor en portugués.",
     study: {
       vocab: [
-        ["a tese do trabalho precisa de ser melhorada", "the thesis statement needs work"],
-        ["citar as suas fontes corretamente", "to cite your sources properly"],
-        ["o argumento carece de provas de suporte", "the argument lacks supporting evidence"],
-        ["rever a estrutura", "to revise the structure"],
-        ["uma conclusão bem fundamentada", "a well-supported conclusion"],
+        ["a tese do trabalho precisa de ser melhorada", "la tesis del trabajo necesita mejorar"],
+        ["citar as suas fontes corretamente", "citar las fuentes correctamente"],
+        ["o argumento carece de provas de suporte", "al argumento le falta evidencia que lo respalde"],
+        ["rever a estrutura", "revisar la estructura"],
+        ["uma conclusão bem fundamentada", "una conclusión bien fundamentada"],
       ],
       grammar: [
         ["Voz pasiva refleja para retroalimentación académica objetiva", "\"O argumento precisa de ser fundamentado\" suena más objetiva y menos personal al dar feedback académico.", "O argumento precisa de ser fundamentado com mais provas."],
@@ -14352,11 +14352,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a preguntar por becas y ayudas financieras en la universidad en portugués.",
     study: {
       vocab: [
-        ["candidatar-se a uma bolsa de estudo", "to apply for a scholarship"],
-        ["elegibilidade para ajuda financeira", "financial aid eligibility"],
-        ["o prazo de candidatura", "the application deadline"],
-        ["uma bolsa baseada no mérito", "a merit-based scholarship"],
-        ["submeter documentos comprovativos", "to submit supporting documents"],
+        ["candidatar-se a uma bolsa de estudo", "solicitar una beca"],
+        ["elegibilidade para ajuda financeira", "la elegibilidad para ayuda financiera"],
+        ["o prazo de candidatura", "el plazo de solicitud"],
+        ["uma bolsa baseada no mérito", "una beca por mérito"],
+        ["submeter documentos comprovativos", "presentar documentos justificativos"],
       ],
       grammar: [
         ["\"Baseado/a em\" + sustantivo para criterios de selección", "Esta estructura explica en qué se basa una decisión o criterio, muy común al hablar de becas.", "Esta bolsa é atribuída com base no mérito académico e na necessidade financeira."],
@@ -14375,11 +14375,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a participar en un debate académico en clase, defendiendo y cuestionando ideas en portugués.",
     study: {
       vocab: [
-        ["gostaria de questionar essa ideia", "I'd like to challenge that idea"],
-        ["as provas sugerem o contrário", "the evidence suggests otherwise"],
-        ["fazer de advogado do diabo", "to play devil's advocate"],
-        ["de uma perspetiva diferente", "from a different perspective"],
-        ["isso levanta uma questão importante", "that raises an important question"],
+        ["gostaria de questionar essa ideia", "me gustaría cuestionar esa idea"],
+        ["as provas sugerem o contrário", "la evidencia sugiere lo contrario"],
+        ["fazer de advogado do diabo", "hacer de abogado del diablo"],
+        ["de uma perspetiva diferente", "desde otra perspectiva"],
+        ["isso levanta uma questão importante", "eso plantea una pregunta importante"],
       ],
       grammar: [
         ["Suavizar el desacuerdo académico", "Frases como \"gostaria de questionar essa ideia\" o \"de uma perspetiva diferente\" permiten cuestionar un argumento sin sonar agresivo en un debate formal.", "Gostaria de questionar essa ideia — de uma perspetiva diferente, as provas sugerem o contrário."],
@@ -14399,11 +14399,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a presentar y hablar sobre tu proyecto de investigación en portugués.",
     study: {
       vocab: [
-        ["a pergunta de investigação é...", "the research question is..."],
-        ["a metodologia consiste em...", "the methodology involves..."],
-        ["os resultados preliminares sugerem", "preliminary findings suggest"],
-        ["é necessária mais investigação", "further research is needed"],
-        ["recolher e analisar dados", "to collect and analyze data"],
+        ["a pergunta de investigação é...", "la pregunta de investigación es..."],
+        ["a metodologia consiste em...", "la metodología consiste en..."],
+        ["os resultados preliminares sugerem", "los hallazgos preliminares sugieren"],
+        ["é necessária mais investigação", "se necesita más investigación"],
+        ["recolher e analisar dados", "recopilar y analizar datos"],
       ],
       grammar: [
         ["Lenguaje de cautela académica (\"hedging\")", "Frases como \"os resultados preliminares sugerem\" o \"é necessária mais investigação\" evitan afirmaciones demasiado categóricas, típico del discurso académico.", "Os resultados preliminares sugerem uma correlação, mas é necessária mais investigação."],
@@ -14423,11 +14423,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende a defender un argumento o tesis frente a un tribunal o profesor en portugués, con un registro académico formal.",
     study: {
       vocab: [
-        ["eu argumentaria que...", "I'd argue that..."],
-        ["esta afirmação é sustentada por...", "this claim is substantiated by..."],
-        ["embora se possa argumentar que...", "while it could be argued that..."],
-        ["o contra-argumento não considera", "the counterargument fails to consider"],
-        ["à luz das provas apresentadas", "in light of the evidence presented"],
+        ["eu argumentaria que...", "yo argumentaría que..."],
+        ["esta afirmação é sustentada por...", "esta afirmación está respaldada por..."],
+        ["embora se possa argumentar que...", "aunque se podría argumentar que..."],
+        ["o contra-argumento não considera", "el contraargumento no tiene en cuenta"],
+        ["à luz das provas apresentadas", "a la luz de la evidencia presentada"],
       ],
       grammar: [
         ["\"Embora se possa argumentar que...\" para reconocer una objeción", "Esta estructura reconoce un punto de vista opuesto antes de refutarlo, mostrando rigor académico y objetividad.", "Embora se possa argumentar que a amostra era pequena, os resultados continuam a ser estatisticamente significativos."],
@@ -14447,11 +14447,11 @@ window.SITUATION_LESSON_BANKS.PT = {
     description:"Aprende modismos y expresiones comunes en el entorno académico universitario en portugués.",
     study: {
       vocab: [
-        ["passar a noite em claro a estudar", "to pull an all-nighter"],
-        ["meter a cabeça nos livros", "to hit the books"],
-        ["algo para refletir", "food for thought"],
-        ["estudar em cima da hora para um exame", "to cram for an exam"],
-        ["passar com distinção", "to pass with flying colors"],
+        ["passar a noite em claro a estudar", "quedarse toda la noche estudiando"],
+        ["meter a cabeça nos livros", "ponerse a estudiar en serio"],
+        ["algo para refletir", "algo en qué pensar"],
+        ["estudar em cima da hora para um exame", "empollar para un examen"],
+        ["passar com distinção", "aprobar con nota excelente"],
       ],
       grammar: [
         ["Modismos sobre estudiar y exámenes", "Estos modismos describen hábitos de estudio y resultados académicos de forma vívida y muy común entre estudiantes.", "Tive de passar a noite em claro a estudar, mas passei no exame com distinção."],

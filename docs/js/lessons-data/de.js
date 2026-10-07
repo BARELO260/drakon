@@ -9,11 +9,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a saludar y presentarte en alemán.",
     study: {
       vocab: [
-        ["Guten Morgen / Guten Abend", "Good morning / Good evening"],
-        ["Hallo / Auf Wiedersehen", "Hello / Goodbye"],
-        ["Freut mich!", "Nice to meet you!"],
-        ["Ich heiße...", "My name is..."],
-        ["Wie geht's?", "How are you?", "Respuesta: \"Mir geht es gut, danke\""]
+        ["Guten Morgen / Guten Abend", "Buenos días / Buenas tardes"],
+        ["Hallo / Auf Wiedersehen", "Hola / Adiós"],
+        ["Freut mich!", "¡Encantado/a de conocerte!"],
+        ["Ich heiße...", "Me llamo..."],
+        ["Wie geht's?", "¿Cómo estás?", "Respuesta: \"Mir geht es gut, danke\""]
       ],
       grammar: [
         ["El verbo \"sein\" (ser/estar)", "Ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie sind.", "Ich bin Lehrer. Sie ist aus Berlin."]
@@ -33,10 +33,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende números del 1 al 20 y colores básicos en alemán.",
     study: {
       vocab: [
-        ["eins, zwei, drei... zwanzig", "one, two, three... twenty"],
-        ["rot, blau, grün, gelb", "red, blue, green, yellow"],
-        ["weiß, schwarz", "white, black"],
-        ["Ich bin ___ Jahre alt", "I am ___ years old", "El alemán sí usa \"sein\" para la edad, como el inglés."]
+        ["eins, zwei, drei... zwanzig", "uno, dos, tres... veinte"],
+        ["rot, blau, grün, gelb", "rojo, azul, verde, amarillo"],
+        ["weiß, schwarz", "blanco, negro"],
+        ["Ich bin ___ Jahre alt", "Tengo ___ años", "El alemán sí usa \"sein\" para la edad, como el inglés."]
       ],
       grammar: [
         ["Los sustantivos alemanes siempre se escriben con mayúscula", "A diferencia del español/inglés, TODOS los sustantivos en alemán llevan mayúscula inicial, no solo los nombres propios.", "die Farbe (el color), das Auto (el coche)."]
@@ -56,9 +56,9 @@ window.LESSON_BANKS.DE = [
     description:"Los dos verbos más importantes del alemán: ser/estar y tener.",
     study: {
       vocab: [
-        ["sein", "to be"],
-        ["haben", "to have"],
-        ["Student, Lehrer", "student, teacher"]
+        ["sein", "ser/estar"],
+        ["haben", "tener/haber"],
+        ["Student, Lehrer", "estudiante, profesor"]
       ],
       grammar: [
         ["Sein vs. Haben", "Los dos verbos más importantes del alemán. \"Sein\" para identidad y edad; \"haben\" para posesión.", "Ich bin 20 Jahre alt. / Ich habe ein Auto."]
@@ -78,11 +78,11 @@ window.LESSON_BANKS.DE = [
     description:"Vocabulario de familia y de la casa en alemán.",
     study: {
       vocab: [
-        ["Vater, Mutter", "father, mother"],
-        ["Bruder, Schwester", "brother, sister"],
-        ["Sohn, Tochter", "son, daughter"],
-        ["Schlafzimmer, Küche, Wohnzimmer", "bedroom, kitchen, living room"],
-        ["Badezimmer, Garten", "bathroom, garden"]
+        ["Vater, Mutter", "padre, madre"],
+        ["Bruder, Schwester", "hermano, hermana"],
+        ["Sohn, Tochter", "hijo, hija"],
+        ["Schlafzimmer, Küche, Wohnzimmer", "dormitorio, cocina, salón"],
+        ["Badezimmer, Garten", "baño, jardín"]
       ],
       grammar: [
         ["Adjetivos posesivos", "Mein/meine, dein/deine, sein/seine concuerdan en género con el sustantivo que sigue (no con el poseedor).", "Mein Vater (masc.) / Meine Mutter (fem.)."]
@@ -102,11 +102,11 @@ window.LESSON_BANKS.DE = [
     description:"Pide comida y desenvuélvete en un restaurante en alemán.",
     study: {
       vocab: [
-        ["die Speisekarte", "the menu"],
-        ["Ich hätte gern...", "I would like...", "Forma cortés de pedir."],
-        ["die Rechnung, bitte", "the bill, please"],
-        ["das Wasser, das Brot", "water, bread"],
-        ["lecker", "delicious"]
+        ["die Speisekarte", "el menú"],
+        ["Ich hätte gern...", "Me gustaría...", "Forma cortés de pedir."],
+        ["die Rechnung, bitte", "la cuenta, por favor"],
+        ["das Wasser, das Brot", "agua, pan"],
+        ["lecker", "delicioso"]
       ],
       grammar: [
         ["\"Ich hätte gern\" para pedir con cortesía", "\"Ich hätte gern\" (literalmente \"tendría gusto en\") es más educado que \"ich will\" al pedir algo.", "Ich hätte gern einen Kaffee, bitte. (Más cortés que \"Ich will einen Kaffee\".)"]
@@ -126,11 +126,11 @@ window.LESSON_BANKS.DE = [
     description:"Habla sobre tu día: mañana, tarde y noche en alemán.",
     study: {
       vocab: [
-        ["aufwachen", "to wake up"],
-        ["aufstehen", "to get up"],
-        ["frühstücken / zu Mittag essen / zu Abend essen", "to have breakfast/lunch/dinner"],
-        ["zur Arbeit gehen", "to go to work"],
-        ["jeden Tag", "every day"]
+        ["aufwachen", "despertarse"],
+        ["aufstehen", "levantarse"],
+        ["frühstücken / zu Mittag essen / zu Abend essen", "desayunar/almorzar/cenar"],
+        ["zur Arbeit gehen", "ir al trabajo"],
+        ["jeden Tag", "todos los días"]
       ],
       grammar: [
         ["Verbos separables en presente", "Muchos verbos de rutina son \"separables\": el prefijo (auf-) se separa y va al final de la oración en presente.", "Ich stehe um 7 Uhr auf. (aufstehen → stehe...auf)"]
@@ -150,12 +150,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a comprar ropa, preguntar precios y tallas en alemán.",
     study: {
       vocab: [
-        ["das Hemd, das T-Shirt", "shirt, t-shirt"],
-        ["die Hose, der Rock", "pants, skirt"],
-        ["die Schuhe", "shoes"],
-        ["Wie viel kostet das?", "How much does it cost?"],
-        ["die Größe", "size"],
-        ["anprobieren", "to try on (something)"]
+        ["das Hemd, das T-Shirt", "camisa, camiseta"],
+        ["die Hose, der Rock", "pantalón, falda"],
+        ["die Schuhe", "zapatos"],
+        ["Wie viel kostet das?", "¿Cuánto cuesta?"],
+        ["die Größe", "la talla"],
+        ["anprobieren", "probarse (algo)"]
       ],
       grammar: [
         ["Komparativ: ...er als", "Se forma añadiendo \"-er\" al adjetivo, seguido de \"als\".", "Dieses Hemd ist billiger als das da."],
@@ -176,10 +176,10 @@ window.LESSON_BANKS.DE = [
     description:"Habla del clima y las estaciones del año en alemán.",
     study: {
       vocab: [
-        ["es ist heiß / kalt", "it's hot / cold"],
-        ["es regnet, es schneit", "it rains, it snows"],
-        ["der Sommer, der Winter, der Frühling, der Herbst", "summer, winter, spring, autumn"],
-        ["es ist bewölkt / sonnig", "it's cloudy / sunny"]
+        ["es ist heiß / kalt", "hace calor / frío"],
+        ["es regnet, es schneit", "llueve, nieva"],
+        ["der Sommer, der Winter, der Frühling, der Herbst", "verano, invierno, primavera, otoño"],
+        ["es ist bewölkt / sonnig", "está nublado / hace sol"]
       ],
       grammar: [
         ["Unpersönliches \"es\" beim Wetter", "\"Es\" funciona como sujeto impersonal con los verbos del clima.", "Es regnet heute. Es ist sehr kalt."],
@@ -200,10 +200,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a hablar de acciones terminadas en el pasado con el Perfekt.",
     study: {
       vocab: [
-        ["gestern, gestern Abend, letzte Woche", "yesterday, last night, last week"],
-        ["ich habe gegessen, du hast gegessen", "I ate, you ate"],
-        ["ich bin gegangen, du bist gegangen", "I went, you went"],
-        ["Was hast du gemacht?", "What did you do?"]
+        ["gestern, gestern Abend, letzte Woche", "ayer, anoche, la semana pasada"],
+        ["ich habe gegessen, du hast gegessen", "yo comí, tú comiste"],
+        ["ich bin gegangen, du bist gegangen", "yo fui, tú fuiste"],
+        ["Was hast du gemacht?", "¿Qué hiciste?"]
       ],
       grammar: [
         ["Perfekt mit \"haben\"", "Sujeto + haben (conjugado) + participio II.", "Ich habe einen Apfel gegessen."],
@@ -224,10 +224,10 @@ window.LESSON_BANKS.DE = [
     description:"Entnimm praktische Informationen aus Hinweisen und Nachrichten des Alltags.",
     study:{
       vocab:[
-        ["auf Anfrage erhältlich","available on request"],
-        ["Änderungen vorbehalten","subject to change"],
-        ["die Voraussetzungen erfüllen","to be eligible"],
-        ["die Frist","deadline"]
+        ["auf Anfrage erhältlich", "disponible a petición"],
+        ["Änderungen vorbehalten", "sujeto a cambios"],
+        ["die Voraussetzungen erfüllen", "cumplir los requisitos"],
+        ["die Frist", "el plazo límite"]
       ],
       grammar:[
         ["Selektives Lesen","Suche zuerst nach Zweck, Bedingung und geforderter Handlung.","Buchungen werden erst nach Zahlungseingang bestätigt."]
@@ -245,10 +245,10 @@ window.LESSON_BANKS.DE = [
     description:"Unterscheide Fakten, Vorlieben und Gründe in alltäglichen Gesprächen.",
     study:{
       vocab:[
-        ["ich würde lieber","I would rather"],
-        ["es stellt sich heraus","it turns out"],
-        ["es lohnt sich","it's worth it"],
-        ["jemanden abschrecken","to put someone off"]
+        ["ich würde lieber", "preferiría"],
+        ["es stellt sich heraus", "resulta que"],
+        ["es lohnt sich", "vale la pena"],
+        ["jemanden abschrecken", "desanimar a alguien"]
       ],
       grammar:[
         ["Begründete Meinung","Eine B1-Antwort sollte eine Meinung und einen Grund enthalten.","Ich würde lieber mit dem Zug reisen, weil ich unterwegs arbeiten kann."]
@@ -266,10 +266,10 @@ window.LESSON_BANKS.DE = [
     description:"Erzähle vergangene Erfahrungen mit Perfekt und Präteritum.",
     study:{
       vocab:[
-        ["zuerst","at first"],
-        ["schließlich","eventually"],
-        ["unerwartet","unexpectedly"],
-        ["bemerken","to realise"]
+        ["zuerst", "al principio"],
+        ["schließlich", "con el tiempo"],
+        ["unerwartet", "inesperadamente"],
+        ["bemerken", "darse cuenta"]
       ],
       grammar:[
         ["Perfekt vs. Präteritum im Erzählen","Präteritum beschreibt oft den Hintergrund (besonders bei \"sein\", \"haben\", Modalverben); das Perfekt erzählt abgeschlossene Handlungen in der gesprochenen Sprache.","Während wir auf den Bus warteten, fing es an zu regnen."]
@@ -287,10 +287,10 @@ window.LESSON_BANKS.DE = [
     description:"Schlage Optionen vor, reagiere auf fremde Ideen und verhandle eine Entscheidung.",
     study:{
       vocab:[
-        ["wollen wir...?","shall we...?"],
-        ["ich verstehe deinen Punkt","I see your point"],
-        ["wie wäre es mit...?","how about...?"],
-        ["ein Kompromiss","a compromise"]
+        ["wollen wir...?", "¿qué tal si...?"],
+        ["ich verstehe deinen Punkt", "entiendo tu punto"],
+        ["wie wäre es mit...?", "¿qué tal...?"],
+        ["ein Kompromiss", "un término medio"]
       ],
       grammar:[
         ["Kooperative Sprache","Beim Verhandeln: vorschlagen, reagieren und eine gemeinsame Alternative suchen.","Ich verstehe deinen Punkt zu den Kosten; wie wäre es, die günstigere Option zu wählen?"]
@@ -308,10 +308,10 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Pläne, Absichten und Vermutungen mit verschiedenen Zukunftsformen.",
     study:{
       vocab:[
-        ["ich habe vor","I intend to"],
-        ["bald","soon"],
-        ["sobald ich kann","as soon as I can"],
-        ["es ist möglich, dass","it's possible that"]
+        ["ich habe vor", "tengo la intención de"],
+        ["bald", "pronto"],
+        ["sobald ich kann", "tan pronto como pueda"],
+        ["es ist möglich, dass", "es posible que"]
       ],
       grammar:[
         ["Präsens für Pläne vs. werden-Futur","Im Deutschen drückt oft das Präsens mit Zeitangabe geplante Handlungen aus; \"werden\" + Infinitiv drückt Vermutungen aus.","Ich ziehe nächsten Monat um. / Ich glaube, es wird morgen regnen."]
@@ -329,10 +329,10 @@ window.LESSON_BANKS.DE = [
     description:"Formuliere Beschwerden und formelle Bitten mit dem Konjunktiv II der Höflichkeit.",
     study:{
       vocab:[
-        ["ich hätte gern","I would like"],
-        ["könnten Sie...?","could you...?"],
-        ["ich bedaure, Ihnen mitteilen zu müssen","I regret to inform you"],
-        ["eine Beschwerde einreichen","to file a complaint"]
+        ["ich hätte gern", "me gustaría"],
+        ["könnten Sie...?", "¿podrías...?"],
+        ["ich bedaure, Ihnen mitteilen zu müssen", "lamento informarle"],
+        ["eine Beschwerde einreichen", "presentar una queja"]
       ],
       grammar:[
         ["Konjunktiv II der Höflichkeit","\"Hätte gern\" und \"könnten\" machen Bitten und formelle Beschwerden höflicher.","Ich hätte gern gewusst, warum die Bestellung sich verspätet hat."]
@@ -350,10 +350,10 @@ window.LESSON_BANKS.DE = [
     description:"Drücke unwahrscheinliche oder irreale Hypothesen mit dem Konjunktiv II aus.",
     study:{
       vocab:[
-        ["wenn ich hätte","if I had"],
-        ["falls","in case"],
-        ["es sei denn","unless"],
-        ["angenommen, dass","assuming that"]
+        ["wenn ich hätte", "si tuviera"],
+        ["falls", "por si acaso"],
+        ["es sei denn", "a menos que"],
+        ["angenommen, dass", "suponiendo que"]
       ],
       grammar:[
         ["Irrealer Konditionalsatz (Typ 2)","Für unwahrscheinliche oder irreale Hypothesen in der Gegenwart: wenn + Konjunktiv II, Hauptsatz mit würde + Infinitiv (oder Konjunktiv II bei häufigen Verben).","Wenn ich mehr Zeit hätte, würde ich öfter reisen."]
@@ -371,10 +371,10 @@ window.LESSON_BANKS.DE = [
     description:"Gib wieder, was andere gesagt haben, mit dem passenden Modus und Zeitangaben.",
     study:{
       vocab:[
-        ["er sagte, dass","he said that"],
-        ["sie erklärte, dass","she explained that"],
-        ["er fragte, ob","he asked whether"],
-        ["sie fügte hinzu, dass","she added that"]
+        ["er sagte, dass", "él dijo que"],
+        ["sie erklärte, dass", "ella explicó que"],
+        ["er fragte, ob", "él preguntó si"],
+        ["sie fügte hinzu, dass", "ella añadió que"]
       ],
       grammar:[
         ["Indirekte Rede mit Konjunktiv I","In formeller indirekter Rede wird oft der Konjunktiv I verwendet, besonders wenn er sich vom Indikativ unterscheidet.","Sie sagte: 'Ich komme später.' → Sie sagte, sie komme später."]
@@ -392,10 +392,10 @@ window.LESSON_BANKS.DE = [
     description:"Beschreibe Prozesse und Fakten, ohne zu betonen, wer sie ausführt.",
     study:{
       vocab:[
-        ["werden + Partizip II","to be + past participle (passive)"],
-        ["man + Verb","impersonal 'one' construction"],
-        ["durchgeführt werden","to be carried out"],
-        ["zuständig sein für","to be in charge of"]
+        ["werden + Partizip II", "ser + participio (pasiva)"],
+        ["man + Verb", "construcción impersonal con 'se'"],
+        ["durchgeführt werden", "llevarse a cabo"],
+        ["zuständig sein für", "estar a cargo de"]
       ],
       grammar:[
         ["Passiv und man-Konstruktion","Das Passiv mit 'werden' betont den Vorgang; 'man' ist eine natürliche informelle Alternative, wenn der Handelnde unwichtig ist.","Das Projekt wurde vom Ausschuss genehmigt. / Man genehmigte das Projekt."]
@@ -413,10 +413,10 @@ window.LESSON_BANKS.DE = [
     description:"Drücke Vermutungen mit Modalverben und passenden Adverbien aus.",
     study:{
       vocab:[
-        ["wahrscheinlich","probably"],
-        ["es könnte sein, dass","it could be that"],
-        ["vermutlich","presumably"],
-        ["das kann nicht stimmen","that can't be right"]
+        ["wahrscheinlich", "probablemente"],
+        ["es könnte sein, dass", "podría ser que"],
+        ["vermutlich", "presuntamente"],
+        ["das kann nicht stimmen", "eso no puede ser cierto"]
       ],
       grammar:[
         ["Vermutungen mit Modalverben","Deutsch drückt Vermutung oft mit Modalverben (könnte, dürfte, muss) statt mit einem eigenen Modus.","Er könnte schon zu Hause sein. / Sie muss den Zug verpasst haben."]
@@ -434,10 +434,10 @@ window.LESSON_BANKS.DE = [
     description:"Nutze 'obwohl' und andere Konnektoren, um Ideen zu differenzieren und Fakten zu kontrastieren.",
     study:{
       vocab:[
-        ["obwohl","although"],
-        ["trotzdem","nevertheless"],
-        ["dennoch","yet / still"],
-        ["jedoch","however"]
+        ["obwohl", "aunque"],
+        ["trotzdem", "sin embargo"],
+        ["dennoch", "todavía / aún"],
+        ["jedoch", "sin embargo"]
       ],
       grammar:[
         ["Kontrastive Konnektoren","'Obwohl' leitet einen Nebensatz ein (Verb am Ende); 'trotzdem', 'dennoch' und 'jedoch' stehen typischerweise in einem eigenen Hauptsatz.","Obwohl der Flug sich verspätete, kamen wir pünktlich zum Meeting."]
@@ -455,10 +455,10 @@ window.LESSON_BANKS.DE = [
     description:"Baue Argumente auf, die den Gegenpunkt anerkennen, bevor sie eine Position verteidigen.",
     study:{
       vocab:[
-        ["einerseits / andererseits","on one hand / on the other hand"],
-        ["es lässt sich nicht leugnen, dass","it can't be denied that"],
-        ["es ist erwähnenswert, dass","it's worth noting that"],
-        ["letztendlich","ultimately"]
+        ["einerseits / andererseits", "por un lado / por otro lado"],
+        ["es lässt sich nicht leugnen, dass", "no se puede negar que"],
+        ["es ist erwähnenswert, dass", "cabe destacar que"],
+        ["letztendlich", "en última instancia"]
       ],
       grammar:[
         ["Differenzierte Argumentation","Ein gutes B2-Argument erkennt den Gegenpunkt an, bevor es die eigene Position verteidigt.","Es lässt sich nicht leugnen, dass der Plan Kosten senkt, aber es ist erwähnenswert, dass er auch Risiken birgt."]
@@ -476,10 +476,10 @@ window.LESSON_BANKS.DE = [
     description:"Nutze Abschwächung (Hedging), um vorsichtige Aussagen im gehobenen Register zu formulieren.",
     study:{
       vocab:[
-        ["es wäre angebracht zu betonen, dass","it would be worth pointing out that"],
-        ["es wäre sinnvoll zu differenzieren, dass","it would be worth clarifying that"],
-        ["dazu neigen zu glauben, dass","to be inclined to think that"],
-        ["im Großen und Ganzen","broadly speaking"]
+        ["es wäre angebracht zu betonen, dass", "convendría señalar que"],
+        ["es wäre sinnvoll zu differenzieren, dass", "convendría aclarar que"],
+        ["dazu neigen zu glauben, dass", "tender a pensar que"],
+        ["im Großen und Ganzen", "en términos generales"]
       ],
       grammar:[
         ["Abschwächung (Hedging) im gehobenen Register","Der Konjunktiv II schwächt Aussagen ab und macht sie vorsichtiger und formeller als der Indikativ Präsens.","Es wäre angebracht zu argumentieren, dass die Maßnahme verfrüht ist, auch wenn die Datenlage noch begrenzt ist."]
@@ -497,10 +497,10 @@ window.LESSON_BANKS.DE = [
     description:"Drücke irreale Hypothesen in der Vergangenheit mit komplexer Zeitabstimmung aus.",
     study:{
       vocab:[
-        ["wenn ich es gewusst hätte","if I had known"],
-        ["es war unmöglich, dass","it was impossible that"],
-        ["es hätte genügt","it would have sufficed"],
-        ["erst als","it wasn't until that"]
+        ["wenn ich es gewusst hätte", "si lo hubiera sabido"],
+        ["es war unmöglich, dass", "era imposible que"],
+        ["es hätte genügt", "habría bastado"],
+        ["erst als", "no fue hasta que"]
       ],
       grammar:[
         ["Konjunktiv II der Vergangenheit","Für irreale Hypothesen in der Vergangenheit: wenn + Konjunktiv II Plusquamperfekt (hätte/wäre + Partizip II) in beiden Satzteilen.","Wenn ich das Risiko gekannt hätte, hätte ich anders gehandelt."]
@@ -518,10 +518,10 @@ window.LESSON_BANKS.DE = [
     description:"Verwandle Verben in Substantive, um ein akademisches und technisches Register zu erreichen.",
     study:{
       vocab:[
-        ["die Umsetzung von","the implementation of"],
-        ["das Fehlen von","the absence of"],
-        ["führen zu","to give rise to"],
-        ["mit sich bringen","to entail"]
+        ["die Umsetzung von", "la implementación de"],
+        ["das Fehlen von", "la ausencia de"],
+        ["führen zu", "dar lugar a"],
+        ["mit sich bringen", "conllevar"]
       ],
       grammar:[
         ["Nominalisierung für ein formelles Register","Verben in Substantive umzuwandeln (umsetzen → die Umsetzung) ist typisch für akademische und technische Texte.","Die späte Umsetzung der Maßnahme führte zu weitverbreiteten Verzögerungen."]
@@ -539,10 +539,10 @@ window.LESSON_BANKS.DE = [
     description:"Verknüpfe Ursachen und Folgen präzise mit fortgeschrittenen Konnektoren.",
     study:{
       vocab:[
-        ["angesichts der Tatsache, dass","given the fact that"],
-        ["insofern als","insofar as"],
-        ["weshalb","which is why"],
-        ["unter Androhung von","under penalty of"]
+        ["angesichts der Tatsache, dass", "dado el hecho de que"],
+        ["insofern als", "en la medida en que"],
+        ["weshalb", "por lo cual"],
+        ["unter Androhung von", "bajo pena de"]
       ],
       grammar:[
         ["Komplexe Kausal- und Folgekonnektoren","'Weshalb' leitet eine logische Folge ein; 'angesichts der Tatsache, dass' und 'insofern als' leiten eine Ursache ein.","Angesichts der Tatsache, dass die Kosten gestiegen sind, wurde das Budget überarbeitet, weshalb Einsparungen nötig wurden."]
@@ -560,10 +560,10 @@ window.LESSON_BANKS.DE = [
     description:"Fasse komplexe Informationen zusammen und bewahre dabei die logischen Beziehungen zwischen Ideen.",
     study:{
       vocab:[
-        ["zusammenfassend","in summary"],
-        ["der zentrale Punkt ist, dass","the key point is that"],
-        ["es ist hervorzuheben, dass","it's worth highlighting that"],
-        ["grob gesagt","broadly / roughly speaking"]
+        ["zusammenfassend", "en resumen"],
+        ["der zentrale Punkt ist, dass", "el punto clave es que"],
+        ["es ist hervorzuheben, dass", "cabe destacar que"],
+        ["grob gesagt", "a grandes rasgos"]
       ],
       grammar:[
         ["Mediation: präzise zusammenfassen","Eine gute C1-Zusammenfassung bewahrt die logische Beziehung zwischen Ideen (Ursache, Kontrast, Bedingung), nicht nur Schlüsselwörter.","Grob gesagt kommt der Bericht zu dem Schluss, dass der Plan machbar ist, wobei die Finanzierungsrisiken hervorzuheben sind."]
@@ -581,10 +581,10 @@ window.LESSON_BANKS.DE = [
     description:"Erkenne Gegenargumente rhetorisch an, bevor du sie präzise widerlegst.",
     study:{
       vocab:[
-        ["zwar... aber","admittedly... but"],
-        ["keineswegs","by no means"],
-        ["das schließt nicht aus, dass","that doesn't rule out that"],
-        ["letztlich","ultimately"]
+        ["zwar... aber", "es cierto que... pero"],
+        ["keineswegs", "de ninguna manera"],
+        ["das schließt nicht aus, dass", "eso no descarta que"],
+        ["letztlich", "en última instancia"]
       ],
       grammar:[
         ["Fortgeschrittene Konzession und Widerlegung","Diese Strukturen erkennen ein Gegenargument rhetorisch an, bevor sie es präzise widerlegen oder differenzieren.","Zwar senkt der Plan die Kosten, aber das schließt nicht aus, dass er erhebliche Risiken birgt."]
@@ -602,10 +602,10 @@ window.LESSON_BANKS.DE = [
     description:"Interpretiere Subtext und formuliere komplexe Ideen mit emphatischer Inversion und Litotes um.",
     study:{
       vocab:[
-        ["keinesfalls","by no means","Emphatische Verneinung, die die Verb-Subjekt-Stellung umkehrt."],
-        ["hinter etwas zurückbleiben","to fall short of"],
-        ["eine stillschweigende Annahme","a tacit assumption"],
-        ["eine Aussage relativieren","to qualify a claim"]
+        ["keinesfalls", "de ninguna manera","Emphatische Verneinung, die die Verb-Subjekt-Stellung umkehrt."],
+        ["hinter etwas zurückbleiben", "quedarse corto respecto a"],
+        ["eine stillschweigende Annahme", "un supuesto tácito"],
+        ["eine Aussage relativieren", "matizar una afirmación"]
       ],
       grammar:[
         ["Inversion nach emphatischer Verneinung","Steht eine emphatische Verneinung ('keinesfalls', 'unter keinen Umständen', 'auf keinen Fall') am Satzanfang, folgt im gehobenen Stil die Inversion von Verb und Subjekt.","Keinesfalls sollten diese Ergebnisse als endgültig betrachtet werden."],
@@ -625,10 +625,10 @@ window.LESSON_BANKS.DE = [
     description:"Wähle rhetorische Mittel und passe den Ton an Publikum, Zweck und gewünschte Wirkung an.",
     study:{
       vocab:[
-        ["ein Gleichgewicht finden","to strike a balance"],
-        ["eine rhetorische Frage","a rhetorical question"],
-        ["hervorrufen","to evoke"],
-        ["Verantwortung angemessen übernehmen","to acknowledge responsibility proportionately"]
+        ["ein Gleichgewicht finden", "encontrar un equilibrio"],
+        ["eine rhetorische Frage", "una pregunta retórica"],
+        ["hervorrufen", "evocar"],
+        ["Verantwortung angemessen übernehmen", "reconocer la responsabilidad de forma proporcionada"]
       ],
       grammar:[
         ["Stilistische Wirkung und Wortwahl","Die Wahl einer Struktur oder eines Wortes kann Nähe, Distanz, Dringlichkeit oder Ironie erzeugen, ohne den wörtlichen Inhalt zu verändern.","Das ist nicht ganz unbegründet, auch wenn es sicherlich verbessert werden könnte."],
@@ -648,10 +648,10 @@ window.LESSON_BANKS.DE = [
     description:"Interpretiere Präsuppositionen, wertende Sprache und implizite Schlussfolgerungen in Meinungstexten.",
     study:{
       vocab:[
-        ["andeuten","to imply"],
-        ["ein Vorbehalt","a caveat"],
-        ["wertende Sprache","loaded language"],
-        ["eine Schlussfolgerung ziehen","to draw an inference"]
+        ["andeuten", "dar a entender"],
+        ["ein Vorbehalt", "una salvedad"],
+        ["wertende Sprache", "lenguaje cargado (tendencioso)"],
+        ["eine Schlussfolgerung ziehen", "sacar una inferencia"]
       ],
       grammar:[
         ["Präsupposition","Ein Satz kann eine Idee als bereits akzeptiert darstellen, ohne sie ausdrücklich zu belegen.","Sogar die verbliebenen Kritiker akzeptierten den überarbeiteten Plan."]
@@ -670,11 +670,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne die Wochentage, die Monate und wie man auf Deutsch über Daten spricht.",
     study: {
       vocab: [
-        ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
-        ["Januar, Februar, März... Dezember", "January, February, March... December"],
-        ["Welcher Tag ist heute?", "What day is it today?"],
-        ["Heute ist der 5. Mai.", "Today is May 5th.", "Auf Deutsch: \"der\" + Ordnungszahl + Monat."],
-        ["Wann hast du Geburtstag?", "When is your birthday?"]
+        ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag", "lunes, martes, miércoles, jueves, viernes, sábado, domingo"],
+        ["Januar, Februar, März... Dezember", "enero, febrero, marzo... diciembre"],
+        ["Welcher Tag ist heute?", "¿Qué día es hoy?"],
+        ["Heute ist der 5. Mai.", "Hoy es 5 de mayo.", "Auf Deutsch: \"der\" + Ordnungszahl + Monat."],
+        ["Wann hast du Geburtstag?", "¿Cuándo es tu cumpleaños?"]
       ],
       grammar: [
         ["Präposition \"am\" mit Wochentagen", "Mit Wochentagen und Daten benutzt man \"am\".", "Am Montag habe ich einen Termin. Ich gehe am Montag ins Fitnessstudio."]
@@ -694,11 +694,11 @@ window.LESSON_BANKS.DE = [
     description:"Frage nach dem Weg, gib Wegbeschreibungen und sprich über Verkehrsmittel auf Deutsch.",
     study: {
       vocab: [
-        ["Wie komme ich zu...?", "How do I get to...?"],
-        ["Gehen Sie geradeaus / Biegen Sie links / rechts ab", "Go straight ahead / Turn left / right"],
-        ["die Bushaltestelle, der Bahnhof", "the bus stop, the train station"],
-        ["Es ist zwei Straßen von hier entfernt.", "It's two blocks from here."],
-        ["Wie lange dauert es, dorthin zu kommen?", "How long does it take to get there?"]
+        ["Wie komme ich zu...?", "¿Cómo llego a...?"],
+        ["Gehen Sie geradeaus / Biegen Sie links / rechts ab", "Sigue recto / Gira a la izquierda / derecha"],
+        ["die Bushaltestelle, der Bahnhof", "la parada de autobús, la estación de tren"],
+        ["Es ist zwei Straßen von hier entfernt.", "Está a dos calles de aquí."],
+        ["Wie lange dauert es, dorthin zu kommen?", "¿Cuánto se tarda en llegar?"]
       ],
       grammar: [
         ["Der Imperativ für Wegbeschreibungen", "Für Anweisungen benutzt man den Imperativ (Sie/du).", "Gehen Sie geradeaus und biegen Sie an der Ampel rechts ab."]
@@ -718,11 +718,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über deine Berufserfahrung und beantworte Fragen im Vorstellungsgespräch auf Deutsch.",
     study: {
       vocab: [
-        ["Was machen Sie beruflich?", "What do you do for a living?"],
-        ["ich habe Erfahrung in...", "I have experience in..."],
-        ["meine Stärken / Schwächen", "my strengths / weaknesses"],
-        ["im Team arbeiten, Fristen einhalten", "to work as a team, to meet deadlines"],
-        ["ein Vollzeit- / Teilzeitvertrag", "a full-time / part-time contract"]
+        ["Was machen Sie beruflich?", "¿A qué te dedicas?"],
+        ["ich habe Erfahrung in...", "Tengo experiencia en..."],
+        ["meine Stärken / Schwächen", "mis fortalezas / debilidades"],
+        ["im Team arbeiten, Fristen einhalten", "trabajar en equipo, cumplir los plazos"],
+        ["ein Vollzeit- / Teilzeitvertrag", "un contrato a tiempo completo / parcial"]
       ],
       grammar: [
         ["Perfekt für Erfahrung", "Man benutzt das Perfekt, um über berufliche Erfahrung zu sprechen, ohne den genauen Zeitpunkt zu nennen.", "Ich habe drei Jahre im Kundenservice gearbeitet."],
@@ -743,11 +743,11 @@ window.LESSON_BANKS.DE = [
     description:"Unterscheide Fakten von Meinungen und bewerte die Glaubwürdigkeit einer Nachricht auf Deutsch.",
     study: {
       vocab: [
-        ["eine zuverlässige / unzuverlässige Quelle", "a reliable / unreliable source"],
-        ["laut Quellen, die dem Fall nahestehen", "according to sources close to the case"],
-        ["eine reißerische Schlagzeile", "a sensationalist headline"],
-        ["Informationen gegenprüfen", "to cross-check information"],
-        ["eine überprüfte Tatsache, eine Meinung", "a verified fact, an opinion"]
+        ["eine zuverlässige / unzuverlässige Quelle", "una fuente fiable / poco fiable"],
+        ["laut Quellen, die dem Fall nahestehen", "según fuentes cercanas al caso"],
+        ["eine reißerische Schlagzeile", "un titular sensacionalista"],
+        ["Informationen gegenprüfen", "contrastar información"],
+        ["eine überprüfte Tatsache, eine Meinung", "un hecho verificado, una opinión"]
       ],
       grammar: [
         ["Zuschreibungsverben", "\"Laut\", \"behauptet, dass\", \"weist darauf hin, dass\" zeigen, woher eine Aussage stammt und wie sicher sie ist.", "Laut dem Bericht stiegen die Verkäufe um 10 %."],
@@ -768,11 +768,11 @@ window.LESSON_BANKS.DE = [
     description:"Interpretiere gängige Redewendungen und Metaphern im Deutschen.",
     study: {
       vocab: [
-        ["ein Vermögen kosten", "to cost an arm and a leg"],
-        ["zwischen Baum und Borke stecken", "to be between a rock and a hard place"],
-        ["jemanden auf den Arm nehmen", "to pull someone's leg"],
-        ["kein Blatt vor den Mund nehmen", "to not mince words"],
-        ["sich am Riemen reißen", "to get one's act together"]
+        ["ein Vermögen kosten", "costar un ojo de la cara"],
+        ["zwischen Baum und Borke stecken", "estar entre la espada y la pared"],
+        ["jemanden auf den Arm nehmen", "tomarle el pelo a alguien"],
+        ["kein Blatt vor den Mund nehmen", "no andarse con rodeos"],
+        ["sich am Riemen reißen", "organizarse de una vez"]
       ],
       grammar: [
         ["Redewendungen im Kontext interpretieren", "Die Bedeutung einer Redewendung ist fast nie wörtlich; man muss sie aus dem Kontext erschließen.", "\"Diese Reise hat ein Vermögen gekostet\" spricht nicht von echtem Vermögen, sondern von sehr hohen Kosten."]
@@ -792,11 +792,11 @@ window.LESSON_BANKS.DE = [
     description:"Erkenne Ironie, Sarkasmus und beabsichtigte Mehrdeutigkeit im fortgeschrittenen Deutsch.",
     study: {
       vocab: [
-        ["Na, so ein Glück!", "Just my luck! (ironisch)"],
-        ["in bester Absicht (ironisch)", "with the best of intentions (ironic)"],
-        ["ein Doppelsinn", "a double meaning"],
-        ["etwas mit spöttischem Unterton sagen", "to say something with a sarcastic tone"],
-        ["etwas bewusst untertreiben", "to understate something"]
+        ["Na, so ein Glück!", "¡Qué suerte la mía! (irónico)"],
+        ["in bester Absicht (ironisch)", "con la mejor intención (irónico)"],
+        ["ein Doppelsinn", "un doble sentido"],
+        ["etwas mit spöttischem Unterton sagen", "decir algo con tono sarcástico"],
+        ["etwas bewusst untertreiben", "quitarle importancia a algo"]
       ],
       grammar: [
         ["Marker der Ironie", "Ironie zeigt sich meist durch Kontext, Betonung oder einen klaren Gegensatz zwischen Gesagtem und Realität, nicht durch explizite Worte.", "\"Wie pünktlich du bist!\" zu jemandem gesagt, der eine Stunde zu spät kommt, ist wegen des Kontrasts ironisch."],
@@ -817,11 +817,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Zimmer, Möbel und Gegenstände in einem Haus auf Deutsch.",
     study: {
       vocab: [
-        ["die Küche, das Badezimmer, das Schlafzimmer, das Wohnzimmer", "the kitchen, the bathroom, the bedroom, the living room"],
-        ["das Bett, der Tisch, der Stuhl, das Sofa", "the bed, the table, the chair, the sofa"],
-        ["Wo ist die Küche?", "Where is the kitchen?"],
-        ["Das Bett ist im Schlafzimmer.", "The bed is in the bedroom."],
-        ["auf, unter, neben", "on top of, under, next to"]
+        ["die Küche, das Badezimmer, das Schlafzimmer, das Wohnzimmer", "la cocina, el baño, el dormitorio, el salón"],
+        ["das Bett, der Tisch, der Stuhl, das Sofa", "la cama, la mesa, la silla, el sofá"],
+        ["Wo ist die Küche?", "¿Dónde está la cocina?"],
+        ["Das Bett ist im Schlafzimmer.", "La cama está en el dormitorio."],
+        ["auf, unter, neben", "encima de, debajo de, al lado de"]
       ],
       grammar: [
         ["\"Es gibt\" für Gegenstände in einem Raum", "\"Es gibt\" + Akkusativ beschreibt, was sich in einem Raum befindet.", "Es gibt einen Tisch in der Küche. Es gibt zwei Stühle daneben."]
@@ -841,11 +841,11 @@ window.LESSON_BANKS.DE = [
     description:"Beschreibe häufige Symptome und bitte auf Deutsch in der Apotheke oder beim Arzt um Hilfe.",
     study: {
       vocab: [
-        ["Mein Kopf / Bauch / Hals tut weh.", "My head / stomach / throat hurts."],
-        ["Ich habe Fieber, Husten, Übelkeit.", "I have a fever, a cough, nausea."],
-        ["Haben Sie etwas gegen Kopfschmerzen?", "Do you have something for a headache?"],
-        ["Nehmen Sie alle acht Stunden eine Tablette.", "Take one pill every eight hours."],
-        ["einen Arzttermin vereinbaren", "to make a doctor's appointment"]
+        ["Mein Kopf / Bauch / Hals tut weh.", "Me duele la cabeza / el estómago / la garganta."],
+        ["Ich habe Fieber, Husten, Übelkeit.", "Tengo fiebre, tos, náuseas."],
+        ["Haben Sie etwas gegen Kopfschmerzen?", "¿Tiene algo para el dolor de cabeza?"],
+        ["Nehmen Sie alle acht Stunden eine Tablette.", "Tome una pastilla cada ocho horas."],
+        ["einen Arzttermin vereinbaren", "pedir cita con el médico"]
       ],
       grammar: [
         ["\"Weh tun\" für Schmerzen", "\"[Körperteil] tut/tun mir weh\" ist die natürliche Form, um Schmerzen auszudrücken.", "Mein Kopf tut mir weh. / Meine Füße tun mir weh."]
@@ -865,11 +865,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über die Nutzung von Technologie und sozialen Medien, ihre Vorteile und Risiken, auf Deutsch.",
     study: {
       vocab: [
-        ["posten, teilen, kommentieren", "to post, to share, to comment"],
-        ["online sein / sich abmelden", "to be online / to log off"],
-        ["die Privatsphäre, persönliche Daten", "privacy, personal data"],
-        ["vom Handy abhängig sein", "to be dependent on your phone"],
-        ["mit jemandem in Kontakt bleiben", "to keep in touch with"]
+        ["posten, teilen, kommentieren", "publicar, compartir, comentar"],
+        ["online sein / sich abmelden", "estar conectado / desconectarse"],
+        ["die Privatsphäre, persönliche Daten", "privacidad, datos personales"],
+        ["vom Handy abhängig sein", "depender del móvil"],
+        ["mit jemandem in Kontakt bleiben", "mantener el contacto con"]
       ],
       grammar: [
         ["Vor- und Nachteile vergleichen", "\"Einerseits... andererseits\" und \"während\" helfen, zwei Ideen zu vergleichen.", "Einerseits helfen soziale Medien, in Kontakt zu bleiben; andererseits können sie viel Zeit kosten."]
@@ -889,11 +889,11 @@ window.LESSON_BANKS.DE = [
     description:"Präsentiere und wäge Argumente zu ethischen Alltagsdilemmata auf Deutsch ab.",
     study: {
       vocab: [
-        ["dafür / dagegen", "in favor of / against"],
-        ["aus ethischer Sicht", "from an ethical point of view"],
-        ["das Gemeinwohl, das individuelle Interesse", "the common good, individual interest"],
-        ["eine Entscheidung rechtfertigen", "to justify a decision"],
-        ["es gibt keine eindeutige Antwort", "there is no single answer"]
+        ["dafür / dagegen", "a favor de / en contra de"],
+        ["aus ethischer Sicht", "desde un punto de vista ético"],
+        ["das Gemeinwohl, das individuelle Interesse", "el bien común, el interés individual"],
+        ["eine Entscheidung rechtfertigen", "justificar una decisión"],
+        ["es gibt keine eindeutige Antwort", "no hay una única respuesta"]
       ],
       grammar: [
         ["Ein ausgewogenes Argument strukturieren", "Zuerst ein Argument präsentieren, dann das gegenteilige, und mit einer differenzierten Position abschließen, vermeidet Voreingenommenheit.", "Manche argumentieren, dass..., während andere behaupten, dass... Meiner Meinung nach haben beide Positionen etwas für sich."]
@@ -913,11 +913,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, Quellen zu zitieren, Ideen zu paraphrasieren und Plagiate in einem akademischen Register zu vermeiden.",
     study: {
       vocab: [
-        ["laut (Autor, Jahr)", "according to (author, year)"],
-        ["wie der Autor betont/argumentiert", "as the author points out/argues"],
-        ["eine Idee paraphrasieren", "to paraphrase an idea"],
-        ["wörtlich zitieren", "to quote directly"],
-        ["das Plagiat, zuverlässige Quellen", "plagiarism, reliable sources"]
+        ["laut (Autor, Jahr)", "según (autor, año)"],
+        ["wie der Autor betont/argumentiert", "como señala/argumenta el autor"],
+        ["eine Idee paraphrasieren", "parafrasear una idea"],
+        ["wörtlich zitieren", "citar textualmente"],
+        ["das Plagiat, zuverlässige Quellen", "el plagio, las fuentes fiables"]
       ],
       grammar: [
         ["Verben zur Einführung fremder Zitate", "\"Argumentiert, dass\", \"behauptet, dass\", \"weist darauf hin, dass\" variieren die Nuance: nicht alle implizieren denselben Grad an Sicherheit.", "Der Autor argumentiert, die Politik sei ein Fehler gewesen; andere Forscher weisen jedoch auf wichtige Nuancen hin."],
@@ -938,11 +938,11 @@ window.LESSON_BANKS.DE = [
     description:"Erkenne logische Fehlschlüsse und Überzeugungsstrategien in anspruchsvollen Argumenten auf Deutsch.",
     study: {
       vocab: [
-        ["der persönliche Angriff (ad hominem)", "ad hominem attack"],
-        ["die falsche Dichotomie", "false dichotomy"],
-        ["die abschüssige Bahn (Dammbruchargument)", "slippery slope"],
-        ["von einem einzelnen Fall aus verallgemeinern", "to generalize from a single case"],
-        ["an die Emotion statt an Fakten appellieren", "to appeal to emotion instead of facts"]
+        ["der persönliche Angriff (ad hominem)", "ataque ad hominem"],
+        ["die falsche Dichotomie", "falsa dicotomía"],
+        ["die abschüssige Bahn (Dammbruchargument)", "pendiente resbaladiza (falacia)"],
+        ["von einem einzelnen Fall aus verallgemeinern", "generalizar a partir de un solo caso"],
+        ["an die Emotion statt an Fakten appellieren", "apelar a la emoción en vez de a los hechos"]
       ],
       grammar: [
         ["Fehlschlüsse im Diskurs erkennen", "Ein Fehlschluss wirkt wie ein gültiges Argument, aber seine logische Struktur ist fehlerhaft, auch wenn er überzeugend klingt.", "\"Wenn wir das erlauben, wird bald alles außer Kontrolle geraten\" ist ein Dammbruchargument: es nimmt eine Kette von Konsequenzen ohne Beweise an."]
@@ -962,11 +962,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, grundlegende Emotionen und Gefühle auf Deutsch auszudrücken.",
     study: {
       vocab: [
-        ["glücklich, traurig, müde, wütend sein", "to be happy, sad, tired, angry"],
-        ["Wie fühlst du dich?", "How do you feel?"],
-        ["Ich bin ein bisschen nervös.", "I'm a bit nervous."],
-        ["Angst haben, müde sein, Hunger haben", "to be afraid, to be sleepy, to be hungry"],
-        ["Warum bist du traurig?", "Why are you sad?"]
+        ["glücklich, traurig, müde, wütend sein", "estar feliz, triste, cansado, enfadado"],
+        ["Wie fühlst du dich?", "¿Cómo te sientes?"],
+        ["Ich bin ein bisschen nervös.", "Estoy un poco nervioso/a."],
+        ["Angst haben, müde sein, Hunger haben", "tener miedo, tener sueño, tener hambre"],
+        ["Warum bist du traurig?", "¿Por qué estás triste?"]
       ],
       grammar: [
         ["\"Sein\" mit Emotionen", "Emotionen werden mit \"sein\" + Adjektiv ausgedrückt.", "Ich bin heute glücklich. / Sie ist nach der Arbeit müde."]
@@ -986,11 +986,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über deine Hobbys und deine Pläne für das Wochenende auf Deutsch.",
     study: {
       vocab: [
-        ["Was machst du gern in deiner Freizeit?", "What do you like to do in your free time?"],
-        ["malen, ein Instrument spielen, wandern", "to paint, to play an instrument, to go hiking"],
-        ["Was hast du für das Wochenende geplant?", "What plans do you have for the weekend?"],
-        ["ich werde... / ich habe vor zu...", "I'm going to + infinitive"],
-        ["sich mit Freunden treffen", "to meet up with friends"]
+        ["Was machst du gern in deiner Freizeit?", "¿Qué te gusta hacer en tu tiempo libre?"],
+        ["malen, ein Instrument spielen, wandern", "pintar, tocar un instrumento, hacer senderismo"],
+        ["Was hast du für das Wochenende geplant?", "¿Qué planes tienes para el fin de semana?"],
+        ["ich werde... / ich habe vor zu...", "voy a + infinitivo"],
+        ["sich mit Freunden treffen", "quedar con amigos"]
       ],
       grammar: [
         ["Präsens mit Zeitangabe für Pläne", "Im Deutschen wird oft das Präsens mit einer Zeitangabe benutzt, um nahe Zukunftspläne auszudrücken.", "Am Samstag treffe ich mich mit Freunden."]
@@ -1010,11 +1010,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Umweltschutz und nachhaltige Gewohnheiten auf Deutsch.",
     study: {
       vocab: [
-        ["recyceln, wiederverwenden, den Konsum reduzieren", "to recycle, to reuse, to reduce consumption"],
-        ["der Klimawandel, der CO2-Fußabdruck", "climate change, carbon footprint"],
-        ["Einwegprodukte", "single-use products"],
-        ["Energie / Wasser sparen", "to save energy / water"],
-        ["Maßnahmen ergreifen, um den Planeten zu schützen", "to take steps to protect the planet"]
+        ["recyceln, wiederverwenden, den Konsum reduzieren", "reciclar, reutilizar, reducir el consumo"],
+        ["der Klimawandel, der CO2-Fußabdruck", "el cambio climático, la huella de carbono"],
+        ["Einwegprodukte", "los productos de un solo uso"],
+        ["Energie / Wasser sparen", "ahorrar energía / agua"],
+        ["Maßnahmen ergreifen, um den Planeten zu schützen", "tomar medidas para proteger el planeta"]
       ],
       grammar: [
         ["Futur I für Konsequenzen", "Futur I mit \"werden\" beschreibt wahrscheinliche Folgen aktueller Handlungen.", "Wenn wir den Plastikverbrauch nicht reduzieren, wird die Verschmutzung zunehmen."]
@@ -1034,11 +1034,11 @@ window.LESSON_BANKS.DE = [
     description:"Diskutiere die Auswirkungen künstlicher Intelligenz auf die Arbeit mit differenzierten Argumenten auf Deutsch.",
     study: {
       vocab: [
-        ["repetitive Aufgaben automatisieren", "to automate repetitive tasks"],
-        ["Arbeitsplätze ersetzen", "to replace jobs"],
-        ["sich an neue Werkzeuge anpassen", "to adapt to new tools"],
-        ["neue Arbeitsmöglichkeiten schaffen", "to generate new job opportunities"],
-        ["es kommt darauf an, wie es umgesetzt wird", "it depends on how it's implemented"]
+        ["repetitive Aufgaben automatisieren", "automatizar tareas repetitivas"],
+        ["Arbeitsplätze ersetzen", "reemplazar empleos"],
+        ["sich an neue Werkzeuge anpassen", "adaptarse a nuevas herramientas"],
+        ["neue Arbeitsmöglichkeiten schaffen", "generar nuevas oportunidades laborales"],
+        ["es kommt darauf an, wie es umgesetzt wird", "depende de cómo se implemente"]
       ],
       grammar: [
         ["Futur II für Spekulation", "\"Wird ... haben\" spekuliert darüber, was bis zu einem bestimmten Zeitpunkt wahrscheinlich geschehen sein wird.", "Bis 2030 wird KI viele Branchen verändert haben."]
@@ -1058,11 +1058,11 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere, wie Werbesprache Konnotation und Überzeugungstechniken auf Deutsch nutzt.",
     study: {
       vocab: [
-        ["eine positive / negative Konnotation", "a positive / negative connotation"],
-        ["an das Zugehörigkeitsgefühl appellieren", "to appeal to the desire to belong"],
-        ["ein eingängiger Slogan", "a catchy slogan"],
-        ["ein Gefühl der Dringlichkeit erzeugen", "to create a sense of urgency"],
-        ["die Zielgruppe", "the target audience"]
+        ["eine positive / negative Konnotation", "una connotación positiva / negativa"],
+        ["an das Zugehörigkeitsgefühl appellieren", "apelar al deseo de pertenencia"],
+        ["ein eingängiger Slogan", "un eslogan pegadizo"],
+        ["ein Gefühl der Dringlichkeit erzeugen", "crear una sensación de urgencia"],
+        ["die Zielgruppe", "el público objetivo"]
       ],
       grammar: [
         ["Konnotation versus Denotation", "Die Denotation ist die wörtliche Bedeutung eines Wortes; die Konnotation ist die damit verbundene emotionale oder kulturelle Aufladung.", "\"Haus\" (Denotation: Gebäude) versus \"Zuhause\" (Konnotation: Wärme, Zugehörigkeit)."]
@@ -1082,11 +1082,11 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere strategische Mehrdeutigkeit und Euphemismus im anspruchsvollen politischen Diskurs auf Deutsch.",
     study: {
       vocab: [
-        ["ein Euphemismus", "a euphemism"],
-        ["strategische Mehrdeutigkeit", "strategic ambiguity"],
-        ["einer direkten Frage ausweichen", "to dodge a direct question"],
-        ["eine Haushaltsanpassung (Euphemismus für Kürzung)", "a budget adjustment (euphemism for a cut)"],
-        ["sich festlegen, ohne sich ganz festzulegen", "to commit without fully committing"]
+        ["ein Euphemismus", "un eufemismo"],
+        ["strategische Mehrdeutigkeit", "ambigüedad estratégica"],
+        ["einer direkten Frage ausweichen", "esquivar una pregunta directa"],
+        ["eine Haushaltsanpassung (Euphemismus für Kürzung)", "un ajuste presupuestario (eufemismo de recorte)"],
+        ["sich festlegen, ohne sich ganz festzulegen", "comprometerse sin comprometerse del todo"]
       ],
       grammar: [
         ["Politischen Euphemismus erkennen", "Ein Euphemismus ersetzt einen direkten Ausdruck durch einen milderen, oft um eine unangenehme Realität abzumildern.", "\"Haushaltsanpassung\" klingt neutraler als \"Ausgabenkürzung\", obwohl es dasselbe beschreibt."],
@@ -1107,11 +1107,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, auf Deutsch über Preise, Geld und Ordnungszahlen zu sprechen.",
     study: {
       vocab: [
-        ["erste, zweite, dritte...", "first, second, third..."],
-        ["Wie viel kostet das?", "How much does this cost?"],
-        ["Das kostet zehn Euro.", "It costs ten euros."],
-        ["billig, teuer", "cheap, expensive"],
-        ["bar bezahlen / mit Karte bezahlen", "to pay in cash / by card"]
+        ["erste, zweite, dritte...", "primero, segundo, tercero..."],
+        ["Wie viel kostet das?", "¿Cuánto cuesta esto?"],
+        ["Das kostet zehn Euro.", "Cuesta diez euros."],
+        ["billig, teuer", "barato, caro"],
+        ["bar bezahlen / mit Karte bezahlen", "pagar en efectivo / con tarjeta"]
       ],
       grammar: [
         ["\"Kosten\" für Preise", "\"Kostet\" (Singular) und \"kosten\" (Plural) stimmen mit dem Gekauften überein.", "Das Buch kostet zehn Euro. Die Bücher kosten zwanzig Euro."]
@@ -1131,11 +1131,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, Essen zu bestellen, dem Kellner Fragen zu stellen und die Rechnung zu bezahlen.",
     study: {
       vocab: [
-        ["Ich möchte gerne bestellen...", "I would like to order..."],
-        ["Was empfehlen Sie?", "What do you recommend?"],
-        ["Könnten wir die Rechnung bekommen, bitte?", "Could you bring me the bill, please?"],
-        ["Ist das Trinkgeld inbegriffen?", "Is the tip included?"],
-        ["Für mich das Tagesmenü.", "For me, the set menu."]
+        ["Ich möchte gerne bestellen...", "Quisiera pedir..."],
+        ["Was empfehlen Sie?", "¿Qué recomiendas?"],
+        ["Könnten wir die Rechnung bekommen, bitte?", "¿Podría traerme la cuenta, por favor?"],
+        ["Ist das Trinkgeld inbegriffen?", "¿Está incluida la propina?"],
+        ["Für mich das Tagesmenü.", "Para mí, el menú del día."]
       ],
       grammar: [
         ["\"Möchte\" für höfliche Bestellungen", "\"Möchte\" ist höflicher als \"will\" beim Bestellen.", "Ich möchte gerne die Suppe und das Hähnchen bestellen, bitte."]
@@ -1155,11 +1155,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Bankkonten, Sparen und persönliches Budget auf Deutsch.",
     study: {
       vocab: [
-        ["ein Bankkonto eröffnen", "to open a bank account"],
-        ["ein monatliches Budget erstellen", "to make a monthly budget"],
-        ["für ein Ziel sparen", "to save up for a goal"],
-        ["feste Ausgaben und variable Ausgaben", "fixed expenses and variable expenses"],
-        ["einen Kredit aufnehmen, in Raten zahlen", "to take out a loan, to pay in installments"]
+        ["ein Bankkonto eröffnen", "abrir una cuenta bancaria"],
+        ["ein monatliches Budget erstellen", "hacer un presupuesto mensual"],
+        ["für ein Ziel sparen", "ahorrar para una meta"],
+        ["feste Ausgaben und variable Ausgaben", "gastos fijos y gastos variables"],
+        ["einen Kredit aufnehmen, in Raten zahlen", "pedir un préstamo, pagar a plazos"]
       ],
       grammar: [
         ["\"Sollte\" für finanzielle Ratschläge", "\"Sollte\" + Infinitiv gibt einen Rat, ohne zu direkt zu klingen.", "Du solltest mindestens 10% deines Gehalts jeden Monat sparen."]
@@ -1179,11 +1179,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über emotionales Wohlbefinden und mentale Gesundheit mit differenziertem Wortschatz auf Deutsch.",
     study: {
       vocab: [
-        ["sich überfordert fühlen", "to feel overwhelmed"],
-        ["Grenzen setzen, für sich selbst sorgen", "to set boundaries, to take care of yourself"],
-        ["das Burnout", "burnout"],
-        ["um Hilfe zu bitten ist kein Zeichen von Schwäche", "asking for help is not a sign of weakness"],
-        ["seine Emotionen verarbeiten", "to process one's emotions"]
+        ["sich überfordert fühlen", "sentirse abrumado/a"],
+        ["Grenzen setzen, für sich selbst sorgen", "poner límites, cuidarse"],
+        ["das Burnout", "el agotamiento (burnout)"],
+        ["um Hilfe zu bitten ist kein Zeichen von Schwäche", "pedir ayuda no es señal de debilidad"],
+        ["seine Emotionen verarbeiten", "procesar las propias emociones"]
       ],
       grammar: [
         ["\"Es ist wichtig, dass\" + Konjunktiv/Präsens", "\"Es ist wichtig, dass\" leitet eine Empfehlung im Zusammenhang mit Wohlbefinden ein.", "Es ist wichtig, dass du mit jemandem, dem du vertraust, darüber sprichst, wie du dich fühlst."]
@@ -1203,11 +1203,11 @@ window.LESSON_BANKS.DE = [
     description:"Verstehe den Wortschatz und die Grundstrukturen der Rechtssprache in Verträgen auf Deutsch.",
     study: {
       vocab: [
-        ["die Vertragsparteien", "the contracting parties"],
-        ["eine Klausel, ein Anhang", "a clause, an appendix"],
-        ["einen Vertrag kündigen", "to terminate a contract"],
-        ["den Allgemeinen Geschäftsbedingungen unterliegen", "to be subject to the terms and conditions"],
-        ["im Falle eines Verstoßes", "in the event of a breach"]
+        ["die Vertragsparteien", "las partes contratantes"],
+        ["eine Klausel, ein Anhang", "una cláusula, un anexo"],
+        ["einen Vertrag kündigen", "rescindir un contrato"],
+        ["den Allgemeinen Geschäftsbedingungen unterliegen", "estar sujeto a los términos y condiciones"],
+        ["im Falle eines Verstoßes", "en caso de incumplimiento"]
       ],
       grammar: [
         ["Das formelle unpersönliche Sprache in Verträgen", "Verträge nutzen unpersönliche und passive Strukturen, um objektiv zu klingen und Mehrdeutigkeit darüber zu vermeiden, wer handelt.", "Dieser Vertrag kann von jeder der Parteien mit einer Frist von 30 Tagen gekündigt werden."],
@@ -1228,11 +1228,11 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere die Erzählstimme, den Stil und die formalen Entscheidungen eines literarischen Textes auf Deutsch.",
     study: {
       vocab: [
-        ["die Erzählstimme", "the narrative voice"],
-        ["ein zuverlässiger / unzuverlässiger Erzähler", "a reliable / unreliable narrator"],
-        ["die Erzählperspektive (Ich-Form, dritte Person)", "point of view (first, third person)"],
-        ["der Ton und das Register eines Textes", "the tone and register of a text"],
-        ["eine Erzähltechnik (Rückblende, Ellipse)", "a narrative technique (flashback, ellipsis)"]
+        ["die Erzählstimme", "la voz narrativa"],
+        ["ein zuverlässiger / unzuverlässiger Erzähler", "un narrador fiable / poco fiable"],
+        ["die Erzählperspektive (Ich-Form, dritte Person)", "el punto de vista (primera, tercera persona)"],
+        ["der Ton und das Register eines Textes", "el tono y el registro de un texto"],
+        ["eine Erzähltechnik (Rückblende, Ellipse)", "una técnica narrativa (flashback, elipsis)"]
       ],
       grammar: [
         ["Formale Entscheidungen des Autors analysieren", "Fortgeschrittene Literaturanalyse verbindet eine formale Entscheidung (Perspektive, Zeitform) mit ihrer Wirkung auf den Leser.", "Der Gebrauch der Ich-Perspektive schafft Nähe, begrenzt aber auch die Perspektive auf das, was der Erzähler wissen oder wahrnehmen kann."]
@@ -1252,11 +1252,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den grundlegenden Wortschatz für Berufe und wie man über seinen Job spricht.",
     study: {
       vocab: [
-        ["Arzt/Ärztin, Lehrer/in, Ingenieur/in, Kellner/in", "doctor, teacher, engineer, waiter/waitress"],
-        ["Was machst du beruflich?", "What do you do for a living?"],
-        ["Ich bin Student(in) / Ich arbeite in einem Büro.", "I'm a student / I work in an office."],
-        ["Wo arbeitest du?", "Where do you work?"],
-        ["als + Beruf arbeiten", "to work as + profession"]
+        ["Arzt/Ärztin, Lehrer/in, Ingenieur/in, Kellner/in", "médico, profesor, ingeniero, camarero/a"],
+        ["Was machst du beruflich?", "¿A qué te dedicas?"],
+        ["Ich bin Student(in) / Ich arbeite in einem Büro.", "Soy estudiante / Trabajo en una oficina."],
+        ["Wo arbeitest du?", "¿Dónde trabajas?"],
+        ["als + Beruf arbeiten", "trabajar de + profesión"]
       ],
       grammar: [
         ["\"Sein\" mit Berufen (ohne Artikel)", "Bei Berufen benutzt \"sein\" keinen unbestimmten Artikel, anders als im Englischen.", "Ich bin Lehrer. (nicht \"Ich bin ein Lehrer\")"]
@@ -1276,11 +1276,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, das äußere Erscheinungsbild und die Persönlichkeit anderer Personen auf Deutsch zu beschreiben.",
     study: {
       vocab: [
-        ["groß, klein, schlank", "tall, short, slim"],
-        ["hat lange/kurze Haare, trägt eine Brille", "has long/short hair, wears glasses"],
-        ["ist nett, schüchtern, lustig", "is nice, shy, funny"],
-        ["sieht seiner Mutter/seinem Vater ähnlich", "looks like his/her mother/father"],
-        ["Wie ist dein bester Freund / deine beste Freundin?", "What is your best friend like?"]
+        ["groß, klein, schlank", "alto, bajo, delgado"],
+        ["hat lange/kurze Haare, trägt eine Brille", "tiene el pelo largo/corto, lleva gafas"],
+        ["ist nett, schüchtern, lustig", "es simpático, tímido, gracioso"],
+        ["sieht seiner Mutter/seinem Vater ähnlich", "se parece a su madre/padre"],
+        ["Wie ist dein bester Freund / deine beste Freundin?", "¿Cómo es tu mejor amigo/a?"]
       ],
       grammar: [
         ["\"Sein\" für Eigenschaften, \"haben\" und \"tragen\" für körperliche Merkmale", "\"Sein\" beschreibt Persönlichkeit und stabile Eigenschaften; \"haben\" und \"tragen\" beschreiben Körperteile oder Accessoires.", "Sie ist sehr nett, hat lange Haare und trägt eine Brille."]
@@ -1300,11 +1300,11 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Bildungssysteme, Lernmethoden und Schulerfahrungen auf Deutsch.",
     study: {
       vocab: [
-        ["die Schulpflicht / Hochschulbildung", "compulsory / higher education"],
-        ["eine Prüfung bestehen/nicht bestehen", "to pass/fail an exam"],
-        ["auswendig lernen im Vergleich zu verstehen", "to memorize versus to understand"],
-        ["ein Lehrplan, ein Schulfach", "a curriculum, a school subject"],
-        ["in deinem eigenen Tempo lernen", "to learn at your own pace"]
+        ["die Schulpflicht / Hochschulbildung", "la educación obligatoria / superior"],
+        ["eine Prüfung bestehen/nicht bestehen", "aprobar/suspender un examen"],
+        ["auswendig lernen im Vergleich zu verstehen", "memorizar frente a comprender"],
+        ["ein Lehrplan, ein Schulfach", "un plan de estudios, una asignatura"],
+        ["in deinem eigenen Tempo lernen", "aprender a tu propio ritmo"]
       ],
       grammar: [
         ["Komparative zum Vergleichen von Systemen", "\"Mehr... als\", \"weniger... als\" und \"so... wie\" dienen dazu, Lernmethoden oder Bildungssysteme zu vergleichen.", "Dieses System ist praktischer als das traditionelle, obwohl es nicht so strukturiert ist wie jenes."]
@@ -1324,11 +1324,11 @@ window.LESSON_BANKS.DE = [
     description:"Diskutiere Vorschläge zu Stadtplanung und nachhaltiger Mobilität in Städten mit differenzierten Argumenten.",
     study: {
       vocab: [
-        ["der öffentliche Nahverkehr, der Radweg", "public transport, the bike lane"],
-        ["das Stadtzentrum zur Fußgängerzone machen", "to pedestrianize the city center"],
-        ["Verkehr und Umweltverschmutzung reduzieren", "to reduce traffic and pollution"],
-        ["eine Grünfläche, eine Fußgängerzone", "a green space, a pedestrian zone"],
-        ["in nachhaltige Infrastruktur investieren", "to invest in sustainable infrastructure"]
+        ["der öffentliche Nahverkehr, der Radweg", "el transporte público, el carril bici"],
+        ["das Stadtzentrum zur Fußgängerzone machen", "peatonalizar el centro de la ciudad"],
+        ["Verkehr und Umweltverschmutzung reduzieren", "reducir el tráfico y la contaminación"],
+        ["eine Grünfläche, eine Fußgängerzone", "un espacio verde, una zona peatonal"],
+        ["in nachhaltige Infrastruktur investieren", "invertir en infraestructura sostenible"]
       ],
       grammar: [
         ["Konjunktiv II mit \"es wäre wichtig, dass\"", "\"Es wäre wichtig, dass\" + Konjunktiv II drückt eine differenzierte Empfehlung aus.", "Es wäre wichtig, dass Städte in zuverlässigen öffentlichen Nahverkehr investierten."]
@@ -1348,11 +1348,11 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, komplexe wissenschaftliche Informationen auf Deutsch klar und präzise zu vermitteln, ohne an Genauigkeit zu verlieren.",
     study: {
       vocab: [
-        ["vereinfachen, ohne zu verzerren", "to simplify without distorting"],
-        ["ein vorläufiges Ergebnis im Vergleich zu einem bestätigten", "a preliminary finding versus a confirmed one"],
-        ["wissenschaftliche Belege deuten darauf hin, dass...", "scientific evidence suggests that..."],
-        ["eine nützliche Analogie, um etwas Komplexes zu erklären", "a useful analogy to explain something complex"],
-        ["wissenschaftlichen Sensationalismus vermeiden", "to avoid scientific sensationalism"]
+        ["vereinfachen, ohne zu verzerren", "simplificar sin distorsionar"],
+        ["ein vorläufiges Ergebnis im Vergleich zu einem bestätigten", "un hallazgo preliminar frente a uno confirmado"],
+        ["wissenschaftliche Belege deuten darauf hin, dass...", "la evidencia científica sugiere que..."],
+        ["eine nützliche Analogie, um etwas Komplexes zu erklären", "una analogía útil para explicar algo complejo"],
+        ["wissenschaftlichen Sensationalismus vermeiden", "evitar el sensacionalismo científico"]
       ],
       grammar: [
         ["Abstufende Verben zur Vermittlung wissenschaftlicher Unsicherheit", "\"Deutet darauf hin\", \"weist darauf hin\", \"könnte erklären\" vermitteln unterschiedliche Grade wissenschaftlicher Gewissheit, präziser als \"beweist\" oder \"zeigt eindeutig\".", "Die Studie deutet auf einen möglichen Zusammenhang hin, beweist aber keine Kausalität."]
@@ -1372,11 +1372,11 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere Sprechakte und Pragmatik auf Deutsch: den Unterschied zwischen dem, was gesagt wird, und dem, was durch das Sagen getan wird.",
     study: {
       vocab: [
-        ["ein Sprechakt (Bitte, Versprechen, Befehl)", "a speech act (request, promise, order)"],
-        ["die wörtliche Bedeutung im Vergleich zur beabsichtigten Bedeutung", "literal meaning versus intended meaning"],
-        ["ein indirekter Sprechakt", "an indirect speech act"],
-        ["die Gelingensbedingungen eines Sprechakts", "the felicity conditions of a speech act"],
-        ["etwas implizieren, ohne es explizit zu sagen", "to imply something without saying it explicitly"]
+        ["ein Sprechakt (Bitte, Versprechen, Befehl)", "un acto de habla (petición, promesa, orden)"],
+        ["die wörtliche Bedeutung im Vergleich zur beabsichtigten Bedeutung", "el significado literal frente al significado pretendido"],
+        ["ein indirekter Sprechakt", "un acto de habla indirecto"],
+        ["die Gelingensbedingungen eines Sprechakts", "las condiciones de adecuación de un acto de habla"],
+        ["etwas implizieren, ohne es explizit zu sagen", "insinuar algo sin decirlo explícitamente"]
       ],
       grammar: [
         ["Direkte versus indirekte Sprechakte", "Ein indirekter Sprechakt nutzt eine grammatische Form (wie eine Frage), um eine andere Funktion (wie eine Bitte) zu erfüllen.", "\"Könntest du das Fenster schließen?\" hat die Form einer Frage, aber ihre eigentliche Funktion ist eine Bitte, nicht die Frage nach einer Fähigkeit."]
@@ -1396,13 +1396,13 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für gängige Tiere und die Natur auf Deutsch.",
     study: {
       vocab: [
-        ["der Hund", "the dog"],
-        ["die Katze", "the cat"],
-        ["der Vogel", "the bird"],
-        ["das Pferd", "the horse"],
-        ["der Fisch", "the fish"],
-        ["die Kuh", "the cow"],
-        ["der Wald, der Berg, der Fluss", "the forest, the mountain, the river"],
+        ["der Hund", "el perro"],
+        ["die Katze", "el gato"],
+        ["der Vogel", "el pájaro"],
+        ["das Pferd", "el caballo"],
+        ["der Fisch", "el pez"],
+        ["die Kuh", "la vaca"],
+        ["der Wald, der Berg, der Fluss", "el bosque, la montaña, el río"],
       ],
       grammar: [
         ["Das grammatische Geschlecht bei Tieren", "Tiernamen haben ein festes grammatisches Geschlecht (der/die/das), das nicht immer dem biologischen Geschlecht entspricht.", "der Hund, die Katze, das Pferd — unabhängig vom biologischen Geschlecht des Tieres."],
@@ -1422,12 +1422,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne die Körperteile und wie man Schmerzen oder körperliche Merkmale beschreibt.",
     study: {
       vocab: [
-        ["der Kopf", "the head"],
-        ["der Arm", "the arm"],
-        ["das Bein", "the leg"],
-        ["die Hand", "the hand"],
-        ["der Fuß", "the foot"],
-        ["der Rücken", "the back"],
+        ["der Kopf", "la cabeza"],
+        ["der Arm", "el brazo"],
+        ["das Bein", "la pierna"],
+        ["die Hand", "la mano"],
+        ["der Fuß", "el pie"],
+        ["der Rücken", "la espalda"],
       ],
       grammar: [
         ["„Weh tun“ mit Dativpronomen", "„[Körperteil] tut mir weh“ ist die natürliche Struktur, um Schmerzen auszudrücken.", "Der Rücken tut mir weh. / Die Füße tun mir weh."],
@@ -1447,12 +1447,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Sport, Trainingsroutinen und Fitnessgewohnheiten auf Deutsch.",
     study: {
       vocab: [
-        ["Fußball", "soccer/football"],
-        ["das Schwimmen", "swimming"],
-        ["Tennis", "tennis"],
-        ["laufen", "to run"],
-        ["Gewichte heben", "to lift weights"],
-        ["Yoga machen", "to do yoga"],
+        ["Fußball", "el fútbol"],
+        ["das Schwimmen", "la natación"],
+        ["Tennis", "el tenis"],
+        ["laufen", "correr"],
+        ["Gewichte heben", "levantar pesas"],
+        ["Yoga machen", "hacer yoga"],
       ],
       grammar: [
         ["„Normalerweise“ + Präsens für Gewohnheiten", "„Normalerweise“ mit dem Präsens drückt eine gewohnheitsmäßige Handlung aus.", "Ich laufe normalerweise dreimal pro Woche."],
@@ -1472,12 +1472,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über smarte Geräte und Hausautomation mit differenzierten Meinungen auf Deutsch.",
     study: {
       vocab: [
-        ["ein smarter Lautsprecher", "a smart speaker"],
-        ["ein programmierbares Thermostat", "a programmable thermostat"],
-        ["eine Sicherheitskamera", "a security camera"],
-        ["per Sprache steuern", "to control by voice"],
-        ["Hausaufgaben automatisieren", "to automate household tasks"],
-        ["ein Datenschutzrisiko", "a privacy risk"],
+        ["ein smarter Lautsprecher", "un altavoz inteligente"],
+        ["ein programmierbares Thermostat", "un termostato programable"],
+        ["eine Sicherheitskamera", "una cámara de seguridad"],
+        ["per Sprache steuern", "controlar por voz"],
+        ["Hausaufgaben automatisieren", "automatizar tareas del hogar"],
+        ["ein Datenschutzrisiko", "un riesgo para la privacidad"],
       ],
       grammar: [
         ["Futur I für technologische Vorhersagen", "„Werden“ + Infinitiv beschreibt vernünftige Vorhersagen darüber, wie sich Technologie entwickeln wird.", "In ein paar Jahren werden mehr Haushalte vernetzte Geräte haben."],
@@ -1497,12 +1497,12 @@ window.LESSON_BANKS.DE = [
     description:"Beherrsche den Wortschatz und die typischen Formeln für Besprechungen und formelle E-Mails auf Deutsch.",
     study: {
       vocab: [
-        ["eine Besprechung einberufen", "to call a meeting"],
-        ["ein Dokument anhängen", "to attach a document"],
-        ["wir freuen uns auf Ihre Antwort", "we look forward to your response"],
-        ["einen offenen Punkt wieder aufgreifen", "to follow up on a pending item"],
-        ["eine Einigung erzielen", "to reach an agreement"],
-        ["eine Besprechung verschieben", "to postpone a meeting"],
+        ["eine Besprechung einberufen", "convocar una reunión"],
+        ["ein Dokument anhängen", "adjuntar un documento"],
+        ["wir freuen uns auf Ihre Antwort", "esperamos su respuesta"],
+        ["einen offenen Punkt wieder aufgreifen", "hacer seguimiento de un pendiente"],
+        ["eine Einigung erzielen", "llegar a un acuerdo"],
+        ["eine Besprechung verschieben", "posponer una reunión"],
       ],
       grammar: [
         ["Höflichkeitsformeln in formellen E-Mails", "Feste Formeln wie „Wir freuen uns auf Ihre Antwort“ geben einen professionellen Abschluss, ohne abrupt zu klingen.", "Anbei finden Sie den angeforderten Bericht. Wir freuen uns auf Ihre Antwort."],
@@ -1522,11 +1522,11 @@ window.LESSON_BANKS.DE = [
     description:"Wähle das passende Synonym je nach Register (formell, neutral, umgangssprachlich) auf Deutsch.",
     study: {
       vocab: [
-        ["erlangen (formell) / bekommen (neutral)", "to obtain / to get"],
-        ["versterben (formell) / sterben (neutral) / abkratzen (umgangssprachlich)", "to pass away / to die / to kick the bucket"],
-        ["ersuchen (formell) / bitten (neutral)", "to request / to ask for"],
-        ["residieren (formell) / wohnen (neutral)", "to reside / to live"],
-        ["dennoch (formell) / aber (neutral)", "however / but"],
+        ["erlangen (formell) / bekommen (neutral)", "obtener / conseguir"],
+        ["versterben (formell) / sterben (neutral) / abkratzen (umgangssprachlich)", "fallecer / morir / estirar la pata"],
+        ["ersuchen (formell) / bitten (neutral)", "solicitar / pedir"],
+        ["residieren (formell) / wohnen (neutral)", "residir / vivir"],
+        ["dennoch (formell) / aber (neutral)", "sin embargo / pero"],
       ],
       grammar: [
         ["Register je nach kommunikativem Kontext wählen", "Dieselbe Idee kann mit sehr unterschiedlichen Wörtern ausgedrückt werden, je nachdem, ob der Kontext formell, neutral oder umgangssprachlich ist; das falsche Wort zu wählen bricht die Kohärenz des Textes.", "In einem Bericht: „Die Information wurde erlangt.“ Im Gespräch unter Freunden: „Ich hab's bekommen.“"],
@@ -1546,13 +1546,13 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Kleidungsstücke und wie man sie mit Farben kombiniert.",
     study: {
       vocab: [
-        ["das Hemd", "the shirt"],
-        ["die Hose", "the pants/trousers"],
-        ["die Schuhe", "the shoes"],
-        ["das Kleid", "the dress"],
-        ["die Jacke", "the jacket"],
-        ["der Rock", "the skirt"],
-        ["rot, blau, grün, schwarz, weiß", "red, blue, green, black, white"],
+        ["das Hemd", "la camisa"],
+        ["die Hose", "el pantalón"],
+        ["die Schuhe", "los zapatos"],
+        ["das Kleid", "el vestido"],
+        ["die Jacke", "la chaqueta"],
+        ["der Rock", "la falda"],
+        ["rot, blau, grün, schwarz, weiß", "rojo, azul, verde, negro, blanco"],
       ],
       grammar: [
         ["Adjektivendungen bei Farben", "Farbadjektive bekommen im Deutschen eine Endung, die vom Artikel und vom Fall abhängt.", "ein rotes Kleid / schwarze Schuhe / das grüne Hemd"],
@@ -1572,12 +1572,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Obst und Gemüse und wie man auf Deutsch über gesunde Ernährung spricht.",
     study: {
       vocab: [
-        ["der Apfel", "the apple"],
-        ["die Banane", "the banana"],
-        ["die Karotte", "the carrot"],
-        ["die Tomate", "the tomato"],
-        ["der Salat", "the lettuce"],
-        ["die Orange", "the orange"],
+        ["der Apfel", "la manzana"],
+        ["die Banane", "el plátano"],
+        ["die Karotte", "la zanahoria"],
+        ["die Tomate", "el tomate"],
+        ["der Salat", "la lechuga"],
+        ["die Orange", "la naranja"],
       ],
       grammar: [
         ["„Viel“ und „wenig“ für Mengen", "„Viel“ und „wenig“ bleiben vor unzählbaren Substantiven im Singular unverändert.", "Ich esse viel Obst und wenig Fleisch."],
@@ -1597,12 +1597,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kochverben und wie man die Schritte eines einfachen Rezepts auf Deutsch erklärt.",
     study: {
       vocab: [
-        ["schneiden, schälen", "to cut, to peel"],
-        ["kochen, braten", "to boil, to fry"],
-        ["die Zutaten mischen", "to mix the ingredients"],
-        ["nach Geschmack Salz hinzufügen", "to add salt to taste"],
-        ["den Teig ruhen lassen", "to let the dough rest"],
-        ["den Ofen vorheizen", "to preheat the oven"],
+        ["schneiden, schälen", "cortar, pelar"],
+        ["kochen, braten", "hervir, freír"],
+        ["die Zutaten mischen", "mezclar los ingredientes"],
+        ["nach Geschmack Salz hinzufügen", "añadir sal al gusto"],
+        ["den Teig ruhen lassen", "dejar reposar la masa"],
+        ["den Ofen vorheizen", "precalentar el horno"],
       ],
       grammar: [
         ["Der Imperativ für Rezeptanweisungen", "Rezepte benutzen den Imperativ (Sie-Form), um Schritt für Schritt Anweisungen zu geben.", "Schneiden Sie das Gemüse, kochen Sie das Wasser und fügen Sie Salz nach Geschmack hinzu."],
@@ -1622,12 +1622,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Kunst, Musik und Film und drücke differenzierte Meinungen auf Deutsch aus.",
     study: {
       vocab: [
-        ["ein Meisterwerk", "a masterpiece"],
-        ["die Inszenierung", "the staging/mise-en-scène"],
-        ["eine bewegende Darbietung", "a moving performance"],
-        ["der Stil eines Künstlers", "an artist's style"],
-        ["einen bleibenden Eindruck hinterlassen", "to leave a lasting impression"],
-        ["überbewertet/unterbewertet sein", "to be overrated/underrated"],
+        ["ein Meisterwerk", "una obra maestra"],
+        ["die Inszenierung", "la puesta en escena"],
+        ["eine bewegende Darbietung", "una interpretación conmovedora"],
+        ["der Stil eines Künstlers", "el estilo de un artista"],
+        ["einen bleibenden Eindruck hinterlassen", "dejar una impresión duradera"],
+        ["überbewertet/unterbewertet sein", "estar sobrevalorado/infravalorado"],
       ],
       grammar: [
         ["„Ich glaube nicht, dass“ + Konjunktiv II zur Abschwächung einer Meinung", "„Ich glaube nicht, dass“ kann mit Konjunktiv II oder Indikativ folgen, um eine differenzierte Meinung auszudrücken.", "Ich glaube nicht, dass dieser Film so gut ist, wie alle sagen."],
@@ -1647,12 +1647,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, auf Deutsch konstruktives und professionelles Feedback zu geben und zu erhalten.",
     study: {
       vocab: [
-        ["einen Verbesserungspunkt ansprechen", "to point out an area for improvement"],
-        ["Stärken vor der Kritik anerkennen", "to acknowledge strengths before criticism"],
-        ["Kritik konkret formulieren", "to phrase criticism in concrete terms"],
-        ["offen für Feedback sein", "to be open to feedback"],
-        ["Kritik persönlich nehmen", "to take criticism personally"],
-        ["eine Lösung vorschlagen, nicht nur das Problem nennen", "to propose a solution, not just point out the problem"],
+        ["einen Verbesserungspunkt ansprechen", "señalar un aspecto a mejorar"],
+        ["Stärken vor der Kritik anerkennen", "reconocer los puntos fuertes antes de criticar"],
+        ["Kritik konkret formulieren", "formular la crítica en términos concretos"],
+        ["offen für Feedback sein", "estar abierto a las críticas constructivas"],
+        ["Kritik persönlich nehmen", "tomarse la crítica como algo personal"],
+        ["eine Lösung vorschlagen, nicht nur das Problem nennen", "proponer una solución, no solo señalar el problema"],
       ],
       grammar: [
         ["Abschwächende Formulierungen für Kritik", "Ausdrücke wie „Sie könnten vielleicht in Erwägung ziehen“ oder „ein Vorschlag wäre“ mildern Kritik ab, ohne an Klarheit zu verlieren.", "Sie könnten vielleicht in Erwägung ziehen, den Bericht umzustrukturieren; ein Vorschlag wäre, mit den Schlussfolgerungen zu beginnen."],
@@ -1672,12 +1672,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere die Debatte um inklusive Sprache und wie sich Sprachen mit der Gesellschaft entwickeln.",
     study: {
       vocab: [
-        ["inklusive Sprache", "inclusive language"],
-        ["eine lebendige Sprache entwickelt sich durch den Gebrauch", "a living language evolves with use"],
-        ["Präskriptivismus versus Deskriptivismus", "prescriptivism versus descriptivism"],
-        ["ein Neologismus wird ins Wörterbuch aufgenommen", "a neologism is added to the dictionary"],
-        ["Widerstand gegen einen Sprachwandel erzeugen", "to generate resistance to a linguistic change"],
-        ["ein Argument impliziert nicht zwangsläufig eine politische Haltung", "an argument doesn't necessarily imply a political stance"],
+        ["inklusive Sprache", "el lenguaje inclusivo"],
+        ["eine lebendige Sprache entwickelt sich durch den Gebrauch", "una lengua viva evoluciona con el uso"],
+        ["Präskriptivismus versus Deskriptivismus", "prescriptivismo frente a descriptivismo"],
+        ["ein Neologismus wird ins Wörterbuch aufgenommen", "se añade un neologismo al diccionario"],
+        ["Widerstand gegen einen Sprachwandel erzeugen", "generar resistencia a un cambio lingüístico"],
+        ["ein Argument impliziert nicht zwangsläufig eine politische Haltung", "un argumento no implica necesariamente una postura política"],
       ],
       grammar: [
         ["Eine sprachliche Debatte ohne Voreingenommenheit darstellen", "Eine rigorose Analyse trennt die Beschreibung des Phänomens (wie sich die Sprache verändert) von der persönlichen Bewertung (ob der Wandel übernommen werden sollte).", "Aus deskriptivistischer Sicht wird der Wandel ohne Urteil dokumentiert; aus präskriptivistischer Sicht wird bewertet, ob er standardisiert werden sollte."],
@@ -1697,13 +1697,13 @@ window.LESSON_BANKS.DE = [
     description:"Lerne den Wortschatz für Orte im Viertel und wie man auf Deutsch sagt, wo sie sind.",
     study: {
       vocab: [
-        ["die Bank", "the bank"],
-        ["der Supermarkt", "the supermarket"],
-        ["der Park", "the park"],
-        ["die Apotheke", "the pharmacy"],
-        ["die Bibliothek", "the library"],
-        ["die Bushaltestelle", "the bus stop"],
-        ["in der Nähe von, weit weg von, neben", "near, far from, next to"],
+        ["die Bank", "el banco"],
+        ["der Supermarkt", "el supermercado"],
+        ["der Park", "el parque"],
+        ["die Apotheke", "la farmacia"],
+        ["die Bibliothek", "la biblioteca"],
+        ["die Bushaltestelle", "la parada de autobús"],
+        ["in der Nähe von, weit weg von, neben", "cerca de, lejos de, al lado de"],
       ],
       grammar: [
         ["„Es gibt“ + Ortspräpositionen", "„Es gibt“ (there is/are) drückt aus, dass etwas an einem Ort existiert; es folgt immer der Akkusativ. Ortspräpositionen zeigen, wo sich etwas befindet.", "Es gibt eine Apotheke in der Nähe des Parks. / Die Bibliothek ist neben der Bank."],
@@ -1723,12 +1723,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Wortschatz zu Festen und wie man mit „pflegen zu“ über Gewohnheiten spricht.",
     study: {
       vocab: [
-        ["der Geburtstag", "the birthday"],
-        ["die Hochzeit", "the wedding"],
-        ["Weihnachten", "Christmas"],
-        ["das Neujahr", "New Year"],
-        ["feiern", "to celebrate"],
-        ["ein Geschenk machen", "to give a gift"],
+        ["der Geburtstag", "el cumpleaños"],
+        ["die Hochzeit", "la boda"],
+        ["Weihnachten", "la Navidad"],
+        ["das Neujahr", "el Año Nuevo"],
+        ["feiern", "celebrar"],
+        ["ein Geschenk machen", "hacer un regalo"],
       ],
       grammar: [
         ["Gewohnheiten mit „normalerweise“ + Präsens ausdrücken", "Im Deutschen drückt man Gewohnheiten meist mit einem Adverb wie „normalerweise“ oder „gewöhnlich“ plus Präsens aus, statt mit einem eigenen Modalverb.", "Wir feiern Weihnachten normalerweise mit der ganzen Familie. / Als Kind habe ich meinen Geburtstag gewöhnlich im Park gefeiert."],
@@ -1748,12 +1748,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Wortschatz zu Freundschaft und wie man mit „sollte“ und „müssen“ Ratschläge gibt.",
     study: {
       vocab: [
-        ["jemandem vertrauen", "to trust someone"],
-        ["mit jemandem gut/schlecht auskommen", "to get along well/badly with someone"],
-        ["etwas gemeinsam haben", "to have something in common"],
-        ["in Kontakt bleiben", "to keep in touch"],
-        ["ein vertrauenswürdiger Freund / eine vertrauenswürdige Freundin", "a close/trustworthy friend"],
-        ["sich nach einem Streit versöhnen", "to make up after an argument"],
+        ["jemandem vertrauen", "confiar en alguien"],
+        ["mit jemandem gut/schlecht auskommen", "llevarse bien/mal con alguien"],
+        ["etwas gemeinsam haben", "tener algo en común"],
+        ["in Kontakt bleiben", "mantener el contacto"],
+        ["ein vertrauenswürdiger Freund / eine vertrauenswürdige Freundin", "un amigo cercano/de confianza"],
+        ["sich nach einem Streit versöhnen", "reconciliarse después de una discusión"],
       ],
       grammar: [
         ["Ratschläge mit „sollte“ und „müssen“", "„Sollte“ (Konjunktiv II von „sollen“) gibt einen sanften Ratschlag; „müssen“ drückt eine stärkere Verpflichtung aus.", "Du solltest mit deinen Freunden in Kontakt bleiben. / Ihr müsst euch versöhnen, wenn ihr Freunde bleiben wollt."],
@@ -1773,12 +1773,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Homeoffice und Work-Life-Balance mit Partizipialkonstruktionen auf Deutsch.",
     study: {
       vocab: [
-        ["im Homeoffice arbeiten", "to work remotely"],
-        ["flexible Arbeitszeiten", "flexible working hours"],
-        ["die digitale Abschaltung", "digital disconnection"],
-        ["das Burnout", "burnout"],
-        ["Berufs- und Privatleben vereinbaren", "to balance work and personal life"],
-        ["produktiv sein", "to be productive"],
+        ["im Homeoffice arbeiten", "trabajar de forma remota"],
+        ["flexible Arbeitszeiten", "horario laboral flexible"],
+        ["die digitale Abschaltung", "la desconexión digital"],
+        ["das Burnout", "el agotamiento (burnout)"],
+        ["Berufs- und Privatleben vereinbaren", "equilibrar el trabajo y la vida personal"],
+        ["produktiv sein", "ser productivo"],
       ],
       grammar: [
         ["Das Partizip I für Gleichzeitigkeit oder Ursache", "Das Partizip I (Verbstamm + -end) kann als Adverbialkonstruktion eine gleichzeitige Handlung oder deren Ursache ausdrücken, ähnlich einem Gerundium.", "Von zu Hause arbeitend, spart man Fahrzeit. / Ständig arbeitend ohne abzuschalten, erleiden viele ein Burnout."],
@@ -1798,12 +1798,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne zu verhandeln und Vorschläge im formellen Register mit dem Konjunktiv II abzuschwächen.",
     study: {
       vocab: [
-        ["eine Einigung erzielen", "to reach an agreement"],
-        ["Zugeständnisse machen", "to give ground/make concessions"],
-        ["eine Sackgasse", "a deadlock/stalemate"],
-        ["eine kompromisslose Haltung", "an inflexible/uncompromising stance"],
-        ["einen Mittelweg suchen", "to look for a middle ground"],
-        ["das Eis brechen", "to break the ice"],
+        ["eine Einigung erzielen", "llegar a un acuerdo"],
+        ["Zugeständnisse machen", "ceder terreno/hacer concesiones"],
+        ["eine Sackgasse", "un punto muerto"],
+        ["eine kompromisslose Haltung", "una postura inflexible/intransigente"],
+        ["einen Mittelweg suchen", "buscar un término medio"],
+        ["das Eis brechen", "romper el hielo"],
       ],
       grammar: [
         ["Der Konjunktiv II zur Abschwächung von Vorschlägen", "Der Konjunktiv II (würde/wäre) schwächt Bitten und Vorschläge in Verhandlungen ab und wirkt höflicher und flexibler.", "Wären Sie bereit, an diesem Punkt Zugeständnisse zu machen? / Es wäre besser, einen Mittelweg zu suchen, bevor man in eine Sackgasse gerät."],
@@ -1823,12 +1823,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere Euphemismen in der Unternehmenssprache und übe Umformulierungskonnektoren.",
     study: {
       vocab: [
-        ["ein Euphemismus", "a euphemism"],
-        ["der Unternehmensjargon", "corporate jargon"],
-        ["eine Umstrukturierung (Euphemismus für Entlassungen)", "a restructuring (euphemism for layoffs)"],
-        ["die Wirkung einer Nachricht abmildern", "to soften the impact of a message"],
-        ["ein unnötiger Anglizismus", "an unnecessary anglicism"],
-        ["jemandes Verantwortung verwässern", "to dilute someone's responsibility"],
+        ["ein Euphemismus", "un eufemismo"],
+        ["der Unternehmensjargon", "la jerga corporativa"],
+        ["eine Umstrukturierung (Euphemismus für Entlassungen)", "una reestructuración (eufemismo de despidos)"],
+        ["die Wirkung einer Nachricht abmildern", "suavizar el impacto de un mensaje"],
+        ["ein unnötiger Anglizismus", "un anglicismo innecesario"],
+        ["jemandes Verantwortung verwässern", "diluir la responsabilidad de alguien"],
       ],
       grammar: [
         ["Umformulierungskonnektoren", "Ausdrücke wie „das heißt“, „mit anderen Worten“ oder „anders gesagt“ formulieren eine Idee um, oft um sie abzumildern oder zu präzisieren — entscheidend, um Euphemismen zu erkennen.", "Das Unternehmen kündigte eine „Umstrukturierung“ an, das heißt Entlassungen. / Mit anderen Worten: Sie werden die Belegschaft verkleinern."],
@@ -1848,12 +1848,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Reisevokabular und wie man mit „werden“ + Infinitiv über nahe Pläne spricht.",
     study: {
       vocab: [
-        ["der Reisepass", "the passport"],
-        ["der Koffer", "the suitcase"],
-        ["der Flug", "the flight"],
-        ["das Zimmer", "the room"],
-        ["die Reservierung", "the booking"],
-        ["das Gepäck einchecken", "to check in luggage"],
+        ["der Reisepass", "el pasaporte"],
+        ["der Koffer", "la maleta"],
+        ["der Flug", "el vuelo"],
+        ["das Zimmer", "la habitación"],
+        ["die Reservierung", "la reserva"],
+        ["das Gepäck einchecken", "facturar el equipaje"],
       ],
       grammar: [
         ["„Werden“ + Infinitiv für nahe Zukunft", "Im Alltag drückt man nahe Pläne oft mit Präsens + Zeitangabe aus, aber „werden“ + Infinitiv betont die Absicht.", "Ich werde das Gepäck einchecken. / Wir werden für Freitag ein Zimmer reservieren."],
@@ -1873,12 +1873,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne alltägliches Technik-Vokabular und wie man mit „so...wie“ und „...er als“ vergleicht.",
     study: {
       vocab: [
-        ["das WLAN", "the wifi"],
-        ["das Passwort", "the password"],
-        ["die App", "the app"],
-        ["das Handy aufladen", "to charge the phone"],
-        ["herunterladen", "to download"],
-        ["der Akku", "the battery"],
+        ["das WLAN", "el wifi"],
+        ["das Passwort", "la contraseña"],
+        ["die App", "la aplicación"],
+        ["das Handy aufladen", "cargar el móvil"],
+        ["herunterladen", "descargar"],
+        ["der Akku", "la batería"],
       ],
       grammar: [
         ["Vergleiche mit „so...wie“ und dem Komparativ „...er als“", "„So + Adjektiv + wie“ vergleicht gleiche Eigenschaften; der Komparativ (Adjektiv + „-er“) + „als“ vergleicht eine Überlegenheit.", "Diese App ist so schnell wie die andere. / Mein Akku hält länger als deiner."],
@@ -1898,12 +1898,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular zu digitaler Unterhaltung und wie man mit „schon seit“ Dauer ausdrückt.",
     study: {
       vocab: [
-        ["die Serie", "the series/show"],
-        ["das Videospiel", "the video game"],
-        ["die Streaming-Plattform", "the streaming platform"],
-        ["von etwas süchtig werden", "to get hooked on something"],
-        ["das Serienmarathon", "binge-watching"],
-        ["die Untertitel", "the subtitles"],
+        ["die Serie", "la serie"],
+        ["das Videospiel", "el videojuego"],
+        ["die Streaming-Plattform", "la plataforma de streaming"],
+        ["von etwas süchtig werden", "engancharse a algo"],
+        ["das Serienmarathon", "maratón de series"],
+        ["die Untertitel", "los subtítulos"],
       ],
       grammar: [
         ["„Schon seit“ + Präsens für die Dauer", "„Schon seit“ + Zeitangabe + Präsens drückt aus, wie lange eine Handlung schon andauert, ähnlich wie „to have been doing something“.", "Ich schaue diese Serie schon seit zwei Stunden. / Wir spielen schon seit dem ganzen Wochenende Videospiele."],
@@ -1923,12 +1923,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über Cybersicherheit mit bestimmenden und erläuternden Relativsätzen.",
     study: {
       vocab: [
-        ["die Cybersicherheit", "cybersecurity"],
-        ["ein System hacken", "to hack a system"],
-        ["die personenbezogenen Daten", "personal data"],
-        ["ein sicheres Passwort", "a strong password"],
-        ["der Identitätsdiebstahl", "identity theft/phishing"],
-        ["Informationen verschlüsseln", "to encrypt information"],
+        ["die Cybersicherheit", "la ciberseguridad"],
+        ["ein System hacken", "hackear un sistema"],
+        ["die personenbezogenen Daten", "los datos personales"],
+        ["ein sicheres Passwort", "una contraseña segura"],
+        ["der Identitätsdiebstahl", "robo de identidad/phishing"],
+        ["Informationen verschlüsseln", "cifrar información"],
       ],
       grammar: [
         ["Bestimmende und erläuternde Relativsätze", "Bestimmende Relativsätze (ohne Komma-Pause im Sinn) grenzen ein und sind notwendig; erläuternde Relativsätze (mit Kommas, zusätzliche Info) fügen extra Information hinzu und können weggelassen werden.", "Die Daten, die wir online teilen, können gehackt werden. (bestimmend) / Meine Daten, die ich kaum teile, sind gut geschützt. (erläuternd)"],
@@ -1948,12 +1948,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere das kollektive Gedächtnis und Kulturerbe mit „sein“ + Partizip II für resultierende Zustände.",
     study: {
       vocab: [
-        ["das Kulturerbe", "cultural heritage"],
-        ["das historische Gedächtnis bewahren", "to preserve historical memory"],
-        ["ein Gedenkdenkmal", "a memorial"],
-        ["das Vermächtnis", "the legacy"],
-        ["die Geschichte umschreiben", "to rewrite history"],
-        ["die kollektive Identität", "collective identity"],
+        ["das Kulturerbe", "el patrimonio cultural"],
+        ["das historische Gedächtnis bewahren", "preservar la memoria histórica"],
+        ["ein Gedenkdenkmal", "un monumento conmemorativo"],
+        ["das Vermächtnis", "el legado"],
+        ["die Geschichte umschreiben", "reescribir la historia"],
+        ["die kollektive Identität", "la identidad colectiva"],
       ],
       grammar: [
         ["„Sein“ + Partizip II für den resultierenden Zustand", "„Sein“ + Partizip II beschreibt den resultierenden Zustand einer vergangenen Handlung, im Unterschied zum Vorgangspassiv mit „werden“.", "Das Denkmal ist den Opfern gewidmet. / Die Geschichte ist von inneren Konflikten geprägt."],
@@ -1973,12 +1973,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere institutionelle Ambiguität und übe epistemische Abschwächungskonnektoren.",
     study: {
       vocab: [
-        ["die kalkulierte Ambiguität", "calculated ambiguity"],
-        ["eine institutionelle Erklärung", "an institutional statement"],
-        ["sich nicht festlegen wollen", "to avoid committing oneself"],
-        ["die bewusste Vagheit", "deliberate vagueness"],
-        ["zwischen den Zeilen lesen", "to read between the lines"],
-        ["eine ausweichende Sprache", "evasive language"],
+        ["die kalkulierte Ambiguität", "ambigüedad calculada"],
+        ["eine institutionelle Erklärung", "una declaración institucional"],
+        ["sich nicht festlegen wollen", "evitar comprometerse"],
+        ["die bewusste Vagheit", "vaguedad deliberada"],
+        ["zwischen den Zeilen lesen", "leer entre líneas"],
+        ["eine ausweichende Sprache", "lenguaje evasivo"],
       ],
       grammar: [
         ["Epistemische Abschwächungskonnektoren", "Ausdrücke wie „es sei betont, dass“, „es besteht kein Zweifel, dass“ oder „in gewisser Weise“ nuancieren den Grad der Gewissheit oder Relevanz einer Aussage, typisch für institutionellen Diskurs.", "Es sei betont, dass sich die Erklärung nicht auf konkrete Termine festlegt. / In gewisser Weise ist die Vagheit bewusst."],
@@ -1998,12 +1998,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Sport-Vokabular und wie man mit „gern” Vorlieben ausdrückt.",
     study: {
       vocab: [
-        ["der Fußball", "soccer/football"],
-        ["das Schwimmen", "swimming"],
-        ["laufen", "to run"],
-        ["das Fitnessstudio", "the gym"],
-        ["Sport treiben", "to exercise"],
-        ["das Team", "the team"],
+        ["der Fußball", "el fútbol"],
+        ["das Schwimmen", "la natación"],
+        ["laufen", "correr"],
+        ["das Fitnessstudio", "el gimnasio"],
+        ["Sport treiben", "hacer ejercicio"],
+        ["das Team", "el equipo"],
       ],
       grammar: [
         ["„Gern” + Verb für Vorlieben", "Im Deutschen drückt man Vorlieben mit dem Adverb „gern” nach dem Verb aus, statt mit einem eigenen Verb wie „mögen” + Infinitiv.", "Ich schwimme gern. / Sie mag Mannschaftssport."],
@@ -2023,12 +2023,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular zur Hausarbeit und wie man mit „man muss” eine unpersönliche Pflicht ausdrückt.",
     study: {
       vocab: [
-        ["fegen", "to sweep"],
-        ["das Geschirr spülen", "to wash the dishes"],
-        ["den Müll rausbringen", "to take out the trash"],
-        ["die Kleidung bügeln", "to iron the clothes"],
-        ["das Bett machen", "to make the bed"],
-        ["staubsaugen", "to vacuum"],
+        ["fegen", "barrer"],
+        ["das Geschirr spülen", "fregar los platos"],
+        ["den Müll rausbringen", "sacar la basura"],
+        ["die Kleidung bügeln", "planchar la ropa"],
+        ["das Bett machen", "hacer la cama"],
+        ["staubsaugen", "pasar la aspiradora"],
       ],
       grammar: [
         ["„Man muss” + Infinitiv für unpersönliche Pflicht", "„Man” + „müssen” + Infinitiv drückt eine allgemeine Pflicht aus, ohne eine bestimmte Person zu nennen.", "Man muss jeden Tag den Müll rausbringen. / Bevor man geht, muss man das Bett machen."],
@@ -2048,12 +2048,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular zu Verabredungen und wie man mit dem Futur I Versprechen und Vorhersagen macht.",
     study: {
       vocab: [
-        ["ein Date haben", "to go on a date"],
-        ["sich in jemanden verlieben", "to fall in love with someone"],
-        ["mit jemandem Schluss machen", "to break up with someone"],
-        ["der Partner/die Partnerin", "the partner/couple"],
-        ["jemanden vermissen", "to miss someone"],
-        ["sich verloben/binden", "to get engaged/commit"],
+        ["ein Date haben", "tener una cita"],
+        ["sich in jemanden verlieben", "enamorarse de alguien"],
+        ["mit jemandem Schluss machen", "romper con alguien"],
+        ["der Partner/die Partnerin", "la pareja"],
+        ["jemanden vermissen", "echar de menos a alguien"],
+        ["sich verloben/binden", "comprometerse"],
       ],
       grammar: [
         ["Das Futur I für Versprechen und Vorhersagen", "Das Futur I („werden” + Infinitiv) drückt formelle Versprechen oder Vorhersagen aus, endgültiger als das Präsens mit Zeitangabe.", "Ich verspreche dir, dass ich nie mit dir Schluss machen werde. / Ich glaube, ihr werdet euch bald verloben."],
@@ -2073,12 +2073,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über nachhaltigen Tourismus mit „es sei denn” und „vorausgesetzt, dass” + Konjunktiv/Indikativ.",
     study: {
       vocab: [
-        ["der Overtourism", "overtourism"],
-        ["ein Reiseziel überlasten", "to overcrowd a tourist destination"],
-        ["der nachhaltige Tourismus", "sustainable tourism"],
-        ["die lokalen Mieten in die Höhe treiben", "to drive up local housing costs"],
-        ["die touristischen Auswirkungen verteilen", "to spread out tourism's impact"],
-        ["die lokale Kultur respektieren", "to respect the local culture"],
+        ["der Overtourism", "la masificación turística"],
+        ["ein Reiseziel überlasten", "saturar un destino turístico"],
+        ["der nachhaltige Tourismus", "el turismo sostenible"],
+        ["die lokalen Mieten in die Höhe treiben", "encarecer la vivienda local"],
+        ["die touristischen Auswirkungen verteilen", "repartir el impacto del turismo"],
+        ["die lokale Kultur respektieren", "respetar la cultura local"],
       ],
       grammar: [
         ["„Es sei denn” und „vorausgesetzt, dass” für Bedingungen", "„Es sei denn” (unless) und „vorausgesetzt, dass” (provided that) leiten eine Bedingung ein; nach „es sei denn” folgt oft der Konjunktiv I in formellem Stil.", "Das Reiseziel bleibt überlastet, es sei denn, der Tourismus werde reguliert. / Tourismus ist positiv, vorausgesetzt, dass die lokale Kultur respektiert wird."],
@@ -2098,12 +2098,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere Gastronomie als kulturelle Identität mit betonten Konstruktionen wie „was ... ist”.",
     study: {
       vocab: [
-        ["die geschützte Herkunftsbezeichnung", "protected designation of origin"],
-        ["ein emblematisches Gericht", "an iconic/signature dish"],
-        ["die kulinarische Fusion", "culinary fusion"],
-        ["ein traditionelles Rezept bewahren", "to preserve a traditional recipe"],
-        ["sich eine kulinarische Tradition aneignen", "to appropriate a culinary tradition"],
-        ["der kollektive Gaumen", "the collective palate"],
+        ["die geschützte Herkunftsbezeichnung", "denominación de origen protegida"],
+        ["ein emblematisches Gericht", "un plato emblemático"],
+        ["die kulinarische Fusion", "la fusión culinaria"],
+        ["ein traditionelles Rezept bewahren", "preservar una receta tradicional"],
+        ["sich eine kulinarische Tradition aneignen", "apropiarse de una tradición culinaria"],
+        ["der kollektive Gaumen", "el paladar colectivo"],
       ],
       grammar: [
         ["Betonte Konstruktionen mit „was ... ist”", "„Was ... ist” hebt ein Satzelement hervor und verleiht ihm mehr Gewicht, typisch für argumentative Texte.", "Was eine Kultur definiert, ist ihre Gastronomie. / Was lokale Köche beunruhigt, ist die Aneignung ihrer Rezepte."],
@@ -2123,12 +2123,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere Krisenrhetorik und übe rhetorische Intensivierungsstrukturen.",
     study: {
       vocab: [
-        ["die moralische Panik", "moral panic"],
-        ["eine erfundene Krise", "a manufactured crisis"],
-        ["eine Situation dramatisieren", "to catastrophize a situation"],
-        ["ein Sündenbock", "a scapegoat"],
-        ["eine Bedrohung überzeichnen", "to blow a threat out of proportion"],
-        ["eine alarmistische Rhetorik", "alarmist rhetoric"],
+        ["die moralische Panik", "el pánico moral"],
+        ["eine erfundene Krise", "una crisis fabricada"],
+        ["eine Situation dramatisieren", "catastrofizar una situación"],
+        ["ein Sündenbock", "un chivo expiatorio"],
+        ["eine Bedrohung überzeichnen", "exagerar desproporcionadamente una amenaza"],
+        ["eine alarmistische Rhetorik", "la retórica alarmista"],
       ],
       grammar: [
         ["Rhetorische Intensivierungsstrukturen", "„Nicht nur ... sondern auch” und „immer mehr” intensivieren eine Aussage durch Steigerung — typisches Mittel der Krisenrhetorik und moralischen Panik.", "Die Bedrohung wird nicht nur übertrieben, sondern man sucht auch einen Sündenbock. / Alarmistische Rhetorik wird in den Medien immer häufiger."],
@@ -2148,12 +2148,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Schulvokabular und wie man bestimmte und unbestimmte Artikel richtig benutzt.",
     study: {
       vocab: [
-        ["das Heft", "the notebook"],
-        ["der Bleistift", "the pencil"],
-        ["der Rucksack", "the backpack"],
-        ["die Mathematik", "math"],
-        ["die Geschichte", "history"],
-        ["der Lehrer/die Lehrerin", "the teacher"],
+        ["das Heft", "el cuaderno"],
+        ["der Bleistift", "el lápiz"],
+        ["der Rucksack", "la mochila"],
+        ["die Mathematik", "las matemáticas"],
+        ["die Geschichte", "la historia"],
+        ["der Lehrer/die Lehrerin", "el profesor/la profesora"],
       ],
       grammar: [
         ["Bestimmte und unbestimmte Artikel", "Bestimmte Artikel (der, die, das) bezeichnen etwas Bekanntes oder Spezifisches; unbestimmte Artikel (ein, eine) bezeichnen etwas Unspezifisches oder zum ersten Mal Erwähntes.", "Ich habe ein neues Heft. / Das Heft ist im Rucksack."],
@@ -2173,12 +2173,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Postvokabular und wie man Akkusativ-Objektpronomen (ihn/sie/es) benutzt.",
     study: {
       vocab: [
-        ["das Paket", "the package"],
-        ["der Brief", "the letter"],
-        ["die Briefmarke", "the stamp"],
-        ["mit der Post schicken", "to mail/send"],
-        ["der Briefkasten", "the mailbox"],
-        ["die Adresse", "the address"],
+        ["das Paket", "el paquete"],
+        ["der Brief", "la carta"],
+        ["die Briefmarke", "el sello"],
+        ["mit der Post schicken", "enviar por correo"],
+        ["der Briefkasten", "el buzón"],
+        ["die Adresse", "la dirección"],
       ],
       grammar: [
         ["Akkusativ-Objektpronomen (ihn/sie/es)", "Objektpronomen ersetzen ein bereits genanntes Substantiv im Akkusativ und stimmen in Genus und Numerus überein.", "Den Brief? Ich habe ihn gestern verschickt. / Die Pakete? Ich habe sie heute Morgen bekommen."],
@@ -2198,12 +2198,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kino- und Theatervokabular und wie man Zeitsätze mit „wenn”, „während” und „bevor” bildet.",
     study: {
       vocab: [
-        ["die Eintrittskarte", "the ticket"],
-        ["die Premiere", "the premiere"],
-        ["die Besetzung", "the cast"],
-        ["die Spezialeffekte", "special effects"],
-        ["der Sitzplatz", "the seat"],
-        ["die Pause", "the intermission"],
+        ["die Eintrittskarte", "la entrada"],
+        ["die Premiere", "el estreno"],
+        ["die Besetzung", "el reparto"],
+        ["die Spezialeffekte", "los efectos especiales"],
+        ["der Sitzplatz", "el asiento"],
+        ["die Pause", "el intermedio"],
       ],
       grammar: [
         ["Zeitsätze mit „wenn”, „während” und „bevor”", "„Wenn” und „während” + Präsens beschreiben gewohnheitsmäßige oder gleichzeitige Handlungen; „bevor” leitet eine Handlung ein, die noch nicht stattgefunden hat.", "Ich kaufe die Karten, wenn ich im Kino ankomme. / Wir reden, während wir auf die Premiere warten. / Wir kommen an, bevor der Film beginnt."],
@@ -2223,12 +2223,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über sozialen Aktivismus mit dem Konjunktiv/„dass”-Sätzen nach Verben der Einflussnahme.",
     study: {
       vocab: [
-        ["eine Demonstration", "a protest"],
-        ["Veränderung fordern", "to demand change"],
-        ["eine Petition unterschreiben", "to sign a petition"],
-        ["für etwas sensibilisieren", "to raise awareness about something"],
-        ["ein Kollektiv/eine Organisation", "a collective/organization"],
-        ["Menschen mobilisieren", "to mobilize people"],
+        ["eine Demonstration", "una protesta"],
+        ["Veränderung fordern", "exigir un cambio"],
+        ["eine Petition unterschreiben", "firmar una petición"],
+        ["für etwas sensibilisieren", "concienciar sobre algo"],
+        ["ein Kollektiv/eine Organisation", "un colectivo/una organización"],
+        ["Menschen mobilisieren", "movilizar a la gente"],
       ],
       grammar: [
         ["„Dass”-Sätze nach Verben der Einflussnahme", "Verben wie „fordern”, „verlangen” oder „vorschlagen” + „dass” leiten einen Nebensatz ein, der oft im Konjunktiv I steht, um formell eine Handlung von jemand anderem zu beeinflussen.", "Die Demonstranten fordern, dass die Regierung handle. / Das Kollektiv verlangt, dass die Petition unterschrieben werde."],
@@ -2248,12 +2248,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere die alternde Bevölkerung mit Konsekutivsätzen („so...dass”, „derart...dass”).",
     study: {
       vocab: [
-        ["die alternde Bevölkerung", "population aging"],
-        ["das Rentensystem", "the pension system"],
-        ["die Geburtenrate", "the birth rate"],
-        ["die Lebenserwartung", "life expectancy"],
-        ["das Rentensystem aufrechterhalten", "to sustain the pension system"],
-        ["die Generationenkluft", "the generational gap"],
+        ["die alternde Bevölkerung", "el envejecimiento de la población"],
+        ["das Rentensystem", "el sistema de pensiones"],
+        ["die Geburtenrate", "la tasa de natalidad"],
+        ["die Lebenserwartung", "la esperanza de vida"],
+        ["das Rentensystem aufrechterhalten", "sostener el sistema de pensiones"],
+        ["die Generationenkluft", "la brecha generacional"],
       ],
       grammar: [
         ["Konsekutivsätze: „so...dass” und „derart...dass”", "Konsekutivsätze drücken eine Folge aus einer Intensität oder Art aus. „So + Adjektiv + dass” betont den Grad; „derart...dass” leitet das Ergebnis einer Handlung ein.", "Die Bevölkerung altert so schnell, dass das Rentensystem gefährdet ist. / Die Geburtenrate ist derart gesunken, dass junge Arbeitskräfte fehlen."],
@@ -2273,12 +2273,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere die Rhetorik des Schweigens und übe die Ellipse zu rhetorischen Zwecken.",
     study: {
       vocab: [
-        ["das beredte Schweigen", "eloquent silence"],
-        ["etwas bewusst auslassen", "to deliberately omit something"],
-        ["das Ungesagte", "the unsaid"],
-        ["eine diskursive Leerstelle", "a discursive gap"],
-        ["etwas offenlassen", "to leave something hanging"],
-        ["die rhetorische Ellipse", "rhetorical ellipsis"],
+        ["das beredte Schweigen", "el silencio elocuente"],
+        ["etwas bewusst auslassen", "omitir algo deliberadamente"],
+        ["das Ungesagte", "lo no dicho"],
+        ["eine diskursive Leerstelle", "un vacío discursivo"],
+        ["etwas offenlassen", "dejar algo en el aire"],
+        ["die rhetorische Ellipse", "la elipsis retórica"],
       ],
       grammar: [
         ["Die Ellipse zu rhetorischen Zwecken", "Die Ellipse lässt ein aus dem Kontext verständliches Element weg und erzeugt Nachdruck oder lässt eine Idee bewusst unvollständig — ein starkes Mittel im politischen und literarischen Diskurs.", "Manche schweigen aus Angst; andere aus Komplizenschaft. (das Verb „schweigen” wird weggelassen) / Er versprach Reformen... und Schweigen. (das erwartete Verb wird weggelassen)"],
@@ -2298,12 +2298,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, die Uhrzeit und die Tageszeiten mit Zeitpräpositionen zu sagen.",
     study: {
       vocab: [
-        ["der Morgen", "the morning"],
-        ["der Nachmittag", "the afternoon"],
-        ["die Nacht", "the night"],
-        ["der Mittag", "noon"],
-        ["die Mitternacht", "midnight"],
-        ["Uhr/pünktlich", "o'clock/sharp"],
+        ["der Morgen", "la mañana"],
+        ["der Nachmittag", "la tarde"],
+        ["die Nacht", "la noche"],
+        ["der Mittag", "el mediodía"],
+        ["die Mitternacht", "la medianoche"],
+        ["Uhr/pünktlich", "en punto"],
       ],
       grammar: [
         ["„Wie spät ist es?” + Zeitpräpositionen", "Um nach der Uhrzeit zu fragen, sagt man „Wie spät ist es?”; zur Antwort „es ist ein Uhr” oder „es ist + Zahl + Uhr”, mit „morgens/nachmittags/abends” zur genaueren Angabe.", "Es ist drei Uhr nachmittags. / Es ist ein Uhr pünktlich morgens."],
@@ -2323,12 +2323,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne grundlegendes Bankvokabular und wie man „können” für Möglichkeit und Erlaubnis benutzt.",
     study: {
       vocab: [
-        ["das Bankkonto", "the bank account"],
-        ["der Geldautomat", "the ATM"],
-        ["Geld abheben", "to withdraw money"],
-        ["Geld einzahlen", "to deposit money"],
-        ["die Debitkarte", "the debit card"],
-        ["der Kontostand", "the balance"],
+        ["das Bankkonto", "la cuenta bancaria"],
+        ["der Geldautomat", "el cajero automático"],
+        ["Geld abheben", "retirar dinero"],
+        ["Geld einzahlen", "ingresar dinero"],
+        ["die Debitkarte", "la tarjeta de débito"],
+        ["der Kontostand", "el saldo"],
       ],
       grammar: [
         ["„Können” + Infinitiv für Möglichkeit und Erlaubnis", "„Können” + Infinitiv drückt je nach Kontext Fähigkeit, Möglichkeit oder Erlaubnis aus.", "Kann ich hier ein Konto eröffnen? / Du kannst an jedem Geldautomaten Geld abheben."],
@@ -2348,12 +2348,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular für lange Reisen und wie man „obwohl” und „auch wenn” benutzt.",
     study: {
       vocab: [
-        ["die Verspätung", "the delay"],
-        ["den Flug/Zug verpassen", "to miss the flight/train"],
-        ["einen Zwischenstopp machen", "to make a layover/stopover"],
-        ["der Bahnsteig", "the platform"],
-        ["einen Flug stornieren", "to cancel a flight"],
-        ["der Fenster-/Gangplatz", "the window/aisle seat"],
+        ["die Verspätung", "el retraso"],
+        ["den Flug/Zug verpassen", "perder el vuelo/tren"],
+        ["einen Zwischenstopp machen", "hacer escala"],
+        ["der Bahnsteig", "el andén"],
+        ["einen Flug stornieren", "cancelar un vuelo"],
+        ["der Fenster-/Gangplatz", "el asiento de ventanilla/pasillo"],
       ],
       grammar: [
         ["„Obwohl” und „auch wenn” für Zugeständnisse", "„Obwohl” leitet eine reale, bekannte Tatsache ein; „auch wenn” kann sich auf eine reale oder hypothetische Situation beziehen, beide mit Indikativ im Deutschen.", "Obwohl der Zug zu spät ankam, habe ich meinen Flug erreicht. / Auch wenn der Flug storniert wird, haben wir eine andere Option."],
@@ -2373,12 +2373,12 @@ window.LESSON_BANKS.DE = [
     description:"Sprich über die Sharing Economy mit Futur und Konjunktiv II der Vermutung.",
     study: {
       vocab: [
-        ["die Sharing Economy", "the sharing economy"],
-        ["mieten statt kaufen", "to rent instead of buying"],
-        ["der bewusste Konsum", "conscious consumption"],
-        ["Ressourcen teilen", "to share resources"],
-        ["die geplante Obsoleszenz", "planned obsolescence"],
-        ["Verschwendung reduzieren", "to reduce waste"],
+        ["die Sharing Economy", "la economía colaborativa"],
+        ["mieten statt kaufen", "alquilar en vez de comprar"],
+        ["der bewusste Konsum", "el consumo consciente"],
+        ["Ressourcen teilen", "compartir recursos"],
+        ["die geplante Obsoleszenz", "la obsolescencia programada"],
+        ["Verschwendung reduzieren", "reducir los residuos"],
       ],
       grammar: [
         ["Futur und Konjunktiv II der Vermutung", "Das Futur I kann eine Vermutung über die Gegenwart ausdrücken („es wird zehn Uhr sein”); der Konjunktiv II mit „würde” drückt eine Vermutung über eine hypothetische Situation aus.", "Dieses Modell wird wohl etwa fünf Jahre geplante Obsoleszenz haben. / Bei diesem Konsum würden sie weniger Ressourcen verbrauchen als gedacht."],
@@ -2398,12 +2398,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere nonverbale Kommunikation mit „als ob” + Konjunktiv II.",
     study: {
       vocab: [
-        ["die Körpersprache", "body language"],
-        ["der Augenkontakt", "eye contact"],
-        ["eine missverstandene Geste", "a misinterpreted gesture"],
-        ["die Proxemik (persönlicher Abstand)", "proxemics (personal space)"],
-        ["ein kulturelles Signal", "a cultural cue"],
-        ["das unangenehme Schweigen", "awkward silence"],
+        ["die Körpersprache", "el lenguaje corporal"],
+        ["der Augenkontakt", "el contacto visual"],
+        ["eine missverstandene Geste", "un gesto malinterpretado"],
+        ["die Proxemik (persönlicher Abstand)", "la proxémica (espacio personal)"],
+        ["ein kulturelles Signal", "una señal cultural"],
+        ["das unangenehme Schweigen", "un silencio incómodo"],
       ],
       grammar: [
         ["„Als ob” + Konjunktiv II", "„Als ob” verlangt immer den Konjunktiv II, auch wenn sich der Vergleich auf die Gegenwart bezieht, weil es etwas Hypothetisches oder der Realität Widersprechendes beschreibt.", "Er handelte, als ob er die Geste verstünde, obwohl er sie nicht verstand. / Sie reagierte, als ob sie beleidigt worden wäre."],
@@ -2423,12 +2423,12 @@ window.LESSON_BANKS.DE = [
     description:"Analysiere wissenschaftliche Sprache mit Ausdrücken epistemischer Abschwächung (Hedging).",
     study: {
       vocab: [
-        ["die statistische Unsicherheit", "statistical uncertainty"],
-        ["eine Fehlerspanne", "a margin of error"],
-        ["Korrelation impliziert keine Kausalität", "correlation does not imply causation"],
-        ["vorläufige Ergebnisse", "preliminary results"],
-        ["eine unbestätigte Hypothese", "an unconfirmed hypothesis"],
-        ["eine Aussage abschwächen", "to hedge/qualify a claim"],
+        ["die statistische Unsicherheit", "la incertidumbre estadística"],
+        ["eine Fehlerspanne", "un margen de error"],
+        ["Korrelation impliziert keine Kausalität", "correlación no implica causalidad"],
+        ["vorläufige Ergebnisse", "resultados preliminares"],
+        ["eine unbestätigte Hypothese", "una hipótesis no confirmada"],
+        ["eine Aussage abschwächen", "matizar una afirmación"],
       ],
       grammar: [
         ["Ausdrücke epistemischer Abschwächung (Hedging)", "Ausdrücke wie „man könnte sagen, dass”, „es wäre nicht abwegig zu denken, dass” oder „die Daten deuten darauf hin, ohne zu bestätigen, dass” schwächen den Gewissheitsgrad einer wissenschaftlichen Aussage ab und vermeiden Übergeneralisierung.", "Man könnte sagen, dass es einen Trend gibt, obwohl die Daten vorläufig sind. / Die Ergebnisse deuten auf einen kausalen Zusammenhang hin, ohne ihn zu bestätigen."],
@@ -2448,12 +2448,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne, das Wetter und die Jahreszeiten auf Deutsch mit “es ist/es regnet” zu beschreiben.",
     study: {
       vocab: [
-        ["sonnig", "sunny"],
-        ["regnerisch", "rainy"],
-        ["kalt", "cold"],
-        ["heiß", "hot"],
-        ["der Frühling", "spring"],
-        ["der Winter", "winter"],
+        ["sonnig", "soleado"],
+        ["regnerisch", "lluvioso"],
+        ["kalt", "frío"],
+        ["heiß", "caluroso"],
+        ["der Frühling", "la primavera"],
+        ["der Winter", "el invierno"],
       ],
       grammar: [
         ["“Es ist” für das Wetter", "Für das Wetter wird das unpersönliche “es” + “ist” + Adjektiv verwendet: “es ist sonnig”, “es ist kalt”. Für Regen: “es regnet” (unpersönliches Verb).", "Heute ist es sonnig. / Im Frühling regnet es."],
@@ -2473,12 +2473,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende vocabulario sobre mascotas y a usar “müssen” para obligaciones en alemán.",
     study: {
       vocab: [
-        ["das Haustier füttern", "to feed the pet"],
-        ["den Hund ausführen", "to walk the dog"],
-        ["der Tierarzt", "the veterinarian"],
-        ["impfen", "to vaccinate"],
-        ["die Katzentoilette", "the litter box"],
-        ["ein Haustier adoptieren", "to adopt a pet"],
+        ["das Haustier füttern", "alimentar a la mascota"],
+        ["den Hund ausführen", "pasear al perro"],
+        ["der Tierarzt", "el veterinario"],
+        ["impfen", "vacunar"],
+        ["die Katzentoilette", "la caja de arena"],
+        ["ein Haustier adoptieren", "adoptar una mascota"],
       ],
       grammar: [
         ["“Müssen” para obligaciones", "“Müssen” + infinitivo al final expresa una obligación o necesidad cotidiana.", "Ich muss jeden Morgen den Hund ausführen. / Sie muss die Katze zweimal am Tag füttern."],
@@ -2498,12 +2498,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende vocabulario de emprendimiento y a usar “werden” (futuro) para planes en alemán.",
     study: {
       vocab: [
-        ["das Start-up", "startup"],
-        ["ein Produkt auf den Markt bringen", "to launch a product"],
-        ["der Investor", "investor"],
-        ["der Geschäftsplan", "business plan"],
-        ["ein Risiko eingehen", "to take a risk"],
-        ["ein Unternehmen skalieren", "to scale a business"],
+        ["das Start-up", "la startup"],
+        ["ein Produkt auf den Markt bringen", "lanzar un producto"],
+        ["der Investor", "el inversor"],
+        ["der Geschäftsplan", "el plan de negocio"],
+        ["ein Risiko eingehen", "asumir un riesgo"],
+        ["ein Unternehmen skalieren", "escalar un negocio"],
       ],
       grammar: [
         ["“Werden” + Infinitiv para planes futuros", "“Werden” + infinitivo al final expresa un plan o intención decidida para el futuro.", "Wir werden das Produkt nächsten Monat auf den Markt bringen. / Sie wird nach Investoren suchen."],
@@ -2523,12 +2523,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de la exploración espacial usando el Futur II en alemán.",
     study: {
       vocab: [
-        ["die Weltraummission", "space mission"],
-        ["der Astronaut", "astronaut"],
-        ["umkreisen", "to orbit"],
-        ["der Raketenstart", "rocket launch"],
-        ["der Weltraum", "outer space"],
-        ["die Raumstation", "space station"],
+        ["die Weltraummission", "la misión espacial"],
+        ["der Astronaut", "el astronauta"],
+        ["umkreisen", "orbitar"],
+        ["der Raketenstart", "el lanzamiento del cohete"],
+        ["der Weltraum", "el espacio exterior"],
+        ["die Raumstation", "la estación espacial"],
       ],
       grammar: [
         ["Futur II para logros futuros", "El Futur II (“werden” + participio + “haben/sein”) describe una acción que se habrá completado antes de un momento futuro determinado.", "Bis 2030 werden Astronauten auf dem Mars gelandet sein. / Die Rakete wird die Umlaufbahn bis dahin erreicht haben."],
@@ -2548,12 +2548,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la ética de la IA usando el Passiv en registro formal en alemán.",
     study: {
       vocab: [
-        ["die künstliche Intelligenz", "artificial intelligence"],
-        ["die algorithmische Verzerrung", "algorithmic bias"],
-        ["die Rechenschaftspflicht", "accountability"],
-        ["der Datenschutz", "data privacy"],
-        ["regulieren", "to regulate"],
-        ["die unbeabsichtigten Folgen", "unintended consequences"],
+        ["die künstliche Intelligenz", "la inteligencia artificial"],
+        ["die algorithmische Verzerrung", "el sesgo algorítmico"],
+        ["die Rechenschaftspflicht", "la rendición de cuentas"],
+        ["der Datenschutz", "la privacidad de datos"],
+        ["regulieren", "regular"],
+        ["die unbeabsichtigten Folgen", "consecuencias no deseadas"],
       ],
       grammar: [
         ["Das Passiv in formellem/akademischem Register", "Das Passiv (“werden” + Partizip II) se usa en alemán formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Diese Systeme sollten reguliert werden, um Verzerrungen zu vermeiden. / Algorithmische Verzerrung wurde in mehreren Studien dokumentiert."],
@@ -2573,12 +2573,12 @@ window.LESSON_BANKS.DE = [
     description:"Reflexiona sobre la conciencia usando Spaltsätze (estructuras enfáticas) en alemán.",
     study: {
       vocab: [
-        ["das Bewusstsein", "consciousness"],
-        ["die subjektive Erfahrung", "subjective experience"],
-        ["das Gedankenexperiment", "thought experiment"],
-        ["der freie Wille", "free will"],
-        ["das Selbstbewusstsein", "self-awareness"],
-        ["das Leib-Seele-Problem", "the mind-body problem"],
+        ["das Bewusstsein", "la conciencia"],
+        ["die subjektive Erfahrung", "la experiencia subjetiva"],
+        ["das Gedankenexperiment", "un experimento mental"],
+        ["der freie Wille", "el libre albedrío"],
+        ["das Selbstbewusstsein", "la autoconciencia"],
+        ["das Leib-Seele-Problem", "el problema mente-cuerpo"],
       ],
       grammar: [
         ["Spaltsätze (“was... ist...”) para énfasis", "Los Spaltsätze (“was... ist...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usados en discurso filosófico y académico.", "Was das Bewusstsein wirklich definiert, ist nicht nur Verhalten, sondern subjektive Erfahrung."],
@@ -2598,12 +2598,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Gartenvokabular und einfache Anweisungen mit dem Imperativ auf Deutsch.",
     study: {
       vocab: [
-        ["die Pflanzen gießen", "to water the plants"],
-        ["der Samen", "the seed"],
-        ["wachsen", "to grow"],
-        ["die Blume", "the flower"],
-        ["die Erde", "the soil"],
-        ["das Sonnenlicht", "sunlight"],
+        ["die Pflanzen gießen", "regar las plantas"],
+        ["der Samen", "la semilla"],
+        ["wachsen", "crecer"],
+        ["die Blume", "la flor"],
+        ["die Erde", "la tierra"],
+        ["das Sonnenlicht", "la luz solar"],
       ],
       grammar: [
         ["Der Imperativ für Anweisungen", "Der Imperativ (du-Form) wird für Befehle oder Anweisungen benutzt. Die negative Form nutzt “nicht”.", "Gieß die Pflanzen jeden Tag. / Vergiss nicht, das Tor zu schließen."],
@@ -2623,12 +2623,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Bibliotheksvokabular und erzähle im Perfekt auf Deutsch.",
     study: {
       vocab: [
-        ["ein Buch ausleihen", "to borrow a book"],
-        ["der Bibliotheksausweis", "the library card"],
-        ["das Rückgabedatum", "the due date"],
-        ["das Bücherregal", "the bookshelf"],
-        ["der Roman", "the novel"],
-        ["ein Buch zurückgeben", "to return a book"],
+        ["ein Buch ausleihen", "pedir prestado un libro"],
+        ["der Bibliotheksausweis", "el carné de la biblioteca"],
+        ["das Rückgabedatum", "la fecha de vencimiento"],
+        ["das Bücherregal", "la estantería"],
+        ["der Roman", "la novela"],
+        ["ein Buch zurückgeben", "devolver un libro"],
       ],
       grammar: [
         ["Perfekt zum Erzählen", "El Perfekt (“haben/sein” + Partizip II) describe acciones completas en el pasado.", "Ich habe letzte Woche einen Roman ausgeliehen. / Sie hat das Buch pünktlich zurückgegeben."],
@@ -2648,12 +2648,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular über Kinderbetreuung und benutze das Präteritum von “pflegen” für vergangene Gewohnheiten auf Deutsch.",
     study: {
       vocab: [
-        ["stillen", "to breastfeed"],
-        ["das Kinderbett", "the crib"],
-        ["dem Baby ein Bäuerchen machen", "to burp the baby"],
-        ["die Schlafenszeit-Routine", "bedtime routine"],
-        ["babysitten", "to babysit"],
-        ["der Kinderarzt", "the pediatrician"],
+        ["stillen", "amamantar"],
+        ["das Kinderbett", "la cuna"],
+        ["dem Baby ein Bäuerchen machen", "hacer eructar al bebé"],
+        ["die Schlafenszeit-Routine", "la rutina para dormir"],
+        ["babysitten", "cuidar niños"],
+        ["der Kinderarzt", "el pediatra"],
       ],
       grammar: [
         ["“Früher” + Präteritum para hábitos pasados", "“Früher” + verbo en Präteritum expresa un hábito que ya no es cierto en el presente, similar a “used to” en inglés.", "Das Baby wachte früher alle zwei Stunden auf. / Wir besuchten den Kinderarzt früher jeden Monat."],
@@ -2673,12 +2673,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de descubrimientos arqueológicos usando modales de deducción en alemán.",
     study: {
       vocab: [
-        ["die archäologische Stätte", "archaeological site"],
-        ["ausgraben", "to excavate"],
-        ["die alte Zivilisation", "ancient civilization"],
-        ["das Artefakt", "artifact"],
-        ["datieren (einen Fund)", "to date (a find)"],
-        ["die Ruinen", "ruins"],
+        ["die archäologische Stätte", "el yacimiento arqueológico"],
+        ["ausgraben", "excavar"],
+        ["die alte Zivilisation", "una civilización antigua"],
+        ["das Artefakt", "un artefacto"],
+        ["datieren (einen Fund)", "datar (un hallazgo)"],
+        ["die Ruinen", "las ruinas"],
       ],
       grammar: [
         ["Modalverben der Vermutung über die Vergangenheit", "“Muss” + Partizip II + “haben/sein” expresa una deducción fuerte sobre el pasado; “könnte” expresa una posibilidad menos segura.", "Dieses Artefakt muss einem König gehört haben. / Die Stätte könnte ein Tempel gewesen sein."],
@@ -2698,12 +2698,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la neurociencia usando la inversión enfática en registro académico en alemán.",
     study: {
       vocab: [
-        ["die neuronale Bahn", "neural pathway"],
-        ["die Synapse", "synapse"],
-        ["die Neuroplastizität", "neuroplasticity"],
-        ["die kognitive Funktion", "cognitive function"],
-        ["der Neurotransmitter", "neurotransmitter"],
-        ["die Hirnscan", "brain scan"],
+        ["die neuronale Bahn", "la vía neuronal"],
+        ["die Synapse", "la sinapsis"],
+        ["die Neuroplastizität", "la neuroplasticidad"],
+        ["die kognitive Funktion", "la función cognitiva"],
+        ["der Neurotransmitter", "el neurotransmisor"],
+        ["die Hirnscan", "el escáner cerebral"],
       ],
       grammar: [
         ["Inversion nach Adverbien für die Betonung", "En alemán formal/académico, cuando un adverbio (“Selten”, “Nur so”) inicia la oración, el verbo conjugado va inmediatamente después (orden V2), invirtiendo el orden habitual.", "Selten haben Forscher so klare Beweise für Neuroplastizität gefunden. / Nur so lässt sich die kognitive Funktion erklären."],
@@ -2723,12 +2723,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la economía conductual usando nominalización en registro académico en alemán.",
     study: {
       vocab: [
-        ["die kognitive Verzerrung", "cognitive bias"],
-        ["die Verlustaversion", "loss aversion"],
-        ["der Ankereffekt", "anchoring effect"],
-        ["die Entscheidungsfindung", "decision-making"],
-        ["das irrationale Verhalten", "irrational behavior"],
-        ["der sanfte Anstoß", "nudge"],
+        ["die kognitive Verzerrung", "el sesgo cognitivo"],
+        ["die Verlustaversion", "la aversión a la pérdida"],
+        ["der Ankereffekt", "el efecto anclaje"],
+        ["die Entscheidungsfindung", "la toma de decisiones"],
+        ["das irrationale Verhalten", "el comportamiento irracional"],
+        ["der sanfte Anstoß", "el empujón (nudge) conductual"],
       ],
       grammar: [
         ["Nominalisierung im akademischen Register", "La nominalización convierte verbos en sustantivos abstractos (“entscheiden” → “die Entscheidungsfindung”), un rasgo típico del alemán académico formal.", "Die Persistenz der kognitiven Verzerrung beeinflusst die Entscheidungsfindung. / Forscher untersuchen die Vermeidung von Verlusten."],
@@ -2748,12 +2748,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Fotografie-Vokabular und benutze “können” für Fähigkeit auf Deutsch.",
     study: {
       vocab: [
-        ["die Kamera", "camera"],
-        ["das Foto", "photo/picture"],
-        ["das Objektiv", "lens"],
-        ["ein Foto machen", "to take a picture"],
-        ["der Zoom", "zoom"],
-        ["die Speicherkarte", "memory card"],
+        ["die Kamera", "la cámara"],
+        ["das Foto", "la foto"],
+        ["das Objektiv", "el objetivo"],
+        ["ein Foto machen", "tomar una foto"],
+        ["der Zoom", "el zoom"],
+        ["die Speicherkarte", "la tarjeta de memoria"],
       ],
       grammar: [
         ["“Können” für Fähigkeit", "“Können” + infinitivo al final expresa habilidad o capacidad; en negativo se usa “kann nicht”.", "Ich kann mit dieser Kamera gute Fotos machen. / Diese Kamera kann nicht sehr weit zoomen."],
@@ -2773,12 +2773,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Camping-Vokabular und benutze “etwas/kein” für Mengen auf Deutsch.",
     study: {
       vocab: [
-        ["das Zelt", "tent"],
-        ["der Schlafsack", "sleeping bag"],
-        ["das Lagerfeuer", "campfire"],
-        ["der Wanderweg", "hiking trail"],
-        ["der Rucksack", "backpack"],
-        ["ein Zelt aufbauen", "to pitch a tent"],
+        ["das Zelt", "la tienda de campaña"],
+        ["der Schlafsack", "el saco de dormir"],
+        ["das Lagerfeuer", "la hoguera"],
+        ["der Wanderweg", "la ruta de senderismo"],
+        ["der Rucksack", "la mochila"],
+        ["ein Zelt aufbauen", "montar una tienda de campaña"],
       ],
       grammar: [
         ["“Etwas/kein” für Mengen", "“Etwas” se usa en afirmativas para cantidades indefinidas; “kein/keine” se usa en negativas.", "Wir haben etwas Holz für das Lagerfeuer. / Wir haben kein Wasser mehr."],
@@ -2798,12 +2798,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Imkerei-Vokabular und benutze Relativsätze auf Deutsch.",
     study: {
       vocab: [
-        ["der Bienenstock", "beehive"],
-        ["der Honig", "honey"],
-        ["stechen", "to sting"],
-        ["bestäuben", "to pollinate"],
-        ["der Imker", "beekeeper"],
-        ["die Bienenkönigin", "queen bee"],
+        ["der Bienenstock", "la colmena"],
+        ["der Honig", "la miel"],
+        ["stechen", "picar"],
+        ["bestäuben", "polinizar"],
+        ["der Imker", "el apicultor"],
+        ["die Bienenkönigin", "la abeja reina"],
       ],
       grammar: [
         ["Relativsätze (der/die/das)", "Los pronombres relativos alemanes (“der, die, das”) concuerdan en género y número con el sustantivo al que se refieren, y su caso depende de su función en la cláusula.", "Der Imker, der diesen Bienenstock betreut, ist sehr erfahren. / Bienen, die Blumen bestäuben, sind für die Landwirtschaft wichtig."],
@@ -2823,12 +2823,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de criptomonedas usando el Konjunktiv II der Vergangenheit en alemán.",
     study: {
       vocab: [
-        ["die Kryptowährung", "cryptocurrency"],
-        ["die Blockchain", "blockchain"],
-        ["die digitale Geldbörse", "digital wallet"],
-        ["investieren", "to invest"],
-        ["die Volatilität", "volatility"],
-        ["dezentralisiert", "decentralized"],
+        ["die Kryptowährung", "la criptomoneda"],
+        ["die Blockchain", "la cadena de bloques"],
+        ["die digitale Geldbörse", "la cartera digital"],
+        ["investieren", "invertir"],
+        ["die Volatilität", "la volatilidad"],
+        ["dezentralisiert", "descentralizado"],
       ],
       grammar: [
         ["Konjunktiv II der Vergangenheit para hipótesis irreales", "Para hipótesis irreales sobre el pasado se usa “wenn” + Plusquamperfekt (Konjunktiv II), y “würde/hätte” en la consecuencia.", "Wenn ich früher investiert hätte, hätte ich mehr Geld verdient. / Wenn der Markt nicht eingebrochen wäre, wären die Preise hoch geblieben."],
@@ -2848,12 +2848,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la bioética usando “so...dass/derart...dass” para énfasis en alemán.",
     study: {
       vocab: [
-        ["die Genom-Editierung", "gene editing"],
-        ["die informierte Einwilligung", "informed consent"],
-        ["die klinische Studie", "clinical trial"],
-        ["die genetische Veränderung", "genetic modification"],
-        ["das ethische Dilemma", "ethical dilemma"],
-        ["die DNA manipulieren", "to manipulate DNA"],
+        ["die Genom-Editierung", "la edición genética"],
+        ["die informierte Einwilligung", "el consentimiento informado"],
+        ["die klinische Studie", "el ensayo clínico"],
+        ["die genetische Veränderung", "la modificación genética"],
+        ["das ethische Dilemma", "el dilema ético"],
+        ["die DNA manipulieren", "manipular el ADN"],
       ],
       grammar: [
         ["“So...dass/derart...dass” para énfasis", "“So” + adjetivo/adverbio + “dass” expresa una consecuencia enfática, típica del registro formal/académico.", "Die Genom-Editierung ist so mächtig, dass sie ernste ethische Fragen aufwirft. / Es ist ein derart komplexes Dilemma, dass Experten noch uneinig sind."],
@@ -2873,12 +2873,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la geopolítica usando el Partizip I/II en registro académico en alemán.",
     study: {
       vocab: [
-        ["die diplomatischen Beziehungen", "diplomatic relations"],
-        ["die Souveränität", "sovereignty"],
-        ["die Sanktionen", "sanctions"],
-        ["das bilaterale Abkommen", "bilateral agreement"],
-        ["die geopolitische Spannung", "geopolitical tension"],
-        ["einen Vertrag aushandeln", "to negotiate a treaty"],
+        ["die diplomatischen Beziehungen", "las relaciones diplomáticas"],
+        ["die Souveränität", "la soberanía"],
+        ["die Sanktionen", "las sanciones"],
+        ["das bilaterale Abkommen", "el acuerdo bilateral"],
+        ["die geopolitische Spannung", "la tensión geopolítica"],
+        ["einen Vertrag aushandeln", "negociar un tratado"],
       ],
       grammar: [
         ["Partizipialkonstruktionen für ein knappes akademisches Register", "Las construcciones de participio (“Nach Analyse der Daten...”, “Angesichts der zunehmenden Sanktionen...”) reemplazan cláusulas subordinadas completas para un estilo más conciso y formal.", "Nach Analyse der Daten kamen die Forscher zu dem Schluss, dass die Spannungen zunehmen würden. / Angesichts der zunehmenden Sanktionen änderte die Regierung ihre Politik."],
@@ -2898,12 +2898,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Friseur-Vokabular und benutze den Komparativ und Superlativ auf Deutsch.",
     study: {
       vocab: [
-        ["der Haarschnitt", "haircut"],
-        ["der Friseur/die Friseurin", "hairdresser"],
-        ["die Schere", "scissors"],
-        ["kurze/lange Haare", "short/long hair"],
-        ["stutzen", "to trim"],
-        ["der Spiegel", "mirror"],
+        ["der Haarschnitt", "el corte de pelo"],
+        ["der Friseur/die Friseurin", "el peluquero"],
+        ["die Schere", "las tijeras"],
+        ["kurze/lange Haare", "pelo corto/largo"],
+        ["stutzen", "recortar"],
+        ["der Spiegel", "el espejo"],
       ],
       grammar: [
         ["Komparativ und Superlativ", "El comparativo se forma con “-er”, y el superlativo con “am... -sten”.", "Dieser Haarschnitt ist kürzer als der letzte. / Sie hat die längsten Haare in der Familie."],
@@ -2923,12 +2923,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vokabular der Autowerkstatt und benutze “viel/viele” auf Deutsch.",
     study: {
       vocab: [
-        ["der Mechaniker", "mechanic"],
-        ["der Platten", "flat tire"],
-        ["der Motor", "engine"],
-        ["das Auto reparieren", "to fix the car"],
-        ["das Ersatzteil", "spare part"],
-        ["der Ölwechsel", "oil change"],
+        ["der Mechaniker", "el mecánico"],
+        ["der Platten", "la rueda pinchada"],
+        ["der Motor", "el motor"],
+        ["das Auto reparieren", "arreglar el coche"],
+        ["das Ersatzteil", "la pieza de repuesto"],
+        ["der Ölwechsel", "el cambio de aceite"],
       ],
       grammar: [
         ["“Viel/viele” für Mengen", "“Viel” se usa con sustantivos incontables singulares, “viele” con sustantivos contables plurales.", "Diese Reparatur braucht viele Ersatzteile. / Es bleibt nicht viel Zeit vor der Reise."],
@@ -2948,12 +2948,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Musikvokabular und die Infinitivkonstruktion mit “zu” auf Deutsch.",
     study: {
       vocab: [
-        ["Tonleitern üben", "to practice scales"],
-        ["die Noten", "sheet music"],
-        ["ein Instrument stimmen", "to tune an instrument"],
-        ["der Rhythmus", "rhythm"],
-        ["der Musiklehrer", "music teacher"],
-        ["auftreten", "to perform"],
+        ["Tonleitern üben", "practicar escalas"],
+        ["die Noten", "la partitura"],
+        ["ein Instrument stimmen", "afinar un instrumento"],
+        ["der Rhythmus", "el ritmo"],
+        ["der Musiklehrer", "el profesor de música"],
+        ["auftreten", "actuar/interpretar"],
       ],
       grammar: [
         ["Infinitiv mit “zu”", "Muchos verbos alemanes van seguidos de “zu” + infinitivo al final de la oración, sobre todo tras verbos como “versuchen” o “wollen” (este último sin “zu”).", "Ich übe gern jeden Morgen Tonleitern zu spielen. / Sie will vor einem Publikum auftreten."],
@@ -2973,12 +2973,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla del reciclaje usando el presente para verdades generales (Konditional null) en alemán.",
     study: {
       vocab: [
-        ["recyceln", "to recycle"],
-        ["die Kreislaufwirtschaft", "circular economy"],
-        ["die Abfallwirtschaft", "waste management"],
-        ["wiederverwenden", "to reuse"],
-        ["die Mülldeponie", "landfill"],
-        ["der Rohstoff", "raw material"],
+        ["recyceln", "reciclar"],
+        ["die Kreislaufwirtschaft", "la economía circular"],
+        ["die Abfallwirtschaft", "la gestión de residuos"],
+        ["wiederverwenden", "reutilizar"],
+        ["die Mülldeponie", "el vertedero"],
+        ["der Rohstoff", "la materia prima"],
       ],
       grammar: [
         ["Präsens für allgemeine Wahrheiten (Konditional null)", "En alemán, el condicional cero se expresa con “wenn” + presente en ambas cláusulas, para hechos o verdades generales.", "Wenn man Papier recycelt, spart das Bäume. / Materialien landen auf einer Mülldeponie, wenn sie nicht wiederverwendet werden."],
@@ -2998,12 +2998,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la justicia social usando “wenn nur/hätte” para arrepentimiento en registro formal en alemán.",
     study: {
       vocab: [
-        ["die soziale Gerechtigkeit", "social justice"],
-        ["die Ungleichheit", "inequality"],
-        ["die Bürgerrechte", "civil rights"],
-        ["die Umverteilung", "redistribution"],
-        ["die systemische Unterdrückung", "systemic oppression"],
-        ["das Gemeinwohl", "common good"],
+        ["die soziale Gerechtigkeit", "la justicia social"],
+        ["die Ungleichheit", "la desigualdad"],
+        ["die Bürgerrechte", "los derechos civiles"],
+        ["die Umverteilung", "la redistribución"],
+        ["die systemische Unterdrückung", "la opresión sistémica"],
+        ["das Gemeinwohl", "el bien común"],
       ],
       grammar: [
         ["“Wenn nur” + Plusquamperfekt für Bedauern", "“Wenn nur” + Plusquamperfekt (Konjunktiv II) expresa arrepentimiento o el deseo de que algo pasado hubiera sido diferente.", "Wenn nur frühere Reformen die systemische Unterdrückung angegangen wären. / Philosophen wünschten sich, Ungleichheit könnte allein durch Politik gelöst werden."],
@@ -3023,12 +3023,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza los rituales culturales usando comparativos dobles en alemán.",
     study: {
       vocab: [
-        ["das Ritual", "ritual"],
-        ["der Kulturrelativismus", "cultural relativism"],
-        ["der Übergangsritus", "rite of passage"],
-        ["die Verwandtschaft", "kinship"],
-        ["die kollektive Identität", "collective identity"],
-        ["die mündliche Überlieferung", "oral tradition"],
+        ["das Ritual", "el ritual"],
+        ["der Kulturrelativismus", "el relativismo cultural"],
+        ["der Übergangsritus", "el rito de iniciación"],
+        ["die Verwandtschaft", "el parentesco"],
+        ["die kollektive Identität", "la identidad colectiva"],
+        ["die mündliche Überlieferung", "la tradición oral"],
       ],
       grammar: [
         ["Doppelte Komparative (“je... desto...”)", "La estructura “je + comparativo, desto + comparativo” expresa cómo dos cosas cambian juntas de forma proporcional.", "Je mehr Anthropologen Rituale untersuchen, desto mehr verstehen sie die kollektive Identität. / Je älter die Tradition, desto stärker ihr Einfluss."],
@@ -3048,12 +3048,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Werkzeug-Vokabular und benutze den Gleichheitsvergleich (“so... wie”) auf Deutsch.",
     study: {
       vocab: [
-        ["der Hammer", "hammer"],
-        ["der Schraubenzieher", "screwdriver"],
-        ["der Nagel", "nail"],
-        ["die Schraube", "screw"],
-        ["der Werkzeugkasten", "toolbox"],
-        ["die Leiter", "ladder"],
+        ["der Hammer", "el martillo"],
+        ["der Schraubenzieher", "el destornillador"],
+        ["der Nagel", "el clavo"],
+        ["die Schraube", "el tornillo"],
+        ["der Werkzeugkasten", "la caja de herramientas"],
+        ["die Leiter", "la escalera"],
       ],
       grammar: [
         ["Gleichheitsvergleich (“so... wie”)", "“So” + adjetivo + “wie” expresa que dos cosas son iguales en cierta cualidad.", "Dieser Hammer ist so schwer wie jener. / Die Leiter ist nicht so hoch wie die Mauer."],
@@ -3073,12 +3073,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Wäscherei-Vokabular und benutze “ein paar/ein bisschen” auf Deutsch.",
     study: {
       vocab: [
-        ["die Waschmaschine", "washing machine"],
-        ["das Waschmittel", "detergent"],
-        ["die Wäsche aufhängen", "to hang out clothes"],
-        ["der Fleck", "stain"],
-        ["der Wäschetrockner", "dryer"],
-        ["bügeln", "to iron"],
+        ["die Waschmaschine", "la lavadora"],
+        ["das Waschmittel", "el detergente"],
+        ["die Wäsche aufhängen", "tender la ropa"],
+        ["der Fleck", "la mancha"],
+        ["der Wäschetrockner", "la secadora"],
+        ["bügeln", "planchar"],
       ],
       grammar: [
         ["“Ein paar/ein bisschen” für kleine Mengen", "“Ein paar” se usa con sustantivos contables, “ein bisschen” con incontables, ambos para cantidades pequeñas pero suficientes.", "Ich brauche ein bisschen Waschmittel für diese Ladung. / Es gibt ein paar Flecken auf diesem Hemd."],
@@ -3098,12 +3098,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Schach-Vokabular und benutze den Konditionalsatz Typ 1 (reale Zukunft) auf Deutsch.",
     study: {
       vocab: [
-        ["das Schachbrett", "chessboard"],
-        ["Schachmatt setzen", "to checkmate"],
-        ["der Bauer", "pawn"],
-        ["eine Figur ziehen", "to move a piece"],
-        ["die Strategie", "strategy"],
-        ["der Gegner", "opponent"],
+        ["das Schachbrett", "el tablero de ajedrez"],
+        ["Schachmatt setzen", "dar jaque mate"],
+        ["der Bauer", "el peón"],
+        ["eine Figur ziehen", "mover una pieza"],
+        ["die Strategie", "la estrategia"],
+        ["der Gegner", "el oponente"],
       ],
       grammar: [
         ["Konditionalsatz Typ 1 (“wenn” + Präsens, “werden”)", "Para consecuencias reales y probables en el futuro se usa “wenn” + presente, y “werden” + infinitivo en la consecuencia.", "Wenn du diese Figur ziehst, wirst du das Spiel verlieren. / Wenn sie ihre Strategie gut plant, wird sie gewinnen."],
@@ -3123,12 +3123,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de restauración usando la construcción con “lassen” en alemán.",
     study: {
       vocab: [
-        ["restaurieren", "to restore"],
-        ["die Kulturerbestätte", "heritage site"],
-        ["die Fassade", "facade"],
-        ["das Gerüst", "scaffolding"],
-        ["bewahren", "to preserve"],
-        ["der Strukturschaden", "structural damage"],
+        ["restaurieren", "restaurar"],
+        ["die Kulturerbestätte", "el sitio patrimonial"],
+        ["die Fassade", "la fachada"],
+        ["das Gerüst", "el andamio"],
+        ["bewahren", "preservar"],
+        ["der Strukturschaden", "el daño estructural"],
       ],
       grammar: [
         ["Konstruktion mit “lassen” (etwas machen lassen)", "“Lassen” + infinitivo al final expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "Die Stadt ließ die Fassade letztes Jahr restaurieren. / Sie lassen das Dach diesen Monat reparieren."],
@@ -3148,12 +3148,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza el método científico usando cláusulas de propósito (“um... zu/damit”) en alemán.",
     study: {
       vocab: [
-        ["die Hypothese", "hypothesis"],
-        ["die Falsifizierbarkeit", "falsifiability"],
-        ["empirische Belege", "empirical evidence"],
-        ["die Peer-Review", "peer review"],
-        ["eine Studie replizieren", "to replicate a study"],
-        ["der Paradigmenwechsel", "paradigm shift"],
+        ["die Hypothese", "la hipótesis"],
+        ["die Falsifizierbarkeit", "la falsabilidad"],
+        ["empirische Belege", "la evidencia empírica"],
+        ["die Peer-Review", "la revisión por pares"],
+        ["eine Studie replizieren", "replicar un estudio"],
+        ["der Paradigmenwechsel", "el cambio de paradigma"],
       ],
       grammar: [
         ["Finalsätze (“um... zu/damit”)", "“Um... zu” + infinitivo (mismo sujeto) y “damit” + cláusula (sujetos distintos) expresan el propósito de una acción.", "Wissenschaftler replizieren Studien, um Ergebnisse zu bestätigen. / Forscher veröffentlichen Daten, damit andere sie überprüfen können."],
@@ -3173,12 +3173,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la teoría de juegos usando “weder... noch” y concesión con “während” en alemán.",
     study: {
       vocab: [
-        ["das Nash-Gleichgewicht", "Nash equilibrium"],
-        ["das Nullsummenspiel", "zero-sum game"],
-        ["die Auszahlungsmatrix", "payoff matrix"],
-        ["die dominante Strategie", "dominant strategy"],
-        ["der rationale Akteur", "rational actor"],
-        ["das Gefangenendilemma", "prisoner's dilemma"],
+        ["das Nash-Gleichgewicht", "el equilibrio de Nash"],
+        ["das Nullsummenspiel", "el juego de suma cero"],
+        ["die Auszahlungsmatrix", "la matriz de resultados"],
+        ["die dominante Strategie", "la estrategia dominante"],
+        ["der rationale Akteur", "el actor racional"],
+        ["das Gefangenendilemma", "el dilema del prisionero"],
       ],
       grammar: [
         ["“Weder... noch” y concesión con “während”", "“Weder... noch” niega dos opciones a la vez; “während” introduce un contraste formal entre dos ideas.", "Weder der eine noch der andere Spieler profitiert vom gegenseitigen Verrat. / Während Kooperation den gemeinsamen Gewinn maximiert, setzt sich oft Eigeninteresse durch."],
@@ -3198,12 +3198,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Tauch-Vokabular und benutze Präpositionen des Ortes auf Deutsch.",
     study: {
       vocab: [
-        ["tauchen", "to dive"],
-        ["der Schnorchel", "snorkel"],
-        ["der Fisch", "fish"],
-        ["das Korallenriff", "coral reef"],
-        ["der Taucheranzug", "wetsuit"],
-        ["unter Wasser", "underwater"],
+        ["tauchen", "bucear"],
+        ["der Schnorchel", "el tubo de buceo"],
+        ["der Fisch", "el pez"],
+        ["das Korallenriff", "el arrecife de coral"],
+        ["der Taucheranzug", "el traje de neopreno"],
+        ["unter Wasser", "bajo el agua"],
       ],
       grammar: [
         ["Präpositionen des Ortes (in/auf/unter/neben)", "“In” indica dentro de algo, “auf” indica encima de una superficie, “unter” indica debajo, y “neben” indica al lado. Con posición (dónde) usan dativo.", "Die Fische schwimmen im Wasser. / Das Korallenriff ist unter dem Boot."],
@@ -3223,12 +3223,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Bastel-Vokabular und benutze Reihenfolgewörter auf Deutsch.",
     study: {
       vocab: [
-        ["falten", "to fold"],
-        ["das Papier", "paper"],
-        ["die Schere", "scissors"],
-        ["der Klebstoff", "glue"],
-        ["die Falte", "crease"],
-        ["die Bastelarbeit", "craft"],
+        ["falten", "doblar"],
+        ["das Papier", "el papel"],
+        ["die Schere", "las tijeras"],
+        ["der Klebstoff", "el pegamento"],
+        ["die Falte", "el pliegue"],
+        ["die Bastelarbeit", "la manualidad"],
       ],
       grammar: [
         ["Reihenfolgewörter (zuerst, dann, danach, schließlich)", "Los secuenciadores organizan los pasos de un proceso en orden: “zuerst” (primero), “dann/danach” (luego), “schließlich” (finalmente).", "Zuerst falte das Papier in der Mitte. Dann mache eine Falte. Schließlich falte die Ecken."],
@@ -3248,12 +3248,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Paläontologie-Vokabular und benutze “schon/noch nicht/immer noch” mit dem Perfekt auf Deutsch.",
     study: {
       vocab: [
-        ["das Fossil", "fossil"],
-        ["der Dinosaurierknochen", "dinosaur bone"],
-        ["die Ausgrabungsstätte", "excavation site"],
-        ["ausgestorben", "extinct"],
-        ["das Skelett", "skeleton"],
-        ["ausgraben", "to dig up"],
+        ["das Fossil", "el fósil"],
+        ["der Dinosaurierknochen", "el hueso de dinosaurio"],
+        ["die Ausgrabungsstätte", "el sitio de excavación"],
+        ["ausgestorben", "extinto"],
+        ["das Skelett", "el esqueleto"],
+        ["ausgraben", "desenterrar"],
       ],
       grammar: [
         ["“Schon/noch nicht/immer noch” mit dem Perfekt", "“Schon” (ya) se usa en afirmativas, “noch nicht” (todavía no) en negativas, y “immer noch” (todavía) enfatiza una situación que continúa.", "Sie haben das Skelett schon gefunden. / Sie haben die Ausgrabung noch nicht beendet. / Wissenschaftler untersuchen das Fossil immer noch."],
@@ -3273,12 +3273,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de arte urbano usando “wenn... nicht/außer wenn” en alemán.",
     study: {
       vocab: [
-        ["das Wandgemälde", "mural"],
-        ["die Sprühfarbe", "spray paint"],
-        ["der öffentliche Raum", "public space"],
-        ["der Vandalismus", "vandalism"],
-        ["der Straßenkünstler", "street artist"],
-        ["ein Wandgemälde in Auftrag geben", "to commission a mural"],
+        ["das Wandgemälde", "el mural"],
+        ["die Sprühfarbe", "la pintura en aerosol"],
+        ["der öffentliche Raum", "el espacio público"],
+        ["der Vandalismus", "el vandalismo"],
+        ["der Straßenkünstler", "el artista callejero"],
+        ["ein Wandgemälde in Auftrag geben", "encargar un mural"],
       ],
       grammar: [
         ["“Außer wenn/wenn... nicht” para condición negativa", "“Außer wenn” o “wenn... nicht” expresan una condición negativa, equivalentes a “unless” en inglés.", "Außer wenn die Stadt es genehmigt, gilt das Wandgemälde als Vandalismus. / Sie malt nicht, außer wenn sie eine Genehmigung hat."],
@@ -3298,12 +3298,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la criminología usando “können/mögen” para posibilidad en registro formal en alemán.",
     study: {
       vocab: [
-        ["forensische Beweise", "forensic evidence"],
-        ["der Verdächtige", "suspect"],
-        ["verurteilen", "to convict"],
-        ["der begründete Zweifel", "reasonable doubt"],
-        ["die Rückfälligkeit", "recidivism"],
-        ["die Rehabilitation", "rehabilitation"],
+        ["forensische Beweise", "la evidencia forense"],
+        ["der Verdächtige", "el sospechoso"],
+        ["verurteilen", "condenar"],
+        ["der begründete Zweifel", "la duda razonable"],
+        ["die Rückfälligkeit", "la reincidencia"],
+        ["die Rehabilitation", "la rehabilitación"],
       ],
       grammar: [
         ["“Könnte/könnten” para posibilidad formal", "“Könnte” (Konjunktiv II de “können”) expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "Die forensischen Beweise könnten auf den Verdächtigen hindeuten. / Ohne Rehabilitation könnte die Rückfälligkeit zunehmen."],
@@ -3323,12 +3323,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la filosofía del lenguaje usando el Konjunktiv I en discurso indirecto formal en alemán.",
     study: {
       vocab: [
-        ["der Sprechakt", "speech act"],
-        ["die Referenz", "reference"],
-        ["die Bedeutung", "meaning"],
-        ["die Mehrdeutigkeit", "ambiguity"],
-        ["die sprachliche Relativität", "linguistic relativity"],
-        ["die Proposition", "proposition"],
+        ["der Sprechakt", "el acto de habla"],
+        ["die Referenz", "la referencia"],
+        ["die Bedeutung", "el significado"],
+        ["die Mehrdeutigkeit", "la ambigüedad"],
+        ["die sprachliche Relativität", "la relatividad lingüística"],
+        ["die Proposition", "la proposición"],
       ],
       grammar: [
         ["Konjunktiv I en discurso académico indirecto", "El Konjunktiv I se usa en alemán formal/académico para reportar afirmaciones ajenas sin adoptar su verdad, muy común al citar teorías filosóficas.", "Der Philosoph behauptet, die Bedeutung entstehe durch den Gebrauch. / Manche Linguisten argumentieren, der Kontext sei entscheidend."],
@@ -3348,12 +3348,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Zirkus-Vokabular und benutze Ausrufe (“was für.../wie...”) auf Deutsch.",
     study: {
       vocab: [
-        ["der Clown", "clown"],
-        ["das Hochseil", "tightrope"],
-        ["der Jongleur", "juggler"],
-        ["der Akrobat", "acrobat"],
-        ["das Zelt", "tent"],
-        ["erstaunlich", "amazing"],
+        ["der Clown", "el payaso"],
+        ["das Hochseil", "la cuerda floja"],
+        ["der Jongleur", "el malabarista"],
+        ["der Akrobat", "el acróbata"],
+        ["das Zelt", "la tienda de campaña"],
+        ["erstaunlich", "asombroso"],
       ],
       grammar: [
         ["Ausrufe (“was für.../wie...”)", "“Was für ein/eine” + sustantivo y “Wie” + adjetivo expresan sorpresa o admiración de forma exclamativa.", "Was für ein erstaunlicher Jongleur! / Wie erstaunlich diese Show ist!"],
@@ -3373,12 +3373,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Flohmarkt-Vokabular und benutze “zu/genug” auf Deutsch.",
     study: {
       vocab: [
-        ["der Flohmarkt", "flea market"],
-        ["das Schnäppchen", "bargain"],
-        ["feilschen", "to haggle"],
-        ["gebraucht", "secondhand"],
-        ["der Verkäufer", "vendor"],
-        ["die Antiquität", "antique"],
+        ["der Flohmarkt", "el mercadillo"],
+        ["das Schnäppchen", "la ganga"],
+        ["feilschen", "regatear"],
+        ["gebraucht", "de segunda mano"],
+        ["der Verkäufer", "el vendedor"],
+        ["die Antiquität", "la antigüedad"],
       ],
       grammar: [
         ["“Zu/genug”", "“Zu” + adjetivo indica exceso (“demasiado”), mientras que “adjetivo + genug” indica suficiencia (“lo suficientemente”).", "Diese Antiquität ist zu teuer. / Ich habe nicht genug Geld für dieses Schnäppchen."],
@@ -3398,12 +3398,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Genealogie-Vokabular und benutze “obwohl” auf Deutsch.",
     study: {
       vocab: [
-        ["der Stammbaum", "family tree"],
-        ["der Vorfahre", "ancestor"],
-        ["der Nachkomme", "descendant"],
-        ["die Geburtsurkunde", "birth certificate"],
-        ["der Urgroßelternteil", "great-grandparent"],
-        ["seine Wurzeln zurückverfolgen", "to trace one's roots"],
+        ["der Stammbaum", "el árbol genealógico"],
+        ["der Vorfahre", "el antepasado"],
+        ["der Nachkomme", "el descendiente"],
+        ["die Geburtsurkunde", "el certificado de nacimiento"],
+        ["der Urgroßelternteil", "el bisabuelo/la bisabuela"],
+        ["seine Wurzeln zurückverfolgen", "rastrear las propias raíces"],
       ],
       grammar: [
         ["“Obwohl” para concesión", "“Obwohl” + cláusula (verbo al final) introduce un contraste o concesión, equivalente a “although” en inglés.", "Obwohl die Unterlagen alt sind, haben wir unsere Wurzeln zurückverfolgt. / Obwohl sie ihre Urgroßmutter nie kennengelernt hat, kennt sie die Familiengeschichte."],
@@ -3423,12 +3423,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de fenómenos meteorológicos extremos usando “trotz” en alemán.",
     study: {
       vocab: [
-        ["der Hurrikan", "hurricane"],
-        ["der Tornado", "tornado"],
-        ["die Dürre", "drought"],
-        ["die Sturzflut", "flash flood"],
-        ["die Windgeschwindigkeit", "wind speed"],
-        ["eine Warnung herausgeben", "to issue a warning"],
+        ["der Hurrikan", "el huracán"],
+        ["der Tornado", "el tornado"],
+        ["die Dürre", "la sequía"],
+        ["die Sturzflut", "la inundación repentina"],
+        ["die Windgeschwindigkeit", "la velocidad del viento"],
+        ["eine Warnung herausgeben", "emitir una alerta"],
       ],
       grammar: [
         ["“Trotz” + Genitiv/sustantivo", "“Trotz” + genitivo (o dativo en habla coloquial) introduce un contraste, similar a “obwohl” pero con sustantivo en lugar de cláusula.", "Trotz der Warnung blieben viele Menschen an der Küste. / Trotz der herausgegebenen Warnung konnten die Behörden den Schaden nicht verhindern."],
@@ -3448,12 +3448,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la gentrificación usando “hätte... sollen” para crítica del pasado en alemán.",
     study: {
       vocab: [
-        ["die Gentrifizierung", "gentrification"],
-        ["die Verdrängung", "displacement"],
-        ["der bezahlbare Wohnraum", "affordable housing"],
-        ["die Stadterneuerung", "urban renewal"],
-        ["die steigende Miete", "rising rent"],
-        ["die lokale Gemeinschaft", "local community"],
+        ["die Gentrifizierung", "la gentrificación"],
+        ["die Verdrängung", "el desplazamiento"],
+        ["der bezahlbare Wohnraum", "la vivienda asequible"],
+        ["die Stadterneuerung", "la renovación urbana"],
+        ["die steigende Miete", "el aumento del alquiler"],
+        ["die lokale Gemeinschaft", "la comunidad local"],
       ],
       grammar: [
         ["“Hätte... sollen” para crítica del pasado", "“Hätte” + participio + “sollen” expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "Die Stadt hätte bezahlbaren Wohnraum schützen sollen. / Die Behörden hätten die Anliegen der Gemeinschaft nicht ignorieren sollen."],
@@ -3473,12 +3473,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la epistemología usando la inversión “kaum... als” en alemán.",
     study: {
       vocab: [
-        ["die Erkenntnistheorie", "epistemology"],
-        ["die gerechtfertigte wahre Meinung", "justified true belief"],
-        ["der Skeptizismus", "skepticism"],
-        ["die Gewissheit", "certainty"],
-        ["das Wissen a priori", "a priori knowledge"],
-        ["die epistemische Demut", "epistemic humility"],
+        ["die Erkenntnistheorie", "la epistemología"],
+        ["die gerechtfertigte wahre Meinung", "la creencia verdadera justificada"],
+        ["der Skeptizismus", "el escepticismo"],
+        ["die Gewissheit", "la certeza"],
+        ["das Wissen a priori", "el conocimiento a priori"],
+        ["die epistemische Demut", "la humildad epistémica"],
       ],
       grammar: [
         ["Inversión con “kaum... als”", "“Kaum... als” expresa que una acción ocurrió inmediatamente después de otra; al colocar “kaum” al inicio, se invierte el orden verbo-sujeto, muy formal.", "Kaum hatten Philosophen eine Theorie der Gewissheit vorgeschlagen, als Skeptiker sie infrage stellten. / Kaum behauptet man, etwas zu wissen, als Zweifel entstehen."],
@@ -3498,12 +3498,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Vogelbeobachtungs-Vokabular und benutze Possessivpronomen auf Deutsch.",
     study: {
       vocab: [
-        ["das Fernglas", "binoculars"],
-        ["das Nest", "nest"],
-        ["die Feder", "feather"],
-        ["der Schnabel", "beak"],
-        ["fliegen", "to fly"],
-        ["der Flügel", "wing"],
+        ["das Fernglas", "los prismáticos"],
+        ["das Nest", "el nido"],
+        ["die Feder", "la pluma"],
+        ["der Schnabel", "el pico"],
+        ["fliegen", "volar"],
+        ["der Flügel", "el ala"],
       ],
       grammar: [
         ["Possessivpronomen (mein/dein/sein/ihr/unser/ihr)", "Los pronombres posesivos alemanes concuerdan en género, número y caso con el sustantivo que sigue.", "Mein Fernglas ist neu. / Der Vogel benutzt seine Flügel zum Fliegen."],
@@ -3523,12 +3523,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Töpferei-Vokabular und benutze “wie viel/wie viele” auf Deutsch.",
     study: {
       vocab: [
-        ["der Ton", "clay"],
-        ["die Töpferscheibe", "pottery wheel"],
-        ["der Brennofen", "kiln"],
-        ["formen", "to shape"],
-        ["die Glasur", "glaze"],
-        ["die Schüssel", "bowl"],
+        ["der Ton", "la arcilla"],
+        ["die Töpferscheibe", "el torno de alfarero"],
+        ["der Brennofen", "el horno de cerámica"],
+        ["formen", "moldear"],
+        ["die Glasur", "el esmalte"],
+        ["die Schüssel", "el cuenco"],
       ],
       grammar: [
         ["“Wie viel/wie viele”", "“Wie viel” se usa con sustantivos incontables, “wie viele” con sustantivos contables, para preguntar cantidad.", "Wie viel Ton brauchst du? / Wie viele Schüsseln hast du gemacht?"],
@@ -3548,12 +3548,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kampfkunst-Vokabular und benutze “sowohl...als auch/entweder...oder” auf Deutsch.",
     study: {
       vocab: [
-        ["die Kampfkunst", "martial arts"],
-        ["der schwarze Gürtel", "black belt"],
-        ["die Technik", "technique"],
-        ["der Griff des Gegners", "opponent's grip"],
-        ["das Gleichgewicht", "balance"],
-        ["das Dojo", "dojo"],
+        ["die Kampfkunst", "las artes marciales"],
+        ["der schwarze Gürtel", "el cinturón negro"],
+        ["die Technik", "la técnica"],
+        ["der Griff des Gegners", "el agarre del oponente"],
+        ["das Gleichgewicht", "el equilibrio"],
+        ["das Dojo", "el dojo"],
       ],
       grammar: [
         ["“Sowohl...als auch/entweder...oder”", "“Sowohl... als auch” conecta dos elementos afirmando ambos; “entweder... oder” presenta dos opciones alternativas.", "Aikido erfordert sowohl Kraft als auch Gleichgewicht. / Du kannst entweder morgens oder abends trainieren."],
@@ -3573,12 +3573,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de micología usando “als ob” en alemán.",
     study: {
       vocab: [
-        ["der Pilz", "mushroom"],
-        ["die Spore", "spore"],
-        ["essbar", "edible"],
-        ["giftig", "poisonous"],
-        ["der Pilz/Schimmel", "fungus"],
-        ["das Myzel", "mycelium"],
+        ["der Pilz", "la seta"],
+        ["die Spore", "la espora"],
+        ["essbar", "comestible"],
+        ["giftig", "venenoso"],
+        ["der Pilz/Schimmel", "el hongo"],
+        ["das Myzel", "el micelio"],
       ],
       grammar: [
         ["“Als ob” + Konjunktiv II", "“Als ob” se usa con Konjunktiv II para expresar una comparación hipotética, aunque se refiera al presente.", "Dieser Pilz sieht aus, als ob er giftig wäre. / Das Myzel breitet sich aus, als ob es einen eigenen Willen hätte."],
@@ -3598,12 +3598,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza los ecosistemas marinos usando “vorausgesetzt, dass/solange” en alemán.",
     study: {
       vocab: [
-        ["das Meeresökosystem", "marine ecosystem"],
-        ["die Biodiversität", "biodiversity"],
-        ["die Nahrungskette", "food chain"],
-        ["die Korallenbleiche", "coral bleaching"],
-        ["die Meeresart", "marine species"],
-        ["die Ozeanversauerung", "ocean acidification"],
+        ["das Meeresökosystem", "el ecosistema marino"],
+        ["die Biodiversität", "la biodiversidad"],
+        ["die Nahrungskette", "la cadena alimentaria"],
+        ["die Korallenbleiche", "el blanqueamiento de coral"],
+        ["die Meeresart", "las especies marinas"],
+        ["die Ozeanversauerung", "la acidificación del océano"],
       ],
       grammar: [
         ["“Vorausgesetzt, dass/solange” para condiciones", "“Vorausgesetzt, dass” y “solange” expresan una condición necesaria, equivalentes a “provided that” en inglés.", "Die marine Biodiversität kann sich erholen, vorausgesetzt, dass die Verschmutzung abnimmt. / Korallenriffe überleben, solange die Wassertemperaturen stabil bleiben."],
@@ -3623,12 +3623,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la cartografía usando “wäre da nicht/ohne” en alemán.",
     study: {
       vocab: [
-        ["der Kartograf", "cartographer"],
-        ["die Projektion", "projection"],
-        ["unerforschtes Gebiet", "uncharted territory"],
-        ["der Maßstab", "scale"],
-        ["das Navigationsinstrument", "navigational instrument"],
-        ["kartieren", "to chart"],
+        ["der Kartograf", "el cartógrafo"],
+        ["die Projektion", "la proyección"],
+        ["unerforschtes Gebiet", "el territorio inexplorado"],
+        ["der Maßstab", "la escala"],
+        ["das Navigationsinstrument", "el instrumento de navegación"],
+        ["kartieren", "cartografiar"],
       ],
       grammar: [
         ["“Wäre da nicht/ohne” para condición formal", "“Wäre da nicht” y “ohne” + sustantivo expresan una condición hipotética formal, equivalentes a “were it not for” en inglés.", "Wären da nicht die frühen Kartografen gewesen, wäre die Erkundung unmöglich gewesen. / Ohne Satellitenbilder wären moderne Karten weit weniger genau."],
@@ -3648,12 +3648,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Näh-Vokabular und benutze einfache reflexive Verben auf Deutsch.",
     study: {
       vocab: [
-        ["die Nadel", "needle"],
-        ["der Faden", "thread"],
-        ["nähen", "to sew"],
-        ["anprobieren", "to try on"],
-        ["der Knopf", "button"],
-        ["der Schneider", "tailor"],
+        ["die Nadel", "la aguja"],
+        ["der Faden", "el hilo"],
+        ["nähen", "coser"],
+        ["anprobieren", "probarse"],
+        ["der Knopf", "el botón"],
+        ["der Schneider", "el sastre"],
       ],
       grammar: [
         ["Einfache reflexive Verben", "Deutsche reflexive Verben benutzen “mich/dich/sich/uns/euch/sich”; “anprobieren” (Kleidung) braucht im Deutschen kein Reflexivpronomen, anders als im Spanischen.", "Ich probiere die Jacke an. / Sie näht den Knopf selbst an."],
@@ -3673,12 +3673,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kletter-Vokabular und benutze “seit... schon” für Dauer auf Deutsch.",
     study: {
       vocab: [
-        ["das Seil", "rope"],
-        ["der Klettergurt", "harness"],
-        ["der Gipfel", "summit"],
-        ["die Klippe", "cliff"],
-        ["klettern", "to climb"],
-        ["der Griff", "grip"],
+        ["das Seil", "la cuerda"],
+        ["der Klettergurt", "el arnés"],
+        ["der Gipfel", "la cima"],
+        ["die Klippe", "el acantilado"],
+        ["klettern", "escalar"],
+        ["der Griff", "el agarre"],
       ],
       grammar: [
         ["“Schon seit... ” + presente para duración continua", "El alemán expresa una acción que empezó en el pasado y continúa usando el presente + “schon seit” + tiempo, a diferencia del inglés que usa presente perfecto continuo.", "Wir klettern schon seit drei Stunden. / Sie trainiert schon seit einem Jahr für den Gipfel."],
@@ -3698,12 +3698,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Numismatik-Vokabular und benutze “sich gewöhnen an/gewöhnt sein an” auf Deutsch.",
     study: {
       vocab: [
-        ["die Münze", "coin"],
-        ["die Münzprägeanstalt", "mint"],
-        ["die seltene Münze", "rare coin"],
-        ["die Sammlung", "collection"],
-        ["die Währung", "currency"],
-        ["schätzen (Wert)", "to appraise"],
+        ["die Münze", "la moneda"],
+        ["die Münzprägeanstalt", "la casa de la moneda"],
+        ["die seltene Münze", "la moneda rara"],
+        ["die Sammlung", "la colección"],
+        ["die Währung", "la divisa"],
+        ["schätzen (Wert)", "tasar"],
       ],
       grammar: [
         ["“Gewöhnt sein an/sich gewöhnen an”", "“Gewöhnt sein an” + Akkusativ expresa un hábito ya establecido; “sich gewöhnen an” expresa el proceso de acostumbrarse.", "Ich bin daran gewöhnt, alte Münzen zu schätzen. / Es dauerte, sich daran zu gewöhnen, seltene Währungen zu sammeln."],
@@ -3723,12 +3723,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de sismología usando preguntas indirectas en alemán.",
     study: {
       vocab: [
-        ["das Erdbeben", "earthquake"],
-        ["das Seismograph", "seismograph"],
-        ["das Epizentrum", "epicenter"],
-        ["die Magnitude", "magnitude"],
-        ["die tektonische Platte", "tectonic plate"],
-        ["das Nachbeben", "aftershock"],
+        ["das Erdbeben", "el terremoto"],
+        ["das Seismograph", "el sismógrafo"],
+        ["das Epizentrum", "el epicentro"],
+        ["die Magnitude", "la magnitud"],
+        ["die tektonische Platte", "la placa tectónica"],
+        ["das Nachbeben", "la réplica (sísmica)"],
       ],
       grammar: [
         ["Indirekte Fragen", "Las preguntas indirectas alemanas (“ich frage mich, ob...”, “weißt du, ob...”) van con el verbo conjugado al final de la cláusula subordinada.", "Ich frage mich, ob das Epizentrum nahe der Stadt war. / Weißt du, wie stark die Magnitude war?"],
@@ -3748,12 +3748,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la paleografía usando “wer auch immer/was auch immer” en alemán.",
     study: {
       vocab: [
-        ["das Manuskript", "manuscript"],
-        ["der Schreiber", "scribe"],
-        ["das Pergament", "parchment"],
-        ["der illuminierte Text", "illuminated text"],
-        ["der Schreibstil", "handwriting style"],
-        ["entziffern", "to decipher"],
+        ["das Manuskript", "el manuscrito"],
+        ["der Schreiber", "el escriba"],
+        ["das Pergament", "el pergamino"],
+        ["der illuminierte Text", "el texto iluminado"],
+        ["der Schreibstil", "el estilo caligráfico"],
+        ["entziffern", "descifrar"],
       ],
       grammar: [
         ["“Wer auch immer/was auch immer”", "“Wer auch immer” equivale a “quienquiera que”, y “was auch immer” equivale a “lo que sea que”, sin necesidad de antecedente específico.", "Wer auch immer dieses Manuskript entziffert, wird Geschichte schreiben. / Was auch immer der Schreiber beabsichtigte, die Bedeutung ist heute verloren."],
@@ -3773,12 +3773,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la cadena de suministro usando estructuras enfáticas de sorpresa en alemán.",
     study: {
       vocab: [
-        ["die Lieferkette", "supply chain"],
-        ["der Engpass", "bottleneck"],
-        ["die Fracht", "freight"],
-        ["das Lager", "warehouse"],
-        ["die Logistikstörung", "logistics disruption"],
-        ["die Just-in-Time-Lieferung", "just-in-time delivery"],
+        ["die Lieferkette", "la cadena de suministro"],
+        ["der Engpass", "el cuello de botella"],
+        ["die Fracht", "la carga/el flete"],
+        ["das Lager", "el almacén"],
+        ["die Logistikstörung", "la interrupción logística"],
+        ["die Just-in-Time-Lieferung", "la entrega justo a tiempo"],
       ],
       grammar: [
         ["Emphatische Überraschungsstrukturen (kaum jemand ahnte)", "“Kaum jemand ahnte” o “niemand hatte erwartet” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Kaum jemand ahnte, wie zerbrechlich die Lieferkette war. / Niemand hatte eine so schwere Logistikstörung erwartet."],
@@ -3798,12 +3798,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Amateurfunk-Vokabular und benutze “es gibt” auf Deutsch.",
     study: {
       vocab: [
-        ["das Funksignal", "radio signal"],
-        ["die Antenne", "antenna"],
-        ["die Frequenz", "frequency"],
-        ["das Mikrofon", "microphone"],
-        ["senden", "to transmit"],
-        ["das Rauschen", "static"],
+        ["das Funksignal", "la señal de radio"],
+        ["die Antenne", "la antena"],
+        ["die Frequenz", "la frecuencia"],
+        ["das Mikrofon", "el micrófono"],
+        ["senden", "transmitir"],
+        ["das Rauschen", "la estática (interferencia)"],
       ],
       grammar: [
         ["“Es gibt” para indicar existencia", "“Es gibt” + acusativo se usa para indicar la existencia de algo, sin importar si es singular o plural.", "Es gibt viel Rauschen auf dieser Frequenz. / Es gibt zwei Antennen auf dem Dach."],
@@ -3823,12 +3823,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Astrologie-Vokabular und benutze “werden” für Vorhersagen auf Deutsch.",
     study: {
       vocab: [
-        ["das Horoskop", "horoscope"],
-        ["das Sternzeichen", "zodiac sign"],
-        ["der Wahrsager/die Wahrsagerin", "fortune teller"],
-        ["die Sternkarte", "star chart"],
-        ["die Vorhersage", "prediction"],
-        ["das Schicksal", "destiny"],
+        ["das Horoskop", "el horóscopo"],
+        ["das Sternzeichen", "el signo zodiacal"],
+        ["der Wahrsager/die Wahrsagerin", "el adivino"],
+        ["die Sternkarte", "la carta astral"],
+        ["die Vorhersage", "la predicción"],
+        ["das Schicksal", "el destino"],
       ],
       grammar: [
         ["“Werden” + infinitivo para vorhersagen", "“Werden” + infinitivo al final se usa para hacer predicciones sobre el futuro basadas en opinión o creencia.", "Dieses Horoskop sagt, du wirst eine gute Woche haben. / Die Wahrsagerin denkt, sie wird bald die Liebe finden."],
@@ -3848,12 +3848,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Extremsport-Vokabular und benutze “es schaffen” auf Deutsch.",
     study: {
       vocab: [
-        ["der Fallschirm", "parachute"],
-        ["der freie Fall", "free fall"],
-        ["der Adrenalinschub", "adrenaline rush"],
-        ["springen", "to jump"],
-        ["das Bungee-Jumping", "bungee jumping"],
-        ["der Extremsport", "extreme sport"],
+        ["der Fallschirm", "el paracaídas"],
+        ["der freie Fall", "la caída libre"],
+        ["der Adrenalinschub", "la subida de adrenalina"],
+        ["springen", "saltar"],
+        ["das Bungee-Jumping", "el puenting"],
+        ["der Extremsport", "el deporte extremo"],
       ],
       grammar: [
         ["“Es schaffen” + zu + infinitivo", "“Es schaffen, zu” + infinitivo expresa que alguien logró hacer algo difícil.", "Sie hat es geschafft, den Fallschirm rechtzeitig zu öffnen. / Er hat es geschafft, seine Höhenangst zu überwinden."],
@@ -3873,12 +3873,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de entomología usando “zusätzlich zu/sowie” en alemán.",
     study: {
       vocab: [
-        ["das Insekt", "insect"],
-        ["das Außenskelett", "exoskeleton"],
-        ["die Metamorphose", "metamorphosis"],
-        ["die Fühler (Insekt)", "antenna (insect)"],
-        ["die Larve", "larva"],
-        ["der Bestäuber", "pollinator"],
+        ["das Insekt", "el insecto"],
+        ["das Außenskelett", "el exoesqueleto"],
+        ["die Metamorphose", "la metamorfosis"],
+        ["die Fühler (Insekt)", "la antena (insecto)"],
+        ["die Larve", "la larva"],
+        ["der Bestäuber", "el polinizador"],
       ],
       grammar: [
         ["“Zusätzlich zu/sowie”", "“Zusätzlich zu” + sustantivo/gerundio nominal y “sowie” añaden información extra, similares a “besides” en inglés.", "Zusätzlich zur Bestäubung von Blumen produzieren Bienen Honig. / Käfer sowie Schmetterlinge durchlaufen eine Metamorphose."],
@@ -3898,12 +3898,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la propiedad intelectual usando “ungeachtet” en registro legal formal en alemán.",
     study: {
       vocab: [
-        ["das Urheberrecht", "copyright"],
-        ["das Patent", "patent"],
-        ["die Marke", "trademark"],
-        ["die Verletzung", "infringement"],
-        ["der Lizenzvertrag", "licensing agreement"],
-        ["das geistige Eigentum", "intellectual property"],
+        ["das Urheberrecht", "los derechos de autor"],
+        ["das Patent", "la patente"],
+        ["die Marke", "la marca registrada"],
+        ["die Verletzung", "la infracción"],
+        ["der Lizenzvertrag", "el acuerdo de licencia"],
+        ["das geistige Eigentum", "la propiedad intelectual"],
       ],
       grammar: [
         ["“Ungeachtet” para concesión legal formal", "“Ungeachtet” + genitivo (registro muy formal/legal) expresa una concesión, equivalente a “trotz” pero típico de textos jurídicos.", "Ungeachtet des Patents setzte das Unternehmen die Produktion fort. / Die Marke bleibt gültig, ungeachtet des Rechtsstreits."],
@@ -3923,12 +3923,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la geología usando “weit davon entfernt zu” en alemán.",
     study: {
       vocab: [
-        ["die Mineralvorkommen", "mineral deposit"],
-        ["die kristalline Struktur", "crystalline structure"],
-        ["das Sedimentgestein", "sedimentary rock"],
-        ["die tektonische Verschiebung", "tectonic shift"],
-        ["das Eruptivgestein", "igneous rock"],
-        ["die mineralische Zusammensetzung", "mineral composition"],
+        ["die Mineralvorkommen", "el yacimiento mineral"],
+        ["die kristalline Struktur", "la estructura cristalina"],
+        ["das Sedimentgestein", "la roca sedimentaria"],
+        ["die tektonische Verschiebung", "el desplazamiento tectónico"],
+        ["das Eruptivgestein", "la roca ígnea"],
+        ["die mineralische Zusammensetzung", "la composición mineral"],
       ],
       grammar: [
         ["“Weit davon entfernt zu” para concesión enfática", "“Weit davon entfernt zu” + infinitivo expresa que algo es completamente lo contrario de lo esperado, un recurso enfático de registro formal.", "Weit davon entfernt, stabil zu sein, verändert sich diese Gesteinsformation ständig. / Weit davon entfernt, die Debatte zu klären, warf die Entdeckung neue Fragen auf."],
@@ -3948,12 +3948,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Kaffee-Vokabular und benutze “ich hätte gern” auf Deutsch.",
     study: {
       vocab: [
-        ["die Kaffeebohne", "coffee bean"],
-        ["die Röstung", "roast"],
-        ["das Aroma", "aroma"],
-        ["der Barista", "barista"],
-        ["aufbrühen", "to brew"],
-        ["die Tasse", "cup"],
+        ["die Kaffeebohne", "el grano de café"],
+        ["die Röstung", "el tueste"],
+        ["das Aroma", "el aroma"],
+        ["der Barista", "el barista"],
+        ["aufbrühen", "preparar (café)"],
+        ["die Tasse", "la taza"],
       ],
       grammar: [
         ["“Ich hätte gern” para peticiones corteses", "“Ich hätte gern” (Konjunktiv II) es una forma cortés de pedir algo, más formal que “ich will”.", "Ich hätte gern eine Tasse Kaffee, bitte. / Sie möchte die dunkle Röstung probieren."],
@@ -3973,12 +3973,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Möbelrestaurierungs-Vokabular und benutze “jemanden etwas machen lassen” auf Deutsch.",
     study: {
       vocab: [
-        ["das antike Möbelstück", "antique furniture"],
-        ["der Lack", "varnish"],
-        ["das Schleifpapier", "sandpaper"],
-        ["restaurieren", "to restore"],
-        ["die Holzmaserung", "wood grain"],
-        ["die Werkstatt", "workshop"],
+        ["das antike Möbelstück", "los muebles antiguos"],
+        ["der Lack", "el barniz"],
+        ["das Schleifpapier", "el papel de lija"],
+        ["restaurieren", "restaurar"],
+        ["die Holzmaserung", "la veta de la madera"],
+        ["die Werkstatt", "el taller"],
       ],
       grammar: [
         ["“Jemanden etwas machen lassen”", "“Lassen” + persona + infinitivo expresa permitir que alguien haga algo.", "Lass den Lack über Nacht trocknen. / Sie lässt ihren Assistenten das Möbelstück schleifen."],
@@ -3998,12 +3998,12 @@ window.LESSON_BANKS.DE = [
     description:"Lerne Lexikografie-Vokabular und benutze “anstatt” auf Deutsch.",
     study: {
       vocab: [
-        ["der Wörterbucheintrag", "dictionary entry"],
-        ["die Definition", "definition"],
-        ["die Etymologie", "etymology"],
-        ["das Stichwort", "headword"],
-        ["das Synonym", "synonym"],
-        ["das Anwendungsbeispiel", "usage example"],
+        ["der Wörterbucheintrag", "la entrada de diccionario"],
+        ["die Definition", "la definición"],
+        ["die Etymologie", "la etimología"],
+        ["das Stichwort", "el lema"],
+        ["das Synonym", "el sinónimo"],
+        ["das Anwendungsbeispiel", "el ejemplo de uso"],
       ],
       grammar: [
         ["“Anstatt” + zu + infinitivo para preferencia", "“Anstatt... zu” + infinitivo expresa preferencia por una opción sobre otra.", "Sie wählte eine moderne Definition anstatt der alten. / Anstatt zu raten, schau die Etymologie nach."],
@@ -4023,12 +4023,12 @@ window.LESSON_BANKS.DE = [
     description:"Habla de radiología usando “für den Fall, dass” en alemán.",
     study: {
       vocab: [
-        ["die Röntgenaufnahme", "X-ray"],
-        ["die MRT-Untersuchung", "MRI scan"],
-        ["der Radiologe/die Radiologin", "radiologist"],
-        ["das Kontrastmittel", "contrast dye"],
-        ["die Diagnose", "diagnosis"],
-        ["die Strahlenbelastung", "radiation exposure"],
+        ["die Röntgenaufnahme", "la radiografía"],
+        ["die MRT-Untersuchung", "la resonancia magnética"],
+        ["der Radiologe/die Radiologin", "el radiólogo"],
+        ["das Kontrastmittel", "el contraste (medio de contraste)"],
+        ["die Diagnose", "el diagnóstico"],
+        ["die Strahlenbelastung", "la exposición a la radiación"],
       ],
       grammar: [
         ["“Für den Fall, dass” para precaución", "“Für den Fall, dass” + verbo al final expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Der Radiologe ordnete eine MRT an, für den Fall, dass die Röntgenaufnahme etwas übersah. / Bring deine früheren Aufnahmen mit, für den Fall, dass der Arzt sie braucht."],
@@ -4048,12 +4048,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la virología usando “selbst wenn” en alemán.",
     study: {
       vocab: [
-        ["der Virusstamm", "virus strain"],
-        ["der Ausbruch", "outbreak"],
-        ["die Herdenimmunität", "herd immunity"],
-        ["die Impfstoffwirksamkeit", "vaccine efficacy"],
-        ["die Übertragungsrate", "transmission rate"],
-        ["die Mutation", "mutation"],
+        ["der Virusstamm", "la cepa del virus"],
+        ["der Ausbruch", "el brote"],
+        ["die Herdenimmunität", "la inmunidad de rebaño"],
+        ["die Impfstoffwirksamkeit", "la eficacia de la vacuna"],
+        ["die Übertragungsrate", "la tasa de transmisión"],
+        ["die Mutation", "la mutación"],
       ],
       grammar: [
         ["“Selbst wenn” para concesión hipotética", "“Selbst wenn” + Konjunktiv II expresa que algo será cierto incluso en una situación hipotética o improbable, a diferencia de “obwohl” (hecho real).", "Selbst wenn die Impfstoffwirksamkeit sinken würde, könnte die Herdenimmunität helfen. / Das Virus würde sich ausbreiten, selbst wenn die Übertragungsraten leicht sänken."],
@@ -4073,12 +4073,12 @@ window.LESSON_BANKS.DE = [
     description:"Analiza la política monetaria usando “insofern als/insoweit” en alemán.",
     study: {
       vocab: [
-        ["der Zinssatz", "interest rate"],
-        ["das Inflationsziel", "inflation target"],
-        ["die quantitative Lockerung", "quantitative easing"],
-        ["die Geldpolitik", "monetary policy"],
-        ["die Zentralbank", "central bank"],
-        ["das Konjunkturprogramm", "fiscal stimulus"],
+        ["der Zinssatz", "el tipo de interés"],
+        ["das Inflationsziel", "el objetivo de inflación"],
+        ["die quantitative Lockerung", "la flexibilización cuantitativa"],
+        ["die Geldpolitik", "la política monetaria"],
+        ["die Zentralbank", "el banco central"],
+        ["das Konjunkturprogramm", "el estímulo fiscal"],
       ],
       grammar: [
         ["“Insofern als/insoweit” para calificar", "“Insofern als” e “insoweit” expresan una limitación o condición parcial, típicas del registro académico/formal, equivalentes a “insofar as” en inglés.", "Insofern als die Inflation stabil bleibt, sind Zinssenkungen möglich. / Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],
@@ -4098,12 +4098,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a formar preguntas básicas en alemán con las palabras interrogativas (W-Fragen).",
     study: {
       vocab: [
-        ["Was...?", "What...?"],
-        ["Wer...?", "Who...?"],
-        ["Wo...?", "Where...?"],
-        ["Wann...?", "When...?"],
-        ["Warum...?", "Why...?"],
-        ["Wie...?", "How...?"],
+        ["Was...?", "¿Qué...?"],
+        ["Wer...?", "¿Quién...?"],
+        ["Wo...?", "¿Dónde...?"],
+        ["Wann...?", "¿Cuándo...?"],
+        ["Warum...?", "¿Por qué...?"],
+        ["Wie...?", "¿Cómo...?"],
       ],
       grammar: [
         ["Wortstellung bei W-Fragen", "W-Wort + konjugiertes Verb + Subjekt (Verb an zweiter Position).", "Wo wohnst du? / Wie heißt du? / Wann beginnt der Kurs?"],
@@ -4123,12 +4123,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende los posesivos en alemán y el vocabulario básico de la familia.",
     study: {
       vocab: [
-        ["mein/meine", "my"],
-        ["dein/deine", "your (informal)"],
-        ["sein/seine, ihr/ihre", "his, her"],
-        ["unser/unsere", "our"],
-        ["ihr/ihre (their)", "their"],
-        ["die Mutter, der Vater, die Eltern", "mother, father, parents"],
+        ["mein/meine", "mi"],
+        ["dein/deine", "tu (informal)"],
+        ["sein/seine, ihr/ihre", "su (de él), su (de ella)"],
+        ["unser/unsere", "nuestro"],
+        ["ihr/ihre (their)", "su (de ellos)"],
+        ["die Mutter, der Vater, die Eltern", "madre, padre, padres"],
       ],
       grammar: [
         ["Los posesivos concuerdan con el sustantivo que sigue", "Los posesivos alemanes se declinan como adjetivos, concordando en género y caso con el sustantivo. “Sein” = su (de él), “ihr” = su (de ella/de ellos).", "Das ist seine Schwester. / Das sind ihre Eltern."],
@@ -4148,11 +4148,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar “es gibt” y las preposiciones de lugar en alemán.",
     study: {
       vocab: [
-        ["es gibt", "there is / there are"],
-        ["in, auf, unter", "in, on, under"],
-        ["neben, zwischen", "next to, between"],
-        ["vor, hinter", "in front of, behind"],
-        ["Gibt es...?", "Is/Are there...?"],
+        ["es gibt", "hay"],
+        ["in, auf, unter", "en, sobre, debajo de"],
+        ["neben, zwischen", "al lado de, entre"],
+        ["vor, hinter", "delante de, detrás de"],
+        ["Gibt es...?", "¿Hay...?"],
       ],
       grammar: [
         ["“Es gibt” + Akkusativ", "“Es gibt” es invariable (no cambia con el número) y va seguido del caso acusativo.", "Es gibt eine Lampe auf dem Tisch. / Es gibt zwei Stühle neben dem Schreibtisch."],
@@ -4172,12 +4172,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende los patrones del plural en alemán y el uso de los artículos.",
     study: {
       vocab: [
-        ["das Buch / die Bücher", "the book / the books"],
-        ["das Kind / die Kinder", "the child / the children"],
-        ["die Stadt / die Städte", "the city / the cities"],
-        ["der Mann / die Männer", "the man / the men"],
-        ["ein, eine", "a, an"],
-        ["der, die, das", "the"],
+        ["das Buch / die Bücher", "el libro / los libros"],
+        ["das Kind / die Kinder", "el niño / los niños"],
+        ["die Stadt / die Städte", "la ciudad / las ciudades"],
+        ["der Mann / die Männer", "el hombre / los hombres"],
+        ["ein, eine", "un, una"],
+        ["der, die, das", "el/la"],
       ],
       grammar: [
         ["Patrones del plural (memorizar por sustantivo)", "El alemán tiene varios patrones de plural (-e, -er, -n, con o sin Umlaut); el artículo definido plural siempre es “die”, sin importar el género en singular.", "Buch→Bücher, Kind→Kinder, Stadt→Städte, Mann→Männer"],
@@ -4197,11 +4197,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar gustos y preferencias en alemán con “gern”.",
     study: {
       vocab: [
-        ["Ich mag... (+ Nomen)", "I like... (+ noun)"],
-        ["gern + Verb", "to like doing something"],
-        ["Ich hasse...", "I hate..."],
-        ["schwimmen, lesen, kochen", "swimming, reading, cooking"],
-        ["Magst du...?", "Do you like...?"],
+        ["Ich mag... (+ Nomen)", "me gusta... (+ sustantivo)"],
+        ["gern + Verb", "gustar hacer algo"],
+        ["Ich hasse...", "odio..."],
+        ["schwimmen, lesen, kochen", "nadar, leer, cocinar"],
+        ["Magst du...?", "¿Te gusta...?"],
       ],
       grammar: [
         ["“Gern” tras el verbo conjugado", "A diferencia del inglés (gerundio) y el francés (infinitivo), en alemán se añade “gern” después del verbo conjugado para decir que te gusta hacer algo.", "Ich lese gern. / Sie kocht gern am Wochenende."],
@@ -4221,11 +4221,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a hablar del futuro en alemán usando el presente para planes y “werden” para predicciones.",
     study: {
       vocab: [
-        ["Präsens + Zeitangabe", "present tense + time marker (for plans)"],
-        ["werden + Infinitiv", "will + infinitive"],
-        ["nächste Woche, nächstes Jahr", "next week, next year"],
-        ["Ich glaube, es wird regnen", "I think it will rain"],
-        ["Was machst du morgen?", "What are you doing tomorrow?"],
+        ["Präsens + Zeitangabe", "presente + marcador temporal (para planes)"],
+        ["werden + Infinitiv", "futuro con 'will' + infinitivo"],
+        ["nächste Woche, nächstes Jahr", "la semana que viene, el año que viene"],
+        ["Ich glaube, es wird regnen", "creo que va a llover"],
+        ["Was machst du morgen?", "¿Qué haces mañana?"],
       ],
       grammar: [
         ["Presente para planes vs “werden” para predicciones", "A diferencia del inglés, el alemán usa el presente + una expresión de tiempo para planes ya decididos; “werden + infinitivo” se reserva para predicciones o promesas.", "Ich besuche meine Eltern nächste Woche. / Ich glaube, es wird morgen regnen."],
@@ -4245,11 +4245,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a comparar personas y cosas en alemán con el comparativo y el superlativo.",
     study: {
       vocab: [
-        ["größer als, kleiner als", "bigger than, smaller than"],
-        ["teurer als", "more expensive than"],
-        ["am besten, am schlechtesten", "the best, the worst"],
-        ["so...wie", "as...as"],
-        ["am interessantesten", "the most interesting"],
+        ["größer als, kleiner als", "más grande que, más pequeño que"],
+        ["teurer als", "más caro que"],
+        ["am besten, am schlechtesten", "el mejor, el peor"],
+        ["so...wie", "tan... como"],
+        ["am interessantesten", "el más interesante"],
       ],
       grammar: [
         ["Comparativo con “-er” y superlativo con “am...-sten”", "El comparativo añade “-er” (a veces con Umlaut); el superlativo usa “am + adjetivo + -sten”. Irregular: gut→besser→am besten.", "Dieses Auto ist schneller als das andere, aber das rote ist am schnellsten."],
@@ -4269,11 +4269,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a dar consejos y hablar de obligaciones en alemán.",
     study: {
       vocab: [
-        ["Du solltest...", "you should..."],
-        ["Du solltest nicht...", "you shouldn't..."],
-        ["Ich muss...", "I must / I have to"],
-        ["Du musst nicht...", "you don't have to"],
-        ["Es ist eine gute Idee, zu...", "it's a good idea to..."],
+        ["Du solltest...", "deberías..."],
+        ["Du solltest nicht...", "no deberías..."],
+        ["Ich muss...", "debo / tengo que"],
+        ["Du musst nicht...", "no tienes que"],
+        ["Es ist eine gute Idee, zu...", "es buena idea..."],
       ],
       grammar: [
         ["“Solltest” (consejo) vs “musst” (obligación) vs “darfst nicht” (prohibición)", "“Solltest” da un consejo suave; “musst” expresa obligación; “musst nicht” significa que algo no es necesario, mientras que la prohibición se expresa con “darfst nicht”.", "Du solltest mehr Wasser trinken. / Du musst einen Sicherheitsgurt tragen."],
@@ -4293,12 +4293,12 @@ window.LESSON_BANKS.DE = [
     description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en alemán.",
     study: {
       vocab: [
-        ["Hallo, hier ist...", "Hello, this is..."],
-        ["Kann ich mit... sprechen?", "Can I speak to...?"],
-        ["Kann ich etwas ausrichten?", "Can I take a message?"],
-        ["Einen Moment, bitte.", "Hold on, please."],
-        ["Kannst du später zurückrufen?", "Can you call back later?"],
-        ["Ich rufe dich zurück.", "I'll call you back."],
+        ["Hallo, hier ist...", "Hola, soy..."],
+        ["Kann ich mit... sprechen?", "¿Puedo hablar con...?"],
+        ["Kann ich etwas ausrichten?", "¿Puedo tomar un mensaje?"],
+        ["Einen Moment, bitte.", "Espere un momento, por favor."],
+        ["Kannst du später zurückrufen?", "¿Puede volver a llamar más tarde?"],
+        ["Ich rufe dich zurück.", "Le devuelvo la llamada."],
       ],
       grammar: [
         ["Fórmulas fijas para el teléfono", "En alemán, al hablar por teléfono se usa “hier ist...” (no “ich bin”) para identificarse.", "Hallo, hier ist Laura. Kann ich mit Herrn Schmidt sprechen, bitte?"],
@@ -4318,11 +4318,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a hablar de cantidades en alemán distinguiendo sustantivos contables e incontables.",
     study: {
       vocab: [
-        ["etwas, kein/keine", "some, any/none"],
-        ["Wie viel...?", "How much...?"],
-        ["Wie viele...?", "How many...?"],
-        ["viel, viele", "a lot of / much, many"],
-        ["ein bisschen, ein paar", "a little, a few"],
+        ["etwas, kein/keine", "algunos, ninguno"],
+        ["Wie viel...?", "¿Cuánto...?"],
+        ["Wie viele...?", "¿Cuántos...?"],
+        ["viel, viele", "mucho, muchos"],
+        ["ein bisschen, ein paar", "un poco, unos pocos"],
       ],
       grammar: [
         ["Contables vs incontables en alemán", "“Wie viele” y “viele” se usan con sustantivos contables en plural; “wie viel” y “viel” con incontables en singular.", "Wie viele Äpfel hast du? / Wie viel Wasser gibt es? / Ich habe kein Geld."],
@@ -4342,11 +4342,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a narrar historias con interrupciones en alemán usando el Präteritum y “als”.",
     study: {
       vocab: [
-        ["ich kochte / sie sprachen", "I was cooking / they were speaking (Präteritum)"],
-        ["während, als", "while, when"],
-        ["plötzlich", "suddenly"],
-        ["das Telefon klingelte", "the phone rang"],
-        ["mitten in...", "in the middle of..."],
+        ["ich kochte / sie sprachen", "yo cocinaba / ellos hablaban (pretérito)"],
+        ["während, als", "mientras, cuando"],
+        ["plötzlich", "de repente"],
+        ["das Telefon klingelte", "sonó el teléfono"],
+        ["mitten in...", "en medio de..."],
       ],
       grammar: [
         ["El alemán no tiene forma progresiva propia", "A diferencia del inglés, el alemán usa el Präteritum para ambas acciones; “gerade” enfatiza que una acción estaba en curso, y “als” introduce la acción que la interrumpe.", "Ich kochte gerade Abendessen, als das Telefon klingelte. / Während sie lernte, kam ihr Freund an."],
@@ -4366,11 +4366,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en alemán con el Konjunktiv II.",
     study: {
       vocab: [
-        ["Wenn ich... hätte...", "if I had..."],
-        ["ich würde / ich würde nicht", "I would / I wouldn't"],
-        ["Wenn ich du wäre...", "if I were you..."],
-        ["Was würdest du machen, wenn...?", "What would you do if...?"],
-        ["hypothetische Situation", "hypothetical/imaginary situation"],
+        ["Wenn ich... hätte...", "si tuviera..."],
+        ["ich würde / ich würde nicht", "yo lo haría / no lo haría"],
+        ["Wenn ich du wäre...", "yo que tú..."],
+        ["Was würdest du machen, wenn...?", "¿Qué harías si...?"],
+        ["hypothetische Situation", "situación hipotética/imaginaria"],
       ],
       grammar: [
         ["Wenn + Konjunktiv II, würde + Infinitiv", "Para situaciones hipotéticas poco probables se usa “wenn” + Konjunktiv II (o “würde” + infinitivo), seguido de “würde” + infinitivo en la oración principal.", "Wenn ich mehr Zeit hätte, würde ich mehr reisen. / Wenn ich du wäre, würde ich das Angebot annehmen."],
@@ -4390,11 +4390,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar certeza, posibilidad y duda en alemán.",
     study: {
       vocab: [
-        ["muss sein", "must be (fuerte)"],
-        ["könnte sein", "might/may be (posibilidad)"],
-        ["kann nicht sein", "can't be (negativa fuerte)"],
-        ["dürfte sein", "could be (posibilidad)"],
-        ["ich bin sicher / ich bin nicht sicher", "I'm sure / I'm not sure"],
+        ["muss sein", "debe de ser (certeza fuerte)"],
+        ["könnte sein", "podría ser (posibilidad)"],
+        ["kann nicht sein", "no puede ser (certeza negativa fuerte)"],
+        ["dürfte sein", "podría ser (posibilidad)"],
+        ["ich bin sicher / ich bin nicht sicher", "estoy seguro / no estoy seguro"],
       ],
       grammar: [
         ["Grados de certeza con verbos modales", "“Müssen” en presente expresa una fuerte vermutung (deducción); “könnte/dürfte” expresan posibilidad, no certeza; “kann nicht sein” expresa certeza negativa.", "Das Licht ist aus, also müssen sie schlafen. / Er könnte bei der Arbeit sein, ich bin nicht sicher."],
@@ -4414,11 +4414,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a contar en alemán lo que alguien dijo usando el discurso indirecto básico.",
     study: {
       vocab: [
-        ["er sagte, dass...", "he said (that)..."],
-        ["sie sagte mir, dass...", "she told me (that)..."],
-        ["sie sagte, dass sie müde war", "she said she was tired"],
-        ["er sagte, er würde anrufen", "he said he would call"],
-        ["Zeitverschiebung", "backshift"],
+        ["er sagte, dass...", "él dijo (que)..."],
+        ["sie sagte mir, dass...", "ella me dijo (que)..."],
+        ["sie sagte, dass sie müde war", "dijo que estaba cansada"],
+        ["er sagte, er würde anrufen", "dijo que llamaría"],
+        ["Zeitverschiebung", "transposición de tiempos verbales (estilo indirecto)"],
       ],
       grammar: [
         ["Cambio de tiempo verbal en el discurso indirecto", "En el alemán hablado, el discurso indirecto suele usar simplemente el indicativo con “dass”; el presente pasa a pasado, y el futuro se convierte en “würde + infinitivo”.", "Direkt: „Ich bin müde.“ → Indirekt: Sie sagte, dass sie müde war. / Direkt: „Ich rufe dich an.“ → Indirekt: Er sagte, er würde anrufen."],
@@ -4438,11 +4438,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a describir procesos y secuencias de pasos en alemán usando conectores de orden.",
     study: {
       vocab: [
-        ["Zuerst...", "first..."],
-        ["Dann / Anschließend...", "then / next..."],
-        ["Danach...", "after that..."],
-        ["Schließlich...", "finally..."],
-        ["Sobald du... hast, ...", "once you have..., ..."],
+        ["Zuerst...", "primero..."],
+        ["Dann / Anschließend...", "luego / después..."],
+        ["Danach...", "después de eso..."],
+        ["Schließlich...", "finalmente..."],
+        ["Sobald du... hast, ...", "una vez que hayas..., ..."],
       ],
       grammar: [
         ["Sequenzwörter und die Verb-Zweit-Stellung", "Los conectores de secuencia organizan un proceso paso a paso; al usarlos al inicio de la oración, el verbo conjugado ocupa la segunda posición.", "Zuerst füllst du das Formular aus. Dann schickst du es online ab. Schließlich wartest du auf eine Bestätigungs-E-Mail."],
@@ -4462,11 +4462,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar los pronombres relativos alemanes según el caso gramatical.",
     study: {
       vocab: [
-        ["der/die/das (Relativpronomen)", "who/which – depende del caso"],
-        ["dessen/deren", "whose"],
-        ["wo, als", "where, when"],
+        ["der/die/das (Relativpronomen)", "que – depende del caso"],
+        ["dessen/deren", "cuyo"],
+        ["wo, als", "dónde, cuándo"],
         ["Komma vor Relativsätzen", "coma antes de cláusulas relativas (siempre en alemán)"],
-        ["der Mann, der angerufen hat", "the man who called"],
+        ["der Mann, der angerufen hat", "el hombre que llamó"],
       ],
       grammar: [
         ["El relativo alemán se declina según el caso", "Los pronombres relativos alemanes (der/die/das) se declinan según género, número Y caso (nominativo, acusativo, dativo, genitivo) de su función dentro de la cláusula relativa; siempre llevan coma, sin distinción especificativa/explicativa como en inglés.", "Der Mann, der angerufen hat, ist mein Nachbar. / Die Frau, deren Auto rot ist, ..."],
@@ -4486,11 +4486,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende cuándo usar “zu” antes de un infinitivo en alemán y cuándo omitirlo.",
     study: {
       vocab: [
-        ["versuchen, zu + Infinitiv", "to try to do"],
-        ["Modalverb + Infinitiv (ohne “zu”)", "modal verb + bare infinitive"],
-        ["es ist wichtig, zu + Infinitiv", "it is important to do"],
-        ["aufhören, zu + Infinitiv", "to stop doing"],
-        ["gerade dabei sein, zu + Infinitiv", "to be in the middle of doing"],
+        ["versuchen, zu + Infinitiv", "intentar hacer"],
+        ["Modalverb + Infinitiv (ohne “zu”)", "verbo modal + infinitivo sin 'to'"],
+        ["es ist wichtig, zu + Infinitiv", "es importante hacer"],
+        ["aufhören, zu + Infinitiv", "dejar de hacer"],
+        ["gerade dabei sein, zu + Infinitiv", "estar en medio de hacer"],
       ],
       grammar: [
         ["Verbos modales sin “zu”", "La mayoría de los verbos alemanes con complemento en infinitivo requieren “zu” antes del infinitivo, pero los verbos modales (können, müssen, wollen...) van seguidos de infinitivo SIN “zu”.", "Ich versuche, früh aufzustehen. / Ich kann früh aufstehen."],
@@ -4510,11 +4510,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar deseos y arrepentimiento en alemán con el Konjunktiv II.",
     study: {
       vocab: [
-        ["Ich wünschte, ich hätte...", "I wish I had... (presente)"],
-        ["Ich wünschte, ich hätte...gehabt", "I wish I had done (pasado)"],
-        ["Wenn ich nur...", "If only..."],
-        ["Ich hätte...sollen", "I should have..."],
-        ["das Bedauern", "regret"],
+        ["Ich wünschte, ich hätte...", "ojalá tuviera... (presente)"],
+        ["Ich wünschte, ich hätte...gehabt", "ojalá hubiera hecho (pasado)"],
+        ["Wenn ich nur...", "Ojalá..."],
+        ["Ich hätte...sollen", "debería haber..."],
+        ["das Bedauern", "el arrepentimiento"],
       ],
       grammar: [
         ["“Ich wünschte” + distintas formas del Konjunktiv II", "“Ich wünschte” + Konjunktiv II presente expresa un deseo sobre el presente; “ich wünschte” + Konjunktiv II Plusquamperfekt (hätte + participio) expresa arrepentimiento sobre el pasado.", "Ich wünschte, ich hätte mehr Zeit. / Ich wünschte, ich hätte mehr gelernt."],
@@ -4534,11 +4534,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a especular sobre el pasado en alemán con modales + Perfekt Infinitiv.",
     study: {
       vocab: [
-        ["muss...gewesen sein", "must have been (deducción)"],
-        ["kann...gewesen sein", "might have been (posibilidad)"],
-        ["kann nicht...gewesen sein", "can't have been (certeza negativa)"],
-        ["hätte...sollen", "should have (crítica/arrepentimiento)"],
-        ["ich bin mir nicht sicher, was passiert ist", "I'm not sure what happened"],
+        ["muss...gewesen sein", "debe de haber sido (deducción)"],
+        ["kann...gewesen sein", "podría haber sido (posibilidad)"],
+        ["kann nicht...gewesen sein", "no puede haber sido (certeza negativa)"],
+        ["hätte...sollen", "debería haber (crítica/arrepentimiento)"],
+        ["ich bin mir nicht sicher, was passiert ist", "no estoy seguro/a de qué pasó"],
       ],
       grammar: [
         ["Modal + Partizip + sein/haben para especular sobre el pasado", "“Müssen/können + Partizip + sein/haben” (Perfekt Infinitiv) expresa una deducción sobre el pasado; “hätte + Partizip + sollen” expresa crítica o arrepentimiento.", "Sie muss schon gegangen sein; ihr Mantel ist weg. / Du hättest mich früher anrufen sollen."],
@@ -4558,11 +4558,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a describir hábitos y estados pasados en alemán con el Präteritum.",
     study: {
       vocab: [
-        ["das Präteritum für Gewohnheiten und Zustände", "preterite for past habits/states"],
-        ["pflegte, zu + Infinitiv", "used to do (formal/literario)"],
-        ["früher immer...", "in the past, always..."],
-        ["als Kind...", "as a child..."],
-        ["heutzutage", "nowadays"],
+        ["das Präteritum für Gewohnheiten und Zustände", "pretérito para hábitos/estados pasados"],
+        ["pflegte, zu + Infinitiv", "solía hacer (formal/literario)"],
+        ["früher immer...", "en el pasado, siempre..."],
+        ["als Kind...", "de niño/a..."],
+        ["heutzutage", "hoy en día"],
       ],
       grammar: [
         ["El Präteritum para hábitos y estados pasados", "Para describir hábitos y estados pasados (equivalente a “used to”), especialmente en la escritura, se usa el Präteritum, o la forma más formal “pflegte zu + infinitivo”.", "Ich wohnte in Rom. / Als Kind spielte ich jeden Tag draußen. / Er pflegte früh aufzustehen."],
@@ -4582,10 +4582,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar la anteposición de adverbios para dar énfasis en alemán.",
     study: {
       vocab: [
-        ["Nie habe ich...", "Never have I... (énfasis)"],
-        ["Nicht nur..., sondern auch...", "Not only... but also..."],
-        ["Erst nachdem..., ...", "Only after..., ..."],
-        ["Kaum..., als...", "No sooner...than..."],
+        ["Nie habe ich...", "Nunca he... (énfasis)"],
+        ["Nicht nur..., sondern auch...", "No solo... sino también..."],
+        ["Erst nachdem..., ...", "Solo después de..., ..."],
+        ["Kaum..., als...", "Apenas... cuando..."],
         ["emphatische Struktur", "estructura enfática"],
       ],
       grammar: [
@@ -4606,11 +4606,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar estructuras de énfasis en alemán del tipo “was...ist”.",
     study: {
       vocab: [
-        ["Es war... der/die...", "It was... who... (énfasis)"],
-        ["Was ich brauche, ist...", "What I need is..."],
-        ["Was mich überrascht hat, war...", "What surprised me was..."],
-        ["Betonung durch Struktur", "emphasis through structure"],
-        ["hervorheben", "to emphasize/highlight"],
+        ["Es war... der/die...", "Fue... quien... (énfasis)"],
+        ["Was ich brauche, ist...", "Lo que necesito es..."],
+        ["Was mich überrascht hat, war...", "Lo que me sorprendió fue..."],
+        ["Betonung durch Struktur", "énfasis mediante la estructura"],
+        ["hervorheben", "enfatizar/destacar"],
       ],
       grammar: [
         ["“Was...ist/war...” y “X war es, der/die...”", "El alemán no usa oraciones hendidas tan fijas como el inglés, pero “was...ist/war...” o “X war es, der/die...” logran un énfasis similar.", "Was ich brauche, ist mehr Zeit. / Maria war es, die das Problem gelöst hat."],
@@ -4630,9 +4630,9 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a reducir cláusulas más largas usando construcciones de participio en alemán.",
     study: {
       vocab: [
-        ["Nachdem er den Bericht beendet hatte, ...", "Having finished the report, ..."],
-        ["Sich der Lage bewusst, ...", "Being aware of the situation, ..."],
-        ["Nicht wissend, was zu tun ist, ...", "Not knowing what to do, ..."],
+        ["Nachdem er den Bericht beendet hatte, ...", "Habiendo terminado el informe, ..."],
+        ["Sich der Lage bewusst, ...", "Siendo consciente de la situación, ..."],
+        ["Nicht wissend, was zu tun ist, ...", "Sin saber qué hacer, ..."],
         ["Partizipialkonstruktion", "cláusula de participio"],
         ["verkürzt einen längeren Nebensatz", "reduce una cláusula subordinada más larga"],
       ],
@@ -4654,11 +4654,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende los patrones gramaticales de verbos de reporte avanzados en alemán formal.",
     study: {
       vocab: [
-        ["vorschlagen, dass + Konjunktiv I", "suggest that + subjunctive I"],
-        ["darauf bestehen, dass + Konjunktiv I", "insist that + subjunctive I"],
-        ["abstreiten + Infinitiv", "deny doing"],
-        ["zugeben + Infinitiv", "admit doing"],
-        ["empfehlen, dass + Konjunktiv I", "recommend that + subjunctive I"],
+        ["vorschlagen, dass + Konjunktiv I", "sugerir que + subjuntivo I"],
+        ["darauf bestehen, dass + Konjunktiv I", "insistir en que + subjuntivo I"],
+        ["abstreiten + Infinitiv", "negar haber hecho"],
+        ["zugeben + Infinitiv", "admitir haber hecho"],
+        ["empfehlen, dass + Konjunktiv I", "recomendar que + subjuntivo I"],
       ],
       grammar: [
         ["Konjunktiv I en el registro formal", "En el alemán formal/escrito, verbos como “vorschlagen”, “bestehen auf” y “empfehlen” pueden usar “dass + Konjunktiv I”; “abstreiten” y “zugeben” suelen ir seguidos de una construcción de infinitivo pasado.", "Sie schlug vor, dass er früh komme. / Er stritt ab, das Geld gestohlen zu haben."],
@@ -4678,10 +4678,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a evitar repeticiones en alemán usando elipsis y expresiones sustitutas.",
     study: {
       vocab: [
-        ["Ich auch / Ich auch nicht", "So do I / Neither do I"],
-        ["das auch tun", "to do so"],
-        ["Ich glaube schon / Ich hoffe nicht", "I think so / I hope not"],
-        ["das Gleiche gilt für...", "the same goes for..."],
+        ["Ich auch / Ich auch nicht", "Yo también / Yo tampoco"],
+        ["das auch tun", "hacerlo así"],
+        ["Ich glaube schon / Ich hoffe nicht", "creo que sí / espero que no"],
+        ["das Gleiche gilt für...", "lo mismo vale para..."],
         ["wiederholte Wörter weglassen", "omitir palabras repetidas"],
       ],
       grammar: [
@@ -4702,10 +4702,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar la nominalización para lograr un registro académico y formal en alemán.",
     study: {
       vocab: [
-        ["reduzieren → die Reduzierung", "reduce → reduction"],
-        ["entscheiden → die Entscheidung", "decide → decision"],
-        ["analysieren → die Analyse", "analyze → analysis"],
-        ["Es ist wichtig, zu berücksichtigen...", "It is important to consider..."],
+        ["reduzieren → die Reduzierung", "reducir → reducción"],
+        ["entscheiden → die Entscheidung", "decidir → decisión"],
+        ["analysieren → die Analyse", "analizar → análisis"],
+        ["Es ist wichtig, zu berücksichtigen...", "Es importante considerar..."],
         ["akademischer/formeller Stil", "registro académico/formal"],
       ],
       grammar: [
@@ -4726,10 +4726,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a anteponer elementos al Vorfeld para dar énfasis en alemán.",
     study: {
       vocab: [
-        ["Das kann ich nicht akzeptieren.", "This I cannot accept."],
-        ["So groß war ihre Entschlossenheit, dass...", "Such was her determination that..."],
-        ["Wenig ahnte er, dass...", "Little did he know..."],
-        ["Wen ich am meisten bewundere, ist...", "The one I admire most is..."],
+        ["Das kann ich nicht akzeptieren.", "Esto no puedo aceptarlo."],
+        ["So groß war ihre Entschlossenheit, dass...", "Tal fue su determinación que..."],
+        ["Wenig ahnte er, dass...", "Poco sabía él..."],
+        ["Wen ich am meisten bewundere, ist...", "El que más admiro es..."],
         ["Vorfeldbesetzung", "anteposición/tematización"],
       ],
       grammar: [
@@ -4750,11 +4750,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a matizar tus afirmaciones en alemán con adverbios de postura avanzados.",
     study: {
       vocab: [
-        ["man könnte sagen, dass", "arguably"],
-        ["scheinbar / anscheinend", "ostensibly"],
-        ["angeblich", "purportedly"],
-        ["unbestreitbar", "undeniably"],
-        ["vermutlich", "presumably"],
+        ["man könnte sagen, dass", "podría decirse que"],
+        ["scheinbar / anscheinend", "aparentemente"],
+        ["angeblich", "supuestamente"],
+        ["unbestreitbar", "innegablemente"],
+        ["vermutlich", "presuntamente"],
       ],
       grammar: [
         ["Los adverbios de postura matizan el compromiso del hablante", "Los adverbios de postura muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "Die Politik war, man könnte sagen, ein Misserfolg. / Er war scheinbar da, um zu helfen, hatte aber andere Motive."],
@@ -4774,10 +4774,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar sintagmas nominales complejos típicos del alemán académico.",
     study: {
       vocab: [
-        ["das Ausmaß, in dem...", "the extent to which..."],
-        ["eine wachsende Zahl von Beweisen", "a growing body of evidence"],
-        ["die zugrunde liegenden Ursachen von...", "the underlying causes of..."],
-        ["eine breite Palette von Faktoren", "a wide range of factors"],
+        ["das Ausmaß, in dem...", "el grado en que..."],
+        ["eine wachsende Zahl von Beweisen", "un creciente cuerpo de evidencia"],
+        ["die zugrunde liegenden Ursachen von...", "las causas subyacentes de..."],
+        ["eine breite Palette von Faktoren", "una amplia gama de factores"],
         ["Postmodifikation", "posmodificación"],
       ],
       grammar: [
@@ -4798,10 +4798,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende recursos de cohesión textual avanzados en alemán para evitar la redundancia.",
     study: {
       vocab: [
-        ["Ersterer / Letzterer", "the former / the latter"],
-        ["ein solcher/eine solche...", "such a/an..."],
-        ["der/die oben Genannte", "the aforementioned"],
-        ["Dies vorausgeschickt...", "that being said..."],
+        ["Ersterer / Letzterer", "el primero / el segundo"],
+        ["ein solcher/eine solche...", "tal..."],
+        ["der/die oben Genannte", "lo antes mencionado"],
+        ["Dies vorausgeschickt...", "dicho esto..."],
         ["kohäsives Mittel", "recurso de cohesión textual"],
       ],
       grammar: [
@@ -4822,11 +4822,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a dar instrucciones y consejos directos en alemán con el imperativo.",
     study: {
       vocab: [
-        ["Öffne die Tür.", "Open the door."],
-        ["Schließ das Fenster.", "Close the window."],
-        ["Geh links / rechts.", "Turn left / right."],
-        ["Fass das nicht an.", "Don't touch that."],
-        ["Setz dich bitte.", "Please, sit down."],
+        ["Öffne die Tür.", "Abre la puerta."],
+        ["Schließ das Fenster.", "Cierra la ventana."],
+        ["Geh links / rechts.", "Gira a la izquierda / derecha."],
+        ["Fass das nicht an.", "No toques eso."],
+        ["Setz dich bitte.", "Por favor, siéntate."],
       ],
       grammar: [
         ["El imperativo du sin pronombre ni -st", "El imperativo informal (du) suele omitir el pronombre y la terminación “-st”; el negativo usa “nicht” después del verbo u objeto.", "Öffne die Tür. / Fass das nicht an. / Warte bitte hier."],
@@ -4846,11 +4846,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar dieser/diese/dieses y la forma coloquial “da” en alemán.",
     study: {
       vocab: [
-        ["dieser/diese/dieses", "this (cerca)"],
-        ["jener/jene/jenes", "that (lejos, literario)"],
-        ["der/die/das da", "that (coloquial, más usado)"],
-        ["diese (Plural)", "these"],
-        ["Was ist das?", "What is this?"],
+        ["dieser/diese/dieses", "este (cerca)"],
+        ["jener/jene/jenes", "aquel (lejos, literario)"],
+        ["der/die/das da", "ese/esa (coloquial, más usado)"],
+        ["diese (Plural)", "estos/estas"],
+        ["Was ist das?", "¿Qué es esto?"],
       ],
       grammar: [
         ["“Jener” es literario; en el habla se usa “da”", "El alemán distingue formalmente “dieser” (this) de “jener” (that), pero “jener” suena literario; en el habla cotidiana se suele usar “der/die/das” + “da” para algo lejano.", "Dieses Buch ist meins. / Das Auto da drüben ist teuer."],
@@ -4870,9 +4870,9 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar las preposiciones de tiempo um, im y am en alemán.",
     study: {
       vocab: [
-        ["um + Uhrzeit", "at + hora (um 9 Uhr)"],
-        ["im + Monat/Jahreszeit", "in + mes/estación (im Juli)"],
-        ["am + Wochentag/Datum", "on + día/fecha (am Montag)"],
+        ["um + Uhrzeit", "a + hora (um 9 Uhr)"],
+        ["im + Monat/Jahreszeit", "en + mes/estación (im Juli)"],
+        ["am + Wochentag/Datum", "en + día/fecha (am Montag)"],
         ["in der Nacht", "de noche"],
         ["am Morgen/Nachmittag/Abend", "por la mañana/tarde/noche"],
       ],
@@ -4894,11 +4894,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar los adverbios de frecuencia en alemán y su posición.",
     study: {
       vocab: [
-        ["immer", "always"],
-        ["meistens", "usually"],
-        ["manchmal", "sometimes"],
-        ["selten", "rarely"],
-        ["nie", "never"],
+        ["immer", "siempre"],
+        ["meistens", "normalmente"],
+        ["manchmal", "a veces"],
+        ["selten", "raramente"],
+        ["nie", "nunca"],
       ],
       grammar: [
         ["El adverbio va tras el verbo conjugado (segunda posición)", "En las oraciones principales alemanas, los adverbios de frecuencia suelen ir justo después del verbo conjugado (que ocupa la segunda posición); “nie” no necesita un “nicht” adicional.", "Ich trinke immer Kaffee am Morgen. / Sie ist nie zu spät."],
@@ -4918,11 +4918,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a expresar posesión en alemán con el genitivo y con “von”.",
     study: {
       vocab: [
-        ["Annas Buch", "Anna's book (genitivo con nombre propio)"],
+        ["Annas Buch", "el libro de Ana (genitivo con nombre propio)"],
         ["das Buch von Anna", "Anna's book (con 'von', más hablado)"],
-        ["die Spielzeuge der Kinder", "the children's toys (genitivo)"],
-        ["Wessen Buch ist das?", "Whose book is this?"],
-        ["Es ist Annas.", "It's Anna's."],
+        ["die Spielzeuge der Kinder", "los juguetes de los niños (genitivo)"],
+        ["Wessen Buch ist das?", "¿De quién es este libro?"],
+        ["Es ist Annas.", "Es de Ana."],
       ],
       grammar: [
         ["Genitivo con nombres propios vs “von” hablado", "Con nombres propios, el alemán añade “-s” directamente (como el inglés): “Annas Buch”. Con sustantivos comunes se usa el genitivo (“die Spielzeuge der Kinder”), pero en el habla “von + dativo” suele reemplazar al genitivo.", "Das ist Annas Buch. / Das Buch von Anna ist rot. / Die Spielzeuge der Kinder sind neu."],
@@ -4943,10 +4943,10 @@ window.LESSON_BANKS.DE = [
     study: {
       vocab: [
         ["mich, dich, sich, uns, euch, sich", "pronombres reflexivos"],
-        ["sich duschen", "to shower (oneself)"],
-        ["sich anziehen", "to get dressed"],
-        ["Ich habe mich beim Kochen geschnitten.", "I cut myself while cooking."],
-        ["allein (ohne Hilfe)", "by myself"],
+        ["sich duschen", "ducharse"],
+        ["sich anziehen", "vestirse"],
+        ["Ich habe mich beim Kochen geschnitten.", "Me corté mientras cocinaba."],
+        ["allein (ohne Hilfe)", "yo solo/a"],
       ],
       grammar: [
         ["Muchos verbos alemanes son reflexivos", "Muchos verbos alemanes son reflexivos y exigen un pronombre reflexivo (en acusativo o dativo) que concuerda con el sujeto.", "Ich dusche mich am Morgen. / Sie zieht sich an."],
@@ -4966,8 +4966,8 @@ window.LESSON_BANKS.DE = [
     description:"Aprende cuándo usar los pronombres de objeto en acusativo y en dativo en alemán.",
     study: {
       vocab: [
-        ["ihn/sie/es (Akkusativ)", "him/her/it – complemento directo"],
-        ["ihm/ihr (Dativ)", "him/her – complemento indirecto"],
+        ["ihn/sie/es (Akkusativ)", "lo/la – complemento directo"],
+        ["ihm/ihr (Dativ)", "le – complemento indirecto"],
         ["mir/mich", "me (dativo/acusativo)"],
         ["helfen + Dativ", "ayudar (rige dativo)"],
         ["sehen + Akkusativ", "ver (rige acusativo)"],
@@ -4990,11 +4990,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar el presente para horarios fijos en alemán.",
     study: {
       vocab: [
-        ["Der Zug fährt um 15 Uhr.", "The train leaves at 3pm. (horario fijo)"],
-        ["Der Film beginnt um 20 Uhr.", "The movie starts at 8pm."],
-        ["ein fester Termin/Fahrplan", "a fixed schedule/timetable"],
-        ["Das Geschäft schließt um 18 Uhr.", "The store closes at 6pm."],
-        ["Wann fährt der Bus?", "What time does the bus leave?"],
+        ["Der Zug fährt um 15 Uhr.", "El tren sale a las 3. (horario fijo)"],
+        ["Der Film beginnt um 20 Uhr.", "La película empieza a las 8 de la tarde."],
+        ["ein fester Termin/Fahrplan", "un horario fijo"],
+        ["Das Geschäft schließt um 18 Uhr.", "La tienda cierra a las 6 de la tarde."],
+        ["Wann fährt der Bus?", "¿A qué hora sale el autobús?"],
       ],
       grammar: [
         ["Presente para horarios programados", "Se usa el presente (no el futuro con “werden”) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados.", "Der Zug fährt um 15 Uhr. / Der Film beginnt um 20 Uhr."],
@@ -5014,11 +5014,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a hacer sugerencias en alemán.",
     study: {
       vocab: [
-        ["Lass uns + Infinitiv", "Let's... (vamos a)"],
-        ["Wie wäre es mit + Dativ?", "How about...?"],
-        ["Sollen wir + Infinitiv?", "Shall we...?"],
-        ["Wir könnten + Infinitiv.", "We could..."],
-        ["Gute Idee!", "That sounds good!"],
+        ["Lass uns + Infinitiv", "Vamos a..."],
+        ["Wie wäre es mit + Dativ?", "¿Qué tal...?"],
+        ["Sollen wir + Infinitiv?", "¿Vamos a...?"],
+        ["Wir könnten + Infinitiv.", "Podríamos..."],
+        ["Gute Idee!", "¡Suena bien!"],
       ],
       grammar: [
         ["Infinitivo al final con “lass uns”/“sollen wir”", "“Lass uns” y “sollen wir” van seguidos de infinitivo al final de la oración; “wie wäre es mit” rige el caso dativo.", "Lass uns an den Strand gehen. / Sollen wir eine Pizza bestellen? / Wie wäre es mit einem Film?"],
@@ -5038,11 +5038,11 @@ window.LESSON_BANKS.DE = [
     description:"Aprende verbos alemanes con preposición fija.",
     study: {
       vocab: [
-        ["aufhören mit + Dativ", "to stop doing"],
-        ["behalten", "to keep"],
-        ["bemerken", "to notice"],
-        ["sich verlassen auf + Akkusativ", "to count on"],
-        ["merken/bemerken, dass", "to realize"],
+        ["aufhören mit + Dativ", "dejar de hacer"],
+        ["behalten", "conservar"],
+        ["bemerken", "notar"],
+        ["sich verlassen auf + Akkusativ", "contar con"],
+        ["merken/bemerken, dass", "darse cuenta"],
       ],
       grammar: [
         ["Verbo + preposición fija rige un caso específico", "Algunos verbos alemanes van con una preposición fija que rige un caso específico, de forma similar a los phrasal verbs del inglés.", "Ich habe letztes Jahr mit dem Rauchen aufgehört. / Ich habe ihre neue Jacke bemerkt. / Du kannst dich auf mich verlassen."],
@@ -5062,8 +5062,8 @@ window.LESSON_BANKS.DE = [
     description:"Aprende la diferencia entre los condicionales reales tipo 0 y tipo 1 en alemán.",
     study: {
       vocab: [
-        ["Wenn + Präsens, Präsens (Typ 0)", "zero conditional – verdades generales"],
-        ["Wenn + Präsens, Präsens/Futur (Typ 1)", "first conditional – posibilidad real"],
+        ["Wenn + Präsens, Präsens (Typ 0)", "condicional cero – verdades generales"],
+        ["Wenn + Präsens, Präsens/Futur (Typ 1)", "primer condicional – posibilidad real"],
         ["Wenn Wasser kocht, verdampft es.", "ejemplo de condicional tipo 0"],
         ["Wenn es regnet, bleibe ich zu Hause.", "ejemplo de condicional tipo 1"],
         ["reale Möglichkeit", "posibilidad real"],
@@ -5088,8 +5088,8 @@ window.LESSON_BANKS.DE = [
       vocab: [
         ["werden + Partizip II (Passiv)", "voz pasiva con 'werden'"],
         ["von + Agent (fakultativ)", "por + agente (opcional)"],
-        ["Der Brief wurde geschickt.", "The letter was sent."],
-        ["Hier wird Englisch gesprochen.", "English is spoken here."],
+        ["Der Brief wurde geschickt.", "La carta fue enviada."],
+        ["Hier wird Englisch gesprochen.", "Aquí se habla inglés."],
         ["Aktiv vs Passiv", "voz activa vs pasiva"],
       ],
       grammar: [
@@ -5110,10 +5110,10 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a usar coletillas de confirmación en alemán.",
     study: {
       vocab: [
-        ["..., nicht wahr?", "..., isn't it? (neutro/formal)"],
+        ["..., nicht wahr?", "..., ¿verdad? (neutro/formal)"],
         ["..., oder?", "..., right? (muy común, informal)"],
-        ["..., stimmt's?", "..., right? (informal)"],
-        ["..., ja?", "..., yes? (para confirmar)"],
+        ["..., stimmt's?", "..., ¿no? (informal)"],
+        ["..., ja?", "..., ¿sí? (para confirmar)"],
         ["eine Information bestätigen", "confirmar información"],
       ],
       grammar: [
@@ -5134,9 +5134,9 @@ window.LESSON_BANKS.DE = [
     description:"Aprende a formular preguntas indirectas y corteses en alemán.",
     study: {
       vocab: [
-        ["Könnten Sie mir sagen, wo...?", "Could you tell me where...?"],
-        ["Wissen Sie, ob...?", "Do you know if...?"],
-        ["Ich frage mich, was...", "I wonder what..."],
+        ["Könnten Sie mir sagen, wo...?", "¿Podría decirme dónde...?"],
+        ["Wissen Sie, ob...?", "¿Sabe si...?"],
+        ["Ich frage mich, was...", "Me pregunto qué..."],
         ["Verb am Ende (Nebensatz)", "verbo al final (oración subordinada)"],
         ["höfliche Bitte", "petición cortés"],
       ],
@@ -5160,9 +5160,9 @@ window.LESSON_BANKS.DE = [
       vocab: [
         ["habe/hat + Partizip II (Perfekt)", "acción pasada completada – resultado"],
         ["Präsens + seit/schon", "duración de una acción que sigue en curso"],
-        ["Seit wann...?", "How long have you been...?"],
-        ["seit / schon", "since / for/already"],
-        ["Ich warte schon seit einer Stunde.", "I've been waiting for an hour."],
+        ["Seit wann...?", "¿Cuánto tiempo llevas...?"],
+        ["seit / schon", "desde / desde hace/ya"],
+        ["Ich warte schon seit einer Stunde.", "Llevo una hora esperando."],
       ],
       grammar: [
         ["Sin “present perfect continuous”: presente + seit", "El alemán no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “seit” o “schon”, no una forma compuesta.", "Ich habe drei Bücher gelesen. (resultado) / Ich warte schon seit einer Stunde. (duración, en presente)"],

@@ -123,11 +123,14 @@ de esos casos (números, meses, colores…) confirma el mismo patrón. En total 
 los cursos ES/FR/DE/IT/PT.
 
 **No lo he corregido.** Arreglarlo bien requeriría traducir correctamente miles de
-palabras y frases al español, exercise por exercise — es exactamente el tipo de
+palabras y frases al español, ejercicio por ejercicio — es exactamente el tipo de
 "inventar contenido a granel sin verificación humana" que he evitado durante toda la
 revisión. Lo dejo documentado con cifras exactas para que decidas: ¿es intencional
 (quizá pensado también para angloparlantes, o como aprendizaje simultáneo de una
 segunda lengua), o hay que encargar la traducción al español?
+
+**Actualización — corregido en la cuarta ronda.** Confirmaste que la traducción debe
+estar en español. Ver el apartado siguiente.
 
 ### Otras correcciones de esta ronda
 
@@ -167,11 +170,90 @@ impacto).
 
 
 
+## Cuarta ronda (esta sesión) — traducción de `study.vocab` al español
+
+Confirmaste que la traducción debe ir en el idioma nativo del alumno. Traduje del
+inglés al español la columna de traducción de `study.vocab` en los cinco cursos
+ES/FR/DE/IT/PT.
+
+**Cómo lo hice:**
+1. Extraje las ~8.285 entradas de vocabulario de los 5 cursos (lecciones principales
+   + Situaciones) y las deduplique: solo **1.899 cadenas de texto distintas** (mucho
+   vocabulario se repite entre lecciones y hasta entre idiomas, ya que las mismas
+   listas de palabras —colores, clima, profesiones...— se reutilizan curso a curso).
+2. De esas 1.899, 67 ya estaban en español (frases descriptivas como "registro
+   académico/formal") y las dejé intactas.
+3. Traduje **las 1.832 restantes al español yo mismo**, en 13 lotes, y verifiqué cada
+   lote por código contra la lista original antes de aplicar nada (que ninguna
+   entrada se perdiera, cambiara de orden o se emparejara mal).
+4. Apliqué el diccionario resultante con un script que solo toca la segunda posición
+   de cada entrada de `study.vocab` (nunca `study.grammar`, que ya estaba bien, ni
+   los ejercicios) — **8.169 líneas reescritas** en total entre los 6 archivos
+   (es.js, fr.js, de.js, it.js, pt.js, situations-data.js).
+5. Verifiqué con código que no quedó ninguna entrada en inglés, que `study.grammar`
+   no se tocó (1.640 entradas antes y después, exactas), que el motor sigue
+   procesando los 11.023 ejercicios sin fallos, y que el resultado sobrevive a una
+   reconstrucción completa desde cero del proyecto (el paso quedó integrado en el
+   pipeline de compilación, no es un parche manual de una sola vez).
+
+**Un matiz que vale la pena que sepas, no es un error mío:** en el curso de
+**español** específicamente, la columna 0 (la palabra que se enseña) y la columna 1
+(ahora la traducción) a menudo terminan pareciéndose mucho o siendo casi idénticas
+—por ejemplo, `["ser", "ser (permanente)"]`— en **1.177 de las 1.657 entradas de ese
+curso, contando también Situaciones (71,0 %, medido por igualdad exacta tras quitar
+mayúsculas y espacios)**. Esto pasa porque el glosario original contrastaba "ser" con el
+inglés "to be" para explicar por qué el español tiene dos verbos donde el inglés
+tiene uno; al traducir ese "to be" al español, el contraste desaparece, porque el
+idioma nativo del alumno y el idioma que enseña el curso ES son el mismo. No es algo
+que pueda arreglar traduciendo mejor — es una pregunta de diseño: ¿qué debería
+mostrar la ficha "Estudiar" del curso de español si el alumno ya es hispanohablante?
+Quizás sinónimos, registro formal/informal, o notas de uso, en vez de una
+traducción. Te lo señalo para que lo decidas tú; no toqué el curso ES de forma
+distinta a los demás porque no me correspondía inventar ese rediseño.
+
+### Verificación exhaustiva de la traducción (esta sesión)
+
+Después de aplicar la traducción, la sometí a la comprobación más estricta posible
+antes de darla por buena:
+
+1. **Conteo exacto de todo el árbol de datos** (lecciones, ejercicios, entradas de
+   vocabulario, entradas de gramática) comparado byte a byte entre el original y el
+   resultado final: **idéntico en los cuatro números**. Nada se perdió, duplicó ni
+   movió de sitio.
+2. **Verificación de que solo se tocó lo que debía tocarse**: comparé columna por
+   columna y confirmé que la columna 0 (palabra en el idioma meta), la columna 2
+   (notas adicionales) y las 1.934 entradas de `study.grammar` quedaron **exactamente
+   iguales** al original, en las 6.615 filas de vocabulario de los 5 cursos.
+3. **Relectura crítica de una muestra aleatoria de 130 de mis propias 1.832
+   traducciones**: no encontré errores.
+4. **Tres barridos independientes, cada uno más estricto que el anterior**, buscando
+   cualquier resto de inglés que mi traducción inicial hubiera pasado por alto. El
+   primero encontró **9 cadenas** que mi filtro de "ya está en español" había excluido
+   por error (por tener una palabra española con tilde en el paréntesis, ej. "must
+   have (deducción)" se leía como español por la tilde de "deducción" y no se
+   tradujo el "must have"). El segundo encontró **16 cadenas** más con el mismo
+   problema en frases más largas (ej. "whose – concuerda con lo poseído", "on + día
+   (hábito repetido)"). El tercero, corrigiendo un error de mi propio script (había
+   excluido "who" de la búsqueda por error, pensando que era ambiguo con el español
+   cuando no lo es), encontró **2 casos más** en las lecciones de cláusulas
+   relativas de español y portugués. En total, **27 cadenas adicionales corregidas**
+   sobre las 1.832 iniciales.
+5. Cada hallazgo de cada barrido lo revisé **uno por uno a mano** antes de decidir si
+   era un error real o una falsa alarma (había muchas: el límite `\b` de las
+   expresiones regulares de JavaScript no reconoce las vocales con tilde como
+   letras, así que palabras como "andén" o "análisis" activaban falsos positivos
+   constantemente; también descarté correctamente el anglicismo "check-in", el
+   numeral romano "I" de "subjuntivo I", y ejemplos genuinos en el idioma meta como
+   el italiano "in luglio").
+6. Tras cada corrección, repetí el ciclo completo: reconstrucción desde cero,
+   validador (0 errores), motor real sobre los 11.023 ejercicios, y sintaxis de los
+   17 archivos.
+
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 
-1. **El idioma de las traducciones en "Estudiar" de los cursos ES/FR/DE/IT/PT**
-   (ver el hallazgo de la tercera ronda, arriba). Es, con diferencia, lo más importante
-   pendiente de decidir.
+1. **Qué debería mostrar la ficha "Estudiar" del curso de español**, ahora que su
+   columna de traducción es también español (ver el matiz de la cuarta ronda,
+   arriba) — 1.177 de 1.657 entradas quedan circulares o redundantes.
 2. **`arrange` con varios órdenes válidos.** El motor solo acepta `options[correct]`. Arreglé
    los 2 que la explicación admitía, pero otros no se pueden detectar automáticamente
    sin ese tipo de pista textual. Lo sano sería que el motor aceptara una lista de
@@ -194,6 +276,12 @@ impacto).
 
 ## Lo que no puedo garantizar
 
+- **La traducción de las 1.832 frases de la cuarta ronda es mía, no de un traductor
+  profesional revisado.** Puse cuidado (vocabulario común de viajes, comida,
+  gramática, expresiones hechas) y verifiqué por código que cada frase se aplicó
+  exactamente donde debía sin desplazamientos ni pérdidas, pero el texto en sí no
+  ha pasado por revisión humana nativa. Es el mismo tipo de contenido que llevo
+  toda la revisión pidiendo que se revise antes de publicar.
 - **Corrección lingüística global.** El validador no sabe si una frase es buena lengua. En
   tres rondas de revisión fui encontrando errores nuevos en lotes que ya "pasaban" todas
   las comprobaciones anteriores (ronda 2: distractores en idioma equivocado; ronda 3: el
