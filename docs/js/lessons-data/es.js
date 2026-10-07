@@ -240,7 +240,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","Aviso: \"Las plazas del taller están reservadas para socios hasta el viernes; después se liberarán las que queden.\" ¿Qué debe hacer una persona que no es socia?",["Esperar hasta el viernes para saber si quedan plazas.","Reservar hoy porque tiene prioridad.","Pagar una cuota obligatoria antes del viernes.","Asumir que el taller está cancelado."],0,"El aviso indica prioridad temporal para socios, no exclusividad permanente."],
       ["mcq","Mensaje: \"Envíe el formulario antes de las 17:00 del jueves. Las solicitudes tardías solo se considerarán si quedan plazas.\" ¿Cuál es la acción más segura?",["Enviar el formulario antes de las 17:00 del jueves.","Esperar a que confirmen que quedan plazas.","Enviar el viernes porque siempre se aceptan solicitudes tardías.","Llamar para cancelar la solicitud."],0,"\"Antes de\" marca una fecha límite clara; \"solo si\" no garantiza la aceptación tardía."],
       ["fill","Completa: \"Los candidatos deben ser ___ para el programa antes de solicitar la beca.\"",["elegibles","disponibles","sujetos","límites"],0,"\"Elegible\" significa que cumple los requisitos necesarios."],
-      ["writing","Escribe un correo de 45-60 palabras preguntando si todavía puedes solicitar una plaza después de la fecha límite.",[],["tardía","solicitud","disponible"],"Incluye saludo, petición clara y cierre apropiado.","Escribes al coordinador de un curso que cerró ayer."]
+      ["writing","Escribe un correo de 45-60 palabras preguntando si todavía puedes solicitar una plaza después de la fecha límite.",[],["tardía","solicitud","disponible"],"Incluye saludo, petición clara y cierre apropiado.","Escribes al coordinador de un curso que cerró ayer."],
+    ["mcq","¿Cómo se dice \"disponible a petición\" en español?",["fecha límite","disponible bajo petición","sujeto a cambios","cumplir los requisitos"],1,"\"disponible a petición\" se dice \"disponible bajo petición\" en español."],
+    ["arrange","Ordena: [sujeto / a / cambios]",["sujeto a cambios","cambios sujeto a","a sujeto cambios","sujeto cambios a"],0,"El orden correcto es: \"sujeto a cambios\"."],
     ]
   },
   {
@@ -261,7 +263,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","Lee: \"Maya esperaba que el curso fuera difícil, pero resulta que el feedback semanal lo hace manejable.\" ¿Qué opina Maya?",["El curso es exigente, pero el apoyo le ayuda a seguirlo.","El curso es demasiado fácil.","El feedback hace que el curso sea más difícil.","Dejó el curso por falta de apoyo."],0,"Contrasta una expectativa inicial con una evaluación final más positiva."],
       ["mcq","¿Qué respuesta expresa preferencia y motivo?",["Preferiría reunirme en línea porque ahorra tiempo de viaje.","Me reúno en línea ayer.","Las reuniones en línea son un tiempo de viaje.","Prefiero porque reuniones."],0,"La estructura incluye preferencia, opción y justificación."],
       ["fill","Completa: \"El precio era alto, pero la experiencia ___ la pena.\"",["valió","prefirió","resultó","desanimó"],0,"La expresión fija es \"valer la pena\"; en pasado: \"valió la pena\"."],
-      ["speaking","Habla durante 45-60 palabras: compara estudiar solo y estudiar con otras personas. Da una preferencia, una razón y una posible desventaja.",[],["prefiero","porque","sin embargo"],"Organiza tu respuesta: comparación, preferencia, razón y reserva.","Conversación con un compañero de clase."]
+      ["speaking","Habla durante 45-60 palabras: compara estudiar solo y estudiar con otras personas. Da una preferencia, una razón y una posible desventaja.",[],["prefiero","porque","sin embargo"],"Organiza tu respuesta: comparación, preferencia, razón y reserva.","Conversación con un compañero de clase."],
+    ["arrange","Ordena: [vale / la / pena]",["vale la pena","la vale pena","pena la vale","pena vale la"],0,"El orden correcto es: \"vale la pena\"."],
+    ["arrange","Ordena: [desanimar / a / alguien]",["desanimar a alguien","alguien a desanimar","alguien desanimar a","a desanimar alguien"],0,"El orden correcto es: \"desanimar a alguien\"."],
     ]
   },
   {
@@ -282,7 +286,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración usa correctamente pretérito e imperfecto?",["Mientras caminábamos por el parque, vimos un accidente.","Mientras caminamos por el parque, veíamos un accidente.","Mientras caminábamos por el parque, veíamos un accidente ayer.","Caminamos por el parque mientras vimos."],0,"El fondo (caminábamos) va en imperfecto; la acción puntual (vimos) va en pretérito."],
       ["fill","Completa: \"No ___ cuenta de lo tarde que era hasta que miré el móvil.\"",["me di","me daba","doy","daba"],0,"\"Darse cuenta\" en pretérito para una acción puntual: \"me di cuenta\"."],
       ["translate","Traduce: \"At first I was nervous, but eventually I enjoyed the experience.\"",["Al principio estaba nervioso, pero al final disfruté la experiencia.","Al principio estuve nervioso, pero al final disfrutaba la experiencia.","Al principio era nervioso, pero al final disfruté la experiencia.","Al principio estaba nervioso, pero al final disfrutaba de experiencia."],0,"El estado de ánimo de fondo va en imperfecto (\"estaba\"); la acción completa va en pretérito (\"disfruté\")."],
-      ["writing","Escribe una historia de 80-100 palabras sobre un plan que cambió inesperadamente.",[],["al principio","pero","finalmente"],"Revisa que cada parte avance la historia y que uses los tiempos verbales de forma consistente.","Un viaje corto que no salió como esperabas."]
+      ["writing","Escribe una historia de 80-100 palabras sobre un plan que cambió inesperadamente.",[],["al principio","pero","finalmente"],"Revisa que cada parte avance la historia y que uses los tiempos verbales de forma consistente.","Un viaje corto que no salió como esperabas."],
+    ["mcq","¿Cómo se dice \"con el tiempo\" en español?",["al principio","finalmente","inesperadamente","darse cuenta"],1,"\"con el tiempo\" se dice \"finalmente\" en español."],
+    ["fill","Completa: \"El avión llegó ___ dos horas antes de lo previsto.\"",["inesperadamente","al principio","finalmente","darse cuenta"],0,"\"Inesperadamente\" describe algo que ocurre sin que se esperara."],
     ]
   },
   {
@@ -303,7 +309,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué respuesta construye un acuerdo?",["Entiendo tu punto sobre el coste; ¿qué tal si invitamos a menos gente?","Tu idea es mala, así que gana la mía.","No entiendo ningún punto.","La opción barata es la gente."],0,"Reconoce una idea y propone un compromiso concreto."],
       ["fill","Completa: \"¿___ nos vemos en la biblioteca después de clase?\"",["Y si","Sería","Hizo","Ha"],0,"\"¿Y si...?\" es una forma común de proponer algo."],
       ["mcq","¿Qué frase expresa desacuerdo cortés?",["No estoy seguro de que funcione, porque el lugar cierra temprano.","Eso nunca va a funcionar.","Tu plan es terrible.","No, obviamente no."],0,"El desacuerdo se suaviza y se justifica con una razón."],
-      ["speaking","Habla durante 45-60 palabras: propón un plan de fin de semana, responde a una posible objeción y ofrece un compromiso.",[],["propongo","porque","término medio"],"Incluye una propuesta concreta, una razón y una respuesta colaborativa.","Organizas una actividad con un amigo con poco presupuesto."]
+      ["speaking","Habla durante 45-60 palabras: propón un plan de fin de semana, responde a una posible objeción y ofrece un compromiso.",[],["propongo","porque","término medio"],"Incluye una propuesta concreta, una razón y una respuesta colaborativa.","Organizas una actividad con un amigo con poco presupuesto."],
+    ["arrange","Ordena: [entiendo / tu / punto]",["entiendo tu punto","punto entiendo tu","tu punto entiendo","tu entiendo punto"],0,"El orden correcto es: \"entiendo tu punto\"."],
+    ["mcq","¿Cómo se dice \"¿qué tal...?\" en español?",["¿qué tal si...?","entiendo tu punto","¿y si...?","un término medio"],0,"\"¿qué tal...?\" se dice \"¿qué tal si...?\" en español."],
     ]
   },
   {
@@ -324,7 +332,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración expresa un plan ya decidido?",["Voy a empezar un curso de italiano en septiembre.","Empezaré un curso si tengo tiempo.","Creo que empezaré algún curso.","Empezaba un curso el año pasado."],0,"\"Ir a + infinitivo\" se usa para planes ya decididos."],
       ["fill","Completa: \"En cuanto ___ el informe, te lo envío.\"",["termine","termino","terminaré","terminaba"],0,"Tras \"en cuanto\" referido al futuro se usa el subjuntivo presente: \"termine\"."],
       ["translate","Traduce: \"As soon as I finish the project, I'll call you.\"",["En cuanto termine el proyecto, te llamaré.","Cuando terminaba el proyecto, te llamo.","En cuanto termino el proyecto, te llamaba.","Si termino el proyecto, te llamaré."],0,"\"En cuanto\" + subjuntivo presente expresa una condición futura."],
-      ["writing","Escribe 45-60 palabras sobre tus planes para el próximo año. Usa al menos dos expresiones de futuro.",[],["tengo pensado","en cuanto","es posible"],"Combina al menos dos formas de hablar del futuro y justifica un plan.","Le cuentas tus planes a un amigo."]
+      ["writing","Escribe 45-60 palabras sobre tus planes para el próximo año. Usa al menos dos expresiones de futuro.",[],["tengo pensado","en cuanto","es posible"],"Combina al menos dos formas de hablar del futuro y justifica un plan.","Le cuentas tus planes a un amigo."],
+    ["mcq","¿Cómo se dice \"pronto\" en español?",["es posible que","en cuanto pueda","dentro de poco","tengo pensado"],2,"\"pronto\" se dice \"dentro de poco\" en español."],
+    ["mcq","¿Cómo se dice \"tan pronto como pueda\" en español?",["es posible que","tengo pensado","en cuanto pueda","dentro de poco"],2,"\"tan pronto como pueda\" se dice \"en cuanto pueda\" en español."],
     ]
   },
   {
@@ -345,7 +355,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué frase es una queja formal y cortés?",["Me gustaría saber por qué el paquete llegó con una semana de retraso.","¡Esto es un desastre total!","Su empresa nunca hace nada bien.","No pienso pagar nada."],0,"Formula la queja de forma indirecta y respetuosa, sin perder claridad."],
       ["fill","Completa: \"¿___ enviarme una copia de la factura, por favor?\"",["Podría","Puede","Pudo","Puedo"],0,"\"Podría\" en condicional suaviza la petición y resulta más formal."],
       ["translate","Traduce: \"I would like to file a complaint about the service.\"",["Me gustaría presentar una queja sobre el servicio.","Quiero quejar sobre el servicio.","Me gusta presentar una queja del servicio.","Presentaría una queja el servicio."],0,"\"Me gustaría\" + infinitivo es la fórmula estándar de cortesía."],
-      ["writing","Escribe un correo de queja de 50-70 palabras sobre un pedido que llegó incompleto. Usa el condicional de cortesía.",[],["me gustaría","podría","lamento"],"Explica el problema, formula una petición clara y cierra de forma cortés.","Un pedido online llegó con dos artículos faltantes."]
+      ["writing","Escribe un correo de queja de 50-70 palabras sobre un pedido que llegó incompleto. Usa el condicional de cortesía.",[],["me gustaría","podría","lamento"],"Explica el problema, formula una petición clara y cierra de forma cortés.","Un pedido online llegó con dos artículos faltantes."],
+    ["arrange","Ordena: [presentar / una / queja]",["presentar una queja","queja presentar una","una queja presentar","presentar queja una"],0,"El orden correcto es: \"presentar una queja\"."],
+    ["fill","Completa: \"___ saber el estado de mi pedido, por favor.\"",["Me gustaría","¿Podría...?","Lamento informarle","Presentar una queja"],0,"\"Me gustaría\" + infinitivo es una forma cortés de pedir información."],
     ]
   },
   {
@@ -366,7 +378,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración expresa una hipótesis poco probable correctamente?",["Si tuviera más dinero, compraría una casa más grande.","Si tengo más dinero, compraría una casa más grande.","Si tuviera más dinero, compro una casa más grande.","Si tendría más dinero, compraría una casa más grande."],0,"El tipo 2 exige imperfecto de subjuntivo en la condición y condicional simple en la consecuencia."],
       ["fill","Completa: \"A menos que ___ un esfuerzo extra, no terminaremos a tiempo.\"",["hagamos","hacemos","haríamos","hicimos"],0,"\"A menos que\" siempre va seguido de subjuntivo."],
       ["mcq","¿Cuál es la mejor paráfrasis de \"Si yo fuera tú, no aceptaría esa oferta\"?",["Es un consejo hipotético: el hablante no aceptaría la oferta en el lugar del oyente.","Es una orden directa.","Es una descripción de un hecho pasado.","Es una promesa para el futuro."],0,"La estructura hipotética expresa un consejo, no un hecho ni una orden."],
-      ["writing","Escribe 60-80 palabras: describe qué harías de forma diferente si pudieras repetir un año de tu vida. Usa al menos dos hipótesis con \"si\".",[],["si tuviera","en caso de que","a menos que"],"Revisa que cada hipótesis combine correctamente imperfecto de subjuntivo y condicional.","Reflexión personal para un blog."]
+      ["writing","Escribe 60-80 palabras: describe qué harías de forma diferente si pudieras repetir un año de tu vida. Usa al menos dos hipótesis con \"si\".",[],["si tuviera","en caso de que","a menos que"],"Revisa que cada hipótesis combine correctamente imperfecto de subjuntivo y condicional.","Reflexión personal para un blog."],
+    ["mcq","¿Cómo se dice \"por si acaso\" en español?",["ojalá","si tuviera","en caso de que","a menos que"],2,"\"por si acaso\" se dice \"en caso de que\" en español."],
+    ["arrange","Ordena: [a / menos / que]",["a menos que","que menos a","que a menos","menos que a"],0,"El orden correcto es: \"a menos que\"."],
     ]
   },
   {
@@ -387,7 +401,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","Cita directa: \"Terminaré el informe mañana.\" ¿Cuál es el estilo indirecto correcto?",["Dijo que terminaría el informe al día siguiente.","Dijo que terminará el informe mañana.","Dijo que terminaba el informe mañana.","Dijo que termine el informe al día siguiente."],0,"El futuro de la cita original pasa a condicional; \"mañana\" cambia a \"al día siguiente\"."],
       ["fill","Completa: \"Me preguntó si ___ disponible para la reunión del lunes.\"",["estaba","estoy","estaré","esté"],0,"El presente de la cita original ('estás') pasa a imperfecto en estilo indirecto: 'estaba'."],
       ["mcq","¿Qué cambia normalmente al pasar del estilo directo al indirecto en pasado?",["El tiempo verbal y a veces los marcadores temporales (mañana → al día siguiente).","Solo el sujeto de la oración.","Nada cambia nunca.","Solo el orden de las palabras."],0,"El tiempo verbal se desplaza hacia el pasado y algunos marcadores temporales cambian."],
-      ["writing","Reporta en estilo indirecto (50-70 palabras) una conversación reciente en la que alguien te contó sus planes.",[],["dijo que","explicó que","añadió que"],"Adapta correctamente los tiempos verbales y los marcadores temporales.","Le cuentas a un amigo lo que te dijo un compañero de trabajo."]
+      ["writing","Reporta en estilo indirecto (50-70 palabras) una conversación reciente en la que alguien te contó sus planes.",[],["dijo que","explicó que","añadió que"],"Adapta correctamente los tiempos verbales y los marcadores temporales.","Le cuentas a un amigo lo que te dijo un compañero de trabajo."],
+    ["mcq","¿Cómo se dice \"él/ella dijo que\" en español?",["dijo que","añadió que","explicó que","preguntó si"],0,"\"él/ella dijo que\" se dice \"dijo que\" en español."],
+    ["mcq","¿Cómo se dice \"él/ella explicó que\" en español?",["explicó que","dijo que","añadió que","preguntó si"],0,"\"él/ella explicó que\" se dice \"explicó que\" en español."],
     ]
   },
   {
@@ -408,7 +424,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración usa correctamente la pasiva refleja?",["Se firmaron los contratos ayer por la tarde.","Se firmó los contratos ayer por la tarde.","Fue firmado los contratos ayer.","Se firmaba los contratos por alguien."],0,"El verbo concuerda en plural con 'los contratos': 'se firmaron'."],
       ["fill","Completa: \"El nuevo edificio ___ por una empresa internacional.\"",["fue diseñado","se diseñó","diseñó","diseñaba"],0,"Cuando el agente es explícito ('por una empresa'), se prefiere la pasiva con 'ser'."],
       ["mcq","¿Cuándo se prefiere la pasiva refleja sobre la pasiva con 'ser'?",["Cuando el agente no es relevante o no se conoce.","Cuando se quiere nombrar siempre al agente.","Nunca se usa en español natural.","Solo en textos literarios antiguos."],0,"La pasiva refleja es la forma natural cuando el agente no importa."],
-      ["writing","Describe en 50-70 palabras un proceso (por ejemplo, cómo se organiza un evento) usando al menos dos construcciones pasivas o impersonales.",[],["se + verbo","fue + participio","llevarse a cabo"],"Usa al menos dos construcciones distintas de forma coherente.","Explicas un procedimiento a alguien nuevo en el equipo."]
+      ["writing","Describe en 50-70 palabras un proceso (por ejemplo, cómo se organiza un evento) usando al menos dos construcciones pasivas o impersonales.",[],["se + verbo","fue + participio","llevarse a cabo"],"Usa al menos dos construcciones distintas de forma coherente.","Explicas un procedimiento a alguien nuevo en el equipo."],
+    ["mcq","¿Cómo se dice \"construcción impersonal/pasiva con 'se'\" en español?",["llevarse a cabo","se + verbo","encargarse de","ser + participio"],1,"\"construcción impersonal/pasiva con 'se'\" se dice \"se + verbo\" en español."],
+    ["arrange","Ordena: [llevarse / a / cabo]",["llevarse a cabo","cabo a llevarse","a llevarse cabo","cabo llevarse a"],0,"El orden correcto es: \"llevarse a cabo\"."],
     ]
   },
   {
@@ -429,7 +447,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración es gramaticalmente correcta?",["No creo que la propuesta sea viable a corto plazo.","No creo que la propuesta es viable a corto plazo.","No creo que la propuesta será viable a corto plazo.","No creo que la propuesta viable a corto plazo."],0,"\"No creo que\" niega certeza, por lo que exige subjuntivo: \"sea\"."],
       ["fill","Completa: \"Puede que ya ___ la decisión cuando lleguemos.\"",["hayan tomado","han tomado","tomarán","tomaron"],0,"\"Puede que\" + subjuntivo (aquí, perfecto de subjuntivo para una acción anterior)."],
       ["mcq","¿Qué expresión NO requiere subjuntivo en la cláusula siguiente?",["Estoy seguro de que...","Dudo que...","No creo que...","Es posible que..."],0,"\"Estoy seguro de que\" expresa certeza, por lo que se usa indicativo, no subjuntivo."],
-      ["speaking","Habla 60-80 palabras: da tu opinión sobre si el teletrabajo será la norma en el futuro. Usa al menos una expresión de duda y una de certeza.",[],["dudo que","es probable que","estoy seguro de que"],"Alterna correctamente subjuntivo e indicativo según el grado de certeza.","Debate informal sobre el futuro del trabajo."]
+      ["speaking","Habla 60-80 palabras: da tu opinión sobre si el teletrabajo será la norma en el futuro. Usa al menos una expresión de duda y una de certeza.",[],["dudo que","es probable que","estoy seguro de que"],"Alterna correctamente subjuntivo e indicativo según el grado de certeza.","Debate informal sobre el futuro del trabajo."],
+    ["arrange","Ordena: [no / creo / que]",["no creo que","que no creo","creo no que","no que creo"],0,"El orden correcto es: \"no creo que\"."],
+    ["arrange","Ordena: [es / probable / que]",["es probable que","probable es que","probable que es","que es probable"],0,"El orden correcto es: \"es probable que\"."],
     ]
   },
   {
@@ -450,7 +470,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración usa correctamente 'aunque' para un hecho ya confirmado?",["Aunque el vuelo se retrasó, llegamos a tiempo a la reunión.","Aunque el vuelo se retrase, llegamos a tiempo a la reunión.","Aunque el vuelo retrasara, llegamos a tiempo.","Aunque el vuelo se retrasa mañana, llegamos ayer."],0,"Para un hecho ya confirmado, 'aunque' va con indicativo: 'se retrasó'."],
       ["fill","Completa: \"___ el informe estaba incompleto, lo enviamos antes de la fecha límite.\"",["A pesar de que","Sin embargo","No obstante","Es probable que"],0,"\"A pesar de que\" introduce una cláusula subordinada de contraste con un hecho real."],
       ["mcq","¿Qué conector suele iniciar una oración nueva en vez de una cláusula subordinada dentro de la misma oración?",["Sin embargo","Aunque","A pesar de que","Puesto que"],0,"'Sin embargo' funciona como conector entre oraciones, no como subordinante."],
-      ["writing","Escribe un párrafo de 60-80 palabras presentando una opinión y matizándola con al menos dos conectores de contraste distintos.",[],["aunque","sin embargo","no obstante"],"Combina correctamente los conectores subordinantes y los que unen oraciones.","Opinión sobre un tema de actualidad para un foro."]
+      ["writing","Escribe un párrafo de 60-80 palabras presentando una opinión y matizándola con al menos dos conectores de contraste distintos.",[],["aunque","sin embargo","no obstante"],"Combina correctamente los conectores subordinantes y los que unen oraciones.","Opinión sobre un tema de actualidad para un foro."],
+    ["mcq","¿Cómo se dice \"sin embargo\" en español?",["no obstante","a pesar de que","aunque","sin embargo"],0,"\"sin embargo\" se dice \"no obstante\" en español."],
+    ["fill","___ llovió, salimos a caminar.",["Aunque","Porque","Mientras","Entonces"],0,"\"Aunque\" introduce un contraste: a pesar de la lluvia, salieron a caminar."],
     ]
   },
   {
@@ -471,7 +493,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué estructura muestra un argumento bien matizado?",["Si bien es cierto que el proyecto es caro, a largo plazo podría ahorrar recursos.","El proyecto es caro y punto.","El proyecto no cuesta nada, obviamente.","No hay ningún argumento en contra del proyecto."],0,"Reconoce un punto en contra antes de matizarlo con una ventaja a largo plazo."],
       ["fill","Completa: \"___, la propuesta tiene más ventajas que inconvenientes.\"",["En definitiva","Aunque","A menos que","Dudo que"],0,"\"En definitiva\" se usa para cerrar un argumento con una conclusión general."],
       ["mcq","¿Qué función cumple 'cabe destacar que' en un argumento?",["Señala un punto que el hablante considera especialmente relevante.","Introduce una hipótesis irreal.","Expresa duda total sobre el tema.","Cierra la conversación abruptamente."],0,"Es una fórmula para resaltar un punto relevante dentro del argumento."],
-      ["writing","Escribe un párrafo argumentativo de 70-90 palabras sobre un tema debatible (por ejemplo, el trabajo remoto). Reconoce un punto en contra antes de defender tu postura.",[],["por un lado","si bien es cierto","en definitiva"],"Estructura: reconocimiento del punto contrario, tu postura y una conclusión.","Contribución a un debate escrito en clase."]
+      ["writing","Escribe un párrafo argumentativo de 70-90 palabras sobre un tema debatible (por ejemplo, el trabajo remoto). Reconoce un punto en contra antes de defender tu postura.",[],["por un lado","si bien es cierto","en definitiva"],"Estructura: reconocimiento del punto contrario, tu postura y una conclusión.","Contribución a un debate escrito en clase."],
+    ["arrange","Ordena: [si / bien / es / cierto / que]",["si bien es cierto que","es si que cierto bien","es que bien si cierto","es que cierto si bien"],0,"El orden correcto es: \"si bien es cierto que\"."],
+    ["arrange","Ordena: [cabe / destacar / que]",["cabe destacar que","cabe que destacar","destacar que cabe","que cabe destacar"],0,"El orden correcto es: \"cabe destacar que\"."],
     ]
   },
   {
@@ -492,7 +516,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración suena más apropiada en un informe formal?",["Cabría señalar que los resultados, aunque prometedores, requieren más análisis.","Los resultados son geniales, punto.","Esto está clarísimo para cualquiera.","No hay nada más que decir sobre esto."],0,"El registro formal favorece la atenuación y la prudencia argumentativa."],
       ["fill","Completa: \"___ matizar que el estudio se basa en una muestra reducida.\"",["Convendría","Es obvio","Nunca","Siempre"],0,"\"Convendría\" introduce una recomendación atenuada, propia del registro formal."],
       ["mcq","¿Qué efecto produce usar el condicional en vez del presente en un informe? (\"Cabría concluir que...\" vs. \"Concluimos que...\")",["Suaviza la afirmación y deja espacio a la duda razonable.","Hace la afirmación más categórica y segura.","Cambia el significado por completo.","No tiene ningún efecto estilístico."],0,"El condicional atenúa la afirmación sin negarla."],
-      ["writing","Redacta 60-80 palabras de un informe breve que evalúe una propuesta, usando al menos dos expresiones de atenuación (hedging).",[],["cabría señalar","convendría","tendería a pensar"],"El registro formal prioriza la prudencia argumentativa sobre la certeza absoluta.","Informe interno para un comité directivo."]
+      ["writing","Redacta 60-80 palabras de un informe breve que evalúe una propuesta, usando al menos dos expresiones de atenuación (hedging).",[],["cabría señalar","convendría","tendería a pensar"],"El registro formal prioriza la prudencia argumentativa sobre la certeza absoluta.","Informe interno para un comité directivo."],
+    ["mcq","¿Cómo se dice \"convendría señalar que\" en español?",["en términos generales","tender a pensar que","cabría señalar que","convendría matizar que"],2,"\"convendría señalar que\" se dice \"cabría señalar que\" en español."],
+    ["mcq","¿Cómo se dice \"convendría aclarar que\" en español?",["cabría señalar que","en términos generales","tender a pensar que","convendría matizar que"],3,"\"convendría aclarar que\" se dice \"convendría matizar que\" en español."],
     ]
   },
   {
@@ -513,7 +539,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración expresa correctamente una hipótesis irreal en el pasado?",["Si hubiéramos revisado el contrato a tiempo, habríamos evitado el problema.","Si revisamos el contrato a tiempo, habríamos evitado el problema.","Si hubiéramos revisado el contrato a tiempo, evitamos el problema.","Si habríamos revisado el contrato, habríamos evitado el problema."],0,"Se necesita pluscuamperfecto de subjuntivo en la condición y condicional compuesto en la consecuencia."],
       ["fill","Completa: \"Era imposible que el equipo ___ el proyecto sin más recursos.\"",["hubiera terminado","había terminado","terminaría","terminara ya"],0,"Tras 'era imposible que' (pasado + duda) se usa subjuntivo; para una acción anterior, pluscuamperfecto de subjuntivo."],
       ["mcq","¿Qué distingue al pluscuamperfecto de subjuntivo del imperfecto de subjuntivo?",["El pluscuamperfecto sitúa la hipótesis en un momento anterior a otro punto del pasado.","No hay ninguna diferencia real entre ambos.","El pluscuamperfecto solo se usa en el futuro.","El imperfecto de subjuntivo no existe en español."],0,"El pluscuamperfecto añade una capa temporal anterior dentro del pasado."],
-      ["writing","Escribe 70-90 palabras sobre una decisión pasada que cambiarías. Usa al menos dos estructuras con pluscuamperfecto de subjuntivo.",[],["si hubiera","habría bastado","no fue hasta que"],"Revisa que las estructuras combinen correctamente pluscuamperfecto de subjuntivo y condicional compuesto.","Reflexión retrospectiva sobre una decisión profesional."]
+      ["writing","Escribe 70-90 palabras sobre una decisión pasada que cambiarías. Usa al menos dos estructuras con pluscuamperfecto de subjuntivo.",[],["si hubiera","habría bastado","no fue hasta que"],"Revisa que las estructuras combinen correctamente pluscuamperfecto de subjuntivo y condicional compuesto.","Reflexión retrospectiva sobre una decisión profesional."],
+    ["mcq","¿Cómo se dice \"si lo hubiera sabido\" en español?",["era imposible que","habría bastado con","no fue hasta que","si hubiera sabido"],3,"\"si lo hubiera sabido\" se dice \"si hubiera sabido\" en español."],
+    ["arrange","Ordena: [era / imposible / que]",["era imposible que","que era imposible","imposible era que","era que imposible"],0,"El orden correcto es: \"era imposible que\"."],
     ]
   },
   {
@@ -534,7 +562,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué reformulación es más propia de un informe técnico?",["La ausencia de coordinación entre los equipos dio lugar a duplicidad de tareas.","No coordinaron y por eso hicieron cosas repetidas.","Los equipos no se coordinaron, así que hubo un lío.","Fue un desastre porque nadie habló con nadie."],0,"La nominalización condensa la información en un tono más objetivo."],
       ["fill","Completa: \"La ___ de nuevas tecnologías conlleva costes iniciales elevados.\"",["adopción","adoptar","adoptando","adoptado"],0,"El sustantivo 'adopción' (nominalización de 'adoptar') encaja en la estructura formal con artículo."],
       ["mcq","¿Qué ventaja aporta la nominalización en un texto técnico?",["Permite condensar información y adoptar un tono más objetivo e impersonal.","Hace el texto más informal y cercano.","Elimina toda posibilidad de precisión.","No aporta ninguna ventaja real."],0,"La nominalización es clave para la densidad y objetividad del registro técnico."],
-      ["writing","Reescribe en 60-80 palabras un párrafo informal sobre un problema laboral, transformándolo en un fragmento de informe formal usando al menos tres nominalizaciones.",[],["la implementación","la ausencia de","dar lugar a"],"Identifica los verbos clave y conviértelos en sustantivos para un tono más formal.","Convertir una queja informal en un informe interno."]
+      ["writing","Reescribe en 60-80 palabras un párrafo informal sobre un problema laboral, transformándolo en un fragmento de informe formal usando al menos tres nominalizaciones.",[],["la implementación","la ausencia de","dar lugar a"],"Identifica los verbos clave y conviértelos en sustantivos para un tono más formal.","Convertir una queja informal en un informe interno."],
+    ["arrange","Ordena: [la / implementación / de]",["la implementación de","de la implementación","implementación la de","de implementación la"],0,"El orden correcto es: \"la implementación de\"."],
+    ["arrange","Ordena: [la / ausencia / de]",["la ausencia de","ausencia la de","de la ausencia","ausencia de la"],0,"El orden correcto es: \"la ausencia de\"."],
     ]
   },
   {
@@ -555,7 +585,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración usa correctamente 'de ahí que'?",["Los datos eran contradictorios, de ahí que se retrasara la publicación del informe.","Los datos eran contradictorios, de ahí que se retrasó la publicación.","De ahí que los datos eran contradictorios, se retrasó el informe.","Los datos, de ahí que contradictorios, retrasaron el informe."],0,"'De ahí que' introduce una consecuencia lógica y exige subjuntivo: 'se retrasara'."],
       ["fill","Completa: \"___ los recursos disponibles, el proyecto avanzará más lentamente de lo previsto.\"",["Dado que","De ahí que","So pena de","Cabría señalar que"],0,"'Dado que' introduce una causa con indicativo de forma directa."],
       ["mcq","¿Qué significa aproximadamente 'en la medida en que'?",["En la proporción o grado en que algo ocurre; equivalente a 'en tanto que'.","Significa exactamente lo mismo que 'a pesar de que'.","Introduce siempre una hipótesis irreal.","Se usa solo para hablar de medidas físicas."],0,"Expresa proporcionalidad entre dos hechos relacionados."],
-      ["writing","Escribe un párrafo de 70-90 palabras explicando la causa y consecuencia de una decisión empresarial, usando al menos dos conectores de esta lección.",[],["dado que","de ahí que","en la medida en que"],"Distingue con cuidado los conectores que piden indicativo de los que piden subjuntivo.","Análisis causal para un informe de gestión."]
+      ["writing","Escribe un párrafo de 70-90 palabras explicando la causa y consecuencia de una decisión empresarial, usando al menos dos conectores de esta lección.",[],["dado que","de ahí que","en la medida en que"],"Distingue con cuidado los conectores que piden indicativo de los que piden subjuntivo.","Análisis causal para un informe de gestión."],
+    ["arrange","Ordena: [en / la / medida / en / que]",["en la medida en que","en la que medida en","que en en medida la","medida que en en la"],0,"El orden correcto es: \"en la medida en que\"."],
+    ["mcq","¿Cómo se dice \"por eso / razón por la cual\" en español?",["dado que","so pena de","en la medida en que","de ahí que"],3,"\"por eso / razón por la cual\" se dice \"de ahí que\" en español."],
     ]
   },
   {
@@ -576,7 +608,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cuál es el mejor resumen para una audiencia con poco tiempo?",["A grandes rasgos, el informe recomienda una expansión gradual, condicionada a la obtención de financiación externa.","El informe tiene muchas páginas sobre expansión y financiación y otras cosas.","La expansión será perfecta si todos se esfuerzan.","Hay financiación, expansión y un informe involucrados."],0,"Un buen resumen prioriza la decisión, la condición y el riesgo principal."],
       ["fill","Completa: \"___, el estudio muestra una mejora moderada pero constante en los resultados.\"",["En síntesis","So pena de","De ahí que","Cabría"],0,"\"En síntesis\" introduce una conclusión general que cierra el resumen."],
       ["mcq","¿Qué distingue una buena mediación (resumen) de una simple lista de palabras clave?",["Conserva las relaciones lógicas (causa, contraste, condición) entre las ideas originales.","Elimina toda relación lógica y deja solo términos sueltos.","Debe ser siempre más larga que el texto original.","No debe incluir ninguna conclusión."],0,"La mediación exige preservar el sentido y las conexiones, no solo el vocabulario."],
-      ["writing","Resume en 60-80 palabras un informe imaginario que evalúa dos opciones estratégicas, indicando la recomendación principal y una condición o riesgo.",[],["en síntesis","el punto central","conviene destacar"],"Prioriza la decisión, la razón y una condición o riesgo relevante.","Resumen ejecutivo para la dirección."]
+      ["writing","Resume en 60-80 palabras un informe imaginario que evalúa dos opciones estratégicas, indicando la recomendación principal y una condición o riesgo.",[],["en síntesis","el punto central","conviene destacar"],"Prioriza la decisión, la razón y una condición o riesgo relevante.","Resumen ejecutivo para la dirección."],
+    ["mcq","¿Cómo se dice \"el punto clave es que\" en español?",["el punto central es que","conviene destacar","en síntesis","a grandes rasgos"],0,"\"el punto clave es que\" se dice \"el punto central es que\" en español."],
+    ["mcq","¿Cómo se dice \"cabe destacar\" en español?",["en síntesis","el punto central es que","conviene destacar","a grandes rasgos"],2,"\"cabe destacar\" se dice \"conviene destacar\" en español."],
     ]
   },
   {
@@ -597,7 +631,9 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué oración refuta un argumento con más precisión retórica?",["Lejos de resolver el problema, la medida podría agravarlo a largo plazo.","La medida es mala, ya está.","No sirve para nada, obviamente.","Todo el mundo sabe que está mal."],0,"'Lejos de' introduce una refutación matizada y argumentada, no una simple negación."],
       ["fill","Completa: \"El proyecto generó beneficios; ___, no cubrió los costes iniciales.\"",["ello no obsta para que se reconozca que","dado que","de ahí que","en la medida en que"],0,"'Ello no obsta para que + subjuntivo' introduce una concesión seguida de matización."],
       ["mcq","¿Qué función retórica cumple 'si bien... no es menos cierto que'?",["Reconoce un punto válido antes de introducir una objeción igualmente sólida.","Niega por completo el primer punto.","Expresa duda total sobre ambos puntos.","Es una fórmula puramente informal."],0,"Es una estructura de concesión-refutación característica del registro argumentativo culto."],
-      ["writing","Escribe un párrafo de 80-100 palabras que refute con matices una postura sobre un tema controvertido (por ejemplo, la automatización del empleo), usando al menos dos estructuras de concesión-refutación.",[],["si bien","lejos de","en última instancia"],"Reconoce primero el punto contrario y luego matízalo o refútalo con precisión.","Artículo de opinión para una revista especializada."]
+      ["writing","Escribe un párrafo de 80-100 palabras que refute con matices una postura sobre un tema controvertido (por ejemplo, la automatización del empleo), usando al menos dos estructuras de concesión-refutación.",[],["si bien","lejos de","en última instancia"],"Reconoce primero el punto contrario y luego matízalo o refútalo con precisión.","Artículo de opinión para una revista especializada."],
+    ["mcq","¿Cómo se dice \"aunque... no es menos cierto que\" en español?",["lejos de","si bien... no es menos cierto que","ello no obsta para que","en última instancia"],1,"\"aunque... no es menos cierto que\" se dice \"si bien... no es menos cierto que\" en español."],
+    ["mcq","¿Cómo se dice \"eso no impide\" en español?",["lejos de","ello no obsta para que","si bien... no es menos cierto que","en última instancia"],1,"\"eso no impide\" se dice \"ello no obsta para que\" en español."],
     ]
   },
   {
@@ -620,7 +656,8 @@ window.LESSON_BANKS.ES = [
       ["fill","Completa la inversión: \"Bajo ningún concepto ___ tomarse estos resultados como definitivos.\"",["deberían","debería","deberíamos","deberías"],0,"El verbo concuerda con el sujeto plural 'estos resultados': deberían tomarse."],
       ["mcq","En \"La propuesta no deja de ser arriesgada\", ¿qué función cumple la litote?",["Afirma con matiz que la propuesta sí es arriesgada, de forma prudente.","Niega por completo que la propuesta sea arriesgada.","Afirma que la propuesta es completamente segura.","No aporta ningún significado adicional."],0,"'No deja de ser' niega el contrario para afirmar algo con matiz."],
       ["translate","Traduce: \"By no means should this decision be treated as final.\"",["Bajo ningún concepto debería tratarse esta decisión como definitiva.","Esta decisión es definitiva de ningún modo.","Debería tratarse bajo ningún concepto esta decisión.","Esta decisión bajo ningún concepto es definitiva tratada."],0,"'Bajo ningún concepto' + inversión verbo-sujeto es el equivalente formal de 'by no means'."],
-      ["writing","Redacta 60-80 palabras sobre una decisión empresarial polémica: usa al menos una inversión enfática ('bajo ningún concepto'/'de ningún modo') y una litote.",[],["bajo ningún concepto","no deja de ser","de ningún modo"],"El registro C2 combina precisión argumentativa con recursos retóricos de matización.","Columna de opinión para una revista especializada."]
+      ["writing","Redacta 60-80 palabras sobre una decisión empresarial polémica: usa al menos una inversión enfática ('bajo ningún concepto'/'de ningún modo') y una litote.",[],["bajo ningún concepto","no deja de ser","de ningún modo"],"El registro C2 combina precisión argumentativa con recursos retóricos de matización.","Columna de opinión para una revista especializada."],
+    ["mcq","¿Cómo se dice \"de ninguna manera\" en español?",["de ningún modo","matizar una afirmación","quedarse corto de","un supuesto tácito"],0,"\"de ninguna manera\" se dice \"de ningún modo\" en español."],
     ]
   },
   {
@@ -643,7 +680,8 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué versión se adapta mejor a una disculpa pública formal?",["Reconocemos las molestias causadas y estamos tomando medidas inmediatas para evitar que se repitan.","Vaya, qué momento más incómodo, ya se nos pasará.","Eso no fue culpa nuestra en absoluto.","Todo el mundo comete errores, no hay que darle más vueltas."],0,"El registro formal reconoce el impacto, asume responsabilidad y propone una acción concreta."],
       ["fill","Completa: \"El discurso busca ___ un sentido de responsabilidad compartida.\"",["evocar","invocar","provocar","revocar"],0,"'Evocar' significa suscitar un sentimiento o una idea en quien escucha."],
       ["mcq","¿Cuál es el propósito principal de una pregunta retórica en un discurso persuasivo?",["Involucrar a la audiencia y sugerir una respuesta sin formularla explícitamente.","Pedir información que el orador desconoce.","Confundir deliberadamente a la audiencia.","Cambiar de tema sin que se note."],0,"La pregunta retórica orienta al oyente hacia una conclusión sin declararla directamente."],
-      ["writing","Reformula este mensaje interno brusco como un comunicado público de 50-70 palabras: \"El equipo falló, hay que arreglarlo ya.\" Reconoce el problema, evita dramatizarlo y propone una acción verificable.",[],["reconocemos","medidas","evitar que se repita"],"Evalúa proporción y tono: ni frialdad excesiva ni dramatismo innecesario.","Comunicado: un servicio digital estuvo caído dos horas."]
+      ["writing","Reformula este mensaje interno brusco como un comunicado público de 50-70 palabras: \"El equipo falló, hay que arreglarlo ya.\" Reconoce el problema, evita dramatizarlo y propone una acción verificable.",[],["reconocemos","medidas","evitar que se repita"],"Evalúa proporción y tono: ni frialdad excesiva ni dramatismo innecesario.","Comunicado: un servicio digital estuvo caído dos horas."],
+    ["mcq","¿Cómo se dice \"encontrar un equilibrio\" en español?",["lograr un equilibrio","evocar","una pregunta retórica","asumir responsabilidad de forma proporcionada"],0,"\"encontrar un equilibrio\" se dice \"lograr un equilibrio\" en español."],
     ]
   },
   {
@@ -665,7 +703,8 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cuál es una lectura crítica apropiada de \"una solución audaz para un sistema obsoleto\"?",["El adjetivo 'obsoleto' valora el sistema y predispone al lector a favor de la solución.","La frase es completamente neutral y no valora nada.","La solución ya demostró ser eficaz.","No contiene ninguna valoración implícita."],0,"'Obsoleto' es lenguaje cargado, no un hecho comprobado objetivamente."],
       ["fill","Completa: \"El artículo incluye una ___ importante: los resultados no se han replicado.\"",["salvedad","idea","consecuencia","comparación"],0,"Una 'salvedad' es una reserva que limita el alcance de una afirmación."],
       ["mcq","Ante la frase \"Es hora de devolver el sentido común a la política pública\", ¿qué implica el uso de 'devolver'?",["Da a entender que el sentido común existía antes y se ha perdido, sin demostrarlo.","Afirma con datos que la política actual carece de sentido.","Es una descripción neutral sin ninguna carga valorativa.","Propone una política concreta y verificable."],0,"'Devolver' presupone una pérdida previa, una estrategia retórica habitual sin base demostrada."],
-      ["speaking","Analiza en 50-70 palabras una frase persuasiva de tu elección: identifica una presuposición, una palabra cargada de valoración y una inferencia razonable.",[],["presupone","lenguaje","inferencia"],"No basta con estar de acuerdo o en desacuerdo: explica cómo el lenguaje orienta la interpretación.","Frase de ejemplo: \"Ya es hora de poner fin a esta práctica anticuada.\""]
+      ["speaking","Analiza en 50-70 palabras una frase persuasiva de tu elección: identifica una presuposición, una palabra cargada de valoración y una inferencia razonable.",[],["presupone","lenguaje","inferencia"],"No basta con estar de acuerdo o en desacuerdo: explica cómo el lenguaje orienta la interpretación.","Frase de ejemplo: \"Ya es hora de poner fin a esta práctica anticuada.\""],
+    ["arrange","Ordena: [dar / a / entender]",["dar a entender","entender dar a","a dar entender","entender a dar"],0,"El orden correcto es: \"dar a entender\"."],
     ]
   },
   {
@@ -4875,7 +4914,7 @@ window.LESSON_BANKS.ES = [
       vocab: [
         ["a + hora", "a + hora (a las 7)"],
         ["en + mes/año/estación", "en + mes/año/estación"],
-        ["los + día de la semana", "sin preposición + día de la semana"],
+        ["los + día de la semana", "día de la semana (sin preposición)"],
         ["por la noche", "por la noche"],
         ["por la mañana/tarde", "por la mañana/tarde"],
       ],
@@ -4909,7 +4948,7 @@ window.LESSON_BANKS.ES = [
     },
     ex:[
       ["mcq","¿Dónde suele ir el adverbio de frecuencia respecto al verbo?",["antes", "siempre después", "solo al principio", "solo al final"],0,"El adverbio de frecuencia suele ir antes del verbo."],
-      ["mcq","¿Cómo se dice “a veces” en español?",["siempre", "nunca", "a veces", "normalmente"],2,"“A veces” es “sometimes”."],
+      ["mcq","¿Cómo se dice “sometimes” en español?",["siempre", "nunca", "a veces", "normalmente"],2,"“A veces” es “sometimes”."],
       ["fill","Completa: “Ella ___ llega tarde al trabajo.”",["nada", "nunca", "siempre no", "no nunca"],1,"“Nunca” antes del verbo no necesita “no”."],
       ["translate","Traduce: “I always drink coffee in the morning.”",["Siempre bebo café por la mañana.", "Siempre bebiendo café por la mañana.", "Bebo café siempre por la mañana.", "Yo bebiendo siempre café por la mañana."],0,"El adverbio suele ir al inicio o antes del verbo: “siempre bebo”."],
       ["arrange","Ordena: [trabajo / al / normalmente / voy / autobús / en]",["trabajo normalmente voy autobús al en", "autobús trabajo en normalmente voy al", "al normalmente en trabajo voy autobús", "normalmente voy al trabajo en autobús"],3,"Adverbio + sujeto + verbo + complemento."],
@@ -5029,7 +5068,7 @@ window.LESSON_BANKS.ES = [
     },
     ex:[
       ["mcq","¿Qué forma sigue a “vamos a”?",["presente conjugado", "subjuntivo", "gerundio", "infinitivo"],3,"Tras “vamos a” va el infinitivo."],
-      ["mcq","¿Cómo se dice “¿Por qué no pedimos pizza?” en español?",["¿Por qué no pedimos pizza?", "¿Por qué no pidiendo pizza?", "¿Por qué nosotros no pedimos pizza?", "¿Por qué no pedir pizza?"],0,"“¿Por qué no?” + presente conjugado: “pedimos”."],
+      ["mcq","¿Cuál de estas sugerencias está construida correctamente?",["¿Por qué no pedimos pizza?", "¿Por qué no pidiendo pizza?", "¿Por qué nosotros no pedimos pizza?", "¿Por qué no pedir pizza?"],0,"“¿Por qué no?” + presente conjugado: “pedimos”."],
       ["fill","Completa: “¿Qué tal si ___ una película esta noche?”",["veremos", "viendo", "vemos", "ver"],2,"“¿Qué tal si?” + presente conjugado: “vemos”."],
       ["translate","Traduce: “Let's go to the beach.”",["Vamos a ir a la playa.", "Vamos a la playa ir.", "Vamos ir a la playa.", "Vamos a ido a la playa."],0,"“Vamos a” + infinitivo: “ir”."],
       ["arrange","Ordena: [playa / vamos / ir / a / la / a]",["la vamos ir a playa a", "vamos a ir a la playa", "ir a a la playa vamos", "a a playa vamos ir la"],1,"“Vamos a” + infinitivo + complemento."],

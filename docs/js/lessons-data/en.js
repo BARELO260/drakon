@@ -590,7 +590,8 @@ window.LESSON_BANKS.EN = [
       ["fill","Completa: \"The results ___ published next month.\"",["will be","will","are being do","have"],0,"Futuro en pasiva: \"will be + participio\": \"The results will be published next month.\""],
       ["mcq","\"It is estimated that costs will rise by 5%.\" ¿Qué función cumple \"it is estimated that\"?",["Presenta una cifra como una proyección, no como un hecho certero.","Confirma la cifra como un hecho ya verificado.","Elimina toda duda sobre la cifra.","Indica que la cifra es opinión personal del autor."],0,"\"It is estimated that\" atenúa la certeza de una cifra, marcándola como proyección."],
       ["translate","Traduce: \"La reunión está programada para el viernes.\"",["The meeting is scheduled for Friday.","The meeting schedules for Friday.","Friday is scheduled the meeting.","The meeting is schedule on Friday."],0,"\"Estar programado para\" = \"to be scheduled for\": \"The meeting is scheduled for Friday.\""],
-      ["writing","Escribe en inglés un breve párrafo de informe (45-65 palabras) usando voz pasiva para describir un proceso (una investigación, un lanzamiento, una decisión).",[],["was","is scheduled","it is estimated"],"Usa al menos dos construcciones en voz pasiva y mantén un tono formal e impersonal."]
+      ["writing","Escribe en inglés un breve párrafo de informe (45-65 palabras) usando voz pasiva para describir un proceso (una investigación, un lanzamiento, una decisión).",[],["was","is scheduled","it is estimated"],"Usa al menos dos construcciones en voz pasiva y mantén un tono formal e impersonal."],
+    ["mcq","¿Cómo se dice \"llevarse a cabo\" en inglés?",["to be scheduled for","to be carried out","it is estimated that...","to be approved / rejected"],1,"\"llevarse a cabo\" se dice \"to be carried out\" en inglés."],
     ]
   },
   {
@@ -612,7 +613,8 @@ window.LESSON_BANKS.EN = [
       ["fill","Completa: \"___ that the report is thorough, it fails to address the main risk.\"",["Granted","Because","So","Then"],0,"\"Granted that\" introduce una concesión formal antes de una crítica."],
       ["mcq","\"To a certain extent, the criticism is fair.\" ¿Qué matiz aporta \"to a certain extent\"?",["Acepta parcialmente el punto, sin comprometerse del todo con él.","Rechaza por completo la crítica.","Acepta la crítica de forma absoluta y total.","No tiene relación con el grado de acuerdo."],0,"\"To a certain extent\" limita el alcance de la concesión, aceptando solo una parte."],
       ["translate","Traduce: \"Esto no significa necesariamente que la propuesta sea la mejor.\"",["This does not necessarily mean that the proposal is the best one.","This means necessarily that the proposal is not the best.","The proposal necessarily means this is not the best.","Necessarily, this proposal does not mean the best."],0,"\"Esto no significa necesariamente que\" = \"This does not necessarily mean that\", seguido de subjuntivo/indicativo según el registro."],
-      ["speaking","Elige una postura con la que estés parcialmente de acuerdo y explica en 45-70 palabras: concede un punto válido del lado contrario, y luego matiza tu propia posición con una reserva concreta.",[],["granted","that said","to a certain extent"],"Estructura: concesión clara + matización específica, evitando el \"sí, pero\" simplista."]
+      ["speaking","Elige una postura con la que estés parcialmente de acuerdo y explica en 45-70 palabras: concede un punto válido del lado contrario, y luego matiza tu propia posición con una reserva concreta.",[],["granted","that said","to a certain extent"],"Estructura: concesión clara + matización específica, evitando el \"sí, pero\" simplista."],
+    ["mcq","¿Cómo se dice \"si bien es cierto que\" en inglés?",["granted that / while it is true that","this does not necessarily mean that","to a certain extent","that said / that being said"],0,"\"si bien es cierto que\" se dice \"granted that / while it is true that\" en inglés."],
     ]
   },
   {

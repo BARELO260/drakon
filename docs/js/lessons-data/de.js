@@ -237,7 +237,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Hinweis: \"Die Workshop-Plätze sind bis Freitag für Mitglieder reserviert; danach werden die restlichen Plätze freigegeben.\" Was sollte eine Person tun, die kein Mitglied ist?",["Bis Freitag warten, um zu erfahren, ob noch Plätze frei sind.","Heute buchen, weil sie Priorität hat.","Vor Freitag eine Pflichtgebühr zahlen.","Annehmen, dass der Workshop abgesagt ist."],0,"Der Hinweis zeigt eine zeitlich begrenzte Priorität für Mitglieder, keine dauerhafte Exklusivität."],
       ["mcq","Nachricht: \"Bitte reichen Sie das Formular bis Donnerstag 17 Uhr ein. Verspätete Bewerbungen werden nur berücksichtigt, wenn noch Plätze frei sind.\" Was ist die sicherste Handlung?",["Das Formular vor Donnerstag 17 Uhr einreichen.","Warten, bis bestätigt wird, dass Plätze frei sind.","Am Freitag einreichen, weil verspätete Bewerbungen immer akzeptiert werden.","Anrufen, um die Bewerbung zu stornieren."],0,"\"Bis\" markiert eine klare Frist; \"nur wenn\" garantiert keine verspätete Annahme."],
       ["fill","Ergänze: \"Bewerber müssen für das Programm ___ sein, bevor sie eine Förderung beantragen können.\"",["berechtigt","verfügbar","vorbehalten","begrenzt"],0,"\"Berechtigt\" bedeutet, dass jemand die nötigen Voraussetzungen erfüllt."],
-      ["writing","Schreib eine E-Mail (45-60 Wörter) und frag, ob du dich noch nach der Frist bewerben kannst.",[],["verspätet","Bewerbung","verfügbar"],"Nutze eine Anrede, eine klare Bitte und einen passenden Schluss.","Du schreibst an den Kursleiter eines Kurses, der gestern geschlossen hat."]
+      ["writing","Schreib eine E-Mail (45-60 Wörter) und frag, ob du dich noch nach der Frist bewerben kannst.",[],["verspätet","Bewerbung","verfügbar"],"Nutze eine Anrede, eine klare Bitte und einen passenden Schluss.","Du schreibst an den Kursleiter eines Kurses, der gestern geschlossen hat."],
+    ["mcq","¿Cómo se dice \"disponible a petición\" en alemán?",["auf Anfrage erhältlich","die Voraussetzungen erfüllen","die Frist","Änderungen vorbehalten"],0,"\"disponible a petición\" se dice \"auf Anfrage erhältlich\" en alemán."],
+    ["mcq","¿Cómo se dice \"sujeto a cambios\" en alemán?",["die Frist","auf Anfrage erhältlich","Änderungen vorbehalten","die Voraussetzungen erfüllen"],2,"\"sujeto a cambios\" se dice \"Änderungen vorbehalten\" en alemán."],
     ]
   },
   {
@@ -258,7 +260,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Lies: \"Maya erwartete, dass der Kurs schwierig sein würde, aber es stellt sich heraus, dass das wöchentliche Feedback ihn machbar macht.\" Was denkt Maya?",["Der Kurs ist anspruchsvoll, aber die Unterstützung hilft ihr.","Der Kurs ist zu einfach.","Das Feedback macht den Kurs schwieriger.","Sie hat den Kurs wegen fehlender Unterstützung abgebrochen."],0,"Die anfängliche Erwartung wird durch eine positivere Erfahrung kontrastiert."],
       ["mcq","Welche Antwort drückt Präferenz und Grund aus?",["Ich würde lieber online treffen, weil es Reisezeit spart.","Ich treffe online gestern.","Online-Treffen sind eine Reisezeit.","Ich bevorzuge weil Treffen."],0,"Die Struktur enthält Präferenz, Option und Begründung."],
       ["fill","Ergänze: \"Der Preis war hoch, aber die Erfahrung war es ___.\"",["wert","lieber","heraus","abschreckend"],0,"Der feste Ausdruck ist \"es wert sein\"."],
-      ["speaking","Sprich 45-60 Wörter: vergleiche allein lernen und mit anderen lernen. Nenne eine Präferenz, einen Grund und einen Nachteil.",[],["ich bevorzuge","weil","allerdings"],"Strukturiere deine Antwort: Vergleich, Präferenz, Grund und Einschränkung.","Gespräch mit einem Klassenkameraden."]
+      ["speaking","Sprich 45-60 Wörter: vergleiche allein lernen und mit anderen lernen. Nenne eine Präferenz, einen Grund und einen Nachteil.",[],["ich bevorzuge","weil","allerdings"],"Strukturiere deine Antwort: Vergleich, Präferenz, Grund und Einschränkung.","Gespräch mit einem Klassenkameraden."],
+    ["mcq","¿Cómo se dice \"preferiría\" en alemán?",["es stellt sich heraus","jemanden abschrecken","es lohnt sich","ich würde lieber"],3,"\"preferiría\" se dice \"ich würde lieber\" en alemán."],
+    ["mcq","¿Cómo se dice \"resulta que\" en alemán?",["es stellt sich heraus","jemanden abschrecken","ich würde lieber","es lohnt sich"],0,"\"resulta que\" se dice \"es stellt sich heraus\" en alemán."],
     ]
   },
   {
@@ -279,7 +283,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz verwendet Hintergrund und Handlung korrekt?",["Während wir im Park spazierten, sahen wir einen Unfall.","Während wir im Park spazierten sind, haben wir einen Unfall gesehen.","Während wir im Park spazieren, sahen wir einen Unfall gestern.","Wir spazierten im Park, während wir einen Unfall sahen."],0,"Der Hintergrund (spazierten) steht im Präteritum; die punktuelle Handlung (sahen) ebenfalls, da beide im selben Erzählregister stehen."],
       ["fill","Ergänze: \"Ich ___ nicht, wie spät es war, bis ich auf mein Handy schaute.\"",["bemerkte","bemerke","habe bemerkt gewesen","bemerken"],0,"Präteritum \"bemerkte\" passt zum erzählenden Hintergrund."],
       ["translate","Übersetze: \"At first I was nervous, but eventually I enjoyed the experience.\"",["Zuerst war ich nervös, aber schließlich habe ich die Erfahrung genossen.","Zuerst bin ich nervös gewesen, aber schließlich genoss ich die Erfahrung.","Zuerst war ich nervös, aber schließlich genoss ich die Erfahrung sehr.","Zuerst war ich nervös, aber schließlich habe ich genossen die Erfahrung."],0,"Der Hintergrundzustand steht im Präteritum (\"war\"), die abgeschlossene Handlung im Perfekt (\"habe genossen\")."],
-      ["writing","Schreib eine Geschichte (80-100 Wörter) über einen Plan, der sich unerwartet änderte.",[],["zuerst","aber","schließlich"],"Achte darauf, dass jeder Teil die Geschichte voranbringt und die Zeitformen konsistent sind.","Eine kurze Reise, die nicht wie geplant verlief."]
+      ["writing","Schreib eine Geschichte (80-100 Wörter) über einen Plan, der sich unerwartet änderte.",[],["zuerst","aber","schließlich"],"Achte darauf, dass jeder Teil die Geschichte voranbringt und die Zeitformen konsistent sind.","Eine kurze Reise, die nicht wie geplant verlief."],
+    ["mcq","¿Cómo se dice \"al principio\" en alemán?",["zuerst","bemerken","unerwartet","schließlich"],0,"\"al principio\" se dice \"zuerst\" en alemán."],
+    ["mcq","¿Cómo se dice \"con el tiempo\" en alemán?",["bemerken","zuerst","unerwartet","schließlich"],3,"\"con el tiempo\" se dice \"schließlich\" en alemán."],
     ]
   },
   {
@@ -300,7 +306,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welche Antwort baut Einigung auf?",["Ich verstehe deinen Punkt zu den Kosten; wie wäre es, weniger Leute einzuladen?","Deine Idee ist schlecht, also gewinnt meine.","Ich verstehe keinen Punkt.","Die günstigere Option sind die Leute."],0,"Erkennt eine Idee an und schlägt einen konkreten Kompromiss vor."],
       ["fill","Ergänze: \"___ wir uns nach dem Unterricht in der Bibliothek?\"",["Treffen","Würden","Trafen","Haben"],0,"\"Treffen wir uns...?\" ist eine übliche Vorschlagsform im Präsens."],
       ["mcq","Welcher Satz drückt höflichen Widerspruch aus?",["Ich bin nicht sicher, ob das klappt, weil der Ort früh schließt.","Das wird nie funktionieren.","Dein Ort ist furchtbar.","Nein, natürlich nicht."],0,"Der Widerspruch wird abgemildert und mit einem Grund begründet."],
-      ["speaking","Sprich 45-60 Wörter: schlage einen Plan fürs Wochenende vor, reagiere auf einen Einwand und biete einen Kompromiss an.",[],["ich schlage vor","weil","Kompromiss"],"Nutze einen konkreten Vorschlag, einen Grund und eine kooperative Antwort.","Du organisierst eine Aktivität mit einem Freund mit wenig Budget."]
+      ["speaking","Sprich 45-60 Wörter: schlage einen Plan fürs Wochenende vor, reagiere auf einen Einwand und biete einen Kompromiss an.",[],["ich schlage vor","weil","Kompromiss"],"Nutze einen konkreten Vorschlag, einen Grund und eine kooperative Antwort.","Du organisierst eine Aktivität mit einem Freund mit wenig Budget."],
+    ["mcq","¿Cómo se dice \"¿qué tal si...?\" en alemán?",["ein Kompromiss","wollen wir...?","ich verstehe deinen Punkt","wie wäre es mit...?"],1,"\"¿qué tal si...?\" se dice \"wollen wir...?\" en alemán."],
+    ["mcq","¿Cómo se dice \"entiendo tu punto\" en alemán?",["wie wäre es mit...?","ich verstehe deinen Punkt","wollen wir...?","ein Kompromiss"],1,"\"entiendo tu punto\" se dice \"ich verstehe deinen Punkt\" en alemán."],
     ]
   },
   {
@@ -321,7 +329,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz drückt einen bereits entschiedenen Plan aus?",["Ich beginne im September einen Italienischkurs.","Ich werde einen Kurs beginnen, wenn ich Zeit habe.","Ich glaube, ich werde irgendeinen Kurs beginnen.","Ich begann letztes Jahr einen Kurs."],0,"Das Präsens mit Zeitangabe drückt hier einen bereits entschiedenen Plan aus."],
       ["fill","Ergänze: \"Sobald ich den Bericht ___, schicke ich ihn dir.\"",["fertig habe","fertig hatte","fertig haben werde","fertig hätte"],0,"Nach \"sobald\" für eine nahe Zukunft steht im Deutschen oft das Präsens."],
       ["translate","Übersetze: \"As soon as I finish the project, I'll call you.\"",["Sobald ich das Projekt fertig habe, rufe ich dich an.","Als ich das Projekt fertig hatte, rufe ich an.","Sobald ich das Projekt fertig hatte, werde ich anrufen.","Wenn ich das Projekt fertig habe, rief ich an."],0,"\"Sobald\" + Präsens drückt eine nahe zukünftige Bedingung aus."],
-      ["writing","Schreib 45-60 Wörter über deine Pläne für nächstes Jahr. Benutze mindestens zwei Zukunftsausdrücke.",[],["ich habe vor","sobald","es ist möglich"],"Kombiniere mindestens zwei Arten, über die Zukunft zu sprechen, und begründe einen Plan.","Du erzählst einem Freund von deinen Plänen."]
+      ["writing","Schreib 45-60 Wörter über deine Pläne für nächstes Jahr. Benutze mindestens zwei Zukunftsausdrücke.",[],["ich habe vor","sobald","es ist möglich"],"Kombiniere mindestens zwei Arten, über die Zukunft zu sprechen, und begründe einen Plan.","Du erzählst einem Freund von deinen Plänen."],
+    ["mcq","¿Cómo se dice \"tengo la intención de\" en alemán?",["bald","es ist möglich, dass","sobald ich kann","ich habe vor"],3,"\"tengo la intención de\" se dice \"ich habe vor\" en alemán."],
+    ["mcq","¿Cómo se dice \"pronto\" en alemán?",["ich habe vor","es ist möglich, dass","sobald ich kann","bald"],3,"\"pronto\" se dice \"bald\" en alemán."],
     ]
   },
   {
@@ -342,7 +352,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz ist eine höfliche, formelle Beschwerde?",["Ich hätte gern gewusst, warum das Paket eine Woche zu spät angekommen ist.","Das ist eine totale Katastrophe!","Ihre Firma macht nie etwas richtig.","Ich zahle gar nichts."],0,"Formuliert die Beschwerde indirekt und respektvoll, ohne an Klarheit zu verlieren."],
       ["fill","Ergänze: \"___ Sie mir bitte eine Kopie der Rechnung schicken?\"",["Könnten","Können","Konnten","Kann"],0,"\"Könnten\" im Konjunktiv II macht die Bitte höflicher und formeller."],
       ["translate","Übersetze: \"I would like to file a complaint about the service.\"",["Ich möchte mich über den Service beschweren.","Ich will beschweren über den Service.","Ich mag eine Beschwerde des Service einreichen.","Ich würde eine Beschwerde den Service einreichen."],0,"\"Ich möchte\" + Infinitiv ist die Standardformel für höfliche Beschwerden."],
-      ["writing","Schreib eine Beschwerde-E-Mail (50-70 Wörter) über eine unvollständige Bestellung. Benutze höfliche Konjunktivformen.",[],["ich hätte gern","könnten Sie","ich bedaure"],"Erkläre das Problem, formuliere eine klare Bitte und schließe höflich.","Eine Online-Bestellung kam mit zwei fehlenden Artikeln an."]
+      ["writing","Schreib eine Beschwerde-E-Mail (50-70 Wörter) über eine unvollständige Bestellung. Benutze höfliche Konjunktivformen.",[],["ich hätte gern","könnten Sie","ich bedaure"],"Erkläre das Problem, formuliere eine klare Bitte und schließe höflich.","Eine Online-Bestellung kam mit zwei fehlenden Artikeln an."],
+    ["mcq","¿Cómo se dice \"me gustaría\" en alemán?",["eine Beschwerde einreichen","ich hätte gern","ich bedaure, Ihnen mitteilen zu müssen","könnten Sie...?"],1,"\"me gustaría\" se dice \"ich hätte gern\" en alemán."],
+    ["mcq","¿Cómo se dice \"¿podrías...?\" en alemán?",["ich bedaure, Ihnen mitteilen zu müssen","eine Beschwerde einreichen","ich hätte gern","könnten Sie...?"],3,"\"¿podrías...?\" se dice \"könnten Sie...?\" en alemán."],
     ]
   },
   {
@@ -363,7 +375,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz drückt eine unwahrscheinliche Hypothese korrekt aus?",["Wenn ich mehr Geld hätte, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld habe, würde ich ein größeres Haus kaufen.","Wenn ich mehr Geld hätte, kaufe ich ein größeres Haus.","Wenn ich mehr Geld würde haben, kaufte ich ein Haus."],0,"Typ 2 verlangt Konjunktiv II im wenn-Satz und würde + Infinitiv (oder Konjunktiv II) im Hauptsatz."],
       ["fill","Ergänze: \"Es sei denn, wir ___ einen Sondereinsatz, schaffen wir es nicht rechtzeitig.\"",["machen","machten","würden machen","gemacht"],0,"Nach der festen Wendung 'es sei denn' folgt ein Nebensatz im Indikativ: 'wir machen'."],
       ["mcq","Was ist die beste Umschreibung von \"Wenn ich du wäre, würde ich das Angebot nicht annehmen\"?",["Ein hypothetischer Rat: der Sprecher würde das Angebot an der Stelle des Hörers nicht annehmen.","Ein direkter Befehl.","Eine Beschreibung einer vergangenen Tatsache.","Ein Versprechen für die Zukunft."],0,"Die hypothetische Struktur drückt einen Rat aus, keine Tatsache und keinen Befehl."],
-      ["writing","Schreib 60-80 Wörter: beschreibe, was du anders machen würdest, wenn du ein Jahr deines Lebens wiederholen könntest. Benutze mindestens zwei Hypothesen mit 'wenn'.",[],["wenn ich hätte","es sei denn","angenommen"],"Achte darauf, dass jede Hypothese Konjunktiv II korrekt mit würde/Konjunktiv II kombiniert.","Persönliche Reflexion für einen Blog."]
+      ["writing","Schreib 60-80 Wörter: beschreibe, was du anders machen würdest, wenn du ein Jahr deines Lebens wiederholen könntest. Benutze mindestens zwei Hypothesen mit 'wenn'.",[],["wenn ich hätte","es sei denn","angenommen"],"Achte darauf, dass jede Hypothese Konjunktiv II korrekt mit würde/Konjunktiv II kombiniert.","Persönliche Reflexion für einen Blog."],
+    ["mcq","¿Cómo se dice \"si tuviera\" en alemán?",["falls","es sei denn","angenommen, dass","wenn ich hätte"],3,"\"si tuviera\" se dice \"wenn ich hätte\" en alemán."],
+    ["mcq","¿Cómo se dice \"por si acaso\" en alemán?",["wenn ich hätte","angenommen, dass","falls","es sei denn"],2,"\"por si acaso\" se dice \"falls\" en alemán."],
     ]
   },
   {
@@ -384,7 +398,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Direkte Rede: \"Ich werde den Bericht morgen fertigstellen.\" Was ist die korrekte indirekte Rede?",["Er sagte, er werde den Bericht am nächsten Tag fertigstellen.","Er sagte, er wird den Bericht morgen fertigstellen.","Er sagte, er würde den Bericht morgen fertigstellen gestern.","Er sagte, er fertigstellt den Bericht morgen."],0,"Konjunktiv I ('werde') und die Zeitangabe ändern sich zu 'am nächsten Tag'."],
       ["fill","Ergänze: \"Sie fragte, ob ich am Montag für das Treffen ___.\"",["verfügbar sei","verfügbar bin","verfügbar werde sein","verfügbar war"],0,"Im indirekten Fragesatz mit 'ob' steht oft der Konjunktiv I der Gegenwart: 'sei'."],
       ["mcq","Was ändert sich normalerweise beim Wechsel von direkter zu indirekter Rede in der Vergangenheit?",["Der Modus (oft Konjunktiv I) und manchmal Zeitangaben (morgen → am nächsten Tag).","Nur das Subjekt des Satzes.","Nichts ändert sich jemals.","Nur die Wortstellung."],0,"Der Modus wechselt oft zum Konjunktiv I und manche Zeitangaben passen sich an."],
-      ["writing","Berichte in indirekter Rede (50-70 Wörter) ein kürzliches Gespräch, in dem dir jemand seine Pläne erzählt hat.",[],["er sagte, dass","sie erklärte","sie fügte hinzu"],"Passe Modus und Zeitangaben korrekt an.","Du erzählst einem Freund, was dir ein Kollege gesagt hat."]
+      ["writing","Berichte in indirekter Rede (50-70 Wörter) ein kürzliches Gespräch, in dem dir jemand seine Pläne erzählt hat.",[],["er sagte, dass","sie erklärte","sie fügte hinzu"],"Passe Modus und Zeitangaben korrekt an.","Du erzählst einem Freund, was dir ein Kollege gesagt hat."],
+    ["mcq","¿Cómo se dice \"él dijo que\" en alemán?",["er sagte, dass","er fragte, ob","sie fügte hinzu, dass","sie erklärte, dass"],0,"\"él dijo que\" se dice \"er sagte, dass\" en alemán."],
+    ["mcq","¿Cómo se dice \"ella explicó que\" en alemán?",["er sagte, dass","er fragte, ob","sie fügte hinzu, dass","sie erklärte, dass"],3,"\"ella explicó que\" se dice \"sie erklärte, dass\" en alemán."],
     ]
   },
   {
@@ -405,7 +421,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz verwendet das Passiv korrekt?",["Die Verträge wurden gestern Nachmittag unterschrieben.","Die Verträge wurde gestern Nachmittag unterschrieben.","Die Verträge werden gestern Nachmittag unterschrieben.","Die Verträge sind gestern Nachmittag unterschreiben."],0,"Präteritum Passiv Plural: 'wurden' + Partizip II ('unterschrieben')."],
       ["fill","Ergänze: \"Das neue Gebäude ___ von einem internationalen Unternehmen entworfen.\"",["wurde","wird","hat","ist"],0,"Präteritum Passiv: 'wurde' + Partizip II ('entworfen')."],
       ["mcq","Wann wird die man-Konstruktion oft als natürliche Alternative zum Passiv verwendet?",["Wenn der Handelnde nicht wichtig oder unbekannt ist, besonders in gesprochener Sprache.","Wenn man den Handelnden immer nennen möchte.","Nie im natürlichen Deutsch.","Nur in alten literarischen Texten."],0,"'Man' ist im gesprochenen Deutsch sehr häufig, wenn der Handelnde unwichtig ist."],
-      ["writing","Beschreibe in 50-70 Wörtern einen Prozess (zum Beispiel, wie eine Veranstaltung organisiert wird) und benutze mindestens zwei Passiv- oder man-Konstruktionen.",[],["man + Verb","wurde + Partizip","durchgeführt"],"Benutze mindestens zwei verschiedene Konstruktionen stimmig.","Du erklärst einem neuen Teammitglied einen Ablauf."]
+      ["writing","Beschreibe in 50-70 Wörtern einen Prozess (zum Beispiel, wie eine Veranstaltung organisiert wird) und benutze mindestens zwei Passiv- oder man-Konstruktionen.",[],["man + Verb","wurde + Partizip","durchgeführt"],"Benutze mindestens zwei verschiedene Konstruktionen stimmig.","Du erklärst einem neuen Teammitglied einen Ablauf."],
+    ["mcq","¿Cómo se dice \"ser + participio\" en alemán?",["man + Verb","zuständig sein für","durchgeführt werden","werden + Partizip II"],3,"\"ser + participio\" se dice \"werden + Partizip II\" en alemán."],
+    ["mcq","¿Cómo se dice \"construcción impersonal con 'se'\" en alemán?",["werden + Partizip II","zuständig sein für","man + Verb","durchgeführt werden"],2,"\"construcción impersonal con 'se'\" se dice \"man + Verb\" en alemán."],
     ]
   },
   {
@@ -426,7 +444,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz drückt eine höfliche, unsichere Vermutung aus?",["Der Vorschlag könnte machbar sein, aber wir brauchen mehr Daten.","Der Vorschlag ist absolut machbar, ohne Zweifel.","Der Vorschlag ist niemals machbar.","Der Vorschlag machbar sein könnte vielleicht."],0,"'Könnte' + Infinitiv drückt eine vorsichtige, unsichere Vermutung aus."],
       ["fill","Ergänze: \"Sie ___ die Entscheidung schon getroffen haben, als wir ankommen.\"",["dürfte","darf","durfte","dürfen"],0,"'Dürfte' + Infinitiv Perfekt drückt eine vorsichtige Vermutung über die Vergangenheit aus."],
       ["mcq","Welcher Ausdruck zeigt Sicherheit, keine Vermutung?",["Ich bin sicher, dass...","Es könnte sein, dass...","Vermutlich...","Wahrscheinlich..."],0,"'Ich bin sicher, dass' drückt Gewissheit aus, keine Vermutung."],
-      ["speaking","Sprich 60-80 Wörter: äußere deine Meinung dazu, ob Homeoffice zur Norm wird. Benutze mindestens einen Ausdruck der Vermutung und einen der Sicherheit.",[],["könnte sein","wahrscheinlich","ich bin sicher"],"Wechsle passend zwischen vorsichtiger Vermutung und Sicherheit.","Informelle Diskussion über die Zukunft der Arbeit."]
+      ["speaking","Sprich 60-80 Wörter: äußere deine Meinung dazu, ob Homeoffice zur Norm wird. Benutze mindestens einen Ausdruck der Vermutung und einen der Sicherheit.",[],["könnte sein","wahrscheinlich","ich bin sicher"],"Wechsle passend zwischen vorsichtiger Vermutung und Sicherheit.","Informelle Diskussion über die Zukunft der Arbeit."],
+    ["mcq","¿Cómo se dice \"probablemente\" en alemán?",["es könnte sein, dass","wahrscheinlich","vermutlich","das kann nicht stimmen"],1,"\"probablemente\" se dice \"wahrscheinlich\" en alemán."],
+    ["mcq","¿Cómo se dice \"podría ser que\" en alemán?",["es könnte sein, dass","das kann nicht stimmen","wahrscheinlich","vermutlich"],0,"\"podría ser que\" se dice \"es könnte sein, dass\" en alemán."],
     ]
   },
   {
@@ -436,7 +456,7 @@ window.LESSON_BANKS.DE = [
       vocab:[
         ["obwohl", "aunque"],
         ["trotzdem", "sin embargo"],
-        ["dennoch", "todavía / aún"],
+        ["dennoch", "sin embargo / no obstante"],
         ["jedoch", "sin embargo"]
       ],
       grammar:[
@@ -447,7 +467,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz verwendet 'obwohl' korrekt (Verbstellung)?",["Obwohl der Bericht unvollständig war, haben wir ihn rechtzeitig geschickt.","Obwohl der Bericht war unvollständig, haben wir ihn geschickt.","Obwohl unvollständig war der Bericht, wir haben ihn geschickt.","Obwohl der Bericht unvollständig, war er geschickt."],0,"Nach 'obwohl' steht das konjugierte Verb am Satzende."],
       ["fill","Ergänze: \"Der Bericht war unvollständig; wir haben ihn ___ rechtzeitig geschickt.\"",["trotzdem","obwohl","es sei denn","damit"],0,"'Trotzdem' steht in einem eigenen Hauptsatz mit normaler Verb-Zweit-Stellung."],
       ["mcq","Welcher Konnektor braucht KEINEN eigenen Nebensatz mit Verb am Ende (im Gegensatz zu 'obwohl')?",["Jedoch","Obwohl","Weil","Damit"],0,"'Jedoch' steht meist in einem eigenständigen Hauptsatz, nicht in einem Nebensatz."],
-      ["writing","Schreib einen Absatz von 60-80 Wörtern: präsentiere eine Meinung und relativiere sie mit mindestens zwei verschiedenen Kontrastkonnektoren.",[],["obwohl","trotzdem","jedoch"],"Kombiniere korrekt Nebensatz- und Hauptsatzkonnektoren.","Meinung zu einem aktuellen Thema für ein Forum."]
+      ["writing","Schreib einen Absatz von 60-80 Wörtern: präsentiere eine Meinung und relativiere sie mit mindestens zwei verschiedenen Kontrastkonnektoren.",[],["obwohl","trotzdem","jedoch"],"Kombiniere korrekt Nebensatz- und Hauptsatzkonnektoren.","Meinung zu einem aktuellen Thema für ein Forum."],
+    ["mcq","¿Cómo se dice \"aunque\" en alemán?",["trotzdem","dennoch","obwohl","jedoch"],2,"\"aunque\" se dice \"obwohl\" en alemán."],
+    ["mcq","¿Cómo se dice \"sin embargo / no obstante\" en alemán?",["obwohl","dennoch","jedoch","trotzdem"],1,"\"sin embargo / no obstante\" se dice \"dennoch\" en alemán."],
     ]
   },
   {
@@ -468,7 +490,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welche Struktur zeigt ein gut differenziertes Argument?",["Es lässt sich nicht leugnen, dass das Projekt teuer ist, aber langfristig könnte es Ressourcen sparen.","Das Projekt ist teuer, Punkt.","Das Projekt kostet offensichtlich nichts.","Es gibt kein einziges Gegenargument zum Projekt."],0,"Erkennt einen Gegenpunkt an und relativiert ihn mit einem langfristigen Vorteil."],
       ["fill","Ergänze: \"___ hat der Vorschlag mehr Vor- als Nachteile.\"",["Letztendlich","Obwohl","Es sei denn","Ich bezweifle"],0,"'Letztendlich' wird benutzt, um ein Argument mit einer allgemeinen Schlussfolgerung zu schließen."],
       ["mcq","Welche Funktion hat 'es ist erwähnenswert, dass' in einem Argument?",["Es hebt einen Punkt hervor, den der Sprecher für besonders relevant hält.","Es führt eine irreale Hypothese ein.","Es drückt völligen Zweifel am Thema aus.","Es beendet das Gespräch abrupt."],0,"Es ist eine Formel, um einen relevanten Punkt im Argument hervorzuheben."],
-      ["writing","Schreib einen argumentativen Absatz von 70-90 Wörtern zu einem umstrittenen Thema (z. B. Homeoffice). Erkenne einen Gegenpunkt an, bevor du deine Position verteidigst.",[],["einerseits","es lässt sich nicht leugnen","letztendlich"],"Struktur: Anerkennung des Gegenpunkts, eigene Position, Schlussfolgerung.","Beitrag zu einer schriftlichen Diskussion im Unterricht."]
+      ["writing","Schreib einen argumentativen Absatz von 70-90 Wörtern zu einem umstrittenen Thema (z. B. Homeoffice). Erkenne einen Gegenpunkt an, bevor du deine Position verteidigst.",[],["einerseits","es lässt sich nicht leugnen","letztendlich"],"Struktur: Anerkennung des Gegenpunkts, eigene Position, Schlussfolgerung.","Beitrag zu einer schriftlichen Diskussion im Unterricht."],
+    ["mcq","¿Cómo se dice \"por un lado / por otro lado\" en alemán?",["es ist erwähnenswert, dass","letztendlich","es lässt sich nicht leugnen, dass","einerseits / andererseits"],3,"\"por un lado / por otro lado\" se dice \"einerseits / andererseits\" en alemán."],
+    ["mcq","¿Cómo se dice \"no se puede negar que\" en alemán?",["letztendlich","es lässt sich nicht leugnen, dass","es ist erwähnenswert, dass","einerseits / andererseits"],1,"\"no se puede negar que\" se dice \"es lässt sich nicht leugnen, dass\" en alemán."],
     ]
   },
   {
@@ -489,7 +513,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz passt am besten zu einem formellen Bericht?",["Es wäre angebracht zu betonen, dass die Ergebnisse, obwohl vielversprechend, weiterer Analyse bedürfen.","Die Ergebnisse sind super, Punkt.","Das ist doch für jeden klar.","Dazu gibt es nichts weiter zu sagen."],0,"Das formelle Register bevorzugt Abschwächung und argumentative Vorsicht."],
       ["fill","Ergänze: \"___ zu differenzieren, dass die Studie auf einer kleinen Stichprobe basiert.\"",["Es wäre sinnvoll","Es ist offensichtlich","Niemals","Immer"],0,"'Es wäre sinnvoll' leitet eine abgeschwächte Empfehlung ein, typisch für das formelle Register."],
       ["mcq","Welchen Effekt hat der Konjunktiv II statt des Indikativs Präsens in einem Bericht?",["Er schwächt die Aussage ab und lässt Raum für begründeten Zweifel.","Er macht die Aussage kategorischer und sicherer.","Er ändert die Bedeutung völlig.","Er hat keinerlei stilistischen Effekt."],0,"Der Konjunktiv II mildert die Aussage, ohne sie zu verneinen."],
-      ["writing","Schreib 60-80 Wörter eines kurzen Berichts, der einen Vorschlag bewertet, und benutze mindestens zwei abschwächende Ausdrücke.",[],["es wäre angebracht","es wäre sinnvoll","im Großen und Ganzen"],"Das formelle Register bevorzugt argumentative Vorsicht gegenüber absoluter Gewissheit.","Interner Bericht für ein Führungsgremium."]
+      ["writing","Schreib 60-80 Wörter eines kurzen Berichts, der einen Vorschlag bewertet, und benutze mindestens zwei abschwächende Ausdrücke.",[],["es wäre angebracht","es wäre sinnvoll","im Großen und Ganzen"],"Das formelle Register bevorzugt argumentative Vorsicht gegenüber absoluter Gewissheit.","Interner Bericht für ein Führungsgremium."],
+    ["mcq","¿Cómo se dice \"convendría señalar que\" en alemán?",["dazu neigen zu glauben, dass","es wäre angebracht zu betonen, dass","im Großen und Ganzen","es wäre sinnvoll zu differenzieren, dass"],1,"\"convendría señalar que\" se dice \"es wäre angebracht zu betonen, dass\" en alemán."],
+    ["mcq","¿Cómo se dice \"convendría aclarar que\" en alemán?",["im Großen und Ganzen","dazu neigen zu glauben, dass","es wäre angebracht zu betonen, dass","es wäre sinnvoll zu differenzieren, dass"],3,"\"convendría aclarar que\" se dice \"es wäre sinnvoll zu differenzieren, dass\" en alemán."],
     ]
   },
   {
@@ -510,7 +536,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz drückt eine irreale Hypothese in der Vergangenheit korrekt aus?",["Wenn wir den Vertrag rechtzeitig geprüft hätten, hätten wir das Problem vermieden.","Wenn wir den Vertrag rechtzeitig prüfen, hätten wir das Problem vermieden.","Wenn wir den Vertrag rechtzeitig geprüft hätten, vermeiden wir das Problem.","Wenn wir den Vertrag geprüft haben würden, hätten wir es vermieden."],0,"Beide Satzteile brauchen den Konjunktiv II der Vergangenheit (hätten + Partizip II)."],
       ["fill","Ergänze: \"Es war unmöglich, dass das Team das Projekt ohne mehr Ressourcen ___.\"",["hätte beenden können","beendet hatte","beenden würde","schon beendet"],0,"Nach 'es war unmöglich, dass' (Zweifel in der Vergangenheit) steht der Konjunktiv II der Vergangenheit."],
       ["mcq","Was unterscheidet den Konjunktiv II der Vergangenheit vom Konjunktiv II der Gegenwart?",["Der Konjunktiv II der Vergangenheit versetzt die Hypothese in einen früheren Zeitpunkt.","Es gibt keinen wirklichen Unterschied.","Der Konjunktiv II der Vergangenheit wird nur für die Zukunft verwendet.","Der Konjunktiv II der Gegenwart existiert im Deutschen nicht."],0,"Er fügt eine zusätzliche zeitliche Ebene innerhalb der Vergangenheit hinzu."],
-      ["writing","Schreib 70-90 Wörter über eine vergangene Entscheidung, die du ändern würdest. Benutze mindestens zwei Strukturen mit Konjunktiv II der Vergangenheit.",[],["wenn ich gewusst hätte","es hätte genügt","erst als"],"Achte darauf, dass beide Satzteile korrekt im Konjunktiv II der Vergangenheit stehen.","Rückblickende Reflexion über eine berufliche Entscheidung."]
+      ["writing","Schreib 70-90 Wörter über eine vergangene Entscheidung, die du ändern würdest. Benutze mindestens zwei Strukturen mit Konjunktiv II der Vergangenheit.",[],["wenn ich gewusst hätte","es hätte genügt","erst als"],"Achte darauf, dass beide Satzteile korrekt im Konjunktiv II der Vergangenheit stehen.","Rückblickende Reflexion über eine berufliche Entscheidung."],
+    ["mcq","¿Cómo se dice \"si lo hubiera sabido\" en alemán?",["es hätte genügt","wenn ich es gewusst hätte","erst als","es war unmöglich, dass"],1,"\"si lo hubiera sabido\" se dice \"wenn ich es gewusst hätte\" en alemán."],
+    ["mcq","¿Cómo se dice \"era imposible que\" en alemán?",["es hätte genügt","es war unmöglich, dass","erst als","wenn ich es gewusst hätte"],1,"\"era imposible que\" se dice \"es war unmöglich, dass\" en alemán."],
     ]
   },
   {
@@ -531,7 +559,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welche Umformulierung passt am besten zu einem technischen Bericht?",["Das Fehlen von Koordination zwischen den Teams führte zu doppelter Arbeit.","Sie haben sich nicht abgesprochen, deshalb haben sie Sachen doppelt gemacht.","Die Teams haben nicht miteinander geredet, also war es chaotisch.","Es war eine Katastrophe, weil niemand kommuniziert hat."],0,"Die Nominalisierung verdichtet die Information in einem objektiveren Ton."],
       ["fill","Ergänze: \"Die ___ neuer Technologien bringt hohe Anfangskosten mit sich.\"",["Einführung","Einführen","Eingeführt","Einzuführen"],0,"Das Substantiv 'Einführung' (Nominalisierung von 'einführen') passt zur formellen Struktur mit Artikel."],
       ["mcq","Welchen Vorteil bietet die Nominalisierung in einem technischen Text?",["Sie ermöglicht es, Informationen zu verdichten und einen objektiveren, unpersönlicheren Ton anzunehmen.","Sie macht den Text informeller und persönlicher.","Sie schließt jede Präzision aus.","Sie bringt keinen wirklichen Vorteil."],0,"Nominalisierung ist zentral für Dichte und Objektivität im technischen Register."],
-      ["writing","Schreib 60-80 Wörter: forme einen informellen Absatz über ein Arbeitsproblem in einen formellen Berichtsauszug mit mindestens drei Nominalisierungen um.",[],["die Umsetzung","das Fehlen von","führen zu"],"Erkenne die Schlüsselverben und wandle sie in Substantive für einen formelleren Ton um.","Eine informelle Beschwerde in einen internen Bericht umwandeln."]
+      ["writing","Schreib 60-80 Wörter: forme einen informellen Absatz über ein Arbeitsproblem in einen formellen Berichtsauszug mit mindestens drei Nominalisierungen um.",[],["die Umsetzung","das Fehlen von","führen zu"],"Erkenne die Schlüsselverben und wandle sie in Substantive für einen formelleren Ton um.","Eine informelle Beschwerde in einen internen Bericht umwandeln."],
+    ["mcq","¿Cómo se dice \"la implementación de\" en alemán?",["mit sich bringen","die Umsetzung von","führen zu","das Fehlen von"],1,"\"la implementación de\" se dice \"die Umsetzung von\" en alemán."],
+    ["mcq","¿Cómo se dice \"la ausencia de\" en alemán?",["das Fehlen von","mit sich bringen","die Umsetzung von","führen zu"],0,"\"la ausencia de\" se dice \"das Fehlen von\" en alemán."],
     ]
   },
   {
@@ -552,7 +582,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz verwendet 'weshalb' korrekt?",["Die Daten waren widersprüchlich, weshalb sich die Veröffentlichung des Berichts verzögerte.","Weshalb die Daten widersprüchlich waren, verzögerte sich der Bericht.","Die Daten, weshalb widersprüchlich, verzögerten den Bericht.","Weshalb dass die Daten widersprüchlich sind, Verzögerung des Berichts."],0,"'Weshalb' leitet direkt eine logische Folge im Hauptsatz ein."],
       ["fill","Ergänze: \"___ der verfügbaren Ressourcen wird das Projekt langsamer voranschreiten als geplant.\"",["Angesichts","Weshalb","Unter Androhung von","Es wäre angebracht"],0,"'Angesichts' leitet direkt eine Ursache ein."],
       ["mcq","Was bedeutet 'insofern als' ungefähr?",["In dem Maße oder Grad, in dem etwas zutrifft; ähnlich wie 'in dem Ausmaß, in dem'.","Genau dasselbe wie 'obwohl'.","Leitet immer eine irreale Hypothese ein.","Wird nur für physische Maße verwendet."],0,"Drückt eine Proportionalität zwischen zwei verbundenen Tatsachen aus."],
-      ["writing","Schreib einen Absatz von 70-90 Wörtern, der Ursache und Folge einer unternehmerischen Entscheidung erklärt, und benutze mindestens zwei Konnektoren dieser Lektion.",[],["angesichts der Tatsache","weshalb","insofern als"],"Unterscheide sorgfältig zwischen Ursachen- und Folgekonnektoren.","Ursachenanalyse für einen Managementbericht."]
+      ["writing","Schreib einen Absatz von 70-90 Wörtern, der Ursache und Folge einer unternehmerischen Entscheidung erklärt, und benutze mindestens zwei Konnektoren dieser Lektion.",[],["angesichts der Tatsache","weshalb","insofern als"],"Unterscheide sorgfältig zwischen Ursachen- und Folgekonnektoren.","Ursachenanalyse für einen Managementbericht."],
+    ["mcq","¿Cómo se dice \"dado el hecho de que\" en alemán?",["insofern als","angesichts der Tatsache, dass","weshalb","unter Androhung von"],1,"\"dado el hecho de que\" se dice \"angesichts der Tatsache, dass\" en alemán."],
+    ["mcq","¿Cómo se dice \"en la medida en que\" en alemán?",["weshalb","angesichts der Tatsache, dass","insofern als","unter Androhung von"],2,"\"en la medida en que\" se dice \"insofern als\" en alemán."],
     ]
   },
   {
@@ -573,7 +605,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Was ist die beste Zusammenfassung für ein Publikum mit wenig Zeit?",["Grob gesagt empfiehlt der Bericht eine schrittweise Expansion, abhängig von externer Finanzierung.","Der Bericht hat viele Seiten über Expansion, Finanzierung und andere Dinge.","Die Expansion wird perfekt sein, wenn sich alle anstrengen.","Es gibt Finanzierung, Expansion und einen Bericht."],0,"Eine gute Zusammenfassung priorisiert Entscheidung, Bedingung und Hauptrisiko."],
       ["fill","Ergänze: \"___ zeigt die Studie eine moderate, aber stetige Verbesserung der Ergebnisse.\"",["Zusammenfassend","Unter Androhung von","Weshalb","Es wäre angebracht"],0,"'Zusammenfassend' leitet eine allgemeine Schlussfolgerung ein, die die Zusammenfassung abschließt."],
       ["mcq","Was unterscheidet eine gute Mediation (Zusammenfassung) von einer bloßen Liste von Schlüsselwörtern?",["Sie bewahrt die logischen Beziehungen (Ursache, Kontrast, Bedingung) zwischen den ursprünglichen Ideen.","Sie beseitigt jede logische Beziehung und lässt nur isolierte Begriffe übrig.","Sie muss immer länger sein als der Originaltext.","Sie darf keinerlei Schlussfolgerung enthalten."],0,"Mediation verlangt, Sinn und Verbindungen zu bewahren, nicht nur Vokabeln."],
-      ["writing","Fasse in 60-80 Wörtern einen fiktiven Bericht zusammen, der zwei strategische Optionen bewertet, und nenne die Hauptempfehlung sowie eine Bedingung oder ein Risiko.",[],["zusammenfassend","der zentrale Punkt","es ist hervorzuheben"],"Priorisiere Entscheidung, Grund und eine relevante Bedingung oder Risiko.","Executive Summary für die Geschäftsleitung."]
+      ["writing","Fasse in 60-80 Wörtern einen fiktiven Bericht zusammen, der zwei strategische Optionen bewertet, und nenne die Hauptempfehlung sowie eine Bedingung oder ein Risiko.",[],["zusammenfassend","der zentrale Punkt","es ist hervorzuheben"],"Priorisiere Entscheidung, Grund und eine relevante Bedingung oder Risiko.","Executive Summary für die Geschäftsleitung."],
+    ["mcq","¿Cómo se dice \"el punto clave es que\" en alemán?",["es ist hervorzuheben, dass","zusammenfassend","grob gesagt","der zentrale Punkt ist, dass"],3,"\"el punto clave es que\" se dice \"der zentrale Punkt ist, dass\" en alemán."],
+    ["mcq","¿Cómo se dice \"cabe destacar que\" en alemán?",["zusammenfassend","es ist hervorzuheben, dass","grob gesagt","der zentrale Punkt ist, dass"],1,"\"cabe destacar que\" se dice \"es ist hervorzuheben, dass\" en alemán."],
     ]
   },
   {
@@ -594,7 +628,9 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welcher Satz widerlegt ein Argument mit größerer rhetorischer Präzision?",["Die Maßnahme ist keineswegs eine Lösung des Problems, sondern könnte es langfristig verschärfen.","Die Maßnahme ist einfach schlecht.","Das bringt offensichtlich nichts.","Jeder weiß, dass das schlecht ist."],0,"'Keineswegs' leitet eine differenzierte, argumentierte Widerlegung ein, keine bloße Verneinung."],
       ["fill","Ergänze: \"Das Projekt erzielte Gewinne; ___ deckte es nicht die Anfangskosten.\"",["das schließt jedoch nicht aus, dass es","angesichts der Tatsache, dass","weshalb","insofern als"],0,"'Das schließt jedoch nicht aus, dass' leitet eine Konzession gefolgt von einer Differenzierung ein."],
       ["mcq","Welche rhetorische Funktion erfüllt 'zwar... aber'?",["Es erkennt einen gültigen Punkt an, bevor es einen ebenso soliden Einwand einführt.","Es verneint den ersten Punkt vollständig.","Es drückt völligen Zweifel an beiden Punkten aus.","Es ist eine rein informelle Formel."],0,"Es ist eine typische Konzessions-Widerlegungs-Struktur im gehobenen argumentativen Register."],
-      ["writing","Schreib einen Absatz von 80-100 Wörtern, der differenziert eine Position zu einem kontroversen Thema widerlegt (z. B. die Automatisierung von Arbeitsplätzen), und benutze mindestens zwei Konzessions-Widerlegungs-Strukturen.",[],["zwar... aber","keineswegs","letztlich"],"Erkenne zuerst den Gegenpunkt an und differenziere oder widerlege ihn dann präzise.","Meinungsartikel für eine Fachzeitschrift."]
+      ["writing","Schreib einen Absatz von 80-100 Wörtern, der differenziert eine Position zu einem kontroversen Thema widerlegt (z. B. die Automatisierung von Arbeitsplätzen), und benutze mindestens zwei Konzessions-Widerlegungs-Strukturen.",[],["zwar... aber","keineswegs","letztlich"],"Erkenne zuerst den Gegenpunkt an und differenziere oder widerlege ihn dann präzise.","Meinungsartikel für eine Fachzeitschrift."],
+    ["mcq","¿Cómo se dice \"es cierto que... pero\" en alemán?",["zwar... aber","das schließt nicht aus, dass","letztlich","keineswegs"],0,"\"es cierto que... pero\" se dice \"zwar... aber\" en alemán."],
+    ["mcq","¿Cómo se dice \"de ninguna manera\" en alemán?",["das schließt nicht aus, dass","keineswegs","letztlich","zwar... aber"],1,"\"de ninguna manera\" se dice \"keineswegs\" en alemán."],
     ]
   },
   {
@@ -617,7 +653,8 @@ window.LESSON_BANKS.DE = [
       ["fill","Vervollständige die Inversion: „Keinesfalls ___ diese Ergebnisse als endgültig betrachtet werden.“",["sollten","sollte","würden","werden"],0,"Das Verb stimmt mit dem Plural-Subjekt 'diese Ergebnisse' überein: sollten betrachtet werden."],
       ["mcq","Welche Funktion hat die Litotes in „Der Vorschlag ist nicht ohne Risiko“?",["Sie bestätigt nuanciert, dass der Vorschlag tatsächlich ein Risiko birgt.","Sie verneint vollständig, dass ein Risiko besteht.","Sie behauptet, der Vorschlag sei völlig sicher.","Sie fügt keine zusätzliche Bedeutung hinzu."],0,"'Nicht ohne' verneint das Gegenteil, um etwas vorsichtig zu bestätigen."],
       ["translate","Übersetze: „By no means should this decision be treated as final.“",["Keinesfalls sollte diese Entscheidung als endgültig betrachtet werden.","Diese Entscheidung ist keinesfalls endgültig behandelt.","Sollte keinesfalls diese Entscheidung als endgültig gelten.","Diese Entscheidung keinesfalls endgültig sollte betrachtet werden."],0,"„Keinesfalls“ + Inversion ist die gehobene Entsprechung von „by no means“."],
-      ["writing","Schreibe 60-80 Wörter über eine umstrittene Unternehmensentscheidung: Verwende mindestens eine emphatische Inversion ('keinesfalls'/'unter keinen Umständen') und eine Litotes.",[],["keinesfalls","nicht ohne","unter keinen Umständen"],"Das C2-Niveau verbindet argumentative Präzision mit rhetorischen Mitteln der Nuancierung.","Meinungskolumne für eine Fachzeitschrift."]
+      ["writing","Schreibe 60-80 Wörter über eine umstrittene Unternehmensentscheidung: Verwende mindestens eine emphatische Inversion ('keinesfalls'/'unter keinen Umständen') und eine Litotes.",[],["keinesfalls","nicht ohne","unter keinen Umständen"],"Das C2-Niveau verbindet argumentative Präzision mit rhetorischen Mitteln der Nuancierung.","Meinungskolumne für eine Fachzeitschrift."],
+    ["mcq","¿Cómo se dice \"de ninguna manera\" en alemán?",["keinesfalls","hinter etwas zurückbleiben","eine Aussage relativieren","eine stillschweigende Annahme"],0,"\"de ninguna manera\" se dice \"keinesfalls\" en alemán."],
     ]
   },
   {
@@ -640,7 +677,8 @@ window.LESSON_BANKS.DE = [
       ["mcq","Welche Version passt am besten zu einer formellen öffentlichen Entschuldigung?",["Wir bedauern die entstandenen Unannehmlichkeiten und ergreifen sofort Maßnahmen, damit sich das nicht wiederholt.","Na ja, das war peinlich, wird schon wieder.","Das war überhaupt nicht unsere Schuld.","Jeder macht Fehler, das muss man nicht weiter kommentieren."],0,"Das formelle Register erkennt die Auswirkung an, übernimmt Verantwortung und schlägt eine konkrete Maßnahme vor."],
       ["fill","Vervollständige: „Die Rede versucht, ein Gefühl gemeinsamer Verantwortung ___.“",["hervorzurufen","herbeizurufen","hervorzubringen","zurückzurufen"],0,"'Hervorrufen' bedeutet, ein Gefühl oder eine Vorstellung beim Zuhörer zu wecken."],
       ["mcq","Was ist der Hauptzweck einer rhetorischen Frage in einer überzeugenden Rede?",["Das Publikum einzubeziehen und eine Antwort nahezulegen, ohne sie ausdrücklich zu formulieren.","Eine Information zu erfragen, die der Redner tatsächlich nicht kennt.","Das Publikum absichtlich zu verwirren.","Unauffällig das Thema zu wechseln."],0,"Die rhetorische Frage lenkt den Zuhörer zu einer Schlussfolgerung, ohne sie direkt auszusprechen."],
-      ["writing","Formuliere diese schroffe interne Nachricht in eine öffentliche Mitteilung von 50-70 Wörtern um: „Das Team hat versagt, das muss sofort repariert werden.“ Erkenne das Problem an, dramatisiere es nicht und schlage eine überprüfbare Maßnahme vor.",[],["wir bedauern","Maßnahmen","damit sich das nicht wiederholt"],"Bewerte Verhältnismäßigkeit und Ton: weder übermäßige Kälte noch unnötige Dramatisierung.","Mitteilung: Ein digitaler Dienst war zwei Stunden lang ausgefallen."]
+      ["writing","Formuliere diese schroffe interne Nachricht in eine öffentliche Mitteilung von 50-70 Wörtern um: „Das Team hat versagt, das muss sofort repariert werden.“ Erkenne das Problem an, dramatisiere es nicht und schlage eine überprüfbare Maßnahme vor.",[],["wir bedauern","Maßnahmen","damit sich das nicht wiederholt"],"Bewerte Verhältnismäßigkeit und Ton: weder übermäßige Kälte noch unnötige Dramatisierung.","Mitteilung: Ein digitaler Dienst war zwei Stunden lang ausgefallen."],
+    ["mcq","¿Cómo se dice \"encontrar un equilibrio\" en alemán?",["eine rhetorische Frage","Verantwortung angemessen übernehmen","ein Gleichgewicht finden","hervorrufen"],2,"\"encontrar un equilibrio\" se dice \"ein Gleichgewicht finden\" en alemán."],
     ]
   },
   {
@@ -662,7 +700,8 @@ window.LESSON_BANKS.DE = [
       ["mcq","Was ist eine angemessene kritische Lesart von „eine mutige Lösung für ein veraltetes System“?",["Das Adjektiv 'veraltet' bewertet das System und stimmt den Leser positiv für die Lösung.","Der Satz ist völlig neutral und enthält keine Wertung.","Die Lösung hat sich bereits als wirksam erwiesen.","Er enthält keinerlei implizite Bewertung."],0,"'Veraltet' ist wertende Sprache, kein objektiv nachgewiesener Fakt."],
       ["fill","Vervollständige: „Der Artikel enthält einen wichtigen ___: Die Ergebnisse wurden nicht reproduziert.“",["Vorbehalt","Gedanken","Folge","Vergleich"],0,"Ein 'Vorbehalt' schränkt die Reichweite einer Aussage ein."],
       ["mcq","Beim Satz „Es ist Zeit, der öffentlichen Politik wieder gesunden Menschenverstand zu geben“ – was impliziert 'wieder geben'?",["Es deutet an, dass gesunder Menschenverstand vorher existierte und verloren ging, ohne dies zu belegen.","Es behauptet mit Daten, dass der aktuellen Politik der Menschenverstand fehlt.","Es ist eine neutrale Beschreibung ohne jede Wertung.","Es schlägt eine konkrete, überprüfbare Politik vor."],0,"'Wieder geben' setzt einen früheren Verlust voraus – eine gängige rhetorische Strategie ohne Beleg."],
-      ["speaking","Analysiere in 50-70 Wörtern einen überzeugenden Satz deiner Wahl: identifiziere eine Präsupposition, ein wertendes Wort und eine angemessene Schlussfolgerung.",[],["setzt voraus","Sprache","Schlussfolgerung"],"Es reicht nicht, zuzustimmen oder abzulehnen: erkläre, wie die Sprache die Interpretation lenkt.","Beispielsatz: „Es ist Zeit, dieser veralteten Praxis ein Ende zu setzen.“"]
+      ["speaking","Analysiere in 50-70 Wörtern einen überzeugenden Satz deiner Wahl: identifiziere eine Präsupposition, ein wertendes Wort und eine angemessene Schlussfolgerung.",[],["setzt voraus","Sprache","Schlussfolgerung"],"Es reicht nicht, zuzustimmen oder abzulehnen: erkläre, wie die Sprache die Interpretation lenkt.","Beispielsatz: „Es ist Zeit, dieser veralteten Praxis ein Ende zu setzen.“"],
+    ["mcq","¿Cómo se dice \"dar a entender\" en alemán?",["wertende Sprache","andeuten","eine Schlussfolgerung ziehen","ein Vorbehalt"],1,"\"dar a entender\" se dice \"andeuten\" en alemán."],
     ]
   },
   {

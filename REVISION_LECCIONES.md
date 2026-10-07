@@ -4,7 +4,8 @@
 
 Revisé **todos los bancos**: la ruta A1→C2 (`lessons-data/*.js`: EN 223 lecciones,
 ES/FR/DE/IT/PT 213 cada una = 1.276) y las mini-lecciones de **Situaciones**
-(`situations-data.js`: 624). En total **11.023 ejercicios**.
+(`situations-data.js`: 624). Empecé con 11.023 ejercicios; tras seis rondas de
+revisión, la app tiene ahora **11.543** (ver la sexta ronda, más abajo).
 
 - **Automático, 100 %:** escribí un validador que carga los archivos como el
   navegador y revisa cada ejercicio (ahora es `tools/validate_lessons.js`).
@@ -23,6 +24,10 @@ ES/FR/DE/IT/PT 213 cada una = 1.276) y las mini-lecciones de **Situaciones**
 | `mcq` de vocabulario con distractores en el idioma equivocado | 660 | 0 |
 | Distractores que en realidad eran otra respuesta igualmente válida | 12 | 0 |
 | Títulos de lección duplicados dentro del mismo idioma | 3 | 0 |
+| Lecciones de Situaciones (EN) sin ficha de "Estudiar" completa | 56 | 0 |
+| Lecciones con menos de 6 ejercicios (el estándar del 79% de la app) | 390 | 0 |
+| Traducciones en inglés en el glosario de "Estudiar" (ES/FR/DE/IT/PT) | ~8.169 entradas | 0 |
+| Ejercicios calificables que piden decir una palabra "en inglés" dentro de un curso no inglés | 410 | **sin corregir — ver más abajo** |
 
 ## Qué estaba roto y qué hice
 
@@ -211,6 +216,56 @@ Quizás sinónimos, registro formal/informal, o notas de uso, en vez de una
 traducción. Te lo señalo para que lo decidas tú; no toqué el curso ES de forma
 distinta a los demás porque no me correspondía inventar ese rediseño.
 
+## Quinta ronda (esta sesión) — las 56 lecciones de Situaciones sin ficha de estudio
+
+En la primera ronda había detectado 56 lecciones de Situaciones en inglés con
+`study.vocab` o `study.grammar` vacío, e intenté rellenarlas automáticamente; la
+calidad no fue suficiente y deshice el intento. Esta vez lo hice a mano, lección
+por lección:
+
+- **13 lecciones** (las de tipo "Diálogo" y similares) tenían gramática pero no
+  vocabulario. Escribí 4-5 frases de vocabulario para cada una, tomadas
+  directamente de los propios ejercicios de esa lección (ya verificados y en uso),
+  no inventadas desde cero.
+- **43 lecciones** (las de vocabulario/frases por tema) tenían vocabulario pero no
+  gramática. Escribí una nota gramatical nueva para cada una, relacionada
+  específicamente con el contenido de esa lección — nunca una nota genérica
+  copiada: por ejemplo, "sustantivos compuestos" para la lección de vocabulario del
+  aeropuerto (boarding pass, security checkpoint), o "presente perfecto continuo"
+  para la lección de quejas de restaurante ("we have been waiting").
+- Antes de aplicar nada, verifiqué por código que mi lista de 56 coincidía
+  **exactamente** con las lecciones pendientes (ni una de más, ni una de menos), y
+  localicé con precisión el bloque de datos de inglés dentro del archivo (que
+  comparte estructura con los otros 5 idiomas) para no tocar ningún otro idioma.
+- Tras aplicarlo, comprobé **columna por columna** que ES/FR/DE/IT/PT quedaron
+  exactamente iguales a como estaban (0 diferencias en los 5), y que el único
+  ejercicio que cambió en todo el bloque de Situaciones en inglés fue uno ya
+  corregido en la Ronda 2 (una consigna de `arrange` a la que le faltaba una
+  palabra), no algo nuevo de esta ronda.
+
+**Resultado: el validador pasa de 56 avisos a 0.** Las 1.912 lecciones de la
+aplicación tienen ahora su ficha de "Estudiar" completa (vocabulario y gramática),
+sin excepción.
+
+### Lectura completa de las 1.862 traducciones, una por una (esta sesión)
+
+A petición tuya de llevar esta parte al 100%, releí **las 1.862 traducciones
+completas** (no una muestra) buscando errores de significado, redacción forzada o
+inconsistencias. Encontré:
+
+- **0 errores de significado.**
+- **2 casos de redacción un poco forzada** (no incorrectos, pero mejorables):
+  "sin preposición + día de la semana" y "el/de + día de la semana (hábito
+  repetido)" — los reescribí como "día de la semana (sin preposición)" y "día de
+  la semana (hábito repetido)", más naturales.
+- **1 inconsistencia menor que no introduje yo**: "(certeza alta)" vs. "(alta
+  certeza)" como anotación de dos ejercicios distintos sobre el mismo concepto
+  gramatical. Comprobé que esa anotación **ya estaba en español en el texto
+  original en inglés** antes de que yo tocara nada (es decir, ya era así en el
+  curso antes de esta revisión) — la dejé tal cual porque no es parte de la tarea
+  de traducción que me pediste, y cambiarla sería tocar contenido más allá de lo
+  que se me encargó.
+
 ### Verificación exhaustiva de la traducción (esta sesión)
 
 Después de aplicar la traducción, la sometí a la comprobación más estricta posible
@@ -249,27 +304,110 @@ antes de darla por buena:
    validador (0 errores), motor real sobre los 11.023 ejercicios, y sintaxis de los
    17 archivos.
 
+## Sexta ronda (esta sesión) — 520 ejercicios nuevos y un hallazgo sistémico nuevo
+
+### Las 390 lecciones con solo 4-5 ejercicios ahora tienen 6 (el estándar real de la app)
+
+Medí la distribución real de tamaño de lección en todo el corpus: el 79% de las
+1.912 lecciones tiene exactamente 6 ejercicios — ese es el estándar, no una
+suposición mía. 130 lecciones tenían 4 y 260 tenían 5. Añadí **520 ejercicios
+nuevos** (uno o dos por lección) para llevarlas todas a 6, usando siempre
+contenido ya verificado de la propia lección (su `study.vocab` o su
+`study.grammar`), nunca palabras inventadas:
+
+- **504 ejercicios**: `mcq` "¿Cómo se dice X?" (o `arrange`, ver más abajo) a
+  partir de una palabra del vocabulario de la lección que aún no había sido la
+  respuesta correcta de ningún ejercicio (sí podía haber aparecido antes como
+  distractor; eso no la invalida, es lo normal en el resto del contenido).
+- **7 ejercicios**: `translate`, a partir del ejemplo de la nota de gramática de
+  la lección, que traduje yo mismo (verificado contra el original con conteo de
+  barras "/" para detectar desalineaciones, y releído después).
+- **7 ejercicios**: `fill`, para el curso de español, cuando generar un
+  "¿Cómo se dice?" no tenía sentido (ver más abajo).
+- **2 ejercicios**: escritos a mano para dos lecciones cuyo vocabulario
+  restante eran palabras sueltas de 1-2 letras, demasiado cortas para cualquier
+  generación automática segura.
+
+**Un bug que descubrí y corregí durante la propia generación**: en el curso
+de español, como la palabra enseñada y su traducción son a menudo la misma
+palabra (ver la Ronda 4), generar "¿Cómo se dice 'la piscina' en español?" con
+respuesta "la piscina" habría sido un ejercicio circular y absurdo. Lo detecté
+antes de aplicar nada (una revisión manual de 80 ejercicios al azar lo sacó a la
+luz) y cambié el enfoque para esos casos: en su lugar generé un ejercicio
+`arrange` (ordenar las palabras de la propia frase), que no necesita traducción
+y es igual de seguro. Cuando la frase tenía menos de 3 palabras (demasiado corta
+para ordenar), la descarté de la generación automática y la escribí a mano.
+
+Verifiqué el lote completo antes de insertarlo: 0 errores estructurales, 0
+circularidad, 0 duplicados (ni entre sí ni con las preguntas ya existentes de
+cada lección), 0 distractores en idioma equivocado, y releí una muestra de 80 al
+azar a mano. Durante la inserción en los archivos reales encontré y corregí dos
+bugs de mi propio script (un formato de cierre de array distinto en los archivos
+"compactos" de inglés, y una coma final que faltaba al insertar después del
+último ejercicio original); los corregí y repetí la reconstrucción completa
+desde cero para confirmarlo.
+
+**Resultado:** 11.543 ejercicios en total (antes 11.023), 0 lecciones por debajo
+de 6, validador en 0 errores y 0 avisos.
+
+### Dos errores reales y pre-existentes que encontré de paso
+
+Mi propia verificación final (buscando si la respuesta de un ejercicio aparecía
+ya literalmente en la pregunta) destapó dos ejercicios del curso de español que
+llevaban el error **desde el contenido original**, antes de que yo tocara nada:
+`es_a1_frequency_adverbs` preguntaba "¿Cómo se dice 'a veces' en español?" con
+la respuesta... "a veces" (la explicación ya decía correctamente "'A veces' es
+'sometimes'", así que recuperé de ahí la palabra inglesa que debía ir en la
+pregunta); y `es_a2_sugerencias` preguntaba "¿Cómo se dice '¿Por qué no pedimos
+pizza?' en español?" citándose a sí misma, así que reformulé la pregunta para
+que probara lo que la explicación realmente enseña (la conjugación correcta),
+sin tocar las opciones ni la respuesta. Los corregí y los integré al pipeline
+permanente.
+
+### Hallazgo nuevo, sin corregir: 410 ejercicios que preguntan "¿cómo se dice
+### X en inglés?" dentro de un curso de francés/alemán/italiano/portugués/español
+
+Mientras revisaba lo anterior encontré otro patrón, de la misma familia que el
+hallazgo de la Ronda 3 (el glosario en inglés): **82 ejercicios por cada uno de
+los 5 cursos no ingleses (410 en total)** tienen preguntas como "Comment dit-on
+'les mathématiques' en anglais ?" o "Wie sagt man 'die Mathematik' auf
+Englisch?" — es decir, le piden al alumno que diga una palabra **en inglés**,
+dentro de un curso que se supone que enseña francés o alemán. Son ejercicios
+calificables (no solo una ficha de referencia), así que el impacto es mayor que
+el del glosario de "Estudiar".
+
+**No lo he corregido.** A diferencia de los 520 ejercicios de esta misma ronda
+(donde reutilicé contenido de la propia lección ya verificado), arreglar esto
+bien significaría reescribir 410 ejercicios calificables: cambiar la respuesta
+correcta de la palabra inglesa a la palabra en el idioma meta, y rehacer los
+distractores también en ese idioma — mucho más riesgo de introducir errores sin
+que tú decidas primero si esto es lo que quieres. Antes de tocarlo necesito que
+me confirmes lo mismo que con el glosario: ¿es un error de autoría (lo más
+probable, dado que es la misma causa raíz) y quieres que lo corrija, o hay
+alguna razón para mantenerlo?
+
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 
-1. **Qué debería mostrar la ficha "Estudiar" del curso de español**, ahora que su
+1. **Los 410 ejercicios que preguntan "¿cómo se dice X en inglés?" dentro de un
+   curso de francés/alemán/italiano/portugués/español** (ver el hallazgo de la
+   sexta ronda, arriba). Es ahora mismo lo más importante pendiente de decidir,
+   y lo más urgente porque afecta a ejercicios calificables, no solo a una
+   ficha de referencia.
+2. **Qué debería mostrar la ficha "Estudiar" del curso de español**, ahora que su
    columna de traducción es también español (ver el matiz de la cuarta ronda,
    arriba) — 1.177 de 1.657 entradas quedan circulares o redundantes.
-2. **`arrange` con varios órdenes válidos.** El motor solo acepta `options[correct]`. Arreglé
+3. **`arrange` con varios órdenes válidos.** El motor solo acepta `options[correct]`. Arreglé
    los 2 que la explicación admitía, pero otros no se pueden detectar automáticamente
    sin ese tipo de pista textual. Lo sano sería que el motor aceptara una lista de
    órdenes válidos por ejercicio.
-3. **56 lecciones de Situaciones en inglés sin `study.grammar` y/o `study.vocab`**
-   (43 sin gramática, 13 sin vocabulario). Intenté rellenarlas automáticamente en la
-   tercera ronda; la calidad no fue suficiente y deshice el intento (ver arriba).
-   Necesitan redacción manual.
-4. **130 lecciones con solo 4-5 ejercicios** (8 EN, 18 por cada otro idioma, 32 de
-   Situaciones EN). Confirmé que no rompen los minijuegos (toman `Math.min(N,
-   disponibles)`), así que es una cuestión de qué tan completo quieres el contenido,
-   no un defecto.
-5. **4 preguntas idénticas entre lecciones distintas** (ej. `a1_sports_exercise` ↔
+4. ~~56 lecciones de Situaciones en inglés sin `study.grammar`/`study.vocab`~~ —
+   **resuelto en la quinta ronda** (ver arriba).
+5. ~~390 lecciones con solo 4-5 ejercicios~~ — **resuelto en la sexta ronda**
+   (ver arriba): todas tienen ahora 6, el estándar real del resto de la app.
+6. **4 preguntas idénticas entre lecciones distintas** (ej. `a1_sports_exercise` ↔
    `b1_sports_fitness`) y **1 caso de `HTML_CHARS`** (un carácter `<`/`>`/`&` suelto en
    un texto) — informativos, sin impacto real en el alumno.
-6. **Etiquetas "A) … B) …" dentro del enunciado** (p. ej. `b1_present_perfect #1`) conviven con
+7. **Etiquetas "A) … B) …" dentro del enunciado** (p. ej. `b1_present_perfect #1`) conviven con
    los botones A-D de las opciones: confuso a primera vista, pero no roto (esas letras
    se refieren a las dos frases citadas en la pregunta, no a las opciones, así que no
    cambian al barajar).

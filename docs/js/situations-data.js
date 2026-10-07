@@ -108,6 +108,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Luggage / Baggage','Equipaje'],
         ['Security checkpoint','Control de seguridad'],
         ['Passport control','Control de pasaportes'],
+      ], grammar:[
+        ["Sustantivos compuestos (nombre + nombre)","En inglés, dos sustantivos se combinan sin preposición para formar uno nuevo: el segundo es el núcleo y el primero lo describe. En español suele traducirse con \"de\".","boarding pass (tarjeta DE embarque), security checkpoint (control DE seguridad)."],
       ]},
       ex:[
         ['mcq','¿Cómo se dice "tarjeta de embarque" en inglés?',['Boarding pass','Check-in','Gate','Passport'],0,'"Boarding pass" es el documento que te dejan subir al avión.','🧳 Estás en el mostrador de la aerolínea.'],
@@ -115,6 +117,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','¿Qué palabra usarías para tu maleta?',['Luggage','Gate','Ticket','Desk'],0,'"Luggage" (o "baggage") se refiere a las maletas que llevas.'],
         ['translate','Traduce: "control de pasaportes"',['Passport control','Boarding pass','Security check','Baggage claim'],0,'"Passport control" es donde revisan tu documento de identidad al viajar.'],
         ['arrange','Ordena: [is / boarding / where / my / pass]',['Where is my boarding pass','Boarding is where my pass','My pass is where boarding','Pass boarding where is my'],0,'"Where is my boarding pass?" — pregunta muy común si la pierdes de vista.'],
+      ["mcq","¿Cómo se dice \"Facturación\" en inglés?",["Passport control","Luggage / Baggage","Boarding pass","Check-in"],3,"\"Facturación\" se dice \"Check-in\" en inglés."],
       ],
     },
     { id:'sit_airport_phrases', level:'A1', title:'Frases para el check-in', emoji:'💬', xp:25,
@@ -125,6 +128,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Window or aisle seat?','¿Asiento de ventanilla o pasillo?'],
         ['Which gate does my flight leave from?','¿De qué puerta sale mi vuelo?'],
         ['My flight has been delayed.','Mi vuelo se ha retrasado.'],
+      ], grammar:[
+        ["\"Which\" para elegir entre opciones","\"Which\" pregunta por una opción concreta dentro de un grupo conocido (a diferencia de \"what\", más general).","Which gate does my flight leave from? → ¿De qué puerta sale mi vuelo?"],
       ]},
       ex:[
         ['mcq','Quieres empezar el check-in. ¿Qué dices?',['I would like to check in, please.','I am from Spain.','See you later.','This is delicious.'],0,'Es la forma educada y directa de empezar el trámite.','🧳 Llegas al mostrador de tu aerolínea.'],
@@ -132,12 +137,19 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','"Which ___ does my flight leave from?"',['gate','luggage','check-in','ticket'],0,'Preguntas por la puerta de embarque para saber a dónde ir.'],
         ['translate','Traduce: "Mi vuelo se ha retrasado."',['My flight has been delayed.','My flight has landed.','My flight is full.','My flight is cheap.'],0,'"Delayed" significa retrasado — muy útil si cambia tu horario.'],
         ['mcq','El agente pregunta "Do you have any bags to check?". ¿Qué te está preguntando?',['Si tienes equipaje para facturar','Si tienes pasaporte','Si tienes hambre','Si tienes reserva de hotel'],0,'"Bags to check" son las maletas que van a la bodega del avión.'],
+      ["mcq","¿Cómo se dice \"¿Tiene equipaje para facturar?\" en inglés?",["Do you have any bags to check?","My flight has been delayed.","Which gate does my flight leave from?","Window or aisle seat?"],0,"\"¿Tiene equipaje para facturar?\" se dice \"Do you have any bags to check?\" en inglés."],
       ],
     },
     { id:'sit_airport_dialogue', level:'A1', title:'Diálogo: en el mostrador', emoji:'🛂', xp:30,
       description:'Sigue una conversación real de check-in y practica tu respuesta.',
       study:{ grammar:[
         ['Preguntas con "Could you...?"','Forma educada de pedir algo. "Could you..." siempre va seguido del verbo en infinitivo sin "to".','Could you repeat that, please? → ¿Podría repetir eso, por favor?'],
+      ], vocab:[
+        ["Passport, please.","Pasaporte, por favor."],
+        ["Your flight is boarding in 20 minutes, gate 14.","Su vuelo embarca en 20 minutos, puerta 14."],
+        ["Could you repeat that, please?","¿Podría repetir eso, por favor?"],
+        ["Could you tell me where gate 14 is?","¿Podría decirme dónde está la puerta 14?"],
+        ["I would like to check in, please.","Quisiera hacer el check-in, por favor."],
       ]},
       ex:[
         ['mcq','Agente: "Passport, please." Tú respondes dándoselo. ¿Qué NO deberías decir?',['I do not have one.','Here you go.','Of course.','Here it is.'],0,'Si no tienes pasaporte no podrías facturar — en un check-in real siempre lo tendrías a mano.','🎬 Diálogo — Agente: "Passport, please."'],
@@ -145,6 +157,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Tú preguntas: "Could you ___ that, please?" (no escuchaste bien la puerta)',['repeat','check','pay','book'],0,'"Could you repeat that, please?" es perfecto cuando no entiendes algo.'],
         ['translate','Traduce: "¿Podría decirme dónde está la puerta 14?"',['Could you tell me where gate 14 is?','Can I have a window seat?','Where can I buy a ticket?','Is my flight delayed?'],0,'Combina "Could you tell me...?" con la pregunta indirecta "where gate 14 is".'],
         ['speaking','Imagina que estás en el mostrador. Preséntate, di que quieres hacer el check-in y pregunta por tu puerta de embarque. (mínimo 25 palabras)',[],['check-in','gate','boarding pass','please'],'Una buena respuesta usa al menos "check-in", "gate" y una frase educada como "please" o "could you".'],
+      ["mcq","¿Cómo se dice \"Pasaporte, por favor\" en inglés?",["Passport, please.","I would like to check in, please.","Could you tell me where gate 14 is?","Could you repeat that, please?"],0,"\"Pasaporte, por favor.\" se dice \"Passport, please.\" en inglés."],
       ],
     },
     { id:'sit_airport_baggage', level:'A2', title:'Equipaje y facturación', emoji:'🧳', xp:25,
@@ -156,12 +169,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Fragile','Frágil'],
         ['Baggage claim','Recogida de equipaje'],
         ['Lost luggage','Equipaje perdido'],
+      ], grammar:[
+        ["Participios como adjetivos","Muchos participios pasados funcionan como adjetivos que describen un estado: van después de \"be\" sin necesidad de voz pasiva completa.","My luggage is lost. / My bag is overweight."],
       ]},
       ex:[
         ['mcq','Tu maleta pesa más de lo permitido. ¿Qué palabra describe esto?',['Overweight','Fragile','Carry-on','Lost'],0,'"Overweight" significa que el equipaje pesa más de lo permitido.','🧳 El agente pesa tu maleta.'],
         ['fill','"Where is ___ claim?" (para recoger tu maleta al llegar)',['baggage','carry-on','check-in','security'],0,'"Baggage claim" es la zona donde recoges las maletas facturadas.'],
         ['translate','Traduce: "Mi maleta contiene objetos frágiles."',['My bag contains fragile items.','My bag is overweight.','My bag is lost.','My bag is carry-on.'],0,'"Fragile items" son objetos que se pueden romper fácilmente.'],
         ['mcq','Llegas y tu maleta no aparece. ¿Qué dices?',['My luggage is lost.','My bag is overweight.','This is my carry-on.','Where is the gate?'],0,'"My luggage is lost" reporta que tu equipaje no llegó contigo.'],
+      ["mcq","¿Cómo se dice \"Equipaje de mano\" en inglés?",["Overweight","Fragile","Checked bag","Carry-on bag"],3,"\"Equipaje de mano\" se dice \"Carry-on bag\" en inglés."],
+      ["mcq","¿Cómo se dice \"Equipaje facturado\" en inglés?",["Lost luggage","Carry-on bag","Baggage claim","Checked bag"],3,"\"Equipaje facturado\" se dice \"Checked bag\" en inglés."],
       ],
     },
     { id:'sit_airport_security', level:'A2', title:'Seguridad y migración', emoji:'🛂', xp:25,
@@ -173,12 +190,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Customs','Aduana'],
         ['Declare','Declarar'],
         ['Purpose of your visit','Motivo de tu visita'],
+      ], grammar:[
+        ["El imperativo para instrucciones","Para dar órdenes o instrucciones directas en inglés se usa el verbo base, sin sujeto ni \"to\".","Take off your shoes, please. / Put your liquids in a bag."],
       ]},
       ex:[
         ['mcq','El oficial de seguridad te pide que hagas algo con tus zapatos. ¿Qué dice?',['Take off your shoes, please.','Declare your bags, please.','Show your visa, please.','Open your luggage, please.'],0,'"Take off your shoes" te pide que te quites los zapatos para el control.','🛂 Estás en el control de seguridad.'],
         ['fill','En migración preguntan: "What is the ___ of your visit?"',['purpose','customs','liquid','detector'],0,'"Purpose of your visit" pregunta si viajas por turismo, trabajo, etc.'],
         ['mcq','¿Qué debes hacer con los líquidos en el control de seguridad?',['Ponerlos en una bolsa transparente','Guardarlos en la maleta grande','Beberlos antes de pasar','Declararlos en aduana'],0,'Los líquidos suelen ir en una bolsa transparente aparte para el control.'],
         ['translate','Traduce: "No tengo nada que declarar."',['I have nothing to declare.','I have nothing to carry.','I have nothing overweight.','I have nothing checked.'],0,'"Nothing to declare" se usa en aduana cuando no llevas artículos restringidos.'],
+      ["mcq","¿Cómo se dice \"Detector de metales\" en inglés?",["Customs","Liquids","Metal detector","Take off your shoes"],2,"\"Detector de metales\" se dice \"Metal detector\" en inglés."],
+      ["mcq","¿Cómo se dice \"Quítate los zapatos\" en inglés?",["Take off your shoes","Declare","Metal detector","Customs"],0,"\"Quítate los zapatos\" se dice \"Take off your shoes\" en inglés."],
       ],
     },
     { id:'sit_airport_delays', level:'A2', title:'Retrasos y cambios de vuelo', emoji:'⏰', xp:25,
@@ -190,24 +211,35 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Connecting flight','Vuelo de conexión'],
         ['Missed my flight','Perdí mi vuelo'],
         ['Next available flight','Próximo vuelo disponible'],
+      ], grammar:[
+        ["Voz pasiva: be + participio","Se usa cuando lo importante es la acción, no quién la hace. Muy común para anuncios de vuelos.","My flight was cancelled. / Flights are often delayed in winter."],
       ]},
       ex:[
         ['mcq','Anuncian que tu vuelo no va a salir hoy. ¿Qué palabra usan?',['Cancelled','Delayed','Boarding','Overweight'],0,'"Cancelled" significa que el vuelo no saldrá — necesitarás otro.','⏰ Miras la pantalla de salidas.'],
         ['fill','"My flight was cancelled. Can you ___ me on another one?"',['rebook','declare','claim','board'],0,'"Rebook" significa reservarte de nuevo en otro vuelo.'],
         ['mcq','Tu primer vuelo se retrasó y ahora puede que pierdas el segundo. ¿Cómo se llama ese segundo vuelo?',['Connecting flight','Checked bag','Boarding pass','Baggage claim'],0,'Un "connecting flight" es el vuelo de conexión al que debes llegar a tiempo.'],
         ['translate','Traduce: "¿Cuál es el próximo vuelo disponible a Madrid?"',['What is the next available flight to Madrid?','Where is my connecting flight?','Is my flight cancelled?','Where is baggage claim?'],0,'"Next available flight" pregunta por la siguiente opción de vuelo.'],
+      ["mcq","¿Cómo se dice \"Retrasado\" en inglés?",["Cancelled","Next available flight","Delayed","Connecting flight"],2,"\"Retrasado\" se dice \"Delayed\" en inglés."],
+      ["mcq","¿Cómo se dice \"Perdí mi vuelo\" en inglés?",["Rebook","Delayed","Connecting flight","Missed my flight"],3,"\"Perdí mi vuelo\" se dice \"Missed my flight\" en inglés."],
       ],
     },
     { id:'sit_airport_help', level:'B1', title:'Pedir ayuda y resolver problemas', emoji:'🆘', xp:30,
       description:'Practica cómo pedir ayuda cuando algo no sale como esperabas.',
       study:{ grammar:[
         ['"I am supposed to..." para explicar un plan roto','Se usa para decir lo que se suponía que iba a pasar (y no pasó). Muy útil para explicar un problema al personal del aeropuerto.','I am supposed to be on flight 204, but it was cancelled. → Se suponía que iba en el vuelo 204, pero se canceló.'],
+      ], vocab:[
+        ["Excuse me, could you help me find my gate?","Disculpe, ¿podría ayudarme a encontrar mi puerta?"],
+        ["I am supposed to be on flight 204, but it was cancelled.","Se suponía que estaría en el vuelo 204, pero fue cancelado."],
+        ["I missed my connecting flight, what can I do?","Perdí mi vuelo de conexión, ¿qué puedo hacer?"],
+        ["What are my other options?","¿Cuáles son mis otras opciones?"],
       ]},
       ex:[
         ['mcq','Estás perdido en el aeropuerto y necesitas ayuda para llegar a tu puerta. ¿Qué dices?',['Excuse me, could you help me find my gate?','Excuse me, is this seat taken?','Excuse me, does this contain nuts?','Excuse me, what time is breakfast?'],0,'"Could you help me find...?" es la forma educada de pedir indicaciones.','🆘 Estás perdido cerca de las puertas de embarque.'],
         ['fill','"I am ___ to be on flight 204, but it was cancelled."',['supposed','delayed','boarding','declared'],0,'"I am supposed to be on..." explica cuál era tu plan original.'],
         ['translate','Traduce: "Perdí mi vuelo de conexión, ¿qué puedo hacer?"',['I missed my connecting flight, what can I do?','I lost my luggage, what can I do?','My flight is delayed, what can I do?','I need a wheelchair, what can I do?'],0,'"I missed my connecting flight" explica el problema con claridad.'],
         ['speaking','Simula que perdiste tu vuelo de conexión: explica el problema al personal y pregunta qué opciones tienes. (mínimo 25 palabras)',[],['missed','connecting flight','what can I do'],'Una buena respuesta explica el problema y pide opciones con claridad.'],
+      ["mcq","¿Cómo se dice \"Se suponía que estaría en el vuelo 204, pero fue cancelado\" en inglés?",["I am supposed to be on flight 204, but it was cancelled.","Excuse me, could you help me find my gate?","I missed my connecting flight, what can I do?","What are my other options?"],0,"\"Se suponía que estaría en el vuelo 204, pero fue cancelado.\" se dice \"I am supposed to be on flight 204, but it was cancelled.\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Cuáles son mis otras opciones?\" en inglés?",["I missed my connecting flight, what can I do?","I am supposed to be on flight 204, but it was cancelled.","Excuse me, could you help me find my gate?","What are my other options?"],3,"\"¿Cuáles son mis otras opciones?\" se dice \"What are my other options?\" en inglés."],
       ],
     },
   {
@@ -255,6 +287,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “I'm worried I might miss my connecting ___.”",["gate", "lounge", "visa", "flight"],3,"“Connecting flight” es el vuelo de enlace."],
       ["translate","Traduce: “Si pierdo el vuelo, ¿seré reprogramado automáticamente?”",["If I lose my flight, will I pay a fee?", "If I miss the flight, will I lose my ticket?", "If I miss the gate, will I get priority boarding?", "If I miss the flight, will I be rebooked automatically?"],3,"“Will I be rebooked” usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [have / to / lounge / I / access / the]",["access the I have to lounge", "the access have I to lounge", "I have access to the lounge", "I access to have lounge the"],2,"Sujeto + “have access to” + objeto."],
+    ["mcq","¿Cómo se dice \"tener acceso a la sala VIP\" en inglés?",["priority boarding","to miss a connecting flight","to have access to the lounge","to be rebooked automatically"],2,"\"tener acceso a la sala VIP\" se dice \"to have access to the lounge\" en inglés."],
     ]
   },
   {
@@ -365,6 +398,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Bill / Check','La cuenta'],
         ['Waiter / Server','Camarero'],
         ['Allergy','Alergia'],
+      ], grammar:[
+        ["Preguntas con \"do/does\"","Para preguntar en presente simple con la mayoría de los verbos se usa \"do\" (o \"does\" en tercera persona) antes del sujeto.","Do you have a reservation? / Does this dish contain nuts?"],
       ]},
       ex:[
         ['mcq','¿Cómo se dice "la cuenta" en inglés (EE.UU.)?',['The check','The menu','The order','The bill (UK)'],0,'En EE.UU. se dice "the check"; en Reino Unido, "the bill". Ambas son correctas.','🍽️ Terminaste de comer y quieres pagar.'],
@@ -372,6 +407,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "camarero"',['Waiter','Menu','Guest','Chef'],0,'"Waiter" (o "server", neutro en género) atiende tu mesa.'],
         ['mcq','Le dices al camarero que tienes una alergia. ¿Qué palabra usas?',['Allergy','Reservation','Bill','Menu'],0,'"I have a nut allergy" avisa de una alergia a los frutos secos, por ejemplo.'],
         ['arrange','Ordena: [please / menu / the / could / I / have]',['Could I have the menu, please','The menu could I have please','Please could the menu I have','Have I could the menu please'],0,'"Could I have the menu, please?" es la forma educada de pedir la carta.'],
+      ["mcq","¿Cómo se dice \"Menú/carta\" en inglés?",["Waiter / Server","Reservation","Bill / Check","Menu"],3,"\"Menú/carta\" se dice \"Menu\" en inglés."],
       ],
     },
     { id:'sit_restaurant_phrases', level:'A1', title:'Frases para pedir', emoji:'💬', xp:25,
@@ -382,6 +418,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I will have the...','Voy a pedir el/la...'],
         ['Does this contain nuts?','¿Esto contiene frutos secos?'],
         ['Could we have the bill, please?','¿Nos trae la cuenta, por favor?'],
+      ], grammar:[
+        ["\"Will\" para decisiones espontáneas","\"Will\" se usa para decidir algo en el momento de hablar, como al pedir comida, a diferencia de un plan ya pensado.","I will have the salmon, please."],
       ]},
       ex:[
         ['mcq','Llegas al restaurante sin reserva. ¿Qué dices primero?',['A table for two, please.','Does this contain nuts?','Could we have the bill?','I will have the pasta.'],0,'Lo primero es pedir mesa antes de sentarte a mirar el menú.','🍽️ Entras al restaurante con un amigo.'],
@@ -389,12 +427,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','Eres alérgico a los frutos secos. ¿Qué preguntas?',['Does this contain nuts?','Is this table free?','Could I see the menu?','Could we have the bill?'],0,'"Does this contain nuts?" confirma si el plato lleva frutos secos.'],
         ['translate','Traduce: "¿Nos trae la cuenta, por favor?"',['Could we have the bill, please?','Could I see the menu, please?','A table for two, please.','Is this seat taken?'],0,'"Could we have the bill, please?" es la forma educada de pedir la cuenta.'],
         ['mcq','El camarero pregunta "Anything to drink?". ¿De qué te pregunta?',['De bebidas','Del postre','De la mesa','De la propina'],0,'"Anything to drink?" = ¿algo para beber?'],
+      ["mcq","¿Cómo se dice \"¿Podría ver el menú, por favor?\" en inglés?",["Could I see the menu, please?","I will have the...","A table for two, please.","Could we have the bill, please?"],0,"\"¿Podría ver el menú, por favor?\" se dice \"Could I see the menu, please?\" en inglés."],
       ],
     },
     { id:'sit_restaurant_dialogue', level:'A1', title:'Diálogo: pedir la cena', emoji:'🗣️', xp:30,
       description:'Sigue un pedido completo de principio a fin.',
       study:{ grammar:[
         ['"I will have..." para pedir comida','Se usa "will have" (no "want") para sonar natural al pedir en un restaurante.','I will have the chicken, please. → Voy a pedir el pollo, por favor.'],
+      ], vocab:[
+        ["Good evening! Do you have a reservation?","¡Buenas noches! ¿Tiene reserva?"],
+        ["Could we have a few more minutes, please?","¿Nos da unos minutos más, por favor?"],
+        ["Anything to drink?","¿Algo de beber?"],
+        ["This is delicious, thank you.","Está delicioso, gracias."],
       ]},
       ex:[
         ['mcq','Camarero: "Good evening! Do you have a reservation?" ¿Qué te está preguntando?',['Si reservaste mesa','Si quieres el menú','Si vas a pagar con tarjeta','Si tienes alergias'],0,'"Do you have a reservation?" pregunta si reservaste con antelación.','🎬 Diálogo — llegas al restaurante por la noche.'],
@@ -402,6 +446,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Camarero: "___ to drink?" Tú: "Just water, please."',['Anything','Something','Nothing','Everything'],0,'"Anything to drink?" es la pregunta estándar sobre bebidas.'],
         ['translate','Traduce: "Está delicioso, gracias."',['This is delicious, thank you.','This is expensive, thank you.','This is cold, thank you.','This is spicy, thank you.'],0,'Un buen cumplido para el chef: "This is delicious, thank you."'],
         ['writing','Escribe un pequeño diálogo (mínimo 25 palabras) donde pides una mesa, eliges un plato y pides la cuenta.',[],['table','menu','order','bill'],'Debe incluir al menos pedir mesa, elegir algo del menú y pedir la cuenta.'],
+      ["mcq","¿Cómo se dice \"¡Buenas noches! ¿Tiene reserva?\" en inglés?",["This is delicious, thank you.","Good evening! Do you have a reservation?","Anything to drink?","Could we have a few more minutes, please?"],1,"\"¡Buenas noches! ¿Tiene reserva?\" se dice \"Good evening! Do you have a reservation?\" en inglés."],
       ],
     },
     { id:'sit_restaurant_allergies', level:'A2', title:'Alergias y preferencias', emoji:'🥜', xp:25,
@@ -413,12 +458,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Dairy','Lácteos'],
         ['Spicy','Picante'],
         ['Ingredients','Ingredientes'],
+      ], grammar:[
+        ["\"To be allergic to\" + sustantivo","La expresión va seguida directamente de un sustantivo o un gerundio, nunca de \"to + infinitivo\".","I am allergic to dairy. / She is allergic to eating nuts."],
       ]},
       ex:[
         ['mcq','Eres alérgico a los lácteos. ¿Qué dices al camarero?',['I am allergic to dairy.','I am vegetarian.','I like spicy food.','I need the bill.'],0,'"I am allergic to dairy" avisa claramente de tu alergia.','🥜 El camarero toma tu pedido.'],
         ['fill','"Is this dish ___-free?" (para saber si no lleva gluten)',['gluten','dairy','spicy','vegan'],0,'"Gluten-free" significa que el plato no contiene gluten.'],
         ['mcq','No comes carne ni pescado, pero sí huevos y queso. ¿Qué eres?',['Vegetarian','Vegan','Allergic','Gluten-free'],0,'"Vegetarian" no come carne ni pescado, pero puede comer lácteos y huevos.'],
         ['translate','Traduce: "¿Cuáles son los ingredientes de este plato?"',['What are the ingredients in this dish?','Is this dish spicy?','Do you have vegan options?','Could I see the menu?'],0,'"What are the ingredients?" pregunta exactamente qué lleva el plato.'],
+      ["mcq","¿Cómo se dice \"Soy alérgico/a a..\" en inglés?",["I am allergic to...","Spicy","Gluten-free","Dairy"],0,"\"Soy alérgico/a a...\" se dice \"I am allergic to...\" en inglés."],
+      ["mcq","¿Cómo se dice \"Vegetariano / Vegano\" en inglés?",["Dairy","Ingredients","Spicy","Vegetarian / Vegan"],3,"\"Vegetariano / Vegano\" se dice \"Vegetarian / Vegan\" en inglés."],
       ],
     },
     { id:'sit_restaurant_complaints', level:'A2', title:'Quejas con el pedido', emoji:'😕', xp:25,
@@ -429,12 +478,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['We have been waiting a long time.','Llevamos mucho tiempo esperando.'],
         ['Could you take this back?','¿Podría llevárselo?'],
         ['undercooked / overcooked','poco hecho / muy hecho'],
+      ], grammar:[
+        ["Presente perfecto continuo: have/has been + -ing","Describe una acción que empezó en el pasado y sigue en curso (o acaba de terminar), con énfasis en la duración.","We have been waiting for 40 minutes."],
       ]},
       ex:[
         ['mcq','Te trajeron un plato distinto al que pediste. ¿Qué dices?',['This is not what I ordered.','This is delicious.','Could I see the menu?','We have a reservation.'],0,'"This is not what I ordered" señala el error con claridad y cortesía.','😕 Miran el plato con confusión.'],
         ['fill','La comida llegó fría. Dices: "Excuse me, this is ___."',['cold','delicious','spicy','fresh'],0,'"This is cold" indica que la comida no está a la temperatura correcta.'],
         ['mcq','Llevas 40 minutos esperando tu pedido. ¿Qué dices al camarero?',['We have been waiting a long time.','This is delicious.','Could I see the menu?','Does this contain nuts?'],0,'"We have been waiting a long time" comunica la demora educadamente.'],
         ['translate','Traduce: "La carne está muy poco hecha."',['The meat is undercooked.','The meat is delicious.','The meat is cold.','The meat is spicy.'],0,'"Undercooked" significa que no está suficientemente cocinado.'],
+      ["mcq","¿Cómo se dice \"Esto está frío\" en inglés?",["This is not what I ordered.","undercooked / overcooked","This is cold.","Could you take this back?"],2,"\"Esto está frío.\" se dice \"This is cold.\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Podría llevárselo?\" en inglés?",["Could you take this back?","This is cold.","We have been waiting a long time.","This is not what I ordered."],0,"\"¿Podría llevárselo?\" se dice \"Could you take this back?\" en inglés."],
       ],
     },
     { id:'sit_restaurant_paying', level:'A2', title:'Pagar la cuenta y propina', emoji:'💳', xp:25,
@@ -445,24 +498,35 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Tip / Gratuity','Propina'],
         ['Is service included?','¿El servicio está incluido?'],
         ['Card / Cash','Tarjeta / Efectivo'],
+      ], grammar:[
+        ["Voz pasiva en preguntas","\"Is/Are + participio\" pregunta si algo ya se incluyó o se hizo, sin necesidad de mencionar quién lo hizo.","Is service included? / Are taxes included in the price?"],
       ]},
       ex:[
         ['mcq','Van varios amigos y quieren pagar cada uno lo suyo. ¿Qué piden?',['Separate checks, please.','A table for two, please.','Is this fresh?','Could I see the menu?'],0,'"Separate checks" pide que cada persona reciba su propia cuenta.','💳 Terminan de comer y llega el camarero.'],
         ['fill','"Can we ___ the bill?" (pagar entre todos a partes iguales)',['split','declare','claim','check'],0,'"Split the bill" significa dividir el total entre todos.'],
         ['mcq','Quieres saber si ya incluye propina antes de dejar más dinero. ¿Qué preguntas?',['Is service included?','Is this table free?','Do you have vegan options?','Is this dish spicy?'],0,'"Is service included?" confirma si la propina ya está en la cuenta.'],
         ['translate','Traduce: "Pagaremos con tarjeta, gracias."',['We will pay by card, thank you.','We will split the bill, thank you.','We will leave a tip, thank you.','We will order more, thank you.'],0,'"Pay by card" indica el método de pago que van a usar.'],
+      ["mcq","¿Cómo se dice \"Dividir la cuenta\" en inglés?",["Tip / Gratuity","Separate checks","Split the bill","Card / Cash"],2,"\"Dividir la cuenta\" se dice \"Split the bill\" en inglés."],
+      ["mcq","¿Cómo se dice \"Cuentas separadas\" en inglés?",["Is service included?","Separate checks","Split the bill","Card / Cash"],1,"\"Cuentas separadas\" se dice \"Separate checks\" en inglés."],
       ],
     },
     { id:'sit_restaurant_recommend', level:'B1', title:'Pedir recomendaciones', emoji:'⭐', xp:30,
       description:'Practica cómo pedir consejo al camarero y decidir qué pedir.',
       study:{ grammar:[
         ['"What would you recommend?" para pedir consejo','Forma natural de pedir la opinión del camarero sobre qué elegir del menú.','What would you recommend for someone who loves spicy food? → ¿Qué recomendaría para alguien a quien le encanta lo picante?'],
+      ], vocab:[
+        ["What would you recommend?","¿Qué recomendaría?"],
+        ["What is the most popular dish here?","¿Cuál es el plato más pedido aquí?"],
+        ["What would you recommend for someone who does not like spicy food?","¿Qué recomendaría para alguien a quien no le gusta lo picante?"],
+        ["I would suggest the grilled salmon.","Le sugeriría el salmón a la plancha."],
       ]},
       ex:[
         ['mcq','No sabes qué pedir y quieres la opinión del camarero. ¿Qué dices?',['What would you recommend?','This is not what I ordered.','Could we have the bill?','Is this table free?'],0,'"What would you recommend?" pide una sugerencia directamente.','⭐ Miras el menú sin decidirte.'],
         ['fill','"What is the ___ dish here?" (el plato más pedido)',['most popular','most expensive','spiciest','freshest'],0,'"Most popular dish" pregunta cuál es el plato favorito de los clientes.'],
         ['translate','Traduce: "¿Qué recomendaría para alguien que no come picante?"',['What would you recommend for someone who does not like spicy food?','What is the most popular dish here?','Is this dish gluten-free?','Could we have separate checks?'],0,'Combina "What would you recommend for someone who...?" con la preferencia.'],
         ['speaking','Simula que le pides consejo al camarero sobre qué plato elegir, mencionando una preferencia o restricción tuya. (mínimo 25 palabras)',[],['recommend','would you','dish'],'Una buena respuesta pide una recomendación y menciona una preferencia clara.'],
+      ["mcq","¿Cómo se dice \"¿Cuál es el plato más pedido aquí?\" en inglés?",["I would suggest the grilled salmon.","What would you recommend for someone who does not like spicy food?","What is the most popular dish here?","What would you recommend?"],2,"\"¿Cuál es el plato más pedido aquí?\" se dice \"What is the most popular dish here?\" en inglés."],
+      ["mcq","¿Cómo se dice \"Le sugeriría el salmón a la plancha\" en inglés?",["What would you recommend for someone who does not like spicy food?","What would you recommend?","What is the most popular dish here?","I would suggest the grilled salmon."],3,"\"Le sugeriría el salmón a la plancha.\" se dice \"I would suggest the grilled salmon.\" en inglés."],
       ],
     },
   {
@@ -510,6 +574,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “This full-bodied red will ___ the main course perfectly.”",["complement", "book", "request", "celebrate"],0,"“To complement” significa resaltar/combinar bien con algo."],
       ["translate","Traduce: “¿Podría recomendarnos un maridaje para este plato?”",["Could you recommend a wine pairing for this dish?", "Could you complement the sommelier?", "Could you book a table for this dish?", "Could you recommend a tasting menu for this wine?"],0,"“Wine pairing” es el maridaje entre un vino y un plato."],
       ["arrange","Ordena: [menu / like / a / would / tasting / we]",["like We tasting would menu a", "would menu a We like tasting", "We would like a tasting menu", "a would like We tasting menu"],2,"Sujeto + “would like” + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"maridaje de vinos\" en inglés?",["wine pairing","a tasting menu","a full-bodied red","the sommelier's recommendation"],0,"\"maridaje de vinos\" se dice \"wine pairing\" en inglés."],
     ]
   },
   {
@@ -620,6 +685,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Front desk','Recepción'],
         ['Wake-up call','Llamada para despertar'],
         ['Towel','Toalla'],
+      ], grammar:[
+        ["\"Have\" para reservas y posesión","\"Have\" indica que algo ya existe a tu nombre, como una reserva, sin usar \"there is\".","I have a reservation under my name."],
       ]},
       ex:[
         ['mcq','¿Dónde pides ayuda en un hotel?',['Front desk','Gate','Menu','Checkpoint'],0,'"Front desk" es la recepción del hotel.','🏨 Llegas al lobby del hotel.'],
@@ -627,6 +694,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "tarjeta de la habitación"',['Key card','Front desk','Wake-up call','Reservation'],0,'La "key card" abre la puerta de tu habitación.'],
         ['mcq','Quieres que te despierten a las 7am. ¿Qué pides?',['A wake-up call','A key card','A reservation','A towel'],0,'"A wake-up call" es una llamada del hotel para despertarte.'],
         ['arrange','Ordena: [is / what / time / check-out]',['What time is check-out','Check-out is what time','Time what is check-out','Is what time check-out'],0,'"What time is check-out?" pregunta la hora límite para dejar la habitación.'],
+      ["mcq","¿Cómo se dice \"Entrada / Salida\" en inglés?",["Towel","Check-in / Check-out","Front desk","Wake-up call"],1,"\"Entrada / Salida\" se dice \"Check-in / Check-out\" en inglés."],
       ],
     },
     { id:'sit_hotel_phrases', level:'A1', title:'Frases para el check-in', emoji:'💬', xp:25,
@@ -637,6 +705,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Could I have an extra towel?','¿Podría darme una toalla extra?'],
         ['Is breakfast included?','¿El desayuno está incluido?'],
         ['There is a problem with my room.','Hay un problema con mi habitación.'],
+      ], grammar:[
+        ["\"There is / There are\"","Se usa para decir que algo existe o hay un problema, sin que ese algo sea el sujeto principal de la frase.","There is a problem with my room. / There are two towels missing."],
       ]},
       ex:[
         ['mcq','Llegas a recepción para el check-in. ¿Qué dices primero?',['I have a reservation under my name.','There is a problem with my room.','What time is breakfast?','Could I have a towel?'],0,'Primero confirmas tu reserva para que te den la llave.','🏨 Llegas a la recepción del hotel.'],
@@ -644,12 +714,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','El aire acondicionado no funciona. ¿Qué dices?',['There is a problem with my room.','What time is breakfast?','I have a reservation.','Could I have a towel?'],0,'Es la frase correcta para reportar un problema en la habitación.'],
         ['translate','Traduce: "¿Podría darme una toalla extra?"',['Could I have an extra towel, please?','Could I have a wake-up call?','Is breakfast included?','What time is check-out?'],0,'"Could I have...?" es la forma educada de pedir algo extra.'],
         ['mcq','Recepcionista: "Breakfast is from 7 to 10 in the lobby." ¿Qué acabas de entender?',['El horario y lugar del desayuno','El precio de la habitación','La hora de check-out','Tu número de habitación'],0,'Te está dando el horario (7 a 10) y el lugar (el lobby).'],
+      ["mcq","¿Cómo se dice \"¿A qué hora es el desayuno?\" en inglés?",["Could I have an extra towel?","What time is breakfast?","Is breakfast included?","I have a reservation under my name."],1,"\"¿A qué hora es el desayuno?\" se dice \"What time is breakfast?\" en inglés."],
       ],
     },
     { id:'sit_hotel_dialogue', level:'A1', title:'Diálogo: en recepción', emoji:'🗝️', xp:30,
       description:'Practica un check-in completo con imprevistos.',
       study:{ grammar:[
         ['"There is / There are" para describir problemas','"There is" + singular, "There are" + plural. Útil para reportar algo que falta o no funciona.','There is a problem with the shower. → Hay un problema con la ducha.'],
+      ], vocab:[
+        ["Welcome! Do you have a reservation?","¡Bienvenido! ¿Tiene reserva?"],
+        ["Yes, I have a reservation under my name.","Sí, tengo una reserva a mi nombre."],
+        ["Here is your key card. Breakfast is from 7 to 10.","Aquí tiene su tarjeta. El desayuno es de 7 a 10."],
+        ["There is a problem with the shower.","Hay un problema con la ducha."],
       ]},
       ex:[
         ['mcq','Recepcionista: "Welcome! Do you have a reservation?" Tú respondes que sí, a tu nombre. ¿Qué dices?',['Yes, I have a reservation under my name.','No, I would like the menu.','Yes, this is delicious.','No, I need a doctor.'],0,'Confirmas la reserva usando "under my name".','🎬 Diálogo — check-in en el hotel.'],
@@ -657,6 +733,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','En la habitación notas que falta jabón. Dices: "___ no soap in the bathroom."',['There is','There are','It has','I have'],0,'"There is no soap" — "soap" es incontable, por eso usamos "there is".'],
         ['translate','Traduce: "Hay un problema con la ducha."',['There is a problem with the shower.','There are two towels.','I have a reservation.','Is breakfast included?'],0,'"There is a problem with the shower" reporta el inconveniente correctamente.'],
         ['speaking','Simula que llegas a recepción: confirma tu reserva, pregunta el horario de desayuno y pide una toalla extra. (mínimo 25 palabras)',[],['reservation','breakfast','towel'],'Una buena respuesta incluye la reserva, el desayuno y la toalla extra.'],
+      ["mcq","¿Cómo se dice \"¡Bienvenido! ¿Tiene reserva?\" en inglés?",["Welcome! Do you have a reservation?","Here is your key card. Breakfast is from 7 to 10.","There is a problem with the shower.","Yes, I have a reservation under my name."],0,"\"¡Bienvenido! ¿Tiene reserva?\" se dice \"Welcome! Do you have a reservation?\" en inglés."],
       ],
     },
     { id:'sit_hotel_services', level:'A2', title:'Servicios del hotel', emoji:'🏊', xp:25,
@@ -668,12 +745,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Laundry service','Servicio de lavandería'],
         ['Wi-Fi password','Contraseña del wifi'],
         ['Parking','Estacionamiento'],
+      ], grammar:[
+        ["\"Could I...?\" para peticiones corteses","\"Could\" (no \"can\") suaviza una petición y la hace más educada, ideal para pedir servicios.","Could I get the Wi-Fi password? / Could I have an extra towel?"],
       ]},
       ex:[
         ['mcq','Quieres nadar antes de cenar. ¿Qué preguntas?',['What time does the pool close?','What time is check-out?','Do you have room service?','Is there parking?'],0,'Preguntas por el horario de la piscina para planear tu tarde.','🏊 Miras el folleto de servicios del hotel.'],
         ['fill','"Could I get the Wi-Fi ___?"',['password','service','parking','laundry'],0,'"Wi-Fi password" es la contraseña para conectarte a internet.'],
         ['mcq','Quieres comer en tu habitación sin bajar al restaurante. ¿Qué pides?',['Room service','Laundry service','Parking','Gym access'],0,'"Room service" es el servicio de comida directamente en tu habitación.'],
         ['translate','Traduce: "¿Hay estacionamiento disponible?"',['Is there parking available?','Is there a pool?','Is there room service?','Is there a gym?'],0,'"Is there parking available?" pregunta por espacio para el auto.'],
+      ["mcq","¿Cómo se dice \"Gimnasio\" en inglés?",["Gym","Parking","Wi-Fi password","Laundry service"],0,"\"Gimnasio\" se dice \"Gym\" en inglés."],
+      ["mcq","¿Cómo se dice \"Piscina\" en inglés?",["Gym","Pool","Wi-Fi password","Laundry service"],1,"\"Piscina\" se dice \"Pool\" en inglés."],
       ],
     },
     { id:'sit_hotel_complaints', level:'A2', title:'Quejas y problemas', emoji:'🔧', xp:25,
@@ -684,12 +765,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['It is too noisy.','Hay demasiado ruido.'],
         ['Could you send someone to fix it?','¿Podría enviar a alguien a arreglarlo?'],
         ['Could I change rooms?','¿Podría cambiar de habitación?'],
+      ], grammar:[
+        ["Presente continuo para problemas temporales","\"Be + -ing\" describe algo que está pasando ahora mismo o un problema puntual, no un hecho permanente.","The AC is not working. / The shower is leaking."],
       ]},
       ex:[
         ['mcq','Hace mucho calor y el aire acondicionado no enfría. ¿Qué dices?',['The AC is not working.','The room is dirty.','It is too noisy.','Could I change rooms?'],0,'"The AC is not working" reporta el problema exacto.','🔧 Llamas a recepción desde tu habitación.'],
         ['fill','"Could you send someone to ___ it?" (arreglar algo roto)',['fix','clean','change','book'],0,'"Fix it" pide que reparen lo que está fallando.'],
         ['mcq','Los vecinos hacen mucho ruido y no puedes dormir. ¿Qué dices?',['It is too noisy.','The room is dirty.','The AC is not working.','Could I get the Wi-Fi password?'],0,'"It is too noisy" comunica el problema del ruido.'],
         ['translate','Traduce: "¿Podría cambiarme de habitación, por favor?"',['Could I change rooms, please?','Could I get room service, please?','Could I have a wake-up call, please?','Could I use the pool, please?'],0,'"Could I change rooms?" pide una habitación diferente.'],
+      ["mcq","¿Cómo se dice \"La habitación está sucia\" en inglés?",["Could I change rooms?","The room is dirty.","The AC is not working.","It is too noisy."],1,"\"La habitación está sucia.\" se dice \"The room is dirty.\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Podría enviar a alguien a arreglarlo?\" en inglés?",["The room is dirty.","Could you send someone to fix it?","The AC is not working.","It is too noisy."],1,"\"¿Podría enviar a alguien a arreglarlo?\" se dice \"Could you send someone to fix it?\" en inglés."],
       ],
     },
     { id:'sit_hotel_checkout', level:'A2', title:'Check-out y cargos extra', emoji:'🧾', xp:25,
@@ -700,24 +785,35 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Minibar','Minibar'],
         ['Late check-out','Salida tardía'],
         ['Receipt','Recibo'],
+      ], grammar:[
+        ["\"Think there is\" + problema","Para señalar con cortesía un posible error, se suaviza la afirmación con \"I think\".","I think there is a mistake on my bill."],
       ]},
       ex:[
         ['mcq','Ves un cargo que no reconoces en tu cuenta. ¿Qué dices?',['What is this extra charge for?','Could I have a wake-up call?','Is breakfast included?','Could I change rooms?'],0,'"What is this extra charge for?" pide una explicación del cargo.','🧾 Revisas la cuenta antes de pagar.'],
         ['fill','"Could I get a ___?" (para tener comprobante del pago)',['receipt','minibar','check-out','password'],0,'"Receipt" es el comprobante o recibo del pago.'],
         ['mcq','Quieres salir más tarde de lo normal sin pagar de más. ¿Qué pides?',['Late check-out','Room service','Extra towel','Wi-Fi password'],0,'"Late check-out" es salir más tarde de la hora habitual.'],
         ['translate','Traduce: "Creo que hay un error en mi cuenta."',['I think there is a mistake on my bill.','I think the room is dirty.','I think breakfast is included.','I think I need a taxi.'],0,'"There is a mistake on my bill" señala un posible error en el cobro.'],
+      ["mcq","¿Cómo se dice \"Cuenta final\" en inglés?",["Late check-out","Minibar","Final bill","Receipt"],2,"\"Cuenta final\" se dice \"Final bill\" en inglés."],
+      ["mcq","¿Cómo se dice \"Cargo adicional\" en inglés?",["Extra charge","Late check-out","Final bill","Receipt"],0,"\"Cargo adicional\" se dice \"Extra charge\" en inglés."],
       ],
     },
     { id:'sit_hotel_local', level:'B1', title:'Recomendaciones locales', emoji:'🗺️', xp:30,
       description:'Practica cómo pedir consejos sobre qué hacer en la ciudad.',
       study:{ grammar:[
         ['"Could you recommend...?" para pedir sugerencias','Forma educada de pedir consejo sobre lugares, restaurantes o actividades cercanas.','Could you recommend a good restaurant nearby? → ¿Podría recomendarme un buen restaurante cerca?'],
+      ], vocab:[
+        ["Could you recommend a good restaurant nearby?","¿Podría recomendarme un buen restaurante cerca?"],
+        ["How do I get to downtown?","¿Cómo llego al centro?"],
+        ["What should I visit if I only have one day?","¿Qué debería visitar si solo tengo un día?"],
+        ["It is within walking distance.","Está a poca distancia andando."],
       ]},
       ex:[
         ['mcq','Quieres cenar bien esta noche cerca del hotel. ¿Qué preguntas en recepción?',['Could you recommend a good restaurant nearby?','Could I change rooms?','Is the pool open?','What is this extra charge?'],0,'"Could you recommend...?" pide una sugerencia directamente.','🗺️ Preguntas en recepción sobre la ciudad.'],
         ['fill','"How do I get ___ downtown?" (al centro de la ciudad)',['to','from','at','on'],0,'"Get to downtown" significa llegar al centro de la ciudad.'],
         ['translate','Traduce: "¿Qué debería visitar si solo tengo un día?"',['What should I visit if I only have one day?','What time does the pool close?','Could I get a receipt?','Is there parking available?'],0,'Pregunta por recomendaciones ajustadas al tiempo disponible.'],
         ['speaking','Simula que le pides al recepcionista una recomendación de un lugar para visitar y cómo llegar. (mínimo 25 palabras)',[],['recommend','how do I get','nearby'],'Una buena respuesta pide una recomendación y pregunta cómo llegar.'],
+      ["mcq","¿Cómo se dice \"¿Cómo llego al centro?\" en inglés?",["Could you recommend a good restaurant nearby?","It is within walking distance.","How do I get to downtown?","What should I visit if I only have one day?"],2,"\"¿Cómo llego al centro?\" se dice \"How do I get to downtown?\" en inglés."],
+      ["mcq","¿Cómo se dice \"Está a poca distancia andando\" en inglés?",["Could you recommend a good restaurant nearby?","It is within walking distance.","How do I get to downtown?","What should I visit if I only have one day?"],1,"\"Está a poca distancia andando.\" se dice \"It is within walking distance.\" en inglés."],
       ],
     },
   {
@@ -765,6 +861,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “The amenities aren't as ___ on the website.”",["expectations", "advertised", "disconnecting", "service"],1,"“As advertised” significa “como se anuncia”."],
       ["translate","Traduce: “El gimnasio no está a la altura de lo que esperábamos.”",["The gym is exactly as advertised.", "The gym falls short of what we expected.", "The gym keeps disconnecting from expectations.", "The gym is out of service today."],1,"“To fall short of expectations” es no cumplir lo esperado."],
       ["arrange","Ordena: [out / pool / is / of / the / service]",["The pool is out of service", "pool The of service is out", "is The service out pool of", "of service out pool The is"],0,"Sujeto + verbo + “out of service”."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anuncian\" en inglés?",["the amenities aren't as advertised","access to the gym and spa","the pool is out of service","the wifi keeps disconnecting"],0,"\"las instalaciones no son como se anuncian\" se dice \"the amenities aren't as advertised\" en inglés."],
     ]
   },
   {
@@ -812,6 +909,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “Could you please bill this to my company ___?”",["rate", "receipt", "account", "room"],2,"“To bill it to the company account” es cargar el gasto a la empresa."],
       ["translate","Traduce: “¿Podría darme un recibo detallado para mi empresa?”",["Could I work remotely from the business center?", "Could I get an itemized receipt for my company?", "Could I get a corporate rate for my room?", "Could I bill the meeting room to my account?"],1,"“Itemized receipt” es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [account / bill / to / this / please / my]",["my account to this bill Please", "bill account my this Please to", "this account to Please my bill", "Please bill this to my account"],3,"“Please bill” + objeto + “to my account”."],
+    ["mcq","¿Cómo se dice \"facturarlo a la cuenta de la empresa\" en inglés?",["to work remotely from the business center","an itemized receipt","a meeting room with a projector","to bill it to the company account"],3,"\"facturarlo a la cuenta de la empresa\" se dice \"to bill it to the company account\" en inglés."],
     ]
   },
   {
@@ -874,6 +972,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Kilogram / pound','Kilogramo / libra'],
         ['Cash / Card','Efectivo / tarjeta'],
         ['Bargain','Negociar el precio / ganga'],
+      ], grammar:[
+        ["\"How much\" con sustantivos incontables","\"How much\" se usa para preguntar cantidad o precio con sustantivos incontables (como el dinero); \"how many\" se usa con contables.","How much does this cost? / How many kilos do you want?"],
       ]},
       ex:[
         ['mcq','¿Cómo preguntas el precio de algo?',['How much does this cost?','Is this fresh?','Do you accept cards?','Could I have a bag?'],0,'"How much does this cost?" es la pregunta directa por el precio.','🛒 Estás frente a un puesto de frutas.'],
@@ -881,6 +981,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "un kilo de tomates"',['A kilogram of tomatoes','A price of tomatoes','A discount on tomatoes','A bargain of tomatoes'],0,'"A kilogram of..." indica la cantidad que quieres comprar.'],
         ['mcq','El vendedor te ofrece bajar el precio. ¿Qué palabra usó probablemente?',['Discount','Fresh','Cash','Bargain (verbo)'],0,'"Discount" significa descuento sobre el precio original.'],
         ['arrange','Ordena: [me / could / a / discount / give / you]',['Could you give me a discount','You could give me a discount','Discount could you give me','Give me a discount could you'],0,'"Could you give me a discount?" es la forma educada de pedir rebaja.'],
+      ["mcq","¿Cómo se dice \"Precio\" en inglés?",["Cash / Card","Bargain","Price","Discount"],2,"\"Precio\" se dice \"Price\" en inglés."],
       ],
     },
     { id:'sit_market_phrases', level:'A2', title:'Frases para comprar', emoji:'💬', xp:25,
@@ -891,6 +992,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I would like two kilos, please.','Quisiera dos kilos, por favor.'],
         ['Do you accept cards?','¿Acepta tarjeta?'],
         ['Is this fresh?','¿Esto está fresco?'],
+      ], grammar:[
+        ["\"Would like\" frente a \"want\"","\"Would like\" es la forma educada de pedir algo; \"want\" es más directo y menos formal, aunque también correcto.","I would like two kilos, please."],
       ]},
       ex:[
         ['mcq','Quieres saber si la fruta llegó hoy. ¿Qué preguntas?',['Is this fresh?','Do you accept cards?','How much does this cost?','I would like two kilos.'],0,'"Is this fresh?" pregunta directamente por la frescura del producto.','🛒 Miras una caja de fresas.'],
@@ -898,12 +1001,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','El vendedor dice el precio y te parece alto. ¿Qué le dices?',['Could you give me a discount?','Is this fresh?','Do you accept cards?','I would like two kilos.'],0,'Pides amablemente un descuento con "Could you give me a discount?"'],
         ['translate','Traduce: "¿Acepta tarjeta?"',['Do you accept cards?','Is this fresh?','How much does this cost?','Could I have a bag?'],0,'"Do you accept cards?" confirma el método de pago.'],
         ['mcq','Vendedor: "That will be five dollars." ¿Qué te está diciendo?',['El precio total','El descuento','La cantidad disponible','La hora de cierre'],0,'"That will be five dollars" indica cuánto debes pagar.'],
+      ["mcq","¿Cómo se dice \"¿Cuánto cuesta esto?\" en inglés?",["Is this fresh?","Could you give me a discount?","I would like two kilos, please.","How much does this cost?"],3,"\"¿Cuánto cuesta esto?\" se dice \"How much does this cost?\" en inglés."],
       ],
     },
     { id:'sit_market_dialogue', level:'A2', title:'Diálogo: en el puesto', emoji:'🗣️', xp:30,
       description:'Negocia un precio de principio a fin.',
       study:{ grammar:[
         ['Cantidades con "a kilo of / a bag of"','Para pedir cantidades usa "a [cantidad] of [producto]".','A kilo of apples, two bags of rice.'],
+      ], vocab:[
+        ["These tomatoes are very fresh today.","Estos tomates están muy frescos hoy."],
+        ["I would like two kilos, please.","Quisiera dos kilos, por favor."],
+        ["Could you give me a discount for two kilos?","¿Podría hacerme un descuento por dos kilos?"],
+        ["That is five dollars in total.","Son cinco dólares en total."],
       ]},
       ex:[
         ['mcq','Vendedor: "These tomatoes are very fresh today." ¿Qué te dice?',['Que los tomates son frescos','Que los tomates son caros','Que no quedan tomates','Que hay descuento'],0,'"Very fresh today" resalta la frescura del producto.','🎬 Diálogo — señalas los tomates.'],
@@ -911,6 +1020,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Regateando, dices: "___ you give me a discount for two kilos?"',['Could','Is','Do','Have'],0,'"Could you give me a discount...?" es la forma educada de negociar.'],
         ['translate','Traduce: "Son cinco dólares en total."',['That is five dollars in total.','That is five kilos in total.','That is a discount of five.','That is fresh for five.'],0,'"That is five dollars in total" confirma el total a pagar.'],
         ['writing','Escribe un diálogo corto (mínimo 25 palabras) donde preguntas el precio, pides una cantidad y negocias un descuento.',[],['price','kilo','discount'],'Debe incluir preguntar el precio, pedir una cantidad y negociar.'],
+      ["mcq","¿Cómo se dice \"Estos tomates están muy frescos hoy\" en inglés?",["Could you give me a discount for two kilos?","That is five dollars in total.","I would like two kilos, please.","These tomatoes are very fresh today."],3,"\"Estos tomates están muy frescos hoy.\" se dice \"These tomatoes are very fresh today.\" en inglés."],
       ],
     },
     { id:'sit_market_products', level:'A2', title:'Productos y sustitutos', emoji:'🔍', xp:25,
@@ -921,12 +1031,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Is there anything similar?','¿Hay algo parecido?'],
         ['Ripe / Unripe','Maduro / Verde (sin madurar)'],
         ['Organic','Orgánico'],
+      ], grammar:[
+        ["\"Any\" en preguntas y negaciones","\"Any\" se usa en preguntas y frases negativas con sustantivos contables e incontables; \"some\" se usa en afirmaciones.","Do you have any mangoes? / There isn't any left."],
       ]},
       ex:[
         ['mcq','Buscas un producto específico que no ves en el puesto. ¿Qué preguntas?',['Do you have any mangoes?','How much does this cost?','Is this fresh?','Do you accept cards?'],0,'"Do you have...?" pregunta directamente si tienen ese producto.','🔍 Buscas un producto en el mercado.'],
         ['fill','El vendedor dice que ya no le queda. Usa la palabra: "___ of stock."',['Out','In','On','At'],0,'"Out of stock" significa que se acabó el producto.'],
         ['mcq','No encuentran lo que buscas, pero quieres una alternativa parecida. ¿Qué preguntas?',['Is there anything similar?','Is this organic?','Is this ripe?','How much is this?'],0,'"Is there anything similar?" pide una alternativa parecida.'],
         ['translate','Traduce: "¿Este aguacate está maduro?"',['Is this avocado ripe?','Is this avocado organic?','Is this avocado fresh?','Is this avocado cheap?'],0,'"Ripe" describe una fruta lista para comer.'],
+      ["mcq","¿Cómo se dice \"¿Tiene...?\" en inglés?",["Out of stock","Is there anything similar?","Do you have...?","Ripe / Unripe"],2,"\"¿Tiene...?\" se dice \"Do you have...?\" en inglés."],
+      ["mcq","¿Cómo se dice \"Agotado\" en inglés?",["Is there anything similar?","Ripe / Unripe","Out of stock","Organic"],2,"\"Agotado\" se dice \"Out of stock\" en inglés."],
       ],
     },
     { id:'sit_market_returns', level:'A2', title:'Quejas y devoluciones', emoji:'↩️', xp:25,
@@ -937,12 +1051,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Could I exchange this?','¿Podría cambiar esto?'],
         ['It is broken / damaged.','Está roto / dañado.'],
         ['Receipt','Recibo'],
+      ], grammar:[
+        ["\"Could\" para pedir una solución","\"Could I get...?\" pide algo (un reembolso, un cambio) de forma educada, sin sonar exigente.","Could I get a refund? / Could I exchange this?"],
       ]},
       ex:[
         ['mcq','Compraste fruta y al llegar a casa está en mal estado. ¿Qué dirías si regresas?',['This is not fresh.','This is a discount.','This is organic.','This is ripe.'],0,'"This is not fresh" señala el problema del producto.','↩️ Vuelves al puesto con la bolsa de compra.'],
         ['fill','"Could I get a ___?" (que te devuelvan el dinero)',['refund','discount','receipt','bag'],0,'"Refund" significa que te devuelvan el dinero pagado.'],
         ['mcq','Prefieres cambiar el producto por otro en vez de que te devuelvan el dinero. ¿Qué pides?',['Could I exchange this?','Could I get a refund?','Is this organic?','Do you have mangoes?'],0,'"Exchange" significa cambiar un producto por otro.'],
         ['translate','Traduce: "¿Tiene el recibo de la compra?"',['Do you have the receipt?','Do you have any mangoes?','Do you have a discount?','Do you have a bag?'],0,'El recibo suele pedirse para procesar una devolución o cambio.'],
+      ["mcq","¿Cómo se dice \"¿Podría darme un reembolso?\" en inglés?",["Could I exchange this?","This is not fresh.","Could I get a refund?","Receipt"],2,"\"¿Podría darme un reembolso?\" se dice \"Could I get a refund?\" en inglés."],
+      ["mcq","¿Cómo se dice \"Está roto / dañado\" en inglés?",["Receipt","Could I get a refund?","This is not fresh.","It is broken / damaged."],3,"\"Está roto / dañado.\" se dice \"It is broken / damaged.\" en inglés."],
       ],
     },
     { id:'sit_market_payment', level:'A2', title:'Formas de pago', emoji:'💰', xp:25,
@@ -953,24 +1071,35 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Small bills','Billetes pequeños'],
         ['Contactless payment','Pago sin contacto'],
         ['Receipt, please.','El recibo, por favor.'],
+      ], grammar:[
+        ["\"Do you have\" + sustantivo incontable","\"Change\" (cambio/vuelto) es incontable en inglés, así que nunca lleva \"a\" ni plural.","Do you have change for a large bill?"],
       ]},
       ex:[
         ['mcq','El vendedor no acepta tarjeta. ¿Qué te dice?',['Cash only, please.','Card only, please.','Contactless only, please.','Discount only, please.'],0,'"Cash only" significa que solo aceptan pago en efectivo.','💰 Vas a pagar tu compra.'],
         ['fill','Pagas con un billete grande y preguntas: "Do you have ___?" (dinero de vuelta)',['change','cash','discount','receipt'],0,'"Change" es el dinero de vuelta cuando pagas con un billete grande.'],
         ['mcq','No tienes billetes pequeños y preguntas si hay problema. ¿Qué dices?',['I only have large bills, is that OK?','I only have small bills, is that OK?','I only have cards, is that OK?','I only have coins, is that OK?'],0,'Avisas de que solo tienes billetes grandes antes de pagar.'],
         ['translate','Traduce: "¿Puedo pagar sin contacto?"',['Can I pay contactless?','Can I pay in cash?','Can I get a discount?','Can I get a refund?'],0,'"Pay contactless" se refiere a pagar acercando la tarjeta o el teléfono.'],
+      ["mcq","¿Cómo se dice \"Solo efectivo\" en inglés?",["Receipt, please.","Cash only","Contactless payment","Small bills"],1,"\"Solo efectivo\" se dice \"Cash only\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Tiene cambio?\" en inglés?",["Cash only","Do you have change?","Small bills","Receipt, please."],1,"\"¿Tiene cambio?\" se dice \"Do you have change?\" en inglés."],
       ],
     },
     { id:'sit_market_directions', level:'B1', title:'Indicaciones en el mercado', emoji:'🧭', xp:30,
       description:'Practica cómo orientarte dentro de un mercado grande.',
       study:{ grammar:[
         ['Preposiciones de lugar: "next to", "across from", "at the end of"','Se usan para explicar dónde está algo dentro de un espacio grande como un mercado.','The fish stand is next to the bakery. → El puesto de pescado está junto a la panadería.'],
+      ], vocab:[
+        ["Where can I find the spice stand?","¿Dónde puedo encontrar el puesto de especias?"],
+        ["It is next to the bakery.","Está al lado de la panadería."],
+        ["It is at the end of this aisle.","Está al final de este pasillo."],
+        ["Keep going straight and turn left.","Siga recto y gire a la izquierda."],
       ]},
       ex:[
         ['mcq','No encuentras el puesto de especias. ¿Qué preguntas?',['Where can I find the spice stand?','How much does this cost?','Do you have change?','Is this organic?'],0,'"Where can I find...?" pregunta la ubicación de algo dentro del mercado.','🧭 Caminas entre los puestos buscando algo.'],
         ['fill','Te indican: "It is ___ to the bakery." (justo al lado)',['next','across','end','between'],0,'"Next to" significa justo al lado de algo.'],
         ['translate','Traduce: "Está al final de este pasillo."',['It is at the end of this aisle.','It is next to the entrance.','It is across from the exit.','It is between two stands.'],0,'"At the end of this aisle" indica que está al final del pasillo.'],
         ['speaking','Simula que preguntas cómo llegar a un puesto específico dentro del mercado y confirmas que entendiste bien las indicaciones. (mínimo 25 palabras)',[],['where can I find','next to','thank you'],'Una buena respuesta pregunta la ubicación y confirma haber entendido.'],
+      ["mcq","¿Cómo se dice \"Está al lado de la panadería\" en inglés?",["It is next to the bakery.","It is at the end of this aisle.","Keep going straight and turn left.","Where can I find the spice stand?"],0,"\"Está al lado de la panadería.\" se dice \"It is next to the bakery.\" en inglés."],
+      ["mcq","¿Cómo se dice \"Siga recto y gire a la izquierda\" en inglés?",["Where can I find the spice stand?","It is at the end of this aisle.","It is next to the bakery.","Keep going straight and turn left."],3,"\"Siga recto y gire a la izquierda.\" se dice \"Keep going straight and turn left.\" en inglés."],
       ],
     },
   {
@@ -1042,6 +1171,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “The more you order, the bigger the ___.”",["quantity", "delivery", "price", "discount"],3,"“The more..., the bigger the discount” expresa proporcionalidad."],
       ["translate","Traduce: “¿La entrega está incluida en el precio al por mayor?”",["Is delivery included in the wholesale price?", "Is the recurring order included in delivery?", "Is the minimum order included in the price?", "Is the bulk discount included in the delivery?"],0,"“Included in the wholesale price” pregunta si el envío está cubierto."],
       ["arrange","Ordena: [order / recurring / a / to / place / want / I]",["I want to place a recurring order", "want to a I order recurring place", "I order to recurring want place a", "I place recurring want order to a"],0,"“I want to place” + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer un pedido recurrente\" en inglés?",["to place a recurring order","the minimum order quantity","delivery included","a wholesale price"],0,"\"hacer un pedido recurrente\" se dice \"to place a recurring order\" en inglés."],
     ]
   },
   {
@@ -1128,6 +1258,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Prescription','Receta médica'],
         ['Allergic','Alérgico/a'],
         ['Emergency','Emergencia'],
+      ], grammar:[
+        ["\"Have\" para describir síntomas","En inglés los síntomas se describen con \"have\", no con un verbo equivalente a \"doler\" como en español.","I have a headache. / I have a fever."],
       ]},
       ex:[
         ['mcq','¿Cómo dirías que tienes dolor de cabeza?',['I have a headache.','I have an appointment.','I have a prescription.','I have an emergency.'],0,'"Headache" es dolor de cabeza; se usa con "I have a...".','🏥 Llegas a la recepción del hospital.'],
@@ -1135,6 +1267,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "receta médica"',['Prescription','Appointment','Symptom','Pain'],0,'"Prescription" es lo que el médico te da para comprar medicinas.'],
         ['mcq','Eres alérgico a la penicilina. ¿Qué dices?',['I am allergic to penicillin.','I have an appointment.','This is an emergency.','I need a prescription.'],0,'"I am allergic to..." avisa de una alergia específica.'],
         ['arrange','Ordena: [is / this / an / emergency]',['Is this an emergency','This an emergency is','Emergency this is an','An emergency is this'],0,'"Is this an emergency?" pregunta si la situación requiere atención inmediata.'],
+      ["mcq","¿Cómo se dice \"Síntoma\" en inglés?",["Emergency","Symptom","Appointment","Pain"],1,"\"Síntoma\" se dice \"Symptom\" en inglés."],
       ],
     },
     { id:'sit_hospital_phrases', level:'A2', title:'Frases para describir síntomas', emoji:'💬', xp:25,
@@ -1145,6 +1278,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I am allergic to this medicine.','Soy alérgico/a a esta medicina.'],
         ['How often should I take this?','¿Cada cuánto debo tomar esto?'],
         ['Is this an emergency?','¿Esto es una emergencia?'],
+      ], grammar:[
+        ["Presente perfecto + \"for\" (duración)","\"Have/has + participio + for\" indica cuánto tiempo lleva pasando algo, desde el pasado hasta ahora.","I have had this pain for two days."],
       ]},
       ex:[
         ['mcq','Llegas a recepción sintiéndote mal. ¿Qué dices primero?',['I need to see a doctor.','How often should I take this?','Is this an emergency?','I am allergic to this medicine.'],0,'Es la frase inicial más natural para pedir atención médica.','🏥 Entras al hospital sintiéndote mal.'],
@@ -1152,12 +1287,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','El médico te da un medicamento nuevo. ¿Qué preguntas antes de tomarlo si eres alérgico a algo?',['I am allergic to this medicine.','I need to see a doctor.','Is this an emergency?','How often should I take this?'],0,'Avisas de la alergia ANTES de tomar cualquier medicamento nuevo.'],
         ['translate','Traduce: "¿Cada cuánto debo tomar esto?"',['How often should I take this?','How much does this cost?','Is this an emergency?','Do you accept cards?'],0,'"How often should I take this?" pregunta la frecuencia del medicamento.'],
         ['mcq','El médico dice "Take one pill every eight hours." ¿Qué acabas de entender?',['La frecuencia del medicamento','El precio del medicamento','La fecha de tu próxima cita','El nombre del medicamento'],0,'"Every eight hours" indica cada cuánto tiempo debes tomarlo.'],
+      ["mcq","¿Cómo se dice \"Tengo este dolor desde hace dos días\" en inglés?",["I have had this pain for two days.","I need to see a doctor.","Is this an emergency?","I am allergic to this medicine."],0,"\"Tengo este dolor desde hace dos días.\" se dice \"I have had this pain for two days.\" en inglés."],
       ],
     },
     { id:'sit_hospital_dialogue', level:'A2', title:'Diálogo: en recepción', emoji:'🗣️', xp:30,
       description:'Sigue una consulta sencilla de principio a fin.',
       study:{ grammar:[
         ['Present perfect para síntomas: "I have had..."','Se usa para algo que empezó en el pasado y sigue ahora. Muy común al describir síntomas.','I have had a fever since yesterday. → Tengo fiebre desde ayer.'],
+      ], vocab:[
+        ["What seems to be the problem?","¿Cuál es el problema?"],
+        ["I have had a headache since yesterday.","Tengo dolor de cabeza desde ayer."],
+        ["Are you allergic to any medication?","¿Es usted alérgico a algún medicamento?"],
+        ["I need to see a doctor, please.","Necesito ver a un médico, por favor."],
       ]},
       ex:[
         ['mcq','Recepcionista: "What seems to be the problem?" ¿Qué te está preguntando?',['Cuál es tu síntoma o molestia','Tu nombre completo','Tu número de seguro','Tu hora de cita'],0,'"What seems to be the problem?" pregunta por tu malestar.','🎬 Diálogo — te reciben en el hospital.'],
@@ -1165,6 +1306,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','El médico pregunta: "Are you ___ to any medication?"',['allergic','emergency','symptom','appointment'],0,'"Are you allergic to...?" pregunta por alergias antes de recetar.'],
         ['translate','Traduce: "Necesito ver a un médico, por favor."',['I need to see a doctor, please.','I need a discount, please.','I need a table, please.','I need a room, please.'],0,'"I need to see a doctor, please" pide atención médica educadamente.'],
         ['speaking','Simula que describes un síntoma al médico: qué te duele, desde cuándo y si eres alérgico a algo. (mínimo 25 palabras)',[],['pain','since','allergic'],'Una buena respuesta menciona el síntoma, desde cuándo lo tienes y alergias si aplica.'],
+      ["mcq","¿Cómo se dice \"¿Cuál es el problema?\" en inglés?",["I have had a headache since yesterday.","Are you allergic to any medication?","I need to see a doctor, please.","What seems to be the problem?"],3,"\"¿Cuál es el problema?\" se dice \"What seems to be the problem?\" en inglés."],
       ],
     },
     { id:'sit_hospital_pharmacy', level:'A2', title:'En la farmacia', emoji:'💊', xp:25,
@@ -1176,12 +1318,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Painkiller','Analgésico'],
         ['Twice a day','Dos veces al día'],
         ['On an empty stomach','En ayunas'],
+      ], grammar:[
+        ["Expresiones de frecuencia","Indican cuántas veces se repite algo: \"once/twice/three times a day\" (una vez, dos veces, tres veces al día).","Take one pill twice a day."],
       ]},
       ex:[
         ['mcq','El farmacéutico te pregunta si tienes una receta. ¿Qué palabra usa?',['Prescription','Dosage','Painkiller','Side effect'],0,'"Prescription" es el documento del médico para comprar ciertos medicamentos.','💊 Llegas al mostrador de la farmacia.'],
         ['fill','"Take one pill ___ a day." (dos veces)',['twice','once','never','always'],0,'"Twice a day" significa dos veces al día.'],
         ['mcq','Quieres saber si un medicamento puede darte mareo o sueño. ¿Qué preguntas?',['What are the side effects?','What is the dosage?','Is this a painkiller?','Do I need a prescription?'],0,'"Side effects" son las reacciones no deseadas de un medicamento.'],
         ['translate','Traduce: "¿Debo tomarlo en ayunas?"',['Should I take it on an empty stomach?','Should I take it twice a day?','Should I take it with a prescription?','Should I take a painkiller?'],0,'"On an empty stomach" significa sin haber comido antes.'],
+      ["mcq","¿Cómo se dice \"Dosis\" en inglés?",["Side effects","Dosage","Twice a day","On an empty stomach"],1,"\"Dosis\" se dice \"Dosage\" en inglés."],
+      ["mcq","¿Cómo se dice \"Efectos secundarios\" en inglés?",["Prescription","Twice a day","Side effects","On an empty stomach"],2,"\"Efectos secundarios\" se dice \"Side effects\" en inglés."],
       ],
     },
     { id:'sit_hospital_emergency', level:'B1', title:'Emergencias', emoji:'🚨', xp:30,
@@ -1192,12 +1338,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I can\'t breathe.','No puedo respirar.'],
         ['He/She is unconscious.','Está inconsciente.'],
         ['Chest pain','Dolor en el pecho'],
+      ], grammar:[
+        ["El imperativo en emergencias","En situaciones urgentes se usa el verbo base directamente, sin sujeto, para dar una orden rápida y clara.","Call an ambulance! / Help me, please!"],
       ]},
       ex:[
         ['mcq','Alguien se desmaya cerca de ti y necesitas ayuda urgente. ¿Qué gritas?',['Call an ambulance!','Could I see the menu?','Is this fresh?','What is the dosage?'],0,'"Call an ambulance!" pide ayuda médica de emergencia inmediatamente.','🚨 Alguien necesita ayuda urgente cerca de ti.'],
         ['fill','"It is an ___!" (para dejar claro que es urgente)',['emergency','appointment','allergy','pharmacy'],0,'"It is an emergency" comunica la urgencia de la situación.'],
         ['mcq','Sientes mucha dificultad para respirar. ¿Qué dices?',['I can\'t breathe.','I have a headache.','I need a prescription.','I feel great.'],0,'"I can\'t breathe" es una frase de emergencia que requiere atención inmediata.'],
         ['translate','Traduce: "Tiene dolor en el pecho."',['He has chest pain.','He has a headache.','He needs a prescription.','He is allergic.'],0,'"Chest pain" es dolor en el pecho, un síntoma que requiere atención urgente.'],
+      ["mcq","¿Cómo se dice \"Es una emergencia\" en inglés?",["Chest pain","He/She is unconscious.","Call an ambulance!","It is an emergency."],3,"\"Es una emergencia.\" se dice \"It is an emergency.\" en inglés."],
+      ["mcq","¿Cómo se dice \"Está inconsciente\" en inglés?",["I can't breathe.","It is an emergency.","He/She is unconscious.","Call an ambulance!"],2,"\"Está inconsciente.\" se dice \"He/She is unconscious.\" en inglés."],
       ],
     },
     { id:'sit_hospital_insurance', level:'B1', title:'Seguro médico y papeleo', emoji:'📋', xp:25,
@@ -1208,24 +1358,35 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Do you accept my insurance?','¿Aceptan mi seguro?'],
         ['Out-of-pocket','De tu propio bolsillo (sin seguro)'],
         ['Medical form','Formulario médico'],
+      ], grammar:[
+        ["Preguntas con \"do/does\" + \"have\"","Para preguntar por algo que alguien posee (como un seguro), se usa \"do/does\" + sujeto + \"have\".","Do you have health insurance? / Does my insurance cover this?"],
       ]},
       ex:[
         ['mcq','Llegas a recepción y quieren saber si tienes cobertura médica. ¿Qué preguntan?',['Do you have health insurance?','Do you have a prescription?','Do you have an allergy?','Do you have an appointment?'],0,'"Do you have health insurance?" pregunta por tu cobertura médica.','📋 Estás llenando el papeleo de admisión.'],
         ['fill','"Do you accept my ___?" (para saber si tu seguro es válido ahí)',['insurance','prescription','appointment','symptom'],0,'"Do you accept my insurance?" confirma si tu seguro es válido en ese hospital.'],
         ['mcq','No tienes seguro y deberás pagar tú mismo. ¿Cómo se dice eso?',['Out-of-pocket','Insurance card','Medical form','Prescription'],0,'"Out-of-pocket" significa pagar tú mismo, sin ayuda del seguro.'],
         ['translate','Traduce: "Necesito llenar este formulario médico."',['I need to fill out this medical form.','I need to see a doctor.','I need a prescription.','I need an ambulance.'],0,'"Fill out this form" significa completar el documento con tus datos.'],
+      ["mcq","¿Cómo se dice \"Seguro médico\" en inglés?",["Out-of-pocket","Health insurance","Medical form","Insurance card"],1,"\"Seguro médico\" se dice \"Health insurance\" en inglés."],
+      ["mcq","¿Cómo se dice \"Tarjeta del seguro\" en inglés?",["Insurance card","Do you accept my insurance?","Medical form","Health insurance"],0,"\"Tarjeta del seguro\" se dice \"Insurance card\" en inglés."],
       ],
     },
     { id:'sit_hospital_followup', level:'B1', title:'Seguimiento y citas de control', emoji:'📅', xp:30,
       description:'Practica cómo organizar una cita de seguimiento.',
       study:{ grammar:[
         ['"I need to follow up on..." para dar seguimiento','Se usa para pedir una cita relacionada con un tratamiento o consulta anterior.','I need to follow up on my test results. → Necesito dar seguimiento a los resultados de mis análisis.'],
+      ], vocab:[
+        ["I need to follow up on my last visit.","Necesito dar seguimiento a mi última visita."],
+        ["When will my test results be ready?","¿Cuándo estarán listos mis resultados?"],
+        ["Can we schedule a follow-up appointment for next month?","¿Podemos agendar una cita de control para el próximo mes?"],
+        ["Does that time work for you?","¿Le viene bien esa hora?"],
       ]},
       ex:[
         ['mcq','Tuviste una consulta la semana pasada y necesitas otra cita relacionada. ¿Qué dices?',['I need to follow up on my last visit.','I need an ambulance.','I need a painkiller.','I need my insurance card.'],0,'"Follow up on my last visit" pide continuar el seguimiento de una consulta anterior.','📅 Llamas para agendar otra cita.'],
         ['fill','"When ___ my test results be ready?" (¿cuándo estarán listos?)',['will','are','did','have'],0,'"When will my results be ready?" pregunta por la fecha en la que tendrás los resultados.'],
         ['translate','Traduce: "¿Podemos agendar una cita de control para el próximo mes?"',['Can we schedule a follow-up appointment for next month?','Can we schedule a delivery for next month?','Can we schedule a flight for next month?','Can we schedule a table for next month?'],0,'"Follow-up appointment" es una cita de control o seguimiento.'],
         ['speaking','Simula que llamas para agendar una cita de seguimiento después de una consulta anterior. (mínimo 25 palabras)',[],['follow up','appointment','next'],'Una buena respuesta pide una cita de seguimiento y propone una fecha.'],
+      ["mcq","¿Cómo se dice \"¿Cuándo estarán listos mis resultados?\" en inglés?",["Can we schedule a follow-up appointment for next month?","I need to follow up on my last visit.","When will my test results be ready?","Does that time work for you?"],2,"\"¿Cuándo estarán listos mis resultados?\" se dice \"When will my test results be ready?\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Le viene bien esa hora?\" en inglés?",["When will my test results be ready?","Can we schedule a follow-up appointment for next month?","I need to follow up on my last visit.","Does that time work for you?"],3,"\"¿Le viene bien esa hora?\" se dice \"Does that time work for you?\" en inglés."],
       ],
     },
   {
@@ -1297,6 +1458,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “Make sure you understand the risks ___ signing the consent form.”",["without", "before", "during", "after"],1,"“Before signing” indica la secuencia correcta."],
       ["translate","Traduce: “¿Puedo hacer preguntas antes de firmar?”",["Can I sign before asking questions?", "Do I understand what I'm signing?", "Are there risks before the procedure?", "Can I ask questions before signing?"],3,"“Before signing” marca el orden correcto de las acciones."],
       ["arrange","Ordena: [form / a / sign / consent / need / to / I]",["sign form consent to need a I", "consent a to need I form sign", "I form consent sign need to a", "I need to sign a consent form"],3,"“I need to” + verbo + artículo + sustantivo compuesto."],
+    ["mcq","¿Cómo se dice \"¿tengo otras opciones?\" en inglés?",["to sign a consent form","do I have any other options","you can ask questions before signing","to understand what you're agreeing to"],1,"\"¿tengo otras opciones?\" se dice \"do I have any other options\" en inglés."],
     ]
   },
   {
@@ -1383,6 +1545,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Report','Informe'],
         ['Schedule','Agenda / horario'],
         ['Task','Tarea'],
+      ], grammar:[
+        ["\"Let's\" para proponer algo juntos","\"Let's\" (let us) + verbo base propone una acción que incluye a quien habla y a quien escucha.","Let's schedule a meeting. / Let's review the report together."],
       ]},
       ex:[
         ['mcq','¿Cómo se dice "fecha límite" en inglés?',['Deadline','Meeting','Schedule','Task'],0,'"Deadline" es la fecha máxima para entregar algo.','💼 Estás en tu oficina revisando pendientes.'],
@@ -1390,6 +1554,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "compañero de trabajo"',['Colleague','Deadline','Report','Task'],0,'"Colleague" (o "coworker") es alguien con quien trabajas.'],
         ['mcq','Tu jefe te pide un documento con resultados. ¿Qué palabra usa probablemente?',['Report','Deadline','Colleague','Meeting'],0,'"Report" es un informe con información o resultados.'],
         ['arrange','Ordena: [is / when / the / deadline]',['When is the deadline','Deadline is when the','Is when the deadline','The deadline is when'],0,'"When is the deadline?" pregunta por la fecha límite.'],
+      ["mcq","¿Cómo se dice \"Compañero/a de trabajo\" en inglés?",["Report","Colleague / Coworker","Schedule","Meeting"],1,"\"Compañero/a de trabajo\" se dice \"Colleague / Coworker\" en inglés."],
       ],
     },
     { id:'sit_office_phrases', level:'B1', title:'Frases para el trabajo', emoji:'💬', xp:25,
@@ -1400,6 +1565,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Can we schedule a meeting?','¿Podemos agendar una reunión?'],
         ['I will send you the report today.','Te enviaré el informe hoy.'],
         ['Can we reschedule?','¿Podemos reagendar?'],
+      ], grammar:[
+        ["\"Will\" para ofrecerse a hacer algo","\"Will\" también se usa para prometer u ofrecerse a hacer algo en el momento de hablar.","I will send you the report today."],
       ]},
       ex:[
         ['mcq','Necesitas ayuda de un compañero con una tarea. ¿Qué dices?',['Could you help me with this?','Can we reschedule?','When is the deadline?','I will send you the report.'],0,'"Could you help me with this?" pide ayuda de forma educada.','💼 Tienes una tarea complicada.'],
@@ -1407,12 +1574,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','Tienes un conflicto de horario con una reunión. ¿Qué preguntas?',['Can we reschedule?','Could you help me with this?','When is the deadline?','Can we schedule a meeting?'],0,'"Can we reschedule?" pide cambiar la hora de la reunión.'],
         ['translate','Traduce: "¿Podemos agendar una reunión?"',['Can we schedule a meeting?','Can we reschedule?','When is the deadline?','Could you help me with this?'],0,'"Can we schedule a meeting?" propone organizar una reunión.'],
         ['mcq','Tu jefe dice "The deadline is Friday." ¿Qué acabas de entender?',['La fecha límite es el viernes','La reunión es el viernes','El informe llegó el viernes','No hay reunión el viernes'],0,'Te está confirmando cuándo vence el plazo.'],
+      ["mcq","¿Cómo se dice \"¿Cuándo es la fecha límite?\" en inglés?",["Can we schedule a meeting?","When is the deadline?","I will send you the report today.","Could you help me with this?"],1,"\"¿Cuándo es la fecha límite?\" se dice \"When is the deadline?\" en inglés."],
       ],
     },
     { id:'sit_office_dialogue', level:'B1', title:'Diálogo: pedir ayuda', emoji:'🗣️', xp:30,
       description:'Sigue una conversación laboral típica.',
       study:{ grammar:[
         ['Futuro con "will" para promesas de trabajo','Usa "will" para comprometerte a hacer algo pronto.','I will finish it by Friday. → Lo terminaré para el viernes.'],
+      ], vocab:[
+        ["Do you have a minute? I need your help with the report.","¿Tienes un minuto? Necesito tu ayuda con el informe."],
+        ["Sure, what do you need?","Claro, ¿qué necesitas?"],
+        ["Could you send it to me by tomorrow?","¿Podrías enviármelo para mañana?"],
+        ["I will finish it by tomorrow.","Lo terminaré para mañana."],
       ]},
       ex:[
         ['mcq','Colega: "Do you have a minute? I need your help with the report." ¿Qué te pide?',['Ayuda con un informe','Ayuda con una reserva','Ayuda con una receta médica','Ayuda con un vuelo'],0,'"I need your help with the report" pide ayuda con un informe.','🎬 Diálogo — un compañero se acerca a tu escritorio.'],
@@ -1420,6 +1593,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Tu compañero dice: "___ you send it to me by tomorrow?"',['Could','Is','Have','Do'],0,'"Could you send it to me...?" pide algo de forma educada.'],
         ['translate','Traduce: "Lo terminaré para mañana."',['I will finish it by tomorrow.','I finished it yesterday.','I am finishing it now.','I have finished it.'],0,'"I will finish it by tomorrow" es una promesa a futuro con "will".'],
         ['writing','Escribe un breve intercambio (mínimo 25 palabras) donde un compañero te pide ayuda con una tarea y tú aceptas dando un plazo.',[],['help','deadline','will'],'Debe incluir pedir/dar ayuda y mencionar un plazo con "will".'],
+      ["mcq","¿Cómo se dice \"¿Tienes un minuto? Necesito tu ayuda con el informe\" en inglés?",["Could you send it to me by tomorrow?","Do you have a minute? I need your help with the report.","Sure, what do you need?","I will finish it by tomorrow."],1,"\"¿Tienes un minuto? Necesito tu ayuda con el informe.\" se dice \"Do you have a minute? I need your help with the report.\" en inglés."],
       ],
     },
     { id:'sit_office_meetings', level:'B1', title:'Reuniones y presentaciones', emoji:'📊', xp:25,
@@ -1431,12 +1605,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I would like to add something.','Me gustaría añadir algo.'],
         ['Action items','Tareas a realizar'],
         ['To sum up...','Para resumir...'],
+      ], grammar:[
+        ["\"Would like to\" en contextos formales","En reuniones y contextos de trabajo, \"would like to\" suena más formal y profesional que \"want to\".","I would like to add something to that point."],
       ]},
       ex:[
         ['mcq','El jefe empieza la reunión. ¿Qué frase usa probablemente?',['Let\'s get started.','Could we have the bill?','Is this table free?','Do you accept cards?'],0,'"Let\'s get started" es la forma común de iniciar una reunión.','📊 Todos se sientan en la sala de reuniones.'],
         ['fill','"I would like to ___ something to that point." (opinar sobre lo dicho)',['add','claim','declare','book'],0,'"I would like to add something" introduce tu opinión educadamente.'],
         ['mcq','La reunión termina y alguien resume los próximos pasos. ¿Qué palabra usa?',['Action items','Agenda','Dosage','Refund'],0,'"Action items" son las tareas que deben hacerse después de la reunión.'],
         ['translate','Traduce: "Para resumir, necesitamos terminar esto para el viernes."',['To sum up, we need to finish this by Friday.','To start, we need to finish this by Friday.','To sum up, we need a meeting on Friday.','To start, we need a report on Friday.'],0,'"To sum up..." se usa para cerrar con un resumen breve.'],
+      ["mcq","¿Cómo se dice \"Orden del día\" en inglés?",["Let's get started.","I would like to add something.","Any questions?","Agenda"],3,"\"Orden del día\" se dice \"Agenda\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿Alguna pregunta?\" en inglés?",["I would like to add something.","Any questions?","Let's get started.","Action items"],1,"\"¿Alguna pregunta?\" se dice \"Any questions?\" en inglés."],
       ],
     },
     { id:'sit_office_email', level:'B1', title:'Correos breves de trabajo', emoji:'✉️', xp:25,
@@ -1447,12 +1625,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Looking forward to your reply.','Espero su respuesta.'],
         ['Best regards,','Saludos cordiales,'],
         ['As discussed,','Como comentamos,'],
+      ], grammar:[
+        ["El registro formal de los correos","Los correos de trabajo usan fórmulas fijas para abrir (\"I am writing to...\") y cerrar (\"Looking forward to...\") el mensaje.","I am writing to ask about the schedule. / Looking forward to your reply."],
       ]},
       ex:[
         ['mcq','Empiezas un correo explicando el motivo del mensaje. ¿Qué frase usas?',['I am writing to ask about the schedule.','Let\'s get started.','Could you help me with this?','Any questions?'],0,'"I am writing to..." es la forma estándar de comenzar un correo formal.','✉️ Abres un nuevo correo de trabajo.'],
         ['fill','"Please find ___ the report." (el archivo va adjunto)',['attached','included','sent','signed'],0,'"Please find attached" indica que hay un archivo adjunto en el correo.'],
         ['mcq','Terminas el correo esperando una respuesta pronto. ¿Qué frase usas?',['Looking forward to your reply.','Let\'s get started.','Any questions?','I would like to add something.'],0,'"Looking forward to your reply" cierra el correo educadamente.'],
         ['translate','Traduce: "Como comentamos ayer, adjunto el informe."',['As discussed yesterday, please find the report attached.','As discussed yesterday, let\'s get started.','As discussed yesterday, any questions?','As discussed yesterday, I need a deadline.'],0,'"As discussed yesterday" conecta el correo con una conversación previa.'],
+      ["mcq","¿Cómo se dice \"Le escribo para..\" en inglés?",["Please find attached...","I am writing to...","As discussed,","Looking forward to your reply."],1,"\"Le escribo para...\" se dice \"I am writing to...\" en inglés."],
+      ["mcq","¿Cómo se dice \"Adjunto encontrará..\" en inglés?",["Best regards,","Please find attached...","Looking forward to your reply.","As discussed,"],1,"\"Adjunto encontrará...\" se dice \"Please find attached...\" en inglés."],
       ],
     },
     { id:'sit_office_conflict', level:'B1', title:'Desacuerdos profesionales', emoji:'⚖️', xp:30,
@@ -1462,12 +1644,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I am not sure I agree.','No estoy seguro de estar de acuerdo.'],
         ['Could we find a middle ground?','¿Podríamos llegar a un punto medio?'],
         ['Let\'s agree to disagree.','Aceptemos que pensamos distinto.'],
+      ], grammar:[
+        ["Suavizar un desacuerdo con \"but\"","Reconocer el punto del otro antes de \"but\" hace que el desacuerdo suene más respetuoso.","I see your point, but I have a different idea."],
       ]},
       ex:[
         ['mcq','No estás de acuerdo con la idea de un compañero, pero quieres ser respetuoso. ¿Qué dices?',['I see your point, but I have a different idea.','That is a terrible idea.','I am always right.','Let\'s get started.'],0,'"I see your point, but..." muestra respeto antes de dar tu opinión.','⚖️ Estás en una reunión con opiniones divididas.'],
         ['fill','"Could we find a ___ ground?" (una solución intermedia)',['middle','high','low','common'],0,'"Middle ground" es un punto intermedio que satisface a ambas partes.'],
         ['translate','Traduce: "No estoy seguro de estar de acuerdo con ese plan."',['I am not sure I agree with that plan.','I am not sure I understand that plan.','I am not sure I like that report.','I am not sure I need that meeting.'],0,'"I am not sure I agree" expresa desacuerdo de forma suave.'],
         ['speaking','Simula que estás en desacuerdo con la idea de un compañero, pero lo expresas con respeto y propones una alternativa. (mínimo 25 palabras)',[],['I see your point','but','middle ground'],'Una buena respuesta reconoce la otra opinión antes de dar la propia.'],
+      ["mcq","¿Cómo se dice \"Entiendo tu punto, pero..\" en inglés?",["Let's agree to disagree.","I see your point, but...","Could we find a middle ground?","I am not sure I agree."],1,"\"Entiendo tu punto, pero...\" se dice \"I see your point, but...\" en inglés."],
+      ["mcq","¿Cómo se dice \"No estoy seguro de estar de acuerdo\" en inglés?",["Let's agree to disagree.","I am not sure I agree.","Could we find a middle ground?","I see your point, but..."],1,"\"No estoy seguro de estar de acuerdo.\" se dice \"I am not sure I agree.\" en inglés."],
       ],
     },
     { id:'sit_office_timeoff', level:'B1', title:'Pedir tiempo libre', emoji:'🏖️', xp:25,
@@ -1478,12 +1664,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Vacation days','Días de vacaciones'],
         ['Could I take next Friday off?','¿Podría tomar libre el próximo viernes?'],
         ['I am not feeling well.','No me siento bien.'],
+      ], grammar:[
+        ["\"Could\" para pedir permiso formalmente","\"Could I...?\" es la forma más educada de pedir un día libre o un favor a un superior.","Could I take next Friday off?"],
       ]},
       ex:[
         ['mcq','Quieres pedir un día libre la próxima semana. ¿Qué preguntas a tu jefe?',['Could I take next Friday off?','Let\'s get started.','I see your point.','Any questions?'],0,'"Could I take next Friday off?" pide un día específico libre.','🏖️ Piensas pedir un día libre.'],
         ['fill','"I am not feeling well, I need a ___ day." (por enfermedad)',['sick','vacation','work','meeting'],0,'"Sick day" es un día libre por enfermedad.'],
         ['mcq','Quieres saber cuántos días de vacaciones te quedan este año. ¿Qué preguntas?',['How many vacation days do I have left?','How many sick days do I have left?','How many action items do I have?','How many meetings do I have?'],0,'"Vacation days" son los días de descanso pagado disponibles.'],
         ['translate','Traduce: "No me siento bien, necesito tomar el día libre."',['I am not feeling well, I need to take the day off.','I am not feeling well, I need a meeting.','I am not feeling well, I need a raise.','I am not feeling well, I need a report.'],0,'"Take the day off" significa no ir a trabajar ese día.'],
+      ["mcq","¿Cómo se dice \"Tiempo libre\" en inglés?",["Time off","Sick day","Could I take next Friday off?","I am not feeling well."],0,"\"Tiempo libre\" se dice \"Time off\" en inglés."],
+      ["mcq","¿Cómo se dice \"Día por enfermedad\" en inglés?",["I am not feeling well.","Time off","Could I take next Friday off?","Sick day"],3,"\"Día por enfermedad\" se dice \"Sick day\" en inglés."],
       ],
     },
   {
@@ -1531,6 +1721,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “Thank you for the feedback, I'll definitely take it on ___.”",["board", "constructive", "improvement", "appreciate"],0,"“To take on board” = tener en cuenta una sugerencia."],
       ["translate","Traduce: “De verdad agradezco el feedback, sobre todo lo del área de mejora.”",["I took the feedback on board about the improvement.", "I really appreciate the feedback, especially about the area for improvement.", "I really appreciate the area, especially the feedback.", "I really appreciate what went well about the feedback."],1,"“I really appreciate the feedback” + “especially about...”."],
       ["arrange","Ordena: [feedback / the / appreciate / really / I]",["feedback appreciate really the I", "appreciate feedback really the I", "I really appreciate the feedback", "the I feedback appreciate really"],2,"Sujeto + adverbio + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"retroalimentación constructiva\" en inglés?",["one area for improvement","what went well and what could improve","constructive feedback","I really appreciate the feedback"],2,"\"retroalimentación constructiva\" se dice \"constructive feedback\" en inglés."],
     ]
   },
   {
@@ -1578,6 +1769,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “It's important to clarify ___ than assume when working across cultures.”",["being", "avoid", "rather", "mindful"],2,"“Rather than assume” es preferir aclarar antes que suponer."],
       ["translate","Traduce: “La franqueza puede percibirse de forma distinta según la cultura.”",["Directness can be perceived differently depending on the culture.", "Misunderstandings can be perceived differently depending on the culture.", "Cultural differences can be direct depending on the style.", "Directness can avoid misunderstandings depending on the culture."],0,"“Can be perceived differently” expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [misunderstandings / avoid / to / important / it's]",["It's important to avoid misunderstandings", "avoid It's important misunderstandings to", "It's to important avoid misunderstandings", "avoid misunderstandings important It's to"],0,"“It's important to” + verbo + objeto."],
+    ["mcq","¿Cómo se dice \"la franqueza puede percibirse de forma distinta\" en inglés?",["directness can be perceived differently","to avoid misunderstandings","to clarify rather than assume","a different communication style"],0,"\"la franqueza puede percibirse de forma distinta\" se dice \"directness can be perceived differently\" en inglés."],
     ]
   },
   {
@@ -1640,6 +1832,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['To introduce (someone)','Presentar (a alguien)'],
         ['Toast','Brindis'],
         ['Get-together','Reunión informal'],
+      ], grammar:[
+        ["El infinitivo de propósito (\"to\" + verbo)","\"To\" + verbo explica para qué se hace algo, equivalente a \"para\" en español.","To introduce someone (para presentar a alguien) / to break the ice."],
       ]},
       ex:[
         ['mcq','¿Cómo se dice "anfitrión" en inglés?',['Host','Guest','Toast','Small talk'],0,'"Host" es la persona que organiza la fiesta.','🎉 Llegas a una fiesta y no conoces a nadie.'],
@@ -1647,6 +1841,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "presentar a alguien"',['To introduce someone','To toast someone','To host someone','To invite someone'],0,'"To introduce someone" es cuando presentas a dos personas.'],
         ['mcq','Quieres hablar de temas ligeros para romper el hielo. ¿Cómo se llama eso?',['Small talk','Toast','Host','Guest'],0,'"Small talk" es la conversación informal típica al conocer gente.'],
         ['arrange','Ordena: [know / how / you / host / the / do]',['How do you know the host','Do you know how the host','The host do you know how','How the host do you know'],0,'"How do you know the host?" es una pregunta clásica para romper el hielo.'],
+      ["mcq","¿Cómo se dice \"Invitado/a\" en inglés?",["Host","Guest","Toast","To introduce (someone)"],1,"\"Invitado/a\" se dice \"Guest\" en inglés."],
       ],
     },
     { id:'sit_party_phrases', level:'A2', title:'Frases para socializar', emoji:'💬', xp:25,
@@ -1657,6 +1852,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['That sounds interesting!','¡Eso suena interesante!'],
         ['Can I introduce you to...?','¿Te puedo presentar a...?'],
         ['It was lovely talking to you.','Fue un placer hablar contigo.'],
+      ], grammar:[
+        ["\"Sound\" + adjetivo","\"Sound\" + adjetivo expresa una impresión a partir de lo que alguien dice, no de lo que se oye literalmente.","That sounds interesting! / That sounds like a great plan."],
       ]},
       ex:[
         ['mcq','Conoces a alguien nuevo en la fiesta. ¿Qué preguntas para empezar?',['How do you know the host?','It was lovely talking to you.','Can I introduce you to...?','That sounds interesting!'],0,'Es una pregunta natural para romper el hielo en una fiesta.','🎉 Estás junto a alguien que no conoces.'],
@@ -1664,12 +1861,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','Alguien te cuenta algo interesante. ¿Cómo reaccionas amablemente?',['That sounds interesting!','It was lovely talking to you.','How do you know the host?','Can I introduce you to...?'],0,'"That sounds interesting!" muestra interés genuino en lo que cuentan.'],
         ['translate','Traduce: "Fue un placer hablar contigo."',['It was lovely talking to you.','That sounds interesting.','How do you know the host?','Can I introduce you to my friend?'],0,'Es la despedida educada típica al terminar una charla en una fiesta.'],
         ['mcq','Quieres presentar a dos amigos entre sí. ¿Qué dices?',['Can I introduce you to my friend?','That sounds interesting!','How do you know the host?','It was lovely talking to you.'],0,'"Can I introduce you to...?" es la forma de presentar a alguien.'],
+      ["mcq","¿Cómo se dice \"¿Qué te gusta hacer en tu tiempo libre?\" en inglés?",["That sounds interesting!","How do you know the host?","It was lovely talking to you.","What do you like to do in your free time?"],3,"\"¿Qué te gusta hacer en tu tiempo libre?\" se dice \"What do you like to do in your free time?\" en inglés."],
       ],
     },
     { id:'sit_party_dialogue', level:'A2', title:'Diálogo: conociendo gente', emoji:'🗣️', xp:30,
       description:'Sigue una charla casual de principio a fin.',
       study:{ grammar:[
         ['Preguntas abiertas para conversar','Las preguntas con "What/How" invitan a respuestas más largas que las de sí/no — ideales para el small talk.','What do you do for a living? → ¿A qué te dedicas?'],
+      ], vocab:[
+        ["Hi! I don't think we've met. I'm Sam.","¡Hola! Creo que no nos conocemos. Soy Sam."],
+        ["So, how do you know Maria?","Entonces, ¿cómo conoces a Maria?"],
+        ["What do you like to do in your free time?","¿Qué te gusta hacer en tu tiempo libre?"],
+        ["I don't think we've met before.","Creo que no nos habíamos conocido antes."],
       ]},
       ex:[
         ['mcq','Alguien te dice: "Hi! I don\'t think we\'ve met. I\'m Sam." ¿Qué haces primero?',['Te presentas también','Le pides la cuenta','Le preguntas la fecha límite','Le preguntas si es una emergencia'],0,'Cuando alguien se presenta, lo natural es presentarte también.','🎬 Diálogo — alguien se te acerca en la fiesta.'],
@@ -1677,6 +1880,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Quieres saber más de sus intereses: "What do you like ___ in your free time?"',['to do','doing','do','done'],0,'"What do you like to do...?" usa "to do" (infinitivo) después de "like".'],
         ['translate','Traduce: "No creo que nos hayamos conocido antes."',['I don\'t think we\'ve met before.','I don\'t think this is fresh.','I don\'t think it is included.','I don\'t think you are allergic.'],0,'Frase típica para presentarte a alguien nuevo en una fiesta.'],
         ['speaking','Simula que conoces a alguien nuevo en una fiesta: preséntate, pregunta cómo conoce al anfitrión y despídete con cortesía. (mínimo 25 palabras)',[],['host','free time','lovely'],'Una buena respuesta incluye presentación, una pregunta sobre el anfitrión y una despedida cortés.'],
+      ["mcq","¿Cómo se dice \"¡Hola! Creo que no nos conocemos. Soy Sam\" en inglés?",["I don't think we've met before.","What do you like to do in your free time?","Hi! I don't think we've met. I'm Sam.","So, how do you know Maria?"],2,"\"¡Hola! Creo que no nos conocemos. Soy Sam.\" se dice \"Hi! I don't think we've met. I'm Sam.\" en inglés."],
       ],
     },
     { id:'sit_party_invite', level:'A2', title:'Invitar y ser invitado', emoji:'💌', xp:25,
@@ -1687,12 +1891,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I am afraid I can\'t make it.','Me temo que no podré ir.'],
         ['What time should I arrive?','¿A qué hora debo llegar?'],
         ['Can I bring anything?','¿Puedo llevar algo?'],
+      ], grammar:[
+        ["\"Would like\" para invitar","\"Would you like to...?\" es la forma habitual y educada de hacer una invitación en inglés.","Would you like to come? / I would love to!"],
       ]},
       ex:[
         ['mcq','Invitas a un amigo a una fiesta. ¿Qué le preguntas?',['Would you like to come?','That sounds interesting!','How do you know the host?','It was lovely talking to you.'],0,'"Would you like to come?" es la forma directa de invitar a alguien.','💌 Escribes un mensaje a un amigo.'],
         ['fill','Aceptas encantado la invitación: "I would ___ to!"',['love','like','want','need'],0,'"I would love to!" muestra entusiasmo al aceptar.'],
         ['mcq','No puedes ir a la fiesta y quieres decirlo con cortesía. ¿Qué dices?',['I am afraid I can\'t make it.','I would love to!','What time should I arrive?','Can I bring anything?'],0,'"I am afraid I can\'t make it" rechaza la invitación educadamente.'],
         ['translate','Traduce: "¿Puedo llevar algo a la fiesta?"',['Can I bring anything to the party?','Can I invite someone to the party?','What time should I arrive at the party?','Would you like to come to the party?'],0,'"Can I bring anything?" ofrece llevar algo (comida, bebida, etc.).'],
+      ["mcq","¿Cómo se dice \"¡Me encantaría!\" en inglés?",["Can I bring anything?","What time should I arrive?","I would love to!","Would you like to come?"],2,"\"¡Me encantaría!\" se dice \"I would love to!\" en inglés."],
+      ["mcq","¿Cómo se dice \"¿A qué hora debo llegar?\" en inglés?",["I would love to!","I am afraid I can't make it.","What time should I arrive?","Can I bring anything?"],2,"\"¿A qué hora debo llegar?\" se dice \"What time should I arrive?\" en inglés."],
       ],
     },
     { id:'sit_party_food', level:'A2', title:'Comida y bebida en la fiesta', emoji:'🍹', xp:25,
@@ -1703,12 +1911,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['I will have a soda, please.','Tomaré un refresco, por favor.'],
         ['Are you hungry?','¿Tienes hambre?'],
         ['No, thank you, I am full.','No, gracias, estoy lleno.'],
+      ], grammar:[
+        ["El imperativo para ofrecer algo","\"Help yourself!\" usa el imperativo para invitar a alguien a servirse libremente, sin que suene una orden.","Help yourself! / Go ahead, take some more."],
       ]},
       ex:[
         ['mcq','El anfitrión te ofrece comida y bebida libremente. ¿Qué dice?',['Help yourself!','I am full.','Would you like to come?','What time should I arrive?'],0,'"Help yourself!" invita a servirse libremente la comida o bebida.','🍹 Hay una mesa llena de comida.'],
         ['fill','Alguien te ofrece más comida, pero ya comiste suficiente: "No, thank you, I am ___."',['full','hungry','thirsty','tired'],0,'"I am full" significa que ya no puedes comer más.'],
         ['mcq','No quieres alcohol, prefieres algo sin. ¿Qué pides?',['I will have a soda, please.','I will have a bill, please.','I will have a receipt, please.','I will have a discount, please.'],0,'"I will have a soda" pide una bebida sin alcohol.'],
         ['translate','Traduce: "Esto está delicioso, ¿qué es?"',['This is delicious, what is it?','This is expensive, what is it?','This is spicy, what is it?','This is cold, what is it?'],0,'Un buen cumplido curioso sobre un platillo que probaste.'],
+      ["mcq","¿Cómo se dice \"¿Tienes hambre?\" en inglés?",["Are you hungry?","This is delicious, what is it?","No, thank you, I am full.","Help yourself!"],0,"\"¿Tienes hambre?\" se dice \"Are you hungry?\" en inglés."],
+      ["mcq","¿Cómo se dice \"No, gracias, estoy lleno\" en inglés?",["Are you hungry?","I will have a soda, please.","No, thank you, I am full.","This is delicious, what is it?"],2,"\"No, gracias, estoy lleno.\" se dice \"No, thank you, I am full.\" en inglés."],
       ],
     },
     { id:'sit_party_awkward', level:'B1', title:'Situaciones incómodas', emoji:'😅', xp:30,
@@ -1718,12 +1930,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['If you\'ll excuse me...','Si me disculpas...'],
         ['I should probably mingle a bit.','Debería socializar un poco más.'],
         ['I am not sure about that, actually.','La verdad, no estoy tan seguro de eso.'],
+      ], grammar:[
+        ["Frases fijas para disculparse con tacto","Expresiones como \"I'm sorry, I...\" o \"If you'll excuse me...\" suavizan una situación incómoda sin ser bruscas.","I am sorry, I did not catch your name. / If you'll excuse me..."],
       ]},
       ex:[
         ['mcq','No recuerdas el nombre de alguien que te habla. ¿Qué dices con cortesía?',['I am sorry, I did not catch your name.','That sounds interesting!','Help yourself!','Can I bring anything?'],0,'"I did not catch your name" pide el nombre sin ser incómodo.','😅 Alguien te habla, pero no recuerdas su nombre.'],
         ['fill','Quieres alejarte educadamente de una conversación: "If you\'ll ___ me..."',['excuse','forgive','help','invite'],0,'"If you\'ll excuse me..." es la forma cortés de retirarte de una charla.'],
         ['translate','Traduce: "No estoy tan seguro de eso, la verdad."',['I am not sure about that, actually.','I am not hungry, actually.','I am not invited, actually.','I am not late, actually.'],0,'Frase útil para mostrar desacuerdo suave sin ser brusco.'],
         ['speaking','Simula una situación incómoda en una fiesta (no recuerdas un nombre, o quieres cambiar de conversación) y resuélvela con cortesía. (mínimo 25 palabras)',[],['excuse me','sorry','actually'],'Una buena respuesta maneja la situación con cortesía y naturalidad.'],
+      ["mcq","¿Cómo se dice \"Si me disculpas..\" en inglés?",["I should probably mingle a bit.","If you'll excuse me...","I am not sure about that, actually.","I am sorry, I did not catch your name."],1,"\"Si me disculpas...\" se dice \"If you'll excuse me...\" en inglés."],
+      ["mcq","¿Cómo se dice \"Debería socializar un poco más\" en inglés?",["I am sorry, I did not catch your name.","I should probably mingle a bit.","If you'll excuse me...","I am not sure about that, actually."],1,"\"Debería socializar un poco más.\" se dice \"I should probably mingle a bit.\" en inglés."],
       ],
     },
     { id:'sit_party_goodbye', level:'A2', title:'Despedidas y planes futuros', emoji:'👋', xp:25,
@@ -1734,12 +1950,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['We should hang out again sometime.','Deberíamos volver a vernos.'],
         ['Let\'s exchange numbers.','Intercambiemos números.'],
         ['Take care!','¡Cuídate!'],
+      ], grammar:[
+        ["\"Should\" para sugerencias suaves","\"Should\" sugiere algo de forma suave, sin ser una obligación, útil para despedidas y planes futuros.","I should get going. / We should hang out again sometime."],
       ]},
       ex:[
         ['mcq','Es tarde y quieres irte de la fiesta. ¿Qué dices?',['I should get going.','I would love to!','Help yourself!','Are you hungry?'],0,'"I should get going" anuncia que te vas de forma natural.','👋 Ya es tarde y quieres despedirte.'],
         ['fill','Agradeces al anfitrión antes de irte: "Thank you for ___ me."',['having','inviting','bringing','helping'],0,'"Thank you for having me" agradece la invitación a la fiesta.'],
         ['mcq','Conociste a alguien interesante y quieres seguir en contacto. ¿Qué propones?',['Let\'s exchange numbers.','I should get going.','Take care!','Help yourself!'],0,'"Let\'s exchange numbers" propone mantener el contacto después.'],
         ['translate','Traduce: "Deberíamos volver a vernos pronto."',['We should hang out again sometime.','We should get going sometime.','We should exchange numbers sometime.','We should help ourselves sometime.'],0,'Expresa interés en verse de nuevo en el futuro.'],
+      ["mcq","¿Cómo se dice \"Gracias por invitarme\" en inglés?",["Thank you for having me.","I should get going.","Let's exchange numbers.","Take care!"],0,"\"Gracias por invitarme.\" se dice \"Thank you for having me.\" en inglés."],
+      ["mcq","¿Cómo se dice \"¡Cuídate!\" en inglés?",["Take care!","Thank you for having me.","Let's exchange numbers.","We should hang out again sometime."],0,"\"¡Cuídate!\" se dice \"Take care!\" en inglés."],
       ],
     },
   {
@@ -1811,6 +2031,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “No ___, but that joke wasn't very funny.”",["hilarious", "offense", "humor", "kidding"],1,"“No offense, but...” suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: “Sí, claro, y yo soy el rey de Inglaterra.” (sarcasmo)",["Yeah, right, and I'm the king of England.", "That's hilarious, and I'm the king of England.", "I'm just kidding, and I'm the king of England.", "No offense, and I'm the king of England."],0,"“Yeah, right” es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [kidding / just / I'm]",["kidding just I'm", "kidding I'm just", "I'm just kidding", "just kidding I'm"],2,"Sujeto + adverbio + verbo."],
+    ["mcq","¿Cómo se dice \"eso es graciosísimo\" en inglés?",["that's hilarious","yeah, right","no offense, but...","you have a great sense of humor"],0,"\"eso es graciosísimo\" se dice \"that's hilarious\" en inglés."],
     ]
   },
   {
@@ -1897,6 +2118,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Assignment / deadline','Tarea / fecha límite'],
         ['Campus','Campus'],
         ['Tuition','Matrícula (costo)'],
+      ], grammar:[
+        ["\"Would like\" en peticiones formales","En trámites y contextos administrativos, \"I would like...\" es más apropiado y educado que \"I want...\".","I would like information about this course."],
       ]},
       ex:[
         ['mcq','¿Cómo se dice "matrícula" (inscripción) en inglés?',['Enrollment','Campus','Tuition','Course'],0,'"Enrollment" es el proceso de inscribirte a un curso o programa.','🎓 Estás en la oficina de administración de la universidad.'],
@@ -1904,6 +2127,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['translate','Traduce: "profesor"',['Professor','Course','Campus','Tuition'],0,'"Professor" es quien imparte las clases universitarias.'],
         ['mcq','Preguntas cuánto cuesta estudiar allí. ¿Qué palabra usas?',['Tuition','Campus','Enrollment','Assignment'],0,'"Tuition" se refiere al costo de la matrícula/estudios.'],
         ['arrange','Ordena: [this / course / about / information / like / I / would]',['I would like information about this course','Would I like information about this course','Information I would like about this course','About this course I would like information'],0,'"I would like information about this course" pide información de forma educada.'],
+      ["mcq","¿Cómo se dice \"Curso / asignatura\" en inglés?",["Campus","Course","Professor","Tuition"],1,"\"Curso / asignatura\" se dice \"Course\" en inglés."],
       ],
     },
     { id:'sit_university_phrases', level:'B1', title:'Frases para trámites', emoji:'💬', xp:25,
@@ -1914,6 +2138,8 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['When does enrollment close?','¿Cuándo cierra la inscripción?'],
         ['Could you explain the schedule?','¿Podría explicarme el horario?'],
         ['Is there financial aid?','¿Hay ayuda financiera disponible?'],
+      ], grammar:[
+        ["Preguntas con \"when does/do\"","Para preguntar cuándo empieza o termina algo (horarios, plazos), se usa \"when\" + \"does/do\" + sujeto + verbo base.","When does enrollment close? / When do classes start?"],
       ]},
       ex:[
         ['mcq','Llegas a la oficina de admisiones interesado en un curso. ¿Qué dices?',['I would like information about this course.','Is there financial aid?','When does enrollment close?','Could you explain the schedule?'],0,'Es la forma natural de iniciar la consulta sobre un curso.','🎓 Entras a la oficina de admisiones.'],
@@ -1921,12 +2147,18 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['mcq','No tienes suficiente dinero para pagar todo. ¿Qué preguntas?',['Is there financial aid?','What are the entry requirements?','Could you explain the schedule?','When does enrollment close?'],0,'"Is there financial aid?" pregunta por becas o ayudas económicas.'],
         ['translate','Traduce: "¿Cuándo cierra la inscripción?"',['When does enrollment close?','What are the entry requirements?','Is there financial aid?','Could you explain the schedule?'],0,'"When does enrollment close?" pregunta por el plazo límite de inscripción.'],
         ['mcq','El administrativo dice: "Enrollment closes on Friday." ¿Qué acabas de entender?',['El plazo de inscripción termina el viernes','El curso empieza el viernes','La beca se paga el viernes','El profesor llega el viernes'],0,'"Enrollment closes on Friday" indica la fecha límite de inscripción.'],
+      ["mcq","¿Cómo se dice \"¿Cuáles son los requisitos de admisión?\" en inglés?",["What are the entry requirements?","Is there financial aid?","Could you explain the schedule?","When does enrollment close?"],0,"\"¿Cuáles son los requisitos de admisión?\" se dice \"What are the entry requirements?\" en inglés."],
       ],
     },
     { id:'sit_university_dialogue', level:'B1', title:'Diálogo: en administración', emoji:'🗣️', xp:30,
       description:'Sigue una consulta académica completa.',
       study:{ grammar:[
         ['Preguntas indirectas con "Could you explain...?"','Suena más formal y educado que una pregunta directa — ideal en trámites.','Could you explain how the payment works? → ¿Podría explicarme cómo funciona el pago?'],
+      ], vocab:[
+        ["How can I help you today?","¿En qué puedo ayudarle hoy?"],
+        ["I would like information about the English course.","Quisiera información sobre el curso de inglés."],
+        ["How much is the tuition for this course?","¿Cuánto cuesta la matrícula de este curso?"],
+        ["Could you explain the class schedule?","¿Podría explicarme el horario de clases?"],
       ]},
       ex:[
         ['mcq','Administrativo: "How can I help you today?" ¿Qué te está preguntando?',['En qué te puede ayudar','Cuál es tu curso favorito','Dónde vives','Cuánto dinero tienes'],0,'Es una pregunta abierta para saber qué necesitas.','🎬 Diálogo — llegas a la ventanilla de administración.'],
@@ -1934,6 +2166,7 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['fill','Preguntas por el costo: "___ is the tuition for this course?"',['How much','How many','How often','How long'],0,'"How much is the tuition?" pregunta por el precio de la matrícula.'],
         ['translate','Traduce: "¿Podría explicarme el horario de clases?"',['Could you explain the class schedule?','Could you explain the entry requirements?','Is there financial aid?','When does enrollment close?'],0,'"Could you explain...?" pide una explicación de forma educada.'],
         ['writing','Escribe un breve diálogo (mínimo 25 palabras) donde pides información de un curso, preguntas los requisitos y el plazo de inscripción.',[],['course','requirements','enrollment'],'Debe incluir pedir información del curso, preguntar requisitos y el plazo de inscripción.'],
+      ["mcq","¿Cómo se dice \"¿En qué puedo ayudarle hoy?\" en inglés?",["I would like information about the English course.","How can I help you today?","How much is the tuition for this course?","Could you explain the class schedule?"],1,"\"¿En qué puedo ayudarle hoy?\" se dice \"How can I help you today?\" en inglés."],
       ],
     },
     { id:'sit_university_library', level:'A2', title:'La biblioteca', emoji:'📚', xp:25,
@@ -1944,12 +2177,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Renew a book','Renovar un libro'],
         ['Study room','Sala de estudio'],
         ['Return this book','Devolver este libro'],
+      ], grammar:[
+        ["\"Could\" para pedir un favor o servicio","\"Could I...?\" pide amablemente un servicio o un permiso, como renovar un préstamo.","Could I renew this book?"],
       ]},
       ex:[
         ['mcq','Quieres sacar un libro prestado por primera vez. ¿Qué necesitas?',['A library card','A boarding pass','A receipt','A prescription'],0,'"Library card" es el carné necesario para prestar libros.','📚 Entras a la biblioteca del campus.'],
         ['fill','"When is the ___ date for this book?" (fecha límite de devolución)',['due','check-in','enrollment','delivery'],0,'"Due date" es la fecha límite para devolver el libro.'],
         ['mcq','Necesitas más tiempo con un libro que ya prestaste. ¿Qué pides?',['Could I renew this book?','Could I return this book?','Could I buy this book?','Could I copy this book?'],0,'"Renew" significa extender el plazo de préstamo de un libro.'],
         ['translate','Traduce: "¿Hay una sala de estudio disponible?"',['Is there a study room available?','Is there a library card available?','Is there a due date available?','Is there a course available?'],0,'"Study room" es un espacio para estudiar, a veces reservable.'],
+      ["mcq","¿Cómo se dice \"Carné de la biblioteca\" en inglés?",["Due date","Study room","Library card","Return this book"],2,"\"Carné de la biblioteca\" se dice \"Library card\" en inglés."],
+      ["mcq","¿Cómo se dice \"Fecha de devolución\" en inglés?",["Study room","Renew a book","Due date","Library card"],2,"\"Fecha de devolución\" se dice \"Due date\" en inglés."],
       ],
     },
     { id:'sit_university_group', level:'B1', title:'Trabajo en grupo', emoji:'👥', xp:25,
@@ -1960,12 +2197,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Can we meet tomorrow?','¿Podemos reunirnos mañana?'],
         ['I will handle this part.','Yo me encargo de esta parte.'],
         ['Deadline','Fecha límite'],
+      ], grammar:[
+        ["\"Let's\" + verbo base para organizar tareas","Útil para proponer cómo repartir el trabajo en grupo, incluyendo a todos los miembros en la decisión.","Let's divide the work. / Let's meet tomorrow."],
       ]},
       ex:[
         ['mcq','Tu grupo tiene un proyecto grande y necesitan repartirse el trabajo. ¿Qué propones?',['Let\'s divide the work.','Let\'s renew this book.','Let\'s check the due date.','Let\'s exchange numbers.'],0,'"Let\'s divide the work" propone repartir las tareas entre el equipo.','👥 Tu grupo se reúne para planear el proyecto.'],
         ['fill','Te ofreces a hacer una parte específica: "I will ___ this part."',['handle','renew','declare','claim'],0,'"I will handle this part" significa que te encargarás de esa sección.'],
         ['mcq','Necesitan coordinar un horario para reunirse de nuevo. ¿Qué preguntas?',['Can we meet tomorrow?','Who wants to present?','Is there a study room?','What is the due date?'],0,'"Can we meet tomorrow?" propone coordinar la próxima reunión.'],
         ['translate','Traduce: "¿Quién quiere presentar el proyecto?"',['Who wants to present the project?','Who wants to renew the project?','Who wants to divide the project?','Who wants to declare the project?'],0,'Pregunta quién se encargará de la presentación final.'],
+      ["mcq","¿Cómo se dice \"¿Quién quiere presentar?\" en inglés?",["Can we meet tomorrow?","Who wants to present?","Deadline","I will handle this part."],1,"\"¿Quién quiere presentar?\" se dice \"Who wants to present?\" en inglés."],
+      ["mcq","¿Cómo se dice \"Yo me encargo de esta parte\" en inglés?",["Who wants to present?","Deadline","Can we meet tomorrow?","I will handle this part."],3,"\"Yo me encargo de esta parte.\" se dice \"I will handle this part.\" en inglés."],
       ],
     },
     { id:'sit_university_professor', level:'B1', title:'Hablar con el profesor', emoji:'🎓', xp:30,
@@ -1976,12 +2217,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Could you explain this again?','¿Podría explicar esto de nuevo?'],
         ['I am struggling with...','Me está costando trabajo...'],
         ['Extension','Extensión de plazo'],
+      ], grammar:[
+        ["\"Could\" al dirigirse a una autoridad","Con profesores o superiores, \"could\" resulta más respetuoso que \"can\" al pedir algo, como una prórroga.","Could I have an extension? / Could you explain this again?"],
       ]},
       ex:[
         ['mcq','No entendiste un tema y quieres preguntarle al profesor. ¿Qué dices?',['I have a question about the last class.','Let\'s divide the work.','Can we meet tomorrow?','Who wants to present?'],0,'"I have a question about..." introduce tu duda claramente.','🎓 Vas a la oficina del profesor en su horario de atención.'],
         ['fill','"I am ___ with this topic, could you help me?" (te está costando)',['struggling','renewing','presenting','dividing'],0,'"Struggling with" significa que algo te está costando entender.'],
         ['mcq','Necesitas más tiempo para entregar una tarea. ¿Qué pides al profesor?',['Could I have an extension?','Could I have a library card?','Could I have a study room?','Could I have a group?'],0,'"Extension" es tiempo adicional para entregar un trabajo.'],
         ['translate','Traduce: "¿Podría explicar esto de nuevo, por favor?"',['Could you explain this again, please?','Could you renew this again, please?','Could you present this again, please?','Could you divide this again, please?'],0,'Pide amablemente que repitan una explicación.'],
+      ["mcq","¿Cómo se dice \"Horario de atención\" en inglés?",["I am struggling with...","Office hours","I have a question about...","Could you explain this again?"],1,"\"Horario de atención\" se dice \"Office hours\" en inglés."],
+      ["mcq","¿Cómo se dice \"Tengo una duda sobre..\" en inglés?",["Extension","Office hours","I am struggling with...","I have a question about..."],3,"\"Tengo una duda sobre...\" se dice \"I have a question about...\" en inglés."],
       ],
     },
     { id:'sit_university_campus', level:'A2', title:'Vida en el campus', emoji:'🏫', xp:25,
@@ -1992,12 +2237,16 @@ window.SITUATION_LESSON_BANKS.EN = {
         ['Dorm / Dormitory','Residencia estudiantil'],
         ['Campus map','Mapa del campus'],
         ['Where is the main building?','¿Dónde está el edificio principal?'],
+      ], grammar:[
+        ["\"Where is/are\" para preguntar ubicación","\"Where is\" se usa con singular (\"the cafeteria\") y \"where are\" con plural (\"the vending machines\").","Where is the main building? / Where are the computer labs?"],
       ]},
       ex:[
         ['mcq','Es tu primer día y no conoces el campus. ¿Qué pides?',['Could I have a campus map?','Could I have a library card?','Could I have an extension?','Could I have office hours?'],0,'"Campus map" te ayuda a orientarte en tu primer día.','🏫 Es tu primer día en la universidad.'],
         ['fill','Buscas dónde comer entre clases: "Where is the ___?" (para comer)',['cafeteria','dorm','club','office'],0,'"Cafeteria" es el lugar donde los estudiantes comen en el campus.'],
         ['mcq','Quieres unirte a una actividad extracurricular. ¿Qué buscas?',['A student club','A dorm','A campus map','Office hours'],0,'"Student club" es un grupo de actividades extracurriculares.'],
         ['translate','Traduce: "¿Dónde está el edificio principal?"',['Where is the main building?','Where is the cafeteria?','Where is my dorm?','Where is the library?'],0,'Pregunta por la ubicación del edificio principal del campus.'],
+      ["mcq","¿Cómo se dice \"Club estudiantil\" en inglés?",["Campus map","Cafeteria","Student club","Where is the main building?"],2,"\"Club estudiantil\" se dice \"Student club\" en inglés."],
+      ["mcq","¿Cómo se dice \"Residencia estudiantil\" en inglés?",["Where is the main building?","Student club","Dorm / Dormitory","Campus map"],2,"\"Residencia estudiantil\" se dice \"Dorm / Dormitory\" en inglés."],
       ],
     },
   {
@@ -2045,6 +2294,7 @@ window.SITUATION_LESSON_BANKS.EN = {
       ["fill","Completa: “The application ___ for the scholarship is next Friday.”",["documents", "deadline", "eligibility", "merit"],1,"“Application deadline” es la fecha límite para presentar la solicitud."],
       ["translate","Traduce: “¿Cuáles son los requisitos de elegibilidad para la ayuda financiera?”",["What documents do I need to submit for the scholarship?", "What is the application deadline for the merit scholarship?", "What is a merit-based scholarship for financial aid?", "What are the eligibility requirements for financial aid?"],3,"“Eligibility requirements for financial aid” son los requisitos para calificar."],
       ["arrange","Ordena: [scholarship / apply / a / for / to / want / I]",["scholarship for to apply want a I", "I want to apply for a scholarship", "want for apply a to I scholarship", "I apply scholarship for want to a"],1,"“I want to” + verbo + “for a scholarship”."],
+    ["mcq","¿Cómo se dice \"elegibilidad para ayuda financiera\" en inglés?",["a merit-based scholarship","financial aid eligibility","the application deadline","to apply for a scholarship"],1,"\"elegibilidad para ayuda financiera\" se dice \"financial aid eligibility\" en inglés."],
     ]
   },
   {
@@ -2195,6 +2445,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ facturar mi maleta, por favor.”",["Quisiera", "Puedo", "Vuelo", "Tengo"],0,"\"Quisiera\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Aquí tiene mi maleta.", "Aquí tiene mi pasaporte.", "¿Cuál es mi pasaporte?", "Aquí está mi vuelo."],1,"\"Aquí tiene\" es formal, dirigido a alguien de \"usted\"."],
       ["arrange","Ordena: [maleta / quisiera / mi / facturar]",["Quisiera facturar mi maleta", "mi Quisiera facturar maleta", "facturar mi maleta Quisiera", "Quisiera maleta facturar mi"],0,"\"Quisiera\" + verbo + posesivo + sustantivo."],
+    ["arrange","Ordena: [¿Dónde / está / el / mostrador / de / la / aerolínea?]",["¿Dónde está el mostrador de la aerolínea?","la mostrador el de aerolínea? está ¿Dónde","¿Dónde el mostrador está aerolínea? la de","la aerolínea? está mostrador de ¿Dónde el"],0,"El orden correcto es: \"¿Dónde está el mostrador de la aerolínea?\"."],
     ]
   },
   {
@@ -2243,6 +2494,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Dónde está la ___ de equipaje?”",["frágil", "exceso", "recogida", "facturado"],2,"\"Recogida de equipaje\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["Mi maleta tiene exceso de peso.", "Mi maleta está perdida.", "Mi maleta es de mano.", "Mi maleta contiene objetos frágiles."],3,"\"Frágil\" describe objetos que se rompen fácilmente."],
       ["arrange","Ordena: [perdido / mi / está / equipaje]",["Mi equipaje está perdido", "está Mi equipaje perdido", "perdido Mi está equipaje", "perdido está Mi equipaje"],0,"Posesivo + sustantivo + verbo + adjetivo."],
+    ["arrange","Ordena: [el / equipaje / de / mano]",["el equipaje de mano","equipaje mano de el","equipaje el de mano","mano de el equipaje"],0,"El orden correcto es: \"el equipaje de mano\"."],
     ]
   },
   {
@@ -2267,6 +2519,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Cuál es el ___ de su visita?”",["detector", "zapato", "motivo", "líquido"],2,"\"El motivo de su visita\" pregunta el porqué del viaje."],
       ["translate","Traduce: \"I have nothing to declare.\"",["No tengo nada que declarar.", "No tengo mis zapatos.", "No tengo nada que llevar.", "No tengo mi pasaporte."],0,"\"Declarar\" se usa en aduana para objetos que debes notificar."],
       ["arrange","Ordena: [zapatos / quítese / los]",["Quítese los zapatos", "zapatos Quítese los", "zapatos los Quítese", "los zapatos Quítese"],0,"Imperativo + artículo + sustantivo."],
+    ["arrange","Ordena: [el / detector / de / metales]",["el detector de metales","detector de metales el","metales el de detector","de detector el metales"],0,"El orden correcto es: \"el detector de metales\"."],
     ]
   },
   {
@@ -2291,6 +2544,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Mi vuelo fue cancelado. ¿Puede ___ en otro?”",["reprogramarme", "facturarme", "declararme", "perderme"],0,"\"Reprogramar\" es cambiarte a otro vuelo."],
       ["translate","Traduce: \"What is the next available flight to Madrid?\"",["¿Dónde está mi vuelo de conexión?", "¿Está cancelado mi vuelo?", "¿Dónde está la recogida de equipaje?", "¿Cuál es el próximo vuelo disponible a Madrid?"],3,"\"Próximo vuelo disponible\" pregunta por la siguiente opción."],
       ["arrange","Ordena: [vuelo / perdí / mi]",["mi Perdí vuelo", "mi vuelo Perdí", "Perdí vuelo mi", "Perdí mi vuelo"],3,"Verbo + posesivo + sustantivo."],
+    ["arrange","Ordena: [el / próximo / vuelo / disponible]",["el próximo vuelo disponible","el disponible próximo vuelo","el próximo disponible vuelo","próximo disponible el vuelo"],0,"El orden correcto es: \"el próximo vuelo disponible\"."],
     ]
   },
   {
@@ -2362,6 +2616,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Me preocupa perder mi vuelo de ___.”",["sala", "embarque", "acceso", "conexión"],3,"\"Vuelo de conexión\" es el vuelo de enlace."],
       ["translate","Traduce: \"If I miss the flight, will I be rebooked automatically?\"",["Si pierdo el vuelo, ¿pagaré una multa?", "Si pierdo el vuelo, ¿perderé mi ticket?", "Si pierdo la puerta, ¿tendré embarque prioritario?", "Si pierdo el vuelo, ¿seré reprogramado automáticamente?"],3,"\"Seré reprogramado\" usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [sala / acceso / a / la / tengo]",["a sala Tengo acceso la", "sala a acceso Tengo la", "Tengo acceso a la sala", "Tengo a la acceso sala"],2,"Verbo + sustantivo + preposición + artículo + sustantivo."],
+    ["arrange","Ordena: [tener / acceso / a / la / sala / VIP]",["tener acceso a la sala VIP","la sala VIP acceso tener a","sala la a tener VIP acceso","VIP sala tener a la acceso"],0,"El orden correcto es: \"tener acceso a la sala VIP\"."],
     ]
   },
   {
@@ -2509,6 +2764,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ pedir la sopa, por favor.”",["Quisiera", "Sin", "Para", "Está"],0,"\"Quisiera\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Para mí, cebolla.", "Sin pasta, por favor.", "Con cebolla, por favor.", "Sin cebolla, por favor."],3,"\"Sin\" indica que no quieres ese ingrediente."],
       ["arrange","Ordena: [recomienda / qué / me]",["me recomienda Qué", "Qué me recomienda", "Qué recomienda me", "me Qué recomienda"],1,"Pronombre interrogativo + pronombre + verbo."],
+    ["arrange","Ordena: [Para / mí, / la / pasta]",["Para mí, la pasta","mí, pasta Para la","mí, pasta la Para","la mí, pasta Para"],0,"El orden correcto es: \"Para mí, la pasta\"."],
     ]
   },
   {
@@ -2556,6 +2812,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Soy alérgico a los frutos ___.”",["lácteos", "secos", "carne", "gluten"],1,"\"Frutos secos\" son nueces, almendras, etc."],
       ["translate","Traduce: \"I don't eat meat.\"",["No soy alérgico.", "No como frutos secos.", "No contiene lácteos.", "No como carne."],3,"\"No como\" + alimento indica una preferencia alimentaria."],
       ["arrange","Ordena: [carne / como / no]",["No como carne", "No carne como", "como carne No", "carne como No"],0,"Negación + verbo + sustantivo."],
+    ["arrange","Ordena: [los / frutos / secos]",["los frutos secos","los secos frutos","frutos secos los","secos frutos los"],0,"El orden correcto es: \"los frutos secos\"."],
     ]
   },
   {
@@ -2579,6 +2836,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Disculpe, esto ___ lo que pedí.”",["cambiar", "no es", "falta", "está"],1,"\"Esto no es lo que pedí\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["¿Está frío?", "¿Falta el pedido?", "¿Podría cambiarlo?", "¿Podría traerlo?"],2,"\"¿Podría...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [frío / está / esto]",["Esto está frío", "Esto frío está", "frío está Esto", "frío Esto está"],0,"Sujeto + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"falta algo del pedido\" en español?",["falta el pedido","está muy salado","¿podría cambiarlo?","esto no es lo que pedí"],0,"\"falta algo del pedido\" se dice \"falta el pedido\" en español."],
     ]
   },
   {
@@ -2602,6 +2860,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Podemos ___ la cuenta entre los cuatro?”",["pagar", "dividir", "quedarse", "aceptar"],1,"\"Dividir la cuenta\" es repartir el pago."],
       ["translate","Traduce: \"Keep the change.\"",["Divida la cuenta.", "Pague la propina.", "Acepte la tarjeta.", "Quédese con el cambio."],3,"\"Quédese con el cambio\" es una forma común de dejar propina."],
       ["arrange","Ordena: [favor / cuenta / la / por]",["cuenta favor por La", "por favor cuenta La", "La cuenta por favor", "por La cuenta favor"],2,"Artículo + sustantivo + \"por favor\"."],
+    ["fill","___ con el cambio, por favor.",["Quédese","Quedará","Quedando","Quedarse"],0,"Imperativo formal (usted) para dar una instrucción educada."],
     ]
   },
   {
@@ -2672,6 +2931,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Este tinto con cuerpo va a ___ el plato principal perfectamente.”",["complementar", "reservar", "pedir", "celebrar"],0,"\"Complementar\" significa resaltar/combinar bien con algo."],
       ["translate","Traduce: \"Could you recommend a wine pairing for this dish?\"",["¿Podría recomendarnos un maridaje para este plato?", "¿Podría complementar al sumiller?", "¿Podría reservar una mesa para este plato?", "¿Podría recomendarnos un menú para este vino?"],0,"\"Maridaje\" es la combinación entre un vino y un plato."],
       ["arrange","Ordena: [degustación / menú / un / quisiéramos]",["menú Quisiéramos degustación un", "un degustación Quisiéramos menú", "degustación menú un Quisiéramos", "Quisiéramos un menú degustación"],3,"Verbo + artículo + sustantivo + sustantivo."],
+    ["arrange","Ordena: [el / maridaje / de / vinos]",["el maridaje de vinos","vinos de maridaje el","el vinos de maridaje","vinos maridaje de el"],0,"El orden correcto es: \"el maridaje de vinos\"."],
     ]
   },
   {
@@ -2819,6 +3079,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Tengo una reserva a ___ de García.”",["wifi", "nombre", "llave", "hora"],1,"\"A nombre de\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Necesito otra reserva.", "Necesito otra habitación.", "Necesito otra llave.", "Necesito otro desayuno."],2,"\"Otra llave\" pide una llave adicional."],
       ["arrange","Ordena: [llave / necesito / otra]",["llave Necesito otra", "otra Necesito llave", "Necesito otra llave", "llave otra Necesito"],2,"Verbo + adjetivo + sustantivo."],
+    ["arrange","Ordena: [¿A / qué / hora / es / el / check-in?]",["¿A qué hora es el check-in?","¿A qué el es check-in? hora","el qué ¿A es check-in? hora","hora ¿A es qué el check-in?"],0,"El orden correcto es: \"¿A qué hora es el check-in?\"."],
     ]
   },
   {
@@ -2867,6 +3128,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Hay ___ en el hotel? Quiero nadar mañana.”",["lavandería", "piscina", "gimnasio", "estacionamiento"],1,"\"Piscina\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["¿Hay gimnasio disponible?", "¿Hay servicio de habitaciones disponible?", "¿Hay estacionamiento disponible?", "¿Hay piscina disponible?"],2,"\"¿Hay...disponible?\" pregunta por disponibilidad de un servicio."],
       ["arrange","Ordena: [piscina / hay / hotel / en / el]",["Hay piscina en el hotel", "piscina hotel Hay el en", "Hay el hotel piscina en", "hotel Hay piscina en el"],0,"Verbo + sustantivo + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el aparcamiento\" en español?",["el estacionamiento","el gimnasio","la piscina","el servicio de despertador"],0,"\"el aparcamiento\" se dice \"el estacionamiento\" en español."],
     ]
   },
   {
@@ -2890,6 +3152,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Disculpe, ___ el aire acondicionado en mi habitación.”",["está sucia", "falta", "no funciona", "hay ruido"],2,"\"No funciona\" describe algo roto."],
       ["translate","Traduce: \"Could you change my room?\"",["¿Podrían arreglar el aire acondicionado?", "¿Podrían limpiar mi habitación?", "¿Podrían traer agua caliente?", "¿Podrían cambiarme de habitación?"],3,"\"¿Podrían...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [ruido / mucho / hay]",["ruido mucho Hay", "Hay mucho ruido", "ruido Hay mucho", "mucho Hay ruido"],1,"Verbo + adjetivo + sustantivo."],
+    ["arrange","Ordena: [la / habitación / está / sucia]",["la habitación está sucia","habitación está la sucia","está habitación sucia la","sucia habitación está la"],0,"El orden correcto es: \"la habitación está sucia\"."],
     ]
   },
   {
@@ -2913,6 +3176,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿A qué hora es el ___?”",["cargo", "minibar", "equipaje", "check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["¿Podrían dejar mi habitación por unas horas?", "¿Podrían revisar mi equipaje por unas horas?", "¿Podrían cobrar mi equipaje por unas horas?", "¿Podrían guardar mi equipaje por unas horas?"],3,"\"Guardar el equipaje\" es dejarlo temporalmente en el hotel."],
       ["arrange","Ordena: [factura / la / revisar / podría]",["revisar Podría factura la", "Podría revisar factura la", "Podría revisar la factura", "factura la Podría revisar"],2,"Verbo modal + verbo + artículo + sustantivo."],
+    ["arrange","Ordena: [hacer / el / check-out]",["hacer el check-out","el check-out hacer","hacer check-out el","check-out hacer el"],0,"El orden correcto es: \"hacer el check-out\"."],
     ]
   },
   {
@@ -2983,6 +3247,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Las instalaciones no son como se ___ en la página web.”",["esperan", "anuncian", "desconectan", "sirven"],1,"\"Como se anuncian\" significa \"tal como se promociona\"."],
       ["translate","Traduce: \"The gym falls short of what we expected.\"",["El gimnasio está exactamente como se anuncia.", "El gimnasio no está a la altura de lo que esperábamos.", "El gimnasio se desconecta de las expectativas.", "El gimnasio está fuera de servicio hoy."],1,"\"No estar a la altura de las expectativas\" es no cumplir lo esperado."],
       ["arrange","Ordena: [servicio / piscina / la / de / fuera / está]",["La piscina está fuera de servicio", "piscina La de servicio está fuera", "está La servicio fuera piscina de", "de servicio fuera piscina La está"],0,"Sujeto + verbo + \"fuera de servicio\"."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anunciaban\" en español?",["las instalaciones no son como se anuncian","la piscina está fuera de servicio","el wifi se desconecta constantemente","acceso al gimnasio y al spa"],0,"\"las instalaciones no son como se anunciaban\" se dice \"las instalaciones no son como se anuncian\" en español."],
     ]
   },
   {
@@ -3030,6 +3295,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Podría facturar esto a mi ___ de empresa?”",["tarifa", "recibo", "cuenta", "habitación"],2,"\"Facturarlo a la cuenta de la empresa\" es cargar el gasto a la empresa."],
       ["translate","Traduce: \"Could I get an itemized receipt for my company?\"",["¿Podría trabajar remotamente desde el centro de negocios?", "¿Podría darme un recibo detallado para mi empresa?", "¿Podría darme una tarifa corporativa para mi habitación?", "¿Podría facturar la sala de reuniones a mi cuenta?"],1,"\"Recibo detallado\" es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [cuenta / esto / facture / mi / a / por / favor]",["esto por cuenta a Facture mi favor", "por mi cuenta favor a esto Facture", "Facture esto a mi cuenta por favor", "mi favor a por Facture cuenta esto"],2,"Imperativo + objeto + preposición + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"cargarlo a la cuenta de la empresa\" en español?",["una sala de reuniones con proyector","trabajar remotamente desde el centro de negocios","facturarlo a la cuenta de la empresa","una tarifa corporativa"],2,"\"cargarlo a la cuenta de la empresa\" se dice \"facturarlo a la cuenta de la empresa\" en español."],
     ]
   },
   {
@@ -3128,6 +3394,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿___ cuesta el kilo de manzanas?”",["Dónde", "Cuánto", "Qué", "Cuál"],1,"\"Cuánto cuesta\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Quiero llevármelo.", "Quiero un kilo entero.", "Quiero medio kilo.", "Quiero algo más fresco."],2,"\"Medio kilo\" es 500 gramos."],
       ["arrange","Ordena: [llevo / lo / me]",["llevo Me lo", "llevo lo Me", "lo Me llevo", "Me lo llevo"],3,"Pronombre + pronombre + verbo."],
+    ["arrange","Ordena: [¿Tiene / algo / más / fresco?]",["¿Tiene algo más fresco?","más ¿Tiene fresco? algo","algo ¿Tiene fresco? más","¿Tiene fresco? algo más"],0,"El orden correcto es: \"¿Tiene algo más fresco?\"."],
     ]
   },
   {
@@ -3174,6 +3441,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Lo siento, no me queda, pero le puedo ofrecer esto en su ___.”",["parecido", "lugar", "agotado", "kilo"],1,"\"En su lugar\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Le ofrezco tomates en su lugar hoy.", "No me quedan tomates hoy.", "Está agotado el tomate hoy.", "No tengo tomates parecidos hoy."],1,"\"No me quedan\" indica que se acabó el producto."],
       ["arrange","Ordena: [agotado / está / producto / el]",["agotado producto está El", "está El producto agotado", "El producto está agotado", "está agotado producto El"],2,"Artículo + sustantivo + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"se me acabó..\" en español?",["no me queda...","está agotado","le puedo ofrecer esto en su lugar","¿tiene algo parecido?"],0,"\"se me acabó...\" se dice \"no me queda...\" en español."],
     ]
   },
   {
@@ -3196,6 +3464,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Quiero devolver esto, ___ ayer y ya está mal.”",["está en", "lo compré", "quiero devolver", "me puede"],1,"\"Lo compré ayer\" indica cuándo se hizo la compra."],
       ["translate","Traduce: \"I bought it yesterday and it's already bad.\"",["Lo compré ayer y ya está mal.", "Me puede dar un reembolso mañana.", "Quiero devolverlo mañana.", "Lo compré hoy y está bien."],0,"\"Ayer\" + \"ya está mal\" explica el problema con el producto."],
       ["arrange","Ordena: [esto / devolver / quiero]",["Quiero esto devolver", "esto Quiero devolver", "devolver esto Quiero", "Quiero devolver esto"],3,"Verbo + verbo + pronombre."],
+    ["arrange","Ordena: [lo / compré / ayer]",["lo compré ayer","lo ayer compré","ayer compré lo","compré ayer lo"],0,"El orden correcto es: \"lo compré ayer\"."],
     ]
   },
   {
@@ -3218,6 +3487,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Lo siento, aquí es solo ___, no aceptamos tarjeta.”",["cambio", "efectivo", "billete", "tarjeta"],1,"\"Solo efectivo\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["¿Aceptan tarjeta?", "¿Tienen cambio?", "¿Aceptan efectivo?", "¿Pagan en efectivo?"],0,"\"¿Aceptan tarjeta?\" pregunta por el método de pago."],
       ["arrange","Ordena: [tarjeta / de / crédito / aceptan]",["Aceptan tarjeta crédito de", "Aceptan tarjeta de crédito", "de tarjeta crédito Aceptan", "de Aceptan crédito tarjeta"],1,"Verbo + sustantivo + preposición + sustantivo."],
+    ["arrange","Ordena: [pagar / en / efectivo]",["pagar en efectivo","en pagar efectivo","efectivo pagar en","en efectivo pagar"],0,"El orden correcto es: \"pagar en efectivo\"."],
     ]
   },
   {
@@ -3312,6 +3582,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Cuanto más pida, mayor será el ___.”",["cantidad", "entrega", "precio", "descuento"],3,"\"Cuanto más..., mayor el descuento\" expresa proporcionalidad."],
       ["translate","Traduce: \"Is delivery included in the wholesale price?\"",["¿La entrega está incluida en el precio al por mayor?", "¿El pedido recurrente está incluido en la entrega?", "¿La cantidad mínima está incluida en el precio?", "¿El descuento está incluido en la entrega?"],0,"\"Incluida en el precio al por mayor\" pregunta si el envío está cubierto."],
       ["arrange","Ordena: [recurrente / pedido / hacer / un / quiero]",["Quiero hacer un pedido recurrente", "Quiero pedido hacer un recurrente", "un hacer pedido recurrente Quiero", "hacer Quiero pedido un recurrente"],0,"\"Quiero hacer\" + artículo + adjetivo + sustantivo."],
+    ["arrange","Ordena: [hacer / un / pedido / recurrente]",["hacer un pedido recurrente","hacer pedido un recurrente","hacer pedido recurrente un","pedido hacer un recurrente"],0,"El orden correcto es: \"hacer un pedido recurrente\"."],
     ]
   },
   {
@@ -3435,6 +3706,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Tengo fiebre ___ hace tres días.”",["por", "con", "para", "desde"],3,"\"Desde hace tres días\" indica cuánto tiempo llevas con el síntoma."],
       ["translate","Traduce: \"I feel nauseous.\"",["Tengo fiebre.", "Me duele la cabeza.", "Tengo náuseas.", "Me siento mareado."],2,"\"Náuseas\" es el síntoma de querer vomitar."],
       ["arrange","Ordena: [cabeza / duele / me / la]",["Me duele la cabeza", "duele la Me cabeza", "la cabeza duele Me", "la cabeza Me duele"],0,"Pronombre + verbo + artículo + sustantivo."],
+    ["arrange","Ordena: [desde / hace / tres / días]",["desde hace tres días","hace días tres desde","tres hace días desde","tres días hace desde"],0,"El orden correcto es: \"desde hace tres días\"."],
     ]
   },
   {
@@ -3481,6 +3753,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Tómelo ___ veces al día, con las comidas.”",["con", "dos", "los", "sin"],1,"\"Dos veces al día\" indica la frecuencia de la dosis."],
       ["translate","Traduce: \"Do you have something for a headache?\"",["¿Tiene efectos secundarios?", "¿Tiene algo con receta?", "¿Tiene algo para el dolor de cabeza?", "¿Tiene algo dos veces al día?"],2,"Pregunta típica en la farmacia por un síntoma."],
       ["arrange","Ordena: [día / al / veces / dos]",["al Dos día veces", "veces Dos al día", "Dos veces al día", "al veces Dos día"],2,"Número + sustantivo + preposición + sustantivo."],
+    ["arrange","Ordena: [con / o / sin / receta]",["con o sin receta","o sin receta con","sin con o receta","receta o sin con"],0,"El orden correcto es: \"con o sin receta\"."],
     ]
   },
   {
@@ -3526,6 +3799,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Este tratamiento está ___ por mi seguro?”",["número", "firmado", "pagado", "cubierto"],3,"\"Estar cubierto por\" indica si el seguro lo incluye."],
       ["translate","Traduce: \"I need to sign the admission form.\"",["Necesito pagar el copago.", "Necesito mi número de póliza.", "Necesito saber si está cubierto.", "Necesito firmar el formulario de admisión."],3,"\"Firmar el formulario de admisión\" es un trámite habitual al ingresar."],
       ["arrange","Ordena: [copago / el / es / cuál]",["es Cuál copago el", "es copago el Cuál", "Cuál es el copago", "copago Cuál el es"],2,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿esto lo cubre mi seguro?\" en español?",["¿está cubierto por mi seguro?","firmar el formulario de admisión","el número de póliza","el copago"],0,"\"¿esto lo cubre mi seguro?\" se dice \"¿está cubierto por mi seguro?\" en español."],
     ]
   },
   {
@@ -3620,6 +3894,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Asegúrese de entender los riesgos ___ de firmar el formulario.”",["sin", "antes", "durante", "después"],1,"\"Antes de firmar\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["¿Puedo firmar antes de hacer preguntas?", "¿Entiendo lo que estoy firmando?", "¿Hay riesgos antes del procedimiento?", "¿Puedo hacer preguntas antes de firmar?"],3,"\"Antes de firmar\" marca el orden correcto de las acciones."],
       ["arrange","Ordena: [consentimiento / firmar / un / formulario / necesito / de]",["un de firmar formulario Necesito consentimiento", "Necesito firmar un formulario de consentimiento", "consentimiento un formulario firmar de Necesito", "Necesito consentimiento formulario firmar un de"],1,"\"Necesito\" + verbo + artículo + sustantivo compuesto."],
+    ["arrange","Ordena: [¿tengo / otras / opciones?]",["¿tengo otras opciones?","opciones? otras ¿tengo","otras opciones? ¿tengo","opciones? ¿tengo otras"],0,"El orden correcto es: \"¿tengo otras opciones?\"."],
     ]
   },
   {
@@ -3742,6 +4017,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ agendar una reunión para mañana.”",["Gracias", "Podemos", "Adjunto", "Voy"],1,"\"¿Podemos...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Voy a adjuntar el archivo.", "Voy a necesitar más tiempo.", "Voy a agendar una reunión.", "Voy a agradecer su paciencia."],1,"\"Voy a necesitar\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [archivo / adjunto / el]",["archivo el Adjunto", "el Adjunto archivo", "el archivo Adjunto", "Adjunto el archivo"],3,"Verbo + artículo + sustantivo."],
+    ["arrange","Ordena: [Gracias / por / su / paciencia]",["Gracias por su paciencia","Gracias su paciencia por","Gracias paciencia por su","Gracias por paciencia su"],0,"El orden correcto es: \"Gracias por su paciencia\"."],
     ]
   },
   {
@@ -3787,6 +4063,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ con la agenda de hoy.”",["Pasemos", "Pregunten", "Empecemos", "Vean"],2,"\"Empecemos\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Como pueden ver en esta diapositiva...", "Como pueden empezar en esta diapositiva...", "Como pueden preguntar en esta diapositiva...", "Como pueden pasar en esta diapositiva..."],0,"\"Como pueden ver\" introduce una explicación visual."],
       ["arrange","Ordena: [pregunta / alguna / hay]",["alguna Hay pregunta", "Hay pregunta alguna", "pregunta Hay alguna", "Hay alguna pregunta"],3,"Verbo + adjetivo + sustantivo."],
+    ["fill","___ con la agenda de hoy.",["Empecemos","Empezamos","Empezaremos","Empezando"],0,"Imperativo de \"nosotros\" para proponer una acción conjunta."],
     ]
   },
   {
@@ -3809,6 +4086,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ Sr. López: le escribo para confirmar la reunión.”",["Estimado", "Cordiales", "Saludos", "Quedo"],0,"\"Estimado/a\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Quedo atento/a a su respuesta.", "Estimado a su respuesta.", "Saludos a su respuesta.", "Le escribo a su respuesta."],0,"\"Quedo atento/a a\" es una despedida formal común."],
       ["arrange","Ordena: [cordial / reciba / saludo / un]",["Reciba un saludo cordial", "saludo Reciba cordial un", "saludo cordial Reciba un", "un Reciba saludo cordial"],0,"Imperativo formal + artículo + sustantivo + adjetivo."],
+    ["fill","___ Sr. López: Le escribo para confirmar la reunión.",["Estimado","Querido","Hola","Oye"],0,"\"Estimado\" es la fórmula de saludo formal para correos de trabajo."],
     ]
   },
   {
@@ -3831,6 +4109,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Entiendo tu punto, ___ no estoy del todo de acuerdo.”",["aunque", "pero", "si", "porque"],1,"\"Pero\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["¿Podemos encontrar la razón?", "¿Podemos entender tu punto?", "¿Estamos del todo de acuerdo?", "¿Podemos encontrar un término medio?"],3,"\"Término medio\" es un compromiso entre dos posturas."],
       ["arrange","Ordena: [acuerdo / de / estoy / no / del / todo]",["No estoy del todo de acuerdo", "todo del acuerdo No estoy de", "No acuerdo estoy de todo del", "acuerdo de del todo No estoy"],0,"Negación + verbo + \"del todo de acuerdo\"."],
+    ["mcq","¿Cómo se dice \"Entiendo su punto, pero..\" en español?",["¿podemos encontrar un término medio?","prefiero ser directo/a al respecto","entiendo tu punto, pero...","no estoy del todo de acuerdo"],2,"\"Entiendo su punto, pero...\" se dice \"entiendo tu punto, pero...\" en español."],
     ]
   },
   {
@@ -3901,6 +4180,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Gracias por el feedback, sin duda lo voy a tener en ___.”",["cuenta", "agradezco", "mejora", "board"],0,"\"Tener en cuenta\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["Tuve en cuenta el feedback sobre la mejora.", "De verdad agradezco el feedback, sobre todo lo del área de mejora.", "De verdad agradezco el área, sobre todo el feedback.", "De verdad agradezco lo que salió bien del feedback."],1,"\"De verdad agradezco el feedback\" + \"sobre todo...\"."],
       ["arrange","Ordena: [feedback / agradezco / el / de / verdad]",["feedback agradezco verdad el De", "agradezco feedback verdad el De", "De verdad agradezco el feedback", "el De feedback agradezco verdad"],2,"Adverbio + adverbio + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la retroalimentación constructiva\" en español?",["tener esto en cuenta","qué salió bien y qué se puede mejorar","un área de mejora","retroalimentación constructiva"],3,"\"la retroalimentación constructiva\" se dice \"retroalimentación constructiva\" en español."],
     ]
   },
   {
@@ -3948,6 +4228,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Es importante aclarar en ___ de asumir cuando trabajamos con distintas culturas.”",["evitar", "diferente", "lugar", "cuenta"],2,"\"En lugar de asumir\" es preferir aclarar antes que suponer."],
       ["translate","Traduce: \"Directness can be perceived differently depending on the culture.\"",["La franqueza puede percibirse de forma distinta según la cultura.", "Los malentendidos pueden percibirse de forma distinta según la cultura.", "Las diferencias culturales pueden ser directas según el estilo.", "La franqueza puede evitar malentendidos según la cultura."],0,"\"Puede percibirse de forma distinta\" expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [malentendidos / importante / es / evitar]",["Es malentendidos importante evitar", "Es evitar importante malentendidos", "Es importante evitar malentendidos", "malentendidos importante Es evitar"],2,"\"Es importante\" + verbo + objeto."],
+    ["arrange","Ordena: [la / franqueza / puede / percibirse / de / forma / distinta]",["la franqueza puede percibirse de forma distinta","de la puede distinta franqueza percibirse forma","puede forma de franqueza percibirse la distinta","de la franqueza percibirse forma distinta puede"],0,"El orden correcto es: \"la franqueza puede percibirse de forma distinta\"."],
     ]
   },
   {
@@ -4046,6 +4327,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¡Qué ___ verte! Hace tiempo que no nos vemos.”",["gusto", "invitarme", "cumpleaños", "conoces"],0,"\"Qué gusto verte\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["¿Cómo conoces al invitado?", "¿Cómo conoces al anfitrión?", "¿Cómo conoces la música?", "¿Cómo conoces el regalo?"],1,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [gusto / verte / qué]",["Qué gusto verte", "Qué verte gusto", "verte Qué gusto", "gusto verte Qué"],0,"Exclamativo + sustantivo + verbo."],
+    ["fill","¡___ gusto verte!",["Qué","Cómo","Cuánto","Cuán"],0,"\"Qué\" + sustantivo forma una exclamación habitual en español."],
     ]
   },
   {
@@ -4091,6 +4373,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Me ___ ir a tu fiesta, gracias por invitarme.”",["puedo", "encantaría", "siento", "gustaría"],1,"\"Me encantaría\" expresa entusiasmo al aceptar."],
       ["translate","Traduce: \"Sorry, I already have plans.\"",["Me encantaría, ya tengo planes.", "Puedo llevar planes, lo siento.", "Lo siento, ya tengo planes.", "Lo siento, ya vine a la fiesta."],2,"\"Ya tengo planes\" es una forma educada de declinar."],
       ["arrange","Ordena: [ir / me / encantaría]",["Me ir encantaría", "encantaría Me ir", "Me encantaría ir", "ir encantaría Me"],2,"Pronombre + verbo + verbo."],
+    ["arrange","Ordena: [¿te / gustaría / venir / a / mi / fiesta?]",["¿te gustaría venir a mi fiesta?","a gustaría fiesta? mi ¿te venir","mi a ¿te gustaría fiesta? venir","¿te a gustaría venir fiesta? mi"],0,"El orden correcto es: \"¿te gustaría venir a mi fiesta?\"."],
     ]
   },
   {
@@ -4113,6 +4396,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Prueba esto, está ___.”",["comer", "sirves", "buenísimo", "delicioso"],3,"\"Delicioso\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["¿Está delicioso un poco más?", "¿Me sirves un poco más?", "¿Qué hay de comer más?", "¿Pruebas un poco más?"],1,"\"¿Me sirves...?\" se pide para que te sirvan más comida o bebida."],
       ["arrange","Ordena: [comer / qué / de / hay]",["Qué de comer hay", "de comer Qué hay", "Qué hay de comer", "Qué comer de hay"],2,"Interrogativo + verbo + preposición + verbo."],
+    ["fill","Está ___.",["riquísimo","rico","más rico","tan rico"],0,"El superlativo con \"-ísimo\" intensifica el adjetivo (\"rico\" → \"riquísimo\")."],
     ]
   },
   {
@@ -4158,6 +4442,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Fue un placer ___, quedemos otro día.”",["tener", "conocerte", "irme", "vernos"],1,"\"Fue un placer conocerte\" es una despedida educada."],
       ["translate","Traduce: \"I have to go now, see you soon!\"",["Ya me tengo que ir, ¡nos vemos pronto!", "Ya me tengo que ir, ¡fue un placer!", "Fue un placer irme, ¡nos vemos pronto!", "Quedemos otro día, ¡nos vemos pronto!"],0,"\"Ya me tengo que ir\" indica que te despides."],
       ["arrange","Ordena: [pronto / vemos / nos]",["Nos vemos pronto", "pronto Nos vemos", "vemos Nos pronto", "pronto vemos Nos"],0,"Pronombre + verbo + adverbio."],
+    ["mcq","¿Cómo se dice \"tengo que irme ya\" en español?",["ya me tengo que ir","nos vemos pronto","quedemos otro día","fue un placer conocerte"],0,"\"tengo que irme ya\" se dice \"ya me tengo que ir\" en español."],
     ]
   },
   {
@@ -4229,6 +4514,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Sin ___, pero ese chiste no fue muy gracioso.”",["claro", "ofender", "humor", "bromeando"],1,"\"Sin ofender, pero...\" suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: \"Yeah, right, and I'm the king of England.\" (sarcasmo)",["Sí, claro, y yo soy el rey de Inglaterra.", "Eso es graciosísimo, y yo soy el rey de Inglaterra.", "Solo estoy bromeando, y yo soy el rey de Inglaterra.", "Sin ofender, y yo soy el rey de Inglaterra."],0,"\"Sí, claro\" es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [bromeando / solo / estoy]",["bromeando estoy Solo", "bromeando Solo estoy", "Solo estoy bromeando", "estoy bromeando Solo"],2,"Adverbio + verbo + verbo."],
+    ["mcq","¿Cómo se dice \"qué gracioso\" en español?",["solo estoy bromeando","eso es graciosísimo","sin ofender, pero...","sí, claro (sarcástico)"],1,"\"qué gracioso\" se dice \"eso es graciosísimo\" en español."],
     ]
   },
   {
@@ -4351,6 +4637,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿___ entrego este formulario de inscripción?”",["cómo", "dónde", "cuál", "cuándo"],1,"\"¿Dónde entrego...?\" pregunta por el lugar correcto."],
       ["translate","Traduce: \"I want to change majors.\"",["Quiero cambiar de carrera.", "Quiero cambiar de fecha.", "Quiero cambiar de formulario.", "Quiero cambiar de aula."],0,"\"Cambiar de carrera\" es cambiar de especialidad académica."],
       ["arrange","Ordena: [límite / la / cuál / es / fecha]",["límite la fecha es Cuál", "es Cuál fecha límite la", "Cuál es la fecha límite", "es la fecha límite Cuál"],2,"Interrogativo + verbo + artículo + sustantivo + adjetivo."],
+    ["arrange","Ordena: [¿dónde / entrego / este / formulario?]",["¿dónde entrego este formulario?","entrego ¿dónde este formulario?","formulario? ¿dónde entrego este","entrego este formulario? ¿dónde"],0,"El orden correcto es: \"¿dónde entrego este formulario?\"."],
     ]
   },
   {
@@ -4396,6 +4683,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “¿Cuál es la fecha de ___ de este libro?”",["préstamo", "biblioteca", "devolución", "estudio"],2,"\"Fecha de devolución\" indica cuándo debes regresar el libro."],
       ["translate","Traduce: \"Can I renew the loan?\"",["¿Puedo renovar la fecha?", "¿Puedo pedir prestado el préstamo?", "¿Puedo renovar el préstamo?", "¿Puedo devolver la sala de estudio?"],2,"\"Renovar el préstamo\" extiende el plazo de devolución."],
       ["arrange","Ordena: [libro / prestado / pedir / quiero / un]",["prestado libro Quiero un pedir", "libro Quiero pedir un prestado", "Quiero libro un prestado pedir", "Quiero pedir prestado un libro"],3,"Verbo + verbo + adjetivo + artículo + sustantivo."],
+    ["arrange","Ordena: [renovar / el / préstamo]",["renovar el préstamo","préstamo renovar el","el préstamo renovar","préstamo el renovar"],0,"El orden correcto es: \"renovar el préstamo\"."],
     ]
   },
   {
@@ -4418,6 +4706,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “___ las tareas del proyecto entre todos.”",["Encarguémonos", "Dividámonos", "Reunámonos", "Terminemos"],1,"\"Dividámonos\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["No nos reunimos todavía.", "No dividimos las tareas todavía.", "No me encargo de mi parte todavía.", "No he terminado mi parte todavía."],3,"\"No he terminado... todavía\" indica que sigue en proceso."],
       ["arrange","Ordena: [jueves / reunimos / nos / el]",["reunimos Nos jueves el", "reunimos el jueves Nos", "Nos reunimos el jueves", "jueves el reunimos Nos"],2,"Pronombre + verbo + artículo + sustantivo."],
+    ["fill","___ las tareas del proyecto.",["Dividámonos","Dividimos","Dividiremos","Dividiendo"],0,"Imperativo reflexivo de \"nosotros\" para organizar una tarea en grupo."],
     ]
   },
   {
@@ -4463,6 +4752,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “Voy a comer en la ___ del campus.”",["horario", "club", "cafetería", "residencia"],2,"\"Cafetería del campus\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Me uní a una residencia este semestre.", "Me uní a una cafetería este semestre.", "Me uní a un horario este semestre.", "Me uní a un club estudiantil este semestre."],3,"\"Club estudiantil\" es una organización de estudiantes."],
       ["arrange","Ordena: [clases / horario / mi / de]",["Mi horario de clases", "Mi clases de horario", "Mi horario clases de", "Mi de clases horario"],0,"Posesivo + sustantivo + preposición + sustantivo."],
+    ["arrange","Ordena: [la / cafetería / del / campus]",["la cafetería del campus","la del campus cafetería","campus la del cafetería","del cafetería la campus"],0,"El orden correcto es: \"la cafetería del campus\"."],
     ]
   },
   {
@@ -4510,6 +4800,7 @@ window.SITUATION_LESSON_BANKS.ES = {
       ["fill","Completa: “La fecha ___ de solicitud para la beca es el próximo viernes.”",["documentos", "límite", "elegibilidad", "mérito"],1,"\"Fecha límite de solicitud\" es la fecha tope para presentar la solicitud."],
       ["translate","Traduce: \"What are the eligibility requirements for financial aid?\"",["¿Qué documentos necesito para la beca?", "¿Cuál es la fecha límite para la beca de mérito?", "¿Qué es una beca basada en ayuda financiera?", "¿Cuáles son los requisitos de elegibilidad para la ayuda financiera?"],3,"\"Requisitos de elegibilidad para la ayuda financiera\" son los requisitos para calificar."],
       ["arrange","Ordena: [beca / solicitar / una / quiero / para]",["una Quiero beca solicitar para", "una beca para solicitar Quiero", "una solicitar Quiero para beca", "Quiero solicitar para una beca"],3,"\"Quiero solicitar\" + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la elegibilidad para ayuda financiera\" en español?",["la fecha límite de solicitud","solicitar una beca","presentar documentos de respaldo","elegibilidad para ayuda financiera"],3,"\"la elegibilidad para ayuda financiera\" se dice \"elegibilidad para ayuda financiera\" en español."],
     ]
   },
   {
@@ -4660,6 +4951,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ enregistrer ma valise, s'il vous plaît.”",["Je voudrais", "Je peux", "Le vol", "J'ai"],0,"\"Je voudrais\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Voici ma valise.", "Voici mon passeport.", "Quelle est mon passeport ?", "Voici mon vol."],1,"\"Voici\" presenta algo que entregas."],
       ["arrange","Ordena: [valise / voudrais / ma / enregistrer / je]",["Je voudrais enregistrer ma valise", "enregistrer voudrais ma valise Je", "Je enregistrer valise voudrais ma", "Je enregistrer voudrais valise ma"],0,"\"Je voudrais\" + verbo + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿Dónde está el mostrador de la aerolínea?\" en francés?",["Voici mon passeport","À quelle heure part le vol ?","Où est le comptoir de la compagnie ?","Je voudrais enregistrer ma valise"],2,"\"¿Dónde está el mostrador de la aerolínea?\" se dice \"Où est le comptoir de la compagnie ?\" en francés."],
     ]
   },
   {
@@ -4708,6 +5000,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Où est le ___ des bagages ?”",["fragile", "surpoids", "retrait", "enregistré"],2,"\"Retrait des bagages\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["Ma valise est en surpoids.", "Ma valise est perdue.", "Ma valise est à main.", "Ma valise contient des objets fragiles."],3,"\"Fragile\" describe objetos que se rompen fácilmente."],
       ["arrange","Ordena: [perdu / est / mon / bagage]",["Mon bagage est perdu", "est Mon bagage perdu", "perdu Mon est bagage", "perdu est Mon bagage"],0,"Posesivo + sustantivo + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"el equipaje de mano\" en francés?",["fragile","le bagage enregistré","le retrait des bagages","le bagage à main"],3,"\"el equipaje de mano\" se dice \"le bagage à main\" en francés."],
     ]
   },
   {
@@ -4732,6 +5025,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Quel est le ___ de votre visite ?”",["détecteur", "chaussure", "motif", "liquide"],2,"\"Le motif de votre visite\" pregunta el porqué del viaje."],
       ["translate","Traduce: \"I have nothing to declare.\"",["Je n'ai rien à déclarer.", "Je n'ai pas mes chaussures.", "Je n'ai rien à emporter.", "Je n'ai pas mon passeport."],0,"\"Déclarer\" se usa en aduana para objetos que debes notificar."],
       ["arrange","Ordena: [chaussures / enlevez / vos]",["Enlevez vos chaussures", "chaussures Enlevez vos", "chaussures vos Enlevez", "vos chaussures Enlevez"],0,"Imperativo + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el detector de metales\" en francés?",["le détecteur de métaux","le motif de votre visite","enlevez vos chaussures","les liquides"],0,"\"el detector de metales\" se dice \"le détecteur de métaux\" en francés."],
     ]
   },
   {
@@ -4756,6 +5050,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Mon vol a été annulé. Pouvez-vous me ___ sur un autre ?”",["reprogrammer", "enregistrer", "déclarer", "rater"],0,"\"Reprogrammer\" es cambiarte a otro vuelo."],
       ["translate","Traduce: \"What is the next available flight to Madrid?\"",["Où est mon vol de correspondance ?", "Mon vol est-il annulé ?", "Où est le retrait des bagages ?", "Quel est le prochain vol disponible pour Madrid ?"],3,"\"Prochain vol disponible\" pregunta por la siguiente opción."],
       ["arrange","Ordena: [vol / raté / mon / j'ai]",["vol J'ai raté mon", "raté mon vol J'ai", "vol mon J'ai raté", "J'ai raté mon vol"],3,"Verbo + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"retrasado\" en francés?",["retardé","le vol de correspondance","le prochain vol disponible","annulé"],0,"\"retrasado\" se dice \"retardé\" en francés."],
     ]
   },
   {
@@ -4827,6 +5122,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “J'ai peur de rater mon vol de ___.”",["salon", "embarquement", "accès", "correspondance"],3,"\"Vol de correspondance\" es el vuelo de enlace."],
       ["translate","Traduce: \"If I miss the flight, will I be rebooked automatically?\"",["Si je rate le vol, paierai-je une amende ?", "Si je rate le vol, perdrai-je mon billet ?", "Si je rate la porte, aurai-je l'embarquement prioritaire ?", "Si je rate le vol, serai-je reprogrammé automatiquement ?"],3,"\"Serai-je reprogrammé\" usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [salon / accès / au / j'ai]",["accès au J'ai salon", "salon au accès J'ai", "J'ai accès au salon", "J'ai au salon accès"],2,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tener acceso a la sala VIP\" en francés?",["rater un vol de correspondance","une correspondance serrée","être reprogrammé automatiquement","avoir accès au salon VIP"],3,"\"tener acceso a la sala VIP\" se dice \"avoir accès au salon VIP\" en francés."],
     ]
   },
   {
@@ -4974,6 +5270,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ commander la soupe, s'il vous plaît.”",["Je voudrais", "Sans", "Pour", "Vous êtes"],0,"\"Je voudrais\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Pour moi, oignon.", "Sans pâtes, s'il vous plaît.", "Avec oignon, s'il vous plaît.", "Sans oignon, s'il vous plaît."],3,"\"Sans\" indica que no quieres ese ingrediente."],
       ["arrange","Ordena: [que / me / recommandez-vous]",["me recommandez-vous Que","Que me recommandez-vous","Que recommandez-vous me","me Que recommandez-vous"],1,"Interrogativo + pronombre + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"Para mí, la pasta\" en francés?",["Pour moi, les pâtes","Sans oignon, s'il vous plaît","Que me recommandez-vous ?","Je voudrais commander..."],0,"\"Para mí, la pasta\" se dice \"Pour moi, les pâtes\" en francés."],
     ]
   },
   {
@@ -5021,6 +5318,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Je suis allergique aux fruits à ___.”",["laitiers", "coque", "viande", "gluten"],1,"\"Fruits à coque\" son nueces, almendras, etc."],
       ["translate","Traduce: \"I don't eat meat.\"",["Je ne suis pas allergique.", "Je ne mange pas de fruits à coque.", "Cela ne contient pas de produits laitiers.", "Je ne mange pas de viande."],3,"\"Je ne mange pas de\" + alimento indica una preferencia alimentaria."],
       ["arrange","Ordena: [viande / mange / ne / de / pas / je]",["Je pas de ne mange viande", "Je mange pas de viande ne", "Je ne mange pas de viande", "viande ne pas de mange Je"],2,"Negación + verbo + \"de\" + sustantivo."],
+    ["mcq","¿Cómo se dice \"los frutos secos\" en francés?",["les fruits à coque","je suis allergique à...","intolérant/e au gluten","est-ce que cela contient des produits laitiers ?"],0,"\"los frutos secos\" se dice \"les fruits à coque\" en francés."],
     ]
   },
   {
@@ -5044,6 +5342,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Excusez-moi, ce ___ ce que j'ai commandé.”",["changer", "n'est pas", "manque", "est froid"],1,"\"Ce n'est pas ce que j'ai commandé\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["Est-ce froid ?", "La commande manque-t-elle ?", "Pourriez-vous le changer ?", "Pourriez-vous l'apporter ?"],2,"\"Pourriez-vous...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [trop / froid / c'est]",["C'est trop froid","C'est froid trop","froid trop C'est","froid C'est trop"],0,"Pronombre + verbo + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"falta algo del pedido\" en francés?",["pourriez-vous le changer ?","il manque la commande","ce n'est pas ce que j'ai commandé","c'est trop salé"],1,"\"falta algo del pedido\" se dice \"il manque la commande\" en francés."],
     ]
   },
   {
@@ -5067,6 +5366,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Pouvons-nous ___ l'addition entre les quatre ?”",["payer", "partager", "garder", "accepter"],1,"\"Partager l'addition\" es repartir el pago."],
       ["translate","Traduce: \"Keep the change.\"",["Partagez l'addition.", "Payez le pourboire.", "Acceptez la carte.", "Gardez la monnaie."],3,"\"Gardez la monnaie\" es una forma común de dejar propina."],
       ["arrange","Ordena: [plaît / l'addition / vous / s'il]",["s'il plaît vous L'addition", "vous plaît s'il L'addition", "L'addition s'il vous plaît", "vous L'addition s'il plaît"],2,"Sustantivo + expresión de cortesía."],
+    ["mcq","¿Cómo se dice \"la propina\" en francés?",["acceptez-vous la carte ?","l'addition, s'il vous plaît","gardez la monnaie","le pourboire"],3,"\"la propina\" se dice \"le pourboire\" en francés."],
     ]
   },
   {
@@ -5137,6 +5437,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Ce rouge corsé va ___ le plat principal à merveille.”",["accompagner", "réserver", "demander", "fêter"],0,"\"Accompagner\" significa resaltar/combinar bien con algo."],
       ["translate","Traduce: \"Could you recommend a wine pairing for this dish?\"",["Pourriez-vous nous recommander un accord mets et vins pour ce plat ?", "Pourriez-vous accompagner le sommelier ?", "Pourriez-vous réserver une table pour ce plat ?", "Pourriez-vous nous recommander un menu pour ce vin ?"],0,"\"Accord mets et vins\" es la combinación entre un vino y un plato."],
       ["arrange","Ordena: [dégustation / menu / un / voudrions / nous]",["dégustation Nous menu un voudrions", "voudrions menu Nous un dégustation", "menu un voudrions Nous dégustation", "Nous voudrions un menu dégustation"],3,"Verbo + artículo + sustantivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el maridaje de vinos\" en francés?",["un rouge corsé","la recommandation du sommelier","accompagner le plat","l'accord mets et vins"],3,"\"el maridaje de vinos\" se dice \"l'accord mets et vins\" en francés."],
     ]
   },
   {
@@ -5284,6 +5585,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “J'ai une réservation au ___ de García.”",["wifi", "nom", "clé", "heure"],1,"\"Au nom de\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["J'ai besoin d'une autre réservation.", "J'ai besoin d'une autre chambre.", "J'ai besoin d'une autre clé.", "J'ai besoin d'un autre petit déjeuner."],2,"\"Une autre clé\" pide una llave adicional."],
       ["arrange","Ordena: [clé / besoin / d'une / autre / j'ai]",["autre J'ai besoin d'une clé", "d'une autre besoin J'ai clé", "J'ai besoin d'une autre clé", "clé besoin autre J'ai d'une"],2,"Verbo + sustantivo + preposición + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿A qué hora es el check-in?\" en francés?",["À quelle heure est l'enregistrement ?","Le petit déjeuner est-il inclus ?","J'ai une réservation au nom de...","Quel est le mot de passe wifi ?"],0,"\"¿A qué hora es el check-in?\" se dice \"À quelle heure est l'enregistrement ?\" en francés."],
     ]
   },
   {
@@ -5332,6 +5634,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Y a-t-il une ___ dans l'hôtel ? Je veux nager demain.”",["blanchisserie", "piscine", "salle de sport", "parking"],1,"\"Piscine\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["Y a-t-il une salle de sport disponible ?", "Y a-t-il un service en chambre disponible ?", "Y a-t-il un parking disponible ?", "Y a-t-il une piscine disponible ?"],2,"\"Y a-t-il...disponible?\" pregunta por disponibilidad de un servicio."],
       ["arrange","Ordena: [piscine / a / y / dans / il / une / l'hôtel]",["Il y a une piscine dans l'hôtel","dans a une l'hôtel Il y piscine","dans a piscine une Il y l'hôtel","piscine Il une dans y l'hôtel a"],0,"Nota: forma completa es \"Y a-t-il une piscine dans l'hôtel ?\"; practica el orden base."],
+    ["mcq","¿Cómo se dice \"la piscina\" en francés?",["le service en chambre","le parking","la piscine","la blanchisserie"],2,"\"la piscina\" se dice \"la piscine\" en francés."],
     ]
   },
   {
@@ -5355,6 +5658,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Excusez-moi, la climatisation ne ___ pas dans ma chambre.”",["est", "sale", "fonctionne", "a"],2,"\"Ne fonctionne pas\" describe algo roto."],
       ["translate","Traduce: \"Could you change my room?\"",["Pourriez-vous réparer la climatisation ?", "Pourriez-vous nettoyer ma chambre ?", "Pourriez-vous apporter de l'eau chaude ?", "Pourriez-vous me changer de chambre ?"],3,"\"Pourriez-vous...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [bruit / a / beaucoup / y / de / il]",["y bruit beaucoup a de Il", "bruit de beaucoup y a Il", "de Il beaucoup bruit y a", "Il y a beaucoup de bruit"],3,"Verbo + adjetivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la habitación está sucia\" en francés?",["la chambre est sale","pourriez-vous me changer de chambre ?","il n'y a pas d'eau chaude","il y a beaucoup de bruit"],0,"\"la habitación está sucia\" se dice \"la chambre est sale\" en francés."],
     ]
   },
   {
@@ -5378,6 +5682,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “À quelle heure est le ___ ?”",["frais", "minibar", "bagage", "check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["Pourriez-vous quitter ma chambre pour quelques heures ?", "Pourriez-vous vérifier mes bagages pour quelques heures ?", "Pourriez-vous facturer mes bagages pour quelques heures ?", "Pourriez-vous garder mes bagages pour quelques heures ?"],3,"\"Garder les bagages\" es dejarlo temporalmente en el hotel."],
       ["arrange","Ordena: [facture / la / vérifier / pourriez-vous]",["Pourriez-vous vérifier la facture","Pourriez-vous facture vérifier la","vérifier facture la Pourriez-vous","facture la vérifier Pourriez-vous"],0,"Verbo modal + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer el check-out\" en francés?",["garder les bagages","faire le check-out","pourriez-vous vérifier la facture ?","quitter la chambre"],1,"\"hacer el check-out\" se dice \"faire le check-out\" en francés."],
     ]
   },
   {
@@ -5448,6 +5753,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Les équipements ne sont pas ___ sur le site web.”",["attendu", "annoncé", "déconnecté", "service"],1,"\"Comme annoncé\" significa \"tal como se promociona\"."],
       ["translate","Traduce: \"The gym falls short of what we expected.\"",["La salle de sport est exactement comme annoncé.", "La salle de sport n'est pas à la hauteur de ce que nous attendions.", "La salle de sport se déconnecte des attentes.", "La salle de sport est hors service aujourd'hui."],1,"\"Ne pas être à la hauteur des attentes\" es no cumplir lo esperado."],
       ["arrange","Ordena: [service / piscine / est / hors / la]",["est piscine La service hors", "La piscine est hors service", "service piscine hors La est", "piscine La est hors service"],1,"Sujeto + verbo + \"hors service\"."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anunciaban\" en francés?",["la piscine est hors service","le wifi se déconnecte constamment","les équipements ne sont pas comme annoncé","l'accès à la salle de sport et au spa"],2,"\"las instalaciones no son como se anunciaban\" se dice \"les équipements ne sont pas comme annoncé\" en francés."],
     ]
   },
   {
@@ -5495,6 +5801,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Pourriez-vous facturer cela sur mon ___ d'entreprise ?”",["tarif", "reçu", "compte", "chambre"],2,"\"Le facturer sur le compte de l'entreprise\" es cargar el gasto a la empresa."],
       ["translate","Traduce: \"Could I get an itemized receipt for my company?\"",["Pourrais-je travailler à distance depuis l'espace affaires ?", "Pourrais-je avoir un reçu détaillé pour mon entreprise ?", "Pourrais-je avoir un tarif corporate pour ma chambre ?", "Pourrais-je facturer la salle de réunion sur mon compte ?"],1,"\"Reçu détaillé\" es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [compte / cela / facturez / mon / sur / plaît / s'il / vous]",["Facturez cela sur mon compte s'il vous plaît", "s'il cela mon plaît sur compte vous Facturez", "mon s'il compte cela vous sur Facturez plaît", "mon vous s'il plaît sur Facturez compte cela"],0,"Imperativo + objeto + preposición + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"cargarlo a la cuenta de la empresa\" en francés?",["une salle de réunion avec projecteur","un reçu détaillé","travailler à distance depuis l'espace affaires","le facturer sur le compte de l'entreprise"],3,"\"cargarlo a la cuenta de la empresa\" se dice \"le facturer sur le compte de l'entreprise\" en francés."],
     ]
   },
   {
@@ -5593,6 +5900,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ coûte le kilo de pommes ?”",["Où", "Combien", "Quoi", "Quel"],1,"\"Combien coûte\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Je veux le prendre.", "Je veux un kilo entier.", "Je veux un demi-kilo.", "Je veux quelque chose de plus frais."],2,"\"Demi-kilo\" es 500 gramos."],
       ["arrange","Ordena: [prends / je / le]",["prends Je le", "prends le Je", "le Je prends", "Je le prends"],3,"Sujeto + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"¿Tiene algo más fresco?\" en francés?",["Je veux un demi-kilo","Combien ça coûte ?","Je le prends","Avez-vous quelque chose de plus frais ?"],3,"\"¿Tiene algo más fresco?\" se dice \"Avez-vous quelque chose de plus frais ?\" en francés."],
     ]
   },
   {
@@ -5639,6 +5947,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Désolé, il ne m'en reste plus, mais je peux vous offrir ceci à la ___.”",["similaire", "place", "stock", "kilo"],1,"\"À la place\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Je vous offre des tomates à la place aujourd'hui.", "Il ne me reste plus de tomates aujourd'hui.", "C'est en rupture de stock de tomates aujourd'hui.", "Je n'ai pas de tomates similaires aujourd'hui."],1,"\"Il ne me reste plus\" indica que se acabó el producto."],
       ["arrange","Ordena: [stock / de / rupture / en / c'est]",["en rupture stock de C'est","rupture C'est en stock de","C'est rupture de stock en","C'est en rupture de stock"],3,"Pronombre + verbo + preposición + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"se me acabó..\" en francés?",["je peux vous offrir ceci à la place","c'est en rupture de stock","avez-vous quelque chose de similaire ?","il ne m'en reste plus"],3,"\"se me acabó...\" se dice \"il ne m'en reste plus\" en francés."],
     ]
   },
   {
@@ -5661,6 +5970,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Je veux rendre ceci, ___ hier et c'est déjà mauvais.”",["c'est en", "je l'ai acheté", "je veux", "pouvez-vous"],1,"\"Je l'ai acheté hier\" indica cuándo se hizo la compra."],
       ["translate","Traduce: \"I bought it yesterday and it's already bad.\"",["Je l'ai acheté hier et c'est déjà mauvais.", "Pouvez-vous me rembourser demain ?", "Je veux le rendre demain.", "Je l'ai acheté aujourd'hui et c'est bon."],0,"\"Hier\" + \"c'est déjà mauvais\" explica el problema con el producto."],
       ["arrange","Ordena: [ceci / rendre / veux / je]",["veux ceci rendre Je", "Je veux rendre ceci", "veux ceci Je rendre", "Je veux ceci rendre"],1,"Verbo + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"lo compré ayer\" en francés?",["pouvez-vous me rembourser ?","je veux rendre ceci","je l'ai acheté hier","c'est en mauvais état"],2,"\"lo compré ayer\" se dice \"je l'ai acheté hier\" en francés."],
     ]
   },
   {
@@ -5683,6 +5993,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Désolé, ici c'est ___ en espèces, on n'accepte pas la carte.”",["monnaie", "uniquement", "billet", "carte"],1,"\"Uniquement en espèces\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["Acceptez-vous la carte ?", "Avez-vous de la monnaie ?", "Acceptez-vous les espèces ?", "Payez-vous en espèces ?"],0,"\"Acceptez-vous la carte?\" pregunta por el método de pago."],
       ["arrange","Ordena: [carte / la / acceptez-vous / bancaire]",["Acceptez-vous la carte bancaire","bancaire Acceptez-vous la carte","bancaire Acceptez-vous carte la","carte Acceptez-vous bancaire la"],0,"Verbo + pronombre + artículo + sustantivo + adjetivo."],
+    ["mcq","¿Cómo se dice \"pagar en efectivo\" en francés?",["uniquement en espèces","avez-vous de la monnaie pour un gros billet ?","payer en espèces","acceptez-vous la carte ?"],2,"\"pagar en efectivo\" se dice \"payer en espèces\" en francés."],
     ]
   },
   {
@@ -5777,6 +6088,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Plus vous commandez, plus la ___ est importante.”",["quantité", "livraison", "prix", "remise"],3,"\"Plus..., plus la remise\" expresa proporcionalidad."],
       ["translate","Traduce: \"Is delivery included in the wholesale price?\"",["La livraison est-elle incluse dans le prix de gros ?", "La commande récurrente est-elle incluse dans la livraison ?", "La quantité minimale est-elle incluse dans le prix ?", "La remise est-elle incluse dans la livraison ?"],0,"\"Incluse dans le prix de gros\" pregunta si el envío está cubierto."],
       ["arrange","Ordena: [récurrente / commande / une / passer / veux / je]",["Je veux passer une commande récurrente", "veux passer commande Je récurrente une", "Je passer récurrente veux une commande", "Je une récurrente veux passer commande"],0,"\"Je veux passer\" + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer un pedido recurrente\" en francés?",["passer une commande récurrente","un prix de gros","la quantité minimale de commande","une remise sur volume"],0,"\"hacer un pedido recurrente\" se dice \"passer une commande récurrente\" en francés."],
     ]
   },
   {
@@ -5900,6 +6212,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “J'ai de la fièvre ___ trois jours.”",["par", "avec", "pour", "depuis"],3,"\"Depuis trois jours\" indica cuánto tiempo llevas con el síntoma."],
       ["translate","Traduce: \"I feel nauseous.\"",["J'ai de la fièvre.", "J'ai mal à la tête.", "J'ai des nausées.", "Je me sens étourdi."],2,"\"Nausées\" es el síntoma de querer vomitar."],
       ["arrange","Ordena: [tête / mal / j'ai / à / la]",["la J'ai mal à tête", "tête mal à la J'ai", "la à tête J'ai mal", "J'ai mal à la tête"],3,"Verbo + adjetivo + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo fiebre\" en francés?",["je me sens étourdi/e","depuis trois jours","j'ai mal à la tête","j'ai de la fièvre"],3,"\"tengo fiebre\" se dice \"j'ai de la fièvre\" en francés."],
     ]
   },
   {
@@ -5946,6 +6259,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Prenez-le ___ fois par jour, pendant les repas.”",["avec", "deux", "les", "sans"],1,"\"Deux fois par jour\" indica la frecuencia de la dosis."],
       ["translate","Traduce: \"Do you have something for a headache?\"",["Avez-vous des effets secondaires ?", "Avez-vous quelque chose avec ordonnance ?", "Avez-vous quelque chose contre le mal de tête ?", "Avez-vous quelque chose deux fois par jour ?"],2,"Pregunta típica en la farmacia por un síntoma."],
       ["arrange","Ordena: [jour / par / fois / deux]",["par Deux jour fois", "fois Deux par jour", "Deux fois par jour", "par fois Deux jour"],2,"Número + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"con o sin receta\" en francés?",["les effets secondaires","avec ou sans ordonnance","deux fois par jour","avez-vous quelque chose contre le mal de tête ?"],1,"\"con o sin receta\" se dice \"avec ou sans ordonnance\" en francés."],
     ]
   },
   {
@@ -5991,6 +6305,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Ce traitement est-il ___ par mon assurance ?”",["numéro", "signé", "payé", "couvert"],3,"\"Être couvert par\" indica si el seguro lo incluye."],
       ["translate","Traduce: \"I need to sign the admission form.\"",["Je dois payer la franchise.", "J'ai besoin de mon numéro de police.", "J'ai besoin de savoir si c'est couvert.", "Je dois signer le formulaire d'admission."],3,"\"Signer le formulaire d'admission\" es un trámite habitual al ingresar."],
       ["arrange","Ordena: [franchise / la / quelle / est]",["est Quelle franchise la", "est franchise la Quelle", "Quelle est la franchise", "franchise Quelle la est"],2,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿esto lo cubre mi seguro?\" en francés?",["le numéro de police","signer le formulaire d'admission","la franchise","est-ce couvert par mon assurance ?"],3,"\"¿esto lo cubre mi seguro?\" se dice \"est-ce couvert par mon assurance ?\" en francés."],
     ]
   },
   {
@@ -6085,6 +6400,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Assurez-vous de comprendre les risques ___ de signer le formulaire.”",["sans", "avant", "pendant", "après"],1,"\"Avant de signer\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["Puis-je signer avant de poser des questions ?", "Est-ce que je comprends ce que je signe ?", "Y a-t-il des risques avant la procédure ?", "Puis-je poser des questions avant de signer ?"],3,"\"Avant de signer\" marca el orden correcto de las acciones."],
       ["arrange","Ordena: [consentement / signer / formulaire / un / dois / de / je]",["un consentement de signer dois formulaire Je", "de formulaire signer dois Je consentement un", "Je consentement de un dois signer formulaire", "Je dois signer un formulaire de consentement"],3,"\"Je dois\" + verbo + artículo + sustantivo compuesto."],
+    ["mcq","¿Cómo se dice \"¿tengo otras opciones?\" en francés?",["comprendre ce à quoi vous consentez","signer un formulaire de consentement","les risques et bénéfices de la procédure","ai-je d'autres options ?"],3,"\"¿tengo otras opciones?\" se dice \"ai-je d'autres options ?\" en francés."],
     ]
   },
   {
@@ -6207,6 +6523,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ planifier une réunion pour demain.”",["Merci", "Pouvons-nous", "J'ai joint", "Je vais"],1,"\"Pouvons-nous...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Je vais joindre le fichier.", "Je vais avoir besoin de plus de temps.", "Je vais planifier une réunion.", "Je vais remercier votre patience."],1,"\"Je vais avoir besoin\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [fichier / joint / le / j'ai]",["fichier le J'ai joint", "J'ai joint le fichier", "fichier joint le J'ai", "J'ai fichier le joint"],1,"Verbo + participio + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"Gracias por su paciencia\" en francés?",["Merci pour votre patience","Pouvons-nous planifier une réunion ?","Je vais avoir besoin de plus de temps","J'ai joint le fichier"],0,"\"Gracias por su paciencia\" se dice \"Merci pour votre patience\" en francés."],
     ]
   },
   {
@@ -6252,6 +6569,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ par l'ordre du jour d'aujourd'hui.”",["Passons", "Demandez", "Commençons", "Voyez"],2,"\"Commençons\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Comme vous pouvez le voir sur cette diapositive...", "Comme vous pouvez commencer sur cette diapositive...", "Comme vous pouvez demander sur cette diapositive...", "Comme vous pouvez passer sur cette diapositive..."],0,"\"Comme vous pouvez voir\" introduce una explicación visual."],
       ["arrange","Ordena: [questions / des / avez-vous]",["Avez-vous des questions","questions des Avez-vous","questions Avez-vous des","des questions Avez-vous"],0,"Verbo + pronombre + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿alguna pregunta?\" en francés?",["comme vous pouvez le voir sur cette diapositive","commençons par l'ordre du jour","des questions ?","passons au point suivant"],2,"\"¿alguna pregunta?\" se dice \"des questions ?\" en francés."],
     ]
   },
   {
@@ -6274,6 +6592,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ M. López : je vous écris pour confirmer la réunion.”",["Cher", "Réponse", "Cordialement", "Attente"],0,"\"Cher/Chère\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Dans l'attente de votre réponse.", "Cher à votre réponse.", "Cordialement à votre réponse.", "Je vous écris à votre réponse."],0,"\"Dans l'attente de\" es una despedida formal común."],
       ["arrange","Ordena: [distinguées / salutations / mes]",["Mes salutations distinguées", "salutations distinguées Mes", "salutations Mes distinguées", "distinguées Mes salutations"],0,"Posesivo + sustantivo + adjetivo."],
+    ["mcq","¿Cómo se dice \"Estimado/a..\" en francés?",["Dans l'attente de votre réponse","Je vous écris pour...","Cordialement","Cher/Chère..."],3,"\"Estimado/a...\" se dice \"Cher/Chère...\" en francés."],
     ]
   },
   {
@@ -6296,6 +6615,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Je comprends votre point de vue, ___ je ne suis pas entièrement d'accord.”",["bien que", "mais", "si", "parce que"],1,"\"Mais\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Pouvons-nous trouver la raison ?", "Pouvons-nous comprendre votre point de vue ?", "Sommes-nous entièrement d'accord ?", "Pouvons-nous trouver un compromis ?"],3,"\"Un compromis\" es un compromiso entre dos posturas."],
       ["arrange","Ordena: [suis / pas / ne / je / d'accord]",["Je d'accord ne pas suis","Je ne suis pas d'accord","pas Je d'accord ne suis","ne pas Je d'accord suis"],1,"Negación + verbo + \"d'accord\"."],
+    ["mcq","¿Cómo se dice \"Entiendo su punto, pero..\" en francés?",["je comprends votre point de vue, mais...","je préfère être direct/e à ce sujet","je ne suis pas entièrement d'accord","pouvons-nous trouver un compromis ?"],0,"\"Entiendo su punto, pero...\" se dice \"je comprends votre point de vue, mais...\" en francés."],
     ]
   },
   {
@@ -6366,6 +6686,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Merci pour ce retour, je vais certainement en tenir ___.”",["compte", "apprécie", "point", "marché"],0,"\"En tenir compte\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["J'ai tenu compte du retour sur l'amélioration.", "J'apprécie vraiment ce retour, surtout à propos du point à améliorer.", "J'apprécie vraiment le point, surtout le retour.", "J'apprécie vraiment ce qui a bien marché du retour."],1,"\"J'apprécie vraiment ce retour\" + \"surtout...\"."],
       ["arrange","Ordena: [retour / ce / vraiment / j'apprécie]",["J'apprécie vraiment ce retour","vraiment J'apprécie ce retour","retour vraiment J'apprécie ce","retour ce vraiment J'apprécie"],0,"Sujeto + adverbio + verbo + demostrativo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la retroalimentación constructiva\" en francés?",["j'apprécie vraiment ce retour","des retours constructifs","en tenir compte","ce qui a bien marché et ce qui pourrait s'améliorer"],1,"\"la retroalimentación constructiva\" se dice \"des retours constructifs\" en francés."],
     ]
   },
   {
@@ -6413,6 +6734,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Il est important de clarifier ___ que de supposer quand on travaille avec différentes cultures.”",["être", "différent", "plutôt", "compte"],2,"\"Plutôt que supposer\" es preferir aclarar antes que suponer."],
       ["translate","Traduce: \"Directness can be perceived differently depending on the culture.\"",["La franchise peut être perçue différemment selon la culture.", "Les malentendus peuvent être perçus différemment selon la culture.", "Les différences culturelles peuvent être directes selon le style.", "La franchise peut éviter les malentendus selon la culture."],0,"\"Peut être perçue différemment\" expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [malentendus / important / est / d'éviter / les / il]",["Il important est malentendus d'éviter les", "les d'éviter est malentendus Il important", "Il est important d'éviter les malentendus", "malentendus d'éviter est les important Il"],2,"\"Il est important de\" + verbo + objeto."],
+    ["mcq","¿Cómo se dice \"la franqueza puede percibirse de forma distinta\" en francés?",["la franchise peut être perçue différemment","éviter les malentendus","un style de communication différent","être attentif/ve aux différences culturelles"],0,"\"la franqueza puede percibirse de forma distinta\" se dice \"la franchise peut être perçue différemment\" en francés."],
     ]
   },
   {
@@ -6511,6 +6833,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Ça me fait ___ de te voir ! Ça fait longtemps.”",["plaisir", "invité", "anniversaire", "connais"],0,"\"Ça me fait plaisir\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Comment connais-tu l'invité ?", "Comment connais-tu l'hôte ?", "Comment connais-tu la musique ?", "Comment connais-tu le cadeau ?"],1,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [voir / plaisir / me / ça / fait / de / te]",["Ça me plaisir de fait voir te", "Ça me fait plaisir de te voir", "plaisir de voir Ça te me fait", "Ça fait voir me plaisir te de"],1,"Pronombre + verbo + sustantivo + preposición + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"¡Feliz cumpleaños!\" en francés?",["Joyeux anniversaire !","Ça me fait plaisir de te voir !","Merci de m'avoir invité/e","Comment connais-tu l'hôte ?"],0,"\"¡Feliz cumpleaños!\" se dice \"Joyeux anniversaire !\" en francés."],
     ]
   },
   {
@@ -6556,6 +6879,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “J'___ y aller à ta fête, merci de m'avoir invité.”",["désolé", "adorerais", "puis-je", "aimerais-tu"],1,"\"J'adorerais\" expresa entusiasmo al aceptar."],
       ["translate","Traduce: \"Sorry, I already have plans.\"",["J'adorerais, j'ai déjà des projets.", "Puis-je amener des projets, désolé.", "Désolé, j'ai déjà des projets.", "Désolé, je suis déjà venu à la fête."],2,"\"J'ai déjà des projets\" es una forma educada de declinar."],
       ["arrange","Ordena: [aller / j'adorerais / y]",["J'adorerais aller y", "y J'adorerais aller", "J'adorerais y aller", "aller y J'adorerais"],2,"Pronombre + verbo + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"¿te gustaría venir a mi fiesta?\" en francés?",["j'adorerais y aller","désolé/e, j'ai déjà des projets","puis-je amener quelqu'un ?","aimerais-tu venir à ma fête ?"],3,"\"¿te gustaría venir a mi fiesta?\" se dice \"aimerais-tu venir à ma fête ?\" en francés."],
     ]
   },
   {
@@ -6578,6 +6902,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Goûte ça, c'est ___.”",["manger", "resservir", "vraiment", "délicieux"],3,"\"Délicieux\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["C'est délicieux un peu plus ?", "Tu peux me resservir un peu ?", "Qu'est-ce qu'il y a à manger de plus ?", "Tu goûtes un peu plus ?"],1,"\"Tu peux me resservir?\" se pide para que te sirvan más comida o bebida."],
       ["arrange","Ordena: [manger / à / qu'est-ce / a / y / qu'il]",["Qu'est-ce qu'il y a à manger","y Qu'est-ce manger a qu'il à","a y qu'il Qu'est-ce manger à","manger à a Qu'est-ce y qu'il"],0,"Interrogativo + verbo + preposición + verbo."],
+    ["mcq","¿Cómo se dice \"¿qué hay de comer?\" en francés?",["tu peux me resservir un peu ?","c'est vraiment très bon","qu'est-ce qu'il y a à manger ?","goûte ça, c'est délicieux"],2,"\"¿qué hay de comer?\" se dice \"qu'est-ce qu'il y a à manger ?\" en francés."],
     ]
   },
   {
@@ -6623,6 +6948,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Ça a été un plaisir de te ___, retrouvons-nous un autre jour.”",["avoir", "rencontrer", "aller", "voir"],1,"\"Ça a été un plaisir de te rencontrer\" es una despedida educada."],
       ["translate","Traduce: \"I have to go now, see you soon!\"",["Je dois y aller maintenant, à bientôt !", "Je dois y aller maintenant, ça a été un plaisir !", "Ça a été un plaisir d'y aller, à bientôt !", "Retrouvons-nous un autre jour, à bientôt !"],0,"\"Je dois y aller maintenant\" indica que te despides."],
       ["arrange","Ordena: [prochaine / bientôt / semaine / à / la]",["À bientôt la semaine prochaine", "bientôt prochaine À semaine la", "prochaine semaine bientôt À la", "prochaine À semaine la bientôt"],0,"Preposición + adverbio + artículo + sustantivo + adjetivo."],
+    ["mcq","¿Cómo se dice \"tengo que irme ya\" en francés?",["je dois y aller maintenant","retrouvons-nous un autre jour","à bientôt","ça a été un plaisir de te rencontrer"],0,"\"tengo que irme ya\" se dice \"je dois y aller maintenant\" en francés."],
     ]
   },
   {
@@ -6694,6 +7020,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ vouloir te vexer, mais cette blague n'était pas très drôle.”",["Bien sûr", "Sans", "Humour", "Je plaisante"],1,"\"Sans vouloir te vexer, mais...\" suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: \"Yeah, right, and I'm the king of England.\" (sarcasmo)",["Mais bien sûr, et je suis le roi d'Angleterre.", "C'est hilarant, et je suis le roi d'Angleterre.", "Je plaisante, et je suis le roi d'Angleterre.", "Sans te vexer, et je suis le roi d'Angleterre."],0,"\"Mais bien sûr\" es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [tout / je / plaisante / simplement]",["simplement tout plaisante Je", "simplement plaisante Je tout", "plaisante simplement tout Je", "Je plaisante tout simplement"],3,"Sujeto + verbo + adverbio + adverbio."],
+    ["mcq","¿Cómo se dice \"qué gracioso\" en francés?",["je plaisante","tu as vraiment le sens de l'humour","c'est hilarant","mais bien sûr (sarcástico)"],2,"\"qué gracioso\" se dice \"c'est hilarant\" en francés."],
     ]
   },
   {
@@ -6816,6 +7143,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___ dois-je remettre ce formulaire d'inscription ?”",["Comment", "Où", "Quelle", "Quand"],1,"\"Où dois-je remettre...?\" pregunta por el lugar correcto."],
       ["translate","Traduce: \"I want to change majors.\"",["Je veux changer de filière.", "Je veux changer de date.", "Je veux changer de formulaire.", "Je veux changer de salle."],0,"\"Changer de filière\" es cambiar de especialidad académica."],
       ["arrange","Ordena: [limite / la / est / quelle / date]",["limite la date est Quelle", "est Quelle date limite la", "Quelle est la date limite", "est la date limite Quelle"],2,"Interrogativo + verbo + artículo + sustantivo + adjetivo."],
+    ["mcq","¿Cómo se dice \"¿dónde entrego este formulario?\" en francés?",["où dois-je remettre ce formulaire ?","j'ai besoin d'un certificat de scolarité","je veux changer de filière","quelle est la date limite ?"],0,"\"¿dónde entrego este formulario?\" se dice \"où dois-je remettre ce formulaire ?\" en francés."],
     ]
   },
   {
@@ -6861,6 +7189,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Quelle est la date de ___ de ce livre ?”",["prêt", "bibliothèque", "retour", "étude"],2,"\"Date de retour\" indica cuándo debes regresar el libro."],
       ["translate","Traduce: \"Can I renew the loan?\"",["Puis-je renouveler la date ?", "Puis-je emprunter le prêt ?", "Puis-je renouveler le prêt ?", "Puis-je rendre la salle d'étude ?"],2,"\"Renouveler le prêt\" extiende el plazo de devolución."],
       ["arrange","Ordena: [livre / emprunter / veux / un / je]",["emprunter livre Je un veux", "livre Je veux un emprunter", "Je livre un emprunter veux", "Je veux emprunter un livre"],3,"Verbo + verbo + adjetivo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"renovar el préstamo\" en francés?",["la date de retour","la salle d'étude silencieuse","renouveler le prêt","emprunter un livre"],2,"\"renovar el préstamo\" se dice \"renouveler le prêt\" en francés."],
     ]
   },
   {
@@ -6883,6 +7212,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “___-nous les tâches du projet entre tous.”",["Occupons", "Répartissons", "Retrouvons", "Finissons"],1,"\"Répartissons-nous\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Nous ne nous retrouvons pas encore.", "Nous ne répartissons pas encore les tâches.", "Je ne m'occupe pas encore de ma partie.", "Je n'ai pas encore fini ma partie."],3,"\"Je n'ai pas encore fini... ma partie\" indica que sigue en proceso."],
       ["arrange","Ordena: [jeudi / retrouvons-nous]",["Retrouvons-nous jeudi","jeudi Retrouvons-nous","jeudi nous Retrouvons","nous Retrouvons jeudi"],0,"Imperativo + pronombre + sustantivo."],
+    ["translate","Traduce: \"Repartámonos las tareas del proyecto.\"",["la date de retour","à la lumière des preuves présentées","Répartissons-nous les tâches du projet.","soumettre des documents justificatifs"],2,"\"Repartámonos las tareas del proyecto.\" se traduce como \"Répartissons-nous les tâches du projet.\" (Imperativo de \"nous\" para organizar tareas)."],
     ]
   },
   {
@@ -6928,6 +7258,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “Je vais manger au ___ universitaire.”",["emploi", "club", "restaurant", "résidence"],2,"\"Restaurant universitaire\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["J'ai rejoint une résidence ce semestre.", "J'ai rejoint un restaurant ce semestre.", "J'ai rejoint un emploi du temps ce semestre.", "J'ai rejoint un club étudiant ce semestre."],3,"\"Club étudiant\" es una organización de estudiantes."],
       ["arrange","Ordena: [temps / du / mon / emploi]",["Mon emploi du temps", "Mon temps du emploi", "Mon emploi temps du", "Mon du temps emploi"],0,"Posesivo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la cafetería del campus\" en francés?",["le club étudiant","le restaurant universitaire","l'emploi du temps","la résidence universitaire"],1,"\"la cafetería del campus\" se dice \"le restaurant universitaire\" en francés."],
     ]
   },
   {
@@ -6975,6 +7306,7 @@ window.SITUATION_LESSON_BANKS.FR = {
       ["fill","Completa: “La date ___ de candidature pour la bourse est vendredi prochain.”",["documents", "limite", "éligibilité", "mérite"],1,"\"Date limite de candidature\" es la fecha tope para presentar la solicitud."],
       ["translate","Traduce: \"What are the eligibility requirements for financial aid?\"",["Quels documents me faut-il pour la bourse ?", "Quelle est la date limite pour la bourse au mérite ?", "Qu'est-ce qu'une bourse basée sur l'aide financière ?", "Quels sont les critères d'éligibilité pour l'aide financière ?"],3,"\"Critères d'éligibilité pour l'aide financière\" son los requisitos para calificar."],
       ["arrange","Ordena: [bourse / demande / une / faire / veux / de / je]",["bourse demande faire une veux de Je", "Je veux faire une demande de bourse", "veux demande une de faire Je bourse", "Je une bourse demande veux faire de"],1,"\"Je veux faire\" + artículo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la elegibilidad para ayuda financiera\" en francés?",["une bourse au mérite","l'éligibilité à l'aide financière","soumettre des documents justificatifs","la date limite de candidature"],1,"\"la elegibilidad para ayuda financiera\" se dice \"l'éligibilité à l'aide financière\" en francés."],
     ]
   },
   {
@@ -7125,6 +7457,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ meinen Koffer aufgeben, bitte.”",["Ich möchte", "Ich kann", "Der Flug", "Ich habe"],0,"\"Ich möchte\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Hier ist mein Koffer.", "Hier ist mein Reisepass.", "Welches ist mein Reisepass?", "Hier ist mein Flug."],1,"\"Hier ist\" presenta algo que entregas."],
       ["arrange","Ordena: [Koffer / möchte / meinen / aufgeben / ich]",["Ich möchte meinen Koffer aufgeben", "meinen möchte Koffer aufgeben Ich", "Ich meinen aufgeben möchte Koffer", "Ich meinen möchte aufgeben Koffer"],0,"\"Ich möchte\" + posesivo + sustantivo + verbo."],
+    ["mcq","¿Cómo se dice \"¿Dónde está el mostrador de la aerolínea?\" en alemán?",["Wann fliegt der Flug ab?","Welches ist mein Gate?","Ich möchte meinen Koffer aufgeben","Wo ist der Schalter der Fluggesellschaft?"],3,"\"¿Dónde está el mostrador de la aerolínea?\" se dice \"Wo ist der Schalter der Fluggesellschaft?\" en alemán."],
     ]
   },
   {
@@ -7173,6 +7506,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Wo ist die ___?”",["zerbrechlich", "übergewichtig", "Gepäckausgabe", "Handgepäck"],2,"\"Gepäckausgabe\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["Mein Koffer ist übergewichtig.", "Mein Koffer ist verloren.", "Mein Koffer ist Handgepäck.", "Mein Koffer enthält zerbrechliche Gegenstände."],3,"\"Zerbrechlich\" describe objetos que se rompen fácilmente."],
       ["arrange","Ordena: [verloren / mein / ist / Gepäck]",["Mein Gepäck ist verloren", "ist Mein Gepäck verloren", "verloren Mein ist Gepäck", "verloren ist Mein Gepäck"],0,"Posesivo + sustantivo + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"el equipaje de mano\" en alemán?",["übergewichtig","zerbrechlich","das aufgegebene Gepäck","das Handgepäck"],3,"\"el equipaje de mano\" se dice \"das Handgepäck\" en alemán."],
     ]
   },
   {
@@ -7197,6 +7531,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Was ist der ___ Ihres Besuchs?”",["Detektor", "Schuh", "Grund", "Flüssigkeit"],2,"\"Der Grund Ihres Besuchs\" pregunta el porqué del viaje."],
       ["translate","Traduce: \"I have nothing to declare.\"",["Ich habe nichts zu verzollen.", "Ich habe nicht meine Schuhe.", "Ich habe nichts mitzubringen.", "Ich habe nicht meinen Reisepass."],0,"\"Verzollen\" se usa en aduana para objetos que debes notificar."],
       ["arrange","Ordena: [Schuhe / Sie / ziehen / aus / Ihre]",["Ziehen Sie Ihre Schuhe aus", "Ihre Ziehen aus Sie Schuhe", "aus Ihre Ziehen Schuhe Sie", "aus Sie Ziehen Ihre Schuhe"],0,"Imperativo + pronombre + posesivo + sustantivo + partícula."],
+    ["mcq","¿Cómo se dice \"el detector de metales\" en alemán?",["der Metalldetektor","verzollen","die Flüssigkeiten","der Zoll"],0,"\"el detector de metales\" se dice \"der Metalldetektor\" en alemán."],
     ]
   },
   {
@@ -7221,6 +7556,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Mein Flug wurde annulliert. Können Sie mich auf einen anderen ___?”",["umbuchen", "aufgeben", "verzollen", "verpassen"],0,"\"Umbuchen\" es cambiarte a otro vuelo."],
       ["translate","Traduce: \"What is the next available flight to Madrid?\"",["Wo ist mein Anschlussflug?", "Ist mein Flug annulliert?", "Wo ist die Gepäckausgabe?", "Was ist der nächste verfügbare Flug nach Madrid?"],3,"\"Nächster verfügbarer Flug\" pregunta por la siguiente opción."],
       ["arrange","Ordena: [Flug / verpasst / habe / meinen / ich]",["habe verpasst Ich Flug meinen", "Flug meinen Ich verpasst habe", "Flug meinen verpasst habe Ich", "Ich habe meinen Flug verpasst"],3,"Verbo auxiliar + posesivo + sustantivo + participio."],
+    ["mcq","¿Cómo se dice \"retrasado\" en alemán?",["der Anschlussflug","ich habe meinen Flug verpasst","der nächste verfügbare Flug","verspätet"],3,"\"retrasado\" se dice \"verspätet\" en alemán."],
     ]
   },
   {
@@ -7292,6 +7628,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich habe Angst, meinen ___ zu verpassen.”",["Lounge", "Boarding", "Zugang", "Anschlussflug"],3,"\"Anschlussflug\" es el vuelo de enlace."],
       ["translate","Traduce: \"If I miss the flight, will I be rebooked automatically?\"",["Wenn ich den Flug verpasse, zahle ich eine Gebühr?", "Wenn ich den Flug verpasse, verliere ich mein Ticket?", "Wenn ich das Gate verpasse, bekomme ich Priority Boarding?", "Wenn ich den Flug verpasse, werde ich automatisch umgebucht?"],3,"\"Werde ich umgebucht\" usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [Lounge / Zugang / zur / habe / ich]",["Zugang Lounge Ich habe zur", "Lounge Zugang habe Ich zur", "Ich habe Zugang zur Lounge", "Ich Zugang zur habe Lounge"],2,"Sujeto + verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tener acceso a la sala VIP\" en alemán?",["automatisch umgebucht werden","das Priority Boarding","ein knapper Anschluss","Zugang zur VIP-Lounge haben"],3,"\"tener acceso a la sala VIP\" se dice \"Zugang zur VIP-Lounge haben\" en alemán."],
     ]
   },
   {
@@ -7439,6 +7776,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ die Suppe bestellen, bitte.”",["Ich möchte", "Ohne", "Für", "Sind Sie"],0,"\"Ich möchte\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Für mich Zwiebeln.", "Ohne Pasta, bitte.", "Mit Zwiebeln, bitte.", "Ohne Zwiebeln, bitte."],3,"\"Ohne\" indica que no quieres ese ingrediente."],
       ["arrange","Ordena: [empfehlen / was / Sie]",["empfehlen Sie Was", "Was empfehlen Sie", "Was Sie empfehlen", "empfehlen Was Sie"],1,"Interrogativo + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"Para mí, la pasta\" en alemán?",["Was empfehlen Sie?","Sind Sie bereit zu bestellen?","Ich möchte bestellen...","Für mich die Pasta"],3,"\"Para mí, la pasta\" se dice \"Für mich die Pasta\" en alemán."],
     ]
   },
   {
@@ -7486,6 +7824,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich bin allergisch gegen ___.”",["Milchprodukte", "Nüsse", "Fleisch", "Gluten"],1,"\"Nüsse\" son nueces, almendras, etc."],
       ["translate","Traduce: \"I don't eat meat.\"",["Ich bin nicht allergisch.", "Ich esse keine Nüsse.", "Das enthält keine Milchprodukte.", "Ich esse kein Fleisch."],3,"\"Ich esse kein\" + alimento indica una preferencia alimentaria."],
       ["arrange","Ordena: [Fleisch / esse / kein / ich]",["Ich kein Fleisch esse", "Fleisch kein esse Ich", "Ich esse kein Fleisch", "esse kein Ich Fleisch"],2,"Sujeto + verbo + negación + sustantivo."],
+    ["mcq","¿Cómo se dice \"los frutos secos\" en alemán?",["die Nüsse","ich esse kein Fleisch","ich bin allergisch gegen...","enthält das Milchprodukte?"],0,"\"los frutos secos\" se dice \"die Nüsse\" en alemán."],
     ]
   },
   {
@@ -7509,6 +7848,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Entschuldigung, das habe ich nicht ___.”",["salzig", "bestellt", "fehlt", "kalt"],1,"\"Das habe ich nicht bestellt\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["Ist es kalt?", "Fehlt die Bestellung?", "Könnten Sie es austauschen?", "Könnten Sie es bringen?"],2,"\"Könnten Sie...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [kalt / ist / es]",["Es ist kalt", "Es kalt ist", "kalt ist Es", "kalt Es ist"],0,"Pronombre + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"falta algo del pedido\" en alemán?",["es ist kalt","könnten Sie es austauschen?","das habe ich nicht bestellt","die Bestellung fehlt"],3,"\"falta algo del pedido\" se dice \"die Bestellung fehlt\" en alemán."],
     ]
   },
   {
@@ -7532,6 +7872,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Können wir die Rechnung unter uns vieren ___?”",["zahlen", "teilen", "behalten", "akzeptieren"],1,"\"Die Rechnung teilen\" es repartir el pago."],
       ["translate","Traduce: \"Keep the change.\"",["Teilen Sie die Rechnung.", "Zahlen Sie das Trinkgeld.", "Akzeptieren Sie die Karte.", "Behalten Sie das Wechselgeld."],3,"\"Behalten Sie das Wechselgeld\" es una forma común de dejar propina."],
       ["arrange","Ordena: [bitte / Rechnung / die]",["Rechnung bitte Die", "bitte Rechnung Die", "Die Rechnung bitte", "bitte Die Rechnung"],2,"Artículo + sustantivo + expresión de cortesía."],
+    ["mcq","¿Cómo se dice \"la propina\" en alemán?",["akzeptieren Sie Karte?","die Rechnung, bitte","das Trinkgeld","die Rechnung teilen"],2,"\"la propina\" se dice \"das Trinkgeld\" en alemán."],
     ]
   },
   {
@@ -7602,6 +7943,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Dieser vollmundige Rotwein wird das Hauptgericht perfekt ___.”",["ergänzen", "reservieren", "bestellen", "feiern"],0,"\"Ergänzen\" significa resaltar/combinar bien con algo."],
       ["translate","Traduce: \"Could you recommend a wine pairing for this dish?\"",["Könnten Sie uns eine Weinbegleitung für dieses Gericht empfehlen?", "Könnten Sie den Sommelier ergänzen?", "Könnten Sie einen Tisch für dieses Gericht reservieren?", "Könnten Sie uns ein Menü für diesen Wein empfehlen?"],0,"\"Weinbegleitung\" es la combinación entre un vino y un plato."],
       ["arrange","Ordena: [Degustationsmenü / ein / möchten / wir]",["ein Wir Degustationsmenü möchten", "möchten Degustationsmenü Wir ein", "Degustationsmenü ein möchten Wir", "Wir möchten ein Degustationsmenü"],3,"Verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el maridaje de vinos\" en alemán?",["das Gericht ergänzen","ein Degustationsmenü","die Weinbegleitung","ein vollmundiger Rotwein"],2,"\"el maridaje de vinos\" se dice \"die Weinbegleitung\" en alemán."],
     ]
   },
   {
@@ -7749,6 +8091,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich habe eine Reservierung auf den ___ García.”",["Schlüssel", "Namen", "Passwort", "Zeit"],1,"\"Auf den Namen\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Ich brauche ein weiteres Frühstück.", "Ich brauche einen weiteren Schlüssel.", "Ich brauche ein weiteres Zimmer.", "Ich brauche eine weitere Reservierung."],1,"\"Einen weiteren Schlüssel\" pide una llave adicional."],
       ["arrange","Ordena: [Schlüssel / brauche / weiteren / ich / einen]",["weiteren brauche Schlüssel Ich einen", "Ich brauche einen weiteren Schlüssel", "Schlüssel Ich weiteren brauche einen", "weiteren Ich Schlüssel einen brauche"],1,"Verbo + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿A qué hora es el check-in?\" en alemán?",["Ist das Frühstück inbegriffen?","Ich brauche einen weiteren Schlüssel","Wann ist der Check-in?","Wie lautet das WLAN-Passwort?"],2,"\"¿A qué hora es el check-in?\" se dice \"Wann ist der Check-in?\" en alemán."],
     ]
   },
   {
@@ -7797,6 +8140,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Gibt es einen ___ im Hotel? Ich möchte morgen schwimmen.”",["Wäscherei", "Pool", "Fitnessstudio", "Parkplatz"],1,"\"Pool\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["Gibt es ein Fitnessstudio?", "Gibt es einen Zimmerservice?", "Gibt es einen Parkplatz?", "Gibt es einen Pool?"],2,"\"Gibt es...?\" pregunta por disponibilidad de un servicio."],
       ["arrange","Ordena: [Pool / einen / gibt / es]",["Gibt es einen Pool", "Pool Gibt es einen", "Pool es Gibt einen", "Gibt Pool einen es"],0,"Verbo + pronombre + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la piscina\" en alemán?",["der Zimmerservice","die Wäscherei","das Fitnessstudio","der Pool"],3,"\"la piscina\" se dice \"der Pool\" en alemán."],
     ]
   },
   {
@@ -7820,6 +8164,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Entschuldigung, die Klimaanlage ___ nicht in meinem Zimmer.”",["ist", "gibt", "funktioniert", "hat"],2,"\"Funktioniert nicht\" describe algo roto."],
       ["translate","Traduce: \"Could you change my room?\"",["Könnten Sie die Klimaanlage reparieren?", "Könnten Sie mein Zimmer putzen?", "Könnten Sie warmes Wasser bringen?", "Könnten Sie mein Zimmer wechseln?"],3,"\"Könnten Sie...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [laut / ist / sehr / es]",["sehr laut ist Es", "ist Es laut sehr", "laut ist sehr Es", "Es ist sehr laut"],3,"Pronombre + verbo + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"la habitación está sucia\" en alemán?",["es ist sehr laut","könnten Sie mein Zimmer wechseln?","es gibt kein warmes Wasser","das Zimmer ist schmutzig"],3,"\"la habitación está sucia\" se dice \"das Zimmer ist schmutzig\" en alemán."],
     ]
   },
   {
@@ -7843,6 +8188,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Um wie viel Uhr ist der ___?”",["Gebühr", "Minibar", "Gepäck", "Check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["Könnten Sie mein Zimmer für ein paar Stunden verlassen?", "Könnten Sie mein Gepäck für ein paar Stunden prüfen?", "Könnten Sie mein Gepäck für ein paar Stunden berechnen?", "Könnten Sie mein Gepäck für ein paar Stunden aufbewahren?"],3,"\"Gepäck aufbewahren\" es dejarlo temporalmente en el hotel."],
       ["arrange","Ordena: [Rechnung / prüfen / die / könnten / Sie]",["Könnten Rechnung die prüfen Sie", "Rechnung die Sie Könnten prüfen", "Könnten Sie die Rechnung prüfen", "die Rechnung Könnten prüfen Sie"],2,"Verbo modal + pronombre + artículo + sustantivo + verbo."],
+    ["mcq","¿Cómo se dice \"hacer el check-out\" en alemán?",["auschecken","das Gepäck aufbewahren","die Minibar-Gebühr","das Zimmer verlassen"],0,"\"hacer el check-out\" se dice \"auschecken\" en alemán."],
     ]
   },
   {
@@ -7913,6 +8259,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Die Ausstattung entspricht nicht der ___ auf der Website.”",["Erwartung", "Werbung", "Betrieb", "Zugang"],1,"\"Wie beworben\" significa \"tal como se promociona\"."],
       ["translate","Traduce: \"The gym falls short of what we expected.\"",["Das Fitnessstudio ist genau wie beworben.", "Das Fitnessstudio erfüllt nicht unsere Erwartungen.", "Das Fitnessstudio trennt sich von den Erwartungen.", "Das Fitnessstudio ist heute außer Betrieb."],1,"\"Die Erwartungen nicht erfüllen\" es no cumplir lo esperado."],
       ["arrange","Ordena: [Betrieb / Pool / außer / der / ist]",["ist Pool Der Betrieb außer", "Der Pool ist außer Betrieb", "Betrieb Pool außer Der ist", "Pool Der ist außer Betrieb"],1,"Sujeto + verbo + \"außer Betrieb\"."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anunciaban\" en alemán?",["das WLAN trennt sich ständig","die Ausstattung entspricht nicht der Werbung","Zugang zu Fitnessstudio und Spa","der Pool ist außer Betrieb"],1,"\"las instalaciones no son como se anunciaban\" se dice \"die Ausstattung entspricht nicht der Werbung\" en alemán."],
     ]
   },
   {
@@ -7960,6 +8307,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Könnten Sie das bitte meinem ___ belasten?”",["Tarif", "Rechnung", "Firmenkonto", "Zimmer"],2,"\"Es dem Firmenkonto belasten\" es cargar el gasto a la empresa."],
       ["translate","Traduce: \"Could I get an itemized receipt for my company?\"",["Könnte ich vom Business Center aus remote arbeiten?", "Könnte ich eine detaillierte Rechnung für meine Firma bekommen?", "Könnte ich einen Firmentarif für mein Zimmer bekommen?", "Könnte ich den Konferenzraum meinem Konto belasten?"],1,"\"Detaillierte Rechnung\" es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [Konto / mein / belasten / Sie / bitte / das]",["mein Konto bitte das Sie Belasten", "Sie Konto mein das Belasten bitte", "das Konto bitte Belasten mein Sie", "Belasten Sie das bitte mein Konto"],3,"Imperativo + objeto + adverbio + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"cargarlo a la cuenta de la empresa\" en alemán?",["eine detaillierte Rechnung","vom Business Center aus remote arbeiten","ein Firmentarif","es dem Firmenkonto belasten"],3,"\"cargarlo a la cuenta de la empresa\" se dice \"es dem Firmenkonto belasten\" en alemán."],
     ]
   },
   {
@@ -8058,6 +8406,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ kostet das Kilo Äpfel?”",["Wo", "Welche", "Wie viel", "Was"],2,"\"Wie viel kostet\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Ich möchte ein halbes Kilo.", "Ich möchte es nehmen.", "Ich möchte etwas Frischeres.", "Ich möchte ein ganzes Kilo."],0,"\"Ein halbes Kilo\" es 500 gramos."],
       ["arrange","Ordena: [nehme / es / ich]",["es Ich nehme", "es nehme Ich", "nehme Ich es", "Ich nehme es"],3,"Sujeto + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"¿Tiene algo más fresco?\" en alemán?",["Wie viel kostet das?","Ich möchte ein halbes Kilo","Haben Sie etwas Frischeres?","Ich nehme es"],2,"\"¿Tiene algo más fresco?\" se dice \"Haben Sie etwas Frischeres?\" en alemán."],
     ]
   },
   {
@@ -8104,6 +8453,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Tut mir leid, ich habe keins mehr davon, aber ich kann Ihnen das ___ anbieten.”",["ähnliches", "stattdessen", "ausverkauft", "Kilo"],1,"\"Stattdessen\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Ich biete heute Tomaten stattdessen an.", "Ich habe heute keine Tomaten mehr.", "Die Tomaten sind heute ausverkauft.", "Ich habe heute keine ähnlichen Tomaten."],1,"\"Ich habe keine...mehr\" indica que se acabó el producto."],
       ["arrange","Ordena: [ausverkauft / ist / es]",["ausverkauft ist Es", "ist ausverkauft Es", "Es ausverkauft ist", "Es ist ausverkauft"],3,"Pronombre + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"se me acabó..\" en alemán?",["haben Sie etwas Ähnliches?","ich habe keins mehr davon","es ist ausverkauft","ich kann Ihnen das stattdessen anbieten"],1,"\"se me acabó...\" se dice \"ich habe keins mehr davon\" en alemán."],
     ]
   },
   {
@@ -8126,6 +8476,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich möchte das zurückgeben, ich habe es ___ gekauft und es ist schon schlecht.”",["zurückgeben", "gestern", "Zustand", "können"],1,"\"Ich habe es gestern gekauft\" indica cuándo se hizo la compra."],
       ["translate","Traduce: \"I bought it yesterday and it's already bad.\"",["Ich habe es gestern gekauft und es ist schon schlecht.", "Können Sie mir morgen das Geld zurückerstatten?", "Ich möchte es morgen zurückgeben.", "Ich habe es heute gekauft und es ist gut."],0,"\"Gestern\" + \"es ist schon schlecht\" explica el problema con el producto."],
       ["arrange","Ordena: [zurückgeben / das / möchte / ich]",["möchte zurückgeben das Ich", "Ich möchte das zurückgeben", "möchte zurückgeben Ich das", "Ich möchte zurückgeben das"],1,"Verbo + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"lo compré ayer\" en alemán?",["ich habe es gestern gekauft","können Sie mir das Geld zurückerstatten?","es ist in schlechtem Zustand","ich möchte das zurückgeben"],0,"\"lo compré ayer\" se dice \"ich habe es gestern gekauft\" en alemán."],
     ]
   },
   {
@@ -8148,6 +8499,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Tut mir leid, hier ist es ___ Bargeld, wir akzeptieren keine Karte.”",["Wechselgeld", "nur", "Schein", "Karte"],1,"\"Nur Bargeld\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["Akzeptieren Sie Karte?", "Haben Sie Wechselgeld?", "Akzeptieren Sie Bargeld?", "Bezahlen Sie bar?"],0,"\"Akzeptieren Sie Karte?\" pregunta por el método de pago."],
       ["arrange","Ordena: [Karte / akzeptieren / Sie / Kredit]",["Akzeptieren Sie Karte Kredit", "Akzeptieren Sie Kredit Karte", "Kredit Sie Karte Akzeptieren", "Kredit Akzeptieren Karte Sie"],1,"Verbo + pronombre + sustantivo compuesto."],
+    ["mcq","¿Cómo se dice \"pagar en efectivo\" en alemán?",["nur Bargeld","akzeptieren Sie Karte?","haben Sie Wechselgeld für einen großen Schein?","bar bezahlen"],3,"\"pagar en efectivo\" se dice \"bar bezahlen\" en alemán."],
     ]
   },
   {
@@ -8242,6 +8594,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Je mehr Sie bestellen, desto größer der ___.”",["Menge", "Lieferung", "Preis", "Rabatt"],3,"\"Je mehr..., desto größer der Rabatt\" expresa proporcionalidad."],
       ["translate","Traduce: \"Is delivery included in the wholesale price?\"",["Ist die Lieferung im Großhandelspreis inbegriffen?", "Ist die wiederkehrende Bestellung in der Lieferung inbegriffen?", "Ist die Mindestmenge im Preis inbegriffen?", "Ist der Rabatt in der Lieferung inbegriffen?"],0,"\"Im Großhandelspreis inbegriffen\" pregunta si el envío está cubierto."],
       ["arrange","Ordena: [Bestellung / wiederkehrende / eine / aufgeben / möchte / ich]",["Ich möchte eine wiederkehrende Bestellung aufgeben", "möchte eine Bestellung Ich aufgeben wiederkehrende", "Ich eine aufgeben möchte wiederkehrende Bestellung", "Ich wiederkehrende aufgeben möchte eine Bestellung"],0,"\"Ich möchte\" + artículo + adjetivo + sustantivo + verbo."],
+    ["mcq","¿Cómo se dice \"hacer un pedido recurrente\" en alemán?",["Lieferung inbegriffen","eine wiederkehrende Bestellung aufgeben","ein Großhandelspreis","die Mindestbestellmenge"],1,"\"hacer un pedido recurrente\" se dice \"eine wiederkehrende Bestellung aufgeben\" en alemán."],
     ]
   },
   {
@@ -8365,6 +8718,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich habe Fieber ___ drei Tagen.”",["durch", "mit", "für", "seit"],3,"\"Seit drei Tagen\" indica cuánto tiempo llevas con el síntoma."],
       ["translate","Traduce: \"I feel nauseous.\"",["Ich habe Fieber.", "Ich habe Kopfschmerzen.", "Mir ist übel.", "Mir ist schwindelig."],2,"\"Übel\" es el síntoma de querer vomitar."],
       ["arrange","Ordena: [Kopfschmerzen / ich / habe]",["Kopfschmerzen Ich habe", "Ich Kopfschmerzen habe", "habe Kopfschmerzen Ich", "Ich habe Kopfschmerzen"],3,"Sujeto + verbo + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo fiebre\" en alemán?",["mir ist schwindelig","mir ist übel","ich habe Fieber","seit drei Tagen"],2,"\"tengo fiebre\" se dice \"ich habe Fieber\" en alemán."],
     ]
   },
   {
@@ -8411,6 +8765,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Nehmen Sie es ___ täglich, mit den Mahlzeiten.”",["mit", "zweimal", "die", "ohne"],1,"\"Zweimal täglich\" indica la frecuencia de la dosis."],
       ["translate","Traduce: \"Do you have something for a headache?\"",["Haben Sie Nebenwirkungen?", "Haben Sie etwas mit Rezept?", "Haben Sie etwas gegen Kopfschmerzen?", "Haben Sie etwas zweimal täglich?"],2,"Pregunta típica en la farmacia por un síntoma."],
       ["arrange","Ordena: [Mahlzeiten / täglich / mit / zweimal / den]",["den Mahlzeiten Zweimal mit täglich", "mit täglich Mahlzeiten den Zweimal", "Zweimal täglich mit den Mahlzeiten", "täglich mit Zweimal den Mahlzeiten"],2,"Número + adverbio + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"con o sin receta\" en alemán?",["zweimal täglich","die Nebenwirkungen","mit oder ohne Rezept","haben Sie etwas gegen Kopfschmerzen?"],2,"\"con o sin receta\" se dice \"mit oder ohne Rezept\" en alemán."],
     ]
   },
   {
@@ -8456,6 +8811,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ist diese Behandlung von meiner Versicherung ___?”",["Nummer", "unterschrieben", "bezahlt", "gedeckt"],3,"\"Gedeckt sein\" indica si el seguro lo incluye."],
       ["translate","Traduce: \"I need to sign the admission form.\"",["Ich muss die Zuzahlung bezahlen.", "Ich brauche meine Versicherungsnummer.", "Ich muss wissen, ob es gedeckt ist.", "Ich muss das Aufnahmeformular unterschreiben."],3,"\"Aufnahmeformular unterschreiben\" es un trámite habitual al ingresar."],
       ["arrange","Ordena: [Zuzahlung / ist / die / wie hoch]",["hoch Zuzahlung die Wie ist", "Wie hoch ist die Zuzahlung", "Wie Zuzahlung ist hoch die", "hoch ist Wie Zuzahlung die"],1,"Interrogativo + adjetivo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿esto lo cubre mi seguro?\" en alemán?",["das Aufnahmeformular unterschreiben","die Versicherungsnummer","ist das von meiner Versicherung gedeckt?","die Zuzahlung"],2,"\"¿esto lo cubre mi seguro?\" se dice \"ist das von meiner Versicherung gedeckt?\" en alemán."],
     ]
   },
   {
@@ -8550,6 +8906,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Stellen Sie sicher, dass Sie die Risiken verstehen, ___ Sie unterschreiben.”",["ohne", "bevor", "während", "nachdem"],1,"\"Bevor Sie unterschreiben\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["Kann ich unterschreiben, bevor ich frage?", "Verstehe ich, was ich unterschreibe?", "Gibt es Risiken vor dem Verfahren?", "Kann ich vor der Unterschrift Fragen stellen?"],3,"\"Vor der Unterschrift\" marca el orden correcto de las acciones."],
       ["arrange","Ordena: [Einverständniserklärung / unterschreiben / muss / eine / ich]",["muss unterschreiben eine Ich Einverständniserklärung", "Ich muss eine Einverständniserklärung unterschreiben", "Einverständniserklärung muss Ich eine unterschreiben", "muss Ich Einverständniserklärung unterschreiben eine"],1,"\"Ich muss\" + artículo + sustantivo compuesto + verbo."],
+    ["mcq","¿Cómo se dice \"¿tengo otras opciones?\" en alemán?",["die Risiken und Vorteile des Verfahrens","verstehen, wozu Sie zustimmen","eine Einverständniserklärung unterschreiben","habe ich andere Optionen?"],3,"\"¿tengo otras opciones?\" se dice \"habe ich andere Optionen?\" en alemán."],
     ]
   },
   {
@@ -8672,6 +9029,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ wir eine Besprechung ansetzen für morgen?”",["Habe", "Werde", "Danke", "Können"],3,"\"Können wir...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Ich werde die Datei anhängen.", "Ich werde Ihre Geduld danken.", "Ich werde eine Besprechung ansetzen.", "Ich werde mehr Zeit brauchen."],3,"\"Ich werde brauchen\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [angehängt / Datei / die / habe / ich]",["Ich habe die Datei angehängt", "die habe Datei angehängt Ich", "die angehängt habe Datei Ich", "habe Datei die angehängt Ich"],0,"Verbo auxiliar + artículo + sustantivo + participio."],
+    ["mcq","¿Cómo se dice \"Gracias por su paciencia\" en alemán?",["Können wir eine Besprechung ansetzen?","Ich habe die Datei angehängt","Danke für Ihre Geduld","Ich werde mehr Zeit brauchen"],2,"\"Gracias por su paciencia\" se dice \"Danke für Ihre Geduld\" en alemán."],
     ]
   },
   {
@@ -8717,6 +9075,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ wir mit der heutigen Tagesordnung.”",["Kommen", "Fragen", "Beginnen", "Sehen"],2,"\"Beginnen wir\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Wie Sie auf dieser Folie sehen können...", "Wie Sie auf dieser Folie beginnen können...", "Wie Sie auf dieser Folie fragen können...", "Wie Sie auf dieser Folie kommen können..."],0,"\"Wie Sie sehen können\" introduce una explicación visual."],
       ["arrange","Ordena: [Fragen / es / gibt]",["es Gibt Fragen", "Gibt Fragen es", "Fragen Gibt es", "Gibt es Fragen"],3,"Verbo + pronombre + sustantivo."],
+    ["translate","Traduce: \"Empecemos con el orden del día de hoy.\"",["Beginnen wir mit der heutigen Tagesordnung.","auf derselben Wellenlänge sein","lassen Sie uns das Für und Wider abwägen","die Besprechung"],0,"\"Empecemos con el orden del día de hoy.\" se traduce como \"Beginnen wir mit der heutigen Tagesordnung.\" (Imperativo de primera persona plural (\"wir\"))."],
     ]
   },
   {
@@ -8739,6 +9098,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ geehrter Herr López, ich schreibe Ihnen, um die Besprechung zu bestätigen.”",["Sehr", "Freue", "Grüßen", "Freundlichen"],0,"\"Sehr geehrte/r\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Mit freundlichen Grüßen auf Ihre Antwort.", "Ich freue mich auf Ihre Antwort.", "Sehr geehrte Antwort.", "Ich schreibe Ihnen auf Ihre Antwort."],1,"\"Ich freue mich auf\" es una despedida formal común."],
       ["arrange","Ordena: [Grüßen / freundlichen / mit]",["Grüßen Mit freundlichen", "Mit Grüßen freundlichen", "Mit freundlichen Grüßen", "freundlichen Grüßen Mit"],2,"Preposición + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"Estimado/a..\" en alemán?",["Sehr geehrte/r...","Mit freundlichen Grüßen","Ich freue mich auf Ihre Antwort","Ich schreibe Ihnen, um..."],0,"\"Estimado/a...\" se dice \"Sehr geehrte/r...\" en alemán."],
     ]
   },
   {
@@ -8761,6 +9121,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich verstehe Ihren Standpunkt, ___ ich bin nicht ganz einverstanden.”",["obwohl", "aber", "wenn", "weil"],1,"\"Aber\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Können wir den Grund finden?", "Können wir Ihren Standpunkt verstehen?", "Sind wir ganz einverstanden?", "Können wir einen Mittelweg finden?"],3,"\"Ein Mittelweg\" es un compromiso entre dos posturas."],
       ["arrange","Ordena: [einverstanden / nicht / ganz / bin / ich]",["Ich einverstanden bin ganz nicht", "Ich bin nicht ganz einverstanden", "ganz Ich einverstanden bin nicht", "bin ganz Ich einverstanden nicht"],1,"Sujeto + verbo + negación + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"Entiendo su punto, pero..\" en alemán?",["ich bin nicht ganz einverstanden","können wir einen Mittelweg finden?","ich bin lieber direkt in dieser Sache","ich verstehe Ihren Standpunkt, aber..."],3,"\"Entiendo su punto, pero...\" se dice \"ich verstehe Ihren Standpunkt, aber...\" en alemán."],
     ]
   },
   {
@@ -8831,6 +9192,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Danke für das Feedback, ich werde das definitiv ___.”",["berücksichtigen", "schätze", "Bereich", "Konstruktiv"],0,"\"Berücksichtigen\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["Ich habe das Feedback über die Verbesserung berücksichtigt.", "Ich schätze das Feedback wirklich, besonders über den Verbesserungsbereich.", "Ich schätze den Bereich wirklich, besonders das Feedback.", "Ich schätze wirklich, was gut lief am Feedback."],1,"\"Ich schätze das Feedback wirklich\" + \"besonders...\"."],
       ["arrange","Ordena: [Feedback / schätze / wirklich / das / ich]",["wirklich das schätze Feedback Ich", "das wirklich schätze Feedback Ich", "Ich schätze das Feedback wirklich", "Feedback Ich wirklich das schätze"],2,"Sujeto + verbo + artículo + sustantivo + adverbio."],
+    ["mcq","¿Cómo se dice \"la retroalimentación constructiva\" en alemán?",["konstruktives Feedback","das berücksichtigen","ich schätze das Feedback wirklich","was gut lief und was verbessert werden könnte"],0,"\"la retroalimentación constructiva\" se dice \"konstruktives Feedback\" en alemán."],
     ]
   },
   {
@@ -8878,6 +9240,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Es ist wichtig, zu klären ___ anzunehmen, wenn man mit verschiedenen Kulturen arbeitet.”",["sein", "anders", "statt", "berücksichtigen"],2,"\"Klären statt annehmen\" es preferir aclarar antes que suponer."],
       ["translate","Traduce: \"Directness can be perceived differently depending on the culture.\"",["Direktheit kann je nach Kultur unterschiedlich wahrgenommen werden.", "Missverständnisse können je nach Kultur unterschiedlich wahrgenommen werden.", "Kulturelle Unterschiede können je nach Stil direkt sein.", "Direktheit kann je nach Kultur Missverständnisse vermeiden."],0,"\"Kann unterschiedlich wahrgenommen werden\" expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [wichtig / Missverständnisse / zu / vermeiden / ist / es]",["Es wichtig ist vermeiden Missverständnisse zu", "zu Missverständnisse ist vermeiden Es wichtig", "Es ist wichtig Missverständnisse zu vermeiden", "vermeiden Missverständnisse ist zu wichtig Es"],2,"\"Es ist wichtig\" + \"zu\" + verbo + objeto."],
+    ["mcq","¿Cómo se dice \"la franqueza puede percibirse de forma distinta\" en alemán?",["Direktheit kann unterschiedlich wahrgenommen werden","Missverständnisse vermeiden","kulturelle Unterschiede berücksichtigen","ein anderer Kommunikationsstil"],0,"\"la franqueza puede percibirse de forma distinta\" se dice \"Direktheit kann unterschiedlich wahrgenommen werden\" en alemán."],
     ]
   },
   {
@@ -8976,6 +9339,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___, dich zu sehen! Das ist schon lange her.”",["Geburtstag", "Eingeladen", "Kennst", "Schön"],3,"\"Schön, dich zu sehen!\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Woher kennst du den Gastgeber?", "Woher kennst du die Musik?", "Woher kennst du das Geschenk?", "Woher kennst du den Gast?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [Gastgeber / kennst / den / woher / du]",["Woher du den kennst Gastgeber", "kennst Woher du den Gastgeber", "Woher kennst du den Gastgeber", "den Gastgeber Woher kennst du"],2,"Interrogativo + verbo + pronombre + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¡Feliz cumpleaños!\" en alemán?",["Woher kennst du den Gastgeber?","Schön, dich zu sehen!","Danke, dass du mich eingeladen hast","Alles Gute zum Geburtstag!"],3,"\"¡Feliz cumpleaños!\" se dice \"Alles Gute zum Geburtstag!\" en alemán."],
     ]
   },
   {
@@ -9021,6 +9385,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich würde sehr ___ zu deiner Party kommen.”",["leid", "gerne", "mitbringen", "möchtest"],1,"\"Sehr gerne\" expresa entusiasmo al aceptar."],
       ["translate","Traduce: \"Sorry, I already have plans.\"",["Ich würde gerne kommen, ich habe schon Pläne.", "Kann ich Pläne mitbringen, tut mir leid.", "Tut mir leid, ich habe schon Pläne.", "Tut mir leid, ich bin schon auf der Party."],2,"\"Ich habe schon Pläne\" es una forma educada de declinar."],
       ["arrange","Ordena: [gerne / kommen / würde / ich]",["Ich kommen würde gerne", "kommen gerne würde Ich", "Ich würde gerne kommen", "gerne kommen Ich würde"],2,"Sujeto + verbo condicional + adverbio + verbo."],
+    ["mcq","¿Cómo se dice \"¿te gustaría venir a mi fiesta?\" en alemán?",["kann ich jemanden mitbringen?","ich würde sehr gerne kommen","tut mir leid, ich habe schon Pläne","möchtest du zu meiner Party kommen?"],3,"\"¿te gustaría venir a mi fiesta?\" se dice \"möchtest du zu meiner Party kommen?\" en alemán."],
     ]
   },
   {
@@ -9043,6 +9408,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Probier das, es ist ___.”",["essen", "nachschenken", "wirklich", "lecker"],3,"\"Lecker\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["Ist es noch etwas lecker?", "Kannst du mir noch etwas nachschenken?", "Was gibt es noch mehr zu essen?", "Probierst du noch etwas mehr?"],1,"\"Kannst du mir nachschenken?\" se pide para que te sirvan más comida o bebida."],
       ["arrange","Ordena: [essen / gibt / zu / was / es]",["Was gibt es zu essen", "es zu essen Was gibt", "Was essen es gibt zu", "essen gibt Was zu es"],0,"Interrogativo + verbo + pronombre + preposición + verbo."],
+    ["translate","Traduce: \"Esto está realmente bueno. / Esto está realmente delicioso.\"",["es geht mich zwar nichts an, aber...","Das schmeckt wirklich gut. / Das ist wirklich lecker.","was haltet ihr davon, wenn wir...","Ich bin Grafikdesignerin"],1,"\"Esto está realmente bueno. / Esto está realmente delicioso.\" se traduce como \"Das schmeckt wirklich gut. / Das ist wirklich lecker.\" (\"Wirklich\" para intensificar un adjetivo)."],
     ]
   },
   {
@@ -9088,6 +9454,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Es war schön, dich ___, lass uns an einem anderen Tag treffen.”",["dich", "kennenzulernen", "los", "bald"],1,"\"Es war schön, dich kennenzulernen\" es una despedida educada."],
       ["translate","Traduce: \"I have to go now, see you soon!\"",["Ich muss jetzt los, bis bald!", "Ich muss jetzt los, es war schön!", "Es war schön los, bis bald!", "Lass uns an einem anderen Tag, bis bald!"],0,"\"Ich muss jetzt los\" indica que te despides."],
       ["arrange","Ordena: [Freitag / bald / bis / am]",["am bald Freitag Bis", "Freitag am bald Bis", "Bis bald am Freitag", "Freitag bald Bis am"],2,"Preposición + adverbio + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo que irme ya\" en alemán?",["bis bald","ich muss jetzt los","lass uns an einem anderen Tag treffen","es war schön, dich kennenzulernen"],1,"\"tengo que irme ya\" se dice \"ich muss jetzt los\" en alemán."],
     ]
   },
   {
@@ -9159,6 +9526,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ für ungut, aber dieser Witz war nicht sehr lustig.”",["Klar", "Nichts", "Humor", "Mache"],1,"\"Nichts für ungut, aber...\" suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: \"Yeah, right, and I'm the king of England.\" (sarcasmo)",["Na klar, und ich bin der König von England.", "Das ist urkomisch, und ich bin der König von England.", "Ich mache nur Spaß, und ich bin der König von England.", "Nichts für ungut, und ich bin der König von England."],0,"\"Na klar\" es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [Spaß / mache / nur / ich]",["Spaß nur mache Ich", "Spaß mache Ich nur", "mache Spaß nur Ich", "Ich mache nur Spaß"],3,"Sujeto + verbo + adverbio + sustantivo."],
+    ["mcq","¿Cómo se dice \"qué gracioso\" en alemán?",["nichts für ungut, aber...","das ist urkomisch","na klar (sarcástico)","du hast wirklich Humor"],1,"\"qué gracioso\" se dice \"das ist urkomisch\" en alemán."],
     ]
   },
   {
@@ -9281,6 +9649,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ gebe ich dieses Anmeldeformular ab?”",["Wie", "Wo", "Was", "Wann"],1,"\"Wo gebe ich...ab?\" pregunta por el lugar correcto."],
       ["translate","Traduce: \"I want to change majors.\"",["Ich möchte das Fach wechseln.", "Ich möchte die Frist wechseln.", "Ich möchte das Formular wechseln.", "Ich möchte den Hörsaal wechseln."],0,"\"Das Fach wechseln\" es cambiar de especialidad académica."],
       ["arrange","Ordena: [Frist / die / ist / was]",["ist Frist die Was", "Was die ist Frist", "ist Was Frist die", "Was ist die Frist"],3,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿dónde entrego este formulario?\" en alemán?",["ich möchte das Fach wechseln","was ist die Frist?","wo gebe ich dieses Formular ab?","ich brauche eine Immatrikulationsbescheinigung"],2,"\"¿dónde entrego este formulario?\" se dice \"wo gebe ich dieses Formular ab?\" en alemán."],
     ]
   },
   {
@@ -9326,6 +9695,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Was ist das ___ für dieses Buch?”",["Ausleihe", "Bibliothek", "Rückgabedatum", "Lesesaal"],2,"\"Rückgabedatum\" indica cuándo debes regresar el libro."],
       ["translate","Traduce: \"Can I renew the loan?\"",["Kann ich das Datum verlängern?", "Kann ich das Ausleihe-Buch ausleihen?", "Kann ich die Ausleihe verlängern?", "Kann ich den Lesesaal zurückgeben?"],2,"\"Die Ausleihe verlängern\" extiende el plazo de devolución."],
       ["arrange","Ordena: [ausleihen / Buch / ein / möchte / ich]",["ein ausleihen Ich Buch möchte", "ausleihen Ich möchte Buch ein", "Ich ausleihen Buch ein möchte", "Ich möchte ein Buch ausleihen"],3,"Verbo + artículo + sustantivo + verbo."],
+    ["mcq","¿Cómo se dice \"renovar el préstamo\" en alemán?",["das Rückgabedatum","ein Buch ausleihen","die Ausleihe verlängern","der stille Lesesaal"],2,"\"renovar el préstamo\" se dice \"die Ausleihe verlängern\" en alemán."],
     ]
   },
   {
@@ -9348,6 +9718,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “___ wir uns die Aufgaben des Projekts auf.”",["Fertig", "Teilen", "Treffen", "Übernehmen"],1,"\"Teilen wir uns auf\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Wir treffen uns noch nicht.", "Wir teilen die Aufgaben noch nicht auf.", "Ich übernehme meinen Teil noch nicht.", "Ich bin mit meinem Teil noch nicht fertig."],3,"\"Noch nicht fertig\" indica que sigue en proceso."],
       ["arrange","Ordena: [Donnerstag / treffen / wir / uns]",["wir Treffen Donnerstag uns", "wir uns Donnerstag Treffen", "Treffen wir uns Donnerstag", "Donnerstag uns wir Treffen"],2,"Imperativo + pronombre + sustantivo."],
+    ["mcq","¿Cómo se dice \"quedemos el jueves\" en alemán?",["ich bin mit meinem Teil noch nicht fertig","treffen wir uns am Donnerstag","teilen wir uns die Aufgaben auf","wer übernimmt die Einleitung?"],1,"\"quedemos el jueves\" se dice \"treffen wir uns am Donnerstag\" en alemán."],
     ]
   },
   {
@@ -9393,6 +9764,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Ich gehe in die ___, um zu essen.”",["Stundenplan", "Club", "Mensa", "Wohnheim"],2,"\"Mensa\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Ich bin diesem Semester einem Wohnheim beigetreten.", "Ich bin diesem Semester einer Mensa beigetreten.", "Ich bin diesem Semester einem Stundenplan beigetreten.", "Ich bin diesem Semester einem Studentenclub beigetreten."],3,"\"Studentenclub\" es una organización de estudiantes."],
       ["arrange","Ordena: [Woche / mein / diese / Stundenplan]",["Mein Stundenplan diese Woche", "Mein Woche diese Stundenplan", "Mein Stundenplan Woche diese", "Mein diese Woche Stundenplan"],0,"Posesivo + sustantivo + demostrativo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la cafetería del campus\" en alemán?",["die Mensa","der Studentenclub","das Studentenwohnheim","der Stundenplan"],0,"\"la cafetería del campus\" se dice \"die Mensa\" en alemán."],
     ]
   },
   {
@@ -9440,6 +9812,7 @@ window.SITUATION_LESSON_BANKS.DE = {
       ["fill","Completa: “Die ___ für das Stipendium ist nächsten Freitag.”",["Dokumente", "Bewerbungsfrist", "Berechtigung", "Leistung"],1,"\"Bewerbungsfrist\" es la fecha tope para presentar la solicitud."],
       ["translate","Traduce: \"What are the eligibility requirements for financial aid?\"",["Welche Dokumente brauche ich für das Stipendium?", "Was ist die Bewerbungsfrist für das leistungsbasierte Stipendium?", "Was ist ein leistungsbasiertes Stipendium für finanzielle Unterstützung?", "Was sind die Berechtigungsvoraussetzungen für finanzielle Unterstützung?"],3,"\"Berechtigungsvoraussetzungen für finanzielle Unterstützung\" son los requisitos para calificar."],
       ["arrange","Ordena: [Stipendium / bewerben / möchte / mich / ich / für / ein]",["bewerben ein mich für möchte Stipendium Ich", "Ich möchte mich für ein Stipendium bewerben", "möchte ein für Stipendium mich Ich bewerben", "Ich für bewerben ein möchte mich Stipendium"],1,"\"Ich möchte mich\" + preposición + artículo + sustantivo + verbo."],
+    ["mcq","¿Cómo se dice \"la elegibilidad para ayuda financiera\" en alemán?",["Nachweisdokumente einreichen","die Bewerbungsfrist","die Berechtigung für finanzielle Unterstützung","ein leistungsbasiertes Stipendium"],2,"\"la elegibilidad para ayuda financiera\" se dice \"die Berechtigung für finanzielle Unterstützung\" en alemán."],
     ]
   },
   {
@@ -9590,6 +9963,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ imbarcare la valigia, per favore.”",["Ho", "Vorrei", "Il volo", "Posso"],1,"\"Vorrei\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Ecco il mio volo.", "Qual è il mio passaporto?", "Ecco la mia valigia.", "Ecco il mio passaporto."],3,"\"Ecco\" presenta algo que entregas."],
       ["arrange","Ordena: [valigia / imbarcare / la / vorrei]",["Vorrei la valigia imbarcare", "Vorrei la imbarcare valigia", "Vorrei valigia imbarcare la", "Vorrei imbarcare la valigia"],3,"\"Vorrei\" + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿Dónde está el mostrador de la aerolínea?\" en italiano?",["Qual è il mio gate d'imbarco?","A che ora parte il volo?","Vorrei imbarcare la valigia","Dov'è il banco della compagnia aerea?"],3,"\"¿Dónde está el mostrador de la aerolínea?\" se dice \"Dov'è il banco della compagnia aerea?\" en italiano."],
     ]
   },
   {
@@ -9638,6 +10012,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Dov'è il ___ bagagli?”",["fragile", "sovrappeso", "ritiro", "imbarcato"],2,"\"Ritiro bagagli\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["La mia valigia è in sovrappeso.", "La mia valigia è smarrita.", "La mia valigia è a mano.", "La mia valigia contiene oggetti fragili."],3,"\"Fragile\" describe objetos que se rompen fácilmente."],
       ["arrange","Ordena: [smarrito / è / mio / bagaglio / il]",["è bagaglio smarrito Il mio","smarrito bagaglio mio è Il","è bagaglio Il mio smarrito","Il mio bagaglio è smarrito"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"el equipaje de mano\" en italiano?",["il ritiro bagagli","il bagaglio imbarcato","in sovrappeso","il bagaglio a mano"],3,"\"el equipaje de mano\" se dice \"il bagaglio a mano\" en italiano."],
     ]
   },
   {
@@ -9662,6 +10037,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Qual è il ___ della sua visita?”",["detector", "scarpa", "motivo", "liquido"],2,"\"Il motivo della sua visita\" pregunta el porqué del viaje."],
       ["translate","Traduce: \"I have nothing to declare.\"",["Non ho niente da dichiarare.", "Non ho le mie scarpe.", "Non ho niente da portare.", "Non ho il mio passaporto."],0,"\"Dichiarare\" se usa en aduana para objetos que debes notificar."],
       ["arrange","Ordena: [scarpe / tolga / le / si]",["Si tolga le scarpe", "tolga Si le scarpe", "tolga scarpe Si le", "tolga le Si scarpe"],0,"Imperativo + partícula + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el detector de metales\" en italiano?",["il motivo della sua visita","i liquidi","il metal detector","si tolga le scarpe"],2,"\"el detector de metales\" se dice \"il metal detector\" en italiano."],
     ]
   },
   {
@@ -9686,6 +10062,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Il mio volo è stato cancellato. Può ___ su un altro?”",["riprogrammarmi", "imbarcarmi", "dichiararmi", "perdermi"],0,"\"Riprogrammare\" es cambiarte a otro vuelo."],
       ["translate","Traduce: \"What is the next available flight to Madrid?\"",["Dov'è il mio volo in coincidenza?", "Il mio volo è cancellato?", "Dov'è il ritiro bagagli?", "Qual è il prossimo volo disponibile per Madrid?"],3,"\"Prossimo volo disponibile\" pregunta por la siguiente opción."],
       ["arrange","Ordena: [volo / perso / ho / mio / il]",["perso volo Ho mio il", "mio il Ho volo perso", "mio il volo perso Ho", "Ho perso il mio volo"],3,"Verbo + posesivo + sustantivo + participio."],
+    ["mcq","¿Cómo se dice \"retrasado\" en italiano?",["cancellato","ho perso il mio volo","in ritardo","il volo in coincidenza"],2,"\"retrasado\" se dice \"in ritardo\" en italiano."],
     ]
   },
   {
@@ -9757,6 +10134,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Ho paura di perdere il mio volo in ___.”",["lounge", "imbarco", "accesso", "coincidenza"],3,"\"Volo in coincidenza\" es el vuelo de enlace."],
       ["translate","Traduce: \"If I miss the flight, will I be rebooked automatically?\"",["Se perdo il volo, pagherò una multa?", "Se perdo il volo, perderò il biglietto?", "Se perdo il gate, avrò l'imbarco prioritario?", "Se perdo il volo, sarò riprogrammato automaticamente?"],3,"\"Sarò riprogrammato\" usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [lounge / accesso / alla / ho]",["accesso alla Ho lounge", "lounge alla accesso Ho", "Ho accesso alla lounge", "Ho alla lounge accesso"],2,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tener acceso a la sala VIP\" en italiano?",["perdere un volo in coincidenza","una coincidenza stretta","avere accesso alla lounge VIP","essere riprogrammati automaticamente"],2,"\"tener acceso a la sala VIP\" se dice \"avere accesso alla lounge VIP\" en italiano."],
     ]
   },
   {
@@ -9904,6 +10282,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ ordinare la zuppa, per favore.”",["Vorrei", "Senza", "Per", "È pronto"],0,"\"Vorrei\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Per me, cipolla.", "Senza pasta, per favore.", "Con cipolla, per favore.", "Senza cipolla, per favore."],3,"\"Senza\" indica que no quieres ese ingrediente."],
       ["arrange","Ordena: [consiglia / cosa / mi]",["mi consiglia Cosa", "Cosa mi consiglia", "Cosa consiglia mi", "mi Cosa consiglia"],1,"Interrogativo + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"Para mí, la pasta\" en italiano?",["Vorrei ordinare...","Cosa mi consiglia?","È pronto/a per ordinare?","Per me, la pasta"],3,"\"Para mí, la pasta\" se dice \"Per me, la pasta\" en italiano."],
     ]
   },
   {
@@ -9951,6 +10330,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Sono allergico alla frutta a ___.”",["latticini", "guscio", "carne", "glutine"],1,"\"Frutta a guscio\" son nueces, almendras, etc."],
       ["translate","Traduce: \"I don't eat meat.\"",["Non sono allergico.", "Non mangio frutta a guscio.", "Non contiene latticini.", "Non mangio carne."],3,"\"Non mangio\" + alimento indica una preferencia alimentaria."],
       ["arrange","Ordena: [carne / mangio / non]",["Non mangio carne", "Non carne mangio", "mangio carne Non", "carne mangio Non"],0,"Negación + verbo + sustantivo."],
+    ["mcq","¿Cómo se dice \"los frutos secos\" en italiano?",["sono allergico/a a...","intollerante al glutine","non mangio carne","la frutta a guscio"],3,"\"los frutos secos\" se dice \"la frutta a guscio\" en italiano."],
     ]
   },
   {
@@ -9974,6 +10354,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Mi scusi, questo non è quello che ho ___.”",["cambiare", "ordinato", "manca", "freddo"],1,"\"Questo non è quello che ho ordinato\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["È freddo?", "Manca l'ordine?", "Potrebbe cambiarlo?", "Potrebbe portarlo?"],2,"\"Potrebbe...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [troppo / freddo / è]",["È troppo freddo", "È freddo troppo", "freddo troppo È", "freddo È troppo"],0,"Verbo + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"falta algo del pedido\" en italiano?",["è troppo salato","è freddo","questo non è quello che ho ordinato","manca l'ordine"],3,"\"falta algo del pedido\" se dice \"manca l'ordine\" en italiano."],
     ]
   },
   {
@@ -9997,6 +10378,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Possiamo ___ il conto tra tutti e quattro?”",["pagare", "dividere", "tenere", "accettare"],1,"\"Dividere il conto\" es repartir el pago."],
       ["translate","Traduce: \"Keep the change.\"",["Divida il conto.", "Paghi la mancia.", "Accetti la carta.", "Tenga il resto."],3,"\"Tenga il resto\" es una forma común de dejar propina."],
       ["arrange","Ordena: [favore / conto / il / per]",["conto favore per Il", "per favore conto Il", "Il conto per favore", "per Il conto favore"],2,"Artículo + sustantivo + expresión de cortesía."],
+    ["mcq","¿Cómo se dice \"la propina\" en italiano?",["dividere il conto","la mancia","tenga il resto","accettate la carta?"],1,"\"la propina\" se dice \"la mancia\" en italiano."],
     ]
   },
   {
@@ -10067,6 +10449,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Questo rosso corposo ___ perfettamente il piatto principale.”",["accompagnerà", "prenoterà", "chiederà", "festeggerà"],0,"\"Accompagnare\" significa resaltar/combinar bien con algo."],
       ["translate","Traduce: \"Could you recommend a wine pairing for this dish?\"",["Potrebbe consigliarci un abbinamento cibo-vino per questo piatto?", "Potrebbe accompagnare il sommelier?", "Potrebbe prenotare un tavolo per questo piatto?", "Potrebbe consigliarci un menù per questo vino?"],0,"\"Abbinamento cibo-vino\" es la combinación entre un vino y un plato."],
       ["arrange","Ordena: [degustazione / menù / un / vorremmo]",["menù Vorremmo degustazione un", "un degustazione Vorremmo menù", "degustazione menù un Vorremmo", "Vorremmo un menù degustazione"],3,"Verbo + artículo + sustantivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el maridaje de vinos\" en italiano?",["accompagnare il piatto","il consiglio del sommelier","un menù degustazione","l'abbinamento cibo-vino"],3,"\"el maridaje de vinos\" se dice \"l'abbinamento cibo-vino\" en italiano."],
     ]
   },
   {
@@ -10162,6 +10545,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Non preoccuparti per l'esame, sarà un gioco da ___.”",["ragazzi", "goloso", "pagnotta", "ciliegina"],0,"\"Un gioco da ragazzi\" = algo muy fácil."],
       ["translate","Traduce con un modismo equivalente: \"That's the icing on the cake.\"",["Questo è un gioco da ragazzi.", "Questa è la ciliegina sulla torta.", "Questo è essere goloso.", "Questo è portare a casa la pagnotta."],1,"\"La ciliegina sulla torta\" es un extra positivo añadido a algo ya bueno."],
       ["arrange","Ordena: [dolci / sono / con / goloso / i]",["goloso con i dolci Sono", "Sono goloso con i dolci", "i goloso con dolci Sono", "Sono con i dolci goloso"],1,"Sujeto + verbo + adjetivo + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"comer como un rey\" en italiano?",["portare a casa la pagnotta","mangiare come un re","questa è la ciliegina sulla torta","un gioco da ragazzi"],1,"\"comer como un rey\" se dice \"mangiare come un re\" en italiano."],
     ]
   },
   ],
@@ -10213,6 +10597,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Ho una prenotazione a ___ di García.”",["chiave", "nome", "password", "ora"],1,"\"A nome di\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Ho bisogno di un'altra colazione.", "Ho bisogno di un'altra chiave.", "Ho bisogno di un'altra camera.", "Ho bisogno di un'altra prenotazione."],1,"\"Un'altra chiave\" pide una llave adicional."],
       ["arrange","Ordena: [chiave / bisogno / di / ho / un'altra]",["un'altra bisogno chiave Ho di","Ho bisogno di un'altra chiave","chiave Ho un'altra bisogno di","un'altra Ho chiave di bisogno"],1,"Verbo + sustantivo + preposición + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿A qué hora es el check-in?\" en italiano?",["Ho una prenotazione a nome di...","Qual è la password del wifi?","La colazione è inclusa?","A che ora è il check-in?"],3,"\"¿A qué hora es el check-in?\" se dice \"A che ora è il check-in?\" en italiano."],
     ]
   },
   {
@@ -10261,6 +10646,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “C'è una ___ nell'hotel? Voglio nuotare domani.”",["lavanderia", "piscina", "palestra", "parcheggio"],1,"\"Piscina\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["C'è una palestra disponibile?", "C'è un servizio in camera disponibile?", "C'è un parcheggio disponibile?", "C'è una piscina disponibile?"],2,"\"C'è...disponibile?\" pregunta por disponibilidad de un servicio."],
       ["arrange","Ordena: [piscina / una / c'è / nell'hotel]",["C'è una piscina nell'hotel","nell'hotel C'è una piscina","nell'hotel una C'è piscina","C'è nell'hotel piscina una"],0,"Verbo + artículo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"el gimnasio\" en italiano?",["la palestra","la lavanderia","il parcheggio","la sveglia telefonica"],0,"\"el gimnasio\" se dice \"la palestra\" en italiano."],
     ]
   },
   {
@@ -10284,6 +10670,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Mi scusi, l'aria condizionata non ___ nella mia camera.”",["è", "c'è", "funziona", "ha"],2,"\"Non funziona\" describe algo roto."],
       ["translate","Traduce: \"Could you change my room?\"",["Potrebbe riparare l'aria condizionata?", "Potrebbe pulirmi la camera?", "Potrebbe portare acqua calda?", "Potrebbe cambiarmi la camera?"],3,"\"Potrebbe...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [rumore / molto / c'è]",["rumore molto C'è", "C'è molto rumore", "rumore C'è molto", "molto C'è rumore"],1,"Verbo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la habitación está sucia\" en italiano?",["c'è molto rumore","potrebbe cambiarmi la camera?","non c'è acqua calda","la camera è sporca"],3,"\"la habitación está sucia\" se dice \"la camera è sporca\" en italiano."],
     ]
   },
   {
@@ -10307,6 +10694,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “A che ora è il ___?”",["spese", "minibar", "bagaglio", "check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["Potrebbe lasciare la mia camera per qualche ora?", "Potrebbe controllare il mio bagaglio per qualche ora?", "Potrebbe addebitare il mio bagaglio per qualche ora?", "Potrebbe custodire il mio bagaglio per qualche ora?"],3,"\"Custodire il bagaglio\" es dejarlo temporalmente en el hotel."],
       ["arrange","Ordena: [conto / controllare / il / potrebbe]",["controllare Potrebbe conto il", "Potrebbe controllare conto il", "Potrebbe controllare il conto", "conto il Potrebbe controllare"],2,"Verbo modal + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer el check-out\" en italiano?",["potrebbe controllare il conto?","le spese del minibar","lasciare la camera","fare il check-out"],3,"\"hacer el check-out\" se dice \"fare il check-out\" en italiano."],
     ]
   },
   {
@@ -10377,6 +10765,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “I servizi non sono come ___ sul sito web.”",["aspettative", "pubblicizzati", "disconnessi", "servizio"],1,"\"Come pubblicizzati\" significa \"tal como se promociona\"."],
       ["translate","Traduce: \"The gym falls short of what we expected.\"",["La palestra è esattamente come pubblicizzata.", "La palestra non è all'altezza di ciò che ci aspettavamo.", "La palestra continua a disconnettersi dalle aspettative.", "La palestra è fuori servizio oggi."],1,"\"Non essere all'altezza delle aspettative\" es no cumplir lo esperado."],
       ["arrange","Ordena: [servizio / piscina / la / fuori / è]",["è piscina La servizio fuori", "La piscina è fuori servizio", "servizio piscina fuori La è", "piscina La è fuori servizio"],1,"Sujeto + verbo + \"fuori servizio\"."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anunciaban\" en italiano?",["non essere all'altezza delle aspettative","la piscina è fuori servizio","il wifi continua a disconnettersi","i servizi non sono come pubblicizzati"],3,"\"las instalaciones no son como se anunciaban\" se dice \"i servizi non sono come pubblicizzati\" en italiano."],
     ]
   },
   {
@@ -10424,6 +10813,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Potrebbe addebitare questo sul mio conto ___?”",["tariffa", "ricevuta", "aziendale", "camera"],2,"\"Addebitarlo sul conto aziendale\" es cargar el gasto a la empresa."],
       ["translate","Traduce: \"Could I get an itemized receipt for my company?\"",["Potrei lavorare da remoto dal business center?", "Potrei avere una ricevuta dettagliata per la mia azienda?", "Potrei avere una tariffa aziendale per la mia camera?", "Potrei addebitare la sala riunioni sul mio conto?"],1,"\"Ricevuta dettagliata\" es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [conto / questo / addebiti / mio / sul / per / favore]",["questo per conto sul Addebiti mio favore", "per mio conto favore sul questo Addebiti", "Addebiti questo sul mio conto per favore", "mio favore sul per Addebiti conto questo"],2,"Imperativo + objeto + preposición + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"cargarlo a la cuenta de la empresa\" en italiano?",["una tariffa aziendale","addebitarlo sul conto aziendale","una sala riunioni con proiettore","una ricevuta dettagliata"],1,"\"cargarlo a la cuenta de la empresa\" se dice \"addebitarlo sul conto aziendale\" en italiano."],
     ]
   },
   {
@@ -10522,6 +10912,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ costa il chilo di mele?”",["Dove", "Quale", "Quanto", "Cosa"],2,"\"Quanto costa\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Voglio mezzo chilo.", "Voglio prenderlo.", "Voglio qualcosa di più fresco.", "Voglio un chilo intero."],0,"\"Mezzo chilo\" es 500 gramos."],
       ["arrange","Ordena: [subito / prendo / lo]",["subito Lo prendo", "subito prendo Lo", "prendo Lo subito", "Lo prendo subito"],3,"Pronombre + verbo + adverbio."],
+    ["mcq","¿Cómo se dice \"¿Tiene algo más fresco?\" en italiano?",["Quanto costa questo?","Voglio mezzo chilo","Ha qualcosa di più fresco?","Lo prendo"],2,"\"¿Tiene algo más fresco?\" se dice \"Ha qualcosa di più fresco?\" en italiano."],
     ]
   },
   {
@@ -10568,6 +10959,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Mi dispiace, non me ne rimane più, ma posso offrirle questo al ___ suo.”",["simile", "posto", "esaurito", "chilo"],1,"\"Al posto suo\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Le offro pomodori al posto suo oggi.", "Non mi rimangono più pomodori oggi.", "I pomodori sono esauriti oggi.", "Non ho pomodori simili oggi."],1,"\"Non mi rimangono più\" indica que se acabó el producto."],
       ["arrange","Ordena: [completamente / è / esaurito]",["esaurito completamente È", "completamente esaurito È", "È esaurito completamente", "È completamente esaurito"],3,"Verbo + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"se me acabó..\" en italiano?",["posso offrirle questo al posto suo","ha qualcosa di simile?","è esaurito","non me ne rimane più"],3,"\"se me acabó...\" se dice \"non me ne rimane più\" en italiano."],
     ]
   },
   {
@@ -10590,6 +10982,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Voglio restituire questo, ___ ieri ed è già rovinato.”",["è in", "l'ho comprato", "voglio", "può darmi"],1,"\"L'ho comprato ieri\" indica cuándo se hizo la compra."],
       ["translate","Traduce: \"I bought it yesterday and it's already bad.\"",["L'ho comprato ieri ed è già rovinato.", "Può darmi un rimborso domani?", "Voglio restituirlo domani.", "L'ho comprato oggi ed è buono."],0,"\"Ieri\" + \"è già rovinato\" explica el problema con el producto."],
       ["arrange","Ordena: [questo / restituire / voglio]",["Voglio questo restituire", "questo Voglio restituire", "restituire questo Voglio", "Voglio restituire questo"],3,"Verbo + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"lo compré ayer\" en italiano?",["voglio restituire questo","l'ho comprato ieri","è in cattive condizioni","può darmi un rimborso?"],1,"\"lo compré ayer\" se dice \"l'ho comprato ieri\" en italiano."],
     ]
   },
   {
@@ -10612,6 +11005,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Mi dispiace, qui è ___ contanti, non accettiamo la carta.”",["resto", "solo", "banconota", "carta"],1,"\"Solo contanti\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["Accettate la carta?", "Avete resto?", "Accettate contanti?", "Pagate in contanti?"],0,"\"Accettate la carta?\" pregunta por el método de pago."],
       ["arrange","Ordena: [carta / accettate / credito / di]",["Accettate carta credito di", "Accettate carta di credito", "di carta credito Accettate", "di Accettate credito carta"],1,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"pagar en efectivo\" en italiano?",["pagare in contanti","accettate la carta?","ha resto per una banconota grande?","solo contanti"],0,"\"pagar en efectivo\" se dice \"pagare in contanti\" en italiano."],
     ]
   },
   {
@@ -10706,6 +11100,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Più ordina, più grande è lo ___.”",["quantità", "consegna", "prezzo", "sconto"],3,"\"Più..., più grande lo sconto\" expresa proporcionalidad."],
       ["translate","Traduce: \"Is delivery included in the wholesale price?\"",["La consegna è inclusa nel prezzo all'ingrosso?", "L'ordine ricorrente è incluso nella consegna?", "La quantità minima è inclusa nel prezzo?", "Lo sconto è incluso nella consegna?"],0,"\"Inclusa nel prezzo all'ingrosso\" pregunta si el envío está cubierto."],
       ["arrange","Ordena: [ricorrente / ordine / un / fare / voglio]",["Voglio fare un ordine ricorrente", "Voglio ordine fare un ricorrente", "un fare ordine ricorrente Voglio", "fare Voglio ordine un ricorrente"],0,"\"Voglio fare\" + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer un pedido recurrente\" en italiano?",["uno sconto sulla quantità","un prezzo all'ingrosso","la quantità minima d'ordine","fare un ordine ricorrente"],3,"\"hacer un pedido recurrente\" se dice \"fare un ordine ricorrente\" en italiano."],
     ]
   },
   {
@@ -10829,6 +11224,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Ho la febbre ___ tre giorni.”",["attraverso", "con", "per", "da"],3,"\"Da tre giorni\" indica cuánto tiempo llevas con el síntoma."],
       ["translate","Traduce: \"I feel nauseous.\"",["Ho la febbre.", "Ho mal di testa.", "Ho la nausea.", "Mi sento stordito."],2,"\"Nausea\" es el síntoma de querer vomitar."],
       ["arrange","Ordena: [testa / mal / ho / di]",["Ho mal di testa", "mal di Ho testa", "di testa mal Ho", "di testa Ho mal"],0,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo fiebre\" en italiano?",["mi sento stordito/a","ho la nausea","ho mal di testa","ho la febbre"],3,"\"tengo fiebre\" se dice \"ho la febbre\" en italiano."],
     ]
   },
   {
@@ -10875,6 +11271,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Lo prenda ___ volte al giorno, con i pasti.”",["con", "due", "gli", "senza"],1,"\"Due volte al giorno\" indica la frecuencia de la dosis."],
       ["translate","Traduce: \"Do you have something for a headache?\"",["Ha effetti collaterali?", "Ha qualcosa con ricetta?", "Ha qualcosa per il mal di testa?", "Ha qualcosa due volte al giorno?"],2,"Pregunta típica en la farmacia por un síntoma."],
       ["arrange","Ordena: [giorno / al / volte / due]",["al Due giorno volte", "volte Due al giorno", "Due volte al giorno", "al volte Due giorno"],2,"Número + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"con o sin receta\" en italiano?",["due volte al giorno","con o senza ricetta","gli effetti collaterali","ha qualcosa per il mal di testa?"],1,"\"con o sin receta\" se dice \"con o senza ricetta\" en italiano."],
     ]
   },
   {
@@ -10920,6 +11317,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Questo trattamento è ___ dalla mia assicurazione?”",["numero", "firmato", "pagato", "coperto"],3,"\"Essere coperto da\" indica si el seguro lo incluye."],
       ["translate","Traduce: \"I need to sign the admission form.\"",["Devo pagare il ticket.", "Ho bisogno del mio numero di polizza.", "Devo sapere se è coperto.", "Devo firmare il modulo di ammissione."],3,"\"Firmare il modulo di ammissione\" es un trámite habitual al ingresar."],
       ["arrange","Ordena: [ticket / il / quanto / è]",["è Quanto ticket il", "è ticket il Quanto", "Quanto è il ticket", "ticket Quanto il è"],2,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿esto lo cubre mi seguro?\" en italiano?",["il ticket","è coperto dalla mia assicurazione?","firmare il modulo di ammissione","il numero di polizza"],1,"\"¿esto lo cubre mi seguro?\" se dice \"è coperto dalla mia assicurazione?\" en italiano."],
     ]
   },
   {
@@ -11014,6 +11412,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Si assicuri di capire i rischi ___ firmare il modulo.”",["senza", "prima di", "durante", "dopo"],1,"\"Prima di firmare\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["Posso firmare prima di fare domande?", "Capisco cosa sto firmando?", "Ci sono rischi prima della procedura?", "Posso fare domande prima di firmare?"],3,"\"Prima di firmare\" marca el orden correcto de las acciones."],
       ["arrange","Ordena: [consenso / firmare / un / di / modulo / devo]",["un di firmare modulo Devo consenso", "Devo firmare un modulo di consenso", "consenso un modulo firmare di Devo", "Devo consenso modulo firmare un di"],1,"\"Devo\" + verbo + artículo + sustantivo compuesto."],
+    ["mcq","¿Cómo se dice \"¿tengo otras opciones?\" en italiano?",["ho altre opzioni?","firmare un modulo di consenso","capire a cosa sta acconsentendo","può fare domande prima di firmare"],0,"\"¿tengo otras opciones?\" se dice \"ho altre opzioni?\" en italiano."],
     ]
   },
   {
@@ -11136,6 +11535,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ organizzare una riunione per domani?”",["Ho allegato", "Avrò", "Grazie", "Possiamo"],3,"\"Possiamo...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Allegherò il file.", "Ringrazierò la sua pazienza.", "Organizzerò una riunione.", "Avrò bisogno di più tempo."],3,"\"Avrò bisogno\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [file / allegato / il / ho]",["allegato file il Ho", "Ho allegato il file", "file allegato il Ho", "Ho file il allegato"],1,"Verbo auxiliar + participio + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"Gracias por su paciencia\" en italiano?",["Avrò bisogno di più tempo","Possiamo organizzare una riunione?","Ho allegato il file","Grazie per la sua pazienza"],3,"\"Gracias por su paciencia\" se dice \"Grazie per la sua pazienza\" en italiano."],
     ]
   },
   {
@@ -11181,6 +11581,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ con l'ordine del giorno di oggi.”",["Passiamo", "Chiediamo", "Iniziamo", "Vediamo"],2,"\"Iniziamo\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Come potete vedere in questa diapositiva...", "Come potete iniziare in questa diapositiva...", "Come potete chiedere in questa diapositiva...", "Come potete passare in questa diapositiva..."],0,"\"Come potete vedere\" introduce una explicación visual."],
       ["arrange","Ordena: [domande / ci / sono]",["sono Ci domande", "Ci domande sono", "domande Ci sono", "Ci sono domande"],3,"Pronombre + verbo + sustantivo."],
+    ["translate","Traduce: \"Empecemos con el orden del día de hoy.\"",["Iniziamo con l'ordine del giorno di oggi.","vorrei chiedere qualche giorno libero","ho giorni di ferie accumulati","preferisco essere diretto/a a riguardo"],0,"\"Empecemos con el orden del día de hoy.\" se traduce como \"Iniziamo con l'ordine del giorno di oggi.\" (Imperativo de primera persona plural (\"noi\"))."],
     ]
   },
   {
@@ -11203,6 +11604,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ Sig. López: le scrivo per confermare la riunione.”",["Gentile", "Attesa", "Cordiali", "Saluti"],0,"\"Gentile\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Cordiali saluti alla sua risposta.", "Resto in attesa di una sua risposta.", "Gentile alla sua risposta.", "Le scrivo alla sua risposta."],1,"\"Resto in attesa di\" es una despedida formal común."],
       ["arrange","Ordena: [distinti / cordiali / saluti]",["distinti Cordiali saluti", "Cordiali distinti saluti", "Cordiali saluti distinti", "saluti distinti Cordiali"],2,"Adjetivo + sustantivo + adjetivo (variación enfática de despedida formal)."],
+    ["translate","Traduce: \"Estimado Sr. López: Le escribo para confirmar la reunión. Atentamente.\"",["l'email","come potete vedere in questa diapositiva","Gentile Sig. López, Le scrivo per confermare la riunione. Cordiali saluti.","se osserviamo i dati da vicino"],2,"\"Estimado Sr. López: Le escribo para confirmar la reunión. Atentamente.\" se traduce como \"Gentile Sig. López, Le scrivo per confermare la riunione. Cordiali saluti.\" (Fórmulas fijas para correos formales)."],
     ]
   },
   {
@@ -11225,6 +11627,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Capisco il suo punto di vista, ___ non sono del tutto d'accordo.”",["sebbene", "ma", "se", "perché"],1,"\"Ma\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Possiamo trovare la ragione?", "Possiamo capire il suo punto di vista?", "Siamo del tutto d'accordo?", "Possiamo trovare un compromesso?"],3,"\"Un compromesso\" es un compromiso entre dos posturas."],
       ["arrange","Ordena: [sono / non / del / tutto / d'accordo]",["Non d'accordo sono tutto del","Non sono del tutto d'accordo","tutto Non d'accordo sono del","sono tutto Non d'accordo del"],1,"Negación + verbo + \"del tutto d'accordo\"."],
+    ["mcq","¿Cómo se dice \"Entiendo su punto, pero..\" en italiano?",["capisco il suo punto di vista, ma...","possiamo trovare un compromesso?","preferisco essere diretto/a a riguardo","non sono del tutto d'accordo"],0,"\"Entiendo su punto, pero...\" se dice \"capisco il suo punto di vista, ma...\" en italiano."],
     ]
   },
   {
@@ -11295,6 +11698,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Grazie per il feedback, ne terrò sicuramente ___.”",["conto", "apprezzo", "area", "miglioramento"],0,"\"Tenerne conto\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["Ho tenuto conto del feedback sul miglioramento.", "Apprezzo davvero il feedback, soprattutto riguardo all'area di miglioramento.", "Apprezzo davvero l'area, soprattutto il feedback.", "Apprezzo davvero cosa ha funzionato bene del feedback."],1,"\"Apprezzo davvero il feedback\" + \"soprattutto...\"."],
       ["arrange","Ordena: [feedback / apprezzo / il / davvero]",["Apprezzo davvero il feedback", "davvero Apprezzo il feedback", "feedback davvero Apprezzo il", "feedback il davvero Apprezzo"],0,"Verbo + adverbio + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la retroalimentación constructiva\" en italiano?",["un'area di miglioramento","apprezzo davvero il feedback","un feedback costruttivo","cosa ha funzionato bene e cosa si potrebbe migliorare"],2,"\"la retroalimentación constructiva\" se dice \"un feedback costruttivo\" en italiano."],
     ]
   },
   {
@@ -11342,6 +11746,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “È importante chiarire ___ di supporre quando si lavora con culture diverse.”",["essere", "diverso", "invece", "conto"],2,"\"Chiarire invece di supporre\" es preferir aclarar antes que suponer."],
       ["translate","Traduce: \"Directness can be perceived differently depending on the culture.\"",["La franchezza può essere percepita diversamente a seconda della cultura.", "I malintesi possono essere percepiti diversamente a seconda della cultura.", "Le differenze culturali possono essere dirette a seconda dello stile.", "La franchezza può evitare malintesi a seconda della cultura."],0,"\"Può essere percepita diversamente\" expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [malintesi / importante / evitare / è]",["È malintesi importante evitare", "È evitare importante malintesi", "È importante evitare malintesi", "malintesi importante È evitare"],2,"\"È importante\" + verbo + objeto."],
+    ["mcq","¿Cómo se dice \"la franqueza puede percibirse de forma distinta\" en italiano?",["evitare malintesi","uno stile di comunicazione diverso","essere attenti alle differenze culturali","la franchezza può essere percepita diversamente"],3,"\"la franqueza puede percibirse de forma distinta\" se dice \"la franchezza può essere percepita diversamente\" en italiano."],
     ]
   },
   {
@@ -11440,6 +11845,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Che ___ vederti! È da tanto che non ci vediamo.”",["compleanno", "invitato", "conosci", "piacere"],3,"\"Che piacere vederti\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Come conosci il padrone di casa?", "Come conosci la musica?", "Come conosci il regalo?", "Come conosci l'ospite?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [conosci / padrone / come / il / casa / di]",["Come il casa conosci padrone di", "conosci Come il padrone di casa", "Come conosci il padrone di casa", "casa padrone Come di conosci il"],2,"Interrogativo + verbo + artículo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"¡Feliz cumpleaños!\" en italiano?",["Che piacere vederti!","Come conosci il padrone di casa?","Buon compleanno!","Grazie per avermi invitato/a"],2,"\"¡Feliz cumpleaños!\" se dice \"Buon compleanno!\" en italiano."],
     ]
   },
   {
@@ -11485,6 +11891,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Mi ___ molto venire alla tua festa, grazie per l'invito.”",["dispiace", "piacerebbe", "posso", "va"],1,"\"Mi piacerebbe\" expresa entusiasmo al aceptar."],
       ["translate","Traduce: \"Sorry, I already have plans.\"",["Mi piacerebbe, ho già degli impegni.", "Posso portare impegni, mi dispiace.", "Mi dispiace, ho già degli impegni.", "Mi dispiace, sono già venuto alla festa."],2,"\"Ho già degli impegni\" es una forma educada de declinar."],
       ["arrange","Ordena: [venire / molto / piacerebbe / mi]",["Mi venire piacerebbe molto", "venire molto piacerebbe Mi", "Mi piacerebbe molto venire", "molto venire Mi piacerebbe"],2,"Pronombre + verbo condicional + adverbio + verbo."],
+    ["mcq","¿Cómo se dice \"¿te gustaría venir a mi fiesta?\" en italiano?",["posso portare qualcuno?","mi dispiace, ho già degli impegni","ti va di venire alla mia festa?","mi piacerebbe molto venire"],2,"\"¿te gustaría venir a mi fiesta?\" se dice \"ti va di venire alla mia festa?\" en italiano."],
     ]
   },
   {
@@ -11507,6 +11914,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Assaggia questo, è ___.”",["mangiare", "versare", "buonissimo", "delizioso"],3,"\"Delizioso\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["È delizioso ancora un po'?", "Puoi versarmene ancora un po'?", "Cosa c'è da mangiare ancora?", "Assaggi ancora un po'?"],1,"\"Puoi versarmene?\" se pide para que te sirvan más comida o bebida."],
       ["arrange","Ordena: [mangiare / c'è / da / cosa]",["Cosa da mangiare c'è", "da mangiare Cosa c'è", "Cosa c'è da mangiare", "Cosa mangiare da c'è"],2,"Interrogativo + verbo + preposición + verbo."],
+    ["translate","Traduce: \"Está muy bueno. / Está riquísimo.\"",["è esilarante","È buonissimo. / È deliziosissimo.","Sono una grafica","di cosa ti occupi?"],1,"\"Está muy bueno. / Está riquísimo.\" se traduce como \"È buonissimo. / È deliziosissimo.\" (Superlativo con -issimo)."],
     ]
   },
   {
@@ -11552,6 +11960,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “È stato un piacere ___, vediamoci un altro giorno.”",["avere", "conoscerti", "andare", "vederti"],1,"\"È stato un piacere conoscerti\" es una despedida educada."],
       ["translate","Traduce: \"I have to go now, see you soon!\"",["Devo andare ora, a presto!", "Devo andare ora, è stato un piacere!", "È stato un piacere andare, a presto!", "Vediamoci un altro giorno, a presto!"],0,"\"Devo andare ora\" indica que te despides."],
       ["arrange","Ordena: [venerdì / presto / a]",["A presto venerdì", "venerdì A presto", "presto A venerdì", "venerdì presto A"],0,"Preposición + adverbio + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo que irme ya\" en italiano?",["devo andare ora","vediamoci un altro giorno","a presto","è stato un piacere conoscerti"],0,"\"tengo que irme ya\" se dice \"devo andare ora\" en italiano."],
     ]
   },
   {
@@ -11623,6 +12032,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ offesa, ma quella battuta non era molto divertente.”",["Certo", "Senza", "Umorismo", "Scherzando"],1,"\"Senza offesa, ma...\" suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: \"Yeah, right, and I'm the king of England.\" (sarcasmo)",["Ma certo, e io sono il re d'Inghilterra.", "È esilarante, e io sono il re d'Inghilterra.", "Sto solo scherzando, e io sono il re d'Inghilterra.", "Senza offesa, e io sono il re d'Inghilterra."],0,"\"Ma certo\" es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [scherzando / solo / sto]",["scherzando solo Sto", "scherzando Sto solo", "Sto solo scherzando", "solo scherzando Sto"],2,"Verbo + adverbio + gerundio."],
+    ["mcq","¿Cómo se dice \"qué gracioso\" en italiano?",["hai davvero un gran senso dell'umorismo","senza offesa, ma...","è esilarante","sto solo scherzando"],2,"\"qué gracioso\" se dice \"è esilarante\" en italiano."],
     ]
   },
   {
@@ -11745,6 +12155,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ consegno questo modulo di iscrizione?”",["Come", "Dove", "Quale", "Quando"],1,"\"Dove consegno...?\" pregunta por el lugar correcto."],
       ["translate","Traduce: \"I want to change majors.\"",["Voglio cambiare corso di laurea.", "Voglio cambiare scadenza.", "Voglio cambiare modulo.", "Voglio cambiare aula."],0,"\"Cambiare corso di laurea\" es cambiar de especialidad académica."],
       ["arrange","Ordena: [scadenza / la / qual / è]",["è scadenza la Qual", "Qual la è scadenza", "è Qual scadenza la", "Qual è la scadenza"],3,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿dónde entrego este formulario?\" en italiano?",["ho bisogno di un certificato di iscrizione","voglio cambiare corso di laurea","qual è la scadenza?","dove consegno questo modulo?"],3,"\"¿dónde entrego este formulario?\" se dice \"dove consegno questo modulo?\" en italiano."],
     ]
   },
   {
@@ -11790,6 +12201,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Qual è la data di ___ di questo libro?”",["prestito", "biblioteca", "restituzione", "studio"],2,"\"Data di restituzione\" indica cuándo debes regresar el libro."],
       ["translate","Traduce: \"Can I renew the loan?\"",["Posso rinnovare la data?", "Posso prendere in prestito il prestito?", "Posso rinnovare il prestito?", "Posso restituire la sala studio?"],2,"\"Rinnovare il prestito\" extiende el plazo de devolución."],
       ["arrange","Ordena: [libro / prestito / in / voglio / prendere / un]",["libro prendere Voglio prestito un in", "prestito libro un Voglio in prendere", "prendere libro Voglio un prestito in", "Voglio prendere in prestito un libro"],3,"Verbo + verbo + preposición + sustantivo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"renovar el préstamo\" en italiano?",["rinnovare il prestito","la sala studio silenziosa","prendere in prestito un libro","la data di restituzione"],0,"\"renovar el préstamo\" se dice \"rinnovare il prestito\" en italiano."],
     ]
   },
   {
@@ -11812,6 +12224,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “___ i compiti del progetto tra tutti.”",["Occupiamoci", "Dividiamoci", "Incontriamoci", "Finiamo"],1,"\"Dividiamoci\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Non ci incontriamo ancora.", "Non dividiamo ancora i compiti.", "Non mi occupo ancora della mia parte.", "Non ho ancora finito la mia parte."],3,"\"Non ho ancora finito... la mia parte\" indica que sigue en proceso."],
       ["arrange","Ordena: [pomeriggio / giovedì / incontriamoci / nel]",["giovedì Incontriamoci pomeriggio nel", "giovedì nel pomeriggio Incontriamoci", "Incontriamoci giovedì nel pomeriggio", "pomeriggio nel giovedì Incontriamoci"],2,"Imperativo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"quedemos el jueves\" en italiano?",["chi si occupa dell'introduzione?","non ho ancora finito la mia parte","dividiamoci i compiti","incontriamoci giovedì"],3,"\"quedemos el jueves\" se dice \"incontriamoci giovedì\" en italiano."],
     ]
   },
   {
@@ -11857,6 +12270,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “Vado a mangiare nella ___ del campus.”",["orario", "circolo", "mensa", "residenza"],2,"\"Mensa del campus\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Mi sono iscritto a una residenza questo semestre.", "Mi sono iscritto a una mensa questo semestre.", "Mi sono iscritto a un orario questo semestre.", "Mi sono iscritto/a a un circolo studentesco questo semestre."],3,"\"Circolo studentesco\" es una organización de estudiantes."],
       ["arrange","Ordena: [lezioni / mio / delle / orario / il]",["Il delle lezioni mio orario","Il mio orario delle lezioni","mio Il delle lezioni orario","Il orario delle mio lezioni"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la cafetería del campus\" en italiano?",["la mensa del campus","la residenza universitaria","il circolo studentesco","l'orario delle lezioni"],0,"\"la cafetería del campus\" se dice \"la mensa del campus\" en italiano."],
     ]
   },
   {
@@ -11904,6 +12318,7 @@ window.SITUATION_LESSON_BANKS.IT = {
       ["fill","Completa: “La ___ della domanda per la borsa di studio è venerdì prossimo.”",["documenti", "scadenza", "idoneità", "merito"],1,"\"Scadenza della domanda\" es la fecha tope para presentar la solicitud."],
       ["translate","Traduce: \"What are the eligibility requirements for financial aid?\"",["Quali documenti mi servono per la borsa?", "Qual è la scadenza per la borsa basata sul merito?", "Cos'è una borsa basata sull'aiuto finanziario?", "Quali sono i requisiti di idoneità per l'aiuto finanziario?"],3,"\"Requisiti di idoneità per l'aiuto finanziario\" son los requisitos para calificar."],
       ["arrange","Ordena: [studio / borsa / una / domanda / per / voglio / fare / di]",["studio una domanda per fare borsa di Voglio", "Voglio fare domanda per una borsa di studio", "per una di studio Voglio borsa domanda fare", "Voglio per domanda borsa studio fare di una"],1,"\"Voglio fare domanda\" + preposición + artículo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la elegibilidad para ayuda financiera\" en italiano?",["una borsa di studio basata sul merito","presentare documenti giustificativi","l'idoneità per l'aiuto finanziario","la scadenza della domanda"],2,"\"la elegibilidad para ayuda financiera\" se dice \"l'idoneità per l'aiuto finanziario\" en italiano."],
     ]
   },
   {
@@ -12054,6 +12469,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ despachar a mala, por favor.”",["Tenho", "Gostaria de", "O voo", "Posso"],1,"\"Gostaria\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"Here's my passport.\"",["Aqui está o meu voo.", "Qual é o meu passaporte?", "Aqui está a minha mala.", "Aqui está o meu passaporte."],3,"\"Aqui está\" presenta algo que entregas."],
       ["arrange","Ordena: [mala / despachar / a / gostaria / de]",["de despachar Gostaria a mala", "Gostaria mala de despachar a", "Gostaria de despachar a mala", "Gostaria a mala despachar de"],2,"\"Gostaria de\" + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿Dónde está el mostrador de la aerolínea?\" en portugués?",["Aqui está o meu passaporte","Gostaria de despachar a mala","Qual é o meu portão de embarque?","Onde é o balcão da companhia aérea?"],3,"\"¿Dónde está el mostrador de la aerolínea?\" se dice \"Onde é o balcão da companhia aérea?\" en portugués."],
     ]
   },
   {
@@ -12102,6 +12518,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Onde é a ___ de bagagem?”",["frágil", "excesso", "recolha", "despachada"],2,"\"Recolha de bagagem\" es donde recoges tu maleta."],
       ["translate","Traduce: \"My bag contains fragile items.\"",["A minha mala está com excesso de peso.", "A minha mala está perdida.", "A minha mala é de mão.", "A minha mala contém objetos frágeis."],3,"\"Frágil\" describe objetos que se rompen fácilmente."],
       ["arrange","Ordena: [perdida / minha / está / bagagem / a]",["está bagagem perdida A minha","perdida bagagem minha está A","está bagagem A minha perdida","A minha bagagem está perdida"],3,"Artículo + posesivo + sustantivo + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"el equipaje de mano\" en portugués?",["a bagagem perdida","a recolha de bagagem","frágil","a bagagem de mão"],3,"\"el equipaje de mano\" se dice \"a bagagem de mão\" en portugués."],
     ]
   },
   {
@@ -12126,6 +12543,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Qual é o ___ da sua visita?”",["detetor", "sapato", "motivo", "líquido"],2,"\"O motivo da sua visita\" pregunta el porqué del viaje."],
       ["translate","Traduce: \"I have nothing to declare.\"",["Não tenho nada a declarar.", "Não tenho os meus sapatos.", "Não tenho nada para levar.", "Não tenho o meu passaporte."],0,"\"Declarar\" se usa en aduana para objetos que debes notificar."],
       ["arrange","Ordena: [sapatos / tire / os]",["Tire os sapatos", "sapatos Tire os", "sapatos os Tire", "os sapatos Tire"],0,"Imperativo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el detector de metales\" en portugués?",["o motivo da sua visita","tire os sapatos","a alfândega","o detetor de metais"],3,"\"el detector de metales\" se dice \"o detetor de metais\" en portugués."],
     ]
   },
   {
@@ -12150,6 +12568,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “O meu voo foi cancelado. Pode me ___ noutro?”",["remarcar", "despachar", "declarar", "perder"],0,"\"Remarcar\" es cambiarte a otro vuelo."],
       ["translate","Traduce: \"What is the next available flight to Madrid?\"",["Onde está o meu voo de ligação?", "O meu voo está cancelado?", "Onde é a recolha de bagagem?", "Qual é o próximo voo disponível para Madrid?"],3,"\"Próximo voo disponível\" pregunta por la siguiente opción."],
       ["arrange","Ordena: [voo / perdi / meu / o]",["voo Perdi o meu", "o meu voo Perdi", "voo meu Perdi o", "Perdi o meu voo"],3,"Verbo + artículo + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"retrasado\" en portugués?",["atrasado","perdi o meu voo","cancelado","remarcar"],0,"\"retrasado\" se dice \"atrasado\" en portugués."],
     ]
   },
   {
@@ -12221,6 +12640,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Tenho medo de perder o meu voo de ___.”",["lounge", "embarque", "acesso", "ligação"],3,"\"Voo de ligação\" es el vuelo de enlace."],
       ["translate","Traduce: \"If I miss the flight, will I be rebooked automatically?\"",["Se eu perder o voo, vou pagar uma multa?", "Se eu perder o voo, vou perder o bilhete?", "Se eu perder o portão, vou ter embarque prioritário?", "Se eu perder o voo, vou ser remarcado automaticamente?"],3,"\"Vou ser remarcado\" usa la voz pasiva para preguntar por el trámite."],
       ["arrange","Ordena: [lounge / acesso / ao / tenho]",["acesso ao Tenho lounge", "lounge ao acesso Tenho", "Tenho acesso ao lounge", "Tenho ao lounge acesso"],2,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"tener acceso a la sala VIP\" en portugués?",["perder um voo de ligação","ter acesso ao lounge VIP","ser remarcado automaticamente","uma ligação apertada"],1,"\"tener acceso a la sala VIP\" se dice \"ter acesso ao lounge VIP\" en portugués."],
     ]
   },
   {
@@ -12368,6 +12788,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ pedir a sopa, por favor.”",["Gostaria de", "Sem", "Para", "Está pronto"],0,"\"Gostaria de\" es la forma educada de pedir algo."],
       ["translate","Traduce: \"No onion, please.\"",["Para mim, cebola.", "Sem massa, por favor.", "Com cebola, por favor.", "Sem cebola, por favor."],3,"\"Sem\" indica que no quieres ese ingrediente."],
       ["arrange","Ordena: [recomenda / o / me / que]",["recomenda O que me", "O que me recomenda", "que me recomenda O", "O que recomenda me"],1,"Interrogativo + pronombre + verbo."],
+    ["mcq","¿Cómo se dice \"Para mí, la pasta\" en portugués?",["Está pronto/a para pedir?","Sem cebola, por favor","Gostaria de pedir...","Para mim, a massa"],3,"\"Para mí, la pasta\" se dice \"Para mim, a massa\" en portugués."],
     ]
   },
   {
@@ -12415,6 +12836,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Sou alérgico a frutos ___.”",["laticínios", "secos", "carne", "glúten"],1,"\"Frutos secos\" son nueces, almendras, etc."],
       ["translate","Traduce: \"I don't eat meat.\"",["Não sou alérgico.", "Não como frutos secos.", "Isto não contém laticínios.", "Não como carne."],3,"\"Não como\" + alimento indica una preferencia alimentaria."],
       ["arrange","Ordena: [carne / como / não]",["Não como carne", "Não carne como", "como carne Não", "carne como Não"],0,"Negación + verbo + sustantivo."],
+    ["mcq","¿Cómo se dice \"los frutos secos\" en portugués?",["não como carne","intolerante a glúten","sou alérgico/a a...","os frutos secos"],3,"\"los frutos secos\" se dice \"os frutos secos\" en portugués."],
     ]
   },
   {
@@ -12438,6 +12860,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Desculpe, isto ___ o que pedi.”",["trocar", "não é", "falta", "está"],1,"\"Isto não é o que pedi\" reporta un error en el pedido."],
       ["translate","Traduce: \"Could you change it?\"",["Está frio?", "Falta o pedido?", "Pode trocar isto?", "Pode trazer isto?"],2,"\"Pode...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [frio / está / isto]",["Isto está frio", "Isto frio está", "frio está Isto", "frio Isto está"],0,"Sujeto + verbo + adjetivo."],
+    ["mcq","¿Cómo se dice \"falta algo del pedido\" en portugués?",["pode trocar isto?","está muito salgado","falta o pedido","isto não é o que pedi"],2,"\"falta algo del pedido\" se dice \"falta o pedido\" en portugués."],
     ]
   },
   {
@@ -12461,6 +12884,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Podemos ___ a conta entre os quatro?”",["pagar", "dividir", "ficar", "aceitar"],1,"\"Dividir a conta\" es repartir el pago."],
       ["translate","Traduce: \"Keep the change.\"",["Divida a conta.", "Pague a gorjeta.", "Aceite o cartão.", "Fique com o troco."],3,"\"Fique com o troco\" es una forma común de dejar propina."],
       ["arrange","Ordena: [favor / conta / a / por]",["conta favor por A", "por favor conta A", "A conta por favor", "por A conta favor"],2,"Artículo + sustantivo + expresión de cortesía."],
+    ["mcq","¿Cómo se dice \"la propina\" en portugués?",["a gorjeta","a conta, por favor","aceitam cartão?","fique com o troco"],0,"\"la propina\" se dice \"a gorjeta\" en portugués."],
     ]
   },
   {
@@ -12531,6 +12955,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Este tinto encorpado vai ___ perfeitamente o prato principal.”",["acompanhar", "reservar", "pedir", "celebrar"],0,"\"Acompanhar\" significa resaltar/combinar bien con algo."],
       ["translate","Traduce: \"Could you recommend a wine pairing for this dish?\"",["Podia recomendar-nos uma harmonização de vinhos para este prato?", "Podia acompanhar o sommelier?", "Podia reservar uma mesa para este prato?", "Podia recomendar-nos um menu para este vinho?"],0,"\"Harmonização de vinhos\" es la combinación entre un vino y un plato."],
       ["arrange","Ordena: [degustação / menu / um / gostaríamos / de]",["degustação Gostaríamos menu um de", "de menu Gostaríamos um degustação", "menu um de Gostaríamos degustação", "Gostaríamos de um menu degustação"],3,"Verbo + preposición + artículo + sustantivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"el maridaje de vinos\" en portugués?",["o harmonização de vinhos","acompanhar o prato","a recomendação do sommelier","um menu de degustação"],0,"\"el maridaje de vinos\" se dice \"o harmonização de vinhos\" en portugués."],
     ]
   },
   {
@@ -12626,6 +13051,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Não te preocupes com o exame, vai ser ___.”",["canja", "guloso", "pão", "cereja"],0,"\"Canja\" = algo muy fácil."],
       ["translate","Traduce con un modismo equivalente: \"That's the icing on the cake.\"",["Essa é canja.", "Essa é a cereja no topo do bolo.", "Essa é ser guloso.", "Essa é ganhar o pão de cada dia."],1,"\"A cereja no topo do bolo\" es un extra positivo añadido a algo ya bueno."],
       ["arrange","Ordena: [doces / sou / com / guloso / os]",["guloso com os doces Sou", "Sou guloso com os doces", "os guloso com doces Sou", "Sou com os doces guloso"],1,"Sujeto + verbo + adjetivo + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"comer como un rey\" en portugués?",["canja / muito fácil","comer como um rei","essa é a cereja no topo do bolo","ser guloso/a"],1,"\"comer como un rey\" se dice \"comer como um rei\" en portugués."],
     ]
   },
   ],
@@ -12677,6 +13103,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Tenho uma reserva em ___ de García.”",["chave", "nome", "palavra-passe", "hora"],1,"\"Em nome de\" indica de quién es la reserva."],
       ["translate","Traduce: \"I need another key.\"",["Preciso de outro pequeno-almoço.", "Preciso de outra chave.", "Preciso de outro quarto.", "Preciso de outra reserva."],1,"\"Outra chave\" pide una llave adicional."],
       ["arrange","Ordena: [chave / preciso / outra / de]",["outra de chave Preciso", "Preciso de outra chave", "outra de Preciso chave", "chave de Preciso outra"],1,"Verbo + preposición + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿A qué hora es el check-in?\" en portugués?",["A que horas é o check-in?","Tenho uma reserva em nome de...","Preciso de outra chave","Qual é a palavra-passe do wifi?"],0,"\"¿A qué hora es el check-in?\" se dice \"A que horas é o check-in?\" en portugués."],
     ]
   },
   {
@@ -12725,6 +13152,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Há ___ no hotel? Quero nadar amanhã.”",["lavandaria", "piscina", "ginásio", "estacionamento"],1,"\"Piscina\" es para nadar."],
       ["translate","Traduce: \"Is there parking available?\"",["Há ginásio disponível?", "Há serviço de quartos disponível?", "Há estacionamento disponível?", "Há piscina disponível?"],2,"\"Há...disponível?\" pregunta por disponibilidad de un servicio."],
       ["arrange","Ordena: [piscina / hotel / há / no]",["Há piscina no hotel", "hotel Há piscina no", "hotel piscina Há no", "Há hotel no piscina"],0,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la piscina\" en portugués?",["o serviço de despertar","o serviço de quartos","a piscina","o ginásio"],2,"\"la piscina\" se dice \"a piscina\" en portugués."],
     ]
   },
   {
@@ -12748,6 +13176,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Desculpe, o ar condicionado não ___ no meu quarto.”",["está", "há", "funciona", "tem"],2,"\"Não funciona\" describe algo roto."],
       ["translate","Traduce: \"Could you change my room?\"",["Podia reparar o ar condicionado?", "Podia limpar o meu quarto?", "Podia trazer água quente?", "Podia trocar-me de quarto?"],3,"\"Podia...?\" es la forma educada de pedir un cambio."],
       ["arrange","Ordena: [barulho / muito / há]",["barulho muito Há", "Há muito barulho", "barulho Há muito", "muito Há barulho"],1,"Verbo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la habitación está sucia\" en portugués?",["o quarto está sujo","o ar condicionado não funciona","há muito barulho","podia trocar-me de quarto?"],0,"\"la habitación está sucia\" se dice \"o quarto está sujo\" en portugués."],
     ]
   },
   {
@@ -12771,6 +13200,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “A que horas é o ___?”",["taxa", "minibar", "bagagem", "check-out"],3,"\"Check-out\" es la hora límite para dejar la habitación."],
       ["translate","Traduce: \"Could you store my luggage for a few hours?\"",["Podia deixar o meu quarto por umas horas?", "Podia verificar a minha bagagem por umas horas?", "Podia cobrar a minha bagagem por umas horas?", "Podia guardar a minha bagagem por umas horas?"],3,"\"Guardar a bagagem\" es dejarlo temporalmente en el hotel."],
       ["arrange","Ordena: [conta / verificar / a / podia]",["verificar Podia conta a", "Podia verificar conta a", "Podia verificar a conta", "conta a Podia verificar"],2,"Verbo modal + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer el check-out\" en portugués?",["a taxa do minibar","podia verificar a conta?","fazer o check-out","deixar o quarto"],2,"\"hacer el check-out\" se dice \"fazer o check-out\" en portugués."],
     ]
   },
   {
@@ -12841,6 +13271,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “As comodidades não são como ___ no site.”",["expectativas", "anunciadas", "desligadas", "serviço"],1,"\"Como anunciadas\" significa \"tal como se promociona\"."],
       ["translate","Traduce: \"The gym falls short of what we expected.\"",["O ginásio está exatamente como anunciado.", "O ginásio não está à altura do que esperávamos.", "O ginásio desliga-se das expectativas.", "O ginásio está fora de serviço hoje."],1,"\"Não estar à altura das expectativas\" es no cumplir lo esperado."],
       ["arrange","Ordena: [serviço / piscina / a / fora / está / de]",["A piscina está fora de serviço", "piscina A de serviço está fora", "está A serviço fora piscina de", "de serviço fora piscina A está"],0,"Sujeto + verbo + \"fora de serviço\"."],
+    ["mcq","¿Cómo se dice \"las instalaciones no son como se anunciaban\" en portugués?",["o wifi desliga-se constantemente","não estar à altura das expectativas","as comodidades não são como anunciadas","a piscina está fora de serviço"],2,"\"las instalaciones no son como se anunciaban\" se dice \"as comodidades não são como anunciadas\" en portugués."],
     ]
   },
   {
@@ -12888,6 +13319,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Podia faturar isto à minha ___ da empresa?”",["tarifa", "recibo", "conta", "quarto"],2,"\"Faturar à conta da empresa\" es cargar el gasto a la empresa."],
       ["translate","Traduce: \"Could I get an itemized receipt for my company?\"",["Podia trabalhar remotamente a partir do business center?", "Podia dar-me um recibo detalhado para a minha empresa?", "Podia dar-me uma tarifa empresarial para o meu quarto?", "Podia faturar a sala de reuniões à minha conta?"],1,"\"Recibo detalhado\" es un recibo con cada gasto desglosado."],
       ["arrange","Ordena: [conta / isto / fature / minha / à / favor / por]",["isto por conta à Fature minha favor", "por minha conta favor à isto Fature", "Fature isto à minha conta por favor", "minha favor à por Fature conta isto"],2,"Imperativo + objeto + preposición + posesivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"cargarlo a la cuenta de la empresa\" en portugués?",["uma sala de reuniões com projetor","um recibo detalhado","faturar à conta da empresa","trabalhar remotamente a partir do business center"],2,"\"cargarlo a la cuenta de la empresa\" se dice \"faturar à conta da empresa\" en portugués."],
     ]
   },
   {
@@ -12986,6 +13418,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ custa o quilo de maçãs?”",["Onde", "Qual", "Quanto", "O que"],2,"\"Quanto custa\" pregunta por el precio."],
       ["translate","Traduce: \"I want half a kilo.\"",["Quero meio quilo.", "Quero levar isto.", "Quero algo mais fresco.", "Quero um quilo inteiro."],0,"\"Meio quilo\" es 500 gramos."],
       ["arrange","Ordena: [já / isto / levo]",["já Levo isto", "já isto Levo", "isto Levo já", "Levo isto já"],3,"Verbo + pronombre + adverbio."],
+    ["mcq","¿Cómo se dice \"¿Tiene algo más fresco?\" en portugués?",["Quero meio quilo","Tem algo mais fresco?","Levo isto","Quanto custa isto?"],1,"\"¿Tiene algo más fresco?\" se dice \"Tem algo mais fresco?\" en portugués."],
     ]
   },
   {
@@ -13032,6 +13465,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Desculpe, já não tenho mais, mas posso oferecer-lhe isto em vez ___.”",["parecido", "disso", "esgotado", "quilo"],1,"\"Em vez disso\" propone un sustituto."],
       ["translate","Traduce: \"I'm out of tomatoes today.\"",["Ofereço-lhe tomates em vez disso hoje.", "Já não tenho tomates hoje.", "Os tomates estão esgotados hoje.", "Não tenho tomates parecidos hoje."],1,"\"Já não tenho\" indica que se acabó el producto."],
       ["arrange","Ordena: [completamente / está / esgotado]",["esgotado completamente Está", "completamente esgotado Está", "Está esgotado completamente", "Está completamente esgotado"],3,"Verbo + adverbio + adjetivo."],
+    ["mcq","¿Cómo se dice \"se me acabó..\" en portugués?",["tem algo parecido?","já não tenho mais","posso oferecer-lhe isto em vez disso","está esgotado"],1,"\"se me acabó...\" se dice \"já não tenho mais\" en portugués."],
     ]
   },
   {
@@ -13054,6 +13488,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Quero devolver isto, ___ ontem e já está mau.”",["está", "comprei", "quero", "pode"],1,"\"Comprei isto ontem\" indica cuándo se hizo la compra."],
       ["translate","Traduce: \"I bought it yesterday and it's already bad.\"",["Comprei isto ontem e já está mau.", "Pode reembolsar-me amanhã?", "Quero devolver isto amanhã.", "Comprei isto hoje e está bom."],0,"\"Ontem\" + \"já está mau\" explica el problema con el producto."],
       ["arrange","Ordena: [isto / devolver / quero]",["Quero isto devolver", "isto Quero devolver", "devolver isto Quero", "Quero devolver isto"],3,"Verbo + verbo + pronombre."],
+    ["mcq","¿Cómo se dice \"lo compré ayer\" en portugués?",["quero devolver isto","está em mau estado","comprei isto ontem","pode reembolsar-me?"],2,"\"lo compré ayer\" se dice \"comprei isto ontem\" en portugués."],
     ]
   },
   {
@@ -13076,6 +13511,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Desculpe, aqui é ___ dinheiro, não aceitamos cartão.”",["troco", "só", "nota", "cartão"],1,"\"Só dinheiro\" indica que no aceptan tarjeta."],
       ["translate","Traduce: \"Do you accept card?\"",["Aceitam cartão?", "Têm troco?", "Aceitam dinheiro?", "Pagam em dinheiro?"],0,"\"Aceitam cartão?\" pregunta por el método de pago."],
       ["arrange","Ordena: [crédito / cartão / aceitam / de]",["Aceitam cartão crédito de", "Aceitam cartão de crédito", "de cartão crédito Aceitam", "de Aceitam crédito cartão"],1,"Verbo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"pagar en efectivo\" en portugués?",["aceitam cartão?","tem troco para uma nota grande?","só dinheiro","pagar em dinheiro"],3,"\"pagar en efectivo\" se dice \"pagar em dinheiro\" en portugués."],
     ]
   },
   {
@@ -13170,6 +13606,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Quanto mais encomendar, maior o ___.”",["quantidade", "entrega", "preço", "desconto"],3,"\"Quanto mais..., maior o desconto\" expresa proporcionalidad."],
       ["translate","Traduce: \"Is delivery included in the wholesale price?\"",["A entrega está incluída no preço por grosso?", "A encomenda recorrente está incluída na entrega?", "A quantidade mínima está incluída no preço?", "O desconto está incluído na entrega?"],0,"\"Incluída no preço por grosso\" pregunta si el envío está cubierto."],
       ["arrange","Ordena: [recorrente / encomenda / uma / fazer / quero]",["Quero fazer uma encomenda recorrente", "Quero encomenda fazer uma recorrente", "uma fazer encomenda recorrente Quero", "fazer Quero encomenda uma recorrente"],0,"\"Quero fazer\" + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"hacer un pedido recurrente\" en portugués?",["fazer uma encomenda recorrente","a quantidade mínima de encomenda","um desconto por volume","um preço por grosso"],0,"\"hacer un pedido recurrente\" se dice \"fazer uma encomenda recorrente\" en portugués."],
     ]
   },
   {
@@ -13293,6 +13730,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Tenho febre ___ três dias.”",["através", "com", "por", "há"],3,"\"Há três dias\" indica cuánto tiempo llevas con el síntoma."],
       ["translate","Traduce: \"I feel nauseous.\"",["Tenho febre.", "Dói-me a cabeça.", "Tenho náuseas.", "Sinto-me tonto."],2,"\"Náuseas\" es el síntoma de querer vomitar."],
       ["arrange","Ordena: [cabeça / dói-me / a]",["cabeça Dói-me a", "Dói-me cabeça a", "a cabeça Dói-me", "Dói-me a cabeça"],3,"Verbo pronominal + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo fiebre\" en portugués?",["tenho febre","há três dias","sinto-me tonto/a","dói-me a cabeça"],0,"\"tengo fiebre\" se dice \"tenho febre\" en portugués."],
     ]
   },
   {
@@ -13339,6 +13777,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Tome ___ vezes ao dia, com as refeições.”",["com", "duas", "os", "sem"],1,"\"Duas vezes ao dia\" indica la frecuencia de la dosis."],
       ["translate","Traduce: \"Do you have something for a headache?\"",["Tem efeitos secundários?", "Tem algo com receita?", "Tem algo para dor de cabeça?", "Tem algo duas vezes ao dia?"],2,"Pregunta típica en la farmacia por un síntoma."],
       ["arrange","Ordena: [dia / ao / vezes / duas]",["ao Duas dia vezes", "vezes Duas ao dia", "Duas vezes ao dia", "ao vezes Duas dia"],2,"Número + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"con o sin receta\" en portugués?",["com ou sem receita","duas vezes ao dia","tem algo para dor de cabeça?","os efeitos secundários"],0,"\"con o sin receta\" se dice \"com ou sem receita\" en portugués."],
     ]
   },
   {
@@ -13384,6 +13823,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Este tratamento está ___ pelo meu seguro?”",["número", "assinado", "pago", "coberto"],3,"\"Estar coberto por\" indica si el seguro lo incluye."],
       ["translate","Traduce: \"I need to sign the admission form.\"",["Preciso de pagar a comparticipação.", "Preciso do meu número de apólice.", "Preciso de saber se está coberto.", "Preciso de assinar o formulário de admissão."],3,"\"Assinar o formulário de admissão\" es un trámite habitual al ingresar."],
       ["arrange","Ordena: [comparticipação / é / qual / a]",["é Qual comparticipação a", "é comparticipação a Qual", "Qual é a comparticipação", "comparticipação Qual a é"],2,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿esto lo cubre mi seguro?\" en portugués?",["a comparticipação","assinar o formulário de admissão","isto está coberto pelo meu seguro?","o número da apólice"],2,"\"¿esto lo cubre mi seguro?\" se dice \"isto está coberto pelo meu seguro?\" en portugués."],
     ]
   },
   {
@@ -13478,6 +13918,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Certifique-se de perceber os riscos ___ de assinar o formulário.”",["sem", "antes", "durante", "depois"],1,"\"Antes de assinar\" indica la secuencia correcta."],
       ["translate","Traduce: \"Can I ask questions before signing?\"",["Posso assinar antes de perguntar?", "Percebo o que estou a assinar?", "Há riscos antes do procedimento?", "Posso fazer perguntas antes de assinar?"],3,"\"Antes de assinar\" marca el orden correcto de las acciones."],
       ["arrange","Ordena: [consentimento / assinar / de / termo / preciso / um / de]",["um consentimento de assinar de termo Preciso","de termo assinar de Preciso consentimento um","Preciso consentimento de um de assinar termo","Preciso de assinar um termo de consentimento"],3,"\"Preciso de\" + verbo + artículo + sustantivo compuesto."],
+    ["mcq","¿Cómo se dice \"¿tengo otras opciones?\" en portugués?",["pode fazer perguntas antes de assinar","os riscos e benefícios do procedimento","assinar um termo de consentimento","tenho outras opções?"],3,"\"¿tengo otras opciones?\" se dice \"tenho outras opções?\" en portugués."],
     ]
   },
   {
@@ -13600,6 +14041,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ marcar uma reunião para amanhã?”",["Anexei", "Vou", "Obrigado", "Podemos"],3,"\"Podemos...?\" pregunta educadamente por una acción conjunta."],
       ["translate","Traduce: \"I'm going to need more time.\"",["Vou anexar o ficheiro.", "Vou agradecer a sua paciência.", "Vou marcar uma reunião.", "Vou precisar de mais tempo."],3,"\"Vou precisar\" expresa una necesidad futura cercana."],
       ["arrange","Ordena: [ficheiro / anexei / o]",["o ficheiro Anexei", "ficheiro o Anexei", "ficheiro Anexei o", "Anexei o ficheiro"],3,"Verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"Gracias por su paciencia\" en portugués?",["Obrigado/a pela sua paciência","Vou precisar de mais tempo","Anexei o ficheiro","Podemos marcar uma reunião?"],0,"\"Gracias por su paciencia\" se dice \"Obrigado/a pela sua paciência\" en portugués."],
     ]
   },
   {
@@ -13645,6 +14087,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ pela ordem de trabalhos de hoje.”",["Passemos", "Perguntamos", "Vamos começar", "Vemos"],2,"\"Vamos começar\" propone iniciar la reunión."],
       ["translate","Traduce: \"As you can see on this slide...\"",["Como podem ver neste diapositivo...", "Como podem começar neste diapositivo...", "Como podem perguntar neste diapositivo...", "Como podem passar neste diapositivo..."],0,"\"Como podem ver\" introduce una explicación visual."],
       ["arrange","Ordena: [pergunta / alguma / há]",["alguma Há pergunta", "Há pergunta alguma", "pergunta Há alguma", "Há alguma pergunta"],3,"Verbo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿alguna pregunta?\" en portugués?",["como podem ver neste diapositivo","vamos começar pela ordem de trabalhos","passemos ao próximo ponto","há perguntas?"],3,"\"¿alguna pregunta?\" se dice \"há perguntas?\" en portugués."],
     ]
   },
   {
@@ -13667,6 +14110,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ Sr. López: escrevo para confirmar a reunião.”",["Caro", "Aguardar", "Melhores", "Cumprimentos"],0,"\"Caro/a\" es el saludo formal de apertura."],
       ["translate","Traduce: \"I look forward to your reply.\"",["Com cumprimentos à sua resposta.", "Fico a aguardar a sua resposta.", "Caro à sua resposta.", "Escrevo à sua resposta."],1,"\"Fico a aguardar\" es una despedida formal común."],
       ["arrange","Ordena: [cumprimentos / melhores / os / com]",["os melhores cumprimentos Com", "cumprimentos os Com melhores", "Com cumprimentos os melhores", "Com os melhores cumprimentos"],3,"Preposición + artículo + adjetivo + sustantivo."],
+    ["mcq","¿Cómo se dice \"Estimado/a..\" en portugués?",["Escrevo para...","Caro/a...","Fico a aguardar a sua resposta","Com os melhores cumprimentos"],1,"\"Estimado/a...\" se dice \"Caro/a...\" en portugués."],
     ]
   },
   {
@@ -13689,6 +14133,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Compreendo o seu ponto de vista, ___ não concordo totalmente.”",["embora", "mas", "se", "porque"],1,"\"Mas\" introduce un contraste educado."],
       ["translate","Traduce: \"Can we find a middle ground?\"",["Podemos encontrar a razão?", "Podemos compreender o seu ponto de vista?", "Estamos totalmente de acordo?", "Podemos encontrar um meio-termo?"],3,"\"Um meio-termo\" es un compromiso entre dos posturas."],
       ["arrange","Ordena: [totalmente / concordo / não]",["concordo Não totalmente", "Não concordo totalmente", "Não totalmente concordo", "totalmente Não concordo"],1,"Negación + verbo + adverbio."],
+    ["mcq","¿Cómo se dice \"Entiendo su punto, pero..\" en portugués?",["podemos encontrar um meio-termo?","prefiro ser direto/a nisto","não concordo totalmente","compreendo o seu ponto de vista, mas..."],3,"\"Entiendo su punto, pero...\" se dice \"compreendo o seu ponto de vista, mas...\" en portugués."],
     ]
   },
   {
@@ -13759,6 +14204,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Obrigado pelo feedback, vou ter isso definitivamente em ___.”",["conta", "agradeço", "área", "melhorar"],0,"\"Ter em conta\" = considerar una sugerencia."],
       ["translate","Traduce: \"I really appreciate the feedback, especially about the area for improvement.\"",["Tive em conta o feedback sobre a melhoria.", "Agradeço mesmo o feedback, especialmente sobre a área a melhorar.", "Agradeço mesmo a área, especialmente o feedback.", "Agradeço mesmo o que correu bem no feedback."],1,"\"Agradeço mesmo o feedback\" + \"especialmente...\"."],
       ["arrange","Ordena: [feedback / agradeço / o / mesmo]",["Agradeço mesmo o feedback", "mesmo Agradeço o feedback", "feedback mesmo Agradeço o", "feedback o mesmo Agradeço"],0,"Verbo + adverbio + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"la retroalimentación constructiva\" en portugués?",["o que correu bem e o que podia melhorar","feedback construtivo","ter isso em conta","agradeço mesmo o feedback"],1,"\"la retroalimentación constructiva\" se dice \"feedback construtivo\" en portugués."],
     ]
   },
   {
@@ -13806,6 +14252,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “É importante esclarecer em ___ de assumir quando se trabalha com culturas diferentes.”",["evitar", "diferente", "vez", "conta"],2,"\"Em vez de assumir\" es preferir aclarar antes que suponer."],
       ["translate","Traduce: \"Directness can be perceived differently depending on the culture.\"",["A franqueza pode ser percebida de forma diferente consoante a cultura.", "Os mal-entendidos podem ser percebidos de forma diferente consoante a cultura.", "As diferenças culturais podem ser diretas consoante o estilo.", "A franqueza pode evitar mal-entendidos consoante a cultura."],0,"\"Pode ser percebida de forma diferente\" expresa que la interpretación varía según el contexto cultural."],
       ["arrange","Ordena: [mal-entendidos / importante / evitar / é]",["É mal-entendidos importante evitar", "É evitar importante mal-entendidos", "É importante evitar mal-entendidos", "mal-entendidos importante É evitar"],2,"\"É importante\" + verbo + objeto."],
+    ["mcq","¿Cómo se dice \"la franqueza puede percibirse de forma distinta\" en portugués?",["esclarecer em vez de assumir","um estilo de comunicação diferente","estar atento às diferenças culturais","a franqueza pode ser percebida de forma diferente"],3,"\"la franqueza puede percibirse de forma distinta\" se dice \"a franqueza pode ser percebida de forma diferente\" en portugués."],
     ]
   },
   {
@@ -13904,6 +14351,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Que ___ ver-te! Já não nos víamos há muito tempo.”",["parabéns", "convidares", "conheces", "bom"],3,"\"Que bom ver-te\" es una expresión de alegría."],
       ["translate","Traduce: \"How do you know the host?\"",["Como conheces o anfitrião?", "Como conheces a música?", "Como conheces o presente?", "Como conheces o convidado?"],0,"Pregunta típica para conocer gente nueva en una fiesta."],
       ["arrange","Ordena: [conheces / anfitrião / como / o]",["Como conheces o anfitrião", "anfitrião conheces o Como", "conheces anfitrião Como o", "conheces Como o anfitrião"],0,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¡Feliz cumpleaños!\" en portugués?",["Que bom ver-te!","Obrigado/a por me convidares","Parabéns!","Como conheces o anfitrião?"],2,"\"¡Feliz cumpleaños!\" se dice \"Parabéns!\" en portugués."],
     ]
   },
   {
@@ -13949,6 +14397,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ ir à tua festa, obrigado por me convidares.”",["Desculpa", "Adorava", "Posso", "Queres"],1,"\"Adorava\" expresa entusiasmo al aceptar."],
       ["translate","Traduce: \"Sorry, I already have plans.\"",["Adorava, já tenho planos.", "Posso levar planos, desculpa.", "Desculpa, já tenho planos.", "Desculpa, já vim à festa."],2,"\"Já tenho planos\" es una forma educada de declinar."],
       ["arrange","Ordena: [muito / adorava / ir]",["Adorava muito ir", "ir Adorava muito", "Adorava ir muito", "muito ir Adorava"],2,"Verbo + verbo + adverbio."],
+    ["mcq","¿Cómo se dice \"¿te gustaría venir a mi fiesta?\" en portugués?",["desculpa, já tenho planos","queres vir à minha festa?","adorava ir","posso levar alguém?"],1,"\"¿te gustaría venir a mi fiesta?\" se dice \"queres vir à minha festa?\" en portugués."],
     ]
   },
   {
@@ -13971,6 +14420,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Experimenta isto, está ___.”",["comer", "servir", "mesmo", "delicioso"],3,"\"Delicioso\" describe algo muy sabroso."],
       ["translate","Traduce: \"Can you pour me a bit more?\"",["Está delicioso mais um pouco?", "Podes servir-me mais um pouco?", "O que há para comer mais?", "Experimentas mais um pouco?"],1,"\"Podes servir-me?\" se pide para que te sirvan más comida o bebida."],
       ["arrange","Ordena: [comer / para / há / o / que]",["O que há para comer", "há para comer O que", "O comer há que para", "comer que O para há"],0,"Interrogativo + verbo + preposición + verbo."],
+    ["translate","Traduce: \"Está muy bueno. / Está realmente delicioso.\"",["a música","desculpa, já tenho planos","vejo isso de forma diferente","Está mesmo bom. / Está mesmo delicioso."],3,"\"Está muy bueno. / Está realmente delicioso.\" se traduce como \"Está mesmo bom. / Está mesmo delicioso.\" (\"Mesmo\" para intensificar un adjetivo)."],
     ]
   },
   {
@@ -14016,6 +14466,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Foi um prazer ___, vamos combinar outro dia.”",["ter", "conhecer-te", "ir", "ver-te"],1,"\"Foi um prazer conhecer-te\" es una despedida educada."],
       ["translate","Traduce: \"I have to go now, see you soon!\"",["Já tenho de ir, até breve!", "Já tenho de ir, foi um prazer!", "Foi um prazer ir, até breve!", "Vamos combinar outro dia, até breve!"],0,"\"Já tenho de ir\" indica que te despides."],
       ["arrange","Ordena: [sexta / até / breve]",["Até breve sexta", "sexta Até breve", "breve Até sexta", "sexta breve Até"],0,"Preposición + adverbio + sustantivo."],
+    ["mcq","¿Cómo se dice \"tengo que irme ya\" en portugués?",["vamos combinar outro dia","já tenho de ir","até breve","foi um prazer conhecer-te"],1,"\"tengo que irme ya\" se dice \"já tenho de ir\" en portugués."],
     ]
   },
   {
@@ -14087,6 +14538,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ ofensa, mas essa piada não foi muito engraçada.”",["Claro", "Sem", "Humor", "Brincar"],1,"\"Sem ofensa, mas...\" suaviza un comentario potencialmente incómodo."],
       ["translate","Traduce con el tono correcto: \"Yeah, right, and I'm the king of England.\" (sarcasmo)",["Pois claro, e eu sou o rei de Inglaterra.", "Isso é hilariante, e eu sou o rei de Inglaterra.", "Estou só a brincar, e eu sou o rei de Inglaterra.", "Sem ofensa, e eu sou o rei de Inglaterra."],0,"\"Pois claro\" es la forma sarcástica de expresar incredulidad."],
       ["arrange","Ordena: [brincar / só / a / estou]",["brincar a só Estou", "brincar só Estou a", "só brincar a Estou", "Estou só a brincar"],3,"Verbo + adverbio + preposición + verbo."],
+    ["mcq","¿Cómo se dice \"qué gracioso\" en portugués?",["estou só a brincar","pois claro (sarcástico)","sem ofensa, mas...","isso é hilariante"],3,"\"qué gracioso\" se dice \"isso é hilariante\" en portugués."],
     ]
   },
   {
@@ -14209,6 +14661,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ entrego este formulário de inscrição?”",["Como", "Onde", "Qual", "Quando"],1,"\"Onde entrego...?\" pregunta por el lugar correcto."],
       ["translate","Traduce: \"I want to change majors.\"",["Quero mudar de curso.", "Quero mudar de prazo.", "Quero mudar de formulário.", "Quero mudar de sala."],0,"\"Mudar de curso\" es cambiar de especialidad académica."],
       ["arrange","Ordena: [prazo / o / é / qual]",["é prazo o Qual", "Qual o é prazo", "é Qual prazo o", "Qual é o prazo"],3,"Interrogativo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"¿dónde entrego este formulario?\" en portugués?",["preciso de um certificado de matrícula","onde entrego este formulário?","qual é o prazo?","quero mudar de curso"],1,"\"¿dónde entrego este formulario?\" se dice \"onde entrego este formulário?\" en portugués."],
     ]
   },
   {
@@ -14254,6 +14707,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Qual é a data de ___ deste livro?”",["empréstimo", "biblioteca", "devolução", "estudo"],2,"\"Data de devolução\" indica cuándo debes regresar el libro."],
       ["translate","Traduce: \"Can I renew the loan?\"",["Posso renovar a data?", "Posso requisitar o empréstimo?", "Posso renovar o empréstimo?", "Posso devolver a sala de estudo?"],2,"\"Renovar o empréstimo\" extiende el plazo de devolución."],
       ["arrange","Ordena: [livro / requisitar / quero / um]",["um requisitar livro Quero", "Quero requisitar um livro", "um requisitar Quero livro", "Quero livro requisitar um"],1,"Verbo + verbo + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"renovar el préstamo\" en portugués?",["a data de devolução","renovar o empréstimo","a sala de estudo silenciosa","requisitar um livro"],1,"\"renovar el préstamo\" se dice \"renovar o empréstimo\" en portugués."],
     ]
   },
   {
@@ -14276,6 +14730,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “___ dividir as tarefas do projeto entre todos.”",["Tratamos", "Vamos", "Encontramos", "Terminamos"],1,"\"Vamos dividir\" propone repartir el trabajo."],
       ["translate","Traduce: \"I haven't finished my part yet.\"",["Ainda não nos encontramos.", "Ainda não dividimos as tarefas.", "Ainda não trato da minha parte.", "Ainda não terminei a minha parte."],3,"\"Ainda não terminei... a minha parte\" indica que sigue en proceso."],
       ["arrange","Ordena: [na / encontramo-nos / quinta-feira]",["Encontramo-nos na quinta-feira","quinta-feira na Encontramo-nos","na Encontramo-nos quinta-feira","quinta-feira Encontramo-nos na"],0,"Verbo pronominal + preposición + artículo + sustantivo."],
+    ["mcq","¿Cómo se dice \"quedemos el jueves\" en portugués?",["vamos dividir as tarefas","vamos encontrar-nos na quinta-feira","quem trata da introdução?","ainda não terminei a minha parte"],1,"\"quedemos el jueves\" se dice \"vamos encontrar-nos na quinta-feira\" en portugués."],
     ]
   },
   {
@@ -14321,6 +14776,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “Vou comer na ___ do campus.”",["horário", "clube", "cantina", "residência"],2,"\"Cantina do campus\" es donde comen los estudiantes."],
       ["translate","Traduce: \"I joined a student club this semester.\"",["Entrei numa residência este semestre.", "Entrei numa cantina este semestre.", "Entrei num horário este semestre.", "Entrei num clube de estudantes este semestre."],3,"\"Clube de estudantes\" es una organización de estudiantes."],
       ["arrange","Ordena: [aulas / horário / das / meu / o]",["O das aulas meu horário","O meu horário das aulas","meu O das aulas horário","O horário das meu aulas"],1,"Artículo + posesivo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la cafetería del campus\" en portugués?",["o horário das aulas","a residência universitária","o clube de estudantes","a cantina do campus"],3,"\"la cafetería del campus\" se dice \"a cantina do campus\" en portugués."],
     ]
   },
   {
@@ -14368,6 +14824,7 @@ window.SITUATION_LESSON_BANKS.PT = {
       ["fill","Completa: “O ___ de candidatura para a bolsa é na próxima sexta-feira.”",["documentos", "prazo", "elegibilidade", "mérito"],1,"\"Prazo de candidatura\" es la fecha tope para presentar la solicitud."],
       ["translate","Traduce: \"What are the eligibility requirements for financial aid?\"",["Que documentos preciso para a bolsa?", "Qual é o prazo para a bolsa de mérito?", "O que é uma bolsa baseada na ajuda financeira?", "Quais são os requisitos de elegibilidade para a ajuda financeira?"],3,"\"Requisitos de elegibilidade para a ajuda financeira\" son los requisitos para calificar."],
       ["arrange","Ordena: [bolsa / candidatar-me / uma / a / quero / de / estudo]",["estudo bolsa a uma candidatar-me de Quero", "Quero candidatar-me a uma bolsa de estudo", "candidatar-me bolsa uma de a Quero estudo", "Quero uma estudo bolsa candidatar-me a de"],1,"\"Quero\" + verbo + preposición + artículo + sustantivo + preposición + sustantivo."],
+    ["mcq","¿Cómo se dice \"la elegibilidad para ayuda financiera\" en portugués?",["candidatar-se a uma bolsa de estudo","elegibilidade para ajuda financeira","uma bolsa baseada no mérito","submeter documentos comprovativos"],1,"\"la elegibilidad para ayuda financiera\" se dice \"elegibilidade para ajuda financeira\" en portugués."],
     ]
   },
   {

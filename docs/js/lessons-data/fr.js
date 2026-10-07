@@ -237,7 +237,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Avis : \"Les places de l'atelier sont réservées aux membres jusqu'à vendredi ; les places restantes seront ensuite libérées.\" Que doit faire une personne non membre ?",["Attendre jusqu'à vendredi pour savoir s'il reste des places.","Réserver aujourd'hui car elle est prioritaire.","Payer une cotisation obligatoire avant vendredi.","Supposer que l'atelier est annulé."],0,"L'avis indique une priorité temporaire pour les membres, pas une exclusivité permanente."],
       ["mcq","Message : \"Envoyez le formulaire avant 17h jeudi. Les candidatures tardives ne seront examinées que s'il reste des places.\" Quelle est l'action la plus sûre ?",["Envoyer le formulaire avant 17h jeudi.","Attendre la confirmation qu'il reste des places.","Envoyer vendredi car les candidatures tardives sont toujours acceptées.","Appeler pour annuler la candidature."],0,"\"Avant\" marque une échéance claire ; \"seulement si\" ne garantit pas l'acceptation tardive."],
       ["fill","Complète : \"Les candidats doivent ___ pour le programme avant de demander une bourse.\"",["être éligibles","être disponibles","être soumis","être limités"],0,"\"Éligible\" signifie qu'on remplit les conditions nécessaires."],
-      ["writing","Écris un e-mail de 45-60 mots pour demander si tu peux encore t'inscrire après la date limite.",[],["tardive","candidature","disponible"],"Inclus une salutation, une demande claire et une formule de politesse.","Tu écris au coordinateur d'un cours qui a fermé hier."]
+      ["writing","Écris un e-mail de 45-60 mots pour demander si tu peux encore t'inscrire après la date limite.",[],["tardive","candidature","disponible"],"Inclus une salutation, une demande claire et une formule de politesse.","Tu écris au coordinateur d'un cours qui a fermé hier."],
+    ["mcq","¿Cómo se dice \"disponible a petición\" en francés?",["remplir les conditions","sous réserve de modification","la date limite","disponible sur demande"],3,"\"disponible a petición\" se dice \"disponible sur demande\" en francés."],
+    ["mcq","¿Cómo se dice \"sujeto a cambios\" en francés?",["disponible sur demande","sous réserve de modification","la date limite","remplir les conditions"],1,"\"sujeto a cambios\" se dice \"sous réserve de modification\" en francés."],
     ]
   },
   {
@@ -258,7 +260,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Lis : \"Maya pensait que le cours serait difficile, mais il s'avère que le feedback hebdomadaire le rend gérable.\" Que pense Maya ?",["Le cours est exigeant, mais le soutien l'aide à suivre.","Le cours est trop facile.","Le feedback rend le cours plus difficile.","Elle a abandonné le cours par manque de soutien."],0,"Le contraste entre l'attente initiale et le bilan final est plus positif."],
       ["mcq","Quelle réponse exprime une préférence et une raison ?",["Je préférerais me réunir en ligne parce que ça économise du temps de trajet.","Je me réunis en ligne hier.","Les réunions en ligne sont un temps de trajet.","Je préfère parce que réunions."],0,"La structure inclut préférence, option et justification."],
       ["fill","Complète : \"Le prix était élevé, mais l'expérience ___ le coup.\"",["valait","préférait","s'avérait","décourageait"],0,"L'expression fixe est \"valoir le coup\"."],
-      ["speaking","Parle pendant 45-60 mots : compare étudier seul et étudier à plusieurs. Donne une préférence, une raison et un inconvénient.",[],["je préfère","parce que","cependant"],"Organise ta réponse : comparaison, préférence, raison et réserve.","Conversation avec un camarade de classe."]
+      ["speaking","Parle pendant 45-60 mots : compare étudier seul et étudier à plusieurs. Donne une préférence, une raison et un inconvénient.",[],["je préfère","parce que","cependant"],"Organise ta réponse : comparaison, préférence, raison et réserve.","Conversation avec un camarade de classe."],
+    ["mcq","¿Cómo se dice \"preferiría\" en francés?",["il s'avère que","ça vaut le coup","je préférerais","décourager quelqu'un"],2,"\"preferiría\" se dice \"je préférerais\" en francés."],
+    ["mcq","¿Cómo se dice \"resulta que\" en francés?",["il s'avère que","je préférerais","décourager quelqu'un","ça vaut le coup"],0,"\"resulta que\" se dice \"il s'avère que\" en francés."],
     ]
   },
   {
@@ -279,7 +283,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase utilise correctement le passé composé et l'imparfait ?",["Pendant que nous marchions dans le parc, nous avons vu un accident.","Pendant que nous avons marché dans le parc, nous voyions un accident.","Pendant que nous marchions dans le parc, nous voyions un accident hier.","Nous avons marché dans le parc pendant que nous avons vu."],0,"Le contexte (marchions) va à l'imparfait ; l'action ponctuelle (avons vu) va au passé composé."],
       ["fill","Complète : \"Je ne ___ pas compte de l'heure qu'il était jusqu'à ce que j'ai regardé mon téléphone.\"",["me suis rendu","me rendais","me rends","rendais"],0,"\"Se rendre compte\" au passé composé pour une action ponctuelle : \"je me suis rendu compte\"."],
       ["translate","Traduis : \"At first I was nervous, but eventually I enjoyed the experience.\"",["Au début j'étais nerveux, mais finalement j'ai apprécié l'expérience.","Au début j'ai été nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'ai apprécié de l'expérience."],0,"L'état d'esprit de fond va à l'imparfait (\"j'étais\") ; l'action complète va au passé composé (\"j'ai apprécié\")."],
-      ["writing","Écris une histoire de 80-100 mots sur un projet qui a changé de façon inattendue.",[],["au début","mais","finalement"],"Vérifie que chaque partie fait avancer l'histoire et que les temps sont cohérents.","Un court voyage qui ne s'est pas passé comme prévu."]
+      ["writing","Écris une histoire de 80-100 mots sur un projet qui a changé de façon inattendue.",[],["au début","mais","finalement"],"Vérifie que chaque partie fait avancer l'histoire et que les temps sont cohérents.","Un court voyage qui ne s'est pas passé comme prévu."],
+    ["mcq","¿Cómo se dice \"al principio\" en francés?",["se rendre compte","au début","de façon inattendue","finalement"],1,"\"al principio\" se dice \"au début\" en francés."],
+    ["mcq","¿Cómo se dice \"con el tiempo\" en francés?",["se rendre compte","de façon inattendue","finalement","au début"],2,"\"con el tiempo\" se dice \"finalement\" en francés."],
     ]
   },
   {
@@ -300,7 +306,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle réponse construit un accord ?",["Je comprends ton point de vue sur le coût ; et pourquoi pas inviter moins de monde ?","Ton idée est mauvaise, donc c'est la mienne qui gagne.","Je ne comprends aucun point de vue.","L'option la moins chère, c'est les gens."],0,"Reconnaît une idée et propose un compromis concret."],
       ["fill","Complète : \"___ nous nous retrouvons à la bibliothèque après les cours ?\"",["Et si","Serait","A fait","A"],0,"\"Et si...?\" est une façon courante de proposer quelque chose."],
       ["mcq","Quelle phrase exprime un désaccord poli ?",["Je ne suis pas sûr que ça marche, car le lieu ferme tôt.","Ça ne marchera jamais.","Ton lieu est nul.","Non, évidemment pas."],0,"Le désaccord est adouci et justifié par une raison."],
-      ["speaking","Parle pendant 45-60 mots : propose un plan pour le week-end, réponds à une objection et propose un compromis.",[],["je propose","parce que","compromis"],"Inclus une proposition concrète, une raison et une réponse collaborative.","Tu organises une activité avec un ami qui a peu de budget."]
+      ["speaking","Parle pendant 45-60 mots : propose un plan pour le week-end, réponds à une objection et propose un compromis.",[],["je propose","parce que","compromis"],"Inclus une proposition concrète, une raison et une réponse collaborative.","Tu organises une activité avec un ami qui a peu de budget."],
+    ["mcq","¿Cómo se dice \"entiendo tu punto\" en francés?",["et pourquoi pas...?","un compromis","et si...?","je comprends ton point de vue"],3,"\"entiendo tu punto\" se dice \"je comprends ton point de vue\" en francés."],
+    ["mcq","¿Cómo se dice \"¿qué tal...?\" en francés?",["je comprends ton point de vue","et pourquoi pas...?","et si...?","un compromis"],1,"\"¿qué tal...?\" se dice \"et pourquoi pas...?\" en francés."],
     ]
   },
   {
@@ -321,7 +329,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase exprime un projet déjà décidé ?",["Je vais commencer un cours d'italien en septembre.","Je commencerai un cours si j'ai le temps.","Je pense que je commencerai un cours.","Je commençais un cours l'année dernière."],0,"\"Aller + infinitif\" s'utilise pour les projets déjà décidés."],
       ["fill","Complète : \"Dès que je ___ le rapport, je te l'envoie.\"",["termine","termines","terminerai","terminais"],0,"Après \"dès que\" pour une action future proche, le présent est courant en français."],
       ["translate","Traduis : \"As soon as I finish the project, I'll call you.\"",["Dès que je finis le projet, je t'appellerai.","Quand je finissais le projet, je t'appelle.","Dès que je finirai le projet, je t'appelais.","Si je finis le projet, je t'appellerai peut-être."],0,"\"Dès que\" + présent introduit une condition future proche."],
-      ["writing","Écris 45-60 mots sur tes projets pour l'année prochaine. Utilise au moins deux expressions de futur.",[],["j'ai l'intention","dès que","il est possible"],"Combine au moins deux façons de parler du futur et justifie un projet.","Tu racontes tes projets à un ami."]
+      ["writing","Écris 45-60 mots sur tes projets pour l'année prochaine. Utilise au moins deux expressions de futur.",[],["j'ai l'intention","dès que","il est possible"],"Combine au moins deux façons de parler du futur et justifie un projet.","Tu racontes tes projets à un ami."],
+    ["mcq","¿Cómo se dice \"tengo la intención de\" en francés?",["j'ai l'intention de","dès que je peux","bientôt","il est possible que"],0,"\"tengo la intención de\" se dice \"j'ai l'intention de\" en francés."],
+    ["mcq","¿Cómo se dice \"pronto\" en francés?",["dès que je peux","il est possible que","bientôt","j'ai l'intention de"],2,"\"pronto\" se dice \"bientôt\" en francés."],
     ]
   },
   {
@@ -342,7 +352,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase est une plainte formelle et polie ?",["Je voudrais savoir pourquoi le colis est arrivé avec une semaine de retard.","C'est un désastre total !","Votre entreprise ne fait jamais rien de bien.","Je ne compte rien payer."],0,"Formule la plainte de façon indirecte et respectueuse, sans perdre en clarté."],
       ["fill","Complète : \"___-vous m'envoyer une copie de la facture, s'il vous plaît ?\"",["Pourriez","Pouvez","A pu","Peux"],0,"\"Pourriez\" au conditionnel adoucit la demande et la rend plus formelle."],
       ["translate","Traduis : \"I would like to file a complaint about the service.\"",["Je voudrais déposer une plainte concernant le service.","Je veux plaindre le service.","J'aime déposer une plainte du service.","Je déposerais une plainte le service."],0,"\"Je voudrais\" + infinitif est la formule standard de politesse."],
-      ["writing","Écris un e-mail de plainte de 50-70 mots sur une commande arrivée incomplète. Utilise le conditionnel de politesse.",[],["je voudrais","pourriez-vous","je regrette"],"Explique le problème, formule une demande claire et termine poliment.","Une commande en ligne est arrivée avec deux articles manquants."]
+      ["writing","Écris un e-mail de plainte de 50-70 mots sur une commande arrivée incomplète. Utilise le conditionnel de politesse.",[],["je voudrais","pourriez-vous","je regrette"],"Explique le problème, formule une demande claire et termine poliment.","Une commande en ligne est arrivée avec deux articles manquants."],
+    ["mcq","¿Cómo se dice \"me gustaría\" en francés?",["pourriez-vous...?","déposer une plainte","je regrette de vous informer","je voudrais"],3,"\"me gustaría\" se dice \"je voudrais\" en francés."],
+    ["mcq","¿Cómo se dice \"¿podrías...?\" en francés?",["je voudrais","pourriez-vous...?","je regrette de vous informer","déposer une plainte"],1,"\"¿podrías...?\" se dice \"pourriez-vous...?\" en francés."],
     ]
   },
   {
@@ -363,7 +375,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase exprime correctement une hypothèse peu probable ?",["Si j'avais plus d'argent, j'achèterais une maison plus grande.","Si j'ai plus d'argent, j'achèterais une maison plus grande.","Si j'avais plus d'argent, j'achète une maison plus grande.","Si j'aurais plus d'argent, j'achèterais une maison."],0,"Le type 2 exige l'imparfait dans la condition et le conditionnel présent dans la conséquence."],
       ["fill","Complète : \"À moins que nous ne ___ un effort supplémentaire, nous ne finirons pas à temps.\"",["fassions","faisons","ferions","avons fait"],0,"\"À moins que\" est toujours suivi du subjonctif."],
       ["mcq","Quelle est la meilleure paraphrase de « Si j'étais toi, je n'accepterais pas cette offre » ?",["Un conseil hypothétique : le locuteur n'accepterait pas l'offre à la place de l'auditeur.","Un ordre direct.","La description d'un fait passé.","Une promesse pour l'avenir."],0,"La structure hypothétique exprime un conseil, pas un fait ni un ordre."],
-      ["writing","Écris 60-80 mots : décris ce que tu ferais différemment si tu pouvais revivre une année de ta vie. Utilise au moins deux hypothèses avec 'si'.",[],["si j'avais","à moins que","en supposant"],"Vérifie que chaque hypothèse combine correctement l'imparfait et le conditionnel.","Réflexion personnelle pour un blog."]
+      ["writing","Écris 60-80 mots : décris ce que tu ferais différemment si tu pouvais revivre une année de ta vie. Utilise au moins deux hypothèses avec 'si'.",[],["si j'avais","à moins que","en supposant"],"Vérifie que chaque hypothèse combine correctement l'imparfait et le conditionnel.","Réflexion personnelle pour un blog."],
+    ["mcq","¿Cómo se dice \"si tuviera\" en francés?",["à moins que","en supposant que","si j'avais","au cas où"],2,"\"si tuviera\" se dice \"si j'avais\" en francés."],
+    ["mcq","¿Cómo se dice \"por si acaso\" en francés?",["en supposant que","si j'avais","à moins que","au cas où"],3,"\"por si acaso\" se dice \"au cas où\" en francés."],
     ]
   },
   {
@@ -384,7 +398,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Citation directe : « Je finirai le rapport demain. » Quel est le discours indirect correct ?",["Il a dit qu'il finirait le rapport le lendemain.","Il a dit qu'il finira le rapport demain.","Il a dit qu'il finissait le rapport demain.","Il a dit qu'il finisse le rapport le lendemain."],0,"Le futur de la citation originale devient conditionnel ; 'demain' devient 'le lendemain'."],
       ["fill","Complète : \"Elle m'a demandé si j'___ disponible pour la réunion de lundi.\"",["étais","suis","serai","sois"],0,"Le présent de la citation originale devient imparfait dans le discours indirect au passé."],
       ["mcq","Qu'est-ce qui change généralement en passant du discours direct à l'indirect au passé ?",["Le temps verbal et parfois les marqueurs temporels (demain → le lendemain).","Seulement le sujet de la phrase.","Rien ne change jamais.","Seulement l'ordre des mots."],0,"Le temps verbal recule dans le passé et certains marqueurs temporels changent."],
-      ["writing","Rapporte au discours indirect (50-70 mots) une conversation récente où quelqu'un t'a raconté ses projets.",[],["il a dit que","elle a expliqué","elle a ajouté"],"Adapte correctement les temps verbaux et les marqueurs temporels.","Tu racontes à un ami ce qu'un collègue t'a dit."]
+      ["writing","Rapporte au discours indirect (50-70 mots) une conversation récente où quelqu'un t'a raconté ses projets.",[],["il a dit que","elle a expliqué","elle a ajouté"],"Adapte correctement les temps verbaux et les marqueurs temporels.","Tu racontes à un ami ce qu'un collègue t'a dit."],
+    ["mcq","¿Cómo se dice \"él dijo que\" en francés?",["il a demandé si","elle a ajouté que","il a dit que","elle a expliqué que"],2,"\"él dijo que\" se dice \"il a dit que\" en francés."],
+    ["mcq","¿Cómo se dice \"ella explicó que\" en francés?",["elle a ajouté que","elle a expliqué que","il a demandé si","il a dit que"],1,"\"ella explicó que\" se dice \"elle a expliqué que\" en francés."],
     ]
   },
   {
@@ -405,7 +421,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase utilise correctement la voix passive ?",["Les contrats ont été signés hier après-midi.","Les contrats ont été signé hier après-midi.","Les contrats sont signés hier après-midi.","Les contrats ont été signer hier."],0,"Le participe passé s'accorde au pluriel avec 'les contrats' : 'signés'."],
       ["fill","Complète : \"Le nouveau bâtiment ___ conçu par une entreprise internationale.\"",["a été","est","a","était en train d'être"],0,"Passé composé passif : 'a été' + participe passé ('conçu')."],
       ["mcq","Quand utilise-t-on souvent 'on' comme alternative naturelle à la voix passive ?",["Quand l'agent n'est pas important ou inconnu, surtout à l'oral.","Quand on veut toujours nommer l'agent.","Jamais en français naturel.","Seulement dans les textes littéraires anciens."],0,"'On' est très fréquent à l'oral quand l'agent importe peu."],
-      ["writing","Décris en 50-70 mots un processus (par exemple, comment on organise un événement) en utilisant au moins deux constructions passives ou avec 'on'.",[],["on + verbe","a été + participe","mené à bien"],"Utilise au moins deux constructions différentes de façon cohérente.","Tu expliques une procédure à un nouveau collègue."]
+      ["writing","Décris en 50-70 mots un processus (par exemple, comment on organise un événement) en utilisant au moins deux constructions passives ou avec 'on'.",[],["on + verbe","a été + participe","mené à bien"],"Utilise au moins deux constructions différentes de façon cohérente.","Tu expliques une procédure à un nouveau collègue."],
+    ["mcq","¿Cómo se dice \"ser + participio\" en francés?",["être chargé de","être mené à bien","être + participe passé","on + verbe"],2,"\"ser + participio\" se dice \"être + participe passé\" en francés."],
+    ["mcq","¿Cómo se dice \"construcción impersonal con 'se'\" en francés?",["être chargé de","on + verbe","être + participe passé","être mené à bien"],1,"\"construcción impersonal con 'se'\" se dice \"on + verbe\" en francés."],
     ]
   },
   {
@@ -426,7 +444,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase est grammaticalement correcte ?",["Je ne pense pas que la proposition soit viable à court terme.","Je ne pense pas que la proposition est viable à court terme.","Je ne pense pas que la proposition sera viable à court terme.","Je ne pense pas que la proposition viable à court terme."],0,"\"Je ne pense pas que\" nie la certitude, donc exige le subjonctif : \"soit\"."],
       ["fill","Complète : \"Il se peut qu'ils ___ déjà pris la décision quand nous arriverons.\"",["aient","ont","prendront","prenaient"],0,"\"Il se peut que\" + subjonctif (ici, subjonctif passé pour une action antérieure)."],
       ["mcq","Quelle expression n'exige PAS le subjonctif dans la proposition suivante ?",["Je suis sûr que...","Je doute que...","Je ne pense pas que...","Il est possible que..."],0,"\"Je suis sûr que\" exprime une certitude, donc l'indicatif est utilisé, pas le subjonctif."],
-      ["speaking","Parle pendant 60-80 mots : donne ton avis sur le fait que le télétravail devienne la norme. Utilise au moins une expression de doute et une de certitude.",[],["je doute que","il est probable","je suis sûr"],"Alterne correctement le subjonctif et l'indicatif selon le degré de certitude.","Débat informel sur l'avenir du travail."]
+      ["speaking","Parle pendant 60-80 mots : donne ton avis sur le fait que le télétravail devienne la norme. Utilise au moins une expression de doute et une de certitude.",[],["je doute que","il est probable","je suis sûr"],"Alterne correctement le subjonctif et l'indicatif selon le degré de certitude.","Débat informel sur l'avenir du travail."],
+    ["mcq","¿Cómo se dice \"dudo que\" en francés?",["je ne pense pas que","il est probable que","il se peut que","je doute que"],3,"\"dudo que\" se dice \"je doute que\" en francés."],
+    ["mcq","¿Cómo se dice \"no creo que\" en francés?",["il est probable que","je ne pense pas que","je doute que","il se peut que"],1,"\"no creo que\" se dice \"je ne pense pas que\" en francés."],
     ]
   },
   {
@@ -447,7 +467,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase utilise correctement 'bien que' ?",["Bien que le vol ait été retardé, nous sommes arrivés à l'heure à la réunion.","Bien que le vol a été retardé, nous sommes arrivés à l'heure.","Bien que le vol était retardé, nous sommes arrivés.","Bien que le vol sera retardé, nous arrivons à l'heure."],0,"'Bien que' est toujours suivi du subjonctif, même pour un fait avéré."],
       ["fill","Complète : \"___ le rapport était incomplet, nous l'avons envoyé avant la date limite.\"",["Malgré le fait que","Cependant","Néanmoins","Il se peut que"],0,"\"Malgré le fait que\" introduit une subordonnée de contraste avec un fait réel."],
       ["mcq","Quel connecteur introduit typiquement une nouvelle phrase plutôt qu'une subordonnée dans la même phrase ?",["Cependant","Bien que","Malgré","Parce que"],0,"'Cependant' fonctionne comme connecteur entre phrases, pas comme subordonnant."],
-      ["writing","Écris un paragraphe de 60-80 mots présentant une opinion et la nuançant avec au moins deux connecteurs de contraste différents.",[],["bien que","cependant","néanmoins"],"Combine correctement les connecteurs subordonnants et ceux qui relient des phrases.","Opinion sur un sujet d'actualité pour un forum."]
+      ["writing","Écris un paragraphe de 60-80 mots présentant une opinion et la nuançant avec au moins deux connecteurs de contraste différents.",[],["bien que","cependant","néanmoins"],"Combine correctement les connecteurs subordonnants et ceux qui relient des phrases.","Opinion sur un sujet d'actualité pour un forum."],
+    ["mcq","¿Cómo se dice \"aunque\" en francés?",["néanmoins","malgré","cependant","bien que"],3,"\"aunque\" se dice \"bien que\" en francés."],
+    ["mcq","¿Cómo se dice \"a pesar de\" en francés?",["bien que","malgré","néanmoins","cependant"],1,"\"a pesar de\" se dice \"malgré\" en francés."],
     ]
   },
   {
@@ -468,7 +490,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle structure montre un argument bien nuancé ?",["Il est indéniable que le projet est coûteux, mais à long terme il pourrait économiser des ressources.","Le projet est coûteux, point final.","Le projet ne coûte évidemment rien.","Il n'y a aucun argument contre le projet."],0,"Reconnaît un point contraire avant de le nuancer avec un avantage à long terme."],
       ["fill","Complète : \"___, la proposition a plus d'avantages que d'inconvénients.\"",["En définitive","Bien que","À moins que","Je doute que"],0,"\"En définitive\" sert à conclure un argument par une conclusion générale."],
       ["mcq","Quelle fonction a « il convient de noter que » dans un argument ?",["Il met en avant un point que le locuteur juge particulièrement pertinent.","Il introduit une hypothèse irréelle.","Il exprime un doute total sur le sujet.","Il termine la conversation abruptement."],0,"C'est une formule pour souligner un point pertinent dans l'argument."],
-      ["writing","Écris un paragraphe argumentatif de 70-90 mots sur un sujet débattu (par exemple, le télétravail). Reconnais un point contraire avant de défendre ta position.",[],["d'un côté","il est indéniable","en définitive"],"Structure : reconnaissance du point contraire, ta position et une conclusion.","Contribution à un débat écrit en classe."]
+      ["writing","Écris un paragraphe argumentatif de 70-90 mots sur un sujet débattu (par exemple, le télétravail). Reconnais un point contraire avant de défendre ta position.",[],["d'un côté","il est indéniable","en définitive"],"Structure : reconnaissance du point contraire, ta position et une conclusion.","Contribution à un débat écrit en classe."],
+    ["mcq","¿Cómo se dice \"por un lado / por otro lado\" en francés?",["en définitive","il est indéniable que","il convient de noter que","d'un côté / de l'autre"],3,"\"por un lado / por otro lado\" se dice \"d'un côté / de l'autre\" en francés."],
+    ["mcq","¿Cómo se dice \"es innegable que\" en francés?",["il convient de noter que","il est indéniable que","d'un côté / de l'autre","en définitive"],1,"\"es innegable que\" se dice \"il est indéniable que\" en francés."],
     ]
   },
   {
@@ -489,7 +513,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase convient le mieux à un rapport formel ?",["Il conviendrait de souligner que les résultats, bien que prometteurs, nécessitent une analyse plus poussée.","Les résultats sont géniaux, point final.","C'est évident pour tout le monde.","Il n'y a rien d'autre à dire là-dessus."],0,"Le registre soutenu privilégie l'atténuation et la prudence argumentative."],
       ["fill","Complète : \"___ nuancer que l'étude repose sur un échantillon restreint.\"",["Il conviendrait de","C'est évident de","Jamais de","Toujours de"],0,"\"Il conviendrait de\" introduit une recommandation atténuée, propre au registre soutenu."],
       ["mcq","Quel effet produit l'utilisation du conditionnel plutôt que le présent dans un rapport ?",["Il atténue l'affirmation et laisse place au doute raisonnable.","Il rend l'affirmation plus catégorique et sûre.","Il change complètement le sens.","Il n'a aucun effet stylistique."],0,"Le conditionnel adoucit l'affirmation sans la nier."],
-      ["writing","Rédige 60-80 mots d'un court rapport évaluant une proposition, en utilisant au moins deux expressions d'atténuation.",[],["il conviendrait","aurait tendance à penser","de manière générale"],"Le registre soutenu privilégie la prudence argumentative sur la certitude absolue.","Rapport interne pour un comité de direction."]
+      ["writing","Rédige 60-80 mots d'un court rapport évaluant une proposition, en utilisant au moins deux expressions d'atténuation.",[],["il conviendrait","aurait tendance à penser","de manière générale"],"Le registre soutenu privilégie la prudence argumentative sur la certitude absolue.","Rapport interne pour un comité de direction."],
+    ["mcq","¿Cómo se dice \"convendría señalar que\" en francés?",["de manière générale","il conviendrait de souligner que","avoir tendance à penser que","il serait bon de nuancer que"],1,"\"convendría señalar que\" se dice \"il conviendrait de souligner que\" en francés."],
+    ["mcq","¿Cómo se dice \"convendría aclarar que\" en francés?",["de manière générale","avoir tendance à penser que","il serait bon de nuancer que","il conviendrait de souligner que"],2,"\"convendría aclarar que\" se dice \"il serait bon de nuancer que\" en francés."],
     ]
   },
   {
@@ -510,7 +536,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase exprime correctement une hypothèse irréelle au passé ?",["Si nous avions révisé le contrat à temps, nous aurions évité le problème.","Si nous révisons le contrat à temps, nous aurions évité le problème.","Si nous avions révisé le contrat à temps, nous évitons le problème.","Si nous aurions révisé le contrat, nous aurions évité le problème."],0,"Structure standard : si + plus-que-parfait (indicatif), conditionnel passé dans la principale."],
       ["fill","Complète : \"Il était impossible que l'équipe ___ le projet sans plus de ressources.\"",["ait terminé","avait terminé","terminerait","termine déjà"],0,"Après 'il était impossible que' (expression de doute), le subjonctif passé 'ait terminé' est requis."],
       ["mcq","Dans une phrase avec 'si' au passé, quel mode utilise-t-on, contrairement à l'espagnol ou l'italien ?",["L'indicatif (plus-que-parfait), jamais le subjonctif après 'si'.","Le subjonctif plus-que-parfait, comme en espagnol.","L'impératif.","Le conditionnel dans les deux propositions."],0,"En français, la proposition avec 'si' reste toujours à l'indicatif."],
-      ["writing","Écris 70-90 mots sur une décision passée que tu changerais. Utilise au moins une hypothèse avec 'si' + plus-que-parfait et une expression de doute avec le subjonctif passé.",[],["si j'avais su","il aurait suffi","ce n'est que lorsque"],"Distingue bien la structure avec 'si' (indicatif) de celle avec une expression de doute (subjonctif).","Réflexion rétrospective sur une décision professionnelle."]
+      ["writing","Écris 70-90 mots sur une décision passée que tu changerais. Utilise au moins une hypothèse avec 'si' + plus-que-parfait et une expression de doute avec le subjonctif passé.",[],["si j'avais su","il aurait suffi","ce n'est que lorsque"],"Distingue bien la structure avec 'si' (indicatif) de celle avec une expression de doute (subjonctif).","Réflexion rétrospective sur une décision professionnelle."],
+    ["mcq","¿Cómo se dice \"si lo hubiera sabido\" en francés?",["il était impossible que","il aurait suffi de","si j'avais su","ce n'est que lorsque"],2,"\"si lo hubiera sabido\" se dice \"si j'avais su\" en francés."],
+    ["mcq","¿Cómo se dice \"era imposible que\" en francés?",["il était impossible que","il aurait suffi de","ce n'est que lorsque","si j'avais su"],0,"\"era imposible que\" se dice \"il était impossible que\" en francés."],
     ]
   },
   {
@@ -531,7 +559,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle reformulation convient le mieux à un rapport technique ?",["L'absence de coordination entre les équipes a donné lieu à une duplication des tâches.","Ils ne se sont pas coordonnés, donc ils ont refait les mêmes choses.","Les équipes ne se sont pas parlé, donc c'était le bazar.","C'était un désastre parce que personne n'a communiqué."],0,"La nominalisation condense l'information dans un ton plus objectif."],
       ["fill","Complète : \"L'___ de nouvelles technologies entraîne des coûts initiaux élevés.\"",["adoption","adopter","adoptant","adopté"],0,"Le nom 'adoption' (nominalisation d''adopter') s'intègre à la structure formelle avec article."],
       ["mcq","Quel avantage apporte la nominalisation dans un texte technique ?",["Elle permet de condenser l'information et d'adopter un ton plus objectif et impersonnel.","Elle rend le texte plus informel et proche du lecteur.","Elle élimine toute possibilité de précision.","Elle n'apporte aucun avantage réel."],0,"La nominalisation est essentielle à la densité et à l'objectivité du registre technique."],
-      ["writing","Réécris en 60-80 mots un paragraphe informel sur un problème professionnel, en le transformant en extrait de rapport formel avec au moins trois nominalisations.",[],["la mise en œuvre","l'absence de","donner lieu à"],"Repère les verbes clés et transforme-les en noms pour un ton plus formel.","Transformer une plainte informelle en rapport interne."]
+      ["writing","Réécris en 60-80 mots un paragraphe informel sur un problème professionnel, en le transformant en extrait de rapport formel avec au moins trois nominalisations.",[],["la mise en œuvre","l'absence de","donner lieu à"],"Repère les verbes clés et transforme-les en noms pour un ton plus formel.","Transformer une plainte informelle en rapport interne."],
+    ["mcq","¿Cómo se dice \"la implementación de\" en francés?",["l'absence de","donner lieu à","entraîner","la mise en œuvre de"],3,"\"la implementación de\" se dice \"la mise en œuvre de\" en francés."],
+    ["mcq","¿Cómo se dice \"la ausencia de\" en francés?",["entraîner","l'absence de","donner lieu à","la mise en œuvre de"],1,"\"la ausencia de\" se dice \"l'absence de\" en francés."],
     ]
   },
   {
@@ -552,7 +582,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase utilise correctement 'd'où' ?",["Les données étaient contradictoires, d'où le retard de la publication du rapport.","D'où les données étaient contradictoires, le rapport a été retardé.","Les données, d'où contradictoires, ont retardé le rapport.","D'où que les données soient contradictoires, retard du rapport."],0,"'D'où' introduit directement une conséquence logique, souvent suivie d'un nom."],
       ["fill","Complète : \"___ les ressources disponibles, le projet avancera plus lentement que prévu.\"",["Étant donné","D'où","Sous peine de","Il conviendrait de souligner"],0,"'Étant donné' introduit une cause de façon directe."],
       ["mcq","Que signifie approximativement 'dans la mesure où' ?",["Dans la proportion ou le degré où quelque chose se produit ; équivalent à 'pour autant que'.","Exactement la même chose que 'bien que'.","Introduit toujours une hypothèse irréelle.","S'utilise seulement pour parler de mesures physiques."],0,"Exprime une proportionnalité entre deux faits liés."],
-      ["writing","Écris un paragraphe de 70-90 mots expliquant la cause et la conséquence d'une décision d'entreprise, en utilisant au moins deux connecteurs de cette leçon.",[],["étant donné que","d'où","dans la mesure où"],"Distingue avec soin les connecteurs de cause et ceux de conséquence.","Analyse causale pour un rapport de gestion."]
+      ["writing","Écris un paragraphe de 70-90 mots expliquant la cause et la conséquence d'une décision d'entreprise, en utilisant au moins deux connecteurs de cette leçon.",[],["étant donné que","d'où","dans la mesure où"],"Distingue avec soin les connecteurs de cause et ceux de conséquence.","Analyse causale pour un rapport de gestion."],
+    ["mcq","¿Cómo se dice \"dado que\" en francés?",["sous peine de","d'où le fait que","dans la mesure où","étant donné que"],3,"\"dado que\" se dice \"étant donné que\" en francés."],
+    ["mcq","¿Cómo se dice \"en la medida en que\" en francés?",["sous peine de","d'où le fait que","étant donné que","dans la mesure où"],3,"\"en la medida en que\" se dice \"dans la mesure où\" en francés."],
     ]
   },
   {
@@ -573,7 +605,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quel est le meilleur résumé pour une audience pressée par le temps ?",["Dans les grandes lignes, le rapport recommande une expansion progressive, conditionnée à l'obtention d'un financement externe.","Le rapport a beaucoup de pages sur l'expansion, le financement et d'autres choses.","L'expansion sera parfaite si tout le monde fait des efforts.","Il y a du financement, de l'expansion et un rapport impliqués."],0,"Un bon résumé priorise la décision, la condition et le risque principal."],
       ["fill","Complète : \"___, l'étude montre une amélioration modérée mais constante des résultats.\"",["En synthèse","Sous peine de","D'où","Il conviendrait"],0,"\"En synthèse\" introduit une conclusion générale qui clôt le résumé."],
       ["mcq","Qu'est-ce qui distingue une bonne médiation (résumé) d'une simple liste de mots-clés ?",["Elle conserve les relations logiques (cause, contraste, condition) entre les idées originales.","Elle élimine toute relation logique et ne garde que des termes isolés.","Elle doit toujours être plus longue que le texte original.","Elle ne doit inclure aucune conclusion."],0,"La médiation exige de préserver le sens et les liens, pas seulement le vocabulaire."],
-      ["writing","Résume en 60-80 mots un rapport imaginaire évaluant deux options stratégiques, en indiquant la recommandation principale et une condition ou un risque.",[],["en synthèse","le point central","il convient de souligner"],"Priorise la décision, la raison et une condition ou un risque pertinent.","Résumé exécutif pour la direction."]
+      ["writing","Résume en 60-80 mots un rapport imaginaire évaluant deux options stratégiques, en indiquant la recommandation principale et une condition ou un risque.",[],["en synthèse","le point central","il convient de souligner"],"Priorise la décision, la raison et une condition ou un risque pertinent.","Résumé exécutif pour la direction."],
+    ["mcq","¿Cómo se dice \"el punto clave es que\" en francés?",["en synthèse","dans les grandes lignes","le point central est que","il convient de souligner"],2,"\"el punto clave es que\" se dice \"le point central est que\" en francés."],
+    ["mcq","¿Cómo se dice \"cabe destacar\" en francés?",["il convient de souligner","en synthèse","dans les grandes lignes","le point central est que"],0,"\"cabe destacar\" se dice \"il convient de souligner\" en francés."],
     ]
   },
   {
@@ -594,7 +628,9 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase réfute un argument avec le plus de précision rhétorique ?",["Loin de résoudre le problème, la mesure pourrait l'aggraver à long terme.","La mesure est mauvaise, c'est tout.","Ça ne sert à rien, c'est évident.","Tout le monde sait que c'est mauvais."],0,"'Loin de' introduit une réfutation nuancée et argumentée, pas une simple négation."],
       ["fill","Complète : \"Le projet a généré des bénéfices ; ___, il n'a pas couvert les coûts initiaux.\"",["cela n'empêche pas de reconnaître que","étant donné que","d'où","dans la mesure où"],0,"'Cela n'empêche pas de reconnaître que' introduit une concession suivie d'une nuance."],
       ["mcq","Quelle fonction rhétorique remplit « certes... il n'en demeure pas moins que » ?",["Reconnaître un point valable avant d'introduire une objection tout aussi solide.","Nier complètement le premier point.","Exprimer un doute total sur les deux points.","C'est une formule purement informelle."],0,"C'est une structure de concession-réfutation caractéristique du registre argumentatif soutenu."],
-      ["writing","Écris un paragraphe de 80-100 mots qui réfute avec nuance une position sur un sujet controversé (par exemple, l'automatisation de l'emploi), en utilisant au moins deux structures de concession-réfutation.",[],["certes","loin de","en dernière instance"],"Reconnais d'abord le point contraire, puis nuance-le ou réfute-le avec précision.","Article d'opinion pour une revue spécialisée."]
+      ["writing","Écris un paragraphe de 80-100 mots qui réfute avec nuance une position sur un sujet controversé (par exemple, l'automatisation de l'emploi), en utilisant au moins deux structures de concession-réfutation.",[],["certes","loin de","en dernière instance"],"Reconnais d'abord le point contraire, puis nuance-le ou réfute-le avec précision.","Article d'opinion pour une revue spécialisée."],
+    ["mcq","¿Cómo se dice \"ciertamente... no es menos cierto que\" en francés?",["cela n'empêche pas que","certes... il n'en demeure pas moins que","loin de","en dernière instance"],1,"\"ciertamente... no es menos cierto que\" se dice \"certes... il n'en demeure pas moins que\" en francés."],
+    ["mcq","¿Cómo se dice \"lejos de\" en francés?",["cela n'empêche pas que","certes... il n'en demeure pas moins que","en dernière instance","loin de"],3,"\"lejos de\" se dice \"loin de\" en francés."],
     ]
   },
   {
@@ -617,7 +653,8 @@ window.LESSON_BANKS.FR = [
       ["fill","Complète l'inversion : « En aucun cas ces résultats ne ___ être considérés comme définitifs. »",["sauraient","sauraient-ils","saurait","sauront"],0,"Le verbe s'accorde avec le sujet pluriel 'ces résultats' : ne sauraient être."],
       ["mcq","Dans « Cette proposition n'est pas sans risque », quelle est la fonction de la litote ?",["Affirmer avec nuance que la proposition comporte bien un risque.","Nier totalement que la proposition comporte un risque.","Affirmer que la proposition est totalement sûre.","N'apporter aucun sens supplémentaire."],0,"« N'est pas sans » nie le contraire pour affirmer quelque chose avec prudence."],
       ["translate","Traduis : « By no means should this decision be treated as final. »",["En aucun cas cette décision ne devrait être considérée comme définitive.","Cette décision est définitive en aucun cas.","Devrait être considérée en aucun cas cette décision.","Cette décision en aucun cas définitive devrait être."],0,"« En aucun cas » + inversion est l'équivalent soutenu de « by no means »."],
-      ["writing","Rédige 60-80 mots sur une décision d'entreprise controversée : utilise au moins une inversion emphatique ('en aucun cas'/'à aucun moment') et une litote.",[],["en aucun cas","n'est pas sans","à aucun moment"],"Le niveau C2 combine précision argumentative et procédés rhétoriques de nuance.","Chronique d'opinion pour une revue spécialisée."]
+      ["writing","Rédige 60-80 mots sur une décision d'entreprise controversée : utilise au moins une inversion emphatique ('en aucun cas'/'à aucun moment') et une litote.",[],["en aucun cas","n'est pas sans","à aucun moment"],"Le niveau C2 combine précision argumentative et procédés rhétoriques de nuance.","Chronique d'opinion pour une revue spécialisée."],
+    ["mcq","¿Cómo se dice \"de ninguna manera\" en francés?",["un présupposé tacite","être en deçà de","en aucun cas","nuancer une affirmation"],2,"\"de ninguna manera\" se dice \"en aucun cas\" en francés."],
     ]
   },
   {
@@ -640,7 +677,8 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle version convient le mieux à des excuses publiques formelles ?",["Nous reconnaissons la gêne occasionnée et prenons des mesures immédiates pour éviter que cela se reproduise.","Bon, ce moment était gênant, ça passera.","Ce n'était absolument pas de notre faute.","Tout le monde fait des erreurs, inutile d'insister."],0,"Le registre formel reconnaît l'impact, assume une responsabilité et propose une action concrète."],
       ["fill","Complète : « Le discours cherche à ___ un sentiment de responsabilité partagée. »",["évoquer","invoquer","provoquer","révoquer"],0,"'Évoquer' signifie susciter un sentiment ou une idée chez l'auditeur."],
       ["mcq","Quel est le principal objectif d'une question rhétorique dans un discours persuasif ?",["Impliquer l'auditoire et suggérer une réponse sans la formuler explicitement.","Demander une information que l'orateur ignore réellement.","Semer volontairement la confusion dans l'auditoire.","Changer de sujet discrètement."],0,"La question rhétorique oriente l'auditeur vers une conclusion sans l'énoncer directement."],
-      ["writing","Reformule ce message interne brusque en communiqué public de 50-70 mots : « L'équipe a échoué, il faut réparer ça tout de suite. » Reconnais le problème, évite de le dramatiser et propose une action vérifiable.",[],["nous reconnaissons","mesures","éviter que cela se reproduise"],"Évalue la proportion et le ton : ni froideur excessive ni dramatisation inutile.","Communiqué : un service numérique a été interrompu pendant deux heures."]
+      ["writing","Reformule ce message interne brusque en communiqué public de 50-70 mots : « L'équipe a échoué, il faut réparer ça tout de suite. » Reconnais le problème, évite de le dramatiser et propose une action vérifiable.",[],["nous reconnaissons","mesures","éviter que cela se reproduise"],"Évalue la proportion et le ton : ni froideur excessive ni dramatisation inutile.","Communiqué : un service numérique a été interrompu pendant deux heures."],
+    ["mcq","¿Cómo se dice \"encontrar un equilibrio\" en francés?",["évoquer","assumer une responsabilité de façon proportionnée","une question rhétorique","trouver un équilibre"],3,"\"encontrar un equilibrio\" se dice \"trouver un équilibre\" en francés."],
     ]
   },
   {
@@ -662,7 +700,8 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle est une lecture critique appropriée de « une solution audacieuse à un système dépassé » ?",["L'adjectif 'dépassé' évalue le système et prédispose le lecteur en faveur de la solution.","La phrase est totalement neutre et ne comporte aucun jugement.","La solution a déjà prouvé son efficacité.","Elle ne contient aucune évaluation implicite."],0,"'Dépassé' est un langage orienté, pas un fait démontré objectivement."],
       ["fill","Complète : « L'article comporte une ___ importante : les résultats n'ont pas été reproduits. »",["réserve","idée","conséquence","comparaison"],0,"Une 'réserve' limite la portée d'une affirmation."],
       ["mcq","Dans « Il est temps de redonner du bon sens à la politique publique », qu'implique le verbe 'redonner' ?",["Il laisse entendre que le bon sens existait avant et a été perdu, sans le démontrer.","Il affirme avec des données que la politique actuelle manque de bon sens.","C'est une description neutre, sans aucune charge évaluative.","Il propose une politique concrète et vérifiable."],0,"'Redonner' présuppose une perte antérieure, une stratégie rhétorique courante sans preuve."],
-      ["speaking","Analyse en 50-70 mots une phrase persuasive de ton choix : identifie un présupposé, un mot orienté et une inférence raisonnable.",[],["présuppose","langage","inférence"],"Il ne suffit pas d'être d'accord ou en désaccord : explique comment le langage oriente l'interprétation.","Phrase d'exemple : « Il est temps de mettre fin à cette pratique dépassée. »"]
+      ["speaking","Analyse en 50-70 mots une phrase persuasive de ton choix : identifie un présupposé, un mot orienté et une inférence raisonnable.",[],["présuppose","langage","inférence"],"Il ne suffit pas d'être d'accord ou en désaccord : explique comment le langage oriente l'interprétation.","Phrase d'exemple : « Il est temps de mettre fin à cette pratique dépassée. »"],
+    ["mcq","¿Cómo se dice \"dar a entender\" en francés?",["tirer une inférence","une réserve","un langage orienté","laisser entendre"],3,"\"dar a entender\" se dice \"laisser entendre\" en francés."],
     ]
   },
   {
@@ -4872,7 +4911,7 @@ window.LESSON_BANKS.FR = [
       vocab: [
         ["à + heure", "a + hora (à 9 heures)"],
         ["en + mois/année/saison", "en + mes/año/estación"],
-        ["le + jour de la semaine (habitude)", "el/de + día de la semana (hábito repetido)"],
+        ["le + jour de la semaine (habitude)", "día de la semana (hábito repetido)"],
         ["le soir", "por la noche"],
         ["le matin / l'après-midi", "por la mañana / por la tarde"],
       ],
