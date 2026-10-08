@@ -439,18 +439,43 @@ Serienmarathon»** (género; 4 apariciones). Por eso `de.js` cambia 84 líneas y
 
 ### Lo que queda (decisión tuya)
 
-- **Pistas en inglés heredadas (hallazgo nuevo, no corregido).** Unas ~190 preguntas de lecciones
-  iniciales (≈42 por curso; p. ej. `¿Cómo se dice "Good morning" en francés?`, `Traduce al
-  francés: "Nice to meet you!"`) están en español pero citan una pista **en inglés**. La dirección
-  (pista → idioma meta) es correcta y respuestas y distractores ya están en el idioma meta; solo la
-  pista debería ser español. También hay ejercicios `translate` con frase de origen en inglés
-  (p. ej. `Traduis : «The dog is very friendly.»`). Es la misma familia de causa raíz, pero de
-  riesgo menor que lo corregido hoy (basta traducir la pista; no se toca la respuesta). No lo he
-  tocado sin tu confirmación.
+- ~~Pistas en inglés heredadas~~ — **resuelto en la octava ronda** (ver abajo).
 - Las definiciones en español (171) y las traducciones de rondas anteriores son trabajo de un modelo
   de lenguaje, no de un hablante nativo verificado.
 - En el curso ES las preguntas son ahora de significado; la decisión de diseño de Ronda 4 (qué
   mostrar en `study.vocab` de ES) sigue abierta.
+
+## Octava ronda — pistas en inglés heredadas (FR/DE/IT/PT)
+
+### Hallazgo
+La causa raíz de la Ronda 3/7 (plantilla centrada en inglés) también dejó **inglés como idioma de la pista** en ejercicios de los cursos FR/DE/IT/PT, aunque la pregunta y la app estén en español. Aparecía en cuatro formas:
+1. **Pistas de `mcq`/`translate`**: `¿Cómo se dice "Good morning" en francés?`, `Traduce: "The dog is very friendly."`, `Traduis : « Tienes… »` con la frase de origen en inglés (868 ejercicios, 251 cadenas únicas).
+2. **Ayudas entre paréntesis y pistas de una palabra** en `fill`/`mcq` (`"Ich ___ Student." (I am a student)`, `"mother"`, `"thought experiment"`…).
+3. **Opciones de respuesta en inglés** en preguntas `¿Qué significa «<frase meta>»?` (59 ejercicios + 2 más hallados al final), incluidas opciones erróneas que eran frases inglesas mal formadas.
+4. **Glosas en inglés dentro de las explicaciones** (`Rouge = red…`, `«Let the dough rest»`, `"Anna's book"`…).
+
+### Qué se hizo
+En total **1.489 ejercicios** modificados (FR 373, DE 372, IT 371, PT 373; ES no se toca, ver abajo): pregunta cambiada en 1.386, opciones en 61, explicación en 1.157. Siempre se traduce **la pista y las glosas al español**; **nunca se tocan** las respuestas en el idioma meta ni el índice de la correcta (verificado ejercicio por ejercicio).
+- **Pasada 1** (`build_r8.js`, 868 ejercicios): las 251 pistas inglesas únicas traducidas a mano (`es_cues.js`), alineando cada una con la respuesta meta que ya tenía el ejercicio (registro tú/usted, género, pasiva, etc.). Las explicaciones se reescriben sustituyendo la pista completa o sus fragmentos (≈85 fragmentos traducidos) y 11 explicaciones con glosas sueltas se reescriben enteras.
+- **Pasada 2** (`build_r8b.js`): las 92 opciones inglesas únicas de las preguntas de significado → español. Donde la opción errónea era inglés mal formado (p. ej. `Ask for help is not sign of weakness`), la sustituyo por un distractor en español **con significado distinto** (no una traducción del error gramatical), comprobando que no sea sinónimo de la correcta. Más ~190 pistas de una palabra/ayudas entre paréntesis.
+- **Pasada 3** (`build_r8c.js`): detector más fiable (lista de ≈275.000 palabras inglesas, descontando el vocabulario de los cursos) que halló más de 100 pistas de sustantivos/glosas que el primer detector no cazaba (`flat tire`, `sleeping bag`, `I ate an apple`, `waiter/cook/customer`…), más 2 ejercicios DE con opciones inglesas y las glosas de ejercicios `arrange`. También restituye la mayúscula inicial en explicaciones donde se había perdido.
+
+### Decisión consciente: el curso ES no se toca
+En el curso de español la pista inglesa **no es un error de plantilla** sino la única referencia no circular (la palabra y su traducción serían la misma). Se deja como está; es una decisión de diseño pendiente (ver «Qué debería mostrar `study.vocab` en el curso de español»).
+
+### Verificación aplicada
+1. **Conteos y alcance** (`verify_r8.js`, base = zip de la ronda 7): 852 lecciones, 5.112 ejercicios, 4.616 vocab, 896 grammar idénticos; `study` y todos los campos de lección idénticos; ES/EN/Situaciones idénticos; en cada ejercicio cambiado, mismo tipo, mismo nº de opciones y **mismo índice de la correcta**, sin opciones duplicadas, sin `undefined`. 0 problemas.
+2. **Validador:** 0 errores, 0 avisos.
+3. **Motor real:** `_shuffleOptions` de `lessons.js` ejecutado 491.200 veces sobre todos los `mcq` de los 5 cursos: 0 fallos.
+4. **Relectura a mano** de dos muestras aleatorias de 45 y 30 ejercicios modificados, y revisión de la lista completa de pistas contra las respuestas meta de cada ejercicio. Esa relectura detectó fallos reales que corregí: (a) la pasada 3 llegó a tocar 10 entradas de `study.vocab` por tener el mismo formato que un ejercicio — ahora solo opera sobre líneas que son ejercicios; (b) un archivo de alcance sobrescrito por un reescaneo hacía que la pasada 2 no se aplicara; (c) dos pistas semánticamente desajustadas (`static`→«interferencias», `flat tire`→«neumático pinchado»).
+5. **Reconstrucción desde cero** (las tres pasadas encadenadas sobre la base de la ronda 7): `diff -r` idéntico al resultado entregado.
+6. **Búsquedas finales** de inglés (palabras funcionales, lista de palabras, glosas `= …` y opciones): sólo quedan falsos positivos (palabras del idioma meta que coinciden con una palabra inglesa, p. ej. alemán *am/was/will*, italiano *blue* como distractor deliberadamente erróneo, o la referencia pedagógica a «to be» al comparar con el inglés).
+
+### Lo que queda
+- **Notas de gramática (`study.grammar`) que comparan con el inglés** («a diferencia del inglés (there is/there are)…»): son comparaciones pedagógicas explícitas, no pistas; se dejan. Si quieres un curso 100% sin referencias al inglés, habría que reescribirlas.
+- Muchos cognados (*relativismo cultural → o relativismo cultural*) hacen que el ejercicio sea trivial en italiano/portugués/francés: inherente al vocabulario, no a la traducción.
+- Las traducciones y definiciones son de un modelo de lenguaje, no de un hablante nativo verificado.
+- Los detectores automáticos de inglés no son exhaustivos; la última búsqueda con lista de palabras no halló más casos reales, pero un barrido con otro método podría encontrar alguno residual.
 
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 

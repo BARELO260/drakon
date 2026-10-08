@@ -20,11 +20,11 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"Good morning\" en francés?", ["Bonjour","Bonsoir","Bonne nuit","Au revoir"], 0, "\"Bonjour\" se usa durante todo el día hasta la tarde-noche. \"Bonsoir\" se usa al caer la tarde/noche.", "☀️ Son las 9 de la mañana y llegas a la oficina."],
+      ["mcq", "¿Cómo se dice \"Buenos días\" en francés?", ["Bonjour","Bonsoir","Bonne nuit","Au revoir"], 0, "\"Bonjour\" se usa durante todo el día hasta la tarde-noche. \"Bonsoir\" se usa al caer la tarde/noche.", "☀️ Son las 9 de la mañana y llegas a la oficina."],
       ["mcq", "Alguien te dice \"Comment ça va?\". ¿Cuál es una respuesta común?", ["Ça va bien, merci","Je m'appelle Paul","J'ai vingt ans","À bientôt"], 0, "\"Ça va bien, merci\" es la respuesta estándar. También puedes decir \"Très bien, et toi?\""],
       ["fill", "Completa: \"Bonjour ! Je ___ Marie. Je ___ de Paris.\"", ["m'appelle / viens","suis / appelle","es / viens","suis / suis"], 0, "\"Je m'appelle Marie\" (me llamo) y \"Je viens de Paris\" (vengo de). \"S'appeler\" y \"venir\" son verbos distintos, ambos en primera persona."],
-      ["translate", "Traduce al francés: \"Nice to meet you!\"", ["Enchanté(e) !","Comment tu t'appelles ?","D'où viens-tu ?","À demain !"], 0, "\"Enchanté(e) !\" es la expresión estándar al conocer a alguien nuevo."],
-      ["mcq", "¿Qué significa \"Comment tu t'appelles ?\"?", ["What's your name?","Where are you from?","How old are you?","Where do you live?"], 0, "\"Comment tu t'appelles ?\" = What's your name? Respuesta: \"Je m'appelle ___\".", "🏫 Un nuevo compañero de clase te pregunta algo."],
+      ["translate", "Traduce al francés: \"¡Mucho gusto!\"", ["Enchanté(e) !","Comment tu t'appelles ?","D'où viens-tu ?","À demain !"], 0, "\"Enchanté(e) !\" es la expresión estándar al conocer a alguien nuevo."],
+      ["mcq", "¿Qué significa \"Comment tu t'appelles ?\"?", ["¿Cómo te llamas?","¿De dónde eres?","¿Cuántos años tienes?","¿Dónde vives?"], 0, "\"Comment tu t'appelles ?\" = ¿Cómo te llamas? Respuesta: \"Je m'appelle ___\".", "🏫 Un nuevo compañero de clase te pregunta algo."],
       ["arrange", "Ordena: [suis / professeur / je / un]", ["Je suis un professeur","Un suis je professeur","Professeur je suis un","Je un suis professeur"], 0, "En francés el orden es: Sujeto + Verbo + Complemento. → \"Je suis un professeur.\" (Soy profesor.)"],
     ]
   },
@@ -44,11 +44,11 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq", "¿Cómo se dice el número 15 en francés?", ["Quinze","Cinquante","Cinq","Seize"], 0, "15 = quinze. Ojo: 50 = cinquante, 5 = cinq. Los números del 11 al 16 tienen formas propias."],
-      ["mcq", "¿Qué color es \"rouge\"?", ["Red","Blue","Green","Yellow"], 0, "Rouge = red. Otros colores: bleu (blue), vert (green), jaune (yellow), blanc (white), noir (black).", "🍎 Piensa en una manzana madura."],
-      ["fill", "Completa: \"J'___ vingt ans.\" (I am 20 years old)", ["ai","suis","es","a"], 0, "\"J'ai vingt ans\" = I am twenty years old. En francés la edad se expresa con el verbo \"avoir\" (tener), no \"être\" (ser)."],
-      ["translate", "Traduce: \"The sky is blue.\"", ["Le ciel est bleu","Le ciel est vert","La maison est bleue","La mer est bleue"], 0, "\"Le ciel est bleu.\" — ciel = sky, bleu = blue."],
-      ["mcq", "¿Cómo se dice \"black\" en francés?", ["Noir","Blanc","Gris","Marron"], 0, "Noir = black. Blanc = white, gris = gray, marron = brown."],
-      ["arrange","Ordena: [chats / deux / j'ai]",["J'ai deux chats","Deux j'ai chats","Chats j'ai deux","Deux chats j'ai"],0,"\"J'ai deux chats.\" = I have two cats. Sujeto+verbo (j'ai) + cantidad (deux) + sustantivo (chats)."],
+      ["mcq", "¿Qué color es \"rouge\"?", ["Rojo","Azul","Verde","Amarillo"], 0, "Rouge = rojo. Otros colores: bleu (azul), vert (verde), jaune (amarillo), blanc (blanco), noir (negro).", "🍎 Piensa en una manzana madura."],
+      ["fill", "Completa: \"J'___ vingt ans.\" (Tengo 20 años)", ["ai","suis","es","a"], 0, "\"J'ai vingt ans\" = tengo veinte años. En francés la edad se expresa con el verbo \"avoir\" (tener), no \"être\" (ser)."],
+      ["translate", "Traduce: \"El cielo es azul.\"", ["Le ciel est bleu","Le ciel est vert","La maison est bleue","La mer est bleue"], 0, "\"Le ciel est bleu.\" — ciel = cielo, bleu = azul."],
+      ["mcq", "¿Cómo se dice \"negro\" en francés?", ["Noir","Blanc","Gris","Marron"], 0, "Noir = negro. Blanc = blanco, gris = gris, marron = marrón."],
+      ["arrange","Ordena: [chats / deux / j'ai]",["J'ai deux chats","Deux j'ai chats","Chats j'ai deux","Deux chats j'ai"],0,"\"J'ai deux chats.\" = tengo dos gatos. Sujeto+verbo (j'ai) + cantidad (deux) + sustantivo (chats)."],
     ]
   },
   {
@@ -66,11 +66,11 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq", "\"Je ___ étudiant.\" (I am a student)", ["suis","ai","es","est"], 0, "\"Être\" (ser/estar) en primera persona es \"suis\": \"Je suis étudiant.\""],
-      ["mcq", "\"Elle ___ vingt-cinq ans.\" (She is 25 years old)", ["a","est","ai","es"], 0, "La edad en francés se expresa con \"avoir\": \"Elle a vingt-cinq ans.\" (literalmente: ella tiene 25 años)."],
-      ["fill", "Completa: \"Nous ___ français.\" (We are French)", ["sommes","avons","êtes","sont"], 0, "\"Être\" en primera persona plural es \"sommes\": \"Nous sommes français.\""],
-      ["translate", "Traduce: \"They have a car.\"", ["Ils ont une voiture","Ils sont une voiture","Ils ont un voiture","Elles est une voiture"], 0, "\"Avoir\" en tercera persona plural es \"ont\": \"Ils ont une voiture.\""],
+      ["mcq", "\"Elle ___ vingt-cinq ans.\" (Ella tiene 25 años)", ["a","est","ai","es"], 0, "La edad en francés se expresa con \"avoir\": \"Elle a vingt-cinq ans.\" (literalmente: ella tiene 25 años)."],
+      ["fill", "Completa: \"Nous ___ français.\" (Somos franceses)", ["sommes","avons","êtes","sont"], 0, "\"Être\" en primera persona plural es \"sommes\": \"Nous sommes français.\""],
+      ["translate", "Traduce: \"Ellos tienen un auto.\"", ["Ils ont une voiture","Ils sont une voiture","Ils ont un voiture","Elles est une voiture"], 0, "\"Avoir\" en tercera persona plural es \"ont\": \"Ils ont une voiture.\""],
       ["mcq", "¿Qué verbo se usa para la edad en francés?", ["Avoir (tener)","Être (ser/estar)","Aller (ir)","Faire (hacer)"], 0, "En francés se dice literalmente \"tener X años\" (avoir X ans), a diferencia del español que también usa \"tener\" pero del inglés que usa \"to be\"."],
-      ["arrange", "Ordena: [heureux / très / je / suis]", ["Je suis très heureux","Très je suis heureux","Heureux très je suis","Je très suis heureux"], 0, "\"Je suis très heureux.\" = I am very happy. Sujeto+verbo (je suis) + intensificador (très) + adjetivo (heureux)."],
+      ["arrange", "Ordena: [heureux / très / je / suis]", ["Je suis très heureux","Très je suis heureux","Heureux très je suis","Je très suis heureux"], 0, "\"Je suis très heureux.\" = estoy muy feliz. Sujeto+verbo (je suis) + intensificador (très) + adjetivo (heureux)."],
     ]
   },
   {
@@ -89,12 +89,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"mother\" en francés?", ["Mère","Père","Sœur","Grand-mère"], 0, "Mère = mother. Père = father, sœur = sister, grand-mère = grandmother."],
-      ["mcq", "¿Qué habitación es \"la cuisine\"?", ["Kitchen","Bedroom","Bathroom","Garden"], 0, "La cuisine = kitchen. La chambre = bedroom, la salle de bain = bathroom, le jardin = garden."],
-      ["fill", "Completa: \"___ frère habite à Paris.\" (My brother)", ["Mon","Ma","Mes","Son"], 0, "\"Mon frère\" = my brother. Se usa \"mon\" (no \"ma\") porque \"frère\" es masculino."],
-      ["translate", "Traduce: \"My family is big.\"", ["Ma famille est grande","Ma famille est petite","Mes familles sont grandes","Sa famille est grande"], 0, "\"Ma famille est grande.\" — \"famille\" es femenino, por eso \"ma\" (no \"mon\")."],
-      ["mcq", "¿Cómo se dice \"grandparents\" en francés?", ["Grands-parents","Parents","Oncle et tante","Cousins"], 0, "Grands-parents = grandparents. Parents = parents, oncle et tante = aunt and uncle, cousins = cousins."],
-      ["arrange", "Ordena: [trois / j'ai / frères]", ["J'ai trois frères","Trois j'ai frères","Frères j'ai trois","Trois frères j'ai"], 0, "\"J'ai trois frères.\" = I have three brothers. Sujeto+verbo (j'ai) + cantidad + sustantivo."],
+      ["mcq", "¿Cómo se dice \"madre\" en francés?", ["Mère","Père","Sœur","Grand-mère"], 0, "Mère = madre. Père = padre, sœur = hermana, grand-mère = abuela."],
+      ["mcq", "¿Qué habitación es \"la cuisine\"?", ["Cocina","Dormitorio","Baño","Jardín"], 0, "La cuisine = cocina. La chambre = dormitorio, la salle de bain = baño, le jardin = jardín."],
+      ["fill", "Completa: \"___ frère habite à Paris.\" (Mi hermano)", ["Mon","Ma","Mes","Son"], 0, "\"Mon frère\" = mi hermano. Se usa \"mon\" (no \"ma\") porque \"frère\" es masculino."],
+      ["translate", "Traduce: \"Mi familia es grande.\"", ["Ma famille est grande","Ma famille est petite","Mes familles sont grandes","Sa famille est grande"], 0, "\"Ma famille est grande.\" — \"famille\" es femenino, por eso \"ma\" (no \"mon\")."],
+      ["mcq", "¿Cómo se dice \"abuelos\" en francés?", ["Grands-parents","Parents","Oncle et tante","Cousins"], 0, "Grands-parents = abuelos. Parents = padres, oncle et tante = tíos, cousins = primos."],
+      ["arrange", "Ordena: [trois / j'ai / frères]", ["J'ai trois frères","Trois j'ai frères","Frères j'ai trois","Trois frères j'ai"], 0, "\"J'ai trois frères.\" = tengo tres hermanos. Sujeto+verbo (j'ai) + cantidad + sustantivo."],
     ]
   },
   {
@@ -113,12 +113,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"the menu\" en francés?", ["Le menu","L'addition","Le plat","La table"], 0, "Le menu = the menu. L'addition = the bill, le plat = the dish, la table = the table."],
-      ["fill", "Completa: \"___ un café, s'il vous plaît.\" (I would like)", ["Je voudrais","Je veux","Je voulais","Je voudra"], 0, "\"Je voudrais\" es la forma más cortés para pedir algo en un restaurante."],
-      ["mcq", "¿Qué significa \"l'addition, s'il vous plaît\"?", ["The bill, please","The menu, please","The table, please","The water, please"], 0, "\"L'addition, s'il vous plaît\" = the bill, please. Se usa al terminar de comer."],
-      ["translate", "Traduce: \"This dish is delicious.\"", ["Ce plat est délicieux","Ce plat est délicieuse","Cette plat est délicieux","Ce plat délicieux est"], 0, "\"Ce plat est délicieux.\" — \"plat\" es masculino, por eso \"délicieux\" (no \"délicieuse\")."],
-      ["mcq", "¿Cómo se dice \"waiter\" en francés?", ["Serveur","Cuisinier","Client","Propriétaire"], 0, "Serveur = waiter (serveuse para mujer). Cuisinier = cook, client = customer."],
-      ["arrange", "Ordena: [d'eau / voudrais / un / verre / je]", ["Je voudrais un verre d'eau","Un verre je voudrais d'eau","D'eau je voudrais un verre","Verre d'eau je voudrais un"], 0, "\"Je voudrais un verre d'eau.\" = I would like a glass of water."],
+      ["mcq", "¿Cómo se dice \"el menú\" en francés?", ["Le menu","L'addition","Le plat","La table"], 0, "Le menu = el menú. L'addition = la cuenta, le plat = el plato, la table = la mesa."],
+      ["fill", "Completa: \"___ un café, s'il vous plaît.\" (Quisiera)", ["Je voudrais","Je veux","Je voulais","Je voudra"], 0, "\"Je voudrais\" es la forma más cortés para pedir algo en un restaurante."],
+      ["mcq", "¿Qué significa \"l'addition, s'il vous plaît\"?", ["La cuenta, por favor","El menú, por favor","La mesa, por favor","El agua, por favor"], 0, "\"L'addition, s'il vous plaît\" = la cuenta, por favor. Se usa al terminar de comer."],
+      ["translate", "Traduce: \"Este plato está delicioso.\"", ["Ce plat est délicieux","Ce plat est délicieuse","Cette plat est délicieux","Ce plat délicieux est"], 0, "\"Ce plat est délicieux.\" — \"plat\" es masculino, por eso \"délicieux\" (no \"délicieuse\")."],
+      ["mcq", "¿Cómo se dice \"camarero\" en francés?", ["Serveur","Cuisinier","Client","Propriétaire"], 0, "Serveur = camarero (serveuse para mujer). Cuisinier = cocinero, client = cliente."],
+      ["arrange", "Ordena: [d'eau / voudrais / un / verre / je]", ["Je voudrais un verre d'eau","Un verre je voudrais d'eau","D'eau je voudrais un verre","Verre d'eau je voudrais un"], 0, "\"Je voudrais un verre d'eau.\" = quisiera un vaso de agua."],
     ]
   },
   {
@@ -137,12 +137,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"I wake up at 7\"?", ["Je me réveille à 7h","Tu te réveilles à 7h","Il se réveille à 7h","Se réveiller à 7h"], 0, "\"Je me réveille à 7h.\" — primera persona del verbo reflexivo \"se réveiller\": je + me + réveille."],
-      ["fill", "Completa: \"Elle ___ à 8h.\" (gets up)", ["se lève","me lève","te lèves","lever"], 0, "\"Se lève\" = tercera persona de \"se lever\" (se + lève)."],
-      ["mcq", "¿Qué significa \"prendre le petit-déjeuner\"?", ["To have breakfast","To have lunch","To have dinner","To sleep"], 0, "Prendre le petit-déjeuner = to have breakfast. Déjeuner = to have lunch, dîner = to have dinner."],
-      ["translate", "Traduce: \"I go to work at 9.\"", ["Je vais au travail à 9h","Je vais travailler 9h","Il va au travail à 9h","Je vais au travail 9h"], 0, "\"Je vais au travail à 9h.\" — \"aller au + lugar\" y \"à + hora\" para indicar el momento."],
-      ["mcq", "¿Cómo se dice \"every day\" en francés?", ["Tous les jours","Un jour","Un jour peut-être","L'autre jour"], 0, "Tous les jours = every day. Un jour = one day."],
-      ["arrange", "Ordena: [heures / dix / je / dors / à]", ["Je dors à dix heures","À dix heures je dors","Dix heures je dors à","Je à dix heures dors"], 0, "\"Je dors à dix heures.\" = I sleep at ten. Sujeto+verbo (je dors) + preposición + hora."],
+      ["mcq", "¿Cómo se dice \"Me despierto a las 7\"?", ["Je me réveille à 7h","Tu te réveilles à 7h","Il se réveille à 7h","Se réveiller à 7h"], 0, "\"Je me réveille à 7h.\" — primera persona del verbo reflexivo \"se réveiller\": je + me + réveille."],
+      ["fill", "Completa: \"Elle ___ à 8h.\" (se levanta)", ["se lève","me lève","te lèves","lever"], 0, "\"Se lève\" = tercera persona de \"se lever\" (se + lève)."],
+      ["mcq", "¿Qué significa \"prendre le petit-déjeuner\"?", ["Desayunar","Almorzar","Cenar","Dormir"], 0, "Prendre le petit-déjeuner = desayunar. Déjeuner = almorzar, dîner = cenar."],
+      ["translate", "Traduce: \"Voy al trabajo a las 9.\"", ["Je vais au travail à 9h","Je vais travailler 9h","Il va au travail à 9h","Je vais au travail 9h"], 0, "\"Je vais au travail à 9h.\" — \"aller au + lugar\" y \"à + hora\" para indicar el momento."],
+      ["mcq", "¿Cómo se dice \"todos los días\" en francés?", ["Tous les jours","Un jour","Un jour peut-être","L'autre jour"], 0, "Tous les jours = todos los días. Un jour = un día."],
+      ["arrange", "Ordena: [heures / dix / je / dors / à]", ["Je dors à dix heures","À dix heures je dors","Dix heures je dors à","Je à dix heures dors"], 0, "\"Je dors à dix heures.\" = duermo a las diez. Sujeto+verbo (je dors) + preposición + hora."],
     ]
   },
   {
@@ -163,12 +163,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"How much does it cost?\" en francés?", ["Combien ça coûte ?","Quelle taille fais-tu ?","Où est-ce ?","Tu aimes ça ?"], 0, "\"Combien ça coûte ?\" se usa para preguntar el precio de algo."],
-      ["fill", "Completa: \"Cette jupe est ___ chère ___ celle-là.\" (more...than)", ["plus / que","moins / de","aussi / que","très / que"], 0, "\"Plus...que\" se usa para comparaciones de superioridad: \"plus chère que\" = more expensive than."],
-      ["mcq", "¿Qué significa \"essayer un vêtement\"?", ["To try on clothes","To buy clothes","To wash clothes","To fold clothes"], 0, "\"Essayer\" = to try on. Se usa antes de comprar, para ver si la talla es correcta."],
-      ["translate", "Traduce al francés: \"These shoes are too small for me.\"", ["Ces chaussures sont trop petites pour moi","Ces chaussures sont grandes","Ces vêtements sont chers","Ces chaussures coûtent cher"], 0, "\"Trop petites pour moi\" describe cómo le sienta la prenda a la persona."],
-      ["mcq", "¿Cómo se dice \"shirt\" en francés?", ["Chemise","Pantalon","Jupe","Chaussure"], 0, "Chemise = shirt. Pantalon = pants, jupe = skirt, chaussure = shoe."],
-      ["arrange", "Ordena: [taille / ma / c'est / exactement]", ["C'est exactement ma taille","Ma taille c'est exactement","Exactement c'est ma taille","Taille ma c'est exactement"], 0, "\"C'est exactement ma taille.\" = This is exactly my size."],
+      ["mcq", "¿Cómo se dice \"¿Cuánto cuesta?\" en francés?", ["Combien ça coûte ?","Quelle taille fais-tu ?","Où est-ce ?","Tu aimes ça ?"], 0, "\"Combien ça coûte ?\" se usa para preguntar el precio de algo."],
+      ["fill", "Completa: \"Cette jupe est ___ chère ___ celle-là.\" (más... que)", ["plus / que","moins / de","aussi / que","très / que"], 0, "\"Plus...que\" se usa para comparaciones de superioridad: \"plus chère que\" = más caro que."],
+      ["mcq", "¿Qué significa \"essayer un vêtement\"?", ["Probarse ropa","Comprar ropa","Lavar ropa","Doblar ropa"], 0, "\"Essayer\" = probarse. Se usa antes de comprar, para ver si la talla es correcta."],
+      ["translate", "Traduce al francés: \"Estos zapatos me quedan demasiado pequeños.\"", ["Ces chaussures sont trop petites pour moi","Ces chaussures sont grandes","Ces vêtements sont chers","Ces chaussures coûtent cher"], 0, "\"Trop petites pour moi\" describe cómo le sienta la prenda a la persona."],
+      ["mcq", "¿Cómo se dice \"camisa\" en francés?", ["Chemise","Pantalon","Jupe","Chaussure"], 0, "Chemise = camisa. Pantalon = pantalón, jupe = falda, chaussure = zapato."],
+      ["arrange", "Ordena: [taille / ma / c'est / exactement]", ["C'est exactement ma taille","Ma taille c'est exactement","Exactement c'est ma taille","Taille ma c'est exactement"], 0, "\"C'est exactement ma taille.\" = esta es exactamente mi talla."],
     ]
   },
   {
@@ -187,12 +187,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"it's cold\" en francés?", ["Il fait froid","Il fait chaud","Il fait beau","Il pleut"], 0, "Il fait froid = it's cold. Il fait chaud = it's hot."],
-      ["fill", "Completa: \"En hiver, parfois ___.\" (it snows)", ["il neige","il pleut","il fait chaud","il fait beau"], 0, "Il neige = it snows, del verbo \"neiger\", típico del invierno."],
+      ["mcq", "¿Cómo se dice \"hace frío\" en francés?", ["Il fait froid","Il fait chaud","Il fait beau","Il pleut"], 0, "Il fait froid = hace frío. Il fait chaud = hace calor."],
+      ["fill", "Completa: \"En hiver, parfois ___.\" (nieva)", ["il neige","il pleut","il fait chaud","il fait beau"], 0, "Il neige = nieva, del verbo \"neiger\", típico del invierno."],
       ["mcq", "¿Qué estación sigue a la primavera (le printemps)?", ["L'été","L'hiver","L'automne","Le printemps"], 0, "El orden de las estaciones es: le printemps, l'été, l'automne, l'hiver."],
-      ["translate", "Traduce al francés: \"It's raining right now.\"", ["Il est en train de pleuvoir","Il va pleuvoir demain","Il fait froid maintenant","Il a plu hier"], 0, "\"Être en train de\" (presente continuo) describe una acción en curso ahora mismo."],
-      ["mcq", "¿Cómo se dice \"sunny\" en francés?", ["Ensoleillé","Nuageux","Pluvieux","Neigeux"], 0, "Ensoleillé = sunny. Nuageux = cloudy, pluvieux = rainy, neigeux = snowy."],
-      ["arrange", "Ordena: [aujourd'hui / il / chaud / fait / très]", ["Il fait très chaud aujourd'hui","Aujourd'hui il fait très chaud","Chaud il fait très aujourd'hui","Très il fait chaud aujourd'hui"], 0, "\"Il fait très chaud aujourd'hui.\" = It's very hot today."],
+      ["translate", "Traduce al francés: \"Está lloviendo ahora mismo.\"", ["Il est en train de pleuvoir","Il va pleuvoir demain","Il fait froid maintenant","Il a plu hier"], 0, "\"Être en train de\" (presente continuo) describe una acción en curso ahora mismo."],
+      ["mcq", "¿Cómo se dice \"soleado\" en francés?", ["Ensoleillé","Nuageux","Pluvieux","Neigeux"], 0, "Ensoleillé = soleado. Nuageux = nublado, pluvieux = lluvioso, neigeux = nevado."],
+      ["arrange", "Ordena: [aujourd'hui / il / chaud / fait / très]", ["Il fait très chaud aujourd'hui","Aujourd'hui il fait très chaud","Chaud il fait très aujourd'hui","Très il fait chaud aujourd'hui"], 0, "\"Il fait très chaud aujourd'hui.\" = hoy hace mucho calor."],
     ]
   },
   {
@@ -211,12 +211,12 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq", "¿Cómo se dice \"I ate\" en francés?", ["J'ai mangé","Je mange","Je mangerai","En mangeant"], 0, "J'ai mangé = I ate (passé composé). Je mange = I eat (presente)."],
-      ["fill", "Completa: \"Hier, ___ au cinéma avec mes amis.\" (I went)", ["je suis allé(e)","je vais","j'irai","j'allais"], 0, "\"Aller\" es un verbo de movimiento, por eso el passé composé se forma con \"être\": je suis allé(e)."],
+      ["mcq", "¿Cómo se dice \"Comí\" en francés?", ["J'ai mangé","Je mange","Je mangerai","En mangeant"], 0, "J'ai mangé = comí (passé composé). Je mange = como (presente)."],
+      ["fill", "Completa: \"Hier, ___ au cinéma avec mes amis.\" (Fui)", ["je suis allé(e)","je vais","j'irai","j'allais"], 0, "\"Aller\" es un verbo de movimiento, por eso el passé composé se forma con \"être\": je suis allé(e)."],
       ["mcq", "¿Qué auxiliar se usa con \"manger\" en el passé composé?", ["Avoir","Être","Aller","Faire"], 0, "La mayoría de los verbos, incluido \"manger\", usan \"avoir\" como auxiliar en el passé composé."],
-      ["translate", "Traduce al francés: \"What did you do last night?\"", ["Qu'est-ce que tu as fait hier soir ?","Qu'est-ce que tu fais maintenant ?","Qu'est-ce que tu feras demain ?","Qu'est-ce que tu fais toujours ?"], 0, "\"Qu'est-ce que tu as fait\" usa el passé composé de \"faire\" para preguntar por una acción terminada."],
-      ["mcq", "¿Cómo se dice \"last week\" en francés?", ["La semaine dernière","Cette semaine","La semaine prochaine","Tous les jours"], 0, "La semaine dernière = last week. Cette semaine = this week."],
-      ["arrange", "Ordena: [une / j'ai / pomme / mangé]", ["J'ai mangé une pomme","Une j'ai mangé pomme","Pomme une j'ai mangé","J'ai pomme mangé une"], 0, "\"J'ai mangé une pomme.\" = I ate an apple."],
+      ["translate", "Traduce al francés: \"¿Qué hiciste anoche?\"", ["Qu'est-ce que tu as fait hier soir ?","Qu'est-ce que tu fais maintenant ?","Qu'est-ce que tu feras demain ?","Qu'est-ce que tu fais toujours ?"], 0, "\"Qu'est-ce que tu as fait\" usa el passé composé de \"faire\" para preguntar por una acción terminada."],
+      ["mcq", "¿Cómo se dice \"la semana pasada\" en francés?", ["La semaine dernière","Cette semaine","La semaine prochaine","Tous les jours"], 0, "La semaine dernière = la semana pasada. Cette semaine = esta semana."],
+      ["arrange", "Ordena: [une / j'ai / pomme / mangé]", ["J'ai mangé une pomme","Une j'ai mangé pomme","Pomme une j'ai mangé","J'ai pomme mangé une"], 0, "\"J'ai mangé une pomme.\" = comí una manzana."],
     ]
   },
   {
@@ -282,7 +282,7 @@ window.LESSON_BANKS.FR = [
     ex:[
       ["mcq","Quelle phrase utilise correctement le passé composé et l'imparfait ?",["Pendant que nous marchions dans le parc, nous avons vu un accident.","Pendant que nous avons marché dans le parc, nous voyions un accident.","Pendant que nous marchions dans le parc, nous voyions un accident hier.","Nous avons marché dans le parc pendant que nous avons vu."],0,"Le contexte (marchions) va à l'imparfait ; l'action ponctuelle (avons vu) va au passé composé."],
       ["fill","Complète : \"Je ne ___ pas compte de l'heure qu'il était jusqu'à ce que j'ai regardé mon téléphone.\"",["me suis rendu","me rendais","me rends","rendais"],0,"\"Se rendre compte\" au passé composé pour une action ponctuelle : \"je me suis rendu compte\"."],
-      ["translate","Traduis : \"At first I was nervous, but eventually I enjoyed the experience.\"",["Au début j'étais nerveux, mais finalement j'ai apprécié l'expérience.","Au début j'ai été nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'ai apprécié de l'expérience."],0,"L'état d'esprit de fond va à l'imparfait (\"j'étais\") ; l'action complète va au passé composé (\"j'ai apprécié\")."],
+      ["translate","Traduis : \"Al principio estaba nervioso, pero al final disfruté la experiencia.\"",["Au début j'étais nerveux, mais finalement j'ai apprécié l'expérience.","Au début j'ai été nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'appréciais l'expérience.","Au début j'étais nerveux, mais finalement j'ai apprécié de l'expérience."],0,"L'état d'esprit de fond va à l'imparfait (\"j'étais\") ; l'action complète va au passé composé (\"j'ai apprécié\")."],
       ["writing","Écris une histoire de 80-100 mots sur un projet qui a changé de façon inattendue.",[],["au début","mais","finalement"],"Vérifie que chaque partie fait avancer l'histoire et que les temps sont cohérents.","Un court voyage qui ne s'est pas passé comme prévu."],
     ["mcq","¿Cómo se dice \"al principio\" en francés?",["se rendre compte","au début","de façon inattendue","finalement"],1,"\"al principio\" se dice \"au début\" en francés."],
     ["mcq","¿Cómo se dice \"con el tiempo\" en francés?",["se rendre compte","de façon inattendue","finalement","au début"],2,"\"con el tiempo\" se dice \"finalement\" en francés."],
@@ -328,7 +328,7 @@ window.LESSON_BANKS.FR = [
     ex:[
       ["mcq","Quelle phrase exprime un projet déjà décidé ?",["Je vais commencer un cours d'italien en septembre.","Je commencerai un cours si j'ai le temps.","Je pense que je commencerai un cours.","Je commençais un cours l'année dernière."],0,"\"Aller + infinitif\" s'utilise pour les projets déjà décidés."],
       ["fill","Complète : \"Dès que je ___ le rapport, je te l'envoie.\"",["termine","termines","terminerai","terminais"],0,"Après \"dès que\" pour une action future proche, le présent est courant en français."],
-      ["translate","Traduis : \"As soon as I finish the project, I'll call you.\"",["Dès que je finis le projet, je t'appellerai.","Quand je finissais le projet, je t'appelle.","Dès que je finirai le projet, je t'appelais.","Si je finis le projet, je t'appellerai peut-être."],0,"\"Dès que\" + présent introduit une condition future proche."],
+      ["translate","Traduis : \"En cuanto termine el proyecto, te llamaré.\"",["Dès que je finis le projet, je t'appellerai.","Quand je finissais le projet, je t'appelle.","Dès que je finirai le projet, je t'appelais.","Si je finis le projet, je t'appellerai peut-être."],0,"\"Dès que\" + présent introduit une condition future proche."],
       ["writing","Écris 45-60 mots sur tes projets pour l'année prochaine. Utilise au moins deux expressions de futur.",[],["j'ai l'intention","dès que","il est possible"],"Combine au moins deux façons de parler du futur et justifie un projet.","Tu racontes tes projets à un ami."],
     ["mcq","¿Cómo se dice \"tengo la intención de\" en francés?",["j'ai l'intention de","dès que je peux","bientôt","il est possible que"],0,"\"tengo la intención de\" se dice \"j'ai l'intention de\" en francés."],
     ["mcq","¿Cómo se dice \"pronto\" en francés?",["dès que je peux","il est possible que","bientôt","j'ai l'intention de"],2,"\"pronto\" se dice \"bientôt\" en francés."],
@@ -351,7 +351,7 @@ window.LESSON_BANKS.FR = [
     ex:[
       ["mcq","Quelle phrase est une plainte formelle et polie ?",["Je voudrais savoir pourquoi le colis est arrivé avec une semaine de retard.","C'est un désastre total !","Votre entreprise ne fait jamais rien de bien.","Je ne compte rien payer."],0,"Formule la plainte de façon indirecte et respectueuse, sans perdre en clarté."],
       ["fill","Complète : \"___-vous m'envoyer une copie de la facture, s'il vous plaît ?\"",["Pourriez","Pouvez","A pu","Peux"],0,"\"Pourriez\" au conditionnel adoucit la demande et la rend plus formelle."],
-      ["translate","Traduis : \"I would like to file a complaint about the service.\"",["Je voudrais déposer une plainte concernant le service.","Je veux plaindre le service.","J'aime déposer une plainte du service.","Je déposerais une plainte le service."],0,"\"Je voudrais\" + infinitif est la formule standard de politesse."],
+      ["translate","Traduis : \"Me gustaría presentar una queja sobre el servicio.\"",["Je voudrais déposer une plainte concernant le service.","Je veux plaindre le service.","J'aime déposer une plainte du service.","Je déposerais une plainte le service."],0,"\"Je voudrais\" + infinitif est la formule standard de politesse."],
       ["writing","Écris un e-mail de plainte de 50-70 mots sur une commande arrivée incomplète. Utilise le conditionnel de politesse.",[],["je voudrais","pourriez-vous","je regrette"],"Explique le problème, formule une demande claire et termine poliment.","Une commande en ligne est arrivée avec deux articles manquants."],
     ["mcq","¿Cómo se dice \"me gustaría\" en francés?",["pourriez-vous...?","déposer une plainte","je regrette de vous informer","je voudrais"],3,"\"me gustaría\" se dice \"je voudrais\" en francés."],
     ["mcq","¿Cómo se dice \"¿podrías...?\" en francés?",["je voudrais","pourriez-vous...?","je regrette de vous informer","déposer une plainte"],1,"\"¿podrías...?\" se dice \"pourriez-vous...?\" en francés."],
@@ -652,7 +652,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle reformulation garde le mieux le sens de « Les données sont suggestives, non concluantes » ?",["Les données vont dans un sens, mais ne suffisent pas pour conclure définitivement.","Les données prouvent la conclusion sans aucun doute.","Aucune donnée n'est disponible sur le sujet.","La conclusion est suggestive, mais les données sont définitives."],0,"Conserve la distinction entre indice et preuve concluante."],
       ["fill","Complète l'inversion : « En aucun cas ces résultats ne ___ être considérés comme définitifs. »",["sauraient","sauraient-ils","saurait","sauront"],0,"Le verbe s'accorde avec le sujet pluriel 'ces résultats' : ne sauraient être."],
       ["mcq","Dans « Cette proposition n'est pas sans risque », quelle est la fonction de la litote ?",["Affirmer avec nuance que la proposition comporte bien un risque.","Nier totalement que la proposition comporte un risque.","Affirmer que la proposition est totalement sûre.","N'apporter aucun sens supplémentaire."],0,"« N'est pas sans » nie le contraire pour affirmer quelque chose avec prudence."],
-      ["translate","Traduis : « By no means should this decision be treated as final. »",["En aucun cas cette décision ne devrait être considérée comme définitive.","Cette décision est définitive en aucun cas.","Devrait être considérée en aucun cas cette décision.","Cette décision en aucun cas définitive devrait être."],0,"« En aucun cas » + inversion est l'équivalent soutenu de « by no means »."],
+      ["translate","Traduis : « De ninguna manera debe considerarse esta decisión como definitiva. »",["En aucun cas cette décision ne devrait être considérée comme définitive.","Cette décision est définitive en aucun cas.","Devrait être considérée en aucun cas cette décision.","Cette décision en aucun cas définitive devrait être."],0,"« En aucun cas » + inversion est l'équivalent soutenu de « de ninguna manera »."],
       ["writing","Rédige 60-80 mots sur une décision d'entreprise controversée : utilise au moins une inversion emphatique ('en aucun cas'/'à aucun moment') et une litote.",[],["en aucun cas","n'est pas sans","à aucun moment"],"Le niveau C2 combine précision argumentative et procédés rhétoriques de nuance.","Chronique d'opinion pour une revue spécialisée."],
     ["mcq","¿Cómo se dice \"de ninguna manera\" en francés?",["un présupposé tacite","être en deçà de","en aucun cas","nuancer une affirmation"],2,"\"de ninguna manera\" se dice \"en aucun cas\" en francés."],
     ]
@@ -723,7 +723,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on \"Wednesday\" en français ?",["Mercredi","Mardi","Jeudi","Vendredi"],0,"\"Mercredi\" est le troisième jour de la semaine en français."],
       ["mcq","Quelle est la bonne façon de demander la date d'aujourd'hui ?",["Quel jour sommes-nous aujourd'hui ?","Quelle heure est-il ?","Quel âge as-tu ?","Où habites-tu ?"],0,"\"Quel jour sommes-nous ?\" sert à demander le jour ou la date."],
       ["fill","Complète : \"Mon anniversaire est ___ 10 mars.\"",["le","la","en","les"],0,"Avec une date précise, on utilise \"le\" : \"le 10 mars\"."],
-      ["translate","Traduis : \"Today is Monday.\"",["Aujourd'hui, c'est lundi.","Aujourd'hui, c'est mardi.","Hier, c'était lundi.","Aujourd'hui, c'est un lundi."],0,"\"Today is Monday\" = \"Aujourd'hui, c'est lundi\", sans article devant le jour."],
+      ["translate","Traduis : \"Hoy es lunes.\"",["Aujourd'hui, c'est lundi.","Aujourd'hui, c'est mardi.","Hier, c'était lundi.","Aujourd'hui, c'est un lundi."],0,"\"Hoy es lunes\" = \"Aujourd'hui, c'est lundi\", sans article devant le jour."],
       ["arrange","Remets dans l'ordre : [salle / vais / je / lundi / la / à / de sport / le]",["Je vais à la salle de sport le lundi","Le lundi vais je à la salle de sport","À la salle de sport je vais le lundi","Je le lundi vais à la salle de sport"],0,"Sujet + verbe + complément + \"le lundi\" : \"Je vais à la salle de sport le lundi.\""],
       ["writing","Écris 3 phrases (20-30 mots) en français sur ta semaine : quel jour on est, quand est ton anniversaire, et ce que tu fais un jour précis.",[],["aujourd'hui","anniversaire","le"],"Inclus au moins un jour de la semaine et un mois. Vérifie l'usage de \"le\"."]
     ]
@@ -747,7 +747,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Tu veux aller au musée. Que demandes-tu ?",["Comment est-ce que je vais au musée ?","Quelle heure est le musée ?","À qui est le musée ?","Combien coûte le bus ?"],0,"\"Comment est-ce que je vais à...?\" est la question standard pour demander son chemin."],
       ["mcq","Quelqu'un te dit : \"Continuez tout droit et tournez à gauche sur la place.\" Que dois-tu faire en premier ?",["Marcher tout droit.","Tourner à droite.","Prendre le bus.","Redemander."],0,"\"Continuez tout droit\" est la première instruction ; le virage vient après."],
       ["fill","Complète : \"La gare ___ à deux rues d'ici.\"",["est","es","a","fait"],0,"\"Est\" s'accorde avec le sujet singulier \"la gare\" : \"La gare est à deux rues d'ici.\""],
-      ["translate","Traduis : \"Turn right at the traffic light.\"",["Tournez à droite au feu.","Tournez à gauche sur la place.","Continuez tout droit au feu.","Arrêtez-vous au feu."],0,"\"Turn right\" = \"Tournez à droite\" ; \"at the traffic light\" = \"au feu\"."],
+      ["translate","Traduis : \"Gire a la derecha en el semáforo.\"",["Tournez à droite au feu.","Tournez à gauche sur la place.","Continuez tout droit au feu.","Arrêtez-vous au feu."],0,"\"Gire a la derecha\" = \"Tournez à droite\" ; \"en el semáforo\" = \"au feu\"."],
       ["arrange","Remets dans l'ordre : [bus / prenez / le / à / l'arrêt]",["Prenez le bus à l'arrêt","Le bus prenez à l'arrêt","À l'arrêt prenez le bus","Prenez à l'arrêt le bus"],0,"Verbe + objet + complément de lieu : \"Prenez le bus à l'arrêt.\""],
       ["speaking","Explique en français, en 40-60 mots, comment aller de chez toi à un endroit proche. Utilise au moins deux indications et un moyen de transport.",[],["tournez","tout droit","minutes"],"Organise l'explication dans l'ordre : d'abord, ensuite, enfin."]
     ]
@@ -772,7 +772,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","En entretien, on te demande : \"Que faites-vous dans la vie ?\". Quelle est une réponse appropriée ?",["Je travaille comme graphiste dans une agence.","Oui, merci, très bien.","J'ai vingt-cinq ans.","J'habite au centre-ville."],0,"\"Que faites-vous dans la vie ?\" demande ta profession ou ton métier."],
       ["mcq","Quelle réponse décrit le mieux un point fort de façon professionnelle ?",["Je suis doué pour organiser des projets et respecter les délais.","Je suis le meilleur de tous, sans aucun doute.","Je n'ai aucun point faible.","Je travaille quand j'en ai envie."],0,"Une bonne réponse est précise et vérifiable, sans exagération."],
       ["fill","Complète : \"J'___ travaillé dans la vente pendant deux ans.\"",["ai","es","est","suis"],0,"\"J'ai travaillé\" (passé composé) décrit une expérience passée pertinente aujourd'hui."],
-      ["translate","Traduis : \"I have experience working in a team.\"",["J'ai de l'expérience en travail d'équipe.","J'ai expérience travail équipe.","Équipe j'ai de l'expérience travail.","J'ai de l'expérience travailler équipe est."],0,"\"I have experience working in a team\" = \"J'ai de l'expérience en travail d'équipe.\""],
+      ["translate","Traduis : \"Tengo experiencia trabajando en equipo.\"",["J'ai de l'expérience en travail d'équipe.","J'ai expérience travail équipe.","Équipe j'ai de l'expérience travail.","J'ai de l'expérience travailler équipe est."],0,"\"Tengo experiencia trabajando en equipo\" = \"J'ai de l'expérience en travail d'équipe.\""],
       ["arrange","Remets dans l'ordre : [travailler / équipe / en / j'aime]",["J'aime travailler en équipe","Aime j'travailler en équipe","En équipe j'aime travailler","Travailler j'aime en équipe"],0,"\"J'aime\" + infinitif : \"J'aime travailler en équipe.\""],
       ["writing","Écris en français une réponse d'entretien de 45-65 mots à la question \"Pourquoi voulez-vous ce poste ?\". Mentionne ton expérience, un point fort et ta motivation.",[],["expérience","parce que","j'aimerais"],"Structure : expérience pertinente + point fort + motivation concrète.","Entretien pour un poste dans le service client."]
     ]
@@ -797,7 +797,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases est un fait vérifiable, et non une opinion ?",["Le rapport montre que le chômage a baissé de 2 % ce trimestre.","Cette politique est clairement un désastre.","Tout le monde sait que cette mesure ne marchera pas.","Il est évident que le gouvernement a tort."],0,"Un fait vérifiable cite une source et une donnée concrète, sans jugement de valeur."],
       ["mcq","Titre : « Chaos total ! La ville au bord de la crise après une nouvelle règle. » Que suggère le style du titre ?",["Il vise un impact émotionnel plutôt qu'une information précise.","C'est un résumé neutre et objectif des faits.","Il cite une source officielle vérifiable.","Il ne contient aucun jugement de valeur."],0,"Le langage exagéré (\"chaos total\", \"au bord de la crise\") est typique du sensationnalisme."],
       ["fill","Complète : \"___ des sources proches du projet, le lancement sera retardé d'un mois.\"",["Selon","Bien que","Parce que","Cependant"],0,"\"Selon\" introduit la source d'une information, signalant qu'elle n'est pas confirmée par le média lui-même."],
-      ["translate","Traduis : \"It is important to cross-check information before sharing it.\"",["Il est important de recouper les informations avant de les partager.","Il est important de partager les informations avant de les vérifier.","Il est important information partager important.","Recouper c'est partager des informations importantes avant."],0,"\"Cross-check information\" = \"recouper les informations\" ; \"before sharing it\" = \"avant de les partager.\""],
+      ["translate","Traduis : \"Es importante contrastar la información antes de compartirla.\"",["Il est important de recouper les informations avant de les partager.","Il est important de partager les informations avant de les vérifier.","Il est important information partager important.","Recouper c'est partager des informations importantes avant."],0,"\"Cross-check information\" = \"recouper les informations\" ; \"antes de compartirla\" = \"avant de les partager.\""],
       ["mcq","Un article dit : « Les experts avertissent que le chiffre pourrait être surestimé. » Quel degré de certitude cela transmet-il ?",["Une possibilité raisonnable, pas une certitude absolue.","Une certitude totale et vérifiée.","Une opinion personnelle du journaliste sans aucune source.","Un fait déjà prouvé avec des données définitives."],0,"\"Pourrait être\" indique une probabilité, pas une affirmation catégorique."],
       ["writing","Écris en français une analyse de 55-75 mots sur une nouvelle (réelle ou inventée) : identifie un fait vérifiable, une opinion, et évalue la fiabilité de la source.",[],["selon","fait","opinion"],"Sépare clairement ce qui est une donnée citée et ce qui est un jugement de l'auteur."]
     ]
@@ -820,7 +820,7 @@ window.LESSON_BANKS.FR = [
     ex:[
       ["mcq","\"Cette voiture m'a coûté les yeux de la tête.\" Que signifie l'expression ?",["Elle était très chère.","Elle était très bon marché.","La voiture a été endommagée.","Elle a eu un accident."],0,"\"Coûter les yeux de la tête\" signifie qu'une chose avait un prix très élevé."],
       ["mcq","Quelqu'un dit : \"Je suis entre le marteau et l'enclume avec cette décision.\" Que transmet cette phrase ?",["La personne fait face à deux options difficiles, sans issue confortable.","La personne se sent totalement sereine à propos de sa décision.","La personne n'a aucune option à considérer.","La personne a déjà pris sa décision sans aucun doute."],0,"L'expression décrit une situation sans option clairement bonne."],
-      ["fill","Complète : \"Arrête de te ___ de moi, je sais que ce n'est pas vrai.\"",["moquer","rire","jouer","amuser"],0,"\"Se moquer de quelqu'un\" (dans ce sens léger) équivaut à \"to pull someone's leg\"."],
+      ["fill","Complète : \"Arrête de te ___ de moi, je sais que ce n'est pas vrai.\"",["moquer","rire","jouer","amuser"],0,"\"Se moquer de quelqu'un\" (dans ce sens léger) équivaut à \"tomarle el pelo a alguien\"."],
       ["translate","Traduis de façon naturelle (pas littérale) : \"No tiene pelos en la lengua.\"",["Elle ne mâche pas ses mots.","Elle n'a pas de poils sur la langue.","Sa langue n'a pas de poils.","Elle jamais mâche mots pas."],0,"\"No tener pelos en la lengua\" équivaut à \"ne pas mâcher ses mots\" en français."],
       ["mcq","Dans quel contexte \"se prendre en main\" conviendrait-il le mieux ?",["Encourager quelqu'un à devenir plus organisé et déterminé.","Expliquer comment charger un appareil électronique.","Décrire la météo d'une ville.","S'excuser formellement."],0,"\"Se prendre en main\" est une expression familière pour encourager quelqu'un à s'organiser."],
       ["speaking","Choisis une expression française de cette leçon et explique en 45-65 mots dans quelle situation tu l'utiliserais, et son sens littéral face à son sens réel.",[],["signifie","situation","littéralement"],"Distingue clairement le sens littéral (parfois absurde) du sens idiomatique réel."]
@@ -870,7 +870,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Où dors-tu normalement ?",["Dans la chambre.","Dans la cuisine.","Dans la salle de bain.","Dans le salon."],0,"\"La chambre\" est la pièce où l'on dort."],
       ["mcq","Quelle est la bonne façon de demander où se trouve quelque chose ?",["Où est la cuisine ?","Qu'est-ce que la cuisine ?","Quand est la cuisine ?","Qui est la cuisine ?"],0,"\"Où est... ?\" sert à demander où se trouve quelque chose."],
       ["fill","Complète : \"Le canapé est ___ la fenêtre.\"",["à côté de","sur","sous","derrière"],0,"\"À côté de\" indique que deux choses sont l'une près de l'autre."],
-      ["translate","Traduis : \"The bed is in the bedroom.\"",["Le lit est dans la chambre.","Le lit est dans la cuisine.","La chaise est dans la chambre.","Le lit est la chambre."],0,"\"The bed is in the bedroom\" = \"Le lit est dans la chambre.\""],
+      ["translate","Traduis : \"La cama está en el dormitorio.\"",["Le lit est dans la chambre.","Le lit est dans la cuisine.","La chaise est dans la chambre.","Le lit est la chambre."],0,"\"La cama está en el dormitorio\" = \"Le lit est dans la chambre.\""],
       ["arrange","Remets dans l'ordre : [cuisine / table / a / la / une / dans / il / y]",["Il y a une table dans la cuisine","Dans la cuisine il y a une table","La cuisine il y a une table dans","Une table il y a dans la cuisine"],0,"\"Il y a\" + objet + \"dans\" + lieu : \"Il y a une table dans la cuisine.\""],
       ["writing","Décris en 20-30 mots ta maison ou ton appartement en français : quelles pièces il y a et quels meubles se trouvent dans l'une d'elles.",[],["chambre","il y a"],"Mentionne au moins deux pièces et deux meubles."]
     ]
@@ -894,7 +894,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Tu as mal à la tête. Que dis-tu ?",["J'ai mal à la tête.","J'aime ma tête.","J'ai ma tête.","Je suis ma tête."],0,"\"J'ai mal à la tête\" décrit le symptôme avec \"avoir mal à\"."],
       ["mcq","À la pharmacie, que demandes-tu pour obtenir un médicament ?",["Avez-vous quelque chose contre le mal de tête ?","Où est le mal de tête ?","Quand est le mal de tête ?","Pourquoi avez-vous mal à la tête ?"],0,"\"Avez-vous quelque chose contre... ?\" est la façon naturelle de demander un médicament."],
       ["fill","Complète : \"J'ai mal ___ pieds après avoir couru.\"",["aux","au","à la","à l'"],0,"\"Pieds\" est pluriel, donc on utilise \"aux\" : \"J'ai mal aux pieds.\""],
-      ["translate","Traduis : \"I have a fever and a cough.\"",["J'ai de la fièvre et je tousse.","J'ai fièvre et tousse.","Je suis fièvre et je tousse.","J'ai mal fièvre et tousse."],0,"\"I have a fever and a cough\" = \"J'ai de la fièvre et je tousse.\""],
+      ["translate","Traduis : \"Tengo fiebre y tos.\"",["J'ai de la fièvre et je tousse.","J'ai fièvre et tousse.","Je suis fièvre et je tousse.","J'ai mal fièvre et tousse."],0,"\"Tengo fiebre y tos\" = \"J'ai de la fièvre et je tousse.\""],
       ["arrange","Remets dans l'ordre : [huit / heures / comprimé / toutes / un / prenez / les]",["Prenez un comprimé toutes les huit heures","Toutes les huit heures prenez un comprimé","Un comprimé prenez toutes les huit heures","Prenez toutes les huit heures un comprimé"],0,"Impératif + objet + fréquence : \"Prenez un comprimé toutes les huit heures.\""],
       ["speaking","Décris en français, en 40-60 mots, une fois où tu t'es senti(e) mal : quels symptômes tu avais et ce que tu as fait.",[],["j'avais mal","j'avais","je suis allé(e)"],"Utilise au moins deux symptômes et une action que tu as prise pour te sentir mieux."]
     ]
@@ -918,7 +918,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quel est un avantage réel des réseaux sociaux ?",["Ils aident à rester en contact avec des amis éloignés.","Ils disent toujours toute la vérité.","Ils n'affectent jamais la vie privée.","Ils ne nécessitent aucune connexion internet."],0,"Rester en contact avec des personnes éloignées est un avantage concret et vérifiable."],
       ["mcq","Quelle phrase exprime une préoccupation pour la vie privée ?",["Je m'inquiète de la façon dont ils utilisent mes données personnelles.","J'adore tout partager sans réfléchir.","Je n'utilise jamais internet.","Je publie des photos toutes les cinq minutes."],0,"La préoccupation pour les données personnelles est un thème central de la vie privée numérique."],
       ["fill","Complète : \"___ un côté j'aime être connecté, de l'autre j'ai besoin de me déconnecter parfois.\"",["D'","En","De","À"],0,"\"D'un côté... de l'autre\" est la structure pour comparer deux idées."],
-      ["translate","Traduis : \"I try not to depend on my phone too much.\"",["J'essaie de ne pas trop dépendre de mon téléphone.","J'essaie de ne pas dépendre beaucoup mon téléphone.","Je n'essaie pas dépendre de mon téléphone.","Dépendre de mon téléphone j'essaie de ne pas."],0,"\"Dépendre de\" + nom : \"dépendre de mon téléphone\"."],
+      ["translate","Traduis : \"Intento no depender demasiado de mi teléfono.\"",["J'essaie de ne pas trop dépendre de mon téléphone.","J'essaie de ne pas dépendre beaucoup mon téléphone.","Je n'essaie pas dépendre de mon téléphone.","Dépendre de mon téléphone j'essaie de ne pas."],0,"\"Dépendre de\" + nom : \"dépendre de mon téléphone\"."],
       ["arrange","Remets dans l'ordre : [contact / m'aide / rester / à / en / avec / des / amis / ça]",["Ça m'aide à rester en contact avec des amis","M'aide ça à rester en contact avec des amis","À rester m'aide ça en contact avec des amis","Ça m'aide en contact à rester avec des amis"],0,"\"Ça m'aide à\" + infinitif : \"Ça m'aide à rester en contact avec des amis.\""],
       ["writing","Écris en français 45-65 mots sur ta relation avec les réseaux sociaux : un avantage, un risque et ce que tu fais pour équilibrer les deux.",[],["d'un côté","de l'autre","vie privée"],"Structure : avantage + risque + une action concrète pour équilibrer les deux."]
     ]
@@ -942,7 +942,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle phrase présente un argument de façon équilibrée ?",["Certains soutiennent que..., alors que d'autres affirment que...","Tout le monde sait que j'ai raison.","Il est évident que l'autre position a tort.","Il n'y a aucun argument contraire."],0,"Présenter les deux côtés avant de donner son avis est propre à un argument équilibré au niveau B2."],
       ["mcq","Un dilemme éthique typique est « le bien commun face à l'intérêt individuel ». Que signifie cela ?",["Un conflit entre ce qui profite à tous et ce qui profite à une seule personne.","Une décision qui n'affecte personne.","Un sujet sans aucune importance sociale.","Un choix purement économique sans aucune éthique."],0,"Le dilemme surgit quand le meilleur pour la communauté ne coïncide pas avec le meilleur pour un individu."],
       ["fill","Complète : \"___ un point de vue éthique, la décision est discutable.\"",["D'","Pour","Par","Avec"],0,"\"D'un point de vue éthique\" est l'expression standard pour introduire une perspective."],
-      ["translate","Traduis : \"There is no single answer to this dilemma.\"",["Il n'y a pas de réponse unique à ce dilemme.","Il n'y a pas une réponse unique ce dilemme.","Ce dilemme il n'y a pas de réponse unique.","Une réponse unique il n'y a pas pour ce dilemme."],0,"\"There is no single answer\" = \"Il n'y a pas de réponse unique.\""],
+      ["translate","Traduis : \"No hay una única respuesta a este dilema.\"",["Il n'y a pas de réponse unique à ce dilemme.","Il n'y a pas une réponse unique ce dilemme.","Ce dilemme il n'y a pas de réponse unique.","Une réponse unique il n'y a pas pour ce dilemme."],0,"\"No hay una única respuesta\" = \"Il n'y a pas de réponse unique.\""],
       ["mcq","Laquelle de ces phrases justifie une décision de façon raisonnée, non émotionnelle ?",["Cette décision a été prise parce que les bénéfices dépassaient les risques à long terme.","Cette décision a été prise comme ça, un point c'est tout.","Cette décision a été prise parce que tout le monde le voulait sans réfléchir.","Cette décision a été prise parce que c'est ce qu'on a toujours fait."],0,"Une justification raisonnée compare explicitement bénéfices et risques."],
       ["writing","Choisis un dilemme éthique quotidien (par exemple, dire un pieux mensonge) et écris en français 55-75 mots présentant un argument pour, un argument contre et ta conclusion nuancée.",[],["pour","contre","cependant"],"Structure : argument pour + argument contre + conclusion nuancée, non absolue."]
     ]
@@ -967,7 +967,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces options est une paraphrase correcte, pas une copie déguisée ?",["Selon la recherche, l'activité physique aide à diminuer les niveaux de stress.","L'étude montre que l'exercice réduit totalement le stress.","L'étude montre en effet que l'exercice réduit le stress.","Montre l'étude que réduit le stress l'exercice."],0,"Une bonne paraphrase change la structure et le vocabulaire, pas seulement un ou deux mots."],
       ["mcq","Quel verbe transmet la plus grande distance critique vis-à-vis de l'auteur cité ?",["L'auteur suggère que...","L'auteur prouve catégoriquement que...","L'auteur démontre sans aucun doute que...","L'auteur confirme définitivement que..."],0,"\"Suggère\" indique une affirmation plus prudente, propre à une analyse critique rigoureuse."],
       ["fill","Complète : \"___ le souligne le rapport, la mesure a eu un impact limité.\"",["Comme","Parce que","Bien que","Cependant"],0,"\"Comme le souligne le rapport\" introduit une idée attribuée à une source de façon fluide."],
-      ["translate","Traduis : \"According to the author, the results are inconclusive.\"",["Selon l'auteur, les résultats sont peu concluants.","Selon l'auteur, les résultats sont concluants.","L'auteur selon résultats peu concluants.","Les résultats selon l'auteur sont concluants pas."],0,"\"According to the author\" = \"Selon l'auteur\" ; \"inconclusive\" = \"peu concluants\"."],
+      ["translate","Traduis : \"Según el autor, los resultados no son concluyentes.\"",["Selon l'auteur, les résultats sont peu concluants.","Selon l'auteur, les résultats sont concluants.","L'auteur selon résultats peu concluants.","Les résultats selon l'auteur sont concluants pas."],0,"\"Según el autor\" = \"Selon l'auteur\" ; \"no concluyente\" = \"peu concluants\"."],
       ["mcq","Laquelle de ces pratiques constitue un plagiat académique ?",["Copier une phrase textuelle sans guillemets ni référence à la source.","Citer textuellement entre guillemets avec sa référence.","Paraphraser une idée et citer la source originale.","Résumer un article en mentionnant d'où il provient."],0,"Copier sans guillemets ni référence, même une seule phrase, est considéré comme du plagiat."],
       ["writing","Écris un paragraphe académique de 55-75 mots en français qui paraphrase (sans copier) cette idée : « L'accès à internet a profondément changé la façon dont les gens s'informent. » Cite la source comme (Auteur, 2023).",[],["selon","soutient","(Auteur, 2023)"],"Ne copie pas la phrase originale : change la structure et le vocabulaire tout en conservant l'idée."]
     ]
@@ -991,7 +991,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","\"Tu ne devrais pas écouter son argument économique : de toute façon, c'est quelqu'un de désagréable.\" Quel sophisme est-ce ?",["Attaque personnelle (ad hominem) : elle discrédite la personne, pas l'argument.","Fausse dichotomie : elle réduit les options à seulement deux.","Pente glissante : elle prédit une chaîne de conséquences.","Généralisation hâtive à partir d'un seul cas."],0,"L'ad hominem attaque l'émetteur de l'argument plutôt que de réfuter l'argument lui-même."],
       ["mcq","\"Soit tu soutiens cette loi exactement telle quelle, soit la sécurité de personne ne t'importe.\" Quel sophisme est-ce ?",["Fausse dichotomie : elle présente seulement deux options alors que plus de nuances sont possibles.","Une attaque personnelle contre l'interlocuteur.","Un appel à l'émotion sans aucun argument logique.","Une généralisation basée sur un seul cas isolé."],0,"La fausse dichotomie cache des options intermédiaires valides, en présentant seulement deux extrêmes."],
       ["fill","\"Si nous permettons cette exception, tout le système s'effondrera bientôt.\" Cette phrase est un exemple de ___.",["pente glissante","attaque personnelle","fausse dichotomie","appel à l'autorité"],0,"La pente glissante suppose, sans preuve suffisante, une chaîne inévitable de conséquences négatives."],
-      ["translate","Traduis avec précision technique : \"This is a classic false dichotomy.\"",["C'est une fausse dichotomie classique.","C'est une dichotomie fausse classique est.","Classique cette fausse dichotomie est.","Cette fausse est dichotomie classique."],0,"\"False dichotomy\" se traduit techniquement par \"fausse dichotomie\"."],
+      ["translate","Traduis avec précision technique : \"Esta es una falsa dicotomía clásica.\"",["C'est une fausse dichotomie classique.","C'est une dichotomie fausse classique est.","Classique cette fausse dichotomie est.","Cette fausse est dichotomie classique."],0,"\"Falsa dicotomía\" se traduit techniquement par \"fausse dichotomie\"."],
       ["mcq","Une publicité montre des images d'enfants qui pleurent pour vendre un produit de charité sans donner de données concrètes sur son impact. Quelle stratégie utilise-t-elle principalement ?",["Un appel à l'émotion plutôt qu'aux faits vérifiables.","Un argument logique rigoureux basé sur des données.","Une généralisation statistique précise.","Une citation d'une source académique fiable."],0,"Utiliser des images émotionnelles sans données concrètes, c'est faire appel à l'émotion plutôt qu'à la preuve."],
       ["writing","Identifie et explique en français, en 55-75 mots, un sophisme logique que tu as entendu dans un débat, une publicité ou une discussion récente (réelle ou inventée). Nomme le sophisme et explique pourquoi l'argument est trompeur malgré son apparence convaincante.",[],["sophisme","parce que","bien que cela semble"],"Nomme explicitement le type de sophisme (ad hominem, fausse dichotomie, pente glissante, etc.) et justifie ton identification."]
     ]
@@ -1015,7 +1015,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment demandes-tu à quelqu'un comment il se sent ?",["Comment tu te sens ?","Comment tu t'appelles ?","Où habites-tu ?","Quel âge as-tu ?"],0,"\"Comment tu te sens ?\" demande l'état émotionnel de quelqu'un."],
       ["mcq","Tu as beaucoup de travail et peu de repos. Comment te sens-tu ?",["Je suis fatigué(e).","Je suis content(e).","J'ai faim.","J'ai froid."],0,"Beaucoup de travail et peu de repos mènent typiquement à se sentir \"fatigué(e)\"."],
       ["fill","Complète : \"Je ___ un peu nerveux avant l'examen.\"",["suis","es","ai","fais"],0,"Les émotions s'expriment avec \"être\" : \"Je suis un peu nerveux.\""],
-      ["translate","Traduis : \"Why are you sad?\"",["Pourquoi es-tu triste ?","Pourquoi être tu triste ?","Pourquoi tu as triste ?","Pourquoi fais-tu triste ?"],0,"\"Why are you sad?\" = \"Pourquoi es-tu triste ?\", avec \"être\" pour un état émotionnel."],
+      ["translate","Traduis : \"¿Por qué estás triste?\"",["Pourquoi es-tu triste ?","Pourquoi être tu triste ?","Pourquoi tu as triste ?","Pourquoi fais-tu triste ?"],0,"\"¿Por qué estás triste?\" = \"Pourquoi es-tu triste ?\", avec \"être\" pour un état émotionnel."],
       ["arrange","Remets dans l'ordre : [travail / fatiguée / après / je / suis / le]",["Je suis fatiguée après le travail","Après le travail je suis fatiguée","Fatiguée je suis après le travail","Je suis après le travail fatiguée"],0,"Sujet + \"suis\" + adjectif + complément de temps : \"Je suis fatiguée après le travail.\""],
       ["writing","Écris en français 20-30 mots décrivant comment tu te sens aujourd'hui et pourquoi. Utilise au moins deux émotions différentes.",[],["je suis","parce que","je me sens"],"Mentionne une raison concrète pour chaque émotion que tu décris."]
     ]
@@ -1039,7 +1039,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment demandes-tu les loisirs de quelqu'un ?",["Qu'est-ce que tu aimes faire pendant ton temps libre ?","Quelle heure est-il ?","Où travailles-tu ?","Combien de frères et sœurs as-tu ?"],0,"\"Qu'est-ce que tu aimes faire pendant ton temps libre ?\" demande spécifiquement les loisirs."],
       ["mcq","Laquelle de ces phrases décrit un projet futur proche ?",["Samedi je vais retrouver des amis.","Samedi j'ai retrouvé des amis.","Samedi je retrouve toujours des amis.","Samedi je retrouvais des amis."],0,"\"Aller\" + infinitif exprime un projet futur concret et proche."],
       ["fill","Complète : \"Ce week-end je ___ faire de la randonnée.\"",["vais","suis","ai","fais"],0,"\"Aller\" + infinitif : \"je vais faire de la randonnée\"."],
-      ["translate","Traduis : \"What plans do you have for the weekend?\"",["Quels sont tes plans pour le week-end ?","Quels sont tes plans es le week-end ?","Quels plans tu fais le week-end as ?","Pour le week-end quels plans es-tu ?"],0,"\"What plans do you have for the weekend?\" = \"Quels sont tes plans pour le week-end ?\""],
+      ["translate","Traduis : \"¿Qué planes tienes para el fin de semana?\"",["Quels sont tes plans pour le week-end ?","Quels sont tes plans es le week-end ?","Quels plans tu fais le week-end as ?","Pour le week-end quels plans es-tu ?"],0,"\"¿Qué planes tienes para el fin de semana?\" = \"Quels sont tes plans pour le week-end ?\""],
       ["arrange","Remets dans l'ordre : [instrument / jouer / d'un / j'aime]",["J'aime jouer d'un instrument","Aime j'jouer d'un instrument","D'un instrument j'aime jouer","Jouer j'aime d'un instrument"],0,"\"J'aime\" + infinitif : \"J'aime jouer d'un instrument.\""],
       ["speaking","Explique en français, en 40-60 mots, tes loisirs préférés et tes plans pour le prochain week-end.",[],["j'aime","je vais","retrouver"],"Mentionne au moins deux loisirs et un projet concret en utilisant \"je vais\"."]
     ]
@@ -1063,7 +1063,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces actions aide à réduire l'empreinte carbone ?",["Utiliser les transports en commun au lieu de la voiture.","Acheter plus de produits à usage unique.","Laisser les lumières allumées toute la journée.","Utiliser la voiture pour de très courts trajets."],0,"Les transports en commun réduisent les émissions individuelles de carbone."],
       ["mcq","Quelle phrase décrit correctement une conséquence future probable ?",["Si nous ne réduisons pas le plastique, la pollution augmentera.","Si nous ne réduisons pas le plastique, la pollution a augmenté.","Si nous ne réduisons pas le plastique, la pollution augmente hier.","Si nous ne réduisons pas le plastique, pollution augmenter."],0,"Le futur simple (\"augmentera\") exprime une conséquence probable d'une condition actuelle."],
       ["fill","Complète : \"Il est important d'___ l'eau, surtout en été.\"",["économiser","dépenser","jeter","acheter"],0,"\"Économiser l'eau\" est l'expression correcte pour réduire sa consommation."],
-      ["translate","Traduis : \"We should reduce the use of single-use products.\"",["Nous devrions réduire l'utilisation de produits à usage unique.","Nous devrions réduire l'utilisation de produit à usage unique.","Réduire nous devrions produits à usage unique l'utilisation.","Nous devrions utiliser produits à usage unique réduire."],0,"\"Single-use products\" = \"produits à usage unique\" ; \"we should reduce\" = \"nous devrions réduire\"."],
+      ["translate","Traduis : \"Deberíamos reducir el uso de productos desechables.\"",["Nous devrions réduire l'utilisation de produits à usage unique.","Nous devrions réduire l'utilisation de produit à usage unique.","Réduire nous devrions produits à usage unique l'utilisation.","Nous devrions utiliser produits à usage unique réduire."],0,"\"Productos desechables\" = \"produits à usage unique\" ; \"deberíamos reducir\" = \"nous devrions réduire\"."],
       ["arrange","Remets dans l'ordre : [recycler / important / est / le / verre / il / de]",["Il est important de recycler le verre","Le verre il est important de recycler","Important il est de recycler le verre","Il est de recycler important le verre"],0,"\"Il est important de\" + infinitif + objet : \"Il est important de recycler le verre.\""],
       ["writing","Écris en français 45-65 mots sur trois habitudes durables que tu pratiques ou aimerais commencer à pratiquer, et pourquoi elles sont importantes.",[],["recycler","économiser","empreinte carbone"],"Mentionne au moins trois habitudes concrètes et une raison pour chacune."]
     ]
@@ -1087,7 +1087,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases présente une position nuancée sur l'IA et l'emploi ?",["Ça dépend de la façon dont c'est mis en œuvre : ça peut automatiser des tâches mais aussi créer des emplois.","L'IA va détruire tous les emplois, sans exception.","L'IA n'affecte absolument pas l'emploi.","Il n'y a aucun doute sur l'avenir du travail."],0,"Une position nuancée reconnaît les deux effets possibles, sans absolus."],
       ["mcq","Que signifie \"automatiser des tâches répétitives\" ?",["Faire qu'une machine effectue des tâches qu'une personne faisait auparavant manuellement et de façon répétée.","Embaucher plus de personnes pour des tâches répétitives.","Éliminer complètement toutes les tâches d'une entreprise.","Augmenter le salaire de ceux qui font des tâches répétitives."],0,"Automatiser signifie qu'un système effectue la tâche à la place d'une personne."],
       ["fill","Complète : \"D'ici 2030, l'intelligence artificielle ___ changé de nombreux secteurs.\"",["aura","avait","a","aurait"],0,"Le futur antérieur (\"aura changé\") spécule sur quelque chose qui se sera probablement produit d'ici une date future."],
-      ["translate","Traduis : \"Some jobs will be automated, but new ones will also be created.\"",["Certains emplois seront automatisés, mais de nouveaux seront aussi créés.","Certains emplois automatiseront, mais nouveaux créeront aussi.","Seront automatisés certains emplois, mais nouveaux créeront.","Certains emplois seront automatisés, mais aussi nouveaux créés."],0,"Les deux propositions sont au futur simple : \"seront automatisés\" et \"seront créés\"."],
+      ["translate","Traduis : \"Algunos trabajos se automatizarán, pero también se crearán otros nuevos.\"",["Certains emplois seront automatisés, mais de nouveaux seront aussi créés.","Certains emplois automatiseront, mais nouveaux créeront aussi.","Seront automatisés certains emplois, mais nouveaux créeront.","Certains emplois seront automatisés, mais aussi nouveaux créés."],0,"Les deux propositions sont au futur simple : \"seront automatisés\" et \"seront créés\"."],
       ["mcq","Laquelle de ces affirmations montre une pensée critique, et non une opinion sans fondement ?",["L'impact de l'IA sur l'emploi dépendra du secteur et de la façon dont la transition est gérée.","L'IA est toujours bonne pour tout le monde, sans exception.","L'IA est toujours mauvaise pour tout le monde, sans exception.","Ça ne vaut pas la peine de penser à l'avenir du travail."],0,"Reconnaître que l'impact dépend de facteurs concrets (secteur, gestion) relève d'une pensée critique et nuancée."],
       ["writing","Écris en français 55-75 mots sur la façon dont tu penses que l'intelligence artificielle changera ton domaine de travail ou d'études dans les prochaines années. Inclus un aspect positif et un préoccupant.",[],["automatiser","dépend de","cependant"],"Évite les absolus : reconnais à la fois les avantages et les risques concrets."]
     ]
@@ -1111,7 +1111,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Une publicité utilise le mot \"foyer\" au lieu de \"maison\". Qu'obtient-elle ainsi ?",["Elle ajoute une connotation émotionnelle de chaleur et d'appartenance.","Elle change complètement le sens littéral.","Elle élimine toute interprétation émotionnelle.","Elle n'a aucun effet sur le message."],0,"\"Foyer\" a des connotations émotionnelles que \"maison\" ne transmet pas de la même façon."],
       ["mcq","« Plus que 3 en stock, achetez maintenant ! » Quelle technique de persuasion utilise cette phrase ?",["Créer un sentiment d'urgence pour motiver une décision rapide.","Faire appel exclusivement à des données techniques objectives.","Offrir une comparaison neutre avec d'autres produits.","Décrire le produit sans aucune pression."],0,"Mentionner un stock limité et l'urgence pousse à décider sans trop réfléchir."],
       ["fill","Complète : \"Cette publicité s'adresse à un public ___ très spécifique : les jeunes professionnels.\"",["cible","texte","auteur","lecteur"],0,"\"Public cible\" est l'expression standard pour désigner l'audience visée par un message."],
-      ["translate","Traduis : \"The slogan appeals to the desire to belong.\"",["Le slogan fait appel au désir d'appartenance.","Le slogan appel au désir d'appartenance.","Le désir d'appartenance fait appel au slogan.","Le slogan faire appel au désir d'appartenance."],0,"\"Appeals to\" = \"fait appel à\" ; \"the desire to belong\" = \"le désir d'appartenance\"."],
+      ["translate","Traduis : \"El eslogan apela al deseo de pertenecer.\"",["Le slogan fait appel au désir d'appartenance.","Le slogan appel au désir d'appartenance.","Le désir d'appartenance fait appel au slogan.","Le slogan faire appel au désir d'appartenance."],0,"\"Apela a\" = \"fait appel à\" ; \"el deseo de pertenecer\" = \"le désir d'appartenance\"."],
       ["mcq","Laquelle de ces expressions a une connotation plus positive que son synonyme plus neutre ?",["\"Exclusif\" face à \"limité\".","\"Produit\" face à \"article\".","\"Acheter\" face à \"acquérir\".","\"Publicité\" face à \"annonce\"."],0,"\"Exclusif\" ajoute une connotation de prestige et de distinction que \"limité\" ne transmet pas de la même façon."],
       ["writing","Choisis une publicité réelle ou inventée et écris en français 55-75 mots analysant : quelles connotations elle utilise, à quel public cible elle s'adresse et quelle technique de persuasion elle emploie.",[],["connotation","public cible","urgence"],"Identifie au moins un mot avec une connotation spécifique et une technique de persuasion concrète."]
     ]
@@ -1136,7 +1136,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Un politicien dit « ajustement budgétaire » au lieu de « coupe budgétaire ». Qu'obtient-il ainsi ?",["Il adoucit l'impact négatif de la mesure grâce à un euphémisme.","Il change complètement le sens de la mesure.","Il rend la mesure plus transparente et directe.","Il élimine toute interprétation négative possible."],0,"L'euphémisme adoucit la perception sans changer la réalité de la mesure."],
       ["mcq","« Nous évaluons toutes les options » dit face à une question directe. Quelle fonction remplit cette phrase ?",["Elle élude un engagement clair grâce à une ambiguïté stratégique.","Elle donne une réponse totalement transparente et spécifique.","Elle confirme exactement quelle décision sera prise.","Elle nie catégoriquement toute décision possible."],0,"Cette phrase évite de s'engager sur une position concrète, en gardant en apparence toutes les options ouvertes."],
       ["fill","Complète : \"Le gouvernement a annoncé un ___ budgétaire qui impliquait en réalité des coupes importantes.\"",["ajustement","aumentation","cadeau","prix"],0,"\"Ajustement budgétaire\" est l'euphémisme typique pour \"coupe\"."],
-      ["translate","Traduis avec précision : \"Politicians sometimes commit without fully committing.\"",["Les politiciens s'engagent parfois sans vraiment s'engager.","Les politiciens engagent parfois sans engager vraiment.","Parfois les politiciens vraiment s'engagent sans engager.","Les politiciens s'engagent parfois vraiment sans s'engager."],0,"\"Commit without fully committing\" = \"s'engager sans vraiment s'engager\", capturant l'ambiguïté intentionnelle."],
+      ["translate","Traduis avec précision : \"Los políticos a veces se comprometen sin comprometerse del todo.\"",["Les politiciens s'engagent parfois sans vraiment s'engager.","Les politiciens engagent parfois sans engager vraiment.","Parfois les politiciens vraiment s'engagent sans engager.","Les politiciens s'engagent parfois vraiment sans s'engager."],0,"\"Comprometerse sin comprometerse del todo\" = \"s'engager sans vraiment s'engager\", capturant l'ambiguïté intentionnelle."],
       ["mcq","Laquelle de ces phrases est un exemple clair d'ambiguïté stratégique ?",["Nous n'excluons aucune possibilité pour le moment.","Le budget sera réduit exactement de 12 % cette année.","La loi entrera en vigueur le 1er janvier, sans exception.","Je démissionnerai de mon poste la semaine prochaine."],0,"\"Nous n'excluons aucune possibilité\" n'engage à rien de concret, laissant toutes les portes ouvertes."],
       ["writing","Écris en français 55-75 mots analysant un euphémisme ou un cas d'ambiguïté stratégique que tu as observé dans un discours politique réel ou inventé. Explique quelle phrase directe il évite et pourquoi.",[],["euphémisme","au lieu de","évite de s'engager"],"Identifie la phrase exacte, le sens plus direct qu'elle remplace, et l'effet recherché sur l'audience."]
     ]
@@ -1160,7 +1160,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment demandes-tu le prix de quelque chose ?",["Combien ça coûte ?","Qu'est-ce que c'est ?","Où est-ce ?","Quand est-ce ?"],0,"\"Combien ça coûte ?\" est la question standard pour demander un prix."],
       ["mcq","Un produit à 5 euros est moins cher qu'un à 50 euros. Quel mot décrit celui à 5 euros ?",["Bon marché.","Cher.","Gratuit.","Grand."],0,"\"Bon marché\" décrit quelque chose de prix bas par rapport à autre chose."],
       ["fill","Complète : \"Les chaussures ___ quarante euros.\"",["coûtent","coûte","est","sont"],0,"\"Coûtent\" s'accorde au pluriel avec \"les chaussures\"."],
-      ["translate","Traduis : \"It costs ten euros.\"",["Ça coûte dix euros.","Ça coûtent dix euros.","C'est dix euros coûte.","Ça a dix euros."],0,"\"It costs ten euros\" (singulier) = \"Ça coûte dix euros.\""],
+      ["translate","Traduis : \"Cuesta diez euros.\"",["Ça coûte dix euros.","Ça coûtent dix euros.","C'est dix euros coûte.","Ça a dix euros."],0,"\"Cuesta diez euros\" (singulier) = \"Ça coûte dix euros.\""],
       ["arrange","Remets dans l'ordre : [carte / je / toujours / par / paie]",["Je paie toujours par carte","Toujours je paie par carte","Par carte toujours je paie","Je paie par carte toujours"],0,"Sujet + verbe + adverbe + complément : \"Je paie toujours par carte.\""],
       ["writing","Écris en français 20-30 mots sur tes habitudes d'achat : ce que tu achètes normalement, si tu préfères payer en espèces ou par carte, et si tu cherches des choses bon marché.",[],["coûte","bon marché","paie"],"Utilise au moins un nombre ordinal ou un prix concret dans ta réponse."]
     ]
@@ -1184,7 +1184,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle est la façon la plus polie de commander dans un restaurant ?",["Je voudrais commander la soupe, s'il vous plaît.","Je veux la soupe maintenant.","Donnez-moi la soupe.","Soupe, maintenant."],0,"\"Je voudrais\" est la forme polie et formelle pour commander quelque chose."],
       ["mcq","Tu as fini de manger et tu veux payer. Que dis-tu ?",["L'addition, s'il vous plaît ?","Le menu, s'il vous plaît ?","Qu'est-ce que vous me conseillez ?","Cette table est-elle libre ?"],0,"\"L'addition, s'il vous plaît ?\" est la phrase standard pour demander à payer."],
       ["fill","Complète : \"Je ___ commander le poisson avec de la salade, s'il vous plaît.\"",["voudrais","veux maintenant","donne","ai"],0,"\"Je voudrais commander\" est la forme polie standard pour passer une commande."],
-      ["translate","Traduis : \"Is the tip included?\"",["Le service est-il compris ?","Le service est compris ?","Est le service compris-il ?","Compris est-il le service ?"],0,"\"Is the tip included?\" = \"Le service est-il compris ?\""],
+      ["translate","Traduis : \"¿Está incluida la propina?\"",["Le service est-il compris ?","Le service est compris ?","Est le service compris-il ?","Compris est-il le service ?"],0,"\"¿Está incluida la propina?\" = \"Le service est-il compris ?\""],
       ["arrange","Remets dans l'ordre : [conseillez / vous / que / me / qu'est-ce]",["Qu'est-ce que vous me conseillez","Vous qu'est-ce que me conseillez","Me conseillez qu'est-ce que vous","Que vous me conseillez qu'est-ce"],0,"Question avec \"qu'est-ce que\" au début : \"Qu'est-ce que vous me conseillez ?\""],
       ["speaking","Représente en français, en 40-60 mots, une conversation brève dans un restaurant : commande un plat, demande une recommandation et demande l'addition à la fin.",[],["je voudrais","conseillez","l'addition"],"Inclus les trois parties : commande, question au serveur et demande de l'addition."]
     ]
@@ -1208,7 +1208,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases donne un conseil financier de façon appropriée ?",["Tu devrais économiser un peu chaque mois, même si c'est peu.","Économise maintenant, il n'y a pas d'autre option.","Épargner ne sert à rien.","Tu ne pourras jamais rien économiser."],0,"\"Tu devrais\" + infinitif donne un conseil de façon polie et raisonnable."],
       ["mcq","Quelle est la différence entre dépenses fixes et variables ?",["Les fixes se répètent chaque mois au même montant ; les variables changent.","Les fixes changent chaque mois ; les variables sont toujours identiques.","Il n'y a aucune différence réelle entre elles.","Les variables n'existent que pour les entreprises, pas pour les particuliers."],0,"Les dépenses fixes (le loyer, par exemple) restent stables ; les variables (loisirs, nourriture) changent chaque mois."],
       ["fill","Complète : \"Je vais ___ un nouveau compte bancaire ce mois-ci.\"",["ouvrir","fermer","dépenser","perdre"],0,"\"Ouvrir un compte bancaire\" est la collocation correcte pour créer un nouveau compte."],
-      ["translate","Traduis : \"You should make a monthly budget.\"",["Tu devrais faire un budget mensuel.","Tu devrais faire budget mensuel un.","Un budget mensuel tu devrais faire.","Tu devrais un budget mensuel faire."],0,"\"You should make a monthly budget\" = \"Tu devrais faire un budget mensuel.\""],
+      ["translate","Traduis : \"Deberías hacer un presupuesto mensual.\"",["Tu devrais faire un budget mensuel.","Tu devrais faire budget mensuel un.","Un budget mensuel tu devrais faire.","Tu devrais un budget mensuel faire."],0,"\"Deberías hacer un presupuesto mensual\" = \"Tu devrais faire un budget mensuel.\""],
       ["arrange","Remets dans l'ordre : [économiser / objectif / pour / un / veux / je]",["Je veux économiser pour un objectif","Pour un objectif je veux économiser","Économiser je veux pour un objectif","Je veux pour un objectif économiser"],0,"Sujet + \"veux\" + infinitif + complément : \"Je veux économiser pour un objectif.\""],
       ["writing","Écris en français 45-65 mots sur ta relation avec l'argent : comment tu organises ton budget, si tu économises pour quelque chose de concret et une habitude financière que tu aimerais améliorer.",[],["budget","économiser","dépenses"],"Mentionne au moins une dépense fixe, une dépense variable et un objectif d'épargne."]
     ]
@@ -1232,7 +1232,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases utilise correctement le subjonctif pour donner une recommandation ?",["Il est important que tu te reposes quand tu en as besoin.","Il est important que tu te reposes quand tu as besoin de.","Il important que tu te reposer quand besoin.","Il est important tu te reposes quand as besoin."],0,"\"Il est important que\" exige le subjonctif : \"que tu te reposes\"."],
       ["mcq","Que signifie \"se sentir dépassé(e)\" ?",["Sentir qu'il y a trop de choses à gérer à la fois.","Se sentir extrêmement heureux et calme.","Ne rien ressentir du tout.","Ressentir de la curiosité pour quelque chose de nouveau."],0,"\"Dépassé\" décrit une sensation de trop-plein de tâches ou d'émotions difficiles à gérer."],
       ["fill","Complète : \"Poser des ___ est important pour prendre soin de ton bien-être.\"",["limites","argent","vêtements","nourriture"],0,"\"Poser des limites\" est l'expression correcte pour protéger son propre bien-être émotionnel."],
-      ["translate","Traduis : \"Asking for help is not a sign of weakness.\"",["Demander de l'aide n'est pas un signe de faiblesse.","Demander de l'aide n'est pas une faible signe.","Demander de l'aide n'est signe de faiblesse pas.","Ne pas demander de l'aide est un signe de faiblesse."],0,"\"Asking for help is not a sign of weakness\" = \"Demander de l'aide n'est pas un signe de faiblesse.\""],
+      ["translate","Traduis : \"Pedir ayuda no es una señal de debilidad.\"",["Demander de l'aide n'est pas un signe de faiblesse.","Demander de l'aide n'est pas une faible signe.","Demander de l'aide n'est signe de faiblesse pas.","Ne pas demander de l'aide est un signe de faiblesse."],0,"\"Pedir ayuda no es una señal de debilidad\" = \"Demander de l'aide n'est pas un signe de faiblesse.\""],
       ["mcq","Laquelle de ces phrases reflète un traitement sain d'une émotion, et non son évitement ?",["Je reconnais que je suis triste et je me donne du temps pour comprendre pourquoi.","Je fais comme si de rien n'était et j'ignore ce que je ressens.","Je me distrais constamment pour ne rien ressentir.","Je dis à tout le monde que je vais parfaitement bien, même si ce n'est pas vrai."],0,"Reconnaître et explorer une émotion, plutôt que de l'éviter, est un traitement émotionnel sain."],
       ["writing","Écris en français 55-75 mots sur une stratégie que tu utilises (ou aimerais utiliser) pour prendre soin de ton bien-être émotionnel quand tu te sens dépassé(e).",[],["dépassé","limites","traiter"],"Utilise au moins une structure de recommandation avec le subjonctif (\"il est important que...\")."]
     ]
@@ -1257,7 +1257,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Que signifie \"résilier un contrat\" ?",["Mettre fin ou annuler un contrat avant son terme prévu.","Signer un nouveau contrat.","Modifier seulement une clause du contrat.","Renouveler automatiquement un contrat."],0,"\"Résilier\" signifie mettre fin à un contrat, généralement avant son échéance naturelle."],
       ["mcq","Laquelle de ces phrases utilise correctement le langage formel impersonnel typique d'un contrat ?",["Le présent contrat pourra être résilié par l'une ou l'autre des parties.","N'importe qui peut casser ce contrat s'il le veut.","Quelqu'un peut annuler ça quand il en a envie.","On peut annuler le contrat comme ça, sans raison."],0,"Le langage contractuel formel utilise des constructions passives et impersonnelles, en évitant un ton familier."],
       ["fill","Complète : \"___ le cas où l'une des parties manquerait à ses obligations, une pénalité s'appliquerait.\"",["Dans","Parce que","Bien que","Cependant"],0,"\"Dans le cas où\" + conditionnel introduit une condition juridique hypothétique."],
-      ["translate","Traduis : \"The contract is subject to the terms and conditions described in Appendix A.\"",["Le contrat est soumis aux termes et conditions décrits dans l'Annexe A.","Le contrat est soumis les termes et conditions décrits dans l'Annexe A.","Le contrat est soumis aux termes et conditions dans l'Annexe A décrits.","Soumis le contrat est aux termes de l'Annexe A."],0,"\"Subject to\" = \"soumis à\" ; \"described in Appendix A\" = \"décrits dans l'Annexe A\"."],
+      ["translate","Traduis : \"El contrato está sujeto a los términos y condiciones descritos en el Anexo A.\"",["Le contrat est soumis aux termes et conditions décrits dans l'Annexe A.","Le contrat est soumis les termes et conditions décrits dans l'Annexe A.","Le contrat est soumis aux termes et conditions dans l'Annexe A décrits.","Soumis le contrat est aux termes de l'Annexe A."],0,"\"Sujeto a\" = \"soumis à\" ; \"descrito en el Anexo A\" = \"décrits dans l'Annexe A\"."],
       ["mcq","Que sont \"les parties contractantes\" ?",["Les personnes ou entités qui signent et s'engagent dans un contrat.","Seulement la personne qui rédige le contrat.","Les sections ou chapitres d'un contrat.","Les témoins qui ne signent pas le contrat."],0,"\"Les parties contractantes\" désigne ceux qui signent le contrat et en assument les obligations."],
       ["writing","Écris en français 55-75 mots en rédigeant une clause simple d'un contrat fictif (par exemple, sur les délais de livraison ou les conditions d'annulation), en utilisant un registre formel et impersonnel.",[],["les parties","dans le cas où","résilier"],"Utilise au moins une construction passive ou impersonnelle, propre au registre juridique formel."]
     ]
@@ -1281,7 +1281,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Qu'est-ce qui caractérise un \"narrateur peu fiable\" ?",["Sa version des faits peut être biaisée, incomplète ou trompeuse.","Il dit toujours la vérité absolue sur tout ce qui se passe.","Il n'a jamais d'opinion sur les faits qu'il raconte.","Il n'apparaît que dans des textes scientifiques, jamais en fiction."],0,"Un narrateur peu fiable offre une perspective que le lecteur doit questionner, par biais, ignorance ou tromperie."],
       ["mcq","Quel effet produit généralement la narration à la première personne ?",["Elle crée une proximité avec le narrateur, mais limite la perspective à ce qu'il sait.","Elle supprime toute connexion émotionnelle avec le lecteur.","Elle garantit toujours une vision objective des faits.","Elle n'est utilisée que dans les textes non littéraires."],0,"La première personne rapproche le lecteur du narrateur, au prix d'une vision nécessairement partielle des faits."],
       ["fill","Complète : \"L'utilisation d'une ___ interrompt la chronologie pour montrer un événement passé.\"",["analepse","postface","préface","table des matières"],0,"Une \"analepse\" (flashback) est la technique narrative qui interrompt la chronologie linéaire pour montrer le passé."],
-      ["translate","Traduis avec précision technique : \"The narrator's unreliability forces the reader to question every claim.\"",["Le manque de fiabilité du narrateur oblige le lecteur à questionner chaque affirmation.","Le manque fiabilité narrateur oblige lecteur questionner affirmation.","Le narrateur peu fiable oblige questionner au lecteur chaque affirmation est.","Questionner chaque affirmation oblige le manque de fiabilité du narrateur au lecteur."],0,"\"Unreliability\" se traduit par \"manque de fiabilité\"; la structure doit sonner naturelle en français académique."],
+      ["translate","Traduis avec précision technique : \"La falta de fiabilidad del narrador obliga al lector a cuestionar cada afirmación.\"",["Le manque de fiabilité du narrateur oblige le lecteur à questionner chaque affirmation.","Le manque fiabilité narrateur oblige lecteur questionner affirmation.","Le narrateur peu fiable oblige questionner au lecteur chaque affirmation est.","Questionner chaque affirmation oblige le manque de fiabilité du narrateur au lecteur."],0,"\"Falta de fiabilidad\" se traduit par \"manque de fiabilité\"; la structure doit sonner naturelle en français académique."],
       ["mcq","Laquelle de ces analyses relie correctement un choix formel à son effet sur le lecteur ?",["Le présent narratif crée une sensation d'immédiateté, comme si les faits se déroulaient maintenant.","L'auteur a utilisé le présent parce que c'est plus facile à écrire.","Le présent n'a aucun effet sur la perception de l'histoire.","Le présent n'est utilisé qu'en poésie, jamais dans le récit."],0,"Une bonne analyse littéraire relie le choix formel (temps verbal) à un effet concret sur l'expérience de lecture."],
       ["writing","Choisis un conte, un roman ou un récit que tu connais (ou invente-en un bref) et écris en français 55-75 mots analysant sa voix narrative : point de vue, fiabilité du narrateur et un effet que cela produit sur le lecteur.",[],["voix narrative","point de vue","effet"],"Relie explicitement un choix formel de l'auteur à un effet concret sur la lecture, ne te contente pas de décrire l'intrigue."]
     ]
@@ -1305,7 +1305,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment demandes-tu la profession de quelqu'un ?",["Qu'est-ce que tu fais dans la vie ?","Comment tu t'appelles ?","Où habites-tu ?","Quel âge as-tu ?"],0,"\"Qu'est-ce que tu fais dans la vie ?\" demande spécifiquement la profession."],
       ["mcq","Quelle est la forme correcte pour dire ta profession en français ?",["Je suis professeur.","Je suis un professeur.","J'ai professeur.","Je fais professeur."],0,"En français, \"être\" + métier ne prend pas d'article : \"Je suis professeur.\""],
       ["fill","Complète : \"Ma sœur ___ médecin dans un hôpital.\"",["est","a","fait","travaille est"],0,"\"Être\" s'utilise pour les métiers : \"Ma sœur est médecin.\""],
-      ["translate","Traduis : \"I work in an office.\"",["Je travaille dans un bureau.","Je travaille un bureau.","Je suis travail dans un bureau.","Je travaille de bureau."],0,"\"I work in an office\" = \"Je travaille dans un bureau.\""],
+      ["translate","Traduis : \"Trabajo en una oficina.\"",["Je travaille dans un bureau.","Je travaille un bureau.","Je suis travail dans un bureau.","Je travaille de bureau."],0,"\"Trabajo en una oficina\" = \"Je travaille dans un bureau.\""],
       ["arrange","Remets dans l'ordre : [serveur / travaille / restaurant / comme / dans / un / je]",["Je travaille comme serveur dans un restaurant","Comme serveur je travaille dans un restaurant","Je travaille dans un restaurant comme serveur","Dans un restaurant je travaille comme serveur"],0,"\"Je travaille comme\" + métier + \"dans\" + lieu : \"Je travaille comme serveur dans un restaurant.\""],
       ["writing","Écris en français 20-30 mots sur ta profession (réelle ou imaginée) et où tu travailles. Mentionne au moins deux tâches que tu fais au travail.",[],["je suis","je travaille","comme"],"Utilise \"être\" pour la profession et \"travailler dans/comme\" pour le lieu ou le rôle."]
     ]
@@ -1329,7 +1329,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment demandes-tu la personnalité de quelqu'un ?",["Comment est ton meilleur ami ?","Comment vas-tu ?","Quelle heure est-il ?","D'où viens-tu ?"],0,"\"Comment est... ?\" demande les caractéristiques ou la personnalité de quelqu'un."],
       ["mcq","Laquelle de ces phrases décrit correctement l'apparence physique de quelqu'un ?",["Il a les cheveux courts et porte des lunettes.","Il est les cheveux courts et porte des lunettes.","Il a sympathique et grand.","Il est a des lunettes."],0,"\"Avoir\" s'utilise pour les parties du corps (\"a les cheveux courts\") et \"porter\" pour les accessoires (\"porte des lunettes\")."],
       ["fill","Complète : \"Mon frère ___ très drôle et fait toujours des blagues.\"",["est","a","porte","fait"],0,"\"Être\" décrit un trait de personnalité stable : \"est très drôle\"."],
-      ["translate","Traduis : \"She has long hair and wears glasses.\"",["Elle a les cheveux longs et porte des lunettes.","Elle est les cheveux longs et porte des lunettes.","Elle a cheveux longs et est lunettes.","Elle porte les cheveux longs et a des lunettes mises."],0,"\"Has long hair\" = \"a les cheveux longs\" ; \"wears glasses\" = \"porte des lunettes\"."],
+      ["translate","Traduis : \"Tiene el pelo largo y usa lentes.\"",["Elle a les cheveux longs et porte des lunettes.","Elle est les cheveux longs et porte des lunettes.","Elle a cheveux longs et est lunettes.","Elle porte les cheveux longs et a des lunettes mises."],0,"\"Tiene el pelo largo\" = \"a les cheveux longs\" ; \"usa lentes\" = \"porte des lunettes\"."],
       ["arrange","Remets dans l'ordre : [mère / ressemble / sa / à / elle]",["Elle ressemble à sa mère","À sa mère elle ressemble","Ressemble elle à sa mère","Elle à sa mère ressemble"],0,"\"Ressemble à\" + personne : \"Elle ressemble à sa mère.\""],
       ["speaking","Décris en français, en 40-60 mots, une personne que tu connais bien : son apparence physique et trois traits de sa personnalité.",[],["a","est","porte"],"Inclus au moins deux traits physiques et deux de personnalité."]
     ]
@@ -1353,7 +1353,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases compare correctement deux systèmes éducatifs ?",["Ce système est plus pratique que le traditionnel.","Ce système est pratique plus le traditionnel.","Ce système est aussi pratique le traditionnel.","Ce système plus pratique est que traditionnel."],0,"\"Plus... que\" est la structure comparative correcte en français."],
       ["mcq","Quelle est la différence entre mémoriser et comprendre ?",["Mémoriser, c'est répéter de l'information ; comprendre implique saisir son sens et l'appliquer.","C'est exactement la même chose, sans aucune différence.","Mémoriser est toujours mieux que comprendre.","Comprendre est plus rapide que mémoriser."],0,"Mémoriser consiste à retenir des données ; comprendre implique un traitement plus profond du sens."],
       ["fill","Complète : \"J'ai beaucoup étudié, mais j'ai quand même ___ l'examen.\"",["échoué à","réussi","mémorisé","compris"],0,"Le contexte (\"mais quand même\") suggère un résultat négatif : \"échoué à l'examen\"."],
-      ["translate","Traduis : \"I prefer to learn at my own pace.\"",["Je préfère apprendre à mon propre rythme.","Je préfère apprendre mon propre rythme.","Je préfère à apprendre mon propre rythme.","Je préfère mon propre rythme apprendre à."],0,"\"To learn at your own pace\" = \"apprendre à son propre rythme\"."],
+      ["translate","Traduis : \"Prefiero aprender a mi propio ritmo.\"",["Je préfère apprendre à mon propre rythme.","Je préfère apprendre mon propre rythme.","Je préfère à apprendre mon propre rythme.","Je préfère mon propre rythme apprendre à."],0,"\"Aprender a tu propio ritmo\" = \"apprendre à son propre rythme\"."],
       ["arrange","Remets dans l'ordre : [matière / préférée / est / mathématiques / ma]",["Ma matière préférée est mathématiques","Est ma matière préférée mathématiques","Mathématiques est ma matière préférée","Ma préférée matière est mathématiques"],0,"Sujet + \"est\" + complément : \"Ma matière préférée est mathématiques.\""],
       ["writing","Écris en français 45-65 mots comparant deux façons d'étudier ou deux systèmes éducatifs que tu connais (par exemple, cours en présentiel face à en ligne), et dis lequel tu préfères et pourquoi.",[],["plus...que","comprendre","à mon propre rythme"],"Utilise au moins une structure comparative explicite."]
     ]
@@ -1377,7 +1377,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases utilise correctement le subjonctif pour exprimer un doute ?",["Je ne pense pas que cette mesure soit suffisante à elle seule.","Je ne pense pas que cette mesure est suffisante à elle seule.","Je ne pense pas cette mesure soit suffisante.","Je ne pense pas que cette mesure être suffisante."],0,"\"Je ne pense pas que\" exige le subjonctif : \"que...soit\"."],
       ["mcq","Que signifie \"piétonniser le centre-ville\" ?",["Restreindre ou supprimer la circulation des véhicules pour privilégier les piétons.","Construire plus de routes dans le centre.","Augmenter le nombre de voitures autorisées dans le centre.","Supprimer tous les commerces du centre."],0,"\"Piétonniser\" signifie convertir un espace pour l'usage prioritaire des piétons, en limitant les véhicules."],
       ["fill","Complète : \"Il est possible que la piste cyclable ___ la circulation dans cette zone.\"",["réduise","réduit","réduira","a réduit"],0,"\"Il est possible que\" exige le subjonctif : \"que réduise\"."],
-      ["translate","Traduis : \"Investing in public transport reduces pollution in the long term.\"",["Investir dans les transports en commun réduit la pollution à long terme.","Investir dans les transports en commun réduire la pollution à long terme.","Investir transports en commun dans réduit la pollution long terme.","Réduit investir dans les transports en commun la pollution à long terme."],0,"\"Investing in public transport reduces pollution\" = \"Investir dans les transports en commun réduit la pollution.\""],
+      ["translate","Traduis : \"Invertir en transporte público reduce la contaminación a largo plazo.\"",["Investir dans les transports en commun réduit la pollution à long terme.","Investir dans les transports en commun réduire la pollution à long terme.","Investir transports en commun dans réduit la pollution long terme.","Réduit investir dans les transports en commun la pollution à long terme."],0,"\"Invertir en transporte público reduce la contaminación\" = \"Investir dans les transports en commun réduit la pollution.\""],
       ["mcq","Laquelle de ces phrases présente une position nuancée sur la mobilité urbaine ?",["Cela dépend du contexte : dans certaines villes la voiture reste nécessaire, dans d'autres non.","La voiture devrait être interdite partout sans exception.","Les transports en commun ne fonctionnent jamais bien dans aucune ville.","Il n'y a aucune solution possible pour le trafic urbain."],0,"Une position nuancée reconnaît que la solution dépend du contexte spécifique de chaque ville."],
       ["writing","Écris en français 55-75 mots en proposant une amélioration de mobilité durable pour une ville que tu connais, en expliquant un bénéfice et une difficulté possible à la mettre en œuvre.",[],["il est possible que","piéton","transports en commun"],"Utilise au moins une structure avec le subjonctif de doute ou d'opinion."]
     ]
@@ -1401,7 +1401,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Laquelle de ces phrases communique un résultat scientifique avec la nuance correcte ?",["L'étude suggère un lien possible, mais ne prouve pas de causalité.","L'étude prouve de façon définitive que ceci cause cela.","Les scientifiques savent déjà tout sur ce sujet.","Ce résultat est certain à cent pour cent, sans aucun doute."],0,"\"Suggère\" et \"ne prouve pas de causalité\" reflètent avec précision le niveau réel de certitude d'un résultat préliminaire."],
       ["mcq","Pourquoi est-il important de \"simplifier sans déformer\" dans la vulgarisation scientifique ?",["Parce qu'une simplification excessive peut changer le sens réel du résultat.","Parce que la science ne devrait jamais être expliquée à des non-experts.","Parce que les détails techniques n'ont aucune importance.","Parce que toute simplification est automatiquement incorrecte."],0,"Simplifier est nécessaire pour toucher davantage de public, mais déformer le sens original est une grave erreur de vulgarisation."],
       ["fill","Complète : \"Ceci est un résultat ___ : d'autres études sont nécessaires pour le confirmer.\"",["préliminaire","confirmé","définitif","absolu"],0,"\"Préliminaire\" indique que le résultat n'est pas encore confirmé de façon concluante."],
-      ["translate","Traduis : \"Scientific evidence suggests that this treatment could be effective.\"",["Les preuves scientifiques suggèrent que ce traitement pourrait être efficace.","Les preuves scientifiques suggèrent ce traitement pourrait efficace.","Suggèrent les preuves scientifiques que traitement pourrait être efficace.","Les preuves scientifiques suggèrent que ce traitement être efficace pourrait."],0,"\"Scientific evidence suggests that\" = \"Les preuves scientifiques suggèrent que\", suivi de \"pourrait être\" pour exprimer une possibilité."],
+      ["translate","Traduis : \"La evidencia científica sugiere que este tratamiento podría ser eficaz.\"",["Les preuves scientifiques suggèrent que ce traitement pourrait être efficace.","Les preuves scientifiques suggèrent ce traitement pourrait efficace.","Suggèrent les preuves scientifiques que traitement pourrait être efficace.","Les preuves scientifiques suggèrent que ce traitement être efficace pourrait."],0,"\"La evidencia científica sugiere que\" = \"Les preuves scientifiques suggèrent que\", suivi de \"pourrait être\" pour exprimer une possibilité."],
       ["mcq","Un titre dit \"La science le confirme : ce fruit guérit le cancer !\" en se basant sur une seule étude préliminaire chez la souris. Quel est le problème de ce titre ?",["Il exagère un résultat préliminaire et limité comme s'il s'agissait d'une certitude absolue applicable aux humains.","C'est un exemple parfait de vulgarisation scientifique rigoureuse.","Il ne contient aucun sensationnalisme.","Il reflète précisément le niveau de preuve disponible."],0,"Le titre transforme un résultat préliminaire chez la souris en une affirmation absolue sur les humains, un cas clair de sensationnalisme."],
       ["writing","Choisis une découverte scientifique (réelle ou inventée) et écris en français 55-75 mots l'expliquant de façon claire et accessible, en utilisant une analogie et en maintenant la nuance correcte de certitude (évite des mots comme \"prouve\" si le résultat est préliminaire).",[],["suggère","préliminaire","c'est comme"],"Inclus au moins une analogie et un verbe nuancé qui reflète correctement le niveau de certitude."]
     ]
@@ -1425,7 +1425,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","\"Pourrais-tu me passer le sel ?\" pendant un dîner. Quel acte de langage est-ce, en réalité ?",["Une requête indirecte, même si elle a la forme d'une question.","Une véritable question sur la capacité de l'autre personne.","Un ordre direct et explicite.","Une promesse concernant l'avenir."],0,"Bien qu'elle ait la forme grammaticale d'une question sur la capacité, sa fonction réelle est de demander que quelqu'un passe le sel : c'est une requête indirecte."],
       ["mcq","Un patron dit à un employé : « Il fait un peu froid ici, non ? » près d'une fenêtre ouverte. Que fait-il probablement avec cet énoncé ?",["Il demande indirectement à quelqu'un de fermer la fenêtre.","Il commente simplement le temps sans autre intention.","Il demande la température exacte de la pièce.","Il ordonne explicitement d'éteindre le chauffage."],0,"Le commentaire fonctionne comme une requête indirecte pour que quelqu'un ferme la fenêtre, sans le dire explicitement."],
       ["fill","Complète : \"Dire 'je promets' à voix haute ne suffit pas ; certaines ___ doivent aussi être remplies pour que la promesse soit valide.\"",["conditions de félicité","règles grammaticales","normes orthographiques","questions rhétoriques"],0,"Les \"conditions de félicité\" sont les exigences contextuelles (sincérité, capacité, etc.) pour qu'un acte de langage fonctionne correctement."],
-      ["translate","Traduis avec précision technique : \"This is an indirect speech act: its literal form doesn't match its intended function.\"",["Ceci est un acte de langage indirect : sa forme littérale ne correspond pas à sa fonction visée.","Ceci est acte de langage indirect forme littérale ne correspond fonction.","C'est un acte de langage ceci indirect qui ne correspond pas à fonction littérale.","Cet acte de langage est indirect sa forme ne fonction correspond pas."],0,"\"Indirect speech act\" = \"acte de langage indirect\" ; \"literal form\" = \"forme littérale\" ; \"intended function\" = \"fonction visée\"."],
+      ["translate","Traduis avec précision technique : \"Esto es un acto de habla indirecto: su forma literal no coincide con su función real.\"",["Ceci est un acte de langage indirect : sa forme littérale ne correspond pas à sa fonction visée.","Ceci est acte de langage indirect forme littérale ne correspond fonction.","C'est un acte de langage ceci indirect qui ne correspond pas à fonction littérale.","Cet acte de langage est indirect sa forme ne fonction correspond pas."],0,"\"Acto de habla indirecto\" = \"acte de langage indirect\" ; \"forma literal\" = \"forme littérale\" ; \"función pretendida\" = \"fonction visée\"."],
       ["mcq","Lequel de ces énoncés implique quelque chose sans le dire explicitement ?",["« Certains étudiants ont réussi l'examen. » (implique que tous n'ont pas réussi)","« Tous les étudiants ont réussi l'examen. »","« L'examen était lundi à neuf heures. »","« Il y a trente étudiants dans la classe. »"],0,"\"Certains\" implique pragmatiquement \"pas tous\", même si ce n'est pas affirmé littéralement ; c'est une implicature conversationnelle classique."],
       ["writing","Écris en français 55-75 mots analysant un acte de langage indirect d'une conversation quotidienne (réelle ou inventée) : ce qui a été dit littéralement, quelle fonction pragmatique il remplissait en réalité, et comment tu l'as compris grâce au contexte.",[],["acte de langage","littéralement","en réalité"],"Distingue explicitement entre la forme grammaticale littérale de l'énoncé et sa fonction pragmatique réelle."]
     ]
@@ -1451,7 +1451,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el caballo» en français ?",["le cheval", "le chien", "la vache", "le chat"],0,"«el caballo» se dit «le cheval» en français."],
       ["mcq","Comment dit-on «el pájaro» en français ?",["le cheval", "la vache", "le chat", "l'oiseau"],3,"«el pájaro» se dit «l'oiseau» en français."],
       ["fill","Completa: “J'aime me promener dans la ___ le dimanche.”",["vache", "forêt", "chat", "poisson"],1,"«Se promener dans la forêt» est une activité typique dans la nature."],
-      ["translate","Traduis : «The dog is very friendly.»",["Le chien est très gentil.", "L'oiseau est très gentil.", "Le chat est très gentil.", "Le cheval est très gentil."],0,"«The dog» = «le chien» ; «friendly» = «gentil»."],
+      ["translate","Traduis : «El perro es muy amistoso.»",["Le chien est très gentil.", "L'oiseau est très gentil.", "Le chat est très gentil.", "Le cheval est très gentil."],0,"«El perro» = «le chien» ; «amistoso» = «gentil»."],
       ["arrange","Remets dans l'ordre : [noir / chat / un / j'ai]",["J'ai un chat noir","un noir chat J'ai","noir un chat J'ai","noir un J'ai chat"],0,"Sujet + verbe + article + nom + adjectif."],
       ["writing","Écris en français 20-30 mots sur un animal que tu aimes et un endroit dans la nature que tu aimes visiter.",[],["j'aime", "la forêt", "l'animal"]],
     ]
@@ -1476,7 +1476,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la espalda» en français ?",["le pied", "la main", "le dos", "le bras"],2,"«la espalda» se dit «le dos» en français."],
       ["mcq","Comment dit-on «el pie» en français ?",["le dos", "le bras", "le pied", "la tête"],2,"«el pie» se dit «le pied» en français."],
       ["fill","Completa: “J'ai très mal au ___ après avoir couru.”",["jambe", "tête", "dos", "main"],2,"Courir cause souvent des douleurs au dos si on ne s'échauffe pas bien."],
-      ["translate","Traduis : «My hand hurts.»",["J'ai mal au pied.", "J'ai mal au bras.", "J'ai mal à la main.", "J'ai mal à la jambe."],2,"«My hand hurts» = «J'ai mal à la main», avec l'article défini."],
+      ["translate","Traduis : «Me duele la mano.»",["J'ai mal au pied.", "J'ai mal au bras.", "J'ai mal à la main.", "J'ai mal à la jambe."],2,"«Me duele la mano» = «J'ai mal à la main», avec l'article défini."],
       ["arrange","Remets dans l'ordre : [jambe / mal / la / à / j'ai]",["mal jambe J'ai la à", "jambe la J'ai mal à", "J'ai mal à la jambe", "la jambe à mal J'ai"],2,"«J'ai mal à» + article + partie du corps."],
       ["speaking","Décris en français, en 40-60 mots, une douleur que tu as eue : quelle partie du corps te faisait mal et ce que tu as fait.",[],["j'avais mal", "la jambe", "je suis allé(e) chez le médecin"]],
     ]
@@ -1501,7 +1501,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «levantar pesas» en français ?",["faire du yoga", "courir", "soulever des poids", "le football"],2,"«levantar pesas» se dit «soulever des poids» en français."],
       ["mcq","Comment dit-on «la natación» en français ?",["le football", "la natation", "le tennis", "courir"],1,"«la natación» se dit «la natation» en français."],
       ["fill","Completa: “J'ai l'habitude de ___ trois fois par semaine pour rester en forme.”",["football", "tennis", "natation", "courir"],3,"«Avoir l'habitude de» + infinitif («courir») décrit une habitude."],
-      ["translate","Traduis : «I usually do yoga on Sundays.»",["J'ai l'habitude de faire du yoga le dimanche.", "J'ai l'habitude de soulever des poids le dimanche.", "J'ai l'habitude de jouer au tennis le dimanche.", "J'ai l'habitude de faire du yoga le samedi."],0,"«I usually do yoga» = «J'ai l'habitude de faire du yoga» ; «on Sundays» = «le dimanche»."],
+      ["translate","Traduis : «Suelo hacer yoga los domingos.»",["J'ai l'habitude de faire du yoga le dimanche.", "J'ai l'habitude de soulever des poids le dimanche.", "J'ai l'habitude de jouer au tennis le dimanche.", "J'ai l'habitude de faire du yoga le samedi."],0,"«Suelo hacer yoga» = «J'ai l'habitude de faire du yoga» ; «los domingos» = «le dimanche»."],
       ["arrange","Remets dans l'ordre : [forme / rester / en / pour / je cours]",["Je forme cours pour en rester", "rester forme pour Je en cours", "rester Je en forme pour cours", "Je cours pour rester en forme"],3,"Sujet + verbe + «pour» + infinitif + complément."],
       ["writing","Écris en français 45-65 mots sur ta relation avec le sport : quelle activité tu pratiques, à quelle fréquence et pourquoi tu l'aimes (ou pas).",[],["j'ai l'habitude de", "rester en forme", "je pratique"]],
     ]
@@ -1526,7 +1526,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un riesgo para la privacidad» en français ?",["une caméra de sécurité", "un risque pour la vie privée", "une enceinte connectée", "un thermostat programmable"],1,"«un riesgo para la privacidad» se dit «un risque pour la vie privée» en français."],
       ["mcq","Comment dit-on «automatizar tareas del hogar» en français ?",["contrôler par la voix", "une caméra de sécurité", "une enceinte connectée", "automatiser les tâches domestiques"],3,"«automatizar tareas del hogar» se dit «automatiser les tâches domestiques» en français."],
       ["fill","Completa: “Un thermostat programmable peut ___ de l'énergie s'il est bien réglé.”",["économiser", "perdre", "casser", "gaspiller"],0,"Un thermostat bien réglé aide à économiser de l'énergie, pas à la gaspiller."],
-      ["mcq","¿Qué significa «Les enceintes connectées peuvent être contrôlées par la voix.»?",["Smart speakers can be controlled by text.","Security cameras can be controlled by voice.","Smart speakers can be controlled by voice.","Thermostats can be controlled by text."],2,"«Contrôler par la voix» = «controlled by voice»."],
+      ["mcq","¿Qué significa «Les enceintes connectées peuvent être contrôlées par la voix.»?",["Los altavoces inteligentes se pueden controlar por texto.","Las cámaras de seguridad se pueden controlar por voz.","Los altavoces inteligentes se pueden controlar por voz.","Los termostatos se pueden controlar por texto."],2,"«Contrôler par la voix» = «controlado por voz»."],
       ["arrange","Remets dans l'ordre : [vie / risque / peut / un / privée / pour / présenter / la]",["Peut présenter un risque pour la vie privée", "la privée Peut présenter pour un risque vie", "vie pour risque la Peut privée présenter un", "la présenter un vie pour risque privée Peut"],0,"Verbe + «présenter» + objet : «Peut présenter un risque pour la vie privée.»"],
       ["writing","Écris en français 55-75 mots sur un appareil intelligent que tu utiliserais (ou utilises déjà) chez toi : quel avantage il t'offre et quel risque pour la vie privée il pourrait poser.",[],["automatiser", "risque pour la vie privée", "par la voix"]],
     ]
@@ -1551,7 +1551,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «llegar a un acuerdo» en français ?",["parvenir à un accord", "joindre un document", "convoquer une réunion", "dans l'attente de votre réponse"],0,"«llegar a un acuerdo» se dit «parvenir à un accord» en français."],
       ["mcq","Comment dit-on «posponer una reunión» en français ?",["convoquer une réunion", "reporter une réunion", "joindre un document", "parvenir à un accord"],1,"«posponer una reunión» se dit «reporter une réunion» en français."],
       ["fill","Completa: “Avant de clore la réunion, j'aimerais ___ un point en suspens de la semaine dernière.”",["joindre", "convoquer", "reprendre", "reporter"],2,"«Reprendre un point en suspens» signifie y revenir."],
-      ["mcq","¿Qué significa «J'ai joint le rapport demandé.»?",["I'm attaching the requested email.","I'm attaching the requested report.","I'm calling the requested report.","I'm postponing the requested report."],1,"«J'ai joint» = «I'm attaching» ; «le rapport demandé» = «the requested report»."],
+      ["mcq","¿Qué significa «J'ai joint le rapport demandé.»?",["Estoy adjuntando el correo solicitado.","Estoy adjuntando el informe solicitado.","Estoy llamando por el informe solicitado.","Estoy posponiendo el informe solicitado."],1,"«J'ai joint» = «Estoy adjuntando» ; «le rapport demandé» = «el informe solicitado»."],
       ["arrange","Remets dans l'ordre : [réponse / l'attente / dans / votre / de]",["votre réponse l'attente de Dans", "Dans l'attente de votre réponse", "l'attente de Dans votre réponse", "de l'attente réponse Dans votre"],1,"Formule fixe de clôture d'e-mail professionnel."],
       ["writing","Écris en français un e-mail professionnel bref (55-75 mots) convoquant une réunion, mentionnant un point en suspens et se terminant par une formule de politesse formelle.",[],["je convoque", "point en suspens", "dans l'attente de"]],
     ]
@@ -1575,7 +1575,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Dans un rapport officiel, quel mot est le plus approprié pour «obtenir une information» ?",["Obtenir", "Choper", "Récupérer", "Chiper"],0,"«Obtenir» est le registre soutenu approprié pour un rapport officiel."],
       ["mcq","Dans une conversation informelle entre amis, quel verbe sonne le plus naturel pour «mourir» ?",["Claquer", "Décéder", "Périr", "Expirer"],0,"«Claquer» est familier et conviendrait à une conversation informelle ; les autres sont trop soutenus ou techniques."],
       ["fill","Completa: “Dans une lettre formelle on dit «___, nous poursuivons le projet», pas «mais».”",["néanmoins", "mais", "pourtant", "quand même"],0,"«Néanmoins» est le connecteur soutenu équivalent à «mais»."],
-      ["translate","Traduis avec le registre soutenu correct : «We reside in Madrid.»",["Nous sommes de Madrid.", "Nous vivons à Madrid.", "Nous résidons à Madrid.", "Nous restons à Madrid."],2,"«Reside» dans un registre soutenu se traduit par «résider», pas le courant «vivre»."],
+      ["translate","Traduis avec le registre soutenu correct : «Residimos en Madrid.»",["Nous sommes de Madrid.", "Nous vivons à Madrid.", "Nous résidons à Madrid.", "Nous restons à Madrid."],2,"«Residir» dans un registre soutenu se traduit par «résider», pas le courant «vivre»."],
       ["arrange","Remets dans l'ordre (registre soutenu) : [a / l'information / été / sollicitée]",["été a L'information sollicitée", "L'information a été sollicitée", "été L'information a sollicitée", "sollicitée a L'information été"],1,"Construction passive, typique du registre soutenu/administratif."],
       ["writing","Écris en français le même message bref («j'ai besoin que tu m'envoies le fichier») dans deux registres différents : un soutenu (pour un patron) et un familier (pour un ami), en 55-75 mots au total.",[],["soutenu", "familier", "je sollicite"]],
     ]
@@ -1601,7 +1601,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la chaqueta» en français ?",["la veste", "les chaussures", "la chemise", "la robe"],0,"«la chaqueta» se dit «la veste» en français."],
       ["mcq","Comment dit-on «los zapatos» en français ?",["le pantalon", "la jupe", "les chaussures", "la robe"],2,"«los zapatos» se dit «les chaussures» en français."],
       ["fill","Completa: “Je porte une chemise ___ et un pantalon noir.”",["bleu", "bleues", "bleus", "bleue"],3,"«Chemise» est féminin singulier, donc la couleur s'accorde : «bleue»."],
-      ["translate","Traduis : «I'm wearing a red dress.»",["Je porte des chaussures rouges.", "Je porte une chemise rouge.", "Je porte une robe rouge.", "Je porte une jupe rouge."],2,"«I'm wearing» = «Je porte» ; «a red dress» = «une robe rouge»."],
+      ["translate","Traduis : «Llevo puesto un vestido rojo.»",["Je porte des chaussures rouges.", "Je porte une chemise rouge.", "Je porte une robe rouge.", "Je porte une jupe rouge."],2,"«Llevo puesto» = «Je porte» ; «un vestido rojo» = «une robe rouge»."],
       ["arrange","Remets dans l'ordre : [noires / chaussures / des / j'ai]",["des J'ai noires chaussures","J'ai des chaussures noires","des noires chaussures J'ai","noires J'ai des chaussures"],1,"Sujet + verbe + article + nom + adjectif (accord au pluriel)."],
       ["writing","Décris en français, en 20-30 mots, les vêtements que tu portes aujourd'hui, en mentionnant au moins trois vêtements et leurs couleurs.",[],["je porte", "de couleur", "et"]],
     ]
@@ -1626,7 +1626,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la zanahoria» en français ?",["la laitue", "la banane", "la tomate", "la carotte"],3,"«la zanahoria» se dit «la carotte» en français."],
       ["mcq","Comment dit-on «el plátano» en français ?",["la pomme", "la tomate", "la banane", "la carotte"],2,"«el plátano» se dit «la banane» en français."],
       ["fill","Completa: “Je mange ___ de fruits chaque jour pour rester en bonne santé.”",["beaucoup", "peu", "assez", "trop"],0,"«Beaucoup de fruits» décrit une grande quantité, cohérente avec «rester en bonne santé»."],
-      ["translate","Traduis : «I eat little meat and a lot of vegetables.»",["Je mange peu de viande et beaucoup de légumes.", "Je mange peu de viande et peu de légumes.", "Je mange peu de fruits et beaucoup de légumes.", "Je mange beaucoup de viande et beaucoup de légumes."],0,"«Little meat» = «peu de viande» ; «a lot of vegetables» = «beaucoup de légumes»."],
+      ["translate","Traduis : «Como poca carne y muchas verduras.»",["Je mange peu de viande et beaucoup de légumes.", "Je mange peu de viande et peu de légumes.", "Je mange peu de fruits et beaucoup de légumes.", "Je mange beaucoup de viande et beaucoup de légumes."],0,"«Poca carne» = «peu de viande» ; «muchas verduras» = «beaucoup de légumes»."],
       ["arrange","Remets dans l'ordre : [salade / la / de / la / et / laitue / contient / des / tomates]",["La salade contient des tomates et de la laitue","des la salade tomates La laitue contient et de","et des tomates de contient la La salade laitue","de tomates contient salade des La laitue et la"],0,"Sujet + verbe + objet (deux articles partitifs reliés par «et»)."],
       ["speaking","Décris en français, en 40-60 mots, ton alimentation habituelle : quels fruits et légumes tu manges normalement et à quelle fréquence.",[],["je mange", "souvent", "légumes"]],
     ]
@@ -1651,7 +1651,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «mezclar los ingredientes» en français ?",["préchauffer le four", "mélanger les ingrédients", "laisser reposer la pâte", "ajouter du sel selon le goût"],1,"«mezclar los ingredientes» se dit «mélanger les ingrédients» en français."],
       ["mcq","Comment dit-on «precalentar el horno» en français ?",["mélanger les ingrédients", "laisser reposer la pâte", "préchauffer le four", "ajouter du sel selon le goût"],2,"«precalentar el horno» se dit «préchauffer le four» en français."],
       ["fill","Completa: “Avant de cuire au four, il faut ___ le four à 180 degrés.”",["faire bouillir", "préchauffer", "faire frire", "mélanger"],1,"«Préchauffer le four» est l'étape préalable typique avant de cuire au four."],
-      ["mcq","¿Qué significa «Laissez reposer la pâte pendant dix minutes.»?",["Let the dough cut for ten minutes.","Let the dough fry for ten minutes.","Let the dough rest for ten minutes.","Let the dough boil for ten minutes."],2,"«Laissez reposer la pâte» = «Let the dough rest»."],
+      ["mcq","¿Qué significa «Laissez reposer la pâte pendant dix minutes.»?",["Corte la masa durante diez minutos.","Fría la masa durante diez minutos.","Deje reposar la masa durante diez minutos.","Hierva la masa durante diez minutos."],2,"«Laissez reposer la pâte» = «Deje reposar la masa»."],
       ["arrange","Remets dans l'ordre : [goût / le / selon / sel / ajoutez / du]",["le selon sel goût Ajoutez du", "Ajoutez du sel selon le goût", "selon sel le goût du Ajoutez", "goût du selon sel le Ajoutez"],1,"Impératif + objet + expression fixe «selon le goût»."],
       ["writing","Écris en français 45-65 mots expliquant les étapes d'une recette simple que tu sais faire, en utilisant au moins trois verbes de cuisine à l'impératif.",[],["coupez", "ajoutez", "laissez reposer"]],
     ]
@@ -1676,7 +1676,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «una interpretación conmovedora» en français ?",["le style d'un artiste", "un chef-d'œuvre", "la mise en scène", "une interprétation émouvante"],3,"«una interpretación conmovedora» se dit «une interprétation émouvante» en français."],
       ["mcq","Comment dit-on «estar sobrevalorado» en français ?",["laisser une impression durable", "un chef-d'œuvre", "une interprétation émouvante", "être surestimé"],3,"«estar sobrevalorado» se dit «être surestimé» en français."],
       ["fill","Completa: “Je ne pense pas que ce film ___ aussi bon qu'on le dit.”",["était", "sera", "soit", "est"],2,"«Je ne pense pas que» exige le subjonctif : «que...soit»."],
-      ["translate","Traduis : «This performance left a lasting impression on me.»",["Ce style m'a laissé une impression durable.", "Cette mise en scène m'a laissé surestimé.", "Cette interprétation m'a laissé un chef-d'œuvre.", "Cette interprétation m'a laissé une impression durable."],3,"«Left a lasting impression» = «a laissé une impression durable»."],
+      ["translate","Traduis : «Esta actuación me dejó una impresión duradera.»",["Ce style m'a laissé une impression durable.", "Cette mise en scène m'a laissé surestimé.", "Cette interprétation m'a laissé un chef-d'œuvre.", "Cette interprétation m'a laissé une impression durable."],3,"«Dejó una impresión duradera» = «a laissé une impression durable»."],
       ["arrange","Remets dans l'ordre : [chef-d'œuvre / ceci / un / est]",["chef-d'œuvre un est Ceci", "Ceci est un chef-d'œuvre", "est Ceci chef-d'œuvre un", "est Ceci un chef-d'œuvre"],1,"Sujet + «est» + article + nom."],
       ["writing","Écris en français 55-75 mots donnant ton opinion sur une œuvre d'art, un film ou une chanson (réel ou inventé) : ce que tu en as pensé et pourquoi, en nuançant ta position.",[],["je trouve que", "je ne pense pas que", "une impression"]],
     ]
@@ -1701,7 +1701,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «formular la crítica en términos concretos» en français ?",["formuler la critique en termes concrets", "reconnaître les points forts avant les critiques", "signaler un point à améliorer", "prendre la critique personnellement"],0,"«formular la crítica en términos concretos» se dit «formuler la critique en termes concrets» en français."],
       ["mcq","Comment dit-on «tomarse la crítica como algo personal» en français ?",["être ouvert(e) aux retours", "signaler un point à améliorer", "formuler la critique en termes concrets", "prendre la critique personnellement"],3,"«tomarse la crítica como algo personal» se dit «prendre la critique personnellement» en français."],
       ["fill","Completa: “Avant de donner une critique, c'est une bonne idée de ___ les points forts du travail.”",["cacher", "reconnaître", "ignorer", "critiquer"],1,"«Reconnaître les points forts avant les critiques» fait que le feedback est mieux reçu."],
-      ["mcq","¿Qué significa «Une suggestion serait de commencer par les conclusions.»?",["One suggestion would be to start with the conclusions.","One problem would be to start with the conclusions.","One criticism would be to start with the conclusions.","One suggestion would be to finish with the conclusions."],0,"«Une suggestion serait de» = «One suggestion would be to»."],
+      ["mcq","¿Qué significa «Une suggestion serait de commencer par les conclusions.»?",["Una sugerencia sería empezar por las conclusiones.","Un problema sería empezar por las conclusiones.","Una crítica sería empezar por las conclusiones.","Una sugerencia sería terminar con las conclusiones."],0,"«Une suggestion serait de» = «Una sugerencia sería»."],
       ["arrange","Remets dans l'ordre : [problème / propose / seulement / le / une solution / ne / signale / pas]",["Ne signale pas seulement le problème, propose une solution", "propose signale une Ne le solution problème, pas seulement", "seulement propose pas problème, le Ne signale solution une", "signale problème, le solution propose seulement Ne pas une"],0,"Structure de contraste : «ne... pas seulement» + «[verbe]... une solution»."],
       ["writing","Écris en français 55-75 mots donnant un feedback constructif sur un travail (réel ou inventé) : reconnais un point fort, signale un point à améliorer concret et propose une solution.",[],["je reconnais que", "tu pourrais peut-être", "une suggestion serait"]],
     ]
@@ -1726,7 +1726,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «prescriptivismo frente a descriptivismo» en français ?",["générer une résistance face à un changement linguistique", "le langage inclusif", "prescriptivisme face à descriptivisme", "une langue vivante évolue avec l'usage"],2,"«prescriptivismo frente a descriptivismo» se dit «prescriptivisme face à descriptivisme» en français."],
       ["mcq","Comment dit-on «se añade un neologismo al diccionario» en français ?",["une langue vivante évolue avec l'usage", "un néologisme est ajouté au dictionnaire", "un argument n'implique pas nécessairement une position politique", "le langage inclusif"],1,"«se añade un neologismo al diccionario» se dit «un néologisme est ajouté au dictionnaire» en français."],
       ["fill","Completa: “Le descriptivisme se concentre à documenter comment les gens parlent réellement, pas à dicter comment ils ___ parler.”",["ont tendance à", "devraient", "veulent", "peuvent"],1,"Le descriptivisme décrit l'usage réel, sans dicter de normes sur comment on «devrait» parler."],
-      ["translate","Traduis avec précision : «A living language evolves with use, whether we like it or not.»",["Une langue vivante évolue avec l'usage, qu'on le veuille ou non.", "Une langue morte évolue avec l'usage, qu'on le veuille ou non.", "Une langue vivante évolue avec l'usage, même si elle ne change pas.", "Une langue vivante évolue sans usage, qu'on le veuille ou non."],0,"«Whether we like it or not» se traduit idiomatiquement par «qu'on le veuille ou non»."],
+      ["translate","Traduis avec précision : «Una lengua viva evoluciona con el uso, nos guste o no.»",["Une langue vivante évolue avec l'usage, qu'on le veuille ou non.", "Une langue morte évolue avec l'usage, qu'on le veuille ou non.", "Une langue vivante évolue avec l'usage, même si elle ne change pas.", "Une langue vivante évolue sans usage, qu'on le veuille ou non."],0,"«Nos guste o no» se traduit idiomatiquement par «qu'on le veuille ou non»."],
       ["arrange","Remets dans l'ordre : [nécessairement / pas / une / position / politique / un / argument / n'implique]",["Un argument n'implique pas nécessairement une position politique","position nécessairement politique pas argument n'implique Un une","pas une argument position politique nécessairement n'implique Un","une position politique n'implique nécessairement Un pas argument"],0,"Sujet + négation + «implique pas nécessairement» + objet."],
       ["writing","Écris en français 55-75 mots présentant de façon équilibrée deux positions sur un changement linguistique actuel (réel ou inventé), sans prendre parti explicitement, en distinguant description et jugement.",[],["d'un côté", "de l'autre", "sans nécessairement"]],
     ]
@@ -1752,7 +1752,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la farmacia» en français ?",["le supermarché", "le parc", "la pharmacie", "la banque"],2,"«la farmacia» se dit «la pharmacie» en français."],
       ["mcq","Comment dit-on «la parada de autobús» en français ?",["la bibliothèque", "la pharmacie", "l'arrêt de bus", "la banque"],2,"«la parada de autobús» se dit «l'arrêt de bus» en français."],
       ["fill","Completa: “Dans mon quartier, ___ une grande bibliothèque.”",["c'est", "elle a", "il y a", "elle est"],2,"« Il y a » sert à dire que quelque chose existe, sans changer selon le nombre : « il y a une bibliothèque »."],
-      ["translate","Traduis : « The pharmacy is next to the park. »",["La banque est à côté du parc.", "La pharmacie est loin du parc.", "La pharmacie est à côté du parc.", "La pharmacie est près de la bibliothèque."],2,"« Next to » = « à côté de » ; le sujet et le lieu doivent correspondre à l'original."],
+      ["translate","Traduis : « La farmacia está al lado del parque. »",["La banque est à côté du parc.", "La pharmacie est loin du parc.", "La pharmacie est à côté du parc.", "La pharmacie est près de la bibliothèque."],2,"« Al lado de » = « à côté de » ; le sujet et le lieu doivent correspondre à l'original."],
       ["arrange","Remets dans l'ordre : [supermarché / loin / le / n'est / pas]",["Le supermarché pas n'est loin", "Le supermarché n'est pas loin", "loin Le supermarché n'est pas", "supermarché pas Le n'est loin"],1,"Sujet + négation + verbe + adverbe de lieu."],
       ["writing","Décris en 20-30 mots ton quartier : quels lieux il y a et où ils se trouvent (utilise « il y a », « près de » et « loin de »).",[],["il y a", "près de", "loin de"]],
     ]
@@ -1777,7 +1777,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «hacer un regalo» en français ?",["Noël", "le Nouvel An", "faire un cadeau", "le mariage"],2,"«hacer un regalo» se dit «faire un cadeau» en français."],
       ["mcq","Comment dit-on «la boda» en français ?",["le mariage", "l'anniversaire", "le Nouvel An", "Noël"],0,"«la boda» se dit «le mariage» en français."],
       ["fill","Completa: “Chaque Nouvel An, on ___ de fêter en famille.”",["habitue", "est habitude", "avait l'habitude", "a l'habitude"],3,"« Avoir l'habitude de » + infinitif exprime une coutume habituelle au présent : « on a l'habitude de fêter »."],
-      ["translate","Traduis : « We usually give gifts at Christmas. »",["On a l'habitude de faire des cadeaux à Noël.", "On a l'habitude de fêter des cadeaux à Noël.", "On fait un cadeau à Noël.", "On a l'habitude de faire des cadeaux à l'anniversaire."],0,"« We usually give gifts » = « On a l'habitude de faire des cadeaux », avec « avoir l'habitude de » + infinitif."],
+      ["translate","Traduis : « Solemos hacer regalos en Navidad. »",["On a l'habitude de faire des cadeaux à Noël.", "On a l'habitude de fêter des cadeaux à Noël.", "On fait un cadeau à Noël.", "On a l'habitude de faire des cadeaux à l'anniversaire."],0,"« Solemos hacer regalos » = « On a l'habitude de faire des cadeaux », avec « avoir l'habitude de » + infinitif."],
       ["arrange","Remets dans l'ordre : [anniversaire / je / mon / célèbre / avec / amis]",["avec amis mon célèbre Je anniversaire", "Je célèbre mon anniversaire avec amis", "anniversaire mon amis célèbre avec Je", "avec anniversaire célèbre Je amis mon"],1,"Sujet + verbe + objet possessif + préposition + complément."],
       ["speaking","Décris en 40-60 mots comment tu as l'habitude de célébrer une fête importante pour toi (anniversaire, Noël, Nouvel An ou autre), en utilisant « avoir l'habitude de ».",[],["j'ai l'habitude de", "je célèbre", "avec"]],
     ]
@@ -1802,7 +1802,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «llevarse bien con alguien» en français ?",["faire confiance à quelqu'un", "bien s'entendre avec quelqu'un", "se réconcilier après une dispute", "rester en contact"],1,"«llevarse bien con alguien» se dit «bien s'entendre avec quelqu'un» en français."],
       ["mcq","Comment dit-on «reconciliarse después de una discusión» en français ?",["avoir quelque chose en commun", "faire confiance à quelqu'un", "bien/mal s'entendre avec quelqu'un", "se réconcilier après une dispute"],3,"«reconciliarse después de una discusión» se dit «se réconcilier après une dispute» en français."],
       ["fill","Completa: “Si tu veux garder cette amitié, tu ___ rester en contact.”",["dois", "devras", "devrais", "as dû"],2,"« Devrais » (conditionnel de « devoir ») donne un conseil doux à la deuxième personne."],
-      ["translate","Traduis : « You have to trust your friends. »",["Tu dois faire confiance à tes amis.", "Tu devrais faire confiance à tes amis.", "Tu dois bien t'entendre avec tes amis.", "Tu dois faire confiance à ta famille."],0,"« You have to trust » = « Tu dois faire confiance », avec « devoir » + infinitif."],
+      ["translate","Traduis : « Tienes que confiar en tus amigos. »",["Tu dois faire confiance à tes amis.", "Tu devrais faire confiance à tes amis.", "Tu dois bien t'entendre avec tes amis.", "Tu dois faire confiance à ta famille."],0,"« Tienes que confiar » = « Tu dois faire confiance », avec « devoir » + infinitif."],
       ["arrange","Remets dans l'ordre : [commun / beaucoup / nous / avons / en]",["en beaucoup commun avons Nous", "avons commun beaucoup en Nous", "en commun Nous beaucoup avons", "Nous avons beaucoup en commun"],3,"Sujet + verbe + quantificateur + préposition fixe « en commun »."],
       ["writing","Écris 45-65 mots sur une amitié importante pour toi : ce que vous avez en commun et quel conseil tu donnerais à quelqu'un qui veut garder une amitié comme ça.",[],["nous avons en commun", "tu devrais", "faire confiance"]],
     ]
@@ -1827,7 +1827,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la desconexión digital» en français ?",["l'épuisement professionnel (burn-out)", "les horaires flexibles", "la déconnexion numérique", "être productif/productive"],2,"«la desconexión digital» se dit «la déconnexion numérique» en français."],
       ["mcq","Comment dit-on «equilibrar el trabajo y la vida personal» en français ?",["concilier vie professionnelle et vie personnelle", "être productif/productive", "télétravailler", "l'épuisement professionnel (burn-out)"],0,"«equilibrar el trabajo y la vida personal» se dit «concilier vie professionnelle et vie personnelle» en français."],
       ["fill","Completa: “___ chez soi, beaucoup de gens arrivent à mieux concilier vie professionnelle et vie personnelle.”",["Télétravailler", "Télétravaillé", "En télétravaillant", "Télétravaux"],2,"Le gérondif (« en télétravaillant ») exprime la circonstance qui permet le résultat qui suit."],
-      ["translate","Traduis : « Working without disconnecting can lead to burnout. »",["En travaillant avec des horaires flexibles, on peut arriver à l'épuisement.", "Travailler sans se déconnecter peut éviter l'épuisement.", "En travaillant sans se déconnecter, on peut arriver à l'épuisement.", "En se déconnectant du travail, on peut arriver à l'épuisement."],2,"Le gérondif « en travaillant sans se déconnecter » exprime la cause de l'épuisement."],
+      ["translate","Traduis : « Trabajar sin desconectar puede llevar al agotamiento. »",["En travaillant avec des horaires flexibles, on peut arriver à l'épuisement.", "Travailler sans se déconnecter peut éviter l'épuisement.", "En travaillant sans se déconnecter, on peut arriver à l'épuisement.", "En se déconnectant du travail, on peut arriver à l'épuisement."],2,"Le gérondif « en travaillant sans se déconnecter » exprime la cause de l'épuisement."],
       ["arrange","Remets dans l'ordre : [flexibles / apprécient / des / beaucoup / horaires]",["Beaucoup apprécient des horaires flexibles", "des horaires Beaucoup apprécient flexibles", "horaires des flexibles Beaucoup apprécient", "apprécient flexibles Beaucoup horaires des"],0,"Sujet + verbe + article + adjectif + nom."],
       ["writing","Écris 55-75 mots sur les avantages et les inconvénients du télétravail pour l'équilibre vie pro/perso, en utilisant au moins un gérondif de simultanéité ou de cause.",[],["en télétravaillant", "concilier", "cependant"]],
     ]
@@ -1852,7 +1852,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un punto muerto» en français ?",["une position intransigeante", "une impasse", "chercher un compromis", "faire des concessions"],1,"«un punto muerto» se dit «une impasse» en français."],
       ["mcq","Comment dit-on «una postura inflexible/intransigente» en français ?",["une position intransigeante", "une impasse", "briser la glace", "chercher un compromis"],0,"«una postura inflexible/intransigente» se dit «une position intransigeante» en français."],
       ["fill","Completa: “Il ___ préférable de chercher un compromis avant d'arriver à une impasse.”",["était", "sera", "serait", "est"],2,"Le conditionnel « serait » adoucit l'affirmation, propre au registre de négociation formel."],
-      ["translate","Traduis en registre formel : « Would you be willing to make concessions on this point? »",["Seriez-vous disposé à parvenir à un accord sur ce point ?", "Seriez-vous disposé à faire des concessions sur ce point ?", "Seriez-vous disposé à briser la glace sur ce point ?", "Êtes-vous disposé à faire des concessions sur ce point ?"],1,"Le conditionnel « seriez-vous disposé » adoucit la question, plus formel que le présent « êtes-vous disposé »."],
+      ["translate","Traduis en registre formel : « ¿Estaría usted dispuesto a hacer concesiones en este punto? »",["Seriez-vous disposé à parvenir à un accord sur ce point ?", "Seriez-vous disposé à faire des concessions sur ce point ?", "Seriez-vous disposé à briser la glace sur ce point ?", "Êtes-vous disposé à faire des concessions sur ce point ?"],1,"Le conditionnel « seriez-vous disposé » adoucit la question, plus formel que le présent « êtes-vous disposé »."],
       ["arrange","Remets dans l'ordre : [accord / difficile / parvenir / sera / à / un]",["Sera difficile parvenir à un accord", "Sera accord à un parvenir difficile", "parvenir accord à Sera difficile un", "Sera accord parvenir à difficile un"],0,"Futur + adjectif + infinitif + complément."],
       ["writing","Écris 55-75 mots décrivant une négociation (réelle ou inventée) où les deux parties ont fait des concessions pour éviter une impasse, en utilisant au moins deux conditionnels de politesse.",[],["serait", "seriez-vous disposé", "compromis"]],
     ]
@@ -1877,7 +1877,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «diluir la responsabilidad de alguien» en français ?",["adoucir l'impact d'un message", "une restructuration (euphémisme pour licenciement)", "un anglicisme inutile", "diluer la responsabilité de quelqu'un"],3,"«diluir la responsabilidad de alguien» se dit «diluer la responsabilité de quelqu'un» en français."],
       ["mcq","Comment dit-on «una reestructuración (eufemismo de despidos)» en français ?",["une restructuration (euphémisme pour licenciement)", "le jargon corporate", "un anglicisme inutile", "un euphémisme"],0,"«una reestructuración (eufemismo de despidos)» se dit «une restructuration (euphémisme pour licenciement)» en français."],
       ["fill","Completa: “L'entreprise parle d'« optimisation des ressources », ___ , de licenciements.”",["par exemple", "bien que", "c'est-à-dire", "cependant"],2,"« C'est-à-dire » reformule l'expression euphémistique avec son sens littéral."],
-      ["translate","Traduis avec précision : « Corporate jargon often softens the impact of bad news. »",["Le jargon corporate dilue souvent l'impact des mauvaises nouvelles.", "Le jargon corporate adoucit souvent l'impact des mauvaises nouvelles.", "Le jargon corporate évite souvent l'impact des mauvaises nouvelles.", "Un euphémisme adoucit souvent l'impact des mauvaises nouvelles."],1,"« Softens the impact » = « adoucit l'impact » ; le sujet doit être « le jargon corporate »."],
+      ["translate","Traduis avec précision : « La jerga corporativa suele suavizar el impacto de las malas noticias. »",["Le jargon corporate dilue souvent l'impact des mauvaises nouvelles.", "Le jargon corporate adoucit souvent l'impact des mauvaises nouvelles.", "Le jargon corporate évite souvent l'impact des mauvaises nouvelles.", "Un euphémisme adoucit souvent l'impact des mauvaises nouvelles."],1,"« Suaviza el impacto » = « adoucit l'impact » ; le sujet doit être « le jargon corporate »."],
       ["arrange","Remets dans l'ordre : [licenciements / euphémisme / restructuration / de / un / est]",["est Restructuration euphémisme un licenciements de", "Restructuration est un euphémisme de licenciements", "un de licenciements Restructuration euphémisme est", "un Restructuration euphémisme de licenciements est"],1,"Sujet + verbe + article + nom + préposition + complément."],
       ["writing","Écris 55-75 mots analysant un euphémisme corporate réel ou inventé : ce qu'il cache, pourquoi il est utilisé et comment tu le reformulerais plus clairement, en utilisant au moins un connecteur de reformulation.",[],["c'est-à-dire", "euphémisme", "autrement dit"]],
     ]
@@ -1902,7 +1902,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el pasaporte» en français ?",["la réservation", "le passeport", "la valise", "le vol"],1,"«el pasaporte» se dit «le passeport» en français."],
       ["mcq","Comment dit-on «facturar el equipaje» en français ?",["le vol", "la chambre", "la valise", "enregistrer les bagages"],3,"«facturar el equipaje» se dit «enregistrer les bagages» en français."],
       ["fill","Completa: “Demain, je ___ enregistrer les bagages très tôt.”",["vais à", "vais", "irai à", "suis allé"],1,"« Aller » + infinitif : « je vais enregistrer », le verbe « aller » se conjugue au présent."],
-      ["translate","Traduis : « We are going to book a room for Friday. »",["Nous allons réserver un vol pour vendredi.", "Nous allons réserver une chambre pour lundi.", "Nous allons réserver une chambre pour vendredi.", "Nous allons enregistrer une chambre pour vendredi."],2,"« We are going to book » = « Nous allons réserver », avec « aller » + infinitif."],
+      ["translate","Traduis : « Vamos a reservar una habitación para el viernes. »",["Nous allons réserver un vol pour vendredi.", "Nous allons réserver une chambre pour lundi.", "Nous allons réserver une chambre pour vendredi.", "Nous allons enregistrer une chambre pour vendredi."],2,"« Vamos a reservar » = « Nous allons réserver », avec « aller » + infinitif."],
       ["arrange","Remets dans l'ordre : [passeport / vais / mon / chercher / je]",["Je mon passeport chercher vais", "vais mon chercher Je passeport", "Je vais chercher mon passeport", "Je vais mon passeport chercher"],2,"Sujet + « aller » + infinitif + objet possessif."],
       ["writing","Décris en 20-30 mots tes projets de voyage : ce que tu vas faire (enregistrer les bagages, réserver une chambre, etc.) en utilisant « aller + infinitif ».",[],["je vais", "nous allons", "réserver"]],
     ]
@@ -1927,7 +1927,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la contraseña» en français ?",["le mot de passe", "la batterie", "le wifi", "l'application"],0,"«la contraseña» se dit «le mot de passe» en français."],
       ["mcq","Comment dit-on «descargar» en français ?",["télécharger", "charger le téléphone", "l'application", "la batterie"],0,"«descargar» se dit «télécharger» en français."],
       ["fill","Completa: “Cette application est ___ rapide que l'autre.”",["aussi", "plus", "moins", "très"],0,"« Aussi + adjectif + que » compare deux choses ayant la même qualité."],
-      ["translate","Traduis : « My battery lasts longer than yours. »",["Ma batterie dure plus longtemps que la tienne.", "Mon wifi dure plus longtemps que la tienne.", "Ma batterie dure moins longtemps que la tienne.", "Ma batterie dure aussi longtemps que la tienne."],0,"« Lasts longer than » = « dure plus longtemps que », comparatif de supériorité."],
+      ["translate","Traduis : « Mi batería dura más que la tuya. »",["Ma batterie dure plus longtemps que la tienne.", "Mon wifi dure plus longtemps que la tienne.", "Ma batterie dure moins longtemps que la tienne.", "Ma batterie dure aussi longtemps que la tienne."],0,"« Dura más que » = « dure plus longtemps que », comparatif de supériorité."],
       ["arrange","Remets dans l'ordre : [mot de passe / plus / j'ai besoin / sûr / d'un]",["J'ai besoin d'un mot de passe plus sûr", "J'ai de mot passe sûr besoin d'un plus", "besoin J'ai sûr mot d'un passe plus de", "mot plus passe J'ai sûr besoin d'un de"],0,"Verbe + article + nom + comparatif + adjectif."],
       ["speaking","Décris en 40-60 mots comment tu utilises la technologie au quotidien, en comparant deux applications ou appareils avec « aussi... que » ou « plus... que ».",[],["aussi... que", "plus... que", "application"]],
     ]
@@ -1952,7 +1952,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «engancharse a algo» en français ?",["la plateforme de streaming", "le marathon de séries", "devenir accro à quelque chose", "le jeu vidéo"],2,"«engancharse a algo» se dit «devenir accro à quelque chose» en français."],
       ["mcq","Comment dit-on «maratón de series» en français ?",["le marathon de séries", "la plateforme de streaming", "le jeu vidéo", "les sous-titres"],0,"«maratón de series» se dit «le marathon de séries» en français."],
       ["fill","Completa: “___ deux heures que je regarde cette série sans m'arrêter.”",["J'ai", "Ça fait", "Je suis", "Il y a"],1,"« Ça fait » + durée + « que » exprime combien de temps dure une action : « ça fait deux heures que je regarde »."],
-      ["translate","Traduis : « We have been playing video games all weekend. »",["On est tout le week-end en train de jouer aux jeux vidéo.", "Ça fait tout le week-end qu'on joue aux jeux vidéo.", "Ça fait tout le week-end qu'on regarde aux jeux vidéo.", "Ça fait tout le week-end qu'on joue aux séries."],1,"« Have been playing all weekend » = « Ça fait tout le week-end qu'on joue », avec « ça fait... que »."],
+      ["translate","Traduis : « Llevamos todo el fin de semana jugando videojuegos. »",["On est tout le week-end en train de jouer aux jeux vidéo.", "Ça fait tout le week-end qu'on joue aux jeux vidéo.", "Ça fait tout le week-end qu'on regarde aux jeux vidéo.", "Ça fait tout le week-end qu'on joue aux séries."],1,"« Llevamos todo el fin de semana jugando » = « Ça fait tout le week-end qu'on joue », avec « ça fait... que »."],
       ["arrange","Remets dans l'ordre : [accro / je / suis / devenu / à cette série]",["accro cette Je devenu série à suis", "devenu à accro cette série suis Je", "Je suis devenu accro à cette série", "série à cette devenu suis accro Je"],2,"Sujet + verbe + adjectif + préposition + complément."],
       ["writing","Écris 45-65 mots sur une série ou un jeu vidéo auquel tu es devenu accro, en utilisant « ça fait... que » pour dire depuis combien de temps.",[],["ça fait", "accro", "plateforme"]],
     ]
@@ -1977,7 +1977,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «robo de identidad/phishing» en français ?",["la cybersécurité", "l'usurpation d'identité", "les données personnelles", "un mot de passe sécurisé"],1,"«robo de identidad/phishing» se dit «l'usurpation d'identité» en français."],
       ["mcq","Comment dit-on «cifrar información» en français ?",["pirater un système", "chiffrer les informations", "les données personnelles", "l'usurpation d'identité"],1,"«cifrar información» se dit «chiffrer les informations» en français."],
       ["fill","Completa: “Les données ___ nous partageons en ligne peuvent être piratées.”",["que", "dont", "où", "qui"],0,"La proposition déterminative utilise « que » sans virgules pour préciser de quelles données on parle."],
-      ["translate","Traduis : « My data, which I rarely share, is well protected. »",["Mes données, que je partage peu, sont bien protégées.", "Mes données que je partage peu sont bien protégées.", "Mes données, que je pirate peu, sont bien protégées.", "Mes données, que je partage peu, sont mal protégées."],0,"La virgule marque une explicative : « mes données, que je partage peu, » ajoute une information supplémentaire."],
+      ["translate","Traduis : « Mis datos, que rara vez comparto, están bien protegidos. »",["Mes données, que je partage peu, sont bien protégées.", "Mes données que je partage peu sont bien protégées.", "Mes données, que je pirate peu, sont bien protégées.", "Mes données, que je partage peu, sont mal protégées."],0,"La virgule marque une explicative : « mes données, que je partage peu, » ajoute une information supplémentaire."],
       ["arrange","Remets dans l'ordre : [sécurisé / as besoin / mot de passe / d'un / tu]",["besoin passe mot as sécurisé Tu d'un de", "d'un Tu as de sécurisé passe mot besoin", "sécurisé besoin passe d'un mot Tu as de", "Tu as besoin d'un mot de passe sécurisé"],3,"Sujet + verbe + article + nom + adjectif."],
       ["writing","Écris 55-75 mots sur la façon dont tu protèges tes données personnelles en ligne, en utilisant au moins une relative déterminative et une explicative.",[],["que", "qui", "données personnelles"]],
     ]
@@ -2002,7 +2002,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el legado» en français ?",["l'identité collective", "l'héritage", "le patrimoine culturel", "un monument commémoratif"],1,"«el legado» se dit «l'héritage» en français."],
       ["mcq","Comment dit-on «reescribir la historia» en français ?",["réécrire l'histoire", "préserver la mémoire historique", "l'identité collective", "le patrimoine culturel"],0,"«reescribir la historia» se dit «réécrire l'histoire» en français."],
       ["fill","Completa: “Le monument ___ dédié aux victimes du conflit.”",["était", "est", "soit", "a été"],1,"« Être + participe passé » décrit l'état résultant : « le monument est dédié »."],
-      ["translate","Traduis : « Collective identity is often shaped by historical memory. »",["L'identité collective est souvent marquée par l'héritage historique.", "L'identité collective est souvent marquée par la mémoire historique.", "Le patrimoine culturel est souvent marqué par la mémoire historique.", "L'identité collective a été souvent marquée par la mémoire historique."],1,"« Is shaped by » comme état résultant se traduit par « est marquée par »."],
+      ["translate","Traduis : « La identidad colectiva suele estar marcada por la memoria histórica. »",["L'identité collective est souvent marquée par l'héritage historique.", "L'identité collective est souvent marquée par la mémoire historique.", "Le patrimoine culturel est souvent marqué par la mémoire historique.", "L'identité collective a été souvent marquée par la mémoire historique."],1,"« Está marcada por » comme état résultant se traduit par « est marquée par »."],
       ["arrange","Remets dans l'ordre : [patrimoine / préserver / le / culturel / devons / nous]",["devons patrimoine culturel Nous préserver le", "Nous devons préserver le patrimoine culturel", "le devons culturel Nous préserver patrimoine", "le devons Nous culturel patrimoine préserver"],1,"Sujet + verbe modal + infinitif + article + nom + adjectif."],
       ["writing","Écris 55-75 mots sur un monument ou une tradition qui préserve la mémoire historique de ta communauté, en utilisant au moins deux constructions « être + participe passé ».",[],["est dédié", "est marqué", "patrimoine culturel"]],
     ]
@@ -2027,7 +2027,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «leer entre líneas» en français ?",["éviter de s'engager", "le flou délibéré", "un langage évasif", "lire entre les lignes"],3,"«leer entre líneas» se dit «lire entre les lignes» en français."],
       ["mcq","Comment dit-on «lenguaje evasivo» en français ?",["le flou délibéré", "un communiqué institutionnel", "l'ambiguïté calculée", "un langage évasif"],3,"«lenguaje evasivo» se dit «un langage évasif» en français."],
       ["fill","Completa: “Il ___ de souligner que le communiqué évite de s'engager sur des dates précises.”",["y a", "convient", "est", "peut"],1,"« Il convient de souligner que » est un connecteur fixe de nuance épistémique qui introduit une observation pertinente."],
-      ["translate","Traduis avec précision : « In a way, the vagueness is deliberate. »",["En quelque sorte, le flou est évasif.", "En quelque sorte, le flou est délibéré.", "De quelque sorte, le flou est délibéré.", "En quelque sorte, l'ambiguïté est calculée."],1,"« In a way » = « en quelque sorte », connecteur fixe de nuance."],
+      ["translate","Traduis avec précision : « En cierto modo, la vaguedad es deliberada. »",["En quelque sorte, le flou est évasif.", "En quelque sorte, le flou est délibéré.", "De quelque sorte, le flou est délibéré.", "En quelque sorte, l'ambiguïté est calculée."],1,"« En cierto modo » = « en quelque sorte », connecteur fixe de nuance."],
       ["arrange","Remets dans l'ordre : [aucun / doute / ne / fait / que / il / le langage / est évasif]",["que évasif ne Il le fait aucun langage est doute", "Il est que fait le ne aucun langage doute évasif", "Il aucun doute est le fait ne langage évasif que", "Il ne fait aucun doute que le langage est évasif"],3,"Connecteur fixe « il ne fait aucun doute que » + subordonnée."],
       ["writing","Écris 55-75 mots analysant un communiqué institutionnel réel ou inventé qui utilise une ambiguïté calculée, en utilisant au moins deux connecteurs de nuance épistémique.",[],["il convient de souligner que", "il ne fait aucun doute que", "en quelque sorte"]],
     ]
@@ -2052,7 +2052,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la natación» en français ?",["le football", "l'équipe", "la natation", "la salle de sport"],2,"«la natación» se dit «la natation» en français."],
       ["mcq","Comment dit-on «el equipo» en français ?",["le football", "la natation", "la salle de sport", "l'équipe"],3,"«el equipo» se dit «l'équipe» en français."],
       ["fill","Completa: “J'___ courir le matin.”",["aimes", "aime", "aimer", "aiment"],1,"« Aimer » se conjugue avec le sujet « je » : « j'aime courir »."],
-      ["translate","Traduis : « She likes team sports. »",["Elles aiment les sports d'équipe.", "Elle aime le sport d'équipe.", "Elle aime les sports d'équipe.", "Elle aime les sports individuels."],2,"« Elle aime » concorde avec le sujet singulier « elle »."],
+      ["translate","Traduis : « Le gustan los deportes de equipo. »",["Elles aiment les sports d'équipe.", "Elle aime le sport d'équipe.", "Elle aime les sports d'équipe.", "Elle aime les sports individuels."],2,"« Elle aime » concorde avec le sujet singulier « elle »."],
       ["arrange","Remets dans l'ordre : [sport / vais / je / faire / à / la / salle / pour / du]",["Je vais à la salle pour faire du sport","du pour salle sport faire Je la vais à","sport la vais à salle Je du faire pour","la pour Je sport du à faire vais salle"],0,"Sujet + « aller » + lieu + « pour » + infinitif."],
       ["writing","Décris en 20-30 mots quels sports tu aimes et à quelle fréquence tu fais de l'exercice, en utilisant « aimer ».",[],["j'aime", "je fais de l'exercice", "sport"]],
     ]
@@ -2077,7 +2077,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «fregar los platos» en français ?",["sortir les poubelles", "laver la vaisselle", "repasser les vêtements", "faire le lit"],1,"«fregar los platos» se dit «laver la vaisselle» en français."],
       ["mcq","Comment dit-on «pasar la aspiradora» en français ?",["balayer", "faire le lit", "sortir les poubelles", "passer l'aspirateur"],3,"«pasar la aspiradora» se dit «passer l'aspirateur» en français."],
       ["fill","Completa: “Avant de sortir de la maison, ___ faut faire le lit.”",["on", "elle", "ça", "il"],3,"« Il faut » + infinitif est une expression impersonnelle fixe : « il faut faire »."],
-      ["translate","Traduis : « You have to take out the trash every day. »",["Il faut balayer les poubelles tous les jours.","Il faut sortant les poubelles tous les jours.","Il faut sortir les poubelles une fois par semaine.","Il faut sortir les poubelles tous les jours."],3,"« You have to » ici est impersonnel et se traduit mieux par « il faut »."],
+      ["translate","Traduis : « Hay que sacar la basura todos los días. »",["Il faut balayer les poubelles tous les jours.","Il faut sortant les poubelles tous les jours.","Il faut sortir les poubelles une fois par semaine.","Il faut sortir les poubelles tous les jours."],3,"« Hay que » ici est impersonnel et se traduit mieux par « il faut »."],
       ["arrange","Remets dans l'ordre : [vaisselle / laver / faut / la / il]",["faut vaisselle la laver Il", "laver vaisselle Il faut la", "Il faut laver la vaisselle", "faut laver Il la vaisselle"],2,"« Il faut » + infinitif + complément."],
       ["speaking","Décris en 40-60 mots quelles tâches ménagères il faut faire chez toi chaque semaine, en utilisant « il faut ».",[],["il faut", "chaque semaine", "à la maison"]],
     ]
@@ -2102,7 +2102,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «enamorarse de alguien» en français ?",["manquer à quelqu'un", "tomber amoureux de quelqu'un", "avoir un rendez-vous", "rompre avec quelqu'un"],1,"«enamorarse de alguien» se dit «tomber amoureux de quelqu'un» en français."],
       ["mcq","Comment dit-on «echar de menos a alguien» en français ?",["manquer à quelqu'un", "avoir un rendez-vous", "rompre avec quelqu'un", "se fiancer/s'engager"],0,"«echar de menos a alguien» se dit «manquer à quelqu'un» en français."],
       ["fill","Completa: “Je te promets que je ne ___ jamais avec toi.”",["ai rompu", "rompais", "romps", "romprai"],3,"Le futur simple « romprai » exprime une promesse ferme sur quelque chose qui n'arrivera pas."],
-      ["translate","Traduis : « I think you two will get engaged soon. »",["Je crois que vous tomberez amoureux bientôt.", "Je crois que vous vous fiancerez bientôt.", "Je crois que vous vous fiancerez demain.", "Je crois que vous vous fiancez bientôt."],1,"« Will get engaged » = « vous vous fiancerez », futur simple pour une prédiction."],
+      ["translate","Traduis : « Creo que ustedes dos se comprometerán pronto. »",["Je crois que vous tomberez amoureux bientôt.", "Je crois que vous vous fiancerez bientôt.", "Je crois que vous vous fiancerez demain.", "Je crois que vous vous fiancez bientôt."],1,"« Se comprometerán » = « vous vous fiancerez », futur simple pour une prédiction."],
       ["arrange","Remets dans l'ordre : [rendez-vous / vais / avoir / un / demain / je]",["Je vais avoir un rendez-vous demain","demain avoir rendez-vous un Je vais","demain rendez-vous avoir Je un vais","demain avoir rendez-vous vais un Je"],0,"« Aller » + infinitif + article + nom + adverbe de temps."],
       ["writing","Écris 45-65 mots sur une relation (réelle ou inventée), en utilisant au moins deux verbes au futur simple pour faire des promesses ou des prédictions.",[],["promettrai/promettra", "serons", "partenaire"]],
     ]
@@ -2127,7 +2127,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «encarecer la vivienda local» en français ?",["saturer une destination touristique", "faire grimper les loyers locaux", "respecter la culture locale", "répartir l'impact touristique"],1,"«encarecer la vivienda local» se dit «faire grimper les loyers locaux» en français."],
       ["mcq","Comment dit-on «repartir el impacto del turismo» en français ?",["saturer une destination touristique", "respecter la culture locale", "répartir l'impact touristique", "faire grimper les loyers locaux"],2,"«repartir el impacto del turismo» se dit «répartir l'impact touristique» en français."],
       ["fill","Completa: “La destination restera saturée à moins que le tourisme ne ___ régulé.”",["soit", "sera", "serait", "est"],0,"« À moins que » exige le subjonctif : « à moins que... ne soit régulé »."],
-      ["translate","Traduis : « Tourism will be positive provided that the local culture is respected. »",["Le tourisme sera positif à moins que la culture locale soit respectée.", "Le tourisme sera positif pourvu que la culture locale est respectée.", "Le tourisme sera positif pourvu que la culture locale soit ignorée.", "Le tourisme sera positif pourvu que la culture locale soit respectée."],3,"« Provided that » = « pourvu que », suivi du subjonctif : « soit respectée »."],
+      ["translate","Traduis : « El turismo será positivo siempre que se respete la cultura local. »",["Le tourisme sera positif à moins que la culture locale soit respectée.", "Le tourisme sera positif pourvu que la culture locale est respectée.", "Le tourisme sera positif pourvu que la culture locale soit ignorée.", "Le tourisme sera positif pourvu que la culture locale soit respectée."],3,"« Siempre que » = « pourvu que », suivi du subjonctif : « soit respectée »."],
       ["arrange","Remets dans l'ordre : [saturées / destinations / sont / beaucoup de / touristiques]",["saturées touristiques destinations de sont Beaucoup", "saturées touristiques sont de destinations Beaucoup", "destinations touristiques de sont Beaucoup saturées", "Beaucoup de destinations touristiques sont saturées"],3,"Sujet + verbe + adjectif."],
       ["writing","Écris 55-75 mots sur le surtourisme dans une destination que tu connais, en utilisant au moins un « à moins que » et un « pourvu que » avec subjonctif.",[],["à moins que", "pourvu que", "durable"]],
     ]
@@ -2152,7 +2152,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un plato emblemático» en français ?",["la fusion culinaire", "le palais collectif", "un plat emblématique", "l'appellation d'origine protégée"],2,"«un plato emblemático» se dit «un plat emblématique» en français."],
       ["mcq","Comment dit-on «apropiarse de una tradición culinaria» en français ?",["préserver une recette traditionnelle", "un plat emblématique", "la fusion culinaire", "s'approprier une tradition culinaire"],3,"«apropiarse de una tradición culinaria» se dit «s'approprier une tradition culinaire» en français."],
       ["fill","Completa: “Ce qui ___ une culture, c'est en grande partie sa gastronomie.”",["définirait", "définissent", "définit", "définir"],2,"La structure emphatique « ce qui + verbe + c'est » met le verbe au singulier, accordé avec « ce qui »."],
-      ["translate","Traduis avec une structure emphatique : « What worries local chefs is the appropriation of their recipes. »",["Ce qui inquiètent les chefs locaux, c'est l'appropriation de leurs recettes.", "Ce qui inquiète les chefs locaux, c'est l'appropriation de leurs recettes.", "Ce qui inquiète les chefs locaux, c'est la fusion de leurs recettes.", "Ce que inquiète les chefs locaux, c'est l'appropriation de leurs recettes."],1,"Le verbe « inquiète » s'accorde au singulier avec « ce qui », sujet de la phrase emphatique."],
+      ["translate","Traduis avec une structure emphatique : « Lo que preocupa a los chefs locales es la apropiación de sus recetas. »",["Ce qui inquiètent les chefs locaux, c'est l'appropriation de leurs recettes.", "Ce qui inquiète les chefs locaux, c'est l'appropriation de leurs recettes.", "Ce qui inquiète les chefs locaux, c'est la fusion de leurs recettes.", "Ce que inquiète les chefs locaux, c'est l'appropriation de leurs recettes."],1,"Le verbe « inquiète » s'accorde au singulier avec « ce qui », sujet de la phrase emphatique."],
       ["arrange","Remets dans l'ordre : [recette / préserver / cette / devons / traditionnelle / nous]",["recette cette traditionnelle préserver Nous devons", "Nous devons préserver cette recette traditionnelle", "Nous préserver cette recette devons traditionnelle", "recette préserver traditionnelle Nous devons cette"],1,"Sujet + verbe modal + infinitif + objet démonstratif + nom + adjectif."],
       ["writing","Écris 55-75 mots sur un plat que tu considères comme faisant partie de ton identité culturelle, en utilisant au moins deux structures emphatiques avec « ce qui/ce que ».",[],["ce qui définit", "ce qui représente", "identité culturelle"]],
     ]
@@ -2177,7 +2177,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un chivo expiatorio» en français ?",["une crise fabriquée", "un discours alarmiste", "un bouc émissaire", "la panique morale"],2,"«un chivo expiatorio» se dit «un bouc émissaire» en français."],
       ["mcq","Comment dit-on «exagerar desproporcionadamente una amenaza» en français ?",["disproportionner une menace", "catastrophiser une situation", "la panique morale", "un bouc émissaire"],0,"«exagerar desproporcionadamente una amenaza» se dit «disproportionner une menace» en français."],
       ["fill","Completa: “Non seulement la menace est exagérée, ___ on cherche aussi un bouc émissaire.”",["cependant", "mais", "car", "donc"],1,"« Non seulement... mais aussi » intensifie une affirmation en ajoutant un second élément."],
-      ["translate","Traduis avec précision : « Alarmist rhetoric is becoming increasingly common in the media. »",["Le discours alarmiste est de plus en plus grave dans les médias.", "Le discours alarmiste est de plus en plus fréquent dans les médias.", "Le discours alarmiste est de plus en plus rare dans les médias.", "La panique morale est de plus en plus fréquente dans les médias."],1,"« Increasingly common » = « de plus en plus fréquent », structure d'intensification graduelle."],
+      ["translate","Traduis avec précision : « La retórica alarmista es cada vez más frecuente en los medios. »",["Le discours alarmiste est de plus en plus grave dans les médias.", "Le discours alarmiste est de plus en plus fréquent dans les médias.", "Le discours alarmiste est de plus en plus rare dans les médias.", "La panique morale est de plus en plus fréquente dans les médias."],1,"« Cada vez más frecuente » = « de plus en plus fréquent », structure d'intensification graduelle."],
       ["arrange","Remets dans l'ordre : [émissaire / cherchent / un / médias / bouc / les]",["médias un cherchent bouc Les émissaire", "Les médias cherchent un bouc émissaire", "Les un cherchent bouc émissaire médias", "cherchent un Les bouc émissaire médias"],1,"Sujet + verbe + article + nom + adjectif."],
       ["writing","Écris 55-75 mots analysant un cas réel ou inventé de panique morale dans les médias, en utilisant au moins une structure « non seulement... mais aussi » et une avec « de plus en plus ».",[],["non seulement... mais aussi", "de plus en plus", "panique morale"]],
     ]
@@ -2202,7 +2202,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el lápiz» en français ?",["le cahier", "les mathématiques", "le crayon", "l'histoire"],2,"«el lápiz» se dit «le crayon» en français."],
       ["mcq","Comment dit-on «las matemáticas» en français ?",["le cahier", "le crayon", "l'histoire", "les mathématiques"],3,"«las matemáticas» se dit «les mathématiques» en français."],
       ["fill","Completa: “J'ai ___ nouveau sac à dos pour l'école.”",["des", "une", "un", "le"],2,"On utilise l'article indéfini « un » car c'est la première fois qu'on le mentionne."],
-      ["translate","Traduis : « The notebook is in the backpack. »",["Le crayon est dans le sac à dos.", "Le cahier est dans la salle de classe.", "Un cahier est dans le sac à dos.", "Le cahier est dans le sac à dos."],3,"« The notebook » est déjà connu, donc on utilise l'article défini « le »."],
+      ["translate","Traduis : « El cuaderno está en la mochila. »",["Le crayon est dans le sac à dos.", "Le cahier est dans la salle de classe.", "Un cahier est dans le sac à dos.", "Le cahier est dans le sac à dos."],3,"« El cuaderno » est déjà connu, donc on utilise l'article défini « le »."],
       ["arrange","Remets dans l'ordre : [beaucoup / j'aime / l'histoire]",["l'histoire J'aime beaucoup", "beaucoup J'aime l'histoire", "J'aime l'histoire beaucoup", "J'aime beaucoup l'histoire"],3,"Sujet + verbe + adverbe + article défini + nom."],
       ["writing","Décris en 20-30 mots quelles fournitures scolaires tu as et quelle matière tu préfères, en utilisant des articles définis et indéfinis.",[],["un/une", "le/la", "j'aime"]],
     ]
@@ -2227,7 +2227,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el sello» en français ?",["le colis", "le timbre", "la lettre", "l'adresse"],1,"«el sello» se dit «le timbre» en français."],
       ["mcq","Comment dit-on «el buzón» en français ?",["le timbre", "la boîte aux lettres", "la lettre", "le colis"],1,"«el buzón» se dit «la boîte aux lettres» en français."],
       ["fill","Completa: “Le colis ? Je ___ ai reçu ce matin.”",["l'", "le", "les", "la"],0,"« Le colis » est masculin singulier et devient « l' » devant une voyelle : « je l'ai reçu »."],
-      ["translate","Traduis : « The letters? I sent them yesterday. »",["Les lettres ? Je les ai envoyé hier.", "Les lettres ? Je l'ai envoyées hier.", "Le lettre ? Je les ai envoyées hier.", "Les lettres ? Je les ai envoyées hier."],3,"« Les lettres » est féminin pluriel, donc on le remplace par « les »."],
+      ["translate","Traduis : « ¿Las cartas? Las envié ayer. »",["Les lettres ? Je les ai envoyé hier.", "Les lettres ? Je l'ai envoyées hier.", "Le lettre ? Je les ai envoyées hier.", "Les lettres ? Je les ai envoyées hier."],3,"« Les lettres » est féminin pluriel, donc on le remplace par « les »."],
       ["arrange","Remets dans l'ordre : [adresse / j'ai besoin / ton / de]",["adresse ton de J'ai besoin", "J'ai besoin de ton adresse", "ton adresse besoin de J'ai", "de besoin ton adresse J'ai"],1,"Sujet + verbe + préposition + objet possessif + nom."],
       ["speaking","Décris en 40-60 mots la dernière fois que tu as envoyé une lettre ou un colis, en utilisant des pronoms objets directs (le/la/les).",[],["je l'ai envoyé(e)", "je les ai reçu(e)s", "colis"]],
     ]
@@ -2252,7 +2252,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «el estreno» en français ?",["la première", "le billet", "le siège", "les effets spéciaux"],0,"«el estreno» se dit «la première» en français."],
       ["mcq","Comment dit-on «el reparto» en français ?",["les effets spéciaux", "le casting/la distribution", "la première", "le billet"],1,"«el reparto» se dit «le casting/la distribution» en français."],
       ["fill","Completa: “On arrive avant que le film ne ___.”",["commence", "commencera", "commençait", "a commencé"],0,"« Avant que » exige le subjonctif car l'action n'a pas encore eu lieu : « avant que... commence »."],
-      ["translate","Traduis : « We talk while we wait for the premiere. »",["On discute pendant qu'on attende la première.", "On discute pendant qu'on attend la première.", "On discute quand on attend la première.", "On discute pendant qu'on attend l'entracte."],1,"« Pendant que » + indicatif décrit des actions simultanées : « pendant qu'on attend »."],
+      ["translate","Traduis : « Conversamos mientras esperamos el estreno. »",["On discute pendant qu'on attende la première.", "On discute pendant qu'on attend la première.", "On discute quand on attend la première.", "On discute pendant qu'on attend l'entracte."],1,"« Pendant que » + indicatif décrit des actions simultanées : « pendant qu'on attend »."],
       ["arrange","Remets dans l'ordre : [cinéma / allons / au / arrivant / en]",["En allons cinéma au arrivant", "En arrivant allons au cinéma", "au allons En arrivant cinéma", "cinéma arrivant En allons au"],1,"Gérondif + verbe + préposition + nom."],
       ["writing","Écris 45-65 mots sur ta dernière visite au cinéma ou au théâtre, en utilisant au moins deux phrases temporelles avec « quand », « pendant que » ou « avant que ».",[],["quand", "pendant que", "avant que"]],
     ]
@@ -2277,7 +2277,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «concienciar sobre algo» en français ?",["sensibiliser sur quelque chose", "mobiliser les gens", "signer une pétition", "exiger un changement"],0,"«concienciar sobre algo» se dit «sensibiliser sur quelque chose» en français."],
       ["mcq","Comment dit-on «movilizar a la gente» en français ?",["signer une pétition", "exiger un changement", "sensibiliser sur quelque chose", "mobiliser les gens"],3,"«movilizar a la gente» se dit «mobiliser les gens» en français."],
       ["fill","Completa: “Les manifestants exigent que le gouvernement ___.”",["agit", "agira", "agirait", "agisse"],3,"« Exiger que » exige le subjonctif : « exigent que... agisse »."],
-      ["translate","Traduis : « The collective is asking people to sign the petition. »",["Le collectif exige que les gens signent la pétition.", "Le collectif demande que les gens signent la manifestation.", "Le collectif demande que les gens signent la pétition.", "Le collectif demande que les gens signeront la pétition."],2,"« Demander que » exige le subjonctif : « demande que... signent »."],
+      ["translate","Traduis : « El colectivo pide que la gente firme la petición. »",["Le collectif exige que les gens signent la pétition.", "Le collectif demande que les gens signent la manifestation.", "Le collectif demande que les gens signent la pétition.", "Le collectif demande que les gens signeront la pétition."],2,"« Demander que » exige le subjonctif : « demande que... signent »."],
       ["arrange","Remets dans l'ordre : [pétition / vais / signer / la / je]",["Je vais signer la pétition","Je pétition signer vais la","Je pétition la signer vais","vais Je la signer pétition"],0,"« Aller » + infinitif + article + nom."],
       ["writing","Écris 55-75 mots sur une cause sociale qui te tient à cœur, en utilisant au moins deux verbes d'influence + subjonctif (exiger que, demander que, suggérer que).",[],["j'exige que", "je demande que", "manifestation"]],
     ]
@@ -2302,7 +2302,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la tasa de natalidad» en français ?",["le système de retraite", "l'espérance de vie", "le fossé générationnel", "le taux de natalité"],3,"«la tasa de natalidad» se dit «le taux de natalité» en français."],
       ["mcq","Comment dit-on «sostener el sistema de pensiones» en français ?",["le taux de natalité", "soutenir le système de retraite", "l'espérance de vie", "le fossé générationnel"],1,"«sostener el sistema de pensiones» se dit «soutenir le système de retraite» en français."],
       ["fill","Completa: “La population vieillit si vite ___ le système de retraite est en péril.”",["que", "comme", "donc", "ainsi"],0,"« Si + adjectif/adverbe + que » introduit la conséquence : « si vite que... est en péril »."],
-      ["translate","Traduis avec une proposition consécutive : « The birth rate has dropped in such a way that young workers are lacking. »",["L'espérance de vie a baissé de telle sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé si sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il y a trop de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il manque de jeunes travailleurs."],3,"« In such a way that » = « de telle sorte que », introduisant la conséquence."],
+      ["translate","Traduis avec une proposition consécutive : « La natalidad ha bajado de tal modo que faltan trabajadores jóvenes. »",["L'espérance de vie a baissé de telle sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé si sorte qu'il manque de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il y a trop de jeunes travailleurs.", "La natalité a baissé de telle sorte qu'il manque de jeunes travailleurs."],3,"« De tal modo que » = « de telle sorte que », introduisant la conséquence."],
       ["arrange","Remets dans l'ordre : [retraite / système / préoccupe / le / de / beaucoup de gens]",["de préoccupe beaucoup gens Le retraite système de", "Le système préoccupe beaucoup retraite de de gens", "de beaucoup système de gens Le retraite préoccupe", "Le système de retraite préoccupe beaucoup de gens"],3,"Sujet + verbe + complément."],
       ["writing","Écris 55-75 mots sur le vieillissement démographique dans ton pays, en utilisant au moins une phrase avec « si...que » et une avec « de telle sorte que ».",[],["si...que", "de telle sorte que", "vieillissement"]],
     ]
@@ -2327,7 +2327,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un vacío discursivo» en français ?",["le silence éloquent", "un vide discursif", "le non-dit", "l'ellipse rhétorique"],1,"«un vacío discursivo» se dit «un vide discursif» en français."],
       ["mcq","Comment dit-on «dejar algo en el aire» en français ?",["omettre délibérément quelque chose", "laisser quelque chose en suspens", "un vide discursif", "le silence éloquent"],1,"«dejar algo en el aire» se dit «laisser quelque chose en suspens» en français."],
       ["fill","Completa: “Certains se taisent par peur ; d'autres, par ___.”",["complicité", "se taisent complicité", "que complicité", "est complicité"],0,"L'ellipse omet le verbe répété « se taisent », ne laissant que le complément : « d'autres, par complicité »."],
-      ["translate","Traduis avec ellipse rhétorique : « He promised reforms... and silence. »",["Il a promis des réformes... et le silence.", "Il a promis des réformes... et un silence.", "Il a promis des réformes... et était le silence.", "Il a promis des réformes... et du bruit."],0,"L'ellipse rhétorique omet le verbe attendu après les points de suspension, ne laissant que « et le silence »."],
+      ["translate","Traduis avec ellipse rhétorique : « Prometió reformas... y silencio. »",["Il a promis des réformes... et le silence.", "Il a promis des réformes... et un silence.", "Il a promis des réformes... et était le silence.", "Il a promis des réformes... et du bruit."],0,"L'ellipse rhétorique omet le verbe attendu après les points de suspension, ne laissant que « et le silence »."],
       ["arrange","Remets dans l'ordre : [dit / parfois / plus / le silence / que / les mots]",["silence mots dit les que Le parfois plus", "Le silence dit parfois plus que les mots", "parfois Le dit les mots plus que silence", "parfois mots que Le dit plus silence les"],1,"Sujet + verbe + adverbe + comparatif + complément."],
       ["writing","Écris 55-75 mots analysant un exemple (réel ou inventé) de silence rhétorique dans un discours, en utilisant au moins une ellipse délibérée.",[],["le non-dit", "silence éloquent", "omettre"]],
     ]
@@ -2352,7 +2352,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «la medianoche» en français ?",["minuit", "pile", "midi", "l'après-midi"],0,"«la medianoche» se dit «minuit» en français."],
       ["mcq","Comment dit-on «en punto» en français ?",["midi", "minuit", "pile", "l'après-midi"],2,"«en punto» se dit «pile» en français."],
       ["fill","Completa: “Il ___ trois heures de l'après-midi.”",["fait", "sont", "est", "a"],2,"On utilise toujours « il est » pour l'heure, même au pluriel : « il est trois heures »."],
-      ["translate","Traduis : « It's one o'clock in the morning. »",["Il est deux heures du matin.", "Il est une heure du matin.", "Il est une heures du matin.", "Il est une heure de l'après-midi."],1,"Avec « une heure » (singulier), on n'ajoute pas de « s » à « heure »."],
+      ["translate","Traduis : « Es la una de la mañana. »",["Il est deux heures du matin.", "Il est une heure du matin.", "Il est une heures du matin.", "Il est une heure de l'après-midi."],1,"Avec « une heure » (singulier), on n'ajoute pas de « s » à « heure »."],
       ["arrange","Remets dans l'ordre : [quatre / il / heures / est / de / l'après-midi]",["Il est quatre heures de l'après-midi","de heures est Il quatre l'après-midi","l'après-midi est heures quatre de Il","est l'après-midi Il quatre heures de"],0,"Sujet + verbe + nombre + nom + préposition + moment de la journée."],
       ["writing","Décris en 20-30 mots ta routine quotidienne en mentionnant des heures précises, en utilisant « il est » et « du matin/de l'après-midi/du soir ».",[],["il est", "du matin", "de l'après-midi"]],
     ]
@@ -2377,7 +2377,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «retirar dinero» en français ?",["déposer de l'argent", "retirer de l'argent", "le compte bancaire", "le distributeur automatique"],1,"«retirar dinero» se dit «retirer de l'argent» en français."],
       ["mcq","Comment dit-on «el saldo» en français ?",["le distributeur automatique", "le compte bancaire", "la carte de débit", "le solde"],3,"«el saldo» se dit «le solde» en français."],
       ["fill","Completa: “Est-ce que je ___ ouvrir un compte ici, s'il vous plaît ?”",["pouvons", "peut", "peux", "pouvez"],2,"On utilise « peux » à la première personne pour demander une permission : « est-ce que je peux »."],
-      ["translate","Traduis : « You can withdraw money at any ATM. »",["Tu peux retirer de l'argent à n'importe quel distributeur.", "Tu peux déposer de l'argent à n'importe quel distributeur.", "Tu dois retirer de l'argent à n'importe quel distributeur.", "Tu peux retirer de l'argent à n'importe quelle banque."],0,"« You can withdraw » = « tu peux retirer », avec « pouvoir » + infinitif."],
+      ["translate","Traduis : « Puedes retirar dinero en cualquier cajero automático. »",["Tu peux retirer de l'argent à n'importe quel distributeur.", "Tu peux déposer de l'argent à n'importe quel distributeur.", "Tu dois retirer de l'argent à n'importe quel distributeur.", "Tu peux retirer de l'argent à n'importe quelle banque."],0,"« Puedes retirar » = « tu peux retirer », avec « pouvoir » + infinitif."],
       ["arrange","Remets dans l'ordre : [solde / consulter / veux / mon / je]",["solde consulter mon Je veux", "Je veux consulter mon solde", "consulter veux Je solde mon", "Je solde mon veux consulter"],1,"Sujet + verbe + infinitif + objet possessif + nom."],
       ["speaking","Décris en 40-60 mots comment tu ouvrirais un compte bancaire, en utilisant « pouvoir » pour demander une permission ou exprimer une possibilité.",[],["je peux", "tu peux", "compte"]],
     ]
@@ -2402,7 +2402,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «hacer escala» en français ?",["annuler un vol", "rater le vol/le train", "faire une escale", "le quai"],2,"«hacer escala» se dit «faire une escale» en français."],
       ["mcq","Comment dit-on «el andén» en français ?",["le retard", "le quai", "la place côté fenêtre/couloir", "annuler un vol"],1,"«el andén» se dit «le quai» en français."],
       ["fill","Completa: “Bien que le train ___ en retard, j'ai eu mon vol.”",["arrivera", "arrivait", "soit arrivé", "est arrivé"],2,"« Bien que » exige toujours le subjonctif, même pour un fait réel : « bien que... soit arrivé »."],
-      ["translate","Traduis : « Even if the flight is cancelled, we have another option. »",["Même si le vol soit annulé, nous avons une autre option.", "Bien que le vol est annulé, nous avons une autre option.", "Même si le vol est annulé, nous avons une autre option.", "Même si le train est annulé, nous avons une autre option."],2,"« Even if » = « même si », suivi de l'indicatif : « même si le vol est annulé »."],
+      ["translate","Traduis : « Incluso si el vuelo se cancela, tenemos otra opción. »",["Même si le vol soit annulé, nous avons une autre option.", "Bien que le vol est annulé, nous avons une autre option.", "Même si le vol est annulé, nous avons une autre option.", "Même si le train est annulé, nous avons une autre option."],2,"« Incluso si » = « même si », suivi de l'indicatif : « même si le vol est annulé »."],
       ["arrange","Remets dans l'ordre : [fenêtre / préfère / place / la / côté / je]",["préfère la place Je côté fenêtre", "préfère la côté fenêtre Je place", "Je la fenêtre préfère côté place", "Je préfère la place côté fenêtre"],3,"Sujet + verbe + article + nom + préposition + complément."],
       ["writing","Écris 45-65 mots sur un voyage en train ou en avion avec des imprévus, en utilisant « bien que » et « même si » au moins une fois chacun.",[],["bien que", "même si", "retard"]],
     ]
@@ -2427,7 +2427,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «alquilar en vez de comprar» en français ?",["partager des ressources", "réduire le gaspillage", "louer plutôt qu'acheter", "la consommation responsable"],2,"«alquilar en vez de comprar» se dit «louer plutôt qu'acheter» en français."],
       ["mcq","Comment dit-on «la obsolescencia programada» en français ?",["l'obsolescence programmée", "l'économie collaborative", "la consommation responsable", "partager des ressources"],0,"«la obsolescencia programada» se dit «l'obsolescence programmée» en français."],
       ["fill","Completa: “Ce modèle ___ environ cinq ans d'obsolescence programmée.”",["aurait", "a", "avait", "aura"],3,"Le futur de probabilité exprime une conjecture sur le présent : « aura environ cinq ans »."],
-      ["translate","Traduis avec conditionnel de probabilité : « With that consumption, they would spend fewer resources than they thought. »",["Avec cette consommation, ils dépenseraient moins de ressources que prévu.", "Avec cette consommation, ils dépenseraient plus de ressources que prévu.", "Avec cette consommation, ils dépenseraient moins d'argent que prévu.", "Avec cette consommation, ils dépenseront moins de ressources que prévu."],0,"Le conditionnel de probabilité « dépenseraient » exprime une conjecture sur une situation hypothétique."],
+      ["translate","Traduis avec conditionnel de probabilité : « Con ese consumo, gastarían menos recursos de los que pensaban. »",["Avec cette consommation, ils dépenseraient moins de ressources que prévu.", "Avec cette consommation, ils dépenseraient plus de ressources que prévu.", "Avec cette consommation, ils dépenseraient moins d'argent que prévu.", "Avec cette consommation, ils dépenseront moins de ressources que prévu."],0,"Le conditionnel de probabilité « dépenseraient » exprime une conjecture sur une situation hypothétique."],
       ["arrange","Remets dans l'ordre : [gaspillage / devons / le / réduire / nous]",["Nous le devons réduire gaspillage", "le devons réduire Nous gaspillage", "réduire Nous devons le gaspillage", "Nous devons réduire le gaspillage"],3,"Sujet + verbe modal + infinitif + article + nom."],
       ["writing","Écris 55-75 mots sur l'économie collaborative et la consommation responsable, en utilisant au moins un futur et un conditionnel de probabilité.",[],["aura", "seraient", "consommation responsable"]],
     ]
@@ -2452,7 +2452,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un gesto malinterpretado» en français ?",["la proxémique (distance personnelle)", "le langage corporel", "le contact visuel", "un geste mal interprété"],3,"«un gesto malinterpretado» se dit «un geste mal interprété» en français."],
       ["mcq","Comment dit-on «la proxémica (espacio personal)» en français ?",["un geste mal interprété", "le silence gênant", "le langage corporel", "la proxémique (distance personnelle)"],3,"«la proxémica (espacio personal)» se dit «la proxémique (distance personnelle)» en français."],
       ["fill","Completa: “Il a agi comme s'il ___ le geste, alors qu'il ne le comprenait pas.”",["comprend", "comprendra", "comprenait", "a compris"],2,"« Comme si » est suivi de l'imparfait pour une comparaison au présent : « comme s'il comprenait »."],
-      ["translate","Traduis : « She reacted as if she had been offended. »",["Elle a réagi comme si elle avait été offensée.", "Elle a réagi comme si elle était offensée.", "Elle a réagi comme si elle avait été invitée.", "Elle a réagi comme si elle a été offensée."],0,"« As if she had been offended » se traduit avec le plus-que-parfait : « comme si elle avait été offensée »."],
+      ["translate","Traduis : « Reaccionó como si la hubieran ofendido. »",["Elle a réagi comme si elle avait été offensée.", "Elle a réagi comme si elle était offensée.", "Elle a réagi comme si elle avait été invitée.", "Elle a réagi comme si elle a été offensée."],0,"« Como si la hubieran ofendido » se traduit avec le plus-que-parfait : « comme si elle avait été offensée »."],
       ["arrange","Remets dans l'ordre : [cultures / varie / entre / le contact visuel]",["varie contact Le visuel cultures entre", "contact entre cultures visuel varie Le", "visuel cultures varie entre Le contact", "Le contact visuel varie entre cultures"],3,"Sujet + verbe + préposition + complément."],
       ["writing","Écris 55-75 mots sur un malentendu interculturel lié au langage non verbal, en utilisant au moins deux structures avec « comme si ».",[],["comme si", "langage corporel", "geste"]],
     ]
@@ -2477,7 +2477,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Comment dit-on «un margen de error» en français ?",["les résultats préliminaires", "une marge d'erreur", "l'incertitude statistique", "une hypothèse non confirmée"],1,"«un margen de error» se dit «une marge d'erreur» en français."],
       ["mcq","Comment dit-on «una hipótesis no confirmada» en français ?",["une hypothèse non confirmée", "les résultats préliminaires", "une marge d'erreur", "une corrélation n'implique pas la causalité"],0,"«una hipótesis no confirmada» se dit «une hypothèse non confirmée» en français."],
       ["fill","Completa: “On ___ dire qu'il existe une tendance, bien que les données soient préliminaires.”",["va", "peut", "doit", "pourrait"],3,"« On pourrait dire que » est une expression fixe de nuance épistémique qui adoucit une affirmation."],
-      ["translate","Traduis avec précision : « The results suggest, but do not confirm, a causal relationship. »",["Les résultats suggèrent, sans confirmer, une corrélation statistique.", "Les résultats suggèrent, sans confirmer, un lien de causalité.", "Les résultats suggèrent, en confirmant, un lien de causalité.", "Les résultats confirment, sans suggérer, un lien de causalité."],1,"« Suggest, but do not confirm » se traduit par « suggèrent, sans confirmer », nuançant la certitude."],
+      ["translate","Traduis avec précision : « Los resultados sugieren, pero no confirman, una relación causal. »",["Les résultats suggèrent, sans confirmer, une corrélation statistique.", "Les résultats suggèrent, sans confirmer, un lien de causalité.", "Les résultats suggèrent, en confirmant, un lien de causalité.", "Les résultats confirment, sans suggérer, un lien de causalité."],1,"« Sugieren, pero no confirman » se traduit par « suggèrent, sans confirmer », nuançant la certitude."],
       ["arrange","Remets dans l'ordre : [corrélation / pas / causalité / une / n'implique / une]",["Une corrélation n'implique pas une causalité","causalité corrélation une n'implique Une pas","une Une n'implique corrélation pas causalité","causalité n'implique une Une corrélation pas"],0,"Article + nom + négation + verbe + nom."],
       ["writing","Écris 55-75 mots analysant une étude scientifique (réelle ou inventée) aux résultats préliminaires, en utilisant au moins deux expressions de nuance épistémique.",[],["on pourrait dire que", "les données suggèrent", "incertitude"]],
     ]
@@ -2499,10 +2499,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cold” en francés?",["le printemps","ensoleillé","chaud","froid"],3,"“Cold” es “froid” en francés."],
-      ["mcq","¿Cómo se dice “rainy” en francés?",["le printemps","pluvieux","chaud","ensoleillé"],1,"“Rainy” es “pluvieux” en francés."],
+      ["mcq","¿Cómo se dice “frío” en francés?",["le printemps","ensoleillé","chaud","froid"],3,"“Frío” es “froid” en francés."],
+      ["mcq","¿Cómo se dice “lluvioso” en francés?",["le printemps","pluvieux","chaud","ensoleillé"],1,"“Lluvioso” es “pluvieux” en francés."],
       ["fill","Completa: “Il fait très ___ aujourd'hui, prends un parapluie.”",["pluvieux", "ensoleillé", "chaud", "froid"],0,"“Pluvieux” describe un clima con lluvia: “il fait pluvieux”."],
-      ["translate","Traduce: “It's very cold in winter.”",["Il fait très froid en hiver.", "Il fait très froid en été.", "Il fait très chaud en hiver.", "Il est très froid en hiver."],0,"“It's very cold” se traduce como “il fait très froid”, con el verbo impersonal “faire”."],
+      ["translate","Traduce: “Hace mucho frío en invierno.”",["Il fait très froid en hiver.", "Il fait très froid en été.", "Il fait très chaud en hiver.", "Il est très froid en hiver."],0,"“Hace mucho frío” se traduce como “il fait très froid”, con el verbo impersonal “faire”."],
       ["arrange","Ordena: [beau / aujourd'hui / fait / il]",["il fait beau aujourd'hui", "aujourd'hui fait il beau", "fait il beau aujourd'hui", "aujourd'hui il fait beau"],0,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
       ["writing","Describe en francés, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “il fait”.",[],["il fait", "ensoleillé", "froid"]],
     ]
@@ -2524,10 +2524,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the veterinarian” en francés?",["nourrir l'animal","promener le chien","le vétérinaire","vacciner"],2,"“The veterinarian” es “le vétérinaire” en francés."],
-      ["mcq","¿Cómo se dice “to vaccinate” en francés?",["nourrir l'animal","adopter un animal","promener le chien","vacciner"],3,"“To vaccinate” es “vacciner” en francés."],
+      ["mcq","¿Cómo se dice “el veterinario” en francés?",["nourrir l'animal","promener le chien","le vétérinaire","vacciner"],2,"“El veterinario” es “le vétérinaire” en francés."],
+      ["mcq","¿Cómo se dice “vacunar” en francés?",["nourrir l'animal","adopter un animal","promener le chien","vacciner"],3,"“Vacunar” es “vacciner” en francés."],
       ["fill","Completa: “Je ___ promener le chien tous les matins.”",["doit", "dois", "devez", "devons"],1,"“Devoir” con “je” se conjuga como “je dois”."],
-      ["translate","Traduce: “I have to feed the pet twice a day.”",["Je dois nourrir l'animal une fois par jour.", "J'ai dû nourrir l'animal deux fois par jour.", "Je dois promener l'animal deux fois par jour.", "Je dois nourrir l'animal deux fois par jour."],3,"“I have to feed” se traduce con “je dois nourrir”, obligación en presente."],
+      ["translate","Traduce: “Tengo que dar de comer a la mascota dos veces al día.”",["Je dois nourrir l'animal une fois par jour.", "J'ai dû nourrir l'animal deux fois par jour.", "Je dois promener l'animal deux fois par jour.", "Je dois nourrir l'animal deux fois par jour."],3,"“Tengo que dar de comer” se traduce con “je dois nourrir”, obligación en presente."],
       ["arrange","Ordena: [doit / chien / elle / promener / le]",["elle doit promener le chien", "promener elle chien doit le", "le promener elle chien doit", "doit elle le promener chien"],0,"Sujeto + “doit” + verbo + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, tu rutina de cuidado de una mascota usando “devoir”.",[],["je dois", "elle doit", "animal"]],
     ]
@@ -2550,9 +2550,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “investor” en francés?",["la start-up","le plan d'affaires","l'investisseur","prendre un risque"],2,"“Investor” es “l'investisseur” en francés."],
-      ["mcq","¿Cómo se dice “to take a risk” en francés?",["la start-up","prendre un risque","lancer un produit","l'investisseur"],1,"“To take a risk” es “prendre un risque” en francés."],
+      ["mcq","¿Cómo se dice “asumir un riesgo” en francés?",["la start-up","prendre un risque","lancer un produit","l'investisseur"],1,"“Asumir un riesgo” es “prendre un risque” en francés."],
       ["fill","Completa: “Nous ___ lancer le produit le mois prochain.”",["allez", "va", "allons", "vont"],2,"“Aller” con “nous” se conjuga como “nous allons”."],
-      ["translate","Traduce: “We are going to launch the product next month.”",["Nous allons lancer le produit ce mois-ci.", "Nous allons lancer le produit le mois prochain.", "Nous lançons le produit le mois prochain.", "Nous allons lancer l'entreprise le mois prochain."],1,"“We are going to launch” se traduce con “nous allons lancer”, futur proche."],
+      ["translate","Traduce: “Vamos a lanzar el producto el mes que viene.”",["Nous allons lancer le produit ce mois-ci.", "Nous allons lancer le produit le mois prochain.", "Nous lançons le produit le mois prochain.", "Nous allons lancer l'entreprise le mois prochain."],1,"“Vamos a lanzar” se traduce con “nous allons lancer”, futur proche."],
       ["arrange","Ordena: [va / investisseurs / elle / chercher / des]",["des elle investisseurs va chercher", "des elle va chercher investisseurs", "elle va chercher des investisseurs", "investisseurs elle va chercher des"],2,"Sujeto + “va” + verbo + artículo + sustantivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando “aller” (futur proche) para tus planes.",[],["je vais", "start-up", "investisseurs"]],
     ]
@@ -2574,10 +2574,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “space station” en francés?",["la station spatiale","orbiter","le lancement de fusée","l'espace extra-atmosphérique"],0,"“Space station” es “la station spatiale” en francés."],
-      ["mcq","¿Cómo se dice “to orbit” en francés?",["orbiter","la mission spatiale","la station spatiale","l'espace extra-atmosphérique"],0,"“To orbit” es “orbiter” en francés."],
+      ["mcq","¿Cómo se dice “estación espacial” en francés?",["la station spatiale","orbiter","le lancement de fusée","l'espace extra-atmosphérique"],0,"“Estación espacial” es “la station spatiale” en francés."],
+      ["mcq","¿Cómo se dice “orbitar” en francés?",["orbiter","la mission spatiale","la station spatiale","l'espace extra-atmosphérique"],0,"“Orbitar” es “orbiter” en francés."],
       ["fill","Completa: “D'ici 2030, les astronautes ___ atterri sur Mars.”",["avaient", "ont", "auront", "auraient"],2,"El futur antérieur usa “auront” + participio: “auront atterri”."],
-      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["D'ici 2030, les astronautes auront atterri sur Mars.", "D'ici 2030, les astronautes ont atterri sur Mars.", "D'ici 2030, les astronautes auraient atterri sur Mars.", "D'ici 2030, les astronautes atterriront sur Mars."],0,"“Will have landed” se traduce con futur antérieur: “auront atterri”."],
+      ["translate","Traduce: “Para 2030, los astronautas habrán aterrizado en Marte.”",["D'ici 2030, les astronautes auront atterri sur Mars.", "D'ici 2030, les astronautes ont atterri sur Mars.", "D'ici 2030, les astronautes auraient atterri sur Mars.", "D'ici 2030, les astronautes atterriront sur Mars."],0,"“Habrán aterrizado” se traduce con futur antérieur: “auront atterri”."],
       ["arrange","Ordena: [bientôt / fusée / atteindra / la / l'orbite]",["fusée l'orbite atteindra bientôt la", "la fusée atteindra l'orbite bientôt", "bientôt atteindra l'orbite fusée la", "la bientôt atteindra l'orbite fusée"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
       ["writing","Escribe en francés, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futur antérieur (“auront...”) al menos dos veces.",[],["auront", "mission spatiale", "astronaute"]],
     ]
@@ -2599,10 +2599,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “accountability” en francés?",["le biais algorithmique","l'intelligence artificielle","la confidentialité des données","la responsabilité"],3,"“Accountability” es “la responsabilité” en francés."],
-      ["mcq","¿Cómo se dice “algorithmic bias” en francés?",["le biais algorithmique","réglementer","la responsabilité","l'intelligence artificielle"],0,"“Algorithmic bias” es “le biais algorithmique” en francés."],
+      ["mcq","¿Cómo se dice “responsabilidad” en francés?",["le biais algorithmique","l'intelligence artificielle","la confidentialité des données","la responsabilité"],3,"“Responsabilidad” es “la responsabilité” en francés."],
+      ["mcq","¿Cómo se dice “sesgo algorítmico” en francés?",["le biais algorithmique","réglementer","la responsabilité","l'intelligence artificielle"],0,"“Sesgo algorítmico” es “le biais algorithmique” en francés."],
       ["fill","Completa: “Ces systèmes devraient être ___ pour éviter les biais.”",["réglementant", "réglemente", "réglementer", "réglementés"],3,"La voz pasiva con modal usa “être” + participio: “devraient être réglementés”."],
-      ["translate","Traduce con voz pasiva: “These systems should be regulated to prevent bias.”",["Ces systèmes devraient être réglementés pour éviter un biais.", "Ces systèmes devraient être réglementés pour éviter les biais.", "Ces systèmes doivent être réglementés pour éviter les biais.", "Ces systèmes devraient réglementer pour éviter les biais."],1,"“Should be regulated” se traduce con voz pasiva: “devraient être réglementés”."],
+      ["translate","Traduce con voz pasiva: “Estos sistemas deberían regularse para evitar sesgos.”",["Ces systèmes devraient être réglementés pour éviter un biais.", "Ces systèmes devraient être réglementés pour éviter les biais.", "Ces systèmes doivent être réglementés pour éviter les biais.", "Ces systèmes devraient réglementer pour éviter les biais."],1,"“Deberían regularse” se traduce con voz pasiva: “devraient être réglementés”."],
       ["arrange","Ordena: [réglementés / algorithmes / être / devraient / les]",["réglementés algorithmes les devraient être", "algorithmes réglementés être devraient les", "les algorithmes devraient être réglementés", "algorithmes être devraient réglementés les"],2,"Artículo + sustantivo + condicional + “être” + participio."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en voz pasiva.",[],["devraient être réglementés", "biais algorithmique", "responsabilité"]],
     ]
@@ -2624,10 +2624,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “thought experiment” en francés?",["la conscience de soi","l'expérience de pensée","le problème corps-esprit","l'expérience subjective"],1,"“Thought experiment” es “l'expérience de pensée” en francés."],
-      ["mcq","¿Cómo se dice “free will” en francés?",["la conscience de soi","le libre arbitre","le problème corps-esprit","l'expérience subjective"],1,"“Free will” es “le libre arbitre” en francés."],
+      ["mcq","¿Cómo se dice “experimento mental” en francés?",["la conscience de soi","l'expérience de pensée","le problème corps-esprit","l'expérience subjective"],1,"“Experimento mental” es “l'expérience de pensée” en francés."],
+      ["mcq","¿Cómo se dice “libre albedrío” en francés?",["la conscience de soi","le libre arbitre","le problème corps-esprit","l'expérience subjective"],1,"“Libre albedrío” es “le libre arbitre” en francés."],
       ["fill","Completa: “Ce qui définit vraiment la conscience, ___ n'est pas seulement le comportement.”",["ce", "il", "cela", "elle"],0,"La phrase clivée usa “ce qui... ce n'est pas...” como estructura fija de énfasis."],
-      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Ce qui définit la conscience vraiment, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui a défini vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, c'est seulement le comportement, pas l'expérience subjective."],2,"La phrase clivée mantiene “ce qui + verbo, ce n'est pas... mais...”, con “vraiment” justo después del verbo."],
+      ["translate","Traduce con estructura enfática: “Lo que realmente define la conciencia no es solo el comportamiento, sino la experiencia subjetiva.”",["Ce qui définit la conscience vraiment, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui a défini vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, ce n'est pas seulement le comportement, mais l'expérience subjective.", "Ce qui définit vraiment la conscience, c'est seulement le comportement, pas l'expérience subjective."],2,"La phrase clivée mantiene “ce qui + verbo, ce n'est pas... mais...”, con “vraiment” justo después del verbo."],
       ["arrange","Ordena: [le / arbitre / débattent / philosophes / libre / encore / les]",["arbitre philosophes débattent les encore libre le", "les philosophes débattent encore le libre arbitre", "philosophes le débattent arbitre encore les libre", "encore débattent le les philosophes libre arbitre"],1,"Artículo + sustantivo + verbo + adverbio + artículo + sustantivo compuesto."],
       ["writing","Escribe en francés, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una phrase clivée (“ce qui... c'est...”).",[],["ce qui définit vraiment", "conscience", "libre arbitre"]],
     ]
@@ -2649,10 +2649,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the seed” en francés?",["la fleur","la lumière du soleil","la graine","arroser les plantes"],2,"“The seed” es “la graine” en francés."],
-      ["mcq","¿Cómo se dice “to grow” en francés?",["arroser les plantes","pousser","la graine","la fleur"],1,"“To grow” es “pousser” en francés."],
+      ["mcq","¿Cómo se dice “la semilla” en francés?",["la fleur","la lumière du soleil","la graine","arroser les plantes"],2,"“La semilla” es “la graine” en francés."],
+      ["mcq","¿Cómo se dice “crecer” en francés?",["arroser les plantes","pousser","la graine","la fleur"],1,"“Crecer” es “pousser” en francés."],
       ["fill","Completa: “___ les plantes tous les jours, sinon elles vont mourir.”",["Arroser", "Arrosant", "Arroses", "Arrose"],3,"El imperativo (tu) de “arroser” es “arrose”."],
-      ["translate","Traduce: “Water the plants every day.”",["Arroser les plantes tous les jours.", "Arrose les plantes tous les jours.", "Tu arroses les plantes tous les jours.", "Arrose les plantes toutes les semaines."],1,"El imperativo comienza directamente con el verbo conjugado: “Arrose les plantes...”."],
+      ["translate","Traduce: “Riega las plantas todos los días.”",["Arroser les plantes tous les jours.", "Arrose les plantes tous les jours.", "Tu arroses les plantes tous les jours.", "Arrose les plantes toutes les semaines."],1,"El imperativo comienza directamente con el verbo conjugado: “Arrose les plantes...”."],
       ["arrange","Ordena: [porte / la / de / fermer / n'oublie / pas]",["de la porte pas n'oublie fermer","pas n'oublie fermer la de porte","n'oublie pas de fermer la porte","porte n'oublie de la fermer pas"],2,"“N'oublie pas” + “de” + infinitivo + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["arrose", "n'oublie pas", "pousse"]],
     ]
@@ -2674,10 +2674,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the library card” en francés?",["emprunter un livre","l'étagère","la date de retour","la carte de bibliothèque"],3,"“The library card” es “la carte de bibliothèque” en francés."],
-      ["mcq","¿Cómo se dice “the due date” en francés?",["la date de retour","rendre un livre","l'étagère","emprunter un livre"],0,"“The due date” es “la date de retour” en francés."],
+      ["mcq","¿Cómo se dice “el carné de la biblioteca” en francés?",["emprunter un livre","l'étagère","la date de retour","la carte de bibliothèque"],3,"“El carné de la biblioteca” es “la carte de bibliothèque” en francés."],
+      ["mcq","¿Cómo se dice “la fecha de devolución” en francés?",["la date de retour","rendre un livre","l'étagère","emprunter un livre"],0,"“La fecha de devolución” es “la date de retour” en francés."],
       ["fill","Completa: “J'___ emprunté un roman la semaine dernière.”",["avais", "as", "a", "ai"],3,"El passé composé con “je” usa “ai” + participio: “j'ai emprunté”."],
-      ["translate","Traduce: “She returned the book on time.”",["Elle a rendu le livre en retard.", "Elle a rendu le livre à temps.", "Elle a rendu le roman à temps.", "Elle rend le livre à temps."],1,"“Returned” se traduce con passé composé: “a rendu”."],
+      ["translate","Traduce: “Devolvió el libro a tiempo.”",["Elle a rendu le livre en retard.", "Elle a rendu le livre à temps.", "Elle a rendu le roman à temps.", "Elle rend le livre à temps."],1,"“Devolvió” se traduce con passé composé: “a rendu”."],
       ["arrange","Ordena: [est / livre / sur / le / l'étagère]",["l'étagère le livre sur est","le livre est sur l'étagère","le sur livre l'étagère est","sur livre l'étagère est le"],1,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el passé composé.",[],["j'ai emprunté", "j'ai rendu", "bibliothèque"]],
     ]
@@ -2699,10 +2699,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “the crib” en francés?",["le berceau","la routine du coucher","faire faire un rot au bébé","faire du baby-sitting"],0,"“The crib” es “le berceau” en francés."],
-      ["mcq","¿Cómo se dice “the pediatrician” en francés?",["le pédiatre","allaiter","le berceau","faire faire un rot au bébé"],0,"“The pediatrician” es “le pédiatre” en francés."],
+      ["mcq","¿Cómo se dice “la cuna” en francés?",["le berceau","la routine du coucher","faire faire un rot au bébé","faire du baby-sitting"],0,"“La cuna” es “le berceau” en francés."],
+      ["mcq","¿Cómo se dice “el pediatra” en francés?",["le pédiatre","allaiter","le berceau","faire faire un rot au bébé"],0,"“El pediatra” es “le pédiatre” en francés."],
       ["fill","Completa: “Le bébé ___ toutes les deux heures.”",["se réveille", "s'est réveillé", "se réveillant", "se réveillait"],3,"El imparfait describe un hábito repetido en el pasado: “se réveillait”."],
-      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Nous rendions visite au dentiste chaque mois.", "Nous rendions visite au pédiatre chaque mois.", "Nous rendions visite au pédiatre chaque semaine.", "Nous rendons visite au pédiatre chaque mois."],1,"“Used to visit” se traduce con imparfait: “rendions visite”."],
+      ["translate","Traduce: “Antes visitábamos al pediatra todos los meses.”",["Nous rendions visite au dentiste chaque mois.", "Nous rendions visite au pédiatre chaque mois.", "Nous rendions visite au pédiatre chaque semaine.", "Nous rendons visite au pédiatre chaque mois."],1,"“Visitábamos” se traduce con imparfait: “rendions visite”."],
       ["arrange","Ordena: [berceau / dormait / le / dans / elle]",["berceau elle dormait dans le", "elle dormait dans le berceau", "berceau elle le dormait dans", "elle le dans berceau dormait"],1,"Sujeto + verbo + preposición + artículo + sustantivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando el imparfait para hábitos pasados.",[],["se réveillait", "berceau", "pédiatre"]],
     ]
@@ -2724,10 +2724,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancient civilization” en francés?",["la civilisation ancienne","l'artefact","les ruines","le site archéologique"],0,"“Ancient civilization” es “la civilisation ancienne” en francés."],
-      ["mcq","¿Cómo se dice “to excavate” en francés?",["le site archéologique","fouiller","dater (une découverte)","la civilisation ancienne"],1,"“To excavate” es “fouiller” en francés."],
+      ["mcq","¿Cómo se dice “civilización antigua” en francés?",["la civilisation ancienne","l'artefact","les ruines","le site archéologique"],0,"“Civilización antigua” es “la civilisation ancienne” en francés."],
+      ["mcq","¿Cómo se dice “excavar” en francés?",["le site archéologique","fouiller","dater (une découverte)","la civilisation ancienne"],1,"“Excavar” es “fouiller” en francés."],
       ["fill","Completa: “Cet artefact a ___ appartenir à un roi.”",["su", "dû", "pu", "voulu"],1,"“Devoir” en passé composé + infinitif expresa deducción fuerte: “a dû appartenir”."],
-      ["translate","Traduce: “The site might have been a temple.”",["Le site a pu être un palais.", "Le site a dû être un temple.", "Le site peut être un temple.", "Le site a pu être un temple."],3,"“Might have been” se traduce con posibilidad menos segura: “a pu être”."],
+      ["translate","Traduce: “El yacimiento podría haber sido un templo.”",["Le site a pu être un palais.", "Le site a dû être un temple.", "Le site peut être un temple.", "Le site a pu être un temple."],3,"“Podría haber sido” se traduce con posibilidad menos segura: “a pu être”."],
       ["arrange","Ordena: [construit / civilisation / cette / une / a / ancienne]",["a une civilisation cette ancienne construit", "a civilisation ancienne une construit cette", "une cette ancienne a civilisation construit", "une civilisation ancienne a construit cette"],3,"Artículo + sustantivo + adjetivo + verbo + pronombre."],
       ["writing","Escribe en francés, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando “a dû” o “a pu” + infinitivo al menos dos veces.",[],["a dû", "a pu", "artefact"]],
     ]
@@ -2752,7 +2752,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cómo se dice “neuroplasticity” en francés?",["la neuroplasticité","la voie neuronale","l'imagerie cérébrale","la fonction cognitive"],0,"“Neuroplasticity” es “la neuroplasticité” en francés."],
       ["mcq","¿Cómo se dice “synapse” en francés?",["la synapse","la voie neuronale","la neuroplasticité","la fonction cognitive"],0,"“Synapse” es “la synapse” en francés."],
       ["fill","Completa: “Rarement les chercheurs ont-___ trouvé une preuve aussi claire.”",["il", "elles", "ils", "elle"],2,"La inversión con “les chercheurs” (masc. pl.) usa el pronombre de retomada “ils”: “ont-ils trouvé”."],
-      ["translate","Traduce con inversión: “Rarely have researchers found such clear evidence.”",["Rarement les chercheurs ont trouvé une preuve aussi claire.", "Rarement les chercheurs ont-ils trouvé une preuve peu claire.", "Rarement les chercheurs ont-ils trouvé une preuve aussi claire.", "Les chercheurs ont rarement trouvé une preuve aussi claire."],2,"La estructura enfática con inversión requiere el pronombre de retomada: “ont-ils trouvé”."],
+      ["translate","Traduce con inversión: “Pocas veces han encontrado los investigadores una prueba tan clara.”",["Rarement les chercheurs ont trouvé une preuve aussi claire.", "Rarement les chercheurs ont-ils trouvé une preuve peu claire.", "Rarement les chercheurs ont-ils trouvé une preuve aussi claire.", "Les chercheurs ont rarement trouvé une preuve aussi claire."],2,"La estructura enfática con inversión requiere el pronombre de retomada: “ont-ils trouvé”."],
       ["arrange","Ordena: [cerveau / le / bien / s'adapte]",["bien s'adapte le cerveau","le cerveau s'adapte bien","bien le cerveau s'adapte","s'adapte bien le cerveau"],1,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio."],
       ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura de inversión enfática con “rarement”.",[],["rarement", "neuroplasticité", "fonction cognitive"]],
     ]
@@ -2775,9 +2775,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “loss aversion” en francés?",["le biais cognitif","l'effet d'ancrage","l'aversion à la perte","la prise de décision"],2,"“Loss aversion” es “l'aversion à la perte” en francés."],
-      ["mcq","¿Cómo se dice “anchoring effect” en francés?",["le comportement irrationnel","l'effet d'ancrage","le biais cognitif","l'aversion à la perte"],1,"“Anchoring effect” es “l'effet d'ancrage” en francés."],
+      ["mcq","¿Cómo se dice “efecto ancla” en francés?",["le comportement irrationnel","l'effet d'ancrage","le biais cognitif","l'aversion à la perte"],1,"“Efecto ancla” es “l'effet d'ancrage” en francés."],
       ["fill","Completa: “La persistance du biais cognitif affecte la ___.”",["décision", "décidant", "décider", "prise de décision"],3,"La forma nominalizada de “décider” en este registro académico es “la prise de décision”."],
-      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["L'aversion à la perte affecte la prise de décision.", "La perte d'aversion affecte la prise de décision.", "L'aversion à la perte affectent la prise de décision.", "L'aversion à la perte affecte décider."],0,"“Decision-making” se traduce con la forma nominalizada “la prise de décision”, no con el verbo “décider”."],
+      ["translate","Traduce en registro académico: “La aversión a las pérdidas afecta la toma de decisiones.”",["L'aversion à la perte affecte la prise de décision.", "La perte d'aversion affecte la prise de décision.", "L'aversion à la perte affectent la prise de décision.", "L'aversion à la perte affecte décider."],0,"“Toma de decisiones” se traduce con la forma nominalizada “la prise de décision”, no con el verbo “décider”."],
       ["arrange","Ordena: [cognitif / étudient / chercheurs / biais / le / les]",["chercheurs le étudient cognitif biais les", "biais le cognitif chercheurs étudient les", "les chercheurs étudient le biais cognitif", "chercheurs les biais cognitif étudient le"],2,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “la prise de décision” o “l'évitement”).",[],["la prise de décision", "biais cognitif", "aversion à la perte"]],
     ]
@@ -2799,10 +2799,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “lens” en francés?",["l'objectif","le zoom","prendre une photo","la carte mémoire"],0,"“Lens” es “l'objectif” en francés."],
-      ["mcq","¿Cómo se dice “memory card” en francés?",["la photo","le zoom","la carte mémoire","l'appareil photo"],2,"“Memory card” es “la carte mémoire” en francés."],
+      ["mcq","¿Cómo se dice “objetivo de cámara” en francés?",["l'objectif","le zoom","prendre une photo","la carte mémoire"],0,"“Objetivo de cámara” es “l'objectif” en francés."],
+      ["mcq","¿Cómo se dice “tarjeta de memoria” en francés?",["la photo","le zoom","la carte mémoire","l'appareil photo"],2,"“Tarjeta de memoria” es “la carte mémoire” en francés."],
       ["fill","Completa: “Cet appareil ne ___ pas zoomer très loin.”",["pouvons", "peux", "peut", "pouvez"],2,"“Pouvoir” conjugado en tercera persona singular es “peut”."],
-      ["translate","Traduce: “I can take good photos with this camera.”",["Je ne peux pas prendre de belles photos avec cet appareil.", "Je peux prendre de belles photos avec cette caméra.", "Je peux prendre de belles photos avec cet appareil.", "Je peux prends de belles photos avec cet appareil."],2,"“I can take” se traduce con “je peux prendre”, “pouvoir” + infinitivo."],
+      ["translate","Traduce: “Puedo sacar buenas fotos con esta cámara.”",["Je ne peux pas prendre de belles photos avec cet appareil.", "Je peux prendre de belles photos avec cette caméra.", "Je peux prendre de belles photos avec cet appareil.", "Je peux prends de belles photos avec cet appareil."],2,"“Puedo sacar” se traduce con “je peux prendre”, “pouvoir” + infinitivo."],
       ["arrange","Ordena: [loin / zoomer / peut / ne / cet / pas / appareil]",["ne zoomer loin cet pas peut appareil", "zoomer ne loin appareil pas cet peut", "cet appareil ne peut pas zoomer loin", "appareil cet loin pas zoomer ne peut"],2,"Sujeto + “ne” + verbo + “pas” + verbo + adverbio."],
       ["writing","Describe en francés, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “pouvoir”.",[],["je peux", "ne peut pas", "appareil"]],
     ]
@@ -2824,10 +2824,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sleeping bag” en francés?",["monter une tente","la tente","le feu de camp","le sac de couchage"],3,"“Sleeping bag” es “le sac de couchage” en francés."],
-      ["mcq","¿Cómo se dice “hiking trail” en francés?",["monter une tente","le sac de couchage","le sentier de randonnée","le feu de camp"],2,"“Hiking trail” es “le sentier de randonnée” en francés."],
+      ["mcq","¿Cómo se dice “saco de dormir” en francés?",["monter une tente","la tente","le feu de camp","le sac de couchage"],3,"“Saco de dormir” es “le sac de couchage” en francés."],
+      ["mcq","¿Cómo se dice “sendero” en francés?",["monter une tente","le sac de couchage","le sentier de randonnée","le feu de camp"],2,"“Sendero” es “le sentier de randonnée” en francés."],
       ["fill","Completa: “Il ne nous reste ___ eau.”",["pas d'", "de la", "des", "du"],0,"En oraciones negativas se usa “pas de/d'”: “il ne reste pas d'eau”."],
-      ["translate","Traduce: “We have some firewood for the campfire.”",["Nous avons de la bois pour le feu de camp.", "Nous avons pas de bois pour le feu de camp.", "Nous avons du bois pour le feu de camp.", "Nous avons du bois pour la tente."],2,"“Some firewood” (masculino) se traduce con el artículo partitivo “du bois”."],
+      ["translate","Traduce: “Tenemos algo de leña para la fogata.”",["Nous avons de la bois pour le feu de camp.", "Nous avons pas de bois pour le feu de camp.", "Nous avons du bois pour le feu de camp.", "Nous avons du bois pour la tente."],2,"“Algo de leña” (masculino) se traduce con el artículo partitivo “du bois”."],
       ["arrange","Ordena: [long / sentier / est / ce]",["est ce long sentier", "sentier est long ce", "long sentier ce est", "ce sentier est long"],3,"Pronombre + sustantivo + verbo + adjetivo."],
       ["speaking","Describe en francés, en 40-60 palabras, un plan de camping usando el artículo partitivo o “pas de” para lo que necesitas llevar.",[],["du", "pas de", "tente"]],
     ]
@@ -2849,10 +2849,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “beehive” en francés?",["piquer","la ruche","le miel","la reine des abeilles"],1,"“Beehive” es “la ruche” en francés."],
-      ["mcq","¿Cómo se dice “to pollinate” en francés?",["le miel","piquer","polliniser","la reine des abeilles"],2,"“To pollinate” es “polliniser” en francés."],
+      ["mcq","¿Cómo se dice “colmena” en francés?",["piquer","la ruche","le miel","la reine des abeilles"],1,"“Colmena” es “la ruche” en francés."],
+      ["mcq","¿Cómo se dice “polinizar” en francés?",["le miel","piquer","polliniser","la reine des abeilles"],2,"“Polinizar” es “polliniser” en francés."],
       ["fill","Completa: “L'apiculteur ___ gère cette ruche est très expérimenté.”",["qui", "où", "que", "dont"],0,"“Qui” se usa como sujeto de la cláusula relativa: “l'apiculteur qui gère”."],
-      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Les abeilles, qui pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinise les fleurs, sont essentielles à l'agriculture.", "Les abeilles, que pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinisent les fleurs, est essentielle à l'agriculture."],0,"“Which” como sujeto se traduce con “qui”: “les abeilles, qui pollinisent...”."],
+      ["translate","Traduce: “Las abejas, que polinizan las flores, son esenciales para la agricultura.”",["Les abeilles, qui pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinise les fleurs, sont essentielles à l'agriculture.", "Les abeilles, que pollinisent les fleurs, sont essentielles à l'agriculture.", "Les abeilles, qui pollinisent les fleurs, est essentielle à l'agriculture."],0,"“Que” como sujeto se traduce con “qui”: “les abeilles, qui pollinisent...”."],
       ["arrange","Ordena: [ruche / vivent / la / abeilles / qui / dans / les]",["les abeilles qui vivent dans la ruche", "abeilles les vivent ruche la dans qui", "qui vivent les ruche abeilles la dans", "ruche la vivent les abeilles dans qui"],0,"Artículo + sustantivo + “qui” + verbo + preposición + artículo + sustantivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre la importancia de las abejas usando al menos un pronombre relativo (“qui/que”).",[],["qui", "que", "ruche"]],
     ]
@@ -2875,9 +2875,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “blockchain” en francés?",["investir","la cryptomonnaie","la blockchain","décentralisé"],2,"“Blockchain” es “la blockchain” en francés."],
-      ["mcq","¿Cómo se dice “volatility” en francés?",["la cryptomonnaie","le portefeuille numérique","la blockchain","la volatilité"],3,"“Volatility” es “la volatilité” en francés."],
+      ["mcq","¿Cómo se dice “volatilidad” en francés?",["la cryptomonnaie","le portefeuille numérique","la blockchain","la volatilité"],3,"“Volatilidad” es “la volatilité” en francés."],
       ["fill","Completa: “Si j'___ investi plus tôt, j'aurais gagné plus d'argent.”",["avais", "aurais", "avait", "ai"],0,"Tras “si” hipotético sobre el pasado se usa plus-que-parfait: “si j'avais investi”."],
-      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Si le marché ne s'était pas effondré, les prix seraient resté élevés.", "Si le marché ne s'est pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix resteraient élevés."],2,"“Hadn't crashed... would have stayed” se traduce con plus-que-parfait + conditionnel passé."],
+      ["translate","Traduce: “Si el mercado no se hubiera hundido, los precios se habrían mantenido altos.”",["Si le marché ne s'était pas effondré, les prix seraient resté élevés.", "Si le marché ne s'est pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix seraient restés élevés.", "Si le marché ne s'était pas effondré, les prix resteraient élevés."],2,"“No se hubiera hundido... se habrían mantenido” se traduce con plus-que-parfait + conditionnel passé."],
       ["arrange","Ordena: [risquée / est / cryptomonnaie / très / la]",["la est risquée très cryptomonnaie", "la cryptomonnaie est très risquée", "cryptomonnaie la très est risquée", "cryptomonnaie est la risquée très"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre una decisión financiera pasada usando “si j'avais... j'aurais...” al menos dos veces.",[],["si j'avais", "j'aurais", "cryptomonnaie"]],
     ]
@@ -2899,10 +2899,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “informed consent” en francés?",["le dilemme éthique","manipuler l'ADN","le consentement éclairé","la modification génétique"],2,"“Informed consent” es “le consentement éclairé” en francés."],
-      ["mcq","¿Cómo se dice “clinical trial” en francés?",["manipuler l'ADN","l'essai clinique","la modification génétique","la modification du génome"],1,"“Clinical trial” es “l'essai clinique” en francés."],
+      ["mcq","¿Cómo se dice “consentimiento informado” en francés?",["le dilemme éthique","manipuler l'ADN","le consentement éclairé","la modification génétique"],2,"“Consentimiento informado” es “le consentement éclairé” en francés."],
+      ["mcq","¿Cómo se dice “ensayo clínico” en francés?",["manipuler l'ADN","l'essai clinique","la modification génétique","la modification du génome"],1,"“Ensayo clínico” es “l'essai clinique” en francés."],
       ["fill","Completa: “La modification du génome est ___ puissante qu'elle soulève de sérieuses questions.”",["si", "trop", "tellement", "tel"],0,"“Si” + adjetivo + “que” expresa consecuencia enfática: “si puissante que”."],
-      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["C'est tellement un dilemme complexe que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe alors que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe que les experts s'accordent encore."],2,"“Tellement” + adjetivo + “que” también expresa consecuencia enfática: “tellement complexe que”."],
+      ["translate","Traduce con estructura enfática: “Es un asunto tan complejo que los expertos siguen sin ponerse de acuerdo.”",["C'est tellement un dilemme complexe que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe alors que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe que les experts ne s'accordent pas encore.","C'est un dilemme tellement complexe que les experts s'accordent encore."],2,"“Tellement” + adjetivo + “que” también expresa consecuencia enfática: “tellement complexe que”."],
       ["arrange","Ordena: [dilemme / réel / un / c'est / éthique]",["dilemme c'est éthique un réel", "dilemme éthique un c'est réel", "un dilemme éthique c'est réel", "c'est un dilemme éthique réel"],3,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre la edición genética usando “si...que” o “tellement...que” al menos dos veces.",[],["si...que", "tellement...que", "modification du génome"]],
     ]
@@ -2924,10 +2924,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sovereignty” en francés?",["négocier un traité","la souveraineté","les sanctions","les relations diplomatiques"],1,"“Sovereignty” es “la souveraineté” en francés."],
-      ["mcq","¿Cómo se dice “geopolitical tension” en francés?",["la souveraineté","les relations diplomatiques","l'accord bilatéral","la tension géopolitique"],3,"“Geopolitical tension” es “la tension géopolitique” en francés."],
+      ["mcq","¿Cómo se dice “soberanía” en francés?",["négocier un traité","la souveraineté","les sanctions","les relations diplomatiques"],1,"“Soberanía” es “la souveraineté” en francés."],
+      ["mcq","¿Cómo se dice “tensión geopolítica” en francés?",["la souveraineté","les relations diplomatiques","l'accord bilatéral","la tension géopolitique"],3,"“Tensión geopolítica” es “la tension géopolitique” en francés."],
       ["fill","Completa: “En ___ les données, les chercheurs ont conclu que les tensions augmenteraient.”",["analysé", "analysant", "analysent", "analyser"],1,"El gérondif en posición inicial usa “en” + participio presente: “en analysant”."],
-      ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Face à les sanctions croissantes, le gouvernement a changé sa politique.", "Face aux sanctions croissantes, le gouvernement change sa politique.", "Face aux sanctions croissantes, le gouvernement a changé sa politique.", "Devant aux sanctions croissantes, le gouvernement a changé sa politique."],2,"“Faced with mounting sanctions” se traduce de forma concisa con “face aux sanctions croissantes”."],
+      ["translate","Traduce con construcción concisa: “Ante las sanciones crecientes, el gobierno cambió su política.”",["Face à les sanctions croissantes, le gouvernement a changé sa politique.", "Face aux sanctions croissantes, le gouvernement change sa politique.", "Face aux sanctions croissantes, le gouvernement a changé sa politique.", "Devant aux sanctions croissantes, le gouvernement a changé sa politique."],2,"“Ante las sanciones crecientes” se traduce de forma concisa con “face aux sanctions croissantes”."],
       ["arrange","Ordena: [négocieront / nations / traité / les / le]",["traité négocieront le nations les", "nations le les traité négocieront", "négocieront traité les nations le", "les nations négocieront le traité"],3,"Artículo + sustantivo + verbo + artículo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gérondif o participio inicial (“En analysant...” o “Face à...”).",[],["en analysant", "face à", "souveraineté"]],
     ]
@@ -2949,10 +2949,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “scissors” en francés?",["le coiffeur/la coiffeuse","tailler","la coupe de cheveux","les ciseaux"],3,"“Scissors” es “les ciseaux” en francés."],
-      ["mcq","¿Cómo se dice “to trim” en francés?",["le miroir","la coupe de cheveux","les ciseaux","tailler"],3,"“To trim” es “tailler” en francés."],
+      ["mcq","¿Cómo se dice “tijeras” en francés?",["le coiffeur/la coiffeuse","tailler","la coupe de cheveux","les ciseaux"],3,"“Tijeras” es “les ciseaux” en francés."],
+      ["mcq","¿Cómo se dice “recortar” en francés?",["le miroir","la coupe de cheveux","les ciseaux","tailler"],3,"“Recortar” es “tailler” en francés."],
       ["fill","Completa: “Cette coupe est ___ courte que la dernière.”",["la plus", "plus", "aussi", "moins"],1,"El comparativo de superioridad se forma con “plus... que”: “plus courte que”."],
-      ["translate","Traduce: “She has the longest hair in the family.”",["Elle a les cheveux les plus longs de la famille.", "Elle a le cheveux les plus longs de la famille.", "Elle a les cheveux les plus longs dans la famille.", "Elle a les cheveux plus longs de la famille."],0,"“The longest... in” se traduce con “les plus longs de” en francés."],
+      ["translate","Traduce: “Ella tiene el pelo más largo de la familia.”",["Elle a les cheveux les plus longs de la famille.", "Elle a le cheveux les plus longs de la famille.", "Elle a les cheveux les plus longs dans la famille.", "Elle a les cheveux plus longs de la famille."],0,"“Más largo... de” se traduce con “les plus longs de” en francés."],
       ["arrange","Ordena: [meilleur / ville / est / coiffeur / de / la / ce / le]",["ce coiffeur est le meilleur de la ville","ce ville meilleur est le de la coiffeur","de la le ce meilleur coiffeur est ville","meilleur coiffeur la est ville de le ce"],0,"Pronombre + sustantivo + verbo + superlativo + preposición + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["plus court", "le plus long", "coupe de cheveux"]],
     ]
@@ -2974,10 +2974,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “flat tire” en francés?",["la pièce détachée","réparer la voiture","la vidange","le pneu crevé"],3,"“Flat tire” es “le pneu crevé” en francés."],
+      ["mcq","¿Cómo se dice “neumático pinchado” en francés?",["la pièce détachée","réparer la voiture","la vidange","le pneu crevé"],3,"“Neumático pinchado” es “le pneu crevé” en francés."],
       ["mcq","¿Cómo se dice “spare part” en francés?",["le pneu crevé","le mécanicien","la pièce détachée","réparer la voiture"],2,"“Spare part” es “la pièce détachée” en francés."],
       ["fill","Completa: “Il ne reste pas ___ temps avant le voyage.”",["un peu de", "beaucoup des", "beaucoup de", "beaucoup"],2,"“Beaucoup de” va sin artículo antes del sustantivo: “beaucoup de temps”."],
-      ["translate","Traduce: “This repair needs a lot of spare parts.”",["Cette réparation nécessitent beaucoup de pièces détachées.", "Cette réparation nécessite beaucoup de pièce détachée.", "Cette réparation nécessite beaucoup des pièces détachées.", "Cette réparation nécessite beaucoup de pièces détachées."],3,"“A lot of spare parts” se traduce con “beaucoup de pièces détachées”, sin artículo."],
+      ["translate","Traduce: “Esta reparación necesita muchos repuestos.”",["Cette réparation nécessitent beaucoup de pièces détachées.", "Cette réparation nécessite beaucoup de pièce détachée.", "Cette réparation nécessite beaucoup des pièces détachées.", "Cette réparation nécessite beaucoup de pièces détachées."],3,"“Muchos repuestos” se traduce con “beaucoup de pièces détachées”, sin artículo."],
       ["arrange","Ordena: [réparé / a / mécanicien / le / moteur / le]",["réparé mécanicien le le moteur a", "réparé mécanicien le a le moteur", "le mécanicien a réparé le moteur", "le a le réparé moteur mécanicien"],2,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, un problema con tu carro usando “beaucoup de”.",[],["beaucoup de", "pièces détachées", "mécanicien"]],
     ]
@@ -2999,10 +2999,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “sheet music” en francés?",["faire des gammes","la partition","le professeur de musique","le rythme"],1,"“Sheet music” es “la partition” en francés."],
-      ["mcq","¿Cómo se dice “to tune an instrument” en francés?",["se produire en public","accorder un instrument","le professeur de musique","faire des gammes"],1,"“To tune an instrument” es “accorder un instrument” en francés."],
+      ["mcq","¿Cómo se dice “partitura” en francés?",["faire des gammes","la partition","le professeur de musique","le rythme"],1,"“Partitura” es “la partition” en francés."],
+      ["mcq","¿Cómo se dice “afinar un instrumento” en francés?",["se produire en public","accorder un instrument","le professeur de musique","faire des gammes"],1,"“Afinar un instrumento” es “accorder un instrument” en francés."],
       ["fill","Completa: “J'aime ___ des gammes chaque matin.”",["faisant", "fait", "faire", "fais"],2,"“Aimer” se usa con infinitivo directo: “aime faire”."],
-      ["translate","Traduce: “She wants to perform in front of an audience.”",["Elle veulent se produire devant un public.", "Elle veut se produire devant une public.", "Elle veut se produisant devant un public.", "Elle veut se produire devant un public."],3,"“Want to perform” se traduce con infinitivo directo tras “vouloir”: “veut se produire”."],
+      ["translate","Traduce: “Quiere actuar delante de un público.”",["Elle veulent se produire devant un public.", "Elle veut se produire devant une public.", "Elle veut se produisant devant un public.", "Elle veut se produire devant un public."],3,"“Quiere actuar” se traduce con infinitivo directo tras “vouloir”: “veut se produire”."],
       ["arrange","Ordena: [instrument / besoin / cet / a / d'accord]",["cet instrument a besoin d'accord","d'accord a cet besoin instrument","besoin instrument cet a d'accord","a cet instrument d'accord besoin"],0,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre aprender un instrumento musical usando al menos dos verbos seguidos de infinitivo.",[],["aimer faire", "vouloir apprendre", "pratiquer"]],
     ]
@@ -3025,9 +3025,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “circular economy” en francés?",["l'économie circulaire","réutiliser","la gestion des déchets","recycler"],0,"“Circular economy” es “l'économie circulaire” en francés."],
-      ["mcq","¿Cómo se dice “landfill” en francés?",["recycler","la gestion des déchets","réutiliser","la décharge"],3,"“Landfill” es “la décharge” en francés."],
+      ["mcq","¿Cómo se dice “vertedero” en francés?",["recycler","la gestion des déchets","réutiliser","la décharge"],3,"“Vertedero” es “la décharge” en francés."],
       ["fill","Completa: “Si tu ___ du papier, ça économise des arbres.”",["recycles", "recyclant", "recycleras", "recyclais"],0,"El condicional cero usa presente en ambas cláusulas: “si tu recycles”."],
-      ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["Les matériaux finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux finissent dans une décharge s'ils ne seront pas réutilisés.", "Le matériau finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux ont fini dans une décharge s'ils ne sont pas réutilisés."],0,"El condicional cero mantiene presente en ambas cláusulas: “finissent... s'ils ne sont pas réutilisés”."],
+      ["translate","Traduce: “Los materiales acaban en un vertedero si no se reutilizan.”",["Les matériaux finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux finissent dans une décharge s'ils ne seront pas réutilisés.", "Le matériau finissent dans une décharge s'ils ne sont pas réutilisés.", "Les matériaux ont fini dans une décharge s'ils ne sont pas réutilisés."],0,"El condicional cero mantiene presente en ambas cláusulas: “finissent... s'ils ne sont pas réutilisés”."],
       ["arrange","Ordena: [première / économise / recycler / matière]",["recycler économise matière première", "économise première matière recycler", "recycler économise première matière", "économise recycler matière première"],0,"Verbo + verbo + adjetivo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, una explicación sobre la economía circular usando “si... présent” al menos dos veces.",[],["si tu recycles", "si...", "économie circulaire"]],
     ]
@@ -3049,10 +3049,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “inequality” en francés?",["l'oppression systémique","l'inégalité","les droits civiques","la justice sociale"],1,"“Inequality” es “l'inégalité” en francés."],
+      ["mcq","¿Cómo se dice “desigualdad” en francés?",["l'oppression systémique","l'inégalité","les droits civiques","la justice sociale"],1,"“Desigualdad” es “l'inégalité” en francés."],
       ["mcq","¿Cómo se dice “redistribution” en francés?",["les droits civiques","la justice sociale","l'inégalité","la redistribution"],3,"“Redistribution” es “la redistribution” en francés."],
       ["fill","Completa: “Si seulement les réformes passées ___ traité l'oppression systémique.”",["aient", "ont", "auraient", "avaient"],3,"“Si seulement” + plus-que-parfait expresa arrepentimiento sobre el pasado: “si seulement... avaient traité”."],
-      ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["Les philosophes souhaiterait que l'inégalité puisse être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse résoudre par la seule politique.", "Les philosophes souhaiteraient que l'inégalité peut être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse être résolue par la seule politique."],3,"“Wish... could be solved” se traduce con subjuntivo tras “souhaiter que”: “puisse être résolue”."],
+      ["translate","Traduce: “Los filósofos desearían que la desigualdad se pudiera resolver solo con políticas.”",["Les philosophes souhaiterait que l'inégalité puisse être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse résoudre par la seule politique.", "Les philosophes souhaiteraient que l'inégalité peut être résolue par la seule politique.", "Les philosophes souhaiteraient que l'inégalité puisse être résolue par la seule politique."],3,"“Desearían que... se pudiera resolver” se traduce con subjuntivo tras “souhaiter que”: “puisse être résolue”."],
       ["arrange","Ordena: [débattent / commun / philosophes / bien / du / les]",["commun débattent bien philosophes du les", "commun du les bien débattent philosophes", "les philosophes débattent du bien commun", "bien commun du philosophes débattent les"],2,"Artículo + sustantivo + verbo + preposición + adjetivo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre justicia social usando “si seulement” al menos dos veces.",[],["si seulement", "avaient", "justice sociale"]],
     ]
@@ -3074,10 +3074,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cultural relativism” en francés?",["le rituel","la tradition orale","le relativisme culturel","le rite de passage"],2,"“Cultural relativism” es “le relativisme culturel” en francés."],
-      ["mcq","¿Cómo se dice “rite of passage” en francés?",["le rite de passage","la parenté","la tradition orale","le rituel"],0,"“Rite of passage” es “le rite de passage” en francés."],
+      ["mcq","¿Cómo se dice “relativismo cultural” en francés?",["le rituel","la tradition orale","le relativisme culturel","le rite de passage"],2,"“Relativismo cultural” es “le relativisme culturel” en francés."],
+      ["mcq","¿Cómo se dice “rito de paso” en francés?",["le rite de passage","la parenté","la tradition orale","le rituel"],0,"“Rito de paso” es “le rite de passage” en francés."],
       ["fill","Completa: “___ les anthropologues étudient les rituels, plus ils comprennent l'identité collective.”",["Autant", "Tant", "Plus", "Aussi"],2,"El comparativo doble repite “plus...plus” en ambas cláusulas."],
-      ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Plus une tradition est ancienne, plus son influence forte.", "Plus une tradition est ancienne, son influence est plus forte.", "Plus ancienne une tradition est, plus son influence est forte.", "Plus une tradition est ancienne, plus son influence est forte."],3,"El comparativo doble francés mantiene “plus... est..., plus... est...” en ambas cláusulas completas."],
+      ["translate","Traduce con comparativo doble: “Cuanto más antigua es la tradición, más fuerte es su influencia.”",["Plus une tradition est ancienne, plus son influence forte.", "Plus une tradition est ancienne, son influence est plus forte.", "Plus ancienne une tradition est, plus son influence est forte.", "Plus une tradition est ancienne, plus son influence est forte."],3,"El comparativo doble francés mantiene “plus... est..., plus... est...” en ambas cláusulas completas."],
       ["arrange","Ordena: [marquent / passage / rites / adulte / de / l'âge / les]",["rites l'âge de adulte marquent passage les", "rites adulte les de marquent l'âge passage", "les rites de passage marquent l'âge adulte", "adulte les rites de l'âge passage marquent"],2,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre rituales culturales usando al menos un comparativo doble (“plus... plus...”).",[],["plus", "plus", "rituel"]],
     ]
@@ -3099,10 +3099,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “screwdriver” en francés?",["le clou","l'échelle","le tournevis","la boîte à outils"],2,"“Screwdriver” es “le tournevis” en francés."],
-      ["mcq","¿Cómo se dice “ladder” en francés?",["le clou","la boîte à outils","le marteau","l'échelle"],3,"“Ladder” es “l'échelle” en francés."],
+      ["mcq","¿Cómo se dice “destornillador” en francés?",["le clou","l'échelle","le tournevis","la boîte à outils"],2,"“Destornillador” es “le tournevis” en francés."],
+      ["mcq","¿Cómo se dice “escalera” en francés?",["le clou","la boîte à outils","le marteau","l'échelle"],3,"“Escalera” es “l'échelle” en francés."],
       ["fill","Completa: “Ce marteau est ___ lourd que celui-là.”",["aussi", "si", "plus", "moins"],0,"La comparación de igualdad usa “aussi + adjetivo + que”: “aussi lourd que”."],
-      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["L'échelle n'est pas aussi haute que le mur.", "L'échelle n'est pas aussi haute comme le mur.", "L'échelle n'est pas plus haute que le mur.", "L'échelle est aussi haute que le mur."],0,"“Isn't as... as” se traduce con “n'est pas aussi... que”."],
+      ["translate","Traduce: “La escalera no es tan alta como el muro.”",["L'échelle n'est pas aussi haute que le mur.", "L'échelle n'est pas aussi haute comme le mur.", "L'échelle n'est pas plus haute que le mur.", "L'échelle est aussi haute que le mur."],0,"“Isn't as... as” se traduce con “n'est pas aussi... que”."],
       ["arrange","Ordena: [lourde / boîte / outils / la / très / à / est]",["outils à la boîte très est lourde", "à lourde boîte outils est très la", "à outils la lourde boîte très est", "la boîte à outils est très lourde"],3,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Describe en francés, en 20-30 palabras, comparando dos herramientas usando “aussi... que”.",[],["aussi lourd que", "aussi haute que", "marteau"]],
     ]
@@ -3124,10 +3124,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “washing machine” en francés?",["la machine à laver","la lessive","repasser","étendre le linge"],0,"“Washing machine” es “la machine à laver” en francés."],
-      ["mcq","¿Cómo se dice “stain” en francés?",["la machine à laver","la tache","étendre le linge","la lessive"],1,"“Stain” es “la tache” en francés."],
+      ["mcq","¿Cómo se dice “lavadora” en francés?",["la machine à laver","la lessive","repasser","étendre le linge"],0,"“Lavadora” es “la machine à laver” en francés."],
+      ["mcq","¿Cómo se dice “mancha” en francés?",["la machine à laver","la tache","étendre le linge","la lessive"],1,"“Mancha” es “la tache” en francés."],
       ["fill","Completa: “Il y a ___ taches sur cette chemise.”",["quelques", "un peu de", "peu", "beaucoup"],0,"“Taches” es contable plural, así que se usa “quelques”: “quelques taches”."],
-      ["translate","Traduce: “I need a little detergent for this load.”",["J'ai besoin de quelques lessive pour cette machine.", "J'ai besoin d'un peu de lessive pour cette machine.", "J'ai besoin d'un peu de lessives pour cette machine.", "J'ai besoin peu de lessive pour cette machine."],1,"“Lessive” es incontable, así que se usa “un peu de”: “un peu de lessive”."],
+      ["translate","Traduce: “Necesito un poco de detergente para esta carga.”",["J'ai besoin de quelques lessive pour cette machine.", "J'ai besoin d'un peu de lessive pour cette machine.", "J'ai besoin d'un peu de lessives pour cette machine.", "J'ai besoin peu de lessive pour cette machine."],1,"“Lessive” es incontable, así que se usa “un peu de”: “un peu de lessive”."],
       ["arrange","Ordena: [repasser / faut / il / chemise / cette]",["il faut repasser cette chemise", "il repasser cette faut chemise", "cette faut il repasser chemise", "chemise il cette faut repasser"],0,"Verbo impersonal + verbo + verbo + pronombre + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, tu rutina de lavandería usando “quelques/un peu de”.",[],["quelques", "un peu de", "machine à laver"]],
     ]
@@ -3149,10 +3149,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to checkmate” en francés?",["la stratégie","l'échiquier","faire échec et mat","le pion"],2,"“To checkmate” es “faire échec et mat” en francés."],
-      ["mcq","¿Cómo se dice “pawn” en francés?",["la stratégie","déplacer une pièce","le pion","faire échec et mat"],2,"“Pawn” es “le pion” en francés."],
+      ["mcq","¿Cómo se dice “dar jaque mate” en francés?",["la stratégie","l'échiquier","faire échec et mat","le pion"],2,"“Dar jaque mate” es “faire échec et mat” en francés."],
+      ["mcq","¿Cómo se dice “peón” en francés?",["la stratégie","déplacer une pièce","le pion","faire échec et mat"],2,"“Peón” es “le pion” en francés."],
       ["fill","Completa: “Si tu déplaces cette pièce, tu ___ la partie.”",["as perdu", "perdras", "perds", "perdrais"],1,"Tras “si” + présent, se usa futur simple en la consecuencia: “si tu déplaces... tu perdras”."],
-      ["translate","Traduce: “If she plans her strategy well, she will win.”",["Si elle planifie bien sa stratégie, elle gagnerait.", "Si elle planifiait bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagne."],2,"“If... will win” se traduce con “si” + présent + futur simple: “si elle planifie... elle gagnera”."],
+      ["translate","Traduce: “Si planifica bien su estrategia, ganará.”",["Si elle planifie bien sa stratégie, elle gagnerait.", "Si elle planifiait bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagnera.", "Si elle planifie bien sa stratégie, elle gagne."],2,"“Si... ganará” se traduce con “si” + présent + futur simple: “si elle planifie... elle gagnera”."],
       ["arrange","Ordena: [fort / a / adversaire / un / elle]",["elle a un adversaire fort", "adversaire a elle fort un", "elle a adversaire un fort", "fort elle a adversaire un"],0,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre una partida de ajedrez usando “si... futur” al menos dos veces.",[],["si...", "gagnera", "échecs"]],
     ]
@@ -3174,10 +3174,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “facade” en francés?",["restaurer","préserver","le site patrimonial","la façade"],3,"“Facade” es “la façade” en francés."],
-      ["mcq","¿Cómo se dice “scaffolding” en francés?",["préserver","restaurer","l'échafaudage","la façade"],2,"“Scaffolding” es “l'échafaudage” en francés."],
+      ["mcq","¿Cómo se dice “fachada” en francés?",["restaurer","préserver","le site patrimonial","la façade"],3,"“Fachada” es “la façade” en francés."],
+      ["mcq","¿Cómo se dice “andamio” en francés?",["préserver","restaurer","l'échafaudage","la façade"],2,"“Andamio” es “l'échafaudage” en francés."],
       ["fill","Completa: “La ville a fait ___ la façade l'année dernière.”",["restaurant", "restaurée", "restaure", "restaurer"],3,"La construcción causativa usa “faire” + infinitivo: “a fait restaurer”."],
-      ["translate","Traduce: “They are getting the roof repaired this month.”",["Ils font réparé le toit ce mois-ci.", "Ils ont fait réparer le toit ce mois-ci déjà.", "Ils font réparer le toit ce mois-ci.", "Ils font réparer le toit par eux ce mois-ci."],2,"“Are getting... repaired” se traduce con “font réparer”, construcción causativa en presente."],
+      ["translate","Traduce: “Van a hacer reparar el tejado este mes.”",["Ils font réparé le toit ce mois-ci.", "Ils ont fait réparer le toit ce mois-ci déjà.", "Ils font réparer le toit ce mois-ci.", "Ils font réparer le toit par eux ce mois-ci."],2,"“Van a hacer... reparar” se traduce con “font réparer”, construcción causativa en presente."],
       ["arrange","Ordena: [préserver / importants / sites / de / patrimoniaux]",["préserver sites importants de patrimoniaux", "de sites patrimoniaux importants préserver", "préserver de importants sites patrimoniaux", "importants de patrimoniaux sites préserver"],2,"Infinitivo + preposición + adjetivo + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre la restauración de un edificio histórico usando la construcción causativa (“faire + infinitif”) al menos dos veces.",[],["a fait restaurer", "font réparer", "site patrimonial"]],
     ]
@@ -3199,10 +3199,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “falsifiability” en francés?",["l'hypothèse","l'évaluation par les pairs","le changement de paradigme","la falsifiabilité"],3,"“Falsifiability” es “la falsifiabilité” en francés."],
+      ["mcq","¿Cómo se dice “falsabilidad” en francés?",["l'hypothèse","l'évaluation par les pairs","le changement de paradigme","la falsifiabilité"],3,"“Falsabilidad” es “la falsifiabilité” en francés."],
       ["mcq","¿Cómo se dice “peer review” en francés?",["le changement de paradigme","les preuves empiriques","l'évaluation par les pairs","l'hypothèse"],2,"“Peer review” es “l'évaluation par les pairs” en francés."],
       ["fill","Completa: “Les chercheurs publient des données pour ___ d'autres puissent les vérifier.”",["que", "afin", "à", "de"],0,"“Pour que” + subjonctif expresa propósito: “pour que d'autres puissent”."],
-      ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Les scientifiques réplique des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin confirmer les résultats.", "Les scientifiques répliquent des études afin de confirment les résultats."],1,"“In order to confirm” en registro formal se traduce con “afin de confirmer”."],
+      ["translate","Traduce con cláusula de propósito: “Los científicos replican estudios para confirmar los resultados.”",["Les scientifiques réplique des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin de confirmer les résultats.", "Les scientifiques répliquent des études afin confirmer les résultats.", "Les scientifiques répliquent des études afin de confirment les résultats."],1,"“Para confirmar” en registro formal se traduce con “afin de confirmer”."],
       ["arrange","Ordena: [besoin / hypothèse / preuves / a / toute / empiriques / de]",["toute empiriques preuves hypothèse besoin a de", "toute hypothèse a besoin de preuves empiriques", "toute a empiriques besoin hypothèse preuves de", "preuves de hypothèse besoin a toute empiriques"],1,"Adjetivo + sustantivo + verbo + sustantivo + preposición + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre el método científico usando “afin de” o “pour que” al menos dos veces.",[],["afin de", "pour que", "hypothèse"]],
     ]
@@ -3224,10 +3224,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Nash equilibrium” en francés?",["le jeu à somme nulle","l'équilibre de Nash","le dilemme du prisonnier","la matrice des gains"],1,"“Nash equilibrium” es “l'équilibre de Nash” en francés."],
-      ["mcq","¿Cómo se dice “prisoner's dilemma” en francés?",["la matrice des gains","la stratégie dominante","le dilemme du prisonnier","l'équilibre de Nash"],2,"“Prisoner's dilemma” es “le dilemme du prisonnier” en francés."],
+      ["mcq","¿Cómo se dice “Equilibrio de Nash” en francés?",["le jeu à somme nulle","l'équilibre de Nash","le dilemme du prisonnier","la matrice des gains"],1,"“Equilibrio de Nash” es “l'équilibre de Nash” en francés."],
+      ["mcq","¿Cómo se dice “dilema del prisionero” en francés?",["la matrice des gains","la stratégie dominante","le dilemme du prisonnier","l'équilibre de Nash"],2,"“Dilema del prisionero” es “le dilemme du prisonnier” en francés."],
       ["fill","Completa: “Ni l'un ___ l'autre joueur ne profite de la trahison mutuelle.”",["que", "ou", "ni", "et"],2,"La estructura “ni l'un ni l'autre” requiere “ni” en ambas partes."],
-      ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Alors que la coopération maximise le gain commun, l'intérêt personnel l'emportent souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte parfois.", "Alors la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent."],3,"“Alors que” + presente indicativo introduce el contraste formal: “la coopération maximise”."],
+      ["translate","Traduce con concesión formal: “Mientras que la cooperación maximiza el beneficio conjunto, el interés propio suele imponerse.”",["Alors que la coopération maximise le gain commun, l'intérêt personnel l'emportent souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte parfois.", "Alors la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent.", "Alors que la coopération maximise le gain commun, l'intérêt personnel l'emporte souvent."],3,"“Alors que” + presente indicativo introduce el contraste formal: “la coopération maximise”."],
       ["arrange","Ordena: [dominante / a / stratégie / aucun / joueur / de]",["a joueur de dominante aucun stratégie", "a joueur stratégie dominante de aucun", "dominante aucun de stratégie joueur a", "aucun joueur a de stratégie dominante"],3,"Pronombre negativo + sustantivo + verbo + preposición + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis de teoría de juegos usando “ni... ni” y “alors que/tandis que” al menos una vez cada uno.",[],["ni...ni", "alors que", "équilibre de Nash"]],
     ]
@@ -3249,10 +3249,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “coral reef” en francés?",["le récif corallien","le poisson","plonger","la combinaison de plongée"],0,"“Coral reef” es “le récif corallien” en francés."],
-      ["mcq","¿Cómo se dice “wetsuit” en francés?",["le poisson","la combinaison de plongée","le tuba","plonger"],1,"“Wetsuit” es “la combinaison de plongée” en francés."],
+      ["mcq","¿Cómo se dice “arrecife de coral” en francés?",["le récif corallien","le poisson","plonger","la combinaison de plongée"],0,"“Arrecife de coral” es “le récif corallien” en francés."],
+      ["mcq","¿Cómo se dice “traje de neopreno” en francés?",["le poisson","la combinaison de plongée","le tuba","plonger"],1,"“Traje de neopreno” es “la combinaison de plongée” en francés."],
       ["fill","Completa: “Le récif corallien est ___ le bateau.”",["sous", "à côté", "sur", "dans"],0,"“Sous” indica una posición debajo de algo: “sous le bateau”."],
-      ["translate","Traduce: “The fish swim in the water.”",["Les poissons nagent à côté de l'eau.", "Les poissons nagent dans l'eau.", "Les poissons nagent sur l'eau.", "Les poissons nagent sous l'eau est."],1,"“In the water” se traduce con “dans l'eau”, ya que están dentro de ella."],
+      ["translate","Traduce: “Los peces nadan en el agua.”",["Les poissons nagent à côté de l'eau.", "Les poissons nagent dans l'eau.", "Les poissons nagent sur l'eau.", "Les poissons nagent sous l'eau est."],1,"“En el agua” se traduce con “dans l'eau”, ya que están dentro de ella."],
       ["arrange","Ordena: [côté / bateau / du / plongeur / est / à / le]",["côté à plongeur du est bateau le", "le plongeur est à côté du bateau", "côté bateau plongeur du est le à", "du est côté à le plongeur bateau"],1,"Artículo + sustantivo + verbo + preposición + preposición + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (dans/sur/sous/à côté de).",[],["sous", "dans", "poissons"]],
     ]
@@ -3274,10 +3274,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crease” en francés?",["le papier","plier","le pli","les ciseaux"],2,"“Crease” es “le pli” en francés."],
-      ["mcq","¿Cómo se dice “glue” en francés?",["la colle","le loisir créatif","plier","le papier"],0,"“Glue” es “la colle” en francés."],
+      ["mcq","¿Cómo se dice “pliegue” en francés?",["le papier","plier","le pli","les ciseaux"],2,"“Pliegue” es “le pli” en francés."],
+      ["mcq","¿Cómo se dice “pegamento” en francés?",["la colle","le loisir créatif","plier","le papier"],0,"“Pegamento” es “la colle” en francés."],
       ["fill","Completa: “D'abord, plie le papier. ___, fais un pli.”",["D'abord", "Avant", "Ensuite", "Enfin"],2,"“Ensuite” conecta el segundo paso después de “d'abord”."],
-      ["translate","Traduce: “Finally, fold the corners.”",["Enfin, plie le coin.", "Enfin, plie les coins.", "Ensuite, plie les coins.", "Enfin, pliant les coins."],1,"“Finally” se traduce con “Enfin” al inicio de la oración."],
+      ["translate","Traduce: “Por último, dobla las esquinas.”",["Enfin, plie le coin.", "Enfin, plie les coins.", "Ensuite, plie les coins.", "Enfin, pliant les coins."],1,"“Por último” se traduce con “Enfin” al inicio de la oración."],
       ["arrange","Ordena: [ciseaux / loisir / besoin / a / ce / créatif / de]",["besoin ciseaux loisir de ce a créatif", "besoin ce ciseaux a loisir créatif de", "ce loisir créatif a besoin de ciseaux", "de loisir besoin ce créatif a ciseaux"],2,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, los pasos para hacer una manualidad usando secuenciadores (d'abord, ensuite, enfin).",[],["d'abord", "ensuite", "enfin"]],
     ]
@@ -3300,9 +3300,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “fossil” en francés?",["le fossile","le site de fouilles","éteint","l'os de dinosaure"],0,"“Fossil” es “le fossile” en francés."],
-      ["mcq","¿Cómo se dice “skeleton” en francés?",["le squelette","le fossile","l'os de dinosaure","déterrer"],0,"“Skeleton” es “le squelette” en francés."],
-      ["fill","Completa: “Ils n'ont ___ fini les fouilles.”",["toujours", "déjà", "jamais", "pas encore"],3,"“Pas encore” equivale a “not yet”: “n'ont pas encore fini”."],
-      ["translate","Traduce: “Scientists are still studying the fossil.”",["Les scientifiques n'étudient pas encore le fossile.", "Les scientifiques étudient déjà le fossile.", "Les scientifiques ont toujours étudié le fossile.", "Les scientifiques étudient toujours le fossile."],3,"“Are still studying” se traduce con “étudient toujours”, presente con “toujours”."],
+      ["mcq","¿Cómo se dice “esqueleto” en francés?",["le squelette","le fossile","l'os de dinosaure","déterrer"],0,"“Esqueleto” es “le squelette” en francés."],
+      ["fill","Completa: “Ils n'ont ___ fini les fouilles.”",["toujours", "déjà", "jamais", "pas encore"],3,"“Pas encore” equivale a “todavía no”: “n'ont pas encore fini”."],
+      ["translate","Traduce: “Los científicos todavía están estudiando el fósil.”",["Les scientifiques n'étudient pas encore le fossile.", "Les scientifiques étudient déjà le fossile.", "Les scientifiques ont toujours étudié le fossile.", "Les scientifiques étudient toujours le fossile."],3,"“Todavía están estudiando” se traduce con “étudient toujours”, presente con “toujours”."],
       ["arrange","Ordena: [squelette / déjà / ont / trouvé / le / ils]",["le ont déjà trouvé ils squelette", "ils squelette déjà ont trouvé le", "ils ont déjà trouvé le squelette", "squelette trouvé ont déjà le ils"],2,"Sujeto + “ont” + “déjà” + participio + artículo + sustantivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre un descubrimiento de dinosaurios usando “déjà/pas encore/toujours” al menos dos veces.",[],["déjà", "pas encore", "toujours"]],
     ]
@@ -3324,10 +3324,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “vandalism” en francés?",["l'espace public","commander une fresque","la fresque murale","le vandalisme"],3,"“Vandalism” es “le vandalisme” en francés."],
-      ["mcq","¿Cómo se dice “to commission a mural” en francés?",["l'espace public","la fresque murale","le vandalisme","commander une fresque"],3,"“To commission a mural” es “commander une fresque” en francés."],
+      ["mcq","¿Cómo se dice “vandalismo” en francés?",["l'espace public","commander une fresque","la fresque murale","le vandalisme"],3,"“Vandalismo” es “le vandalisme” en francés."],
+      ["mcq","¿Cómo se dice “encargar un mural” en francés?",["l'espace public","la fresque murale","le vandalisme","commander une fresque"],3,"“Encargar un mural” es “commander une fresque” en francés."],
       ["fill","Completa: “À moins que la ville ne l'___, la fresque sera considérée comme du vandalisme.”",["approuvera", "approuve", "approuvait", "a approuvé"],1,"“À moins que” requiere subjonctif: “à moins que... n'approuve”."],
-      ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["Si la ville ne l'approuve pas, la fresque sera considérée comme du vandalisme.", "À moins que la ville l'approuvera, la fresque sera considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque est considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque sera considérée comme du vandalisme."],3,"“Unless” se traduce con “à moins que” + subjonctif (con “ne” expletivo): “à moins que... n'approuve”."],
+      ["translate","Traduce: “A menos que la ciudad lo apruebe, el mural se considerará vandalismo.”",["Si la ville ne l'approuve pas, la fresque sera considérée comme du vandalisme.", "À moins que la ville l'approuvera, la fresque sera considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque est considérée comme du vandalisme.", "À moins que la ville ne l'approuve, la fresque sera considérée comme du vandalisme."],3,"“A menos que” se traduce con “à moins que” + subjonctif (con “ne” expletivo): “à moins que... n'approuve”."],
       ["arrange","Ordena: [talentueux / est / artiste / cet / très]",["talentueux est artiste très cet", "cet est talentueux très artiste", "cet artiste est très talentueux", "talentueux artiste cet très est"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre el arte urbano usando “à moins que” al menos dos veces.",[],["à moins que", "fresque", "artiste de rue"]],
     ]
@@ -3349,10 +3349,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “reasonable doubt” en francés?",["le doute raisonnable","la récidive","le suspect","la preuve médico-légale"],0,"“Reasonable doubt” es “le doute raisonnable” en francés."],
-      ["mcq","¿Cómo se dice “recidivism” en francés?",["la récidive","la preuve médico-légale","le suspect","le doute raisonnable"],0,"“Recidivism” es “la récidive” en francés."],
+      ["mcq","¿Cómo se dice “duda razonable” en francés?",["le doute raisonnable","la récidive","le suspect","la preuve médico-légale"],0,"“Duda razonable” es “le doute raisonnable” en francés."],
+      ["mcq","¿Cómo se dice “reincidencia” en francés?",["la récidive","la preuve médico-légale","le suspect","le doute raisonnable"],0,"“Reincidencia” es “la récidive” en francés."],
       ["fill","Completa: “La preuve médico-légale ___ désigner le suspect.”",["doit", "va", "peut", "sait"],2,"“Peut” + infinitivo expresa posibilidad formal: “peut désigner”."],
-      ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Sans réhabilitation, la récidive doit augmenter.", "Sans réhabilitation, la récidive peut augmentant.", "Sans réhabilitation, la récidive pourrait augmenté.", "Sans réhabilitation, la récidive pourrait augmenter."],3,"“Might increase” se traduce con “pourrait augmenter”, posibilidad formal en francés."],
+      ["translate","Traduce con posibilidad formal: “Sin rehabilitación, la reincidencia podría aumentar.”",["Sans réhabilitation, la récidive doit augmenter.", "Sans réhabilitation, la récidive peut augmentant.", "Sans réhabilitation, la récidive pourrait augmenté.", "Sans réhabilitation, la récidive pourrait augmenter."],3,"“Podría aumentar” se traduce con “pourrait augmenter”, posibilidad formal en francés."],
       ["arrange","Ordena: [condamner / ne / peut / suspect / le / pas / tribunal / le]",["le tribunal ne peut pas condamner le suspect", "le pas suspect ne tribunal peut condamner le", "peut condamner suspect tribunal le ne le pas", "suspect peut le pas tribunal ne condamner le"],0,"Artículo + sustantivo + negación + verbo modal + negación + verbo + artículo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre justicia penal usando “pouvoir” al menos dos veces.",[],["peut", "pourrait", "doute raisonnable"]],
     ]
@@ -3374,10 +3374,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “speech act” en francés?",["la proposition","l'acte de langage","la relativité linguistique","l'ambiguïté"],1,"“Speech act” es “l'acte de langage” en francés."],
-      ["mcq","¿Cómo se dice “ambiguity” en francés?",["la référence","la relativité linguistique","l'acte de langage","l'ambiguïté"],3,"“Ambiguity” es “l'ambiguïté” en francés."],
+      ["mcq","¿Cómo se dice “acto de habla” en francés?",["la proposition","l'acte de langage","la relativité linguistique","l'ambiguïté"],1,"“Acto de habla” es “l'acte de langage” en francés."],
+      ["mcq","¿Cómo se dice “ambigüedad” en francés?",["la référence","la relativité linguistique","l'acte de langage","l'ambiguïté"],3,"“Ambigüedad” es “l'ambiguïté” en francés."],
       ["fill","Completa: “Le linguiste insiste pour que le contexte ___ pris en compte.”",["soit", "est", "sera", "était"],0,"El subjonctif de “être” es “soit”: “insiste pour que... soit pris”."],
-      ["translate","Traduce con subjonctif: “Philosophers suggest that meaning be studied through use.”",["Les philosophes suggèrent que le sens est étudié à travers l'usage.", "Les philosophes suggère que le sens soit étudié à travers l'usage.", "Les philosophes suggèrent que le sens sera étudié à travers l'usage.", "Les philosophes suggèrent que le sens soit étudié à travers l'usage."],3,"El verbo “suggérer que” requiere subjonctif: “suggèrent que... soit étudié”."],
+      ["translate","Traduce con subjonctif: “Los filósofos sugieren que el significado se estudie a través del uso.”",["Les philosophes suggèrent que le sens est étudié à travers l'usage.", "Les philosophes suggère que le sens soit étudié à travers l'usage.", "Les philosophes suggèrent que le sens sera étudié à travers l'usage.", "Les philosophes suggèrent que le sens soit étudié à travers l'usage."],3,"El verbo “suggérer que” requiere subjonctif: “suggèrent que... soit étudié”."],
       ["arrange","Ordena: [ambiguë / phrase / cette / est]",["cette phrase est ambiguë", "ambiguë phrase cette est", "ambiguë cette est phrase", "phrase est cette ambiguë"],0,"Pronombre + sustantivo + verbo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre filosofía del lenguaje usando el subjonctif tras “suggérer/insister/recommander que” al menos dos veces.",[],["suggère que", "insiste pour que", "sens"]],
     ]
@@ -3399,10 +3399,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “juggler” en francés?",["la corde raide","l'acrobate","le clown","le jongleur"],3,"“Juggler” es “le jongleur” en francés."],
-      ["mcq","¿Cómo se dice “acrobat” en francés?",["la corde raide","incroyable","le clown","l'acrobate"],3,"“Acrobat” es “l'acrobate” en francés."],
+      ["mcq","¿Cómo se dice “malabarista” en francés?",["la corde raide","l'acrobate","le clown","le jongleur"],3,"“Malabarista” es “le jongleur” en francés."],
+      ["mcq","¿Cómo se dice “acróbata” en francés?",["la corde raide","incroyable","le clown","l'acrobate"],3,"“Acróbata” es “l'acrobate” en francés."],
       ["fill","Completa: “___ jongleur incroyable !”",["Comme", "Quel", "Quelle", "Que"],1,"“Quel” + sustantivo masculino expresa admiración: “quel jongleur”."],
-      ["translate","Traduce: “How amazing this show is!”",["Comme ce spectacle incroyable !", "Comme ce spectacle est incroyable !", "Comme est ce spectacle incroyable !", "Quel ce spectacle est incroyable !"],1,"“How amazing... is!” se traduce con “Comme... est incroyable !” en francés."],
+      ["translate","Traduce: “¡Qué asombroso es este espectáculo!”",["Comme ce spectacle incroyable !", "Comme ce spectacle est incroyable !", "Comme est ce spectacle incroyable !", "Quel ce spectacle est incroyable !"],1,"“Qué asombroso... es” se traduce con “Comme... est incroyable !” en francés."],
       ["arrange","Ordena: [raide / marche / la / sur / clown / corde / le]",["raide clown la sur le corde marche", "raide sur la marche le clown corde", "raide corde clown le marche la sur", "le clown marche sur la corde raide"],3,"Artículo + sustantivo + verbo + preposición + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“quel.../comme...”).",[],["quel", "comme", "incroyable"]],
     ]
@@ -3424,10 +3424,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to haggle” en francés?",["le vendeur","la bonne affaire","marchander","l'antiquité"],2,"“To haggle” es “marchander” en francés."],
-      ["mcq","¿Cómo se dice “vendor” en francés?",["le vendeur","d'occasion","l'antiquité","la bonne affaire"],0,"“Vendor” es “le vendeur” en francés."],
+      ["mcq","¿Cómo se dice “regatear” en francés?",["le vendeur","la bonne affaire","marchander","l'antiquité"],2,"“Regatear” es “marchander” en francés."],
+      ["mcq","¿Cómo se dice “vendedor” en francés?",["le vendeur","d'occasion","l'antiquité","la bonne affaire"],0,"“Vendedor” es “le vendeur” en francés."],
       ["fill","Completa: “Cette antiquité est ___ chère.”",["très beaucoup", "assez", "si beaucoup", "trop"],3,"“Trop” + adjetivo expresa exceso: “trop chère”."],
-      ["translate","Traduce: “I don't have enough money for this bargain.”",["Je n'ai pas assez d'argent pour cette bonne affaire.", "Je n'ai pas assez d'argent pour ce bonne affaire.", "Je n'ai pas trop d'argent pour cette bonne affaire.", "Je n'ai pas assez argent pour cette bonne affaire."],0,"“Enough money” se traduce con “assez d'argent”."],
+      ["translate","Traduce: “No tengo suficiente dinero para esta ganga.”",["Je n'ai pas assez d'argent pour cette bonne affaire.", "Je n'ai pas assez d'argent pour ce bonne affaire.", "Je n'ai pas trop d'argent pour cette bonne affaire.", "Je n'ai pas assez argent pour cette bonne affaire."],0,"“Suficiente dinero” se traduce con “assez d'argent”."],
       ["arrange","Ordena: [marchande / vendeur / je / avec / le]",["marchande vendeur je avec le", "avec je le marchande vendeur", "je marchande avec le vendeur", "vendeur je marchande avec le"],2,"Sujeto + verbo + preposición + artículo + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, una visita a un mercado de pulgas usando “trop/assez”.",[],["trop", "assez", "bonne affaire"]],
     ]
@@ -3449,10 +3449,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “ancestor” en francés?",["l'ancêtre","l'acte de naissance","l'arbre généalogique","le descendant"],0,"“Ancestor” es “l'ancêtre” en francés."],
-      ["mcq","¿Cómo se dice “birth certificate” en francés?",["l'ancêtre","l'acte de naissance","l'arbre généalogique","l'arrière-grand-parent"],1,"“Birth certificate” es “l'acte de naissance” en francés."],
+      ["mcq","¿Cómo se dice “antepasado” en francés?",["l'ancêtre","l'acte de naissance","l'arbre généalogique","le descendant"],0,"“Antepasado” es “l'ancêtre” en francés."],
+      ["mcq","¿Cómo se dice “certificado de nacimiento” en francés?",["l'ancêtre","l'acte de naissance","l'arbre généalogique","l'arrière-grand-parent"],1,"“Certificado de nacimiento” es “l'acte de naissance” en francés."],
       ["fill","Completa: “Bien que les archives ___ anciennes, nous avons retracé nos racines.”",["soient", "seront", "sont", "étaient"],0,"“Bien que” requiere subjonctif: “bien que... soient anciennes”."],
-      ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Bien si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaisse l'histoire familiale.", "Même si elle n'a jamais connait son arrière-grand-mère, elle connaît l'histoire familiale."],1,"“Even though” se traduce con “même si” + indicatif, hecho conocido."],
+      ["translate","Traduce: “Aunque nunca conoció a su bisabuelo/a, conoce la historia familiar.”",["Bien si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaît l'histoire familiale.", "Même si elle n'a jamais connu son arrière-grand-mère, elle connaisse l'histoire familiale.", "Même si elle n'a jamais connait son arrière-grand-mère, elle connaît l'histoire familiale."],1,"“Aunque” se traduce con “même si” + indicatif, hecho conocido."],
       ["arrange","Ordena: [arbre / grand / a / généalogique / un / elle]",["un a grand généalogique arbre elle", "elle a arbre grand un généalogique", "elle un généalogique arbre a grand", "elle a un grand arbre généalogique"],3,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre tu árbol familiar usando “bien que” o “même si” al menos dos veces.",[],["bien que", "même si", "arbre généalogique"]],
     ]
@@ -3474,10 +3474,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “drought” en francés?",["la crue soudaine","l'ouragan","la sécheresse","la tornade"],2,"“Drought” es “la sécheresse” en francés."],
-      ["mcq","¿Cómo se dice “flash flood” en francés?",["la crue soudaine","l'ouragan","la sécheresse","la tornade"],0,"“Flash flood” es “la crue soudaine” en francés."],
+      ["mcq","¿Cómo se dice “sequía” en francés?",["la crue soudaine","l'ouragan","la sécheresse","la tornade"],2,"“Sequía” es “la sécheresse” en francés."],
+      ["mcq","¿Cómo se dice “inundación repentina” en francés?",["la crue soudaine","l'ouragan","la sécheresse","la tornade"],0,"“Inundación repentina” es “la crue soudaine” en francés."],
       ["fill","Completa: “___ l'alerte, beaucoup de gens sont restés près de la côte.”",["Parce que", "Bien que", "Malgré que", "Malgré"],3,"“Malgré” + sustantivo (sin “que”): “malgré l'alerte”."],
-      ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Malgré d'avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités ne peuvent pas éviter les dégâts."],2,"“In spite of issuing” se traduce con “malgré avoir émis”, infinitivo pasado tras la preposición."],
+      ["translate","Traduce: “A pesar de haber emitido una alerta, las autoridades no pudieron evitar el daño.”",["Malgré d'avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités n'ont pas pu éviter les dégâts.", "Malgré avoir émis une alerte, les autorités ne peuvent pas éviter les dégâts."],2,"“A pesar de haber emitido” se traduce con “malgré avoir émis”, infinitivo pasado tras la preposición."],
       ["arrange","Ordena: [fort / ouragan / un / s'approche]",["ouragan un fort s'approche","un fort ouragan s'approche","un ouragan fort s'approche","s'approche ouragan fort un"],2,"Artículo + sustantivo + adjetivo + pronombre reflexivo + verbo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre un fenómeno meteorológico extremo usando “malgré” al menos dos veces.",[],["malgré", "ouragan", "alerte"]],
     ]
@@ -3499,10 +3499,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “displacement” en francés?",["la gentrification","le renouveau urbain","la communauté locale","le déplacement"],3,"“Displacement” es “le déplacement” en francés."],
-      ["mcq","¿Cómo se dice “affordable housing” en francés?",["la communauté locale","le renouveau urbain","le logement abordable","le loyer croissant"],2,"“Affordable housing” es “le logement abordable” en francés."],
+      ["mcq","¿Cómo se dice “desplazamiento” en francés?",["la gentrification","le renouveau urbain","la communauté locale","le déplacement"],3,"“Desplazamiento” es “le déplacement” en francés."],
+      ["mcq","¿Cómo se dice “vivienda asequible” en francés?",["la communauté locale","le renouveau urbain","le logement abordable","le loyer croissant"],2,"“Vivienda asequible” es “le logement abordable” en francés."],
       ["fill","Completa: “La ville ___ dû protéger le logement abordable.”",["aura", "aurait", "a", "avait"],1,"“Aurait dû” + infinitivo expresa crítica del pasado: “aurait dû protéger”."],
-      ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Les autorités n'auraient pas dû ignoré les préoccupations de la communauté locale.", "Les autorités auraient dû ignorer les préoccupations de la communauté locale.", "Les autorités n'auraient pas dû ignorer les préoccupations de la communauté locale.", "Les autorités ne devraient pas ignorer les préoccupations de la communauté locale."],2,"“Shouldn't have ignored” se traduce con “n'auraient pas dû ignorer”, infinitivo tras “dû”."],
+      ["translate","Traduce: “Las autoridades no deberían haber ignorado las preocupaciones de la comunidad local.”",["Les autorités n'auraient pas dû ignoré les préoccupations de la communauté locale.", "Les autorités auraient dû ignorer les préoccupations de la communauté locale.", "Les autorités n'auraient pas dû ignorer les préoccupations de la communauté locale.", "Les autorités ne devraient pas ignorer les préoccupations de la communauté locale."],2,"“No deberían haber ignorado” se traduce con “n'auraient pas dû ignorer”, infinitivo tras “dû”."],
       ["arrange","Ordena: [croissant / inquiète / résidents / loyer / le]",["le croissant inquiète résidents loyer", "résidents croissant le inquiète loyer", "loyer résidents croissant inquiète le", "le loyer croissant inquiète résidents"],3,"Artículo + sustantivo + adjetivo + verbo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis crítico sobre la gentrificación usando “aurait dû/n'aurait pas dû” al menos dos veces.",[],["aurait dû", "n'aurait pas dû", "gentrification"]],
     ]
@@ -3524,10 +3524,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “skepticism” en francés?",["le scepticisme","la croyance vraie justifiée","l'épistémologie","la connaissance a priori"],0,"“Skepticism” es “le scepticisme” en francés."],
-      ["mcq","¿Cómo se dice “epistemic humility” en francés?",["la croyance vraie justifiée","l'épistémologie","l'humilité épistémique","la certitude"],2,"“Epistemic humility” es “l'humilité épistémique” en francés."],
+      ["mcq","¿Cómo se dice “escepticismo” en francés?",["le scepticisme","la croyance vraie justifiée","l'épistémologie","la connaissance a priori"],0,"“Escepticismo” es “le scepticisme” en francés."],
+      ["mcq","¿Cómo se dice “humildad epistémica” en francés?",["la croyance vraie justifiée","l'épistémologie","l'humilité épistémique","la certitude"],2,"“Humildad epistémica” es “l'humilité épistémique” en francés."],
       ["fill","Completa: “À peine les philosophes avaient-ils proposé une théorie ___ les sceptiques la contestaient.”",["que", "puis", "alors", "et"],0,"“À peine... que” forma la estructura de secuencia inmediata: “à peine... que”."],
-      ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["À peine a-t-on affirmé savoir quelque chose que le doute surgit.", "À peine on affirme savoir quelque chose que le doute surgit.", "À peine affirme-t-on savoir quelque chose que le doute disparaît.", "À peine affirme-t-on savoir quelque chose que le doute surgit."],3,"“À peine” al inicio invierte con “-t-on”: “à peine affirme-t-on”."],
+      ["translate","Traduce con secuencia inmediata: “Apenas alguien afirma saber algo, surge la duda.”",["À peine a-t-on affirmé savoir quelque chose que le doute surgit.", "À peine on affirme savoir quelque chose que le doute surgit.", "À peine affirme-t-on savoir quelque chose que le doute disparaît.", "À peine affirme-t-on savoir quelque chose que le doute surgit."],3,"“À peine” al inicio invierte con “-t-on”: “à peine affirme-t-on”."],
       ["arrange","Ordena: [vraie / exige / connaissance / certitude / la]",["vraie exige la certitude connaissance", "vraie certitude exige connaissance la", "la connaissance exige certitude vraie", "certitude exige connaissance vraie la"],2,"Artículo + sustantivo + verbo + adjetivo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento epistemológico usando “à peine... que” al menos una vez.",[],["à peine", "que", "scepticisme"]],
     ]
@@ -3550,9 +3550,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “nest” en francés?",["les jumelles","l'aile","le nid","voler"],2,"“Nest” es “le nid” en francés."],
-      ["mcq","¿Cómo se dice “beak” en francés?",["le nid","le bec","voler","l'aile"],1,"“Beak” es “le bec” en francés."],
+      ["mcq","¿Cómo se dice “pico” en francés?",["le nid","le bec","voler","l'aile"],1,"“Pico” es “le bec” en francés."],
       ["fill","Completa: “L'oiseau utilise ___ ailes pour voler.”",["ses", "sa", "leur", "son"],0,"“Ailes” es plural, así que se usa “ses”: “ses ailes”."],
-      ["translate","Traduce: “My binoculars are new.”",["Mes jumelles sont neuves.", "Mes jumelle sont neuves.", "Ma jumelles sont neuves.", "Mes jumelles est neuve."],0,"“My” se traduce con “mes” ante un sustantivo plural: “mes jumelles”."],
+      ["translate","Traduce: “Mis binoculares son nuevos.”",["Mes jumelles sont neuves.", "Mes jumelle sont neuves.", "Ma jumelles sont neuves.", "Mes jumelles est neuve."],0,"“Mis” se traduce con “mes” ante un sustantivo plural: “mes jumelles”."],
       ["arrange","Ordena: [nid / est / dans / leur / l'arbre]",["nid dans est leur l'arbre","leur dans est l'arbre nid","est leur nid l'arbre dans","leur nid est dans l'arbre"],3,"Posesivo + sustantivo + verbo + preposición + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, un ave que viste usando posesivos (mon/son/leur).",[],["son", "mes", "ailes"]],
     ]
@@ -3574,10 +3574,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “kiln” en francés?",["l'argile","le tour de potier","le four à céramique","le bol"],2,"“Kiln” es “le four à céramique” en francés."],
-      ["mcq","¿Cómo se dice “glaze” en francés?",["le bol","l'émail","l'argile","le tour de potier"],1,"“Glaze” es “l'émail” en francés."],
+      ["mcq","¿Cómo se dice “horno de cerámica” en francés?",["l'argile","le tour de potier","le four à céramique","le bol"],2,"“Horno de cerámica” es “le four à céramique” en francés."],
+      ["mcq","¿Cómo se dice “esmalte” en francés?",["le bol","l'émail","l'argile","le tour de potier"],1,"“Esmalte” es “l'émail” en francés."],
       ["fill","Completa: “___ d'argile as-tu besoin ?”",["Comment", "Que", "Combien", "Combien de"],2,"“Combien” + “de” + sustantivo pregunta cantidad: “combien d'argile”."],
-      ["translate","Traduce: “How many bowls did you make?”",["Combien bols as-tu fait ?", "Combien de bols tu as fait ?", "Combien de bol as-tu fait ?", "Combien de bols as-tu fait ?"],3,"“How many bowls” se traduce con “combien de bols”."],
+      ["translate","Traduce: “¿Cuántos cuencos hiciste?”",["Combien bols as-tu fait ?", "Combien de bols tu as fait ?", "Combien de bol as-tu fait ?", "Combien de bols as-tu fait ?"],3,"“Cuántos cuencos” se traduce con “combien de bols”."],
       ["arrange","Ordena: [potier / le / le / tour / utilise]",["utilise potier tour le le", "le potier utilise le tour", "le le potier utilise tour", "potier le tour le utilise"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, una pieza de cerámica que te gustaría hacer usando “combien de”.",[],["combien de", "argile", "bols"]],
     ]
@@ -3599,10 +3599,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “black belt” en francés?",["la prise de l'adversaire","l'équilibre","le dojo","la ceinture noire"],3,"“Black belt” es “la ceinture noire” en francés."],
-      ["mcq","¿Cómo se dice “balance” en francés?",["les arts martiaux","le dojo","l'équilibre","la ceinture noire"],2,"“Balance” es “l'équilibre” en francés."],
+      ["mcq","¿Cómo se dice “cinturón negro” en francés?",["la prise de l'adversaire","l'équilibre","le dojo","la ceinture noire"],3,"“Cinturón negro” es “la ceinture noire” en francés."],
+      ["mcq","¿Cómo se dice “equilibrio” en francés?",["les arts martiaux","le dojo","l'équilibre","la ceinture noire"],2,"“Equilibrio” es “l'équilibre” en francés."],
       ["fill","Completa: “L'aïkido demande ___ de la force et de l'équilibre.”",["les deux de", "soit", "ni", "à la fois"],3,"“À la fois... et” conecta dos elementos: “à la fois de la force et de l'équilibre”."],
-      ["translate","Traduce: “You can practice either in the morning or in the evening.”",["Tu peux t'entraîner à la fois le matin, soit le soir.", "Tu peux t'entraîner soit le matin ou le soir.", "Tu peux t'entraîner soit le matin, soit le soir.", "Tu peux t'entraîner soit le matin, le soir soit."],2,"“Either... or” se traduce con “soit... soit” en francés."],
+      ["translate","Traduce: “Puedes practicar por la mañana o por la noche.”",["Tu peux t'entraîner à la fois le matin, soit le soir.", "Tu peux t'entraîner soit le matin ou le soir.", "Tu peux t'entraîner soit le matin, soit le soir.", "Tu peux t'entraîner soit le matin, le soir soit."],2,"“O... o” se traduce con “soit... soit” en francés."],
       ["arrange","Ordena: [difficile / est / technique / très / cette]",["est très cette difficile technique", "cette est technique difficile très", "cette technique est très difficile", "cette est difficile technique très"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre practicar un arte marcial usando “à la fois...et” o “soit...soit” al menos dos veces.",[],["à la fois...et", "soit...soit", "aïkido"]],
     ]
@@ -3625,9 +3625,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “spore” en francés?",["la spore","vénéneux","le mycélium","le champignon"],0,"“Spore” es “la spore” en francés."],
-      ["mcq","¿Cómo se dice “mycelium” en francés?",["le mycélium","le champignon/la moisissure","le champignon","la spore"],0,"“Mycelium” es “le mycélium” en francés."],
+      ["mcq","¿Cómo se dice “micelio” en francés?",["le mycélium","le champignon/la moisissure","le champignon","la spore"],0,"“Micelio” es “le mycélium” en francés."],
       ["fill","Completa: “Ce champignon a l'air comme s'il ___ vénéneux.”",["soit", "sera", "est", "était"],3,"“Comme si” siempre requiere imparfait: “comme s'il était”."],
-      ["translate","Traduce: “The mycelium spreads as though it had a mind of its own.”",["Le mycélium se propage comme s'il a sa propre volonté.", "Le mycélium propage comme s'il avait sa propre volonté.", "Le mycélium se propage comme s'il avait sa propre volonté.", "Le mycélium se propage comme s'il aurait sa propre volonté."],2,"“As though it had” se traduce con “comme s'il avait”, imparfait en francés."],
+      ["translate","Traduce: “El micelio se extiende como si tuviera voluntad propia.”",["Le mycélium se propage comme s'il a sa propre volonté.", "Le mycélium propage comme s'il avait sa propre volonté.", "Le mycélium se propage comme s'il avait sa propre volonté.", "Le mycélium se propage comme s'il aurait sa propre volonté."],2,"“Como si tuviera” se traduce con “comme s'il avait”, imparfait en francés."],
       ["arrange","Ordena: [comestible / champignon / n'est / ce / pas]",["pas champignon n'est comestible ce", "ce champignon n'est pas comestible", "comestible champignon n'est pas ce", "champignon n'est pas comestible ce"],1,"Pronombre + sustantivo + negación + verbo + negación + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre un hongo interesante usando “comme si” al menos dos veces.",[],["comme si", "champignon", "vénéneux"]],
     ]
@@ -3649,10 +3649,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “biodiversity” en francés?",["l'écosystème marin","la biodiversité","l'espèce marine","la chaîne alimentaire"],1,"“Biodiversity” es “la biodiversité” en francés."],
-      ["mcq","¿Cómo se dice “coral bleaching” en francés?",["l'espèce marine","l'écosystème marin","le blanchissement des coraux","l'acidification des océans"],2,"“Coral bleaching” es “le blanchissement des coraux” en francés."],
+      ["mcq","¿Cómo se dice “biodiversidad” en francés?",["l'écosystème marin","la biodiversité","l'espèce marine","la chaîne alimentaire"],1,"“Biodiversidad” es “la biodiversité” en francés."],
+      ["mcq","¿Cómo se dice “blanqueamiento del coral” en francés?",["l'espèce marine","l'écosystème marin","le blanchissement des coraux","l'acidification des océans"],2,"“Blanqueamiento del coral” es “le blanchissement des coraux” en francés."],
       ["fill","Completa: “Les récifs survivent à condition que les températures ___ stables.”",["restent", "restent-elles", "sont restées", "resteront"],0,"“À condition que” requiere subjonctif: “à condition que... restent”."],
-      ["translate","Traduce: “Marine biodiversity can recover, provided that pollution decreases.”",["La biodiversité marine peut se rétablir, pourvu que la pollution diminue.", "La biodiversité marine peut se rétablir, pourvu que la pollution diminuera.", "La biodiversité marine peut se rétablir, pourvu la pollution diminue.", "La biodiversité marine peut rétablir, pourvu que la pollution diminue."],0,"“Provided that” se traduce con “pourvu que” + subjonctif: “pourvu que... diminue”."],
+      ["translate","Traduce: “La biodiversidad marina puede recuperarse, siempre que disminuya la contaminación.”",["La biodiversité marine peut se rétablir, pourvu que la pollution diminue.", "La biodiversité marine peut se rétablir, pourvu que la pollution diminuera.", "La biodiversité marine peut se rétablir, pourvu la pollution diminue.", "La biodiversité marine peut rétablir, pourvu que la pollution diminue."],0,"“Siempre que” se traduce con “pourvu que” + subjonctif: “pourvu que... diminue”."],
       ["arrange","Ordena: [alimentaire / perturbe / chaîne / pollution / la / la]",["perturbe la pollution chaîne alimentaire la", "la la pollution chaîne perturbe alimentaire", "la perturbe alimentaire pollution la chaîne", "la pollution perturbe la chaîne alimentaire"],3,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre los ecosistemas marinos usando “pourvu que” o “à condition que” al menos dos veces.",[],["pourvu que", "à condition que", "écosystème marin"]],
     ]
@@ -3674,10 +3674,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “cartographer” en francés?",["l'instrument de navigation","la projection","le territoire inexploré","le cartographe"],3,"“Cartographer” es “le cartographe” en francés."],
-      ["mcq","¿Cómo se dice “uncharted territory” en francés?",["cartographier","la projection","le cartographe","le territoire inexploré"],3,"“Uncharted territory” es “le territoire inexploré” en francés."],
+      ["mcq","¿Cómo se dice “cartógrafo” en francés?",["l'instrument de navigation","la projection","le territoire inexploré","le cartographe"],3,"“Cartógrafo” es “le cartographe” en francés."],
+      ["mcq","¿Cómo se dice “territorio inexplorado” en francés?",["cartographier","la projection","le cartographe","le territoire inexploré"],3,"“Territorio inexplorado” es “le territoire inexploré” en francés."],
       ["fill","Completa: “___ les premiers cartographes, l'exploration aurait été impossible.”",["Pour", "Sans", "Avec", "Malgré"],1,"“Sans” + sustantivo expresa la condición hipotética: “sans les premiers cartographes”."],
-      ["translate","Traduce con estructura formal: “Were it not for early cartographers, exploration would have been impossible.”",["Sans les premiers cartographes, l'exploration a été impossible.", "Sans les premiers cartographes, l'exploration serait impossible.", "Sans des premiers cartographes, l'exploration aurait été impossible.", "Sans les premiers cartographes, l'exploration aurait été impossible."],3,"“Were it not for” se traduce con “sans” + sustantivo, seguido de conditionnel passé en la consecuencia."],
+      ["translate","Traduce con estructura formal: “De no haber sido por los primeros cartógrafos, la exploración habría sido imposible.”",["Sans les premiers cartographes, l'exploration a été impossible.", "Sans les premiers cartographes, l'exploration serait impossible.", "Sans des premiers cartographes, l'exploration aurait été impossible.", "Sans les premiers cartographes, l'exploration aurait été impossible."],3,"“De no haber sido por” se traduce con “sans” + sustantivo, seguido de conditionnel passé en la consecuencia."],
       ["arrange","Ordena: [précise / très / projection / cette / est]",["projection précise très cette est", "précise très est projection cette", "cette projection est très précise", "très projection est précise cette"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un argumento sobre la historia de la cartografía usando “sans” + sustantivo con este sentido condicional al menos una vez.",[],["sans", "cartographe", "projection"]],
     ]
@@ -3699,10 +3699,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “needle” en francés?",["l'aiguille","essayer (un vêtement)","le fil","le tailleur"],0,"“Needle” es “l'aiguille” en francés."],
-      ["mcq","¿Cómo se dice “thread” en francés?",["coudre","l'aiguille","le fil","le tailleur"],2,"“Thread” es “le fil” en francés."],
+      ["mcq","¿Cómo se dice “aguja” en francés?",["l'aiguille","essayer (un vêtement)","le fil","le tailleur"],0,"“Aguja” es “l'aiguille” en francés."],
+      ["mcq","¿Cómo se dice “hilo” en francés?",["coudre","l'aiguille","le fil","le tailleur"],2,"“Hilo” es “le fil” en francés."],
       ["fill","Completa: “J'___ la veste.”",["essaies", "essaie", "essayer", "m'essaie"],1,"“Essayer” (probarse ropa) con “je” se conjuga como “j'essaie”."],
-      ["translate","Traduce: “I try on the jacket.”",["Je m'essaie la veste.", "J'essaies la veste.", "J'essaie de la veste.", "J'essaie la veste."],3,"“Try on” se traduce con “essayer” sin forma pronominal: “j'essaie la veste”."],
+      ["translate","Traduce: “Me pruebo la chaqueta.”",["Je m'essaie la veste.", "J'essaies la veste.", "J'essaie de la veste.", "J'essaie la veste."],3,"“Probarse” se traduce con “essayer” sin forma pronominal: “j'essaie la veste”."],
       ["arrange","Ordena: [bouton / coud / tailleur / le / le]",["bouton le coud tailleur le", "le tailleur coud le bouton", "bouton tailleur le coud le", "bouton le le tailleur coud"],1,"Artículo + sustantivo + verbo + artículo + sustantivo."],
       ["writing","Describe en francés, en 20-30 palabras, cómo te pruebas ropa nueva usando “essayer”.",[],["j'essaie", "aiguille", "fil"]],
     ]
@@ -3724,10 +3724,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “harness” en francés?",["la falaise","la corde","le harnais","le sommet"],2,"“Harness” es “le harnais” en francés."],
-      ["mcq","¿Cómo se dice “cliff” en francés?",["le sommet","la corde","la falaise","le harnais"],2,"“Cliff” es “la falaise” en francés."],
+      ["mcq","¿Cómo se dice “arnés” en francés?",["la falaise","la corde","le harnais","le sommet"],2,"“Arnés” es “le harnais” en francés."],
+      ["mcq","¿Cómo se dice “acantilado” en francés?",["le sommet","la corde","la falaise","le harnais"],2,"“Acantilado” es “la falaise” en francés."],
       ["fill","Completa: “Ça ___ trois heures qu'on escalade.”",["faisait", "fais", "fera", "fait"],3,"“Ça fait” + tiempo + “que” expresa duración: “ça fait trois heures que”."],
-      ["translate","Traduce: “She has been training for the summit all year.”",["Ça fait un an qu'elle s'est entraînée pour le sommet.", "Ça fait un an qu'elle s'entraînait pour le sommet.", "Ça fait un an elle s'entraîne pour le sommet.", "Ça fait un an qu'elle s'entraîne pour le sommet."],3,"“Has been training” se traduce con “ça fait un an qu'elle s'entraîne”, presente para acción continua."],
+      ["translate","Traduce: “Lleva todo el año entrenando para la cumbre.”",["Ça fait un an qu'elle s'est entraînée pour le sommet.", "Ça fait un an qu'elle s'entraînait pour le sommet.", "Ça fait un an elle s'entraîne pour le sommet.", "Ça fait un an qu'elle s'entraîne pour le sommet."],3,"“Lleva entrenando” se traduce con “ça fait un an qu'elle s'entraîne”, presente para acción continua."],
       ["arrange","Ordena: [corde / a / grimpeur / le / besoin / d'une / nouvelle]",["a corde nouvelle besoin d'une grimpeur le", "besoin corde a grimpeur nouvelle le d'une", "le grimpeur a besoin d'une nouvelle corde", "d'une le grimpeur corde a nouvelle besoin"],2,"Artículo + sustantivo + verbo + sustantivo + preposición + artículo + adjetivo + sustantivo."],
       ["speaking","Describe en francés, en 40-60 palabras, una experiencia de escalada usando “ça fait... que”.",[],["ça fait", "escalade", "sommet"]],
     ]
@@ -3749,10 +3749,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “mint” en francés?",["évaluer","la pièce de monnaie","la devise","l'hôtel de la Monnaie"],3,"“Mint” es “l'hôtel de la Monnaie” en francés."],
-      ["mcq","¿Cómo se dice “to appraise” en francés?",["la pièce de monnaie","évaluer","l'hôtel de la Monnaie","la devise"],1,"“To appraise” es “évaluer” en francés."],
+      ["mcq","¿Cómo se dice “casa de moneda” en francés?",["évaluer","la pièce de monnaie","la devise","l'hôtel de la Monnaie"],3,"“Casa de moneda” es “l'hôtel de la Monnaie” en francés."],
+      ["mcq","¿Cómo se dice “tasar” en francés?",["la pièce de monnaie","évaluer","l'hôtel de la Monnaie","la devise"],1,"“Tasar” es “évaluer” en francés."],
       ["fill","Completa: “J'ai l'habitude ___ évaluer de vieilles pièces.”",["à", "d'", "pour", "de le"],1,"“Avoir l'habitude de” + infinitivo: “l'habitude d'évaluer”."],
-      ["translate","Traduce: “It took time to get used to collecting rare currency.”",["Il a fallu du temps pour s'habituer à collectionner des devises rares.", "Il a fallu du temps pour s'habituer collectionner des devises rares.", "Il a fallu du temps s'habituer à collectionner des devises rares.", "Il a fallu du temps pour s'habituer à collectionner de devises rares."],0,"“Get used to collecting” se traduce con “s'habituer à collectionner”, infinitivo tras “à”."],
+      ["translate","Traduce: “Costó tiempo acostumbrarse a coleccionar monedas raras.”",["Il a fallu du temps pour s'habituer à collectionner des devises rares.", "Il a fallu du temps pour s'habituer collectionner des devises rares.", "Il a fallu du temps s'habituer à collectionner des devises rares.", "Il a fallu du temps pour s'habituer à collectionner de devises rares."],0,"“Acostumbrarse a coleccionar” se traduce con “s'habituer à collectionner”, infinitivo tras “à”."],
       ["arrange","Ordena: [rare / a / collection / une / elle / de pièces]",["rare elle collection a de pièces une", "a pièces elle collection rare de une", "de pièces elle collection a une rare", "elle a une collection de pièces rare"],3,"Sujeto + verbo + artículo + sustantivo + preposición + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre coleccionar monedas usando “avoir l'habitude de/s'habituer à” al menos dos veces.",[],["l'habitude de", "s'habituer à", "collection de pièces"]],
     ]
@@ -3774,10 +3774,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “epicenter” en francés?",["le tremblement de terre","la réplique","le sismographe","l'épicentre"],3,"“Epicenter” es “l'épicentre” en francés."],
-      ["mcq","¿Cómo se dice “tectonic plate” en francés?",["la plaque tectonique","le sismographe","le tremblement de terre","l'épicentre"],0,"“Tectonic plate” es “la plaque tectonique” en francés."],
+      ["mcq","¿Cómo se dice “epicentro” en francés?",["le tremblement de terre","la réplique","le sismographe","l'épicentre"],3,"“Epicentro” es “l'épicentre” en francés."],
+      ["mcq","¿Cómo se dice “placa tectónica” en francés?",["la plaque tectonique","le sismographe","le tremblement de terre","l'épicentre"],0,"“Placa tectónica” es “la plaque tectonique” en francés."],
       ["fill","Completa: “Je me demande ___ l'épicentre était près de la ville.”",["que", "si", "quoi", "est-ce que"],1,"La pregunta indirecta con verbos como “se demander” usa “si”: “se demander si”."],
-      ["translate","Traduce con pregunta indirecta: “Do you know how strong the magnitude was?”",["Sais-tu quelle était la magnitude ?", "Tu sais quelle était la magnitude ?", "Sais-tu quelle est la magnitude ?", "Sais-tu que la magnitude était ?"],0,"La pregunta indirecta formal usa inversión sujeto-verbo tras “sais-tu”: “sais-tu quelle était”."],
+      ["translate","Traduce con pregunta indirecta: “¿Sabes cuál fue la magnitud?”",["Sais-tu quelle était la magnitude ?", "Tu sais quelle était la magnitude ?", "Sais-tu quelle est la magnitude ?", "Sais-tu que la magnitude était ?"],0,"La pregunta indirecta formal usa inversión sujeto-verbo tras “sais-tu”: “sais-tu quelle était”."],
       ["arrange","Ordena: [petite / une / avons / réplique / senti / nous]",["réplique avons nous une petite senti", "une avons petite nous senti réplique", "nous avons senti une petite réplique", "petite une senti réplique avons nous"],2,"Sujeto + auxiliar + participio + artículo + adjetivo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre un terremoto usando al menos dos preguntas indirectas (“je me demande si...”, “sais-tu...”).",[],["je me demande si", "sais-tu", "tremblement de terre"]],
     ]
@@ -3800,9 +3800,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cómo se dice “scribe” en francés?",["déchiffrer","le parchemin","le scribe","le texte enluminé"],2,"“Scribe” es “le scribe” en francés."],
-      ["mcq","¿Cómo se dice “parchment” en francés?",["le style d'écriture","le texte enluminé","le parchemin","déchiffrer"],2,"“Parchment” es “le parchemin” en francés."],
+      ["mcq","¿Cómo se dice “pergamino” en francés?",["le style d'écriture","le texte enluminé","le parchemin","déchiffrer"],2,"“Pergamino” es “le parchemin” en francés."],
       ["fill","Completa: “___ déchiffrera ce manuscrit entrera dans l'histoire.”",["Qui que", "Lequel", "Quiconque", "Quoi que"],2,"“Quiconque” se refiere a una persona no especificada: “quiconque déchiffrera”."],
-      ["translate","Traduce con esta estructura: “Whatever the scribe intended, the meaning is now lost.”",["Quoi que le scribe ait voulu dire, le sens est aujourd'hui perdu.", "Ce que le scribe ait voulu dire, le sens est aujourd'hui perdu.", "Quoi que le scribe a voulu dire, le sens est aujourd'hui perdu.", "Quoi que le scribe ait voulu dire, le sens était aujourd'hui perdu."],0,"“Whatever” se traduce con “quoi que” + subjonctif: “quoi que... ait voulu”."],
+      ["translate","Traduce con esta estructura: “Sea lo que sea lo que el escriba quisiera decir, el significado se ha perdido.”",["Quoi que le scribe ait voulu dire, le sens est aujourd'hui perdu.", "Ce que le scribe ait voulu dire, le sens est aujourd'hui perdu.", "Quoi que le scribe a voulu dire, le sens est aujourd'hui perdu.", "Quoi que le scribe ait voulu dire, le sens était aujourd'hui perdu."],0,"“Sea lo que sea” se traduce con “quoi que” + subjonctif: “quoi que... ait voulu”."],
       ["arrange","Ordena: [magnifiquement / est / manuscrit / enluminé / ce]",["ce manuscrit est magnifiquement enluminé", "magnifiquement est manuscrit enluminé ce", "manuscrit est enluminé magnifiquement ce", "ce est enluminé magnifiquement manuscrit"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre un manuscrito antiguo usando “quiconque” o “quoi que” al menos dos veces.",[],["quiconque", "quoi que", "manuscrit"]],
     ]
@@ -3824,10 +3824,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “bottleneck” en francés?",["l'entrepôt","la chaîne d'approvisionnement","le goulot d'étranglement","la perturbation logistique"],2,"“Bottleneck” es “le goulot d'étranglement” en francés."],
-      ["mcq","¿Cómo se dice “just-in-time delivery” en francés?",["la chaîne d'approvisionnement","le fret","l'entrepôt","la livraison juste-à-temps"],3,"“Just-in-time delivery” es “la livraison juste-à-temps” en francés."],
+      ["mcq","¿Cómo se dice “cuello de botella” en francés?",["l'entrepôt","la chaîne d'approvisionnement","le goulot d'étranglement","la perturbation logistique"],2,"“Cuello de botella” es “le goulot d'étranglement” en francés."],
+      ["mcq","¿Cómo se dice “la entrega justo a tiempo” en francés?",["la chaîne d'approvisionnement","le fret","l'entrepôt","la livraison juste-à-temps"],3,"“La entrega justo a tiempo” es “la livraison juste-à-temps” en francés."],
       ["fill","Completa: “Peu d'entreprises ___ à quel point la chaîne était fragile.”",["imaginent", "ont imaginé", "imaginaient", "imagineront"],2,"“Peu... imaginaient” usa imparfait para describir la falta de anticipación."],
-      ["translate","Traduce con estructura enfática: “Little did anyone expect such a severe logistics disruption.”",["Personne s'attendait à une perturbation logistique aussi grave.", "Personne ne s'attendait à une perturbation logistique aussi grave.", "Quelqu'un ne s'attendait à une perturbation logistique aussi grave.", "Personne ne s'attendait une perturbation logistique aussi grave."],1,"“Little did anyone expect” se traduce naturalmente con “personne ne s'attendait à” en francés."],
+      ["translate","Traduce con estructura enfática: “Nadie esperaba una interrupción logística tan grave.”",["Personne s'attendait à une perturbation logistique aussi grave.", "Personne ne s'attendait à une perturbation logistique aussi grave.", "Quelqu'un ne s'attendait à une perturbation logistique aussi grave.", "Personne ne s'attendait une perturbation logistique aussi grave."],1,"“Nadie esperaba” se traduce naturalmente con “personne ne s'attendait à” en francés."],
       ["arrange","Ordena: [marchandises / stocke / des / l'entrepôt]",["l'entrepôt stocke des marchandises","des marchandises l'entrepôt stocke","marchandises des l'entrepôt stocke","marchandises l'entrepôt stocke des"],0,"Artículo + sustantivo + verbo + artículo + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre la cadena de suministro global usando “peu imaginaient/personne ne s'attendait” al menos una vez.",[],["peu imaginaient", "chaîne d'approvisionnement", "goulot d'étranglement"]],
     ]
@@ -3849,10 +3849,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “antenna” en francés?",["le microphone","le signal radio","transmettre","l'antenne"],3,"“Antenna” es “l'antenne” en francés."],
-      ["mcq","¿Cómo se dice “static” en francés?",["le signal radio","les parasites","la fréquence","l'antenne"],1,"“Static” es “les parasites” en francés."],
+      ["mcq","¿Cómo se dice “antena” en francés?",["le microphone","le signal radio","transmettre","l'antenne"],3,"“Antena” es “l'antenne” en francés."],
+      ["mcq","¿Cómo se dice “interferencias” en francés?",["le signal radio","les parasites","la fréquence","l'antenne"],1,"“Interferencias” es “les parasites” en francés."],
       ["fill","Completa: “___ deux antennes sur le toit.”",["Il y ont", "Il y a", "Il est", "Ils sont"],1,"“Il y a” es invariable, tanto para singular como plural: “il y a deux antennes”."],
-      ["translate","Traduce: “There is a lot of static on this frequency.”",["Il y a beaucoup de parasites sur cette fréquence.", "Il y a beaucoup de parasite sur cette fréquence.", "Il est beaucoup de parasites sur cette fréquence.", "Il y a beaucoup des parasites sur cette fréquence."],0,"“There is a lot of static” se traduce con “il y a beaucoup de parasites”."],
+      ["translate","Traduce: “Hay muchas interferencias en esta frecuencia.”",["Il y a beaucoup de parasites sur cette fréquence.", "Il y a beaucoup de parasite sur cette fréquence.", "Il est beaucoup de parasites sur cette fréquence.", "Il y a beaucoup des parasites sur cette fréquence."],0,"“Hay mucha estática” se traduce con “il y a beaucoup de parasites”."],
       ["arrange","Ordena: [faible / signal / ce / est]",["faible ce signal est", "ce signal est faible", "est signal faible ce", "ce est faible signal"],1,"Pronombre + sustantivo + verbo + adjetivo."],
       ["writing","Describe en francés, en 20-30 palabras, un equipo de radioafición usando “il y a”.",[],["il y a", "antenne", "fréquence"]],
     ]
@@ -3874,10 +3874,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “zodiac sign” en francés?",["le signe du zodiaque","la prédiction","la carte du ciel","le destin"],0,"“Zodiac sign” es “le signe du zodiaque” en francés."],
-      ["mcq","¿Cómo se dice “destiny” en francés?",["le voyant/la voyante","l'horoscope","la carte du ciel","le destin"],3,"“Destiny” es “le destin” en francés."],
+      ["mcq","¿Cómo se dice “signo del zodiaco” en francés?",["le signe du zodiaque","la prédiction","la carte du ciel","le destin"],0,"“Signo del zodiaco” es “le signe du zodiaque” en francés."],
+      ["mcq","¿Cómo se dice “destino” en francés?",["le voyant/la voyante","l'horoscope","la carte du ciel","le destin"],3,"“Destino” es “le destin” en francés."],
       ["fill","Completa: “Cet horoscope dit que tu ___ une bonne semaine.”",["aurais", "as", "avais", "auras"],3,"El futur simple de “avoir” en segunda persona es “auras”."],
-      ["translate","Traduce: “The fortune teller thinks she will find love soon.”",["La voyante pense qu'elle va trouver l'amour bientôt déjà.", "La voyante pense qu'elle trouvera l'amour bientôt.", "La voyante pense qu'elle trouverait l'amour bientôt.", "La voyante pense qu'elle trouve l'amour bientôt."],1,"“Will find” se traduce con futur simple: “trouvera”."],
+      ["translate","Traduce: “La adivina cree que pronto encontrará el amor.”",["La voyante pense qu'elle va trouver l'amour bientôt déjà.", "La voyante pense qu'elle trouvera l'amour bientôt.", "La voyante pense qu'elle trouverait l'amour bientôt.", "La voyante pense qu'elle trouve l'amour bientôt."],1,"“Encontrará” se traduce con futur simple: “trouvera”."],
       ["arrange","Ordena: [ciel / intéressante / cette / carte / du / est]",["ciel carte du cette est intéressante", "cette carte du ciel est intéressante", "est carte ciel cette du intéressante", "est intéressante cette carte du ciel"],1,"Pronombre + sustantivo + preposición + sustantivo + verbo + adjetivo."],
       ["speaking","Describe en francés, en 40-60 palabras, tu horóscopo de esta semana usando el futur simple para predicciones.",[],["futur", "horoscope", "prédiction"]],
     ]
@@ -3899,10 +3899,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “free fall” en francés?",["la chute libre","le parachute","le saut à l'élastique","sauter"],0,"“Free fall” es “la chute libre” en francés."],
-      ["mcq","¿Cómo se dice “adrenaline rush” en francés?",["le sport extrême","le parachute","la chute libre","la montée d'adrénaline"],3,"“Adrenaline rush” es “la montée d'adrénaline” en francés."],
+      ["mcq","¿Cómo se dice “caída libre” en francés?",["la chute libre","le parachute","le saut à l'élastique","sauter"],0,"“Caída libre” es “la chute libre” en francés."],
+      ["mcq","¿Cómo se dice “subidón de adrenalina” en francés?",["le sport extrême","le parachute","la chute libre","la montée d'adrénaline"],3,"“Subidón de adrenalina” es “la montée d'adrénaline” en francés."],
       ["fill","Completa: “Elle a réussi ___ ouvrir le parachute à temps.”",["de", "à", "pour", "en"],1,"“Réussir à” + infinitivo: “réussi à ouvrir”."],
-      ["translate","Traduce: “He succeeded in overcoming his fear of heights.”",["Il a réussi à surmonter sa peur de hauteurs.", "Il réussit à surmonter sa peur des hauteurs.", "Il a réussi de surmonter sa peur des hauteurs.", "Il a réussi à surmonter sa peur des hauteurs."],3,"“Succeed in overcoming” se traduce con “réussir à surmonter”."],
+      ["translate","Traduce: “Logró superar su miedo a las alturas.”",["Il a réussi à surmonter sa peur de hauteurs.", "Il réussit à surmonter sa peur des hauteurs.", "Il a réussi de surmonter sa peur des hauteurs.", "Il a réussi à surmonter sa peur des hauteurs."],3,"“Lograr superar” se traduce con “réussir à surmonter”."],
       ["arrange","Ordena: [passionnant / ce / très / est / sport]",["est ce sport très passionnant", "très ce sport passionnant est", "très ce sport est passionnant", "ce sport est très passionnant"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre un deporte extremo usando “réussir à” al menos dos veces.",[],["a réussi à", "sport extrême", "parachute"]],
     ]
@@ -3924,10 +3924,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “exoskeleton” en francés?",["l'exosquelette","le pollinisateur","l'antenne (insecte)","l'insecte"],0,"“Exoskeleton” es “l'exosquelette” en francés."],
-      ["mcq","¿Cómo se dice “metamorphosis” en francés?",["l'insecte","l'exosquelette","la métamorphose","le pollinisateur"],2,"“Metamorphosis” es “la métamorphose” en francés."],
+      ["mcq","¿Cómo se dice “exoesqueleto” en francés?",["l'exosquelette","le pollinisateur","l'antenne (insecte)","l'insecte"],0,"“Exoesqueleto” es “l'exosquelette” en francés."],
+      ["mcq","¿Cómo se dice “metamorfosis” en francés?",["l'insecte","l'exosquelette","la métamorphose","le pollinisateur"],2,"“Metamorfosis” es “la métamorphose” en francés."],
       ["fill","Completa: “___ polliniser les fleurs, les abeilles produisent du miel.”",["À part", "En plus que", "En plus de", "Ainsi que"],2,"“En plus de” + infinitivo introduce información extra: “en plus de polliniser”."],
-      ["translate","Traduce: “Beetles, as well as butterflies, undergo metamorphosis.”",["Les coléoptères, ainsi que les papillons, subissent une métamorphose.", "Les coléoptères, ainsi que les papillons, subit une métamorphose.", "Les coléoptères, en plus les papillons, subissent une métamorphose.", "Les coléoptères ainsi que les papillons subissent la métamorphose."],0,"“As well as” se traduce con “ainsi que” en este contexto."],
+      ["translate","Traduce: “Los escarabajos, igual que las mariposas, sufren metamorfosis.”",["Les coléoptères, ainsi que les papillons, subissent une métamorphose.", "Les coléoptères, ainsi que les papillons, subit une métamorphose.", "Les coléoptères, en plus les papillons, subissent une métamorphose.", "Les coléoptères ainsi que les papillons subissent la métamorphose."],0,"“Así como” se traduce con “ainsi que” en este contexto."],
       ["arrange","Ordena: [pollinisateurs / abeilles / importants / les / sont]",["pollinisateurs sont abeilles importants les", "les abeilles sont pollinisateurs importants", "les abeilles pollinisateurs importants sont", "abeilles importants les pollinisateurs sont"],1,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre los insectos usando “en plus de” o “ainsi que” al menos dos veces.",[],["en plus de", "ainsi que", "insecte"]],
     ]
@@ -3949,10 +3949,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “infringement” en francés?",["le brevet","la contrefaçon","la propriété intellectuelle","la marque déposée"],1,"“Infringement” es “la contrefaçon” en francés."],
-      ["mcq","¿Cómo se dice “licensing agreement” en francés?",["l'accord de licence","la contrefaçon","le droit d'auteur","le brevet"],0,"“Licensing agreement” es “l'accord de licence” en francés."],
+      ["mcq","¿Cómo se dice “infracción” en francés?",["le brevet","la contrefaçon","la propriété intellectuelle","la marque déposée"],1,"“Infracción” es “la contrefaçon” en francés."],
+      ["mcq","¿Cómo se dice “contrato de licencia” en francés?",["l'accord de licence","la contrefaçon","le droit d'auteur","le brevet"],0,"“Contrato de licencia” es “l'accord de licence” en francés."],
       ["fill","Completa: “___ le brevet, l'entreprise a continué la production.”",["À cause de", "Malgré de", "Nonobstant", "Bien que"],2,"“Nonobstant” + sustantivo (sin preposición adicional): “nonobstant le brevet”."],
-      ["translate","Traduce con registro legal formal: “The trademark remains valid, notwithstanding the dispute.”",["La marque déposée reste valide, nonobstant du litige.", "La marque déposée reste valide, nonobstant le litige.", "La marque déposée restait valide, nonobstant le litige.", "La marque déposée reste valable, nonobstant le litige déjà."],1,"“Notwithstanding” en este contexto formal se traduce con “nonobstant”."],
+      ["translate","Traduce con registro legal formal: “La marca registrada sigue siendo válida, a pesar de la disputa.”",["La marque déposée reste valide, nonobstant du litige.", "La marque déposée reste valide, nonobstant le litige.", "La marque déposée restait valide, nonobstant le litige.", "La marque déposée reste valable, nonobstant le litige déjà."],1,"“A pesar de” en este contexto formal se traduce con “nonobstant”."],
       ["arrange","Ordena: [contrefaçon / a / invoqué / l'entreprise]",["l'entreprise contrefaçon a invoqué","l'entreprise a invoqué contrefaçon","invoqué contrefaçon a l'entreprise","l'entreprise invoqué a contrefaçon"],1,"Artículo + sustantivo + auxiliar + participio + sustantivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre propiedad intelectual usando “nonobstant” al menos dos veces.",[],["nonobstant", "brevet", "droit d'auteur"]],
     ]
@@ -3974,10 +3974,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “crystalline structure” en francés?",["le déplacement tectonique","le gisement minéral","la structure cristalline","la roche ignée"],2,"“Crystalline structure” es “la structure cristalline” en francés."],
-      ["mcq","¿Cómo se dice “sedimentary rock” en francés?",["la composition minérale","le déplacement tectonique","le gisement minéral","la roche sédimentaire"],3,"“Sedimentary rock” es “la roche sédimentaire” en francés."],
+      ["mcq","¿Cómo se dice “estructura cristalina” en francés?",["le déplacement tectonique","le gisement minéral","la structure cristalline","la roche ignée"],2,"“Estructura cristalina” es “la structure cristalline” en francés."],
+      ["mcq","¿Cómo se dice “roca sedimentaria” en francés?",["la composition minérale","le déplacement tectonique","le gisement minéral","la roche sédimentaire"],3,"“Roca sedimentaria” es “la roche sédimentaire” en francés."],
       ["fill","Completa: “Loin d'___ stable, cette formation rocheuse change constamment.”",["être", "soit", "est", "étant"],0,"“Loin de” + infinitivo: “loin d'être stable”."],
-      ["translate","Traduce con estructura enfática: “Far from settling the debate, the discovery raised new questions.”",["Loin régler le débat, la découverte a soulevé de nouvelles questions.", "Loin de régler le débat, la découverte a soulevé d'anciennes questions.", "Loin de régler le débat, la découverte soulève de nouvelles questions.", "Loin de régler le débat, la découverte a soulevé de nouvelles questions."],3,"“Far from settling” se traduce con “loin de régler”, infinitivo tras “de”."],
+      ["translate","Traduce con estructura enfática: “Lejos de zanjar el debate, el descubrimiento planteó nuevas preguntas.”",["Loin régler le débat, la découverte a soulevé de nouvelles questions.", "Loin de régler le débat, la découverte a soulevé d'anciennes questions.", "Loin de régler le débat, la découverte soulève de nouvelles questions.", "Loin de régler le débat, la découverte a soulevé de nouvelles questions."],3,"“Lejos de zanjar” se traduce con “loin de régler”, infinitivo tras “de”."],
       ["arrange","Ordena: [rare / minéral / est / ce / très]",["est ce très rare minéral", "minéral très est ce rare", "ce minéral est très rare", "très ce est minéral rare"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre geología usando “loin de + infinitif” al menos una vez.",[],["loin de", "gisement minéral", "roche sédimentaire"]],
     ]
@@ -3999,10 +3999,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “roast” en francés?",["préparer (le café)","la torréfaction","le barista","l'arôme"],1,"“Roast” es “la torréfaction” en francés."],
+      ["mcq","¿Cómo se dice “tueste” en francés?",["préparer (le café)","la torréfaction","le barista","l'arôme"],1,"“Tueste” es “la torréfaction” en francés."],
       ["mcq","¿Cómo se dice “barista” en francés?",["le grain de café","la torréfaction","le barista","la tasse"],2,"“Barista” es “le barista” en francés."],
       ["fill","Completa: “Je ___ une tasse de café, s'il vous plaît.”",["voulais", "veux", "voudrais", "voudrait"],2,"“Je voudrais” es la forma cortés de pedir: “je voudrais une tasse”."],
-      ["translate","Traduce: “She would like to try the dark roast.”",["Elle voudrait essayer la torréfaction claire.", "Elle veut essayer la torréfaction foncée s'il vous plaît.", "Elle voudrait essayant la torréfaction foncée.", "Elle voudrait essayer la torréfaction foncée."],3,"“Would like to try” se traduce con “voudrait essayer”."],
+      ["translate","Traduce: “Le gustaría probar el tueste oscuro.”",["Elle voudrait essayer la torréfaction claire.", "Elle veut essayer la torréfaction foncée s'il vous plaît.", "Elle voudrait essayant la torréfaction foncée.", "Elle voudrait essayer la torréfaction foncée."],3,"“Le gustaría probar” se traduce con “voudrait essayer”."],
       ["arrange","Ordena: [fort / sent / ce / café]",["café sent ce fort", "sent fort café ce", "ce café sent fort", "café sent fort ce"],2,"Pronombre + sustantivo + verbo + adjetivo."],
       ["writing","Describe en francés, en 20-30 palabras, tu pedido ideal en una cafetería usando “je voudrais”.",[],["je voudrais", "café", "barista"]],
     ]
@@ -4024,10 +4024,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “varnish” en francés?",["le meuble ancien","restaurer","le vernis","l'atelier"],2,"“Varnish” es “le vernis” en francés."],
-      ["mcq","¿Cómo se dice “sandpaper” en francés?",["le papier de verre","le grain du bois","le vernis","l'atelier"],0,"“Sandpaper” es “le papier de verre” en francés."],
+      ["mcq","¿Cómo se dice “barniz” en francés?",["le meuble ancien","restaurer","le vernis","l'atelier"],2,"“Barniz” es “le vernis” en francés."],
+      ["mcq","¿Cómo se dice “papel de lija” en francés?",["le papier de verre","le grain du bois","le vernis","l'atelier"],0,"“Papel de lija” es “le papier de verre” en francés."],
       ["fill","Completa: “Elle laisse son assistant ___ le meuble.”",["poncé", "ponçant", "poncer", "à poncer"],2,"“Laisser” + persona + infinitivo directo: “laisse... poncer”."],
-      ["translate","Traduce: “Let the varnish dry overnight.”",["Laisse le vernis à sécher toute la nuit.", "Laisse le vernis sécher toute la nuit.", "Laisses le vernis sécher toute la nuit.", "Laisse le vernis séchant toute la nuit."],1,"“Let... dry” se traduce con “laisse... sécher”, infinitivo directo tras “laisser”."],
+      ["translate","Traduce: “Deja que el barniz se seque durante la noche.”",["Laisse le vernis à sécher toute la nuit.", "Laisse le vernis sécher toute la nuit.", "Laisses le vernis sécher toute la nuit.", "Laisse le vernis séchant toute la nuit."],1,"“Deja... secar” se traduce con “laisse... sécher”, infinitivo directo tras “laisser”."],
       ["arrange","Ordena: [très / est / meuble / ancien / ce]",["très est meuble ancien ce", "très ce ancien meuble est", "ce meuble est très ancien", "est ce très meuble ancien"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["speaking","Describe en francés, en 40-60 palabras, un proyecto de restauración de muebles usando “laisser + persona + infinitif”.",[],["laisse", "restaurer", "vernis"]],
     ]
@@ -4049,10 +4049,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “etymology” en francés?",["l'entrée de dictionnaire","l'étymologie","l'exemple d'usage","la définition"],1,"“Etymology” es “l'étymologie” en francés."],
-      ["mcq","¿Cómo se dice “headword” en francés?",["le mot-vedette","l'exemple d'usage","la définition","le synonyme"],0,"“Headword” es “le mot-vedette” en francés."],
+      ["mcq","¿Cómo se dice “etimología” en francés?",["l'entrée de dictionnaire","l'étymologie","l'exemple d'usage","la définition"],1,"“Etimología” es “l'étymologie” en francés."],
+      ["mcq","¿Cómo se dice “lema” en francés?",["le mot-vedette","l'exemple d'usage","la définition","le synonyme"],0,"“Lema” es “le mot-vedette” en francés."],
       ["fill","Completa: “___ deviner, consulte l'étymologie.”",["Mieux que", "Plus que", "Plutôt que de", "Au lieu"],2,"“Plutôt que de” + infinitivo introduce la alternativa evitada: “plutôt que de deviner”."],
-      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Plutôt que de devinant, consulte l'étymologie.", "Plutôt que de deviner, consulte l'étymologie.", "Plutôt que de deviner, consultait l'étymologie.", "Plutôt deviner, consulte l'étymologie."],1,"“Rather than guessing” se traduce con “plutôt que de deviner”, infinitivo con “de”."],
+      ["translate","Traduce: “En lugar de adivinar, consulta la etimología.”",["Plutôt que de devinant, consulte l'étymologie.", "Plutôt que de deviner, consulte l'étymologie.", "Plutôt que de deviner, consultait l'étymologie.", "Plutôt deviner, consulte l'étymologie."],1,"“En lugar de adivinar” se traduce con “plutôt que de deviner”, infinitivo con “de”."],
       ["arrange","Ordena: [utile / très / exemple / cet / est]",["cet exemple est très utile", "utile très est cet exemple", "utile exemple est cet très", "très est utile cet exemple"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 45-65 palabras, sobre el uso de diccionarios usando “plutôt que” al menos dos veces.",[],["plutôt que", "dictionnaire", "définition"]],
     ]
@@ -4074,10 +4074,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “MRI scan” en francés?",["l'IRM","le diagnostic","la radiographie","le produit de contraste"],0,"“MRI scan” es “l'IRM” en francés."],
-      ["mcq","¿Cómo se dice “contrast dye” en francés?",["la radiographie","le diagnostic","le produit de contraste","l'IRM"],2,"“Contrast dye” es “le produit de contraste” en francés."],
+      ["mcq","¿Cómo se dice “Resonancia magnética” en francés?",["l'IRM","le diagnostic","la radiographie","le produit de contraste"],0,"“Resonancia magnética” es “l'IRM” en francés."],
+      ["mcq","¿Cómo se dice “medio de contraste” en francés?",["la radiographie","le diagnostic","le produit de contraste","l'IRM"],2,"“Medio de contraste” es “le produit de contraste” en francés."],
       ["fill","Completa: “Apporte tes anciens examens au cas où le médecin en ___ besoin.”",["a", "aura", "avait", "aurait"],3,"“Au cas où” requiere conditionnel: “au cas où... aurait besoin”."],
-      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Le radiologue demande une IRM au cas où la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM si la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manque quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manquerait quelque chose."],3,"“In case” se traduce con “au cas où” + conditionnel, expresando precaución."],
+      ["translate","Traduce: “El radiólogo pidió una resonancia por si la radiografía había pasado algo por alto.”",["Le radiologue demande une IRM au cas où la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM si la radiographie manquerait quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manque quelque chose.", "Le radiologue a demandé une IRM au cas où la radiographie manquerait quelque chose."],3,"“In case” se traduce con “au cas où” + conditionnel, expresando precaución."],
       ["arrange","Ordena: [clair / diagnostic / est / très / le]",["très diagnostic clair le est", "très diagnostic est le clair", "le diagnostic est très clair", "est diagnostic clair le très"],2,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, sobre un procedimiento de radiología usando “au cas où” al menos dos veces.",[],["au cas où", "radiographie", "diagnostic"]],
     ]
@@ -4099,10 +4099,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “outbreak” en francés?",["l'efficacité du vaccin","l'épidémie","la souche virale","le taux de transmission"],1,"“Outbreak” es “l'épidémie” en francés."],
-      ["mcq","¿Cómo se dice “herd immunity” en francés?",["l'immunité collective","la souche virale","le taux de transmission","l'efficacité du vaccin"],0,"“Herd immunity” es “l'immunité collective” en francés."],
+      ["mcq","¿Cómo se dice “brote” en francés?",["l'efficacité du vaccin","l'épidémie","la souche virale","le taux de transmission"],1,"“Brote” es “l'épidémie” en francés."],
+      ["mcq","¿Cómo se dice “inmunidad colectiva” en francés?",["l'immunité collective","la souche virale","le taux de transmission","l'efficacité du vaccin"],0,"“Inmunidad colectiva” es “l'immunité collective” en francés."],
       ["fill","Completa: “Même si l'efficacité du vaccin ___, l'immunité collective pourrait aider.”",["baisse", "a baissé", "baissait", "baissera"],2,"“Même si” con hipótesis suele usar imparfait: “même si... baissait”."],
-      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Le virus se propagerait bien que les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission augmentaient légèrement.", "Le virus se propagerait même si les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission baissent légèrement."],2,"“Even if” con condición hipotética se traduce con “même si” + imparfait."],
+      ["translate","Traduce con concesión hipotética: “El virus se propagaría aunque las tasas de transmisión bajaran un poco.”",["Le virus se propagerait bien que les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission augmentaient légèrement.", "Le virus se propagerait même si les taux de transmission baissaient légèrement.", "Le virus se propagerait même si les taux de transmission baissent légèrement."],2,"“Incluso si” con condición hipotética se traduce con “même si” + imparfait."],
       ["arrange","Ordena: [inquiétante / très / mutation / cette / est]",["cette mutation est inquiétante très", "cette mutation est très inquiétante", "très inquiétante mutation cette est", "inquiétante très est mutation cette"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre virología usando “même si” al menos dos veces.",[],["même si", "épidémie", "immunité collective"]],
     ]
@@ -4124,10 +4124,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “quantitative easing” en francés?",["la relance budgétaire","l'assouplissement quantitatif","le taux d'intérêt","la banque centrale"],1,"“Quantitative easing” es “l'assouplissement quantitatif” en francés."],
-      ["mcq","¿Cómo se dice “fiscal stimulus” en francés?",["le taux d'intérêt","l'objectif d'inflation","la banque centrale","la relance budgétaire"],3,"“Fiscal stimulus” es “la relance budgétaire” en francés."],
+      ["mcq","¿Cómo se dice “flexibilización cuantitativa” en francés?",["la relance budgétaire","l'assouplissement quantitatif","le taux d'intérêt","la banque centrale"],1,"“Flexibilización cuantitativa” es “l'assouplissement quantitatif” en francés."],
+      ["mcq","¿Cómo se dice “estímulo fiscal” en francés?",["le taux d'intérêt","l'objectif d'inflation","la banque centrale","la relance budgétaire"],3,"“Estímulo fiscal” es “la relance budgétaire” en francés."],
       ["fill","Completa: “Dans la mesure où l'inflation ___ stable, des baisses de taux sont possibles.”",["restait", "restera", "resterait", "reste"],3,"“Dans la mesure où” con presente indicativo: “dans la mesure où... reste”."],
-      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La politique fonctionne dans la mesure où les banques prêtent moins librement.", "La politique fonctionne dans la mesure où les banques prêtent plus librement.", "La politique fonctionnait dans la mesure où les banques prêtent plus librement.", "La politique fonctionne dans la mesure que les banques prêtent plus librement."],1,"“To the extent that” se traduce con “dans la mesure où” en francés."],
+      ["translate","Traduce con calificador formal: “La política funciona en la medida en que los bancos prestan con más facilidad.”",["La politique fonctionne dans la mesure où les banques prêtent moins librement.", "La politique fonctionne dans la mesure où les banques prêtent plus librement.", "La politique fonctionnait dans la mesure où les banques prêtent plus librement.", "La politique fonctionne dans la mesure que les banques prêtent plus librement."],1,"“En la medida en que” se traduce con “dans la mesure où” en francés."],
       ["arrange","Ordena: [élevé / très / est / taux / d'intérêt / le]",["très élevé d'intérêt est le taux", "le taux d'intérêt est très élevé", "est taux très élevé le d'intérêt", "taux très élevé d'intérêt est le"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
       ["writing","Escribe en francés, en 55-75 palabras, un análisis sobre política monetaria usando “dans la mesure où” al menos una vez.",[],["dans la mesure où", "politique monétaire", "banque centrale"]],
     ]
@@ -4152,7 +4152,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Où", "Quand", "Qui", "Que"],0,"“Où” se usa para preguntar por lugares."],
       ["mcq","¿Qué palabra usas para preguntar por una persona?",["Qui", "Que", "Pourquoi", "Comment"],0,"“Qui” se usa para preguntar por personas."],
       ["fill","Completa: “___ est-ce que tu habites ?”",["Qui", "Que", "Où", "Quand"],2,"Preguntamos por el lugar donde vive alguien con “Où”."],
-      ["translate","Traduce: “Why do you learn French?”",["Qui est-ce que tu apprends le français ?", "Pourquoi est-ce que tu apprends le français ?", "Que est-ce que tu apprends le français ?", "Où est-ce que tu apprends le français ?"],1,"“Why” se traduce como “Pourquoi”."],
+      ["translate","Traduce: “¿Por qué aprendes francés?”",["Qui est-ce que tu apprends le français ?", "Pourquoi est-ce que tu apprends le français ?", "Que est-ce que tu apprends le français ?", "Où est-ce que tu apprends le français ?"],1,"“Por qué” se traduce como “Pourquoi”."],
       ["arrange","Ordena: [tu / où / habites]",["habites où tu", "tu habites où", "où tu habites", "habites tu où"],1,"En francés hablado, se puede colocar la palabra interrogativa al final: “Tu habites où ?”"],
       ["writing","Écris en français 20 à 30 mots avec au moins trois questions pour faire connaissance.",[],["Où", "Comment", "Quand"]],
     ]
@@ -4174,10 +4174,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “his/her sister” en francés (sœur es femenino)?",["notre sœur", "son frère", "sa sœur", "leur sœur"],2,"“Sœur” es femenino → siempre “sa sœur”, sin importar el género del poseedor."],
-      ["mcq","¿Cómo se dice “our parents” en francés?",["leurs parents", "tes parents", "nos parents", "ses parents"],2,"“Our” es “notre/nos”, aquí “nos parents” (plural)."],
+      ["mcq","¿Cómo se dice “su hermana (de él o de ella)” en francés (sœur es femenino)?",["notre sœur", "son frère", "sa sœur", "leur sœur"],2,"“Sœur” es femenino → siempre “sa sœur”, sin importar el género del poseedor."],
+      ["mcq","¿Cómo se dice “nuestros padres” en francés?",["leurs parents", "tes parents", "nos parents", "ses parents"],2,"“Nuestros” es “notre/nos”, aquí “nos parents” (plural)."],
       ["fill","Completa: “Elle parle avec ___ mère.”",["ses", "son", "leur", "sa"],3,"“Mère” es femenino singular → “sa”, sin importar que el sujeto sea “elle”."],
-      ["translate","Traduce: “These are their siblings.”",["C'est leur frère et sœur.", "Ce sont nos frères et sœurs.", "Ce sont ses frères et sœurs.", "Ce sont leurs frères et sœurs."],3,"“Their” (de ellos) es “leur/leurs”, aquí plural “leurs”."],
+      ["translate","Traduce: “Estos son sus hermanos (de ellos).”",["C'est leur frère et sœur.", "Ce sont nos frères et sœurs.", "Ce sont ses frères et sœurs.", "Ce sont leurs frères et sœurs."],3,"“Su” (de ellos) es “leur/leurs”, aquí plural “leurs”."],
       ["arrange","Ordena: [sœur / ma / voici]",["ma sœur voici", "sœur voici ma", "voici ma sœur", "ma voici sœur"],2,"“Voici” + posesivo + sustantivo."],
       ["speaking","Décris en français, en 25-35 mots, trois membres de ta famille en utilisant des adjectifs possessifs.",[],["ma", "sa", "notre"]],
     ]
@@ -4198,10 +4198,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “under” en francés?",["à côté de", "sur", "derrière", "sous"],3,"“Under” es “sous”."],
-      ["mcq","¿Cómo se dice “between” en francés?",["derrière", "devant", "dans", "entre"],3,"“Between” es “entre”."],
+      ["mcq","¿Cómo se dice “debajo de” en francés?",["à côté de", "sur", "derrière", "sous"],3,"“Debajo de” es “sous”."],
+      ["mcq","¿Cómo se dice “entre” en francés?",["derrière", "devant", "dans", "entre"],3,"“Entre” es “entre”."],
       ["fill","Completa: “Il y a deux livres ___ la table.”",["derrière", "sur", "dans", "entre"],1,"“Sur” indica que algo está encima de una superficie."],
-      ["translate","Traduce: “There is a cat under the table.”",["Il y a des chats sous la table.", "Il y a un chat sous la table.", "Il y a un chat sur la table.", "Il y a un chat à côté de la table."],1,"“Under the table” es “sous la table”."],
+      ["translate","Traduce: “Hay un gato debajo de la mesa.”",["Il y a des chats sous la table.", "Il y a un chat sous la table.", "Il y a un chat sur la table.", "Il y a un chat à côté de la table."],1,"“Debajo de la mesa” es “sous la table”."],
       ["arrange","Ordena: [chaise / côté / est / à / de / la / lampe / la]",["de la côté la à lampe est chaise", "la chaise est à côté de la lampe", "à chaise la est de lampe côté la", "à lampe chaise côté la de la est"],1,"Sujeto + verbo “être” + preposición + objeto."],
       ["writing","Décris en français, en 25-35 mots, où se trouvent trois objets dans ta chambre en utilisant « il y a » et des prépositions de lieu.",[],["il y a", "à côté de", "sous"]],
     ]
@@ -4226,7 +4226,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cuál es el plural de “journal”?",["journaux", "journales", "journals", "journaus"],0,"Los sustantivos en “-al” suelen cambiar a “-aux”: “journaux”."],
       ["mcq","¿Cuál es el plural de “cheveu”?",["cheveus", "cheveux", "cheveu", "cheveuxs"],1,"Los sustantivos en “-eu” añaden “-x”: “cheveux”."],
       ["fill","Completa: “J'ai besoin d'___ parapluie ; il pleut.”",["des", "le", "une", "un"],3,"“Parapluie” es masculino singular → “un”."],
-      ["translate","Traduce: “There are three boxes in the garage.”",["Il y a trois boîtes dans les garages.", "Il y a trois boîte dans le garage.", "Il y a trois boîtes dans le garage.", "Il y a trois boîtx dans le garage."],2,"“Boîte” es regular → plural “boîtes”."],
+      ["translate","Traduce: “Hay tres cajas en el garaje.”",["Il y a trois boîtes dans les garages.", "Il y a trois boîte dans le garage.", "Il y a trois boîtes dans le garage.", "Il y a trois boîtx dans le garage."],2,"“Boîte” es regular → plural “boîtes”."],
       ["arrange","Ordena: [sont / où / livres / les]",["où sont les livres", "sont où livres les", "où sont livres les", "les où sont livres"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural: “Où sont les livres ?”"],
       ["writing","Écris en français 20 à 30 mots sur les objets qu'il y a dans ton sac, en utilisant au moins deux pluriels.",[],["livres", "boîtes", "il y a"]],
     ]
@@ -4247,10 +4247,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “I love” en francés?",["j'adore", "j'aime", "je déteste", "je n'aime pas"],0,"“I love” es “j'adore”."],
-      ["mcq","¿Cómo se dice “I hate” en francés?",["tu aimes", "j'aime", "je déteste", "j'adore"],2,"“I hate” es “je déteste”."],
+      ["mcq","¿Cómo se dice “Me encanta” en francés?",["j'adore", "j'aime", "je déteste", "je n'aime pas"],0,"“Me encanta” es “j'adore”."],
+      ["mcq","¿Cómo se dice “Odio” en francés?",["tu aimes", "j'aime", "je déteste", "j'adore"],2,"“Odio” es “je déteste”."],
       ["fill","Completa: “Elle adore ___ le week-end.”",["cuisiner", "cuisinant", "cuisine", "cuisiné"],0,"Tras “adorer” el verbo va en infinitivo: “cuisiner”."],
-      ["translate","Traduce: “I don't like swimming in cold water.”",["Je n'aime pas nager dans l'eau froide.", "Je déteste nager l'eau froide.", "Je n'aime pas nageant dans l'eau froide.", "J'aime nager dans l'eau froide."],0,"“I don't like” + infinitivo: “je n'aime pas nager”."],
+      ["translate","Traduce: “No me gusta nadar en agua fría.”",["Je n'aime pas nager dans l'eau froide.", "Je déteste nager l'eau froide.", "Je n'aime pas nageant dans l'eau froide.", "J'aime nager dans l'eau froide."],0,"“No me gusta” + infinitivo: “je n'aime pas nager”."],
       ["arrange","Ordena: [aime / elle / lire / des / livres]",["aime elle livres lire des", "elle aime lire des livres", "elle aime lire livres des", "des lire elle aime livres"],1,"Sujeto + verbo + infinitivo + objeto."],
       ["speaking","Parle en français pendant 25-35 mots de trois activités que tu aimes et une que tu détestes, en utilisant l'infinitif.",[],["j'adore", "j'aime", "je déteste"]],
     ]
@@ -4272,9 +4272,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué estructura usas para un plan ya decidido?",["je vais", "je pense", "je + futur simple", "tu aimes"],0,"Para planes ya decididos usamos el futur proche: “je vais”."],
-      ["mcq","¿Cómo se dice “next week” en francés?",["la semaine dernière", "l'année prochaine", "la semaine prochaine", "cette semaine"],2,"“Next week” es “la semaine prochaine”."],
+      ["mcq","¿Cómo se dice “la próxima semana” en francés?",["la semaine dernière", "l'année prochaine", "la semaine prochaine", "cette semaine"],2,"“La próxima semana” es “la semaine prochaine”."],
       ["fill","Completa: “Regarde ces nuages ! Il ___ pleuvoir.”",["était", "pleuvra", "va", "a"],2,"Con evidencia presente (nubes) usamos el futur proche: “va pleuvoir”."],
-      ["translate","Traduce: “I think we will win the game.”",["Je pense que nous gagnerions le match.", "Je pense que nous gagnerons le match.", "Je pense que nous allons gagné le match.", "Je pense que nous gagnons le match."],1,"Predicción sin evidencia clara → futur simple: “gagnerons”."],
+      ["translate","Traduce: “Creo que ganaremos el partido.”",["Je pense que nous gagnerions le match.", "Je pense que nous gagnerons le match.", "Je pense que nous allons gagné le match.", "Je pense que nous gagnons le match."],1,"Predicción sin evidencia clara → futur simple: “gagnerons”."],
       ["arrange","Ordena: [rendre / vais / je / grands-parents / visite / à / mes]",["mes vais visite à je rendre grands-parents", "mes rendre grands-parents visite vais à je", "à rendre mes je visite grands-parents vais", "je vais rendre visite à mes grands-parents"],3,"Sujeto + “aller” + infinitivo + objeto."],
       ["writing","Écris en français 30-40 mots sur tes projets pour le mois prochain, en utilisant le futur proche et une prédiction au futur simple.",[],["je vais", "futur", "prochain"]],
     ]
@@ -4296,9 +4296,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Cuál es el comparativo de “bon”?",["le meilleur", "plus bon", "meilleur", "bonnier"],2,"“Bon” es irregular: meilleur, le meilleur."],
-      ["mcq","¿Cómo se dice “as expensive as” en francés?",["moins cher", "plus cher que", "aussi cher que", "le plus cher"],2,"“As...as” es “aussi...que”."],
+      ["mcq","¿Cómo se dice “tan caro como” en francés?",["moins cher", "plus cher que", "aussi cher que", "le plus cher"],2,"“As...as” es “aussi...que”."],
       ["fill","Completa: “Ce téléphone est ___ que le mien, mais ce n'est pas le meilleur.”",["meilleur", "bonnier", "le meilleur", "plus bon"],0,"Comparativo irregular de “bon” es “meilleur”."],
-      ["translate","Traduce: “This is the cheapest hotel in the city.”",["C'est l'hôtel le moins cher de la ville.", "C'est le moins cher hôtel de la ville.", "C'est l'hôtel plus cher de la ville.", "C'est l'hôtel aussi cher de la ville."],0,"Superlativo: “le/la plus/moins + adjetivo”."],
+      ["translate","Traduce: “Este es el hotel más barato de la ciudad.”",["C'est l'hôtel le moins cher de la ville.", "C'est le moins cher hôtel de la ville.", "C'est l'hôtel plus cher de la ville.", "C'est l'hôtel aussi cher de la ville."],0,"Superlativo: “le/la plus/moins + adjetivo”."],
       ["arrange","Ordena: [que / grand / frère / mon / est / moi]",["frère est moi mon grand que", "mon frère est grand que moi", "que est moi grand mon frère", "moi frère est mon grand que"],1,"Sujeto + verbo + comparativo + “que” + objeto (versión simplificada, sin “plus”)."],
       ["speaking","Compare en français, en 30-40 mots, deux villes ou lieux que tu connais en utilisant des comparatifs et un superlatif.",[],["plus", "le meilleur", "que"]],
     ]
@@ -4320,9 +4320,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué expresión da un consejo, no una obligación?",["tu n'es pas obligé de", "tu dois", "il faut que tu", "tu devrais"],3,"“Tu devrais” es un consejo, no una obligación."],
-      ["mcq","¿Cómo se dice “you don't have to” en francés?",["tu dois", "tu n'es pas obligé de", "il faut que tu", "tu ne devrais pas"],1,"“You don't have to” es “tu n'es pas obligé de”."],
+      ["mcq","¿Cómo se dice “no tienes por qué” en francés?",["tu dois", "tu n'es pas obligé de", "il faut que tu", "tu ne devrais pas"],1,"“No tienes por qué” es “tu n'es pas obligé de”."],
       ["fill","Completa: “Tu ne ___ pas fumer ici ; c'est interdit.”",["es obligé de", "devrais", "dois", "as"],2,"“Tu ne dois pas” indica prohibición."],
-      ["translate","Traduce: “You should sleep more.”",["Il faut que tu dormes plus.", "Tu dois dormir plus.", "Tu devrais dormir plus.", "Tu n'es pas obligé de dormir plus."],2,"Consejo suave → “devrais”."],
+      ["translate","Traduce: “Deberías dormir más.”",["Il faut que tu dormes plus.", "Tu dois dormir plus.", "Tu devrais dormir plus.", "Tu n'es pas obligé de dormir plus."],2,"Consejo suave → “devrais”."],
       ["arrange","Ordena: [ceinture / porter / dois / une / tu]",["tu ceinture porter une dois", "tu dois porter une ceinture", "tu une dois ceinture porter", "ceinture tu une porter dois"],1,"Sujeto + “devoir” + infinitivo + objeto."],
       ["writing","Écris en français 30-40 mots en donnant trois conseils à un ami qui va voyager pour la première fois.",[],["tu devrais", "tu dois", "tu n'es pas obligé de"]],
     ]
@@ -4344,10 +4344,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Can I take a message?” en francés?",["Ne quittez pas, s'il vous plaît.", "Est-ce que je peux parler à...?", "Je te rappelle.", "Je peux prendre un message ?"],3,"“Can I take a message?” es “Je peux prendre un message ?”."],
-      ["mcq","¿Cómo se dice “Hold on, please” en francés?",["C'est Laura.", "Je peux parler à...?", "Rappelle plus tard.", "Ne quittez pas, s'il vous plaît."],3,"“Hold on, please” es “Ne quittez pas, s'il vous plaît”."],
+      ["mcq","¿Cómo se dice “¿Puedo tomar un recado?” en francés?",["Ne quittez pas, s'il vous plaît.", "Est-ce que je peux parler à...?", "Je te rappelle.", "Je peux prendre un message ?"],3,"“¿Puedo tomar un recado?” es “Je peux prendre un message ?”."],
+      ["mcq","¿Cómo se dice “No cuelgue, por favor” en francés?",["C'est Laura.", "Je peux parler à...?", "Rappelle plus tard.", "Ne quittez pas, s'il vous plaît."],3,"“No cuelgue, por favor” es “Ne quittez pas, s'il vous plaît”."],
       ["fill","Completa: “Allô, ___ Marc. Anna est là ?”",["je suis", "c'était", "c'est", "je suis ici"],2,"Al identificarse por teléfono se dice “c'est Marc”."],
-      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Est-ce que je peux prendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux attendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux parler à Monsieur García, s'il vous plaît ?", "Est-ce que je peux appeler Monsieur García, s'il vous plaît ?"],2,"“Can I speak to...?” es “Est-ce que je peux parler à...?”."],
+      ["translate","Traduce: “¿Puedo hablar con el señor García, por favor?”",["Est-ce que je peux prendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux attendre Monsieur García, s'il vous plaît ?", "Est-ce que je peux parler à Monsieur García, s'il vous plaît ?", "Est-ce que je peux appeler Monsieur García, s'il vous plaît ?"],2,"“¿puedo hablar con...?” es “Est-ce que je peux parler à...?”."],
       ["arrange","Ordena: [rappelle / je / te]",["je te rappelle", "rappelle je te", "te rappelle je", "rappelle te je"],0,"Sujeto + objeto + verbo (posición del pronombre en francés)."],
       ["speaking","Simule en français, en 30-40 mots, un appel téléphonique où tu demandes à parler à quelqu'un et laisses un message.",[],["je peux parler à", "je peux prendre un message", "c'est"]],
     ]
@@ -4371,7 +4371,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué artículo usas delante de “eau” (incontable, femenino) para una cantidad indefinida?",["quelques", "des", "du", "de la"],3,"“Eau” es incontable femenino → “de la eau” (“de l'eau” con elisión)."],
       ["mcq","¿Qué palabra usas para preguntar por una cantidad, contable o no?",["Beaucoup de", "Combien de", "Un peu de", "Quelques"],1,"“Combien de” sirve para ambos tipos de sustantivo."],
       ["fill","Completa: “Je n'ai pas ___ temps.”",["du", "de la", "de", "des"],2,"En negativas, el partitivo se reduce a “de”: “je n'ai pas de temps”."],
-      ["translate","Traduce: “How many books do you have?”",["Combien des livres as-tu ?", "Combien du livre as-tu ?", "Combien de livre as-tu ?", "Combien de livres as-tu ?"],3,"“Combien de” + sustantivo plural: “combien de livres”."],
+      ["translate","Traduce: “¿Cuántos libros tienes?”",["Combien des livres as-tu ?", "Combien du livre as-tu ?", "Combien de livre as-tu ?", "Combien de livres as-tu ?"],3,"“Combien de” + sustantivo plural: “combien de livres”."],
       ["arrange","Ordena: [lait / a / de / y / beaucoup / il]",["il lait beaucoup de a y", "lait y a beaucoup de il", "il y a beaucoup de lait", "beaucoup lait de a y il"],2,"“Il y a” + “beaucoup de” + sustantivo."],
       ["writing","Décris en français, en 25-35 mots, ce qu'il y a dans ton réfrigérateur en utilisant « du/de la/des », « beaucoup de » et « quelques ».",[],["beaucoup de", "un peu de", "quelques"]],
     ]
@@ -4393,9 +4393,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué tiempo usamos para la acción de fondo que se interrumpe?",["ai préparé", "préparerai", "préparais", "préparer"],2,"La acción de fondo va en imperfecto: “préparais”."],
-      ["mcq","¿Cómo se dice “suddenly” en francés?",["pendant que", "au milieu de", "quand", "soudain"],3,"“Suddenly” es “soudain”."],
+      ["mcq","¿Cómo se dice “de repente” en francés?",["pendant que", "au milieu de", "quand", "soudain"],3,"“De repente” es “soudain”."],
       ["fill","Completa: “Je ___ le dîner quand le téléphone a sonné.”",["ai préparé", "préparer", "préparerai", "préparais"],3,"Acción de fondo interrumpida = imperfecto: “préparais”."],
-      ["translate","Traduce: “While she was studying, her friend arrived.”",["Pendant qu'elle étudie, son ami est arrivé.", "Pendant qu'elle a étudié, son ami arrivait.", "Pendant qu'elle étudiait, son ami est arrivé.", "Pendant qu'elle étudiait, son ami arrivait."],2,"Fondo en imperfecto, interrupción en passé composé: “étudiait... est arrivé”."],
+      ["translate","Traduce: “Mientras ella estudiaba, llegó su amigo.”",["Pendant qu'elle étudie, son ami est arrivé.", "Pendant qu'elle a étudié, son ami arrivait.", "Pendant qu'elle étudiait, son ami est arrivé.", "Pendant qu'elle étudiait, son ami arrivait."],2,"Fondo en imperfecto, interrupción en passé composé: “étudiait... est arrivé”."],
       ["arrange","Ordena: [sonné / préparais / dîner / je / le / téléphone / quand / a / le]",["le préparais téléphone quand le dîner a sonné je", "je préparais le dîner téléphone le a sonné quand", "a je dîner le préparais sonné quand téléphone le", "je préparais le dîner quand le téléphone a sonné"],3,"Imperfecto + objeto + “quand” + passé composé."],
       ["writing","Écris en français 40-55 mots pour raconter une histoire courte où quelque chose t'a interrompu pendant que tu faisais autre chose, en utilisant l'imparfait et le passé composé.",[],["pendant que", "quand", "soudain"]],
     ]
@@ -4417,9 +4417,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué forma verbal sigue a “si j'étais toi, je...”?",["accepte", "ai accepté", "accepterai", "accepterais"],3,"Tras la cláusula con “si” va el condicional presente: “accepterais”."],
-      ["mcq","¿Cómo se dice “imaginary situation” en francés?",["situation réelle", "projet futur", "situation imaginaire", "expérience passée"],2,"“Imaginary situation” es “situation imaginaire”."],
+      ["mcq","¿Cómo se dice “situación imaginaria” en francés?",["situation réelle", "projet futur", "situation imaginaire", "expérience passée"],2,"“Situación imaginaria” es “situation imaginaire”."],
       ["fill","Completa: “Si j'___ plus d'argent, je voyagerais autour du monde.”",["aurai", "avais", "ai", "eus"],1,"Tras “si” en oraciones hipotéticas usamos el imperfecto: “avais”."],
-      ["translate","Traduce: “If I were you, I would accept the job.”",["Si j'étais toi, j'accepterais le travail.", "Si je suis toi, j'accepterais le travail.", "Si j'étais toi, j'ai accepté le travail.", "Si j'étais toi, j'accepte le travail."],0,"“Si j'étais toi” es la forma estándar para un consejo hipotético."],
+      ["translate","Traduce: “Si yo fuera tú, aceptaría el trabajo.”",["Si j'étais toi, j'accepterais le travail.", "Si je suis toi, j'accepterais le travail.", "Si j'étais toi, j'ai accepté le travail.", "Si j'étais toi, j'accepte le travail."],0,"“Si j'étais toi” es la forma estándar para un consejo hipotético."],
       ["arrange","Ordena: [temps / plus / si / j'avais / de / voyagerais / je]",["plus je si j'avais temps de voyagerais", "si j'avais plus de temps je voyagerais", "voyagerais de j'avais si je plus temps", "de temps plus voyagerais je si j'avais"],1,"“Si” + imperfecto + condicional presente."],
       ["speaking","Parle en français, pendant 40-55 mots, de ce que tu ferais si tu gagnais à la loterie, en utilisant le conditionnel.",[],["si j'avais", "je serais", "imaginaire"]],
     ]
@@ -4443,7 +4443,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["il se peut que", "ça pourrait être", "ça ne peut pas être", "ça doit être"],2,"“Ça ne peut pas être” indica que algo es imposible según la evidencia."],
       ["mcq","¿Qué expresión indica posibilidad, no certeza?",["ça doit être", "je suis sûr", "il se peut que", "ça ne peut pas être"],2,"“Il se peut que” expresa una posibilidad, no una certeza."],
       ["fill","Completa: “Les lumières sont éteintes, donc ils ___ dormir.”",["ne peuvent pas", "doivent", "peuvent", "pourraient"],1,"Evidencia fuerte (luces apagadas) → “doivent” (alta certeza)."],
-      ["translate","Traduce: “It can't be that late.”",["Ça doit être si tard.", "Ça pourrait être si tard.", "Ça ne peut pas être si tard.", "Il se peut que ce soit si tard."],2,"Certeza negativa fuerte → “ça ne peut pas être”."],
+      ["translate","Traduce: “No puede ser tan tarde.”",["Ça doit être si tard.", "Ça pourrait être si tard.", "Ça ne peut pas être si tard.", "Il se peut que ce soit si tard."],2,"Certeza negativa fuerte → “ça ne peut pas être”."],
       ["arrange","Ordena: [travail / au / être / pourrait / il]",["travail être pourrait il au", "il pourrait être au travail", "pourrait il travail être au", "être pourrait au travail il"],1,"Sujeto + “pourrait être” + complemento."],
       ["writing","Écris en français 35-45 mots en faisant des déductions sur une situation (par exemple, pourquoi quelqu'un ne répond pas au téléphone).",[],["ça doit être", "il se peut que", "ça ne peut pas être"]],
     ]
@@ -4464,10 +4464,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “she told me that...” en francés?",["elle me dit que", "elle m'a dit que", "elle dit que", "elle dira que"],1,"“She told me” es “elle m'a dit”, en pasado."],
+      ["mcq","¿Cómo se dice “ella me dijo que...” en francés?",["elle me dit que", "elle m'a dit que", "elle dit que", "elle dira que"],1,"“Ella me dijo” es “elle m'a dit”, en pasado."],
       ["mcq","¿En qué se convierte el futuro (“j'appellerai”) en discurso indirecto?",["appellerait", "appelle", "appellera", "appelait"],0,"El futuro se convierte en condicional en discurso indirecto: “appellerait”."],
       ["fill","Completa: “Elle a dit qu'elle ___ fatiguée.”",["soit", "a été", "était", "est"],2,"El presente (“je suis”) pasa a imperfecto (“était”) en discurso indirecto."],
-      ["translate","Traduce: “He said he would call later.”",["Il a dit qu'il appellera plus tard.", "Il a dit qu'il appelle plus tard.", "Il a dit qu'il a appelé plus tard.", "Il a dit qu'il appellerait plus tard."],3,"El futuro pasa a condicional en discurso indirecto: “appellerait”."],
+      ["translate","Traduce: “Dijo que llamaría más tarde.”",["Il a dit qu'il appellera plus tard.", "Il a dit qu'il appelle plus tard.", "Il a dit qu'il a appelé plus tard.", "Il a dit qu'il appellerait plus tard."],3,"El futuro pasa a condicional en discurso indirecto: “appellerait”."],
       ["arrange","Ordena: [fatiguée / dit / était / elle / a / qu'elle]",["fatiguée dit qu'elle était a elle", "dit était qu'elle fatiguée a elle", "était a fatiguée dit qu'elle elle", "elle a dit qu'elle était fatiguée"],3,"Sujeto + “a dit que” + sujeto + verbo en imperfecto."],
       ["writing","Écris en français 35-45 mots pour rapporter au discours indirect trois choses que quelqu'un t'a dites récemment.",[],["a dit que", "m'a dit", "appellerait"]],
     ]
@@ -4491,7 +4491,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué conector usas para el último paso de un proceso?",["après cela", "enfin", "d'abord", "ensuite"],1,"“Enfin” indica el último paso."],
       ["mcq","¿Qué conector usas para el primer paso de un proceso?",["ensuite", "après cela", "d'abord", "enfin"],2,"“D'abord” indica el primer paso."],
       ["fill","Completa: “___ que tu as rempli le formulaire, envoie-le en ligne.”",["Une fois", "D'abord", "Enfin", "Ensuite"],0,"“Une fois que” introduce una condición temporal."],
-      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["D'abord, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "Ensuite, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes.", "Enfin, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "D'abord, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes."],0,"“First...then” es “d'abord...ensuite”."],
+      ["translate","Traduce: “Primero, mezcla los ingredientes; después, hornea durante 20 minutos.”",["D'abord, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "Ensuite, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes.", "Enfin, mélange les ingrédients ; ensuite, fais cuire pendant 20 minutes.", "D'abord, mélange les ingrédients ; d'abord, fais cuire pendant 20 minutes."],0,"“Primero...después” es “d'abord...ensuite”."],
       ["arrange","Ordena: [cela / envoie / formulaire / après / le]",["après cela envoie formulaire le", "envoie après cela le formulaire", "après cela envoie le formulaire", "après le envoie cela formulaire"],2,"Conector de secuencia + verbo + artículo + objeto."],
       ["speaking","Explique en français, en 40-55 mots, les étapes pour faire quelque chose que tu sais faire (une recette, une démarche, etc.) en utilisant au moins trois connecteurs de séquence.",[],["d'abord", "ensuite", "enfin"]],
     ]
@@ -4515,7 +4515,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué pronombre relativo reemplaza “de + sustantivo” (posesión, verbos con “de”)?",["qui", "où", "que", "dont"],3,"“Dont” reemplaza “de + sustantivo”."],
       ["mcq","¿Qué pronombre relativo es sujeto del verbo?",["qui", "dont", "que", "où"],0,"“Qui” funciona como sujeto del verbo en la cláusula relativa."],
       ["fill","Completa: “Ma voiture, ___ est rouge, est garée dehors.”",["que", "dont", "qui", "où"],2,"“Qui” es el sujeto de “est rouge”."],
-      ["translate","Traduce: “The book that I bought is great.”",["Le livre que j'ai acheté est génial.", "Le livre où j'ai acheté est génial.", "Le livre dont j'ai acheté est génial.", "Le livre qui j'ai acheté est génial."],0,"“Que” es el objeto directo de “j'ai acheté”."],
+      ["translate","Traduce: “El libro que compré es genial.”",["Le livre que j'ai acheté est génial.", "Le livre où j'ai acheté est génial.", "Le livre dont j'ai acheté est génial.", "Le livre qui j'ai acheté est génial."],0,"“Que” es el objeto directo de “j'ai acheté”."],
       ["arrange","Ordena: [appelé / qui / l'homme / a]",["l'homme qui a appelé", "appelé l'homme a qui", "appelé a l'homme qui", "a l'homme qui appelé"],0,"Sustantivo + “qui” + verbo."],
       ["writing","Écris en français 30-40 mots décrivant une personne et un objet en utilisant au moins “qui”, “que” et “dont”.",[],["qui", "que", "dont"]],
     ]
@@ -4537,9 +4537,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué estructura expresa simultaneidad (“haciendo algo”)?",["verbe + infinitif", "le participe présent", "en + gérondif", "venir de + infinitif"],2,"“En + gérondif” expresa simultaneidad."],
-      ["mcq","¿Qué estructura significa “haber hecho algo hace un momento”?",["en + gérondif", "le participe présent", "continuer à + infinitif", "venir de + infinitif"],3,"“Venir de + infinitivo” es “to have just done”."],
+      ["mcq","¿Qué estructura significa “haber hecho algo hace un momento”?",["en + gérondif", "le participe présent", "continuer à + infinitif", "venir de + infinitif"],3,"“Venir de + infinitivo” es “acabar de hacer algo”."],
       ["fill","Completa: “Elle a appris le français ___ beaucoup.”",["voyageant", "en voyageant", "à voyager", "voyager"],1,"Simultaneidad → “en + gérondif”: “en voyageant”."],
-      ["translate","Traduce: “He just left.”",["Il vient de partir.", "Il continue de partir.", "Il part en partant.", "Il a venu de partir."],0,"“Acabar de hacer” es “venir de + infinitivo”."],
+      ["translate","Traduce: “Acaba de irse.”",["Il vient de partir.", "Il continue de partir.", "Il part en partant.", "Il a venu de partir."],0,"“Acabar de hacer” es “venir de + infinitivo”."],
       ["arrange","Ordena: [partir / vient / il / de]",["partir de il vient", "vient de partir il", "de partir il vient", "il vient de partir"],3,"“Venir de” + infinitivo."],
       ["writing","Écris en français 30-40 mots sur tes habitudes en utilisant “en + gérondif”, “venir de” et “continuer à”.",[],["en", "vient de", "continue à"]],
     ]
@@ -4563,7 +4563,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué estructura expresa un deseo sobre el presente?",["si seulement + plus-que-parfait", "j'aurais aimé + infinitif passé", "j'aurais dû", "j'aimerais + infinitif"],3,"Deseo presente → “j'aimerais + infinitivo”."],
       ["mcq","¿Qué estructura expresa un arrepentimiento sobre el pasado?",["si seulement + imparfait", "j'aimerais + infinitif", "j'aime", "j'aurais aimé + infinitif passé"],3,"Arrepentimiento pasado → “j'aurais aimé + infinitivo pasado”."],
       ["fill","Completa: “___ plus de temps.”",["J'ai eu", "Si seulement j'ai", "J'aimerais avoir", "J'aurais aimé avoir"],2,"Deseo sobre el presente → “j'aimerais + infinitivo”."],
-      ["translate","Traduce: “I wish I had accepted the job.”",["J'ai aimé accepter le travail.", "Si seulement j'accepte le travail.", "J'aurais aimé accepter le travail.", "J'aimerais accepter le travail."],2,"Arrepentimiento pasado → “j'aurais aimé + infinitivo pasado”."],
+      ["translate","Traduce: “Ojalá hubiera aceptado el trabajo.”",["J'ai aimé accepter le travail.", "Si seulement j'accepte le travail.", "J'aurais aimé accepter le travail.", "J'aimerais accepter le travail."],2,"Arrepentimiento pasado → “j'aurais aimé + infinitivo pasado”."],
       ["arrange","Ordena: [temps / j'aimerais / plus / de / avoir]",["plus avoir de j'aimerais temps", "j'aimerais avoir plus de temps", "de avoir temps plus j'aimerais", "avoir de j'aimerais temps plus"],1,"“J'aimerais” + infinitivo + objeto."],
       ["speaking","Parle en français, en 35-45 mots, de quelque chose que tu aurais aimé faire différemment dans le passé, en utilisant “j'aurais aimé” + infinitif passé.",[],["j'aurais aimé", "si seulement", "j'aurais dû"]],
     ]
@@ -4587,7 +4587,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["il n'a pas pu", "il aurait dû", "il a pu", "il a dû"],3,"“Il a dû” indica una fuerte deducción."],
       ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["il a pu", "il a dû", "il aurait dû", "il n'a pas pu"],2,"“Il aurait dû” expresa crítica o arrepentimiento."],
       ["fill","Completa: “Elle ___ partir déjà; son manteau a disparu.”",["a pu", "aurait dû", "a dû", "n'a pas pu"],2,"Evidencia fuerte (abrigo desapareció) → “a dû”."],
-      ["translate","Traduce: “You can't have finished so fast.”",["Tu as dû finir si vite.", "Tu aurais dû finir si vite.", "Tu as pu finir si vite.", "Tu n'as pas pu finir si vite."],3,"Certeza negativa fuerte → “n'as pas pu”."],
+      ["translate","Traduce: “No puedes haber terminado tan rápido.”",["Tu as dû finir si vite.", "Tu aurais dû finir si vite.", "Tu as pu finir si vite.", "Tu n'as pas pu finir si vite."],3,"Certeza negativa fuerte → “n'as pas pu”."],
       ["arrange","Ordena: [aurais / plus / tu / dû / tôt / m'appeler]",["m'appeler dû plus tôt aurais tu","tu dû aurais m'appeler tôt plus","tu aurais dû m'appeler plus tôt","tôt aurais dû m'appeler plus tu"],2,"Sujeto + “aurais dû” + infinitivo + objeto."],
       ["writing","Écris en français 35-45 mots en spéculant sur les raisons du retard de quelqu'un à une réunion, en utilisant “a dû”, “a pu” et “n'a pas pu”.",[],["a dû", "a pu", "n'a pas pu"]],
     ]
@@ -4611,7 +4611,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué tiempo describe naturalmente hábitos y estados pasados?",["le subjonctif", "le passé composé", "le conditionnel", "l'imparfait"],3,"El imperfecto describe hábitos y estados pasados."],
       ["mcq","¿Qué expresión refuerza la idea de una costumbre pasada?",["être en train de", "avoir l'habitude de", "aller", "venir de"],1,"“Avoir l'habitude de” refuerza la idea de costumbre."],
       ["fill","Completa: “Quand j'étais jeune, je ___ dans un petit village.”",["vivais", "vis", "ai vécu", "vivrai"],0,"Estado pasado → imperfecto: “vivais”."],
-      ["translate","Traduce: “As a child, I would always play in the park.”",["Étant enfant, j'aurai toujours joué dans le parc.", "Étant enfant, j'ai toujours joué dans le parc.", "Étant enfant, je joue toujours dans le parc.", "Étant enfant, je jouais toujours dans le parc."],3,"Hábito repetido en el pasado → imperfecto: “jouais”."],
+      ["translate","Traduce: “De niño, siempre jugaba en el parque.”",["Étant enfant, j'aurai toujours joué dans le parc.", "Étant enfant, j'ai toujours joué dans le parc.", "Étant enfant, je joue toujours dans le parc.", "Étant enfant, je jouais toujours dans le parc."],3,"Hábito repetido en el pasado → imperfecto: “jouais”."],
       ["arrange","Ordena: [Rome / je / vivais / à]",["vivais je à Rome", "vivais à Rome je", "je vivais à Rome", "Rome vivais à je"],2,"Sujeto + imperfecto + preposición + objeto."],
       ["speaking","Parle en français, en 35-45 mots, de ta vie il y a dix ans, en utilisant l'imparfait.",[],["vivais", "avais l'habitude", "de nos jours"]],
     ]
@@ -4633,9 +4633,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué adverbio al inicio de la oración provoca inversión en el registro formal?",["Toujours", "Souvent", "Beaucoup", "Peut-être"],3,"“Peut-être” al inicio provoca inversión en el registro formal."],
-      ["mcq","¿Qué significa “à peine...que...”?",["no doubt", "therefore", "perhaps", "no sooner...than..."],3,"“À peine...que...” equivale a “no sooner...than...”."],
+      ["mcq","¿Qué significa “à peine...que...”?",["sin duda", "por lo tanto", "quizás", "apenas... cuando..."],3,"“À peine...que...” equivale a “apenas... cuando...”."],
       ["fill","Completa: “À peine ___ arrivé qu'il a dû repartir.”",["il est", "il était", "est-il", "était-il"],3,"Tras “à peine” al inicio, se invierte: “était-il”."],
-      ["translate","Traduce: “Perhaps he will come tomorrow.” (estilo formal)",["Peut-être vient-il demain.", "Peut-être il viendra demain.", "Peut-être qu'il viendra demain il", "Peut-être viendra-t-il demain."],3,"Tras “peut-être” al inicio en estilo formal, se invierte: “viendra-t-il”."],
+      ["translate","Traduce: “Quizás venga mañana.” (estilo formal)",["Peut-être vient-il demain.", "Peut-être il viendra demain.", "Peut-être qu'il viendra demain il", "Peut-être viendra-t-il demain."],3,"Tras “peut-être” al inicio en estilo formal, se invierte: “viendra-t-il”."],
       ["arrange","Ordena: [demain / viendra / il / peut-être]",["viendra demain peut-être il", "peut-être il demain viendra", "peut-être viendra il demain", "il viendra demain peut-être"],2,"Adverbio + verbo + sujeto + complemento."],
       ["writing","Écris en français 35-45 mots dans un style soutenu, en utilisant au moins une structure avec inversion après “peut-être” ou “à peine”.",[],["peut-être", "à peine", "aussi"]],
     ]
@@ -4659,7 +4659,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué estructura enfatiza el sujeto?",["C'est... qui...", "Ce que... c'est...", "C'est... que...", "Peut-être"],0,"“C'est...qui...” enfatiza el sujeto."],
       ["mcq","¿Qué estructura enfatiza un complemento (no el sujeto)?",["À peine", "Sans doute", "C'est... que...", "C'est... qui..."],2,"“C'est...que...” enfatiza un complemento."],
       ["fill","Completa: “___ j'ai besoin, c'est de plus de temps.”",["Ce que", "Ce qui", "Ce dont", "C'est que"],2,"“Avoir besoin de” se retoma con “ce dont”."],
-      ["translate","Traduce: “It was Maria who solved the problem.”",["Marie c'est qui a résolu le problème.", "C'est Marie qui a résolu le problème.", "C'est Marie qui résout le problème.", "C'est Marie que a résolu le problème."],1,"“C'est + persona + qui” enfatiza el sujeto."],
+      ["translate","Traduce: “Fue María quien resolvió el problema.”",["Marie c'est qui a résolu le problème.", "C'est Marie qui a résolu le problème.", "C'est Marie qui résout le problème.", "C'est Marie que a résolu le problème."],1,"“C'est + persona + qui” enfatiza el sujeto."],
       ["arrange","Ordena: [problème / résolu / Marie / a / qui / c'est / le]",["a c'est problème résolu qui le Marie", "c'est résolu Marie problème qui le a", "a Marie le qui c'est résolu problème", "c'est Marie qui a résolu le problème"],3,"“C'est” + persona + “qui” + verbo + objeto."],
       ["speaking","Parle en français, en 35-45 mots, en utilisant au moins deux structures de mise en relief (“c'est...qui” et “ce dont...c'est”) pour souligner des idées importantes de ta vie.",[],["c'est", "qui", "ce dont"]],
     ]
@@ -4683,7 +4683,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué forma reemplaza a “Après qu'elle a fini le rapport”?",["Finissant le rapport", "Fini le rapport", "Ayant fini le rapport", "Pour finir le rapport"],2,"“Ayant + participio” reemplaza una acción completada antes de otra."],
       ["mcq","¿Qué forma reemplaza a “Parce qu'il ne savait pas quoi faire”?",["Sans savoir pas quoi faire", "Ne sachant pas quoi faire", "Ayant pas su quoi faire", "Ne savoir pas quoi faire"],1,"“Ne + participio presente” reemplaza una cláusula causal negativa."],
       ["fill","Completa: “___ le rapport, elle est rentrée chez elle.”",["Fini", "Finissant", "Pour finir", "Ayant fini"],3,"Acción completada antes de otra → “ayant + participio”."],
-      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Ne savoir pas quoi dire, il est resté silencieux.", "Ne sachant pas quoi dire, il est resté silencieux.", "Ne sachant quoi dire pas, il est resté silencieux.", "Ayant pas su quoi dire, il est resté silencieux."],1,"“Ne + participio presente” al inicio reemplaza una cláusula causal."],
+      ["translate","Traduce: “Sin saber qué decir, se quedó callado.”",["Ne savoir pas quoi dire, il est resté silencieux.", "Ne sachant pas quoi dire, il est resté silencieux.", "Ne sachant quoi dire pas, il est resté silencieux.", "Ayant pas su quoi dire, il est resté silencieux."],1,"“Ne + participio presente” al inicio reemplaza una cláusula causal."],
       ["arrange","Ordena: [chez / fini / ayant / elle / rapport / le / est / rentrée]",["est le elle ayant rentrée rapport chez fini", "est chez ayant elle le rapport fini rentrée", "ayant fini le rapport elle est rentrée chez", "elle ayant rapport chez rentrée le est fini"],2,"Cláusula de participio + sujeto + verbo."],
       ["writing","Écris en français 35-45 mots en racontant une anecdote en utilisant au moins une proposition participiale (Ayant..., Ne sachant pas..., Étant...).",[],["ayant", "ne sachant pas", "étant"]],
     ]
@@ -4707,7 +4707,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué modo verbal exige “suggérer que”?",["le subjonctif", "l'impératif", "l'indicatif", "l'infinitif"],0,"“Suggérer que” exige el subjuntivo en la subordinada."],
       ["mcq","¿Cómo se completa “Il a nié ___ l'argent” (voler, acción pasada)?",["voler", "volant", "avoir volé", "volé"],2,"“Nier” + infinitif passé para acciones pasadas: “avoir volé”."],
       ["fill","Completa: “Le médecin a recommandé qu'elle ___ une semaine.”",["se reposait", "se repose", "s'est reposée", "se reposer"],1,"“Recommander que” exige subjuntivo presente: “se repose”."],
-      ["translate","Traduce: “He admitted making a mistake.”",["Il a admis avoir faire une erreur.", "Il a admis faire une erreur.", "Il a admis qu'il faisait une erreur.", "Il a admis avoir fait une erreur."],3,"“Admettre” + infinitif passé para una acción ya realizada."],
+      ["translate","Traduce: “Admitió haber cometido un error.”",["Il a admis avoir faire une erreur.", "Il a admis faire une erreur.", "Il a admis qu'il faisait une erreur.", "Il a admis avoir fait une erreur."],3,"“Admettre” + infinitif passé para una acción ya realizada."],
       ["arrange","Ordena: [nié / avoir / volé / il / a / l'argent]",["avoir volé nié il a l'argent","il a nié avoir volé l'argent","nié l'argent a il avoir volé","il l'argent avoir a volé nié"],1,"Sujeto + “nier” + infinitif passé + objeto."],
       ["writing","Écris en français 35-45 mots en rapportant une conversation en utilisant au moins deux verbes de discours avancés (suggérer, insister, nier, admettre).",[],["a suggéré que", "a nié", "a admis"]],
     ]
@@ -4731,7 +4731,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cómo respondes con acuerdo afirmativo a “J'adore cette chanson”?",["Moi aussi.", "J'espère que non.", "Le faire.", "Moi non plus."],0,"“Moi aussi” expresa acuerdo con una afirmación."],
       ["mcq","¿Cómo respondes con acuerdo negativo a “Je n'aime pas le café”?",["Moi aussi.", "Moi non plus.", "Je crois que oui.", "Le faire."],1,"“Moi non plus” expresa acuerdo con una negación."],
       ["fill","Completa: “A: Viendra-t-elle à la fête? B: J'espère que ___.”",["plus", "oui", "aussi", "non"],1,"“J'espère que oui” sustituye la cláusula afirmativamente."],
-      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Je pense qu'il va pleuvoir. B: Je pense ça aussi trop.", "A: Je pense qu'il va pleuvoir. B: Je pense le aussi.", "A: Je pense qu'il va pleuvoir. B: Je le pense aussi.", "A: Je pense qu'il va pleuvoir. B: Aussi je le pense."],2,"“Je le pense aussi” sustituye la cláusula repetida."],
+      ["translate","Traduce: “A: Creo que va a llover. B: Yo también lo creo.”",["A: Je pense qu'il va pleuvoir. B: Je pense ça aussi trop.", "A: Je pense qu'il va pleuvoir. B: Je pense le aussi.", "A: Je pense qu'il va pleuvoir. B: Je le pense aussi.", "A: Je pense qu'il va pleuvoir. B: Aussi je le pense."],2,"“Je le pense aussi” sustituye la cláusula repetida."],
       ["arrange","Ordena: [aussi / moi / pense / je]",["moi aussi je pense", "aussi moi pense je", "pense je aussi moi", "je moi pense aussi"],0,"“Moi aussi” + sujeto + verbo."],
       ["speaking","Parle en français, en 30-40 mots, de goûts partagés avec un ami en utilisant “moi aussi”, “moi non plus” et “je crois que oui”.",[],["moi aussi", "moi non plus", "je crois que oui"]],
     ]
@@ -4755,7 +4755,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cuál es la nominalización de “décider”?",["décidant", "le décideur", "décisif", "la décision"],3,"La nominalización de “décider” es “la décision”."],
       ["mcq","¿Cuál es la nominalización de “analyser”?",["analysant", "l'analyseur", "l'analyse", "analytique"],2,"La nominalización de “analyser” es “l'analyse”."],
       ["fill","Completa: “Leur ___ minutieuse des données a révélé de nouveaux schémas.”",["analyse", "analyseur", "analysant", "analyser"],0,"Registro formal → sustantivo nominalizado: “analyse”."],
-      ["translate","Traduce: “The decision to reduce costs was controversial.”",["Le décider de réduire les coûts était controversée.", "La décision de réduire les coûts était controversé.", "La décisive de réduire les coûts était controversée.", "La décision de réduire les coûts était controversée."],3,"“Décider” se nominaliza como “la décision”."],
+      ["translate","Traduce: “La decisión de reducir los costos fue polémica.”",["Le décider de réduire les coûts était controversée.", "La décision de réduire les coûts était controversé.", "La décisive de réduire les coûts était controversée.", "La décision de réduire les coûts était controversée."],3,"“Décider” se nominaliza como “la décision”."],
       ["arrange","Ordena: [était / décision / controversée / la]",["la controversée était décision", "décision était la controversée", "décision était controversée la", "la décision était controversée"],3,"Sustantivo nominalizado + verbo + adjetivo."],
       ["writing","Écris en français 40-50 mots dans un registre formel/académique en utilisant au moins deux noms nominalisés (décision, analyse, réduction...).",[],["décision", "analyse", "réduction"]],
     ]
@@ -4779,7 +4779,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["Cela, je ne peux pas l'accepter.", "Cela je peux pas ne l'accepter.", "Je ne peux pas accepter cela.", "Je ne peux pas l'accepter, cela."],0,"“Cela, je ne peux pas l'accepter” antepone el objeto “cela”, retomado con “l'”."],
       ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Cela, je ne peux pas l'accepter.", "Moi aussi.", "Telle était sa détermination...", "Il ne savait guère que..."],3,"“Il ne savait guère que...” implica ignorancia sobre algo que ocurriría."],
       ["fill","Completa: “Il ne ___ guère que son plan allait échouer.”",["savait", "saura", "sait", "a su"],0,"“Il ne savait guère que...” es una estructura fija de énfasis en imperfecto."],
-      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tel était la confusion que la réunion a été annulée.", "Telle la confusion était que la réunion a été annulée.", "Telle était la confusion que la réunion était annulée.", "Telle était la confusion que la réunion a été annulée."],3,"“Confusion” es femenino → “telle était”."],
+      ["translate","Traduce: “Tal fue el caos que se canceló la reunión.”",["Tel était la confusion que la réunion a été annulée.", "Telle la confusion était que la réunion a été annulée.", "Telle était la confusion que la réunion était annulée.", "Telle était la confusion que la réunion a été annulée."],3,"“Confusion” es femenino → “telle était”."],
       ["arrange","Ordena: [cela / peux / ne / je / pas / l'accepter]",["cela je ne peux pas l'accepter","cela peux ne l'accepter je pas","peux je pas cela ne l'accepter","cela pas peux l'accepter ne je"],0,"Objeto antepuesto + sujeto + verbo."],
       ["speaking","Parle en français, en 40-50 mots, d'un tournant inattendu dans ta vie en utilisant au moins une structure d'antéposition emphatique.",[],["cela je", "il ne savait guère", "telle était"]],
     ]
@@ -4803,7 +4803,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["indéniablement", "prétendument", "vraisemblablement", "on pourrait dire que"],1,"“Prétendument” indica algo dicho sin confirmación."],
       ["mcq","¿Qué adverbio indica algo indiscutible?",["prétendument", "indéniablement", "on pourrait dire que", "apparemment"],1,"“Indéniablement” indica algo innegable."],
       ["fill","Completa: “Il était ___ là pour aider, mais il avait d'autres motifs.”",["apparemment", "indéniablement", "on pourrait dire", "vraisemblablement"],0,"“Apparemment” indica una apariencia que contrasta con la realidad."],
-      ["translate","Traduce: “This is, arguably, his best work.”",["C'est, on pourrait dire, son meilleur travail.", "C'est, prétendument, son meilleur travail.", "C'est, apparemment, son meilleur travail.", "C'est, indéniablement, son meilleur travail."],0,"“Podría decirse que” se traduce como “on pourrait dire que”."],
+      ["translate","Traduce: “Esta es, posiblemente, su mejor obra.”",["C'est, on pourrait dire, son meilleur travail.", "C'est, prétendument, son meilleur travail.", "C'est, apparemment, son meilleur travail.", "C'est, indéniablement, son meilleur travail."],0,"“Podría decirse que” se traduce como “on pourrait dire que”."],
       ["arrange","Ordena: [échec / fut / la / politique / un]",["la politique fut un échec", "la échec fut un politique", "échec fut la un politique", "échec politique fut la un"],0,"Sujeto + verbo + artículo + sustantivo."],
       ["writing","Écris en français 40-50 mots en donnant ton avis sur un sujet controversé en utilisant au moins deux adverbes de modalisation (on pourrait dire que, indéniablement, vraisemblablement...).",[],["on pourrait dire que", "indéniablement", "vraisemblablement"]],
     ]
@@ -4824,10 +4824,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “a growing body of evidence” en francés?",["la mesure dans laquelle", "un large éventail de facteurs", "un nombre croissant de preuves", "les causes sous-jacentes de"],2,"“A growing body of evidence” es “un nombre croissant de preuves”."],
-      ["mcq","¿Cómo se dice “the underlying causes of” en francés?",["la mesure dans laquelle", "les causes sous-jacentes de", "un nombre croissant de preuves", "un large éventail de facteurs"],1,"“The underlying causes of” es “les causes sous-jacentes de”."],
+      ["mcq","¿Cómo se dice “un número creciente de pruebas” en francés?",["la mesure dans laquelle", "un large éventail de facteurs", "un nombre croissant de preuves", "les causes sous-jacentes de"],2,"“Un número creciente de pruebas” es “un nombre croissant de preuves”."],
+      ["mcq","¿Cómo se dice “las causas subyacentes de” en francés?",["la mesure dans laquelle", "les causes sous-jacentes de", "un nombre croissant de preuves", "un large éventail de facteurs"],1,"“Las causas subyacentes de” es “les causes sous-jacentes de”."],
       ["fill","Completa: “___ laquelle la politique réussit dépend du soutien public.”",["La mesure dans", "Un nombre croissant de", "Les causes sous-jacentes de", "Un large éventail de"],0,"“La mesure dans laquelle” introduce el grado en que algo ocurre."],
-      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Un nombre croissant de preuves suggèrent que le climat change.", "Un nombre croissant de preuve suggère que le climat change.", "Un nombre croissant des preuves suggère que le climat change.", "Un nombre croissant de preuves suggère que le climat change."],3,"El verbo concuerda con “nombre” (singular): “suggère”."],
+      ["translate","Traduce: “Un número creciente de pruebas sugiere que el clima está cambiando.”",["Un nombre croissant de preuves suggèrent que le climat change.", "Un nombre croissant de preuve suggère que le climat change.", "Un nombre croissant des preuves suggère que le climat change.", "Un nombre croissant de preuves suggère que le climat change."],3,"El verbo concuerda con “nombre” (singular): “suggère”."],
       ["arrange","Ordena: [facteurs / éventail / large / un / de]",["large facteurs un de éventail", "un large éventail de facteurs", "de facteurs un large éventail", "large éventail facteurs un de"],1,"Artículo + adjetivo + sustantivo + “de” + sustantivo."],
       ["speaking","Parle en français, en 40-50 mots, d'un sujet académique ou social en utilisant au moins deux syntagmes nominaux complexes.",[],["un nombre croissant de", "un large éventail de", "la mesure dans laquelle"]],
     ]
@@ -4851,7 +4851,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["cela étant dit", "le second", "le premier", "le susmentionné"],2,"“Le premier” se refiere al primero de dos elementos."],
       ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["le premier", "le susmentionné", "un tel", "le second"],3,"“Le second” se refiere al segundo de dos elementos."],
       ["fill","Completa: “Nous avons envisagé deux options: A et B. ___ offre de la flexibilité.”",["Le premier", "Cela étant dit", "Le susmentionné", "Le second"],0,"“Le premier” se refiere a la primera opción mencionada (A)."],
-      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Cela étant, il reste encore des questions à résoudre.", "Cela étant dit, il reste encore des questions à résoudre.", "Cela dit étant, il reste encore des questions à résoudre.", "Cela étant dit, il y a encore des question à résoudre."],1,"“That being said” es “cela étant dit”."],
+      ["translate","Traduce: “Dicho esto, todavía quedan preguntas por resolver.”",["Cela étant, il reste encore des questions à résoudre.", "Cela étant dit, il reste encore des questions à résoudre.", "Cela dit étant, il reste encore des questions à résoudre.", "Cela étant dit, il y a encore des question à résoudre."],1,"“Dicho esto” es “cela étant dit”."],
       ["arrange","Ordena: [flexibilité / premier / le / offre / de / la]",["le premier offre de la flexibilité", "la offre premier de le flexibilité", "la premier offre le flexibilité de", "offre premier de flexibilité la le"],0,"“Le premier” + verbo + complemento."],
       ["writing","Écris en français 40-50 mots en comparant deux options en utilisant “le premier”, “le second” et “cela étant dit”.",[],["le premier", "le second", "cela étant dit"]],
     ]
@@ -4872,10 +4872,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Open the door” en francés (imperativo tú)?",["Ouvres la porte.", "Tu ouvres la porte.", "Ouvrir la porte.", "Ouvre la porte."],3,"El imperativo de “ouvrir” es “ouvre”."],
+      ["mcq","¿Cómo se dice “Abre la puerta” en francés (imperativo tú)?",["Ouvres la porte.", "Tu ouvres la porte.", "Ouvrir la porte.", "Ouvre la porte."],3,"El imperativo de “ouvrir” es “ouvre”."],
       ["mcq","¿Cómo se forma el imperativo negativo en francés?",["ne + verbo + pas", "pas + verbo", "jamais + verbo", "non + verbo"],0,"El negativo se forma con “ne...pas” alrededor del verbo."],
       ["fill","Completa: “Ne ___ pas à ça; c'est chaud.”",["touche", "toucher", "touchant", "touches"],0,"Imperativo de “toucher” (verbo -er) sin -s: “touche”."],
-      ["translate","Traduce: “Please, sit down.”",["Tu t'assieds, s'il te plaît.", "Assieds-toi, s'il te plaît.", "S'asseoir, s'il te plaît.", "Asseoir-toi, s'il te plaît."],1,"Imperativo de “s'asseoir”: “assieds-toi”."],
+      ["translate","Traduce: “Siéntate, por favor.”",["Tu t'assieds, s'il te plaît.", "Assieds-toi, s'il te plaît.", "S'asseoir, s'il te plaît.", "Asseoir-toi, s'il te plaît."],1,"Imperativo de “s'asseoir”: “assieds-toi”."],
       ["arrange","Ordena: [porte / ouvre / la]",["porte ouvre la", "ouvre la porte", "ouvre porte la", "la porte ouvre"],1,"Imperativo + artículo + sustantivo."],
       ["writing","Écris en français 20-30 mots avec trois instructions en utilisant l'impératif (affirmatif et négatif).",[],["ouvre", "ne touche pas", "s'il te plaît"]],
     ]
@@ -4899,7 +4899,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué adjetivo demostrativo usas con un sustantivo femenino singular?",["ce", "ces", "cette", "cet"],2,"“Cette” se usa con sustantivos femeninos singulares."],
       ["mcq","¿Qué sufijo precisa que un objeto está cerca?",["ce", "-là", "-ci", "cette"],2,"“-ci” indica cercanía."],
       ["fill","Completa: “___ livre-ci est à moi.”",["Cet", "Ce", "Cette", "Ces"],1,"“Livre” es masculino singular → “ce”."],
-      ["translate","Traduce: “These are my books.”",["Ce livres sont à moi.", "Cet livres sont à moi.", "Ces livres sont à moi.", "Cette livres sont à moi."],2,"Plural → “ces”."],
+      ["translate","Traduce: “Estos son mis libros.”",["Ce livres sont à moi.", "Cet livres sont à moi.", "Ces livres sont à moi.", "Cette livres sont à moi."],2,"Plural → “ces”."],
       ["arrange","Ordena: [chères / trop / chaussures-là / sont / ces]",["trop sont ces chères chaussures-là", "trop sont chaussures-là ces chères", "ces chaussures-là sont trop chères", "chères trop chaussures-là sont ces"],2,"Demostrativo + sustantivo-là + verbo + adjetivo."],
       ["writing","Écris en français 20-30 mots décrivant des objets proches et loin de toi en utilisant ce, cette, ces et -ci/-là.",[],["ce", "cette", "ces"]],
     ]
@@ -4923,7 +4923,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué preposición usas con una hora exacta?",["en", "à", "le", "dans"],1,"“À” se usa con horas exactas."],
       ["mcq","¿Qué artículo usas delante de un día de la semana para expresar un hábito?",["à", "le", "dans", "en"],1,"“Le” + día expresa un hábito repetido."],
       ["fill","Completa: “Je suis né ___ juillet.”",["en", "le", "à", "dans"],0,"“En” se usa con meses."],
-      ["translate","Traduce: “On Mondays, I go to the pool.” (hábito)",["Le lundi, je vais à la piscine.", "Lundi, je vais à la piscine chaque.", "En lundi, je vais à la piscine.", "À lundi, je vais à la piscine."],0,"Hábito repetido → “le lundi”."],
+      ["translate","Traduce: “Los lunes voy a la piscina.” (hábito)",["Le lundi, je vais à la piscine.", "Lundi, je vais à la piscine chaque.", "En lundi, je vais à la piscine.", "À lundi, je vais à la piscine."],0,"Hábito repetido → “le lundi”."],
       ["arrange","Ordena: [heures / commence / cours / le / 9 / à]",["le cours commence à 9 heures", "cours à heures 9 le commence", "cours le heures 9 à commence", "le 9 à cours commence heures"],0,"Sujeto + verbo + “à” + hora."],
       ["writing","Écris en français 20-30 mots sur ton emploi du temps hebdomadaire en utilisant à, en et le + jour.",[],["à", "en", "le"]],
     ]
@@ -4947,7 +4947,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Dónde va “toujours” respecto al verbo conjugado?",["al final de la frase", "al principio de la frase", "justo antes", "justo después"],3,"“Toujours” va justo después del verbo conjugado."],
       ["mcq","¿Cómo se dice “a veces” en francés?",["jamais", "souvent", "parfois", "toujours"],2,"“A veces” es “parfois”."],
       ["fill","Completa: “Elle n'est ___ en retard.”",["jamais", "toujours", "parfois", "souvent"],0,"“Ne...jamais” rodea el verbo: “n'est jamais”."],
-      ["translate","Traduce: “I always drink coffee in the morning.”",["Toujours je bois du café le matin.", "Je bois toujours du café le matin.", "Je toujours bois du café le matin.", "Je bois du café toujours le matin."],1,"El adverbio va justo después del verbo: “bois toujours”."],
+      ["translate","Traduce: “Siempre tomo café por la mañana.”",["Toujours je bois du café le matin.", "Je bois toujours du café le matin.", "Je toujours bois du café le matin.", "Je bois du café toujours le matin."],1,"El adverbio va justo después del verbo: “bois toujours”."],
       ["arrange","Ordena: [travail / vais / souvent / au / je / à / vélo]",["je vais souvent au travail à vélo", "à vélo travail je vais au souvent", "vais travail au je souvent vélo à", "à vais je travail au vélo souvent"],0,"Sujeto + verbo + adverbio + complemento."],
       ["writing","Écris en français 20-30 mots sur ta routine en utilisant au moins trois adverbes de fréquence.",[],["toujours", "souvent", "parfois"]],
     ]
@@ -4968,10 +4968,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “Anna's book” en francés?",["Anna de livre", "le livre de Anna", "de Anna le livre", "le Anna's livre"],1,"“Anna's book” es “le livre de Anna”."],
+      ["mcq","¿Cómo se dice “El libro de Anna” en francés?",["Anna de livre", "le livre de Anna", "de Anna le livre", "le Anna's livre"],1,"“El libro de Anna” es “le livre de Anna”."],
       ["mcq","¿En qué se contrae “de + les” en francés?",["du", "des", "de les", "de le"],1,"“De + les” se contrae en “des”."],
       ["fill","Completa: “Voici les jouets ___ enfants.”",["de le", "du", "des", "de les"],2,"“De + les” se contrae en “des”."],
-      ["translate","Traduce: “Whose book is this? It's Anna's.”",["À qui est ce livre ? C'est Anna's.", "Qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est de Anna."],2,"“À qui?” + “c'est à Anna”."],
+      ["translate","Traduce: “¿De quién es este libro? Es de Anna.”",["À qui est ce livre ? C'est Anna's.", "Qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est à Anna.", "À qui est ce livre ? C'est de Anna."],2,"“À qui?” + “c'est à Anna”."],
       ["arrange","Ordena: [Anna / livre / le / de / voici]",["Anna le voici de livre", "Anna de livre voici le", "Anna le livre de voici", "voici le livre de Anna"],3,"“Voici” + artículo + sustantivo + “de” + poseedor."],
       ["writing","Écris en français 20-30 mots décrivant des objets qui appartiennent à différentes personnes en utilisant « de » pour exprimer la possession.",[],["de", "à qui", "c'est à"]],
     ]
@@ -4995,7 +4995,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué pronombre reflexivo corresponde a “je”?",["me", "nous", "te", "se"],0,"“Je” usa el pronombre “me”."],
       ["mcq","¿Qué pronombre reflexivo corresponde a “elle”?",["me", "nous", "se", "te"],2,"“Elle” usa el pronombre “se”."],
       ["fill","Completa: “Je ___ suis coupé en cuisinant.”",["se", "me", "te", "nous"],1,"“Je” usa el pronombre reflexivo “me”."],
-      ["translate","Traduce: “She lives by herself.”",["Elle vit par elle-même.", "Elle se vit seule.", "Elle vit toute seule.", "Elle vit elle-même."],2,"“Vivre” no es pronominal aquí; “toute seule” expresa “by herself”."],
+      ["translate","Traduce: “Vive sola.”",["Elle vit par elle-même.", "Elle se vit seule.", "Elle vit toute seule.", "Elle vit elle-même."],2,"“Vivre” no es pronominal aquí; “toute seule” expresa “ella sola”."],
       ["arrange","Ordena: [sept / lève / heures / me / je / à]",["je me heures à sept lève", "sept lève heures à je me", "lève je à me sept heures", "je me lève à sept heures"],3,"Sujeto + pronombre reflexivo + verbo + hora."],
       ["speaking","Parle en français pendant 25-35 mots de ta routine quotidienne en utilisant au moins trois verbes pronominaux (se lever, se doucher, s'habiller...).",[],["je me lève", "je me douche", "je m'habille"]],
     ]
@@ -5019,7 +5019,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué pronombre reemplaza a “ma sœur” (femenino singular)?",["la", "l'", "le", "les"],0,"“Ma sœur” se reemplaza por “la”."],
       ["mcq","¿Qué pronombre reemplaza a “mes parents” (plural)?",["les", "le", "l'", "la"],0,"“Mes parents” se reemplaza por “les”."],
       ["fill","Completa: “J'ai vu ma sœur hier. Je ___ ai vue au parc.”",["les", "la", "l'", "le"],2,"Antes de vocal, “la” se elide en “l'”."],
-      ["translate","Traduce: “Can you help us, please?”",["Peux-tu les aider, s'il te plaît ?", "Peux-tu nous aider, s'il te plaît ?", "Peux-tu nous aides, s'il te plaît ?", "Peux-tu aider nous, s'il te plaît ?"],1,"El pronombre COD va antes del infinitivo: “nous aider”."],
+      ["translate","Traduce: “¿Puedes ayudarnos, por favor?”",["Peux-tu les aider, s'il te plaît ?", "Peux-tu nous aider, s'il te plaît ?", "Peux-tu nous aides, s'il te plaît ?", "Peux-tu aider nous, s'il te plaît ?"],1,"El pronombre COD va antes del infinitivo: “nous aider”."],
       ["arrange","Ordena: [hier / vu / je / l'ai]",["hier je vu l'ai","vu je l'ai hier","je l'ai vu hier","hier vu l'ai je"],2,"Sujeto + pronombre COD + verbo + adverbio."],
       ["writing","Écris en français 25-35 mots sur des personnes ou des objets que tu as vus récemment, en utilisant des pronoms compléments d'objet direct (le, la, les).",[],["le", "la", "les"]],
     ]
@@ -5041,9 +5041,9 @@ window.LESSON_BANKS.FR = [
     },
     ex:[
       ["mcq","¿Qué tiempo verbal se usa para horarios fijos (trenes, cines)?",["el imparfait", "el futur simple", "el presente", "el futur proche"],2,"Los horarios fijos usan el presente."],
-      ["mcq","¿Cómo se dice “The store closes at 6pm” en francés?",["Le magasin fermait à 18h.", "Le magasin fermera à 18h.", "Le magasin ferme à 18h.", "Le magasin va fermer à 18h."],2,"Horario fijo → presente: “ferme”."],
+      ["mcq","¿Cómo se dice “La tienda cierra a las 18:00” en francés?",["Le magasin fermait à 18h.", "Le magasin fermera à 18h.", "Le magasin ferme à 18h.", "Le magasin va fermer à 18h."],2,"Horario fijo → presente: “ferme”."],
       ["fill","Completa: “Le train ___ à 15h.”",["part", "va partir", "partait", "partira"],0,"Horario fijo → presente: “part”."],
-      ["translate","Traduce: “The movie starts at 8pm.”",["Le film commence à 20h.", "Le film commencera à 20h.", "Le film va commencer à 20h.", "Le film commençait à 20h."],0,"Horario fijo → presente: “commence”."],
+      ["translate","Traduce: “La película empieza a las 20:00.”",["Le film commence à 20h.", "Le film commencera à 20h.", "Le film va commencer à 20h.", "Le film commençait à 20h."],0,"Horario fijo → presente: “commence”."],
       ["arrange","Ordena: [15h / part / à / le / train]",["à train part 15h le", "le 15h à part train", "le train part à 15h", "train 15h part à le"],2,"Sujeto + verbo + “à” + hora."],
       ["writing","Écris en français 25-35 mots sur les horaires de transports ou de programmes que tu connais, en utilisant le présent.",[],["part à", "commence à", "ferme à"]],
     ]
@@ -5088,10 +5088,10 @@ window.LESSON_BANKS.FR = [
       ]
     },
     ex:[
-      ["mcq","¿Cómo se dice “to count on” en francés?",["se rendre compte de", "compter sur", "arrêter de", "garder"],1,"“To count on” es “compter sur”."],
-      ["mcq","¿Cómo se dice “to realize” en francés?",["garder", "remarquer", "compter sur", "se rendre compte de"],3,"“To realize” es “se rendre compte de”."],
+      ["mcq","¿Cómo se dice “contar con” en francés?",["se rendre compte de", "compter sur", "arrêter de", "garder"],1,"“Contar con” es “compter sur”."],
+      ["mcq","¿Cómo se dice “darse cuenta de” en francés?",["garder", "remarquer", "compter sur", "se rendre compte de"],3,"“Darse cuenta de” es “se rendre compte de”."],
       ["fill","Completa: “J'ai ___ fumer l'année dernière.”",["remarqué", "compté sur", "arrêté de", "gardé"],2,"“Arrêter de + infinitif” = dejar de hacer algo."],
-      ["translate","Traduce: “I noticed her new jacket.”",["J'ai compté sur sa nouvelle veste.", "J'ai gardé sa nouvelle veste.", "J'ai remarqué sa nouvelle veste.", "Je me suis rendu compte sa nouvelle veste."],2,"“Noticed” es “remarqué”."],
+      ["translate","Traduce: “Me fijé en su chaqueta nueva.”",["J'ai compté sur sa nouvelle veste.", "J'ai gardé sa nouvelle veste.", "J'ai remarqué sa nouvelle veste.", "Je me suis rendu compte sa nouvelle veste."],2,"“Me fijé” es “remarqué”."],
       ["arrange","Ordena: [moi / peux / compter / tu / sur]",["sur peux tu moi compter", "tu peux compter sur moi", "peux tu sur compter moi", "tu peux moi compter sur"],1,"Sujeto + “compter sur” + objeto."],
       ["writing","Écris en français 25-35 mots sur tes habitudes en utilisant au moins trois verbes avec préposition fixe (arrêter de, remarquer, compter sur...).",[],["j'ai arrêté de", "j'ai remarqué", "je compte sur"]],
     ]
@@ -5115,7 +5115,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué tipo de condicional usas para una verdad general?",["type 2", "type 1", "type 3", "type 0"],3,"Verdades generales → condicional tipo 0."],
       ["mcq","¿Qué tipo de condicional usas para una posibilidad real futura?",["type 0", "type 2", "type 3", "type 1"],3,"Posibilidad real futura → condicional tipo 1."],
       ["fill","Completa: “Si tu chauffes la glace, elle ___.”",["fond", "fondait", "fondra", "a fondu"],0,"Tipo 0: presente + presente."],
-      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["S'il pleut demain, je resterai à la maison.", "S'il pleut demain, je reste à la maison.", "S'il pleut demain, je resterais à la maison.", "S'il pleuvra demain, je resterai à la maison."],0,"Tipo 1: si + presente, futuro."],
+      ["translate","Traduce: “Si mañana llueve, me quedaré en casa.”",["S'il pleut demain, je resterai à la maison.", "S'il pleut demain, je reste à la maison.", "S'il pleut demain, je resterais à la maison.", "S'il pleuvra demain, je resterai à la maison."],0,"Tipo 1: si + presente, futuro."],
       ["arrange","Ordena: [bout / quand / l'eau / elle / s'évapore]",["quand l'eau bout, elle s'évapore","elle quand l'eau bout, s'évapore","elle s'évapore bout, quand l'eau","s'évapore l'eau bout, elle quand"],0,"“Quand” + presente + presente (verdad general)."],
       ["writing","Écris en français 30-40 mots avec deux exemples : une vérité générale (type 0) et une possibilité réelle future (type 1).",[],["si", "quand", "futur"]],
     ]
@@ -5139,7 +5139,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cómo se forma la voz pasiva en francés?",["être + gerundio", "avoir + participio pasado", "être + participio pasado", "aller + infinitivo"],2,"La pasiva se forma con “être + participio”."],
       ["mcq","¿Con qué concuerda el participio pasado en la voz pasiva?",["nunca concuerda", "con el objeto directo", "con el agente", "con el sujeto"],3,"El participio concuerda con el sujeto."],
       ["fill","Completa: “La lettre ___ hier.”",["a envoyé", "est envoyée", "envoyait", "a été envoyée"],3,"Pasiva en pasado compuesto: “a été envoyée”."],
-      ["translate","Traduce: “French is spoken here.”",["Le français parle ici.", "Le français est parlé ici.", "Le français a été parlé ici.", "Le français est parlant ici."],1,"Pasiva presente: “est parlé”."],
+      ["translate","Traduce: “Aquí se habla francés.”",["Le français parle ici.", "Le français est parlé ici.", "Le français a été parlé ici.", "Le français est parlant ici."],1,"Pasiva presente: “est parlé”."],
       ["arrange","Ordena: [ici / français / est / le / parlé]",["le français est parlé ici", "est le français ici parlé", "est français le parlé ici", "ici parlé français est le"],0,"Sujeto + “être” + participio + adverbio."],
       ["writing","Écris en français 30-40 mots sur quelque chose qui se fait ou qui s'est fait (par exemple dans ton travail ou ton pays), en utilisant la voix passive au présent et au passé composé.",[],["est parlé", "a été envoyée", "est fait"]],
     ]
@@ -5163,7 +5163,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué coletilla es la más neutra/formal para confirmar información?",["d'accord ?", "hein ?", "n'est-ce pas ?", "non ?"],2,"“N'est-ce pas ?” es la más neutra/formal."],
       ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en francés son invariables", "en francés solo se usan en el pasado", "en francés cambian según el verbo", "en francés solo se usan en negativo"],0,"En francés las coletillas no cambian según el verbo."],
       ["fill","Completa: “Tu n'aimes pas le café, ___?”",["d'accord", "non", "oui", "hein"],1,"“Non?” es la coletilla más común e informal."],
-      ["translate","Traduce: “You went to the party, didn't you?”",["Tu es allé à la fête, es-tu allé ?", "Tu es allé à la fête, n'est-ce pas ?", "Tu es allé à la fête, non tu es allé ?", "Tu es allé à la fête, n'as-tu pas ?"],1,"“N'est-ce pas ?” es invariable, no repite el verbo."],
+      ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["Tu es allé à la fête, es-tu allé ?", "Tu es allé à la fête, n'est-ce pas ?", "Tu es allé à la fête, non tu es allé ?", "Tu es allé à la fête, n'as-tu pas ?"],1,"“N'est-ce pas ?” es invariable, no repite el verbo."],
       ["arrange","Ordena: [espagnol / es / n'est-ce / tu / pas]",["espagnol pas n'est-ce es tu", "n'est-ce espagnol tu es pas", "tu es espagnol n'est-ce pas", "n'est-ce tu pas es espagnol"],2,"Afirmación + coletilla de confirmación."],
       ["writing","Écris en français 30-40 mots avec trois phrases utilisant des petits mots de confirmation (n'est-ce pas, non, hein) pour confirmer une information avec un ami.",[],["n'est-ce pas", "non", "hein"]],
     ]
@@ -5187,7 +5187,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["que", "si", "quoi", "comment"],1,"“Si” introduce preguntas de sí/no en estilo indirecto."],
       ["mcq","¿Qué frase cortés puedes usar para pedir información?",["Pourriez-vous me dire...?", "N'est-ce pas?", "Qu'est-ce que c'est?", "Dis-moi."],0,"“Pourriez-vous me dire...?” es una fórmula cortés."],
       ["fill","Completa: “Pourriez-vous me dire où ___ la gare ?”",["elle est", "est", "est-elle", "être"],1,"“Où est la gare” se mantiene en la pregunta indirecta."],
-      ["translate","Traduce: “Do you know if she's coming?”",["Savez-vous qu'elle vient ?", "Savez-vous elle si vient ?", "Savez-vous si vient-elle ?", "Savez-vous si elle vient ?"],3,"“If” se traduce como “si”."],
+      ["translate","Traduce: “¿Sabe usted si ella viene?”",["Savez-vous qu'elle vient ?", "Savez-vous elle si vient ?", "Savez-vous si vient-elle ?", "Savez-vous si elle vient ?"],3,"En una pregunta indirecta, el “si” español se traduce como “si”."],
       ["arrange","Ordena: [dire / pourriez / gare / où / est / vous / me / la]",["pourriez vous me dire où est la gare", "gare la dire est pourriez me où vous", "la gare où pourriez vous me est dire", "vous gare est la dire où pourriez me"],0,"Frase cortés + pregunta incrustada."],
       ["speaking","Parle en français pendant 30-40 mots en posant trois questions indirectes et polies à un inconnu dans la rue.",[],["Pourriez-vous me dire", "Savez-vous si", "Je me demande"]],
     ]
@@ -5211,7 +5211,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Qué estructura significa “acabar de hacer algo”?",["le futur proche", "venir de + infinitif", "l'imparfait", "le passé composé"],1,"“Venir de + infinitivo” significa “acabar de hacer algo”."],
       ["mcq","¿Qué tiempo se usa con “depuis” para una acción que empezó en el pasado y sigue en el presente?",["el presente", "el futuro", "el condicional", "el passé composé"],0,"Con “depuis” para acciones que continúan, se usa el presente."],
       ["fill","Completa: “J'attends ___ une heure.”",["pour", "depuis", "il y a", "pendant"],1,"Acción que continúa → “depuis” + presente."],
-      ["translate","Traduce: “I've just finished.”",["J'ai juste fini.", "Je viens finir.", "Je viens de finir.", "Je viens de finissant."],2,"“Acabar de hacer” es “venir de + infinitivo”."],
+      ["translate","Traduce: “Acabo de terminar.”",["J'ai juste fini.", "Je viens finir.", "Je viens de finir.", "Je viens de finissant."],2,"“Acabar de hacer” es “venir de + infinitivo”."],
       ["arrange","Ordena: [finir / viens / je / de]",["je viens de finir", "je de viens finir", "je viens finir de", "viens je de finir"],0,"“Venir de” + infinitivo."],
       ["writing","Écris en français 30-40 mots sur quelque chose que tu fais depuis un moment (avec « depuis ») et quelque chose que tu viens de faire (avec « venir de »).",[],["je viens de", "depuis", "j'ai fait"]],
     ]

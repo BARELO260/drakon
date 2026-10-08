@@ -1,0 +1,5 @@
+Ronda 8 — reconstrucción reproducible (Node.js).
+Orden: node build_r8.js <base_r7> <dest>  ->  build_r8b.js <dest_copia> <dest>  ->  build_r8c.js <dest_copia> <dest> <base_r7>
+(cada paso lee de su 1.ª ruta y escribe en la 2.ª; ver el encabezado de cada script).
+Las rutas /home/claude/r8data/... y /tmp/scan*.json son las usadas en la sesión; los datos fijos están en r8data/.
+verify_r8.js <base_r7> <resultado>  compara estructura, índices y alcance.

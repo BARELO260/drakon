@@ -1,0 +1,251 @@
+0	Good morning
+1	Nice to meet you!
+2	The sky is blue.
+3	They have a car.
+4	My family is big.
+5	the menu
+6	This dish is delicious.
+7	I wake up at 7
+8	I go to work at 9.
+9	How much does it cost?
+10	These shoes are too small for me.
+11	What did you do last night?
+12	At first I was nervous, but eventually I enjoyed the experience.
+13	As soon as I finish the project, I'll call you.
+14	I would like to file a complaint about the service.
+15	By no means should this decision be treated as final.
+16	Today is Monday.
+17	Turn right at the traffic light.
+18	I have experience working in a team.
+19	It is important to cross-check information before sharing it.
+20	The bed is in the bedroom.
+21	I have a fever and a cough.
+22	I try not to depend on my phone too much.
+23	There is no single answer to this dilemma.
+24	According to the author, the results are inconclusive.
+25	This is a classic false dichotomy.
+26	Why are you sad?
+27	What plans do you have for the weekend?
+28	We should reduce the use of single-use products.
+29	Some jobs will be automated, but new ones will also be created.
+30	The slogan appeals to the desire to belong.
+31	Politicians sometimes commit without fully committing.
+32	It costs ten euros.
+33	Is the tip included?
+34	You should make a monthly budget.
+35	Asking for help is not a sign of weakness.
+36	The contract is subject to the terms and conditions described in Appendix A.
+37	The narrator's unreliability forces the reader to question every claim.
+38	I work in an office.
+39	She has long hair and wears glasses.
+40	I prefer to learn at my own pace.
+41	Investing in public transport reduces pollution in the long term.
+42	Scientific evidence suggests that this treatment could be effective.
+43	This is an indirect speech act: its literal form doesn't match its intended function.
+44	The dog is very friendly.
+45	My hand hurts.
+46	I usually do yoga on Sundays.
+47	We reside in Madrid.
+48	I eat little meat and a lot of vegetables.
+49	This performance left a lasting impression on me.
+50	A living language evolves with use, whether we like it or not.
+51	The pharmacy is next to the park.
+52	We usually give gifts at Christmas.
+53	You have to trust your friends.
+54	Working without disconnecting can lead to burnout.
+55	Would you be willing to make concessions on this point?
+56	Corporate jargon often softens the impact of bad news.
+57	We are going to book a room for Friday.
+58	My battery lasts longer than yours.
+59	We have been playing video games all weekend.
+60	My data, which I rarely share, is well protected.
+61	Collective identity is often shaped by historical memory.
+62	In a way, the vagueness is deliberate.
+63	She likes team sports.
+64	You have to take out the trash every day.
+65	I think you two will get engaged soon.
+66	Tourism will be positive provided that the local culture is respected.
+67	What worries local chefs is the appropriation of their recipes.
+68	Alarmist rhetoric is becoming increasingly common in the media.
+69	The notebook is in the backpack.
+70	The letters? I sent them yesterday.
+71	We talk while we wait for the premiere.
+72	The collective is asking people to sign the petition.
+73	The birth rate has dropped in such a way that young workers are lacking.
+74	He promised reforms... and silence.
+75	It's one o'clock in the morning.
+76	You can withdraw money at any ATM.
+77	Even if the flight is cancelled, we have another option.
+78	With that consumption, they would spend fewer resources than they thought.
+79	She reacted as if she had been offended.
+80	The results suggest, but do not confirm, a causal relationship.
+81	It's very cold in winter.
+82	the veterinarian
+83	to vaccinate
+84	I have to feed the pet twice a day.
+85	to take a risk
+86	We are going to launch the product next month.
+87	to orbit
+88	By 2030, astronauts will have landed on Mars.
+89	These systems should be regulated to prevent bias.
+90	What truly defines consciousness is not behavior alone, but subjective experience.
+91	the seed
+92	to grow
+93	Water the plants every day.
+94	the library card
+95	the due date
+96	She returned the book on time.
+97	the crib
+98	the pediatrician
+99	We used to visit the pediatrician every month.
+100	to excavate
+101	The site might have been a temple.
+102	Rarely have researchers found such clear evidence.
+103	I can take good photos with this camera.
+104	We have some firewood for the campfire.
+105	to pollinate
+106	Bees, which pollinate flowers, are essential to farming.
+107	If the market hadn't crashed, prices would have stayed high.
+108	It is such a complex issue that experts still disagree.
+109	Faced with mounting sanctions, the government changed its policy.
+110	to trim
+111	She has the longest hair in the family.
+112	This repair needs a lot of spare parts.
+113	to tune an instrument
+114	She wants to perform in front of an audience.
+115	Materials go to a landfill if they aren't reused.
+116	Philosophers wish inequality could be solved by policy alone.
+117	rite of passage
+118	The older the tradition, the stronger its influence.
+119	The ladder isn't as tall as the wall.
+120	I need a little detergent for this load.
+121	to checkmate
+122	If she plans her strategy well, she will win.
+123	They are getting the roof repaired this month.
+124	Scientists replicate studies in order to confirm results.
+125	Whereas cooperation maximizes joint gain, self-interest often prevails.
+126	The fish swim in the water.
+127	Finally, fold the corners.
+128	Scientists are still studying the fossil.
+129	to commission a mural
+130	Unless the city approves it, the mural will be considered vandalism.
+131	Philosophers suggest that meaning be studied through use.
+132	How amazing this show is!
+133	to haggle
+134	I don't have enough money for this bargain.
+135	Even though she never met her great-grandparent, she knows the family history.
+136	In spite of issuing a warning, officials couldn't prevent the damage.
+137	Officials shouldn't have ignored the local community's concerns.
+138	No sooner does one claim to know something than doubt arises.
+139	My binoculars are new.
+140	How many bowls did you make?
+141	You can practice either in the morning or in the evening.
+142	The mycelium spreads as though it had a mind of its own.
+143	Marine biodiversity can recover, provided that pollution decreases.
+144	Were it not for early cartographers, exploration would have been impossible.
+145	I try on the jacket.
+146	She has been training for the summit all year.
+147	to appraise
+148	It took time to get used to collecting rare currency.
+149	Do you know how strong the magnitude was?
+150	Whatever the scribe intended, the meaning is now lost.
+151	just-in-time delivery
+152	Little did anyone expect such a severe logistics disruption.
+153	There is a lot of static on this frequency.
+154	The fortune teller thinks she will find love soon.
+155	He succeeded in overcoming his fear of heights.
+156	The trademark remains valid, notwithstanding the dispute.
+157	Far from settling the debate, the discovery raised new questions.
+158	She would like to try the dark roast.
+159	Let the varnish dry overnight.
+160	Rather than guessing, look up the etymology.
+161	The radiologist ordered an MRI in case the X-ray missed something.
+162	The virus would spread even if transmission rates fell slightly.
+163	The policy works to the extent that banks lend more freely.
+164	Why do you learn French?
+165	his/her sister
+166	our parents
+167	These are their siblings.
+168	under
+169	There is a cat under the table.
+170	There are three boxes in the garage.
+171	I don't like swimming in cold water.
+172	I think we will win the game.
+173	This is the cheapest hotel in the city.
+174	you don't have to
+175	You should sleep more.
+176	Can I take a message?
+177	Hold on, please
+178	Can I speak to Mr. García, please?
+179	How many books do you have?
+180	While she was studying, her friend arrived.
+181	If I were you, I would accept the job.
+182	It can't be that late.
+183	she told me that...
+184	He said he would call later.
+185	First, mix the ingredients; then, bake for 20 minutes.
+186	The book that I bought is great.
+187	He just left.
+188	I wish I had accepted the job.
+189	You can't have finished so fast.
+190	As a child, I would always play in the park.
+191	Perhaps he will come tomorrow.
+192	It was Maria who solved the problem.
+193	Not knowing what to say, he remained silent.
+194	He admitted making a mistake.
+195	A: I think it will rain. B: I think so too.
+196	The decision to reduce costs was controversial.
+197	Such was the chaos that the meeting was cancelled.
+198	This is, arguably, his best work.
+199	a growing body of evidence
+200	the underlying causes of
+201	A growing body of evidence suggests that the climate is changing.
+202	That being said, there are still questions to resolve.
+203	Open the door
+204	Please, sit down.
+205	These are my books.
+206	On Mondays, I go to the pool.
+207	I always drink coffee in the morning.
+208	Whose book is this? It's Anna's.
+209	She lives by herself.
+210	Can you help us, please?
+211	The store closes at 6pm
+212	The movie starts at 8pm.
+213	to count on
+214	to realize
+215	I noticed her new jacket.
+216	If it rains tomorrow, I'll stay home.
+217	French is spoken here.
+218	You went to the party, didn't you?
+219	Do you know if she's coming?
+220	I've just finished.
+221	They have a house.
+222	She doesn't mince her words.
+223	Smart speakers can be controlled by voice.
+224	Having analyzed the data, researchers concluded that tensions would rise.
+225	The philosopher claims that meaning arises through use.
+226	I wonder if the epicenter was near the city.
+227	Why do you learn German?
+228	his sister
+229	The woman whose car is red...
+230	I can get up early.
+231	Not only did she win the race, but she also broke the record.
+232	We meet on Mondays.
+233	I saw him yesterday.
+234	The letter was sent
+235	English is spoken here.
+236	I've read three books this month.
+237	Let the dough rest for ten minutes.
+238	Why do you study Italian?
+239	The woman I wrote to...
+240	Although being tired, he kept working.
+241	not only... but also...
+242	He is tall.
+243	Why do you study Portuguese?
+244	The person I spoke to...
+245	Whose book is this? It's Ana's.
+246	We're flying to Madrid next week.
+247	Let's go to the beach.
+248	to notice/to realize
+249	English is spoken here
+250	The letter was sent yesterday.
