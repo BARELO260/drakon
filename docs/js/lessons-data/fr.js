@@ -69,7 +69,7 @@ window.LESSON_BANKS.FR = [
       ["mcq", "\"Elle ___ vingt-cinq ans.\" (Ella tiene 25 años)", ["a","est","ai","es"], 0, "La edad en francés se expresa con \"avoir\": \"Elle a vingt-cinq ans.\" (literalmente: ella tiene 25 años)."],
       ["fill", "Completa: \"Nous ___ français.\" (Somos franceses)", ["sommes","avons","êtes","sont"], 0, "\"Être\" en primera persona plural es \"sommes\": \"Nous sommes français.\""],
       ["translate", "Traduce: \"Ellos tienen un auto.\"", ["Ils ont une voiture","Ils sont une voiture","Ils ont un voiture","Elles est une voiture"], 0, "\"Avoir\" en tercera persona plural es \"ont\": \"Ils ont une voiture.\""],
-      ["mcq", "¿Qué verbo se usa para la edad en francés?", ["Avoir (tener)","Être (ser/estar)","Aller (ir)","Faire (hacer)"], 0, "En francés se dice literalmente \"tener X años\" (avoir X ans), a diferencia del español que también usa \"tener\" pero del inglés que usa \"to be\"."],
+      ["mcq", "¿Qué verbo se usa para la edad en francés?", ["Avoir (tener)","Être (ser/estar)","Aller (ir)","Faire (hacer)"], 0, "En francés se dice literalmente \"tener X años\" (avoir X ans), igual que en español, y no con \"être\" (ser/estar)."],
       ["arrange", "Ordena: [heureux / très / je / suis]", ["Je suis très heureux","Très je suis heureux","Heureux très je suis","Je très suis heureux"], 0, "\"Je suis très heureux.\" = estoy muy feliz. Sujeto+verbo (je suis) + intensificador (très) + adjetivo (heureux)."],
     ]
   },
@@ -142,7 +142,7 @@ window.LESSON_BANKS.FR = [
       ["mcq", "¿Qué significa \"prendre le petit-déjeuner\"?", ["Desayunar","Almorzar","Cenar","Dormir"], 0, "Prendre le petit-déjeuner = desayunar. Déjeuner = almorzar, dîner = cenar."],
       ["translate", "Traduce: \"Voy al trabajo a las 9.\"", ["Je vais au travail à 9h","Je vais travailler 9h","Il va au travail à 9h","Je vais au travail 9h"], 0, "\"Je vais au travail à 9h.\" — \"aller au + lugar\" y \"à + hora\" para indicar el momento."],
       ["mcq", "¿Cómo se dice \"todos los días\" en francés?", ["Tous les jours","Un jour","Un jour peut-être","L'autre jour"], 0, "Tous les jours = todos los días. Un jour = un día."],
-      ["arrange", "Ordena: [heures / dix / je / dors / à]", ["Je dors à dix heures","À dix heures je dors","Dix heures je dors à","Je à dix heures dors"], 0, "\"Je dors à dix heures.\" = duermo a las diez. Sujeto+verbo (je dors) + preposición + hora."],
+      ["arrange", "Ordena: [heures / dix / je / dors / à]", ["Je dors à dix heures","Dors je à dix heures","Dix heures je dors à","Je à dix heures dors"], 0, "\"Je dors à dix heures.\" = duermo a las diez. Sujeto+verbo (je dors) + preposición + hora."],
     ]
   },
   {
@@ -192,7 +192,7 @@ window.LESSON_BANKS.FR = [
       ["mcq", "¿Qué estación sigue a la primavera (le printemps)?", ["L'été","L'hiver","L'automne","Le printemps"], 0, "El orden de las estaciones es: le printemps, l'été, l'automne, l'hiver."],
       ["translate", "Traduce al francés: \"Está lloviendo ahora mismo.\"", ["Il est en train de pleuvoir","Il va pleuvoir demain","Il fait froid maintenant","Il a plu hier"], 0, "\"Être en train de\" (presente continuo) describe una acción en curso ahora mismo."],
       ["mcq", "¿Cómo se dice \"soleado\" en francés?", ["Ensoleillé","Nuageux","Pluvieux","Neigeux"], 0, "Ensoleillé = soleado. Nuageux = nublado, pluvieux = lluvioso, neigeux = nevado."],
-      ["arrange", "Ordena: [aujourd'hui / il / chaud / fait / très]", ["Il fait très chaud aujourd'hui","Aujourd'hui il fait très chaud","Chaud il fait très aujourd'hui","Très il fait chaud aujourd'hui"], 0, "\"Il fait très chaud aujourd'hui.\" = hoy hace mucho calor."],
+      ["arrange", "Ordena: [aujourd'hui / il / chaud / fait / très]", ["Il fait très chaud aujourd'hui","Fait il très chaud aujourd'hui","Chaud il fait très aujourd'hui","Très il fait chaud aujourd'hui"], 0, "\"Il fait très chaud aujourd'hui.\" = hoy hace mucho calor."],
     ]
   },
   {
@@ -748,7 +748,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelqu'un te dit : \"Continuez tout droit et tournez à gauche sur la place.\" Que dois-tu faire en premier ?",["Marcher tout droit.","Tourner à droite.","Prendre le bus.","Redemander."],0,"\"Continuez tout droit\" est la première instruction ; le virage vient après."],
       ["fill","Complète : \"La gare ___ à deux rues d'ici.\"",["est","es","a","fait"],0,"\"Est\" s'accorde avec le sujet singulier \"la gare\" : \"La gare est à deux rues d'ici.\""],
       ["translate","Traduis : \"Gire a la derecha en el semáforo.\"",["Tournez à droite au feu.","Tournez à gauche sur la place.","Continuez tout droit au feu.","Arrêtez-vous au feu."],0,"\"Gire a la derecha\" = \"Tournez à droite\" ; \"en el semáforo\" = \"au feu\"."],
-      ["arrange","Remets dans l'ordre : [bus / prenez / le / à / l'arrêt]",["Prenez le bus à l'arrêt","Le bus prenez à l'arrêt","À l'arrêt prenez le bus","Prenez à l'arrêt le bus"],0,"Verbe + objet + complément de lieu : \"Prenez le bus à l'arrêt.\""],
+      ["arrange","Remets dans l'ordre : [bus / prenez / le / à / l'arrêt]",["Prenez le bus à l'arrêt","Le bus prenez à l'arrêt","Le prenez bus à l'arrêt","Prenez à l'arrêt le bus"],0,"Verbe + objet + complément de lieu : \"Prenez le bus à l'arrêt.\""],
       ["speaking","Explique en français, en 40-60 mots, comment aller de chez toi à un endroit proche. Utilise au moins deux indications et un moyen de transport.",[],["tournez","tout droit","minutes"],"Organise l'explication dans l'ordre : d'abord, ensuite, enfin."]
     ]
   },
@@ -773,7 +773,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle réponse décrit le mieux un point fort de façon professionnelle ?",["Je suis doué pour organiser des projets et respecter les délais.","Je suis le meilleur de tous, sans aucun doute.","Je n'ai aucun point faible.","Je travaille quand j'en ai envie."],0,"Une bonne réponse est précise et vérifiable, sans exagération."],
       ["fill","Complète : \"J'___ travaillé dans la vente pendant deux ans.\"",["ai","es","est","suis"],0,"\"J'ai travaillé\" (passé composé) décrit une expérience passée pertinente aujourd'hui."],
       ["translate","Traduis : \"Tengo experiencia trabajando en equipo.\"",["J'ai de l'expérience en travail d'équipe.","J'ai expérience travail équipe.","Équipe j'ai de l'expérience travail.","J'ai de l'expérience travailler équipe est."],0,"\"Tengo experiencia trabajando en equipo\" = \"J'ai de l'expérience en travail d'équipe.\""],
-      ["arrange","Remets dans l'ordre : [travailler / équipe / en / j'aime]",["J'aime travailler en équipe","Aime j'travailler en équipe","En équipe j'aime travailler","Travailler j'aime en équipe"],0,"\"J'aime\" + infinitif : \"J'aime travailler en équipe.\""],
+      ["arrange","Remets dans l'ordre : [travailler / équipe / en / j'aime]",["J'aime travailler en équipe","Aime j'travailler en équipe","J'aime travailler équipe en","Travailler j'aime en équipe"],0,"\"J'aime\" + infinitif : \"J'aime travailler en équipe.\""],
       ["writing","Écris en français une réponse d'entretien de 45-65 mots à la question \"Pourquoi voulez-vous ce poste ?\". Mentionne ton expérience, un point fort et ta motivation.",[],["expérience","parce que","j'aimerais"],"Structure : expérience pertinente + point fort + motivation concrète.","Entretien pour un poste dans le service client."]
     ]
   },
@@ -871,7 +871,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle est la bonne façon de demander où se trouve quelque chose ?",["Où est la cuisine ?","Qu'est-ce que la cuisine ?","Quand est la cuisine ?","Qui est la cuisine ?"],0,"\"Où est... ?\" sert à demander où se trouve quelque chose."],
       ["fill","Complète : \"Le canapé est ___ la fenêtre.\"",["à côté de","sur","sous","derrière"],0,"\"À côté de\" indique que deux choses sont l'une près de l'autre."],
       ["translate","Traduis : \"La cama está en el dormitorio.\"",["Le lit est dans la chambre.","Le lit est dans la cuisine.","La chaise est dans la chambre.","Le lit est la chambre."],0,"\"La cama está en el dormitorio\" = \"Le lit est dans la chambre.\""],
-      ["arrange","Remets dans l'ordre : [cuisine / table / a / la / une / dans / il / y]",["Il y a une table dans la cuisine","Dans la cuisine il y a une table","La cuisine il y a une table dans","Une table il y a dans la cuisine"],0,"\"Il y a\" + objet + \"dans\" + lieu : \"Il y a une table dans la cuisine.\""],
+      ["arrange","Remets dans l'ordre : [cuisine / table / a / la / une / dans / il / y]",["Il y a une table dans la cuisine","Y il a une table dans la cuisine","La cuisine il y a une table dans","Une table il y a dans la cuisine"],0,"\"Il y a\" + objet + \"dans\" + lieu : \"Il y a une table dans la cuisine.\""],
       ["writing","Décris en 20-30 mots ta maison ou ton appartement en français : quelles pièces il y a et quels meubles se trouvent dans l'une d'elles.",[],["chambre","il y a"],"Mentionne au moins deux pièces et deux meubles."]
     ]
   },
@@ -1016,7 +1016,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Tu as beaucoup de travail et peu de repos. Comment te sens-tu ?",["Je suis fatigué(e).","Je suis content(e).","J'ai faim.","J'ai froid."],0,"Beaucoup de travail et peu de repos mènent typiquement à se sentir \"fatigué(e)\"."],
       ["fill","Complète : \"Je ___ un peu nerveux avant l'examen.\"",["suis","es","ai","fais"],0,"Les émotions s'expriment avec \"être\" : \"Je suis un peu nerveux.\""],
       ["translate","Traduis : \"¿Por qué estás triste?\"",["Pourquoi es-tu triste ?","Pourquoi être tu triste ?","Pourquoi tu as triste ?","Pourquoi fais-tu triste ?"],0,"\"¿Por qué estás triste?\" = \"Pourquoi es-tu triste ?\", avec \"être\" pour un état émotionnel."],
-      ["arrange","Remets dans l'ordre : [travail / fatiguée / après / je / suis / le]",["Je suis fatiguée après le travail","Après le travail je suis fatiguée","Fatiguée je suis après le travail","Je suis après le travail fatiguée"],0,"Sujet + \"suis\" + adjectif + complément de temps : \"Je suis fatiguée après le travail.\""],
+      ["arrange","Remets dans l'ordre : [travail / fatiguée / après / je / suis / le]",["Je suis fatiguée après le travail","Suis je fatiguée après le travail","Fatiguée je suis après le travail","Je suis après le travail fatiguée"],0,"Sujet + \"suis\" + adjectif + complément de temps : \"Je suis fatiguée après le travail.\""],
       ["writing","Écris en français 20-30 mots décrivant comment tu te sens aujourd'hui et pourquoi. Utilise au moins deux émotions différentes.",[],["je suis","parce que","je me sens"],"Mentionne une raison concrète pour chaque émotion que tu décris."]
     ]
   },
@@ -1209,7 +1209,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle est la différence entre dépenses fixes et variables ?",["Les fixes se répètent chaque mois au même montant ; les variables changent.","Les fixes changent chaque mois ; les variables sont toujours identiques.","Il n'y a aucune différence réelle entre elles.","Les variables n'existent que pour les entreprises, pas pour les particuliers."],0,"Les dépenses fixes (le loyer, par exemple) restent stables ; les variables (loisirs, nourriture) changent chaque mois."],
       ["fill","Complète : \"Je vais ___ un nouveau compte bancaire ce mois-ci.\"",["ouvrir","fermer","dépenser","perdre"],0,"\"Ouvrir un compte bancaire\" est la collocation correcte pour créer un nouveau compte."],
       ["translate","Traduis : \"Deberías hacer un presupuesto mensual.\"",["Tu devrais faire un budget mensuel.","Tu devrais faire budget mensuel un.","Un budget mensuel tu devrais faire.","Tu devrais un budget mensuel faire."],0,"\"Deberías hacer un presupuesto mensual\" = \"Tu devrais faire un budget mensuel.\""],
-      ["arrange","Remets dans l'ordre : [économiser / objectif / pour / un / veux / je]",["Je veux économiser pour un objectif","Pour un objectif je veux économiser","Économiser je veux pour un objectif","Je veux pour un objectif économiser"],0,"Sujet + \"veux\" + infinitif + complément : \"Je veux économiser pour un objectif.\""],
+      ["arrange","Remets dans l'ordre : [économiser / objectif / pour / un / veux / je]",["Je veux économiser pour un objectif","Veux je économiser pour un objectif","Économiser je veux pour un objectif","Je veux pour un objectif économiser"],0,"Sujet + \"veux\" + infinitif + complément : \"Je veux économiser pour un objectif.\""],
       ["writing","Écris en français 45-65 mots sur ta relation avec l'argent : comment tu organises ton budget, si tu économises pour quelque chose de concret et une habitude financière que tu aimerais améliorer.",[],["budget","économiser","dépenses"],"Mentionne au moins une dépense fixe, une dépense variable et un objectif d'épargne."]
     ]
   },
@@ -1298,7 +1298,7 @@ window.LESSON_BANKS.FR = [
         ["travailler comme + métier", "trabajar de + profesión"]
       ],
       grammar: [
-        ["\"Être\" avec les métiers (sans article)", "Avec les métiers, \"être\" ne prend pas d'article indéfini, contrairement à l'anglais.", "Je suis professeur. (pas \"Je suis un professeur\")"]
+        ["\"Être\" avec les métiers (sans article)", "Avec les métiers, \"être\" ne prend pas d'article indéfini, comme en espagnol (“Soy profesor”).", "Je suis professeur. (pas \"Je suis un professeur\")"]
       ]
     },
     ex:[
@@ -1306,7 +1306,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","Quelle est la forme correcte pour dire ta profession en français ?",["Je suis professeur.","Je suis un professeur.","J'ai professeur.","Je fais professeur."],0,"En français, \"être\" + métier ne prend pas d'article : \"Je suis professeur.\""],
       ["fill","Complète : \"Ma sœur ___ médecin dans un hôpital.\"",["est","a","fait","travaille est"],0,"\"Être\" s'utilise pour les métiers : \"Ma sœur est médecin.\""],
       ["translate","Traduis : \"Trabajo en una oficina.\"",["Je travaille dans un bureau.","Je travaille un bureau.","Je suis travail dans un bureau.","Je travaille de bureau."],0,"\"Trabajo en una oficina\" = \"Je travaille dans un bureau.\""],
-      ["arrange","Remets dans l'ordre : [serveur / travaille / restaurant / comme / dans / un / je]",["Je travaille comme serveur dans un restaurant","Comme serveur je travaille dans un restaurant","Je travaille dans un restaurant comme serveur","Dans un restaurant je travaille comme serveur"],0,"\"Je travaille comme\" + métier + \"dans\" + lieu : \"Je travaille comme serveur dans un restaurant.\""],
+      ["arrange","Remets dans l'ordre : [serveur / travaille / restaurant / comme / dans / un / je]",["Je travaille comme serveur dans un restaurant","Comme serveur je travaille dans un restaurant","Je travaille dans un restaurant comme serveur","Travaille je comme serveur dans un restaurant"],0,"\"Je travaille comme\" + métier + \"dans\" + lieu : \"Je travaille comme serveur dans un restaurant.\""],
       ["writing","Écris en français 20-30 mots sur ta profession (réelle ou imaginée) et où tu travailles. Mentionne au moins deux tâches que tu fais au travail.",[],["je suis","je travaille","comme"],"Utilise \"être\" pour la profession et \"travailler dans/comme\" pour le lieu ou le rôle."]
     ]
   },
@@ -2503,7 +2503,7 @@ window.LESSON_BANKS.FR = [
       ["mcq","¿Cómo se dice “lluvioso” en francés?",["le printemps","pluvieux","chaud","ensoleillé"],1,"“Lluvioso” es “pluvieux” en francés."],
       ["fill","Completa: “Il fait très ___ aujourd'hui, prends un parapluie.”",["pluvieux", "ensoleillé", "chaud", "froid"],0,"“Pluvieux” describe un clima con lluvia: “il fait pluvieux”."],
       ["translate","Traduce: “Hace mucho frío en invierno.”",["Il fait très froid en hiver.", "Il fait très froid en été.", "Il fait très chaud en hiver.", "Il est très froid en hiver."],0,"“Hace mucho frío” se traduce como “il fait très froid”, con el verbo impersonal “faire”."],
-      ["arrange","Ordena: [beau / aujourd'hui / fait / il]",["il fait beau aujourd'hui", "aujourd'hui fait il beau", "fait il beau aujourd'hui", "aujourd'hui il fait beau"],0,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
+      ["arrange","Ordena: [beau / aujourd'hui / fait / il]",["il fait beau aujourd'hui", "aujourd'hui fait il beau", "fait il beau aujourd'hui", "il fait aujourd'hui beau"],0,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
       ["writing","Describe en francés, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “il fait”.",[],["il fait", "ensoleillé", "froid"]],
     ]
   },
@@ -3345,7 +3345,7 @@ window.LESSON_BANKS.FR = [
         ["la réhabilitation", "la rehabilitación"],
       ],
       grammar: [
-        ["“Pouvoir” para posibilidad formal", "“Pouvoir” + infinitivo expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "La preuve médico-légale peut désigner le suspect. / Sans réhabilitation, la récidive pourrait augmenter."],
+        ["“Pouvoir” para posibilidad formal", "“Pouvoir” + infinitivo expresa posibilidad en registro formal/legal, similar a «podría» (condicional de «poder») o «puede que» en español.", "La preuve médico-légale peut désigner le suspect. / Sans réhabilitation, la récidive pourrait augmenter."],
       ]
     },
     ex:[
@@ -3520,7 +3520,7 @@ window.LESSON_BANKS.FR = [
         ["l'humilité épistémique", "la humildad epistémica"],
       ],
       grammar: [
-        ["“À peine... que” para secuencia inmediata", "“À peine... que” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés; en registro muy formal puede invertir sujeto-verbo.", "À peine les philosophes avaient-ils proposé une théorie que les sceptiques la contestaient. / À peine affirme-t-on savoir quelque chose que le doute surgit."],
+        ["“À peine... que” para secuencia inmediata", "“À peine... que” expresa que una acción ocurrió inmediatamente después de otra, equivalente a «apenas... cuando» en español; en registro muy formal puede invertir sujeto-verbo.", "À peine les philosophes avaient-ils proposé une théorie que les sceptiques la contestaient. / À peine affirme-t-on savoir quelque chose que le doute surgit."],
       ]
     },
     ex:[
@@ -3570,7 +3570,7 @@ window.LESSON_BANKS.FR = [
         ["le bol", "el cuenco"],
       ],
       grammar: [
-        ["“Combien de”", "“Combien de” se usa tanto con sustantivos contables como incontables para preguntar cantidad, sin distinción como en inglés.", "Combien d'argile as-tu besoin ? / Combien de bols as-tu fait ?"],
+        ["“Combien de”", "“Combien de” no varía y se usa tanto con sustantivos contables como incontables para preguntar cantidad, a diferencia del español («cuánto/cuánta/cuántos/cuántas»).", "Combien d'argile as-tu besoin ? / Combien de bols as-tu fait ?"],
       ]
     },
     ex:[
@@ -3645,7 +3645,7 @@ window.LESSON_BANKS.FR = [
         ["l'acidification des océans", "la acidificación del océano"],
       ],
       grammar: [
-        ["“Pourvu que/à condition que” + subjonctif", "“Pourvu que” y “à condition que” + subjonctif expresan una condición necesaria, equivalentes a “provided that” en inglés.", "La biodiversité marine peut se rétablir, pourvu que la pollution diminue. / Les récifs survivent à condition que les températures restent stables."],
+        ["“Pourvu que/à condition que” + subjonctif", "“Pourvu que” y “à condition que” + subjonctif expresan una condición necesaria, equivalentes a «siempre que» o «con tal de que» en español.", "La biodiversité marine peut se rétablir, pourvu que la pollution diminue. / Les récifs survivent à condition que les températures restent stables."],
       ]
     },
     ex:[
@@ -3670,7 +3670,7 @@ window.LESSON_BANKS.FR = [
         ["cartographier", "cartografiar"],
       ],
       grammar: [
-        ["“Sans/n'était...” para condición formal", "“Sans” + sustantivo y “n'était (le fait que)” expresan una condición hipotética formal, equivalentes a “were it not for” en inglés.", "Sans les premiers cartographes, l'exploration aurait été impossible. / N'était l'imagerie satellite, les cartes modernes seraient bien moins précises."],
+        ["“Sans/n'était...” para condición formal", "“Sans” + sustantivo y “n'était (le fait que)” expresan una condición hipotética formal, equivalentes a «de no ser por» o «si no fuera por» en español.", "Sans les premiers cartographes, l'exploration aurait été impossible. / N'était l'imagerie satellite, les cartes modernes seraient bien moins précises."],
       ]
     },
     ex:[
@@ -3720,7 +3720,7 @@ window.LESSON_BANKS.FR = [
         ["la prise", "el agarre"],
       ],
       grammar: [
-        ["“Ça fait... que” para duración continua", "“Ça fait” + tiempo + “que” + presente expresa una acción que empezó en el pasado y continúa, similar al presente perfecto continuo en inglés.", "Ça fait trois heures qu'on escalade. / Ça fait un an qu'elle s'entraîne pour le sommet."],
+        ["“Ça fait... que” para duración continua", "“Ça fait” + tiempo + “que” + presente expresa una acción que empezó en el pasado y continúa, equivalente a «hace... que» o «llevar + gerundio» en español.", "Ça fait trois heures qu'on escalade. / Ça fait un an qu'elle s'entraîne pour le sommet."],
       ]
     },
     ex:[
@@ -3820,7 +3820,7 @@ window.LESSON_BANKS.FR = [
         ["la livraison juste-à-temps", "la entrega justo a tiempo"],
       ],
       grammar: [
-        ["Structures emphatiques de surprise (peu imaginaient/personne ne s'attendait)", "“Peu imaginaient” o “personne ne s'attendait à” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Peu d'entreprises imaginaient à quel point la chaîne d'approvisionnement était fragile. / Personne ne s'attendait à une perturbation logistique aussi grave."],
+        ["Structures emphatiques de surprise (peu imaginaient/personne ne s'attendait)", "“Peu imaginaient” o “personne ne s'attendait à” al inicio enfatizan que algo fue una sorpresa total, equivalente a «pocos se imaginaban» o «nadie esperaba» en español.", "Peu d'entreprises imaginaient à quel point la chaîne d'approvisionnement était fragile. / Personne ne s'attendait à une perturbation logistique aussi grave."],
       ]
     },
     ex:[
@@ -3920,7 +3920,7 @@ window.LESSON_BANKS.FR = [
         ["le pollinisateur", "el polinizador"],
       ],
       grammar: [
-        ["“En plus de/ainsi que”", "“En plus de” + infinitivo o sustantivo y “ainsi que” añaden información extra, similares a “besides” en inglés.", "En plus de polliniser les fleurs, les abeilles produisent du miel. / Les coléoptères, ainsi que les papillons, subissent une métamorphose."],
+        ["“En plus de/ainsi que”", "“En plus de” + infinitivo o sustantivo y “ainsi que” añaden información extra, similares a «además de» en español.", "En plus de polliniser les fleurs, les abeilles produisent du miel. / Les coléoptères, ainsi que les papillons, subissent une métamorphose."],
       ]
     },
     ex:[
@@ -4120,7 +4120,7 @@ window.LESSON_BANKS.FR = [
         ["la relance budgétaire", "el estímulo fiscal"],
       ],
       grammar: [
-        ["“Dans la mesure où” para calificar", "“Dans la mesure où” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Dans la mesure où l'inflation reste stable, des baisses de taux sont possibles. / La politique fonctionne dans la mesure où les banques prêtent plus librement."],
+        ["“Dans la mesure où” para calificar", "“Dans la mesure où” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a «en la medida en que» en español.", "Dans la mesure où l'inflation reste stable, des baisses de taux sont possibles. / La politique fonctionne dans la mesure où les banques prêtent plus librement."],
       ]
     },
     ex:[
@@ -4154,7 +4154,7 @@ window.LESSON_BANKS.FR = [
       ["fill","Completa: “___ est-ce que tu habites ?”",["Qui", "Que", "Où", "Quand"],2,"Preguntamos por el lugar donde vive alguien con “Où”."],
       ["translate","Traduce: “¿Por qué aprendes francés?”",["Qui est-ce que tu apprends le français ?", "Pourquoi est-ce que tu apprends le français ?", "Que est-ce que tu apprends le français ?", "Où est-ce que tu apprends le français ?"],1,"“Por qué” se traduce como “Pourquoi”."],
       ["arrange","Ordena: [tu / où / habites]",["habites où tu", "tu habites où", "où tu habites", "habites tu où"],1,"En francés hablado, se puede colocar la palabra interrogativa al final: “Tu habites où ?”"],
-      ["writing","Écris en français 20 à 30 mots avec au moins trois questions pour faire connaissance.",[],["Où", "Comment", "Quand"]],
+      ["writing","Écris en français 20-30 mots avec au moins trois questions pour faire connaissance.",[],["Où", "Comment", "Quand"]],
     ]
   },
   {
@@ -4170,7 +4170,7 @@ window.LESSON_BANKS.FR = [
         ["la mère, le père, les parents", "madre, padre, padres"],
       ],
       grammar: [
-        ["Los posesivos concuerdan con el sustantivo, no con el poseedor", "A diferencia del inglés, “son/sa/ses” concuerda con el género del sustantivo que sigue, no con el género de la persona que posee.", "Paul aime sa sœur. Marie aime aussi sa sœur. (“sa” siempre porque “sœur” es femenino)"],
+        ["Los posesivos concuerdan con el sustantivo, no con el poseedor", "A diferencia del español («su/sus»), en francés “son/sa/ses” concuerda también en género con el sustantivo que sigue, no con el género de la persona que posee.", "Paul aime sa sœur. Marie aime aussi sa sœur. (“sa” siempre porque “sœur” es femenino)"],
       ]
     },
     ex:[
@@ -4194,7 +4194,7 @@ window.LESSON_BANKS.FR = [
         ["Est-ce qu'il y a...?", "¿Hay...?"],
       ],
       grammar: [
-        ["“Il y a” es invariable", "A diferencia del inglés (there is/there are), en francés “il y a” no cambia con el número del sustantivo.", "Il y a une lampe sur la table. / Il y a deux chaises à côté du bureau."],
+        ["“Il y a” es invariable", "Como el «hay» español, “il y a” es invariable: no cambia con el número del sustantivo.", "Il y a une lampe sur la table. / Il y a deux chaises à côté du bureau."],
       ]
     },
     ex:[
@@ -4228,7 +4228,7 @@ window.LESSON_BANKS.FR = [
       ["fill","Completa: “J'ai besoin d'___ parapluie ; il pleut.”",["des", "le", "une", "un"],3,"“Parapluie” es masculino singular → “un”."],
       ["translate","Traduce: “Hay tres cajas en el garaje.”",["Il y a trois boîtes dans les garages.", "Il y a trois boîte dans le garage.", "Il y a trois boîtes dans le garage.", "Il y a trois boîtx dans le garage."],2,"“Boîte” es regular → plural “boîtes”."],
       ["arrange","Ordena: [sont / où / livres / les]",["où sont les livres", "sont où livres les", "où sont livres les", "les où sont livres"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural: “Où sont les livres ?”"],
-      ["writing","Écris en français 20 à 30 mots sur les objets qu'il y a dans ton sac, en utilisant au moins deux pluriels.",[],["livres", "boîtes", "il y a"]],
+      ["writing","Écris en français 20-30 mots sur les objets qu'il y a dans ton sac, en utilisant au moins deux pluriels.",[],["livres", "boîtes", "il y a"]],
     ]
   },
   {
@@ -4243,7 +4243,7 @@ window.LESSON_BANKS.FR = [
         ["et toi ?", "¿Y tú?"],
       ],
       grammar: [
-        ["Verbo + infinitivo tras “aimer/adorer/détester”", "A diferencia del inglés (que usa el gerundio -ing), en francés el verbo que sigue a “aimer”, “adorer” o “détester” va en infinitivo.", "J'adore lire. / Elle déteste attendre."],
+        ["Verbo + infinitivo tras “aimer/adorer/détester”", "Como en español («me gusta leer»), en francés el verbo que sigue a “aimer”, “adorer” o “détester” va en infinitivo.", "J'adore lire. / Elle déteste attendre."],
       ]
     },
     ex:[
@@ -4364,7 +4364,7 @@ window.LESSON_BANKS.FR = [
         ["quelques", "unos pocos"],
       ],
       grammar: [
-        ["Los artículos partitivos y “combien de”", "El francés usa “du/de la/des” para cantidades indefinidas, y “combien de” sirve tanto para contables como incontables (a diferencia del inglés much/many). En negativa, el partitivo se reduce a “de”.", "Combien de pommes as-tu ? / Combien d'eau y a-t-il ? / Je n'ai pas de temps."],
+        ["Los artículos partitivos y “combien de”", "El francés usa “du/de la/des” para cantidades indefinidas, y “combien de” sirve tanto para contables como incontables (a diferencia del español «cuánto/cuántos»). En negativa, el partitivo se reduce a “de”.", "Combien de pommes as-tu ? / Combien d'eau y a-t-il ? / Je n'ai pas de temps."],
       ]
     },
     ex:[
@@ -4532,7 +4532,7 @@ window.LESSON_BANKS.FR = [
         ["venir de + infinitif", "acabar de hacer"],
       ],
       grammar: [
-        ["El francés usa infinitivo más que gerundio", "A diferencia del inglés, la mayoría de los verbos franceses van seguidos de infinitivo; “en + gérondif” expresa simultaneidad o manera, y el participio presente (-ant) se usa más para describir.", "Elle a appris le français en voyageant. / Il vient de partir. / Je continue à travailler."],
+        ["El francés usa infinitivo más que gerundio", "La mayoría de los verbos franceses van seguidos de infinitivo (como en español); “en + gérondif” expresa simultaneidad o manera, y el participio presente (-ant) se usa más para describir.", "Elle a appris le français en voyageant. / Il vient de partir. / Je continue à travailler."],
       ]
     },
     ex:[
@@ -4964,7 +4964,7 @@ window.LESSON_BANKS.FR = [
         ["la maison de mes parents", "la casa de mis padres"],
       ],
       grammar: [
-        ["“De + poseedor”, y “de + les” = “des”", "A diferencia del inglés (Anna's book), el francés siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + les” se contrae en “des”.", "Voici le livre de Anna. / La maison de mes parents est grande."],
+        ["“De + poseedor”, y “de + les” = “des”", "El francés siempre expresa la posesión con “de + poseedor”, después del objeto poseído, como en español («el libro de Anna»); “de + les” se contrae en “des”.", "Voici le livre de Anna. / La maison de mes parents est grande."],
       ]
     },
     ex:[
@@ -5012,7 +5012,7 @@ window.LESSON_BANKS.FR = [
         ["Je l'ai vu hier.", "Lo vi ayer."],
       ],
       grammar: [
-        ["El pronombre COD va antes del verbo conjugado", "Los pronombres de objeto directo (le, la, les) concuerdan en género y número con el sustantivo que reemplazan, y en francés van ANTES del verbo conjugado (a diferencia del inglés).", "J'ai vu ma sœur hier. → Je l'ai vue hier. / Ils ont acheté la voiture. → Ils l'ont achetée."],
+        ["El pronombre COD va antes del verbo conjugado", "Los pronombres de objeto directo (le, la, les) concuerdan en género y número con el sustantivo que reemplazan, y en francés van ANTES del verbo conjugado, igual que en español («la vi»).", "J'ai vu ma sœur hier. → Je l'ai vue hier. / Ils ont acheté la voiture. → Ils l'ont achetée."],
       ]
     },
     ex:[
@@ -5036,7 +5036,7 @@ window.LESSON_BANKS.FR = [
         ["Quelle heure part le bus ?", "¿A qué hora sale el autobús?"],
       ],
       grammar: [
-        ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados, igual que en español o inglés.", "Le train part à 15h. / Le film commence à 20h."],
+        ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados, igual que en español.", "Le train part à 15h. / Le film commence à 20h."],
       ]
     },
     ex:[
@@ -5084,7 +5084,7 @@ window.LESSON_BANKS.FR = [
         ["se rendre compte de", "darse cuenta"],
       ],
       grammar: [
-        ["Verbo + preposición fija cambia el significado", "Algunos verbos franceses van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "J'ai arrêté de fumer l'année dernière. / J'ai remarqué sa nouvelle veste. / Tu peux compter sur moi."],
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos franceses van con una preposición fija que precisa su significado, de forma similar a verbos españoles como «pensar en» o «soñar con».", "J'ai arrêté de fumer l'année dernière. / J'ai remarqué sa nouvelle veste. / Tu peux compter sur moi."],
       ]
     },
     ex:[
@@ -5108,7 +5108,7 @@ window.LESSON_BANKS.FR = [
         ["possibilité réelle", "posibilidad real"],
       ],
       grammar: [
-        ["Verdad general vs posibilidad real futura", "El tipo 0 (si + presente, presente) expresa verdades generales; el tipo 1 (si + presente, futuro) expresa una posibilidad real en el futuro. Como en inglés, nunca se usa el futuro justo después de “si”.", "Si tu chauffes la glace, elle fond. / S'il pleut demain, je resterai à la maison."],
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (si + presente, presente) expresa verdades generales; el tipo 1 (si + presente, futuro) expresa una posibilidad real en el futuro. Como en español, nunca se usa el futuro justo después de “si”.", "Si tu chauffes la glace, elle fond. / S'il pleut demain, je resterai à la maison."],
       ]
     },
     ex:[
@@ -5156,12 +5156,12 @@ window.LESSON_BANKS.FR = [
         ["confirmer une information", "confirmar información"],
       ],
       grammar: [
-        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el francés usa las mismas coletillas invariables (n'est-ce pas, non, hein) para casi cualquier oración.", "Tu es espagnol, n'est-ce pas ? / Tu n'aimes pas le café, non ?"],
+        ["Coletillas invariables", "Como en español («¿verdad?», «¿no?»), el francés usa coletillas invariables (n'est-ce pas, non, hein) que no cambian según el verbo, para casi cualquier oración.", "Tu es espagnol, n'est-ce pas ? / Tu n'aimes pas le café, non ?"],
       ]
     },
     ex:[
       ["mcq","¿Qué coletilla es la más neutra/formal para confirmar información?",["d'accord ?", "hein ?", "n'est-ce pas ?", "non ?"],2,"“N'est-ce pas ?” es la más neutra/formal."],
-      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en francés son invariables", "en francés solo se usan en el pasado", "en francés cambian según el verbo", "en francés solo se usan en negativo"],0,"En francés las coletillas no cambian según el verbo."],
+      ["mcq","¿Cómo se comportan las coletillas de confirmación en francés (n'est-ce pas, non, hein)?",["en francés son invariables", "en francés solo se usan en el pasado", "en francés cambian según el verbo", "en francés solo se usan en negativo"],0,"En francés las coletillas no cambian según el verbo."],
       ["fill","Completa: “Tu n'aimes pas le café, ___?”",["d'accord", "non", "oui", "hein"],1,"“Non?” es la coletilla más común e informal."],
       ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["Tu es allé à la fête, es-tu allé ?", "Tu es allé à la fête, n'est-ce pas ?", "Tu es allé à la fête, non tu es allé ?", "Tu es allé à la fête, n'as-tu pas ?"],1,"“N'est-ce pas ?” es invariable, no repite el verbo."],
       ["arrange","Ordena: [espagnol / es / n'est-ce / tu / pas]",["espagnol pas n'est-ce es tu", "n'est-ce espagnol tu es pas", "tu es espagnol n'est-ce pas", "n'est-ce tu pas es espagnol"],2,"Afirmación + coletilla de confirmación."],
@@ -5204,7 +5204,7 @@ window.LESSON_BANKS.FR = [
         ["Je viens de finir.", "Acabo de terminar."],
       ],
       grammar: [
-        ["Sin “present perfect continuous”: presente + depuis", "El francés no tiene un tiempo equivalente al present perfect continuous inglés; para decir que algo acaba de pasar se usa “venir de + infinitivo” (presente), y para la duración de una acción que empezó en el pasado y continúa, se usa el PRESENTE + “depuis”.", "Je viens de finir mon travail. / J'attends depuis une heure."],
+        ["Sin tiempo compuesto para la duración: presente + depuis", "El francés no usa un tiempo compuesto para la duración (a diferencia de «llevar + gerundio» en español); para decir que algo acaba de pasar se usa “venir de + infinitivo” (presente), y para la duración de una acción que empezó en el pasado y continúa, se usa el PRESENTE + “depuis”.", "Je viens de finir mon travail. / J'attends depuis une heure."],
       ]
     },
     ex:[

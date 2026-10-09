@@ -145,7 +145,7 @@ window.LESSON_BANKS.ES = [
       ["mcq", "¿Qué significa \"desayunar\"?", ["To have breakfast","To have lunch","To have dinner","To sleep"], 0, "Desayunar = to have breakfast. Almorzar = to have lunch, cenar = to have dinner."],
       ["translate", "Traduce: \"I go to work at 9.\"", ["Voy al trabajo a las 9","Voy a trabajar las 9","Va al trabajo a las 9","Voy al trabajo las 9"], 0, "\"Voy al trabajo a las 9.\" — \"ir a + lugar\" y \"a las + hora\" para indicar el momento."],
       ["mcq", "¿Cómo se dice \"every day\" en español?", ["Todos los días","Un día","Algún día","El otro día"], 0, "Todos los días = every day. Un día = one day, algún día = someday."],
-      ["arrange", "Ordena: [las / a / duermo / diez]", ["Duermo a las diez","A las diez duermo","Diez duermo a las","Las diez a duermo"], 0, "\"Duermo a las diez.\" = I sleep at ten. Verbo + preposición + hora."],
+      ["arrange", "Ordena: [las / a / duermo / diez]", ["Duermo a las diez","A duermo las diez","Diez duermo a las","Las diez a duermo"], 0, "\"Duermo a las diez.\" = I sleep at ten. Verbo + preposición + hora."],
     ]
   },
   {
@@ -195,7 +195,7 @@ window.LESSON_BANKS.ES = [
       ["mcq", "¿Qué estación sigue a la primavera?", ["Verano","Invierno","Otoño","Primavera"], 0, "El orden de las estaciones es: primavera, verano, otoño, invierno."],
       ["translate", "Traduce: \"It's raining right now.\"", ["Está lloviendo ahora mismo","Llueve mañana","Hace frío ahora","Va a llover"], 0, "\"Está lloviendo\" (presente continuo) describe una acción en curso; \"ahora mismo\" refuerza que es en este momento."],
       ["mcq", "¿Cómo se dice \"sunny\" en español?", ["Soleado","Nublado","Lluvioso","Nevado"], 0, "Soleado = sunny. Nublado = cloudy, lluvioso = rainy, nevado = snowy."],
-      ["arrange", "Ordena: [mucho / hoy / calor / hace]", ["Hace mucho calor hoy","Hoy hace mucho calor","Calor hace mucho hoy","Mucho hace calor hoy"], 0, "\"Hace mucho calor hoy.\" = It's very hot today. Verbo impersonal (hace) + intensificador + sustantivo + tiempo."],
+      ["arrange", "Ordena: [mucho / hoy / calor / hace]", ["Hace mucho calor hoy","Hace mucho hoy calor","Calor hace mucho hoy","Mucho hace calor hoy"], 0, "\"Hace mucho calor hoy.\" = It's very hot today. Verbo impersonal (hace) + intensificador + sustantivo + tiempo."],
     ]
   },
   {
@@ -776,7 +776,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué respuesta describe mejor un punto fuerte de forma profesional?",["Se me da bien organizar proyectos y cumplir con los plazos.","Soy el mejor de todos, sin duda.","No tengo ningún punto débil.","Trabajo cuando tengo ganas."],0,"Una buena respuesta es específica y verificable, sin exagerar."],
       ["fill","Completa: \"___ trabajado en ventas durante dos años.\"",["He","Soy","Estoy","Tengo"],0,"\"He trabajado\" (presente perfecto) describe experiencia pasada relevante hoy."],
       ["translate","Traduce: \"I have experience working in a team.\"",["Tengo experiencia trabajando en equipo.","Tengo experiencia trabajo equipo.","Trabajo tengo experiencia en equipo.","Tengo trabajo de experiencia equipo."],0,"\"Tengo experiencia + gerundio\" es la estructura natural: \"tengo experiencia trabajando en equipo\"."],
-      ["arrange","Ordena: [equipo / me / trabajar / en / gusta]",["Me gusta trabajar en equipo","Gusta me trabajar en equipo","En equipo me gusta trabajar","Trabajar me gusta en equipo"],0,"\"Me gusta\" + infinitivo: \"Me gusta trabajar en equipo.\""],
+      ["arrange","Ordena: [equipo / me / trabajar / en / gusta]",["Me gusta trabajar en equipo","Gusta me trabajar en equipo","Me gusta trabajar equipo en","Trabajar me gusta en equipo"],0,"\"Me gusta\" + infinitivo: \"Me gusta trabajar en equipo.\""],
       ["writing","Escribe una respuesta de entrevista de 45-65 palabras a la pregunta \"¿Por qué quieres este trabajo?\". Menciona tu experiencia, un punto fuerte y tu motivación.",[],["experiencia","porque","me gustaría"],"Estructura: experiencia relevante + punto fuerte + motivación concreta.","Entrevista para un puesto de atención al cliente."]
     ]
   },
@@ -1212,7 +1212,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué diferencia hay entre gastos fijos y variables?",["Los fijos se repiten cada mes por el mismo monto; los variables cambian.","Los fijos cambian cada mes; los variables son siempre iguales.","No hay ninguna diferencia real entre ellos.","Los variables solo existen en negocios, no en personas."],0,"Los gastos fijos (alquiler, por ejemplo) se mantienen estables; los variables (ocio, comida) cambian mes a mes."],
       ["fill","Completa: \"Voy a ___ una cuenta bancaria nueva este mes.\"",["abrir","cerrar","gastar","perder"],0,"\"Abrir una cuenta bancaria\" es la colocación correcta para crear una cuenta nueva."],
       ["translate","Traduce: \"You should make a monthly budget.\"",["Deberías hacer un presupuesto mensual.","Deberías hacer presupuesto mensual un.","Un presupuesto mensual deberías hacer.","Deberías un presupuesto mensual hacer."],0,"\"You should make a monthly budget\" = \"Deberías hacer un presupuesto mensual.\""],
-      ["arrange","Ordena: [ahorrar / objetivo / para / un / quiero]",["Quiero ahorrar para un objetivo","Para un objetivo quiero ahorrar","Ahorrar quiero para un objetivo","Quiero para un objetivo ahorrar"],0,"Sujeto + \"quiero\" + infinitivo + complemento: \"Quiero ahorrar para un objetivo.\""],
+      ["arrange","Ordena: [ahorrar / objetivo / para / un / quiero]",["Quiero ahorrar para un objetivo","Quiero ahorrar para objetivo un","Ahorrar quiero para un objetivo","Quiero para un objetivo ahorrar"],0,"Sujeto + \"quiero\" + infinitivo + complemento: \"Quiero ahorrar para un objetivo.\""],
       ["writing","Escribe 45-65 palabras sobre tu relación con el dinero: cómo organizas tu presupuesto, si ahorras para algo concreto y algún hábito financiero que te gustaría mejorar.",[],["presupuesto","ahorrar","gastos"],"Menciona al menos un gasto fijo, un gasto variable y una meta de ahorro."]
     ]
   },
@@ -1309,7 +1309,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cuál es la forma correcta de decir tu profesión en español?",["Soy profesor.","Soy un profesor.","Tengo profesor.","Estoy profesor."],0,"En español, \"ser\" + profesión no lleva artículo: \"Soy profesor.\""],
       ["fill","Completa: \"Mi hermana ___ médica en un hospital.\"",["es","está","tiene","hace"],0,"\"Ser\" se usa para profesiones: \"Mi hermana es médica.\""],
       ["translate","Traduce: \"I work in an office.\"",["Trabajo en una oficina.","Trabajo una oficina.","Estoy trabajo en una oficina.","Trabajo de una oficina."],0,"\"I work in an office\" = \"Trabajo en una oficina.\""],
-      ["arrange","Ordena: [camarero / trabajo / restaurante / de / en / un]",["Trabajo de camarero en un restaurante","De camarero trabajo en un restaurante","Trabajo en un restaurante de camarero","En un restaurante trabajo de camarero"],0,"\"Trabajo de\" + profesión + \"en\" + lugar: \"Trabajo de camarero en un restaurante.\""],
+      ["arrange","Ordena: [camarero / trabajo / restaurante / de / en / un]",["Trabajo de camarero en un restaurante","De camarero trabajo en un restaurante","Trabajo en un restaurante de camarero","De trabajo camarero en un restaurante"],0,"\"Trabajo de\" + profesión + \"en\" + lugar: \"Trabajo de camarero en un restaurante.\""],
       ["writing","Escribe 20-30 palabras sobre tu profesión (real o imaginada) y dónde trabajas. Menciona al menos dos tareas que haces en tu trabajo.",[],["soy","trabajo","me dedico a"],"Usa \"ser\" para la profesión y \"trabajar en/de\" para el lugar o rol."]
     ]
   },
@@ -1505,7 +1505,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Qué significa “la natación”?",["Deporte de equipo en el que se intenta meter un balón en la portería con los pies", "Desplazarse a pie a gran velocidad, más deprisa que al caminar", "Deporte que consiste en desplazarse por el agua moviendo brazos y piernas", "Hacer ejercicio subiendo y bajando objetos muy pesados para fortalecer los músculos"],2,"“la natación”: deporte que consiste en desplazarse por el agua moviendo brazos y piernas."],
       ["fill","Completa: “Suelo ___ tres veces por semana para mantenerme en forma.”",["el tenis", "la natación", "el fútbol", "correr"],3,"“Soler” + infinitivo (“correr”) describe un hábito."],
       ["translate","Traduce: “I usually do yoga on Sundays.”",["Suelo levantar pesas los domingos.", "Suelo hacer yoga los sábados.", "Suelo jugar al tenis los domingos.", "Suelo hacer yoga los domingos."],3,"“I usually do yoga” = “Suelo hacer yoga”; “on Sundays” = “los domingos”."],
-      ["arrange","Ordena: [forma / mantenerme / en / para / corro]",["para mantenerme en forma Corro", "Corro para mantenerme en forma", "mantenerme para Corro en forma", "forma mantenerme en Corro para"],1,"Verbo + “para” + infinitivo + complemento."],
+      ["arrange","Ordena: [forma / mantenerme / en / para / corro]",["Para corro mantenerme en forma", "Corro para mantenerme en forma", "mantenerme para Corro en forma", "forma mantenerme en Corro para"],1,"Verbo + “para” + infinitivo + complemento."],
       ["writing","Escribe 45-65 palabras sobre tu relación con el deporte: qué actividad practicas, con qué frecuencia y por qué te gusta (o no).",[],["suelo", "me mantengo en forma", "practico"]],
     ]
   },
@@ -2506,7 +2506,7 @@ window.LESSON_BANKS.ES = [
       ["mcq","¿Cómo se dice “rainy” en español?",["caluroso","lluvioso","la primavera","el invierno"],1,"“Rainy” es “lluvioso” en español."],
       ["fill","Completa: “Hoy hace mucho ___, lleva un paraguas.”",["invierno", "calor", "sol", "frío"],3,"“Frío” se usa con “hace”: “hace frío”."],
       ["translate","Traduce: “It's very cold in winter.”",["Hace mucho frío en invierno.", "Está muy frío en invierno.", "Hace mucho calor en invierno.", "Hace mucho frío en verano."],0,"“It's very cold” se traduce como “hace mucho frío”, con “hacer” + sustantivo."],
-      ["arrange","Ordena: [sol / hoy / hace]",["hoy sol hace", "sol hoy hace", "hace sol hoy", "hoy hace sol"],2,"Verbo impersonal + sustantivo + adverbio de tiempo."],
+      ["arrange","Ordena: [sol / hoy / hace]",["hoy sol hace", "sol hoy hace", "hace sol hoy", "sol hace hoy"],2,"Verbo impersonal + sustantivo + adverbio de tiempo."],
       ["writing","Describe en español, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “hace” y “está”.",[],["hace", "está", "frío"]],
     ]
   },

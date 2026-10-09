@@ -472,10 +472,32 @@ En el curso de español la pista inglesa **no es un error de plantilla** sino la
 6. **Búsquedas finales** de inglés (palabras funcionales, lista de palabras, glosas `= …` y opciones): sólo quedan falsos positivos (palabras del idioma meta que coinciden con una palabra inglesa, p. ej. alemán *am/was/will*, italiano *blue* como distractor deliberadamente erróneo, o la referencia pedagógica a «to be» al comparar con el inglés).
 
 ### Lo que queda
-- **Notas de gramática (`study.grammar`) que comparan con el inglés** («a diferencia del inglés (there is/there are)…»): son comparaciones pedagógicas explícitas, no pistas; se dejan. Si quieres un curso 100% sin referencias al inglés, habría que reescribirlas.
+- ~~Notas de gramática (`study.grammar`) que comparan con el inglés~~ — **resuelto en la novena ronda** (ver abajo).
 - Muchos cognados (*relativismo cultural → o relativismo cultural*) hacen que el ejercicio sea trivial en italiano/portugués/francés: inherente al vocabulario, no a la traducción.
 - Las traducciones y definiciones son de un modelo de lenguaje, no de un hablante nativo verificado.
 - Los detectores automáticos de inglés no son exhaustivos; la última búsqueda con lista de palabras no halló más casos reales, pero un barrido con otro método podría encontrar alguno residual.
+
+## Novena ronda — cierre de pendientes que no dependían de una decisión de diseño
+
+Todo lo siguiente es cambio de datos (más una línea del validador); no se toca el motor.
+
+1. **Las 10 lecciones EN que seguían por debajo de 6 ejercicios** (8 con 4 y 2 con 5; unidades de habilidades de `en-b1-skills.js`, `en-cefr-units.js`, `en-advanced.js`) llegan a 6 con **18 ejercicios nuevos** (`mcq`, `fill`, `translate`) derivados del `study` de cada lección. La tarea de producción (`writing`/`speaking`) sigue siendo la última. Ya no queda ninguna lección de la app con menos de 6 ejercicios (`FEW_EX` desaparece).
+2. **Rangos de escritura que el motor no leía.** El motor solo interpreta rangos con guion (`20-30`). Dos prompts de FR decían `20 à 30 mots`, así que el motor exigía 25 palabras (más que el mínimo que pedía la consigna): ahora `20-30 mots`. Comprobado en los **1.594** `writing/speaking` (incluidos Situaciones) que todos producen un mínimo legible. Los 22 avisos `PROD_NO_RANGE` restantes eran prompts que ya decían «(mínimo 25 palabras)»: el validador ahora los reconoce.
+3. **`HTML_CHARS`:** una explicación EN (`a1_daily_routine`, escala de adverbios con `>`) reescrita sin `<`/`>`.
+4. **`arrange` con otro orden válido (39 distractores):** el motor solo acepta `options[correct]`, así que un alumno que ordenaba bien pero de otra forma (`Today it's sunny` / `It's sunny today`, `Dans la cuisine il y a une table`, `Hoy hace sol`…) salía como incorrecto. Detectados por código (un complemento adverbial movido al inicio/fin) y revisados uno a uno: 39 distractores (EN 7, ES 7, FR 9, IT 8, PT 8) sustituidos por ordenaciones inequívocamente incorrectas. La respuesta correcta y su índice no cambian (verificado). Dos primeros reemplazos que seguían siendo frases válidas (`Is there a table in the kitchen`, `vivevo io a Roma`) se descartaron al releer. Los 17 candidatos restantes en lecciones y los 32 en Situaciones son bloques partidos (`menos que a`) e inválidos.
+5. **Etiquetas `A)`/`B)` dentro del enunciado** (2 ejercicios EN) → `(1)/(2)`, con las opciones reescritas como «La 1… / la 2…», para que no se confundan con los botones A-D.
+6. **Notas de gramática que comparaban con el inglés (FR/DE/IT/PT): 84 reescritas** (+7 títulos), ahora comparan con el español: «como en español (“me gusta leer”)», «equivalente a “apenas… cuando”», «igual que “llevar + gerundio”», «a diferencia del español (“su/sus”)». Donde el español es *distinto* (p. ej. `combien de` frente a *cuánto/cuántos*, `c'è/ci sono` frente a *hay*, mayúsculas del alemán) se contrasta con el español. Las 3 que citan «inglés» como idioma del ejemplo («se habla inglés») se mantienen. Reformulé también las 4 preguntas «¿diferencia con las *question tags* del inglés?» (que ahora contradecían la nota) y 4 explicaciones sobre la edad en FR/DE.
+
+### Verificación
+- `verify_r9.js` frente a la ronda 8: 1.288 lecciones; cambios exactamente los esperados (18 ejercicios añadidos; 39 `arrange` con **una sola** opción cambiada y la correcta intacta; 8 preguntas, 5 explicaciones, 2 conjuntos de opciones; 84 descripciones + 7 títulos de gramática; 1 nota de vocabulario DE); ejemplos de gramática, Situaciones y el resto idénticos. 0 problemas.
+- Validador: **0 errores, 0 avisos y ningún aviso informativo**.
+- Motor real: `_shuffleOptions` × 994.900 sobre los 11.543 ejercicios de todos los bancos (incl. EN y Situaciones): 0 fallos. Total de ejercicios: 11.525 → 11.543 (+18).
+- Reconstrucción desde cero (`tools/ronda9/`): idéntica byte a byte.
+
+### Lo que sigue pendiente (decisión tuya)
+- **Curso ES:** `study.vocab` circular y pistas en inglés (única referencia no circular). Opciones: (a) dejarlo como curso de español *para hablantes de otros idiomas*, con pistas en inglés; (b) rediseñarlo con definiciones/sinónimos en español (como hice en los 82 ejercicios de la Ronda 7), lo que requiere reescribir ~1.200 entradas de vocabulario y decenas de ejercicios.
+- `arrange`: sigue sin existir una lista de órdenes válidos en el motor.
+- Traducciones y definiciones de un modelo de lenguaje; recomendada revisión nativa antes de afirmar que el contenido está «revisado por lingüistas».
 
 ## Lo que dejé sin cambiar (requiere decisión tuya)
 
@@ -485,21 +507,18 @@ En el curso de español la pista inglesa **no es un error de plantilla** sino la
 2. **Qué debería mostrar la ficha "Estudiar" del curso de español**, ahora que su
    columna de traducción es también español (ver el matiz de la cuarta ronda,
    arriba) — 1.177 de 1.657 entradas quedan circulares o redundantes.
-3. **`arrange` con varios órdenes válidos.** El motor solo acepta `options[correct]`. Arreglé
-   los 2 que la explicación admitía, pero otros no se pueden detectar automáticamente
-   sin ese tipo de pista textual. Lo sano sería que el motor aceptara una lista de
+3. **`arrange` con varios órdenes válidos.** El motor solo acepta `options[correct]`. En la novena
+   ronda sustituí los 39 distractores que eran un orden también válido (los detectables por
+   código: complementos adverbiales movidos al inicio/fin). Otros órdenes válidos más sutiles no
+   se pueden detectar automáticamente; lo sano sigue siendo que el motor aceptara una lista de
    órdenes válidos por ejercicio.
 4. ~~56 lecciones de Situaciones en inglés sin `study.grammar`/`study.vocab`~~ —
    **resuelto en la quinta ronda** (ver arriba).
 5. ~~390 lecciones con solo 4-5 ejercicios~~ — **resuelto en la sexta ronda**
    (ver arriba): todas tienen ahora 6, el estándar real del resto de la app.
 6. **4 preguntas idénticas entre lecciones distintas** (ej. `a1_sports_exercise` ↔
-   `b1_sports_fitness`) y **1 caso de `HTML_CHARS`** (un carácter `<`/`>`/`&` suelto en
-   un texto) — informativos, sin impacto real en el alumno.
-7. **Etiquetas "A) … B) …" dentro del enunciado** (p. ej. `b1_present_perfect #1`) conviven con
-   los botones A-D de las opciones: confuso a primera vista, pero no roto (esas letras
-   se refieren a las dos frases citadas en la pregunta, no a las opciones, así que no
-   cambian al barajar).
+   `b1_sports_fitness`) (informativas, sin impacto real). El caso de `HTML_CHARS` se corrigió en la novena ronda.
+7. ~~Etiquetas "A) … B) …" dentro del enunciado~~ — **resuelto en la novena ronda** (2 ejercicios EN: ahora "(1)/(2)").
 
 ## Lo que no puedo garantizar
 

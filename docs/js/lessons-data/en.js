@@ -93,7 +93,7 @@ window.LESSON_BANKS.EN = [
       ["fill", "\"After dinner, I ___ TV for an hour.\"", ["watch","see","look","view"], 0, "\"Watch TV\" = ver la televisión. En inglés: \"watch\" para TV/películas/deportes en directo, \"see\" para películas en el cine, \"look at\" para observar algo estático."],
       ["mcq", "¿Qué significa \"I go to bed early on weekdays\"?", ["Me acuesto temprano entre semana","Me levanto temprano entre semana","Trabajo temprano entre semana","Como temprano entre semana"], 0, "\"Go to bed\" = acostarse. \"Early\" = temprano. \"Weekdays\" = días entre semana (lunes a viernes). \"Weekend\" = fin de semana."],
       ["translate", "Traduce: \"Los sábados duermo hasta tarde.\"", ["On Saturdays I sleep late.","On Saturday I sleep until late.","In Saturdays I sleep late.","Saturdays I sleeping late."], 0, "\"On Saturdays\" (los sábados — usamos \"on\" con días). \"I sleep late\" = duermo hasta tarde. También correcto: \"I sleep in on Saturdays\" (phrasal verb coloquial)."],
-      ["arrange", "Ordena: [never / I / coffee / drink]", ["I never drink coffee","Never I drink coffee","I drink never coffee","I drink coffee never"], 0, "\"I never drink coffee.\" — \"Never\" (nunca) es un adverbio de frecuencia. Va ANTES del verbo principal. Frecuencia: always (100%) > usually > often > sometimes > rarely > never (0%)."],
+      ["arrange", "Ordena: [never / I / coffee / drink]", ["I never drink coffee","Never I drink coffee","I drink never coffee","I drink coffee never"], 0, "\"I never drink coffee.\" — \"Never\" (nunca) es un adverbio de frecuencia. Va ANTES del verbo principal. Frecuencia: always (100%), usually, often, sometimes, rarely, never (0%), de más a menos frecuente."],
       ["mcq", "¿Qué frase describe mejor esta imagen? 🧑‍💻 [persona trabajando en computadora]", ["He is working on his computer","He works on his computer always","He worked on computer","He is work on his computer"], 0, "\"He is working\" = present continuous (estar haciendo algo AHORA). Se forma con: am/is/are + verbo-ING. Se usa para acciones que ocurren en este momento."],
       ["fill", "\"___ the evening, I read books or listen to music.\"", ["In","At","On","By"], 0, "\"In the evening\" = por las tardes/noches. Las preposiciones de tiempo: IN the morning/afternoon/evening, AT night/noon/midnight, ON Monday/weekends."],
     ]
@@ -183,7 +183,7 @@ window.LESSON_BANKS.EN = [
       ["translate", "Traduce: \"¿Tienen algo más barato?\"", ["Do you have anything cheaper?","Do you have something more cheap?","Have you anything less expensive?","Is there anything more cheap?"], 0, "\"Anything cheaper\" — \"cheap\" → comparativo: \"cheaper\". En preguntas y negativas usamos \"anything\" (algo), no \"something\". \"Do you have anything...?\" es muy natural."],
       ["fill", "\"The fitting rooms are ___ the back of the store.\" (al fondo)", ["at","in","on","by"], 0, "\"At the back\" = al fondo. Preposiciones de lugar en tiendas: at the front (al frente), in the middle (en el medio), on the right/left (a la derecha/izquierda), upstairs/downstairs (arriba/abajo)."],
       ["mcq","Quieres saber si la camiseta se puede lavar a máquina. ¿Cómo lo preguntas?",["Can this be machine washed?","Can I wash this in machine?","Is this washable in machine?","Can this go in machine washing?"],0,"\"Can this be machine washed?\" o \"Is this machine washable?\" — ambas son correctas. También puedes mirar la etiqueta de cuidado (care label) que suele tener símbolos universales."],
-      ["arrange","Ordena: [receipt / I / a / need / please]",["I need a receipt, please.","Please I need a receipt.","I please need a receipt.","A receipt I need, please."],0,"\"I need a receipt, please.\" — \"Receipt\" (recibo/ticket). Siempre pide el recibo porque lo necesitas si quieres devolver algo. \"Please\" al final suena natural y educado."],
+      ["arrange","Ordena: [receipt / I / a / need / please]",["I need a receipt, please.","Need I a receipt, please.","I please need a receipt.","A receipt I need, please."],0,"\"I need a receipt, please.\" — \"Receipt\" (recibo/ticket). Siempre pide el recibo porque lo necesitas si quieres devolver algo. \"Please\" al final suena natural y educado."],
     ]
   },
   {
@@ -229,7 +229,7 @@ window.LESSON_BANKS.EN = [
       ]
     },
     ex:[
-      ["mcq", "¿Cuál es la diferencia entre estas dos frases? A) \"I have eaten sushi.\" B) \"I ate sushi yesterday.\"", ["A habla de experiencia de vida; B de cuándo ocurrió exactamente.","A es más formal que B.","B es incorrecto en inglés.","No hay diferencia real."], 0, "Present perfect (A) = experiencia de vida, sin tiempo específico. Past simple (B) = momento concreto en el pasado. \"Have you ever eaten sushi?\" / \"Yes, I ate it last year.\""],
+      ["mcq", "¿Cuál es la diferencia entre estas dos frases? (1) \"I have eaten sushi.\" (2) \"I ate sushi yesterday.\"", ["La 1 habla de experiencia de vida; la 2, de cuándo ocurrió exactamente.","La 1 es más formal que la 2.","La 2 es incorrecta en inglés.","No hay diferencia real."], 0, "Present perfect (1) = experiencia de vida, sin tiempo específico. Past simple (2) = momento concreto en el pasado. \"Have you ever eaten sushi?\" / \"Yes, I ate it last year.\""],
       ["fill", "\"I ___ never ___ (visit) New York, but I really want to go.\"", ["have / visited","did / visit","have / visit","had / visited"], 0, "\"I have never visited New York.\" — Con \"never/ever/already/yet\" usamos present perfect. La estructura: have/has + participio pasado. \"Visited\" es el participio de \"visit\"."],
       ["translate", "Traduce: \"¿Alguna vez has probado la comida etíope?\"", ["Have you ever tried Ethiopian food?","Did you ever try Ethiopian food?","Have you ever eat Ethiopian food?","Did you try ever Ethiopian food?"], 0, "\"Have you ever...?\" = ¿Alguna vez has...? — Present perfect con \"ever\". Respuesta: \"Yes, I have!\" o \"No, I haven't, but I'd love to try it!\""],
       ["mcq", "Tu amigo dice: \"I've just arrived at the airport.\" ¿Qué significa \"just\" aquí?", ["Que acaba de llegar (hace muy poco)","Que llegó exactamente a tiempo","Que solo llegó él, sin nadie más","Que llegó justo antes del vuelo"], 0, "\"Just\" con present perfect = acaba de / hace muy poco. \"I've just eaten\" = acabo de comer. \"She's just called\" = acaba de llamar. Indica una acción muy reciente."],
@@ -285,7 +285,7 @@ window.LESSON_BANKS.EN = [
       ]
     },
     ex:[
-      ["mcq", "¿Cuál es la diferencia entre estas frases? A) \"If it rains, I'll stay home.\" B) \"If it rained, I would stay home.\"", ["A es una situación real posible; B es una hipótesis imaginaria.","A es pasado y B es futuro.","A es más formal que B.","No hay diferencia real en inglés moderno."], 0, "Condicional 1 (If + present, will + infinitivo): situación posible/real. Condicional 2 (If + past simple, would + infinitivo): hipótesis imaginaria o poco probable. ¡La diferencia es clave!"],
+      ["mcq", "¿Cuál es la diferencia entre estas frases? (1) \"If it rains, I'll stay home.\" (2) \"If it rained, I would stay home.\"", ["La 1 es una situación real posible; la 2, una hipótesis imaginaria.","La 1 es pasado y la 2 es futuro.","La 1 es más formal que la 2.","No hay diferencia real en inglés moderno."], 0, "Condicional 1 (If + present, will + infinitivo): situación posible/real. Condicional 2 (If + past simple, would + infinitivo): hipótesis imaginaria o poco probable. ¡La diferencia es clave!"],
       ["fill", "\"If I ___ (be) the president, I would invest more in education.\"", ["were","was","am","would be"], 0, "\"If I were...\" — En condicional 2, con el verbo \"to be\" se usa \"were\" para TODAS las personas (incluido I, he, she, it). \"Were\" es la forma formal correcta. \"Was\" es coloquialmente aceptado pero \"were\" es el estándar."],
       ["translate", "Traduce: \"Si hubiera estudiado más, habría aprobado el examen.\"", ["If I had studied more, I would have passed the exam.","If I studied more, I would pass the exam.","If I have studied more, I will have passed the exam.","If I had studied more, I would pass the exam."], 0, "Condicional 3: If + past perfect (had + participio), would have + participio. Se usa para hablar de situaciones pasadas que NO ocurrieron y sus consecuencias imaginarias. Expresa arrepentimiento o especulación."],
       ["mcq", "Tu amigo dice: \"I wish I hadn't eaten so much.\" ¿Qué expresa?", ["Se arrepiente de haber comido tanto.","Desea comer más en el futuro.","Está feliz de haber comido tanto.","No quiere comer más hoy."], 0, "\"I wish + past perfect\" = me arrepiento de algo pasado que no puedo cambiar. \"I wish I hadn't eaten so much\" = ojalá no hubiera comido tanto. \"I wish + past simple\" = deseo sobre el presente: \"I wish I spoke Spanish.\""],
@@ -493,7 +493,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","¿Qué respuesta describe mejor un punto fuerte de forma profesional?",["I'm good at organising projects and meeting deadlines.","I'm the best of everyone, no doubt.","I don't have any weaknesses.","I work whenever I feel like it."],0,"Una buena respuesta es específica y verificable, sin exagerar."],
       ["fill","Completa: \"I ___ worked in sales for two years.\"",["have","am","is","do"],0,"\"I have worked\" (present perfect) describe experiencia pasada relevante hoy."],
       ["translate","Traduce: \"Tengo experiencia trabajando en equipo.\"",["I have experience working in a team.","I have experience work team.","I team experience have working.","I have working experience in a team is."],0,"\"Tengo experiencia + gerundio\" = \"I have experience + -ing\": \"I have experience working in a team.\""],
-      ["arrange","Ordena: [like / working / I / team / a / in]",["I like working in a team","Like I working in a team","In a team I like working","Working I like in a team"],0,"\"I like\" + gerundio: \"I like working in a team.\""],
+      ["arrange","Ordena: [like / working / I / team / a / in]",["I like working in a team","Like I working in a team","I like working in team a","Working I like in a team"],0,"\"I like\" + gerundio: \"I like working in a team.\""],
       ["writing","Escribe en inglés una respuesta de entrevista de 45-65 palabras a la pregunta \"Why do you want this job?\". Menciona tu experiencia, un punto fuerte y tu motivación.",[],["experience","because","I would like"],"Estructura: experiencia relevante + punto fuerte + motivación concreta.","Entrevista para un puesto de atención al cliente."]
     ]
   },
@@ -637,7 +637,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","¿Cuál es la pregunta correcta para saber dónde está algo?",["Where is the kitchen?","What is the kitchen?","When is the kitchen?","Who is the kitchen?"],0,"\"Where is...?\" pregunta por la ubicación de algo."],
       ["fill","Completa: \"The sofa is ___ the window.\"",["next to","on","under","behind"],0,"\"Next to\" indica que dos cosas están juntas, una al lado de la otra."],
       ["translate","Traduce: \"La cama está en el dormitorio.\"",["The bed is in the bedroom.","The bed is in the kitchen.","The chair is in the bedroom.","The bed is the bedroom."],0,"\"La cama está en el dormitorio\" = \"The bed is in the bedroom.\""],
-      ["arrange","Ordena: [kitchen / a / table / there / in / is / the]",["There is a table in the kitchen","In the kitchen there is a table","A table there is in the kitchen","There a table is in the kitchen"],0,"\"There is\" + objeto + \"in\" + lugar: \"There is a table in the kitchen.\""],
+      ["arrange","Ordena: [kitchen / a / table / there / in / is / the]",["There is a table in the kitchen","There a is table in the kitchen","A table there is in the kitchen","There a table is in the kitchen"],0,"\"There is\" + objeto + \"in\" + lugar: \"There is a table in the kitchen.\""],
       ["writing","Describe en inglés, en 20-30 palabras, tu casa o apartamento: qué habitaciones tiene y qué muebles hay en una de ellas.",[],["bedroom","there is","there are"],"Menciona al menos dos habitaciones y dos muebles."]
     ]
   },
@@ -661,7 +661,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","En la farmacia, ¿qué preguntas para pedir un medicamento?",["Do you have something for a headache?","Where is the headache?","When is the headache?","Why do you have a headache?"],0,"\"Do you have something for...?\" es la forma natural de pedir un medicamento."],
       ["fill","Completa: \"My feet ___ after running.\"",["hurt","hurts","pain","painful"],0,"\"Feet\" es plural, así que el verbo es \"hurt\" sin \"-s\"."],
       ["translate","Traduce: \"Tengo fiebre y tos.\"",["I have a fever and a cough.","I have fever and cough.","I am fever and cough.","My fever and cough hurt."],0,"\"Tengo fiebre y tos\" = \"I have a fever and a cough\", con el verbo \"have\"."],
-      ["arrange","Ordena: [eight / take / pill / hours / one / every]",["Take one pill every eight hours","Every eight hours take one pill","One pill take every eight hours","Take every eight hours one pill"],0,"Imperativo + objeto + frecuencia: \"Take one pill every eight hours.\""],
+      ["arrange","Ordena: [eight / take / pill / hours / one / every]",["Take one pill every eight hours","One take pill every eight hours","One pill take every eight hours","Take every eight hours one pill"],0,"Imperativo + objeto + frecuencia: \"Take one pill every eight hours.\""],
       ["speaking","Describe en inglés, en 40-60 palabras, una vez que te sentiste mal: qué síntomas tenías y qué hiciste.",[],["hurt","had","went"],"Usa al menos dos síntomas y una acción que tomaste para sentirte mejor."]
     ]
   },
@@ -854,7 +854,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","Tienes mucho trabajo y poco descanso. ¿Cómo te sientes?",["I'm tired.","I'm happy.","I'm hungry.","I'm cold."],0,"Mucho trabajo y poco descanso llevan típicamente a sentirse \"tired\"."],
       ["fill","Completa: \"I ___ a bit nervous before the exam.\"",["am","is","have","do"],0,"\"I am\" concuerda con el sujeto \"I\": \"I am a bit nervous.\""],
       ["translate","Traduce: \"¿Por qué estás triste?\"",["Why are you sad?","Why are you sadly?","Why you are sad?","Why is you sad?"],0,"\"¿Por qué estás triste?\" = \"Why are you sad?\", con \"are\" para el sujeto \"you\"."],
-      ["arrange","Ordena: [tired / work / after / I'm]",["I'm tired after work","After work I'm tired","Tired I'm after work","I'm after work tired"],0,"Sujeto + \"am\" + adjetivo + complemento de tiempo: \"I'm tired after work.\""],
+      ["arrange","Ordena: [tired / work / after / I'm]",["I'm tired after work","I'm tired work after","Tired I'm after work","I'm after work tired"],0,"Sujeto + \"am\" + adjetivo + complemento de tiempo: \"I'm tired after work.\""],
       ["writing","Escribe en inglés 20-30 palabras describiendo cómo te sientes hoy y por qué. Usa al menos dos emociones distintas.",[],["I am","because","I feel"],"Menciona una razón concreta para cada emoción que describas."]
     ]
   },
@@ -1144,7 +1144,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","¿Cuál es la forma correcta de decir tu profesión en inglés?",["I am a teacher.","I am teacher.","I have teacher.","I do teacher."],0,"En inglés, \"to be\" + profesión lleva artículo: \"I am a teacher.\""],
       ["fill","Completa: \"My sister ___ a doctor at a hospital.\"",["is","has","does","are"],0,"\"Is\" concuerda con \"my sister\": \"My sister is a doctor.\""],
       ["translate","Traduce: \"Trabajo en una oficina.\"",["I work in an office.","I work an office.","I am work in an office.","I work of an office."],0,"\"Trabajo en una oficina\" = \"I work in an office.\""],
-      ["arrange","Ordena: [waiter / work / restaurant / a / as / a / I / in]",["I work as a waiter in a restaurant","As a waiter I work in a restaurant","I work in a restaurant as a waiter","In a restaurant I work as a waiter"],0,"\"I work as\" + profesión + \"in\" + lugar: \"I work as a waiter in a restaurant.\""],
+      ["arrange","Ordena: [waiter / work / restaurant / a / as / a / I / in]",["I work as a waiter in a restaurant","As a waiter I work in a restaurant","I work in a restaurant as a waiter","Work I as a waiter in a restaurant"],0,"\"I work as\" + profesión + \"in\" + lugar: \"I work as a waiter in a restaurant.\""],
       ["writing","Escribe en inglés 20-30 palabras sobre tu profesión (real o imaginada) y dónde trabajas. Menciona al menos dos tareas que haces en tu trabajo.",[],["I am a","I work","I work as"],"Usa \"to be a\" para la profesión y \"work in/as\" para el lugar o rol."]
     ]
   },
@@ -2591,7 +2591,7 @@ window.LESSON_BANKS.EN = [
       ["mcq","¿Cómo se dice “lluvioso” en inglés?",["winter", "hot", "sunny", "rainy"],3,"“Lluvioso” es “rainy” en inglés."],
       ["fill","Completa: “It's very ___ today, take an umbrella.”",["rainy", "spring", "cold", "hot"],0,"“Rainy” describe un clima con lluvia: “it's rainy”."],
       ["translate","Traduce: “Hace mucho frío en invierno.”",["It's very hot in winter.", "It's very cold in summer.", "It's very sunny in winter.", "It's very cold in winter."],3,"“Hace frío” se traduce con “it's cold”, usando el pronombre impersonal “it”."],
-      ["arrange","Ordena: [today / sunny / it's]",["today it's sunny", "it's today sunny", "today sunny it's", "it's sunny today"],3,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
+      ["arrange","Ordena: [today / sunny / it's]",["sunny it's today", "it's today sunny", "today sunny it's", "it's sunny today"],3,"Pronombre impersonal + verbo + adjetivo + adverbio de tiempo."],
       ["writing","Describe en inglés, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “it's” + adjetivo.",[],["it's", "sunny", "cold"]],
     ]
   },

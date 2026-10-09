@@ -142,7 +142,7 @@ window.LESSON_BANKS.PT = [
       ["mcq", "¿Qué significa \"tomar café da manhã\"?", ["Desayunar","Almorzar","Cenar","Dormir"], 0, "Tomar café da manhã = desayunar. Almoçar = almorzar, jantar = cenar."],
       ["translate", "Traduce: \"Voy al trabajo a las 9.\"", ["Eu vou para o trabalho às 9h","Eu vou trabalhar 9h","Ele vai para o trabalho às 9h","Eu vou para o trabalho 9h"], 0, "\"Eu vou para o trabalho às 9h.\" — \"ir para o + lugar\" y \"às + hora\" para indicar el momento."],
       ["mcq", "¿Cómo se dice \"todos los días\" en portugués?", ["Todos os dias","Um dia","Algum dia","O outro dia"], 0, "Todos os dias = todos los días. Um dia = un día."],
-      ["arrange", "Ordena: [horas / dez / durmo / às]", ["Durmo às dez horas","Às dez horas durmo","Dez horas durmo às","Durmo horas às dez"], 0, "\"Durmo às dez horas.\" = duermo a las diez. Verbo + preposición + hora."],
+      ["arrange", "Ordena: [horas / dez / durmo / às]", ["Durmo às dez horas","Às durmo dez horas","Dez horas durmo às","Durmo horas às dez"], 0, "\"Durmo às dez horas.\" = duermo a las diez. Verbo + preposición + hora."],
     ]
   },
   {
@@ -192,7 +192,7 @@ window.LESSON_BANKS.PT = [
       ["mcq", "¿Qué estación sigue a la primavera (a primavera)?", ["O verão","O inverno","O outono","A primavera"], 0, "El orden de las estaciones es: a primavera, o verão, o outono, o inverno."],
       ["translate", "Traduce al portugués: \"Está lloviendo ahora mismo.\"", ["Está chovendo agora mesmo","Vai chover amanhã","Está frio agora","Choveu ontem"], 0, "\"Estar + gerúndio\" (presente continuo) describe una acción en curso ahora mismo."],
       ["mcq", "¿Cómo se dice \"soleado\" en portugués?", ["Ensolarado","Nublado","Chuvoso","Nevado"], 0, "Ensolarado = soleado. Nublado = nublado, chuvoso = lluvioso, nevado = nevado."],
-      ["arrange", "Ordena: [hoje / muito / calor / está]", ["Está muito calor hoje","Hoje está muito calor","Calor está muito hoje","Muito está calor hoje"], 0, "\"Está muito calor hoje.\" = hoy hace mucho calor."],
+      ["arrange", "Ordena: [hoje / muito / calor / está]", ["Está muito calor hoje","Está muito hoje calor","Calor está muito hoje","Muito está calor hoje"], 0, "\"Está muito calor hoje.\" = hoy hace mucho calor."],
     ]
   },
   {
@@ -724,7 +724,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","Qual é a forma correta de perguntar que dia é hoje?",["Que dia é hoje?","Que horas são hoje?","Quantos anos tens?","Onde vives?"],0,"\"Que dia é hoje?\" pergunta pelo dia da semana ou pela data."],
       ["fill","Completa: \"O meu aniversário é ___ 10 de março.\"",["dia","o","em","na"],0,"Para uma data concreta usa-se \"dia\": \"dia 10 de março\"."],
       ["translate","Traduz: \"Hoy es lunes.\"",["Hoje é segunda-feira.","Hoje é terça-feira.","Ontem foi segunda-feira.","Hoje é uma segunda-feira."],0,"\"Hoy es lunes\" = \"Hoje é segunda-feira\", sem artigo antes do dia."],
-      ["arrange","Ordena: [ginásio / vou / segundas-feiras / ao / às]",["Vou ao ginásio às segundas-feiras","Às segundas-feiras vou ao ginásio","Ao ginásio vou às segundas-feiras","Vou às segundas-feiras ao ginásio"],0,"Sujeito + verbo + complemento + \"às segundas-feiras\": \"Vou ao ginásio às segundas-feiras.\""],
+      ["arrange","Ordena: [ginásio / vou / segundas-feiras / ao / às]",["Vou ao ginásio às segundas-feiras","Ao vou ginásio às segundas-feiras","Ao ginásio vou às segundas-feiras","Vou às segundas-feiras ao ginásio"],0,"Sujeito + verbo + complemento + \"às segundas-feiras\": \"Vou ao ginásio às segundas-feiras.\""],
       ["writing","Escreve 3 frases (20-30 palavras) em português sobre a tua semana: que dia é hoje, quando é o teu aniversário e o que fazes num dia específico.",[],["hoje","aniversário","dia"],"Inclui pelo menos um dia da semana e um mês. Revê o uso de \"dia\" e \"às\"."]
     ]
   },
@@ -748,7 +748,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","Alguém te diz: \"Siga em frente e vire à esquerda na praça.\" O que deves fazer primeiro?",["Caminhar em frente.","Virar à direita.","Apanhar o autocarro.","Perguntar de novo."],0,"\"Siga em frente\" é a primeira instrução; a curva vem depois."],
       ["fill","Completa: \"A estação ___ a dois quarteirões daqui.\"",["fica","é","tem","faz"],0,"\"Fica\" indica localização: \"A estação fica a dois quarteirões daqui.\""],
       ["translate","Traduz: \"Gire a la derecha en el semáforo.\"",["Vire à direita no semáforo.","Vire à esquerda na praça.","Siga em frente no semáforo.","Pare no semáforo."],0,"\"Gire a la derecha\" = \"Vire à direita\"; \"en el semáforo\" = \"no semáforo\"."],
-      ["arrange","Ordena: [autocarro / apanhe / paragem / o / na]",["Apanhe o autocarro na paragem","O autocarro apanhe na paragem","Na paragem apanhe o autocarro","Apanhe na paragem o autocarro"],0,"Verbo + objeto + complemento de lugar: \"Apanhe o autocarro na paragem.\""],
+      ["arrange","Ordena: [autocarro / apanhe / paragem / o / na]",["Apanhe o autocarro na paragem","O autocarro apanhe na paragem","O apanhe autocarro na paragem","Apanhe na paragem o autocarro"],0,"Verbo + objeto + complemento de lugar: \"Apanhe o autocarro na paragem.\""],
       ["speaking","Explica em português, em 40-60 palavras, como chegar de tua casa a um lugar próximo. Usa pelo menos duas indicações e um meio de transporte.",[],["vire","em frente","minutos"],"Organiza a explicação em ordem: primeiro, depois, finalmente."]
     ]
   },
@@ -773,7 +773,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","Que resposta descreve melhor um ponto forte de forma profissional?",["Sou bom a organizar projetos e a cumprir prazos.","Sou o melhor de todos, sem dúvida.","Não tenho nenhum ponto fraco.","Trabalho quando me apetece."],0,"Uma boa resposta é específica e verificável, sem exagerar."],
       ["fill","Completa: \"___ trabalhado em vendas durante dois anos.\"",["Tenho","Sou","Estou","Fui"],0,"\"Tenho trabalhado\" descreve experiência relevante até hoje."],
       ["translate","Traduz: \"Tengo experiencia trabajando en equipo.\"",["Tenho experiência a trabalhar em equipa.","Tenho experiência trabalho equipa.","Equipa tenho experiência trabalho.","Tenho experiência trabalhar equipa é."],0,"\"Tengo experiencia trabajando en equipo\" = \"Tenho experiência a trabalhar em equipa.\""],
-      ["arrange","Ordena: [gosto / trabalhar / de / equipa / em]",["Gosto de trabalhar em equipa","De gosto trabalhar em equipa","Em equipa gosto de trabalhar","Trabalhar gosto de em equipa"],0,"\"Gosto de\" + infinitivo: \"Gosto de trabalhar em equipa.\""],
+      ["arrange","Ordena: [gosto / trabalhar / de / equipa / em]",["Gosto de trabalhar em equipa","De gosto trabalhar em equipa","Gosto de trabalhar equipa em","Trabalhar gosto de em equipa"],0,"\"Gosto de\" + infinitivo: \"Gosto de trabalhar em equipa.\""],
       ["writing","Escreve em português uma resposta de entrevista de 45-65 palavras à pergunta \"Porque queres este trabalho?\". Menciona a tua experiência, um ponto forte e a tua motivação.",[],["experiência","porque","gostaria"],"Estrutura: experiência relevante + ponto forte + motivação concreta.","Entrevista para um cargo de atendimento ao cliente."]
     ]
   },
@@ -871,7 +871,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","Qual é a forma correta de perguntar onde está algo?",["Onde é a cozinha?","O que é a cozinha?","Quando é a cozinha?","Quem é a cozinha?"],0,"\"Onde é/está...?\" pergunta pela localização de algo."],
       ["fill","Completa: \"O sofá está ___ da janela.\"",["ao lado","em cima","debaixo","atrás"],0,"\"Ao lado de\" indica que duas coisas estão uma perto da outra."],
       ["translate","Traduz: \"La cama está en el dormitorio.\"",["A cama está no quarto.","A cama está na cozinha.","A cadeira está no quarto.","A cama é o quarto."],0,"\"La cama está en el dormitorio\" = \"A cama está no quarto.\""],
-      ["arrange","Ordena: [cozinha / mesa / há / na / uma]",["Há uma mesa na cozinha","Na cozinha há uma mesa","Uma mesa há na cozinha","Há na cozinha uma mesa"],0,"\"Há\" + objeto + \"na\" + lugar: \"Há uma mesa na cozinha.\""],
+      ["arrange","Ordena: [cozinha / mesa / há / na / uma]",["Há uma mesa na cozinha","Uma há mesa na cozinha","Uma mesa há na cozinha","Há na cozinha uma mesa"],0,"\"Há\" + objeto + \"na\" + lugar: \"Há uma mesa na cozinha.\""],
       ["writing","Descreve em português, em 20-30 palavras, a tua casa ou apartamento: que divisões tem e que móveis há numa delas.",[],["quarto","há"],"Menciona pelo menos duas divisões e dois móveis."]
     ]
   },
@@ -1209,7 +1209,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","Qual é a diferença entre despesas fixas e variáveis?",["As fixas repetem-se todos os meses pelo mesmo valor; as variáveis mudam.","As fixas mudam todos os meses; as variáveis são sempre iguais.","Não há nenhuma diferença real entre elas.","As variáveis só existem em empresas, não em pessoas."],0,"As despesas fixas (a renda, por exemplo) mantêm-se estáveis; as variáveis (lazer, comida) mudam de mês para mês."],
       ["fill","Completa: \"Vou ___ uma conta bancária nova este mês.\"",["abrir","fechar","gastar","perder"],0,"\"Abrir uma conta bancária\" é a colocação correta para criar uma conta nova."],
       ["translate","Traduz: \"Deberías hacer un presupuesto mensual.\"",["Devias fazer um orçamento mensal.","Devias fazer orçamento mensal um.","Um orçamento mensal devias fazer.","Devias um orçamento mensal fazer."],0,"\"Deberías hacer un presupuesto mensual\" = \"Devias fazer um orçamento mensal.\""],
-      ["arrange","Ordena: [poupar / objetivo / para / um / quero]",["Quero poupar para um objetivo","Para um objetivo quero poupar","Poupar quero para um objetivo","Quero para um objetivo poupar"],0,"Sujeito + \"quero\" + infinitivo + complemento: \"Quero poupar para um objetivo.\""],
+      ["arrange","Ordena: [poupar / objetivo / para / um / quero]",["Quero poupar para um objetivo","Quero poupar para objetivo um","Poupar quero para um objetivo","Quero para um objetivo poupar"],0,"Sujeito + \"quero\" + infinitivo + complemento: \"Quero poupar para um objetivo.\""],
       ["writing","Escreve em português 45-65 palavras sobre a tua relação com o dinheiro: como organizas o teu orçamento, se poupas para algo concreto e um hábito financeiro que gostarias de melhorar.",[],["orçamento","poupar","despesas"],"Menciona pelo menos uma despesa fixa, uma despesa variável e uma meta de poupança."]
     ]
   },
@@ -1298,7 +1298,7 @@ window.LESSON_BANKS.PT = [
         ["trabalhar como + profissão", "trabajar de + profesión"]
       ],
       grammar: [
-        ["\"Ser\" com profissões (sem artigo)", "Com profissões, \"ser\" não leva artigo indefinido, ao contrário do inglês.", "Sou professor. (não \"Sou um professor\")"]
+        ["\"Ser\" com profissões (sem artigo)", "Com profissões, \"ser\" não leva artigo indefinido, tal como em espanhol (“Soy profesor”).", "Sou professor. (não \"Sou um professor\")"]
       ]
     },
     ex:[
@@ -2503,7 +2503,7 @@ window.LESSON_BANKS.PT = [
       ["mcq","¿Cómo se dice “lluvioso” en portugués?",["chuvoso","frio","ensolarado","a primavera"],0,"“Lluvioso” es “chuvoso” en portugués."],
       ["fill","Completa: “Hoje o tempo está muito ___, leve um guarda-chuva.”",["ensolarado", "frio", "quente", "chuvoso"],3,"“Chuvoso” describe un clima con lluvia: “está chuvoso”."],
       ["translate","Traduce: “Hace mucho frío en invierno.”",["Está muito frio no inverno.", "Está muito frio no verão.", "Faz muito frio no inverno todo dia.", "Está muito quente no inverno."],0,"“Hace mucho frío” se traduce como “está muito frio”, con “estar” + adjetivo."],
-      ["arrange","Ordena: [ensolarado / hoje / está]",["ensolarado está hoje", "está ensolarado hoje", "hoje está ensolarado", "está hoje ensolarado"],2,"Adverbio de tiempo + verbo + adjetivo."],
+      ["arrange","Ordena: [ensolarado / hoje / está]",["ensolarado está hoje", "hoje ensolarado está", "hoje está ensolarado", "está hoje ensolarado"],2,"Adverbio de tiempo + verbo + adjetivo."],
       ["writing","Descreva em português, em 20-30 palavras, o clima da sua cidade nas quatro estações, usando “está” e “faz”.",[],["está", "faz", "frio"]],
     ]
   },
@@ -2545,7 +2545,7 @@ window.LESSON_BANKS.PT = [
         ["escalar um negócio", "escalar un negocio"],
       ],
       grammar: [
-        ["“Ir” + infinitivo (futuro próximo) para planes", "“Ir” + infinitivo expresa un plan o intención ya decidida, el equivalente al “going to” en inglés.", "Vamos lançar o produto no mês que vem. / Ela vai procurar investidores."],
+        ["“Ir” + infinitivo (futuro próximo) para planes", "“Ir” + infinitivo expresa un plan o intención ya decidida, el equivalente a «ir a + infinitivo» en español.", "Vamos lançar o produto no mês que vem. / Ela vai procurar investidores."],
       ]
     },
     ex:[
@@ -2720,7 +2720,7 @@ window.LESSON_BANKS.PT = [
         ["as ruínas", "las ruinas"],
       ],
       grammar: [
-        ["Futuro composto de probabilidade sobre o passado", "El futuro composto (“terá” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Este artefato terá pertencido a um rei. / O sítio pode ter sido um templo."],
+        ["Futuro composto de probabilidade sobre o passado", "El futuro composto (“terá” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a «habrá + participio» o «debe de haber» en español.", "Este artefato terá pertencido a um rei. / O sítio pode ter sido um templo."],
       ]
     },
     ex:[
@@ -3445,7 +3445,7 @@ window.LESSON_BANKS.PT = [
         ["rastrear as raízes", "rastrear las propias raíces"],
       ],
       grammar: [
-        ["“Embora” + subjuntivo para concesión", "“Embora” + subjuntivo introduce un contraste o concesión formal, equivalente a “although/even though” en inglés.", "Embora os registros sejam antigos, rastreamos nossas raízes. / Embora nunca tenha conhecido a bisavó, ela conhece a história da família."],
+        ["“Embora” + subjuntivo para concesión", "“Embora” + subjuntivo introduce un contraste o concesión formal, equivalente a «aunque» en español.", "Embora os registros sejam antigos, rastreamos nossas raízes. / Embora nunca tenha conhecido a bisavó, ela conhece a história da família."],
       ]
     },
     ex:[
@@ -3520,7 +3520,7 @@ window.LESSON_BANKS.PT = [
         ["a humildade epistêmica", "la humildad epistémica"],
       ],
       grammar: [
-        ["“Mal... quando” para secuencia inmediata", "“Mal... quando” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Mal os filósofos propuseram uma teoria da certeza, quando os céticos a contestaram. / Mal alguém afirma saber algo, quando a dúvida surge."],
+        ["“Mal... quando” para secuencia inmediata", "“Mal... quando” expresa que una acción ocurrió inmediatamente después de otra, equivalente a «apenas... cuando» en español.", "Mal os filósofos propuseram uma teoria da certeza, quando os céticos a contestaram. / Mal alguém afirma saber algo, quando a dúvida surge."],
       ]
     },
     ex:[
@@ -3645,7 +3645,7 @@ window.LESSON_BANKS.PT = [
         ["a acidificação dos oceanos", "la acidificación del océano"],
       ],
       grammar: [
-        ["“Desde que/contanto que” + subjuntivo", "“Desde que” y “contanto que” + subjuntivo expresan una condición necesaria, equivalentes a “provided that” en inglés.", "A biodiversidade marinha pode se recuperar, desde que a poluição diminua. / Os recifes sobrevivem contanto que as temperaturas permaneçam estáveis."],
+        ["“Desde que/contanto que” + subjuntivo", "“Desde que” y “contanto que” + subjuntivo expresan una condición necesaria, equivalentes a «siempre que» o «con tal de que» en español.", "A biodiversidade marinha pode se recuperar, desde que a poluição diminua. / Os recifes sobrevivem contanto que as temperaturas permaneçam estáveis."],
       ]
     },
     ex:[
@@ -3670,7 +3670,7 @@ window.LESSON_BANKS.PT = [
         ["cartografar", "cartografiar"],
       ],
       grammar: [
-        ["“Se não fosse por” para condición formal", "“Se não fosse por” + sustantivo expresa una condición hipotética muy formal, equivalente a “were it not for” en inglés.", "Se não fosse pelos primeiros cartógrafos, a exploração teria sido impossível. / Se não fosse pelas imagens de satélite, os mapas modernos seriam muito menos precisos."],
+        ["“Se não fosse por” para condición formal", "“Se não fosse por” + sustantivo expresa una condición hipotética muy formal, equivalente a «de no ser por» en español.", "Se não fosse pelos primeiros cartógrafos, a exploração teria sido impossível. / Se não fosse pelas imagens de satélite, os mapas modernos seriam muito menos precisos."],
       ]
     },
     ex:[
@@ -3820,7 +3820,7 @@ window.LESSON_BANKS.PT = [
         ["a entrega just-in-time", "la entrega justo a tiempo"],
       ],
       grammar: [
-        ["Estruturas enfáticas de surpresa (poucos imaginavam/ninguém esperava)", "“Poucos imaginavam” o “ninguém esperava” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Poucas empresas imaginavam o quão frágil era a cadeia de suprimentos. / Ninguém esperava uma interrupção logística tão grave."],
+        ["Estruturas enfáticas de surpresa (poucos imaginavam/ninguém esperava)", "“Poucos imaginavam” o “ninguém esperava” al inicio enfatizan que algo fue una sorpresa total, equivalente a «pocos se imaginaban» o «nadie esperaba» en español.", "Poucas empresas imaginavam o quão frágil era a cadeia de suprimentos. / Ninguém esperava uma interrupção logística tão grave."],
       ]
     },
     ex:[
@@ -3920,7 +3920,7 @@ window.LESSON_BANKS.PT = [
         ["o polinizador", "el polinizador"],
       ],
       grammar: [
-        ["“Além de/assim como”", "“Além de” + infinitivo o sustantivo y “assim como” añaden información extra, similares a “besides” en inglés.", "Além de polinizar flores, as abelhas produzem mel. / Os besouros, assim como as borboletas, passam por metamorfose."],
+        ["“Além de/assim como”", "“Além de” + infinitivo o sustantivo y “assim como” añaden información extra, similares a «además de» en español.", "Além de polinizar flores, as abelhas produzem mel. / Os besouros, assim como as borboletas, passam por metamorfose."],
       ]
     },
     ex:[
@@ -4120,7 +4120,7 @@ window.LESSON_BANKS.PT = [
         ["o estímulo fiscal", "el estímulo fiscal"],
       ],
       grammar: [
-        ["“Na medida em que” para qualificar", "“Na medida em que” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Na medida em que a inflação permanecer estável, cortes na taxa são possíveis. / A política funciona na medida em que os bancos emprestam com mais liberdade."],
+        ["“Na medida em que” para qualificar", "“Na medida em que” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a «en la medida en que» en español.", "Na medida em que a inflação permanecer estável, cortes na taxa são possíveis. / A política funciona na medida em que os bancos emprestam com mais liberdade."],
       ]
     },
     ex:[
@@ -4145,7 +4145,7 @@ window.LESSON_BANKS.PT = [
         ["Como...?", "¿Cómo...?"],
       ],
       grammar: [
-        ["Ordem das perguntas em português", "Em português não é necessário um auxiliar como em inglês; basta a palavra interrogativa + verbo (+ sujeito, muitas vezes omitido).", "Onde você mora? / Como você se chama? / Quando começa a aula?"],
+        ["Ordem das perguntas em português", "Em português, como em espanhol, não é necessário um auxiliar: basta a palavra interrogativa + verbo (+ sujeito, muitas vezes omitido).", "Onde você mora? / Como você se chama? / Quando começa a aula?"],
       ]
     },
     ex:[
@@ -4243,7 +4243,7 @@ window.LESSON_BANKS.PT = [
         ["E você?", "¿Y tú?"],
       ],
       grammar: [
-        ["Verbo + infinitivo tras “gostar de/adorar/odiar”", "En portugués, el verbo que sigue a “gostar de”, “adorar” u “odiar” va en infinitivo, no en gerundio como en inglés. “Gostar” siempre lleva la preposición “de”.", "Eu adoro ler. / Ela odeia esperar na fila."],
+        ["Verbo + infinitivo tras “gostar de/adorar/odiar”", "En portugués, el verbo que sigue a “gostar de”, “adorar” u “odiar” va en infinitivo, como en español («me gusta leer»). “Gostar” siempre lleva la preposición “de”.", "Eu adoro ler. / Ela odeia esperar na fila."],
       ]
     },
     ex:[
@@ -4388,7 +4388,7 @@ window.LESSON_BANKS.PT = [
         ["no meio de...", "en medio de..."],
       ],
       grammar: [
-        ["“Estar” en imperfecto + gerundio + pretérito perfeito", "El portugués usa “estar” en pretérito imperfeito + gerundio para la acción en curso (similar al inglés), y el pretérito perfeito para la acción que la interrumpe.", "Eu estava cozinhando o jantar quando o telefone tocou. / Enquanto ela estava estudando, o amigo dela chegou."],
+        ["“Estar” en imperfecto + gerundio + pretérito perfeito", "El portugués usa “estar” en pretérito imperfeito + gerundio para la acción en curso (igual que el español «estaba + gerundio»), y el pretérito perfeito para la acción que la interrumpe.", "Eu estava cozinhando o jantar quando o telefone tocou. / Enquanto ela estava estudando, o amigo dela chegou."],
       ]
     },
     ex:[
@@ -4532,7 +4532,7 @@ window.LESSON_BANKS.PT = [
         ["ficar + gerúndio", "seguir haciendo (duración)"],
       ],
       grammar: [
-        ["“Estar + gerúndio” para el progresivo brasileño", "El portugués de Brasil usa mucho “estar + gerundio” para el progresivo; la mayoría de los verbos con complemento verbal usan infinitivo, no gerundio como en inglés.", "Ela está aprendendo português. / Acabei de chegar. / Continua a chover."],
+        ["“Estar + gerúndio” para el progresivo brasileño", "El portugués de Brasil usa mucho “estar + gerundio” para el progresivo; la mayoría de los verbos con complemento verbal usan infinitivo, no gerundio (como en español).", "Ela está aprendendo português. / Acabei de chegar. / Continua a chover."],
       ]
     },
     ex:[
@@ -4628,7 +4628,7 @@ window.LESSON_BANKS.PT = [
         ["estrutura enfática", "estructura enfática"],
       ],
       grammar: [
-        ["Anteposición de adverbios negativos/restrictivos", "El portugués no tiene inversión sujeto-auxiliar como el inglés, pero antepone adverbios negativos/restrictivos (“jamais”, “mal”, “não só”) al inicio de la oración para dar énfasis.", "Jamais pensei que o veria de novo. / Não só ganhou a corrida, mas também bateu o recorde."],
+        ["Anteposición de adverbios negativos/restrictivos", "El portugués no invierte sujeto y auxiliar, pero antepone adverbios negativos/restrictivos (“jamais”, “mal”, “não só”) al inicio de la oración para dar énfasis.", "Jamais pensei que o veria de novo. / Não só ganhou a corrida, mas também bateu o recorde."],
       ]
     },
     ex:[
@@ -4892,7 +4892,7 @@ window.LESSON_BANKS.PT = [
         ["O que é isto?", "¿Qué es esto?"],
       ],
       grammar: [
-        ["Tres grados de distancia en portugués", "Como el español, el portugués tiene tres grados de distancia: “este” (cerca de mí), “esse” (cerca de ti), “aquele” (lejos de los dos) — a diferencia del inglés que solo distingue dos.", "Este é o meu telefone. / Aqueles são meus amigos, lá longe."],
+        ["Tres grados de distancia en portugués", "Como el español, el portugués tiene tres grados de distancia: “este” (cerca de mí), “esse” (cerca de ti), “aquele” (lejos de los dos).", "Este é o meu telefone. / Aqueles são meus amigos, lá longe."],
       ]
     },
     ex:[
@@ -4964,7 +4964,7 @@ window.LESSON_BANKS.PT = [
         ["a casa dos meus pais", "la casa de mis padres"],
       ],
       grammar: [
-        ["“De + poseedor”, contraído con el artículo", "A diferencia del inglés (Ana's book), el portugués siempre expresa la posesión con “de + poseedor”, después del objeto poseído; “de + a” se contrae en “da”, “de + os” en “dos”.", "Este é o livro da Ana. / A casa dos meus pais é grande."],
+        ["“De + poseedor”, contraído con el artículo", "El portugués siempre expresa la posesión con “de + poseedor”, después del objeto poseído, como en español («el libro de Ana»); “de + a” se contrae en “da”, “de + os” en “dos”.", "Este é o livro da Ana. / A casa dos meus pais é grande."],
       ]
     },
     ex:[
@@ -5084,7 +5084,7 @@ window.LESSON_BANKS.PT = [
         ["dar-se conta de", "darse cuenta"],
       ],
       grammar: [
-        ["Verbo + preposición fija cambia el significado", "Algunos verbos portugueses cambian de significado al combinarse con una preposición fija, de forma similar a los phrasal verbs del inglés.", "Parei de fumar no ano passado. / Percebi a jaqueta nova dela. / Você pode contar comigo."],
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos portugueses cambian de significado al combinarse con una preposición fija, de forma similar a verbos españoles como «pensar en» o «soñar con».", "Parei de fumar no ano passado. / Percebi a jaqueta nova dela. / Você pode contar comigo."],
       ]
     },
     ex:[
@@ -5156,12 +5156,12 @@ window.LESSON_BANKS.PT = [
         ["confirmar uma informação", "confirmar información"],
       ],
       grammar: [
-        ["Coletillas invariables, “né?” es la más usada", "A diferencia del inglés, que usa question tags que cambian según el verbo, el portugués usa las mismas coletillas invariables (não é?, né?, certo?); “né?” es extremadamente común en el habla.", "Você é da Espanha, não é? / Você não gosta de café, né?"],
+        ["Coletillas invariables, “né?” es la más usada", "Como en español («¿verdad?», «¿no?»), el portugués usa coletillas invariables (não é?, né?, certo?) que no cambian según el verbo; “né?” es extremadamente común en el habla.", "Você é da Espanha, não é? / Você não gosta de café, né?"],
       ]
     },
     ex:[
       ["mcq","¿Qué coletilla es extremadamente común e informal en portugués hablado?",["certo?", "né?", "tá?", "não é?"],1,"“Né?” es la coletilla más común e informal."],
-      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en portugués cambian según el verbo", "en portugués solo se usan en el pasado", "en portugués son invariables", "en portugués solo se usan en negativo"],2,"En portugués las coletillas no cambian según el verbo."],
+      ["mcq","¿Cómo se comportan las coletillas de confirmación en portugués (não é?, né?, certo?)?",["en portugués cambian según el verbo", "en portugués solo se usan en el pasado", "en portugués son invariables", "en portugués solo se usan en negativo"],2,"En portugués las coletillas no cambian según el verbo."],
       ["fill","Completa: “Você não gosta de café, ___?”",["né", "certo", "tá", "sim"],0,"“Né?” es la coletilla más común e informal."],
       ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["Você foi à festa, foi você?", "Você foi à festa, não é você?", "Você foi à festa, não foi?", "Você foi à festa, não é foi?"],2,"“Não foi?” repite el verbo en pasado."],
       ["arrange","Ordena: [Espanha / é / não / você / da / é]",["você é da Espanha não é", "Espanha da é não você é", "Espanha não é é você da", "é não você é da Espanha"],0,"Afirmación + coletilla de confirmación."],
@@ -5204,7 +5204,7 @@ window.LESSON_BANKS.PT = [
         ["Eu espero há uma hora.", "Llevo una hora esperando."],
       ],
       grammar: [
-        ["Sin “present perfect continuous”: presente + há", "El portugués de Brasil casi no usa una forma compuesta equivalente al present perfect continuous inglés; para la duración de una acción que sigue en curso, se usa el PRESENTE + “há”.", "Eu li três livros este mês. (resultado) / Eu espero há uma hora. (duración, en presente)"],
+        ["Sin tiempo compuesto para la duración: presente + há", "El portugués de Brasil casi no usa una forma compuesta para la duración (a diferencia de «llevar + gerundio» en español); para la duración de una acción que sigue en curso, se usa el PRESENTE + “há”.", "Eu li três livros este mês. (resultado) / Eu espero há uma hora. (duración, en presente)"],
       ]
     },
     ex:[

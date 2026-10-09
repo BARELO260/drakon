@@ -192,7 +192,7 @@ window.LESSON_BANKS.IT = [
       ["mcq", "¿Qué estación sigue a la primavera (la primavera)?", ["L'estate","L'inverno","L'autunno","La primavera"], 0, "El orden de las estaciones es: la primavera, l'estate, l'autunno, l'inverno."],
       ["translate", "Traduce al italiano: \"Está lloviendo ahora mismo.\"", ["Sta piovendo proprio adesso","Pioverà domani","Fa freddo adesso","Ha piovuto ieri"], 0, "\"Stare + gerundio\" (presente progresivo) describe una acción en curso ahora mismo."],
       ["mcq", "¿Cómo se dice \"soleado\" en italiano?", ["Soleggiato","Nuvoloso","Piovoso","Nevoso"], 0, "Soleggiato = soleado. Nuvoloso = nublado, piovoso = lluvioso, nevoso = nevado."],
-      ["arrange", "Ordena: [oggi / molto / caldo / fa]", ["Fa molto caldo oggi","Oggi fa molto caldo","Caldo fa molto oggi","Molto fa caldo oggi"], 0, "\"Fa molto caldo oggi.\" = hoy hace mucho calor."],
+      ["arrange", "Ordena: [oggi / molto / caldo / fa]", ["Fa molto caldo oggi","Fa molto oggi caldo","Caldo fa molto oggi","Molto fa caldo oggi"], 0, "\"Fa molto caldo oggi.\" = hoy hace mucho calor."],
     ]
   },
   {
@@ -773,7 +773,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Quale risposta descrive meglio un punto di forza in modo professionale?",["Sono bravo a organizzare progetti e rispettare le scadenze.","Sono il migliore di tutti, senza dubbio.","Non ho nessun punto debole.","Lavoro quando ne ho voglia."],0,"Una buona risposta è specifica e verificabile, senza esagerare."],
       ["fill","Completa: \"___ lavorato nelle vendite per due anni.\"",["Ho","Sono","È","Hai"],0,"\"Ho lavorato\" (passato prossimo) descrive un'esperienza passata rilevante oggi."],
       ["translate","Traduci: \"Tengo experiencia trabajando en equipo.\"",["Ho esperienza nel lavoro di squadra.","Ho esperienza lavoro squadra.","Squadra ho esperienza lavoro.","Ho esperienza lavorando squadra è."],0,"\"Tengo experiencia trabajando en equipo\" = \"Ho esperienza nel lavoro di squadra.\""],
-      ["arrange","Metti in ordine: [piace / lavorare / mi / squadra / in]",["Mi piace lavorare in squadra","Piace mi lavorare in squadra","In squadra mi piace lavorare","Lavorare mi piace in squadra"],0,"\"Mi piace\" + infinito: \"Mi piace lavorare in squadra.\""],
+      ["arrange","Metti in ordine: [piace / lavorare / mi / squadra / in]",["Mi piace lavorare in squadra","Piace mi lavorare in squadra","Mi piace lavorare squadra in","Lavorare mi piace in squadra"],0,"\"Mi piace\" + infinito: \"Mi piace lavorare in squadra.\""],
       ["writing","Scrivi in italiano una risposta di colloquio di 45-65 parole alla domanda \"Perché vuoi questo lavoro?\". Menziona la tua esperienza, un punto di forza e la tua motivazione.",[],["esperienza","perché","mi piacerebbe"],"Struttura: esperienza rilevante + punto di forza + motivazione concreta.","Colloquio per un ruolo nel servizio clienti."]
     ]
   },
@@ -871,7 +871,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Qual è il modo corretto di chiedere dove si trova qualcosa?",["Dov'è la cucina?","Cos'è la cucina?","Quando è la cucina?","Chi è la cucina?"],0,"\"Dov'è...?\" chiede dove si trova qualcosa."],
       ["fill","Completa: \"Il divano è ___ alla finestra.\"",["accanto","sopra","sotto","dietro"],0,"\"Accanto a\" indica che due cose sono una vicino all'altra."],
       ["translate","Traduci: \"La cama está en el dormitorio.\"",["Il letto è in camera da letto.","Il letto è in cucina.","La sedia è in camera da letto.","Il letto è la camera da letto."],0,"\"La cama está en el dormitorio\" = \"Il letto è in camera da letto.\""],
-      ["arrange","Metti in ordine: [cucina / tavolo / c'è / in / un]",["C'è un tavolo in cucina","In cucina c'è un tavolo","Un tavolo c'è in cucina","C'è in cucina un tavolo"],0,"\"C'è\" + oggetto + \"in\" + luogo: \"C'è un tavolo in cucina.\""],
+      ["arrange","Metti in ordine: [cucina / tavolo / c'è / in / un]",["C'è un tavolo in cucina","Un c'è tavolo in cucina","Un tavolo c'è in cucina","C'è in cucina un tavolo"],0,"\"C'è\" + oggetto + \"in\" + luogo: \"C'è un tavolo in cucina.\""],
       ["writing","Descrivi in 20-30 parole la tua casa o il tuo appartamento in italiano: quali stanze ci sono e quali mobili si trovano in una di esse.",[],["camera da letto","c'è","ci sono"],"Menziona almeno due stanze e due mobili."]
     ]
   },
@@ -1209,7 +1209,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Che differenza c'è tra spese fisse e variabili?",["Le fisse si ripetono ogni mese allo stesso importo; le variabili cambiano.","Le fisse cambiano ogni mese; le variabili sono sempre uguali.","Non c'è nessuna differenza reale tra loro.","Le variabili esistono solo per le aziende, non per le persone."],0,"Le spese fisse (l'affitto, per esempio) restano stabili; le variabili (svago, cibo) cambiano ogni mese."],
       ["fill","Completa: \"Sto per ___ un nuovo conto bancario questo mese.\"",["aprire","chiudere","spendere","perdere"],0,"\"Aprire un conto bancario\" è la collocazione corretta per creare un nuovo conto."],
       ["translate","Traduci: \"Deberías hacer un presupuesto mensual.\"",["Dovresti fare un budget mensile.","Dovresti fare budget mensile un.","Un budget mensile dovresti fare.","Dovresti un budget mensile fare."],0,"\"Deberías hacer un presupuesto mensual\" = \"Dovresti fare un budget mensile.\""],
-      ["arrange","Metti in ordine: [risparmiare / obiettivo / per / un / voglio]",["Voglio risparmiare per un obiettivo","Per un obiettivo voglio risparmiare","Risparmiare voglio per un obiettivo","Voglio per un obiettivo risparmiare"],0,"Soggetto + \"voglio\" + infinito + complemento: \"Voglio risparmiare per un obiettivo.\""],
+      ["arrange","Metti in ordine: [risparmiare / obiettivo / per / un / voglio]",["Voglio risparmiare per un obiettivo","Voglio risparmiare per obiettivo un","Risparmiare voglio per un obiettivo","Voglio per un obiettivo risparmiare"],0,"Soggetto + \"voglio\" + infinito + complemento: \"Voglio risparmiare per un obiettivo.\""],
       ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con il denaro: come organizzi il tuo budget, se risparmi per qualcosa di concreto e un'abitudine finanziaria che vorresti migliorare.",[],["budget","risparmiare","spese"],"Menziona almeno una spesa fissa, una spesa variabile e un obiettivo di risparmio."]
     ]
   },
@@ -1298,7 +1298,7 @@ window.LESSON_BANKS.IT = [
         ["lavorare come + professione", "trabajar de + profesión"]
       ],
       grammar: [
-        ["\"Essere\" con le professioni (senza articolo)", "Con le professioni, \"essere\" non porta l'articolo indeterminativo, a differenza dell'inglese.", "Sono insegnante. (non \"Sono un insegnante\")"]
+        ["\"Essere\" con le professioni (senza articolo)", "Con le professioni, \"essere\" non porta l'articolo indeterminativo, come in spagnolo (“Soy profesor”).", "Sono insegnante. (non \"Sono un insegnante\")"]
       ]
     },
     ex:[
@@ -1306,7 +1306,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Qual è la forma corretta per dire la propria professione in italiano?",["Sono insegnante.","Sono un insegnante.","Ho insegnante.","Faccio insegnante."],0,"In italiano, \"essere\" + professione non porta l'articolo: \"Sono insegnante.\""],
       ["fill","Completa: \"Mia sorella ___ medica in un ospedale.\"",["è","ha","fa","lavora è"],0,"\"Essere\" si usa per le professioni: \"Mia sorella è medica.\""],
       ["translate","Traduci: \"Trabajo en una oficina.\"",["Lavoro in un ufficio.","Lavoro un ufficio.","Sono lavoro in un ufficio.","Lavoro di un ufficio."],0,"\"Trabajo en una oficina\" = \"Lavoro in un ufficio.\""],
-      ["arrange","Metti in ordine: [cameriere / lavoro / ristorante / come / in / un]",["Lavoro come cameriere in un ristorante","Come cameriere lavoro in un ristorante","Lavoro in un ristorante come cameriere","In un ristorante lavoro come cameriere"],0,"\"Lavoro come\" + professione + \"in\" + luogo: \"Lavoro come cameriere in un ristorante.\""],
+      ["arrange","Metti in ordine: [cameriere / lavoro / ristorante / come / in / un]",["Lavoro come cameriere in un ristorante","Come cameriere lavoro in un ristorante","Lavoro in un ristorante come cameriere","Come lavoro cameriere in un ristorante"],0,"\"Lavoro come\" + professione + \"in\" + luogo: \"Lavoro come cameriere in un ristorante.\""],
       ["writing","Scrivi in italiano 20-30 parole sulla tua professione (reale o immaginata) e dove lavori. Menziona almeno due compiti che svolgi sul lavoro.",[],["sono","lavoro","come"],"Usa \"essere\" per la professione e \"lavorare in/come\" per il luogo o il ruolo."]
     ]
   },
@@ -2045,7 +2045,7 @@ window.LESSON_BANKS.IT = [
         ["la squadra", "el equipo"],
       ],
       grammar: [
-        ["Il verbo „piacere” + infinito/sostantivo", "„Piacere” funziona al contrario dell'inglese: concorda con ciò che piace, non con la persona. Si usa con pronomi indiretti (mi, ti, gli/le, ci, vi, gli).", "Mi piace nuotare. / A lei piacciono gli sport di squadra."],
+        ["Il verbo „piacere” + infinito/sostantivo", "„Piacere” funziona come “gustar” in spagnolo: concorda con ciò che piace, non con la persona. Si usa con pronomi indiretti (mi, ti, gli/le, ci, vi, gli).", "Mi piace nuotare. / A lei piacciono gli sport di squadra."],
       ]
     },
     ex:[
@@ -2103,7 +2103,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","Come si dice “echar de menos a alguien” in italiano?",["avere un appuntamento", "innamorarsi di qualcuno", "sentire la mancanza di qualcuno", "lasciare qualcuno"],2,"“echar de menos a alguien” si dice “sentire la mancanza di qualcuno” in italiano."],
       ["fill","Completa: “Ti prometto che non ti ___ mai.”",["lasciavo", "lascio", "lascerò", "ho lasciato"],2,"Il futuro semplice „lascerò” esprime una promessa ferma su qualcosa che non accadrà."],
       ["translate","Traduci: “Creo que ustedes dos se comprometerán pronto.”",["Credo che vi innamorerete presto.", "Credo che vi fidanzerete presto.", "Credo che vi fidanzerete domani.", "Credo che vi fidanzate presto."],1,"“Se comprometerán” = “vi fidanzerete”, futuro semplice per una previsione."],
-      ["arrange","Ordina: [appuntamento / avrò / un / domani]",["Avrò appuntamento domani un", "domani Avrò un appuntamento", "Avrò domani appuntamento un", "Avrò un appuntamento domani"],3,"Futuro semplice + articolo + sostantivo + avverbio di tempo."],
+      ["arrange","Ordina: [appuntamento / avrò / un / domani]",["Avrò appuntamento domani un", "Un avrò appuntamento domani", "Avrò domani appuntamento un", "Avrò un appuntamento domani"],3,"Futuro semplice + articolo + sostantivo + avverbio di tempo."],
       ["writing","Scrivi 45-65 parole su una relazione (reale o inventata), usando almeno due verbi al futuro semplice per fare promesse o previsioni.",[],["prometterò/prometterà", "saremo", "compagno/a"]],
     ]
   },
@@ -2545,7 +2545,7 @@ window.LESSON_BANKS.IT = [
         ["far crescere un'azienda", "escalar un negocio"],
       ],
       grammar: [
-        ["Futuro semplice para planes", "El futuro semplice expresa un plan o intención decidida, similar a “going to” en inglés cuando el plan ya está claro.", "Lanceremo il prodotto il mese prossimo. / Lei cercherà investitori."],
+        ["Futuro semplice para planes", "El futuro semplice expresa un plan o intención decidida, similar a «ir a + infinitivo» en español cuando el plan ya está claro.", "Lanceremo il prodotto il mese prossimo. / Lei cercherà investitori."],
       ]
     },
     ex:[
@@ -2720,7 +2720,7 @@ window.LESSON_BANKS.IT = [
         ["le rovine", "las ruinas"],
       ],
       grammar: [
-        ["Futuro anteriore di probabilità sul passato", "El futuro anteriore (“avrà/sarà” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Questo manufatto sarà appartenuto a un re. / Il sito potrebbe essere stato un tempio."],
+        ["Futuro anteriore di probabilità sul passato", "El futuro anteriore (“avrà/sarà” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a «habrá + participio» o «debe de haber» en español.", "Questo manufatto sarà appartenuto a un re. / Il sito potrebbe essere stato un tempio."],
       ]
     },
     ex:[
@@ -3345,7 +3345,7 @@ window.LESSON_BANKS.IT = [
         ["la riabilitazione", "la rehabilitación"],
       ],
       grammar: [
-        ["“Potrebbe/potrebbero” para posibilidad formal", "“Potrebbe” (condizionale de “potere”) expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "Le prove forensi potrebbero indicare il sospettato. / Senza riabilitazione, la recidiva potrebbe aumentare."],
+        ["“Potrebbe/potrebbero” para posibilidad formal", "“Potrebbe” (condizionale de “potere”) expresa posibilidad en registro formal/legal, similar a «podría» (condicional de «poder») en español.", "Le prove forensi potrebbero indicare il sospettato. / Senza riabilitazione, la recidiva potrebbe aumentare."],
       ]
     },
     ex:[
@@ -3520,7 +3520,7 @@ window.LESSON_BANKS.IT = [
         ["l'umiltà epistemica", "la humildad epistémica"],
       ],
       grammar: [
-        ["“Appena... che” para secuencia inmediata", "“Appena... che” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Appena i filosofi avevano proposto una teoria della certezza, che gli scettici la contestavano. / Appena si afferma di sapere qualcosa, che il dubbio sorge."],
+        ["“Appena... che” para secuencia inmediata", "“Appena... che” expresa que una acción ocurrió inmediatamente después de otra, equivalente a «apenas... cuando» en español.", "Appena i filosofi avevano proposto una teoria della certezza, che gli scettici la contestavano. / Appena si afferma di sapere qualcosa, che il dubbio sorge."],
       ]
     },
     ex:[
@@ -3645,7 +3645,7 @@ window.LESSON_BANKS.IT = [
         ["l'acidificazione degli oceani", "la acidificación del océano"],
       ],
       grammar: [
-        ["“Purché/a condizione che” + congiuntivo", "“Purché” y “a condizione che” + congiuntivo expresan una condición necesaria, equivalentes a “provided that” en inglés.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca. / Le barriere coralline sopravvivono a condizione che le temperature restino stabili."],
+        ["“Purché/a condizione che” + congiuntivo", "“Purché” y “a condizione che” + congiuntivo expresan una condición necesaria, equivalentes a «siempre que» o «con tal de que» en español.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca. / Le barriere coralline sopravvivono a condizione che le temperature restino stabili."],
       ]
     },
     ex:[
@@ -3670,7 +3670,7 @@ window.LESSON_BANKS.IT = [
         ["mappare", "cartografiar"],
       ],
       grammar: [
-        ["“Se non fosse per” para condición formal", "“Se non fosse per” + sustantivo expresa una condición hipotética muy formal, equivalente a “were it not for” en inglés.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile. / Se non fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise."],
+        ["“Se non fosse per” para condición formal", "“Se non fosse per” + sustantivo expresa una condición hipotética muy formal, equivalente a «de no ser por» en español.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile. / Se non fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise."],
       ]
     },
     ex:[
@@ -3720,7 +3720,7 @@ window.LESSON_BANKS.IT = [
         ["la presa", "el agarre"],
       ],
       grammar: [
-        ["“Da” + tiempo con presente para duración continua", "El italiano expresa una acción que empezó en el pasado y continúa usando el presente + “da” + tiempo, a diferencia del inglés que usa presente perfecto continuo.", "Scaliamo da tre ore. / Si allena da un anno per la vetta."],
+        ["“Da” + tiempo con presente para duración continua", "El italiano expresa una acción que empezó en el pasado y continúa usando el presente + “da” + tiempo, de forma parecida a «hace... que» o «llevar + gerundio» en español.", "Scaliamo da tre ore. / Si allena da un anno per la vetta."],
       ]
     },
     ex:[
@@ -3820,7 +3820,7 @@ window.LESSON_BANKS.IT = [
         ["la consegna just-in-time", "la entrega justo a tiempo"],
       ],
       grammar: [
-        ["Strutture enfatiche di sorpresa (pochi immaginavano/nessuno si aspettava)", "“Pochi immaginavano” o “nessuno si aspettava” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Pochi immaginavano quanto fosse fragile la catena di approvvigionamento. / Nessuno si aspettava un'interruzione logistica così grave."],
+        ["Strutture enfatiche di sorpresa (pochi immaginavano/nessuno si aspettava)", "“Pochi immaginavano” o “nessuno si aspettava” al inicio enfatizan que algo fue una sorpresa total, equivalente a «pocos se imaginaban» o «nadie esperaba» en español.", "Pochi immaginavano quanto fosse fragile la catena di approvvigionamento. / Nessuno si aspettava un'interruzione logistica così grave."],
       ]
     },
     ex:[
@@ -3920,7 +3920,7 @@ window.LESSON_BANKS.IT = [
         ["l'impollinatore", "el polinizador"],
       ],
       grammar: [
-        ["“Oltre a/così come”", "“Oltre a” + infinito o sustantivo y “così come” añaden información extra, similares a “besides” en inglés.", "Oltre a impollinare i fiori, le api producono miele. / Gli scarabei, così come le farfalle, subiscono la metamorfosi."],
+        ["“Oltre a/così come”", "“Oltre a” + infinito o sustantivo y “così come” añaden información extra, similares a «además de» en español.", "Oltre a impollinare i fiori, le api producono miele. / Gli scarabei, così come le farfalle, subiscono la metamorfosi."],
       ]
     },
     ex:[
@@ -4120,7 +4120,7 @@ window.LESSON_BANKS.IT = [
         ["lo stimolo fiscale", "el estímulo fiscal"],
       ],
       grammar: [
-        ["“Nella misura in cui” per qualificare", "“Nella misura in cui” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Nella misura in cui l'inflazione rimane stabile, sono possibili tagli dei tassi. / La politica funziona nella misura in cui le banche prestano più liberamente."],
+        ["“Nella misura in cui” per qualificare", "“Nella misura in cui” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a «en la medida en que» en español.", "Nella misura in cui l'inflazione rimane stabile, sono possibili tagli dei tassi. / La politica funziona nella misura in cui le banche prestano più liberamente."],
       ]
     },
     ex:[
@@ -4145,7 +4145,7 @@ window.LESSON_BANKS.IT = [
         ["Come...?", "¿Cómo...?"],
       ],
       grammar: [
-        ["Ordine delle domande in italiano", "In italiano non serve un ausiliare come in inglese; basta la parola interrogativa + verbo (+ soggetto, spesso omesso).", "Dove abiti? / Come ti chiami? / Quando inizia il corso?"],
+        ["Ordine delle domande in italiano", "In italiano, come in spagnolo, non serve un ausiliare: basta la parola interrogativa + verbo (+ soggetto, spesso omesso).", "Dove abiti? / Come ti chiami? / Quando inizia il corso?"],
       ]
     },
     ex:[
@@ -4194,7 +4194,7 @@ window.LESSON_BANKS.IT = [
         ["C'è...? / Ci sono...?", "¿Hay...?"],
       ],
       grammar: [
-        ["“C'è” vs “Ci sono”", "A diferencia del inglés, en italiano “c'è” (singular) y “ci sono” (plural) sí cambian según el número del sustantivo.", "C'è una lampada sul tavolo. / Ci sono due sedie accanto alla scrivania."],
+        ["“C'è” vs “Ci sono”", "A diferencia del español («hay», invariable), en italiano “c'è” (singular) y “ci sono” (plural) sí cambian según el número del sustantivo.", "C'è una lampada sul tavolo. / Ci sono due sedie accanto alla scrivania."],
       ]
     },
     ex:[
@@ -4388,7 +4388,7 @@ window.LESSON_BANKS.IT = [
         ["nel mezzo di...", "en medio de..."],
       ],
       grammar: [
-        ["“Stare” all'imperfetto + gerundio + passato prossimo", "El italiano tiene una forma progresiva similar al inglés: “stare” en imperfecto + gerundio para la acción de fondo, y el passato prossimo para la interrupción.", "Stavo cucinando la cena quando è squillato il telefono. / Mentre lei stava studiando, è arrivato il suo amico."],
+        ["“Stare” all'imperfetto + gerundio + passato prossimo", "El italiano tiene una forma progresiva similar a la española («estaba + gerundio»): “stare” en imperfecto + gerundio para la acción de fondo, y el passato prossimo para la interrupción.", "Stavo cucinando la cena quando è squillato il telefono. / Mentre lei stava studiando, è arrivato il suo amico."],
       ]
     },
     ex:[
@@ -4612,7 +4612,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","¿Qué verbo (más literario) refuerza la idea de una costumbre pasada?",["venire", "dovere", "stare", "solere"],3,"“Solere” refuerza la idea de costumbre pasada."],
       ["fill","Completa: “Quando ero giovane, ___ in un piccolo paese.”",["vivo", "vivevo", "vivrò", "ho vissuto"],1,"Estado pasado → imperfecto: “vivevo”."],
       ["translate","Traduce: “De niño, siempre jugaba en el parque.”",["Da bambino, giocavo sempre nel parco.", "Da bambino, ho sempre giocato nel parco.", "Da bambino, giocherò sempre nel parco.", "Da bambino, gioco sempre nel parco."],0,"Hábito pasado repetido → imperfecto: “giocavo”."],
-      ["arrange","Ordena: [Roma / vivevo / a / io]",["io vivevo a Roma", "a Roma vivevo io", "io a vivevo Roma", "a Roma io vivevo"],0,"Sujeto + imperfecto + preposición + objeto."],
+      ["arrange","Ordena: [Roma / vivevo / a / io]",["io vivevo a Roma", "a Roma vivevo io", "io a vivevo Roma", "vivevo Roma a io"],0,"Sujeto + imperfecto + preposición + objeto."],
       ["speaking","Parla in italiano, in 35-45 parole, di com'era la tua vita dieci anni fa, usando l'imperfetto.",[],["vivevo", "solevo", "al giorno d'oggi"]],
     ]
   },
@@ -4628,7 +4628,7 @@ window.LESSON_BANKS.IT = [
         ["struttura enfatica", "estructura enfática"],
       ],
       grammar: [
-        ["Anteposición de adverbios negativos/restrictivos", "El italiano no tiene inversión sujeto-auxiliar como el inglés, pero antepone adverbios negativos/restrictivos (“mai”, “appena”, “non solo”) al inicio de la oración para dar énfasis.", "Mai avrei pensato di vederlo di nuovo. / Non solo ha vinto la gara, ma ha anche battuto il record."],
+        ["Anteposición de adverbios negativos/restrictivos", "El italiano no invierte sujeto y verbo auxiliar, pero antepone adverbios negativos/restrictivos (“mai”, “appena”, “non solo”) al inicio de la oración para dar énfasis.", "Mai avrei pensato di vederlo di nuovo. / Non solo ha vinto la gara, ma ha anche battuto il record."],
       ]
     },
     ex:[
@@ -4964,7 +4964,7 @@ window.LESSON_BANKS.IT = [
         ["la casa dei miei genitori", "la casa de mis padres"],
       ],
       grammar: [
-        ["“Di + poseedor”, con contracciones (dei, del...)", "A diferencia del inglés (Anna's book), el italiano siempre expresa la posesión con “di + poseedor”, después del objeto poseído; “di + i” se contrae en “dei”.", "Questo è il libro di Anna. / La casa dei miei genitori è grande."],
+        ["“Di + poseedor”, con contracciones (dei, del...)", "El italiano siempre expresa la posesión con “di + poseedor”, después del objeto poseído, como en español («el libro de Anna»); “di + i” se contrae en “dei”.", "Questo è il libro di Anna. / La casa dei miei genitori è grande."],
       ]
     },
     ex:[
@@ -5084,7 +5084,7 @@ window.LESSON_BANKS.IT = [
         ["accorgersi di", "darse cuenta"],
       ],
       grammar: [
-        ["Verbo + preposición fija cambia el significado", "Algunos verbos italianos van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "Ho smesso di fumare l'anno scorso. / Ho notato la sua nuova giacca. / Puoi contare su di me."],
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos italianos van con una preposición fija que precisa su significado, de forma similar a verbos españoles como «pensar en» o «soñar con».", "Ho smesso di fumare l'anno scorso. / Ho notato la sua nuova giacca. / Puoi contare su di me."],
       ]
     },
     ex:[
@@ -5140,7 +5140,7 @@ window.LESSON_BANKS.IT = [
       ["mcq","¿Con qué concuerda el participio pasado en la voz pasiva?",["con el agente", "con el sujeto", "nunca concuerda", "con el objeto directo"],1,"El participio concuerda con el sujeto."],
       ["fill","Completa: “La lettera ___ ieri.”",["è inviata", "è stata inviata", "ha inviato", "inviava"],1,"Pasiva en passato prossimo: “è stata inviata”."],
       ["translate","Traduce: “Aquí se habla inglés”",["Qui è stato parlato inglese.", "Qui parla inglese.", "Qui si parla inglese.", "Qui è parlato inglese."],2,"Pasiva refleja: “si parla inglese”."],
-      ["arrange","Ordena: [inglese / qui / si / parla]",["parla inglese qui si", "si qui parla inglese", "qui si parla inglese", "si parla inglese qui"],2,"“Qui” + “si” + verbo + objeto."],
+      ["arrange","Ordena: [inglese / qui / si / parla]",["parla inglese qui si", "si qui parla inglese", "qui si parla inglese", "qui si inglese parla"],2,"“Qui” + “si” + verbo + objeto."],
       ["writing","Scrivi in italiano 30-40 parole su qualcosa che si fa o che è stato fatto (per esempio nel tuo lavoro o paese), usando il passivo al presente e al passato prossimo.",[],["si parla", "è stata inviata", "si fa"]],
     ]
   },
@@ -5156,12 +5156,12 @@ window.LESSON_BANKS.IT = [
         ["confermare un'informazione", "confirmar información"],
       ],
       grammar: [
-        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el italiano usa las mismas coletillas invariables (vero?, no?, giusto?) para casi cualquier oración.", "Sei spagnolo, vero? / Non ti piace il caffè, no?"],
+        ["Coletillas invariables", "Como en español («¿verdad?», «¿no?»), el italiano usa coletillas invariables (vero?, no?, giusto?) que no cambian según el verbo, para casi cualquier oración.", "Sei spagnolo, vero? / Non ti piace il caffè, no?"],
       ]
     },
     ex:[
       ["mcq","¿Qué coletilla es la más neutra y común?",["giusto?", "vero?", "d'accordo?", "no?"],1,"“Vero?” es la más neutra y común."],
-      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en italiano solo se usan en el pasado", "en italiano cambian según el verbo", "en italiano solo se usan en negativo", "en italiano son invariables"],3,"En italiano las coletillas no cambian según el verbo."],
+      ["mcq","¿Cómo se comportan las coletillas de confirmación en italiano (vero?, no?, giusto?)?",["en italiano solo se usan en el pasado", "en italiano cambian según el verbo", "en italiano solo se usan en negativo", "en italiano son invariables"],3,"En italiano las coletillas no cambian según el verbo."],
       ["fill","Completa: “Non ti piace il caffè, ___?”",["no", "d'accordo", "vero", "sì"],0,"“No?” es la coletilla más común e informal."],
       ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["Sei andato alla festa, vero sei andato?", "Sei andato alla festa, non sei andato?", "Sei andato alla festa, sei andato?", "Sei andato alla festa, vero?"],3,"“Vero?” es invariable, no repite el verbo."],
       ["arrange","Ordena: [spagnolo / sei / vero]",["spagnolo vero sei", "vero sei spagnolo", "sei spagnolo vero", "spagnolo sei vero"],2,"Afirmación + coletilla de confirmación."],
@@ -5204,7 +5204,7 @@ window.LESSON_BANKS.IT = [
         ["Aspetto già da un'ora.", "Llevo una hora esperando."],
       ],
       grammar: [
-        ["Sin “present perfect continuous”: presente + da", "El italiano no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “da”, no una forma compuesta.", "Ho letto tre libri questo mese. (resultado) / Aspetto già da un'ora. (duración, en presente)"],
+        ["Sin tiempo compuesto para la duración: presente + da", "El italiano no usa un tiempo compuesto para la duración (a diferencia de «llevar + gerundio» en español); para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “da”, no una forma compuesta.", "Ho letto tre libri questo mese. (resultado) / Aspetto già da un'ora. (duración, en presente)"],
       ]
     },
     ex:[

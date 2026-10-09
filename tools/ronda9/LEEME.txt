@@ -1,0 +1,6 @@
+Ronda 9 — reconstrucción reproducible (Node.js + bash), partiendo de la ronda 8:
+  ./round9_pre.sh <dest>        (ejercicios EN, rangos/HTML, etiquetas, preguntas/explicaciones puntuales, validador)
+  node fix_arrange.js <dest>    (39 distractores arrange)
+  node apply_gram.js <dest>     (84 notas de gramática; lee data/gram87.json)
+  node verify_r9.js <base_r8> <dest>   |   node sim_all.js   (simula el barajado real del motor)
+Las rutas /home/claude/... son las de la sesión; ajustar si se usa en otro sitio.

@@ -36,16 +36,16 @@ window.LESSON_BANKS.DE = [
         ["eins, zwei, drei... zwanzig", "uno, dos, tres... veinte"],
         ["rot, blau, grün, gelb", "rojo, azul, verde, amarillo"],
         ["weiß, schwarz", "blanco, negro"],
-        ["Ich bin ___ Jahre alt", "Tengo ___ años", "El alemán sí usa \"sein\" para la edad, como el inglés."]
+        ["Ich bin ___ Jahre alt", "Tengo ___ años", "El alemán sí usa \"sein\" para la edad, a diferencia del español."]
       ],
       grammar: [
-        ["Los sustantivos alemanes siempre se escriben con mayúscula", "A diferencia del español/inglés, TODOS los sustantivos en alemán llevan mayúscula inicial, no solo los nombres propios.", "die Farbe (el color), das Auto (el coche)."]
+        ["Los sustantivos alemanes siempre se escriben con mayúscula", "A diferencia del español, TODOS los sustantivos en alemán llevan mayúscula inicial, no solo los nombres propios.", "die Farbe (el color), das Auto (el coche)."]
       ]
     },
     ex:[
       ["mcq", "¿Cómo se dice el número 15 en alemán?", ["Fünfzehn","Fünfzig","Fünf","Vierzehn"], 0, "15 = fünfzehn. Ojo: 50 = fünfzig, 5 = fünf. Del 13 al 19 se añade \"-zehn\" al número base."],
       ["mcq", "¿Qué color es \"rot\"?", ["Rojo","Azul","Verde","Amarillo"], 0, "Rot = rojo. Otros colores: blau (azul), grün (verde), gelb (amarillo), weiß (blanco), schwarz (negro).", "🍎 Piensa en una manzana madura."],
-      ["fill", "Completa: \"Ich ___ zwanzig Jahre alt.\" (Tengo 20 años)", ["bin","habe","bist","hat"], 0, "\"Ich bin zwanzig Jahre alt\" = tengo veinte años. A diferencia del español/francés, el alemán sí usa \"sein\" (ser/estar) para la edad, igual que el inglés."],
+      ["fill", "Completa: \"Ich ___ zwanzig Jahre alt.\" (Tengo 20 años)", ["bin","habe","bist","hat"], 0, "\"Ich bin zwanzig Jahre alt\" = tengo veinte años. A diferencia del español/francés, el alemán sí usa \"sein\" (ser/estar) para la edad (literalmente «soy 20 años viejo»)."],
       ["translate", "Traduce: \"El cielo es azul.\"", ["Der Himmel ist blau","Der Himmel ist grün","Das Haus ist blau","Das Meer ist blau"], 0, "\"Der Himmel ist blau.\" — Himmel = cielo, blau = azul."],
       ["mcq", "¿Cómo se dice \"negro\" en alemán?", ["Schwarz","Weiß","Grau","Braun"], 0, "Schwarz = negro. Weiß = blanco, grau = gris, braun = marrón."],
       ["arrange", "Ordena: [zwei / ich / Katzen / habe]", ["Ich habe zwei Katzen","Zwei ich habe Katzen","Katzen ich habe zwei","Habe ich zwei Katzen"], 0, "\"Ich habe zwei Katzen.\" = tengo dos gatos. Sujeto (ich) + verbo (habe) + cantidad (zwei) + sustantivo (Katzen)."],
@@ -69,7 +69,7 @@ window.LESSON_BANKS.DE = [
       ["mcq", "\"Sie ___ ein Auto.\" (Ella tiene un auto)", ["hat","ist","habe","sind"], 0, "\"Haben\" (tener) en tercera persona singular es \"hat\": \"Sie hat ein Auto.\""],
       ["fill", "Completa: \"Wir ___ Deutsche.\" (Somos alemanes)", ["sind","haben","seid","ist"], 0, "\"Sein\" en primera persona plural es \"sind\": \"Wir sind Deutsche.\""],
       ["translate", "Traduce: \"Ellos tienen una casa.\"", ["Sie haben ein Haus","Sie sind ein Haus","Sie hat ein Haus","Sie haben eine Haus"], 0, "\"Haben\" en tercera persona plural es \"haben\": \"Sie haben ein Haus.\""],
-      ["mcq", "¿Qué verbo se usa para decir la edad en alemán?", ["Sein (ser/estar)","Haben (tener)","Gehen (ir)","Machen (hacer)"], 0, "En alemán, igual que en inglés, la edad se expresa con \"sein\": \"Ich bin 20 Jahre alt\" (soy/tengo 20 años, literalmente \"soy 20 años viejo\")."],
+      ["mcq", "¿Qué verbo se usa para decir la edad en alemán?", ["Sein (ser/estar)","Haben (tener)","Gehen (ir)","Machen (hacer)"], 0, "En alemán, a diferencia del español, la edad se expresa con \"sein\": \"Ich bin 20 Jahre alt\" (soy/tengo 20 años, literalmente \"soy 20 años viejo\")."],
       ["arrange", "Ordena: [sehr / bin / glücklich / ich]", ["Ich bin sehr glücklich","Sehr ich bin glücklich","Glücklich sehr ich bin","Ich sehr bin glücklich"], 0, "\"Ich bin sehr glücklich.\" = estoy muy feliz. Sujeto (ich) + verbo (bin) + intensificador (sehr) + adjetivo (glücklich)."],
     ]
   },
@@ -1298,7 +1298,7 @@ window.LESSON_BANKS.DE = [
         ["als + Beruf arbeiten", "trabajar de + profesión"]
       ],
       grammar: [
-        ["\"Sein\" mit Berufen (ohne Artikel)", "Bei Berufen benutzt \"sein\" keinen unbestimmten Artikel, anders als im Englischen.", "Ich bin Lehrer. (nicht \"Ich bin ein Lehrer\")"]
+        ["\"Sein\" mit Berufen (ohne Artikel)", "Bei Berufen benutzt \"sein\" keinen unbestimmten Artikel, genau wie im Spanischen (“Soy profesor”).", "Ich bin Lehrer. (nicht \"Ich bin ein Lehrer\")"]
       ]
     },
     ex:[
@@ -2695,7 +2695,7 @@ window.LESSON_BANKS.DE = [
         ["der Kinderarzt", "el pediatra"],
       ],
       grammar: [
-        ["“Früher” + Präteritum para hábitos pasados", "“Früher” + verbo en Präteritum expresa un hábito que ya no es cierto en el presente, similar a “used to” en inglés.", "Das Baby wachte früher alle zwei Stunden auf. / Wir besuchten den Kinderarzt früher jeden Monat."],
+        ["“Früher” + Präteritum para hábitos pasados", "“Früher” + verbo en Präteritum expresa un hábito que ya no es cierto en el presente, similar a «antes + imperfecto» o «solía + infinitivo» en español.", "Das Baby wachte früher alle zwei Stunden auf. / Wir besuchten den Kinderarzt früher jeden Monat."],
       ]
     },
     ex:[
@@ -3320,7 +3320,7 @@ window.LESSON_BANKS.DE = [
         ["ein Wandgemälde in Auftrag geben", "encargar un mural"],
       ],
       grammar: [
-        ["“Außer wenn/wenn... nicht” para condición negativa", "“Außer wenn” o “wenn... nicht” expresan una condición negativa, equivalentes a “unless” en inglés.", "Außer wenn die Stadt es genehmigt, gilt das Wandgemälde als Vandalismus. / Sie malt nicht, außer wenn sie eine Genehmigung hat."],
+        ["“Außer wenn/wenn... nicht” para condición negativa", "“Außer wenn” o “wenn... nicht” expresan una condición negativa, equivalentes a «a menos que» en español.", "Außer wenn die Stadt es genehmigt, gilt das Wandgemälde als Vandalismus. / Sie malt nicht, außer wenn sie eine Genehmigung hat."],
       ]
     },
     ex:[
@@ -3345,7 +3345,7 @@ window.LESSON_BANKS.DE = [
         ["die Rehabilitation", "la rehabilitación"],
       ],
       grammar: [
-        ["“Könnte/könnten” para posibilidad formal", "“Könnte” (Konjunktiv II de “können”) expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "Die forensischen Beweise könnten auf den Verdächtigen hindeuten. / Ohne Rehabilitation könnte die Rückfälligkeit zunehmen."],
+        ["“Könnte/könnten” para posibilidad formal", "“Könnte” (Konjunktiv II de “können”) expresa posibilidad en registro formal/legal, similar a «podría» (condicional de «poder») en español.", "Die forensischen Beweise könnten auf den Verdächtigen hindeuten. / Ohne Rehabilitation könnte die Rückfälligkeit zunehmen."],
       ]
     },
     ex:[
@@ -3445,7 +3445,7 @@ window.LESSON_BANKS.DE = [
         ["seine Wurzeln zurückverfolgen", "rastrear las propias raíces"],
       ],
       grammar: [
-        ["“Obwohl” para concesión", "“Obwohl” + cláusula (verbo al final) introduce un contraste o concesión, equivalente a “although” en inglés.", "Obwohl die Unterlagen alt sind, haben wir unsere Wurzeln zurückverfolgt. / Obwohl sie ihre Urgroßmutter nie kennengelernt hat, kennt sie die Familiengeschichte."],
+        ["“Obwohl” para concesión", "“Obwohl” + cláusula (verbo al final) introduce un contraste o concesión, equivalente a «aunque» o «a pesar de que» en español.", "Obwohl die Unterlagen alt sind, haben wir unsere Wurzeln zurückverfolgt. / Obwohl sie ihre Urgroßmutter nie kennengelernt hat, kennt sie die Familiengeschichte."],
       ]
     },
     ex:[
@@ -3645,7 +3645,7 @@ window.LESSON_BANKS.DE = [
         ["die Ozeanversauerung", "la acidificación del océano"],
       ],
       grammar: [
-        ["“Vorausgesetzt, dass/solange” para condiciones", "“Vorausgesetzt, dass” y “solange” expresan una condición necesaria, equivalentes a “provided that” en inglés.", "Die marine Biodiversität kann sich erholen, vorausgesetzt, dass die Verschmutzung abnimmt. / Korallenriffe überleben, solange die Wassertemperaturen stabil bleiben."],
+        ["“Vorausgesetzt, dass/solange” para condiciones", "“Vorausgesetzt, dass” y “solange” expresan una condición necesaria, equivalentes a «siempre que» o «con tal de que» en español.", "Die marine Biodiversität kann sich erholen, vorausgesetzt, dass die Verschmutzung abnimmt. / Korallenriffe überleben, solange die Wassertemperaturen stabil bleiben."],
       ]
     },
     ex:[
@@ -3670,7 +3670,7 @@ window.LESSON_BANKS.DE = [
         ["kartieren", "cartografiar"],
       ],
       grammar: [
-        ["“Wäre da nicht/ohne” para condición formal", "“Wäre da nicht” y “ohne” + sustantivo expresan una condición hipotética formal, equivalentes a “were it not for” en inglés.", "Wären da nicht die frühen Kartografen gewesen, wäre die Erkundung unmöglich gewesen. / Ohne Satellitenbilder wären moderne Karten weit weniger genau."],
+        ["“Wäre da nicht/ohne” para condición formal", "“Wäre da nicht” y “ohne” + sustantivo expresan una condición hipotética formal, equivalentes a «de no ser por» en español.", "Wären da nicht die frühen Kartografen gewesen, wäre die Erkundung unmöglich gewesen. / Ohne Satellitenbilder wären moderne Karten weit weniger genau."],
       ]
     },
     ex:[
@@ -3720,7 +3720,7 @@ window.LESSON_BANKS.DE = [
         ["der Griff", "el agarre"],
       ],
       grammar: [
-        ["“Schon seit... ” + presente para duración continua", "El alemán expresa una acción que empezó en el pasado y continúa usando el presente + “schon seit” + tiempo, a diferencia del inglés que usa presente perfecto continuo.", "Wir klettern schon seit drei Stunden. / Sie trainiert schon seit einem Jahr für den Gipfel."],
+        ["“Schon seit... ” + presente para duración continua", "El alemán expresa una acción que empezó en el pasado y continúa usando el presente + “schon seit” + tiempo, de forma parecida a «llevar + gerundio» o «hace... que» en español.", "Wir klettern schon seit drei Stunden. / Sie trainiert schon seit einem Jahr für den Gipfel."],
       ]
     },
     ex:[
@@ -3820,7 +3820,7 @@ window.LESSON_BANKS.DE = [
         ["die Just-in-Time-Lieferung", "la entrega justo a tiempo"],
       ],
       grammar: [
-        ["Emphatische Überraschungsstrukturen (kaum jemand ahnte)", "“Kaum jemand ahnte” o “niemand hatte erwartet” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Kaum jemand ahnte, wie zerbrechlich die Lieferkette war. / Niemand hatte eine so schwere Logistikstörung erwartet."],
+        ["Emphatische Überraschungsstrukturen (kaum jemand ahnte)", "“Kaum jemand ahnte” o “niemand hatte erwartet” al inicio enfatizan que algo fue una sorpresa total, equivalente a «pocos se imaginaban» o «nadie esperaba» en español.", "Kaum jemand ahnte, wie zerbrechlich die Lieferkette war. / Niemand hatte eine so schwere Logistikstörung erwartet."],
       ]
     },
     ex:[
@@ -3920,7 +3920,7 @@ window.LESSON_BANKS.DE = [
         ["der Bestäuber", "el polinizador"],
       ],
       grammar: [
-        ["“Zusätzlich zu/sowie”", "“Zusätzlich zu” + sustantivo/gerundio nominal y “sowie” añaden información extra, similares a “besides” en inglés.", "Zusätzlich zur Bestäubung von Blumen produzieren Bienen Honig. / Käfer sowie Schmetterlinge durchlaufen eine Metamorphose."],
+        ["“Zusätzlich zu/sowie”", "“Zusätzlich zu” + sustantivo/gerundio nominal y “sowie” añaden información extra, similares a «además de» en español.", "Zusätzlich zur Bestäubung von Blumen produzieren Bienen Honig. / Käfer sowie Schmetterlinge durchlaufen eine Metamorphose."],
       ]
     },
     ex:[
@@ -4120,7 +4120,7 @@ window.LESSON_BANKS.DE = [
         ["das Konjunkturprogramm", "el estímulo fiscal"],
       ],
       grammar: [
-        ["“Insofern als/insoweit” para calificar", "“Insofern als” e “insoweit” expresan una limitación o condición parcial, típicas del registro académico/formal, equivalentes a “insofar as” en inglés.", "Insofern als die Inflation stabil bleibt, sind Zinssenkungen möglich. / Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],
+        ["“Insofern als/insoweit” para calificar", "“Insofern als” e “insoweit” expresan una limitación o condición parcial, típicas del registro académico/formal, equivalentes a «en la medida en que» en español.", "Insofern als die Inflation stabil bleibt, sind Zinssenkungen möglich. / Die Politik funktioniert insoweit, als Banken großzügiger Kredite vergeben."],
       ]
     },
     ex:[
@@ -4243,7 +4243,7 @@ window.LESSON_BANKS.DE = [
         ["Magst du...?", "¿Te gusta...?"],
       ],
       grammar: [
-        ["“Gern” tras el verbo conjugado", "A diferencia del inglés (gerundio) y el francés (infinitivo), en alemán se añade “gern” después del verbo conjugado para decir que te gusta hacer algo.", "Ich lese gern. / Sie kocht gern am Wochenende."],
+        ["“Gern” tras el verbo conjugado", "A diferencia del español y del francés (que usan «gustar»/«aimer» + infinitivo), en alemán se añade “gern” después del verbo conjugado para decir que te gusta hacer algo.", "Ich lese gern. / Sie kocht gern am Wochenende."],
       ]
     },
     ex:[
@@ -4267,7 +4267,7 @@ window.LESSON_BANKS.DE = [
         ["Was machst du morgen?", "¿Qué haces mañana?"],
       ],
       grammar: [
-        ["Presente para planes vs “werden” para predicciones", "A diferencia del inglés, el alemán usa el presente + una expresión de tiempo para planes ya decididos; “werden + infinitivo” se reserva para predicciones o promesas.", "Ich besuche meine Eltern nächste Woche. / Ich glaube, es wird morgen regnen."],
+        ["Presente para planes vs “werden” para predicciones", "El alemán usa el presente + una expresión de tiempo para planes ya decididos (como el español «el sábado voy al cine»); “werden + infinitivo” se reserva para predicciones o promesas.", "Ich besuche meine Eltern nächste Woche. / Ich glaube, es wird morgen regnen."],
       ]
     },
     ex:[
@@ -4388,7 +4388,7 @@ window.LESSON_BANKS.DE = [
         ["mitten in...", "en medio de..."],
       ],
       grammar: [
-        ["El alemán no tiene forma progresiva propia", "A diferencia del inglés, el alemán usa el Präteritum para ambas acciones; “gerade” enfatiza que una acción estaba en curso, y “als” introduce la acción que la interrumpe.", "Ich kochte gerade Abendessen, als das Telefon klingelte. / Während sie lernte, kam ihr Freund an."],
+        ["El alemán no tiene forma progresiva propia", "A diferencia del español («estaba + gerundio»), el alemán usa el Präteritum para ambas acciones; “gerade” enfatiza que una acción estaba en curso, y “als” introduce la acción que la interrumpe.", "Ich kochte gerade Abendessen, als das Telefon klingelte. / Während sie lernte, kam ihr Freund an."],
       ]
     },
     ex:[
@@ -4508,7 +4508,7 @@ window.LESSON_BANKS.DE = [
         ["der Mann, der angerufen hat", "el hombre que llamó"],
       ],
       grammar: [
-        ["El relativo alemán se declina según el caso", "Los pronombres relativos alemanes (der/die/das) se declinan según género, número Y caso (nominativo, acusativo, dativo, genitivo) de su función dentro de la cláusula relativa; siempre llevan coma, sin distinción especificativa/explicativa como en inglés.", "Der Mann, der angerufen hat, ist mein Nachbar. / Die Frau, deren Auto rot ist, ..."],
+        ["El relativo alemán se declina según el caso", "Los pronombres relativos alemanes (der/die/das) se declinan según género, número Y caso (nominativo, acusativo, dativo, genitivo) de su función dentro de la cláusula relativa; siempre llevan coma, a diferencia del español, donde la coma distingue la oración explicativa de la especificativa.", "Der Mann, der angerufen hat, ist mein Nachbar. / Die Frau, deren Auto rot ist, ..."],
       ]
     },
     ex:[
@@ -4652,7 +4652,7 @@ window.LESSON_BANKS.DE = [
         ["hervorheben", "enfatizar/destacar"],
       ],
       grammar: [
-        ["“Was...ist/war...” y “X war es, der/die...”", "El alemán no usa oraciones hendidas tan fijas como el inglés, pero “was...ist/war...” o “X war es, der/die...” logran un énfasis similar.", "Was ich brauche, ist mehr Zeit. / Maria war es, die das Problem gelöst hat."],
+        ["“Was...ist/war...” y “X war es, der/die...”", "El alemán forma oraciones hendidas con “was...ist/war...” o “X war es, der/die...”, equivalentes a «lo que... es...» o «fue X quien...» en español.", "Was ich brauche, ist mehr Zeit. / Maria war es, die das Problem gelöst hat."],
       ]
     },
     ex:[
@@ -4676,7 +4676,7 @@ window.LESSON_BANKS.DE = [
         ["verkürzt einen längeren Nebensatz", "reduce una cláusula subordinada más larga"],
       ],
       grammar: [
-        ["Construcciones con “sich...bewusst” y participio", "Las construcciones de participio en alemán suenan más formales/literarias que en inglés; formas como “sich + adjetivo/participio + bewusst” reducen una cláusula causal más larga.", "Sich der Gefahr bewusst, rief er die Polizei. / Nicht wissend, was zu tun war, rief er seinen Anwalt an."],
+        ["Construcciones con “sich...bewusst” y participio", "Las construcciones de participio en alemán suenan formales/literarias; formas como “sich + adjetivo/participio + bewusst” reducen una cláusula causal más larga.", "Sich der Gefahr bewusst, rief er die Polizei. / Nicht wissend, was zu tun war, rief er seinen Anwalt an."],
       ]
     },
     ex:[
@@ -4964,7 +4964,7 @@ window.LESSON_BANKS.DE = [
         ["Es ist Annas.", "Es de Ana."],
       ],
       grammar: [
-        ["Genitivo con nombres propios vs “von” hablado", "Con nombres propios, el alemán añade “-s” directamente (como el inglés): “Annas Buch”. Con sustantivos comunes se usa el genitivo (“die Spielzeuge der Kinder”), pero en el habla “von + dativo” suele reemplazar al genitivo.", "Das ist Annas Buch. / Das Buch von Anna ist rot. / Die Spielzeuge der Kinder sind neu."],
+        ["Genitivo con nombres propios vs “von” hablado", "Con nombres propios, el alemán añade “-s” directamente: “Annas Buch” (en español, «el libro de Anna»). Con sustantivos comunes se usa el genitivo (“die Spielzeuge der Kinder”), pero en el habla “von + dativo” suele reemplazar al genitivo.", "Das ist Annas Buch. / Das Buch von Anna ist rot. / Die Spielzeuge der Kinder sind neu."],
       ]
     },
     ex:[
@@ -5084,7 +5084,7 @@ window.LESSON_BANKS.DE = [
         ["merken/bemerken, dass", "darse cuenta"],
       ],
       grammar: [
-        ["Verbo + preposición fija rige un caso específico", "Algunos verbos alemanes van con una preposición fija que rige un caso específico, de forma similar a los phrasal verbs del inglés.", "Ich habe letztes Jahr mit dem Rauchen aufgehört. / Ich habe ihre neue Jacke bemerkt. / Du kannst dich auf mich verlassen."],
+        ["Verbo + preposición fija rige un caso específico", "Algunos verbos alemanes van con una preposición fija que rige un caso específico, de forma similar a verbos españoles como «pensar en» o «soñar con».", "Ich habe letztes Jahr mit dem Rauchen aufgehört. / Ich habe ihre neue Jacke bemerkt. / Du kannst dich auf mich verlassen."],
       ]
     },
     ex:[
@@ -5156,12 +5156,12 @@ window.LESSON_BANKS.DE = [
         ["eine Information bestätigen", "confirmar información"],
       ],
       grammar: [
-        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el alemán usa las mismas coletillas invariables (nicht wahr?, oder?, stimmt's?) para casi cualquier oración.", "Du bist aus Spanien, oder? / Du magst keinen Kaffee, stimmt's?"],
+        ["Coletillas invariables", "Como en español («¿verdad?», «¿no?»), el alemán usa coletillas invariables (nicht wahr?, oder?, stimmt's?) que no cambian según el verbo, para casi cualquier oración.", "Du bist aus Spanien, oder? / Du magst keinen Kaffee, stimmt's?"],
       ]
     },
     ex:[
       ["mcq","¿Qué coletilla es la más común e informal en alemán hablado?",["nicht wahr?", "ja?", "stimmt's?", "oder?"],3,"“Oder?” es la más común e informal."],
-      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en alemán cambian según el verbo", "en alemán son invariables", "en alemán solo se usan en negativo", "en alemán solo se usan en el pasado"],1,"En alemán las coletillas no cambian según el verbo."],
+      ["mcq","¿Cómo se comportan las coletillas de confirmación en alemán (nicht wahr?, oder?)?",["en alemán cambian según el verbo", "en alemán son invariables", "en alemán solo se usan en negativo", "en alemán solo se usan en el pasado"],1,"En alemán las coletillas no cambian según el verbo."],
       ["fill","Completa: “Du magst keinen Kaffee, ___?”",["ja", "nicht", "oder", "doch"],2,"“Oder?” es la coletilla más común e informal."],
       ["translate","Traduce: “Fuiste a la fiesta, ¿verdad?”",["Du bist zur Party gegangen, oder?", "Du gingst zur Party, oder gingst du?", "Du bist zur Party gegangen, gingst du?", "Du bist zur Party gegangen, nicht gegangen?"],0,"“Oder?” es invariable, no repite el verbo."],
       ["arrange","Ordena: [Spanien / bist / oder / du / aus]",["bist aus oder du Spanien", "bist du Spanien aus oder", "du bist aus Spanien oder", "oder du aus Spanien bist"],2,"Afirmación + coletilla de confirmación."],
@@ -5204,7 +5204,7 @@ window.LESSON_BANKS.DE = [
         ["Ich warte schon seit einer Stunde.", "Llevo una hora esperando."],
       ],
       grammar: [
-        ["Sin “present perfect continuous”: presente + seit", "El alemán no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “seit” o “schon”, no una forma compuesta.", "Ich habe drei Bücher gelesen. (resultado) / Ich warte schon seit einer Stunde. (duración, en presente)"],
+        ["Sin tiempo compuesto para la duración: presente + seit", "El alemán no usa un tiempo compuesto para la duración (a diferencia de «llevar + gerundio» en español); para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “seit” o “schon”, no una forma compuesta.", "Ich habe drei Bücher gelesen. (resultado) / Ich warte schon seit einer Stunde. (duración, en presente)"],
       ]
     },
     ex:[

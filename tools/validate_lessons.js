@@ -82,7 +82,7 @@ function checkLesson(lang, l, seen, scope) {
     if (PROD.has(type)) {
       if (!Array.isArray(opts) || opts.length !== 0) add('ERROR', lang, L, n, 'PROD_OPTS', 'writing/speaking: el 3er elemento debe ser []');
       if (!Array.isArray(corr) || !corr.length || corr.some(k => typeof k !== 'string' || !k.trim())) add('ERROR', lang, L, n, 'PROD_KEYWORDS', 'writing/speaking necesita array de palabras clave');
-      if (typeof e[6] !== 'number') { const m = String(q).match(/(\d+)\s*[-–]\s*(\d+)/); if (!m) add('INFO', lang, L, n, 'PROD_NO_RANGE', 'la consigna no indica rango de palabras (el motor exigirá 25)'); }
+      if (typeof e[6] !== 'number') { const m = String(q).match(/(\d+)\s*[-–]\s*(\d+)/); if (!m && !/m[ií]nimo\s+\d+/i.test(String(q))) add('INFO', lang, L, n, 'PROD_NO_RANGE', 'la consigna no indica rango de palabras (el motor exigirá 25)'); }
       return;
     }
     if (typeof expl !== 'string' || !expl.trim()) add('ERROR', lang, L, n, 'NO_EXPL', 'explicación vacía');
