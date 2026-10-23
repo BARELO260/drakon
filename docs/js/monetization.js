@@ -192,6 +192,10 @@ const DrakonBilling = {
   // verifyPurchaseOnServer). Devuelve {ok, reason} para que la UI pueda
   // mostrar el mensaje adecuado.
   async purchasePremium(){
+    // Las compras no están disponibles para menores de 13 (modo infantil sin cuenta).
+    if(typeof state !== 'undefined' && state.ageGateCompleted && state.isMinor){
+      return { ok:false, reason:'minor', message:'Las compras no están disponibles en el modo infantil.' };
+    }
     if(!this.isAvailable()){
       return { ok:false, reason:'unavailable',
         message:'Las compras dentro de la app solo están disponibles instalando Drakón desde Google Play.' };

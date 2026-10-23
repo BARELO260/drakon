@@ -434,15 +434,21 @@ function init(){
       // no lo pisamos forzando el login — solo mostramos login si nadie
       // más tomó el control de la navegación todavía.
       if(state.screen === 'screen-boot'){
-        goTo('screen-login');
-        setLoginMode('login');
+        _routeStart();
       }
     });
   } catch(e){
     console.error('[Drakón] Error durante init():', e);
     // Aunque algo haya fallado, nunca dejamos al usuario atrapado en el splash.
-    if(state.screen === 'screen-boot'){ goTo('screen-login'); setLoginMode('login'); }
+    if(state.screen === 'screen-boot'){ _routeStart(); }
   }
+}
+
+// Punto de partida cuando no hay sesión: primero la verificación de edad
+// (antes de pedir ningún dato), luego modo infantil local o acceso.
+function _routeStart(){
+  if(typeof routeBeforeAuth === 'function') routeBeforeAuth();
+  else { goTo('screen-login'); if(typeof setLoginMode === 'function') setLoginMode('login'); }
 }
 
 // Red de seguridad global: pase lo que pase (error de red, excepción no
@@ -450,9 +456,8 @@ function init(){
 // ver la pantalla de login — nunca quedarse mirando el splash para siempre.
 setTimeout(()=>{
   if(typeof state!=='undefined' && state.screen === 'screen-boot'){
-    console.warn('[Drakón] Tope de seguridad del splash alcanzado — mostrando login.');
-    goTo('screen-login');
-    if(typeof setLoginMode==='function') setLoginMode('login');
+    console.warn('[Drakón] Tope de seguridad del splash alcanzado — mostrando verificación de edad / acceso.');
+    _routeStart();
   }
 }, 9000);
 

@@ -112,10 +112,25 @@ async function submitAgeGate(){
   state.ageGateCompleted = true;
   state.parentalConsentStatus = state.isMinor ? 'pending' : null;
   save();
+  // Antes de iniciar sesión (nadie ha dado todavía ningún dato personal):
+  // adultos → pantalla de acceso; menores de 13 → modo infantil local, sin cuenta.
+  if(!(window._fbUser || (window._fbAuth && window._fbAuth.currentUser))){ routeBeforeAuth(); return; }
   routeAfterAuth();
 }
 
 function renderParentalConsent(){
+  // Modo infantil local: no hay cuenta ni se pide ningún correo; solo se informa.
+  const local = (typeof isChildLocalMode === 'function') && isChildLocalMode();
+  const show = (id, on) => { const e = document.getElementById(id); if(e) e.style.display = on ? '' : 'none'; };
+  show('parentalConsentForm', !local); show('parentalConsentSendBtn', !local);
+  const title = document.getElementById('parentalConsentTitle');
+  const text = document.getElementById('parentalConsentText');
+  const skip = document.getElementById('parentalConsentSkipBtn');
+  if(local){
+    if(title) title.textContent = 'Esta función no está disponible';
+    if(text) text.textContent = 'Para cuidar tu privacidad, en el modo infantil no hay chat con inteligencia artificial, voz, cámara ni micrófono. Las lecciones y los juegos funcionan con normalidad.';
+    if(skip) skip.textContent = 'Volver';
+  }
   const err = document.getElementById('parentalConsentErr'); if(err) err.textContent = '';
   const ok = document.getElementById('parentalConsentOk'); if(ok) ok.style.display = 'none';
   const statusEl = document.getElementById('parentalConsentStatusMsg');
@@ -154,3 +169,105 @@ async function submitParentalConsentRequest(){
     if(err) err.textContent = 'No se pudo enviar la solicitud. Intenta de nuevo.';
   }
 }
+
+
+/* ═══════════════════════════════════════════════════════════
+   MODO INFANTIL LOCAL y orden de arranque (COPPA / Política de Familias)
+   ───────────────────────────────────────────────────────────
+   Principio: la verificación de edad es lo PRIMERO que ve alguien que
+   abre la app, antes de pedirle correo, contraseña o cualquier dato.
+     · 13 años o más  → pantalla de acceso normal.
+     · Menos de 13    → «modo infantil local»: NO se puede crear cuenta, el
+                        progreso se guarda solo en el dispositivo, y no sale
+                        ningún dato a terceros (sin chat con IA, sin voz
+                        gestionada, sin cámara/micrófono, sin compras).
+   Así no se recoge información personal de menores y no hace falta
+   verificación de consentimiento parental. Lecciones y juegos funcionan igual.
+   ═══════════════════════════════════════════════════════════ */
+
+// ¿Se está usando la app sin cuenta siendo menor de 13?
+function isChildLocalMode(){
+  return !!(state.ageGateCompleted && state.isMinor && !(window._fbUser));
+}
+
+// Un menor de 13 no puede crear cuenta (ni por correo ni por Google).
+function canCreateAccount(){
+  return !(state.ageGateCompleted && state.isMinor);
+}
+
+// Inicialización de la interfaz cuando no hay sesión de Firebase (modo infantil).
+// Equivale a lo que hace onFirebaseUserReady para una cuenta.
+function startLocalSession(){
+  if(window._localSessionStarted) return;
+  window._localSessionStarted = true;
+  try{
+    applyTheme(state.theme || 'dark');
+    applyNativeLanguageUI();
+    updateAllUI();
+    scheduleMidnightReset();
+    updateStreakCountdown();
+    setInterval(updateStreakCountdown, 60000);
+  }catch(e){ console.warn('[Drakón] startLocalSession:', e); }
+}
+
+// Pantallas desde las que se puede redirigir sin pisar a quien ya está usando la app.
+const _PRE_AUTH_SCREENS = ['screen-boot','screen-login','screen-age-gate'];
+
+// Punto único de entrada cuando NO hay sesión: decide entre verificación de
+// edad, modo infantil local o pantalla de acceso. `force` = ignorar la pantalla actual
+// (se usa al cerrar sesión).
+function routeBeforeAuth(force){
+  if(!force && state.screen && !_PRE_AUTH_SCREENS.includes(state.screen)) return; // ya está dentro de la app
+  if(!state.ageGateCompleted){
+    goTo('screen-age-gate');
+    renderAgeGate();
+    return;
+  }
+  if(state.isMinor){
+    startLocalSession();
+    _continueNormalRoute();
+    return;
+  }
+  goTo('screen-login');
+  if(typeof setLoginMode === 'function') setLoginMode('login');
+}
+
+/* ── Segunda barrera: bloqueo a nivel de red/sensores ──────────────────
+   Aunque algún módulo antiguo olvide comprobar la edad, estas envolturas
+   impiden que una cuenta restringida envíe datos a Groq/ElevenLabs o abra
+   cámara/micrófono/reconocimiento de voz. */
+(function installMinorGuards(){
+  if(typeof window === 'undefined' || window.__drakonMinorGuards) return;
+  window.__drakonMinorGuards = true;
+  const realFetch = window.fetch ? window.fetch.bind(window) : null;
+  if(realFetch){
+    window.fetch = function(input, init){
+      let url = '';
+      try{ url = (typeof input === 'string') ? input : ((input && input.url) || String(input)); }catch(e){}
+      if(/^https:\/\/api\.groq\.com\//i.test(url) && isMinorRestricted()){
+        return Promise.reject(new Error('blocked-minor'));
+      }
+      if(/^https:\/\/api\.elevenlabs\.io\//i.test(url) && isManagedTtsBlockedByAge()){
+        return Promise.reject(new Error('blocked-minor'));
+      }
+      return realFetch(input, init);
+    };
+  }
+  try{
+    if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
+      const realGUM = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+      navigator.mediaDevices.getUserMedia = function(c){
+        if(isMinorRestricted()){
+          const err = new Error('Not allowed for this account'); err.name = 'NotAllowedError';
+          return Promise.reject(err);
+        }
+        return realGUM(c);
+      };
+    }
+  }catch(e){}
+  ['SpeechRecognition','webkitSpeechRecognition'].forEach(function(n){
+    const C = window[n]; if(!C) return;
+    const W = function(){ if(isMinorRestricted()) throw new Error('blocked-minor'); return new C(); };
+    W.prototype = C.prototype; window[n] = W;
+  });
+})();

@@ -1,0 +1,5180 @@
+/* ═══════════════════════════════════════════════════════════
+   js/lessons-data/it.js — Banco de lecciones: ITALIANO (IT)
+   ═══════════════════════════════════════════════════════════ */
+
+window.LESSON_BANKS = window.LESSON_BANKS || {};
+window.LESSON_BANKS.IT = [
+  {
+    id:"it_a1_greetings", level:"A1", title:"Saluti e presentazioni", emoji:"👋", xp:30,
+    description:"Aprende a saludar y presentarte en italiano.",
+    study: {
+      vocab: [
+        ["Buongiorno / Buonasera", "Good morning / Good evening"],
+        ["Ciao / Arrivederci", "Hi / Goodbye", "\"Ciao\" es informal, sirve para saludar y despedirse."],
+        ["Piacere!", "Nice to meet you!"],
+        ["Mi chiamo...", "My name is..."],
+        ["Come stai?", "How are you?", "Respuesta: \"Sto bene, grazie\""]
+      ],
+      grammar: [
+        ["El verbo \"essere\" (ser/estar)", "Io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono.", "Io sono insegnante. Lei è di Roma."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"Good morning\" en italiano?", ["Buongiorno","Buonasera","Buonanotte","Arrivederci"], 0, "\"Buongiorno\" se usa desde la mañana hasta media tarde. \"Buonasera\" se usa al caer la tarde/noche.", "☀️ Son las 9 de la mañana y llegas a la oficina."],
+      ["mcq", "Alguien te dice \"Come stai?\". ¿Cuál es una respuesta común?", ["Sto bene, grazie","Mi chiamo Paolo","Ho vent'anni","A presto"], 0, "\"Sto bene, grazie\" es la respuesta estándar. También puedes decir \"Bene, e tu?\""],
+      ["fill", "Completa: \"Ciao! Mi ___ Anna. ___ di Roma.\"", ["chiamo / Vengo","chiama / Vieni","chiamo / Sono","chiami / Vengo"], 0, "\"Mi chiamo Anna\" (me llamo) y \"Vengo di Roma\" (vengo de). \"Chiamarsi\" y \"venire\" son verbos distintos, ambos en primera persona."],
+      ["translate", "Traduce al italiano: \"Nice to meet you!\"", ["Piacere!","Come ti chiami?","Di dove sei?","A domani!"], 0, "\"Piacere!\" es la expresión estándar al conocer a alguien nuevo."],
+      ["mcq", "¿Qué significa \"Come ti chiami?\"?", ["What's your name?","Where are you from?","How old are you?","Where do you live?"], 0, "\"Come ti chiami?\" = What's your name? Respuesta: \"Mi chiamo ___\".", "🏫 Un nuevo compañero de clase te pregunta algo."],
+      ["arrange", "Ordena: [sono / un / insegnante / io]", ["Io sono un insegnante","Un sono io insegnante","Insegnante io sono un","Sono io un insegnante"], 0, "En italiano el orden es: Sujeto (opcional) + Verbo + Complemento. → \"Io sono un insegnante.\" (Soy profesor.)"],
+    ]
+  },
+  {
+    id:"it_a1_numbers_colors", level:"A1", title:"Numeri e colori", emoji:"🔢", xp:30,
+    description:"Aprende números del 1 al 20 y colores básicos en italiano.",
+    study: {
+      vocab: [
+        ["uno, due, tre... venti", "one, two, three... twenty"],
+        ["rosso, blu, verde, giallo", "red, blue, green, yellow"],
+        ["bianco, nero", "white, black"],
+        ["Ho ___ anni", "I am ___ years old", "Se usa el verbo \"avere\" (tener), no \"essere\"."]
+      ],
+      grammar: [
+        ["Concordancia de género en los colores", "Los colores concuerdan en género y número con el sustantivo que describen.", "una macchina rossa / un fiore rosso."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice el número 15 en italiano?", ["Quindici","Cinquanta","Cinque","Sedici"], 0, "15 = quindici. Ojo: 50 = cinquanta, 5 = cinque."],
+      ["mcq", "¿Qué color es \"rosso\"?", ["Red","Blue","Green","Yellow"], 0, "Rosso = red. Otros colores: blu (blue), verde (green), giallo (yellow), bianco (white), nero (black).", "🍎 Piensa en una manzana madura."],
+      ["fill", "Completa: \"Ho ___ anni.\" (I am 20 years old)", ["vent'","venti","ventuno","dieci"], 0, "\"Ho vent'anni\" = I am twenty years old. En italiano la edad se expresa con el verbo \"avere\" (tener), no \"essere\" (ser)."],
+      ["translate", "Traduce: \"The sky is blue.\"", ["Il cielo è blu","Il cielo è verde","La casa è blu","Il mare è blu"], 0, "\"Il cielo è blu.\" — cielo = sky, blu = blue."],
+      ["mcq", "¿Cómo se dice \"black\" en italiano?", ["Nero","Bianco","Grigio","Marrone"], 0, "Nero = black. Bianco = white, grigio = gray, marrone = brown."],
+      ["arrange", "Ordena: [due / ho / gatti]", ["Ho due gatti","Due ho gatti","Gatti ho due","Due gatti ho"], 0, "\"Ho due gatti.\" = I have two cats. Verbo (ho) + cantidad (due) + sustantivo (gatti)."],
+    ]
+  },
+  {
+    id:"it_a1_essere_avere", level:"A1", title:"Essere e avere", emoji:"🧩", xp:35,
+    description:"Los dos verbos más importantes del italiano: ser/estar y tener.",
+    study: {
+      vocab: [
+        ["essere", "to be"],
+        ["avere", "to have", "También se usa para la edad."],
+        ["studente, insegnante", "student, teacher"]
+      ],
+      grammar: [
+        ["Essere vs. Avere", "Los dos verbos más importantes del italiano. La edad se expresa con \"avere\" (como en español).", "Sono studente. / Ho venticinque anni."]
+      ]
+    },
+    ex:[
+      ["mcq", "\"Io ___ studente.\" (I am a student)", ["sono","ho","sei","è"], 0, "\"Essere\" (ser/estar) en primera persona es \"sono\": \"Io sono studente.\""],
+      ["mcq", "\"Lei ___ venticinque anni.\" (She is 25 years old)", ["ha","è","ho","hai"], 0, "La edad en italiano se expresa con \"avere\": \"Lei ha venticinque anni.\" (literalmente: ella tiene 25 años)."],
+      ["fill", "Completa: \"Noi ___ italiani.\" (We are Italian)", ["siamo","abbiamo","siete","sono"], 0, "\"Essere\" en primera persona plural es \"siamo\": \"Noi siamo italiani.\""],
+      ["translate", "Traduce: \"They have a car.\"", ["Loro hanno una macchina","Loro sono una macchina","Loro ha una macchina","Lei hanno una macchina"], 0, "\"Avere\" en tercera persona plural es \"hanno\": \"Loro hanno una macchina.\""],
+      ["mcq", "¿Qué verbo se usa para la edad en italiano?", ["Avere (tener)","Essere (ser/estar)","Andare (ir)","Fare (hacer)"], 0, "En italiano se dice literalmente \"tener X años\" (avere X anni), igual que en español."],
+      ["arrange", "Ordena: [molto / sono / felice / io]", ["Io sono molto felice","Molto io sono felice","Felice molto io sono","Io molto sono felice"], 0, "\"Io sono molto felice.\" = I am very happy. Sujeto (io) + verbo (sono) + intensificador (molto) + adjetivo (felice)."],
+    ]
+  },
+  {
+    id:"it_a1_family_home", level:"A1", title:"Famiglia e casa", emoji:"🏠", xp:30,
+    description:"Vocabulario de familia y de la casa en italiano.",
+    study: {
+      vocab: [
+        ["padre, madre", "father, mother"],
+        ["fratello, sorella", "brother, sister"],
+        ["figlio, figlia", "son, daughter"],
+        ["camera da letto, cucina, soggiorno", "bedroom, kitchen, living room"],
+        ["bagno, giardino", "bathroom, garden"]
+      ],
+      grammar: [
+        ["Adjetivos posesivos", "Mio/mia, tuo/tua, suo/sua concuerdan en género y número con lo que poseen (no con el poseedor).", "Mio padre (masc.) / Mia madre (fem.) / I miei genitori (plural)."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"mother\" en italiano?", ["Madre","Padre","Sorella","Nonna"], 0, "Madre = mother. Padre = father, sorella = sister, nonna = grandmother."],
+      ["mcq", "¿Qué habitación es \"la cucina\"?", ["Kitchen","Bedroom","Bathroom","Garden"], 0, "La cucina = kitchen. La camera da letto = bedroom, il bagno = bathroom, il giardino = garden."],
+      ["fill", "Completa: \"___ fratello vive a Roma.\" (My brother)", ["Mio","Mia","Miei","Suo"], 0, "\"Mio fratello\" = my brother. \"Fratello\" es masculino, por eso \"mio\" (no \"mia\")."],
+      ["translate", "Traduce: \"My family is big.\"", ["La mia famiglia è grande","La mia famiglia è piccola","Le mie famiglie sono grandi","La sua famiglia è grande"], 0, "\"La mia famiglia è grande.\" — \"famiglia\" es femenino singular, por eso \"la mia\"."],
+      ["mcq", "¿Cómo se dice \"grandparents\" en italiano?", ["Nonni","Genitori","Zii","Cugini"], 0, "Nonni = grandparents. Genitori = parents, zii = aunts/uncles, cugini = cousins."],
+      ["arrange", "Ordena: [tre / ho / fratelli]", ["Ho tre fratelli","Tre ho fratelli","Fratelli ho tre","Tre fratelli ho"], 0, "\"Ho tre fratelli.\" = I have three brothers. Verbo + cantidad + sustantivo."],
+    ]
+  },
+  {
+    id:"it_a1_food_restaurant", level:"A1", title:"Cibo e ristoranti", emoji:"🍽️", xp:35,
+    description:"Pide comida y desenvuélvete en un restaurante en italiano.",
+    study: {
+      vocab: [
+        ["il menù", "the menu"],
+        ["Vorrei...", "I would like...", "Forma cortés de pedir."],
+        ["il conto, per favore", "the bill, please"],
+        ["l'acqua, il pane", "water, bread"],
+        ["delizioso/a", "delicious"]
+      ],
+      grammar: [
+        ["\"Vorrei\" para pedir con cortesía", "\"Vorrei\" (condicional de volere) es más educado que \"voglio\" al pedir algo.", "Vorrei un caffè, per favore. (Más cortés que \"Voglio un caffè\".)"]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"the menu\" en italiano?", ["Il menù","Il conto","Il piatto","Il tavolo"], 0, "Il menù = the menu. Il conto = the bill, il piatto = the dish, il tavolo = the table."],
+      ["fill", "Completa: \"___ un caffè, per favore.\" (I would like)", ["Vorrei","Voglio","Volevo","Vorrò"], 0, "\"Vorrei\" es la forma más cortés para pedir algo en un restaurante."],
+      ["mcq", "¿Qué significa \"il conto, per favore\"?", ["The bill, please","The menu, please","The table, please","The water, please"], 0, "\"Il conto, per favore\" = the bill, please. Se usa al terminar de comer."],
+      ["translate", "Traduce: \"This dish is delicious.\"", ["Questo piatto è delizioso","Questo piatto è cattivo","Questa piatto è delizioso","Delizioso è questo piatto"], 0, "\"Questo piatto è delizioso.\" — \"piatto\" es masculino, por eso \"delizioso\" y \"questo\"."],
+      ["mcq", "¿Cómo se dice \"waiter\" en italiano?", ["Cameriere","Cuoco","Cliente","Proprietario"], 0, "Cameriere = waiter (cameriera para mujer). Cuoco = cook, cliente = customer."],
+      ["arrange", "Ordena: [d'acqua / vorrei / un / bicchiere]", ["Vorrei un bicchiere d'acqua","Un bicchiere vorrei d'acqua","D'acqua vorrei un bicchiere","Bicchiere d'acqua vorrei un"], 0, "\"Vorrei un bicchiere d'acqua.\" = I would like a glass of water."],
+    ]
+  },
+  {
+    id:"it_a1_daily_routine", level:"A1", title:"Routine quotidiana", emoji:"⏰", xp:35,
+    description:"Habla sobre tu día: mañana, tarde y noche en italiano.",
+    study: {
+      vocab: [
+        ["svegliarsi", "to wake up"],
+        ["alzarsi", "to get up"],
+        ["fare colazione / pranzare / cenare", "to have breakfast/lunch/dinner"],
+        ["andare al lavoro", "to go to work"],
+        ["ogni giorno", "every day"]
+      ],
+      grammar: [
+        ["Verbos reflexivos en presente", "Verbos como \"svegliarsi\" y \"alzarsi\" llevan un pronombre reflexivo (mi, ti, si) que cambia según la persona.", "Io mi sveglio alle 7. / Lei si alza presto."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"I wake up at 7\"?", ["Mi sveglio alle 7","Ti svegli alle 7","Si sveglia alle 7","Svegliarsi alle 7"], 0, "\"Mi sveglio alle 7.\" — primera persona del verbo reflexivo \"svegliarsi\": mi + sveglio."],
+      ["fill", "Completa: \"Lei ___ alle 8.\" (gets up)", ["si alza","mi alzo","ti alzi","alzare"], 0, "\"Si alza\" = tercera persona de \"alzarsi\" (si + alza)."],
+      ["mcq", "¿Qué significa \"fare colazione\"?", ["To have breakfast","To have lunch","To have dinner","To sleep"], 0, "Fare colazione = to have breakfast. Pranzare = to have lunch, cenare = to have dinner."],
+      ["translate", "Traduce: \"I go to work at 9.\"", ["Vado al lavoro alle 9","Vado a lavorare le 9","Va al lavoro alle 9","Vado al lavoro le 9"], 0, "\"Vado al lavoro alle 9.\" — \"andare al + lugar\" y \"alle + hora\" para indicar el momento."],
+      ["mcq", "¿Cómo se dice \"every day\" en italiano?", ["Ogni giorno","Un giorno","Qualche giorno","L'altro giorno"], 0, "Ogni giorno = every day. Un giorno = one day."],
+      ["arrange", "Ordena: [dieci / dormo / alle]", ["Dormo alle dieci","Alle dieci dormo","Dieci dormo alle","Alle dormo dieci"], 0, "\"Dormo alle dieci.\" = I sleep at ten. Verbo + preposición + hora."],
+    ]
+  },
+  {
+    id:"it_a2_shopping_clothes", level:"A2", title:"Fare shopping e i vestiti", emoji:"🛍️", xp:40,
+    description:"Aprende a comprar ropa, preguntar precios y tallas en italiano.",
+    study: {
+      vocab: [
+        ["la camicia, la maglietta", "shirt, t-shirt"],
+        ["i pantaloni, la gonna", "pants, skirt"],
+        ["le scarpe", "shoes"],
+        ["Quanto costa?", "How much does it cost?"],
+        ["la taglia", "size"],
+        ["provare (qualcosa)", "to try on (something)"]
+      ],
+      grammar: [
+        ["Comparativo: più/meno...di", "Se usan para comparar dos cosas.", "Questa camicia è più cara di quella."],
+        ["El verbo \"stare\" con i vestiti", "\"Stare\" describe cómo le queda la ropa a alguien.", "Queste scarpe mi stanno strette (piccole)."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"How much does it cost?\" en italiano?", ["Quanto costa?","Che taglia hai?","Dov'è?","Ti piace?"], 0, "\"Quanto costa?\" se usa para preguntar el precio de algo."],
+      ["fill", "Completa: \"Questa gonna è ___ cara ___ quella.\" (more...than)", ["più / di","meno / di","così / come","molto / di"], 0, "\"Più...di\" se usa para comparaciones de superioridad: \"più cara di\" = more expensive than."],
+      ["mcq", "¿Qué significa \"provare un vestito\"?", ["To try on clothes","To buy clothes","To wash clothes","To fold clothes"], 0, "\"Provare\" = to try on. Se usa antes de comprar, para ver si la talla es correcta."],
+      ["translate", "Traduce al italiano: \"These shoes are too small for me.\"", ["Queste scarpe mi stanno strette","Queste scarpe sono grandi","Questi vestiti sono cari","Queste scarpe costano molto"], 0, "\"Mi stanno strette\" describe cómo le sienta la prenda a la persona."],
+      ["mcq", "¿Cómo se dice \"shirt\" en italiano?", ["Camicia","Pantaloni","Gonna","Scarpa"], 0, "Camicia = shirt. Pantaloni = pants, gonna = skirt, scarpa = shoe."],
+      ["arrange", "Ordena: [è / questa / la / mia / taglia]", ["Questa è la mia taglia","La mia taglia è questa","È questa la mia taglia","Taglia la è questa mia"], 0, "\"Questa è la mia taglia.\" = This is my size."],
+    ]
+  },
+  {
+    id:"it_a2_weather_seasons", level:"A2", title:"Il tempo e le stagioni", emoji:"🌦️", xp:40,
+    description:"Habla del clima y las estaciones del año en italiano.",
+    study: {
+      vocab: [
+        ["fa caldo / freddo", "it's hot / cold"],
+        ["piove, nevica", "it rains, it snows"],
+        ["l'estate, l'inverno, la primavera, l'autunno", "summer, winter, spring, autumn"],
+        ["è nuvoloso / soleggiato", "it's cloudy / sunny"]
+      ],
+      grammar: [
+        ["Verbi impersonali del tempo", "\"Fare\", \"piovere\" y \"nevicare\" se usan en tercera persona sin sujeto explícito.", "Fa molto caldo oggi. Piove."],
+        ["Stare + gerundio (presente progressivo)", "Describe una acción en curso en este momento.", "Sta piovendo proprio adesso."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"it's cold\" en italiano?", ["Fa freddo","Fa caldo","È soleggiato","Piove"], 0, "Fa freddo = it's cold. Fa caldo = it's hot."],
+      ["fill", "Completa: \"In inverno, a volte ___.\" (it snows)", ["nevica","piove","fa caldo","è soleggiato"], 0, "Nevica = it snows, del verbo \"nevicare\", típico del invierno."],
+      ["mcq", "¿Qué estación sigue a la primavera (la primavera)?", ["L'estate","L'inverno","L'autunno","La primavera"], 0, "El orden de las estaciones es: la primavera, l'estate, l'autunno, l'inverno."],
+      ["translate", "Traduce al italiano: \"It's raining right now.\"", ["Sta piovendo proprio adesso","Pioverà domani","Fa freddo adesso","Ha piovuto ieri"], 0, "\"Stare + gerundio\" (presente progresivo) describe una acción en curso ahora mismo."],
+      ["mcq", "¿Cómo se dice \"sunny\" en italiano?", ["Soleggiato","Nuvoloso","Piovoso","Nevoso"], 0, "Soleggiato = sunny. Nuvoloso = cloudy, piovoso = rainy, nevoso = snowy."],
+      ["arrange", "Ordena: [oggi / molto / caldo / fa]", ["Fa molto caldo oggi","Oggi fa molto caldo","Caldo fa molto oggi","Molto fa caldo oggi"], 0, "\"Fa molto caldo oggi.\" = It's very hot today."],
+    ]
+  },
+  {
+    id:"it_a2_passato_prossimo_ieri", level:"A2", title:"Ieri: il passato prossimo", emoji:"📅", xp:45,
+    description:"Aprende a hablar de acciones terminadas en el pasado con el passato prossimo.",
+    study: {
+      vocab: [
+        ["ieri, ieri sera, la settimana scorsa", "yesterday, last night, last week"],
+        ["ho mangiato, hai mangiato, ha mangiato", "I ate, you ate, he/she ate"],
+        ["sono andato/a, sei andato/a", "I went, you went"],
+        ["Cosa hai fatto?", "What did you do?"]
+      ],
+      grammar: [
+        ["Passato prossimo con \"avere\"", "Sujeto + avere (conjugado) + participio pasado.", "Ho mangiato una mela."],
+        ["Passato prossimo con \"essere\"", "Los verbos de movimiento (andare, venire...) usan \"essere\"; el participio concuerda con el sujeto.", "Sono andato/a al cinema ieri."]
+      ]
+    },
+    ex:[
+      ["mcq", "¿Cómo se dice \"I ate\" en italiano?", ["Ho mangiato","Mangio","Mangerò","Mangiando"], 0, "Ho mangiato = I ate (passato prossimo). Mangio = I eat (presente)."],
+      ["fill", "Completa: \"Ieri sono ___ al cinema con i miei amici.\" (went)", ["andato/a","vado","andrò","andavo"], 0, "\"Andare\" es un verbo de movimiento, por eso el passato prossimo se forma con \"essere\": sono + andato/a."],
+      ["mcq", "¿Qué auxiliar se usa con \"mangiare\" en el passato prossimo?", ["Avere","Essere","Andare","Fare"], 0, "La mayoría de los verbos, incluido \"mangiare\", usan \"avere\" como auxiliar en el passato prossimo."],
+      ["translate", "Traduce al italiano: \"What did you do last night?\"", ["Cosa hai fatto ieri sera?","Cosa fai adesso?","Cosa farai domani?","Cosa fai sempre?"], 0, "\"Cosa hai fatto\" usa el passato prossimo de \"fare\" para preguntar por una acción terminada."],
+      ["mcq", "¿Cómo se dice \"last week\" en italiano?", ["La settimana scorsa","Questa settimana","La prossima settimana","Tutti i giorni"], 0, "La settimana scorsa = last week. Questa settimana = this week."],
+      ["arrange", "Ordena: [una / ho / mela / mangiato]", ["Ho mangiato una mela","Una ho mangiato mela","Mela una ho mangiato","Ho mela mangiato una"], 0, "\"Ho mangiato una mela.\" = I ate an apple."],
+    ]
+  },
+  {
+    id:"it_b1_reading_notices", level:"B1", title:"Lettura e decisioni", emoji:"📌", xp:55,
+    description:"Estrai informazioni pratiche da avvisi e messaggi quotidiani.",
+    study:{
+      vocab:[
+        ["disponibile su richiesta","available on request"],
+        ["soggetto a modifiche","subject to change"],
+        ["avere i requisiti","to be eligible"],
+        ["la scadenza","deadline"]
+      ],
+      grammar:[
+        ["Lettura selettiva","Cerca prima lo scopo, la condizione e l'azione richiesta.","Le prenotazioni si confermano solo dopo il pagamento."]
+      ]
+    },
+    ex:[
+      ["mcq","Avviso: \"I posti del workshop sono riservati ai soci fino a venerdì; poi i posti restanti saranno liberati.\" Cosa deve fare una persona non socia?",["Aspettare fino a venerdì per sapere se restano posti.","Prenotare oggi perché ha la priorità.","Pagare una quota obbligatoria prima di venerdì.","Supporre che il workshop sia annullato."],0,"L'avviso indica una priorità temporanea per i soci, non un'esclusività permanente."],
+      ["mcq","Messaggio: \"Invia il modulo entro le 17 di giovedì. Le domande tardive saranno considerate solo se restano posti.\" Qual è l'azione più sicura?",["Inviare il modulo prima delle 17 di giovedì.","Aspettare la conferma che restano posti.","Inviare venerdì perché le domande tardive sono sempre accettate.","Chiamare per annullare la domanda."],0,"\"Entro\" segna una scadenza chiara; \"solo se\" non garantisce l'accettazione tardiva."],
+      ["fill","Completa: \"I candidati devono essere ___ per il programma prima di richiedere il finanziamento.\"",["idonei","disponibili","soggetti","scaduti"],0,"\"Idoneo\" significa che soddisfa i requisiti necessari."],
+      ["writing","Scrivi un'email di 45-60 parole per chiedere se puoi ancora fare domanda dopo la scadenza.",[],["tardiva","domanda","disponibile"],"Includi un saluto, una richiesta chiara e una chiusura adatta.","Scrivi al coordinatore di un corso che si è chiuso ieri."]
+    ]
+  },
+  {
+    id:"it_b1_opinions", level:"B1", title:"Opinioni e punti di vista", emoji:"🎧", xp:58,
+    description:"Distingui fatti, preferenze e ragioni in conversazioni quotidiane.",
+    study:{
+      vocab:[
+        ["preferirei","I would rather"],
+        ["si scopre che","it turns out"],
+        ["vale la pena","it's worth it"],
+        ["scoraggiare qualcuno","to put someone off"]
+      ],
+      grammar:[
+        ["Opinione con giustificazione","Una risposta B1 deve includere un'opinione e una ragione.","Preferirei viaggiare in treno perché posso lavorare durante il viaggio."]
+      ]
+    },
+    ex:[
+      ["mcq","Leggi: \"Maya si aspettava che il corso fosse difficile, ma si scopre che il feedback settimanale lo rende gestibile.\" Cosa pensa Maya?",["Il corso è impegnativo, ma il supporto la aiuta a seguirlo.","Il corso è troppo facile.","Il feedback rende il corso più difficile.","Ha lasciato il corso per mancanza di supporto."],0,"L'aspettativa iniziale viene contrastata da un bilancio finale più positivo."],
+      ["mcq","Quale risposta esprime preferenza e motivo?",["Preferirei incontrarci online perché fa risparmiare tempo di viaggio.","Mi incontro online ieri.","Gli incontri online sono un tempo di viaggio.","Preferisco perché incontri."],0,"La struttura include preferenza, opzione e giustificazione."],
+      ["fill","Completa: \"Il prezzo era alto, ma l'esperienza ne ___ la pena.\"",["valeva","preferiva","scopriva","scoraggiava"],0,"L'espressione fissa è \"valerne la pena\"."],
+      ["speaking","Parla per 45-60 parole: confronta studiare da solo e studiare con altri. Dai una preferenza, una ragione e uno svantaggio.",[],["preferisco","perché","tuttavia"],"Organizza la risposta: confronto, preferenza, ragione e riserva.","Conversazione con un compagno di classe."]
+    ]
+  },
+  {
+    id:"it_b1_storytelling", level:"B1", title:"Raccontare un'esperienza", emoji:"🗺️", xp:60,
+    description:"Racconta esperienze passate combinando passato prossimo e imperfetto.",
+    study:{
+      vocab:[
+        ["all'inizio","at first"],
+        ["alla fine","eventually"],
+        ["inaspettatamente","unexpectedly"],
+        ["rendersi conto","to realise"]
+      ],
+      grammar:[
+        ["Passato prossimo vs. imperfetto","L'imperfetto descrive lo sfondo o un'azione in corso; il passato prossimo racconta azioni concluse.","Mentre aspettavamo l'autobus, ha iniziato a piovere."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase usa correttamente passato prossimo e imperfetto?",["Mentre camminavamo nel parco, abbiamo visto un incidente.","Mentre abbiamo camminato nel parco, vedevamo un incidente.","Mentre camminavamo nel parco, vedevamo un incidente ieri.","Abbiamo camminato nel parco mentre abbiamo visto."],0,"Lo sfondo (camminavamo) va all'imperfetto; l'azione puntuale (abbiamo visto) va al passato prossimo."],
+      ["fill","Completa: \"Non mi ___ conto di quanto fosse tardi finché non ho guardato il telefono.\"",["sono reso","rendevo","rendo","rendevo conto"],0,"\"Rendersi conto\" al passato prossimo per un'azione puntuale: \"mi sono reso conto\"."],
+      ["translate","Traduci: \"At first I was nervous, but eventually I enjoyed the experience.\"",["All'inizio ero nervoso, ma alla fine ho apprezzato l'esperienza.","All'inizio sono stato nervoso, ma alla fine apprezzavo l'esperienza.","All'inizio ero nervoso, ma alla fine apprezzavo molto l'esperienza.","All'inizio ero nervoso, ma alla fine ho apprezzato dell'esperienza."],0,"Lo stato d'animo di sfondo va all'imperfetto (\"ero\"); l'azione completa va al passato prossimo (\"ho apprezzato\")."],
+      ["writing","Scrivi una storia di 80-100 parole su un piano che è cambiato inaspettatamente.",[],["all'inizio","ma","alla fine"],"Controlla che ogni parte faccia avanzare la storia e che i tempi verbali siano coerenti.","Un breve viaggio che non è andato come previsto."]
+    ]
+  },
+  {
+    id:"it_b1_agreement", level:"B1", title:"Discutere e trovare un accordo", emoji:"🤝", xp:62,
+    description:"Proponi opzioni, rispondi alle idee altrui e negozia una decisione.",
+    study:{
+      vocab:[
+        ["e se...?","shall we...?"],
+        ["capisco il tuo punto","I see your point"],
+        ["che ne dici di...?","how about...?"],
+        ["un compromesso","a compromise"]
+      ],
+      grammar:[
+        ["Linguaggio collaborativo","Per negoziare: proporre, rispondere e cercare un'alternativa condivisa.","Capisco il tuo punto sul costo; che ne dici di scegliere l'opzione più economica?"]
+      ]
+    },
+    ex:[
+      ["mcq","Quale risposta costruisce un accordo?",["Capisco il tuo punto sul costo; che ne dici di invitare meno persone?","La tua idea è brutta, quindi vince la mia.","Non capisco nessun punto.","L'opzione economica sono le persone."],0,"Riconosce un'idea e propone un compromesso concreto."],
+      ["fill","Completa: \"___ ci vediamo in biblioteca dopo lezione?\"",["E se","Sarebbe","Ha fatto","Ha"],0,"\"E se...?\" è un modo comune per proporre qualcosa."],
+      ["mcq","Quale frase esprime un disaccordo cortese?",["Non sono sicuro che funzioni, perché il locale chiude presto.","Non funzionerà mai.","Il tuo locale è terribile.","No, ovviamente no."],0,"Il disaccordo viene attenuato e motivato con una ragione."],
+      ["speaking","Parla per 45-60 parole: proponi un piano per il weekend, rispondi a un'obiezione e offri un compromesso.",[],["propongo","perché","compromesso"],"Includi una proposta concreta, una ragione e una risposta collaborativa.","Organizzi un'attività con un amico con poco budget."]
+    ]
+  },
+  {
+    id:"it_b1_future_plans", level:"B1", title:"Piani e futuro", emoji:"🗓️", xp:60,
+    description:"Parla di piani, intenzioni e previsioni usando diverse forme di futuro.",
+    study:{
+      vocab:[
+        ["ho intenzione di","I intend to"],
+        ["tra poco","soon"],
+        ["appena posso","as soon as I can"],
+        ["è possibile che","it's possible that"]
+      ],
+      grammar:[
+        ["Futuro semplice vs. pensare di + infinito","\"Pensare di + infinito\" esprime un progetto già deciso; il futuro semplice esprime previsioni o decisioni spontanee.","Penso di trasferirmi il mese prossimo. / Credo che domani pioverà."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase esprime un piano già deciso?",["Penso di iniziare un corso di italiano a settembre.","Inizierò un corso se avrò tempo.","Credo che inizierò qualche corso.","Iniziavo un corso l'anno scorso."],0,"\"Pensare di + infinito\" esprime un progetto già deciso."],
+      ["fill","Completa: \"Appena ___ il rapporto, te lo mando.\"",["finisco","finivo","finirò","finivo il"],0,"Dopo \"appena\" per un'azione futura vicina si usa spesso il presente."],
+      ["translate","Traduci: \"As soon as I finish the project, I'll call you.\"",["Appena finisco il progetto, ti chiamo.","Quando finivo il progetto, ti chiamo.","Appena finirò il progetto, ti chiamavo.","Se finisco il progetto, ti chiamerò forse."],0,"\"Appena\" + presente introduce una condizione futura vicina."],
+      ["writing","Scrivi 45-60 parole sui tuoi piani per il prossimo anno. Usa almeno due espressioni di futuro.",[],["ho intenzione","appena","è possibile"],"Combina almeno due modi di parlare del futuro e giustifica un piano.","Racconti i tuoi piani a un amico."]
+    ]
+  },
+  {
+    id:"it_b1_complaints_requests", level:"B1", title:"Reclami e richieste cortesi", emoji:"✉️", xp:60,
+    description:"Formula reclami e richieste formali usando il condizionale di cortesia.",
+    study:{
+      vocab:[
+        ["vorrei","I would like"],
+        ["potrebbe...?","could you...?"],
+        ["mi dispiace informarla","I regret to inform you"],
+        ["presentare un reclamo","to file a complaint"]
+      ],
+      grammar:[
+        ["Condizionale di cortesia","\"Vorrei\" e \"potrebbe\" rendono più gentili richieste e reclami formali.","Vorrei sapere perché l'ordine è arrivato in ritardo."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase è un reclamo formale e cortese?",["Vorrei sapere perché il pacco è arrivato con una settimana di ritardo.","Questo è un disastro totale!","La vostra azienda non fa mai niente bene.","Non intendo pagare nulla."],0,"Formula il reclamo in modo indiretto e rispettoso, senza perdere chiarezza."],
+      ["fill","Completa: \"___ mandarmi una copia della fattura, per favore?\"",["Potrebbe","Può","Ha potuto","Posso"],0,"\"Potrebbe\" al condizionale rende la richiesta più gentile e formale."],
+      ["translate","Traduci: \"I would like to file a complaint about the service.\"",["Vorrei presentare un reclamo sul servizio.","Voglio lamentare il servizio.","Mi piace presentare un reclamo del servizio.","Presenterei un reclamo il servizio."],0,"\"Vorrei\" + infinito è la formula standard di cortesia."],
+      ["writing","Scrivi un'email di reclamo di 50-70 parole su un ordine arrivato incompleto. Usa il condizionale di cortesia.",[],["vorrei","potrebbe","mi dispiace"],"Spiega il problema, formula una richiesta chiara e chiudi in modo cortese.","Un ordine online è arrivato con due articoli mancanti."]
+    ]
+  },
+  {
+    id:"it_b2_hypotheticals", level:"B2", title:"Ipotesi e condizioni improbabili", emoji:"🌀", xp:75,
+    description:"Esprimi ipotesi poco probabili o irreali con se + congiuntivo imperfetto.",
+    study:{
+      vocab:[
+        ["se avessi","if I had"],
+        ["nel caso in cui","in case"],
+        ["a meno che","unless"],
+        ["supponendo che","assuming that"]
+      ],
+      grammar:[
+        ["Periodo ipotetico della possibilità (secondo tipo)","Per ipotesi poco probabili al presente: se + congiuntivo imperfetto, condizionale presente nella principale.","Se avessi più tempo, viaggerei più spesso."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase esprime correttamente un'ipotesi poco probabile?",["Se avessi più soldi, comprerei una casa più grande.","Se ho più soldi, comprerei una casa più grande.","Se avessi più soldi, compro una casa più grande.","Se avrei più soldi, comprerei una casa."],0,"Il secondo tipo richiede il congiuntivo imperfetto nella condizione e il condizionale presente nella conseguenza."],
+      ["fill","Completa: \"A meno che non ___ uno sforzo extra, non finiremo in tempo.\"",["facciamo","facessimo","faremmo","abbiamo fatto"],0,"'A meno che' richiede il congiuntivo; nel registro standard si usa qui il congiuntivo presente 'facciamo'."],
+      ["mcq","Qual è la migliore parafrasi di \"Se fossi in te, non accetterei quell'offerta\"?",["Un consiglio ipotetico: chi parla non accetterebbe l'offerta al posto dell'ascoltatore.","Un ordine diretto.","La descrizione di un fatto passato.","Una promessa per il futuro."],0,"La struttura ipotetica esprime un consiglio, non un fatto né un ordine."],
+      ["writing","Scrivi 60-80 parole: descrivi cosa faresti diversamente se potessi rivivere un anno della tua vita. Usa almeno due ipotesi con 'se'.",[],["se avessi","a meno che","supponendo"],"Controlla che ogni ipotesi combini correttamente congiuntivo imperfetto e condizionale.","Riflessione personale per un blog."]
+    ]
+  },
+  {
+    id:"it_b2_reported_speech", level:"B2", title:"Discorso indiretto", emoji:"💬", xp:78,
+    description:"Riporta ciò che altri hanno detto adattando tempi verbali e indicatori temporali.",
+    study:{
+      vocab:[
+        ["ha detto che","he/she said that"],
+        ["ha spiegato che","he/she explained that"],
+        ["ha chiesto se","he/she asked whether"],
+        ["ha aggiunto che","he/she added that"]
+      ],
+      grammar:[
+        ["Discorso indiretto","Al passato, il futuro diventa condizionale passato e il presente spesso diventa imperfetto.","Ha detto: 'Arriverò in ritardo.' → Ha detto che sarebbe arrivato in ritardo."]
+      ]
+    },
+    ex:[
+      ["mcq","Citazione diretta: \"Finirò il rapporto domani.\" Qual è il discorso indiretto corretto?",["Ha detto che avrebbe finito il rapporto il giorno dopo.","Ha detto che finirà il rapporto domani.","Ha detto che finiva il rapporto domani.","Ha detto che finisca il rapporto il giorno dopo."],0,"Il futuro della citazione originale diventa condizionale passato; 'domani' diventa 'il giorno dopo'."],
+      ["fill","Completa: \"Mi ha chiesto se ___ disponibile per la riunione di lunedì.\"",["fossi","sono","sarò","sia"],0,"Il presente della citazione originale diventa imperfetto nel discorso indiretto al passato."],
+      ["mcq","Cosa cambia di solito passando dal discorso diretto a quello indiretto al passato?",["Il tempo verbale e a volte i marcatori temporali (domani → il giorno dopo).","Solo il soggetto della frase.","Niente cambia mai.","Solo l'ordine delle parole."],0,"Il tempo verbale si sposta indietro nel passato e alcuni marcatori temporali cambiano."],
+      ["writing","Riporta al discorso indiretto (50-70 parole) una conversazione recente in cui qualcuno ti ha raccontato i suoi piani.",[],["ha detto che","ha spiegato","ha aggiunto"],"Adatta correttamente tempi verbali e marcatori temporali.","Racconti a un amico cosa ti ha detto un collega."]
+    ]
+  },
+  {
+    id:"it_b2_passive_impersonal", level:"B2", title:"Passivo e si passivante", emoji:"⚙️", xp:76,
+    description:"Descrivi processi e fatti senza mettere in evidenza chi li compie.",
+    study:{
+      vocab:[
+        ["essere + participio passato","to be + past participle (passive)"],
+        ["si + verbo","impersonal/passive 'si' construction"],
+        ["essere portato a termine","to be carried out"],
+        ["occuparsi di","to be in charge of"]
+      ],
+      grammar:[
+        ["Passivo e si passivante","Il passivo con 'essere' mette in evidenza l'azione; il 'si' passivante è più naturale quando l'agente non è importante.","Il progetto è stato approvato dal comitato. / Si è approvato il progetto."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase usa correttamente il 'si' passivante?",["Si sono firmati i contratti ieri pomeriggio.","Si è firmato i contratti ieri pomeriggio.","È stato firmato i contratti ieri.","Si firmava i contratti da qualcuno."],0,"Il verbo concorda al plurale con 'i contratti': 'si sono firmati'."],
+      ["fill","Completa: \"Il nuovo edificio ___ progettato da un'azienda internazionale.\"",["è stato","si è","ha","era in via di essere"],0,"Con un agente esplicito ('da un'azienda'), si preferisce il passivo con 'essere'."],
+      ["mcq","Quando si preferisce il 'si' passivante rispetto al passivo con 'essere'?",["Quando l'agente non è rilevante o non è noto.","Quando si vuole sempre nominare l'agente.","Mai nell'italiano naturale.","Solo nei testi letterari antichi."],0,"Il 'si' passivante è la forma naturale quando l'agente non è rilevante."],
+      ["writing","Descrivi in 50-70 parole un processo (per esempio, come si organizza un evento) usando almeno due costruzioni passive o impersonali.",[],["si + verbo","è stato + participio","portato a termine"],"Usa almeno due costruzioni diverse in modo coerente.","Spieghi una procedura a un nuovo membro del team."]
+    ]
+  },
+  {
+    id:"it_b2_doubt_probability", level:"B2", title:"Dubbio, probabilità e certezza", emoji:"❓", xp:78,
+    description:"Distingui quando usare il congiuntivo o l'indicativo secondo il grado di certezza.",
+    study:{
+      vocab:[
+        ["dubito che","I doubt that"],
+        ["non credo che","I don't think that"],
+        ["è probabile che","it's likely that"],
+        ["può darsi che","it might be that"]
+      ],
+      grammar:[
+        ["Congiuntivo con dubbio e probabilità","I verbi ed espressioni di dubbio o negazione di certezza richiedono il congiuntivo nella subordinata.","Dubito che il progetto sia pronto per venerdì."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase è grammaticalmente corretta?",["Non credo che la proposta sia fattibile a breve termine.","Non credo che la proposta è fattibile a breve termine.","Non credo che la proposta sarà fattibile a breve termine.","Non credo che la proposta fattibile a breve termine."],0,"\"Non credo che\" nega la certezza, quindi richiede il congiuntivo: \"sia\"."],
+      ["fill","Completa: \"Può darsi che ___ già preso la decisione quando arriveremo.\"",["abbiano","hanno","prenderanno","prendevano"],0,"'Può darsi che' + congiuntivo (qui, congiuntivo passato per un'azione precedente)."],
+      ["mcq","Quale espressione NON richiede il congiuntivo nella proposizione seguente?",["Sono sicuro che...","Dubito che...","Non credo che...","È possibile che..."],0,"'Sono sicuro che' esprime certezza, quindi si usa l'indicativo, non il congiuntivo."],
+      ["speaking","Parla per 60-80 parole: dai la tua opinione sul fatto che il telelavoro diventi la norma. Usa almeno un'espressione di dubbio e una di certezza.",[],["dubito che","è probabile","sono sicuro"],"Alterna correttamente congiuntivo e indicativo secondo il grado di certezza.","Dibattito informale sul futuro del lavoro."]
+    ]
+  },
+  {
+    id:"it_b2_contrast_connectors", level:"B2", title:"Connettivi di contrasto", emoji:"⚖️", xp:76,
+    description:"Usa 'sebbene' e altri connettivi per sfumare idee e contrastare fatti.",
+    study:{
+      vocab:[
+        ["sebbene","although"],
+        ["nonostante","despite"],
+        ["tuttavia","however"],
+        ["però","but / however"]
+      ],
+      grammar:[
+        ["Connettivi di contrasto","'Sebbene' e 'nonostante' richiedono il congiuntivo, anche per un fatto reale.","Sebbene abbia piovuto, siamo usciti a camminare."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase usa correttamente 'sebbene'?",["Sebbene il volo abbia subito un ritardo, siamo arrivati in orario alla riunione.","Sebbene il volo ha subito un ritardo, siamo arrivati in orario.","Sebbene il volo subiva un ritardo, siamo arrivati.","Sebbene il volo subirà un ritardo, arriviamo in orario."],0,"'Sebbene' richiede sempre il congiuntivo, anche per un fatto accertato."],
+      ["fill","Completa: \"___ il rapporto fosse incompleto, lo abbiamo inviato prima della scadenza.\"",["Nonostante","Tuttavia","Però","Può darsi che"],0,"'Nonostante' introduce una subordinata di contrasto con un fatto reale."],
+      ["mcq","Quale connettivo introduce tipicamente una nuova frase invece di una subordinata nella stessa frase?",["Tuttavia","Sebbene","Nonostante","Perché"],0,"'Tuttavia' funziona come connettivo tra frasi, non come subordinante."],
+      ["writing","Scrivi un paragrafo di 60-80 parole presentando un'opinione e sfumandola con almeno due connettivi di contrasto diversi.",[],["sebbene","tuttavia","però"],"Combina correttamente i connettivi subordinanti e quelli che uniscono frasi.","Opinione su un tema d'attualità per un forum."]
+    ]
+  },
+  {
+    id:"it_b2_debate_nuance", level:"B2", title:"Argomentare con sfumature", emoji:"🗣️", xp:80,
+    description:"Costruisci argomenti che riconoscono il punto contrario prima di difendere una posizione.",
+    study:{
+      vocab:[
+        ["da un lato / dall'altro","on one hand / on the other hand"],
+        ["è innegabile che","it's undeniable that"],
+        ["vale la pena notare che","it's worth noting that"],
+        ["in definitiva","ultimately"]
+      ],
+      grammar:[
+        ["Argomentazione sfumata","Un buon argomento B2 riconosce il punto contrario prima di difendere una posizione.","È innegabile che il piano riduca i costi, ma vale la pena notare che comporta anche dei rischi."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale struttura mostra un argomento ben sfumato?",["È innegabile che il progetto sia costoso, ma a lungo termine potrebbe risparmiare risorse.","Il progetto è costoso, punto.","Il progetto ovviamente non costa nulla.","Non c'è nessun argomento contro il progetto."],0,"Riconosce un punto contrario prima di sfumarlo con un vantaggio a lungo termine."],
+      ["fill","Completa: \"___, la proposta ha più vantaggi che svantaggi.\"",["In definitiva","Sebbene","A meno che","Dubito che"],0,"'In definitiva' si usa per chiudere un argomento con una conclusione generale."],
+      ["mcq","Che funzione ha \"vale la pena notare che\" in un argomento?",["Evidenzia un punto che chi parla considera particolarmente rilevante.","Introduce un'ipotesi irreale.","Esprime dubbio totale sul tema.","Chiude la conversazione bruscamente."],0,"È una formula per mettere in risalto un punto rilevante nell'argomento."],
+      ["writing","Scrivi un paragrafo argomentativo di 70-90 parole su un tema dibattuto (per esempio, il lavoro da remoto). Riconosci un punto contrario prima di difendere la tua posizione.",[],["da un lato","è innegabile","in definitiva"],"Struttura: riconoscimento del punto contrario, la tua posizione e una conclusione.","Contributo a un dibattito scritto in classe."]
+    ]
+  },
+  {
+    id:"it_c1_register_nuance", level:"C1", title:"Registro e sfumatura nei testi formali", emoji:"🎩", xp:88,
+    description:"Usa l'attenuazione (hedging) per esprimere affermazioni prudenti in registro formale.",
+    study:{
+      vocab:[
+        ["converrebbe sottolineare che","it would be worth pointing out that"],
+        ["sarebbe opportuno precisare che","it would be worth clarifying that"],
+        ["essere propensi a pensare che","to be inclined to think that"],
+        ["a grandi linee","broadly speaking"]
+      ],
+      grammar:[
+        ["Attenuazione (hedging) nel registro formale","Il condizionale attenua le affermazioni e le rende più prudenti e formali rispetto al presente indicativo.","Converrebbe sostenere che la misura è prematura, sebbene i dati siano ancora limitati."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase è più adatta a un rapporto formale?",["Converrebbe sottolineare che i risultati, seppur promettenti, richiedono ulteriori analisi.","I risultati sono fantastici, punto.","È chiarissimo per chiunque.","Non c'è altro da dire su questo."],0,"Il registro formale privilegia l'attenuazione e la prudenza argomentativa."],
+      ["fill","Completa: \"___ precisare che lo studio si basa su un campione ridotto.\"",["Sarebbe opportuno","È ovvio","Mai","Sempre"],0,"'Sarebbe opportuno' introduce una raccomandazione attenuata, tipica del registro formale."],
+      ["mcq","Che effetto produce usare il condizionale invece del presente in un rapporto?",["Attenua l'affermazione e lascia spazio al dubbio ragionevole.","Rende l'affermazione più categorica e sicura.","Cambia completamente il significato.","Non ha alcun effetto stilistico."],0,"Il condizionale attenua l'affermazione senza negarla."],
+      ["writing","Scrivi 60-80 parole di un breve rapporto che valuta una proposta, usando almeno due espressioni di attenuazione.",[],["converrebbe sottolineare","sarebbe opportuno","a grandi linee"],"Il registro formale privilegia la prudenza argomentativa rispetto alla certezza assoluta.","Rapporto interno per un comitato direttivo."]
+    ]
+  },
+  {
+    id:"it_c1_subjunctive_past", level:"C1", title:"Congiuntivo trapassato", emoji:"⏳", xp:90,
+    description:"Esprimi ipotesi irreali al passato con una concordanza dei tempi complessa.",
+    study:{
+      vocab:[
+        ["se l'avessi saputo","if I had known"],
+        ["era impossibile che","it was impossible that"],
+        ["sarebbe bastato","it would have sufficed"],
+        ["solo quando","it wasn't until that"]
+      ],
+      grammar:[
+        ["Congiuntivo trapassato e concordanza dei tempi","Per ipotesi irreali al passato: se + congiuntivo trapassato, condizionale passato nella principale.","Se avessi saputo il rischio, avrei agito diversamente."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase esprime correttamente un'ipotesi irreale al passato?",["Se avessimo revisionato il contratto in tempo, avremmo evitato il problema.","Se revisioniamo il contratto in tempo, avremmo evitato il problema.","Se avessimo revisionato il contratto in tempo, evitiamo il problema.","Se avremmo revisionato il contratto, avremmo evitato il problema."],0,"Serve il congiuntivo trapassato nella condizione e il condizionale passato nella conseguenza."],
+      ["fill","Completa: \"Era impossibile che il team ___ il progetto senza più risorse.\"",["avesse finito","aveva finito","finirebbe","finisca già"],0,"Dopo 'era impossibile che' (dubbio al passato) si usa il congiuntivo; per un'azione precedente, il trapassato congiuntivo."],
+      ["mcq","Cosa distingue il congiuntivo trapassato dal congiuntivo imperfetto?",["Il trapassato colloca l'ipotesi in un momento anteriore a un altro punto del passato.","Non c'è nessuna differenza reale tra i due.","Il trapassato si usa solo per il futuro.","Il congiuntivo imperfetto non esiste in italiano."],0,"Il trapassato aggiunge un ulteriore livello temporale anteriore nel passato."],
+      ["writing","Scrivi 70-90 parole su una decisione passata che cambieresti. Usa almeno due strutture con il congiuntivo trapassato.",[],["se avessi saputo","sarebbe bastato","solo quando"],"Controlla che le strutture combinino correttamente il congiuntivo trapassato e il condizionale passato.","Riflessione retrospettiva su una decisione professionale."]
+    ]
+  },
+  {
+    id:"it_c1_nominalization", level:"C1", title:"Nominalizzazione e stile formale", emoji:"📑", xp:86,
+    description:"Trasforma i verbi in sostantivi per ottenere un registro accademico e tecnico.",
+    study:{
+      vocab:[
+        ["l'attuazione di","the implementation of"],
+        ["l'assenza di","the absence of"],
+        ["dare luogo a","to give rise to"],
+        ["comportare","to entail"]
+      ],
+      grammar:[
+        ["Nominalizzazione per un registro formale","Trasformare i verbi in sostantivi (attuare → l'attuazione) è tipico dei testi accademici e tecnici.","L'attuazione tardiva della misura ha dato luogo a ritardi diffusi."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale riformulazione è più adatta a un rapporto tecnico?",["L'assenza di coordinamento tra i team ha dato luogo a una duplicazione dei compiti.","Non si sono coordinati, quindi hanno fatto le stesse cose due volte.","I team non si sono parlati, quindi è stato un pasticcio.","È stato un disastro perché nessuno ha comunicato."],0,"La nominalizzazione condensa l'informazione in un tono più oggettivo."],
+      ["fill","Completa: \"L'___ di nuove tecnologie comporta costi iniziali elevati.\"",["adozione","adottare","adottando","adottato"],0,"Il sostantivo 'adozione' (nominalizzazione di 'adottare') si integra nella struttura formale con articolo."],
+      ["mcq","Quale vantaggio offre la nominalizzazione in un testo tecnico?",["Permette di condensare le informazioni e adottare un tono più oggettivo e impersonale.","Rende il testo più informale e vicino al lettore.","Elimina ogni possibilità di precisione.","Non offre alcun vantaggio reale."],0,"La nominalizzazione è centrale per densità e oggettività nel registro tecnico."],
+      ["writing","Riscrivi in 60-80 parole un paragrafo informale su un problema lavorativo, trasformandolo in un frammento di rapporto formale con almeno tre nominalizzazioni.",[],["l'attuazione","l'assenza di","dare luogo a"],"Individua i verbi chiave e trasformali in sostantivi per un tono più formale.","Trasformare un reclamo informale in un rapporto interno."]
+    ]
+  },
+  {
+    id:"it_c1_causal_connectors", level:"C1", title:"Connettivi complessi di causa-conseguenza", emoji:"🔗", xp:88,
+    description:"Collega cause e conseguenze con precisione usando connettivi avanzati.",
+    study:{
+      vocab:[
+        ["dato che","given that"],
+        ["nella misura in cui","insofar as"],
+        ["da cui il fatto che","hence / which is why"],
+        ["pena","under penalty of"]
+      ],
+      grammar:[
+        ["Connettivi complessi di causa-conseguenza","'Da cui' introduce una conseguenza logica; 'dato che' e 'nella misura in cui' introducono cause con l'indicativo.","Dato che i costi sono aumentati, da cui la revisione del bilancio."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase usa correttamente 'da cui'?",["I dati erano contraddittori, da cui il ritardo nella pubblicazione del rapporto.","Da cui i dati erano contraddittori, il rapporto è stato ritardato.","I dati, da cui contraddittori, hanno ritardato il rapporto.","Da cui che i dati siano contraddittori, ritardo del rapporto."],0,"'Da cui' introduce direttamente una conseguenza logica, spesso seguita da un sostantivo."],
+      ["fill","Completa: \"___ le risorse disponibili, il progetto procederà più lentamente del previsto.\"",["Dato","Da cui","Pena","Converrebbe sottolineare"],0,"'Dato' introduce una causa in modo diretto."],
+      ["mcq","Cosa significa approssimativamente 'nella misura in cui'?",["Nella proporzione o nel grado in cui qualcosa accade; equivalente a 'per quanto'.","Esattamente lo stesso di 'sebbene'.","Introduce sempre un'ipotesi irreale.","Si usa solo per parlare di misure fisiche."],0,"Esprime una proporzionalità tra due fatti collegati."],
+      ["writing","Scrivi un paragrafo di 70-90 parole spiegando la causa e la conseguenza di una decisione aziendale, usando almeno due connettivi di questa lezione.",[],["dato che","da cui","nella misura in cui"],"Distingui con attenzione i connettivi di causa da quelli di conseguenza.","Analisi causale per un rapporto di gestione."]
+    ]
+  },
+  {
+    id:"it_c1_mediation_summary", level:"C1", title:"Mediazione: sintetizzare con precisione", emoji:"🗂️", xp:90,
+    description:"Riassumi informazioni complesse conservando le relazioni logiche tra le idee.",
+    study:{
+      vocab:[
+        ["in sintesi","in summary"],
+        ["il punto centrale è che","the key point is that"],
+        ["conviene sottolineare","it's worth highlighting"],
+        ["a grandi linee","broadly / roughly speaking"]
+      ],
+      grammar:[
+        ["Mediazione: sintetizzare con precisione","Un buon riassunto C1 conserva la relazione logica tra le idee (causa, contrasto, condizione), non solo le parole chiave.","A grandi linee, il rapporto conclude che il piano è fattibile, anche se conviene sottolineare i rischi di finanziamento."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual è il miglior riassunto per un pubblico con poco tempo?",["A grandi linee, il rapporto raccomanda un'espansione graduale, condizionata all'ottenimento di finanziamenti esterni.","Il rapporto ha molte pagine su espansione, finanziamento e altre cose.","L'espansione sarà perfetta se tutti si impegnano.","Ci sono finanziamento, espansione e un rapporto coinvolti."],0,"Un buon riassunto dà priorità alla decisione, alla condizione e al rischio principale."],
+      ["fill","Completa: \"___, lo studio mostra un miglioramento moderato ma costante nei risultati.\"",["In sintesi","Pena","Da cui","Converrebbe"],0,"'In sintesi' introduce una conclusione generale che chiude il riassunto."],
+      ["mcq","Cosa distingue una buona mediazione (riassunto) da un semplice elenco di parole chiave?",["Conserva le relazioni logiche (causa, contrasto, condizione) tra le idee originali.","Elimina ogni relazione logica e lascia solo termini isolati.","Deve sempre essere più lungo del testo originale.","Non deve includere alcuna conclusione."],0,"La mediazione richiede di preservare il senso e i collegamenti, non solo il vocabolario."],
+      ["writing","Riassumi in 60-80 parole un rapporto immaginario che valuta due opzioni strategiche, indicando la raccomandazione principale e una condizione o rischio.",[],["in sintesi","il punto centrale","conviene sottolineare"],"Dai priorità alla decisione, alla ragione e a una condizione o rischio rilevante.","Sintesi esecutiva per la direzione."]
+    ]
+  },
+  {
+    id:"it_c1_concession_refutation", level:"C1", title:"Concessione avanzata e confutazione", emoji:"⚔️", xp:92,
+    description:"Riconosci argomenti contrari con forza retorica prima di confutarli con precisione.",
+    study:{
+      vocab:[
+        ["se è vero che... non è meno vero che","while it's true that... it's no less true that"],
+        ["lungi dal","far from"],
+        ["ciò non toglie che","that doesn't take away that"],
+        ["in ultima analisi","ultimately"]
+      ],
+      grammar:[
+        ["Concessione avanzata e confutazione","Queste strutture riconoscono un argomento contrario con forza retorica prima di confutarlo o sfumarlo con precisione.","Se è vero che il piano riduce i costi, non è meno vero che introduce rischi considerevoli."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase confuta un argomento con maggiore precisione retorica?",["Lungi dal risolvere il problema, la misura potrebbe aggravarlo a lungo termine.","La misura è cattiva, punto.","Non serve a niente, ovviamente.","Tutti sanno che è sbagliata."],0,"'Lungi dal' introduce una confutazione sfumata e argomentata, non una semplice negazione."],
+      ["fill","Completa: \"Il progetto ha generato profitti; ___, non ha coperto i costi iniziali.\"",["ciò non toglie che","dato che","da cui","nella misura in cui"],0,"'Ciò non toglie che' introduce una concessione seguita da una sfumatura."],
+      ["mcq","Che funzione retorica ha \"se è vero che... non è meno vero che\"?",["Riconosce un punto valido prima di introdurre un'obiezione altrettanto solida.","Nega completamente il primo punto.","Esprime dubbio totale su entrambi i punti.","È una formula puramente informale."],0,"È una struttura di concessione-confutazione tipica del registro argomentativo colto."],
+      ["writing","Scrivi un paragrafo di 80-100 parole che confuti con sfumature una posizione su un tema controverso (per esempio, l'automazione del lavoro), usando almeno due strutture di concessione-confutazione.",[],["se è vero che","lungi dal","in ultima analisi"],"Riconosci prima il punto contrario, poi sfumalo o confutalo con precisione.","Articolo di opinione per una rivista specializzata."]
+    ]
+  },
+  {
+    id:"it_c2_style_implication", level:"C2", title:"Stile, implicazione e sfumatura", emoji:"🔎", xp:92,
+    description:"Interpreta il sottotesto e riformula idee complesse usando l'inversione enfatica e la litote.",
+    study:{
+      vocab:[
+        ["in nessun caso","by no means","Negazione enfatica che anticipa il verbo."],
+        ["non essere all'altezza di","to fall short of"],
+        ["un presupposto tacito","a tacit assumption"],
+        ["sfumare un'affermazione","to qualify a claim"]
+      ],
+      grammar:[
+        ["Inversione dopo una negazione enfatica","Con espressioni negative enfatiche in apertura di frase ('in nessun caso', 'in alcun modo', 'sotto nessun aspetto'), nel registro colto il verbo precede spesso il soggetto.","In nessun caso questi risultati dovrebbero essere considerati definitivi."],
+        ["Litote: affermare negando il contrario","Negare il contrario di un'idea è un espediente colto per affermarla con prudenza e sfumatura.","La proposta non è priva di rischi, anche se i suoi benefici sono evidenti."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale riformulazione mantiene meglio il senso di «I dati sono suggestivi, non conclusivi»?",["I dati indicano una direzione, ma non bastano per una conclusione definitiva.","I dati dimostrano la conclusione senza alcun dubbio.","Non esiste alcun dato disponibile sull'argomento.","La conclusione è suggestiva, ma i dati sono definitivi."],0,"Mantiene la differenza tra indizio e prova conclusiva."],
+      ["fill","Completa l'inversione: «In nessun caso ___ essere considerati definitivi questi risultati.»",["dovrebbero","dovrebbe","dovremmo","dovresti"],0,"Il verbo concorda con il soggetto plurale 'questi risultati': dovrebbero essere considerati."],
+      ["mcq","In «La proposta non è priva di rischi», che funzione ha la litote?",["Afferma con sfumatura che la proposta comporta effettivamente un rischio.","Nega completamente che ci sia un rischio.","Afferma che la proposta è totalmente sicura.","Non aggiunge alcun significato."],0,"'Non è priva di' nega il contrario per affermare qualcosa con prudenza."],
+      ["translate","Traduci: «By no means should this decision be treated as final.»",["In nessun caso questa decisione dovrebbe essere considerata definitiva.","Questa decisione è definitiva in nessun caso.","Dovrebbe essere considerata in nessun caso questa decisione.","Questa decisione in nessun caso definitiva dovrebbe essere."],0,"'In nessun caso' + inversione è l'equivalente colto di 'by no means'."],
+      ["writing","Scrivi 60-80 parole su una decisione aziendale controversa: usa almeno un'inversione enfatica ('in nessun caso'/'in alcun modo') e una litote.",[],["in nessun caso","non è priva di","in alcun modo"],"Il livello C2 unisce precisione argomentativa e strumenti retorici di sfumatura.","Rubrica di opinione per una rivista specializzata."]
+    ]
+  },
+  {
+    id:"it_c2_rhetoric_tone", level:"C2", title:"Retorica, tono ed effetto stilistico", emoji:"🎭", xp:94,
+    description:"Scegli strumenti retorici e adatta il tono a pubblico, scopo ed effetto desiderato.",
+    study:{
+      vocab:[
+        ["trovare un equilibrio","to strike a balance"],
+        ["una domanda retorica","a rhetorical question"],
+        ["evocare","to evoke"],
+        ["assumersi una responsabilità in modo proporzionato","to acknowledge responsibility proportionately"]
+      ],
+      grammar:[
+        ["Effetto stilistico e scelta lessicale","La scelta di una struttura o di una parola può creare vicinanza, distanza, urgenza o ironia, senza cambiare il contenuto letterale.","Non è del tutto infondato, anche se potrebbe senz'altro essere migliorato."],
+        ["Riformulazione per un registro pubblico formale","Un comunicato pubblico riconosce l'impatto, assume una responsabilità proporzionata e propone un'azione verificabile, evitando sia la freddezza che la drammatizzazione.","Riconosciamo il disagio causato e stiamo già adottando misure per evitare che si ripeta."]
+      ]
+    },
+    ex:[
+      ["mcq","Che effetto produce di solito la frase «non è del tutto infondato»?",["Un'approvazione cauta e deliberatamente attenuata.","Un'approvazione entusiasta e senza riserve.","Un rifiuto totale dell'idea.","Un'istruzione tecnica priva di giudizio."],0,"La doppia attenuazione crea una valutazione riservata, tipica del registro colto."],
+      ["mcq","Quale versione è più adatta a delle scuse pubbliche formali?",["Riconosciamo il disagio causato e stiamo adottando misure immediate per evitare che si ripeta.","Beh, che momento imbarazzante, passerà.","Non è stata affatto colpa nostra.","Tutti commettono errori, non serve insistere."],0,"Il registro formale riconosce l'impatto, assume responsabilità e propone un'azione concreta."],
+      ["fill","Completa: «Il discorso cerca di ___ un senso di responsabilità condivisa.»",["evocare","invocare","provocare","revocare"],0,"'Evocare' significa suscitare un sentimento o un'idea in chi ascolta."],
+      ["mcq","Qual è lo scopo principale di una domanda retorica in un discorso persuasivo?",["Coinvolgere il pubblico e suggerire una risposta senza formularla esplicitamente.","Chiedere un'informazione che l'oratore realmente non conosce.","Confondere deliberatamente il pubblico.","Cambiare argomento senza farsi notare."],0,"La domanda retorica orienta l'ascoltatore verso una conclusione senza dichiararla direttamente."],
+      ["writing","Riformula questo messaggio interno brusco in un comunicato pubblico di 50-70 parole: «La squadra ha fallito, bisogna sistemarlo subito.» Riconosci il problema, evita di drammatizzarlo e proponi un'azione verificabile.",[],["riconosciamo","misure","evitare che si ripeta"],"Valuta proporzione e tono: né eccessiva freddezza né drammatizzazione inutile.","Comunicato: un servizio digitale è rimasto fuori uso per due ore."]
+    ]
+  },
+  {
+    id:"it_c2_critical_reading", level:"C2", title:"Lettura critica e implicature", emoji:"🧩", xp:96,
+    description:"Interpreta presupposizioni, linguaggio valutativo e conclusioni implicite in testi di opinione.",
+    study:{
+      vocab:[
+        ["lasciar intendere","to imply"],
+        ["una riserva","a caveat"],
+        ["linguaggio valutativo","loaded language"],
+        ["trarre un'inferenza","to draw an inference"]
+      ],
+      grammar:[
+        ["Presupposizione","Una frase può presentare un'idea come già accettata, senza dimostrarla esplicitamente.","Perfino i critici rimasti hanno accettato il piano rivisto."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa presuppone la frase «Perfino i critici rimasti hanno accettato il piano rivisto»?",["Che ci sono stati critici e che alcuni si erano già convinti prima.","Che nessuno ha mai criticato il piano.","Che il piano è stato completamente respinto.","Che non esiste alcun piano rivisto."],0,"'Perfino' e 'rimasti' presentano l'informazione come già condivisa e orientano l'inferenza."],
+      ["mcq","Qual è una lettura critica appropriata di «una soluzione audace per un sistema obsoleto»?",["L'aggettivo 'obsoleto' valuta il sistema e predispone il lettore a favore della soluzione.","La frase è completamente neutra e non contiene valutazioni.","La soluzione ha già dimostrato di essere efficace.","Non contiene alcuna valutazione implicita."],0,"'Obsoleto' è linguaggio valutativo, non un fatto dimostrato oggettivamente."],
+      ["fill","Completa: «L'articolo include una ___ importante: i risultati non sono stati replicati.»",["riserva","idea","conseguenza","comparazione"],0,"Una 'riserva' limita la portata di un'affermazione."],
+      ["mcq","Nella frase «È ora di restituire il buon senso alla politica pubblica», cosa implica il verbo 'restituire'?",["Lascia intendere che il buon senso esisteva prima ed è andato perduto, senza dimostrarlo.","Afferma con dati che la politica attuale manca di buon senso.","È una descrizione neutra, priva di ogni carica valutativa.","Propone una politica concreta e verificabile."],0,"'Restituire' presuppone una perdita precedente, una strategia retorica comune priva di prove."],
+      ["speaking","Analizza in 50-70 parole una frase persuasiva a tua scelta: individua una presupposizione, una parola valutativa e un'inferenza ragionevole.",[],["presuppone","linguaggio","inferenza"],"Non basta essere d'accordo o in disaccordo: spiega come il linguaggio orienta l'interpretazione.","Frase di esempio: «È ora di porre fine a questa pratica superata.»"]
+    ]
+  },
+  {
+    id:"it_a1_dates_time", level:"A1", title:"Date, giorni e mesi", emoji:"📅", xp:35,
+    description:"Impara i giorni della settimana, i mesi e come parlare di date in italiano.",
+    study: {
+      vocab: [
+        ["lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica", "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"],
+        ["gennaio, febbraio, marzo... dicembre", "January, February, March... December"],
+        ["Che giorno è oggi?", "What day is it today?"],
+        ["Oggi è il 5 maggio.", "Today is May 5th.", "In italiano: \"il\" + numero + mese, senza \"di\"."],
+        ["Quando è il tuo compleanno?", "When is your birthday?"]
+      ],
+      grammar: [
+        ["L'articolo con i giorni", "I giorni della settimana si scrivono in minuscolo e usano \"il\" per un'abitudine.", "Vado in palestra il lunedì. (ogni lunedì)"]
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice \"Wednesday\" in italiano?",["Mercoledì","Martedì","Giovedì","Venerdì"],0,"\"Mercoledì\" è il terzo giorno della settimana in italiano."],
+      ["mcq","Qual è il modo corretto di chiedere la data di oggi?",["Che giorno è oggi?","Che ora è oggi?","Quanti anni hai?","Dove vivi?"],0,"\"Che giorno è oggi?\" chiede il giorno della settimana o la data."],
+      ["fill","Completa: \"Il mio compleanno è ___ 10 marzo.\"",["il","la","in","i"],0,"Con una data precisa si usa \"il\": \"il 10 marzo\"."],
+      ["translate","Traduci: \"Today is Monday.\"",["Oggi è lunedì.","Oggi è martedì.","Ieri era lunedì.","Oggi è un lunedì."],0,"\"Today is Monday\" = \"Oggi è lunedì\", senza articolo prima del giorno."],
+      ["arrange","Metti in ordine: [palestra / vado / lunedì / in / il]",["Vado in palestra il lunedì","Il lunedì vado in palestra","In palestra vado il lunedì","Vado il lunedì in palestra"],0,"Soggetto + verbo + complemento + \"il lunedì\": \"Vado in palestra il lunedì.\""],
+      ["writing","Scrivi 3 frasi (20-30 parole) in italiano sulla tua settimana: che giorno è oggi, quando è il tuo compleanno e cosa fai un giorno specifico.",[],["oggi","compleanno","il"],"Includi almeno un giorno della settimana e un mese. Controlla l'uso dell'articolo \"il\"."]
+    ]
+  },
+  {
+    id:"it_a2_directions_transport", level:"A2", title:"In città: indicazioni e trasporti", emoji:"🧭", xp:42,
+    description:"Chiedi e dai indicazioni, e parla dei mezzi di trasporto in italiano.",
+    study: {
+      vocab: [
+        ["Come arrivo a...?", "How do I get to...?"],
+        ["Vada sempre dritto / Giri a sinistra / a destra", "Go straight ahead / Turn left / right"],
+        ["la fermata dell'autobus, la stazione", "the bus stop, the train station"],
+        ["È a due isolati da qui.", "It's two blocks from here."],
+        ["Quanto tempo ci vuole per arrivare?", "How long does it take to get there?"]
+      ],
+      grammar: [
+        ["L'imperativo per dare indicazioni", "Per dare istruzioni si usa l'imperativo (tu/Lei).", "Vada sempre dritto e giri a destra al semaforo."]
+      ]
+    },
+    ex:[
+      ["mcq","Vuoi arrivare al museo. Cosa chiedi?",["Come arrivo al museo?","Che ora è il museo?","Di chi è il museo?","Quanto costa l'autobus?"],0,"\"Come arrivo a...?\" è la domanda standard per chiedere indicazioni."],
+      ["mcq","Qualcuno ti dice: \"Vada sempre dritto e giri a sinistra in piazza.\" Cosa devi fare prima?",["Camminare dritto.","Girare a destra.","Prendere l'autobus.","Chiedere di nuovo."],0,"\"Vada sempre dritto\" è la prima istruzione; la svolta viene dopo."],
+      ["fill","Completa: \"La stazione ___ a due isolati da qui.\"",["è","sono","ha","fa"],0,"\"È\" concorda con il soggetto singolare \"la stazione\": \"La stazione è a due isolati da qui.\""],
+      ["translate","Traduci: \"Turn right at the traffic light.\"",["Giri a destra al semaforo.","Giri a sinistra in piazza.","Vada dritto al semaforo.","Si fermi al semaforo."],0,"\"Turn right\" = \"Giri a destra\"; \"at the traffic light\" = \"al semaforo\"."],
+      ["arrange","Metti in ordine: [autobus / prenda / fermata / l' / alla]",["Prenda l'autobus alla fermata","L'autobus prenda alla fermata","Alla fermata prenda l'autobus","Prenda alla fermata l'autobus"],0,"Verbo + oggetto + complemento di luogo: \"Prenda l'autobus alla fermata.\""],
+      ["speaking","Spiega in italiano, in 40-60 parole, come arrivare da casa tua a un posto vicino. Usa almeno due indicazioni e un mezzo di trasporto.",[],["giri","dritto","minuti"],"Organizza la spiegazione in ordine: prima, poi, infine."]
+    ]
+  },
+  {
+    id:"it_b1_job_interview", level:"B1", title:"Il lavoro: colloqui e routine professionale", emoji:"💼", xp:60,
+    description:"Parla della tua esperienza lavorativa e rispondi a domande di colloquio in italiano.",
+    study: {
+      vocab: [
+        ["Di cosa ti occupi?", "What do you do for a living?"],
+        ["ho esperienza in...", "I have experience in..."],
+        ["i miei punti di forza / di debolezza", "my strengths / weaknesses"],
+        ["lavorare in team, rispettare le scadenze", "to work as a team, to meet deadlines"],
+        ["un contratto a tempo pieno / parziale", "a full-time / part-time contract"]
+      ],
+      grammar: [
+        ["Il passato prossimo per l'esperienza", "Si usa il passato prossimo per parlare di esperienza lavorativa senza dire esattamente quando.", "Ho lavorato nel servizio clienti per tre anni."],
+        ["Connettori per strutturare una risposta", "\"Da un lato... dall'altro\" aiuta a organizzare vantaggi e svantaggi.", "Da un lato mi piace lavorare in team, dall'altro apprezzo un po' di autonomia."]
+      ]
+    },
+    ex:[
+      ["mcq","In un colloquio ti chiedono: \"Di cosa ti occupi?\". Qual è una risposta appropriata?",["Lavoro come grafico in un'agenzia.","Sì, grazie, molto bene.","Ho venticinque anni.","Vivo in centro."],0,"\"Di cosa ti occupi?\" chiede la tua professione."],
+      ["mcq","Quale risposta descrive meglio un punto di forza in modo professionale?",["Sono bravo a organizzare progetti e rispettare le scadenze.","Sono il migliore di tutti, senza dubbio.","Non ho nessun punto debole.","Lavoro quando ne ho voglia."],0,"Una buona risposta è specifica e verificabile, senza esagerare."],
+      ["fill","Completa: \"___ lavorato nelle vendite per due anni.\"",["Ho","Sono","È","Hai"],0,"\"Ho lavorato\" (passato prossimo) descrive un'esperienza passata rilevante oggi."],
+      ["translate","Traduci: \"I have experience working in a team.\"",["Ho esperienza nel lavoro di squadra.","Ho esperienza lavoro squadra.","Squadra ho esperienza lavoro.","Ho esperienza lavorando squadra è."],0,"\"I have experience working in a team\" = \"Ho esperienza nel lavoro di squadra.\""],
+      ["arrange","Metti in ordine: [piace / lavorare / mi / squadra / in]",["Mi piace lavorare in squadra","Piace mi lavorare in squadra","In squadra mi piace lavorare","Lavorare mi piace in squadra"],0,"\"Mi piace\" + infinito: \"Mi piace lavorare in squadra.\""],
+      ["writing","Scrivi in italiano una risposta di colloquio di 45-65 parole alla domanda \"Perché vuoi questo lavoro?\". Menziona la tua esperienza, un punto di forza e la tua motivazione.",[],["esperienza","perché","mi piacerebbe"],"Struttura: esperienza rilevante + punto di forza + motivazione concreta.","Colloquio per un ruolo nel servizio clienti."]
+    ]
+  },
+  {
+    id:"it_b2_media_literacy", level:"B2", title:"Media: analizzare le notizie", emoji:"📰", xp:78,
+    description:"Distingui fatti da opinioni e valuta l'affidabilità di una notizia in italiano.",
+    study: {
+      vocab: [
+        ["una fonte affidabile / inaffidabile", "a reliable / unreliable source"],
+        ["secondo fonti vicine al caso", "according to sources close to the case"],
+        ["un titolo sensazionalistico", "a sensationalist headline"],
+        ["verificare incrociando le informazioni", "to cross-check information"],
+        ["un fatto verificato, un'opinione", "a verified fact, an opinion"]
+      ],
+      grammar: [
+        ["Verbi di attribuzione", "\"Secondo\", \"afferma che\", \"sottolinea che\" indicano da dove proviene un'affermazione e quanta certezza ha.", "Secondo il rapporto, le vendite sono aumentate del 10%."],
+        ["Distinguere fatto e opinione", "Un fatto può essere verificato; un'opinione esprime un giudizio di valore.", "L'articolo afferma (opinione) che la misura 'sicuramente' fallirà, anche se i dati (fatto) sono ancora preliminari."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi è un fatto verificabile, non un'opinione?",["Il rapporto mostra che la disoccupazione è scesa del 2% questo trimestre.","Questa politica è chiaramente un disastro.","Tutti sanno che questa misura non funzionerà.","È ovvio che il governo si sbaglia."],0,"Un fatto verificabile cita una fonte e un dato concreto, senza giudizio di valore."],
+      ["mcq","Titolo: \"Caos totale! Città sull'orlo della crisi dopo la nuova norma.\" Cosa suggerisce lo stile del titolo?",["Punta a un impatto emotivo più che a un'informazione precisa.","È un riassunto neutrale e oggettivo dei fatti.","Cita una fonte ufficiale verificabile.","Non contiene alcun giudizio di valore."],0,"Il linguaggio esagerato (\"caos totale\", \"sull'orlo della crisi\") è tipico del sensazionalismo."],
+      ["fill","Completa: \"___ fonti vicine al progetto, il lancio sarà rinviato di un mese.\"",["Secondo","Sebbene","Perché","Tuttavia"],0,"\"Secondo\" introduce la fonte di un'informazione, indicando che non è un fatto confermato dal media stesso."],
+      ["translate","Traduci: \"It is important to cross-check information before sharing it.\"",["È importante verificare incrociando le informazioni prima di condividerle.","È importante condividere le informazioni prima di verificarle.","È importante informazione condividere importante.","Verificare è condividere informazioni importanti prima."],0,"\"Cross-check information\" = \"verificare incrociando le informazioni\"; \"before sharing it\" = \"prima di condividerle\"."],
+      ["mcq","Un articolo dice: \"Gli esperti avvertono che la cifra potrebbe essere sovrastimata.\" Che livello di certezza trasmette?",["Una possibilità ragionevole, non una certezza assoluta.","Una certezza totale e verificata.","Un'opinione personale del giornalista senza alcuna fonte.","Un fatto già dimostrato con dati definitivi."],0,"\"Potrebbe essere\" indica probabilità, non un'affermazione categorica."],
+      ["writing","Scrivi in italiano un'analisi di 55-75 parole su una notizia (reale o inventata): identifica un fatto verificabile, un'opinione e valuta quanto ti sembra affidabile la fonte.",[],["secondo","fatto","opinione"],"Separa chiaramente cosa è un dato citato e cosa è una valutazione dell'autore."]
+    ]
+  },
+  {
+    id:"it_c1_figurative_language", level:"C1", title:"Linguaggio figurato e modi di dire", emoji:"🗯️", xp:88,
+    description:"Interpreta modi di dire, metafore ed espressioni idiomatiche comuni in italiano.",
+    study: {
+      vocab: [
+        ["costare un occhio della testa", "to cost an arm and a leg"],
+        ["essere tra l'incudine e il martello", "to be between a rock and a hard place"],
+        ["prendere in giro qualcuno", "to pull someone's leg"],
+        ["non avere peli sulla lingua", "to not mince words"],
+        ["darsi una mossa", "to get one's act together"]
+      ],
+      grammar: [
+        ["Interpretare i modi di dire nel contesto", "Il significato di un modo di dire non è quasi mai letterale; va dedotto dal contesto comunicativo.", "\"Questo viaggio mi è costato un occhio della testa\" non parla di un occhio reale, ma di una spesa molto alta."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Questa macchina mi è costata un occhio della testa.\" Cosa significa l'espressione?",["È stata molto costosa.","È stata molto economica.","La macchina si è danneggiata.","Ha avuto un incidente."],0,"\"Costare un occhio della testa\" significa che qualcosa ha avuto un prezzo molto alto."],
+      ["mcq","Qualcuno dice: \"Sono tra l'incudine e il martello con questa decisione.\" Cosa comunica?",["Si trova davanti a due opzioni difficili, senza una via d'uscita comoda.","Si sente completamente tranquillo riguardo alla sua decisione.","Non ha nessuna opzione da considerare.","Ha già preso la decisione senza alcun dubbio."],0,"L'espressione descrive una situazione senza un'opzione chiaramente buona."],
+      ["fill","Completa: \"Smettila di prendermi in ___, so che non è vero.\"",["giro","testa","piede","mano"],0,"\"Prendere in giro qualcuno\" significa scherzare o ingannare in modo leggero."],
+      ["translate","Traduci in modo naturale (non letterale): \"No tiene pelos en la lengua.\"",["Non ha peli sulla lingua.","Non ha pelo sulla lingua.","La sua lingua non ha peli.","Lei mai peli lingua avere."],0,"\"No tener pelos en la lengua\" equivale a \"non avere peli sulla lingua\" in italiano."],
+      ["mcq","In quale contesto si adatterebbe meglio \"darsi una mossa\"?",["Incoraggiare qualcuno a organizzarsi e agire con più energia.","Spiegare come caricare un dispositivo elettronico.","Descrivere il meteo di una città.","Scusarsi formalmente."],0,"\"Darsi una mossa\" è un'espressione colloquiale per incoraggiare qualcuno ad agire."],
+      ["speaking","Scegli un modo di dire di questa lezione e spiega in 45-65 parole in quale situazione lo useresti e cosa significa letteralmente rispetto al suo senso reale.",[],["significa","situazione","letteralmente"],"Distingui chiaramente il senso letterale (a volte assurdo) dal senso idiomatico reale."]
+    ]
+  },
+  {
+    id:"it_c2_irony_humor", level:"C2", title:"Ironia, umorismo e ambiguità deliberata", emoji:"😏", xp:94,
+    description:"Riconosci ironia, sarcasmo e ambiguità intenzionale nell'italiano di livello avanzato.",
+    study: {
+      vocab: [
+        ["Che fortuna la mia!", "Just my luck! (ironico)"],
+        ["con le migliori intenzioni (ironico)", "with the best of intentions (ironic)"],
+        ["un doppio senso", "a double meaning"],
+        ["dire qualcosa con tono sarcastico", "to say something with a sarcastic tone"],
+        ["minimizzare deliberatamente qualcosa", "to understate something"]
+      ],
+      grammar: [
+        ["Marcatori dell'ironia", "L'ironia si segnala di solito con il contesto, l'intonazione o un contrasto evidente tra ciò che si dice e la realtà, non con parole esplicite.", "\"Come sei puntuale!\" detto a chi arriva un'ora tardi è ironico per il contrasto."],
+        ["Ambiguità deliberata", "A volte si sceglie un'espressione ambigua apposta per non impegnarsi del tutto su una posizione.", "\"Si potrebbe dire che il progetto ha avuto... risultati interessanti.\""]
+      ]
+    },
+    ex:[
+      ["mcq","Qualcuno arriva con un'ora di ritardo e un'altra persona dice: \"Come sei puntuale!\". Cosa comunica davvero?",["Il contrario di ciò che dice: la persona era molto in ritardo.","Un complimento sincero sulla puntualità.","Una domanda sull'ora.","Una scusa per il proprio ritardo."],0,"Il contrasto tra ciò che si dice e la realtà evidente è il segno tipico dell'ironia."],
+      ["mcq","\"Con le migliori intenzioni, ha annullato la riunione senza avvisare nessuno.\" Che sfumatura porta \"con le migliori intenzioni\" qui?",["Un tono ironico: segnala che l'azione non è stata davvero ponderata.","Un elogio sincero verso la persona.","Una spiegazione letterale e neutra del fatto.","Una scusa formale da parte del narratore."],0,"Il contrasto tra la frase e l'azione (annullare senza avvisare) genera un effetto ironico."],
+      ["fill","\"Si potrebbe dire che il progetto ha avuto... risultati ___.\" (ambiguità deliberata, senza esporsi)",["interessanti","eccellenti","catastrofici","perfetti"],0,"\"Interessanti\" è deliberatamente ambiguo: non conferma né nega il successo del progetto."],
+      ["translate","Traduci con la stessa sfumatura ironica: \"Genial, otro lunes.\" (detto con fastidio)",["Fantastico, un altro lunedì.","Il lunedì è un gran giorno.","Che gioia, è venerdì.","Odio totalmente i lunedì."],0,"Il tono ironico si mantiene con \"Fantastico\" seguito da qualcosa di oggettivamente poco entusiasmante."],
+      ["mcq","Che funzione ha la minimizzazione in \"Il terremoto ha causato... alcuni danni minori\" quando in realtà è stato devastante?",["Attenua deliberatamente la gravità per creare un effetto ironico o critico.","Descrive la situazione in modo completamente letterale e preciso.","Esagera la portata dell'evento.","Elimina ogni possibile interpretazione ironica."],0,"La minimizzazione contrasta la reale portata con una descrizione ridotta, generando ironia."],
+      ["writing","Scrivi in italiano un breve commento (50-70 parole) con ironia sottile su una situazione quotidiana fastidiosa (il traffico, una lunga fila, ecc.), senza insulti né linguaggio esplicito.",[],["che fortuna","fantastico","certo"],"L'ironia deve notarsi dal contrasto tra il tono positivo e la situazione negativa, non affermandolo direttamente."]
+    ]
+  },
+  {
+    id:"it_a1_house_rooms", level:"A1", title:"La casa: stanze e mobili", emoji:"🏠", xp:35,
+    description:"Impara il vocabolario delle stanze, dei mobili e degli oggetti di una casa in italiano.",
+    study: {
+      vocab: [
+        ["la cucina, il bagno, la camera da letto, il soggiorno", "the kitchen, the bathroom, the bedroom, the living room"],
+        ["il letto, il tavolo, la sedia, il divano", "the bed, the table, the chair, the sofa"],
+        ["Dov'è la cucina?", "Where is the kitchen?"],
+        ["Il letto è in camera da letto.", "The bed is in the bedroom."],
+        ["sopra, sotto, accanto a", "on top of, under, next to"]
+      ],
+      grammar: [
+        ["\"C'è / Ci sono\" per situare oggetti", "\"C'è\" (singolare) e \"ci sono\" (plurale) indicano cosa si trova in un luogo.", "C'è un tavolo in cucina. Ci sono due sedie accanto."]
+      ]
+    },
+    ex:[
+      ["mcq","Dove dormi di solito?",["In camera da letto.","In cucina.","In bagno.","In soggiorno."],0,"\"La camera da letto\" è la stanza dove si dorme."],
+      ["mcq","Qual è il modo corretto di chiedere dove si trova qualcosa?",["Dov'è la cucina?","Cos'è la cucina?","Quando è la cucina?","Chi è la cucina?"],0,"\"Dov'è...?\" chiede dove si trova qualcosa."],
+      ["fill","Completa: \"Il divano è ___ alla finestra.\"",["accanto","sopra","sotto","dietro"],0,"\"Accanto a\" indica che due cose sono una vicino all'altra."],
+      ["translate","Traduci: \"The bed is in the bedroom.\"",["Il letto è in camera da letto.","Il letto è in cucina.","La sedia è in camera da letto.","Il letto è la camera da letto."],0,"\"The bed is in the bedroom\" = \"Il letto è in camera da letto.\""],
+      ["arrange","Metti in ordine: [cucina / tavolo / c'è / in / un]",["C'è un tavolo in cucina","In cucina c'è un tavolo","Un tavolo c'è in cucina","C'è in cucina un tavolo"],0,"\"C'è\" + oggetto + \"in\" + luogo: \"C'è un tavolo in cucina.\""],
+      ["writing","Descrivi in 20-30 parole la tua casa o il tuo appartamento in italiano: quali stanze ci sono e quali mobili si trovano in una di esse.",[],["camera da letto","c'è","ci sono"],"Menziona almeno due stanze e due mobili."]
+    ]
+  },
+  {
+    id:"it_a2_health_pharmacy", level:"A2", title:"La salute: sintomi e la farmacia", emoji:"💊", xp:44,
+    description:"Descrivi sintomi comuni e chiedi aiuto in farmacia o dal medico in italiano.",
+    study: {
+      vocab: [
+        ["Mi fa male la testa / lo stomaco / la gola.", "My head / stomach / throat hurts."],
+        ["Ho la febbre, la tosse, la nausea.", "I have a fever, a cough, nausea."],
+        ["Ha qualcosa per il mal di testa?", "Do you have something for a headache?"],
+        ["Prenda una pastiglia ogni otto ore.", "Take one pill every eight hours."],
+        ["prendere appuntamento dal medico", "to make a doctor's appointment"]
+      ],
+      grammar: [
+        ["\"Fare male\" come \"piacere\"", "\"Fare male\" funziona come \"piacere\": concorda con la parte del corpo, non con la persona.", "Mi fa male la testa. / Mi fanno male i piedi."]
+      ]
+    },
+    ex:[
+      ["mcq","Hai mal di testa. Cosa dici?",["Mi fa male la testa.","Mi piace la testa.","Ho la testa.","Sono la testa."],0,"\"Mi fa male la testa\" descrive il sintomo con \"fare male\"."],
+      ["mcq","In farmacia, cosa chiedi per avere un medicinale?",["Ha qualcosa per il mal di testa?","Dov'è il mal di testa?","Quando è il mal di testa?","Perché ha mal di testa?"],0,"\"Ha qualcosa per...?\" è il modo naturale di chiedere un medicinale."],
+      ["fill","Completa: \"Mi ___ i piedi dopo aver corso.\"",["fanno male","fa male","dolore","doloroso"],0,"\"Fare male\" concorda al plurale con \"i piedi\": \"mi fanno male i piedi\"."],
+      ["translate","Traduci: \"I have a fever and a cough.\"",["Ho la febbre e la tosse.","Ho febbre e tossa.","Sono febbre e tosse.","Mi fa male febbre e tosse."],0,"\"I have a fever and a cough\" = \"Ho la febbre e la tosse\", con il verbo \"avere\"."],
+      ["arrange","Metti in ordine: [otto / ore / pastiglia / ogni / una / prenda]",["Prenda una pastiglia ogni otto ore","Ogni otto ore prenda una pastiglia","Una pastiglia prenda ogni otto ore","Prenda ogni otto ore una pastiglia"],0,"Imperativo + oggetto + frequenza: \"Prenda una pastiglia ogni otto ore.\""],
+      ["speaking","Descrivi in italiano, in 40-60 parole, una volta in cui ti sei sentito/a male: quali sintomi avevi e cosa hai fatto.",[],["mi faceva male","avevo","sono andato/a"],"Usa almeno due sintomi e un'azione che hai intrapreso per sentirti meglio."]
+    ]
+  },
+  {
+    id:"it_b1_tech_social_media", level:"B1", title:"Tecnologia e social media", emoji:"📱", xp:58,
+    description:"Parla dell'uso della tecnologia e dei social media, dei loro vantaggi e rischi, in italiano.",
+    study: {
+      vocab: [
+        ["pubblicare, condividere, commentare", "to post, to share, to comment"],
+        ["essere connesso / disconnettersi", "to be online / to log off"],
+        ["la privacy, i dati personali", "privacy, personal data"],
+        ["dipendere dal telefono", "to be dependent on your phone"],
+        ["restare in contatto con", "to keep in touch with"]
+      ],
+      grammar: [
+        ["Confrontare vantaggi e svantaggi", "\"Da un lato... dall'altro\" e \"mentre\" aiutano a confrontare due idee.", "Da un lato i social aiutano a restare in contatto; dall'altro possono portare via molto tempo."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual è un vantaggio reale dei social media?",["Aiutano a restare in contatto con amici lontani.","Dicono sempre tutta la verità.","Non influenzano mai la privacy.","Non hanno bisogno di connessione internet."],0,"Restare in contatto con persone lontane è un vantaggio concreto e verificabile."],
+      ["mcq","Quale frase esprime preoccupazione per la privacy?",["Mi preoccupa come usano i miei dati personali.","Adoro condividere tutto senza pensarci.","Non uso mai internet.","Pubblico foto ogni cinque minuti."],0,"La preoccupazione per i dati personali è un tema centrale della privacy digitale."],
+      ["fill","Completa: \"___ un lato mi piace essere connesso, dall'altro ho bisogno di disconnettermi a volte.\"",["Da","In","Di","A"],0,"\"Da un lato... dall'altro\" è la struttura per confrontare due idee."],
+      ["translate","Traduci: \"I try not to depend on my phone too much.\"",["Cerco di non dipendere troppo dal mio telefono.","Cerco di non dipendere molto mio telefono.","Non cerco di dipendere dal mio telefono.","Dipendere dal mio telefono cerco di non."],0,"\"Dipendere da\" + sostantivo: \"dipendere dal mio telefono\"."],
+      ["arrange","Metti in ordine: [aiuta / contatto / mi / restare / a / in / con gli amici]",["Mi aiuta a restare in contatto con gli amici","Aiuta mi a restare in contatto con gli amici","In contatto mi aiuta a restare con gli amici","Mi aiuta in contatto a restare con gli amici"],0,"\"Mi aiuta a\" + infinito: \"Mi aiuta a restare in contatto con gli amici.\""],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con i social media: un vantaggio, un rischio e cosa fai per equilibrarli.",[],["da un lato","dall'altro","privacy"],"Struttura: vantaggio + rischio + un'azione concreta per equilibrare entrambi."]
+    ]
+  },
+  {
+    id:"it_b2_ethical_dilemmas", level:"B2", title:"Dilemmi etici: argomentare a favore e contro", emoji:"⚖️", xp:80,
+    description:"Presenta e soppesa argomenti su dilemmi etici comuni in italiano.",
+    study: {
+      vocab: [
+        ["a favore di / contro", "in favor of / against"],
+        ["da un punto di vista etico", "from an ethical point of view"],
+        ["il bene comune, l'interesse individuale", "the common good, individual interest"],
+        ["giustificare una decisione", "to justify a decision"],
+        ["non c'è una risposta unica", "there is no single answer"]
+      ],
+      grammar: [
+        ["Strutturare un argomento equilibrato", "Presentare prima un argomento, poi quello opposto, e chiudere con una posizione sfumata evita il pregiudizio.", "Alcuni sostengono che..., mentre altri affermano che... A mio parere, entrambe le posizioni hanno un senso."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale frase presenta un argomento in modo equilibrato?",["Alcuni sostengono che..., mentre altri affermano che...","Tutti sanno che ho ragione.","È ovvio che l'altra posizione è sbagliata.","Non c'è nessun argomento contrario."],0,"Presentare entrambi i lati prima di dare la propria opinione è tipico di un argomento equilibrato a livello B2."],
+      ["mcq","Un dilemma etico tipico è \"il bene comune contro l'interesse individuale\". Cosa significa?",["Un conflitto tra ciò che avvantaggia tutti e ciò che avvantaggia una sola persona.","Una decisione che non riguarda nessuno.","Un argomento senza alcuna importanza sociale.","Una scelta puramente economica senza etica coinvolta."],0,"Il dilemma nasce quando il meglio per la comunità non coincide con il meglio per un individuo."],
+      ["fill","Completa: \"___ un punto di vista etico, la decisione è discutibile.\"",["Da","Per","Con","A"],0,"\"Da un punto di vista etico\" è l'espressione standard per introdurre una prospettiva."],
+      ["translate","Traduci: \"There is no single answer to this dilemma.\"",["Non c'è una risposta unica a questo dilemma.","Non c'è una risposta unica questo dilemma.","Questo dilemma non c'è una risposta unica.","Una risposta unica non c'è per questo dilemma."],0,"\"There is no single answer\" = \"Non c'è una risposta unica.\""],
+      ["mcq","Quale di queste frasi giustifica una decisione in modo ragionato, non emotivo?",["Si è deciso così perché i benefici superavano i rischi a lungo termine.","Si è deciso così e basta.","Si è deciso così perché tutti lo volevano senza pensarci.","Si è deciso così perché è sempre stato fatto così."],0,"Una giustificazione ragionata confronta esplicitamente benefici e rischi."],
+      ["writing","Scegli un dilemma etico quotidiano (ad esempio, dire una bugia pietosa) e scrivi in italiano 55-75 parole presentando un argomento a favore, uno contro e la tua conclusione sfumata.",[],["a favore","contro","tuttavia"],"Struttura: argomento a favore + argomento contro + conclusione sfumata, non assoluta."]
+    ]
+  },
+  {
+    id:"it_c1_academic_citing", level:"C1", title:"Discorso accademico: citare e parafrasare", emoji:"🎓", xp:90,
+    description:"Impara a citare fonti, parafrasare idee ed evitare il plagio in un registro accademico in italiano.",
+    study: {
+      vocab: [
+        ["secondo (autore, anno)", "according to (author, year)"],
+        ["come sottolinea/sostiene l'autore", "as the author points out/argues"],
+        ["parafrasare un'idea", "to paraphrase an idea"],
+        ["citare testualmente", "to quote directly"],
+        ["il plagio, le fonti affidabili", "plagiarism, reliable sources"]
+      ],
+      grammar: [
+        ["Verbi per introdurre citazioni altrui", "\"Sostiene che\", \"afferma che\", \"sottolinea che\" variano la sfumatura: non tutti implicano lo stesso grado di certezza.", "L'autore sostiene che la politica sia stata un errore; altri ricercatori, invece, sottolineano sfumature importanti."],
+        ["Parafrasare senza copiare la struttura", "Parafrasare implica cambiare sia le parole sia l'ordine delle idee, non solo qualche sinonimo.", "Originale: 'Lo studio dimostra che l'esercizio riduce lo stress.' Parafrasi: 'Secondo la ricerca, l'attività fisica aiuta a diminuire i livelli di stress.'"]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste opzioni è una parafrasi corretta, non una copia mascherata?",["Secondo la ricerca, l'attività fisica aiuta a diminuire i livelli di stress.","Lo studio dimostra che l'esercizio riduce totalmente lo stress.","Lo studio dimostra in effetti che l'esercizio riduce lo stress.","Dimostra lo studio che riduce lo stress l'esercizio."],0,"Una buona parafrasi cambia struttura e vocabolario, non solo una o due parole."],
+      ["mcq","Quale verbo trasmette maggiore distanza critica dall'autore citato?",["L'autore suggerisce che...","L'autore dimostra categoricamente che...","L'autore prova senza dubbio che...","L'autore conferma definitivamente che..."],0,"\"Suggerisce\" indica un'affermazione più cauta, tipica di un'analisi critica rigorosa."],
+      ["fill","Completa: \"___ sottolinea il rapporto, la misura ha avuto un impatto limitato.\"",["Come","Perché","Sebbene","Tuttavia"],0,"\"Come sottolinea il rapporto\" introduce un'idea attribuita a una fonte in modo fluido."],
+      ["translate","Traduci: \"According to the author, the results are inconclusive.\"",["Secondo l'autore, i risultati sono poco conclusivi.","Secondo l'autore, i risultati sono conclusivi.","L'autore secondo risultati poco conclusivi.","I risultati secondo l'autore sono conclusivi non."],0,"\"According to the author\" = \"Secondo l'autore\"; \"inconclusive\" = \"poco conclusivi\"."],
+      ["mcq","Quale di queste pratiche costituisce plagio accademico?",["Copiare una frase testuale senza virgolette né riferimento alla fonte.","Citare testualmente tra virgolette con il relativo riferimento.","Parafrasare un'idea e citare la fonte originale.","Riassumere un articolo menzionando da dove proviene."],0,"Copiare senza virgolette né riferimento, anche una sola frase, è considerato plagio."],
+      ["writing","Scrivi in italiano un paragrafo accademico di 55-75 parole che parafrasi (senza copiare) questa idea: 'L'accesso a internet ha cambiato profondamente il modo in cui le persone si informano.' Cita la fonte come (Autore, 2023).",[],["secondo","sostiene","(Autore, 2023)"],"Non copiare la frase originale: cambia struttura e vocabolario mantenendo l'idea."]
+    ]
+  },
+  {
+    id:"it_c2_logical_fallacies", level:"C2", title:"Fallacie logiche e persuasione", emoji:"🧠", xp:96,
+    description:"Individua fallacie logiche e strategie di persuasione in argomentazioni di alto livello in italiano.",
+    study: {
+      vocab: [
+        ["l'attacco personale (ad hominem)", "ad hominem attack"],
+        ["la falsa dicotomia", "false dichotomy"],
+        ["la china scivolosa", "slippery slope"],
+        ["generalizzare da un solo caso", "to generalize from a single case"],
+        ["fare appello all'emozione invece che ai fatti", "to appeal to emotion instead of facts"]
+      ],
+      grammar: [
+        ["Identificare le fallacie nel discorso", "Una fallacia sembra un argomento valido ma la sua struttura logica è difettosa, anche se suona persuasiva.", "\"Se permettiamo questo, presto tutto sfuggirà al controllo\" è una china scivolosa: presuppone una catena di conseguenze senza prove."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Non dovresti ascoltare il suo argomento economico: tra l'altro, è una persona sgradevole.\" Che fallacia è questa?",["Attacco personale (ad hominem): screditare la persona, non l'argomento.","Falsa dicotomia: riduce le opzioni a solo due.","China scivolosa: predice una catena di conseguenze.","Generalizzazione affrettata da un solo caso."],0,"L'ad hominem attacca chi propone l'argomento invece di confutare l'argomento stesso."],
+      ["mcq","\"O sostieni questa legge esattamente com'è, o non ti importa della sicurezza di nessuno.\" Che fallacia è questa?",["Falsa dicotomia: presenta solo due opzioni quando sono possibili più sfumature.","Un attacco personale contro l'interlocutore.","Un appello all'emozione senza alcun argomento logico.","Una generalizzazione basata su un singolo caso isolato."],0,"La falsa dicotomia nasconde opzioni intermedie valide, presentando solo due estremi."],
+      ["fill","\"Se permettiamo questa eccezione, presto crollerà tutto il sistema.\" Questa frase è un esempio di ___.",["china scivolosa","attacco personale","falsa dicotomia","appello all'autorità"],0,"La china scivolosa presuppone, senza prove sufficienti, una catena inevitabile di conseguenze negative."],
+      ["translate","Traduci con precisione tecnica: \"This is a classic false dichotomy.\"",["Questa è una classica falsa dicotomia.","Questa è una falsa dicotomia classica è.","Classica questa falsa dicotomia è.","Questa falsa è dicotomia classica."],0,"\"False dichotomy\" si traduce tecnicamente come \"falsa dicotomia\"."],
+      ["mcq","Una pubblicità mostra immagini di bambini che piangono per vendere un prodotto di beneficenza senza fornire dati concreti sul suo impatto. Quale strategia usa principalmente?",["Un appello all'emozione invece che ai fatti verificabili.","Un argomento logico rigoroso basato su dati.","Una generalizzazione statistica precisa.","Una citazione da una fonte accademica affidabile."],0,"Usare immagini emotive senza dati concreti significa fare appello all'emozione invece che alla prova."],
+      ["writing","Individua e spiega in italiano, in 55-75 parole, una fallacia logica che hai sentito in un dibattito, in una pubblicità o in una discussione recente (reale o inventata). Nomina la fallacia e spiega perché l'argomento è fuorviante nonostante suoni convincente.",[],["fallacia","perché","anche se sembra"],"Nomina esplicitamente il tipo di fallacia (ad hominem, falsa dicotomia, china scivolosa, ecc.) e giustifica la tua identificazione."]
+    ]
+  },
+  {
+    id:"it_a1_emotions_feelings", level:"A1", title:"Le emozioni: come ti senti", emoji:"😊", xp:35,
+    description:"Impara a esprimere emozioni e sentimenti di base in italiano.",
+    study: {
+      vocab: [
+        ["essere felice, triste, stanco, arrabbiato", "to be happy, sad, tired, angry"],
+        ["Come ti senti?", "How do you feel?"],
+        ["Sono un po' nervoso/a.", "I'm a bit nervous."],
+        ["avere paura, avere sonno, avere fame", "to be afraid, to be sleepy, to be hungry"],
+        ["Perché sei triste?", "Why are you sad?"]
+      ],
+      grammar: [
+        ["\"Essere\" con le emozioni", "Le emozioni si esprimono con \"essere\" + aggettivo.", "Sono felice oggi. / È stanca dopo il lavoro."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi a qualcuno come si sente?",["Come ti senti?","Come ti chiami?","Dove vivi?","Quanti anni hai?"],0,"\"Come ti senti?\" chiede lo stato emotivo di qualcuno."],
+      ["mcq","Hai molto lavoro e poco riposo. Come ti senti?",["Sono stanco/a.","Sono felice.","Ho fame.","Ho freddo."],0,"Molto lavoro e poco riposo portano tipicamente a sentirsi \"stanco/a\"."],
+      ["fill","Completa: \"___ un po' nervoso prima dell'esame.\"",["Sono","Sei","Ho","Faccio"],0,"Le emozioni si esprimono con \"essere\": \"Sono un po' nervoso.\""],
+      ["translate","Traduci: \"Why are you sad?\"",["Perché sei triste?","Perché essere triste?","Perché tu hai triste?","Perché fai triste?"],0,"\"Why are you sad?\" = \"Perché sei triste?\", con \"essere\" per uno stato emotivo."],
+      ["arrange","Metti in ordine: [lavoro / stanca / dopo / sono / il]",["Sono stanca dopo il lavoro","Dopo il lavoro sono stanca","Stanca sono dopo il lavoro","Sono dopo il lavoro stanca"],0,"Soggetto + \"sono\" + aggettivo + complemento di tempo: \"Sono stanca dopo il lavoro.\""],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo come ti senti oggi e perché. Usa almeno due emozioni diverse.",[],["sono","perché","mi sento"],"Menziona una ragione concreta per ogni emozione che descrivi."]
+    ]
+  },
+  {
+    id:"it_a2_hobbies_weekend", level:"A2", title:"Il tempo libero: hobby e piani per il weekend", emoji:"🎨", xp:44,
+    description:"Parla dei tuoi hobby e dei tuoi piani per il fine settimana in italiano.",
+    study: {
+      vocab: [
+        ["Cosa ti piace fare nel tempo libero?", "What do you like to do in your free time?"],
+        ["dipingere, suonare uno strumento, fare escursioni", "to paint, to play an instrument, to go hiking"],
+        ["Che piani hai per il weekend?", "What plans do you have for the weekend?"],
+        ["sto per + infinito / vado a + infinito", "I'm going to + infinitive"],
+        ["vedersi con gli amici", "to meet up with friends"]
+      ],
+      grammar: [
+        ["\"Andare a\" + infinito per i piani", "Si usa \"andare a\" + infinito per parlare di piani futuri vicini.", "Sabato vado a vedermi con gli amici."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi gli hobby di qualcuno?",["Cosa ti piace fare nel tempo libero?","Che ore sono?","Dove lavori?","Quanti fratelli hai?"],0,"\"Cosa ti piace fare nel tempo libero?\" chiede specificamente gli hobby."],
+      ["mcq","Quale di queste frasi descrive un piano futuro vicino?",["Sabato vado a vedermi con gli amici.","Sabato mi sono visto con gli amici.","Sabato mi vedo sempre con gli amici.","Sabato mi vedevo con gli amici."],0,"\"Andare a\" + infinito esprime un piano futuro concreto e vicino."],
+      ["fill","Completa: \"Questo weekend ___ a fare escursioni.\"",["vado","sono","ho","faccio"],0,"\"Andare a\" + infinito: \"vado a fare escursioni\"."],
+      ["translate","Traduci: \"What plans do you have for the weekend?\"",["Che piani hai per il weekend?","Che piani sei per il weekend?","Che piani fai il weekend hai?","Per il weekend che piani sei?"],0,"\"What plans do you have for the weekend?\" = \"Che piani hai per il weekend?\""],
+      ["arrange","Metti in ordine: [strumento / suonare / mi / uno / piace]",["Mi piace suonare uno strumento","Piace mi suonare uno strumento","Uno strumento mi piace suonare","Suonare mi piace uno strumento"],0,"\"Mi piace\" + infinito: \"Mi piace suonare uno strumento.\""],
+      ["speaking","Spiega in italiano, in 40-60 parole, i tuoi hobby preferiti e i tuoi piani per il prossimo weekend.",[],["mi piace","vado a","vedermi"],"Menziona almeno due hobby e un piano concreto usando \"vado a\"."]
+    ]
+  },
+  {
+    id:"it_b1_environment_sustainability", level:"B1", title:"L'ambiente: abitudini sostenibili", emoji:"🌱", xp:60,
+    description:"Parla della tutela dell'ambiente e delle abitudini sostenibili in italiano.",
+    study: {
+      vocab: [
+        ["riciclare, riutilizzare, ridurre i consumi", "to recycle, to reuse, to reduce consumption"],
+        ["il cambiamento climatico, l'impronta di carbonio", "climate change, carbon footprint"],
+        ["i prodotti monouso", "single-use products"],
+        ["risparmiare energia / acqua", "to save energy / water"],
+        ["prendere provvedimenti per proteggere il pianeta", "to take steps to protect the planet"]
+      ],
+      grammar: [
+        ["Il futuro semplice per le conseguenze", "Il futuro semplice descrive conseguenze probabili di azioni attuali.", "Se non riduciamo la plastica, l'inquinamento aumenterà."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste azioni aiuta a ridurre l'impronta di carbonio?",["Usare i mezzi pubblici invece dell'auto.","Comprare più prodotti monouso.","Lasciare le luci accese tutto il giorno.","Usare l'auto per tragitti molto brevi."],0,"I mezzi pubblici riducono le emissioni individuali di carbonio."],
+      ["mcq","Quale frase descrive correttamente una conseguenza futura probabile?",["Se non riduciamo la plastica, l'inquinamento aumenterà.","Se non riduciamo la plastica, l'inquinamento è aumentato.","Se non riduciamo la plastica, l'inquinamento aumenta ieri.","Se non riduciamo la plastica, inquinamento aumentare."],0,"Il futuro semplice (\"aumenterà\") esprime una conseguenza probabile di una condizione attuale."],
+      ["fill","Completa: \"È importante ___ acqua, soprattutto in estate.\"",["risparmiare","spendere","buttare","comprare"],0,"\"Risparmiare acqua\" è l'espressione corretta per ridurne il consumo."],
+      ["translate","Traduci: \"We should reduce the use of single-use products.\"",["Dovremmo ridurre l'uso di prodotti monouso.","Dovremmo ridurre l'uso di prodotto monouso.","Ridurre dovremmo prodotti monouso l'uso.","Dovremmo usare prodotti monouso ridurre."],0,"\"Single-use products\" = \"prodotti monouso\"; \"we should reduce\" = \"dovremmo ridurre\"."],
+      ["arrange","Metti in ordine: [riciclare / importante / è / vetro / il]",["È importante riciclare il vetro","Il vetro è importante riciclare","Importante è riciclare il vetro","È riciclare importante il vetro"],0,"\"È importante\" + infinito + oggetto: \"È importante riciclare il vetro.\""],
+      ["writing","Scrivi in italiano 45-65 parole su tre abitudini sostenibili che pratichi o vorresti iniziare a praticare, e perché sono importanti.",[],["riciclare","risparmiare","impronta di carbonio"],"Menziona almeno tre abitudini concrete e una ragione per ciascuna."]
+    ]
+  },
+  {
+    id:"it_b2_ai_future_work", level:"B2", title:"Intelligenza artificiale e il futuro del lavoro", emoji:"🤖", xp:80,
+    description:"Discuti l'impatto dell'intelligenza artificiale sul lavoro, con argomenti sfumati in italiano.",
+    study: {
+      vocab: [
+        ["automatizzare compiti ripetitivi", "to automate repetitive tasks"],
+        ["sostituire posti di lavoro", "to replace jobs"],
+        ["adattarsi a nuovi strumenti", "to adapt to new tools"],
+        ["generare nuove opportunità di lavoro", "to generate new job opportunities"],
+        ["dipende da come viene implementata", "it depends on how it's implemented"]
+      ],
+      grammar: [
+        ["Il futuro anteriore per la speculazione", "\"Avrà\" + participio passato specula su ciò che probabilmente sarà accaduto entro un certo momento futuro.", "Entro il 2030, l'IA avrà cambiato molti settori."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi presenta una posizione sfumata sull'IA e l'occupazione?",["Dipende da come viene implementata: può automatizzare compiti ma anche creare nuovi posti di lavoro.","L'IA distruggerà tutti i lavori, senza eccezioni.","L'IA non influisce affatto sull'occupazione.","Non c'è alcun dubbio sul futuro del lavoro."],0,"Una posizione sfumata riconosce entrambi gli effetti possibili, senza assoluti."],
+      ["mcq","Cosa significa \"automatizzare compiti ripetitivi\"?",["Far svolgere a una macchina compiti che prima venivano fatti manualmente e ripetutamente da una persona.","Assumere più persone per compiti ripetitivi.","Eliminare completamente tutti i compiti di un'azienda.","Aumentare lo stipendio di chi svolge compiti ripetitivi."],0,"Automatizzare significa che un sistema svolge il compito al posto di una persona."],
+      ["fill","Completa: \"Entro il 2030, l'intelligenza artificiale ___ cambiato molti settori.\"",["avrà","aveva","ha","avrebbe"],0,"Il futuro anteriore (\"avrà cambiato\") specula su qualcosa che probabilmente sarà accaduto entro una data futura."],
+      ["translate","Traduci: \"Algunos empleos se automatizarán, pero también se crearán otros nuevos.\"",["Some jobs will be automated, but new ones will also be created.","Some jobs will automate, but new ones will also create.","Jobs some will be automated, but new ones will create.","Some jobs will be automated, but also new ones created."],0,"Entrambe le frasi usano \"will\": \"will be automated\" e \"will be created\"."],
+      ["mcq","Quale di queste affermazioni mostra pensiero critico, non un'opinione senza fondamento?",["L'impatto dell'IA sui posti di lavoro dipenderà dal settore e da come viene gestita la transizione.","L'IA è sempre buona per tutti, senza eccezioni.","L'IA è sempre negativa per tutti, senza eccezioni.","Non vale la pena pensare al futuro del lavoro."],0,"Riconoscere che l'impatto dipende da fattori concreti (settore, gestione) è pensiero critico e sfumato."],
+      ["writing","Scrivi in italiano 55-75 parole su come pensi che l'intelligenza artificiale cambierà il tuo campo di lavoro o studio nei prossimi anni. Includi un aspetto positivo e uno preoccupante.",[],["automatizzare","dipende da","tuttavia"],"Evita gli assoluti: riconosci sia vantaggi che rischi concreti."]
+    ]
+  },
+  {
+    id:"it_c1_advertising_persuasion", level:"C1", title:"Il linguaggio pubblicitario: persuasione e connotazione", emoji:"📢", xp:88,
+    description:"Analizza come il linguaggio pubblicitario usa la connotazione e le tecniche di persuasione.",
+    study: {
+      vocab: [
+        ["una connotazione positiva / negativa", "a positive / negative connotation"],
+        ["fare appello al desiderio di appartenenza", "to appeal to the desire to belong"],
+        ["uno slogan orecchiabile", "a catchy slogan"],
+        ["creare un senso di urgenza", "to create a sense of urgency"],
+        ["il pubblico di riferimento", "the target audience"]
+      ],
+      grammar: [
+        ["Connotazione contro denotazione", "La denotazione è il significato letterale di una parola; la connotazione è la carica emotiva o culturale associata.", "\"Casa\" (denotazione: edificio) contro \"focolare\" (connotazione: calore, appartenenza)."]
+      ]
+    },
+    ex:[
+      ["mcq","Una pubblicità usa la parola \"focolare\" invece di \"casa\". Cosa ottiene con questo?",["Aggiunge una connotazione emotiva di calore e appartenenza.","Cambia completamente il significato letterale.","Elimina qualsiasi interpretazione emotiva.","Non ha alcun effetto sul messaggio."],0,"\"Focolare\" ha connotazioni emotive che \"casa\" non trasmette allo stesso modo."],
+      ["mcq","\"Solo 3 pezzi rimasti, acquista ora!\" Quale tecnica di persuasione usa questa frase?",["Creare un senso di urgenza per motivare una decisione rapida.","Fare appello esclusivamente a dati tecnici oggettivi.","Offrire un confronto neutrale con altri prodotti.","Descrivere il prodotto senza alcuna pressione."],0,"Menzionare unità limitate e urgenza spinge a decidere senza pensarci troppo."],
+      ["fill","Completa: \"Questa pubblicità è rivolta a un pubblico di ___ molto specifico: giovani professionisti.\"",["riferimento","testo","autore","lettore"],0,"\"Pubblico di riferimento\" è l'espressione standard per indicare l'audience a cui si rivolge un messaggio."],
+      ["translate","Traduci: \"The slogan appeals to the desire to belong.\"",["Lo slogan fa appello al desiderio di appartenenza.","Lo slogan appello al desiderio di appartenenza.","Il desiderio di appartenenza fa appello allo slogan.","Lo slogan fare appello al desiderio di appartenenza."],0,"\"Appeals to\" = \"fa appello a\"; \"the desire to belong\" = \"il desiderio di appartenenza\"."],
+      ["mcq","Quale di queste parole ha una connotazione più positiva del suo sinonimo più neutro?",["\"Esclusivo\" contro \"limitato\".","\"Prodotto\" contro \"articolo\".","\"Comprare\" contro \"acquisire\".","\"Pubblicità\" contro \"annuncio\"."],0,"\"Esclusivo\" aggiunge una connotazione di prestigio e distinzione che \"limitato\" non trasmette allo stesso modo."],
+      ["writing","Scegli una pubblicità reale o inventata e scrivi in italiano 55-75 parole analizzando: quali connotazioni usa, a quale pubblico di riferimento si rivolge e quale tecnica di persuasione impiega.",[],["connotazione","pubblico di riferimento","urgenza"],"Identifica almeno una parola con connotazione specifica e una tecnica di persuasione concreta."]
+    ]
+  },
+  {
+    id:"it_c2_political_discourse", level:"C2", title:"Il discorso politico: ambiguità strategica ed eufemismo", emoji:"🎙️", xp:96,
+    description:"Analizza l'ambiguità strategica e l'eufemismo nel discorso politico di alto livello in italiano.",
+    study: {
+      vocab: [
+        ["un eufemismo", "a euphemism"],
+        ["l'ambiguità strategica", "strategic ambiguity"],
+        ["eludere una domanda diretta", "to dodge a direct question"],
+        ["un aggiustamento di bilancio (eufemismo per taglio)", "a budget adjustment (euphemism for a cut)"],
+        ["impegnarsi senza impegnarsi del tutto", "to commit without fully committing"]
+      ],
+      grammar: [
+        ["Riconoscere l'eufemismo politico", "Un eufemismo sostituisce un'espressione diretta con una più morbida, spesso per attenuare una realtà scomoda.", "\"Aggiustamento di bilancio\" suona più neutrale di \"taglio di spesa\", anche se descrive la stessa cosa."],
+        ["Ambiguità strategica", "I politici a volte scelgono deliberatamente frasi vaghe per evitare di impegnarsi su una posizione chiara.", "\"Stiamo valutando tutte le opzioni\" non dice quale opzione verrà effettivamente scelta."]
+      ]
+    },
+    ex:[
+      ["mcq","Un politico dice \"aggiustamento di bilancio\" invece di \"taglio di spesa\". Cosa ottiene con questo?",["Attenua l'impatto negativo della misura tramite un eufemismo.","Cambia completamente il significato della misura.","Rende la misura più trasparente e diretta.","Elimina qualsiasi interpretazione negativa possibile."],0,"L'eufemismo attenua la percezione senza cambiare la realtà della misura."],
+      ["mcq","\"Stiamo valutando tutte le opzioni\" detto di fronte a una domanda diretta. Che funzione svolge questa frase?",["Elude un impegno chiaro tramite ambiguità strategica.","Dà una risposta completamente trasparente e specifica.","Conferma esattamente quale decisione verrà presa.","Nega categoricamente ogni possibile decisione."],0,"Questa frase evita di impegnarsi su una posizione concreta, mantenendo apparentemente tutte le opzioni aperte."],
+      ["fill","Completa: \"Il governo ha annunciato un ___ di bilancio che in realtà comportava tagli importanti.\"",["aggiustamento","aumento","regalo","premio"],0,"\"Aggiustamento di bilancio\" è l'eufemismo tipico per \"taglio\"."],
+      ["translate","Traduci con precisione: \"Politicians sometimes commit without fully committing.\"",["I politici a volte si impegnano senza impegnarsi del tutto.","I politici a volte impegnano senza impegnare del tutto.","A volte i politici del tutto si impegnano senza impegnare.","I politici si impegnano a volte del tutto senza impegnarsi."],0,"\"Commit without fully committing\" = \"impegnarsi senza impegnarsi del tutto\", catturando l'ambiguità intenzionale."],
+      ["mcq","Quale di queste frasi è un chiaro esempio di ambiguità strategica?",["Non escludiamo nessuna possibilità in questo momento.","Il bilancio sarà ridotto esattamente del 12% quest'anno.","La legge entrerà in vigore il 1° gennaio, senza eccezioni.","Mi dimetterò dal mio incarico la prossima settimana."],0,"\"Non escludiamo nessuna possibilità\" non si impegna a nulla di concreto, lasciando apparentemente tutte le porte aperte."],
+      ["writing","Scrivi in italiano 55-75 parole analizzando un eufemismo o un caso di ambiguità strategica che hai osservato in un discorso politico reale o inventato. Spiega quale frase diretta sta evitando e perché.",[],["eufemismo","invece di","evita di impegnarsi"],"Identifica la frase esatta, il significato più diretto che sostituisce, e l'effetto che cerca sul pubblico."]
+    ]
+  },
+  {
+    id:"it_a1_money_prices", level:"A1", title:"Numeri ordinali, denaro e prezzi", emoji:"💰", xp:36,
+    description:"Impara a parlare di prezzi, denaro e numeri ordinali in italiano.",
+    study: {
+      vocab: [
+        ["primo, secondo, terzo...", "first, second, third..."],
+        ["Quanto costa questo?", "How much does this cost?"],
+        ["Costa dieci euro.", "It costs ten euros."],
+        ["economico, caro", "cheap, expensive"],
+        ["pagare in contanti / con carta", "to pay in cash / by card"]
+      ],
+      grammar: [
+        ["\"Costa / Costano\" per i prezzi", "\"Costa\" (singolare) e \"costano\" (plurale) concordano con ciò che si compra.", "Il libro costa dieci euro. I libri costano venti euro."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi il prezzo di qualcosa?",["Quanto costa questo?","Cos'è questo?","Dov'è questo?","Quando è questo?"],0,"\"Quanto costa questo?\" è la domanda standard per chiedere un prezzo."],
+      ["mcq","Un prodotto da 5 euro è più economico di uno da 50 euro. Quale parola descrive quello da 5 euro?",["Economico.","Caro.","Gratis.","Grande."],0,"\"Economico\" descrive qualcosa di prezzo basso rispetto a un'altra cosa."],
+      ["fill","Completa: \"Le scarpe ___ quaranta euro.\"",["costano","costa","è","sono"],0,"\"Costano\" concorda al plurale con \"le scarpe\"."],
+      ["translate","Traduci: \"It costs ten euros.\"",["Costa dieci euro.","Costano dieci euro.","È dieci euro.","Ha dieci euro."],0,"\"It costs ten euros\" (singolare) = \"Costa dieci euro.\""],
+      ["arrange","Metti in ordine: [carta / pago / con / sempre]",["Pago sempre con carta","Sempre pago con carta","Con carta sempre pago","Pago con carta sempre"],0,"Soggetto + verbo + avverbio + complemento: \"Pago sempre con carta.\""],
+      ["writing","Scrivi in italiano 20-30 parole sulle tue abitudini di acquisto: cosa compri normalmente, se preferisci pagare in contanti o con carta, e se cerchi cose economiche.",[],["costa","economico","pago"],"Usa almeno un numero ordinale o un prezzo concreto nella tua risposta."]
+    ]
+  },
+  {
+    id:"it_a2_restaurant_ordering", level:"A2", title:"Al ristorante: ordinare e pagare il conto", emoji:"🍽️", xp:45,
+    description:"Impara a ordinare cibo, fare domande al cameriere e pagare il conto in un ristorante.",
+    study: {
+      vocab: [
+        ["Vorrei ordinare...", "I would like to order..."],
+        ["Cosa mi consiglia?", "What do you recommend?"],
+        ["Mi porta il conto, per favore?", "Could you bring me the bill, please?"],
+        ["Il servizio è incluso?", "Is the tip included?"],
+        ["Per me, il menù del giorno.", "For me, the set menu."]
+      ],
+      grammar: [
+        ["\"Vorrei\" per ordinare con cortesia", "\"Vorrei\" (condizionale di \"volere\") è più formale e cortese di \"voglio\" quando si ordina.", "Vorrei ordinare la zuppa e il pollo, per favore."]
+      ]
+    },
+    ex:[
+      ["mcq","Qual è il modo più cortese di ordinare cibo in un ristorante?",["Vorrei ordinare la zuppa, per favore.","Voglio la zuppa subito.","Dammi la zuppa.","Zuppa, ora."],0,"\"Vorrei\" è la forma cortese e formale per ordinare qualcosa."],
+      ["mcq","Hai finito di mangiare e vuoi pagare. Cosa dici?",["Mi porta il conto, per favore?","Mi porta il menù, per favore?","Cosa mi consiglia?","Questo tavolo è libero?"],0,"\"Mi porta il conto, per favore?\" è la frase standard per chiedere di pagare."],
+      ["fill","Completa: \"___ ordinare il pesce con insalata, per favore.\"",["Vorrei","Voglio subito","Dammi","Ho"],0,"\"Vorrei ordinare\" è la forma cortese standard per fare un ordine."],
+      ["translate","Traduci: \"Is the tip included?\"",["Il servizio è incluso?","Il servizio è includere?","Il servizio incluso è?","Incluso è il servizio in?"],0,"\"Is the tip included?\" = \"Il servizio è incluso?\""],
+      ["arrange","Metti in ordine: [consiglia / mi / cosa]",["Cosa mi consiglia","Mi cosa consiglia","Consiglia cosa mi","Mi consiglia cosa"],0,"Domanda con \"cosa\" all'inizio: \"Cosa mi consiglia?\""],
+      ["speaking","Rappresenta in italiano, in 40-60 parole, una breve conversazione in un ristorante: ordina un piatto, chiedi un consiglio e chiedi il conto alla fine.",[],["vorrei","consiglia","il conto"],"Includi le tre parti: ordine, domanda al cameriere e richiesta del conto."]
+    ]
+  },
+  {
+    id:"it_b1_personal_finance", level:"B1", title:"Finanze personali: la banca e il budget", emoji:"🏦", xp:62,
+    description:"Parla di conti bancari, risparmio e budget personale in italiano.",
+    study: {
+      vocab: [
+        ["aprire un conto bancario", "to open a bank account"],
+        ["fare un budget mensile", "to make a monthly budget"],
+        ["risparmiare per un obiettivo", "to save up for a goal"],
+        ["le spese fisse e le spese variabili", "fixed expenses and variable expenses"],
+        ["chiedere un prestito, pagare a rate", "to take out a loan, to pay in installments"]
+      ],
+      grammar: [
+        ["Il condizionale per i consigli finanziari", "\"Dovresti\" + infinito dà un consiglio senza suonare troppo diretto.", "Dovresti risparmiare almeno il 10% del tuo stipendio ogni mese."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi dà un consiglio finanziario in modo adeguato?",["Dovresti risparmiare un po' ogni mese, anche se poco.","Risparmia subito, non c'è altra opzione.","Il risparmio non serve a niente.","Non riuscirai mai a risparmiare nulla."],0,"\"Dovresti\" + infinito dà un consiglio in modo cortese e ragionevole."],
+      ["mcq","Che differenza c'è tra spese fisse e variabili?",["Le fisse si ripetono ogni mese allo stesso importo; le variabili cambiano.","Le fisse cambiano ogni mese; le variabili sono sempre uguali.","Non c'è nessuna differenza reale tra loro.","Le variabili esistono solo per le aziende, non per le persone."],0,"Le spese fisse (l'affitto, per esempio) restano stabili; le variabili (svago, cibo) cambiano ogni mese."],
+      ["fill","Completa: \"Sto per ___ un nuovo conto bancario questo mese.\"",["aprire","chiudere","spendere","perdere"],0,"\"Aprire un conto bancario\" è la collocazione corretta per creare un nuovo conto."],
+      ["translate","Traduci: \"You should make a monthly budget.\"",["Dovresti fare un budget mensile.","Dovresti fare budget mensile un.","Un budget mensile dovresti fare.","Dovresti un budget mensile fare."],0,"\"You should make a monthly budget\" = \"Dovresti fare un budget mensile.\""],
+      ["arrange","Metti in ordine: [risparmiare / obiettivo / per / un / voglio]",["Voglio risparmiare per un obiettivo","Per un obiettivo voglio risparmiare","Risparmiare voglio per un obiettivo","Voglio per un obiettivo risparmiare"],0,"Soggetto + \"voglio\" + infinito + complemento: \"Voglio risparmiare per un obiettivo.\""],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con il denaro: come organizzi il tuo budget, se risparmi per qualcosa di concreto e un'abitudine finanziaria che vorresti migliorare.",[],["budget","risparmiare","spese"],"Menziona almeno una spesa fissa, una spesa variabile e un obiettivo di risparmio."]
+    ]
+  },
+  {
+    id:"it_b2_mental_wellbeing", level:"B2", title:"Benessere e salute mentale: parlarne con sfumature", emoji:"🧘", xp:82,
+    description:"Parla del benessere emotivo e della salute mentale con un vocabolario più sfumato in italiano.",
+    study: {
+      vocab: [
+        ["sentirsi sopraffatto/a", "to feel overwhelmed"],
+        ["porre dei limiti, prendersi cura di sé", "to set boundaries, to take care of yourself"],
+        ["il burnout (esaurimento)", "burnout"],
+        ["chiedere aiuto non è un segno di debolezza", "asking for help is not a sign of weakness"],
+        ["elaborare le proprie emozioni", "to process one's emotions"]
+      ],
+      grammar: [
+        ["Il congiuntivo con espressioni di raccomandazione", "\"È importante che\" + congiuntivo raccomanda un'azione legata al benessere.", "È importante che tu parli di come ti senti con qualcuno di cui ti fidi."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi usa correttamente il congiuntivo per dare una raccomandazione?",["È importante che tu ti riposi quando ne hai bisogno.","È importante che tu ti riposi quando ne hai bisogno è.","È importante tu ti riposare quando bisogno.","È importante che riposi quando hai bisogno tu."],0,"\"È importante che\" richiede il congiuntivo: \"che tu ti riposi\"."],
+      ["mcq","Cosa significa \"sentirsi sopraffatto/a\"?",["Sentire che ci sono troppe cose da gestire allo stesso tempo.","Sentirsi estremamente felice e tranquillo.","Non sentire assolutamente nulla.","Sentire curiosità per qualcosa di nuovo."],0,"\"Sopraffatto\" descrive una sensazione di eccesso di compiti o emozioni difficili da gestire."],
+      ["fill","Completa: \"Porre dei ___ è importante per prendersi cura del proprio benessere.\"",["limiti","soldi","vestiti","cibo"],0,"\"Porre dei limiti\" è l'espressione corretta per proteggere il proprio benessere emotivo."],
+      ["translate","Traduci: \"Asking for help is not a sign of weakness.\"",["Chiedere aiuto non è un segno di debolezza.","Chiedere aiuto non è una debole segno.","Chiedere aiuto non è segno di debolezza non.","Non chiedere aiuto è un segno di debolezza."],0,"\"Asking for help is not a sign of weakness\" = \"Chiedere aiuto non è un segno di debolezza.\""],
+      ["mcq","Quale di queste frasi riflette un'elaborazione sana di un'emozione, non la sua evitazione?",["Riconosco di essere triste e mi do il tempo di capire perché.","Faccio finta che non sia successo nulla e ignoro come mi sento.","Mi distraggo costantemente per non sentire nulla.","Dico a tutti che sto benissimo, anche se non è vero."],0,"Riconoscere ed esplorare un'emozione, invece di evitarla, è un'elaborazione emotiva sana."],
+      ["writing","Scrivi in italiano 55-75 parole su una strategia che usi (o vorresti usare) per prenderti cura del tuo benessere emotivo quando ti senti sopraffatto/a.",[],["sopraffatto","limiti","elaborare"],"Usa almeno una struttura di raccomandazione con il congiuntivo (\"è importante che...\")."]
+    ]
+  },
+  {
+    id:"it_c1_legal_language", level:"C1", title:"Linguaggio giuridico di base: contratti e clausole", emoji:"📜", xp:90,
+    description:"Comprendi il vocabolario e le strutture di base del linguaggio giuridico nei contratti.",
+    study: {
+      vocab: [
+        ["le parti contraenti", "the contracting parties"],
+        ["una clausola, un allegato", "a clause, an appendix"],
+        ["recedere da un contratto", "to terminate a contract"],
+        ["essere soggetto ai termini e condizioni", "to be subject to the terms and conditions"],
+        ["in caso di inadempimento", "in the event of a breach"]
+      ],
+      grammar: [
+        ["Il linguaggio formale impersonale nei contratti", "I contratti usano strutture impersonali e passive per suonare oggettivi ed evitare ambiguità su chi agisce.", "Il presente contratto potrà essere risolto da ciascuna delle parti con un preavviso di 30 giorni."],
+        ["\"Nel caso in cui\" + congiuntivo", "Questa struttura formale introduce condizioni giuridiche ipotetiche.", "Nel caso in cui una delle parti non rispetti quanto concordato, si applicherà una penale."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa significa \"recedere da un contratto\"?",["Terminare o annullare un contratto prima del previsto.","Firmare un nuovo contratto.","Modificare solo una clausola del contratto.","Rinnovare automaticamente un contratto."],0,"\"Recedere\" significa porre fine a un contratto, generalmente prima della sua scadenza naturale."],
+      ["mcq","Quale di queste frasi usa correttamente il linguaggio formale impersonale tipico di un contratto?",["Il presente contratto potrà essere risolto da ciascuna delle parti.","Chiunque può rompere questo contratto se vuole.","Qualcuno può cancellarlo quando ne ha voglia.","Si può cancellare il contratto così, senza motivo."],0,"Il linguaggio contrattuale formale usa costruzioni passive e impersonali, evitando un tono colloquiale."],
+      ["fill","Completa: \"___ caso in cui una delle parti non rispetti quanto concordato, si applicherà una penale.\"",["Nel","Perché","Sebbene","Tuttavia"],0,"\"Nel caso in cui\" + congiuntivo introduce una condizione giuridica ipotetica."],
+      ["translate","Traduci: \"The contract is subject to the terms and conditions described in Appendix A.\"",["Il contratto è soggetto ai termini e condizioni descritti nell'Allegato A.","Il contratto è soggetto i termini e condizioni descritti nell'Allegato A.","Il contratto è soggetto ai termini e condizioni nell'Allegato A descritti.","Soggetto il contratto è ai termini dell'Allegato A."],0,"\"Subject to\" = \"soggetto a\"; \"described in Appendix A\" = \"descritti nell'Allegato A\"."],
+      ["mcq","Cosa sono \"le parti contraenti\"?",["Le persone o entità che firmano e si impegnano in un contratto.","Solo la persona che redige il contratto.","Le sezioni o i capitoli di un contratto.","I testimoni che non firmano il contratto."],0,"\"Le parti contraenti\" si riferisce a chi firma il contratto e assume obblighi in esso."],
+      ["writing","Scrivi in italiano 55-75 parole redigendo una clausola semplice di un contratto fittizio (per esempio, sui termini di consegna o le condizioni di cancellazione), usando un registro formale e impersonale.",[],["le parti","nel caso in cui","recedere"],"Usa almeno una costruzione passiva o impersonale, propria del registro giuridico formale."]
+    ]
+  },
+  {
+    id:"it_c2_literary_criticism", level:"C2", title:"Critica letteraria: voce narrativa e stile", emoji:"📖", xp:97,
+    description:"Analizza la voce narrativa, lo stile e le scelte formali di un testo letterario in italiano.",
+    study: {
+      vocab: [
+        ["la voce narrativa", "the narrative voice"],
+        ["un narratore affidabile / inaffidabile", "a reliable / unreliable narrator"],
+        ["il punto di vista (prima, terza persona)", "point of view (first, third person)"],
+        ["il tono e il registro di un testo", "the tone and register of a text"],
+        ["una tecnica narrativa (flashback, ellissi)", "a narrative technique (flashback, ellipsis)"]
+      ],
+      grammar: [
+        ["Analizzare le scelte formali dell'autore", "L'analisi letteraria avanzata collega una scelta formale (punto di vista, tempo verbale) al suo effetto sul lettore.", "L'uso della prima persona crea vicinanza, ma limita anche la prospettiva a ciò che il narratore può sapere o percepire."]
+      ]
+    },
+    ex:[
+      ["mcq","Cosa caratterizza un \"narratore inaffidabile\"?",["La sua versione dei fatti può essere di parte, incompleta o fuorviante.","Dice sempre la verità assoluta su tutto ciò che accade.","Non ha mai un'opinione sui fatti che narra.","Compare solo in testi scientifici, mai nella narrativa."],0,"Un narratore inaffidabile offre una prospettiva che il lettore deve mettere in dubbio, per parzialità, ignoranza o inganno."],
+      ["mcq","Che effetto produce solitamente la narrazione in prima persona?",["Crea vicinanza con il narratore, ma limita la prospettiva a ciò che sa.","Elimina qualsiasi connessione emotiva con il lettore.","Garantisce sempre una visione oggettiva dei fatti.","Si usa solo in testi non letterari."],0,"La prima persona avvicina il lettore al narratore, a costo di una visione necessariamente parziale dei fatti."],
+      ["fill","Completa: \"L'uso di un ___ interrompe la cronologia per mostrare un evento del passato.\"",["flashback","epilogo","prologo","indice"],0,"Un \"flashback\" è la tecnica narrativa che interrompe la cronologia lineare per mostrare il passato."],
+      ["translate","Traduci con precisione tecnica: \"La mancanza di affidabilità del narratore costringe il lettore a mettere in dubbio ogni affermazione.\"",["The narrator's unreliability forces the reader to question every claim.","The narrator unreliability force the reader question every claim.","The unreliable narrator force to question reader every claim is.","Question every claim forces the narrator's unreliability the reader."],0,"\"Mancanza di affidabilità\" si traduce tecnicamente come \"unreliability\"."],
+      ["mcq","Quale di queste analisi collega correttamente una scelta formale al suo effetto sul lettore?",["Il presente narrativo crea una sensazione di immediatezza, come se i fatti accadessero proprio ora.","L'autore ha usato il presente perché è più facile da scrivere.","Il presente non ha alcun effetto su come viene percepita la storia.","Il presente si usa solo in poesia, mai nella narrativa."],0,"Una buona analisi letteraria collega la scelta formale (tempo verbale) a un effetto concreto sull'esperienza di lettura."],
+      ["writing","Scegli un racconto, un romanzo o una storia che conosci (o inventane uno breve) e scrivi in italiano 55-75 parole analizzando la sua voce narrativa: punto di vista, affidabilità del narratore e un effetto che questo produce sul lettore.",[],["voce narrativa","punto di vista","effetto"],"Collega esplicitamente una scelta formale dell'autore a un effetto concreto sulla lettura, non limitarti a descrivere la trama."]
+    ]
+  },
+  {
+    id:"it_a1_professions_jobs", level:"A1", title:"Le professioni: cosa fai nella vita?", emoji:"👩‍⚕️", xp:36,
+    description:"Impara il vocabolario di base delle professioni e a parlare del tuo lavoro in italiano.",
+    study: {
+      vocab: [
+        ["medico, insegnante, ingegnere, cameriere/a", "doctor, teacher, engineer, waiter/waitress"],
+        ["Cosa fai nella vita?", "What do you do for a living?"],
+        ["Sono studente/essa / Lavoro in un ufficio.", "I'm a student / I work in an office."],
+        ["Dove lavori?", "Where do you work?"],
+        ["lavorare come + professione", "to work as + profession"]
+      ],
+      grammar: [
+        ["\"Essere\" con le professioni (senza articolo)", "Con le professioni, \"essere\" non porta l'articolo indeterminativo, a differenza dell'inglese.", "Sono insegnante. (non \"Sono un insegnante\")"]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi la professione di qualcuno?",["Cosa fai nella vita?","Come ti chiami?","Dove vivi?","Quanti anni hai?"],0,"\"Cosa fai nella vita?\" chiede specificamente la professione."],
+      ["mcq","Qual è la forma corretta per dire la propria professione in italiano?",["Sono insegnante.","Sono un insegnante.","Ho insegnante.","Faccio insegnante."],0,"In italiano, \"essere\" + professione non porta l'articolo: \"Sono insegnante.\""],
+      ["fill","Completa: \"Mia sorella ___ medica in un ospedale.\"",["è","ha","fa","lavora è"],0,"\"Essere\" si usa per le professioni: \"Mia sorella è medica.\""],
+      ["translate","Traduci: \"I work in an office.\"",["Lavoro in un ufficio.","Lavoro un ufficio.","Sono lavoro in un ufficio.","Lavoro di un ufficio."],0,"\"I work in an office\" = \"Lavoro in un ufficio.\""],
+      ["arrange","Metti in ordine: [cameriere / lavoro / ristorante / come / in / un]",["Lavoro come cameriere in un ristorante","Come cameriere lavoro in un ristorante","Lavoro in un ristorante come cameriere","In un ristorante lavoro come cameriere"],0,"\"Lavoro come\" + professione + \"in\" + luogo: \"Lavoro come cameriere in un ristorante.\""],
+      ["writing","Scrivi in italiano 20-30 parole sulla tua professione (reale o immaginata) e dove lavori. Menziona almeno due compiti che svolgi sul lavoro.",[],["sono","lavoro","come"],"Usa \"essere\" per la professione e \"lavorare in/come\" per il luogo o il ruolo."]
+    ]
+  },
+  {
+    id:"it_a2_describing_people", level:"A2", title:"Descrivere persone: aspetto e personalità", emoji:"🧑‍🤝‍🧑", xp:46,
+    description:"Impara a descrivere l'aspetto fisico e la personalità di altre persone in italiano.",
+    study: {
+      vocab: [
+        ["alto/a, basso/a, magro/a", "tall, short, slim"],
+        ["ha i capelli lunghi/corti, porta gli occhiali", "has long/short hair, wears glasses"],
+        ["è simpatico/a, timido/a, divertente", "is nice, shy, funny"],
+        ["assomiglia a sua madre/suo padre", "looks like his/her mother/father"],
+        ["Com'è il tuo migliore amico/la tua migliore amica?", "What is your best friend like?"]
+      ],
+      grammar: [
+        ["\"Essere\" per le caratteristiche, \"avere\" e \"portare\" per i tratti fisici", "\"Essere\" descrive la personalità e i tratti stabili; \"avere\" e \"portare\" descrivono parti del corpo o accessori.", "È molto simpatica, ha i capelli lunghi e porta gli occhiali."]
+      ]
+    },
+    ex:[
+      ["mcq","Come chiedi com'è la personalità di qualcuno?",["Com'è il tuo migliore amico?","Come stai?","Che ore sono?","Di dove sei?"],0,"\"Com'è...?\" chiede le caratteristiche o la personalità di qualcuno."],
+      ["mcq","Quale di queste frasi descrive correttamente l'aspetto fisico di qualcuno?",["Ha i capelli corti e porta gli occhiali.","È i capelli corti e porta gli occhiali.","Ha simpatico e alto.","È ha gli occhiali."],0,"\"Avere\" si usa per le parti del corpo (\"ha i capelli corti\") e \"portare\" per gli accessori (\"porta gli occhiali\")."],
+      ["fill","Completa: \"Mio fratello ___ molto divertente e fa sempre scherzi.\"",["è","ha","porta","fa"],0,"\"Essere\" descrive un tratto di personalità stabile: \"è molto divertente\"."],
+      ["translate","Traduci: \"She has long hair and wears glasses.\"",["Ha i capelli lunghi e porta gli occhiali.","È i capelli lunghi e porta gli occhiali.","Ha capelli lunghi ed è occhiali.","Porta i capelli lunghi e ha gli occhiali messi."],0,"\"Has long hair\" = \"ha i capelli lunghi\"; \"wears glasses\" = \"porta gli occhiali\"."],
+      ["arrange","Metti in ordine: [madre / assomiglia / sua / a]",["Assomiglia a sua madre","A sua madre assomiglia","Sua madre assomiglia a","Assomiglia sua a madre"],0,"\"Assomiglia a\" + persona: \"Assomiglia a sua madre.\""],
+      ["speaking","Descrivi in italiano, in 40-60 parole, una persona che conosci bene: il suo aspetto fisico e tre tratti della sua personalità.",[],["ha","è","porta"],"Includi almeno due tratti fisici e due di personalità."]
+    ]
+  },
+  {
+    id:"it_b1_education_learning", level:"B1", title:"L'istruzione: sistemi scolastici e abitudini di studio", emoji:"🎒", xp:60,
+    description:"Parla di sistemi educativi, metodi di studio ed esperienze scolastiche in italiano.",
+    study: {
+      vocab: [
+        ["l'istruzione obbligatoria / superiore", "compulsory / higher education"],
+        ["superare/bocciare un esame", "to pass/fail an exam"],
+        ["memorizzare contro capire", "to memorize versus to understand"],
+        ["un piano di studi, una materia", "a curriculum, a school subject"],
+        ["imparare al proprio ritmo", "to learn at your own pace"]
+      ],
+      grammar: [
+        ["I comparativi per confrontare sistemi", "\"Più... di/che\", \"meno... di/che\" e \"tanto... quanto\" servono per confrontare metodi o sistemi educativi.", "Questo sistema è più pratico di quello tradizionale, anche se non è tanto strutturato quanto quello."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi confronta correttamente due sistemi educativi?",["Questo sistema è più pratico di quello tradizionale.","Questo sistema è pratico più tradizionale.","Questo sistema è tanto pratico tradizionale.","Questo sistema più pratico è di tradizionale."],0,"\"Più... di\" è la struttura comparativa corretta in italiano."],
+      ["mcq","Che differenza c'è tra memorizzare e capire?",["Memorizzare significa ripetere informazioni; capire implica coglierne il significato e applicarlo.","Sono esattamente la stessa cosa, senza alcuna differenza.","Memorizzare è sempre meglio di capire.","Capire è più veloce di memorizzare."],0,"Memorizzare è trattenere dati; capire implica un'elaborazione più profonda del significato."],
+      ["fill","Completa: \"Ho studiato molto, ma comunque ___ l'esame.\"",["ho bocciato","ho superato","ho memorizzato","ho capito"],0,"Il contesto (\"ma comunque\") suggerisce un risultato negativo: \"ho bocciato l'esame\" (nel senso di essere bocciato)."],
+      ["translate","Traduci: \"I prefer to learn at my own pace.\"",["Preferisco imparare al mio ritmo.","Preferisco imparare mio ritmo.","Preferisco a imparare mio ritmo.","Preferisco mio ritmo imparare a."],0,"\"To learn at your own pace\" = \"imparare al proprio ritmo\"."],
+      ["arrange","Metti in ordine: [preferita / materia / è / matematica / la mia]",["La mia materia preferita è matematica","È la mia materia preferita matematica","Matematica è la mia materia preferita","La mia preferita materia è matematica"],0,"Soggetto + \"è\" + complemento: \"La mia materia preferita è matematica.\""],
+      ["writing","Scrivi in italiano 45-65 parole confrontando due modi di studiare o due sistemi educativi che conosci (per esempio, lezioni in presenza contro online), e di' quale preferisci e perché.",[],["più...di","capire","al mio ritmo"],"Usa almeno una struttura comparativa esplicita."]
+    ]
+  },
+  {
+    id:"it_b2_sustainable_cities", level:"B2", title:"Città sostenibili: urbanistica e mobilità", emoji:"🚲", xp:82,
+    description:"Discuti proposte di urbanistica e mobilità sostenibile nelle città, con argomenti sfumati in italiano.",
+    study: {
+      vocab: [
+        ["i mezzi pubblici, la pista ciclabile", "public transport, the bike lane"],
+        ["pedonalizzare il centro città", "to pedestrianize the city center"],
+        ["ridurre il traffico e l'inquinamento", "to reduce traffic and pollution"],
+        ["uno spazio verde, una zona pedonale", "a green space, a pedestrian zone"],
+        ["investire in infrastrutture sostenibili", "to invest in sustainable infrastructure"]
+      ],
+      grammar: [
+        ["Il congiuntivo con espressioni di dubbio o opinione", "\"Non credo che\" e \"è possibile che\" richiedono il congiuntivo per esprimere dubbio o opinione su proposte urbanistiche.", "Non credo che pedonalizzare tutto il centro sia l'unica soluzione possibile."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi usa correttamente il congiuntivo per esprimere dubbio?",["Non credo che questa misura sia sufficiente da sola.","Non credo che questa misura è sufficiente da sola.","Non credo questa misura sia sufficiente.","Non credo che questa misura essere sufficiente."],0,"\"Non credo che\" richiede il congiuntivo: \"che...sia\"."],
+      ["mcq","Cosa significa \"pedonalizzare il centro città\"?",["Limitare o eliminare il traffico veicolare per dare priorità ai pedoni.","Costruire più strade nel centro.","Aumentare il numero di auto consentite nel centro.","Eliminare tutti i negozi dal centro."],0,"\"Pedonalizzare\" significa trasformare uno spazio per l'uso prioritario dei pedoni, limitando i veicoli."],
+      ["fill","Completa: \"È possibile che la pista ciclabile ___ il traffico in quella zona.\"",["riduca","riduce","ridurrà","ha ridotto"],0,"\"È possibile che\" richiede il congiuntivo: \"che riduca\"."],
+      ["translate","Traduci: \"Investing in public transport reduces pollution in the long term.\"",["Investire nei mezzi pubblici riduce l'inquinamento a lungo termine.","Investire nei mezzi pubblici ridurre l'inquinamento a lungo termine.","Investire mezzi pubblici in riduce l'inquinamento lungo termine.","Riduce investire nei mezzi pubblici l'inquinamento a lungo termine."],0,"\"Investing in public transport reduces pollution\" = \"Investire nei mezzi pubblici riduce l'inquinamento.\""],
+      ["mcq","Quale di queste frasi presenta una posizione sfumata sulla mobilità urbana?",["Dipende dal contesto: in alcune città l'auto è ancora necessaria, in altre no.","L'auto dovrebbe essere vietata ovunque senza eccezioni.","I mezzi pubblici non funzionano mai bene in nessuna città.","Non c'è nessuna soluzione possibile per il traffico urbano."],0,"Una posizione sfumata riconosce che la soluzione dipende dal contesto specifico di ogni città."],
+      ["writing","Scrivi in italiano 55-75 parole proponendo un miglioramento di mobilità sostenibile per una città che conosci, spiegando un beneficio e una possibile difficoltà nell'implementarlo.",[],["è possibile che","pedonale","mezzi pubblici"],"Usa almeno una struttura con il congiuntivo di dubbio o opinione."]
+    ]
+  },
+  {
+    id:"it_c1_science_communication", level:"C1", title:"Divulgazione scientifica: comunicare con precisione", emoji:"🔬", xp:90,
+    description:"Impara a comunicare informazioni scientifiche complesse in modo chiaro e preciso in italiano, senza perdere rigore.",
+    study: {
+      vocab: [
+        ["semplificare senza distorcere", "to simplify without distorting"],
+        ["un risultato preliminare contro uno confermato", "a preliminary finding versus a confirmed one"],
+        ["le evidenze scientifiche suggeriscono che...", "scientific evidence suggests that..."],
+        ["un'analogia utile per spiegare qualcosa di complesso", "a useful analogy to explain something complex"],
+        ["evitare il sensazionalismo scientifico", "to avoid scientific sensationalism"]
+      ],
+      grammar: [
+        ["Verbi sfumati per comunicare l'incertezza scientifica", "\"Suggerisce\", \"indica\", \"potrebbe spiegare\" trasmettono diversi gradi di certezza scientifica, più precisi di \"prova\" o \"dimostra\".", "Lo studio suggerisce un possibile legame, ma non dimostra la causalità."]
+      ]
+    },
+    ex:[
+      ["mcq","Quale di queste frasi comunica un risultato scientifico con la sfumatura corretta?",["Lo studio suggerisce un possibile legame, ma non dimostra la causalità.","Lo studio dimostra in modo definitivo che questo causa quello.","Gli scienziati sanno già tutto su questo argomento.","Questo risultato è sicuro al cento per cento, senza alcun dubbio."],0,"\"Suggerisce\" e \"non dimostra la causalità\" riflettono con precisione il livello reale di certezza di un risultato preliminare."],
+      ["mcq","Perché è importante \"semplificare senza distorcere\" nella divulgazione scientifica?",["Perché semplificare troppo può cambiare il significato reale del risultato.","Perché la scienza non dovrebbe mai essere spiegata a persone non esperte.","Perché i dettagli tecnici non contano affatto.","Perché ogni semplificazione è automaticamente sbagliata."],0,"Semplificare è necessario per raggiungere più pubblico, ma distorcere il significato originale è un grave errore di divulgazione."],
+      ["fill","Completa: \"Questo è un risultato ___: servono altri studi per confermarlo.\"",["preliminare","confermato","definitivo","assoluto"],0,"\"Preliminare\" indica che il risultato non è ancora confermato in modo conclusivo."],
+      ["translate","Traduci: \"Scientific evidence suggests that this treatment could be effective.\"",["Le evidenze scientifiche suggeriscono che questo trattamento potrebbe essere efficace.","Le evidenze scientifiche suggeriscono questo trattamento potrebbe efficace.","Suggeriscono le evidenze scientifiche che trattamento potrebbe essere efficace.","Le evidenze scientifiche suggeriscono che questo trattamento essere efficace potrebbe."],0,"\"Scientific evidence suggests that\" = \"Le evidenze scientifiche suggeriscono che\", seguito da \"potrebbe essere\" per esprimere possibilità."],
+      ["mcq","Un titolo dice \"La scienza lo conferma: questo frutto cura il cancro!\" basandosi su un solo studio preliminare sui topi. Qual è il problema di questo titolo?",["Esagera un risultato preliminare e limitato come se fosse una certezza assoluta applicabile agli esseri umani.","È un esempio perfetto di divulgazione scientifica rigorosa.","Non contiene alcun sensazionalismo.","Riflette accuratamente il livello di evidenza disponibile."],0,"Il titolo trasforma un risultato preliminare sui topi in un'affermazione assoluta sugli esseri umani, un chiaro caso di sensazionalismo."],
+      ["writing","Scegli una scoperta scientifica (reale o inventata) e scrivi in italiano 55-75 parole spiegandola in modo chiaro e accessibile, usando un'analogia e mantenendo la sfumatura corretta di certezza (evita parole come \"dimostra\" se il risultato è preliminare).",[],["suggerisce","preliminare","è come"],"Includi almeno un'analogia e un verbo sfumato che rifletta correttamente il livello di certezza."]
+    ]
+  },
+  {
+    id:"it_c2_speech_acts_pragmatics", level:"C2", title:"Pragmatica: cosa facciamo dicendo qualcosa", emoji:"💭", xp:98,
+    description:"Analizza gli atti linguistici e la pragmatica in italiano: la differenza tra ciò che si dice e ciò che si fa dicendolo.",
+    study: {
+      vocab: [
+        ["un atto linguistico (richiesta, promessa, ordine)", "a speech act (request, promise, order)"],
+        ["il significato letterale contro il significato inteso", "literal meaning versus intended meaning"],
+        ["un atto linguistico indiretto", "an indirect speech act"],
+        ["le condizioni di felicità di un atto linguistico", "the felicity conditions of a speech act"],
+        ["implicare qualcosa senza dirlo esplicitamente", "to imply something without saying it explicitly"]
+      ],
+      grammar: [
+        ["Atti linguistici diretti contro indiretti", "Un atto linguistico indiretto usa una forma grammaticale (come una domanda) per svolgere un'altra funzione (come una richiesta).", "\"Potresti chiudere la finestra?\" ha la forma di una domanda, ma la sua funzione reale è una richiesta, non chiedere informazioni."]
+      ]
+    },
+    ex:[
+      ["mcq","\"Potresti passarmi il sale?\" durante una cena. Che atto linguistico è, in realtà?",["Una richiesta indiretta, anche se ha la forma di una domanda.","Una vera domanda sulla capacità dell'altra persona.","Un ordine diretto ed esplicito.","Una promessa riguardo al futuro."],0,"Anche se ha la forma grammaticale di una domanda sulla capacità, la sua funzione reale è chiedere che qualcuno passi il sale: è una richiesta indiretta."],
+      ["mcq","Un capo dice a un dipendente: \"Fa un po' freddo qui, no?\" vicino a una finestra aperta. Cosa sta probabilmente facendo con questo enunciato?",["Sta chiedendo indirettamente che qualcuno chiuda la finestra.","Sta semplicemente commentando il tempo senza altre intenzioni.","Sta chiedendo la temperatura esatta della stanza.","Sta ordinando esplicitamente di spegnere il riscaldamento."],0,"Il commento funziona come una richiesta indiretta affinché qualcuno chiuda la finestra, senza dirlo esplicitamente."],
+      ["fill","Completa: \"Dire 'prometto' ad alta voce non basta; devono anche essere soddisfatte certe ___ perché la promessa sia valida.\"",["condizioni di felicità","regole grammaticali","norme ortografiche","domande retoriche"],0,"Le \"condizioni di felicità\" sono i requisiti contestuali (sincerità, capacità, ecc.) perché un atto linguistico funzioni correttamente."],
+      ["translate","Traduci con precisione tecnica: \"Questo è un atto linguistico indiretto: la sua forma letterale non corrisponde alla sua funzione intesa.\"",["This is an indirect speech act: its literal form doesn't match its intended function.","This is indirect speech act literal form doesn't match function.","It's a speech act this indirect that doesn't match literal function.","This speech act is indirect its form doesn't function match."],0,"\"Atto linguistico indiretto\" = \"indirect speech act\"; \"forma letterale\" = \"literal form\"; \"funzione intesa\" = \"intended function\"."],
+      ["mcq","Quale di questi enunciati implica qualcosa senza dirlo esplicitamente?",["\"Alcuni studenti hanno superato l'esame.\" (implica che non tutti l'hanno superato)","\"Tutti gli studenti hanno superato l'esame.\"","\"L'esame era lunedì alle nove.\"","\"Ci sono trenta studenti in classe.\""],0,"\"Alcuni\" implica pragmaticamente \"non tutti\", anche se non lo afferma letteralmente; è un'implicatura conversazionale classica."],
+      ["writing","Scrivi in italiano 55-75 parole analizzando un atto linguistico indiretto di una conversazione quotidiana (reale o inventata): cosa è stato detto letteralmente, quale funzione pragmatica svolgeva in realtà, e come l'hai capito dal contesto.",[],["atto linguistico","letteralmente","in realtà"],"Distingui esplicitamente tra la forma grammaticale letterale dell'enunciato e la sua funzione pragmatica reale."]
+    ]
+  },
+  {
+    id:"it_a1_animals_nature", level:"A1", title:"Gli animali e la natura", emoji:"🐾", xp:36,
+    description:"Impara il vocabolario degli animali comuni e della natura in italiano.",
+    study: {
+      vocab: [
+        ["il cane", "the dog"],
+        ["il gatto", "the cat"],
+        ["l'uccello", "the bird"],
+        ["il cavallo", "the horse"],
+        ["il pesce", "the fish"],
+        ["la mucca", "the cow"],
+        ["il bosco, la montagna, il fiume", "the forest, the mountain, the river"],
+      ],
+      grammar: [
+        ["Il genere degli animali", "Molti nomi di animali cambiano forma secondo il genere, ma altri sono invariabili.", "Il gatto è bianco. / La gatta è bianca. / Il pesce è piccolo (invariabile)."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il cavallo” in inglese?",["the bird", "the horse", "the dog", "the cat"],1,"“Cavallo” si dice “horse” in inglese."],
+      ["mcq","Come si dice “l'uccello” in inglese?",["the fish", "the cow", "the bird", "the dog"],2,"“Uccello” si dice “bird” in inglese."],
+      ["fill","Completa: “Mi piace fare una passeggiata nel ___ la domenica.”",["pesce", "bosco", "gatto", "mucca"],1,"“Fare una passeggiata nel bosco” è un'attività tipica nella natura."],
+      ["translate","Traduci: “The dog is very friendly.”",["Il cavallo è molto simpatico.", "L'uccello è molto simpatico.", "Il gatto è molto simpatico.", "Il cane è molto simpatico."],3,"“The dog” = “il cane”; “friendly” = “simpatico”."],
+      ["arrange","Metti in ordine: [nero / ho / gatto / un]",["nero un Ho gatto", "un Ho gatto nero", "un gatto nero Ho", "Ho un gatto nero"],3,"Soggetto implicito + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi in italiano 20-30 parole su un animale che ti piace e un posto nella natura che ti piace visitare.",[],["mi piace", "il bosco", "l'animale"]],
+    ]
+  },
+  {
+    id:"it_a2_body_parts", level:"A2", title:"Il corpo umano: le parti del corpo", emoji:"🦴", xp:46,
+    description:"Impara le parti del corpo e a descrivere dolori o caratteristiche fisiche in italiano.",
+    study: {
+      vocab: [
+        ["la testa", "the head"],
+        ["il braccio", "the arm"],
+        ["la gamba", "the leg"],
+        ["la mano", "the hand"],
+        ["il piede", "the foot"],
+        ["la schiena", "the back"],
+      ],
+      grammar: [
+        ["L'articolo determinativo con le parti del corpo", "Con le parti del corpo si usa l'articolo determinativo, non il possessivo, quando è chiaro di chi si parla.", "Mi fa male la testa. (non “Mi fa male la mia testa”)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la schiena” in inglese?",["the head", "the leg", "the hand", "the back"],3,"“Schiena” si dice “back” in inglese."],
+      ["mcq","Come si dice “il piede” in inglese?",["the arm", "the head", "the foot", "the hand"],2,"“Piede” si dice “foot” in inglese."],
+      ["fill","Completa: “Mi fa molto male la ___ dopo aver corso.”",["gamba", "mano", "schiena", "testa"],2,"Correre causa spesso mal di schiena se non ci si scalda bene."],
+      ["translate","Traduci: “My hand hurts.”",["Mi fa male la gamba.", "Mi fa male il braccio.", "Mi fa male il piede.", "Mi fa male la mano."],3,"“My hand hurts” = “Mi fa male la mano”, con l'articolo determinativo."],
+      ["arrange","Metti in ordine: [gamba / fa / la / mi / male]",["Mi fa male la gamba", "gamba la fa male Mi", "fa Mi male gamba la", "la fa gamba Mi male"],0,"“Mi fa male” + articolo + parte del corpo."],
+      ["speaking","Descrivi in italiano, in 40-60 parole, un dolore che hai avuto: quale parte del corpo ti faceva male e cosa hai fatto.",[],["mi faceva male", "la gamba", "sono andato/a dal medico"]],
+    ]
+  },
+  {
+    id:"it_b1_sports_fitness", level:"B1", title:"Lo sport e l'attività fisica", emoji:"🏃", xp:60,
+    description:"Parla di sport, routine di esercizio e abitudini di attività fisica in italiano.",
+    study: {
+      vocab: [
+        ["il calcio", "soccer/football"],
+        ["il nuoto", "swimming"],
+        ["il tennis", "tennis"],
+        ["correre", "to run"],
+        ["sollevare pesi", "to lift weights"],
+        ["fare yoga", "to do yoga"],
+      ],
+      grammar: [
+        ["“Solitamente” + presente per le abitudini", "“Solitamente” con il presente esprime un'azione abituale.", "Corro solitamente tre volte a settimana."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “sollevare pesi” in inglese?",["to lift weights", "to do yoga", "swimming", "to run"],0,"“Sollevare pesi” si dice “to lift weights”."],
+      ["mcq","Come si dice “il nuoto” in inglese?",["to run", "swimming", "soccer/football", "tennis"],1,"“Nuoto” si dice “swimming”."],
+      ["fill","Completa: “___ solitamente tre volte a settimana per rimanere in forma.”",["Nuoto", "Tennis", "Calcio", "Corro"],3,"“Solitamente” + presente (“corro”) descrive un'abitudine."],
+      ["translate","Traduci: “I usually do yoga on Sundays.”",["Faccio solitamente yoga il sabato.", "Sollevo solitamente pesi la domenica.", "Gioco solitamente a tennis la domenica.", "Faccio solitamente yoga la domenica."],3,"“I usually do yoga” = “Faccio solitamente yoga”; “on Sundays” = “la domenica”."],
+      ["arrange","Metti in ordine: [forma / rimanere / in / per / corro]",["forma in rimanere per Corro", "rimanere Corro in forma per", "Corro per rimanere in forma", "per forma Corro rimanere in"],2,"Soggetto + verbo + “per” + infinito + complemento."],
+      ["writing","Scrivi in italiano 45-65 parole sul tuo rapporto con lo sport: quale attività pratichi, con che frequenza e perché ti piace (o no).",[],["solitamente", "rimanere in forma", "pratico"]],
+    ]
+  },
+  {
+    id:"it_b2_smart_home_tech", level:"B2", title:"La casa intelligente: domotica e dispositivi", emoji:"💡", xp:82,
+    description:"Parla di dispositivi intelligenti e domotica, con opinioni sfumate in italiano.",
+    study: {
+      vocab: [
+        ["un altoparlante intelligente", "a smart speaker"],
+        ["un termostato programmabile", "a programmable thermostat"],
+        ["una telecamera di sicurezza", "a security camera"],
+        ["controllare con la voce", "to control by voice"],
+        ["automatizzare le faccende domestiche", "to automate household tasks"],
+        ["un rischio per la privacy", "a privacy risk"],
+      ],
+      grammar: [
+        ["Il futuro semplice per le previsioni tecnologiche", "Il futuro semplice descrive previsioni ragionevoli su come si evolverà la tecnologia.", "Tra qualche anno, più case avranno dispositivi connessi."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un rischio per la privacy” in inglese?",["a privacy risk", "a security camera", "a thermostat", "a smart speaker"],0,"“Rischio per la privacy” si dice “privacy risk”."],
+      ["mcq","Come si dice “automatizzare le faccende domestiche” in inglese?",["to automate household tasks", "a privacy risk", "to control by voice", "a smart speaker"],0,"“Automatizzare le faccende domestiche” si dice “to automate household tasks”."],
+      ["fill","Completa: “Un termostato programmabile può ___ energia se è configurato bene.”",["perdere", "rompere", "risparmiare", "sprecare"],2,"Un termostato ben configurato aiuta a risparmiare energia, non a sprecarla."],
+      ["translate","Traduci: “Gli altoparlanti intelligenti si possono controllare con la voce.”",["Thermostats can be controlled by text.", "Security cameras can be controlled by voice.", "Smart speakers can be controlled by voice.", "Smart speakers can be controlled by text."],2,"“Controllare con la voce” = “controlled by voice”."],
+      ["arrange","Metti in ordine: [privacy / può / rischio / rappresentare / un / per la]",["rappresentare la Può per un privacy rischio", "Può rappresentare un rischio per la privacy", "Può la un rappresentare privacy rischio per", "per la rappresentare Può un rischio privacy"],1,"Verbo + “rappresentare” + oggetto: “Può rappresentare un rischio per la privacy.”"],
+      ["writing","Scrivi in italiano 55-75 parole su un dispositivo intelligente che useresti (o usi già) in casa: quale vantaggio ti offre e quale rischio per la privacy potrebbe avere.",[],["automatizzare", "rischio per la privacy", "con la voce"]],
+    ]
+  },
+  {
+    id:"it_c1_workplace_communication", level:"C1", title:"Il mondo del lavoro: riunioni e corrispondenza", emoji:"🤝", xp:90,
+    description:"Padroneggia il vocabolario e le formule tipiche di riunioni ed email professionali in italiano.",
+    study: {
+      vocab: [
+        ["convocare una riunione", "to call a meeting"],
+        ["allegare un documento", "to attach a document"],
+        ["restiamo in attesa di un suo riscontro", "we look forward to your response"],
+        ["riprendere un punto in sospeso", "to follow up on a pending item"],
+        ["raggiungere un accordo", "to reach an agreement"],
+        ["rinviare una riunione", "to postpone a meeting"],
+      ],
+      grammar: [
+        ["Formule di cortesia nelle email formali", "Formule fisse come “Restiamo in attesa di un suo riscontro” danno una chiusura professionale senza suonare brusche.", "In allegato trova la relazione richiesta. Restiamo in attesa di un suo riscontro."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “raggiungere un accordo” in inglese?",["to call a meeting", "to postpone a meeting", "to attach a document", "to reach an agreement"],3,"“Raggiungere un accordo” si dice “to reach an agreement”."],
+      ["mcq","Come si dice “rinviare una riunione” in inglese?",["to call a meeting", "to reach an agreement", "to attach a document", "to postpone a meeting"],3,"“Rinviare una riunione” si dice “to postpone a meeting”."],
+      ["fill","Completa: “Prima di chiudere la riunione, vorrei ___ un punto in sospeso della settimana scorsa.”",["allegare", "riprendere", "convocare", "rinviare"],1,"“Riprendere un punto in sospeso” significa tornare a trattarlo."],
+      ["translate","Traduci: “Ho allegato la relazione richiesta.”",["I'm attaching the requested email.", "I'm calling the requested report.", "I'm postponing the requested report.", "I'm attaching the requested report."],3,"“Ho allegato” = “I'm attaching”; “la relazione richiesta” = “the requested report”."],
+      ["arrange","Metti in ordine: [riscontro / attesa / restiamo / suo / di / un / in]",["un di Restiamo riscontro attesa in suo", "di in attesa un riscontro suo Restiamo", "di riscontro Restiamo un in attesa suo", "Restiamo in attesa di un suo riscontro"],3,"Formula fissa di chiusura di un'email professionale."],
+      ["writing","Scrivi in italiano una breve email professionale (55-75 parole) convocando una riunione, menzionando un punto in sospeso e chiudendo con una formula di cortesia formale.",[],["convoco", "punto in sospeso", "restiamo in attesa"]],
+    ]
+  },
+  {
+    id:"it_c2_register_synonyms", level:"C2", title:"Registro e stile: sinonimi secondo il contesto", emoji:"🔤", xp:98,
+    description:"Scegli il sinonimo adeguato secondo il registro (formale, neutro, colloquiale) in italiano.",
+    study: {
+      vocab: [
+        ["ottenere (formale) / prendere (neutro)", "to obtain / to get"],
+        ["decedere (formale) / morire (neutro) / tirare le cuoia (colloquiale)", "to pass away / to die / to kick the bucket"],
+        ["richiedere (formale) / chiedere (neutro)", "to request / to ask for"],
+        ["risiedere (formale) / vivere / abitare (neutro)", "to reside / to live"],
+        ["tuttavia (formale) / ma (neutro)", "however / but"],
+      ],
+      grammar: [
+        ["Scegliere il registro secondo il contesto comunicativo", "La stessa idea può esprimersi con parole molto diverse a seconda del contesto formale, neutro o colloquiale; usare la parola sbagliata rompe la coerenza del testo.", "In un rapporto: “L'informazione è stata ottenuta.” Tra amici: “L'ho presa.”"],
+      ]
+    },
+    ex:[
+      ["mcq","In un rapporto ufficiale, quale parola è più appropriata per “ottenere informazioni”?",["Ottenere", "Beccare", "Rimediare", "Pescare"],0,"“Ottenere” è il registro formale appropriato per un rapporto ufficiale."],
+      ["mcq","In una conversazione informale tra amici, quale verbo suona più naturale per “morire”?",["Tirare le cuoia", "Decedere", "Perire", "Spirare"],0,"“Tirare le cuoia” è colloquiale e si adatterebbe a una conversazione informale; gli altri sono troppo formali o tecnici."],
+      ["fill","Completa: “In una lettera formale si dice “___, proseguiamo con il progetto”, non “ma”.”",["però", "tuttavia", "comunque", "ma"],1,"“Tuttavia” è il connettivo formale equivalente a “ma”."],
+      ["translate","Traduci con il registro formale corretto: “We reside in Madrid.”",["Stiamo a Madrid.", "Siamo di Madrid.", "Risediamo a Madrid.", "Viviamo a Madrid."],2,"“Reside” in un registro formale si traduce come “risiedere”, non il neutro “vivere”."],
+      ["arrange","Metti in ordine (registro formale): [stata / richiesta / è / l'informazione]",["L'informazione è stata richiesta", "è L'informazione richiesta stata", "è richiesta L'informazione stata", "richiesta L'informazione è stata"],0,"Costruzione passiva, tipica del registro formale/amministrativo."],
+      ["writing","Scrivi in italiano lo stesso messaggio breve (“ho bisogno che tu mi invii il file”) in due registri diversi: uno formale (per un capo) e uno colloquiale (per un amico), in 55-75 parole in totale.",[],["formale", "colloquiale", "richiedo"]],
+    ]
+  },
+  {
+    id:"it_a1_clothing_colors", level:"A1", title:"I vestiti e i colori", emoji:"👕", xp:37,
+    description:"Impara il vocabolario dei vestiti e come abbinarli ai colori in italiano.",
+    study: {
+      vocab: [
+        ["la camicia", "the shirt"],
+        ["i pantaloni", "the pants/trousers"],
+        ["le scarpe", "the shoes"],
+        ["il vestito", "the dress"],
+        ["la giacca", "the jacket"],
+        ["la gonna", "the skirt"],
+        ["rosso, blu, verde, nero, bianco", "red, blue, green, black, white"],
+      ],
+      grammar: [
+        ["Accordo di genere e numero con gli aggettivi di colore", "I colori concordano in genere e numero con il sostantivo che descrivono.", "la camicia rossa / le scarpe nere / il vestito verde"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la giacca” in inglese?",["the pants/trousers", "the skirt", "the shirt", "the jacket"],3,"“Giacca” si dice “jacket” in inglese."],
+      ["mcq","Come si dice “le scarpe” in inglese?",["the shirt", "the shoes", "the skirt", "the dress"],1,"“Scarpe” si dice “shoes” in inglese."],
+      ["fill","Completa: “Indosso una camicia ___ e dei pantaloni neri.”",["bluo", "blui", "blue", "blu"],3,"“Blu” è invariabile in italiano: non cambia con genere o numero."],
+      ["translate","Traduci: “I'm wearing a red dress.”",["Indosso un vestito rosso.", "Indosso scarpe rosse.", "Indosso una camicia rossa.", "Indosso una gonna rossa."],0,"“I'm wearing” = “Indosso”; “a red dress” = “un vestito rosso”."],
+      ["arrange","Metti in ordine: [nere / ho / scarpe / delle]",["delle Ho scarpe nere", "Ho delle scarpe nere", "nere delle Ho scarpe", "delle scarpe Ho nere"],1,"Soggetto implicito + verbo + articolo partitivo + sostantivo + aggettivo."],
+      ["writing","Descrivi in italiano, in 20-30 parole, i vestiti che indossi oggi, menzionando almeno tre capi e i loro colori.",[],["indosso", "di colore", "e"]],
+    ]
+  },
+  {
+    id:"it_a2_fruits_vegetables", level:"A2", title:"Frutta e verdura", emoji:"🥦", xp:47,
+    description:"Impara il vocabolario di frutta e verdura e a parlare di alimentazione sana in italiano.",
+    study: {
+      vocab: [
+        ["la mela", "the apple"],
+        ["la banana", "the banana"],
+        ["la carota", "the carrot"],
+        ["il pomodoro", "the tomato"],
+        ["la lattuga", "the lettuce"],
+        ["l'arancia", "the orange"],
+      ],
+      grammar: [
+        ["Quantificatori: molto/a, poco/a", "Questi quantificatori concordano in genere con il sostantivo e servono per parlare di quantità in modo approssimativo.", "Mangio molta frutta e poca carne."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la carota” in inglese?",["the apple", "the carrot", "the orange", "the banana"],1,"“Carota” si dice “carrot” in inglese."],
+      ["mcq","Come si dice “la banana” in inglese?",["the carrot", "the banana", "the lettuce", "the tomato"],1,"“Banana” si dice “banana” in inglese."],
+      ["fill","Completa: “Mangio ___ frutta ogni giorno per stare in salute.”",["molti", "molte", "molto", "molta"],3,"“Frutta” è femminile singolare, quindi il quantificatore concorda: “molta frutta”."],
+      ["translate","Traduci: “I eat little meat and a lot of vegetables.”",["Mangio molta carne e molta verdura.", "Mangio poca carne e poca verdura.", "Mangio poca frutta e molta verdura.", "Mangio poca carne e molta verdura."],3,"“Little meat” = “poca carne”; “a lot of vegetables” = “molta verdura”."],
+      ["arrange","Metti in ordine: [pomodoro / L'insalata / ha / e / lattuga]",["L'insalata ha pomodoro e lattuga", "e ha L'insalata lattuga pomodoro", "lattuga L'insalata ha e pomodoro", "lattuga pomodoro ha e L'insalata"],0,"Soggetto + verbo + oggetto (due sostantivi uniti da “e”)."],
+      ["speaking","Descrivi in italiano, in 40-60 parole, la tua dieta abituale: quale frutta e verdura mangi normalmente e con che frequenza.",[],["mangio", "spesso", "verdura"]],
+    ]
+  },
+  {
+    id:"it_b1_cooking_recipes", level:"B1", title:"La cucina: verbi e ricette semplici", emoji:"🍳", xp:61,
+    description:"Impara verbi di cucina e a spiegare i passaggi di una ricetta semplice in italiano.",
+    study: {
+      vocab: [
+        ["tagliare, sbucciare", "to cut, to peel"],
+        ["bollire, friggere", "to boil, to fry"],
+        ["mescolare gli ingredienti", "to mix the ingredients"],
+        ["aggiungere sale a piacere", "to add salt to taste"],
+        ["lasciar riposare l'impasto", "to let the dough rest"],
+        ["preriscaldare il forno", "to preheat the oven"],
+      ],
+      grammar: [
+        ["L'imperativo per dare istruzioni di ricetta", "Le ricette usano l'imperativo (formale “Lei” o infinito) per dare istruzioni passo dopo passo.", "Tagli le verdure, faccia bollire l'acqua e aggiunga sale a piacere."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “mescolare gli ingredienti” in inglese?",["to preheat the oven", "to boil, to fry", "to cut, to peel", "to mix the ingredients"],3,"“Mescolare gli ingredienti” si dice “to mix the ingredients”."],
+      ["mcq","Come si dice “preriscaldare il forno” in inglese?",["to preheat the oven", "to add salt to taste", "to let the dough rest", "to cut, to peel"],0,"“Preriscaldare il forno” si dice “to preheat the oven”."],
+      ["fill","Completa: “Prima di infornare, bisogna ___ il forno a 180 gradi.”",["preriscaldare", "bollire", "mescolare", "friggere"],0,"“Preriscaldare il forno” è il passaggio tipico prima di infornare."],
+      ["translate","Traduci: “Let the dough rest for ten minutes.”",["Lasci riposare l'impasto per dieci minuti.", "Lasci friggere l'impasto per dieci minuti.", "Lasci tagliare l'impasto per dieci minuti.", "Lasci bollire l'impasto per dieci minuti."],0,"“Let the dough rest” = “Lasci riposare l'impasto”, con l'imperativo formale."],
+      ["arrange","Metti in ordine: [piacere / sale / aggiunga / a]",["piacere a Aggiunga sale", "sale a piacere Aggiunga", "sale piacere a Aggiunga", "Aggiunga sale a piacere"],3,"Imperativo + oggetto + espressione fissa “a piacere”."],
+      ["writing","Scrivi in italiano 45-65 parole spiegando i passaggi di una ricetta semplice che sai fare, usando almeno tre verbi di cucina all'imperativo.",[],["tagli", "aggiunga", "lasci riposare"]],
+    ]
+  },
+  {
+    id:"it_b2_art_world", level:"B2", title:"Il mondo dell'arte: pittura, musica e cinema", emoji:"🎨", xp:83,
+    description:"Parla di arte, musica e cinema esprimendo opinioni e giudizi sfumati in italiano.",
+    study: {
+      vocab: [
+        ["un capolavoro", "a masterpiece"],
+        ["la messa in scena", "the staging/mise-en-scène"],
+        ["un'interpretazione commovente", "a moving performance"],
+        ["lo stile di un artista", "an artist's style"],
+        ["lasciare un'impressione duratura", "to leave a lasting impression"],
+        ["essere sopravvalutato/sottovalutato", "to be overrated/underrated"],
+      ],
+      grammar: [
+        ["Verbi di opinione + congiuntivo/indicativo secondo la certezza", "“Mi sembra che” + indicativo esprime un'opinione con una certa sicurezza; “non credo che” + congiuntivo esprime dubbio.", "Mi sembra che questo film sia un capolavoro. / Non credo che sia sopravvalutato."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un'interpretazione commovente” in inglese?",["a lasting impression", "an artist's style", "a moving performance", "a masterpiece"],2,"“Un'interpretazione commovente” si dice “a moving performance”."],
+      ["mcq","Come si dice “essere sopravvalutato” in inglese?",["an artist's style", "to leave an impression", "to be overrated", "to be underrated"],2,"“Essere sopravvalutato” si dice “to be overrated”."],
+      ["fill","Completa: “Non credo che questo film ___ così buono come dicono.”",["era", "sia", "è", "sarà"],1,"“Non credo che” richiede il congiuntivo: “che sia”."],
+      ["translate","Traduci: “This performance left a lasting impression on me.”",["Questa interpretazione mi ha lasciato un'impressione duratura.", "Questa interpretazione mi ha lasciato un capolavoro.", "Questa messa in scena mi ha lasciato sopravvalutato.", "Questo stile mi ha lasciato un'impressione duratura."],0,"“Left a lasting impression” = “ha lasciato un'impressione duratura”."],
+      ["arrange","Metti in ordine: [capolavoro / questo / è / un]",["Questo è un capolavoro", "capolavoro è Questo un", "è capolavoro Questo un", "un è capolavoro Questo"],0,"Soggetto + “è” + articolo + sostantivo."],
+      ["writing","Scrivi in italiano 55-75 parole dando la tua opinione su un'opera d'arte, un film o una canzone (reale o inventata): cosa ne pensi e perché, usando almeno una struttura con il congiuntivo di opinione.",[],["mi sembra che", "non credo che", "un'impressione"]],
+    ]
+  },
+  {
+    id:"it_c1_giving_feedback", level:"C1", title:"La critica costruttiva: dare e ricevere feedback", emoji:"🗨️", xp:91,
+    description:"Impara a dare e ricevere feedback in modo costruttivo e professionale in italiano.",
+    study: {
+      vocab: [
+        ["segnalare un punto da migliorare", "to point out an area for improvement"],
+        ["riconoscere i punti di forza prima delle critiche", "to acknowledge strengths before criticism"],
+        ["formulare la critica in termini concreti", "to phrase criticism in concrete terms"],
+        ["essere aperto/a al feedback", "to be open to feedback"],
+        ["prendere la critica sul personale", "to take criticism personally"],
+        ["proporre una soluzione, non solo segnalare il problema", "to propose a solution, not just point out the problem"],
+      ],
+      grammar: [
+        ["Attenuatori per ammorbidire una critica", "Espressioni come “potresti considerare” o “un suggerimento sarebbe” ammorbidiscono una critica senza perdere chiarezza.", "Potresti considerare di ristrutturare il rapporto; un suggerimento sarebbe iniziare con le conclusioni."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “formulare la critica in termini concreti” in inglese?",["to be open to feedback", "to phrase criticism in concrete terms", "to point out an area for improvement", "to take criticism personally"],1,"“Formulare la critica in termini concreti” si dice “to phrase criticism in concrete terms”."],
+      ["mcq","Come si dice “prendere la critica sul personale” in inglese?",["to propose a solution", "to be open to feedback", "to acknowledge strengths", "to take criticism personally"],3,"“Prendere la critica sul personale” si dice “to take criticism personally”."],
+      ["fill","Completa: “Prima di dare una critica, è una buona idea ___ i punti di forza del lavoro.”",["riconoscere", "nascondere", "criticare", "ignorare"],0,"“Riconoscere i punti di forza prima delle critiche” fa sì che il feedback sia accolto meglio."],
+      ["translate","Traduci: “Un suggerimento sarebbe iniziare con le conclusioni.”",["One criticism would be to start with the conclusions.", "One suggestion would be to finish with the conclusions.", "One suggestion would be to start with the conclusions.", "One problem would be to start with the conclusions."],2,"“Un suggerimento sarebbe” = “One suggestion would be to”."],
+      ["arrange","Metti in ordine: [problema / proponi / solo / il / una soluzione / non / segnalare]",["una soluzione problema, Non solo il proponi segnalare", "Non segnalare soluzione problema, proponi una il solo", "soluzione proponi il Non segnalare solo problema, una", "Non segnalare solo il problema, proponi una soluzione"],3,"Struttura di contrasto: “non solo... [verbo]” + “[verbo]... una soluzione”."],
+      ["writing","Scrivi in italiano 55-75 parole dando feedback costruttivo su un lavoro (reale o inventato): riconosci un punto di forza, segnala un punto da migliorare concreto e proponi una soluzione.",[],["riconosco che", "potresti considerare", "un suggerimento sarebbe"]],
+    ]
+  },
+  {
+    id:"it_c2_inclusive_language", level:"C2", title:"Il linguaggio inclusivo e l'evoluzione della lingua", emoji:"🌐", xp:99,
+    description:"Analizza il dibattito sul linguaggio inclusivo e come le lingue si evolvono con la società.",
+    study: {
+      vocab: [
+        ["il linguaggio inclusivo", "inclusive language"],
+        ["una lingua viva si evolve con l'uso", "a living language evolves with use"],
+        ["prescrittivismo contro descrittivismo", "prescriptivism versus descriptivism"],
+        ["un neologismo viene aggiunto al dizionario", "a neologism is added to the dictionary"],
+        ["generare resistenza a un cambiamento linguistico", "to generate resistance to a linguistic change"],
+        ["un argomento non implica necessariamente una posizione politica", "an argument doesn't necessarily imply a political stance"],
+      ],
+      grammar: [
+        ["Presentare un dibattito linguistico senza pregiudizi", "Un'analisi rigorosa separa la descrizione del fenomeno (come cambia la lingua) dalla valutazione personale (se il cambiamento dovrebbe essere adottato o no).", "Dal punto di vista descrittivista, il cambiamento viene documentato senza giudicarlo; da quello prescrittivista, si valuta se convenga normalizzarlo."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “prescrittivismo contro descrittivismo” in inglese?",["inclusive language", "linguistic change", "a neologism", "prescriptivism versus descriptivism"],3,"“Prescrittivismo contro descrittivismo” si dice “prescriptivism versus descriptivism”."],
+      ["mcq","Come si dice “un neologismo viene aggiunto al dizionario” in inglese?",["to generate resistance", "a neologism is added to the dictionary", "a living language evolves with use", "inclusive language"],1,"“Un neologismo viene aggiunto al dizionario” si dice “a neologism is added to the dictionary”."],
+      ["fill","Completa: “Il descrittivismo si concentra sul documentare come parla davvero la gente, non sul dettare come ___ parlare.”",["vuole", "dovrebbe", "suole", "può"],1,"Il descrittivismo descrive l'uso reale, senza dettare norme su come si “dovrebbe” parlare."],
+      ["translate","Traduci con precisione: “Una lingua viva si evolve con l'uso, che ci piaccia o no.”",["A living language evolves without use, whether we like it or not.", "A living language evolves with use, whether we like it or not.", "A dead language evolves with use, whether we like it or not.", "A living language evolves with use, even if it doesn't change."],1,"“Che ci piaccia o no” si traduce idiomaticamente come “whether we like it or not”."],
+      ["arrange","Metti in ordine: [necessariamente / implica / non / una posizione / politica / un argomento]",["Un argomento non implica necessariamente una posizione politica", "necessariamente politica una implica argomento non posizione Un", "implica Un necessariamente posizione argomento politica una non", "posizione una implica argomento necessariamente Un politica non"],0,"Soggetto + negazione + “implica necessariamente” + oggetto."],
+      ["writing","Scrivi in italiano 55-75 parole presentando in modo equilibrato due posizioni su un cambiamento linguistico attuale (reale o inventato), senza schierarti esplicitamente, distinguendo descrizione e valutazione.",[],["da un lato", "dall'altro", "senza necessariamente"]],
+    ]
+  },
+  {
+    id:"it_a1_neighborhood_city", level:"A1", title:"Il quartiere e la città", emoji:"🏙️", xp:38,
+    description:"Impara il vocabolario dei luoghi del quartiere e come dire dove si trovano in italiano.",
+    study: {
+      vocab: [
+        ["la banca", "the bank"],
+        ["il supermercato", "the supermarket"],
+        ["il parco", "the park"],
+        ["la farmacia", "the pharmacy"],
+        ["la biblioteca", "the library"],
+        ["la fermata dell'autobus", "the bus stop"],
+        ["vicino a, lontano da, accanto a", "near, far from, next to"],
+      ],
+      grammar: [
+        ["„C'è / ci sono” + preposizioni di luogo", "„C'è” (there is) e „ci sono” (there are) indicano che qualcosa esiste in un luogo; concordano con il numero. Le preposizioni di luogo indicano dove si trova.", "C'è una farmacia vicino al parco. / La biblioteca è accanto alla banca."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la farmacia” in inglese?",["the park", "the supermarket", "the bank", "the pharmacy"],3,"“Farmacia” si dice “pharmacy” in inglese."],
+      ["mcq","Come si dice “la fermata dell'autobus” in inglese?",["the supermarket", "the library", "the pharmacy", "the bus stop"],3,"“Fermata dell'autobus” si dice “bus stop” in inglese."],
+      ["fill","Completa: “Nel mio quartiere ___ una biblioteca molto grande.”",["è", "sono", "ci sono", "c'è"],3,"“C'è” si usa con un sostantivo singolare per dire che qualcosa esiste: “c'è una biblioteca”."],
+      ["translate","Traduci: “The pharmacy is next to the park.”",["La farmacia è lontana dal parco.", "La banca è accanto al parco.", "La farmacia è vicino alla biblioteca.", "La farmacia è accanto al parco."],3,"“Next to” = “accanto a”; il soggetto e il luogo devono corrispondere all'originale."],
+      ["arrange","Ordina: [supermercato / lontano / il / non / è]",["Il è supermercato non lontano", "Il non è lontano supermercato", "supermercato è Il lontano non", "Il supermercato non è lontano"],3,"Soggetto + verbo + negazione + avverbio di luogo."],
+      ["writing","Descrivi in 20-30 parole il tuo quartiere: quali luoghi ci sono e dove si trovano (usa “c'è/ci sono”, “vicino a” e “lontano da”).",[],["c'è", "vicino a", "lontano da"]],
+    ]
+  },
+  {
+    id:"it_a2_celebrations_holidays", level:"A2", title:"Le celebrazioni e le feste", emoji:"🎉", xp:48,
+    description:"Impara il vocabolario delle feste e a parlare di abitudini con „solere”.",
+    study: {
+      vocab: [
+        ["il compleanno", "the birthday"],
+        ["il matrimonio", "the wedding"],
+        ["il Natale", "Christmas"],
+        ["il Capodanno", "New Year"],
+        ["celebrare, festeggiare", "to celebrate"],
+        ["fare un regalo", "to give a gift"],
+      ],
+      grammar: [
+        ["„Solere” + infinito per parlare di abitudini", "„Solere” + infinito esprime ciò che si fa abitualmente; si usa soprattutto al presente e all'imperfetto.", "Sogliamo riunirci con la famiglia a Natale. / Da bambino, solevo festeggiare il compleanno al parco."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “fare un regalo” in inglese?",["to give a gift", "the birthday", "to celebrate", "New Year"],0,"“Fare un regalo” si dice “to give a gift” in inglese."],
+      ["mcq","Come si dice “il matrimonio” in inglese?",["to celebrate", "Christmas", "the wedding", "New Year"],2,"“Matrimonio” si dice “wedding” in inglese."],
+      ["fill","Completa: “Ogni Capodanno, ___ festeggiare con tutta la famiglia.”",["abbiamo", "facciamo", "siamo", "sogliamo"],3,"„Solere” + infinito esprime un'abitudine: „sogliamo festeggiare”."],
+      ["translate","Traduci: “We usually give gifts at Christmas.”",["Sogliamo fare regali al compleanno.", "Sogliamo festeggiare regali a Natale.", "Sogliamo fare regali a Natale.", "Facciamo un regalo a Natale."],2,"“We usually give gifts” = “Sogliamo fare regali”, con „solere” + infinito."],
+      ["arrange","Ordina: [compleanno / festeggio / il / mio / con amici]",["amici Festeggio compleanno con mio il", "Festeggio amici compleanno il con mio", "Festeggio il mio amici con compleanno", "Festeggio il mio compleanno con amici"],3,"Verbo + oggetto possessivo + preposizione + complemento."],
+      ["speaking","Descrivi in 40-60 parole come soli festeggiare una festa importante per te (compleanno, Natale, Capodanno o altro), usando „solere”.",[],["soglio", "festeggio", "con"]],
+    ]
+  },
+  {
+    id:"it_b1_relationships_friendship", level:"B1", title:"Le relazioni personali e l'amicizia", emoji:"🤝", xp:62,
+    description:"Impara vocabolario sull'amicizia e a dare consigli con „dovere”.",
+    study: {
+      vocab: [
+        ["fidarsi di qualcuno", "to trust someone"],
+        ["andare d'accordo/male con qualcuno", "to get along well/badly with someone"],
+        ["avere qualcosa in comune", "to have something in common"],
+        ["rimanere in contatto", "to keep in touch"],
+        ["un amico/un'amica fidato/a", "a close/trustworthy friend"],
+        ["fare pace dopo una litigata", "to make up after an argument"],
+      ],
+      grammar: [
+        ["Consigli con „dovere” al condizionale e all'indicativo", "„Dovresti” (condizionale di „dovere”) dà un consiglio delicato; „devi” (indicativo) esprime un obbligo più forte.", "Dovresti rimanere in contatto con i tuoi amici. / Dovete fare pace se volete restare amici."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “andare d'accordo con qualcuno” in inglese?",["to keep in touch", "a close/trustworthy friend", "to get along well/badly with someone", "to have something in common"],2,"“Andare d'accordo con qualcuno” si dice “to get along well with someone” in inglese."],
+      ["mcq","Come si dice “fare pace dopo una litigata” in inglese?",["a close/trustworthy friend", "to make up after an argument", "to get along well/badly with someone", "to trust someone"],1,"“Fare pace dopo una litigata” si dice “to make up after an argument” in inglese."],
+      ["fill","Completa: “Se vuoi mantenere quest'amicizia, ___ rimanere in contatto.”",["dovresti", "dovrai", "dovevi", "devi di"],0,"„Dovresti” (condizionale di „dovere”) dà un consiglio delicato in seconda persona."],
+      ["translate","Traduci: “You have to trust your friends.”",["Devi fidarti della tua famiglia.", "Devi andare d'accordo con i tuoi amici.", "Devi fidarti dei tuoi amici.", "Dovresti fidarti dei tuoi amici."],2,"“You have to trust” = “Devi fidarti”, con „dovere” + infinito."],
+      ["arrange","Ordina: [comune / molto / abbiamo / in]",["in molto comune Abbiamo", "molto comune in Abbiamo", "comune in molto Abbiamo", "Abbiamo molto in comune"],3,"Verbo + quantificatore + preposizione fissa „in comune”."],
+      ["writing","Scrivi 45-65 parole su un'amicizia importante per te: cosa avete in comune e quale consiglio daresti a chi vuole mantenere un'amicizia così.",[],["abbiamo in comune", "dovresti", "fidarsi"]],
+    ]
+  },
+  {
+    id:"it_b2_remote_work_balance", level:"B2", title:"Il lavoro da remoto e l'equilibrio vita-lavoro", emoji:"💻", xp:84,
+    description:"Parla del lavoro da remoto e della conciliazione vita-lavoro usando il gerundio in italiano.",
+    study: {
+      vocab: [
+        ["lavorare da remoto", "to work remotely"],
+        ["l'orario flessibile", "flexible working hours"],
+        ["la disconnessione digitale", "digital disconnection"],
+        ["il burnout", "burnout"],
+        ["conciliare la vita lavorativa e personale", "to balance work and personal life"],
+        ["essere produttivo/a", "to be productive"],
+      ],
+      grammar: [
+        ["Il gerundio per esprimere simultaneità o causa", "Il gerundio (-ando/-endo) esprime un'azione simultanea a un'altra o la sua causa, senza bisogno di congiunzione.", "Lavorando da casa, si risparmia tempo di spostamento. / Molti soffrono di burnout lavorando senza mai disconnettersi."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la disconnessione digitale” in inglese?",["digital disconnection", "burnout", "to work remotely", "to be productive"],0,"“Disconnessione digitale” si dice “digital disconnection” in inglese."],
+      ["mcq","Come si dice “conciliare la vita lavorativa e personale” in inglese?",["flexible working hours", "to balance work and personal life", "digital disconnection", "to work remotely"],1,"“Conciliare la vita lavorativa e personale” si dice “to balance work and personal life” in inglese."],
+      ["fill","Completa: “___ da casa, molte persone riescono a conciliare meglio la vita lavorativa e personale.”",["Lavori", "Lavorato", "Lavorare", "Lavorando"],3,"Il gerundio (“lavorando”) esprime la circostanza che permette il risultato che segue."],
+      ["translate","Traduci: “Working without disconnecting can lead to burnout.”",["Disconnettendosi dal lavoro, si può arrivare al burnout.", "Lavorando con orario flessibile, si può arrivare al burnout.", "Lavorare senza disconnettersi può evitare il burnout.", "Lavorando senza disconnettersi, si può arrivare al burnout."],3,"Il gerundio “lavorando senza disconnettersi” esprime la causa del burnout."],
+      ["arrange","Ordina: [flessibile / apprezzano / un / molti / orario]",["Molti apprezzano un orario flessibile", "un apprezzano orario flessibile Molti", "Molti apprezzano orario un flessibile", "apprezzano un Molti orario flessibile"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole sui vantaggi e gli svantaggi del lavoro da remoto per l'equilibrio vita-lavoro, usando almeno un gerundio di simultaneità o causa.",[],["lavorando", "conciliare", "tuttavia"]],
+    ]
+  },
+  {
+    id:"it_c1_negotiation_conflict", level:"C1", title:"La negoziazione e la risoluzione dei conflitti", emoji:"🤝", xp:92,
+    description:"Impara a negoziare e ad ammorbidire proposte con il condizionale in un registro formale.",
+    study: {
+      vocab: [
+        ["raggiungere un accordo", "to reach an agreement"],
+        ["fare concessioni", "to give ground/make concessions"],
+        ["un punto morto", "a deadlock/stalemate"],
+        ["una posizione intransigente", "an inflexible/uncompromising stance"],
+        ["cercare un compromesso", "to look for a middle ground"],
+        ["rompere il ghiaccio", "to break the ice"],
+      ],
+      grammar: [
+        ["Il condizionale per ammorbidire le proposte", "Il condizionale semplice ammorbidisce richieste e proposte durante una negoziazione, dando un'impressione di maggiore cortesia e flessibilità.", "Sarebbe disposto a fare concessioni su questo punto? / Sarebbe preferibile cercare un compromesso prima di arrivare a un punto morto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un punto morto” in inglese?",["to look for a middle ground", "a deadlock/stalemate", "to give ground/make concessions", "to break the ice"],1,"“Un punto morto” si dice “a deadlock” o “stalemate” in inglese."],
+      ["mcq","Come si dice “una posizione intransigente” in inglese?",["to reach an agreement", "an inflexible/uncompromising stance", "to break the ice", "a deadlock/stalemate"],1,"“Una posizione intransigente” si dice “an inflexible/uncompromising stance” in inglese."],
+      ["fill","Completa: “___ preferibile cercare un compromesso prima di arrivare a un punto morto.”",["Fu", "Sarebbe", "È", "Sarà"],1,"Il condizionale “sarebbe” ammorbidisce l'affermazione, tipico del registro di negoziazione formale."],
+      ["translate","Traduci in registro formale: “Would you be willing to make concessions on this point?”",["Sarebbe disposto a raggiungere un accordo su questo punto?", "Sarebbe disposto a fare concessioni su questo punto?", "È disposto a fare concessioni su questo punto?", "Sarebbe disposto a rompere il ghiaccio su questo punto?"],1,"Il condizionale “sarebbe disposto” ammorbidisce la domanda, più formale del presente “è disposto”."],
+      ["arrange","Ordina: [accordo / difficile / raggiungere / sarà / un]",["Sarà un raggiungere accordo difficile", "raggiungere Sarà accordo un difficile", "raggiungere difficile accordo Sarà un", "Sarà difficile raggiungere un accordo"],3,"Futuro + aggettivo + infinito + complemento."],
+      ["writing","Scrivi 55-75 parole descrivendo una negoziazione (reale o inventata) in cui entrambe le parti hanno fatto concessioni per evitare un punto morto, usando almeno due condizionali di cortesia.",[],["sarebbe", "sarebbe disposto", "compromesso"]],
+    ]
+  },
+  {
+    id:"it_c2_corporate_euphemism", level:"C2", title:"Il linguaggio aziendale e l'eufemismo", emoji:"🏢", xp:100,
+    description:"Analizza l'eufemismo nel linguaggio aziendale e pratica i connettivi di riformulazione.",
+    study: {
+      vocab: [
+        ["un eufemismo", "a euphemism"],
+        ["il gergo aziendale", "corporate jargon"],
+        ["una ristrutturazione (eufemismo per licenziamenti)", "a restructuring (euphemism for layoffs)"],
+        ["attenuare l'impatto di un messaggio", "to soften the impact of a message"],
+        ["un anglicismo inutile", "an unnecessary anglicism"],
+        ["diluire la responsabilità di qualcuno", "to dilute someone's responsibility"],
+      ],
+      grammar: [
+        ["Connettivi di riformulazione e precisazione", "Espressioni come “cioè”, “in altre parole” o “detto altrimenti” riformulano un'idea, spesso per attenuarla o precisarla — fondamentali per riconoscere gli eufemismi.", "L'azienda ha annunciato una “ristrutturazione”, cioè licenziamenti. / In altre parole: ridurranno il personale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “diluire la responsabilità di qualcuno” in inglese?",["to dilute someone's responsibility", "a euphemism", "corporate jargon", "an unnecessary anglicism"],0,"“Diluire la responsabilità di qualcuno” si dice “to dilute someone's responsibility” in inglese."],
+      ["mcq","Come si dice “una ristrutturazione (eufemismo per licenziamenti)” in inglese?",["an unnecessary anglicism", "a euphemism", "a restructuring (euphemism for layoffs)", "corporate jargon"],2,"“Ristrutturazione” si dice “restructuring” in inglese, eufemismo abituale di “layoffs” (licenziamenti)."],
+      ["fill","Completa: “L'azienda parla di “ottimizzazione delle risorse”, ___ , di licenziamenti.”",["per esempio", "sebbene", "tuttavia", "cioè"],3,"“Cioè” riformula l'espressione eufemistica con il suo significato letterale."],
+      ["translate","Traduci con precisione: “Corporate jargon often softens the impact of bad news.”",["Il gergo aziendale spesso diluisce l'impatto delle cattive notizie.", "Un eufemismo spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso attenua l'impatto delle cattive notizie.", "Il gergo aziendale spesso evita l'impatto delle cattive notizie."],2,"“Softens the impact” = “attenua l'impatto”; il soggetto deve essere “il gergo aziendale”."],
+      ["arrange","Ordina: [licenziamenti / eufemismo / ristrutturazione / un / di / è]",["Ristrutturazione è un eufemismo di licenziamenti", "un eufemismo licenziamenti di è Ristrutturazione", "un eufemismo Ristrutturazione di licenziamenti è", "licenziamenti è Ristrutturazione eufemismo di un"],0,"Soggetto + verbo + articolo + sostantivo + preposizione + complemento."],
+      ["writing","Scrivi 55-75 parole analizzando un eufemismo aziendale reale o inventato: cosa nasconde, perché si usa e come lo riformuleresti con più chiarezza, usando almeno un connettivo di riformulazione.",[],["cioè", "eufemismo", "in altre parole"]],
+    ]
+  },
+  {
+    id:"it_a1_airport_hotel", level:"A1", title:"All'aeroporto e in albergo", emoji:"✈️", xp:38,
+    description:"Impara il vocabolario di viaggio e a parlare di piani immediati con „andare a + infinito”.",
+    study: {
+      vocab: [
+        ["il passaporto", "the passport"],
+        ["la valigia", "the suitcase"],
+        ["il volo", "the flight"],
+        ["la camera", "the room"],
+        ["la prenotazione", "the booking"],
+        ["fare il check-in dei bagagli", "to check in luggage"],
+      ],
+      grammar: [
+        ["„Andare a” + infinito per il futuro prossimo", "„Andare a” + infinito esprime un piano o un'azione che sta per accadere, molto usato nel parlato quotidiano.", "Vado a fare il check-in dei bagagli. / Andiamo a prenotare una camera per venerdì."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il passaporto” in inglese?",["the suitcase", "the booking", "the passport", "to check in luggage"],2,"“Passaporto” si dice “passport” in inglese."],
+      ["mcq","Come si dice “fare il check-in dei bagagli” in inglese?",["the booking", "the flight", "to check in luggage", "the passport"],2,"“Fare il check-in dei bagagli” si dice “to check in luggage” in inglese."],
+      ["fill","Completa: “Domani ___ a fare il check-in dei bagagli molto presto.”",["sono andato", "vado a", "vado", "andrò a"],2,"„Andare a” + infinito: „vado a fare”, nello spazio va solo il verbo „andare” coniugato."],
+      ["translate","Traduci: “We are going to book a room for Friday.”",["Andiamo a fare il check-in di una camera per venerdì.", "Andiamo a prenotare una camera per venerdì.", "Andiamo a prenotare un volo per venerdì.", "Andiamo a prenotare una camera per lunedì."],1,"“We are going to book” = “Andiamo a prenotare”, con „andare a” + infinito."],
+      ["arrange","Ordina: [passaporto / vado / mio / a / cercare]",["mio Vado cercare passaporto a", "Vado a cercare mio passaporto", "a Vado passaporto mio cercare", "cercare passaporto Vado mio a"],1,"Verbo „andare a” + infinito + oggetto possessivo."],
+      ["writing","Descrivi in 20-30 parole i tuoi piani di viaggio: cosa stai per fare (check-in bagagli, prenotare camera, ecc.) usando „andare a + infinito”.",[],["vado a", "andiamo a", "prenotare"]],
+    ]
+  },
+  {
+    id:"it_a2_everyday_tech", level:"A2", title:"La tecnologia della vita quotidiana", emoji:"📱", xp:48,
+    description:"Impara il vocabolario della tecnologia quotidiana e a comparare con „tanto...quanto” e „più...di”.",
+    study: {
+      vocab: [
+        ["il wifi", "the wifi"],
+        ["la password", "the password"],
+        ["l'app", "the app"],
+        ["caricare il cellulare", "to charge the phone"],
+        ["scaricare", "to download"],
+        ["la batteria", "the battery"],
+      ],
+      grammar: [
+        ["Comparativi di uguaglianza e maggioranza", "„Tanto/così + aggettivo + quanto” compara qualità uguali; „più + aggettivo + di/che” compara una superiorità.", "Questa app è tanto veloce quanto l'altra. / La mia batteria dura più della tua."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la password” in inglese?",["the wifi", "to download", "the password", "the app"],2,"“Password” si dice “password” in inglese."],
+      ["mcq","Come si dice “scaricare” in inglese?",["the password", "the battery", "to download", "to charge the phone"],2,"“Scaricare” si dice “download” in inglese."],
+      ["fill","Completa: “Questa app è ___ veloce quanto l'altra.”",["meno", "molto", "più", "tanto"],3,"„Tanto + aggettivo + quanto” compara due cose con la stessa qualità."],
+      ["translate","Traduci: “My battery lasts longer than yours.”",["Il mio wifi dura più della tua.", "La mia batteria dura tanto quanto la tua.", "La mia batteria dura meno della tua.", "La mia batteria dura più della tua."],3,"“Lasts longer than” = “dura più di”, comparativo di maggioranza."],
+      ["arrange","Ordina: [password / bisogno / una / più / ho / sicura]",["Ho una sicura password bisogno più", "Ho sicura bisogno più una password", "una più bisogno sicura password Ho", "Ho bisogno una password più sicura"],3,"Verbo + articolo + sostantivo + comparativo + aggettivo."],
+      ["speaking","Descrivi in 40-60 parole come usi la tecnologia ogni giorno, comparando due app o dispositivi con „tanto...quanto” o „più...di”.",[],["tanto...quanto", "più...di", "app"]],
+    ]
+  },
+  {
+    id:"it_b1_digital_entertainment", level:"B1", title:"Il tempo libero digitale: serie e videogiochi", emoji:"🎮", xp:62,
+    description:"Impara il vocabolario dell'intrattenimento digitale e a esprimere la durata con „stare + gerundio + da”.",
+    study: {
+      vocab: [
+        ["la serie", "the series/show"],
+        ["il videogioco", "the video game"],
+        ["la piattaforma di streaming", "the streaming platform"],
+        ["appassionarsi a qualcosa", "to get hooked on something"],
+        ["la maratona di serie", "binge-watching"],
+        ["i sottotitoli", "the subtitles"],
+      ],
+      grammar: [
+        ["„Da” + tempo con il presente per esprimere la durata", "„Presente + da + tempo” esprime da quanto tempo un'azione continua, simile a „to have been doing something”.", "Guardo questa serie da due ore. / Giochiamo ai videogiochi da tutto il weekend."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “appassionarsi a qualcosa” in inglese?",["to get hooked on something", "the streaming platform", "the subtitles", "the video game"],0,"“Appassionarsi a qualcosa” si dice “to get hooked on something” in inglese."],
+      ["mcq","Come si dice “la maratona di serie” in inglese?",["the streaming platform", "to get hooked on something", "binge-watching", "the subtitles"],2,"“Maratona di serie” si dice “binge-watching” in inglese."],
+      ["fill","Completa: “Guardo questa serie ___ due ore senza fermarmi.”",["da", "per", "fa", "in"],0,"„Presente + da + tempo” esprime la durata di un'azione in corso: „guardo da due ore”."],
+      ["translate","Traduci: “We have been playing video games all weekend.”",["Giochiamo alle serie da tutto il weekend.", "Abbiamo giocato ai videogiochi tutto il weekend.", "Guardiamo ai videogiochi da tutto il weekend.", "Giochiamo ai videogiochi da tutto il weekend."],3,"“Have been playing all weekend” = “Giochiamo da tutto il weekend”, con „presente + da”."],
+      ["arrange","Ordina: [appassionato / mi / sono / a questa serie]",["Mi sono serie questa a appassionato", "a serie sono appassionato Mi questa", "appassionato serie a Mi sono questa", "Mi sono appassionato a questa serie"],3,"Soggetto riflessivo + verbo + preposizione + complemento."],
+      ["writing","Scrivi 45-65 parole su una serie o un videogioco a cui ti sei appassionato, usando „presente + da” per dire da quanto tempo.",[],["da", "appassionato", "piattaforma"]],
+    ]
+  },
+  {
+    id:"it_b2_cybersecurity_privacy", level:"B2", title:"La cybersicurezza e la privacy online", emoji:"🔒", xp:84,
+    description:"Parla di cybersicurezza usando le frasi relative determinative ed esplicative.",
+    study: {
+      vocab: [
+        ["la cybersicurezza", "cybersecurity"],
+        ["violare un sistema", "to hack a system"],
+        ["i dati personali", "personal data"],
+        ["una password sicura", "a strong password"],
+        ["il furto di identità", "identity theft/phishing"],
+        ["crittografare le informazioni", "to encrypt information"],
+      ],
+      grammar: [
+        ["Frasi relative determinative ed esplicative", "Le determinative (senza virgole) identificano di cosa si parla e non si possono omettere; le esplicative (tra virgole) aggiungono informazione extra e si possono omettere.", "I dati che condividiamo online possono essere violati. (determinativa) / I miei dati, che condivido poco, sono ben protetti. (esplicativa)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il furto di identità” in inglese?",["personal data", "to hack a system", "identity theft/phishing", "cybersecurity"],2,"“Furto di identità” si dice “identity theft” o “phishing” in inglese."],
+      ["mcq","Come si dice “crittografare le informazioni” in inglese?",["identity theft/phishing", "a strong password", "to encrypt information", "cybersecurity"],2,"“Crittografare le informazioni” si dice “to encrypt information” in inglese."],
+      ["fill","Completa: “I dati ___ condividiamo online possono essere violati.”",["quali", "che", "chi", "cui"],1,"La frase determinativa usa „che” senza virgole per identificare di quali dati si parla."],
+      ["translate","Traduci: “My data, which I rarely share, is well protected.”",["I miei dati che condivido poco sono ben protetti.", "I miei dati, che condivido poco, sono ben protetti.", "I miei dati, che condivido poco, sono mal protetti.", "I miei dati, che violo poco, sono ben protetti."],1,"La virgola indica un'esplicativa: „i miei dati, che condivido poco,” aggiunge informazione extra."],
+      ["arrange","Ordina: [sicura / bisogno / di / una / password / hai]",["sicura Hai di bisogno password una", "di una password bisogno sicura Hai", "Hai bisogno di una password sicura", "bisogno una password Hai di sicura"],2,"Verbo + preposizione + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su come proteggi i tuoi dati personali online, usando almeno una relativa determinativa e una esplicativa.",[],["che", "il/la quale", "dati personali"]],
+    ]
+  },
+  {
+    id:"it_c1_historical_memory_heritage", level:"C1", title:"La memoria storica e il patrimonio culturale", emoji:"🏛️", xp:92,
+    description:"Analizza la memoria storica e il patrimonio culturale con „essere + participio” per gli stati risultanti.",
+    study: {
+      vocab: [
+        ["il patrimonio culturale", "cultural heritage"],
+        ["preservare la memoria storica", "to preserve historical memory"],
+        ["un monumento commemorativo", "a memorial"],
+        ["l'eredità", "the legacy"],
+        ["riscrivere la storia", "to rewrite history"],
+        ["l'identità collettiva", "collective identity"],
+      ],
+      grammar: [
+        ["„Essere + participio” per lo stato risultante", "„Essere” + participio descrive lo stato risultante di un'azione passata, come un aggettivo, a differenza del passivo che descrive l'azione stessa.", "Il monumento è dedicato alle vittime. / La storia è segnata da conflitti interni."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “l'eredità” in inglese?",["to preserve historical memory", "a memorial", "the legacy", "cultural heritage"],2,"“Eredità” si dice “legacy” in inglese."],
+      ["mcq","Come si dice “riscrivere la storia” in inglese?",["cultural heritage", "collective identity", "the legacy", "to rewrite history"],3,"“Riscrivere la storia” si dice “to rewrite history” in inglese."],
+      ["fill","Completa: “Il monumento ___ dedicato alle vittime del conflitto.”",["sia", "era", "è", "viene"],2,"„Essere + participio” descrive lo stato risultante: „il monumento è dedicato”."],
+      ["translate","Traduci: “Collective identity is often shaped by historical memory.”",["Il patrimonio culturale è spesso segnato dalla memoria storica.", "L'identità collettiva viene spesso segnata dalla memoria storica.", "L'identità collettiva è spesso segnata dall'eredità storica.", "L'identità collettiva è spesso segnata dalla memoria storica."],3,"“Is shaped by” come stato risultante si traduce con „è segnata da”."],
+      ["arrange","Ordina: [patrimonio / preservare / il / culturale / dobbiamo]",["Dobbiamo preservare il patrimonio culturale", "patrimonio culturale Dobbiamo preservare il", "Dobbiamo il culturale preservare patrimonio", "patrimonio Dobbiamo il preservare culturale"],0,"Verbo modale + infinito + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su un monumento o una tradizione che preserva la memoria storica della tua comunità, usando almeno due costruzioni con „essere + participio”.",[],["è dedicato", "è segnato", "patrimonio culturale"]],
+    ]
+  },
+  {
+    id:"it_c2_institutional_ambiguity", level:"C2", title:"L'ambiguità calcolata nel discorso istituzionale", emoji:"🏛️", xp:100,
+    description:"Analizza l'ambiguità istituzionale e pratica i connettivi di sfumatura epistemica.",
+    study: {
+      vocab: [
+        ["l'ambiguità calcolata", "calculated ambiguity"],
+        ["un comunicato istituzionale", "an institutional statement"],
+        ["evitare di impegnarsi", "to avoid committing oneself"],
+        ["la vaghezza deliberata", "deliberate vagueness"],
+        ["leggere tra le righe", "to read between the lines"],
+        ["un linguaggio evasivo", "evasive language"],
+      ],
+      grammar: [
+        ["Connettivi di sfumatura epistemica", "Espressioni come „va sottolineato che”, „non vi è dubbio che” o „in un certo senso” sfumano il grado di certezza o rilevanza di un'affermazione, tipiche del discorso istituzionale.", "Va sottolineato che il comunicato evita di impegnarsi su date precise. / In un certo senso, la vaghezza è deliberata."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “leggere tra le righe” in inglese?",["calculated ambiguity", "to read between the lines", "evasive language", "deliberate vagueness"],1,"“Leggere tra le righe” si dice “to read between the lines” in inglese."],
+      ["mcq","Come si dice “un linguaggio evasivo” in inglese?",["calculated ambiguity", "an institutional statement", "to avoid committing oneself", "evasive language"],3,"“Un linguaggio evasivo” si dice “evasive language” in inglese."],
+      ["fill","Completa: “___ sottolineato che il comunicato evita di impegnarsi su date precise.”",["È", "Può", "Va", "C'è"],2,"„Va sottolineato che” è un connettivo fisso di sfumatura epistemica che introduce un'osservazione rilevante."],
+      ["translate","Traduci con precisione: “In a way, the vagueness is deliberate.”",["Di un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è deliberata.", "In un certo senso, la vaghezza è evasiva.", "In un certo senso, l'ambiguità è calcolata."],1,"“In a way” = “in un certo senso”, connettivo fisso di sfumatura."],
+      ["arrange","Ordina: [dubbio / non / vi / è / che / il linguaggio / è evasivo]",["linguaggio Non è è dubbio vi il evasivo che", "Non vi è dubbio che il linguaggio è evasivo", "è è che il Non dubbio vi evasivo linguaggio", "dubbio che è il vi linguaggio Non è evasivo"],1,"Connettivo fisso „non vi è dubbio che” + subordinata."],
+      ["writing","Scrivi 55-75 parole analizzando un comunicato istituzionale reale o inventato che usa ambiguità calcolata, usando almeno due connettivi di sfumatura epistemica.",[],["va sottolineato che", "non vi è dubbio che", "in un certo senso"]],
+    ]
+  },
+  {
+    id:"it_a1_sports_exercise", level:"A1", title:"Gli sport e l'esercizio fisico", emoji:"⚽", xp:38,
+    description:"Impara il vocabolario dello sport e a esprimere gusti con il verbo „piacere”.",
+    study: {
+      vocab: [
+        ["il calcio", "soccer/football"],
+        ["il nuoto", "swimming"],
+        ["correre", "to run"],
+        ["la palestra", "the gym"],
+        ["fare esercizio", "to exercise"],
+        ["la squadra", "the team"],
+      ],
+      grammar: [
+        ["Il verbo „piacere” + infinito/sostantivo", "„Piacere” funziona al contrario dell'inglese: concorda con ciò che piace, non con la persona. Si usa con pronomi indiretti (mi, ti, gli/le, ci, vi, gli).", "Mi piace nuotare. / A lei piacciono gli sport di squadra."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il nuoto” in inglese?",["the gym", "to run", "swimming", "soccer/football"],2,"“Nuoto” si dice “swimming” in inglese."],
+      ["mcq","Come si dice “la squadra” in inglese?",["the gym", "to run", "the team", "swimming"],2,"“Squadra” si dice “team” in inglese."],
+      ["fill","Completa: “A me ___ piace correre la mattina.”",["ti", "mi", "gli", "io"],1,"„Piacere” usa pronomi indiretti: „a me mi piace”."],
+      ["translate","Traduci: “She likes team sports.”",["A lei piacciono gli sport individuali.", "A lei piacciono lo sport di squadra.", "A lei piacciono gli sport di squadra.", "A lei piace gli sport di squadra."],2,"„Piacciono” concorda al plurale con „gli sport”, non con „lei”."],
+      ["arrange","Ordina: [palestra / vado / esercizio / in / a / fare]",["esercizio fare a palestra in Vado", "in esercizio fare a palestra Vado", "in a palestra fare Vado esercizio", "Vado in palestra a fare esercizio"],3,"Verbo + preposizione + sostantivo + preposizione + infinito."],
+      ["writing","Descrivi in 20-30 parole quali sport ti piacciono e quanto spesso fai esercizio, usando „piacere”.",[],["mi piace", "mi piacciono", "fare esercizio"]],
+    ]
+  },
+  {
+    id:"it_a2_household_chores", level:"A2", title:"Le faccende domestiche", emoji:"🧹", xp:48,
+    description:"Impara il vocabolario delle faccende domestiche e a esprimere obbligo impersonale con „bisogna”.",
+    study: {
+      vocab: [
+        ["spazzare", "to sweep"],
+        ["lavare i piatti", "to wash the dishes"],
+        ["portare fuori la spazzatura", "to take out the trash"],
+        ["stirare i vestiti", "to iron the clothes"],
+        ["fare il letto", "to make the bed"],
+        ["passare l'aspirapolvere", "to vacuum"],
+      ],
+      grammar: [
+        ["„Bisogna” + infinito per l'obbligo impersonale", "„Bisogna” + infinito esprime un obbligo generale, senza specificare chi deve farlo, a differenza di „dovere” che ha un soggetto.", "Bisogna portare fuori la spazzatura ogni giorno. / Prima di uscire, bisogna fare il letto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “lavare i piatti” in inglese?",["to vacuum", "to iron the clothes", "to sweep", "to wash the dishes"],3,"“Lavare i piatti” si dice “to wash the dishes” in inglese."],
+      ["mcq","Come si dice “passare l'aspirapolvere” in inglese?",["to wash the dishes", "to take out the trash", "to vacuum", "to sweep"],2,"“Passare l'aspirapolvere” si dice “to vacuum” in inglese."],
+      ["fill","Completa: “Prima di uscire di casa, ___ fare il letto.”",["bisogna", "sta", "deve", "è"],0,"„Bisogna” + infinito esprime un obbligo generale senza soggetto specifico."],
+      ["translate","Traduci: “You have to take out the trash every day.”",["Bisogna portare fuori la spazzatura una volta a settimana.", "Devi portare fuori la spazzatura ogni giorno.", "Bisogna spazzare la spazzatura ogni giorno.", "Bisogna portare fuori la spazzatura ogni giorno."],3,"“You have to” qui è impersonale nel senso generale, quindi si traduce meglio con „bisogna”."],
+      ["arrange","Ordina: [piatti / lavare / bisogna / i]",["piatti Bisogna lavare i", "Bisogna lavare i piatti", "lavare Bisogna i piatti", "piatti i lavare Bisogna"],1,"„Bisogna” + infinito + complemento."],
+      ["speaking","Descrivi in 40-60 parole quali faccende domestiche bisogna fare a casa tua ogni settimana, usando „bisogna”.",[],["bisogna", "ogni settimana", "a casa"]],
+    ]
+  },
+  {
+    id:"it_b1_dating_love", level:"B1", title:"Gli appuntamenti e l'amore", emoji:"💕", xp:62,
+    description:"Impara vocabolario sugli appuntamenti e a fare promesse e previsioni con il futuro semplice.",
+    study: {
+      vocab: [
+        ["avere un appuntamento", "to go on a date"],
+        ["innamorarsi di qualcuno", "to fall in love with someone"],
+        ["lasciare qualcuno", "to break up with someone"],
+        ["il compagno/la compagna", "the partner/couple"],
+        ["sentire la mancanza di qualcuno", "to miss someone"],
+        ["fidanzarsi/impegnarsi", "to get engaged/commit"],
+      ],
+      grammar: [
+        ["Il futuro semplice per promesse e previsioni", "Il futuro semplice (-erò, -erai, -erà...) si usa per fare promesse formali o prevedere ciò che accadrà, più definitivo di „andare a + infinito”.", "Ti prometto che non ti lascerò mai. / Credo che vi fidanzerete presto."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “innamorarsi di qualcuno” in inglese?",["to miss someone", "to get engaged/commit", "the partner/couple", "to fall in love with someone"],3,"“Innamorarsi di qualcuno” si dice “to fall in love with someone” in inglese."],
+      ["mcq","Come si dice “sentire la mancanza di qualcuno” in inglese?",["to miss someone", "to fall in love with someone", "to break up with someone", "to go on a date"],0,"“Sentire la mancanza di qualcuno” si dice “to miss someone” in inglese."],
+      ["fill","Completa: “Ti prometto che non ti ___ mai.”",["lasciavo", "lascio", "lascerò", "ho lasciato"],2,"Il futuro semplice „lascerò” esprime una promessa ferma su qualcosa che non accadrà."],
+      ["translate","Traduci: “I think you two will get engaged soon.”",["Credo che vi innamorerete presto.", "Credo che vi fidanzerete presto.", "Credo che vi fidanzerete domani.", "Credo che vi fidanzate presto."],1,"“Will get engaged” = “vi fidanzerete”, futuro semplice per una previsione."],
+      ["arrange","Ordina: [appuntamento / avrò / un / domani]",["Avrò appuntamento domani un", "domani Avrò un appuntamento", "Avrò domani appuntamento un", "Avrò un appuntamento domani"],3,"Futuro semplice + articolo + sostantivo + avverbio di tempo."],
+      ["writing","Scrivi 45-65 parole su una relazione (reale o inventata), usando almeno due verbi al futuro semplice per fare promesse o previsioni.",[],["prometterò/prometterà", "saremo", "compagno/a"]],
+    ]
+  },
+  {
+    id:"it_b2_sustainable_tourism", level:"B2", title:"Il turismo sostenibile e l'overtourism", emoji:"🧳", xp:84,
+    description:"Parla di turismo sostenibile usando „a meno che” e „purché” + congiuntivo.",
+    study: {
+      vocab: [
+        ["l'overtourism (turismo di massa)", "overtourism"],
+        ["saturare una destinazione turistica", "to overcrowd a tourist destination"],
+        ["il turismo sostenibile", "sustainable tourism"],
+        ["far salire gli affitti locali", "to drive up local housing costs"],
+        ["distribuire l'impatto turistico", "to spread out tourism's impact"],
+        ["rispettare la cultura locale", "to respect the local culture"],
+      ],
+      grammar: [
+        ["„A meno che” e „purché” + congiuntivo", "„A meno che” (unless) e „purché” (provided that) introducono una condizione e sono seguite dal congiuntivo.", "La destinazione resterà satura a meno che il turismo non venga regolato. / Il turismo sarà positivo purché si rispetti la cultura locale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “far salire gli affitti locali” in inglese?",["to drive up local housing costs", "to respect the local culture", "to overcrowd a tourist destination", "overtourism"],0,"“Far salire gli affitti locali” si dice “to drive up local housing costs” in inglese."],
+      ["mcq","Come si dice “distribuire l'impatto turistico” in inglese?",["sustainable tourism", "to overcrowd a tourist destination", "overtourism", "to spread out tourism's impact"],3,"“Distribuire l'impatto turistico” si dice “to spread out tourism's impact” in inglese."],
+      ["fill","Completa: “La destinazione resterà satura a meno che il turismo non ___ regolato.”",["verrebbe", "verrà", "venga", "viene"],2,"„A meno che” richiede il congiuntivo: „a meno che... non venga regolato”."],
+      ["translate","Traduci: “Tourism will be positive provided that the local culture is respected.”",["Il turismo sarà positivo purché si rispetti la cultura locale.", "Il turismo sarà positivo a meno che si rispetti la cultura locale.", "Il turismo sarà positivo purché si ignori la cultura locale.", "Il turismo sarà positivo purché si rispetta la cultura locale."],0,"“Provided that” = “purché”, seguito dal congiuntivo: „si rispetti”."],
+      ["arrange","Ordina: [sature / destinazioni / molte / turistiche / sono]",["sono sature Molte destinazioni turistiche", "turistiche sature Molte sono destinazioni", "Molte destinazioni turistiche sono sature", "turistiche sature sono destinazioni Molte"],2,"Soggetto + verbo + aggettivo."],
+      ["writing","Scrivi 55-75 parole sull'overtourism in una destinazione che conosci, usando almeno un „a meno che” e un „purché” con congiuntivo.",[],["a meno che", "purché", "sostenibile"]],
+    ]
+  },
+  {
+    id:"it_c1_gastronomy_identity", level:"C1", title:"La gastronomia e l'identità culturale", emoji:"🍽️", xp:92,
+    description:"Analizza la gastronomia come identità culturale usando strutture enfatiche con „ciò che”.",
+    study: {
+      vocab: [
+        ["la denominazione di origine protetta", "protected designation of origin"],
+        ["un piatto emblematico", "an iconic/signature dish"],
+        ["la fusione culinaria", "culinary fusion"],
+        ["preservare una ricetta tradizionale", "to preserve a traditional recipe"],
+        ["appropriarsi di una tradizione culinaria", "to appropriate a culinary tradition"],
+        ["il palato collettivo", "the collective palate"],
+      ],
+      grammar: [
+        ["Strutture enfatiche con „ciò che”", "„Ciò che” + verbo + „è” enfatizza un elemento della frase, dandogli maggiore rilievo, molto usato nel registro argomentativo.", "Ciò che definisce una cultura è la sua gastronomia. / Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un piatto emblematico” in inglese?",["culinary fusion", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],3,"“Un piatto emblematico” si dice “an iconic/signature dish” in inglese."],
+      ["mcq","Come si dice “appropriarsi di una tradizione culinaria” in inglese?",["to preserve a traditional recipe", "protected designation of origin", "to appropriate a culinary tradition", "an iconic/signature dish"],2,"“Appropriarsi di una tradizione culinaria” si dice “to appropriate a culinary tradition” in inglese."],
+      ["fill","Completa: “Ciò che ___ una cultura è, in gran parte, la sua gastronomia.”",["definire", "definisce", "definiscono", "definirebbe"],1,"La struttura enfatica „ciò che + verbo + è” porta il verbo al singolare, concordando con „ciò che”."],
+      ["translate","Traduci con struttura enfatica: “What worries local chefs is the appropriation of their recipes.”",["Ciò che preoccupano gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali sono l'appropriazione delle loro ricette.", "Ciò che preoccupa gli chef locali è la fusione delle loro ricette."],1,"Il verbo „preoccupa” concorda al singolare con „ciò che”, soggetto della frase enfatica."],
+      ["arrange","Ordina: [ricetta / preservare / questa / dobbiamo / tradizionale]",["Dobbiamo preservare questa ricetta tradizionale", "questa ricetta tradizionale preservare Dobbiamo", "Dobbiamo ricetta preservare questa tradizionale", "ricetta questa Dobbiamo preservare tradizionale"],0,"Verbo modale + infinito + oggetto dimostrativo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole su un piatto che consideri parte della tua identità culturale, usando almeno due strutture enfatiche con „ciò che”.",[],["ciò che definisce", "ciò che rappresenta", "identità culturale"]],
+    ]
+  },
+  {
+    id:"it_c2_crisis_rhetoric", level:"C2", title:"La retorica della crisi e il panico morale", emoji:"📢", xp:100,
+    description:"Analizza la retorica della crisi e pratica strutture di intensificazione retorica.",
+    study: {
+      vocab: [
+        ["il panico morale", "moral panic"],
+        ["una crisi fabbricata", "a manufactured crisis"],
+        ["catastrofizzare una situazione", "to catastrophize a situation"],
+        ["un capro espiatorio", "a scapegoat"],
+        ["sproporzionare una minaccia", "to blow a threat out of proportion"],
+        ["un discorso allarmista", "alarmist rhetoric"],
+      ],
+      grammar: [
+        ["Strutture di intensificazione retorica", "„Non solo... ma anche” e „sempre più” intensificano un'affermazione accumulando gravità — recurso tipico del discorso di crisi e del panico morale.", "Non solo si esagera la minaccia, ma si cerca anche un capro espiatorio. / Il discorso allarmista è sempre più frequente nei media."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un capro espiatorio” in inglese?",["to catastrophize a situation", "moral panic", "to blow a threat out of proportion", "a scapegoat"],3,"“Un capro espiatorio” si dice “a scapegoat” in inglese."],
+      ["mcq","Come si dice “sproporzionare una minaccia” in inglese?",["to blow a threat out of proportion", "a manufactured crisis", "to catastrophize a situation", "a scapegoat"],0,"“Sproporzionare una minaccia” si dice “to blow a threat out of proportion” in inglese."],
+      ["fill","Completa: “Non solo si esagera la minaccia, ___ si cerca anche un capro espiatorio.”",["poiché", "però", "ma", "quindi"],2,"„Non solo... ma anche” intensifica un'affermazione aggiungendo un secondo elemento con verbo proprio."],
+      ["translate","Traduci con precisione: “Alarmist rhetoric is becoming increasingly common in the media.”",["Il panico morale è sempre più frequente nei media.", "Il discorso allarmista è sempre meno frequente nei media.", "Il discorso allarmista è sempre più grave nei media.", "Il discorso allarmista è sempre più frequente nei media."],3,"“Increasingly common” = “sempre più frequente”, struttura di intensificazione graduale."],
+      ["arrange","Ordina: [espiatorio / cercano / un / media / capro / i]",["I media cercano un capro espiatorio", "media capro un espiatorio I cercano", "cercano espiatorio media I capro un", "cercano capro un espiatorio media I"],0,"Soggetto + verbo + articolo + sostantivo + aggettivo."],
+      ["writing","Scrivi 55-75 parole analizzando un caso reale o inventato di panico morale nei media, usando almeno una struttura „non solo... ma anche” e una con „sempre più”.",[],["non solo... ma anche", "sempre più", "panico morale"]],
+    ]
+  },
+  {
+    id:"it_a1_school_supplies_subjects", level:"A1", title:"A scuola: materiale scolastico e materie", emoji:"🎒", xp:38,
+    description:"Impara il vocabolario scolastico e a usare correttamente gli articoli determinativi e indeterminativi.",
+    study: {
+      vocab: [
+        ["il quaderno", "the notebook"],
+        ["la matita", "the pencil"],
+        ["lo zaino", "the backpack"],
+        ["la matematica", "math"],
+        ["la storia", "history"],
+        ["il/la professore/professoressa", "the teacher"],
+      ],
+      grammar: [
+        ["Articoli determinativi e indeterminativi", "Gli articoli determinativi (il, la, lo, i, le) indicano qualcosa di specifico o già noto; gli indeterminativi (un, una, uno) indicano qualcosa di non specifico o menzionato per la prima volta.", "Ho un quaderno nuovo. / Il quaderno è nello zaino."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la matita” in inglese?",["the pencil", "the teacher", "the backpack", "math"],0,"“Matita” si dice “pencil” in inglese."],
+      ["mcq","Come si dice “la matematica” in inglese?",["the teacher", "history", "the backpack", "math"],3,"“Matematica” si dice “math” in inglese."],
+      ["fill","Completa: “Ho ___ zaino nuovo per la scuola.”",["un", "il", "uno", "lo"],2,"Si usa l'articolo indeterminativo “uno” perché è la prima volta che viene menzionato."],
+      ["translate","Traduci: “The notebook is in the backpack.”",["Il quaderno è in classe.", "Un quaderno è nello zaino.", "Il quaderno è nello zaino.", "La matita è nello zaino."],2,"“The notebook” è già noto, quindi si usa l'articolo determinativo “il”."],
+      ["arrange","Ordina: [storia / molto / mi / piace / la]",["piace molto storia la Mi", "Mi la piace molto storia", "storia la molto Mi piace", "Mi piace molto la storia"],3,"Pronome + verbo + avverbio + articolo determinativo + sostantivo."],
+      ["writing","Descrivi in 20-30 parole quale materiale scolastico hai e quale materia ti piace di più, usando articoli determinativi e indeterminativi.",[],["un/una", "il/la", "mi piace"]],
+    ]
+  },
+  {
+    id:"it_a2_post_office_packages", level:"A2", title:"La posta e i pacchi", emoji:"📦", xp:48,
+    description:"Impara il vocabolario postale e a usare i pronomi diretti (lo/la/li/le).",
+    study: {
+      vocab: [
+        ["il pacco", "the package"],
+        ["la lettera", "the letter"],
+        ["il francobollo", "the stamp"],
+        ["spedire per posta", "to mail/send"],
+        ["la cassetta della posta", "the mailbox"],
+        ["l'indirizzo", "the address"],
+      ],
+      grammar: [
+        ["Pronomi diretti (lo/la/li/le)", "I pronomi diretti sostituiscono un sostantivo già menzionato, concordando in genere e numero, e si collocano prima del verbo coniugato.", "La lettera? L'ho spedita ieri. / I pacchi? Li ho ricevuti stamattina."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il francobollo” in inglese?",["the letter", "the stamp", "the mailbox", "the package"],1,"“Francobollo” si dice “stamp” in inglese."],
+      ["mcq","Come si dice “la cassetta della posta” in inglese?",["the address", "the stamp", "the mailbox", "the package"],2,"“Cassetta della posta” si dice “mailbox” in inglese."],
+      ["fill","Completa: “Il pacco? ___ ho ricevuto stamattina.”",["La", "Lo", "Gli", "Li"],1,"“Il pacco” è maschile singolare, quindi si sostituisce con “lo”."],
+      ["translate","Traduci: “The letters? I sent them yesterday.”",["I lettere? Le ho spedite ieri.", "Le lettere? L'ho spedite ieri.", "Le lettere? Li ho spedite ieri.", "Le lettere? Le ho spedite ieri."],3,"“Le lettere” è femminile plurale, quindi si sostituisce con “le”."],
+      ["arrange","Ordina: [indirizzo / bisogno / del / tuo / ho]",["bisogno tuo indirizzo del Ho", "tuo indirizzo del bisogno Ho", "Ho bisogno del tuo indirizzo", "Ho bisogno del indirizzo tuo"],2,"Verbo + sostantivo + preposizione + oggetto possessivo + sostantivo."],
+      ["speaking","Descrivi in 40-60 parole l'ultima volta che hai spedito una lettera o un pacco, usando i pronomi diretti (lo/la/li/le).",[],["l'ho spedito/a", "li/le ho ricevuti/e", "pacco"]],
+    ]
+  },
+  {
+    id:"it_b1_movies_theater", level:"B1", title:"Andare al cinema e a teatro", emoji:"🎬", xp:62,
+    description:"Impara il vocabolario di cinema e teatro e a costruire frasi temporali con „quando”, „mentre” e „prima che”.",
+    study: {
+      vocab: [
+        ["il biglietto", "the ticket"],
+        ["la prima", "the premiere"],
+        ["il cast", "the cast"],
+        ["gli effetti speciali", "special effects"],
+        ["la poltrona", "the seat"],
+        ["l'intervallo", "the intermission"],
+      ],
+      grammar: [
+        ["Frasi temporali con „quando”, „mentre” e „prima che”", "„Quando” e „mentre” + indicativo descrivono azioni abituali o simultanee; „prima che” richiede il congiuntivo perché introduce un'azione non ancora avvenuta.", "Compro i biglietti quando arrivo al cinema. / Parliamo mentre aspettiamo la prima. / Arriviamo prima che inizi il film."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “la prima” in inglese?",["the ticket", "the premiere", "the cast", "the intermission"],1,"“Prima” si dice “premiere” in inglese."],
+      ["mcq","Come si dice “il cast” in inglese?",["the premiere", "special effects", "the cast", "the intermission"],2,"“Cast” si dice “cast” in inglese."],
+      ["fill","Completa: “Arriviamo prima che ___ il film.”",["inizi", "iniziò", "inizierà", "inizia"],0,"„Prima che” richiede il congiuntivo perché l'azione non è ancora avvenuta: „prima che inizi”."],
+      ["translate","Traduci: “We talk while we wait for the premiere.”",["Parliamo mentre aspettiamo la prima.", "Parliamo quando aspettiamo la prima.", "Parliamo mentre aspettiamo che inizi la prima.", "Parliamo mentre aspettiamo l'intervallo."],0,"„Mentre” + indicativo descrive azioni simultanee: „mentre aspettiamo”."],
+      ["arrange","Ordina: [cinema / andiamo / spesso / al]",["Andiamo spesso al cinema", "spesso Andiamo cinema al", "Andiamo al spesso cinema", "al cinema Andiamo spesso"],0,"Soggetto + verbo + avverbio + preposizione + sostantivo."],
+      ["writing","Scrivi 45-65 parole sulla tua ultima visita al cinema o a teatro, usando almeno due frasi temporali con „quando”, „mentre” o „prima che”.",[],["quando", "mentre", "prima che"]],
+    ]
+  },
+  {
+    id:"it_b2_social_activism_protests", level:"B2", title:"L'attivismo sociale e le proteste", emoji:"✊", xp:84,
+    description:"Parla di attivismo sociale usando il congiuntivo con i verbi di influenza (esigere, chiedere che).",
+    study: {
+      vocab: [
+        ["una manifestazione/protesta", "a protest"],
+        ["esigere un cambiamento", "to demand change"],
+        ["firmare una petizione", "to sign a petition"],
+        ["sensibilizzare su qualcosa", "to raise awareness about something"],
+        ["un collettivo/un'organizzazione", "a collective/organization"],
+        ["mobilitare le persone", "to mobilize people"],
+      ],
+      grammar: [
+        ["Il congiuntivo con i verbi di influenza", "Verbi come „esigere”, „chiedere” o „suggerire” + „che” richiedono il congiuntivo nella subordinata perché cercano di influenzare l'azione di un'altra persona.", "I manifestanti esigono che il governo agisca. / Il collettivo chiede che la petizione venga firmata."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “sensibilizzare su qualcosa” in inglese?",["to raise awareness about something", "to mobilize people", "a protest", "to demand change"],0,"“Sensibilizzare su qualcosa” si dice “to raise awareness about something” in inglese."],
+      ["mcq","Come si dice “mobilitare le persone” in inglese?",["to mobilize people", "a collective/organization", "a protest", "to sign a petition"],0,"“Mobilitare le persone” si dice “to mobilize people” in inglese."],
+      ["fill","Completa: “I manifestanti esigono che il governo ___.”",["agirà", "agisca", "agisce", "agirebbe"],1,"„Esigere che” richiede il congiuntivo: „esigono che agisca”."],
+      ["translate","Traduci: “The collective is asking people to sign the petition.”",["Il collettivo chiede che le persone firmino la petizione.", "Il collettivo esige che le persone firmino la petizione.", "Il collettivo chiede che le persone firmano la petizione.", "Il collettivo chiede che le persone firmino la manifestazione."],0,"„Chiedere che” richiede il congiuntivo: „chiede che firmino”."],
+      ["arrange","Ordina: [petizione / vado / firmare / a / la]",["Vado a firmare la petizione", "firmare la a Vado petizione", "Vado la a petizione firmare", "firmare a petizione la Vado"],0,"„Andare a” + infinito + articolo + sostantivo."],
+      ["writing","Scrivi 55-75 parole su una causa sociale che ti sta a cuore, usando almeno due verbi di influenza + congiuntivo (esigere che, chiedere che, suggerire che).",[],["esigo che", "chiedo che", "manifestazione"]],
+    ]
+  },
+  {
+    id:"it_c1_aging_population_pensions", level:"C1", title:"L'invecchiamento della popolazione e le pensioni", emoji:"👴", xp:92,
+    description:"Analizza l'invecchiamento della popolazione usando frasi consecutive („così...che”, „in modo tale che”).",
+    study: {
+      vocab: [
+        ["l'invecchiamento della popolazione", "population aging"],
+        ["il sistema pensionistico", "the pension system"],
+        ["il tasso di natalità", "the birth rate"],
+        ["l'aspettativa di vita", "life expectancy"],
+        ["sostenere il sistema pensionistico", "to sustain the pension system"],
+        ["il divario generazionale", "the generational gap"],
+      ],
+      grammar: [
+        ["Frasi consecutive: „così...che” e „in modo tale che”", "Le frasi consecutive esprimono una conseguenza derivata da un'intensità o modalità. „Così + aggettivo + che” enfatizza il grado; „in modo tale che” introduce il risultato di un'azione.", "La popolazione invecchia così rapidamente che il sistema pensionistico è a rischio. / La natalità è scesa in modo tale che mancano lavoratori giovani."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “il tasso di natalità” in inglese?",["to sustain the pension system", "the generational gap", "the birth rate", "life expectancy"],2,"“Tasso di natalità” si dice “birth rate” in inglese."],
+      ["mcq","Come si dice “sostenere il sistema pensionistico” in inglese?",["the pension system", "to sustain the pension system", "the generational gap", "life expectancy"],1,"“Sostenere il sistema pensionistico” si dice “to sustain the pension system” in inglese."],
+      ["fill","Completa: “La popolazione invecchia così rapidamente ___ il sistema pensionistico è a rischio.”",["così", "poiché", "come", "che"],3,"„Così + aggettivo/avverbio + che” introduce la conseguenza: „così rapidamente che è a rischio”."],
+      ["translate","Traduci con frase consecutiva: “The birth rate has dropped in such a way that young workers are lacking.”",["La natalità è scesa in modo tale che mancano lavoratori giovani.", "L'aspettativa di vita è scesa in modo tale che mancano lavoratori giovani.", "La natalità è scesa così modo che mancano lavoratori giovani.", "La natalità è scesa in modo tale che avanzano lavoratori giovani."],0,"“In such a way that” = “in modo tale che”, introducendo la conseguenza."],
+      ["arrange","Ordina: [pensionistico / preoccupa / il / sistema / molti]",["pensionistico preoccupa Il sistema molti", "Il sistema pensionistico preoccupa molti", "sistema pensionistico molti Il preoccupa", "pensionistico preoccupa molti Il sistema"],1,"Soggetto + verbo + complemento."],
+      ["writing","Scrivi 55-75 parole sull'invecchiamento della popolazione nel tuo paese, usando almeno una frase con „così...che” e una con „in modo tale che”.",[],["così...che", "in modo tale che", "invecchiamento"]],
+    ]
+  },
+  {
+    id:"it_c2_rhetoric_of_silence", level:"C2", title:"La retorica del silenzio e del non detto", emoji:"🤐", xp:100,
+    description:"Analizza la retorica del silenzio e pratica l'ellissi a fini retorici.",
+    study: {
+      vocab: [
+        ["il silenzio eloquente", "eloquent silence"],
+        ["omettere deliberatamente qualcosa", "to deliberately omit something"],
+        ["il non detto", "the unsaid"],
+        ["un vuoto discorsivo", "a discursive gap"],
+        ["lasciare qualcosa in sospeso", "to leave something hanging"],
+        ["l'ellissi retorica", "rhetorical ellipsis"],
+      ],
+      grammar: [
+        ["L'ellissi a fini retorici", "L'ellissi omette un elemento sottinteso dal contesto, creando enfasi o lasciando un'idea deliberatamente incompleta — un recurso potente nel discorso politico e letterario.", "Alcuni tacciono per paura; altri, per complicità. (si omette “tacciono”) / Ha promesso riforme... e silenzio. (si omette il verbo atteso)"],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un vuoto discorsivo” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],1,"“Un vuoto discorsivo” si dice “a discursive gap” in inglese."],
+      ["mcq","Come si dice “lasciare qualcosa in sospeso” in inglese?",["eloquent silence", "a discursive gap", "to leave something hanging", "the unsaid"],2,"“Lasciare qualcosa in sospeso” si dice “to leave something hanging” in inglese."],
+      ["fill","Completa: “Alcuni tacciono per paura; altri, per ___.”",["che complicità", "complicità", "tacciono complicità", "è complicità"],1,"L'ellissi omette il verbo ripetuto „tacciono”, lasciando solo il complemento: „altri, per complicità”."],
+      ["translate","Traduci con ellissi retorica: “He promised reforms... and silence.”",["Ha promesso riforme... e rumore.", "Ha promesso riforme... e un silenzio.", "Ha promesso riforme... e silenzio.", "Ha promesso riforme... ed era silenzio."],2,"L'ellissi retorica omette il verbo atteso dopo i puntini di sospensione, lasciando solo „e silenzio”."],
+      ["arrange","Ordina: [dice / a volte / più / il silenzio / delle parole]",["Il silenzio a volte dice più delle parole", "più Il a parole delle dice silenzio volte", "più a parole Il volte silenzio dice delle", "volte delle silenzio dice Il parole a più"],0,"Soggetto + avverbio + verbo + comparativo + complemento."],
+      ["writing","Scrivi 55-75 parole analizzando un esempio (reale o inventato) di silenzio retorico in un discorso, usando almeno un'ellissi deliberata.",[],["il non detto", "silenzio eloquente", "omettere"]],
+    ]
+  },
+  {
+    id:"it_a1_time_parts_of_day", level:"A1", title:"L'ora e i momenti della giornata", emoji:"🕐", xp:38,
+    description:"Impara a dire l'ora e i momenti della giornata con le preposizioni di tempo.",
+    study: {
+      vocab: [
+        ["la mattina", "the morning"],
+        ["il pomeriggio", "the afternoon"],
+        ["la notte", "the night"],
+        ["mezzogiorno", "noon"],
+        ["mezzanotte", "midnight"],
+        ["in punto", "o'clock/sharp"],
+      ],
+      grammar: [
+        ["„Che ore sono?” + preposizioni di tempo", "Per chiedere l'ora si usa „Che ore sono?”; per rispondere, „è l'una” (singolare) o „sono le + numero” (plurale), con „di mattina/pomeriggio/sera” per specificare il momento.", "Sono le tre del pomeriggio. / È l'una in punto di notte."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “mezzanotte” in inglese?",["o'clock/sharp", "the morning", "the night", "midnight"],3,"“Mezzanotte” si dice “midnight” in inglese."],
+      ["mcq","Come si dice “in punto” in inglese?",["the morning", "midnight", "o'clock/sharp", "the afternoon"],2,"“In punto” si dice “o'clock” o “sharp” in inglese."],
+      ["fill","Completa: “___ le tre del pomeriggio.”",["È", "Sono", "Sta", "C'è"],1,"Si usa „sono” con i numeri plurali: „sono le tre”."],
+      ["translate","Traduci: “It's one o'clock in the morning.”",["È le una di mattina.", "È l'una di mattina.", "È l'una di pomeriggio.", "Sono l'una di mattina."],1,"Con „l'una” (singolare) si usa „è”, non „sono”."],
+      ["arrange","Ordina: [pomeriggio / le / sono / quattro / del]",["le Sono del quattro pomeriggio", "Sono le quattro del pomeriggio", "del Sono pomeriggio le quattro", "pomeriggio Sono le quattro del"],1,"Verbo + articolo + numero + preposizione + momento della giornata."],
+      ["writing","Descrivi in 20-30 parole la tua routine quotidiana menzionando orari specifici, usando „sono le” e „di mattina/pomeriggio/sera”.",[],["sono le", "di mattina", "di pomeriggio"]],
+    ]
+  },
+  {
+    id:"it_a2_bank_open_account", level:"A2", title:"In banca: aprire un conto", emoji:"🏦", xp:48,
+    description:"Impara il vocabolario bancario di base e a usare „potere” per possibilità e permesso.",
+    study: {
+      vocab: [
+        ["il conto bancario", "the bank account"],
+        ["il bancomat", "the ATM"],
+        ["prelevare denaro", "to withdraw money"],
+        ["depositare denaro", "to deposit money"],
+        ["la carta di debito", "the debit card"],
+        ["il saldo", "the balance"],
+      ],
+      grammar: [
+        ["„Potere” + infinito per possibilità e permesso", "„Potere” + infinito esprime capacità, possibilità o permesso, a seconda del contesto.", "Posso aprire un conto qui? / Puoi prelevare denaro da qualsiasi bancomat."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “prelevare denaro” in inglese?",["to withdraw money", "to deposit money", "the debit card", "the bank account"],0,"“Prelevare denaro” si dice “to withdraw money” in inglese."],
+      ["mcq","Come si dice “il saldo” in inglese?",["the bank account", "the balance", "to deposit money", "the ATM"],1,"“Saldo” si dice “balance” in inglese."],
+      ["fill","Completa: “___ aprire un conto qui, per favore?”",["Posso", "Puoi", "Può", "Possiamo"],0,"Si usa „posso” in prima persona per chiedere il permesso: „posso aprire”."],
+      ["translate","Traduci: “You can withdraw money at any ATM.”",["Puoi depositare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi bancomat.", "Puoi prelevare denaro da qualsiasi banca.", "Devi prelevare denaro da qualsiasi bancomat."],1,"“You can withdraw” = “puoi prelevare”, con „potere” + infinito."],
+      ["arrange","Ordina: [saldo / consultare / il mio / voglio]",["Voglio consultare il mio saldo", "saldo il Voglio mio consultare", "consultare mio il saldo Voglio", "saldo consultare mio Voglio il"],0,"Verbo + infinito + oggetto possessivo + sostantivo."],
+      ["speaking","Descrivi in 40-60 parole come apriresti un conto bancario, usando „potere” per chiedere il permesso o esprimere possibilità.",[],["posso", "puoi", "conto"]],
+    ]
+  },
+  {
+    id:"it_b1_train_plane_travel", level:"B1", title:"Viaggiare in treno e in aereo: ritardi e cambi", emoji:"🚄", xp:62,
+    description:"Impara il vocabolario dei viaggi lunghi e a usare „sebbene/anche se” con indicativo o congiuntivo.",
+    study: {
+      vocab: [
+        ["il ritardo", "the delay"],
+        ["perdere il volo/treno", "to miss the flight/train"],
+        ["fare scalo", "to make a layover/stopover"],
+        ["il binario", "the platform"],
+        ["cancellare un volo", "to cancel a flight"],
+        ["il posto finestrino/corridoio", "the window/aisle seat"],
+      ],
+      grammar: [
+        ["„Sebbene” + congiuntivo e „anche se” + indicativo", "„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale; „anche se” esprime una concessione reale o ipotetica con l'indicativo.", "Sebbene il treno sia arrivato tardi, ho preso il volo. / Anche se il volo viene cancellato, abbiamo un'altra opzione."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “fare scalo” in inglese?",["to miss the flight/train", "to cancel a flight", "to make a layover/stopover", "the platform"],2,"“Fare scalo” si dice “to make a layover” o “stopover” in inglese."],
+      ["mcq","Come si dice “il binario” in inglese?",["to cancel a flight", "the delay", "to miss the flight/train", "the platform"],3,"“Binario” si dice “platform” in inglese."],
+      ["fill","Completa: “Sebbene il treno ___ tardi, ho preso il volo.”",["arrivava", "è arrivato", "sia arrivato", "arriverà"],2,"„Sebbene” richiede sempre il congiuntivo, anche per un fatto reale: „sebbene... sia arrivato”."],
+      ["translate","Traduci: “Even if the flight is cancelled, we have another option.”",["Anche se il volo viene cancellato, abbiamo un'altra opzione.", "Sebbene il volo viene cancellato, abbiamo un'altra opzione.", "Anche se il volo venga cancellato, abbiamo un'altra opzione.", "Anche se il treno viene cancellato, abbiamo un'altra opzione."],0,"“Even if” = “anche se”, seguito dall'indicativo: „anche se il volo viene cancellato”."],
+      ["arrange","Ordina: [finestrino / preferisco / il / posto / del]",["Preferisco il posto del finestrino", "del Preferisco finestrino posto il", "finestrino del posto Preferisco il", "del il finestrino posto Preferisco"],0,"Verbo + articolo + sostantivo + preposizione + complemento."],
+      ["writing","Scrivi 45-65 parole su un viaggio in treno o aereo con imprevisti, usando „sebbene” e „anche se” almeno una volta ciascuno.",[],["sebbene", "anche se", "ritardo"]],
+    ]
+  },
+  {
+    id:"it_b2_sharing_economy_conscious_consumption", level:"B2", title:"L'economia collaborativa e il consumo consapevole", emoji:"♻️", xp:84,
+    description:"Parla di economia collaborativa usando il futuro e il condizionale di probabilità.",
+    study: {
+      vocab: [
+        ["l'economia collaborativa", "the sharing economy"],
+        ["noleggiare invece di comprare", "to rent instead of buying"],
+        ["il consumo consapevole", "conscious consumption"],
+        ["condividere risorse", "to share resources"],
+        ["l'obsolescenza programmata", "planned obsolescence"],
+        ["ridurre lo spreco", "to reduce waste"],
+      ],
+      grammar: [
+        ["Futuro e condizionale di probabilità", "Il futuro semplice può esprimere una congettura sul presente (“saranno le dieci”); il condizionale semplice esprime una congettura sul passato (“sarebbero state le dieci quando è arrivato”).", "Quel modello avrà circa cinque anni di obsolescenza programmata. / Con quel consumo, spenderebbero meno risorse di quanto pensassero."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “noleggiare invece di comprare” in inglese?",["conscious consumption", "the sharing economy", "to rent instead of buying", "to share resources"],2,"“Noleggiare invece di comprare” si dice “to rent instead of buying” in inglese."],
+      ["mcq","Come si dice “l'obsolescenza programmata” in inglese?",["conscious consumption", "planned obsolescence", "to rent instead of buying", "the sharing economy"],1,"“Obsolescenza programmata” si dice “planned obsolescence” in inglese."],
+      ["fill","Completa: “Quel modello ___ circa cinque anni di obsolescenza programmata.”",["avrà", "ha", "avrebbe", "aveva"],0,"Il futuro di probabilità esprime una congettura sul presente: „avrà circa cinque anni”."],
+      ["translate","Traduci con condizionale di probabilità: “With that consumption, they would spend fewer resources than they thought.”",["Con quel consumo, spenderebbero meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero più risorse di quanto pensassero.", "Con quel consumo, spenderanno meno risorse di quanto pensassero.", "Con quel consumo, spenderebbero meno denaro di quanto pensassero."],0,"Il condizionale di probabilità „spenderebbero” esprime una congettura su una situazione ipotetica."],
+      ["arrange","Ordina: [spreco / dobbiamo / lo / ridurre]",["lo ridurre Dobbiamo spreco", "lo spreco Dobbiamo ridurre", "Dobbiamo ridurre lo spreco", "ridurre spreco Dobbiamo lo"],2,"Verbo modale + infinito + articolo + sostantivo."],
+      ["writing","Scrivi 55-75 parole sull'economia collaborativa e il consumo consapevole, usando almeno un futuro e un condizionale di probabilità.",[],["avrà", "sarebbero", "consumo consapevole"]],
+    ]
+  },
+  {
+    id:"it_c1_nonverbal_intercultural_communication", level:"C1", title:"Il linguaggio non verbale e la comunicazione interculturale", emoji:"🤝", xp:92,
+    description:"Analizza la comunicazione non verbale usando „come se” + congiuntivo.",
+    study: {
+      vocab: [
+        ["il linguaggio del corpo", "body language"],
+        ["il contatto visivo", "eye contact"],
+        ["un gesto frainteso", "a misinterpreted gesture"],
+        ["la prossemica (distanza personale)", "proxemics (personal space)"],
+        ["un segnale culturale", "a cultural cue"],
+        ["il silenzio imbarazzante", "awkward silence"],
+      ],
+      grammar: [
+        ["„Come se” + congiuntivo (imperfetto o trapassato)", "„Come se” richiede sempre il congiuntivo, anche se il confronto si riferisce al presente, perché descrive qualcosa di ipotetico o contrario alla realtà.", "Ha agito come se capisse il gesto, anche se non lo capiva. / Ha reagito come se fosse stata offesa."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un gesto frainteso” in inglese?",["awkward silence", "eye contact", "a misinterpreted gesture", "proxemics (personal space)"],2,"“Un gesto frainteso” si dice “a misinterpreted gesture” in inglese."],
+      ["mcq","Come si dice “la prossemica (distanza personale)” in inglese?",["eye contact", "proxemics (personal space)", "a cultural cue", "awkward silence"],1,"“Prossemica” si dice “proxemics” in inglese."],
+      ["fill","Completa: “Ha agito come se ___ il gesto, anche se non lo capiva.”",["capisce", "capiva", "capirà", "capisse"],3,"„Come se” richiede il congiuntivo imperfetto per un confronto al presente: „come se capisse”."],
+      ["translate","Traduci: “She reacted as if she had been offended.”",["Ha reagito come se era stata offesa.", "Ha reagito come se fosse offesa.", "Ha reagito come se fosse stata invitata.", "Ha reagito come se fosse stata offesa."],3,"“As if she had been offended” si traduce con il congiuntivo trapassato: „come se fosse stata offesa”."],
+      ["arrange","Ordina: [culture / varia / tra / il contatto visivo]",["tra varia culture contatto visivo Il", "contatto visivo tra culture Il varia", "Il contatto visivo varia tra culture", "contatto tra varia culture visivo Il"],2,"Soggetto + verbo + preposizione + complemento."],
+      ["writing","Scrivi 55-75 parole su un malinteso interculturale legato al linguaggio non verbale, usando almeno due strutture con „come se”.",[],["come se", "linguaggio del corpo", "gesto"]],
+    ]
+  },
+  {
+    id:"it_c2_scientific_hedging_uncertainty", level:"C2", title:"L'incertezza e il linguaggio scientifico", emoji:"🔬", xp:100,
+    description:"Analizza il linguaggio scientifico usando espressioni di attenuazione epistemica (hedging).",
+    study: {
+      vocab: [
+        ["l'incertezza statistica", "statistical uncertainty"],
+        ["un margine di errore", "a margin of error"],
+        ["una correlazione non implica causalità", "correlation does not imply causation"],
+        ["i risultati preliminari", "preliminary results"],
+        ["un'ipotesi non confermata", "an unconfirmed hypothesis"],
+        ["attenuare un'affermazione", "to hedge/qualify a claim"],
+      ],
+      grammar: [
+        ["Espressioni di attenuazione epistemica (hedging)", "Frasi come „si potrebbe dire che”, „non è irragionevole pensare che” o „i dati suggeriscono, senza confermare, che” attenuano il grado di certezza di un'affermazione scientifica, evitando eccessive generalizzazioni.", "Si potrebbe dire che esiste una tendenza, anche se i dati sono preliminari. / I risultati suggeriscono, senza confermare, un nesso causale."],
+      ]
+    },
+    ex:[
+      ["mcq","Come si dice “un margine di errore” in inglese?",["an unconfirmed hypothesis", "to hedge/qualify a claim", "preliminary results", "a margin of error"],3,"“Un margine di errore” si dice “a margin of error” in inglese."],
+      ["mcq","Come si dice “un'ipotesi non confermata” in inglese?",["to hedge/qualify a claim", "an unconfirmed hypothesis", "preliminary results", "a margin of error"],1,"“Un'ipotesi non confermata” si dice “an unconfirmed hypothesis” in inglese."],
+      ["fill","Completa: “Si ___ dire che esiste una tendenza, anche se i dati sono preliminari.”",["deve", "può", "va", "potrebbe"],3,"„Si potrebbe dire che” è un'espressione fissa di attenuazione epistemica che ammorbidisce un'affermazione."],
+      ["translate","Traduci con precisione: “The results suggest, but do not confirm, a causal relationship.”",["I risultati suggeriscono, confermando, un nesso causale.", "I risultati confermano, senza suggerire, un nesso causale.", "I risultati suggeriscono, senza confermare, un nesso causale.", "I risultati suggeriscono, senza confermare, una correlazione statistica."],2,"“Suggest, but do not confirm” si traduce con „suggeriscono, senza confermare”, attenuando la certezza."],
+      ["arrange","Ordina: [implica / correlazione / non / causalità / una]",["Una correlazione non implica causalità", "correlazione implica causalità Una non", "implica correlazione non causalità Una", "implica correlazione Una non causalità"],0,"Articolo + sostantivo + avverbio + verbo + sostantivo."],
+      ["writing","Scrivi 55-75 parole analizzando uno studio scientifico (reale o inventato) con risultati preliminari, usando almeno due espressioni di attenuazione epistemica.",[],["si potrebbe dire che", "i dati suggeriscono", "incertezza"]],
+    ]
+  },
+  {
+    id:"it_a1_weather_seasons", level:"A1", title:"Il tempo e le stagioni", emoji:"☀️", xp:38,
+    description:"Impara a descrivere il tempo e le stagioni in italiano con “fa/c'è”.",
+    study: {
+      vocab: [
+        ["soleggiato", "sunny"],
+        ["piovoso", "rainy"],
+        ["freddo", "cold"],
+        ["caldo", "hot"],
+        ["la primavera", "spring"],
+        ["l'inverno", "winter"],
+      ],
+      grammar: [
+        ["“Fa/C'è” per il tempo", "Per il tempo si usa “fa” + aggettivo (“fa freddo”, “fa caldo”) o “c'è” + sostantivo (“c'è il sole”). Per la pioggia: “piove” (verbo impersonale).", "Oggi c'è il sole. / In primavera piove spesso."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cold” en italiano?",["freddo", "hot", "sunny", "cold"],0,"“Cold” es “freddo” en italiano."],
+      ["mcq","¿Cómo se dice “rainy” en italiano?",["piovoso", "hot", "cold", "winter"],0,"“Rainy” es “piovoso” en italiano."],
+      ["fill","Completa: “Oggi il tempo è molto ___, porta l'ombrello.”",["piovoso", "freddo", "soleggiato", "caldo"],0,"“Piovoso” describe un clima con lluvia: “è piovoso”."],
+      ["translate","Traduce: “It's very cold in winter.”",["È molto freddo in inverno.", "Fa molto freddo in inverno.", "Fa molto caldo in inverno.", "Fa molto freddo in estate."],1,"“It's very cold” se traduce como “fa molto freddo”, con el verbo impersonal “fare”."],
+      ["arrange","Ordena: [sole / oggi / c'è / il]",["c'è il oggi sole", "sole c'è il oggi", "oggi sole c'è il", "oggi c'è il sole"],3,"Adverbio de tiempo + verbo impersonal + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, el clima de tu ciudad en las cuatro estaciones, usando “fa” y “c'è”.",[],["fa", "c'è", "freddo"]],
+    ]
+  },
+  {
+    id:"it_a2_pet_care", level:"A2", title:"La cura degli animali domestici", emoji:"🐾", xp:48,
+    description:"Aprende vocabulario sobre mascotas y a usar “dovere” para obligaciones en italiano.",
+    study: {
+      vocab: [
+        ["dar da mangiare all'animale", "to feed the pet"],
+        ["portare a spasso il cane", "to walk the dog"],
+        ["il veterinario", "the veterinarian"],
+        ["vaccinare", "to vaccinate"],
+        ["la lettiera", "the litter box"],
+        ["adottare un animale", "to adopt a pet"],
+      ],
+      grammar: [
+        ["“Dovere” para obligaciones", "“Dovere” + infinitivo expresa una obligación o necesidad cotidiana.", "Devo portare a spasso il cane ogni mattina. / Lei deve dar da mangiare al gatto due volte al giorno."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the veterinarian” en italiano?",["il veterinario", "to feed the pet", "to adopt a pet", "to vaccinate"],0,"“The veterinarian” es “il veterinario” en italiano."],
+      ["mcq","¿Cómo se dice “to vaccinate” en italiano?",["to vaccinate", "to walk the dog", "the litter box", "vaccinare"],3,"“To vaccinate” es “vaccinare” en italiano."],
+      ["fill","Completa: “___ portare a spasso il cane ogni mattina.”",["Devi", "Dobbiamo", "Devo", "Deve"],2,"“Dovere” con “io” se conjuga como “devo”."],
+      ["translate","Traduce: “I have to feed the pet twice a day.”",["Ho dovuto dar da mangiare all'animale due volte al giorno.", "Devo dar da mangiare all'animale una volta al giorno.", "Devo dar da mangiare all'animale due volte al giorno.", "Devo portare a spasso l'animale due volte al giorno."],2,"“I have to feed” se traduce con “devo dar da mangiare”, obligación en presente."],
+      ["arrange","Ordena: [deve / cane / lei / spasso / il / a / portare]",["lei cane il spasso deve portare a", "lei deve portare a spasso il cane", "a lei portare cane spasso deve il", "a deve portare cane spasso lei il"],1,"Sujeto + “deve” + verbo + preposición + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, tu rutina de cuidado de una mascota usando “dovere”.",[],["devo", "deve", "animale"]],
+    ]
+  },
+  {
+    id:"it_b1_startups_entrepreneurship", level:"B1", title:"L'imprenditoria e le start-up", emoji:"🚀", xp:62,
+    description:"Aprende vocabulario de emprendimiento y a usar “stare per”/futuro para planes en italiano.",
+    study: {
+      vocab: [
+        ["la start-up", "startup"],
+        ["lanciare un prodotto", "to launch a product"],
+        ["l'investitore", "investor"],
+        ["il piano aziendale", "business plan"],
+        ["correre un rischio", "to take a risk"],
+        ["far crescere un'azienda", "to scale a business"],
+      ],
+      grammar: [
+        ["Futuro semplice para planes", "El futuro semplice expresa un plan o intención decidida, similar a “going to” en inglés cuando el plan ya está claro.", "Lanceremo il prodotto il mese prossimo. / Lei cercherà investitori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “investor” en italiano?",["startup", "business plan", "to launch a product", "l'investitore"],3,"“Investor” es “l'investitore” en italiano."],
+      ["mcq","¿Cómo se dice “to take a risk” en italiano?",["startup", "correre un rischio", "business plan", "to take a risk"],1,"“To take a risk” es “correre un rischio” en italiano."],
+      ["fill","Completa: “___ il prodotto il mese prossimo.”",["Lancerò", "Lancerete", "Lanceremo", "Lanciamo"],2,"El futuro con “noi” se conjuga como “lanceremo”."],
+      ["translate","Traduce: “We are going to launch the product next month.”",["Lanceremo il prodotto il mese prossimo.", "Lanciamo il prodotto il mese prossimo.", "Lanceremo il prodotto questo mese.", "Lanceremo l'azienda il mese prossimo."],0,"“We are going to launch” se traduce con el futuro semplice: “lanceremo”."],
+      ["arrange","Ordena: [cercherà / investitori / lei]",["cercherà lei investitori", "investitori cercherà lei", "lei cercherà investitori", "investitori lei cercherà"],2,"Sujeto + futuro + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre una idea de startup que te gustaría lanzar, usando el futuro semplice para tus planes.",[],["lancerò", "start-up", "investitori"]],
+    ]
+  },
+  {
+    id:"it_b2_space_exploration", level:"B2", title:"L'esplorazione spaziale", emoji:"🚀", xp:84,
+    description:"Habla de la exploración espacial usando el futuro anteriore en italiano.",
+    study: {
+      vocab: [
+        ["la missione spaziale", "space mission"],
+        ["l'astronauta", "astronaut"],
+        ["orbitare", "to orbit"],
+        ["il lancio del razzo", "rocket launch"],
+        ["lo spazio esterno", "outer space"],
+        ["la stazione spaziale", "space station"],
+      ],
+      grammar: [
+        ["Futuro anteriore para logros futuros", "El futuro anteriore (“avrà/sarà” + participio) describe una acción que se habrá completado antes de un momento futuro determinado.", "Entro il 2030, gli astronauti saranno atterrati su Marte. / Il razzo avrà raggiunto l'orbita entro allora."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “space station” en italiano?",["space mission", "astronaut", "rocket launch", "la stazione spaziale"],3,"“Space station” es “la stazione spaziale” en italiano."],
+      ["mcq","¿Cómo se dice “to orbit” en italiano?",["orbitare", "outer space", "to orbit", "rocket launch"],0,"“To orbit” es “orbitare” en italiano."],
+      ["fill","Completa: “Entro il 2030, gli astronauti ___ atterrati su Marte.”",["saranno", "sono", "erano", "sarebbero"],0,"El futuro anteriore usa “saranno” + participio: “saranno atterrati”."],
+      ["translate","Traduce: “By 2030, astronauts will have landed on Mars.”",["Entro il 2030, gli astronauti sarebbero atterrati su Marte.", "Entro il 2030, gli astronauti atterreranno su Marte.", "Entro il 2030, gli astronauti saranno atterrati su Marte.", "Entro il 2030, gli astronauti sono atterrati su Marte."],2,"“Will have landed” se traduce con futuro anteriore: “saranno atterrati”."],
+      ["arrange","Ordena: [presto / razzo / orbita / il / l' / raggiungerà]",["l'orbita presto il razzo raggiungerà", "il l'orbita presto razzo raggiungerà", "il razzo raggiungerà l'orbita presto", "l'orbita raggiungerà il presto razzo"],2,"Artículo + sustantivo + verbo + artículo + sustantivo + adverbio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, una predicción sobre el futuro de la exploración espacial usando el futuro anteriore (“saranno...”) al menos dos veces.",[],["saranno", "missione spaziale", "astronauta"]],
+    ]
+  },
+  {
+    id:"it_c1_ai_ethics", level:"C1", title:"L'etica e la regolamentazione dell'intelligenza artificiale", emoji:"🤖", xp:92,
+    description:"Analiza la ética de la IA usando la forma passiva en registro formal en italiano.",
+    study: {
+      vocab: [
+        ["l'intelligenza artificiale", "artificial intelligence"],
+        ["il pregiudizio algoritmico", "algorithmic bias"],
+        ["la responsabilità", "accountability"],
+        ["la privacy dei dati", "data privacy"],
+        ["regolamentare", "to regulate"],
+        ["le conseguenze indesiderate", "unintended consequences"],
+      ],
+      grammar: [
+        ["La forma passiva in registro formale/accademico", "La forma passiva (“essere” + participio) se usa en italiano formal para enfatizar la acción o el objeto en lugar de quién la realiza.", "Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi. / Il pregiudizio algoritmico è stato documentato in diversi studi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “accountability” en italiano?",["la responsabilità", "data privacy", "unintended consequences", "to regulate"],0,"“Accountability” es “la responsabilità” en italiano."],
+      ["mcq","¿Cómo se dice “algorithmic bias” en italiano?",["algorithmic bias", "il pregiudizio algoritmico", "artificial intelligence", "unintended consequences"],1,"“Algorithmic bias” es “il pregiudizio algoritmico” en italiano."],
+      ["fill","Completa: “Questi sistemi dovrebbero essere ___ per evitare pregiudizi.”",["regolamentando", "regolamentare", "regolamenta", "regolamentati"],3,"La forma passiva con modal usa “essere” + participio: “dovrebbero essere regolamentati”."],
+      ["translate","Traduce con forma passiva: “These systems should be regulated to prevent bias.”",["Questi sistemi dovrebbero essere regolamentati per evitare pregiudizi.", "Questi sistemi devono essere regolamentati per evitare pregiudizi.", "Questi sistemi dovrebbero essere regolamentati per evitare un pregiudizio.", "Questi sistemi dovrebbero regolamentare per evitare pregiudizi."],0,"“Should be regulated” se traduce con forma passiva: “dovrebbero essere regolamentati”."],
+      ["arrange","Ordena: [regolamentati / algoritmi / essere / dovrebbero / gli]",["regolamentati essere gli algoritmi dovrebbero", "essere dovrebbero gli algoritmi regolamentati", "dovrebbero algoritmi gli essere regolamentati", "gli algoritmi dovrebbero essere regolamentati"],3,"Artículo + sustantivo + condizionale + “essere” + participio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento ético sobre la inteligencia artificial usando al menos una construcción en forma passiva.",[],["dovrebbero essere regolamentati", "pregiudizio algoritmico", "responsabilità"]],
+    ]
+  },
+  {
+    id:"it_c2_philosophy_of_mind", level:"C2", title:"La filosofia della mente e la coscienza", emoji:"🧠", xp:100,
+    description:"Reflexiona sobre la conciencia usando frasi scisse (estructuras enfáticas) en italiano.",
+    study: {
+      vocab: [
+        ["la coscienza", "consciousness"],
+        ["l'esperienza soggettiva", "subjective experience"],
+        ["l'esperimento mentale", "thought experiment"],
+        ["il libero arbitrio", "free will"],
+        ["l'autoconsapevolezza", "self-awareness"],
+        ["il problema mente-corpo", "the mind-body problem"],
+      ],
+      grammar: [
+        ["Frasi scisse (“ciò che... è...”) para énfasis", "Las frasi scisse (“ciò che... è...”) reorganizan la oración para poner énfasis en un elemento concreto, muy usadas en discurso filosófico y académico.", "Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “thought experiment” en italiano?",["self-awareness", "consciousness", "subjective experience", "l'esperimento mentale"],3,"“Thought experiment” es “l'esperimento mentale” en italiano."],
+      ["mcq","¿Cómo se dice “free will” en italiano?",["self-awareness", "subjective experience", "il libero arbitrio", "consciousness"],2,"“Free will” es “il libero arbitrio” en italiano."],
+      ["fill","Completa: “Ciò che davvero definisce la coscienza non ___ solo il comportamento.”",["era", "sono", "è", "sia"],2,"En frasi scisse con sujeto singular se usa “è”: “ciò che definisce... non è”."],
+      ["translate","Traduce con estructura enfática: “What truly defines consciousness is not behavior alone, but subjective experience.”",["Ciò che davvero definisce la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che davvero definisce la coscienza è solo il comportamento, non l'esperienza soggettiva.", "Ciò che davvero definì la coscienza non è solo il comportamento, ma l'esperienza soggettiva.", "Ciò che definisce davvero la coscienza non è solo il comportamento, ma l'esperienza soggettiva."],0,"La frase scissa mantiene “ciò che + verbo + non è solo... ma...”, con “davvero” justo antes del verbo."],
+      ["arrange","Ordena: [arbitrio / dibattono / ancora / filosofi / il / libero / i]",["i arbitrio libero il ancora dibattono filosofi", "arbitrio libero i dibattono filosofi il ancora", "dibattono arbitrio i filosofi ancora il libero", "i filosofi dibattono ancora il libero arbitrio"],3,"Artículo + sustantivo + verbo + adverbio + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, tu propia postura sobre el libre albedrío o la conciencia, usando al menos una frase scissa (“ciò che... è...”).",[],["ciò che davvero definisce", "coscienza", "libero arbitrio"]],
+    ]
+  },
+  {
+    id:"it_a1_garden_plants", level:"A1", title:"Il giardino e le piante", emoji:"🌱", xp:38,
+    description:"Impara il vocabolario del giardinaggio e a dare istruzioni semplici con l'imperativo in italiano.",
+    study: {
+      vocab: [
+        ["annaffiare le piante", "to water the plants"],
+        ["il seme", "the seed"],
+        ["crescere", "to grow"],
+        ["il fiore", "the flower"],
+        ["la terra", "the soil"],
+        ["la luce del sole", "sunlight"],
+      ],
+      grammar: [
+        ["L'imperativo per le istruzioni", "El imperativo (tu) se usa para dar órdenes o instrucciones. La forma negativa usa “non” + infinitivo.", "Annaffia le piante ogni giorno. / Non dimenticare di chiudere il cancello."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the seed” en italiano?",["the seed", "the soil", "the flower", "il seme"],3,"“The seed” es “il seme” en italiano."],
+      ["mcq","¿Cómo se dice “to grow” en italiano?",["the soil", "crescere", "sunlight", "to grow"],1,"“To grow” es “crescere” en italiano."],
+      ["fill","Completa: “___ le piante ogni giorno, altrimenti moriranno.”",["Annaffi", "Annaffiando", "Annaffia", "Annaffiare"],2,"El imperativo (tu) de “annaffiare” es “annaffia”."],
+      ["translate","Traduce: “Water the plants every day.”",["Annaffia le piante ogni settimana.", "Annaffiare le piante ogni giorno.", "Tu annaffi le piante ogni giorno.", "Annaffia le piante ogni giorno."],3,"El imperativo comienza directamente con el verbo conjugado: “Annaffia le piante...”."],
+      ["arrange","Ordena: [dimenticare / cancello / il / non / chiudere / di]",["non dimenticare cancello di chiudere il", "cancello di dimenticare il chiudere non", "dimenticare cancello non chiudere di il", "non dimenticare di chiudere il cancello"],3,"“Non” + infinitivo + “di” + infinitivo + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, instrucciones para cuidar un jardín usando el imperativo.",[],["annaffia", "non dimenticare", "cresce"]],
+    ]
+  },
+  {
+    id:"it_a2_library_books", level:"A2", title:"La biblioteca e i libri", emoji:"📚", xp:48,
+    description:"Impara il vocabolario della biblioteca e a raccontare al passato prossimo in italiano.",
+    study: {
+      vocab: [
+        ["prendere in prestito un libro", "to borrow a book"],
+        ["la tessera della biblioteca", "the library card"],
+        ["la data di scadenza", "the due date"],
+        ["lo scaffale", "the bookshelf"],
+        ["il romanzo", "the novel"],
+        ["restituire un libro", "to return a book"],
+      ],
+      grammar: [
+        ["Passato prossimo per raccontare", "El passato prossimo (“avere/essere” + participio) describe acciones completas en el pasado.", "Ho preso in prestito un romanzo la settimana scorsa. / Lei ha restituito il libro in tempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the library card” en italiano?",["the bookshelf", "la tessera della biblioteca", "to borrow a book", "to return a book"],1,"“The library card” es “la tessera della biblioteca” en italiano."],
+      ["mcq","¿Cómo se dice “the due date” en italiano?",["the library card", "to borrow a book", "the bookshelf", "la data di scadenza"],3,"“The due date” es “la data di scadenza” en italiano."],
+      ["fill","Completa: “___ preso in prestito un romanzo la settimana scorsa.”",["Avevo", "Ho", "Avendo", "Hai"],1,"El passato prossimo con “io” usa “ho” + participio: “ho preso”."],
+      ["translate","Traduce: “She returned the book on time.”",["Lei ha restituito il libro in ritardo.", "Lei restituisce il libro in tempo.", "Lei ha restituito il libro in tempo.", "Lei ha restituito il romanzo in tempo."],2,"“Returned” se traduce con passato prossimo: “ha restituito”."],
+      ["arrange","Ordena: [scaffale / è / libro / sullo / il]",["scaffale il sullo è libro", "sullo scaffale il libro è", "il libro è sullo scaffale", "libro sullo il scaffale è"],2,"Artículo + sustantivo + verbo + preposición articulada + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, la última vez que pediste prestado un libro en la biblioteca, usando el passato prossimo.",[],["ho preso in prestito", "ho restituito", "biblioteca"]],
+    ]
+  },
+  {
+    id:"it_b1_parenting_childcare", level:"B1", title:"La genitorialità e la cura dei neonati", emoji:"👶", xp:62,
+    description:"Impara il vocabolario sulla genitorialità e a usare l'imperfetto per le abitudini passate in italiano.",
+    study: {
+      vocab: [
+        ["allattare", "to breastfeed"],
+        ["la culla", "the crib"],
+        ["far ruttare il bambino", "to burp the baby"],
+        ["la routine della nanna", "bedtime routine"],
+        ["fare da baby-sitter", "to babysit"],
+        ["il pediatra", "the pediatrician"],
+      ],
+      grammar: [
+        ["Imperfetto per le abitudini passate", "El imperfetto describe hábitos o estados repetidos en el pasado, sin un final marcado.", "Il bambino si svegliava ogni due ore. / Andavamo dal pediatra ogni mese."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “the crib” en italiano?",["to babysit", "bedtime routine", "the pediatrician", "la culla"],3,"“The crib” es “la culla” en italiano."],
+      ["mcq","¿Cómo se dice “the pediatrician” en italiano?",["the pediatrician", "to burp the baby", "bedtime routine", "il pediatra"],3,"“The pediatrician” es “il pediatra” en italiano."],
+      ["fill","Completa: “Il bambino ___ ogni due ore.”",["si svegliava", "si sveglia", "si è svegliato", "svegliandosi"],0,"El imperfetto describe un hábito repetido en el pasado: “si svegliava”."],
+      ["translate","Traduce: “We used to visit the pediatrician every month.”",["Andavamo dal pediatra ogni mese.", "Andavamo dal pediatra ogni settimana.", "Andiamo dal pediatra ogni mese.", "Andavamo dal dentista ogni mese."],0,"“Used to visit” se traduce con imperfetto: “andavamo”."],
+      ["arrange","Ordena: [culla / dormiva / nella / lei]",["lei dormiva nella culla", "culla nella lei dormiva", "nella dormiva culla lei", "nella dormiva lei culla"],0,"Sujeto + verbo + preposición articulada + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre la rutina de cuidado de un bebé que conoces, usando el imperfetto para hábitos pasados.",[],["si svegliava", "culla", "pediatra"]],
+    ]
+  },
+  {
+    id:"it_b2_archaeology_discoveries", level:"B2", title:"L'archeologia e le scoperte storiche", emoji:"🏺", xp:84,
+    description:"Habla de descubrimientos arqueológicos usando el futuro anteriore de probabilidad en italiano.",
+    study: {
+      vocab: [
+        ["il sito archeologico", "archaeological site"],
+        ["scavare", "to excavate"],
+        ["l'antica civiltà", "ancient civilization"],
+        ["il manufatto", "artifact"],
+        ["datare (un reperto)", "to date (a find)"],
+        ["le rovine", "ruins"],
+      ],
+      grammar: [
+        ["Futuro anteriore di probabilità sul passato", "El futuro anteriore (“avrà/sarà” + participio) también expresa una deducción o suposición sobre el pasado, equivalente a “must/might have” en inglés.", "Questo manufatto sarà appartenuto a un re. / Il sito potrebbe essere stato un tempio."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancient civilization” en italiano?",["ruins", "l'antica civiltà", "to excavate", "to date (a find)"],1,"“Ancient civilization” es “l'antica civiltà” en italiano."],
+      ["mcq","¿Cómo se dice “to excavate” en italiano?",["ancient civilization", "to excavate", "artifact", "scavare"],3,"“To excavate” es “scavare” en italiano."],
+      ["fill","Completa: “Questo manufatto ___ appartenuto a un re.”",["sarà", "sarebbe", "era", "è"],0,"El futuro anteriore de probabilidad usa “sarà” + participio: “sarà appartenuto”."],
+      ["translate","Traduce: “The site might have been a temple.”",["Il sito potrebbe essere un tempio.", "Il sito sarà stato un tempio.", "Il sito potrebbe essere stato un tempio.", "Il sito potrebbe essere stato un palazzo."],2,"“Might have been” se traduce con condicional de probabilidad: “potrebbe essere stato”."],
+      ["arrange","Ordena: [costruito / antica / questo / civiltà / avrà / una]",["questo civiltà avrà antica costruito una", "antica questo una civiltà costruito avrà", "una civiltà antica avrà costruito questo", "avrà antica questo costruito una civiltà"],2,"Artículo + sustantivo + adjetivo + futuro anteriore + pronombre."],
+      ["writing","Escribe en italiano, en 55-75 palabras, una hipótesis sobre un descubrimiento arqueológico imaginario, usando el futuro anteriore o el condicional de probabilidad al menos dos veces.",[],["sarà stato", "potrebbe essere stato", "manufatto"]],
+    ]
+  },
+  {
+    id:"it_c1_neuroscience_brain", level:"C1", title:"Le neuroscienze e il cervello", emoji:"🧬", xp:92,
+    description:"Analiza la neurociencia usando estructuras enfáticas en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["la via neurale", "neural pathway"],
+        ["la sinapsi", "synapse"],
+        ["la neuroplasticità", "neuroplasticity"],
+        ["la funzione cognitiva", "cognitive function"],
+        ["il neurotrasmettitore", "neurotransmitter"],
+        ["la risonanza cerebrale", "brain scan"],
+      ],
+      grammar: [
+        ["Strutture enfatiche con avverbi iniziali", "En italiano formal/académico, colocar un adverbio restrictivo al inicio (“Raramente”, “Solo così”) da énfasis a la oración, un rasgo típico del registro académico.", "Raramente i ricercatori hanno trovato prove così chiare di neuroplasticità. / Solo così si spiega la funzione cognitiva."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “neuroplasticity” en italiano?",["synapse", "brain scan", "neuroplasticity", "la neuroplasticità"],3,"“Neuroplasticity” es “la neuroplasticità” en italiano."],
+      ["mcq","¿Cómo se dice “synapse” en italiano?",["brain scan", "neuroplasticity", "neural pathway", "la sinapsi"],3,"“Synapse” es “la sinapsi” en italiano."],
+      ["fill","Completa: “Raramente i ricercatori ___ trovato prove così chiare.”",["avranno", "hanno", "ha", "avevano"],1,"El passato prossimo con “i ricercatori” usa “hanno” + participio: “hanno trovato”."],
+      ["translate","Traduce con estructura enfática: “Rarely have researchers found such clear evidence.”",["Raramente i ricercatori trovano prove così chiare.", "Raramente i ricercatori hanno trovato prove così chiare.", "I ricercatori hanno raramente trovato prove così chiare.", "Raramente i ricercatori hanno trovato prove poco chiare."],1,"La estructura enfática coloca el adverbio primero, seguido del sujeto y el verbo: “raramente i ricercatori hanno trovato”."],
+      ["arrange","Ordena: [adatta / cervello / si / bene / il]",["il cervello si adatta bene", "adatta il bene cervello si", "bene il adatta si cervello", "il bene adatta cervello si"],0,"Artículo + sustantivo + pronombre reflexivo + verbo + adverbio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre el cerebro usando al menos una estructura enfática con “raramente” o “solo così”.",[],["raramente", "neuroplasticità", "funzione cognitiva"]],
+    ]
+  },
+  {
+    id:"it_c2_behavioral_economics", level:"C2", title:"L'economia comportamentale e i bias cognitivi", emoji:"🧩", xp:100,
+    description:"Analiza la economía conductual usando nominalización en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["il bias cognitivo", "cognitive bias"],
+        ["l'avversione alla perdita", "loss aversion"],
+        ["l'effetto ancoraggio", "anchoring effect"],
+        ["il processo decisionale", "decision-making"],
+        ["il comportamento irrazionale", "irrational behavior"],
+        ["la spinta gentile", "nudge"],
+      ],
+      grammar: [
+        ["Nominalizzazione nel registro accademico", "La nominalización convierte verbos en sustantivos abstractos (“decidere” → “il processo decisionale”), un rasgo típico del italiano académico formal.", "La persistenza del bias cognitivo influisce sul processo decisionale. / I ricercatori studiano l'evitamento della perdita."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “loss aversion” en italiano?",["cognitive bias", "anchoring effect", "loss aversion", "l'avversione alla perdita"],3,"“Loss aversion” es “l'avversione alla perdita” en italiano."],
+      ["mcq","¿Cómo se dice “anchoring effect” en italiano?",["anchoring effect", "nudge", "loss aversion", "l'effetto ancoraggio"],3,"“Anchoring effect” es “l'effetto ancoraggio” en italiano."],
+      ["fill","Completa: “La persistenza del bias cognitivo influisce sul ___.”",["decidendo", "processo decisionale", "decidere", "decisione"],1,"La forma nominalizada de “decidere” en este registro académico es “il processo decisionale”."],
+      ["translate","Traduce en registro académico: “Loss aversion affects decision-making.”",["L'avversione alla perdita influisce sul processo decisionale.", "L'avversione alla perdita influisce sul decidere.", "L'avversione alla perdita influiscono sul processo decisionale.", "La perdita di avversione influisce sul processo decisionale."],0,"“Decision-making” se traduce con la forma nominalizada “il processo decisionale”, no con el verbo “decidere”."],
+      ["arrange","Ordena: [cognitivo / studiano / ricercatori / bias / i / il]",["ricercatori cognitivo il bias studiano i", "i ricercatori studiano il bias cognitivo", "ricercatori studiano il bias i cognitivo", "il studiano cognitivo i bias ricercatori"],1,"Artículo + sustantivo + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre un sesgo cognitivo, usando al menos dos sustantivos nominalizados (como “il processo decisionale” o “l'evitamento”).",[],["il processo decisionale", "bias cognitivo", "avversione alla perdita"]],
+    ]
+  },
+  {
+    id:"it_a1_photography_cameras", level:"A1", title:"La fotografia e le macchine fotografiche", emoji:"📷", xp:38,
+    description:"Impara il vocabolario della fotografia e a usare “potere” per l'abilità in italiano.",
+    study: {
+      vocab: [
+        ["la macchina fotografica", "camera"],
+        ["la foto", "photo/picture"],
+        ["l'obiettivo", "lens"],
+        ["scattare una foto", "to take a picture"],
+        ["lo zoom", "zoom"],
+        ["la scheda di memoria", "memory card"],
+      ],
+      grammar: [
+        ["“Potere” per l'abilità", "“Potere” + infinitivo expresa habilidad o capacidad; en negativo se usa “non può”.", "Posso scattare belle foto con questa macchina. / Questa macchina non può zumare molto lontano."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “lens” en italiano?",["camera", "l'obiettivo", "photo/picture", "to take a picture"],1,"“Lens” es “l'obiettivo” en italiano."],
+      ["mcq","¿Cómo se dice “memory card” en italiano?",["to take a picture", "la scheda di memoria", "camera", "lens"],1,"“Memory card” es “la scheda di memoria” en italiano."],
+      ["fill","Completa: “Questa macchina non ___ zumare molto lontano.”",["può", "possono", "puoi", "posso"],0,"“Potere” conjugado en tercera persona singular es “può”."],
+      ["translate","Traduce: “I can take good photos with this camera.”",["Non posso scattare belle foto con questa macchina.", "Posso scattare belle foto con quella macchina.", "Posso scatto belle foto con questa macchina.", "Posso scattare belle foto con questa macchina."],3,"“I can take” se traduce con “posso scattare”, “potere” + infinitivo."],
+      ["arrange","Ordena: [lontano / zumare / non / molto / può / questa / macchina]",["può zumare questa lontano molto macchina non", "zumare questa non macchina può molto lontano", "questa macchina non può zumare molto lontano", "questa lontano non può molto macchina zumare"],2,"Pronombre + sustantivo + negación + verbo + verbo + adverbio + adverbio."],
+      ["writing","Describe en italiano, en 20-30 palabras, lo que puedes y no puedes hacer con tu cámara o teléfono, usando “potere”.",[],["posso", "non può", "macchina"]],
+    ]
+  },
+  {
+    id:"it_a2_camping_outdoors", level:"A2", title:"Il campeggio e le attività all'aperto", emoji:"🏕️", xp:48,
+    description:"Impara il vocabolario del campeggio e a usare “un po'/niente” per le quantità in italiano.",
+    study: {
+      vocab: [
+        ["la tenda", "tent"],
+        ["il sacco a pelo", "sleeping bag"],
+        ["il falò", "campfire"],
+        ["il sentiero", "hiking trail"],
+        ["lo zaino", "backpack"],
+        ["montare una tenda", "to pitch a tent"],
+      ],
+      grammar: [
+        ["“Un po' di/niente” per le quantità", "“Un po' di” se usa en afirmativas para cantidades indefinidas; “niente” se usa en negativas.", "Abbiamo un po' di legna per il falò. / Non ci resta niente acqua."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sleeping bag” en italiano?",["il sacco a pelo", "hiking trail", "to pitch a tent", "campfire"],0,"“Sleeping bag” es “il sacco a pelo” en italiano."],
+      ["mcq","¿Cómo se dice “hiking trail” en italiano?",["il sentiero", "campfire", "tent", "sleeping bag"],0,"“Hiking trail” es “il sentiero” en italiano."],
+      ["fill","Completa: “Non ci resta ___ acqua.”",["niente", "un po' di", "poco", "molto"],0,"En oraciones negativas se usa “niente”: “non ci resta niente acqua”."],
+      ["translate","Traduce: “We have some firewood for the campfire.”",["Abbiamo un po' di legna per la tenda.", "Ho un po' di legna per il falò.", "Abbiamo un po' di legna per il falò.", "Abbiamo niente legna per il falò."],2,"“Some firewood” en afirmativa se traduce con “un po' di legna”."],
+      ["arrange","Ordena: [lungo / sentiero / è / questo]",["lungo è sentiero questo", "è questo lungo sentiero", "questo sentiero è lungo", "lungo è questo sentiero"],2,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, un plan de camping usando “un po' di/niente” para lo que necesitas llevar.",[],["un po' di", "niente", "tenda"]],
+    ]
+  },
+  {
+    id:"it_b1_beekeeping_bees", level:"B1", title:"L'apicoltura e le api", emoji:"🐝", xp:62,
+    description:"Impara il vocabolario dell'apicoltura e a usare le proposizioni relative in italiano.",
+    study: {
+      vocab: [
+        ["l'alveare", "beehive"],
+        ["il miele", "honey"],
+        ["pungere", "to sting"],
+        ["impollinare", "to pollinate"],
+        ["l'apicoltore", "beekeeper"],
+        ["l'ape regina", "queen bee"],
+      ],
+      grammar: [
+        ["Proposizioni relative (che/il quale)", "“Che” es el pronombre relativo más común en italiano, usado tanto para personas como para cosas, sujeto u objeto.", "L'apicoltore che gestisce questo alveare è molto esperto. / Le api, che impollinano i fiori, sono essenziali."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “beehive” en italiano?",["l'alveare", "to sting", "honey", "queen bee"],0,"“Beehive” es “l'alveare” en italiano."],
+      ["mcq","¿Cómo se dice “to pollinate” en italiano?",["impollinare", "beekeeper", "queen bee", "honey"],0,"“To pollinate” es “impollinare” en italiano."],
+      ["fill","Completa: “L'apicoltore ___ gestisce questo alveare è molto esperto.”",["il quale", "dove", "cui", "che"],3,"“Che” se usa como relativo general: “l'apicoltore che gestisce”."],
+      ["translate","Traduce: “Bees, which pollinate flowers, are essential to farming.”",["Le api, il quale impollinano i fiori, sono essenziali per l'agricoltura.", "Le api, che impollina i fiori, sono essenziali per l'agricoltura.", "Le api, che impollinano i fiori, è essenziale per l'agricoltura.", "Le api, che impollinano i fiori, sono essenziali per l'agricoltura."],3,"“Which” se traduce con “che” en esta cláusula explicativa: “le api, che impollinano...”."],
+      ["arrange","Ordena: [alveare / api / che / vivono / le / nell']",["le api che vivono nell'alveare", "vivono nell'alveare che api le", "nell'alveare api vivono le che", "vivono le api che nell'alveare"],0,"Artículo + sustantivo + “che” + verbo + preposición articulada + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre la importancia de las abejas usando al menos una proposición relativa (“che”).",[],["che", "alveare", "api"]],
+    ]
+  },
+  {
+    id:"it_b2_cryptocurrency_digital_finance", level:"B2", title:"Le criptovalute e la finanza digitale", emoji:"₿", xp:84,
+    description:"Habla de criptomonedas usando el periodo ipotetico del terzo tipo en italiano.",
+    study: {
+      vocab: [
+        ["la criptovaluta", "cryptocurrency"],
+        ["la blockchain", "blockchain"],
+        ["il portafoglio digitale", "digital wallet"],
+        ["investire", "to invest"],
+        ["la volatilità", "volatility"],
+        ["decentralizzato", "decentralized"],
+      ],
+      grammar: [
+        ["Periodo ipotetico del terzo tipo (passato irreale)", "El periodo ipotetico del terzo tipo (“se” + congiuntivo trapassato, condizionale passato) describe una situación hipotética en el pasado que no ocurrió.", "Se avessi investito prima, avrei guadagnato più soldi. / Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “blockchain” en italiano?",["digital wallet", "decentralized", "la blockchain", "cryptocurrency"],2,"“Blockchain” es “la blockchain” en italiano."],
+      ["mcq","¿Cómo se dice “volatility” en italiano?",["la volatilità", "cryptocurrency", "decentralized", "blockchain"],0,"“Volatility” es “la volatilità” en italiano."],
+      ["fill","Completa: “Se ___ investito prima, avrei guadagnato più soldi.”",["avevo", "ho", "avrei", "avessi"],3,"Tras “se” hipotético sobre el pasado se usa congiuntivo trapassato: “se avessi investito”."],
+      ["translate","Traduce: “If the market hadn't crashed, prices would have stayed high.”",["Se il mercato non fosse crollato, i prezzi sarebbero rimasto alti.", "Se il mercato non fosse crollato, i prezzi sarebbero rimasti alti.", "Se il mercato non fosse crollato, i prezzi rimarrebbero alti.", "Se il mercato non è crollato, i prezzi sarebbero rimasti alti."],1,"“Hadn't crashed... would have stayed” se traduce con congiuntivo trapassato + condizionale passato."],
+      ["arrange","Ordena: [rischiosa / è / criptovaluta / molto / la]",["rischiosa molto è la criptovaluta", "la criptovaluta è molto rischiosa", "criptovaluta molto la è rischiosa", "molto la criptovaluta è rischiosa"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre una decisión financiera pasada usando “se avessi... avrei...” al menos dos veces.",[],["se avessi", "avrei", "criptovaluta"]],
+    ]
+  },
+  {
+    id:"it_c1_bioethics_gene_editing", level:"C1", title:"La bioetica e l'editing genetico", emoji:"🧬", xp:92,
+    description:"Analiza la bioética usando “così...che/talmente...che” para énfasis en italiano.",
+    study: {
+      vocab: [
+        ["l'editing genetico", "gene editing"],
+        ["il consenso informato", "informed consent"],
+        ["la sperimentazione clinica", "clinical trial"],
+        ["la modificazione genetica", "genetic modification"],
+        ["il dilemma etico", "ethical dilemma"],
+        ["manipolare il DNA", "to manipulate DNA"],
+      ],
+      grammar: [
+        ["“Così...che/talmente...che” para énfasis", "“Così” + adjetivo/adverbio + “che” expresa una consecuencia enfática, típica del registro formal/académico.", "L'editing genetico è così potente che solleva serie questioni etiche. / È un dilemma talmente complesso che gli esperti non sono ancora d'accordo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “informed consent” en italiano?",["gene editing", "clinical trial", "il consenso informato", "informed consent"],2,"“Informed consent” es “il consenso informato” en italiano."],
+      ["mcq","¿Cómo se dice “clinical trial” en italiano?",["genetic modification", "la sperimentazione clinica", "gene editing", "ethical dilemma"],1,"“Clinical trial” es “la sperimentazione clinica” en italiano."],
+      ["fill","Completa: “L'editing genetico è ___ potente che solleva serie questioni etiche.”",["troppo", "molto", "talmente", "così"],3,"“Così” + adjetivo + “che” expresa consecuencia enfática: “così potente che”."],
+      ["translate","Traduce con estructura enfática: “It is such a complex issue that experts still disagree.”",["È un dilemma talmente complesso che gli esperti non sono ancora d'accordo.", "È un dilemma talmente complesso che gli esperti sono ancora d'accordo.", "È un dilemma così complesso che gli esperti non sono ancora d'accordo.", "È talmente un dilemma complesso che gli esperti non sono ancora d'accordo."],0,"“Così” también funciona: “così complesso che” es equivalente a “talmente complesso che”."],
+      ["arrange","Ordena: [etico / reale / un / questo / è / dilemma]",["questo dilemma un reale è etico", "reale etico dilemma è un questo", "dilemma questo etico un è reale", "questo è un dilemma etico reale"],3,"Pronombre + verbo + artículo + sustantivo + adjetivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre la edición genética usando “così...che” o “talmente...che” al menos dos veces.",[],["così...che", "talmente...che", "editing genetico"]],
+    ]
+  },
+  {
+    id:"it_c2_geopolitics_international_relations", level:"C2", title:"La geopolitica e le relazioni internazionali", emoji:"🌐", xp:100,
+    description:"Analiza la geopolítica usando el gerundio y el participio en registro académico en italiano.",
+    study: {
+      vocab: [
+        ["le relazioni diplomatiche", "diplomatic relations"],
+        ["la sovranità", "sovereignty"],
+        ["le sanzioni", "sanctions"],
+        ["l'accordo bilaterale", "bilateral agreement"],
+        ["la tensione geopolitica", "geopolitical tension"],
+        ["negoziare un trattato", "to negotiate a treaty"],
+      ],
+      grammar: [
+        ["Gerundio y participio per un registro accademico conciso", "El gerundio (“Analizzando...”) y el participio pasado en construcciones absolutas (“Di fronte alle crescenti sanzioni...”) permiten un estilo más conciso y formal.", "Analizzando i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate. / Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sovereignty” en italiano?",["sovereignty", "sanctions", "la sovranità", "bilateral agreement"],2,"“Sovereignty” es “la sovranità” en italiano."],
+      ["mcq","¿Cómo se dice “geopolitical tension” en italiano?",["diplomatic relations", "bilateral agreement", "la tensione geopolitica", "sovereignty"],2,"“Geopolitical tension” es “la tensione geopolitica” en italiano."],
+      ["fill","Completa: “___ i dati, i ricercatori hanno concluso che le tensioni sarebbero aumentate.”",["Analizzare", "Analizzando", "Analizzato", "Analizzano"],1,"El gerundio en posición inicial resume una cláusula subordinada: “analizzando i dati”."],
+      ["translate","Traduce con construcción concisa: “Faced with mounting sanctions, the government changed its policy.”",["Di fronte alle crescenti sanzioni, il governo cambia la sua politica.", "Di fronte alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Davanti alle crescenti sanzioni, il governo ha cambiato la sua politica.", "Di fronte le crescenti sanzioni, il governo ha cambiato la sua politica."],1,"“Faced with mounting sanctions” se traduce de forma concisa con “di fronte alle crescenti sanzioni”."],
+      ["arrange","Ordena: [negozieranno / nazioni / trattato / le / il]",["le nazioni trattato il negozieranno", "le il negozieranno nazioni trattato", "le nazioni negozieranno il trattato", "negozieranno trattato il le nazioni"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un párrafo académico sobre geopolítica usando al menos una construcción con gerundio o participio inicial (“Analizzando...” o “Di fronte a...”).",[],["analizzando", "di fronte a", "sovranità"]],
+    ]
+  },
+  {
+    id:"it_a1_hairdresser_personal_care", level:"A1", title:"Il parrucchiere e la cura personale", emoji:"💇", xp:38,
+    description:"Impara il vocabolario del parrucchiere e a usare il comparativo e il superlativo in italiano.",
+    study: {
+      vocab: [
+        ["il taglio di capelli", "haircut"],
+        ["il parrucchiere/la parrucchiera", "hairdresser"],
+        ["le forbici", "scissors"],
+        ["i capelli corti/lunghi", "short/long hair"],
+        ["spuntare", "to trim"],
+        ["lo specchio", "mirror"],
+      ],
+      grammar: [
+        ["Comparativo e superlativo", "El comparativo se forma con “più/meno... di”, y el superlativo con “il/la più...”.", "Questo taglio è più corto dell'ultimo. / Lei ha i capelli più lunghi della famiglia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “scissors” en italiano?",["haircut", "le forbici", "mirror", "to trim"],1,"“Scissors” es “le forbici” en italiano."],
+      ["mcq","¿Cómo se dice “to trim” en italiano?",["spuntare", "scissors", "short/long hair", "haircut"],0,"“To trim” es “spuntare” en italiano."],
+      ["fill","Completa: “Questo taglio è ___ corto dell'ultimo.”",["il più", "meno", "tanto", "più"],3,"El comparativo de superioridad se forma con “più... di”: “più corto di”."],
+      ["translate","Traduce: “She has the longest hair in the family.”",["Lei ha i capelli più lunghi nella famiglia.", "Lei ha i capelli più lungo della famiglia.", "Lei ha i capelli più lunghi della famiglia.", "Lei hanno i capelli più lunghi della famiglia."],2,"“The longest... in” se traduce con “i più lunghi della” en italiano."],
+      ["arrange","Ordena: [migliore / città / questo / è / parrucchiere / della]",["questo è il migliore parrucchiere della città", "della è città parrucchiere questo migliore il", "questo della è migliore città parrucchiere il", "città migliore questo della è parrucchiere il"],0,"Pronombre + verbo + artículo + superlativo + sustantivo + preposición articulada + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, tu corte de pelo ideal usando comparativos o superlativos.",[],["più corto", "il più lungo", "taglio di capelli"]],
+    ]
+  },
+  {
+    id:"it_a2_car_repair_shop", level:"A2", title:"L'officina meccanica e la macchina", emoji:"🚗", xp:48,
+    description:"Impara il vocabolario dell'officina e a usare “molto/molti” in italiano.",
+    study: {
+      vocab: [
+        ["il meccanico", "mechanic"],
+        ["la gomma a terra", "flat tire"],
+        ["il motore", "engine"],
+        ["riparare la macchina", "to fix the car"],
+        ["il pezzo di ricambio", "spare part"],
+        ["il cambio dell'olio", "oil change"],
+      ],
+      grammar: [
+        ["“Molto/molti” per le quantità", "“Molto” concuerda en género y número con el sustantivo: “molto tempo”, “molti pezzi”, “molta acqua”.", "Questa riparazione ha bisogno di molti pezzi di ricambio. / Non resta molto tempo prima del viaggio."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “flat tire” en italiano?",["spare part", "to fix the car", "oil change", "la gomma a terra"],3,"“Flat tire” es “la gomma a terra” en italiano."],
+      ["mcq","¿Cómo se dice “spare part” en italiano?",["il pezzo di ricambio", "oil change", "spare part", "flat tire"],0,"“Spare part” es “il pezzo di ricambio” en italiano."],
+      ["fill","Completa: “Non resta ___ tempo prima del viaggio.”",["molti", "molte", "molto", "molta"],2,"“Tempo” es masculino singular, así que se usa “molto”: “molto tempo”."],
+      ["translate","Traduce: “This repair needs a lot of spare parts.”",["Questa riparazione ha bisogno di molte pezzi di ricambio.", "Questa riparazione ha bisogno di molti pezzi di ricambio.", "Questa riparazione ha bisogno di molto pezzi di ricambio.", "Questa riparazione hanno bisogno di molti pezzi di ricambio."],1,"“Pezzi” es masculino plural, así que se usa “molti”: “molti pezzi”."],
+      ["arrange","Ordena: [riparato / meccanico / motore / ha / il / il]",["motore il ha meccanico il riparato", "riparato motore il ha meccanico il", "il meccanico ha riparato il motore", "motore il meccanico riparato ha il"],2,"Artículo + sustantivo + auxiliar + participio + artículo + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, un problema con tu carro usando “molto/molti”.",[],["molto", "molti", "pezzi di ricambio"]],
+    ]
+  },
+  {
+    id:"it_b1_learning_musical_instrument", level:"B1", title:"La musica e imparare uno strumento", emoji:"🎸", xp:62,
+    description:"Impara il vocabolario musicale e la differenza tra gerundio e infinito in italiano.",
+    study: {
+      vocab: [
+        ["fare le scale", "to practice scales"],
+        ["lo spartito", "sheet music"],
+        ["accordare uno strumento", "to tune an instrument"],
+        ["il ritmo", "rhythm"],
+        ["l'insegnante di musica", "music teacher"],
+        ["esibirsi", "to perform"],
+      ],
+      grammar: [
+        ["Gerundio vs. infinito", "Algunos verbos van seguidos de gerundio (“amo fare” en italiano en realidad prefiere infinitivo: “amo suonare”), otros de infinitivo (“voglio suonare”); el gerundio italiano se usa más con “stare” para acciones en curso.", "Sto facendo le scale ogni mattina. / Lei vuole esibirsi davanti a un pubblico."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “sheet music” en italiano?",["lo spartito", "music teacher", "to practice scales", "to tune an instrument"],0,"“Sheet music” es “lo spartito” en italiano."],
+      ["mcq","¿Cómo se dice “to tune an instrument” en italiano?",["music teacher", "sheet music", "to practice scales", "accordare uno strumento"],3,"“To tune an instrument” es “accordare uno strumento” en italiano."],
+      ["fill","Completa: “Sto ___ le scale ogni mattina.”",["fatto", "faccio", "facendo", "fare"],2,"“Stare” + gerundio expresa una acción en curso: “sto facendo”."],
+      ["translate","Traduce: “She wants to perform in front of an audience.”",["Lei vuole esibirsi davanti a una pubblico.", "Lei vuole esibirsi davanti a un pubblico.", "Lei vuole esibendosi davanti a un pubblico.", "Lei vogliono esibirsi davanti a un pubblico."],1,"“Want to perform” se traduce con infinitivo: “vuole esibirsi”."],
+      ["arrange","Ordena: [accordatura / bisogno / strumento / questo / ha / di]",["di questo bisogno accordatura ha strumento", "questo strumento ha bisogno di accordatura", "di strumento accordatura ha questo bisogno", "accordatura bisogno di ha questo strumento"],1,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre aprender un instrumento musical usando al menos un verbo con gerundio y uno con infinitivo.",[],["sto facendo", "voglio imparare", "esibirsi"]],
+    ]
+  },
+  {
+    id:"it_b2_recycling_circular_economy", level:"B2", title:"Il riciclaggio e l'economia circolare", emoji:"♻️", xp:84,
+    description:"Habla del reciclaje usando el presente para verdades generales (periodo ipotetico della realtà) en italiano.",
+    study: {
+      vocab: [
+        ["riciclare", "to recycle"],
+        ["l'economia circolare", "circular economy"],
+        ["la gestione dei rifiuti", "waste management"],
+        ["riutilizzare", "to reuse"],
+        ["la discarica", "landfill"],
+        ["la materia prima", "raw material"],
+      ],
+      grammar: [
+        ["Presente per le verità generali (periodo ipotetico della realtà)", "En italiano, el condicional cero se expresa con “se” + presente en ambas cláusulas, para hechos o verdades generales.", "Se ricicli la carta, si risparmiano alberi. / I materiali finiscono in discarica se non vengono riutilizzati."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “circular economy” en italiano?",["l'economia circolare", "landfill", "to reuse", "to recycle"],0,"“Circular economy” es “l'economia circolare” en italiano."],
+      ["mcq","¿Cómo se dice “landfill” en italiano?",["landfill", "raw material", "to reuse", "la discarica"],3,"“Landfill” es “la discarica” en italiano."],
+      ["fill","Completa: “Se ___ la carta, si risparmiano alberi.”",["riciclavi", "ricicli", "riciclando", "riciclerai"],1,"El condicional cero usa presente en ambas cláusulas: “se ricicli”."],
+      ["translate","Traduce: “Materials go to a landfill if they aren't reused.”",["I materiali sono finiti in discarica se non vengono riutilizzati.", "I materiali finiscono in discarica se non vengono riutilizzati.", "Il materiale finiscono in discarica se non vengono riutilizzati.", "I materiali finiscono in discarica se non verranno riutilizzati."],1,"El condicional cero mantiene presente en ambas cláusulas: “finiscono... se non vengono riutilizzati”."],
+      ["arrange","Ordena: [prima / risparmia / riciclare / materia]",["prima materia riciclare risparmia", "riciclare materia prima risparmia", "risparmia prima riciclare materia", "riciclare risparmia materia prima"],3,"Verbo + verbo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, una explicación sobre la economía circular usando “se... presente” al menos dos veces.",[],["se ricicli", "se...", "economia circolare"]],
+    ]
+  },
+  {
+    id:"it_c1_political_philosophy_social_justice", level:"C1", title:"La filosofia politica e la giustizia sociale", emoji:"⚖️", xp:92,
+    description:"Analiza la justicia social usando “se solo” para arrepentimiento en registro formal en italiano.",
+    study: {
+      vocab: [
+        ["la giustizia sociale", "social justice"],
+        ["la disuguaglianza", "inequality"],
+        ["i diritti civili", "civil rights"],
+        ["la redistribuzione", "redistribution"],
+        ["l'oppressione sistemica", "systemic oppression"],
+        ["il bene comune", "common good"],
+      ],
+      grammar: [
+        ["“Se solo” + congiuntivo trapassato para arrepentimiento", "“Se solo” + congiuntivo trapassato expresa arrepentimiento o el deseo de que algo pasado hubiera sido diferente.", "Se solo le riforme passate avessero affrontato l'oppressione sistemica. / I filosofi vorrebbero che la disuguaglianza potesse essere risolta solo con la politica."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “inequality” en italiano?",["la disuguaglianza", "civil rights", "redistribution", "systemic oppression"],0,"“Inequality” es “la disuguaglianza” en italiano."],
+      ["mcq","¿Cómo se dice “redistribution” en italiano?",["systemic oppression", "common good", "redistribution", "la redistribuzione"],3,"“Redistribution” es “la redistribuzione” en italiano."],
+      ["fill","Completa: “Se solo le riforme passate ___ affrontato l'oppressione sistemica.”",["abbiano", "avevano", "avrebbero", "avessero"],3,"“Se solo” + congiuntivo trapassato expresa arrepentimiento sobre el pasado: “se solo... avessero affrontato”."],
+      ["translate","Traduce: “Philosophers wish inequality could be solved by policy alone.”",["I filosofi vorrebbero che la disuguaglianza può essere risolta solo con la politica.", "I filosofi vorrebbe che la disuguaglianza potesse essere risolta solo con la politica.", "I filosofi vorrebbero che la disuguaglianza potesse risolvere solo con la politica.", "I filosofi vorrebbero che la disuguaglianza potesse essere risolta solo con la politica."],3,"“Wish... could be solved” se traduce con congiuntivo tras “vorrebbero che”: “potesse essere risolta”."],
+      ["arrange","Ordena: [comune / dibattono / bene / filosofi / il / i]",["i il comune filosofi dibattono bene", "i filosofi dibattono il bene comune", "filosofi il i dibattono comune bene", "dibattono bene i comune filosofi il"],1,"Artículo + sustantivo + verbo + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre justicia social usando “se solo” al menos dos veces.",[],["se solo", "avessero", "giustizia sociale"]],
+    ]
+  },
+  {
+    id:"it_c2_cultural_anthropology_rituals", level:"C2", title:"L'antropologia culturale e i rituali", emoji:"🗿", xp:100,
+    description:"Analiza los rituales culturales usando comparativos dobles en italiano.",
+    study: {
+      vocab: [
+        ["il rituale", "ritual"],
+        ["il relativismo culturale", "cultural relativism"],
+        ["il rito di passaggio", "rite of passage"],
+        ["la parentela", "kinship"],
+        ["l'identità collettiva", "collective identity"],
+        ["la tradizione orale", "oral tradition"],
+      ],
+      grammar: [
+        ["Comparativi doppi (“più... più...”)", "La estructura “più/meno..., più/meno...” expresa cómo dos cosas cambian juntas de forma proporcional.", "Più gli antropologi studiano i rituali, più capiscono l'identità collettiva. / Più una tradizione è antica, più forte è la sua influenza."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cultural relativism” en italiano?",["oral tradition", "il relativismo culturale", "ritual", "rite of passage"],1,"“Cultural relativism” es “il relativismo culturale” en italiano."],
+      ["mcq","¿Cómo se dice “rite of passage” en italiano?",["il rito di passaggio", "oral tradition", "rite of passage", "cultural relativism"],0,"“Rite of passage” es “il rito di passaggio” en italiano."],
+      ["fill","Completa: “___ gli antropologi studiano i rituali, più capiscono l'identità collettiva.”",["Molto", "Meno", "Tanto", "Più"],3,"El comparativo doble repite “più...più” en ambas cláusulas."],
+      ["translate","Traduce con comparativo doble: “The older the tradition, the stronger its influence.”",["Più una tradizione è antica, più forte è la sua influenza.", "Più antica una tradizione è, più forte è la sua influenza.", "Più una tradizione è antica, la sua influenza è più forte.", "Più una tradizione è antica, più forte la sua influenza."],0,"El comparativo doble italiano mantiene “più... è..., più... è...” en ambas cláusulas completas."],
+      ["arrange","Ordena: [passaggio / segnano / riti / di / l'età / adulta / i]",["adulta riti di i segnano passaggio l'età", "i riti di passaggio segnano l'età adulta", "adulta segnano i l'età riti passaggio di", "riti l'età passaggio adulta i di segnano"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre rituales culturales usando al menos un comparativo doble (“più... più...”).",[],["più", "più", "rituale"]],
+    ]
+  },
+  {
+    id:"it_a1_hardware_store_tools", level:"A1", title:"In ferramenta: gli attrezzi di base", emoji:"🔨", xp:38,
+    description:"Impara il vocabolario degli attrezzi e a usare il comparativo di uguaglianza (“così... come”) in italiano.",
+    study: {
+      vocab: [
+        ["il martello", "hammer"],
+        ["il cacciavite", "screwdriver"],
+        ["il chiodo", "nail"],
+        ["la vite", "screw"],
+        ["la cassetta degli attrezzi", "toolbox"],
+        ["la scala", "ladder"],
+      ],
+      grammar: [
+        ["Comparativo di uguaglianza (“tanto... quanto” / “così... come”)", "“Tanto/così” + adjetivo + “quanto/come” expresa que dos cosas son iguales en cierta cualidad.", "Questo martello è pesante quanto quello. / La scala non è alta come il muro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “screwdriver” en italiano?",["screw", "il cacciavite", "hammer", "screwdriver"],1,"“Screwdriver” es “il cacciavite” en italiano."],
+      ["mcq","¿Cómo se dice “ladder” en italiano?",["screw", "la scala", "ladder", "screwdriver"],1,"“Ladder” es “la scala” en italiano."],
+      ["fill","Completa: “Questo martello è pesante ___ quello.”",["come", "quanto", "più", "che"],1,"El comparativo de igualdad con “tanto” omitido usa “quanto”: “pesante quanto”."],
+      ["translate","Traduce: “The ladder isn't as tall as the wall.”",["La scala non è alta come il muro.", "La scala non è alta quanto il muro più.", "La scala non è più alta come il muro.", "La scala è alta come il muro."],0,"“Isn't as... as” se traduce con “non è... come”."],
+      ["arrange","Ordena: [pesante / degli / cassetta / la / attrezzi / è / molto]",["la cassetta degli attrezzi è molto pesante", "cassetta pesante molto degli è la attrezzi", "molto la pesante degli attrezzi è cassetta", "cassetta la degli attrezzi pesante molto è"],0,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, comparando dos herramientas usando “così...come” o “tanto...quanto”.",[],["pesante quanto", "alta come", "martello"]],
+    ]
+  },
+  {
+    id:"it_a2_laundry_clothing_care", level:"A2", title:"La lavanderia e la cura dei vestiti", emoji:"🧺", xp:48,
+    description:"Impara il vocabolario della lavanderia e a usare “alcuni/un po' di” in italiano.",
+    study: {
+      vocab: [
+        ["la lavatrice", "washing machine"],
+        ["il detersivo", "detergent"],
+        ["stendere i panni", "to hang out clothes"],
+        ["la macchia", "stain"],
+        ["l'asciugatrice", "dryer"],
+        ["stirare", "to iron"],
+      ],
+      grammar: [
+        ["“Alcuni/un po' di” per le quantità piccole", "“Alcuni” se usa con sustantivos contables, “un po' di” con incontables, ambos para cantidades pequeñas pero suficientes.", "Ho bisogno di un po' di detersivo per questo carico. / Ci sono alcune macchie su questa camicia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “washing machine” en italiano?",["to hang out clothes", "la lavatrice", "stain", "detergent"],1,"“Washing machine” es “la lavatrice” en italiano."],
+      ["mcq","¿Cómo se dice “stain” en italiano?",["detergent", "la macchia", "to hang out clothes", "stain"],1,"“Stain” es “la macchia” en italiano."],
+      ["fill","Completa: “Ci sono ___ macchie su questa camicia.”",["molto", "poco", "un po' di", "alcune"],3,"“Macchie” es contable plural femenino, así que se usa “alcune”: “alcune macchie”."],
+      ["translate","Traduce: “I need a little detergent for this load.”",["Ho bisogno di un po' di detersivi per questo carico.", "Ho bisogno un po' di detersivo per questo carico.", "Ho bisogno di un po' di detersivo per questo carico.", "Ho bisogno di alcuni detersivo per questo carico."],2,"“Detersivo” es incontable, así que se usa “un po' di”: “un po' di detersivo”."],
+      ["arrange","Ordena: [stirare / bisogna / camicia / questa]",["bisogna stirare questa camicia", "camicia questa stirare bisogna", "questa stirare bisogna camicia", "stirare bisogna camicia questa"],0,"Verbo impersonal + verbo + pronombre + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, tu rutina de lavandería usando “alcuni/un po' di”.",[],["alcuni", "un po' di", "lavatrice"]],
+    ]
+  },
+  {
+    id:"it_b1_chess_strategy_games", level:"B1", title:"Gli scacchi e i giochi da tavolo strategici", emoji:"♟️", xp:62,
+    description:"Impara il vocabolario degli scacchi e a usare il futuro con “se” in italiano.",
+    study: {
+      vocab: [
+        ["la scacchiera", "chessboard"],
+        ["dare scacco matto", "to checkmate"],
+        ["il pedone", "pawn"],
+        ["muovere un pezzo", "to move a piece"],
+        ["la strategia", "strategy"],
+        ["l'avversario", "opponent"],
+      ],
+      grammar: [
+        ["“Se” + presente + futuro semplice", "Para consecuencias reales y probables en el futuro se usa “se” + presente indicativo, y futuro semplice en la consecuencia.", "Se muovi quel pezzo, perderai la partita. / Se lei pianifica bene la sua strategia, vincerà."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to checkmate” en italiano?",["opponent", "pawn", "dare scacco matto", "chessboard"],2,"“To checkmate” es “dare scacco matto” en italiano."],
+      ["mcq","¿Cómo se dice “pawn” en italiano?",["chessboard", "strategy", "il pedone", "to move a piece"],2,"“Pawn” es “il pedone” en italiano."],
+      ["fill","Completa: “Se muovi quel pezzo, ___ la partita.”",["perderesti", "perdi", "hai perso", "perderai"],3,"Tras “se” + presente, se usa futuro semplice en la consecuencia: “se muovi... perderai”."],
+      ["translate","Traduce: “If she plans her strategy well, she will win.”",["Se lei pianificava bene la sua strategia, vincerà.", "Se lei pianifica bene la sua strategia, vincerà.", "Se lei pianifica bene la sua strategia, vince.", "Se lei pianifica bene la sua strategia, vincerebbe."],1,"“If... will win” se traduce con “se” + presente + futuro semplice: “se pianifica... vincerà”."],
+      ["arrange","Ordena: [forte / ha / avversario / un / lei]",["un ha lei forte avversario", "ha avversario un lei forte", "forte avversario lei un ha", "lei ha un avversario forte"],3,"Sujeto + verbo + artículo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre una partida de ajedrez usando “se... futuro” al menos dos veces.",[],["se...", "vincerà", "scacchi"]],
+    ]
+  },
+  {
+    id:"it_b2_historic_building_restoration", level:"B2", title:"Il restauro degli edifici storici", emoji:"🏛️", xp:84,
+    description:"Habla de restauración usando la construcción causativa “far fare” en italiano.",
+    study: {
+      vocab: [
+        ["restaurare", "to restore"],
+        ["il sito patrimoniale", "heritage site"],
+        ["la facciata", "facade"],
+        ["l'impalcatura", "scaffolding"],
+        ["preservare", "to preserve"],
+        ["il danno strutturale", "structural damage"],
+      ],
+      grammar: [
+        ["Costruzione causativa (“far fare”)", "“Fare” + infinitivo expresa que alguien más realiza una acción para nosotros, muy común al hablar de reparaciones o servicios.", "La città ha fatto restaurare la facciata l'anno scorso. / Stanno facendo riparare il tetto questo mese."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “facade” en italiano?",["scaffolding", "heritage site", "facade", "la facciata"],3,"“Facade” es “la facciata” en italiano."],
+      ["mcq","¿Cómo se dice “scaffolding” en italiano?",["heritage site", "to restore", "structural damage", "l'impalcatura"],3,"“Scaffolding” es “l'impalcatura” en italiano."],
+      ["fill","Completa: “La città ha fatto ___ la facciata l'anno scorso.”",["restaurando", "restaurato", "restaurare", "restaura"],2,"La construcción causativa usa “fare” + infinitivo: “ha fatto restaurare”."],
+      ["translate","Traduce: “They are getting the roof repaired this month.”",["Hanno fatto riparare il tetto questo mese già.", "Stanno facendo riparare il tetto questo mese.", "Stanno facendo riparare il tetto da loro questo mese.", "Stanno facendo riparato il tetto questo mese."],1,"“Are getting... repaired” se traduce con “stanno facendo riparare”, construcción causativa en presente progresivo."],
+      ["arrange","Ordena: [preservare / importanti / patrimoniali / siti]",["preservare siti importanti patrimoniali", "importanti siti patrimoniali preservare", "preservare importanti siti patrimoniali", "preservare siti patrimoniali importanti"],2,"Infinitivo + adjetivo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre la restauración de un edificio histórico usando la construcción causativa (“far fare”) al menos dos veces.",[],["ha fatto restaurare", "stanno facendo riparare", "sito patrimoniale"]],
+    ]
+  },
+  {
+    id:"it_c1_philosophy_of_science", level:"C1", title:"La filosofia della scienza e il metodo scientifico", emoji:"🔬", xp:92,
+    description:"Analiza el método científico usando cláusulas de propósito (“al fine di/affinché”) en italiano.",
+    study: {
+      vocab: [
+        ["l'ipotesi", "hypothesis"],
+        ["la falsificabilità", "falsifiability"],
+        ["le prove empiriche", "empirical evidence"],
+        ["la revisione paritaria", "peer review"],
+        ["replicare uno studio", "to replicate a study"],
+        ["il cambio di paradigma", "paradigm shift"],
+      ],
+      grammar: [
+        ["Proposizioni finali (“al fine di/affinché”)", "“Al fine di” + infinitivo y “affinché” + congiuntivo expresan el propósito de una acción, típicos del registro formal/académico.", "Gli scienziati replicano studi al fine di confermare i risultati. / I ricercatori pubblicano dati affinché altri possano verificarli."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “falsifiability” en italiano?",["falsifiability", "to replicate a study", "la falsificabilità", "hypothesis"],2,"“Falsifiability” es “la falsificabilità” en italiano."],
+      ["mcq","¿Cómo se dice “peer review” en italiano?",["falsifiability", "peer review", "empirical evidence", "la revisione paritaria"],3,"“Peer review” es “la revisione paritaria” en italiano."],
+      ["fill","Completa: “I ricercatori pubblicano dati ___ altri possano verificarli.”",["poiché", "affinché", "al fine", "perché"],1,"“Affinché” + congiuntivo expresa propósito cuando los sujetos son distintos: “affinché altri possano”."],
+      ["translate","Traduce con cláusula de propósito: “Scientists replicate studies in order to confirm results.”",["Gli scienziati replicano studi al fine di confermano i risultati.", "Gli scienziato replicano studi al fine di confermare i risultati.", "Gli scienziati replicano studi al fine confermare i risultati.", "Gli scienziati replicano studi al fine di confermare i risultati."],3,"“In order to confirm” en registro formal se traduce con “al fine di confermare”."],
+      ["arrange","Ordena: [bisogno / ipotesi / prove / ha / ogni / empiriche / di]",["ipotesi empiriche ha bisogno prove di ogni", "ogni ipotesi ha bisogno di prove empiriche", "bisogno ogni di ipotesi ha prove empiriche", "prove ha ogni di bisogno ipotesi empiriche"],1,"Adjetivo + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre el método científico usando “al fine di” o “affinché” al menos dos veces.",[],["al fine di", "affinché", "ipotesi"]],
+    ]
+  },
+  {
+    id:"it_c2_game_theory_strategic_decisions", level:"C2", title:"La teoria dei giochi e il processo decisionale strategico", emoji:"🎲", xp:100,
+    description:"Analiza la teoría de juegos usando “né... né” y concesión con “mentre” en italiano.",
+    study: {
+      vocab: [
+        ["l'equilibrio di Nash", "Nash equilibrium"],
+        ["il gioco a somma zero", "zero-sum game"],
+        ["la matrice dei payoff", "payoff matrix"],
+        ["la strategia dominante", "dominant strategy"],
+        ["l'attore razionale", "rational actor"],
+        ["il dilemma del prigioniero", "prisoner's dilemma"],
+      ],
+      grammar: [
+        ["“Né... né” y concesión con “mentre”", "“Né... né” niega dos opciones a la vez; “mentre” introduce un contraste formal entre dos ideas.", "Né l'uno né l'altro giocatore beneficia del tradimento reciproco. / Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Nash equilibrium” en italiano?",["l'equilibrio di Nash", "Nash equilibrium", "rational actor", "zero-sum game"],0,"“Nash equilibrium” es “l'equilibrio di Nash” en italiano."],
+      ["mcq","¿Cómo se dice “prisoner's dilemma” en italiano?",["payoff matrix", "il dilemma del prigioniero", "zero-sum game", "rational actor"],1,"“Prisoner's dilemma” es “il dilemma del prigioniero” en italiano."],
+      ["fill","Completa: “Né l'uno ___ l'altro giocatore beneficia del tradimento.”",["o", "e", "che", "né"],3,"La estructura “né l'uno né l'altro” requiere “né” en ambas partes."],
+      ["translate","Traduce con concesión formal: “Whereas cooperation maximizes joint gain, self-interest often prevails.”",["Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale.", "Mentre la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevalgono.", "Nonostante la cooperazione massimizza il guadagno comune, l'interesse personale spesso prevale.", "Mentre la cooperazione massimizzi il guadagno comune, l'interesse personale spesso prevale."],0,"“Mentre” + indicativo introduce el contraste formal: “la cooperazione massimizza”."],
+      ["arrange","Ordena: [dominante / ha / strategia / nessun / giocatore]",["nessun ha giocatore dominante strategia", "dominante nessun ha giocatore strategia", "dominante giocatore strategia ha nessun", "nessun giocatore ha strategia dominante"],3,"Pronombre negativo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis de teoría de juegos usando “né... né” y “mentre” al menos una vez cada uno.",[],["né...né", "mentre", "equilibrio di Nash"]],
+    ]
+  },
+  {
+    id:"it_a1_diving_water_sports", level:"A1", title:"Le immersioni e gli sport acquatici", emoji:"🤿", xp:38,
+    description:"Impara il vocabolario delle immersioni e a usare le preposizioni di luogo in italiano.",
+    study: {
+      vocab: [
+        ["immergersi", "to dive"],
+        ["il boccaglio", "snorkel"],
+        ["il pesce", "fish"],
+        ["la barriera corallina", "coral reef"],
+        ["la muta", "wetsuit"],
+        ["sott'acqua", "underwater"],
+      ],
+      grammar: [
+        ["Preposizioni di luogo (in/su/sotto/accanto a)", "“In” indica dentro de algo, “su” indica encima de una superficie, “sotto” indica debajo, y “accanto a” indica al lado.", "I pesci nuotano nell'acqua. / La barriera corallina è sotto la barca."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “coral reef” en italiano?",["underwater", "la barriera corallina", "to dive", "wetsuit"],1,"“Coral reef” es “la barriera corallina” en italiano."],
+      ["mcq","¿Cómo se dice “wetsuit” en italiano?",["fish", "coral reef", "la muta", "snorkel"],2,"“Wetsuit” es “la muta” en italiano."],
+      ["fill","Completa: “La barriera corallina è ___ la barca.”",["in", "su", "accanto", "sotto"],3,"“Sotto” indica una posición debajo de algo: “sotto la barca”."],
+      ["translate","Traduce: “The fish swim in the water.”",["I pesci nuotano sotto l'acqua è.", "I pesci nuotano sull'acqua.", "I pesci nuotano accanto all'acqua.", "I pesci nuotano nell'acqua."],3,"“In the water” se traduce con “nell'acqua”, ya que están dentro de ella."],
+      ["arrange","Ordena: [barca / della / accanto / sub / è / il]",["sub accanto alla il è barca", "il sub è accanto alla barca", "accanto alla sub il è barca", "il alla sub barca accanto è"],1,"Artículo + sustantivo + verbo + preposición + preposición articulada + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, lo que ves al bucear usando preposiciones de lugar (in/su/sotto/accanto a).",[],["sotto", "in", "pesci"]],
+    ]
+  },
+  {
+    id:"it_a2_origami_crafts", level:"A2", title:"L'origami e il fai da te creativo", emoji:"🎨", xp:48,
+    description:"Impara il vocabolario del fai da te e a usare i connettori di sequenza in italiano.",
+    study: {
+      vocab: [
+        ["piegare", "to fold"],
+        ["la carta", "paper"],
+        ["le forbici", "scissors"],
+        ["la colla", "glue"],
+        ["la piega", "crease"],
+        ["il lavoretto", "craft"],
+      ],
+      grammar: [
+        ["Connettori di sequenza (prima, poi, dopo, infine)", "Los secuenciadores organizan los pasos de un proceso en orden: “prima” (primero), “poi/dopo” (luego), “infine” (finalmente).", "Prima, piega la carta a metà. Poi, fai una piega. Infine, piega gli angoli."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “crease” en italiano?",["la piega", "scissors", "to fold", "glue"],0,"“Crease” es “la piega” en italiano."],
+      ["mcq","¿Cómo se dice “glue” en italiano?",["paper", "craft", "la colla", "to fold"],2,"“Glue” es “la colla” en italiano."],
+      ["fill","Completa: “Prima, piega la carta. ___, fai una piega.”",["Infine", "Prima", "Prima di", "Poi"],3,"“Poi” conecta el segundo paso después de “prima”."],
+      ["translate","Traduce: “Finally, fold the corners.”",["Infine, piega gli angoli.", "Poi, piega gli angoli.", "Infine, piegando gli angoli.", "Infine, piega l'angolo."],0,"“Finally” se traduce con “Infine” al inicio de la oración."],
+      ["arrange","Ordena: [forbici / bisogno / lavoretto / questo / di / ha]",["questo lavoretto ha bisogno di forbici", "lavoretto questo bisogno di forbici ha", "questo bisogno lavoretto di forbici ha", "lavoretto di bisogno ha forbici questo"],0,"Pronombre + sustantivo + verbo + sustantivo + preposición + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, los pasos para hacer una manualidad usando conectores (prima, poi, infine).",[],["prima", "poi", "infine"]],
+    ]
+  },
+  {
+    id:"it_b1_paleontology_dinosaurs", level:"B1", title:"La paleontologia e i dinosauri", emoji:"🦴", xp:62,
+    description:"Impara il vocabolario della paleontologia e a usare “già/non ancora/ancora” con il passato prossimo in italiano.",
+    study: {
+      vocab: [
+        ["il fossile", "fossil"],
+        ["l'osso di dinosauro", "dinosaur bone"],
+        ["il sito di scavo", "excavation site"],
+        ["estinto", "extinct"],
+        ["lo scheletro", "skeleton"],
+        ["dissotterrare", "to dig up"],
+      ],
+      grammar: [
+        ["“Già/non ancora/ancora” con il passato prossimo", "“Già” (ya) se usa en afirmativas, “non ancora” (todavía no) en negativas, y “ancora” (todavía) enfatiza una situación que continúa.", "Hanno già trovato lo scheletro. / Non hanno ancora finito lo scavo. / Gli scienziati stanno ancora studiando il fossile."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “fossil” en italiano?",["dinosaur bone", "il fossile", "fossil", "excavation site"],1,"“Fossil” es “il fossile” en italiano."],
+      ["mcq","¿Cómo se dice “skeleton” en italiano?",["lo scheletro", "fossil", "skeleton", "dinosaur bone"],0,"“Skeleton” es “lo scheletro” en italiano."],
+      ["fill","Completa: “Non hanno ___ finito lo scavo.”",["mai", "sempre", "ancora", "già"],2,"“Non... ancora” equivale a “not yet”: “non hanno ancora finito”."],
+      ["translate","Traduce: “Scientists are still studying the fossil.”",["Gli scienziati hanno ancora studiato il fossile.", "Gli scienziati stanno ancora studiando il fossile.", "Gli scienziati non stanno ancora studiando il fossile.", "Gli scienziati stanno già studiando il fossile."],1,"“Are still studying” se traduce con “stanno ancora studiando”, presente progresivo."],
+      ["arrange","Ordena: [scheletro / trovato / già / hanno / lo]",["trovato hanno scheletro lo già", "hanno già trovato lo scheletro", "già trovato hanno lo scheletro", "hanno già scheletro trovato lo"],1,"“Hanno” + “già” + participio + artículo + sustantivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre un descubrimiento de dinosaurios usando “già/non ancora/ancora” al menos dos veces.",[],["già", "non ancora", "ancora"]],
+    ]
+  },
+  {
+    id:"it_b2_street_art_graffiti", level:"B2", title:"L'arte urbana e i graffiti", emoji:"🎨", xp:84,
+    description:"Habla de arte urbano usando “a meno che” en italiano.",
+    study: {
+      vocab: [
+        ["il murale", "mural"],
+        ["la vernice spray", "spray paint"],
+        ["lo spazio pubblico", "public space"],
+        ["il vandalismo", "vandalism"],
+        ["l'artista di strada", "street artist"],
+        ["commissionare un murale", "to commission a mural"],
+      ],
+      grammar: [
+        ["“A meno che” + congiuntivo", "“A meno che” + congiuntivo (a menudo con “non”) expresa una condición negativa: algo sucederá salvo que ocurra otra cosa.", "A meno che la città non lo approvi, il murale sarà considerato vandalismo. / Lei non dipingerà a meno che non abbia il permesso."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “vandalism” en italiano?",["spray paint", "street artist", "il vandalismo", "mural"],2,"“Vandalism” es “il vandalismo” en italiano."],
+      ["mcq","¿Cómo se dice “to commission a mural” en italiano?",["to commission a mural", "commissionare un murale", "public space", "vandalism"],1,"“To commission a mural” es “commissionare un murale” en italiano."],
+      ["fill","Completa: “Lei non dipingerà a meno che non ___ il permesso.”",["avrà", "aveva", "abbia", "ha"],2,"“A meno che” requiere congiuntivo: “a meno che non abbia”."],
+      ["translate","Traduce: “Unless the city approves it, the mural will be considered vandalism.”",["Se la città non lo approva, il murale sarà considerato vandalismo.", "A meno che la città non lo approvi, il murale sarà considerato vandalismo.", "A meno che la città lo approva, il murale sarà considerato vandalismo.", "A meno che la città non lo approvi, il murale è considerato vandalismo."],1,"“Unless” se traduce con “a meno che... non” + congiuntivo: “a meno che... non approvi”."],
+      ["arrange","Ordena: [talentuoso / molto / artista / questo / è]",["talentuoso artista è questo molto", "artista è talentuoso questo molto", "questo artista è molto talentuoso", "questo artista molto è talentuoso"],2,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre el arte urbano usando “a meno che” al menos dos veces.",[],["a meno che", "murale", "artista di strada"]],
+    ]
+  },
+  {
+    id:"it_c1_criminology_criminal_justice", level:"C1", title:"La criminologia e la giustizia penale", emoji:"🔍", xp:92,
+    description:"Analiza la criminología usando “potere” para posibilidad en registro formal en italiano.",
+    study: {
+      vocab: [
+        ["le prove forensi", "forensic evidence"],
+        ["il sospettato", "suspect"],
+        ["condannare", "to convict"],
+        ["il ragionevole dubbio", "reasonable doubt"],
+        ["la recidiva", "recidivism"],
+        ["la riabilitazione", "rehabilitation"],
+      ],
+      grammar: [
+        ["“Potrebbe/potrebbero” para posibilidad formal", "“Potrebbe” (condizionale de “potere”) expresa posibilidad en registro formal/legal, similar a “may/might” en inglés.", "Le prove forensi potrebbero indicare il sospettato. / Senza riabilitazione, la recidiva potrebbe aumentare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “reasonable doubt” en italiano?",["to convict", "rehabilitation", "il ragionevole dubbio", "reasonable doubt"],2,"“Reasonable doubt” es “il ragionevole dubbio” en italiano."],
+      ["mcq","¿Cómo se dice “recidivism” en italiano?",["forensic evidence", "recidivism", "reasonable doubt", "la recidiva"],3,"“Recidivism” es “la recidiva” en italiano."],
+      ["fill","Completa: “Le prove forensi ___ indicare il sospettato.”",["vogliono", "devono", "potrebbero", "sanno"],2,"“Potrebbero” expresa posibilidad formal: “potrebbero indicare”."],
+      ["translate","Traduce con posibilidad formal: “Without rehabilitation, recidivism might increase.”",["Senza riabilitazione, la recidiva deve aumentare.", "Senza riabilitazione, la recidiva potrebbe aumentato.", "Senza riabilitazione, la recidiva potrebbe aumentare.", "Senza riabilitazione, la recidiva può aumentando."],2,"“Might increase” se traduce con “potrebbe aumentare”, posibilidad formal en italiano."],
+      ["arrange","Ordena: [condannare / può / sospettato / tribunale / non / il / il]",["il tribunale non può condannare il sospettato", "non condannare tribunale sospettato può il il", "sospettato condannare non il il tribunale può", "sospettato il non può il condannare tribunale"],0,"Artículo + sustantivo + negación + verbo modal + verbo + artículo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre justicia penal usando “potrebbe/potrebbero” al menos dos veces.",[],["potrebbe", "potrebbero", "ragionevole dubbio"]],
+    ]
+  },
+  {
+    id:"it_c2_philosophy_of_language", level:"C2", title:"La filosofia del linguaggio", emoji:"💬", xp:100,
+    description:"Analiza la filosofía del lenguaje usando el congiuntivo tras verbos de sugerencia en italiano.",
+    study: {
+      vocab: [
+        ["l'atto linguistico", "speech act"],
+        ["il riferimento", "reference"],
+        ["il significato", "meaning"],
+        ["l'ambiguità", "ambiguity"],
+        ["la relatività linguistica", "linguistic relativity"],
+        ["la proposizione", "proposition"],
+      ],
+      grammar: [
+        ["Congiuntivo tras verbos de sugerencia (suggerire/insistere/raccomandare che)", "Tras verbos como “suggerire”, “insistere” o “raccomandare” + “che”, el verbo siguiente va en congiuntivo, típico del registro formal/académico.", "I filosofi suggeriscono che il significato sia studiato attraverso l'uso. / Il linguista insiste che il contesto sia considerato."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “speech act” en italiano?",["proposition", "meaning", "l'atto linguistico", "ambiguity"],2,"“Speech act” es “l'atto linguistico” en italiano."],
+      ["mcq","¿Cómo se dice “ambiguity” en italiano?",["speech act", "ambiguity", "meaning", "l'ambiguità"],3,"“Ambiguity” es “l'ambiguità” en italiano."],
+      ["fill","Completa: “Il linguista insiste che il contesto ___ considerato.”",["sia", "era", "sarà", "è"],0,"El congiuntivo presente de “essere” es “sia”: “insiste che... sia considerato”."],
+      ["translate","Traduce con congiuntivo: “Philosophers suggest that meaning be studied through use.”",["I filosofi suggeriscono che il significato sarà studiato attraverso l'uso.", "I filosofi suggeriscono che il significato è studiato attraverso l'uso.", "I filosofi suggeriscono che il significato sia studiato attraverso l'uso.", "I filosofi suggerisce che il significato sia studiato attraverso l'uso."],2,"El verbo “suggerire che” requiere congiuntivo: “suggeriscono che... sia studiato”."],
+      ["arrange","Ordena: [ambigua / frase / questa / è]",["questa è frase ambigua", "questa frase è ambigua", "è frase questa ambigua", "frase è questa ambigua"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre filosofía del lenguaje usando el congiuntivo tras “suggerire/insistere/raccomandare che” al menos dos veces.",[],["suggerisce che", "insiste che", "significato"]],
+    ]
+  },
+  {
+    id:"it_a1_circus_shows", level:"A1", title:"Il circo e gli spettacoli", emoji:"🎪", xp:38,
+    description:"Impara il vocabolario del circo e a usare le esclamazioni (“che.../come...”) in italiano.",
+    study: {
+      vocab: [
+        ["il pagliaccio", "clown"],
+        ["la fune", "tightrope"],
+        ["il giocoliere", "juggler"],
+        ["l'acrobata", "acrobat"],
+        ["il tendone", "tent"],
+        ["sorprendente", "amazing"],
+      ],
+      grammar: [
+        ["Esclamazioni (“che.../come...”)", "“Che” + sustantivo y “Come” + verbo/adjetivo expresan sorpresa o admiración de forma exclamativa.", "Che giocoliere sorprendente! / Come questo spettacolo è sorprendente!"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “juggler” en italiano?",["juggler", "clown", "il giocoliere", "tent"],2,"“Juggler” es “il giocoliere” en italiano."],
+      ["mcq","¿Cómo se dice “acrobat” en italiano?",["acrobat", "l'acrobata", "amazing", "tightrope"],1,"“Acrobat” es “l'acrobata” en italiano."],
+      ["fill","Completa: “___ giocoliere sorprendente!”",["Chi", "Come", "Quanto", "Che"],3,"“Che” + sustantivo expresa admiración: “che giocoliere”."],
+      ["translate","Traduce: “How amazing this show is!”",["Come questo spettacolo è sorprendente!", "Che questo spettacolo è sorprendente!", "Come è questo spettacolo sorprendente!", "Come questo spettacolo sorprendente!"],0,"“How amazing... is!” se traduce con “Come... è sorprendente!” en italiano."],
+      ["arrange","Ordena: [fune / cammina / sulla / pagliaccio / il]",["il pagliaccio cammina sulla fune", "cammina il fune sulla pagliaccio", "sulla pagliaccio il cammina fune", "fune cammina il pagliaccio sulla"],0,"Artículo + sustantivo + verbo + preposición articulada + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, un espectáculo de circo usando exclamaciones (“che.../come...”).",[],["che", "come", "sorprendente"]],
+    ]
+  },
+  {
+    id:"it_a2_flea_market_bargains", level:"A2", title:"Il mercatino delle pulci e gli affari", emoji:"🛍️", xp:48,
+    description:"Impara il vocabolario dei mercatini delle pulci e a usare “troppo/abbastanza” in italiano.",
+    study: {
+      vocab: [
+        ["il mercatino delle pulci", "flea market"],
+        ["l'affare", "bargain"],
+        ["contrattare", "to haggle"],
+        ["di seconda mano", "secondhand"],
+        ["il venditore", "vendor"],
+        ["l'antiquariato", "antique"],
+      ],
+      grammar: [
+        ["“Troppo/abbastanza”", "“Troppo” + adjetivo indica exceso (“demasiado”), mientras que “abbastanza” + adjetivo indica suficiencia (“lo suficientemente”).", "Questo pezzo d'antiquariato è troppo caro. / Non ho abbastanza soldi per questo affare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to haggle” en italiano?",["vendor", "antique", "flea market", "contrattare"],3,"“To haggle” es “contrattare” en italiano."],
+      ["mcq","¿Cómo se dice “vendor” en italiano?",["to haggle", "antique", "il venditore", "flea market"],2,"“Vendor” es “il venditore” en italiano."],
+      ["fill","Completa: “Questo pezzo d'antiquariato è ___ caro.”",["molto tanto", "troppo", "abbastanza", "così tanto"],1,"“Troppo” + adjetivo expresa exceso: “troppo caro”."],
+      ["translate","Traduce: “I don't have enough money for this bargain.”",["Non ho troppo soldi per questo affare.", "Non ho abbastanza soldi per questa affare.", "Non ho abbastanza soldi per questo affare.", "Non ho soldi abbastanza per questo affare."],2,"“Enough money” se traduce con “abbastanza soldi”."],
+      ["arrange","Ordena: [venditore / contratto / il / con]",["contratto venditore il con", "venditore contratto il con", "contratto con venditore il", "contratto con il venditore"],3,"Verbo + preposición + artículo + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, una visita a un mercado de pulgas usando “troppo/abbastanza”.",[],["troppo", "abbastanza", "affare"]],
+    ]
+  },
+  {
+    id:"it_b1_genealogy_family_tree", level:"B1", title:"La genealogia e l'albero genealogico", emoji:"🌳", xp:62,
+    description:"Impara il vocabolario della genealogia e a usare “benché/anche se” in italiano.",
+    study: {
+      vocab: [
+        ["l'albero genealogico", "family tree"],
+        ["l'antenato", "ancestor"],
+        ["il discendente", "descendant"],
+        ["il certificato di nascita", "birth certificate"],
+        ["il bisnonno/la bisnonna", "great-grandparent"],
+        ["rintracciare le proprie radici", "to trace one's roots"],
+      ],
+      grammar: [
+        ["“Benché/anche se” para concesión", "“Benché” + congiuntivo expresa una concesión formal; “anche se” + indicativo expresa lo mismo de forma más neutra.", "Benché gli archivi siano antichi, abbiamo rintracciato le nostre radici. / Anche se non ha mai conosciuto la sua bisnonna, conosce la storia familiare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “ancestor” en italiano?",["ancestor", "great-grandparent", "l'antenato", "birth certificate"],2,"“Ancestor” es “l'antenato” en italiano."],
+      ["mcq","¿Cómo se dice “birth certificate” en italiano?",["to trace one's roots", "descendant", "great-grandparent", "il certificato di nascita"],3,"“Birth certificate” es “il certificato di nascita” en italiano."],
+      ["fill","Completa: “Benché gli archivi ___ antichi, abbiamo rintracciato le nostre radici.”",["erano", "siano", "saranno", "sono"],1,"“Benché” requiere congiuntivo: “benché... siano antichi”."],
+      ["translate","Traduce: “Even though she never met her great-grandparent, she knows the family history.”",["Benché non ha mai conosciuto la sua bisnonna, conosce la storia familiare.", "Anche se non ha mai conosciuto la sua bisnonna, conoscere la storia familiare.", "Anche se non abbia mai conosciuto la sua bisnonna, conosce la storia familiare.", "Anche se non ha mai conosciuto la sua bisnonna, conosce la storia familiare."],3,"“Even though” se traduce con “anche se” + indicativo, hecho conocido."],
+      ["arrange","Ordena: [grande / ha / genealogico / un / albero / lei]",["lei ha un grande albero genealogico", "albero genealogico lei ha grande un", "albero un lei ha genealogico grande", "albero grande un lei genealogico ha"],0,"Sujeto + verbo + artículo + adjetivo + sustantivo compuesto."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre tu árbol familiar usando “benché” o “anche se” al menos dos veces.",[],["benché", "anche se", "albero genealogico"]],
+    ]
+  },
+  {
+    id:"it_b2_meteorology_extreme_weather", level:"B2", title:"La meteorologia e i fenomeni estremi", emoji:"🌪️", xp:84,
+    description:"Habla de fenómenos meteorológicos extremos usando “nonostante” en italiano.",
+    study: {
+      vocab: [
+        ["l'uragano", "hurricane"],
+        ["il tornado", "tornado"],
+        ["la siccità", "drought"],
+        ["l'alluvione improvvisa", "flash flood"],
+        ["la velocità del vento", "wind speed"],
+        ["emettere un'allerta", "to issue a warning"],
+      ],
+      grammar: [
+        ["“Nonostante” + sustantivo/congiuntivo", "“Nonostante” + sustantivo o congiuntivo introduce un contraste, similar a “benché” pero también puede usarse con sustantivo directamente.", "Nonostante l'allerta, molte persone sono rimaste vicino alla costa. / Nonostante avessero emesso un'allerta, le autorità non hanno potuto evitare i danni."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “drought” en italiano?",["drought", "la siccità", "to issue a warning", "flash flood"],1,"“Drought” es “la siccità” en italiano."],
+      ["mcq","¿Cómo se dice “flash flood” en italiano?",["drought", "hurricane", "flash flood", "l'alluvione improvvisa"],3,"“Flash flood” es “l'alluvione improvvisa” en italiano."],
+      ["fill","Completa: “___ l'allerta, molte persone sono rimaste vicino alla costa.”",["Perché", "Nonostante che", "Nonostante", "Benché"],2,"“Nonostante” + sustantivo (sin “che”): “nonostante l'allerta”."],
+      ["translate","Traduce: “In spite of issuing a warning, officials couldn't prevent the damage.”",["Nonostante avesse emesso un'allerta, le autorità non hanno potuto evitare i danni.", "Nonostante avessero emesso un'allerta, le autorità non hanno potuto evitare i danni.", "Nonostante avessero emesso un'allerta, le autorità non possono evitare i danni.", "Nonostante hanno emesso un'allerta, le autorità non hanno potuto evitare i danni."],1,"“In spite of issuing” se traduce con “nonostante avessero emesso”, congiuntivo trapassato."],
+      ["arrange","Ordena: [avvicinando / forte / si / uragano / un / sta]",["un uragano avvicinando forte si sta", "avvicinando uragano sta un si forte", "avvicinando sta uragano si un forte", "un uragano forte si sta avvicinando"],3,"Artículo + adjetivo + sustantivo + pronombre reflexivo + verbo + gerundio."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un fenómeno meteorológico extremo usando “nonostante” al menos dos veces.",[],["nonostante", "uragano", "allerta"]],
+    ]
+  },
+  {
+    id:"it_c1_urban_sociology_gentrification", level:"C1", title:"La sociologia urbana e la gentrificazione", emoji:"🏙️", xp:92,
+    description:"Analiza la gentrificación usando “avrebbe dovuto” para crítica del pasado en italiano.",
+    study: {
+      vocab: [
+        ["la gentrificazione", "gentrification"],
+        ["lo sfollamento", "displacement"],
+        ["l'edilizia accessibile", "affordable housing"],
+        ["la riqualificazione urbana", "urban renewal"],
+        ["l'affitto crescente", "rising rent"],
+        ["la comunità locale", "local community"],
+      ],
+      grammar: [
+        ["“Avrebbe dovuto” para crítica del pasado", "“Avrebbe dovuto” + infinitivo expresa que algo debió haberse hecho de manera diferente en el pasado, usado para crítica o arrepentimiento.", "La città avrebbe dovuto proteggere l'edilizia accessibile. / Le autorità non avrebbero dovuto ignorare la comunità locale."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “displacement” en italiano?",["urban renewal", "local community", "lo sfollamento", "gentrification"],2,"“Displacement” es “lo sfollamento” en italiano."],
+      ["mcq","¿Cómo se dice “affordable housing” en italiano?",["rising rent", "l'edilizia accessibile", "displacement", "urban renewal"],1,"“Affordable housing” es “l'edilizia accessibile” en italiano."],
+      ["fill","Completa: “La città ___ dovuto proteggere l'edilizia accessibile.”",["avrà", "ha", "avrebbe", "aveva"],2,"“Avrebbe dovuto” + infinitivo expresa crítica del pasado: “avrebbe dovuto proteggere”."],
+      ["translate","Traduce: “Officials shouldn't have ignored the local community's concerns.”",["Le autorità avrebbero dovuto ignorare le preoccupazioni della comunità locale.", "Le autorità non avrebbero dovuto ignorare le preoccupazioni della comunità locale.", "Le autorità non avrebbero dovuto ignorato le preoccupazioni della comunità locale.", "Le autorità non dovrebbero ignorare le preoccupazioni della comunità locale."],1,"“Shouldn't have ignored” se traduce con “non avrebbero dovuto ignorare”, infinitivo tras “dovuto”."],
+      ["arrange","Ordena: [crescente / preoccupa / residenti / affitto / l']",["residenti crescente l'affitto preoccupa", "l'affitto crescente preoccupa residenti", "residenti preoccupa l'affitto crescente", "l'affitto preoccupa crescente residenti"],1,"Artículo + sustantivo + adjetivo + verbo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis crítico sobre la gentrificación usando “avrebbe dovuto/non avrebbe dovuto” al menos dos veces.",[],["avrebbe dovuto", "non avrebbe dovuto", "gentrificazione"]],
+    ]
+  },
+  {
+    id:"it_c2_epistemology_limits_knowledge", level:"C2", title:"L'epistemologia e i limiti della conoscenza", emoji:"🧭", xp:100,
+    description:"Analiza la epistemología usando estructuras enfáticas de secuencia inmediata en italiano.",
+    study: {
+      vocab: [
+        ["l'epistemologia", "epistemology"],
+        ["la credenza vera giustificata", "justified true belief"],
+        ["lo scetticismo", "skepticism"],
+        ["la certezza", "certainty"],
+        ["la conoscenza a priori", "a priori knowledge"],
+        ["l'umiltà epistemica", "epistemic humility"],
+      ],
+      grammar: [
+        ["“Appena... che” para secuencia inmediata", "“Appena... che” expresa que una acción ocurrió inmediatamente después de otra, similar a “no sooner... than” en inglés.", "Appena i filosofi avevano proposto una teoria della certezza, che gli scettici la contestavano. / Appena si afferma di sapere qualcosa, che il dubbio sorge."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “skepticism” en italiano?",["epistemic humility", "lo scetticismo", "justified true belief", "skepticism"],1,"“Skepticism” es “lo scetticismo” en italiano."],
+      ["mcq","¿Cómo se dice “epistemic humility” en italiano?",["skepticism", "epistemic humility", "l'umiltà epistemica", "epistemology"],2,"“Epistemic humility” es “l'umiltà epistemica” en italiano."],
+      ["fill","Completa: “Appena i filosofi avevano proposto una teoria, ___ gli scettici la contestavano.”",["allora", "che", "poi", "e"],1,"“Appena... che” forma la estructura de secuencia inmediata: “appena... che”."],
+      ["translate","Traduce con secuencia inmediata: “No sooner does one claim to know something than doubt arises.”",["Appena si afferma di sapere qualcosa, il dubbio scompare.", "Appena afferma di sapere qualcosa, il dubbio sorge.", "Appena si è affermato di sapere qualcosa, il dubbio sorge.", "Appena si afferma di sapere qualcosa, il dubbio sorge."],3,"“No sooner... than” se traduce naturalmente con “appena...” en italiano."],
+      ["arrange","Ordena: [vera / richiede / certezza / la / conoscenza]",["certezza vera richiede la conoscenza", "conoscenza vera richiede la certezza", "la conoscenza richiede certezza vera", "richiede vera certezza conoscenza la"],2,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento epistemológico usando “appena... che” al menos una vez.",[],["appena", "che", "scetticismo"]],
+    ]
+  },
+  {
+    id:"it_a1_birdwatching", level:"A1", title:"L'ornitologia e l'osservazione degli uccelli", emoji:"🦜", xp:38,
+    description:"Impara il vocabolario del birdwatching e a usare i possessivi in italiano.",
+    study: {
+      vocab: [
+        ["il binocolo", "binoculars"],
+        ["il nido", "nest"],
+        ["la piuma", "feather"],
+        ["il becco", "beak"],
+        ["volare", "to fly"],
+        ["l'ala", "wing"],
+      ],
+      grammar: [
+        ["Possessivi (il mio/il tuo/il suo/il nostro/il loro)", "En italiano, los posesivos suelen ir con artículo y concuerdan en género y número con el sustantivo poseído.", "Il mio binocolo è nuovo. / L'uccello usa le sue ali per volare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “nest” en italiano?",["wing", "nest", "il nido", "beak"],2,"“Nest” es “il nido” en italiano."],
+      ["mcq","¿Cómo se dice “beak” en italiano?",["feather", "wing", "binoculars", "il becco"],3,"“Beak” es “il becco” en italiano."],
+      ["fill","Completa: “L'uccello usa ___ ali per volare.”",["i suoi", "le sue", "la sua", "il suo"],1,"“Ali” es femenino plural, así que se usa “le sue”: “le sue ali”."],
+      ["translate","Traduce: “My binoculars are new.”",["La mia binocolo è nuovo.", "Il mio binocoli è nuovo.", "Il mio binocolo sono nuovi.", "Il mio binocolo è nuovo."],3,"“My” se traduce con “il mio” ante “binocolo” (masculino singular en italiano)."],
+      ["arrange","Ordena: [nido / sull'albero / loro / il / è]",["loro sull'albero il nido è", "il loro nido è sull'albero", "il loro sull'albero è nido", "è il nido sull'albero loro"],1,"Artículo + posesivo + sustantivo + verbo + preposición articulada + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, un ave que viste usando posesivos (il mio/il suo/il loro).",[],["il suo", "le mie", "ali"]],
+    ]
+  },
+  {
+    id:"it_a2_pottery_ceramics", level:"A2", title:"La ceramica e la lavorazione dell'argilla", emoji:"🏺", xp:48,
+    description:"Impara il vocabolario della ceramica e a usare “quanto/quanti” in italiano.",
+    study: {
+      vocab: [
+        ["l'argilla", "clay"],
+        ["il tornio da vasaio", "pottery wheel"],
+        ["la fornace", "kiln"],
+        ["modellare", "to shape"],
+        ["lo smalto", "glaze"],
+        ["la ciotola", "bowl"],
+      ],
+      grammar: [
+        ["“Quanto/quanti”", "“Quanto” concuerda en género con sustantivos incontables singulares, “quanti/quante” con sustantivos contables plurales, para preguntar cantidad.", "Quanta argilla ti serve? / Quante ciotole hai fatto?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “kiln” en italiano?",["glaze", "bowl", "to shape", "la fornace"],3,"“Kiln” es “la fornace” en italiano."],
+      ["mcq","¿Cómo se dice “glaze” en italiano?",["clay", "lo smalto", "pottery wheel", "to shape"],1,"“Glaze” es “lo smalto” en italiano."],
+      ["fill","Completa: “___ argilla ti serve?”",["Quanta", "Quante", "Quanto", "Quanti"],0,"“Argilla” es femenino incontable, así que se usa “quanta”: “quanta argilla”."],
+      ["translate","Traduce: “How many bowls did you make?”",["Quante ciotola hai fatto?", "Quanto ciotole hai fatto?", "Quante ciotole hai fatto?", "Quante ciotole hai fatte?"],2,"“Ciotole” es femenino plural, así que se usa “quante”: “quante ciotole”."],
+      ["arrange","Ordena: [vasaio / usa / il / tornio / il]",["usa vasaio il il tornio", "usa il vasaio tornio il", "il vasaio usa il tornio", "usa il il vasaio tornio"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, una pieza de cerámica que te gustaría hacer usando “quanto/quanti”.",[],["quanta", "quante", "argilla"]],
+    ]
+  },
+  {
+    id:"it_b1_martial_arts_aikido", level:"B1", title:"Le arti marziali e l'aikido", emoji:"🥋", xp:62,
+    description:"Impara il vocabolario delle arti marziali e a usare “sia...sia/o...o” in italiano.",
+    study: {
+      vocab: [
+        ["le arti marziali", "martial arts"],
+        ["la cintura nera", "black belt"],
+        ["la tecnica", "technique"],
+        ["la presa dell'avversario", "opponent's grip"],
+        ["l'equilibrio", "balance"],
+        ["il dojo", "dojo"],
+      ],
+      grammar: [
+        ["“Sia...sia/o...o”", "“Sia... sia” conecta dos elementos afirmando ambos; “o... o” presenta dos opciones alternativas.", "L'aikido richiede sia forza sia equilibrio. / Puoi allenarti o al mattino o alla sera."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “black belt” en italiano?",["dojo", "balance", "la cintura nera", "martial arts"],2,"“Black belt” es “la cintura nera” en italiano."],
+      ["mcq","¿Cómo se dice “balance” en italiano?",["balance", "l'equilibrio", "martial arts", "technique"],1,"“Balance” es “l'equilibrio” en italiano."],
+      ["fill","Completa: “L'aikido richiede ___ forza sia equilibrio.”",["o", "entrambi", "sia", "né"],2,"“Sia... sia” conecta dos elementos: “sia forza sia equilibrio”."],
+      ["translate","Traduce: “You can practice either in the morning or in the evening.”",["Puoi allenarti o al mattino e alla sera.", "Puoi allenarti sia al mattino o alla sera.", "Puoi allenarti o al mattino o alla sera.", "Puoi allenarti al mattino o o alla sera."],2,"“Either... or” se traduce con “o... o” en italiano."],
+      ["arrange","Ordena: [difficile / tecnica / molto / è / questa]",["molto questa tecnica difficile è", "questa tecnica è molto difficile", "questa difficile tecnica è molto", "questa difficile molto tecnica è"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre practicar un arte marcial usando “sia...sia” o “o...o” al menos dos veces.",[],["sia...sia", "o...o", "aikido"]],
+    ]
+  },
+  {
+    id:"it_b2_mycology_mushrooms", level:"B2", title:"La micologia e i funghi", emoji:"🍄", xp:84,
+    description:"Habla de micología usando “come se” en italiano.",
+    study: {
+      vocab: [
+        ["il fungo", "mushroom"],
+        ["la spora", "spore"],
+        ["commestibile", "edible"],
+        ["velenoso", "poisonous"],
+        ["il fungo/la muffa", "fungus"],
+        ["il micelio", "mycelium"],
+      ],
+      grammar: [
+        ["“Come se” + congiuntivo imperfetto", "“Come se” siempre va seguido de congiuntivo imperfetto o trapassato, aunque la comparación sea sobre el presente.", "Questo fungo sembra come se fosse velenoso. / Il micelio si diffonde come se avesse una volontà propria."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “spore” en italiano?",["la spora", "mycelium", "mushroom", "spore"],0,"“Spore” es “la spora” en italiano."],
+      ["mcq","¿Cómo se dice “mycelium” en italiano?",["il micelio", "mycelium", "spore", "fungus"],0,"“Mycelium” es “il micelio” en italiano."],
+      ["fill","Completa: “Questo fungo sembra come se ___ velenoso.”",["sia", "è", "fosse", "sarà"],2,"“Come se” siempre requiere congiuntivo imperfetto: “come se fosse”."],
+      ["translate","Traduce: “The mycelium spreads as though it had a mind of its own.”",["Il micelio si diffonde come se ha una volontà propria.", "Il micelio si diffonde come se avesse una volontà propria.", "Il micelio si diffonde come se avrebbe una volontà propria.", "Il micelio diffonde come se avesse una volontà propria."],1,"“As though it had” se traduce con “come se avesse”, congiuntivo imperfetto."],
+      ["arrange","Ordena: [commestibile / fungo / non / questo / è]",["fungo questo commestibile è non", "questo fungo non è commestibile", "è non commestibile questo fungo", "commestibile questo fungo non è"],1,"Pronombre + sustantivo + negación + verbo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un hongo interesante usando “come se” al menos dos veces.",[],["come se", "fungo", "velenoso"]],
+    ]
+  },
+  {
+    id:"it_c1_marine_biology_ocean_ecosystems", level:"C1", title:"La biologia marina e gli ecosistemi oceanici", emoji:"🐠", xp:92,
+    description:"Analiza los ecosistemas marinos usando “purché/a condizione che” en italiano.",
+    study: {
+      vocab: [
+        ["l'ecosistema marino", "marine ecosystem"],
+        ["la biodiversità", "biodiversity"],
+        ["la catena alimentare", "food chain"],
+        ["lo sbiancamento dei coralli", "coral bleaching"],
+        ["la specie marina", "marine species"],
+        ["l'acidificazione degli oceani", "ocean acidification"],
+      ],
+      grammar: [
+        ["“Purché/a condizione che” + congiuntivo", "“Purché” y “a condizione che” + congiuntivo expresan una condición necesaria, equivalentes a “provided that” en inglés.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca. / Le barriere coralline sopravvivono a condizione che le temperature restino stabili."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “biodiversity” en italiano?",["biodiversity", "coral bleaching", "la biodiversità", "marine ecosystem"],2,"“Biodiversity” es “la biodiversità” en italiano."],
+      ["mcq","¿Cómo se dice “coral bleaching” en italiano?",["food chain", "marine ecosystem", "lo sbiancamento dei coralli", "ocean acidification"],2,"“Coral bleaching” es “lo sbiancamento dei coralli” en italiano."],
+      ["fill","Completa: “Le barriere coralline sopravvivono a condizione che le temperature ___ stabili.”",["resteranno", "restano", "restino", "sono restate"],2,"“A condizione che” requiere congiuntivo: “a condizione che... restino”."],
+      ["translate","Traduce: “Marine biodiversity can recover, provided that pollution decreases.”",["La biodiversità marina può riprendere, purché l'inquinamento diminuisca.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuiscano.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisca.", "La biodiversità marina può riprendersi, purché l'inquinamento diminuisce."],2,"“Provided that” se traduce con “purché” + congiuntivo: “purché... diminuisca”."],
+      ["arrange","Ordena: [alimentare / interrompe / catena / inquinamento / la / l']",["interrompe l'inquinamento la alimentare catena", "alimentare la l'inquinamento interrompe catena", "l'inquinamento alimentare interrompe catena la", "l'inquinamento interrompe la catena alimentare"],3,"Artículo + sustantivo + verbo + artículo + sustantivo compuesto."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre los ecosistemas marinos usando “purché” o “a condizione che” al menos dos veces.",[],["purché", "a condizione che", "ecosistema marino"]],
+    ]
+  },
+  {
+    id:"it_c2_cartography_history_of_maps", level:"C2", title:"La cartografia e la storia delle mappe", emoji:"🗺️", xp:100,
+    description:"Analiza la cartografía usando “se non fosse per” en italiano.",
+    study: {
+      vocab: [
+        ["il cartografo", "cartographer"],
+        ["la proiezione", "projection"],
+        ["il territorio inesplorato", "uncharted territory"],
+        ["la scala", "scale"],
+        ["lo strumento di navigazione", "navigational instrument"],
+        ["mappare", "to chart"],
+      ],
+      grammar: [
+        ["“Se non fosse per” para condición formal", "“Se non fosse per” + sustantivo expresa una condición hipotética muy formal, equivalente a “were it not for” en inglés.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile. / Se non fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “cartographer” en italiano?",["scale", "il cartografo", "cartographer", "navigational instrument"],1,"“Cartographer” es “il cartografo” en italiano."],
+      ["mcq","¿Cómo se dice “uncharted territory” en italiano?",["scale", "cartographer", "il territorio inesplorato", "navigational instrument"],2,"“Uncharted territory” es “il territorio inesplorato” en italiano."],
+      ["fill","Completa: “___ fosse per le immagini satellitari, le mappe moderne sarebbero molto meno precise.”",["Senza", "Se non", "Non", "Se"],1,"“Se non fosse per” es la estructura fija: “se non fosse per”."],
+      ["translate","Traduce con estructura formal: “Were it not for early cartographers, exploration would have been impossible.”",["Se non fosse stato per i primi cartografi, l'esplorazione sarebbe impossibile.", "Se non fosse stato per i primi cartografi, l'esplorazione è stata impossibile.", "Se non fosse stato per i primi cartografi, l'esplorazione sarebbe stata impossibile.", "Se non fosse per i primi cartografi, l'esplorazione sarebbe stata impossibile."],2,"“Were it not for” en pasado se traduce con “se non fosse stato per”, condicional compuesto en la consecuencia."],
+      ["arrange","Ordena: [precisa / questa / molto / proiezione / è]",["molto è precisa proiezione questa", "questa proiezione è molto precisa", "proiezione molto questa è precisa", "questa molto precisa è proiezione"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un argumento sobre la historia de la cartografía usando “se non fosse per” al menos una vez.",[],["se non fosse per", "cartografo", "proiezione"]],
+    ]
+  },
+  {
+    id:"it_a1_tailoring_sewing", level:"A1", title:"La sartoria e il cucito", emoji:"🧵", xp:38,
+    description:"Impara il vocabolario del cucito e a usare i verbi riflessivi di base in italiano.",
+    study: {
+      vocab: [
+        ["l'ago", "needle"],
+        ["il filo", "thread"],
+        ["cucire", "to sew"],
+        ["provarsi (un vestito)", "to try on"],
+        ["il bottone", "button"],
+        ["il sarto", "tailor"],
+      ],
+      grammar: [
+        ["Verbi riflessivi di base", "Los verbos reflexivos italianos usan “mi/ti/si/ci/vi/si” antes del verbo; “provarsi” ropa siempre es reflexivo, igual que en español.", "Mi provo la giacca. / Lei cuce il bottone da sola."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “needle” en italiano?",["tailor", "to try on", "l'ago", "thread"],2,"“Needle” es “l'ago” en italiano."],
+      ["mcq","¿Cómo se dice “thread” en italiano?",["thread", "il filo", "needle", "to try on"],1,"“Thread” es “il filo” en italiano."],
+      ["fill","Completa: “___ provo la giacca.”",["Ci", "Si", "Ti", "Mi"],3,"Con “io” se usa el pronombre reflexivo “mi”: “mi provo”."],
+      ["translate","Traduce: “I try on the jacket.”",["Mi prova la giacca.", "Mi provo le giacca.", "Mi provo la giacca.", "Provo la giacca."],2,"“Try on” se traduce con el verbo reflexivo “provarsi”: “mi provo”."],
+      ["arrange","Ordena: [bottone / cuce / il / sarto / il]",["il sarto il cuce bottone", "il cuce bottone sarto il", "il sarto cuce il bottone", "bottone il sarto il cuce"],2,"Artículo + sustantivo + verbo + artículo + sustantivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, cómo te pruebas ropa nueva usando el verbo reflexivo “provarsi”.",[],["mi provo", "ago", "filo"]],
+    ]
+  },
+  {
+    id:"it_a2_rock_climbing_mountaineering", level:"A2", title:"L'arrampicata e l'alpinismo", emoji:"🧗", xp:48,
+    description:"Impara il vocabolario dell'arrampicata e a usare “da + tempo” con il presente in italiano.",
+    study: {
+      vocab: [
+        ["la corda", "rope"],
+        ["l'imbracatura", "harness"],
+        ["la vetta", "summit"],
+        ["la scogliera", "cliff"],
+        ["scalare", "to climb"],
+        ["la presa", "grip"],
+      ],
+      grammar: [
+        ["“Da” + tiempo con presente para duración continua", "El italiano expresa una acción que empezó en el pasado y continúa usando el presente + “da” + tiempo, a diferencia del inglés que usa presente perfecto continuo.", "Scaliamo da tre ore. / Si allena da un anno per la vetta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “harness” en italiano?",["rope", "harness", "to climb", "l'imbracatura"],3,"“Harness” es “l'imbracatura” en italiano."],
+      ["mcq","¿Cómo se dice “cliff” en italiano?",["la scogliera", "rope", "summit", "grip"],0,"“Cliff” es “la scogliera” en italiano."],
+      ["fill","Completa: “Scaliamo ___ tre ore.”",["per", "fa", "in", "da"],3,"“Da” + tiempo expresa duración continua: “da tre ore”."],
+      ["translate","Traduce: “She has been training for the summit all year.”",["Si è allenata da un anno per la vetta.", "Si allena da un anno la vetta.", "Si allenava da un anno per la vetta.", "Si allena da un anno per la vetta."],3,"“Has been training” se traduce con presente + “da”: “si allena da un anno”."],
+      ["arrange","Ordena: [nuova / ha / scalatore / bisogno / lo / di / corda / una]",["nuova ha lo corda una scalatore di bisogno", "scalatore corda lo bisogno ha di nuova una", "lo scalatore ha bisogno di una nuova corda", "una lo bisogno scalatore nuova corda di ha"],2,"Artículo + sustantivo + verbo + sustantivo + preposición + artículo + adjetivo + sustantivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, una experiencia de escalada usando “da” + tiempo.",[],["da", "scalare", "vetta"]],
+    ]
+  },
+  {
+    id:"it_b1_coin_collecting_numismatics", level:"B1", title:"La numismatica e il collezionismo di monete", emoji:"🪙", xp:62,
+    description:"Impara il vocabolario della numismatica e a usare “abituarsi a/essere abituato a” in italiano.",
+    study: {
+      vocab: [
+        ["la moneta", "coin"],
+        ["la zecca", "mint"],
+        ["la moneta rara", "rare coin"],
+        ["la collezione", "collection"],
+        ["la valuta", "currency"],
+        ["valutare", "to appraise"],
+      ],
+      grammar: [
+        ["“Essere abituato a/abituarsi a”", "“Essere abituato a” + infinitivo expresa un hábito ya establecido; “abituarsi a” + infinitivo expresa el proceso de acostumbrarse.", "Sono abituato a valutare monete antiche. / Ci è voluto tempo per abituarsi a collezionare valute rare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “mint” en italiano?",["currency", "to appraise", "la zecca", "mint"],2,"“Mint” es “la zecca” en italiano."],
+      ["mcq","¿Cómo se dice “to appraise” en italiano?",["valutare", "collection", "mint", "currency"],0,"“To appraise” es “valutare” en italiano."],
+      ["fill","Completa: “Sono abituato a ___ monete antiche.”",["valutato", "valuti", "valutando", "valutare"],3,"“Abituato a” + infinitivo: “abituato a valutare”."],
+      ["translate","Traduce: “It took time to get used to collecting rare currency.”",["Ci vuole tempo per abituarsi a collezionare valute rare.", "Ci è voluto tempo per abituarsi a collezionando valute rare.", "Ci è voluto tempo per abituarsi collezionare valute rare.", "Ci è voluto tempo per abituarsi a collezionare valute rare."],3,"“Get used to collecting” se traduce con “abituarsi a collezionare”, infinitivo tras “a”."],
+      ["arrange","Ordena: [rara / ha / una / collezione / lei / di monete]",["collezione una rara ha lei monete di", "lei ha una collezione di monete rara", "lei ha di rara monete collezione una", "una ha collezione rara monete di lei"],1,"Sujeto + verbo + artículo + sustantivo + preposición + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre coleccionar monedas usando “essere abituato a/abituarsi a” al menos dos veces.",[],["abituato a", "abituarsi a", "collezione di monete"]],
+    ]
+  },
+  {
+    id:"it_b2_seismology_earthquakes", level:"B2", title:"La sismologia e i terremoti", emoji:"🌋", xp:84,
+    description:"Habla de sismología usando preguntas indirectas en italiano.",
+    study: {
+      vocab: [
+        ["il terremoto", "earthquake"],
+        ["il sismografo", "seismograph"],
+        ["l'epicentro", "epicenter"],
+        ["la magnitudo", "magnitude"],
+        ["la placca tettonica", "tectonic plate"],
+        ["la scossa di assestamento", "aftershock"],
+      ],
+      grammar: [
+        ["Domande indirette", "Las preguntas indirectas (“mi chiedo se...”, “sai se...”) mantienen el orden normal sujeto-verbo, sin la inversión de una pregunta directa.", "Mi chiedo se l'epicentro fosse vicino alla città. / Sai quanto forte fosse la magnitudo?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “epicenter” en italiano?",["seismograph", "tectonic plate", "aftershock", "l'epicentro"],3,"“Epicenter” es “l'epicentro” en italiano."],
+      ["mcq","¿Cómo se dice “tectonic plate” en italiano?",["tectonic plate", "la placca tettonica", "aftershock", "seismograph"],1,"“Tectonic plate” es “la placca tettonica” en italiano."],
+      ["fill","Completa: “Sai quanto forte ___ la magnitudo?”",["fosse", "sarà", "è", "era"],0,"En preguntas indirectas formales con “mi chiedo/sai se” se prefiere congiuntivo imperfetto: “fosse”."],
+      ["translate","Traduce con pregunta indirecta: “I wonder if the epicenter was near the city.”",["Mi chiedo se fosse l'epicentro vicino alla città.", "Mi chiedo se l'epicentro è vicino alla città.", "Mi chiedo che l'epicentro fosse vicino alla città.", "Mi chiedo se l'epicentro fosse vicino alla città."],3,"La pregunta indirecta mantiene el orden normal: “se l'epicentro fosse”, sin inversión."],
+      ["arrange","Ordena: [piccola / sentito / abbiamo / una / scossa]",["abbiamo sentito una piccola scossa", "scossa una sentito abbiamo piccola", "sentito scossa abbiamo una piccola", "sentito una scossa abbiamo piccola"],0,"Verbo + participio + artículo + adjetivo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un terremoto usando al menos dos preguntas indirectas (“mi chiedo se...”, “sai se...?”).",[],["mi chiedo se", "sai se", "terremoto"]],
+    ]
+  },
+  {
+    id:"it_c1_paleography_ancient_manuscripts", level:"C1", title:"La paleografia e gli antichi manoscritti", emoji:"📜", xp:92,
+    description:"Analiza la paleografía usando “chiunque/qualunque cosa” en italiano.",
+    study: {
+      vocab: [
+        ["il manoscritto", "manuscript"],
+        ["lo scriba", "scribe"],
+        ["la pergamena", "parchment"],
+        ["il testo miniato", "illuminated text"],
+        ["lo stile calligrafico", "handwriting style"],
+        ["decifrare", "to decipher"],
+      ],
+      grammar: [
+        ["“Chiunque/qualunque cosa”", "“Chiunque” equivale a “la persona que sea”, y “qualunque cosa” equivale a “lo que sea que”, sin necesidad de antecedente específico.", "Chiunque decifri questo manoscritto farà storia. / Qualunque cosa lo scriba intendesse, il significato oggi è perduto."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “scribe” en italiano?",["illuminated text", "parchment", "scribe", "lo scriba"],3,"“Scribe” es “lo scriba” en italiano."],
+      ["mcq","¿Cómo se dice “parchment” en italiano?",["la pergamena", "handwriting style", "to decipher", "parchment"],0,"“Parchment” es “la pergamena” en italiano."],
+      ["fill","Completa: “___ decifri questo manoscritto farà storia.”",["Qualsiasi", "Chiunque", "Qualunque", "Chi"],1,"“Chiunque” se refiere a una persona no especificada: “chiunque decifri”."],
+      ["translate","Traduce con esta estructura: “Whatever the scribe intended, the meaning is now lost.”",["Qualunque cosa lo scriba intendesse, il significato oggi era perduto.", "Qualcosa lo scriba intendesse, il significato oggi è perduto.", "Qualunque cosa lo scriba intendesse, il significato oggi è perduto.", "Qualunque cosa lo scriba intendeva, il significato oggi è perduto."],2,"“Whatever” se traduce con “qualunque cosa” + congiuntivo imperfetto: “intendesse”."],
+      ["arrange","Ordena: [splendidamente / miniato / manoscritto / è / questo]",["questo è splendidamente manoscritto miniato", "questo manoscritto è splendidamente miniato", "miniato è questo manoscritto splendidamente", "splendidamente questo manoscritto è miniato"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un manuscrito antiguo usando “chiunque/qualunque cosa” al menos dos veces.",[],["chiunque", "qualunque cosa", "manoscritto"]],
+    ]
+  },
+  {
+    id:"it_c2_global_supply_chain_logistics", level:"C2", title:"La logistica e la catena di approvvigionamento globale", emoji:"📦", xp:100,
+    description:"Analiza la cadena de suministro usando estructuras enfáticas de sorpresa en italiano.",
+    study: {
+      vocab: [
+        ["la catena di approvvigionamento", "supply chain"],
+        ["il collo di bottiglia", "bottleneck"],
+        ["il trasporto merci", "freight"],
+        ["il magazzino", "warehouse"],
+        ["l'interruzione logistica", "logistics disruption"],
+        ["la consegna just-in-time", "just-in-time delivery"],
+      ],
+      grammar: [
+        ["Strutture enfatiche di sorpresa (pochi immaginavano/nessuno si aspettava)", "“Pochi immaginavano” o “nessuno si aspettava” al inicio enfatizan que algo fue una sorpresa total, equivalente a “little did... know” en inglés.", "Pochi immaginavano quanto fosse fragile la catena di approvvigionamento. / Nessuno si aspettava un'interruzione logistica così grave."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “bottleneck” en italiano?",["logistics disruption", "bottleneck", "il collo di bottiglia", "supply chain"],2,"“Bottleneck” es “il collo di bottiglia” en italiano."],
+      ["mcq","¿Cómo se dice “just-in-time delivery” en italiano?",["logistics disruption", "supply chain", "warehouse", "la consegna just-in-time"],3,"“Just-in-time delivery” es “la consegna just-in-time” en italiano."],
+      ["fill","Completa: “Pochi ___ quanto fosse fragile la catena di approvvigionamento.”",["immaginano", "hanno immaginato", "immaginavano", "immagineranno"],2,"“Pochi... immaginavano” usa imperfetto para describir la falta de anticipación."],
+      ["translate","Traduce con estructura enfática: “Little did anyone expect such a severe logistics disruption.”",["Nessuno si è aspettato un'interruzione logistica così grave già.", "Qualcuno si aspettava un'interruzione logistica così grave.", "Nessuno si aspettava un'interruzione logistica così grave.", "Nessuno si aspetta un'interruzione logistica così grave."],2,"“Little did anyone expect” se traduce naturalmente con “nessuno si aspettava” en italiano."],
+      ["arrange","Ordena: [magazzino / merci / immagazzina / il]",["magazzino merci il immagazzina", "il magazzino immagazzina merci", "magazzino il merci immagazzina", "immagazzina il magazzino merci"],1,"Artículo + sustantivo + verbo + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre la cadena de suministro global usando “pochi immaginavano/nessuno si aspettava” al menos una vez.",[],["pochi immaginavano", "catena di approvvigionamento", "collo di bottiglia"]],
+    ]
+  },
+  {
+    id:"it_a1_ham_radio_telecommunications", level:"A1", title:"La radioamatore e le telecomunicazioni", emoji:"📻", xp:38,
+    description:"Impara il vocabolario della radioamatore e a usare “c'è/ci sono” in italiano.",
+    study: {
+      vocab: [
+        ["il segnale radio", "radio signal"],
+        ["l'antenna", "antenna"],
+        ["la frequenza", "frequency"],
+        ["il microfono", "microphone"],
+        ["trasmettere", "to transmit"],
+        ["il disturbo", "static"],
+      ],
+      grammar: [
+        ["“C'è/ci sono”", "“C'è” se usa con sustantivos singulares o incontables, “ci sono” con sustantivos plurales, para indicar existencia.", "C'è molto disturbo su questa frequenza. / Ci sono due antenne sul tetto."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “antenna” en italiano?",["microphone", "l'antenna", "frequency", "antenna"],1,"“Antenna” es “l'antenna” en italiano."],
+      ["mcq","¿Cómo se dice “static” en italiano?",["microphone", "il disturbo", "to transmit", "static"],1,"“Static” es “il disturbo” en italiano."],
+      ["fill","Completa: “___ due antenne sul tetto.”",["C'è", "Sono", "È", "Ci sono"],3,"“Antenne” es plural, así que se usa “ci sono”."],
+      ["translate","Traduce: “There is a lot of static on this frequency.”",["C'è molti disturbo su questa frequenza.", "C'è molto disturbo su questa frequenza.", "È molto disturbo su questa frequenza.", "Ci sono molto disturbo su questa frequenza."],1,"“Disturbo” es incontable singular, así que se usa “c'è”: “c'è molto disturbo”."],
+      ["arrange","Ordena: [debole / segnale / questo / è]",["segnale debole questo è", "questo segnale è debole", "debole è questo segnale", "segnale questo debole è"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, un equipo de radioafición usando “c'è/ci sono”.",[],["c'è", "ci sono", "antenna"]],
+    ]
+  },
+  {
+    id:"it_a2_astrology_horoscopes", level:"A2", title:"L'astrologia e gli oroscopi", emoji:"🔮", xp:48,
+    description:"Impara il vocabolario dell'astrologia e a usare il futuro semplice per le previsioni in italiano.",
+    study: {
+      vocab: [
+        ["l'oroscopo", "horoscope"],
+        ["il segno zodiacale", "zodiac sign"],
+        ["il/la veggente", "fortune teller"],
+        ["la carta astrale", "star chart"],
+        ["la previsione", "prediction"],
+        ["il destino", "destiny"],
+      ],
+      grammar: [
+        ["Futuro semplice per le previsioni", "El futuro semplice se usa para hacer predicciones sobre el futuro basadas en opinión o creencia, no en evidencia presente.", "Questo oroscopo dice che avrai una buona settimana. / La veggente pensa che troverà l'amore presto."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “zodiac sign” en italiano?",["horoscope", "il segno zodiacale", "zodiac sign", "star chart"],1,"“Zodiac sign” es “il segno zodiacale” en italiano."],
+      ["mcq","¿Cómo se dice “destiny” en italiano?",["star chart", "zodiac sign", "fortune teller", "il destino"],3,"“Destiny” es “il destino” en italiano."],
+      ["fill","Completa: “Questo oroscopo dice che ___ una buona settimana.”",["hai", "avresti", "avevi", "avrai"],3,"El futuro semplice de “avere” en segunda persona es “avrai”."],
+      ["translate","Traduce: “The fortune teller thinks she will find love soon.”",["La veggente pensa che troverà l'amore presto.", "La veggente pensava che troverà l'amore presto.", "La veggente pensa che troverebbe l'amore presto.", "La veggente pensa che trova l'amore presto."],0,"“Will find” se traduce con futuro semplice: “troverà”."],
+      ["arrange","Ordena: [astrale / interessante / questa / carta / è]",["carta interessante è astrale questa", "è astrale interessante questa carta", "questa carta astrale è interessante", "interessante carta questa astrale è"],2,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, tu horóscopo de esta semana usando el futuro semplice para predicciones.",[],["futuro", "oroscopo", "previsione"]],
+    ]
+  },
+  {
+    id:"it_b1_skydiving_extreme_sports", level:"B1", title:"Il paracadutismo e gli sport estremi", emoji:"🪂", xp:62,
+    description:"Impara il vocabolario degli sport estremi e a usare “riuscire a” in italiano.",
+    study: {
+      vocab: [
+        ["il paracadute", "parachute"],
+        ["la caduta libera", "free fall"],
+        ["la scarica di adrenalina", "adrenaline rush"],
+        ["saltare", "to jump"],
+        ["il bungee jumping", "bungee jumping"],
+        ["lo sport estremo", "extreme sport"],
+      ],
+      grammar: [
+        ["“Riuscire a” + infinito", "“Riuscire a” + infinito expresa que alguien logró hacer algo difícil.", "È riuscita ad aprire il paracadute in tempo. / È riuscito a superare la paura dell'altezza."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “free fall” en italiano?",["bungee jumping", "la caduta libera", "adrenaline rush", "parachute"],1,"“Free fall” es “la caduta libera” en italiano."],
+      ["mcq","¿Cómo se dice “adrenaline rush” en italiano?",["la scarica di adrenalina", "to jump", "extreme sport", "bungee jumping"],0,"“Adrenaline rush” es “la scarica di adrenalina” en italiano."],
+      ["fill","Completa: “È riuscita ___ aprire il paracadute in tempo.”",["per", "in", "di", "ad"],3,"“Riuscire a” + infinito: “riuscita ad aprire”."],
+      ["translate","Traduce: “He succeeded in overcoming his fear of heights.”",["È riuscito a superare la paura dell'altezze.", "È riuscito a superare la paura dell'altezza.", "Riesce a superare la paura dell'altezza.", "È riuscito di superare la paura dell'altezza."],1,"“Succeed in overcoming” se traduce con “riuscire a superare”."],
+      ["arrange","Ordena: [emozionante / questo / molto / è / sport]",["questo sport è molto emozionante", "è questo molto emozionante sport", "questo emozionante molto è sport", "molto sport questo emozionante è"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre un deporte extremo usando “riuscire a” al menos dos veces.",[],["è riuscito a", "sport estremo", "paracadute"]],
+    ]
+  },
+  {
+    id:"it_b2_entomology_insects", level:"B2", title:"L'entomologia e gli insetti", emoji:"🐛", xp:84,
+    description:"Habla de entomología usando “oltre a/così come” en italiano.",
+    study: {
+      vocab: [
+        ["l'insetto", "insect"],
+        ["l'esoscheletro", "exoskeleton"],
+        ["la metamorfosi", "metamorphosis"],
+        ["l'antenna (insetto)", "antenna (insect)"],
+        ["la larva", "larva"],
+        ["l'impollinatore", "pollinator"],
+      ],
+      grammar: [
+        ["“Oltre a/così come”", "“Oltre a” + infinito o sustantivo y “così come” añaden información extra, similares a “besides” en inglés.", "Oltre a impollinare i fiori, le api producono miele. / Gli scarabei, così come le farfalle, subiscono la metamorfosi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “exoskeleton” en italiano?",["exoskeleton", "insect", "l'esoscheletro", "antenna (insect)"],2,"“Exoskeleton” es “l'esoscheletro” en italiano."],
+      ["mcq","¿Cómo se dice “metamorphosis” en italiano?",["pollinator", "la metamorfosi", "exoskeleton", "antenna (insect)"],1,"“Metamorphosis” es “la metamorfosi” en italiano."],
+      ["fill","Completa: “___ impollinare i fiori, le api producono miele.”",["Oltre a", "Così come", "Oltre che", "A parte"],0,"“Oltre a” + infinito introduce información extra: “oltre a impollinare”."],
+      ["translate","Traduce: “Beetles, as well as butterflies, undergo metamorphosis.”",["Gli scarabei, oltre le farfalle, subiscono la metamorfosi.", "Gli scarabei così come le farfalle subiscono la metamorfosi già.", "Gli scarabei, così come le farfalle, subiscono la metamorfosi.", "Gli scarabei, così come le farfalle, subisce la metamorfosi."],2,"“As well as” se traduce con “così come” en este contexto."],
+      ["arrange","Ordena: [impollinatori / importanti / sono / api / le]",["importanti impollinatori api sono le", "api le impollinatori importanti sono", "le importanti impollinatori api sono", "le api sono impollinatori importanti"],3,"Artículo + sustantivo + verbo + sustantivo + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre los insectos usando “oltre a” o “così come” al menos dos veces.",[],["oltre a", "così come", "insetto"]],
+    ]
+  },
+  {
+    id:"it_c1_intellectual_property_law", level:"C1", title:"Il diritto di proprietà intellettuale", emoji:"©️", xp:92,
+    description:"Analiza la propiedad intelectual usando “nonostante” en registro legal formal en italiano.",
+    study: {
+      vocab: [
+        ["il diritto d'autore", "copyright"],
+        ["il brevetto", "patent"],
+        ["il marchio registrato", "trademark"],
+        ["la violazione", "infringement"],
+        ["l'accordo di licenza", "licensing agreement"],
+        ["la proprietà intellettuale", "intellectual property"],
+      ],
+      grammar: [
+        ["“Nonostante” para concesión legal formal", "“Nonostante” + sustantivo (registro muy formal/legal) expresa una concesión, típico de textos jurídicos.", "Nonostante il brevetto, l'azienda ha continuato la produzione. / Il marchio rimane valido, nonostante la controversia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “infringement” en italiano?",["la violazione", "patent", "licensing agreement", "infringement"],0,"“Infringement” es “la violazione” en italiano."],
+      ["mcq","¿Cómo se dice “licensing agreement” en italiano?",["intellectual property", "l'accordo di licenza", "copyright", "licensing agreement"],1,"“Licensing agreement” es “l'accordo di licenza” en italiano."],
+      ["fill","Completa: “___ il brevetto, l'azienda ha continuato la produzione.”",["Sebbene", "A causa di", "Nonostante", "Malgrado di"],2,"“Nonostante” + sustantivo (sin preposición adicional): “nonostante il brevetto”."],
+      ["translate","Traduce con registro legal formal: “The trademark remains valid, notwithstanding the dispute.”",["Il marchio rimane valevole, nonostante la controversia già.", "Il marchio rimane valido, nonostante la controversia.", "Il marchio rimaneva valido, nonostante la controversia.", "Il marchio rimane valido, nonostante della controversia."],1,"“Notwithstanding” en este contexto formal se traduce con “nonostante”."],
+      ["arrange","Ordena: [violazione / azienda / ha / l' / dichiarato]",["l'azienda ha dichiarato violazione", "dichiarato l'azienda violazione ha", "dichiarato ha l'azienda violazione", "violazione l'azienda ha dichiarato"],0,"Artículo + sustantivo + auxiliar + participio + sustantivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre propiedad intelectual usando “nonostante” al menos dos veces.",[],["nonostante", "brevetto", "diritto d'autore"]],
+    ]
+  },
+  {
+    id:"it_c2_geology_minerals", level:"C2", title:"La geologia e i minerali", emoji:"💎", xp:100,
+    description:"Analiza la geología usando “lungi dal + infinito” en italiano.",
+    study: {
+      vocab: [
+        ["il giacimento minerale", "mineral deposit"],
+        ["la struttura cristallina", "crystalline structure"],
+        ["la roccia sedimentaria", "sedimentary rock"],
+        ["lo spostamento tettonico", "tectonic shift"],
+        ["la roccia ignea", "igneous rock"],
+        ["la composizione minerale", "mineral composition"],
+      ],
+      grammar: [
+        ["“Lungi dal + infinito” para concesión enfática", "“Lungi dal” + infinito expresa que algo es completamente lo contrario de lo esperado, un recurso enfático de registro formal.", "Lungi dall'essere stabile, questa formazione rocciosa cambia costantemente. / Lungi dal risolvere il dibattito, la scoperta ha sollevato nuove domande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “crystalline structure” en italiano?",["sedimentary rock", "la struttura cristallina", "crystalline structure", "mineral composition"],1,"“Crystalline structure” es “la struttura cristallina” en italiano."],
+      ["mcq","¿Cómo se dice “sedimentary rock” en italiano?",["la roccia sedimentaria", "mineral deposit", "igneous rock", "crystalline structure"],0,"“Sedimentary rock” es “la roccia sedimentaria” en italiano."],
+      ["fill","Completa: “Lungi dall'___ stabile, questa formazione rocciosa cambia costantemente.”",["è", "essendo", "sia", "essere"],3,"“Lungi dal” + infinito: “lungi dall'essere stabile”."],
+      ["translate","Traduce con estructura enfática: “Far from settling the debate, the discovery raised new questions.”",["Lungi risolvere il dibattito, la scoperta ha sollevato nuove domande.", "Lungi dal risolvere il dibattito, la scoperta ha sollevato vecchie domande.", "Lungi dal risolvere il dibattito, la scoperta solleva nuove domande.", "Lungi dal risolvere il dibattito, la scoperta ha sollevato nuove domande."],3,"“Far from settling” se traduce con “lungi dal risolvere”, infinito tras “dal”."],
+      ["arrange","Ordena: [raro / questo / minerale / molto / è]",["questo molto è minerale raro", "questo minerale è molto raro", "minerale è molto raro questo", "è raro questo molto minerale"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre geología usando “lungi dal + infinito” al menos una vez.",[],["lungi dal", "giacimento minerale", "roccia sedimentaria"]],
+    ]
+  },
+  {
+    id:"it_a1_coffee_tasting_cafes", level:"A1", title:"La degustazione di caffè e i bar", emoji:"☕", xp:38,
+    description:"Impara il vocabolario del caffè e a usare “vorrei” per richieste cortesi in italiano.",
+    study: {
+      vocab: [
+        ["il chicco di caffè", "coffee bean"],
+        ["la tostatura", "roast"],
+        ["l'aroma", "aroma"],
+        ["il barista", "barista"],
+        ["preparare (il caffè)", "to brew"],
+        ["la tazza", "cup"],
+      ],
+      grammar: [
+        ["“Vorrei” per richieste cortesi", "“Vorrei” (condizionale de “volere”) es una forma cortés de pedir algo, más formal que “voglio”.", "Vorrei una tazza di caffè, per favore. / Vorrebbe provare la tostatura scura."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “roast” en italiano?",["aroma", "roast", "coffee bean", "la tostatura"],3,"“Roast” es “la tostatura” en italiano."],
+      ["mcq","¿Cómo se dice “barista” en italiano?",["il barista", "cup", "to brew", "coffee bean"],0,"“Barista” es “il barista” en italiano."],
+      ["fill","Completa: “___ una tazza di caffè, per favore.”",["Voglio di", "Vorrei", "Volevo a", "Vorrebbe"],1,"“Vorrei” es la forma cortés de pedir: “vorrei una tazza”."],
+      ["translate","Traduce: “She would like to try the dark roast.”",["Vorrebbe provare la tostatura scura.", "Vorrebbe provando la tostatura scura.", "Vuole provare la tostatura scura per favore.", "Vorrebbe provare la tostatura chiara."],0,"“Would like to try” se traduce con “vorrebbe provare”."],
+      ["arrange","Ordena: [forte / questo / caffè / odora]",["forte odora questo caffè", "questo caffè odora forte", "caffè forte odora questo", "odora caffè forte questo"],1,"Pronombre + sustantivo + verbo + adjetivo."],
+      ["writing","Describe en italiano, en 20-30 palabras, tu pedido ideal en una cafetería usando “vorrei”.",[],["vorrei", "caffè", "barista"]],
+    ]
+  },
+  {
+    id:"it_a2_antique_furniture_restoration", level:"A2", title:"Il restauro di mobili antichi", emoji:"🪑", xp:48,
+    description:"Impara il vocabolario del restauro mobili e a usare “lasciare che qualcuno faccia qualcosa” in italiano.",
+    study: {
+      vocab: [
+        ["il mobile antico", "antique furniture"],
+        ["la vernice", "varnish"],
+        ["la carta vetrata", "sandpaper"],
+        ["restaurare", "to restore"],
+        ["la venatura del legno", "wood grain"],
+        ["il laboratorio", "workshop"],
+      ],
+      grammar: [
+        ["“Lasciare che + congiuntivo”", "“Lasciare che” + congiuntivo expresa permitir que alguien haga algo.", "Lascia che la vernice asciughi tutta la notte. / Lei lascia che il suo assistente carteggi il mobile."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “varnish” en italiano?",["sandpaper", "la vernice", "to restore", "workshop"],1,"“Varnish” es “la vernice” en italiano."],
+      ["mcq","¿Cómo se dice “sandpaper” en italiano?",["wood grain", "la carta vetrata", "workshop", "sandpaper"],1,"“Sandpaper” es “la carta vetrata” en italiano."],
+      ["fill","Completa: “Lei lascia che il suo assistente ___ il mobile.”",["carteggiare", "carteggia", "carteggiasse", "carteggi"],3,"“Lasciare che” requiere congiuntivo: “lascia che... carteggi”."],
+      ["translate","Traduce: “Let the varnish dry overnight.”",["Lascia che la vernice asciuga tutta la notte.", "Lascia che la vernice asciugherà tutta la notte.", "Lascia la vernice asciughi tutta la notte.", "Lascia che la vernice asciughi tutta la notte."],3,"“Let... dry” se traduce con “lascia che... asciughi”, congiuntivo tras “lasciare che”."],
+      ["arrange","Ordena: [molto / mobile / antico / è / questo]",["antico è mobile questo molto", "mobile questo è antico molto", "è mobile molto questo antico", "questo mobile è molto antico"],3,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["speaking","Describe en italiano, en 40-60 palabras, un proyecto de restauración de muebles usando “lasciare che + congiuntivo”.",[],["lascia che", "restaurare", "vernice"]],
+    ]
+  },
+  {
+    id:"it_b1_lexicography_dictionaries", level:"B1", title:"La lessicografia e i dizionari", emoji:"📖", xp:62,
+    description:"Impara il vocabolario della lessicografia e a usare “piuttosto che” in italiano.",
+    study: {
+      vocab: [
+        ["la voce del dizionario", "dictionary entry"],
+        ["la definizione", "definition"],
+        ["l'etimologia", "etymology"],
+        ["il lemma", "headword"],
+        ["il sinonimo", "synonym"],
+        ["l'esempio d'uso", "usage example"],
+      ],
+      grammar: [
+        ["“Piuttosto che” per preferenza", "“Piuttosto che” + sustantivo/infinito expresa preferencia por una opción sobre otra.", "Ha scelto una definizione moderna piuttosto che quella antica. / Piuttosto che indovinare, controlla l'etimologia."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “etymology” en italiano?",["l'etimologia", "definition", "headword", "synonym"],0,"“Etymology” es “l'etimologia” en italiano."],
+      ["mcq","¿Cómo se dice “headword” en italiano?",["etymology", "synonym", "usage example", "il lemma"],3,"“Headword” es “il lemma” en italiano."],
+      ["fill","Completa: “___ indovinare, controlla l'etimologia.”",["Invece", "Meglio che", "Piuttosto che", "Più che"],2,"“Piuttosto che” + infinito introduce la alternativa evitada: “piuttosto che indovinare”."],
+      ["translate","Traduce: “Rather than guessing, look up the etymology.”",["Piuttosto che indovinare, controllava l'etimologia.", "Piuttosto che indovinando, controlla l'etimologia.", "Piuttosto che indovinare, controlla l'etimologia.", "Piuttosto indovinare, controlla l'etimologia."],2,"“Rather than guessing” se traduce con “piuttosto che indovinare”, infinito."],
+      ["arrange","Ordena: [utile / molto / esempio / questo / è]",["questo esempio è molto utile", "molto è utile esempio questo", "molto questo utile è esempio", "questo esempio utile è molto"],0,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 45-65 palabras, sobre el uso de diccionarios usando “piuttosto che” al menos dos veces.",[],["piuttosto che", "dizionario", "definizione"]],
+    ]
+  },
+  {
+    id:"it_b2_medical_radiology_imaging", level:"B2", title:"La radiologia medica e la diagnostica per immagini", emoji:"🩻", xp:84,
+    description:"Habla de radiología usando “nel caso in cui” en italiano.",
+    study: {
+      vocab: [
+        ["la radiografia", "X-ray"],
+        ["la risonanza magnetica", "MRI scan"],
+        ["il radiologo/la radiologa", "radiologist"],
+        ["il mezzo di contrasto", "contrast dye"],
+        ["la diagnosi", "diagnosis"],
+        ["l'esposizione alle radiazioni", "radiation exposure"],
+      ],
+      grammar: [
+        ["“Nel caso in cui” + congiuntivo para precaución", "“Nel caso in cui” + congiuntivo expresa una precaución tomada para un posible evento futuro, sin implicar condición estricta.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa. / Porta i tuoi esami precedenti nel caso in cui il medico ne avesse bisogno."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “MRI scan” en italiano?",["radiologist", "radiation exposure", "la risonanza magnetica", "MRI scan"],2,"“MRI scan” es “la risonanza magnetica” en italiano."],
+      ["mcq","¿Cómo se dice “contrast dye” en italiano?",["diagnosis", "contrast dye", "radiologist", "il mezzo di contrasto"],3,"“Contrast dye” es “il mezzo di contrasto” en italiano."],
+      ["fill","Completa: “Porta i tuoi esami precedenti nel caso in cui il medico ne ___ bisogno.”",["avesse", "ha", "avrà", "aveva"],0,"“Nel caso in cui” requiere congiuntivo: “nel caso in cui... avesse bisogno”."],
+      ["translate","Traduce: “The radiologist ordered an MRI in case the X-ray missed something.”",["Il radiologo ha ordinato una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza se la radiografia avesse tralasciato qualcosa.", "Il radiologo ha ordinato una risonanza nel caso in cui la radiografia tralasciava qualcosa.", "Il radiologo ordina una risonanza nel caso in cui la radiografia avesse tralasciato qualcosa."],0,"“In case” se traduce con “nel caso in cui” + congiuntivo, expresando precaución."],
+      ["arrange","Ordena: [chiara / diagnosi / molto / è / la]",["chiara la diagnosi è molto", "la diagnosi è molto chiara", "chiara è la diagnosi molto", "diagnosi è chiara molto la"],1,"Artículo + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, sobre un procedimiento de radiología usando “nel caso in cui” al menos dos veces.",[],["nel caso in cui", "radiografia", "diagnosi"]],
+    ]
+  },
+  {
+    id:"it_c1_virology_pandemics", level:"C1", title:"La virologia e le pandemie", emoji:"🦠", xp:92,
+    description:"Analiza la virología usando “anche se” con congiuntivo para hipótesis en italiano.",
+    study: {
+      vocab: [
+        ["il ceppo virale", "virus strain"],
+        ["il focolaio", "outbreak"],
+        ["l'immunità di gregge", "herd immunity"],
+        ["l'efficacia del vaccino", "vaccine efficacy"],
+        ["il tasso di trasmissione", "transmission rate"],
+        ["la mutazione", "mutation"],
+      ],
+      grammar: [
+        ["“Anche se” + congiuntivo para hipótesis", "“Anche se” + congiuntivo expresa que algo será cierto incluso en una situación hipotética o improbable, distinto del indicativo para hechos reales.", "Anche se l'efficacia del vaccino diminuisse, l'immunità di gregge potrebbe aiutare. / Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “outbreak” en italiano?",["il focolaio", "outbreak", "herd immunity", "mutation"],0,"“Outbreak” es “il focolaio” en italiano."],
+      ["mcq","¿Cómo se dice “herd immunity” en italiano?",["transmission rate", "outbreak", "l'immunità di gregge", "virus strain"],2,"“Herd immunity” es “l'immunità di gregge” en italiano."],
+      ["fill","Completa: “Anche se l'efficacia ___, l'immunità di gregge potrebbe aiutare.”",["diminuisce", "diminuirà", "diminuisse", "è diminuita"],2,"“Anche se” con hipótesis usa congiuntivo imperfetto: “anche se... diminuisse”."],
+      ["translate","Traduce con concesión hipotética: “The virus would spread even if transmission rates fell slightly.”",["Il virus si diffonderebbe anche se i tassi di trasmissione calano leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione aumentassero leggermente.", "Il virus si diffonderebbe sebbene i tassi di trasmissione calassero leggermente.", "Il virus si diffonderebbe anche se i tassi di trasmissione calassero leggermente."],3,"“Even if” con condición hipotética se traduce con “anche se” + congiuntivo imperfetto."],
+      ["arrange","Ordena: [preoccupante / molto / mutazione / questa / è]",["è mutazione questa preoccupante molto", "questa mutazione è molto preoccupante", "preoccupante mutazione questa è molto", "è questa molto preoccupante mutazione"],1,"Pronombre + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre virología usando “anche se” con congiuntivo al menos dos veces.",[],["anche se", "focolaio", "immunità di gregge"]],
+    ]
+  },
+  {
+    id:"it_c2_central_banking_monetary_policy", level:"C2", title:"La banca centrale e la politica monetaria", emoji:"🏦", xp:100,
+    description:"Analiza la política monetaria usando “nella misura in cui” en italiano.",
+    study: {
+      vocab: [
+        ["il tasso d'interesse", "interest rate"],
+        ["l'obiettivo d'inflazione", "inflation target"],
+        ["l'allentamento quantitativo", "quantitative easing"],
+        ["la politica monetaria", "monetary policy"],
+        ["la banca centrale", "central bank"],
+        ["lo stimolo fiscale", "fiscal stimulus"],
+      ],
+      grammar: [
+        ["“Nella misura in cui” per qualificare", "“Nella misura in cui” expresa una limitación o condición parcial, típica del registro académico/formal, equivalente a “insofar as” en inglés.", "Nella misura in cui l'inflazione rimane stabile, sono possibili tagli dei tassi. / La politica funziona nella misura in cui le banche prestano più liberamente."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “quantitative easing” en italiano?",["inflation target", "l'allentamento quantitativo", "central bank", "quantitative easing"],1,"“Quantitative easing” es “l'allentamento quantitativo” en italiano."],
+      ["mcq","¿Cómo se dice “fiscal stimulus” en italiano?",["quantitative easing", "lo stimolo fiscale", "monetary policy", "central bank"],1,"“Fiscal stimulus” es “lo stimolo fiscale” en italiano."],
+      ["fill","Completa: “Nella misura in cui l'inflazione ___ stabile, sono possibili tagli dei tassi.”",["sia rimasta", "rimane", "rimaneva", "rimarrà"],1,"“Nella misura in cui” con presente indicativo: “nella misura in cui... rimane”."],
+      ["translate","Traduce con calificador formal: “The policy works to the extent that banks lend more freely.”",["La politica funziona nella misura che le banche prestano più liberamente.", "La politica funzionava nella misura in cui le banche prestano più liberamente.", "La politica funziona nella misura in cui le banche prestano meno liberamente.", "La politica funziona nella misura in cui le banche prestano più liberamente."],3,"“To the extent that” se traduce con “nella misura in cui” en italiano."],
+      ["arrange","Ordena: [alto / molto / tasso / interesse / è / il / di]",["molto tasso è alto di il interesse", "il tasso di interesse è molto alto", "interesse è il tasso alto molto di", "tasso il molto di interesse è alto"],1,"Artículo + sustantivo + preposición + sustantivo + verbo + adverbio + adjetivo."],
+      ["writing","Escribe en italiano, en 55-75 palabras, un análisis sobre política monetaria usando “nella misura in cui” al menos una vez.",[],["nella misura in cui", "politica monetaria", "banca centrale"]],
+    ]
+  },
+  {
+    id:"it_a1_wh_questions", level:"A1", title:"Le parole interrogative: cosa, chi, dove, quando, perché", emoji:"❓", xp:34,
+    description:"Aprende a formar preguntas básicas en italiano con las palabras interrogativas.",
+    study: {
+      vocab: [
+        ["Cosa...?", "What...?"],
+        ["Chi...?", "Who...?"],
+        ["Dove...?", "Where...?"],
+        ["Quando...?", "When...?"],
+        ["Perché...?", "Why...?"],
+        ["Come...?", "How...?"],
+      ],
+      grammar: [
+        ["Ordine delle domande in italiano", "In italiano non serve un ausiliare come in inglese; basta la parola interrogativa + verbo (+ soggetto, spesso omesso).", "Dove abiti? / Come ti chiami? / Quando inizia il corso?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por un lugar?",["Chi", "Dove", "Cosa", "Quando"],1,"“Dove” se usa para preguntar por lugares."],
+      ["mcq","¿Qué palabra usas para preguntar por una persona?",["Come", "Perché", "Cosa", "Chi"],3,"“Chi” se usa para preguntar por personas."],
+      ["fill","Completa: “___ abiti?”",["Dove", "Chi", "Perché", "Cosa"],0,"Preguntamos por el lugar donde vive alguien con “Dove”."],
+      ["translate","Traduce: “Why do you study Italian?”",["Cosa studi l'italiano?", "Dove studi l'italiano?", "Chi studi l'italiano?", "Perché studi l'italiano?"],3,"“Why” se traduce como “Perché”."],
+      ["arrange","Ordena: [abiti / tu / dove]",["abiti tu dove", "dove abiti tu", "dove tu abiti", "tu abiti dove"],1,"Palabra interrogativa + verbo + sujeto."],
+      ["writing","Scrivi in italiano 20-30 parole con almeno tre domande per conoscere qualcuno di nuovo.",[],["Dove", "Come", "Quando"]],
+    ]
+  },
+  {
+    id:"it_a1_possessives_family", level:"A1", title:"Gli aggettivi possessivi e la famiglia", emoji:"👪", xp:35,
+    description:"Aprende los posesivos en italiano y el vocabulario básico de la familia.",
+    study: {
+      vocab: [
+        ["il mio / la mia", "my"],
+        ["il tuo / la tua", "your (informal)"],
+        ["il suo / la sua", "his / her"],
+        ["il nostro / la nostra", "our"],
+        ["il loro / la loro", "their"],
+        ["la madre, il padre, i genitori", "mother, father, parents"],
+      ],
+      grammar: [
+        ["Sin artículo con nombres de familia en singular", "Con los nombres de familia en singular (madre, padre, fratello, sorella...), el posesivo se usa SIN artículo: “mia sorella”, no “la mia sorella”.", "Questa è mia sorella. / Questi sono i nostri genitori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “his sister” en italiano?",["sua sorella", "loro sorella", "suo fratello", "nostra sorella"],0,"“His/her sister” es “sua sorella”, sin artículo."],
+      ["mcq","¿Cómo se dice “our parents” en italiano?",["i miei genitori", "i nostri genitori", "i loro genitori", "i tuoi genitori"],1,"“Our” es “il nostro/la nostra”, aquí plural “i nostri genitori”."],
+      ["fill","Completa: “Lei parla con ___ madre.”",["nostra", "tua", "mia", "sua"],3,"“Madre” singular de familia → sin artículo, “sua madre”."],
+      ["translate","Traduce: “These are their siblings.”",["Questo è il loro fratello.", "Questi sono i nostri fratelli.", "Questi sono i loro fratelli.", "Questi sono i suoi fratelli."],2,"“Their” (de ellos) es “il loro/la loro”, aquí plural “i loro fratelli”."],
+      ["arrange","Ordena: [sorella / è / mia / questa]",["questa mia sorella è", "sorella questa è mia", "sorella questa mia è", "questa è mia sorella"],3,"Sujeto + verbo “essere” + posesivo (sin artículo) + sustantivo."],
+      ["speaking","Descrivi in italiano, in 25-35 parole, tre membri della tua famiglia usando gli aggettivi possessivi.",[],["mia", "sua", "nostra"]],
+    ]
+  },
+  {
+    id:"it_a1_there_is_are_prepositions", level:"A1", title:"«C'è / Ci sono» y las preposiciones de lugar", emoji:"📍", xp:36,
+    description:"Aprende a usar “c'è/ci sono” y las preposiciones de lugar en italiano.",
+    study: {
+      vocab: [
+        ["c'è / ci sono", "there is / there are"],
+        ["dentro, sopra, sotto", "in, on, under"],
+        ["accanto a, tra/fra", "next to, between"],
+        ["davanti a, dietro", "in front of, behind"],
+        ["C'è...? / Ci sono...?", "Is/Are there...?"],
+      ],
+      grammar: [
+        ["“C'è” vs “Ci sono”", "A diferencia del inglés, en italiano “c'è” (singular) y “ci sono” (plural) sí cambian según el número del sustantivo.", "C'è una lampada sul tavolo. / Ci sono due sedie accanto alla scrivania."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “under” en italiano?",["sotto", "sopra", "dietro", "accanto a"],0,"“Under” es “sotto”."],
+      ["mcq","¿Cómo se dice “between” en italiano?",["davanti a", "dietro", "dentro", "tra/fra"],3,"“Between” es “tra/fra”."],
+      ["fill","Completa: “Ci sono due libri ___ il tavolo.”",["dietro", "tra", "sopra", "dentro"],2,"“Sopra” indica que algo está encima de una superficie."],
+      ["translate","Traduce: “There is a cat under the table.”",["C'è un gatto accanto al tavolo.", "C'è un gatto sotto il tavolo.", "C'è un gatto sopra il tavolo.", "Ci sono gatti sotto il tavolo."],1,"“Under the table” es “sotto il tavolo”."],
+      ["arrange","Ordena: [sedia / accanto / è / alla / la / lampada]",["lampada la accanto è sedia alla", "la sedia è accanto alla lampada", "alla è accanto la lampada sedia", "sedia la è accanto alla lampada"],1,"Sujeto + verbo “essere” + preposición + objeto."],
+      ["writing","Descrivi in italiano, in 25-35 parole, dove si trovano tre oggetti nella tua stanza usando «c'è/ci sono» e le preposizioni di luogo.",[],["c'è", "ci sono", "accanto a"]],
+    ]
+  },
+  {
+    id:"it_a1_plurals_articles", level:"A1", title:"Il plurale dei sostantivi e gli articoli", emoji:"🔤", xp:34,
+    description:"Aprende las reglas del plural en italiano y el uso de los artículos.",
+    study: {
+      vocab: [
+        ["il libro / i libri", "the book / the books"],
+        ["la casa / le case", "the house / the houses"],
+        ["l'amico / gli amici", "the friend / the friends"],
+        ["lo studente / gli studenti", "the student / the students"],
+        ["un, uno, una", "a, an"],
+        ["il, lo, la, i, gli, le", "the"],
+      ],
+      grammar: [
+        ["Reglas del plural en italiano", "El plural cambia la vocal final: “-o”→“-i”, “-a” (femenino)→“-e”, “-e”→“-i” (ambos géneros).", "libro→libri, casa→case, amico→amici, studente→studenti"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el plural de “casa”?",["casi", "casas", "case", "caso"],2,"Femenino en “-a” → plural en “-e”: “case”."],
+      ["mcq","¿Cuál es el plural de “studente”?",["studenti", "studentesi", "studentas", "studente"],0,"Terminado en “-e” → plural en “-i”: “studenti”."],
+      ["fill","Completa: “Ho bisogno di ___ ombrello; sta piovendo.”",["un", "il", "uno", "una"],0,"“Ombrello” es masculino y empieza por vocal/consonante simple → “un”."],
+      ["translate","Traduce: “There are three boxes in the garage.”",["Ci sono tre scatole nel garage.", "C'è tre scatole nel garage.", "Ci sono tre scatola nel garage.", "Ci sono tre scatoli nel garage."],0,"“Scatola” es femenino → plural “scatole”, con “ci sono”."],
+      ["arrange","Ordena: [sono / dove / i / libri]",["dove sono i libri", "sono libri dove i", "sono i libri dove", "libri dove sono i"],0,"Palabra interrogativa + verbo + artículo + sustantivo plural."],
+      ["writing","Scrivi in italiano 20-30 parole sugli oggetti nel tuo zaino, usando almeno due plurali.",[],["libri", "scatole", "ci sono"]],
+    ]
+  },
+  {
+    id:"it_a1_likes_dislikes", level:"A1", title:"I gusti e le preferenze", emoji:"❤️", xp:37,
+    description:"Aprende a expresar gustos y preferencias en italiano con el verbo “piacere”.",
+    study: {
+      vocab: [
+        ["mi piace / mi piacciono", "I like (sing./plur.)"],
+        ["adoro", "I love"],
+        ["non mi piace / odio", "I don't like / I hate"],
+        ["nuotare, leggere, cucinare", "swimming, reading, cooking"],
+        ["Ti piace...?", "Do you like...?"],
+      ],
+      grammar: [
+        ["El verbo “piacere” funciona al revés", "Como en español, con “piacere” lo que se disfruta es el sujeto gramatical. Con infinitivos siempre se usa la forma singular “piace”.", "Mi piace nuotare. / Mi piacciono i libri d'avventura."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “I love” (para actividades) en italiano?",["odio", "adoro", "non mi piace", "mi piace"],1,"“I love” es “adoro”."],
+      ["mcq","¿Cómo se dice “I hate” en italiano?",["mi piace", "ti piace", "adoro", "odio"],3,"“I hate” es “odio”."],
+      ["fill","Completa: “A lei piace ___ nei fine settimana.”",["cucinare", "cucino", "cucinando", "cucina"],0,"Tras “piacere” el verbo va en infinitivo: “cucinare”."],
+      ["translate","Traduce: “I don't like swimming in cold water.”",["Mi piace nuotare in acqua fredda.", "Odio nuotare acqua fredda.", "Non mi piace nuotando in acqua fredda.", "Non mi piace nuotare in acqua fredda."],3,"“I don't like” + infinitivo: “non mi piace nuotare”."],
+      ["arrange","Ordena: [piace / le / leggere / libri]",["le piace leggere libri", "le leggere libri piace", "leggere le piace libri", "libri le piace leggere"],0,"Objeto indirecto + “piacere” + infinitivo + objeto."],
+      ["speaking","Parla in italiano per 25-35 parole di tre attività che ti piacciono e una che odi.",[],["mi piace", "adoro", "odio"]],
+    ]
+  },
+  {
+    id:"it_a2_future_plans", level:"A2", title:"Il futuro: piani e previsioni", emoji:"🔮", xp:46,
+    description:"Aprende a hablar del futuro en italiano usando el presente para planes y el futuro simple para predicciones.",
+    study: {
+      vocab: [
+        ["sto per...", "I'm about to..."],
+        ["presente + espressione di tempo", "present tense + time expression (for plans)"],
+        ["futuro semplice (-erò, -irò...)", "future tense"],
+        ["penso che pioverà", "I think it will rain"],
+        ["cosa farai domani?", "what will you do tomorrow?"],
+      ],
+      grammar: [
+        ["Presente para planes vs futuro simple para predicciones", "El italiano usa a menudo el presente + expresión de tiempo para planes ya decididos; el futuro simple se reserva más para predicciones o incertidumbre.", "Visito i miei genitori la prossima settimana. / Penso che domani pioverà."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa a menudo para un plan ya decidido?",["ti piace", "presente + espressione di tempo", "futuro semplice", "penso che"],1,"Para planes ya decididos se usa el presente + expresión de tiempo."],
+      ["mcq","¿Cómo se dice “next week” en italiano?",["questa settimana", "la prossima settimana", "il prossimo anno", "la settimana scorsa"],1,"“Next week” es “la prossima settimana”."],
+      ["fill","Completa: “Guarda quelle nuvole! ___ piovere.”",["Sta per", "Era", "Ha", "Pioverà"],0,"“Stare per + infinitivo” indica algo inminente: “sta per piovere”."],
+      ["translate","Traduce: “I think we will win the game.”",["Penso che vinciamo la partita vinto.", "Penso che vinceremo la partita.", "Penso che vinceremmo la partita.", "Penso che vinciamo la partita."],1,"Predicción sin evidencia clara → futuro simple: “vinceremo”."],
+      ["arrange","Ordena: [visito / prossima / settimana / nonni / miei / la / i]",["visito i miei nonni la prossima settimana", "miei settimana prossima i visito nonni la", "i la miei prossima settimana visito nonni", "prossima visito i settimana la nonni miei"],0,"Sujeto + verbo en presente + objeto + expresión de tiempo."],
+      ["writing","Scrivi in italiano 30-40 parole sui tuoi piani per il prossimo mese, usando il presente per i piani e una previsione al futuro.",[],["prossima", "futuro", "penso che"]],
+    ]
+  },
+  {
+    id:"it_a2_comparatives_superlatives", level:"A2", title:"I comparativi e i superlativi", emoji:"⚖️", xp:47,
+    description:"Aprende a comparar personas y cosas en italiano usando comparativos y superlativos.",
+    study: {
+      vocab: [
+        ["più grande di, più piccolo di", "bigger than, smaller than"],
+        ["più caro di", "more expensive than"],
+        ["il/la migliore, il/la peggiore", "the best, the worst"],
+        ["tanto...quanto", "as...as"],
+        ["il/la più interessante", "the most interesting"],
+      ],
+      grammar: [
+        ["Comparativos y superlativos regulares e irregulares", "“Più/meno + adjetivo + di” forma el comparativo; “il/la più + adjetivo” el superlativo. Irregular: buono→migliore, cattivo→peggiore.", "Questa macchina è più veloce di quella, ma quella rossa è la più veloce."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es el comparativo de “buono”?",["più buono", "migliore", "il migliore", "buonissimo"],1,"“Buono” es irregular: migliore, il migliore."],
+      ["mcq","¿Cómo se dice “as expensive as” en italiano?",["più caro di", "il più caro", "caro quanto", "meno caro"],2,"“As...as” es “tanto/così...quanto/come”."],
+      ["fill","Completa: “Questo telefono è ___ del mio, ma non è il migliore.”",["il migliore", "più buono", "buonissimo", "migliore"],3,"Comparativo irregular de “buono” es “migliore”."],
+      ["translate","Traduce: “This is the cheapest hotel in the city.”",["Questo è l'hotel economico della città.", "Questo è l'hotel più economico della città.", "Questo è più economico hotel della città.", "Questo è l'hotel tanto economico della città."],1,"Superlativo: “il/la più + adjetivo”."],
+      ["arrange","Ordena: [di / alto / fratello / mio / è / me]",["alto me è di fratello mio", "mio fratello è alto di me", "di alto fratello mio me è", "è di fratello alto me mio"],1,"Sujeto + verbo + comparativo + “di” + objeto (versión simplificada, sin “più”)."],
+      ["speaking","Confronta in italiano, in 30-40 parole, due città o luoghi che conosci usando comparativi e un superlativo.",[],["più", "il migliore", "di"]],
+    ]
+  },
+  {
+    id:"it_a2_advice_modals", level:"A2", title:"Consigli e obbligo: dovresti, devi", emoji:"💡", xp:48,
+    description:"Aprende a dar consejos y hablar de obligaciones en italiano.",
+    study: {
+      vocab: [
+        ["dovresti...", "you should..."],
+        ["non dovresti...", "you shouldn't..."],
+        ["devo...", "I must / I have to"],
+        ["non devi...", "you don't have to"],
+        ["è una buona idea...", "it's a good idea to..."],
+      ],
+      grammar: [
+        ["“Dovresti” (consejo) vs “devi” (obligación)", "“Dovresti” (condicional de “dovere”) da un consejo suave; “devi” expresa obligación; “non devi” significa que algo no es necesario, mientras que la prohibición se expresa con “non puoi”.", "Dovresti bere più acqua. / Devi indossare la cintura di sicurezza."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión da un consejo, no una obligación?",["dovresti", "non devi", "devi", "non puoi"],0,"“Dovresti” es un consejo, no una obligación."],
+      ["mcq","¿Cómo se dice “you don't have to” en italiano?",["non devi", "non puoi", "devi", "non dovresti"],0,"“You don't have to” es “non devi”, no “non puoi” (prohibición)."],
+      ["fill","Completa: “Non ___ fumare qui; è vietato.”",["puoi", "hai", "dovresti", "devi"],0,"“Non puoi” indica prohibición."],
+      ["translate","Traduce: “You should sleep more.”",["Devi dormire di più.", "Non puoi dormire di più.", "Dovresti dormire di più.", "Non devi dormire di più."],2,"Consejo suave → “dovresti”."],
+      ["arrange","Ordena: [cintura / indossare / devi / una]",["cintura una devi indossare", "devi una indossare cintura", "una indossare cintura devi", "devi indossare una cintura"],3,"Sujeto + “dovere” + infinitivo + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole dando tre consigli a un amico che viaggerà per la prima volta.",[],["dovresti", "devi", "non devi"]],
+    ]
+  },
+  {
+    id:"it_a2_phone_calls", level:"A2", title:"Le telefonate", emoji:"📞", xp:46,
+    description:"Aprende expresiones útiles para hacer y recibir llamadas telefónicas en italiano.",
+    study: {
+      vocab: [
+        ["Pronto, sono...", "Hello, this is..."],
+        ["Posso parlare con...?", "Can I speak to...?"],
+        ["Posso lasciare un messaggio?", "Can I take/leave a message?"],
+        ["Un attimo, per favore.", "Hold on, please."],
+        ["Puoi richiamare più tardi?", "Can you call back later?"],
+        ["Ti richiamo.", "I'll call you back."],
+      ],
+      grammar: [
+        ["Fórmulas fijas para el teléfono", "En italiano se responde al teléfono con “Pronto” y se identifica uno con “sono...”.", "Pronto, sono Laura. Posso parlare con il signor Rossi, per favore?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Can I take a message?” en italiano?",["Un attimo, per favore.", "Posso parlare con...?", "Posso lasciare un messaggio?", "Ti richiamo."],2,"“Can I take/leave a message?” es “Posso lasciare un messaggio?”."],
+      ["mcq","¿Cómo se dice “Hold on, please” en italiano?",["Posso parlare con...?", "Sono Laura.", "Un attimo, per favore.", "Richiama più tardi."],2,"“Hold on, please” es “Un attimo, per favore”."],
+      ["fill","Completa: “Pronto, ___ Marco. C'è Anna?”",["sono", "sto", "sono qui", "ero"],0,"Al identificarse por teléfono se dice “sono Marco”."],
+      ["translate","Traduce: “Can I speak to Mr. García, please?”",["Posso lasciare il signor García, per favore?", "Posso aspettare il signor García, per favore?", "Posso parlare con il signor García, per favore?", "Posso chiamare il signor García, per favore?"],2,"“Can I speak to...?” es “Posso parlare con...?”."],
+      ["arrange","Ordena: [richiamo / ti / più / tardi]",["ti richiamo tardi più", "più ti tardi richiamo", "ti più richiamo tardi", "ti richiamo più tardi"],3,"Objeto + verbo + expresión de tiempo."],
+      ["speaking","Simula in italiano, in 30-40 parole, una telefonata in cui chiedi di parlare con qualcuno e lasci un messaggio.",[],["posso parlare con", "posso lasciare un messaggio", "sono"]],
+    ]
+  },
+  {
+    id:"it_a2_quantifiers_countable", level:"A2", title:"Le quantità: un po' di, quanto, quanti", emoji:"🧮", xp:47,
+    description:"Aprende a hablar de cantidades en italiano distinguiendo sustantivos contables e incontables.",
+    study: {
+      vocab: [
+        ["un po' di, alcuni/alcune", "some, a few"],
+        ["Quanto/a...?", "How much...?"],
+        ["Quanti/e...?", "How many...?"],
+        ["molto/molti", "a lot of / much, many"],
+        ["poco/pochi", "little, few"],
+      ],
+      grammar: [
+        ["Contables vs incontables en italiano", "“Quanti/e” y “molti/e, pochi/e” concuerdan en género y número con sustantivos contables plurales; “quanto/a” y “molto/a, poco/a” con incontables en singular.", "Quante mele hai? / Quanta acqua c'è? / Ho pochi soldi con me."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para preguntar por algo incontable, como el agua?",["alcune", "molti", "Quanti", "Quanta"],3,"“Acqua” es incontable y femenino → “Quanta”."],
+      ["mcq","¿Qué palabra usas con sustantivos contables plurales, como “mele”?",["molta", "poca", "Quanto", "Quante"],3,"“Mele” es contable plural femenino → “Quante”."],
+      ["fill","Completa: “Ho solo ___ soldi con me.”",["pochi", "poco", "molte", "alcuna"],0,"“Soldi” es masculino plural → “pochi soldi”."],
+      ["translate","Traduce: “How many books do you have?”",["Quanti libro hai?", "Quanto libro hai?", "Quanto libri hai?", "Quanti libri hai?"],3,"“Libri” es contable plural masculino → “Quanti libri”."],
+      ["arrange","Ordena: [latte / quanto / c'è]",["latte c'è quanto", "latte quanto c'è", "c'è latte quanto", "quanto latte c'è"],3,"Palabra interrogativa + sustantivo incontable + verbo."],
+      ["writing","Descrivi in italiano, in 25-35 parole, cosa c'è nel tuo frigorifero usando «un po' di», «molto» e «alcuni».",[],["molto", "alcuni", "un po' di"]],
+    ]
+  },
+  {
+    id:"it_b1_past_continuous_narrative", level:"B1", title:"L'imperfetto e il passato prossimo: narrare un'interruzione", emoji:"🌙", xp:60,
+    description:"Aprende a combinar la forma progresiva del imperfecto con el passato prossimo para narrar interrupciones.",
+    study: {
+      vocab: [
+        ["stavo cucinando / stavano parlando", "I was cooking / they were talking"],
+        ["mentre, quando", "while, when"],
+        ["all'improvviso", "suddenly"],
+        ["è squillato il telefono", "the phone rang"],
+        ["nel mezzo di...", "in the middle of..."],
+      ],
+      grammar: [
+        ["“Stare” all'imperfetto + gerundio + passato prossimo", "El italiano tiene una forma progresiva similar al inglés: “stare” en imperfecto + gerundio para la acción de fondo, y el passato prossimo para la interrupción.", "Stavo cucinando la cena quando è squillato il telefono. / Mentre lei stava studiando, è arrivato il suo amico."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma se usa para la acción de fondo interrumpida?",["cucinare", "cucino", "ho cucinato", "stavo cucinando"],3,"La acción de fondo va en imperfecto progresivo: “stavo cucinando”."],
+      ["mcq","¿Cómo se dice “suddenly” en italiano?",["mentre", "nel mezzo di", "quando", "all'improvviso"],3,"“Suddenly” es “all'improvviso”."],
+      ["fill","Completa: “___ la cena quando è squillato il telefono.”",["Cucinare", "Ho cucinato", "Stavo cucinando", "Cucino"],2,"Acción interrumpida = imperfecto progresivo: “stavo cucinando”."],
+      ["translate","Traduce: “While she was studying, her friend arrived.”",["Mentre lei ha studiato, stava arrivando il suo amico.", "Mentre lei studia, è arrivato il suo amico.", "Mentre lei stava studiando, è arrivato il suo amico.", "Mentre lei stava studiando, stava arrivando il suo amico."],2,"Fondo en imperfecto progresivo, interrupción en passato prossimo: “stava studiando... è arrivato”."],
+      ["arrange","Ordena: [squillato / cucinando / cena / stavo / la / quando / è / telefono / il]",["stavo cucinando la cena quando è squillato il telefono", "il cucinando è la stavo squillato quando telefono cena", "squillato quando stavo cena è cucinando la il telefono", "stavo quando cucinando il è cena squillato la telefono"],0,"Imperfecto progresivo + objeto + “quando” + passato prossimo."],
+      ["writing","Scrivi in italiano 40-55 parole raccontando una breve storia in cui qualcosa ti ha interrotto mentre facevi altro.",[],["mentre", "quando", "all'improvviso"]],
+    ]
+  },
+  {
+    id:"it_b1_second_conditional", level:"B1", title:"Il periodo ipotetico della possibilità", emoji:"🌈", xp:62,
+    description:"Aprende a hablar de situaciones hipotéticas y deseos imaginarios en italiano.",
+    study: {
+      vocab: [
+        ["se avessi...", "if I had..."],
+        ["io -ei / io non -ei", "I would / I wouldn't"],
+        ["se fossi in te...", "if I were you..."],
+        ["cosa faresti se...?", "What would you do if...?"],
+        ["situazione immaginaria", "imaginary situation"],
+      ],
+      grammar: [
+        ["Se + congiuntivo imperfetto, condizionale presente", "Para situaciones hipotéticas poco probables, se usa “se” + congiuntivo imperfetto, seguido del condicional presente.", "Se avessi più tempo, viaggerei di più. / Se fossi in te, accetterei l'offerta."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma verbal sigue a “se fossi in te, io...”?",["ho accettato", "accetterò", "accetto", "accetterei"],3,"Tras la cláusula con “se” va el condicional presente: “accetterei”."],
+      ["mcq","¿Cómo se dice “imaginary situation” en italiano?",["piano futuro", "situazione reale", "esperienza passata", "situazione immaginaria"],3,"“Imaginary situation” es “situazione immaginaria”."],
+      ["fill","Completa: “Se ___ più soldi, viaggerei per il mondo.”",["avrò", "ho", "avessi", "ebbi"],2,"Congiuntivo imperfetto de “avere” es “avessi”."],
+      ["translate","Traduce: “If I were you, I would accept the job.”",["Se ero in te, accetterò il lavoro.", "Se fossi in te, accetto il lavoro.", "Se sono in te, accetterei il lavoro.", "Se fossi in te, accetterei il lavoro."],3,"“Se fossi in te” es la forma estándar para un consejo hipotético."],
+      ["arrange","Ordena: [tempo / più / se / avessi / viaggerei / io]",["tempo se viaggerei avessi più io", "tempo avessi più se io viaggerei", "più viaggerei tempo se avessi io", "se avessi più tempo io viaggerei"],3,"“Se” + congiuntivo imperfetto + condicional presente."],
+      ["speaking","Parla in italiano, in 40-55 parole, su cosa faresti se vincessi alla lotteria, usando il periodo ipotetico.",[],["se avessi", "io -ei", "immaginaria"]],
+    ]
+  },
+  {
+    id:"it_b1_modals_deduction", level:"B1", title:"Esprimere certezza, possibilità e dubbio", emoji:"🕵️", xp:61,
+    description:"Aprende a expresar certeza, posibilidad y duda en italiano.",
+    study: {
+      vocab: [
+        ["deve essere", "must be (certeza alta)"],
+        ["potrebbe essere", "might/may be (posibilidad)"],
+        ["non può essere", "can't be (certeza negativa)"],
+        ["potrebbe darsi che", "could be (posibilidad)"],
+        ["sono sicuro/a / non sono sicuro/a", "I'm sure / I'm not sure"],
+      ],
+      grammar: [
+        ["Grados de certeza en italiano", "“Dovere” en presente expresa una fuerte deducción; “potrebbe” expresa posibilidad, no certeza; “non può essere” expresa certeza negativa.", "Le luci sono spente, quindi devono dormire. / Potrebbe essere al lavoro, non sono sicuro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte certeza de que algo NO es cierto?",["non può essere", "potrebbe darsi che", "deve essere", "potrebbe essere"],0,"“Non può essere” indica que algo es imposible según la evidencia."],
+      ["mcq","¿Qué expresión indica posibilidad, no certeza?",["non può essere", "deve essere", "potrebbe essere", "sono sicuro"],2,"“Potrebbe essere” expresa una posibilidad, no una certeza."],
+      ["fill","Completa: “Le luci sono spente, quindi ___ dormire.”",["dovrebbero", "potrebbero", "devono", "non possono"],2,"Evidencia fuerte (luces apagadas) → “devono” (alta certeza)."],
+      ["translate","Traduce: “It can't be that late.”",["Non può essere così tardi.", "Potrebbe essere così tardi.", "Potrebbe darsi che sia così tardi.", "Deve essere così tardi."],0,"Certeza negativa fuerte → “non può essere”."],
+      ["arrange","Ordena: [lavoro / al / essere / potrebbe / lui]",["al lui essere lavoro potrebbe", "potrebbe lui lavoro al essere", "lavoro al lui potrebbe essere", "lui potrebbe essere al lavoro"],3,"Sujeto + modal + “essere” + complemento."],
+      ["writing","Scrivi in italiano 35-45 parole facendo deduzioni su una situazione (per esempio, perché qualcuno non risponde al telefono).",[],["deve essere", "potrebbe essere", "non può essere"]],
+    ]
+  },
+  {
+    id:"it_b1_reported_speech_basics", level:"B1", title:"Il discorso indiretto di base", emoji:"🗣️", xp:63,
+    description:"Aprende a contar en italiano lo que alguien dijo usando el discurso indirecto básico.",
+    study: {
+      vocab: [
+        ["ha detto che...", "he/she said (that)..."],
+        ["mi ha detto che...", "he/she told me (that)..."],
+        ["ha detto che era stanca", "she said she was tired"],
+        ["ha detto che avrebbe chiamato", "he said he would call"],
+        ["cambio di tempo verbale", "backshift"],
+      ],
+      grammar: [
+        ["Cambio de tiempo verbal en el discurso indirecto", "Al pasar al discurso indirecto, el presente suele pasar a imperfecto, y el futuro se convierte en condicional pasado (“avrebbe + participio”).", "Diretto: «Sono stanca.» → Indiretto: Ha detto che era stanca. / Diretto: «Ti chiamerò.» → Indiretto: Ha detto che avrebbe chiamato."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “she told me that...” en italiano?",["mi ha detto che", "mi dice che", "dirà che", "dice che"],0,"“She told me” es “mi ha detto”, en pasado."],
+      ["mcq","¿En qué se convierte el futuro (“chiamerò”) en discurso indirecto?",["chiamava", "chiama", "avrebbe chiamato", "chiamerà"],2,"El futuro se convierte en condicional pasado: “avrebbe chiamato”."],
+      ["fill","Completa: “Ha detto che ___ stanca.”",["sia", "è", "è stata", "era"],3,"El presente (“sono”) pasa a imperfecto (“era”) en discurso indirecto."],
+      ["translate","Traduce: “He said he would call later.”",["Ha detto che avrebbe chiamato più tardi.", "Ha detto che chiamerà più tardi.", "Ha detto che ha chiamato più tardi.", "Ha detto che chiama più tardi."],0,"El futuro pasa a condicional pasado en discurso indirecto: “avrebbe chiamato”."],
+      ["arrange","Ordena: [stanca / detto / era / che / ha]",["ha detto che era stanca", "che stanca era ha detto", "detto ha era che stanca", "ha era che stanca detto"],0,"Sujeto + “ha detto che” + sujeto + verbo en imperfecto."],
+      ["writing","Scrivi in italiano 35-45 parole riportando al discorso indiretto tre cose che qualcuno ti ha detto di recente.",[],["ha detto che", "mi ha detto", "avrebbe"]],
+    ]
+  },
+  {
+    id:"it_b1_sequencing_process", level:"B1", title:"Descrivere un processo: i connettori di sequenza", emoji:"🔢", xp:60,
+    description:"Aprende a describir procesos y secuencias de pasos en italiano usando conectores de orden.",
+    study: {
+      vocab: [
+        ["Prima...", "first..."],
+        ["Poi / Quindi...", "then / next..."],
+        ["Dopo di che...", "after that..."],
+        ["Infine...", "finally..."],
+        ["Una volta che hai..., ...", "once you have..., ..."],
+      ],
+      grammar: [
+        ["Conectores de secuencia para procesos", "Los conectores de secuencia organizan un proceso paso a paso; suelen ir seguidos de coma al inicio de la frase.", "Prima, compili il modulo. Poi, lo invii online. Infine, aspetti un'e-mail di conferma."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué conector usas para el último paso de un proceso?",["Infine", "Prima", "Dopo di che", "Poi"],0,"“Infine” indica el último paso."],
+      ["mcq","¿Qué conector usas para el primer paso de un proceso?",["Prima", "Poi", "Infine", "Dopo di che"],0,"“Prima” indica el primer paso."],
+      ["fill","Completa: “___ che hai compilato il modulo, invialo online.”",["Infine", "Prima", "Poi", "Una volta"],3,"“Una volta che” introduce una condición temporal."],
+      ["translate","Traduce: “First, mix the ingredients; then, bake for 20 minutes.”",["Poi, mescola gli ingredienti; prima, cuoci per 20 minuti.", "Prima, mescola gli ingredienti; poi, cuoci per 20 minuti.", "Infine, mescola gli ingredienti; poi, cuoci per 20 minuti.", "Prima, mescola gli ingredienti; prima, cuoci per 20 minuti."],1,"“First...then” es “prima...poi”."],
+      ["arrange","Ordena: [che / invia / modulo / dopo / di / il]",["di il invia dopo modulo che", "modulo dopo di il invia che", "modulo dopo il invia che di", "dopo di che invia il modulo"],3,"Conector de secuencia + verbo + artículo + objeto."],
+      ["speaking","Spiega in italiano, in 40-55 parole, i passaggi per fare qualcosa che sai fare (una ricetta, una pratica, ecc.) usando almeno tre connettori di sequenza.",[],["prima", "poi", "infine"]],
+    ]
+  },
+  {
+    id:"it_b2_relative_clauses", level:"B2", title:"Le proposizioni relative: che, cui, il quale", emoji:"🔗", xp:55,
+    description:"Aprende a usar los pronombres relativos italianos: che, cui e il quale.",
+    study: {
+      vocab: [
+        ["che", "who/which/that – relativo general, invariable"],
+        ["cui", "whose/to whom – tras preposición"],
+        ["il quale/la quale", "which/who (formal, concuerda en género/número)"],
+        ["dove, quando", "where, when"],
+        ["l'uomo che ha chiamato", "the man who called"],
+      ],
+      grammar: [
+        ["“Che”, “cui” e “il quale”", "“Che” es invariable y vale para personas y cosas como sujeto u objeto directo; “cui” se usa tras preposición o para posesión (“di cui”); “il quale” es más formal y concuerda en género y número.", "Il libro che ho comprato è fantastico. / La persona a cui ho scritto... / Lo scrittore il cui romanzo ha vinto..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre relativo se usa tras una preposición?",["cui", "dove", "il quale", "che"],0,"“Cui” se usa tras preposición."],
+      ["mcq","¿Qué pronombre relativo es invariable y se usa para personas y cosas?",["cui", "il quale", "dove", "che"],3,"“Che” es invariable y vale para personas y cosas."],
+      ["fill","Completa: “Lo scrittore ___ romanzo ha vinto il premio è italiano.”",["che", "il quale", "il cui", "cui"],2,"“Il cui” indica posesión: “el romanzo del escritor”."],
+      ["translate","Traduce: “The woman I wrote to...”",["La donna il quale ho scritto...", "La donna che ho scritto...", "La donna dove ho scritto...", "La donna a cui ho scritto..."],3,"Tras preposición (“a”) se usa “cui”."],
+      ["arrange","Ordena: [chiamato / che / l'uomo / ha]",["che l'uomo ha chiamato", "l'uomo che ha chiamato", "che l'uomo chiamato ha", "che ha chiamato l'uomo"],1,"Sustantivo + “che” + verbo."],
+      ["writing","Scrivi in italiano 30-40 parole descrivendo una persona e un oggetto usando “che”, “cui” e “il quale”.",[],["che", "cui", "il quale"]],
+    ]
+  },
+  {
+    id:"it_b2_gerundio_infinito", level:"B2", title:"Il gerundio, l'infinito e il participio presente", emoji:"🔀", xp:56,
+    description:"Aprende cuándo usar el gerundio y cuándo el infinitivo en italiano.",
+    study: {
+      vocab: [
+        ["stare + gerundio", "to be doing (progresivo)"],
+        ["verbo + infinito", "verbo + infinitivo (patrón más común)"],
+        ["pur + gerundio", "although/while doing"],
+        ["continuare a + infinito", "to keep on doing"],
+        ["finire di + infinito", "to have just finished doing"],
+      ],
+      grammar: [
+        ["El italiano usa mayormente infinitivo", "Como el francés, el italiano usa mayormente infinitivo tras los verbos; el gerundio se usa con “stare” para el progresivo, o con “pur” para expresar concesión.", "Sta imparando l'italiano. / Pur essendo stanco, ha continuato a lavorare."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa una acción en curso (progresivo)?",["pur + gerundio", "verbo + infinito", "stare + gerundio", "continuare a + infinito"],2,"“Stare + gerundio” expresa una acción en curso."],
+      ["mcq","¿Qué estructura expresa concesión (“aunque haciendo algo”)?",["pur + gerundio", "finire di + infinito", "continuare a + infinito", "stare + gerundio"],0,"“Pur + gerundio” expresa concesión."],
+      ["fill","Completa: “Sta ___ l'italiano.”",["impara", "imparare", "imparando", "imparato"],2,"“Stare + gerundio” para el progresivo: “imparando”."],
+      ["translate","Traduce: “Although being tired, he kept working.”",["Pur stanco essendo, ha continuato a lavorare.", "Sebbene essendo stanco, ha continuato a lavorare.", "Pur essendo stanco, ha continuato a lavorare.", "Pur essere stanco, ha continuato a lavorare."],2,"“Pur + gerundio” (essendo) expresa concesión."],
+      ["arrange","Ordena: [italiano / imparando / sta / l']",["l'italiano imparando sta", "sta l'italiano imparando", "imparando l'italiano sta", "sta imparando l'italiano"],3,"“Stare” + gerundio + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole sulle tue abitudini usando “stare + gerundio”, “continuare a” e “finire di”.",[],["sta", "continua a", "finisce di"]],
+    ]
+  },
+  {
+    id:"it_b2_desiderio_rimpianto", level:"B2", title:"Desiderio e rimpianto: magari, avrei voluto", emoji:"🌠", xp:56,
+    description:"Aprende a expresar deseos y arrepentimiento en italiano.",
+    study: {
+      vocab: [
+        ["Vorrei + infinito", "I wish (deseo presente)"],
+        ["Avrei voluto + infinito passato", "I wish I had done (arrepentimiento)"],
+        ["Magari...", "If only..."],
+        ["Avrei dovuto + infinito", "I should have..."],
+        ["il rimpianto", "regret"],
+      ],
+      grammar: [
+        ["Deseo presente vs arrepentimiento pasado", "Para un deseo sobre el presente se usa “vorrei + infinitivo”; para un arrepentimiento sobre el pasado, “avrei voluto + infinito passato” o “magari + congiuntivo trapassato”.", "Vorrei avere più tempo. / Avrei voluto studiare di più. / Magari avessi accettato il lavoro."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura expresa un deseo sobre el presente?",["avrei dovuto", "magari + congiuntivo trapassato", "avrei voluto + infinito passato", "vorrei + infinito"],3,"Deseo presente → “vorrei + infinitivo”."],
+      ["mcq","¿Qué estructura expresa un arrepentimiento sobre el pasado?",["avrei voluto + infinito passato", "magari + congiuntivo presente", "vorrei + infinito", "ho voluto"],0,"Arrepentimiento pasado → “avrei voluto + infinito passato”."],
+      ["fill","Completa: “___ più tempo.”",["Vorrei avere", "Magari ho", "Ho avuto", "Avrei voluto avere"],0,"Deseo sobre el presente → “vorrei + infinitivo”."],
+      ["translate","Traduce: “I wish I had accepted the job.”",["Magari accetto il lavoro.", "Ho voluto accettare il lavoro.", "Avrei voluto accettare il lavoro.", "Vorrei accettare il lavoro."],2,"Arrepentimiento pasado → “avrei voluto + infinito passato”."],
+      ["arrange","Ordena: [tempo / vorrei / più / avere]",["vorrei avere più tempo", "vorrei avere tempo più", "più vorrei tempo avere", "tempo più vorrei avere"],0,"“Vorrei” + infinitivo + objeto."],
+      ["speaking","Parla in italiano, in 35-45 parole, di qualcosa che avresti voluto fare diversamente nel passato, usando “avrei voluto” + infinito passato.",[],["avrei voluto", "magari", "avrei dovuto"]],
+    ]
+  },
+  {
+    id:"it_b2_dovere_passato_deduzione", level:"B2", title:"Il condizionale passato e “dovere” per speculare sul passato", emoji:"🔍", xp:57,
+    description:"Aprende a especular sobre el pasado en italiano con “dovere” y el condicional pasado.",
+    study: {
+      vocab: [
+        ["deve essere + participio", "must have (deducción)"],
+        ["può essere + participio", "might have (posibilidad)"],
+        ["non può essere + participio", "can't have (certeza negativa)"],
+        ["avrebbe dovuto + infinito", "should have (crítica/arrepentimiento)"],
+        ["non sono sicuro di cosa sia successo", "I'm not sure what happened"],
+      ],
+      grammar: [
+        ["“Dovere” para especular sobre el pasado", "“Dovere” en presente + infinito compuesto expresa una fuerte deducción sobre el pasado; “avrebbe dovuto + infinito” expresa crítica o arrepentimiento.", "Deve essere già partita; il suo cappotto è sparito. / Avresti dovuto chiamarmi prima."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica una fuerte deducción sobre el pasado?",["deve essere", "può essere", "avrebbe dovuto", "non può essere"],0,"“Deve essere” indica una fuerte deducción."],
+      ["mcq","¿Qué expresión indica crítica sobre algo que no se hizo?",["deve essere", "può essere", "avrebbe dovuto", "non può essere"],2,"“Avrebbe dovuto” expresa crítica o arrepentimiento."],
+      ["fill","Completa: “___ già partita; il suo cappotto è sparito.”",["Deve essere", "Avrebbe dovuto", "Può essere", "Non può essere"],0,"Evidencia fuerte (abrigo desapareció) → “deve essere”."],
+      ["translate","Traduce: “You can't have finished so fast.”",["Devi aver finito così in fretta.", "Avresti dovuto finire così in fretta.", "Puoi aver finito così in fretta.", "Non puoi aver finito così in fretta."],3,"Certeza negativa fuerte → “non puoi aver”."],
+      ["arrange","Ordena: [chiamarmi / avresti / prima / dovuto]",["chiamarmi prima dovuto avresti", "chiamarmi dovuto avresti prima", "prima avresti dovuto chiamarmi", "avresti dovuto chiamarmi prima"],3,"Sujeto + “avresti dovuto” + infinitivo + adverbio."],
+      ["writing","Scrivi in italiano 35-45 parole facendo ipotesi sul perché qualcuno sia arrivato tardi a una riunione, usando “deve essere”, “può essere” e “non può essere”.",[],["deve essere", "può essere", "non può essere"]],
+    ]
+  },
+  {
+    id:"it_b2_imperfetto_abitudini", level:"B2", title:"L'imperfetto e le abitudini passate", emoji:"🕰️", xp:55,
+    description:"Aprende a describir hábitos y estados pasados en italiano con el imperfecto.",
+    study: {
+      vocab: [
+        ["l'imperfetto per abitudini e stati", "imperfecto para hábitos/estados"],
+        ["solere + infinito", "to be used to / usually do"],
+        ["una volta...", "antes / hace tiempo..."],
+        ["da bambino/a...", "de niño/a..."],
+        ["al giorno d'oggi", "hoy en día"],
+      ],
+      grammar: [
+        ["El imperfecto es el tiempo natural para hábitos pasados", "El imperfecto describe naturalmente hábitos y estados pasados en italiano (equivalente a “used to/would”); “solere + infinitivo” refuerza la idea de costumbre, aunque es más literario.", "Vivevo a Roma. / Da bambino, giocavo sempre fuori."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo describe naturalmente hábitos y estados pasados?",["il congiuntivo", "il condizionale", "l'imperfetto", "il passato prossimo"],2,"El imperfecto describe hábitos y estados pasados."],
+      ["mcq","¿Qué verbo (más literario) refuerza la idea de una costumbre pasada?",["venire", "dovere", "stare", "solere"],3,"“Solere” refuerza la idea de costumbre pasada."],
+      ["fill","Completa: “Quando ero giovane, ___ in un piccolo paese.”",["vivo", "vivevo", "vivrò", "ho vissuto"],1,"Estado pasado → imperfecto: “vivevo”."],
+      ["translate","Traduce: “As a child, I would always play in the park.”",["Da bambino, giocavo sempre nel parco.", "Da bambino, ho sempre giocato nel parco.", "Da bambino, giocherò sempre nel parco.", "Da bambino, gioco sempre nel parco."],0,"Hábito pasado repetido → imperfecto: “giocavo”."],
+      ["arrange","Ordena: [Roma / vivevo / a / io]",["io vivevo a Roma", "a Roma vivevo io", "io a vivevo Roma", "a Roma io vivevo"],0,"Sujeto + imperfecto + preposición + objeto."],
+      ["speaking","Parla in italiano, in 35-45 parole, di com'era la tua vita dieci anni fa, usando l'imperfetto.",[],["vivevo", "solevo", "al giorno d'oggi"]],
+    ]
+  },
+  {
+    id:"it_c1_inversione_enfasi", level:"C1", title:"L'anteposizione per dare enfasi", emoji:"❗", xp:65,
+    description:"Aprende a anteponer adverbios negativos y restrictivos para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["Mai avrei pensato...", "Never would I have thought..."],
+        ["Non solo..., ma anche...", "Not only... but also..."],
+        ["Solo dopo..., ...", "Only after..., ..."],
+        ["Appena...che...", "No sooner...than..."],
+        ["struttura enfatica", "estructura enfática"],
+      ],
+      grammar: [
+        ["Anteposición de adverbios negativos/restrictivos", "El italiano no tiene inversión sujeto-auxiliar como el inglés, pero antepone adverbios negativos/restrictivos (“mai”, “appena”, “non solo”) al inicio de la oración para dar énfasis.", "Mai avrei pensato di vederlo di nuovo. / Non solo ha vinto la gara, ma ha anche battuto il record."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión introduce dos acciones casi simultáneas, la segunda inesperada?",["Mai avrei pensato...", "Non solo...ma anche...", "Appena...che...", "Solo dopo..."],2,"“Appena...che...” indica dos acciones casi simultáneas."],
+      ["mcq","¿Cómo se dice “not only... but also...” en italiano?",["Mai avrei pensato...", "Non solo..., ma anche...", "Appena...che...", "Solo dopo..."],1,"“Not only...but also...” es “non solo...ma anche...”."],
+      ["fill","Completa: “___ era arrivato che ha dovuto ripartire.”",["Mai", "Non solo", "Appena", "Solo"],2,"“Appena...che...” indica que una acción ocurre justo después de otra."],
+      ["translate","Traduce: “Not only did she win the race, but she also broke the record.”",["Non solo ha vinto la gara, ma ha anche battuto il record.", "Non solo ha vinto la gara, ma battuto anche ha il record.", "Non solo lei ha vinto la gara, però ha anche battuto il record.", "Solo non ha vinto la gara, ma ha anche battuto il record."],0,"“Non solo...ma anche...” es la estructura correcta en italiano."],
+      ["arrange","Ordena: [pensato / avrei / mai / questo]",["questo avrei pensato mai", "questo mai pensato avrei", "mai avrei pensato questo", "avrei pensato mai questo"],2,"Adverbio + condicional pasado + objeto."],
+      ["writing","Scrivi in italiano 35-45 parole su un traguardo o un'esperienza usando almeno una struttura enfatica (‘mai’, ‘non solo...ma anche’, ‘appena...che’).",[],["mai", "non solo", "appena"]],
+    ]
+  },
+  {
+    id:"it_c1_frase_scissa", level:"C1", title:"La frase scissa: è...che", emoji:"🎯", xp:65,
+    description:"Aprende a usar la frase escindida (“è...che”) para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["È... che...", "It is... that... (énfasis)"],
+        ["Quello di cui ho bisogno è...", "What I need is..."],
+        ["Quello che mi ha sorpreso è stato...", "What surprised me was..."],
+        ["È stato/a + sostantivo + che", "It was + noun + that"],
+        ["enfasi tramite struttura", "emphasis through structure"],
+      ],
+      grammar: [
+        ["“È...che” y “quello che/di cui...è”", "El italiano enfatiza un elemento con “è...che” (para cualquier elemento) o “quello che/di cui...è” para enfatizar con “lo que”.", "È stata Maria che ha risolto il problema. / Quello di cui ho bisogno è più tempo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura enfatiza un elemento con “es...que”?",["Quello che... è...", "È... che...", "Mai avrei pensato...", "Non solo..."],1,"“È...che...” enfatiza un elemento."],
+      ["mcq","¿Qué estructura enfatiza usando “lo que”?",["Appena...che...", "Quello che... è...", "È... che...", "Solo dopo..."],1,"“Quello che...è...” enfatiza con “lo que”."],
+      ["fill","Completa: “___ di cui ho bisogno è più tempo.”",["Quello", "Questo", "È", "Chi"],0,"“Quello di cui” + cláusula + “è” enfatiza el complemento."],
+      ["translate","Traduce: “It was Maria who solved the problem.”",["È Maria che ha risolto il problema stata.", "Maria è stata che ha risolto il problema.", "È stata Maria che risolve il problema.", "È stata Maria che ha risolto il problema."],3,"“È stata + persona + che” enfatiza el sujeto en pasado."],
+      ["arrange","Ordena: [bisogno / quello / ho / è / di / tempo / cui / più]",["è bisogno ho quello più tempo di cui", "tempo ho quello cui di più bisogno è", "di è tempo più quello cui bisogno ho", "quello di cui ho bisogno è più tempo"],3,"“Quello di cui” + cláusula + “è” + complemento."],
+      ["speaking","Parla in italiano, in 35-45 parole, usando almeno due frasi scisse (‘è...che’ e ‘quello di cui...è’) per sottolineare idee importanti della tua vita.",[],["è", "che", "quello di cui"]],
+    ]
+  },
+  {
+    id:"it_c1_costruzioni_participio_gerundio", level:"C1", title:"Le costruzioni con participio e gerundio", emoji:"✂️", xp:65,
+    description:"Aprende a reducir cláusulas más largas usando construcciones de participio y gerundio en italiano.",
+    study: {
+      vocab: [
+        ["Avendo finito..., ...", "Having finished..., ..."],
+        ["Essendo consapevole di..., ...", "Being aware of..., ..."],
+        ["Non sapendo cosa fare, ...", "Not knowing what to do, ..."],
+        ["costruzione implicita", "construcción implícita"],
+        ["riduce una proposizione più lunga", "reduce una cláusula más larga"],
+      ],
+      grammar: [
+        ["“Avendo + participio” y gerundio simple", "“Avendo + participio passato” o el gerundio simple (“non sapendo”) reemplazan cláusulas subordinadas más largas, dando un estilo más formal y conciso.", "Avendo finito il rapporto, è tornata a casa. / Non sapendo cosa fare, ha chiamato il suo avvocato."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué forma reemplaza a “Dopo che ha finito il rapporto”?",["Per finire il rapporto", "Finendo il rapporto", "Avendo finito il rapporto", "Finito il rapporto lei"],2,"“Avendo + participio” reemplaza una acción completada antes de otra."],
+      ["mcq","¿Qué forma reemplaza a “Poiché non sapeva cosa fare”?",["Sapendo non cosa fare", "Non sapendo cosa fare", "Avendo non saputo cosa fare", "Non sapere cosa fare"],1,"El gerundio simple negado reemplaza una cláusula causal: “non sapendo”."],
+      ["fill","Completa: “___ il rapporto, è tornata a casa.”",["Finito", "Per finire", "Finendo", "Avendo finito"],3,"Acción completada antes de otra → “avendo + participio”."],
+      ["translate","Traduce: “Not knowing what to say, he remained silent.”",["Avendo non saputo cosa dire, è rimasto in silenzio.", "Sapendo non cosa dire, è rimasto in silenzio.", "Non sapere cosa dire, è rimasto in silenzio.", "Non sapendo cosa dire, è rimasto in silenzio."],3,"El gerundio simple negado al inicio reemplaza una cláusula causal."],
+      ["arrange","Ordena: [casa / finito / avendo / è / rapporto / a / tornata / il]",["casa a tornata il finito avendo rapporto è", "avendo finito il rapporto è tornata a casa", "casa tornata è finito rapporto il avendo a", "è tornata casa finito il a rapporto avendo"],1,"Cláusula de participio + sujeto + verbo."],
+      ["writing","Scrivi in italiano 35-45 parole raccontando un aneddoto usando almeno una costruzione con participio o gerundio (Avendo..., Non sapendo..., Essendo...).",[],["avendo", "non sapendo", "essendo"]],
+    ]
+  },
+  {
+    id:"it_c1_verbi_riportare_congiuntivo", level:"C1", title:"Verbi di riporto avanzati: suggerire, insistere, negare", emoji:"🗨️", xp:66,
+    description:"Aprende los patrones gramaticales de los verbos de reporte avanzados en italiano.",
+    study: {
+      vocab: [
+        ["suggerire che + congiuntivo", "suggest that + subjunctive"],
+        ["insistere perché + congiuntivo", "insist that + subjunctive"],
+        ["negare di + infinito passato", "deny doing"],
+        ["ammettere di + infinito passato", "admit doing"],
+        ["raccomandare che + congiuntivo", "recommend that + subjunctive"],
+      ],
+      grammar: [
+        ["Verbos de reporte que exigen subjuntivo o infinitivo pasado", "Verbos como “suggerire che”, “insistere perché” y “raccomandare che” exigen el subjuntivo; “negare” y “ammettere” van seguidos de “di + infinito passato” para una acción pasada.", "Ha suggerito che lui arrivasse presto. / Ha negato di aver rubato i soldi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo verbal exige “suggerire che”?",["l'imperativo", "l'infinito", "il congiuntivo", "l'indicativo"],2,"“Suggerire che” exige el congiuntivo en la subordinada."],
+      ["mcq","¿Cómo se completa “Ha negato ___ i soldi” (rubare, acción pasada)?",["di aver rubato", "di rubare", "rubato", "rubando"],0,"“Negare” + “di aver + participio” para acciones pasadas."],
+      ["fill","Completa: “Il medico ha raccomandato che lei ___ per una settimana.”",["riposò", "riposare", "riposasse", "riposa"],2,"“Raccomandare che” exige congiuntivo imperfecto: “riposasse”."],
+      ["translate","Traduce: “He admitted making a mistake.”",["Ha ammesso che commetteva un errore.", "Ha ammesso di aver commesso un errore.", "Ha ammesso aver commesso un errore di.", "Ha ammesso di commettere un errore."],1,"“Ammettere” + “di aver + participio” para una acción ya realizada."],
+      ["arrange","Ordena: [soldi / negato / aver / rubato / ha / i / di]",["i aver ha rubato di soldi negato", "ha soldi negato aver rubato di i", "ha negato aver soldi i di rubato", "ha negato di aver rubato i soldi"],3,"Sujeto + “negare” + “di aver” + participio + objeto."],
+      ["writing","Scrivi in italiano 35-45 parole riportando una conversazione usando almeno due verbi di riporto avanzati (suggerire, insistere, negare, ammettere).",[],["ha suggerito che", "ha negato", "ha ammesso"]],
+    ]
+  },
+  {
+    id:"it_c1_ellissi_sostituzione", level:"C1", title:"Ellissi e sostituzione nel discorso", emoji:"➖", xp:65,
+    description:"Aprende a evitar repeticiones en italiano usando elipsis y expresiones sustitutas.",
+    study: {
+      vocab: [
+        ["Anch'io / Neanch'io", "So do I / Neither do I"],
+        ["farlo", "to do so"],
+        ["Credo di sì / Spero di no", "I think so / I hope not"],
+        ["lo stesso vale per...", "the same goes for..."],
+        ["omettere le parole ripetute", "omitir palabras repetidas"],
+      ],
+      grammar: [
+        ["Elipsis y expresiones sustitutas", "El italiano evita repetir información con elipsis y expresiones sustitutas como “anch'io/neanch'io”, “credo di sì/no”.", "A: Adoro questa canzone. B: Anch'io. / A: Pioverà? B: Spero di no."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo respondes con acuerdo afirmativo a “Adoro questa canzone”?",["Farlo.", "Anch'io.", "Spero di no.", "Neanch'io."],1,"“Anch'io” expresa acuerdo con una afirmación."],
+      ["mcq","¿Cómo respondes con acuerdo negativo a “Non mi piace il caffè”?",["Neanch'io.", "Farlo.", "Credo di sì.", "Anch'io."],0,"“Neanch'io” expresa acuerdo con una negación."],
+      ["fill","Completa: “A: Verrà alla festa? B: Spero di ___.”",["anche", "sì", "no", "neanche"],1,"“Spero di sì” sustituye la cláusula afirmativamente."],
+      ["translate","Traduce: “A: I think it will rain. B: I think so too.”",["A: Penso che pioverà. B: Penso lo anch'io.", "A: Penso che pioverà. B: Anche lo penso.", "A: Penso che pioverà. B: Penso anche troppo questo.", "A: Penso che pioverà. B: Lo penso anch'io."],3,"“Lo penso anch'io” sustituye la cláusula repetida."],
+      ["arrange","Ordena: [anch'io / penso / lo]",["lo penso anch'io", "penso lo anch'io", "anch'io lo penso", "penso anch'io lo"],0,"Pronombre + verbo + “anch'io”."],
+      ["speaking","Parla in italiano, in 30-40 parole, di gusti condivisi con un amico usando ‘anch'io’, ‘neanch'io’ e ‘credo di sì’.",[],["anch'io", "neanch'io", "credo di sì"]],
+    ]
+  },
+  {
+    id:"it_c2_nominalizzazione", level:"C2", title:"La nominalizzazione per un registro formale", emoji:"📜", xp:70,
+    description:"Aprende a usar la nominalización para lograr un registro académico y formal en italiano.",
+    study: {
+      vocab: [
+        ["ridurre → la riduzione", "reduce → reduction"],
+        ["decidere → la decisione", "decide → decision"],
+        ["analizzare → l'analisi", "analyze → analysis"],
+        ["È importante considerare...", "It is important to consider..."],
+        ["registro accademico/formale", "registro académico/formal"],
+      ],
+      grammar: [
+        ["La nominalización compacta la información", "La nominalización convierte verbos y adjetivos en sustantivos abstractos, un recurso típico del registro académico y formal en italiano.", "L'azienda ha deciso di ridurre i costi. → La decisione dell'azienda di ridurre i costi... / Hanno analizzato i dati con attenzione. → La loro attenta analisi dei dati..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cuál es la nominalización de “decidere”?",["decisivo", "il decisore", "la decisione", "decidendo"],2,"La nominalización de “decidere” es “la decisione”."],
+      ["mcq","¿Cuál es la nominalización de “analizzare”?",["analizzando", "l'analisi", "analitico", "l'analizzatore"],1,"La nominalización de “analizzare” es “l'analisi”."],
+      ["fill","Completa: “La loro attenta ___ dei dati ha rivelato nuovi schemi.”",["analisi", "analizzando", "analizzare", "analizzatore"],0,"Registro formal → sustantivo nominalizado: “analisi”."],
+      ["translate","Traduce: “The decision to reduce costs was controversial.”",["La decisione di ridurre i costi è stata controversa.", "La decisione di ridurre i costi è stato controverso.", "Il decidere di ridurre i costi è stata controversa.", "La decisiva di ridurre i costi è stata controversa."],0,"“Decidere” se nominaliza como “la decisione”."],
+      ["arrange","Ordena: [stata / decisione / controversa / la / è]",["la decisione è stata controversa", "è decisione stata la controversa", "decisione stata la controversa è", "è la controversa stata decisione"],0,"Sustantivo nominalizado + verbo + adjetivo."],
+      ["writing","Scrivi in italiano 40-50 parole in un registro formale/accademico usando almeno due sostantivi nominalizzati (decisione, analisi, riduzione...).",[],["decisione", "analisi", "riduzione"]],
+    ]
+  },
+  {
+    id:"it_c2_anteposizione_enfatica", level:"C2", title:"L'anteposizione per dare enfasi", emoji:"⏩", xp:70,
+    description:"Aprende a anteponer objetos y complementos para dar énfasis en italiano.",
+    study: {
+      vocab: [
+        ["Questo non posso accettarlo.", "This I cannot accept."],
+        ["Tale era la sua determinazione che...", "Such was her determination that..."],
+        ["Poco sapeva che...", "Little did he know..."],
+        ["Colui che ammiro di più è...", "The one I admire most is..."],
+        ["tematizzazione", "topicalization"],
+      ],
+      grammar: [
+        ["Anteposición retomada con pronombre clítico", "El italiano permite anteponer un objeto o complemento al inicio de la oración para darle énfasis, retomándolo a menudo con un pronombre clítico (“questo non posso accettarlo”).", "Questo non posso accettarlo. / Tale era il caos che la riunione è stata annullata."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué frase antepone el objeto para dar énfasis?",["Questo posso non accettarlo.", "Non posso accettare questo.", "Questo non posso accettarlo.", "Non posso accettarlo, questo."],2,"“Questo non posso accettarlo” antepone el objeto “questo”, retomado con “lo”."],
+      ["mcq","¿Qué estructura implica que algo sucedió sin que el sujeto lo supiera?",["Questo non posso accettarlo.", "Anch'io.", "Tale era la sua determinazione...", "Poco sapeva che..."],3,"“Poco sapeva che...” implica ignorancia sobre algo que ocurriría."],
+      ["fill","Completa: “___ sapeva che il suo piano sarebbe fallito.”",["Poco", "Mai", "Solo", "Appena"],0,"“Poco sapeva che...” es una estructura fija de énfasis."],
+      ["translate","Traduce: “Such was the chaos that the meeting was cancelled.”",["Tanto era il caos che la riunione è stata annullata.", "Tale era il caos che la riunione è stata annullata.", "Tale il caos era che la riunione è stata annullata.", "Tale era il caos che la riunione era annullata."],1,"“Tale era + sustantivo + che” es una estructura fija de énfasis."],
+      ["arrange","Ordena: [accettarlo / questo / posso / non]",["questo accettarlo non posso", "posso questo accettarlo non", "questo non posso accettarlo", "accettarlo questo posso non"],2,"Objeto antepuesto + verbo + pronombre clítico."],
+      ["speaking","Parla in italiano, in 40-50 parole, di una svolta inaspettata nella tua vita usando almeno una struttura di anteposizione enfatica.",[],["questo non", "poco sapeva", "tale era"]],
+    ]
+  },
+  {
+    id:"it_c2_avverbi_atteggiamento", level:"C2", title:"Avverbi di atteggiamento avanzati", emoji:"🎭", xp:70,
+    description:"Aprende a matizar tus afirmaciones en italiano con adverbios de actitud avanzados.",
+    study: {
+      vocab: [
+        ["si potrebbe dire che", "arguably"],
+        ["apparentemente", "ostensibly"],
+        ["presuntamente", "purportedly"],
+        ["innegabilmente", "undeniably"],
+        ["presumibilmente", "presumably"],
+      ],
+      grammar: [
+        ["Los adverbios de actitud matizan el compromiso del hablante", "Los adverbios de actitud muestran el grado de compromiso del hablante con la veracidad de una afirmación, matizando sin negar directamente.", "La politica è stata, si potrebbe dire, un fallimento. / Era apparentemente lì per aiutare, ma aveva altri motivi."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión indica que algo se afirma sin pruebas confirmadas?",["presumibilmente", "presuntamente", "innegabilmente", "si potrebbe dire che"],1,"“Presuntamente” indica algo dicho sin confirmación."],
+      ["mcq","¿Qué adverbio indica algo indiscutible?",["si potrebbe dire che", "presuntamente", "apparentemente", "innegabilmente"],3,"“Innegabilmente” indica algo innegable."],
+      ["fill","Completa: “Era ___ lì per aiutare, ma aveva altri motivi.”",["si potrebbe dire", "presumibilmente", "apparentemente", "innegabilmente"],2,"“Apparentemente” indica una apariencia que contrasta con la realidad."],
+      ["translate","Traduce: “This is, arguably, his best work.”",["Questo è, innegabilmente, il suo miglior lavoro.", "Questo è, si potrebbe dire, il suo miglior lavoro.", "Questo è, apparentemente, il suo miglior lavoro.", "Questo è, presuntamente, il suo miglior lavoro."],1,"“Podría decirse que” se traduce como “si potrebbe dire che”."],
+      ["arrange","Ordena: [fallimento / stata / la / politica / un / è]",["stata fallimento politica la un è", "la politica stata è un fallimento", "un politica stata è fallimento la", "la politica è stata un fallimento"],3,"Sujeto + verbo + artículo + sustantivo."],
+      ["writing","Scrivi in italiano 40-50 parole dando la tua opinione su un tema controverso usando almeno due avverbi di atteggiamento (si potrebbe dire che, innegabilmente, presumibilmente...).",[],["si potrebbe dire che", "innegabilmente", "presumibilmente"]],
+    ]
+  },
+  {
+    id:"it_c2_sintagmi_nominali_complessi", level:"C2", title:"I sintagmi nominali complessi nel registro accademico", emoji:"🧩", xp:70,
+    description:"Aprende a usar sintagmas nominales complejos típicos del italiano académico.",
+    study: {
+      vocab: [
+        ["il grado in cui...", "the extent to which..."],
+        ["un numero crescente di prove", "a growing body of evidence"],
+        ["le cause sottostanti di...", "the underlying causes of..."],
+        ["un'ampia gamma di fattori", "a wide range of factors"],
+        ["postmodificazione", "posmodificación"],
+      ],
+      grammar: [
+        ["Sintagmas nominales con posmodificadores", "El italiano académico usa sintagmas nominales complejos, con posmodificadores (cláusulas de relativo, frases preposicionales) para compactar información densa.", "Un numero crescente di prove suggerisce che... / Il grado in cui le politiche hanno successo dipende da..."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “a growing body of evidence” en italiano?",["un numero crescente di prove", "il grado in cui", "un'ampia gamma di fattori", "le cause sottostanti di"],0,"“A growing body of evidence” es “un numero crescente di prove”."],
+      ["mcq","¿Cómo se dice “the underlying causes of” en italiano?",["le cause sottostanti di", "un numero crescente di prove", "il grado in cui", "un'ampia gamma di fattori"],0,"“The underlying causes of” es “le cause sottostanti di”."],
+      ["fill","Completa: “___ in cui la politica ha successo dipende dal sostegno pubblico.”",["Un'ampia gamma", "Le cause sottostanti", "Il grado", "Un numero crescente"],2,"“Il grado in cui” introduce el grado en que algo ocurre."],
+      ["translate","Traduce: “A growing body of evidence suggests that the climate is changing.”",["Un crescente numero di prove suggerisce il clima sta cambiando.", "Un numero crescente di prove suggeriscono che il clima sta cambiando.", "Un numero crescente di prove suggerisce che il clima sta cambiando.", "Un numero crescente di prova suggerisce che il clima sta cambiando."],2,"El verbo concuerda con “numero” (singular): “suggerisce”."],
+      ["arrange","Ordena: [fattori / gamma / un'ampia / di]",["fattori un'ampia di gamma", "gamma fattori un'ampia di", "un'ampia fattori gamma di", "un'ampia gamma di fattori"],3,"Sustantivo con elisión + adjetivo + “di” + sustantivo."],
+      ["speaking","Parla in italiano, in 40-50 parole, di un argomento accademico o sociale usando almeno due sintagmi nominali complessi.",[],["un numero crescente di", "un'ampia gamma di", "il grado in cui"]],
+    ]
+  },
+  {
+    id:"it_c2_coesione_testuale", level:"C2", title:"Coesione testuale: riferimento e sostituzione avanzata", emoji:"🧵", xp:70,
+    description:"Aprende recursos de cohesión textual avanzados en italiano para evitar la redundancia.",
+    study: {
+      vocab: [
+        ["il primo / il secondo (menzionati)", "the former / the latter"],
+        ["un tale/una tale...", "such a/an..."],
+        ["il/la summenzionato/a", "the aforementioned"],
+        ["detto questo...", "that being said..."],
+        ["elemento di coesione testuale", "recurso de cohesión textual"],
+      ],
+      grammar: [
+        ["“Il primo/il secondo” y otros recursos de cohesión", "En textos largos, se usan recursos de cohesión como “il primo/il secondo” para referirse a elementos mencionados antes sin repetirlos.", "Abbiamo considerato due opzioni: il lavoro da remoto e il lavoro in ufficio. Il primo offre flessibilità, mentre il secondo favorisce la collaborazione."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué expresión se refiere al primero de dos elementos mencionados?",["detto questo", "il secondo", "il summenzionato", "il primo"],3,"“Il primo” se refiere al primero de dos elementos."],
+      ["mcq","¿Qué expresión se refiere al segundo de dos elementos mencionados?",["un tale", "il primo", "il summenzionato", "il secondo"],3,"“Il secondo” se refiere al segundo de dos elementos."],
+      ["fill","Completa: “Abbiamo considerato due opzioni: A e B. ___ offre flessibilità.”",["Il primo", "Detto questo", "Il summenzionato", "Il secondo"],0,"“Il primo” se refiere a la primera opción mencionada (A)."],
+      ["translate","Traduce: “That being said, there are still questions to resolve.”",["Detto questo, ci sono ancora domande da risolvere.", "Detto ciò questo, ci sono ancora domande da risolvere.", "Dicendo questo, ci sono ancora domande da risolvere.", "Detto questo, ci sono ancora domanda da risolvere."],0,"“That being said” es “detto questo”."],
+      ["arrange","Ordena: [flessibilità / primo / il / offre]",["offre il flessibilità primo", "primo offre il flessibilità", "il primo offre flessibilità", "offre primo il flessibilità"],2,"“Il primo” + verbo + complemento."],
+      ["writing","Scrivi in italiano 40-50 parole confrontando due opzioni usando ‘il primo’, ‘il secondo’ e ‘detto questo’.",[],["il primo", "il secondo", "detto questo"]],
+    ]
+  },
+  {
+    id:"it_a1_imperatives", level:"A1", title:"L'imperativo: dare istruzioni e consigli diretti", emoji:"👉", xp:34,
+    description:"Aprende a dar instrucciones y consejos directos en italiano con el imperativo.",
+    study: {
+      vocab: [
+        ["Apri la porta.", "Open the door."],
+        ["Chiudi la finestra.", "Close the window."],
+        ["Gira a sinistra / a destra.", "Turn left / right."],
+        ["Non toccare questo.", "Don't touch that."],
+        ["Siediti, per favore.", "Please, sit down."],
+      ],
+      grammar: [
+        ["Imperativo tu vs imperativo negativo con infinito", "El imperativo informal (tu) para los verbos en -are cambia la terminación a -a; el imperativo negativo usa “non + infinito”, no la forma conjugada.", "Apri la porta. / Non toccare questo. / Aspetta qui, per favore."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Open the door” en italiano (imperativo tu)?",["Aprendo la porta.", "Aprire la porta.", "Apri la porta.", "Apre la porta."],2,"El imperativo de “aprire” es “apri”."],
+      ["mcq","¿Qué forma verbal usa el imperativo negativo informal?",["non + infinito", "non + gerundio", "non + imperativo", "mai + imperativo"],0,"El negativo informal usa “non + infinito”."],
+      ["fill","Completa: “Non ___ questo; è caldo.”",["tocca", "toccando", "tocchi", "toccare"],3,"Imperativo negativo → “non + infinito”: “toccare”."],
+      ["translate","Traduce: “Please, sit down.”",["Siediti, per favore.", "Seduto, per favore.", "Ti siedi, per favore.", "Sedersi, per favore."],0,"Imperativo de “sedersi”: “siediti”."],
+      ["arrange","Ordena: [porta / apri / la]",["porta apri la", "apri la porta", "porta la apri", "la porta apri"],1,"Imperativo + artículo + sustantivo."],
+      ["writing","Scrivi in italiano 20-30 parole con tre istruzioni usando l'imperativo (affermativo e negativo).",[],["apri", "non toccare", "per favore"]],
+    ]
+  },
+  {
+    id:"it_a1_demonstratives", level:"A1", title:"I dimostrativi: questo, quello", emoji:"👆", xp:34,
+    description:"Aprende a usar questo y quello en italiano, y cómo cambia 'quello' según el sustantivo.",
+    study: {
+      vocab: [
+        ["questo/questa", "this (cerca)"],
+        ["quello/quella", "that (lejos)"],
+        ["questi/queste", "these"],
+        ["quelli/quelle", "those"],
+        ["Che cos'è questo?", "What is this?"],
+      ],
+      grammar: [
+        ["“Quello” cambia como el artículo definido", "“Quello” se comporta como el artículo definido combinado antes de un sustantivo (quel libro, quello studente, quell'amico, quella casa), cambiando de forma según la primera letra del sustantivo.", "Questo è il mio telefono. / Quelli sono i miei amici, laggiù."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra usas para algo cercano en singular?",["questo", "questi", "quelli", "quello"],0,"“Questo” es para algo cercano en singular."],
+      ["mcq","¿Cómo cambia “quello” antes de un sustantivo que empieza por consonante simple, ej. “libro”?",["quei", "quello", "quel", "quell'"],2,"Ante consonante simple, “quello” se convierte en “quel”."],
+      ["fill","Completa: “___ sono i miei amici, laggiù.”",["Questi", "Questo", "Quelli", "Quello"],2,"Lejos, plural masculino → “quelli”."],
+      ["translate","Traduce: “These are my books.”",["Questo sono i miei libri.", "Quelli sono i miei libri.", "Questi sono i miei libri.", "Quello sono i miei libri."],2,"Cerca, plural masculino → “questi”."],
+      ["arrange","Ordena: [telefono / è / il / mio / questo]",["mio telefono questo il è", "è telefono mio questo il", "questo è il mio telefono", "il mio telefono è questo"],2,"Demostrativo + verbo “essere” + posesivo + sustantivo."],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo oggetti vicini e lontani da te usando questo e quello.",[],["questo", "quello", "questi"]],
+    ]
+  },
+  {
+    id:"it_a1_prepositions_time", level:"A1", title:"Le preposizioni di tempo: a, in, di", emoji:"⏰", xp:35,
+    description:"Aprende a usar las preposiciones de tiempo a, in y di en italiano.",
+    study: {
+      vocab: [
+        ["alle + ora", "at + hora (alle 9)"],
+        ["in + mese/stagione", "in + mes/estación (in luglio)"],
+        ["di + giorno della settimana (abitudine)", "on + día (hábito repetido)"],
+        ["di notte", "de noche"],
+        ["di mattina/pomeriggio/sera", "por la mañana/tarde/noche"],
+      ],
+      grammar: [
+        ["Alle, in y “di” + día para hábitos", "“Alle” (a + le) se usa con horas exactas, “in” con meses y estaciones, y “di” antes de un día de la semana expresa un hábito repetido.", "Il corso inizia alle 9. / Sono nato in luglio. / Di lunedì vado in piscina."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué preposición usas con una hora exacta?",["alle", "da", "in", "di"],0,"“Alle” se usa con horas exactas."],
+      ["mcq","¿Qué palabra usas delante de un día de la semana para expresar un hábito?",["di", "da", "alle", "in"],0,"“Di” + día expresa un hábito repetido."],
+      ["fill","Completa: “Sono nato ___ luglio.”",["di", "in", "da", "a"],1,"“In” se usa con meses."],
+      ["translate","Traduce: “On Mondays, I go to the pool.” (hábito)",["In lunedì vado in piscina.", "A lunedì vado in piscina.", "Da lunedì vado in piscina.", "Di lunedì vado in piscina."],3,"Hábito repetido → “di lunedì”."],
+      ["arrange","Ordena: [9 / inizia / corso / il / alle]",["inizia il alle 9 corso", "corso 9 il alle inizia", "corso inizia il alle 9", "il corso inizia alle 9"],3,"Sujeto + verbo + “alle” + hora."],
+      ["writing","Scrivi in italiano 20-30 parole sul tuo orario settimanale usando alle, in e di + giorno.",[],["alle", "in", "di"]],
+    ]
+  },
+  {
+    id:"it_a1_frequency_adverbs", level:"A1", title:"Gli avverbi di frequenza: sempre, di solito, a volte, mai", emoji:"🔁", xp:35,
+    description:"Aprende a usar los adverbios de frecuencia en italiano.",
+    study: {
+      vocab: [
+        ["sempre", "always"],
+        ["di solito", "usually"],
+        ["a volte", "sometimes"],
+        ["raramente", "rarely"],
+        ["mai", "never"],
+      ],
+      grammar: [
+        ["El adverbio suele ir después del verbo", "Los adverbios de frecuencia suelen ir después del verbo conjugado en italiano; “mai” con verbos en tiempos simples requiere “non” antes del verbo (non... mai).", "Bevo sempre il caffè la mattina. / Non è mai in ritardo."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Dónde suele ir el adverbio de frecuencia respecto al verbo?",["siempre al principio", "siempre al final", "antes", "después"],3,"El adverbio suele ir después del verbo."],
+      ["mcq","¿Cómo se dice “a veces” en italiano?",["mai", "sempre", "di solito", "a volte"],3,"“A veces” es “a volte”."],
+      ["fill","Completa: “Lei non è ___ in ritardo.”",["sempre", "spesso", "mai", "già"],2,"“Non...mai” rodea el verbo."],
+      ["translate","Traduce: “I always drink coffee in the morning.”",["Bevo il caffè sempre la mattina.", "Sempre bevo il caffè la mattina.", "Bevo sempre il caffè la mattina.", "Io sempre bevo il caffè la mattina."],2,"El adverbio va después del verbo: “bevo sempre”."],
+      ["arrange","Ordena: [lavoro / bicicletta / vado / di / al / in / solito]",["di solito vado al lavoro in bicicletta", "solito bicicletta lavoro in al di vado", "lavoro bicicletta solito vado in di al", "bicicletta vado solito di lavoro in al"],0,"Adverbio + sujeto + verbo + complemento."],
+      ["writing","Scrivi in italiano 20-30 parole sulla tua routine usando almeno tre avverbi di frequenza.",[],["sempre", "di solito", "a volte"]],
+    ]
+  },
+  {
+    id:"it_a1_di_possesso", level:"A1", title:"La preposizione “di” per esprimere il possesso", emoji:"🔗", xp:34,
+    description:"Aprende a expresar posesión en italiano con la preposición “di”.",
+    study: {
+      vocab: [
+        ["il libro di Anna", "Anna's book"],
+        ["i giocattoli dei bambini", "the children's toys"],
+        ["Di chi è questo?", "Whose is this?"],
+        ["È di Anna.", "It's Anna's."],
+        ["la casa dei miei genitori", "my parents' house"],
+      ],
+      grammar: [
+        ["“Di + poseedor”, con contracciones (dei, del...)", "A diferencia del inglés (Anna's book), el italiano siempre expresa la posesión con “di + poseedor”, después del objeto poseído; “di + i” se contrae en “dei”.", "Questo è il libro di Anna. / La casa dei miei genitori è grande."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “Anna's book” en italiano?",["Anna di libro", "di Anna il libro", "il libro di Anna", "il Anna's libro"],2,"“Anna's book” es “il libro di Anna”."],
+      ["mcq","¿En qué se contrae “di + i” en italiano?",["di i", "dei", "della", "del"],1,"“Di + i” se contrae en “dei”."],
+      ["fill","Completa: “Questi sono i giocattoli ___ bambini.”",["dei", "della", "del", "di i"],0,"“Di + i” se contrae en “dei”."],
+      ["translate","Traduce: “Whose book is this? It's Anna's.”",["Di chi è questo libro? È di Anna.", "Chi è questo libro? È di Anna.", "Di chi è questo libro? È Anna's.", "Di chi questo libro è? È di Anna."],0,"“¿De quién?” + “è di Anna”."],
+      ["arrange","Ordena: [Anna / libro / il / di / è / questo]",["libro il Anna di questo è", "di Anna il è libro questo", "questo è il libro di Anna", "questo libro il di è Anna"],2,"Sujeto + verbo + artículo + sustantivo + “di” + poseedor."],
+      ["writing","Scrivi in italiano 20-30 parole descrivendo oggetti che appartengono a persone diverse usando “di” per esprimere il possesso.",[],["di", "di chi", "è di"]],
+    ]
+  },
+  {
+    id:"it_a2_verbi_riflessivi", level:"A2", title:"I verbi riflessivi e i pronomi riflessivi", emoji:"🪞", xp:46,
+    description:"Aprende a usar los verbos y pronombres reflexivos en italiano.",
+    study: {
+      vocab: [
+        ["mi, ti, si, ci, vi, si", "pronombres reflexivos"],
+        ["alzarsi", "to get (oneself) up"],
+        ["farsi la doccia", "to shower (oneself)"],
+        ["Mi sono tagliato cucinando.", "I cut myself while cooking."],
+        ["da solo/a", "by myself"],
+      ],
+      grammar: [
+        ["Reflexivos con “essere” en el passato prossimo", "Muchos verbos italianos son reflexivos por naturaleza (alzarsi, farsi la doccia) y en el passato prossimo usan siempre “essere”, concordando el participio con el sujeto.", "Mi alzo alle sette. / Lei si fa la doccia la mattina."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reflexivo corresponde a “io”?",["mi", "ti", "si", "ci"],0,"“Io” usa el pronombre “mi”."],
+      ["mcq","¿Qué pronombre reflexivo corresponde a “lei”?",["ci", "mi", "si", "ti"],2,"“Lei” usa el pronombre “si”."],
+      ["fill","Completa: “Io ___ sono tagliato cucinando.”",["ti", "ci", "si", "mi"],3,"“Io” usa el pronombre reflexivo “mi”."],
+      ["translate","Traduce: “She lives by herself.”",["Lei vive per lei stessa.", "Lei si vive sola.", "Lei vive da sola.", "Lei vive lei stessa."],2,"“Vivere” no es reflexivo aquí; “da sola” expresa “by herself”."],
+      ["arrange","Ordena: [alle / sette / alzo / mi]",["sette alle mi alzo", "mi alzo alle sette", "mi sette alle alzo", "mi alle alzo sette"],1,"Pronombre reflexivo + verbo + “alle” + hora."],
+      ["speaking","Parla in italiano per 25-35 parole della tua routine quotidiana usando almeno tre verbi riflessivi (alzarsi, farsi la doccia, vestirsi...).",[],["mi alzo", "mi faccio la doccia", "mi vesto"]],
+    ]
+  },
+  {
+    id:"it_a2_pronomi_diretti", level:"A2", title:"I pronomi diretti: lo, la, li, le", emoji:"🎯", xp:46,
+    description:"Aprende a usar los pronombres de objeto directo en italiano.",
+    study: {
+      vocab: [
+        ["lo/la", "him/her/it (COD)"],
+        ["li/le", "them (COD, masc./fem.)"],
+        ["mi, ti, ci, vi", "me, you, us, you all"],
+        ["Puoi aiutarmi?", "Can you help me?"],
+        ["L'ho visto ieri.", "I saw him/it yesterday."],
+      ],
+      grammar: [
+        ["El pronombre COD va antes del verbo, con concordancia en el passato prossimo", "Los pronombres de objeto directo (lo, la, li, le) concuerdan en género y número con el sustantivo que reemplazan, y van ANTES del verbo conjugado; en el passato prossimo, el participio concuerda con lo/la/li/le.", "Ho visto mia sorella ieri. → L'ho vista ieri. / Hanno comprato la macchina. → L'hanno comprata."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué pronombre reemplaza a “mia sorella” (femenino singular)?",["li", "le", "la", "lo"],2,"“Mia sorella” se reemplaza por “la”."],
+      ["mcq","¿Qué pronombre reemplaza a “i miei genitori” (masculino plural)?",["la", "lo", "le", "li"],3,"“I miei genitori” se reemplaza por “li”."],
+      ["fill","Completa: “Ho visto mia sorella ieri. ___ ho vista al parco.”",["Lo", "L'", "Le", "Li"],1,"Antes de vocal, “la” se elide en “l'”."],
+      ["translate","Traduce: “Can you help us, please?”",["Puoi aiutare ci, per favore?", "Puoi ci aiutare, per favore?", "Puoi aiutarli, per favore?", "Puoi aiutarci, per favore?"],3,"El pronombre se pega al infinitivo: “aiutarci”."],
+      ["arrange","Ordena: [ieri / l' / visto / ho]",["l'ho ieri visto", "l'ho visto ieri", "visto ieri l'ho", "ieri visto l'ho"],1,"Pronombre COD + verbo auxiliar + participio + adverbio."],
+      ["writing","Scrivi in italiano 25-35 parole su persone o oggetti che hai visto di recente, usando pronomi diretti (lo, la, li, le).",[],["lo", "la", "li"]],
+    ]
+  },
+  {
+    id:"it_a2_presente_orari_fissi", level:"A2", title:"Il presente per orari fissi (trasporti, programmi)", emoji:"📅", xp:47,
+    description:"Aprende a usar el presente para horarios fijos en italiano.",
+    study: {
+      vocab: [
+        ["Il treno parte alle 15.", "The train leaves at 3pm. (orario fisso)"],
+        ["Il film inizia alle 20.", "The movie starts at 8pm."],
+        ["un orario/programma fisso", "a fixed schedule/timetable"],
+        ["Il negozio chiude alle 18.", "The store closes at 6pm."],
+        ["A che ora parte l'autobus?", "What time does the bus leave?"],
+      ],
+      grammar: [
+        ["Presente para horarios programados", "Se usa el presente de indicativo (no el futuro) para hablar de horarios fijos de transporte, cine, tiendas, etc., ya que se consideran hechos programados.", "Il treno parte alle 15. / Il film inizia alle 20."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tiempo verbal se usa para horarios fijos (trenes, cines)?",["il presente", "il futuro semplice", "l'imperfetto", "il condizionale"],0,"Los horarios fijos usan el presente."],
+      ["mcq","¿Cómo se dice “The store closes at 6pm” en italiano?",["Il negozio chiudeva alle 18.", "Il negozio ha chiuso alle 18.", "Il negozio chiude alle 18.", "Il negozio chiuderà alle 18."],2,"Horario fijo → presente: “chiude”."],
+      ["fill","Completa: “Il treno ___ alle 15.”",["partirà", "è partito", "parte", "partiva"],2,"Horario fijo → presente: “parte”."],
+      ["translate","Traduce: “The movie starts at 8pm.”",["Il film inizia alle 20.", "Il film iniziava alle 20.", "Il film inizierà alle 20.", "Il film ha iniziato alle 20."],0,"Horario fijo → presente: “inizia”."],
+      ["arrange","Ordena: [15 / parte / treno / il / alle]",["15 alle treno il parte", "treno 15 alle parte il", "il treno parte alle 15", "15 alle il parte treno"],2,"Sujeto + verbo + “alle” + hora."],
+      ["writing","Scrivi in italiano 25-35 parole sugli orari di trasporti o programmi che conosci, usando il presente.",[],["parte alle", "inizia alle", "chiude alle"]],
+    ]
+  },
+  {
+    id:"it_a2_suggerimenti", level:"A2", title:"Fare suggerimenti: perché non, e se, che ne dici di", emoji:"💭", xp:46,
+    description:"Aprende a hacer sugerencias en italiano.",
+    study: {
+      vocab: [
+        ["Perché non + presente?", "Why don't we...?"],
+        ["E se + congiuntivo imperfetto?", "What if we...?"],
+        ["Che ne dici di + infinito?", "How about...?"],
+        ["Potremmo + infinito.", "We could..."],
+        ["Buona idea!", "That sounds good!"],
+      ],
+      grammar: [
+        ["Congiuntivo imperfetto tras “e se”", "“Perché non” va seguido del presente indicativo; “e se” para sugerir algo usa el congiuntivo imperfetto; “che ne dici di” va seguido de infinitivo.", "Perché non ordiniamo una pizza? / E se andassimo alla spiaggia? / Che ne dici di guardare un film?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué modo/tiempo sigue a “e se” para sugerir algo?",["el futuro", "el congiuntivo imperfetto", "el presente indicativo", "el infinitivo"],1,"“E se” usa el congiuntivo imperfetto para sugerir."],
+      ["mcq","¿Qué forma sigue a “che ne dici di”?",["infinito", "presente", "gerundio", "congiuntivo"],0,"Tras “che ne dici di” va el infinitivo."],
+      ["fill","Completa: “E se ___ alla spiaggia?”",["andare", "andremo", "andiamo", "andassimo"],3,"“E se” + congiuntivo imperfetto: “andassimo”."],
+      ["translate","Traduce: “¿Por qué no pedimos pizza?”",["Perché non ordiniamo una pizza?", "Perché non ordinando una pizza?", "Perché non ordinare una pizza?", "Perché non ordinate una pizza noi?"],0,"“Perché non” + presente: “ordiniamo”."],
+      ["arrange","Ordena: [spiaggia / andassimo / se / e / alla]",["alla spiaggia andassimo e se", "spiaggia se alla e andassimo", "e se andassimo alla spiaggia", "se alla andassimo e spiaggia"],2,"“E se” + congiuntivo imperfetto + complemento."],
+      ["speaking","Parla in italiano per 25-35 parole facendo tre suggerimenti per un piano con amici, usando perché non, e se e che ne dici di.",[],["perché non", "e se", "che ne dici di"]],
+    ]
+  },
+  {
+    id:"it_a2_verbi_preposizioni", level:"A2", title:"Verbi con preposizione fissa: smettere di, contare su, accorgersi di", emoji:"🔌", xp:47,
+    description:"Aprende verbos italianos con preposición fija.",
+    study: {
+      vocab: [
+        ["smettere di + infinito", "to stop doing"],
+        ["tenere", "to keep"],
+        ["notare", "to notice"],
+        ["contare su", "to count on"],
+        ["accorgersi di", "to realize"],
+      ],
+      grammar: [
+        ["Verbo + preposición fija cambia el significado", "Algunos verbos italianos van con una preposición fija que precisa su significado, de forma similar a los phrasal verbs del inglés.", "Ho smesso di fumare l'anno scorso. / Ho notato la sua nuova giacca. / Puoi contare su di me."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se dice “to count on” en italiano?",["tenere", "contare su", "smettere di", "accorgersi di"],1,"“To count on” es “contare su”."],
+      ["mcq","¿Cómo se dice “to realize” en italiano?",["contare su", "tenere", "notare", "accorgersi di"],3,"“To realize” es “accorgersi di”."],
+      ["fill","Completa: “Ho ___ fumare l'anno scorso.”",["tenuto", "notato", "contato su", "smesso di"],3,"“Smettere di + infinito” = dejar de hacer algo."],
+      ["translate","Traduce: “I noticed her new jacket.”",["Ho contato su la sua nuova giacca.", "Ho tenuto la sua nuova giacca.", "Mi sono accorto la sua nuova giacca.", "Ho notato la sua nuova giacca."],3,"“Noticed” es “notato”."],
+      ["arrange","Ordena: [me / puoi / contare / su / di]",["puoi contare su di me", "di puoi me su contare", "puoi di su contare me", "puoi di su me contare"],0,"Sujeto + “contare su di” + objeto."],
+      ["writing","Scrivi in italiano 25-35 parole sulle tue abitudini usando almeno tre verbi con preposizione fissa (smettere di, notare, contare su...).",[],["ho smesso di", "ho notato", "conto su"]],
+    ]
+  },
+  {
+    id:"it_b1_periodo_ipotetico_realta", level:"B1", title:"Il periodo ipotetico della realtà (tipo 0 e tipo 1)", emoji:"🔀", xp:58,
+    description:"Aprende la diferencia entre el periodo ipotetico tipo 0 y tipo 1 en italiano.",
+    study: {
+      vocab: [
+        ["Se + presente, presente (tipo 0)", "zero conditional – verdades generales"],
+        ["Se + presente, futuro (tipo 1)", "first conditional – posibilidad real"],
+        ["Quando l'acqua bolle, evapora.", "ejemplo de periodo ipotetico tipo 0"],
+        ["Se piove, resterò a casa.", "ejemplo de periodo ipotetico tipo 1"],
+        ["possibilità reale", "posibilidad real"],
+      ],
+      grammar: [
+        ["Verdad general vs posibilidad real futura", "El tipo 0 (se + presente, presente) expresa verdades generales; el tipo 1 (se + presente, futuro) expresa una posibilidad real en el futuro.", "Se scaldi il ghiaccio, si scioglie. / Se domani piove, resterò a casa."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué tipo usas para una verdad general?",["tipo 1", "tipo 2", "tipo 0", "tipo 3"],2,"Verdades generales → tipo 0."],
+      ["mcq","¿Qué tipo usas para una posibilidad real futura?",["tipo 0", "tipo 2", "tipo 1", "tipo 3"],2,"Posibilidad real futura → tipo 1."],
+      ["fill","Completa: “Se scaldi il ghiaccio, si ___.”",["scioglie", "scioglierà", "sciogliendo", "è sciolto"],0,"Tipo 0: presente + presente."],
+      ["translate","Traduce: “If it rains tomorrow, I'll stay home.”",["Se domani piove, resterò a casa.", "Se domani piove, resto a casa.", "Se domani pioverà, resterò a casa.", "Se domani piove, resterei a casa."],0,"Tipo 1: se + presente, futuro."],
+      ["arrange","Ordena: [evapora / bolle / quando / acqua / l']",["l'acqua evapora quando bolle", "l'acqua quando bolle evapora", "evapora quando l'acqua bolle", "quando l'acqua bolle evapora"],3,"“Quando” + presente + presente (verdad general)."],
+      ["writing","Scrivi in italiano 30-40 parole con due esempi: una verità generale (tipo 0) e una possibilità reale futura (tipo 1).",[],["se", "quando", "futuro"]],
+    ]
+  },
+  {
+    id:"it_b1_passivo_base", level:"B1", title:"Il passivo di base: presente e passato prossimo", emoji:"🔄", xp:58,
+    description:"Aprende a formar la voz pasiva en presente y passato prossimo en italiano.",
+    study: {
+      vocab: [
+        ["essere + participio passato (passivo)", "voz pasiva con ‘essere’"],
+        ["da + agente (facoltativo)", "por + agente (opcional)"],
+        ["La lettera è stata inviata.", "The letter was sent."],
+        ["Qui si parla inglese.", "English is spoken here."],
+        ["l'accordo del participio", "concordancia del participio"],
+      ],
+      grammar: [
+        ["Essere + participio, concordando con el sujeto", "La voz pasiva se forma con “essere” (en el tiempo correspondiente) + participio pasado, que concuerda en género y número con el sujeto; también existe la pasiva refleja con “si” para hechos generales.", "Qui si parla inglese. / La lettera è stata inviata ieri."],
+      ]
+    },
+    ex:[
+      ["mcq","¿Cómo se forma la voz pasiva en italiano?",["stare + gerundio", "essere + participio pasado", "andare + infinitivo", "avere + participio pasado"],1,"La pasiva se forma con “essere + participio”."],
+      ["mcq","¿Con qué concuerda el participio pasado en la voz pasiva?",["con el agente", "con el sujeto", "nunca concuerda", "con el objeto directo"],1,"El participio concuerda con el sujeto."],
+      ["fill","Completa: “La lettera ___ ieri.”",["è inviata", "è stata inviata", "ha inviato", "inviava"],1,"Pasiva en passato prossimo: “è stata inviata”."],
+      ["translate","Traduce: “English is spoken here.”",["Qui è stato parlato inglese.", "Qui parla inglese.", "Qui si parla inglese.", "Qui è parlato inglese."],2,"Pasiva refleja: “si parla inglese”."],
+      ["arrange","Ordena: [inglese / qui / si / parla]",["parla inglese qui si", "si qui parla inglese", "qui si parla inglese", "si parla inglese qui"],2,"“Qui” + “si” + verbo + objeto."],
+      ["writing","Scrivi in italiano 30-40 parole su qualcosa che si fa o che è stato fatto (per esempio nel tuo lavoro o paese), usando il passivo al presente e al passato prossimo.",[],["si parla", "è stata inviata", "si fa"]],
+    ]
+  },
+  {
+    id:"it_b1_domande_conferma", level:"B1", title:"Le domande di conferma: vero?, no?, giusto?", emoji:"❓", xp:58,
+    description:"Aprende a usar coletillas de confirmación en italiano.",
+    study: {
+      vocab: [
+        ["..., vero?", "..., isn't it? (neutro/común)"],
+        ["..., no?", "..., isn't it? (informal)"],
+        ["..., giusto?", "..., right?"],
+        ["..., d'accordo?", "..., okay? (pedir acuerdo)"],
+        ["confermare un'informazione", "confirmar información"],
+      ],
+      grammar: [
+        ["Coletillas invariables (a diferencia del inglés)", "A diferencia del inglés, que usa question tags que cambian según el verbo, el italiano usa las mismas coletillas invariables (vero?, no?, giusto?) para casi cualquier oración.", "Sei spagnolo, vero? / Non ti piace il caffè, no?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué coletilla es la más neutra y común?",["giusto?", "vero?", "d'accordo?", "no?"],1,"“Vero?” es la más neutra y común."],
+      ["mcq","¿Cuál es la principal diferencia con las question tags del inglés?",["en italiano solo se usan en el pasado", "en italiano cambian según el verbo", "en italiano solo se usan en negativo", "en italiano son invariables"],3,"En italiano las coletillas no cambian según el verbo."],
+      ["fill","Completa: “Non ti piace il caffè, ___?”",["no", "d'accordo", "vero", "sì"],0,"“No?” es la coletilla más común e informal."],
+      ["translate","Traduce: “You went to the party, didn't you?”",["Sei andato alla festa, vero sei andato?", "Sei andato alla festa, non sei andato?", "Sei andato alla festa, sei andato?", "Sei andato alla festa, vero?"],3,"“Vero?” es invariable, no repite el verbo."],
+      ["arrange","Ordena: [spagnolo / sei / vero]",["spagnolo vero sei", "vero sei spagnolo", "sei spagnolo vero", "spagnolo sei vero"],2,"Afirmación + coletilla de confirmación."],
+      ["writing","Scrivi in italiano 30-40 parole con tre frasi usando domande di conferma (vero?, no?, giusto?) per confermare informazioni con un amico.",[],["vero?", "no?", "giusto?"]],
+    ]
+  },
+  {
+    id:"it_b1_domande_indirette", level:"B1", title:"Le domande indirette e cortesi", emoji:"🙏", xp:59,
+    description:"Aprende a formular preguntas indirectas y corteses en italiano.",
+    study: {
+      vocab: [
+        ["Potrebbe dirmi dove...?", "Could you tell me where...?"],
+        ["Sa se...?", "Do you know if...?"],
+        ["Mi chiedo cosa...", "I wonder what..."],
+        ["senza inversione, con 'se' per sì/no", "sin inversión, con 'se' para sí/no"],
+        ["richiesta cortese", "petición cortés"],
+      ],
+      grammar: [
+        ["“Se” para preguntas de sí/no en estilo indirecto", "Las preguntas indirectas en italiano mantienen el orden normal sujeto+verbo (sin inversión como en una pregunta directa), y usan “se” para preguntas de sí/no.", "Dov'è la stazione? → Potrebbe dirmi dov'è la stazione? / Viene lei? → Sa se viene?"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué palabra se usa para preguntas de sí/no en estilo indirecto?",["che", "cosa", "come", "se"],3,"“Se” introduce preguntas de sí/no en estilo indirecto."],
+      ["mcq","¿Qué frase cortés puedes usar para pedir información?",["Potrebbe dirmi...?", "Che cos'è questo?", "Dimmi.", "Vero?"],0,"“Potrebbe dirmi...?” es una fórmula cortés."],
+      ["fill","Completa: “Potrebbe dirmi dove ___ la stazione?”",["è", "era", "essere", "sia"],0,"“Dov'è la stazione” se mantiene en el estilo indirecto."],
+      ["translate","Traduce: “Do you know if she's coming?”",["Sa se viene lei?", "Sa lei se viene?", "Sa che viene?", "Sa se viene?"],3,"“If” se traduce como “se”."],
+      ["arrange","Ordena: [dirmi / potrebbe / stazione / dove / è / la]",["è potrebbe la dove dirmi stazione", "potrebbe dirmi dove è la stazione", "dirmi potrebbe la dove stazione è", "dove dirmi potrebbe la stazione è"],1,"Frase cortés + pregunta incrustada."],
+      ["speaking","Parla in italiano per 30-40 parole facendo tre domande indirette e cortesi a uno sconosciuto per strada.",[],["Potrebbe dirmi", "Sa se", "Mi chiedo"]],
+    ]
+  },
+  {
+    id:"it_b1_passato_prossimo_vs_da", level:"B1", title:"Il passato prossimo vs. il presente + da", emoji:"⏳", xp:59,
+    description:"Aprende la diferencia entre el passato prossimo y el presente + da en italiano.",
+    study: {
+      vocab: [
+        ["ho/hai + participio passato", "acción pasada completada – resultado"],
+        ["presente + da", "duración de una acción que sigue en curso"],
+        ["Da quanto tempo...?", "How long have you been...?"],
+        ["da / già", "since/for / already"],
+        ["Aspetto già da un'ora.", "I've been waiting for an hour."],
+      ],
+      grammar: [
+        ["Sin “present perfect continuous”: presente + da", "El italiano no tiene un tiempo equivalente al present perfect continuous inglés; para la duración de una acción que empezó en el pasado y sigue en curso, se usa el PRESENTE + “da”, no una forma compuesta.", "Ho letto tre libri questo mese. (resultado) / Aspetto già da un'ora. (duración, en presente)"],
+      ]
+    },
+    ex:[
+      ["mcq","¿Qué estructura se usa para la duración de una acción que sigue en curso?",["presente + da", "il futuro", "il congiuntivo", "il passato prossimo"],0,"“Presente + da” expresa duración en curso."],
+      ["mcq","¿Qué estructura destaca el resultado o la cantidad de algo ya hecho?",["l'imperfetto", "il passato prossimo", "il condizionale", "presente + da"],1,"El passato prossimo destaca el resultado o la cantidad."],
+      ["fill","Completa: “Aspetto già ___ un'ora.”",["fa", "da", "di", "per"],1,"Duración en curso → presente + “da”."],
+      ["translate","Traduce: “I've read three books this month.” (cantidad)",["Ho letto tre libri questo mese.", "Ho leggere tre libri questo mese.", "Leggo da tre libri questo mese.", "Leggo tre libri da questo mese."],0,"Cantidad/resultado → passato prossimo: “ho letto”."],
+      ["arrange","Ordena: [da / aspetto / un'ora]",["da aspetto un'ora", "aspetto da un'ora", "un'ora da aspetto", "da un'ora aspetto"],1,"Sujeto/verbo + “da” + duración."],
+      ["writing","Scrivi in italiano 30-40 parole su qualcosa che fai da un po' di tempo (con ‘da’) e qualcosa che hai già fatto (con il passato prossimo).",[],["da", "già", "ho fatto"]],
+    ]
+  },
+];

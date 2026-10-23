@@ -1,5 +1,5 @@
 // ── CAMBIA BUILD EN CADA DEPLOY ──────────────────────────────
-const BUILD = '20260923-v26-lessons-review';
+const BUILD = '20261018-v27-modo-infantil';
 // ─────────────────────────────────────────────────────────────
 const CACHE = 'drakon-' + BUILD;
 

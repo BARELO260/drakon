@@ -48,6 +48,10 @@ function showLoginOk(msg){  const o=document.getElementById('loginOk');  if(o) o
 
 async function submitLogin(){
   if(!window._fbInit){ showFbConfigNote(); return; }
+  if(_loginMode === 'register' && typeof canCreateAccount === 'function' && !canCreateAccount()){
+    showLoginErr('No se pueden crear cuentas con la edad indicada. Puedes usar la app sin cuenta.');
+    return;
+  }
   const email = document.getElementById('loginEmail')?.value?.trim();
   const pass  = document.getElementById('loginPass')?.value;
   if(!email || !pass){ showLoginErr('Ingresa tu correo y contraseña.'); return; }
@@ -84,6 +88,10 @@ async function submitLogin(){
 
 async function loginWithGoogle(){
   if(!window._fbInit){ showFbConfigNote(); return; }
+  if(typeof canCreateAccount === 'function' && !canCreateAccount()){
+    showLoginErr('No se pueden crear cuentas con la edad indicada. Puedes usar la app sin cuenta.');
+    return;
+  }
   clearLoginErr();
   try{
     await window._firebase.signInGoogle();
@@ -158,6 +166,7 @@ window.onFirebaseUserReady = async function(user){
   // (onAuthStateChanged puede dispararse 2 veces seguidas en móvil)
   window._fbReadyToken = (window._fbReadyToken || 0) + 1;
   const myToken = window._fbReadyToken;
+  window._fbHadUser = true; // hubo una sesión real (para distinguir «arranque sin sesión» de «cerrar sesión»)
 
   showLoadingOverlay('Cargando tu cuenta...');
 
@@ -272,6 +281,14 @@ if(cloudData && Object.keys(cloudData).length > 0){
 window.onFirebaseSignOut = function(){
   window._fbReadyToken = 0; // cancelar cualquier carga en curso
 
+  // Arranque sin sesión (nunca hubo usuario en esta carga): no hay nada que
+  // limpiar. Se decide entre verificación de edad, modo infantil o acceso.
+  // (Importante: no borrar aquí el progreso local de un menor de 13.)
+  if(!window._fbHadUser){
+    if(typeof routeBeforeAuth === 'function') routeBeforeAuth(); else goTo('screen-login');
+    return;
+  }
+
   // ── Limpiar el state en memoria para que el próximo login no herede datos ──
   // NO limpiar localStorage aquí — se limpia al cargar el próximo usuario.
   // Solo resetear los campos de cuenta para que no "contaminen" otro usuario.
@@ -311,7 +328,12 @@ window.onFirebaseSignOut = function(){
 
   clearTimeout(_saveCloudTimer); // cancelar cualquier save pendiente
 
-  goTo('screen-login');
+  // Dispositivo compartido: tras cerrar sesión, la próxima persona debe pasar
+  // otra vez por la verificación de edad (no se hereda la edad de la anterior).
+  state.birthYear = null; state.isMinor = false; state.ageGateCompleted = false; state.parentalConsentStatus = null;
+  window._fbHadUser = false; window._localSessionStarted = false;
+
+  if(typeof routeBeforeAuth === 'function') routeBeforeAuth(true); else goTo('screen-login');
   const bn = document.getElementById('bottomNav');
   if(bn) bn.style.display='none';
 };
@@ -320,7 +342,11 @@ async function logOut(){
   if(window._fbReady && window._fbUser){
     await window._firebase.signOut();
   } else {
-    // Local mode logout
+    // Sin sesión: un menor de 13 usa la app sin cuenta y no tiene acceso a la pantalla de registro.
+    if(typeof isChildLocalMode === 'function' && isChildLocalMode()){
+      showToast('Estás usando Drakón sin cuenta: tu progreso se guarda solo en este dispositivo.');
+      return;
+    }
     goTo('screen-login');
   }
 }

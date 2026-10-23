@@ -713,6 +713,7 @@ const LessonEngine = {
   },
 
   captureSpeech() {
+    if (typeof isMinorRestricted === 'function' && isMinorRestricted()) { alert('El dictado por voz no está disponible en el modo infantil. Escribe tu respuesta.'); return; }
     const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!Recognition) { alert('El reconocimiento de voz no está disponible en este navegador. Puedes escribir tu respuesta.'); return; }
     const recognition = new Recognition();

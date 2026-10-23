@@ -29,6 +29,15 @@ const VOICES = {
   axonic:'IKne3meq5aSn9XLyUdCD', narrator:'21m00Tcm4TlvDq8ikWAM'
 };
 
+// Edad a partir del perfil REAL guardado en Firestore. Devuelve null si no consta
+// o no es un año entero válido (un valor manipulado nunca se interpreta como «adulto»).
+function ageFromProfile(profile){
+  const y = profile && profile.birthYear;
+  const now = new Date().getFullYear();
+  if(!Number.isInteger(y) || y < 1900 || y > now) return null;
+  return now - y;
+}
+
 function validateText(value, max, label){
   if(typeof value !== 'string' || !value.trim()) throw new HttpsError('invalid-argument', `${label} is required.`);
   if(value.length > max) throw new HttpsError('invalid-argument', `${label} is too long.`);
@@ -114,6 +123,15 @@ exports.drakonAi = onCall({
   const data=request.data||{};
   const action=data.action;
   if(action==='chat'){
+    // Menores de 13: sin chat con IA salvo consentimiento parental verificado.
+    // Se comprueba aquí, en el servidor, con el perfil real; si la edad no consta
+    // (no completó la verificación de edad), tampoco se atiende.
+    const profileChat=(await getFirestore().collection('users').doc(request.auth.uid).get()).data()||{};
+    const ageChat=ageFromProfile(profileChat);
+    if(ageChat===null) throw new HttpsError('failed-precondition','Complete the age check first.');
+    if(ageChat<13 && profileChat.parentalConsentStatus!=='approved'){
+      throw new HttpsError('permission-denied','AI chat is not available for this account.');
+    }
     const remaining=await consumeQuota(request.auth.uid,'chat',data.localDate);
     const incoming=Array.isArray(data.messages)?data.messages.slice(-18):[];
     if(!incoming.length) throw new HttpsError('invalid-argument','messages are required.');
@@ -138,7 +156,8 @@ exports.drakonAi = onCall({
     // desde Firestore — no se confía en el cliente, que podría estar
     // modificado.
     const profile=(await getFirestore().collection('users').doc(request.auth.uid).get()).data()||{};
-    if(profile.birthYear && (new Date().getFullYear()-profile.birthYear)<18){
+    const ageTts=ageFromProfile(profile);
+    if(ageTts===null || ageTts<18){
       throw new HttpsError('permission-denied','Voice generation is not available for this account.');
     }
     const remaining=await consumeQuota(request.auth.uid,'tts',data.localDate);
@@ -201,6 +220,11 @@ exports.verifyPlayPurchase = onCall({
     throw new HttpsError('invalid-argument', 'Unknown product.');
   }
 
+  // Las compras no están disponibles para menores de 13 años.
+  const buyerProfile = (await getFirestore().collection('users').doc(uid).get()).data() || {};
+  const buyerAge = ageFromProfile(buyerProfile);
+  if(buyerAge !== null && buyerAge < 13) throw new HttpsError('permission-denied','Purchases are not available for this account.');
+
   let publisher;
   try{ publisher = await getAndroidPublisher(); }
   catch(e){
@@ -230,6 +254,16 @@ exports.verifyPlayPurchase = onCall({
   if(!isActive){
     throw new HttpsError('failed-precondition', 'This subscription is not currently active.');
   }
+
+  // Un purchaseToken queda ligado a la PRIMERA cuenta que lo verifica: sin esto,
+  // una misma suscripción podía activar Premium en cualquier número de cuentas.
+  const tokenId = require('crypto').createHash('sha256').update(purchaseToken).digest('hex');
+  const tokenRef = getFirestore().collection('playPurchaseTokens').doc(tokenId);
+  await getFirestore().runTransaction(async tx => {
+    const owner = (await tx.get(tokenRef)).data();
+    if(owner && owner.uid !== uid) throw new HttpsError('already-exists','This purchase is already linked to another account.');
+    if(!owner) tx.set(tokenRef, { uid, productId, createdAt: Date.now() });
+  });
 
   // Confirmar la compra ante Google Play (obligatorio, evita el reembolso
   // automático a los 3 días) — si ya estaba confirmada, Play devuelve un

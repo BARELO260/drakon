@@ -330,20 +330,20 @@
 <!-- CONSENTIMIENTO PARENTAL (cuentas de menores de 13 años) -->
 <div class="screen" id="screen-parental-consent" style="display:grid;justify-items:center;align-content:center;text-align:center;padding:32px 24px;">
   <div style="font-size:48px;margin-bottom:12px;">👨‍👩‍👧</div>
-  <h2 style="margin:0 0 8px;">Necesitamos permiso de un adulto</h2>
-  <p style="opacity:.8;max-width:380px;margin:0 0 18px;font-size:13px;line-height:1.5">
+  <h2 id="parentalConsentTitle" style="margin:0 0 8px;">Necesitamos permiso de un adulto</h2>
+  <p id="parentalConsentText" style="opacity:.8;max-width:380px;margin:0 0 18px;font-size:13px;line-height:1.5">
     El chat con inteligencia artificial, la cámara y el micrófono requieren autorización
     de un padre, madre o tutor. Mientras tanto puedes usar las lecciones y los juegos con normalidad.
   </p>
-  <div class="login-field" style="width:100%;max-width:320px;">
+  <div id="parentalConsentForm" class="login-field" style="width:100%;max-width:320px;">
     <label>Correo de tu padre, madre o tutor</label>
     <input id="parentEmailInput" type="email" placeholder="nombre@correo.com" autocomplete="email"/>
   </div>
   <div id="parentalConsentErr" class="login-err" style="min-height:20px;"></div>
   <div id="parentalConsentOk" style="display:none;color:#4ade80;font-size:12px;margin-bottom:8px;">✅ Solicitud enviada. Te avisaremos cuando se apruebe.</div>
   <div id="parentalConsentStatusMsg" style="opacity:.7;font-size:12px;margin-bottom:12px;"></div>
-  <button class="intro-btn" style="max-width:320px;" onclick="submitParentalConsentRequest()">Enviar solicitud</button>
-  <button class="quiz-skip" style="margin-top:12px;font-size:12px;" onclick="continueWithoutAI()">Continuar sin IA por ahora</button>
+  <button id="parentalConsentSendBtn" class="intro-btn" style="max-width:320px;" onclick="submitParentalConsentRequest()">Enviar solicitud</button>
+  <button id="parentalConsentSkipBtn" class="quiz-skip" style="margin-top:12px;font-size:12px;" onclick="continueWithoutAI()">Continuar sin IA por ahora</button>
 </div>
 
 <!-- NATIVE LANGUAGE SELECTION -->

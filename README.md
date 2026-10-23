@@ -106,45 +106,46 @@ Firestore (el cliente jamás puede hacerlo por su cuenta, reforzado por
 La aplicación publicada solo usa el gateway; el alumno autenticado no verá ni
 necesitará credenciales de proveedores.
 
-## Consentimiento parental (menores de 13 años)
+## Menores de 13 años: modo infantil local (decisión de la ronda 11)
 
-La app está dirigida también a menores de 13 años, lo que activa COPPA
-(EE. UU.) y la Política de Familias de Google Play. Ya está implementado:
+La app la puede usar cualquier persona, sea cual sea su edad. Para cumplir COPPA y
+la Política de Familias de Google Play **sin** depender de un mecanismo de
+consentimiento parental, el diseño es este (código en `docs/js/age-gate.js`):
 
-- **Age gate**: pantalla neutral (`screen-age-gate` en `docs/index.html`,
-  lógica en `docs/js/age-gate.js`) que pregunta el año de nacimiento una
-  vez por cuenta.
-- **Restricción automática**: si la cuenta es de un menor de 13 años,
-  `isMinorRestricted()` bloquea el chat con IA (`chat.js`, `ai-gateway.js`)
-  y el acceso a cámara/micrófono (`situations.js`, `audio.js`) hasta que
-  haya consentimiento aprobado. Lecciones y juegos siguen disponibles.
-- **Solicitud de consentimiento**: el menor puede registrar el correo de
-  un adulto responsable, que se guarda en Firestore
-  (`parentalConsentRequests/{uid}`, siempre en estado `pending` — las
-  reglas le impiden al cliente aprobarse a sí mismo).
-- **Aprobación**: hoy es manual — abre la consola de Firebase, edita
-  `parentalConsentRequests/{uid}` y cambia `status` a `approved`. La
-  Cloud Function `onParentalConsentUpdated` propaga automáticamente ese
-  cambio a `users/{uid}.parentalConsentStatus`, que es lo que la app
-  sincroniza; el usuario ve las funciones desbloqueadas la próxima vez
-  que abra la app.
+1. **La verificación de edad es lo primero** que se ve al abrir la app, antes de
+   cualquier pantalla de registro o inicio de sesión (`routeBeforeAuth()`).
+2. **13 años o más** → pantalla de acceso normal (cuenta por correo o Google).
+3. **Menos de 13** → *modo infantil local*: **no se puede crear cuenta**, no se pide
+   ningún dato personal y el progreso se guarda solo en el dispositivo
+   (`localStorage`). Lecciones y juegos funcionan igual. Quedan desactivados: chat
+   con IA, voz gestionada, cámara, micrófono, dictado por voz y compras.
+4. **Segunda barrera** (`installMinorGuards()`): aunque un módulo antiguo olvide
+   comprobar la edad, `fetch` a Groq/ElevenLabs, `getUserMedia` y
+   `SpeechRecognition` se bloquean a nivel global para cuentas restringidas.
+5. **Servidor** (`functions/index.js`): `drakonAi` rechaza el chat si el perfil es
+   menor de 13 sin consentimiento aprobado o si no consta la edad, y rechaza la voz
+   a toda cuenta menor de 18 o sin edad.
+6. **Dispositivo compartido:** al cerrar sesión se olvida la edad declarada; la
+   siguiente persona vuelve a ver la verificación.
 
-**Pendiente antes de operar con audiencia infantil real** — esto NO está
-resuelto todavía y requiere una decisión de producto, no solo código:
+Pruebas automáticas del flujo (jsdom, sin red): `tools/ninos/pruebas/flows.js`
+(ver `tools/ninos/LEEME.txt`).
 
-1. Un mecanismo real de **verificación de consentimiento parental (VPC)**
-   que confirme que quien aprueba es de verdad un adulto (p. ej. doble
-   confirmación por correo con la extensión "Trigger Email" de Firebase,
-   firma de un formulario, o un servicio de verificación de identidad de
-   pago). Ahora mismo cualquiera con acceso a la consola de Firebase puede
-   aprobar manualmente — es solo un placeholder operativo.
-2. Confirmar directamente con **Groq** y **ElevenLabs** que sus propios
-   Términos de Servicio permiten procesar datos de usuarios menores de 13
-   años bajo consentimiento parental. Si alguno no lo permite, esa
-   integración específica no puede activarse para cuentas de menores
-   aunque exista el consentimiento, y `docs/privacy.html` debe reflejarlo.
-3. Revisar con un profesional legal las secciones de menores en
-   `docs/privacy.html` y `docs/terms.html` antes de publicar.
+**Código heredado:** la pantalla y la colección `parentalConsentRequests`
+(+ Cloud Function `onParentalConsentUpdated`) siguen en el repositorio pero ya no
+se alcanzan con el flujo actual: ningún menor de 13 puede crear cuenta. Si algún día
+se quisiera permitir cuentas de menores, haría falta una verificación de
+consentimiento parental real (doble confirmación por correo, formulario firmado o
+verificación de identidad) y una revisión legal.
+
+**Pendiente (requiere tu decisión o un profesional):**
+- Revisión legal de `docs/privacy.html` y `docs/terms.html`.
+- Confirmar que el texto de privacidad es cierto: p. ej. la frase «registro técnico
+  de errores» (sección 2) solo es correcta si realmente existe tal registro.
+- Las tipografías (Google Fonts) y los componentes de Firebase se cargan desde
+  servidores de Google, que reciben la IP del dispositivo (ya declarado en la
+  política). Para evitarlo habría que alojar las tipografías en `docs/assets/`.
+
 
 ### Resultado de la consulta a los proveedores de IA (sept. 2026)
 
@@ -169,8 +170,8 @@ Por eso el texto-a-voz gestionado quedó bloqueado por edad en tres capas:
 - La rama `action==='tts'` de `drakonAi` en `functions/index.js`, que lee el
   perfil real desde Firestore y no confía en el cliente.
 
-Menores de 13 → voz bloqueada siempre. 13-17 → bloqueada hasta consentimiento
-parental. 18+ → sin restricción. El resto de la app (lecciones, juegos, chat
+Menores de 18 → voz gestionada bloqueada siempre (sin desbloqueo por consentimiento).
+18+ → sin restricción. El resto de la app (lecciones, juegos, chat
 de texto) sigue funcionando con normalidad en todos los casos.
 
 ## Anuncios (AdMob) — por qué no están implementados

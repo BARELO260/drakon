@@ -1,0 +1,5 @@
+Ronda 11 — modo infantil (menores de 13) y verificación de edad previa a la cuenta.
+  python3 aplicar_cambios.py <proyecto>     aplica los cambios (falla si el código esperado no está exactamente una vez)
+  pruebas/flows.js                          24 comprobaciones del flujo con jsdom (sin red, Firebase simulado)
+      NODE_PATH=<ruta>/node_modules node pruebas/flows.js        (necesita jsdom@22: npm install jsdom@22)
+      DOCS=<otra carpeta docs> node ...                          (para comparar con otra versión)
