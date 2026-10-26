@@ -2,6 +2,7 @@
    Secrets never leave this service: configure them with Firebase Secret Manager. */
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
 const { onDocumentUpdated } = require('firebase-functions/v2/firestore');
+const functionsV1 = require('firebase-functions/v1'); // el disparador de borrado de cuentas de Auth solo existe en v1
 const { defineSecret } = require('firebase-functions/params');
 const { getFirestore } = require('firebase-admin/firestore');
 const { initializeApp } = require('firebase-admin/app');
@@ -10,6 +11,7 @@ const { google } = require('googleapis');
 initializeApp();
 
 const GROQ_API_KEY = defineSecret('GROQ_API_KEY');
+const GROQ_CHAT_MODELS = ['openai/gpt-oss-120b', 'qwen/qwen3.6-27b', 'openai/gpt-oss-20b'];
 const ELEVENLABS_API_KEY = defineSecret('ELEVENLABS_API_KEY');
 // Credencial de la cuenta de servicio con acceso a la Google Play Developer
 // API (rol "Ver datos financieros" o superior en Play Console → Usuarios y
@@ -19,8 +21,9 @@ const PLAY_SERVICE_ACCOUNT_JSON = defineSecret('PLAY_SERVICE_ACCOUNT_JSON');
 // Debe coincidir EXACTO con el nombre de paquete de la app publicada y con
 // el productId de la suscripción creada en Play Console (ver
 // js/monetization.js → MONETIZATION.plans.premium.playProductId).
-const ANDROID_PACKAGE_NAME = 'com.drakon.app'; // TODO: ajustar al nombre de paquete real
+const ANDROID_PACKAGE_NAME = 'com.drakon.app'; // definitivo (decidido por el creador en la ronda 12); no se puede cambiar tras publicar en Play
 const PREMIUM_PRODUCT_ID = 'drakon_premium_monthly';
+const PREMIUM_ENTITLED_STATES = ['SUBSCRIPTION_STATE_ACTIVE', 'SUBSCRIPTION_STATE_CANCELED', 'SUBSCRIPTION_STATE_IN_GRACE_PERIOD'];
 
 const VOICES = {
   dragon:'ErXwobaYiN019PkySvjV', wizard:'VR6AewLTigWG4xSOukaG', fox:'TxGEqnHWrfWFTfGW9XjX',
@@ -139,13 +142,25 @@ exports.drakonAi = onCall({
       role:['system','user','assistant'].includes(m.role)?m.role:'user',
       content:validateText(m.content,4000,'message')
     }));
-    const resp=await fetch('https://api.groq.com/openai/v1/chat/completions',{
-      method:'POST', headers:{'Content-Type':'application/json','Authorization':`Bearer ${GROQ_API_KEY.value()}`},
-      body:JSON.stringify({model:'llama-3.3-70b-versatile',messages,max_tokens:900,temperature:0.7})
-    });
-    if(!resp.ok){ await refundQuota(request.auth.uid,'chat',data.localDate); throw new HttpsError('internal','The tutor is temporarily unavailable.'); }
-    const json=await resp.json(); const text=json?.choices?.[0]?.message?.content?.trim();
-    if(!text){ await refundQuota(request.auth.uid,'chat',data.localDate); throw new HttpsError('internal','The tutor returned an empty response.'); }
+    // Modelos de Groq en orden de preferencia. `llama-3.3-70b-versatile` fue retirado por Groq el
+    // 16/08/2026 (https://console.groq.com/docs/deprecations); si un modelo falla o desaparece, se
+    // prueba el siguiente para que el chat no se caiga. Revisa esta lista cuando Groq anuncie cambios.
+    let text='';
+    for(const model of GROQ_CHAT_MODELS){
+      let resp;
+      try{
+        resp=await fetch('https://api.groq.com/openai/v1/chat/completions',{
+          method:'POST', headers:{'Content-Type':'application/json','Authorization':`Bearer ${GROQ_API_KEY.value()}`},
+          // reasoning_effort:'low': estos modelos razonan antes de responder y, con un tope de 900 tokens,
+          // un razonamiento largo dejaría la respuesta vacía (igual que en el cliente, ver chat.js).
+          body:JSON.stringify({model,messages,max_tokens:900,temperature:0.7,reasoning_effort:'low'})
+        });
+      }catch(e){ console.warn('[drakonAi] fallo de red con', model, e&&e.message); continue; }
+      if(!resp.ok){ console.warn('[drakonAi] Groq respondió', resp.status, 'con', model); continue; }
+      const json=await resp.json(); text=(json?.choices?.[0]?.message?.content||'').trim();
+      if(text) break;
+    }
+    if(!text){ await refundQuota(request.auth.uid,'chat',data.localDate); throw new HttpsError('internal','The tutor is temporarily unavailable.'); }
     return {text,remaining};
   }
   if(action==='tts'){
@@ -232,11 +247,11 @@ exports.verifyPlayPurchase = onCall({
     throw new HttpsError('failed-precondition', 'Purchase verification is not configured yet on the server.');
   }
 
+  // API vigente: purchases.subscriptionsv2.get (la v1 `subscriptions.get` está obsoleta).
   let subscription;
   try{
-    const resp = await publisher.purchases.subscriptions.get({
+    const resp = await publisher.purchases.subscriptionsv2.get({
       packageName: ANDROID_PACKAGE_NAME,
-      subscriptionId: productId,
       token: purchaseToken,
     });
     subscription = resp.data;
@@ -245,11 +260,16 @@ exports.verifyPlayPurchase = onCall({
     throw new HttpsError('invalid-argument', 'This purchase could not be verified with Google Play.');
   }
 
-  // paymentState: 0=pendiente, 1=pagado, 2=prueba gratis, 3=pendiente por
-  // cambio de plan diferido. expiryTimeMillis = cuándo vence si no se
-  // renueva. Solo se considera Premium activo si de verdad no ha vencido.
-  const expiryMs = Number(subscription.expiryTimeMillis || 0);
-  const isActive = expiryMs > Date.now() && [1,2].includes(subscription.paymentState);
+  // El token debe corresponder a NUESTRO producto (una suscripción puede tener varias líneas).
+  const lineItem = (subscription.lineItems || []).find(li => li && li.productId === productId);
+  if(!lineItem) throw new HttpsError('invalid-argument', 'Unknown product.');
+
+  // Estados que dan derecho a Premium: activa, cancelada pero todavía dentro del periodo
+  // pagado, y periodo de gracia (el pago falló pero Google sigue reintentando).
+  // Quedan fuera: pendiente, en espera (ON_HOLD), pausada y vencida.
+  // expiryTime llega en formato RFC 3339; si falta o no se entiende → 0 (no activa).
+  const expiryMs = Date.parse(lineItem.expiryTime || '') || 0;
+  const isActive = expiryMs > Date.now() && PREMIUM_ENTITLED_STATES.includes(subscription.subscriptionState);
 
   if(!isActive){
     throw new HttpsError('failed-precondition', 'This subscription is not currently active.');
@@ -268,7 +288,7 @@ exports.verifyPlayPurchase = onCall({
   // Confirmar la compra ante Google Play (obligatorio, evita el reembolso
   // automático a los 3 días) — si ya estaba confirmada, Play devuelve un
   // error que se puede ignorar con seguridad.
-  if(!subscription.acknowledgementState){
+  if(subscription.acknowledgementState === 'ACKNOWLEDGEMENT_STATE_PENDING'){
     try{
       await publisher.purchases.subscriptions.acknowledge({
         packageName: ANDROID_PACKAGE_NAME,
@@ -291,6 +311,31 @@ exports.verifyPlayPurchase = onCall({
   }, { merge:true });
 
   return { isPremium:true, expiresAt:expiryMs };
+});
+
+/* ═══════════════════════════════════════════════════════════
+   Borrado de cuenta: limpieza de datos del servidor
+   La app borra users/{uid} y la cuenta de Auth. Este disparador, que se ejecuta cuando
+   la cuenta de Auth desaparece (también si se borra desde la consola de Firebase o tras
+   una solicitud por la página eliminar-cuenta.html), elimina el resto de datos ligados al
+   uid, que el cliente no puede borrar por sus reglas: contadores de uso de IA, solicitud
+   de consentimiento parental y vínculos de compra de Google Play. Los reportes de
+   respuestas de IA (aiReports) NO llevan uid, así que no hay nada que borrar ahí.
+   Es idempotente: si algún documento ya no existe no pasa nada.
+   ═══════════════════════════════════════════════════════════ */
+async function deleteUserServerData(uid){
+  const db = getFirestore();
+  const deleted = [];
+  const targets = [['users', uid], ['parentalConsentRequests', uid], ['aiRateLimits', uid + '_chat'], ['aiRateLimits', uid + '_tts']];
+  for(const [col, id] of targets){ await db.collection(col).doc(id).delete(); deleted.push(col + '/' + id); }
+  const owned = await db.collection('playPurchaseTokens').where('uid', '==', uid).get();
+  for(const d of owned.docs){ await d.ref.delete(); deleted.push('playPurchaseTokens/' + d.id); }
+  return deleted;
+}
+exports.deleteUserServerData = deleteUserServerData; // para las pruebas
+exports.onAccountDeleted = functionsV1.auth.user().onDelete(async (user) => {
+  if(!user || !user.uid) return;
+  await deleteUserServerData(user.uid);
 });
 
 // Consentimiento parental (COPPA / Google Play Families).

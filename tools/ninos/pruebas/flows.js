@@ -1,11 +1,13 @@
 const H=require('./harness.js');
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const waitFor=async(f,ms=6000)=>{const t0=Date.now();while(Date.now()-t0<ms){try{if(f())return true}catch(e){}await sleep(50)}return false};
 let pass=0,fail=0;const ok=(c,m)=>{if(c){pass++;console.log('  ✓',m)}else{fail++;console.log('  ✗ FALLA:',m)}};
-const answerYear=async(t,year)=>{const sel=t.w.document.getElementById('ageGateYear');sel.value=String(year);t.w.submitAgeGate();await sleep(300)};
+const answerYear=async(t,year)=>{const sel=t.w.document.getElementById('ageGateYear');await waitFor(()=>sel.options.length>5,10000); // el selector se rellena al mostrarse la pantalla de edad (tras el splash)
+  sel.value=String(year);t.w.submitAgeGate();await sleep(300)};
 (async()=>{
   const Y=new Date().getFullYear();
   console.log('T1 instalación nueva, sin sesión → verificación de edad primero');
-  let t=await H.boot();t.fireAuth(null);await sleep(400);
+  let t=await H.boot();t.fireAuth(null);await waitFor(()=>t.activeScreen().join()==='screen-age-gate',10000);await sleep(200); // sin SDK de Firebase, la verificación de edad aparece al terminar el splash de arranque
   ok(t.activeScreen().join()==='screen-age-gate','la primera pantalla es la verificación de edad ('+t.activeScreen()+')');
   ok(!t.w.document.getElementById('screen-login').classList.contains('active'),'el login/registro NO se muestra antes de la edad');
 
@@ -22,6 +24,8 @@ const answerYear=async(t,year)=>{const sel=t.w.document.getElementById('ageGateY
   const purchase=await t.w.eval('DrakonBilling.purchasePremium()');
   ok(purchase.ok===false&&purchase.reason==='minor','compra Premium rechazada');
   t.w.setLoginMode('register');t.w.document.getElementById('loginEmail').value='nino@x.com';t.w.document.getElementById('loginPass').value='123456';
+  // En modo infantil el SDK de Firebase no se carga (ronda 12): se simula uno presente para comprobar que el bloqueo de cuenta NO depende de su ausencia.
+  t.w._fbInit=true;t.w._firebase=t.w._firebase||{};
   let su=false;t.w._firebase.signUp=()=>{su=true;return Promise.resolve({})};await t.w.submitLogin();await sleep(100);
   ok(su===false,'registro con correo bloqueado');
   let g=false;t.w._firebase.signInGoogle=()=>{g=true;return Promise.resolve()};await t.w.loginWithGoogle();ok(g===false,'acceso con Google bloqueado');
@@ -42,7 +46,7 @@ const answerYear=async(t,year)=>{const sel=t.w.document.getElementById('ageGateY
   t.w.close();
 
   console.log('T4 adulto (35 años) → acceso normal');
-  t=await H.boot();t.fireAuth(null);await sleep(300);await answerYear(t,Y-35);
+  t=await H.boot();t.fireAuth(null);await sleep(300);await answerYear(t,Y-35);await waitFor(()=>t.w._fbInit&&t.w._firebase&&t.activeScreen().join()==='screen-login'); // el SDK se descarga tras declarar 13+
   ok(t.activeScreen().join()==='screen-login','tras la edad ve la pantalla de acceso ('+t.activeScreen()+')');
   ok(t.w.canCreateAccount()===true&&t.st().isMinor===false,'puede crear cuenta');
   t.calls.fetch.length=0;await t.w.fetch('https://api.groq.com/x',{});ok(t.calls.fetch.includes('https://api.groq.com/x'),'el adulto no tiene la red bloqueada');

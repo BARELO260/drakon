@@ -112,6 +112,11 @@ async function submitAgeGate(){
   state.ageGateCompleted = true;
   state.parentalConsentStatus = state.isMinor ? 'pending' : null;
   save();
+  // 13 años o más: ahora (y solo ahora) se descarga el SDK de Firebase (Google) para el acceso.
+  // Menores de 13: no se carga nunca (modo infantil, sin conexión con Google).
+  if(!state.isMinor && typeof window.ensureFirebaseSdk === 'function'){
+    try{ await window.ensureFirebaseSdk(); }catch(e){}
+  }
   // Antes de iniciar sesión (nadie ha dado todavía ningún dato personal):
   // adultos → pantalla de acceso; menores de 13 → modo infantil local, sin cuenta.
   if(!(window._fbUser || (window._fbAuth && window._fbAuth.currentUser))){ routeBeforeAuth(); return; }
@@ -190,6 +195,26 @@ function isChildLocalMode(){
   return !!(state.ageGateCompleted && state.isMinor && !(window._fbUser));
 }
 
+// Adapta la interfaz al modo infantil: oculta lo que depende de IA, cuentas o compras, para que
+// no se ofrezca nada que no funciona (y para no promocionar compras a menores; Política de Familias).
+// Se llama desde startLocalSession() y updatePremUI() (esta se ejecuta en cada refresco de la interfaz).
+function applyChildModeUI(){
+  try{
+    if(!document.getElementById('child-style')){
+      const s = document.createElement('style'); s.id = 'child-style';
+      s.textContent = '.child-mode #mtab-ai,.child-mode #bn-chat,.child-mode #planPill,.child-mode .memory-card,.child-mode .prem-banner,.child-mode .setting-row[onclick*="showPremModal"]{display:none!important}';
+      document.head.appendChild(s);
+    }
+    const child = isChildLocalMode();
+    document.body.classList.toggle('child-mode', child);
+    if(child){
+      const aiTab = document.getElementById('tab-ai');
+      if(aiTab && aiTab.style.display !== 'none' && typeof switchTab === 'function') switchTab('home');
+    }
+    return child;
+  }catch(e){ return false; }
+}
+
 // Un menor de 13 no puede crear cuenta (ni por correo ni por Google).
 function canCreateAccount(){
   return !(state.ageGateCompleted && state.isMinor);
@@ -203,6 +228,7 @@ function startLocalSession(){
   try{
     applyTheme(state.theme || 'dark');
     applyNativeLanguageUI();
+    applyChildModeUI();
     updateAllUI();
     scheduleMidnightReset();
     updateStreakCountdown();

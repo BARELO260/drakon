@@ -1,0 +1,43 @@
+{
+  "packageId": "com.drakon.app",
+  "host": "barelo260.github.io",
+  "name": "Drakón — Aprende Idiomas con IA",
+  "launcherName": "Drakón",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#d97706",
+  "themeColorDark": "#d97706",
+  "navigationColor": "#0c0800",
+  "navigationColorDark": "#0c0800",
+  "navigationDividerColor": "#0c0800",
+  "navigationDividerColorDark": "#0c0800",
+  "backgroundColor": "#0c0800",
+  "enableNotifications": false,
+  "startUrl": "/drakon/index.html",
+  "iconUrl": "https://barelo260.github.io/drakon/assets/icons/icon-512.png",
+  "maskableIconUrl": "https://barelo260.github.io/drakon/assets/icons/icon-maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "drakon-upload"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://barelo260.github.io/drakon/manifest.json",
+  "fullScopeUrl": "https://barelo260.github.io/drakon/",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": false,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "minSdkVersion": 21
+}

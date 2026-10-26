@@ -1,10 +1,11 @@
 /* Managed AI client. Provider credentials never reach the browser or APK.
-   NOTA: el gateway (Firebase Functions) requiere el plan de pago Blaze. Mientras
+   NOTA (ronda 12): ACTIVADO. Solo despliega esta versión de la web DESPUÉS de desplegar
+   la función drakonAi (ver GUIA_GOOGLE_PLAY.md, sección 5). El gateway requiere el plan de pago Blaze. Mientras
    el proyecto siga en el plan gratuito Spark, DRAKON_AI_GATEWAY_ENABLED debe
    quedar en false para que la app use siempre las claves personales (BYOK) y
    nunca intente llamar a una función que no existe. Cuando actives Blaze y
    despliegues drakonAi, pon esto en true. */
-const DRAKON_AI_GATEWAY_ENABLED = false;
+const DRAKON_AI_GATEWAY_ENABLED = true;
 const DRAKON_AI_GATEWAY = window.DRAKON_AI_GATEWAY || 'https://us-central1-drakon-a30c8.cloudfunctions.net/drakonAi';
 
 function hasManagedAi(){ return Boolean(DRAKON_AI_GATEWAY_ENABLED && DRAKON_AI_GATEWAY && window._fbAuth?.currentUser); }

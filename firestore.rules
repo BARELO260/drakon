@@ -80,6 +80,24 @@ service cloud.firestore {
       allow update, delete: if false;
     }
 
+    // Reportes de respuestas de la IA (política de contenido generado por IA de Google Play).
+    // Cualquier persona con sesión puede CREAR un reporte; nadie puede leerlo, cambiarlo ni
+    // borrarlo desde la app (se revisan desde la consola de Firebase). El documento NO lleva
+    // uid ni correo: solo motivo, texto de la respuesta reportada y datos técnicos mínimos.
+    match /aiReports/{reportId} {
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['reason','text','note','lang','mode','createdAt'])
+        && request.resource.data.keys().hasAll(['reason','text','createdAt'])
+        && request.resource.data.reason in ['ofensiva','sexual','peligrosa','incorrecta','otra']
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0 && request.resource.data.text.size() <= 1500
+        && request.resource.data.createdAt is int
+        && (!('note' in request.resource.data) || (request.resource.data.note is string && request.resource.data.note.size() <= 300))
+        && (!('lang' in request.resource.data) || (request.resource.data.lang is string && request.resource.data.lang.size() <= 8))
+        && (!('mode' in request.resource.data) || (request.resource.data.mode is string && request.resource.data.mode.size() <= 24));
+      allow read, update, delete: if false;
+    }
+
     // Todo lo demás, denegado por defecto.
     match /{document=**} {
       allow read, write: if false;

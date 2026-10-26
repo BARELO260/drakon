@@ -1,10 +1,10 @@
 // ── CAMBIA BUILD EN CADA DEPLOY ──────────────────────────────
-const BUILD = '20261018-v27-modo-infantil';
+const BUILD = '20261023-v29-ia-gestionada';
 // ─────────────────────────────────────────────────────────────
 const CACHE = 'drakon-' + BUILD;
 
 const OWN_ORIGIN = self.location.origin;
-const APP_SHELL = ['./index.html', './manifest.json', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
+const APP_SHELL = ['./index.html', './manifest.json', './css/fonts.css', './assets/fonts/inter-latin-wght-normal.woff2', './assets/fonts/baloo-2-latin-wght-normal.woff2', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(

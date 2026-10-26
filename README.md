@@ -140,11 +140,15 @@ verificación de identidad) y una revisión legal.
 
 **Pendiente (requiere tu decisión o un profesional):**
 - Revisión legal de `docs/privacy.html` y `docs/terms.html`.
-- Confirmar que el texto de privacidad es cierto: p. ej. la frase «registro técnico
-  de errores» (sección 2) solo es correcta si realmente existe tal registro.
-- Las tipografías (Google Fonts) y los componentes de Firebase se cargan desde
-  servidores de Google, que reciben la IP del dispositivo (ya declarado en la
-  política). Para evitarlo habría que alojar las tipografías en `docs/assets/`.
+- (Ronda 12) La frase «registro técnico de errores» se quitó de la política: no existía tal registro.
+- (Ronda 12) Las tipografías (Inter y Baloo 2, licencia OFL) ya están alojadas en
+  `docs/assets/fonts/` y se declaran en `docs/css/fonts.css`: no se piden a Google.
+  El SDK de Firebase solo se descarga cuando la persona declara 13 años o más
+  (`ensureFirebaseSdk` en `docs/index.html`); en modo infantil no se contacta con Google.
+- (Ronda 12) Reportar respuestas de la IA: `docs/js/report.js` + regla `aiReports`.
+  Eliminación de cuenta: `docs/eliminar-cuenta.html` + función `onAccountDeleted`.
+- (Ronda 12) Empaquetado y publicación: ver `GUIA_GOOGLE_PLAY.md`, `play/` y `twa/`.
+- **Aviso:** `docs/docs/` es una copia antigua de la app; bórrala (`git rm -r docs/docs`).
 
 
 ### Resultado de la consulta a los proveedores de IA (sept. 2026)

@@ -1,63 +1,88 @@
 # Guía para publicar Drakón en Google Play
 
-Estado a fecha de la ronda 11. Este documento separa **lo que ya está hecho y probado**, **lo que necesito que decidas o me digas** y **los pasos que solo puedes hacer tú** (consolas, claves, cuentas).
+Estado a fecha de la **ronda 12**. Este documento separa **lo que ya está hecho y probado**, **lo que depende de ti** y **lo que no se puede verificar desde un chat**.
+
+Documentos relacionados: `play/FICHA_Y_FORMULARIOS.md` (textos de la ficha y borrador de formularios), `twa/LEEME_EMPAQUETADO.md` (generar el AAB), `README.md` (menores de 13), `REVISION_LECCIONES.md` (contenido).
+
+## 0. Decisiones fijadas (ronda 12)
+
+| Dato | Valor |
+|---|---|
+| Nombre de paquete | `com.drakon.app` (definitivo) |
+| Dominio | `https://barelo260.github.io/drakon/` (GitHub Pages). Requiere un 2.º repositorio `barelo260.github.io` para `assetlinks.json` |
+| Cuenta de desarrollador | Personal, Guatemala, nombre público «JLX Development» |
+| Correo público | joseluisdev123@gmail.com |
 
 ## 1. Ya hecho en el código (con pruebas automáticas)
 
-La app puede usarla cualquier persona, de cualquier edad. Diseño elegido (detalle en `README.md`, sección «Menores de 13 años»):
+La app puede usarla cualquier persona. Diseño (detalle en `README.md`):
 
 | Edad | Qué pasa |
 |---|---|
-| Antes de nada | La **verificación de edad es lo primero** que ve cualquiera, antes de registro o login. |
-| 13 o más | Pantalla de acceso normal (cuenta por correo/Google). |
-| Menos de 13 | **Modo infantil local**: no se puede crear cuenta, no se pide ningún dato, el progreso se guarda solo en el dispositivo. Sin chat con IA, voz gestionada, cámara, micrófono, dictado ni compras. |
+| Antes de nada | La **verificación de edad es lo primero** que ve cualquiera (no se contacta con ningún servidor externo antes de responderla). |
+| 13 o más | Se descarga el SDK de Firebase y aparece el acceso normal (correo/Google). |
+| Menos de 13 | **Modo infantil local**: sin cuenta, sin SDK de Google, sin datos fuera del dispositivo, sin chat con IA/voz/cámara/micrófono/compras. La interfaz oculta la pestaña IA Chat, Chats, los planes Premium y las misiones que exigen IA. |
 
-Además: bloqueo global de red/sensores como segunda barrera, chequeo de edad **en el servidor**, reglas de Firestore que impiden al cliente darse el «consentimiento aprobado» o cambiar su año de nacimiento, vinculación de cada compra de Play a una sola cuenta, política de privacidad y términos alineados con el comportamiento real, y nueva versión del service worker.
+Novedades de la ronda 12:
+1. **Reportar respuestas de la IA** (`docs/js/report.js`, regla `aiReports` en `firestore.rules`): botón «🚩 Reportar» bajo cada respuesta; envía texto + motivo + comentario, sin uid ni correo; si no hay sesión o falla, abre un borrador de correo.
+2. **Eliminación de cuenta**: `docs/eliminar-cuenta.html` (solicitud web por correo, plazo declarado de 30 días), enlazada desde la app, la política y los términos. Nueva función `onAccountDeleted` (borra datos del servidor ligados al uid cuando desaparece la cuenta de Auth).
+3. **Sin Google en modo infantil**: SDK de Firebase cargado solo para 13+ (`ensureFirebaseSdk` en `index.html`) y **tipografías alojadas en la app** (`docs/css/fonts.css`, `docs/assets/fonts/`, licencia OFL).
+4. **Revisión con Chromium real** (`tools/ronda12/ui_real.py`): detectó y se corrigió que el modo infantil mostraba planes Premium con precio, la tarjeta «Memoria de tu tutor» y misiones imposibles de cumplir.
+5. **Compras**: `verifyPlayPurchase` usa `purchases.subscriptionsv2.get` (estados activa / cancelada con tiempo restante / periodo de gracia dan Premium; en espera, pausada, vencida o pendiente no).
+6. **TWA**: `twa/twa-manifest.json`, plantilla `twa/barelo260.github.io/.well-known/assetlinks.json`, icono maskable, manifest corregido, comprobador `tools/ronda12/comprobar_twa.js`.
+7. Correo de contacto actualizado y política corregida (se quitó la frase del «registro técnico de errores», que no existe en el código).
 
-Pruebas (todas pasan):
-- `tools/ninos/pruebas/flows.js` — 24 comprobaciones del flujo en jsdom (`npm install jsdom@22`, luego `NODE_PATH=…/node_modules node flows.js`).
-- `tools/ninos/pruebas/functions.test.js` — 18 comprobaciones de las Cloud Functions con dependencias simuladas.
-- `node tools/validate_lessons.js docs/js` — 0 errores, 0 avisos.
+Pruebas (todas pasan; ejecútalas con `NODE_PATH=<carpeta con jsdom@22>/node_modules`):
+- `node tools/validate_lessons.js docs/js` → 0 errores, 0 avisos.
+- `tools/ninos/pruebas/flows.js` → 24/24 · `functions.test.js` → 38/38 · `ronda12.js` → 46/46.
+- `python3 tools/ronda12/ui_real.py` (Playwright + Chromium) → 27/27.
+- `node tools/ronda12/comprobar_twa.js` → 0 errores, 1 pendiente (la huella SHA-256).
+- Las pruebas nuevas **fallan con el código de la ronda 11** (comprobado), así que miden algo real.
 
-## 2. Lo que necesito de ti (si quieres que lo prepare yo)
+## 2. Lo que depende de ti (en orden)
 
-1. **Nombre de paquete definitivo** (p. ej. `com.tunombre.drakon`). Hoy hay un `TODO` en `functions/index.js` (`ANDROID_PACKAGE_NAME`).
-2. **Dominio donde se servirá la app.** Es la decisión más importante del empaquetado (ver 3.B).
-3. **¿Es cierta la frase «registro técnico de errores»** de la sección 2 de `privacy.html`? No encuentro código que lo haga. Si no existe, la quito.
-4. **Correo de contacto público.** La política muestra `jcordonpineda@gmail.com`. Confirma que quieres un correo personal visible en la ficha y en la política, o dame otro.
-5. **Tipo de cuenta de desarrollador** (personal u organización) y país: cambia los requisitos de verificación y de pruebas previas.
-6. Revisión legal de `privacy.html` y `terms.html`: yo no soy abogado.
+1. **Comprobar que Guatemala permite registro de comerciante** en Play (https://support.google.com/googleplay/android-developer/answer/9306917). Si no, no podrás cobrar Premium.
+2. **Limpiar el repositorio**: borrar `docs/docs/` (copia antigua de la app que GitHub Pages publicaría en `/drakon/docs/`; `git rm -r docs/docs`). Las carpetas `css/` y `js/` de la raíz son restos que no se publican.
+3. **Activar el tutor de IA gestionado (lo más importante)**: hoy `DRAKON_AI_GATEWAY_ENABLED=false` → el chat usa la **clave de Groq que escribe cada usuario**, y un usuario normal de Play no la tendrá. Pasos exactos en la sección 5 de esta guía. Ojo: `drakonAi` ya usa modelos vigentes (Groq retiró `llama-3.3-70b-versatile` el 16/08/2026) y solo cubre el **chat de texto** y la **voz TTS (18+)**; el dictado por voz y «Estoy allí ahora» (cámara) siguen pidiendo la clave personal hasta que se amplíe la función.
+4. **Firebase**: Plan Blaze; secretos `GROQ_API_KEY` y `ELEVENLABS_API_KEY` (y `PLAY_SERVICE_ACCOUNT_JSON` cuando exista la app en Play); `firebase deploy` en dos fases (sección 5).
+5. **App Check**: configúralo en la consola y **solo entonces** `enforceAppCheck:true` en `drakonAi` y `verifyPlayPurchase`.
+6. **Probar las reglas de Firestore con el emulador** (`firebase emulators:start --only firestore`; necesita Java). Yo no pude: no hay red/Java.
+7. Repositorio `barelo260.github.io` + `assetlinks.json` (`twa/barelo260.github.io/README.md`).
+8. Generar y firmar el AAB (`twa/LEEME_EMPAQUETADO.md`) y subirlo a Pruebas internas.
+9. Play Console: rellenar los formularios con `play/FICHA_Y_FORMULARIOS.md`, crear la suscripción `drakon_premium_monthly`, cuenta de servicio con acceso a la API, tester de licencia.
+10. **Cuenta personal**: pruebas cerradas con 12 probadores durante 14 días antes de pedir producción (confírmalo en la consola).
+11. Crear cuenta de prueba para el equipo de revisión y pegarla en «Acceso a la app».
+12. **Revisión legal** de `privacy.html`, `terms.html` y `eliminar-cuenta.html` (no soy abogado) y **confirmar** dos compromisos que yo redacté: el plazo de **30 días** para atender solicitudes de eliminación por correo y la mención «publicada como JLX Development».
+13. **Revisión de las traducciones** por hablantes nativos (todo el contenido de idiomas es de un modelo de lenguaje).
+14. **Revisar semanalmente la colección `aiReports`** en Firebase y actuar sobre lo reportado.
 
-## 3. Pasos en orden (los haces tú; yo preparo lo que haga falta)
+## 3. Riesgos que no he podido cerrar
 
-**A. Firebase (backend)**
-1. `firebase deploy --only firestore:rules,functions`.
-2. Secretos: `firebase functions:secrets:set GROQ_API_KEY`, `ELEVENLABS_API_KEY`, `PLAY_SERVICE_ACCOUNT_JSON`.
-3. **App Check**: registra la app Android con Play Integrity, comprueba que el cliente lo envía y **solo entonces** pon `enforceAppCheck:true` en `drakonAi` y `verifyPlayPurchase` (si lo activas antes, la app deja de funcionar).
-4. Prueba las reglas con el emulador de Firestore antes de desplegar (yo no pude ejecutarlo aquí).
+- **Reglas de Firestore sin probar con el emulador** (incluida la nueva `aiReports`). Sus campos coinciden con lo que envía el cliente (lo comprueba una prueba), pero la sintaxis de las reglas solo la valida Firebase.
+- **Compras**: el flujo `subscriptionsv2` está probado con simulaciones y con la comprobación de que las funciones de la librería existen, **no con Google Play real**. La confirmación (`acknowledge`) sigue usando el método v1; verifícala con una compra de prueba.
+- **Bubblewrap/AAB/TWA y permisos de micrófono y cámara dentro de la TWA**: no probado en dispositivo. Es el punto más probable de sorpresas.
+- **`onAccountDeleted`** es un disparador de Auth de 1.ª generación: confirma en el despliegue que se crea sin errores.
+- **Fecha de nacimiento autodeclarada**: la verificación es «neutral», un niño puede mentir o borrar los datos. La política no promete lo contrario.
+- **Eliminación por correo** es manual: tú borras la cuenta en Firebase → Authentication y el disparador limpia el resto.
+- **Fuentes**: Inter y Baloo 2 se sirven desde la app; los idiomas con alfabetos no latinos (árabe) usan la tipografía del sistema, como antes.
+- Las capturas de `play/capturas/` son del modo infantil; faltan capturas del chat con IA (hazlas con respuestas reales).
 
-**B. Empaquetado Android (TWA)**
-- Una TWA exige servir `https://TU-DOMINIO/.well-known/assetlinks.json`. Con GitHub Pages en `usuario.github.io/repo` **no se puede** (el archivo tendría que estar en la raíz de `usuario.github.io`). Soluciones: dominio propio apuntando a GitHub Pages (lo más simple), o un repositorio llamado `usuario.github.io`.
-- Genera el proyecto con Bubblewrap o PWABuilder usando el nombre de paquete de arriba; firma con **Play App Signing** y copia la huella SHA-256 al `assetlinks.json`.
-- La compra de suscripción usa la Digital Goods API, que solo funciona dentro de una TWA instalada desde Play.
+## 5. Activar el tutor de IA gestionado en Firebase (paso a paso)
 
-**C. Play Console**
-1. Crear la app y subir el AAB a una pista de **pruebas internas**.
-2. **Público objetivo**: como la usa cualquier edad, incluye a menores de 13 → se aplica la **Política de Familias**. Responde el cuestionario con lo descrito en la sección 1 y revisa en la consola los requisitos vigentes.
-3. **Seguridad de los datos** (borrador, verifícalo contra lo que realmente despliegues):
-   - 13+ con cuenta: correo, ID de usuario, progreso de aprendizaje; mensajes del chat enviados al proveedor de IA (Groq) para responder; historial de compras de Play. Cifrado en tránsito: sí. Borrado: en la app y por correo.
-   - Menores de 13 (modo infantil): no se recopila ni comparte nada.
-   - No hay anuncios ni analítica.
-4. Clasificación de contenido (IARC), URL de la política (`https://TU-DOMINIO/privacy.html`) y URL/instrucciones de **eliminación de cuenta**.
-5. Producto de suscripción `drakon_premium_monthly`, cuenta de servicio con acceso a la Play Developer API y su JSON como secreto.
-6. Ficha: capturas, gráfico de funciones 1024×500, descripción corta y larga (iconos de 192/512 px ya existen).
-7. Pruebas cerradas: **consulta en la consola cuántos testers y cuántos días exige tu tipo de cuenta**; esa regla ha cambiado varias veces.
+Proyecto Firebase: `drakon-a30c8` (es el que usa `docs/js/ai-gateway.js`; compruébalo con `firebase projects:list`).
 
-## 4. Riesgos que no he podido cerrar
-
-- **Reglas de Firestore sin probar con el emulador** (no hay red/Java aquí). La lógica es sencilla pero compruébala.
-- **API de suscripciones:** `functions/index.js` usa `purchases.subscriptions.get` (v1). Google la tiene marcada como obsoleta en favor de `subscriptionsv2`; funciona hoy pero conviene migrar y probar con una compra real de prueba.
-- **Todo el flujo de compra, la TWA y App Check** requieren un dispositivo real y las consolas; solo los he podido revisar a nivel de código.
-- **Tipografías y componentes de Firebase se cargan desde servidores de Google** (reciben la IP del dispositivo; ya está declarado en la política). Para evitarlo habría que alojar las tipografías en `docs/assets/`.
-- **Fecha de nacimiento declarada:** la verificación de edad es «neutral» (autodeclarada), como exige Google; un niño puede mentir o borrar los datos de la app. No es un fallo, pero la política de privacidad no debe prometer lo contrario (no lo hace).
-- **Contenido de idiomas** sin revisión de hablantes nativos (ver `REVISION_LECCIONES.md`).
+1. **Plan Blaze**: consola de Firebase → engranaje → «Uso y facturación» → «Modificar plan» → Blaze. Pon un **presupuesto con alerta** (p. ej. 5 USD) para evitar sorpresas. Sin Blaze no se pueden desplegar funciones con secretos.
+2. **Clave de Groq**: crea una cuenta en https://console.groq.com, genera una API key (https://console.groq.com/keys) y revisa en la consola de Groq los límites de tu plan: el plan gratuito puede quedarse corto con muchos usuarios.
+3. **Herramientas en tu PC**: Node.js 20, `npm install -g firebase-tools`, `firebase login`.
+4. En la carpeta del repositorio (donde está `firebase.json`): `firebase use drakon-a30c8`, luego `cd functions`, `npm install`, `cd ..`.
+5. **Secretos** (te pedirá pegar el valor; no se guardan en el código):
+   - `firebase functions:secrets:set GROQ_API_KEY`
+   - `firebase functions:secrets:set ELEVENLABS_API_KEY` → es obligatorio que exista porque `drakonAi` lo declara. Si NO vas a usar voz de ElevenLabs, escribe un valor de relleno (p. ej. `no-usado`): la voz gestionada fallará y la app volverá a la voz del dispositivo (comportamiento no probado en dispositivo).
+6. **Despliegue, fase 1** (no necesita todavía la cuenta de Play):
+   `firebase deploy --only firestore:rules,functions:drakonAi,functions:onAccountDeleted,functions:onParentalConsentUpdated`
+   Antes, en la consola → Firestore → Reglas, copia las reglas actuales por si necesitas volver atrás (hay historial). Si el despliegue de reglas da un error de sintaxis, no se aplica nada.
+7. En la consola → Functions comprueba que `drakonAi` aparece y copia su URL: debe ser `https://us-central1-drakon-a30c8.cloudfunctions.net/drakonAi`. Si es distinta, cámbiala en `docs/js/ai-gateway.js`.
+8. **Activar en la app** (solo después de 6 y 7): aplica `drakon_ronda12_activar_ia.zip` (cambia `DRAKON_AI_GATEWAY_ENABLED` a `true` y sube la versión del service worker) o edita a mano la línea 7 de `docs/js/ai-gateway.js` y sube `BUILD` en `docs/sw.js`; haz commit y push.
+9. **Probar**: abre la app, declara 13+ años, inicia sesión, escribe un mensaje en el chat → debe responder sin pedir clave. Mira Functions → Registros si falla (`model_not_found`/`decommissioned` = cambia la lista `GROQ_CHAT_MODELS` en `functions/index.js`).
+10. **Fase 2** (cuando exista la app en Play y la cuenta de servicio): `firebase functions:secrets:set PLAY_SERVICE_ACCOUNT_JSON` y `firebase deploy --only functions:verifyPlayPurchase`.
+11. **App Check**: solo después de configurarlo en la consola y comprobar que la app lo envía, pasa `enforceAppCheck:true`. Antes de eso déjalo en `false`.

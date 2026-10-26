@@ -59,15 +59,17 @@ function updateAIBar(){
 ═══════════════════════════════════════ */
 function renderMissions(){
   const list=document.getElementById('missionList'); if(!list) return;
-  list.innerHTML=state.missions.map((m,i)=>`
+  // En modo infantil no hay IA: se ocultan las misiones de mensajes y correcciones.
+  const ms=(typeof isChildLocalMode==='function'&&isChildLocalMode())?state.missions.filter(m=>m.type!=='messages'&&m.type!=='corrections'):state.missions;
+  list.innerHTML=ms.map((m,i)=>`
     <div class="mi ${m.done?'done':''}">
       <span class="mi-ic">${m.icon}</span>
       <div class="mi-info"><div class="mi-n">${m.name}</div><div class="mi-d">${m.desc}</div><div class="mi-xp">${m.reward}</div></div>
       <div class="mi-check">${m.done?'✓':''}</div>
     </div>`).join('');
-  const done=state.missions.filter(m=>m.done).length;
-  const mb=document.getElementById('missionBar'); if(mb) mb.style.width=(done/state.missions.length*100)+'%';
-  const mp=document.getElementById('missionProg'); if(mp) mp.textContent=`${done} / ${state.missions.length}`;
+  const done=ms.filter(m=>m.done).length;
+  const mb=document.getElementById('missionBar'); if(mb) mb.style.width=(done/ms.length*100)+'%';
+  const mp=document.getElementById('missionProg'); if(mp) mp.textContent=`${done} / ${ms.length}`;
 }
 function checkMissions(){
   state.missions.forEach((m,i)=>{
@@ -106,7 +108,11 @@ function checkAchievements(){
 /* ═══════════════════════════════════════
    PREMIUM
 ═══════════════════════════════════════ */
-function showPremModal(){ document.getElementById('premModal').style.display='flex'; renderPremModal(); }
+function showPremModal(){
+  // Menores de 13: no se muestran planes ni precios (las compras están bloqueadas y no se promocionan).
+  if(typeof isMinorRestricted==='function' && isMinorRestricted()){ if(typeof showToast==='function') showToast('Esta función no está disponible en el modo infantil'); return; }
+  document.getElementById('premModal').style.display='flex'; renderPremModal();
+}
 function closePrem(){ document.getElementById('premModal').style.display='none'; }
 function closePremOv(e){ if(e.target===document.getElementById('premModal')) closePrem(); }
 
@@ -153,6 +159,7 @@ async function restorePremPurchases(){
 function updatePremUI(){
   const pp=document.getElementById('planPill'); if(pp){ pp.className=`plan-pill ${isPremiumActive()?'plan-pro':'plan-free'}`; pp.textContent=isPremiumActive()?'🔥 Drakón Premium · Activo':'🐾 Plan Gratis · Mejorar'; }
   const pl=document.getElementById('planLbl'); if(pl) pl.textContent=isPremiumActive()?'Premium':'Gratis';
+  if(typeof applyChildModeUI==='function') applyChildModeUI();
   updateAIBar();
 }
 
